@@ -3,7 +3,7 @@
     "name": "who-wants-to-be-a-millionaire",
     "slug": "who-wants-to-be-a-millionaire",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/images/icon.png",
     "scheme": "whowantstobeamillionaire",
     "userInterfaceStyle": "automatic",
