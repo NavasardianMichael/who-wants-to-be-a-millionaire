@@ -1,14 +1,20 @@
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import Header from './components/Header'
 
 export default function RootLayout() {
   return (
-    <SafeAreaView className='flex-1 bg-primary'>
+    <SafeAreaView className='flex-1'>
       <Stack
         screenOptions={{ headerShown: false }}
         layout={({ children }) => (
-          <View className='flex-1 p-4 bg-primary'>{children}</View>
+          <View className='flex-1 p-large bg-primary'>
+            <Header />
+            <View className='bg-primary flex-1'>
+              {children}
+            </View>
+          </View>
         )}
       />
     </SafeAreaView>

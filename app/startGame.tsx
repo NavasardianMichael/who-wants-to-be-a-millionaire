@@ -1,12 +1,12 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-const Onboarding = () => {
+const StartGame = () => {
   return (
     <View className='flex-1'>
-      <Text>Onboarding</Text>
+      <Text>Game</Text>
     </View>
   )
 }
 
-export default Onboarding
+export default StartGame
