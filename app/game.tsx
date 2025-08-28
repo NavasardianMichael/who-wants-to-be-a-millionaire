@@ -1,11 +1,15 @@
 import CountDown from '@/components/game/CountDown'
+import Sidebar from '@/components/game/Sidebar'
 import React from 'react'
 import { Text, TouchableHighlight, View } from 'react-native'
 
 const Game = () => {
   return (
     <View className='flex-1 bg-primary'>
-      <CountDown />
+      <View className='flex items-center justify-center my-auto'>
+        <CountDown />
+      </View>
+      <Sidebar />
       <View className='flex flex-col gap-4 mt-auto text-secondary'>
         <View>
           <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, est.?</Text>

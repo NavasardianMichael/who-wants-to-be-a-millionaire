@@ -10,7 +10,7 @@ export default function RootLayout() {
       <Stack
         screenOptions={{ headerShown: false }}
         layout={({ children }) => (
-          <View className='flex-1 p-lg bg-primary'>
+          <View className='flex-1 flex p-lg bg-primary'>
             <Header />
             <View className='bg-primary flex-1'>
               {children}

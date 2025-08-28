@@ -4,8 +4,9 @@ import { Image, View } from 'react-native';
 export default function Header() {
   const style = useStyleByOrientation(
     { width: 120, height: 120 },
-    { width: 80, height: 80 },
+    { width: 100, height: 100 },
   )
+
   const className = useStyleByOrientation('mb-8', 'mb-2');
   return (
     <View>
