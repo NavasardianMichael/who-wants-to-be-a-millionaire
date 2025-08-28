@@ -1,5 +1,4 @@
-import { DIFFICULTY_LEVELS } from '@/app/constants/difficulty'
-import { LANGUAGES } from '@/app/constants/settings'
+import { DIFFICULTY_LEVELS, LANGUAGES } from '@/constants/settings'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'

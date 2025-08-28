@@ -1,7 +1,8 @@
+import Header from '@/components/Header'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import Header from './components/Header'
+import '../styles/globals.css'
 
 export default function RootLayout() {
   return (
@@ -9,7 +10,7 @@ export default function RootLayout() {
       <Stack
         screenOptions={{ headerShown: false }}
         layout={({ children }) => (
-          <View className='flex-1 p-large bg-primary'>
+          <View className='flex-1 p-lg bg-primary'>
             <Header />
             <View className='bg-primary flex-1'>
               {children}

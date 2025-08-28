@@ -1,5 +1,4 @@
-import { Difficulty } from '@/app/types/difficulty'
-import { Language } from '@/app/types/languages'
+import { Difficulty, Language } from '@/types/settings'
 
 export type SettingsState = {
   language: Language

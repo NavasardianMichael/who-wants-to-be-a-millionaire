@@ -1,8 +1,7 @@
 export const ROUTES = {
   home: '/',
   onboarding: '/onboarding',
-  game: '/game',
   results: '/results',
-  startGame: '/startGame',
+  game: '/game',
   settings: '/settings',
 } as const

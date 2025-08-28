@@ -1,9 +1,15 @@
-import { Difficulty } from '@/app/types/difficulty'
-import { Language } from '@/app/types/languages'
+import { QuestionStage } from '@/types/game'
 
 export type GameState = {
-  language: Language
-  difficulty: Difficulty
+  currentQuestionStage: QuestionStage
+  lifelines: LifeLines
+}
+
+export type LifeLines = {
+  fiftyFifty: boolean
+  askAudience: boolean
+  phoneAFriend: boolean
+  switchQuestion: boolean
 }
 
 export type GameStateActions = {
