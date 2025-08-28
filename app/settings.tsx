@@ -1,38 +1,32 @@
-import AppDropdown from "@/components/ui/AppDropdown";
-import AppLinkAsButton from "@/components/ui/AppLinkAsButton";
-import { ROUTES } from "@/constants/routes";
-import { DIFFICULTY_LEVELS, LANGUAGES } from "@/constants/settings";
-import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation';
-import { Difficulty, Language } from '@/types/settings';
+import AppDropdown from '@/components/ui/AppDropdown'
+import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
+import { ROUTES } from '@/constants/routes'
+import { DIFFICULTY_LEVELS, LANGUAGES } from '@/constants/settings'
+import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
+import { Difficulty, Language } from '@/types/settings'
 
-import React, { useCallback, useState } from "react";
-import { Text, View } from "react-native";
+import React, { useCallback, useState } from 'react'
+import { View } from 'react-native'
 
 const Settings = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<Language>(
     LANGUAGES[1]
-  );
-  const [difficulty, setDifficulty] = useState<Difficulty>(
-    DIFFICULTY_LEVELS[2]
-  );
+  )
+  const [difficulty, setDifficulty] = useState<Difficulty>(DIFFICULTY_LEVELS[2])
 
-  const containerClassName = useClassNameByOrientation('p-md', 'p-sm');
-  const labelClassName = useClassNameByOrientation('mb-md', 'mb-sm');
+  const containerClassName = useClassNameByOrientation('p-md', 'p-sm')
+  const labelClassName = useClassNameByOrientation('mb-md', 'mb-sm')
 
   const onLanguageChange = useCallback((value: Language) => {
-    setSelectedLanguage(value);
-  }, []);
+    setSelectedLanguage(value)
+  }, [])
 
   const onDifficultyChange = useCallback((value: Difficulty) => {
-    setDifficulty(value);
-  }, []);
+    setDifficulty(value)
+  }, [])
 
   return (
     <View className={`flex-1 bg-primary ${containerClassName}`}>
-      <Text className={`text-2xl text-center text-white font-bold  ${labelClassName}`}>
-        Settings
-      </Text>
-
       <View className='my-auto'>
         <AppDropdown
           label='Select Language'
@@ -54,7 +48,7 @@ const Settings = () => {
         Save Settings
       </AppLinkAsButton>
     </View>
-  );
-};
+  )
+}
 
-export default Settings;
+export default Settings

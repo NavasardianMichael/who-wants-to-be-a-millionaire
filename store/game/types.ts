@@ -1,3 +1,4 @@
+import { LIFELINES } from '@/constants/game'
 import { QuestionStage } from '@/types/game'
 
 export type GameState = {
@@ -5,12 +6,7 @@ export type GameState = {
   lifelines: LifeLines
 }
 
-export type LifeLines = {
-  fiftyFifty: boolean
-  askAudience: boolean
-  phoneAFriend: boolean
-  switchQuestion: boolean
-}
+export type LifeLines = Record<(typeof LIFELINES)[number], boolean>
 
 export type GameStateActions = {
   setGameState: (state: Partial<GameState>) => void

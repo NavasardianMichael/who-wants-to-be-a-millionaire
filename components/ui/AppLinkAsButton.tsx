@@ -1,5 +1,5 @@
-import { Link, LinkProps } from 'expo-router';
-import React, { FC, memo, useMemo } from 'react';
+import { Link, LinkProps } from 'expo-router'
+import React, { FC, memo, useMemo } from 'react'
 
 type Props = LinkProps
 
@@ -10,15 +10,11 @@ const AppLinkAsButton: FC<Props> = ({
   ...restProps
 }) => {
   const combinedClassName = useMemo(() => {
-    return `w-[300px] py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
+    return `min-w-[300px] box-border py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
   }, [className])
 
   return (
-    <Link
-      href={href}
-      className={combinedClassName}
-      {...restProps}
-    >
+    <Link href={href} className={combinedClassName} {...restProps}>
       {children}
     </Link>
   )

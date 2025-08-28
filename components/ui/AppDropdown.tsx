@@ -16,7 +16,13 @@ type Props = {
   className?: string
 }
 
-const AppDropdown: FC<Props> = ({ label, options, value, className, onChange }) => {
+const AppDropdown: FC<Props> = ({
+  label,
+  options,
+  value,
+  className,
+  onChange,
+}) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const classNameByOrientation = useClassNameByOrientation('mb-md', 'mb-sm')
 
@@ -46,7 +52,7 @@ const AppDropdown: FC<Props> = ({ label, options, value, className, onChange }) 
           <Text className='text-secondary'>{value}</Text>
         </View>
         <Text
-          className={`text-secondary text-xs transition-transform ${isDropdownOpen && 'rotate-180'}`}
+          className={`text-secondary text-xs transition ${isDropdownOpen && 'rotate-180'}`}
         >
           {'▼'}
         </Text>
@@ -59,8 +65,9 @@ const AppDropdown: FC<Props> = ({ label, options, value, className, onChange }) 
               <TouchableOpacity
                 key={option}
                 onPress={() => selectLanguage(option)}
-                className={`py-sm px-md flex-row items-center border-b border-primary ${value === option ? 'bg-blue-100' : 'bg-secondary'
-                  }`}
+                className={`py-sm px-md flex-row items-center border-b border-primary ${
+                  value === option ? 'bg-blue-100' : 'bg-secondary'
+                }`}
               >
                 <Text className='color-primary'>{option}</Text>
               </TouchableOpacity>

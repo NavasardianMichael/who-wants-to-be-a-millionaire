@@ -9,7 +9,7 @@ const initialState: GameState = {
     fiftyFifty: true,
     askAudience: true,
     phoneAFriend: true,
-    switchQuestion: true
+    switchQuestion: true,
   },
 }
 
