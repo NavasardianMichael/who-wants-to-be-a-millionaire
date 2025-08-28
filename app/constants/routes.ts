@@ -1,4 +1,5 @@
 export const ROUTES = {
+  home: '/',
   onboarding: '/onboarding',
   game: '/game',
   results: '/results',

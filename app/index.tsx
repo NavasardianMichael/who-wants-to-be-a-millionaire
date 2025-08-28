@@ -1,7 +1,7 @@
-import { Link } from 'expo-router';
-import { Text, View } from 'react-native';
-import { ROUTES } from './constants/routes';
-import './globals.css';
+import { Text, View } from 'react-native'
+import AppLinkAsButton from './components/ui/AppLinkAsButton'
+import { ROUTES } from './constants/routes'
+import './globals.css'
 
 export default function Index() {
   return (
@@ -10,8 +10,10 @@ export default function Index() {
         Who Wants to Be a Millionaire
       </Text>
       <View className='flex flex-1 justify-center items-center gap-4'>
-        <Link href={ROUTES.startGame} className='w-60 bg-primary py-4 px-8 text-center rounded-md text-secondary border border-secondary'>Start Game</Link>
-        <Link href={ROUTES.settings} className='w-60 bg-primary py-4 px-8 text-center rounded-md text-secondary border border-secondary'>Settings</Link>
+        <AppLinkAsButton href={ROUTES.startGame}>Start Game</AppLinkAsButton>
+        <AppLinkAsButton href={ROUTES.settings} className='w-60'>
+          Settings
+        </AppLinkAsButton>
       </View>
     </View>
   )
