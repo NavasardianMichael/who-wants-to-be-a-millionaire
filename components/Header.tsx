@@ -14,9 +14,7 @@ export default function Header() {
       <Image
         style={style}
         className={`mx-auto ${className} w-20 h-20`}
-        source={{
-          uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7422rOY8k9HnSastRocNFsW9N4e94BUd4Oj44CMKThWXvMP8iOGHdsx0&s',
-        }}
+        source={require('../assets/images/logo.webp')}
       />
     </View>
   )
