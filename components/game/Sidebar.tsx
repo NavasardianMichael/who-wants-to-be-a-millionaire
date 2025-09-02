@@ -1,3 +1,5 @@
+import { QUESTION_STAGES_TEMPLATE } from '@/constants/game'
+import { useGameStore } from '@/store/game/store'
 import FontAwesome from '@expo/vector-icons/FontAwesome'
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5'
 import Octicons from '@expo/vector-icons/Octicons'
@@ -10,6 +12,7 @@ import {
 } from 'react-native'
 
 export default function Sidebar() {
+  const { currentQuestionStage } = useGameStore()
   // const { lifelines } = useGameStore()
   const [isOpen, setIsOpen] = useState(false)
   // console.log({ lifelines })
@@ -61,6 +64,22 @@ export default function Sidebar() {
           >
             <FontAwesome name='refresh' size={16} color='#fff' />
           </TouchableOpacity>
+        </View>
+
+        <View className='flex flex-col-reverse my-auto'>
+          {QUESTION_STAGES_TEMPLATE.map(({ label, stage }, index) => {
+            return (
+              <View key={index} className='flex-row gap-md py-[0.05rem]'>
+                <Text className='text-xs text-right w-8 color-secondary'>
+                  {stage}.{' '}
+                  {stage === currentQuestionStage && (
+                    <Text className='text-tertiary'>◆</Text>
+                  )}
+                </Text>
+                <Text className='text-xs color-secondary'>{label}</Text>
+              </View>
+            )
+          })}
         </View>
       </View>
     </View>
