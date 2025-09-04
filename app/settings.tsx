@@ -15,7 +15,6 @@ const Settings = () => {
   const [difficulty, setDifficulty] = useState<Difficulty>(DIFFICULTY_LEVELS[2])
 
   const containerClassName = useClassNameByOrientation('p-md', 'p-sm')
-  const labelClassName = useClassNameByOrientation('mb-md', 'mb-sm')
 
   const onLanguageChange = useCallback((value: Language) => {
     setSelectedLanguage(value)
