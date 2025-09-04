@@ -7,7 +7,7 @@ const AppButton: FC<Props> = ({ children, className, ...restProps }) => {
   const combinedClassName = useMemo(() => {
     return `min-w-[300px] box-border py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
   }, [className])
-  console.log({ combinedClassName })
+
   return (
     <TouchableOpacity className={combinedClassName} {...restProps}>
       {children}

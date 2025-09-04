@@ -1,10 +1,14 @@
-import { Lifeline, QuestionStage } from '@/types/game'
+import { AnswerOptionSerialNumber, Lifeline, QuestionStage } from '@/types/game'
 
 export type GameState = {
   currentQuestionStage: QuestionStage
   lifelines: Lifelines
   quiz: Quiz[]
-  currentSound: Sound | null
+  sound: {
+    apiById: Record<string, SoundAPI>
+    activeIdsStack: SoundAPI['id'][]
+    isMuted: boolean
+  }
 }
 
 type Lifelines = {
@@ -16,23 +20,29 @@ type Quiz = {
   id: number;
   question: string;
   options: string[];
-  answerSerialNumber: number;
+  answeredOptionSerialNumber: AnswerOptionSerialNumber | null;
+  correctOptionSerialNumber: AnswerOptionSerialNumber;
 }
 
-type Sound = {
+export type SoundAPI = {
+  id: string;
   play: () => Promise<void>;
   pause: () => Promise<void>;
   stop: () => Promise<void>;
-  toggleMute: () => Promise<void>;
-  isPlaying: boolean;
-  isMuted: boolean;
+  unload: () => Promise<void>;
+  setMutedStatus: (isMuted: boolean) => Promise<void>;
+  toggleMutedStatus: () => Promise<void>;
 }
 
 export type GameStateActions = {
   setGameState: (state: Partial<GameState>) => void
   setLifelineNonAvailable: (lifeline: Lifeline) => void
   setCurrentLifeline: (lifeline: Lifelines['current']) => void
-  setCurrentSound: (sound: GameState['currentSound']) => void
-  stopCurrentSound: () => void
-  playCurrentSound: () => void
+  initSound: (uri: string, options?: { loop?: boolean, playOnInit?: boolean }) => void
+  playSoundById: (id: SoundAPI['id']) => void
+  setIsSoundMuted: (id: SoundAPI['id'], isMuted: GameState['sound']['isMuted']) => void
+  setIsActiveSoundMuted: (isMuted: GameState['sound']['isMuted']) => void
+  toggleActiveSoundMuted: () => void
+  // stopCurrentSound: () => void
+  // playCurrentSound: () => void
 }

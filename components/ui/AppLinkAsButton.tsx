@@ -12,7 +12,6 @@ const AppLinkAsButton: FC<Props> = ({
   const combinedClassName = useMemo(() => {
     return `min-w-[300px] box-border py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
   }, [className])
-  console.log({ combinedClassName })
 
   return (
     <Link href={href} className={combinedClassName} {...restProps}>

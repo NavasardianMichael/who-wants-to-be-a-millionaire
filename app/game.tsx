@@ -1,19 +1,21 @@
 import finalAnswerSound from "@/assets/audio/final_answer.mp3"
 import CountDown from '@/components/game/CountDown'
 import Sidebar from '@/components/game/Sidebar/Sidebar'
-import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Text, TouchableHighlight, View } from 'react-native'
 
 
 const Game = () => {
-  const { currentQuestionStage, quiz } = useGameStore()
-  const { play } = useSound(finalAnswerSound)
+  const { currentQuestionStage, quiz, initSound, playSoundById } = useGameStore()
   const currentQuiz = quiz[currentQuestionStage - 1]
 
-  const onOptionPress = (option: string, index: number) => {
-    play()
+  useEffect(() => {
+    initSound(finalAnswerSound)
+  }, [initSound])
+
+  const onOptionPress = async (option: string, index: number) => {
+    playSoundById(finalAnswerSound)
   }
 
   return (

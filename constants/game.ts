@@ -74,3 +74,22 @@ export const QUESTION_STAGES_TEMPLATE: {
       label: '£1 MILLION',
     },
   ]
+
+
+export const SOUNDS_URIS = {
+  audienceHelp: '@/assets/audio/audienceHelp.mp3',
+  correctAnswer: '@/assets/audio/correct_answer.mp3',
+  doubleDipSecond: '@/assets/audio/double-dip-second.mp3',
+  easy: '@/assets/audio/easy.mp3',
+  easyWav: '@/assets/audio/easy.wav',
+  fiftyFifty: '@/assets/audio/fiftyFifty.mp3',
+  finalAnswer: '@/assets/audio/final_answer.mp3',
+  hardMillion: '@/assets/audio/hard_million.mp3',
+  mainTheme: '@/assets/audio/main_theme.mp3',
+  medium: '@/assets/audio/medium.mp3',
+  next: '@/assets/audio/next.mp3',
+  resign: '@/assets/audio/resign.mp3',
+  winningTheme: '@/assets/audio/winning_theme.mp3',
+  wrongAnswer: '@/assets/audio/wrong_answer.mp3',
+  youWonMillion: '@/assets/audio/you_won_million.mp3',
+} as const
