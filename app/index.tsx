@@ -1,4 +1,4 @@
-import mainThemeSound from "@/assets/audio/main_theme.mp3";
+
 import resignSound from "@/assets/audio/resign.mp3";
 import AppLinkAsButton from '@/components/ui/AppLinkAsButton';
 import { ROUTES } from '@/constants/routes';
@@ -10,7 +10,6 @@ export default function Index() {
   const { initSound, playSoundById } = useGameStore()
 
   useEffect(() => {
-    initSound(mainThemeSound, { playOnInit: true, loop: true })
     initSound(resignSound)
   }, [initSound])
 
@@ -20,7 +19,7 @@ export default function Index() {
         Who Wants to Be a Millionaire
       </Text>
       <View className='flex flex-1 justify-center items-center gap-4'>
-        <AppLinkAsButton href={ROUTES.game} onPress={() => { playSoundById('resignSound') }}>Start Game</AppLinkAsButton>
+        <AppLinkAsButton href={ROUTES.game} onPress={() => { playSoundById(resignSound) }}>Start Game</AppLinkAsButton>
         <AppLinkAsButton href={ROUTES.settings}>Settings</AppLinkAsButton>
       </View>
     </View>

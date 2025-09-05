@@ -1,3 +1,4 @@
+import { QUESTIONS_MOCK } from '@/constants/questionsMock';
 import { Audio } from "expo-av";
 import { create } from 'zustand';
 import { combine } from 'zustand/middleware';
@@ -15,19 +16,11 @@ const initialState: GameState = {
       switchQuestion: true,
     }
   },
-  quiz: [
-    {
-      id: 1,
-      question: "What is the capital of France?",
-      options: ["Berlin", "Madrid", "Paris", "Rome"],
-      answeredOptionSerialNumber: null,
-      correctOptionSerialNumber: 3,
-    }
-  ],
+  quiz: QUESTIONS_MOCK,
   sound: {
     apiById: {},
     activeIdsStack: [],
-    isMuted: false,
+    isMuted: true,
   }
 }
 
@@ -37,112 +30,126 @@ export const useGameStore = create<GameState & GameStateActions>()(
   immer(
     combine(
       initialState,
-      (set): GameStateActions => ({
-        setGameState: async (payload) => {
-          set((prevState) => {
-
-          })
-        },
-        setLifelineNonAvailable: async (payload) => {
-          set((prevState) => {
-            prevState.lifelines.available[payload] = false
-          })
-        },
-        setCurrentLifeline: async (payload) => {
-          set((prevState) => {
-            prevState.lifelines.current = payload
-          })
-        },
-        initSound: (uri, options) => {
-          set((prevState) => {
-            const id = uri
-            if (!prevState.sound.apiById[id]) {
-
-              const { loop = false, playOnInit = false } = options || {};
-              let sound: Audio.Sound | null = null
-
-              const loadSound = async () => {
-                if (!sound) {
-                  const { sound: newSound } = await Audio.Sound.createAsync(
-                    { uri },
-                    { shouldPlay: false, isMuted: prevState.sound.isMuted }
-                  )
-                  sound = newSound
-                  await sound?.setIsMutedAsync(prevState.sound.isMuted)
-                  // sound.setOnPlaybackStatusUpdate(updateStatus)
-                  await sound.setIsLoopingAsync(loop)
-                }
+      (set, get): GameStateActions => {
+        return {
+          setGameState: async (payload) => {
+            set((prevState) => ({
+              ...prevState,
+              ...payload
+            }))
+          },
+          setLifelineNonAvailable: async (payload) => {
+            set((prevState) => {
+              prevState.lifelines.available[payload] = false
+            })
+          },
+          setCurrentLifeline: async (payload) => {
+            set((prevState) => {
+              prevState.lifelines.current = payload
+            })
+          },
+          initSound: async (uri, options) => {
+            return new Promise<SoundAPI>(async (resolve) => {
+              const id = uri;
+              const existingSound = get().sound.apiById[id]
+              if (existingSound) {
+                resolve(existingSound)
+                return
               }
+              const { loop = false } = options || {};
+
+              const { sound } = await Audio.Sound.createAsync(
+                { uri },
+                { shouldPlay: false, isMuted: get().sound.isMuted }
+              );
+
+              await sound.setIsMutedAsync(get().sound.isMuted);
+              await sound.setIsLoopingAsync(loop);
 
               const api: SoundAPI = {
                 id,
                 play: async () => {
-                  // await currentSound?.stop()
-                  await loadSound()
-                  await sound?.playAsync()
-                  prevState.sound.activeIdsStack.push(id)
+                  await sound.playAsync();
+                  set((state) => {
+                    state.sound.activeIdsStack.push(id);
+                    // sound.setOnPlaybackStatusUpdate((status) => {
+                    //   if (!status.isLoaded) return
+                    //   if ((status as AVPlaybackStatusSuccess).didJustFinish) {
+                    //     state.sound.activeIdsStack.pop()
+                    //     const newActiveId = state.sound.activeIdsStack.at(-1)
+                    //     if (newActiveId && state.sound.apiById[newActiveId]) {
+                    //       state.sound.apiById[newActiveId].setMutedStatus(state.sound.isMuted)
+                    //       state.sound.apiById[newActiveId].play()
+                    //     }
+                    //   }
+                    // })
+                  });
                 },
                 pause: async () => {
-                  await sound?.pauseAsync()
+                  await sound.pauseAsync();
                 },
                 stop: async () => {
-                  await sound?.stopAsync()
+                  await sound.stopAsync();
                 },
                 setMutedStatus: async (isMuted: boolean) => {
-                  await sound?.setIsMutedAsync(isMuted)
+                  sound.setIsMutedAsync(isMuted);
+                  set((state) => {
+                    state.sound.isMuted = isMuted;
+                  });
                 },
                 toggleMutedStatus: async () => {
-                  await sound?.setIsMutedAsync(!prevState.sound.isMuted)
+                  const isMuted = !get().sound.isMuted;
+                  await sound.setIsMutedAsync(isMuted);
+                  set((state) => {
+                    state.sound.isMuted = isMuted;
+                  });
                 },
                 unload: async () => {
-                  // await sound?.unloadAsync()
-                  // delete prevState.sound.apiById[id]
-                  // prevState.sound.activeIdsStack = prevState.sound.activeIdsStack.filter(sid => sid !== id)
+                  await sound.unloadAsync();
+                  set((state) => {
+                    delete state.sound.apiById[id];
+                    state.sound.activeIdsStack = state.sound.activeIdsStack.filter(
+                      (sid) => sid !== id
+                    );
+                  });
                 },
+              };
+
+              set((state) => {
+                state.sound.apiById[id] = api;
+              });
+              resolve(api);
+            });
+          },
+          toggleActiveSoundMuted: () => {
+            set((prevState) => {
+              const activeId = prevState.sound.activeIdsStack.at(-1)
+              const newStatus = !prevState.sound.isMuted
+              if (activeId && prevState.sound.apiById[activeId]) {
+                prevState.sound.apiById[activeId].setMutedStatus(newStatus)
               }
-
-              prevState.sound.apiById[id] = api
-              console.log({ api });
-
-              if (playOnInit) api.play()
-            }
-          })
-        },
-        toggleActiveSoundMuted: () => {
-          set(async (prevState) => {
-            const activeId = prevState.sound.activeIdsStack.at(-1)
-            if (activeId && prevState.sound.apiById[activeId]) await prevState.sound.apiById[activeId].toggleMutedStatus()
-          })
-        },
-        setIsActiveSoundMuted: (isMuted) => {
-          set(async (prevState) => {
-            const activeId = prevState.sound.activeIdsStack.at(-1)
-            if (activeId && prevState.sound.apiById[activeId]) await prevState.sound.apiById[activeId].setMutedStatus(isMuted)
-          })
-        },
-        setIsSoundMuted: (id, isMuted) => {
-          set(async (prevState) => {
-            if (prevState.sound.apiById[id]) await prevState.sound.apiById[id].setMutedStatus(isMuted)
-          })
-        },
-        playSoundById: (id) => {
-          set(async (prevState) => {
-            if (!prevState.sound.apiById[id]) return
-            await prevState.sound.apiById[id].play()
-            prevState.sound.activeIdsStack.push(id)
-          })
-        },
-        // stopCurrentSound: async () => {
-        //   set(async (prevState) => {
-        //     await prevState.sound?.stop()
-        //   })
-        // },
-        // playCurrentSound: async () => {
-        //   set(async (prevState) => {
-        //     await prevState.sound?.play()
-        //   })
-        // },
-      })
+              prevState.sound.isMuted = newStatus
+            })
+          },
+          setIsActiveSoundMuted: async (isMuted) => {
+            const state = get()
+            const activeId = state.sound.activeIdsStack.at(-1)
+            if (activeId && state.sound.apiById[activeId]) state.sound.apiById[activeId].setMutedStatus(isMuted)
+          },
+          playSoundById: (id) => {
+            const state = get()
+            const activeId = state.sound.activeIdsStack.at(-1)
+            if (activeId) state.sound.apiById[activeId].pause()
+            state.sound.apiById[id].play()
+            state.sound.apiById[id].setMutedStatus(state.sound.isMuted)
+          },
+          setAnsweredOptionSerialNumber: (serialNumber) => {
+            set((prevState) => {
+              prevState.quiz[prevState.currentQuestionStage - 1].answeredOptionSerialNumber = serialNumber
+            })
+          }
+        }
+      }
     )
   )
 )

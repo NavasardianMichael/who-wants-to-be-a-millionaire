@@ -38,11 +38,9 @@ export type GameStateActions = {
   setGameState: (state: Partial<GameState>) => void
   setLifelineNonAvailable: (lifeline: Lifeline) => void
   setCurrentLifeline: (lifeline: Lifelines['current']) => void
-  initSound: (uri: string, options?: { loop?: boolean, playOnInit?: boolean }) => void
+  initSound: (uri: string, options?: { loop?: boolean, playOnInit?: boolean }) => Promise<SoundAPI>
   playSoundById: (id: SoundAPI['id']) => void
-  setIsSoundMuted: (id: SoundAPI['id'], isMuted: GameState['sound']['isMuted']) => void
   setIsActiveSoundMuted: (isMuted: GameState['sound']['isMuted']) => void
   toggleActiveSoundMuted: () => void
-  // stopCurrentSound: () => void
-  // playCurrentSound: () => void
+  setAnsweredOptionSerialNumber: (serialNumber: AnswerOptionSerialNumber) => void
 }
