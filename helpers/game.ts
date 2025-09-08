@@ -1,11 +1,11 @@
+import { OPTIONS_SERIAL_NUMBERS } from '@/constants/game'
 import { SOUNDS_IDS_BY_SAFE_HAVEN } from '@/constants/sound'
-import { AnswerOptionSerialNumber } from '@/types/game'
+import { OptionSerialNumber } from '@/types/game'
 
 export const sliceArrayContainingCorrectAnswer = (
-  correctAnswerSerialNumber: AnswerOptionSerialNumber
+  correctAnswerSerialNumber: OptionSerialNumber
 ) => {
-  const allOptions = [1, 2, 3, 4] as AnswerOptionSerialNumber[]
-  const incorrectOptions = allOptions.filter(
+  const incorrectOptions = OPTIONS_SERIAL_NUMBERS.filter(
     (option) => option !== correctAnswerSerialNumber
   )
   const randomOptionSerialNumberToPairWithCorrect =
@@ -21,34 +21,38 @@ export const sliceArrayContainingCorrectAnswer = (
 }
 
 export const getAnswerWithGuaranteedProbability = (
-  correctAnswerSerialNumber: AnswerOptionSerialNumber,
+  correctAnswerSerialNumber: OptionSerialNumber,
   guaranteedProbability: number
-): AnswerOptionSerialNumber => {
+): OptionSerialNumber => {
   const randomValue = Math.random() * 100
   return randomValue <= guaranteedProbability
     ? correctAnswerSerialNumber
-    : (Math.ceil(Math.random() * 4) as AnswerOptionSerialNumber)
+    : (Math.ceil(Math.random() * 4) as OptionSerialNumber)
 }
 
 export const getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer = (
-  correctAnswerSerialNumber: AnswerOptionSerialNumber,
+  correctAnswerSerialNumber: OptionSerialNumber,
   guaranteedProbability: number
-): Record<AnswerOptionSerialNumber, number> => {
-  const correctAnswerGuaranteedProbability = getAnswerWithGuaranteedProbability(
-    correctAnswerSerialNumber,
-    guaranteedProbability
-  )
+): Record<OptionSerialNumber, number> => {
+  const correctAnswerGuaranteedProbability = Math.max(Math.round(Math.random() * 100), 40)
+
   const probabilities = {
     [correctAnswerSerialNumber]: correctAnswerGuaranteedProbability,
-  } as Record<AnswerOptionSerialNumber, number>
+  } as Record<OptionSerialNumber, number>
+  console.log({ correctAnswerGuaranteedProbability });
 
   let remainingProbability = 100 - correctAnswerGuaranteedProbability
-  new Array(4).fill(null).forEach((_, index, arr) => {
-    const serialNumber = (index + 1) as AnswerOptionSerialNumber
+
+  OPTIONS_SERIAL_NUMBERS.forEach((option, i, arr) => {
+    const serialNumber = option as OptionSerialNumber
     if (probabilities[serialNumber]) return
     const optionProbability = Math.floor(Math.random() * remainingProbability)
     probabilities[serialNumber] = optionProbability
-    remainingProbability -= probabilities[serialNumber]
+    if (arr.length - 1 === i) {
+      probabilities[serialNumber] = remainingProbability
+      return
+    }
+    remainingProbability -= optionProbability
   })
   return probabilities
 }

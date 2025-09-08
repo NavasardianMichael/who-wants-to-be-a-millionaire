@@ -1,9 +1,9 @@
-import { AnswerOptionSerialNumber, Lifeline, QuestionStage } from '@/types/game'
+import { Lifeline, OptionSerialNumber, QuestionStage } from '@/types/game'
 
 export type GameState = {
   currentQuestionStage: QuestionStage
   lifelines: Lifelines
-  quiz: Quiz[]
+  quiz: QuizItem[]
   sound: {
     apiById: Record<string, SoundAPI>
     activeIdsStack: SoundAPI['id'][]
@@ -18,22 +18,22 @@ type Lifelines = {
   current: Lifeline | null
   disabled: boolean
   isPending: boolean
-  fiftyFifty: Nullable<Partial<Record<AnswerOptionSerialNumber, boolean>>>
-  askAudience: Nullable<Record<AnswerOptionSerialNumber, number>>
+  fiftyFifty: Nullable<Partial<Record<OptionSerialNumber, boolean>>>
+  askAudience: Nullable<Record<OptionSerialNumber, number>>
   phoneAFriend: Nullable<{
-    suggestedOptionSerialNumber: AnswerOptionSerialNumber
+    suggestedOptionSerialNumber: OptionSerialNumber
   }>
   switchQuestion: Nullable<{
-    wouldAnswer: AnswerOptionSerialNumber
+    wouldAnswer: OptionSerialNumber
   }>
 }
 
-type Quiz = {
+export type QuizItem = {
   id: number
   question: string
   options: string[]
-  answeredOptionSerialNumber: AnswerOptionSerialNumber | null
-  correctOptionSerialNumber: AnswerOptionSerialNumber
+  answeredOptionSerialNumber: OptionSerialNumber | null
+  correctOptionSerialNumber: OptionSerialNumber
 }
 
 export type SoundAPI = {
@@ -59,7 +59,7 @@ export type GameStateActions = {
   setIsActiveSoundMuted: (isMuted: GameState['sound']['isMuted']) => void
   toggleActiveSoundMuted: () => void
   setAnsweredOptionSerialNumber: (
-    serialNumber: AnswerOptionSerialNumber
+    serialNumber: OptionSerialNumber | null
   ) => void
 
   setCurrentLifeline: (lifeline: Lifelines['current']) => void

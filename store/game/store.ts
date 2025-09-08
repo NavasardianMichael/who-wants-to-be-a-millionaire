@@ -76,10 +76,10 @@ export const useGameStore = create<GameState & GameStateActions>()(
             const api: SoundAPI = {
               id,
               play: async () => {
-                await sound.playAsync()
                 set((state) => {
                   state.sound.activeIdsStack.push(id)
                 })
+                sound.playAsync()
               },
               playSoundByIdOnEnd: (soundId) => {
                 const state = get()
@@ -133,7 +133,11 @@ export const useGameStore = create<GameState & GameStateActions>()(
                 })
               },
             }
+            set((state) => {
+              state.sound.apiById[id] = api;
+            });
             resolve(api)
+
           })
         },
         toggleActiveSoundMuted: () => {
@@ -181,7 +185,7 @@ export const useGameStore = create<GameState & GameStateActions>()(
               getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer(
                 prevState.quiz[prevState.currentQuestionStage - 1]
                   .correctOptionSerialNumber,
-                0.7
+                70
               )
             prevState.lifelines.askAudience = probabilities
           })
@@ -191,14 +195,14 @@ export const useGameStore = create<GameState & GameStateActions>()(
             const optionSerialNumber = getAnswerWithGuaranteedProbability(
               prevState.quiz[prevState.currentQuestionStage - 1]
                 .correctOptionSerialNumber,
-              0.7
+              70
             )
             prevState.lifelines.phoneAFriend = {
               suggestedOptionSerialNumber: optionSerialNumber,
             }
           })
         },
-        setSwitchQuestionLifeline: () => {},
+        setSwitchQuestionLifeline: () => { },
       }
     })
   )

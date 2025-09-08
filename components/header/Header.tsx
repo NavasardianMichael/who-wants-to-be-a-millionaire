@@ -17,7 +17,7 @@ export default function Header() {
       const { play, setMutedStatus } = await initSound(SOUNDS_URIS.mainTheme, {
         loop: true,
       })
-      play()
+      await play()
       setMutedStatus(false)
       return
     }
@@ -25,7 +25,7 @@ export default function Header() {
   }
 
   return (
-    <View>
+    <View className='flex-1 max-h-[300px]'>
       <TouchableOpacity onPress={soundHandler} className='h-lg'>
         {isMuted ? (
           <MaterialIcons name='volume-off' size={24} color='#fff' />

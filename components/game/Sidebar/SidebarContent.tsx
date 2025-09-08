@@ -1,9 +1,11 @@
-import { QUESTION_STAGES_TEMPLATE } from '@/constants/game'
+import { LIFELINES, QUESTION_STAGES_TEMPLATE } from '@/constants/game'
 import { SOUND_ID_BY_LIFELINE } from '@/constants/sound'
+import { sleep } from '@/helpers/commons'
+import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useGameStore } from '@/store/game/store'
 import { Lifeline } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { Text, TouchableHighlight, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
 
@@ -23,6 +25,20 @@ export default function SidebarContent() {
     setIsSidebarOpen,
   } = useGameStore()
 
+  const currentQuizItem = useCurrentQuizItem()
+
+  useEffect(() => {
+    initSound(SOUND_ID_BY_LIFELINE.fiftyFifty)
+    initSound(SOUND_ID_BY_LIFELINE.askAudience)
+    initSound(SOUND_ID_BY_LIFELINE.phoneAFriend)
+    initSound(SOUND_ID_BY_LIFELINE.switchQuestion)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  const isAnswerPending = useMemo(() => {
+    return !!currentQuizItem.answeredOptionSerialNumber
+  }, [currentQuizItem.answeredOptionSerialNumber])
+
   const lifelineActions: Record<Lifeline, () => void> = useMemo(() => {
     return {
       fiftyFifty: setFiftyFiftyLifeline,
@@ -39,16 +55,22 @@ export default function SidebarContent() {
 
   const onLifelinePress = async (lifeline: Lifeline) => {
     setCurrentLifeline(lifeline)
-    lifelineActions[lifeline]()
+
 
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
     setLifelinesDisabled(true)
     await initSound(lifelineSoundId)
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
+    const isShowingResultAfterSoundEnds = lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
+    if (!isShowingResultAfterSoundEnds) {
+      await sleep(800)
+      lifelineActions[lifeline]()
+    }
 
     sound.apiById[lifelineSoundId].onEnd(() => {
       setLifelinesDisabled(false)
+      if (isShowingResultAfterSoundEnds) lifelineActions[lifeline]()
       // setCurrentLifeline(null)
     })
   }
@@ -57,7 +79,8 @@ export default function SidebarContent() {
     <>
       <View className='flex-row gap-sm'>
         {LIFELINES_TEMPLATE.map(({ id, icon }) => {
-          const isDisabled = lifelines.disabled || !!lifelines[id]
+          const isDisabled = isAnswerPending || lifelines.disabled || !!lifelines[id]
+
           return (
             <TouchableHighlight
               key={id}

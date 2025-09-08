@@ -4,8 +4,9 @@ import { SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
+import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useGameStore } from '@/store/game/store'
-import { AnswerOptionSerialNumber, QuestionStage } from '@/types/game'
+import { OptionSerialNumber, QuestionStage } from '@/types/game'
 import { useRouter } from 'expo-router'
 import React, { useEffect } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
@@ -14,18 +15,16 @@ const Game = () => {
   const router = useRouter()
   const {
     currentQuestionStage,
-    quiz,
     sound,
     lifelines,
     initSound,
     playSoundById,
     setGameState,
     setIsSidebarOpen,
+    setAnsweredOptionSerialNumber,
+    setCurrentLifeline
   } = useGameStore()
-  const currentQuiz = quiz[currentQuestionStage - 1]
-  const [tempAnswer, setTempAnswer] = React.useState<
-    AnswerOptionSerialNumber | undefined
-  >()
+  const currentQuizItem = useCurrentQuizItem()
   const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false)
 
   const optionClassNameByOrientation = useClassNameByOrientation(
@@ -45,19 +44,18 @@ const Game = () => {
   }, [])
 
   const onOptionPress = async (option: string, serialNumber: number) => {
-    setTempAnswer(serialNumber as AnswerOptionSerialNumber)
+    setAnsweredOptionSerialNumber(serialNumber as OptionSerialNumber)
     playSoundById(SOUNDS_URIS.finalAnswer)
     await sleep(2000)
     setShowCorrectAnswer(true)
     const isAnswerCorrect =
-      serialNumber === currentQuiz.correctOptionSerialNumber
+      serialNumber === currentQuizItem.correctOptionSerialNumber
     playSoundById(
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
     )
     await sleep(2000)
     if (isAnswerCorrect) {
       setIsSidebarOpen(true)
-      setTempAnswer(undefined)
       setShowCorrectAnswer(false)
       await sleep(1000)
 
@@ -67,59 +65,60 @@ const Game = () => {
       await sleep(3000)
 
       setIsSidebarOpen(false)
+      setAnsweredOptionSerialNumber(null)
       playSoundById(SOUNDS_URIS.next)
 
       const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
-      console.log({ safeHavenSoundId })
-
       sound.apiById[SOUNDS_URIS.next].playSoundByIdOnEnd(safeHavenSoundId)
     } else {
       router.replace(ROUTES.home)
       playSoundById(SOUNDS_URIS.mainTheme)
     }
+    setCurrentLifeline(null)
   }
 
   const getOptionClassNameByStatus = (
-    serialNumber: AnswerOptionSerialNumber
+    serialNumber: OptionSerialNumber
   ) => {
     if (showCorrectAnswer) {
       const isAnswerCorrect =
-        serialNumber === currentQuiz.correctOptionSerialNumber
+        serialNumber === currentQuizItem.correctOptionSerialNumber
       if (isAnswerCorrect) {
         return 'bg-green-500'
-      } else if (serialNumber === tempAnswer) {
+      } else if (serialNumber === currentQuizItem.answeredOptionSerialNumber) {
         return 'bg-red-500'
       }
     }
-    return tempAnswer === serialNumber ? 'bg-tertiary' : ''
+    return currentQuizItem.answeredOptionSerialNumber === serialNumber ? 'bg-tertiary' : ''
   }
 
   return (
-    <View className='flex-1 bg-primary' key={currentQuiz.id}>
+    <View className='flex-1 bg-primary' key={currentQuizItem.id}>
       <Sidebar />
       <View className='flex flex-col gap-lg mt-auto text-secondary'>
         <View>
           <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
-            {currentQuiz.question}
+            {currentQuizItem.question}
           </Text>
         </View>
 
         <View className='flex-row flex-wrap gap-md w-full'>
-          {currentQuiz.options.map((option, index) => {
+          {currentQuizItem.options.map((option, index) => {
             const optionClassNameByStatus = getOptionClassNameByStatus(
-              (index + 1) as AnswerOptionSerialNumber
+              (index + 1) as OptionSerialNumber
             )
+            const isRemovedByFiftyFifty = lifelines.fiftyFifty?.[
+              (index + 1) as OptionSerialNumber
+            ]
             return (
               <TouchableOpacity
                 key={option}
-                disabled={!!tempAnswer}
+                disabled={!!currentQuizItem.answeredOptionSerialNumber || isRemovedByFiftyFifty}
                 className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                 onPress={() => onOptionPress(option, index + 1)}
               >
                 <View className='flex-row gap-1 items-center h-[36px]'>
-                  {!lifelines.fiftyFifty?.[
-                    (index + 1) as AnswerOptionSerialNumber
-                  ] && (
+                  {!isRemovedByFiftyFifty && (
                     <>
                       <Text
                         className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
