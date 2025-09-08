@@ -12,12 +12,20 @@ export type GameState = {
   isSidebarOpen: boolean
 }
 
+type Nullable<T> = T | null
+
 type Lifelines = {
   current: Lifeline | null
-  fiftyFifty: Partial<Record<AnswerOptionSerialNumber, boolean>> | null
-  askAudience: Record<AnswerOptionSerialNumber, number> | null
-  phoneAFriend: AnswerOptionSerialNumber | null
-  switchQuestion: boolean | null
+  disabled: boolean
+  isPending: boolean
+  fiftyFifty: Nullable<Partial<Record<AnswerOptionSerialNumber, boolean>>>
+  askAudience: Nullable<Record<AnswerOptionSerialNumber, number>>
+  phoneAFriend: Nullable<{
+    suggestedOptionSerialNumber: AnswerOptionSerialNumber
+  }>
+  switchQuestion: Nullable<{
+    wouldAnswer: AnswerOptionSerialNumber
+  }>
 }
 
 type Quiz = {
@@ -36,13 +44,12 @@ export type SoundAPI = {
   unload: () => Promise<void>
   setMutedStatus: (isMuted: boolean) => Promise<void>
   toggleMutedStatus: () => Promise<void>
+  onEnd: (callback: () => void) => void
   playSoundByIdOnEnd: (id: SoundAPI['id']) => void
 }
 
 export type GameStateActions = {
   setGameState: (state: Partial<GameState>) => void
-  setLifelineNonAvailable: (lifeline: Lifeline) => void
-  setCurrentLifeline: (lifeline: Lifelines['current']) => void
   initSound: (
     uri: string,
     options?: { loop?: boolean; playOnInit?: boolean }
@@ -55,8 +62,10 @@ export type GameStateActions = {
     serialNumber: AnswerOptionSerialNumber
   ) => void
 
+  setCurrentLifeline: (lifeline: Lifelines['current']) => void
   setFiftyFiftyLifeline: () => void
   setAskAudienceLifeline: () => void
   setPhoneAFriendLifeline: () => void
   setSwitchQuestionLifeline: () => void
+  setLifelinesDisabled: (isDisabled: boolean) => void
 }

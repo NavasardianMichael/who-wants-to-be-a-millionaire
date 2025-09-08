@@ -14,6 +14,8 @@ const initialState: GameState = {
   currentQuestionStage: 1,
   lifelines: {
     current: null,
+    disabled: false,
+    isPending: false,
     fiftyFifty: null,
     askAudience: null,
     phoneAFriend: null,
@@ -38,11 +40,6 @@ export const useGameStore = create<GameState & GameStateActions>()(
             ...payload,
           }))
         },
-        setLifelineNonAvailable: async (payload) => {
-          set((prevState) => {
-            prevState.lifelines[payload] = null
-          })
-        },
         setCurrentLifeline: async (payload) => {
           set((prevState) => {
             prevState.lifelines.current = payload
@@ -51,6 +48,11 @@ export const useGameStore = create<GameState & GameStateActions>()(
         setIsSidebarOpen: async (isOpen) => {
           set((prevState) => {
             prevState.isSidebarOpen = isOpen
+          })
+        },
+        setLifelinesDisabled: async (isDisabled) => {
+          set((prevState) => {
+            prevState.lifelines.disabled = isDisabled
           })
         },
         initSound: async (uri, options) => {
@@ -82,17 +84,15 @@ export const useGameStore = create<GameState & GameStateActions>()(
               playSoundByIdOnEnd: (soundId) => {
                 const state = get()
                 sound.setOnPlaybackStatusUpdate((status) => {
-                  console.log('status', status)
-
-                  if (!status.isLoaded) return
-                  if ((status as AVPlaybackStatusSuccess).didJustFinish) {
-                    console.log(
-                      'setting sound by id on end',
-                      JSON.parse(JSON.stringify(state.sound.apiById))
-                    )
-
-                    state.sound.apiById[soundId]?.play()
-                  }
+                  if (
+                    !status.isLoaded ||
+                    !(status as AVPlaybackStatusSuccess).didJustFinish
+                  )
+                    return
+                  state.sound.apiById[soundId].setMutedStatus(
+                    state.sound.isMuted
+                  )
+                  state.sound.apiById[soundId].play()
                 })
               },
               pause: async () => {
@@ -122,11 +122,17 @@ export const useGameStore = create<GameState & GameStateActions>()(
                     state.sound.activeIdsStack.filter((sid) => sid !== id)
                 })
               },
+              onEnd: (callback) => {
+                sound.setOnPlaybackStatusUpdate((status) => {
+                  if (
+                    !status.isLoaded ||
+                    !(status as AVPlaybackStatusSuccess).didJustFinish
+                  )
+                    return
+                  callback()
+                })
+              },
             }
-
-            set((state) => {
-              state.sound.apiById[id] = api
-            })
             resolve(api)
           })
         },
@@ -187,7 +193,9 @@ export const useGameStore = create<GameState & GameStateActions>()(
                 .correctOptionSerialNumber,
               0.7
             )
-            prevState.lifelines.phoneAFriend = optionSerialNumber
+            prevState.lifelines.phoneAFriend = {
+              suggestedOptionSerialNumber: optionSerialNumber,
+            }
           })
         },
         setSwitchQuestionLifeline: () => {},

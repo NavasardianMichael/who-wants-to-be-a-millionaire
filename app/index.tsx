@@ -1,16 +1,15 @@
-
-import resignSound from "@/assets/audio/resign.mp3";
-import AppLinkAsButton from '@/components/ui/AppLinkAsButton';
-import { ROUTES } from '@/constants/routes';
-import { useGameStore } from '@/store/game/store';
-import { useEffect } from 'react';
-import { Text, View } from 'react-native';
+import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
+import { ROUTES } from '@/constants/routes'
+import { SOUNDS_URIS } from '@/constants/sound'
+import { useGameStore } from '@/store/game/store'
+import { useEffect } from 'react'
+import { Text, View } from 'react-native'
 
 export default function Index() {
   const { initSound, playSoundById } = useGameStore()
 
   useEffect(() => {
-    initSound(resignSound)
+    initSound(SOUNDS_URIS.resign)
   }, [initSound])
 
   return (
@@ -19,7 +18,14 @@ export default function Index() {
         Who Wants to Be a Millionaire
       </Text>
       <View className='flex flex-1 justify-center items-center gap-4'>
-        <AppLinkAsButton href={ROUTES.game} onPress={() => { playSoundById(resignSound) }}>Start Game</AppLinkAsButton>
+        <AppLinkAsButton
+          href={ROUTES.game}
+          onPress={() => {
+            playSoundById(SOUNDS_URIS.resign)
+          }}
+        >
+          Start Game
+        </AppLinkAsButton>
         <AppLinkAsButton href={ROUTES.settings}>Settings</AppLinkAsButton>
       </View>
     </View>

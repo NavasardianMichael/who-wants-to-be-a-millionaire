@@ -1,4 +1,4 @@
-import Header from '@/components/Header'
+import Header from '@/components/header/Header'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
 import '../styles/globals.css'

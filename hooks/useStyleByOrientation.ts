@@ -1,5 +1,6 @@
-import { useMemo } from 'react';
-import { StyleProp, useWindowDimensions } from 'react-native';
+import { useMemo } from 'react'
+import { StyleProp } from 'react-native'
+import { useIsPortrait } from './useIsPortrait'
 
 /**
  * A hook that returns a className depending on the device orientation.
@@ -13,11 +14,13 @@ import { StyleProp, useWindowDimensions } from 'react-native';
  * return <View className={className}>...</View>
  */
 
-export const useStyleByOrientation = <T>(portraitStyles: StyleProp<T>, landscapeStyles: StyleProp<T>): StyleProp<T> => {
-    const { width, height } = useWindowDimensions()
+export const useStyleByOrientation = <T>(
+  portraitStyles: StyleProp<T>,
+  landscapeStyles: StyleProp<T>
+): StyleProp<T> => {
+  const isPortrait = useIsPortrait()
 
-    return useMemo(() => {
-        return width < height ? portraitStyles : landscapeStyles
-    }, [width, height, portraitStyles, landscapeStyles])
+  return useMemo(() => {
+    return isPortrait ? portraitStyles : landscapeStyles
+  }, [isPortrait, portraitStyles, landscapeStyles])
 }
-

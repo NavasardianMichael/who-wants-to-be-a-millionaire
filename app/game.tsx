@@ -1,14 +1,8 @@
-import correctAnswerSound from '@/assets/audio/correct_answer.mp3'
-import easyQuestionSound from '@/assets/audio/easy.mp3'
-import finalAnswerSound from '@/assets/audio/final_answer.mp3'
-import hardAnswerSound from '@/assets/audio/hard.mp3'
-import mainThemeSound from '@/assets/audio/main_theme.mp3'
-import mediumAnswerSound from '@/assets/audio/medium.mp3'
-import nextQuestionSound from '@/assets/audio/next.mp3'
-import wrongAnswerSound from '@/assets/audio/wrong_answer.mp3'
 import Sidebar from '@/components/game/Sidebar/Sidebar'
 import { ROUTES } from '@/constants/routes'
+import { SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
+import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useGameStore } from '@/store/game/store'
 import { AnswerOptionSerialNumber, QuestionStage } from '@/types/game'
@@ -21,11 +15,12 @@ const Game = () => {
   const {
     currentQuestionStage,
     quiz,
+    sound,
+    lifelines,
     initSound,
     playSoundById,
     setGameState,
     setIsSidebarOpen,
-    sound,
   } = useGameStore()
   const currentQuiz = quiz[currentQuestionStage - 1]
   const [tempAnswer, setTempAnswer] = React.useState<
@@ -39,32 +34,32 @@ const Game = () => {
   )
 
   useEffect(() => {
-    initSound(finalAnswerSound)
-    initSound(correctAnswerSound)
-    initSound(wrongAnswerSound)
-    initSound(nextQuestionSound)
-    initSound(easyQuestionSound, { loop: true })
-    initSound(mediumAnswerSound, { loop: true })
-    initSound(hardAnswerSound, { loop: true })
+    initSound(SOUNDS_URIS.finalAnswer)
+    initSound(SOUNDS_URIS.correctAnswer)
+    initSound(SOUNDS_URIS.wrongAnswer)
+    initSound(SOUNDS_URIS.next)
+    initSound(SOUNDS_URIS.easy, { loop: true })
+    initSound(SOUNDS_URIS.medium, { loop: true })
+    initSound(SOUNDS_URIS.hard, { loop: true })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const onOptionPress = async (option: string, serialNumber: number) => {
     setTempAnswer(serialNumber as AnswerOptionSerialNumber)
-    playSoundById(finalAnswerSound)
+    playSoundById(SOUNDS_URIS.finalAnswer)
     await sleep(2000)
     setShowCorrectAnswer(true)
     const isAnswerCorrect =
       serialNumber === currentQuiz.correctOptionSerialNumber
-    playSoundById(isAnswerCorrect ? correctAnswerSound : wrongAnswerSound)
+    playSoundById(
+      isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
+    )
     await sleep(2000)
     if (isAnswerCorrect) {
       setIsSidebarOpen(true)
       setTempAnswer(undefined)
       setShowCorrectAnswer(false)
       await sleep(1000)
-      sound.apiById[correctAnswerSound].playSoundByIdOnEnd(easyQuestionSound)
-      sound.apiById[correctAnswerSound].setMutedStatus(false)
 
       setGameState({
         currentQuestionStage: (currentQuestionStage + 1) as QuestionStage,
@@ -72,10 +67,15 @@ const Game = () => {
       await sleep(3000)
 
       setIsSidebarOpen(false)
-      playSoundById(nextQuestionSound)
+      playSoundById(SOUNDS_URIS.next)
+
+      const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
+      console.log({ safeHavenSoundId })
+
+      sound.apiById[SOUNDS_URIS.next].playSoundByIdOnEnd(safeHavenSoundId)
     } else {
       router.replace(ROUTES.home)
-      playSoundById(mainThemeSound)
+      playSoundById(SOUNDS_URIS.mainTheme)
     }
   }
 
@@ -113,16 +113,22 @@ const Game = () => {
               <TouchableOpacity
                 key={option}
                 disabled={!!tempAnswer}
-                className={`${optionClassNameByOrientation} border border-secondary rounded-md py-sm px-md ${optionClassNameByStatus}`}
+                className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                 onPress={() => onOptionPress(option, index + 1)}
               >
-                <View className='flex-row gap-1'>
-                  <Text
-                    className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
-                  >
-                    {String.fromCharCode(65 + index)}.{' '}
-                  </Text>
-                  <Text className='text-secondary'>{option}</Text>
+                <View className='flex-row gap-1 items-center h-[36px]'>
+                  {!lifelines.fiftyFifty?.[
+                    (index + 1) as AnswerOptionSerialNumber
+                  ] && (
+                    <>
+                      <Text
+                        className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
+                      >
+                        {String.fromCharCode(65 + index)}.{' '}
+                      </Text>
+                      <Text className='text-secondary'>{option}</Text>
+                    </>
+                  )}
                 </View>
               </TouchableOpacity>
             )

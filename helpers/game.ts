@@ -1,3 +1,4 @@
+import { SOUNDS_IDS_BY_SAFE_HAVEN } from '@/constants/sound'
 import { AnswerOptionSerialNumber } from '@/types/game'
 
 export const sliceArrayContainingCorrectAnswer = (
@@ -50,4 +51,8 @@ export const getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer = (
     remainingProbability -= probabilities[serialNumber]
   })
   return probabilities
+}
+
+export const getBgSoundIdByQuestionStage = (stage: number) => {
+  return SOUNDS_IDS_BY_SAFE_HAVEN[Math.floor(stage / 5)]
 }

@@ -24,7 +24,7 @@ export default function Sidebar() {
         </TouchableWithoutFeedback>
       )}
       <View
-        className={`absolute top-0 right-0 z-10 w-80 p-md box-border transition  ${!isSidebarOpen && 'translate-x-full'} bg-gradient-to-br from-purple-700 via-purple-600 to-indigo-900 h-full flex-1`}
+        className={`absolute top-0 right-0 z-10 w-80 p-md box-border transition  ${!isSidebarOpen && 'translate-x-full'} bg-gradient-to-br from-purple-700  to-indigo-900 h-full flex-1`}
       >
         <SidebarContent />
       </View>
