@@ -1,3 +1,4 @@
+import { getQuestions } from '@/api/getQuestions'
 import Sidebar from '@/components/game/Sidebar/Sidebar'
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
@@ -6,6 +7,8 @@ import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useGameStore } from '@/store/game/store'
+import { useLifelinesStore } from '@/store/lifelines/store'
+import { useSoundStore } from '@/store/sound/store'
 import { OptionSerialNumber, QuestionStage } from '@/types/game'
 import { useRouter } from 'expo-router'
 import React, { useEffect } from 'react'
@@ -15,15 +18,12 @@ const Game = () => {
   const router = useRouter()
   const {
     currentQuestionStage,
-    sound,
-    lifelines,
-    initSound,
-    playSoundById,
     setGameState,
     setIsSidebarOpen,
     setAnsweredOptionSerialNumber,
-    setCurrentLifeline
   } = useGameStore()
+  const { soundAPIById, initSound, playSoundById } = useSoundStore()
+  const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
   const currentQuizItem = useCurrentQuizItem()
   const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false)
 
@@ -33,6 +33,7 @@ const Game = () => {
   )
 
   useEffect(() => {
+    getQuestions({ currentStage: currentQuestionStage })
     initSound(SOUNDS_URIS.finalAnswer)
     initSound(SOUNDS_URIS.correctAnswer)
     initSound(SOUNDS_URIS.wrongAnswer)
@@ -40,6 +41,17 @@ const Game = () => {
     initSound(SOUNDS_URIS.easy, { loop: true })
     initSound(SOUNDS_URIS.medium, { loop: true })
     initSound(SOUNDS_URIS.hard, { loop: true })
+
+    return () => {
+      setLifelinesState({
+        currentLifeline: null,
+        askAudience: null,
+        phoneAFriend: null,
+        fiftyFifty: null,
+        switchQuestion: null,
+        lifelinesPending: false,
+      })
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -62,6 +74,7 @@ const Game = () => {
       setGameState({
         currentQuestionStage: (currentQuestionStage + 1) as QuestionStage,
       })
+      setLifelinesState({ currentLifeline: null })
       await sleep(3000)
 
       setIsSidebarOpen(false)
@@ -69,17 +82,15 @@ const Game = () => {
       playSoundById(SOUNDS_URIS.next)
 
       const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
-      sound.apiById[SOUNDS_URIS.next].playSoundByIdOnEnd(safeHavenSoundId)
+      soundAPIById[SOUNDS_URIS.next].playSoundByIdOnEnd(safeHavenSoundId)
     } else {
       router.replace(ROUTES.home)
       playSoundById(SOUNDS_URIS.mainTheme)
+      setLifelinesState({ currentLifeline: null })
     }
-    setCurrentLifeline(null)
   }
 
-  const getOptionClassNameByStatus = (
-    serialNumber: OptionSerialNumber
-  ) => {
+  const getOptionClassNameByStatus = (serialNumber: OptionSerialNumber) => {
     if (showCorrectAnswer) {
       const isAnswerCorrect =
         serialNumber === currentQuizItem.correctOptionSerialNumber
@@ -89,11 +100,13 @@ const Game = () => {
         return 'bg-red-500'
       }
     }
-    return currentQuizItem.answeredOptionSerialNumber === serialNumber ? 'bg-tertiary' : ''
+    return currentQuizItem.answeredOptionSerialNumber === serialNumber
+      ? 'bg-tertiary'
+      : ''
   }
 
   return (
-    <View className='flex-1 bg-primary' key={currentQuizItem.id}>
+    <View className='mt-auto bg-primary' key={currentQuizItem.id}>
       <Sidebar />
       <View className='flex flex-col gap-lg mt-auto text-secondary'>
         <View>
@@ -107,13 +120,16 @@ const Game = () => {
             const optionClassNameByStatus = getOptionClassNameByStatus(
               (index + 1) as OptionSerialNumber
             )
-            const isRemovedByFiftyFifty = lifelines.fiftyFifty?.[
-              (index + 1) as OptionSerialNumber
-            ]
+            const isRemovedByFiftyFifty =
+              !!currentLifeline &&
+              fiftyFifty?.[(index + 1) as OptionSerialNumber]
             return (
               <TouchableOpacity
                 key={option}
-                disabled={!!currentQuizItem.answeredOptionSerialNumber || isRemovedByFiftyFifty}
+                disabled={
+                  !!currentQuizItem.answeredOptionSerialNumber ||
+                  isRemovedByFiftyFifty
+                }
                 className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                 onPress={() => onOptionPress(option, index + 1)}
               >

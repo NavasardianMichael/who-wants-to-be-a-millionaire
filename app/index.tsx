@@ -1,12 +1,12 @@
 import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
-import { useGameStore } from '@/store/game/store'
+import { useSoundStore } from '@/store/sound/store'
 import { useEffect } from 'react'
 import { Text, View } from 'react-native'
 
 export default function Index() {
-  const { initSound, playSoundById } = useGameStore()
+  const { initSound, playSoundById } = useSoundStore()
 
   useEffect(() => {
     initSound(SOUNDS_URIS.resign)

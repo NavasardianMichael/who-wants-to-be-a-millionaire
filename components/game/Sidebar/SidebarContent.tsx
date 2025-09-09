@@ -3,27 +3,26 @@ import { SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useGameStore } from '@/store/game/store'
-import { Lifeline } from '@/types/game'
+import { useLifelinesStore } from '@/store/lifelines/store'
+import { useSoundStore } from '@/store/sound/store'
+import { Lifeline, OptionSerialNumber } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
 import { useEffect, useMemo } from 'react'
 import { Text, TouchableHighlight, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
 
 export default function SidebarContent() {
+  const { currentQuestionStage, setIsSidebarOpen } = useGameStore()
+  const { soundAPIById, initSound, playSoundById } = useSoundStore()
+  const lifelinesStore = useLifelinesStore()
   const {
-    sound,
-    currentQuestionStage,
-    lifelines,
-    setCurrentLifeline,
+    lifelinesDisabled,
     setFiftyFiftyLifeline,
     setAskAudienceLifeline,
     setPhoneAFriendLifeline,
     setSwitchQuestionLifeline,
-    initSound,
-    playSoundById,
-    setLifelinesDisabled,
-    setIsSidebarOpen,
-  } = useGameStore()
+    setLifelinesState,
+  } = lifelinesStore
 
   const currentQuizItem = useCurrentQuizItem()
 
@@ -39,7 +38,10 @@ export default function SidebarContent() {
     return !!currentQuizItem.answeredOptionSerialNumber
   }, [currentQuizItem.answeredOptionSerialNumber])
 
-  const lifelineActions: Record<Lifeline, () => void> = useMemo(() => {
+  const lifelineActions: Record<
+    Lifeline,
+    (correctOptionSerialNumber: OptionSerialNumber) => void
+  > = useMemo(() => {
     return {
       fiftyFifty: setFiftyFiftyLifeline,
       askAudience: setAskAudienceLifeline,
@@ -54,23 +56,24 @@ export default function SidebarContent() {
   ])
 
   const onLifelinePress = async (lifeline: Lifeline) => {
-    setCurrentLifeline(lifeline)
-
+    setLifelinesState({ currentLifeline: lifeline })
 
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
-    setLifelinesDisabled(true)
+    setLifelinesState({ lifelinesDisabled: true })
     await initSound(lifelineSoundId)
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
-    const isShowingResultAfterSoundEnds = lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
+    const isShowingResultAfterSoundEnds =
+      lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
     if (!isShowingResultAfterSoundEnds) {
       await sleep(800)
-      lifelineActions[lifeline]()
+      lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
     }
 
-    sound.apiById[lifelineSoundId].onEnd(() => {
-      setLifelinesDisabled(false)
-      if (isShowingResultAfterSoundEnds) lifelineActions[lifeline]()
+    soundAPIById[lifelineSoundId].onEnd(() => {
+      setLifelinesState({ lifelinesDisabled: false })
+      if (isShowingResultAfterSoundEnds)
+        lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
       // setCurrentLifeline(null)
     })
   }
@@ -79,7 +82,8 @@ export default function SidebarContent() {
     <>
       <View className='flex-row gap-sm'>
         {LIFELINES_TEMPLATE.map(({ id, icon }) => {
-          const isDisabled = isAnswerPending || lifelines.disabled || !!lifelines[id]
+          const isDisabled =
+            isAnswerPending || lifelinesDisabled || !!lifelinesStore[id]
 
           return (
             <TouchableHighlight
@@ -90,7 +94,7 @@ export default function SidebarContent() {
             >
               <View>
                 {icon}
-                {lifelines[id] && (
+                {lifelinesStore[id] && (
                   <Entypo
                     name='cross'
                     size={60}

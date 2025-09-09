@@ -1,19 +1,16 @@
 import { SOUNDS_URIS } from '@/constants/sound'
-import { useGameStore } from '@/store/game/store'
+import { useSoundStore } from '@/store/sound/store'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import { TouchableOpacity, View } from 'react-native'
 import LogoBlock from './logoBlock/LogoBlock'
 
 export default function Header() {
-  const {
-    toggleActiveSoundMuted,
-    initSound,
-    sound: { activeIdsStack, isMuted },
-  } = useGameStore()
+  const { toggleActiveSoundMuted, initSound, isMuted, activeSoundIdsStack } =
+    useSoundStore()
 
   const soundHandler = async () => {
-    if (!activeIdsStack.length) {
+    if (!activeSoundIdsStack.length) {
       const { play, setMutedStatus } = await initSound(SOUNDS_URIS.mainTheme, {
         loop: true,
       })
