@@ -1,6 +1,8 @@
+import { FetchQuizItemAPI } from '@/api/getQuestions'
 import { OptionSerialNumber, QuestionStage } from '@/types/game'
 
 export type GameState = {
+  pendingQuizItemStage: number | null
   currentQuestionStage: QuestionStage
   quiz: QuizItem[]
   isSidebarOpen: boolean
@@ -20,4 +22,5 @@ export type GameStateActions = {
   setAnsweredOptionSerialNumber: (
     serialNumber: OptionSerialNumber | null
   ) => void
+  initNextQuizItem: (payload: FetchQuizItemAPI['payload']) => Promise<void>
 }

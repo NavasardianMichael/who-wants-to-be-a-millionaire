@@ -1,16 +1,22 @@
 import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
+import { useGameStore } from '@/store/game/store'
 import { useSoundStore } from '@/store/sound/store'
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 import { Text, View } from 'react-native'
 
 export default function Index() {
   const { initSound, playSoundById } = useSoundStore()
+  const { currentQuestionStage, pendingQuizItemStage } = useGameStore()
 
   useEffect(() => {
     initSound(SOUNDS_URIS.resign)
   }, [initSound])
+
+  const isNextQuizItemLoading = useMemo(() => {
+    return pendingQuizItemStage === currentQuestionStage + 1
+  }, [currentQuestionStage, pendingQuizItemStage])
 
   return (
     <View className='flex-1 bg-primary'>
@@ -20,11 +26,18 @@ export default function Index() {
       <View className='flex flex-1 justify-center items-center gap-4'>
         <AppLinkAsButton
           href={ROUTES.game}
-          onPress={() => {
+          disabled={isNextQuizItemLoading}
+          className={isNextQuizItemLoading ? 'opacity-50' : ''}
+          onPress={(e) => {
+            if (isNextQuizItemLoading) {
+              e.preventDefault();
+              e.stopPropagation();
+              return
+            };
             playSoundById(SOUNDS_URIS.resign)
           }}
         >
-          Start Game
+          {isNextQuizItemLoading ? 'AI is generating a question...' : 'Start Game'}
         </AppLinkAsButton>
         <AppLinkAsButton href={ROUTES.settings}>Settings</AppLinkAsButton>
       </View>

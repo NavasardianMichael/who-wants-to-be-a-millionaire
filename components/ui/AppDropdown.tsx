@@ -40,7 +40,7 @@ const AppDropdown: FC<Props> = ({
 
   return (
     <View className={`relative ${className} ${classNameByOrientation}`}>
-      <Text className='text-secondary font-bold mb-3'>{label}</Text>
+      <Text className='text-secondary font-bold mb-sm'>{label}</Text>
 
       {/* Dropdown Button */}
       <Pressable
@@ -59,15 +59,14 @@ const AppDropdown: FC<Props> = ({
         {/* Dropdown List */}
       </Pressable>
       {isDropdownOpen && (
-        <View className='absolute left-0 right-0 top-[68px] bg-primary text-secondary border border-t-0 border-secondary rounded-b-lg max-h-80 overflow-hidden'>
+        <View className='absolute left-0 right-0 top-[64px] bg-primary text-secondary border border-t-0  border-secondary rounded-b-lg max-h-[200px] overflow-hidden'>
           <ScrollView className='max-h-80'>
-            {options.map((option) => (
+            {options.map((option, index, arr) => (
               <TouchableOpacity
                 key={option}
                 onPress={() => selectLanguage(option)}
-                className={`py-sm px-md flex-row items-center border-b border-primary ${
-                  value === option ? 'bg-blue-100' : 'bg-secondary'
-                }`}
+                className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'} ${value === option ? 'bg-blue-100' : 'bg-secondary'
+                  }`}
               >
                 <Text className='color-primary'>{option}</Text>
               </TouchableOpacity>

@@ -26,7 +26,7 @@ const Settings = () => {
 
   return (
     <View className={`flex-1 bg-primary ${containerClassName}`}>
-      <View className='my-auto'>
+      <View className='flex-col gap-sm mt-lg'>
         <AppDropdown
           label='Select Language'
           className='z-10'

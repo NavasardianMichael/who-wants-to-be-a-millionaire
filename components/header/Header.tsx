@@ -1,11 +1,14 @@
+import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
 import { useSoundStore } from '@/store/sound/store'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
-import { TouchableOpacity, View } from 'react-native'
+import { usePathname } from 'expo-router'
+import { TouchableOpacity } from 'react-native'
 import LogoBlock from './logoBlock/LogoBlock'
 
 export default function Header() {
+  const pathName = usePathname();
   const { toggleActiveSoundMuted, initSound, isMuted, activeSoundIdsStack } =
     useSoundStore()
 
@@ -22,7 +25,7 @@ export default function Header() {
   }
 
   return (
-    <View className='flex-1 max-h-[300px]'>
+    <>
       <TouchableOpacity onPress={soundHandler} className='h-lg'>
         {isMuted ? (
           <MaterialIcons name='volume-off' size={24} color='#fff' />
@@ -30,7 +33,8 @@ export default function Header() {
           <MaterialCommunityIcons name='volume-high' size={24} color='#fff' />
         )}
       </TouchableOpacity>
-      <LogoBlock />
-    </View>
+
+      {pathName !== ROUTES.settings && <LogoBlock />}
+    </>
   )
 }

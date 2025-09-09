@@ -22,7 +22,7 @@ export default memo(function AskAudience() {
               key={serialNumber}
               className={`flex flex-col justify-end items-center gap-sm grow border-separate border-l border-secondary px-md ${serialNumber === 1 ? 'border-l-0' : ''}`}
             >
-              <Text className='text-lg text-secondary'>
+              <Text className=' text-secondary'>
                 {askAudience?.[serialNumber] ?? 0}%
               </Text>
               <View className={`w-xl grow mt-auto flex rounded-sm`}>
