@@ -2,18 +2,19 @@ import { LIFELINES, QUESTION_STAGES_TEMPLATE } from '@/constants/game'
 import { SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
+import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
 import { useLifelinesStore } from '@/store/lifelines/store'
 import { useSoundStore } from '@/store/sound/store'
 import { Lifeline, OptionSerialNumber } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
-import { useEffect, useMemo } from 'react'
+import { useMemo } from 'react'
 import { Text, TouchableHighlight, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
 
 export default function SidebarContent() {
   const { currentQuestionStage, setIsSidebarOpen } = useGameStore()
-  const { soundAPIById, initSound, playSoundById } = useSoundStore()
+  const { soundAPIById, playSoundById } = useSoundStore()
   const lifelinesStore = useLifelinesStore()
   const {
     lifelinesDisabled,
@@ -26,13 +27,9 @@ export default function SidebarContent() {
 
   const currentQuizItem = useCurrentQuizItem()
 
-  useEffect(() => {
-    initSound(SOUND_ID_BY_LIFELINE.fiftyFifty)
-    initSound(SOUND_ID_BY_LIFELINE.askAudience)
-    initSound(SOUND_ID_BY_LIFELINE.phoneAFriend)
-    initSound(SOUND_ID_BY_LIFELINE.switchQuestion)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  useSound(SOUND_ID_BY_LIFELINE.fiftyFifty)
+  useSound(SOUND_ID_BY_LIFELINE.askAudience)
+  useSound(SOUND_ID_BY_LIFELINE.phoneAFriend)
 
   const isAnswerPending = useMemo(() => {
     return !!currentQuizItem.answeredOptionSerialNumber
@@ -60,7 +57,6 @@ export default function SidebarContent() {
 
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
     setLifelinesState({ lifelinesDisabled: true })
-    await initSound(lifelineSoundId)
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
     const isShowingResultAfterSoundEnds =

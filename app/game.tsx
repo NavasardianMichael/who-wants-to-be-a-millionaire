@@ -6,6 +6,7 @@ import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useFetchQuizItem } from '@/hooks/useFetchQuizItem'
+import { useSound } from '@/hooks/useSound'
 import { getLocalStorageItemJSON } from '@/services/localStorage/api'
 import { LOCAL_STORAGE_KEYS } from '@/services/localStorage/constants'
 import { LocalStorageData } from '@/services/localStorage/types'
@@ -28,9 +29,17 @@ const Game = () => {
     setIsSidebarOpen,
     setAnsweredOptionSerialNumber,
   } = useGameStore()
-  const { soundAPIById, initSound, playSoundById } = useSoundStore()
+  const { soundAPIById, playSoundById } = useSoundStore()
   const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
   const { language } = useSettingsStore()
+
+  useSound(SOUNDS_URIS.finalAnswer)
+  useSound(SOUNDS_URIS.correctAnswer)
+  useSound(SOUNDS_URIS.wrongAnswer)
+  useSound(SOUNDS_URIS.next)
+  useSound(SOUNDS_URIS.easy, { loop: true })
+  useSound(SOUNDS_URIS.medium, { loop: true })
+  useSound(SOUNDS_URIS.hard, { loop: true })
 
   const currentQuizItem = useCurrentQuizItem()
   const fetchQuizItem = useFetchQuizItem()
@@ -48,14 +57,6 @@ const Game = () => {
   }, [currentQuestionStage])
 
   useEffect(() => {
-    initSound(SOUNDS_URIS.finalAnswer)
-    initSound(SOUNDS_URIS.correctAnswer)
-    initSound(SOUNDS_URIS.wrongAnswer)
-    initSound(SOUNDS_URIS.next)
-    initSound(SOUNDS_URIS.easy, { loop: true })
-    initSound(SOUNDS_URIS.medium, { loop: true })
-    initSound(SOUNDS_URIS.hard, { loop: true })
-
     return () => {
       setLifelinesState({
         currentLifeline: null,
@@ -110,13 +111,12 @@ const Game = () => {
     >(LOCAL_STORAGE_KEYS.askedQuestionHashesByLanguage)
     const previousQuestionHashes =
       askedQuestionHashesByLanguage?.[language] || []
+    const pendingQuestionHash = sha256(pendingQuestionNormalizedText)
+    if (previousQuestionHashes.includes(pendingQuestionHash)) return
     AsyncStorage.mergeItem(
       LOCAL_STORAGE_KEYS.askedQuestionHashesByLanguage,
       JSON.stringify({
-        [language]: [
-          ...previousQuestionHashes,
-          sha256(pendingQuestionNormalizedText),
-        ],
+        [language]: [...previousQuestionHashes, pendingQuestionHash],
       })
     )
   }

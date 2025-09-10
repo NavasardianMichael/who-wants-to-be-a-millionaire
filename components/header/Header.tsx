@@ -1,5 +1,6 @@
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
+import { useSound } from '@/hooks/useSound'
 import { useSoundStore } from '@/store/sound/store'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
@@ -8,17 +9,17 @@ import { TouchableOpacity } from 'react-native'
 import LogoBlock from './logoBlock/LogoBlock'
 
 export default function Header() {
-  const pathName = usePathname();
-  const { toggleActiveSoundMuted, initSound, isMuted, activeSoundIdsStack } =
+  const pathName = usePathname()
+  const { toggleActiveSoundMuted, isMuted, activeSoundIdsStack } =
     useSoundStore()
+
+  const soundAPIPromise = useSound(SOUNDS_URIS.mainTheme, { loop: true })
 
   const soundHandler = async () => {
     if (!activeSoundIdsStack.length) {
-      const { play, setMutedStatus } = await initSound(SOUNDS_URIS.mainTheme, {
-        loop: true,
-      })
-      await play()
-      setMutedStatus(false)
+      const soundAPI = await soundAPIPromise
+      soundAPI.play()
+      soundAPI.setMutedStatus(false)
       return
     }
     toggleActiveSoundMuted()

@@ -1,18 +1,17 @@
 import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
+import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
 import { useSoundStore } from '@/store/sound/store'
-import { useEffect, useMemo } from 'react'
+import { useMemo } from 'react'
 import { Text, View } from 'react-native'
 
 export default function Index() {
-  const { initSound, playSoundById } = useSoundStore()
+  const { playSoundById } = useSoundStore()
   const { currentQuestionStage, pendingQuizItemStage } = useGameStore()
 
-  useEffect(() => {
-    initSound(SOUNDS_URIS.resign)
-  }, [initSound])
+  useSound(SOUNDS_URIS.resign)
 
   const isNextQuizItemLoading = useMemo(() => {
     return pendingQuizItemStage === currentQuestionStage
