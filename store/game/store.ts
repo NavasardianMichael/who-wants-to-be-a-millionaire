@@ -3,7 +3,7 @@ import { OptionSerialNumber } from '@/types/game'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
-import { GameState, GameStateActions } from './types'
+import { GameState, GameStateActions, QuizItem } from './types'
 
 const initialState: GameState = {
   pendingQuizItemStage: 1,
@@ -35,27 +35,33 @@ export const useGameStore = create<GameState & GameStateActions>()(
           })
         },
         initNextQuizItem: async ({ stage, difficulty, language }) => {
-          set((prevState) => {
-            prevState.pendingQuizItemStage = stage
-          })
-          const quizItemResponse = await fetchQuestion({
-            stage,
-            difficulty,
-            language,
-          })
-          if (!quizItemResponse) {
-            throw new Error('Failed to fetch quiz item')
-          }
-          set((prevState) => {
-            prevState.quiz[stage - 1] = {
-              ...quizItemResponse,
-              answeredOptionSerialNumber: null,
-              correctOptionSerialNumber: quizItemResponse.answerIndex + 1 as OptionSerialNumber,
-              id: Date.now(),
+          return new Promise<QuizItem['question']>(async (resolve) => {
+            set((prevState) => {
+              prevState.pendingQuizItemStage = stage
+            })
+            const quizItemResponse = await fetchQuestion({
+              stage,
+              difficulty,
+              language,
+            })
+            if (!quizItemResponse) {
+              throw new Error('Failed to fetch quiz item')
             }
-            prevState.pendingQuizItemStage = null
+
+            set((prevState) => {
+              prevState.quiz[stage - 1] = {
+                ...quizItemResponse,
+                answeredOptionSerialNumber: null,
+                correctOptionSerialNumber: (quizItemResponse.answerIndex +
+                  1) as OptionSerialNumber,
+                id: Date.now(),
+              }
+              prevState.pendingQuizItemStage = null
+            })
+
+            resolve(quizItemResponse.question)
           })
-        }
+        },
       }
     })
   )

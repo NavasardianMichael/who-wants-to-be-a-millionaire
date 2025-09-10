@@ -34,12 +34,15 @@ export const getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer = (
   correctAnswerSerialNumber: OptionSerialNumber,
   guaranteedProbability: number
 ): Record<OptionSerialNumber, number> => {
-  const correctAnswerGuaranteedProbability = Math.max(Math.round(Math.random() * 100), 40)
+  const correctAnswerGuaranteedProbability = Math.max(
+    Math.round(Math.random() * 100),
+    40
+  )
 
   const probabilities = {
     [correctAnswerSerialNumber]: correctAnswerGuaranteedProbability,
   } as Record<OptionSerialNumber, number>
-  console.log({ correctAnswerGuaranteedProbability });
+  console.log({ correctAnswerGuaranteedProbability })
 
   let remainingProbability = 100 - correctAnswerGuaranteedProbability
 

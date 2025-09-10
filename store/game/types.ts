@@ -22,5 +22,7 @@ export type GameStateActions = {
   setAnsweredOptionSerialNumber: (
     serialNumber: OptionSerialNumber | null
   ) => void
-  initNextQuizItem: (payload: FetchQuizItemAPI['payload']) => Promise<void>
+  initNextQuizItem: (
+    payload: FetchQuizItemAPI['payload']
+  ) => Promise<QuizItem['question']>
 }

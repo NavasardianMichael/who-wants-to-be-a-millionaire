@@ -15,7 +15,7 @@ export default function Index() {
   }, [initSound])
 
   const isNextQuizItemLoading = useMemo(() => {
-    return pendingQuizItemStage === currentQuestionStage + 1
+    return pendingQuizItemStage === currentQuestionStage
   }, [currentQuestionStage, pendingQuizItemStage])
 
   return (
@@ -30,14 +30,14 @@ export default function Index() {
           className={isNextQuizItemLoading ? 'opacity-50' : ''}
           onPress={(e) => {
             if (isNextQuizItemLoading) {
-              e.preventDefault();
-              e.stopPropagation();
+              e.preventDefault()
+              e.stopPropagation()
               return
-            };
+            }
             playSoundById(SOUNDS_URIS.resign)
           }}
         >
-          {isNextQuizItemLoading ? 'AI is generating a question...' : 'Start Game'}
+          {isNextQuizItemLoading ? 'AI is working...' : 'Start Game'}
         </AppLinkAsButton>
         <AppLinkAsButton href={ROUTES.settings}>Settings</AppLinkAsButton>
       </View>

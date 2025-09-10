@@ -3,16 +3,17 @@ import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
 import { ROUTES } from '@/constants/routes'
 import { DIFFICULTY_LEVELS, LANGUAGES } from '@/constants/settings'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
+import { useSettingsStore } from '@/store/settings/store'
 import { Difficulty, Language } from '@/types/settings'
 
 import React, { useCallback, useState } from 'react'
 import { View } from 'react-native'
 
 const Settings = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState<Language>(
-    LANGUAGES[1]
-  )
-  const [difficulty, setDifficulty] = useState<Difficulty>(DIFFICULTY_LEVELS[2])
+  const { language, difficulty, setSettingsState } = useSettingsStore()
+  const [selectedLanguage, setSelectedLanguage] = useState<Language>(language)
+  const [selectedDifficulty, setSelectedDifficulty] =
+    useState<Difficulty>(difficulty)
 
   const containerClassName = useClassNameByOrientation('p-md', 'p-sm')
 
@@ -21,7 +22,7 @@ const Settings = () => {
   }, [])
 
   const onDifficultyChange = useCallback((value: Difficulty) => {
-    setDifficulty(value)
+    setSelectedDifficulty(value)
   }, [])
 
   return (
@@ -38,12 +39,21 @@ const Settings = () => {
         <AppDropdown
           label='Select Difficulty Level'
           options={DIFFICULTY_LEVELS}
-          value={difficulty}
+          value={selectedDifficulty}
           onChange={onDifficultyChange}
         />
       </View>
 
-      <AppLinkAsButton href={ROUTES.home} className='w-full mt-auto'>
+      <AppLinkAsButton
+        href={ROUTES.home}
+        className='w-full mt-auto'
+        onPress={() =>
+          setSettingsState({
+            language: selectedLanguage,
+            difficulty: selectedDifficulty,
+          })
+        }
+      >
         Save Settings
       </AppLinkAsButton>
     </View>
