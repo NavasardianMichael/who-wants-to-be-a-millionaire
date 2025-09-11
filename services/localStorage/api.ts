@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { LOCAL_STORAGE_KEYS } from './constants'
+import { LocalStorageData } from './types'
 
 export const getLocalStorageItemJSON = async <T>(
   key: keyof typeof LOCAL_STORAGE_KEYS
@@ -11,4 +12,10 @@ export const getLocalStorageItemJSON = async <T>(
     console.warn('Error parsing JSON from local storage:', error)
     return {} as T
   }
+}
+
+export const getAskedQuestionsByLanguage = async () => {
+  return await getLocalStorageItemJSON<
+    LocalStorageData['askedQuestionsByLanguage']
+  >(LOCAL_STORAGE_KEYS.askedQuestionsByLanguage)
 }

@@ -12,11 +12,12 @@ export type FetchQuizItemAPI = {
     stage: number
     language: Language
     difficulty: Difficulty
+    askedQuestions: QuizItem['question'][]
   }
   response: Promise<
     | (Pick<QuizItem, 'question' | 'options'> & {
-        answerIndex: number
-      })
+      answerIndex: number
+    })
     | undefined
   >
 }
@@ -25,7 +26,10 @@ export const fetchQuestion = async ({
   stage,
   language,
   difficulty,
+  askedQuestions
 }: FetchQuizItemAPI['payload']): FetchQuizItemAPI['response'] => {
+  console.log({ askedQuestions });
+
   const difficultyLevelSerialNumber = DIFFICULTY_LEVELS.indexOf(difficulty) + 1
   try {
     const response = await ai.models.generateContent({
@@ -49,7 +53,7 @@ export const fetchQuestion = async ({
       You are the game's question creator.
       Create one question in ${language} language, the overall difficulty level should be ${difficultyLevelSerialNumber}/${DIFFICULTY_LEVELS.length}. The question difficulty should be for stage ${stage} out of 15 stages. The question can be not only country or language-specific, but about a globally recognized topic as well (e.g., science, history, geography, arts, pop culture). Return a json, which has 3 properties: question (question text), options: (array of 4 string options), answerIndex: (index of the correct answer).
       The answers should be short and specific, without explanation.
-      Among the answers there should be one correct option and 3 wrong options.`,
+      Among the answers there should be one correct option and 3 wrong options. ${askedQuestions.length ? 'Do not repeat these questions: ' + askedQuestions.join('; ') + '.' : ''}`,
     })
 
     const jsonString = response?.candidates?.[0]?.content?.parts?.[0]?.text

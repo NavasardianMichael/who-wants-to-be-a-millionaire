@@ -1,4 +1,5 @@
 import { fetchQuestion } from '@/api/getQuestions'
+import { getAskedQuestionsByLanguage } from '@/services/localStorage/api'
 import { OptionSerialNumber } from '@/types/game'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
@@ -39,10 +40,13 @@ export const useGameStore = create<GameState & GameStateActions>()(
             set((prevState) => {
               prevState.pendingQuizItemStage = stage
             })
+            const askedQuestionsByLanguage = await getAskedQuestionsByLanguage()
+            const askedQuestions = askedQuestionsByLanguage?.[language] || []
             const quizItemResponse = await fetchQuestion({
               stage,
               difficulty,
               language,
+              askedQuestions
             })
             if (!quizItemResponse) {
               throw new Error('Failed to fetch quiz item')

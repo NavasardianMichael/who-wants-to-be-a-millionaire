@@ -1,5 +1,5 @@
 export const LOCAL_STORAGE_KEYS = {
   language: 'language',
   difficulty: 'difficulty',
-  askedQuestionHashesByLanguage: 'askedQuestionHashesByLanguage',
+  askedQuestionsByLanguage: 'askedQuestionsByLanguage',
 } as const

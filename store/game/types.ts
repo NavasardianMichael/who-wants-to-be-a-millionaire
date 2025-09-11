@@ -23,6 +23,6 @@ export type GameStateActions = {
     serialNumber: OptionSerialNumber | null
   ) => void
   initNextQuizItem: (
-    payload: FetchQuizItemAPI['payload']
+    payload: Omit<FetchQuizItemAPI['payload'], 'askedQuestions'>
   ) => Promise<QuizItem['question']>
 }

@@ -5,5 +5,5 @@ import { Language } from '../../types/settings'
 export type LocalStorageData = {
   language: SettingsState['language']
   difficulty: SettingsState['difficulty']
-  askedQuestionHashesByLanguage: Record<Language, QuizItem['question'][]>
+  askedQuestionsByLanguage: Record<Language, QuizItem['question'][]>
 }

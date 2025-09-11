@@ -11,7 +11,7 @@ type UseSound = (
 export const useSound: UseSound = (uri, options) => {
   const soundStore = useSoundStore()
   const { loop = false } = options || {}
-  const sound = useAudioPlayer(uri)
+  const audioPlayer = useAudioPlayer(uri)
 
   const api: Promise<SoundAPI> = useMemo(() => {
     return new Promise<SoundAPI>((resolve) => {
@@ -27,12 +27,12 @@ export const useSound: UseSound = (uri, options) => {
           soundStore.setSoundState({
             activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
           })
-          sound.seekTo(0)
-          sound.loop = loop
-          sound.play()
+          audioPlayer.seekTo(0)
+          audioPlayer.loop = loop
+          audioPlayer.play()
         },
         playSoundByIdOnEnd: (soundId) => {
-          sound.addListener('playbackStatusUpdate', (status) => {
+          audioPlayer.addListener('playbackStatusUpdate', (status) => {
             console.log({ status })
             if (status.didJustFinish) {
               soundStore.soundAPIById[soundId].setMutedStatus(
@@ -43,22 +43,22 @@ export const useSound: UseSound = (uri, options) => {
           })
         },
         pause: async () => {
-          sound.pause()
+          audioPlayer.pause()
         },
         stop: async () => {
-          sound.pause()
+          audioPlayer.pause()
         },
         setMutedStatus: async (isMuted: boolean) => {
-          sound.volume = Number(!isMuted)
+          audioPlayer.volume = Number(!isMuted)
           soundStore.setSoundState({ isMuted })
         },
         toggleMutedStatus: async () => {
           const isMuted = !soundStore.isMuted
-          sound.volume = Number(isMuted)
+          audioPlayer.volume = Number(isMuted)
           soundStore.setSoundState({ isMuted })
         },
         onEnd: (callback) => {
-          sound.addListener('playbackStatusUpdate', (status) => {
+          audioPlayer.addListener('playbackStatusUpdate', (status) => {
             console.log({ status })
             if (status.didJustFinish) callback()
           })
@@ -66,7 +66,7 @@ export const useSound: UseSound = (uri, options) => {
       }
       resolve(result)
     })
-  }, [sound, soundStore, uri])
+  }, [audioPlayer, loop, soundStore, uri])
 
   useEffect(() => {
     const initSound = async () => {
