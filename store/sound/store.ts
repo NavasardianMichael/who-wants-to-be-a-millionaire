@@ -38,6 +38,7 @@ export const useSoundStore = create<SoundState & SoundStateActions>()(
         },
         playSoundById: (id) => {
           const state = get()
+          console.log({ state, id })
           const activeId = state.activeSoundIdsStack.at(-1)
           if (activeId) state.soundAPIById[activeId].stop()
           state.soundAPIById[id].play()

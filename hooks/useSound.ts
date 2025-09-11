@@ -1,7 +1,7 @@
 import { useSoundStore } from '@/store/sound/store'
 import { SoundAPI } from '@/store/sound/types'
 import { useAudioPlayer } from 'expo-audio'
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 
 type UseSound = (
   uri: string,
@@ -10,8 +10,6 @@ type UseSound = (
 
 export const useSound: UseSound = (uri, options) => {
   const soundStore = useSoundStore()
-  // await sound.setIsMutedAsync(soundStore.isMuted)
-  // await sound.setIsLoopingAsync(loop)
   const { loop = false } = options || {}
   const sound = useAudioPlayer(uri)
 
@@ -29,6 +27,8 @@ export const useSound: UseSound = (uri, options) => {
           soundStore.setSoundState({
             activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
           })
+          sound.seekTo(0)
+          sound.loop = loop
           sound.play()
         },
         playSoundByIdOnEnd: (soundId) => {
@@ -49,7 +49,7 @@ export const useSound: UseSound = (uri, options) => {
           sound.pause()
         },
         setMutedStatus: async (isMuted: boolean) => {
-          sound.volume = Number(isMuted)
+          sound.volume = Number(!isMuted)
           soundStore.setSoundState({ isMuted })
         },
         toggleMutedStatus: async () => {
@@ -67,5 +67,16 @@ export const useSound: UseSound = (uri, options) => {
       resolve(result)
     })
   }, [sound, soundStore, uri])
+
+  useEffect(() => {
+    const initSound = async () => {
+      if (soundStore.soundAPIById[uri]) return
+      soundStore.setSoundState({
+        soundAPIById: { ...soundStore.soundAPIById, [uri]: await api },
+      })
+    }
+    initSound()
+  }, [api, soundStore, uri])
+
   return api
 }

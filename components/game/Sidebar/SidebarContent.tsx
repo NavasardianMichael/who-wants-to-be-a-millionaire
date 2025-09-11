@@ -32,8 +32,8 @@ export default function SidebarContent() {
   useSound(SOUND_ID_BY_LIFELINE.phoneAFriend)
 
   const isAnswerPending = useMemo(() => {
-    return !!currentQuizItem.answeredOptionSerialNumber
-  }, [currentQuizItem.answeredOptionSerialNumber])
+    return !currentQuizItem || !!currentQuizItem.answeredOptionSerialNumber
+  }, [currentQuizItem])
 
   const lifelineActions: Record<
     Lifeline,

@@ -139,49 +139,51 @@ const Game = () => {
   return (
     <View className='mt-auto bg-primary' key={currentQuizItem.id}>
       <Sidebar />
-      <View className='flex flex-col gap-lg mt-auto text-secondary'>
-        <View>
-          <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
-            {currentQuizItem.question}
-          </Text>
+      {currentQuizItem ? (
+        <View className='flex flex-col gap-lg mt-auto text-secondary'>
+          <View>
+            <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
+              {currentQuizItem.question}
+            </Text>
+          </View>
+          <View className='flex-row flex-wrap gap-md w-full'>
+            {currentQuizItem.options.map((option, index) => {
+              const optionClassNameByStatus = getOptionClassNameByStatus(
+                (index + 1) as OptionSerialNumber
+              )
+              const isRemovedByFiftyFifty =
+                !!currentLifeline &&
+                fiftyFifty?.[(index + 1) as OptionSerialNumber]
+              return (
+                <TouchableOpacity
+                  key={option}
+                  disabled={
+                    !!currentQuizItem.answeredOptionSerialNumber ||
+                    isRemovedByFiftyFifty
+                  }
+                  className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
+                  onPress={() => onOptionPress(option, index + 1)}
+                >
+                  <View className='flex-row gap-1 items-center h-[36px]'>
+                    {!isRemovedByFiftyFifty && (
+                      <>
+                        <Text
+                          className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
+                        >
+                          {String.fromCharCode(65 + index)}.{' '}
+                        </Text>
+                        <Text className='text-secondary'>{option}</Text>
+                      </>
+                    )}
+                  </View>
+                </TouchableOpacity>
+              )
+            })}
+          </View>
         </View>
-
-        <View className='flex-row flex-wrap gap-md w-full'>
-          {currentQuizItem.options.map((option, index) => {
-            const optionClassNameByStatus = getOptionClassNameByStatus(
-              (index + 1) as OptionSerialNumber
-            )
-            const isRemovedByFiftyFifty =
-              !!currentLifeline &&
-              fiftyFifty?.[(index + 1) as OptionSerialNumber]
-            return (
-              <TouchableOpacity
-                key={option}
-                disabled={
-                  !!currentQuizItem.answeredOptionSerialNumber ||
-                  isRemovedByFiftyFifty
-                }
-                className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
-                onPress={() => onOptionPress(option, index + 1)}
-              >
-                <View className='flex-row gap-1 items-center h-[36px]'>
-                  {!isRemovedByFiftyFifty && (
-                    <>
-                      <Text
-                        className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
-                      >
-                        {String.fromCharCode(65 + index)}.{' '}
-                      </Text>
-                      <Text className='text-secondary'>{option}</Text>
-                    </>
-                  )}
-                </View>
-              </TouchableOpacity>
-            )
-          })}
-        </View>
-        {/* </View> */}
-      </View>
+      ) : (
+        <Text>Loading...</Text>
+      )}
     </View>
   )
 }

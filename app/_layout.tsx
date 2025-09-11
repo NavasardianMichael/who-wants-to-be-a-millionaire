@@ -10,6 +10,11 @@ import { useEffect } from 'react'
 import { Text, View } from 'react-native'
 import '../styles/globals.css'
 
+const screenOptions = {
+  headerShown: false,
+  contentStyle: { backgroundColor: '#002876' },
+}
+
 export default function RootLayout() {
   const currentQuizItem = useCurrentQuizItem()
   const fetchQuizItem = useFetchQuizItem()
@@ -42,10 +47,7 @@ export default function RootLayout() {
   return (
     <View className='flex-1'>
       <Stack
-        screenOptions={{
-          headerShown: false,
-          contentStyle: { backgroundColor: '#002876' },
-        }}
+        screenOptions={screenOptions}
         layout={({ children }) => (
           <View className='flex-1 flex p-lg bg-primary'>
             <Header />
