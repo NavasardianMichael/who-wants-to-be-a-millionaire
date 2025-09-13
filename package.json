@@ -33,10 +33,12 @@
     "expo-symbols": "~0.4.5",
     "expo-system-ui": "~5.0.10",
     "expo-web-browser": "~14.2.0",
+    "i18next": "^25.5.2",
     "immer": "^10.1.1",
     "nativewind": "^4.1.23",
-    "react": "19.0.0",
+    "react": "^19.0.0",
     "react-dom": "19.0.0",
+    "react-i18next": "^15.7.3",
     "react-native": "0.79.5",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-orientation-locker": "^1.7.0",
@@ -46,7 +48,6 @@
     "react-native-svg": "^15.12.1",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "string-similarity": "^4.0.4",
     "zustand": "^5.0.8"
   },
   "devDependencies": {

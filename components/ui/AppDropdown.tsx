@@ -1,5 +1,5 @@
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
-import React, { FC, useCallback, useState } from 'react'
+import React, { FC, useCallback, useMemo, useState } from 'react'
 import {
   Pressable,
   ScrollView,
@@ -8,11 +8,16 @@ import {
   View,
 } from 'react-native'
 
+export type AppDropdownOption = {
+  label: string
+  value: string
+}
+
 type Props = {
   label: string
-  options: string[]
-  value: string
-  onChange: (value: string) => void
+  options: AppDropdownOption[]
+  value: AppDropdownOption['value']
+  onChange: (value: AppDropdownOption) => void
   className?: string
 }
 
@@ -31,12 +36,16 @@ const AppDropdown: FC<Props> = ({
   }
 
   const selectLanguage = useCallback(
-    (selectedValue: string) => {
+    (selectedValue: AppDropdownOption) => {
       onChange(selectedValue)
       setIsDropdownOpen(false)
     },
     [onChange]
   )
+
+  const selectedLanguageLabel = useMemo(() => {
+    return options.find((opt) => opt.value === value)?.label
+  }, [options, value])
 
   return (
     <View className={`relative ${className} ${classNameByOrientation}`}>
@@ -49,7 +58,7 @@ const AppDropdown: FC<Props> = ({
         className={`bg-primary  border border-secondary rounded-lg py-sm px-md flex-row justify-between items-center ${isDropdownOpen && 'rounded-b-none'}`}
       >
         <View className='flex-row items-center'>
-          <Text className='text-secondary'>{value}</Text>
+          <Text className='text-secondary'>{selectedLanguageLabel}</Text>
         </View>
         <Text
           className={`text-secondary text-xs transition ${isDropdownOpen && 'rotate-180'}`}
@@ -63,12 +72,13 @@ const AppDropdown: FC<Props> = ({
           <ScrollView className='max-h-80'>
             {options.map((option, index, arr) => (
               <TouchableOpacity
-                key={option}
+                key={option.value}
                 onPress={() => selectLanguage(option)}
-                className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'} ${value === option ? 'bg-blue-100' : 'bg-secondary'
-                  }`}
+                className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'} ${
+                  value === option.value ? 'bg-blue-100' : 'bg-secondary'
+                }`}
               >
-                <Text className='color-primary'>{option}</Text>
+                <Text className='color-primary'>{option.label}</Text>
               </TouchableOpacity>
             ))}
           </ScrollView>

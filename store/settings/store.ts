@@ -1,11 +1,12 @@
-import { DIFFICULTY_LEVELS, LANGUAGES } from '@/constants/settings'
+import { DIFFICULTY_LEVELS } from '@/constants/settings'
+import { LANGUAGES } from '@/services/translations/constants'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
 import { SettingsState, SettingsStateActions } from './types'
 
 const initialState: SettingsState = {
-  language: LANGUAGES[0],
+  language: LANGUAGES.en,
   difficulty: DIFFICULTY_LEVELS[2],
 }
 

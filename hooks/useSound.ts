@@ -28,6 +28,7 @@ export const useSound: UseSound = (uri, options) => {
             activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
           })
           audioPlayer.seekTo(0)
+          audioPlayer.muted = soundStore.isMuted
           audioPlayer.loop = loop
           audioPlayer.play()
         },

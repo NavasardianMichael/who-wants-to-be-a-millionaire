@@ -10,6 +10,8 @@ import { useEffect } from 'react'
 import { Text, View } from 'react-native'
 import '../styles/globals.css'
 
+import '../services/translations/i18n'
+
 const screenOptions = {
   headerShown: false,
   contentStyle: { backgroundColor: '#002876' },

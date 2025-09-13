@@ -5,11 +5,13 @@ import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
 import { useSoundStore } from '@/store/sound/store'
 import { useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Text, View } from 'react-native'
 
 export default function Index() {
   const { playSoundById } = useSoundStore()
   const { currentQuestionStage, pendingQuizItemStage } = useGameStore()
+  const { t } = useTranslation()
 
   useSound(SOUNDS_URIS.resign)
 
@@ -20,7 +22,7 @@ export default function Index() {
   return (
     <View className='flex-1 bg-primary'>
       <Text className='text-xl text-center text-white font-bold'>
-        Who Wants to Be a Millionaire
+        {t('who-wants-to-be-a-millionaire')}
       </Text>
       <View className='flex flex-1 justify-center items-center gap-4'>
         <AppLinkAsButton
