@@ -119,6 +119,8 @@ const Game = () => {
       : ''
   }
 
+  if (!currentQuizItem) return null
+
   return (
     <View className='mt-auto bg-primary' key={currentQuizItem.id}>
       <Sidebar />

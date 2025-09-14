@@ -41,7 +41,6 @@ export default function Header() {
             <Image source={require('@/assets/icons/exit.svg')} />
           </TouchableOpacity>
         )}
-        {pathName === ROUTES.home && <LanguagesDropdown />}
         <TouchableOpacity onPress={soundHandler} className='h-[24px]'>
           {isMuted ? (
             <Image source={require('@/assets/icons/volume-off.svg')} />
@@ -49,6 +48,11 @@ export default function Header() {
             <Image source={require('@/assets/icons/volume-on.svg')} />
           )}
         </TouchableOpacity>
+        {pathName === ROUTES.home && (
+          <View className='ml-auto'>
+            <LanguagesDropdown />
+          </View>
+        )}
       </View>
 
       <ExitModal

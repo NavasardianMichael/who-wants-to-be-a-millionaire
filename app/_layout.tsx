@@ -6,6 +6,8 @@ import { useEffect } from 'react'
 import { View } from 'react-native'
 import '../styles/globals.css'
 
+import { SOUNDS_URIS } from '@/constants/sound'
+import { useSound } from '@/hooks/useSound'
 import '../services/translations/i18n'
 
 const screenOptions = {
@@ -16,6 +18,7 @@ const screenOptions = {
 export default function RootLayout() {
   const { language } = useSettingsStore()
   const { initQuiz } = useGameStore()
+  useSound(SOUNDS_URIS.mainTheme, { loop: true })
 
   useEffect(() => {
     initQuiz({ language })

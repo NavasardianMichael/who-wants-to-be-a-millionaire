@@ -3,8 +3,8 @@ import { Language } from '@/types/settings'
 
 export const LANGUAGE_NAMES: Record<Language, string> = {
   [LANGUAGES.en]: 'English',
-  [LANGUAGES.am]: 'Armenian (Հայերեն)',
-  [LANGUAGES.ru]: 'Russian (Русский)',
+  [LANGUAGES.am]: 'Հայերեն',
+  [LANGUAGES.ru]: 'Русский',
 }
 
 export const DIFFICULTY_LEVELS = [

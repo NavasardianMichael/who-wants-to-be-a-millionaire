@@ -9,12 +9,13 @@ type UseSound = (
 ) => Promise<SoundAPI>
 
 export const useSound: UseSound = (uri, options) => {
-  const soundStore = useSoundStore()
+  const getState = useSoundStore.getState
   const { loop = false } = options || {}
   const audioPlayer = useAudioPlayer(uri)
 
   const api: Promise<SoundAPI> = useMemo(() => {
     return new Promise<SoundAPI>((resolve) => {
+      const soundStore = getState()
       const id = uri
       const existingSound = soundStore.soundAPIById[id]
       if (existingSound) {
@@ -28,7 +29,7 @@ export const useSound: UseSound = (uri, options) => {
             activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
           })
           audioPlayer.seekTo(0)
-          audioPlayer.muted = soundStore.isMuted
+          // audioPlayer.muted = soundStore.isMuted
           audioPlayer.loop = loop
           audioPlayer.play()
         },
@@ -65,19 +66,23 @@ export const useSound: UseSound = (uri, options) => {
           })
         },
       }
+      soundStore.setSoundState({
+        soundAPIById: { ...soundStore.soundAPIById, [id]: result },
+      })
       resolve(result)
     })
-  }, [audioPlayer, loop, soundStore, uri])
+  }, [getState, uri, audioPlayer, loop])
 
   useEffect(() => {
     const initSound = async () => {
+      const soundStore = getState()
       if (soundStore.soundAPIById[uri]) return
       soundStore.setSoundState({
         soundAPIById: { ...soundStore.soundAPIById, [uri]: await api },
       })
     }
     initSound()
-  }, [api, soundStore, uri])
+  }, [api, getState, uri])
 
   return api
 }

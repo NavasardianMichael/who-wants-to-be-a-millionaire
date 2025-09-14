@@ -19,7 +19,7 @@ export default memo(function PhoneAFriend() {
       <Image
         style={style}
         className={`mx-auto ${className} w-20 h-20`}
-        source={require('../../../assets/images/call-a-friend.png')}
+        source={require('../../../assets/images/call-a-friend-1.svg')}
       />
       {phoneAFriend?.suggestedOptionSerialNumber && (
         <Text className='text-center text-secondary text-lg'>
