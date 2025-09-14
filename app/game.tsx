@@ -5,9 +5,7 @@ import { sleep } from '@/helpers/commons'
 import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
-import { useFetchQuizItem } from '@/hooks/useFetchQuizItem'
 import { useSound } from '@/hooks/useSound'
-import { getAskedQuestionsByLanguage } from '@/services/localStorage/api'
 import { LOCAL_STORAGE_KEYS } from '@/services/localStorage/constants'
 import { useGameStore } from '@/store/game/store'
 import { useLifelinesStore } from '@/store/lifelines/store'
@@ -40,7 +38,6 @@ const Game = () => {
   useSound(SOUNDS_URIS.hard, { loop: true })
 
   const currentQuizItem = useCurrentQuizItem()
-  const fetchQuizItem = useFetchQuizItem()
 
   const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false)
 
@@ -48,11 +45,6 @@ const Game = () => {
     'w-full',
     'w-[calc(50%-0.5rem)]'
   )
-
-  useEffect(() => {
-    fetchQuizItem((currentQuestionStage + 1) as OptionSerialNumber)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentQuestionStage])
 
   useEffect(() => {
     return () => {
@@ -102,17 +94,12 @@ const Game = () => {
       setLifelinesState({ currentLifeline: null })
     }
 
-
-    const askedQuestionsByLanguage = await getAskedQuestionsByLanguage()
-    const askedQuestions =
-      askedQuestionsByLanguage?.[language] || []
-
-
-    if (askedQuestions.includes(currentQuizItem.question)) return
     AsyncStorage.mergeItem(
-      LOCAL_STORAGE_KEYS.askedQuestionsByLanguage,
+      LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
       JSON.stringify({
-        [language]: [currentQuizItem.question],
+        [language]: {
+          [Math.ceil(currentQuestionStage / 5)]: currentQuestionStage,
+        },
       })
     )
   }
@@ -160,7 +147,7 @@ const Game = () => {
                   className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                   onPress={() => onOptionPress(option, index + 1)}
                 >
-                  <View className='flex-row gap-1 items-center h-[36px]'>
+                  <View className='flex-row gap-1 items-center h-[30px]'>
                     {!isRemovedByFiftyFifty && (
                       <>
                         <Text

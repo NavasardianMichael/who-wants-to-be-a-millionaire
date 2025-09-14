@@ -2,12 +2,11 @@ import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
 import { useSound } from '@/hooks/useSound'
 import { useSoundStore } from '@/store/sound/store'
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
-import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import { usePathname } from 'expo-router'
 import { useState } from 'react'
-import { TouchableOpacity, View } from 'react-native'
+import { Image, TouchableOpacity, View } from 'react-native'
 import ExitModal from './ExitModal'
+import LanguagesDropdown from './LanguagesDropdown'
 import LogoBlock from './logoBlock/LogoBlock'
 
 export default function Header() {
@@ -37,21 +36,17 @@ export default function Header() {
           <TouchableOpacity
             key='header-exit-button'
             onPress={() => setIsExitModalVisible(true)}
-            className='h-lg'
+            className='h-[24px] rotate-180'
           >
-            <MaterialIcons
-              name='exit-to-app'
-              size={24}
-              color='#fff'
-              className='rotate-180'
-            />
+            <Image source={require('@/assets/icons/exit.svg')} />
           </TouchableOpacity>
         )}
-        <TouchableOpacity onPress={soundHandler} className='h-lg'>
+        {pathName === ROUTES.home && <LanguagesDropdown />}
+        <TouchableOpacity onPress={soundHandler} className='h-[24px]'>
           {isMuted ? (
-            <MaterialIcons name='volume-off' size={24} color='#fff' />
+            <Image source={require('@/assets/icons/volume-off.svg')} />
           ) : (
-            <MaterialCommunityIcons name='volume-high' size={24} color='#fff' />
+            <Image source={require('@/assets/icons/volume-on.svg')} />
           )}
         </TouchableOpacity>
       </View>

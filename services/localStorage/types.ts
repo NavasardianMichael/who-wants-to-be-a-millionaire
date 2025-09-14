@@ -1,9 +1,11 @@
-import { QuizItem } from '@/store/game/types'
 import { SettingsState } from '@/store/settings/types'
+import { QuestionStage, SafeHavenStage } from '@/types/game'
 import { Language } from '../../types/settings'
 
 export type LocalStorageData = {
   language: SettingsState['language']
-  difficulty: SettingsState['difficulty']
-  askedQuestionsByLanguage: Record<Language, QuizItem['question'][]>
+  lastQuestionNumberBySafeHavenNumberByLanguage: Record<
+    Language,
+    Record<SafeHavenStage, QuestionStage | 0>
+  >
 }

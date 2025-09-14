@@ -1,3 +1,4 @@
+import { Language } from '@/types/settings'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { LOCAL_STORAGE_KEYS } from './constants'
 import { LocalStorageData } from './types'
@@ -14,8 +15,37 @@ export const getLocalStorageItemJSON = async <T>(
   }
 }
 
-export const getAskedQuestionsByLanguage = async () => {
-  return await getLocalStorageItemJSON<
-    LocalStorageData['askedQuestionsByLanguage']
-  >(LOCAL_STORAGE_KEYS.askedQuestionsByLanguage)
+export const getLastQuestionNumberBySafeHavenNumberByLanguage = async (
+  language: Language
+) => {
+  const lastQuestionNumberBySafeHavenNumber = await getLocalStorageItemJSON<
+    LocalStorageData['lastQuestionNumberBySafeHavenNumberByLanguage']
+  >(LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage)
+  const result = lastQuestionNumberBySafeHavenNumber[language]
+  if (!result) {
+    const initialValue: LocalStorageData['lastQuestionNumberBySafeHavenNumberByLanguage'] =
+      {
+        en: {
+          1: 0,
+          2: 0,
+          3: 0,
+        },
+        ru: {
+          1: 0,
+          2: 0,
+          3: 0,
+        },
+        am: {
+          1: 0,
+          2: 0,
+          3: 0,
+        },
+      }
+    AsyncStorage.setItem(
+      LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
+      JSON.stringify(initialValue)
+    )
+    return initialValue[language]
+  }
+  return result
 }

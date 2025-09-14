@@ -1,4 +1,4 @@
-import { LIFELINES, QUESTION_STAGES_TEMPLATE } from '@/constants/game'
+import { LIFELINES, QUESTION_STAGES } from '@/constants/game'
 import { SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
@@ -9,6 +9,7 @@ import { useSoundStore } from '@/store/sound/store'
 import { Lifeline, OptionSerialNumber } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
 import { useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Text, TouchableHighlight, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
 
@@ -26,6 +27,7 @@ export default function SidebarContent() {
   } = lifelinesStore
 
   const currentQuizItem = useCurrentQuizItem()
+  const { t } = useTranslation()
 
   useSound(SOUND_ID_BY_LIFELINE.fiftyFifty)
   useSound(SOUND_ID_BY_LIFELINE.askAudience)
@@ -88,12 +90,12 @@ export default function SidebarContent() {
               disabled={isDisabled}
               onPress={() => onLifelinePress(id)}
             >
-              <View>
+              <View className='h-[36px] flex justify-center items-center'>
                 {icon}
                 {lifelinesStore[id] && (
                   <Entypo
                     name='cross'
-                    size={60}
+                    size={36}
                     color='red'
                     className='absolute left-[50%] top-[50%] transform -translate-x-[50%] -translate-y-[50%]'
                   />
@@ -105,10 +107,10 @@ export default function SidebarContent() {
       </View>
 
       <View className='flex flex-col-reverse my-auto'>
-        {QUESTION_STAGES_TEMPLATE.map(({ label, stage }, index) => {
+        {QUESTION_STAGES.map((stage) => {
           return (
             <View
-              key={index}
+              key={stage}
               className={`flex-row py-[0.05rem] back ${stage === currentQuestionStage ? 'bg-[#ff7805] rounded-sm' : ''}`}
             >
               <>
@@ -118,7 +120,10 @@ export default function SidebarContent() {
                 <Text className='text-tertiary w-1'>
                   {stage < currentQuestionStage ? '◆' : ''}
                 </Text>
-                <Text className='text-md color-secondary ml-md'>{label}</Text>
+                <Text className='text-md color-secondary ml-md'>
+                  {t(`currency-symbol`)}
+                  {t(`stage-${stage}-money-amount`)}
+                </Text>
               </>
             </View>
           )

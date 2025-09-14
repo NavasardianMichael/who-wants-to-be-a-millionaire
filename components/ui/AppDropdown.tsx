@@ -1,5 +1,5 @@
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
-import React, { FC, useCallback, useMemo, useState } from 'react'
+import React, { FC, ReactNode, useCallback, useMemo, useState } from 'react'
 import {
   Pressable,
   ScrollView,
@@ -9,16 +9,17 @@ import {
 } from 'react-native'
 
 export type AppDropdownOption = {
-  label: string
+  label: ReactNode
   value: string
 }
 
 type Props = {
-  label: string
+  label?: ReactNode
   options: AppDropdownOption[]
   value: AppDropdownOption['value']
   onChange: (value: AppDropdownOption) => void
   className?: string
+  itemClassName?: string
 }
 
 const AppDropdown: FC<Props> = ({
@@ -26,6 +27,7 @@ const AppDropdown: FC<Props> = ({
   options,
   value,
   className,
+  itemClassName,
   onChange,
 }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -49,7 +51,7 @@ const AppDropdown: FC<Props> = ({
 
   return (
     <View className={`relative ${className} ${classNameByOrientation}`}>
-      <Text className='text-secondary font-bold mb-sm'>{label}</Text>
+      {label && <Text className='text-secondary font-bold mb-sm'>{label}</Text>}
 
       {/* Dropdown Button */}
       <Pressable
@@ -57,7 +59,7 @@ const AppDropdown: FC<Props> = ({
         onPress={toggleDropdown}
         className={`bg-primary  border border-secondary rounded-lg py-sm px-md flex-row justify-between items-center ${isDropdownOpen && 'rounded-b-none'}`}
       >
-        <View className='flex-row items-center'>
+        <View className={`flex-row items-center ${itemClassName}`}>
           <Text className='text-secondary'>{selectedLanguageLabel}</Text>
         </View>
         <Text
@@ -76,7 +78,7 @@ const AppDropdown: FC<Props> = ({
                 onPress={() => selectLanguage(option)}
                 className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'} ${
                   value === option.value ? 'bg-blue-100' : 'bg-secondary'
-                }`}
+                } ${itemClassName}`}
               >
                 <Text className='color-primary'>{option.label}</Text>
               </TouchableOpacity>

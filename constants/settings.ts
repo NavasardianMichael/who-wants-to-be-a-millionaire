@@ -3,7 +3,7 @@ import { Language } from '@/types/settings'
 
 export const LANGUAGE_NAMES: Record<Language, string> = {
   [LANGUAGES.en]: 'English',
-  [LANGUAGES.hy]: 'Armenian (Հայերեն)',
+  [LANGUAGES.am]: 'Armenian (Հայերեն)',
   [LANGUAGES.ru]: 'Russian (Русский)',
 }
 

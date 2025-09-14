@@ -1,5 +1,5 @@
 export const LANGUAGES = {
   en: 'en',
-  hy: 'hy',
+  am: 'am',
   ru: 'ru',
 } as const

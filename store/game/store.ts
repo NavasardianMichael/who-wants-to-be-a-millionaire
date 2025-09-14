@@ -1,13 +1,11 @@
-import { fetchQuestion } from '@/api/getQuestions'
-import { getAskedQuestionsByLanguage } from '@/services/localStorage/api'
-import { OptionSerialNumber } from '@/types/game'
+import { getQuiz } from '@/api/getQuiz'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
-import { GameState, GameStateActions, QuizItem } from './types'
+import { GameState, GameStateActions } from './types'
 
 const initialState: GameState = {
-  pendingQuizItemStage: 1,
+  isPending: false,
   currentQuestionStage: 1,
   quiz: [],
   isSidebarOpen: false,
@@ -35,35 +33,16 @@ export const useGameStore = create<GameState & GameStateActions>()(
             ].answeredOptionSerialNumber = serialNumber
           })
         },
-        initNextQuizItem: async ({ stage, difficulty, language }) => {
-          return new Promise<QuizItem['question']>(async (resolve) => {
+        initQuiz: async ({ language }) => {
+          set({ isPending: true })
+          return new Promise<GameState['quiz']>(async (resolve) => {
+            const quiz = await getQuiz({ language })
             set((prevState) => {
-              prevState.pendingQuizItemStage = stage
-            })
-            const askedQuestionsByLanguage = await getAskedQuestionsByLanguage()
-            const askedQuestions = askedQuestionsByLanguage?.[language] || []
-            const quizItemResponse = await fetchQuestion({
-              stage,
-              difficulty,
-              language,
-              askedQuestions
-            })
-            if (!quizItemResponse) {
-              throw new Error('Failed to fetch quiz item')
-            }
-
-            set((prevState) => {
-              prevState.quiz[stage - 1] = {
-                ...quizItemResponse,
-                answeredOptionSerialNumber: null,
-                correctOptionSerialNumber: (quizItemResponse.answerIndex +
-                  1) as OptionSerialNumber,
-                id: Date.now(),
-              }
-              prevState.pendingQuizItemStage = null
+              prevState.quiz = quiz || []
             })
 
-            resolve(quizItemResponse.question)
+            set({ isPending: false })
+            resolve(quiz ?? [])
           })
         },
       }

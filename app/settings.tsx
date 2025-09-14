@@ -13,6 +13,7 @@ import { View } from 'react-native'
 const Settings = () => {
   const { language, difficulty, setSettingsState } = useSettingsStore()
   const {
+    t,
     i18n: { changeLanguage },
   } = useTranslation()
   const [selectedLanguage, setSelectedLanguage] = useState<Language>(language)
@@ -51,7 +52,7 @@ const Settings = () => {
     <View className={`flex-1 bg-primary ${containerClassName}`}>
       <View className='flex-col gap-sm mt-lg'>
         <AppDropdown
-          label='Select Language'
+          label={t('select-language')}
           className='z-10'
           options={languageOptions}
           value={selectedLanguage}
@@ -59,7 +60,7 @@ const Settings = () => {
         />
 
         <AppDropdown
-          label='Select Difficulty Level'
+          label={t('select-difficulty')}
           options={difficultyOptions}
           value={selectedDifficulty}
           onChange={onDifficultyChange}
