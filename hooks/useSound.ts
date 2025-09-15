@@ -66,12 +66,20 @@ export const useSound: UseSound = (uri, options) => {
           })
         },
       }
-      soundStore.setSoundState({
-        soundAPIById: { ...soundStore.soundAPIById, [id]: result },
-      })
+
       resolve(result)
     })
   }, [getState, uri, audioPlayer, loop])
+
+  useEffect(() => {
+    const fn = async () => {
+      const soundStore = getState()
+      soundStore.setSoundState({
+        soundAPIById: { ...soundStore.soundAPIById, [uri]: await api },
+      })
+    }
+    fn()
+  }, [api, getState, uri])
 
   useEffect(() => {
     const initSound = async () => {
