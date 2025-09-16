@@ -37,7 +37,7 @@ export const getQuiz = async ({
         const lastQuestionNumberBySafeHavenNumber =
           lastQuestionNumbersBySafeHavenNumber[(index + 1) as SafeHavenStage] ??
           0
-        const processedSafeHavenList = safeHavenList
+        let processedSafeHavenList = safeHavenList
           .slice(lastQuestionNumberBySafeHavenNumber, 5)
           .map((quizItem) => {
             return {
@@ -48,6 +48,20 @@ export const getQuiz = async ({
               correctOptionSerialNumber: quizItem.answer,
             }
           })
+        const missingQuestionsCount = 5 - processedSafeHavenList.length
+        if (missingQuestionsCount < 0) {
+          processedSafeHavenList = processedSafeHavenList.concat(
+            safeHavenList.slice(0, -missingQuestionsCount).map((quizItem) => {
+              return {
+                id: quizItem.id,
+                question: quizItem.question,
+                options: quizItem.options,
+                answeredOptionSerialNumber: null,
+                correctOptionSerialNumber: quizItem.answer,
+              }
+            })
+          )
+        }
         return acc.concat(processedSafeHavenList)
       },
       [] as GetQuizAPI['processed']

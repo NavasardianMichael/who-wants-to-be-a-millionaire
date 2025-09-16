@@ -3,13 +3,12 @@ import {
   OPTIONS_SERIAL_NUMBERS,
 } from '@/constants/game'
 import { useLifelinesStore } from '@/store/lifelines/store'
-import AntDesign from '@expo/vector-icons/AntDesign'
 import { memo } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
 
 export default memo(function AskAudience() {
   const { askAudience, setLifelinesState } = useLifelinesStore()
-  console.log({ askAudience });
+  console.log({ askAudience })
 
   return (
     <View className='flex-col flex-1 justify-center p-sm mx-auto rounded-lg border border-secondary bg-[#00185f]'>
@@ -39,13 +38,13 @@ export default memo(function AskAudience() {
       </View>
       {askAudience?.[1] !== undefined && (
         <TouchableOpacity
-          className={`z-10 absolute -top-4 -right-4 rounded-full bg-primary ${!askAudience ? 'opacity-50' : 'opacity-100'}`}
+          className={`h-[36px] w-[36px] flex items-center justify-center z-10 absolute -top-4 -right-4 rounded-full bg-secondary ${!askAudience ? 'opacity-50' : 'opacity-100'}`}
           onPress={() => {
             setLifelinesState({ currentLifeline: null })
           }}
           disabled={!askAudience}
         >
-          <AntDesign name='closecircle' size={36} color='#fff' />
+          <Text className='text-primary font-semibold text-md '>&#x2715;</Text>
         </TouchableOpacity>
       )}
     </View>

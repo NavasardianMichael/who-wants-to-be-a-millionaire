@@ -3,12 +3,14 @@ import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
 import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
+import { useSettingsStore } from '@/store/settings/store'
 import { useSoundStore } from '@/store/sound/store'
 import { useTranslation } from 'react-i18next'
 import { Text, View } from 'react-native'
 
 export default function Index() {
   const { playSoundById } = useSoundStore()
+  const { language } = useSettingsStore()
   const { isPending, initQuiz } = useGameStore()
   const { t } = useTranslation()
 
@@ -31,6 +33,7 @@ export default function Index() {
               return
             }
             playSoundById(SOUNDS_URIS.resign)
+            initQuiz({ language })
           }}
         >
           {t('start-game')}

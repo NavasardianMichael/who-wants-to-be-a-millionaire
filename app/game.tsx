@@ -1,6 +1,6 @@
 import Sidebar from '@/components/game/Sidebar/Sidebar'
 import { ROUTES } from '@/constants/routes'
-import { SOUNDS_URIS } from '@/constants/sound'
+import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
@@ -76,7 +76,7 @@ const Game = () => {
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
     )
     await sleep(2000)
-    console.log({ currentQuizItem });
+    console.log({ currentQuizItem })
 
     const asyncStorageSetPayload = {
       language,
@@ -98,7 +98,7 @@ const Game = () => {
       setIsSidebarOpen(false)
       setAnsweredOptionSerialNumber(null)
       playSoundById(SOUNDS_URIS.next)
-      await sleep(soundAPIById[SOUNDS_URIS.next].duration + 100)
+      await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next])
       const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
       console.log({ safeHavenSoundId })
       playSoundById(safeHavenSoundId)

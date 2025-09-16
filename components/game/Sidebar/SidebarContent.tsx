@@ -1,5 +1,5 @@
 import { LIFELINES, QUESTION_STAGES } from '@/constants/game'
-import { SOUND_ID_BY_LIFELINE } from '@/constants/sound'
+import { SOUND_DURATION_BY_URI, SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useSound } from '@/hooks/useSound'
@@ -15,7 +15,7 @@ import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
 
 export default function SidebarContent() {
   const { currentQuestionStage, setIsSidebarOpen } = useGameStore()
-  const { soundAPIById, playSoundById } = useSoundStore()
+  const { playSoundById } = useSoundStore()
   const lifelinesStore = useLifelinesStore()
   const {
     lifelinesDisabled,
@@ -57,13 +57,10 @@ export default function SidebarContent() {
   const onLifelinePress = async (lifeline: Lifeline) => {
     setLifelinesState({ currentLifeline: lifeline, lifelinesDisabled: true })
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
-    console.log({ lifelineSoundId });
 
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
-    console.log('wdqqqqqqqqqqqqqqqq', soundAPIById[lifelineSoundId]);
-
-    await sleep(soundAPIById[lifelineSoundId].duration + 100)
+    await sleep(SOUND_DURATION_BY_URI[lifelineSoundId] + 100)
     const isShowingResultAfterSoundEnds =
       lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
     if (!isShowingResultAfterSoundEnds) {

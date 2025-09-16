@@ -6,7 +6,6 @@ export type SoundState = {
 
 export type SoundAPI = {
   id: string
-  duration: number
   play: () => Promise<void>
   pause: () => Promise<void>
   stop: () => Promise<void>
