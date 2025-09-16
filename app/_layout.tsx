@@ -19,6 +19,7 @@ export default function RootLayout() {
   const { language } = useSettingsStore()
   const { initQuiz } = useGameStore()
   useSound(SOUNDS_URIS.mainTheme, { loop: true })
+  useSound(SOUNDS_URIS.resign)
 
   useEffect(() => {
     initQuiz({ language })

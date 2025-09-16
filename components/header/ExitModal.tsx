@@ -36,6 +36,7 @@ const ExitModal: FC<Props> = ({ isVisible, onClose }) => {
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {
+                onClose()
                 router.replace(ROUTES.home)
               }}
               className='px-4 py-2'

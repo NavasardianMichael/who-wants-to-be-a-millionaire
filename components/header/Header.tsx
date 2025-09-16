@@ -11,19 +11,28 @@ import LogoBlock from './logoBlock/LogoBlock'
 
 export default function Header() {
   const pathName = usePathname()
-  const { toggleActiveSoundMuted, isMuted, activeSoundIdsStack } =
-    useSoundStore()
+  const {
+    setSoundState,
+    soundAPIById,
+    toggleActiveSoundMuted,
+    setIsActiveSoundMuted,
+    isMuted,
+    activeSoundIdsStack,
+  } = useSoundStore()
   const [isExitModalVisible, setIsExitModalVisible] = useState(false)
 
-  const soundAPIPromise = useSound(SOUNDS_URIS.mainTheme, { loop: true })
+  useSound(SOUNDS_URIS.mainTheme, { loop: true })
+  useSound(SOUNDS_URIS.easy, { loop: true })
 
   const soundHandler = async () => {
-    console.log({ activeSoundIdsStack })
-
-    if (!activeSoundIdsStack.length) {
-      const soundAPI = await soundAPIPromise
-      soundAPI.play()
-      soundAPI.setMutedStatus(false)
+    if (!activeSoundIdsStack.length && isMuted) {
+      const soundId =
+        pathName === ROUTES.home ? SOUNDS_URIS.mainTheme : SOUNDS_URIS.easy
+      setSoundState({
+        activeSoundIdsStack: [soundId],
+      })
+      soundAPIById[soundId].play()
+      setIsActiveSoundMuted(false)
       return
     }
     toggleActiveSoundMuted()

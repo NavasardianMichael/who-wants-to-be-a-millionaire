@@ -49,3 +49,36 @@ export const getLastQuestionNumberBySafeHavenNumberByLanguage = async (
   }
   return result
 }
+
+export const setLastQuestionNumberBySafeHavenNumberByLanguage = async ({
+  language,
+  questionNumber,
+}: {
+  language: Language
+  questionNumber: number
+}) => {
+  // const lastQuestionNumberBySafeHavenNumber = await getLocalStorageItemJSON<
+  //   LocalStorageData['lastQuestionNumberBySafeHavenNumberByLanguage']
+  // >(LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage)
+
+  // const updatedValue = {
+  //   ...lastQuestionNumberBySafeHavenNumber,
+  //   [language]: {
+  //     ...lastQuestionNumberBySafeHavenNumber[language],
+  //     [safeHavenNumber]: questionNumber,
+  //   },
+  // }
+
+  // AsyncStorage.setItem(
+  //   LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
+  //   JSON.stringify(updatedValue)
+  // )
+  AsyncStorage.mergeItem(
+    LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
+    JSON.stringify({
+      [language]: {
+        [Math.ceil(questionNumber / 5)]: questionNumber,
+      },
+    })
+  )
+}

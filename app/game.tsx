@@ -6,13 +6,12 @@ import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useSound } from '@/hooks/useSound'
-import { LOCAL_STORAGE_KEYS } from '@/services/localStorage/constants'
+import { setLastQuestionNumberBySafeHavenNumberByLanguage } from '@/services/localStorage/api'
 import { useGameStore } from '@/store/game/store'
 import { useLifelinesStore } from '@/store/lifelines/store'
 import { useSettingsStore } from '@/store/settings/store'
 import { useSoundStore } from '@/store/sound/store'
 import { OptionSerialNumber, QuestionStage } from '@/types/game'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useRouter } from 'expo-router'
 import React, { useEffect } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
@@ -29,6 +28,7 @@ const Game = () => {
   const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
   const { language } = useSettingsStore()
 
+  useSound(SOUNDS_URIS.resign)
   useSound(SOUNDS_URIS.finalAnswer)
   useSound(SOUNDS_URIS.correctAnswer)
   useSound(SOUNDS_URIS.wrongAnswer)
@@ -48,6 +48,11 @@ const Game = () => {
 
   useEffect(() => {
     return () => {
+      setGameState({
+        currentQuestionStage: 1,
+        isSidebarOpen: false,
+        quiz: [],
+      })
       setLifelinesState({
         currentLifeline: null,
         askAudience: null,
@@ -58,7 +63,7 @@ const Game = () => {
       })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [soundAPIById[SOUNDS_URIS.resign]])
 
   const onOptionPress = async (option: string, serialNumber: number) => {
     setAnsweredOptionSerialNumber(serialNumber as OptionSerialNumber)
@@ -71,6 +76,12 @@ const Game = () => {
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
     )
     await sleep(2000)
+
+    const asyncStorageSetPayload = {
+      language,
+      questionNumber: currentQuizItem.id,
+    }
+
     if (isAnswerCorrect) {
       setIsSidebarOpen(true)
       setShowCorrectAnswer(false)
@@ -86,22 +97,17 @@ const Game = () => {
       setIsSidebarOpen(false)
       setAnsweredOptionSerialNumber(null)
       playSoundById(SOUNDS_URIS.next)
+      await sleep(soundAPIById[SOUNDS_URIS.next].duration + 100)
       const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
-      soundAPIById[SOUNDS_URIS.next].playSoundByIdOnEnd(safeHavenSoundId)
+      console.log({ safeHavenSoundId })
+      playSoundById(safeHavenSoundId)
+      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
     } else {
-      router.replace(ROUTES.home)
       playSoundById(SOUNDS_URIS.mainTheme)
       setLifelinesState({ currentLifeline: null })
+      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
+      router.replace(ROUTES.home)
     }
-
-    AsyncStorage.mergeItem(
-      LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
-      JSON.stringify({
-        [language]: {
-          [Math.ceil(currentQuestionStage / 5)]: currentQuestionStage,
-        },
-      })
-    )
   }
 
   const getOptionClassNameByStatus = (serialNumber: OptionSerialNumber) => {

@@ -6,91 +6,67 @@ import { useEffect, useMemo } from 'react'
 type UseSound = (
   uri: string,
   options?: { loop?: boolean; playOnInit?: boolean }
-) => Promise<SoundAPI>
+) => SoundAPI
 
 export const useSound: UseSound = (uri, options) => {
-  const getState = useSoundStore.getState
+  const soundStore = useSoundStore()
   const { loop = false } = options || {}
   const audioPlayer = useAudioPlayer(uri)
 
-  const api: Promise<SoundAPI> = useMemo(() => {
-    return new Promise<SoundAPI>((resolve) => {
-      const soundStore = getState()
-      const id = uri
-      const existingSound = soundStore.soundAPIById[id]
-      if (existingSound) {
-        resolve(existingSound)
-        return
-      }
-      const result: SoundAPI = {
-        id,
-        play: async () => {
-          soundStore.setSoundState({
-            activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
-          })
-          audioPlayer.seekTo(0)
-          // audioPlayer.muted = soundStore.isMuted
-          audioPlayer.loop = loop
-          audioPlayer.play()
-        },
-        playSoundByIdOnEnd: (soundId) => {
-          audioPlayer.addListener('playbackStatusUpdate', (status) => {
-            console.log({ status })
-            if (status.didJustFinish) {
-              soundStore.soundAPIById[soundId].setMutedStatus(
-                soundStore.isMuted
-              )
-              soundStore.soundAPIById[soundId].play()
-            }
-          })
-        },
-        pause: async () => {
-          audioPlayer.pause()
-        },
-        stop: async () => {
-          audioPlayer.pause()
-        },
-        setMutedStatus: async (isMuted: boolean) => {
-          audioPlayer.volume = Number(!isMuted)
-          soundStore.setSoundState({ isMuted })
-        },
-        toggleMutedStatus: async () => {
-          const isMuted = !soundStore.isMuted
-          audioPlayer.volume = Number(isMuted)
-          soundStore.setSoundState({ isMuted })
-        },
-        onEnd: (callback) => {
-          audioPlayer.addListener('playbackStatusUpdate', (status) => {
-            console.log({ status })
-            if (status.didJustFinish) callback()
-          })
-        },
-      }
+  const api: SoundAPI = useMemo(() => {
+    const id = uri
+    const existingSound = soundStore.soundAPIById[id]
+    if (existingSound) {
+      return existingSound
+    }
+    const result: SoundAPI = {
+      id,
+      duration: audioPlayer.duration,
+      play: async () => {
+        audioPlayer.seekTo(0)
+        audioPlayer.loop = loop
+        audioPlayer.muted = soundStore.isMuted
+        audioPlayer.play()
+        console.log({ audioPlayer })
+        soundStore.setSoundState({
+          activeSoundIdsStack: [...soundStore.activeSoundIdsStack, id],
+        })
+      },
 
-      resolve(result)
-    })
-  }, [getState, uri, audioPlayer, loop])
+      pause: async () => {
+        audioPlayer.pause()
+      },
+      stop: async () => {
+        audioPlayer.pause()
+      },
+      setMutedStatus: async (isMuted: boolean) => {
+        audioPlayer.muted = isMuted
+        soundStore.setSoundState({ isMuted })
+      },
+    }
+    return result
+  }, [soundStore, uri, audioPlayer, loop])
 
   useEffect(() => {
-    const fn = async () => {
-      const soundStore = getState()
+    const fn = () => {
+      if (soundStore.soundAPIById[uri]) return
       soundStore.setSoundState({
-        soundAPIById: { ...soundStore.soundAPIById, [uri]: await api },
+        soundAPIById: { ...soundStore.soundAPIById, [uri]: api },
       })
     }
     fn()
-  }, [api, getState, uri])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [api, uri])
 
   useEffect(() => {
     const initSound = async () => {
-      const soundStore = getState()
       if (soundStore.soundAPIById[uri]) return
       soundStore.setSoundState({
-        soundAPIById: { ...soundStore.soundAPIById, [uri]: await api },
+        soundAPIById: { ...soundStore.soundAPIById, [uri]: api },
       })
     }
     initSound()
-  }, [api, getState, uri])
+  }, [api, soundStore, uri])
 
   return api
 }

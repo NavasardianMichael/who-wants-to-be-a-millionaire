@@ -9,7 +9,7 @@ import { Text, View } from 'react-native'
 
 export default function Index() {
   const { playSoundById } = useSoundStore()
-  const { isPending } = useGameStore()
+  const { isPending, initQuiz } = useGameStore()
   const { t } = useTranslation()
 
   useSound(SOUNDS_URIS.resign)

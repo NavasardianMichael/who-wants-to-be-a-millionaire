@@ -6,13 +6,11 @@ export type SoundState = {
 
 export type SoundAPI = {
   id: string
+  duration: number
   play: () => Promise<void>
   pause: () => Promise<void>
   stop: () => Promise<void>
   setMutedStatus: (isMuted: boolean) => Promise<void>
-  toggleMutedStatus: () => Promise<void>
-  onEnd: (callback: () => void) => void
-  playSoundByIdOnEnd: (id: SoundAPI['id']) => void
 }
 
 export type SoundStateActions = {

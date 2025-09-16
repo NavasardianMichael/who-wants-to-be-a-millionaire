@@ -68,12 +68,11 @@ export default function SidebarContent() {
       lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
     }
 
-    soundAPIById[lifelineSoundId].onEnd(() => {
-      setLifelinesState({ lifelinesDisabled: false })
-      if (isShowingResultAfterSoundEnds)
-        lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
-      // setCurrentLifeline(null)
-    })
+    await sleep(soundAPIById[lifelineSoundId].duration + 100)
+    setLifelinesState({ lifelinesDisabled: false })
+    if (isShowingResultAfterSoundEnds)
+      lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
+    // setCurrentLifeline(null)
   }
 
   return (
