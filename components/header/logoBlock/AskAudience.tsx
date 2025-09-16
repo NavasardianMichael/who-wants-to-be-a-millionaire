@@ -9,6 +9,7 @@ import { Text, TouchableOpacity, View } from 'react-native'
 
 export default memo(function AskAudience() {
   const { askAudience, setLifelinesState } = useLifelinesStore()
+  console.log({ askAudience });
 
   return (
     <View className='flex-col flex-1 justify-center p-sm mx-auto rounded-lg border border-secondary bg-[#00185f]'>

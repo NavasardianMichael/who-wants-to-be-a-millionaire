@@ -55,12 +55,15 @@ export default function SidebarContent() {
   ])
 
   const onLifelinePress = async (lifeline: Lifeline) => {
-    setLifelinesState({ currentLifeline: lifeline })
-
+    setLifelinesState({ currentLifeline: lifeline, lifelinesDisabled: true })
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
-    setLifelinesState({ lifelinesDisabled: true })
+    console.log({ lifelineSoundId });
+
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
+    console.log('wdqqqqqqqqqqqqqqqq', soundAPIById[lifelineSoundId]);
+
+    await sleep(soundAPIById[lifelineSoundId].duration + 100)
     const isShowingResultAfterSoundEnds =
       lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
     if (!isShowingResultAfterSoundEnds) {
@@ -68,7 +71,6 @@ export default function SidebarContent() {
       lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
     }
 
-    await sleep(soundAPIById[lifelineSoundId].duration + 100)
     setLifelinesState({ lifelinesDisabled: false })
     if (isShowingResultAfterSoundEnds)
       lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)

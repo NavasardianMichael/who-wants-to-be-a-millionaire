@@ -76,10 +76,11 @@ const Game = () => {
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
     )
     await sleep(2000)
+    console.log({ currentQuizItem });
 
     const asyncStorageSetPayload = {
       language,
-      questionNumber: currentQuizItem.id,
+      quizItemId: currentQuizItem.id,
     }
 
     if (isAnswerCorrect) {
