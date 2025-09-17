@@ -1,6 +1,7 @@
 import AppLinkAsButton from '@/components/ui/AppLinkAsButton'
 import { ROUTES } from '@/constants/routes'
-import { SOUNDS_URIS } from '@/constants/sound'
+import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
+import { sleep } from '@/helpers/commons'
 import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
 import { useSettingsStore } from '@/store/settings/store'
@@ -26,14 +27,16 @@ export default function Index() {
           href={ROUTES.game}
           disabled={isPending}
           className={isPending ? 'opacity-50' : ''}
-          onPress={(e) => {
+          onPress={async (e) => {
             if (isPending) {
               e.preventDefault()
               e.stopPropagation()
               return
             }
-            playSoundById(SOUNDS_URIS.resign)
             initQuiz({ language })
+            playSoundById(SOUNDS_URIS.resign)
+            await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.resign])
+            playSoundById(SOUNDS_URIS.easy)
           }}
         >
           {t('start-game')}

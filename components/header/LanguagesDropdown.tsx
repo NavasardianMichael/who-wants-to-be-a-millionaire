@@ -7,8 +7,7 @@ import {
   Pressable,
   ScrollView,
   Text,
-  TouchableOpacity,
-  View,
+  View
 } from 'react-native'
 import { AppDropdownOption } from '../ui/AppDropdown'
 import { LANGUAGE_DROPDOWN_OPTIONS } from './languageDropdownTemplate'
@@ -46,7 +45,7 @@ export default function LanguagesDropdown() {
       <Pressable
         accessibilityIgnoresInvertColors
         onPress={toggleDropdown}
-        className={`bg-primary  border border-secondary rounded-lg py-sm px-md flex-row justify-between items-center ${isDropdownOpen && 'rounded-b-none'} h-[36px]`}
+        className={`bg-primary w-[140px]  border border-secondary rounded-lg py-sm px-md flex-row justify-between items-center ${isDropdownOpen && 'rounded-b-none'} h-[36px]`}
       >
         <View className={`flex-row items-center `}>
           <Text className='text-secondary'>{selectedLanguageLabel}</Text>
@@ -62,15 +61,14 @@ export default function LanguagesDropdown() {
         <View className='absolute left-0 right-0 top-[36px] bg-primary text-secondary border border-t-0  border-secondary rounded-b-lg overflow-hidden'>
           <ScrollView>
             {LANGUAGE_DROPDOWN_OPTIONS.map((option, index, arr) => (
-              <TouchableOpacity
+              <Pressable
                 key={option.value}
                 onPress={() => selectLanguage(option)}
-                className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'}  ${
-                  language === option.value ? 'bg-blue-100' : 'bg-secondary'
-                }`}
+                className={`py-sm px-md flex-row items-center ${index + 1 !== arr.length && 'border-b border-primary'}  ${language === option.value ? 'bg-blue-100' : 'bg-secondary'
+                  }`}
               >
                 <Text className='color-primary'>{option.label}</Text>
-              </TouchableOpacity>
+              </Pressable>
             ))}
           </ScrollView>
         </View>

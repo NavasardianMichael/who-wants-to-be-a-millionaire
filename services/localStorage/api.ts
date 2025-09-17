@@ -58,22 +58,6 @@ export const setLastQuestionNumberBySafeHavenNumberByLanguage = async ({
   language: Language;
   quizItemId: QuizItem["id"];
 }) => {
-  // const lastQuestionNumberBySafeHavenNumber = await getLocalStorageItemJSON<
-  //   LocalStorageData['lastQuestionNumberBySafeHavenNumberByLanguage']
-  // >(LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage)
-
-  // const updatedValue = {
-  //   ...lastQuestionNumberBySafeHavenNumber,
-  //   [language]: {
-  //     ...lastQuestionNumberBySafeHavenNumber[language],
-  //     [safeHavenNumber]: questionNumber,
-  //   },
-  // }
-
-  // AsyncStorage.setItem(
-  //   LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
-  //   JSON.stringify(updatedValue)
-  // )
   const [safeHavenNumber, questionNumber] = quizItemId.split("-");
   AsyncStorage.mergeItem(
     LOCAL_STORAGE_KEYS.lastQuestionNumberBySafeHavenNumberByLanguage,
