@@ -3,25 +3,27 @@ import { useStyleByOrientation } from '@/hooks/useStyleByOrientation'
 import { useLifelinesStore } from '@/store/lifelines/store'
 import AntDesign from '@expo/vector-icons/AntDesign'
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 
 export default memo(function PhoneAFriend() {
   const { phoneAFriend, setLifelinesState } = useLifelinesStore()
+  const { t } = useTranslation()
 
   const style = useStyleByOrientation(
     { width: 160, height: 160 },
-    { width: 120, height: 120 }
+    { width: 90, height: 90 }
   )
   const className = useStyleByOrientation('mb-8', 'mb-2')
 
   return (
-    <View className='mx-auto relative max-w-60'>
+    <View className='mx-auto relative max-w-52'>
       <Image
         style={style}
-        className={`mx-auto ${className} w-20 h-20`}
-        source={require('../../../assets/images/call-a-friend-1.svg')}
+        className={`mx-auto ${className} w-8 h-8`}
+        source={require('../../../assets/images/call-a-friend.svg')}
       />
-      {phoneAFriend?.suggestedOptionSerialNumber && (
+      {phoneAFriend?.suggestedOptionSerialNumber ? (
         <Text className='text-center text-secondary text-lg'>
           I think the answer is{' '}
           <Text className='font-bold'>
@@ -32,16 +34,26 @@ export default memo(function PhoneAFriend() {
             }
           </Text>
         </Text>
+      ) : (
+        <View className='flex flex-col gap-sm items-center'>
+          <Text className='text-secondary font-semibold text-center'>
+            {t('please-wait')}
+          </Text>
+          <Text className='text-secondary font-semibold text-center'>
+            {t('we-are-getting-in-with-your-friend')}
+          </Text>
+        </View>
       )}
-      <TouchableOpacity
-        className={`z-10 absolute -top-4 -right-4 rounded-full bg-primary ${!phoneAFriend ? 'opacity-50' : 'opacity-100'}`}
-        onPress={() => {
-          setLifelinesState({ currentLifeline: null })
-        }}
-        disabled={!phoneAFriend}
-      >
-        <AntDesign name='closecircle' size={36} color='#fff' />
-      </TouchableOpacity>
+      {phoneAFriend && (
+        <TouchableOpacity
+          className={`z-10 absolute -top-4 -right-4 rounded-full bg-primary ${!phoneAFriend ? 'opacity-50' : 'opacity-100'}`}
+          onPress={() => {
+            setLifelinesState({ currentLifeline: null })
+          }}
+        >
+          <AntDesign name='closecircle' size={36} color='#fff' />
+        </TouchableOpacity>
+      )}
     </View>
   )
 })

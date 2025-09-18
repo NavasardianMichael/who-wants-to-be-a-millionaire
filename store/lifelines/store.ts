@@ -1,8 +1,11 @@
+import {} from '@/helpers/game'
 import {
   getAnswerWithGuaranteedProbability,
+  getGuaranteedProbabilityByStage,
+  getIncorrectOptionsSerialNumbersList,
   getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer,
   sliceArrayContainingCorrectAnswer,
-} from '@/helpers/game'
+} from '@/helpers/lifeline'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
@@ -30,7 +33,10 @@ export const useLifelinesStore = create<
             ...payload,
           }))
         },
-        setFiftyFiftyLifeline: (correctOptionSerialNumber) => {
+        setFiftyFiftyLifeline: ({
+          correctOptionSerialNumber,
+          currentQuestionStage,
+        }) => {
           set((prevState) => {
             const randomIncorrectOptions = sliceArrayContainingCorrectAnswer(
               correctOptionSerialNumber
@@ -38,21 +44,34 @@ export const useLifelinesStore = create<
             prevState.fiftyFifty = randomIncorrectOptions
           })
         },
-        setAskAudienceLifeline: (correctOptionSerialNumber) => {
+        setAskAudienceLifeline: ({
+          correctOptionSerialNumber,
+          currentQuestionStage,
+        }) => {
           set((prevState) => {
+            const guaranteedProbability =
+              getGuaranteedProbabilityByStage(currentQuestionStage)
             const probabilities =
               getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer(
                 correctOptionSerialNumber,
-                70
+                guaranteedProbability,
+                getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty)
               )
+
             prevState.askAudience = probabilities
           })
         },
-        setPhoneAFriendLifeline: (correctOptionSerialNumber) => {
+        setPhoneAFriendLifeline: ({
+          correctOptionSerialNumber,
+          currentQuestionStage,
+        }) => {
           set((prevState) => {
+            const guaranteedProbability =
+              getGuaranteedProbabilityByStage(currentQuestionStage)
             const optionSerialNumber = getAnswerWithGuaranteedProbability(
               correctOptionSerialNumber,
-              70
+              guaranteedProbability,
+              getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty)
             )
             prevState.phoneAFriend = {
               suggestedOptionSerialNumber: optionSerialNumber,

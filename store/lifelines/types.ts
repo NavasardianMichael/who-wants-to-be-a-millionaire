@@ -1,5 +1,5 @@
 import { Nullable } from '@/types/commons'
-import { Lifeline, OptionSerialNumber } from '@/types/game'
+import { Lifeline, OptionSerialNumber, QuestionStage } from '@/types/game'
 
 export type LifelinesState = {
   currentLifeline: Lifeline | null
@@ -23,16 +23,15 @@ export type QuizItem = {
   correctOptionSerialNumber: OptionSerialNumber
 }
 
+export type SingleLifelineActionPayload = {
+  correctOptionSerialNumber: OptionSerialNumber
+  currentQuestionStage: QuestionStage
+}
+
 export type LifelinesStateActions = {
   setLifelinesState: (state: Partial<LifelinesState>) => void
-  setFiftyFiftyLifeline: (correctOptionSerialNumber: OptionSerialNumber) => void
-  setAskAudienceLifeline: (
-    correctOptionSerialNumber: OptionSerialNumber
-  ) => void
-  setPhoneAFriendLifeline: (
-    correctOptionSerialNumber: OptionSerialNumber
-  ) => void
-  setSwitchQuestionLifeline: (
-    correctOptionSerialNumber: OptionSerialNumber
-  ) => void
+  setFiftyFiftyLifeline: (payload: SingleLifelineActionPayload) => void
+  setAskAudienceLifeline: (payload: SingleLifelineActionPayload) => void
+  setPhoneAFriendLifeline: (payload: SingleLifelineActionPayload) => void
+  setSwitchQuestionLifeline: (payload: SingleLifelineActionPayload) => void
 }

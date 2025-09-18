@@ -1,12 +1,14 @@
 import { LIFELINES, QUESTION_STAGES } from '@/constants/game'
 import { SOUND_DURATION_BY_URI, SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
+import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useSound } from '@/hooks/useSound'
 import { useGameStore } from '@/store/game/store'
 import { useLifelinesStore } from '@/store/lifelines/store'
+import { SingleLifelineActionPayload } from '@/store/lifelines/types'
 import { useSoundStore } from '@/store/sound/store'
-import { Lifeline, OptionSerialNumber } from '@/types/game'
+import { Lifeline } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -39,7 +41,7 @@ export default function SidebarContent() {
 
   const lifelineActions: Record<
     Lifeline,
-    (correctOptionSerialNumber: OptionSerialNumber) => void
+    (payload: SingleLifelineActionPayload) => void
   > = useMemo(() => {
     return {
       fiftyFifty: setFiftyFiftyLifeline,
@@ -60,18 +62,21 @@ export default function SidebarContent() {
 
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
-    await sleep(SOUND_DURATION_BY_URI[lifelineSoundId] + 100)
-    const isShowingResultAfterSoundEnds =
-      lifeline === LIFELINES.askAudience || lifeline === LIFELINES.phoneAFriend
-    if (!isShowingResultAfterSoundEnds) {
-      await sleep(800)
-      lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
+    if (lifeline === LIFELINES.fiftyFifty) {
+      await sleep(800) // to make it feel snappier
+    } else {
+      await sleep(SOUND_DURATION_BY_URI[lifelineSoundId])
     }
 
+    lifelineActions[lifeline]({
+      correctOptionSerialNumber: currentQuizItem.correctOptionSerialNumber,
+      currentQuestionStage,
+    })
+
+    await sleep(3000)
+    const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
+    playSoundById(safeHavenSoundId)
     setLifelinesState({ lifelinesDisabled: false })
-    if (isShowingResultAfterSoundEnds)
-      lifelineActions[lifeline](currentQuizItem.correctOptionSerialNumber)
-    // setCurrentLifeline(null)
   }
 
   return (

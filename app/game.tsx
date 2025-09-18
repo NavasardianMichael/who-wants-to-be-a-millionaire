@@ -100,7 +100,6 @@ const Game = () => {
       playSoundById(SOUNDS_URIS.next)
       await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next])
       const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
-      console.log({ safeHavenSoundId })
       playSoundById(safeHavenSoundId)
       setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
     } else {
