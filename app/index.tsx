@@ -41,9 +41,6 @@ export default function Index() {
         >
           {t('start-game')}
         </AppLinkAsButton>
-        <AppLinkAsButton href={ROUTES.settings}>
-          {t('settings')}
-        </AppLinkAsButton>
       </View>
     </View>
   )

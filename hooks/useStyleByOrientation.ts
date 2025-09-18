@@ -1,5 +1,4 @@
-import { useMemo } from 'react'
-import { StyleProp } from 'react-native'
+import { CSSProperties, useMemo } from 'react'
 import { useIsPortrait } from './useIsPortrait'
 
 /**
@@ -14,10 +13,10 @@ import { useIsPortrait } from './useIsPortrait'
  * return <View className={className}>...</View>
  */
 
-export const useStyleByOrientation = <T>(
-  portraitStyles: StyleProp<T>,
-  landscapeStyles: StyleProp<T>
-): StyleProp<T> => {
+export const useStyleByOrientation = (
+  portraitStyles: CSSProperties,
+  landscapeStyles: CSSProperties
+): CSSProperties => {
   const isPortrait = useIsPortrait()
 
   return useMemo(() => {

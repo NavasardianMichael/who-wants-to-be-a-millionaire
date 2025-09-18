@@ -1,29 +1,29 @@
 import {
   getLastQuestionNumberBySafeHavenNumberByLanguage,
   setLastQuestionNumberBySafeHavenNumberByLanguage,
-} from "@/services/localStorage/api";
-import { GameState, QuizItem } from "@/store/game/types";
-import { SafeHavenStage } from "@/types/game";
-import { Language } from "@/types/settings";
-import i18next from "i18next";
+} from '@/services/localStorage/api'
+import { GameState, QuizItem } from '@/store/game/types'
+import { SafeHavenStage } from '@/types/game'
+import { Language } from '@/types/settings'
+import i18next from 'i18next'
 
 export type GetQuizAPI = {
   payload: {
-    language: Language;
-  };
+    language: Language
+  }
   response: {
     quiz: {
-      id: QuizItem["id"];
-      question: QuizItem["question"];
-      options: QuizItem["options"];
-      answer: QuizItem["correctOptionSerialNumber"];
-    }[][];
-  };
-  processed: GameState["quiz"];
-};
+      id: QuizItem['id']
+      question: QuizItem['question']
+      options: QuizItem['options']
+      answer: QuizItem['correctOptionSerialNumber']
+    }[][]
+  }
+  processed: GameState['quiz']
+}
 
 const processQuizItem = (
-  quizItem: GetQuizAPI["response"]["quiz"][0][0]
+  quizItem: GetQuizAPI['response']['quiz'][0][0]
 ): QuizItem => {
   return {
     id: quizItem.id,
@@ -31,56 +31,50 @@ const processQuizItem = (
     options: quizItem.options,
     answeredOptionSerialNumber: null,
     correctOptionSerialNumber: quizItem.answer,
-  };
-};
+  }
+}
 
 export const getQuiz = async ({
   language,
-}: GetQuizAPI["payload"]): Promise<GetQuizAPI["processed"] | undefined> => {
+}: GetQuizAPI['payload']): Promise<GetQuizAPI['processed'] | undefined> => {
   try {
-    const response: GetQuizAPI["response"] = i18next.getResourceBundle(
+    const response: GetQuizAPI['response'] = i18next.getResourceBundle(
       language,
-      "translation"
-    );
+      'translation'
+    )
 
     const lastQuestionNumbersBySafeHavenNumber =
-      await getLastQuestionNumberBySafeHavenNumberByLanguage(language);
-    console.log({ lastQuestionNumbersBySafeHavenNumber, language });
+      await getLastQuestionNumberBySafeHavenNumberByLanguage(language)
 
-    const processed: GetQuizAPI["processed"] = response.quiz.reduce(
+    const processed: GetQuizAPI['processed'] = response.quiz.reduce(
       (acc, safeHavenList, index) => {
         const lastQuestionNumberBySafeHavenNumber =
           lastQuestionNumbersBySafeHavenNumber[(index + 1) as SafeHavenStage] ??
-          0;
-        console.log({ lastQuestionNumberBySafeHavenNumber });
-
+          0
         let processedSafeHavenList = safeHavenList
           .slice(
             lastQuestionNumberBySafeHavenNumber,
             lastQuestionNumberBySafeHavenNumber + 5
           )
-          .map(processQuizItem);
-        const missingQuestionsCount = 5 - processedSafeHavenList.length;
+          .map(processQuizItem)
+        const missingQuestionsCount = 5 - processedSafeHavenList.length
 
         if (missingQuestionsCount > 0) {
           processedSafeHavenList = processedSafeHavenList.concat(
             safeHavenList.slice(0, missingQuestionsCount).map(processQuizItem)
-          );
+          )
           setLastQuestionNumberBySafeHavenNumberByLanguage({
             language,
             quizItemId: safeHavenList[missingQuestionsCount - 1].id,
-          });
+          })
         }
-        console.log({ processedSafeHavenList });
 
-        return acc.concat(processedSafeHavenList);
+        return acc.concat(processedSafeHavenList)
       },
-      [] as GetQuizAPI["processed"]
-    );
-    console.log({ processed });
-
-    return processed;
+      [] as GetQuizAPI['processed']
+    )
+    return processed
   } catch (error) {
-    console.error("Error generating word:", error);
+    console.error('Error generating word:', error)
   }
-};
+}

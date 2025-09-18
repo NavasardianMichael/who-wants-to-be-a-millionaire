@@ -12,12 +12,23 @@ module.exports = {
         md: '1rem',
         lg: '1.5rem',
         xl: '2rem',
+
+        0.05: '0.05rem',
       },
       colors: {
         primary: '#002876',
         'primary-dark': '#001d5b',
+        'primary-contrast': '#00185f',
         secondary: '#ffffff',
         tertiary: '#cc9f31',
+        'dark-orange': '#ff7805',
+
+        'gradient-from': '#0a2a66',
+        'gradient-to': '#103d8a',
+      },
+      width: {
+        300: '300px',
+        140: '140px',
       },
     },
   },

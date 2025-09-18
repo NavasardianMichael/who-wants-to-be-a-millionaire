@@ -1,4 +1,3 @@
-import Sidebar from '@/components/game/Sidebar/Sidebar'
 import { ROUTES } from '@/constants/routes'
 import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
@@ -6,6 +5,7 @@ import { getBgSoundIdByQuestionStage } from '@/helpers/game'
 import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
 import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
 import { useSound } from '@/hooks/useSound'
+import { useStyleByOrientation } from '@/hooks/useStyleByOrientation'
 import { setLastQuestionNumberBySafeHavenNumberByLanguage } from '@/services/localStorage/api'
 import { useGameStore } from '@/store/game/store'
 import { useLifelinesStore } from '@/store/lifelines/store'
@@ -14,7 +14,13 @@ import { useSoundStore } from '@/store/sound/store'
 import { OptionSerialNumber, QuestionStage } from '@/types/game'
 import { useRouter } from 'expo-router'
 import React, { useEffect } from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
+import {
+  StyleProp,
+  Text,
+  TouchableOpacity,
+  View,
+  ViewStyle,
+} from 'react-native'
 
 const Game = () => {
   const router = useRouter()
@@ -41,9 +47,14 @@ const Game = () => {
 
   const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false)
 
-  const optionClassNameByOrientation = useClassNameByOrientation(
-    'w-full',
-    'w-[calc(50%-0.5rem)]'
+  const optionClassNameByOrientation = useClassNameByOrientation('w-full', '')
+  const optionStyleByOrientation = useStyleByOrientation(
+    {
+      width: '100%',
+    },
+    {
+      width: '48%',
+    }
   )
 
   useEffect(() => {
@@ -76,7 +87,6 @@ const Game = () => {
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer
     )
     await sleep(2000)
-    console.log({ currentQuizItem })
 
     const asyncStorageSetPayload = {
       language,
@@ -129,7 +139,6 @@ const Game = () => {
 
   return (
     <View className='mt-auto bg-primary' key={currentQuizItem.id}>
-      <Sidebar />
       {currentQuizItem ? (
         <View className='flex flex-col gap-lg mt-auto text-secondary'>
           <View>
@@ -152,10 +161,11 @@ const Game = () => {
                     !!currentQuizItem.answeredOptionSerialNumber ||
                     isRemovedByFiftyFifty
                   }
-                  className={`${optionClassNameByOrientation} border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
+                  style={optionStyleByOrientation as StyleProp<ViewStyle>}
+                  className={`${optionClassNameByOrientation} grow border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                   onPress={() => onOptionPress(option, index + 1)}
                 >
-                  <View className='flex-row gap-1 items-center h-[30px]'>
+                  <View className='flex-row gap-1 items-center h-8'>
                     {!isRemovedByFiftyFifty && (
                       <>
                         <Text

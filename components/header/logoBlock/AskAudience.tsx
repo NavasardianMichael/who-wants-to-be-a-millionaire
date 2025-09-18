@@ -8,10 +8,9 @@ import { Text, TouchableOpacity, View } from 'react-native'
 
 export default memo(function AskAudience() {
   const { askAudience, setLifelinesState } = useLifelinesStore()
-  console.log({ askAudience })
 
   return (
-    <View className='flex-col flex-1 justify-center p-sm mx-auto rounded-lg border border-secondary bg-[#00185f]'>
+    <View className='flex-col flex-1 justify-center p-sm mx-auto rounded-lg border border-secondary bg-primary-contrast'>
       <View className='relative flex-row grow gap'>
         {OPTIONS_SERIAL_NUMBERS.map((serialNumber) => {
           const percentage = askAudience?.[serialNumber] ?? 0
@@ -38,7 +37,7 @@ export default memo(function AskAudience() {
       </View>
       {askAudience?.[1] !== undefined && (
         <TouchableOpacity
-          className={`h-[36px] w-[36px] flex items-center justify-center z-10 absolute -top-4 -right-4 rounded-full bg-secondary ${!askAudience ? 'opacity-50' : 'opacity-100'}`}
+          className={`h-9 w-9 flex items-center justify-center z-10 absolute -top-4 -right-4 rounded-full bg-secondary ${!askAudience ? 'opacity-50' : 'opacity-100'}`}
           onPress={() => {
             setLifelinesState({ currentLifeline: null })
           }}

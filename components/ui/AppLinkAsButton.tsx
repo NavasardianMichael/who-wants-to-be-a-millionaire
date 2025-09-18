@@ -10,7 +10,7 @@ const AppLinkAsButton: FC<Props> = ({
   ...restProps
 }) => {
   const combinedClassName = useMemo(() => {
-    return `min-w-[300px] box-border py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
+    return `min-w-300 box-border py-sm px-md text-center rounded-md text-secondary border border-secondary ${className}`
   }, [className])
 
   return (

@@ -73,7 +73,6 @@ export const getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer = (
   const probabilities = {
     [correctAnswerSerialNumber]: correctAnswerGuaranteedProbability,
   } as Record<OptionSerialNumber, number>
-  console.log({ correctAnswerGuaranteedProbability })
 
   let remainingProbability = 100 - correctAnswerGuaranteedProbability
 

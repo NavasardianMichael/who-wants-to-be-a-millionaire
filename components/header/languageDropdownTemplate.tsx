@@ -1,14 +1,12 @@
+import { ICONS } from '@/constants/icons'
 import { LANGUAGE_NAMES } from '@/constants/settings'
-import { Image, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
 
 export const LANGUAGE_DROPDOWN_OPTIONS = [
   {
     label: (
-      <View className='flex flex-row items-center gap-sm h-full'>
-        <Image
-          source={require('@/assets/icons/en.svg')}
-          className='h-full border border-primary'
-        />
+      <View className='flex flex-row items-center gap-sm h-8'>
+        <ICONS.en className='h-full border border-primary' />
         <Text>{LANGUAGE_NAMES.en}</Text>
       </View>
     ),
@@ -16,11 +14,8 @@ export const LANGUAGE_DROPDOWN_OPTIONS = [
   },
   {
     label: (
-      <View className='flex flex-row items-center gap-sm h-full'>
-        <Image
-          source={require('@/assets/icons/ru.svg')}
-          className='h-full border border-primary'
-        />
+      <View className='flex flex-row items-center gap-sm h-8'>
+        <ICONS.ru className='h-full border border-primary' />
         <Text>{LANGUAGE_NAMES.ru}</Text>
       </View>
     ),
@@ -28,11 +23,8 @@ export const LANGUAGE_DROPDOWN_OPTIONS = [
   },
   {
     label: (
-      <View className='flex flex-row items-center gap-sm h-full'>
-        <Image
-          source={require('@/assets/icons/am.svg')}
-          className='h-full border border-primary'
-        />
+      <View className='flex flex-row items-center gap-sm h-8'>
+        <ICONS.am className='h-full border border-primary' />
         <Text>{LANGUAGE_NAMES.am}</Text>
       </View>
     ),

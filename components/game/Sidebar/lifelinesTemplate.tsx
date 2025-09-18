@@ -1,21 +1,26 @@
 import { LIFELINES } from '@/constants/game'
-import { Image, Text } from 'react-native'
+import { ICONS } from '@/constants/icons'
+import { Text } from 'react-native'
 
 export const LIFELINES_TEMPLATE = [
   {
     id: LIFELINES.fiftyFifty,
-    icon: <Text className='text-[.8rem] text-secondary font-bold'>50/50</Text>,
+    icon: (
+      <Text style={{ fontSize: 13 }} className='text-secondary font-bold'>
+        50/50
+      </Text>
+    ),
   },
   {
     id: LIFELINES.phoneAFriend,
-    icon: <Image source={require('@/assets/icons/phone.svg')} />,
+    icon: <ICONS.phone />,
   },
   {
     id: LIFELINES.askAudience,
-    icon: <Image source={require('@/assets/icons/audience.svg')} />,
+    icon: <ICONS.audience />,
   },
   {
     id: LIFELINES.switchQuestion,
-    icon: <Image source={require('@/assets/icons/switch.svg')} />,
+    icon: <ICONS.switch />,
   },
 ]

@@ -12,6 +12,7 @@ import '../services/translations/i18n'
 
 const screenOptions = {
   headerShown: false,
+  statusBarHidden: true,
   contentStyle: { backgroundColor: '#002876' },
 }
 

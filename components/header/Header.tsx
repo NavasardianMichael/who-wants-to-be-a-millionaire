@@ -1,10 +1,14 @@
+import VolumeOffIcon from '@/assets/icons/volume-off.svg'
+import VolumeOnIcon from '@/assets/icons/volume-on.svg'
+import { ICONS } from '@/constants/icons'
 import { ROUTES } from '@/constants/routes'
 import { SOUNDS_URIS } from '@/constants/sound'
 import { useSound } from '@/hooks/useSound'
 import { useSoundStore } from '@/store/sound/store'
 import { usePathname } from 'expo-router'
 import { useState } from 'react'
-import { Image, TouchableOpacity, View } from 'react-native'
+import { TouchableOpacity, View } from 'react-native'
+import Sidebar from '../game/Sidebar/Sidebar'
 import ExitModal from './ExitModal'
 import LanguagesDropdown from './LanguagesDropdown'
 import LogoBlock from './logoBlock/LogoBlock'
@@ -45,23 +49,20 @@ export default function Header() {
           <TouchableOpacity
             key='header-exit-button'
             onPress={() => setIsExitModalVisible(true)}
-            className='h-[24px] rotate-180'
+            className='h-6 rotate-180'
           >
-            <Image source={require('@/assets/icons/exit.svg')} />
+            <ICONS.exit />
           </TouchableOpacity>
         )}
-        <TouchableOpacity onPress={soundHandler} className='h-[24px]'>
-          {isMuted ? (
-            <Image source={require('@/assets/icons/volume-off.svg')} />
-          ) : (
-            <Image source={require('@/assets/icons/volume-on.svg')} />
-          )}
+        <TouchableOpacity onPress={soundHandler} className='h-6 w-6'>
+          {isMuted ? <VolumeOffIcon /> : <VolumeOnIcon />}
         </TouchableOpacity>
         {pathName === ROUTES.home && (
           <View className='ml-auto'>
             <LanguagesDropdown />
           </View>
         )}
+        {pathName === ROUTES.game && <Sidebar />}
       </View>
 
       <ExitModal

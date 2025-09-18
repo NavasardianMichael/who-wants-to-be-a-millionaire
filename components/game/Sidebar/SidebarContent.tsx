@@ -93,14 +93,14 @@ export default function SidebarContent() {
               disabled={isDisabled}
               onPress={() => onLifelinePress(id)}
             >
-              <View className='h-[36px] flex justify-center items-center'>
+              <View className='h-9 flex justify-center items-center'>
                 {icon}
                 {lifelinesStore[id] && (
                   <Entypo
                     name='cross'
                     size={36}
                     color='red'
-                    className='absolute left-[50%] top-[50%] transform -translate-x-[50%] -translate-y-[50%]'
+                    className='absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'
                   />
                 )}
               </View>
@@ -114,7 +114,7 @@ export default function SidebarContent() {
           return (
             <View
               key={stage}
-              className={`flex-row py-[0.05rem] back ${stage === currentQuestionStage ? 'bg-[#ff7805] rounded-sm' : ''}`}
+              className={`flex-row p-0.05 back ${stage === currentQuestionStage ? 'bg-dark-orange rounded-sm' : ''}`}
             >
               <>
                 <Text className='transition text-md font-semibold text-right w-6 color-secondary'>
