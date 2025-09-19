@@ -1,3 +1,4 @@
+import SidebarContent from '@/components/game/Sidebar/SidebarContent'
 import { ROUTES } from '@/constants/routes'
 import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
@@ -29,6 +30,7 @@ const Game = () => {
     setGameState,
     setIsSidebarOpen,
     setAnsweredOptionSerialNumber,
+    isSidebarOpen,
   } = useGameStore()
   const { soundAPIById, playSoundById } = useSoundStore()
   const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
@@ -138,54 +140,61 @@ const Game = () => {
   if (!currentQuizItem) return null
 
   return (
-    <View className='mt-auto bg-primary' key={currentQuizItem.id}>
-      {currentQuizItem ? (
-        <View className='flex flex-col gap-lg mt-auto text-secondary'>
-          <View>
-            <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
-              {currentQuizItem.question}
-            </Text>
+    <>
+      <View className='mt-auto bg-primary' key={currentQuizItem.id}>
+        {currentQuizItem ? (
+          <View className='flex flex-col gap-lg mt-auto text-secondary'>
+            <View>
+              <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
+                {currentQuizItem.question}
+              </Text>
+            </View>
+            <View className='flex-row flex-wrap gap-md w-full'>
+              {currentQuizItem.options.map((option, index) => {
+                const optionClassNameByStatus = getOptionClassNameByStatus(
+                  (index + 1) as OptionSerialNumber
+                )
+                const isRemovedByFiftyFifty =
+                  !!currentLifeline &&
+                  fiftyFifty?.[(index + 1) as OptionSerialNumber]
+                return (
+                  <TouchableOpacity
+                    key={option}
+                    disabled={
+                      !!currentQuizItem.answeredOptionSerialNumber ||
+                      isRemovedByFiftyFifty
+                    }
+                    style={optionStyleByOrientation as StyleProp<ViewStyle>}
+                    className={`${optionClassNameByOrientation} grow border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
+                    onPress={() => onOptionPress(option, index + 1)}
+                  >
+                    <View className='flex-row gap-1 items-center h-8'>
+                      {!isRemovedByFiftyFifty && (
+                        <>
+                          <Text
+                            className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
+                          >
+                            {String.fromCharCode(65 + index)}.{' '}
+                          </Text>
+                          <Text className='text-secondary'>{option}</Text>
+                        </>
+                      )}
+                    </View>
+                  </TouchableOpacity>
+                )
+              })}
+            </View>
           </View>
-          <View className='flex-row flex-wrap gap-md w-full'>
-            {currentQuizItem.options.map((option, index) => {
-              const optionClassNameByStatus = getOptionClassNameByStatus(
-                (index + 1) as OptionSerialNumber
-              )
-              const isRemovedByFiftyFifty =
-                !!currentLifeline &&
-                fiftyFifty?.[(index + 1) as OptionSerialNumber]
-              return (
-                <TouchableOpacity
-                  key={option}
-                  disabled={
-                    !!currentQuizItem.answeredOptionSerialNumber ||
-                    isRemovedByFiftyFifty
-                  }
-                  style={optionStyleByOrientation as StyleProp<ViewStyle>}
-                  className={`${optionClassNameByOrientation} grow border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
-                  onPress={() => onOptionPress(option, index + 1)}
-                >
-                  <View className='flex-row gap-1 items-center h-8'>
-                    {!isRemovedByFiftyFifty && (
-                      <>
-                        <Text
-                          className={`text-${optionClassNameByStatus ? 'secondary' : 'tertiary'} font-semibold`}
-                        >
-                          {String.fromCharCode(65 + index)}.{' '}
-                        </Text>
-                        <Text className='text-secondary'>{option}</Text>
-                      </>
-                    )}
-                  </View>
-                </TouchableOpacity>
-              )
-            })}
-          </View>
-        </View>
-      ) : (
-        <Text>Loading...</Text>
-      )}
-    </View>
+        ) : (
+          <Text>Loading...</Text>
+        )}
+      </View>
+      <View
+        className={`w-full h-full absolute top-0 right-0 bottom-0 z-10 p-md py-3 box-border transition ${!isSidebarOpen && 'translate-x-full'} bg-indigo-700 border-l border-l-secondary h-full flex-1`}
+      >
+        <SidebarContent />
+      </View>
+    </>
   )
 }
 

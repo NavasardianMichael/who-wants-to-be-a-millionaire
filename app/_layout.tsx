@@ -18,7 +18,7 @@ const screenOptions = {
 
 export default function RootLayout() {
   const { language } = useSettingsStore()
-  const { initQuiz } = useGameStore()
+  const { initQuiz, isSidebarOpen } = useGameStore()
   useSound(SOUNDS_URIS.mainTheme, { loop: true })
   useSound(SOUNDS_URIS.resign)
 
@@ -32,10 +32,12 @@ export default function RootLayout() {
       <Stack
         screenOptions={screenOptions}
         layout={({ children }) => (
-          <View className='flex-1 flex p-lg bg-primary'>
-            <Header />
-            <View className='bg-primary flex-1'>{children}</View>
-          </View>
+          <>
+            <View className='flex-1 flex p-lg bg-primary'>
+              <Header />
+              <View className='bg-primary flex-1'>{children}</View>
+            </View>
+          </>
         )}
       />
     </View>

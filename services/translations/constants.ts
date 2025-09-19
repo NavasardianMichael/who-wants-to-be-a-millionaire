@@ -3,3 +3,5 @@ export const LANGUAGES = {
   am: 'am',
   ru: 'ru',
 } as const
+
+export const LANGUAGES_LIST = Object.values(LANGUAGES)
