@@ -21,7 +21,7 @@ export const useGameStore = create<GameState & GameStateActions>()(
             ...payload,
           }))
         },
-        setIsSidebarOpen: async (isOpen) => {
+        setIsSidebarOpen: (isOpen) => {
           set((prevState) => {
             prevState.isSidebarOpen = isOpen
           })

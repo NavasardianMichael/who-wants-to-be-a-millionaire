@@ -4,5 +4,9 @@
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
   },
-  "cSpell.words": ["closecircle", "Entypo", "genai", "nativewind", "Pressable"]
+  "cSpell.words": ["closecircle", "Entypo", "genai", "nativewind", "Pressable"],
+  "semi": false,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
 }
