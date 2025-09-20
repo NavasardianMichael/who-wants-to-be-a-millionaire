@@ -19,6 +19,7 @@ export type QuizItem = {
 export type GameStateActions = {
   setGameState: (state: Partial<GameState>) => void;
   setIsSidebarOpen: (isOpen: boolean) => void;
+  toggleIsSidebarOpen: () => void;
   setAnsweredOptionSerialNumber: (
     serialNumber: OptionSerialNumber | null
   ) => void;

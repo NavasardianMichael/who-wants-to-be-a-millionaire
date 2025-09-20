@@ -26,6 +26,11 @@ export const useGameStore = create<GameState & GameStateActions>()(
             prevState.isSidebarOpen = isOpen
           })
         },
+        toggleIsSidebarOpen: () => {
+          set((prevState) => {
+            prevState.isSidebarOpen = !prevState.isSidebarOpen
+          })
+        },
         setAnsweredOptionSerialNumber: (serialNumber) => {
           set((prevState) => {
             prevState.quiz[

@@ -8,7 +8,6 @@ import '../styles/globals.css';
 
 import { SOUNDS_URIS } from '@/constants/sound';
 import { useSound } from '@/hooks/useSound';
-import { NavigationContainer } from '@react-navigation/native';
 import '../services/translations/i18n';
 
 export default function RootLayout() {
@@ -28,16 +27,14 @@ export default function RootLayout() {
   };
 
   return (
-    <NavigationContainer>
-      <Stack
-        screenOptions={screenOptions}
-        layout={({ children }) => (
-          <View className="flex-1 flex p-lg bg-primary">
-            <Header />
-            <View className="bg-primary flex-1">{children}</View>
-          </View>
-        )}
-      />
-    </NavigationContainer>
+    <Stack
+      screenOptions={screenOptions}
+      layout={({ children }) => (
+        <View className="flex-1 flex p-lg bg-primary">
+          <Header />
+          <View className="bg-primary flex-1">{children}</View>
+        </View>
+      )}
+    />
   );
 }
