@@ -6,7 +6,7 @@ export const LIFELINES_TEMPLATE = [
   {
     id: LIFELINES.fiftyFifty,
     icon: (
-      <Text style={{ fontSize: 13 }} className='text-secondary font-bold'>
+      <Text style={{ fontSize: 10 }} className='text-secondary font-bold'>
         50/50
       </Text>
     ),

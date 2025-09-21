@@ -14,6 +14,7 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Text, TouchableHighlight, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
+import SidebarTrigger from './SidebarTrigger'
 
 export default function SidebarContent() {
   const { currentQuestionStage, setIsSidebarOpen } = useGameStore()
@@ -81,10 +82,19 @@ export default function SidebarContent() {
 
   return (
     <>
+      <View
+        className='absolute top-sm right-sm p-md'
+        style={{ transform: [{ rotate: '180deg' }] }}
+      >
+        <SidebarTrigger />
+      </View>
       <View className='flex-row gap-sm'>
         {LIFELINES_TEMPLATE.map(({ id, icon }) => {
           const isDisabled =
             isAnswerPending || lifelinesDisabled || !!lifelinesStore[id]
+
+          const sizingByLifeline =
+            id === LIFELINES.fiftyFifty ? 'h-8 w-8' : 'h-6 w-6'
 
           return (
             <TouchableHighlight
@@ -93,7 +103,9 @@ export default function SidebarContent() {
               disabled={isDisabled}
               onPress={() => onLifelinePress(id)}
             >
-              <View className='h-9 flex justify-center items-center'>
+              <View
+                className={`${sizingByLifeline} flex justify-center items-center`}
+              >
                 {icon}
                 {lifelinesStore[id] && (
                   <Entypo

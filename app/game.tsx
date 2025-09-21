@@ -1,56 +1,54 @@
-import SidebarContent from '@/components/game/Sidebar/SidebarContent';
-import { ROUTES } from '@/constants/routes';
-import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound';
-import { sleep } from '@/helpers/commons';
-import { getBgSoundIdByQuestionStage } from '@/helpers/game';
-import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation';
-import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem';
-import { useSound } from '@/hooks/useSound';
-import { useStyleByOrientation } from '@/hooks/useStyleByOrientation';
-import { setLastQuestionNumberBySafeHavenNumberByLanguage } from '@/services/localStorage/api';
-import { useGameStore } from '@/store/game/store';
-import { useLifelinesStore } from '@/store/lifelines/store';
-import { useSettingsStore } from '@/store/settings/store';
-import { useSoundStore } from '@/store/sound/store';
-import { OptionSerialNumber, QuestionStage } from '@/types/game';
-import { useRouter } from 'expo-router';
-import React, { useEffect } from 'react';
+import { ROUTES } from '@/constants/routes'
+import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
+import { sleep } from '@/helpers/commons'
+import { getBgSoundIdByQuestionStage } from '@/helpers/game'
+import { useClassNameByOrientation } from '@/hooks/useClassNameByOrientation'
+import { useCurrentQuizItem } from '@/hooks/useCurrentQuizItem'
+import { useSound } from '@/hooks/useSound'
+import { useStyleByOrientation } from '@/hooks/useStyleByOrientation'
+import { setLastQuestionNumberBySafeHavenNumberByLanguage } from '@/services/localStorage/api'
+import { useGameStore } from '@/store/game/store'
+import { useLifelinesStore } from '@/store/lifelines/store'
+import { useSettingsStore } from '@/store/settings/store'
+import { useSoundStore } from '@/store/sound/store'
+import { OptionSerialNumber, QuestionStage } from '@/types/game'
+import { useRouter } from 'expo-router'
+import React, { useEffect } from 'react'
 import {
   StyleProp,
   Text,
   TouchableOpacity,
   View,
   ViewStyle,
-} from 'react-native';
+} from 'react-native'
 
 const Game = () => {
-  const router = useRouter();
+  const router = useRouter()
   const {
     currentQuestionStage,
     setGameState,
     setIsSidebarOpen,
     setAnsweredOptionSerialNumber,
     isSidebarOpen,
-  } = useGameStore();
-  const { soundAPIById, playSoundById } = useSoundStore();
-  const { setLifelinesState, currentLifeline, fiftyFifty } =
-    useLifelinesStore();
-  const { language } = useSettingsStore();
+  } = useGameStore()
+  const { soundAPIById, playSoundById } = useSoundStore()
+  const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
+  const { language } = useSettingsStore()
 
-  useSound(SOUNDS_URIS.resign);
-  useSound(SOUNDS_URIS.finalAnswer);
-  useSound(SOUNDS_URIS.correctAnswer);
-  useSound(SOUNDS_URIS.wrongAnswer);
-  useSound(SOUNDS_URIS.next);
-  useSound(SOUNDS_URIS.easy, { loop: true });
-  useSound(SOUNDS_URIS.medium, { loop: true });
-  useSound(SOUNDS_URIS.hard, { loop: true });
+  useSound(SOUNDS_URIS.resign)
+  useSound(SOUNDS_URIS.finalAnswer)
+  useSound(SOUNDS_URIS.correctAnswer)
+  useSound(SOUNDS_URIS.wrongAnswer)
+  useSound(SOUNDS_URIS.next)
+  useSound(SOUNDS_URIS.easy, { loop: true })
+  useSound(SOUNDS_URIS.medium, { loop: true })
+  useSound(SOUNDS_URIS.hard, { loop: true })
 
-  const currentQuizItem = useCurrentQuizItem();
+  const currentQuizItem = useCurrentQuizItem()
 
-  const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false);
+  const [showCorrectAnswer, setShowCorrectAnswer] = React.useState(false)
 
-  const optionClassNameByOrientation = useClassNameByOrientation('w-full', '');
+  const optionClassNameByOrientation = useClassNameByOrientation('w-full', '')
   const optionStyleByOrientation = useStyleByOrientation(
     {
       width: '100%',
@@ -58,7 +56,7 @@ const Game = () => {
     {
       width: '48%',
     },
-  );
+  )
 
   useEffect(() => {
     return () => {
@@ -66,7 +64,7 @@ const Game = () => {
         currentQuestionStage: 1,
         isSidebarOpen: false,
         quiz: [],
-      });
+      })
       setLifelinesState({
         currentLifeline: null,
         askAudience: null,
@@ -74,96 +72,90 @@ const Game = () => {
         fiftyFifty: null,
         switchQuestion: null,
         lifelinesPending: false,
-      });
-    };
+      })
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [soundAPIById[SOUNDS_URIS.resign]]);
+  }, [soundAPIById[SOUNDS_URIS.resign]])
 
   const onOptionPress = async (option: string, serialNumber: number) => {
-    setAnsweredOptionSerialNumber(serialNumber as OptionSerialNumber);
-    playSoundById(SOUNDS_URIS.finalAnswer);
-    await sleep(2000);
-    setShowCorrectAnswer(true);
+    setAnsweredOptionSerialNumber(serialNumber as OptionSerialNumber)
+    playSoundById(SOUNDS_URIS.finalAnswer)
+    await sleep(2000)
+    setShowCorrectAnswer(true)
     const isAnswerCorrect =
-      serialNumber === currentQuizItem.correctOptionSerialNumber;
+      serialNumber === currentQuizItem.correctOptionSerialNumber
     playSoundById(
       isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer,
-    );
-    await sleep(2000);
+    )
+    await sleep(2000)
 
     const asyncStorageSetPayload = {
       language,
       quizItemId: currentQuizItem.id,
-    };
+    }
 
     if (isAnswerCorrect) {
-      setIsSidebarOpen(true);
-      setShowCorrectAnswer(false);
-      await sleep(1000);
+      setIsSidebarOpen(true)
+      setShowCorrectAnswer(false)
+      await sleep(1000)
 
       setGameState({
         currentQuestionStage: (currentQuestionStage + 1) as QuestionStage,
-      });
+      })
 
-      setLifelinesState({ currentLifeline: null });
-      await sleep(3000);
+      setLifelinesState({ currentLifeline: null })
+      await sleep(3000)
 
-      setIsSidebarOpen(false);
-      setAnsweredOptionSerialNumber(null);
-      playSoundById(SOUNDS_URIS.next);
-      await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next]);
-      const safeHavenSoundId =
-        getBgSoundIdByQuestionStage(currentQuestionStage);
-      playSoundById(safeHavenSoundId);
-      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload);
+      setIsSidebarOpen(false)
+      setAnsweredOptionSerialNumber(null)
+      playSoundById(SOUNDS_URIS.next)
+      await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next])
+      const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
+      playSoundById(safeHavenSoundId)
+      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
     } else {
-      playSoundById(SOUNDS_URIS.mainTheme);
-      setLifelinesState({ currentLifeline: null });
-      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload);
-      router.replace(ROUTES.home);
+      playSoundById(SOUNDS_URIS.mainTheme)
+      setLifelinesState({ currentLifeline: null })
+      setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
+      router.replace(ROUTES.home)
     }
-  };
+  }
 
   const getOptionClassNameByStatus = (serialNumber: OptionSerialNumber) => {
     if (showCorrectAnswer) {
       const isAnswerCorrect =
-        serialNumber === currentQuizItem.correctOptionSerialNumber;
+        serialNumber === currentQuizItem.correctOptionSerialNumber
       if (isAnswerCorrect) {
-        return 'bg-green-500';
+        return 'bg-green-500'
       } else if (serialNumber === currentQuizItem.answeredOptionSerialNumber) {
-        return 'bg-red-500';
+        return 'bg-red-500'
       }
     }
     return currentQuizItem.answeredOptionSerialNumber === serialNumber
       ? 'bg-tertiary'
-      : '';
-  };
+      : ''
+  }
 
-  if (!currentQuizItem) return null;
+  if (!currentQuizItem) return null
 
   return (
     <>
-      <View
-        className={`w-full h-full absolute top-0 right-0 bottom-0 z-10 p-md py-3 box-border transition ${!isSidebarOpen && 'translate-x-full'} bg-indigo-700 border-l border-l-secondary h-full flex-1`}
-      >
-        <SidebarContent />
-      </View>
-      <View className="mt-auto bg-primary" key={currentQuizItem.id}>
+      <View className='mt-auto bg-primary' key={currentQuizItem.id}>
         {currentQuizItem ? (
-          <View className="flex flex-col gap-lg mt-auto text-secondary">
+          <View className='flex flex-col gap-lg mt-auto text-secondary'>
             <View>
-              <Text className="text-secondary border-secondary border py-sm px-md rounded-lg text-center">
+              <Text className='text-secondary border-secondary border py-sm px-md rounded-lg text-center'>
                 {currentQuizItem.question}
               </Text>
             </View>
-            <View className="flex-row flex-wrap gap-md w-full">
+            <View className='flex-row flex-wrap gap-md w-full'>
               {currentQuizItem.options.map((option, index) => {
                 const optionClassNameByStatus = getOptionClassNameByStatus(
                   (index + 1) as OptionSerialNumber,
-                );
+                )
                 const isRemovedByFiftyFifty =
                   !!currentLifeline &&
-                  fiftyFifty?.[(index + 1) as OptionSerialNumber];
+                  fiftyFifty?.[(index + 1) as OptionSerialNumber]
                 return (
                   <TouchableOpacity
                     key={option}
@@ -175,7 +167,7 @@ const Game = () => {
                     className={`${optionClassNameByOrientation} grow border border-secondary rounded-md px-md ${optionClassNameByStatus}`}
                     onPress={() => onOptionPress(option, index + 1)}
                   >
-                    <View className="flex-row gap-1 items-center h-8">
+                    <View className='flex-row gap-1 items-center h-8'>
                       {!isRemovedByFiftyFifty && (
                         <>
                           <Text
@@ -183,12 +175,12 @@ const Game = () => {
                           >
                             {String.fromCharCode(65 + index)}.{' '}
                           </Text>
-                          <Text className="text-secondary">{option}</Text>
+                          <Text className='text-secondary'>{option}</Text>
                         </>
                       )}
                     </View>
                   </TouchableOpacity>
-                );
+                )
               })}
             </View>
           </View>
@@ -197,7 +189,7 @@ const Game = () => {
         )}
       </View>
     </>
-  );
-};
+  )
+}
 
-export default Game;
+export default Game
