@@ -45,6 +45,9 @@ export default function Header() {
   return (
     <>
       <View className='flex flex-row gap-md items-center justify'>
+        <TouchableOpacity onPress={soundHandler} className='h-6 w-6'>
+          {isMuted ? <VolumeOffIcon /> : <VolumeOnIcon />}
+        </TouchableOpacity>
         {pathName === ROUTES.game && (
           <TouchableOpacity
             key='header-exit-button'
@@ -54,9 +57,6 @@ export default function Header() {
             <ICONS.exit />
           </TouchableOpacity>
         )}
-        <TouchableOpacity onPress={soundHandler} className='h-6 w-6'>
-          {isMuted ? <VolumeOffIcon /> : <VolumeOnIcon />}
-        </TouchableOpacity>
         {pathName === ROUTES.home && (
           <View className='ml-auto'>
             <LanguagesDropdown />

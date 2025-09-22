@@ -39,7 +39,7 @@ export const useLifelinesStore = create<
         }) => {
           set((prevState) => {
             const randomIncorrectOptions = sliceArrayContainingCorrectAnswer(
-              correctOptionSerialNumber
+              correctOptionSerialNumber,
             )
             prevState.fiftyFifty = randomIncorrectOptions
           })
@@ -55,7 +55,7 @@ export const useLifelinesStore = create<
               getProbabilitiesWithGuaranteedProbabilityForCorrectAnswer(
                 correctOptionSerialNumber,
                 guaranteedProbability,
-                getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty)
+                getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty),
               )
 
             prevState.askAudience = probabilities
@@ -71,15 +71,28 @@ export const useLifelinesStore = create<
             const optionSerialNumber = getAnswerWithGuaranteedProbability(
               correctOptionSerialNumber,
               guaranteedProbability,
-              getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty)
+              getIncorrectOptionsSerialNumbersList(prevState.fiftyFifty),
             )
             prevState.phoneAFriend = {
               suggestedOptionSerialNumber: optionSerialNumber,
             }
           })
         },
-        setSwitchQuestionLifeline: () => {},
+        setSwitchQuestionLifeline: async (payload) => {
+          set((prevState) => {
+            prevState.switchQuestion = {
+              waitingToSwitchQuizItem:
+                payload.waitingToSwitchQuizItem ??
+                prevState.switchQuestion?.waitingToSwitchQuizItem ??
+                false,
+              wouldAnswer:
+                payload.wouldAnswer ??
+                prevState.switchQuestion?.wouldAnswer ??
+                null,
+            }
+          })
+        },
       }
-    })
-  )
+    }),
+  ),
 )

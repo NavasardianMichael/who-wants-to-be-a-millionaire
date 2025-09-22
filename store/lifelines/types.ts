@@ -11,7 +11,8 @@ export type LifelinesState = {
     suggestedOptionSerialNumber: OptionSerialNumber
   }>
   switchQuestion: Nullable<{
-    wouldAnswer: OptionSerialNumber
+    waitingToSwitchQuizItem: boolean
+    wouldAnswer: OptionSerialNumber | null
   }>
 }
 
@@ -33,5 +34,7 @@ export type LifelinesStateActions = {
   setFiftyFiftyLifeline: (payload: SingleLifelineActionPayload) => void
   setAskAudienceLifeline: (payload: SingleLifelineActionPayload) => void
   setPhoneAFriendLifeline: (payload: SingleLifelineActionPayload) => void
-  setSwitchQuestionLifeline: (payload: SingleLifelineActionPayload) => void
+  setSwitchQuestionLifeline: (
+    payload: Partial<NonNullable<LifelinesState['switchQuestion']>>,
+  ) => void
 }

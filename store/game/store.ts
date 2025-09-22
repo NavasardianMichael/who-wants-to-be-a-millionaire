@@ -1,4 +1,5 @@
 import { getQuiz } from '@/api/getQuiz'
+import { getNextQuizItemByLanguageAndSafeHavenNumber } from '@/services/localStorage/api'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
@@ -50,7 +51,21 @@ export const useGameStore = create<GameState & GameStateActions>()(
             resolve(quiz ?? [])
           })
         },
+        initNewQuizItemByLanguageAndSafeHavenNumber: async ({
+          language,
+          quizItemId,
+        }) => {
+          const newQuizItem = await getNextQuizItemByLanguageAndSafeHavenNumber(
+            {
+              language,
+              safeHavenNumber: quizItemId.split('-')[0] as unknown as number,
+            },
+          )
+          set((prevState) => {
+            prevState.quiz[prevState.currentQuestionStage - 1] = newQuizItem
+          })
+        },
       }
-    })
-  )
+    }),
+  ),
 )

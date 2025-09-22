@@ -1,3 +1,4 @@
+import { ICONS } from '@/constants/icons'
 import { ROUTES } from '@/constants/routes'
 import { SOUND_DURATION_BY_URI, SOUNDS_URIS } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
@@ -13,7 +14,8 @@ import { useSettingsStore } from '@/store/settings/store'
 import { useSoundStore } from '@/store/sound/store'
 import { OptionSerialNumber, QuestionStage } from '@/types/game'
 import { useRouter } from 'expo-router'
-import React, { useEffect } from 'react'
+import React, { Fragment, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import {
   StyleProp,
   Text,
@@ -29,11 +31,18 @@ const Game = () => {
     setGameState,
     setIsSidebarOpen,
     setAnsweredOptionSerialNumber,
-    isSidebarOpen,
+    initNewQuizItemByLanguageAndSafeHavenNumber,
   } = useGameStore()
   const { soundAPIById, playSoundById } = useSoundStore()
-  const { setLifelinesState, currentLifeline, fiftyFifty } = useLifelinesStore()
+  const {
+    setLifelinesState,
+    currentLifeline,
+    fiftyFifty,
+    switchQuestion,
+    setSwitchQuestionLifeline,
+  } = useLifelinesStore()
   const { language } = useSettingsStore()
+  const { t } = useTranslation()
 
   useSound(SOUNDS_URIS.resign)
   useSound(SOUNDS_URIS.finalAnswer)
@@ -78,15 +87,26 @@ const Game = () => {
   }, [soundAPIById[SOUNDS_URIS.resign]])
 
   const onOptionPress = async (option: string, serialNumber: number) => {
+    const isSwitchQuestionMode = switchQuestion?.waitingToSwitchQuizItem
+    if (isSwitchQuestionMode) {
+      setSwitchQuestionLifeline({
+        wouldAnswer: serialNumber as OptionSerialNumber,
+      })
+    }
+
     setAnsweredOptionSerialNumber(serialNumber as OptionSerialNumber)
-    playSoundById(SOUNDS_URIS.finalAnswer)
+    if (!isSwitchQuestionMode) {
+      playSoundById(SOUNDS_URIS.finalAnswer)
+    }
     await sleep(2000)
     setShowCorrectAnswer(true)
     const isAnswerCorrect =
       serialNumber === currentQuizItem.correctOptionSerialNumber
-    playSoundById(
-      isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer,
-    )
+    if (!isSwitchQuestionMode) {
+      playSoundById(
+        isAnswerCorrect ? SOUNDS_URIS.correctAnswer : SOUNDS_URIS.wrongAnswer,
+      )
+    }
     await sleep(2000)
 
     const asyncStorageSetPayload = {
@@ -95,29 +115,44 @@ const Game = () => {
     }
 
     if (isAnswerCorrect) {
-      setIsSidebarOpen(true)
+      if (!isSwitchQuestionMode) setIsSidebarOpen(true)
       setShowCorrectAnswer(false)
       await sleep(1000)
 
-      setGameState({
-        currentQuestionStage: (currentQuestionStage + 1) as QuestionStage,
-      })
+      if (!isSwitchQuestionMode) {
+        setGameState({
+          currentQuestionStage: (currentQuestionStage + 1) as QuestionStage,
+        })
+      }
 
       setLifelinesState({ currentLifeline: null })
       await sleep(3000)
 
-      setIsSidebarOpen(false)
       setAnsweredOptionSerialNumber(null)
-      playSoundById(SOUNDS_URIS.next)
-      await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next])
-      const safeHavenSoundId = getBgSoundIdByQuestionStage(currentQuestionStage)
-      playSoundById(safeHavenSoundId)
+      if (!isSwitchQuestionMode) {
+        setIsSidebarOpen(false)
+        playSoundById(SOUNDS_URIS.next)
+        await sleep(SOUND_DURATION_BY_URI[SOUNDS_URIS.next])
+        const safeHavenSoundId =
+          getBgSoundIdByQuestionStage(currentQuestionStage)
+        playSoundById(safeHavenSoundId)
+      }
       setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
     } else {
-      playSoundById(SOUNDS_URIS.mainTheme)
-      setLifelinesState({ currentLifeline: null })
       setLastQuestionNumberBySafeHavenNumberByLanguage(asyncStorageSetPayload)
-      router.replace(ROUTES.home)
+      setLifelinesState({ currentLifeline: null })
+      if (!isSwitchQuestionMode) {
+        playSoundById(SOUNDS_URIS.mainTheme)
+        router.replace(ROUTES.home)
+      }
+    }
+
+    if (isSwitchQuestionMode) {
+      initNewQuizItemByLanguageAndSafeHavenNumber({
+        language,
+        quizItemId: currentQuizItem.id,
+      })
+      setSwitchQuestionLifeline({ waitingToSwitchQuizItem: false })
     }
   }
 
@@ -139,7 +174,12 @@ const Game = () => {
   if (!currentQuizItem) return null
 
   return (
-    <>
+    <Fragment key={currentQuizItem.id}>
+      {switchQuestion?.waitingToSwitchQuizItem && (
+        <Text className='text-secondary text-center mt-auto font-semibold'>
+          {t('which-option-do-you-think-is-correct')}
+        </Text>
+      )}
       <View className='mt-auto bg-primary' key={currentQuizItem.id}>
         {currentQuizItem ? (
           <View className='flex flex-col gap-lg mt-auto text-secondary'>
@@ -148,7 +188,7 @@ const Game = () => {
                 {currentQuizItem.question}
               </Text>
             </View>
-            <View className='flex-row flex-wrap gap-md w-full'>
+            <View className='flex-row flex-wrap gap-md w-full relative'>
               {currentQuizItem.options.map((option, index) => {
                 const optionClassNameByStatus = getOptionClassNameByStatus(
                   (index + 1) as OptionSerialNumber,
@@ -182,13 +222,21 @@ const Game = () => {
                   </TouchableOpacity>
                 )
               })}
+
+              {
+                <View
+                  className={`absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 ${!switchQuestion?.waitingToSwitchQuizItem && 'scale-0'} transition-transform duration-300 bg-secondary rounded-full p-sm border border-primary`}
+                >
+                  <ICONS.switchDark />
+                </View>
+              }
             </View>
           </View>
         ) : (
           <Text>Loading...</Text>
         )}
       </View>
-    </>
+    </Fragment>
   )
 }
 

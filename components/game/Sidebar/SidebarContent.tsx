@@ -1,4 +1,5 @@
 import { LIFELINES, QUESTION_STAGES } from '@/constants/game'
+import { ICONS } from '@/constants/icons'
 import { SOUND_DURATION_BY_URI, SOUND_ID_BY_LIFELINE } from '@/constants/sound'
 import { sleep } from '@/helpers/commons'
 import { getBgSoundIdByQuestionStage } from '@/helpers/game'
@@ -12,12 +13,12 @@ import { Lifeline } from '@/types/game'
 import Entypo from '@expo/vector-icons/Entypo'
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Text, TouchableHighlight, View } from 'react-native'
+import { Text, TouchableHighlight, TouchableOpacity, View } from 'react-native'
 import { LIFELINES_TEMPLATE } from './lifelinesTemplate'
-import SidebarTrigger from './SidebarTrigger'
 
 export default function SidebarContent() {
-  const { currentQuestionStage, setIsSidebarOpen } = useGameStore()
+  const { currentQuestionStage, setIsSidebarOpen, isSidebarOpen } =
+    useGameStore()
   const { playSoundById } = useSoundStore()
   const lifelinesStore = useLifelinesStore()
   const {
@@ -41,25 +42,28 @@ export default function SidebarContent() {
   }, [currentQuizItem])
 
   const lifelineActions: Record<
-    Lifeline,
+    Exclude<Lifeline, 'switchQuestion'>,
     (payload: SingleLifelineActionPayload) => void
   > = useMemo(() => {
     return {
       fiftyFifty: setFiftyFiftyLifeline,
       askAudience: setAskAudienceLifeline,
       phoneAFriend: setPhoneAFriendLifeline,
-      switchQuestion: setSwitchQuestionLifeline,
     }
-  }, [
-    setAskAudienceLifeline,
-    setFiftyFiftyLifeline,
-    setPhoneAFriendLifeline,
-    setSwitchQuestionLifeline,
-  ])
+  }, [setAskAudienceLifeline, setFiftyFiftyLifeline, setPhoneAFriendLifeline])
 
   const onLifelinePress = async (lifeline: Lifeline) => {
-    setLifelinesState({ currentLifeline: lifeline, lifelinesDisabled: true })
     const lifelineSoundId = SOUND_ID_BY_LIFELINE[lifeline]
+
+    if (lifeline === LIFELINES.switchQuestion) {
+      setIsSidebarOpen(false)
+      playSoundById(lifelineSoundId)
+      setSwitchQuestionLifeline({ waitingToSwitchQuizItem: true })
+      await sleep(800)
+      return
+    }
+
+    setLifelinesState({ currentLifeline: lifeline, lifelinesDisabled: true })
 
     setIsSidebarOpen(false)
     playSoundById(lifelineSoundId)
@@ -69,7 +73,7 @@ export default function SidebarContent() {
       await sleep(SOUND_DURATION_BY_URI[lifelineSoundId])
     }
 
-    lifelineActions[lifeline]({
+    lifelineActions[lifeline as Exclude<Lifeline, 'switchQuestion'>]({
       correctOptionSerialNumber: currentQuizItem.correctOptionSerialNumber,
       currentQuestionStage,
     })
@@ -83,66 +87,77 @@ export default function SidebarContent() {
   return (
     <>
       <View
-        className='absolute top-sm right-sm p-md'
-        style={{ transform: [{ rotate: '180deg' }] }}
+        className={`absolute h-full w-80 right-0 bottom-0 top-0 z-10 p-md transition ${!isSidebarOpen && 'translate-x-full'} bg-indigo-700 border-l border-l-secondary`}
       >
-        <SidebarTrigger />
-      </View>
-      <View className='flex-row gap-sm'>
-        {LIFELINES_TEMPLATE.map(({ id, icon }) => {
-          const isDisabled =
-            isAnswerPending || lifelinesDisabled || !!lifelinesStore[id]
+        <View
+          className='absolute top-md right-md  z-20'
+          style={{ transform: [{ rotate: '180deg' }] }}
+        >
+          <TouchableOpacity
+            className='w-6 h-6'
+            onPress={() => setIsSidebarOpen(false)}
+          >
+            <ICONS.sidebar />
+          </TouchableOpacity>
+        </View>
+        <View className='h-full'>
+          <View className='flex-row gap-sm'>
+            {LIFELINES_TEMPLATE.map(({ id, icon }) => {
+              const isDisabled =
+                isAnswerPending || lifelinesDisabled || !!lifelinesStore[id]
 
-          const sizingByLifeline =
-            id === LIFELINES.fiftyFifty ? 'h-8 w-8' : 'h-6 w-6'
+              const sizingByLifeline =
+                id === LIFELINES.fiftyFifty ? 'h-8 w-8' : 'h-6 w-6'
 
-          return (
-            <TouchableHighlight
-              key={id}
-              className={`relative flex justify-center items-center border border-secondary w-12 h-12 rounded-full ${isDisabled ? 'opacity-50' : 'opacity-100'}`}
-              disabled={isDisabled}
-              onPress={() => onLifelinePress(id)}
-            >
-              <View
-                className={`${sizingByLifeline} flex justify-center items-center`}
-              >
-                {icon}
-                {lifelinesStore[id] && (
-                  <Entypo
-                    name='cross'
-                    size={36}
-                    color='red'
-                    className='absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'
-                  />
-                )}
-              </View>
-            </TouchableHighlight>
-          )
-        })}
-      </View>
+              return (
+                <TouchableHighlight
+                  key={id}
+                  className={`relative flex justify-center items-center border border-secondary w-12 h-12 rounded-full ${isDisabled ? 'opacity-50' : 'opacity-100'}`}
+                  disabled={isDisabled}
+                  onPress={() => onLifelinePress(id)}
+                >
+                  <View
+                    className={`${sizingByLifeline} flex justify-center items-center`}
+                  >
+                    {icon}
+                    {lifelinesStore[id] && (
+                      <Entypo
+                        name='cross'
+                        size={36}
+                        color='red'
+                        className='absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                      />
+                    )}
+                  </View>
+                </TouchableHighlight>
+              )
+            })}
+          </View>
 
-      <View className='flex flex-col-reverse my-auto'>
-        {QUESTION_STAGES.map((stage) => {
-          return (
-            <View
-              key={stage}
-              className={`flex-row p-0.05 back ${stage === currentQuestionStage ? 'bg-dark-orange rounded-sm' : ''}`}
-            >
-              <>
-                <Text className='transition text-md font-semibold text-right w-6 color-secondary'>
-                  {stage}.{' '}
-                </Text>
-                <Text className='text-tertiary w-1'>
-                  {stage < currentQuestionStage ? '◆' : ''}
-                </Text>
-                <Text className='text-md color-secondary ml-md'>
-                  {t(`currency-symbol`)}
-                  {t(`stage-${stage}-money-amount`)}
-                </Text>
-              </>
-            </View>
-          )
-        })}
+          <View className='flex flex-col-reverse my-auto'>
+            {QUESTION_STAGES.map((stage) => {
+              return (
+                <View
+                  key={stage}
+                  className={`flex-row p-0.05 back ${stage === currentQuestionStage ? 'bg-dark-orange rounded-sm' : ''}`}
+                >
+                  <>
+                    <Text className='transition text-md font-semibold text-right w-6 color-secondary'>
+                      {stage}.{' '}
+                    </Text>
+                    <Text className='text-tertiary w-1'>
+                      {stage < currentQuestionStage ? '◆' : ''}
+                    </Text>
+                    <Text className='text-md color-secondary ml-md'>
+                      {t(`currency-symbol`)}
+                      {t(`stage-${stage}-money-amount`)}
+                    </Text>
+                  </>
+                </View>
+              )
+            })}
+          </View>
+        </View>
       </View>
     </>
   )

@@ -31,14 +31,11 @@ export default function RootLayout() {
     <Stack
       screenOptions={screenOptions}
       layout={({ children }) => (
-        <View className='flex-1 flex p-lg bg-primary'>
+        <View className='flex-1 flex p-md bg-primary'>
           <Header />
           <View className='bg-primary flex-1'>{children}</View>
-          <View
-            className={`absolute w-80 z-10 p-md transition ${!isSidebarOpen && 'translate-x-full'} bg-indigo-700 border-l border-l-secondary`}
-          >
-            <SidebarContent />
-          </View>
+
+          <SidebarContent />
         </View>
       )}
     />
