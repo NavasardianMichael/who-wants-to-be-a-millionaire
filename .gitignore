@@ -1,41 +1,51 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
 # dependencies
 node_modules/
 
-# Expo
-.expo/
+# testing
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# next.js
+.next/
+/out/
+
+# production
+/build
 dist/
-web-build/
-expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# husky internals
+.husky/_
 
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+# misc
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# debug
+npm-debug.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+!.env.example
+!server/.env.example
+
+# server uploads (keep folder via .gitkeep)
+server/uploads/*
+!server/uploads/.gitkeep
 
 # typescript
 *.tsbuildinfo
+next-env.d.ts
 
-app-example
+# editors
+.vs/
+.idea/
 
-android
+# integration-test uploads
+tests/.uploads/
+
+# API release staging (scripts/build-api-release.mjs)
+out/

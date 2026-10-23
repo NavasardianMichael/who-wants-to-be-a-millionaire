@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Millionaire Quiz
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The quiz-show game — fifteen questions to the million — rebuilt as a multilingual
+progressive web app.
 
-## Get started
+- **Three modes:** Classic (the ladder, two safe havens, walk away), Marathon (endless, one
+  mistake ends it) and Time Attack (180 seconds, wrong answers cost time).
+- **Four lifelines:** 50:50, Ask the Audience, Phone a Friend (an AI friend who is right about
+  as often as a real one), and Switch the Question.
+- **50 languages**, every page server-rendered and indexed under its own URL
+  (`/en/play`, `/hy/play`, `/ja/play` …) with hreflang alternates and a sitemap.
+- **Questions written by Gemini natively in each language**, mixing world knowledge with the
+  culture of the people who speak it. They are pooled, validated and reused; a curated English
+  bank is the fallback.
+- **Global leaderboards** for Marathon and Time Attack, refereed by the server, filterable by
+  language and searchable by name. Google sign-in, uploadable avatars, 20 badges.
+- **Offline-first:** installable, downloadable language packs, results synced when the
+  connection returns.
 
-1. Install dependencies
+## Run it locally
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Requirements: Node 24, pnpm 10, Docker.
 
 ```bash
-npm run reset-project
+pnpm install
+cp server/.env.example server/.env      # add GEMINI_KEY (free at aistudio.google.com/apikey)
+pnpm db:up && pnpm db:setup             # Postgres on :5006, migrations, English fallback bank
+pnpm dev                                # web http://localhost:7006 · API http://localhost:9006
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Without a `GEMINI_KEY` everything works on the English bank. Without Google OAuth credentials
+sign-in is hidden and ranked modes are unavailable; Classic and practice runs still work.
 
-## Learn more
+## Verify
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+pnpm verify        # typecheck (web + API), grep gates, lint, unit + integration tests, build
+pnpm test:e2e      # Playwright on desktop, tablet and phone viewports (needs `pnpm dev`)
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Learn the codebase
 
-## Join the community
+- [`CLAUDE.md`](CLAUDE.md) — commands, where things live, working rules.
+- [`src/CLAUDE.md`](src/CLAUDE.md) and [`server/CLAUDE.md`](server/CLAUDE.md) — per-layer invariants.
+- [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) — production setup.
+- [`docs/STACK_BLUEPRINT.md`](docs/STACK_BLUEPRINT.md) — how to build a new project on this stack.
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Millionaire Quiz is a fan-made game and is not affiliated with any television programme or
+rights holder. The sounds in `public/audio/` were carried over from the project's earlier version.

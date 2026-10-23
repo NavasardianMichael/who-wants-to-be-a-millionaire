@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: millionaire-postgres
+    restart: unless-stopped
+    ports:
+      # Not 5432, so a local Postgres or an SSH tunnel on the default port cannot shadow it.
+      # Bookie uses 5004; this app takes 5006.
+      - '5006:5432'
+    environment:
+      POSTGRES_USER: millionaire
+      POSTGRES_PASSWORD: millionaire
+      POSTGRES_DB: millionaire
+    volumes:
+      - millionaire_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U millionaire -d millionaire']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  millionaire_pg:

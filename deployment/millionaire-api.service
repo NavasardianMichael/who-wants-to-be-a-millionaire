@@ -1,0 +1,35 @@
+# =============================================================================
+# systemd — API (Express). Install to /etc/systemd/system/millionaire-api.service
+# Paths assume APP_DIR=/home/michael/apps/millionaire.
+#
+# The env file is written by the deploy workflow (mode 600): ENV_API_BASE64 plus the four
+# runtime keys it owns (NODE_ENV, PORT=9006, HOST=127.0.0.1, UPLOAD_DIR). systemd's
+# EnvironmentFile is not dotenv — no `export`, no multi-line values.
+# =============================================================================
+[Unit]
+Description=Who Wants to Be a Millionaire — API (Express)
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=michael
+Group=michael
+WorkingDirectory=/home/michael/apps/millionaire/api/current
+EnvironmentFile=/home/michael/apps/millionaire/shared/.env.api
+ExecStart=/usr/bin/node dist/src/index.js
+Restart=always
+RestartSec=2
+KillSignal=SIGTERM
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# Avatars are the only thing the API writes to disk.
+ReadWritePaths=/home/michael/apps/millionaire/shared/uploads
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
