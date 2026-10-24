@@ -2,15 +2,17 @@
 
 import { useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { syncBadgesAPI } from '@api/badges/main'
 import { useAudioStore } from '@store/audio/store'
 import { useAuthStore } from '@store/auth/store'
 import { useSettingsStore } from '@store/settings/store'
 import { toast } from '@store/toast/store'
+import { isLocale } from '@i18n/config'
 import { usePathname, useRouter } from '@i18n/navigation'
 import { mergeLocalBadges, readLocalBadges } from '@helpers/game/progress'
 import { flushOutbox } from '@helpers/offline/outbox'
+import { ensurePack } from '@helpers/offline/packs'
 import { reportError } from '@helpers/reportError'
 
 /**
@@ -20,6 +22,9 @@ import { reportError } from '@helpers/reportError'
  * - once signed in, merge device badges into the account and flush the offline outbox;
  * - flush again whenever the connection comes back.
  */
+/** Long enough not to compete with the page's own requests. */
+const PACK_DELAY_MS = 8000
+
 export const AppEffects = () => {
   const hydrateSettings = useSettingsStore.use.hydrateSettings()
   const hydrateAudio = useAudioStore.use.hydrateAudio()
@@ -28,6 +33,7 @@ export const AppEffects = () => {
   const searchParams = useSearchParams()
   const router = useRouter()
   const pathname = usePathname()
+  const locale = useLocale()
   const t = useTranslations()
 
   useEffect(() => {
@@ -64,6 +70,16 @@ export const AppEffects = () => {
     // `searchParams` is read once per sign-in, not tracked.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user])
+
+  // Offline Classic needs this language's questions on the device before the connection goes:
+  // fetched quietly a few seconds after the page settles, and refreshed weekly.
+  useEffect(() => {
+    if (!isLocale(locale)) return
+    const timer = setTimeout(() => {
+      ensurePack(locale).catch((error: unknown) => reportError(error, 'packs:ensure', { silent: true }))
+    }, PACK_DELAY_MS)
+    return () => clearTimeout(timer)
+  }, [locale])
 
   useEffect(() => {
     const onOnline = () => {

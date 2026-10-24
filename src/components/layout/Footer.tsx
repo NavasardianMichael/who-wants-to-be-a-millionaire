@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl'
 import { LOCALE_LABELS, LOCALES } from '@i18n/config'
-import { APP_NAME } from '@constants/app'
 import { LEGAL_NAV, PRIMARY_NAV, SECONDARY_NAV } from '@constants/navigation'
 import { Emblem } from '@components/brand/Emblem'
 import { AppLink } from '@components/ui/bare/AppLink'
@@ -21,7 +20,7 @@ export const Footer = () => {
         <div className='flex flex-col gap-4'>
           <div className='flex items-center gap-3'>
             <Emblem className='size-12' />
-            <p className='font-display text-h3 font-black text-gold-gradient'>{APP_NAME}</p>
+            <p className='font-display text-h3 font-black text-gold-gradient'>{t('Common.appName')}</p>
           </div>
           <p className='max-w-sm text-body-sm text-mist'>{t('Common.tagline')}</p>
         </div>
@@ -48,7 +47,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className='container-page border-t border-spot-300/10 py-5 text-caption text-mist-dim'>
-        {t('Common.copyright', { year, appName: APP_NAME })}
+        {t('Common.copyright', { year, appName: t('Common.appName') })}
       </p>
     </footer>
   )

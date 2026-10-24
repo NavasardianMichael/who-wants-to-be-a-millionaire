@@ -1,9 +1,11 @@
 'use client'
 
 import { type FormEvent, useId, useState } from 'react'
+import { Input, Space } from 'antd'
 import { useTranslations } from 'next-intl'
 import { useProfileStore } from '@store/profile/single/store'
 import { toast } from '@store/toast/store'
+import { useLeaveGuard } from '@hooks/useLeaveGuard'
 import { Button } from '@components/ui/Button'
 
 const MIN = 2
@@ -21,6 +23,8 @@ export const DisplayNameForm = ({ initial }: { initial: string }) => {
 
   const trimmed = value.trim()
   const invalid = trimmed.length < MIN || trimmed.length > MAX
+  const showError = touched && invalid
+  useLeaveGuard(trimmed !== initial && 'unsaved')
 
   const submit = async (event: FormEvent) => {
     event.preventDefault()
@@ -30,27 +34,28 @@ export const DisplayNameForm = ({ initial }: { initial: string }) => {
   }
 
   return (
-    <form onSubmit={submit} className='flex w-full flex-col gap-2' noValidate>
+    <form onSubmit={submit} className='flex w-full flex-col gap-2 text-start' noValidate>
       <label htmlFor={id} className='font-semibold'>
         {t('displayName')}
       </label>
-      <div className='flex gap-2'>
-        <input
+      <Space.Compact className='w-full'>
+        <Input
           id={id}
+          size='large'
           value={value}
           onChange={(event) => setValue(event.target.value)}
           onBlur={() => setTouched(true)}
           maxLength={MAX}
-          aria-invalid={touched && invalid}
+          status={showError ? 'error' : undefined}
+          aria-invalid={showError}
           aria-describedby={hintId}
-          className='h-12 min-w-0 flex-1 rounded-full border border-spot-300/25 bg-studio-950/70 px-4 text-ivory focus:border-gold-300 focus:outline-none aria-invalid:border-wrong-500'
         />
-        <Button type='submit' loading={isSaving} disabled={trimmed === initial}>
+        <Button type='submit' loading={isSaving} disabled={trimmed === initial} className='px-4'>
           {tCommon('save')}
         </Button>
-      </div>
-      <p id={hintId} className={touched && invalid ? 'text-caption text-wrong-300' : 'text-caption text-mist'}>
-        {touched && invalid ? t('displayNameError', { min: MIN, max: MAX }) : t('displayNameHint', { min: MIN, max: MAX })}
+      </Space.Compact>
+      <p id={hintId} className={showError ? 'text-caption text-wrong-300' : 'text-caption text-mist'}>
+        {showError ? t('displayNameError', { min: MIN, max: MAX }) : t('displayNameHint', { min: MIN, max: MAX })}
       </p>
     </form>
   )

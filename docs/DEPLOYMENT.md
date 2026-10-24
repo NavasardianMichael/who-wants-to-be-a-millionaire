@@ -115,6 +115,9 @@ starts both services.
 - **Gemini:** a key from https://aistudio.google.com/apikey into `GEMINI_KEY`. The free tier
   is enough: generated questions are pooled and reused, and `POOL_REFILL_MAX_CALLS` caps the
   background top-up.
+- **Mail engine** (contact form): the engine bookie uses. `MAIL_API_URL`, `MAIL_API_KEY`,
+  `MAIL_APP_ID="millionaire"`. Messages go to the engine's internal inbox; nothing is stored.
+  Without a key the contact form answers 503 in production.
 
 ## GitHub configuration
 
@@ -141,8 +144,8 @@ in one is invisible to the other. Deploy fails closed if either origin is missin
 `http://`.
 
 `ENV_API_BASE64` holds group A of `server/.env.example`: `DATABASE_URL`, `JWT_SECRET`,
-`CORS_ORIGIN`, `GEMINI_KEY`, `GOOGLE_*`, optionally `VERIFY_QUESTIONS`, `POOL_REFILL_*`,
-`SENTRY_DSN_API`. Do **not** put `NODE_ENV`, `PORT`, `HOST` or `UPLOAD_DIR` in it: the deploy
+`CORS_ORIGIN`, `GEMINI_KEY`, `GOOGLE_*`, `MAIL_API_URL`, `MAIL_API_KEY`, `MAIL_APP_ID`, optionally
+`VERIFY_QUESTIONS`, `POOL_REFILL_*`, `SENTRY_DSN_API`. Do **not** put `NODE_ENV`, `PORT`, `HOST` or `UPLOAD_DIR` in it: the deploy
 strips and rewrites those four so they cannot drift from the units.
 
 ```bash

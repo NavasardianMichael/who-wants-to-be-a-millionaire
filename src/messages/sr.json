@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Kviz Milioner",
+    "wordmarkTop": "Milioner",
+    "wordmarkBottom": "Kviz",
     "tagline": "Квиз-шоу игра на твом језику",
     "play": "Играј",
     "playNow": "Играј одмах",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Настави преко Google-а",
     "signedInAs": "Пријављени налог: {name}",
     "you": "Ти",
+    "unsavedTitle": "Napusti ovu stranicu?",
+    "unsavedBody": "Ono što si ovde uneo/la nije sačuvano i biće izgubljeno.",
+    "stay": "Ostani",
+    "leave": "Napusti",
     "share": "Подели",
     "copied": "Линк је копиран",
     "comingBack": "Видимо се ускоро!",
@@ -57,22 +63,14 @@
     "about": "О игри",
     "privacy": "Приватност",
     "terms": "Услови",
+    "contact": "Kontaktiraj nas",
     "profile": "Профил",
     "settings": "Подешавања"
   },
   "Home": {
-    "eyebrow": "50 језика · питања пише AI · бесплатно",
+    "eyebrow": "50 jezika · pitanja pisana veštačkom inteligencijom · besplatno",
     "heroTitle": "Желите ли да постанете милионер?",
-    "heroSubtitle": "Само петнаест питања дели те од милиона. Пењи се лествицом новца, паметно користи помоћи — и сам одлучи када да станеш.",
-    "heroCta": "Играј Класик",
-    "heroSecondaryCta": "Пробај Маратон",
-    "statsQuestions": "Нова питања у свакој игри",
-    "statsLanguages": "Језици",
-    "statsLifelines": "Помоћи",
     "modesTitle": "Три начина игре",
-    "modesSubtitle": "Класичан успон до врха, бескрајни тест живаца или трка с временом.",
-    "ladderTitle": "Лествица новца",
-    "ladderSubtitle": "Сваки тачан одговор подиже те за једну степеницу. Сигурни прагови на 5. и 10. питању чувају твој добитак чак и ако погрешиш.",
     "lifelinesTitle": "Четири помоћи, свака по једном",
     "lifelinesSubtitle": "Кад запнеш, помоћ може да ти спаси игру. Користи их паметно — најтежа питања стижу на крају.",
     "howTitle": "Како се игра",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Погледај целу ранг-листу",
     "emptyLeaderboard": "Још нема рангираних партија — буди први!",
     "cultureTitle": "Питања која говоре твојим језиком",
-    "cultureBody": "Наш AI писац питања ствара нова питања директно на сваком од 50 језика и спаја опште знање са историјом, књижевношћу, географијом и обичајима твоје културе. Питање о твом омиљеном песнику неће бити превод питања о нечијем туђем.",
+    "cultureBody": "Naš pisac pitanja sa veštačkom inteligencijom kreira nova pitanja na maternjem jeziku za svaki od 50 jezika, spajajući opšte znanje sa istorijom, književnošću, geografijom i tradicijom vaše kulture. Pitanje o tvom omiljenom pesniku neće biti prevod pitanja o nekome tuđem.",
     "offlineTitle": "Играј било где, чак и без интернета",
-    "offlineBody": "Инсталирај апликацију, преузми пакете питања за језике које желиш и играј и у авиону или у метроу. Резултати се синхронизују чим се вратиш на мрежу.",
+    "offlineBody": "Instaliraj aplikaciju i nastavi da igraš Klasik u avionu ili u metrou: pitanja na tvom jeziku se automatski čuvaju na tvom uređaju. Tvoji rezultati se sinhronizuju kada ponovo budeš na mreži.",
     "badgesTitle": "Сакупљај беџеве",
     "badgesSubtitle": "Стигни до сигурних прагова, освоји милион, играј из дана у дан — укупно беџева за освајање: {count}.",
     "viewBadges": "Погледај све беџеве",
     "categoriesTitle": "Истражи категорије",
     "categoriesSubtitle": "Од историје и науке до филма, хране и твоје локалне културе.",
     "faqTitle": "Често постављана питања",
-    "faq1Question": "Да ли је Millionaire Quiz бесплатан?",
+    "faq1Question": "Da li je Kviz Milioner besplatan?",
     "faq1Answer": "Јесте. Сви режими, сви језици и све помоћи су бесплатни, а за Класик ти не треба регистрација.",
     "faq2Question": "Одакле долазе питања?",
-    "faq2Answer": "AI писац питања их ствара директно на твом језику, а свако питање се аутоматски проверава пре него што стигне у игру. Ако нешто ипак промакне, можеш то да пријавиш једним додиром.",
+    "faq2Answer": "Pisac pitanja sa veštačkom inteligencijom ih kreira izvorno na tvom jeziku, a svako pitanje se automatski proverava pre nego što stigne u igru. Ako nešto prođe, možeš to prijaviti jednim dodirom.",
     "faq3Question": "Како функционишу сигурни прагови?",
     "faq3Answer": "Тачан одговор на 5. питање гарантује ти {havenOne}, а на 10. питање {havenTwo}. Ако касније погрешиш, одлазиш са износом последњег сигурног прага који си прешао.",
     "faq4Question": "Могу ли да играм без интернета?",
-    "faq4Answer": "Можеш. Инсталирај апликацију и у подешавањима преузми пакете питања за било који од 50 језика. Партије одигране ван мреже се чувају и синхронизују кад се поново повежеш.",
+    "faq4Answer": "Da — Klasik radi van mreže. Pitanja na tvom jeziku se automatski čuvaju na tvom uređaju, a igre van mreže se sinhronizuju kada se ponovo povežeš. Maraton i Vremenski izazov zahtevaju vezu.",
     "faq5Question": "Како да се нађем на ранг-листи?",
     "faq5Answer": "Пријави се преко Google-а и одиграј рангирану партију Маратона или Трке с временом. Наш сервер проверава сваки одговор, па ранг-листа остаје поштена.",
     "faq6Question": "Да ли је ово званична игра ТВ емисије?",
-    "faq6Answer": "Није. Millionaire Quiz је независна игра коју су направили фанови, инспирисана форматом класичног ТВ квиза."
+    "faq6Answer": "Ne. Kviz Milioner je nezavisna igra koju su napravili fanovi, inspirisana klasičnim formatom kviz emisije."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Маратон",
       "tagline": "Једна грешка и готово",
       "description": "Бескрајан низ питања која постају тежа после сваких 5 тачних одговора. Имаш четири класичне помоћи, сваку по једном — а један погрешан одговор завршава партију.",
-      "rules": "Време по питању: {seconds} с. Ниво расте после сваких 5 тачних одговора. Један погрешан одговор или истек времена завршава партију."
+      "rules": "{minutes, plural, one {# minut} few {# minuta} other {# minuta}} po pitanju. Nivo raste na svakih 5 tačnih odgovora. Jedan pogrešan odgovor ili istek vremena završavaju igru."
     },
     "timeAttack": {
       "name": "Трка с временом",
@@ -130,18 +128,12 @@
       "description": "Одговори на што више питања пре него што истекне време. Погрешан одговор не завршава партију — али те кошта 5 секунди.",
       "rules": "На сату: {seconds} с. Сваки погрешан одговор кошта {penalty} с. Без помоћи — само брзина."
     },
-    "ranked": "Рангирано",
-    "practice": "Вежба",
-    "rankedHint": "Рангиране партије се рачунају на глобалној ранг-листи.",
-    "practiceHint": "Партије за вежбу користе твоја подешавања и не рангирају се.",
-    "signInForRanked": "Пријави се преко Google-а да играш рангирано и уђеш на ранг-листу.",
-    "offlineUnranked": "Ниси на мрежи, па је ова партија вежба.",
-    "customSettingsUnranked": "Због прилагођених подешавања ово је партија за вежбу."
+    "rankedHint": "Svaka igra se računa na globalnoj rang-listi.",
+    "guestHint": "Igraš kao gost: tvoja igra se sudi isto, ali se samo prijavljeni igrači pojavljuju na rang-listi.",
+    "needsConnection": "Ovaj režim zahteva vezu: svaka igra se sudi uživo. Klasik radi van mreže."
   },
   "Game": {
     "startGame": "Почни игру",
-    "startRanked": "Почни рангирану партију",
-    "startPractice": "Почни вежбу",
     "loading": "Светла у студију се пале…",
     "loadingQuestion": "Пишемо твоје следеће питање…",
     "playingFor": "Играш за",
@@ -163,6 +155,12 @@
     "timeUp": "Време је истекло!",
     "theAnswerWas": "Тачан одговор је био {letter}: {text}",
     "didYouKnow": "Занимљивост",
+    "switchPrompt": "Pre nego što zamenimo — šta bi odgovorio/la?",
+    "switchPromptHint": "Samo radi zabave: neće se računati ni u jednom smeru.",
+    "switchSkip": "Preskoči, samo zameni",
+    "switchWouldBeRight": "Pogodio/la bi!",
+    "switchWouldBeWrong": "Dobro je što si zamenio/la!",
+    "switchComing": "Evo tvog novog pitanja…",
     "walkAway": "Повуци се",
     "walkAwayTitle": "Узимаш новац?",
     "walkAwayBody": "Ако се сада повучеш, кући носиш {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Ниво {level} — питања постају тежа",
     "penalty": "−{seconds} с",
     "fallbackNotice": "Наш писац питања је на паузи, па ова игра користи резервна питања на енглеском.",
-    "packNotice": "Играш са преузетим пакетом питања.",
+    "packNotice": "Van mreže si — igraš sa pitanjima sačuvanim na tvom uređaju.",
     "keyboardHint": "Тастатура: A–D за избор, Enter за потврду, L за лествицу, M за звук.",
     "report": "Пријави грешку",
     "reportTitle": "Нешто није у реду са овим питањем?",
@@ -205,11 +203,12 @@
     "personalBest": "Нови лични рекорд!",
     "rank": "Место на ранг-листи: #{rank}",
     "newBadges": "{count, plural, one {Откључан је нови беџ!} few {Откључана су # нова беџа!} other {Откључано је # нових беџева!}}",
-    "shareText": "Мој добитак у игри Millionaire Quiz: {amount}! Можеш ли боље?",
-    "shareScoreText": "Мој резултат у режиму {mode} у игри Millionaire Quiz: {score}! Можеш ли боље?",
+    "shareText": "Osvojio/la sam {amount} u igri Kviz Milioner! Možeš li me pobediti?",
+    "shareScoreText": "Ostvario/la sam {score} poena u režimu {mode} u igri Kviz Milioner! Možeš li me pobediti?",
     "backHome": "Назад на почетну",
     "viewLeaderboard": "Погледај ранг-листу",
-    "signInToSave": "Пријави се да би твоји резултати и беџеви били доступни на сваком уређају."
+    "signInToSave": "Пријави се да би твоји резултати и беџеви били доступни на сваком уређају.",
+    "signInToRank": "Prijavi se da staviš ovakve igre na rang-listu."
   },
   "Lifelines": {
     "title": "Помоћи",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Подешавања",
-    "subtitle": "Звук, пакети за игру ван мреже и подразумевана подешавања игре.",
+    "subtitle": "Zvuk, jezik i podešavanja za Klasik igru.",
     "gameTitle": "Подешавања игре",
+    "gameHint": "Ovo se primenjuje na Klasik igru. Maraton i Vremenski izazov su rangirani i uvek koriste standardna pravila.",
+    "customised": "Igraš sa svojim prilagođenim podešavanjima.",
+    "change": "Promeni",
     "categories": "Категорије",
     "allCategories": "Све категорије",
     "categoriesHint": "Изабери једну или више, или не бирај ниједну за све категорије.",
@@ -256,16 +258,6 @@
     "soundTitle": "Звук",
     "sound": "Звучни ефекти и музика",
     "volume": "Јачина звука",
-    "packsTitle": "Пакети питања за игру ван мреже",
-    "packsSubtitle": "Преузми питања за језике на којима желиш да играш без интернета. Сваки пакет има око 100 KB.",
-    "packCount": "{count, plural, one {# питање} few {# питања} other {# питања}}",
-    "packDownload": "Преузми",
-    "packDownloading": "Преузимање…",
-    "packUpdate": "Ажурирај",
-    "packRemove": "Уклони",
-    "packDownloaded": "Преузето",
-    "packError": "Пакет није могао да се преузме. Провери везу и покушај поново.",
-    "autoDownload": "Аутоматски преузми пакет за мој језик",
     "installTitle": "Инсталирај апликацију",
     "installBody": "Играј преко целог екрана, без интернета, једним додиром са почетног екрана.",
     "accountTitle": "Налог"
@@ -375,26 +367,86 @@
     "earnedOn": "Освојено {date}",
     "unlocked": "Беџ је откључан",
     "items": {
-      "firstSteps": { "name": "Први кораци", "description": "Тачно одговори на своје прво питање." },
-      "safeHaven": { "name": "Сигуран праг", "description": "Стигни до првог сигурног прага у Класику (5. питање)." },
-      "halfWay": { "name": "Пола пута", "description": "Стигни до другог сигурног прага у Класику (10. питање)." },
-      "millionaire": { "name": "Милионер", "description": "Одговори на свих 15 питања у Класику и освоји милион." },
-      "purist": { "name": "Чистунац", "description": "Освоји милион без иједне помоћи." },
-      "smartExit": { "name": "Паметан излаз", "description": "Повуци се са добитком на 12. питању или касније." },
-      "quickThinker": { "name": "Брза памет", "description": "Дај 10 тачних одговора, сваки за мање од 3 секунде." },
-      "marathon10": { "name": "Маратонац", "description": "Тачно одговори на 10 питања заредом у рангираном Маратону." },
-      "marathon25": { "name": "Дуге стазе", "description": "Тачно одговори на 25 питања заредом у рангираном Маратону." },
-      "marathon50": { "name": "Гвоздени ум", "description": "Тачно одговори на 50 питања заредом у рангираном Маратону." },
-      "marathon100": { "name": "Легенда", "description": "Тачно одговори на 100 питања заредом у рангираном Маратону." },
-      "timeAttack15": { "name": "Брзац", "description": "Освоји 15 поена у рангираној Трци с временом." },
-      "timeAttack30": { "name": "Муња", "description": "Освоји 30 поена у рангираној Трци с временом." },
-      "polyglot3": { "name": "Полиглота", "description": "Играј на 3 различита језика." },
-      "polyglot10": { "name": "Светски путник", "description": "Играј на 10 различитих језика." },
-      "streak3": { "name": "У залету", "description": "Играј 3 дана заредом." },
-      "streak7": { "name": "Посвећеник", "description": "Играј 7 дана заредом." },
-      "offlineHero": { "name": "Ван мреже", "description": "Заврши партију без интернета." },
-      "savedByAFriend": { "name": "Пријатељ у невољи", "description": "Послушај савет пријатеља и одговори тачно." },
-      "categoryMaster": { "name": "Мајстор категорије", "description": "Тачно одговори на 25 питања у једној категорији." }
+      "firstSteps": {
+        "name": "Први кораци",
+        "description": "Тачно одговори на своје прво питање."
+      },
+      "safeHaven": {
+        "name": "Сигуран праг",
+        "description": "Стигни до првог сигурног прага у Класику (5. питање)."
+      },
+      "halfWay": {
+        "name": "Пола пута",
+        "description": "Стигни до другог сигурног прага у Класику (10. питање)."
+      },
+      "millionaire": {
+        "name": "Милионер",
+        "description": "Одговори на свих 15 питања у Класику и освоји милион."
+      },
+      "purist": {
+        "name": "Чистунац",
+        "description": "Освоји милион без иједне помоћи."
+      },
+      "smartExit": {
+        "name": "Паметан излаз",
+        "description": "Повуци се са добитком на 12. питању или касније."
+      },
+      "quickThinker": {
+        "name": "Брза памет",
+        "description": "Дај 10 тачних одговора, сваки за мање од 3 секунде."
+      },
+      "marathon10": {
+        "name": "Маратонац",
+        "description": "Тачно одговори на 10 питања заредом у рангираном Маратону."
+      },
+      "marathon25": {
+        "name": "Дуге стазе",
+        "description": "Тачно одговори на 25 питања заредом у рангираном Маратону."
+      },
+      "marathon50": {
+        "name": "Гвоздени ум",
+        "description": "Тачно одговори на 50 питања заредом у рангираном Маратону."
+      },
+      "marathon100": {
+        "name": "Легенда",
+        "description": "Тачно одговори на 100 питања заредом у рангираном Маратону."
+      },
+      "timeAttack15": {
+        "name": "Брзац",
+        "description": "Освоји 15 поена у рангираној Трци с временом."
+      },
+      "timeAttack30": {
+        "name": "Муња",
+        "description": "Освоји 30 поена у рангираној Трци с временом."
+      },
+      "polyglot3": {
+        "name": "Полиглота",
+        "description": "Играј на 3 различита језика."
+      },
+      "polyglot10": {
+        "name": "Светски путник",
+        "description": "Играј на 10 различитих језика."
+      },
+      "streak3": {
+        "name": "У залету",
+        "description": "Играј 3 дана заредом."
+      },
+      "streak7": {
+        "name": "Посвећеник",
+        "description": "Играј 7 дана заредом."
+      },
+      "offlineHero": {
+        "name": "Ван мреже",
+        "description": "Заврши партију без интернета."
+      },
+      "savedByAFriend": {
+        "name": "Пријатељ у невољи",
+        "description": "Послушај савет пријатеља и одговори тачно."
+      },
+      "categoryMaster": {
+        "name": "Мајстор категорије",
+        "description": "Тачно одговори на 25 питања у једној категорији."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Помоћи",
     "lifelinesBody": "Имаш четири помоћи и сваку можеш да искористиш једном по игри:",
     "marathonTitle": "Маратон",
-    "marathonBody": "Бескрајна партија. Питања постају тежа после сваких пет тачних одговора, сваку од четири помоћи имаш по једном, а за свако питање имаш {seconds} с. Један погрешан одговор или истек времена завршава партију, а твој резултат је број тачних одговора.",
+    "marathonBody": "Beskrajna igra. Pitanja postaju teža na svakih pet tačnih odgovora, imaš četiri pomoći po jednom, i dobijaš {minutes, plural, one {# minut} few {# minuta} other {# minuta}} za svako pitanje. Jedan pogrešan odgovor ili istek vremena završavaju igru, a tvoj rezultat je broj tačnih odgovora.",
     "timeAttackTitle": "Трка с временом",
     "timeAttackBody": "Имаш {seconds} с да одговориш на што више питања. Погрешан одговор не завршава партију, али ти однесе {penalty} с са сата. Помоћи нема.",
     "rankedTitle": "Рангирана игра и фер-плеј",
-    "rankedBody": "Рангиране партије Маратона и Трке с временом надгледа наш сервер: тачан одговор никад не стиже на твој уређај пре него што одговориш, а време се мери на серверу. Пријави се преко Google-а да играш рангирано. Партије са прилагођеним подешавањима или одигране ван мреже рачунају се као вежба.",
+    "rankedBody": "Maratonske igre i Vremenski izazov uvek sudi naš server: tačan odgovor nikada ne stiže na tvoj uređaj pre nego što odgovoriš, a sat se drži na serveru. Svi mogu da ih igraju; prijavi se preko Google-a da staviš svoj rezultat na rang-listu.",
     "questionsTitle": "О питањима",
-    "questionsBody": "Питања пише AI писац питања директно на сваком језику и она се аутоматски проверавају. Око 40% њих тиче се културе поднебља где се говори твој језик. Ако ти се неко питање учини погрешним, искористи „Пријави грешку“ након што се открије одговор."
+    "questionsBody": "Pitanja piše pisac pitanja sa veštačkom inteligencijom na maternjem jeziku na svakom jeziku i ona se automatski proveravaju. Oko 40% je o kulturi tamo gde se govori tvoj jezik. Ako pitanje izgleda pogrešno, koristi opciju „Prijavi grešku“ nakon što se otkrije odgovor."
   },
   "About": {
-    "title": "О игри Millionaire Quiz",
-    "intro": "Millionaire Quiz је бесплатна квиз игра коју су направили фанови, инспирисана класичним ТВ форматом — изнова осмишљена за веб, телефоне и 50 језика.",
+    "title": "O igri Kviz Milioner",
+    "intro": "Kviz Milioner je besplatna kviz igra koju su napravili fanovi, inspirisana klasičnim televizijskim formatom — ponovo izgrađena za veb, za telefone i za 50 jezika.",
     "missionTitle": "Зашто смо је направили",
     "missionBody": "Већина квиз игара се пише на енглеском, па преводи. Ми мислимо да квиз треба да делује као код куће: питања треба да буду о људима, местима, књигама и обичајима из твог детињства, али и о ширем свету.",
     "howTitle": "Како настају питања",
     "howBody": "Велики језички модел пише свако питање директно на твом језику, у серијама, по строгим правилима: један јасно тачан одговор, четири уверљиве опције, само постојане чињенице. Питања се аутоматски проверавају, чувају и приказују играчима, а сваки играч може да пријави грешку.",
     "techTitle": "Испод хаубе",
-    "techBody": "Millionaire Quiz је прогресивна веб-апликација: инсталира се на телефон или рачунар, ради без интернета уз пакете питања за преузимање и синхронизује напредак кад се поново повежеш.",
+    "techBody": "Kviz Milioner je progresivna veb aplikacija: instalira se na tvoj telefon ili računar, radi van mreže sa automatski sačuvanim pitanjima i sinhronizuje tvoj napredak kada se ponovo povežeš.",
     "creditTitle": "Заслуге",
     "creditBody": "Дизајн и развој: {author}.",
-    "disclaimer": "Millionaire Quiz није повезан ни са једним ТВ програмом, емитером или носиоцем права, нити га они подржавају."
+    "disclaimer": "Kviz Milioner nije povezan, odobren od strane niti spojen sa bilo kojom televizijskom emisijom, emiterom ili nosiocem prava."
   },
   "Legal": {
     "privacyTitle": "Политика приватности",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Твоја права",
     "privacyRightsBody": "Име за приказ и слику можеш да промениш у сваком тренутку, а брисање налога и свих повезаних података можеш да затражиш тако што ћеш контактирати аутора.",
     "termsTitle": "Услови коришћења",
-    "termsIntro": "Играњем игре Millionaire Quiz прихваташ ове једноставне услове.",
+    "termsIntro": "Igrajući Kviz Milioner slažeš se sa ovim jednostavnim uslovima.",
     "termsPlayTitle": "Фер-плеј",
     "termsPlayBody": "Играј рангиране партије поштено. Аутоматизована игра, злоупотреба грешака или мешање у ранг-листу могу довести до уклањања твојих партија.",
     "termsContentTitle": "Питања и тачност",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Инсталирај апликацију",
-    "installTitle": "Инсталирај Millionaire Quiz",
+    "installTitle": "Instaliraj Kviz Milioner",
     "benefit": "Играј преко целог екрана и без интернета, једним додиром са почетног екрана.",
     "iosTitle": "Инсталирање на iPhone или iPad",
     "iosStep1": "Додирни дугме Дели на траци са алаткама у Safari-ју.",
@@ -464,9 +516,34 @@
     "iosStep3": "Додирни „Додај“ — апликација ће се појавити на почетном екрану.",
     "gotIt": "Важи"
   },
+  "Contact": {
+    "title": "Kontaktiraj nas",
+    "subtitle": "Našao/la si grešku, imaš ideju ili ti treba pomoć? Piši nam — čitamo svaku poruku.",
+    "name": "Tvoje ime",
+    "nameRequired": "Molimo te da uneseš svoje ime.",
+    "email": "E-pošta",
+    "emailRequired": "Molimo te da uneseš svoju e-poštu kako bismo mogli da odgovorimo.",
+    "emailInvalid": "Ta adresa e-pošte ne izgleda ispravno.",
+    "message": "Poruka",
+    "messageRequired": "Molimo te da napišeš poruku.",
+    "messagePlaceholder": "Kako možemo pomoći?",
+    "send": "Pošalji poruku",
+    "error": "Tvoja poruka nije mogla biti poslata. Pokušaj ponovo za trenutak.",
+    "sentTitle": "Poruka poslata!",
+    "sentBody": "Hvala ti na pisanju. Odgovorićemo na adresu e-pošte koju si nam dao/la.",
+    "sendAnother": "Pošalji drugu poruku"
+  },
   "Auth": {
     "signedIn": "Здраво, {name}!",
     "signedOut": "Одјава је успела.",
+    "signInTitle": "Prijavi se",
+    "signInSubtitle": "Jedan dodir sa Google-om, i tvoj napredak te prati na svakom uređaju.",
+    "benefitRanked": "Stavi svoje rezultate iz Maratona i Vremenskog izazova na globalnu rang-listu",
+    "benefitLeaderboard": "Izaberi ime i sliku koju drugi igrači vide",
+    "benefitSync": "Zadrži svoj najbolji rezultat u Klasiku, istoriju igara i bedževe svuda",
+    "privacyNote": "Koristimo samo tvoje ime, adresu e-pošte i sliku sa Google-a.",
+    "unavailable": "Prijava trenutno nije dostupna. I dalje možeš da igraš Klasik — tvoj napredak je sačuvan na ovom uređaju.",
+    "alreadySignedIn": "Prijavljen/a si kao {name}.",
     "errors": {
       "google_unavailable": "Пријава преко Google-а тренутно није доступна.",
       "google_denied": "Пријава је отказана.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, квиз, квиз игра, квиз знања, желите ли да постанете милионер игра, бесплатан квиз, онлајн квиз, опште знање",
-    "homeTitle": "Millionaire Quiz — Желите ли да постанете милионер? Играј бесплатно онлајн",
+    "homeTitle": "Kviz Milioner — Želite li da postanete milioner? Igraj besplatno onlajn",
     "homeDescription": "Играј квиз-шоу бесплатно на 50 језика. 15 питања до милиона, четири помоћи, сигурни прагови, плус бескрајни Маратон и Трка с временом са глобалном ранг-листом.",
     "playTitle": "Класични Милионер квиз — 15 питања до милиона",
     "playDescription": "Попни се лествицом новца од {first} до {top}: петнаест питања, два сигурна прага, четири помоћи. Бесплатно, без регистрације, на твом језику.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Беџеви — сакупи их све",
     "badgesDescription": "Двадесет беџева у Класику, Маратону и Трци с временом: освоји милион, играј из дана у дан, играј на више језика.",
     "rulesTitle": "Како се игра — правила, лествица новца и помоћи",
-    "rulesDescription": "Сва правила игре Millionaire Quiz: лествица новца, сигурни прагови, повлачење, четири помоћи, Маратон и Трка с временом.",
-    "aboutTitle": "О игри Millionaire Quiz",
-    "aboutDescription": "Бесплатна квиз игра коју су направили фанови, са питањима на 50 језика које пише AI, инспирисана класичним ТВ квизом.",
+    "rulesDescription": "Kompletna pravila igre Kviz Milioner: novčana lestvica, sigurna mesta, odustajanje, četiri pomoći, Maraton i Vremenski izazov.",
+    "aboutTitle": "O igri Kviz Milioner",
+    "aboutDescription": "Besplatna kviz igra koju su napravili fanovi sa pitanjima pisanim pomoću veštačke inteligencije na 50 jezika, inspirisana klasičnim TV kviz formatom.",
     "privacyTitle": "Политика приватности",
-    "privacyDescription": "Шта Millionaire Quiz чува, зашто и како то обрисати.",
+    "privacyDescription": "Šta Kviz Milioner čuva, zašto i kako to obrisati.",
     "termsTitle": "Услови коришћења",
-    "termsDescription": "Једноставна правила за фер игру у Millionaire Quiz.",
+    "termsDescription": "Jednostavna pravila za pošteno igranje igre Kviz Milioner.",
     "profileTitle": "Твој профил",
     "profileDescription": "Твоји резултати, места на ранг-листи и беџеви.",
     "settingsTitle": "Подешавања",
-    "settingsDescription": "Звук, пакети питања за игру ван мреже и подразумевана подешавања игре."
+    "contactTitle": "Kontaktiraj nas",
+    "contactDescription": "Pitanja, ideje ili greška u pitanju? Pošalji poruku timu igre Kviz Milioner.",
+    "signInTitle": "Prijavi se",
+    "signInDescription": "Prijavi se preko Google-a da staviš svoje rezultate na rang-listu i sačuvaš svoj napredak na svakom uređaju.",
+    "settingsDescription": "Zvuk, jezik i podešavanja za Klasik igru."
   }
 }

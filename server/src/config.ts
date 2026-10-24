@@ -62,6 +62,15 @@ export const config = {
     maxCallsPerTick: asNumber(process.env.POOL_REFILL_MAX_CALLS, 4),
   },
   sentryDsn: process.env.SENTRY_DSN_API ?? '',
+  /**
+   * The mail engine shared with bookie, for the contact form. `apiKey` is read only by
+   * `lib/mail.ts`. Empty disables sending: in dev the message is printed instead.
+   */
+  mail: {
+    apiUrl: (process.env.MAIL_API_URL ?? '').replace(/\/+$/, ''),
+    apiKey: process.env.MAIL_API_KEY ?? '',
+    appId: process.env.MAIL_APP_ID ?? 'millionaire',
+  },
 }
 
 export const isGoogleOAuthConfigured = (): boolean =>

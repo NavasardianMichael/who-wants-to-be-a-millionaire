@@ -60,6 +60,21 @@ export const downloadPack = async (locale: Locale): Promise<PackSummary> => {
   return { locale, version: stored.version, downloadedAt: stored.downloadedAt, bytes: stored.bytes, count: pack.questions.length }
 }
 
+/** How old the saved pack may get before it is quietly replaced. */
+const PACK_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000
+
+/**
+ * Makes sure the language's pack is on the device and recent — the only way packs are ever
+ * fetched: automatically, in the background, while online. Players never manage them; they
+ * are simply what Classic plays when there is no connection.
+ */
+export const ensurePack = async (locale: Locale): Promise<void> => {
+  if (typeof navigator !== 'undefined' && !navigator.onLine) return
+  const stored = await getPack(locale)
+  if (stored && Date.now() - Date.parse(stored.downloadedAt) < PACK_MAX_AGE_MS) return
+  await downloadPack(locale)
+}
+
 export const removePack = async (locale: string): Promise<void> => {
   const db = await getDb()
   await db?.delete('packs', locale)

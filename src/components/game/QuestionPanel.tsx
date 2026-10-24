@@ -31,8 +31,13 @@ export const QuestionPanel = ({ question, counter, className }: QuestionPanelPro
         <span aria-hidden>·</span>
         <span>{t(question.category)}</span>
       </div>
-      <Lozenge tone='gold' wire fillClassName='min-h-24 justify-center px-[calc(var(--spacing-tip)+0.75rem)] py-4 sm:min-h-28'>
-        <h2 lang={question.fallback ? 'en' : undefined} dir={question.fallback ? 'ltr' : undefined} className='text-center font-sans text-question font-semibold text-ivory'>
+      <Lozenge tone='gold' wire fillClassName='min-h-24 justify-center px-[calc(var(--spacing-tip)+0.25rem)] py-4 sm:min-h-28'>
+        {/* `pretty`, not the headings' `balance`: balanced lines are evened out and so run short, leaving the panel half empty. */}
+        <h2
+          lang={question.fallback ? 'en' : undefined}
+          dir={question.fallback ? 'ltr' : undefined}
+          className='w-full text-center font-sans text-question font-semibold text-pretty text-ivory'
+        >
           {question.text}
         </h2>
       </Lozenge>

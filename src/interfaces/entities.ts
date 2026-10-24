@@ -92,6 +92,8 @@ export type RunLifelineResult = {
   removed?: number[]
   votes?: number[]
   friend?: FriendAnswer
+  /** Switch the Question: the discarded question's answer, revealed for the "what would you have said" beat. */
+  switched?: { correctIndex: number; explanation: string | null }
   run: RunView
 }
 

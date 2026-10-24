@@ -1,6 +1,7 @@
 'use client'
 
 import { useMemo, useState, useTransition } from 'react'
+import { Button, Empty, Input, Tooltip } from 'antd'
 import { Check, Globe, Search } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { setLocale } from '@i18n/actions'
@@ -14,7 +15,7 @@ import { Dialog } from '@components/ui/Dialog'
  * language is shown by its own name (an endonym) and code, so someone who cannot read the
  * current UI can still find theirs. Switching keeps the page and its query.
  */
-export const LanguageSwitcher = ({ className }: { className?: string }) => {
+export const LanguageSwitcher = ({ className, withLabel }: { className?: string; withLabel?: boolean }) => {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [isPending, startTransition] = useTransition()
@@ -44,32 +45,36 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
 
   return (
     <>
-      <button
-        type='button'
-        onClick={() => setOpen(true)}
-        aria-label={t('chooseLanguage')}
-        aria-busy={isPending || undefined}
-        className={cn(
-          'inline-flex h-11 items-center gap-1.5 rounded-full border border-spot-300/25 bg-studio-900/70 px-3 text-body-sm font-bold text-mist uppercase transition-colors hover:border-spot-300/60 hover:text-ivory',
-          className
-        )}
-      >
-        <Globe aria-hidden className='size-5' />
-        <span className='hidden sm:inline'>{locale}</span>
-      </button>
+      <Tooltip title={t('chooseLanguage')} mouseEnterDelay={0.4}>
+        <Button
+          size='large'
+          onClick={() => setOpen(true)}
+          aria-label={t('chooseLanguage')}
+          aria-busy={isPending || undefined}
+          loading={isPending}
+          icon={<Globe aria-hidden className='size-5' />}
+          className={cn('h-11 border-line-strong bg-studio-900/70 px-3 font-bold text-mist uppercase hover:text-ivory', className)}
+        >
+          {withLabel && isLocale(locale) ? (
+            <span className='normal-case'>{LOCALE_LABELS[locale]}</span>
+          ) : (
+            <span className='hidden sm:inline'>{locale}</span>
+          )}
+        </Button>
+      </Tooltip>
 
-      <Dialog open={open} onClose={() => setOpen(false)} title={t('chooseLanguage')} variant='sheet' className='sm:max-w-2xl'>
-        <label className='relative mb-4 block'>
-          <span className='sr-only'>{t('chooseLanguage')}</span>
-          <Search aria-hidden className='pointer-events-none absolute inset-s-3 top-1/2 size-4 -translate-y-1/2 text-mist' />
-          <input
-            type='search'
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder='English, Español, 日本語…'
-            className='h-12 w-full rounded-full border border-spot-300/25 bg-studio-950/70 ps-10 pe-4 text-ivory placeholder:text-mist-dim focus:border-gold-300 focus:outline-none'
-          />
-        </label>
+      <Dialog open={open} onClose={() => setOpen(false)} title={t('chooseLanguage')} variant='sheet' size='lg'>
+        <Input
+          type='search'
+          size='large'
+          allowClear
+          aria-label={t('chooseLanguage')}
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder='English, Español, 日本語…'
+          prefix={<Search aria-hidden className='size-4 text-mist' />}
+          className='mb-4'
+        />
         <ul className='grid grid-cols-1 gap-1.5 min-[420px]:grid-cols-2 sm:grid-cols-3'>
           {filtered.map((each) => {
             const active = each === locale
@@ -81,10 +86,10 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
                   onClick={() => choose(each)}
                   aria-current={active ? 'true' : undefined}
                   className={cn(
-                    'flex min-h-11 w-full items-center gap-2 rounded-xl border px-3 text-start transition-colors',
+                    'flex min-h-11 w-full items-center gap-2 rounded-control border px-3 text-start transition-colors',
                     active
                       ? 'border-gold-300/70 bg-gold-400/10 text-gold-200'
-                      : 'border-transparent text-ivory hover:border-spot-300/30 hover:bg-white/5'
+                      : 'border-transparent text-ivory hover:border-line-strong hover:bg-white/5'
                   )}
                 >
                   <span className='flex-1 truncate font-semibold'>{LOCALE_LABELS[each]}</span>
@@ -95,7 +100,7 @@ export const LanguageSwitcher = ({ className }: { className?: string }) => {
             )
           })}
         </ul>
-        {!filtered.length && isLocale(locale) && <p className='py-6 text-center text-mist'>—</p>}
+        {!filtered.length && isLocale(locale) && <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />}
       </Dialog>
     </>
   )

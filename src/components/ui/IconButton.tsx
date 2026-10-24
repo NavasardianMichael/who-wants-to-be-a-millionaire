@@ -1,35 +1,46 @@
+'use client'
+
 import { type ButtonHTMLAttributes, forwardRef, type ReactNode } from 'react'
+import { Button as AntButton, Tooltip } from 'antd'
 import { cn } from '@helpers/cn'
 
-export type IconButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  /** Required: an icon-only control has no other accessible name. */
+export type IconButtonProps = Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type' | 'color'> & {
+  /** Required: an icon-only control has no other accessible name. It is also the tooltip. */
   label: string
   icon: ReactNode
   tone?: 'default' | 'gold'
   size?: 'md' | 'lg'
+  /** The tooltip is skipped where the label is already visible nearby. */
+  tooltip?: boolean
 }
 
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
-  ({ label, icon, tone = 'default', size = 'md', className, type = 'button', ...rest }, ref) => (
-    <button
-      ref={ref}
-      type={type}
-      aria-label={label}
-      title={label}
-      className={cn(
-        'inline-flex shrink-0 items-center justify-center rounded-full border transition-[transform,background-color,border-color,color] duration-200',
-        'active:scale-95 disabled:pointer-events-none disabled:opacity-40',
-        size === 'md' ? 'size-11' : 'size-12',
-        tone === 'default' &&
-          'border-spot-300/25 bg-studio-900/70 text-mist hover:border-spot-300/60 hover:bg-studio-800 hover:text-ivory',
-        tone === 'gold' && 'border-gold-400/60 bg-studio-900/70 text-gold-300 hover:bg-gold-400/15 hover:text-gold-200',
-        className
-      )}
-      {...rest}
-    >
-      {icon}
-    </button>
-  )
+  ({ label, icon, tone = 'default', size = 'md', tooltip = true, className, ...rest }, ref) => {
+    const button = (
+      <AntButton
+        ref={ref}
+        htmlType='button'
+        aria-label={label}
+        icon={icon}
+        size='large'
+        className={cn(
+          'shrink-0',
+          size === 'md' ? 'size-11' : 'size-12',
+          tone === 'default' && 'border-line-strong bg-studio-900/70 text-mist hover:text-ivory',
+          tone === 'gold' && 'border-gold-400/60 bg-studio-900/70 text-gold-300 hover:bg-gold-400/15 hover:text-gold-200',
+          className
+        )}
+        {...rest}
+      />
+    )
+    return tooltip ? (
+      <Tooltip title={label} mouseEnterDelay={0.4}>
+        {button}
+      </Tooltip>
+    ) : (
+      button
+    )
+  }
 )
 
 IconButton.displayName = 'IconButton'

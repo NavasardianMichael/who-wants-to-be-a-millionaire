@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Chi vuol esser milionario? Quiz",
+    "wordmarkTop": "Chi vuol esser milionario?",
+    "wordmarkBottom": "Quiz",
     "tagline": "Il gioco a quiz nella tua lingua",
     "play": "Gioca",
     "playNow": "Gioca ora",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Continua con Google",
     "signedInAs": "Accesso effettuato come {name}",
     "you": "Tu",
+    "unsavedTitle": "Vuoi lasciare questa pagina?",
+    "unsavedBody": "I dati inseriti non sono stati salvati e andranno persi.",
+    "stay": "Rimani",
+    "leave": "Lascia",
     "share": "Condividi",
     "copied": "Link copiato",
     "comingBack": "A presto!",
@@ -57,22 +63,14 @@
     "about": "Chi siamo",
     "privacy": "Privacy",
     "terms": "Termini",
+    "contact": "Contattaci",
     "profile": "Profilo",
     "settings": "Impostazioni"
   },
   "Home": {
-    "eyebrow": "50 lingue · domande scritte dall'IA · gratis",
+    "eyebrow": "50 lingue · domande scritte dall'intelligenza artificiale · gratis",
     "heroTitle": "Chi vuol essere milionario?",
-    "heroSubtitle": "Quindici domande ti separano dal milione. Sali la scala dei premi, usa bene i tuoi aiuti e decidi tu quando ritirarti.",
-    "heroCta": "Gioca alla Classica",
-    "heroSecondaryCta": "Prova la Maratona",
-    "statsQuestions": "Domande nuove a ogni partita",
-    "statsLanguages": "Lingue",
-    "statsLifelines": "Aiuti",
     "modesTitle": "Tre modi di giocare",
-    "modesSubtitle": "La scalata classica, una prova di nervi senza fine o una corsa contro il tempo.",
-    "ladderTitle": "La scala dei premi",
-    "ladderSubtitle": "Ogni risposta esatta ti fa salire di un gradino. Le soglie di sicurezza alla domanda 5 e alla domanda 10 ti garantiscono la vincita anche se sbagli.",
     "lifelinesTitle": "Quattro aiuti, uno per tipo",
     "lifelinesSubtitle": "Quando sei in difficoltà, un aiuto può salvarti la partita. Usali con la testa: le domande più difficili arrivano alla fine.",
     "howTitle": "Come si gioca",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Vedi la classifica completa",
     "emptyLeaderboard": "Ancora nessuna partita in classifica: sii il primo!",
     "cultureTitle": "Domande che parlano la tua lingua",
-    "cultureBody": "Il nostro autore di domande basato sull'IA crea domande nuove direttamente in ciascuna delle 50 lingue, mescolando cultura generale con la storia, la letteratura, la geografia e le tradizioni della tua cultura. Una domanda sul tuo poeta preferito non sarà la traduzione di una domanda sul poeta di qualcun altro.",
+    "cultureBody": "Il nostro scrittore di domande basato sull'intelligenza artificiale crea nuovi quesiti direttamente in ciascuna delle 50 lingue, unendo la cultura generale alla storia, alla letteratura, alla geografia e alle tradizioni della tua cultura. Una domanda sul tuo poeta preferito non sarà la semplice traduzione di una domanda su qualcun altro.",
     "offlineTitle": "Gioca ovunque, anche offline",
-    "offlineBody": "Installa l'app, scarica i pacchetti di domande per le lingue che vuoi e continua a giocare in aereo o in metro. I punteggi si sincronizzano quando torni online.",
+    "offlineBody": "Installa l'app e continua a giocare a Classico in aereo o in metropolitana: le domande nella tua lingua vengono salvate automaticamente sul tuo dispositivo. I punteggi si sincronizzeranno quando ti connetterai di nuovo.",
     "badgesTitle": "Colleziona medaglie",
     "badgesSubtitle": "Raggiungi le soglie di sicurezza, vinci il milione, mantieni la serie: ci sono {count} medaglie da conquistare.",
     "viewBadges": "Vedi tutte le medaglie",
     "categoriesTitle": "Esplora le categorie",
     "categoriesSubtitle": "Dalla storia alla scienza, dal cinema alla cucina, fino alla tua cultura locale.",
     "faqTitle": "Domande frequenti",
-    "faq1Question": "Millionaire Quiz è gratis?",
+    "faq1Question": "Chi vuol esser milionario? Quiz è gratis?",
     "faq1Answer": "Sì. Tutte le modalità, tutte le lingue e tutti gli aiuti sono gratuiti, e per la Classica non serve nemmeno registrarsi.",
     "faq2Question": "Da dove arrivano le domande?",
-    "faq2Answer": "Le crea un autore di domande basato sull'IA, direttamente nella tua lingua, e ogni domanda viene controllata automaticamente prima di arrivare in gioco. Se qualcosa sfugge, puoi segnalarlo con un tocco.",
+    "faq2Answer": "Un generatore di domande basato sull'intelligenza artificiale le crea direttamente nella tua lingua e ogni quesito viene controllato automaticamente prima di arrivare nel gioco. Se qualcosa dovesse sfuggire, puoi segnalarlo con un solo tocco.",
     "faq3Question": "Come funzionano le soglie di sicurezza?",
     "faq3Answer": "Rispondendo correttamente alla domanda 5 ti assicuri {havenOne}, e con la domanda 10 ti assicuri {havenTwo}. Se poi sbagli una domanda successiva, te ne vai comunque con l'ultima soglia superata.",
     "faq4Question": "Posso giocare offline?",
-    "faq4Answer": "Sì. Installa l'app e scarica dalle impostazioni i pacchetti di domande per qualsiasi delle 50 lingue. Le partite offline vengono salvate e sincronizzate quando ti riconnetti.",
+    "faq4Answer": "Sì, la modalità Classico funziona offline. Le domande nella tua lingua vengono salvate automaticamente sul dispositivo e le partite offline si sincronizzano quando ti riconnetti. Maratola e Attacco a tempo richiedono una connessione.",
     "faq5Question": "Come entro in classifica?",
     "faq5Answer": "Accedi con Google e gioca una partita classificata di Maratona o Contro il tempo. Ogni risposta viene verificata dal nostro server, così la classifica resta corretta.",
     "faq6Question": "È il gioco ufficiale del programma TV?",
-    "faq6Answer": "No. Millionaire Quiz è un gioco indipendente creato dai fan, ispirato al formato del celebre quiz televisivo."
+    "faq6Answer": "No. Chi vuol esser milionario? Quiz è un gioco indipendente e amatoriale ispirato al classico formato dei quiz televisivi."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maratona",
       "tagline": "Un errore e sei fuori",
       "description": "Una serie infinita di domande che diventa più difficile ogni 5 risposte esatte. Hai i quattro aiuti classici, una volta ciascuno, e basta una risposta sbagliata per chiudere la partita.",
-      "rules": "{seconds} secondi per domanda. Il livello sale ogni 5 risposte esatte. Una risposta sbagliata o il tempo scaduto chiudono la partita."
+      "rules": "{minutes, plural, one {# minuto} other {# minuti}} per domanda. Il livello sale ogni 5 risposte corrette. Una risposta sbagliata o lo scadere del tempo pongono fine alla partita."
     },
     "timeAttack": {
       "name": "Contro il tempo",
@@ -130,18 +128,12 @@
       "description": "Rispondi a più domande che puoi prima che scada il tempo. Una risposta sbagliata non chiude la partita, ma ti costa 5 secondi.",
       "rules": "{seconds} secondi sul cronometro. Ogni risposta sbagliata costa {penalty} secondi. Niente aiuti: solo velocità."
     },
-    "ranked": "Classificata",
-    "practice": "Allenamento",
-    "rankedHint": "Le partite classificate contano per la classifica mondiale.",
-    "practiceHint": "Le partite di allenamento usano le tue impostazioni e non vanno in classifica.",
-    "signInForRanked": "Accedi con Google per giocare in classifica e sfidare il mondo.",
-    "offlineUnranked": "Sei offline, quindi questa partita sarà di allenamento.",
-    "customSettingsUnranked": "Con le impostazioni personalizzate questa è una partita di allenamento."
+    "rankedHint": "Ogni partita conta per la classifica globale.",
+    "guestHint": "Stai giocando come ospite: la partita viene gestita allo stesso modo, ma solo i giocatori che hanno effettuato l'accesso compariranno nella classifica.",
+    "needsConnection": "Questa modalità richiede una connessione: ogni partita viene arbitrata in tempo reale. La modalità Classico funziona offline."
   },
   "Game": {
     "startGame": "Inizia la partita",
-    "startRanked": "Inizia la partita classificata",
-    "startPractice": "Inizia l'allenamento",
     "loading": "Si accendono le luci dello studio…",
     "loadingQuestion": "Sto scrivendo la tua prossima domanda…",
     "playingFor": "In palio",
@@ -163,6 +155,12 @@
     "timeUp": "Tempo scaduto!",
     "theAnswerWas": "La risposta era {letter}: {text}",
     "didYouKnow": "Lo sapevi?",
+    "switchPrompt": "Prima di cambiare, cosa avresti risposto?",
+    "switchPromptHint": "Solo per svago: non influirà sul punteggio.",
+    "switchSkip": "Salta, cambia e basta",
+    "switchWouldBeRight": "Ci avresti preso!",
+    "switchWouldBeWrong": "Meno male che hai cambiato!",
+    "switchComing": "Ecco la tua nuova domanda...",
     "walkAway": "Ritirati",
     "walkAwayTitle": "Prendi i soldi?",
     "walkAwayBody": "Se ti ritiri ora, porti a casa {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Livello {level}: le domande si fanno più difficili",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Il nostro autore di domande si sta prendendo una pausa, quindi questa partita usa domande di riserva in inglese.",
-    "packNotice": "Stai giocando con il tuo pacchetto di domande scaricato.",
+    "packNotice": "Sei offline: stai giocando con le domande salvate sul tuo dispositivo.",
     "keyboardHint": "Tastiera: A–D per scegliere, Enter per confermare, L per la scala dei premi, M per l'audio.",
     "report": "Segnala un errore",
     "reportTitle": "Qualcosa non va in questa domanda?",
@@ -205,11 +203,12 @@
     "personalBest": "Nuovo record personale!",
     "rank": "Posizione in classifica: #{rank}",
     "newBadges": "{count, plural, one {Nuova medaglia sbloccata!} other {# nuove medaglie sbloccate!}}",
-    "shareText": "Ho vinto {amount} a Millionaire Quiz! Riesci a battermi?",
-    "shareScoreText": "Ho fatto {score} punti in {mode} su Millionaire Quiz! Riesci a battermi?",
+    "shareText": "Ho vinto {amount} su Chi vuol esser milionario? Quiz! Riesci a battermi?",
+    "shareScoreText": "Ho totalizzato {score} in {mode} su Chi vuol esser milionario? Quiz! Riesci a battermi?",
     "backHome": "Torna alla home",
     "viewLeaderboard": "Vedi la classifica",
-    "signInToSave": "Accedi per avere punteggi e medaglie su tutti i tuoi dispositivi."
+    "signInToSave": "Accedi per avere punteggi e medaglie su tutti i tuoi dispositivi.",
+    "signInToRank": "Accedi per inserire partite come questa nella classifica."
   },
   "Lifelines": {
     "title": "Aiuti",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Impostazioni",
-    "subtitle": "Audio, pacchetti offline e impostazioni di gioco predefinite.",
+    "subtitle": "Audio, lingua e impostazioni della modalità Classico.",
     "gameTitle": "Impostazioni di gioco",
+    "gameHint": "Queste opzioni si applicano alle partite Classico. Maratona e Attacco a tempo sono classificate e usano sempre le regole standard.",
+    "customised": "Stai giocando con le tue impostazioni personalizzate.",
+    "change": "Modifica",
     "categories": "Categorie",
     "allCategories": "Tutte le categorie",
     "categoriesHint": "Scegline una o più, oppure lasciale tutte deselezionate per giocare con ogni categoria.",
@@ -256,16 +258,6 @@
     "soundTitle": "Audio",
     "sound": "Effetti sonori e musica",
     "volume": "Volume",
-    "packsTitle": "Pacchetti di domande offline",
-    "packsSubtitle": "Scarica le domande per le lingue in cui vuoi giocare senza connessione. Ogni pacchetto pesa circa 100 KB.",
-    "packCount": "{count, plural, one {# domanda} other {# domande}}",
-    "packDownload": "Scarica",
-    "packDownloading": "Download in corso…",
-    "packUpdate": "Aggiorna",
-    "packRemove": "Rimuovi",
-    "packDownloaded": "Scaricato",
-    "packError": "Impossibile scaricare il pacchetto. Controlla la connessione e riprova.",
-    "autoDownload": "Scarica automaticamente il pacchetto della mia lingua",
     "installTitle": "Installa l'app",
     "installBody": "Gioca a schermo intero e offline, con un tocco dalla schermata Home.",
     "accountTitle": "Account"
@@ -375,26 +367,86 @@
     "earnedOn": "Conquistata il {date}",
     "unlocked": "Medaglia sbloccata",
     "items": {
-      "firstSteps": { "name": "Primi passi", "description": "Rispondi correttamente alla tua prima domanda." },
-      "safeHaven": { "name": "Al sicuro", "description": "Raggiungi la prima soglia di sicurezza nella Classica (domanda 5)." },
-      "halfWay": { "name": "A metà strada", "description": "Raggiungi la seconda soglia di sicurezza nella Classica (domanda 10)." },
-      "millionaire": { "name": "Milionario", "description": "Rispondi a tutte le 15 domande della Classica e vinci il milione." },
-      "purist": { "name": "Purista", "description": "Vinci il milione senza usare nemmeno un aiuto." },
-      "smartExit": { "name": "Uscita di classe", "description": "Ritirati con la vincita alla domanda 12 o oltre." },
-      "quickThinker": { "name": "Mente rapida", "description": "Dai 10 risposte esatte in meno di 3 secondi ciascuna." },
-      "marathon10": { "name": "Maratoneta", "description": "Rispondi a 10 domande di fila in una Maratona classificata." },
-      "marathon25": { "name": "Fondista", "description": "Rispondi a 25 domande di fila in una Maratona classificata." },
-      "marathon50": { "name": "Mente d'acciaio", "description": "Rispondi a 50 domande di fila in una Maratona classificata." },
-      "marathon100": { "name": "Leggenda", "description": "Rispondi a 100 domande di fila in una Maratona classificata." },
-      "timeAttack15": { "name": "Scheggia", "description": "Fai 15 punti in una partita classificata Contro il tempo." },
-      "timeAttack30": { "name": "Fulmine", "description": "Fai 30 punti in una partita classificata Contro il tempo." },
-      "polyglot3": { "name": "Poliglotta", "description": "Gioca in 3 lingue diverse." },
-      "polyglot10": { "name": "Giramondo", "description": "Gioca in 10 lingue diverse." },
-      "streak3": { "name": "In serie", "description": "Gioca 3 giorni di fila." },
-      "streak7": { "name": "Fedelissimo", "description": "Gioca 7 giorni di fila." },
-      "offlineHero": { "name": "Fuori rete", "description": "Completa una partita mentre sei offline." },
-      "savedByAFriend": { "name": "Salvato da un amico", "description": "Segui il consiglio del tuo amico e indovina." },
-      "categoryMaster": { "name": "Maestro di categoria", "description": "Rispondi correttamente a 25 domande di una sola categoria." }
+      "firstSteps": {
+        "name": "Primi passi",
+        "description": "Rispondi correttamente alla tua prima domanda."
+      },
+      "safeHaven": {
+        "name": "Al sicuro",
+        "description": "Raggiungi la prima soglia di sicurezza nella Classica (domanda 5)."
+      },
+      "halfWay": {
+        "name": "A metà strada",
+        "description": "Raggiungi la seconda soglia di sicurezza nella Classica (domanda 10)."
+      },
+      "millionaire": {
+        "name": "Milionario",
+        "description": "Rispondi a tutte le 15 domande della Classica e vinci il milione."
+      },
+      "purist": {
+        "name": "Purista",
+        "description": "Vinci il milione senza usare nemmeno un aiuto."
+      },
+      "smartExit": {
+        "name": "Uscita di classe",
+        "description": "Ritirati con la vincita alla domanda 12 o oltre."
+      },
+      "quickThinker": {
+        "name": "Mente rapida",
+        "description": "Dai 10 risposte esatte in meno di 3 secondi ciascuna."
+      },
+      "marathon10": {
+        "name": "Maratoneta",
+        "description": "Rispondi a 10 domande di fila in una Maratona classificata."
+      },
+      "marathon25": {
+        "name": "Fondista",
+        "description": "Rispondi a 25 domande di fila in una Maratona classificata."
+      },
+      "marathon50": {
+        "name": "Mente d'acciaio",
+        "description": "Rispondi a 50 domande di fila in una Maratona classificata."
+      },
+      "marathon100": {
+        "name": "Leggenda",
+        "description": "Rispondi a 100 domande di fila in una Maratona classificata."
+      },
+      "timeAttack15": {
+        "name": "Scheggia",
+        "description": "Fai 15 punti in una partita classificata Contro il tempo."
+      },
+      "timeAttack30": {
+        "name": "Fulmine",
+        "description": "Fai 30 punti in una partita classificata Contro il tempo."
+      },
+      "polyglot3": {
+        "name": "Poliglotta",
+        "description": "Gioca in 3 lingue diverse."
+      },
+      "polyglot10": {
+        "name": "Giramondo",
+        "description": "Gioca in 10 lingue diverse."
+      },
+      "streak3": {
+        "name": "In serie",
+        "description": "Gioca 3 giorni di fila."
+      },
+      "streak7": {
+        "name": "Fedelissimo",
+        "description": "Gioca 7 giorni di fila."
+      },
+      "offlineHero": {
+        "name": "Fuori rete",
+        "description": "Completa una partita mentre sei offline."
+      },
+      "savedByAFriend": {
+        "name": "Salvato da un amico",
+        "description": "Segui il consiglio del tuo amico e indovina."
+      },
+      "categoryMaster": {
+        "name": "Maestro di categoria",
+        "description": "Rispondi correttamente a 25 domande di una sola categoria."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Aiuti",
     "lifelinesBody": "Hai quattro aiuti e ognuno si può usare una sola volta per partita:",
     "marathonTitle": "Maratona",
-    "marathonBody": "Una serie senza fine. Le domande diventano più difficili ogni cinque risposte esatte, hai i quattro aiuti una volta ciascuno e {seconds} secondi per domanda. Una risposta sbagliata o il tempo scaduto chiudono la partita, e il tuo punteggio è il numero di risposte esatte.",
+    "marathonBody": "Una partita infinita. Le domande diventano più difficili ogni cinque risposte corrette, hai a disposizione i quattro aiuti una volta ciascuno e hai {minutes, plural, one {# minuto} other {# minuti}} per ogni domanda. Un errore o lo scadere del tempo fanno terminare la partita e il tuo punteggio corrisponde al numero di risposte corrette.",
     "timeAttackTitle": "Contro il tempo",
     "timeAttackBody": "Hai {seconds} secondi per rispondere a più domande che puoi. Una risposta sbagliata non chiude la partita, ma toglie {penalty} secondi dal cronometro. Niente aiuti.",
     "rankedTitle": "Partite classificate e correttezza",
-    "rankedBody": "Le partite classificate di Maratona e Contro il tempo sono arbitrate dal nostro server: la risposta giusta non arriva mai sul tuo dispositivo prima che tu risponda, e il tempo viene misurato sul server. Accedi con Google per giocare in classifica. Le partite con impostazioni personalizzate o giocate offline sono di allenamento.",
+    "rankedBody": "Le partite in Maratona e Attacco a tempo sono sempre subordinate al nostro server: la risposta corretta non arriva mai sul tuo dispositivo prima che tu risponda e il timer è gestito dal server. Chiunque può giocare; accedi con Google per inserire il tuo punteggio in classifica.",
     "questionsTitle": "Le domande",
-    "questionsBody": "Le domande sono scritte da un autore basato sull'IA direttamente in ogni lingua e controllate automaticamente. Circa il 40% riguarda la cultura dei luoghi in cui si parla la tua lingua. Se una domanda ti sembra sbagliata, usa “Segnala un errore” dopo che è stata rivelata la risposta."
+    "questionsBody": "Le domande sono scritte da un generatore basato sull'intelligenza artificiale direttamente in ogni lingua e vengono controllate automaticamente. Circa il 40% riguarda la cultura del paese in cui si parla la tua lingua. Se una domanda sembra errata, usa \"Segnala un errore\" dopo che la risposta è stata rivelata."
   },
   "About": {
-    "title": "Informazioni su Millionaire Quiz",
-    "intro": "Millionaire Quiz è un gioco a quiz gratuito creato dai fan, ispirato al classico format televisivo e ripensato per il web, per gli smartphone e per 50 lingue.",
+    "title": "Informazioni su Chi vuol esser milionario? Quiz",
+    "intro": "Chi vuol esser milionario? Quiz è un gioco a quiz gratuito e amatoriale ispirato al classico format televisivo, ricostruito per il web, per i telefoni e per 50 lingue.",
     "missionTitle": "Perché l'abbiamo creato",
     "missionBody": "La maggior parte dei giochi a quiz è scritta in inglese e poi tradotta. Secondo noi un quiz deve farti sentire a casa: le domande dovrebbero parlare delle persone, dei luoghi, dei libri e delle tradizioni con cui sei cresciuto, oltre che del resto del mondo.",
     "howTitle": "Come nascono le domande",
     "howBody": "Un modello linguistico di grandi dimensioni scrive ogni domanda direttamente nella tua lingua, a lotti, seguendo regole rigide: una sola risposta chiaramente giusta, quattro opzioni plausibili, solo fatti consolidati. Le domande vengono convalidate automaticamente, archiviate e proposte ai giocatori; chiunque può segnalare un errore.",
     "techTitle": "Dietro le quinte",
-    "techBody": "Millionaire Quiz è una progressive web app: si installa sul telefono o sul computer, funziona offline con pacchetti di domande scaricabili e sincronizza i tuoi progressi quando ti riconnetti.",
+    "techBody": "Chi vuol esser milionario? Quiz è una progressive web app: si installa sul telefono o sul computer, funziona offline con le domande salvate automaticamente e sincronizza i tuoi progressi quando ti riconnetti.",
     "creditTitle": "Riconoscimenti",
     "creditBody": "Progettato e sviluppato da {author}.",
-    "disclaimer": "Millionaire Quiz non è affiliato, approvato né collegato in alcun modo a programmi televisivi, emittenti o titolari di diritti."
+    "disclaimer": "Chi vuol esser milionario? Quiz non è affiliato, sponsorizzato o collegato ad alcun programma televisivo, emittente o detentore di diritti."
   },
   "Legal": {
     "privacyTitle": "Informativa sulla privacy",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "I tuoi diritti",
     "privacyRightsBody": "Puoi cambiare il nome visualizzato e l'immagine in qualsiasi momento, e puoi chiederci di eliminare il tuo account e tutti i dati associati contattando l'autore.",
     "termsTitle": "Termini di utilizzo",
-    "termsIntro": "Giocando a Millionaire Quiz accetti questi semplici termini.",
+    "termsIntro": "Giocando a Chi vuol esser milionario? Quiz accetti questi semplici termini.",
     "termsPlayTitle": "Fair play",
     "termsPlayBody": "Gioca onestamente le partite classificate. Gioco automatizzato, sfruttamento di bug o interferenze con la classifica possono comportare la rimozione delle tue partite.",
     "termsContentTitle": "Domande e accuratezza",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Installa l'app",
-    "installTitle": "Installa Millionaire Quiz",
+    "installTitle": "Installa Chi vuol esser milionario? Quiz",
     "benefit": "Gioca a schermo intero e offline, con un tocco dalla schermata Home.",
     "iosTitle": "Installa su iPhone o iPad",
     "iosStep1": "Tocca il pulsante Condividi nella barra di Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Tocca “Aggiungi”: l'app comparirà nella schermata Home.",
     "gotIt": "Ho capito"
   },
+  "Contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai trovato un errore, hai un'idea o hai bisogno di aiuto? Scrivici, leggiamo ogni messaggio.",
+    "name": "Il tuo nome",
+    "nameRequired": "Inserisci il tuo nome.",
+    "email": "Email",
+    "emailRequired": "Inserisci la tua email per permetterci di risponderti.",
+    "emailInvalid": "Questo indirizzo email non sembra corretto.",
+    "message": "Messaggio",
+    "messageRequired": "Scrivi un messaggio.",
+    "messagePlaceholder": "Come possiamo aiutarti?",
+    "send": "Invia messaggio",
+    "error": "Non è stato possibile inviare il messaggio. Riprova tra poco.",
+    "sentTitle": "Messaggio inviato!",
+    "sentBody": "Grazie per averci scritto. Risponderemo all'indirizzo email che ci hai fornito.",
+    "sendAnother": "Invia un altro messaggio"
+  },
   "Auth": {
     "signedIn": "Benvenuto, {name}!",
     "signedOut": "Sei uscito dall'account.",
+    "signInTitle": "Accedi",
+    "signInSubtitle": "Un tocco con Google e i tuoi progressi ti seguiranno su qualsiasi dispositivo.",
+    "benefitRanked": "Inserisci i tuoi punteggi di Maratona e Attacco a tempo nella classifica globale",
+    "benefitLeaderboard": "Scegli il nome e l'immagine visibili agli altri giocatori",
+    "benefitSync": "Conserva i tuoi record di Classico, la cronologia delle partite e i badge ovunque",
+    "privacyNote": "Utilizziamo solo il tuo nome, il tuo indirizzo email e la tua foto del profilo da Google.",
+    "unavailable": "L'accesso non è disponibile al momento. Puoi comunque giocare a Classico: i tuoi progressi sono salvati su questo dispositivo.",
+    "alreadySignedIn": "Hai effettuato l'accesso come {name}.",
     "errors": {
       "google_unavailable": "L'accesso con Google non è disponibile al momento.",
       "google_denied": "Accesso annullato.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "quiz milionario, gioco a quiz, trivia, chi vuol essere milionario gioco, quiz gratis, quiz online, cultura generale",
-    "homeTitle": "Millionaire Quiz — Chi vuol essere milionario? Gioca gratis online",
+    "homeTitle": "Chi vuol esser milionario? Quiz — Gioca gratis online",
     "homeDescription": "Gioca gratis al quiz televisivo in 50 lingue. 15 domande per il milione, quattro aiuti, soglie di sicurezza, più le modalità Maratona e Contro il tempo con classifica mondiale.",
     "playTitle": "Quiz del milionario classico — 15 domande per il milione",
     "playDescription": "Sali la scala dei premi da {first} a {top}: quindici domande, due soglie di sicurezza, quattro aiuti. Gratis, senza registrazione, nella tua lingua.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Medaglie — collezionale tutte",
     "badgesDescription": "Venti medaglie da conquistare tra Classica, Maratona e Contro il tempo: vinci il milione, mantieni la serie, gioca in tante lingue.",
     "rulesTitle": "Come si gioca — regole, scala dei premi e aiuti",
-    "rulesDescription": "Le regole complete di Millionaire Quiz: la scala dei premi, le soglie di sicurezza, il ritiro, i quattro aiuti, Maratona e Contro il tempo.",
-    "aboutTitle": "Informazioni su Millionaire Quiz",
-    "aboutDescription": "Un gioco a quiz gratuito creato dai fan, con domande scritte dall'IA in 50 lingue, ispirato al classico format televisivo.",
+    "rulesDescription": "Le regole complete di Chi vuol esser milionario? Quiz: la scalata dei premi, i traguardi sicuri, il ritiro, i quattro aiuti, Maratona e Attacco a tempo.",
+    "aboutTitle": "Informazioni su Chi vuol esser milionario? Quiz",
+    "aboutDescription": "Un gioco a quiz gratuito e amatoriale con domande scritte tramite intelligenza artificiale in 50 lingue, ispirato al classico formato dei quiz televisivi.",
     "privacyTitle": "Informativa sulla privacy",
-    "privacyDescription": "Cosa conserva Millionaire Quiz, perché e come eliminarlo.",
+    "privacyDescription": "Cosa memorizza Chi vuol esser milionario? Quiz, perché lo fa e come eliminarlo.",
     "termsTitle": "Termini di utilizzo",
-    "termsDescription": "Le semplici regole per giocare a Millionaire Quiz in modo corretto.",
+    "termsDescription": "Le semplici regole per giocare lealmente a Chi vuol esser milionario? Quiz.",
     "profileTitle": "Il tuo profilo",
     "profileDescription": "I tuoi punteggi, le tue posizioni e le tue medaglie.",
     "settingsTitle": "Impostazioni",
-    "settingsDescription": "Audio, pacchetti di domande offline e impostazioni di gioco predefinite."
+    "contactTitle": "Contattaci",
+    "contactDescription": "Domande, idee o un errore in un quesito? Invia un messaggio al team di Chi vuol esser milionario? Quiz.",
+    "signInTitle": "Accedi",
+    "signInDescription": "Accedi con Google per inserire i tuoi punteggi in classifica e mantenere i tuoi progressi su ogni dispositivo.",
+    "settingsDescription": "Audio, lingua e impostazioni della modalità Classico."
   }
 }

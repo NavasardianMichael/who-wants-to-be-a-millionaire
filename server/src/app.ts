@@ -9,6 +9,7 @@ import { requireSameOrigin } from './middleware/csrf.js'
 import { errorHandler } from './middleware/error.js'
 import { badgesRouter } from './routes/badges.js'
 import { classicRouter } from './routes/classic.js'
+import { contactRouter } from './routes/contact.js'
 import { identityRouter } from './routes/identity.js'
 import { leaderboardsRouter } from './routes/leaderboards.js'
 import { lifelinesRouter } from './routes/lifelines.js'
@@ -46,6 +47,7 @@ export function createApp() {
   app.use('/leaderboards', leaderboardsRouter)
   app.use('/classic', classicRouter)
   app.use('/badges', badgesRouter)
+  app.use('/contact', contactRouter)
 
   // Answered in the envelope like everything else — Express's default is an HTML page.
   app.use((_req, res) => fail(res, 'Not found', 404, 404))

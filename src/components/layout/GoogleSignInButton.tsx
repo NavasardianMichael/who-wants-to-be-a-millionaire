@@ -7,7 +7,7 @@ import { usePathname } from '@i18n/navigation'
 import { localePath } from '@i18n/pathname'
 import { trackEvent } from '@helpers/analytics'
 import { cn } from '@helpers/cn'
-import { buttonClassName } from '@components/ui/Button'
+import { buttonClassName } from '@components/ui/bare/buttonClassName'
 
 /**
  * A top-level navigation to the API, which runs the Google flow and redirects back to this

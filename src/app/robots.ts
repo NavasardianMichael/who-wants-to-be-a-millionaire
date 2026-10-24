@@ -11,7 +11,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: [`/*${ROUTES.profile}`, `/*${ROUTES.settings}`, '/monitoring'],
+      disallow: [`/*${ROUTES.profile}`, `/*${ROUTES.settings}`, `/*${ROUTES.signIn}`, '/monitoring'],
     },
     sitemap: absoluteUrl('/sitemap.xml'),
   }

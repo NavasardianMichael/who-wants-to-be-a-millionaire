@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Milijunaški kviz",
+    "wordmarkTop": "Milijunaški",
+    "wordmarkBottom": "Kviz",
     "tagline": "Kviz-show igra na tvom jeziku",
     "play": "Igraj",
     "playNow": "Igraj odmah",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Nastavi s Googleom",
     "signedInAs": "Prijavljeni račun: {name}",
     "you": "Ti",
+    "unsavedTitle": "Napustiti ovu stranicu?",
+    "unsavedBody": "Ono što si unio nije spremljeno i bit će izgubljeno.",
+    "stay": "Ostani",
+    "leave": "Napusti",
     "share": "Podijeli",
     "copied": "Poveznica je kopirana",
     "comingBack": "Vidimo se uskoro!",
@@ -57,22 +63,14 @@
     "about": "O igri",
     "privacy": "Privatnost",
     "terms": "Uvjeti",
+    "contact": "Javi nam se",
     "profile": "Profil",
     "settings": "Postavke"
   },
   "Home": {
-    "eyebrow": "50 jezika · pitanja piše AI · besplatno",
+    "eyebrow": "50 jezika · pitanja napisana umjetnom inteligencijom · besplatno",
     "heroTitle": "Tko želi biti milijunaš?",
-    "heroSubtitle": "Samo petnaest pitanja dijeli te od milijuna. Penji se novčanom ljestvicom, pametno koristi džokere — i sam odluči kada ćeš stati.",
-    "heroCta": "Igraj Klasik",
-    "heroSecondaryCta": "Isprobaj Maraton",
-    "statsQuestions": "Nova pitanja u svakoj igri",
-    "statsLanguages": "Jezici",
-    "statsLifelines": "Džokeri",
     "modesTitle": "Tri načina igre",
-    "modesSubtitle": "Klasičan uspon do vrha, beskrajni test živaca ili utrka s vremenom.",
-    "ladderTitle": "Novčana ljestvica",
-    "ladderSubtitle": "Svaki točan odgovor podiže te za jednu stepenicu. Sigurni pragovi na 5. i 10. pitanju čuvaju tvoj dobitak čak i ako pogriješiš.",
     "lifelinesTitle": "Četiri džokera, svaki jednom",
     "lifelinesSubtitle": "Kad zapneš, džoker ti može spasiti igru. Koristi ih pametno — najteža pitanja stižu na kraju.",
     "howTitle": "Kako se igra",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Pogledaj cijelu ljestvicu",
     "emptyLeaderboard": "Još nema rangiranih partija — budi prvi!",
     "cultureTitle": "Pitanja koja govore tvojim jezikom",
-    "cultureBody": "Naš AI autor pitanja stvara nova pitanja izravno na svakom od 50 jezika i spaja opće znanje s poviješću, književnošću, zemljopisom i običajima tvoje kulture. Pitanje o tvom omiljenom pjesniku neće biti prijevod pitanja o nečijem tuđem.",
+    "cultureBody": "Naš pisac pitanja s umjetnom inteligencijom stvara svježa pitanja izvorno na svakom od 50 jezika, spajajući opće znanje s poviješću, književnošću, geografijom i tradicijom tvoje vlastite kulture. Pitanje o tvom omiljenom pjesniku neće biti prijevod pitanja o tuđem.",
     "offlineTitle": "Igraj bilo gdje, čak i bez interneta",
-    "offlineBody": "Instaliraj aplikaciju, preuzmi pakete pitanja za jezike koje želiš i igraj u avionu ili u podzemnoj. Rezultati se sinkroniziraju čim se vratiš na mrežu.",
+    "offlineBody": "Instaliraj aplikaciju i nastavi igrati Klasični način u zrakoplovu ili metrou: pitanja na tvom jeziku automatski se spremaju na tvoj uređaj. Tvoji rezultati sinkroniziraju se čim se ponovno povežeš na internet.",
     "badgesTitle": "Skupljaj značke",
     "badgesSubtitle": "Dođi do sigurnih pragova, osvoji milijun, igraj iz dana u dan — ukupno značaka za osvojiti: {count}.",
     "viewBadges": "Pogledaj sve značke",
     "categoriesTitle": "Istraži kategorije",
     "categoriesSubtitle": "Od povijesti i znanosti do filma, hrane i tvoje lokalne kulture.",
     "faqTitle": "Česta pitanja",
-    "faq1Question": "Je li Millionaire Quiz besplatan?",
+    "faq1Question": "Je li Milijunaški kviz besplatan?",
     "faq1Answer": "Da. Svi načini igre, svi jezici i svi džokeri su besplatni, a za Klasik ne trebaš registraciju.",
     "faq2Question": "Odakle dolaze pitanja?",
-    "faq2Answer": "AI autor pitanja stvara ih izravno na tvom jeziku, a svako se pitanje automatski provjerava prije nego što stigne u igru. Ako nešto ipak promakne, možeš to prijaviti jednim dodirom.",
+    "faq2Answer": "Pitanja stvara umjetna inteligencija izvorno na tvom jeziku, a svako se pitanje automatski provjerava prije nego što uđe u igru. Ako se nešto ipak provuče, možeš to prijaviti jednim dodirom.",
     "faq3Question": "Kako funkcioniraju sigurni pragovi?",
     "faq3Answer": "Točan odgovor na 5. pitanje jamči ti {havenOne}, a na 10. pitanje {havenTwo}. Ako kasnije pogriješiš, odlaziš s iznosom zadnjeg sigurnog praga koji si prošao.",
     "faq4Question": "Mogu li igrati bez interneta?",
-    "faq4Answer": "Možeš. Instaliraj aplikaciju i u postavkama preuzmi pakete pitanja za bilo koji od 50 jezika. Igre odigrane izvan mreže spremaju se i sinkroniziraju kad se ponovno povežeš.",
+    "faq4Answer": "Da — Klasični način radi bez interneta. Pitanja na tvom jeziku automatski se spremaju na tvoj uređaj, a igre odigrane izvan mreže sinkroniziraju se kad se ponovno povežeš. Za Maraton i Utrku s vremenom potrebna je internetska veza.",
     "faq5Question": "Kako dospjeti na ljestvicu najboljih?",
     "faq5Answer": "Prijavi se s Googleom i odigraj rangiranu partiju Maratona ili Utrke s vremenom. Naš poslužitelj provjerava svaki odgovor, pa ljestvica ostaje poštena.",
     "faq6Question": "Je li ovo službena igra TV emisije?",
-    "faq6Answer": "Nije. Millionaire Quiz je neovisna igra koju su napravili obožavatelji, nadahnuta formatom klasičnog TV kviza."
+    "faq6Answer": "Ne. Milijunaški kviz je nezavisna igra koju su stvorili obožavatelji, nadahnuta klasičnim televizijskim kvizom."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Jedna greška i gotovo",
       "description": "Beskrajan niz pitanja koja postaju teža nakon svakih 5 točnih odgovora. Imaš četiri klasična džokera, svaki po jednom — a jedan pogrešan odgovor završava partiju.",
-      "rules": "Vrijeme po pitanju: {seconds} s. Razina raste nakon svakih 5 točnih odgovora. Jedan pogrešan odgovor ili istek vremena završava partiju."
+      "rules": "{minutes, plural, one {# minuta} few {# minute} other {# minuta}} po pitanju. Težina raste svakih 5 točnih odgovora. Jedan netočan odgovor ili istek vremena završava igru."
     },
     "timeAttack": {
       "name": "Utrka s vremenom",
@@ -130,18 +128,12 @@
       "description": "Odgovori na što više pitanja prije nego što istekne vrijeme. Pogrešan odgovor ne završava partiju — ali te košta 5 sekundi.",
       "rules": "Na satu: {seconds} s. Svaki pogrešan odgovor košta {penalty} s. Bez džokera — samo brzina."
     },
-    "ranked": "Rangirano",
-    "practice": "Vježba",
-    "rankedHint": "Rangirane partije broje se na globalnoj ljestvici najboljih.",
-    "practiceHint": "Partije za vježbu koriste tvoje postavke i ne rangiraju se.",
-    "signInForRanked": "Prijavi se s Googleom da igraš rangirano i uđeš na ljestvicu najboljih.",
-    "offlineUnranked": "Nisi na mreži, pa je ova partija vježba.",
-    "customSettingsUnranked": "Zbog prilagođenih postavki ovo je partija za vježbu."
+    "rankedHint": "Svaka se igra bilježi na globalnoj ljestvici.",
+    "guestHint": "Igraš kao gost: tvoja se igra jednako nadzire, ali se samo prijavljeni igrači prikazuju na ljestvici.",
+    "needsConnection": "Ovaj način rada traži internetsku vezu: svaka se igra nadzire uživo. Klasični način radi i bez interneta."
   },
   "Game": {
     "startGame": "Započni igru",
-    "startRanked": "Započni rangiranu partiju",
-    "startPractice": "Započni vježbu",
     "loading": "Pale se svjetla u studiju…",
     "loadingQuestion": "Pišemo tvoje sljedeće pitanje…",
     "playingFor": "Igraš za",
@@ -163,6 +155,12 @@
     "timeUp": "Vrijeme je isteklo!",
     "theAnswerWas": "Točan odgovor bio je {letter}: {text}",
     "didYouKnow": "Zanimljivost",
+    "switchPrompt": "Prije nego što zamijenimo pitanje — što bi odgovorio?",
+    "switchPromptHint": "Čisto iz zabave: ovo ti se neće računati.",
+    "switchSkip": "Preskoči, samo zamijeni",
+    "switchWouldBeRight": "Pogodio bi!",
+    "switchWouldBeWrong": "Dobro da si zamijenio!",
+    "switchComing": "Stiže tvoje novo pitanje…",
     "walkAway": "Odustani",
     "walkAwayTitle": "Uzimaš novac?",
     "walkAwayBody": "Ako sada odustaneš, kući nosiš {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Razina {level} — pitanja postaju teža",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Naš autor pitanja je na pauzi, pa ova igra koristi rezervna pitanja na engleskom.",
-    "packNotice": "Igraš s preuzetim paketom pitanja.",
+    "packNotice": "Nisi na internetu — igraš s pitanjima spremljenim na uređaju.",
     "keyboardHint": "Tipkovnica: A–D za odabir, Enter za potvrdu, L za ljestvicu, M za zvuk.",
     "report": "Prijavi pogrešku",
     "reportTitle": "Nešto nije u redu s ovim pitanjem?",
@@ -205,11 +203,12 @@
     "personalBest": "Novi osobni rekord!",
     "rank": "Mjesto na ljestvici: #{rank}",
     "newBadges": "{count, plural, one {Otključana je nova značka!} few {Otključane su # nove značke!} other {Otključano je # novih znački!}}",
-    "shareText": "Moj dobitak u igri Millionaire Quiz: {amount}! Možeš li bolje?",
-    "shareScoreText": "Moj rezultat u načinu {mode} u igri Millionaire Quiz: {score}! Možeš li bolje?",
+    "shareText": "Osvojio sam {amount} u igri Milijunaški kviz! Možeš li me pobijediti?",
+    "shareScoreText": "Postigao sam rezultat {score} u načinu {mode} u igri Milijunaški kviz! Možeš li me nadmašiti?",
     "backHome": "Natrag na početnu",
     "viewLeaderboard": "Pogledaj ljestvicu",
-    "signInToSave": "Prijavi se kako bi tvoji rezultati i značke bili dostupni na svakom uređaju."
+    "signInToSave": "Prijavi se kako bi tvoji rezultati i značke bili dostupni na svakom uređaju.",
+    "signInToRank": "Prijavi se kako bi se ovakve igre pojavile na ljestvici."
   },
   "Lifelines": {
     "title": "Džokeri",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Postavke",
-    "subtitle": "Zvuk, izvanmrežni paketi i zadane postavke igre.",
+    "subtitle": "Zvuk, jezik i postavke za Klasični način.",
     "gameTitle": "Postavke igre",
+    "gameHint": "Ovo vrijedi za Klasični način. Maraton i Utrka s vremenom se rangiraju i uvijek koriste standardna pravila.",
+    "customised": "Igraš s prilagođenim postavkama.",
+    "change": "Promijeni",
     "categories": "Kategorije",
     "allCategories": "Sve kategorije",
     "categoriesHint": "Odaberi jednu ili više, ili ne odaberi nijednu za sve kategorije.",
@@ -256,16 +258,6 @@
     "soundTitle": "Zvuk",
     "sound": "Zvučni efekti i glazba",
     "volume": "Glasnoća",
-    "packsTitle": "Izvanmrežni paketi pitanja",
-    "packsSubtitle": "Preuzmi pitanja za jezike na kojima želiš igrati bez veze. Svaki paket ima oko 100 KB.",
-    "packCount": "{count, plural, one {# pitanje} few {# pitanja} other {# pitanja}}",
-    "packDownload": "Preuzmi",
-    "packDownloading": "Preuzimanje…",
-    "packUpdate": "Ažuriraj",
-    "packRemove": "Ukloni",
-    "packDownloaded": "Preuzeto",
-    "packError": "Paket se nije mogao preuzeti. Provjeri vezu i pokušaj ponovno.",
-    "autoDownload": "Automatski preuzmi paket za moj jezik",
     "installTitle": "Instaliraj aplikaciju",
     "installBody": "Igraj preko cijelog zaslona, bez interneta, jednim dodirom s početnog zaslona.",
     "accountTitle": "Račun"
@@ -375,26 +367,86 @@
     "earnedOn": "Osvojeno {date}",
     "unlocked": "Značka je otključana",
     "items": {
-      "firstSteps": { "name": "Prvi koraci", "description": "Točno odgovori na svoje prvo pitanje." },
-      "safeHaven": { "name": "Sigurni prag", "description": "Dođi do prvog sigurnog praga u Klasiku (5. pitanje)." },
-      "halfWay": { "name": "Pola puta", "description": "Dođi do drugog sigurnog praga u Klasiku (10. pitanje)." },
-      "millionaire": { "name": "Milijunaš", "description": "Odgovori na svih 15 pitanja u Klasiku i osvoji milijun." },
-      "purist": { "name": "Čistunac", "description": "Osvoji milijun bez ijednog džokera." },
-      "smartExit": { "name": "Pametan izlaz", "description": "Odustani s dobitkom na 12. pitanju ili kasnije." },
-      "quickThinker": { "name": "Brza pamet", "description": "Daj 10 točnih odgovora, svaki za manje od 3 sekunde." },
-      "marathon10": { "name": "Maratonac", "description": "Točno odgovori na 10 pitanja zaredom u rangiranom Maratonu." },
-      "marathon25": { "name": "Duge staze", "description": "Točno odgovori na 25 pitanja zaredom u rangiranom Maratonu." },
-      "marathon50": { "name": "Željezni um", "description": "Točno odgovori na 50 pitanja zaredom u rangiranom Maratonu." },
-      "marathon100": { "name": "Legenda", "description": "Točno odgovori na 100 pitanja zaredom u rangiranom Maratonu." },
-      "timeAttack15": { "name": "Brzac", "description": "Osvoji 15 bodova u rangiranoj Utrci s vremenom." },
-      "timeAttack30": { "name": "Munja", "description": "Osvoji 30 bodova u rangiranoj Utrci s vremenom." },
-      "polyglot3": { "name": "Poliglot", "description": "Igraj na 3 različita jezika." },
-      "polyglot10": { "name": "Svjetski putnik", "description": "Igraj na 10 različitih jezika." },
-      "streak3": { "name": "U zaletu", "description": "Igraj 3 dana zaredom." },
-      "streak7": { "name": "Predani igrač", "description": "Igraj 7 dana zaredom." },
-      "offlineHero": { "name": "Izvan mreže", "description": "Završi igru bez internetske veze." },
-      "savedByAFriend": { "name": "Prijatelj u nevolji", "description": "Poslušaj savjet prijatelja i odgovori točno." },
-      "categoryMaster": { "name": "Majstor kategorije", "description": "Točno odgovori na 25 pitanja u jednoj kategoriji." }
+      "firstSteps": {
+        "name": "Prvi koraci",
+        "description": "Točno odgovori na svoje prvo pitanje."
+      },
+      "safeHaven": {
+        "name": "Sigurni prag",
+        "description": "Dođi do prvog sigurnog praga u Klasiku (5. pitanje)."
+      },
+      "halfWay": {
+        "name": "Pola puta",
+        "description": "Dođi do drugog sigurnog praga u Klasiku (10. pitanje)."
+      },
+      "millionaire": {
+        "name": "Milijunaš",
+        "description": "Odgovori na svih 15 pitanja u Klasiku i osvoji milijun."
+      },
+      "purist": {
+        "name": "Čistunac",
+        "description": "Osvoji milijun bez ijednog džokera."
+      },
+      "smartExit": {
+        "name": "Pametan izlaz",
+        "description": "Odustani s dobitkom na 12. pitanju ili kasnije."
+      },
+      "quickThinker": {
+        "name": "Brza pamet",
+        "description": "Daj 10 točnih odgovora, svaki za manje od 3 sekunde."
+      },
+      "marathon10": {
+        "name": "Maratonac",
+        "description": "Točno odgovori na 10 pitanja zaredom u rangiranom Maratonu."
+      },
+      "marathon25": {
+        "name": "Duge staze",
+        "description": "Točno odgovori na 25 pitanja zaredom u rangiranom Maratonu."
+      },
+      "marathon50": {
+        "name": "Željezni um",
+        "description": "Točno odgovori na 50 pitanja zaredom u rangiranom Maratonu."
+      },
+      "marathon100": {
+        "name": "Legenda",
+        "description": "Točno odgovori na 100 pitanja zaredom u rangiranom Maratonu."
+      },
+      "timeAttack15": {
+        "name": "Brzac",
+        "description": "Osvoji 15 bodova u rangiranoj Utrci s vremenom."
+      },
+      "timeAttack30": {
+        "name": "Munja",
+        "description": "Osvoji 30 bodova u rangiranoj Utrci s vremenom."
+      },
+      "polyglot3": {
+        "name": "Poliglot",
+        "description": "Igraj na 3 različita jezika."
+      },
+      "polyglot10": {
+        "name": "Svjetski putnik",
+        "description": "Igraj na 10 različitih jezika."
+      },
+      "streak3": {
+        "name": "U zaletu",
+        "description": "Igraj 3 dana zaredom."
+      },
+      "streak7": {
+        "name": "Predani igrač",
+        "description": "Igraj 7 dana zaredom."
+      },
+      "offlineHero": {
+        "name": "Izvan mreže",
+        "description": "Završi igru bez internetske veze."
+      },
+      "savedByAFriend": {
+        "name": "Prijatelj u nevolji",
+        "description": "Poslušaj savjet prijatelja i odgovori točno."
+      },
+      "categoryMaster": {
+        "name": "Majstor kategorije",
+        "description": "Točno odgovori na 25 pitanja u jednoj kategoriji."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Džokeri",
     "lifelinesBody": "Imaš četiri džokera i svaki možeš iskoristiti jednom po igri:",
     "marathonTitle": "Maraton",
-    "marathonBody": "Beskrajna partija. Pitanja postaju teža nakon svakih pet točnih odgovora, svaki od četiri džokera imaš po jednom, a za svako pitanje imaš {seconds} s. Jedan pogrešan odgovor ili istek vremena završava partiju, a tvoj rezultat je broj točnih odgovora.",
+    "marathonBody": "Beskrajna igra. Pitanja postaju teža svakih pet točnih odgovora, imaš na raspolaganju četiri džokera (svaki po jednom) i dobivaš {minutes, plural, one {# minutu} few {# minute} other {# minuta}} za svako pitanje. Jedan netočan odgovor ili istek vremena završava igru, a tvoj rezultat je ukupan broj točnih odgovora.",
     "timeAttackTitle": "Utrka s vremenom",
     "timeAttackBody": "Imaš {seconds} s da odgovoriš na što više pitanja. Pogrešan odgovor ne završava partiju, ali ti oduzima {penalty} s sa sata. Džokera nema.",
     "rankedTitle": "Rangirana igra i fair play",
-    "rankedBody": "Rangirane partije Maratona i Utrke s vremenom nadzire naš poslužitelj: točan odgovor nikad ne stiže na tvoj uređaj prije nego što odgovoriš, a vrijeme se mjeri na poslužitelju. Prijavi se s Googleom da igraš rangirano. Partije s prilagođenim postavkama ili odigrane izvan mreže računaju se kao vježba.",
+    "rankedBody": "Igre u Maratonu i Utrci s vremenom uvijek nadzire naš poslužitelj: točan odgovor nikad ne stiže na tvoj uređaj prije nego što odgovoriš, a vrijeme se mjeri na poslužitelju. Svatko može igrati; prijavi se putem Googlea kako bi upisao svoj rezultat na ljestvicu.",
     "questionsTitle": "O pitanjima",
-    "questionsBody": "Pitanja piše AI autor pitanja izravno na svakom jeziku i ona se automatski provjeravaju. Oko 40 % njih odnosi se na kulturu krajeva u kojima se govori tvoj jezik. Ako ti se neko pitanje učini pogrešnim, iskoristi „Prijavi pogrešku” nakon što se otkrije odgovor."
+    "questionsBody": "Pitanja piše umjetna inteligencija izvorno na svakom jeziku i automatski se provjeravaju. Oko 40 % pitanja vezano je uz kulturu govornog područja tvog jezika. Ako neko pitanje izgleda pogrešno, odaberi „Prijavi pogrešku” nakon otkrivanja točnog odgovora."
   },
   "About": {
-    "title": "O igri Millionaire Quiz",
-    "intro": "Millionaire Quiz je besplatna kviz igra koju su napravili obožavatelji, nadahnuta klasičnim TV formatom — iznova osmišljena za web, mobitele i 50 jezika.",
+    "title": "O igri Milijunaški kviz",
+    "intro": "Milijunaški kviz je besplatna igra koju su stvorili obožavatelji, nadahnuta klasičnim televizijskim formatom — prilagođena za web, mobitele i 50 jezika.",
     "missionTitle": "Zašto smo je napravili",
     "missionBody": "Većina kviz igara piše se na engleskom pa prevodi. Mi smatramo da se u kvizu trebaš osjećati kao kod kuće: pitanja trebaju biti o ljudima, mjestima, knjigama i običajima iz tvog djetinjstva, ali i o širem svijetu.",
     "howTitle": "Kako nastaju pitanja",
     "howBody": "Veliki jezični model piše svako pitanje izravno na tvom jeziku, u serijama, prema strogim pravilima: jedan jasno točan odgovor, četiri uvjerljive opcije, samo provjerene i postojane činjenice. Pitanja se automatski provjeravaju, spremaju i prikazuju igračima, a svaki igrač može prijaviti pogrešku.",
     "techTitle": "Ispod haube",
-    "techBody": "Millionaire Quiz je progresivna web-aplikacija: instalira se na mobitel ili računalo, radi bez interneta uz pakete pitanja za preuzimanje i sinkronizira tvoj napredak kad se ponovno povežeš.",
+    "techBody": "Milijunaški kviz je progresivna web-aplikacija: instalira se na mobitel ili računalo, radi bez interneta zahvaljujući automatski spremljenim pitanjima i sinkronizira napredak kad se ponovno povežeš.",
     "creditTitle": "Zasluge",
     "creditBody": "Dizajn i razvoj: {author}.",
-    "disclaimer": "Millionaire Quiz nije povezan ni s jednim TV programom, televizijskom kućom ili nositeljem prava, niti ga oni podržavaju."
+    "disclaimer": "Milijunaški kviz nije povezan s, podržan od strane niti ima ikakve veze s bilo kojom televizijskom emisijom, televizijskom kućom ili nositeljem autorskih prava."
   },
   "Legal": {
     "privacyTitle": "Pravila o privatnosti",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Tvoja prava",
     "privacyRightsBody": "Prikazano ime i sliku možeš promijeniti u bilo kojem trenutku, a brisanje računa i svih povezanih podataka možeš zatražiti tako da se javiš autoru.",
     "termsTitle": "Uvjeti korištenja",
-    "termsIntro": "Igranjem igre Millionaire Quiz prihvaćaš ove jednostavne uvjete.",
+    "termsIntro": "Igranjem igre Milijunaški kviz pristaješ na ove jednostavne uvjete.",
     "termsPlayTitle": "Fair play",
     "termsPlayBody": "Igraj rangirane partije pošteno. Automatizirana igra, iskorištavanje pogrešaka ili petljanje s ljestvicom najboljih mogu dovesti do uklanjanja tvojih partija.",
     "termsContentTitle": "Pitanja i točnost",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Instaliraj aplikaciju",
-    "installTitle": "Instaliraj Millionaire Quiz",
+    "installTitle": "Instaliraj Milijunaški kviz",
     "benefit": "Igraj preko cijelog zaslona i bez interneta, jednim dodirom s početnog zaslona.",
     "iosTitle": "Instalacija na iPhone ili iPad",
     "iosStep1": "Dodirni gumb Dijeli na alatnoj traci Safarija.",
@@ -464,9 +516,34 @@
     "iosStep3": "Dodirni „Dodaj” — aplikacija će se pojaviti na početnom zaslonu.",
     "gotIt": "Shvaćam"
   },
+  "Contact": {
+    "title": "Javi nam se",
+    "subtitle": "Uočio si grešku, imaš ideju ili ti treba pomoć? Javi nam se — čitamo svaku poruku.",
+    "name": "Tvoje ime",
+    "nameRequired": "Molimo te unesi svoje ime.",
+    "email": "E-pošta",
+    "emailRequired": "Molimo te unesi svoju e-poštu kako bismo ti mogli odgovoriti.",
+    "emailInvalid": "Ova adresa e-pošte ne izgleda ispravno.",
+    "message": "Poruka",
+    "messageRequired": "Napiši nam poruku.",
+    "messagePlaceholder": "Kako ti možemo pomoći?",
+    "send": "Pošalji poruku",
+    "error": "Tvoju poruku nismo uspjeli poslati. Molimo pokušaj ponovno za trenutak.",
+    "sentTitle": "Poruka je poslana!",
+    "sentBody": "Hvala što si nam se javio. Odgovorit ćemo ti na unesenu adresu e-pošte.",
+    "sendAnother": "Pošalji još jednu poruku"
+  },
   "Auth": {
     "signedIn": "Bok, {name}!",
     "signedOut": "Odjava je uspjela.",
+    "signInTitle": "Prijavi se",
+    "signInSubtitle": "Jedan dodir putem Googlea i tvoj te napredak prati na svim uređajima.",
+    "benefitRanked": "Upiši svoje rezultate iz Maratona i Utrke s vremenom na globalnu ljestvicu",
+    "benefitLeaderboard": "Odaberi ime i sliku koje vide drugi igrači",
+    "benefitSync": "Sačuvaj svoj najbolji rezultat u Klasičnom načinu, povijest igara i značke svugdje",
+    "privacyNote": "Od Googlea koristimo isključivo tvoje ime, adresu e-pošte i sliku profila.",
+    "unavailable": "Prijava trenutno nije dostupna. I dalje možeš igrati Klasični način — tvoj se napredak sprema na ovom uređaju.",
+    "alreadySignedIn": "Prijavljen si kao {name}.",
     "errors": {
       "google_unavailable": "Prijava s Googleom trenutačno nije dostupna.",
       "google_denied": "Prijava je otkazana.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, kviz, kviz igra, kviz znanja, tko želi biti milijunaš igra, besplatni kviz, online kviz, opće znanje",
-    "homeTitle": "Millionaire Quiz — Tko želi biti milijunaš? Igraj besplatno online",
+    "homeTitle": "Milijunaški kviz — Tko želi biti milijunaš? Igraj besplatno online",
     "homeDescription": "Igraj kviz-show besplatno na 50 jezika. 15 pitanja do milijuna, četiri džokera, sigurni pragovi te beskrajni Maraton i Utrka s vremenom s globalnom ljestvicom najboljih.",
     "playTitle": "Klasični Milijunaš kviz — 15 pitanja do milijuna",
     "playDescription": "Popni se novčanom ljestvicom od {first} do {top}: petnaest pitanja, dva sigurna praga, četiri džokera. Besplatno, bez registracije, na tvom jeziku.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Značke — skupi ih sve",
     "badgesDescription": "Dvadeset znački u Klasiku, Maratonu i Utrci s vremenom: osvoji milijun, igraj iz dana u dan, igraj na više jezika.",
     "rulesTitle": "Kako se igra — pravila, novčana ljestvica i džokeri",
-    "rulesDescription": "Sva pravila igre Millionaire Quiz: novčana ljestvica, sigurni pragovi, odustajanje, četiri džokera, Maraton i Utrka s vremenom.",
-    "aboutTitle": "O igri Millionaire Quiz",
-    "aboutDescription": "Besplatna kviz igra koju su napravili obožavatelji, s pitanjima na 50 jezika koja piše AI, nadahnuta klasičnim TV kvizom.",
+    "rulesDescription": "Potpuna pravila za Milijunaški kviz: ljestvica s nagradama, pragovi, odustajanje, četiri džokera, Maraton i Utrka s vremenom.",
+    "aboutTitle": "O igri Milijunaški kviz",
+    "aboutDescription": "Besplatan kviz koji su izradili obožavatelji, s pitanjima koja sastavlja umjetna inteligencija na 50 jezika, nadahnut legendarnim TV kvizom.",
     "privacyTitle": "Pravila o privatnosti",
-    "privacyDescription": "Što Millionaire Quiz sprema, zašto i kako to izbrisati.",
+    "privacyDescription": "Što Milijunaški kviz sprema, zašto i kako to izbrisati.",
     "termsTitle": "Uvjeti korištenja",
-    "termsDescription": "Jednostavna pravila za poštenu igru u Millionaire Quiz.",
+    "termsDescription": "Jednostavna pravila za poštenu igru Milijunaški kviz.",
     "profileTitle": "Tvoj profil",
     "profileDescription": "Tvoji rezultati, mjesta na ljestvici i značke.",
     "settingsTitle": "Postavke",
-    "settingsDescription": "Zvuk, izvanmrežni paketi pitanja i zadane postavke igre."
+    "contactTitle": "Javi nam se",
+    "contactDescription": "Imaš pitanja, ideje ili si našao pogrešku u pitanju? Pošalji poruku timu koji stoji iza igre Milijunaški kviz.",
+    "signInTitle": "Prijavi se",
+    "signInDescription": "Prijavi se putem Googlea kako bi upisao svoje rezultate na ljestvicu i sačuvao napredak na svim uređajima.",
+    "settingsDescription": "Zvuk, jezik i postavke za Klasični način."
   }
 }

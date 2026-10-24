@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Milionářský kvíz",
+    "wordmarkTop": "Milionářský",
+    "wordmarkBottom": "kvíz",
     "tagline": "Kvízová show ve tvém jazyce",
     "play": "Hrát",
     "playNow": "Hrát teď",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Pokračovat přes Google",
     "signedInAs": "Přihlášený účet: {name}",
     "you": "Ty",
+    "unsavedTitle": "Opustit tuto stránku?",
+    "unsavedBody": "To, co jste sem zadali, se neuložilo a bude ztraceno.",
+    "stay": "Zůstat",
+    "leave": "Odejít",
     "share": "Sdílet",
     "copied": "Odkaz zkopírován",
     "comingBack": "Brzy na viděnou!",
@@ -57,22 +63,14 @@
     "about": "O hře",
     "privacy": "Soukromí",
     "terms": "Podmínky",
+    "contact": "Napište nám",
     "profile": "Profil",
     "settings": "Nastavení"
   },
   "Home": {
-    "eyebrow": "50 jazyků · otázky psané AI · zdarma",
+    "eyebrow": "50 jazyků · otázky vytvořené umělou inteligencí · zdarma",
     "heroTitle": "Chcete být milionářem?",
-    "heroSubtitle": "Mezi tebou a milionem stojí patnáct otázek. Šplhej po peněžním žebříčku, využívej nápovědy s rozmyslem — a rozhodni, kdy přestat.",
-    "heroCta": "Hrát Klasiku",
-    "heroSecondaryCta": "Zkusit Maraton",
-    "statsQuestions": "Nové otázky v každé hře",
-    "statsLanguages": "Jazyků",
-    "statsLifelines": "Nápovědy",
     "modesTitle": "Tři způsoby hry",
-    "modesSubtitle": "Klasický výstup, nekonečná zkouška nervů, nebo závod s časem.",
-    "ladderTitle": "Peněžní žebříček",
-    "ladderSubtitle": "Každá správná odpověď tě posune o příčku výš. Jistoty u 5. a 10. otázky ti pojistí výhru i při pozdějším pádu.",
     "lifelinesTitle": "Čtyři nápovědy, každá jen jednou",
     "lifelinesSubtitle": "Když nevíš kudy kam, nápověda ti může zachránit hru. Používej je s rozmyslem — nejtěžší otázky přijdou nakonec.",
     "howTitle": "Jak hrát",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Zobrazit celý žebříček",
     "emptyLeaderboard": "Zatím tu nejsou žádné hodnocené hry — buď první!",
     "cultureTitle": "Otázky, které mluví tvým jazykem",
-    "cultureBody": "Náš AI autor otázek vytváří nové otázky přímo v každém z 50 jazyků a kombinuje znalosti o světě s historií, literaturou, zeměpisem a tradicemi tvé vlastní kultury. Otázka o tvém oblíbeném básníkovi nebude překladem otázky o někom jiném.",
+    "cultureBody": "Náš autor otázek s umělou inteligencí vytváří nové otázky přirozeně v každém z 50 jazyků. Propojuje všeobecný přehled s historií, literaturou, zeměpisem a tradicemi vaší vlastní kultury. Otázka na vašeho oblíbeného básníka tak nebude pouhým překladem otázky o někom úplně jiném.",
     "offlineTitle": "Hraj kdekoli, i offline",
-    "offlineBody": "Nainstaluj si aplikaci, stáhni balíčky otázek pro jazyky, které chceš, a hraj dál v letadle nebo v metru. Skóre se synchronizuje, jakmile budeš zase online.",
+    "offlineBody": "Nainstalujte si aplikaci a hrajte Klasický režim třeba v letadle nebo v metru: otázky ve vašem jazyce se do zařízení ukládají automaticky. Skóre se sesynchronizuje, jakmile budete zase online.",
     "badgesTitle": "Sbírej odznaky",
     "badgesSubtitle": "Dosáhni jistot, vyhraj milion, udrž sérii — odznaků k získání je celkem {count}.",
     "viewBadges": "Zobrazit všechny odznaky",
     "categoriesTitle": "Prozkoumej kategorie",
     "categoriesSubtitle": "Od historie a vědy po film, jídlo a tvou místní kulturu.",
     "faqTitle": "Časté otázky",
-    "faq1Question": "Je Millionaire Quiz zdarma?",
+    "faq1Question": "Je Milionářský kvíz zdarma?",
     "faq1Answer": "Ano. Všechny režimy, jazyky i nápovědy jsou zdarma a na Klasiku se nemusíš ani registrovat.",
     "faq2Question": "Odkud otázky pocházejí?",
-    "faq2Answer": "Vytváří je AI autor otázek přímo ve tvém jazyce a každá otázka se automaticky zkontroluje, než se dostane do hry. Když něco proklouzne, můžeš to nahlásit jedním klepnutím.",
+    "faq2Answer": "Otázky vytváří umělá inteligence přímo ve vašem jazyce a každá z nich je před zařazením do hry automaticky zkontrolována. Pokud přesto něco proklouzne, můžete to jedním klepnutím nahlásit.",
     "faq3Question": "Jak fungují jistoty?",
     "faq3Answer": "Správná odpověď na 5. otázku ti zaručí {havenOne} a na 10. otázku {havenTwo}. Pokud pak na některou další otázku odpovíš špatně, odcházíš s poslední jistotou, kterou máš za sebou.",
     "faq4Question": "Můžu hrát offline?",
-    "faq4Answer": "Ano. Nainstaluj si aplikaci a v nastavení si stáhni balíčky otázek pro kterýkoli z 50 jazyků. Offline hry se uloží a synchronizují, jakmile se znovu připojíš.",
+    "faq4Answer": "Ano – Klasický režim funguje offline. Otázky ve vašem jazyce se automaticky ukládají do zařízení a hry odehrané offline se sesynchronizují po opětovném připojení. Režimy Maraton a Proti času připojení vyžadují.",
     "faq5Question": "Jak se dostanu do žebříčku?",
     "faq5Answer": "Přihlas se přes Google a zahraj si hodnocenou hru v Maratonu nebo Závodu s časem. Každou odpověď kontroluje náš server, takže žebříček zůstává férový.",
     "faq6Question": "Je to oficiální hra k televiznímu pořadu?",
-    "faq6Answer": "Ne. Millionaire Quiz je nezávislá fanouškovská hra inspirovaná klasickým formátem kvízové show."
+    "faq6Answer": "Ne. Milionářský kvíz je nezávislá fanouškovská hra inspirovaná klasickým formátem televizní soutěže."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Jedna chyba a je konec",
       "description": "Nekonečná řada otázek, která po každých 5 správných odpovědích přitvrdí. Máš čtyři klasické nápovědy, každou jednou — a jediná špatná odpověď hru ukončí.",
-      "rules": "Na otázku máš {seconds} s. Úroveň stoupá po každých 5 správných odpovědích. Hru ukončí jedna špatná odpověď nebo vypršení času."
+      "rules": "{minutes, plural, one {# minuta} few {# minuty} other {# minut}} na otázku. Úroveň se zvyšuje každých 5 správných odpovědí. Jedna chybná odpověď nebo vypršení limitu hru ukončí."
     },
     "timeAttack": {
       "name": "Závod s časem",
@@ -130,18 +128,12 @@
       "description": "Odpověz na co nejvíc otázek, než vyprší čas. Špatná odpověď hru neukončí — ale stojí tě 5 sekund.",
       "rules": "Na hodinách {seconds} s. Každá špatná odpověď stojí {penalty} s. Žádné nápovědy — jen rychlost."
     },
-    "ranked": "Hodnocená",
-    "practice": "Trénink",
-    "rankedHint": "Hodnocené hry se počítají do světového žebříčku.",
-    "practiceHint": "Tréninkové hry používají tvoje vlastní nastavení a nehodnotí se.",
-    "signInForRanked": "Přihlas se přes Google, hraj hodnocené hry a dostaň se do žebříčku.",
-    "offlineUnranked": "Jsi offline, takže tahle hra bude jen trénink.",
-    "customSettingsUnranked": "Kvůli vlastnímu nastavení bude tahle hra jen trénink."
+    "rankedHint": "Každá hra se započítává do globálního žebříčku.",
+    "guestHint": "Hrajete jako host: vaše hra je posuzována stejně, ale v žebříčku se zobrazují pouze přihlášení hráči.",
+    "needsConnection": "Tento režim vyžaduje připojení: každá hra je rozhodována živě. Klasický režim funguje i offline."
   },
   "Game": {
     "startGame": "Začít hru",
-    "startRanked": "Začít hodnocenou hru",
-    "startPractice": "Začít trénink",
     "loading": "Rozsvěcují se světla ve studiu…",
     "loadingQuestion": "Píšeme tvou další otázku…",
     "playingFor": "Hraješ o",
@@ -163,6 +155,12 @@
     "timeUp": "Čas vypršel!",
     "theAnswerWas": "Správná odpověď byla {letter}: {text}",
     "didYouKnow": "Víš, že…?",
+    "switchPrompt": "Než otázku vyměníme — jaká by byla tvoje odpověď?",
+    "switchPromptHint": "Jen pro zábavu: stejně se to nepočítá.",
+    "switchSkip": "Přeskočit, jen vyměnit",
+    "switchWouldBeRight": "Měl/a bys to správně!",
+    "switchWouldBeWrong": "Ještě že jsi ji vyměnil/a!",
+    "switchComing": "A tady je tvoje nová otázka…",
     "walkAway": "Odejít",
     "walkAwayTitle": "Vezmeš si peníze?",
     "walkAwayBody": "Když teď odejdeš, odneseš si domů {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Úroveň {level} — otázky přitvrzují",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Náš autor otázek má zrovna pauzu, takže tato hra používá záložní otázky v angličtině.",
-    "packNotice": "Hraješ se staženým balíčkem otázek.",
+    "packNotice": "Jste offline – hrajete s otázkami uloženými v zařízení.",
     "keyboardHint": "Klávesnice: A–D výběr, Enter potvrzení, L žebříček, M zvuk.",
     "report": "Nahlásit chybu",
     "reportTitle": "Je s touto otázkou něco špatně?",
@@ -205,11 +203,12 @@
     "personalBest": "Nový osobní rekord!",
     "rank": "Pozice v žebříčku: #{rank}",
     "newBadges": "{count, plural, one {Nový odznak odemčen!} few {# nové odznaky odemčeny!} many {# nového odznaku odemčeno!} other {# nových odznaků odemčeno!}}",
-    "shareText": "V Millionaire Quiz mám výhru {amount}! Překonáš mě?",
-    "shareScoreText": "V Millionaire Quiz mám v režimu {mode} skóre {score}! Překonáš mě?",
+    "shareText": "Vyhrál/a jsem {amount} ve hře Milionářský kvíz! Překonáš mě?",
+    "shareScoreText": "Mám skóre {score} v režimu {mode} ve hře Milionářský kvíz! Překonáš mě?",
     "backHome": "Zpět na úvod",
     "viewLeaderboard": "Zobrazit žebříček",
-    "signInToSave": "Přihlas se a měj své skóre a odznaky na všech zařízeních."
+    "signInToSave": "Přihlas se a měj své skóre a odznaky na všech zařízeních.",
+    "signInToRank": "Přihlaste se, aby se podobné výsledky zapsaly do žebříčku."
   },
   "Lifelines": {
     "title": "Nápovědy",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Nastavení",
-    "subtitle": "Zvuk, offline balíčky a výchozí nastavení hry.",
+    "subtitle": "Zvuk, jazyk a nastavení Klasického režimu.",
     "gameTitle": "Nastavení hry",
+    "gameHint": "Platí pro Klasický režim. Maraton a Proti času jsou hodnocené režimy a vždy využívají standardní pravidla.",
+    "customised": "Hrajete s vlastním nastavením.",
+    "change": "Změnit",
     "categories": "Kategorie",
     "allCategories": "Všechny kategorie",
     "categoriesHint": "Vyber jednu nebo víc, nebo nech vše vypnuté pro všechny kategorie.",
@@ -256,16 +258,6 @@
     "soundTitle": "Zvuk",
     "sound": "Zvukové efekty a hudba",
     "volume": "Hlasitost",
-    "packsTitle": "Offline balíčky otázek",
-    "packsSubtitle": "Stáhni si otázky pro jazyky, ve kterých chceš hrát bez připojení. Každý balíček má asi 100 KB.",
-    "packCount": "{count, plural, one {# otázka} few {# otázky} many {# otázky} other {# otázek}}",
-    "packDownload": "Stáhnout",
-    "packDownloading": "Stahování…",
-    "packUpdate": "Aktualizovat",
-    "packRemove": "Odstranit",
-    "packDownloaded": "Staženo",
-    "packError": "Balíček se nepodařilo stáhnout. Zkontroluj připojení a zkus to znovu.",
-    "autoDownload": "Automaticky stáhnout balíček pro můj jazyk",
     "installTitle": "Nainstaluj si aplikaci",
     "installBody": "Hraj na celé obrazovce a offline, jedním klepnutím z plochy.",
     "accountTitle": "Účet"
@@ -375,26 +367,86 @@
     "earnedOn": "Získáno {date}",
     "unlocked": "Odznak odemčen",
     "items": {
-      "firstSteps": { "name": "První krůčky", "description": "Odpověz správně na svou první otázku." },
-      "safeHaven": { "name": "Jistota", "description": "Dosáhni první jistoty v Klasice (5. otázka)." },
-      "halfWay": { "name": "V polovině cesty", "description": "Dosáhni druhé jistoty v Klasice (10. otázka)." },
-      "millionaire": { "name": "Milionář", "description": "Odpověz na všech 15 otázek v Klasice a vyhraj milion." },
-      "purist": { "name": "Purista", "description": "Vyhraj milion bez jediné nápovědy." },
-      "smartExit": { "name": "Chytrý odchod", "description": "Odejdi s výhrou u 12. otázky nebo později." },
-      "quickThinker": { "name": "Bystrá hlava", "description": "Dej 10 správných odpovědí, každou za méně než 3 sekundy." },
-      "marathon10": { "name": "Maratonec", "description": "Odpověz správně na 10 otázek v řadě v hodnoceném Maratonu." },
-      "marathon25": { "name": "Dlouhá trať", "description": "Odpověz správně na 25 otázek v řadě v hodnoceném Maratonu." },
-      "marathon50": { "name": "Železná mysl", "description": "Odpověz správně na 50 otázek v řadě v hodnoceném Maratonu." },
-      "marathon100": { "name": "Legenda", "description": "Odpověz správně na 100 otázek v řadě v hodnoceném Maratonu." },
-      "timeAttack15": { "name": "Rychlík", "description": "Získej skóre 15 v hodnoceném Závodu s časem." },
-      "timeAttack30": { "name": "Blesk", "description": "Získej skóre 30 v hodnoceném Závodu s časem." },
-      "polyglot3": { "name": "Polyglot", "description": "Hraj ve 3 různých jazycích." },
-      "polyglot10": { "name": "Světoběžník", "description": "Hraj v 10 různých jazycích." },
-      "streak3": { "name": "V tahu", "description": "Hraj 3 dny v řadě." },
-      "streak7": { "name": "Věrnost", "description": "Hraj 7 dní v řadě." },
-      "offlineHero": { "name": "Mimo síť", "description": "Dohraj hru v režimu offline." },
-      "savedByAFriend": { "name": "Kamarád v nouzi", "description": "Řiď se radou kamaráda a odpověz správně." },
-      "categoryMaster": { "name": "Mistr kategorie", "description": "Odpověz správně na 25 otázek v jedné kategorii." }
+      "firstSteps": {
+        "name": "První krůčky",
+        "description": "Odpověz správně na svou první otázku."
+      },
+      "safeHaven": {
+        "name": "Jistota",
+        "description": "Dosáhni první jistoty v Klasice (5. otázka)."
+      },
+      "halfWay": {
+        "name": "V polovině cesty",
+        "description": "Dosáhni druhé jistoty v Klasice (10. otázka)."
+      },
+      "millionaire": {
+        "name": "Milionář",
+        "description": "Odpověz na všech 15 otázek v Klasice a vyhraj milion."
+      },
+      "purist": {
+        "name": "Purista",
+        "description": "Vyhraj milion bez jediné nápovědy."
+      },
+      "smartExit": {
+        "name": "Chytrý odchod",
+        "description": "Odejdi s výhrou u 12. otázky nebo později."
+      },
+      "quickThinker": {
+        "name": "Bystrá hlava",
+        "description": "Dej 10 správných odpovědí, každou za méně než 3 sekundy."
+      },
+      "marathon10": {
+        "name": "Maratonec",
+        "description": "Odpověz správně na 10 otázek v řadě v hodnoceném Maratonu."
+      },
+      "marathon25": {
+        "name": "Dlouhá trať",
+        "description": "Odpověz správně na 25 otázek v řadě v hodnoceném Maratonu."
+      },
+      "marathon50": {
+        "name": "Železná mysl",
+        "description": "Odpověz správně na 50 otázek v řadě v hodnoceném Maratonu."
+      },
+      "marathon100": {
+        "name": "Legenda",
+        "description": "Odpověz správně na 100 otázek v řadě v hodnoceném Maratonu."
+      },
+      "timeAttack15": {
+        "name": "Rychlík",
+        "description": "Získej skóre 15 v hodnoceném Závodu s časem."
+      },
+      "timeAttack30": {
+        "name": "Blesk",
+        "description": "Získej skóre 30 v hodnoceném Závodu s časem."
+      },
+      "polyglot3": {
+        "name": "Polyglot",
+        "description": "Hraj ve 3 různých jazycích."
+      },
+      "polyglot10": {
+        "name": "Světoběžník",
+        "description": "Hraj v 10 různých jazycích."
+      },
+      "streak3": {
+        "name": "V tahu",
+        "description": "Hraj 3 dny v řadě."
+      },
+      "streak7": {
+        "name": "Věrnost",
+        "description": "Hraj 7 dní v řadě."
+      },
+      "offlineHero": {
+        "name": "Mimo síť",
+        "description": "Dohraj hru v režimu offline."
+      },
+      "savedByAFriend": {
+        "name": "Kamarád v nouzi",
+        "description": "Řiď se radou kamaráda a odpověz správně."
+      },
+      "categoryMaster": {
+        "name": "Mistr kategorie",
+        "description": "Odpověz správně na 25 otázek v jedné kategorii."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Nápovědy",
     "lifelinesBody": "Máš čtyři nápovědy a každou můžeš ve hře použít jednou:",
     "marathonTitle": "Maraton",
-    "marathonBody": "Nekonečná hra. Otázky přitvrdí po každých pěti správných odpovědích, každou ze čtyř nápověd máš jednou a na otázku máš {seconds} s. Hru ukončí jedna špatná odpověď nebo vypršení času a tvoje skóre je počet správných odpovědí.",
+    "marathonBody": "Nekonečná hra. Otázky jsou po každých pěti správných odpovědích těžší, každou ze čtyř nápověd máte k dispozici jednou a na každou otázku dostanete {minutes, plural, one {# minutu} few {# minuty} other {# minut}}. Jedna chybná odpověď nebo vypršení limitu hru ukončí a vaše skóre odpovídá počtu správných odpovědí.",
     "timeAttackTitle": "Závod s časem",
     "timeAttackBody": "Během {seconds} s odpověz na co nejvíc otázek. Špatná odpověď hru neukončí, ale ubere ti z hodin {penalty} s. Nápovědy tu nejsou.",
     "rankedTitle": "Hodnocená hra a férovost",
-    "rankedBody": "Hodnocené hry v Maratonu a Závodu s časem řídí náš server: správná odpověď se k tvému zařízení nedostane dřív, než odpovíš, a čas se měří na serveru. Pro hodnocenou hru se přihlas přes Google. Hry s vlastním nastavením nebo hrané offline jsou tréninkové.",
+    "rankedBody": "Režimy Maraton a Proti času jsou vždy řízeny naším serverem: správná odpověď se do vašeho zařízení nedostane dříve, než odpovíte, a časomíra běží na serveru. Hrát může kdokoli; přihlaste se přes Google a zapište své skóre do žebříčku.",
     "questionsTitle": "O otázkách",
-    "questionsBody": "Otázky píše AI autor přímo v každém jazyce a automaticky se kontrolují. Zhruba 40 % se týká kultury, kde se mluví tvým jazykem. Pokud ti otázka připadá chybná, použij po odhalení odpovědi „Nahlásit chybu“."
+    "questionsBody": "Otázky píše umělá inteligence přímo v každém jazyce a jsou automaticky kontrolovány. Kolem 40 % se týká kultury dané jazykové oblasti. Pokud se vám otázka nezdá správná, použijte po odhalení odpovědi možnost „Nahlásit chybu“."
   },
   "About": {
-    "title": "O hře Millionaire Quiz",
-    "intro": "Millionaire Quiz je bezplatná fanouškovská kvízová hra inspirovaná klasickým televizním formátem — nově postavená pro web, pro telefony a pro 50 jazyků.",
+    "title": "O hře Milionářský kvíz",
+    "intro": "Milionářský kvíz je bezplatná fanouškovská vědomostní hra inspirovaná klasickým televizním formátem – nově vytvořená pro web, telefony a v 50 jazycích.",
     "missionTitle": "Proč jsme ji vytvořili",
     "missionBody": "Většina kvízových her se píše v angličtině a pak se překládá. Myslíme si, že kvíz by měl působit jako doma: otázky by se měly týkat lidí, míst, knih a tradic, které tě provázely od dětství, i širšího světa.",
     "howTitle": "Jak vznikají otázky",
     "howBody": "Každou otázku píše velký jazykový model přímo v tvém jazyce, po dávkách a podle přísných pravidel: jedna jednoznačně správná odpověď, čtyři věrohodné možnosti, jen ustálená fakta. Otázky se automaticky ověří, uloží a pak nabídnou hráčům; každý hráč může nahlásit chybu.",
     "techTitle": "Pod kapotou",
-    "techBody": "Millionaire Quiz je progresivní webová aplikace: nainstaluješ ji do telefonu nebo počítače, funguje offline se stahovatelnými balíčky otázek a po opětovném připojení synchronizuje tvůj postup.",
+    "techBody": "Milionářský kvíz je progresivní webová aplikace: nainstaluje se do telefonu nebo počítače, funguje offline díky automaticky ukládaným otázkám a po opětovném připojení synchronizuje váš postup.",
     "creditTitle": "Autoři",
     "creditBody": "Návrh a vývoj: {author}.",
-    "disclaimer": "Millionaire Quiz není spojen s žádným televizním pořadem, vysílatelem ani držitelem práv a není jimi ani podporován."
+    "disclaimer": "Milionářský kvíz není nijak spojen s žádným televizním pořadem, vysílatelem ani držitelem práv, ani jimi není podporován."
   },
   "Legal": {
     "privacyTitle": "Zásady ochrany soukromí",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Tvoje práva",
     "privacyRightsBody": "Zobrazované jméno a fotku můžeš kdykoli změnit a o smazání účtu a všech souvisejících údajů můžeš požádat tak, že kontaktuješ autora.",
     "termsTitle": "Podmínky použití",
-    "termsIntro": "Hraním Millionaire Quiz souhlasíš s těmito jednoduchými podmínkami.",
+    "termsIntro": "Hraním hry Milionářský kvíz souhlasíte s těmito jednoduchými podmínkami.",
     "termsPlayTitle": "Fair play",
     "termsPlayBody": "Hraj hodnocené hry poctivě. Automatizované hraní, zneužívání chyb nebo zasahování do žebříčku může vést k odstranění tvých her.",
     "termsContentTitle": "Otázky a přesnost",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Nainstalovat aplikaci",
-    "installTitle": "Nainstaluj si Millionaire Quiz",
+    "installTitle": "Nainstalovat Milionářský kvíz",
     "benefit": "Hraj na celé obrazovce a offline, jedním klepnutím z plochy.",
     "iosTitle": "Instalace na iPhone nebo iPad",
     "iosStep1": "Klepni na tlačítko Sdílet v liště Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Klepni na „Přidat“ — aplikace se objeví na ploše.",
     "gotIt": "Rozumím"
   },
+  "Contact": {
+    "title": "Napište nám",
+    "subtitle": "Našli jste chybu, máte nápad nebo potřebujete poradit? Napište nám – čteme každou zprávu.",
+    "name": "Vaše jméno",
+    "nameRequired": "Zadejte prosím své jméno.",
+    "email": "E-mail",
+    "emailRequired": "Zadejte prosím svůj e-mail, abychom vám mohli odpovědět.",
+    "emailInvalid": "Tato e-mailová adresa nevypadá správně.",
+    "message": "Zpráva",
+    "messageRequired": "Napište prosím zprávu.",
+    "messagePlaceholder": "S čím vám můžeme pomoci?",
+    "send": "Odeslat zprávu",
+    "error": "Zprávu se nepodařilo odeslat. Zkuste to prosím za chvilku znovu.",
+    "sentTitle": "Zpráva odeslána!",
+    "sentBody": "Díky za zprávu! Odpovíme vám na zadanou e-mailovou adresu.",
+    "sendAnother": "Odeslat další zprávu"
+  },
   "Auth": {
     "signedIn": "Vítej, {name}!",
     "signedOut": "Odhlášení proběhlo úspěšně.",
+    "signInTitle": "Přihlášení",
+    "signInSubtitle": "Jedno klepnutí přes Google a váš postup vás bude provázet na každém zařízení.",
+    "benefitRanked": "Zapište své skóre z Maratonu a Proti času do celosvětového žebříčku",
+    "benefitLeaderboard": "Vyberte si jméno a fotku, kterou uvidí ostatní hráči",
+    "benefitSync": "Mějte své rekordy z Klasického režimu, historii her a odznaky všude s sebou",
+    "privacyNote": "Z účtu Google používáme pouze vaše jméno, e-mailovou adresu a profilový obrázek.",
+    "unavailable": "Přihlášení momentálně není k dispozici. Stále můžete hrát Klasický režim – váš postup se ukládá na tomto zařízení.",
+    "alreadySignedIn": "Jste přihlášeni jako {name}.",
     "errors": {
       "google_unavailable": "Přihlášení přes Google teď není dostupné.",
       "google_denied": "Přihlášení bylo zrušeno.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, kvízová hra, kvíz, chcete být milionářem hra, kvíz zdarma, online kvíz, všeobecné znalosti",
-    "homeTitle": "Millionaire Quiz — Chcete být milionářem? Hraj zdarma online",
+    "homeTitle": "Milionářský kvíz — Chcete být milionářem? Hrajte zdarma online",
     "homeDescription": "Hraj kvízovou show zdarma v 50 jazycích. 15 otázek k milionu, čtyři nápovědy, jistoty a k tomu nekonečný Maraton a Závod s časem se světovým žebříčkem.",
     "playTitle": "Klasický milionářský kvíz — 15 otázek k milionu",
     "playDescription": "Vyšplhej po peněžním žebříčku od {first} až k {top}: patnáct otázek, dvě jistoty, čtyři nápovědy. Zdarma, bez registrace, ve tvém jazyce.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Odznaky — posbírej je všechny",
     "badgesDescription": "Dvacet odznaků k získání v Klasice, Maratonu i Závodu s časem: vyhraj milion, udrž sérii, hraj v mnoha jazycích.",
     "rulesTitle": "Jak hrát — pravidla, peněžní žebříček a nápovědy",
-    "rulesDescription": "Kompletní pravidla Millionaire Quiz: peněžní žebříček, jistoty, odchod ze hry, čtyři nápovědy, Maraton a Závod s časem.",
-    "aboutTitle": "O hře Millionaire Quiz",
-    "aboutDescription": "Bezplatná fanouškovská kvízová hra s otázkami psanými AI v 50 jazycích, inspirovaná klasickým televizním kvízovým formátem.",
+    "rulesDescription": "Kompletní pravidla hry Milionářský kvíz: peněžní žebřík, záchytné body, ukončení hry, čtyři nápovědy, Maraton a Proti času.",
+    "aboutTitle": "O hře Milionářský kvíz",
+    "aboutDescription": "Bezplatná fanouškovská vědomostní hra s otázkami od umělé inteligence v 50 jazycích, inspirovaná klasickým televizním kvízem.",
     "privacyTitle": "Zásady ochrany soukromí",
-    "privacyDescription": "Co Millionaire Quiz ukládá, proč a jak to smazat.",
+    "privacyDescription": "Co Milionářský kvíz ukládá, proč a jak můžete tato data smazat.",
     "termsTitle": "Podmínky použití",
-    "termsDescription": "Jednoduchá pravidla pro férovou hru v Millionaire Quiz.",
+    "termsDescription": "Jednoduchá pravidla pro férové hraní hry Milionářský kvíz.",
     "profileTitle": "Tvůj profil",
     "profileDescription": "Tvoje skóre, umístění a odznaky.",
     "settingsTitle": "Nastavení",
-    "settingsDescription": "Zvuk, offline balíčky otázek a výchozí nastavení hry."
+    "contactTitle": "Napište nám",
+    "contactDescription": "Máte otázky, nápady nebo jste našli chybu v otázce? Napište týmu hry Milionářský kvíz.",
+    "signInTitle": "Přihlášení",
+    "signInDescription": "Přihlaste se přes Google, zapište své výsledky do žebříčku a mějte svůj postup na všech zařízeních.",
+    "settingsDescription": "Zvuk, jazyk a nastavení Klasického režimu."
   }
 }

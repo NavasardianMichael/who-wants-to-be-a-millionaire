@@ -7,10 +7,9 @@ import { phoneAFriendAPI } from '@api/lifelines/main'
 import { answerRunAPI, getRunAPI, runLifelineAPI, startRunAPI } from '@api/runs/main'
 import { appendSelectors } from '@store/appendSelectors'
 import { useAuthStoreBase } from '@store/auth/store'
-import { usePacksStoreBase } from '@store/offline/packs/store'
-import { useSettingsStoreBase } from '@store/settings/store'
 import type { Question, RunAnswerResult, RunView } from '@interfaces/entities'
-import { type BadgeId, type Category, type Level, type Lifeline, LIFELINES, STAGES_COUNT, TIME_ATTACK_RULES } from '@constants/game'
+import { isLocale } from '@i18n/config'
+import { type BadgeId, type Category, type Level, type Lifeline, LIFELINES, STAGES_COUNT } from '@constants/game'
 import { trackEvent } from '@helpers/analytics'
 import { audioManager } from '@helpers/audio/audioManager'
 import { musicForLevel } from '@helpers/audio/sounds'
@@ -19,17 +18,17 @@ import { audienceVotes, fiftyFifty, friendPick } from '@helpers/game/lifelines'
 import { mergeLocalBadges, readLocalBadges, recordGame } from '@helpers/game/progress'
 import { QuestionQueue } from '@helpers/game/questionQueue'
 import { readBest, writeBest } from '@helpers/game/records'
-import { classicLevel, classicSeconds, marathonSeconds, practiceLevel } from '@helpers/game/settings'
+import { classicLevel, classicSeconds, DEFAULT_SETTINGS } from '@helpers/game/settings'
 import { enqueueClassicResult, flushOutbox } from '@helpers/offline/outbox'
-import { getPack } from '@helpers/offline/packs'
+import { ensurePack } from '@helpers/offline/packs'
 import { reportError } from '@helpers/reportError'
 import { uuid } from '@helpers/storage'
 import { ActiveQuestion, GameEnd, GameOutcome, GameSessionActions, GameSessionState } from './types'
 
 /**
- * The game director. One store runs all three modes, either **locally** (Classic and
- * practice runs: the device holds the answers) or **ranked** (Marathon / Time Attack
- * refereed by `/runs`: the device never sees an answer before the server reveals it).
+ * The game director. One store runs all three modes: Classic **locally** (the device holds
+ * the answers, so it plays offline too), Marathon and Time Attack always **ranked** —
+ * refereed by `/runs`, the device never sees an answer before the server reveals it.
  *
  * Actions are async sequences — sting, suspense, reveal, ladder climb — and every step
  * checks `alive(gen)`, so quitting mid-sequence can never let a stale timer mutate a newer
@@ -51,6 +50,7 @@ const initialState: GameSessionState = {
   lifelinesUsed: [],
   busyLifeline: null,
   overlay: null,
+  switchPreview: null,
   questionDeadline: null,
   runEndsAt: null,
   penaltyCount: 0,
@@ -74,6 +74,14 @@ const LIFELINE_EXTRA_MS: Partial<Record<Lifeline, number>> = { phoneAFriend: 20_
 
 const QUICK_ANSWER_MS = 3000
 
+/**
+ * Switch the Question's interlude. Ranked: the server has already started the new question's
+ * clock (with a 15 s allowance), so an unanswered preview gives way after 10 s. The linger
+ * keeps the would-be result on screen a moment before the board changes.
+ */
+const SWITCH_PICK_MS = 10_000
+const SWITCH_LINGER_MS = 1200
+
 const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms))
 
 // Per-game working memory that is not UI state.
@@ -82,6 +90,15 @@ let queue: QuestionQueue | null = null
 let shownAt = 0
 let tally = { quickAnswers: 0, categoryCorrect: {} as Partial<Record<Category, number>>, savedByFriend: false }
 let friendSuggestion: number | null = null
+/** The discarded question's answer, and what replaces the board when the Switch interlude ends. */
+let pendingSwitch: { correctIndex: number; explanation: string | null; replace: () => void } | null = null
+let switchTimer: ReturnType<typeof setTimeout> | null = null
+
+const clearSwitch = () => {
+  if (switchTimer) clearTimeout(switchTimer)
+  switchTimer = null
+  pendingSwitch = null
+}
 
 const alive = (gen: number) => gen === generation
 
@@ -124,6 +141,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           state.revealedCorrectIndex = null
           state.lastAnswerCorrect = null
           state.overlay = null
+          state.switchPreview = null
           state.questionDeadline = deadline
           state.isPending = false
         })
@@ -150,11 +168,17 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         }
       }
 
+      /** A fresh Classic clock for the question about to be shown; null = no limit. */
+      const localDeadline = () => {
+        const { stage, settings } = get()
+        const seconds = settings ? classicSeconds(stage, settings.timer) : null
+        return seconds ? Date.now() + seconds * 1000 : null
+      }
+
       const nextLocalQuestion = async (gen: number) => {
-        const { mode, stage, correctCount, settings } = get()
+        const { stage, settings } = get()
         if (!queue || !settings) return
-        const level =
-          mode === 'classic' ? classicLevel(stage, settings.difficulty) : practiceLevel(mode, correctCount, settings.difficulty)
+        const level = classicLevel(stage, settings.difficulty)
 
         if (!queue.size(level)) {
           set((state) => {
@@ -171,17 +195,11 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           return
         }
 
-        if (mode !== 'classic') {
-          queue.prefetch(level)
-          queue.prefetch(practiceLevel(mode, correctCount + 3, settings.difficulty))
-        }
         set((state) => {
           state.source = queue?.source ?? state.source
         })
 
-        const seconds =
-          mode === 'classic' ? classicSeconds(stage, settings.timer) : mode === 'marathon' ? marathonSeconds(settings.timer) : null
-        present(toActive(question), seconds ? Date.now() + seconds * 1000 : null)
+        present(toActive(question), localDeadline())
       }
 
       const finish = async (gen: number, outcome: GameOutcome, extra: { serverBadges?: BadgeId[] } = {}) => {
@@ -215,7 +233,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           ...mergeLocalBadges(extra.serverBadges ?? []),
         ]
 
-        const bestKey = state.mode === 'classic' ? 'classic' : `${state.mode}:${state.ranked ? 'ranked' : 'practice'}`
+        const bestKey = state.mode === 'classic' ? 'classic' : `${state.mode}:ranked`
         const value = state.mode === 'classic' ? winnings : answered
         const isPersonalBest = value > 0 && value > readBest(bestKey)
         if (isPersonalBest) writeBest(bestKey, value)
@@ -245,10 +263,8 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           })
         }
         // After the first game in a language, keep a pack of it for offline play (Settings can turn this off).
-        if (useSettingsStoreBase.getState().autoDownloadPack && !offline) {
-          void getPack(state.locale).then((pack) => {
-            if (!pack) void usePacksStoreBase.getState().download(state.locale)
-          })
+        if (!offline && isLocale(state.locale)) {
+          ensurePack(state.locale).catch((error: unknown) => reportError(error, 'packs:ensure', { silent: true }))
         }
         if (useAuthStoreBase.getState().user) {
           void flushOutbox()
@@ -256,7 +272,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             reportError(error, 'badges:sync', { silent: true })
           )
         }
-        if (state.ranked) {
+        if (state.ranked && useAuthStoreBase.getState().user) {
           try {
             const { viewer } = await getLeaderboardAPI({ mode: state.mode as 'marathon' | 'timeAttack' })
             if (alive(gen) && viewer) {
@@ -289,52 +305,32 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         if (alive(gen)) applyRun(result.run)
       }
 
+      /** Classic only: the other modes are refereed by the server. */
       const continueAfterLocal = async (gen: number, correct: boolean) => {
-        const { mode } = get()
-
-        if (mode === 'classic') {
-          if (!correct) return finish(gen, 'lost')
-          if (get().correctCount >= STAGES_COUNT) return finish(gen, 'won')
-          set((state) => {
-            state.phase = 'transition'
-            state.stage += 1
-          })
-          void audioManager.playSting('next', { maxWaitMs: pace().transitionMs })
-          await sleep(pace().transitionMs)
-          if (alive(gen)) await nextLocalQuestion(gen)
-          return
-        }
-
-        if (mode === 'marathon' && !correct) return finish(gen, 'ended')
-
-        if (mode === 'timeAttack' && !correct) {
-          set((state) => {
-            state.penaltyCount += 1
-            if (state.runEndsAt) state.runEndsAt -= TIME_ATTACK_RULES.wrongPenaltySeconds * 1000
-          })
-        }
-
-        // The Time Attack clock keeps running through the reveal; never present a question after it.
-        const endsAt = get().runEndsAt
-        if (mode === 'timeAttack' && endsAt && endsAt <= Date.now()) return finish(gen, 'ended')
-
+        if (!correct) return finish(gen, 'lost')
+        if (get().correctCount >= STAGES_COUNT) return finish(gen, 'won')
         set((state) => {
           state.phase = 'transition'
           state.stage += 1
         })
+        void audioManager.playSting('next', { maxWaitMs: pace().transitionMs })
         await sleep(pace().transitionMs)
         if (alive(gen)) await nextLocalQuestion(gen)
       }
 
       return {
-        startGame: async ({ mode, locale, settings, ranked }) => {
+        startGame: async ({ mode, locale, settings: chosen }) => {
+          // Marathon and Time Attack are always ranked, with the standard rules; settings are Classic's.
+          const ranked = mode !== 'classic'
+          const settings = ranked ? DEFAULT_SETTINGS : chosen
           const gen = ++generation
           audioManager.stopAll()
           tally = { quickAnswers: 0, categoryCorrect: {}, savedByFriend: false }
           friendSuggestion = null
+          clearSwitch()
           queue = null
 
-          const lifelinesAllowed = mode === 'timeAttack' ? [] : ranked ? [...LIFELINES] : settings.lifelines
+          const lifelinesAllowed = mode === 'timeAttack' ? [] : mode === 'marathon' ? [...LIFELINES] : settings.lifelines
           set(() => ({
             ...initialState,
             mode,
@@ -358,18 +354,13 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             }
 
             queue = new QuestionQueue({ locale, categories: settings.categories })
-            if (mode === 'classic') {
-              await queue.fill(classicCounts(settings.difficulty, settings.lifelines.includes('switchQuestion')))
-            } else {
-              await queue.fill({ [practiceLevel(mode, 0, settings.difficulty)]: 10 })
-            }
+            await queue.fill(classicCounts(settings.difficulty, settings.lifelines.includes('switchQuestion')))
             await startSting
             if (!alive(gen)) return
 
             set((state) => {
               state.source = queue?.source ?? 'online'
               state.offline = state.offline || queue?.source !== 'online'
-              if (mode === 'timeAttack') state.runEndsAt = Date.now() + TIME_ATTACK_RULES.durationSeconds * 1000
             })
             await nextLocalQuestion(gen)
           } catch (error) {
@@ -386,6 +377,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         selectOption: (index) => {
           const { phase, question, mode } = get()
           if (!question || question.removed.includes(index)) return
+          if (phase === 'switching') return void useGameSessionStoreBase.getState().previewSwitchAnswer(index)
           if (phase !== 'asking' && phase !== 'selected') return
 
           set((state) => {
@@ -543,12 +535,32 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
               const [result] = await Promise.all([rankedCall, audioManager.playSting('fiftyFifty', { maxWaitMs: 1200 })])
               if (!alive(gen)) return
               if (result) {
-                applyRun(result.run)
-              } else if (queue) {
-                const replacement = await queue.take(question.level)
+                const { run, switched } = result
+                if (!switched) return applyRun(run)
+                pendingSwitch = { ...switched, replace: () => applyRun(run) }
+              } else {
+                const replacement = queue ? await queue.take(question.level) : null
                 if (!alive(gen)) return
-                if (replacement) present(toActive(replacement), get().questionDeadline)
+                if (!replacement || question.correctIndex === null) {
+                  // Nothing to switch to (offline, empty bank): the lifeline is not spent.
+                  set((state) => {
+                    state.lifelinesUsed = state.lifelinesUsed.filter((each) => each !== 'switchQuestion')
+                  })
+                  return
+                }
+                pendingSwitch = {
+                  correctIndex: question.correctIndex,
+                  explanation: question.explanation,
+                  replace: () => present(toActive(replacement), localDeadline()),
+                }
               }
+              set((state) => {
+                state.phase = 'switching'
+                state.switchPreview = { status: 'choosing' }
+                state.selectedIndex = null
+                state.overlay = null
+              })
+              if (ranked) switchTimer = setTimeout(() => void useGameSessionStoreBase.getState().previewSwitchAnswer(null), SWITCH_PICK_MS)
             }
           } catch (error) {
             if (!alive(gen)) return
@@ -559,6 +571,34 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           } finally {
             if (alive(gen)) finishLifeline()
           }
+        },
+
+        previewSwitchAnswer: async (index) => {
+          const gen = generation
+          const { phase, switchPreview, question } = get()
+          const pending = pendingSwitch
+          if (phase !== 'switching' || switchPreview?.status !== 'choosing' || !pending) return
+          if (index !== null && question?.removed.includes(index)) return
+          if (switchTimer) clearTimeout(switchTimer)
+          switchTimer = null
+
+          if (index !== null) {
+            const correct = index === pending.correctIndex
+            set((state) => {
+              state.selectedIndex = index
+              state.revealedCorrectIndex = pending.correctIndex
+              state.switchPreview = { status: 'revealed', correct, correctIndex: pending.correctIndex }
+              if (state.question) state.question.explanation = pending.explanation
+            })
+            trackEvent('switch_preview', { correct, mode: get().mode })
+            audioManager.stopMusic()
+            const sting = audioManager.playSting(correct ? 'correct' : 'wrong', { maxWaitMs: pace().revealMs })
+            await Promise.all([sting, sleep(pace().revealMs + SWITCH_LINGER_MS)])
+            if (!alive(gen)) return
+          }
+
+          pendingSwitch = null
+          pending.replace()
         },
 
         closeOverlay: () => {
@@ -609,8 +649,6 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             return
           }
 
-          if (mode === 'timeAttack') return finish(gen, 'ended')
-
           set((state) => {
             state.phase = 'revealed'
             state.revealedCorrectIndex = question?.correctIndex ?? null
@@ -621,6 +659,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
 
         quitGame: () => {
           generation += 1
+          clearSwitch()
           queue = null
           audioManager.stopAll()
           set(() => ({ ...initialState }))

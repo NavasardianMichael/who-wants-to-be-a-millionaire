@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { Steps } from 'antd'
 import { PlusSquare, Share } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { STORAGE_KEYS } from '@constants/app'
@@ -63,17 +64,18 @@ export const InstallHint = () => {
         </Button>
       }
     >
-      <ol className='flex flex-col gap-3'>
-        {steps.map(({ icon, text }, index) => (
-          <li key={text} className='flex items-center gap-3 rounded-xl border border-spot-300/15 bg-studio-950/50 p-3'>
-            <span className='flex size-9 shrink-0 items-center justify-center rounded-full bg-gold-400/15 font-display font-bold text-gold-200'>
-              {index + 1}
+      <Steps
+        orientation='vertical'
+        current={-1}
+        items={steps.map(({ icon, text }) => ({
+          title: <span className='text-body-sm text-ivory'>{text}</span>,
+          icon: (
+            <span className='flex size-8 items-center justify-center rounded-control bg-gold-400/15 text-gold-200'>
+              {icon}
             </span>
-            <span className='text-spot-300'>{icon}</span>
-            <span className='text-body-sm'>{text}</span>
-          </li>
-        ))}
-      </ol>
+          ),
+        }))}
+      />
     </Dialog>
   )
 }

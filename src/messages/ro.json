@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Testul Milionarului",
+    "wordmarkTop": "Millionaire",
+    "wordmarkBottom": "Quiz",
     "tagline": "Jocul de tip quiz show în limba ta",
     "play": "Joacă",
     "playNow": "Joacă acum",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Continuă cu Google",
     "signedInAs": "Cont conectat: {name}",
     "you": "Tu",
+    "unsavedTitle": "Părăsești această pagină?",
+    "unsavedBody": "Ce ai introdus aici nu a fost salvat și se va pierde.",
+    "stay": "Rămâi",
+    "leave": "Părăsește",
     "share": "Distribuie",
     "copied": "Link copiat",
     "comingBack": "Pe curând!",
@@ -57,22 +63,14 @@
     "about": "Despre",
     "privacy": "Confidențialitate",
     "terms": "Termeni",
+    "contact": "Contactează-ne",
     "profile": "Profil",
     "settings": "Setări"
   },
   "Home": {
-    "eyebrow": "50 de limbi · întrebări scrise de AI · gratuit",
+    "eyebrow": "50 de limbi · întrebări scrise de inteligența artificială · gratuit",
     "heroTitle": "Vrei să fii milionar?",
-    "heroSubtitle": "Doar cincisprezece întrebări te despart de milion. Urcă pe scara câștigurilor, folosește-ți ajutoarele cu cap — și decide tu când te oprești.",
-    "heroCta": "Joacă Clasic",
-    "heroSecondaryCta": "Încearcă Maraton",
-    "statsQuestions": "Întrebări noi la fiecare joc",
-    "statsLanguages": "Limbi",
-    "statsLifelines": "Ajutoare",
     "modesTitle": "Trei moduri de joc",
-    "modesSubtitle": "Urcușul clasic, un test nesfârșit pentru nervi sau o cursă contra cronometru.",
-    "ladderTitle": "Scara câștigurilor",
-    "ladderSubtitle": "Fiecare răspuns corect te urcă o treaptă. Sumele garantate de la întrebarea 5 și întrebarea 10 îți asigură câștigul chiar dacă greșești mai târziu.",
     "lifelinesTitle": "Patru ajutoare, câte o singură dată",
     "lifelinesSubtitle": "Când te blochezi, un ajutor îți poate salva jocul. Folosește-le cu cap — cele mai grele întrebări vin la final.",
     "howTitle": "Cum se joacă",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Vezi tot clasamentul",
     "emptyLeaderboard": "Încă nu există runde competitive — deschide tu clasamentul!",
     "cultureTitle": "Întrebări care vorbesc limba ta",
-    "cultureBody": "Autorul nostru de întrebări bazat pe AI creează întrebări noi direct în fiecare dintre cele 50 de limbi, combinând cultura generală cu istoria, literatura, geografia și tradițiile propriei tale culturi. O întrebare despre poetul tău preferat nu va fi traducerea unei întrebări despre altcineva.",
+    "cultureBody": "Sistemul nostru de inteligență artificială creează întrebări noi direct în fiecare dintre cele 50 de limbi, îmbinând cunoștințele generale cu istoria, literatura, geografia și tradițiile culturii tale. O întrebare despre poetul tău preferat nu va fi traducerea uneia despre poetul altcuiva.",
     "offlineTitle": "Joacă oriunde, chiar și offline",
-    "offlineBody": "Instalează aplicația, descarcă pachetele de întrebări pentru limbile dorite și joacă în continuare în avion sau la metrou. Scorurile se sincronizează când revii online.",
+    "offlineBody": "Instalează aplicația și joacă în continuare mod Clasic în avion sau la metrou: întrebările în limba ta sunt salvate automat pe dispozitiv. Scorul tău se va sincroniza când revii online.",
     "badgesTitle": "Colecționează insigne",
     "badgesSubtitle": "Atinge sumele garantate, câștigă milionul, păstrează-ți seria — insigne disponibile: {count}.",
     "viewBadges": "Vezi toate insignele",
     "categoriesTitle": "Explorează categoriile",
     "categoriesSubtitle": "De la istorie și știință la film, mâncare și cultura ta locală.",
     "faqTitle": "Întrebări frecvente",
-    "faq1Question": "Millionaire Quiz este gratuit?",
+    "faq1Question": "Este Testul Milionarului gratuit?",
     "faq1Answer": "Da. Toate modurile, toate limbile și toate ajutoarele sunt gratuite, iar pentru modul Clasic nici nu ai nevoie de cont.",
     "faq2Question": "De unde vin întrebările?",
-    "faq2Answer": "Un autor de întrebări bazat pe AI le creează direct în limba ta, iar fiecare întrebare este verificată automat înainte să ajungă în joc. Dacă totuși scapă ceva, o poți raporta cu o singură atingere.",
+    "faq2Answer": "Un sistem de inteligență artificială creează întrebările direct în limba ta, iar fiecare întrebare este verificată automat înainte de a ajunge în joc. Dacă scapă ceva, poți semnala problema dintr-o singură atingere.",
     "faq3Question": "Cum funcționează sumele garantate?",
     "faq3Answer": "Un răspuns corect la întrebarea 5 îți garantează {havenOne}, iar la întrebarea 10 îți garantează {havenTwo}. Dacă greșești o întrebare ulterioară, pleci totuși cu ultima sumă garantată atinsă.",
     "faq4Question": "Pot juca offline?",
-    "faq4Answer": "Da. Instalează aplicația și descarcă din setări pachete de întrebări pentru oricare dintre cele 50 de limbi. Jocurile offline sunt salvate și sincronizate când te reconectezi.",
+    "faq4Answer": "Da — modul Clasic funcționează offline. Întrebările în limba ta sunt salvate automat pe dispozitiv, iar jocurile offline se sincronizează când te reconectezi. Modurile Maraton și Contracronometru necesită conexiune la internet.",
     "faq5Question": "Cum ajung în clasament?",
     "faq5Answer": "Conectează-te cu Google și joacă o rundă competitivă de Maraton sau Contra cronometru. Fiecare răspuns este verificat de serverul nostru, așa că clasamentul rămâne corect.",
     "faq6Question": "Este acesta jocul oficial al emisiunii TV?",
-    "faq6Answer": "Nu. Millionaire Quiz este un joc independent, făcut de fani, inspirat de formatul clasic al emisiunilor-concurs."
+    "faq6Answer": "Nu. Testul Milionarului este un joc independent, creat de fani, inspirat de formatul clasic de concurs."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "O greșeală și s-a terminat",
       "description": "O serie nesfârșită de întrebări care devin mai grele la fiecare 5 răspunsuri corecte. Ai cele patru ajutoare clasice, câte o dată — iar un singur răspuns greșit încheie runda.",
-      "rules": "Timp pe întrebare: {seconds} s. Nivelul crește la fiecare 5 răspunsuri corecte. Un răspuns greșit sau expirarea timpului încheie runda."
+      "rules": "{minutes, plural, one {# minut} few {# minute} other {# minute}} per întrebare. Nivelul crește la fiecare 5 răspunsuri corecte. Un răspuns greșit sau o expirare a timpului încheie runda."
     },
     "timeAttack": {
       "name": "Contra cronometru",
@@ -130,18 +128,12 @@
       "description": "Răspunde la cât mai multe întrebări până expiră timpul. Un răspuns greșit nu încheie runda — dar te costă 5 secunde.",
       "rules": "Pe ceas: {seconds} s. Fiecare răspuns greșit te costă {penalty} s. Fără ajutoare — doar viteză."
     },
-    "ranked": "Competitiv",
-    "practice": "Antrenament",
-    "rankedHint": "Rundele competitive contează în clasamentul global.",
-    "practiceHint": "Rundele de antrenament folosesc setările tale și nu intră în clasament.",
-    "signInForRanked": "Conectează-te cu Google ca să joci competitiv și să intri în clasament.",
-    "offlineUnranked": "Ești offline, așa că această rundă va fi de antrenament.",
-    "customSettingsUnranked": "Setările personalizate fac din această rundă una de antrenament."
+    "rankedHint": "Fiecare rundă contează în clasamentul global.",
+    "guestHint": "Joci ca oaspete: runda ta este arbitrată la fel, dar doar jucătorii conectați apar în clasament.",
+    "needsConnection": "Acest mod necesită conexiune: fiecare rundă este arbitrată live. Modul Clasic poate fi jucat offline."
   },
   "Game": {
     "startGame": "Începe jocul",
-    "startRanked": "Începe runda competitivă",
-    "startPractice": "Începe antrenamentul",
     "loading": "Se aprind luminile în studio…",
     "loadingQuestion": "Îți scriem următoarea întrebare…",
     "playingFor": "Joci pentru",
@@ -163,6 +155,12 @@
     "timeUp": "Timpul a expirat!",
     "theAnswerWas": "Răspunsul corect era {letter}: {text}",
     "didYouKnow": "Știai că…?",
+    "switchPrompt": "Înainte să schimbăm — ce ai fi răspuns?",
+    "switchPromptHint": "Doar de distracție: nu va conta oricum.",
+    "switchSkip": "Sari, doar schimbă",
+    "switchWouldBeRight": "Ai fi ghicit!",
+    "switchWouldBeWrong": "Ce bine că ai schimbat!",
+    "switchComing": "Iată noua ta întrebare…",
     "walkAway": "Mă retrag",
     "walkAwayTitle": "Iei banii?",
     "walkAwayBody": "Dacă te retragi acum, pleci acasă cu {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Nivelul {level} — întrebările devin mai grele",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Autorul nostru de întrebări ia o pauză, așa că acest joc folosește întrebări de rezervă în engleză.",
-    "packNotice": "Joci cu pachetul de întrebări descărcat.",
+    "packNotice": "Ești offline — joci cu întrebările salvate pe dispozitivul tău.",
     "keyboardHint": "Tastatură: A–D pentru a alege, Enter pentru a confirma, L pentru scară, M pentru sunet.",
     "report": "Raportează o greșeală",
     "reportTitle": "E ceva în neregulă cu această întrebare?",
@@ -205,11 +203,12 @@
     "personalBest": "Nou record personal!",
     "rank": "Locul #{rank} în clasament",
     "newBadges": "{count, plural, one {Insignă nouă deblocată!} few {# insigne noi deblocate!} other {# de insigne noi deblocate!}}",
-    "shareText": "Am câștigat {amount} la Millionaire Quiz! Poți să mă întreci?",
-    "shareScoreText": "Am obținut scorul {score} la {mode} în Millionaire Quiz! Poți să mă întreci?",
+    "shareText": "Am câștigat {amount} la Testul Milionarului! Mă poți întrece?",
+    "shareScoreText": "Am obținut {score} la modul {mode} în Testul Milionarului! Mă poți întrece?",
     "backHome": "Înapoi acasă",
     "viewLeaderboard": "Vezi clasamentul",
-    "signInToSave": "Conectează-te ca să-ți păstrezi scorurile și insignele pe orice dispozitiv."
+    "signInToSave": "Conectează-te ca să-ți păstrezi scorurile și insignele pe orice dispozitiv.",
+    "signInToRank": "Conectează-te pentru a include astfel de runde în clasament."
   },
   "Lifelines": {
     "title": "Ajutoare",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Setări",
-    "subtitle": "Sunet, pachete offline și setările implicite de joc.",
+    "subtitle": "Sunet, limbă și setările pentru jocul tău Clasic.",
     "gameTitle": "Setări de joc",
+    "gameHint": "Acestea se aplică jocurilor Clasic. Modurile Maraton și Contracronometru sunt ierarhizate și folosesc întotdeauna regulile standard.",
+    "customised": "Joci cu setările tale personalizate.",
+    "change": "Schimbă",
     "categories": "Categorii",
     "allCategories": "Toate categoriile",
     "categoriesHint": "Alege una sau mai multe, sau lasă-le pe toate nebifate pentru toate categoriile.",
@@ -256,16 +258,6 @@
     "soundTitle": "Sunet",
     "sound": "Efecte sonore și muzică",
     "volume": "Volum",
-    "packsTitle": "Pachete de întrebări offline",
-    "packsSubtitle": "Descarcă întrebări pentru limbile în care vrei să joci fără conexiune. Fiecare pachet are aproximativ 100 KB.",
-    "packCount": "{count, plural, one {# întrebare} few {# întrebări} other {# de întrebări}}",
-    "packDownload": "Descarcă",
-    "packDownloading": "Se descarcă…",
-    "packUpdate": "Actualizează",
-    "packRemove": "Elimină",
-    "packDownloaded": "Descărcat",
-    "packError": "Pachetul nu a putut fi descărcat. Verifică-ți conexiunea și încearcă din nou.",
-    "autoDownload": "Descarcă automat pachetul pentru limba mea",
     "installTitle": "Instalează aplicația",
     "installBody": "Joacă pe tot ecranul, offline, cu o singură atingere de pe ecranul de pornire.",
     "accountTitle": "Cont"
@@ -375,26 +367,86 @@
     "earnedOn": "Obținută pe {date}",
     "unlocked": "Insignă deblocată",
     "items": {
-      "firstSteps": { "name": "Primii pași", "description": "Răspunde corect la prima ta întrebare." },
-      "safeHaven": { "name": "Plasă de siguranță", "description": "Atinge prima sumă garantată în modul Clasic (întrebarea 5)." },
-      "halfWay": { "name": "La jumătatea drumului", "description": "Atinge a doua sumă garantată în modul Clasic (întrebarea 10)." },
-      "millionaire": { "name": "Milionar", "description": "Răspunde la toate cele 15 întrebări din Clasic și câștigă milionul." },
-      "purist": { "name": "Purist", "description": "Câștigă milionul fără să folosești niciun ajutor." },
-      "smartExit": { "name": "Retragere inteligentă", "description": "Retrage-te cu câștigul la întrebarea 12 sau mai târziu." },
-      "quickThinker": { "name": "Gândire rapidă", "description": "Dă 10 răspunsuri corecte, fiecare în mai puțin de 3 secunde." },
-      "marathon10": { "name": "Maratonist", "description": "Răspunde corect la 10 întrebări la rând într-un Maraton competitiv." },
-      "marathon25": { "name": "Distanță lungă", "description": "Răspunde corect la 25 de întrebări la rând într-un Maraton competitiv." },
-      "marathon50": { "name": "Minte de fier", "description": "Răspunde corect la 50 de întrebări la rând într-un Maraton competitiv." },
-      "marathon100": { "name": "Legendă", "description": "Răspunde corect la 100 de întrebări la rând într-un Maraton competitiv." },
-      "timeAttack15": { "name": "Viteză pură", "description": "Fă 15 puncte într-o rundă competitivă Contra cronometru." },
-      "timeAttack30": { "name": "Fulger", "description": "Fă 30 de puncte într-o rundă competitivă Contra cronometru." },
-      "polyglot3": { "name": "Poliglot", "description": "Joacă în 3 limbi diferite." },
-      "polyglot10": { "name": "Cetățean al lumii", "description": "Joacă în 10 limbi diferite." },
-      "streak3": { "name": "Pe val", "description": "Joacă 3 zile la rând." },
-      "streak7": { "name": "Devotament", "description": "Joacă 7 zile la rând." },
-      "offlineHero": { "name": "Fără rețea", "description": "Termină un joc în timp ce ești offline." },
-      "savedByAFriend": { "name": "Prietenul la nevoie", "description": "Urmează sfatul prietenului și răspunde corect." },
-      "categoryMaster": { "name": "Maestrul categoriei", "description": "Răspunde corect la 25 de întrebări dintr-o singură categorie." }
+      "firstSteps": {
+        "name": "Primii pași",
+        "description": "Răspunde corect la prima ta întrebare."
+      },
+      "safeHaven": {
+        "name": "Plasă de siguranță",
+        "description": "Atinge prima sumă garantată în modul Clasic (întrebarea 5)."
+      },
+      "halfWay": {
+        "name": "La jumătatea drumului",
+        "description": "Atinge a doua sumă garantată în modul Clasic (întrebarea 10)."
+      },
+      "millionaire": {
+        "name": "Milionar",
+        "description": "Răspunde la toate cele 15 întrebări din Clasic și câștigă milionul."
+      },
+      "purist": {
+        "name": "Purist",
+        "description": "Câștigă milionul fără să folosești niciun ajutor."
+      },
+      "smartExit": {
+        "name": "Retragere inteligentă",
+        "description": "Retrage-te cu câștigul la întrebarea 12 sau mai târziu."
+      },
+      "quickThinker": {
+        "name": "Gândire rapidă",
+        "description": "Dă 10 răspunsuri corecte, fiecare în mai puțin de 3 secunde."
+      },
+      "marathon10": {
+        "name": "Maratonist",
+        "description": "Răspunde corect la 10 întrebări la rând într-un Maraton competitiv."
+      },
+      "marathon25": {
+        "name": "Distanță lungă",
+        "description": "Răspunde corect la 25 de întrebări la rând într-un Maraton competitiv."
+      },
+      "marathon50": {
+        "name": "Minte de fier",
+        "description": "Răspunde corect la 50 de întrebări la rând într-un Maraton competitiv."
+      },
+      "marathon100": {
+        "name": "Legendă",
+        "description": "Răspunde corect la 100 de întrebări la rând într-un Maraton competitiv."
+      },
+      "timeAttack15": {
+        "name": "Viteză pură",
+        "description": "Fă 15 puncte într-o rundă competitivă Contra cronometru."
+      },
+      "timeAttack30": {
+        "name": "Fulger",
+        "description": "Fă 30 de puncte într-o rundă competitivă Contra cronometru."
+      },
+      "polyglot3": {
+        "name": "Poliglot",
+        "description": "Joacă în 3 limbi diferite."
+      },
+      "polyglot10": {
+        "name": "Cetățean al lumii",
+        "description": "Joacă în 10 limbi diferite."
+      },
+      "streak3": {
+        "name": "Pe val",
+        "description": "Joacă 3 zile la rând."
+      },
+      "streak7": {
+        "name": "Devotament",
+        "description": "Joacă 7 zile la rând."
+      },
+      "offlineHero": {
+        "name": "Fără rețea",
+        "description": "Termină un joc în timp ce ești offline."
+      },
+      "savedByAFriend": {
+        "name": "Prietenul la nevoie",
+        "description": "Urmează sfatul prietenului și răspunde corect."
+      },
+      "categoryMaster": {
+        "name": "Maestrul categoriei",
+        "description": "Răspunde corect la 25 de întrebări dintr-o singură categorie."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Ajutoarele",
     "lifelinesBody": "Ai patru ajutoare și fiecare poate fi folosit o singură dată pe joc:",
     "marathonTitle": "Maraton",
-    "marathonBody": "O rundă fără sfârșit. Întrebările devin mai grele la fiecare cinci răspunsuri corecte, ai cele patru ajutoare câte o dată și {seconds} s pentru fiecare întrebare. Un răspuns greșit sau expirarea timpului încheie runda, iar scorul tău este numărul de răspunsuri corecte.",
+    "marathonBody": "O rundă nesfârșită. Întrebările devin mai dificile la fiecare cinci răspunsuri corecte, ai la dispoziție cele patru opțiuni de ajutor o singură dată și primești {minutes, plural, one {# minut} few {# minute} other {# minute}} pentru fiecare întrebare. Un răspuns greșit sau o expirare a timpului încheie runda, iar scorul tău reprezintă numărul de răspunsuri corecte.",
     "timeAttackTitle": "Contra cronometru",
     "timeAttackBody": "Ai {seconds} s ca să răspunzi la cât mai multe întrebări. Un răspuns greșit nu încheie runda, dar îți scade {penalty} s de pe ceas. Nu există ajutoare.",
     "rankedTitle": "Jocul competitiv și corectitudinea",
-    "rankedBody": "Rundele competitive de Maraton și Contra cronometru sunt arbitrate de serverul nostru: răspunsul corect nu ajunge pe dispozitivul tău înainte să răspunzi, iar timpul este măsurat pe server. Conectează-te cu Google ca să joci competitiv. Rundele cu setări personalizate sau jucate offline sunt runde de antrenament.",
+    "rankedBody": "Rundele din Maraton și Contracronometru sunt arbitrate întotdeauna de serverul nostru: răspunsul corect nu ajunge niciodată pe dispozitivul tău înainte să răspunzi, iar cronometrul este ținut pe server. Oricine le poate juca; conectează-te cu Google pentru a-ți trece scorul în clasament.",
     "questionsTitle": "Despre întrebări",
-    "questionsBody": "Întrebările sunt scrise de un autor bazat pe AI direct în fiecare limbă și verificate automat. Aproximativ 40% sunt despre cultura locurilor unde se vorbește limba ta. Dacă o întrebare pare greșită, folosește „Raportează o greșeală” după ce se dezvăluie răspunsul."
+    "questionsBody": "Întrebările sunt scrise de un sistem de inteligență artificială nativ în fiecare limbă și sunt verificate automat. Aproximativ 40% sunt despre cultura în care se vorbește limba ta. Dacă o întrebare pare greșită, folosește „Raportează o greșeală” după ce se afișează răspunsul."
   },
   "About": {
-    "title": "Despre Millionaire Quiz",
-    "intro": "Millionaire Quiz este un joc de quiz gratuit, făcut de fani, inspirat de formatul TV clasic — reconstruit pentru web, pentru telefoane și pentru 50 de limbi.",
+    "title": "Despre Testul Milionarului",
+    "intro": "Testul Milionarului este un joc de cultură generală gratuit, creat de fani, inspirat de formatul clasic de televiziune — reinventat pentru web, telefoane și 50 de limbi.",
     "missionTitle": "De ce l-am creat",
     "missionBody": "Majoritatea jocurilor de quiz sunt scrise în engleză și apoi traduse. Credem că un quiz ar trebui să te facă să te simți acasă: întrebările ar trebui să fie despre oamenii, locurile, cărțile și tradițiile cu care ai crescut, dar și despre lumea largă.",
     "howTitle": "Cum se fac întrebările",
     "howBody": "Un model lingvistic mare scrie fiecare întrebare direct în limba ta, în loturi, după reguli stricte: un singur răspuns clar corect, patru variante plauzibile, doar fapte stabile. Întrebările sunt validate automat, stocate și servite jucătorilor; orice jucător poate raporta o greșeală.",
     "techTitle": "Sub capotă",
-    "techBody": "Millionaire Quiz este o aplicație web progresivă: se instalează pe telefon sau pe calculator, funcționează offline cu pachete de întrebări descărcabile și îți sincronizează progresul când te reconectezi.",
+    "techBody": "Testul Milionarului este o aplicație web progresivă: se instalează pe telefon sau computer, funcționează offline cu întrebări salvate automat și îți sincronizează progresul când te reconectezi.",
     "creditTitle": "Credite",
     "creditBody": "Concepție și dezvoltare: {author}.",
-    "disclaimer": "Millionaire Quiz nu este afiliat, susținut sau asociat cu vreun program de televiziune, radiodifuzor sau deținător de drepturi."
+    "disclaimer": "Testul Milionarului nu este afiliat, susținut sau conectat în vreun fel la vreun program de televiziune, post de televiziune sau deținător de drepturi."
   },
   "Legal": {
     "privacyTitle": "Politica de confidențialitate",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Drepturile tale",
     "privacyRightsBody": "Îți poți schimba oricând numele afișat și poza și ne poți cere să-ți ștergem contul și toate datele asociate contactând autorul.",
     "termsTitle": "Termeni de utilizare",
-    "termsIntro": "Jucând Millionaire Quiz, ești de acord cu acești termeni simpli.",
+    "termsIntro": "Jucând Testul Milionarului ești de acord cu aceste termene simple.",
     "termsPlayTitle": "Fair-play",
     "termsPlayBody": "Joacă cinstit rundele competitive. Jocul automatizat, exploatarea erorilor sau manipularea clasamentului pot duce la eliminarea rundelor tale.",
     "termsContentTitle": "Întrebări și acuratețe",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Instalează aplicația",
-    "installTitle": "Instalează Millionaire Quiz",
+    "installTitle": "Instalează Testul Milionarului",
     "benefit": "Joacă pe tot ecranul și offline, cu o singură atingere de pe ecranul de pornire.",
     "iosTitle": "Instalează pe iPhone sau iPad",
     "iosStep1": "Atinge butonul Partajează din bara de instrumente Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Atinge „Adaugă” — aplicația apare pe ecranul principal.",
     "gotIt": "Am înțeles"
   },
+  "Contact": {
+    "title": "Contactează-ne",
+    "subtitle": "Ai găsit o greșeală, ai o idee sau ai nevoie de ajutor? Scrie-ne — citim fiecare mesaj.",
+    "name": "Numele tău",
+    "nameRequired": "Te rugăm să introduci numele tău.",
+    "email": "E-mail",
+    "emailRequired": "Te rugăm să introduci adresa de e-mail pentru a-ți putea răspunde.",
+    "emailInvalid": "Adresa de e-mail nu pare validă.",
+    "message": "Mesaj",
+    "messageRequired": "Te rugăm să scrii un mesaj.",
+    "messagePlaceholder": "Cu ce te putem ajuta?",
+    "send": "Trimite mesajul",
+    "error": "Mesajul tău nu a putut fi trimis. Te rugăm să încerci din nou în câteva momente.",
+    "sentTitle": "Mesaj trimis!",
+    "sentBody": "Mulțumim pentru mesaj. Îți vom răspunde la adresa de e-mail furnizată.",
+    "sendAnother": "Trimite alt mesaj"
+  },
   "Auth": {
     "signedIn": "Bun venit, {name}!",
     "signedOut": "Te-ai deconectat.",
+    "signInTitle": "Conectare",
+    "signInSubtitle": "O atingere cu Google și progresul tău te urmează pe orice dispozitiv.",
+    "benefitRanked": "Pune scorurile tale de la Maraton și Contracronometru în clasamentul global",
+    "benefitLeaderboard": "Alege numele și poza pe care le văd ceilalți jucători",
+    "benefitSync": "Păstrează-ți cel mai bun scor Clasic, istoricul jocurilor și insigne peste tot",
+    "privacyNote": "Folosim doar numele, adresa de e-mail și poza ta de la Google.",
+    "unavailable": "Conectarea nu este disponibilă momentan. Poți juca în continuare modul Clasic — progresul tău este salvat pe acest dispozitiv.",
+    "alreadySignedIn": "Ești conectat ca {name}.",
     "errors": {
       "google_unavailable": "Conectarea cu Google nu este disponibilă acum.",
       "google_denied": "Conectarea a fost anulată.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, joc quiz, trivia, vrei să fii milionar joc, quiz gratuit, quiz online, cultură generală",
-    "homeTitle": "Millionaire Quiz — Vrei să fii milionar? Joacă gratis online",
+    "homeTitle": "Testul Milionarului — Cine vrea să fie milionar? Joacă gratuit online",
     "homeDescription": "Joacă gratis jocul de tip quiz show în 50 de limbi. 15 întrebări până la milion, patru ajutoare, sume garantate, plus modurile fără sfârșit Maraton și Contra cronometru, cu clasament global.",
     "playTitle": "Quiz Milionar clasic — 15 întrebări până la milion",
     "playDescription": "Urcă pe scara câștigurilor de la {first} la {top}: cincisprezece întrebări, două sume garantate, patru ajutoare. Gratuit, fără cont, în limba ta.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Insigne — colecționează-le pe toate",
     "badgesDescription": "Douăzeci de insigne de câștigat în Clasic, Maraton și Contra cronometru: câștigă milionul, păstrează-ți seria, joacă în mai multe limbi.",
     "rulesTitle": "Cum se joacă — reguli, scara câștigurilor și ajutoare",
-    "rulesDescription": "Regulile complete Millionaire Quiz: scara câștigurilor, sumele garantate, retragerea, cele patru ajutoare, Maraton și Contra cronometru.",
-    "aboutTitle": "Despre Millionaire Quiz",
-    "aboutDescription": "Un joc de quiz gratuit, făcut de fani, cu întrebări scrise de AI în 50 de limbi, inspirat de formatul clasic al emisiunilor-concurs TV.",
+    "rulesDescription": "Regulile complete ale jocului Testul Milionarului: grila de câștiguri, pragurile sigure, retragerea, cele patru ajutoare, Marathon și Time Attack.",
+    "aboutTitle": "Despre Testul Milionarului",
+    "aboutDescription": "Un joc de quiz gratuit, creat de fani, cu întrebări generate de inteligență artificială în 50 de limbi, inspirat din formatul clasic de televiziune.",
     "privacyTitle": "Politica de confidențialitate",
-    "privacyDescription": "Ce stochează Millionaire Quiz, de ce și cum poți șterge datele.",
+    "privacyDescription": "Ce stochează Testul Milionarului, de ce și cum poți șterge datele.",
     "termsTitle": "Termeni de utilizare",
-    "termsDescription": "Regulile simple pentru a juca Millionaire Quiz corect.",
+    "termsDescription": "Regulile simple pentru a juca corect Testul Milionarului.",
     "profileTitle": "Profilul tău",
     "profileDescription": "Scorurile, locurile din clasament și insignele tale.",
     "settingsTitle": "Setări",
-    "settingsDescription": "Sunet, pachete de întrebări offline și setări implicite de joc."
+    "contactTitle": "Contactează-ne",
+    "contactDescription": "Întrebări, idei sau o greșeală într-o întrebare? Trimite un mesaj echipei Testul Milionarului.",
+    "signInTitle": "Conectare",
+    "signInDescription": "Conectează-te cu Google pentru a-ți trece scorurile în clasament și a-ți păstra progresul pe orice dispozitiv.",
+    "settingsDescription": "Sunet, limbă și setări pentru jocul Clasic."
   }
 }

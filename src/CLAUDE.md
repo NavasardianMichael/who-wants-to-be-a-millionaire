@@ -27,12 +27,30 @@
   `useXStore.use.field()`. Stores never import components.
 - The game director is `src/store/game/session/store.ts`: every async step checks
   `alive(gen)` so quitting mid-sequence cannot mutate a newer game.
+- Anything lost by leaving the page (a game in progress, a form with unsaved input) calls
+  `useLeaveGuard(reason)`; `LeaveGuard` in the shell asks on links, back and tab close.
 
-## Design system
-- Colours, type scale, radii, shadows, animations: `src/styles/globals.css` §1 only.
-- Use the kit: `Button`/`ButtonLink`, `IconButton`, `Lozenge`, `Dialog` (center/sheet/drawer),
-  `SegmentedControl`, `Chip`, `Toggle`, `Card`, `Section`, `PageHeader`, `ErrorAlert`, `Toaster`.
+## Design system (Ant Design 6 + Tailwind 4)
+- One chain, bookie's: `styles/tokens.ts` (hex owner) → `styles/theme.ts` (antd ThemeConfig,
+  dark algorithm, `cssVar` scoped to `CSS_VAR_SCOPE` on `<html>`) → `:root { --ant-* }` →
+  globals.css §2 aliases (the only place naming `--ant-*`) → `@theme inline` utilities. The
+  colour ramps are mirrored in globals.css §1; `tests/unit/styles/tokens.spec.ts` keeps them equal.
+- Cascade layers: `<AntdRegistry layer>` puts antd in `@layer antd`, ordered
+  `theme, base, antd, components, utilities` — a Tailwind class on an antd component wins
+  without `!important`, and preflight never resets an antd control.
+- Corners are deliberately tight (`RADII` 4/6/10 px; Tailwind's `rounded-*` scale is reduced
+  to match). `rounded-full` only for things that are round: avatars, lifeline ovals, dots.
+- Buttons are the show's hexagon (`btn-hex` + `btn-gold|violet|outline|danger`, globals.css §8):
+  rim, gloss, shape-following glow, a light sweep on hover; antd's click wave is off.
+- Use the kit, all antd underneath: `Button` (gold/violet/outline/ghost/danger) / `ButtonLink`
+  (server-safe, same classes), `IconButton` (label = tooltip), `Dialog` (Modal; bottom sheet
+  below `md`; end drawer), `SegmentedControl` (Segmented), `Chip` (CheckableTag), `Toggle`
+  (Switch), `Spinner` (Spin), `ErrorAlert` (Alert), `Avatar`, `Toaster` (bridges the `toast()`
+  store to antd `message`). Pages use antd directly where it fits: `Table`, `Select`, `Input`,
+  `Pagination`, `Empty`, `Collapse`, `Slider`, `Statistic`, `Skeleton`, `Steps`, `Upload` + `antd-img-crop`.
+- Kept custom because they are the show: `Lozenge`, `AnswerOption`, `PrizeLadder`,
+  `LifelineBar`, `TimerRing`, the studio backdrop.
 - Motion: `motion/react` for orchestrated pieces, CSS keyframes for ambient ones; everything
-  respects `prefers-reduced-motion` (global rule in §8, `useReducedMotion` in components).
+  respects `prefers-reduced-motion` (global rule in §10, `useReducedMotion` in components).
 - Accessibility: every icon-only control has a label; state is never colour-only; live regions
   announce results, lifeline outcomes and the 10 s / 5 s timer thresholds.

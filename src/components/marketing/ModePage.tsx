@@ -29,6 +29,7 @@ export const ModePage = async ({ mode }: { mode: GameMode }) => {
     havenOne: formatMoney(LADDER[4], locale),
     havenTwo: formatMoney(LADDER[9], locale),
     seconds: mode === 'marathon' ? MARATHON_RULES.questionSeconds : TIME_ATTACK_RULES.durationSeconds,
+    minutes: MARATHON_RULES.questionSeconds / 60,
     penalty: TIME_ATTACK_RULES.wrongPenaltySeconds,
   }
 

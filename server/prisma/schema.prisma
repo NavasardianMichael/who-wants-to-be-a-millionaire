@@ -113,8 +113,11 @@ model QuestionReport {
 /// without its answer; every check happens against this row.
 model Run {
   id                String    @id @default(uuid())
-  userId            String
-  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// The signed-in player; null for a guest run (refereed the same, never on the leaderboard).
+  userId            String?
+  user              User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// A guest's browser (the `millionaire_guest` cookie); null when the run has a user.
+  guestId           String?
   mode              GameMode
   locale            String
   status            RunStatus @default(active)
@@ -139,6 +142,7 @@ model Run {
 
   @@index([mode, status, score(sort: Desc)])
   @@index([userId, mode])
+  @@index([guestId, mode])
 }
 
 /// A Classic game, synced from the client (personal best and history only — never ranked).

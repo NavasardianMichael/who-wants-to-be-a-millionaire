@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "百万富翁问答",
+    "wordmarkTop": "百万富翁",
+    "wordmarkBottom": "问答",
     "tagline": "用你的语言玩的电视问答游戏",
     "play": "开始玩",
     "playNow": "立即开玩",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "使用 Google 继续",
     "signedInAs": "已登录：{name}",
     "you": "你",
+    "unsavedTitle": "要离开此页面吗？",
+    "unsavedBody": "你在这里输入的内容尚未保存，将会丢失。",
+    "stay": "留在此页",
+    "leave": "离开",
     "share": "分享",
     "copied": "链接已复制",
     "comingBack": "回头见！",
@@ -57,22 +63,14 @@
     "about": "关于",
     "privacy": "隐私",
     "terms": "条款",
+    "contact": "联系我们",
     "profile": "个人资料",
     "settings": "设置"
   },
   "Home": {
-    "eyebrow": "50 种语言 · AI 出题 · 免费",
+    "eyebrow": "50种语言 · 人工智能编写的问题 · 免费",
     "heroTitle": "谁想成为百万富翁？",
-    "heroSubtitle": "15 道题，就是你与百万大奖之间的距离。一路攀登奖金阶梯，巧用求助机会——并决定何时见好就收。",
-    "heroCta": "玩经典模式",
-    "heroSecondaryCta": "试试马拉松",
-    "statsQuestions": "每局都有新题",
-    "statsLanguages": "语言",
-    "statsLifelines": "求助",
     "modesTitle": "三种玩法",
-    "modesSubtitle": "经典闯关、无尽的胆识考验，或是与时间赛跑。",
-    "ladderTitle": "奖金阶梯",
-    "ladderSubtitle": "每答对一题就向上迈一级。第 5 题和第 10 题是保底关，即使后面答错，也能保住已到手的奖金。",
     "lifelinesTitle": "四种求助，各用一次",
     "lifelinesSubtitle": "卡住的时候，一次求助就能挽救整局游戏。好好把握——最难的题都在最后。",
     "howTitle": "玩法说明",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "查看完整排行榜",
     "emptyLeaderboard": "还没有排位成绩——快来抢第一！",
     "cultureTitle": "说你的语言的题目",
-    "cultureBody": "我们的 AI 出题官直接用 50 种语言分别原创新题，把世界知识与你所在文化的历史、文学、地理和传统融为一体。关于你最爱诗人的题目，绝不是把别人那道题翻译一遍。",
+    "cultureBody": "我们的人工智能出题器用50种语言原生创作全新题目，将世界知识与你所在文化的历史、文学、地理和传统完美融合。关于你最喜爱诗人的题目绝不是从别人的题目翻译过来的。",
     "offlineTitle": "随时随地玩，离线也行",
-    "offlineBody": "安装应用，下载你想要的语言题库包，在飞机上或地铁里也能接着玩。重新联网后，你的成绩会自动同步。",
+    "offlineBody": "安装应用，在飞机上或地铁里也能继续玩经典模式：你所用语言的题目会自动保存在你的设备上。当你重新连线时，分数会自动同步。",
     "badgesTitle": "收集徽章",
     "badgesSubtitle": "闯过保底关、赢得百万大奖、保持连续游戏——共有 {count} 枚徽章等你解锁。",
     "viewBadges": "查看全部徽章",
     "categoriesTitle": "探索题目分类",
     "categoriesSubtitle": "从历史、科学到影视、美食，还有你身边的本土文化。",
     "faqTitle": "常见问题",
-    "faq1Question": "Millionaire Quiz 免费吗？",
+    "faq1Question": "百万富翁问答是免费的吗？",
     "faq1Answer": "免费。所有模式、所有语言和所有求助都可以免费使用，玩经典模式也无需注册。",
     "faq2Question": "题目从哪里来？",
-    "faq2Answer": "由 AI 出题官直接用你的语言原创，每道题在进入游戏前都会经过自动检查。如果有漏网之鱼，你一键就能举报。",
+    "faq2Answer": "人工智能出题器用你的语言原生创作题目，并且每一道题在进入游戏前都会经过自动检查。如果有漏网之鱼，你只需轻按一下即可举报。",
     "faq3Question": "保底关是怎么回事？",
     "faq3Answer": "答对第 5 题可保底 {havenOne}，答对第 10 题可保底 {havenTwo}。之后即使答错，你也能带走最近一次保底的奖金。",
     "faq4Question": "可以离线玩吗？",
-    "faq4Answer": "可以。安装应用后，在设置中下载 50 种语言中任意语言的题库包。离线游戏会被保存，并在重新联网后同步。",
+    "faq4Answer": "是的 — 经典模式支持离线游玩。你所用语言的题目会自动保存在设备上，离线游戏会在你重新连接时同步。马拉松和限时赛则需要联网。",
     "faq5Question": "怎样才能上排行榜？",
     "faq5Answer": "用 Google 登录，然后玩一局马拉松或限时挑战排位赛。每个答案都由我们的服务器核验，确保排行榜公平公正。",
     "faq6Question": "这是电视节目的官方游戏吗？",
-    "faq6Answer": "不是。Millionaire Quiz 是一款由粉丝独立制作的游戏，灵感来自经典电视问答节目的形式。"
+    "faq6Answer": "不是。百万富翁问答是一款独立的、由粉丝制作的游戏，灵感来源于经典的问答节目形式。"
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "马拉松",
       "tagline": "错一题就结束",
       "description": "题目无穷无尽，每答对 5 题难度就会提升。你拥有四种经典求助，各用一次——只要答错一题，挑战即告结束。",
-      "rules": "每题 {seconds} 秒。每答对 5 题升一级。答错或超时，挑战结束。"
+      "rules": "每道题 {minutes, plural, =0 {0 分钟} one {# 分钟} other {# 分钟}}。每答对 5 道题难度升级。答错一题或超时即游戏结束。"
     },
     "timeAttack": {
       "name": "限时挑战",
@@ -130,18 +128,12 @@
       "description": "在时间耗尽前答对尽可能多的题。答错不会结束挑战——但会扣掉 5 秒。",
       "rules": "计时 {seconds} 秒。每答错一题扣 {penalty} 秒。没有求助，只拼速度。"
     },
-    "ranked": "排位赛",
-    "practice": "练习赛",
-    "rankedHint": "排位赛成绩计入全球排行榜。",
-    "practiceHint": "练习赛使用你自己的设置，不计入排名。",
-    "signInForRanked": "用 Google 登录即可参加排位赛，登上排行榜。",
-    "offlineUnranked": "你目前离线，本局将作为练习赛。",
-    "customSettingsUnranked": "使用了自定义设置，本局将作为练习赛。"
+    "rankedHint": "每一次挑战都会计入全球排行榜。",
+    "guestHint": "以游客身份游玩：挑战的裁判规则相同，但只有登录玩家才会显示在排行榜上。",
+    "needsConnection": "此模式需要联网：每一场挑战都由服务器实时裁判。经典模式支持离线游玩。"
   },
   "Game": {
     "startGame": "开始游戏",
-    "startRanked": "开始排位赛",
-    "startPractice": "开始练习",
     "loading": "演播厅的灯光正在亮起…",
     "loadingQuestion": "正在为你出下一道题…",
     "playingFor": "本题奖金",
@@ -163,6 +155,12 @@
     "timeUp": "时间到！",
     "theAnswerWas": "正确答案是 {letter}：{text}",
     "didYouKnow": "你知道吗？",
+    "switchPrompt": "在我们切换之前 — 你刚才会选什么？",
+    "switchPromptHint": "纯属娱乐：无论选什么都不计入成绩。",
+    "switchSkip": "跳过，直接切换",
+    "switchWouldBeRight": "你本来选对了呢！",
+    "switchWouldBeWrong": "幸亏你换了！",
+    "switchComing": "新题目来咯……",
     "walkAway": "带奖金离场",
     "walkAwayTitle": "拿钱走人？",
     "walkAwayBody": "如果现在离场，你可以带走 {amount}。",
@@ -180,7 +178,7 @@
     "levelUp": "第 {level} 级——题目更难了",
     "penalty": "−{seconds}秒",
     "fallbackNotice": "我们的出题官正在休息，本局将使用英文备用题目。",
-    "packNotice": "正在使用你已下载的题库包。",
+    "packNotice": "你当前处于离线状态 — 正在使用保存在设备上的题目进行游戏。",
     "keyboardHint": "键盘：A–D 选择，Enter 确认，L 打开奖金阶梯，M 开关声音。",
     "report": "报告错误",
     "reportTitle": "这道题有问题？",
@@ -205,11 +203,12 @@
     "personalBest": "刷新个人最佳！",
     "rank": "排行榜第 {rank} 名",
     "newBadges": "{count, plural, other {解锁了#枚新徽章！}}",
-    "shareText": "我在 Millionaire Quiz 赢得了 {amount}！你能超过我吗？",
-    "shareScoreText": "我在 Millionaire Quiz 的{mode}中拿到了 {score} 分！你能超过我吗？",
+    "shareText": "我在百万富翁问答中赢得了 {amount}！你能超过我吗？",
+    "shareScoreText": "我在百万富翁问答的{mode}中获得了 {score} 分！你能超过我吗？",
     "backHome": "返回首页",
     "viewLeaderboard": "查看排行榜",
-    "signInToSave": "登录后，你的成绩和徽章可在所有设备上保留。"
+    "signInToSave": "登录后，你的成绩和徽章可在所有设备上保留。",
+    "signInToRank": "登录即可将这样的成绩列入排行榜。"
   },
   "Lifelines": {
     "title": "求助",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "设置",
-    "subtitle": "声音、离线题库包和默认游戏设置。",
+    "subtitle": "声音、语言和你的经典游戏设置。",
     "gameTitle": "游戏设置",
+    "gameHint": "这些设置适用于经典模式。马拉松和限时赛属于排位赛，始终使用标准规则。",
+    "customised": "正在使用你的自定义设置进行游戏。",
+    "change": "更改",
     "categories": "题目分类",
     "allCategories": "全部分类",
     "categoriesHint": "选择一个或多个分类；全部不选则包含所有分类。",
@@ -256,16 +258,6 @@
     "soundTitle": "声音",
     "sound": "音效和音乐",
     "volume": "音量",
-    "packsTitle": "离线题库包",
-    "packsSubtitle": "下载你想在无网络时玩的语言题目。每个题库包约 100 KB。",
-    "packCount": "{count, plural, other {#道题}}",
-    "packDownload": "下载",
-    "packDownloading": "下载中…",
-    "packUpdate": "更新",
-    "packRemove": "删除",
-    "packDownloaded": "已下载",
-    "packError": "题库包下载失败。请检查网络后重试。",
-    "autoDownload": "自动下载我所用语言的题库包",
     "installTitle": "安装应用",
     "installBody": "从主屏幕一键打开，全屏畅玩，离线也能玩。",
     "accountTitle": "账户"
@@ -375,26 +367,86 @@
     "earnedOn": "获得于 {date}",
     "unlocked": "徽章已解锁",
     "items": {
-      "firstSteps": { "name": "初出茅庐", "description": "答对你的第一道题。" },
-      "safeHaven": { "name": "稳稳保底", "description": "在经典模式中到达第一个保底关（第 5 题）。" },
-      "halfWay": { "name": "渐入佳境", "description": "在经典模式中到达第二个保底关（第 10 题）。" },
-      "millionaire": { "name": "百万富翁", "description": "答对经典模式全部 15 道题，赢得百万大奖。" },
-      "purist": { "name": "纯粹主义者", "description": "不使用任何求助赢得百万大奖。" },
-      "smartExit": { "name": "急流勇退", "description": "在第 12 题或之后带着奖金离场。" },
-      "quickThinker": { "name": "反应神速", "description": "累计 10 次在 3 秒内答对题目。" },
-      "marathon10": { "name": "马拉松选手", "description": "在马拉松排位赛中连续答对 10 题。" },
-      "marathon25": { "name": "长跑健将", "description": "在马拉松排位赛中连续答对 25 题。" },
-      "marathon50": { "name": "钢铁意志", "description": "在马拉松排位赛中连续答对 50 题。" },
-      "marathon100": { "name": "传奇", "description": "在马拉松排位赛中连续答对 100 题。" },
-      "timeAttack15": { "name": "速度达人", "description": "在限时挑战排位赛中拿到 15 分。" },
-      "timeAttack30": { "name": "闪电侠", "description": "在限时挑战排位赛中拿到 30 分。" },
-      "polyglot3": { "name": "多语达人", "description": "用 3 种不同的语言玩游戏。" },
-      "polyglot10": { "name": "环球旅行家", "description": "用 10 种不同的语言玩游戏。" },
-      "streak3": { "name": "渐入状态", "description": "连续 3 天玩游戏。" },
-      "streak7": { "name": "忠实玩家", "description": "连续 7 天玩游戏。" },
-      "offlineHero": { "name": "离线英雄", "description": "在离线状态下完成一局游戏。" },
-      "savedByAFriend": { "name": "朋友救场", "description": "听从朋友的建议并答对。" },
-      "categoryMaster": { "name": "分类大师", "description": "在同一个分类中答对 25 道题。" }
+      "firstSteps": {
+        "name": "初出茅庐",
+        "description": "答对你的第一道题。"
+      },
+      "safeHaven": {
+        "name": "稳稳保底",
+        "description": "在经典模式中到达第一个保底关（第 5 题）。"
+      },
+      "halfWay": {
+        "name": "渐入佳境",
+        "description": "在经典模式中到达第二个保底关（第 10 题）。"
+      },
+      "millionaire": {
+        "name": "百万富翁",
+        "description": "答对经典模式全部 15 道题，赢得百万大奖。"
+      },
+      "purist": {
+        "name": "纯粹主义者",
+        "description": "不使用任何求助赢得百万大奖。"
+      },
+      "smartExit": {
+        "name": "急流勇退",
+        "description": "在第 12 题或之后带着奖金离场。"
+      },
+      "quickThinker": {
+        "name": "反应神速",
+        "description": "累计 10 次在 3 秒内答对题目。"
+      },
+      "marathon10": {
+        "name": "马拉松选手",
+        "description": "在马拉松排位赛中连续答对 10 题。"
+      },
+      "marathon25": {
+        "name": "长跑健将",
+        "description": "在马拉松排位赛中连续答对 25 题。"
+      },
+      "marathon50": {
+        "name": "钢铁意志",
+        "description": "在马拉松排位赛中连续答对 50 题。"
+      },
+      "marathon100": {
+        "name": "传奇",
+        "description": "在马拉松排位赛中连续答对 100 题。"
+      },
+      "timeAttack15": {
+        "name": "速度达人",
+        "description": "在限时挑战排位赛中拿到 15 分。"
+      },
+      "timeAttack30": {
+        "name": "闪电侠",
+        "description": "在限时挑战排位赛中拿到 30 分。"
+      },
+      "polyglot3": {
+        "name": "多语达人",
+        "description": "用 3 种不同的语言玩游戏。"
+      },
+      "polyglot10": {
+        "name": "环球旅行家",
+        "description": "用 10 种不同的语言玩游戏。"
+      },
+      "streak3": {
+        "name": "渐入状态",
+        "description": "连续 3 天玩游戏。"
+      },
+      "streak7": {
+        "name": "忠实玩家",
+        "description": "连续 7 天玩游戏。"
+      },
+      "offlineHero": {
+        "name": "离线英雄",
+        "description": "在离线状态下完成一局游戏。"
+      },
+      "savedByAFriend": {
+        "name": "朋友救场",
+        "description": "听从朋友的建议并答对。"
+      },
+      "categoryMaster": {
+        "name": "分类大师",
+        "description": "在同一个分类中答对 25 道题。"
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "求助",
     "lifelinesBody": "你有四种求助，每局各可使用一次：",
     "marathonTitle": "马拉松",
-    "marathonBody": "一场没有终点的挑战。每答对五题难度提升一次，四种求助各可使用一次，每题有 {seconds} 秒。答错或超时即结束，你的得分就是答对的题数。",
+    "marathonBody": "无尽挑战。每答对五道题难度就会增加，四种求助锦囊各可用一次，每道题有 {minutes, plural, =0 {0 分钟} one {# 分钟} other {# 分钟}} 的答题时间。答错一题或超时即宣告挑战结束，你的得分为答对的题目数量。",
     "timeAttackTitle": "限时挑战",
     "timeAttackBody": "你有 {seconds} 秒，尽可能多地答题。答错不会结束挑战，但会扣掉 {penalty} 秒。本模式没有求助。",
     "rankedTitle": "排位赛与公平性",
-    "rankedBody": "马拉松和限时挑战的排位赛由我们的服务器裁判：在你作答之前，正确答案绝不会发送到你的设备上，计时也由服务器掌控。用 Google 登录即可参加排位赛。使用自定义设置或离线进行的对局均为练习赛。",
+    "rankedBody": "马拉松和限时赛始终由我们的服务器进行裁判：在玩家作答之前，正确答案绝不会发送到你的设备上，且计时由服务器掌控。任何人都可以参与；使用谷歌账号登录即可将你的分数登上排行榜。",
     "questionsTitle": "关于题目",
-    "questionsBody": "题目由 AI 出题官直接用各种语言编写，并经过自动检查。约 40% 的题目与说你这门语言的地方的文化有关。如果觉得某道题有误，可以在答案揭晓后点击“报告错误”。"
+    "questionsBody": "题目由人工智能出题器使用各种语言原生编写并经过自动检查。其中约 40% 的题目与你所讲语言的本土文化相关。如果发现题目有误，请在公布答案后使用“举报错误”。"
   },
   "About": {
-    "title": "关于 Millionaire Quiz",
-    "intro": "Millionaire Quiz 是一款免费的粉丝自制问答游戏，灵感来自经典电视节目形式——为网页、手机和 50 种语言全新打造。",
+    "title": "关于百万富翁问答",
+    "intro": "百万富翁问答是一款免费的、由粉丝制作的问答游戏，灵感源自经典的电视节目形式 — 为网页端、手机端以及50种语言重新构建。",
     "missionTitle": "我们为什么做这款游戏",
     "missionBody": "大多数问答游戏都是先用英文写好再翻译的。我们认为，问答游戏应该让人有家的感觉：题目既要涉及广阔的世界，也要关于你从小熟悉的人物、地方、书籍和传统。",
     "howTitle": "题目是怎么来的",
     "howBody": "大语言模型直接用你的语言分批编写每一道题，并遵循严格的规则：只有一个明确正确的答案、四个看似合理的选项、只用公认的事实。题目会经过自动校验，存储后再推送给玩家；任何玩家都可以报告错误。",
     "techTitle": "技术揭秘",
-    "techBody": "Millionaire Quiz 是一款渐进式网页应用（PWA）：可以安装到手机或电脑上，借助可下载的题库包离线运行，并在重新联网后同步你的进度。",
+    "techBody": "百万富翁问答是一个渐进式网页应用：它可以安装在你的手机或电脑上，支持离线运行并自动保存题目，在你重新联网时同步进度。",
     "creditTitle": "制作人员",
     "creditBody": "由 {author} 设计和开发。",
-    "disclaimer": "Millionaire Quiz 与任何电视节目、电视台或版权方均无隶属、背书或其他关联。"
+    "disclaimer": "百万富翁问答与任何电视节目、广播公司或版权所有者均无隶属关系、背书或关联。"
   },
   "Legal": {
     "privacyTitle": "隐私政策",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "你的权利",
     "privacyRightsBody": "你可以随时修改显示名称和头像，也可以联系作者，要求删除你的账户及所有相关数据。",
     "termsTitle": "使用条款",
-    "termsIntro": "玩 Millionaire Quiz 即表示你同意以下简单条款。",
+    "termsIntro": "游玩百万富翁问答即表示你同意这些简单的条款。",
     "termsPlayTitle": "公平竞技",
     "termsPlayBody": "请诚实地进行排位赛。使用自动化程序、利用漏洞或干扰排行榜，可能导致你的成绩被删除。",
     "termsContentTitle": "题目与准确性",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "安装应用",
-    "installTitle": "安装 Millionaire Quiz",
+    "installTitle": "安装百万富翁问答",
     "benefit": "从主屏幕一键打开，全屏畅玩，离线也能玩。",
     "iosTitle": "在 iPhone 或 iPad 上安装",
     "iosStep1": "轻点 Safari 工具栏中的“分享”按钮。",
@@ -464,9 +516,34 @@
     "iosStep3": "轻点“添加”——应用就会出现在你的主屏幕上。",
     "gotIt": "知道了"
   },
+  "Contact": {
+    "title": "联系我们",
+    "subtitle": "发现错误、有好的想法或需要帮助？写信给我们 — 我们会阅读每一条信息。",
+    "name": "你的姓名",
+    "nameRequired": "请输入你的姓名。",
+    "email": "电子邮箱",
+    "emailRequired": "请输入你的电子邮箱以便我们回复。",
+    "emailInvalid": "该电子邮箱地址格式似乎不正确。",
+    "message": "留言内容",
+    "messageRequired": "请写下你的留言。",
+    "messagePlaceholder": "有什么我们可以帮您的？",
+    "send": "发送留言",
+    "error": "你的留言未能发送。请稍后再试。",
+    "sentTitle": "留言已发送！",
+    "sentBody": "谢谢你的来信。我们将回复至你提供的电子邮箱。",
+    "sendAnother": "发送另一条留言"
+  },
   "Auth": {
     "signedIn": "欢迎你，{name}！",
     "signedOut": "你已退出登录。",
+    "signInTitle": "登录",
+    "signInSubtitle": "使用谷歌账号一键登录，你的游戏进度将同步到你的每一台设备上。",
+    "benefitRanked": "将你的马拉松和限时赛分数展现在全球排行榜上",
+    "benefitLeaderboard": "选择其他玩家可见的昵称和头像",
+    "benefitSync": "在所有设备上保留你的经典模式最高分、游戏历史和徽章",
+    "privacyNote": "我们仅使用你谷歌账号中的姓名、电子邮箱地址和头像。",
+    "unavailable": "登录功能暂时不可用。你仍然可以游玩经典模式 — 你的进度会保存在本设备上。",
+    "alreadySignedIn": "你已登录为 {name}。",
     "errors": {
       "google_unavailable": "Google 登录暂时不可用。",
       "google_denied": "登录已取消。",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "Millionaire Quiz, 谁想成为百万富翁, 问答游戏, 知识竞赛, 益智问答, 免费问答, 在线答题, 百科知识, 常识题",
-    "homeTitle": "Millionaire Quiz — 谁想成为百万富翁？免费在线玩",
+    "homeTitle": "百万富翁问答 — 谁想成为百万富翁？免费在线畅玩",
     "homeDescription": "用 50 种语言免费玩电视问答游戏。15 道题直通百万、四种求助、保底关，还有无尽的马拉松和限时挑战模式，附带全球排行榜。",
     "playTitle": "经典百万富翁问答——15 道题直通百万",
     "playDescription": "沿着奖金阶梯从 {first} 攀升到 {top}：15 道题、两个保底关、四种求助。免费、无需注册，用你的语言玩。",
@@ -509,16 +586,20 @@
     "badgesTitle": "徽章——全部收集",
     "badgesDescription": "在经典模式、马拉松和限时挑战中解锁 20 枚徽章：赢得百万大奖、保持连续游戏、用多种语言畅玩。",
     "rulesTitle": "玩法说明——规则、奖金阶梯和求助",
-    "rulesDescription": "Millionaire Quiz 完整规则：奖金阶梯、保底关、带奖金离场、四种求助、马拉松和限时挑战。",
-    "aboutTitle": "关于 Millionaire Quiz",
-    "aboutDescription": "一款免费的粉丝自制问答游戏，AI 用 50 种语言出题，灵感来自经典电视问答节目。",
+    "rulesDescription": "百万富翁问答的完整规则：奖金阶梯、安全线、急流勇退、四个求助锦囊、马拉松与限时赛。",
+    "aboutTitle": "关于百万富翁问答",
+    "aboutDescription": "一款免费的、由粉丝制作的问答游戏，采用人工智能用50种语言编写题目，灵感源自经典电视问答节目形式。",
     "privacyTitle": "隐私政策",
-    "privacyDescription": "Millionaire Quiz 存储哪些数据、为什么存储，以及如何删除。",
+    "privacyDescription": "百万富翁问答存储了哪些内容、原因以及如何删除。",
     "termsTitle": "使用条款",
-    "termsDescription": "公平畅玩 Millionaire Quiz 的简单规则。",
+    "termsDescription": "公平畅玩百万富翁问答的简单规则。",
     "profileTitle": "你的个人资料",
     "profileDescription": "你的成绩、排名和徽章。",
     "settingsTitle": "设置",
-    "settingsDescription": "声音、离线题库包和默认游戏设置。"
+    "contactTitle": "联系我们",
+    "contactDescription": "有疑问、想法或题目出错？给百万富翁问答团队发消息。",
+    "signInTitle": "登录",
+    "signInDescription": "使用谷歌账号登录，将你的分数上传至排行榜，并在所有设备上同步游戏进度。",
+    "settingsDescription": "声音、语言和经典游戏设置。"
   }
 }

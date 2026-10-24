@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Pagsusulit na Milyonaryo",
+    "wordmarkTop": "Millionaire",
+    "wordmarkBottom": "Quiz",
     "tagline": "Ang quiz show game sa sarili mong wika",
     "play": "Maglaro",
     "playNow": "Maglaro na",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Magpatuloy gamit ang Google",
     "signedInAs": "Naka-sign in bilang {name}",
     "you": "Ikaw",
+    "unsavedTitle": "Lisanin ang pahinang ito?",
+    "unsavedBody": "Hindi na-save ang inilagay mo rito at mawawala ito.",
+    "stay": "Manatili",
+    "leave": "Umalis",
     "share": "Ibahagi",
     "copied": "Nakopya ang link",
     "comingBack": "Kita-kits!",
@@ -57,22 +63,14 @@
     "about": "Tungkol",
     "privacy": "Privacy",
     "terms": "Mga Tuntunin",
+    "contact": "Makipag-ugnayan sa amin",
     "profile": "Profile",
     "settings": "Settings"
   },
   "Home": {
-    "eyebrow": "50 wika · mga tanong na isinulat ng AI · libre",
+    "eyebrow": "50 wika · mga tanong na isinulat ng artipisyal na intelihensiya · libre",
     "heroTitle": "Sino ang Gustong Maging Milyonaryo?",
-    "heroSubtitle": "Labinlimang tanong na lang ang pagitan mo at ng milyon. Akyatin ang hagdan ng premyo, gamitin nang matalino ang iyong mga lifeline — at ikaw ang magpasya kung kailan titigil.",
-    "heroCta": "Maglaro ng Klasiko",
-    "heroSecondaryCta": "Subukan ang Marathon",
-    "statsQuestions": "Bagong mga tanong bawat laro",
-    "statsLanguages": "Mga wika",
-    "statsLifelines": "Mga lifeline",
     "modesTitle": "Tatlong paraan ng paglalaro",
-    "modesSubtitle": "Ang klasikong pag-akyat, walang katapusang pagsubok ng tibay ng loob, o karera laban sa oras.",
-    "ladderTitle": "Ang hagdan ng premyo",
-    "ladderSubtitle": "Bawat tamang sagot ay magpapaakyat sa iyo ng isang baitang. Ang mga siguradong premyo sa tanong 5 at tanong 10 ay sa iyo na kahit magkamali ka pa pagkatapos.",
     "lifelinesTitle": "Apat na lifeline, tig-iisang gamit",
     "lifelinesSubtitle": "Kapag naipit ka, puwedeng iligtas ng lifeline ang laro mo. Gamitin sila nang matalino — nasa dulo ang pinakamahihirap na tanong.",
     "howTitle": "Paano maglaro",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Tingnan ang buong leaderboard",
     "emptyLeaderboard": "Wala pang ranked na run — ikaw na ang mauna!",
     "cultureTitle": "Mga tanong na nagsasalita ng iyong wika",
-    "cultureBody": "Ang aming AI question writer ay gumagawa ng mga bagong tanong nang direkta sa bawat isa sa 50 wika, pinaghahalo ang pangkalahatang kaalaman sa kasaysayan, panitikan, heograpiya at mga tradisyon ng sarili mong kultura. Ang tanong tungkol sa paborito mong makata ay hindi salin ng tanong tungkol sa iba.",
+    "cultureBody": "Gumagawa ang aming artificial intelligence na manunulat ng tanong ng mga sariwang tanong nang katutubo sa bawat isa sa 50 wika, pinagsasama ang kaalamang pandaigdig at ang kasaysayan, panitikan, heograpiya, at mga tradisyon ng sarili mong kultura. Ang isang tanong tungkol sa paborito mong makata ay hindi magiging salin lang ng tanong tungkol sa makata ng iba.",
     "offlineTitle": "Maglaro kahit saan, kahit offline",
-    "offlineBody": "I-install ang app, i-download ang mga question pack para sa mga wikang gusto mo, at tuloy ang laro kahit nasa eroplano o tren ka. Masi-sync ang mga score mo pagbalik mo online.",
+    "offlineBody": "I-install ang app at magpatuloy sa paglalaro ng Classic sa eroplano o sa tren: awtomatikong nase-save sa iyong device ang mga tanong sa sarili mong wika. Magsi-sync ang iyong mga iskor kapag online ka na ulit.",
     "badgesTitle": "Mangolekta ng mga badge",
     "badgesSubtitle": "Abutin ang mga siguradong premyo, panalunan ang milyon, panatilihin ang streak — may {count} badge na puwedeng makuha.",
     "viewBadges": "Tingnan lahat ng badge",
     "categoriesTitle": "Tuklasin ang mga kategorya",
     "categoriesSubtitle": "Mula kasaysayan at agham hanggang pelikula, pagkain at sarili mong lokal na kultura.",
     "faqTitle": "Mga madalas itanong",
-    "faq1Question": "Libre ba ang Millionaire Quiz?",
+    "faq1Question": "Libre ba ang Pagsusulit na Milyonaryo?",
     "faq1Answer": "Oo. Libre ang bawat mode, bawat wika at bawat lifeline, at hindi mo kailangang mag-sign up para sa Klasiko.",
     "faq2Question": "Saan galing ang mga tanong?",
-    "faq2Answer": "Isang AI question writer ang gumagawa ng mga ito nang direkta sa iyong wika, at awtomatikong sinusuri ang bawat tanong bago ito makarating sa laro. Kung may makalusot, puwede mo itong i-report sa isang tap.",
+    "faq2Answer": "Isang artificial intelligence na manunulat ng tanong ang natural na gumagawa ng mga ito sa iyong wika, at awtomatikong sinusuri ang bawat tanong bago ito mapunta sa laro. Kung may makalusot man, puwede mo itong i-report sa isang tap lang.",
     "faq3Question": "Paano gumagana ang mga siguradong premyo?",
     "faq3Answer": "Kapag nasagot mo nang tama ang tanong 5, garantisado na ang {havenOne}, at sa tanong 10 naman ang {havenTwo}. Kung magkamali ka sa susunod na tanong, uuwi ka pa rin dala ang huling siguradong premyong naabot mo.",
     "faq4Question": "Puwede ba akong maglaro nang offline?",
-    "faq4Answer": "Oo. I-install ang app at mag-download ng mga question pack para sa alinman sa 50 wika mula sa settings. Sine-save ang mga offline na laro at sini-sync pagka-reconnect mo.",
+    "faq4Answer": "Oo — gumagana offline ang Classic. Awtomatikong nase-save sa iyong device ang mga tanong sa wika mo, at magsi-sync ang mga offline na laro kapag nagkonekta ka ulit. Kailangan naman ng koneksyon para sa Marathon at Time Attack.",
     "faq5Question": "Paano ako makakapasok sa leaderboard?",
     "faq5Answer": "Mag-sign in gamit ang Google at maglaro ng ranked na Marathon o Laban sa Oras. Sinusuri ng aming server ang bawat sagot, kaya patas ang leaderboard.",
     "faq6Question": "Ito ba ang opisyal na laro ng palabas sa TV?",
-    "faq6Answer": "Hindi. Ang Millionaire Quiz ay isang independiyenteng laro na gawa ng fans, na inspirado ng klasikong format ng quiz show."
+    "faq6Answer": "Hindi. Ang Pagsusulit na Milyonaryo ay isang malaya at gawa ng tagahanga na laro na inspirasyon ng klasikong format ng paligsahan sa quiz."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Marathon",
       "tagline": "Isang mali at tapos na",
       "description": "Walang katapusang sunod-sunod na tanong na humihirap bawat 5 tamang sagot. Nasa iyo ang apat na klasikong lifeline, tig-iisang beses — at isang maling sagot lang, tapos na ang run.",
-      "rules": "{seconds} segundo bawat tanong. Tumataas ang level bawat 5 tamang sagot. Tapos ang run sa isang maling sagot o pag-ubos ng oras."
+      "rules": "{minutes, plural, one {# minuto} other {# minuto}} bawat tanong. Tumataas ang antas sa bawat 5 tamang sagot. Isang maling sagot o pagkaubos ng oras ay tapos na ang laro."
     },
     "timeAttack": {
       "name": "Laban sa Oras",
@@ -130,18 +128,12 @@
       "description": "Sagutin ang pinakamaraming tanong hangga't kaya mo bago maubos ang oras. Hindi tapos ang run sa maling sagot — pero mababawasan ka ng 5 segundo.",
       "rules": "{seconds} segundo sa orasan. Bawat maling sagot ay bawas na {penalty} segundo. Walang lifeline — bilis lang."
     },
-    "ranked": "Ranked",
-    "practice": "Ensayo",
-    "rankedHint": "Bilang sa global leaderboard ang mga ranked na run.",
-    "practiceHint": "Ginagamit ng mga ensayong run ang sarili mong settings at hindi kasama sa ranking.",
-    "signInForRanked": "Mag-sign in gamit ang Google para maglaro ng ranked at sumali sa leaderboard.",
-    "offlineUnranked": "Offline ka, kaya ensayo lang ang run na ito.",
-    "customSettingsUnranked": "Dahil sa custom settings, ensayo ang run na ito."
+    "rankedHint": "Kasama ang bawat laro sa pandaigdigang leaderboard.",
+    "guestHint": "Naglalaro bilang bisita: pareho pa rin ang pagbabantay sa laro mo, pero mga naka-sign in na manlalaro lang ang lumalabas sa leaderboard.",
+    "needsConnection": "Kailangan ng koneksyon sa mode na ito: live na binabantayan ang bawat laro. Puwede namang laruin offline ang Classic."
   },
   "Game": {
     "startGame": "Simulan ang laro",
-    "startRanked": "Simulan ang ranked na run",
-    "startPractice": "Simulan ang ensayo",
     "loading": "Bumubukas na ang mga ilaw ng studio…",
     "loadingQuestion": "Isinusulat ang susunod mong tanong…",
     "playingFor": "Nakataya",
@@ -163,6 +155,12 @@
     "timeUp": "Ubos na ang oras!",
     "theAnswerWas": "Ang tamang sagot ay {letter}: {text}",
     "didYouKnow": "Alam mo ba?",
+    "switchPrompt": "Bago tayo magpalit — ano sana ang isasagot mo?",
+    "switchPromptHint": "Pang-fun lang: hindi rin naman 'to mabibilang kahit ano mangyari.",
+    "switchSkip": "Skip, magpalit na lang",
+    "switchWouldBeRight": "Tama ka sana!",
+    "switchWouldBeWrong": "Mabuti na lang nagpalit ka!",
+    "switchComing": "Eto na ang bago mong tanong…",
     "walkAway": "Umatras",
     "walkAwayTitle": "Kukunin mo na ang pera?",
     "walkAwayBody": "Kung aatras ka ngayon, iuuwi mo ang {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Level {level} — mas humihirap ang mga tanong",
     "penalty": "−{seconds}s",
     "fallbackNotice": "Nagpapahinga muna ang aming question writer, kaya English na backup na mga tanong ang gamit sa larong ito.",
-    "packNotice": "Naglalaro gamit ang na-download mong question pack.",
+    "packNotice": "Offline ka — naglalaro gamit ang mga tanong na naka-save sa iyong device.",
     "keyboardHint": "Keyboard: A–D para pumili, Enter para kumpirmahin, L para sa hagdan, M para sa tunog.",
     "report": "Mag-report ng mali",
     "reportTitle": "May mali ba sa tanong na ito?",
@@ -205,11 +203,12 @@
     "personalBest": "Bagong personal best!",
     "rank": "Rank #{rank} sa leaderboard",
     "newBadges": "{count, plural, one {May bago kang badge!} other {# bagong badge ang na-unlock mo!}}",
-    "shareText": "Nanalo ako ng {amount} sa Millionaire Quiz! Kaya mo ba akong talunin?",
-    "shareScoreText": "Naka-score ako ng {score} sa {mode} sa Millionaire Quiz! Kaya mo ba akong talunin?",
+    "shareText": "Nanalo ako ng {amount} sa Pagsusulit na Milyonaryo! Kaya mo ba akong talunin?",
+    "shareScoreText": "Nakakuha ako ng {score} sa {mode} sa Pagsusulit na Milyonaryo! Kaya mo ba akong talunin?",
     "backHome": "Bumalik sa home",
     "viewLeaderboard": "Tingnan ang leaderboard",
-    "signInToSave": "Mag-sign in para manatili ang mga score at badge mo sa bawat device."
+    "signInToSave": "Mag-sign in para manatili ang mga score at badge mo sa bawat device.",
+    "signInToRank": "Mag-sign in para maisama ang mga larong tulad nito sa leaderboard."
   },
   "Lifelines": {
     "title": "Mga Lifeline",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Settings",
-    "subtitle": "Tunog, mga offline pack at ang default mong game settings.",
+    "subtitle": "Tunog, wika, at mga setting ng iyong Classic game.",
     "gameTitle": "Game settings",
+    "gameHint": "Para lang ito sa mga Classic na laro. May ranggo ang Marathon at Time Attack kaya laging sumusunod sa mga karaniwang panuntunan.",
+    "customised": "Naglalaro gamit ang iyong sariling mga setting.",
+    "change": "Baguhin",
     "categories": "Mga Kategorya",
     "allCategories": "Lahat ng kategorya",
     "categoriesHint": "Pumili ng isa o higit pa, o iwanang lahat na naka-off para sa lahat ng kategorya.",
@@ -256,16 +258,6 @@
     "soundTitle": "Tunog",
     "sound": "Sound effects at musika",
     "volume": "Volume",
-    "packsTitle": "Mga offline question pack",
-    "packsSubtitle": "Mag-download ng mga tanong para sa mga wikang gusto mong laruin nang walang koneksiyon. Mga 100 KB ang bawat pack.",
-    "packCount": "{count, plural, one {# tanong} other {# tanong}}",
-    "packDownload": "I-download",
-    "packDownloading": "Dina-download…",
-    "packUpdate": "I-update",
-    "packRemove": "Alisin",
-    "packDownloaded": "Na-download",
-    "packError": "Hindi ma-download ang pack. Tingnan ang koneksiyon mo at subukan ulit.",
-    "autoDownload": "Awtomatikong i-download ang pack ng wika ko",
     "installTitle": "I-install ang app",
     "installBody": "Maglaro nang full screen at offline, sa isang tap mula sa home screen mo.",
     "accountTitle": "Account"
@@ -375,26 +367,86 @@
     "earnedOn": "Nakuha noong {date}",
     "unlocked": "Na-unlock ang badge",
     "items": {
-      "firstSteps": { "name": "Unang Hakbang", "description": "Sagutin nang tama ang una mong tanong." },
-      "safeHaven": { "name": "Ligtas Na", "description": "Abutin ang unang siguradong premyo sa Klasiko (tanong 5)." },
-      "halfWay": { "name": "Kalahati Na", "description": "Abutin ang ikalawang siguradong premyo sa Klasiko (tanong 10)." },
-      "millionaire": { "name": "Milyonaryo", "description": "Sagutin ang lahat ng 15 tanong sa Klasiko at panalunan ang milyon." },
-      "purist": { "name": "Purista", "description": "Panalunan ang milyon nang hindi gumagamit ng kahit isang lifeline." },
-      "smartExit": { "name": "Matalinong Pag-atras", "description": "Umatras dala ang napanalunan mo sa tanong 12 o pagkatapos nito." },
-      "quickThinker": { "name": "Mabilis Mag-isip", "description": "Magbigay ng 10 tamang sagot nang wala pang 3 segundo bawat isa." },
-      "marathon10": { "name": "Marathoner", "description": "Sumagot nang tama sa 10 sunod-sunod na tanong sa ranked na Marathon." },
-      "marathon25": { "name": "Malayuang Takbo", "description": "Sumagot nang tama sa 25 sunod-sunod na tanong sa ranked na Marathon." },
-      "marathon50": { "name": "Bakal na Isip", "description": "Sumagot nang tama sa 50 sunod-sunod na tanong sa ranked na Marathon." },
-      "marathon100": { "name": "Alamat", "description": "Sumagot nang tama sa 100 sunod-sunod na tanong sa ranked na Marathon." },
-      "timeAttack15": { "name": "Bilis-Kamay", "description": "Maka-score ng 15 sa ranked na Laban sa Oras." },
-      "timeAttack30": { "name": "Kidlat", "description": "Maka-score ng 30 sa ranked na Laban sa Oras." },
-      "polyglot3": { "name": "Polyglot", "description": "Maglaro sa 3 magkakaibang wika." },
-      "polyglot10": { "name": "Manlalakbay ng Mundo", "description": "Maglaro sa 10 magkakaibang wika." },
-      "streak3": { "name": "Tuloy-tuloy", "description": "Maglaro nang 3 sunod-sunod na araw." },
-      "streak7": { "name": "Tapat na Manlalaro", "description": "Maglaro nang 7 sunod-sunod na araw." },
-      "offlineHero": { "name": "Walang Signal", "description": "Tapusin ang isang laro habang offline." },
-      "savedByAFriend": { "name": "Iniligtas ng Kaibigan", "description": "Sundin ang payo ng kaibigan mo at tamaan ang sagot." },
-      "categoryMaster": { "name": "Master ng Kategorya", "description": "Sagutin nang tama ang 25 tanong sa iisang kategorya." }
+      "firstSteps": {
+        "name": "Unang Hakbang",
+        "description": "Sagutin nang tama ang una mong tanong."
+      },
+      "safeHaven": {
+        "name": "Ligtas Na",
+        "description": "Abutin ang unang siguradong premyo sa Klasiko (tanong 5)."
+      },
+      "halfWay": {
+        "name": "Kalahati Na",
+        "description": "Abutin ang ikalawang siguradong premyo sa Klasiko (tanong 10)."
+      },
+      "millionaire": {
+        "name": "Milyonaryo",
+        "description": "Sagutin ang lahat ng 15 tanong sa Klasiko at panalunan ang milyon."
+      },
+      "purist": {
+        "name": "Purista",
+        "description": "Panalunan ang milyon nang hindi gumagamit ng kahit isang lifeline."
+      },
+      "smartExit": {
+        "name": "Matalinong Pag-atras",
+        "description": "Umatras dala ang napanalunan mo sa tanong 12 o pagkatapos nito."
+      },
+      "quickThinker": {
+        "name": "Mabilis Mag-isip",
+        "description": "Magbigay ng 10 tamang sagot nang wala pang 3 segundo bawat isa."
+      },
+      "marathon10": {
+        "name": "Marathoner",
+        "description": "Sumagot nang tama sa 10 sunod-sunod na tanong sa ranked na Marathon."
+      },
+      "marathon25": {
+        "name": "Malayuang Takbo",
+        "description": "Sumagot nang tama sa 25 sunod-sunod na tanong sa ranked na Marathon."
+      },
+      "marathon50": {
+        "name": "Bakal na Isip",
+        "description": "Sumagot nang tama sa 50 sunod-sunod na tanong sa ranked na Marathon."
+      },
+      "marathon100": {
+        "name": "Alamat",
+        "description": "Sumagot nang tama sa 100 sunod-sunod na tanong sa ranked na Marathon."
+      },
+      "timeAttack15": {
+        "name": "Bilis-Kamay",
+        "description": "Maka-score ng 15 sa ranked na Laban sa Oras."
+      },
+      "timeAttack30": {
+        "name": "Kidlat",
+        "description": "Maka-score ng 30 sa ranked na Laban sa Oras."
+      },
+      "polyglot3": {
+        "name": "Polyglot",
+        "description": "Maglaro sa 3 magkakaibang wika."
+      },
+      "polyglot10": {
+        "name": "Manlalakbay ng Mundo",
+        "description": "Maglaro sa 10 magkakaibang wika."
+      },
+      "streak3": {
+        "name": "Tuloy-tuloy",
+        "description": "Maglaro nang 3 sunod-sunod na araw."
+      },
+      "streak7": {
+        "name": "Tapat na Manlalaro",
+        "description": "Maglaro nang 7 sunod-sunod na araw."
+      },
+      "offlineHero": {
+        "name": "Walang Signal",
+        "description": "Tapusin ang isang laro habang offline."
+      },
+      "savedByAFriend": {
+        "name": "Iniligtas ng Kaibigan",
+        "description": "Sundin ang payo ng kaibigan mo at tamaan ang sagot."
+      },
+      "categoryMaster": {
+        "name": "Master ng Kategorya",
+        "description": "Sagutin nang tama ang 25 tanong sa iisang kategorya."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Mga lifeline",
     "lifelinesBody": "May apat kang lifeline, at bawat isa ay puwedeng gamitin nang isang beses bawat laro:",
     "marathonTitle": "Marathon",
-    "marathonBody": "Walang katapusang run. Humihirap ang mga tanong bawat limang tamang sagot, may apat kang lifeline na tig-iisang gamit, at may {seconds} segundo ka bawat tanong. Tapos ang run sa isang maling sagot o pag-ubos ng oras, at ang score mo ay ang bilang ng tamang sagot.",
+    "marathonBody": "Walang katapusang laro. Pahirap nang pahirap ang mga tanong sa bawat limang tamang sagot, magagamit mo nang tig-isang beses ang apat na lifeline, at may {minutes, plural, one {# minuto} other {# minuto}} ka para sa bawat tanong. Isang maling sagot o pagkaubos ng oras ay tapos na ang laro, at ang iskor mo ay ang bilang ng mga tamang sagot.",
     "timeAttackTitle": "Laban sa Oras",
     "timeAttackBody": "May {seconds} segundo ka para sagutin ang pinakamaraming tanong hangga't kaya mo. Hindi tapos ang run sa maling sagot, pero mababawasan ng {penalty} segundo ang orasan. Walang lifeline.",
     "rankedTitle": "Ranked na laro at pagiging patas",
-    "rankedBody": "Ang mga ranked na Marathon at Laban sa Oras na run ay binabantayan ng aming server: hindi kailanman makakarating sa device mo ang tamang sagot bago ka sumagot, at sa server binibilang ang oras. Mag-sign in gamit ang Google para maglaro ng ranked. Ensayo ang mga run na may custom settings o nilaro offline.",
+    "rankedBody": "Laging binabantayan ng aming server ang mga laro sa Marathon at Time Attack: hindi dumarating ang tamang sagot sa iyong device hangga't hindi ka sumasagot, at nasa server ang oras. Kahit sino ay puwedeng maglaro; mag-sign in gamit ang Google para mailagay ang iyong iskor sa leaderboard.",
     "questionsTitle": "Tungkol sa mga tanong",
-    "questionsBody": "Isinusulat ng isang AI question writer ang mga tanong nang direkta sa bawat wika at awtomatikong sinusuri. Mga 40% ay tungkol sa kultura ng lugar kung saan ginagamit ang iyong wika. Kung mukhang mali ang isang tanong, gamitin ang “Mag-report ng mali” pagkatapos ilabas ang sagot."
+    "questionsBody": "Isinusulat ang mga tanong ng isang artificial intelligence na manunulat ng tanong nang katutubo sa bawat wika at awtomatikong sinusuri ang mga ito. Humigit-kumulang 40% ay tungkol sa kultura kung saan sinasalita ang iyong wika. Kung mukhang mali ang tanong, gamitin ang “Mag-ulat ng mali” pagkatapos ipakita ang sagot."
   },
   "About": {
-    "title": "Tungkol sa Millionaire Quiz",
-    "intro": "Ang Millionaire Quiz ay isang libreng quiz game na gawa ng fans, inspirado ng klasikong format sa telebisyon — muling binuo para sa web, para sa mga phone at para sa 50 wika.",
+    "title": "Tungkol sa Pagsusulit na Milyonaryo",
+    "intro": "Ang Pagsusulit na Milyonaryo ay isang libre at gawa ng tagahanga na laro ng quiz na inspirasyon ng klasikong format sa telebisyon — muling binuo para sa web, mga telepono, at sa 50 na wika.",
     "missionTitle": "Bakit namin ito ginawa",
     "missionBody": "Karamihan sa mga quiz game ay isinusulat sa English at saka isinasalin. Para sa amin, dapat parang nasa bahay ka sa isang quiz: tungkol dapat ang mga tanong sa mga tao, lugar, aklat at tradisyong kinalakhan mo, pati na rin sa mas malawak na mundo.",
     "howTitle": "Paano ginagawa ang mga tanong",
     "howBody": "Isang large language model ang sumusulat ng bawat tanong nang direkta sa iyong wika, nang maramihan, ayon sa mahigpit na mga patakaran: isang malinaw na tamang sagot, apat na kapani-paniwalang opsiyon, at matatag na mga katotohanan lang. Awtomatikong bina-validate, sine-save at ibinibigay sa mga manlalaro ang mga tanong; puwedeng mag-report ng mali ang sinumang manlalaro.",
     "techTitle": "Sa likod ng makina",
-    "techBody": "Ang Millionaire Quiz ay isang progressive web app: naii-install ito sa phone o computer mo, gumagana offline gamit ang mga nada-download na question pack, at sini-sync ang progreso mo pagka-reconnect mo.",
+    "techBody": "Ang Pagsusulit na Milyonaryo ay isang progresibong web app: nag-i-install ito sa iyong telepono o computer, gumagana nang offline na may mga tanong na awtomatikong naka-save, at pilit na ina-sync ang iyong pag-usad kapag kumonekta kang muli.",
     "creditTitle": "Credits",
     "creditBody": "Dinisenyo at binuo ni {author}.",
-    "disclaimer": "Ang Millionaire Quiz ay walang kaugnayan, pag-endorso o koneksiyon sa anumang programa sa telebisyon, broadcaster o may-hawak ng karapatan."
+    "disclaimer": "Ang Pagsusulit na Milyonaryo ay hindi kaakibat, ineendorso ng, o konektado sa anumang palabas sa telebisyon, brodkaster, o may hawak ng karapatan."
   },
   "Legal": {
     "privacyTitle": "Patakaran sa privacy",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Ang iyong mga karapatan",
     "privacyRightsBody": "Puwede mong palitan ang display name at larawan mo anumang oras, at puwede mong hilingin na burahin namin ang account mo at lahat ng kaugnay na data sa pamamagitan ng pakikipag-ugnayan sa gumawa.",
     "termsTitle": "Mga tuntunin ng paggamit",
-    "termsIntro": "Sa paglalaro ng Millionaire Quiz, sumasang-ayon ka sa mga simpleng tuntuning ito.",
+    "termsIntro": "Sa paglalaro ng Pagsusulit na Milyonaryo, sumasang-ayon ka sa mga simpleng tuntuning ito.",
     "termsPlayTitle": "Patas na laro",
     "termsPlayBody": "Maglaro nang tapat sa mga ranked na run. Ang automated na paglalaro, pagsasamantala sa mga bug o panggugulo sa leaderboard ay maaaring magresulta sa pagtanggal ng mga run mo.",
     "termsContentTitle": "Mga tanong at katumpakan",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "I-install ang app",
-    "installTitle": "I-install ang Millionaire Quiz",
+    "installTitle": "I-install ang Pagsusulit na Milyonaryo",
     "benefit": "Maglaro nang full screen at offline, sa isang tap mula sa home screen mo.",
     "iosTitle": "I-install sa iPhone o iPad",
     "iosStep1": "I-tap ang Share button sa toolbar ng Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "I-tap ang “Add” — lalabas ang app sa home screen mo.",
     "gotIt": "Sige, gets ko"
   },
+  "Contact": {
+    "title": "Makipag-ugnayan sa amin",
+    "subtitle": "May nakitang mali, may ideya, o kailangan ng tulong? Sumulat sa amin — binabasa namin ang bawat mensahe.",
+    "name": "Iyong pangalan",
+    "nameRequired": "Pakilagay ang iyong pangalan.",
+    "email": "Email",
+    "emailRequired": "Pakilagay ang iyong email para makasagot kami.",
+    "emailInvalid": "Mukhang hindi tama ang email address na iyan.",
+    "message": "Mensahe",
+    "messageRequired": "Pakiusap sumulat ng mensahe.",
+    "messagePlaceholder": "Paano kami makakatulong?",
+    "send": "Ipadala ang mensahe",
+    "error": "Hindi maipadala ang iyong mensahe. Pakiulit na lang sa ilang sandali.",
+    "sentTitle": "Naipadala na ang mensahe!",
+    "sentBody": "Salamat sa pagsulat. Sasagot kami sa email address na ibinigay mo sa amin.",
+    "sendAnother": "Magpadala ng isa pang mensahe"
+  },
   "Auth": {
     "signedIn": "Maligayang pagdating, {name}!",
     "signedOut": "Naka-sign out ka na.",
+    "signInTitle": "Mag-sign in",
+    "signInSubtitle": "Isang tap lang gamit ang Google, at kasunod mo na ang iyong progreso sa bawat device.",
+    "benefitRanked": "Ilagay ang iyong mga iskor sa Marathon at Time Attack sa pandaigdigang leaderboard",
+    "benefitLeaderboard": "Piliin ang pangalan at larawan na makikita ng ibang mga manlalaro",
+    "benefitSync": "Panatilihin ang iyong pinakamagandang laro sa Classic, kasaysayan ng laro, at mga badge kahit saan",
+    "privacyNote": "Tanging pangalan, email address, at larawan mo lang mula sa Google ang ginagamit namin.",
+    "unavailable": "Hindi available ang pag-sign in sa ngayon. Puwede ka pa ring maglaro ng Classic — naka-save ang iyong progreso sa device na ito.",
+    "alreadySignedIn": "Naka-sign in ka bilang si {name}.",
     "errors": {
       "google_unavailable": "Hindi available ngayon ang pag-sign in gamit ang Google.",
       "google_denied": "Kinansela ang pag-sign in.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, quiz game, trivia, who wants to be a millionaire game, sino ang gustong maging milyonaryo, libreng quiz, online quiz, pangkalahatang kaalaman",
-    "homeTitle": "Millionaire Quiz — Sino ang Gustong Maging Milyonaryo? Maglaro nang libre online",
+    "homeTitle": "Pagsusulit na Milyonaryo — Sino ang Gustong Maging Milyonaryo? Maglaro nang libre online",
     "homeDescription": "Laruin nang libre ang quiz show game sa 50 wika. 15 tanong papunta sa milyon, apat na lifeline, mga siguradong premyo, pati ang walang katapusang Marathon at Laban sa Oras na may global leaderboard.",
     "playTitle": "Klasikong Millionaire quiz — 15 tanong papunta sa milyon",
     "playDescription": "Akyatin ang hagdan ng premyo mula {first} hanggang {top}: labinlimang tanong, dalawang siguradong premyo, apat na lifeline. Libre, walang sign-up, sa iyong wika.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Mga badge — kolektahin lahat",
     "badgesDescription": "Dalawampung badge na puwedeng makuha sa Klasiko, Marathon at Laban sa Oras: panalunan ang milyon, panatilihin ang streak, maglaro sa maraming wika.",
     "rulesTitle": "Paano maglaro — mga patakaran, hagdan ng premyo at mga lifeline",
-    "rulesDescription": "Ang buong patakaran ng Millionaire Quiz: ang hagdan ng premyo, mga siguradong premyo, pag-atras, ang apat na lifeline, Marathon at Laban sa Oras.",
-    "aboutTitle": "Tungkol sa Millionaire Quiz",
-    "aboutDescription": "Isang libreng quiz game na gawa ng fans, may mga tanong na isinulat ng AI sa 50 wika, inspirado ng klasikong format ng TV quiz show.",
+    "rulesDescription": "Ang buong panuntunan ng Pagsusulit na Milyonaryo: ang hagdan ng pera, ligtas na pook, pag-uwi, ang apat na lifelines, Marathon at Time Attack.",
+    "aboutTitle": "Tungkol sa Pagsusulit na Milyonaryo",
+    "aboutDescription": "Isang libre at gawang-tagahangang quiz game na may mga tanong na isinulat ng artificial intelligence sa 50 wika, hango sa klasikong TV quiz format.",
     "privacyTitle": "Patakaran sa privacy",
-    "privacyDescription": "Ano ang sine-save ng Millionaire Quiz, bakit, at paano ito buburahin.",
+    "privacyDescription": "Kung ano ang iniimbak ng Pagsusulit na Milyonaryo, bakit, at kung paano ito tanggalin.",
     "termsTitle": "Mga tuntunin ng paggamit",
-    "termsDescription": "Ang mga simpleng patakaran para maglaro nang patas sa Millionaire Quiz.",
+    "termsDescription": "Ang mga simpleng panuntunan para sa patas na paglalaro ng Pagsusulit na Milyonaryo.",
     "profileTitle": "Ang iyong profile",
     "profileDescription": "Ang iyong mga score, rank at badge.",
     "settingsTitle": "Settings",
-    "settingsDescription": "Tunog, mga offline question pack at default na game settings."
+    "contactTitle": "Makipag-ugnayan sa amin",
+    "contactDescription": "Mga tanong, ideya, o may mali sa tanong? Magpadala ng mensahe sa koponan ng Pagsusulit na Milyonaryo.",
+    "signInTitle": "Mag-sign in",
+    "signInDescription": "Mag-sign in gamit ang Google para mailagay ang iyong mga iskor sa leaderboard at mapanatili ang iyong progreso sa bawat device.",
+    "settingsDescription": "Mga setting ng tunog, wika, at Classic game."
   }
 }

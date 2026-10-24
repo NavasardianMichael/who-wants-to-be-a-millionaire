@@ -1,15 +1,16 @@
 'use client'
 
-import { type ReactNode, useEffect, useId, useRef } from 'react'
-import { X } from 'lucide-react'
+import { type ReactNode, useContext } from 'react'
+import { ConfigProvider, Drawer, Grid, Modal } from 'antd'
 import { useTranslations } from 'next-intl'
 import { cn } from '@helpers/cn'
-import { IconButton } from './IconButton'
 
 /**
- * Native `<dialog>` with `showModal()`: focus trapping, Escape, inert background and the
- * top layer come from the browser. `variant='sheet'` docks to the bottom on phones (and stays
- * centred from `sm` up); `variant='drawer'` slides in from the inline end.
+ * The one overlay: antd's `Modal`, or its `Drawer` (bookie's AppSheet idea).
+ * - `center` — a centred modal at every size;
+ * - `sheet` — a centred modal from `md` up, a bottom sheet below it;
+ * - `drawer` — slides in from the inline end (it follows `dir`).
+ * Focus trapping, Escape, scroll lock and the portal come from antd.
  */
 export type DialogProps = {
   open: boolean
@@ -23,6 +24,10 @@ export type DialogProps = {
   hideTitle?: boolean
   className?: string
   closeOnBackdrop?: boolean
+  /** Locks every way of closing while a request inside is in flight. */
+  pending?: boolean
+  /** Modal width: `md` for confirmations and forms, `lg` for pickers. */
+  size?: 'md' | 'lg'
 }
 
 export const Dialog = ({
@@ -36,73 +41,60 @@ export const Dialog = ({
   hideTitle,
   className,
   closeOnBackdrop = true,
+  pending = false,
+  size = 'md',
 }: DialogProps) => {
-  const ref = useRef<HTMLDialogElement>(null)
-  const titleId = useId()
-  const descriptionId = useId()
   const t = useTranslations('Common')
+  const screens = Grid.useBreakpoint()
+  const { direction } = useContext(ConfigProvider.ConfigContext)
 
-  useEffect(() => {
-    const dialog = ref.current
-    if (!dialog) return
-    if (open && !dialog.open) dialog.showModal()
-    if (!open && dialog.open) dialog.close()
-  }, [open])
+  const requestClose = () => {
+    if (!pending) onClose()
+  }
+  const heading = (
+    <div className={cn(hideTitle && 'sr-only')}>
+      <span className='block'>{title}</span>
+      {description && <span className='mt-1 block font-sans text-body-sm font-normal text-mist'>{description}</span>}
+    </div>
+  )
+  const closable = { 'aria-label': t('close'), disabled: pending }
+  const shared = { open, title: heading, className, destroyOnHidden: true, keyboard: !pending, mask: { closable: closeOnBackdrop && !pending } }
+
+  // `useBreakpoint` is empty on the server and the first client render; a sheet starts as a modal.
+  const asDrawer = variant === 'drawer' || (variant === 'sheet' && screens.md === false)
+
+  if (asDrawer) {
+    const fromBottom = variant === 'sheet'
+    return (
+      <Drawer
+        {...shared}
+        onClose={requestClose}
+        placement={fromBottom ? 'bottom' : direction === 'rtl' ? 'left' : 'right'}
+        size={fromBottom ? 'auto' : 'min(24rem, 100%)'}
+        closable={{ ...closable, placement: 'end' }}
+        footer={footer && <div className='flex flex-wrap justify-end gap-3 pb-safe'>{footer}</div>}
+        styles={{
+          wrapper: fromBottom ? { maxHeight: '92dvh' } : undefined,
+          section: fromBottom ? { borderStartStartRadius: 'var(--radius-panel)', borderStartEndRadius: 'var(--radius-panel)' } : undefined,
+          body: { overflowY: 'auto' },
+        }}
+      >
+        {children}
+      </Drawer>
+    )
+  }
 
   return (
-    // The click handler only closes on a backdrop click; keyboard users close with Escape,
-    // which the native <dialog> handles through `onCancel` below.
-    // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions
-    <dialog
-      ref={ref}
-      aria-labelledby={titleId}
-      aria-describedby={description ? descriptionId : undefined}
-      onClose={onClose}
-      onCancel={(event) => {
-        event.preventDefault()
-        onClose()
-      }}
-      onClick={(event) => {
-        // A click on the dialog element itself (not its content) is a click on the backdrop.
-        if (closeOnBackdrop && event.target === event.currentTarget) onClose()
-      }}
-      className={cn(
-        'm-auto max-h-[calc(100dvh-2rem)] w-[calc(100%-2rem)] overflow-visible bg-transparent p-0 text-ivory',
-        'backdrop:bg-studio-950/80',
-        open && 'animate-pop',
-        variant === 'center' && 'max-w-lg',
-        variant === 'sheet' &&
-          'mb-0 w-full max-w-none sm:mb-auto sm:w-[calc(100%-2rem)] sm:max-w-lg',
-        variant === 'drawer' && 'me-0 ms-auto my-0 h-dvh max-h-dvh w-[min(24rem,100%)] max-w-none',
-        className
-      )}
+    <Modal
+      {...shared}
+      onCancel={requestClose}
+      centered
+      width={size === 'lg' ? 'min(44rem, calc(100% - 2rem))' : 'min(32rem, calc(100% - 2rem))'}
+      closable={closable}
+      footer={footer ? <div className='flex flex-wrap justify-end gap-3'>{footer}</div> : null}
+      styles={{ body: { maxHeight: '70dvh', overflowY: 'auto' } }}
     >
-      <div
-        className={cn(
-          'panel flex max-h-[inherit] flex-col overflow-hidden',
-          variant === 'sheet' && 'rounded-b-none pb-safe sm:rounded-b-panel sm:pb-0',
-          variant === 'drawer' && 'h-full rounded-e-none pt-safe pb-safe'
-        )}
-      >
-        <header className={cn('flex items-start gap-3 px-5 pt-5 sm:px-6', hideTitle && 'sr-only')}>
-          <div className='min-w-0 flex-1'>
-            <h2 id={titleId} className='font-display text-h3 font-bold text-gold-200'>
-              {title}
-            </h2>
-            {description && (
-              <p id={descriptionId} className='mt-1 text-body-sm text-mist'>
-                {description}
-              </p>
-            )}
-          </div>
-          <IconButton label={t('close')} icon={<X className='size-5' />} onClick={onClose} className='-me-2 -mt-1' />
-        </header>
-        {hideTitle && (
-          <IconButton label={t('close')} icon={<X className='size-5' />} onClick={onClose} className='absolute inset-e-3 top-3 z-10' />
-        )}
-        {children && <div className='min-h-0 flex-1 overflow-y-auto px-5 py-4 sm:px-6'>{children}</div>}
-        {footer && <footer className='flex flex-wrap justify-end gap-3 border-t border-spot-300/10 px-5 py-4 sm:px-6'>{footer}</footer>}
-      </div>
-    </dialog>
+      {children}
+    </Modal>
   )
 }

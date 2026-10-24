@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Kuiz Jutawan",
+    "wordmarkTop": "Kuiz",
+    "wordmarkBottom": "Jutawan",
     "tagline": "Permainan kuiz TV dalam bahasa anda",
     "play": "Main",
     "playNow": "Main sekarang",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Teruskan dengan Google",
     "signedInAs": "Log masuk sebagai {name}",
     "you": "Anda",
+    "unsavedTitle": "Tinggalkan halaman ini?",
+    "unsavedBody": "Apa yang anda masukkan di sini belum disimpan dan akan hilang.",
+    "stay": "Kekal",
+    "leave": "Tinggalkan",
     "share": "Kongsi",
     "copied": "Pautan disalin",
     "comingBack": "Jumpa lagi!",
@@ -57,22 +63,14 @@
     "about": "Perihal",
     "privacy": "Privasi",
     "terms": "Terma",
+    "contact": "Hubungi kami",
     "profile": "Profil",
     "settings": "Tetapan"
   },
   "Home": {
-    "eyebrow": "50 bahasa · soalan ditulis AI · percuma",
+    "eyebrow": "50 bahasa · soalan ditulis oleh kecerdasan buatan · percuma",
     "heroTitle": "Siapa Mahu Jadi Jutawan?",
-    "heroSubtitle": "Hanya lima belas soalan memisahkan anda daripada sejuta. Daki tangga wang, guna bantuan dengan bijak — dan tentukan sendiri bila mahu berhenti.",
-    "heroCta": "Main Klasik",
-    "heroSecondaryCta": "Cuba Maraton",
-    "statsQuestions": "Soalan baharu setiap permainan",
-    "statsLanguages": "Bahasa",
-    "statsLifelines": "Bantuan",
     "modesTitle": "Tiga cara bermain",
-    "modesSubtitle": "Pendakian klasik, ujian ketahanan tanpa henti atau perlumbaan melawan masa.",
-    "ladderTitle": "Tangga wang",
-    "ladderSubtitle": "Setiap jawapan betul membawa anda naik satu anak tangga. Tahap selamat pada soalan 5 dan soalan 10 menjamin kemenangan anda walaupun anda tersilap kemudian.",
     "lifelinesTitle": "Empat bantuan, sekali guna setiap satu",
     "lifelinesSubtitle": "Bila buntu, bantuan boleh menyelamatkan permainan anda. Gunakannya dengan bijak — soalan paling sukar datang di penghujung.",
     "howTitle": "Cara bermain",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Lihat papan pendahulu penuh",
     "emptyLeaderboard": "Belum ada larian berperingkat — jadilah yang pertama!",
     "cultureTitle": "Soalan yang bercakap dalam bahasa anda",
-    "cultureBody": "Penulis soalan AI kami mencipta soalan baharu secara asli dalam setiap satu daripada 50 bahasa, menggabungkan pengetahuan dunia dengan sejarah, sastera, geografi dan tradisi budaya anda sendiri. Soalan tentang penyair kegemaran anda bukanlah terjemahan soalan tentang orang lain.",
+    "cultureBody": "Penulis soalan kecerdasan buatan kami mencipta soalan baharu secara natif dalam setiap 50 bahasa, menggabungkan pengetahuan dunia dengan sejarah, sastera, geografi dan tradisi budaya anda sendiri. Soalan tentang penyair kegemaran anda bukan terjemahan daripada soalan orang lain.",
     "offlineTitle": "Main di mana-mana, walaupun di luar talian",
-    "offlineBody": "Pasang aplikasi, muat turun pek soalan untuk bahasa yang anda mahu dan terus bermain di dalam kapal terbang atau kereta api. Skor anda akan disegerakkan apabila anda kembali dalam talian.",
+    "offlineBody": "Pasang aplikasi dan teruskan bermain Klasik di dalam kapal terbang atau di dalam LRT: soalan dalam bahasa anda disimpan pada peranti anda secara automatik. Skor anda diselaraskan apabila anda kembali dalam talian.",
     "badgesTitle": "Kumpul lencana",
     "badgesSubtitle": "Capai tahap selamat, menangi sejuta, kekalkan rentak — ada {count} lencana untuk dimenangi.",
     "viewBadges": "Lihat semua lencana",
     "categoriesTitle": "Terokai kategori",
     "categoriesSubtitle": "Daripada sejarah dan sains hingga filem, makanan dan budaya tempatan anda sendiri.",
     "faqTitle": "Soalan lazim",
-    "faq1Question": "Adakah Millionaire Quiz percuma?",
+    "faq1Question": "Adakah Kuiz Jutawan percuma?",
     "faq1Answer": "Ya. Setiap mod, setiap bahasa dan setiap bantuan percuma untuk dimainkan, dan anda tidak perlu mendaftar untuk Klasik.",
     "faq2Question": "Dari mana datangnya soalan?",
-    "faq2Answer": "Penulis soalan AI menciptanya secara asli dalam bahasa anda, dan setiap soalan disemak secara automatik sebelum masuk ke dalam permainan. Jika ada yang terlepas, anda boleh melaporkannya dengan satu ketikan.",
+    "faq2Answer": "Penulis soalan kecerdasan buatan menciptanya secara natif dalam bahasa anda, dan setiap soalan disemak secara automatik sebelum ia sampai ke permainan. Jika ada yang terlepas, anda boleh melaporkannya dengan sekali ketik.",
     "faq3Question": "Bagaimana tahap selamat berfungsi?",
     "faq3Answer": "Menjawab soalan 5 dengan betul menjamin {havenOne}, dan soalan 10 menjamin {havenTwo}. Jika anda tersalah jawab soalan seterusnya, anda tetap pulang dengan tahap selamat terakhir yang telah anda lepasi.",
     "faq4Question": "Bolehkah saya bermain di luar talian?",
-    "faq4Answer": "Boleh. Pasang aplikasi dan muat turun pek soalan untuk mana-mana daripada 50 bahasa melalui tetapan. Permainan luar talian disimpan dan disegerakkan apabila anda bersambung semula.",
+    "faq4Answer": "Ya — Klasik boleh dimainkan luar talian. Soalan dalam bahasa anda disimpan pada peranti anda secara automatik, dan permainan luar talian diselaraskan apabila anda menyambung semula. Marathon dan Serangan Masa memerlukan sambungan.",
     "faq5Question": "Bagaimana saya boleh masuk papan pendahulu?",
     "faq5Answer": "Log masuk dengan Google dan main larian Maraton atau Lawan Masa berperingkat. Setiap jawapan disemak oleh pelayan kami, jadi papan pendahulu kekal adil.",
     "faq6Question": "Adakah ini permainan rasmi rancangan TV itu?",
-    "faq6Answer": "Tidak. Millionaire Quiz ialah permainan bebas buatan peminat yang diilhamkan oleh format rancangan kuiz klasik."
+    "faq6Answer": "Tidak. Kuiz Jutawan ialah permainan bebas buatan peminat yang diilhamkan daripada format rancangan kuiz klasik."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Satu kesilapan, tamat",
       "description": "Rentetan soalan tanpa henti yang menjadi lebih sukar setiap 5 jawapan betul. Anda ada empat bantuan klasik, sekali setiap satu — dan satu jawapan salah menamatkan larian.",
-      "rules": "{seconds} saat setiap soalan. Tahap meningkat setiap 5 jawapan betul. Satu jawapan salah atau masa tamat akan menamatkan larian."
+      "rules": "{minutes, plural, one {# minit} other {# minit}} setiap soalan. Tahap meningkat setiap 5 jawapan betul. Satu jawapan salah atau tamat masa menamatkan permainan."
     },
     "timeAttack": {
       "name": "Lawan Masa",
@@ -130,18 +128,12 @@
       "description": "Jawab seberapa banyak soalan yang boleh sebelum masa tamat. Jawapan salah tidak menamatkan larian — tetapi anda kehilangan 5 saat.",
       "rules": "{seconds} saat pada jam. Setiap jawapan salah memotong {penalty} saat. Tiada bantuan — hanya kepantasan."
     },
-    "ranked": "Berperingkat",
-    "practice": "Latihan",
-    "rankedHint": "Larian berperingkat dikira dalam papan pendahulu global.",
-    "practiceHint": "Larian latihan menggunakan tetapan anda sendiri dan tidak diberi kedudukan.",
-    "signInForRanked": "Log masuk dengan Google untuk bermain berperingkat dan menyertai papan pendahulu.",
-    "offlineUnranked": "Anda di luar talian, jadi larian ini ialah latihan.",
-    "customSettingsUnranked": "Tetapan tersuai menjadikan larian ini latihan."
+    "rankedHint": "Setiap permainan dikira pada papan pendahulu global.",
+    "guestHint": "Bermain sebagai tetamu: permainan anda diadili sama, tetapi hanya pemain yang log masuk muncul di papan pendahulu.",
+    "needsConnection": "Mod ini memerlukan sambungan: setiap permainan diadili secara langsung. Klasik dimainkan luar talian."
   },
   "Game": {
     "startGame": "Mula permainan",
-    "startRanked": "Mula larian berperingkat",
-    "startPractice": "Mula latihan",
     "loading": "Lampu studio sedang dinyalakan…",
     "loadingQuestion": "Sedang menulis soalan seterusnya…",
     "playingFor": "Bermain untuk",
@@ -163,6 +155,12 @@
     "timeUp": "Masa tamat!",
     "theAnswerWas": "Jawapannya ialah {letter}: {text}",
     "didYouKnow": "Tahukah anda?",
+    "switchPrompt": "Sebelum kita tukar — apakah jawapan anda?",
+    "switchPromptHint": "Suka-suka sahaja: ia tidak dikira.",
+    "switchSkip": "Langkau, teruskan tukar",
+    "switchWouldBeRight": "Anda akan dapat jawapan betul!",
+    "switchWouldBeWrong": "Untung anda tukar!",
+    "switchComing": "Ini soalan baharu anda...",
     "walkAway": "Berhenti",
     "walkAwayTitle": "Ambil wang?",
     "walkAwayBody": "Jika anda berhenti sekarang, anda pulang dengan {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Tahap {level} — soalan semakin sukar",
     "penalty": "−{seconds}s",
     "fallbackNotice": "Penulis soalan kami sedang berehat, jadi permainan ini menggunakan soalan simpanan dalam bahasa Inggeris.",
-    "packNotice": "Bermain dengan pek soalan yang dimuat turun.",
+    "packNotice": "Anda luar talian — bermain dengan soalan yang disimpan pada peranti anda.",
     "keyboardHint": "Papan kekunci: A–D untuk memilih, Enter untuk mengesahkan, L untuk tangga, M untuk bunyi.",
     "report": "Laporkan kesilapan",
     "reportTitle": "Ada yang tidak kena dengan soalan ini?",
@@ -205,11 +203,12 @@
     "personalBest": "Rekod peribadi baharu!",
     "rank": "Kedudukan #{rank} di papan pendahulu",
     "newBadges": "{count, plural, other {# lencana baharu dibuka!}}",
-    "shareText": "Saya memenangi {amount} di Millionaire Quiz! Boleh kalahkan saya?",
-    "shareScoreText": "Saya dapat skor {score} dalam {mode} di Millionaire Quiz! Boleh kalahkan saya?",
+    "shareText": "Saya memenangi {amount} dalam Kuiz Jutawan! Bolehkah anda mengalahkan saya?",
+    "shareScoreText": "Saya mendapat skor {score} dalam {mode} pada Kuiz Jutawan! Bolehkah anda mengalahkan saya?",
     "backHome": "Kembali ke laman utama",
     "viewLeaderboard": "Lihat papan pendahulu",
-    "signInToSave": "Log masuk untuk menyimpan skor dan lencana anda di setiap peranti."
+    "signInToSave": "Log masuk untuk menyimpan skor dan lencana anda di setiap peranti.",
+    "signInToRank": "Log masuk untuk meletakkan skor seperti ini pada papan pendahulu."
   },
   "Lifelines": {
     "title": "Bantuan",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Tetapan",
-    "subtitle": "Bunyi, pek luar talian dan tetapan permainan lalai anda.",
+    "subtitle": "Bunyi, bahasa dan tetapan permainan Klasik anda.",
     "gameTitle": "Tetapan permainan",
+    "gameHint": "Ini terpakai untuk permainan Klasik. Marathon dan Serangan Masa adalah berkedudukan dan sentiasa menggunakan peraturan standard.",
+    "customised": "Bermain dengan tetapan tersuai anda.",
+    "change": "Tukar",
     "categories": "Kategori",
     "allCategories": "Semua kategori",
     "categoriesHint": "Pilih satu atau lebih, atau biarkan semua tidak dipilih untuk semua kategori.",
@@ -256,16 +258,6 @@
     "soundTitle": "Bunyi",
     "sound": "Kesan bunyi dan muzik",
     "volume": "Kelantangan",
-    "packsTitle": "Pek soalan luar talian",
-    "packsSubtitle": "Muat turun soalan untuk bahasa yang anda mahu mainkan tanpa sambungan. Setiap pek kira-kira 100 KB.",
-    "packCount": "{count, plural, other {# soalan}}",
-    "packDownload": "Muat turun",
-    "packDownloading": "Memuat turun…",
-    "packUpdate": "Kemas kini",
-    "packRemove": "Buang",
-    "packDownloaded": "Dimuat turun",
-    "packError": "Pek tidak dapat dimuat turun. Semak sambungan anda dan cuba lagi.",
-    "autoDownload": "Muat turun pek bahasa saya secara automatik",
     "installTitle": "Pasang aplikasi",
     "installBody": "Main dalam skrin penuh, di luar talian, dengan satu ketikan dari skrin utama anda.",
     "accountTitle": "Akaun"
@@ -375,26 +367,86 @@
     "earnedOn": "Diperoleh pada {date}",
     "unlocked": "Lencana dibuka",
     "items": {
-      "firstSteps": { "name": "Langkah Pertama", "description": "Jawab soalan pertama anda dengan betul." },
-      "safeHaven": { "name": "Tahap Selamat", "description": "Capai tahap selamat pertama dalam Klasik (soalan 5)." },
-      "halfWay": { "name": "Separuh Jalan", "description": "Capai tahap selamat kedua dalam Klasik (soalan 10)." },
-      "millionaire": { "name": "Jutawan", "description": "Jawab kesemua 15 soalan Klasik dan menangi sejuta." },
-      "purist": { "name": "Tulen", "description": "Menangi sejuta tanpa menggunakan sebarang bantuan." },
-      "smartExit": { "name": "Keluar Bijak", "description": "Berhenti dengan kemenangan anda pada soalan 12 atau selepasnya." },
-      "quickThinker": { "name": "Pemikir Pantas", "description": "Beri 10 jawapan betul dalam masa kurang 3 saat setiap satu." },
-      "marathon10": { "name": "Pelari Maraton", "description": "Jawab 10 soalan berturut-turut dengan betul dalam Maraton berperingkat." },
-      "marathon25": { "name": "Jarak Jauh", "description": "Jawab 25 soalan berturut-turut dengan betul dalam Maraton berperingkat." },
-      "marathon50": { "name": "Minda Besi", "description": "Jawab 50 soalan berturut-turut dengan betul dalam Maraton berperingkat." },
-      "marathon100": { "name": "Legenda", "description": "Jawab 100 soalan berturut-turut dengan betul dalam Maraton berperingkat." },
-      "timeAttack15": { "name": "Si Pantas", "description": "Dapatkan skor 15 dalam Lawan Masa berperingkat." },
-      "timeAttack30": { "name": "Kilat", "description": "Dapatkan skor 30 dalam Lawan Masa berperingkat." },
-      "polyglot3": { "name": "Poliglot", "description": "Main dalam 3 bahasa berbeza." },
-      "polyglot10": { "name": "Pengembara Dunia", "description": "Main dalam 10 bahasa berbeza." },
-      "streak3": { "name": "Sedang Rancak", "description": "Main 3 hari berturut-turut." },
-      "streak7": { "name": "Setia", "description": "Main 7 hari berturut-turut." },
-      "offlineHero": { "name": "Luar Rangkaian", "description": "Habiskan permainan semasa di luar talian." },
-      "savedByAFriend": { "name": "Diselamatkan Kawan", "description": "Ikut nasihat kawan anda dan jawab dengan betul." },
-      "categoryMaster": { "name": "Pakar Kategori", "description": "Jawab 25 soalan dengan betul dalam satu kategori." }
+      "firstSteps": {
+        "name": "Langkah Pertama",
+        "description": "Jawab soalan pertama anda dengan betul."
+      },
+      "safeHaven": {
+        "name": "Tahap Selamat",
+        "description": "Capai tahap selamat pertama dalam Klasik (soalan 5)."
+      },
+      "halfWay": {
+        "name": "Separuh Jalan",
+        "description": "Capai tahap selamat kedua dalam Klasik (soalan 10)."
+      },
+      "millionaire": {
+        "name": "Jutawan",
+        "description": "Jawab kesemua 15 soalan Klasik dan menangi sejuta."
+      },
+      "purist": {
+        "name": "Tulen",
+        "description": "Menangi sejuta tanpa menggunakan sebarang bantuan."
+      },
+      "smartExit": {
+        "name": "Keluar Bijak",
+        "description": "Berhenti dengan kemenangan anda pada soalan 12 atau selepasnya."
+      },
+      "quickThinker": {
+        "name": "Pemikir Pantas",
+        "description": "Beri 10 jawapan betul dalam masa kurang 3 saat setiap satu."
+      },
+      "marathon10": {
+        "name": "Pelari Maraton",
+        "description": "Jawab 10 soalan berturut-turut dengan betul dalam Maraton berperingkat."
+      },
+      "marathon25": {
+        "name": "Jarak Jauh",
+        "description": "Jawab 25 soalan berturut-turut dengan betul dalam Maraton berperingkat."
+      },
+      "marathon50": {
+        "name": "Minda Besi",
+        "description": "Jawab 50 soalan berturut-turut dengan betul dalam Maraton berperingkat."
+      },
+      "marathon100": {
+        "name": "Legenda",
+        "description": "Jawab 100 soalan berturut-turut dengan betul dalam Maraton berperingkat."
+      },
+      "timeAttack15": {
+        "name": "Si Pantas",
+        "description": "Dapatkan skor 15 dalam Lawan Masa berperingkat."
+      },
+      "timeAttack30": {
+        "name": "Kilat",
+        "description": "Dapatkan skor 30 dalam Lawan Masa berperingkat."
+      },
+      "polyglot3": {
+        "name": "Poliglot",
+        "description": "Main dalam 3 bahasa berbeza."
+      },
+      "polyglot10": {
+        "name": "Pengembara Dunia",
+        "description": "Main dalam 10 bahasa berbeza."
+      },
+      "streak3": {
+        "name": "Sedang Rancak",
+        "description": "Main 3 hari berturut-turut."
+      },
+      "streak7": {
+        "name": "Setia",
+        "description": "Main 7 hari berturut-turut."
+      },
+      "offlineHero": {
+        "name": "Luar Rangkaian",
+        "description": "Habiskan permainan semasa di luar talian."
+      },
+      "savedByAFriend": {
+        "name": "Diselamatkan Kawan",
+        "description": "Ikut nasihat kawan anda dan jawab dengan betul."
+      },
+      "categoryMaster": {
+        "name": "Pakar Kategori",
+        "description": "Jawab 25 soalan dengan betul dalam satu kategori."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Bantuan",
     "lifelinesBody": "Anda ada empat bantuan, dan setiap satu boleh digunakan sekali bagi setiap permainan:",
     "marathonTitle": "Maraton",
-    "marathonBody": "Larian tanpa henti. Soalan menjadi lebih sukar setiap lima jawapan betul, anda ada empat bantuan sekali setiap satu, dan anda diberi {seconds} saat untuk setiap soalan. Satu jawapan salah atau masa tamat menamatkan larian, dan skor anda ialah bilangan jawapan betul.",
+    "marathonBody": "Permainan tanpa henti. Soalan menjadi lebih sukar setiap lima jawapan betul, anda mempunyai empat talian hayat sekali setiap satu, dan anda mendapat {minutes, plural, one {# minit} other {# minit}} untuk setiap soalan. Satu jawapan salah atau tamat masa menamatkan permainan, dan skor anda ialah bilangan jawapan yang betul.",
     "timeAttackTitle": "Lawan Masa",
     "timeAttackBody": "Anda ada {seconds} saat untuk menjawab seberapa banyak soalan yang boleh. Jawapan salah tidak menamatkan larian, tetapi memotong {penalty} saat daripada jam. Tiada bantuan.",
     "rankedTitle": "Permainan berperingkat dan keadilan",
-    "rankedBody": "Larian Maraton dan Lawan Masa berperingkat diadili oleh pelayan kami: jawapan betul tidak pernah sampai ke peranti anda sebelum anda menjawab, dan masa dikira di pelayan. Log masuk dengan Google untuk bermain berperingkat. Larian dengan tetapan tersuai atau yang dimainkan di luar talian ialah larian latihan.",
+    "rankedBody": "Permainan Marathon dan Serangan Masa sentiasa diadili oleh pelayan kami: jawapan yang betul tidak pernah sampai ke peranti anda sebelum anda menjawab, dan masa dikawal pada pelayan. Sesiapa sahaja boleh bermain; log masuk dengan Google untuk meletakkan skor anda pada papan pendahulu.",
     "questionsTitle": "Tentang soalan",
-    "questionsBody": "Soalan ditulis oleh penulis soalan AI secara asli dalam setiap bahasa dan disemak secara automatik. Kira-kira 40% adalah tentang budaya tempat bahasa anda dituturkan. Jika sesuatu soalan nampak salah, gunakan “Laporkan kesilapan” selepas jawapan didedahkan."
+    "questionsBody": "Soalan ditulis oleh penulis soalan kecerdasan buatan secara natif dalam setiap bahasa dan disemak secara automatik. Kira-kira 40% adalah mengenai budaya tempat bahasa anda dituturkan. Jika soalan kelihatan salah, gunakan “Laporkan ralat” selepas jawapan mendedahkan."
   },
   "About": {
-    "title": "Perihal Millionaire Quiz",
-    "intro": "Millionaire Quiz ialah permainan kuiz percuma buatan peminat yang diilhamkan oleh format televisyen klasik — dibina semula untuk web, untuk telefon dan untuk 50 bahasa.",
+    "title": "Tentang Kuiz Jutawan",
+    "intro": "Kuiz Jutawan ialah permainan kuiz percuma buatan peminat yang diilhamkan oleh format televisyen klasik — dibina semula untuk web, telefon, dan 50 bahasa.",
     "missionTitle": "Mengapa kami membinanya",
     "missionBody": "Kebanyakan permainan kuiz ditulis dalam bahasa Inggeris dan kemudian diterjemah. Kami percaya kuiz sepatutnya terasa seperti di rumah sendiri: soalannya patut tentang orang, tempat, buku dan tradisi yang anda kenali sejak kecil, di samping dunia yang lebih luas.",
     "howTitle": "Bagaimana soalan dihasilkan",
     "howBody": "Model bahasa besar menulis setiap soalan secara asli dalam bahasa anda, secara berkelompok, mengikut peraturan ketat: satu jawapan yang jelas betul, empat pilihan yang munasabah, hanya fakta yang kukuh. Soalan disahkan secara automatik, disimpan dan disajikan kepada pemain; mana-mana pemain boleh melaporkan kesilapan.",
     "techTitle": "Di sebalik tabir",
-    "techBody": "Millionaire Quiz ialah aplikasi web progresif: ia boleh dipasang pada telefon atau komputer anda, berfungsi di luar talian dengan pek soalan yang boleh dimuat turun, dan menyegerakkan kemajuan anda apabila anda bersambung semula.",
+    "techBody": "Kuiz Jutawan ialah aplikasi web progresif: ia dipasang pada telefon atau komputer anda, berfungsi luar talian dengan soalan yang disimpan secara automatik, dan menyelaraskan kemajuan anda apabila anda menyambung semula.",
     "creditTitle": "Penghargaan",
     "creditBody": "Direka dan dibangunkan oleh {author}.",
-    "disclaimer": "Millionaire Quiz tidak bergabung dengan, disokong oleh atau berkaitan dengan mana-mana program televisyen, penyiar atau pemegang hak."
+    "disclaimer": "Kuiz Jutawan tidak bergabung dengan, disokong oleh atau berkaitan dengan mana-mana rancangan televisyen, penyiar atau pemegang hak."
   },
   "Legal": {
     "privacyTitle": "Dasar privasi",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Hak anda",
     "privacyRightsBody": "Anda boleh menukar nama paparan dan gambar anda pada bila-bila masa, dan anda boleh meminta kami memadam akaun anda serta semua data berkaitan dengan menghubungi pembangun.",
     "termsTitle": "Terma penggunaan",
-    "termsIntro": "Dengan bermain Millionaire Quiz, anda bersetuju dengan terma mudah ini.",
+    "termsIntro": "Dengan bermain Kuiz Jutawan, anda bersetuju dengan terma mudah ini.",
     "termsPlayTitle": "Main adil",
     "termsPlayBody": "Mainkan larian berperingkat dengan jujur. Permainan automatik, mengeksploitasi pepijat atau mengganggu papan pendahulu boleh menyebabkan larian anda dibuang.",
     "termsContentTitle": "Soalan dan ketepatan",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Pasang aplikasi",
-    "installTitle": "Pasang Millionaire Quiz",
+    "installTitle": "Pasang Kuiz Jutawan",
     "benefit": "Main dalam skrin penuh dan di luar talian, dengan satu ketikan dari skrin utama anda.",
     "iosTitle": "Pasang pada iPhone atau iPad",
     "iosStep1": "Ketik butang Kongsi pada bar alat Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Ketik “Tambah” — aplikasi akan muncul pada skrin utama anda.",
     "gotIt": "Faham"
   },
+  "Contact": {
+    "title": "Hubungi kami",
+    "subtitle": "Menemui ralat, mempunyai idea, atau memerlukan bantuan? Tulis kepada kami — kami membaca setiap mesej.",
+    "name": "Nama anda",
+    "nameRequired": "Sila masukkan nama anda.",
+    "email": "E-mel",
+    "emailRequired": "Sila masukkan e-mel anda supaya kami boleh membalas.",
+    "emailInvalid": "Alamat e-mel itu kelihatan tidak betul.",
+    "message": "Mesej",
+    "messageRequired": "Sila tulis mesej.",
+    "messagePlaceholder": "Bagaimana kami boleh membantu?",
+    "send": "Hantar mesej",
+    "error": "Mesej anda tidak dapat dihantar. Sila cuba sebentar lagi.",
+    "sentTitle": "Mesej dihantar!",
+    "sentBody": "Terima kasih kerana menulis. Kami akan membalas ke alamat e-mel yang anda berikan.",
+    "sendAnother": "Hantar mesej lain"
+  },
   "Auth": {
     "signedIn": "Selamat datang, {name}!",
     "signedOut": "Anda telah log keluar.",
+    "signInTitle": "Log masuk",
+    "signInSubtitle": "Sekali ketik dengan Google, dan kemajuan anda mengikut anda ke setiap peranti.",
+    "benefitRanked": "Letakkan skor Marathon dan Serangan Masa anda pada papan pendahulu global",
+    "benefitLeaderboard": "Pilih nama dan gambar yang dilihat oleh pemain lain",
+    "benefitSync": "Simpan skor terbaik Klasik, sejarah permainan dan lencana anda di mana-mana sahaja",
+    "privacyNote": "Kami hanya menggunakan nama, alamat e-mel dan gambar anda dari Google.",
+    "unavailable": "Log masuk tidak tersedia buat masa ini. Anda masih boleh bermain Klasik — kemajuan anda disimpan pada peranti ini.",
+    "alreadySignedIn": "Anda log masuk sebagai {name}.",
     "errors": {
       "google_unavailable": "Log masuk Google tidak tersedia buat masa ini.",
       "google_denied": "Log masuk dibatalkan.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, permainan kuiz, trivia, permainan siapa mahu jadi jutawan, kuiz percuma, kuiz dalam talian, pengetahuan am",
-    "homeTitle": "Millionaire Quiz — Siapa Mahu Jadi Jutawan? Main percuma dalam talian",
+    "homeTitle": "Kuiz Jutawan — Who Wants to Be a Millionaire? Main percuma dalam talian",
     "homeDescription": "Main permainan kuiz TV secara percuma dalam 50 bahasa. 15 soalan ke sejuta, empat bantuan, tahap selamat, serta mod Maraton dan Lawan Masa tanpa henti dengan papan pendahulu global.",
     "playTitle": "Kuiz Jutawan Klasik — 15 soalan ke sejuta",
     "playDescription": "Daki tangga wang daripada {first} hingga {top}: lima belas soalan, dua tahap selamat, empat bantuan. Percuma, tanpa pendaftaran, dalam bahasa anda.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Lencana — kumpul semuanya",
     "badgesDescription": "Dua puluh lencana untuk dimenangi dalam Klasik, Maraton dan Lawan Masa: menangi sejuta, kekalkan rentak, main dalam banyak bahasa.",
     "rulesTitle": "Cara bermain — peraturan, tangga wang dan bantuan",
-    "rulesDescription": "Peraturan penuh Millionaire Quiz: tangga wang, tahap selamat, berhenti, empat bantuan, Maraton dan Lawan Masa.",
-    "aboutTitle": "Perihal Millionaire Quiz",
-    "aboutDescription": "Permainan kuiz percuma buatan peminat dengan soalan tulisan AI dalam 50 bahasa, diilhamkan oleh format kuiz TV klasik.",
+    "rulesDescription": "Peraturan penuh Kuiz Jutawan: tangga wang, tempat selamat, menarik diri, empat talian hayat, Marathon dan Serangan Masa.",
+    "aboutTitle": "Tentang Kuiz Jutawan",
+    "aboutDescription": "Permainan kuiz percuma buatan peminat dengan soalan tulisan kecerdasan buatan dalam 50 bahasa, diilhamkan oleh format kuiz TV klasik.",
     "privacyTitle": "Dasar privasi",
-    "privacyDescription": "Apa yang disimpan oleh Millionaire Quiz, mengapa, dan cara memadamnya.",
+    "privacyDescription": "Apa yang disimpan oleh Kuiz Jutawan, mengapa, dan cara memadamkannya.",
     "termsTitle": "Terma penggunaan",
-    "termsDescription": "Peraturan mudah untuk bermain Millionaire Quiz dengan adil.",
+    "termsDescription": "Peraturan mudah untuk bermain Kuiz Jutawan secara adil.",
     "profileTitle": "Profil anda",
     "profileDescription": "Skor, kedudukan dan lencana anda.",
     "settingsTitle": "Tetapan",
-    "settingsDescription": "Bunyi, pek soalan luar talian dan tetapan permainan lalai."
+    "contactTitle": "Hubungi kami",
+    "contactDescription": "Soalan, idea atau ralat dalam soalan? Hantar mesej kepada pasukan Kuiz Jutawan.",
+    "signInTitle": "Log masuk",
+    "signInDescription": "Log masuk dengan Google untuk meletakkan skor anda pada papan pendahulu dan mengekalkan kemajuan anda pada setiap peranti.",
+    "settingsDescription": "Bunyi, bahasa dan tetapan permainan Klasik."
   }
 }

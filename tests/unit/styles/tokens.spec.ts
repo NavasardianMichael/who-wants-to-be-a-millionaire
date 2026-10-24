@@ -1,9 +1,10 @@
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { GOLD, SPOT, STUDIO, TEXT } from '@styles/tokens'
+import { antdTheme } from '@styles/theme'
+import { CORRECT, CSS_VAR_SCOPE, GOLD, LOCK, MAGENTA, SPOT, STUDIO, TEXT, WRONG } from '@styles/tokens'
 
-/** `tokens.ts` mirrors a few colours for JavaScript; each must still exist in globals.css §1. */
+/** globals.css §1 mirrors the ramps in `tokens.ts` (CSS cannot import JS); they must stay equal. */
 const css = readFileSync(path.resolve(__dirname, '../../../src/styles/globals.css'), 'utf8').toLowerCase()
 
 describe('design tokens', () => {
@@ -11,6 +12,10 @@ describe('design tokens', () => {
     ['studio', STUDIO],
     ['gold', GOLD],
     ['spot', SPOT],
+    ['magenta', MAGENTA],
+    ['lock', LOCK],
+    ['correct', CORRECT],
+    ['wrong', WRONG],
   ]
 
   it.each(mirrors)('%s ramp matches the stylesheet', (name, ramp) => {
@@ -20,5 +25,21 @@ describe('design tokens', () => {
   it('text colours match the stylesheet', () => {
     expect(css).toContain(`--color-ivory: ${TEXT.ivory};`)
     expect(css).toContain(`--color-mist: ${TEXT.mist};`)
+    expect(css).toContain(`--color-mist-dim: ${TEXT.mistDim};`)
+  })
+
+  it('antd scopes its variables to the class the layout stamps on <html>', () => {
+    expect(antdTheme.cssVar).toMatchObject({ prefix: 'ant', key: CSS_VAR_SCOPE })
+  })
+
+  it('declares the antd cascade layer between preflight and utilities', () => {
+    expect(css).toContain('@layer theme, base, antd, components, utilities;')
+  })
+
+  it('names `--ant-*` variables only in the §2 alias block', () => {
+    const start = css.indexOf('§2 antd aliases ─')
+    const end = css.indexOf('§3 base ─')
+    const outside = css.slice(0, start) + css.slice(end)
+    expect(outside).not.toMatch(/var\(--ant-/)
   })
 })

@@ -4,6 +4,7 @@ export type AnalyticsEvent =
   | 'game_start'
   | 'game_end'
   | 'lifeline_used'
+  | 'switch_preview'
   | 'question_reported'
   | 'pack_downloaded'
   | 'sign_in_clicked'

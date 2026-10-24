@@ -9,7 +9,8 @@
 - **Validation:** no schema library; read bodies with `lib/request.ts` helpers and the `is*`
   guards in `lib/game.ts` / `lib/locales.ts`.
 - **Config:** every `process.env` read lives in `config.ts` (a gate enforces it). Each secret has
-  one reader: `GEMINI_KEY` → `lib/gemini.ts`, Google secret → `lib/google-oauth.ts`.
+  one reader: `GEMINI_KEY` → `lib/gemini.ts`, Google secret → `lib/google-oauth.ts`,
+  `MAIL_API_KEY` → `lib/mail.ts` (contact form only; nothing is stored).
 - **Security:** `requireSameOrigin` on every write, `optionalAuth` globally, `requireAuth` on
   private routers, per-route `rateLimit`, `trust proxy` = 1 (nginx).
 - **Gemini:** call through `generateJson` (model chain + cooldowns). Code decides outcomes
@@ -17,7 +18,9 @@
   answer is validated before it is stored or shown.
 - **Pool:** generated questions are kept (`Question`, unique per locale + hash). Serving draws
   least-served first; generation happens only for a short bucket; the English seed is last.
-- **Ranked runs:** the run row is the referee. `services/runRules.ts` is pure and unit-tested;
+- **Ranked runs:** the run row is the referee, for users and guests alike (`RunOwner`: a
+  `userId`, or a `guestId` from the `millionaire_guest` cookie). Leaderboard SQL counts only
+  runs with a user. `services/runRules.ts` is pure and unit-tested;
   never put `correctIndex` in a `RunView`.
 - **Jobs** start in `index.ts` only (`poolRefill`, `runSweeper`), never in `createApp`, so tests
   never poll.

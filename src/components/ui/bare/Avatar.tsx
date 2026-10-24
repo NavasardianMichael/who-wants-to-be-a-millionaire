@@ -1,3 +1,4 @@
+import { Avatar as AntAvatar } from 'antd'
 import { cn } from '@helpers/cn'
 import { resolveAvatarUrl } from '@helpers/url'
 
@@ -8,6 +9,9 @@ export type AvatarProps = {
   className?: string
 }
 
+const SIZES = { sm: 32, md: 40, lg: 64, xl: 112 } as const
+const TEXT = { sm: 'text-caption', md: 'text-body-sm', lg: 'text-h3', xl: 'text-h2' } as const
+
 const initials = (name: string): string =>
   name
     .split(/\s+/)
@@ -16,24 +20,23 @@ const initials = (name: string): string =>
     .map((part) => part[0]!.toLocaleUpperCase())
     .join('') || '?'
 
-/** A plain `<img>`: avatars come from Google or the API, and `referrerPolicy` keeps Google's CDN from 403-ing. */
+/**
+ * antd's `Avatar` with initials as the fallback. The image is our own `<img>` so it can
+ * carry `referrerPolicy` — without it Google's avatar CDN answers 403.
+ */
 export const Avatar = ({ name, url, size = 'md', className }: AvatarProps) => {
   const src = resolveAvatarUrl(url)
-  const sizeClass = { sm: 'size-8 text-caption', md: 'size-10 text-body-sm', lg: 'size-16 text-h3', xl: 'size-28 text-h2' }[size]
-
   return (
-    <span
+    <AntAvatar
+      size={SIZES[size]}
+      src={src ? <img src={src} alt='' referrerPolicy='no-referrer' loading='lazy' /> : undefined}
       className={cn(
-        'relative inline-flex shrink-0 items-center justify-center overflow-hidden rounded-full border border-gold-400/50 bg-studio-700 font-display font-bold text-gold-200',
-        sizeClass,
+        'shrink-0 border border-gold-400/50 bg-[linear-gradient(160deg,var(--color-studio-500),var(--color-studio-800))] font-display font-bold text-gold-200',
+        TEXT[size],
         className
       )}
     >
-      {src ? (
-        <img src={src} alt='' referrerPolicy='no-referrer' loading='lazy' className='size-full object-cover' />
-      ) : (
-        <span aria-hidden>{initials(name)}</span>
-      )}
-    </span>
+      <span aria-hidden>{initials(name)}</span>
+    </AntAvatar>
   )
 }

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { Input } from 'antd'
 import { useTranslations } from 'next-intl'
 import { reportQuestionAPI } from '@api/questions/main'
 import { toast } from '@store/toast/store'
@@ -40,6 +41,7 @@ export const ReportQuestionDialog = ({ questionId, open, onClose }: { questionId
     <Dialog
       open={open}
       onClose={onClose}
+      pending={pending}
       title={t('reportTitle')}
       footer={
         <Button onClick={send} loading={pending} size='sm'>
@@ -47,18 +49,16 @@ export const ReportQuestionDialog = ({ questionId, open, onClose }: { questionId
         </Button>
       }
     >
-      <label className='flex flex-col gap-2'>
-        <span className='sr-only'>{t('reportPlaceholder')}</span>
-        <textarea
-          value={reason}
-          onChange={(event) => setReason(event.target.value)}
-          maxLength={200}
-          rows={3}
-          placeholder={t('reportPlaceholder')}
-          className='w-full rounded-xl border border-spot-300/25 bg-studio-950/70 p-3 text-ivory placeholder:text-mist-dim focus:border-gold-300 focus:outline-none'
-        />
-      </label>
-      {Boolean(error) && <ErrorAlert error={error} className='mt-3' />}
+      <Input.TextArea
+        aria-label={t('reportPlaceholder')}
+        value={reason}
+        onChange={(event) => setReason(event.target.value)}
+        maxLength={200}
+        showCount
+        autoSize={{ minRows: 3, maxRows: 6 }}
+        placeholder={t('reportPlaceholder')}
+      />
+      {Boolean(error) && <ErrorAlert error={error} className='mt-6' />}
     </Dialog>
   )
 }

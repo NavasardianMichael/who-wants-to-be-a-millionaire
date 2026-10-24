@@ -9,12 +9,10 @@ import { SettingsActions, SettingsState } from './types'
 
 const initialState: SettingsState = {
   game: DEFAULT_SETTINGS,
-  autoDownloadPack: true,
   isHydrated: false,
 }
 
-const persist = (state: SettingsState) =>
-  writeJson(STORAGE_KEYS.settings, { game: state.game, autoDownloadPack: state.autoDownloadPack })
+const persist = (state: SettingsState) => writeJson(STORAGE_KEYS.settings, { game: state.game })
 
 export const useSettingsStoreBase = create<SettingsState & SettingsActions>()(
   immer(
@@ -22,10 +20,9 @@ export const useSettingsStoreBase = create<SettingsState & SettingsActions>()(
       initialState,
       (set, get): SettingsActions => ({
         hydrateSettings: () => {
-          const stored = readJson<{ game?: unknown; autoDownloadPack?: unknown }>(STORAGE_KEYS.settings, {})
+          const stored = readJson<{ game?: unknown }>(STORAGE_KEYS.settings, {})
           set((state) => {
             state.game = sanitizeSettings(stored.game)
-            state.autoDownloadPack = stored.autoDownloadPack !== false
             state.isHydrated = true
           })
         },
@@ -38,12 +35,6 @@ export const useSettingsStoreBase = create<SettingsState & SettingsActions>()(
         resetGameSettings: () => {
           set((state) => {
             state.game = DEFAULT_SETTINGS
-          })
-          persist(get())
-        },
-        setAutoDownloadPack: (value) => {
-          set((state) => {
-            state.autoDownloadPack = value
           })
           persist(get())
         },

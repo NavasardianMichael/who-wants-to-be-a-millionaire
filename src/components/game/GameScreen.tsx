@@ -1,23 +1,23 @@
 'use client'
 
 import { useCallback, useEffect, useState } from 'react'
-import { Flag, Landmark, ListOrdered, LogOut } from 'lucide-react'
+import { Flag, Landmark, ListOrdered, LogOut, Repeat } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useAudioStore } from '@store/audio/store'
 import { useGameSessionStore } from '@store/game/session/store'
 import { useCountdown } from '@hooks/useCountdown'
+import { useLeaveGuard } from '@hooks/useLeaveGuard'
 import { type GameMode, MARATHON_RULES, OPTION_LETTERS, STAGES_COUNT, TIME_ATTACK_RULES } from '@constants/game'
 import { cn } from '@helpers/cn'
 import { guaranteedAmount, isSafeHaven, prizeForStage, walkAwayAmount } from '@helpers/game/ladder'
-import { classicSeconds, marathonSeconds } from '@helpers/game/settings'
+import { classicSeconds } from '@helpers/game/settings'
 import { formatMoney } from '@helpers/money'
 import { Emblem } from '@components/brand/Emblem'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { IconButton } from '@components/ui/IconButton'
-import { Spinner } from '@components/ui/Spinner'
 import { AnswerGrid } from './AnswerGrid'
 import { AudiencePanel } from './AudiencePanel'
 import { GameSetup } from './GameSetup'
@@ -28,6 +28,7 @@ import { PrizeLadder } from './PrizeLadder'
 import { QuestionPanel } from './QuestionPanel'
 import { isReportable, ReportQuestionDialog } from './ReportQuestionDialog'
 import { ResultScreen } from './ResultScreen'
+import { StudioLoader } from './StudioLoader'
 import { TimerRing } from './TimerRing'
 
 /**
@@ -58,6 +59,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
     lifelinesUsed,
     busyLifeline,
     overlay,
+    switchPreview,
     questionDeadline,
     runEndsAt,
     penaltyCount,
@@ -76,6 +78,9 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
     return () => quitGame()
   }, [mode, quitGame])
 
+  // A game in progress is lost by leaving the page; ask first.
+  useLeaveGuard(phase !== 'idle' && phase !== 'ended' && (ranked ? 'rankedGame' : 'game'))
+
   const playing = phase === 'asking' || phase === 'selected'
   const timeUp = store.timeUp
   const questionRemaining = useCountdown(questionDeadline, timeUp, !playing || overlay?.type === 'phoneAFriend')
@@ -85,7 +90,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
     mode === 'classic' && settings
       ? (classicSeconds(stage, settings.timer) ?? 0) * 1000
       : mode === 'marathon'
-        ? (ranked ? MARATHON_RULES.questionSeconds : (settings && marathonSeconds(settings.timer)) || 0) * 1000
+        ? MARATHON_RULES.questionSeconds * 1000
         : 0
 
   const onKey = useCallback(
@@ -123,7 +128,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
         end={end}
         mode={mode}
         ranked={ranked}
-        onPlayAgain={() => settings && store.startGame({ mode, locale, settings, ranked })}
+        onPlayAgain={() => settings && store.startGame({ mode, locale, settings })}
       />
     )
   }
@@ -212,7 +217,6 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
               <>
                 <span className='text-caption font-bold tracking-widest text-spot-300 uppercase'>{t('Game.score')}</span>
                 <span className='font-display text-h2 font-black text-gold-gradient tabular'>{correctCount}</span>
-                <span className='text-caption text-mist'>{ranked ? t('Modes.ranked') : t('Modes.practice')}</span>
               </>
             )}
           </div>
@@ -229,16 +233,13 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
         {/* The stage: lifeline results, notices and the reveal feedback. */}
         <div className='flex min-h-28 flex-1 flex-col items-center justify-center gap-3 py-2' aria-live='polite'>
           {source !== 'online' && phase !== 'loading' && (
-            <p className='rounded-full border border-lock-500/40 bg-lock-500/10 px-4 py-1.5 text-center text-caption text-lock-300'>
+            <p className='rounded-tag border border-lock-500/40 bg-lock-500/10 px-4 py-1.5 text-center text-caption text-lock-300'>
               {source === 'pack' ? t('Game.packNotice') : t('Game.fallbackNotice')}
             </p>
           )}
 
           {phase === 'loading' && (
-            <div role='status' className='flex flex-col items-center gap-3 text-mist'>
-              <Spinner size='lg' className='text-gold-300' />
-              <span>{stage === 1 && correctCount === 0 ? t('Game.loading') : t('Game.loadingQuestion')}</span>
-            </div>
+            <StudioLoader label={stage === 1 && correctCount === 0 ? t('Game.loading') : t('Game.loadingQuestion')} />
           )}
 
           {/* The set between beats: the emblem under its spotlight. Phones keep the space for the board. */}
@@ -284,9 +285,46 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
                 </p>
               )}
               {showSafeHaven && (
-                <p className='mt-2 rounded-full bg-gold-400/15 px-4 py-1 font-display font-bold text-gold-200 sweep-gold'>
+                <p className='mt-2 rounded-tag bg-gold-400/15 px-4 py-1 font-display font-bold text-gold-200 sweep-gold'>
                   {t('Game.safeHavenReached', { amount: formatMoney(prizeForStage(answered), locale) })}
                 </p>
+              )}
+            </motion.div>
+          )}
+
+          {/* Switch the Question: "what would you have said?" — revealed, never scored, then the new question. */}
+          {phase === 'switching' && switchPreview && (
+            <motion.div
+              initial={reduce ? false : { opacity: 0, scale: 0.92 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className='panel-chrome flex w-full max-w-md flex-col items-center gap-2 p-4 text-center'
+            >
+              {switchPreview.status === 'choosing' ? (
+                <>
+                  <p className='flex items-center gap-2 font-display text-h3 font-black text-spot-100'>
+                    <Repeat aria-hidden className='size-5 shrink-0 text-gold-300' />
+                    {t('Game.switchPrompt')}
+                  </p>
+                  <p className='text-body-sm text-mist'>{t('Game.switchPromptHint')}</p>
+                  <Button variant='ghost' size='sm' onClick={() => void store.previewSwitchAnswer(null)}>
+                    {t('Game.switchSkip')}
+                  </Button>
+                </>
+              ) : (
+                <>
+                  <p className={cn('font-display text-h2 font-black', switchPreview.correct ? 'text-correct-300' : 'text-wrong-300')}>
+                    {switchPreview.correct ? t('Game.switchWouldBeRight') : t('Game.switchWouldBeWrong')}
+                  </p>
+                  {!switchPreview.correct && question && (
+                    <p className='text-body-sm text-mist'>
+                      {t('Game.theAnswerWas', {
+                        letter: OPTION_LETTERS[switchPreview.correctIndex] ?? '',
+                        text: question.options[switchPreview.correctIndex] ?? '',
+                      })}
+                    </p>
+                  )}
+                  <p className='text-caption tracking-widest text-spot-300 uppercase'>{t('Game.switchComing')}</p>
+                </>
               )}
             </motion.div>
           )}
@@ -298,14 +336,15 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
                 initial={reduce ? false : { opacity: 0, scale: 0.92 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.92 }}
-                className='panel-gold flex w-full max-w-md flex-col items-center gap-3 p-4 text-center'
+                className='panel-gold flex w-full max-w-xl flex-col items-center gap-3 p-4 text-center'
               >
                 <p className='font-display text-h3 font-black text-lock-300'>{t('Game.finalAnswerPrompt')}</p>
-                <div className='flex w-full gap-2'>
-                  <Button variant='ghost' onClick={store.cancelSelection} className='flex-1'>
+                {/* Wraps instead of overflowing: some languages' labels are twice as long. */}
+                <div className='flex w-full flex-wrap justify-center gap-2'>
+                  <Button variant='ghost' onClick={store.cancelSelection} className='grow'>
                     {t('Game.changeAnswer')}
                   </Button>
-                  <Button onClick={() => void store.confirmAnswer()} className='flex-1'>
+                  <Button onClick={() => void store.confirmAnswer()} className='grow'>
                     {t('Game.finalAnswer')}
                   </Button>
                 </div>
@@ -345,7 +384,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
               <span className='text-caption font-bold tracking-widest text-spot-300 uppercase'>{t(`Modes.${mode}.name`)}</span>
               <span className='font-display text-display font-black text-gold-gradient tabular'>{correctCount}</span>
               <span className='text-mist'>{t('Game.correctCount', { count: correctCount })}</span>
-              {question && <span className='mt-2 rounded-full bg-spot-500/15 px-3 py-1 text-body-sm text-spot-100'>{t('Common.levelNumber', { level: question.level })}</span>}
+              {question && <span className='mt-2 rounded-tag bg-spot-500/15 px-3 py-1 text-body-sm text-spot-100'>{t('Common.levelNumber', { level: question.level })}</span>}
             </div>
           )}
         </div>

@@ -12,8 +12,10 @@ import {
   levelFor,
   LIFELINE_EXTRA_MS,
   questionDeadline,
+  SWITCH_PREVIEW_MS,
 } from './runRules.js'
 import { type BadgeId, isLifeline, type Level, type Lifeline, type RankedMode } from '../lib/game.js'
+import type { RunOwner } from '../lib/guest.js'
 import { audienceVotes, fiftyFifty } from '../lib/lifelines.js'
 import type { Locale } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
@@ -82,10 +84,13 @@ const displayOrder = (question: PoolQuestion): number[] => shuffledOrder(questio
 
 const clockOf = (run: Run) => ({ mode: run.mode as RankedMode, endsAt: run.endsAt, currentDeadline: run.currentDeadline })
 
-const loadOwnRun = async (runId: string, userId: string): Promise<Run> => {
+const ownedBy = (owner: RunOwner) => (owner.userId ? { userId: owner.userId } : { guestId: owner.guestId })
+
+const loadOwnRun = async (runId: string, owner: RunOwner): Promise<Run> => {
   const run = await prisma.run.findUnique({ where: { id: runId } })
+  const mine = run && (owner.userId ? run.userId === owner.userId : run.guestId === owner.guestId)
   // 404 for someone else's run too — no need to confirm it exists.
-  if (!run || run.userId !== userId) throw new HttpError(404, 'Run not found', 404)
+  if (!run || !mine) throw new HttpError(404, 'Run not found', 404)
   return run
 }
 
@@ -94,7 +99,8 @@ const finishRun = async (run: Run, data: Partial<Run> = {}): Promise<{ run: Run;
     where: { id: run.id },
     data: { ...data, status: 'finished', finishedAt: new Date(), currentQuestionId: null, currentDeadline: null },
   })
-  const badges = await awardBadges(finished.userId, runBadges(finished.mode as RankedMode, finished.correctCount))
+  // Badges live on accounts; a guest's run earns none on the server.
+  const badges = finished.userId ? await awardBadges(finished.userId, runBadges(finished.mode as RankedMode, finished.correctCount)) : []
   return { run: finished, badges }
 }
 
@@ -107,16 +113,16 @@ export const sweepStaleRuns = async (): Promise<number> => {
   return stale.length
 }
 
-export const startRun = async (userId: string, mode: RankedMode, locale: Locale): Promise<RunView> => {
+export const startRun = async (owner: RunOwner, mode: RankedMode, locale: Locale): Promise<RunView> => {
   // One live run per mode: starting again forfeits the old one at its current score.
-  const live = await prisma.run.findMany({ where: { userId, mode, status: 'active' } })
+  const live = await prisma.run.findMany({ where: { ...ownedBy(owner), mode, status: 'active' } })
   for (const run of live) await finishRun(run)
 
   const question = await getRunQuestion(locale, 1, [])
   const now = new Date()
   const run = await prisma.run.create({
     data: {
-      userId,
+      ...ownedBy(owner),
       mode,
       locale,
       endsAt: initialEndsAt(mode, now),
@@ -130,8 +136,8 @@ export const startRun = async (userId: string, mode: RankedMode, locale: Locale)
   return toView(run, question)
 }
 
-export const getRun = async (runId: string, userId: string): Promise<RunView> => {
-  let run = await loadOwnRun(runId, userId)
+export const getRun = async (runId: string, owner: RunOwner): Promise<RunView> => {
+  let run = await loadOwnRun(runId, owner)
   if (run.status === 'active' && isStale(clockOf(run), new Date())) run = (await finishRun(run)).run
   const question = run.currentQuestionId ? await getQuestionById(run.currentQuestionId) : null
   return toView(run, question)
@@ -150,11 +156,11 @@ export type AnswerResult = {
 /** `index` is the shown index, or null when the client reports its own timeout. */
 export const answerRun = async (
   runId: string,
-  userId: string,
+  owner: RunOwner,
   questionId: string,
   index: number | null
 ): Promise<AnswerResult> => {
-  const run = await loadOwnRun(runId, userId)
+  const run = await loadOwnRun(runId, owner)
   if (run.status !== 'active') throw new HttpError(409, 'Run is already finished', 409)
   if (run.currentQuestionId !== questionId) throw new HttpError(409, 'Not the current question', 409)
 
@@ -208,11 +214,13 @@ export type LifelineResult = {
   removed?: number[]
   votes?: number[]
   friend?: FriendAnswer
+  /** Switch the Question: the discarded question's answer, safe to reveal once it is retired from the run. */
+  switched?: { correctIndex: number; explanation: string | null }
   run: RunView
 }
 
-export const useRunLifeline = async (runId: string, userId: string, lifeline: Lifeline): Promise<LifelineResult> => {
-  const run = await loadOwnRun(runId, userId)
+export const useRunLifeline = async (runId: string, owner: RunOwner, lifeline: Lifeline): Promise<LifelineResult> => {
+  const run = await loadOwnRun(runId, owner)
   const mode = run.mode as RankedMode
   if (run.status !== 'active' || !run.currentQuestionId) throw new HttpError(409, 'Run is already finished', 409)
   if (!allowedLifelines(mode).includes(lifeline)) throw new HttpError(400, 'Lifeline not allowed in this mode', 400)
@@ -233,6 +241,7 @@ export const useRunLifeline = async (runId: string, userId: string, lifeline: Li
 
   if (lifeline === 'switchQuestion') {
     const next = await getRunQuestion(run.locale as Locale, level, run.servedQuestionIds)
+    const nextDeadline = questionDeadline(mode, now)
     const updated = await prisma.run.update({
       where: { id: run.id },
       data: {
@@ -240,12 +249,17 @@ export const useRunLifeline = async (runId: string, userId: string, lifeline: Li
         currentQuestionId: next.id,
         currentOrder: displayOrder(next),
         removedIndexes: [],
+        // Answer time counts from now, preview included, so the tie-break cannot be gamed through it.
         questionShownAt: now,
-        currentDeadline: questionDeadline(mode, now),
+        currentDeadline: nextDeadline && new Date(nextDeadline.getTime() + SWITCH_PREVIEW_MS),
         servedQuestionIds: { push: next.id },
       },
     })
-    return { lifeline, run: toView(updated, next) }
+    return {
+      lifeline,
+      switched: { correctIndex: correctShown, explanation: question.explanation },
+      run: toView(updated, next),
+    }
   }
 
   if (lifeline === 'fiftyFifty') {

@@ -67,5 +67,12 @@ export const LIFELINE_EXTRA_MS: Partial<Record<Lifeline, number>> = {
   askAudience: 8_000,
 }
 
+/**
+ * Switch the Question first asks which answer the player would have given to the discarded
+ * question (for fun, never scored), then shows the new one. The new question's clock gets
+ * this allowance so that beat does not eat into its thinking time.
+ */
+export const SWITCH_PREVIEW_MS = 15_000
+
 /** Whether an abandoned active run is past saving — the sweeper finishes it as it stands. */
 export const isStale = (clock: RunClock, now: Date): boolean => !isInTime(clock, now)

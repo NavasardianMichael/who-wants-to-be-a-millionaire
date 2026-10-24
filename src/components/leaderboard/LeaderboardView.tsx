@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { ChevronLeft, ChevronRight, Search } from 'lucide-react'
+import { Empty, Input, Pagination, Select } from 'antd'
+import { Search } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
@@ -14,7 +15,6 @@ import { isRankedMode, RANKED_MODES } from '@constants/game'
 import { ROUTES } from '@constants/routes'
 import { cn } from '@helpers/cn'
 import { ButtonLink } from '@components/ui/bare/AppLink'
-import { Button } from '@components/ui/Button'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { SegmentedControl } from '@components/ui/SegmentedControl'
 import { LeaderboardTable } from './LeaderboardTable'
@@ -113,7 +113,6 @@ export const LeaderboardView = ({ initial }: { initial: LeaderboardPage | null }
         <div className='flex flex-wrap gap-3'>
           <SegmentedControl
             label={t('Leaderboard.allTime')}
-            size='sm'
             value={query.period}
             onChange={(period) => navigate({ period })}
             options={[
@@ -121,39 +120,35 @@ export const LeaderboardView = ({ initial }: { initial: LeaderboardPage | null }
               { value: 'week', label: t('Leaderboard.thisWeek') },
             ]}
           />
-          <label className='relative'>
-            <span className='sr-only'>{t('Common.language')}</span>
-            <select
-              value={query.locale ?? ''}
-              onChange={(event) => navigate({ locale: isLocale(event.target.value) ? event.target.value : undefined })}
-              className='h-10 rounded-full border border-spot-300/25 bg-studio-950/70 px-4 text-body-sm text-ivory focus:border-gold-300 focus:outline-none'
-            >
-              <option value=''>{t('Leaderboard.allLanguages')}</option>
-              {LOCALES.map((locale) => (
-                <option key={locale} value={locale}>
-                  {LOCALE_LABELS[locale]}
-                </option>
-              ))}
-            </select>
-          </label>
+          <Select
+            showSearch={{ optionFilterProp: 'label' }}
+            aria-label={t('Common.language')}
+            value={query.locale ?? ''}
+            onChange={(value: string) => navigate({ locale: isLocale(value) ? value : undefined })}
+            options={[
+              { value: '', label: t('Leaderboard.allLanguages') },
+              ...LOCALES.map((locale) => ({ value: locale, label: LOCALE_LABELS[locale] })),
+            ]}
+            popupMatchSelectWidth={false}
+            className='min-w-48'
+          />
         </div>
       </div>
 
-      <label className='relative block'>
-        <span className='sr-only'>{t('Leaderboard.searchLabel')}</span>
-        <Search aria-hidden className='pointer-events-none absolute inset-s-4 top-1/2 size-5 -translate-y-1/2 text-mist' />
-        <input
-          type='search'
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-          placeholder={t('Leaderboard.searchPlaceholder')}
-          maxLength={40}
-          className='h-12 w-full rounded-full border border-spot-300/25 bg-studio-950/70 ps-12 pe-4 text-ivory placeholder:text-mist-dim focus:border-gold-300 focus:outline-none'
-        />
-      </label>
+      <Input
+        type='search'
+        size='large'
+        allowClear
+        aria-label={t('Leaderboard.searchLabel')}
+        value={search}
+        onChange={(event) => setSearch(event.target.value)}
+        placeholder={t('Leaderboard.searchPlaceholder')}
+        maxLength={40}
+        prefix={<Search aria-hidden className='size-5 text-mist' />}
+      />
 
       {page?.viewer && !viewerOnPage && (
-        <div className='panel-gold flex items-center justify-between gap-3 px-5 py-3'>
+        <div className='panel-gold flex items-center justify-between gap-3 px-5 py-3' aria-live='polite'>
           <span className='font-semibold'>{t('Leaderboard.yourBest')}</span>
           <span className='font-display font-black text-gold-200 tabular'>
             #{page.viewer.rank} · {page.viewer.score}
@@ -167,29 +162,26 @@ export const LeaderboardView = ({ initial }: { initial: LeaderboardPage | null }
         {page && page.entries.length > 0 ? (
           <LeaderboardTable entries={page.entries} viewerId={user?.id} caption={`${t('Leaderboard.title')} — ${modeName}`} />
         ) : (
-          <div className='panel flex flex-col items-center gap-4 p-10 text-center'>
-            <p className='text-mist'>{query.q ? t('Leaderboard.noResults', { query: query.q }) : t('Leaderboard.empty')}</p>
-            <ButtonLink href={query.mode === 'marathon' ? ROUTES.marathon : ROUTES.timeAttack}>{t('Leaderboard.playToRank')}</ButtonLink>
+          <div className='panel p-10'>
+            <Empty
+              image={Empty.PRESENTED_IMAGE_SIMPLE}
+              description={<span className='text-mist'>{query.q ? t('Leaderboard.noResults', { query: query.q }) : t('Leaderboard.empty')}</span>}
+            >
+              <ButtonLink href={query.mode === 'marathon' ? ROUTES.marathon : ROUTES.timeAttack}>{t('Leaderboard.playToRank')}</ButtonLink>
+            </Empty>
           </div>
         )}
       </div>
 
       {pages > 1 && (
-        <nav aria-label={t('Leaderboard.pagination', { page: query.page, pages })} className='flex items-center justify-center gap-3'>
-          <Button
-            variant='outline'
-            size='sm'
-            disabled={query.page <= 1}
-            onClick={() => navigate({ page: query.page - 1 })}
-            icon={<ChevronLeft aria-hidden className='size-4 rtl:-scale-x-100' />}
-          >
-            {t('Leaderboard.previous')}
-          </Button>
-          <span className='text-body-sm text-mist'>{t('Leaderboard.pagination', { page: query.page, pages })}</span>
-          <Button variant='outline' size='sm' disabled={query.page >= pages} onClick={() => navigate({ page: query.page + 1 })}>
-            {t('Leaderboard.next')}
-            <ChevronRight aria-hidden className='size-4 rtl:-scale-x-100' />
-          </Button>
+        <nav aria-label={t('Leaderboard.pagination', { page: query.page, pages })} className='flex justify-center'>
+          <Pagination
+            current={query.page}
+            total={page?.total ?? 0}
+            pageSize={page?.pageSize ?? 1}
+            showSizeChanger={false}
+            onChange={(next) => navigate({ page: next })}
+          />
         </nav>
       )}
     </div>

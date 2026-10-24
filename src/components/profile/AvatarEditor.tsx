@@ -1,6 +1,7 @@
 'use client'
 
-import { type ChangeEvent, useRef, useState } from 'react'
+import { Spin, Upload } from 'antd'
+import ImgCrop from 'antd-img-crop'
 import { Camera, Trash2 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useProfileStore } from '@store/profile/single/store'
@@ -8,16 +9,16 @@ import { toast } from '@store/toast/store'
 import type { SessionUser } from '@interfaces/entities'
 import { Avatar } from '@components/ui/bare/Avatar'
 import { Button } from '@components/ui/Button'
-import { Dialog } from '@components/ui/Dialog'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 
 const MAX_BYTES = 5 * 1024 * 1024
 const ACCEPT = 'image/jpeg,image/png,image/webp,image/gif,image/avif'
 
 /**
- * Pick → preview in the same circle the leaderboard uses → upload. The server crops to a
- * centred square (`sharp`, attention-based), so the preview shows exactly that framing.
- * Size and type are checked here first only to save a doomed upload; the server decides.
+ * Pick → crop (antd-img-crop: a round mask, zoom and rotate, in an antd Modal) → upload.
+ * `Upload` never sends anything itself (`beforeUpload` returns false); the cropped file goes
+ * through the profile store like every other API call. Size and type are checked before the
+ * cropper opens only to save a doomed upload — the server decides.
  */
 export const AvatarEditor = ({ user }: { user: SessionUser }) => {
   const t = useTranslations('Profile')
@@ -26,75 +27,64 @@ export const AvatarEditor = ({ user }: { user: SessionUser }) => {
   const removeAvatar = useProfileStore.use.removeAvatar()
   const isSaving = useProfileStore.use.isSaving()
   const saveError = useProfileStore.use.saveError()
-  const inputRef = useRef<HTMLInputElement>(null)
-  const [file, setFile] = useState<File | null>(null)
-  const [preview, setPreview] = useState<string | null>(null)
 
-  // The object URL is created on pick and revoked on close, so a preview never outlives its dialog.
-  const onPick = (event: ChangeEvent<HTMLInputElement>) => {
-    const picked = event.target.files?.[0]
-    event.target.value = ''
-    if (!picked) return
-    if (!picked.type.startsWith('image/')) return toast(t('avatarInvalid'), 'error')
-    if (picked.size > MAX_BYTES) return toast(t('avatarTooLarge'), 'error')
-    setFile(picked)
-    setPreview(URL.createObjectURL(picked))
-  }
-
-  const close = () => {
-    if (preview) URL.revokeObjectURL(preview)
-    setFile(null)
-    setPreview(null)
-  }
-
-  const confirm = async () => {
-    if (file && (await uploadAvatar(file))) {
-      toast(tCommon('saved'), 'success')
-      close()
+  const check = (file: File) => {
+    if (!file.type.startsWith('image/')) {
+      toast(t('avatarInvalid'), 'error')
+      return false
     }
+    if (file.size > MAX_BYTES) {
+      toast(t('avatarTooLarge'), 'error')
+      return false
+    }
+    return true
+  }
+
+  const upload = async (file: File) => {
+    if (await uploadAvatar(file)) toast(tCommon('saved'), 'success')
   }
 
   return (
     <div className='flex flex-col items-center gap-3'>
-      <div className='relative'>
-        <Avatar name={user.displayName} url={user.avatarUrl} size='xl' className='shadow-glow-gold' />
-        <button
-          type='button'
-          onClick={() => inputRef.current?.click()}
-          aria-label={t('changeAvatar')}
-          className='absolute inset-e-0 bottom-0 flex size-10 items-center justify-center rounded-full border-2 border-studio-950 bg-gold-400 text-studio-950 transition-transform hover:scale-105'
-        >
-          <Camera aria-hidden className='size-5' />
-        </button>
-      </div>
-      <input ref={inputRef} type='file' accept={ACCEPT} onChange={onPick} className='sr-only' tabIndex={-1} aria-hidden />
+      <Spin spinning={isSaving}>
+        <div className='relative'>
+          <Avatar name={user.displayName} url={user.avatarUrl} size='xl' className='shadow-glow-gold' />
+          <ImgCrop
+            cropShape='round'
+            rotationSlider
+            showReset={false}
+            quality={0.92}
+            modalTitle={t('changeAvatar')}
+            modalOk={tCommon('save')}
+            modalCancel={tCommon('cancel')}
+            beforeCrop={check}
+          >
+            <Upload
+              accept={ACCEPT}
+              showUploadList={false}
+              disabled={isSaving}
+              beforeUpload={(file) => {
+                void upload(file)
+                return false
+              }}
+              className='absolute inset-e-0 bottom-0'
+            >
+              {/* Upload wraps this in its own focusable `role="button"`; the hidden text names it. */}
+              <span className='flex size-10 cursor-pointer items-center justify-center rounded-full border-2 border-studio-950 bg-gold-400 text-studio-950 transition-transform hover:scale-105'>
+                <Camera aria-hidden className='size-5' />
+                <span className='sr-only'>{t('changeAvatar')}</span>
+              </span>
+            </Upload>
+          </ImgCrop>
+        </div>
+      </Spin>
       <p className='text-caption text-mist'>{t('avatarHint')}</p>
+      {Boolean(saveError) && <ErrorAlert error={saveError} message={t('avatarInvalid')} className='w-full text-start' />}
       {user.hasUploadedAvatar && (
         <Button variant='ghost' size='sm' onClick={() => void removeAvatar()} icon={<Trash2 aria-hidden className='size-4' />}>
           {t('removeAvatar')}
         </Button>
       )}
-
-      <Dialog
-        open={Boolean(file)}
-        onClose={close}
-        title={t('changeAvatar')}
-        footer={
-          <>
-            <Button variant='ghost' onClick={close}>
-              {tCommon('cancel')}
-            </Button>
-            <Button onClick={confirm} loading={isSaving}>
-              {tCommon('save')}
-            </Button>
-          </>
-        }
-      >
-        <div className='flex flex-col items-center gap-4'>
-          {preview && <img src={preview} alt={t('avatarPreview')} className='size-48 rounded-full border-2 border-gold-300 object-cover shadow-glow-gold' />}
-          {Boolean(saveError) && <ErrorAlert error={saveError} message={t('avatarInvalid')} className='w-full' />}
-        </div>
-      </Dialog>
     </div>
   )
 }

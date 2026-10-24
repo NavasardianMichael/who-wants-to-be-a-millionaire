@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Ai Là Triệu Phú",
+    "wordmarkTop": "Ai Là",
+    "wordmarkBottom": "Triệu Phú",
     "tagline": "Trò chơi đố vui truyền hình bằng ngôn ngữ của bạn",
     "play": "Chơi",
     "playNow": "Chơi ngay",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Tiếp tục với Google",
     "signedInAs": "Đã đăng nhập với tên {name}",
     "you": "Bạn",
+    "unsavedTitle": "Rời khỏi trang này?",
+    "unsavedBody": "Những gì bạn đã nhập chưa được lưu và sẽ bị mất.",
+    "stay": "Ở lại",
+    "leave": "Rời đi",
     "share": "Chia sẻ",
     "copied": "Đã sao chép liên kết",
     "comingBack": "Hẹn gặp lại!",
@@ -57,22 +63,14 @@
     "about": "Giới thiệu",
     "privacy": "Quyền riêng tư",
     "terms": "Điều khoản",
+    "contact": "Liên hệ với chúng tôi",
     "profile": "Hồ sơ",
     "settings": "Cài đặt"
   },
   "Home": {
-    "eyebrow": "50 ngôn ngữ · Câu hỏi do AI soạn · Miễn phí",
+    "eyebrow": "50 ngôn ngữ · câu hỏi được viết bởi trí tuệ nhân tạo · miễn phí",
     "heroTitle": "Ai là triệu phú?",
-    "heroSubtitle": "Chỉ còn mười lăm câu hỏi giữa bạn và giải thưởng triệu đô. Leo lên thang tiền thưởng, dùng quyền trợ giúp thật khôn ngoan — và tự quyết định khi nào dừng cuộc chơi.",
-    "heroCta": "Chơi Cổ điển",
-    "heroSecondaryCta": "Thử Marathon",
-    "statsQuestions": "Câu hỏi mới mỗi lượt chơi",
-    "statsLanguages": "Ngôn ngữ",
-    "statsLifelines": "Quyền trợ giúp",
     "modesTitle": "Ba cách chơi",
-    "modesSubtitle": "Hành trình leo thang kinh điển, thử thách thần kinh bất tận hoặc cuộc đua với đồng hồ.",
-    "ladderTitle": "Thang tiền thưởng",
-    "ladderSubtitle": "Mỗi câu trả lời đúng đưa bạn lên một bậc. Các mốc an toàn ở câu 5 và câu 10 giữ lại tiền thưởng cho bạn kể cả khi trả lời sai.",
     "lifelinesTitle": "Bốn quyền trợ giúp, mỗi quyền dùng một lần",
     "lifelinesSubtitle": "Khi bí, một quyền trợ giúp có thể cứu cả lượt chơi. Hãy dùng thật khéo — những câu khó nhất luôn ở cuối.",
     "howTitle": "Cách chơi",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Xem toàn bộ bảng xếp hạng",
     "emptyLeaderboard": "Chưa có lượt chơi xếp hạng nào — hãy là người đầu tiên!",
     "cultureTitle": "Câu hỏi nói ngôn ngữ của bạn",
-    "cultureBody": "Trình soạn câu hỏi AI của chúng tôi tạo câu hỏi mới trực tiếp bằng từng ngôn ngữ trong số 50 ngôn ngữ, kết hợp kiến thức thế giới với lịch sử, văn học, địa lý và truyền thống của chính nền văn hóa bạn. Câu hỏi về nhà thơ bạn yêu thích sẽ không phải là bản dịch của câu hỏi về nhà thơ của người khác.",
+    "cultureBody": "Trí tuệ nhân tạo tạo câu hỏi của chúng tôi tạo các câu hỏi mới hoàn toàn bằng từng ngôn ngữ trong số 50 ngôn ngữ, kết hợp kiến thức thế giới với lịch sử, văn học, địa lý và truyền thống của chính văn hóa bạn. Một câu hỏi về nhà thơ yêu thích của bạn sẽ không phải là bản dịch của câu hỏi về người khác.",
     "offlineTitle": "Chơi mọi nơi, kể cả khi ngoại tuyến",
-    "offlineBody": "Cài đặt ứng dụng, tải bộ câu hỏi cho các ngôn ngữ bạn muốn và tiếp tục chơi trên máy bay hay tàu điện ngầm. Điểm số sẽ được đồng bộ khi bạn có mạng trở lại.",
+    "offlineBody": "Cài đặt ứng dụng và tiếp tục chơi Cổ điển trên máy bay hoặc tàu điện ngầm: các câu hỏi bằng ngôn ngữ của bạn được lưu tự động trên thiết bị của bạn. Điểm số của bạn sẽ đồng bộ khi bạn kết nối lại.",
     "badgesTitle": "Sưu tầm huy hiệu",
     "badgesSubtitle": "Vượt qua các mốc an toàn, giành giải triệu đô, giữ chuỗi ngày chơi — có tới {count} huy hiệu đang chờ bạn.",
     "viewBadges": "Xem tất cả huy hiệu",
     "categoriesTitle": "Khám phá các chủ đề",
     "categoriesSubtitle": "Từ lịch sử, khoa học đến điện ảnh, ẩm thực và văn hóa địa phương của bạn.",
     "faqTitle": "Câu hỏi thường gặp",
-    "faq1Question": "Millionaire Quiz có miễn phí không?",
+    "faq1Question": "Ai Là Triệu Phú có miễn phí không?",
     "faq1Answer": "Có. Mọi chế độ, mọi ngôn ngữ và mọi quyền trợ giúp đều miễn phí, và chơi Cổ điển không cần đăng ký.",
     "faq2Question": "Câu hỏi lấy từ đâu?",
-    "faq2Answer": "Trình soạn câu hỏi AI tạo câu hỏi trực tiếp bằng ngôn ngữ của bạn, và mỗi câu đều được kiểm tra tự động trước khi vào trò chơi. Nếu có sai sót lọt qua, bạn có thể báo lỗi chỉ với một chạm.",
+    "faq2Answer": "Trí tuệ nhân tạo tạo câu hỏi sẽ tạo chúng trực tiếp bằng ngôn ngữ của bạn và mọi câu hỏi đều được kiểm tra tự động trước khi đưa vào trò chơi. Nếu có câu hỏi nào lọt lưới, bạn có thể báo cáo chỉ với một lần chạm.",
     "faq3Question": "Mốc an toàn hoạt động thế nào?",
     "faq3Answer": "Trả lời đúng câu 5 đảm bảo cho bạn {havenOne}, và câu 10 đảm bảo {havenTwo}. Nếu trả lời sai một câu sau đó, bạn vẫn ra về với mức tiền của mốc an toàn gần nhất đã vượt qua.",
     "faq4Question": "Tôi có thể chơi ngoại tuyến không?",
-    "faq4Answer": "Có. Cài đặt ứng dụng và tải bộ câu hỏi cho bất kỳ ngôn ngữ nào trong 50 ngôn ngữ từ phần cài đặt. Các lượt chơi ngoại tuyến được lưu lại và đồng bộ khi bạn kết nối lại.",
+    "faq4Answer": "Có — chế độ Cổ điển hoạt động ngoại tuyến. Các câu hỏi bằng ngôn ngữ của bạn được lưu tự động trên thiết bị của bạn và các trận đấu ngoại tuyến sẽ đồng bộ khi bạn kết nối lại. Chế độ Marathon và Thử thách thời gian cần có kết nối.",
     "faq5Question": "Làm sao để lên bảng xếp hạng?",
     "faq5Answer": "Đăng nhập bằng Google và chơi một lượt Marathon hoặc Đua với thời gian có xếp hạng. Mọi câu trả lời đều được máy chủ của chúng tôi kiểm tra, nên bảng xếp hạng luôn công bằng.",
     "faq6Question": "Đây có phải trò chơi chính thức của chương trình truyền hình không?",
-    "faq6Answer": "Không. Millionaire Quiz là trò chơi độc lập do người hâm mộ làm, lấy cảm hứng từ định dạng gameshow đố vui kinh điển."
+    "faq6Answer": "Không. Ai Là Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Marathon",
       "tagline": "Sai một câu là kết thúc",
       "description": "Chuỗi câu hỏi bất tận, khó hơn sau mỗi 5 câu trả lời đúng. Bạn có bốn quyền trợ giúp kinh điển, mỗi quyền một lần — và chỉ một câu sai là lượt chơi kết thúc.",
-      "rules": "{seconds} giây cho mỗi câu. Cấp độ tăng sau mỗi 5 câu đúng. Một câu sai hoặc hết giờ sẽ kết thúc lượt chơi."
+      "rules": "{minutes, plural, one {# phút} other {# phút}} cho mỗi câu hỏi. Cấp độ tăng sau mỗi 5 câu trả lời đúng. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi."
     },
     "timeAttack": {
       "name": "Đua với thời gian",
@@ -130,18 +128,12 @@
       "description": "Trả lời càng nhiều câu càng tốt trước khi hết giờ. Trả lời sai không kết thúc lượt chơi — nhưng bạn mất 5 giây.",
       "rules": "Đồng hồ có {seconds} giây. Mỗi câu sai bị trừ {penalty} giây. Không có quyền trợ giúp — chỉ có tốc độ."
     },
-    "ranked": "Xếp hạng",
-    "practice": "Luyện tập",
-    "rankedHint": "Lượt chơi xếp hạng được tính vào bảng xếp hạng toàn cầu.",
-    "practiceHint": "Lượt chơi luyện tập dùng cài đặt riêng của bạn và không được xếp hạng.",
-    "signInForRanked": "Đăng nhập bằng Google để chơi xếp hạng và có tên trên bảng xếp hạng.",
-    "offlineUnranked": "Bạn đang ngoại tuyến nên lượt chơi này sẽ là luyện tập.",
-    "customSettingsUnranked": "Cài đặt tùy chỉnh khiến lượt chơi này thành luyện tập."
+    "rankedHint": "Mọi lượt chơi đều được tính vào bảng xếp hạng toàn cầu.",
+    "guestHint": "Chơi với tư cách khách: lượt chơi của bạn vẫn được tính trọng tài như bình thường, nhưng chỉ những người chơi đã đăng nhập mới xuất hiện trên bảng xếp hạng.",
+    "needsConnection": "Chế độ này cần có kết nối: mọi lượt chơi đều được trọng tài trực tiếp. Chế độ Cổ điển có thể chơi ngoại tuyến."
   },
   "Game": {
     "startGame": "Bắt đầu chơi",
-    "startRanked": "Bắt đầu lượt xếp hạng",
-    "startPractice": "Bắt đầu luyện tập",
     "loading": "Đèn trường quay đang bật sáng…",
     "loadingQuestion": "Đang soạn câu hỏi tiếp theo cho bạn…",
     "playingFor": "Giá trị câu hỏi",
@@ -163,6 +155,12 @@
     "timeUp": "Hết giờ!",
     "theAnswerWas": "Đáp án đúng là {letter}: {text}",
     "didYouKnow": "Bạn có biết?",
+    "switchPrompt": "Trước khi chúng ta đổi — bạn sẽ trả lời thế nào?",
+    "switchPromptHint": "Chỉ để giải trí thôi: kết quả sẽ không được tính đâu.",
+    "switchSkip": "Bỏ qua, cứ đổi đi",
+    "switchWouldBeRight": "Bạn đã trả lời đúng rồi đấy!",
+    "switchWouldBeWrong": "May là bạn đã đổi đấy!",
+    "switchComing": "Câu hỏi mới của bạn đây…",
     "walkAway": "Dừng cuộc chơi",
     "walkAwayTitle": "Dừng lại và nhận tiền?",
     "walkAwayBody": "Nếu dừng cuộc chơi bây giờ, bạn sẽ ra về với {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Cấp độ {level} — câu hỏi sẽ khó hơn",
     "penalty": "−{seconds} giây",
     "fallbackNotice": "Trình soạn câu hỏi đang nghỉ giải lao, nên lượt chơi này dùng câu hỏi dự phòng bằng tiếng Anh.",
-    "packNotice": "Đang chơi với bộ câu hỏi bạn đã tải về.",
+    "packNotice": "Bạn đang ngoại tuyến — chơi với các câu hỏi được lưu trên thiết bị của bạn.",
     "keyboardHint": "Bàn phím: A–D để chọn, Enter để xác nhận, L để xem thang tiền thưởng, M để bật/tắt âm thanh.",
     "report": "Báo lỗi",
     "reportTitle": "Câu hỏi này có vấn đề?",
@@ -205,11 +203,12 @@
     "personalBest": "Kỷ lục cá nhân mới!",
     "rank": "Hạng #{rank} trên bảng xếp hạng",
     "newBadges": "{count, plural, other {Mở khóa # huy hiệu mới!}}",
-    "shareText": "Mình vừa giành {amount} trên Millionaire Quiz! Bạn có vượt qua được mình không?",
-    "shareScoreText": "Mình đạt {score} điểm ở chế độ {mode} trên Millionaire Quiz! Bạn có vượt qua được mình không?",
+    "shareText": "Tôi đã giành được {amount} tại Ai Là Triệu Phú! Bạn có đánh bại được tôi không?",
+    "shareScoreText": "Tôi đạt {score} điểm trong chế độ {mode} tại Ai Là Triệu Phú! Bạn có đánh bại được tôi không?",
     "backHome": "Về trang chủ",
     "viewLeaderboard": "Xem bảng xếp hạng",
-    "signInToSave": "Đăng nhập để lưu điểm số và huy hiệu trên mọi thiết bị."
+    "signInToSave": "Đăng nhập để lưu điểm số và huy hiệu trên mọi thiết bị.",
+    "signInToRank": "Đăng nhập để đưa những lượt chơi như thế này lên bảng xếp hạng."
   },
   "Lifelines": {
     "title": "Quyền trợ giúp",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Cài đặt",
-    "subtitle": "Âm thanh, bộ câu hỏi ngoại tuyến và cài đặt trò chơi mặc định.",
+    "subtitle": "Âm thanh, ngôn ngữ và cài đặt trò chơi Cổ điển của bạn.",
     "gameTitle": "Cài đặt trò chơi",
+    "gameHint": "Những cài đặt này áp dụng cho các trò chơi Cổ điển. Chế độ Marathon và Thử thách thời gian được tính điểm và luôn sử dụng luật chơi chuẩn.",
+    "customised": "Đang chơi với cài đặt tùy chỉnh của bạn.",
+    "change": "Thay đổi",
     "categories": "Chủ đề",
     "allCategories": "Tất cả chủ đề",
     "categoriesHint": "Chọn một hoặc nhiều chủ đề, hoặc để trống để chơi tất cả.",
@@ -256,16 +258,6 @@
     "soundTitle": "Âm thanh",
     "sound": "Hiệu ứng âm thanh và nhạc",
     "volume": "Âm lượng",
-    "packsTitle": "Bộ câu hỏi ngoại tuyến",
-    "packsSubtitle": "Tải câu hỏi cho các ngôn ngữ bạn muốn chơi khi không có mạng. Mỗi bộ khoảng 100 KB.",
-    "packCount": "{count, plural, other {# câu hỏi}}",
-    "packDownload": "Tải về",
-    "packDownloading": "Đang tải về…",
-    "packUpdate": "Cập nhật",
-    "packRemove": "Xóa",
-    "packDownloaded": "Đã tải về",
-    "packError": "Không thể tải bộ câu hỏi. Hãy kiểm tra kết nối và thử lại.",
-    "autoDownload": "Tự động tải bộ câu hỏi của ngôn ngữ tôi dùng",
     "installTitle": "Cài đặt ứng dụng",
     "installBody": "Chơi toàn màn hình, ngoại tuyến, chỉ với một chạm từ màn hình chính.",
     "accountTitle": "Tài khoản"
@@ -375,26 +367,86 @@
     "earnedOn": "Đạt được ngày {date}",
     "unlocked": "Đã mở khóa huy hiệu",
     "items": {
-      "firstSteps": { "name": "Bước đầu tiên", "description": "Trả lời đúng câu hỏi đầu tiên." },
-      "safeHaven": { "name": "Mốc an toàn", "description": "Vượt qua mốc an toàn đầu tiên ở chế độ Cổ điển (câu 5)." },
-      "halfWay": { "name": "Nửa chặng đường", "description": "Vượt qua mốc an toàn thứ hai ở chế độ Cổ điển (câu 10)." },
-      "millionaire": { "name": "Triệu phú", "description": "Trả lời đúng cả 15 câu Cổ điển và giành giải triệu đô." },
-      "purist": { "name": "Thuần thực lực", "description": "Giành giải triệu đô mà không dùng quyền trợ giúp nào." },
-      "smartExit": { "name": "Dừng đúng lúc", "description": "Dừng cuộc chơi với tiền thưởng từ câu 12 trở đi." },
-      "quickThinker": { "name": "Nhanh trí", "description": "Trả lời đúng 10 câu, mỗi câu dưới 3 giây." },
-      "marathon10": { "name": "Vận động viên Marathon", "description": "Trả lời đúng 10 câu liên tiếp trong một lượt Marathon xếp hạng." },
-      "marathon25": { "name": "Đường dài", "description": "Trả lời đúng 25 câu liên tiếp trong một lượt Marathon xếp hạng." },
-      "marathon50": { "name": "Trí óc thép", "description": "Trả lời đúng 50 câu liên tiếp trong một lượt Marathon xếp hạng." },
-      "marathon100": { "name": "Huyền thoại", "description": "Trả lời đúng 100 câu liên tiếp trong một lượt Marathon xếp hạng." },
-      "timeAttack15": { "name": "Tốc độ", "description": "Đạt 15 điểm trong một lượt Đua với thời gian xếp hạng." },
-      "timeAttack30": { "name": "Tia chớp", "description": "Đạt 30 điểm trong một lượt Đua với thời gian xếp hạng." },
-      "polyglot3": { "name": "Đa ngôn ngữ", "description": "Chơi bằng 3 ngôn ngữ khác nhau." },
-      "polyglot10": { "name": "Công dân toàn cầu", "description": "Chơi bằng 10 ngôn ngữ khác nhau." },
-      "streak3": { "name": "Đang vào guồng", "description": "Chơi 3 ngày liên tiếp." },
-      "streak7": { "name": "Tận tụy", "description": "Chơi 7 ngày liên tiếp." },
-      "offlineHero": { "name": "Ngoài vùng phủ sóng", "description": "Hoàn thành một lượt chơi khi đang ngoại tuyến." },
-      "savedByAFriend": { "name": "Được bạn cứu", "description": "Làm theo lời khuyên của bạn mình và trả lời đúng." },
-      "categoryMaster": { "name": "Bậc thầy chủ đề", "description": "Trả lời đúng 25 câu hỏi trong cùng một chủ đề." }
+      "firstSteps": {
+        "name": "Bước đầu tiên",
+        "description": "Trả lời đúng câu hỏi đầu tiên."
+      },
+      "safeHaven": {
+        "name": "Mốc an toàn",
+        "description": "Vượt qua mốc an toàn đầu tiên ở chế độ Cổ điển (câu 5)."
+      },
+      "halfWay": {
+        "name": "Nửa chặng đường",
+        "description": "Vượt qua mốc an toàn thứ hai ở chế độ Cổ điển (câu 10)."
+      },
+      "millionaire": {
+        "name": "Triệu phú",
+        "description": "Trả lời đúng cả 15 câu Cổ điển và giành giải triệu đô."
+      },
+      "purist": {
+        "name": "Thuần thực lực",
+        "description": "Giành giải triệu đô mà không dùng quyền trợ giúp nào."
+      },
+      "smartExit": {
+        "name": "Dừng đúng lúc",
+        "description": "Dừng cuộc chơi với tiền thưởng từ câu 12 trở đi."
+      },
+      "quickThinker": {
+        "name": "Nhanh trí",
+        "description": "Trả lời đúng 10 câu, mỗi câu dưới 3 giây."
+      },
+      "marathon10": {
+        "name": "Vận động viên Marathon",
+        "description": "Trả lời đúng 10 câu liên tiếp trong một lượt Marathon xếp hạng."
+      },
+      "marathon25": {
+        "name": "Đường dài",
+        "description": "Trả lời đúng 25 câu liên tiếp trong một lượt Marathon xếp hạng."
+      },
+      "marathon50": {
+        "name": "Trí óc thép",
+        "description": "Trả lời đúng 50 câu liên tiếp trong một lượt Marathon xếp hạng."
+      },
+      "marathon100": {
+        "name": "Huyền thoại",
+        "description": "Trả lời đúng 100 câu liên tiếp trong một lượt Marathon xếp hạng."
+      },
+      "timeAttack15": {
+        "name": "Tốc độ",
+        "description": "Đạt 15 điểm trong một lượt Đua với thời gian xếp hạng."
+      },
+      "timeAttack30": {
+        "name": "Tia chớp",
+        "description": "Đạt 30 điểm trong một lượt Đua với thời gian xếp hạng."
+      },
+      "polyglot3": {
+        "name": "Đa ngôn ngữ",
+        "description": "Chơi bằng 3 ngôn ngữ khác nhau."
+      },
+      "polyglot10": {
+        "name": "Công dân toàn cầu",
+        "description": "Chơi bằng 10 ngôn ngữ khác nhau."
+      },
+      "streak3": {
+        "name": "Đang vào guồng",
+        "description": "Chơi 3 ngày liên tiếp."
+      },
+      "streak7": {
+        "name": "Tận tụy",
+        "description": "Chơi 7 ngày liên tiếp."
+      },
+      "offlineHero": {
+        "name": "Ngoài vùng phủ sóng",
+        "description": "Hoàn thành một lượt chơi khi đang ngoại tuyến."
+      },
+      "savedByAFriend": {
+        "name": "Được bạn cứu",
+        "description": "Làm theo lời khuyên của bạn mình và trả lời đúng."
+      },
+      "categoryMaster": {
+        "name": "Bậc thầy chủ đề",
+        "description": "Trả lời đúng 25 câu hỏi trong cùng một chủ đề."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Quyền trợ giúp",
     "lifelinesBody": "Bạn có bốn quyền trợ giúp, mỗi quyền chỉ được dùng một lần trong mỗi lượt chơi:",
     "marathonTitle": "Marathon",
-    "marathonBody": "Một chuỗi câu hỏi bất tận. Câu hỏi khó hơn sau mỗi năm câu trả lời đúng, bạn có bốn quyền trợ giúp, mỗi quyền một lần, và {seconds} giây cho mỗi câu. Một câu sai hoặc hết giờ sẽ kết thúc lượt chơi, và điểm của bạn là số câu trả lời đúng.",
+    "marathonBody": "Một lượt chơi bất tận. Các câu hỏi sẽ khó hơn sau mỗi năm câu trả lời đúng, bạn có bốn quyền trợ giúp, mỗi quyền dùng một lần và bạn có {minutes, plural, one {# phút} other {# phút}} cho mỗi câu hỏi. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi và điểm số của bạn là số câu trả lời đúng.",
     "timeAttackTitle": "Đua với thời gian",
     "timeAttackBody": "Bạn có {seconds} giây để trả lời càng nhiều câu càng tốt. Trả lời sai không kết thúc lượt chơi nhưng bị trừ {penalty} giây trên đồng hồ. Không có quyền trợ giúp.",
     "rankedTitle": "Chơi xếp hạng và tính công bằng",
-    "rankedBody": "Các lượt Marathon và Đua với thời gian có xếp hạng được máy chủ của chúng tôi làm trọng tài: đáp án đúng không bao giờ được gửi đến thiết bị của bạn trước khi bạn trả lời, và đồng hồ được tính trên máy chủ. Đăng nhập bằng Google để chơi xếp hạng. Các lượt chơi với cài đặt tùy chỉnh hoặc chơi ngoại tuyến được tính là luyện tập.",
+    "rankedBody": "Các lượt chơi Marathon và Thử thách thời gian luôn được máy chủ của chúng tôi làm trọng tài: câu trả lời đúng không bao giờ xuất hiện trên thiết bị của bạn trước khi bạn trả lời và đồng hồ được tính trên máy chủ. Bất kỳ ai cũng có thể chơi; hãy đăng nhập bằng Google để đưa điểm số của bạn lên bảng xếp hạng.",
     "questionsTitle": "Về các câu hỏi",
-    "questionsBody": "Câu hỏi được trình soạn câu hỏi AI viết trực tiếp bằng từng ngôn ngữ và được kiểm tra tự động. Khoảng 40% câu hỏi nói về văn hóa nơi ngôn ngữ của bạn được sử dụng. Nếu thấy câu hỏi nào có vẻ sai, hãy dùng nút “Báo lỗi” sau khi đáp án được công bố."
+    "questionsBody": "Các câu hỏi được viết bởi trí tuệ nhân tạo tạo câu hỏi bằng từng ngôn ngữ và được kiểm tra tự động. Khoảng 40% câu hỏi nói về văn hóa nơi ngôn ngữ của bạn được sử dụng. Nếu một câu hỏi có vẻ sai, hãy sử dụng “Báo cáo lỗi” sau khi câu trả lời được tiết lộ."
   },
   "About": {
-    "title": "Giới thiệu Millionaire Quiz",
-    "intro": "Millionaire Quiz là trò chơi đố vui miễn phí do người hâm mộ làm, lấy cảm hứng từ định dạng truyền hình kinh điển — được xây dựng lại cho web, cho điện thoại và cho 50 ngôn ngữ.",
+    "title": "Giới thiệu về Ai Là Triệu Phú",
+    "intro": "Ai Là Triệu Phú là một trò chơi đố vui miễn phí do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình truyền hình cổ điển — được làm lại cho web, điện thoại và 50 ngôn ngữ.",
     "missionTitle": "Vì sao chúng tôi làm ra nó",
     "missionBody": "Hầu hết trò chơi đố vui được viết bằng tiếng Anh rồi dịch lại. Chúng tôi tin rằng một câu đố phải mang cảm giác thân thuộc: câu hỏi nên nói về những con người, địa danh, cuốn sách và truyền thống bạn lớn lên cùng, cũng như về thế giới rộng lớn ngoài kia.",
     "howTitle": "Câu hỏi được tạo ra như thế nào",
     "howBody": "Một mô hình ngôn ngữ lớn viết từng câu hỏi trực tiếp bằng ngôn ngữ của bạn, theo từng đợt, tuân thủ các quy tắc nghiêm ngặt: một đáp án đúng rõ ràng, bốn phương án hợp lý, chỉ dùng những sự thật ổn định. Câu hỏi được kiểm định tự động, lưu trữ rồi đưa đến người chơi; bất kỳ ai cũng có thể báo lỗi.",
     "techTitle": "Phía sau hậu trường",
-    "techBody": "Millionaire Quiz là một ứng dụng web tiến bộ (PWA): có thể cài đặt trên điện thoại hoặc máy tính, chơi ngoại tuyến với các bộ câu hỏi tải về và đồng bộ tiến trình khi bạn kết nối lại.",
+    "techBody": "Ai Là Triệu Phú là một ứng dụng web tiến bộ: ứng dụng này cài đặt trên điện thoại hoặc máy tính của bạn, hoạt động ngoại tuyến với các câu hỏi được lưu tự động và đồng bộ tiến trình của bạn khi bạn kết nối lại.",
     "creditTitle": "Ghi công",
     "creditBody": "Thiết kế và phát triển bởi {author}.",
-    "disclaimer": "Millionaire Quiz không liên kết, không được bảo trợ và không có liên hệ với bất kỳ chương trình truyền hình, đài truyền hình hay chủ sở hữu bản quyền nào."
+    "disclaimer": "Ai Là Triệu Phú không liên kết, được chứng thực bởi hoặc kết nối với bất kỳ chương trình truyền hình, đài phát thanh hoặc chủ sở hữu quyền nào."
   },
   "Legal": {
     "privacyTitle": "Chính sách quyền riêng tư",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Quyền của bạn",
     "privacyRightsBody": "Bạn có thể đổi tên hiển thị và ảnh đại diện bất cứ lúc nào, và có thể yêu cầu xóa tài khoản cùng toàn bộ dữ liệu liên quan bằng cách liên hệ với tác giả.",
     "termsTitle": "Điều khoản sử dụng",
-    "termsIntro": "Khi chơi Millionaire Quiz, bạn đồng ý với những điều khoản đơn giản sau.",
+    "termsIntro": "Bằng cách chơi Ai Là Triệu Phú, bạn đồng ý với các điều khoản đơn giản sau.",
     "termsPlayTitle": "Chơi đẹp",
     "termsPlayBody": "Hãy chơi các lượt xếp hạng một cách trung thực. Dùng công cụ tự động, lợi dụng lỗi hoặc can thiệp vào bảng xếp hạng có thể khiến lượt chơi của bạn bị xóa.",
     "termsContentTitle": "Câu hỏi và độ chính xác",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Cài đặt ứng dụng",
-    "installTitle": "Cài đặt Millionaire Quiz",
+    "installTitle": "Cài đặt Ai Là Triệu Phú",
     "benefit": "Chơi toàn màn hình và ngoại tuyến, chỉ với một chạm từ màn hình chính.",
     "iosTitle": "Cài đặt trên iPhone hoặc iPad",
     "iosStep1": "Chạm vào nút Chia sẻ trên thanh công cụ của Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Chạm “Thêm” — ứng dụng sẽ xuất hiện trên màn hình chính.",
     "gotIt": "Đã hiểu"
   },
+  "Contact": {
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Phát hiện lỗi, có ý tưởng hay cần giúp đỡ? Hãy viết thư cho chúng tôi — chúng tôi đọc mọi tin nhắn.",
+    "name": "Tên của bạn",
+    "nameRequired": "Vui lòng nhập tên của bạn.",
+    "email": "Email",
+    "emailRequired": "Vui lòng nhập email để chúng tôi có thể trả lời.",
+    "emailInvalid": "Địa chỉ email đó có vẻ không đúng.",
+    "message": "Tin nhắn",
+    "messageRequired": "Vui lòng viết tin nhắn.",
+    "messagePlaceholder": "Chúng tôi có thể giúp gì cho bạn?",
+    "send": "Gửi tin nhắn",
+    "error": "Không thể gửi tin nhắn của bạn. Vui lòng thử lại sau giây lát.",
+    "sentTitle": "Đã gửi tin nhắn!",
+    "sentBody": "Cảm ơn bạn đã viết thư. Chúng tôi sẽ trả lời đến địa chỉ email bạn đã cung cấp.",
+    "sendAnother": "Gửi tin nhắn khác"
+  },
   "Auth": {
     "signedIn": "Chào mừng, {name}!",
     "signedOut": "Bạn đã đăng xuất.",
+    "signInTitle": "Đăng nhập",
+    "signInSubtitle": "Chỉ một lần chạm với Google, tiến trình của bạn sẽ theo bạn đến mọi thiết bị.",
+    "benefitRanked": "Đưa điểm số Marathon và Thử thách thời gian của bạn lên bảng xếp hạng toàn cầu",
+    "benefitLeaderboard": "Chọn tên và hình ảnh mà những người chơi khác nhìn thấy",
+    "benefitSync": "Giữ kỷ lục Cổ điển, lịch sử trò chơi và huy hiệu của bạn ở mọi nơi",
+    "privacyNote": "Chúng tôi chỉ sử dụng tên, địa chỉ email và hình ảnh của bạn từ Google.",
+    "unavailable": "Tính năng đăng nhập hiện không khả dụng. Bạn vẫn có thể chơi Cổ điển — tiến trình của bạn được lưu trên thiết bị này.",
+    "alreadySignedIn": "Bạn đã đăng nhập với tư cách là {name}.",
     "errors": {
       "google_unavailable": "Hiện không thể đăng nhập bằng Google.",
       "google_denied": "Đã hủy đăng nhập.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "ai là triệu phú, trò chơi đố vui, câu đố kiến thức, game ai là triệu phú, đố vui miễn phí, đố vui trực tuyến, kiến thức chung",
-    "homeTitle": "Millionaire Quiz — Ai là triệu phú? Chơi miễn phí trực tuyến",
+    "homeTitle": "Ai Là Triệu Phú — Ai muốn làm triệu phú? Chơi miễn phí trực tuyến",
     "homeDescription": "Chơi gameshow đố vui miễn phí bằng 50 ngôn ngữ. 15 câu hỏi đến giải triệu đô, bốn quyền trợ giúp, các mốc an toàn, cùng chế độ Marathon bất tận và Đua với thời gian với bảng xếp hạng toàn cầu.",
     "playTitle": "Ai là triệu phú phiên bản cổ điển — 15 câu hỏi đến giải triệu đô",
     "playDescription": "Leo thang tiền thưởng từ {first} đến {top}: mười lăm câu hỏi, hai mốc an toàn, bốn quyền trợ giúp. Miễn phí, không cần đăng ký, bằng ngôn ngữ của bạn.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Huy hiệu — sưu tầm tất cả",
     "badgesDescription": "Hai mươi huy hiệu để giành được ở các chế độ Cổ điển, Marathon và Đua với thời gian: giành giải triệu đô, giữ chuỗi ngày chơi, chơi bằng nhiều ngôn ngữ.",
     "rulesTitle": "Cách chơi — luật chơi, thang tiền thưởng và quyền trợ giúp",
-    "rulesDescription": "Toàn bộ luật chơi của Millionaire Quiz: thang tiền thưởng, mốc an toàn, dừng cuộc chơi, bốn quyền trợ giúp, Marathon và Đua với thời gian.",
-    "aboutTitle": "Giới thiệu Millionaire Quiz",
-    "aboutDescription": "Trò chơi đố vui miễn phí do người hâm mộ làm, với câu hỏi do AI soạn bằng 50 ngôn ngữ, lấy cảm hứng từ định dạng gameshow truyền hình kinh điển.",
+    "rulesDescription": "Luật chơi đầy đủ của Ai Là Triệu Phú: thang tiền thưởng, mốc an toàn, dừng cuộc chơi, bốn quyền trợ giúp, Marathon và Thử thách thời gian.",
+    "aboutTitle": "Giới thiệu về Ai Là Triệu Phú",
+    "aboutDescription": "Một trò chơi đố vui miễn phí do người hâm mộ tạo ra với các câu hỏi do trí tuệ nhân tạo viết bằng 50 ngôn ngữ, lấy cảm hứng từ định dạng chương trình đố vui truyền hình cổ điển.",
     "privacyTitle": "Chính sách quyền riêng tư",
-    "privacyDescription": "Millionaire Quiz lưu những gì, vì sao và cách xóa dữ liệu.",
+    "privacyDescription": "Những gì Ai Là Triệu Phú lưu trữ, lý do tại sao và cách xóa.",
     "termsTitle": "Điều khoản sử dụng",
-    "termsDescription": "Những quy tắc đơn giản để chơi Millionaire Quiz công bằng.",
+    "termsDescription": "Các quy tắc đơn giản để chơi Ai Là Triệu Phú công bằng.",
     "profileTitle": "Hồ sơ của bạn",
     "profileDescription": "Điểm số, thứ hạng và huy hiệu của bạn.",
     "settingsTitle": "Cài đặt",
-    "settingsDescription": "Âm thanh, bộ câu hỏi ngoại tuyến và cài đặt trò chơi mặc định."
+    "contactTitle": "Liên hệ với chúng tôi",
+    "contactDescription": "Câu hỏi, ý tưởng hay lỗi trong câu hỏi? Gửi tin nhắn cho đội ngũ Ai Là Triệu Phú.",
+    "signInTitle": "Đăng nhập",
+    "signInDescription": "Đăng nhập bằng Google để đưa điểm số của bạn lên bảng xếp hạng và giữ tiến trình của bạn trên mọi thiết bị.",
+    "settingsDescription": "Cài đặt âm thanh, ngôn ngữ và trò chơi Cổ điển."
   }
 }

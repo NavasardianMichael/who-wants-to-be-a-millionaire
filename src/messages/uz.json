@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Millioner Viktorinasi",
+    "wordmarkTop": "Millionaire",
+    "wordmarkBottom": "Quiz",
     "tagline": "Oʻz tilingizdagi viktorina-shou oʻyini",
     "play": "Oʻynash",
     "playNow": "Hozir oʻynash",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Google orqali davom etish",
     "signedInAs": "Hisob: {name}",
     "you": "Siz",
+    "unsavedTitle": "Bu sahifadan chiqasizmi?",
+    "unsavedBody": "Kiritgan maʼlumotlaringiz saqlanmadi va yoʻqoladi.",
+    "stay": "Qolish",
+    "leave": "Chiqish",
     "share": "Ulashish",
     "copied": "Havola nusxalandi",
     "comingBack": "Tez orada koʻrishguncha!",
@@ -57,22 +63,14 @@
     "about": "Loyiha haqida",
     "privacy": "Maxfiylik",
     "terms": "Shartlar",
+    "contact": "Biz bilan bogʻlanish",
     "profile": "Profil",
     "settings": "Sozlamalar"
   },
   "Home": {
-    "eyebrow": "50 til · savollarni AI yozadi · bepul",
+    "eyebrow": "50 ta til · sun'iy intellekt tomonidan yozilgan savollar · bepul",
     "heroTitle": "Kim millioner boʻlishni xohlaydi?",
-    "heroSubtitle": "Sizni milliondan bor-yoʻgʻi oʻn besh savol ajratib turibdi. Pul zinapoyasidan yuqoriga koʻtariling, yordamlardan oqilona foydalaning — va qachon toʻxtashni oʻzingiz hal qiling.",
-    "heroCta": "Klassikani oʻynash",
-    "heroSecondaryCta": "Marafonni sinab koʻring",
-    "statsQuestions": "Har oʻyinda yangi savollar",
-    "statsLanguages": "Til",
-    "statsLifelines": "Yordam",
     "modesTitle": "Oʻynashning uch usuli",
-    "modesSubtitle": "Choʻqqiga klassik yoʻl, asablar uchun cheksiz sinov yoki vaqt bilan poyga.",
-    "ladderTitle": "Pul zinapoyasi",
-    "ladderSubtitle": "Har bir toʻgʻri javob sizni bir pogʻona yuqoriga koʻtaradi. 5- va 10-savollardagi kafolatlangan bosqichlar xato qilsangiz ham yutugʻingizni saqlab qoladi.",
     "lifelinesTitle": "Toʻrtta yordam, har biri bir marta",
     "lifelinesSubtitle": "Qiyin vaziyatda yordam oʻyiningizni qutqarib qolishi mumkin. Ulardan oqilona foydalaning — eng qiyin savollar oxirida keladi.",
     "howTitle": "Qanday oʻynaladi",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Toʻliq reytingni koʻrish",
     "emptyLeaderboard": "Hozircha reytingli oʻyinlar yoʻq — birinchi boʻling!",
     "cultureTitle": "Sizning tilingizda soʻzlaydigan savollar",
-    "cultureBody": "Bizning AI savol muallifimiz 50 tilning har birida yangi savollarni bevosita oʻsha tilda yaratadi va dunyo bilimlarini sizning madaniyatingiz tarixi, adabiyoti, geografiyasi va anʼanalari bilan uygʻunlashtiradi. Sevimli shoiringiz haqidagi savol boshqa birovning shoiri haqidagi savolning tarjimasi boʻlmaydi.",
+    "cultureBody": "Sun'iy intellektga asoslangan savol tuzuvchimiz 50 ta tilda to'g'ridan-to'g'ri yangi savollar yaratadi, jahon bilimlarini o'z madaniyatingiz tarixi, adabiyoti, geografiyasi va an'analari bilan uyg'unlashtiradi. Sevimli shoiringiz haqidagi savol boshqnikining tarjimasi bo'lmaydi.",
     "offlineTitle": "Istalgan joyda, hatto internetsiz oʻynang",
-    "offlineBody": "Ilovani oʻrnating, kerakli tillar uchun savollar toʻplamini yuklab oling va samolyotda yoki metroda oʻynashda davom eting. Internetga qaytganingizda natijalaringiz sinxronlanadi.",
+    "offlineBody": "Ilovani o'rnating va samolyotda yoki metroda Classic o'ynashni davom ettiring: tilingizdagi savollar qurilmangizga avtomatik ravishda saqlanadi. Internetga qaytganingizda natijalaringiz sinxronlanadi.",
     "badgesTitle": "Nishonlar toʻplang",
     "badgesSubtitle": "Kafolatlangan bosqichlarga yeting, millionni yuting, har kuni oʻynang — sizni {count} ta nishon kutmoqda.",
     "viewBadges": "Barcha nishonlarni koʻrish",
     "categoriesTitle": "Turkumlarni kashf eting",
     "categoriesSubtitle": "Tarix va fandan tortib kino, taomlar va oʻzingizning mahalliy madaniyatingizgacha.",
     "faqTitle": "Koʻp beriladigan savollar",
-    "faq1Question": "Millionaire Quiz bepulmi?",
+    "faq1Question": "Millioner Viktorinasi bepulmi?",
     "faq1Answer": "Ha. Barcha rejimlar, barcha tillar va barcha yordamlar bepul, Klassika uchun esa roʻyxatdan oʻtish ham shart emas.",
     "faq2Question": "Savollar qayerdan olinadi?",
-    "faq2Answer": "Ularni AI savol muallifi bevosita sizning tilingizda yaratadi va har bir savol oʻyinga tushishidan oldin avtomatik tekshiriladi. Agar biror narsa koʻzdan qochib qolsa, bir bosishda xabar berishingiz mumkin.",
+    "faq2Answer": "Sun'iy intellektga asoslangan savol tuzuvchi ularni tilingizda yaratadi va har bir savol o'yinga chiqishidan oldin avtomatik ravishda tekshiriladi. Agar biror xato o'tib ketsa, uni bir tegishda xabar qilishingiz mumkin.",
     "faq3Question": "Kafolatlangan bosqichlar qanday ishlaydi?",
     "faq3Answer": "5-savolga toʻgʻri javob sizga {havenOne}, 10-savolga toʻgʻri javob esa {havenTwo} kafolatlaydi. Keyingi savollardan birida xato qilsangiz, oxirgi bosib oʻtgan kafolatlangan bosqich summasi bilan ketasiz.",
     "faq4Question": "Internetsiz oʻynasa boʻladimi?",
-    "faq4Answer": "Ha. Ilovani oʻrnating va sozlamalardan 50 tilning istalgani uchun savollar toʻplamini yuklab oling. Oflayn oʻyinlar saqlanadi va qayta ulanganingizda sinxronlanadi.",
+    "faq4Answer": "Ha — Classic oflayn rejimda ishlaydi. Tilingizdagi savollar qurilmangizga avtomatik ravishda saqlanadi va oflayn o'yinlar qayta ulanganda sinxronlanadi. Marafon va Vaqtga qarshi rejimlar internetni talab qiladi.",
     "faq5Question": "Reytingga qanday chiqish mumkin?",
     "faq5Answer": "Google orqali kiring va Marafon yoki Vaqtga qarshi rejimida reytingli oʻyin oʻynang. Har bir javobni serverimiz tekshiradi, shuning uchun reyting adolatli boʻlib qoladi.",
     "faq6Question": "Bu teleshouning rasmiy oʻyinimi?",
-    "faq6Answer": "Yoʻq. Millionaire Quiz — klassik viktorina-shou formatidan ilhomlangan, muxlislar tomonidan yaratilgan mustaqil oʻyin."
+    "faq6Answer": "Yo'q. Millioner Viktorinasi klassik viktorina shou formatidan ilhomlangan mustaqil, fanlar tomonidan yaratilgan o'yin."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Marafon",
       "tagline": "Bitta xato — oʻyin tamom",
       "description": "Har 5 ta toʻgʻri javobdan keyin qiyinlashib boradigan cheksiz savollar oqimi. Sizda toʻrtta klassik yordam bor, har biri bir martalik — bitta notoʻgʻri javob esa oʻyinni tugatadi.",
-      "rules": "Har bir savolga {seconds} soniya. Daraja har 5 ta toʻgʻri javobdan keyin oshadi. Bitta notoʻgʻri javob yoki vaqt tugashi oʻyinni yakunlaydi."
+      "rules": "Har bir savol uchun {minutes, plural, one {# daqiqa} other {# daqiqa}}. Har 5 ta toʻgʻri javobdan keyin daraja oshadi. Bitta notoʻgʻri javob yoki vaqt tugashi oʻyinni tugatadi."
     },
     "timeAttack": {
       "name": "Vaqtga qarshi",
@@ -130,18 +128,12 @@
       "description": "Vaqt tugaguncha imkon qadar koʻproq savolga javob bering. Notoʻgʻri javob oʻyinni tugatmaydi — lekin 5 soniyangizni oladi.",
       "rules": "Soatda {seconds} soniya. Har bir notoʻgʻri javob {penalty} soniya oladi. Yordamlar yoʻq — faqat tezlik."
     },
-    "ranked": "Reytingli",
-    "practice": "Mashq",
-    "rankedHint": "Reytingli oʻyinlar global reytingda hisobga olinadi.",
-    "practiceHint": "Mashq oʻyinlari sizning sozlamalaringizdan foydalanadi va reytingga kirmaydi.",
-    "signInForRanked": "Reytingli oʻynash va reytingga chiqish uchun Google orqali kiring.",
-    "offlineUnranked": "Internet yoʻq, shuning uchun bu oʻyin mashq hisoblanadi.",
-    "customSettingsUnranked": "Shaxsiy sozlamalar tufayli bu oʻyin mashq hisoblanadi."
+    "rankedHint": "Har bir o'yin global reytingda hisobga olinadi.",
+    "guestHint": "Mehmon sifatida o'ynash: o'yiningiz xuddi shunday baholanadi, lekin reytingda faqat tizimga kirgan o'yinchilar ko'rinadi.",
+    "needsConnection": "Bu rejim internetni talab qiladi: har bir o'yin jonli baholanadi. Classic oflayn ishlaydi."
   },
   "Game": {
     "startGame": "Oʻyinni boshlash",
-    "startRanked": "Reytingli oʻyinni boshlash",
-    "startPractice": "Mashqni boshlash",
     "loading": "Studiya chiroqlari yonmoqda…",
     "loadingQuestion": "Keyingi savolingiz yozilmoqda…",
     "playingFor": "Oʻyindagi summa",
@@ -163,6 +155,12 @@
     "timeUp": "Vaqt tugadi!",
     "theAnswerWas": "Toʻgʻri javob — {letter}: {text}",
     "didYouKnow": "Bilasizmi?",
+    "switchPrompt": "Almashishdan oldin — nima deb javob bergan bo'lar edingiz?",
+    "switchPromptHint": "Shunchaki zavq uchun: bu hech qanday ta'sir qilmaydi.",
+    "switchSkip": "O'tkazib yuborish, shunchaki almashtirish",
+    "switchWouldBeRight": "To'g'ri topgan bo'lar edingiz!",
+    "switchWouldBeWrong": "Almashtirganingiz yaxshi bo'ldi!",
+    "switchComing": "Mana sizning yangi savolingiz…",
     "walkAway": "Oʻyinni toʻxtatish",
     "walkAwayTitle": "Pulni olasizmi?",
     "walkAwayBody": "Hozir toʻxtasangiz, uyga {amount} bilan ketasiz.",
@@ -180,7 +178,7 @@
     "levelUp": "{level}-daraja — savollar qiyinlashmoqda",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Savol muallifimiz tanaffusda, shuning uchun bu oʻyinda ingliz tilidagi zaxira savollar ishlatiladi.",
-    "packNotice": "Yuklab olingan savollar toʻplami bilan oʻynayapsiz.",
+    "packNotice": "Siz oflaynsiz — qurilmangizda saqlangan savollar bilan o'ynayapsiz.",
     "keyboardHint": "Klaviatura: tanlash uchun A–D, tasdiqlash uchun Enter, zinapoya uchun L, ovoz uchun M.",
     "report": "Xato haqida xabar berish",
     "reportTitle": "Bu savolda biror xato bormi?",
@@ -205,11 +203,12 @@
     "personalBest": "Yangi shaxsiy rekord!",
     "rank": "Reytingdagi oʻrin: #{rank}",
     "newBadges": "{count, plural, one {Yangi nishon ochildi!} other {# ta yangi nishon ochildi!}}",
-    "shareText": "Men Millionaire Quiz oʻyinida {amount} yutdim! Meni ortda qoldira olasanmi?",
-    "shareScoreText": "Men Millionaire Quiz oʻyinining {mode} rejimida {score} ochko toʻpladim! Meni ortda qoldira olasanmi?",
+    "shareText": "Millioner Viktorinasida {amount} yutib oldim! Meni yengib ko'ra olasizmi?",
+    "shareScoreText": "Millioner Viktorinasida {mode} rejimida {score} ochko to'pladim! Meni yengib ko'ra olasizmi?",
     "backHome": "Bosh sahifaga qaytish",
     "viewLeaderboard": "Reytingni koʻrish",
-    "signInToSave": "Ochkolaringiz va nishonlaringiz barcha qurilmalarda saqlanishi uchun tizimga kiring."
+    "signInToSave": "Ochkolaringiz va nishonlaringiz barcha qurilmalarda saqlanishi uchun tizimga kiring.",
+    "signInToRank": "Bunday natijalarni reyting jadvaliga kiritish uchun tizimga kiring."
   },
   "Lifelines": {
     "title": "Yordamlar",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Sozlamalar",
-    "subtitle": "Ovoz, oflayn toʻplamlar va oʻyinning standart sozlamalari.",
+    "subtitle": "Ovoz, til va Classic o'yin sozlamalari.",
     "gameTitle": "Oʻyin sozlamalari",
+    "gameHint": "Bular Classic o'yinlariga taalluqli. Marafon va Vaqtga qarshi rejimlar reytingli bo'lib, doimiy ravishda standart qoidalardan foydalanadi.",
+    "customised": "O'zingizning maxsus sozlamalaringiz bilan o'ynayapsiz.",
+    "change": "O'zgartirish",
     "categories": "Turkumlar",
     "allCategories": "Barcha turkumlar",
     "categoriesHint": "Bir yoki bir nechtasini tanlang yoki barcha turkumlar uchun hech birini tanlamang.",
@@ -256,16 +258,6 @@
     "soundTitle": "Ovoz",
     "sound": "Ovoz effektlari va musiqa",
     "volume": "Ovoz balandligi",
-    "packsTitle": "Oflayn savollar toʻplamlari",
-    "packsSubtitle": "Internetsiz oʻynamoqchi boʻlgan tillaringiz uchun savollarni yuklab oling. Har bir toʻplam taxminan 100 KB.",
-    "packCount": "{count, plural, one {# ta savol} other {# ta savol}}",
-    "packDownload": "Yuklab olish",
-    "packDownloading": "Yuklab olinmoqda…",
-    "packUpdate": "Yangilash",
-    "packRemove": "Oʻchirish",
-    "packDownloaded": "Yuklab olindi",
-    "packError": "Toʻplamni yuklab boʻlmadi. Ulanishni tekshiring va qayta urinib koʻring.",
-    "autoDownload": "Mening tilim toʻplamini avtomatik yuklab olish",
     "installTitle": "Ilovani oʻrnatish",
     "installBody": "Bosh ekrandan bir bosishda toʻliq ekranda va internetsiz oʻynang.",
     "accountTitle": "Hisob"
@@ -375,26 +367,86 @@
     "earnedOn": "Olingan sana: {date}",
     "unlocked": "Nishon ochildi",
     "items": {
-      "firstSteps": { "name": "Ilk qadamlar", "description": "Birinchi savolingizga toʻgʻri javob bering." },
-      "safeHaven": { "name": "Kafolatlangan bosqich", "description": "Klassikada birinchi kafolatlangan bosqichga yeting (5-savol)." },
-      "halfWay": { "name": "Yoʻlning yarmi", "description": "Klassikada ikkinchi kafolatlangan bosqichga yeting (10-savol)." },
-      "millionaire": { "name": "Millioner", "description": "Klassikadagi barcha 15 ta savolga javob bering va millionni yuting." },
-      "purist": { "name": "Toza oʻyin", "description": "Birorta ham yordamdan foydalanmay millionni yuting." },
-      "smartExit": { "name": "Oqilona chiqish", "description": "12-savolda yoki undan keyin yutugʻingiz bilan oʻyinni toʻxtating." },
-      "quickThinker": { "name": "Tezkor fikr", "description": "Har biriga 3 soniyadan kam vaqt sarflab, 10 ta toʻgʻri javob bering." },
-      "marathon10": { "name": "Marafonchi", "description": "Reytingli Marafonda ketma-ket 10 ta savolga toʻgʻri javob bering." },
-      "marathon25": { "name": "Uzoq masofa", "description": "Reytingli Marafonda ketma-ket 25 ta savolga toʻgʻri javob bering." },
-      "marathon50": { "name": "Poʻlat aql", "description": "Reytingli Marafonda ketma-ket 50 ta savolga toʻgʻri javob bering." },
-      "marathon100": { "name": "Afsona", "description": "Reytingli Marafonda ketma-ket 100 ta savolga toʻgʻri javob bering." },
-      "timeAttack15": { "name": "Chaqqon", "description": "Reytingli Vaqtga qarshi rejimida 15 ochko toʻplang." },
-      "timeAttack30": { "name": "Chaqmoq", "description": "Reytingli Vaqtga qarshi rejimida 30 ochko toʻplang." },
-      "polyglot3": { "name": "Poliglot", "description": "3 ta turli tilda oʻynang." },
-      "polyglot10": { "name": "Dunyo sayyohi", "description": "10 ta turli tilda oʻynang." },
-      "streak3": { "name": "Zoʻr ketyapti", "description": "Ketma-ket 3 kun oʻynang." },
-      "streak7": { "name": "Sodiq oʻyinchi", "description": "Ketma-ket 7 kun oʻynang." },
-      "offlineHero": { "name": "Tarmoqdan tashqarida", "description": "Oʻyinni oflayn rejimda yakunlang." },
-      "savedByAFriend": { "name": "Doʻst qutqardi", "description": "Doʻstingiz maslahatiga amal qiling va toʻgʻri javob bering." },
-      "categoryMaster": { "name": "Turkum ustasi", "description": "Bitta turkumda 25 ta savolga toʻgʻri javob bering." }
+      "firstSteps": {
+        "name": "Ilk qadamlar",
+        "description": "Birinchi savolingizga toʻgʻri javob bering."
+      },
+      "safeHaven": {
+        "name": "Kafolatlangan bosqich",
+        "description": "Klassikada birinchi kafolatlangan bosqichga yeting (5-savol)."
+      },
+      "halfWay": {
+        "name": "Yoʻlning yarmi",
+        "description": "Klassikada ikkinchi kafolatlangan bosqichga yeting (10-savol)."
+      },
+      "millionaire": {
+        "name": "Millioner",
+        "description": "Klassikadagi barcha 15 ta savolga javob bering va millionni yuting."
+      },
+      "purist": {
+        "name": "Toza oʻyin",
+        "description": "Birorta ham yordamdan foydalanmay millionni yuting."
+      },
+      "smartExit": {
+        "name": "Oqilona chiqish",
+        "description": "12-savolda yoki undan keyin yutugʻingiz bilan oʻyinni toʻxtating."
+      },
+      "quickThinker": {
+        "name": "Tezkor fikr",
+        "description": "Har biriga 3 soniyadan kam vaqt sarflab, 10 ta toʻgʻri javob bering."
+      },
+      "marathon10": {
+        "name": "Marafonchi",
+        "description": "Reytingli Marafonda ketma-ket 10 ta savolga toʻgʻri javob bering."
+      },
+      "marathon25": {
+        "name": "Uzoq masofa",
+        "description": "Reytingli Marafonda ketma-ket 25 ta savolga toʻgʻri javob bering."
+      },
+      "marathon50": {
+        "name": "Poʻlat aql",
+        "description": "Reytingli Marafonda ketma-ket 50 ta savolga toʻgʻri javob bering."
+      },
+      "marathon100": {
+        "name": "Afsona",
+        "description": "Reytingli Marafonda ketma-ket 100 ta savolga toʻgʻri javob bering."
+      },
+      "timeAttack15": {
+        "name": "Chaqqon",
+        "description": "Reytingli Vaqtga qarshi rejimida 15 ochko toʻplang."
+      },
+      "timeAttack30": {
+        "name": "Chaqmoq",
+        "description": "Reytingli Vaqtga qarshi rejimida 30 ochko toʻplang."
+      },
+      "polyglot3": {
+        "name": "Poliglot",
+        "description": "3 ta turli tilda oʻynang."
+      },
+      "polyglot10": {
+        "name": "Dunyo sayyohi",
+        "description": "10 ta turli tilda oʻynang."
+      },
+      "streak3": {
+        "name": "Zoʻr ketyapti",
+        "description": "Ketma-ket 3 kun oʻynang."
+      },
+      "streak7": {
+        "name": "Sodiq oʻyinchi",
+        "description": "Ketma-ket 7 kun oʻynang."
+      },
+      "offlineHero": {
+        "name": "Tarmoqdan tashqarida",
+        "description": "Oʻyinni oflayn rejimda yakunlang."
+      },
+      "savedByAFriend": {
+        "name": "Doʻst qutqardi",
+        "description": "Doʻstingiz maslahatiga amal qiling va toʻgʻri javob bering."
+      },
+      "categoryMaster": {
+        "name": "Turkum ustasi",
+        "description": "Bitta turkumda 25 ta savolga toʻgʻri javob bering."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Yordamlar",
     "lifelinesBody": "Sizda toʻrtta yordam bor, har biridan bir oʻyinda bir marta foydalanish mumkin:",
     "marathonTitle": "Marafon",
-    "marathonBody": "Cheksiz oʻyin. Savollar har beshta toʻgʻri javobdan keyin qiyinlashadi, toʻrtta yordamning har biri bir martalik, har bir savolga esa {seconds} soniya beriladi. Bitta notoʻgʻri javob yoki vaqt tugashi oʻyinni yakunlaydi, ochkolaringiz esa toʻgʻri javoblar soniga teng.",
+    "marathonBody": "Cheksiz o'yin. Har beshta to'g'ri javobdan keyin savollar qiyinlashadi, sizda to'rtta yordamchidan har biri bir martadan bor va har bir savol uchun {minutes, plural, one {# daqiqa} other {# daqiqa}} vaqt beriladi. Bitta noto'g'ri javob yoki vaqt tugashi o'yinni yakunlaydi, ballingiz esa to'g'ri javoblar sonidan iborat.",
     "timeAttackTitle": "Vaqtga qarshi",
     "timeAttackBody": "Imkon qadar koʻp savolga javob berish uchun sizda {seconds} soniya bor. Notoʻgʻri javob oʻyinni tugatmaydi, lekin soatdan {penalty} soniya oladi. Yordamlar yoʻq.",
     "rankedTitle": "Reytingli oʻyin va adolat",
-    "rankedBody": "Reytingli Marafon va Vaqtga qarshi oʻyinlarini serverimiz nazorat qiladi: toʻgʻri javob siz javob bermaguningizcha qurilmangizga hech qachon yetib bormaydi, vaqt esa serverda hisoblanadi. Reytingli oʻynash uchun Google orqali kiring. Shaxsiy sozlamalar bilan yoki oflayn oʻynalgan oʻyinlar mashq hisoblanadi.",
+    "rankedBody": "Marafon va Vaqtga qarshi o'yinlar doimo serverimiz tomonidan baholanadi: to'g'ri javob siz javob bermaguningizcha qurilmangizga kelib tushmaydi va vaqt serverda hisoblanadi. Hamma ularni o'ynashi mumkin; balingizni reytingga chiqarish uchun Google orqali kiring.",
     "questionsTitle": "Savollar haqida",
-    "questionsBody": "Savollarni AI savol muallifi har bir tilda bevosita yozadi va ular avtomatik tekshiriladi. Taxminan 40 foizi sizning tilingizda soʻzlashiladigan yurt madaniyatiga oid. Agar savol xato boʻlib tuyulsa, javob ochilgandan soʻng «Xato haqida xabar berish» tugmasini bosing."
+    "questionsBody": "Savollar sun'iy intellektga asoslangan savol tuzuvchi tomonidan har bir tilda yaratiladi va avtomatik ravishda tekshiriladi. Taxminan 40% savollar tilingiz so'zlashadigan madaniyatga tegishli. Agar savol noto'g'ri ko'rinsa, javob chiqqandan keyin “Xato haqida xabar berish” tugmasidan foydalaning."
   },
   "About": {
-    "title": "Millionaire Quiz haqida",
-    "intro": "Millionaire Quiz — klassik teleformatdan ilhomlangan, muxlislar tomonidan yaratilgan bepul viktorina oʻyini. U veb, telefonlar va 50 til uchun qaytadan yaratilgan.",
+    "title": "Millioner Viktorinasi haqida",
+    "intro": "Millioner Viktorinasi klassik televideniye formatidan ilhomlangan bepul, fanlar tomonidan yaratilgan viktorina o'yini bo'lib, veb, telefonlar va 50 ta til uchun qaytadan yaratilgan.",
     "missionTitle": "Nega yaratdik",
     "missionBody": "Viktorina oʻyinlarining aksariyati ingliz tilida yozilib, keyin tarjima qilinadi. Bizningcha, viktorina oʻz uyingizdagidek his qilinishi kerak: savollar siz ulgʻaygan muhitdagi insonlar, joylar, kitoblar va anʼanalar haqida ham, keng dunyo haqida ham boʻlishi lozim.",
     "howTitle": "Savollar qanday yaratiladi",
     "howBody": "Katta til modeli har bir savolni bevosita sizning tilingizda, toʻplam-toʻplam qilib, qatʼiy qoidalar asosida yozadi: bitta aniq toʻgʻri javob, toʻrtta ishonarli variant, faqat oʻzgarmas faktlar. Savollar avtomatik tekshiriladi, saqlanadi va oʻyinchilarga taqdim etiladi; istalgan oʻyinchi xato haqida xabar berishi mumkin.",
     "techTitle": "Parda ortida",
-    "techBody": "Millionaire Quiz — progressiv veb-ilova: u telefon yoki kompyuterga oʻrnatiladi, yuklab olinadigan savollar toʻplamlari bilan oflayn ishlaydi va qayta ulanganingizda natijalaringizni sinxronlaydi.",
+    "techBody": "Millioner Viktorinasi progressiv veb-ilova: u telefoningiz yoki kompyuteringizga o'rnatiladi, avtomatik ravishda saqlanadigan savollar bilan oflayn rejimda ishlaydi va qayta ulanganingizda yutuqlaringizni sinxronlashtiradi.",
     "creditTitle": "Mualliflar",
     "creditBody": "Dizayn va ishlab chiqish: {author}.",
-    "disclaimer": "Millionaire Quiz hech qanday teledastur, teleradiokompaniya yoki huquq egasi bilan bogʻliq emas va ular tomonidan qoʻllab-quvvatlanmaydi."
+    "disclaimer": "Millioner Viktorinasi hech qanday televideniye dasturi, teleradiokompaniya yoki huquq egasi bilan bog'liq emas, ular tomonidan ma'qullanmagan yoki qo'llab-quvvatlanmagan."
   },
   "Legal": {
     "privacyTitle": "Maxfiylik siyosati",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Sizning huquqlaringiz",
     "privacyRightsBody": "Koʻrsatiladigan ismingiz va rasmingizni istalgan vaqtda oʻzgartirishingiz, shuningdek muallif bilan bogʻlanib, hisobingiz va unga tegishli barcha maʼlumotlarni oʻchirishni soʻrashingiz mumkin.",
     "termsTitle": "Foydalanish shartlari",
-    "termsIntro": "Millionaire Quiz oʻynash orqali siz ushbu oddiy shartlarga rozilik bildirasiz.",
+    "termsIntro": "Millioner Viktorinasini o'ynash orqali siz ushbu oddiy shartlarga rozilik bildirasiz.",
     "termsPlayTitle": "Halol oʻyin",
     "termsPlayBody": "Reytingli oʻyinlarni halol oʻynang. Avtomatlashtirilgan oʻyin, xatolardan foydalanish yoki reytingga aralashish natijalaringiz oʻchirilishiga olib kelishi mumkin.",
     "termsContentTitle": "Savollar va aniqlik",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Ilovani oʻrnatish",
-    "installTitle": "Millionaire Quiz ni oʻrnatish",
+    "installTitle": "Millioner Viktorinasini o'rnatish",
     "benefit": "Bosh ekrandan bir bosishda toʻliq ekranda va oflayn oʻynang.",
     "iosTitle": "iPhone yoki iPad ga oʻrnatish",
     "iosStep1": "Safari asboblar panelidagi «Ulashish» tugmasini bosing.",
@@ -464,9 +516,34 @@
     "iosStep3": "«Qoʻshish» tugmasini bosing — ilova bosh ekraningizda paydo boʻladi.",
     "gotIt": "Tushunarli"
   },
+  "Contact": {
+    "title": "Biz bilan bog'lanish",
+    "subtitle": "Xato topdingizmi, g'oyangiz bormi yoki yordam kerakmi? Bizga yozing — biz har bir xabarni o'qiymiz.",
+    "name": "Ismingiz",
+    "nameRequired": "Iltimos, ismingizni kiriting.",
+    "email": "Elektron pochta",
+    "emailRequired": "Javob berishimiz uchun elektron pochtangizni kiriting.",
+    "emailInvalid": "Bu elektron pochta manzili noto'g'ri ko'rinishda.",
+    "message": "Xabar",
+    "messageRequired": "Iltimos, xabar yozing.",
+    "messagePlaceholder": "Sizga qanday yordam bera olamiz?",
+    "send": "Xabar yuborish",
+    "error": "Xabaringiz yuborilmadi. Iltimos, ozgina tanaffusdan keyin qayta urinib ko'ring.",
+    "sentTitle": "Xabar yuborildi!",
+    "sentBody": "Yozganingiz uchun rahmat. Siz ko'rsatgan elektron pochta manziliga javob yuboramiz.",
+    "sendAnother": "Boshqa xabar yuborish"
+  },
   "Auth": {
     "signedIn": "Xush kelibsiz, {name}!",
     "signedOut": "Tizimdan chiqdingiz.",
+    "signInTitle": "Tizimga kirish",
+    "signInSubtitle": "Google bilan bir tegishda kiring va taraqqiyotingiz barcha qurilmalaringizda sizga ergashadi.",
+    "benefitRanked": "Marafon va Vaqtga qarshi natijalaringizni global reytingga qo'ying",
+    "benefitLeaderboard": "Boshqa o'yinchilar ko'radigan ism va rasmni tanlang",
+    "benefitSync": "Classic rekordlaringiz, o'yin tarixi va nishonlaringizni hamma joyda saqlang",
+    "privacyNote": "Biz faqat Google'dagi ismingiz, elektron pochtangiz va rasmingizdan foydalanamiz.",
+    "unavailable": "Hozirda tizimga kirish imkonsiz. Baribir Classic o'ynashingiz mumkin — taraqqiyotingiz ushbu qurilmada saqlanadi.",
+    "alreadySignedIn": "Siz {name} sifatida tizimga kirgansiz.",
     "errors": {
       "google_unavailable": "Google orqali kirish hozircha mavjud emas.",
       "google_denied": "Kirish bekor qilindi.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, viktorina, viktorina oʻyini, bilimlar bellashuvi, kim millioner boʻlishni xohlaydi oʻyini, bepul viktorina, onlayn viktorina, umumiy bilim",
-    "homeTitle": "Millionaire Quiz — Kim millioner boʻlishni xohlaydi? Onlayn bepul oʻynang",
+    "homeTitle": "Millioner Viktorinasi — Kim millioner bo'lishni xohlaydi? Onlayn bepul o'ynang",
     "homeDescription": "Viktorina-shouni 50 tilda bepul oʻynang. Milliongacha 15 savol, toʻrtta yordam, kafolatlangan bosqichlar hamda global reytingli cheksiz Marafon va Vaqtga qarshi rejimlari.",
     "playTitle": "Klassik Millioner viktorinasi — milliongacha 15 savol",
     "playDescription": "Pul zinapoyasida {first} summasidan {top} summasigacha koʻtariling: oʻn besh savol, ikkita kafolatlangan bosqich, toʻrtta yordam. Bepul, roʻyxatdan oʻtmasdan, oʻz tilingizda.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Nishonlar — hammasini toʻplang",
     "badgesDescription": "Klassika, Marafon va Vaqtga qarshi rejimlarida qoʻlga kiritiladigan yigirmata nishon: millionni yuting, har kuni oʻynang, turli tillarda oʻynang.",
     "rulesTitle": "Qanday oʻynaladi — qoidalar, pul zinapoyasi va yordamlar",
-    "rulesDescription": "Millionaire Quiz ning toʻliq qoidalari: pul zinapoyasi, kafolatlangan bosqichlar, oʻyinni toʻxtatish, toʻrtta yordam, Marafon va Vaqtga qarshi.",
-    "aboutTitle": "Millionaire Quiz haqida",
-    "aboutDescription": "Klassik televiktorinadan ilhomlangan, savollarini 50 tilda AI yozadigan, muxlislar tomonidan yaratilgan bepul viktorina oʻyini.",
+    "rulesDescription": "Millioner Viktorinasining to'liq qoidalari: pul zinapoyasi, kafolatlangan summalar, to'xtash, to'rtta yordamchi, Marafon va Vaqtga qarshi hujum.",
+    "aboutTitle": "Millioner Viktorinasi haqida",
+    "aboutDescription": "Klassik TV viktorina formatidan ilhomlangan, 50 tilda sun'iy intellekt tomonidan yozilgan savollarga ega bepul, fan-klub tomonidan yaratilgan viktorina o'yini.",
     "privacyTitle": "Maxfiylik siyosati",
-    "privacyDescription": "Millionaire Quiz nimani saqlaydi, nima uchun va uni qanday oʻchirish mumkin.",
+    "privacyDescription": "Millioner Viktorinasi nimani saqlaydi, nima uchun va uni qanday o'chirish mumkin.",
     "termsTitle": "Foydalanish shartlari",
-    "termsDescription": "Millionaire Quiz ni halol oʻynash uchun oddiy qoidalar.",
+    "termsDescription": "Millioner Viktorinasini adolatli o'ynash uchun oddiy qoidalar.",
     "profileTitle": "Profilingiz",
     "profileDescription": "Ochkolaringiz, reytingdagi oʻrinlaringiz va nishonlaringiz.",
     "settingsTitle": "Sozlamalar",
-    "settingsDescription": "Ovoz, oflayn savollar toʻplamlari va oʻyinning standart sozlamalari."
+    "contactTitle": "Biz bilan bog'lanish",
+    "contactDescription": "Savollar, g'oyalar yoki savoldagi xatomi? Millioner Viktorinasi jamoasiga xabar yuboring.",
+    "signInTitle": "Tizimga kirish",
+    "signInDescription": "Natijalaringizni reytingga kiritish va taraqqiyotingizni har bir qurilmada saqlash uchun Google orqali kiring.",
+    "settingsDescription": "Ovoz, til va Classic o'yin sozlamalari."
   }
 }

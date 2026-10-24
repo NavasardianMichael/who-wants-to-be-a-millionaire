@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Quiz Millionnaire",
+    "wordmarkTop": "Quiz",
+    "wordmarkBottom": "Millionnaire",
     "tagline": "Le jeu télévisé de quiz dans ta langue",
     "play": "Jouer",
     "playNow": "Jouer maintenant",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Continuer avec Google",
     "signedInAs": "Connecté en tant que {name}",
     "you": "Toi",
+    "unsavedTitle": "Quitter cette page ?",
+    "unsavedBody": "Ce que tu as saisi ici n'a pas été enregistré et sera perdu.",
+    "stay": "Rester",
+    "leave": "Quitter",
     "share": "Partager",
     "copied": "Lien copié",
     "comingBack": "À bientôt !",
@@ -57,22 +63,14 @@
     "about": "À propos",
     "privacy": "Confidentialité",
     "terms": "Conditions",
+    "contact": "Contacte-nous",
     "profile": "Profil",
     "settings": "Paramètres"
   },
   "Home": {
-    "eyebrow": "50 langues · questions écrites par IA · gratuit",
+    "eyebrow": "50 langues · questions rédigées par intelligence artificielle · gratuit",
     "heroTitle": "Qui veut gagner des millions ?",
-    "heroSubtitle": "Quinze questions te séparent du million. Grimpe la pyramide des gains, utilise tes jokers avec sagesse… et décide quand t’arrêter.",
-    "heroCta": "Jouer en Classique",
-    "heroSecondaryCta": "Essayer le Marathon",
-    "statsQuestions": "Des questions inédites à chaque partie",
-    "statsLanguages": "Langues",
-    "statsLifelines": "Jokers",
     "modesTitle": "Trois façons de jouer",
-    "modesSubtitle": "L’ascension classique, une épreuve de nerfs sans fin ou une course contre la montre.",
-    "ladderTitle": "La pyramide des gains",
-    "ladderSubtitle": "Chaque bonne réponse te fait monter d’une marche. Les paliers des questions 5 et 10 te garantissent tes gains, même si tu chutes ensuite.",
     "lifelinesTitle": "Quatre jokers, un seul usage chacun",
     "lifelinesSubtitle": "Quand tu sèches, un joker peut sauver ta partie. Utilise-les avec sagesse : les questions les plus difficiles arrivent à la fin.",
     "howTitle": "Comment jouer",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Voir le classement complet",
     "emptyLeaderboard": "Aucune partie classée pour l’instant : sois le premier !",
     "cultureTitle": "Des questions qui parlent ta langue",
-    "cultureBody": "Notre rédacteur de questions IA crée des questions inédites directement dans chacune des 50 langues, en mêlant culture générale et histoire, littérature, géographie et traditions de ta propre culture. Une question sur ton poète préféré ne sera pas la traduction d’une question sur quelqu’un d’autre.",
+    "cultureBody": "Notre rédacteur à base d'intelligence artificielle crée de nouvelles questions directement dans chacune des 50 langues, mêlant culture générale et histoire, littérature, géographie ainsi que les traditions propres à ta culture. Une question sur ton poète préféré ne sera pas une simple traduction d'une question sur celui de quelqu'un d'autre.",
     "offlineTitle": "Joue partout, même hors ligne",
-    "offlineBody": "Installe l’appli, télécharge les packs de questions des langues de ton choix et continue à jouer dans l’avion ou dans le métro. Tes scores se synchronisent dès que tu es de nouveau en ligne.",
+    "offlineBody": "Installe l'application et continue de jouer au mode Classique dans l'avion ou le métro : les questions dans ta langue sont enregistrées automatiquement sur ton appareil. Tes scores se synchronisent dès que tu te reconnectes.",
     "badgesTitle": "Collectionne les badges",
     "badgesSubtitle": "Atteins les paliers, gagne le million, garde ta série en vie : {count} badges sont à décrocher.",
     "viewBadges": "Voir tous les badges",
     "categoriesTitle": "Explore les catégories",
     "categoriesSubtitle": "De l’histoire aux sciences, en passant par le cinéma, la cuisine et ta propre culture locale.",
     "faqTitle": "Questions fréquentes",
-    "faq1Question": "Millionaire Quiz est-il gratuit ?",
+    "faq1Question": "Est-ce que Quiz Millionnaire est gratuit ?",
     "faq1Answer": "Oui. Tous les modes, toutes les langues et tous les jokers sont gratuits, et le mode Classique ne demande aucune inscription.",
     "faq2Question": "D’où viennent les questions ?",
-    "faq2Answer": "Un rédacteur de questions IA les crée directement dans ta langue, et chaque question est vérifiée automatiquement avant d’arriver dans le jeu. Si une erreur passe entre les mailles, tu peux la signaler en un geste.",
+    "faq2Answer": "Une intelligence artificielle rédactrice les crée directement dans ta langue, et chaque question est vérifiée automatiquement avant d'arriver dans le jeu. Si une erreur passe entre les mailles du filet, tu peux la signaler en un clin d'œil.",
     "faq3Question": "Comment fonctionnent les paliers ?",
     "faq3Answer": "Bien répondre à la question 5 te garantit {havenOne}, et la question 10 te garantit {havenTwo}. Si tu te trompes plus tard, tu repars quand même avec le dernier palier franchi.",
     "faq4Question": "Puis-je jouer hors ligne ?",
-    "faq4Answer": "Oui. Installe l’appli et télécharge depuis les paramètres des packs de questions dans n’importe laquelle des 50 langues. Les parties hors ligne sont enregistrées et synchronisées à ta reconnexion.",
+    "faq4Answer": "Oui — le mode Classique fonctionne hors ligne. Les questions dans ta langue sont automatiquement enregistrées sur ton appareil, et les parties hors ligne se synchronisent dès ta reconnexion. Les modes Marathon et Contre-la-montre nécessitent une connexion.",
     "faq5Question": "Comment entrer dans le classement ?",
     "faq5Answer": "Connecte-toi avec Google et joue une partie classée en Marathon ou en Contre-la-montre. Chaque réponse est vérifiée par notre serveur, pour un classement équitable.",
     "faq6Question": "Est-ce le jeu officiel de l’émission ?",
-    "faq6Answer": "Non. Millionaire Quiz est un jeu indépendant créé par des fans, inspiré du format classique du jeu télévisé."
+    "faq6Answer": "Non. Quiz Millionnaire est un jeu indépendant créé par des fans, inspiré par le format culte des jeux télévisés."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Marathon",
       "tagline": "Une erreur et c’est fini",
       "description": "Une série infinie de questions qui se corse toutes les 5 bonnes réponses. Tu as les quatre jokers classiques, une fois chacun, et une seule mauvaise réponse met fin à la partie.",
-      "rules": "{seconds} secondes par question. Le niveau monte toutes les 5 bonnes réponses. Une mauvaise réponse ou un temps écoulé met fin à la partie."
+      "rules": "{minutes, plural, one {# minute} other {# minutes}} par question. Le niveau augmente toutes les 5 bonnes réponses. Une mauvaise réponse ou la fin du chrono met fin à la partie."
     },
     "timeAttack": {
       "name": "Contre-la-montre",
@@ -130,18 +128,12 @@
       "description": "Réponds à un maximum de questions avant la fin du chrono. Une mauvaise réponse ne met pas fin à la partie, mais elle te coûte 5 secondes.",
       "rules": "{seconds} secondes au chrono. Chaque mauvaise réponse coûte {penalty} secondes. Pas de jokers : que de la vitesse."
     },
-    "ranked": "Classée",
-    "practice": "Entraînement",
-    "rankedHint": "Les parties classées comptent pour le classement mondial.",
-    "practiceHint": "Les parties d’entraînement utilisent tes propres paramètres et ne sont pas classées.",
-    "signInForRanked": "Connecte-toi avec Google pour jouer en classé et rejoindre le classement.",
-    "offlineUnranked": "Tu es hors ligne, cette partie sera donc un entraînement.",
-    "customSettingsUnranked": "Avec des paramètres personnalisés, cette partie est un entraînement."
+    "rankedHint": "Chaque partie compte pour le classement mondial.",
+    "guestHint": "En jouant en tant qu'invité : ta partie est arbitrée de la même façon, mais seuls les joueurs connectés apparaissent au classement.",
+    "needsConnection": "Ce mode nécessite une connexion : chaque partie est arbitrée en direct. Le mode Classique est jouable hors ligne."
   },
   "Game": {
     "startGame": "Lancer la partie",
-    "startRanked": "Lancer une partie classée",
-    "startPractice": "Lancer l’entraînement",
     "loading": "Les projecteurs du plateau s’allument…",
     "loadingQuestion": "Rédaction de ta prochaine question…",
     "playingFor": "En jeu",
@@ -163,6 +155,12 @@
     "timeUp": "Temps écoulé !",
     "theAnswerWas": "La bonne réponse était {letter} : {text}",
     "didYouKnow": "Le savais-tu ?",
+    "switchPrompt": "Avant de changer… tu aurais répondu quoi ?",
+    "switchPromptHint": "Juste pour le fun : ça ne comptera pas de toute façon.",
+    "switchSkip": "Passer, juste changer",
+    "switchWouldBeRight": "Tu aurais eu bon !",
+    "switchWouldBeWrong": "Heureusement que tu as changé !",
+    "switchComing": "Voici ta nouvelle question…",
     "walkAway": "S’arrêter",
     "walkAwayTitle": "Tu prends l’argent ?",
     "walkAwayBody": "Si tu t’arrêtes maintenant, tu repars avec {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Niveau {level} : les questions se corsent",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Notre rédacteur de questions fait une pause : cette partie utilise des questions de secours en anglais.",
-    "packNotice": "Tu joues avec ton pack de questions téléchargé.",
+    "packNotice": "Tu es hors ligne — tu joues avec les questions enregistrées sur ton appareil.",
     "keyboardHint": "Clavier : A–D pour choisir, Enter pour valider, L pour la pyramide, M pour le son.",
     "report": "Signaler une erreur",
     "reportTitle": "Un problème avec cette question ?",
@@ -205,11 +203,12 @@
     "personalBest": "Nouveau record personnel !",
     "rank": "Rang #{rank} au classement",
     "newBadges": "{count, plural, one {Nouveau badge débloqué !} other {# nouveaux badges débloqués !}}",
-    "shareText": "J’ai gagné {amount} sur Millionaire Quiz ! Tu peux faire mieux ?",
-    "shareScoreText": "J’ai marqué {score} en {mode} sur Millionaire Quiz ! Tu peux faire mieux ?",
+    "shareText": "J'ai gagné {amount} sur Quiz Millionnaire ! Arriveras-tu à me battre ?",
+    "shareScoreText": "J'ai obtenu un score de {score} en mode {mode} sur Quiz Millionnaire ! Peux-tu faire mieux ?",
     "backHome": "Retour à l’accueil",
     "viewLeaderboard": "Voir le classement",
-    "signInToSave": "Connecte-toi pour garder tes scores et tes badges sur tous tes appareils."
+    "signInToSave": "Connecte-toi pour garder tes scores et tes badges sur tous tes appareils.",
+    "signInToRank": "Connecte-toi pour enregistrer des parties comme celle-ci au classement."
   },
   "Lifelines": {
     "title": "Jokers",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Paramètres",
-    "subtitle": "Son, packs hors ligne et tes paramètres de jeu par défaut.",
+    "subtitle": "Son, langue et réglages de ta partie Classique.",
     "gameTitle": "Paramètres de jeu",
+    "gameHint": "Ces options s'appliquent aux parties Classiques. Les modes Marathon et Contre-la-montre sont classés et utilisent toujours les règles standards.",
+    "customised": "Tu joues avec tes réglages personnalisés.",
+    "change": "Modifier",
     "categories": "Catégories",
     "allCategories": "Toutes les catégories",
     "categoriesHint": "Choisis-en une ou plusieurs, ou n’en coche aucune pour jouer avec toutes.",
@@ -256,16 +258,6 @@
     "soundTitle": "Son",
     "sound": "Effets sonores et musique",
     "volume": "Volume",
-    "packsTitle": "Packs de questions hors ligne",
-    "packsSubtitle": "Télécharge des questions dans les langues où tu veux jouer sans connexion. Chaque pack pèse environ 100 Ko.",
-    "packCount": "{count, plural, one {# question} other {# questions}}",
-    "packDownload": "Télécharger",
-    "packDownloading": "Téléchargement…",
-    "packUpdate": "Mettre à jour",
-    "packRemove": "Supprimer",
-    "packDownloaded": "Téléchargé",
-    "packError": "Impossible de télécharger le pack. Vérifie ta connexion et réessaie.",
-    "autoDownload": "Télécharger automatiquement le pack de ma langue",
     "installTitle": "Installer l’appli",
     "installBody": "Joue en plein écran et hors ligne, en un geste depuis ton écran d’accueil.",
     "accountTitle": "Compte"
@@ -375,26 +367,86 @@
     "earnedOn": "Obtenu le {date}",
     "unlocked": "Badge débloqué",
     "items": {
-      "firstSteps": { "name": "Premiers pas", "description": "Réponds correctement à ta première question." },
-      "safeHaven": { "name": "Premier palier", "description": "Atteins le premier palier en Classique (question 5)." },
-      "halfWay": { "name": "À mi-chemin", "description": "Atteins le second palier en Classique (question 10)." },
-      "millionaire": { "name": "Millionnaire", "description": "Réponds aux 15 questions du Classique et gagne le million." },
-      "purist": { "name": "Puriste", "description": "Gagne le million sans utiliser le moindre joker." },
-      "smartExit": { "name": "Sortie maline", "description": "Repars avec tes gains à la question 12 ou plus loin." },
-      "quickThinker": { "name": "Esprit vif", "description": "Donne 10 bonnes réponses en moins de 3 secondes chacune." },
-      "marathon10": { "name": "Marathonien", "description": "Enchaîne 10 bonnes réponses dans un Marathon classé." },
-      "marathon25": { "name": "Fond de course", "description": "Enchaîne 25 bonnes réponses dans un Marathon classé." },
-      "marathon50": { "name": "Mental d’acier", "description": "Enchaîne 50 bonnes réponses dans un Marathon classé." },
-      "marathon100": { "name": "Légende", "description": "Enchaîne 100 bonnes réponses dans un Marathon classé." },
-      "timeAttack15": { "name": "Bolide", "description": "Marque 15 points dans un Contre-la-montre classé." },
-      "timeAttack30": { "name": "Éclair", "description": "Marque 30 points dans un Contre-la-montre classé." },
-      "polyglot3": { "name": "Polyglotte", "description": "Joue dans 3 langues différentes." },
-      "polyglot10": { "name": "Globe-trotteur", "description": "Joue dans 10 langues différentes." },
-      "streak3": { "name": "Sur sa lancée", "description": "Joue 3 jours d’affilée." },
-      "streak7": { "name": "Accro", "description": "Joue 7 jours d’affilée." },
-      "offlineHero": { "name": "Déconnecté", "description": "Termine une partie hors ligne." },
-      "savedByAFriend": { "name": "Sauvé par un ami", "description": "Suis le conseil de ton ami et trouve la bonne réponse." },
-      "categoryMaster": { "name": "Maître de la catégorie", "description": "Réponds correctement à 25 questions dans une même catégorie." }
+      "firstSteps": {
+        "name": "Premiers pas",
+        "description": "Réponds correctement à ta première question."
+      },
+      "safeHaven": {
+        "name": "Premier palier",
+        "description": "Atteins le premier palier en Classique (question 5)."
+      },
+      "halfWay": {
+        "name": "À mi-chemin",
+        "description": "Atteins le second palier en Classique (question 10)."
+      },
+      "millionaire": {
+        "name": "Millionnaire",
+        "description": "Réponds aux 15 questions du Classique et gagne le million."
+      },
+      "purist": {
+        "name": "Puriste",
+        "description": "Gagne le million sans utiliser le moindre joker."
+      },
+      "smartExit": {
+        "name": "Sortie maline",
+        "description": "Repars avec tes gains à la question 12 ou plus loin."
+      },
+      "quickThinker": {
+        "name": "Esprit vif",
+        "description": "Donne 10 bonnes réponses en moins de 3 secondes chacune."
+      },
+      "marathon10": {
+        "name": "Marathonien",
+        "description": "Enchaîne 10 bonnes réponses dans un Marathon classé."
+      },
+      "marathon25": {
+        "name": "Fond de course",
+        "description": "Enchaîne 25 bonnes réponses dans un Marathon classé."
+      },
+      "marathon50": {
+        "name": "Mental d’acier",
+        "description": "Enchaîne 50 bonnes réponses dans un Marathon classé."
+      },
+      "marathon100": {
+        "name": "Légende",
+        "description": "Enchaîne 100 bonnes réponses dans un Marathon classé."
+      },
+      "timeAttack15": {
+        "name": "Bolide",
+        "description": "Marque 15 points dans un Contre-la-montre classé."
+      },
+      "timeAttack30": {
+        "name": "Éclair",
+        "description": "Marque 30 points dans un Contre-la-montre classé."
+      },
+      "polyglot3": {
+        "name": "Polyglotte",
+        "description": "Joue dans 3 langues différentes."
+      },
+      "polyglot10": {
+        "name": "Globe-trotteur",
+        "description": "Joue dans 10 langues différentes."
+      },
+      "streak3": {
+        "name": "Sur sa lancée",
+        "description": "Joue 3 jours d’affilée."
+      },
+      "streak7": {
+        "name": "Accro",
+        "description": "Joue 7 jours d’affilée."
+      },
+      "offlineHero": {
+        "name": "Déconnecté",
+        "description": "Termine une partie hors ligne."
+      },
+      "savedByAFriend": {
+        "name": "Sauvé par un ami",
+        "description": "Suis le conseil de ton ami et trouve la bonne réponse."
+      },
+      "categoryMaster": {
+        "name": "Maître de la catégorie",
+        "description": "Réponds correctement à 25 questions dans une même catégorie."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Les jokers",
     "lifelinesBody": "Tu as quatre jokers, et chacun s’utilise une seule fois par partie :",
     "marathonTitle": "Marathon",
-    "marathonBody": "Une partie sans fin. Les questions se corsent toutes les cinq bonnes réponses, tu as les quatre jokers une fois chacun et {seconds} secondes par question. Une mauvaise réponse ou un temps écoulé met fin à la partie, et ton score correspond au nombre de bonnes réponses.",
+    "marathonBody": "Une partie sans fin. Les questions se corsent toutes les cinq bonnes réponses, tu disposes des quatre jokers une seule fois chacun, et tu as {minutes, plural, one {# minute} other {# minutes}} par question. Une seule mauvaise réponse ou la fin du chrono met fin à la partie, et ton score correspond au nombre de bonnes réponses.",
     "timeAttackTitle": "Contre-la-montre",
     "timeAttackBody": "Tu as {seconds} secondes pour répondre à un maximum de questions. Une mauvaise réponse ne met pas fin à la partie, mais elle retire {penalty} secondes au chrono. Il n’y a pas de jokers.",
     "rankedTitle": "Parties classées et fair-play",
-    "rankedBody": "Les parties classées en Marathon et en Contre-la-montre sont arbitrées par notre serveur : la bonne réponse n’arrive jamais sur ton appareil avant que tu répondes, et le chrono est géré côté serveur. Connecte-toi avec Google pour jouer en classé. Les parties avec des paramètres personnalisés ou jouées hors ligne sont des entraînements.",
+    "rankedBody": "Les parties de Marathon et Contre-la-montre sont toujours arbitrées par notre serveur : la bonne réponse n'est jamais transmise à ton appareil avant que tu n'aies répondu, et le chrono tourne sur le serveur. Tout le monde peut y jouer ; connecte-toi avec Google pour inscrire ton score au classement.",
     "questionsTitle": "À propos des questions",
-    "questionsBody": "Les questions sont écrites par un rédacteur IA directement dans chaque langue et vérifiées automatiquement. Environ 40 % portent sur la culture des pays où l’on parle ta langue. Si une question te semble fausse, utilise « Signaler une erreur » une fois la réponse révélée."
+    "questionsBody": "Les questions sont rédigées par une intelligence artificielle directement dans chaque langue et vérifiées automatiquement. Environ 40 % portent sur la culture des pays où ta langue est parlée. Si une question te semble erronée, utilise l'option « Signaler une erreur » une fois la réponse dévoilée."
   },
   "About": {
-    "title": "À propos de Millionaire Quiz",
-    "intro": "Millionaire Quiz est un jeu de quiz gratuit créé par des fans, inspiré du format télévisé classique et repensé pour le web, les téléphones et 50 langues.",
+    "title": "À propos de Quiz Millionnaire",
+    "intro": "Quiz Millionnaire est un jeu de quiz gratuit créé par des fans et inspiré du grand classique de la télévision — repensé pour le web, les mobiles et disponible en 50 langues.",
     "missionTitle": "Pourquoi nous l’avons créé",
     "missionBody": "La plupart des jeux de quiz sont écrits en anglais puis traduits. Pour nous, un quiz doit te faire sentir chez toi : les questions doivent parler des personnes, des lieux, des livres et des traditions avec lesquels tu as grandi, mais aussi du monde entier.",
     "howTitle": "Comment les questions sont créées",
     "howBody": "Un grand modèle de langage écrit chaque question directement dans ta langue, par lots, en suivant des règles strictes : une seule réponse clairement correcte, quatre options plausibles, uniquement des faits stables. Les questions sont validées automatiquement, stockées puis proposées aux joueurs ; n’importe quel joueur peut signaler une erreur.",
     "techTitle": "Sous le capot",
-    "techBody": "Millionaire Quiz est une application web progressive : elle s’installe sur ton téléphone ou ton ordinateur, fonctionne hors ligne grâce aux packs de questions téléchargeables et synchronise ta progression à ta reconnexion.",
+    "techBody": "Quiz Millionnaire est une application web progressive : elle s'installe sur ton téléphone ou ton ordinateur, fonctionne hors ligne grâce aux questions enregistrées automatiquement et synchronise ta progression dès que tu te reconnectes.",
     "creditTitle": "Crédits",
     "creditBody": "Conçu et développé par {author}.",
-    "disclaimer": "Millionaire Quiz n’est ni affilié, ni approuvé, ni lié à aucune émission de télévision, chaîne ou ayant droit."
+    "disclaimer": "Quiz Millionnaire n'est affilié, approuvé ou associé à aucune émission de télévision, aucun diffuseur ni aucun ayant droit."
   },
   "Legal": {
     "privacyTitle": "Politique de confidentialité",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Tes droits",
     "privacyRightsBody": "Tu peux changer ton pseudo et ta photo à tout moment, et nous demander de supprimer ton compte et toutes les données associées en contactant l’auteur.",
     "termsTitle": "Conditions d’utilisation",
-    "termsIntro": "En jouant à Millionaire Quiz, tu acceptes ces conditions simples.",
+    "termsIntro": "En jouant à Quiz Millionnaire, tu acceptes ces conditions très simples.",
     "termsPlayTitle": "Fair-play",
     "termsPlayBody": "Joue tes parties classées honnêtement. Le jeu automatisé, l’exploitation de bugs ou toute manipulation du classement peuvent entraîner la suppression de tes parties.",
     "termsContentTitle": "Questions et exactitude",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Installer l’appli",
-    "installTitle": "Installer Millionaire Quiz",
+    "installTitle": "Installer Quiz Millionnaire",
     "benefit": "Joue en plein écran et hors ligne, en un geste depuis ton écran d’accueil.",
     "iosTitle": "Installer sur iPhone ou iPad",
     "iosStep1": "Touche le bouton Partager dans la barre d’outils de Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Touche « Ajouter » : l’appli apparaît sur ton écran d’accueil.",
     "gotIt": "Compris"
   },
+  "Contact": {
+    "title": "Contacte-nous",
+    "subtitle": "Tu as trouvé une erreur, une idée en tête ou besoin d'un coup de main ? Écris-nous — nous lisons chaque message.",
+    "name": "Ton nom",
+    "nameRequired": "Merci d'indiquer ton nom.",
+    "email": "E-mail",
+    "emailRequired": "Merci d'indiquer ton adresse e-mail pour que l'on puisse te répondre.",
+    "emailInvalid": "Cette adresse e-mail ne semble pas valide.",
+    "message": "Message",
+    "messageRequired": "Merci de rédiger un message.",
+    "messagePlaceholder": "Comment pouvons-nous t'aider ?",
+    "send": "Envoyer le message",
+    "error": "Ton message n'a pas pu être envoyé. Merci de réessayer dans un instant.",
+    "sentTitle": "Message envoyé !",
+    "sentBody": "Merci pour ton message. Nous te répondrons à l'adresse e-mail que tu as indiquée.",
+    "sendAnother": "Envoyer un autre message"
+  },
   "Auth": {
     "signedIn": "Bienvenue, {name} !",
     "signedOut": "Tu es déconnecté.",
+    "signInTitle": "Connexion",
+    "signInSubtitle": "Un clic avec Google, et ta progression te suit sur tous tes appareils.",
+    "benefitRanked": "Affiche tes scores de Marathon et Contre-la-montre sur le classement mondial",
+    "benefitLeaderboard": "Choisis le pseudo et la photo que voient les autres joueurs",
+    "benefitSync": "Conserve ton record en Classique, ton historique de jeu et tes badges partout avec toi",
+    "privacyNote": "Nous utilisons uniquement ton nom, ton adresse e-mail et ta photo de profil Google.",
+    "unavailable": "La connexion n'est pas disponible pour le moment. Tu peux toujours jouer en mode Classique — ta progression reste enregistrée sur cet appareil.",
+    "alreadySignedIn": "Tu es connecté en tant que {name}.",
     "errors": {
       "google_unavailable": "La connexion avec Google n’est pas disponible pour le moment.",
       "google_denied": "La connexion a été annulée.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, qui veut gagner des millions, jeu de quiz, quiz, culture générale, quiz gratuit, quiz en ligne, questions-réponses",
-    "homeTitle": "Millionaire Quiz — Qui veut gagner des millions ? Joue gratuitement en ligne",
+    "homeTitle": "Quiz Millionnaire — Qui veut gagner des millions ? Joue gratuitement en ligne",
     "homeDescription": "Joue gratuitement au jeu télévisé de quiz dans 50 langues. 15 questions jusqu’au million, quatre jokers, des paliers, et les modes Marathon et Contre-la-montre avec un classement mondial.",
     "playTitle": "Quiz Millionaire Classique — 15 questions jusqu’au million",
     "playDescription": "Grimpe la pyramide des gains de {first} à {top} : quinze questions, deux paliers, quatre jokers. Gratuit, sans inscription, dans ta langue.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Badges — collectionne-les tous",
     "badgesDescription": "Vingt badges à décrocher en Classique, Marathon et Contre-la-montre : gagne le million, garde ta série, joue dans plein de langues.",
     "rulesTitle": "Comment jouer — règles, pyramide des gains et jokers",
-    "rulesDescription": "Toutes les règles de Millionaire Quiz : la pyramide des gains, les paliers, l’abandon, les quatre jokers, le Marathon et le Contre-la-montre.",
-    "aboutTitle": "À propos de Millionaire Quiz",
-    "aboutDescription": "Un jeu de quiz gratuit créé par des fans, avec des questions écrites par IA dans 50 langues, inspiré du format télévisé classique.",
+    "rulesDescription": "Toutes les règles de Quiz Millionnaire : la pyramide des gains, les paliers, l'abandon, les quatre jokers, le mode Marathon et le Contre-la-montre.",
+    "aboutTitle": "À propos de Quiz Millionnaire",
+    "aboutDescription": "Un jeu de quiz gratuit créé par des fans avec des questions conçues par intelligence artificielle en 50 langues, inspiré du célèbre jeu télévisé.",
     "privacyTitle": "Politique de confidentialité",
-    "privacyDescription": "Ce que Millionaire Quiz conserve, pourquoi, et comment le supprimer.",
+    "privacyDescription": "Ce que Quiz Millionnaire stocke, pourquoi, et comment supprimer tes données.",
     "termsTitle": "Conditions d’utilisation",
-    "termsDescription": "Les règles simples pour jouer à Millionaire Quiz en toute équité.",
+    "termsDescription": "Les règles simples pour jouer loyalement à Quiz Millionnaire.",
     "profileTitle": "Ton profil",
     "profileDescription": "Tes scores, rangs et badges.",
     "settingsTitle": "Paramètres",
-    "settingsDescription": "Son, packs de questions hors ligne et paramètres de jeu par défaut."
+    "contactTitle": "Contacte-nous",
+    "contactDescription": "Des questions, des idées ou une erreur dans une question ? Envoie un message à l'équipe de Quiz Millionnaire.",
+    "signInTitle": "Connexion",
+    "signInDescription": "Connecte-toi avec Google pour afficher tes scores au classement et retrouver ta progression sur tous tes appareils.",
+    "settingsDescription": "Son, langue et réglages du mode Classique."
   }
 }

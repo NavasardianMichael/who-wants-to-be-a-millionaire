@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Show do Milhão Quiz",
+    "wordmarkTop": "Show do Milhão",
+    "wordmarkBottom": "Quiz",
     "tagline": "O game show de perguntas no seu idioma",
     "play": "Jogar",
     "playNow": "Jogar agora",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Continuar com o Google",
     "signedInAs": "Conectado como {name}",
     "you": "Você",
+    "unsavedTitle": "Sair desta página?",
+    "unsavedBody": "O que você digitou aqui não foi salvo e será perdido.",
+    "stay": "Ficar",
+    "leave": "Sair",
     "share": "Compartilhar",
     "copied": "Link copiado",
     "comingBack": "Até logo!",
@@ -57,22 +63,14 @@
     "about": "Sobre",
     "privacy": "Privacidade",
     "terms": "Termos",
+    "contact": "Fale conosco",
     "profile": "Perfil",
     "settings": "Configurações"
   },
   "Home": {
-    "eyebrow": "50 idiomas · perguntas criadas por IA · grátis",
+    "eyebrow": "50 idiomas · perguntas escritas por inteligência artificial · grátis",
     "heroTitle": "Quem quer ser um milionário?",
-    "heroSubtitle": "Quinze perguntas separam você do milhão. Suba a escada de prêmios, use bem suas ajudas — e decida a hora de parar.",
-    "heroCta": "Jogar o Clássico",
-    "heroSecondaryCta": "Experimente a Maratona",
-    "statsQuestions": "Perguntas novas a cada partida",
-    "statsLanguages": "Idiomas",
-    "statsLifelines": "Ajudas",
     "modesTitle": "Três jeitos de jogar",
-    "modesSubtitle": "A escalada clássica, um teste de nervos sem fim ou uma corrida contra o relógio.",
-    "ladderTitle": "A escada de prêmios",
-    "ladderSubtitle": "Cada resposta certa faz você subir um degrau. Os pontos seguros nas perguntas 5 e 10 garantem seu prêmio, mesmo se você errar depois.",
     "lifelinesTitle": "Quatro ajudas, um uso cada",
     "lifelinesSubtitle": "Quando você travar, uma ajuda pode salvar sua partida. Use com sabedoria — as perguntas mais difíceis ficam para o final.",
     "howTitle": "Como jogar",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Ver o ranking completo",
     "emptyLeaderboard": "Ainda não há partidas ranqueadas — seja o primeiro!",
     "cultureTitle": "Perguntas que falam a sua língua",
-    "cultureBody": "Nosso redator de perguntas com IA cria perguntas novas diretamente em cada um dos 50 idiomas, misturando conhecimentos gerais com a história, a literatura, a geografia e as tradições da sua própria cultura. Uma pergunta sobre o seu poeta favorito não vai ser a tradução de uma pergunta sobre outra pessoa.",
+    "cultureBody": "Nosso escritor de perguntas por inteligência artificial cria perguntas inéditas nativamente em cada um dos 50 idiomas, misturando conhecimento geral com a história, literatura, geografia e tradições da sua própria cultura. Uma pergunta sobre o seu poeta favorito não será a tradução de uma pergunta sobre o poeta de outra pessoa.",
     "offlineTitle": "Jogue em qualquer lugar, até offline",
-    "offlineBody": "Instale o app, baixe os pacotes de perguntas dos idiomas que quiser e continue jogando no avião ou no metrô. Suas pontuações são sincronizadas quando você voltar a ficar online.",
+    "offlineBody": "Instale o aplicativo e continue jogando o modo Clássico no avião ou no metrô: as perguntas no seu idioma são salvas no seu dispositivo automaticamente. Suas pontuações são sincronizadas quando você estiver online de novo.",
     "badgesTitle": "Colecione conquistas",
     "badgesSubtitle": "Alcance os pontos seguros, ganhe o milhão, mantenha sua sequência — são {count} conquistas para desbloquear.",
     "viewBadges": "Ver todas as conquistas",
     "categoriesTitle": "Explore as categorias",
     "categoriesSubtitle": "De história e ciência a cinema, gastronomia e a sua cultura local.",
     "faqTitle": "Perguntas frequentes",
-    "faq1Question": "O Millionaire Quiz é grátis?",
+    "faq1Question": "O Show do Milhão Quiz é gratuito?",
     "faq1Answer": "Sim. Todos os modos, todos os idiomas e todas as ajudas são grátis, e não é preciso cadastro para jogar o Clássico.",
     "faq2Question": "De onde vêm as perguntas?",
-    "faq2Answer": "Um redator de perguntas com IA as cria diretamente no seu idioma, e cada pergunta é verificada automaticamente antes de chegar ao jogo. Se algo escapar, você pode denunciar com um toque.",
+    "faq2Answer": "Um escritor de perguntas por inteligência artificial as cria nativamente no seu idioma, e cada pergunta é verificada automaticamente antes de chegar ao jogo. Se algo passar batido, você pode denunciar com um toque.",
     "faq3Question": "Como funcionam os pontos seguros?",
     "faq3Answer": "Acertar a pergunta 5 garante {havenOne}, e a pergunta 10 garante {havenTwo}. Se você errar uma pergunta depois disso, ainda sai com o último ponto seguro que alcançou.",
     "faq4Question": "Posso jogar offline?",
-    "faq4Answer": "Sim. Instale o app e baixe nas configurações pacotes de perguntas de qualquer um dos 50 idiomas. As partidas offline ficam salvas e são sincronizadas quando você se reconectar.",
+    "faq4Answer": "Sim — o Clássico funciona offline. As perguntas no seu idioma são salvas no seu dispositivo automaticamente, e as partidas offline são sincronizadas quando você se reconectar. Os modos Maratona e Contrá-Relógio precisam de conexão.",
     "faq5Question": "Como entro no ranking?",
     "faq5Answer": "Entre com o Google e jogue uma partida ranqueada de Maratona ou Contra o Tempo. Cada resposta é conferida pelo nosso servidor, para o ranking continuar justo.",
     "faq6Question": "Este é o jogo oficial do programa de TV?",
-    "faq6Answer": "Não. O Millionaire Quiz é um jogo independente feito por fãs, inspirado no formato clássico do programa de perguntas."
+    "faq6Answer": "Não. O Show do Milhão Quiz é um jogo independente feito por fãs, inspirado no formato clássico de programas de perguntas e respostas."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maratona",
       "tagline": "Errou, acabou",
       "description": "Uma sequência infinita de perguntas que fica mais difícil a cada 5 acertos. Você tem as quatro ajudas clássicas, uma vez cada — e uma única resposta errada encerra a partida.",
-      "rules": "{seconds} segundos por pergunta. O nível sobe a cada 5 acertos. Uma resposta errada ou o tempo esgotado encerra a partida."
+      "rules": "{minutes, plural, one {# minuto} other {# minutos}} por pergunta. O nível aumenta a cada 5 respostas certas. Uma resposta errada ou tempo esgotado encerra a partida."
     },
     "timeAttack": {
       "name": "Contra o Tempo",
@@ -130,18 +128,12 @@
       "description": "Responda o máximo de perguntas que conseguir antes de o tempo acabar. Uma resposta errada não encerra a partida — mas custa 5 segundos.",
       "rules": "{seconds} segundos no relógio. Cada resposta errada custa {penalty} segundos. Sem ajudas — só velocidade."
     },
-    "ranked": "Ranqueada",
-    "practice": "Treino",
-    "rankedHint": "Partidas ranqueadas contam para o ranking mundial.",
-    "practiceHint": "Partidas de treino usam suas próprias configurações e não entram no ranking.",
-    "signInForRanked": "Entre com o Google para jogar partidas ranqueadas e entrar no ranking.",
-    "offlineUnranked": "Você está offline, então esta partida será de treino.",
-    "customSettingsUnranked": "Com configurações personalizadas, esta partida é de treino."
+    "rankedHint": "Cada partida conta no placar global.",
+    "guestHint": "Jogando como convidado: sua partida é julgada do mesmo jeito, mas apenas jogadores conectados aparecem no placar.",
+    "needsConnection": "Este modo precisa de conexão: cada partida é julgada ao vivo. O Clássico funciona offline."
   },
   "Game": {
     "startGame": "Começar partida",
-    "startRanked": "Começar partida ranqueada",
-    "startPractice": "Começar treino",
     "loading": "As luzes do estúdio estão acendendo…",
     "loadingQuestion": "Escrevendo sua próxima pergunta…",
     "playingFor": "Valendo",
@@ -163,6 +155,12 @@
     "timeUp": "Acabou o tempo!",
     "theAnswerWas": "A resposta era {letter}: {text}",
     "didYouKnow": "Você sabia?",
+    "switchPrompt": "Antes de trocarmos — o que você teria respondido?",
+    "switchPromptHint": "Só por diversão: não vai contar para nenhum dos lados.",
+    "switchSkip": "Pular, só trocar",
+    "switchWouldBeRight": "Você teria acertado!",
+    "switchWouldBeWrong": "Ainda bem que você trocou!",
+    "switchComing": "Aí vem a sua nova pergunta…",
     "walkAway": "Parar",
     "walkAwayTitle": "Vai levar o dinheiro?",
     "walkAwayBody": "Se você parar agora, vai para casa com {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Nível {level} — as perguntas ficam mais difíceis",
     "penalty": "−{seconds}s",
     "fallbackNotice": "Nosso redator de perguntas está dando uma pausa, então esta partida usa perguntas reserva em inglês.",
-    "packNotice": "Jogando com seu pacote de perguntas baixado.",
+    "packNotice": "Você está offline — jogando com as perguntas salvas no seu dispositivo.",
     "keyboardHint": "Teclado: A–D para escolher, Enter para confirmar, L para a escada, M para o som.",
     "report": "Denunciar um erro",
     "reportTitle": "Algo errado com esta pergunta?",
@@ -205,11 +203,12 @@
     "personalBest": "Novo recorde pessoal!",
     "rank": "Posição #{rank} no ranking",
     "newBadges": "{count, plural, one {Nova conquista desbloqueada!} other {# novas conquistas desbloqueadas!}}",
-    "shareText": "Ganhei {amount} no Millionaire Quiz! Consegue me superar?",
-    "shareScoreText": "Fiz {score} pontos no modo {mode} do Millionaire Quiz! Consegue me superar?",
+    "shareText": "Eu ganhei {amount} no Show do Milhão Quiz! Consegue me vencer?",
+    "shareScoreText": "Eu fiz {score} pontos em {mode} no Show do Milhão Quiz! Consegue me vencer?",
     "backHome": "Voltar ao início",
     "viewLeaderboard": "Ver ranking",
-    "signInToSave": "Entre para guardar suas pontuações e conquistas em todos os seus dispositivos."
+    "signInToSave": "Entre para guardar suas pontuações e conquistas em todos os seus dispositivos.",
+    "signInToRank": "Entre para colocar partidas como esta no placar."
   },
   "Lifelines": {
     "title": "Ajudas",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Configurações",
-    "subtitle": "Som, pacotes offline e suas configurações de jogo padrão.",
+    "subtitle": "Som, idioma e as configurações do seu jogo Clássico.",
     "gameTitle": "Configurações de jogo",
+    "gameHint": "Isso se aplica aos jogos Clássicos. Maratona e Contrá-Relógio são ranqueados e sempre usam as regras padrão.",
+    "customised": "Jogando com suas configurações personalizadas.",
+    "change": "Mudar",
     "categories": "Categorias",
     "allCategories": "Todas as categorias",
     "categoriesHint": "Escolha uma ou mais, ou deixe todas desmarcadas para jogar com todas as categorias.",
@@ -256,16 +258,6 @@
     "soundTitle": "Som",
     "sound": "Efeitos sonoros e música",
     "volume": "Volume",
-    "packsTitle": "Pacotes de perguntas offline",
-    "packsSubtitle": "Baixe perguntas dos idiomas em que você quer jogar sem conexão. Cada pacote tem cerca de 100 KB.",
-    "packCount": "{count, plural, one {# pergunta} other {# perguntas}}",
-    "packDownload": "Baixar",
-    "packDownloading": "Baixando…",
-    "packUpdate": "Atualizar",
-    "packRemove": "Remover",
-    "packDownloaded": "Baixado",
-    "packError": "Não foi possível baixar o pacote. Verifique sua conexão e tente de novo.",
-    "autoDownload": "Baixar automaticamente o pacote do meu idioma",
     "installTitle": "Instale o app",
     "installBody": "Jogue em tela cheia e offline, com um toque na sua tela inicial.",
     "accountTitle": "Conta"
@@ -375,26 +367,86 @@
     "earnedOn": "Desbloqueada em {date}",
     "unlocked": "Conquista desbloqueada",
     "items": {
-      "firstSteps": { "name": "Primeiros passos", "description": "Acerte sua primeira pergunta." },
-      "safeHaven": { "name": "Porto seguro", "description": "Alcance o primeiro ponto seguro no Clássico (pergunta 5)." },
-      "halfWay": { "name": "Meio caminho andado", "description": "Alcance o segundo ponto seguro no Clássico (pergunta 10)." },
-      "millionaire": { "name": "Milionário", "description": "Responda às 15 perguntas do Clássico e ganhe o milhão." },
-      "purist": { "name": "Purista", "description": "Ganhe o milhão sem usar nenhuma ajuda." },
-      "smartExit": { "name": "Saída inteligente", "description": "Pare e leve seu prêmio na pergunta 12 ou depois." },
-      "quickThinker": { "name": "Raciocínio rápido", "description": "Dê 10 respostas certas em menos de 3 segundos cada." },
-      "marathon10": { "name": "Maratonista", "description": "Acerte 10 seguidas numa Maratona ranqueada." },
-      "marathon25": { "name": "Fundista", "description": "Acerte 25 seguidas numa Maratona ranqueada." },
-      "marathon50": { "name": "Mente de ferro", "description": "Acerte 50 seguidas numa Maratona ranqueada." },
-      "marathon100": { "name": "Lenda", "description": "Acerte 100 seguidas numa Maratona ranqueada." },
-      "timeAttack15": { "name": "Velocista", "description": "Faça 15 pontos numa partida ranqueada de Contra o Tempo." },
-      "timeAttack30": { "name": "Relâmpago", "description": "Faça 30 pontos numa partida ranqueada de Contra o Tempo." },
-      "polyglot3": { "name": "Poliglota", "description": "Jogue em 3 idiomas diferentes." },
-      "polyglot10": { "name": "Viajante do mundo", "description": "Jogue em 10 idiomas diferentes." },
-      "streak3": { "name": "Embalado", "description": "Jogue 3 dias seguidos." },
-      "streak7": { "name": "Fiel", "description": "Jogue 7 dias seguidos." },
-      "offlineHero": { "name": "Fora da rede", "description": "Termine uma partida offline." },
-      "savedByAFriend": { "name": "Salvo por um amigo", "description": "Siga o conselho do seu amigo e acerte." },
-      "categoryMaster": { "name": "Mestre da categoria", "description": "Acerte 25 perguntas de uma mesma categoria." }
+      "firstSteps": {
+        "name": "Primeiros passos",
+        "description": "Acerte sua primeira pergunta."
+      },
+      "safeHaven": {
+        "name": "Porto seguro",
+        "description": "Alcance o primeiro ponto seguro no Clássico (pergunta 5)."
+      },
+      "halfWay": {
+        "name": "Meio caminho andado",
+        "description": "Alcance o segundo ponto seguro no Clássico (pergunta 10)."
+      },
+      "millionaire": {
+        "name": "Milionário",
+        "description": "Responda às 15 perguntas do Clássico e ganhe o milhão."
+      },
+      "purist": {
+        "name": "Purista",
+        "description": "Ganhe o milhão sem usar nenhuma ajuda."
+      },
+      "smartExit": {
+        "name": "Saída inteligente",
+        "description": "Pare e leve seu prêmio na pergunta 12 ou depois."
+      },
+      "quickThinker": {
+        "name": "Raciocínio rápido",
+        "description": "Dê 10 respostas certas em menos de 3 segundos cada."
+      },
+      "marathon10": {
+        "name": "Maratonista",
+        "description": "Acerte 10 seguidas numa Maratona ranqueada."
+      },
+      "marathon25": {
+        "name": "Fundista",
+        "description": "Acerte 25 seguidas numa Maratona ranqueada."
+      },
+      "marathon50": {
+        "name": "Mente de ferro",
+        "description": "Acerte 50 seguidas numa Maratona ranqueada."
+      },
+      "marathon100": {
+        "name": "Lenda",
+        "description": "Acerte 100 seguidas numa Maratona ranqueada."
+      },
+      "timeAttack15": {
+        "name": "Velocista",
+        "description": "Faça 15 pontos numa partida ranqueada de Contra o Tempo."
+      },
+      "timeAttack30": {
+        "name": "Relâmpago",
+        "description": "Faça 30 pontos numa partida ranqueada de Contra o Tempo."
+      },
+      "polyglot3": {
+        "name": "Poliglota",
+        "description": "Jogue em 3 idiomas diferentes."
+      },
+      "polyglot10": {
+        "name": "Viajante do mundo",
+        "description": "Jogue em 10 idiomas diferentes."
+      },
+      "streak3": {
+        "name": "Embalado",
+        "description": "Jogue 3 dias seguidos."
+      },
+      "streak7": {
+        "name": "Fiel",
+        "description": "Jogue 7 dias seguidos."
+      },
+      "offlineHero": {
+        "name": "Fora da rede",
+        "description": "Termine uma partida offline."
+      },
+      "savedByAFriend": {
+        "name": "Salvo por um amigo",
+        "description": "Siga o conselho do seu amigo e acerte."
+      },
+      "categoryMaster": {
+        "name": "Mestre da categoria",
+        "description": "Acerte 25 perguntas de uma mesma categoria."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Ajudas",
     "lifelinesBody": "Você tem quatro ajudas, e cada uma pode ser usada uma vez por partida:",
     "marathonTitle": "Maratona",
-    "marathonBody": "Uma partida sem fim. As perguntas ficam mais difíceis a cada cinco acertos, você tem as quatro ajudas uma vez cada e {seconds} segundos por pergunta. Uma resposta errada ou o tempo esgotado encerra a partida, e sua pontuação é o número de acertos.",
+    "marathonBody": "Uma partida sem fim. As perguntas ficam mais difíceis a cada cinco respostas certas, você tem as quatro ajudas uma vez cada, e você ganha {minutes, plural, one {# minuto} other {# minutos}} para cada pergunta. Uma resposta errada ou o tempo esgotado encerra a partida, e sua pontuação é o número de respostas certas.",
     "timeAttackTitle": "Contra o Tempo",
     "timeAttackBody": "Você tem {seconds} segundos para responder o máximo de perguntas que conseguir. Uma resposta errada não encerra a partida, mas tira {penalty} segundos do relógio. Não há ajudas.",
     "rankedTitle": "Partidas ranqueadas e jogo limpo",
-    "rankedBody": "As partidas ranqueadas de Maratona e Contra o Tempo são arbitradas pelo nosso servidor: a resposta certa nunca chega ao seu dispositivo antes de você responder, e o relógio fica no servidor. Entre com o Google para jogar partidas ranqueadas. Partidas com configurações personalizadas ou jogadas offline são de treino.",
+    "rankedBody": "As partidas de Maratona e Contrá-Relógio são sempre julgadas pelo nosso servidor: a resposta certa nunca chega ao seu dispositivo antes de você responder, e o cronômetro fica no servidor. Qualquer um pode jogar; entre com o Google para colocar sua pontuação no placar.",
     "questionsTitle": "Sobre as perguntas",
-    "questionsBody": "As perguntas são escritas por um redator de perguntas com IA diretamente em cada idioma e verificadas automaticamente. Cerca de 40% tratam da cultura dos lugares onde se fala o seu idioma. Se uma pergunta parecer errada, use “Denunciar um erro” depois que a resposta for revelada."
+    "questionsBody": "As perguntas são escritas por um escritor de perguntas por inteligência artificial nativamente em cada idioma e verificadas automaticamente. Cerca de 40% são sobre a cultura onde seu idioma é falado. Se uma pergunta parecer errada, use “Informar um erro” após a resposta ser revelada."
   },
   "About": {
-    "title": "Sobre o Millionaire Quiz",
-    "intro": "O Millionaire Quiz é um jogo de perguntas gratuito, feito por fãs e inspirado no clássico formato de TV — recriado para a web, para o celular e para 50 idiomas.",
+    "title": "Sobre o Show do Milhão Quiz",
+    "intro": "O Show do Milhão Quiz é um jogo de perguntas gratuito e feito por fãs, inspirado no formato clássico de televisão — refeito para a web, para celulares e para 50 idiomas.",
     "missionTitle": "Por que criamos o jogo",
     "missionBody": "A maioria dos jogos de perguntas é escrita em inglês e depois traduzida. Achamos que um quiz tem que ter cara de casa: as perguntas devem falar das pessoas, dos lugares, dos livros e das tradições com que você cresceu, além do resto do mundo.",
     "howTitle": "Como as perguntas são feitas",
     "howBody": "Um grande modelo de linguagem escreve cada pergunta diretamente no seu idioma, em lotes, seguindo regras rígidas: uma única resposta claramente certa, quatro alternativas plausíveis e apenas fatos consolidados. As perguntas são validadas automaticamente, armazenadas e enviadas aos jogadores; qualquer jogador pode denunciar um erro.",
     "techTitle": "Por dentro",
-    "techBody": "O Millionaire Quiz é um app web progressivo: ele pode ser instalado no celular ou no computador, funciona offline com pacotes de perguntas para baixar e sincroniza seu progresso quando você se reconecta.",
+    "techBody": "O Show do Milhão Quiz é um aplicativo web progressivo: ele se instala no seu celular ou computador, funciona offline com perguntas salvas automaticamente e sincroniza seu progresso quando você se reconecta.",
     "creditTitle": "Créditos",
     "creditBody": "Criado e desenvolvido por {author}.",
-    "disclaimer": "O Millionaire Quiz não é afiliado, endossado nem ligado a nenhum programa de televisão, emissora ou detentor de direitos."
+    "disclaimer": "O Show do Milhão Quiz não é afiliado, endossado ou conectado a nenhum programa de televisão, emissora ou detentor de direitos."
   },
   "Legal": {
     "privacyTitle": "Política de privacidade",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Seus direitos",
     "privacyRightsBody": "Você pode mudar seu nome de exibição e sua foto a qualquer momento, e pode pedir a exclusão da sua conta e de todos os dados associados entrando em contato com o autor.",
     "termsTitle": "Termos de uso",
-    "termsIntro": "Ao jogar o Millionaire Quiz, você concorda com estes termos simples.",
+    "termsIntro": "Ao jogar o Show do Milhão Quiz, você concorda com estes termos simples.",
     "termsPlayTitle": "Jogo limpo",
     "termsPlayBody": "Jogue partidas ranqueadas de forma honesta. Jogo automatizado, exploração de bugs ou interferência no ranking podem levar à remoção das suas partidas.",
     "termsContentTitle": "Perguntas e precisão",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Instalar app",
-    "installTitle": "Instale o Millionaire Quiz",
+    "installTitle": "Instalar o Show do Milhão Quiz",
     "benefit": "Jogue em tela cheia e offline, com um toque na sua tela inicial.",
     "iosTitle": "Instalar no iPhone ou iPad",
     "iosStep1": "Toque no botão Compartilhar na barra do Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Toque em “Adicionar” — o app aparece na sua tela inicial.",
     "gotIt": "Entendi"
   },
+  "Contact": {
+    "title": "Fale conosco",
+    "subtitle": "Encontrou um erro, tem uma ideia ou precisa de ajuda? Escreva para nós — lemos todas as mensagens.",
+    "name": "Seu nome",
+    "nameRequired": "Por favor, digite seu nome.",
+    "email": "E-mail",
+    "emailRequired": "Por favor, digite seu e-mail para que possamos responder.",
+    "emailInvalid": "Esse endereço de e-mail não parece correto.",
+    "message": "Mensagem",
+    "messageRequired": "Por favor, escreva uma mensagem.",
+    "messagePlaceholder": "Como podemos ajudar?",
+    "send": "Enviar mensagem",
+    "error": "Sua mensagem não pôde ser enviada. Tente novamente em alguns instantes.",
+    "sentTitle": "Mensagem enviada!",
+    "sentBody": "Obrigado por escrever. Responderemos para o e-mail que você nos forneceu.",
+    "sendAnother": "Enviar outra mensagem"
+  },
   "Auth": {
     "signedIn": "Bem-vindo, {name}!",
     "signedOut": "Você saiu da sua conta.",
+    "signInTitle": "Entrar",
+    "signInSubtitle": "Um toque com o Google e seu progresso te acompanha em qualquer dispositivo.",
+    "benefitRanked": "Coloque suas pontuações de Maratona e Contrá-Relógio no placar global",
+    "benefitLeaderboard": "Escolha o nome e a foto que os outros jogadores veem",
+    "benefitSync": "Mantenha seu recorde no Clássico, histórico de partidas e insígnias em todo lugar",
+    "privacyNote": "Usamos apenas seu nome, endereço de e-mail e foto do Google.",
+    "unavailable": "O login não está disponível no momento. Você ainda pode jogar o Clássico — seu progresso é salvo neste dispositivo.",
+    "alreadySignedIn": "Você está conectado como {name}.",
     "errors": {
       "google_unavailable": "O login com o Google não está disponível no momento.",
       "google_denied": "O login foi cancelado.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, quem quer ser um milionário, jogo de perguntas, quiz, perguntas e respostas, quiz grátis, quiz online, conhecimentos gerais, show do milhão",
-    "homeTitle": "Millionaire Quiz — Quem quer ser um milionário? Jogue grátis online",
+    "homeTitle": "Show do Milhão Quiz — Quem Quer Ser um Milionário? Jogue grátis online",
     "homeDescription": "Jogue grátis o game show de perguntas em 50 idiomas. 15 perguntas até o milhão, quatro ajudas, pontos seguros e os modos Maratona e Contra o Tempo com ranking mundial.",
     "playTitle": "Quiz Millionaire Clássico — 15 perguntas até o milhão",
     "playDescription": "Suba a escada de prêmios de {first} até {top}: quinze perguntas, dois pontos seguros, quatro ajudas. Grátis, sem cadastro e no seu idioma.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Conquistas — colecione todas",
     "badgesDescription": "Vinte conquistas para desbloquear no Clássico, na Maratona e no Contra o Tempo: ganhe o milhão, mantenha uma sequência, jogue em vários idiomas.",
     "rulesTitle": "Como jogar — regras, escada de prêmios e ajudas",
-    "rulesDescription": "As regras completas do Millionaire Quiz: a escada de prêmios, os pontos seguros, a hora de parar, as quatro ajudas, a Maratona e o Contra o Tempo.",
-    "aboutTitle": "Sobre o Millionaire Quiz",
-    "aboutDescription": "Um jogo de perguntas gratuito feito por fãs, com perguntas criadas por IA em 50 idiomas e inspirado no clássico formato de programa de TV.",
+    "rulesDescription": "As regras completas do Show do Milhão Quiz: a árvore do dinheiro, os patamares seguros, parar, as quatro ajudas, Maratona e Contrá-Relógio.",
+    "aboutTitle": "Sobre o Show do Milhão Quiz",
+    "aboutDescription": "Um jogo de perguntas gratuito e feito por fãs, com perguntas escritas por inteligência artificial em 50 idiomas, inspirado no formato clássico de quiz da TV.",
     "privacyTitle": "Política de privacidade",
-    "privacyDescription": "O que o Millionaire Quiz guarda, por quê e como apagar.",
+    "privacyDescription": "O que o Show do Milhão Quiz armazena, por quê e como excluí-lo.",
     "termsTitle": "Termos de uso",
-    "termsDescription": "As regras simples para jogar o Millionaire Quiz de forma justa.",
+    "termsDescription": "As regras simples para jogar o Show do Milhão Quiz de forma justa.",
     "profileTitle": "Seu perfil",
     "profileDescription": "Suas pontuações, posições e conquistas.",
     "settingsTitle": "Configurações",
-    "settingsDescription": "Som, pacotes de perguntas offline e configurações de jogo padrão."
+    "contactTitle": "Fale conosco",
+    "contactDescription": "Perguntas, ideias ou um erro em uma pergunta? Envie uma mensagem para a equipe do Show do Milhão Quiz.",
+    "signInTitle": "Entrar",
+    "signInDescription": "Entre com o Google para colocar suas pontuações no placar e manter seu progresso em qualquer dispositivo.",
+    "settingsDescription": "Configurações de som, idioma e do jogo Clássico."
   }
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { DEADLINE_GRACE_MS } from '../../../server/src/lib/game'
+import { DEADLINE_GRACE_MS, MARATHON_RULES } from '../../../server/src/lib/game'
 import { applyAnswer, initialEndsAt, isInTime, levelFor, questionDeadline } from '../../../server/src/services/runRules'
 
 const now = new Date('2026-10-24T12:00:00Z')
@@ -7,7 +7,7 @@ const at = (offsetMs: number) => new Date(now.getTime() + offsetMs)
 
 describe('ranked run rules', () => {
   it('gives marathon a per-question deadline and time attack a whole-run clock', () => {
-    expect(questionDeadline('marathon', now)).toEqual(at(30_000))
+    expect(questionDeadline('marathon', now)).toEqual(at(MARATHON_RULES.questionSeconds * 1000))
     expect(questionDeadline('timeAttack', now)).toBeNull()
     expect(initialEndsAt('timeAttack', now)).toEqual(at(180_000))
     expect(initialEndsAt('marathon', now)).toBeNull()

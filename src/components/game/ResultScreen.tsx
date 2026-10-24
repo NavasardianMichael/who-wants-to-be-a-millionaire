@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { Award, Home, RotateCcw, Share2, Sparkles } from 'lucide-react'
+import { Award, Home, LogIn, RotateCcw, Share2, Sparkles } from 'lucide-react'
 import { motion, useReducedMotion } from 'motion/react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
@@ -14,7 +14,6 @@ import { formatMoney } from '@helpers/money'
 import { reportError } from '@helpers/reportError'
 import { BadgeMedal } from '@components/badges/BadgeMedal'
 import { Emblem } from '@components/brand/Emblem'
-import { GoogleSignInButton } from '@components/layout/GoogleSignInButton'
 import { ButtonLink } from '@components/ui/bare/AppLink'
 import { Button } from '@components/ui/Button'
 import { CONFETTI_COLORS } from '@styles/tokens'
@@ -42,7 +41,7 @@ export const ResultScreen = ({ end, mode, ranked, onPlayAgain }: ResultScreenPro
   const locale = useLocale()
   const reduce = useReducedMotion()
   const user = useAuthStore.use.user()
-  const googleAvailable = useAuthStore.use.googleAvailable()
+  const isResolved = useAuthStore.use.isResolved()
 
   const amount = formatMoney(end.winnings, locale)
   const isClassic = mode === 'classic'
@@ -104,12 +103,12 @@ export const ResultScreen = ({ end, mode, ranked, onPlayAgain }: ResultScreenPro
 
       <div className='flex flex-wrap justify-center gap-2'>
         {end.isPersonalBest && (
-          <span className='inline-flex items-center gap-1.5 rounded-full bg-gold-400/15 px-3 py-1 text-body-sm font-bold text-gold-200'>
+          <span className='inline-flex items-center gap-1.5 rounded-tag bg-gold-400/15 px-3 py-1 text-body-sm font-bold text-gold-200'>
             <Sparkles aria-hidden className='size-4' /> {t('Result.personalBest')}
           </span>
         )}
         {ranked && end.rank && (
-          <span className='inline-flex items-center gap-1.5 rounded-full bg-spot-500/15 px-3 py-1 text-body-sm font-bold text-spot-100'>
+          <span className='inline-flex items-center gap-1.5 rounded-tag bg-spot-500/15 px-3 py-1 text-body-sm font-bold text-spot-100'>
             <Award aria-hidden className='size-4' /> {t('Result.rank', { rank: end.rank })}
           </span>
         )}
@@ -148,10 +147,13 @@ export const ResultScreen = ({ end, mode, ranked, onPlayAgain }: ResultScreenPro
         </ButtonLink>
       </div>
 
-      {!user && googleAvailable && (
-        <div className='flex w-full flex-col items-center gap-3 border-t border-spot-300/10 pt-5'>
-          <p className='text-body-sm text-mist'>{t('Result.signInToSave')}</p>
-          <GoogleSignInButton />
+      {isResolved && !user && (
+        <div className='flex w-full flex-col items-center gap-3 border-t border-line-subtle pt-5'>
+          <p className='text-body-sm text-mist'>{ranked ? t('Result.signInToRank') : t('Result.signInToSave')}</p>
+          <ButtonLink href={ROUTES.signIn} variant='outline' size='sm'>
+            <LogIn aria-hidden className='size-4 rtl:-scale-x-100' />
+            {t('Common.signIn')}
+          </ButtonLink>
         </div>
       )}
     </motion.section>

@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl'
 import { trackEvent } from '@helpers/analytics'
 import { isInstalledApp, isInWebView } from '@helpers/device'
 import { getInstallPrompt, getServerInstallPrompt, promptInstall, subscribeToInstallPrompt } from '@helpers/installPrompt'
+import { Button } from '@components/ui/Button'
 import { IconButton } from '@components/ui/IconButton'
 
 /**
@@ -26,14 +27,9 @@ export const InstallButton = ({ withLabel }: { withLabel?: boolean }) => {
 
   if (withLabel) {
     return (
-      <button
-        type='button'
-        onClick={onClick}
-        className='inline-flex min-h-12 items-center gap-2 rounded-full bg-gold-400 px-6 font-display font-bold text-studio-950 shadow-glow-gold'
-      >
-        <Download aria-hidden className='size-5' />
+      <Button onClick={onClick} icon={<Download aria-hidden className='size-5' />}>
         {t('install')}
-      </button>
+      </Button>
     )
   }
 

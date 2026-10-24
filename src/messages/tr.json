@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Milyoner Bilgi Yarışması",
+    "wordmarkTop": "Milyoner",
+    "wordmarkBottom": "Yarışma",
     "tagline": "Senin dilinde bilgi yarışması oyunu",
     "play": "Oyna",
     "playNow": "Hemen oyna",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Google ile devam et",
     "signedInAs": "{name} olarak giriş yapıldı",
     "you": "Sen",
+    "unsavedTitle": "Bu sayfadan ayrılsın mı?",
+    "unsavedBody": "Buraya girdiğiniz bilgiler kaydedilmedi ve kaybolacak.",
+    "stay": "Kal",
+    "leave": "Ayrıl",
     "share": "Paylaş",
     "copied": "Bağlantı kopyalandı",
     "comingBack": "Görüşmek üzere!",
@@ -57,22 +63,14 @@
     "about": "Hakkında",
     "privacy": "Gizlilik",
     "terms": "Koşullar",
+    "contact": "Bize ulaşın",
     "profile": "Profil",
     "settings": "Ayarlar"
   },
   "Home": {
-    "eyebrow": "50 dil · Yapay zekâ ile yazılmış sorular · Ücretsiz",
+    "eyebrow": "50 dil · yapay zeka tarafından yazılan sorular · ücretsiz",
     "heroTitle": "Kim Milyoner Olmak İster?",
-    "heroSubtitle": "Seninle milyon arasında yalnızca on beş soru var. Para merdiveninde yüksel, jokerlerini akıllıca kullan — ve ne zaman çekileceğine sen karar ver.",
-    "heroCta": "Klasik oyna",
-    "heroSecondaryCta": "Maratonu dene",
-    "statsQuestions": "Her oyunda yeni sorular",
-    "statsLanguages": "Dil",
-    "statsLifelines": "Joker",
     "modesTitle": "Üç farklı oyun modu",
-    "modesSubtitle": "Klasik tırmanış, bitmeyen bir sinir testi ya da zamana karşı bir yarış.",
-    "ladderTitle": "Para merdiveni",
-    "ladderSubtitle": "Her doğru cevap seni bir basamak yukarı taşır. 5. ve 10. sorudaki barajlar, yanılsan bile kazancını garanti altına alır.",
     "lifelinesTitle": "Dört joker, her biri bir kez",
     "lifelinesSubtitle": "Takıldığında bir joker oyununu kurtarabilir. Akıllıca kullan — en zor sorular sona saklı.",
     "howTitle": "Nasıl oynanır",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Liderlik tablosunun tamamını gör",
     "emptyLeaderboard": "Henüz sıralamalı oyun yok — ilk sen ol!",
     "cultureTitle": "Senin dilini konuşan sorular",
-    "cultureBody": "Yapay zekâ soru yazarımız 50 dilin her birinde soruları doğrudan o dilde üretiyor; dünya genel kültürünü kendi kültürünün tarihi, edebiyatı, coğrafyası ve gelenekleriyle harmanlıyor. En sevdiğin şair hakkındaki bir soru, başka birinin şairiyle ilgili bir sorunun çevirisi olmayacak.",
+    "cultureBody": "Yapay zeka soru yazarımız, dünya bilgisini kendi kültürünüzün tarih, edebiyat, coğrafya ve gelenekleriyle harmanlayarak 50 dilde doğrudan taze sorular oluşturur. En sevdiğiniz şair hakkındaki bir soru, başkasınınki hakkındaki bir sorunun çevirisi olmayacaktır.",
     "offlineTitle": "Her yerde oyna, çevrimdışı bile",
-    "offlineBody": "Uygulamayı yükle, istediğin dillerin soru paketlerini indir ve uçakta ya da metroda oynamaya devam et. Tekrar bağlandığında skorların senkronize edilir.",
+    "offlineBody": "Uygulamayı yükleyin ve uçakta veya metroda Klasik oynamaya devam edin: dilinizdeki sorular cihazınıza otomatik olarak kaydedilir. Tekrar çevrimiçi olduğunuzda puanlarınız eşitlenir.",
     "badgesTitle": "Rozet topla",
     "badgesSubtitle": "Barajlara ulaş, milyonu kazan, serini sürdür — kazanılacak {count} rozet var.",
     "viewBadges": "Tüm rozetleri gör",
     "categoriesTitle": "Kategorileri keşfet",
     "categoriesSubtitle": "Tarih ve bilimden sinemaya, mutfağa ve kendi yerel kültürüne kadar.",
     "faqTitle": "Sıkça sorulan sorular",
-    "faq1Question": "Millionaire Quiz ücretsiz mi?",
+    "faq1Question": "Milyoner Bilgi Yarışması ücretsiz mi?",
     "faq1Answer": "Evet. Tüm modlar, tüm diller ve tüm jokerler ücretsiz; Klasik mod için kayıt bile gerekmez.",
     "faq2Question": "Sorular nereden geliyor?",
-    "faq2Answer": "Yapay zekâ soru yazarımız onları doğrudan senin dilinde üretiyor ve her soru oyuna girmeden önce otomatik olarak kontrol ediliyor. Gözden kaçan bir şey olursa tek dokunuşla bildirebilirsin.",
+    "faq2Answer": "Yapay zeka soru yazarı bunları dilinizde doğrudan oluşturur ve her soru oyuna ulaşmadan önce otomatik olarak kontrol edilir. Gözden kaçan bir şey olursa, tek dokunuşla bildirebilirsiniz.",
     "faq3Question": "Barajlar nasıl işler?",
     "faq3Answer": "5. soruyu doğru cevaplamak sana {havenOne}, 10. soru ise {havenTwo} garanti eder. Daha sonraki bir soruda yanılırsan, geçtiğin son barajın tutarıyla ayrılırsın.",
     "faq4Question": "Çevrimdışı oynayabilir miyim?",
-    "faq4Answer": "Evet. Uygulamayı yükle ve ayarlardan 50 dilin herhangi biri için soru paketlerini indir. Çevrimdışı oyunlar kaydedilir ve tekrar bağlandığında senkronize edilir.",
+    "faq4Answer": "Evet — Klasik çevrimdışı çalışır. Dilinizdeki sorular cihazınıza otomatik olarak kaydedilir ve yeniden bağlandığınızda çevrimdışı oyunlar eşitlenir. Maraton ve Zaman Karşılaşması bağlantı gerektirir.",
     "faq5Question": "Liderlik tablosuna nasıl girerim?",
     "faq5Answer": "Google ile giriş yap ve sıralamalı bir Maraton ya da Zamana Karşı oyunu oyna. Her cevap sunucumuz tarafından kontrol edilir, böylece liderlik tablosu adil kalır.",
     "faq6Question": "Bu, resmi televizyon programının oyunu mu?",
-    "faq6Answer": "Hayır. Millionaire Quiz, klasik bilgi yarışması formatından ilham alan bağımsız, hayran yapımı bir oyundur."
+    "faq6Answer": "Hayır. Milyoner Bilgi Yarışması, klasik yarışma programı formatından ilham alan bağımsız, hayran yapımı bir oyundur."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Tek hata ve oyun biter",
       "description": "Her 5 doğru cevapta zorlaşan, bitmeyen bir soru serisi. Dört klasik joker birer kez senin — ama tek bir yanlış cevap oyunu bitirir.",
-      "rules": "Soru başına {seconds} saniye. Seviye her 5 doğru cevapta yükselir. Tek yanlış cevap ya da süre dolması oyunu bitirir."
+      "rules": "Soru başına {minutes, plural, one {# dakika} other {# dakika}}. Seviye her 5 doğru cevapta bir yükselir. Bir yanlış cevap veya süre aşımı koşuyu sonlandırır."
     },
     "timeAttack": {
       "name": "Zamana Karşı",
@@ -130,18 +128,12 @@
       "description": "Süre bitmeden olabildiğince çok soruyu cevapla. Yanlış cevap oyunu bitirmez — ama sana 5 saniye kaybettirir.",
       "rules": "Sayaçta {seconds} saniye var. Her yanlış cevap {penalty} saniye götürür. Joker yok — sadece hız."
     },
-    "ranked": "Sıralamalı",
-    "practice": "Antrenman",
-    "rankedHint": "Sıralamalı oyunlar küresel liderlik tablosunda sayılır.",
-    "practiceHint": "Antrenman oyunları kendi ayarlarını kullanır ve sıralamaya girmez.",
-    "signInForRanked": "Sıralamalı oynamak ve liderlik tablosuna katılmak için Google ile giriş yap.",
-    "offlineUnranked": "Çevrimdışısın, bu yüzden bu oyun antrenman sayılacak.",
-    "customSettingsUnranked": "Özel ayarlar bu oyunu antrenmana çevirir."
+    "rankedHint": "Her koşu küresel skor tablosunda sayılır.",
+    "guestHint": "Misafir olarak oynuyorsunuz: koşunuz aynı şekilde yönetilir, ancak skor tablosunda yalnızca oturum açmış oyuncular görünür.",
+    "needsConnection": "Bu mod bağlantı gerektirir: her koşu canlı olarak yönetilir. Klasik çevrimdışı oynanır."
   },
   "Game": {
     "startGame": "Oyunu başlat",
-    "startRanked": "Sıralamalı oyunu başlat",
-    "startPractice": "Antrenmanı başlat",
     "loading": "Stüdyo ışıkları yanıyor…",
     "loadingQuestion": "Sıradaki sorun yazılıyor…",
     "playingFor": "Bu sorunun ödülü",
@@ -163,6 +155,12 @@
     "timeUp": "Süre doldu!",
     "theAnswerWas": "Doğru cevap {letter}: {text}",
     "didYouKnow": "Biliyor muydun?",
+    "switchPrompt": "Değiştirmeden önce ne cevaplardınız?",
+    "switchPromptHint": "Sadece eğlencesine: sonuç her iki şekilde de sayılmayacak.",
+    "switchSkip": "Atla, sadece değiştir",
+    "switchWouldBeRight": "Doğru bilmiş olacaktın!",
+    "switchWouldBeWrong": "İyi ki değiştirmişsin!",
+    "switchComing": "Yeni sorunuz geliyor…",
     "walkAway": "Çekil",
     "walkAwayTitle": "Parayı alıp çekiliyor musun?",
     "walkAwayBody": "Şimdi çekilirsen eve {amount} ile dönersin.",
@@ -180,7 +178,7 @@
     "levelUp": "Seviye {level} — sorular zorlaşıyor",
     "penalty": "−{seconds} sn",
     "fallbackNotice": "Soru yazarımız kısa bir mola verdi, bu yüzden bu oyunda İngilizce yedek sorular kullanılıyor.",
-    "packNotice": "İndirdiğin soru paketiyle oynuyorsun.",
+    "packNotice": "Çevrimdışısınız — cihazınıza kaydedilen sorularla oynuyorsunuz.",
     "keyboardHint": "Klavye: seçmek için A–D, onaylamak için Enter, merdiven için L, ses için M.",
     "report": "Hata bildir",
     "reportTitle": "Bu soruda bir sorun mu var?",
@@ -205,11 +203,12 @@
     "personalBest": "Yeni kişisel rekor!",
     "rank": "Liderlik tablosunda #{rank}",
     "newBadges": "{count, plural, one {Yeni rozet açıldı!} other {# yeni rozet açıldı!}}",
-    "shareText": "Millionaire Quiz'de {amount} kazandım! Beni geçebilir misin?",
-    "shareScoreText": "Millionaire Quiz'de {mode} modunda {score} puan yaptım! Beni geçebilir misin?",
+    "shareText": "Milyoner Bilgi Yarışması'nda {amount} kazandım! Beni geçebilir misin?",
+    "shareScoreText": "Milyoner Bilgi Yarışması'nda {mode} modunda {score} puan aldım! Beni geçebilir misin?",
     "backHome": "Ana sayfaya dön",
     "viewLeaderboard": "Liderlik tablosunu gör",
-    "signInToSave": "Skorlarını ve rozetlerini her cihazda saklamak için giriş yap."
+    "signInToSave": "Skorlarını ve rozetlerini her cihazda saklamak için giriş yap.",
+    "signInToRank": "Bunun gibi koşulları skor tablosuna eklemek için oturum açın."
   },
   "Lifelines": {
     "title": "Jokerler",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Ayarlar",
-    "subtitle": "Ses, çevrimdışı paketler ve varsayılan oyun ayarların.",
+    "subtitle": "Ses, dil ve Klasik oyun ayarlarınız.",
     "gameTitle": "Oyun ayarları",
+    "gameHint": "Bunlar Klasik oyunlar için geçerlidir. Maraton ve Zaman Karşılaşması derecelendirilmiştir ve her zaman standart kuralları kullanır.",
+    "customised": "Özel ayarlarınızla oynuyorsunuz.",
+    "change": "Değiştir",
     "categories": "Kategoriler",
     "allCategories": "Tüm kategoriler",
     "categoriesHint": "Bir ya da daha fazlasını seç; tüm kategoriler için hiçbirini seçme.",
@@ -256,16 +258,6 @@
     "soundTitle": "Ses",
     "sound": "Ses efektleri ve müzik",
     "volume": "Ses düzeyi",
-    "packsTitle": "Çevrimdışı soru paketleri",
-    "packsSubtitle": "Bağlantı olmadan oynamak istediğin dillerin sorularını indir. Her paket yaklaşık 100 KB.",
-    "packCount": "{count, plural, one {# soru} other {# soru}}",
-    "packDownload": "İndir",
-    "packDownloading": "İndiriliyor…",
-    "packUpdate": "Güncelle",
-    "packRemove": "Kaldır",
-    "packDownloaded": "İndirildi",
-    "packError": "Paket indirilemedi. Bağlantını kontrol edip tekrar dene.",
-    "autoDownload": "Dilimin paketini otomatik indir",
     "installTitle": "Uygulamayı yükle",
     "installBody": "Ana ekranından tek dokunuşla tam ekran ve çevrimdışı oyna.",
     "accountTitle": "Hesap"
@@ -375,26 +367,86 @@
     "earnedOn": "{date} tarihinde kazanıldı",
     "unlocked": "Rozet açıldı",
     "items": {
-      "firstSteps": { "name": "İlk Adımlar", "description": "İlk sorunu doğru cevapla." },
-      "safeHaven": { "name": "İlk Baraj", "description": "Klasik modda ilk baraja ulaş (5. soru)." },
-      "halfWay": { "name": "Yolun Yarısı", "description": "Klasik modda ikinci baraja ulaş (10. soru)." },
-      "millionaire": { "name": "Milyoner", "description": "Klasik modda 15 sorunun hepsini cevapla ve milyonu kazan." },
-      "purist": { "name": "Saf Bilgi", "description": "Tek bir joker bile kullanmadan milyonu kazan." },
-      "smartExit": { "name": "Akıllı Çıkış", "description": "12. soruda ya da sonrasında kazancınla çekil." },
-      "quickThinker": { "name": "Hızlı Düşünür", "description": "Her biri 3 saniyeden kısa sürede 10 doğru cevap ver." },
-      "marathon10": { "name": "Maratoncu", "description": "Sıralamalı Maratonda üst üste 10 soru bil." },
-      "marathon25": { "name": "Uzun Mesafe", "description": "Sıralamalı Maratonda üst üste 25 soru bil." },
-      "marathon50": { "name": "Demir Zihin", "description": "Sıralamalı Maratonda üst üste 50 soru bil." },
-      "marathon100": { "name": "Efsane", "description": "Sıralamalı Maratonda üst üste 100 soru bil." },
-      "timeAttack15": { "name": "Hız Tutkunu", "description": "Sıralamalı Zamana Karşı modunda 15 puan yap." },
-      "timeAttack30": { "name": "Şimşek", "description": "Sıralamalı Zamana Karşı modunda 30 puan yap." },
-      "polyglot3": { "name": "Çok Dilli", "description": "3 farklı dilde oyna." },
-      "polyglot10": { "name": "Dünya Gezgini", "description": "10 farklı dilde oyna." },
-      "streak3": { "name": "Seri Başladı", "description": "3 gün üst üste oyna." },
-      "streak7": { "name": "Sadık Oyuncu", "description": "7 gün üst üste oyna." },
-      "offlineHero": { "name": "Şebeke Dışı", "description": "Çevrimdışıyken bir oyunu bitir." },
-      "savedByAFriend": { "name": "Dost Kara Günde Belli Olur", "description": "Arkadaşının tavsiyesine uy ve doğru bil." },
-      "categoryMaster": { "name": "Kategori Ustası", "description": "Tek bir kategoride 25 soruyu doğru cevapla." }
+      "firstSteps": {
+        "name": "İlk Adımlar",
+        "description": "İlk sorunu doğru cevapla."
+      },
+      "safeHaven": {
+        "name": "İlk Baraj",
+        "description": "Klasik modda ilk baraja ulaş (5. soru)."
+      },
+      "halfWay": {
+        "name": "Yolun Yarısı",
+        "description": "Klasik modda ikinci baraja ulaş (10. soru)."
+      },
+      "millionaire": {
+        "name": "Milyoner",
+        "description": "Klasik modda 15 sorunun hepsini cevapla ve milyonu kazan."
+      },
+      "purist": {
+        "name": "Saf Bilgi",
+        "description": "Tek bir joker bile kullanmadan milyonu kazan."
+      },
+      "smartExit": {
+        "name": "Akıllı Çıkış",
+        "description": "12. soruda ya da sonrasında kazancınla çekil."
+      },
+      "quickThinker": {
+        "name": "Hızlı Düşünür",
+        "description": "Her biri 3 saniyeden kısa sürede 10 doğru cevap ver."
+      },
+      "marathon10": {
+        "name": "Maratoncu",
+        "description": "Sıralamalı Maratonda üst üste 10 soru bil."
+      },
+      "marathon25": {
+        "name": "Uzun Mesafe",
+        "description": "Sıralamalı Maratonda üst üste 25 soru bil."
+      },
+      "marathon50": {
+        "name": "Demir Zihin",
+        "description": "Sıralamalı Maratonda üst üste 50 soru bil."
+      },
+      "marathon100": {
+        "name": "Efsane",
+        "description": "Sıralamalı Maratonda üst üste 100 soru bil."
+      },
+      "timeAttack15": {
+        "name": "Hız Tutkunu",
+        "description": "Sıralamalı Zamana Karşı modunda 15 puan yap."
+      },
+      "timeAttack30": {
+        "name": "Şimşek",
+        "description": "Sıralamalı Zamana Karşı modunda 30 puan yap."
+      },
+      "polyglot3": {
+        "name": "Çok Dilli",
+        "description": "3 farklı dilde oyna."
+      },
+      "polyglot10": {
+        "name": "Dünya Gezgini",
+        "description": "10 farklı dilde oyna."
+      },
+      "streak3": {
+        "name": "Seri Başladı",
+        "description": "3 gün üst üste oyna."
+      },
+      "streak7": {
+        "name": "Sadık Oyuncu",
+        "description": "7 gün üst üste oyna."
+      },
+      "offlineHero": {
+        "name": "Şebeke Dışı",
+        "description": "Çevrimdışıyken bir oyunu bitir."
+      },
+      "savedByAFriend": {
+        "name": "Dost Kara Günde Belli Olur",
+        "description": "Arkadaşının tavsiyesine uy ve doğru bil."
+      },
+      "categoryMaster": {
+        "name": "Kategori Ustası",
+        "description": "Tek bir kategoride 25 soruyu doğru cevapla."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Jokerler",
     "lifelinesBody": "Dört jokerin var ve her biri oyun başına bir kez kullanılabilir:",
     "marathonTitle": "Maraton",
-    "marathonBody": "Bitmeyen bir seri. Sorular her beş doğru cevapta zorlaşır, dört jokeri birer kez kullanabilirsin ve soru başına {seconds} saniyen var. Tek bir yanlış cevap ya da süre dolması oyunu bitirir; skorun, doğru cevap sayındır.",
+    "marathonBody": "Sonsuz bir koşu. Sorular her beş doğru cevapta zorlaşır, dört joker hakkının her birine bir kez sahip olursun ve her soru için {minutes, plural, one {# dakika} other {# dakika}} süre alırsın. Bir yanlış cevap veya süre aşımı koşuyu bitirir ve puanın doğru cevap sayısıdır.",
     "timeAttackTitle": "Zamana Karşı",
     "timeAttackBody": "Olabildiğince çok soruyu cevaplamak için {seconds} saniyen var. Yanlış cevap oyunu bitirmez ama süreden {penalty} saniye düşer. Joker yok.",
     "rankedTitle": "Sıralamalı oyun ve adalet",
-    "rankedBody": "Sıralamalı Maraton ve Zamana Karşı oyunlarının hakemi sunucumuzdur: doğru cevap, sen cevaplamadan cihazına asla ulaşmaz ve süre sunucuda tutulur. Sıralamalı oynamak için Google ile giriş yap. Özel ayarlarla ya da çevrimdışı oynanan oyunlar antrenman sayılır.",
+    "rankedBody": "Maraton ve Zaman Karşılaşması koşuları her zaman sunucumuz tarafından yönetilir: doğru cevap siz yanıt vermeden asla cihazınıza ulaşmaz ve saat sunucuda tutulur. Herkes oynayabilir; puanınızı skor tablosuna koymak için Google ile oturum açın.",
     "questionsTitle": "Sorular hakkında",
-    "questionsBody": "Sorular, yapay zekâ soru yazarımız tarafından her dilde doğrudan o dilde yazılır ve otomatik olarak kontrol edilir. Yaklaşık %40'ı dilinin konuşulduğu kültürle ilgilidir. Bir soru yanlış görünüyorsa, cevap açıklandıktan sonra “Hata bildir” düğmesini kullan."
+    "questionsBody": "Sorular, her dilde yerel olarak yapay zeka soru yazarı tarafından yazılır ve otomatik olarak kontrol edilir. Yaklaşık %40'ı dilinizin konuşulduğu kültür hakkındadır. Bir soru yanlış görünüyorsa, cevap açıklandıktan sonra “Hata bildir” seçeneğini kullanın."
   },
   "About": {
-    "title": "Millionaire Quiz hakkında",
-    "intro": "Millionaire Quiz, klasik televizyon formatından ilham alan ücretsiz, hayran yapımı bir bilgi yarışması oyunudur — web, telefonlar ve 50 dil için yeniden tasarlandı.",
+    "title": "Milyoner Bilgi Yarışması Hakkında",
+    "intro": "Milyoner Bilgi Yarışması, klasik televizyon formatından ilham alan; web, telefonlar ve 50 dil için yeniden oluşturulmuş ücretsiz, hayran yapımı bir bilgi yarışması oyunudur.",
     "missionTitle": "Neden yaptık",
     "missionBody": "Çoğu bilgi yarışması oyunu İngilizce yazılır ve çevrilir. Biz bir bilgi yarışmasının insana ev gibi hissettirmesi gerektiğini düşünüyoruz: sorular geniş dünyanın yanı sıra birlikte büyüdüğün insanlar, yerler, kitaplar ve gelenekler hakkında olmalı.",
     "howTitle": "Sorular nasıl hazırlanıyor",
     "howBody": "Büyük bir dil modeli her soruyu doğrudan senin dilinde, toplu hâlde ve katı kurallara uyarak yazar: açıkça doğru tek bir cevap, dört makul seçenek, yalnızca değişmeyen bilgiler. Sorular otomatik olarak doğrulanır, saklanır ve oyunculara sunulur; her oyuncu hata bildirebilir.",
     "techTitle": "Perde arkası",
-    "techBody": "Millionaire Quiz bir progresif web uygulamasıdır: telefonuna ya da bilgisayarına yüklenir, indirilebilir soru paketleriyle çevrimdışı çalışır ve tekrar bağlandığında ilerlemeni senkronize eder.",
+    "techBody": "Milyoner Bilgi Yarışması ilerici bir web uygulamasıdır: telefonunuza veya bilgisayarınıza yüklenir, otomatik olarak kaydedilen sorularla çevrimdışı çalışır ve yeniden bağlandığınızda ilerlemenizi eşitler.",
     "creditTitle": "Emeği geçenler",
     "creditBody": "Tasarım ve geliştirme: {author}.",
-    "disclaimer": "Millionaire Quiz hiçbir televizyon programı, yayıncı ya da hak sahibiyle bağlantılı değildir ve onlar tarafından desteklenmez."
+    "disclaimer": "Milyoner Bilgi Yarışması hiçbir televizyon programı, yayıncı veya hak sahibi ile bağlantılı değildir, onlar tarafından onaylanmamıştır veya ilişkilendirilmemiştir."
   },
   "Legal": {
     "privacyTitle": "Gizlilik politikası",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Hakların",
     "privacyRightsBody": "Görünen adını ve fotoğrafını istediğin zaman değiştirebilir, geliştiriciyle iletişime geçerek hesabının ve ilişkili tüm verilerin silinmesini isteyebilirsin.",
     "termsTitle": "Kullanım koşulları",
-    "termsIntro": "Millionaire Quiz'i oynayarak bu basit koşulları kabul etmiş olursun.",
+    "termsIntro": "Milyoner Bilgi Yarışması'nı oynayarak bu basit şartları kabul etmiş olursunuz.",
     "termsPlayTitle": "Adil oyun",
     "termsPlayBody": "Sıralamalı oyunları dürüstçe oyna. Otomatik oynatma, hatalardan yararlanma ya da liderlik tablosuna müdahale, oyunlarının kaldırılmasına yol açabilir.",
     "termsContentTitle": "Sorular ve doğruluk",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Uygulamayı yükle",
-    "installTitle": "Millionaire Quiz'i yükle",
+    "installTitle": "Milyoner Bilgi Yarışması'nı Yükle",
     "benefit": "Ana ekranından tek dokunuşla tam ekran ve çevrimdışı oyna.",
     "iosTitle": "iPhone veya iPad'e yükle",
     "iosStep1": "Safari araç çubuğundaki Paylaş düğmesine dokun.",
@@ -464,9 +516,34 @@
     "iosStep3": "“Ekle”ye dokun — uygulama ana ekranında belirir.",
     "gotIt": "Anladım"
   },
+  "Contact": {
+    "title": "Bize ulaşın",
+    "subtitle": "Bir hata mı buldunuz, bir fikriniz mi var veya yardıma mı ihtiyacınız var? Bize yazın — her mesajı okuyoruz.",
+    "name": "Adınız",
+    "nameRequired": "Lütfen adınızı girin.",
+    "email": "E-posta",
+    "emailRequired": "Size yanıt verebilmemiz için lütfen e-postanızı girin.",
+    "emailInvalid": "Bu e-posta adresi doğru görünmüyor.",
+    "message": "Mesaj",
+    "messageRequired": "Lütfen bir mesaj yazın.",
+    "messagePlaceholder": "Nasıl yardımcı olabiliriz?",
+    "send": "Mesaj gönder",
+    "error": "Mesajınız gönderilemedi. Lütfen birazdan tekrar deneyin.",
+    "sentTitle": "Mesaj gönderildi!",
+    "sentBody": "Yazdığınız için teşekkürler. Verdiğiniz e-posta adresine yanıt vereceğiz.",
+    "sendAnother": "Başka bir mesaj gönder"
+  },
   "Auth": {
     "signedIn": "Hoş geldin, {name}!",
     "signedOut": "Çıkış yaptın.",
+    "signInTitle": "Oturum aç",
+    "signInSubtitle": "Google ile tek dokunuş, ilerlemeniz her cihazda sizinle olsun.",
+    "benefitRanked": "Maraton ve Zaman Karşılaşması puanlarınızı küresel skor tablosuna ekleyin",
+    "benefitLeaderboard": "Diğer oyuncuların gördüğü adı ve resmi seçin",
+    "benefitSync": "Klasik en iyinizi, oyun geçmişinizi ve rozetlerinizi her yerde saklayın",
+    "privacyNote": "Google'dan yalnızca adınızı, e-posta adresinizi ve resminizi kullanırız.",
+    "unavailable": "Oturum açma şu anda kullanılmıyor. Klasik oynamaya devam edebilirsiniz — ilerlemeniz bu cihazda kaydedilir.",
+    "alreadySignedIn": "{name} olarak oturum açtınız.",
     "errors": {
       "google_unavailable": "Google ile giriş şu anda kullanılamıyor.",
       "google_denied": "Giriş iptal edildi.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "milyoner yarışması, bilgi yarışması, quiz oyunu, kim milyoner olmak ister oyunu, ücretsiz bilgi yarışması, online quiz, genel kültür",
-    "homeTitle": "Millionaire Quiz — Kim Milyoner Olmak İster? Ücretsiz online oyna",
+    "homeTitle": "Milyoner Bilgi Yarışması — Kim Milyoner Olmak İster? Ücretsiz çevrimiçi oyna",
     "homeDescription": "Bilgi yarışması oyununu 50 dilde ücretsiz oyna. Milyona 15 soru, dört joker, barajlar; ayrıca küresel liderlik tablosuyla bitmeyen Maraton ve Zamana Karşı modları.",
     "playTitle": "Klasik Milyoner yarışması — milyona 15 soru",
     "playDescription": "{first} ile {top} arasındaki para merdivenini tırman: on beş soru, iki baraj, dört joker. Ücretsiz, kayıtsız ve senin dilinde.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Rozetler — hepsini topla",
     "badgesDescription": "Klasik, Maraton ve Zamana Karşı modlarında kazanılacak yirmi rozet: milyonu kazan, serini sürdür, birçok dilde oyna.",
     "rulesTitle": "Nasıl oynanır — kurallar, para merdiveni ve jokerler",
-    "rulesDescription": "Millionaire Quiz'in tüm kuralları: para merdiveni, barajlar, çekilme, dört joker, Maraton ve Zamana Karşı.",
-    "aboutTitle": "Millionaire Quiz hakkında",
-    "aboutDescription": "Klasik TV bilgi yarışması formatından ilham alan, 50 dilde yapay zekâ ile yazılmış sorular sunan ücretsiz, hayran yapımı bir oyun.",
+    "rulesDescription": "Milyoner Bilgi Yarışması'nın tüm kuralları: para merdiveni, güvenli limanlar, yarıştan çekilme, dört joker hak, Maraton ve Zaman Karşılaşması.",
+    "aboutTitle": "Milyoner Bilgi Yarışması Hakkında",
+    "aboutDescription": "Klasik TV yarışma formatından ilham alan, 50 dilde yapay zeka yazımı sorular içeren ücretsiz, hayran yapımı bir bilgi yarışması oyunu.",
     "privacyTitle": "Gizlilik politikası",
-    "privacyDescription": "Millionaire Quiz neyi, neden saklar ve bunları nasıl silebilirsin.",
+    "privacyDescription": "Milyoner Bilgi Yarışması'nın ne sakladığı, neden sakladığı ve nasıl silineceği.",
     "termsTitle": "Kullanım koşulları",
-    "termsDescription": "Millionaire Quiz'i adil oynamanın basit kuralları.",
+    "termsDescription": "Milyoner Bilgi Yarışması'nı adil bir şekilde oynamanın basit kuralları.",
     "profileTitle": "Profilin",
     "profileDescription": "Skorların, sıraların ve rozetlerin.",
     "settingsTitle": "Ayarlar",
-    "settingsDescription": "Ses, çevrimdışı soru paketleri ve varsayılan oyun ayarları."
+    "contactTitle": "Bize ulaşın",
+    "contactDescription": "Sorular, fikirler veya bir sorudaki hata mı? Milyoner Bilgi Yarışması ekibine bir mesaj gönderin.",
+    "signInTitle": "Oturum aç",
+    "signInDescription": "Puanlarınızı skor tablosuna koymak ve ilerlemenizi her cihazda tutmak için Google ile oturum açın.",
+    "settingsDescription": "Ses, dil ve Klasik oyun ayarları."
   }
 }

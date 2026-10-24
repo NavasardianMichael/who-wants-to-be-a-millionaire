@@ -56,7 +56,7 @@ export default async function RulesPage() {
             ))}
           </ul>
           <h2>{t('Rules.marathonTitle')}</h2>
-          <p>{t('Rules.marathonBody', { ...values, seconds: MARATHON_RULES.questionSeconds })}</p>
+          <p>{t('Rules.marathonBody', { ...values, minutes: MARATHON_RULES.questionSeconds / 60 })}</p>
           <h2>{t('Rules.timeAttackTitle')}</h2>
           <p>{t('Rules.timeAttackBody', { ...values, seconds: TIME_ATTACK_RULES.durationSeconds })}</p>
           <h2>{t('Rules.rankedTitle')}</h2>

@@ -50,6 +50,7 @@ const rankedSql = (query: LeaderboardQuery) => {
         r."userId", r.score, r."totalAnswerMs", r.locale, r."finishedAt"
       FROM "Run" r
       WHERE r.mode = ${query.mode}::"GameMode" AND r.status = 'finished' AND r.score > 0
+        AND r."userId" IS NOT NULL
         ${localeFilter} ${periodFilter}
       ORDER BY r."userId", r.score DESC, r."totalAnswerMs" ASC, r."finishedAt" ASC
     ),

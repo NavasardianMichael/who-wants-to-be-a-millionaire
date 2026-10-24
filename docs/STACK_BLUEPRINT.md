@@ -40,7 +40,7 @@ product; it says what to build, how, and which existing file to copy for each pi
 | Web | Next.js 16 App Router, `output: 'standalone'`, React 19, TypeScript 6 (strict, `noUnused*`) |
 | Middleware | `src/proxy.ts` (Next 16's name for middleware) |
 | i18n | next-intl 4, `localePrefix: 'always'`, `localeDetection: false` + own negotiation |
-| Styling | Tailwind 4 CSS-first (`@theme` in `globals.css`), `clsx` + `tailwind-merge` → `cn()`. No component library unless asked (Bookie uses antd 6 in CSS-var mode — see its `src/styles/`) |
+| Styling | Ant Design 6 (CSS-var mode, `@ant-design/nextjs-registry` with `layer`) + Tailwind 4 CSS-first (`@theme` in `globals.css`), `clsx` + `tailwind-merge` → `cn()` |
 | Client state | Zustand 5 + immer, `combine`, `appendSelectors` |
 | HTTP (web) | axios instance + 4-file API domains |
 | Motion | `motion` (`motion/react`) + CSS keyframes; `prefers-reduced-motion` respected |
@@ -188,8 +188,24 @@ Then:
 - **Long async sequences in a store** (a game director): a generation counter checked after
   every await, so a quit/restart can't be overwritten by a stale timer.
 
-## 9. Design system (Tailwind 4)
+## 9. Design system (Ant Design 6 + Tailwind 4)
 
+- **Token chain** (bookie, this repo): `styles/tokens.ts` owns every hex → `styles/theme.ts`
+  (`ThemeConfig`: algorithm, seed tokens as literals, component tokens,
+  `cssVar: { prefix: 'ant', key: CSS_VAR_SCOPE }`, `hashed: false`) → antd emits `--ant-*` under
+  the scope class, which the root layout stamps on `<html>` → globals.css §2 aliases them as
+  `--brand-*` (with literal fallbacks) → `@theme inline` turns those into utilities
+  (`rounded-control`, `h-control`, `bg-surface`…).
+- **Layers:** `<AntdRegistry layer>` + `@layer theme, base, antd, components, utilities;` (first
+  line of globals.css and an inline `<style>` at the top of `<head>`). Utilities beat antd;
+  antd beats preflight.
+- **Provider:** a small client `AntdProvider` (`ConfigProvider direction locale theme` +
+  `<App component={false}>`) inside the server `App` shell; the antd locale is loaded on the
+  server (`i18n/antdLocale.ts`) and passed as a prop.
+- **Wrappers over antd** in `components/ui/` keep one API for the app (Button, IconButton,
+  Dialog = Modal/Drawer, SegmentedControl, Chip, Toggle, Spinner, ErrorAlert, Avatar, Toaster →
+  `message`). Gates forbid bare `Modal`/`Drawer`, deprecated antd props and `var(--ant-*)`
+  outside the alias block.
 - `globals.css` sections: §1 `@theme` tokens (colour ramps, fluid type scale `--text-*`,
   spacing, radii, shadows, easing, named animations; `--breakpoint-*: initial` then explicit
   sm/md/lg/xl) · §2 base (body, focus-visible, selection, dialog backdrop) · §3–§5 `@utility`
@@ -200,11 +216,8 @@ Then:
 - `cn()` extends tailwind-merge with the custom text sizes so `text-body-sm text-mist` both survive.
 - Class names must be literal in source (Tailwind scans text); never build them with string
   replacement. Prefer canonical v4.3 names (`inset-s-*`, `bg-linear-*`).
-- UI kit: `Button` + `buttonClassName` (shared with `ButtonLink`), `IconButton` (required
-  label), `Dialog` (native `<dialog>`: center / sheet / drawer), `Toggle` (`role=switch`),
-  `SegmentedControl` (radio group with arrow keys), `Chip` (`aria-pressed`), `Avatar`,
-  `Spinner`, `Skeleton`, `Toaster` (store-driven live region), `ErrorAlert`, `Card`, `Section`,
-  `PageHeader`, `Prose`.
+- UI kit: antd wrappers above, plus server-safe `ButtonLink` (`buttonClassName`), `Card`,
+  `Section`, `PageHeader`, `Prose`, and the brand pieces that are not generic controls.
 - Accessibility: labels on icon controls, state never by colour alone, live regions for
   results, keyboard shortcuts that ignore inputs and open dialogs, 44px+ targets, logical
   properties for RTL, `lang` on foreign-script fragments.
@@ -290,7 +303,7 @@ Then:
 | Root layout, metadata builder, sitemap, robots, manifest, icons | `src/app/[lang]/layout.tsx`, `src/i18n/metadata.ts`, `src/app/{sitemap,robots,manifest,icon,apple-icon}.ts(x)` |
 | API domain template | `src/api/leaderboards/*` (simple), `src/api/profile/*` (upload) |
 | Store templates | `src/store/auth/*` (async + flags), `src/store/leaderboard/list/*` (latest-request-wins) |
-| Design tokens + UI kit | `src/styles/globals.css`, `src/styles/tokens.ts`, `src/components/ui/*` |
+| Design tokens + UI kit | `src/styles/tokens.ts`, `src/styles/theme.ts`, `src/styles/globals.css`, `src/components/AntdProvider.tsx`, `src/components/ui/*` |
 | Service worker + offline | `src/helpers/pwa.ts`, `src/app/sw.js/route.ts`, `src/helpers/offline/*` |
 | Install button / iOS hint | `src/helpers/installPrompt.ts`, `src/components/pwa/*` (originals in Hangman `src/helpers/utils/installPrompt.ts`, `src/components/downloadAppBtn`) |
 | Server skeleton | `server/src/{app,index,instrument,config,load-env}.ts`, `server/src/lib/{api-response,error-response,request,rateLimit}.ts`, `server/src/middleware/*` |

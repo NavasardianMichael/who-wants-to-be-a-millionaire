@@ -4,8 +4,8 @@ A "Who Wants to Be a Millionaire?"-style quiz game in 50 languages. A Next.js Ap
 and an Express/Prisma API in `server/`, in one pnpm workspace. Questions are written by
 Gemini natively per language and pooled in Postgres; a curated English bank is the fallback.
 
-**Stack:** Next.js 16 (App Router, `src/proxy.ts`) · React 19 · TypeScript 6 · Tailwind 4 (no
-component library) · Zustand + immer · next-intl 4 · motion · idb · pnpm · Express 5 · Prisma 6 ·
+**Stack:** Next.js 16 (App Router, `src/proxy.ts`) · React 19 · TypeScript 6 · Ant Design 6 +
+Tailwind 4 (one token chain) · Zustand + immer · next-intl 4 · motion · idb · pnpm · Express 5 · Prisma 6 ·
 PostgreSQL 16 · `@google/genai` · sharp · Sentry · GA4
 
 ## Commands
@@ -41,18 +41,21 @@ sorts it.
 | Where questions come from (API → pack → bundled bank) | `src/helpers/offline/questionSource.ts`, `src/helpers/game/questionQueue.ts` |
 | Question generation, validation, the pool | `server/src/services/questionGen.ts`, `questionPool.ts`, `jobs/poolRefill.ts` |
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
-| Ranked runs (server-refereed) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` |
+| Ranked runs (server-refereed, guests too) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` · guest cookie `lib/guest.ts` |
 | Leaderboard SQL | `server/src/services/leaderboard.ts` |
 | Google sign-in, session cookie | `server/src/routes/identity.ts`, `lib/google-oauth.ts`, `lib/oauth-state.ts`, `lib/session.ts` |
 | Avatars | `server/src/routes/profile.ts` (multer → sharp → webp) |
 | HTTP calls from the web | `src/api/<domain>/` — `endpoints`, `types`, `processors`, `main` |
 | Client state | `src/store/<domain>/<slice>/{store,types}.ts` |
 | Locales, routing, metadata, hreflang | `src/i18n/` · catalogues `src/messages/` · culture hints `server/src/lib/locales.ts` |
-| Design tokens | `src/styles/globals.css` §1 (owner) · `src/styles/tokens.ts` (JS mirror) |
-| UI kit | `src/components/ui/` (`bare/` and `layout/` are server-safe) |
+| Design tokens | `src/styles/tokens.ts` (owner) → `theme.ts` (antd) → `globals.css` §1 mirror + §2 `--ant-*` aliases |
+| UI kit (antd wrappers) | `src/components/ui/` (`bare/` and `layout/` render on the server) · provider `src/components/AntdProvider.tsx` · antd locales `src/i18n/antdLocale.ts` |
 | SEO: sitemap, robots, JSON-LD, OG | `src/app/sitemap.ts`, `robots.ts`, `src/linkedDataSchema/`, `src/app/*icon*` |
 | PWA: manifest, service worker, install | `src/app/manifest.ts`, `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/components/pwa/` |
-| Offline packs and the sync outbox | `src/helpers/offline/` · `src/store/offline/packs/` |
+| Offline packs (automatic, no UI) and the sync outbox | `src/helpers/offline/` (`ensurePack`) · `src/store/offline/packs/` |
+| Contact form (mail engine, nothing stored) | `src/app/[lang]/contact/`, `src/components/contact/` · `server/src/routes/contact.ts`, `lib/mail.ts` |
+| Leave-page guard (game, unsaved forms) | `src/hooks/useLeaveGuard.ts` · `src/components/LeaveGuard.tsx` |
+| Sound (main theme off-stage, stings pause music) | `src/helpers/audio/audioManager.ts` · `src/components/AmbientMusic.tsx` |
 | Deploying | `docs/DEPLOYMENT.md`, `deployment/`, `.github/workflows/` |
 | Reusing this stack for a new project | `docs/STACK_BLUEPRINT.md` |
 
@@ -70,7 +73,8 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   through `reportError`.
 - **Every user-visible string** is in `src/messages/en.json`, then synced to the 49 other
   catalogues (`pnpm i18n:sync`, then `pnpm check:messages`).
-- **No hex outside the token files, no `dark:`** — `pnpm gates` enforces it.
+- **No hex outside the token files, no `dark:`, no bare antd `Modal`/`Drawer`, no `var(--ant-*)`
+  outside globals.css §2** — `pnpm gates` enforces it.
 - **Server-render what crawlers should see.** Client components are islands; pages fetch on
   the server through `src/helpers/serverData.ts`, which degrades to empty when the API is down.
 - Comment only where the purpose is not obvious from the code.
@@ -81,9 +85,12 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`
   (`next/root-params`), and `requestLocale` must never be destructured in the parameter list —
   it is a getter that calls `headers()`, which silently turns every page dynamic. No
-  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 1459 routes.
+  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 1559 routes.
 - `useSearchParams` needs a `<Suspense>` boundary, or every static page falls back to
   client rendering — prefer reading `window.location` in an event handler.
+- **No mode needs an account.** Marathon and Time Attack are always ranked and refereed by
+  the server; a guest's run is tied to an httpOnly guest cookie and never reaches the
+  leaderboard. Only Classic has custom settings (Settings page) and plays offline.
 - Ranked runs never send `correctIndex` before the answer; the display order of options is
   per-serve (`Run.currentOrder`). Don't add an answer to `RunView`.
 - Integration tests only ever touch `millionaire_test` (guarded in `tests/setup/integration.ts`).

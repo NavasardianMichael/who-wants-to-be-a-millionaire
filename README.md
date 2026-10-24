@@ -14,7 +14,7 @@ progressive web app.
   bank is the fallback.
 - **Global leaderboards** for Marathon and Time Attack, refereed by the server, filterable by
   language and searchable by name. Google sign-in, uploadable avatars, 20 badges.
-- **Offline-first:** installable, downloadable language packs, results synced when the
+- **Offline-first:** installable; the current language's questions are saved automatically, so Classic plays offline; results synced when the
   connection returns.
 
 ## Run it locally
@@ -29,7 +29,7 @@ pnpm dev                                # web http://localhost:7006 · API http:
 ```
 
 Without a `GEMINI_KEY` everything works on the English bank. Without Google OAuth credentials
-sign-in is hidden and ranked modes are unavailable; Classic and practice runs still work.
+sign-in is unavailable and every run is a guest run (refereed, but off the leaderboard).
 
 ## Verify
 

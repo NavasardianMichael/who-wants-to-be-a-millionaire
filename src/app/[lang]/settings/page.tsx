@@ -4,7 +4,7 @@ import { pageMetadata } from '@i18n/metadata'
 import { ROUTES } from '@constants/routes'
 import { LanguageSwitcher } from '@components/layout/LanguageSwitcher'
 import { InstallButton } from '@components/pwa/InstallButton'
-import { OfflinePacks } from '@components/settings/OfflinePacks'
+import { GameSettingsForm } from '@components/settings/GameSettingsForm'
 import { SoundSettings } from '@components/settings/SoundSettings'
 import { Card } from '@components/ui/layout/Card'
 import { PageHeader } from '@components/ui/layout/PageHeader'
@@ -27,7 +27,7 @@ export default async function SettingsPage() {
           </Card>
           <Card className='flex flex-col gap-4'>
             <h2 className='text-h3 font-bold text-gold-200'>{t('Common.language')}</h2>
-            <LanguageSwitcher className='self-start' />
+            <LanguageSwitcher withLabel className='self-start' />
           </Card>
           <Card tone='gold' className='flex flex-col gap-3'>
             <h2 className='text-h3 font-bold text-gold-200'>{t('Settings.installTitle')}</h2>
@@ -35,10 +35,9 @@ export default async function SettingsPage() {
             <InstallButton withLabel />
           </Card>
         </div>
-        <Card className='flex flex-col gap-4'>
-          <h2 className='text-h3 font-bold text-gold-200'>{t('Settings.packsTitle')}</h2>
-          <p className='text-body-sm text-mist'>{t('Settings.packsSubtitle')}</p>
-          <OfflinePacks />
+        <Card id='game' className='flex scroll-mt-24 flex-col gap-4'>
+          <h2 className='text-h3 font-bold text-gold-200'>{t('Settings.gameTitle')}</h2>
+          <GameSettingsForm />
         </Card>
       </div>
     </>

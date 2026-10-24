@@ -17,7 +17,9 @@ const stateFor = (
   { question, phase, selectedIndex, revealedCorrectIndex }: Omit<AnswerGridProps, 'onSelect'>
 ): AnswerState => {
   if (question.removed.includes(index)) return 'removed'
-  if (phase === 'revealed' || phase === 'transition' || phase === 'ended') {
+  // The Switch interlude reveals like an answer, but only once the would-be pick is in.
+  const revealing = phase === 'revealed' || phase === 'transition' || phase === 'ended' || (phase === 'switching' && revealedCorrectIndex !== null)
+  if (revealing) {
     if (index === revealedCorrectIndex) return 'correct'
     if (index === selectedIndex) return 'wrong'
     return 'dim'
@@ -29,8 +31,8 @@ const stateFor = (
 
 /** 1 column on phones (thumb reach), the show's 2 × 2 from `sm` up. */
 export const AnswerGrid = (props: AnswerGridProps) => {
-  const { question, phase, onSelect } = props
-  const interactive = phase === 'asking' || phase === 'selected'
+  const { question, phase, revealedCorrectIndex, onSelect } = props
+  const interactive = phase === 'asking' || phase === 'selected' || (phase === 'switching' && revealedCorrectIndex === null)
 
   return (
     <ol className='grid grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-3'>

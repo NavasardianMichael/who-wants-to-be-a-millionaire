@@ -65,7 +65,7 @@ export const TimerRing = ({ remainingMs, totalMs, size = 'md', className }: Time
           tone === 'danger' ? 'text-wrong-300' : tone === 'warn' ? 'text-lock-300' : 'text-ivory'
         )}
       >
-        {seconds === null ? '∞' : seconds}
+        {seconds === null ? '∞' : seconds >= 60 ? `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}` : seconds}
       </span>
       <span className='sr-only'>{seconds === null ? t('noTimeLimit') : t('timeLeft')}</span>
       <span aria-live='assertive' className='sr-only'>

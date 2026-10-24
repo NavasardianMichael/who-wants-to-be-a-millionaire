@@ -20,4 +20,5 @@ export const LEGAL_NAV = [
   { labelKey: 'about', href: ROUTES.about },
   { labelKey: 'privacy', href: ROUTES.privacy },
   { labelKey: 'terms', href: ROUTES.terms },
+  { labelKey: 'contact', href: ROUTES.contact },
 ] as const

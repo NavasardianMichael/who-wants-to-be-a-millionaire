@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import { Empty, Skeleton, Statistic } from 'antd'
 import { LogOut } from 'lucide-react'
 import { useFormatter, useLocale, useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
@@ -12,7 +13,6 @@ import { formatMoney } from '@helpers/money'
 import { BadgeMedal } from '@components/badges/BadgeMedal'
 import { GoogleSignInButton } from '@components/layout/GoogleSignInButton'
 import { AppLink } from '@components/ui/bare/AppLink'
-import { Skeleton } from '@components/ui/bare/Skeleton'
 import { Button } from '@components/ui/Button'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { Card } from '@components/ui/layout/Card'
@@ -20,9 +20,12 @@ import { AvatarEditor } from './AvatarEditor'
 import { DisplayNameForm } from './DisplayNameForm'
 
 const Stat = ({ label, value, sub }: { label: string; value: string; sub?: string }) => (
-  <Card className='flex flex-col gap-1'>
-    <span className='text-caption font-bold tracking-widest text-spot-300 uppercase'>{label}</span>
-    <span className='font-display text-h2 font-black text-gold-gradient tabular'>{value}</span>
+  <Card className='panel-chrome flex flex-col gap-1'>
+    <Statistic
+      title={<span className='eyebrow'>{label}</span>}
+      value={value}
+      valueRender={() => <span className='font-display text-h2 font-black text-gold-gradient tabular'>{value}</span>}
+    />
     {sub && <span className='text-body-sm text-mist'>{sub}</span>}
   </Card>
 )
@@ -47,8 +50,13 @@ export const ProfileView = () => {
   if (!isResolved) {
     return (
       <div className='grid gap-4 md:grid-cols-[18rem_1fr]'>
-        <Skeleton className='h-80' />
-        <Skeleton className='h-80' />
+        <Card className='flex flex-col items-center gap-4'>
+          <Skeleton.Avatar active size={112} />
+          <Skeleton active paragraph={{ rows: 3 }} title={false} />
+        </Card>
+        <Card>
+          <Skeleton active paragraph={{ rows: 6 }} />
+        </Card>
       </div>
     )
   }
@@ -88,7 +96,7 @@ export const ProfileView = () => {
         {Boolean(error) && <ErrorAlert error={error} onRetry={() => void getProfile()} />}
 
         <section aria-labelledby='stats-title' className='flex flex-col gap-3'>
-          <h2 id='stats-title' className='text-h3 font-bold text-gold-200'>
+          <h2 id='stats-title' className='text-h3 font-bold text-chrome'>
             {t('Profile.statsTitle')}
           </h2>
           {profile ? (
@@ -110,14 +118,16 @@ export const ProfileView = () => {
           ) : (
             <div className='grid gap-3 sm:grid-cols-2'>
               {[0, 1, 2, 3].map((index) => (
-                <Skeleton key={index} className='h-28' />
+                <Card key={index}>
+                  <Skeleton active title={false} paragraph={{ rows: 2 }} />
+                </Card>
               ))}
             </div>
           )}
         </section>
 
         <section aria-labelledby='badges-title' className='flex flex-col gap-3'>
-          <h2 id='badges-title' className='text-h3 font-bold text-gold-200'>
+          <h2 id='badges-title' className='text-h3 font-bold text-chrome'>
             <AppLink href={ROUTES.badges} className='hover:underline'>
               {t('Profile.badgesTitle')}
             </AppLink>
@@ -137,11 +147,11 @@ export const ProfileView = () => {
         </section>
 
         <section aria-labelledby='history-title' className='flex flex-col gap-3'>
-          <h2 id='history-title' className='text-h3 font-bold text-gold-200'>
+          <h2 id='history-title' className='text-h3 font-bold text-chrome'>
             {t('Profile.historyTitle')}
           </h2>
           {history?.recent.length ? (
-            <ul className='panel divide-y divide-spot-300/10'>
+            <ul className='panel divide-y divide-line-subtle'>
               {history.recent.map((game) => (
                 <li key={game.clientId} className='flex items-center justify-between gap-3 px-4 py-3'>
                   <span className='flex flex-col'>
@@ -153,7 +163,7 @@ export const ProfileView = () => {
               ))}
             </ul>
           ) : (
-            <p className='text-body-sm text-mist'>{t('Profile.noHistory')}</p>
+            <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description={<span className='text-mist'>{t('Profile.noHistory')}</span>} />
           )}
         </section>
       </div>

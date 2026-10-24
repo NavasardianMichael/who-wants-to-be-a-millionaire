@@ -2,6 +2,8 @@ import request from 'supertest'
 import { afterAll, describe, expect, it } from 'vitest'
 import { createUser, ORIGIN, prisma, sharp } from './helpers'
 import { createApp } from '../../server/src/app'
+import { MARATHON_RULES } from '../../server/src/lib/game'
+import { SWITCH_PREVIEW_MS } from '../../server/src/services/runRules'
 
 const app = createApp()
 
@@ -106,8 +108,26 @@ describe('phone a friend', () => {
 })
 
 describe('ranked runs', () => {
-  it('needs a session', async () => {
-    expect((await request(app).post('/runs').set('Origin', ORIGIN).send({ mode: 'marathon', locale: 'en' })).status).toBe(401)
+  it('lets a guest play, tied to its own cookie and kept off the leaderboard', async () => {
+    const guest = request.agent(app)
+    const start = await guest.post('/runs').set('Origin', ORIGIN).send({ mode: 'marathon', locale: 'en' })
+    expect(start.status).toBe(201)
+    const run = start.body.value
+    expect((await guest.get(`/runs/${run.id}`)).status).toBe(200)
+    // Another browser (no guest cookie) cannot see or play it.
+    expect((await request(app).get(`/runs/${run.id}`)).status).toBe(404)
+
+    const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+    expect(row.userId).toBeNull()
+    const question = await prisma.question.findUniqueOrThrow({ where: { id: row.currentQuestionId! } })
+    const shown = row.currentOrder.indexOf(question.correctIndex)
+    const answer = await guest.post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).send({ questionId: run.question.id, index: shown })
+    expect(answer.body.value.run.score).toBe(1)
+    // Finished with a score, yet still not on the board: there is no account to show.
+    await prisma.run.update({ where: { id: run.id }, data: { status: 'finished', finishedAt: new Date() } })
+
+    const board = await request(app).get('/leaderboards').query({ mode: 'marathon' })
+    expect(board.body.value.entries.every((entry: { userId: string | null }) => entry.userId !== null)).toBe(true)
   })
 
   it('referees a marathon end to end without ever sending the answer early', async () => {
@@ -151,6 +171,25 @@ describe('ranked runs', () => {
 
     const board = await request(app).get('/leaderboards').query({ mode: 'marathon', q: 'Runner' })
     expect(board.body.value.entries.some((entry: { userId: string; score: number }) => entry.userId === user.id && entry.score === 3)).toBe(true)
+  })
+
+  it('switches the question, revealing only the discarded answer, with the preview allowance', async () => {
+    const { cookie } = await createUser('Switcher')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'en' })
+    const run = start.body.value
+    const before = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+    const discarded = await prisma.question.findUniqueOrThrow({ where: { id: before.currentQuestionId! } })
+
+    const switched = await request(app).post(`/runs/${run.id}/lifeline`).set('Origin', ORIGIN).set('Cookie', cookie).send({ lifeline: 'switchQuestion' })
+    const value = switched.body.value
+    expect(value.switched.correctIndex).toBe(before.currentOrder.indexOf(discarded.correctIndex))
+    expect(value.run.question.id).not.toBe(discarded.id)
+    // The new question's answer is still secret.
+    expect(JSON.stringify(value.run)).not.toContain('correctIndex')
+
+    const deadlineMs = Date.parse(value.run.deadline) - Date.parse(value.run.serverNow)
+    expect(deadlineMs).toBeGreaterThan(MARATHON_RULES.questionSeconds * 1000)
+    expect(deadlineMs).toBeLessThanOrEqual(MARATHON_RULES.questionSeconds * 1000 + SWITCH_PREVIEW_MS)
   })
 
   it('refuses an answer that arrives after the deadline', async () => {
@@ -225,5 +264,20 @@ describe('avatar upload', () => {
       .set('Cookie', cookie)
       .attach('avatar', Buffer.from('#!/bin/sh\necho hi'), { filename: 'evil.png', contentType: 'image/png' })
     expect(response.status).toBe(400)
+  })
+})
+
+describe('contact', () => {
+  const message = { name: 'Ann', email: 'ann@example.com', message: 'Question 7 has two right answers.', locale: 'en', website: '' }
+
+  it('accepts a message (printed, not mailed, without a mail key) and validates it', async () => {
+    expect((await request(app).post('/contact').set('Origin', ORIGIN).send(message)).body).toEqual({ value: true, error: null })
+    expect((await request(app).post('/contact').set('Origin', ORIGIN).send({ ...message, email: 'nope' })).status).toBe(400)
+    expect((await request(app).post('/contact').set('Origin', ORIGIN).send({ ...message, message: '  ' })).status).toBe(400)
+  })
+
+  it('answers a filled honeypot with a success that sends nothing', async () => {
+    const response = await request(app).post('/contact').set('Origin', ORIGIN).send({ ...message, email: 'x', website: 'spam.example' })
+    expect(response.body.value).toBe(true)
   })
 })

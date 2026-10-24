@@ -1,6 +1,7 @@
 'use client'
 
 import type { ReactNode } from 'react'
+import { Tooltip } from 'antd'
 import { Phone, Repeat, Users } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { type Lifeline, LIFELINES } from '@constants/game'
@@ -40,28 +41,55 @@ export const LifelineBar = ({ allowed, used, busy, disabled, onUse, className }:
         const name = t(lifeline)
         return (
           <li key={lifeline}>
-            <button
-              type='button'
-              onClick={() => onUse(lifeline)}
-              disabled={disabled || isUsed || Boolean(busy)}
-              aria-label={isUsed ? t('used', { name }) : name}
+            <Tooltip
               title={isUsed ? t('used', { name }) : `${name} — ${t(`${lifeline}Description`)}`}
-              className={cn(
-                'relative flex h-12 w-[4.5rem] items-center justify-center rounded-[50%] border-2 transition-[transform,filter,opacity] duration-200 sm:h-14 sm:w-20',
-                'bg-[radial-gradient(ellipse_at_50%_30%,var(--color-studio-600),var(--color-studio-900))] text-ivory',
-                isUsed ? 'border-studio-600 opacity-60' : 'border-spot-300/70 shadow-glow-spot hover:-translate-y-0.5 hover:brightness-125',
-                isBusy && 'border-gold-300 text-gold-200 shadow-glow-gold',
-                disabled && !isUsed && 'opacity-70'
-              )}
+              mouseEnterDelay={0.3}
             >
-              {isBusy ? <Spinner size='sm' /> : ICONS[lifeline]}
-              {isUsed && (
-                <svg aria-hidden viewBox='0 0 80 56' className='absolute inset-0 size-full' preserveAspectRatio='none'>
-                  <line x1='14' y1='8' x2='66' y2='48' stroke='var(--color-wrong-500)' strokeWidth='5' strokeLinecap='round' />
-                  <line x1='66' y1='8' x2='14' y2='48' stroke='var(--color-wrong-500)' strokeWidth='5' strokeLinecap='round' />
-                </svg>
-              )}
-            </button>
+              <button
+                type='button'
+                onClick={() => onUse(lifeline)}
+                disabled={disabled || isUsed || Boolean(busy)}
+                aria-label={isUsed ? t('used', { name }) : name}
+                className={cn(
+                  'relative flex size-16 items-center justify-center rounded-full border-2 transition-[transform,filter,opacity] duration-200 sm:size-20',
+                  'bg-[radial-gradient(ellipse_at_50%_25%,var(--color-studio-400),var(--color-studio-700)_55%,var(--color-studio-900))] text-ivory',
+                  isUsed
+                    ? 'border-studio-600 opacity-60'
+                    : 'border-spot-300 shadow-glow-spot hover:-translate-y-0.5 hover:brightness-125',
+                  isBusy && 'border-gold-300 text-gold-200 shadow-glow-gold',
+                  disabled && !isUsed && 'opacity-70'
+                )}
+              >
+                {isBusy ? <Spinner size='sm' /> : ICONS[lifeline]}
+                {isUsed && (
+                  <svg
+                    aria-hidden
+                    viewBox='0 0 80 80'
+                    className='absolute inset-0 size-full'
+                    preserveAspectRatio='none'
+                  >
+                    <line
+                      x1='18'
+                      y1='18'
+                      x2='62'
+                      y2='62'
+                      stroke='var(--color-wrong-500)'
+                      strokeWidth='5'
+                      strokeLinecap='round'
+                    />
+                    <line
+                      x1='62'
+                      y1='18'
+                      x2='18'
+                      y2='62'
+                      stroke='var(--color-wrong-500)'
+                      strokeWidth='5'
+                      strokeLinecap='round'
+                    />
+                  </svg>
+                )}
+              </button>
+            </Tooltip>
           </li>
         )
       })}

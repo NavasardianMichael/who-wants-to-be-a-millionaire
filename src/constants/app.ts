@@ -1,3 +1,7 @@
+/**
+ * The English brand: the web manifest (one per site) and JSON-LD `alternateName`. Everything a
+ * visitor reads uses the translated `Common.appName`.
+ */
 export const APP_NAME = 'Millionaire Quiz'
 
 export const SITE_URL_FALLBACK = 'http://localhost:7006'
@@ -20,7 +24,8 @@ export const STORAGE_KEYS = {
   audio: 'millionaire:audio',
   seenQuestions: 'millionaire:seen-questions',
   classicBest: 'millionaire:classic-best',
-  practiceBests: 'millionaire:practice-bests',
+  /** The value keeps its first name so bests saved before the rename survive. */
+  personalBests: 'millionaire:practice-bests',
   badges: 'millionaire:badges',
   stats: 'millionaire:stats',
   pwaInstalledAt: 'millionaire:pwa-installed',

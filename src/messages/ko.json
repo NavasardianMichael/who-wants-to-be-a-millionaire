@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "백만장자 퀴즈",
+    "wordmarkTop": "백만장자",
+    "wordmarkBottom": "퀴즈",
     "tagline": "내 언어로 즐기는 퀴즈쇼 게임",
     "play": "플레이",
     "playNow": "지금 플레이",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Google로 계속하기",
     "signedInAs": "{name}(으)로 로그인됨",
     "you": "나",
+    "unsavedTitle": "이 페이지를 떠나시겠어요?",
+    "unsavedBody": "입력하신 내용이 저장되지 않았으며 사라질 거예요.",
+    "stay": "머무르기",
+    "leave": "떠나기",
     "share": "공유",
     "copied": "링크를 복사했어요",
     "comingBack": "또 만나요!",
@@ -57,22 +63,14 @@
     "about": "소개",
     "privacy": "개인정보",
     "terms": "이용약관",
+    "contact": "문의하기",
     "profile": "프로필",
     "settings": "설정"
   },
   "Home": {
-    "eyebrow": "50개 언어 · AI가 만든 문제 · 무료",
+    "eyebrow": "50개 언어 · 인공지능이 만든 문제 · 무료",
     "heroTitle": "누가 백만장자가 될까요?",
-    "heroSubtitle": "백만까지 남은 건 단 15문제. 상금 사다리를 오르고, 찬스를 현명하게 쓰고 — 언제 멈출지는 직접 결정하세요.",
-    "heroCta": "클래식 플레이",
-    "heroSecondaryCta": "마라톤 도전",
-    "statsQuestions": "매 게임 새로운 문제",
-    "statsLanguages": "언어",
-    "statsLifelines": "찬스",
     "modesTitle": "세 가지 플레이 방식",
-    "modesSubtitle": "정통 상금 도전, 끝없는 담력 시험, 아니면 시간과의 승부.",
-    "ladderTitle": "상금 사다리",
-    "ladderSubtitle": "정답을 맞힐 때마다 한 칸씩 올라가요. 5번과 10번 문제의 안전 지점을 넘으면 틀려도 그 상금은 보장돼요.",
     "lifelinesTitle": "찬스 4개, 각각 한 번씩",
     "lifelinesSubtitle": "막혔을 때 찬스 하나가 게임을 살릴 수 있어요. 아껴 쓰세요 — 가장 어려운 문제는 마지막에 나와요.",
     "howTitle": "게임 방법",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "전체 리더보드 보기",
     "emptyLeaderboard": "아직 랭킹 기록이 없어요 — 첫 번째 주인공이 되어 보세요!",
     "cultureTitle": "내 언어로 말하는 문제",
-    "cultureBody": "AI 출제자가 50개 언어 각각으로 새 문제를 직접 만들어요. 세계 상식에 여러분 문화의 역사, 문학, 지리, 전통을 섞어서요. 좋아하는 시인에 관한 문제가 다른 나라 시인 문제를 번역한 것일 리 없죠.",
+    "cultureBody": "인공지능 문제 출제기가 50개 언어 각각의 모국어로 신선한 문제들을 직접 만들어내며, 세계적인 지식과 여러분 문화의 역사, 문학, 지리, 전통을 결합합니다. 여러분이 좋아하는 시인에 관한 문제는 다른 사람의 문제에 대한 단순 번역이 아닐 거예요.",
     "offlineTitle": "어디서든, 오프라인에서도",
-    "offlineBody": "앱을 설치하고 원하는 언어의 문제 팩을 받아 두면 비행기나 지하철에서도 계속 즐길 수 있어요. 다시 온라인이 되면 점수가 동기화돼요.",
+    "offlineBody": "앱을 설치하고 비행기 안이나 지하철에서도 클래식 모드를 계속 즐겨보세요. 여러분 언어의 문제들이 기기에 자동으로 저장됩니다. 다시 온라인 상태가 되면 점수가 동기화돼요.",
     "badgesTitle": "배지 모으기",
     "badgesSubtitle": "안전 지점 통과, 백만 획득, 연속 플레이 유지 — 모을 수 있는 배지가 {count}개나 있어요.",
     "viewBadges": "모든 배지 보기",
     "categoriesTitle": "카테고리 둘러보기",
     "categoriesSubtitle": "역사와 과학부터 영화, 음식, 그리고 우리 지역 문화까지.",
     "faqTitle": "자주 묻는 질문",
-    "faq1Question": "Millionaire Quiz는 무료인가요?",
+    "faq1Question": "백만장자 퀴즈는 무료인가요?",
     "faq1Answer": "네. 모든 모드, 모든 언어, 모든 찬스가 무료이고, 클래식은 가입 없이 바로 할 수 있어요.",
     "faq2Question": "문제는 어디서 오나요?",
-    "faq2Answer": "AI 출제자가 여러분의 언어로 직접 만들고, 모든 문제는 게임에 나오기 전에 자동으로 검수돼요. 혹시 잘못된 문제가 있다면 한 번의 탭으로 신고할 수 있어요.",
+    "faq2Answer": "인공지능 문제 출제기가 사용자의 언어로 문제를 직접 생성하며, 모든 문제는 게임에 반영되기 전에 자동으로 검증됩니다. 혹시 이상한 점이 있다면 탭 한 번으로 신고할 수 있어요.",
     "faq3Question": "안전 지점은 어떻게 작동하나요?",
     "faq3Answer": "5번 문제를 맞히면 {havenOne}, 10번 문제를 맞히면 {havenTwo}이(가) 보장돼요. 이후 문제를 틀려도 마지막으로 통과한 안전 지점의 상금은 가지고 떠나요.",
     "faq4Question": "오프라인으로도 할 수 있나요?",
-    "faq4Answer": "네. 앱을 설치하고 설정에서 50개 언어 중 원하는 문제 팩을 다운로드하세요. 오프라인 게임은 저장되었다가 다시 연결되면 동기화돼요.",
+    "faq4Answer": "네, 클래식 모드는 오프라인에서도 작동합니다. 사용자의 언어로 된 문제가 기기에 자동으로 저장되며, 오프라인 플레이 기록은 다시 연결될 때 동기화됩니다. 마라톤과 타임 어택은 인터넷 연결이 필요해요.",
     "faq5Question": "리더보드에 오르려면 어떻게 하나요?",
     "faq5Answer": "Google로 로그인한 뒤 랭킹전 마라톤이나 타임 어택을 플레이하세요. 모든 답은 서버에서 확인하기 때문에 리더보드는 공정하게 유지돼요.",
     "faq6Question": "공식 TV 프로그램 게임인가요?",
-    "faq6Answer": "아니요. Millionaire Quiz는 클래식 퀴즈쇼 포맷에서 영감을 받아 팬이 만든 독립 게임이에요."
+    "faq6Answer": "아니요. 백만장자 퀴즈는 클래식 퀴즈 쇼 형식에서 영감을 받아 만든 독립적인 팬 제작 게임입니다."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "마라톤",
       "tagline": "한 번 틀리면 끝",
       "description": "정답 5개마다 더 어려워지는 끝없는 문제 행진. 클래식 찬스 4개를 각각 한 번씩 쓸 수 있지만 — 단 한 번의 오답으로 도전이 끝나요.",
-      "rules": "문제당 {seconds}초. 정답 5개마다 레벨이 올라가요. 오답 한 번이나 시간 초과로 도전이 끝나요."
+      "rules": "문제당 {minutes, plural, one {#분} other {#분}}. 정답 5개마다 레벨이 올라갑니다. 오답을 내거나 시간이 초과되면 게임이 끝나죠."
     },
     "timeAttack": {
       "name": "타임 어택",
@@ -130,18 +128,12 @@
       "description": "시간이 끝나기 전에 최대한 많은 문제를 맞히세요. 틀려도 끝나진 않지만 — 5초가 깎여요.",
       "rules": "제한 시간 {seconds}초. 오답마다 {penalty}초 감점. 찬스는 없어요 — 오직 스피드!"
     },
-    "ranked": "랭킹전",
-    "practice": "연습",
-    "rankedHint": "랭킹전 기록은 글로벌 리더보드에 반영돼요.",
-    "practiceHint": "연습 게임은 내 설정을 사용하며 랭킹에 반영되지 않아요.",
-    "signInForRanked": "Google로 로그인하고 랭킹전에 참여해 리더보드에 이름을 올려 보세요.",
-    "offlineUnranked": "오프라인 상태라 이번 게임은 연습으로 진행돼요.",
-    "customSettingsUnranked": "사용자 설정을 적용하면 연습 게임이 돼요."
+    "rankedHint": "모든 플레이 기록이 글로벌 순위에 반영됩니다.",
+    "guestHint": "게스트로 플레이 중: 게임은 공정하게 진행되지만, 로그인한 플레이어만 순위표에 나타납니다.",
+    "needsConnection": "이 모드는 인터넷 연결이 필요합니다. 모든 게임이 실시간으로 판정되거든요. 클래식 모드는 오프라인으로 플레이할 수 있어요."
   },
   "Game": {
     "startGame": "게임 시작",
-    "startRanked": "랭킹전 시작",
-    "startPractice": "연습 시작",
     "loading": "스튜디오 조명이 켜지는 중…",
     "loadingQuestion": "다음 문제를 출제하는 중…",
     "playingFor": "이번 문제 상금",
@@ -163,6 +155,12 @@
     "timeUp": "시간 초과!",
     "theAnswerWas": "정답은 {letter}번: {text}",
     "didYouKnow": "알고 계셨나요?",
+    "switchPrompt": "문제를 바꾸기 전에 — 뭐라고 대답하셨을 것 같나요?",
+    "switchPromptHint": "그냥 재미로 보는 거니 결과에는 영향을 주지 않아요.",
+    "switchSkip": "건너뛰고 바로 바꾸기",
+    "switchWouldBeRight": "맞췄을 텐데요!",
+    "switchWouldBeWrong": "바꾸길 정말 잘했네요!",
+    "switchComing": "새로운 문제가 나옵니다…",
     "walkAway": "그만두기",
     "walkAwayTitle": "상금을 받고 그만둘까요?",
     "walkAwayBody": "지금 그만두면 {amount}을(를) 가지고 떠나요.",
@@ -179,8 +177,8 @@
     "safeHavenReached": "안전 지점 통과! {amount} 확보!",
     "levelUp": "레벨 {level} — 문제가 더 어려워져요",
     "penalty": "−{seconds}초",
-    "fallbackNotice": "AI 출제자가 잠시 쉬는 중이라, 이번 게임은 영어 예비 문제로 진행돼요.",
-    "packNotice": "다운로드한 문제 팩으로 플레이 중이에요.",
+    "fallbackNotice": "문제 출제자가 잠시 쉬는 중이라, 이 게임은 영어 예비 문제를 사용해요.",
+    "packNotice": "오프라인 상태입니다 — 기기에 저장된 문제로 플레이 중이에요.",
     "keyboardHint": "키보드: A–D 선택, Enter 확정, L 상금 사다리, M 소리.",
     "report": "오류 신고",
     "reportTitle": "이 문제에 오류가 있나요?",
@@ -205,11 +203,12 @@
     "personalBest": "개인 최고 기록 경신!",
     "rank": "리더보드 #{rank}위",
     "newBadges": "{count, plural, other {새 배지 #개 획득!}}",
-    "shareText": "Millionaire Quiz에서 {amount}을(를) 땄어요! 날 이길 수 있어요?",
-    "shareScoreText": "Millionaire Quiz {mode}에서 {score}점을 기록했어요! 날 이길 수 있어요?",
+    "shareText": "백만장자 퀴즈에서 {amount}을(를) 획득했어요! 저를 이길 수 있으신가요?",
+    "shareScoreText": "백만장자 퀴즈 {mode}에서 {score}점을 기록했어요! 저를 이길 수 있으신가요?",
     "backHome": "홈으로",
     "viewLeaderboard": "리더보드 보기",
-    "signInToSave": "로그인하면 모든 기기에서 점수와 배지를 유지할 수 있어요."
+    "signInToSave": "로그인하면 모든 기기에서 점수와 배지를 유지할 수 있어요.",
+    "signInToRank": "로그인하고 이런 기록을 순위표에 올려보세요."
   },
   "Lifelines": {
     "title": "찬스",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "설정",
-    "subtitle": "소리, 오프라인 팩, 기본 게임 설정.",
+    "subtitle": "사운드, 언어 및 클래식 게임 설정입니다.",
     "gameTitle": "게임 설정",
+    "gameHint": "클래식 게임에 적용됩니다. 마라톤과 타임 어택은 순위가 집계되며 항상 표준 규칙을 사용해요.",
+    "customised": "사용자 지정 설정으로 플레이 중입니다.",
+    "change": "변경",
     "categories": "카테고리",
     "allCategories": "모든 카테고리",
     "categoriesHint": "하나 이상 고르거나, 모두 끄면 전체 카테고리에서 출제돼요.",
@@ -256,16 +258,6 @@
     "soundTitle": "소리",
     "sound": "효과음과 음악",
     "volume": "음량",
-    "packsTitle": "오프라인 문제 팩",
-    "packsSubtitle": "인터넷 없이 플레이하고 싶은 언어의 문제를 다운로드하세요. 팩 하나는 약 100KB예요.",
-    "packCount": "{count, plural, other {#문제}}",
-    "packDownload": "다운로드",
-    "packDownloading": "다운로드 중…",
-    "packUpdate": "업데이트",
-    "packRemove": "삭제",
-    "packDownloaded": "다운로드됨",
-    "packError": "팩을 다운로드하지 못했어요. 연결 상태를 확인하고 다시 시도해 주세요.",
-    "autoDownload": "내 언어 팩 자동 다운로드",
     "installTitle": "앱 설치",
     "installBody": "홈 화면에서 한 번에 열고, 전체 화면과 오프라인으로 즐기세요.",
     "accountTitle": "계정"
@@ -375,26 +367,86 @@
     "earnedOn": "{date} 획득",
     "unlocked": "배지 획득",
     "items": {
-      "firstSteps": { "name": "첫걸음", "description": "첫 문제를 맞히세요." },
-      "safeHaven": { "name": "안전 지대", "description": "클래식에서 첫 번째 안전 지점(5번 문제)에 도달하세요." },
-      "halfWay": { "name": "반환점", "description": "클래식에서 두 번째 안전 지점(10번 문제)에 도달하세요." },
-      "millionaire": { "name": "백만장자", "description": "클래식 15문제를 모두 맞히고 백만을 차지하세요." },
-      "purist": { "name": "순수 실력파", "description": "찬스를 하나도 쓰지 않고 백만을 차지하세요." },
-      "smartExit": { "name": "현명한 퇴장", "description": "12번 문제 이후에 상금을 들고 그만두세요." },
-      "quickThinker": { "name": "번개 두뇌", "description": "각각 3초 안에 정답을 10번 맞히세요." },
-      "marathon10": { "name": "마라토너", "description": "랭킹전 마라톤에서 10문제 연속 정답." },
-      "marathon25": { "name": "장거리 주자", "description": "랭킹전 마라톤에서 25문제 연속 정답." },
-      "marathon50": { "name": "강철 멘탈", "description": "랭킹전 마라톤에서 50문제 연속 정답." },
-      "marathon100": { "name": "전설", "description": "랭킹전 마라톤에서 100문제 연속 정답." },
-      "timeAttack15": { "name": "스피드스터", "description": "랭킹전 타임 어택에서 15점 달성." },
-      "timeAttack30": { "name": "번개", "description": "랭킹전 타임 어택에서 30점 달성." },
-      "polyglot3": { "name": "다국어 능력자", "description": "서로 다른 3개 언어로 플레이하세요." },
-      "polyglot10": { "name": "세계 여행가", "description": "서로 다른 10개 언어로 플레이하세요." },
-      "streak3": { "name": "상승세", "description": "3일 연속 플레이하세요." },
-      "streak7": { "name": "열혈 플레이어", "description": "7일 연속 플레이하세요." },
-      "offlineHero": { "name": "오프라인 영웅", "description": "오프라인 상태에서 게임을 끝까지 마치세요." },
-      "savedByAFriend": { "name": "친구 덕분에", "description": "친구의 조언을 따라 정답을 맞히세요." },
-      "categoryMaster": { "name": "카테고리 마스터", "description": "한 카테고리에서 25문제를 맞히세요." }
+      "firstSteps": {
+        "name": "첫걸음",
+        "description": "첫 문제를 맞히세요."
+      },
+      "safeHaven": {
+        "name": "안전 지대",
+        "description": "클래식에서 첫 번째 안전 지점(5번 문제)에 도달하세요."
+      },
+      "halfWay": {
+        "name": "반환점",
+        "description": "클래식에서 두 번째 안전 지점(10번 문제)에 도달하세요."
+      },
+      "millionaire": {
+        "name": "백만장자",
+        "description": "클래식 15문제를 모두 맞히고 백만을 차지하세요."
+      },
+      "purist": {
+        "name": "순수 실력파",
+        "description": "찬스를 하나도 쓰지 않고 백만을 차지하세요."
+      },
+      "smartExit": {
+        "name": "현명한 퇴장",
+        "description": "12번 문제 이후에 상금을 들고 그만두세요."
+      },
+      "quickThinker": {
+        "name": "번개 두뇌",
+        "description": "각각 3초 안에 정답을 10번 맞히세요."
+      },
+      "marathon10": {
+        "name": "마라토너",
+        "description": "랭킹전 마라톤에서 10문제 연속 정답."
+      },
+      "marathon25": {
+        "name": "장거리 주자",
+        "description": "랭킹전 마라톤에서 25문제 연속 정답."
+      },
+      "marathon50": {
+        "name": "강철 멘탈",
+        "description": "랭킹전 마라톤에서 50문제 연속 정답."
+      },
+      "marathon100": {
+        "name": "전설",
+        "description": "랭킹전 마라톤에서 100문제 연속 정답."
+      },
+      "timeAttack15": {
+        "name": "스피드스터",
+        "description": "랭킹전 타임 어택에서 15점 달성."
+      },
+      "timeAttack30": {
+        "name": "번개",
+        "description": "랭킹전 타임 어택에서 30점 달성."
+      },
+      "polyglot3": {
+        "name": "다국어 능력자",
+        "description": "서로 다른 3개 언어로 플레이하세요."
+      },
+      "polyglot10": {
+        "name": "세계 여행가",
+        "description": "서로 다른 10개 언어로 플레이하세요."
+      },
+      "streak3": {
+        "name": "상승세",
+        "description": "3일 연속 플레이하세요."
+      },
+      "streak7": {
+        "name": "열혈 플레이어",
+        "description": "7일 연속 플레이하세요."
+      },
+      "offlineHero": {
+        "name": "오프라인 영웅",
+        "description": "오프라인 상태에서 게임을 끝까지 마치세요."
+      },
+      "savedByAFriend": {
+        "name": "친구 덕분에",
+        "description": "친구의 조언을 따라 정답을 맞히세요."
+      },
+      "categoryMaster": {
+        "name": "카테고리 마스터",
+        "description": "한 카테고리에서 25문제를 맞히세요."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "찬스",
     "lifelinesBody": "찬스는 4개이고, 각각 게임당 한 번씩 쓸 수 있어요:",
     "marathonTitle": "마라톤",
-    "marathonBody": "끝없는 도전이에요. 정답 5개마다 문제가 어려워지고, 찬스 4개를 각각 한 번씩 쓸 수 있으며, 문제당 {seconds}초가 주어져요. 오답 한 번이나 시간 초과로 도전이 끝나고, 점수는 맞힌 문제 수예요.",
+    "marathonBody": "끝없는 도전. 정답을 5개 맞힐 때마다 문제가 더 어려워지고, 4가지 힌트를 각각 한 번씩 쓸 수 있으며, 문제당 {minutes, plural, one {#분} other {#분}}의 시간이 주어집니다. 오답을 내거나 시간이 초과되면 게임이 끝나며, 맞힌 문제 수가 점수가 됩니다.",
     "timeAttackTitle": "타임 어택",
     "timeAttackBody": "{seconds}초 안에 최대한 많은 문제를 맞히세요. 틀려도 끝나진 않지만 시계에서 {penalty}초가 깎여요. 찬스는 없어요.",
     "rankedTitle": "랭킹전과 공정성",
-    "rankedBody": "랭킹전 마라톤과 타임 어택은 서버가 심판을 맡아요. 답하기 전에는 정답이 절대 기기로 전송되지 않고, 시간도 서버에서 측정해요. 랭킹전을 하려면 Google로 로그인하세요. 사용자 설정을 쓰거나 오프라인으로 한 게임은 연습으로 처리돼요.",
+    "rankedBody": "마라톤과 타임 어택 기록은 항상 저희 서버에서 판정합니다. 정답은 답을 제출하기 전에는 기기에 절대 도달하지 않으며 타이머도 서버에서 관리되죠. 누구나 플레이할 수 있으며, Google로 로그인하면 순위표에 점수를 올릴 수 있어요.",
     "questionsTitle": "문제에 대해",
-    "questionsBody": "문제는 AI 출제자가 각 언어로 직접 작성하고 자동으로 검수해요. 약 40%는 여러분의 언어를 쓰는 지역의 문화에 관한 문제예요. 문제가 잘못된 것 같다면 정답 공개 후 “오류 신고”를 눌러 주세요."
+    "questionsBody": "문제는 인공지능 문제 출제기가 각 언어의 모국어로 직접 작성하고 자동으로 검증합니다. 약 40%는 여러분의 언어가 사용되는 문화에 관한 내용이에요. 문제가 잘못된 것 같다면 정답이 공개된 후 “문제 신고”를 사용해 주세요."
   },
   "About": {
-    "title": "Millionaire Quiz 소개",
-    "intro": "Millionaire Quiz는 클래식 TV 포맷에서 영감을 받아 팬이 만든 무료 퀴즈 게임으로, 웹과 휴대폰, 그리고 50개 언어에 맞춰 새롭게 만들었어요.",
+    "title": "백만장자 퀴즈 소개",
+    "intro": "백만장자 퀴즈는 클래식 텔레비전 퀴즈 쇼 형식에서 영감을 받아 웹과 스마트폰 환경, 그리고 50개 언어로 새롭게 재구축한 무료 팬 제작 퀴즈 게임입니다.",
     "missionTitle": "만든 이유",
     "missionBody": "대부분의 퀴즈 게임은 영어로 만들어진 뒤 번역돼요. 저희는 퀴즈가 고향처럼 느껴져야 한다고 생각해요. 넓은 세상에 대한 문제뿐 아니라, 함께 자라 온 사람, 장소, 책, 전통에 관한 문제여야 하죠.",
     "howTitle": "문제는 이렇게 만들어져요",
     "howBody": "대규모 언어 모델이 엄격한 규칙에 따라 모든 문제를 여러분의 언어로 직접, 묶음 단위로 작성해요. 명확한 정답 하나, 그럴듯한 보기 넷, 변하지 않는 사실만. 문제는 자동으로 검증·저장된 뒤 플레이어에게 제공되고, 누구나 오류를 신고할 수 있어요.",
     "techTitle": "기술 이야기",
-    "techBody": "Millionaire Quiz는 프로그레시브 웹 앱이에요. 휴대폰이나 컴퓨터에 설치할 수 있고, 다운로드한 문제 팩으로 오프라인에서도 작동하며, 다시 연결되면 진행 상황을 동기화해요.",
+    "techBody": "백만장자 퀴즈는 프로그레시브 웹 앱(PWA)입니다. 휴대폰이나 컴퓨터에 설치할 수 있고, 자동으로 저장되는 문제들로 오프라인에서도 작동하며, 다시 연결되면 진행 상황을 동기화합니다.",
     "creditTitle": "만든 사람",
     "creditBody": "기획 및 개발: {author}",
-    "disclaimer": "Millionaire Quiz는 어떤 TV 프로그램, 방송사, 권리 보유자와도 제휴·보증·관련 관계가 없습니다."
+    "disclaimer": "백만장자 퀴즈는 어떠한 텔레비전 프로그램, 방송사 또는 권리자와도 제휴, 보증 또는 연관되어 있지 않습니다."
   },
   "Legal": {
     "privacyTitle": "개인정보 처리방침",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "이용자의 권리",
     "privacyRightsBody": "표시 이름과 사진은 언제든 바꿀 수 있고, 제작자에게 연락해 계정과 관련 데이터 전체의 삭제를 요청할 수 있어요.",
     "termsTitle": "이용약관",
-    "termsIntro": "Millionaire Quiz를 플레이하면 다음의 간단한 약관에 동의하는 것으로 간주돼요.",
+    "termsIntro": "백만장자 퀴즈를 플레이함으로써 이 간단한 약관에 동의하게 됩니다.",
     "termsPlayTitle": "페어플레이",
     "termsPlayBody": "랭킹전은 정직하게 플레이해 주세요. 자동화된 플레이, 버그 악용, 리더보드 조작은 기록 삭제로 이어질 수 있어요.",
     "termsContentTitle": "문제와 정확성",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "앱 설치",
-    "installTitle": "Millionaire Quiz 설치",
+    "installTitle": "백만장자 퀴즈 설치",
     "benefit": "홈 화면에서 한 번에 열고, 전체 화면과 오프라인으로 즐기세요.",
     "iosTitle": "iPhone 또는 iPad에 설치",
     "iosStep1": "Safari 도구 막대에서 공유 버튼을 탭하세요.",
@@ -464,9 +516,34 @@
     "iosStep3": "“추가”를 탭하면 홈 화면에 앱이 나타나요.",
     "gotIt": "알겠어요"
   },
+  "Contact": {
+    "title": "문의하기",
+    "subtitle": "실수를 발견하셨거나 아이디어가 있으신가요, 혹은 도움이 필요하신가요? 메시지를 남겨주세요. 모든 메시지를 꼼꼼히 읽고 있습니다.",
+    "name": "이름",
+    "nameRequired": "이름을 입력해 주세요.",
+    "email": "이메일",
+    "emailRequired": "답변을 받을 수 있도록 이메일을 입력해 주세요.",
+    "emailInvalid": "이메일 주소가 올바르지 않은 것 같아요.",
+    "message": "메시지",
+    "messageRequired": "메시지를 작성해 주세요.",
+    "messagePlaceholder": "어떻게 도와드릴까요?",
+    "send": "메시지 보내기",
+    "error": "메시지를 보내지 못했습니다. 잠시 후 다시 시도해 주세요.",
+    "sentTitle": "메시지가 전송되었습니다!",
+    "sentBody": "문의해 주셔서 감사합니다. 알려주신 이메일 주소로 답변해 드릴게요.",
+    "sendAnother": "다른 메시지 보내기"
+  },
   "Auth": {
     "signedIn": "환영해요, {name}님!",
     "signedOut": "로그아웃했어요.",
+    "signInTitle": "로그인",
+    "signInSubtitle": "Google 계정으로 간편하게 로그인하면 모든 기기에서 진행 상황이 유지됩니다.",
+    "benefitRanked": "마라톤과 타임 어택 점수를 글로벌 순위표에 올려보세요",
+    "benefitLeaderboard": "다른 플레이어들에게 보일 이름과 사진을 선택하세요",
+    "benefitSync": "클래식 최고 기록, 게임 기록, 배지를 모든 기기에서 유지하세요",
+    "privacyNote": "Google 계정의 이름, 이메일 주소, 사진만 사용합니다.",
+    "unavailable": "현재 로그인 기능을 사용할 수 없습니다. 클래식 모드는 계속 플레이하실 수 있으며 진행 상황은 이 기기에 저장됩니다.",
+    "alreadySignedIn": "{name}님으로 로그인되어 있습니다.",
     "errors": {
       "google_unavailable": "지금은 Google 로그인을 사용할 수 없어요.",
       "google_denied": "로그인이 취소되었어요.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "백만장자 퀴즈, 퀴즈 게임, 상식 퀴즈, 퀴즈쇼 게임, 무료 퀴즈, 온라인 퀴즈, 일반 상식, millionaire quiz",
-    "homeTitle": "Millionaire Quiz — 누가 백만장자가 될까요? 무료 온라인 퀴즈",
+    "homeTitle": "백만장자 퀴즈 — 퀴즈 쇼의 주인공이 되어 무료로 온라인에서 즐겨보세요",
     "homeDescription": "50개 언어로 즐기는 무료 퀴즈쇼 게임. 백만까지 15문제, 찬스 4개, 안전 지점, 그리고 글로벌 리더보드가 있는 무한 마라톤과 타임 어택 모드.",
     "playTitle": "클래식 백만장자 퀴즈 — 백만까지 15문제",
     "playDescription": "{first}부터 {top}까지 상금 사다리를 올라가세요: 15문제, 안전 지점 2곳, 찬스 4개. 무료, 가입 불필요, 내 언어로.",
@@ -509,16 +586,20 @@
     "badgesTitle": "배지 — 모두 모아 보세요",
     "badgesDescription": "클래식, 마라톤, 타임 어택에서 얻을 수 있는 20개의 배지: 백만 획득, 연속 플레이, 여러 언어로 플레이.",
     "rulesTitle": "게임 방법 — 규칙, 상금 사다리, 찬스",
-    "rulesDescription": "Millionaire Quiz의 전체 규칙: 상금 사다리, 안전 지점, 그만두기, 찬스 4개, 마라톤과 타임 어택.",
-    "aboutTitle": "Millionaire Quiz 소개",
-    "aboutDescription": "클래식 TV 퀴즈 포맷에서 영감을 받아 팬이 만든 무료 퀴즈 게임. 50개 언어로 AI가 문제를 만들어요.",
+    "rulesDescription": "상금 단계, 안전지대, 기권, 네 가지 힌트, 마라톤 및 타임 어택 등 백만장자 퀴즈의 전체 규칙을 확인하세요.",
+    "aboutTitle": "백만장자 퀴즈 소개",
+    "aboutDescription": "클래식 TV 퀴즈 쇼 형식에서 영감을 받아 50개 언어로 인공지능이 문제를 출제하는 무료 팬 제작 퀴즈 게임입니다.",
     "privacyTitle": "개인정보 처리방침",
-    "privacyDescription": "Millionaire Quiz가 무엇을, 왜 저장하는지, 그리고 삭제하는 방법.",
+    "privacyDescription": "백만장자 퀴즈가 저장하는 정보, 그 이유 및 삭제 방법에 대한 안내입니다.",
     "termsTitle": "이용약관",
-    "termsDescription": "Millionaire Quiz를 공정하게 즐기기 위한 간단한 규칙.",
+    "termsDescription": "백만장자 퀴즈를 공정하게 즐기기 위한 간단한 규칙입니다.",
     "profileTitle": "내 프로필",
     "profileDescription": "내 점수, 순위, 배지.",
     "settingsTitle": "설정",
-    "settingsDescription": "소리, 오프라인 문제 팩, 기본 게임 설정."
+    "contactTitle": "문의하기",
+    "contactDescription": "질문, 아이디어 또는 문제의 오류가 있나요? 백만장자 퀴즈 팀에 메시지를 보내주세요.",
+    "signInTitle": "로그인",
+    "signInDescription": "Google로 로그인하여 점수를 순위표에 올리고 모든 기기에서 진행 상황을 유지하세요.",
+    "settingsDescription": "사운드, 언어 및 클래식 게임 설정입니다."
   }
 }

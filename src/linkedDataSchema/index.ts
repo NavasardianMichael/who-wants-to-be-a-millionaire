@@ -1,7 +1,8 @@
-import type { BreadcrumbList, FAQPage, ItemList, VideoGame, WebSite, WithContext } from 'schema-dts'
+import type { BreadcrumbList, ContactPage, FAQPage, ItemList, VideoGame, WebSite, WithContext } from 'schema-dts'
 import type { Locale } from '@i18n/config'
 import { localePath } from '@i18n/pathname'
 import { APP_NAME, AUTHOR } from '@constants/app'
+import { ROUTES } from '@constants/routes'
 import { absoluteUrl } from '@helpers/url'
 
 /**
@@ -9,10 +10,12 @@ import { absoluteUrl } from '@helpers/url'
  * Typed with `schema-dts`, so a misspelt property is a compile error rather than a silently
  * ignored field.
  */
-export const websiteSchema = (locale: Locale, description: string): WithContext<WebSite> => ({
+/** `name` is the brand in the page's language; the English brand is the `alternateName`. */
+export const websiteSchema = (locale: Locale, name: string, description: string): WithContext<WebSite> => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: APP_NAME,
+  name,
+  ...(name !== APP_NAME ? { alternateName: APP_NAME } : {}),
   url: absoluteUrl(localePath(locale, '/')),
   inLanguage: locale,
   description,
@@ -34,6 +37,16 @@ export const gameSchema = (locale: Locale, name: string, description: string, pa
   isAccessibleForFree: true,
   offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
   author: { '@type': 'Person', name: AUTHOR.name, url: AUTHOR.url },
+})
+
+/** `ContactPage` tells a crawler this is the site's contact route, not one more `WebPage`. */
+export const contactPageSchema = (locale: Locale, name: string, description: string): WithContext<ContactPage> => ({
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name,
+  description,
+  url: absoluteUrl(localePath(locale, ROUTES.contact)),
+  inLanguage: locale,
 })
 
 export const faqSchema = (items: { question: string; answer: string }[]): WithContext<FAQPage> => ({

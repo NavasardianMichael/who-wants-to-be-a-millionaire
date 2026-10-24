@@ -58,7 +58,7 @@ export const OPTION_LETTERS = ['A', 'B', 'C', 'D'] as const
 
 export const MARATHON_RULES = {
   /** Seconds per question in a ranked run. */
-  questionSeconds: 30,
+  questionSeconds: 120,
   /** The level rises by one every this many correct answers, up to 5. */
   levelUpEvery: 5,
   lifelines: LIFELINES,

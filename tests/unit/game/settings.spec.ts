@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { levelForCorrectCount, STAGE_LEVELS } from '@constants/game'
-import { classicLevel, classicSeconds, DEFAULT_SETTINGS, isDefaultSettings, practiceLevel, sanitizeSettings } from '@helpers/game/settings'
+import { classicLevel, classicSeconds, DEFAULT_SETTINGS, isDefaultSettings, sanitizeSettings } from '@helpers/game/settings'
 
 describe('levels', () => {
   it('maps the 15 classic stages onto 5 levels, three each', () => {
@@ -17,7 +17,6 @@ describe('levels', () => {
 
   it('raises the marathon level every five correct answers, capped at 5', () => {
     expect([0, 4, 5, 9, 10, 19, 20, 99].map((count) => levelForCorrectCount(count, 5))).toEqual([1, 1, 2, 2, 3, 4, 5, 5])
-    expect(practiceLevel('marathon', 0, 'hard')).toBe(2)
   })
 })
 
@@ -33,7 +32,7 @@ describe('timer', () => {
 })
 
 describe('settings', () => {
-  it('recognises the untouched defaults (the only ones that can be ranked)', () => {
+  it('recognises the untouched defaults', () => {
     expect(isDefaultSettings(DEFAULT_SETTINGS)).toBe(true)
     expect(isDefaultSettings({ ...DEFAULT_SETTINGS, difficulty: 'hard' })).toBe(false)
     expect(isDefaultSettings({ ...DEFAULT_SETTINGS, categories: ['history'] })).toBe(false)

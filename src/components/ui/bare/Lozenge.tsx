@@ -48,11 +48,13 @@ export type LozengeProps = {
   wire?: boolean
   className?: string
   fillClassName?: string
+  /** For per-instance animation timing (a staggered `animationDelay`). */
+  style?: CSSProperties
   children: ReactNode
 }
 
-export const Lozenge = ({ tone = 'idle', wire, className, fillClassName, children }: LozengeProps) => (
-  <div className={cn('relative', className)}>
+export const Lozenge = ({ tone = 'idle', wire, className, fillClassName, style, children }: LozengeProps) => (
+  <div className={cn('relative', className)} style={style}>
     {wire && <span aria-hidden className='lozenge-wire' />}
     <div className='lozenge h-full' style={TONES[tone]}>
       <div className={cn('lozenge-fill flex items-center', fillClassName)}>{children}</div>

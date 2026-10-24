@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Mchezo wa Milionea",
+    "wordmarkTop": "Mchezo wa",
+    "wordmarkBottom": "Milionea",
     "tagline": "Mchezo wa chemsha bongo kwa lugha yako",
     "play": "Cheza",
     "playNow": "Cheza sasa",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Endelea na Google",
     "signedInAs": "Umeingia kama {name}",
     "you": "Wewe",
+    "unsavedTitle": "Unataka kuacha ukurasa huu?",
+    "unsavedBody": "Ulichoandika hapa hakijahifadhiwa na kitapotea.",
+    "stay": "Baki",
+    "leave": "Ondoka",
     "share": "Shiriki",
     "copied": "Kiungo kimenakiliwa",
     "comingBack": "Tuonane hivi karibuni!",
@@ -57,22 +63,14 @@
     "about": "Kuhusu",
     "privacy": "Faragha",
     "terms": "Masharti",
+    "contact": "Wasiliana nasi",
     "profile": "Wasifu",
     "settings": "Mipangilio"
   },
   "Home": {
-    "eyebrow": "Lugha 50 · maswali yaliyoandikwa na AI · bure",
+    "eyebrow": "lugha 50 · maswali yaliyoandikwa na akili bandia · bure",
     "heroTitle": "Nani anataka kuwa milionea?",
-    "heroSubtitle": "Maswali kumi na tano tu yanakutenganisha na milioni. Panda ngazi ya pesa, tumia misaada yako kwa busara — na uamue wakati wa kuondoka.",
-    "heroCta": "Cheza Kawaida",
-    "heroSecondaryCta": "Jaribu Marathoni",
-    "statsQuestions": "Maswali mapya kila mchezo",
-    "statsLanguages": "Lugha",
-    "statsLifelines": "Misaada",
     "modesTitle": "Njia tatu za kucheza",
-    "modesSubtitle": "Upandaji wa kawaida, jaribio la ujasiri lisilo na mwisho, au mbio dhidi ya saa.",
-    "ladderTitle": "Ngazi ya pesa",
-    "ladderSubtitle": "Kila jibu sahihi linakupandisha hatua moja. Viwango salama kwenye swali la 5 na swali la 10 vinalinda ushindi wako hata ukikosea baadaye.",
     "lifelinesTitle": "Misaada minne, kila mmoja mara moja",
     "lifelinesSubtitle": "Ukikwama, msaada unaweza kuokoa mchezo wako. Itumie kwa busara — maswali magumu zaidi yanakuja mwishoni.",
     "howTitle": "Jinsi ya kucheza",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Tazama ubao kamili wa washindi",
     "emptyLeaderboard": "Bado hakuna mizunguko ya ushindani — kuwa wa kwanza!",
     "cultureTitle": "Maswali yanayozungumza lugha yako",
-    "cultureBody": "Mwandishi wetu wa maswali wa AI anatunga maswali mapya moja kwa moja katika kila moja ya lugha 50, akichanganya maarifa ya dunia na historia, fasihi, jiografia na mila za utamaduni wako. Swali kuhusu mshairi unayempenda halitakuwa tafsiri ya swali kuhusu mtu mwingine.",
+    "cultureBody": "Mwandishi wetu wa maswali wa akili bandia huunda maswali mapya moja kwa moja katika kila lugha kati ya 50, akichanganya maarifa ya dunia na historia, fasihi, jiografia na mila za utamaduni wako. Swali kuhusu mshairi wako unayempenda halitakuwa tafsiri ya swali la mtu mwingine.",
     "offlineTitle": "Cheza popote, hata bila mtandao",
-    "offlineBody": "Sakinisha programu, pakua vifurushi vya maswali kwa lugha unazotaka, na uendelee kucheza ukiwa kwenye ndege au basi. Alama zako zitasawazishwa ukirudi mtandaoni.",
+    "offlineBody": "Sakinisha programu na uendelee kucheza Hali ya Kawaida kwenye ndege au kwenye treni ya chini ya ardhi: maswali ya lugha yako yanahifadhiwa kwenye kifaa chako kiotomatiki. Alama zako zitasawazishwa utakapokuwa mtandaoni tena.",
     "badgesTitle": "Kusanya beji",
     "badgesSubtitle": "Fikia viwango salama, shinda milioni, dumisha mfululizo — kuna beji {count} za kupata.",
     "viewBadges": "Tazama beji zote",
     "categoriesTitle": "Gundua kategoria",
     "categoriesSubtitle": "Kuanzia historia na sayansi hadi filamu, vyakula na utamaduni wako wa nyumbani.",
     "faqTitle": "Maswali yanayoulizwa mara kwa mara",
-    "faq1Question": "Je, Millionaire Quiz ni bure?",
+    "faq1Question": "Je, Mchezo wa Milionea ni wa bure?",
     "faq1Answer": "Ndiyo. Kila hali ya mchezo, kila lugha na kila msaada ni bure, na huhitaji kujisajili ili kucheza Kawaida.",
     "faq2Question": "Maswali yanatoka wapi?",
-    "faq2Answer": "Mwandishi wa maswali wa AI anayatunga moja kwa moja kwa lugha yako, na kila swali hukaguliwa kiotomatiki kabla ya kufika kwenye mchezo. Kosa likipenya, unaweza kuliripoti kwa mguso mmoja.",
+    "faq2Answer": "Mwandishi wa maswali wa akili bandia huunda maswali haya moja kwa moja katika lugha yako, na kila swali hukaguliwa kiotomatiki kabla halijafika kwenye mchezo. Kitu kikipenya kimakosa, unaweza kuripoti kwa kugusa mara moja.",
     "faq3Question": "Viwango salama vinafanyaje kazi?",
     "faq3Answer": "Ukijibu swali la 5 kwa usahihi unahakikishiwa {havenOne}, na swali la 10 linakuhakikishia {havenTwo}. Ukikosea swali la baadaye, bado unaondoka na kiwango salama cha mwisho ulichokipita.",
     "faq4Question": "Naweza kucheza bila mtandao?",
-    "faq4Answer": "Ndiyo. Sakinisha programu na upakue vifurushi vya maswali kwa lugha yoyote kati ya 50 kwenye mipangilio. Michezo ya nje ya mtandao huhifadhiwa na kusawazishwa ukiunganishwa tena.",
+    "faq4Answer": "Ndiyo — Hali ya Kawaida inafanya kazi bila intaneti. Maswali ya lugha yako yanahifadhiwa kwenye kifaa chako kiotomatiki, na michezo ya nje ya mtandao husawazishwa ukijumuishwa tena. Marathoni na Shambulizi la Muda zinahitaji mtandao.",
     "faq5Question": "Nitaingiaje kwenye ubao wa washindi?",
     "faq5Answer": "Ingia kwa Google na ucheze mzunguko wa ushindani wa Marathoni au Mbio za Muda. Kila jibu hukaguliwa na seva yetu, hivyo ubao wa washindi unabaki wa haki.",
     "faq6Question": "Je, huu ni mchezo rasmi wa kipindi cha TV?",
-    "faq6Answer": "Hapana. Millionaire Quiz ni mchezo huru uliotengenezwa na mashabiki, ukihamasishwa na muundo wa kipindi cha chemsha bongo cha zamani."
+    "faq6Answer": "Hapana. Mchezo wa Milionea ni mchezo huru uliotengenezwa na mashabiki ukiongozwa na muundo wa kipindi cha maswali cha kitamaduni."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Marathoni",
       "tagline": "Kosa moja tu, imekwisha",
       "description": "Mfululizo usio na mwisho wa maswali unaozidi kuwa mgumu kila baada ya majibu 5 sahihi. Una misaada minne ya kawaida, kila mmoja mara moja — na jibu moja lisilo sahihi linamaliza mzunguko.",
-      "rules": "Sekunde {seconds} kwa kila swali. Kiwango kinapanda kila baada ya majibu 5 sahihi. Jibu moja lisilo sahihi au muda ukiisha, mzunguko unakwisha."
+      "rules": "{minutes, plural, one {# dakika} other {# dakika}} kwa kila swali. Kiwango kinapanda kila baada ya majibu 5 sahihi. Jibu moja lisilo sahihi au kuisha kwa muda kunamaliza mchezo."
     },
     "timeAttack": {
       "name": "Mbio za Muda",
@@ -130,18 +128,12 @@
       "description": "Jibu maswali mengi kadiri uwezavyo kabla saa haijaisha. Jibu lisilo sahihi halimalizi mzunguko — lakini linakugharimu sekunde 5.",
       "rules": "Sekunde {seconds} kwenye saa. Kila jibu lisilo sahihi linakugharimu sekunde {penalty}. Hakuna misaada — ni kasi tu."
     },
-    "ranked": "Ushindani",
-    "practice": "Mazoezi",
-    "rankedHint": "Mizunguko ya ushindani inahesabiwa kwenye ubao wa washindi wa dunia.",
-    "practiceHint": "Mizunguko ya mazoezi inatumia mipangilio yako mwenyewe na haiorodheshwi.",
-    "signInForRanked": "Ingia kwa Google ili ucheze kwa ushindani na ujiunge na ubao wa washindi.",
-    "offlineUnranked": "Uko nje ya mtandao, kwa hiyo mzunguko huu utakuwa wa mazoezi.",
-    "customSettingsUnranked": "Mipangilio maalum inaufanya mzunguko huu kuwa wa mazoezi."
+    "rankedHint": "Kila mchezo unahesabiwa kwenye ubao wa viongozi wa kimataifa.",
+    "guestHint": "Unacheza kama mgeni: mchezo wako unachezwa kwa sheria zilezile, lakini wachezaji walioingia kwenye akaunti pekee ndio wanaoonekana kwenye ubao wa viongozi.",
+    "needsConnection": "Hali hii inahitaji mtandao: kila mchezo unadhibitiwa moja kwa moja. Hali ya Kawaida inachezwa bila intaneti."
   },
   "Game": {
     "startGame": "Anza mchezo",
-    "startRanked": "Anza mzunguko wa ushindani",
-    "startPractice": "Anza mazoezi",
     "loading": "Taa za studio zinawaka…",
     "loadingQuestion": "Tunaandika swali lako lijalo…",
     "playingFor": "Unachezea",
@@ -163,6 +155,12 @@
     "timeUp": "Muda umekwisha!",
     "theAnswerWas": "Jibu lilikuwa {letter}: {text}",
     "didYouKnow": "Je, wajua?",
+    "switchPrompt": "Kabla hatujabadilisha — ungejibu nini?",
+    "switchPromptHint": "Kwa ajili ya burudani tu: haitahesabiwa kwa namna yoyote.",
+    "switchSkip": "Ruka, badilisha tu",
+    "switchWouldBeRight": "Ungepatia!",
+    "switchWouldBeWrong": "Afadhali ulibadilisha!",
+    "switchComing": "Hili hapa swali lako jipya…",
     "walkAway": "Ondoka",
     "walkAwayTitle": "Uchukue pesa?",
     "walkAwayBody": "Ukiondoka sasa, unaenda nyumbani na {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Kiwango {level} — maswali yanazidi kuwa magumu",
     "penalty": "−{seconds}s",
     "fallbackNotice": "Mwandishi wetu wa maswali amepumzika, kwa hiyo mchezo huu unatumia maswali ya akiba ya Kiingereza.",
-    "packNotice": "Unacheza kwa kifurushi cha maswali ulichopakua.",
+    "packNotice": "uko nje ya mtandao — unacheza na maswali yaliyohifadhiwa kwenye kifaa chako.",
     "keyboardHint": "Kibodi: A–D kuchagua, Enter kuthibitisha, L kwa ngazi, M kwa sauti.",
     "report": "Ripoti kosa",
     "reportTitle": "Kuna tatizo na swali hili?",
@@ -205,11 +203,12 @@
     "personalBest": "Rekodi mpya binafsi!",
     "rank": "Nafasi #{rank} kwenye ubao wa washindi",
     "newBadges": "{count, plural, one {Beji mpya imefunguliwa!} other {Beji # mpya zimefunguliwa!}}",
-    "shareText": "Nimeshinda {amount} kwenye Millionaire Quiz! Unaweza kunishinda?",
-    "shareScoreText": "Nimepata alama {score} kwenye {mode} katika Millionaire Quiz! Unaweza kunishinda?",
+    "shareText": "Nimeshinda {amount} kwenye Mchezo wa Milionea! Unaweza kunishinda?",
+    "shareScoreText": "Nimepata alama {score} katika {mode} kwenye Mchezo wa Milionea! Unaweza kunishinda?",
     "backHome": "Rudi nyumbani",
     "viewLeaderboard": "Tazama ubao wa washindi",
-    "signInToSave": "Ingia ili alama na beji zako zibaki kwenye kila kifaa."
+    "signInToSave": "Ingia ili alama na beji zako zibaki kwenye kila kifaa.",
+    "signInToRank": "Ingia ili kuweka michezo kama hii kwenye ubao wa viongozi."
   },
   "Lifelines": {
     "title": "Misaada",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Mipangilio",
-    "subtitle": "Sauti, vifurushi vya nje ya mtandao na mipangilio yako ya msingi ya mchezo.",
+    "subtitle": "Sauti, lugha na mipangilio yako ya Hali ya Kawaida.",
     "gameTitle": "Mipangilio ya mchezo",
+    "gameHint": "Hizi zinatumika kwenye michezo ya Hali ya Kawaida. Marathoni na Shambulizi la Muda zimeorodheshwa na daima hutumia sheria za kawaida.",
+    "customised": "Unacheza na mipangilio yako maalum.",
+    "change": "Badilisha",
     "categories": "Kategoria",
     "allCategories": "Kategoria zote",
     "categoriesHint": "Chagua moja au zaidi, au usichague yoyote ili kupata kategoria zote.",
@@ -256,16 +258,6 @@
     "soundTitle": "Sauti",
     "sound": "Madoido ya sauti na muziki",
     "volume": "Kiwango cha sauti",
-    "packsTitle": "Vifurushi vya maswali vya nje ya mtandao",
-    "packsSubtitle": "Pakua maswali kwa lugha unazotaka kucheza bila mtandao. Kila kifurushi ni takriban KB 100.",
-    "packCount": "{count, plural, one {swali #} other {maswali #}}",
-    "packDownload": "Pakua",
-    "packDownloading": "Inapakua…",
-    "packUpdate": "Sasisha",
-    "packRemove": "Ondoa",
-    "packDownloaded": "Imepakuliwa",
-    "packError": "Kifurushi hakikuweza kupakuliwa. Angalia muunganisho wako kisha ujaribu tena.",
-    "autoDownload": "Pakua kifurushi cha lugha yangu kiotomatiki",
     "installTitle": "Sakinisha programu",
     "installBody": "Cheza skrini nzima na bila mtandao, kwa mguso mmoja kutoka skrini yako ya mwanzo.",
     "accountTitle": "Akaunti"
@@ -375,26 +367,86 @@
     "earnedOn": "Ilipatikana {date}",
     "unlocked": "Beji imefunguliwa",
     "items": {
-      "firstSteps": { "name": "Hatua za Kwanza", "description": "Jibu swali lako la kwanza kwa usahihi." },
-      "safeHaven": { "name": "Kiwango Salama", "description": "Fikia kiwango salama cha kwanza kwenye Kawaida (swali la 5)." },
-      "halfWay": { "name": "Nusu ya Safari", "description": "Fikia kiwango salama cha pili kwenye Kawaida (swali la 10)." },
-      "millionaire": { "name": "Milionea", "description": "Jibu maswali yote 15 ya Kawaida na ushinde milioni." },
-      "purist": { "name": "Safi Kabisa", "description": "Shinda milioni bila kutumia msaada hata mmoja." },
-      "smartExit": { "name": "Kuondoka kwa Busara", "description": "Ondoka na ushindi wako kwenye swali la 12 au baadaye." },
-      "quickThinker": { "name": "Akili Nyepesi", "description": "Toa majibu 10 sahihi, kila moja chini ya sekunde 3." },
-      "marathon10": { "name": "Mkimbiaji wa Marathoni", "description": "Jibu maswali 10 mfululizo kwenye Marathoni ya ushindani." },
-      "marathon25": { "name": "Mbio Ndefu", "description": "Jibu maswali 25 mfululizo kwenye Marathoni ya ushindani." },
-      "marathon50": { "name": "Akili ya Chuma", "description": "Jibu maswali 50 mfululizo kwenye Marathoni ya ushindani." },
-      "marathon100": { "name": "Gwiji", "description": "Jibu maswali 100 mfululizo kwenye Marathoni ya ushindani." },
-      "timeAttack15": { "name": "Mwepesi", "description": "Pata alama 15 kwenye Mbio za Muda za ushindani." },
-      "timeAttack30": { "name": "Radi", "description": "Pata alama 30 kwenye Mbio za Muda za ushindani." },
-      "polyglot3": { "name": "Mjuzi wa Lugha", "description": "Cheza kwa lugha 3 tofauti." },
-      "polyglot10": { "name": "Msafiri wa Dunia", "description": "Cheza kwa lugha 10 tofauti." },
-      "streak3": { "name": "Moto Unawaka", "description": "Cheza siku 3 mfululizo." },
-      "streak7": { "name": "Mwaminifu", "description": "Cheza siku 7 mfululizo." },
-      "offlineHero": { "name": "Nje ya Mtandao", "description": "Maliza mchezo ukiwa nje ya mtandao." },
-      "savedByAFriend": { "name": "Ameokolewa na Rafiki", "description": "Fuata ushauri wa rafiki yako na upate jibu sahihi." },
-      "categoryMaster": { "name": "Bingwa wa Kategoria", "description": "Jibu maswali 25 kwa usahihi katika kategoria moja." }
+      "firstSteps": {
+        "name": "Hatua za Kwanza",
+        "description": "Jibu swali lako la kwanza kwa usahihi."
+      },
+      "safeHaven": {
+        "name": "Kiwango Salama",
+        "description": "Fikia kiwango salama cha kwanza kwenye Kawaida (swali la 5)."
+      },
+      "halfWay": {
+        "name": "Nusu ya Safari",
+        "description": "Fikia kiwango salama cha pili kwenye Kawaida (swali la 10)."
+      },
+      "millionaire": {
+        "name": "Milionea",
+        "description": "Jibu maswali yote 15 ya Kawaida na ushinde milioni."
+      },
+      "purist": {
+        "name": "Safi Kabisa",
+        "description": "Shinda milioni bila kutumia msaada hata mmoja."
+      },
+      "smartExit": {
+        "name": "Kuondoka kwa Busara",
+        "description": "Ondoka na ushindi wako kwenye swali la 12 au baadaye."
+      },
+      "quickThinker": {
+        "name": "Akili Nyepesi",
+        "description": "Toa majibu 10 sahihi, kila moja chini ya sekunde 3."
+      },
+      "marathon10": {
+        "name": "Mkimbiaji wa Marathoni",
+        "description": "Jibu maswali 10 mfululizo kwenye Marathoni ya ushindani."
+      },
+      "marathon25": {
+        "name": "Mbio Ndefu",
+        "description": "Jibu maswali 25 mfululizo kwenye Marathoni ya ushindani."
+      },
+      "marathon50": {
+        "name": "Akili ya Chuma",
+        "description": "Jibu maswali 50 mfululizo kwenye Marathoni ya ushindani."
+      },
+      "marathon100": {
+        "name": "Gwiji",
+        "description": "Jibu maswali 100 mfululizo kwenye Marathoni ya ushindani."
+      },
+      "timeAttack15": {
+        "name": "Mwepesi",
+        "description": "Pata alama 15 kwenye Mbio za Muda za ushindani."
+      },
+      "timeAttack30": {
+        "name": "Radi",
+        "description": "Pata alama 30 kwenye Mbio za Muda za ushindani."
+      },
+      "polyglot3": {
+        "name": "Mjuzi wa Lugha",
+        "description": "Cheza kwa lugha 3 tofauti."
+      },
+      "polyglot10": {
+        "name": "Msafiri wa Dunia",
+        "description": "Cheza kwa lugha 10 tofauti."
+      },
+      "streak3": {
+        "name": "Moto Unawaka",
+        "description": "Cheza siku 3 mfululizo."
+      },
+      "streak7": {
+        "name": "Mwaminifu",
+        "description": "Cheza siku 7 mfululizo."
+      },
+      "offlineHero": {
+        "name": "Nje ya Mtandao",
+        "description": "Maliza mchezo ukiwa nje ya mtandao."
+      },
+      "savedByAFriend": {
+        "name": "Ameokolewa na Rafiki",
+        "description": "Fuata ushauri wa rafiki yako na upate jibu sahihi."
+      },
+      "categoryMaster": {
+        "name": "Bingwa wa Kategoria",
+        "description": "Jibu maswali 25 kwa usahihi katika kategoria moja."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Misaada",
     "lifelinesBody": "Una misaada minne, na kila mmoja unaweza kutumika mara moja kwa kila mchezo:",
     "marathonTitle": "Marathoni",
-    "marathonBody": "Mzunguko usio na mwisho. Maswali yanazidi kuwa magumu kila baada ya majibu matano sahihi, una misaada minne kila mmoja mara moja, na unapata sekunde {seconds} kwa kila swali. Jibu moja lisilo sahihi au muda ukiisha, mzunguko unakwisha, na alama yako ni idadi ya majibu sahihi.",
+    "marathonBody": "Mchezo usio na kikomo. Maswali yanakuwa magumu zaidi kila baada ya majibu matano sahihi, una msaada wa mara nne kila mmoja, na unapata {minutes, plural, one {# dakika} other {# dakika}} kwa kila swali. Jibu moja lisilo sahihi au kuisha kwa muda kunamaliza mchezo, na alama zako ni idadi ya majibu sahihi.",
     "timeAttackTitle": "Mbio za Muda",
     "timeAttackBody": "Una sekunde {seconds} kujibu maswali mengi kadiri uwezavyo. Jibu lisilo sahihi halimalizi mzunguko, lakini linapunguza sekunde {penalty} kwenye saa. Hakuna misaada.",
     "rankedTitle": "Mchezo wa ushindani na haki",
-    "rankedBody": "Mizunguko ya ushindani ya Marathoni na Mbio za Muda inasimamiwa na seva yetu: jibu sahihi halifiki kwenye kifaa chako kabla hujajibu, na saa inaendeshwa kwenye seva. Ingia kwa Google ili ucheze kwa ushindani. Mizunguko yenye mipangilio maalum au iliyochezwa nje ya mtandao ni ya mazoezi.",
+    "rankedBody": "Michezo ya Marathoni na Shambulizi la Muda husimamiwa kila wakati na seva yetu: jibu sahihi haliwahi kufika kwenye kifaa chako kabla hujajibu, na saa huwekwa kwenye seva. Mtu yeyote anaweza kucheza; ingia ukitumia Google ili kuweka alama zako kwenye ubao wa viongozi.",
     "questionsTitle": "Kuhusu maswali",
-    "questionsBody": "Maswali yanaandikwa na mwandishi wa maswali wa AI moja kwa moja kwa kila lugha na kukaguliwa kiotomatiki. Takriban 40% yanahusu utamaduni wa mahali lugha yako inapozungumzwa. Swali likionekana kuwa na kosa, tumia “Ripoti kosa” baada ya jibu kufichuliwa."
+    "questionsBody": "Maswali yanaandikwa na mwandishi wa maswali wa akili bandia moja kwa moja katika kila lugha na kukaguliwa kiotomatiki. Takriban 40% yanahusu utamaduni wa mahali ambapo lugha yako inazungumzwa. Swali likionekana si sahihi, tumia “Ripoti kosa” baada ya jibu kufichuliwa."
   },
   "About": {
-    "title": "Kuhusu Millionaire Quiz",
-    "intro": "Millionaire Quiz ni mchezo wa bure wa chemsha bongo uliotengenezwa na mashabiki, ukihamasishwa na muundo wa televisheni wa zamani — umejengwa upya kwa ajili ya wavuti, simu na lugha 50.",
+    "title": "Kuhusu Mchezo wa Milionea",
+    "intro": "Mchezo wa Milionea ni mchezo wa maswali wa bure uliotengenezwa na mashabiki ukiongozwa na muundo wa televisheni wa kitamaduni — umejengwa upya kwa ajili ya wavuti, simu, na kwa lugha 50.",
     "missionTitle": "Kwa nini tuliutengeneza",
     "missionBody": "Michezo mingi ya chemsha bongo huandikwa kwa Kiingereza kisha kutafsiriwa. Tunaamini chemsha bongo inapaswa kuhisi kama nyumbani: maswali yanapaswa kuhusu watu, maeneo, vitabu na mila ulizokulia nazo, pamoja na dunia pana.",
     "howTitle": "Jinsi maswali yanavyotengenezwa",
     "howBody": "Modeli kubwa ya lugha inaandika kila swali moja kwa moja kwa lugha yako, kwa makundi, ikifuata sheria kali: jibu moja lililo wazi kuwa sahihi, chaguo nne zinazoaminika, na ukweli thabiti tu. Maswali yanathibitishwa kiotomatiki, yanahifadhiwa na kupelekwa kwa wachezaji; mchezaji yeyote anaweza kuripoti kosa.",
     "techTitle": "Nyuma ya pazia",
-    "techBody": "Millionaire Quiz ni programu ya wavuti inayoendelea (PWA): inasakinishwa kwenye simu au kompyuta yako, inafanya kazi bila mtandao kwa vifurushi vya maswali vinavyopakuliwa, na inasawazisha maendeleo yako ukiunganishwa tena.",
+    "techBody": "Mchezo wa Milionea ni programu ya wavuti inayoendelea: inajisakinisha kwenye simu au kompyuta yako, inafanya kazi bila intaneti na maswali yaliyohifadhiwa kiotomatiki, na inasawazisha maendeleo yako ukijumuishwa tena mtandaoni.",
     "creditTitle": "Shukrani",
     "creditBody": "Imebuniwa na kutengenezwa na {author}.",
-    "disclaimer": "Millionaire Quiz haihusiani na, haijaidhinishwa na, wala haina uhusiano wowote na kipindi chochote cha televisheni, kituo cha utangazaji au mmiliki wa haki."
+    "disclaimer": "Mchezo wa Milionea hauhusiani na, haukubaliwi na wala haujaunganishwa na kipindi chochote cha televisheni, kituo cha utangazaji au mwenye haki."
   },
   "Legal": {
     "privacyTitle": "Sera ya faragha",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Haki zako",
     "privacyRightsBody": "Unaweza kubadilisha jina lako la kuonyesha na picha wakati wowote, na unaweza kutuomba tufute akaunti yako na data zote zinazohusiana kwa kuwasiliana na mwandishi.",
     "termsTitle": "Masharti ya matumizi",
-    "termsIntro": "Kwa kucheza Millionaire Quiz unakubali masharti haya rahisi.",
+    "termsIntro": "Kwa kucheza Mchezo wa Milionea unakubaliana na masharti haya rahisi.",
     "termsPlayTitle": "Mchezo wa haki",
     "termsPlayBody": "Cheza mizunguko ya ushindani kwa uaminifu. Kucheza kiotomatiki, kutumia vibaya hitilafu au kuingilia ubao wa washindi kunaweza kusababisha mizunguko yako kuondolewa.",
     "termsContentTitle": "Maswali na usahihi",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Sakinisha programu",
-    "installTitle": "Sakinisha Millionaire Quiz",
+    "installTitle": "Sakinisha Mchezo wa Milionea",
     "benefit": "Cheza skrini nzima na bila mtandao, kwa mguso mmoja kutoka skrini yako ya mwanzo.",
     "iosTitle": "Sakinisha kwenye iPhone au iPad",
     "iosStep1": "Gusa kitufe cha Kushiriki kwenye upau wa zana wa Safari.",
@@ -464,9 +516,34 @@
     "iosStep3": "Gusa “Ongeza” — programu itaonekana kwenye skrini yako ya mwanzo.",
     "gotIt": "Nimeelewa"
   },
+  "Contact": {
+    "title": "Wasiliana nasi",
+    "subtitle": "Umepata kosa, una wazo, au unahitaji msaada? Tuandikie — tunasoma kila ujumbe.",
+    "name": "Jina lako",
+    "nameRequired": "Tafadhali ingiza jina lako.",
+    "email": "Barua pepe",
+    "emailRequired": "Tafadhali ingiza barua pepe yako ili tuweze kukujibu.",
+    "emailInvalid": "Anwani hiyo ya barua pepe haionekani kuwa sahihi.",
+    "message": "Ujumbe",
+    "messageRequired": "Tafadhali andika ujumbe.",
+    "messagePlaceholder": "Tunawezaje kukusaidia?",
+    "send": "Tuma ujumbe",
+    "error": "Ujumbe wako haukuweza kutumwa. Tafadhali jaribu tena baada ya muda mchache.",
+    "sentTitle": "Ujumbe umetumwa!",
+    "sentBody": "Asante kwa kuandika. Tutajibu kupitia barua pepe uliyotupa.",
+    "sendAnother": "Tuma ujumbe mwingine"
+  },
   "Auth": {
     "signedIn": "Karibu, {name}!",
     "signedOut": "Umetoka.",
+    "signInTitle": "Ingia",
+    "signInSubtitle": "Kwa kugusa mara moja na Google, maendeleo yako yanakufuata kwenye kila kifaa.",
+    "benefitRanked": "Weka alama zako za Marathoni na Shambulizi la Muda kwenye ubao wa viongozi wa kimataifa",
+    "benefitLeaderboard": "Chagua jina na picha inayoonwa na wachezaji wengine",
+    "benefitSync": "Weka alama zako bora za Hali ya Kawaida, historia ya mchezo na beji kila mahali",
+    "privacyNote": "Tunatumia jina lako, anwani ya barua pepe na picha kutoka Google pekee.",
+    "unavailable": "Kuingia hakupatikani sasa hivi. Bado unaweza kucheza Hali ya Kawaida — maendeleo yako yamehifadhiwa kwenye kifaa hiki.",
+    "alreadySignedIn": "Umeingia kama {name}.",
     "errors": {
       "google_unavailable": "Kuingia kwa Google hakupatikani kwa sasa.",
       "google_denied": "Kuingia kumeghairiwa.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "chemsha bongo milionea, mchezo wa chemsha bongo, maswali ya maarifa, mchezo wa nani anataka kuwa milionea, chemsha bongo bure, chemsha bongo mtandaoni, maarifa ya jumla",
-    "homeTitle": "Millionaire Quiz — Nani Anataka Kuwa Milionea? Cheza bure mtandaoni",
+    "homeTitle": "Mchezo wa Milionea — Nani Anataka Kuwa Milionea? Cheza bure mtandaoni",
     "homeDescription": "Cheza mchezo wa kipindi cha chemsha bongo bure kwa lugha 50. Maswali 15 hadi milioni, misaada minne, viwango salama, pamoja na Marathoni isiyo na mwisho na Mbio za Muda zenye ubao wa washindi wa dunia.",
     "playTitle": "Chemsha bongo ya Milionea ya Kawaida — maswali 15 hadi milioni",
     "playDescription": "Panda ngazi ya pesa kuanzia {first} hadi {top}: maswali kumi na tano, viwango salama viwili, misaada minne. Bure, bila kujisajili, kwa lugha yako.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Beji — zikusanye zote",
     "badgesDescription": "Beji ishirini za kupata katika Kawaida, Marathoni na Mbio za Muda: shinda milioni, dumisha mfululizo, cheza kwa lugha nyingi.",
     "rulesTitle": "Jinsi ya kucheza — sheria, ngazi ya pesa na misaada",
-    "rulesDescription": "Sheria kamili za Millionaire Quiz: ngazi ya pesa, viwango salama, kuondoka, misaada minne, Marathoni na Mbio za Muda.",
-    "aboutTitle": "Kuhusu Millionaire Quiz",
-    "aboutDescription": "Mchezo wa bure wa chemsha bongo uliotengenezwa na mashabiki wenye maswali yaliyoandikwa na AI kwa lugha 50, ukihamasishwa na muundo wa kipindi cha TV cha zamani.",
+    "rulesDescription": "Sheria kamili za Mchezo wa Milionea: ngazi ya fedha, maeneo salama, kujiondoa, misaada minne, Marathoni na Shambulizi la Muda.",
+    "aboutTitle": "Kuhusu Mchezo wa Milionea",
+    "aboutDescription": "Mchezo wa bure wa maswali uliotengenezwa na mashabiki wenye maswali yaliyoandikwa na akili bandia katika lugha 50, ukiongozwa na muundo wa kipindi cha maswali cha TV cha kitamaduni.",
     "privacyTitle": "Sera ya faragha",
-    "privacyDescription": "Millionaire Quiz inahifadhi nini, kwa nini, na jinsi ya kukifuta.",
+    "privacyDescription": "Kile kinachohifadhiwa na Mchezo wa Milionea, kwa nini, na jinsi ya kukifuta.",
     "termsTitle": "Masharti ya matumizi",
-    "termsDescription": "Sheria rahisi za kucheza Millionaire Quiz kwa haki.",
+    "termsDescription": "Sheria rahisi za kucheza Mchezo wa Milionea kwa haki.",
     "profileTitle": "Wasifu wako",
     "profileDescription": "Alama, nafasi na beji zako.",
     "settingsTitle": "Mipangilio",
-    "settingsDescription": "Sauti, vifurushi vya maswali vya nje ya mtandao na mipangilio ya msingi ya mchezo."
+    "contactTitle": "Wasiliana nasi",
+    "contactDescription": "Maswali, mawazo au kosa kwenye swali? Tumia ujumbe kwa timu ya Mchezo wa Milionea.",
+    "signInTitle": "Ingia",
+    "signInDescription": "Ingia na Google ili kuweka alama zako kwenye ubao wa viongozi na kuweka maendeleo yako kwenye kila kifaa.",
+    "settingsDescription": "Sauti, lugha na mipangilio ya mchezo wa Hali ya Kawaida."
   }
 }

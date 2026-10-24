@@ -47,8 +47,8 @@ export const balanced = (message) => {
   return depth === 0
 }
 
+/** Values every language keeps verbatim. The game's name is translated (Common.appName). */
 const PRESERVED = [
-  ['Common.appName', 'Millionaire Quiz'],
   ['Lifelines.fiftyFifty', '50:50'],
   ['Lifelines.fiftyFiftyName', '50:50'],
 ]

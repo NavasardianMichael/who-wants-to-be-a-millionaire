@@ -13,8 +13,10 @@ export const ROUTES = {
   about: '/about',
   privacy: '/privacy',
   terms: '/terms',
+  contact: '/contact',
   profile: '/profile',
   settings: '/settings',
+  signIn: '/sign-in',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -32,6 +34,7 @@ export const INDEXABLE_ROUTES: readonly RouteKey[] = [
   'about',
   'privacy',
   'terms',
+  'contact',
 ]
 
 /** URL slugs for the category landing pages (`/categories/film-tv`). */

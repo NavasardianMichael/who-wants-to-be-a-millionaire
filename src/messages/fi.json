@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Miljonäärivisa",
+    "wordmarkTop": "Miljonääri",
+    "wordmarkBottom": "visa",
     "tagline": "Visailupeli omalla kielelläsi",
     "play": "Pelaa",
     "playNow": "Pelaa nyt",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Jatka Googlella",
     "signedInAs": "Kirjautuneena: {name}",
     "you": "Sinä",
+    "unsavedTitle": "Poistutaanko sivulta?",
+    "unsavedBody": "Kirjoittamiasi tietoja ei ole tallennettu, ja ne katoavat.",
+    "stay": "Jää",
+    "leave": "Poistu",
     "share": "Jaa",
     "copied": "Linkki kopioitu",
     "comingBack": "Nähdään pian!",
@@ -57,22 +63,14 @@
     "about": "Tietoa",
     "privacy": "Tietosuoja",
     "terms": "Käyttöehdot",
+    "contact": "Ota yhteyttä",
     "profile": "Profiili",
     "settings": "Asetukset"
   },
   "Home": {
-    "eyebrow": "50 kieltä · tekoälyn kirjoittamat kysymykset · ilmainen",
+    "eyebrow": "50 kieltä · tekoälyn kirjoittamia kysymyksiä · ilmainen",
     "heroTitle": "Haluatko miljonääriksi?",
-    "heroSubtitle": "Vain viisitoista kysymystä erottaa sinut miljoonasta. Kiipeä voittoportaita, käytä oljenkortesi viisaasti – ja päätä itse, milloin lopetat.",
-    "heroCta": "Pelaa Klassikkoa",
-    "heroSecondaryCta": "Kokeile Maratonia",
-    "statsQuestions": "Uudet kysymykset joka pelissä",
-    "statsLanguages": "Kieltä",
-    "statsLifelines": "Oljenkortta",
     "modesTitle": "Kolme tapaa pelata",
-    "modesSubtitle": "Klassinen nousu huipulle, loputon hermojen koetus tai kilpajuoksu kelloa vastaan.",
-    "ladderTitle": "Voittoportaat",
-    "ladderSubtitle": "Jokainen oikea vastaus nostaa sinut askelman ylemmäs. Kysymysten 5 ja 10 turvatasot takaavat voittosi, vaikka putoaisit.",
     "lifelinesTitle": "Neljä oljenkortta, kukin kerran",
     "lifelinesSubtitle": "Kun olet pulassa, oljenkorsi voi pelastaa pelisi. Käytä niitä viisaasti – vaikeimmat kysymykset tulevat lopussa.",
     "howTitle": "Näin pelaat",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Näytä koko tulostaulu",
     "emptyLeaderboard": "Ei vielä kilpapelejä – ole ensimmäinen!",
     "cultureTitle": "Kysymyksiä sinun kielelläsi",
-    "cultureBody": "Tekoälykysymysten kirjoittajamme laatii uusia kysymyksiä suoraan jokaisella 50 kielellä ja yhdistää yleistietoon oman kulttuurisi historiaa, kirjallisuutta, maantietoa ja perinteitä. Lempirunoilijaasi koskeva kysymys ei ole käännös jostakusta toisesta tehdystä kysymyksestä.",
+    "cultureBody": "Tekoälyyn perustuva kysymysten laatijamme luo uusia kysymyksiä luontevasti 50 eri kielellä yhdistäen yleistietoa oman kulttuurisi historiaan, kirjallisuuteen, maantietoon ja perinteisiin. Kysymys lempirunoilijastasi ei siis ole käännös jonkun toisen maan runoilijasta.",
     "offlineTitle": "Pelaa missä vain, myös ilman verkkoa",
-    "offlineBody": "Asenna sovellus, lataa haluamiesi kielten kysymyspaketit ja pelaa vaikka lentokoneessa tai metrossa. Pisteesi synkronoidaan, kun olet taas verkossa.",
+    "offlineBody": "Asenna sovellus ja jatka Klassikon pelaamista lentokoneessa tai metrossa: omakieliset kysymykset tallennetaan laitteellesi automaattisesti. Tuloksesi synkronoidaan, kun palaat verkkoon.",
     "badgesTitle": "Kerää merkkejä",
     "badgesSubtitle": "Saavuta turvatasot, voita miljoona, pidä putki käynnissä – ansaittavia merkkejä on {count}.",
     "viewBadges": "Näytä kaikki merkit",
     "categoriesTitle": "Tutustu kategorioihin",
     "categoriesSubtitle": "Historiasta ja tieteestä elokuviin, ruokaan ja omaan paikalliskulttuuriisi.",
     "faqTitle": "Usein kysyttyä",
-    "faq1Question": "Onko Millionaire Quiz ilmainen?",
+    "faq1Question": "Onko Miljonäärivisa ilmainen?",
     "faq1Answer": "On. Kaikki pelimuodot, kielet ja oljenkorret ovat ilmaisia, eikä Klassikko vaadi rekisteröitymistä.",
     "faq2Question": "Mistä kysymykset tulevat?",
-    "faq2Answer": "Tekoäly kirjoittaa ne suoraan sinun kielelläsi, ja jokainen kysymys tarkistetaan automaattisesti ennen kuin se päätyy peliin. Jos jokin virhe pääsee läpi, voit ilmoittaa siitä yhdellä napautuksella.",
+    "faq2Answer": "Tekoäly laatii ne luontevasti omalla kielelläsi, ja jokainen kysymys tarkistetaan automaattisesti ennen kuin se päätyy peliin. Jos jokin virhe livahtaa läpi, voit ilmoittaa siitä yhdellä napautuksella.",
     "faq3Question": "Miten turvatasot toimivat?",
     "faq3Answer": "Kun vastaat kysymykseen 5 oikein, sinulle on taattu {havenOne}, ja kysymys 10 takaa {havenTwo}. Jos vastaat myöhemmin väärin, lähdet silti kotiin viimeisimmän ohittamasi turvatason summalla.",
     "faq4Question": "Voinko pelata ilman verkkoyhteyttä?",
-    "faq4Answer": "Voit. Asenna sovellus ja lataa asetuksista kysymyspaketteja mille tahansa 50 kielestä. Offline-pelit tallennetaan ja synkronoidaan, kun yhteys palaa.",
+    "faq4Answer": "Kyllä — Klassikko toimii offline-tilassa. Kysymykset omalla kielelläsi tallennetaan laitteellesi automaattisesti, ja offline-pelit synkronoidaan, kun yhdistät verkkoyhteyden uudelleen. Maraton ja Aikapeli vaativat nettiyhteyden.",
     "faq5Question": "Miten pääsen tulostaululle?",
     "faq5Answer": "Kirjaudu sisään Googlella ja pelaa Maratonin tai Aikahaasteen kilpapeli. Palvelimemme tarkistaa jokaisen vastauksen, joten tulostaulu pysyy reiluna.",
     "faq6Question": "Onko tämä TV-ohjelman virallinen peli?",
-    "faq6Answer": "Ei. Millionaire Quiz on itsenäinen, fanien tekemä peli, joka on saanut innoituksensa klassisesta tietovisaformaatista."
+    "faq6Answer": "Ei ole. Miljonäärivisa on itsenäinen, fanien tekemä peli, joka on saanut inspiraationsa klassisesta tietovisailuformaatista."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Yksi virhe, ja peli on ohi",
       "description": "Loputon kysymysputki, joka vaikeutuu joka viidennen oikean vastauksen jälkeen. Käytössäsi on neljä klassista oljenkortta, kukin kerran – ja yksikin väärä vastaus päättää pelin.",
-      "rules": "{seconds} sekuntia kysymystä kohden. Taso nousee joka viidennen oikean vastauksen jälkeen. Yksi väärä vastaus tai ajan loppuminen päättää pelin."
+      "rules": "{minutes, plural, one {# minuutti} other {# minuuttia}} kysymystä kohden. Taso nousee aina viiden oikean vastauksen välein. Yksi väärä vastaus tai ajan loppuminen päättää pelin."
     },
     "timeAttack": {
       "name": "Aikahaaste",
@@ -130,18 +128,12 @@
       "description": "Vastaa niin moneen kysymykseen kuin ehdit ennen kuin aika loppuu. Väärä vastaus ei päätä peliä – mutta se maksaa 5 sekuntia.",
       "rules": "Kellossa {seconds} sekuntia. Jokainen väärä vastaus vie {penalty} sekuntia. Ei oljenkorsia – pelkkää nopeutta."
     },
-    "ranked": "Kilpapeli",
-    "practice": "Harjoitus",
-    "rankedHint": "Kilpapelit lasketaan mukaan maailmanlaajuiselle tulostaululle.",
-    "practiceHint": "Harjoituspeleissä käytetään omia asetuksiasi, eivätkä ne näy tulostaululla.",
-    "signInForRanked": "Kirjaudu Googlella pelataksesi kilpapelejä ja päästäksesi tulostaululle.",
-    "offlineUnranked": "Olet offline-tilassa, joten tämä on harjoituspeli.",
-    "customSettingsUnranked": "Omien asetusten vuoksi tämä on harjoituspeli."
+    "rankedHint": "Jokainen pelikerta lasketaan maailmanlaajuisella tuloslistalla.",
+    "guestHint": "Pelaat vieraana: pelisi tuomaroidaan samalla tavalla, mutta vain sisäänkirjautuneet pelaajat näkyvät tuloslistalla.",
+    "needsConnection": "Tämä pelimuoto vaatii nettiyhteyden: jokainen peli tuomaroidaan livenä. Klassikkoa voi pelata offline-tilassa."
   },
   "Game": {
     "startGame": "Aloita peli",
-    "startRanked": "Aloita kilpapeli",
-    "startPractice": "Aloita harjoitus",
     "loading": "Studion valot syttyvät…",
     "loadingQuestion": "Kirjoitetaan seuraavaa kysymystäsi…",
     "playingFor": "Panoksena",
@@ -163,6 +155,12 @@
     "timeUp": "Aika loppui!",
     "theAnswerWas": "Oikea vastaus oli {letter}: {text}",
     "didYouKnow": "Tiesitkö?",
+    "switchPrompt": "Ennen kuin vaihdetaan — mitä olisit vastannut?",
+    "switchPromptHint": "Vain huvin vuoksi: tätä ei lasketa joka tapauksessa.",
+    "switchSkip": "Ohita, vaihda vain",
+    "switchWouldBeRight": "Olisit vastannut oikein!",
+    "switchWouldBeWrong": "Onneksi vaihdoit!",
+    "switchComing": "Tässä tulee uusi kysymyksesi…",
     "walkAway": "Lopeta",
     "walkAwayTitle": "Otatko rahat?",
     "walkAwayBody": "Jos lopetat nyt, viet kotiin {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Taso {level} – kysymykset vaikeutuvat",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Kysymysten kirjoittajamme pitää taukoa, joten tässä pelissä käytetään englanninkielisiä varakysymyksiä.",
-    "packNotice": "Pelaat ladatulla kysymyspaketillasi.",
+    "packNotice": "Olet offline-tilassa — pelaat laitteellesi tallennetuilla kysymyksillä.",
     "keyboardHint": "Näppäimistö: A–D valitsee, Enter vahvistaa, L näyttää voittoportaat, M säätää äänet.",
     "report": "Ilmoita virheestä",
     "reportTitle": "Onko tässä kysymyksessä jotain vialla?",
@@ -205,11 +203,12 @@
     "personalBest": "Uusi henkilökohtainen ennätys!",
     "rank": "Sijoitus tulostaululla: #{rank}",
     "newBadges": "{count, plural, one {Uusi merkki avattu!} other {# uutta merkkiä avattu!}}",
-    "shareText": "Voitin {amount} Millionaire Quizissa! Pystytkö parempaan?",
-    "shareScoreText": "Sain {score} pistettä pelimuodossa {mode} Millionaire Quizissa! Pystytkö parempaan?",
+    "shareText": "Voitin {amount} pelissä Miljonäärivisa! Pystytkö parempaan?",
+    "shareScoreText": "Sain tuloksen {score} pelimuodossa {mode} pelissä Miljonäärivisa! Pystytkö parempaan?",
     "backHome": "Takaisin etusivulle",
     "viewLeaderboard": "Näytä tulostaulu",
-    "signInToSave": "Kirjaudu sisään, niin pisteesi ja merkkisi kulkevat mukanasi kaikilla laitteilla."
+    "signInToSave": "Kirjaudu sisään, niin pisteesi ja merkkisi kulkevat mukanasi kaikilla laitteilla.",
+    "signInToRank": "Kirjaudu sisään saadaksesi tällaiset tulokset tuloslistalle."
   },
   "Lifelines": {
     "title": "Oljenkorret",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Asetukset",
-    "subtitle": "Äänet, offline-paketit ja pelin oletusasetukset.",
+    "subtitle": "Äänet, kieli ja Klassikko-pelin asetukset.",
     "gameTitle": "Peliasetukset",
+    "gameHint": "Nämä vaikuttavat Klassikko-peleihin. Maraton ja Aikapeli ovat sijoituspelejä, joissa käytetään aina vakiosääntöjä.",
+    "customised": "Pelaat omilla mukautetuilla asetuksillasi.",
+    "change": "Muuta",
     "categories": "Kategoriat",
     "allCategories": "Kaikki kategoriat",
     "categoriesHint": "Valitse yksi tai useampi – tai jätä kaikki valitsematta, niin mukana ovat kaikki kategoriat.",
@@ -256,16 +258,6 @@
     "soundTitle": "Ääni",
     "sound": "Äänitehosteet ja musiikki",
     "volume": "Äänenvoimakkuus",
-    "packsTitle": "Offline-kysymyspaketit",
-    "packsSubtitle": "Lataa kysymykset niille kielille, joilla haluat pelata ilman verkkoyhteyttä. Kukin paketti on noin 100 kt.",
-    "packCount": "{count, plural, one {# kysymys} other {# kysymystä}}",
-    "packDownload": "Lataa",
-    "packDownloading": "Ladataan…",
-    "packUpdate": "Päivitä",
-    "packRemove": "Poista",
-    "packDownloaded": "Ladattu",
-    "packError": "Pakettia ei voitu ladata. Tarkista yhteys ja yritä uudelleen.",
-    "autoDownload": "Lataa oman kieleni paketti automaattisesti",
     "installTitle": "Asenna sovellus",
     "installBody": "Pelaa koko näytöllä ja ilman verkkoa – yhdellä napautuksella aloitusnäytöltä.",
     "accountTitle": "Tili"
@@ -375,26 +367,86 @@
     "earnedOn": "Ansaittu {date}",
     "unlocked": "Merkki avattu",
     "items": {
-      "firstSteps": { "name": "Ensiaskeleet", "description": "Vastaa ensimmäiseen kysymykseesi oikein." },
-      "safeHaven": { "name": "Turvassa", "description": "Saavuta Klassikon ensimmäinen turvataso (kysymys 5)." },
-      "halfWay": { "name": "Puolimatkassa", "description": "Saavuta Klassikon toinen turvataso (kysymys 10)." },
-      "millionaire": { "name": "Miljonääri", "description": "Vastaa kaikkiin 15 Klassikon kysymykseen ja voita miljoona." },
-      "purist": { "name": "Puristi", "description": "Voita miljoona käyttämättä yhtään oljenkortta." },
-      "smartExit": { "name": "Viisas lähtö", "description": "Lopeta ja ota voittosi kysymyksessä 12 tai myöhemmin." },
-      "quickThinker": { "name": "Nopea ajattelija", "description": "Anna 10 oikeaa vastausta, kukin alle 3 sekunnissa." },
-      "marathon10": { "name": "Maratoonari", "description": "Vastaa oikein 10 kertaa putkeen Maratonin kilpapelissä." },
-      "marathon25": { "name": "Pitkän matkan juoksija", "description": "Vastaa oikein 25 kertaa putkeen Maratonin kilpapelissä." },
-      "marathon50": { "name": "Rautainen mieli", "description": "Vastaa oikein 50 kertaa putkeen Maratonin kilpapelissä." },
-      "marathon100": { "name": "Legenda", "description": "Vastaa oikein 100 kertaa putkeen Maratonin kilpapelissä." },
-      "timeAttack15": { "name": "Pikakiitäjä", "description": "Saa 15 pistettä Aikahaasteen kilpapelissä." },
-      "timeAttack30": { "name": "Salamannopea", "description": "Saa 30 pistettä Aikahaasteen kilpapelissä." },
-      "polyglot3": { "name": "Polyglotti", "description": "Pelaa 3 eri kielellä." },
-      "polyglot10": { "name": "Maailmanmatkaaja", "description": "Pelaa 10 eri kielellä." },
-      "streak3": { "name": "Vauhdissa", "description": "Pelaa 3 päivänä peräkkäin." },
-      "streak7": { "name": "Omistautunut", "description": "Pelaa 7 päivänä peräkkäin." },
-      "offlineHero": { "name": "Verkon ulkopuolella", "description": "Pelaa peli loppuun offline-tilassa." },
-      "savedByAFriend": { "name": "Kaveri pelasti", "description": "Noudata kaverisi neuvoa ja vastaa oikein." },
-      "categoryMaster": { "name": "Kategoriamestari", "description": "Vastaa oikein 25 kysymykseen samassa kategoriassa." }
+      "firstSteps": {
+        "name": "Ensiaskeleet",
+        "description": "Vastaa ensimmäiseen kysymykseesi oikein."
+      },
+      "safeHaven": {
+        "name": "Turvassa",
+        "description": "Saavuta Klassikon ensimmäinen turvataso (kysymys 5)."
+      },
+      "halfWay": {
+        "name": "Puolimatkassa",
+        "description": "Saavuta Klassikon toinen turvataso (kysymys 10)."
+      },
+      "millionaire": {
+        "name": "Miljonääri",
+        "description": "Vastaa kaikkiin 15 Klassikon kysymykseen ja voita miljoona."
+      },
+      "purist": {
+        "name": "Puristi",
+        "description": "Voita miljoona käyttämättä yhtään oljenkortta."
+      },
+      "smartExit": {
+        "name": "Viisas lähtö",
+        "description": "Lopeta ja ota voittosi kysymyksessä 12 tai myöhemmin."
+      },
+      "quickThinker": {
+        "name": "Nopea ajattelija",
+        "description": "Anna 10 oikeaa vastausta, kukin alle 3 sekunnissa."
+      },
+      "marathon10": {
+        "name": "Maratoonari",
+        "description": "Vastaa oikein 10 kertaa putkeen Maratonin kilpapelissä."
+      },
+      "marathon25": {
+        "name": "Pitkän matkan juoksija",
+        "description": "Vastaa oikein 25 kertaa putkeen Maratonin kilpapelissä."
+      },
+      "marathon50": {
+        "name": "Rautainen mieli",
+        "description": "Vastaa oikein 50 kertaa putkeen Maratonin kilpapelissä."
+      },
+      "marathon100": {
+        "name": "Legenda",
+        "description": "Vastaa oikein 100 kertaa putkeen Maratonin kilpapelissä."
+      },
+      "timeAttack15": {
+        "name": "Pikakiitäjä",
+        "description": "Saa 15 pistettä Aikahaasteen kilpapelissä."
+      },
+      "timeAttack30": {
+        "name": "Salamannopea",
+        "description": "Saa 30 pistettä Aikahaasteen kilpapelissä."
+      },
+      "polyglot3": {
+        "name": "Polyglotti",
+        "description": "Pelaa 3 eri kielellä."
+      },
+      "polyglot10": {
+        "name": "Maailmanmatkaaja",
+        "description": "Pelaa 10 eri kielellä."
+      },
+      "streak3": {
+        "name": "Vauhdissa",
+        "description": "Pelaa 3 päivänä peräkkäin."
+      },
+      "streak7": {
+        "name": "Omistautunut",
+        "description": "Pelaa 7 päivänä peräkkäin."
+      },
+      "offlineHero": {
+        "name": "Verkon ulkopuolella",
+        "description": "Pelaa peli loppuun offline-tilassa."
+      },
+      "savedByAFriend": {
+        "name": "Kaveri pelasti",
+        "description": "Noudata kaverisi neuvoa ja vastaa oikein."
+      },
+      "categoryMaster": {
+        "name": "Kategoriamestari",
+        "description": "Vastaa oikein 25 kysymykseen samassa kategoriassa."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Oljenkorret",
     "lifelinesBody": "Sinulla on neljä oljenkortta, ja kutakin voi käyttää kerran pelin aikana:",
     "marathonTitle": "Maraton",
-    "marathonBody": "Loputon putki. Kysymykset vaikeutuvat joka viidennen oikean vastauksen jälkeen, käytössäsi on neljä oljenkortta kerran kukin, ja aikaa on {seconds} sekuntia kysymystä kohden. Yksi väärä vastaus tai ajan loppuminen päättää pelin, ja pisteesi ovat oikeiden vastausten määrä.",
+    "marathonBody": "Loputon peli. Kysymykset vaikeutuvat aina viiden oikean vastauksen välein, käytössäsi on neljä oljenkortta (kukin kerran), ja saat kysymystä kohden {minutes, plural, one {# minuutin} other {# minuuttia}}. Yksi väärä vastaus tai ajan loppuminen päättää pelin, ja tuloksesi on oikeiden vastausten määrä.",
     "timeAttackTitle": "Aikahaaste",
     "timeAttackBody": "Sinulla on {seconds} sekuntia aikaa vastata niin moneen kysymykseen kuin ehdit. Väärä vastaus ei päätä peliä, mutta se vie kellosta {penalty} sekuntia. Oljenkorsia ei ole.",
     "rankedTitle": "Kilpapelit ja reiluus",
-    "rankedBody": "Maratonin ja Aikahaasteen kilpapelejä valvoo palvelimemme: oikea vastaus ei koskaan päädy laitteellesi ennen kuin olet vastannut, ja aikaa mitataan palvelimella. Kirjaudu Googlella pelataksesi kilpapelejä. Omilla asetuksilla tai offline-tilassa pelatut pelit ovat harjoituspelejä.",
+    "rankedBody": "Palvelimemme tuomaroi aina Maraton- ja Aikapeli-pelikerrat: oikea vastaus ei koskaan siirry laitteellesi ennen kuin vastaat, ja pelikello pyörii palvelimella. Kuka tahansa voi pelata niitä; kirjaudu sisään Googlella saadaksesi tuloksesi tuloslistalle.",
     "questionsTitle": "Kysymyksistä",
-    "questionsBody": "Tekoäly kirjoittaa kysymykset suoraan kullakin kielellä, ja ne tarkistetaan automaattisesti. Noin 40 % kysymyksistä käsittelee sen alueen kulttuuria, jossa kieltäsi puhutaan. Jos kysymys näyttää virheelliseltä, käytä ”Ilmoita virheestä” -painiketta, kun vastaus on paljastettu."
+    "questionsBody": "Kysymykset luo tekoäly luontevasti kullakin kielellä, ja ne tarkistetaan automaattisesti. Noin 40 % kysymyksistä liittyy oman kielialueesi kulttuuriin. Jos jokin kysymys vaikuttaa virheelliseltä, valitse ”Ilmoita virheestä”, kun vastaus on paljastettu."
   },
   "About": {
-    "title": "Tietoa Millionaire Quizista",
-    "intro": "Millionaire Quiz on ilmainen, fanien tekemä tietovisapeli, joka on saanut innoituksensa klassisesta TV-formaatista – rakennettu uudelleen verkkoon, puhelimille ja 50 kielelle.",
+    "title": "Tietoa pelistä Miljonäärivisa",
+    "intro": "Miljonäärivisa on ilmainen, fanien tekemä tietovisa, joka on saanut inspiraationsa klassisesta televisioformaatista — uudelleenluotuna verkkoon, puhelimille ja 50 kielelle.",
     "missionTitle": "Miksi teimme sen",
     "missionBody": "Useimmat visailupelit kirjoitetaan englanniksi ja käännetään. Meistä visan pitäisi tuntua kotoisalta: kysymysten pitäisi käsitellä ihmisiä, paikkoja, kirjoja ja perinteitä, joiden parissa olet kasvanut – ja myös laajempaa maailmaa.",
     "howTitle": "Miten kysymykset syntyvät",
     "howBody": "Suuri kielimalli kirjoittaa jokaisen kysymyksen suoraan sinun kielelläsi erissä ja tiukkoja sääntöjä noudattaen: yksi selvästi oikea vastaus, neljä uskottavaa vaihtoehtoa ja vain pysyviä faktoja. Kysymykset tarkistetaan automaattisesti, tallennetaan ja tarjoillaan pelaajille, ja kuka tahansa pelaaja voi ilmoittaa virheestä.",
     "techTitle": "Konepellin alla",
-    "techBody": "Millionaire Quiz on progressiivinen verkkosovellus: sen voi asentaa puhelimeen tai tietokoneeseen, se toimii offline-tilassa ladattavien kysymyspakettien avulla ja synkronoi edistymisesi, kun yhteys palaa.",
+    "techBody": "Miljonäärivisa on progressiivinen verkkosovellus (PWA): se asentuu puhelimeesi tai tietokoneellesi, toimii ilman nettiyhteyttä automaattisesti tallennettujen kysymysten avulla ja synkronoi edistymisesi, kun palaat verkkoon.",
     "creditTitle": "Tekijät",
     "creditBody": "Suunnittelu ja toteutus: {author}.",
-    "disclaimer": "Millionaire Quiz ei ole yhteydessä mihinkään televisio-ohjelmaan, lähetysyhtiöön tai oikeuksien haltijaan, eikä mikään niistä ole hyväksynyt sitä."
+    "disclaimer": "Miljonäärivisa ei ole sidoksissa mihinkään televisio-ohjelmaan, lähetystoiminnan harjoittajaan tai oikeuksien haltijaan, eikä se ole heidän hyväksymänsä tai tukemansa."
   },
   "Legal": {
     "privacyTitle": "Tietosuojakäytäntö",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Oikeutesi",
     "privacyRightsBody": "Voit vaihtaa näyttönimesi ja kuvasi milloin tahansa, ja voit pyytää meitä poistamaan tilisi ja kaikki siihen liittyvät tiedot ottamalla yhteyttä tekijään.",
     "termsTitle": "Käyttöehdot",
-    "termsIntro": "Pelaamalla Millionaire Quizia hyväksyt nämä yksinkertaiset ehdot.",
+    "termsIntro": "Pelaamalla Miljonäärivisa-peliä hyväksyt nämä selkeät ehdot.",
     "termsPlayTitle": "Reilu peli",
     "termsPlayBody": "Pelaa kilpapelejä rehellisesti. Automatisoitu pelaaminen, bugien hyväksikäyttö tai tulostaulun manipulointi voi johtaa pelisuoritustesi poistamiseen.",
     "termsContentTitle": "Kysymykset ja niiden oikeellisuus",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Asenna sovellus",
-    "installTitle": "Asenna Millionaire Quiz",
+    "installTitle": "Asenna Miljonäärivisa",
     "benefit": "Pelaa koko näytöllä ja offline-tilassa yhdellä napautuksella aloitusnäytöltä.",
     "iosTitle": "Asenna iPhoneen tai iPadiin",
     "iosStep1": "Napauta Safarin työkalupalkin Jaa-painiketta.",
@@ -464,9 +516,34 @@
     "iosStep3": "Napauta ”Lisää” – sovellus ilmestyy aloitusnäytöllesi.",
     "gotIt": "Selvä"
   },
+  "Contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Löysitkö virheen, onko sinulla idea tai tarvitsetko apua? Kirjoita meille — luemme jokaisen viestin.",
+    "name": "Nimesi",
+    "nameRequired": "Kirjoita nimesi.",
+    "email": "Sähköposti",
+    "emailRequired": "Kirjoita sähköpostiosoitteesi, jotta voimme vastata.",
+    "emailInvalid": "Sähköpostiosoite ei näytä oikealta.",
+    "message": "Viesti",
+    "messageRequired": "Kirjoita viesti.",
+    "messagePlaceholder": "Miten voimme auttaa?",
+    "send": "Lähetä viesti",
+    "error": "Viestiäsi ei voitu lähettää. Yritä hetken kuluttua uudelleen.",
+    "sentTitle": "Viesti lähetetty!",
+    "sentBody": "Kiitos viestistäsi. Vastaamme ilmoittamaasi sähköpostiosoitteeseen.",
+    "sendAnother": "Lähetä toinen viesti"
+  },
   "Auth": {
     "signedIn": "Tervetuloa, {name}!",
     "signedOut": "Olet kirjautunut ulos.",
+    "signInTitle": "Kirjaudu sisään",
+    "signInSubtitle": "Yksi napautus Googlella, ja edistymisesi kulkee mukanasi kaikille laitteille.",
+    "benefitRanked": "Vie Maraton- ja Aikapeli-tuloksesi maailmanlaajuiselle tuloslistalle",
+    "benefitLeaderboard": "Valitse nimi ja kuva, jotka muut pelaajat näkevät",
+    "benefitSync": "Pidä Klassikon ennätyksesi, pelihistoriasi ja saavutuksesi tallessa kaikkialla",
+    "privacyNote": "Käytämme Googlelta ainoastaan nimeäsi, sähköpostiosoitettasi ja profiilikuvaasi.",
+    "unavailable": "Sisäänkirjautuminen ei ole juuri nyt käytettävissä. Voit silti pelata Klassikkoa — edistymisesi tallennetaan tälle laitteelle.",
+    "alreadySignedIn": "Olet kirjautunut sisään nimellä {name}.",
     "errors": {
       "google_unavailable": "Google-kirjautuminen ei ole juuri nyt käytettävissä.",
       "google_denied": "Kirjautuminen peruutettiin.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, visailupeli, tietovisa, haluatko miljonääriksi peli, ilmainen tietovisa, nettivisa, yleistieto",
-    "homeTitle": "Millionaire Quiz – Haluatko miljonääriksi? Pelaa ilmaiseksi netissä",
+    "homeTitle": "Miljonäärivisa — Haluatko miljonääriksi? Pelaa ilmaiseksi verkossa",
     "homeDescription": "Pelaa tietovisapeliä ilmaiseksi 50 kielellä. 15 kysymystä miljoonaan, neljä oljenkortta ja turvatasot sekä loputon Maraton ja Aikahaaste maailmanlaajuisella tulostaululla.",
     "playTitle": "Klassinen miljonäärivisa – 15 kysymystä miljoonaan",
     "playDescription": "Kiipeä voittoportaita summasta {first} summaan {top}: viisitoista kysymystä, kaksi turvatasoa, neljä oljenkortta. Ilmainen, ei rekisteröitymistä, sinun kielelläsi.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Merkit – kerää ne kaikki",
     "badgesDescription": "Kaksikymmentä merkkiä ansaittavana Klassikossa, Maratonissa ja Aikahaasteessa: voita miljoona, pidä putki käynnissä, pelaa monella kielellä.",
     "rulesTitle": "Peliohjeet – säännöt, voittoportaat ja oljenkorret",
-    "rulesDescription": "Millionaire Quizin säännöt kokonaisuudessaan: voittoportaat, turvatasot, lopettaminen, neljä oljenkortta, Maraton ja Aikahaaste.",
-    "aboutTitle": "Tietoa Millionaire Quizista",
-    "aboutDescription": "Ilmainen, fanien tekemä tietovisapeli tekoälyn kirjoittamilla kysymyksillä 50 kielellä – innoittajana klassinen TV-visaformaatti.",
+    "rulesDescription": "Miljonäärivisa-pelin täydet säännöt: rahapuu, turvatasot, pelin keskeyttäminen, neljä oljenkortta, Maraton ja Aikapeli.",
+    "aboutTitle": "Tietoa pelistä Miljonäärivisa",
+    "aboutDescription": "Ilmainen, fanien tekemä tietovisapeli tekoälyn luomilla kysymyksillä 50 kielellä, saanut inspiraationsa klassisesta TV-tietovisasta.",
     "privacyTitle": "Tietosuojakäytäntö",
-    "privacyDescription": "Mitä Millionaire Quiz tallentaa, miksi ja miten tiedot poistetaan.",
+    "privacyDescription": "Mitä tietoja Miljonäärivisa tallentaa, miksi ja miten ne voi poistaa.",
     "termsTitle": "Käyttöehdot",
-    "termsDescription": "Yksinkertaiset säännöt Millionaire Quizin reiluun pelaamiseen.",
+    "termsDescription": "Yksinkertaiset säännöt reiluun peliin Miljonäärivisa-pelissä.",
     "profileTitle": "Profiilisi",
     "profileDescription": "Pisteesi, sijoituksesi ja merkkisi.",
     "settingsTitle": "Asetukset",
-    "settingsDescription": "Äänet, offline-kysymyspaketit ja pelin oletusasetukset."
+    "contactTitle": "Ota yhteyttä",
+    "contactDescription": "Kysymyksiä, ideoita tai virhe kysymyksessä? Lähetä viesti Miljonäärivisa-tiimille.",
+    "signInTitle": "Kirjaudu sisään",
+    "signInDescription": "Kirjaudu sisään Googlella viedäksesi tuloksesi tuloslistalle ja säilyttääksesi edistymisesi kaikilla laitteilla.",
+    "settingsDescription": "Äänet, kieli ja Klassikko-pelin asetukset."
   }
 }

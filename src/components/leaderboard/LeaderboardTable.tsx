@@ -1,3 +1,6 @@
+'use client'
+
+import { Table, type TableColumnsType } from 'antd'
 import { useLocale, useTranslations } from 'next-intl'
 import type { LeaderboardEntry } from '@interfaces/entities'
 import { isLocale, LOCALE_LABELS } from '@i18n/config'
@@ -17,78 +20,78 @@ const RANK_STYLE: Record<number, string> = {
 }
 
 /**
- * A real `<table>` on every screen size — rows and columns are what a screen reader needs to
- * navigate a ranking. On phones the language and time columns drop out.
+ * antd's `Table` — a real `<table>` on every screen size, since rows and columns are what a
+ * screen reader needs to navigate a ranking. On phones the language and time columns drop
+ * out (CSS classes, not antd's `responsive`, so the server HTML already has the final layout).
+ * Paging is the caller's, driven by the URL.
  */
 export const LeaderboardTable = ({ entries, viewerId, caption }: { entries: LeaderboardEntry[]; viewerId?: string; caption: string }) => {
   const t = useTranslations('Leaderboard')
   const locale = useLocale()
+  const number = new Intl.NumberFormat(locale)
+
+  const columns: TableColumnsType<LeaderboardEntry> = [
+    {
+      key: 'rank',
+      title: t('rank'),
+      align: 'center',
+      width: 72,
+      render: (_, entry) => (
+        <span
+          className={cn(
+            'inline-flex size-9 items-center justify-center rounded-control font-display font-black tabular',
+            RANK_STYLE[entry.rank] ?? 'text-mist'
+          )}
+        >
+          {entry.rank}
+        </span>
+      ),
+    },
+    {
+      key: 'player',
+      title: t('player'),
+      render: (_, entry) => (
+        <span className='flex min-w-0 items-center gap-3'>
+          <Avatar name={entry.displayName} url={entry.avatarUrl} size='sm' />
+          <span className='truncate font-semibold'>
+            {entry.displayName}
+            {entry.userId === viewerId && <span className='ms-2 text-caption text-gold-300'>({t('yourBest')})</span>}
+          </span>
+        </span>
+      ),
+    },
+    {
+      key: 'language',
+      title: t('language'),
+      className: 'hidden md:table-cell text-body-sm text-mist',
+      render: (_, entry) => (isLocale(entry.locale) ? LOCALE_LABELS[entry.locale] : entry.locale),
+    },
+    {
+      key: 'time',
+      title: t('time'),
+      align: 'end',
+      className: 'hidden sm:table-cell text-body-sm text-mist tabular',
+      render: (_, entry) => formatDuration(entry.totalAnswerMs),
+    },
+    {
+      key: 'score',
+      title: t('score'),
+      align: 'end',
+      render: (_, entry) => <span className='font-display text-h3 font-black text-gold-300 tabular'>{number.format(entry.score)}</span>,
+    },
+  ]
 
   return (
-    <div className='panel overflow-hidden'>
-      <table className='w-full border-collapse text-start'>
-        <caption className='sr-only'>{caption}</caption>
-        <thead>
-          <tr className='border-b border-spot-300/15 text-caption tracking-widest text-spot-300 uppercase'>
-            <th scope='col' className='w-16 px-3 py-3 text-center font-bold'>
-              {t('rank')}
-            </th>
-            <th scope='col' className='px-3 py-3 text-start font-bold'>
-              {t('player')}
-            </th>
-            <th scope='col' className='hidden px-3 py-3 text-start font-bold md:table-cell'>
-              {t('language')}
-            </th>
-            <th scope='col' className='hidden px-3 py-3 text-end font-bold sm:table-cell'>
-              {t('time')}
-            </th>
-            <th scope='col' className='px-4 py-3 text-end font-bold'>
-              {t('score')}
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {entries.map((entry) => {
-            const isViewer = entry.userId === viewerId
-            return (
-              <tr
-                key={entry.userId}
-                aria-current={isViewer ? 'true' : undefined}
-                className={cn('border-b border-spot-300/5 last:border-0', isViewer ? 'bg-gold-400/10' : 'hover:bg-white/[0.03]')}
-              >
-                <td className='px-3 py-2.5 text-center'>
-                  <span
-                    className={cn(
-                      'inline-flex size-9 items-center justify-center rounded-full font-display font-black tabular',
-                      RANK_STYLE[entry.rank] ?? 'text-mist'
-                    )}
-                  >
-                    {entry.rank}
-                  </span>
-                </td>
-                <td className='px-3 py-2.5'>
-                  <span className='flex min-w-0 items-center gap-3'>
-                    <Avatar name={entry.displayName} url={entry.avatarUrl} size='sm' />
-                    <span className='truncate font-semibold'>
-                      {entry.displayName}
-                      {isViewer && <span className='ms-2 text-caption text-gold-300'>({t('yourBest')})</span>}
-                    </span>
-                  </span>
-                </td>
-                <td className='hidden px-3 py-2.5 text-body-sm text-mist md:table-cell'>
-                  {isLocale(entry.locale) ? LOCALE_LABELS[entry.locale] : entry.locale}
-                </td>
-                <td className='hidden px-3 py-2.5 text-end text-body-sm text-mist tabular sm:table-cell'>
-                  {formatDuration(entry.totalAnswerMs)}
-                </td>
-                <td className='px-4 py-2.5 text-end font-display text-h3 font-black text-gold-300 tabular'>
-                  {new Intl.NumberFormat(locale).format(entry.score)}
-                </td>
-              </tr>
-            )
-          })}
-        </tbody>
-      </table>
-    </div>
+    <section aria-label={caption} className='panel overflow-hidden'>
+      <Table<LeaderboardEntry>
+        rowKey='userId'
+        columns={columns}
+        dataSource={entries}
+        pagination={false}
+        size='middle'
+        onRow={(entry) => (entry.userId === viewerId ? { 'aria-current': 'true' } : {})}
+        rowClassName={(entry) => (entry.userId === viewerId ? 'bg-gold-400/10' : '')}
+      />
+    </section>
   )
 }

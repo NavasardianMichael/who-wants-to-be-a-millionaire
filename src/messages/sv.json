@@ -1,6 +1,8 @@
 {
   "Common": {
-    "appName": "Millionaire Quiz",
+    "appName": "Vem vill bli miljonär? – Frågesport",
+    "wordmarkTop": "Vem vill bli miljonär?",
+    "wordmarkBottom": "Frågesport",
     "tagline": "Frågesportspelet på ditt språk",
     "play": "Spela",
     "playNow": "Spela nu",
@@ -38,6 +40,10 @@
     "signInWithGoogle": "Fortsätt med Google",
     "signedInAs": "Inloggad som {name}",
     "you": "Du",
+    "unsavedTitle": "Lämna den här sidan?",
+    "unsavedBody": "Det du har skrivit in har inte sparats och kommer att gå förlorat.",
+    "stay": "Stanna kvar",
+    "leave": "Lämna",
     "share": "Dela",
     "copied": "Länken har kopierats",
     "comingBack": "Vi ses snart!",
@@ -57,22 +63,14 @@
     "about": "Om",
     "privacy": "Integritet",
     "terms": "Villkor",
+    "contact": "Kontakta oss",
     "profile": "Profil",
     "settings": "Inställningar"
   },
   "Home": {
-    "eyebrow": "50 språk · AI-skrivna frågor · gratis",
+    "eyebrow": "50 språk · frågor skrivna av artificiell intelligens · gratis",
     "heroTitle": "Vem vill bli miljonär?",
-    "heroSubtitle": "Femton frågor står mellan dig och miljonen. Klättra uppför vinststegen, använd dina livlinor klokt – och bestäm själv när du ska kliva av.",
-    "heroCta": "Spela Klassiskt",
-    "heroSecondaryCta": "Testa Maraton",
-    "statsQuestions": "Nya frågor i varje spel",
-    "statsLanguages": "Språk",
-    "statsLifelines": "Livlinor",
     "modesTitle": "Tre sätt att spela",
-    "modesSubtitle": "Den klassiska klättringen, ett oändligt nervtest eller en kamp mot klockan.",
-    "ladderTitle": "Vinststegen",
-    "ladderSubtitle": "Varje rätt svar tar dig ett steg uppåt. Säkra nivåer vid fråga 5 och fråga 10 garanterar dina vinster även om du faller.",
     "lifelinesTitle": "Fyra livlinor, en gång var",
     "lifelinesSubtitle": "När du kör fast kan en livlina rädda spelet. Använd dem klokt – de svåraste frågorna kommer sist.",
     "howTitle": "Så spelar du",
@@ -89,27 +87,27 @@
     "viewLeaderboard": "Se hela topplistan",
     "emptyLeaderboard": "Inga rankade rundor än – bli först!",
     "cultureTitle": "Frågor som talar ditt språk",
-    "cultureBody": "Vår AI-frågeskribent skriver nya frågor direkt på vart och ett av 50 språk och blandar allmänbildning med historia, litteratur, geografi och traditioner från din egen kultur. En fråga om din favoritpoet är inte en översättning av en fråga om någon annans.",
+    "cultureBody": "Vår frågeskapare med artificiell intelligens skapar helt nya frågor på språket för var och ett av de 50 språken, och blandar allmänbildning med historia, litteratur, geografi och traditioner från din egen kultur. En fråga om din favoritskapande poet blir inte bara en översättning av en fråga om någon annans.",
     "offlineTitle": "Spela var som helst, även offline",
-    "offlineBody": "Installera appen, ladda ner frågepaketen för de språk du vill ha och fortsätt spela på flyget eller i tunnelbanan. Dina poäng synkas när du är online igen.",
+    "offlineBody": "Installera appen och fortsätt spela Klassiskt på ett flygplan eller i tunnelbanan: frågor på ditt språk sparas automatiskt på din enhet. Dina poäng synkas när du är online igen.",
     "badgesTitle": "Samla märken",
     "badgesSubtitle": "Nå de säkra nivåerna, vinn miljonen, håll igång en svit – det finns {count} märken att ta.",
     "viewBadges": "Se alla märken",
     "categoriesTitle": "Utforska kategorierna",
     "categoriesSubtitle": "Från historia och vetenskap till film, mat och din egen lokala kultur.",
     "faqTitle": "Vanliga frågor",
-    "faq1Question": "Är Millionaire Quiz gratis?",
+    "faq1Question": "Är Vem vill bli miljonär? – Frågesport gratis?",
     "faq1Answer": "Ja. Alla spellägen, alla språk och alla livlinor är gratis, och du behöver inte registrera dig för att spela Klassiskt.",
     "faq2Question": "Var kommer frågorna ifrån?",
-    "faq2Answer": "En AI-frågeskribent skriver dem direkt på ditt språk, och varje fråga kontrolleras automatiskt innan den hamnar i spelet. Om något slinker igenom kan du rapportera det med ett tryck.",
+    "faq2Answer": "En frågeskapare med artificiell intelligens skapar dem direkt på ditt språk, och varje fråga kontrolleras automatiskt innan den når spelet. Om något slinker igenom kan du rapportera det med ett tryck.",
     "faq3Question": "Hur fungerar de säkra nivåerna?",
     "faq3Answer": "Svarar du rätt på fråga 5 är {havenOne} garanterat, och fråga 10 garanterar {havenTwo}. Om du svarar fel på en senare fråga går du ändå hem med den senaste säkra nivån du passerat.",
     "faq4Question": "Kan jag spela offline?",
-    "faq4Answer": "Ja. Installera appen och ladda ner frågepaket för vilket som helst av de 50 språken under inställningarna. Offlinespel sparas och synkas när du är uppkopplad igen.",
+    "faq4Answer": "Ja – Klassiskt fungerar offline. Frågor på ditt språk sparas automatiskt på din enhet, och offlinespel synkas när du ansluter igen. Maraton och Tidspress kräver en anslutning.",
     "faq5Question": "Hur kommer jag in på topplistan?",
     "faq5Answer": "Logga in med Google och spela en rankad runda i Maraton eller Mot klockan. Varje svar kontrolleras av vår server, så topplistan förblir rättvis.",
     "faq6Question": "Är det här det officiella spelet från tv-programmet?",
-    "faq6Answer": "Nej. Millionaire Quiz är ett fristående, fanskapat spel inspirerat av det klassiska frågesportformatet."
+    "faq6Answer": "Nej. Vem vill bli miljonär? – Frågesport är ett oberoende, fan-gjort spel inspirerat av det klassiska frågesportformatet."
   },
   "Modes": {
     "classic": {
@@ -122,7 +120,7 @@
       "name": "Maraton",
       "tagline": "Ett misstag och det är över",
       "description": "En oändlig rad frågor som blir svårare efter var femte rätt svar. Du har de fyra klassiska livlinorna, en gång var – och ett enda fel svar avslutar rundan.",
-      "rules": "{seconds} sekunder per fråga. Nivån höjs efter var femte rätt svar. Ett fel svar eller en tidsgräns som går ut avslutar rundan."
+      "rules": "{minutes, plural, one {# minut} other {# minuter}} per fråga. Nivån stiger var femte rätta svar. Ett felaktigt svar eller att tiden rinner ut avslutar omgången."
     },
     "timeAttack": {
       "name": "Mot klockan",
@@ -130,18 +128,12 @@
       "description": "Svara på så många frågor du hinner innan tiden tar slut. Ett fel svar avslutar inte rundan – men det kostar dig 5 sekunder.",
       "rules": "{seconds} sekunder på klockan. Varje fel svar kostar {penalty} sekunder. Inga livlinor – bara snabbhet."
     },
-    "ranked": "Rankat",
-    "practice": "Träning",
-    "rankedHint": "Rankade rundor räknas på den globala topplistan.",
-    "practiceHint": "Träningsrundor använder dina egna inställningar och rankas inte.",
-    "signInForRanked": "Logga in med Google för att spela rankat och komma med på topplistan.",
-    "offlineUnranked": "Du är offline, så den här rundan blir en träningsrunda.",
-    "customSettingsUnranked": "Med egna inställningar blir det här en träningsrunda."
+    "rankedHint": "Varje omgång räknas på den globala topplistan.",
+    "guestHint": "Du spelar som gäst: din omgång döms på samma sätt, men endast inloggade spelare visas på topplistan.",
+    "needsConnection": "Det här läget kräver en anslutning: varje omgång döms live. Klassiskt spelas offline."
   },
   "Game": {
     "startGame": "Starta spelet",
-    "startRanked": "Starta rankad runda",
-    "startPractice": "Starta träning",
     "loading": "Studiolamporna tänds…",
     "loadingQuestion": "Din nästa fråga skrivs…",
     "playingFor": "Du spelar om",
@@ -163,6 +155,12 @@
     "timeUp": "Tiden är ute!",
     "theAnswerWas": "Rätt svar var {letter}: {text}",
     "didYouKnow": "Visste du att…?",
+    "switchPrompt": "Innan vi byter – vad hade du svarat?",
+    "switchPromptHint": "Bara på kul: det räknas inte åt något håll.",
+    "switchSkip": "Hoppa över, byt ändå",
+    "switchWouldBeRight": "Du hade haft rätt!",
+    "switchWouldBeWrong": "Tur att du bytte!",
+    "switchComing": "Här kommer din nya fråga…",
     "walkAway": "Kliv av",
     "walkAwayTitle": "Ta pengarna?",
     "walkAwayBody": "Om du kliver av nu går du hem med {amount}.",
@@ -180,7 +178,7 @@
     "levelUp": "Nivå {level} – frågorna blir svårare",
     "penalty": "−{seconds} s",
     "fallbackNotice": "Vår frågeskribent tar en paus, så det här spelet använder engelska reservfrågor.",
-    "packNotice": "Du spelar med ditt nedladdade frågepaket.",
+    "packNotice": "Du är offline – spelar med frågor som sparats på din enhet.",
     "keyboardHint": "Tangentbord: A–D för att välja, Enter för att bekräfta, L för stegen, M för ljud.",
     "report": "Rapportera ett fel",
     "reportTitle": "Är något fel med den här frågan?",
@@ -205,11 +203,12 @@
     "personalBest": "Nytt personbästa!",
     "rank": "Placering på topplistan: #{rank}",
     "newBadges": "{count, plural, one {Nytt märke upplåst!} other {# nya märken upplåsta!}}",
-    "shareText": "Jag vann {amount} i Millionaire Quiz! Kan du slå mig?",
-    "shareScoreText": "Jag fick {score} poäng i {mode} i Millionaire Quiz! Kan du slå mig?",
+    "shareText": "Jag vann {amount} i Vem vill bli miljonär? – Frågesport! Kan du slå mig?",
+    "shareScoreText": "Jag fick {score} poäng i {mode} i Vem vill bli miljonär? – Frågesport! Kan du slå mig?",
     "backHome": "Till startsidan",
     "viewLeaderboard": "Visa topplistan",
-    "signInToSave": "Logga in för att behålla dina poäng och märken på alla enheter."
+    "signInToSave": "Logga in för att behålla dina poäng och märken på alla enheter.",
+    "signInToRank": "Logga in för att placera omgångar som den här på topplistan."
   },
   "Lifelines": {
     "title": "Livlinor",
@@ -238,8 +237,11 @@
   },
   "Settings": {
     "title": "Inställningar",
-    "subtitle": "Ljud, offlinepaket och dina standardinställningar för spelet.",
+    "subtitle": "Ljud, språk och dina inställningar för Klassiskt.",
     "gameTitle": "Spelinställningar",
+    "gameHint": "Dessa gäller för Klassiskt spel. Maraton och Tidspress är rankade och använder alltid standardreglerna.",
+    "customised": "Spelar med dina egna inställningar.",
+    "change": "Ändra",
     "categories": "Kategorier",
     "allCategories": "Alla kategorier",
     "categoriesHint": "Välj en eller flera, eller lämna alla avmarkerade för samtliga kategorier.",
@@ -256,16 +258,6 @@
     "soundTitle": "Ljud",
     "sound": "Ljudeffekter och musik",
     "volume": "Volym",
-    "packsTitle": "Frågepaket för offline",
-    "packsSubtitle": "Ladda ner frågor för de språk du vill spela utan uppkoppling. Varje paket är ungefär 100 kB.",
-    "packCount": "{count, plural, one {# fråga} other {# frågor}}",
-    "packDownload": "Ladda ner",
-    "packDownloading": "Laddar ner…",
-    "packUpdate": "Uppdatera",
-    "packRemove": "Ta bort",
-    "packDownloaded": "Nedladdat",
-    "packError": "Paketet kunde inte laddas ner. Kontrollera din uppkoppling och försök igen.",
-    "autoDownload": "Ladda ner paketet för mitt språk automatiskt",
     "installTitle": "Installera appen",
     "installBody": "Spela i helskärm och offline, med ett tryck från hemskärmen.",
     "accountTitle": "Konto"
@@ -375,26 +367,86 @@
     "earnedOn": "Taget {date}",
     "unlocked": "Märke upplåst",
     "items": {
-      "firstSteps": { "name": "Första stegen", "description": "Svara rätt på din första fråga." },
-      "safeHaven": { "name": "I säkerhet", "description": "Nå den första säkra nivån i Klassiskt (fråga 5)." },
-      "halfWay": { "name": "Halvvägs", "description": "Nå den andra säkra nivån i Klassiskt (fråga 10)." },
-      "millionaire": { "name": "Miljonär", "description": "Svara rätt på alla 15 frågor i Klassiskt och vinn miljonen." },
-      "purist": { "name": "Purist", "description": "Vinn miljonen utan att använda en enda livlina." },
-      "smartExit": { "name": "Smart sorti", "description": "Kliv av med vinsten vid fråga 12 eller senare." },
-      "quickThinker": { "name": "Snabbtänkt", "description": "Ge 10 rätta svar på under 3 sekunder vardera." },
-      "marathon10": { "name": "Maratonlöpare", "description": "Svara rätt på 10 frågor i rad i ett rankat Maraton." },
-      "marathon25": { "name": "Långdistans", "description": "Svara rätt på 25 frågor i rad i ett rankat Maraton." },
-      "marathon50": { "name": "Järnhjärna", "description": "Svara rätt på 50 frågor i rad i ett rankat Maraton." },
-      "marathon100": { "name": "Legend", "description": "Svara rätt på 100 frågor i rad i ett rankat Maraton." },
-      "timeAttack15": { "name": "Snabbis", "description": "Få 15 poäng i en rankad Mot klockan-runda." },
-      "timeAttack30": { "name": "Blixten", "description": "Få 30 poäng i en rankad Mot klockan-runda." },
-      "polyglot3": { "name": "Polyglott", "description": "Spela på 3 olika språk." },
-      "polyglot10": { "name": "Världsresenär", "description": "Spela på 10 olika språk." },
-      "streak3": { "name": "I farten", "description": "Spela 3 dagar i rad." },
-      "streak7": { "name": "Hängiven", "description": "Spela 7 dagar i rad." },
-      "offlineHero": { "name": "Utom räckhåll", "description": "Spela klart ett spel offline." },
-      "savedByAFriend": { "name": "Räddad av en vän", "description": "Följ din väns råd och svara rätt." },
-      "categoryMaster": { "name": "Kategorimästare", "description": "Svara rätt på 25 frågor inom en och samma kategori." }
+      "firstSteps": {
+        "name": "Första stegen",
+        "description": "Svara rätt på din första fråga."
+      },
+      "safeHaven": {
+        "name": "I säkerhet",
+        "description": "Nå den första säkra nivån i Klassiskt (fråga 5)."
+      },
+      "halfWay": {
+        "name": "Halvvägs",
+        "description": "Nå den andra säkra nivån i Klassiskt (fråga 10)."
+      },
+      "millionaire": {
+        "name": "Miljonär",
+        "description": "Svara rätt på alla 15 frågor i Klassiskt och vinn miljonen."
+      },
+      "purist": {
+        "name": "Purist",
+        "description": "Vinn miljonen utan att använda en enda livlina."
+      },
+      "smartExit": {
+        "name": "Smart sorti",
+        "description": "Kliv av med vinsten vid fråga 12 eller senare."
+      },
+      "quickThinker": {
+        "name": "Snabbtänkt",
+        "description": "Ge 10 rätta svar på under 3 sekunder vardera."
+      },
+      "marathon10": {
+        "name": "Maratonlöpare",
+        "description": "Svara rätt på 10 frågor i rad i ett rankat Maraton."
+      },
+      "marathon25": {
+        "name": "Långdistans",
+        "description": "Svara rätt på 25 frågor i rad i ett rankat Maraton."
+      },
+      "marathon50": {
+        "name": "Järnhjärna",
+        "description": "Svara rätt på 50 frågor i rad i ett rankat Maraton."
+      },
+      "marathon100": {
+        "name": "Legend",
+        "description": "Svara rätt på 100 frågor i rad i ett rankat Maraton."
+      },
+      "timeAttack15": {
+        "name": "Snabbis",
+        "description": "Få 15 poäng i en rankad Mot klockan-runda."
+      },
+      "timeAttack30": {
+        "name": "Blixten",
+        "description": "Få 30 poäng i en rankad Mot klockan-runda."
+      },
+      "polyglot3": {
+        "name": "Polyglott",
+        "description": "Spela på 3 olika språk."
+      },
+      "polyglot10": {
+        "name": "Världsresenär",
+        "description": "Spela på 10 olika språk."
+      },
+      "streak3": {
+        "name": "I farten",
+        "description": "Spela 3 dagar i rad."
+      },
+      "streak7": {
+        "name": "Hängiven",
+        "description": "Spela 7 dagar i rad."
+      },
+      "offlineHero": {
+        "name": "Utom räckhåll",
+        "description": "Spela klart ett spel offline."
+      },
+      "savedByAFriend": {
+        "name": "Räddad av en vän",
+        "description": "Följ din väns råd och svara rätt."
+      },
+      "categoryMaster": {
+        "name": "Kategorimästare",
+        "description": "Svara rätt på 25 frågor inom en och samma kategori."
+      }
     }
   },
   "Rules": {
@@ -412,26 +464,26 @@
     "lifelinesTitle": "Livlinor",
     "lifelinesBody": "Du har fyra livlinor, och var och en kan användas en gång per spel:",
     "marathonTitle": "Maraton",
-    "marathonBody": "En oändlig runda. Frågorna blir svårare efter var femte rätt svar, du har de fyra livlinorna en gång var och du får {seconds} sekunder per fråga. Ett fel svar eller en tidsgräns som går ut avslutar rundan, och dina poäng är antalet rätta svar.",
+    "marathonBody": "En oändlig omgång. Frågorna blir svårare för var femte rätta svar, du har de fyra livlinorna en gång var, och du får {minutes, plural, one {# minut} other {# minuter}} på dig för varje fråga. Ett felaktigt svar eller att tiden rinner ut avslutar omgången, och din poäng är antalet rätta svar.",
     "timeAttackTitle": "Mot klockan",
     "timeAttackBody": "Du har {seconds} sekunder på dig att svara på så många frågor du hinner. Ett fel svar avslutar inte rundan, men det drar av {penalty} sekunder från klockan. Det finns inga livlinor.",
     "rankedTitle": "Rankat spel och rättvisa",
-    "rankedBody": "Rankade rundor i Maraton och Mot klockan döms av vår server: det rätta svaret når aldrig din enhet innan du har svarat, och klockan går på servern. Logga in med Google för att spela rankat. Rundor med egna inställningar eller som spelas offline är träningsrundor.",
+    "rankedBody": "Maraton- och Tidspress-omgångar döms alltid av vår server: det rätta svaret når aldrig din enhet förrän du svarar, och klockan hålls på servern. Vem som helst kan spela dem; logga in med Google för att få upp din poäng på topplistan.",
     "questionsTitle": "Om frågorna",
-    "questionsBody": "Frågorna skrivs av en AI-frågeskribent direkt på varje språk och kontrolleras automatiskt. Ungefär 40 % handlar om kulturen där ditt språk talas. Om en fråga verkar fel kan du använda ”Rapportera ett fel” när svaret har visats."
+    "questionsBody": "Frågorna skrivs av en frågeskapare med artificiell intelligens på respektive språk och kontrolleras automatiskt. Cirka 40 % handlar om kulturen där ditt språk talas. Om en fråga ser felaktig ut kan du använda ”Rapportera ett fel” efter att svaret har visats."
   },
   "About": {
-    "title": "Om Millionaire Quiz",
-    "intro": "Millionaire Quiz är ett gratis, fanskapat frågesportspel inspirerat av det klassiska tv-formatet – ombyggt för webben, för mobilen och för 50 språk.",
+    "title": "Om Vem vill bli miljonär? – Frågesport",
+    "intro": "Vem vill bli miljonär? – Frågesport är ett gratis, fan-gjort frågesportspel inspirerat av det klassiska tv-formatet – ombyggt för webben, för mobiler och för 50 språk.",
     "missionTitle": "Varför vi byggde det",
     "missionBody": "De flesta frågesportspel skrivs på engelska och översätts. Vi tycker att en frågesport ska kännas som hemma: frågorna ska handla om de människor, platser, böcker och traditioner du vuxit upp med, och om världen omkring.",
     "howTitle": "Så skapas frågorna",
     "howBody": "En stor språkmodell skriver varje fråga direkt på ditt språk, i omgångar, enligt strikta regler: ett tydligt rätt svar, fyra trovärdiga alternativ och bara stabila fakta. Frågorna valideras automatiskt, sparas och serveras till spelarna, och alla spelare kan rapportera fel.",
     "techTitle": "Under huven",
-    "techBody": "Millionaire Quiz är en progressiv webbapp: den installeras på din mobil eller dator, fungerar offline med nedladdningsbara frågepaket och synkar dina framsteg när du är uppkopplad igen.",
+    "techBody": "Vem vill bli miljonär? – Frågesport är en progressiv webbapp: den installeras på din telefon eller dator, fungerar offline med frågor som sparas automatiskt, och synkar dina framsteg när du ansluter igen.",
     "creditTitle": "Medverkande",
     "creditBody": "Designat och utvecklat av {author}.",
-    "disclaimer": "Millionaire Quiz är inte knutet till, godkänt av eller förknippat med något tv-program, någon tv-kanal eller någon rättighetsinnehavare."
+    "disclaimer": "Vem vill bli miljonär? – Frågesport är inte anslutet till, godkänt av eller kopplat till något tv-program, sändningsföretag eller rättighetsinnehavare."
   },
   "Legal": {
     "privacyTitle": "Integritetspolicy",
@@ -445,7 +497,7 @@
     "privacyRightsTitle": "Dina rättigheter",
     "privacyRightsBody": "Du kan när som helst ändra ditt visningsnamn och din bild, och du kan be oss radera ditt konto och alla tillhörande uppgifter genom att kontakta upphovspersonen.",
     "termsTitle": "Användarvillkor",
-    "termsIntro": "Genom att spela Millionaire Quiz godkänner du de här enkla villkoren.",
+    "termsIntro": "Genom att spela Vem vill bli miljonär? – Frågesport godkänner du dessa enkla villkor.",
     "termsPlayTitle": "Schysst spel",
     "termsPlayBody": "Spela rankade rundor ärligt. Automatiserat spel, att utnyttja buggar eller att manipulera topplistan kan leda till att dina rundor tas bort.",
     "termsContentTitle": "Frågor och korrekthet",
@@ -456,7 +508,7 @@
   },
   "Pwa": {
     "install": "Installera appen",
-    "installTitle": "Installera Millionaire Quiz",
+    "installTitle": "Installera Vem vill bli miljonär? – Frågesport",
     "benefit": "Spela i helskärm och offline, med ett tryck från hemskärmen.",
     "iosTitle": "Installera på iPhone eller iPad",
     "iosStep1": "Tryck på Dela-knappen i Safaris verktygsfält.",
@@ -464,9 +516,34 @@
     "iosStep3": "Tryck på ”Lägg till” – appen dyker upp på din hemskärm.",
     "gotIt": "Uppfattat"
   },
+  "Contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Hittat ett fel, har en idé eller behöver hjälp? Skriv till oss – vi läser varje meddelande.",
+    "name": "Ditt namn",
+    "nameRequired": "Vänligen ange ditt namn.",
+    "email": "E-post",
+    "emailRequired": "Vänligen ange din e-post så att vi kan svara.",
+    "emailInvalid": "Den e-postadressen ser inte rätt ut.",
+    "message": "Meddelande",
+    "messageRequired": "Vänligen skriv ett meddelande.",
+    "messagePlaceholder": "Hur kan vi hjälpa till?",
+    "send": "Skicka meddelande",
+    "error": "Ditt meddelande kunde inte skickas. Försök igen om en stund.",
+    "sentTitle": "Meddelandet skickat!",
+    "sentBody": "Tack för att du skrev. Vi svarar på den e-postadress du angav.",
+    "sendAnother": "Skicka ett till meddelande"
+  },
   "Auth": {
     "signedIn": "Välkommen, {name}!",
     "signedOut": "Du har loggat ut.",
+    "signInTitle": "Logga in",
+    "signInSubtitle": "Ett tryck med Google, och dina framsteg följer med till alla enheter.",
+    "benefitRanked": "Placera dina poäng i Maraton och Tidspress på den globala topplistan",
+    "benefitLeaderboard": "Välj det namn och den bild som andra spelare ser",
+    "benefitSync": "Behåll ditt bästa i Klassiskt, spelhistorik och märken överallt",
+    "privacyNote": "Vi använder endast ditt namn, din e-postadress och din bild från Google.",
+    "unavailable": "Inloggning är inte tillgänglig just nu. Du kan fortfarande spela Klassiskt – dina framsteg sparas på den här enheten.",
+    "alreadySignedIn": "Du är inloggad som {name}.",
     "errors": {
       "google_unavailable": "Inloggning med Google är inte tillgänglig just nu.",
       "google_denied": "Inloggningen avbröts.",
@@ -492,7 +569,7 @@
   },
   "Seo": {
     "keywords": "millionaire quiz, frågesport, quiz, frågesportspel, vem vill bli miljonär spel, gratis quiz, quiz online, allmänbildning",
-    "homeTitle": "Millionaire Quiz – Vem vill bli miljonär? Spela gratis online",
+    "homeTitle": "Vem vill bli miljonär? – Frågesport — Spela gratis online",
     "homeDescription": "Spela frågesportspelet gratis på 50 språk. 15 frågor till miljonen, fyra livlinor, säkra nivåer samt de oändliga lägena Maraton och Mot klockan med global topplista.",
     "playTitle": "Klassisk miljonärsquiz – 15 frågor till miljonen",
     "playDescription": "Klättra uppför vinststegen från {first} till {top}: femton frågor, två säkra nivåer, fyra livlinor. Gratis, utan registrering, på ditt språk.",
@@ -509,16 +586,20 @@
     "badgesTitle": "Märken – samla alla",
     "badgesDescription": "Tjugo märken att ta i Klassiskt, Maraton och Mot klockan: vinn miljonen, håll igång en svit, spela på många språk.",
     "rulesTitle": "Så spelar du – regler, vinststege och livlinor",
-    "rulesDescription": "Alla regler i Millionaire Quiz: vinststegen, säkra nivåer, att kliva av, de fyra livlinorna, Maraton och Mot klockan.",
-    "aboutTitle": "Om Millionaire Quiz",
-    "aboutDescription": "Ett gratis, fanskapat frågesportspel med AI-skrivna frågor på 50 språk, inspirerat av det klassiska tv-formatet.",
+    "rulesDescription": "De fullständiga reglerna för Vem vill bli miljonär? – Frågesport: pengastegen, säkra nivåer, att hoppa av, de fyra livlinorna, Maraton och Tidspress.",
+    "aboutTitle": "Om Vem vill bli miljonär? – Frågesport",
+    "aboutDescription": "Ett gratis, fan-gjort frågesportspel med frågor på 50 språk skapade av artificiell intelligens, inspirerat av det klassiska tv-frågesportformatet.",
     "privacyTitle": "Integritetspolicy",
-    "privacyDescription": "Vad Millionaire Quiz sparar, varför och hur du raderar det.",
+    "privacyDescription": "Vad Vem vill bli miljonär? – Frågesport lagrar, varför och hur du tar bort det.",
     "termsTitle": "Användarvillkor",
-    "termsDescription": "De enkla reglerna för att spela Millionaire Quiz schysst.",
+    "termsDescription": "De enkla reglerna för att spela Vem vill bli miljonär? – Frågesport på ett schysst sätt.",
     "profileTitle": "Din profil",
     "profileDescription": "Dina poäng, placeringar och märken.",
     "settingsTitle": "Inställningar",
-    "settingsDescription": "Ljud, frågepaket för offline och standardinställningar för spelet."
+    "contactTitle": "Kontakta oss",
+    "contactDescription": "Frågor, idéer eller ett fel i en fråga? Skicka ett meddelande till teamet bakom Vem vill bli miljonär? – Frågesport.",
+    "signInTitle": "Logga in",
+    "signInDescription": "Logga in med Google för att placera dina poäng på topplistan och spara dina framsteg på alla enheter.",
+    "settingsDescription": "Ljud, språk och inställningar för Klassiskt spel."
   }
 }

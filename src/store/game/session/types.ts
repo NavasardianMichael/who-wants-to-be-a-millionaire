@@ -8,9 +8,19 @@ import type { QuestionSource } from '@helpers/offline/questionSource'
  * idle → loading → asking ⇄ selected → locked → revealed → transition → asking … → ended
  *
  * `selected` exists only in Classic, where the show's "Is that your final answer?" step
- * applies; Marathon and Time Attack lock on the first tap.
+ * applies; Marathon and Time Attack lock on the first tap. `switching` is Switch the
+ * Question's interlude: asking → switching → asking (a new question).
  */
-export type GamePhase = 'idle' | 'loading' | 'asking' | 'selected' | 'locked' | 'revealed' | 'transition' | 'ended'
+export type GamePhase = 'idle' | 'loading' | 'asking' | 'selected' | 'locked' | 'revealed' | 'transition' | 'switching' | 'ended'
+
+/**
+ * Switch the Question's interlude: the player says which answer they would have given to the
+ * discarded question, sees whether it was right — never scored — and only then gets the new one.
+ */
+export type SwitchPreview =
+  | { status: 'choosing' }
+  | { status: 'revealed'; correct: boolean; correctIndex: number }
+  | null
 
 export type ActiveQuestion = {
   id: string
@@ -49,13 +59,13 @@ export type GameEnd = {
 export type StartConfig = {
   mode: GameMode
   locale: string
+  /** Classic's custom settings; Marathon and Time Attack always play the standard rules, ranked. */
   settings: GameSettings
-  /** Marathon / Time Attack only; needs a session and a connection. */
-  ranked: boolean
 }
 
 export type GameSessionState = StateCommonProps & {
   mode: GameMode
+  /** Marathon and Time Attack: refereed by the server (always, for those modes). */
   ranked: boolean
   locale: string
   settings: GameSettings | null
@@ -71,6 +81,7 @@ export type GameSessionState = StateCommonProps & {
   lifelinesUsed: Lifeline[]
   busyLifeline: Lifeline | null
   overlay: LifelineOverlay
+  switchPreview: SwitchPreview
   /** Epoch ms on this device's clock; null = no limit. */
   questionDeadline: number | null
   /** Time Attack: when the whole run ends. */
@@ -89,6 +100,8 @@ export type GameSessionActions = {
   cancelSelection: () => void
   confirmAnswer: () => Promise<void>
   useLifeline: (lifeline: Lifeline) => Promise<void>
+  /** During the Switch interlude: the answer the player would have given, or `null` to skip. */
+  previewSwitchAnswer: (index: number | null) => Promise<void>
   closeOverlay: () => void
   walkAway: () => Promise<void>
   timeUp: () => Promise<void>
