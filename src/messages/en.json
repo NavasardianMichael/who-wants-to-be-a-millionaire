@@ -68,7 +68,7 @@
     "settings": "Settings"
   },
   "Home": {
-    "eyebrow": "50 languages · questions written by artificial intelligence · free",
+    "eyebrow": "80 languages · questions written by artificial intelligence · free",
     "heroTitle": "Who wants to be a millionaire?",
     "modesTitle": "Three ways to play",
     "lifelinesTitle": "Four lifelines, one use each",
@@ -87,7 +87,7 @@
     "viewLeaderboard": "See the full leaderboard",
     "emptyLeaderboard": "No ranked runs yet — be the first!",
     "cultureTitle": "Questions that speak your language",
-    "cultureBody": "Our AI question writer creates fresh questions natively in each of 50 languages, mixing world knowledge with the history, literature, geography and traditions of your own culture. A question about your favourite poet will not be a translation of a question about someone else's.",
+    "cultureBody": "Our AI question writer creates fresh questions natively in each of 80 languages, mixing world knowledge with the history, literature, geography and traditions of your own culture. A question about your favourite poet will not be a translation of a question about someone else's.",
     "offlineTitle": "Play anywhere, even offline",
     "offlineBody": "Install the app and keep playing Classic on a plane or in the metro: questions in your language are saved on your device automatically. Your scores sync when you're back online.",
     "badgesTitle": "Collect badges",
@@ -414,7 +414,7 @@
   },
   "About": {
     "title": "About Millionaire Quiz",
-    "intro": "Millionaire Quiz is a free, fan-made quiz game inspired by the classic television format — rebuilt for the web, for phones, and for 50 languages.",
+    "intro": "Millionaire Quiz is a free, fan-made quiz game inspired by the classic television format — rebuilt for the web, for phones, and for 80 languages.",
     "missionTitle": "Why we built it",
     "missionBody": "Most quiz games are written in English and translated. We think a quiz should feel like home: the questions should be about the people, places, books and traditions you grew up with, as well as the wider world.",
     "howTitle": "How the questions are made",
@@ -510,7 +510,7 @@
   "Seo": {
     "keywords": "millionaire quiz, quiz game, trivia, who wants to be a millionaire game, free quiz, online quiz, general knowledge",
     "homeTitle": "Millionaire Quiz — Who Wants to Be a Millionaire? Play free online",
-    "homeDescription": "Play the quiz show game free in 50 languages. 15 questions to the million, four lifelines, safe havens, plus endless Marathon and Time Attack modes with a global leaderboard.",
+    "homeDescription": "Play the quiz show game free in 80 languages. 15 questions to the million, four lifelines, safe havens, plus endless Marathon and Time Attack modes with a global leaderboard.",
     "playTitle": "Classic Millionaire quiz — 15 questions to the million",
     "playDescription": "Climb the money ladder from {first} to {top}: fifteen questions, two safe havens, four lifelines. Free, no sign-up, in your language.",
     "marathonTitle": "Marathon quiz — how long can you last?",
@@ -528,7 +528,7 @@
     "rulesTitle": "How to play — rules, money ladder and lifelines",
     "rulesDescription": "The full rules of Millionaire Quiz: the money ladder, safe havens, walking away, the four lifelines, Marathon and Time Attack.",
     "aboutTitle": "About Millionaire Quiz",
-    "aboutDescription": "A free, fan-made quiz game with AI-written questions in 50 languages, inspired by the classic TV quiz format.",
+    "aboutDescription": "A free, fan-made quiz game with AI-written questions in 80 languages, inspired by the classic TV quiz format.",
     "privacyTitle": "Privacy policy",
     "privacyDescription": "What Millionaire Quiz stores, why, and how to delete it.",
     "termsTitle": "Terms of use",

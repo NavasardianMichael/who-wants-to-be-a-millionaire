@@ -4,7 +4,7 @@
 - Every page lives under `app/[lang]/`; `ROUTES` (`src/constants/routes.ts`) never contains a
   locale. Internal links use `AppLink` / `@i18n/navigation`, never `next/link`.
 - Every indexable page exports `generateMetadata` built with `pageMetadata()` (`@i18n/metadata`):
-  self-canonical + hreflang for all 50 locales + `x-default`. Private pages pass `noIndex`.
+  self-canonical + hreflang for all 80 locales + `x-default`. Private pages pass `noIndex`.
 - Adding a public route: add it to `ROUTES`, `INDEXABLE_ROUTES` (sitemap) and the nav constants.
 - RTL locales (`ar`, `ur`, `fa`, `he`) get `dir="rtl"`; use logical utilities (`ms-`, `pe-`,
   `inset-s-`, `text-start`) and flip directional icons with `rtl:-scale-x-100`.

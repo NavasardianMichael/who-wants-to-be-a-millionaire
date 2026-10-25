@@ -30,12 +30,20 @@ const parseAcceptLanguage = (header: string): WeightedTag[] =>
 const primarySubtag = (tag: string): string => tag.split('-')[0] ?? tag
 
 /**
+ * Tags that ask for Traditional Chinese without saying `zh-TW`: Hong Kong, Macau, or an
+ * explicit `Hant` script. By primary subtag alone they would get `zh-CN` — the wrong script.
+ */
+const TRADITIONAL_CHINESE = /^zh-(hant|hk|mo)(-|$)/
+
+const canonicalTag = (tag: string): string => (TRADITIONAL_CHINESE.test(tag) ? 'zh-tw' : tag)
+
+/**
  * Picks the best supported locale for an `Accept-Language` header.
  *
  * Deliberately **not** the BCP-47 "lookup" algorithm, which truncates the
  * *requested* tag and would strand real users: `pt-PT` truncates to `pt`, we
  * ship no bare `pt`, and a Portuguese speaker would land in English rather than
- * `pt-BR`. Same for `zh-TW` against `zh-CN`. Matching on the primary subtag
+ * `pt-BR`. Same for `zh-SG` against `zh-CN`. Matching on the primary subtag
  * instead gives them their language, which is the point.
  *
  * Quality is the user's stated preference, so it is the **outer** loop: each tag
@@ -60,7 +68,8 @@ export const matchAcceptLanguage = (header: string | null | undefined): Locale =
     if (!byPrimary.has(primary)) byPrimary.set(primary, locale)
   }
 
-  for (const { tag } of requested) {
+  for (const { tag: requestedTag } of requested) {
+    const tag = canonicalTag(requestedTag)
     const exact = byLowercase.get(tag)
     if (exact) return exact
 

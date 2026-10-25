@@ -208,7 +208,7 @@ docker exec millionaire-postgres-prod psql -U millionaire -d millionaire \
 ```
 
 After the first deploy, submit `https://who-wants-to-be-a-millionaire.mnavasardian.com/sitemap.xml`
-in Google Search Console (1350 URLs, every page × 50 locales with hreflang).
+in Google Search Console (2160 URLs, every page × 80 locales with hreflang).
 
 ## Gotchas
 

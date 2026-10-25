@@ -4,8 +4,10 @@ import { DEFAULT_LOCALE, type Locale } from './config'
 type Loader = () => Promise<{ default: AntdLocale }>
 
 /**
- * antd's own locale ids are language_REGION, not our BCP-47 codes. antd ships 45 of our 50;
- * Swahili, Telugu, Gujarati, Punjabi and Filipino have no bundle and fall back to English.
+ * antd's own locale ids are language_REGION, not our BCP-47 codes (Belarusian is `by_BY`).
+ * antd ships 62 of our 80; Swahili, Telugu, Gujarati, Punjabi, Filipino, Javanese, Hausa,
+ * Amharic, Yoruba, Igbo, Pashto, Odia, Zulu, Somali, Afrikaans, Kyrgyz, Lao and Welsh have
+ * no bundle and fall back to English.
  * That only affects antd's built-in copy (pagination, empty states, upload hints) — every
  * string we render ourselves is translated.
  */
@@ -55,11 +57,28 @@ const ANTD_LOCALE_LOADERS: Partial<Record<Locale, Loader>> = {
   uz: () => import('antd/locale/uz_UZ'),
   hy: () => import('antd/locale/hy_AM'),
   ka: () => import('antd/locale/ka_GE'),
+  'zh-TW': () => import('antd/locale/zh_TW'),
+  ne: () => import('antd/locale/ne_NP'),
+  my: () => import('antd/locale/my_MM'),
+  si: () => import('antd/locale/si_LK'),
+  km: () => import('antd/locale/km_KH'),
+  mn: () => import('antd/locale/mn_MN'),
+  ca: () => import('antd/locale/ca_ES'),
+  sq: () => import('antd/locale/sq_AL'),
+  lt: () => import('antd/locale/lt_LT'),
+  mk: () => import('antd/locale/mk_MK'),
+  be: () => import('antd/locale/by_BY'),
+  sl: () => import('antd/locale/sl_SI'),
+  lv: () => import('antd/locale/lv_LV'),
+  gl: () => import('antd/locale/gl_ES'),
+  et: () => import('antd/locale/et_EE'),
+  eu: () => import('antd/locale/eu_ES'),
+  is: () => import('antd/locale/is_IS'),
 }
 
 /**
  * Resolved on the server and handed to `ConfigProvider` as a prop (bookie's pattern), so only
- * the active locale's few KB cross the RSC boundary and none of the 45 bundles enter the
+ * the active locale's few KB cross the RSC boundary and none of the 62 bundles enter the
  * client bundle. antd's locale objects are plain data, which is what makes that possible.
  */
 export const getAntdLocale = async (locale: Locale): Promise<AntdLocale> => {

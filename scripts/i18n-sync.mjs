@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Fills keys that exist in `en.json` but are missing from other catalogues, using Gemini —
- * for the day a feature adds copy and 49 files fall behind. Keys removed from `en.json` are
+ * for the day a feature adds copy and 79 files fall behind. Keys removed from `en.json` are
  * dropped. Run `pnpm check:messages` afterwards and review the diff before committing:
  * machine output is a draft.
  *

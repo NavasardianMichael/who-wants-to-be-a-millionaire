@@ -22,8 +22,8 @@ const CHANGE_FREQUENCY: Partial<Record<RouteKey, MetadataRoute.Sitemap[number]['
 const PRIORITY: Partial<Record<RouteKey, number>> = { home: 1, play: 0.9, marathon: 0.8, timeAttack: 0.8, leaderboard: 0.7 }
 
 /**
- * Every public page × 50 locales, each entry carrying the full `hreflang` set so crawlers
- * see one page in 50 languages rather than 50 competing near-duplicates. Category landing
+ * Every public page × 80 locales, each entry carrying the full `hreflang` set so crawlers
+ * see one page in 80 languages rather than 80 competing near-duplicates. Category landing
  * pages are included: 16 × 50 more URLs with real sample questions on them.
  */
 export default function sitemap(): MetadataRoute.Sitemap {

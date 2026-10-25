@@ -7,7 +7,7 @@ progressive web app.
   mistake ends it) and Time Attack (180 seconds, wrong answers cost time).
 - **Four lifelines:** 50:50, Ask the Audience, Phone a Friend (an AI friend who is right about
   as often as a real one), and Switch the Question.
-- **50 languages**, every page server-rendered and indexed under its own URL
+- **80 languages**, every page server-rendered and indexed under its own URL
   (`/en/play`, `/hy/play`, `/ja/play` …) with hreflang alternates and a sitemap.
 - **Questions written by Gemini natively in each language**, mixing world knowledge with the
   culture of the people who speak it. They are pooled, validated and reused; a curated English

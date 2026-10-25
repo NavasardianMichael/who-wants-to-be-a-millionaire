@@ -1,8 +1,8 @@
 {
   "Common": {
-    "appName": "Ai Là Triệu Phú",
-    "wordmarkTop": "Ai Là",
-    "wordmarkBottom": "Triệu Phú",
+    "appName": "Đố Vui Triệu Phú",
+    "wordmarkTop": "Triệu Phú",
+    "wordmarkBottom": "Đố Vui",
     "tagline": "Trò chơi đố vui truyền hình bằng ngôn ngữ của bạn",
     "play": "Chơi",
     "playNow": "Chơi ngay",
@@ -68,7 +68,7 @@
     "settings": "Cài đặt"
   },
   "Home": {
-    "eyebrow": "50 ngôn ngữ · câu hỏi được viết bởi trí tuệ nhân tạo · miễn phí",
+    "eyebrow": "80 ngôn ngữ · câu hỏi được viết bởi trí tuệ nhân tạo · miễn phí",
     "heroTitle": "Ai là triệu phú?",
     "modesTitle": "Ba cách chơi",
     "lifelinesTitle": "Bốn quyền trợ giúp, mỗi quyền dùng một lần",
@@ -87,7 +87,7 @@
     "viewLeaderboard": "Xem toàn bộ bảng xếp hạng",
     "emptyLeaderboard": "Chưa có lượt chơi xếp hạng nào — hãy là người đầu tiên!",
     "cultureTitle": "Câu hỏi nói ngôn ngữ của bạn",
-    "cultureBody": "Trí tuệ nhân tạo tạo câu hỏi của chúng tôi tạo các câu hỏi mới hoàn toàn bằng từng ngôn ngữ trong số 50 ngôn ngữ, kết hợp kiến thức thế giới với lịch sử, văn học, địa lý và truyền thống của chính văn hóa bạn. Một câu hỏi về nhà thơ yêu thích của bạn sẽ không phải là bản dịch của câu hỏi về người khác.",
+    "cultureBody": "Trình soạn câu hỏi bằng trí tuệ nhân tạo của chúng tôi viết những câu hỏi hoàn toàn mới trực tiếp bằng từng ngôn ngữ trong số 80 ngôn ngữ, kết hợp kiến thức thế giới với lịch sử, văn học, địa lý và truyền thống của chính nền văn hóa của bạn. Một câu hỏi về nhà thơ bạn yêu thích sẽ không phải là bản dịch từ câu hỏi về một người nào khác.",
     "offlineTitle": "Chơi mọi nơi, kể cả khi ngoại tuyến",
     "offlineBody": "Cài đặt ứng dụng và tiếp tục chơi Cổ điển trên máy bay hoặc tàu điện ngầm: các câu hỏi bằng ngôn ngữ của bạn được lưu tự động trên thiết bị của bạn. Điểm số của bạn sẽ đồng bộ khi bạn kết nối lại.",
     "badgesTitle": "Sưu tầm huy hiệu",
@@ -96,18 +96,18 @@
     "categoriesTitle": "Khám phá các chủ đề",
     "categoriesSubtitle": "Từ lịch sử, khoa học đến điện ảnh, ẩm thực và văn hóa địa phương của bạn.",
     "faqTitle": "Câu hỏi thường gặp",
-    "faq1Question": "Ai Là Triệu Phú có miễn phí không?",
+    "faq1Question": "Đố Vui Triệu Phú có miễn phí không?",
     "faq1Answer": "Có. Mọi chế độ, mọi ngôn ngữ và mọi quyền trợ giúp đều miễn phí, và chơi Cổ điển không cần đăng ký.",
     "faq2Question": "Câu hỏi lấy từ đâu?",
-    "faq2Answer": "Trí tuệ nhân tạo tạo câu hỏi sẽ tạo chúng trực tiếp bằng ngôn ngữ của bạn và mọi câu hỏi đều được kiểm tra tự động trước khi đưa vào trò chơi. Nếu có câu hỏi nào lọt lưới, bạn có thể báo cáo chỉ với một lần chạm.",
+    "faq2Answer": "Trình soạn câu hỏi bằng trí tuệ nhân tạo viết chúng trực tiếp bằng ngôn ngữ của bạn, và mọi câu hỏi đều được kiểm tra tự động trước khi đưa vào trò chơi. Nếu có câu nào lọt lưới, bạn có thể báo lỗi chỉ với một lần chạm.",
     "faq3Question": "Mốc an toàn hoạt động thế nào?",
     "faq3Answer": "Trả lời đúng câu 5 đảm bảo cho bạn {havenOne}, và câu 10 đảm bảo {havenTwo}. Nếu trả lời sai một câu sau đó, bạn vẫn ra về với mức tiền của mốc an toàn gần nhất đã vượt qua.",
     "faq4Question": "Tôi có thể chơi ngoại tuyến không?",
-    "faq4Answer": "Có — chế độ Cổ điển hoạt động ngoại tuyến. Các câu hỏi bằng ngôn ngữ của bạn được lưu tự động trên thiết bị của bạn và các trận đấu ngoại tuyến sẽ đồng bộ khi bạn kết nối lại. Chế độ Marathon và Thử thách thời gian cần có kết nối.",
+    "faq4Answer": "Có — chế độ Cổ điển hoạt động ngoại tuyến. Các câu hỏi bằng ngôn ngữ của bạn được lưu tự động trên thiết bị của bạn và các lượt chơi ngoại tuyến sẽ đồng bộ khi bạn kết nối lại. Chế độ Marathon và Đua với thời gian cần có kết nối.",
     "faq5Question": "Làm sao để lên bảng xếp hạng?",
     "faq5Answer": "Đăng nhập bằng Google và chơi một lượt Marathon hoặc Đua với thời gian có xếp hạng. Mọi câu trả lời đều được máy chủ của chúng tôi kiểm tra, nên bảng xếp hạng luôn công bằng.",
     "faq6Question": "Đây có phải trò chơi chính thức của chương trình truyền hình không?",
-    "faq6Answer": "Không. Ai Là Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển."
+    "faq6Answer": "Không. Đố Vui Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển."
   },
   "Modes": {
     "classic": {
@@ -120,7 +120,7 @@
       "name": "Marathon",
       "tagline": "Sai một câu là kết thúc",
       "description": "Chuỗi câu hỏi bất tận, khó hơn sau mỗi 5 câu trả lời đúng. Bạn có bốn quyền trợ giúp kinh điển, mỗi quyền một lần — và chỉ một câu sai là lượt chơi kết thúc.",
-      "rules": "{minutes, plural, one {# phút} other {# phút}} cho mỗi câu hỏi. Cấp độ tăng sau mỗi 5 câu trả lời đúng. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi."
+      "rules": "{minutes, plural, other {# phút}} cho mỗi câu hỏi. Cấp độ tăng sau mỗi 5 câu trả lời đúng. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi."
     },
     "timeAttack": {
       "name": "Đua với thời gian",
@@ -129,8 +129,8 @@
       "rules": "Đồng hồ có {seconds} giây. Mỗi câu sai bị trừ {penalty} giây. Không có quyền trợ giúp — chỉ có tốc độ."
     },
     "rankedHint": "Mọi lượt chơi đều được tính vào bảng xếp hạng toàn cầu.",
-    "guestHint": "Chơi với tư cách khách: lượt chơi của bạn vẫn được tính trọng tài như bình thường, nhưng chỉ những người chơi đã đăng nhập mới xuất hiện trên bảng xếp hạng.",
-    "needsConnection": "Chế độ này cần có kết nối: mọi lượt chơi đều được trọng tài trực tiếp. Chế độ Cổ điển có thể chơi ngoại tuyến."
+    "guestHint": "Chơi với tư cách khách: lượt chơi của bạn vẫn được máy chủ làm trọng tài như bình thường, nhưng chỉ những người chơi đã đăng nhập mới xuất hiện trên bảng xếp hạng.",
+    "needsConnection": "Chế độ này cần có kết nối: mọi lượt chơi đều được máy chủ làm trọng tài trực tiếp. Chế độ Cổ điển có thể chơi ngoại tuyến."
   },
   "Game": {
     "startGame": "Bắt đầu chơi",
@@ -158,7 +158,7 @@
     "switchPrompt": "Trước khi chúng ta đổi — bạn sẽ trả lời thế nào?",
     "switchPromptHint": "Chỉ để giải trí thôi: kết quả sẽ không được tính đâu.",
     "switchSkip": "Bỏ qua, cứ đổi đi",
-    "switchWouldBeRight": "Bạn đã trả lời đúng rồi đấy!",
+    "switchWouldBeRight": "Lẽ ra bạn đã trả lời đúng đấy!",
     "switchWouldBeWrong": "May là bạn đã đổi đấy!",
     "switchComing": "Câu hỏi mới của bạn đây…",
     "walkAway": "Dừng cuộc chơi",
@@ -203,8 +203,8 @@
     "personalBest": "Kỷ lục cá nhân mới!",
     "rank": "Hạng #{rank} trên bảng xếp hạng",
     "newBadges": "{count, plural, other {Mở khóa # huy hiệu mới!}}",
-    "shareText": "Tôi đã giành được {amount} tại Ai Là Triệu Phú! Bạn có đánh bại được tôi không?",
-    "shareScoreText": "Tôi đạt {score} điểm trong chế độ {mode} tại Ai Là Triệu Phú! Bạn có đánh bại được tôi không?",
+    "shareText": "Tôi đã giành được {amount} tại Đố Vui Triệu Phú! Bạn có đánh bại được tôi không?",
+    "shareScoreText": "Tôi đạt {score} điểm trong chế độ {mode} tại Đố Vui Triệu Phú! Bạn có đánh bại được tôi không?",
     "backHome": "Về trang chủ",
     "viewLeaderboard": "Xem bảng xếp hạng",
     "signInToSave": "Đăng nhập để lưu điểm số và huy hiệu trên mọi thiết bị.",
@@ -239,7 +239,7 @@
     "title": "Cài đặt",
     "subtitle": "Âm thanh, ngôn ngữ và cài đặt trò chơi Cổ điển của bạn.",
     "gameTitle": "Cài đặt trò chơi",
-    "gameHint": "Những cài đặt này áp dụng cho các trò chơi Cổ điển. Chế độ Marathon và Thử thách thời gian được tính điểm và luôn sử dụng luật chơi chuẩn.",
+    "gameHint": "Những cài đặt này áp dụng cho chế độ Cổ điển. Marathon và Đua với thời gian là chế độ xếp hạng nên luôn dùng luật chơi chuẩn.",
     "customised": "Đang chơi với cài đặt tùy chỉnh của bạn.",
     "change": "Thay đổi",
     "categories": "Chủ đề",
@@ -266,7 +266,7 @@
     "title": "Chủ đề câu hỏi",
     "subtitle": "Mỗi chủ đề đều có câu hỏi được soạn trực tiếp bằng ngôn ngữ của bạn — kết hợp kiến thức thế giới với văn hóa của chính bạn.",
     "sampleTitle": "Câu hỏi mẫu",
-    "sampleSubtitle": "Nếm thử vài câu hỏi chủ đề {category} mà người chơi đang trả lời.",
+    "sampleSubtitle": "Một vài câu hỏi chủ đề {category} mà người chơi đang trả lời lúc này.",
     "revealAnswer": "Hiện đáp án",
     "hideAnswer": "Ẩn đáp án",
     "answer": "Đáp án: {answer}",
@@ -412,7 +412,7 @@
         "description": "Trả lời đúng 100 câu liên tiếp trong một lượt Marathon xếp hạng."
       },
       "timeAttack15": {
-        "name": "Tốc độ",
+        "name": "Siêu tốc",
         "description": "Đạt 15 điểm trong một lượt Đua với thời gian xếp hạng."
       },
       "timeAttack30": {
@@ -464,26 +464,26 @@
     "lifelinesTitle": "Quyền trợ giúp",
     "lifelinesBody": "Bạn có bốn quyền trợ giúp, mỗi quyền chỉ được dùng một lần trong mỗi lượt chơi:",
     "marathonTitle": "Marathon",
-    "marathonBody": "Một lượt chơi bất tận. Các câu hỏi sẽ khó hơn sau mỗi năm câu trả lời đúng, bạn có bốn quyền trợ giúp, mỗi quyền dùng một lần và bạn có {minutes, plural, one {# phút} other {# phút}} cho mỗi câu hỏi. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi và điểm số của bạn là số câu trả lời đúng.",
+    "marathonBody": "Một lượt chơi bất tận. Các câu hỏi sẽ khó hơn sau mỗi năm câu trả lời đúng, bạn có bốn quyền trợ giúp, mỗi quyền dùng một lần và bạn có {minutes, plural, other {# phút}} cho mỗi câu hỏi. Một câu trả lời sai hoặc hết giờ sẽ kết thúc lượt chơi và điểm số của bạn là số câu trả lời đúng.",
     "timeAttackTitle": "Đua với thời gian",
     "timeAttackBody": "Bạn có {seconds} giây để trả lời càng nhiều câu càng tốt. Trả lời sai không kết thúc lượt chơi nhưng bị trừ {penalty} giây trên đồng hồ. Không có quyền trợ giúp.",
     "rankedTitle": "Chơi xếp hạng và tính công bằng",
-    "rankedBody": "Các lượt chơi Marathon và Thử thách thời gian luôn được máy chủ của chúng tôi làm trọng tài: câu trả lời đúng không bao giờ xuất hiện trên thiết bị của bạn trước khi bạn trả lời và đồng hồ được tính trên máy chủ. Bất kỳ ai cũng có thể chơi; hãy đăng nhập bằng Google để đưa điểm số của bạn lên bảng xếp hạng.",
+    "rankedBody": "Các lượt chơi Marathon và Đua với thời gian luôn được máy chủ của chúng tôi làm trọng tài: câu trả lời đúng không bao giờ xuất hiện trên thiết bị của bạn trước khi bạn trả lời và đồng hồ được tính trên máy chủ. Bất kỳ ai cũng có thể chơi; hãy đăng nhập bằng Google để đưa điểm số của bạn lên bảng xếp hạng.",
     "questionsTitle": "Về các câu hỏi",
-    "questionsBody": "Các câu hỏi được viết bởi trí tuệ nhân tạo tạo câu hỏi bằng từng ngôn ngữ và được kiểm tra tự động. Khoảng 40% câu hỏi nói về văn hóa nơi ngôn ngữ của bạn được sử dụng. Nếu một câu hỏi có vẻ sai, hãy sử dụng “Báo cáo lỗi” sau khi câu trả lời được tiết lộ."
+    "questionsBody": "Các câu hỏi được trình soạn câu hỏi bằng trí tuệ nhân tạo viết trực tiếp bằng từng ngôn ngữ và được kiểm tra tự động. Khoảng 40% câu hỏi nói về văn hóa nơi ngôn ngữ của bạn được sử dụng. Nếu một câu hỏi có vẻ sai, hãy dùng nút “Báo lỗi” sau khi đáp án được công bố."
   },
   "About": {
-    "title": "Giới thiệu về Ai Là Triệu Phú",
-    "intro": "Ai Là Triệu Phú là một trò chơi đố vui miễn phí do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình truyền hình cổ điển — được làm lại cho web, điện thoại và 50 ngôn ngữ.",
+    "title": "Giới thiệu về Đố Vui Triệu Phú",
+    "intro": "Đố Vui Triệu Phú là một trò chơi đố vui miễn phí do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình truyền hình cổ điển — được làm lại cho web, điện thoại và 80 ngôn ngữ.",
     "missionTitle": "Vì sao chúng tôi làm ra nó",
     "missionBody": "Hầu hết trò chơi đố vui được viết bằng tiếng Anh rồi dịch lại. Chúng tôi tin rằng một câu đố phải mang cảm giác thân thuộc: câu hỏi nên nói về những con người, địa danh, cuốn sách và truyền thống bạn lớn lên cùng, cũng như về thế giới rộng lớn ngoài kia.",
     "howTitle": "Câu hỏi được tạo ra như thế nào",
     "howBody": "Một mô hình ngôn ngữ lớn viết từng câu hỏi trực tiếp bằng ngôn ngữ của bạn, theo từng đợt, tuân thủ các quy tắc nghiêm ngặt: một đáp án đúng rõ ràng, bốn phương án hợp lý, chỉ dùng những sự thật ổn định. Câu hỏi được kiểm định tự động, lưu trữ rồi đưa đến người chơi; bất kỳ ai cũng có thể báo lỗi.",
     "techTitle": "Phía sau hậu trường",
-    "techBody": "Ai Là Triệu Phú là một ứng dụng web tiến bộ: ứng dụng này cài đặt trên điện thoại hoặc máy tính của bạn, hoạt động ngoại tuyến với các câu hỏi được lưu tự động và đồng bộ tiến trình của bạn khi bạn kết nối lại.",
+    "techBody": "Đố Vui Triệu Phú là một ứng dụng web tiến bộ: ứng dụng này cài đặt trên điện thoại hoặc máy tính của bạn, hoạt động ngoại tuyến với các câu hỏi được lưu tự động và đồng bộ tiến trình của bạn khi bạn kết nối lại.",
     "creditTitle": "Ghi công",
     "creditBody": "Thiết kế và phát triển bởi {author}.",
-    "disclaimer": "Ai Là Triệu Phú không liên kết, được chứng thực bởi hoặc kết nối với bất kỳ chương trình truyền hình, đài phát thanh hoặc chủ sở hữu quyền nào."
+    "disclaimer": "Đố Vui Triệu Phú không liên kết, được chứng thực bởi hoặc kết nối với bất kỳ chương trình truyền hình, đài truyền hình hoặc chủ sở hữu bản quyền nào."
   },
   "Legal": {
     "privacyTitle": "Chính sách quyền riêng tư",
@@ -497,7 +497,7 @@
     "privacyRightsTitle": "Quyền của bạn",
     "privacyRightsBody": "Bạn có thể đổi tên hiển thị và ảnh đại diện bất cứ lúc nào, và có thể yêu cầu xóa tài khoản cùng toàn bộ dữ liệu liên quan bằng cách liên hệ với tác giả.",
     "termsTitle": "Điều khoản sử dụng",
-    "termsIntro": "Bằng cách chơi Ai Là Triệu Phú, bạn đồng ý với các điều khoản đơn giản sau.",
+    "termsIntro": "Bằng cách chơi Đố Vui Triệu Phú, bạn đồng ý với các điều khoản đơn giản sau.",
     "termsPlayTitle": "Chơi đẹp",
     "termsPlayBody": "Hãy chơi các lượt xếp hạng một cách trung thực. Dùng công cụ tự động, lợi dụng lỗi hoặc can thiệp vào bảng xếp hạng có thể khiến lượt chơi của bạn bị xóa.",
     "termsContentTitle": "Câu hỏi và độ chính xác",
@@ -508,7 +508,7 @@
   },
   "Pwa": {
     "install": "Cài đặt ứng dụng",
-    "installTitle": "Cài đặt Ai Là Triệu Phú",
+    "installTitle": "Cài đặt Đố Vui Triệu Phú",
     "benefit": "Chơi toàn màn hình và ngoại tuyến, chỉ với một chạm từ màn hình chính.",
     "iosTitle": "Cài đặt trên iPhone hoặc iPad",
     "iosStep1": "Chạm vào nút Chia sẻ trên thanh công cụ của Safari.",
@@ -538,7 +538,7 @@
     "signedOut": "Bạn đã đăng xuất.",
     "signInTitle": "Đăng nhập",
     "signInSubtitle": "Chỉ một lần chạm với Google, tiến trình của bạn sẽ theo bạn đến mọi thiết bị.",
-    "benefitRanked": "Đưa điểm số Marathon và Thử thách thời gian của bạn lên bảng xếp hạng toàn cầu",
+    "benefitRanked": "Đưa điểm số Marathon và Đua với thời gian của bạn lên bảng xếp hạng toàn cầu",
     "benefitLeaderboard": "Chọn tên và hình ảnh mà những người chơi khác nhìn thấy",
     "benefitSync": "Giữ kỷ lục Cổ điển, lịch sử trò chơi và huy hiệu của bạn ở mọi nơi",
     "privacyNote": "Chúng tôi chỉ sử dụng tên, địa chỉ email và hình ảnh của bạn từ Google.",
@@ -568,10 +568,10 @@
     "pageErrorBody": "Một lỗi không mong muốn đã làm gián đoạn trang này. Bạn có thể thử lại."
   },
   "Seo": {
-    "keywords": "ai là triệu phú, trò chơi đố vui, câu đố kiến thức, game ai là triệu phú, đố vui miễn phí, đố vui trực tuyến, kiến thức chung",
-    "homeTitle": "Ai Là Triệu Phú — Ai muốn làm triệu phú? Chơi miễn phí trực tuyến",
-    "homeDescription": "Chơi gameshow đố vui miễn phí bằng 50 ngôn ngữ. 15 câu hỏi đến giải triệu đô, bốn quyền trợ giúp, các mốc an toàn, cùng chế độ Marathon bất tận và Đua với thời gian với bảng xếp hạng toàn cầu.",
-    "playTitle": "Ai là triệu phú phiên bản cổ điển — 15 câu hỏi đến giải triệu đô",
+    "keywords": "đố vui triệu phú, trò chơi đố vui, câu đố kiến thức, game ai là triệu phú, đố vui miễn phí, đố vui trực tuyến, kiến thức chung",
+    "homeTitle": "Đố Vui Triệu Phú — Ai là triệu phú? Chơi miễn phí trực tuyến",
+    "homeDescription": "Chơi gameshow đố vui miễn phí bằng 80 ngôn ngữ. 15 câu hỏi đến giải triệu đô, bốn quyền trợ giúp, các mốc an toàn, cùng chế độ Marathon bất tận và Đua với thời gian với bảng xếp hạng toàn cầu.",
+    "playTitle": "Đố Vui Triệu Phú bản Cổ điển — 15 câu hỏi đến giải triệu đô",
     "playDescription": "Leo thang tiền thưởng từ {first} đến {top}: mười lăm câu hỏi, hai mốc an toàn, bốn quyền trợ giúp. Miễn phí, không cần đăng ký, bằng ngôn ngữ của bạn.",
     "marathonTitle": "Đố vui Marathon — bạn trụ được bao lâu?",
     "marathonDescription": "Cuộc đố vui bất tận, khó hơn sau mỗi năm câu trả lời. Sai một câu là kết thúc. Tranh tài trên bảng xếp hạng Marathon toàn cầu.",
@@ -586,18 +586,18 @@
     "badgesTitle": "Huy hiệu — sưu tầm tất cả",
     "badgesDescription": "Hai mươi huy hiệu để giành được ở các chế độ Cổ điển, Marathon và Đua với thời gian: giành giải triệu đô, giữ chuỗi ngày chơi, chơi bằng nhiều ngôn ngữ.",
     "rulesTitle": "Cách chơi — luật chơi, thang tiền thưởng và quyền trợ giúp",
-    "rulesDescription": "Luật chơi đầy đủ của Ai Là Triệu Phú: thang tiền thưởng, mốc an toàn, dừng cuộc chơi, bốn quyền trợ giúp, Marathon và Thử thách thời gian.",
-    "aboutTitle": "Giới thiệu về Ai Là Triệu Phú",
-    "aboutDescription": "Một trò chơi đố vui miễn phí do người hâm mộ tạo ra với các câu hỏi do trí tuệ nhân tạo viết bằng 50 ngôn ngữ, lấy cảm hứng từ định dạng chương trình đố vui truyền hình cổ điển.",
+    "rulesDescription": "Luật chơi đầy đủ của Đố Vui Triệu Phú: thang tiền thưởng, mốc an toàn, dừng cuộc chơi, bốn quyền trợ giúp, Marathon và Đua với thời gian.",
+    "aboutTitle": "Giới thiệu về Đố Vui Triệu Phú",
+    "aboutDescription": "Một trò chơi đố vui miễn phí do người hâm mộ tạo ra với các câu hỏi do trí tuệ nhân tạo viết bằng 80 ngôn ngữ, lấy cảm hứng từ định dạng chương trình đố vui truyền hình cổ điển.",
     "privacyTitle": "Chính sách quyền riêng tư",
-    "privacyDescription": "Những gì Ai Là Triệu Phú lưu trữ, lý do tại sao và cách xóa.",
+    "privacyDescription": "Những gì Đố Vui Triệu Phú lưu trữ, lý do tại sao và cách xóa.",
     "termsTitle": "Điều khoản sử dụng",
-    "termsDescription": "Các quy tắc đơn giản để chơi Ai Là Triệu Phú công bằng.",
+    "termsDescription": "Các quy tắc đơn giản để chơi Đố Vui Triệu Phú công bằng.",
     "profileTitle": "Hồ sơ của bạn",
     "profileDescription": "Điểm số, thứ hạng và huy hiệu của bạn.",
     "settingsTitle": "Cài đặt",
     "contactTitle": "Liên hệ với chúng tôi",
-    "contactDescription": "Câu hỏi, ý tưởng hay lỗi trong câu hỏi? Gửi tin nhắn cho đội ngũ Ai Là Triệu Phú.",
+    "contactDescription": "Câu hỏi, ý tưởng hay lỗi trong câu hỏi? Gửi tin nhắn cho đội ngũ Đố Vui Triệu Phú.",
     "signInTitle": "Đăng nhập",
     "signInDescription": "Đăng nhập bằng Google để đưa điểm số của bạn lên bảng xếp hạng và giữ tiến trình của bạn trên mọi thiết bị.",
     "settingsDescription": "Cài đặt âm thanh, ngôn ngữ và trò chơi Cổ điển."

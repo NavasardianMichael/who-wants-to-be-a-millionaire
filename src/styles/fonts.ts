@@ -24,9 +24,9 @@ export const fontBody = Manrope({
 
 /**
  * Locales whose script neither face has. Loaded per page from Google Fonts — only the
- * active locale's family, so 49 visitors in 50 never download a CJK font they cannot read.
- * (next/font would inline every family's @font-face rules into the shared CSS; with 16
- * script families, three of them CJK, that costs every visitor hundreds of KB.)
+ * active locale's family, so 79 visitors in 80 never download a CJK font they cannot read.
+ * (next/font would inline every family's @font-face rules into the shared CSS; with 23
+ * script families, four of them CJK, that costs every visitor hundreds of KB.)
  *
  * `--font-script` is appended *after* the Latin faces, so Latin text inside an Arabic UI
  * still renders in Montserrat/Manrope by per-glyph fallback.
@@ -52,6 +52,15 @@ const SCRIPT_FAMILIES: Partial<Record<Locale, string>> = {
   hy: 'Noto Sans Armenian',
   ka: 'Noto Sans Georgian',
   el: 'Noto Sans',
+  'zh-TW': 'Noto Sans TC',
+  ps: 'Noto Sans Arabic',
+  ne: 'Noto Sans Devanagari',
+  or: 'Noto Sans Oriya',
+  si: 'Noto Sans Sinhala',
+  my: 'Noto Sans Myanmar',
+  km: 'Noto Sans Khmer',
+  lo: 'Noto Sans Lao',
+  am: 'Noto Sans Ethiopic',
 }
 
 export type ScriptFont = { family: string; href: string }

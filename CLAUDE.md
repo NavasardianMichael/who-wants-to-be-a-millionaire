@@ -1,6 +1,6 @@
 # Millionaire Quiz
 
-A "Who Wants to Be a Millionaire?"-style quiz game in 50 languages. A Next.js App Router PWA
+A "Who Wants to Be a Millionaire?"-style quiz game in 80 languages. A Next.js App Router PWA
 and an Express/Prisma API in `server/`, in one pnpm workspace. Questions are written by
 Gemini natively per language and pooled in Postgres; a curated English bank is the fallback.
 
@@ -17,8 +17,9 @@ pnpm verify                   # typecheck → typecheck:server → gates → lin
 pnpm test:unit                # fast, no database
 pnpm test:integration         # real API against a throwaway millionaire_test database
 pnpm test:e2e                 # Playwright, needs `pnpm dev` running
-pnpm check:messages           # all 49 catalogues match en.json (keys, placeholders, plurals)
+pnpm check:messages           # all 79 catalogues match en.json (keys, placeholders, plurals)
 pnpm i18n:sync [locales]      # Gemini-fills keys added to en.json since the last translation
+pnpm i18n:formats             # regenerate src/i18n/numberFormats.ts (money/number patterns) from Node's ICU
 pnpm export:fallback          # copy the English bank to public/packs/fallback-en.json
 pnpm build:api                # server/dist + the deployable out/api release
 ```
@@ -71,7 +72,7 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   translated copy by error *kind* (`ErrorAlert`, `classifyError`); development adds the
   original message. Never render a server's English message. A deliberate silence goes
   through `reportError`.
-- **Every user-visible string** is in `src/messages/en.json`, then synced to the 49 other
+- **Every user-visible string** is in `src/messages/en.json`, then synced to the 79 other
   catalogues (`pnpm i18n:sync`, then `pnpm check:messages`).
 - **No hex outside the token files, no `dark:`, no bare antd `Modal`/`Drawer`, no `var(--ant-*)`
   outside globals.css §2** — `pnpm gates` enforces it.
@@ -85,7 +86,7 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`
   (`next/root-params`), and `requestLocale` must never be destructured in the parameter list —
   it is a getter that calls `headers()`, which silently turns every page dynamic. No
-  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 1559 routes.
+  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2489 routes.
 - `useSearchParams` needs a `<Suspense>` boundary, or every static page falls back to
   client rendering — prefer reading `window.location` in an event handler.
 - **No mode needs an account.** Marathon and Time Attack are always ranked and refereed by

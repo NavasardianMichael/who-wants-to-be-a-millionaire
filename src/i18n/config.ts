@@ -1,8 +1,9 @@
 /**
- * The 50 supported locales, roughly by number of speakers online.
+ * The 80 supported locales: the first 50 roughly by number of speakers online, then the
+ * 30 added after them, in the same spirit.
  *
  * BCP-47 codes carry a region only where it decides the copy — `pt-BR` rather than `pt-PT`,
- * `zh-CN` (Simplified) rather than `zh-TW`. **Twin:** `server/src/lib/locales.ts` holds the
+ * `zh-CN` (Simplified) and `zh-TW` (Traditional, also Hong Kong's). **Twin:** `server/src/lib/locales.ts` holds the
  * same list plus each locale's culture hint for question generation;
  * `tests/unit/i18n/locales.spec.ts` keeps them in step.
  *
@@ -61,6 +62,36 @@ export const LOCALES = [
   'uz',
   'hy',
   'ka',
+  'zh-TW',
+  'jv',
+  'ha',
+  'am',
+  'yo',
+  'ne',
+  'my',
+  'ig',
+  'si',
+  'km',
+  'ps',
+  'or',
+  'zu',
+  'so',
+  'af',
+  'ky',
+  'mn',
+  'lo',
+  'ca',
+  'sq',
+  'lt',
+  'mk',
+  'be',
+  'sl',
+  'lv',
+  'gl',
+  'et',
+  'eu',
+  'cy',
+  'is',
 ] as const
 
 export type Locale = (typeof LOCALES)[number]
@@ -73,7 +104,7 @@ export const LOCALE_COOKIE = 'NEXT_LOCALE'
 export const isLocale = (value: unknown): value is Locale => LOCALES.includes(value as Locale)
 
 /** Right-to-left scripts. Drives `<html dir>`. */
-const RTL_LOCALES = new Set<Locale>(['ar', 'ur', 'fa', 'he'])
+const RTL_LOCALES = new Set<Locale>(['ar', 'ur', 'fa', 'he', 'ps'])
 
 export type Direction = 'ltr' | 'rtl'
 
@@ -135,6 +166,36 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   uz: 'Oʻzbekcha',
   hy: 'Հայերեն',
   ka: 'ქართული',
+  'zh-TW': '繁體中文',
+  jv: 'Basa Jawa',
+  ha: 'Hausa',
+  am: 'አማርኛ',
+  yo: 'Yorùbá',
+  ne: 'नेपाली',
+  my: 'မြန်မာ',
+  ig: 'Igbo',
+  si: 'සිංහල',
+  km: 'ខ្មែរ',
+  ps: 'پښتو',
+  or: 'ଓଡ଼ିଆ',
+  zu: 'isiZulu',
+  so: 'Soomaali',
+  af: 'Afrikaans',
+  ky: 'Кыргызча',
+  mn: 'Монгол',
+  lo: 'ລາວ',
+  ca: 'Català',
+  sq: 'Shqip',
+  lt: 'Lietuvių',
+  mk: 'Македонски',
+  be: 'Беларуская',
+  sl: 'Slovenščina',
+  lv: 'Latviešu',
+  gl: 'Galego',
+  et: 'Eesti',
+  eu: 'Euskara',
+  cy: 'Cymraeg',
+  is: 'Íslenska',
 }
 
 /** OpenGraph wants `ll_CC`; a best-effort region per language. */
@@ -189,4 +250,34 @@ export const OG_LOCALES: Record<Locale, string> = {
   uz: 'uz_UZ',
   hy: 'hy_AM',
   ka: 'ka_GE',
+  'zh-TW': 'zh_TW',
+  jv: 'jv_ID',
+  ha: 'ha_NG',
+  am: 'am_ET',
+  yo: 'yo_NG',
+  ne: 'ne_NP',
+  my: 'my_MM',
+  ig: 'ig_NG',
+  si: 'si_LK',
+  km: 'km_KH',
+  ps: 'ps_AF',
+  or: 'or_IN',
+  zu: 'zu_ZA',
+  so: 'so_SO',
+  af: 'af_ZA',
+  ky: 'ky_KG',
+  mn: 'mn_MN',
+  lo: 'lo_LA',
+  ca: 'ca_ES',
+  sq: 'sq_AL',
+  lt: 'lt_LT',
+  mk: 'mk_MK',
+  be: 'be_BY',
+  sl: 'sl_SI',
+  lv: 'lv_LV',
+  gl: 'gl_ES',
+  et: 'et_EE',
+  eu: 'eu_ES',
+  cy: 'cy_GB',
+  is: 'is_IS',
 }

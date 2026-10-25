@@ -1,6 +1,6 @@
 {
   "Common": {
-    "appName": "Millionär Quiz",
+    "appName": "Millionär-Quiz",
     "wordmarkTop": "Millionär",
     "wordmarkBottom": "Quiz",
     "tagline": "Das Quizshow-Spiel in deiner Sprache",
@@ -47,13 +47,13 @@
     "share": "Teilen",
     "copied": "Link kopiert",
     "comingBack": "Bis bald!",
-    "copyright": "© {year} {appName}. Ein Fan-Quizspiel, nicht mit einer TV-Show verbunden."
+    "copyright": "© {year} {appName}. Ein Quizspiel von Fans, ohne Verbindung zu einer TV-Show."
   },
   "Nav": {
     "main": "Hauptnavigation",
     "footer": "Fußzeile",
     "home": "Start",
-    "classic": "Klassisch",
+    "classic": "Klassik",
     "marathon": "Marathon",
     "timeAttack": "Zeitjagd",
     "leaderboard": "Bestenliste",
@@ -68,7 +68,7 @@
     "settings": "Einstellungen"
   },
   "Home": {
-    "eyebrow": "50 Sprachen · Fragen geschrieben von künstlicher Intelligenz · kostenlos",
+    "eyebrow": "80 Sprachen · Fragen geschrieben von künstlicher Intelligenz · kostenlos",
     "heroTitle": "Wer wird Millionär?",
     "modesTitle": "Drei Spielmodi",
     "lifelinesTitle": "Vier Joker, je einmal",
@@ -85,9 +85,9 @@
     "leaderboardTitle": "Ruhmeshalle",
     "leaderboardSubtitle": "Die besten Marathon- und Zeitjagd-Runden von Spielern aus aller Welt.",
     "viewLeaderboard": "Zur ganzen Bestenliste",
-    "emptyLeaderboard": "Noch keine Ranglisten-Runden – sei die oder der Erste!",
+    "emptyLeaderboard": "Noch keine Ranglisten-Runden – mach den Anfang!",
     "cultureTitle": "Fragen, die deine Sprache sprechen",
-    "cultureBody": "Unsere künstliche Intelligenz erstellt ganz neue Fragen direkt in 50 Sprachen und kombiniert Allgemeinwissen mit Geschichte, Literatur, Geografie und Traditionen deiner Kultur. Eine Frage zu deiner Lieblingsdichterin oder deinem Lieblingsdichter ist also keine Übersetzung aus einer anderen Sprache.",
+    "cultureBody": "Unsere künstliche Intelligenz erstellt ganz neue Fragen direkt in 80 Sprachen und kombiniert Allgemeinwissen mit Geschichte, Literatur, Geografie und Traditionen deiner Kultur. Eine Frage zu deiner Lieblingsdichterin oder deinem Lieblingsdichter ist also keine Übersetzung aus einer anderen Sprache.",
     "offlineTitle": "Überall spielen, sogar offline",
     "offlineBody": "Installiere die App und spiele den Klassik-Modus auch im Flugzeug oder in der U-Bahn weiter: Fragen in deiner Sprache werden automatisch auf deinem Gerät gespeichert. Sobald du wieder online bist, synchronisieren sich deine Punktestände.",
     "badgesTitle": "Sammle Abzeichen",
@@ -96,22 +96,22 @@
     "categoriesTitle": "Entdecke die Kategorien",
     "categoriesSubtitle": "Von Geschichte und Wissenschaft bis Film, Essen und deiner eigenen Kultur.",
     "faqTitle": "Häufige Fragen",
-    "faq1Question": "Ist Millionär Quiz kostenlos?",
-    "faq1Answer": "Ja. Alle Modi, alle Sprachen und alle Joker sind kostenlos – und für den klassischen Modus brauchst du nicht einmal ein Konto.",
+    "faq1Question": "Ist Millionär-Quiz kostenlos?",
+    "faq1Answer": "Ja. Alle Modi, alle Sprachen und alle Joker sind kostenlos – und für Klassik brauchst du nicht einmal ein Konto.",
     "faq2Question": "Woher kommen die Fragen?",
     "faq2Answer": "Eine künstliche Intelligenz verfasst die Fragen direkt in deiner Sprache, und jede Frage wird automatisch überprüft, bevor sie im Spiel landet. Sollte doch mal ein Fehler durchrutschen, kannst du ihn mit einem Fingertipp melden.",
     "faq3Question": "Wie funktionieren die Sicherheitsstufen?",
     "faq3Answer": "Beantwortest du Frage 5 richtig, sind dir {havenOne} sicher, bei Frage 10 sind es {havenTwo}. Liegst du später falsch, gehst du trotzdem mit der letzten erreichten Sicherheitsstufe nach Hause.",
     "faq4Question": "Kann ich offline spielen?",
-    "faq4Answer": "Ja – Klassik funktioniert offline. Fragen in deiner Sprache werden automatisch auf deinem Gerät gespeichert, und Offline-Spiele werden synchronisiert, sobald du wieder online bist. Für Marathon und Zeitangriff brauchst du eine Internetverbindung.",
+    "faq4Answer": "Ja – Klassik funktioniert offline. Fragen in deiner Sprache werden automatisch auf deinem Gerät gespeichert, und Offline-Spiele werden synchronisiert, sobald du wieder online bist. Für Marathon und Zeitjagd brauchst du eine Internetverbindung.",
     "faq5Question": "Wie komme ich in die Bestenliste?",
     "faq5Answer": "Melde dich mit Google an und spiel eine Ranglisten-Runde im Marathon oder in der Zeitjagd. Jede Antwort wird von unserem Server geprüft – so bleibt die Bestenliste fair.",
     "faq6Question": "Ist das das offizielle Spiel zur TV-Show?",
-    "faq6Answer": "Nein. Millionär Quiz ist ein unabhängiges, von Fans erstelltes Spiel, inspiriert vom klassischen Quizshow-Format."
+    "faq6Answer": "Nein. Millionär-Quiz ist ein unabhängiges, von Fans erstelltes Spiel, inspiriert vom klassischen Quizshow-Format."
   },
   "Modes": {
     "classic": {
-      "name": "Klassisch",
+      "name": "Klassik",
       "tagline": "15 Fragen bis zur Million",
       "description": "Das Original: fünfzehn Fragen mit steigender Schwierigkeit, zwei Sicherheitsstufen, vier Joker und die Freiheit, jederzeit mit deinem Gewinn auszusteigen.",
       "rules": "Beantworte 15 Fragen und gewinne {top}. Sicherheitsstufen bei Frage 5 und 10. Du kannst jederzeit mit deinem bisherigen Gewinn aussteigen."
@@ -201,10 +201,10 @@
     "endedTitle": "Runde vorbei",
     "endedBody": "Du hast {count, plural, one {# Frage} other {# Fragen}} richtig beantwortet.",
     "personalBest": "Neue persönliche Bestleistung!",
-    "rank": "Platz #{rank} in der Bestenliste",
+    "rank": "Platz {rank} in der Bestenliste",
     "newBadges": "{count, plural, one {Neues Abzeichen freigeschaltet!} other {# neue Abzeichen freigeschaltet!}}",
-    "shareText": "Ich habe {amount} bei Millionär Quiz gewonnen! Kannst du das toppen?",
-    "shareScoreText": "Ich habe {score} Punkte im Modus {mode} bei Millionär Quiz geschafft! Kannst du das toppen?",
+    "shareText": "Ich habe {amount} bei Millionär-Quiz gewonnen! Kannst du das toppen?",
+    "shareScoreText": "Ich habe {score} Punkte im Modus {mode} bei Millionär-Quiz geschafft! Kannst du das toppen?",
     "backHome": "Zur Startseite",
     "viewLeaderboard": "Bestenliste ansehen",
     "signInToSave": "Melde dich an, um deine Punkte und Abzeichen auf allen Geräten zu behalten.",
@@ -239,7 +239,7 @@
     "title": "Einstellungen",
     "subtitle": "Ton, Sprache und deine Einstellungen für den Klassik-Modus.",
     "gameTitle": "Spieleinstellungen",
-    "gameHint": "Diese Einstellungen gelten für Klassik-Spiele. Marathon und Zeitangriff sind gewertete Modi und nutzen immer die Standardregeln.",
+    "gameHint": "Diese Einstellungen gelten für Klassik-Spiele. Marathon und Zeitjagd sind gewertete Modi und nutzen immer die Standardregeln.",
     "customised": "Du spielst mit deinen eigenen Einstellungen.",
     "change": "Ändern",
     "categories": "Kategorien",
@@ -315,7 +315,7 @@
     "subtitle": "Die besten Ranglisten-Runden von Spielern aus aller Welt. Jede Antwort wurde von unserem Server geprüft.",
     "mode": "Modus",
     "allLanguages": "Alle Sprachen",
-    "allTime": "Allzeit",
+    "allTime": "Gesamt",
     "thisWeek": "Diese Woche",
     "searchLabel": "Spieler suchen",
     "searchPlaceholder": "Nach Namen suchen…",
@@ -336,7 +336,7 @@
   "Profile": {
     "title": "Dein Profil",
     "signInTitle": "Melde dich an, um deinen Fortschritt zu behalten",
-    "signInBody": "Deine Bestleistung im klassischen Modus, deine Ranglisten-Runden und Abzeichen begleiten dich auf jedes Gerät. Ein Tipp mit Google genügt.",
+    "signInBody": "Deine Bestleistung im Klassik-Modus, deine Ranglisten-Runden und Abzeichen begleiten dich auf jedes Gerät. Ein Tipp mit Google genügt.",
     "displayName": "Anzeigename",
     "displayNameHint": "Wird in der Bestenliste angezeigt. {min}–{max} Zeichen.",
     "displayNameError": "Bitte {min}–{max} Zeichen verwenden.",
@@ -348,13 +348,13 @@
     "avatarInvalid": "Diese Datei ist kein Bild, das wir verwenden können.",
     "avatarPreview": "Vorschau deines neuen Bildes",
     "statsTitle": "Deine Statistik",
-    "classicBest": "Bestleistung Klassisch",
-    "gamesPlayed": "Klassische Spiele",
+    "classicBest": "Bestleistung Klassik",
+    "gamesPlayed": "Klassik-Spiele",
     "rankedBest": "Bestleistung {mode}",
-    "rankLabel": "Platz #{rank}",
+    "rankLabel": "Platz {rank}",
     "noRank": "Noch nicht platziert",
     "badgesTitle": "Deine Abzeichen",
-    "historyTitle": "Letzte klassische Spiele",
+    "historyTitle": "Letzte Klassik-Spiele",
     "noHistory": "Noch keine Spiele.",
     "memberSince": "Spielt seit {date}"
   },
@@ -373,15 +373,15 @@
       },
       "safeHaven": {
         "name": "In Sicherheit",
-        "description": "Erreiche die erste Sicherheitsstufe im klassischen Modus (Frage 5)."
+        "description": "Erreiche die erste Sicherheitsstufe im Klassik-Modus (Frage 5)."
       },
       "halfWay": {
         "name": "Halbzeit",
-        "description": "Erreiche die zweite Sicherheitsstufe im klassischen Modus (Frage 10)."
+        "description": "Erreiche die zweite Sicherheitsstufe im Klassik-Modus (Frage 10)."
       },
       "millionaire": {
         "name": "Millionär",
-        "description": "Beantworte alle 15 klassischen Fragen und gewinne die Million."
+        "description": "Beantworte alle 15 Fragen im Klassik-Modus und gewinne die Million."
       },
       "purist": {
         "name": "Purist",
@@ -428,7 +428,7 @@
         "description": "Spiel in 10 verschiedenen Sprachen."
       },
       "streak3": {
-        "name": "Lauf",
+        "name": "Gut in Fahrt",
         "description": "Spiel 3 Tage in Folge."
       },
       "streak7": {
@@ -444,7 +444,7 @@
         "description": "Folge dem Rat deines Freundes und lieg richtig."
       },
       "categoryMaster": {
-        "name": "Kategorie-Meister",
+        "name": "Kategoriemeister",
         "description": "Beantworte 25 Fragen in einer einzigen Kategorie richtig."
       }
     }
@@ -452,7 +452,7 @@
   "Rules": {
     "title": "So wird gespielt",
     "intro": "Alles, was du über die drei Spielmodi, die Gewinnleiter und die Joker wissen musst.",
-    "classicTitle": "Klassisch",
+    "classicTitle": "Klassik",
     "classicBody1": "Dich erwarten fünfzehn Multiple-Choice-Fragen mit je vier Antwortmöglichkeiten. Die Fragen beginnen leicht und werden mit steigendem Gewinn schwerer – von {first} für Frage 1 bis {top} für Frage 15.",
     "classicBody2": "Wähle eine Antwort und bestätige sie als endgültig. Liegst du richtig, steigst du eine Stufe auf der Gewinnleiter. Liegst du falsch, ist das Spiel vorbei.",
     "safeHavensTitle": "Sicherheitsstufen",
@@ -468,22 +468,22 @@
     "timeAttackTitle": "Zeitjagd",
     "timeAttackBody": "Du hast {seconds} Sekunden, um so viele Fragen wie möglich zu beantworten. Eine falsche Antwort beendet die Runde nicht, zieht aber {penalty} Sekunden von der Uhr ab. Joker gibt es keine.",
     "rankedTitle": "Ranglisten-Spiele und Fairness",
-    "rankedBody": "Marathon- und Zeitangriff-Runden werden immer auf unserem Server gewertet: Die richtige Antwort landet nie vor deiner Eingabe auf deinem Gerät, und die Zeit läuft auf dem Server. Jeder kann mitspielen; melde dich mit Google an, um deinen Punktestand auf die Bestenliste zu bringen.",
+    "rankedBody": "Marathon- und Zeitjagd-Runden werden immer auf unserem Server gewertet: Die richtige Antwort landet nie vor deiner Eingabe auf deinem Gerät, und die Zeit läuft auf dem Server. Jeder kann mitspielen; melde dich mit Google an, um deinen Punktestand auf die Bestenliste zu bringen.",
     "questionsTitle": "Über die Fragen",
     "questionsBody": "Die Fragen werden von einer künstlichen Intelligenz direkt in jeder Sprache verfasst und automatisch geprüft. Etwa 40 % drehen sich um die Kultur der jeweiligen Sprache. Wenn eine Frage fehlerhaft wirkt, tippe nach der Auflösung einfach auf „Fehler melden“."
   },
   "About": {
-    "title": "Über Millionär Quiz",
-    "intro": "Millionär Quiz ist ein kostenloses, von Fans entwickeltes Quizspiel, inspiriert vom legendären TV-Format – neu gedacht für das Web, für Smartphones und für 50 Sprachen.",
+    "title": "Über Millionär-Quiz",
+    "intro": "Millionär-Quiz ist ein kostenloses, von Fans entwickeltes Quizspiel, inspiriert vom legendären TV-Format – neu gedacht für das Web, für Smartphones und für 80 Sprachen.",
     "missionTitle": "Warum wir es gebaut haben",
     "missionBody": "Die meisten Quizspiele werden auf Englisch geschrieben und dann übersetzt. Wir finden, ein Quiz sollte sich wie zu Hause anfühlen: Die Fragen sollten von den Menschen, Orten, Büchern und Traditionen handeln, mit denen du aufgewachsen bist – und natürlich auch von der großen weiten Welt.",
     "howTitle": "So entstehen die Fragen",
     "howBody": "Ein großes Sprachmodell schreibt jede Frage direkt in deiner Sprache, stapelweise und nach strengen Regeln: eine eindeutig richtige Antwort, vier plausible Optionen, nur gesicherte Fakten. Die Fragen werden automatisch geprüft, gespeichert und an die Spieler ausgeliefert; jeder Spieler kann einen Fehler melden.",
     "techTitle": "Unter der Haube",
-    "techBody": "Millionär Quiz ist eine Progressive Web App: Du kannst sie auf deinem Smartphone oder Computer installieren, dank automatisch gespeicherter Fragen offline spielen und deine Fortschritte synchronisieren, sobald du wieder online bist.",
+    "techBody": "Millionär-Quiz ist eine Progressive Web App: Du kannst sie auf deinem Smartphone oder Computer installieren, dank automatisch gespeicherter Fragen offline spielen und deine Fortschritte synchronisieren, sobald du wieder online bist.",
     "creditTitle": "Credits",
     "creditBody": "Design und Entwicklung: {author}.",
-    "disclaimer": "Millionär Quiz steht in keiner Verbindung zu Fernsehsendungen, Sendern oder Rechteinhabern und wird von diesen weder unterstützt noch empfohlen."
+    "disclaimer": "Millionär-Quiz steht in keiner Verbindung zu Fernsehsendungen, Sendern oder Rechteinhabern und wird von diesen weder unterstützt noch empfohlen."
   },
   "Legal": {
     "privacyTitle": "Datenschutzerklärung",
@@ -497,7 +497,7 @@
     "privacyRightsTitle": "Deine Rechte",
     "privacyRightsBody": "Du kannst deinen Anzeigenamen und dein Bild jederzeit ändern und den Autor kontaktieren, um dein Konto und alle zugehörigen Daten löschen zu lassen.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsIntro": "Indem du Millionär Quiz spielst, stimmst du diesen einfachen Nutzungsbedingungen zu.",
+    "termsIntro": "Indem du Millionär-Quiz spielst, stimmst du diesen einfachen Nutzungsbedingungen zu.",
     "termsPlayTitle": "Fair Play",
     "termsPlayBody": "Spiel Ranglisten-Runden ehrlich. Automatisiertes Spielen, das Ausnutzen von Bugs oder Manipulationen an der Bestenliste können dazu führen, dass deine Runden entfernt werden.",
     "termsContentTitle": "Fragen und Genauigkeit",
@@ -508,7 +508,7 @@
   },
   "Pwa": {
     "install": "App installieren",
-    "installTitle": "Millionär Quiz installieren",
+    "installTitle": "Millionär-Quiz installieren",
     "benefit": "Spiel im Vollbild und offline – mit einem Tipp auf deinem Startbildschirm.",
     "iosTitle": "Auf iPhone oder iPad installieren",
     "iosStep1": "Tippe in der Safari-Leiste auf die Teilen-Taste.",
@@ -538,7 +538,7 @@
     "signedOut": "Du hast dich abgemeldet.",
     "signInTitle": "Anmelden",
     "signInSubtitle": "Ein Klick mit Google, und dein Spielstand begleitet dich auf jedes Gerät.",
-    "benefitRanked": "Bring deine Punkte aus Marathon und Zeitangriff auf die weltweite Bestenliste",
+    "benefitRanked": "Bring deine Punkte aus Marathon und Zeitjagd auf die weltweite Bestenliste",
     "benefitLeaderboard": "Wähle den Namen und das Bild, die andere Spieler sehen",
     "benefitSync": "Behalte deine Klassik-Rekorde, Spielhistorie und Abzeichen überall",
     "privacyNote": "Wir verwenden von Google ausschließlich deinen Namen, deine E-Mail-Adresse und dein Profilbild.",
@@ -568,9 +568,9 @@
     "pageErrorBody": "Ein unerwarteter Fehler hat diese Seite gestoppt. Du kannst es nochmal versuchen."
   },
   "Seo": {
-    "keywords": "Millionär Quiz, Quizspiel, Wissensquiz, Wer wird Millionär Spiel, kostenloses Quiz, Online-Quiz, Allgemeinwissen",
-    "homeTitle": "Millionär Quiz — Wer wird Millionär? Kostenlos online spielen",
-    "homeDescription": "Spiel das Quizshow-Spiel kostenlos in 50 Sprachen. 15 Fragen bis zur Million, vier Joker, Sicherheitsstufen sowie die endlosen Modi Marathon und Zeitjagd mit weltweiter Bestenliste.",
+    "keywords": "Millionär-Quiz, Quizspiel, Wissensquiz, Wer wird Millionär Spiel, kostenloses Quiz, Online-Quiz, Allgemeinwissen",
+    "homeTitle": "Millionär-Quiz – Wer wird Millionär? Kostenlos online spielen",
+    "homeDescription": "Spiel das Quizshow-Spiel kostenlos in 80 Sprachen. 15 Fragen bis zur Million, vier Joker, Sicherheitsstufen sowie die endlosen Modi Marathon und Zeitjagd mit weltweiter Bestenliste.",
     "playTitle": "Klassisches Millionär-Quiz – 15 Fragen bis zur Million",
     "playDescription": "Klettere die Gewinnleiter von {first} bis {top} hinauf: fünfzehn Fragen, zwei Sicherheitsstufen, vier Joker. Kostenlos, ohne Anmeldung, in deiner Sprache.",
     "marathonTitle": "Marathon-Quiz – wie lange hältst du durch?",
@@ -584,20 +584,20 @@
     "categoryTitle": "{category}-Quiz: Fragen und Antworten",
     "categoryDescription": "Teste dich mit {category}-Quizfragen in deiner Sprache. {description}",
     "badgesTitle": "Abzeichen – sammle sie alle",
-    "badgesDescription": "Zwanzig Abzeichen in Klassisch, Marathon und Zeitjagd: Gewinne die Million, halte deine Serie, spiel in vielen Sprachen.",
+    "badgesDescription": "Zwanzig Abzeichen in Klassik, Marathon und Zeitjagd: Gewinne die Million, halte deine Serie, spiel in vielen Sprachen.",
     "rulesTitle": "So wird gespielt – Regeln, Gewinnleiter und Joker",
-    "rulesDescription": "Die vollständigen Regeln von Millionär Quiz: Gewinnleiter, Sicherheitsstufen, Aussteigen, die vier Joker, Marathon und Zeitangriff.",
-    "aboutTitle": "Über Millionär Quiz",
-    "aboutDescription": "Ein kostenloses, von Fans entwickeltes Quizspiel mit Fragen aus künstlicher Intelligenz in 50 Sprachen, inspiriert vom klassischen TV-Quizformat.",
+    "rulesDescription": "Die vollständigen Regeln von Millionär-Quiz: Gewinnleiter, Sicherheitsstufen, Aussteigen, die vier Joker, Marathon und Zeitjagd.",
+    "aboutTitle": "Über Millionär-Quiz",
+    "aboutDescription": "Ein kostenloses, von Fans entwickeltes Quizspiel mit Fragen in 80 Sprachen, geschrieben von künstlicher Intelligenz, inspiriert vom klassischen TV-Quizformat.",
     "privacyTitle": "Datenschutzerklärung",
-    "privacyDescription": "Was Millionär Quiz speichert, warum und wie du es löschen kannst.",
+    "privacyDescription": "Was Millionär-Quiz speichert, warum und wie du es löschen kannst.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsDescription": "Die einfachen Regeln für ein faires Spiel bei Millionär Quiz.",
+    "termsDescription": "Die einfachen Regeln für ein faires Spiel bei Millionär-Quiz.",
     "profileTitle": "Dein Profil",
     "profileDescription": "Deine Punkte, Platzierungen und Abzeichen.",
     "settingsTitle": "Einstellungen",
     "contactTitle": "Kontakt",
-    "contactDescription": "Fragen, Ideen oder ein Fehler in einer Frage? Schicke dem Team von Millionär Quiz eine Nachricht.",
+    "contactDescription": "Fragen, Ideen oder ein Fehler in einer Frage? Schicke dem Team von Millionär-Quiz eine Nachricht.",
     "signInTitle": "Anmelden",
     "signInDescription": "Melde dich mit Google an, um deine Punkte auf die Bestenliste zu bringen und deinen Fortschritt auf jedem Gerät parat zu haben.",
     "settingsDescription": "Ton, Sprache und Einstellungen für den Klassik-Modus."

@@ -68,7 +68,7 @@
     "settings": "Ayarlar"
   },
   "Home": {
-    "eyebrow": "50 dil · süni intellekt tərəfindən yazılmış suallar · pulsuz",
+    "eyebrow": "80 dil · süni intellekt tərəfindən yazılmış suallar · pulsuz",
     "heroTitle": "Kim milyonçu olmaq istəyir?",
     "modesTitle": "Oynamağın üç yolu",
     "lifelinesTitle": "Dörd yardım, hər biri bir dəfə",
@@ -87,9 +87,9 @@
     "viewLeaderboard": "Tam reytinqə bax",
     "emptyLeaderboard": "Hələ reytinqli oyun yoxdur — ilk sən ol!",
     "cultureTitle": "Sənin dilində danışan suallar",
-    "cultureBody": "Bizim süni intellekt sual tərtibatçımız 50 dildə tam orijinal suallar hazırlayır; ümumi dünyagörüşünü sənin mədəniyyətinin tarixi, ədəbiyyatı, coğrafiyası və ənənələri ilə birləşdirir. Sevdiyin şair haqqında sual heç vaxt başqasının şairi haqqında sualın tərcüməsi olmayacaq.",
+    "cultureBody": "Süni intellekt əsaslı sual tərtibatçımız 80 dilin hər birində təzə sualları birbaşa həmin dildə hazırlayır və dünya biliklərini sənin mədəniyyətinin tarixi, ədəbiyyatı, coğrafiyası və ənənələri ilə birləşdirir. Sevdiyin şair haqqında sual heç vaxt başqasının şairi haqqında sualın tərcüməsi olmayacaq.",
     "offlineTitle": "Hər yerdə, hətta internetsiz oyna",
-    "offlineBody": "Tətbiqi quraşdır və Klassik rejimini təyyarədə və ya metroda oynamağa davam et: ana dilindəki suallar cihazında avtomatik saxlanılır. Yenidən internetə qoşulduqda xalların sinxronlaşdırılacaq.",
+    "offlineBody": "Tətbiqi quraşdır və təyyarədə və ya metroda Klassik rejimdə oynamağa davam et: dilindəki suallar cihazında avtomatik saxlanılır. Yenidən internetə qoşulanda xalların sinxronlaşdırılacaq.",
     "badgesTitle": "Nişan topla",
     "badgesSubtitle": "Zəmanətli pillələrə çat, milyonu qazan, hər gün oyna — qazanmaq üçün {count} nişan səni gözləyir.",
     "viewBadges": "Bütün nişanlara bax",
@@ -103,11 +103,11 @@
     "faq3Question": "Zəmanətli pillələr necə işləyir?",
     "faq3Answer": "5-ci suala düzgün cavab sənə {havenOne}, 10-cu suala düzgün cavab isə {havenTwo} zəmanət verir. Sonrakı suallardan birində səhv etsən, keçdiyin son zəmanətli pillənin məbləği ilə ayrılırsan.",
     "faq4Question": "İnternetsiz oynaya bilərəm?",
-    "faq4Answer": "Bəli — Klassik rejim internetsiz işləyir. Dilindəki suallar avtomatik olaraq cihazında saxlanılır və yenidən qoşulduqda internetsiz oyunlar sinxronlaşdırılır. Marafon və Vaxta Qarşı rejimləri üçün isə internet bağlantısı lazımdır.",
+    "faq4Answer": "Bəli — Klassik rejim internetsiz işləyir. Dilindəki suallar avtomatik olaraq cihazında saxlanılır, internetsiz oynadığın oyunlar isə yenidən qoşulanda sinxronlaşdırılır. Marafon və Zamana qarşı rejimləri üçün internet bağlantısı lazımdır.",
     "faq5Question": "Reytinqə necə düşə bilərəm?",
     "faq5Answer": "Google ilə daxil ol və reytinqli Marafon və ya Zamana qarşı oyunu oyna. Hər cavabı serverimiz yoxlayır, buna görə reytinq ədalətli qalır.",
     "faq6Question": "Bu, televiziya şousunun rəsmi oyunudur?",
-    "faq6Answer": "Xeyr. Milyonçu Viktorinası klassik televiziya viktorina formatından ilhamlanan müstəqil, həvəskar bir oyundur."
+    "faq6Answer": "Xeyr. Milyonçu Viktorinası klassik televiziya viktorinası formatından ilhamlanan, pərəstişkarlar tərəfindən hazırlanmış müstəqil oyundur."
   },
   "Modes": {
     "classic": {
@@ -128,9 +128,9 @@
       "description": "Vaxt bitənə qədər bacardığın qədər çox suala cavab ver. Səhv cavab oyunu bitirmir — amma sənə 5 saniyəyə başa gəlir.",
       "rules": "Saatda {seconds} saniyə. Hər səhv cavab {penalty} saniyə aparır. Yardım yoxdur — yalnız sürət."
     },
-    "rankedHint": "Hər oyun qlobal liderlər cədvəlində nəzərə alınır.",
-    "guestHint": "Qonaq kimi oynayırsan: oyunun eyni şəkildə qiymətləndirilir, lakin liderlər cədvəlində yalnız hesaba daxil olmuş oyunçular görünür.",
-    "needsConnection": "Bu rejim üçün internet bağlantısı lazımdır: hər oyun canlı idarə olunur. Klassik rejimi isə internetsiz oynamaq olar."
+    "rankedHint": "Hər oyun qlobal reytinqdə nəzərə alınır.",
+    "guestHint": "Qonaq kimi oynayırsan: oyunun eyni qaydada yoxlanılır, lakin reytinqdə yalnız hesaba daxil olmuş oyunçular görünür.",
+    "needsConnection": "Bu rejim üçün internet bağlantısı lazımdır: hər oyunu server real vaxtda yoxlayır. Klassik rejimi isə internetsiz də oynamaq olar."
   },
   "Game": {
     "startGame": "Oyuna başla",
@@ -148,12 +148,12 @@
     "optionRemoved": "Variant {letter} 50:50 ilə silindi",
     "finalAnswerPrompt": "Bu, son cavabındır?",
     "finalAnswer": "Son cavab",
-    "changeAnswer": "Bir az düşünüm",
+    "changeAnswer": "Qoy bir az düşünüm",
     "locked": "Cavab qəbul olundu…",
     "correct": "Düzdür!",
     "wrong": "Səhv cavab",
     "timeUp": "Vaxt bitdi!",
-    "theAnswerWas": "Düzgün cavab: {letter}: {text}",
+    "theAnswerWas": "Düzgün cavab — {letter}: {text}",
     "didYouKnow": "Bilirdinmi?",
     "switchPrompt": "Dəyişməzdən əvvəl — sən hansı cavabı verərdin?",
     "switchPromptHint": "Sırf maraq üçün: onsuz da hesaba alınmayacaq.",
@@ -208,7 +208,7 @@
     "backHome": "Ana səhifəyə qayıt",
     "viewLeaderboard": "Reytinqə bax",
     "signInToSave": "Xallarını və nişanlarını bütün cihazlarda saxlamaq üçün daxil ol.",
-    "signInToRank": "Bu cür nəticələrinin liderlər cədvəlinə düşməsi üçün daxil ol."
+    "signInToRank": "Belə nəticələrinin reytinqə düşməsi üçün daxil ol."
   },
   "Lifelines": {
     "title": "Yardımlar",
@@ -229,18 +229,18 @@
     "callingFriend": "Dostuna zəng edilir…",
     "friendDefaultName": "Dostun",
     "friendSays": "{name} deyir",
-    "friendHigh": "Demək olar ki, əminəm: {letter}: {answer}.",
-    "friendMedium": "Məncə, {letter}: {answer}… amma sözümü tutma.",
+    "friendHigh": "Demək olar ki, əminəm — {letter}: {answer}.",
+    "friendMedium": "Məncə, {letter}: {answer}… amma zəmanət vermirəm.",
     "friendLow": "Düzü, təxmin edirəm — bəlkə {letter}: {answer}?",
     "hangUp": "Zəngi bitir",
     "thanks": "Sağ ol!"
   },
   "Settings": {
     "title": "Ayarlar",
-    "subtitle": "Səs, dil və Klassik oyun parametrləri.",
+    "subtitle": "Səs, dil və Klassik oyun ayarları.",
     "gameTitle": "Oyun ayarları",
-    "gameHint": "Bunlar Klassik oyunlara aiddir. Marafon və Vaxta Qarşı rejimləri reytinqlidir və həmişə standart qaydalardan istifadə edir.",
-    "customised": "Özəl parametrlərinlə oynayırsan.",
+    "gameHint": "Bunlar Klassik oyunlara aiddir. Marafon və Zamana qarşı reytinqli rejimlərdir və həmişə standart qaydalarla oynanılır.",
+    "customised": "Öz ayarlarınla oynayırsan.",
     "change": "Dəyişdir",
     "categories": "Kateqoriyalar",
     "allCategories": "Bütün kateqoriyalar",
@@ -428,7 +428,7 @@
         "description": "10 müxtəlif dildə oyna."
       },
       "streak3": {
-        "name": "Yaxşı gedişat",
+        "name": "Uğurlu seriya",
         "description": "3 gün ardıcıl oyna."
       },
       "streak7": {
@@ -464,26 +464,26 @@
     "lifelinesTitle": "Yardımlar",
     "lifelinesBody": "Dörd yardımın var və hər birindən oyun ərzində bir dəfə istifadə etmək olar:",
     "marathonTitle": "Marafon",
-    "marathonBody": "Sonsuz oyun. Suallar hər beş düzgün cavabdan sonra çətinləşir, dörd kömək vasitəsindən hər birini bir dəfə istifadə edə bilərsən və hər sual üçün {minutes, plural, one {# dəqiqə} other {# dəqiqə}} vaxt verilir. Bir səhv cavab və ya vaxtın bitməsi oyunu sonlandırır və xalın düzgün cavabların sayına bərabər olur.",
+    "marathonBody": "Sonsuz oyun. Suallar hər beş düzgün cavabdan sonra çətinləşir, dörd yardımın hər birindən bir dəfə istifadə edə bilərsən və hər sual üçün {minutes, plural, one {# dəqiqə} other {# dəqiqə}} vaxt verilir. Bir səhv cavab və ya vaxtın bitməsi oyunu sonlandırır, xalın isə düzgün cavablarının sayına bərabərdir.",
     "timeAttackTitle": "Zamana qarşı",
     "timeAttackBody": "Bacardığın qədər çox suala cavab vermək üçün {seconds} saniyən var. Səhv cavab oyunu bitirmir, amma saatdan {penalty} saniyə aparır. Yardım yoxdur.",
     "rankedTitle": "Reytinqli oyun və ədalət",
-    "rankedBody": "Marafon və Vaxta Qarşı oyunları həmişə serverimiz tərəfindən idarə olunur: sən cavab verməmişdən qabaq düzgün cavab heç vaxt cihazına göndərilmir və vaxt serverdə ölçülür. Hər kəs oynaya bilər; xalını liderlər cədvəlinə əlavə etmək üçün Google ilə daxil ol.",
+    "rankedBody": "Marafon və Zamana qarşı oyunlarını həmişə serverimiz idarə edir: sən cavab verməmiş düzgün cavab heç vaxt cihazına göndərilmir, vaxt isə serverdə ölçülür. Hər kəs oynaya bilər; xalını reytinqə əlavə etmək üçün Google ilə daxil ol.",
     "questionsTitle": "Suallar haqqında",
-    "questionsBody": "Suallar hər dildə birbaşa süni intellekt sual tərtibatçısı tərəfindən yazılır və avtomatik yoxlanılır. Təxminən 40%-i dilinin danışıldığı mədəniyyət haqqındadır. Sualda səhv görsən, cavab açıldıqdan sonra «Xəta bildir» düyməsindən istifadə et."
+    "questionsBody": "Suallar hər dildə birbaşa süni intellekt sual tərtibatçısı tərəfindən yazılır və avtomatik yoxlanılır. Təxminən 40%-i dilinin danışıldığı mədəniyyət haqqındadır. Sualda səhv görsən, cavab açıldıqdan sonra «Səhvi bildir» düyməsindən istifadə et."
   },
   "About": {
     "title": "Milyonçu Viktorinası haqqında",
-    "intro": "Milyonçu Viktorinası klassik televiziya formatından ilhamlanan, veb, telefonlar və 50 dil üçün yenidən hazırlanmış pulsuz, həvəskar bir viktorina oyunudur.",
+    "intro": "Milyonçu Viktorinası klassik televiziya formatından ilhamlanan, veb, telefonlar və 80 dil üçün yenidən hazırlanmış, pərəstişkarlar tərəfindən yaradılmış pulsuz viktorina oyunudur.",
     "missionTitle": "Niyə yaratdıq",
     "missionBody": "Viktorina oyunlarının çoxu ingilis dilində yazılıb tərcümə olunur. Biz düşünürük ki, viktorina doğma hiss olunmalıdır: suallar həm böyüdüyün insanlar, yerlər, kitablar və adət-ənənələr, həm də geniş dünya haqqında olmalıdır.",
     "howTitle": "Suallar necə hazırlanır",
     "howBody": "Böyük dil modeli hər sualı birbaşa sənin dilində, partiyalarla və ciddi qaydalara əsasən yazır: bir aydın düzgün cavab, dörd inandırıcı variant, yalnız dəyişməz faktlar. Suallar avtomatik yoxlanılır, saxlanılır və oyunçulara təqdim olunur; istənilən oyunçu səhvi bildirə bilər.",
     "techTitle": "Pərdə arxasında",
-    "techBody": "Milyonçu Viktorinası mütərəqqi veb tətbiqidir (PWA): telefonuna və ya kompüterinə quraşdırılır, avtomatik saxlanılan suallarla internetsiz işləyir və yenidən qoşulduqda irəliləyişini sinxronlaşdırır.",
+    "techBody": "Milyonçu Viktorinası proqressiv veb tətbiqdir (PWA): telefonuna və ya kompüterinə quraşdırılır, avtomatik saxlanılan suallarla internetsiz işləyir və yenidən qoşulanda irəliləyişini sinxronlaşdırır.",
     "creditTitle": "Müəlliflər",
-    "creditBody": "Dizayn və hazırlayan: {author}.",
-    "disclaimer": "Milyonçu Viktorinası heç bir televiziya proqramı, yayım şirkəti və ya müəllif hüququ sahibi ilə bağlı deyil, onlar tərəfindən dəstəklənmir və əlaqəli deyildir."
+    "creditBody": "Dizayn və proqramlaşdırma: {author}.",
+    "disclaimer": "Milyonçu Viktorinasının heç bir televiziya proqramı, yayım şirkəti və ya hüquq sahibi ilə əlaqəsi yoxdur və onlar tərəfindən təsdiqlənməyib."
   },
   "Legal": {
     "privacyTitle": "Məxfilik siyasəti",
@@ -497,7 +497,7 @@
     "privacyRightsTitle": "Hüquqların",
     "privacyRightsBody": "Görünən adını və şəklini istənilən vaxt dəyişə bilərsən, həmçinin müəlliflə əlaqə saxlayaraq hesabının və bütün əlaqəli məlumatların silinməsini tələb edə bilərsən.",
     "termsTitle": "İstifadə şərtləri",
-    "termsIntro": "Milyonçu Viktorinası oynayaraq bu sadə qaydalarla razılaşırsan.",
+    "termsIntro": "Milyonçu Viktorinasını oynayaraq bu sadə qaydalarla razılaşırsan.",
     "termsPlayTitle": "Ədalətli oyun",
     "termsPlayBody": "Reytinqli oyunları dürüst oyna. Avtomatlaşdırılmış oyun, xətalardan sui-istifadə və ya reytinqə müdaxilə nəticələrinin silinməsinə səbəb ola bilər.",
     "termsContentTitle": "Suallar və dəqiqlik",
@@ -508,7 +508,7 @@
   },
   "Pwa": {
     "install": "Tətbiqi quraşdır",
-    "installTitle": "Milyonçu Viktorinası quraşdır",
+    "installTitle": "Milyonçu Viktorinasını quraşdır",
     "benefit": "Ana ekrandan bir toxunuşla tam ekranda və oflayn oyna.",
     "iosTitle": "iPhone və ya iPad-ə quraşdırma",
     "iosStep1": "Safari alətlər panelində Paylaş düyməsinə toxun.",
@@ -538,7 +538,7 @@
     "signedOut": "Hesabdan çıxdın.",
     "signInTitle": "Daxil ol",
     "signInSubtitle": "Google ilə bircə toxunuş, və irəliləyişin bütün cihazlarında səninlədir.",
-    "benefitRanked": "Marafon və Vaxta Qarşı nəticələrini qlobal liderlər cədvəlinə çıxar",
+    "benefitRanked": "Marafon və Zamana qarşı nəticələrini qlobal reytinqə çıxar",
     "benefitLeaderboard": "Digər oyunçuların gördüyü adı və şəkli seç",
     "benefitSync": "Klassik rejimdəki ən yaxşı nəticələrini, oyun tarixçəni və nişanlarını hər yerdə qoru",
     "privacyNote": "Google hesabından yalnız adını, e-poçt ünvanını və profil şəklini istifadə edirik.",
@@ -556,7 +556,7 @@
   "Errors": {
     "generic": "Nəsə səhv getdi.",
     "network": "Serverə qoşulmaq mümkün olmadı. Bağlantını yoxla.",
-    "rateLimited": "Bir az yavaş — bir azdan yenidən cəhd et.",
+    "rateLimited": "Bir az yavaşla — az sonra yenidən cəhd et.",
     "unauthorized": "Davam etmək üçün daxil ol.",
     "notFound": "Bunu tapa bilmədik.",
     "server": "Studiyada texniki problem yarandı. Yenidən cəhd et.",
@@ -568,9 +568,9 @@
     "pageErrorBody": "Gözlənilməz xəta bu səhifəni dayandırdı. Yenidən cəhd edə bilərsən."
   },
   "Seo": {
-    "keywords": "millionaire quiz, viktorina, viktorina oyunu, bilik yarışması, kim milyonçu olmaq istəyir oyunu, pulsuz viktorina, onlayn viktorina, ümumi bilik",
+    "keywords": "milyonçu viktorinası, millionaire quiz, viktorina, viktorina oyunu, bilik yarışması, kim milyonçu olmaq istəyir oyunu, pulsuz viktorina, onlayn viktorina, ümumi bilik",
     "homeTitle": "Milyonçu Viktorinası — Kim Milyonçu Olmaq İstəyir? Onlayn pulsuz oyna",
-    "homeDescription": "Viktorina şousunu 50 dildə pulsuz oyna. Milyona 15 sual, dörd yardım, zəmanətli pillələr, üstəlik qlobal reytinqli sonsuz Marafon və Zamana qarşı rejimləri.",
+    "homeDescription": "Viktorina şousunu 80 dildə pulsuz oyna. Milyona 15 sual, dörd yardım, zəmanətli pillələr, üstəlik qlobal reytinqli sonsuz Marafon və Zamana qarşı rejimləri.",
     "playTitle": "Klassik Milyonçu viktorinası — milyona 15 sual",
     "playDescription": "Pul pilləkənində {first} məbləğindən {top} məbləğinə qədər qalx: on beş sual, iki zəmanətli pillə, dörd yardım. Pulsuz, qeydiyyatsız, sənin dilində.",
     "marathonTitle": "Marafon viktorinası — nə qədər dözə bilərsən?",
@@ -586,9 +586,9 @@
     "badgesTitle": "Nişanlar — hamısını topla",
     "badgesDescription": "Klassik, Marafon və Zamana qarşı rejimlərində qazanılacaq iyirmi nişan: milyonu qazan, hər gün oyna, müxtəlif dillərdə oyna.",
     "rulesTitle": "Necə oynamalı — qaydalar, pul pilləkəni və yardımlar",
-    "rulesDescription": "Milyonçu Viktorinası oyununun bütün qaydaları: pul pillələri, toxunulmaz məbləğlər, oyunu dayandırmaq, dörd kömək vasitəsi, Marafon və Vaxta Qarşı.",
+    "rulesDescription": "Milyonçu Viktorinası oyununun bütün qaydaları: pul pilləkəni, zəmanətli pillələr, oyunu dayandırmaq, dörd yardım, Marafon və Zamana qarşı.",
     "aboutTitle": "Milyonçu Viktorinası haqqında",
-    "aboutDescription": "Klassik TV viktorina formatından ilhamlanan, 50 dildə süni intellekt tərəfindən hazırlanmış sualları olan pulsuz, həvəskar viktorina oyunu.",
+    "aboutDescription": "Klassik televiziya viktorinası formatından ilhamlanan, 80 dildə süni intellektin yazdığı suallarla pərəstişkarlar tərəfindən hazırlanmış pulsuz viktorina oyunu.",
     "privacyTitle": "Məxfilik siyasəti",
     "privacyDescription": "Milyonçu Viktorinası nəyi və niyə saxlayır, onları necə silmək olar.",
     "termsTitle": "İstifadə şərtləri",
@@ -599,7 +599,7 @@
     "contactTitle": "Bizimlə əlaqə",
     "contactDescription": "Sualların, təkliflərin var və ya sualda səhv tapmısan? Milyonçu Viktorinası komandasına mesaj göndər.",
     "signInTitle": "Daxil ol",
-    "signInDescription": "Nəticələrini liderlər cədvəlinə əlavə etmək və irəliləyişini bütün cihazlarında qorumaq üçün Google ilə daxil ol.",
-    "settingsDescription": "Səs, dil və Klassik oyun parametrləri."
+    "signInDescription": "Nəticələrini reytinqə əlavə etmək və irəliləyişini bütün cihazlarında qorumaq üçün Google ilə daxil ol.",
+    "settingsDescription": "Səs, dil və Klassik oyun ayarları."
   }
 }

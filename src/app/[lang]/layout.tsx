@@ -55,7 +55,7 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-/** Prerenders the shell for all 50 locales; otherwise every route would be dynamic. */
+/** Prerenders the shell for all 80 locales; otherwise every route would be dynamic. */
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }))
 }

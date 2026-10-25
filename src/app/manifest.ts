@@ -11,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     id: '/',
     name: APP_NAME,
     short_name: 'Millionaire',
-    description: 'The quiz show game in 50 languages: 15 questions to the million, Marathon and Time Attack.',
+    description: 'The quiz show game in 80 languages: 15 questions to the million, Marathon and Time Attack.',
     lang: DEFAULT_LOCALE,
     dir: 'ltr',
     // localePrefix is 'always', so '/' is a redirect; a start_url that redirects can loop.

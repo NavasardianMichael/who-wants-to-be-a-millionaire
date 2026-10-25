@@ -1,8 +1,8 @@
 {
   "Common": {
-    "appName": "Miljonair Quiz",
-    "wordmarkTop": "Miljonair",
-    "wordmarkBottom": "Quiz",
+    "appName": "Miljonairsquiz",
+    "wordmarkTop": "Miljonairs",
+    "wordmarkBottom": "quiz",
     "tagline": "De quizshow in jouw taal",
     "play": "Spelen",
     "playNow": "Speel nu",
@@ -51,7 +51,7 @@
   },
   "Nav": {
     "main": "Hoofdnavigatie",
-    "footer": "Footer",
+    "footer": "Voettekst",
     "home": "Home",
     "classic": "Klassiek",
     "marathon": "Marathon",
@@ -60,7 +60,7 @@
     "categories": "Categorieën",
     "badges": "Badges",
     "rules": "Zo speel je",
-    "about": "Over",
+    "about": "Over ons",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
     "contact": "Neem contact op",
@@ -68,7 +68,7 @@
     "settings": "Instellingen"
   },
   "Home": {
-    "eyebrow": "50 talen · vragen geschreven door kunstmatige intelligentie · gratis",
+    "eyebrow": "80 talen · vragen geschreven door kunstmatige intelligentie · gratis",
     "heroTitle": "Wie wordt miljonair?",
     "modesTitle": "Drie manieren om te spelen",
     "lifelinesTitle": "Vier hulplijnen, elk één keer",
@@ -87,7 +87,7 @@
     "viewLeaderboard": "Bekijk de volledige ranglijst",
     "emptyLeaderboard": "Nog geen competitierondes — wees de eerste!",
     "cultureTitle": "Vragen die jouw taal spreken",
-    "cultureBody": "Onze kunstmatige intelligentie schrijft gloednieuwe vragen in elk van de 50 talen, waarbij wereldkennis wordt gecombineerd met de geschiedenis, literatuur, geografie en tradities van je eigen cultuur. Een vraag over je favoriete dichter is nooit zomaar een vertaling van een vraag over iemand anders.",
+    "cultureBody": "Onze kunstmatige intelligentie schrijft gloednieuwe vragen in elk van de 80 talen, waarbij wereldkennis wordt gecombineerd met de geschiedenis, literatuur, geografie en tradities van je eigen cultuur. Een vraag over je favoriete dichter is nooit zomaar een vertaling van een vraag over iemand anders.",
     "offlineTitle": "Speel overal, zelfs offline",
     "offlineBody": "Installeer de app en blijf Klassiek spelen in het vliegtuig of de metro: vragen in je taal worden automatisch op je apparaat opgeslagen. Je scores worden gesynchroniseerd zodra je weer online bent.",
     "badgesTitle": "Verzamel badges",
@@ -96,18 +96,18 @@
     "categoriesTitle": "Ontdek de categorieën",
     "categoriesSubtitle": "Van geschiedenis en wetenschap tot film, eten en je eigen lokale cultuur.",
     "faqTitle": "Veelgestelde vragen",
-    "faq1Question": "Is Miljonair Quiz gratis?",
+    "faq1Question": "Is Miljonairsquiz gratis?",
     "faq1Answer": "Ja. Elke spelvorm, elke taal en elke hulplijn is gratis, en voor Klassiek hoef je je niet eens aan te melden.",
     "faq2Question": "Waar komen de vragen vandaan?",
     "faq2Answer": "Een kunstmatige intelligentie maakt de vragen in je eigen taal, en elke vraag wordt automatisch gecontroleerd voordat deze in het spel komt. Mocht er toch iets mis zijn, dan kun je dat in één tik melden.",
     "faq3Question": "Hoe werken de vangnetten?",
     "faq3Answer": "Beantwoord je vraag 5 goed, dan heb je {havenOne} zeker; na vraag 10 is dat {havenTwo}. Geef je later een fout antwoord, dan ga je toch naar huis met het laatste vangnet dat je hebt gehaald.",
     "faq4Question": "Kan ik offline spelen?",
-    "faq4Answer": "Ja — Klassiek werkt offline. Vragen in je taal worden automatisch op je apparaat opgeslagen, en offline spellen worden gesynchroniseerd zodra je weer verbinding hebt. Marathon en Tijdrit hebben wel internet nodig.",
+    "faq4Answer": "Ja — Klassiek werkt offline. Vragen in je taal worden automatisch op je apparaat opgeslagen, en offline spellen worden gesynchroniseerd zodra je weer verbinding hebt. Marathon en Tijdrace hebben wel internet nodig.",
     "faq5Question": "Hoe kom ik op de ranglijst?",
     "faq5Answer": "Log in met Google en speel een competitieronde in Marathon of Tijdrace. Elk antwoord wordt door onze server gecontroleerd, zodat de ranglijst eerlijk blijft.",
     "faq6Question": "Is dit het officiële spel van het tv-programma?",
-    "faq6Answer": "Nee. Miljonair Quiz is een onafhankelijk spel gemaakt door fans, geïnspireerd op het klassieke quizformat."
+    "faq6Answer": "Nee. Miljonairsquiz is een onafhankelijk spel gemaakt door fans, geïnspireerd op het klassieke quizformat."
   },
   "Modes": {
     "classic": {
@@ -124,12 +124,12 @@
     },
     "timeAttack": {
       "name": "Tijdrace",
-      "tagline": "{seconds} seconden. Gaan!",
+      "tagline": "{seconds} seconden. Gas erop!",
       "description": "Beantwoord zoveel mogelijk vragen voordat de tijd op is. Een fout antwoord betekent niet het einde — maar kost je wel 5 seconden.",
       "rules": "{seconds} seconden op de klok. Elk fout antwoord kost {penalty} seconden. Geen hulplijnen — alleen snelheid."
     },
-    "rankedHint": "Elke poging telt mee voor het wereldwijde klassement.",
-    "guestHint": "Spelen als gast: je poging wordt eerlijk beoordeeld, maar alleen ingelogde spelers verschijnen in het klassement.",
+    "rankedHint": "Elke poging telt mee voor de wereldwijde ranglijst.",
+    "guestHint": "Je speelt als gast: je poging wordt net zo gecontroleerd, maar alleen ingelogde spelers verschijnen op de ranglijst.",
     "needsConnection": "Voor deze spelstand is een verbinding vereist: elke poging wordt live gecontroleerd. Klassiek werkt wel offline."
   },
   "Game": {
@@ -156,10 +156,10 @@
     "theAnswerWas": "Het juiste antwoord was {letter}: {text}",
     "didYouKnow": "Wist je dat?",
     "switchPrompt": "Voordat we wisselen — wat had jij geantwoord?",
-    "switchPromptHint": "Gewoon voor de leuk: het telt voor beide kanten niet mee.",
+    "switchPromptHint": "Gewoon voor de lol: het telt hoe dan ook niet mee.",
     "switchSkip": "Overslaan, gewoon wisselen",
     "switchWouldBeRight": "Je had het goed gehad!",
-    "switchWouldBeWrong": "Gelukkig dat je hebt gewisseld!",
+    "switchWouldBeWrong": "Maar goed dat je hebt gewisseld!",
     "switchComing": "Daar is je nieuwe vraag…",
     "walkAway": "Stoppen",
     "walkAwayTitle": "Neem je het geld?",
@@ -203,12 +203,12 @@
     "personalBest": "Nieuw persoonlijk record!",
     "rank": "Plek #{rank} op de ranglijst",
     "newBadges": "{count, plural, one {Nieuwe badge vrijgespeeld!} other {# nieuwe badges vrijgespeeld!}}",
-    "shareText": "Ik heb {amount} gewonnen met Miljonair Quiz! Kun jij dat verslaan?",
-    "shareScoreText": "Ik heb {score} punten gehaald in {mode} bij Miljonair Quiz! Kun jij dat verslaan?",
+    "shareText": "Ik heb {amount} gewonnen bij Miljonairsquiz! Kun jij dat verslaan?",
+    "shareScoreText": "Ik heb {score} punten gehaald in {mode} bij Miljonairsquiz! Kun jij dat verslaan?",
     "backHome": "Terug naar home",
     "viewLeaderboard": "Bekijk de ranglijst",
     "signInToSave": "Log in om je scores en badges op al je apparaten te bewaren.",
-    "signInToRank": "Log in om dit soort resultaten in het klassement te zetten."
+    "signInToRank": "Log in om dit soort resultaten op de ranglijst te zetten."
   },
   "Lifelines": {
     "title": "Hulplijnen",
@@ -229,7 +229,7 @@
     "callingFriend": "Je vriend wordt gebeld…",
     "friendDefaultName": "Je vriend",
     "friendSays": "{name} zegt",
-    "friendHigh": "Ik weet het vrij zeker: {letter}: {answer}.",
+    "friendHigh": "Ik weet vrij zeker dat het {letter} is: {answer}.",
     "friendMedium": "Ik denk {letter}: {answer}… maar pin me er niet op vast.",
     "friendLow": "Eerlijk gezegd gok ik maar — misschien {letter}: {answer}?",
     "hangUp": "Ophangen",
@@ -239,7 +239,7 @@
     "title": "Instellingen",
     "subtitle": "Geluid, taal en je instellingen voor Klassiek.",
     "gameTitle": "Spelinstellingen",
-    "gameHint": "Deze gelden voor Klassiek. Marathon en Tijdrit zijn gerangschikt en gebruiken altijd de standaardregels.",
+    "gameHint": "Deze gelden voor Klassiek. Marathon en Tijdrace tellen mee voor de ranglijst en gebruiken altijd de standaardregels.",
     "customised": "Je speelt met je eigen instellingen.",
     "change": "Wijzigen",
     "categories": "Categorieën",
@@ -349,12 +349,12 @@
     "avatarPreview": "Voorbeeld van je nieuwe foto",
     "statsTitle": "Jouw statistieken",
     "classicBest": "Beste Klassiek",
-    "gamesPlayed": "Klassieke spellen",
+    "gamesPlayed": "Spellen in Klassiek",
     "rankedBest": "Beste {mode}",
     "rankLabel": "Plek #{rank}",
     "noRank": "Nog geen plek op de ranglijst",
     "badgesTitle": "Jouw badges",
-    "historyTitle": "Recente Klassieke spellen",
+    "historyTitle": "Recente spellen in Klassiek",
     "noHistory": "Nog geen spellen.",
     "memberSince": "Speelt sinds {date}"
   },
@@ -441,7 +441,7 @@
       },
       "savedByAFriend": {
         "name": "Gered door een vriend",
-        "description": "Volg het advies van je vriend en heb het goed."
+        "description": "Volg het advies van je vriend op en geef het goede antwoord."
       },
       "categoryMaster": {
         "name": "Categoriemeester",
@@ -468,22 +468,22 @@
     "timeAttackTitle": "Tijdrace",
     "timeAttackBody": "Je hebt {seconds} seconden om zoveel mogelijk vragen te beantwoorden. Een fout antwoord betekent niet het einde, maar haalt wel {penalty} seconden van de klok. Er zijn geen hulplijnen.",
     "rankedTitle": "Competitie en eerlijk spel",
-    "rankedBody": "Marathon- en Tijdritpogingen worden altijd gecontroleerd door onze server: het goede antwoord komt nooit op je apparaat terecht voordat je antwoordt, en de klok loopt op de server. Iedereen kan ze spelen; log in met Google om je score in het klassement te zetten.",
+    "rankedBody": "Marathon- en Tijdrace-pogingen worden altijd gecontroleerd door onze server: het goede antwoord komt nooit op je apparaat terecht voordat je antwoordt, en de klok loopt op de server. Iedereen kan ze spelen; log in met Google om je score op de ranglijst te zetten.",
     "questionsTitle": "Over de vragen",
-    "questionsBody": "Vragen worden in elke taal geschreven door een kunstmatige intelligentie en automatisch gecontroleerd. Ongeveer 40% gaat over de cultuur van het land waar jouw taal wordt gesproken. Als een vraag niet klopt, gebruik dan \"Meld een fout\" nadat het antwoord is getoond."
+    "questionsBody": "Vragen worden in elke taal geschreven door een kunstmatige intelligentie en automatisch gecontroleerd. Ongeveer 40% gaat over de cultuur van het land waar jouw taal wordt gesproken. Als een vraag niet klopt, gebruik dan “Meld een fout” nadat het antwoord is getoond."
   },
   "About": {
-    "title": "Over Miljonair Quiz",
-    "intro": "Miljonair Quiz is een gratis, door fans gemaakt quizspel geïnspireerd op het klassieke televisieformat — herbouwd voor internet, mobiel en in 50 talen.",
+    "title": "Over Miljonairsquiz",
+    "intro": "Miljonairsquiz is een gratis, door fans gemaakt quizspel geïnspireerd op het klassieke televisieformat — herbouwd voor internet, mobiel en in 80 talen.",
     "missionTitle": "Waarom we het hebben gemaakt",
     "missionBody": "De meeste quizspellen worden in het Engels geschreven en daarna vertaald. Wij vinden dat een quiz als thuis moet voelen: de vragen moeten gaan over de mensen, plekken, boeken en tradities waarmee je bent opgegroeid, en over de wereld daarbuiten.",
     "howTitle": "Hoe de vragen worden gemaakt",
     "howBody": "Een groot taalmodel schrijft elke vraag rechtstreeks in jouw taal, in batches, volgens strikte regels: één duidelijk juist antwoord, vier geloofwaardige opties en alleen feiten die vaststaan. Vragen worden automatisch gecontroleerd, opgeslagen en aan spelers voorgelegd; elke speler kan een fout melden.",
     "techTitle": "Onder de motorkap",
-    "techBody": "Miljonair Quiz is een moderne web-app: je kunt hem installeren op je telefoon of computer, hij werkt offline met automatisch opgeslagen vragen, en je voortgang wordt gesynchroniseerd zodra je weer online bent.",
+    "techBody": "Miljonairsquiz is een progressive web app: je kunt hem installeren op je telefoon of computer, hij werkt offline met automatisch opgeslagen vragen, en je voortgang wordt gesynchroniseerd zodra je weer online bent.",
     "creditTitle": "Credits",
     "creditBody": "Ontworpen en ontwikkeld door {author}.",
-    "disclaimer": "Miljonair Quiz is niet gelieerd aan, goedgekeurd door of verbonden met een televisieprogramma, omroep of rechtenhouder."
+    "disclaimer": "Miljonairsquiz is niet gelieerd aan, goedgekeurd door of verbonden met een televisieprogramma, omroep of rechtenhouder."
   },
   "Legal": {
     "privacyTitle": "Privacybeleid",
@@ -497,7 +497,7 @@
     "privacyRightsTitle": "Jouw rechten",
     "privacyRightsBody": "Je kunt je weergavenaam en foto op elk moment wijzigen, en je kunt ons vragen je account en alle bijbehorende gegevens te verwijderen door contact op te nemen met de maker.",
     "termsTitle": "Gebruiksvoorwaarden",
-    "termsIntro": "Door Miljonair Quiz te spelen ga je akkoord met deze eenvoudige voorwaarden.",
+    "termsIntro": "Door Miljonairsquiz te spelen ga je akkoord met deze eenvoudige voorwaarden.",
     "termsPlayTitle": "Eerlijk spel",
     "termsPlayBody": "Speel competitierondes eerlijk. Geautomatiseerd spelen, misbruik van bugs of knoeien met de ranglijst kan ertoe leiden dat je rondes worden verwijderd.",
     "termsContentTitle": "Vragen en juistheid",
@@ -508,7 +508,7 @@
   },
   "Pwa": {
     "install": "App installeren",
-    "installTitle": "Miljonair Quiz installeren",
+    "installTitle": "Miljonairsquiz installeren",
     "benefit": "Speel schermvullend en offline, met één tik vanaf je beginscherm.",
     "iosTitle": "Installeren op iPhone of iPad",
     "iosStep1": "Tik op de deelknop in de werkbalk van Safari.",
@@ -520,12 +520,12 @@
     "title": "Neem contact op",
     "subtitle": "Een fout gevonden, een idee, of hulp nodig? Schrijf ons — we lezen elk bericht.",
     "name": "Je naam",
-    "nameRequired": "Vul je naam in alstublieft.",
+    "nameRequired": "Vul je naam in.",
     "email": "E-mailadres",
     "emailRequired": "Vul je e-mailadres in zodat we kunnen antwoorden.",
     "emailInvalid": "Dat e-mailadres ziet er niet juist uit.",
     "message": "Bericht",
-    "messageRequired": "Schrijf alstublieft een bericht.",
+    "messageRequired": "Schrijf een bericht.",
     "messagePlaceholder": "Hoe kunnen we je helpen?",
     "send": "Bericht verzenden",
     "error": "Je bericht kon niet worden verzonden. Probeer het over een moment opnieuw.",
@@ -538,7 +538,7 @@
     "signedOut": "Je bent uitgelogd.",
     "signInTitle": "Inloggen",
     "signInSubtitle": "Eén tik met Google en je voortgang volgt je naar elk apparaat.",
-    "benefitRanked": "Zet je Marathon- en Tijdritscores in het wereldwijde klassement",
+    "benefitRanked": "Zet je Marathon- en Tijdrace-scores op de wereldwijde ranglijst",
     "benefitLeaderboard": "Kies de naam en foto die andere spelers zien",
     "benefitSync": "Behoud je Klassiek-records, spelgeschiedenis en badges op al je apparaten",
     "privacyNote": "We gebruiken alleen je naam, e-mailadres en profielfoto van Google.",
@@ -568,9 +568,9 @@
     "pageErrorBody": "Een onverwachte fout heeft deze pagina stilgelegd. Je kunt het opnieuw proberen."
   },
   "Seo": {
-    "keywords": "millionaire quiz, quizspel, trivia, wie wordt miljonair spel, gratis quiz, online quiz, algemene kennis",
-    "homeTitle": "Miljonair Quiz — Wie wordt miljonair? Speel gratis online",
-    "homeDescription": "Speel de quizshow gratis in 50 talen. 15 vragen naar het miljoen, vier hulplijnen, vangnetten, plus de eindeloze spelvormen Marathon en Tijdrace met een wereldwijde ranglijst.",
+    "keywords": "miljonairsquiz, quizspel, trivia, wie wordt miljonair spel, gratis quiz, online quiz, algemene kennis",
+    "homeTitle": "Miljonairsquiz — Wie wordt miljonair? Speel gratis online",
+    "homeDescription": "Speel de quizshow gratis in 80 talen. 15 vragen naar het miljoen, vier hulplijnen, vangnetten, plus de eindeloze spelvormen Marathon en Tijdrace met een wereldwijde ranglijst.",
     "playTitle": "Klassieke miljonairsquiz — 15 vragen naar het miljoen",
     "playDescription": "Beklim de geldladder van {first} tot {top}: vijftien vragen, twee vangnetten, vier hulplijnen. Gratis, zonder aanmelden, in jouw taal.",
     "marathonTitle": "Marathonquiz — hoe lang hou jij het vol?",
@@ -586,20 +586,20 @@
     "badgesTitle": "Badges — verzamel ze allemaal",
     "badgesDescription": "Twintig badges te verdienen in Klassiek, Marathon en Tijdrace: win het miljoen, houd een reeks vol, speel in veel talen.",
     "rulesTitle": "Zo speel je — regels, geldladder en hulplijnen",
-    "rulesDescription": "De volledige regels van Miljonair Quiz: de geldladder, veilige havens, stoppen, de vier hulplijnen, Marathon en Tijdrit.",
-    "aboutTitle": "Over Miljonair Quiz",
-    "aboutDescription": "Een gratis quizspel gemaakt door fans met door kunstmatige intelligentie geschreven vragen in 50 talen, geïnspireerd op de klassieke tv-quiz.",
+    "rulesDescription": "De volledige regels van Miljonairsquiz: de geldladder, vangnetten, stoppen, de vier hulplijnen, Marathon en Tijdrace.",
+    "aboutTitle": "Over Miljonairsquiz",
+    "aboutDescription": "Een gratis quizspel gemaakt door fans met door kunstmatige intelligentie geschreven vragen in 80 talen, geïnspireerd op de klassieke tv-quiz.",
     "privacyTitle": "Privacybeleid",
-    "privacyDescription": "Wat Miljonair Quiz opslaat, waarom, en hoe je dit kunt verwijderen.",
+    "privacyDescription": "Wat Miljonairsquiz opslaat, waarom, en hoe je dit kunt verwijderen.",
     "termsTitle": "Gebruiksvoorwaarden",
-    "termsDescription": "De eenvoudige regels om eerlijk Miljonair Quiz te spelen.",
+    "termsDescription": "De eenvoudige regels om eerlijk Miljonairsquiz te spelen.",
     "profileTitle": "Jouw profiel",
     "profileDescription": "Je scores, posities en badges.",
     "settingsTitle": "Instellingen",
     "contactTitle": "Neem contact op",
-    "contactDescription": "Vragen, ideeën of een fout in een vraag? Stuur het team van Miljonair Quiz een bericht.",
+    "contactDescription": "Vragen, ideeën of een fout in een vraag? Stuur het team van Miljonairsquiz een bericht.",
     "signInTitle": "Inloggen",
-    "signInDescription": "Log in met Google om je scores in het klassement te zetten en je voortgang op elk apparaat te bewaren.",
+    "signInDescription": "Log in met Google om je scores op de ranglijst te zetten en je voortgang op elk apparaat te bewaren.",
     "settingsDescription": "Geluid, taal en instellingen voor Klassiek."
   }
 }

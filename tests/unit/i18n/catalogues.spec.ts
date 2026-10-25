@@ -10,9 +10,9 @@ import { LOCALES as SERVER_LOCALES } from '../../../server/src/lib/locales'
 const MESSAGES = path.resolve(__dirname, '../../../src/messages')
 
 describe('locales', () => {
-  it('ships 50 languages', () => {
-    expect(LOCALES).toHaveLength(50)
-    expect(new Set(LOCALES).size).toBe(50)
+  it('ships 80 languages', () => {
+    expect(LOCALES).toHaveLength(80)
+    expect(new Set(LOCALES).size).toBe(80)
   })
 
   it('matches the API’s locale list exactly', () => {
@@ -22,9 +22,18 @@ describe('locales', () => {
   it('negotiates real browser headers to a supported locale', () => {
     expect(matchAcceptLanguage('pt-PT,en;q=0.9')).toBe('pt-BR')
     expect(matchAcceptLanguage('hy-AM,hy;q=0.9,en;q=0.8')).toBe('hy')
-    expect(matchAcceptLanguage('zh-TW,en;q=0.9')).toBe('zh-CN')
     expect(matchAcceptLanguage('xx')).toBe('en')
     expect(matchAcceptLanguage(null)).toBe('en')
+  })
+
+  it('tells Traditional from Simplified Chinese by region or script', () => {
+    expect(matchAcceptLanguage('zh-TW,en;q=0.9')).toBe('zh-TW')
+    expect(matchAcceptLanguage('zh-HK,zh;q=0.9')).toBe('zh-TW')
+    expect(matchAcceptLanguage('zh-Hant-HK')).toBe('zh-TW')
+    expect(matchAcceptLanguage('zh-MO')).toBe('zh-TW')
+    expect(matchAcceptLanguage('zh-SG,en;q=0.9')).toBe('zh-CN')
+    expect(matchAcceptLanguage('zh-Hans')).toBe('zh-CN')
+    expect(matchAcceptLanguage('zh')).toBe('zh-CN')
   })
 })
 

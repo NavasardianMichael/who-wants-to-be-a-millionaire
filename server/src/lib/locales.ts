@@ -1,5 +1,5 @@
 /**
- * The 50 locales the API generates questions for — the same list as `src/i18n/config.ts`.
+ * The 80 locales the API generates questions for — the same list as `src/i18n/config.ts`.
  *
  * `culture` is what the generator writes "local" questions about. It names the people and
  * places a speaker of that language most likely identifies with, so `local_culture`
@@ -71,6 +71,36 @@ export const LOCALE_INFO = {
   uz: { name: 'Uzbek (Latin)', culture: 'Uzbekistan', script: null },
   hy: { name: 'Armenian', culture: 'Armenia and the Armenian diaspora', script: /[԰-֏]/ },
   ka: { name: 'Georgian', culture: 'Georgia', script: /[Ⴀ-ჿ]/ },
+  'zh-TW': { name: 'Traditional Chinese', culture: 'Taiwan, Hong Kong and Macau', script: /[一-鿿]/ },
+  jv: { name: 'Javanese', culture: 'Java, Indonesia', script: null },
+  ha: { name: 'Hausa', culture: 'northern Nigeria and Niger', script: null },
+  am: { name: 'Amharic', culture: 'Ethiopia', script: /[ሀ-፿]/ },
+  yo: { name: 'Yoruba', culture: 'south-western Nigeria and Benin', script: null },
+  ne: { name: 'Nepali', culture: 'Nepal', script: DEVANAGARI },
+  my: { name: 'Burmese', culture: 'Myanmar', script: /[က-႟]/ },
+  ig: { name: 'Igbo', culture: 'south-eastern Nigeria', script: null },
+  si: { name: 'Sinhala', culture: 'Sri Lanka', script: /[඀-෿]/ },
+  km: { name: 'Khmer', culture: 'Cambodia', script: /[ក-៿]/ },
+  ps: { name: 'Pashto', culture: 'Afghanistan and north-western Pakistan', script: ARABIC },
+  or: { name: 'Odia', culture: 'Odisha, India', script: /[଀-୿]/ },
+  zu: { name: 'Zulu', culture: 'South Africa (especially KwaZulu-Natal)', script: null },
+  so: { name: 'Somali', culture: 'Somalia, Djibouti and the Somali regions of Ethiopia and Kenya', script: null },
+  af: { name: 'Afrikaans', culture: 'South Africa and Namibia', script: null },
+  ky: { name: 'Kyrgyz', culture: 'Kyrgyzstan', script: CYRILLIC },
+  mn: { name: 'Mongolian (Cyrillic)', culture: 'Mongolia', script: CYRILLIC },
+  lo: { name: 'Lao', culture: 'Laos', script: /[຀-໿]/ },
+  ca: { name: 'Catalan', culture: 'Catalonia, Valencia, the Balearic Islands and Andorra', script: null },
+  sq: { name: 'Albanian', culture: 'Albania and Kosovo', script: null },
+  lt: { name: 'Lithuanian', culture: 'Lithuania', script: null },
+  mk: { name: 'Macedonian', culture: 'North Macedonia', script: CYRILLIC },
+  be: { name: 'Belarusian', culture: 'Belarus', script: CYRILLIC },
+  sl: { name: 'Slovenian', culture: 'Slovenia', script: null },
+  lv: { name: 'Latvian', culture: 'Latvia', script: null },
+  gl: { name: 'Galician', culture: 'Galicia, Spain', script: null },
+  et: { name: 'Estonian', culture: 'Estonia', script: null },
+  eu: { name: 'Basque', culture: 'the Basque Country and Navarre', script: null },
+  cy: { name: 'Welsh', culture: 'Wales', script: null },
+  is: { name: 'Icelandic', culture: 'Iceland', script: null },
 } as const satisfies Record<string, LocaleInfo>
 
 export type Locale = keyof typeof LOCALE_INFO
