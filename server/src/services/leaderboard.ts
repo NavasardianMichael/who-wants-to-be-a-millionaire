@@ -6,7 +6,8 @@ import { prisma } from '../lib/prisma.js'
  * One board per ranked mode: each player's **best** finished run, ranked by score, ties
  * broken by total answer time (faster first), then by who got there first.
  *
- * The language filter ranks only runs played in that language. The name search filters the
+ * A run that had to draw from the public pool (whose answers anyone can download) is left
+ * out. The language filter ranks only runs played in that language. The name search filters the
  * ranked list *after* ranking, so a player found by name still shows their real global rank.
  */
 export type LeaderboardPeriod = 'all' | 'week'
@@ -50,7 +51,7 @@ const rankedSql = (query: LeaderboardQuery) => {
         r."userId", r.score, r."totalAnswerMs", r.locale, r."finishedAt"
       FROM "Run" r
       WHERE r.mode = ${query.mode}::"GameMode" AND r.status = 'finished' AND r.score > 0
-        AND r."userId" IS NOT NULL
+        AND r."userId" IS NOT NULL AND NOT r."usedPublicQuestions"
         ${localeFilter} ${periodFilter}
       ORDER BY r."userId", r.score DESC, r."totalAnswerMs" ASC, r."finishedAt" ASC
     ),

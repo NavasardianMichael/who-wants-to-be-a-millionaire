@@ -93,6 +93,8 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   the server; a guest's run is tied to an httpOnly guest cookie and never reaches the
   leaderboard. Only Classic has custom settings (Settings page) and plays offline.
 - Ranked runs never send `correctIndex` before the answer; the display order of options is
-  per-serve (`Run.currentOrder`). Don't add an answer to `RunView`.
+  per-serve (`Run.currentOrder`). Don't add an answer to `RunView`. Ranked questions come
+  from the ranked reserve (`Question.ranked`), which Classic batches and offline packs never
+  serve — otherwise their answers could be downloaded before a run.
 - Integration tests only ever touch `millionaire_test` (guarded in `tests/setup/integration.ts`).
   Never run `prisma migrate reset` against the dev database.

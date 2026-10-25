@@ -18,10 +18,16 @@
   answer is validated before it is stored or shown.
 - **Pool:** generated questions are kept (`Question`, unique per locale + hash). Serving draws
   least-served first; generation happens only for a short bucket; the English seed is last.
+  `Question.ranked` marks the **ranked reserve**: only `getRunQuestion` draws from it, and no
+  endpoint that returns `correctIndex` (batch, packs, samples) may ever include it.
 - **Ranked runs:** the run row is the referee, for users and guests alike (`RunOwner`: a
   `userId`, or a `guestId` from the `millionaire_guest` cookie). Leaderboard SQL counts only
-  runs with a user. `services/runRules.ts` is pure and unit-tested;
-  never put `correctIndex` in a `RunView`.
-- **Jobs** start in `index.ts` only (`poolRefill`, `runSweeper`), never in `createApp`, so tests
-  never poll.
+  runs with a user, and not runs flagged `usedPublicQuestions` (the reserve ran dry).
+  `services/runRules.ts` is pure and unit-tested; never put `correctIndex` in a `RunView`.
+  Every run write goes through `writeRun` (optimistic `version` check), so racing requests
+  cannot use a lifeline twice or answer one question twice.
+- **Jobs** start in `index.ts` only (`poolRefill`, `runSweeper`, `questionCleanup`), never in
+  `createApp`, so tests never poll.
+- **Reported questions:** after three reports an AI question is deleted, not kept; one a
+  ranked run has on screen is only retired until `questionCleanup` deletes it.
 - **Imports** are ESM with explicit `.js` extensions.

@@ -12,7 +12,8 @@ import { generateIntoPool, pickCategory } from '../services/questionPool.js'
  * Demand-ordered on purpose: 50 locales × 5 levels × 16 categories is far beyond any free
  * quota, so the job only ever tops up buckets players have recently asked for, a few calls
  * per tick. A bucket counts as stocked once it holds `targetPerBucket` questions that have
- * been served fewer than twice.
+ * been served fewer than twice. The ranked reserve has buckets of its own, demanded by
+ * ranked runs.
  */
 const RECENT_DEMAND_MS = 14 * 24 * 60 * 60 * 1000
 
@@ -35,13 +36,13 @@ export const refillTick = async (): Promise<number> => {
       if (!isLocale(bucket.locale)) continue
 
       const fresh = await prisma.question.count({
-        where: { locale: bucket.locale, level: bucket.level, retiredAt: null, servedCount: { lt: 2 } },
+        where: { locale: bucket.locale, level: bucket.level, ranked: bucket.ranked, retiredAt: null, servedCount: { lt: 2 } },
       })
       if (fresh >= config.poolRefill.targetPerBucket) continue
 
       calls += 1
       try {
-        await generateIntoPool(bucket.locale, bucket.level as Level, pickCategory([]))
+        await generateIntoPool(bucket.locale, bucket.level as Level, pickCategory([]), bucket.ranked)
       } catch (error) {
         // Quota or overload: stop for this tick; the cooldowns in lib/gemini.ts decide when to retry.
         console.warn('[refill] stopped:', (error as Error).message)

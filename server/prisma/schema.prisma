@@ -87,14 +87,18 @@ model Question {
   hash         String
   servedCount  Int            @default(0)
   reportCount  Int            @default(0)
-  /// Set once enough players report it as wrong; retired questions are never served.
+  /// Set once enough players report it as wrong; retired questions are never served, and are
+  /// deleted as soon as no active run has them on screen.
   retiredAt    DateTime?
+  /// The ranked reserve: served only by ranked runs, never by an endpoint that returns the
+  /// answer (batch, packs, samples), so its answers cannot be downloaded before a run.
+  ranked       Boolean        @default(false)
   createdAt    DateTime       @default(now())
 
   reports QuestionReport[]
 
   @@unique([locale, hash])
-  @@index([locale, level, category])
+  @@index([locale, ranked, level, category])
 }
 
 model QuestionReport {
@@ -112,33 +116,39 @@ model QuestionReport {
 /// A ranked Marathon or Time Attack run. The client only ever sees the current question
 /// without its answer; every check happens against this row.
 model Run {
-  id                String    @id @default(uuid())
+  id                  String    @id @default(uuid())
   /// The signed-in player; null for a guest run (refereed the same, never on the leaderboard).
-  userId            String?
-  user              User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId              String?
+  user                User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
   /// A guest's browser (the `millionaire_guest` cookie); null when the run has a user.
-  guestId           String?
-  mode              GameMode
-  locale            String
-  status            RunStatus @default(active)
-  score             Int       @default(0)
-  correctCount      Int       @default(0)
+  guestId             String?
+  mode                GameMode
+  locale              String
+  status              RunStatus @default(active)
+  score               Int       @default(0)
+  correctCount        Int       @default(0)
   /// Sum of answer times — the tie-break on the leaderboard (faster wins).
-  totalAnswerMs     Int       @default(0)
-  startedAt         DateTime  @default(now())
+  totalAnswerMs       Int       @default(0)
+  startedAt           DateTime  @default(now())
   /// Time Attack only: when the whole run ends. Wrong answers move it earlier.
-  endsAt            DateTime?
-  finishedAt        DateTime?
-  currentQuestionId String?
+  endsAt              DateTime?
+  finishedAt          DateTime?
+  currentQuestionId   String?
   /// Display order of the current question's options: `order[shownIndex] = storedIndex`.
-  currentOrder      Int[]
+  currentOrder        Int[]
   /// Shown indexes removed by 50:50 on the current question.
-  removedIndexes    Int[]
-  questionShownAt   DateTime?
+  removedIndexes      Int[]
+  questionShownAt     DateTime?
   /// Marathon only: the current question's deadline.
-  currentDeadline   DateTime?
-  lifelinesUsed     String[]
-  servedQuestionIds String[]
+  currentDeadline     DateTime?
+  lifelinesUsed       String[]
+  servedQuestionIds   String[]
+  /// Set once the run had to fall back to the public pool, whose answers anyone can
+  /// download; such a run is still refereed but kept off the leaderboard.
+  usedPublicQuestions Boolean   @default(false)
+  /// Bumped on every write; a write carries the version it read, so of two racing requests
+  /// (a lifeline fired twice, four answers at once) only the first lands.
+  version             Int       @default(0)
 
   @@index([mode, status, score(sort: Desc)])
   @@index([userId, mode])
@@ -175,12 +185,14 @@ model UserBadge {
 }
 
 /// How often each (locale, level) bucket was asked for — the refill job tops up the busiest
-/// buckets first, so the Gemini free quota goes where players actually are.
+/// buckets first, so the Gemini free quota goes where players actually are. The ranked
+/// reserve is a bucket of its own.
 model GenerationDemand {
   locale          String
   level           Int
+  ranked          Boolean  @default(false)
   requests        Int      @default(0)
   lastRequestedAt DateTime @default(now())
 
-  @@id([locale, level])
+  @@id([locale, level, ranked])
 }

@@ -1,8 +1,9 @@
 import request from 'supertest'
-import { afterAll, describe, expect, it } from 'vitest'
-import { createUser, ORIGIN, prisma, sharp } from './helpers'
+import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { createRankedQuestions, createUser, ORIGIN, prisma, sharp } from './helpers'
 import { createApp } from '../../server/src/app'
 import { MARATHON_RULES } from '../../server/src/lib/game'
+import { deleteRetiredQuestions } from '../../server/src/services/questionPool'
 import { SWITCH_PREVIEW_MS } from '../../server/src/services/runRules'
 
 const app = createApp()
@@ -108,6 +109,11 @@ describe('phone a friend', () => {
 })
 
 describe('ranked runs', () => {
+  let reserve: string[] = []
+  beforeAll(async () => {
+    reserve = await createRankedQuestions('en', 1, 8)
+  })
+
   it('lets a guest play, tied to its own cookie and kept off the leaderboard', async () => {
     const guest = request.agent(app)
     const start = await guest.post('/runs').set('Origin', ORIGIN).send({ mode: 'marathon', locale: 'en' })
@@ -209,6 +215,132 @@ describe('ranked runs', () => {
     const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', owner.cookie).send({ mode: 'timeAttack', locale: 'en' })
     const response = await request(app).get(`/runs/${start.body.value.id}`).set('Cookie', other.cookie)
     expect(response.status).toBe(404)
+  })
+
+  it('draws from the ranked reserve, which no endpoint ever serves with its answers', async () => {
+    const { cookie } = await createUser('Reserved')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'en' })
+    const row = await prisma.run.findUniqueOrThrow({ where: { id: start.body.value.id } })
+    expect(reserve).toContain(row.currentQuestionId)
+    expect(row.usedPublicQuestions).toBe(false)
+
+    const batch = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'en', counts: { 1: 10 } })
+    const pack = await request(app).get('/questions/packs/en')
+    const samples = await request(app).get('/questions/samples').query({ locale: 'en', category: 'general' })
+    const served = [...batch.body.value, ...pack.body.value.questions, ...samples.body.value].map(({ id }: { id: string }) => id)
+    expect(served.length).toBeGreaterThan(0)
+    expect(served.filter((id) => reserve.includes(id))).toHaveLength(0)
+  })
+
+  it('keeps a run off the leaderboard once it had to fall back to the public pool', async () => {
+    const { user, cookie } = await createUser('Exposed')
+    // No French reserve and no Gemini in tests, so the run is served public questions.
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'fr' })
+    const run = start.body.value
+    const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+    expect(row.usedPublicQuestions).toBe(true)
+
+    const question = await prisma.question.findUniqueOrThrow({ where: { id: row.currentQuestionId! } })
+    const shown = row.currentOrder.indexOf(question.correctIndex)
+    const answer = await request(app).post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).set('Cookie', cookie).send({ questionId: run.question.id, index: shown })
+    expect(answer.body.value.run.score).toBe(1)
+    await prisma.run.update({ where: { id: run.id }, data: { status: 'finished', finishedAt: new Date() } })
+
+    const board = await request(app).get('/leaderboards').query({ mode: 'marathon', q: 'Exposed' })
+    expect(board.body.value.entries.some((entry: { userId: string }) => entry.userId === user.id)).toBe(false)
+  })
+
+  it("steers a new run clear of the player's earlier questions, repeating only when none are left", async () => {
+    const reserveEs = await createRankedQuestions('es', 1, 3)
+    const { cookie } = await createUser('Regular')
+    const start = (mode: string) => request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode, locale: 'es' })
+    // Answers correctly, so a Marathon run carries on.
+    const answer = async (run: { id: string; question: { id: string } }) => {
+      const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+      const question = await prisma.question.findUniqueOrThrow({ where: { id: run.question.id } })
+      const index = row.currentOrder.indexOf(question.correctIndex)
+      return request(app).post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).set('Cookie', cookie).send({ questionId: run.question.id, index })
+    }
+
+    const first = (await start('timeAttack')).body.value
+    await answer(first)
+    const { servedQuestionIds: earlier } = await prisma.run.findUniqueOrThrow({ where: { id: first.id } })
+    expect(earlier).toHaveLength(2)
+
+    // One unseen question left: the new run gets it, whatever the mode.
+    const second = (await start('marathon')).body.value
+    const unseen = reserveEs.find((id) => !earlier.includes(id))
+    expect(second.question.id).toBe(unseen)
+
+    // Now everything has been seen: a repeat from an earlier run, still from the reserve.
+    const next = (await answer(second)).body.value.run
+    expect(earlier).toContain(next.question.id)
+    expect((await prisma.run.findUniqueOrThrow({ where: { id: second.id } })).usedPublicQuestions).toBe(false)
+  })
+
+  it('lets a lifeline through once, however many requests race for it', async () => {
+    const { cookie } = await createUser('Racer')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'en' })
+    const run = start.body.value
+    const use = (lifeline: string) => request(app).post(`/runs/${run.id}/lifeline`).set('Origin', ORIGIN).set('Cookie', cookie).send({ lifeline })
+
+    // Two 50:50s would rule out all three wrong options; several audiences would average to the answer.
+    for (const lifeline of ['fiftyFifty', 'askAudience']) {
+      const responses = await Promise.all(Array.from({ length: 4 }, () => use(lifeline)))
+      expect(responses.filter(({ status }) => status === 200)).toHaveLength(1)
+      expect(responses.filter(({ status }) => status === 409)).toHaveLength(3)
+    }
+    const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+    expect(row.removedIndexes).toHaveLength(2)
+    expect(row.lifelinesUsed).toEqual(['fiftyFifty', 'askAudience'])
+  })
+
+  it('takes one answer per question, however many race for it', async () => {
+    const { cookie } = await createUser('Spammer')
+    // Time Attack, where a wrong answer does not end the run.
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'timeAttack', locale: 'en' })
+    const run = start.body.value
+    const responses = await Promise.all(
+      [0, 1, 2, 3].map((index) =>
+        request(app).post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).set('Cookie', cookie).send({ questionId: run.question.id, index })
+      )
+    )
+    expect(responses.filter(({ status }) => status === 200)).toHaveLength(1)
+    const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
+    expect(row.servedQuestionIds).toHaveLength(2)
+  })
+})
+
+describe('reported questions', () => {
+  const report = (id: string, cookie: string) => request(app).post(`/questions/${id}/report`).set('Origin', ORIGIN).set('Cookie', cookie).send({})
+  const reportThreeTimes = async (id: string) => {
+    for (const name of ['Reporter A', 'Reporter B', 'Reporter C']) {
+      expect((await report(id, (await createUser(name)).cookie)).status).toBe(200)
+    }
+  }
+
+  it('deletes an AI question once enough players report it as wrong', async () => {
+    const [id] = await createRankedQuestions('de', 1, 1)
+    await reportThreeTimes(id!)
+    expect(await prisma.question.findUnique({ where: { id: id! } })).toBeNull()
+    // An old offline pack may still hold it; reporting it again is harmless.
+    expect((await report(id!, (await createUser('Late')).cookie)).status).toBe(200)
+  })
+
+  it('keeps a reported question a ranked run is showing until the run moves on', async () => {
+    await createRankedQuestions('it', 1, 2)
+    const { cookie } = await createUser('Mid-question')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'timeAttack', locale: 'it' })
+    const run = start.body.value
+
+    await reportThreeTimes(run.question.id)
+    const retired = await prisma.question.findUniqueOrThrow({ where: { id: run.question.id } })
+    expect(retired.retiredAt).not.toBeNull()
+
+    const answer = await request(app).post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).set('Cookie', cookie).send({ questionId: run.question.id, index: 0 })
+    expect(answer.status).toBe(200)
+    expect(await deleteRetiredQuestions()).toBeGreaterThanOrEqual(1)
+    expect(await prisma.question.findUnique({ where: { id: run.question.id } })).toBeNull()
   })
 })
 

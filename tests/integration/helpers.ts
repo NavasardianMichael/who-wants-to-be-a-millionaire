@@ -16,6 +16,25 @@ export const createUser = async (displayName = 'Tester') => {
   return { user, cookie }
 }
 
+/** Questions in the ranked reserve, which only ranked runs draw from — the seed has none. Returns their ids. */
+export const createRankedQuestions = async (locale: string, level: number, count: number): Promise<string[]> => {
+  const ids = Array.from({ length: count }, () => randomUUID())
+  await prisma.question.createMany({
+    data: ids.map((id, index) => ({
+      id,
+      locale,
+      category: 'general',
+      level,
+      text: `Reserve question ${id}?`,
+      options: ['Alpha', 'Bravo', 'Charlie', 'Delta'],
+      correctIndex: index % 4,
+      hash: `reserve-${id}`,
+      ranked: true,
+    })),
+  })
+  return ids
+}
+
 /** Requests from the web app carry its Origin; the CSRF guard refuses any other. */
 export const ORIGIN = 'http://localhost:7006'
 
