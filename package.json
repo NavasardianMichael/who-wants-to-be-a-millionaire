@@ -33,6 +33,7 @@
     "build:api": "pnpm --filter millionaire-server build && node scripts/build-api-release.mjs",
     "env:base64": "node scripts/env-to-base64.mjs",
     "check:messages": "node scripts/check-messages.mjs",
+    "i18n:formats": "node scripts/number-formats.mjs",
     "test:unit": "vitest run --project unit",
     "test:integration": "vitest run --project integration"
   },

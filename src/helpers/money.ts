@@ -1,26 +1,34 @@
+import { DEFAULT_LOCALE, isLocale } from '@i18n/config'
+import { NUMBER_FORMATS, type NumberPattern } from '@i18n/numberFormats'
+
 /**
  * The ladder is dollars everywhere — the show's own currency — written the way each
- * language writes money: `$1,000,000`, `1.000.000 $`, `1 000 000 $US`, `US$1,000,000`.
- * Formatters are cached per locale: `Intl.NumberFormat` construction is the expensive part.
+ * language writes money: `$1,000,000`, `1.000.000 $`, `1 000 000 $US`, `US$10,00,000`.
+ *
+ * Deliberately not `Intl.NumberFormat` at runtime: browsers ship trimmed ICU data (Chrome
+ * has no number data for Armenian, Georgian, Kazakh and more, and falls back to English),
+ * so the client would render different text from the server and hydration would fail.
+ * The patterns are Node's ICU, captured once by `pnpm i18n:formats`.
  */
-const formatters = new Map<string, Intl.NumberFormat>()
-
-export const formatMoney = (amount: number, locale: string): string => {
-  let formatter = formatters.get(locale)
-  if (!formatter) {
-    formatter = new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })
-    formatters.set(locale, formatter)
+const render = (value: number, { prefix, suffix, group = ',', grouping = [3, 3], minimumGrouping = 1, digits }: NumberPattern) => {
+  let rest = String(Math.round(value))
+  let grouped = ''
+  if (group && rest.length >= grouping[0] + minimumGrouping) {
+    grouped = group + rest.slice(-grouping[0])
+    rest = rest.slice(0, -grouping[0])
+    while (rest.length > grouping[1]) {
+      grouped = group + rest.slice(-grouping[1]) + grouped
+      rest = rest.slice(0, -grouping[1])
+    }
   }
-  return formatter.format(amount)
+  const latin = rest + grouped
+  return prefix + (digits ? latin.replace(/\d/g, (digit) => digits[Number(digit)]!) : latin) + suffix
 }
 
-/** Shorter form for tight spaces (the mobile header): `$125K`, `$1M`. */
-export const formatMoneyCompact = (amount: number, locale: string): string =>
-  new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: 'USD',
-    notation: 'compact',
-    maximumFractionDigits: 1,
-  }).format(amount)
+const patternsOf = (locale: string) => NUMBER_FORMATS[isLocale(locale) ? locale : DEFAULT_LOCALE]
 
-export const formatNumber = (value: number, locale: string): string => new Intl.NumberFormat(locale).format(value)
+/** Whole dollars; anything finer is rounded, as the show never pays cents. */
+export const formatMoney = (amount: number, locale: string): string => render(amount, patternsOf(locale).money)
+
+/** A whole number, grouped the locale's way. */
+export const formatNumber = (value: number, locale: string): string => render(value, patternsOf(locale).number)

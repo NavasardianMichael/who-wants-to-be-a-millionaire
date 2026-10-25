@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import type { LeaderboardEntry } from '@interfaces/entities'
 import { isLocale, LOCALE_LABELS } from '@i18n/config'
 import { cn } from '@helpers/cn'
+import { formatNumber } from '@helpers/money'
 import { Avatar } from '@components/ui/bare/Avatar'
 
 const formatDuration = (ms: number): string => {
@@ -28,7 +29,6 @@ const RANK_STYLE: Record<number, string> = {
 export const LeaderboardTable = ({ entries, viewerId, caption }: { entries: LeaderboardEntry[]; viewerId?: string; caption: string }) => {
   const t = useTranslations('Leaderboard')
   const locale = useLocale()
-  const number = new Intl.NumberFormat(locale)
 
   const columns: TableColumnsType<LeaderboardEntry> = [
     {
@@ -77,7 +77,7 @@ export const LeaderboardTable = ({ entries, viewerId, caption }: { entries: Lead
       key: 'score',
       title: t('score'),
       align: 'end',
-      render: (_, entry) => <span className='font-display text-h3 font-black text-gold-300 tabular'>{number.format(entry.score)}</span>,
+      render: (_, entry) => <span className='font-display text-h3 font-black text-gold-300 tabular'>{formatNumber(entry.score, locale)}</span>,
     },
   ]
 
