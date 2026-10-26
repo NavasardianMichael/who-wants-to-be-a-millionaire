@@ -1,0 +1,198 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [citext, pg_trgm]
+}
+
+/// `classic` games are personal-only and client-reported; `marathon` and `timeAttack` are
+/// ranked and server-authoritative (the server holds the answers and the clock).
+enum GameMode {
+  classic
+  marathon
+  timeAttack
+}
+
+enum RunStatus {
+  active
+  finished
+}
+
+enum QuestionOrigin {
+  ai
+  seed
+}
+
+/// `local` questions are about the culture of the locale's region; `global` ones are
+/// meaningful anywhere. The pool keeps a mix of both.
+enum QuestionScope {
+  global
+  local
+}
+
+enum ClassicOutcome {
+  won
+  walked
+  lost
+  timeout
+}
+
+/// Accounts are Google-only: there is no password and no email verification of our own,
+/// because Google has already verified the address (`lib/google-oauth.ts`).
+model User {
+  id              String   @id @default(uuid())
+  email           String   @unique @db.Citext
+  /// Google's `sub` — the account key, never the email, which users can change.
+  googleId        String   @unique
+  /// Shown on leaderboards. Defaults to the Google name; editable on the profile page.
+  displayName     String
+  /// Path of an uploaded avatar under `/uploads`, served by this API.
+  avatarPath      String?
+  /// Google's photo URL, used when no avatar was uploaded.
+  googleAvatarUrl String?
+  locale          String   @default("en")
+  /// Bumped to revoke every cookie minted before (`middleware/auth.ts`).
+  tokenVersion    Int      @default(0)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  runs         Run[]
+  classicGames ClassicGame[]
+  badges       UserBadge[]
+
+  @@index([displayName(ops: raw("gin_trgm_ops"))], type: Gin)
+}
+
+/// The generated (or seeded) question pool, per locale.
+model Question {
+  id           String         @id @default(uuid())
+  locale       String
+  category     String
+  /// 1 (easiest) .. 5 (hardest). Classic maps 15 stages onto these, three stages each.
+  level        Int
+  scope        QuestionScope  @default(global)
+  text         String
+  /// Always four. Stored in a random order; `correctIndex` points into this array.
+  options      String[]
+  correctIndex Int
+  explanation  String?
+  origin       QuestionOrigin @default(ai)
+  /// The Gemini model that wrote it, for quality tracking.
+  model        String?
+  /// Normalized text hash, unique per locale, so a regenerated duplicate is skipped.
+  hash         String
+  servedCount  Int            @default(0)
+  reportCount  Int            @default(0)
+  /// Set once enough players report it as wrong; retired questions are never served, and are
+  /// deleted as soon as no active run has them on screen.
+  retiredAt    DateTime?
+  /// The ranked reserve: served only by ranked runs, never by an endpoint that returns the
+  /// answer (batch, packs, samples), so its answers cannot be downloaded before a run.
+  ranked       Boolean        @default(false)
+  createdAt    DateTime       @default(now())
+
+  reports QuestionReport[]
+
+  @@unique([locale, hash])
+  @@index([locale, ranked, level, category])
+}
+
+model QuestionReport {
+  id          String   @id @default(uuid())
+  questionId  String
+  question    Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  /// The user id, or a hash of the IP for a guest — one report per reporter per question.
+  reporterKey String
+  reason      String?
+  createdAt   DateTime @default(now())
+
+  @@unique([questionId, reporterKey])
+}
+
+/// A ranked Marathon or Time Attack run. The client only ever sees the current question
+/// without its answer; every check happens against this row.
+model Run {
+  id                  String    @id @default(uuid())
+  /// The signed-in player; null for a guest run (refereed the same, never on the leaderboard).
+  userId              String?
+  user                User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// A guest's browser (the `millionaire_guest` cookie); null when the run has a user.
+  guestId             String?
+  mode                GameMode
+  locale              String
+  status              RunStatus @default(active)
+  score               Int       @default(0)
+  correctCount        Int       @default(0)
+  /// Sum of answer times — the tie-break on the leaderboard (faster wins).
+  totalAnswerMs       Int       @default(0)
+  startedAt           DateTime  @default(now())
+  /// Time Attack only: when the whole run ends. Wrong answers move it earlier.
+  endsAt              DateTime?
+  finishedAt          DateTime?
+  currentQuestionId   String?
+  /// Display order of the current question's options: `order[shownIndex] = storedIndex`.
+  currentOrder        Int[]
+  /// Shown indexes removed by 50:50 on the current question.
+  removedIndexes      Int[]
+  questionShownAt     DateTime?
+  /// Marathon only: the current question's deadline.
+  currentDeadline     DateTime?
+  lifelinesUsed       String[]
+  servedQuestionIds   String[]
+  /// Set once the run had to fall back to the public pool, whose answers anyone can
+  /// download; such a run is still refereed but kept off the leaderboard.
+  usedPublicQuestions Boolean   @default(false)
+  /// Bumped on every write; a write carries the version it read, so of two racing requests
+  /// (a lifeline fired twice, four answers at once) only the first lands.
+  version             Int       @default(0)
+
+  @@index([mode, status, score(sort: Desc)])
+  @@index([userId, mode])
+  @@index([guestId, mode])
+}
+
+/// A Classic game, synced from the client (personal best and history only — never ranked).
+model ClassicGame {
+  id            String         @id @default(uuid())
+  userId        String
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// Generated on the device, so a game synced twice from the offline outbox is stored once.
+  clientId      String
+  locale        String
+  reachedStage  Int
+  winnings      Int
+  outcome       ClassicOutcome
+  lifelinesUsed String[]
+  settings      Json
+  playedAt      DateTime
+  createdAt     DateTime       @default(now())
+
+  @@unique([userId, clientId])
+  @@index([userId, winnings(sort: Desc)])
+}
+
+model UserBadge {
+  userId   String
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badgeId  String
+  earnedAt DateTime @default(now())
+
+  @@id([userId, badgeId])
+}
+
+/// How often each (locale, level) bucket was asked for — the refill job tops up the busiest
+/// buckets first, so the Gemini free quota goes where players actually are. The ranked
+/// reserve is a bucket of its own.
+model GenerationDemand {
+  locale          String
+  level           Int
+  ranked          Boolean  @default(false)
+  requests        Int      @default(0)
+  lastRequestedAt DateTime @default(now())
+
+  @@id([locale, level, ranked])
+}
