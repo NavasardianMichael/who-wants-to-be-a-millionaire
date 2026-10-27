@@ -30,7 +30,8 @@ const nextConfig: NextConfig = {
   },
 }
 
-// Source maps upload only when CI provides SENTRY_AUTH_TOKEN; the SDK runs whenever a DSN is set.
+// Sentry runs in the browser only (`instrumentation-client.ts`), whenever a DSN is set. Source
+// maps upload only when CI provides SENTRY_AUTH_TOKEN.
 export default withSentryConfig(withNextIntl(nextConfig), {
   org: process.env.SENTRY_ORG,
   project: process.env.SENTRY_PROJECT,
