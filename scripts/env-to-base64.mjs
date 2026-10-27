@@ -70,14 +70,16 @@ if (missing.length) warn(`missing required: ${missing.join(', ')}`)
 if (owned.length) warn(`${owned.join(', ')} — the deploy overwrites these; remove them`)
 if (content.includes('dev-secret-change-me')) warn('JWT_SECRET is still the dev default')
 if (/DATABASE_URL=[^\n]*:5432\//.test(content)) {
-  warn('DATABASE_URL uses :5432 — production publishes Postgres on 5004')
+  warn('DATABASE_URL uses :5432 — production publishes Postgres on 5006')
 }
-// Dev and production both publish Postgres on 5004, so `localhost` vs `127.0.0.1` is
+// Dev and production both publish Postgres on 5006, so `localhost` vs `127.0.0.1` is
 // the only thing distinguishing a dev URL from a production one. Worth shouting about.
 if (/DATABASE_URL="?postgresql:\/\/[^\n]*@localhost:/.test(content)) {
   warn('DATABASE_URL uses `localhost` — that is the dev spelling; production needs 127.0.0.1')
 }
 if (content.includes('millionaire:millionaire@')) warn('DATABASE_URL still has the dev password')
+if (/DATABASE_URL="?postgresql:\/\/[^:\n]*:@/.test(content)) warn('DATABASE_URL has an empty password')
+if (/^GEMINI_KEY="?"?\s*$/m.test(content)) warn('GEMINI_KEY is empty — generation stays off, games use the pool and the English bank only')
 if (owned.length || missing.length) console.error('')
 
 console.error('Paste the line below into the ENV_API_BASE64 GitHub secret:')

@@ -22,6 +22,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "i18n:sync": "node scripts/i18n-sync.mjs",
+    "postinstall": "node scripts/postinstall.mjs",
     "export:fallback": "node scripts/export-fallback.mjs",
     "prepare": "husky",
     "db:up": "docker compose up -d",

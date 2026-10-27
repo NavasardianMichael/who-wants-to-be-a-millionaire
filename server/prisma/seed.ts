@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 import { isCategory, isLevel, OPTIONS_COUNT } from '../src/lib/game.js'
 import { questionHash } from '../src/services/questionGen.js'
 
-import 'dotenv/config'
+import '../src/load-env.js'
 
 /**
  * Loads the curated English fallback bank (`seed/fallback-questions.en.json`) into the pool

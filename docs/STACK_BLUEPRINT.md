@@ -51,7 +51,7 @@ product; it says what to build, how, and which existing file to copy for each pi
 | Auth | Google OAuth (passport-google-oauth20 + cookie state/PKCE store), JWT httpOnly cookie with `tokenVersion` revocation |
 | Uploads | multer memory storage → sharp re-encode → `/uploads` static |
 | AI | `@google/genai`, model fallback chain with per-model cooldowns, JSON schema output |
-| Observability | Sentry (`@sentry/nextjs`, `@sentry/node`), GA4 — both off when env is empty |
+| Observability | Sentry in the browser only (`@sentry/nextjs`), GA4 — both off when env is empty |
 | Tests | Vitest 4 projects (`unit`, `integration` with supertest + throwaway DB), Playwright (desktop/tablet/phone) |
 | Lint | ESLint 9 flat config (next, ts, jsx-a11y, react-hooks 7, security, simple-import-sort, prettier), husky + lint-staged |
 | Deploy | GitHub Actions → SSH → systemd units + nginx; release dirs with `current` symlink |
@@ -66,8 +66,8 @@ product; it says what to build, how, and which existing file to copy for each pi
   src/store/<domain>/<slice>/  store.ts · types.ts   (+ appendSelectors.ts)
   src/components/         App.tsx, ui/{bare,layout}, <feature>/, layout/, pwa/, seo/, brand/
   src/hooks/ src/helpers/ src/constants/ src/interfaces/ src/i18n/ src/messages/ src/styles/ src/linkedDataSchema/
-  src/proxy.ts  src/instrumentation*.ts
-  server/src/             app.ts · index.ts · instrument.ts · config.ts · load-env.ts
+  src/proxy.ts  src/instrumentation-client.ts
+  server/src/             app.ts · index.ts · config.ts · load-env.ts
   server/src/{routes,services,lib,middleware,mappers,jobs,types}/
   server/prisma/          schema.prisma · migrations/ · seed.ts · seed/*.json
   tests/{unit,integration,e2e,setup}/
@@ -88,8 +88,7 @@ Ports: pick a free trio per project (Bookie 7004/9004/5004, Hangman 7005, Millio
   modules, `src/i18n/request.ts`, configs). ESLint warns on the rest.
 - **Import order** enforced by `simple-import-sort` with one group list (react, packages,
   `@api`, `@store`, `@hooks`, `@interfaces`, `@i18n`, `@constants`, `@helpers`,
-  `@linkedDataSchema`, `@components`, `@styles`, relative, css). Exception: a side-effect import
-  that must load first (`server/src/index.ts` → `./instrument.js`) disables the rule for that file.
+  `@linkedDataSchema`, `@components`, `@styles`, relative, css).
 - **Comments explain why**, at the top of a module or above a non-obvious decision. No narration.
 - **Prettier:** no semicolons, single quotes (JSX too), width 120, trailing commas es5.
 - **Twin files** when web and server need the same rules (different module systems): identical
@@ -99,10 +98,11 @@ Ports: pick a free trio per project (Bookie 7004/9004/5004, Hangman 7005, Millio
 
 - **Config** (`config.ts`): the only `process.env` reader; defaults for dev; `isXConfigured()`
   helpers so a missing key disables a feature instead of crashing. `load-env.ts` loads
-  `server/.env` by absolute path (dotenv never overrides real env vars — tests rely on that).
+  `server/.env.<NODE_ENV>.local` (`development` when unset) by absolute path, shared by
+  `prisma.config.ts` and the seed (dotenv never overrides real env vars — tests rely on that).
 - **App** (`app.ts`): `trust proxy` = 1 → cors(credentials) → cookieParser → json(limit) →
   `/uploads` static → `requireSameOrigin` (Origin/Referer check on every write) → `optionalAuth`
-  → `/health` (reports feature flags) → routers → 404 envelope → Sentry handler → `errorHandler`.
+  → `/health` (reports feature flags) → routers → 404 envelope → `errorHandler`.
 - **Envelope:** `ok(res, value, status)` / `fail(res, message, code, status)` → `{ value, error }`.
 - **Errors:** throw `HttpError(status, message, code)`; `lib/error-response.ts` maps Prisma,
   multer and body-parser errors by `name` (import-free, unit-testable), generic in production.
@@ -129,7 +129,7 @@ Copy `server/src/lib/gemini.ts` (from Hangman's `src/app/getWord/route.ts`):
   try cooled models anyway when all are cooling.
 - `generateJson({ contents, systemInstruction, schema, maxOutputTokens, temperature })` with
   `responseMimeType: 'application/json'` + `responseSchema`; lazy client so builds need no key.
-- `AllModelsFailedError` carries per-model failures for logs and Sentry.
+- `AllModelsFailedError` carries per-model failures for the logs.
 
 Then:
 - **Validate everything** (`services/questionGen.ts`): parse defensively, clip lengths, check
@@ -240,10 +240,10 @@ Then:
 
 - GA4: `constants/analytics.ts` (validated ID, init script with `send_page_view: false`),
   `helpers/analytics.ts` (`trackEvent` with a typed event union), `PageViewTracker`.
-- Sentry: `constants/sentry.ts` (validated DSN), `instrumentation.ts`, `instrumentation-client.ts`
-  (replays on error only), `global-error.tsx`, `withSentryConfig` with a `/monitoring` tunnel;
-  server `instrument.ts` imported first. `reportError(error, context, { silent })` is the only
-  sanctioned silence.
+- Sentry, browser only: `constants/sentry.ts` (validated DSN), `instrumentation-client.ts`
+  (replays on error only), `global-error.tsx`, `withSentryConfig` with a `/monitoring` tunnel and
+  source maps. No server-side init in Next or the API: those errors go to the logs.
+  `reportError(error, context, { silent })` is the only sanctioned silence.
 
 ## 12. Testing and guard rails
 
@@ -286,7 +286,6 @@ Then:
 - `useSearchParams` without Suspense turns a static page into client rendering.
 - `react-hooks` 7 forbids synchronous `setState` in effects — derive state, use
   `useSyncExternalStore` (online status, install prompt) or act in event handlers.
-- ESLint `--fix` reorders a must-be-first side-effect import (Sentry instrumentation).
 - Tailwind class names built at runtime are never generated.
 - Next's tsconfig-path fallback works in app code but not in `next.config.ts`.
 - A `/me` probe that 401s for guests logs a console error on every page — return `null` with 200.
@@ -306,7 +305,7 @@ Then:
 | Design tokens + UI kit | `src/styles/tokens.ts`, `src/styles/theme.ts`, `src/styles/globals.css`, `src/components/AntdProvider.tsx`, `src/components/ui/*` |
 | Service worker + offline | `src/helpers/pwa.ts`, `src/app/sw.js/route.ts`, `src/helpers/offline/*` |
 | Install button / iOS hint | `src/helpers/installPrompt.ts`, `src/components/pwa/*` (originals in Hangman `src/helpers/utils/installPrompt.ts`, `src/components/downloadAppBtn`) |
-| Server skeleton | `server/src/{app,index,instrument,config,load-env}.ts`, `server/src/lib/{api-response,error-response,request,rateLimit}.ts`, `server/src/middleware/*` |
+| Server skeleton | `server/src/{app,index,config,load-env}.ts`, `server/src/lib/{api-response,error-response,request,rateLimit}.ts`, `server/src/middleware/*` |
 | Google sign-in | `server/src/routes/identity.ts`, `server/src/lib/{google-oauth,oauth-state,session,return-path,cookie-domain}.ts` (fuller version with linking/registration in Bookie) |
 | Gemini + validation + pool | `server/src/lib/gemini.ts`, `server/src/services/{questionGen,questionPool,phoneAFriend}.ts`, `server/src/jobs/poolRefill.ts` |
 | Server-refereed sessions | `server/src/services/{runs,runRules}.ts` |
