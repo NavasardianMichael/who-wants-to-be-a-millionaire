@@ -11,6 +11,7 @@ PostgreSQL 16 · `@google/genai` · sharp · Sentry · GA4
 ## Commands
 
 ```bash
+pnpm install                  # postinstall: prisma generate, then migrate deploy if Postgres is up (not in CI)
 pnpm db:up && pnpm db:setup   # Postgres in Docker (port 5006), migrate + seed the English bank
 pnpm dev                      # web :7006 + api :9006
 pnpm verify                   # typecheck → typecheck:server → gates → lint → test → build — run before "done"
@@ -22,6 +23,7 @@ pnpm i18n:sync [locales]      # Gemini-fills keys added to en.json since the las
 pnpm i18n:formats             # regenerate src/i18n/numberFormats.ts (money/number patterns) from Node's ICU
 pnpm export:fallback          # copy the English bank to public/packs/fallback-en.json
 pnpm build:api                # server/dist + the deployable out/api release
+pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_API_BASE64 secret
 ```
 
 ## Path aliases
@@ -57,7 +59,7 @@ sorts it.
 | Contact form (mail engine, nothing stored) | `src/app/[lang]/contact/`, `src/components/contact/` · `server/src/routes/contact.ts`, `lib/mail.ts` |
 | Leave-page guard (game, unsaved forms) | `src/hooks/useLeaveGuard.ts` · `src/components/LeaveGuard.tsx` |
 | Sound (main theme off-stage, stings pause music) | `src/helpers/audio/audioManager.ts` · `src/components/AmbientMusic.tsx` |
-| Deploying | `docs/DEPLOYMENT.md`, `deployment/`, `.github/workflows/` |
+| Deploying | `docs/DEPLOYMENT.md` (how) · `docs/PRODUCTION_SETUP.md` (manual setup, in order) · `deployment/`, `.github/workflows/` |
 | Reusing this stack for a new project | `docs/STACK_BLUEPRINT.md` |
 
 Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
@@ -98,3 +100,6 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   serve — otherwise their answers could be downloaded before a run.
 - Integration tests only ever touch `millionaire_test` (guarded in `tests/setup/integration.ts`).
   Never run `prisma migrate reset` against the dev database.
+- **The API's env file is picked by `NODE_ENV`:** `server/.env.<NODE_ENV>.local`, `development`
+  when unset (`server/src/load-env.ts`, shared by `prisma.config.ts` and the seed). There is no
+  `server/.env`.

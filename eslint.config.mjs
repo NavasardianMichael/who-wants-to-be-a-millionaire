@@ -27,6 +27,8 @@ const eslintConfig = defineConfig([
     '.env*',
     'next-env.d.ts',
     'server/**/*.d.ts',
+    // Claude Code's own hooks, not app code.
+    '.claude/',
   ]),
   {
     files: ['**/*.{ts,tsx}'],

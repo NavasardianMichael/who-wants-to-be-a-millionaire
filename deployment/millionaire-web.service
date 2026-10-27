@@ -1,6 +1,6 @@
 # =============================================================================
 # systemd — web (Next.js standalone). Install to /etc/systemd/system/millionaire-web.service
-# Paths assume APP_DIR=/home/michael/apps/millionaire.
+# Paths assume APP_DIR=/home/michael/apps/who-wants-to-be-a-millionaire.
 #
 # WorkingDirectory is the `current` symlink, resolved at start, so `systemctl restart` is
 # what promotes a release. Never point it at a concrete releases/<sha> path.
@@ -14,7 +14,7 @@ Wants=network-online.target
 Type=simple
 User=michael
 Group=michael
-WorkingDirectory=/home/michael/apps/millionaire/web/current
+WorkingDirectory=/home/michael/apps/who-wants-to-be-a-millionaire/web/current
 Environment=NODE_ENV=production
 Environment=PORT=7006
 Environment=HOSTNAME=127.0.0.1
@@ -31,7 +31,7 @@ PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
 # ISR writes regenerated pages into the release's own .next/cache.
-ReadWritePaths=/home/michael/apps/millionaire/web
+ReadWritePaths=/home/michael/apps/who-wants-to-be-a-millionaire/web
 StandardOutput=journal
 StandardError=journal
 

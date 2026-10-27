@@ -1,6 +1,6 @@
 # =============================================================================
 # systemd — API (Express). Install to /etc/systemd/system/millionaire-api.service
-# Paths assume APP_DIR=/home/michael/apps/millionaire.
+# Paths assume APP_DIR=/home/michael/apps/who-wants-to-be-a-millionaire.
 #
 # The env file is written by the deploy workflow (mode 600): ENV_API_BASE64 plus the four
 # runtime keys it owns (NODE_ENV, PORT=9006, HOST=127.0.0.1, UPLOAD_DIR). systemd's
@@ -15,8 +15,8 @@ Wants=network-online.target
 Type=simple
 User=michael
 Group=michael
-WorkingDirectory=/home/michael/apps/millionaire/api/current
-EnvironmentFile=/home/michael/apps/millionaire/shared/.env.api
+WorkingDirectory=/home/michael/apps/who-wants-to-be-a-millionaire/api/current
+EnvironmentFile=/home/michael/apps/who-wants-to-be-a-millionaire/shared/.env.api
 ExecStart=/usr/bin/node dist/src/index.js
 Restart=always
 RestartSec=2
@@ -27,7 +27,7 @@ PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
 # Avatars are the only thing the API writes to disk.
-ReadWritePaths=/home/michael/apps/millionaire/shared/uploads
+ReadWritePaths=/home/michael/apps/who-wants-to-be-a-millionaire/shared/uploads
 StandardOutput=journal
 StandardError=journal
 

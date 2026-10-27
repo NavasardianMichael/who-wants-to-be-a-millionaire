@@ -23,7 +23,7 @@ Requirements: Node 24, pnpm 10, Docker.
 
 ```bash
 pnpm install
-cp server/.env.example server/.env      # add GEMINI_KEY (free at aistudio.google.com/apikey)
+cp server/.env.example server/.env.development.local   # add GEMINI_KEY (free at aistudio.google.com/apikey)
 pnpm db:up && pnpm db:setup             # Postgres on :5006, migrations, English fallback bank
 pnpm dev                                # web http://localhost:7006 · API http://localhost:9006
 ```
