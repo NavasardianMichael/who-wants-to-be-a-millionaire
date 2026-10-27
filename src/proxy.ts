@@ -1,7 +1,7 @@
 import type { NextRequest } from 'next/server'
 import { NextResponse } from 'next/server'
 import createMiddleware from 'next-intl/middleware'
-import { isLocale, LOCALE_COOKIE } from '@i18n/config'
+import { isLocale, LOCALE_COOKIE, RETIRED_LOCALES } from '@i18n/config'
 import { matchAcceptLanguage } from '@i18n/matchAcceptLanguage'
 import { splitLocaleFromPathname } from '@i18n/pathname'
 import { routing } from '@i18n/routing'
@@ -21,6 +21,12 @@ const handleI18nRouting = createMiddleware(routing)
 
 /** Extension-less metadata routes; without this list `/icon` would 307 to `/en/icon`. */
 const LOCALE_AGNOSTIC = new Set(['/icon', '/apple-icon', '/icon-maskable', '/opengraph-image', '/monitoring'])
+
+/** `/tr/play` → `/play`: a retired locale's prefix is dropped, then negotiated like any unprefixed URL. */
+const stripRetiredLocale = (pathname: string) => {
+  const [, first, ...rest] = pathname.split('/')
+  return RETIRED_LOCALES.includes(first) ? `/${rest.join('/')}` : pathname
+}
 
 const negotiateLocale = (request: NextRequest) => {
   const chosen = request.cookies.get(LOCALE_COOKIE)?.value
@@ -53,7 +59,8 @@ export function proxy(request: NextRequest) {
   if (!locale) {
     const target = request.nextUrl.clone()
     const negotiated = negotiateLocale(request)
-    target.pathname = pathname === '/' ? `/${negotiated}` : `/${negotiated}${pathname}`
+    const rest = stripRetiredLocale(pathname)
+    target.pathname = rest === '/' ? `/${negotiated}` : `/${negotiated}${rest}`
     return personalizedRedirect(target)
   }
 

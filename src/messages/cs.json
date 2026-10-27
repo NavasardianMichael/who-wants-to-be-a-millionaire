@@ -68,7 +68,7 @@
     "settings": "Nastavení"
   },
   "Home": {
-    "eyebrow": "80 jazyků · otázky vytvořené umělou inteligencí · zdarma",
+    "eyebrow": "Bezplatná online hra v češtině · otázky napsané umělou inteligencí",
     "heroTitle": "Chcete být milionářem?",
     "modesTitle": "Tři způsoby hry",
     "lifelinesTitle": "Čtyři nápovědy, každá jen jednou",
@@ -107,7 +107,11 @@
     "faq5Question": "Jak se dostanu do žebříčku?",
     "faq5Answer": "Přihlas se přes Google a zahraj si hodnocenou hru v Maratonu nebo Závodu s časem. Každou odpověď kontroluje náš server, takže žebříček zůstává férový.",
     "faq6Question": "Je to oficiální hra k televiznímu pořadu?",
-    "faq6Answer": "Ne. Milionářský kvíz je nezávislá fanouškovská hra inspirovaná klasickým formátem televizní soutěže."
+    "faq6Answer": "Ne. Milionářský kvíz je nezávislá fanouškovská hra inspirovaná klasickým formátem televizní soutěže.",
+    "faqLanguageQuestion": "Mohu hrát „Chcete být milionářem?“ v češtině?",
+    "faqLanguageAnswer": "Ano — toto je česká verze hry. Každá otázka je napsána v češtině pro české hráče a není překládána. Všechny režimy i nápovědy jsou zdarma. Hra je k dispozici také v 79 dalších jazycích.",
+    "languagesTitle": "Hrajte ve svém jazyce",
+    "languagesSubtitle": "Každý jazyk má své vlastní otázky napsané přímo v daném jazyce — nejsou překládané."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Tuto stránku zastavila nečekaná chyba. Můžeš to zkusit znovu."
   },
   "Seo": {
-    "keywords": "millionaire quiz, kvízová hra, kvíz, chcete být milionářem hra, kvíz zdarma, online kvíz, všeobecné znalosti",
-    "homeTitle": "Milionářský kvíz — Chcete být milionářem? Hraj zdarma online",
-    "homeDescription": "Hraj kvízovou show zdarma v 80 jazycích. 15 otázek k milionu, čtyři nápovědy, jistoty a k tomu nekonečný Maraton a Závod s časem se světovým žebříčkem.",
+    "keywords": "chcete být milionářem hra, chcete být milionářem v češtině, hra milionář online, milionářský kvíz, kvízová hra, bezplatný kvíz, vědomostní hra",
+    "homeTitle": "Chcete být milionářem? Bezplatná online hra v češtině | Milionářský kvíz",
+    "homeDescription": "Zahrajte si „Chcete být milionářem?“ online zdarma v češtině: 15 otázek k milionu, čtyři nápovědy a dvě záchytné sítě, s otázkami v češtině, žádný překlad. Bez registrace. Také v 79 dalších jazycích.",
     "playTitle": "Klasický milionářský kvíz — 15 otázek k milionu",
     "playDescription": "Vyšplhej po peněžním žebříčku od {first} až k {top}: patnáct otázek, dvě jistoty, čtyři nápovědy. Zdarma, bez registrace, ve tvém jazyce.",
     "marathonTitle": "Maratonský kvíz — jak dlouho vydržíš?",

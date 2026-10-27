@@ -68,7 +68,7 @@
     "settings": "Indstillinger"
   },
   "Home": {
-    "eyebrow": "80 sprog · spørgsmål skrevet af kunstig intelligens · gratis",
+    "eyebrow": "Gratis onlinespil på dansk · spørgsmål skrevet af kunstig intelligens",
     "heroTitle": "Hvem vil være millionær?",
     "modesTitle": "Tre måder at spille på",
     "lifelinesTitle": "Fire hjælpemidler – hver kan bruges én gang",
@@ -107,7 +107,11 @@
     "faq5Question": "Hvordan kommer jeg på ranglisten?",
     "faq5Answer": "Log ind med Google, og spil en rangeret Maraton- eller Tidsræs-runde. Alle svar tjekkes af vores server, så ranglisten forbliver fair.",
     "faq6Question": "Er det det officielle spil fra tv-programmet?",
-    "faq6Answer": "Nej. Millionærquiz er et uafhængigt spil lavet af fans, inspireret af det klassiske quizshow-format."
+    "faq6Answer": "Nej. Millionærquiz er et uafhængigt spil lavet af fans, inspireret af det klassiske quizshow-format.",
+    "faqLanguageQuestion": "Kan jeg spille “Hvem vil være millionær?” på dansk?",
+    "faqLanguageAnswer": "Ja — dette er den danske version af spillet. Alle spørgsmål er skrevet på dansk til dansktalende i stedet for at være oversat, og alle tilstande og livliner er gratis. Spillet er også tilgængeligt på 79 andre sprog.",
+    "languagesTitle": "Spil på dit sprog",
+    "languagesSubtitle": "Hvert sprog har sine egne spørgsmål, skrevet på sproget selv – ikke oversat."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "En uventet fejl stoppede denne side. Du kan prøve igen."
   },
   "Seo": {
-    "keywords": "millionærquiz, quizspil, paratviden, hvem vil være millionær spil, gratis quiz, online quiz, almen viden",
-    "homeTitle": "Millionærquiz – Hvem vil være millionær? Spil gratis online",
-    "homeDescription": "Spil quizshowet gratis på 80 sprog. 15 spørgsmål til millionen, fire hjælpemidler, sikre trin og desuden de endeløse spiltyper Maraton og Tidsræs med global rangliste.",
+    "keywords": "hvem vil være millionær spil, hvem vil være millionær på dansk, millionær spil online, millionærquiz, quizspil, gratis quiz, trivia",
+    "homeTitle": "Hvem vil være millionær? Gratis onlinespil på dansk | Millionærquiz",
+    "homeDescription": "Spil “Hvem vil være millionær?” gratis online på dansk: 15 spørgsmål til millionen, fire livliner og to sikkerhedszoner, med spørgsmål skrevet på dansk, ikke oversat. Ingen tilmelding. Også på 79 andre sprog.",
     "playTitle": "Klassisk millionærquiz – 15 spørgsmål til millionen",
     "playDescription": "Klatr op ad pengestigen fra {first} til {top}: femten spørgsmål, to sikre trin, fire hjælpemidler. Gratis, uden oprettelse, på dit sprog.",
     "marathonTitle": "Maratonquiz – hvor længe holder du ud?",

@@ -68,7 +68,7 @@
     "settings": "Dejinta"
   },
   "Home": {
-    "eyebrow": "80 luqadood · su'aalo uu qoray sirdoon macmal ah · bilaash",
+    "eyebrow": "Ciyaar bilaash ah oo khadka tooska ah ku ah af Soomaali · su'aalo ay qortay sirdoonka macm Aalka ah",
     "heroTitle": "Yaa doonaya inuu malaayiinle noqdo?",
     "modesTitle": "Saddex siyaabood oo loo ciyaaro",
     "lifelinesTitle": "Afar caawimaad, mid walba hal mar",
@@ -107,7 +107,11 @@
     "faq5Question": "Sideen ugu soo galaa kala sarreynta?",
     "faq5Answer": "Ku soo gal Google oo ciyaar Maaraton ama Tartanka Waqtiga oo darajaysan. Jawaab kasta waxaa hubiya server-keenna, sidaas darteed kala sarreyntu waa caddaalad.",
     "faq6Question": "Tani ma ciyaarta rasmiga ah ee barnaamijka TV-ga baa?",
-    "faq6Answer": "Maya. Kediska Malaayiinlaha waa ciyaar madax-bannaan oo taageerayaal sameeyeen, waxaana lagu dhisay qaabka caanka ah ee barnaamijyada tartanka aqoonta."
+    "faq6Answer": "Maya. Kediska Malaayiinlaha waa ciyaar madax-bannaan oo taageerayaal sameeyeen, waxaana lagu dhisay qaabka caanka ah ee barnaamijyada tartanka aqoonta.",
+    "faqLanguageQuestion": "Ma ciyaari karaa «Yaa doonaya inuu malaayiinle noqdo?» af Soomaali?",
+    "faqLanguageAnswer": "Haa - tani waa nooca af Soomaaliga ah ee ciyaarta. Su'aal kasta waxaa lagu qoraa af Soomaali looguna talagalay dadka ku hadla af Soomaaliga halkii la tarjumi lahaa, qaab kasta iyo badbaadina waa bilaash. Ciyaarta sidoo kale waxaa laga helaa 79 luqadood oo kale.",
+    "languagesTitle": "Ku ciyaar luqadaada",
+    "languagesSubtitle": "Luqad kasta waxay leedahay su'aalo u gaar ah, oo si dabiici ah loo qoray - ee aan la tarjumin."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Khalad lama filaan ah ayaa joojiyay boggan. Waad isku dayi kartaa mar kale."
   },
   "Seo": {
-    "keywords": "kediska malaayiinlaha, ciyaar kedis, su'aalo iyo jawaabo, yaa doonaya inuu malaayiinle noqdo, kedis bilaash ah, kedis online ah, aqoonta guud",
-    "homeTitle": "Kediska Malaayiinlaha — Yaa doonaya inuu malaayiinle noqdo? Ku ciyaar bilaash online",
-    "homeDescription": "Bilaash ku ciyaar ciyaarta tartanka aqoonta, 80 luqadood oo kala duwan. 15 su'aalood ilaa malyuunka, afar caawimaad, heerar badbaado, iyo qaababka Maaraton ee aan dhammaadka lahayn iyo Tartanka Waqtiga oo leh kala sarreyn adduun.",
+    "keywords": "ciyaarta yaa doonaya inuu malaayiinle noqdo, yaa doonaya inuu malaayiinle noqdo af Soomaali, ciyaarta malaayiinle ee khadka tooska ah, Kediska Malaayiinlaha, ciyaarta su'aalaha, su'aalo bilaash ah, kedis",
+    "homeTitle": "Yaa doonaya inuu malaayiinle noqdo? Ciyaar bilaash ah oo khadka tooska ah ku ah af Soomaali | Kediska Malaayiinlaha",
+    "homeDescription": "Ciyaar «Yaa doonaya inuu malaayiinle noqdo?» bilaash ah oo khadka tooska ah ku ah af Soomaali: 15 su'aalood ilaa malaanka, afar badbaado iyo laba meelood oo badbaado leh, oo ay ku jiraan su'aalo lagu qoray af Soomaali, ee aan la tarjumin. Is-diiwaangelin la'aan. Sidoo kale 79 luqadood oo kale.",
     "playTitle": "Kediska Malaayiinlaha: Asalka — 15 su'aalood ilaa malyuunka",
     "playDescription": "Fuul jaranjarada abaalmarinta laga bilaabo {first} ilaa {top}: shan iyo toban su'aalood, laba heer badbaado, afar caawimaad. Bilaash, is-diiwaangelin la'aan, luqaddaada.",
     "marathonTitle": "Kedis Maaraton — ilaa intee ayaad adkaysan kartaa?",

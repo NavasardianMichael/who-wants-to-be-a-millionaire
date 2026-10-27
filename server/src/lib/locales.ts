@@ -7,7 +7,7 @@
  *
  * `script` is a check on the model's output: a question for `ja` that contains no Japanese
  * characters was answered in the wrong language and is rejected. Latin-script locales use
- * `null` — there is no cheap way to tell Turkish from English by alphabet alone.
+ * `null` — there is no cheap way to tell Swahili from English by alphabet alone.
  */
 type LocaleInfo = {
   /** English name, used inside the (English) prompt. */
@@ -21,7 +21,11 @@ const CYRILLIC = /[Ѐ-ӿ]/
 const DEVANAGARI = /[ऀ-ॿ]/
 
 export const LOCALE_INFO = {
-  en: { name: 'English', culture: 'the English-speaking world (UK, USA, Canada, Australia, Ireland, New Zealand)', script: null },
+  en: {
+    name: 'English',
+    culture: 'the English-speaking world (UK, USA, Canada, Australia, Ireland, New Zealand)',
+    script: null,
+  },
   'zh-CN': { name: 'Simplified Chinese', culture: 'mainland China', script: /[一-鿿]/ },
   hi: { name: 'Hindi', culture: 'India (especially the Hindi belt)', script: DEVANAGARI },
   es: { name: 'Spanish', culture: 'Spain and Latin America', script: null },
@@ -37,7 +41,6 @@ export const LOCALE_INFO = {
   sw: { name: 'Swahili', culture: 'East Africa (Kenya, Tanzania, Uganda)', script: null },
   mr: { name: 'Marathi', culture: 'Maharashtra, India', script: DEVANAGARI },
   te: { name: 'Telugu', culture: 'Andhra Pradesh and Telangana, India', script: /[ఀ-౿]/ },
-  tr: { name: 'Turkish', culture: 'Turkey', script: null },
   ta: { name: 'Tamil', culture: 'Tamil Nadu, Sri Lanka and the Tamil diaspora', script: /[஀-௿]/ },
   vi: { name: 'Vietnamese', culture: 'Vietnam', script: null },
   ko: { name: 'Korean', culture: 'South Korea', script: /[가-힯]/ },
@@ -66,7 +69,6 @@ export const LOCALE_INFO = {
   bg: { name: 'Bulgarian', culture: 'Bulgaria', script: CYRILLIC },
   sr: { name: 'Serbian (Cyrillic)', culture: 'Serbia, Montenegro and Bosnia', script: CYRILLIC },
   hr: { name: 'Croatian', culture: 'Croatia', script: null },
-  az: { name: 'Azerbaijani', culture: 'Azerbaijan', script: null },
   kk: { name: 'Kazakh', culture: 'Kazakhstan', script: CYRILLIC },
   uz: { name: 'Uzbek (Latin)', culture: 'Uzbekistan', script: null },
   hy: { name: 'Armenian', culture: 'Armenia and the Armenian diaspora', script: /[԰-֏]/ },
@@ -101,6 +103,12 @@ export const LOCALE_INFO = {
   eu: { name: 'Basque', culture: 'the Basque Country and Navarre', script: null },
   cy: { name: 'Welsh', culture: 'Wales', script: null },
   is: { name: 'Icelandic', culture: 'Iceland', script: null },
+  om: {
+    name: 'Oromo (Latin script, Qubee)',
+    culture: 'the Oromia region of Ethiopia and northern Kenya',
+    script: null,
+  },
+  su: { name: 'Sundanese', culture: 'West Java and Banten, Indonesia', script: null },
 } as const satisfies Record<string, LocaleInfo>
 
 export type Locale = keyof typeof LOCALE_INFO

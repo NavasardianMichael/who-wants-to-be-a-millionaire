@@ -68,7 +68,7 @@
     "settings": "Settings"
   },
   "Home": {
-    "eyebrow": "80 languages · questions written by artificial intelligence · free",
+    "eyebrow": "Free online game in English · questions written by artificial intelligence",
     "heroTitle": "Who wants to be a millionaire?",
     "modesTitle": "Three ways to play",
     "lifelinesTitle": "Four lifelines, one use each",
@@ -107,7 +107,11 @@
     "faq5Question": "How do I get on the leaderboard?",
     "faq5Answer": "Sign in with Google and play a ranked Marathon or Time Attack run. Every answer is checked by our server, so the leaderboard stays fair.",
     "faq6Question": "Is this the official TV show game?",
-    "faq6Answer": "No. Millionaire Quiz is an independent, fan-made game inspired by the classic quiz show format."
+    "faq6Answer": "No. Millionaire Quiz is an independent, fan-made game inspired by the classic quiz show format.",
+    "faqLanguageQuestion": "Can I play “Who Wants to Be a Millionaire?” in English?",
+    "faqLanguageAnswer": "Yes — this is the English version of the game. Every question is written in English for English speakers rather than translated, and every mode and lifeline is free. The game is also available in 79 other languages.",
+    "languagesTitle": "Play in your language",
+    "languagesSubtitle": "Each language has its own questions, written natively — not translated."
   },
   "Modes": {
     "classic": {
@@ -508,9 +512,9 @@
     "pageErrorBody": "An unexpected error stopped this page. You can try again."
   },
   "Seo": {
-    "keywords": "millionaire quiz, quiz game, trivia, who wants to be a millionaire game, free quiz, online quiz, general knowledge",
-    "homeTitle": "Millionaire Quiz — Who Wants to Be a Millionaire? Play free online",
-    "homeDescription": "Play the quiz show game free in 80 languages. 15 questions to the million, four lifelines, safe havens, plus endless Marathon and Time Attack modes with a global leaderboard.",
+    "keywords": "who wants to be a millionaire game, who wants to be a millionaire in English, millionaire game online, millionaire quiz, quiz game, free quiz, trivia",
+    "homeTitle": "Who Wants to Be a Millionaire? Free online game in English | Millionaire Quiz",
+    "homeDescription": "Play “Who Wants to Be a Millionaire?” free online in English: 15 questions to the million, four lifelines and two safe havens, with questions written in English, not translated. No sign-up. Also in 79 other languages.",
     "playTitle": "Classic Millionaire quiz — 15 questions to the million",
     "playDescription": "Climb the money ladder from {first} to {top}: fifteen questions, two safe havens, four lifelines. Free, no sign-up, in your language.",
     "marathonTitle": "Marathon quiz — how long can you last?",

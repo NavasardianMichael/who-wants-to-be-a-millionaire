@@ -68,7 +68,7 @@
     "settings": "Configuració"
   },
   "Home": {
-    "eyebrow": "80 llengües · preguntes escrites per intel·ligència artificial · gratis",
+    "eyebrow": "Joc en línia gratuït en català · preguntes redactades per intel·ligència artificial",
     "heroTitle": "Qui vol ser milionari?",
     "modesTitle": "Tres maneres de jugar",
     "lifelinesTitle": "Quatre comodins, un sol ús cadascun",
@@ -107,7 +107,11 @@
     "faq5Question": "Com puc entrar a la classificació?",
     "faq5Answer": "Inicia la sessió amb Google i juga una partida classificatòria de Marató o de Contrarellotge. El nostre servidor comprova cada resposta, de manera que la classificació és justa.",
     "faq6Question": "És el joc oficial del programa de televisió?",
-    "faq6Answer": "No. El Concurs Milionari és un joc independent fet per fans, inspirat en el format del clàssic concurs de televisió."
+    "faq6Answer": "No. El Concurs Milionari és un joc independent fet per fans, inspirat en el format del clàssic concurs de televisió.",
+    "faqLanguageQuestion": "Puc jugar a «Qui vol ser milionari?» en català?",
+    "faqLanguageAnswer": "Sí, aquesta és la versió del joc en català. Cada pregunta està redactada en català per a catalanoparlants, en lloc de ser traduïda, i tots els modes i comodins són gratuïts. El joc també està disponible en 79 altres idiomes.",
+    "languagesTitle": "Jugui en el seu idioma",
+    "languagesSubtitle": "Cada idioma té les seves pròpies preguntes, redactades de manera nativa i no traduïdes."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Un error inesperat ha aturat aquesta pàgina. Pots tornar-ho a provar."
   },
   "Seo": {
-    "keywords": "concurs milionari, qui vol ser milionari, joc de preguntes, trivial, concurs, preguntes i respostes, joc gratuït, joc en línia, cultura general",
-    "homeTitle": "Concurs Milionari — Qui vol ser milionari? Juga gratis en línia",
-    "homeDescription": "Juga gratis al concurs de preguntes en 80 llengües. 15 preguntes fins al milió, quatre comodins, esglaons de seguretat i, a més, la Marató sense fi i la Contrarellotge, amb classificació mundial.",
+    "keywords": "joc qui vol ser milionari, qui vol ser milionari en català, joc del milionari en línia, concurs milionari, joc de preguntes, qüestionari gratuït, trivia",
+    "homeTitle": "Qui vol ser milionari? Joc en línia gratuït en català | Concurs Milionari",
+    "homeDescription": "Juga a «Qui vol ser milionari?» gratis en línia en català: 15 preguntes fins al milió, quatre comodins i dos nivells segurs, amb preguntes redactades en català, no traduïdes. Sense registre. També en 79 altres llengües.",
     "playTitle": "Concurs Milionari Clàssic — 15 preguntes fins al milió",
     "playDescription": "Puja per l’escala de premis de {first} a {top}: quinze preguntes, dos esglaons de seguretat, quatre comodins. Gratis, sense registre i en la teva llengua.",
     "marathonTitle": "Marató de preguntes — quant aguantaràs?",

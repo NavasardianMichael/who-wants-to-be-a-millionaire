@@ -4,6 +4,9 @@
  */
 export const APP_NAME = 'Millionaire Quiz'
 
+/** The TV show's English title — what the game is searched for. Each locale's own is `Home.heroTitle`. */
+export const SHOW_TITLE = 'Who Wants to Be a Millionaire?'
+
 export const SITE_URL_FALLBACK = 'http://localhost:7006'
 
 export const API_URL_FALLBACK = 'http://localhost:9006'

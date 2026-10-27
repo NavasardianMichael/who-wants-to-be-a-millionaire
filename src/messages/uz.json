@@ -68,7 +68,7 @@
     "settings": "Sozlamalar"
   },
   "Home": {
-    "eyebrow": "80 ta til · sunʼiy intellekt yozgan savollar · bepul",
+    "eyebrow": "O'zbek tilidagi bepul onlayn o'yin · sun'iy intellekt tomonidan tuzilgan savollar",
     "heroTitle": "Kim millioner boʻlishni xohlaydi?",
     "modesTitle": "Oʻynashning uch usuli",
     "lifelinesTitle": "Toʻrtta yordam, har biri bir marta",
@@ -107,7 +107,11 @@
     "faq5Question": "Reytingga qanday chiqish mumkin?",
     "faq5Answer": "Google orqali kiring va Marafon yoki Vaqtga qarshi rejimida reytingli oʻyin oʻynang. Har bir javobni serverimiz tekshiradi, shuning uchun reyting adolatli boʻlib qoladi.",
     "faq6Question": "Bu teleshouning rasmiy oʻyinimi?",
-    "faq6Answer": "Yoʻq. Millioner Viktorinasi klassik viktorina-shou formatidan ilhomlangan, muxlislar tomonidan yaratilgan mustaqil oʻyin."
+    "faq6Answer": "Yoʻq. Millioner Viktorinasi klassik viktorina-shou formatidan ilhomlangan, muxlislar tomonidan yaratilgan mustaqil oʻyin.",
+    "faqLanguageQuestion": "O'zbek tilida “Kim millioner boʻlishni xohlaydi?” o'yinini o'ynay olamanmi?",
+    "faqLanguageAnswer": "Ha — bu o'yinning o'zbekcha versiyasi. Har bir savol tarjima qilingan emas, balki o'zbek tilida so'zlashuvchilar uchun bevosita o'zbek tilida yozilgan, barcha rejimlar va yordamchi vositalar bepul. O'yin yana 79 ta tilda mavjud.",
+    "languagesTitle": "O'z tilingizda o'ynang",
+    "languagesSubtitle": "Har bir til o'zining mutaxassislar tomonidan tubdan tuzilgan savollariga ega — tarjima qilinmagan."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Kutilmagan xato bu sahifani toʻxtatib qoʻydi. Qayta urinib koʻrishingiz mumkin."
   },
   "Seo": {
-    "keywords": "millioner viktorinasi, millionaire quiz, viktorina, viktorina oʻyini, bilimlar bellashuvi, kim millioner boʻlishni xohlaydi oʻyini, bepul viktorina, onlayn viktorina, umumiy bilim",
-    "homeTitle": "Millioner Viktorinasi — Kim millioner boʻlishni xohlaydi? Onlayn bepul oʻynang",
-    "homeDescription": "Viktorina-shouni 80 tilda bepul oʻynang. Milliongacha 15 savol, toʻrtta yordam, kafolatlangan bosqichlar hamda global reytingli cheksiz Marafon va Vaqtga qarshi rejimlari.",
+    "keywords": "kim millioner bo'lishni xohlaydi o'yini, o'zbek tilida kim millioner, millioner o'yini onlayn, millioner viktorinasi, viktorina o'yini, bepul viktorina, mantiqiy savollar",
+    "homeTitle": "Kim millioner boʻlishni xohlaydi? O'zbek tilidagi bepul onlayn o'yin | Millioner Viktorinasi",
+    "homeDescription": "“Kim millioner boʻlishni xohlaydi?” o'yinini o'zbek tilida bepul onlayn o'ynang: million sari 15 ta savol, to'rtta yordamchi vosita va ikkita xavfsiz oraliq. Savollar tarjima qilinmagan, o'zbek tilida yozilgan. Ro'yxatdan o'tish shart emas. Shuningdek, 79 ta boshqa tilda ham mavjud.",
     "playTitle": "Klassik Millioner viktorinasi — milliongacha 15 savol",
     "playDescription": "Pul zinapoyasida {first} summasidan {top} summasigacha koʻtariling: oʻn besh savol, ikkita kafolatlangan bosqich, toʻrtta yordam. Bepul, roʻyxatdan oʻtmasdan, oʻz tilingizda.",
     "marathonTitle": "Marafon viktorinasi — qancha chidaysiz?",

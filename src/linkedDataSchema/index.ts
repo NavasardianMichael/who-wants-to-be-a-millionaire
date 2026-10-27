@@ -22,10 +22,22 @@ export const websiteSchema = (locale: Locale, name: string, description: string)
   author: { '@type': 'Person', name: AUTHOR.name, url: AUTHOR.url },
 })
 
-export const gameSchema = (locale: Locale, name: string, description: string, path: string): WithContext<VideoGame> => ({
+/**
+ * `alternateName` carries what people search for: the show's title in the page's language
+ * and, in English, the show in that language ("… in Armenian") — the English query an
+ * answer engine has to match to a non-English page.
+ */
+export const gameSchema = (
+  locale: Locale,
+  name: string,
+  description: string,
+  path: string,
+  alternateNames: string[] = []
+): WithContext<VideoGame> => ({
   '@context': 'https://schema.org',
   '@type': 'VideoGame',
   name,
+  ...(alternateNames.length ? { alternateName: alternateNames } : {}),
   description,
   url: absoluteUrl(localePath(locale, path)),
   inLanguage: locale,

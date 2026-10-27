@@ -68,7 +68,7 @@
     "settings": "Ezarpenak"
   },
   "Home": {
-    "eyebrow": "80 hizkuntza · adimen artifizialak idatzitako galderak · doan",
+    "eyebrow": "Doako lineako jokoa euskaraz · adimen artifizialak idatzitako galderak",
     "heroTitle": "Nork nahi du milioiduna izan?",
     "modesTitle": "Jokatzeko hiru modu",
     "lifelinesTitle": "Lau laguntza, bakoitza behin",
@@ -107,7 +107,11 @@
     "faq5Question": "Nola sartu sailkapenean?",
     "faq5Answer": "Hasi saioa Googlerekin eta jokatu Maratoiko edo Erlojupekoko sailkapeneko partida bat. Gure zerbitzariak erantzun guztiak egiaztatzen ditu, eta, horrela, sailkapena bidezkoa da.",
     "faq6Question": "Telebista-saioaren joko ofiziala al da hau?",
-    "faq6Answer": "Ez. Milioidunaren Lehiaketa zaleek egindako joko independentea da, telebistako galdera-lehiaketa klasikoaren formatuan oinarritua."
+    "faq6Answer": "Ez. Milioidunaren Lehiaketa zaleek egindako joko independentea da, telebistako galdera-lehiaketa klasikoaren formatuan oinarritua.",
+    "faqLanguageQuestion": "Jokatu al dezaket «Nork nahi du milioiduna izan?» euskaraz?",
+    "faqLanguageAnswer": "Bai — hau jokoaren euskarazko bertsioa da. Galdera bakoitza euskaraz idatzita dago zuzenean euskarazko hiztunentzat, itzuli gabe, eta modu eta laguntza-puntu guztiak doakoak dira. Jokoa beste 79 hizkuntzatan ere eskuragarri dago.",
+    "languagesTitle": "Jokatu zure hizkuntzan",
+    "languagesSubtitle": "Hizkuntza bakoitzak bere galderak ditu, jatorriz idatzita — itzulpenik gabe."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Ustekabeko errore batek orri hau gelditu du. Berriro saia zaitezke."
   },
   "Seo": {
-    "keywords": "milioidunaren lehiaketa, nork nahi du milioiduna izan, galdera-jokoa, galdera-lehiaketa, galderak eta erantzunak, doako jokoa, lineako jokoa, kultura orokorra",
-    "homeTitle": "Milioidunaren Lehiaketa — Nork nahi du milioiduna izan? Jokatu doan sarean",
-    "homeDescription": "Jokatu doan galdera-lehiaketan 80 hizkuntzatan. 15 galdera milioira iristeko, lau laguntza, segurtasun-mailak, eta, gainera, Maratoi amaigabea eta Erlojupekoa, munduko sailkapenarekin.",
+    "keywords": "nork nahi du milioiduna izan jokoa, nork nahi du milioiduna izan euskaraz, milioidunaren jokoa online, milioidunaren lehiaketa, galdetegi jokoa, doako galdetegia, bitxikeriak",
+    "homeTitle": "Nork nahi du milioiduna izan? Doako lineako jokoa euskaraz | Milioidunaren Lehiaketa",
+    "homeDescription": "Jokatu «Nork nahi du milioiduna izan?» doako lineako jokoan euskaraz: 15 galdera milioirako, lau laguntza-puntu eta bi segurtasun-tarte, euskaraz idatzitako galderekin, itzuli gabe. Izena eman gabe. Beste 79 hizkuntzatan ere.",
     "playTitle": "Milioidunaren Lehiaketa Klasikoa — 15 galdera milioira iristeko",
     "playDescription": "Igo sari-eskailera osoa ({first} – {top}): hamabost galdera, bi segurtasun-maila, lau laguntza. Doan, izena eman gabe eta zure hizkuntzan.",
     "marathonTitle": "Galdera-maratoia — zenbat iraungo duzu?",

@@ -68,7 +68,7 @@
     "settings": "Ètò"
   },
   "Home": {
-    "eyebrow": "Èdè 80 · ìbéèrè tí ọgbọ́n àtọwọ́dá kọ · lọ́fẹ̀ẹ́",
+    "eyebrow": "Eré orí ayélujára ọ̀fẹ́ ní èdè Yorùbá · àwọn ìbéèrè tí ọgbọ́n àtọwọ́dá kọ",
     "heroTitle": "Ta ló fẹ́ di olówó mílíọ̀nù?",
     "modesTitle": "Ọ̀nà mẹ́ta láti ṣeré",
     "lifelinesTitle": "Ìrànlọ́wọ́ mẹ́rin, ẹ̀ẹ̀kan péré fún ọ̀kọ̀ọ̀kan",
@@ -107,7 +107,11 @@
     "faq5Question": "Báwo ni mo ṣe lè dé orí àtẹ ipò?",
     "faq5Answer": "Ẹ wọlé pẹ̀lú Google kí ẹ sì ṣe eré onípò Ìfaradà tàbí Ìsáré Àkókò. Ẹ̀rọ apèsè wa ló ń ṣàyẹ̀wò gbogbo ìdáhùn, kí àtẹ ipò lè máa jẹ́ ti òdodo.",
     "faq6Question": "Ṣé eré tí ètò tẹlifíṣọ̀n náà fọwọ́ sí ni èyí?",
-    "faq6Answer": "Rárá. Ìdíje Mílíọ̀nù jẹ́ eré aládàáni tí àwọn olólùfẹ́ ṣe, tí ọ̀nà ètò ìdíje ìbéèrè àtayébáyé fún ní ìmísí."
+    "faq6Answer": "Rárá. Ìdíje Mílíọ̀nù jẹ́ eré aládàáni tí àwọn olólùfẹ́ ṣe, tí ọ̀nà ètò ìdíje ìbéèrè àtayébáyé fún ní ìmísí.",
+    "faqLanguageQuestion": "Ṣé mo lè ṣe eré “Ta ló fẹ́ di olówó mílíọ̀nù?” ní èdè Yorùbá?",
+    "faqLanguageAnswer": "Bẹ́ẹ̀ ni — èyí ni ẹ̀dà èdè Yorùbá ti eré náà. Gbogbo ìbéèrè ni a kọ ní èdè Yorùbá fún àwọn olùsọ èdè Yorùbá dípò kí a túmọ̀ rẹ̀, àti pé gbogbo ọ̀nà eré àti ìrànlọ́wọ́ jẹ́ ọ̀fẹ́. Eré náà tún wà ní àwọn èdè 79 mìíràn.",
+    "languagesTitle": "Ṣeré ní èdè rẹ̀",
+    "languagesSubtitle": "Èdè kọ̀ọ̀kan ni ó ní àwọn ìbéèrè tirẹ̀, tí a kọ ní ìbámu pẹ̀lú àṣà — kò ṣe é túmọ̀."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Àṣìṣe àìròtẹ́lẹ̀ kan dá ojú-ìwé yìí dúró. Ẹ lè tún gbìyànjú."
   },
   "Seo": {
-    "keywords": "ìdíje mílíọ̀nù, eré ìbéèrè, ìbéèrè àti ìdáhùn, ta ló fẹ́ di olówó mílíọ̀nù, eré ìbéèrè ọ̀fẹ́, ìdíje ìbéèrè lórí ayélujára, ìmọ̀ gbogbogbò",
-    "homeTitle": "Ìdíje Mílíọ̀nù — Ta ló fẹ́ di olówó mílíọ̀nù? Ẹ ṣeré lọ́fẹ̀ẹ́ lórí ayélujára",
-    "homeDescription": "Ẹ ṣe eré ìdíje ìbéèrè lọ́fẹ̀ẹ́ ní èdè 80. Ìbéèrè 15 sí mílíọ̀nù, ìrànlọ́wọ́ mẹ́rin, ibi ààbò, pẹ̀lú Ìfaradà tí kò lópin àti Ìsáré Àkókò lórí àtẹ ipò àgbáyé.",
+    "keywords": "who wants to be a millionaire game, who wants to be a millionaire in Yoruba, millionaire game online, Ìdíje Mílíọ̀nù, eré ìbéèrè, ìbéèrè ọ̀fẹ́, ìmọ̀ ìjinlẹ̀",
+    "homeTitle": "Ta ló fẹ́ di olówó mílíọ̀nù? Eré orí ayélujára ọ̀fẹ́ ní èdè Yorùbá | Ìdíje Mílíọ̀nù",
+    "homeDescription": "Ṣeré “Ta ló fẹ́ di olówó mílíọ̀nù?” ọ̀fẹ́ lórí ayélujára ní èdè Yorùbá: ìbéèrè 15 sí mílíọ̀nù, ìrànlọ́wọ́ mẹ́rin àti ibùdó àìléwu méjì, pẹ̀lú àwọn ìbéèrè tí a kọ ní èdè Yorùbá, kò sí ì túmọ̀. Kò sí ìforúkọsílẹ̀. Ó tún wà ní àwọn èdè 79 mìíràn.",
     "playTitle": "Àtayébáyé — ìbéèrè 15 sí mílíọ̀nù",
     "playDescription": "Ẹ gun àkàsọ̀ owó láti {first} dé {top}: ìbéèrè mẹ́ẹ̀ẹ́dógún, ibi ààbò méjì, ìrànlọ́wọ́ mẹ́rin. Ọ̀fẹ́ ni, kò sí ìforúkọsílẹ̀, ní èdè yín.",
     "marathonTitle": "Ìfaradà — báwo lẹ ṣe lè pẹ́ tó?",

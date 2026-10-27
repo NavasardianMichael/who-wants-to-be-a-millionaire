@@ -68,7 +68,7 @@
     "settings": "Impostazioni"
   },
   "Home": {
-    "eyebrow": "80 lingue · domande scritte dall'intelligenza artificiale · gratis",
+    "eyebrow": "Gioco online gratuito in italiano · domande scritte da intelligenza artificiale",
     "heroTitle": "Chi vuol essere milionario?",
     "modesTitle": "Tre modi di giocare",
     "lifelinesTitle": "Quattro aiuti, una sola volta ciascuno",
@@ -107,7 +107,11 @@
     "faq5Question": "Come entro in classifica?",
     "faq5Answer": "Accedi con Google e gioca una partita classificata di Maratona o Contro il tempo. Ogni risposta viene verificata dal nostro server, così la classifica resta corretta.",
     "faq6Question": "È il gioco ufficiale del programma TV?",
-    "faq6Answer": "No. Quiz Milionario è un gioco indipendente creato dai fan, ispirato al classico formato dei quiz televisivi."
+    "faq6Answer": "No. Quiz Milionario è un gioco indipendente creato dai fan, ispirato al classico formato dei quiz televisivi.",
+    "faqLanguageQuestion": "Posso giocare a «Chi vuol essere milionario?» in italiano?",
+    "faqLanguageAnswer": "Sì: questa è la versione in italiano del gioco. Ogni domanda è scritta in italiano per i giocatori di lingua italiana anziché tradotta, e ogni modalità e aiuto sono gratuiti. Il gioco è disponibile anche in altre 79 lingue.",
+    "languagesTitle": "Gioca nella tua lingua",
+    "languagesSubtitle": "Ogni lingua ha le sue domande, scritte in modo nativo e non tradotte."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Un errore imprevisto ha bloccato questa pagina. Puoi riprovare."
   },
   "Seo": {
-    "keywords": "quiz milionario, gioco a quiz, trivia, chi vuol essere milionario gioco, quiz gratis, quiz online, cultura generale",
-    "homeTitle": "Quiz Milionario — Chi vuol essere milionario? Gioca gratis online",
-    "homeDescription": "Gioca gratis al quiz televisivo in 80 lingue. 15 domande per il milione, quattro aiuti, soglie di sicurezza, più le modalità Maratona e Contro il tempo con classifica mondiale.",
+    "keywords": "gioco chi vuol essere milionario, chi vuol essere milionario in italiano, gioco del milionario online, quiz milionario, gioco a quiz, quiz gratis, trivia",
+    "homeTitle": "Chi vuol essere milionario? Gioco online gratuito in italiano | Quiz Milionario",
+    "homeDescription": "Gioca a «Chi vuol essere milionario?» gratis online in italiano: 15 domande per un milione, quattro aiuti e due traguardi, con domande scritte in italiano e non tradotte. Senza registrazione. Disponibile anche in altre 79 lingue.",
     "playTitle": "Quiz Milionario, modalità Classica — 15 domande per il milione",
     "playDescription": "Sali la scala dei premi da {first} a {top}: quindici domande, due soglie di sicurezza, quattro aiuti. Gratis, senza registrazione, nella tua lingua.",
     "marathonTitle": "Quiz Maratona — quanto riesci a resistere?",

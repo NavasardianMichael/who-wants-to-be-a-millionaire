@@ -68,7 +68,7 @@
     "settings": "Nastavitve"
   },
   "Home": {
-    "eyebrow": "80 jezikov · vprašanja piše umetna inteligenca · brezplačno",
+    "eyebrow": "Brezplačna spletna igra v slovenščini · vprašanja, ki jih je napisala umetna inteligenca",
     "heroTitle": "Kdo želi postati milijonar?",
     "modesTitle": "Trije načini igre",
     "lifelinesTitle": "Štiri pomoči, vsaka po enkrat",
@@ -107,7 +107,11 @@
     "faq5Question": "Kako pridem na lestvico?",
     "faq5Answer": "Prijavi se z Googlom in odigraj tekmovalno igro v Maratonu ali Dirki s časom. Vsak odgovor preveri naš strežnik, zato lestvica ostaja poštena.",
     "faq6Question": "Je to uradna igra televizijske oddaje?",
-    "faq6Answer": "Ne. Milijonarski kviz je neodvisna igra oboževalcev, ki jo je navdihnil format klasičnega televizijskega kviza."
+    "faq6Answer": "Ne. Milijonarski kviz je neodvisna igra oboževalcev, ki jo je navdihnil format klasičnega televizijskega kviza.",
+    "faqLanguageQuestion": "Ali lahko igram „Kdo želi postati milijonar?“ v slovenščini?",
+    "faqLanguageAnswer": "Seveda – to je slovenska različica igre. Vsako vprašanje je napisano v slovenščini za slovensko govoreče in ni prevedeno, poleg tega pa so vsi načini igre in pomoči brezplačni. Igra je na voljo tudi v 79 drugih jezikih.",
+    "languagesTitle": "Igrajte v svojem jeziku",
+    "languagesSubtitle": "Vsak jezik ima svoja vprašanja, napisana izvirno – ne prevedena."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Nepričakovana napaka je ustavila to stran. Lahko poskusiš znova."
   },
   "Seo": {
-    "keywords": "milijonarski kviz, kviz, igra kviz, splošno znanje, kdo želi postati milijonar igra, brezplačen kviz, spletni kviz",
-    "homeTitle": "Milijonarski kviz – Kdo želi postati milijonar? Igraj brezplačno na spletu",
-    "homeDescription": "Igraj televizijski kviz brezplačno v 80 jezikih. 15 vprašanj do milijona, štiri pomoči, zajamčeni zneski ter neskončni Maraton in Dirka s časom s svetovno lestvico.",
+    "keywords": "igra kdo želi postati milijonar, kdo želi postati milijonar v slovenščini, milijonarska igra na spletu, miljonarski kviz, kviz, brezplačni kviz, malenkosti",
+    "homeTitle": "Kdo želi postati milijonar? Brezplačna spletna igra v slovenščini | Milijonarski kviz",
+    "homeDescription": "Igrajte „Kdo želi postati milijonar?“ brezplačno na spletu v slovenščini: 15 vprašanj do milijona, štiri pomoči in dve varni točki, z vprašanji, napisanimi v slovenščini in ne prevedenimi. Brez prijave. Na voljo tudi v 79 drugih jezikih.",
     "playTitle": "Klasični milijonarski kviz – 15 vprašanj do milijona",
     "playDescription": "Povzpni se po lestvici dobitkov od {first} do {top}: petnajst vprašanj, dva zajamčena zneska, štiri pomoči. Brezplačno, brez registracije, v tvojem jeziku.",
     "marathonTitle": "Kviz Maraton – kako dolgo zdržiš?",

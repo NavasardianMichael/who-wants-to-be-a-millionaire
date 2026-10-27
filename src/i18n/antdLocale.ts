@@ -5,9 +5,9 @@ type Loader = () => Promise<{ default: AntdLocale }>
 
 /**
  * antd's own locale ids are language_REGION, not our BCP-47 codes (Belarusian is `by_BY`).
- * antd ships 62 of our 80; Swahili, Telugu, Gujarati, Punjabi, Filipino, Javanese, Hausa,
- * Amharic, Yoruba, Igbo, Pashto, Odia, Zulu, Somali, Afrikaans, Kyrgyz, Lao and Welsh have
- * no bundle and fall back to English.
+ * antd ships 60 of our 80; Swahili, Telugu, Gujarati, Punjabi, Filipino, Javanese, Hausa,
+ * Amharic, Yoruba, Igbo, Pashto, Odia, Zulu, Somali, Afrikaans, Kyrgyz, Lao, Welsh, Oromo and
+ * Sundanese have no bundle and fall back to English.
  * That only affects antd's built-in copy (pagination, empty states, upload hints) — every
  * string we render ourselves is translated.
  */
@@ -26,7 +26,6 @@ const ANTD_LOCALE_LOADERS: Partial<Record<Locale, Loader>> = {
   de: () => import('antd/locale/de_DE'),
   ja: () => import('antd/locale/ja_JP'),
   mr: () => import('antd/locale/mr_IN'),
-  tr: () => import('antd/locale/tr_TR'),
   ta: () => import('antd/locale/ta_IN'),
   vi: () => import('antd/locale/vi_VN'),
   ko: () => import('antd/locale/ko_KR'),
@@ -52,7 +51,6 @@ const ANTD_LOCALE_LOADERS: Partial<Record<Locale, Loader>> = {
   bg: () => import('antd/locale/bg_BG'),
   sr: () => import('antd/locale/sr_RS'),
   hr: () => import('antd/locale/hr_HR'),
-  az: () => import('antd/locale/az_AZ'),
   kk: () => import('antd/locale/kk_KZ'),
   uz: () => import('antd/locale/uz_UZ'),
   hy: () => import('antd/locale/hy_AM'),
@@ -78,7 +76,7 @@ const ANTD_LOCALE_LOADERS: Partial<Record<Locale, Loader>> = {
 
 /**
  * Resolved on the server and handed to `ConfigProvider` as a prop (bookie's pattern), so only
- * the active locale's few KB cross the RSC boundary and none of the 62 bundles enter the
+ * the active locale's few KB cross the RSC boundary and none of the 60 bundles enter the
  * client bundle. antd's locale objects are plain data, which is what makes that possible.
  */
 export const getAntdLocale = async (locale: Locale): Promise<AntdLocale> => {

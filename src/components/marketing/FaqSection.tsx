@@ -11,10 +11,14 @@ const FAQ_COUNT = 6
 export const FaqSection = async ({ locale }: { locale: string }) => {
   const t = await getTranslations('Home')
   const values = { havenOne: formatMoney(LADDER[4], locale), havenTwo: formatMoney(LADDER[9], locale) }
-  const items = Array.from({ length: FAQ_COUNT }, (_, index) => ({
-    question: t(`faq${index + 1}Question`),
-    answer: t(`faq${index + 1}Answer`, values),
-  }))
+  // "Can I play it in <this language>?" leads: it is the question each locale's home page is searched for.
+  const items = [
+    { question: t('faqLanguageQuestion'), answer: t('faqLanguageAnswer') },
+    ...Array.from({ length: FAQ_COUNT }, (_, index) => ({
+      question: t(`faq${index + 1}Question`),
+      answer: t(`faq${index + 1}Answer`, values),
+    })),
+  ]
 
   return (
     <>

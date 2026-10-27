@@ -9,7 +9,8 @@ import { PageHeader } from '@components/ui/layout/PageHeader'
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Seo')
-  return pageMetadata({ path: ROUTES.categories, title: t('categoriesTitle'), description: t('categoriesDescription') })
+  // Out of the index, the category pages with it: see INDEXABLE_ROUTES.
+  return pageMetadata({ path: ROUTES.categories, title: t('categoriesTitle'), description: t('categoriesDescription'), noIndex: true })
 }
 
 export default async function CategoriesPage() {

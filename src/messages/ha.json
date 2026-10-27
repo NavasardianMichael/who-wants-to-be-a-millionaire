@@ -68,7 +68,7 @@
     "settings": "Saituna"
   },
   "Home": {
-    "eyebrow": "Harsuna 80 · tambayoyin da ƙirƙirarriyar basira ta rubuta · kyauta",
+    "eyebrow": "Wasanni kyauta a yanar gizo cikin harshen Hausa · tambayoyin da fasahar hankali ta wucin gadi ta rubuta",
     "heroTitle": "Wa yake son zama miloniya?",
     "modesTitle": "Hanyoyi uku na wasa",
     "lifelinesTitle": "Taimako huɗu, kowanne sau ɗaya",
@@ -107,7 +107,11 @@
     "faq5Question": "Ta yaya zan shiga jadawalin gwaraza?",
     "faq5Answer": "Ku shiga da Google ku yi wasan matsayi na Maraton ko Tseren Lokaci. Sabarmu tana duba kowace amsa, don haka jadawalin gwaraza yana da adalci.",
     "faq6Question": "Shin wannan shi ne wasan hukuma na shirin talabijin?",
-    "faq6Answer": "A'a. Gasar Miloniya wasa ne mai zaman kansa da masoya suka ƙirƙira, wanda aka gina bisa tsarin shahararren shirin gasar tambayoyi."
+    "faq6Answer": "A'a. Gasar Miloniya wasa ne mai zaman kansa da masoya suka ƙirƙira, wanda aka gina bisa tsarin shahararren shirin gasar tambayoyi.",
+    "faqLanguageQuestion": "Shin zan iya buga wasan “Wa yake son zama miloniya?” cikin harshen Hausa?",
+    "faqLanguageAnswer": "E — wannan ita ce sigar wasan ta Hausa. An rubuta kowace tambaya da Hausa ga masu jin Hausa maimakon fassara su, kuma kowane salo da tallafi kyauta ne. Wasan yana samuwa kuma cikin wasu harsuna 79.",
+    "languagesTitle": "Yi wasa cikin harshenku",
+    "languagesSubtitle": "Kowane harshe yana da nasa tambayoyin, waɗanda aka rubuta su asali — ba tare da fassara su ba."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Wani kuskure da ba a zata ba ya dakatar da wannan shafin. Kuna iya sake gwadawa."
   },
   "Seo": {
-    "keywords": "gasar miloniya, wasan gasar tambayoyi, tambayoyi da amsoshi, wa yake son zama miloniya, gasar tambayoyi kyauta, gasar tambayoyi ta intanet, ilimin gama-gari",
-    "homeTitle": "Gasar Miloniya — Wa yake son zama miloniya? Yi wasa kyauta a intanet",
-    "homeDescription": "Yi wasan gasar tambayoyi kyauta a harsuna 80. Tambayoyi 15 zuwa miliyan, taimako huɗu, matakan tsira, da kuma Maraton marar ƙarewa da Tseren Lokaci tare da jadawalin gwaraza na duniya.",
+    "keywords": "wasan wa yake son zama miloniya, wa yake son zama miloniya cikin harshen Hausa, wasan miloniya a yanar gizo, gasar miloniya, wasan tambayoyi, tambayoyin kyauta, ƙalubale",
+    "homeTitle": "Wa yake son zama miloniya? Wasan kyauta a yanar gizo cikin harshen Hausa | Gasar Miloniya",
+    "homeDescription": "Ku buga “Wa yake son zama miloniya?” kyauta a yanar gizo cikin harshen Hausa: tambayoyi 15 zuwa ga milon ɗaya, tallafi huɗu da wuraren tsira biyu, tare da tambayoyin da aka rubuta da Hausa, ba tare da an fassara su ba. Babu rajista. Kuma a cikin wasu harsuna 79.",
     "playTitle": "Gasar Miloniya ta Asali — tambayoyi 15 zuwa miliyan",
     "playDescription": "Hau matakan kyauta daga {first} zuwa {top}: tambayoyi goma sha biyar, matakan tsira biyu, taimako huɗu. Kyauta, babu rajista, a harshenku.",
     "marathonTitle": "Gasar tambayoyi ta Maraton — har yaushe za ku jure?",

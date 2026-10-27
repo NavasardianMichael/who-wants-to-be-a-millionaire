@@ -21,20 +21,21 @@ export const ROUTES = {
 
 export type RouteKey = keyof typeof ROUTES
 
-/** Public pages, each emitted once per locale into the sitemap. */
+/**
+ * The pages the sitemap lists, once per locale: the game and what explains it. Privacy, terms
+ * and contact stay indexable but unlisted — nobody searches for them. The category pages are
+ * `noindex`: their sample questions exist only in locales the pool has filled, and an empty
+ * page in 78 languages would read as thin content.
+ */
 export const INDEXABLE_ROUTES: readonly RouteKey[] = [
   'home',
   'play',
   'marathon',
   'timeAttack',
   'leaderboard',
-  'categories',
-  'badges',
   'rules',
+  'badges',
   'about',
-  'privacy',
-  'terms',
-  'contact',
 ]
 
 /** URL slugs for the category landing pages (`/categories/film-tv`). */

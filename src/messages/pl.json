@@ -68,7 +68,7 @@
     "settings": "Ustawienia"
   },
   "Home": {
-    "eyebrow": "80 języków · pytania stworzone przez sztuczną inteligencję · za darmo",
+    "eyebrow": "Darmowa gra online po polsku · pytania stworzone przez sztuczną inteligencję",
     "heroTitle": "Kto chce zostać milionerem?",
     "modesTitle": "Trzy sposoby gry",
     "lifelinesTitle": "Cztery koła ratunkowe, każde tylko raz",
@@ -107,7 +107,11 @@
     "faq5Question": "Jak trafić do rankingu?",
     "faq5Answer": "Zaloguj się przez Google i zagraj rankingowo w Maratonie lub Wyścigu z czasem. Każdą odpowiedź sprawdza nasz serwer, więc ranking pozostaje uczciwy.",
     "faq6Question": "Czy to oficjalna gra teleturnieju?",
-    "faq6Answer": "Nie. Milionerski Quiz to niezależna gra stworzona przez fanów, zainspirowana klasycznym formatem teleturnieju."
+    "faq6Answer": "Nie. Milionerski Quiz to niezależna gra stworzona przez fanów, zainspirowana klasycznym formatem teleturnieju.",
+    "faqLanguageQuestion": "Czy mogę zagrać w „Kto chce zostać milionerem?” po polsku?",
+    "faqLanguageAnswer": "Tak — to jest polska wersja gry. Każde pytanie jest napisane po polsku dla polskich graczy, a nie tłumaczone, a każdy tryb i koło ratunkowe są darmowe. Gra jest dostępna również w 79 innych językach.",
+    "languagesTitle": "Graj w swoim języku",
+    "languagesSubtitle": "Każdy język ma własne pytania, napisane w nim naturalnie, a nie przetłumaczone."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Nieoczekiwany błąd zatrzymał tę stronę. Możesz spróbować ponownie."
   },
   "Seo": {
-    "keywords": "milionerski quiz, gra quizowa, quiz, teleturniej, kto chce zostać milionerem gra, milionerzy gra, darmowy quiz, quiz online, wiedza ogólna",
-    "homeTitle": "Milionerski Quiz — Kto chce zostać milionerem? Zagraj za darmo online",
-    "homeDescription": "Zagraj za darmo w teleturniej w 80 językach. 15 pytań do miliona, cztery koła ratunkowe, progi gwarantowane, a do tego niekończący się Maraton i Wyścig z czasem z globalnym rankingiem.",
+    "keywords": "kto chce zostać milionerem gra, kto chce zostać milionerem po polsku, gra milionerzy online, milionerski quiz, gra quizowa, darmowy quiz, trivia",
+    "homeTitle": "Kto chce zostać milionerem? Darmowa gra online po polsku | Milionerski Quiz",
+    "homeDescription": "Zagraj w „Kto chce zostać milionerem?” za darmo online po polsku: 15 pytań do miliona, cztery koła ratunkowe i dwa progi gwarantowane, z pytaniami napisanymi po polsku, a nie tłumaczonymi. Bez rejestracji. Dostępne także w 79 innych językach.",
     "playTitle": "Klasyczny quiz o milion — 15 pytań do miliona",
     "playDescription": "Wspinaj się po drabince wygranych od {first} do {top}: piętnaście pytań, dwa progi gwarantowane, cztery koła ratunkowe. Za darmo, bez rejestracji, w twoim języku.",
     "marathonTitle": "Quiz Maraton — jak długo wytrzymasz?",

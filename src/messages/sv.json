@@ -68,7 +68,7 @@
     "settings": "Inställningar"
   },
   "Home": {
-    "eyebrow": "80 språk · frågor skrivna av artificiell intelligens · gratis",
+    "eyebrow": "Gratis onlinespel på svenska · frågor skrivna av artificiell intelligens",
     "heroTitle": "Vem vill bli miljonär?",
     "modesTitle": "Tre sätt att spela",
     "lifelinesTitle": "Fyra livlinor, en gång var",
@@ -107,7 +107,11 @@
     "faq5Question": "Hur kommer jag in på topplistan?",
     "faq5Answer": "Logga in med Google och spela en rankad runda i Maraton eller Mot klockan. Varje svar kontrolleras av vår server, så topplistan förblir rättvis.",
     "faq6Question": "Är det här det officiella spelet från tv-programmet?",
-    "faq6Answer": "Nej. Miljonärsquiz är ett fristående spel gjort av fans, inspirerat av det klassiska frågesportformatet."
+    "faq6Answer": "Nej. Miljonärsquiz är ett fristående spel gjort av fans, inspirerat av det klassiska frågesportformatet.",
+    "faqLanguageQuestion": "Kan jag spela \"Vem vill bli miljonär?\" på svenska?",
+    "faqLanguageAnswer": "Ja – det här är den svenska versionen av spelet. Varje fråga är skriven på svenska för svensktalande snarare än översatt, och varje spelläge och livlina är gratis. Spelet finns också tillgängligt på 79 andra språk.",
+    "languagesTitle": "Spela på ditt språk",
+    "languagesSubtitle": "Varje språk har sina egna frågor, skrivna på anpassat språk – inte översatta."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Ett oväntat fel stoppade den här sidan. Du kan försöka igen."
   },
   "Seo": {
-    "keywords": "miljonärsquiz, frågesport, quiz, frågesportspel, vem vill bli miljonär spel, gratis quiz, quiz online, allmänbildning",
-    "homeTitle": "Miljonärsquiz – Vem vill bli miljonär? Spela gratis online",
-    "homeDescription": "Spela frågesportspelet gratis på 80 språk. 15 frågor till miljonen, fyra livlinor, säkra nivåer samt de oändliga lägena Maraton och Mot klockan med global topplista.",
+    "keywords": "vem vill bli miljonär spel, vem vill bli miljonär på svenska, miljonärsspel online, miljonärsquiz, frågesport, gratis quiz, trivia",
+    "homeTitle": "Vem vill bli miljonär? Gratis onlinespel på svenska | Miljonärsquiz",
+    "homeDescription": "Spela \"Vem vill bli miljonär?\" gratis online på svenska: 15 frågor till miljonen, fyra livlinor och två säkerhetsnivåer, med frågor skrivna på svenska, inte översatta. Ingen registrering krävs. Finns även på 79 andra språk.",
     "playTitle": "Klassisk miljonärsquiz – 15 frågor till miljonen",
     "playDescription": "Klättra uppför vinststegen från {first} till {top}: femton frågor, två säkra nivåer, fyra livlinor. Gratis, utan registrering, på ditt språk.",
     "marathonTitle": "Maratonquiz – hur länge håller du?",

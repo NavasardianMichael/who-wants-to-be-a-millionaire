@@ -1,7 +1,9 @@
 import { Globe2, Play, Sparkles, WifiOff } from 'lucide-react'
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
+import { languageName } from '@i18n/languageNames'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
+import { APP_NAME, SHOW_TITLE } from '@constants/app'
 import { BADGE_IDS, LADDER } from '@constants/game'
 import { ROUTES } from '@constants/routes'
 import { formatMoney } from '@helpers/money'
@@ -10,6 +12,7 @@ import { BadgeMedal } from '@components/badges/BadgeMedal'
 import { CategoryGrid } from '@components/marketing/CategoryGrid'
 import { FaqSection } from '@components/marketing/FaqSection'
 import { HowToPlay } from '@components/marketing/HowToPlay'
+import { LanguageGrid } from '@components/marketing/LanguageGrid'
 import { LeaderboardTeaser } from '@components/marketing/LeaderboardTeaser'
 import { LifelineShowcase } from '@components/marketing/LifelineShowcase'
 import { ModeCards } from '@components/marketing/ModeCards'
@@ -31,12 +34,14 @@ export default async function HomePage() {
   const locale = await currentLocale()
   const t = await getTranslations()
 
+  const inEnglish = `${SHOW_TITLE} in ${languageName(locale, 'en')}`
+  const alternateNames = [...new Set([t('Home.heroTitle'), inEnglish, APP_NAME])].filter((each) => each !== t('Common.appName'))
   const showcase = BADGE_IDS.filter((_, index) => index % 3 === 0).slice(0, 6)
 
   return (
     <>
       <JsonLd data={websiteSchema(locale, t('Common.appName'), t('Seo.homeDescription'))} />
-      <JsonLd data={gameSchema(locale, t('Common.appName'), t('Seo.homeDescription'), ROUTES.home)} />
+      <JsonLd data={gameSchema(locale, t('Common.appName'), t('Seo.homeDescription'), ROUTES.home, alternateNames)} />
 
       {/* Hero */}
       <section className='container-page grid items-center gap-10 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:pt-16'>
@@ -105,6 +110,10 @@ export default async function HomePage() {
         <ButtonLink href={ROUTES.badges} variant='ghost' className='mt-6'>
           <Sparkles aria-hidden className='size-5' /> {t('Home.viewBadges')}
         </ButtonLink>
+      </Section>
+
+      <Section id='languages' title={t('Home.languagesTitle')} subtitle={t('Home.languagesSubtitle')}>
+        <LanguageGrid locale={locale} />
       </Section>
 
       <Section id='faq' title={t('Home.faqTitle')} align='center'>

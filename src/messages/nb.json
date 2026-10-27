@@ -68,7 +68,7 @@
     "settings": "Innstillinger"
   },
   "Home": {
-    "eyebrow": "80 språk · spørsmål skrevet av kunstig intelligens · gratis",
+    "eyebrow": "Gratis nettspill på norsk · spørsmål skrevet av kunstig intelligens",
     "heroTitle": "Vil du bli millionær?",
     "modesTitle": "Tre måter å spille på",
     "lifelinesTitle": "Fire hjelpemidler, én gang hver",
@@ -107,7 +107,11 @@
     "faq5Question": "Hvordan kommer jeg på topplisten?",
     "faq5Answer": "Logg inn med Google og spill en rangert Maraton- eller Mot klokka-runde. Hvert svar kontrolleres av serveren vår, så topplisten forblir rettferdig.",
     "faq6Question": "Er dette det offisielle spillet fra TV-programmet?",
-    "faq6Answer": "Nei. Millionærquiz er et uavhengig spill laget av fans, inspirert av det klassiske quizshow-formatet."
+    "faq6Answer": "Nei. Millionærquiz er et uavhengig spill laget av fans, inspirert av det klassiske quizshow-formatet.",
+    "faqLanguageQuestion": "Kan jeg spille «Vil du bli millionær?» på norsk?",
+    "faqLanguageAnswer": "Ja – dette er den norske versjonen av spillet. Hvert spørsmål er skrevet på norsk for norsktalende i stedet for å bli oversatt, og alle moduser og livliner er gratis. Spillet er også tilgjengelig på 79 andre språk.",
+    "languagesTitle": "Spill på ditt språk",
+    "languagesSubtitle": "Hvert språk har sine egne spørsmål, skrevet innfødt – ikke oversatt."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "En uventet feil stoppet denne siden. Du kan prøve igjen."
   },
   "Seo": {
-    "keywords": "millionærquiz, quizspill, quiz, vil du bli millionær spill, gratis quiz, nettquiz, allmennkunnskap",
-    "homeTitle": "Millionærquiz – Vil du bli millionær? Spill gratis på nett",
-    "homeDescription": "Spill quizshowet gratis på 80 språk. 15 spørsmål til millionen, fire hjelpemidler, sikre trinn – pluss endeløse Maraton- og Mot klokka-moduser med global toppliste.",
+    "keywords": "vil du bli millionær spill, vil du bli millionær på norsk, millionærspill på nett, millionærquiz, quizspill, gratis quiz, trivia",
+    "homeTitle": "Vil du bli millionær? Gratis nettspill på norsk | Millionærquiz",
+    "homeDescription": "Spill «Vil du bli millionær?» gratis på nett på norsk: 15 spørsmål til millionen, fire livliner og to sikkerhetsnett, med spørsmål skrevet på norsk, ikke oversatt. Ingen pålogging. Også på 79 andre språk.",
     "playTitle": "Klassisk millionærquiz – 15 spørsmål til millionen",
     "playDescription": "Klatre opp pengestigen fra {first} til {top}: femten spørsmål, to sikre trinn, fire hjelpemidler. Gratis, uten registrering, på ditt språk.",
     "marathonTitle": "Maratonquiz – hvor lenge holder du ut?",

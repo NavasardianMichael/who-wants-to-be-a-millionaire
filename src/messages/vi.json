@@ -68,7 +68,7 @@
     "settings": "Cài đặt"
   },
   "Home": {
-    "eyebrow": "80 ngôn ngữ · câu hỏi được viết bởi trí tuệ nhân tạo · miễn phí",
+    "eyebrow": "Trò chơi trực tuyến miễn phí bằng tiếng Việt · câu hỏi được viết bởi trí tuệ nhân tạo",
     "heroTitle": "Ai là triệu phú?",
     "modesTitle": "Ba cách chơi",
     "lifelinesTitle": "Bốn quyền trợ giúp, mỗi quyền dùng một lần",
@@ -107,7 +107,11 @@
     "faq5Question": "Làm sao để lên bảng xếp hạng?",
     "faq5Answer": "Đăng nhập bằng Google và chơi một lượt Marathon hoặc Đua với thời gian có xếp hạng. Mọi câu trả lời đều được máy chủ của chúng tôi kiểm tra, nên bảng xếp hạng luôn công bằng.",
     "faq6Question": "Đây có phải trò chơi chính thức của chương trình truyền hình không?",
-    "faq6Answer": "Không. Đố Vui Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển."
+    "faq6Answer": "Không. Đố Vui Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển.",
+    "faqLanguageQuestion": "Tôi có thể chơi “Ai là triệu phú?” bằng tiếng Việt không?",
+    "faqLanguageAnswer": "Có — đây là phiên bản tiếng Việt của trò chơi. Mọi câu hỏi đều được viết bằng tiếng Việt cho người nói tiếng Việt thay vì dịch thuật, và mọi chế độ cũng như quyền trợ giúp đều miễn phí. Trò chơi cũng có sẵn bằng 79 ngôn ngữ khác.",
+    "languagesTitle": "Chơi bằng ngôn ngữ của bạn",
+    "languagesSubtitle": "Mỗi ngôn ngữ đều có bộ câu hỏi riêng, được viết bản địa — không phải dịch thuật."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Một lỗi không mong muốn đã làm gián đoạn trang này. Bạn có thể thử lại."
   },
   "Seo": {
-    "keywords": "đố vui triệu phú, trò chơi đố vui, câu đố kiến thức, game ai là triệu phú, đố vui miễn phí, đố vui trực tuyến, kiến thức chung",
-    "homeTitle": "Đố Vui Triệu Phú — Ai là triệu phú? Chơi miễn phí trực tuyến",
-    "homeDescription": "Chơi gameshow đố vui miễn phí bằng 80 ngôn ngữ. 15 câu hỏi đến giải triệu đô, bốn quyền trợ giúp, các mốc an toàn, cùng chế độ Marathon bất tận và Đua với thời gian với bảng xếp hạng toàn cầu.",
+    "keywords": "ai là triệu phú trò chơi, ai là triệu phú bằng tiếng Việt, game triệu phú trực tuyến, đố vui triệu phú, game đố vui, đố vui miễn phí, đố vui trí tuệ",
+    "homeTitle": "Ai là triệu phú? Trò chơi trực tuyến miễn phí bằng tiếng Việt | Đố Vui Triệu Phú",
+    "homeDescription": "Chơi “Ai là triệu phú?” trực tuyến miễn phí bằng tiếng Việt: 15 câu hỏi đến với một triệu, bốn quyền trợ giúp và hai mốc an toàn, với câu hỏi được viết bằng tiếng Việt, không dịch thuật. Không cần đăng ký. Cũng có sẵn bằng 79 ngôn ngữ khác.",
     "playTitle": "Đố Vui Triệu Phú bản Cổ điển — 15 câu hỏi đến giải triệu đô",
     "playDescription": "Leo thang tiền thưởng từ {first} đến {top}: mười lăm câu hỏi, hai mốc an toàn, bốn quyền trợ giúp. Miễn phí, không cần đăng ký, bằng ngôn ngữ của bạn.",
     "marathonTitle": "Đố vui Marathon — bạn trụ được bao lâu?",

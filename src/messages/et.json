@@ -68,7 +68,7 @@
     "settings": "Seaded"
   },
   "Home": {
-    "eyebrow": "80 keelt · küsimused kirjutab tehisintellekt · tasuta",
+    "eyebrow": "Tasuta online-mäng eesti keeles · küsimused on koostanud tehisintellekt",
     "heroTitle": "Kes tahab saada miljonäriks?",
     "modesTitle": "Kolm mänguviisi",
     "lifelinesTitle": "Neli õlekõrt, igaüks ühe korra",
@@ -107,7 +107,11 @@
     "faq5Question": "Kuidas pääseda edetabelisse?",
     "faq5Answer": "Logi Google'iga sisse ja mängi Maratoni või Ajasõidu edetabelimängu. Iga vastust kontrollib meie server, nii et edetabel jääb ausaks.",
     "faq6Question": "Kas see on telesaate ametlik mäng?",
-    "faq6Answer": "Ei. Miljonäri mälumäng on sõltumatu, fännide loodud mäng, mille eeskujuks on klassikaline telemälumängu formaat."
+    "faq6Answer": "Ei. Miljonäri mälumäng on sõltumatu, fännide loodud mäng, mille eeskujuks on klassikaline telemälumängu formaat.",
+    "faqLanguageQuestion": "Kas ma saan mängida saadet „Kes tahab saada miljonäriks?“ eesti keeles?",
+    "faqLanguageAnswer": "Jah — see on mängu eestikeelne versioon. Kõik küsimused on eesti keeles eesti keele kõnelejatele kirjutatud, mitte tõlgitud, ning iga režiim ja abivahend on tasuta. Mäng on saadaval ka teistes keeltes (kokku 79 keeles).",
+    "languagesTitle": "Mängige oma keeles",
+    "languagesSubtitle": "Igal keelel on oma küsimused, mis on kirjutatud emakeelselt – mitte tõlgitud."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Ootamatu viga peatas selle lehe. Võid uuesti proovida."
   },
   "Seo": {
-    "keywords": "miljonäri mälumäng, mälumäng, viktoriin, kes tahab saada miljonäriks mäng, tasuta mälumäng, mälumäng internetis, üldteadmised",
-    "homeTitle": "Miljonäri mälumäng – Kes tahab saada miljonäriks? Mängi tasuta veebis",
-    "homeDescription": "Mängi telemälumängu tasuta 80 keeles. 15 küsimust miljonini, neli õlekõrt, turvaastmed ning lõputu Maraton ja Ajasõit koos ülemaailmse edetabeliga.",
+    "keywords": "kes tahab saada miljonäriks mäng, kes tahab saada miljonäriks eesti keeles, miljonäri mäng online, Miljonäri mälumäng, mälumäng, tasuta mälumäng, viktoriin",
+    "homeTitle": "Kes tahab saada miljonäriks? Tasuta online-mäng eesti keeles | Miljonäri mälumäng",
+    "homeDescription": "Mängige saadet „Kes tahab saada miljonäriks?“ tasuta online-mänguna eesti keeles: 15 küsimust miljonini, neli abivahendit ja kaks vahepeatust. Küsimused on kirjutatud eesti keeles, mitte tõlgitud. Ilma registreerimiseta. Saadaval ka teistes keeltes (kokku 79 keeles).",
     "playTitle": "Klassikaline miljonäri mälumäng – 15 küsimust miljonini",
     "playDescription": "Roni raharedelil summast {first} summani {top}: viisteist küsimust, kaks turvaastet, neli õlekõrt. Tasuta, registreerumata, sinu keeles.",
     "marathonTitle": "Maratoni mälumäng – kui kaua sa vastu pead?",

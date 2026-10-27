@@ -32,6 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: categoryPath(category),
     title: t('Seo.categoryTitle', { category: name }),
     description: t('Seo.categoryDescription', { category: name, description: t(`Categories.descriptions.${category}`) }),
+    // Out of the index with the hub: see INDEXABLE_ROUTES.
+    noIndex: true,
   })
 }
 

@@ -9,10 +9,15 @@
  *   pnpm i18n:sync hy ja                             # just these
  *   pnpm i18n:sync --retranslate=Home.eyebrow,Common.appName
  *   pnpm i18n:sync --matching="Millionaire Quiz"     # re-translate keys whose English matches
+ *   pnpm i18n:sync --formal hy ru                    # move existing copy to the polite "you"
  *
  * `--retranslate` / `--matching` redo existing translations — for when the English changed or
  * a translation rule did. Every key of one locale goes in one request, so a term (the game's
  * name) comes out the same everywhere.
+ *
+ * `--formal` translates nothing: the model reads a locale's whole catalogue and returns only the
+ * values that address the player familiarly, rewritten to the polite form (ADDRESS). Everything
+ * else stays as reviewed.
  *
  * Files are patched in place — only changed values and new keys touch the text — so the diff
  * shows the translation, not a reformatted file. Anything the patcher cannot place falls back
@@ -30,6 +35,10 @@ const DIR = path.join(ROOT, 'src/messages')
 const serverRequire = createRequire(path.join(ROOT, 'server/package.json'))
 
 const BRAND = 'Millionaire Quiz'
+
+/** How the copy speaks to the player — shared by translation and the `--formal` pass. */
+const ADDRESS =
+  'Address the player respectfully. Wherever the language distinguishes a familiar and a polite "you" — pronouns, verb forms, imperatives, honorifics — use the polite one consistently (e.g. Armenian դուք and գրեք, not դու and գրիր; Russian вы, not ты; German Sie; French vous; Spanish usted; Japanese です/ます; Korean 합니다/해요, never 반말; Hindi आप). Languages whose ordinary polite address is the familiar form (Swedish, Danish, Norwegian, Icelandic, Finnish) keep it. Warm, never stiff.'
 
 const readKey = () => {
   if (process.env.GEMINI_KEY) return process.env.GEMINI_KEY
@@ -71,10 +80,11 @@ const parseArgs = (argv) => {
     // The developer's own pattern from the command line, matched against our own en.json.
     // eslint-disable-next-line security/detect-non-literal-regexp
     matching: option('matching') ? new RegExp(option('matching')) : null,
+    formal: argv.includes('--formal'),
   }
 }
 
-const prompt = (locale, entries, knownName) =>
+const prompt = (locale, entries, knownName, showTitle) =>
   [
     `Translate the JSON values from English into the language with BCP-47 code "${locale}" for a quiz-show game UI.`,
     'Rules:',
@@ -82,9 +92,22 @@ const prompt = (locale, entries, knownName) =>
     '- Keep ICU placeholders like {count} exactly; adapt plural categories to the language.',
     `- The game's name "${BRAND}" is translated naturally into the language (never left in English), as a proper name, and written identically everywhere it appears.` +
       (knownName ? ` In this language it is "${knownName}".` : ''),
+    '- "Who Wants to Be a Millionaire?" is the TV quiz show\'s title: write it as the show is known and searched for in this language (its local edition\'s title where one aired, e.g. German "Wer wird Millionär?", Hindi "कौन बनेगा करोड़पति?"), identically everywhere it appears; inside a sentence it is set off the way the language quotes titles (“…”, «…», „…“, 「…」).' +
+      (showTitle ? ` In this language it is "${showTitle}".` : ''),
+    '- Where the copy says the game or its questions are "in English" or for "English speakers", English stands for the language you are translating into: name that language instead, inflected naturally (Armenian "in English" → "հայերենով", Russian → "на русском"). "79 other languages" stays 79.',
     '- Common.wordmarkTop and Common.wordmarkBottom are the two lines of the logo and together read as the translated game name: the main word on top, the rest below.',
     '- Artificial intelligence ("AI") is always written out in full in the language — never an abbreviation or acronym such as AI, KI, IA or ИИ.',
-    '- Keep "50:50" as is. Friendly, informal tone.',
+    '- Keep "50:50" as is.',
+    `- ${ADDRESS}`,
+    '',
+    JSON.stringify(Object.fromEntries(entries), null, 2),
+  ].join('\n')
+
+const formalPrompt = (locale, entries) =>
+  [
+    `Below is the UI copy of a quiz-show game in the language with BCP-47 code "${locale}", as JSON.`,
+    ADDRESS,
+    'Return a JSON object with ONLY the entries that break this rule, each rewritten to follow it — same key, same meaning, every other word kept. Keep ICU placeholders like {count} and plural syntax exactly. Return {} if none do.',
     '',
     JSON.stringify(Object.fromEntries(entries), null, 2),
   ].join('\n')
@@ -153,7 +176,7 @@ const main = async () => {
 
   const english = JSON.parse(readFileSync(path.join(DIR, 'en.json'), 'utf8'))
   const englishFlat = flatten(english)
-  const { locales: requested, retranslate, matching } = parseArgs(process.argv.slice(2))
+  const { locales: requested, retranslate, matching, formal } = parseArgs(process.argv.slice(2))
   const locales = requested.length
     ? requested
     : readdirSync(DIR)
@@ -168,18 +191,34 @@ const main = async () => {
     const text = readFileSync(file, 'utf8')
     const current = JSON.parse(text)
     const have = new Map(flatten(current))
-    const todo = englishFlat.filter((entry) => !have.has(entry[0]) || redo(entry))
+    const todo = formal ? [] : englishFlat.filter((entry) => !have.has(entry[0]) || redo(entry))
 
     const next = structuredClone(current)
+    let rewritten = 0
+    if (formal) {
+      const changes = await translate(ai, formalPrompt(locale, [...have]))
+      if (!changes) {
+        failed.push(locale)
+        console.log(`${locale}: failed — the model kept returning malformed JSON`)
+        continue
+      }
+      // Only existing string keys whose text actually changed; anything else the model invents is dropped.
+      for (const [dotted, value] of Object.entries(changes)) {
+        if (typeof value !== 'string' || typeof have.get(dotted) !== 'string' || have.get(dotted) === value) continue
+        setPath(next, dotted, value)
+        rewritten++
+      }
+    }
     if (todo.length) {
       const knownName = todo.some(([dotted]) => dotted === 'Common.appName') ? null : have.get('Common.appName')
       const name = knownName && knownName !== BRAND ? knownName : null
-      let translated = await translate(ai, prompt(locale, todo, name))
+      const showTitle = todo.some(([dotted]) => dotted === 'Home.heroTitle') ? null : have.get('Home.heroTitle')
+      let translated = await translate(ai, prompt(locale, todo, name, showTitle))
       // A batch the model cannot return as valid JSON usually goes through in smaller pieces.
       if (!translated && todo.length > CHUNK) {
         const parts = []
         for (let start = 0; start < todo.length; start += CHUNK) {
-          parts.push(await translate(ai, prompt(locale, todo.slice(start, start + CHUNK), name)))
+          parts.push(await translate(ai, prompt(locale, todo.slice(start, start + CHUNK), name, showTitle)))
         }
         translated = parts.every(Boolean) ? Object.assign({}, ...parts) : null
       }
@@ -197,9 +236,12 @@ const main = async () => {
     const patched = patchText(text, english, current, ordered)
     const exact = patched !== null && JSON.stringify(JSON.parse(patched)) === JSON.stringify(ordered)
     writeFileSync(file, exact ? patched : `${JSON.stringify(ordered, null, 2)}\n`)
-    console.log(
-      `${locale}: ${todo.length ? `${todo.length} key(s) translated` : 'up to date'}${exact ? '' : ' (file rewritten)'}`
-    )
+    const done = formal
+      ? `${rewritten} key(s) made formal`
+      : todo.length
+        ? `${todo.length} key(s) translated`
+        : 'up to date'
+    console.log(`${locale}: ${done}${exact ? '' : ' (file rewritten)'}`)
   }
   if (failed.length) {
     console.error(`Not translated: ${failed.join(' ')} — run again with just these locales.`)

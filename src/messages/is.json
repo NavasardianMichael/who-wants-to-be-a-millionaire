@@ -68,7 +68,7 @@
     "settings": "Stillingar"
   },
   "Home": {
-    "eyebrow": "80 tungumál · spurningar skrifaðar af gervigreind · ókeypis",
+    "eyebrow": "Ókeypis netleikur á íslensku · spurningar skrifaðar af gervigreind",
     "heroTitle": "Hver vill verða milljónamæringur?",
     "modesTitle": "Þrjár leiðir til að spila",
     "lifelinesTitle": "Fjórar hjálparleiðir, hver einu sinni",
@@ -107,7 +107,11 @@
     "faq5Question": "Hvernig kemst ég á stigatöfluna?",
     "faq5Answer": "Skráðu þig inn með Google og spilaðu keppnisleik í Maraþoni eða Tímaþraut. Þjónninn okkar fer yfir hvert svar svo stigataflan helst sanngjörn.",
     "faq6Question": "Er þetta opinberi leikur sjónvarpsþáttarins?",
-    "faq6Answer": "Nei. Milljónakviss er sjálfstæður leikur gerður af aðdáendum, innblásinn af klassíska spurningaþáttaforminu."
+    "faq6Answer": "Nei. Milljónakviss er sjálfstæður leikur gerður af aðdáendum, innblásinn af klassíska spurningaþáttaforminu.",
+    "faqLanguageQuestion": "Get ég spilað „Hver vill verða milljónamæringur?“ á íslensku?",
+    "faqLanguageAnswer": "Já — þetta er íslenska útgáfan af leiknum. Hver spurning er skrifuð á íslensku fyrir íslenskumælendat í stað þess að vera þýdd, og allir leikhamir og hjálparsímar eru ókeypis. Leikurinn er einnig fáanlegur á 79 öðrum tungumálum.",
+    "languagesTitle": "Spilaðu á þínu tungumáli",
+    "languagesSubtitle": "Hvert tungumál hefur sínar eigin spurningar sem eru skrifaðar á málinu en ekki þýddar."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Óvænt villa stöðvaði þessa síðu. Þú getur reynt aftur."
   },
   "Seo": {
-    "keywords": "milljónakviss, spurningaleikur, spurningakeppni, kviss, hver vill verða milljónamæringur leikur, ókeypis spurningaleikur, spurningaleikur á netinu, almenn þekking",
-    "homeTitle": "Milljónakviss – Hver vill verða milljónamæringur? Spilaðu ókeypis á netinu",
-    "homeDescription": "Spilaðu spurningaleikinn ókeypis á 80 tungumálum. 15 spurningar að milljóninni, fjórar hjálparleiðir, öryggisþrep og auk þess endalaust Maraþon og Tímaþraut með alþjóðlegri stigatöflu.",
+    "keywords": "hver vill verða milljónamæringur leikur, hver vill verða milljónamæringur á íslensku, milljónamæringaleikur á netinu, milljónakviss, spurningaleikur, ókeypis spurningaleikur, almenn vitneskja",
+    "homeTitle": "Hver vill verða milljónamæringur? Ókeypis netleikur á íslensku | Milljónakviss",
+    "homeDescription": "Spilaðu „Hver vill verða milljónamæringur?“ ókeypis á netinu á íslensku: 15 spurningar að milljóninni, fjórir hjálparsímar og tvö öryggissvæði, með spurningum skrifuðum á íslensku en ekki þýddum. Engin skráning. Einnig á 79 öðrum tungumálum.",
     "playTitle": "Klassískur milljónaleikur – 15 spurningar að milljóninni",
     "playDescription": "Klifraðu upp peningastigann frá {first} upp í {top}: fimmtán spurningar, tvö öryggisþrep, fjórar hjálparleiðir. Ókeypis, engin skráning, á þínu tungumáli.",
     "marathonTitle": "Maraþonkviss – hve lengi endist þú?",

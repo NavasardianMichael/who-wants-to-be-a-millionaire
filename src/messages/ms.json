@@ -68,7 +68,7 @@
     "settings": "Tetapan"
   },
   "Home": {
-    "eyebrow": "80 bahasa · soalan ditulis oleh kecerdasan buatan · percuma",
+    "eyebrow": "Permainan dalam talian percuma dalam bahasa Melayu · soalan ditulis oleh kecerdasan buatan",
     "heroTitle": "Siapa mahu jadi jutawan?",
     "modesTitle": "Tiga cara bermain",
     "lifelinesTitle": "Empat bantuan, sekali guna setiap satu",
@@ -107,7 +107,11 @@
     "faq5Question": "Bagaimana saya boleh masuk papan pendahulu?",
     "faq5Answer": "Log masuk dengan Google dan main larian Maraton atau Lawan Masa berperingkat. Setiap jawapan disemak oleh pelayan kami, jadi papan pendahulu kekal adil.",
     "faq6Question": "Adakah ini permainan rasmi rancangan TV itu?",
-    "faq6Answer": "Tidak. Kuiz Jutawan ialah permainan bebas buatan peminat yang diilhamkan daripada format rancangan kuiz klasik."
+    "faq6Answer": "Tidak. Kuiz Jutawan ialah permainan bebas buatan peminat yang diilhamkan daripada format rancangan kuiz klasik.",
+    "faqLanguageQuestion": "Bolehkah saya bermain “Siapa mahu jadi jutawan?” dalam bahasa Melayu?",
+    "faqLanguageAnswer": "Ya — ini ialah versi permainan dalam bahasa Melayu. Setiap soalan ditulis dalam bahasa Melayu untuk penutur bahasa Melayu dan bukannya diterjemah, dan setiap mod serta talian hayat adalah percuma. Permainan ini juga tersedia dalam 79 bahasa lain.",
+    "languagesTitle": "Bermain dalam bahasa anda",
+    "languagesSubtitle": "Setiap bahasa mempunyai soalannya sendiri, ditulis secara natif — bukan diterjemah."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Ralat yang tidak dijangka menghentikan halaman ini. Anda boleh cuba lagi."
   },
   "Seo": {
-    "keywords": "millionaire quiz, permainan kuiz, trivia, permainan siapa mahu jadi jutawan, kuiz percuma, kuiz dalam talian, pengetahuan am",
-    "homeTitle": "Kuiz Jutawan — Siapa mahu jadi jutawan? Main percuma dalam talian",
-    "homeDescription": "Main permainan kuiz TV secara percuma dalam 80 bahasa. 15 soalan ke sejuta, empat bantuan, tahap selamat, serta mod Maraton tanpa henti dan Lawan Masa dengan papan pendahulu global.",
+    "keywords": "permainan siapa mahu jadi jutawan, siapa mahu jadi jutawan dalam bahasa Melayu, permainan jutawan online, kuiz jutawan, permainan kuiz, kuiz percuma, trivia",
+    "homeTitle": "Siapa mahu jadi jutawan? Permainan dalam talian percuma dalam bahasa Melayu | Kuiz Jutawan",
+    "homeDescription": "Main “Siapa mahu jadi jutawan?” percuma dalam talian dalam bahasa Melayu: 15 soalan ke peringkat sejuta, empat talian hayat dan dua tempat perlindungan selamat, dengan soalan ditulis dalam bahasa Melayu, bukan diterjemah. Tiada pendaftaran. Turut tersedia dalam 79 bahasa lain.",
     "playTitle": "Kuiz Jutawan Klasik — 15 soalan ke sejuta",
     "playDescription": "Daki tangga wang daripada {first} hingga {top}: lima belas soalan, dua tahap selamat, empat bantuan. Percuma, tanpa pendaftaran, dalam bahasa anda.",
     "marathonTitle": "Kuiz Maraton — berapa lama anda mampu bertahan?",

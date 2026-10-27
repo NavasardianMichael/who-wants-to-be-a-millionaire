@@ -68,7 +68,7 @@
     "settings": "Setări"
   },
   "Home": {
-    "eyebrow": "80 de limbi · întrebări scrise de inteligența artificială · gratuit",
+    "eyebrow": "Joc online gratuit în română · întrebări scrise de inteligența artificială",
     "heroTitle": "Vrei să fii milionar?",
     "modesTitle": "Trei moduri de joc",
     "lifelinesTitle": "Patru ajutoare, câte o singură dată",
@@ -107,7 +107,11 @@
     "faq5Question": "Cum ajung în clasament?",
     "faq5Answer": "Conectează-te cu Google și joacă o rundă competitivă de Maraton sau Contracronometru. Fiecare răspuns este verificat de serverul nostru, așa că clasamentul rămâne corect.",
     "faq6Question": "Este acesta jocul oficial al emisiunii TV?",
-    "faq6Answer": "Nu. Testul Milionarului este un joc independent, creat de fani, inspirat de formatul clasic de concurs."
+    "faq6Answer": "Nu. Testul Milionarului este un joc independent, creat de fani, inspirat de formatul clasic de concurs.",
+    "faqLanguageQuestion": "Pot juca „Vrei să fii milionar?” în română?",
+    "faqLanguageAnswer": "Da — aceasta este versiunea în limba română a jocului. Fiecare întrebare este scrisă în română pentru vorbitorii de limba română, nu este tradusă, iar fiecare mod și ajutor este gratuit. Jocul este disponibil și în alte 79 de limbi.",
+    "languagesTitle": "Joacă în limba ta",
+    "languagesSubtitle": "Fiecare limbă are propriile întrebări, scrise nativ — nu traduse."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "O eroare neașteptată a oprit această pagină. Poți încerca din nou."
   },
   "Seo": {
-    "keywords": "testul milionarului, joc quiz, trivia, vrei să fii milionar joc, quiz gratuit, quiz online, cultură generală",
-    "homeTitle": "Testul Milionarului — Vrei să fii milionar? Joacă gratuit online",
-    "homeDescription": "Joacă gratis concursul de cultură generală în 80 de limbi. 15 întrebări până la milion, patru ajutoare, sume garantate, plus Maratonul fără sfârșit și modul Contracronometru, cu clasament global.",
+    "keywords": "joc vrei sa fii milionar, vrei sa fii milionar in romana, joc milionar online, testul milionarului, joc de cultura generala, quiz gratuit, trivia",
+    "homeTitle": "Vrei să fii milionar? Joc online gratuit în română | Testul Milionarului",
+    "homeDescription": "Joacă „Vrei să fii milionar?” online gratuit în română: 15 întrebări până la milion, patru ajutoare și două praguri de siguranță, cu întrebări scrise în română, nu traduse. Fără înregistrare. Disponibil și în alte 79 de limbi.",
     "playTitle": "Testul Milionarului, modul Clasic — 15 întrebări până la milion",
     "playDescription": "Urcă pe scara câștigurilor de la {first} la {top}: cincisprezece întrebări, două sume garantate, patru ajutoare. Gratuit, fără cont, în limba ta.",
     "marathonTitle": "Quiz Maraton — cât reziști?",

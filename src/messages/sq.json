@@ -68,7 +68,7 @@
     "settings": "Cilësimet"
   },
   "Home": {
-    "eyebrow": "80 gjuhë · pyetje të shkruara nga inteligjenca artificiale · falas",
+    "eyebrow": "Lojë falas online në gjuhën shqipe · pyetje të shkruara nga inteligjenca artificiale",
     "heroTitle": "Kush do të bëhet milioner?",
     "modesTitle": "Tri mënyra për të luajtur",
     "lifelinesTitle": "Katër ndihma, secila një herë",
@@ -107,7 +107,11 @@
     "faq5Question": "Si futem në renditje?",
     "faq5Answer": "Hyr me Google dhe luaj një lojë me renditje në Maratonë ose në Garë me kohën. Çdo përgjigje kontrollohet nga serveri ynë, ndaj renditja mbetet e ndershme.",
     "faq6Question": "A është kjo loja zyrtare e emisionit televiziv?",
-    "faq6Answer": "Jo. Kuizi i Milionerit është një lojë e pavarur e krijuar nga fansat, e frymëzuar nga formati klasik i kuizit televiziv."
+    "faq6Answer": "Jo. Kuizi i Milionerit është një lojë e pavarur e krijuar nga fansat, e frymëzuar nga formati klasik i kuizit televiziv.",
+    "faqLanguageQuestion": "A mund të luaj “Kush do të bëhet milioner?” në gjuhën shqipe?",
+    "faqLanguageAnswer": "Po — ky është versioni në gjuhën shqipe i lojës. Çdo pyetje është shkruar në shqip për folësit e shqipes dhe jo e përkthyer, dhe çdo modalitet dhe ndihmë është falas. Loja është e disponueshme edhe në 79 gjuhë të tjera.",
+    "languagesTitle": "Luani në gjuhën tuaj",
+    "languagesSubtitle": "Secila gjuhë ka pyetjet e veta, të shkruara në gjuhën amtare — jo të përkthyera."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Një gabim i papritur e ndaloi këtë faqe. Mund të provosh përsëri."
   },
   "Seo": {
-    "keywords": "kuizi i milionerit, lojë kuizi, kuiz, kush do të bëhet milioner lojë, kuiz falas, kuiz online, kulturë e përgjithshme",
-    "homeTitle": "Kuizi i Milionerit — Kush do të bëhet milioner? Luaj falas online",
-    "homeDescription": "Luaj falas lojën e kuizit televiziv në 80 gjuhë. 15 pyetje deri te milioni, katër ndihma, shuma të garantuara, si dhe mënyrat pa fund Maratonë dhe Garë me kohën me renditje botërore.",
+    "keywords": "loja kush do te behet milioner, kush do te behet milioner ne shqip, loja e milionerit online, kuizi i milionerit, loje kuiz, kuiz falas, trivia",
+    "homeTitle": "Kush do të bëhet milioner? Lojë falas online në gjuhën shqipe | Kuizi i Milionerit",
+    "homeDescription": "Luani “Kush do të bëhet milioner?” falas online në gjuhën shqipe: 15 pyetje deri te milioni, katër ndihma dhe dy pragje sigurie, me pyetje të shkruara në shqip, jo të përkthyera. Pa regjistrim. Gjithashtu në 79 gjuhë të tjera.",
     "playTitle": "Kuizi klasik i milionerit — 15 pyetje deri te milioni",
     "playDescription": "Ngjitu në shkallën e fitimeve nga {first} deri në {top}: pesëmbëdhjetë pyetje, dy shuma të garantuara, katër ndihma. Falas, pa regjistrim, në gjuhën tënde.",
     "marathonTitle": "Kuiz Maratonë — sa gjatë mund të rezistosh?",

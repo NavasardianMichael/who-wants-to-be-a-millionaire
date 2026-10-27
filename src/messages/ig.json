@@ -68,7 +68,7 @@
     "settings": "Ntọala"
   },
   "Home": {
-    "eyebrow": "Asụsụ 80 · ajụjụ ọgụgụ isi arụrụ arụ dere · n'efu",
+    "eyebrow": "Egwuregwu n'efu n'ịntanetị n'asụsụ Igbo · ajụjụ ndị amamihe arụrụ n'aka sọọftụ dere",
     "heroTitle": "Onye chọrọ ịbụ onye nwere nde ego?",
     "modesTitle": "Ụzọ atọ e si egwu",
     "lifelinesTitle": "Enyemaka anọ, otu ugboro nke ọ bụla",
@@ -107,7 +107,11 @@
     "faq5Question": "Kedu ka m ga-esi banye na ndepụta ọkwa?",
     "faq5Answer": "Banye site na Google ma gwuo egwuregwu ọkwa Ntachi Obi ma ọ bụ Ọsọ Oge. Sava anyị na-enyocha azịza ọ bụla, ka ndepụta ọkwa nọgide bụrụ nke ziri ezi.",
     "faq6Question": "Nke a ọ bụ egwuregwu mmemme televishọn ahụ n'onwe ya?",
-    "faq6Answer": "Mba. Asọmpi Nde bụ egwuregwu nọọrọ onwe ya nke ndị hụrụ ya n'anya mere, nke usoro mmemme asọmpi ajụjụ ọdịnala kpaliri."
+    "faq6Answer": "Mba. Asọmpi Nde bụ egwuregwu nọọrọ onwe ya nke ndị hụrụ ya n'anya mere, nke usoro mmemme asọmpi ajụjụ ọdịnala kpaliri.",
+    "faqLanguageQuestion": "Enwere m ike ịkpọ „Onye chọrọ ịbụ onye nwere nde ego?“ n'asụsụ Igbo?",
+    "faqLanguageAnswer": "Ee — a bụ ụdị egwuregwu nke asụsụ Igbo. A na-ede ajụjụ ọ bụla n'asụsụ Igbo maka ndị na-asụ asụsụ Igbo kama ịtụgharị ya, ma ọnọdụ ọ bụla na enyemaka ọ bụla bụ n'efu. E nwekwara egwuregwu a n'asụsụ 79 ndị ọzọ.",
+    "languagesTitle": "Kpọọ n'asụsụ gị",
+    "languagesSubtitle": "Asụsụ ọ bụla nwere ajụjụ nke ya, e dere ha n'ala n'ala — ọ bụghị nsụgharị."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Njehie a na-atụghị anya kwụsịrị ibe a. Ị nwere ike ịnwa ọzọ."
   },
   "Seo": {
-    "keywords": "asọmpi nde, egwuregwu ajụjụ, ajụjụ na azịza, onye chọrọ ịbụ onye nwere nde, egwuregwu ajụjụ n'efu, asọmpi ajụjụ n'ịntanetị, ihe ọmụma izugbe",
-    "homeTitle": "Asọmpi Nde — Onye chọrọ ịbụ onye nwere nde ego? Gwuo n'efu n'ịntanetị",
-    "homeDescription": "Gwuo egwuregwu asọmpi ajụjụ n'efu n'asụsụ 80. Ajụjụ 15 ruo nde, enyemaka anọ, ebe nchekwa, tinyere Ntachi Obi na-enweghị njedebe na Ọsọ Oge nwere ndepụta ọkwa ụwa niile.",
+    "keywords": "egwuregwu onye chọrọ ịbụ onye nwere nde ego, onye chọrọ ịbụ onye nwere nde ego n'asụsụ Igbo, egwuregwu nde ego n'ịntanetị, asọmpi nde ego, egwuregwu ajụjụ, ajụjụ n'efu, trivia",
+    "homeTitle": "Onye chọrọ ịbụ onye nwere nde ego? Egwuregwu n'efu n'ịntanetị n'asụsụ Igbo | Asọmpi Nde",
+    "homeDescription": "Kpọọ „Onye chọrọ ịbụ onye nwere nde ego?“ n'efu n'ịntanetị n'asụsụ Igbo: ajụjụ 15 ruo na nde, enyemaka anọ na ebe mgbaba abụọ, ya na ajụjụ e dere n'asụsụ Igbo, ọ bụghị nsụgharị. Enweghị ndebanye aha. Ọ nọ kwa n'asụsụ 79 ndị ọzọ.",
     "playTitle": "Ọdịnala — ajụjụ 15 ruo nde",
     "playDescription": "Rịgoo ubube ego site na {first} ruo {top}: ajụjụ iri na ise, ebe nchekwa abụọ, enyemaka anọ. N'efu, enweghị ndebanye aha, n'asụsụ gị.",
     "marathonTitle": "Ntachi Obi — ruo ole ka ị ga-anọgide?",

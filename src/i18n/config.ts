@@ -28,7 +28,6 @@ export const LOCALES = [
   'sw',
   'mr',
   'te',
-  'tr',
   'ta',
   'vi',
   'ko',
@@ -57,7 +56,6 @@ export const LOCALES = [
   'bg',
   'sr',
   'hr',
-  'az',
   'kk',
   'uz',
   'hy',
@@ -92,6 +90,8 @@ export const LOCALES = [
   'eu',
   'cy',
   'is',
+  'om',
+  'su',
 ] as const
 
 export type Locale = (typeof LOCALES)[number]
@@ -102,6 +102,12 @@ export const DEFAULT_LOCALE: Locale = 'en'
 export const LOCALE_COOKIE = 'NEXT_LOCALE'
 
 export const isLocale = (value: unknown): value is Locale => LOCALES.includes(value as Locale)
+
+/**
+ * Locales the app once served. Their URLs are still indexed and bookmarked, so `src/proxy.ts`
+ * strips the prefix and negotiates a live locale instead of answering 404.
+ */
+export const RETIRED_LOCALES: readonly string[] = ['tr', 'az']
 
 /** Right-to-left scripts. Drives `<html dir>`. */
 const RTL_LOCALES = new Set<Locale>(['ar', 'ur', 'fa', 'he', 'ps'])
@@ -132,7 +138,6 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   sw: 'Kiswahili',
   mr: 'मराठी',
   te: 'తెలుగు',
-  tr: 'Türkçe',
   ta: 'தமிழ்',
   vi: 'Tiếng Việt',
   ko: '한국어',
@@ -161,7 +166,6 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   bg: 'Български',
   sr: 'Српски',
   hr: 'Hrvatski',
-  az: 'Azərbaycan dili',
   kk: 'Қазақ тілі',
   uz: 'Oʻzbekcha',
   hy: 'Հայերեն',
@@ -196,6 +200,8 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   eu: 'Euskara',
   cy: 'Cymraeg',
   is: 'Íslenska',
+  om: 'Afaan Oromoo',
+  su: 'Basa Sunda',
 }
 
 /** OpenGraph wants `ll_CC`; a best-effort region per language. */
@@ -216,7 +222,6 @@ export const OG_LOCALES: Record<Locale, string> = {
   sw: 'sw_KE',
   mr: 'mr_IN',
   te: 'te_IN',
-  tr: 'tr_TR',
   ta: 'ta_IN',
   vi: 'vi_VN',
   ko: 'ko_KR',
@@ -245,7 +250,6 @@ export const OG_LOCALES: Record<Locale, string> = {
   bg: 'bg_BG',
   sr: 'sr_RS',
   hr: 'hr_HR',
-  az: 'az_AZ',
   kk: 'kk_KZ',
   uz: 'uz_UZ',
   hy: 'hy_AM',
@@ -280,4 +284,6 @@ export const OG_LOCALES: Record<Locale, string> = {
   eu: 'eu_ES',
   cy: 'cy_GB',
   is: 'is_IS',
+  om: 'om_ET',
+  su: 'su_ID',
 }

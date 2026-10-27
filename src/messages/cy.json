@@ -68,7 +68,7 @@
     "settings": "Gosodiadau"
   },
   "Home": {
-    "eyebrow": "80 iaith · cwestiynau wedi'u hysgrifennu gan ddeallusrwydd artiffisial · am ddim",
+    "eyebrow": "Gêm ar-lein am ddim yn Gymraeg · cwestiynau wedi'u hysgrifennu gan ddeallusrwydd artiffisial",
     "heroTitle": "Pwy sydd eisiau bod yn filiwnydd?",
     "modesTitle": "Tair ffordd o chwarae",
     "lifelinesTitle": "Pedwar cymorth, unwaith yr un",
@@ -107,7 +107,11 @@
     "faq5Question": "Sut ydw i'n cyrraedd tabl y goreuon?",
     "faq5Answer": "Mewngofnoda gyda Google, yna chwaraea rownd gystadleuol yn y modd Marathon neu Ras y Cloc. Mae ein gweinydd yn gwirio pob ateb, felly mae tabl y goreuon yn aros yn deg.",
     "faq6Question": "Ai dyma gêm swyddogol y rhaglen deledu?",
-    "faq6Answer": "Na. Mae Cwis Miliwnydd yn gêm annibynnol wedi'i chreu gan ffans, wedi'i hysbrydoli gan fformat clasurol y sioe gwis."
+    "faq6Answer": "Na. Mae Cwis Miliwnydd yn gêm annibynnol wedi'i chreu gan ffans, wedi'i hysbrydoli gan fformat clasurol y sioe gwis.",
+    "faqLanguageQuestion": "A allaf chwarae „Pwy sydd eisiau bod yn filiwnydd?“ yn Gymraeg?",
+    "faqLanguageAnswer": "Gallwch — dyma fersiwn Gymraeg y gêm. Mae pob cwestiwn wedi'i ysgrifennu yn Gymraeg ar gyfer siaradwyr Cymraeg yn hytrach na'i gyfieithu, ac mae pob modd a llinell bellach am ddim. Mae'r gêm hefyd ar gael mewn 79 o ieithoedd eraill.",
+    "languagesTitle": "Chwaraewch yn eich iaith",
+    "languagesSubtitle": "Mae gan bob iaith ei chwestiynau ei hun, wedi'u hysgrifennu'n frodorol — nid wedi'u cyfieithu."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Mae gwall annisgwyl wedi atal y dudalen hon. Gelli di roi cynnig arall arni."
   },
   "Seo": {
-    "keywords": "cwis miliwnydd, gêm gwis, cwis, gwybodaeth gyffredinol, cwis am ddim, cwis ar-lein, cwestiynau cwis, pwy sydd eisiau bod yn filiwnydd",
-    "homeTitle": "Cwis Miliwnydd – Pwy sydd eisiau bod yn filiwnydd? Chwarae am ddim ar-lein",
-    "homeDescription": "Chwarae'r gêm sioe gwis am ddim mewn 80 iaith. 15 cwestiwn i'r miliwn, pedwar cymorth, hafanau diogel, a hefyd y moddau diddiwedd Marathon a Ras y Cloc gyda thabl y goreuon byd-eang.",
+    "keywords": "gêm pwy sydd eisiau bod yn filiwnydd, pwy sydd eisiau bod yn filiwnydd yn gymraeg, gêm miliwnydd ar-lein, cwis miliwnydd, gêm cwis, cwis am ddim, trivia",
+    "homeTitle": "Pwy sydd eisiau bod yn filiwnydd? Gêm ar-lein am ddim yn Gymraeg | Cwis Miliwnydd",
+    "homeDescription": "Chwaraewch „Pwy sydd eisiau bod yn filiwnydd?“ am ddim ar-lein yn Gymraeg: 15 cwestiwn i'r filiwn, pedwar o gymorthau a dau safle diogel, gyda chwestiwn wedi'u hysgrifennu yn Gymraeg, heb eu cyfieithu. Dim angen cofrestru. Hefyd ar gael mewn 79 iaith arall.",
     "playTitle": "Cwis Miliwnydd Clasurol – 15 cwestiwn i'r miliwn",
     "playDescription": "Dringa'r ysgol arian o {first} i {top}: pymtheg cwestiwn, dwy hafan ddiogel, pedwar cymorth. Am ddim, heb gofrestru, yn dy iaith di.",
     "marathonTitle": "Cwis Marathon – am faint alli di bara?",

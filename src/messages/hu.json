@@ -68,7 +68,7 @@
     "settings": "Beállítások"
   },
   "Home": {
-    "eyebrow": "80 nyelv · a mesterséges intelligencia által írt kérdések · ingyenes",
+    "eyebrow": "Ingyenes online játék magyarul · a mesterséges intelligencia által írt kérdések",
     "heroTitle": "Ki akar milliomos lenni?",
     "modesTitle": "Háromféle játékmód",
     "lifelinesTitle": "Négy segítség, mindegyik egyszer",
@@ -107,7 +107,11 @@
     "faq5Question": "Hogyan kerülhetek fel a ranglistára?",
     "faq5Answer": "Jelentkezz be Google-fiókkal, és játssz egy rangsorolt Maraton- vagy Időfutam-játékot. Minden választ a szerverünk ellenőriz, így a ranglista tisztességes marad.",
     "faq6Question": "Ez a tévéműsor hivatalos játéka?",
-    "faq6Answer": "Nem. A Milliomos kvíz egy független, rajongók által készített játék, amelyet a klasszikus kvízműsor formátuma ihletett."
+    "faq6Answer": "Nem. A Milliomos kvíz egy független, rajongók által készített játék, amelyet a klasszikus kvízműsor formátuma ihletett.",
+    "faqLanguageQuestion": "Játszhatom a „Ki akar milliomos lenni?” című játékot magyarul?",
+    "faqLanguageAnswer": "Igen — ez a játék magyar változata. Minden kérdés magyarul íródott magyar ajkú játékosok számára, nem pedig fordítás, és minden játékmód és segítség ingyenes. A játék további 79 nyelven is elérhető.",
+    "languagesTitle": "Játsszon a saját nyelvén",
+    "languagesSubtitle": "Minden nyelvnek megvannak a saját, anyanyelven íródott – nem fordított – kérdései."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Váratlan hiba állította le ezt az oldalt. Megpróbálhatod újra."
   },
   "Seo": {
-    "keywords": "milliomos kvíz, millionaire quiz, kvízjáték, kvíz, legyen ön is milliomos játék, ki akar milliomos lenni, ingyenes kvíz, online kvíz, általános műveltség",
-    "homeTitle": "Milliomos kvíz – Ki akar milliomos lenni? Játssz ingyen online",
-    "homeDescription": "Játszd a kvízműsor-játékot ingyen, 80 nyelven. 15 kérdés a millióig, négy segítség, biztos nyeremények, valamint végtelen Maraton és Időfutam mód világranglistával.",
+    "keywords": "ki akar milliomos lenni játék, ki akar milliomos lenni magyarul, milliomos játék online, milliomos kvíz, kvízjáték, ingyenes kvíz, trivia",
+    "homeTitle": "Ki akar milliomos lenni? Ingyenes online játék magyarul | Milliomos kvíz",
+    "homeDescription": "Játsszon a „Ki akar milliomos lenni?” játékkal ingyen online magyarul: 15 kérdés a millióért, négy segítség és két mentőpont, magyarul írt, nem fordított kérdésekkel. Nincs szükség regisztrációra. További 79 nyelven is elérhető.",
     "playTitle": "Klasszikus milliomos kvíz – 15 kérdés a millióig",
     "playDescription": "Mássz fel a nyereménylétrán – kezdés: {first}, fődíj: {top}. Tizenöt kérdés, két biztos nyeremény, négy segítség. Ingyenes, regisztráció nélkül, a te nyelveden.",
     "marathonTitle": "Maraton kvíz – meddig bírod?",

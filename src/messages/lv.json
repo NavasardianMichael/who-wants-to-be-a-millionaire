@@ -68,7 +68,7 @@
     "settings": "Iestatījumi"
   },
   "Home": {
-    "eyebrow": "80 valodas · jautājumus raksta mākslīgais intelekts · bez maksas",
+    "eyebrow": "Bezmaksas tiešsaistes spēle latviešu valodā · jautājumus radījis mākslīgais intelekts",
     "heroTitle": "Kurš vēlas kļūt par miljonāru?",
     "modesTitle": "Trīs spēles veidi",
     "lifelinesTitle": "Četri glābšanas riņķi – katru var izmantot vienreiz",
@@ -107,7 +107,11 @@
     "faq5Question": "Kā nokļūt līderu tabulā?",
     "faq5Answer": "Piesakies ar Google un spēlē reitinga Maratonu vai Cīņu ar laiku. Katru atbildi pārbauda mūsu serveris, tāpēc līderu tabula paliek godīga.",
     "faq6Question": "Vai šī ir televīzijas raidījuma oficiālā spēle?",
-    "faq6Answer": "Nē. Miljonāra viktorīna ir neatkarīga, fanu veidota spēle, ko iedvesmojis klasiskais televīzijas viktorīnas formāts."
+    "faq6Answer": "Nē. Miljonāra viktorīna ir neatkarīga, fanu veidota spēle, ko iedvesmojis klasiskais televīzijas viktorīnas formāts.",
+    "faqLanguageQuestion": "Vai varu spēlēt raidījumu „Kurš vēlas kļūt par miljonāru?“ latviešu valodā?",
+    "faqLanguageAnswer": "Jā — šī ir spēles versija latviešu valodā. Katrs jautājums ir radīts latviešu valodā latviešu valodas pratējiem, nevis tulkots, un visi režīmi un palīglīdzekļi ir bezmaksas. Spēle ir pieejama arī 79 citās valodās.",
+    "languagesTitle": "Spēlējiet savā valodā",
+    "languagesSubtitle": "Katrai valodai ir savi jautājumi, kas radīti dzimtajā valodā, nevis tulkoti."
   },
   "Modes": {
     "classic": {
@@ -568,9 +572,9 @@
     "pageErrorBody": "Negaidīta kļūda apturēja šo lapu. Vari mēģināt vēlreiz."
   },
   "Seo": {
-    "keywords": "miljonāra viktorīna, viktorīnas spēle, viktorīna, prāta spēle, kurš vēlas kļūt par miljonāru spēle, bezmaksas viktorīna, viktorīna tiešsaistē, vispārējās zināšanas",
-    "homeTitle": "Miljonāra viktorīna – Kurš vēlas kļūt par miljonāru? Spēlē bez maksas tiešsaistē",
-    "homeDescription": "Spēlē televīzijas viktorīnas spēli bez maksas 80 valodās. 15 jautājumi līdz miljonam, četri glābšanas riņķi, drošie pakāpieni, kā arī bezgalīgais Maratons un Cīņa ar laiku ar pasaules līderu tabulu.",
+    "keywords": "kurš vēlas kļūt par miljonāru spēle, kurš vēlas kļūt par miljonāru latviešu valodā, miljonāra spēle tiešsaistē, miljonāra viktorīna, viktorīnas spēle, bezmaksas viktorīna, nieki",
+    "homeTitle": "Kurš vēlas kļūt par miljonāru? Bezmaksas tiešsaistes spēle latviešu valodā | Miljonāra viktorīna",
+    "homeDescription": "Spēlējiet „Kurš vēlas kļūt par miljonāru?“ bezmaksas tiešsaistē latviešu valodā: 15 jautājumi līdz miljonam, četri palīglīdzekļi un divi droši posmi, ar jautājumiem, kas radīti latviešu valodā, nevis tulkoti. Bez reģistrācijas. Pieejams arī 79 citās valodās.",
     "playTitle": "Klasiskā miljonāra viktorīna – 15 jautājumi līdz miljonam",
     "playDescription": "Kāp pa laimestu kāpnēm no {first} līdz {top}: piecpadsmit jautājumi, divi drošie pakāpieni, četri glābšanas riņķi. Bez maksas, bez reģistrācijas, tavā valodā.",
     "marathonTitle": "Maratona viktorīna – cik ilgi izturēsi?",
