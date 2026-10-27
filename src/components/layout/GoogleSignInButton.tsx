@@ -6,7 +6,6 @@ import type { Locale } from '@i18n/config'
 import { usePathname } from '@i18n/navigation'
 import { localePath } from '@i18n/pathname'
 import { trackEvent } from '@helpers/analytics'
-import { cn } from '@helpers/cn'
 import { buttonClassName } from '@components/ui/bare/buttonClassName'
 
 /**
@@ -34,11 +33,7 @@ export const GoogleSignInButton = ({ compact, className }: { compact?: boolean; 
     <a
       href={googleSignInUrl(localePath(locale, pathname))}
       onClick={() => trackEvent('sign_in_clicked')}
-      className={cn(
-        buttonClassName({ variant: 'outline', size: compact ? 'sm' : 'md' }),
-        'border-white/20 bg-ivory text-studio-950 hover:border-white hover:bg-white hover:text-studio-950',
-        className
-      )}
+      className={buttonClassName({ variant: 'ivory', size: compact ? 'sm' : 'md', className })}
     >
       <GoogleMark />
       {compact ? t('signIn') : t('signInWithGoogle')}

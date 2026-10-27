@@ -42,6 +42,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         variant === 'gold' && 'btn-hex btn-gold',
         variant === 'violet' && 'btn-hex btn-violet',
         variant === 'outline' && 'btn-hex btn-outline',
+        variant === 'ivory' && 'btn-hex btn-ivory',
         variant === 'danger' && 'btn-hex btn-danger',
         variant === 'ghost' && 'text-mist hover:text-ivory',
         className

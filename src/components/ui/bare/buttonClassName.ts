@@ -1,6 +1,6 @@
 import { cn } from '@helpers/cn'
 
-export type ButtonVariant = 'gold' | 'violet' | 'ghost' | 'outline' | 'danger'
+export type ButtonVariant = 'gold' | 'violet' | 'ghost' | 'outline' | 'ivory' | 'danger'
 export type ButtonSize = 'sm' | 'md' | 'lg'
 
 /**
@@ -29,6 +29,7 @@ export const buttonClassName = ({
     variant === 'gold' && 'btn-hex btn-gold',
     variant === 'violet' && 'btn-hex btn-violet',
     variant === 'outline' && 'btn-hex btn-outline',
+    variant === 'ivory' && 'btn-hex btn-ivory',
     variant === 'danger' && 'btn-hex btn-danger',
     variant === 'ghost' && 'border-transparent bg-transparent text-mist transition-colors hover:bg-white/5 hover:text-ivory',
     fullWidth && 'w-full',

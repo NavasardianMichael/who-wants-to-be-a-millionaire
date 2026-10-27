@@ -692,6 +692,21 @@
   }
 }
 
+/* Ivory face, studio text — Google sign-in, after the light theme of Google's guidelines. */
+@utility btn-ivory {
+  --rim-a: var(--color-spot-500);
+  --rim-b: var(--color-ivory);
+  --fill-a: var(--color-ivory);
+  --fill-b: var(--color-spot-100);
+  --fill-c: var(--color-spot-300);
+  --glow: #9f7bff40;
+  color: var(--color-studio-950);
+  &:hover:not(:disabled):not([aria-disabled='true']) {
+    --rim-a: var(--color-gold-600);
+    --rim-b: var(--color-gold-200);
+  }
+}
+
 @utility btn-danger {
   --rim-a: var(--color-wrong-700);
   --rim-b: var(--color-wrong-300);

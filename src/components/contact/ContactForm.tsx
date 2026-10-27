@@ -83,7 +83,7 @@ export const ContactForm = () => {
   }
 
   return (
-    <Form form={form} layout='vertical' requiredMark={false} onFinish={send} scrollToFirstError className='flex flex-col'>
+    <Form form={form} layout='vertical' requiredMark={false} onFinish={send} scrollToFirstError className='flex flex-col [&_.ant-form-item-label>label]:font-semibold'>
       {Boolean(error) && <ErrorAlert error={error} message={t('error')} className='mb-4' />}
 
       <div className='grid gap-x-4 sm:grid-cols-2'>
