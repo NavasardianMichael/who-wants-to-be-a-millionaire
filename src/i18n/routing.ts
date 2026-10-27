@@ -8,10 +8,15 @@ import { DEFAULT_LOCALE, LOCALES } from './config'
  * `localeDetection` is off on purpose; `src/proxy.ts` negotiates instead, because
  * next-intl's built-in matcher lets an exact match on a lower-preference tag beat a
  * best-fit match on a higher one (`pt-PT,en;q=0.9` → `en` rather than `pt-BR`).
+ *
+ * `alternateLinks` is off because hreflang already ships in each page's metadata and the
+ * sitemap; the `Link` header it would add lists all 80 locales (~7 KB), more than nginx's
+ * default proxy header buffer, which answers 502.
  */
 export const routing = defineRouting({
   locales: LOCALES,
   defaultLocale: DEFAULT_LOCALE,
   localePrefix: 'always',
   localeDetection: false,
+  alternateLinks: false,
 })
