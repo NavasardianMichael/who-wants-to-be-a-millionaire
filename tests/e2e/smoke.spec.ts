@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, type Page, test } from '@playwright/test'
 
 test.describe('server-rendered content', () => {
   test('the home page ships its content without JavaScript', async ({ browser }) => {
@@ -36,6 +36,13 @@ test.describe('locale negotiation', () => {
     await context.close()
   })
 })
+
+/** Below `lg` the nav is in the menu drawer, and a game page has no footer to reach it from. */
+const clickNavLink = async (page: Page, name: string) => {
+  const inline = page.getByRole('link', { name, exact: true }).filter({ visible: true })
+  if (!(await inline.count())) await page.getByRole('button', { name: 'Open menu' }).click()
+  await page.getByRole('link', { name, exact: true }).filter({ visible: true }).first().click()
+}
 
 test.describe('classic game', () => {
   test('a player can start, use a lifeline, answer and walk away or finish', async ({ page }) => {
@@ -83,7 +90,7 @@ test.describe('classic game', () => {
     await page.getByRole('button', { name: 'Start game' }).click()
     await expect(page.getByRole('button', { name: /^Option A:/ })).toBeVisible({ timeout: 30_000 })
 
-    await page.getByRole('link', { name: 'Leaderboard' }).first().click()
+    await clickNavLink(page, 'Leaderboard')
     await expect(page.getByText('Leave this game?')).toBeVisible()
     await page.getByRole('button', { name: 'Keep playing' }).click()
     await expect(page).toHaveURL(/\/en\/play$/)
@@ -92,5 +99,45 @@ test.describe('classic game', () => {
     await expect(page.getByText('Leave this game?')).toBeVisible()
     await page.getByRole('button', { name: 'Leave game' }).last().click()
     await expect(page).toHaveURL(/\/en$/, { timeout: 10_000 })
+  })
+
+  test('the next game asks too, and so does switching the language', async ({ page }) => {
+    await page.goto('/en')
+    await page.goto('/en/play')
+    await page.getByRole('button', { name: 'Start game' }).click()
+    await expect(page.getByRole('button', { name: /^Option A:/ })).toBeVisible({ timeout: 30_000 })
+
+    // End the first game: a wrong answer ends it, a right one lets the player walk away.
+    await page.getByRole('button', { name: /^Option [A-D]:/ }).first().click()
+    await page.getByRole('button', { name: 'Final answer' }).click()
+    const walkAway = page.getByRole('button', { name: 'Walk away', exact: true })
+    const playAgain = page.getByRole('button', { name: 'Play again' })
+    await expect(walkAway.or(playAgain)).toBeVisible({ timeout: 20_000 })
+    if (await walkAway.isVisible()) {
+      await walkAway.click()
+      await page.getByRole('button', { name: /^Walk away with/ }).click()
+    }
+    await playAgain.click()
+    await expect(page.getByRole('button', { name: /^Option A:/ })).toBeVisible({ timeout: 30_000 })
+
+    await clickNavLink(page, 'Leaderboard')
+    await expect(page.getByText('Leave this game?')).toBeVisible()
+    await page.getByRole('button', { name: 'Keep playing' }).click()
+    await expect(page).toHaveURL(/\/en\/play$/)
+    // Phones and tablets went through the menu drawer, which stays open over the header.
+    const menu = page.getByRole('dialog', { name: 'Menu' })
+    if (await menu.isVisible()) await menu.getByRole('button', { name: 'Close' }).click()
+
+    await page.getByRole('button', { name: 'Choose your language' }).first().click()
+    await page.getByRole('button', { name: /Español/ }).click()
+    await expect(page.getByText('Leave this game?')).toBeVisible()
+    await page.getByRole('button', { name: 'Keep playing' }).click()
+    await expect(page).toHaveURL(/\/en\/play$/)
+    await expect(page.getByRole('button', { name: /^Option A:/ })).toBeVisible()
+
+    await page.getByRole('button', { name: 'Choose your language' }).first().click()
+    await page.getByRole('button', { name: /Español/ }).click()
+    await page.getByRole('button', { name: 'Leave game' }).last().click()
+    await expect(page).toHaveURL(/\/es\/play$/, { timeout: 15_000 })
   })
 })

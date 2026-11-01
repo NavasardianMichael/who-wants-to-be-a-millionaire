@@ -16,3 +16,9 @@ export const useLeaveGuard = (reason: LeaveReason | null | false) => {
     return () => setGuard(id, null)
   }, [id, reason, setGuard])
 }
+
+/**
+ * For a navigation that is not a link (a router call behind a button or a menu): asks the
+ * question of the guard that is up, if any. True when there is nothing to ask or the player agreed.
+ */
+export const confirmLeave = (): Promise<boolean> => useLeaveGuardStoreBase.getState().ask()

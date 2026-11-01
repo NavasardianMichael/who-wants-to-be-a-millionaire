@@ -28,7 +28,8 @@
 - The game director is `src/store/game/session/store.ts`: every async step checks
   `alive(gen)` so quitting mid-sequence cannot mutate a newer game.
 - Anything lost by leaving the page (a game in progress, a form with unsaved input) calls
-  `useLeaveGuard(reason)`; `LeaveGuard` in the shell asks on links, back and tab close.
+  `useLeaveGuard(reason)`; `LeaveGuard` in the shell asks on links, back and tab close, and a
+  router call that leaves the page (the language switch) awaits `confirmLeave()` first.
 
 ## Design system (Ant Design 6 + Tailwind 4)
 - One chain, bookie's: `styles/tokens.ts` (hex owner) → `styles/theme.ts` (antd ThemeConfig,

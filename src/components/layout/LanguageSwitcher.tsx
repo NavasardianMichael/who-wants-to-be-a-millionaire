@@ -4,6 +4,7 @@ import { useMemo, useState, useTransition } from 'react'
 import { Button, Empty, Input, Tooltip } from 'antd'
 import { Check, Globe, Search } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
+import { confirmLeave } from '@hooks/useLeaveGuard'
 import { setLocale } from '@i18n/actions'
 import { isLocale, type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { usePathname, useRouter } from '@i18n/navigation'
@@ -32,9 +33,10 @@ export const LanguageSwitcher = ({ className, withLabel }: { className?: string;
     )
   }, [query])
 
-  const choose = (next: Locale) => {
+  const choose = async (next: Locale) => {
     setOpen(false)
-    if (next === locale) return
+    // Another language reloads the page, which would end a game in progress.
+    if (next === locale || !(await confirmLeave())) return
     startTransition(async () => {
       await setLocale(next)
       // Read at click time rather than via useSearchParams, which would need a Suspense boundary.
@@ -83,7 +85,7 @@ export const LanguageSwitcher = ({ className, withLabel }: { className?: string;
                 <button
                   type='button'
                   lang={each}
-                  onClick={() => choose(each)}
+                  onClick={() => void choose(each)}
                   aria-current={active ? 'true' : undefined}
                   className={cn(
                     'flex min-h-11 w-full items-center gap-2 rounded-control border px-3 text-start transition-colors',

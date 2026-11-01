@@ -1,17 +1,20 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import { leaveReason, useLeaveGuardStore } from '@store/navigation/guard/store'
+import { leaveReason, useLeaveGuardStore, useLeaveGuardStoreBase } from '@store/navigation/guard/store'
+import { confirmLeave } from '@hooks/useLeaveGuard'
 import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
-
-type Pending = { proceed: () => void }
 
 /** Our marker on the extra history entry that catches the back button. Next's own state is kept beside it. */
 const SENTINEL = '__leaveGuard'
 
+const onSentinel = (): boolean => Boolean(window.history.state?.[SENTINEL])
+
 const pushSentinel = () => window.history.pushState({ ...window.history.state, [SENTINEL]: true }, '', window.location.href)
+
+const isLeaving = () => useLeaveGuardStoreBase.getState().leaving
 
 /**
  * Enforces `useLeaveGuard` (regionify's unsaved-changes guard, rebuilt for the App Router,
@@ -20,22 +23,26 @@ const pushSentinel = () => window.history.pushState({ ...window.history.state, [
  * - **closing the tab, reloading, leaving the site** — `beforeunload`, so the browser shows
  *   its own dialog (browsers no longer allow custom text there);
  * - **an internal link** — a capture-phase click listener runs before Next's `Link` handler,
- *   holds the navigation and asks; "leave" replays the click with the guard bypassed;
+ *   holds the navigation and asks; "leave" replays the click;
  * - **the back button** — a sentinel history entry on top of the page: going back lands on
- *   the page itself, which is put back and the question asked; "leave" goes back past both.
+ *   the page itself, which is put back and the question asked; "leave" goes back past both;
+ * - **a router call** (the language switch) — its caller awaits `confirmLeave()` first.
+ *
+ * Once the player agrees, `leaving` lets the navigation through, so a full page load that
+ * follows does not ask a second time.
  */
 export const LeaveGuard = () => {
   const t = useTranslations()
   const guards = useLeaveGuardStore.use.guards()
+  const question = useLeaveGuardStore.use.question()
+  const answer = useLeaveGuardStore.use.answer()
   const reason = leaveReason(guards)
   const active = reason !== null
-  const [pending, setPending] = useState<Pending | null>(null)
-  // Set while a confirmed navigation is replayed, so the guard lets it through.
-  const bypass = useRef(false)
 
   useEffect(() => {
     if (!active) return
     const onBeforeUnload = (event: BeforeUnloadEvent) => {
+      if (isLeaving()) return
       event.preventDefault()
       // Older browsers still need `returnValue` to show the dialog.
       event.returnValue = ''
@@ -47,21 +54,19 @@ export const LeaveGuard = () => {
   useEffect(() => {
     if (!active) return
     const onClick = (event: MouseEvent) => {
-      if (bypass.current || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
-      const anchor = (event.target as Element | null)?.closest('a')
-      if (!anchor?.href || anchor.target === '_blank' || anchor.hasAttribute('download')) return
+      if (isLeaving() || event.defaultPrevented) return
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+      const anchor = (event.target as Element | null)?.closest?.('a[href]')
+      if (!(anchor instanceof HTMLAnchorElement) || anchor.hasAttribute('download')) return
+      if (anchor.target && anchor.target !== '_self') return
       const url = new URL(anchor.href, window.location.href)
       // Another origin unloads the page, where `beforeunload` asks; the same page (or a hash) loses nothing.
       if (url.origin !== window.location.origin) return
       if (url.pathname === window.location.pathname && url.search === window.location.search) return
       event.preventDefault()
       event.stopPropagation()
-      setPending({
-        proceed: () => {
-          bypass.current = true
-          anchor.click()
-          bypass.current = false
-        },
+      void confirmLeave().then((leave) => {
+        if (leave) anchor.click()
       })
     }
     document.addEventListener('click', onClick, true)
@@ -70,54 +75,45 @@ export const LeaveGuard = () => {
 
   useEffect(() => {
     if (!active) return
-    pushSentinel()
+    const href = window.location.href
+    // Not when this page is the first entry: Back then leaves the site, and `beforeunload` asks.
+    if (!onSentinel() && (typeof navigation === 'undefined' || navigation.canGoBack)) pushSentinel()
+
     const onPopState = () => {
-      if (bypass.current) {
-        bypass.current = false
-        return
-      }
+      if (isLeaving() || window.location.href !== href || onSentinel()) return
       pushSentinel()
-      setPending({
-        proceed: () => {
-          bypass.current = true
-          window.history.go(-2)
-        },
+      void confirmLeave().then((leave) => {
+        if (leave) window.history.go(-2)
       })
     }
     window.addEventListener('popstate', onPopState)
     return () => {
       window.removeEventListener('popstate', onPopState)
-      // Nothing to guard any more (the game ended, the form was sent): drop the sentinel so
-      // the back button needs one press again. After a navigation it is no longer on top.
-      if (window.history.state?.[SENTINEL] && !bypass.current) {
-        bypass.current = true
-        window.history.back()
-      }
+      // Nothing to guard any more while still on the page (the game ended, the form was sent):
+      // drop the sentinel so the back button needs one press again. Checked a tick later, once
+      // a navigation or a new guard has settled.
+      setTimeout(() => {
+        const guarded = leaveReason(useLeaveGuardStoreBase.getState().guards) !== null
+        if (!guarded && window.location.href === href && onSentinel()) window.history.back()
+      })
     }
   }, [active])
 
   const game = reason === 'game' || reason === 'rankedGame'
-  const close = () => setPending(null)
+  const stay = () => answer(false)
 
   return (
     <Dialog
-      open={pending !== null}
-      onClose={close}
+      open={question !== null}
+      onClose={stay}
       title={game ? t('Game.leaveTitle') : t('Common.unsavedTitle')}
       description={reason === 'rankedGame' ? t('Game.leaveRankedBody') : game ? t('Game.leaveBody') : t('Common.unsavedBody')}
       footer={
         <>
-          <Button variant='ghost' onClick={close}>
+          <Button variant='ghost' onClick={stay}>
             {game ? t('Game.keepPlaying') : t('Common.stay')}
           </Button>
-          <Button
-            variant='danger'
-            onClick={() => {
-              const proceed = pending?.proceed
-              close()
-              proceed?.()
-            }}
-          >
+          <Button variant='danger' onClick={() => answer(true)}>
             {game ? t('Game.leave') : t('Common.leave')}
           </Button>
         </>
