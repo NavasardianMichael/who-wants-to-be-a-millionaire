@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instal·la l’aplicació",
+    "shortName": "Milionari",
     "installTitle": "Instal·la el Concurs Milionari",
     "benefit": "Juga a pantalla completa i sense connexió, amb un sol toc des de la pantalla d’inici.",
     "iosTitle": "Instal·la-la a l’iPhone o a l’iPad",

@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Namesti aplikacijo",
+    "shortName": "Milijonar",
     "installTitle": "Namesti Milijonarski kviz",
     "benefit": "Igraj čez cel zaslon in brez povezave, z enim dotikom z začetnega zaslona.",
     "iosTitle": "Namestitev v iPhone ali iPad",

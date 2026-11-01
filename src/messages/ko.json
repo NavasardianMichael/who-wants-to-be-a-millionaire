@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "앱 설치",
+    "shortName": "백만장자",
     "installTitle": "백만장자 퀴즈 설치",
     "benefit": "홈 화면에서 한 번에 열고, 전체 화면과 오프라인으로 즐기세요.",
     "iosTitle": "iPhone 또는 iPad에 설치",

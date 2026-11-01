@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Setja upp appið",
+    "shortName": "Milljónakviss",
     "installTitle": "Setja upp Milljónakviss",
     "benefit": "Spilaðu á öllum skjánum og án nettengingar, með einni snertingu af heimaskjánum.",
     "iosTitle": "Setja upp á iPhone eða iPad",

@@ -7,6 +7,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { getAntdLocale } from '@i18n/antdLocale'
 import { getDirection, LOCALES } from '@i18n/config'
+import { currentLocale, socialCard } from '@i18n/metadata'
 import { routing } from '@i18n/routing'
 import { GA_ENABLED, GA_INIT_SCRIPT, GA_SCRIPT_SRC } from '@constants/analytics'
 import { AUTHOR } from '@constants/app'
@@ -33,18 +34,21 @@ export const viewport: Viewport = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Seo')
-  // The brand is translated too; the English name stays in the manifest and as JSON-LD `alternateName`.
+  // The brand is translated too, the installed app's name included; the English name stays as JSON-LD `alternateName`.
   const appName = (await getTranslations('Common'))('appName')
+  const locale = await currentLocale()
+  const { image } = await socialCard()
   return {
     metadataBase: new URL(getSiteUrl()),
     title: { default: t('homeTitle'), template: `%s | ${appName}` },
     description: t('homeDescription'),
     keywords: t('keywords'),
     applicationName: appName,
-    manifest: '/manifest.webmanifest',
+    manifest: `/${locale}/manifest.webmanifest`,
     appleWebApp: { capable: true, title: appName, statusBarStyle: 'black-translucent' },
     other: { 'apple-mobile-web-app-capable': 'yes' },
-    openGraph: { type: 'website', siteName: appName },
+    openGraph: { type: 'website', siteName: appName, images: [image] },
+    twitter: { card: 'summary_large_image', images: [image] },
     creator: AUTHOR.name,
     authors: [{ name: AUTHOR.name, url: AUTHOR.url }],
     category: 'game',

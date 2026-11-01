@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalatu aplikazioa",
+    "shortName": "Milioiduna",
     "installTitle": "Instalatu Milioidunaren Lehiaketa",
     "benefit": "Jokatu pantaila osoan eta konexiorik gabe, hasierako pantailatik ukitu bakar batekin.",
     "iosTitle": "Instalatu iPhonean edo iPadean",

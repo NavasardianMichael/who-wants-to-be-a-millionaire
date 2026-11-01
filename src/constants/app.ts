@@ -1,6 +1,6 @@
 /**
- * The English brand: the web manifest (one per site) and JSON-LD `alternateName`. Everything a
- * visitor reads uses the translated `Common.appName`.
+ * The English brand: JSON-LD `alternateName` and llms.txt. Everything a visitor reads — the
+ * per-locale web manifest included — uses the translated `Common.appName`.
  */
 export const APP_NAME = 'Millionaire Quiz'
 

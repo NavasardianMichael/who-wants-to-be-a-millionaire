@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Paigalda rakendus",
+    "shortName": "Miljonär",
     "installTitle": "Paigalda Miljonäri mälumäng",
     "benefit": "Mängi täisekraanil ja võrguühenduseta – ühe puudutusega avakuvalt.",
     "iosTitle": "Paigaldamine iPhone'i või iPadi",

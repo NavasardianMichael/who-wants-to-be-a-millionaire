@@ -61,7 +61,7 @@ product; it says what to build, how, and which existing file to copy for each pi
 ```
 /                         Next app
   src/app/[lang]/         every page (the root layout lives here)
-  src/app/                locale-free: sitemap, robots, manifest, sw.js/route.ts, icon(s), not-found, global-error
+  src/app/                locale-free: sitemap, robots, sw.js/route.ts, icon(s), not-found, global-error
   src/api/<domain>/       endpoints.ts · types.ts · processors.ts · main.ts   (+ axiosInstance.ts, unwrap.ts)
   src/store/<domain>/<slice>/  store.ts · types.ts   (+ appendSelectors.ts)
   src/components/         App.tsx, ui/{bare,layout}, <feature>/, layout/, pwa/, seo/, brand/
@@ -224,7 +224,9 @@ Then:
 
 ## 10. PWA and offline
 
-- `app/manifest.ts` (`id: '/'`, `start_url: '/<default-locale>'`, maskable icon, shortcuts).
+- A manifest per locale, `app/[lang]/manifest.webmanifest/route.ts`, linked from the layout: shared
+  `id: '/'` (one install per site), translated name and shortcuts, `start_url: '/<locale>'`,
+  maskable icon, `narrow` + `wide` screenshots (Chrome's richer install dialog needs both).
 - Service worker from a route handler (`app/sw.js/route.ts` + `helpers/pwa.ts`): inlined offline
   page; precache list; network-first navigations cached by path with locale-home fallback;
   cache-first `/_next/static`; stale-while-revalidate assets and Google Fonts; never intercept
@@ -299,7 +301,7 @@ Then:
 |---|---|
 | ESLint, Prettier, tsconfig, husky, lint-staged | this repo (root) — Bookie's originals in `../bookie` |
 | i18n layer + proxy | `src/i18n/*`, `src/proxy.ts` (here; originals in Bookie) |
-| Root layout, metadata builder, sitemap, robots, manifest, icons | `src/app/[lang]/layout.tsx`, `src/i18n/metadata.ts`, `src/app/{sitemap,robots,manifest,icon,apple-icon}.ts(x)` |
+| Root layout, metadata builder, sitemap, robots, manifest, icons | `src/app/[lang]/layout.tsx`, `src/i18n/metadata.ts`, `src/app/{sitemap,robots,icon,apple-icon}.ts(x)`, `src/app/[lang]/manifest.webmanifest/route.ts` |
 | API domain template | `src/api/leaderboards/*` (simple), `src/api/profile/*` (upload) |
 | Store templates | `src/store/auth/*` (async + flags), `src/store/leaderboard/list/*` (latest-request-wins) |
 | Design tokens + UI kit | `src/styles/tokens.ts`, `src/styles/theme.ts`, `src/styles/globals.css`, `src/components/AntdProvider.tsx`, `src/components/ui/*` |

@@ -9,7 +9,6 @@ const OFFLINE_URL = '/__offline__'
 
 /** Always available offline: the app chrome and the English question bank. */
 export const PRECACHE_URLS = [
-  '/manifest.webmanifest',
   '/icon',
   '/apple-icon',
   '/packs/fallback-en.json',
@@ -86,9 +85,8 @@ const isStaticAsset = (url) =>
   url.pathname.startsWith('/_next/image') ||
   url.pathname.startsWith('/audio/') ||
   url.pathname.startsWith('/packs/') ||
-  url.pathname === '/manifest.webmanifest' ||
   url.pathname === '/icon' || url.pathname === '/apple-icon' ||
-  /\\.(mp3|woff2?|ttf|png|jpe?g|webp|avif|svg|ico|json)$/.test(url.pathname);
+  /\\.(mp3|woff2?|ttf|png|jpe?g|webp|avif|svg|ico|json|webmanifest)$/.test(url.pathname);
 
 const isPage = (url) => url.origin === self.location.origin && !url.pathname.startsWith('/_next/') && !isStaticAsset(url);
 

@@ -22,6 +22,7 @@ pnpm check:messages           # all 79 catalogues match en.json (keys, placehold
 pnpm i18n:sync [locales]      # Gemini-fills keys added to en.json since the last translation
 pnpm i18n:formats             # regenerate src/i18n/numberFormats.ts (money/number patterns) from Node's ICU
 pnpm export:fallback          # copy the English bank to public/packs/fallback-en.json
+pnpm pwa:screenshots [url]    # recapture the install-dialog screenshots (production gives the cleanest shots)
 pnpm build:api                # server/dist + the deployable out/api release
 pnpm env:base64 production | clip   # server/.env.production.local -> the ENV_API_BASE64 secret
 ```
@@ -53,8 +54,8 @@ sorts it.
 | Locales, routing, metadata, hreflang | `src/i18n/` · catalogues `src/messages/` · culture hints `server/src/lib/locales.ts` |
 | Design tokens | `src/styles/tokens.ts` (owner) → `theme.ts` (antd) → `globals.css` §1 mirror + §2 `--ant-*` aliases |
 | UI kit (antd wrappers) | `src/components/ui/` (`bare/` and `layout/` render on the server) · provider `src/components/AntdProvider.tsx` · antd locales `src/i18n/antdLocale.ts` |
-| SEO: sitemap, robots, llms.txt, JSON-LD, OG | `src/app/sitemap.ts`, `robots.ts`, `llms.txt/route.ts`, `src/linkedDataSchema/`, `src/app/*icon*` |
-| PWA: manifest, service worker, install | `src/app/manifest.ts`, `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/components/pwa/` |
+| SEO: sitemap, robots, llms.txt, JSON-LD, OG | `src/app/sitemap.ts`, `robots.ts`, `llms.txt/route.ts`, `src/linkedDataSchema/`, `src/app/*icon*`, `src/app/opengraph-image.tsx` (attached in `src/i18n/metadata.ts`) |
+| PWA: manifest (per locale), service worker, install | `src/app/[lang]/manifest.webmanifest/route.ts` + `public/screenshots/` (`pnpm pwa:screenshots`), `src/app/sw.js/route.ts` + `src/helpers/pwa.ts`, `src/components/pwa/` |
 | Offline packs (automatic, no UI) and the sync outbox | `src/helpers/offline/` (`ensurePack`) · `src/store/offline/packs/` |
 | Contact form (mail engine, nothing stored) | `src/app/[lang]/contact/`, `src/components/contact/` · `server/src/routes/contact.ts`, `lib/mail.ts` |
 | Leave-page guard (game, unsaved forms) | `src/hooks/useLeaveGuard.ts` · `src/components/LeaveGuard.tsx` |
@@ -88,7 +89,7 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`
   (`next/root-params`), and `requestLocale` must never be destructured in the parameter list —
   it is a getter that calls `headers()`, which silently turns every page dynamic. No
-  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2490 routes.
+  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2570 routes.
 - `useSearchParams` needs a `<Suspense>` boundary, or every static page falls back to
   client rendering — prefer reading `window.location` in an event handler.
 - **No mode needs an account.** Marathon and Time Attack are always ranked and refereed by

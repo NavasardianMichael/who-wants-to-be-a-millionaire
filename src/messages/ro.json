@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalează aplicația",
+    "shortName": "Milionarul",
     "installTitle": "Instalează Testul Milionarului",
     "benefit": "Joacă pe tot ecranul și offline, cu o singură atingere de pe ecranul de pornire.",
     "iosTitle": "Instalează pe iPhone sau iPad",

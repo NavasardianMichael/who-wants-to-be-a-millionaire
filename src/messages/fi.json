@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Asenna sovellus",
+    "shortName": "Miljonääri",
     "installTitle": "Asenna Miljonäärivisa",
     "benefit": "Pelaa koko näytöllä ja offline-tilassa yhdellä napautuksella aloitusnäytöltä.",
     "iosTitle": "Asenna iPhoneen tai iPadiin",

@@ -452,6 +452,7 @@
   },
   "Pwa": {
     "install": "Pasang aplikasi",
+    "shortName": "Jutawan",
     "installTitle": "Pasang Kuis Jutawan",
     "benefit": "Main layar kebak lan offline, cukup sepisan tutul saka layar utama.",
     "iosTitle": "Pasang ing iPhone utawa iPad",

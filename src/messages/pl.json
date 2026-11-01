@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Zainstaluj aplikację",
+    "shortName": "Milioner",
     "installTitle": "Zainstaluj Milionerski Quiz",
     "benefit": "Graj na pełnym ekranie i offline — jednym dotknięciem z ekranu głównego.",
     "iosTitle": "Instalacja na iPhonie lub iPadzie",

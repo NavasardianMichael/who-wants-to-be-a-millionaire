@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "安裝 App",
+    "shortName": "百萬富翁",
     "installTitle": "安裝百萬富翁問答",
     "benefit": "從主畫面一鍵開啟，全螢幕暢玩，離線也能玩。",
     "iosTitle": "在 iPhone 或 iPad 上安裝",

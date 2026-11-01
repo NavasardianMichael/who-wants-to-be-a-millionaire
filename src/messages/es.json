@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalar app",
+    "shortName": "Millonario",
     "installTitle": "Instalar Quiz Millonario",
     "benefit": "Juegue a pantalla completa y sin conexión, con un solo toque desde su pantalla de inicio.",
     "iosTitle": "Instalar en iPhone o iPad",

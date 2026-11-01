@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Alkalmazás telepítése",
+    "shortName": "Milliomos",
     "installTitle": "A Milliomos kvíz telepítése",
     "benefit": "Játssz teljes képernyőn és offline, egy koppintással a kezdőképernyőről.",
     "iosTitle": "Telepítés iPhone-ra vagy iPadre",

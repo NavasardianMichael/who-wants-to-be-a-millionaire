@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Installera appen",
+    "shortName": "Miljonär",
     "installTitle": "Installera Miljonärsquiz",
     "benefit": "Spela i helskärm och offline, med ett tryck från hemskärmen.",
     "iosTitle": "Installera på iPhone eller iPad",

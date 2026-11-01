@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Įdiegti programėlę",
+    "shortName": "Milijonierius",
     "installTitle": "Įdiek Milijonieriaus viktoriną",
     "benefit": "Žaisk per visą ekraną ir be interneto – vienu palietimu iš pradžios ekrano.",
     "iosTitle": "Įdiegimas „iPhone“ ar „iPad“",

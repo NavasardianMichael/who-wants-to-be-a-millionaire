@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "App installieren",
+    "shortName": "Millionär",
     "installTitle": "Millionär-Quiz installieren",
     "benefit": "Spielen Sie im Vollbild und offline – mit einem Tipp auf Ihrem Startbildschirm.",
     "iosTitle": "Auf iPhone oder iPad installieren",

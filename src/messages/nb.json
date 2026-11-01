@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Installer appen",
+    "shortName": "Millionær",
     "installTitle": "Installer Millionærquiz",
     "benefit": "Spill i fullskjerm og uten nett, med ett trykk fra startskjermen.",
     "iosTitle": "Installer på iPhone eller iPad",

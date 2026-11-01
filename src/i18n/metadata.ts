@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { lang } from 'next/root-params'
+import { getTranslations } from 'next-intl/server'
 import { DEFAULT_LOCALE, isLocale, type Locale, LOCALES, OG_LOCALES } from './config'
 import { localePath } from './pathname'
 
@@ -36,21 +37,38 @@ type PageMetadataInput = {
   noIndex?: boolean
 }
 
-/** The one builder every page's `generateMetadata` goes through: title, description, alternates, OpenGraph. */
+/** `app/opengraph-image.tsx`. Named here: the root layout lives in `[lang]`, so Next does not attach it. */
+const SOCIAL_IMAGE = { url: '/opengraph-image', width: 1200, height: 630, type: 'image/png' }
+
+/** The link-preview card in this locale: the shared image, the translated brand as alt text and site name. */
+export const socialCard = async () => {
+  const t = await getTranslations('Common')
+  const image = { ...SOCIAL_IMAGE, alt: `${t('appName')} — ${t('tagline')}` }
+  return { siteName: t('appName'), image }
+}
+
+/**
+ * The one builder every page's `generateMetadata` goes through: title, description, alternates, OpenGraph.
+ * A page's `openGraph` replaces the layout's whole object, so the site name and image are repeated here.
+ */
 export const pageMetadata = async ({ path, title, description, noIndex }: PageMetadataInput): Promise<Metadata> => {
   const locale = await currentLocale()
+  const { siteName, image } = await socialCard()
   return {
     title,
     description,
     alternates: await localizedAlternates(path),
     openGraph: {
+      type: 'website',
+      siteName,
       title,
       description,
+      images: [image],
       url: localePath(locale, path),
       locale: OG_LOCALES[locale],
       alternateLocale: LOCALES.filter((each) => each !== locale).map((each) => OG_LOCALES[each]),
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [image] },
     ...(noIndex ? { robots: { index: false, follow: true } } : {}),
   }
 }

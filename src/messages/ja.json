@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "アプリをインストール",
+    "shortName": "ミリオネア",
     "installTitle": "ミリオネア・クイズをインストール",
     "benefit": "ホーム画面からワンタップで、全画面・オフラインでプレイ。",
     "iosTitle": "iPhone・iPadにインストール",

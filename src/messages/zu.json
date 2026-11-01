@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Faka i-app",
+    "shortName": "Usozigidi",
     "installTitle": "Faka Imibuzo Yosozigidi",
     "benefit": "Dlala ngesikrini esigcwele futhi ungaxhunyiwe, ngokuthinta kanye esikrinini sakho sasekhaya.",
     "iosTitle": "Faka ku-iPhone noma ku-iPad",

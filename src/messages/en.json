@@ -452,6 +452,7 @@
   },
   "Pwa": {
     "install": "Install app",
+    "shortName": "Millionaire",
     "installTitle": "Install Millionaire Quiz",
     "benefit": "Play full screen and offline, with one tap from your home screen.",
     "iosTitle": "Install on iPhone or iPad",

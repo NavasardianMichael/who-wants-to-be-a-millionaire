@@ -96,6 +96,7 @@ const prompt = (locale, entries, knownName, showTitle) =>
       (showTitle ? ` In this language it is "${showTitle}".` : ''),
     '- Where the copy says the game or its questions are "in English" or for "English speakers", English stands for the language you are translating into: name that language instead, inflected naturally (Armenian "in English" → "հայերենով", Russian → "на русском"). "79 other languages" stays 79.',
     '- Common.wordmarkTop and Common.wordmarkBottom are the two lines of the logo and together read as the translated game name: the main word on top, the rest below.',
+    "- Pwa.shortName is the installed app's label under its home-screen icon: a short form of the game's name that stands on its own (nominative, never a fragment such as a genitive), ideally at most 12 characters.",
     '- Artificial intelligence ("AI") is always written out in full in the language — never an abbreviation or acronym such as AI, KI, IA or ИИ.',
     '- Keep "50:50" as is.',
     `- ${ADDRESS}`,

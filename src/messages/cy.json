@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Gosod yr ap",
+    "shortName": "Miliwnydd",
     "installTitle": "Gosod Cwis Miliwnydd",
     "benefit": "Chwarae ar sgrin lawn ac all-lein, gydag un tap o'th sgrin gartref.",
     "iosTitle": "Gosod ar iPhone neu iPad",

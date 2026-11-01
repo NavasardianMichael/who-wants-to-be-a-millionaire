@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Pasang aplikasi",
+    "shortName": "Jutawan",
     "installTitle": "Pasang Kuis Jutawan",
     "benefit": "Ulin dina layar pinuh sareng offline, ku sakali toél ti layar utama anjeun.",
     "iosTitle": "Pasang dina iPhone atanapi iPad",

@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "I-install ang app",
+    "shortName": "Milyonaryo",
     "installTitle": "I-install ang Milyonaryo Quiz",
     "benefit": "Maglaro nang full screen at offline, sa isang tap mula sa home screen ninyo.",
     "iosTitle": "I-install sa iPhone o iPad",

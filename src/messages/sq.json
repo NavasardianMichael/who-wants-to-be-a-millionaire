@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalo aplikacionin",
+    "shortName": "Milioneri",
     "installTitle": "Instalo aplikacionin Kuizi i Milionerit",
     "benefit": "Luaj në ekran të plotë dhe pa internet, me një prekje nga ekrani bazë.",
     "iosTitle": "Instalo në iPhone ose iPad",

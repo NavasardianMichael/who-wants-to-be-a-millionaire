@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Nainstalovat aplikaci",
+    "shortName": "Milionář",
     "installTitle": "Nainstalovat Milionářský kvíz",
     "benefit": "Hraj na celé obrazovce a offline, jedním klepnutím z plochy.",
     "iosTitle": "Instalace na iPhone nebo iPad",

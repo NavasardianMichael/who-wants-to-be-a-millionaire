@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalēt lietotni",
+    "shortName": "Miljonārs",
     "installTitle": "Instalē Miljonāra viktorīnu",
     "benefit": "Spēlē pilnekrāna režīmā un bezsaistē – ar vienu pieskārienu no sākuma ekrāna.",
     "iosTitle": "Instalēšana iPhone vai iPad ierīcē",

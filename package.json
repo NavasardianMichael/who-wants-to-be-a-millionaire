@@ -24,6 +24,7 @@
     "i18n:sync": "node scripts/i18n-sync.mjs",
     "postinstall": "node scripts/postinstall.mjs",
     "export:fallback": "node scripts/export-fallback.mjs",
+    "pwa:screenshots": "node scripts/pwa-screenshots.mjs",
     "prepare": "husky",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",

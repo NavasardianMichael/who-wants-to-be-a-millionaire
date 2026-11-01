@@ -512,6 +512,7 @@
   },
   "Pwa": {
     "install": "Instalar a aplicación",
+    "shortName": "Millonario",
     "installTitle": "Instalar o Concurso Millonario",
     "benefit": "Xogue a pantalla completa e sen conexión, cun só toque desde a pantalla de inicio.",
     "iosTitle": "Instalar no iPhone ou no iPad",
