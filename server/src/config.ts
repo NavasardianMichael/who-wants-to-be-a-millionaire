@@ -52,9 +52,12 @@ export const config = {
     /** A second, blind "answer it yourself" pass that drops questions the checker disagrees with. */
     verifyQuestions: process.env.VERIFY_QUESTIONS === 'true',
   },
-  /** The background job that keeps every busy (locale, level) bucket stocked. */
+  /**
+   * The background job that keeps every busy (locale, level) bucket stocked. Off by default
+   * outside production: stocking a dev database spends the paid key on questions nobody plays.
+   */
   poolRefill: {
-    enabled: process.env.POOL_REFILL_ENABLED !== 'false',
+    enabled: process.env.POOL_REFILL_ENABLED ? process.env.POOL_REFILL_ENABLED !== 'false' : nodeEnv === 'production',
     intervalMs: asNumber(process.env.POOL_REFILL_INTERVAL_MS, 5 * 60 * 1000),
     /** Unserved questions a bucket should hold before the job leaves it alone. */
     targetPerBucket: asNumber(process.env.POOL_REFILL_TARGET, 60),

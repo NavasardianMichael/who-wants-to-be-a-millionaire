@@ -75,9 +75,9 @@ refuses anything else, since compose would interpolate `$` in `.env`.
   `https://api.who-wants-to-be-a-millionaire.eapps.site/identity/google/callback`.
   No JavaScript origins are needed — the browser never talks to Google directly. Publish the
   consent screen before real users arrive.
-- **Gemini:** a key from https://aistudio.google.com/apikey into `GEMINI_KEY`. The free tier
-  is enough: generated questions are pooled and reused, and `POOL_REFILL_MAX_CALLS` caps the
-  background top-up.
+- **Gemini:** a billed key from https://aistudio.google.com/apikey into `GEMINI_KEY`. Spend
+  follows play: generated questions are pooled and reused, `POOL_REFILL_MAX_CALLS` caps the
+  background top-up (on in production only), and a bucket that yields nothing backs off.
 - **Mail engine** (contact form): the engine bookie uses. `MAIL_API_URL`, `MAIL_API_KEY`,
   `MAIL_APP_ID="millionaire"`. Messages go to the engine's internal inbox; nothing is stored.
   Without a key the contact form answers 503 in production.

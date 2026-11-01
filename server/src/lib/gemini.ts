@@ -1,12 +1,13 @@
-import { type GenerateContentConfig, GoogleGenAI, type Schema, ThinkingLevel } from '@google/genai'
+import { FinishReason, type GenerateContentConfig, GoogleGenAI, type Schema, ThinkingLevel } from '@google/genai'
 import { config } from '../config.js'
 
 /**
  * The only reader of `GEMINI_KEY`. Ported from hangman's `getWord/route.ts`.
  *
- * Free-tier quotas are **per model**, so falling through a chain of models adds capacity
- * rather than just redundancy. A model that answers 429/500/503 is cooled down — for the
- * `retryDelay` Google names on a quota error, or 15 s on overload — and skipped until then.
+ * The key is billed per token, so the chain runs **cheapest first** and a pricier model is
+ * only reached when the one before it is rate-limited or overloaded (failed calls are not
+ * billed). A model that answers 429/500/503 is cooled down — for the `retryDelay` Google
+ * names on a quota error, or 15 s on overload — and skipped until then.
  */
 const MODELS = [
   { name: 'gemini-3.5-flash-lite', thinkingLevel: ThinkingLevel.MINIMAL },
@@ -54,7 +55,12 @@ export type GenerateJsonOptions = {
   model?: string
 }
 
-export type GenerateJsonResult = { text: string; model: string }
+export type GenerateJsonResult = {
+  text: string
+  model: string
+  /** Cut off at `maxOutputTokens`: the JSON is broken, and asking again the same way fails the same way. */
+  truncated: boolean
+}
 
 /** Runs the prompt down the model chain and returns the first model's raw JSON text. */
 export const generateJson = async (options: GenerateJsonOptions): Promise<GenerateJsonResult> => {
@@ -81,7 +87,12 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
         contents: options.contents,
         config: { ...generationConfig, thinkingConfig: { thinkingLevel } },
       })
-      return { text: response.text ?? '', model: name }
+      const finishReason = response.candidates?.[0]?.finishReason
+      // Billed but unusable — worth seeing in the logs, with what it cost.
+      if (finishReason !== FinishReason.STOP) {
+        console.warn(`[gemini] ${name} finished with ${finishReason ?? 'no candidate'}`, response.usageMetadata)
+      }
+      return { text: response.text ?? '', model: name, truncated: finishReason === FinishReason.MAX_TOKENS }
     } catch (error) {
       if (!FALLBACK_STATUSES.includes(getStatus(error))) throw error
       modelCooldowns.set(name, Date.now() + getCooldownMs(error))

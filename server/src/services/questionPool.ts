@@ -77,17 +77,27 @@ export const pickCategory = (categories: readonly Category[], random: () => numb
 }
 
 /**
- * Concurrent requests for the same empty bucket share one Gemini call instead of each
- * spending quota on the same questions.
+ * Concurrent requests for the same short bucket share one Gemini call instead of each paying
+ * for its own. Keyed without the category: a waiter takes the batch already being written
+ * whenever its category is one the waiter accepts.
  */
-const inFlight = new Map<string, Promise<number>>()
+const inFlight = new Map<string, { category: Category; task: Promise<number> }>()
 
-/** Generates one batch into the pool, or into the ranked reserve. Returns how many new questions were stored. */
-export const generateIntoPool = (locale: Locale, level: Level, category: Category, ranked = false): Promise<number> => {
-  const key = `${locale}:${level}:${category}:${ranked}`
+/**
+ * Generates one batch, in one of `categories` (any when empty), into the pool or into the
+ * ranked reserve. Returns how many new questions were stored.
+ */
+export const generateIntoPool = (
+  locale: Locale,
+  level: Level,
+  categories: readonly Category[],
+  ranked = false
+): Promise<number> => {
+  const key = `${locale}:${level}:${ranked}`
   const existing = inFlight.get(key)
-  if (existing) return existing
+  if (existing && (!categories.length || categories.includes(existing.category))) return existing.task
 
+  const category = pickCategory(categories)
   const task = (async () => {
     const recent = await prisma.question.findMany({
       where: { locale, level, category },
@@ -97,14 +107,16 @@ export const generateIntoPool = (locale: Locale, level: Level, category: Categor
     })
 
     // Two attempts, like hangman's content retries: an all-invalid batch is usually a fluke.
+    // A truncated one is not, and a second identical call would be billed for the same failure.
     for (let attempt = 0; attempt < 2; attempt++) {
-      const { questions, model } = await generateQuestions({
+      const { questions, model, truncated } = await generateQuestions({
         locale,
         category,
         level,
         count: GENERATION_BATCH,
         avoid: recent.map(({ text }) => text),
       })
+      if (!questions.length && truncated) break
       if (!questions.length) continue
 
       const { count } = await prisma.question.createMany({
@@ -127,9 +139,12 @@ export const generateIntoPool = (locale: Locale, level: Level, category: Categor
       return count
     }
     return 0
-  })().finally(() => inFlight.delete(key))
+  })().finally(() => {
+    // A batch in another category may have replaced this one meanwhile.
+    if (inFlight.get(key)?.task === task) inFlight.delete(key)
+  })
 
-  inFlight.set(key, task)
+  inFlight.set(key, { category, task })
   return task
 }
 
@@ -169,7 +184,7 @@ export const getQuestionBatch = async ({ locale, counts, categories, excludeIds 
 
       if (rows.length < count && isGeminiConfigured()) {
         try {
-          await generateIntoPool(locale, level, pickCategory(categories))
+          await generateIntoPool(locale, level, categories)
           const more = await drawFromPool({
             locale,
             level,
@@ -251,7 +266,7 @@ export const getRunQuestion = async (
   let [row] = await draw(unseen)
   if (!row && isGeminiConfigured()) {
     try {
-      await generateIntoPool(locale, level, pickCategory([]), true)
+      await generateIntoPool(locale, level, [], true)
       ;[row] = await draw(unseen)
     } catch (error) {
       console.warn(`[pool] ranked generation failed for ${locale}/L${level}:`, (error as Error).message)

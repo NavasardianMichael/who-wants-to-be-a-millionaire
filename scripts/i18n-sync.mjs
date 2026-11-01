@@ -213,7 +213,8 @@ const main = async () => {
       const knownName = todo.some(([dotted]) => dotted === 'Common.appName') ? null : have.get('Common.appName')
       const name = knownName && knownName !== BRAND ? knownName : null
       const showTitle = todo.some(([dotted]) => dotted === 'Home.heroTitle') ? null : have.get('Home.heroTitle')
-      let translated = await translate(ai, prompt(locale, todo, name, showTitle))
+      // With smaller pieces to fall back on, a whole batch gets one retry, not three: each is billed in full.
+      let translated = await translate(ai, prompt(locale, todo, name, showTitle), todo.length > CHUNK ? 2 : 3)
       // A batch the model cannot return as valid JSON usually goes through in smaller pieces.
       if (!translated && todo.length > CHUNK) {
         const parts = []
@@ -262,9 +263,7 @@ async function translate(ai, contents, attempts = 3) {
   return null
 }
 
-/**
- * The free tier allows a handful of requests a minute and is sometimes overloaded: on 429 / 503
- * wait for the delay Google advises (or 20 s) and try again, a few times, before giving up./** The API's own chain (server/src/lib/gemini.ts), strongest translator first. */
+/** The API's own chain (server/src/lib/gemini.ts), strongest translator first. */
 const MODELS = ['gemini-3.6-flash', 'gemini-3.8-flash', 'gemini-3.5-flash-lite']
 /** A model whose daily free quota is spent (Google advises a wait of hours) is skipped for the rest of the run. */
 const exhausted = new Set()
@@ -274,9 +273,9 @@ const REQUEST_TIMEOUT_MS = 180_000
 const CHUNK = 15
 
 /**
- * One translation request on the free tier. A per-minute limit or a busy model (429 / 503
- * with a short advised delay) is waited out and retried; a spent daily quota moves on to the
- * next model in the chain instead of sleeping for hours.
+ * One translation request. A per-minute limit or a busy model (429 / 503 with a short advised
+ * delay) is waited out and retried — refused calls are not billed; a spent daily quota moves on
+ * to the next model in the chain instead of sleeping for hours.
  */
 async function generate(ai, contents) {
   for (let attempt = 1; attempt <= 12; attempt++) {

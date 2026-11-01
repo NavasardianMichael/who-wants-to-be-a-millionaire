@@ -242,11 +242,11 @@ export const checkAnswers = async (questions: GeneratedQuestion[], locale: Local
   }
 }
 
-export type GenerationResult = { questions: GeneratedQuestion[]; model: string }
+export type GenerationResult = { questions: GeneratedQuestion[]; model: string; truncated: boolean }
 
 /** One Gemini call (plus the optional check). Throws `AllModelsFailedError` when the chain is exhausted. */
 export const generateQuestions = async (params: GenerateParams): Promise<GenerationResult> => {
-  const { text, model } = await generateJson({
+  const { text, model, truncated } = await generateJson({
     systemInstruction: buildSystemInstruction(params.locale),
     contents: buildPrompt(params),
     schema: QUESTIONS_SCHEMA,
@@ -255,5 +255,5 @@ export const generateQuestions = async (params: GenerateParams): Promise<Generat
 
   const parsed = parseGeneratedQuestions(text, params.locale)
   const questions = config.gemini.verifyQuestions ? await checkAnswers(parsed, params.locale) : parsed
-  return { questions, model }
+  return { questions, model, truncated }
 }
