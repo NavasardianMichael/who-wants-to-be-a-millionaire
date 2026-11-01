@@ -51,7 +51,7 @@ export const LifelineBar = ({ allowed, used, busy, disabled, onUse, className }:
                 disabled={disabled || isUsed || Boolean(busy)}
                 aria-label={isUsed ? t('used', { name }) : name}
                 className={cn(
-                  'relative flex size-16 items-center justify-center rounded-full border-2 transition-[transform,filter,opacity] duration-200 sm:size-20',
+                  'relative flex size-14 items-center justify-center rounded-full border-2 transition-[transform,filter,opacity] duration-200 sm:size-20 short:size-12',
                   'bg-[radial-gradient(ellipse_at_50%_25%,var(--color-studio-400),var(--color-studio-700)_55%,var(--color-studio-900))] text-ivory',
                   isUsed
                     ? 'border-studio-600 opacity-60'

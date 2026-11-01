@@ -35,7 +35,7 @@ export const AnswerGrid = (props: AnswerGridProps) => {
   const interactive = phase === 'asking' || phase === 'selected' || (phase === 'switching' && revealedCorrectIndex === null)
 
   return (
-    <ol className='grid grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-3'>
+    <ol className='grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-3 short:gap-1.5'>
       {question.options.map((text, index) => (
         <AnswerOption
           key={`${question.id}-${index}`}

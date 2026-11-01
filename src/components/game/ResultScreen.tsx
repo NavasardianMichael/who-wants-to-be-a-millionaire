@@ -10,6 +10,7 @@ import { toast } from '@store/toast/store'
 import type { GameMode } from '@constants/game'
 import { ROUTES } from '@constants/routes'
 import { trackEvent } from '@helpers/analytics'
+import { cn } from '@helpers/cn'
 import { formatMoney } from '@helpers/money'
 import { reportError } from '@helpers/reportError'
 import { BadgeMedal } from '@components/badges/BadgeMedal'
@@ -79,83 +80,89 @@ export const ResultScreen = ({ end, mode, ranked, onPlayAgain }: ResultScreenPro
       initial={reduce ? false : { opacity: 0, scale: 0.94 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className='panel-gold mx-auto flex w-full max-w-xl flex-col items-center gap-5 p-6 text-center sm:p-10'
+      className='panel-gold mx-auto flex w-full max-w-xl flex-col items-center gap-3 p-5 text-center sm:gap-4 sm:p-8 lg:grid lg:max-w-4xl lg:grid-cols-2 lg:gap-10'
     >
-      <Emblem className={end.outcome === 'won' ? 'size-24 animate-float' : 'size-20'} />
-      <h2 id='result-title' className='text-h1 font-black text-gold-gradient'>
-        {t(`Result.${titleKey}`)}
-      </h2>
+      {/* Wide screens set the outcome beside what comes next, so the card stays one screen tall. */}
+      <div className='flex flex-col items-center gap-3 sm:gap-4'>
+        <Emblem className={cn('short:hidden', end.outcome === 'won' ? 'size-16 animate-float sm:size-20' : 'size-14 sm:size-16')} />
+        <h2 id='result-title' className='text-h1 font-black text-gold-gradient'>
+          {t(`Result.${titleKey}`)}
+        </h2>
 
-      {isClassic ? (
-        <p className='font-display text-display font-black text-shimmer tabular'>
-          <MoneyCounter amount={end.winnings} locale={locale} />
-        </p>
-      ) : (
-        <p className='flex flex-col items-center'>
-          <span className='font-display text-display font-black text-shimmer tabular'>{end.score}</span>
-          <span className='text-caption font-bold tracking-[0.25em] text-spot-300 uppercase'>{t('Game.score')}</span>
-        </p>
-      )}
-
-      <p className='max-w-md text-mist' aria-live='polite'>
-        {body}
-      </p>
-
-      <div className='flex flex-wrap justify-center gap-2'>
-        {end.isPersonalBest && (
-          <span className='inline-flex items-center gap-1.5 rounded-tag bg-gold-400/15 px-3 py-1 text-body-sm font-bold text-gold-200'>
-            <Sparkles aria-hidden className='size-4' /> {t('Result.personalBest')}
-          </span>
+        {isClassic ? (
+          <p className='font-display text-display font-black text-shimmer tabular'>
+            <MoneyCounter amount={end.winnings} locale={locale} />
+          </p>
+        ) : (
+          <p className='flex flex-col items-center'>
+            <span className='font-display text-display font-black text-shimmer tabular'>{end.score}</span>
+            <span className='text-caption font-bold tracking-[0.25em] text-spot-300 uppercase'>{t('Game.score')}</span>
+          </p>
         )}
-        {ranked && end.rank && (
-          <span className='inline-flex items-center gap-1.5 rounded-tag bg-spot-500/15 px-3 py-1 text-body-sm font-bold text-spot-100'>
-            <Award aria-hidden className='size-4' /> {t('Result.rank', { rank: end.rank })}
-          </span>
+
+        {/* The title and the amount already say it on a cramped screen; screen readers still hear it. */}
+        <p className='max-w-md text-body-sm text-mist sm:text-body short:sr-only' aria-live='polite'>
+          {body}
+        </p>
+
+        {(end.isPersonalBest || (ranked && end.rank)) && (
+          <div className='flex flex-wrap justify-center gap-2'>
+            {end.isPersonalBest && (
+              <span className='inline-flex items-center gap-1.5 rounded-tag bg-gold-400/15 px-3 py-1 text-body-sm font-bold text-gold-200'>
+                <Sparkles aria-hidden className='size-4' /> {t('Result.personalBest')}
+              </span>
+            )}
+            {ranked && end.rank && (
+              <span className='inline-flex items-center gap-1.5 rounded-tag bg-spot-500/15 px-3 py-1 text-body-sm font-bold text-spot-100'>
+                <Award aria-hidden className='size-4' /> {t('Result.rank', { rank: end.rank })}
+              </span>
+            )}
+          </div>
         )}
       </div>
 
-      {end.newBadges.length > 0 && (
-        <div className='flex w-full flex-col items-center gap-3 rounded-2xl border border-gold-400/30 bg-studio-950/50 p-4'>
-          <p className='font-display font-bold text-gold-200'>{t('Result.newBadges', { count: end.newBadges.length })}</p>
-          <ul className='flex flex-wrap justify-center gap-4'>
-            {end.newBadges.map((badgeId, index) => (
-              <li key={badgeId} className='flex w-24 flex-col items-center gap-1.5' style={{ animationDelay: `${index * 120}ms` }}>
-                <BadgeMedal badgeId={badgeId} earned celebrate />
-                <span className='text-caption font-semibold'>{t(`Badges.items.${badgeId}.name`)}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div className='flex w-full flex-col items-center gap-3 sm:gap-4'>
+        {end.newBadges.length > 0 && (
+          <div className='flex w-full flex-col items-center gap-2 rounded-2xl border border-gold-400/30 bg-studio-950/50 p-3 sm:gap-3 sm:p-4'>
+            <p className='font-display text-body-sm font-bold text-gold-200 sm:text-body'>{t('Result.newBadges', { count: end.newBadges.length })}</p>
+            <ul className='flex flex-wrap justify-center gap-4'>
+              {end.newBadges.map((badgeId, index) => (
+                <li key={badgeId} className='flex w-24 flex-col items-center gap-1' style={{ animationDelay: `${index * 120}ms` }}>
+                  <BadgeMedal badgeId={badgeId} earned celebrate className='size-10 sm:size-14' />
+                  <span className='text-caption font-semibold'>{t(`Badges.items.${badgeId}.name`)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
-      <div className='flex w-full flex-col gap-3 sm:flex-row sm:justify-center'>
-        <Button onClick={onPlayAgain} icon={<RotateCcw aria-hidden className='size-5' />}>
+        <Button onClick={onPlayAgain} icon={<RotateCcw aria-hidden className='size-5' />} className='w-full max-w-xs'>
           {t('Common.playAgain')}
         </Button>
-        <Button variant='outline' onClick={share} icon={<Share2 aria-hidden className='size-5' />}>
-          {t('Common.share')}
-        </Button>
-      </div>
-      <div className='flex flex-wrap justify-center gap-2'>
-        {mode !== 'classic' && (
-          <ButtonLink href={ROUTES.leaderboard} variant='ghost' size='sm'>
-            {t('Result.viewLeaderboard')}
-          </ButtonLink>
-        )}
-        <ButtonLink href={ROUTES.home} variant='ghost' size='sm'>
-          <Home aria-hidden className='size-4' /> {t('Result.backHome')}
-        </ButtonLink>
-      </div>
-
-      {isResolved && !user && (
-        <div className='flex w-full flex-col items-center gap-3 border-t border-line-subtle pt-5'>
-          <p className='text-body-sm text-mist'>{ranked ? t('Result.signInToRank') : t('Result.signInToSave')}</p>
-          <ButtonLink href={ROUTES.signIn} variant='outline' size='sm'>
-            <LogIn aria-hidden className='size-4 rtl:-scale-x-100' />
-            {t('Common.signIn')}
+        <div className='flex flex-wrap justify-center gap-1'>
+          <Button variant='ghost' size='sm' onClick={share} icon={<Share2 aria-hidden className='size-4' />}>
+            {t('Common.share')}
+          </Button>
+          {mode !== 'classic' && (
+            <ButtonLink href={ROUTES.leaderboard} variant='ghost' size='sm'>
+              {t('Result.viewLeaderboard')}
+            </ButtonLink>
+          )}
+          <ButtonLink href={ROUTES.home} variant='ghost' size='sm'>
+            <Home aria-hidden className='size-4' /> {t('Result.backHome')}
           </ButtonLink>
         </div>
-      )}
+
+        {isResolved && !user && (
+          <div className='flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 border-t border-line-subtle pt-3 sm:flex-nowrap sm:pt-4 lg:flex-col'>
+            <p className='text-caption text-mist sm:text-start sm:text-body-sm lg:text-center short:hidden'>{ranked ? t('Result.signInToRank') : t('Result.signInToSave')}</p>
+            <ButtonLink href={ROUTES.signIn} variant='outline' size='sm'>
+              <LogIn aria-hidden className='size-4 rtl:-scale-x-100' />
+              {t('Common.signIn')}
+            </ButtonLink>
+          </div>
+        )}
+      </div>
     </motion.section>
   )
 }

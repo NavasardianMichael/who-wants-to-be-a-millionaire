@@ -68,7 +68,7 @@ export const AnswerOption = ({ index, text, state, disabled, onSelect, foreign }
             state === 'correct' && 'animate-correct-blink',
             !disabled && !removed && state === 'idle' && 'group-hover:[&_.lozenge]:brightness-125'
           )}
-          fillClassName='min-h-14 gap-3 px-[calc(var(--spacing-tip)+0.25rem)] py-2.5 sm:min-h-16'
+          fillClassName='min-h-13 gap-3 px-[calc(var(--spacing-tip)+0.25rem)] py-2 sm:min-h-16 sm:py-2.5 short:min-h-11 short:py-1.5'
         >
           <span
             aria-hidden

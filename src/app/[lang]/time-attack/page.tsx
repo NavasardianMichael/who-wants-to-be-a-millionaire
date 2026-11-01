@@ -5,8 +5,6 @@ import { TIME_ATTACK_RULES } from '@constants/game'
 import { ROUTES } from '@constants/routes'
 import { ModePage } from '@components/marketing/ModePage'
 
-export const revalidate = 300
-
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Seo')
   const seconds = TIME_ATTACK_RULES.durationSeconds

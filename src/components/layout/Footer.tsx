@@ -15,7 +15,8 @@ export const Footer = () => {
   const linkClass = 'text-body-sm text-mist transition-colors hover:text-gold-200'
 
   return (
-    <footer className='mt-16 border-t border-spot-300/10 bg-studio-950/80 pb-safe backdrop-blur'>
+    // A game page is one screen with nothing under it (ModePage marks it `data-game-stage`).
+    <footer className='mt-16 border-t border-spot-300/10 bg-studio-950/80 pb-safe backdrop-blur [body:has([data-game-stage])_&]:hidden'>
       <div className='container-page grid gap-10 py-12 md:grid-cols-[1.2fr_1fr_1fr]'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center gap-3'>

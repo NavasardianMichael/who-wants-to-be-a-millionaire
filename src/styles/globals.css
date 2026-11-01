@@ -122,6 +122,8 @@
   --radius-3xl: 0.75rem;
 
   --spacing-header: 4rem;
+  /* The viewport under the header (its safe-area top and lit hairline included): a game page fills exactly this. */
+  --spacing-stage: calc(100dvh - var(--spacing-header) - var(--safe-top) - 1px);
   --spacing-tip: 1.1rem; /* lozenge point depth */
 
   --shadow-glow-gold: 0 0 0 1px #e9b94966, 0 0 24px #e9b94955, 0 0 64px #e9b94922;
@@ -562,6 +564,9 @@
 }
 
 /* ── §8 Utilities ────────────────────────────────────────────────────────────────────── */
+/* Viewports with little height to spare (an iPhone SE or mini in Safari): the game board tightens to fit one screen. */
+@custom-variant short (@media (max-height: 40rem));
+
 @utility container-page {
   width: 100%;
   margin-inline: auto;

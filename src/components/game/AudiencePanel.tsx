@@ -16,16 +16,16 @@ export const AudiencePanel = ({ votes, removed }: { votes: number[]; removed: nu
   const summary = votes.map((vote, index) => `${OPTION_LETTERS[index]} ${vote}%`).join(', ')
 
   return (
-    <figure className='flex flex-col items-center gap-3'>
+    <figure className='flex flex-col items-center gap-3 short:gap-1'>
       <figcaption className='font-display text-body-sm font-bold tracking-widest text-gold-200 uppercase'>{t('audienceTitle')}</figcaption>
       <p className='sr-only'>{t('audienceChart', { results: summary })}</p>
-      <div aria-hidden className='flex h-36 items-end gap-3 sm:h-44 sm:gap-5'>
+      <div aria-hidden className='flex items-end gap-3 sm:gap-5'>
         {votes.map((vote, index) => (
-          <div key={OPTION_LETTERS[index]} className='flex w-11 flex-col items-center gap-1.5 sm:w-14'>
+          <div key={OPTION_LETTERS[index]} className='flex w-11 flex-col items-center gap-1.5 sm:w-14 short:gap-1'>
             <span className={cn('font-display text-body-sm font-black tabular', removed.includes(index) ? 'text-mist-dim' : 'text-ivory')}>
               {vote}%
             </span>
-            <div className='relative flex h-24 w-full items-end overflow-hidden rounded-t-md bg-studio-950/70 sm:h-32'>
+            <div className='relative flex h-20 w-full items-end overflow-hidden rounded-t-md bg-studio-950/70 sm:h-32 short:h-10'>
               <motion.div
                 initial={reduce ? false : { height: 0 }}
                 animate={{ height: `${(vote / max) * 100}%` }}

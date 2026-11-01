@@ -26,12 +26,13 @@ export const QuestionPanel = ({ question, counter, className }: QuestionPanelPro
       // The wire runs to the edges of the board column, not across the ladder beside it.
       className={cn('-mx-4 flex flex-col gap-2 overflow-x-clip px-4 sm:-mx-6 sm:px-6 lg:mx-0 lg:px-0', className)}
     >
-      <div className='flex items-center justify-center gap-2 text-caption font-bold tracking-[0.18em] text-spot-300 uppercase'>
-        <span>{counter}</span>
+      {/* One line, whatever the language: a long category name is cut short rather than wrapped. */}
+      <div className='flex items-center justify-center gap-2 text-caption font-bold tracking-[0.18em] whitespace-nowrap text-spot-300 uppercase'>
+        <span className='shrink-0'>{counter}</span>
         <span aria-hidden>·</span>
-        <span>{t(question.category)}</span>
+        <span className='min-w-0 truncate'>{t(question.category)}</span>
       </div>
-      <Lozenge tone='gold' wire fillClassName='min-h-24 justify-center px-[calc(var(--spacing-tip)+0.25rem)] py-4 sm:min-h-28'>
+      <Lozenge tone='gold' wire fillClassName='min-h-20 justify-center px-[calc(var(--spacing-tip)+0.25rem)] py-3 sm:min-h-28 sm:py-4 short:min-h-16 short:py-2'>
         {/* `pretty`, not the headings' `balance`: balanced lines are evened out and so run short, leaving the panel half empty. */}
         <h2
           lang={question.fallback ? 'en' : undefined}
