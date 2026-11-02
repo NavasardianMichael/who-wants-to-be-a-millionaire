@@ -9,7 +9,7 @@ import { fail, ok } from '../lib/api-response.js'
 import { RANKED_MODES } from '../lib/game.js'
 import { isLocale } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
-import { asBoundedString } from '../lib/request.js'
+import { asDisplayName } from '../lib/request.js'
 import { toSessionUser } from '../mappers/entities.js'
 import { requireAuth } from '../middleware/auth.js'
 import { asyncHandler } from '../middleware/error.js'
@@ -35,9 +35,6 @@ const upload = multer({
   limits: { fileSize: MAX_AVATAR_BYTES, files: 1 },
   fileFilter: (_req, file, callback) => callback(null, ACCEPTED_TYPES.has(file.mimetype)),
 })
-
-const MIN_NAME = 2
-const MAX_NAME = 24
 
 const removeUploadedAvatar = async (avatarPath: string | null): Promise<void> => {
   if (!avatarPath?.startsWith(`/uploads/${AVATAR_DIR}/`)) return
@@ -81,12 +78,8 @@ profileRouter.patch(
     const data: { displayName?: string; locale?: string } = {}
 
     if (req.body?.displayName !== undefined) {
-      const displayName = asBoundedString(req.body.displayName, MAX_NAME + 1)
-      if (!displayName || displayName.length < MIN_NAME || displayName.length > MAX_NAME) {
-        return fail(res, `displayName must be ${MIN_NAME}-${MAX_NAME} characters`, 400)
-      }
-      // No control or zero-width characters — they make two names look identical on the board.
-      if (/[\p{Cc}\p{Cf}]/u.test(displayName)) return fail(res, 'displayName contains invalid characters', 400)
+      const displayName = asDisplayName(req.body.displayName)
+      if (!displayName) return fail(res, 'displayName must be 2-24 characters, without control characters', 400)
       data.displayName = displayName
     }
 

@@ -5,7 +5,8 @@ import { defineConfig } from 'vitest/config'
  * - `unit` — pure logic, no network, no database; runs anywhere in a couple of seconds.
  * - `integration` — the real Express app (supertest) against a throwaway `millionaire_test`
  *   database that `tests/setup/integration.ts` recreates and seeds on every run. Needs the
- *   Postgres container (`pnpm db:up`); Gemini is forced off so no test spends quota.
+ *   Postgres container (`pnpm db:up`); Gemini and the mail engine are forced off, so no test
+ *   spends quota or mails anyone.
  */
 const TEST_DATABASE_URL =
   process.env.TEST_DATABASE_URL ?? 'postgresql://millionaire:millionaire@localhost:5006/millionaire_test?schema=public'
@@ -40,6 +41,8 @@ export default defineConfig({
             GEMINI_KEY: '',
             GOOGLE_CLIENT_ID: '',
             GOOGLE_CLIENT_SECRET: '',
+            // Account emails print to the console instead; the identity tests read their links there.
+            MAIL_API_KEY: '',
             JWT_SECRET: 'integration-test-secret',
             CORS_ORIGIN: 'http://localhost:7006',
             UPLOAD_DIR: './tests/.uploads',

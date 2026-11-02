@@ -37,7 +37,7 @@ export const buildOfflineDocument = (colors: OfflineColors): string => `<!doctyp
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="${colors.background}" />
-    <title>Millionaire Quiz — offline</title>
+    <title>Millionaire — offline</title>
     <style>
       html, body { margin: 0; }
       body { min-height: 100dvh; display: flex; align-items: center; justify-content: center; padding: 1.5rem;

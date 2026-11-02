@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kuis Jutawan",
-    "wordmarkTop": "Jutawan",
-    "wordmarkBottom": "Kuis",
+    "appName": "Jutawan",
     "tagline": "Dolanan kuis ala acara TV ing basa panjenengan",
     "play": "Main",
     "playNow": "Main saiki",
@@ -514,6 +512,7 @@
   },
   "Seo": {
     "keywords": "game sapa sing pengin dadi jutawan, sapa sing pengin dadi jutawan ing basa jawa, game jutawan online, kuis jutawan, game kuis, kuis gratis, trivia",
+    "showTitle": "Sapa sing pengin dadi jutawan?",
     "homeTitle": "Sapa sing pengin dadi jutawan? Game online gratis ing basa Jawa | Kuis Jutawan",
     "homeDescription": "Main “Sapa sing pengin dadi jutawan?” gratis online ing basa Jawa: 15 pitakonan menyang yuta, papat pitulungan lan rong papan aman, kanthi pitakonan ditulis ing basa Jawa, ora diterjemahake. Tanpa dhaptar. Uga ing 79 basa liyane.",
     "playTitle": "Kuis Jutawan Klasik — 15 pitakonan tumuju sejuta dolar",

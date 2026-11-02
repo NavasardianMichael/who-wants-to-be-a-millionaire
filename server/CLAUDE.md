@@ -10,7 +10,8 @@
   guards in `lib/game.ts` / `lib/locales.ts`.
 - **Config:** every `process.env` read lives in `config.ts` (a gate enforces it). Each secret has
   one reader: `GEMINI_KEY` → `lib/gemini.ts`, Google secret → `lib/google-oauth.ts`,
-  `MAIL_API_KEY` → `lib/mail.ts` (contact form only; nothing is stored).
+  `MAIL_API_KEY` → `lib/mail.ts` (contact form to us; account emails to the player, written
+  from the web's `Email.*` catalogue keys by `lib/account-mail.ts`).
 - **Security:** `requireSameOrigin` on every write, `optionalAuth` globally, `requireAuth` on
   private routers, per-route `rateLimit`, `trust proxy` = 1 (nginx).
 - **Gemini:** call through `generateJson` (model chain + cooldowns). Code decides outcomes

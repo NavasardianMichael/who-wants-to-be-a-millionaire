@@ -7,7 +7,7 @@
 # EnvironmentFile is not dotenv — no `export`, no multi-line values.
 # =============================================================================
 [Unit]
-Description=Who Wants to Be a Millionaire — API (Express)
+Description=Millionaire — API (Express)
 After=network-online.target docker.service
 Wants=network-online.target
 

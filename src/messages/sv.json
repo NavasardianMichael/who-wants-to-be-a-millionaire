@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljonärsquiz",
-    "wordmarkTop": "Miljonärs",
-    "wordmarkBottom": "quiz",
+    "appName": "Miljonär",
     "tagline": "Frågesportspelet på ditt språk",
     "play": "Spela",
     "playNow": "Spela nu",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "vem vill bli miljonär spel, vem vill bli miljonär på svenska, miljonärsspel online, miljonärsquiz, frågesport, gratis quiz, trivia",
+    "showTitle": "Vem vill bli miljonär?",
     "homeTitle": "Vem vill bli miljonär? Gratis onlinespel på svenska | Miljonärsquiz",
     "homeDescription": "Spela \"Vem vill bli miljonär?\" gratis online på svenska: 15 frågor till miljonen, fyra livlinor och två säkerhetsnivåer, med frågor skrivna på svenska, inte översatta. Ingen registrering krävs. Finns även på 79 andra språk.",
     "playTitle": "Klassisk miljonärsquiz – 15 frågor till miljonen",

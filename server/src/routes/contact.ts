@@ -62,7 +62,7 @@ contactRouter.post(
     }
 
     const result = await sendInternalMail({
-      subject: `Millionaire Quiz — contact form — ${name}`,
+      subject: `Millionaire — contact form — ${name}`,
       body: htmlBodyFor(message, email, locale),
       senderEmail: email,
       firstName: name,

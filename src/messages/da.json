@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Millionærquiz",
-    "wordmarkTop": "Millionær",
-    "wordmarkBottom": "quiz",
+    "appName": "Millionær",
     "tagline": "Quizshowet på dit eget sprog",
     "play": "Spil",
     "playNow": "Spil nu",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "hvem vil være millionær spil, hvem vil være millionær på dansk, millionær spil online, millionærquiz, quizspil, gratis quiz, trivia",
+    "showTitle": "Hvem vil være millionær?",
     "homeTitle": "Hvem vil være millionær? Gratis onlinespil på dansk | Millionærquiz",
     "homeDescription": "Spil “Hvem vil være millionær?” gratis online på dansk: 15 spørgsmål til millionen, fire livliner og to sikkerhedszoner, med spørgsmål skrevet på dansk, ikke oversat. Ingen tilmelding. Også på 79 andre sprog.",
     "playTitle": "Klassisk millionærquiz – 15 spørgsmål til millionen",

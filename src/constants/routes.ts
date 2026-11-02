@@ -17,6 +17,11 @@ export const ROUTES = {
   profile: '/profile',
   settings: '/settings',
   signIn: '/sign-in',
+  signUp: '/sign-up',
+  /** The next three are linked from account emails (`ACCOUNT_PATH` on the server). */
+  forgotPassword: '/forgot-password',
+  resetPassword: '/reset-password',
+  verifyEmail: '/verify-email',
 } as const
 
 export type RouteKey = keyof typeof ROUTES

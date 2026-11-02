@@ -2,8 +2,8 @@ import { type Schema, Type } from '@google/genai'
 import { createHash } from 'node:crypto'
 import { config } from '../config.js'
 import { type Category, type Level, OPTIONS_COUNT } from '../lib/game.js'
-import { CHECKER_MODEL, clip, generateJson } from '../lib/gemini.js'
-import { type Locale, LOCALE_INFO } from '../lib/locales.js'
+import { CHECKER_MODEL, clip, generateJson, WRITER_MODEL } from '../lib/gemini.js'
+import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
 
 /**
  * Writing quiz questions with Gemini.
@@ -12,6 +12,9 @@ import { type Locale, LOCALE_INFO } from '../lib/locales.js'
  * its culture, not translated from English: a pun, an idiom or a "which of these rhymes"
  * question only works in the language it was written in, and a question about a local
  * poet or holiday is what makes the game feel like it belongs to its players.
+ *
+ * The model writes the fact first (`explanation` leads the schema) and builds the question on
+ * it, so it commits to something it knows before it phrases anything.
  *
  * Everything the model returns is validated (`parseGeneratedQuestions`) before it can reach
  * the pool, and optionally cross-checked by a second, blind model pass (`checkAnswers`).
@@ -29,13 +32,15 @@ export type GeneratedQuestion = {
 const MAX_QUESTION_LENGTH = 300
 const MAX_OPTION_LENGTH = 120
 const MAX_EXPLANATION_LENGTH = 300
+/** Below this share of letters in the locale's own script, the question was half-written in another language. */
+const MIN_SCRIPT_SHARE = 0.6
 
 const LEVEL_GUIDE: Record<Level, string> = {
-  1: 'Level 1 (very easy, the $100–$300 questions): almost every adult in the region knows the answer instantly. Light-hearted, show-style questions — everyday life, common sayings, playful wordplay that works in this language — are welcome.',
-  2: 'Level 2 (easy, $500–$2,000): common general knowledge most adults know.',
-  3: 'Level 3 (medium, $4,000–$16,000): needs solid general knowledge; a casual player hesitates.',
-  4: 'Level 4 (hard, $32,000–$125,000): a keen quiz enthusiast knows it; most people would need a lifeline.',
-  5: 'Level 5 (very hard, $250,000–$1,000,000): expert-level but fair — one precise, verifiable fact, never trivia that is disputed or outdated.',
+  1: 'Level 1 (very easy, the $100–$300 questions): almost every adult in the region knows the answer instantly — school basics, everyday knowledge, a well-known proverb or saying. Easy, but still a real question with three clearly wrong options, not a joke.',
+  2: 'Level 2 (easy, $500–$2,000): common general knowledge that most adults who read and follow the news know.',
+  3: 'Level 3 (medium, $4,000–$16,000): needs solid general knowledge or a moment of reasoning; a casual player hesitates between two options.',
+  4: 'Level 4 (hard, $32,000–$125,000): a well-read, curious person can get it by knowledge or deduction; most people would need a lifeline.',
+  5: 'Level 5 (very hard, $250,000–$1,000,000): expert-level but fair — one precise, verifiable fact that a true expert knows, never obscure trivia, a disputed claim or an outdated record.',
 }
 
 const CATEGORY_GUIDE: Record<Category, string> = {
@@ -71,8 +76,8 @@ const QUESTIONS_SCHEMA: Schema = {
           explanation: { type: Type.STRING },
           scope: { type: Type.STRING, enum: ['global', 'local'] },
         },
-        required: ['question', 'options', 'correctIndex', 'explanation', 'scope'],
-        propertyOrdering: ['question', 'options', 'correctIndex', 'explanation', 'scope'],
+        required: ['explanation', 'question', 'options', 'correctIndex', 'scope'],
+        propertyOrdering: ['explanation', 'question', 'options', 'correctIndex', 'scope'],
       },
     },
   },
@@ -80,20 +85,32 @@ const QUESTIONS_SCHEMA: Schema = {
 }
 
 const buildSystemInstruction = (locale: Locale): string => {
-  const { name, culture } = LOCALE_INFO[locale]
+  const { name, culture, writing }: LocaleInfo = LOCALE_INFO[locale]
   return [
-    `You write questions for "Who Wants to Be a Millionaire"-style quiz games, in ${name}.`,
-    `Write every question, option and explanation directly in natural, native ${name} — never translate from English, and never mix languages.`,
-    `Your players are speakers of ${name}, mostly from ${culture}. Questions marked "local" must be about that culture; "global" ones must be equally meaningful anywhere in the world.`,
-    'Rules for every question:',
-    '- Exactly four options of the same kind (all people, all years, all cities…), similar in length and plausibility.',
-    '- Exactly one option is correct, and the fact is stable, well documented and not disputed. If unsure, write a different question.',
-    '- The question must not give away the answer, and no option may be "all of the above" or "none of the above".',
+    `You are an experienced editor of a national "Who Wants to Be a Millionaire"-style TV quiz, writing in ${name} for an audience from ${culture}.`,
+    `Write every question, option and explanation directly in natural, native ${name}, the way a well-educated native quiz writer would — never translate from English in your head, and never mix languages.`,
+    writing ?? '',
+    'What makes a good question:',
+    '- It tests knowledge, being well-informed or reasoning — the kind a smart player is proud to get right. Prefer questions that make the player think (connect two facts, reason it out, recall precisely) over bare lookups of numbers.',
+    '- It is academically correct: a stable, well-documented, undisputed fact that a textbook or encyclopedia states the same way. If you are not certain, choose a fact you are certain of. Never invent a person, work, date, place or quotation.',
+    '- It is interesting: the answer teaches something or recalls something worth knowing. No weird, contrived or pointless questions.',
+    '- It reads like a human quiz host wrote it: short, clear and direct. Avoid stock machine phrasing ("Which of the following…", "What is known as…", "is famous for being…"), bureaucratic or textbook wording, and the stalest "biggest / first / most famous" questions.',
+    `- "local" questions draw on what an educated person from ${culture} learns at school and through life — its history, writers, scientists, artists, landmarks, language and traditions — and must ring true to them, not read like a foreigner's guidebook. "global" questions are about the wider world and equally fair anywhere, but still phrased natively, with names in their established ${name} spelling.`,
+    'Rules for the four options:',
+    '- Exactly four options of the same kind (all people, all years, all cities…), similar in length, style and plausibility, each a real thing of that kind — no invented names or joke options.',
+    '- Each option fits the question grammatically (case, number, gender, word form) exactly as the correct one does, so grammar never gives the answer away.',
+    '- The wrong options tempt someone who half-knows the subject, yet are clearly wrong to someone who knows it. Exactly one option is correct.',
+    '- No "all of the above" or "none of the above", and the question must not give away the answer.',
+    'Other rules:',
+    '- Numbers, dates, units and names are written as speakers of this language write them; use the metric system unless the culture does not.',
     '- No questions whose answer depends on the language itself (e.g. "how many letters are in this word") unless the category is about language.',
-    '- No politics, tragedies, or anything offensive, sexual or divisive.',
+    '- No politics, wars, tragedies, or anything offensive, sexual or divisive.',
+    '- In one batch every question is about a different subject — never two about the same person, event or work — and the phrasing varies.',
+    '- explanation: one short sentence stating the fact the question is built on; write it first. Never start it with "Correct" or similar.',
     '- correctIndex is the 0-based index of the correct option. Vary its position across questions.',
-    '- explanation: one short sentence with the fact behind the answer.',
-  ].join('\n')
+  ]
+    .filter(Boolean)
+    .join('\n')
 }
 
 export type GenerateParams = {
@@ -150,6 +167,12 @@ export const shuffleOptions = (
   return { options: order.map((index) => options[index]!), correctIndex: order.indexOf(correctIndex) }
 }
 
+/** The share of the text's letters that are in `script`; 1 when it has no letters. */
+export const scriptShare = (text: string, script: RegExp): number => {
+  const letters = text.match(/\p{L}/gu) ?? []
+  return letters.length ? letters.filter((letter) => script.test(letter)).length / letters.length : 1
+}
+
 /**
  * Validates the model's JSON. Every check is a reason a question would be wrong or unfair
  * in play; a failing question is dropped, never repaired.
@@ -165,14 +188,15 @@ export const parseGeneratedQuestions = (text: string, locale: Locale): Generated
   const items = (parsed as { questions?: unknown })?.questions
   if (!Array.isArray(items)) return []
 
-  const script = LOCALE_INFO[locale].script
+  const { script, notNative }: LocaleInfo = LOCALE_INFO[locale]
   const seen = new Set<string>()
 
   return items.flatMap((item): GeneratedQuestion[] => {
     const raw = item as Record<string, unknown>
     const question = clip(raw.question, MAX_QUESTION_LENGTH)
     if (question.length < 8) return []
-    if (script && !script.test(question)) return []
+    if (script && scriptShare(question, script) < MIN_SCRIPT_SHARE) return []
+    if (notNative?.test(question)) return []
 
     const rawOptions = Array.isArray(raw.options) ? raw.options : []
     const options = rawOptions.map((option) => clip(option, MAX_OPTION_LENGTH))
@@ -228,7 +252,7 @@ export const checkAnswers = async (questions: GeneratedQuestion[], locale: Local
   try {
     const { text } = await generateJson({
       model: CHECKER_MODEL,
-      systemInstruction: `You are a careful quiz expert answering questions written in ${LOCALE_INFO[locale].name}. For each question, return the 0-based index of the correct option. Return -1 when no option is clearly correct.`,
+      systemInstruction: `You are a careful quiz expert answering questions written in ${LOCALE_INFO[locale].name}. For each question, return the 0-based index of the correct option. Return -1 when no option is clearly correct, or when more than one could be argued correct.`,
       contents: listing,
       schema: CHECK_SCHEMA,
       temperature: 0,
@@ -247,10 +271,12 @@ export type GenerationResult = { questions: GeneratedQuestion[]; model: string; 
 /** One Gemini call (plus the optional check). Throws `AllModelsFailedError` when the chain is exhausted. */
 export const generateQuestions = async (params: GenerateParams): Promise<GenerationResult> => {
   const { text, model, truncated } = await generateJson({
+    startAt: WRITER_MODEL,
     systemInstruction: buildSystemInstruction(params.locale),
     contents: buildPrompt(params),
     schema: QUESTIONS_SCHEMA,
-    maxOutputTokens: 8192,
+    // Thinking counts toward the cap, and non-Latin scripts take several tokens per word.
+    maxOutputTokens: 16384,
   })
 
   const parsed = parseGeneratedQuestions(text, params.locale)

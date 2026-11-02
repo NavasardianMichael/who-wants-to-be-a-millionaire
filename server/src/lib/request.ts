@@ -36,3 +36,22 @@ export const isEmail = (value: string): boolean =>
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
 
 export const isUuid = (value: string): boolean => UUID_PATTERN.test(value)
+
+/** A leaderboard name; mirrored by the profile and sign-up forms. */
+export const DISPLAY_NAME_LIMITS = { min: 2, max: 24 } as const
+
+/**
+ * `undefined` unless 2–24 characters once trimmed, with no control or zero-width characters —
+ * they make two names look identical on the board.
+ */
+export const asDisplayName = (value: unknown): string | undefined => {
+  const name = asBoundedString(value, DISPLAY_NAME_LIMITS.max + 1)
+  if (!name || name.length < DISPLAY_NAME_LIMITS.min || name.length > DISPLAY_NAME_LIMITS.max) return undefined
+  return /[\p{Cc}\p{Cf}]/u.test(name) ? undefined : name
+}
+
+/** Lower-cased, so `Ann@x.com` and `ann@x.com` are one account (the column is citext too). */
+export const asEmail = (value: unknown): string | undefined => {
+  const email = asTrimmedString(value)?.toLowerCase()
+  return email && isEmail(email) ? email : undefined
+}

@@ -1,6 +1,6 @@
 # Production setup
 
-The one-time, app-specific steps to run Millionaire Quiz on the server, in order. Assumed to be
+The one-time, app-specific steps to run Millionaire on the server, in order. Assumed to be
 in place already, so nothing here creates a user or installs them:
 
 - the existing `michael` user, with sudo
@@ -227,7 +227,7 @@ MAIL_APP_ID="millionaire"
 The first three are required. The others in part A of
 [server/.env.example](../server/.env.example) are optional: an empty `GEMINI_KEY` serves games
 from the pool and the English bank only, empty `GOOGLE_*` turns sign-in off, and an empty
-`MAIL_API_KEY` makes the contact form answer 503. Leave out `NODE_ENV`, `PORT`, `HOST` and
+`MAIL_API_KEY` makes the contact form, password sign-up and password reset answer 503. Leave out `NODE_ENV`, `PORT`, `HOST` and
 `UPLOAD_DIR`: the pipeline sets them itself.
 
 Generate the `ENV_API_BASE64` value from it, straight to the clipboard. `clip` is Windows and

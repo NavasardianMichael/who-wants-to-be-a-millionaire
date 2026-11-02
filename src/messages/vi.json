@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Đố Vui Triệu Phú",
-    "wordmarkTop": "Triệu Phú",
-    "wordmarkBottom": "Đố Vui",
+    "appName": "Triệu Phú",
     "tagline": "Trò chơi đố vui truyền hình bằng ngôn ngữ của bạn",
     "play": "Chơi",
     "playNow": "Chơi ngay",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "ai là triệu phú trò chơi, ai là triệu phú bằng tiếng Việt, game triệu phú trực tuyến, đố vui triệu phú, game đố vui, đố vui miễn phí, đố vui trí tuệ",
+    "showTitle": "Ai là triệu phú?",
     "homeTitle": "Ai là triệu phú? Trò chơi trực tuyến miễn phí bằng tiếng Việt | Đố Vui Triệu Phú",
     "homeDescription": "Chơi “Ai là triệu phú?” trực tuyến miễn phí bằng tiếng Việt: 15 câu hỏi đến với một triệu, bốn quyền trợ giúp và hai mốc an toàn, với câu hỏi được viết bằng tiếng Việt, không dịch thuật. Không cần đăng ký. Cũng có sẵn bằng 79 ngôn ngữ khác.",
     "playTitle": "Đố Vui Triệu Phú bản Cổ điển — 15 câu hỏi đến giải triệu đô",

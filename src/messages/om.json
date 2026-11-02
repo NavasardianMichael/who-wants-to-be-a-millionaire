@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Dorgommii Abbaa Miliyoonaa",
-    "wordmarkTop": "Abbaa Miliyoonaa",
-    "wordmarkBottom": "Dorgommii",
+    "appName": "Abbaa Miliyoonaa",
     "tagline": "Tapha dorgommii gaaffii afaan keessaniin",
     "play": "Taphadhaa",
     "playNow": "Amma taphadhaa",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "tapha eenyutu abbaa miliyoonaa ta'uu barbaada, eenyutu abbaa miliyoonaa ta'uu barbaada afaan Oromootiin, tapha miliyoonaa marsariitiirratti, dorgommii abbaa miliyoonaa, tapha gaaffilee, gaaffii bilisaa, trivia",
+    "showTitle": "Eenyutu abbaa miliyoonaa ta'uu barbaada?",
     "homeTitle": "Eenyutu abbaa miliyoonaa ta'uu barbaada? Tapha bilisaa marsariitiirratti Afaan Oromootiin | Dorgommii Abbaa Miliyoonaa",
     "homeDescription": "Tapha „Eenyutu abbaa miliyoonaa ta'uu barbaada?“ marsariitiirratti Afaan Oromootiin bilisaan taphadhu: gaaffilee 15 gara miliyoonaatti, gargaarsa afurfi bakka buufata nageenyaa lama, gaaffilee Afaan Oromootiin qophaa'an malee kan hiikaman miti. Galmaa'uun hin barbaachisu. Afaanota biroo 79nillee ni argama.",
     "playTitle": "Kilaasikii Dorgommii Abbaa Miliyoonaa — gaaffilee 15 hanga miliyoonaatti",

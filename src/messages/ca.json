@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Concurs Milionari",
-    "wordmarkTop": "Milionari",
-    "wordmarkBottom": "Concurs",
+    "appName": "Milionari",
     "tagline": "El concurs de preguntes en la teva llengua",
     "play": "Juga",
     "playNow": "Juga ara",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "joc qui vol ser milionari, qui vol ser milionari en català, joc del milionari en línia, concurs milionari, joc de preguntes, qüestionari gratuït, trivia",
+    "showTitle": "Qui vol ser milionari?",
     "homeTitle": "Qui vol ser milionari? Joc en línia gratuït en català | Concurs Milionari",
     "homeDescription": "Juga a «Qui vol ser milionari?» gratis en línia en català: 15 preguntes fins al milió, quatre comodins i dos nivells segurs, amb preguntes redactades en català, no traduïdes. Sense registre. També en 79 altres llengües.",
     "playTitle": "Concurs Milionari Clàssic — 15 preguntes fins al milió",

@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Quiz Millonario",
-    "wordmarkTop": "Millonario",
-    "wordmarkBottom": "Quiz",
+    "appName": "Millonario",
     "tagline": "El concurso de preguntas en su idioma",
     "play": "Jugar",
     "playNow": "Juegue ya",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "juego quién quiere ser millonario, quién quiere ser millonario en español, juego de millonario en línea, Quiz Millonario, juego de preguntas, trivial gratis",
+    "showTitle": "¿Quién quiere ser millonario?",
     "homeTitle": "¿Quién quiere ser millonario? Juego en línea gratuito en español | Quiz Millonario",
     "homeDescription": "Juegue a «¿Quién quiere ser millonario?» gratis en línea en español: 15 preguntas hasta el millón, cuatro comodines y dos asegurados, con preguntas redactadas en español y no traducidas. Sin registro. También en otros 79 idiomas.",
     "playTitle": "Quiz Millonario Clásico — 15 preguntas hasta el millón",

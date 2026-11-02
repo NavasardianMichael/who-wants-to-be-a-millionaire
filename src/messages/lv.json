@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljonāra viktorīna",
-    "wordmarkTop": "Miljonāra",
-    "wordmarkBottom": "viktorīna",
+    "appName": "Miljonārs",
     "tagline": "Televīzijas viktorīnas spēle tavā valodā",
     "play": "Spēlēt",
     "playNow": "Spēlēt tagad",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "kurš vēlas kļūt par miljonāru spēle, kurš vēlas kļūt par miljonāru latviešu valodā, miljonāra spēle tiešsaistē, miljonāra viktorīna, viktorīnas spēle, bezmaksas viktorīna, nieki",
+    "showTitle": "Kurš vēlas kļūt par miljonāru?",
     "homeTitle": "Kurš vēlas kļūt par miljonāru? Bezmaksas tiešsaistes spēle latviešu valodā | Miljonāra viktorīna",
     "homeDescription": "Spēlējiet „Kurš vēlas kļūt par miljonāru?“ bezmaksas tiešsaistē latviešu valodā: 15 jautājumi līdz miljonam, četri palīglīdzekļi un divi droši posmi, ar jautājumiem, kas radīti latviešu valodā, nevis tulkoti. Bez reģistrācijas. Pieejams arī 79 citās valodās.",
     "playTitle": "Klasiskā miljonāra viktorīna – 15 jautājumi līdz miljonam",

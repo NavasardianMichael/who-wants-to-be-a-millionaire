@@ -3,7 +3,7 @@ import { isGeminiConfigured } from '../config.js'
 import { type Level, OPTION_LETTERS } from '../lib/game.js'
 import { clip, generateJson } from '../lib/gemini.js'
 import { type FriendConfidence, friendPick } from '../lib/lifelines.js'
-import { type Locale, LOCALE_INFO } from '../lib/locales.js'
+import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
 
 /**
  * Phone a Friend. **Code decides, the model only speaks.** `friendPick` chooses the answer
@@ -61,7 +61,7 @@ export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> 
   const base: FriendAnswer = { friendName: null, message: null, suggestedIndex: pick.index, confidence: pick.confidence }
   if (!isGeminiConfigured()) return base
 
-  const { name, culture } = LOCALE_INFO[request.locale]
+  const { name, culture, writing }: LocaleInfo = LOCALE_INFO[request.locale]
   const letter = OPTION_LETTERS[pick.index]!
   const optionText = request.options[pick.index]!
   const board = request.options
@@ -73,10 +73,13 @@ export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> 
     const { text } = await generateJson({
       systemInstruction: [
         `You play the friend who answers a "Phone a Friend" call on a TV quiz show. Reply in natural, spoken ${name} only.`,
+        writing ?? '',
         `Invent a first name that is common in ${culture} for yourself (friendName).`,
         'message: what you say on the phone, at most 35 words. Think out loud briefly, then name your answer with its letter.',
         'You must choose exactly the answer you are told to choose — never mention a different option as your answer.',
-      ].join('\n'),
+      ]
+        .filter(Boolean)
+        .join('\n'),
       contents: `Question: ${request.question}\nOptions:\n${board}\n\nYour answer: ${letter} (${optionText}).\nYour tone: ${CONFIDENCE_TONE[pick.confidence]}.`,
       schema: FRIEND_SCHEMA,
       maxOutputTokens: 1024,

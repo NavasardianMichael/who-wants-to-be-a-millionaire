@@ -26,3 +26,19 @@ export const localeOfPath = (value: string | null): string => {
   const segment = firstSegment(value)
   return LOCALE_PATTERN.test(segment) ? segment : 'en'
 }
+
+/** Pages the account emails link to, under the reader's locale — twins of `ROUTES` on the web. */
+export const ACCOUNT_PATH = {
+  verifyEmail: '/verify-email',
+  resetPassword: '/reset-password',
+  forgotPassword: '/forgot-password',
+} as const
+
+/** The query both emailed links carry (`TOKEN_QUERY` on the web). */
+export const TOKEN_QUERY = 'token'
+
+export const buildWebUrl = (origin: string, path: string, params: Record<string, string> = {}): string => {
+  const url = new URL(path.replace(/^\/+/, ''), origin.endsWith('/') ? origin : `${origin}/`)
+  for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value)
+  return url.toString()
+}

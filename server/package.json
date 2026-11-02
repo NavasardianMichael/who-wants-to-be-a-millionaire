@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@google/genai": "^2.31.0",
+    "@node-rs/argon2": "^2.2.2",
     "@prisma/client": "^6.19.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",

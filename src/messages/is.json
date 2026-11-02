@@ -1,8 +1,6 @@
 {
   "Common": {
     "appName": "Milljónakviss",
-    "wordmarkTop": "Milljóna",
-    "wordmarkBottom": "kviss",
     "tagline": "Sjónvarpsspurningaleikur á þínu tungumáli",
     "play": "Spila",
     "playNow": "Spila núna",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "hver vill verða milljónamæringur leikur, hver vill verða milljónamæringur á íslensku, milljónamæringaleikur á netinu, milljónakviss, spurningaleikur, ókeypis spurningaleikur, almenn vitneskja",
+    "showTitle": "Hver vill verða milljónamæringur?",
     "homeTitle": "Hver vill verða milljónamæringur? Ókeypis netleikur á íslensku | Milljónakviss",
     "homeDescription": "Spilaðu „Hver vill verða milljónamæringur?“ ókeypis á netinu á íslensku: 15 spurningar að milljóninni, fjórir hjálparsímar og tvö öryggissvæði, með spurningum skrifuðum á íslensku en ekki þýddum. Engin skráning. Einnig á 79 öðrum tungumálum.",
     "playTitle": "Klassískur milljónaleikur – 15 spurningar að milljóninni",

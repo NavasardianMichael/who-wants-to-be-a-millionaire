@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milijonarski kviz",
-    "wordmarkTop": "Milijonarski",
-    "wordmarkBottom": "kviz",
+    "appName": "Milijonar",
     "tagline": "Televizijski kviz v tvojem jeziku",
     "play": "Igraj",
     "playNow": "Igraj zdaj",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "igra kdo želi postati milijonar, kdo želi postati milijonar v slovenščini, milijonarska igra na spletu, miljonarski kviz, kviz, brezplačni kviz, malenkosti",
+    "showTitle": "Kdo želi postati milijonar?",
     "homeTitle": "Kdo želi postati milijonar? Brezplačna spletna igra v slovenščini | Milijonarski kviz",
     "homeDescription": "Igrajte „Kdo želi postati milijonar?“ brezplačno na spletu v slovenščini: 15 vprašanj do milijona, štiri pomoči in dve varni točki, z vprašanji, napisanimi v slovenščini in ne prevedenimi. Brez prijave. Na voljo tudi v 79 drugih jezikih.",
     "playTitle": "Klasični milijonarski kviz – 15 vprašanj do milijona",

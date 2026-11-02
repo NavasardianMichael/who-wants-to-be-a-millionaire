@@ -2,7 +2,7 @@
  * Captures the install-dialog screenshots listed in the web manifest
  * (`src/app/[lang]/manifest.webmanifest/route.ts`) into `public/screenshots/`.
  *
- *   node scripts/pwa-screenshots.mjs [baseUrl]   # default http://localhost:7006
+ *   node scripts/pwa-screenshots.mjs [baseUrl] [screen…]   # default http://localhost:7006, every screen
  *
  * Point it at production for the cleanest shots (no dev indicator, real question pool).
  * Chrome shows its richer install dialog only with screenshots of both form factors: `narrow`
@@ -14,6 +14,7 @@ import { fileURLToPath } from 'node:url'
 import { chromium } from '@playwright/test'
 
 const BASE_URL = (process.argv[2] ?? 'http://localhost:7006').replace(/\/$/, '')
+const ONLY = process.argv.slice(3)
 const OUT_DIR = fileURLToPath(new URL('../public/screenshots/', import.meta.url))
 
 const FORM_FACTORS = {
@@ -22,8 +23,12 @@ const FORM_FACTORS = {
   wide: { viewport: { width: 1280, height: 920 }, deviceScaleFactor: 1.5 },
 }
 
-/** Lets entrance animations finish and parks the pointer, so no hover or tooltip is caught. */
+/**
+ * Lets entrance animations finish and parks the pointer, so no hover or tooltip is caught.
+ * Hides Next's dev indicator, so a local capture is as clean as a production one.
+ */
 const settle = async (page) => {
+  await page.addStyleTag({ content: 'nextjs-portal { display: none !important; }' })
   await page.mouse.move(0, 0)
   await page.waitForTimeout(2500)
 }
@@ -38,6 +43,12 @@ const SCREENS = {
     await page.getByRole('button', { name: 'Start game' }).click()
     await page.getByRole('button', { name: /^Option D:/ }).waitFor({ timeout: 30_000 })
   },
+  // The switcher's dialog lists every language by its own name: the range at a glance.
+  languages: async (page) => {
+    await page.goto(`${BASE_URL}/en`)
+    await page.getByRole('button', { name: 'Choose your language' }).first().click()
+    await page.getByRole('dialog').waitFor()
+  },
   categories: async (page) => {
     await page.goto(`${BASE_URL}/en/categories`)
   },
@@ -49,6 +60,7 @@ await mkdir(OUT_DIR, { recursive: true })
 for (const [formFactor, contextOptions] of Object.entries(FORM_FACTORS)) {
   const context = await browser.newContext({ ...contextOptions, locale: 'en-US', colorScheme: 'dark' })
   for (const [name, open] of Object.entries(SCREENS)) {
+    if (ONLY.length && !ONLY.includes(name)) continue
     const page = await context.newPage()
     await open(page)
     await settle(page)

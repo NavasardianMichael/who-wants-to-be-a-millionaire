@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Imibuzo Yosozigidi",
-    "wordmarkTop": "Yosozigidi",
-    "wordmarkBottom": "Imibuzo",
+    "appName": "Usozigidi",
     "tagline": "Umdlalo wemibuzo ngolimi lwakho",
     "play": "Dlala",
     "playNow": "Dlala manje",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "umdlalo ka-ubani ofuna ukuba usozigidi, ubani ofuna ukuba usozigidi ngesiZulu, umdlalo wosozigidi ku-inthanethi, imibuzo yosozigidi, umdlalo wemibuzo, imibuzo yamahhala, inhlekisa",
+    "showTitle": "Ubani ofuna ukuba usozigidi?",
     "homeTitle": "Ubani ofuna ukuba usozigidi? Umdlalo wamahhala ku-inthanethi ngesiZulu | Imibuzo Yosozigidi",
     "homeDescription": "Dlala u-“Ubani ofuna ukuba usozigidi?” mahhala ku-inthanethi ngesiZulu: imibuzo eyi-15 eya esigidini, izinsiza ezine nezindawo ezimbili zokuphepha, enemibuzo ebhalwe ngesiZulu, ingahunywanga. Akukho ukubhalisa. Futhi nakwezinye izilimi ezingama-79.",
     "playTitle": "Okwakudala — imibuzo engu-15 eya esigidini",

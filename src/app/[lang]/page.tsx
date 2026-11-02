@@ -4,9 +4,8 @@ import { getTranslations } from 'next-intl/server'
 import { languageName } from '@i18n/languageNames'
 import { currentLocale, pageMetadata } from '@i18n/metadata'
 import { APP_NAME, SHOW_TITLE } from '@constants/app'
-import { BADGE_IDS, LADDER } from '@constants/game'
+import { BADGE_IDS } from '@constants/game'
 import { ROUTES } from '@constants/routes'
-import { formatMoney } from '@helpers/money'
 import { gameSchema, websiteSchema } from '@linkedDataSchema/index'
 import { BadgeMedal } from '@components/badges/BadgeMedal'
 import { CategoryGrid } from '@components/marketing/CategoryGrid'
@@ -35,8 +34,11 @@ export default async function HomePage() {
   const t = await getTranslations()
 
   const inEnglish = `${SHOW_TITLE} in ${languageName(locale, 'en')}`
-  const alternateNames = [...new Set([t('Home.heroTitle'), inEnglish, APP_NAME])].filter((each) => each !== t('Common.appName'))
+  const alternateNames = [...new Set([t('Seo.showTitle'), inEnglish, APP_NAME])].filter((each) => each !== t('Common.appName'))
   const showcase = BADGE_IDS.filter((_, index) => index % 3 === 0).slice(0, 6)
+  // France (12 zones) sits second, the option the preview shows locked in.
+  const country = new Intl.DisplayNames([locale], { type: 'region' })
+  const demoOptions = ['RU', 'FR', 'US', 'CN'].map((code) => country.of(code) ?? code)
 
   return (
     <>
@@ -55,15 +57,7 @@ export default async function HomePage() {
             <ModeCards locale={locale} compact />
           </div>
         </div>
-        <StudioPreview
-          question={t('Home.faq3Question')}
-          options={[
-            formatMoney(LADDER[0], locale),
-            formatMoney(LADDER[4], locale),
-            formatMoney(LADDER[9], locale),
-            formatMoney(LADDER[14], locale),
-          ]}
-        />
+        <StudioPreview question={t('Home.demoQuestion')} options={demoOptions} />
       </section>
 
       <Section id='how' title={t('Home.howTitle')}>

@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljoenêrvasvra",
-    "wordmarkTop": "Miljoenêr",
-    "wordmarkBottom": "vasvra",
+    "appName": "Miljoenêr",
     "tagline": "Die vasvraspel in u eie taal",
     "play": "Speel",
     "playNow": "Speel nou",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "wie wil 'n miljoenêr wees speletjie, wie wil 'n miljoenêr wees in afrikaans, miljoenêr speletjie aanlyn, miljoenêrvasvra, vasvra speletjie, gratis vasvra, trivia",
+    "showTitle": "Wie wil 'n miljoenêr wees?",
     "homeTitle": "Wie wil 'n miljoenêr wees? Gratis aanlyn speletjie in Afrikaans | Miljoenêrvasvra",
     "homeDescription": "Speel “Wie wil 'n miljoenêr wees?” gratis aanlyn in Afrikaans: 15 vrae tot die miljoen, vier hulplyne en twee veilige hawens, met vrae wat in Afrikaans geskryf is, nie vertaal nie. Geen aanmelding nie. Ook in 79 ander tale.",
     "playTitle": "Klassieke miljoenêrvasvra – 15 vrae tot die miljoen",

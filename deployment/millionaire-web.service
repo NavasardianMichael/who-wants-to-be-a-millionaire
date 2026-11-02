@@ -6,7 +6,7 @@
 # what promotes a release. Never point it at a concrete releases/<sha> path.
 # =============================================================================
 [Unit]
-Description=Who Wants to Be a Millionaire — web (Next.js)
+Description=Millionaire — web (Next.js)
 After=network-online.target
 Wants=network-online.target
 

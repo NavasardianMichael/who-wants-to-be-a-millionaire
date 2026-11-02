@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kuis Miliarder",
-    "wordmarkTop": "Miliarder",
-    "wordmarkBottom": "Kuis",
+    "appName": "Miliarder",
     "tagline": "Game kuis ala acara TV dalam bahasa Anda",
     "play": "Main",
     "playNow": "Main sekarang",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "permainan who wants to be a millionaire, who wants to be a millionaire dalam bahasa Indonesia, permainan miliarder online, kuis miliarder, permainan kuis, kuis gratis, trivia",
+    "showTitle": "Siapa yang ingin jadi miliuner?",
     "homeTitle": "Siapa yang ingin jadi miliuner? Permainan daring gratis dalam bahasa Indonesia | Kuis Miliarder",
     "homeDescription": "Mainkan “Siapa yang ingin jadi miliuner?” gratis secara daring dalam bahasa Indonesia: 15 pertanyaan menuju satu juta, empat bantuan dan dua tempat aman, dengan pertanyaan yang ditulis dalam bahasa Indonesia, bukan diterjemahkan. Tanpa pendaftaran. Tersedia juga dalam 79 bahasa lainnya.",
     "playTitle": "Kuis Miliarder Klasik — 15 pertanyaan menuju satu juta dolar",

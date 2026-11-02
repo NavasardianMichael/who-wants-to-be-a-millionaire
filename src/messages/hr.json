@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milijunaški kviz",
-    "wordmarkTop": "Milijunaški",
-    "wordmarkBottom": "Kviz",
+    "appName": "Milijunaš",
     "tagline": "Kviz-show igra na tvom jeziku",
     "play": "Igraj",
     "playNow": "Igraj odmah",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "tko želi biti milijunaš igra, tko želi biti milijunaš na hrvatskom, milijunaš igra online, milijuhaški kviz, kviz igra, besplatni kviz, trivia",
+    "showTitle": "Tko želi biti milijunaš?",
     "homeTitle": "Tko želi biti milijunaš? Besplatna mrežna igra na hrvatskom | Milijunaški kviz",
     "homeDescription": "Igrajte „Tko želi biti milijunaš?” besplatno na mreži na hrvatskom: 15 pitanja do milijuna, četiri džokera i dva praga, s pitanjima pisanim na hrvatskom, a ne prevedenim. Bez registracije. Također na 79 drugih jezika.",
     "playTitle": "Milijunaški kviz: Klasik — 15 pitanja do milijuna",

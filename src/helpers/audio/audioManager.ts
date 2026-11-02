@@ -8,11 +8,16 @@ import { type SoundId,SOUNDS } from './sounds'
  * Sequencing waits on each sting's real `ended` event — the original app slept for
  * hard-coded durations, which drifted the moment a file changed. Every wait also has a
  * ceiling, so a sound that never plays (muted tab, autoplay refused, file missing) can
- * never stall the game.
+ * never stall the game. A sting is the sound of one beat: when its ceiling passes, the game
+ * moves on and the sting fades out with it rather than play on under the next beat.
  *
  * Browser autoplay rules: nothing can sound before the first user gesture. A refused music
  * bed is retried on that gesture; a refused sting is simply skipped — the game is fully
  * playable silent.
+ *
+ * A hidden page (a locked phone, another app or tab) is silent: the bed pauses and resumes on
+ * return, a sting in flight is dropped. Pausing rather than muting matters on iOS, where a
+ * muted element still plays on the lock screen and keeps the media session alive.
  */
 type PlayOptions = {
   /** Upper bound on how long `playSting` may keep the game waiting. */
@@ -20,10 +25,19 @@ type PlayOptions = {
 }
 
 /**
+ * How a sting stopped: it played out, the game moved on past its ceiling (it fades), or it
+ * was cut (the next beat's sound takes over at once).
+ */
+type StingEnd = 'ended' | 'timeout' | 'cut'
+
+/**
  * A breath between one sound and the next: back-to-back stings (final answer → correct →
  * next) and the music picking up after them otherwise run into each other.
  */
 const GAP_MS = 350
+
+/** A sting overtaken by the game. iOS ignores `volume`, so there it is a cut at the end. */
+const FADE_MS = 250
 
 /** A refused `play()` (no gesture yet, muted tab) is expected; the game carries on silently. */
 const ignoreAutoplayRefusal = (): void => {}
@@ -31,11 +45,28 @@ const ignoreAutoplayRefusal = (): void => {}
 class AudioManager {
   private music: HTMLAudioElement | null = null
   private musicId: SoundId | null = null
-  private stings = new Set<HTMLAudioElement>()
+  /** Stings playing, each with the function that ends it. */
+  private stings = new Map<HTMLAudioElement, (how: StingEnd) => void>()
+  private fading = new Set<HTMLAudioElement>()
   private muted = false
   private volume = 0.8
+  private hidden = false
   /** Nothing new starts before this moment (epoch ms): the silence after the last sting. */
   private quietUntil = 0
+
+  constructor() {
+    if (typeof document === 'undefined') return
+    this.hidden = document.hidden
+    document.addEventListener('visibilitychange', () => {
+      this.hidden = document.hidden
+      if (this.hidden) {
+        this.music?.pause()
+        this.stopStings()
+      } else {
+        this.resumeMusic()
+      }
+    })
+  }
 
   private get quietMs(): number {
     return Math.max(0, this.quietUntil - Date.now())
@@ -52,7 +83,7 @@ class AudioManager {
       this.music.muted = muted
       this.music.volume = this.volume
     }
-    for (const sting of this.stings) {
+    for (const sting of this.stings.keys()) {
       sting.muted = muted
       sting.volume = this.volume
     }
@@ -78,13 +109,21 @@ class AudioManager {
     audio.volume = this.volume
     this.music = audio
     this.musicId = id
-    // Refused before the first gesture (autoplay rules): start it on the first click or key instead.
-    const start = () => {
-      if (this.music === audio && this.stings.size === 0) audio.play().catch(() => this.resumeOnGesture(audio))
+    this.resumeMusic(this.quietMs)
+  }
+
+  /** Starts (or restarts) the bed — unless a sting has the floor or the page is hidden. */
+  private resumeMusic(delayMs = 0): void {
+    const music = this.music
+    if (!music) return
+    const resume = () => {
+      // Refused before the first gesture (autoplay rules): start it on the first click or key instead.
+      if (this.music === music && music.paused && this.stings.size === 0 && !this.hidden) {
+        music.play().catch(() => this.resumeOnGesture(music))
+      }
     }
-    const wait = this.quietMs
-    if (wait) setTimeout(start, wait)
-    else start()
+    if (delayMs) setTimeout(resume, delayMs)
+    else resume()
   }
 
   private resumeOnGesture(audio: HTMLAudioElement): void {
@@ -92,7 +131,7 @@ class AudioManager {
       document.removeEventListener('pointerdown', resume, true)
       document.removeEventListener('keydown', resume, true)
       // Only if that bed is still the one meant to play.
-      if (this.music === audio && audio.paused) audio.play().catch(ignoreAutoplayRefusal)
+      if (this.music === audio && audio.paused && this.stings.size === 0) audio.play().catch(ignoreAutoplayRefusal)
     }
     document.addEventListener('pointerdown', resume, true)
     document.addEventListener('keydown', resume, true)
@@ -108,53 +147,64 @@ class AudioManager {
 
   /** Plays a sting; resolves when it ends (or at `maxWaitMs`, whichever is first). */
   playSting(id: SoundId, { maxWaitMs = 12_000 }: PlayOptions = {}): Promise<void> {
-    if (!this.available) return Promise.resolve()
+    if (!this.available || this.hidden) return Promise.resolve()
 
     const audio = new Audio(SOUNDS[id].src)
     audio.muted = this.muted
     audio.volume = this.volume
-    this.stings.add(audio)
     this.music?.pause()
 
     return new Promise<void>((resolve) => {
-      let settled = false
-      const finish = () => {
-        if (settled) return
-        settled = true
+      const finish = (how: StingEnd) => {
+        if (!this.stings.has(audio)) return
         clearTimeout(timer)
         this.stings.delete(audio)
-        this.quietUntil = Date.now() + GAP_MS
-        const music = this.music
-        if (music && this.stings.size === 0) {
-          setTimeout(() => {
-            if (this.music === music && this.stings.size === 0) music.play().catch(ignoreAutoplayRefusal)
-          }, GAP_MS)
-        }
+        if (how === 'timeout') this.fadeOut(audio)
+        else audio.pause()
+        // A sting that played out leaves a breath; one the game cut hands over at once, so the
+        // next beat's sound lands together with its action.
+        if (how === 'ended') this.quietUntil = Date.now() + GAP_MS
+        this.resumeMusic(how === 'ended' ? GAP_MS : 0)
         resolve()
       }
-      const timer = setTimeout(finish, this.muted ? 0 : maxWaitMs)
-      audio.addEventListener('ended', finish, { once: true })
-      audio.addEventListener('error', finish, { once: true })
-      const wait = this.quietMs
+      this.stings.set(audio, finish)
+      const timer = setTimeout(() => finish('timeout'), this.muted ? 0 : maxWaitMs)
+      audio.addEventListener('ended', () => finish('ended'), { once: true })
+      audio.addEventListener('error', () => finish('cut'), { once: true })
       const start = () => {
-        if (!settled) audio.play().catch(finish)
+        if (this.stings.has(audio)) audio.play().catch(() => finish('cut'))
       }
+      const wait = this.quietMs
       if (wait) setTimeout(start, wait)
       else start()
     })
   }
 
+  private fadeOut(audio: HTMLAudioElement): void {
+    this.fading.add(audio)
+    const from = audio.volume
+    const startedAt = Date.now()
+    const step = setInterval(() => {
+      const left = 1 - (Date.now() - startedAt) / FADE_MS
+      if (left > 0 && this.fading.has(audio)) {
+        audio.volume = from * left
+        return
+      }
+      clearInterval(step)
+      audio.pause()
+      this.fading.delete(audio)
+    }, 25)
+  }
+
   stopStings(): void {
-    for (const sting of this.stings) {
-      sting.pause()
-      sting.dispatchEvent(new Event('ended'))
-    }
-    this.stings.clear()
+    for (const finish of [...this.stings.values()]) finish('cut')
+    for (const audio of this.fading) audio.pause()
+    this.fading.clear()
   }
 
   stopAll(): void {
-    this.stopStings()
     this.stopMusic()
+    this.stopStings()
   }
 }
 

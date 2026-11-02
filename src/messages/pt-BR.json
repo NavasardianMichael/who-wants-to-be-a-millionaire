@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Quiz Milionário",
-    "wordmarkTop": "Milionário",
-    "wordmarkBottom": "Quiz",
+    "appName": "Milionário",
     "tagline": "O game show de perguntas no seu idioma",
     "play": "Jogar",
     "playNow": "Jogar agora",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "jogo quem quer ser um milionario, quem quer ser um milionario em portugues, jogo do milhao online, quiz milionario, jogo de perguntas, quiz gratis, trivia",
+    "showTitle": "Quem quer ser um milionário?",
     "homeTitle": "Quem quer ser um milionário? Jogo online gratuito em português | Quiz Milionário",
     "homeDescription": "Jogue “Quem quer ser um milionário?” gratuitamente online em português: 15 perguntas até ao milhão, quatro ajudas e dois patamares, com perguntas escritas em português, não traduzidas. Sem registo. Também em outros 79 idiomas.",
     "playTitle": "Quiz Milionário Clássico — 15 perguntas até o milhão",

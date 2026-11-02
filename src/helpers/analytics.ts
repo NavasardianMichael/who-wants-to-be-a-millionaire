@@ -8,6 +8,8 @@ export type AnalyticsEvent =
   | 'question_reported'
   | 'pack_downloaded'
   | 'sign_in_clicked'
+  | 'login'
+  | 'sign_up'
   | 'sound_toggled'
   | 'pwa_prompt_shown'
   | 'pwa_installed'

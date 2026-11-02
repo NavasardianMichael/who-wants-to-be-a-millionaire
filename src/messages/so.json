@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kediska Malaayiinlaha",
-    "wordmarkTop": "Malaayiinlaha",
-    "wordmarkBottom": "Kediska",
+    "appName": "Malaayiinlaha",
     "tagline": "Ciyaarta tartanka aqoonta ee luqaddaada",
     "play": "Ciyaar",
     "playNow": "Hadda ciyaar",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "ciyaarta yaa doonaya inuu malaayiinle noqdo, yaa doonaya inuu malaayiinle noqdo af Soomaali, ciyaarta malaayiinle ee khadka tooska ah, Kediska Malaayiinlaha, ciyaarta su'aalaha, su'aalo bilaash ah, kedis",
+    "showTitle": "Yaa doonaya inuu malaayiinle noqdo?",
     "homeTitle": "Yaa doonaya inuu malaayiinle noqdo? Ciyaar bilaash ah oo khadka tooska ah ku ah af Soomaali | Kediska Malaayiinlaha",
     "homeDescription": "Ciyaar «Yaa doonaya inuu malaayiinle noqdo?» bilaash ah oo khadka tooska ah ku ah af Soomaali: 15 su'aalood ilaa malaanka, afar badbaado iyo laba meelood oo badbaado leh, oo ay ku jiraan su'aalo lagu qoray af Soomaali, ee aan la tarjumin. Is-diiwaangelin la'aan. Sidoo kale 79 luqadood oo kale.",
     "playTitle": "Kediska Malaayiinlaha: Asalka — 15 su'aalood ilaa malyuunka",

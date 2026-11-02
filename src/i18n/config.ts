@@ -204,6 +204,54 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   su: 'Basa Sunda',
 }
 
+/**
+ * The switcher button's short label, in the language's own script. Latin-script languages
+ * are absent and show their code (`ES`, `DE`); a code in Latin letters means nothing to a
+ * reader of Armenian or Thai.
+ */
+const NATIVE_SHORT_LABELS: Partial<Record<Locale, string>> = {
+  'zh-CN': '简中',
+  hi: 'हिं',
+  ar: 'عربي',
+  bn: 'বাং',
+  ru: 'РУС',
+  ur: 'اردو',
+  ja: '日本',
+  mr: 'मरा',
+  te: 'తెలు',
+  ta: 'தமி',
+  ko: '한국',
+  fa: 'فا',
+  th: 'ไทย',
+  gu: 'ગુજ',
+  uk: 'УКР',
+  kn: 'ಕನ್ನ',
+  ml: 'മല',
+  pa: 'ਪੰਜ',
+  el: 'ΕΛ',
+  he: 'עב',
+  bg: 'БГ',
+  sr: 'СРП',
+  kk: 'ҚАЗ',
+  hy: 'ՀԱՅ',
+  ka: 'ქარ',
+  'zh-TW': '繁中',
+  am: 'አማ',
+  ne: 'नेपा',
+  my: 'မြန်',
+  si: 'සිං',
+  km: 'ខ្មែរ',
+  ps: 'پښ',
+  or: 'ଓଡ଼ି',
+  ky: 'КЫР',
+  mn: 'МОН',
+  lo: 'ລາວ',
+  mk: 'МАК',
+  be: 'БЕЛ',
+}
+
+export const localeShortLabel = (locale: Locale): string => NATIVE_SHORT_LABELS[locale] ?? locale.toUpperCase()
+
 /** OpenGraph wants `ll_CC`; a best-effort region per language. */
 export const OG_LOCALES: Record<Locale, string> = {
   en: 'en_US',

@@ -23,6 +23,7 @@ export function generateStaticParams() {
 const SCREENSHOTS = [
   { name: 'home', label: 'Common.tagline' },
   { name: 'game', label: 'Modes.classic.tagline' },
+  { name: 'languages', label: 'Home.languagesTitle' },
   { name: 'categories', label: 'Seo.categoriesTitle' },
 ] as const
 

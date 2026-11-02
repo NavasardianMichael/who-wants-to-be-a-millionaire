@@ -7,6 +7,8 @@ import type { QuestionSource } from '@helpers/offline/questionSource'
 /**
  * idle → loading → asking ⇄ selected → locked → revealed → transition → asking … → ended
  *
+ * Classic's `transition` is the ladder climb (`ladderClimb`): the stage moves up mid-way.
+ *
  * `selected` exists only in Classic, where the show's "Is that your final answer?" step
  * applies; Marathon and Time Attack lock on the first tap. `switching` is Switch the
  * Question's interlude: asking → switching → asking (a new question).
@@ -82,6 +84,8 @@ export type GameSessionState = StateCommonProps & {
   busyLifeline: Lifeline | null
   overlay: LifelineOverlay
   switchPreview: SwitchPreview
+  /** Classic, between questions: the money ladder has the floor while it climbs to the next rung. */
+  ladderClimb: boolean
   /** Epoch ms on this device's clock; null = no limit. */
   questionDeadline: number | null
   /** Time Attack: when the whole run ends. */

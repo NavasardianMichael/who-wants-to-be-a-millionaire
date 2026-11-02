@@ -2,9 +2,12 @@
  * The English brand: JSON-LD `alternateName` and llms.txt. Everything a visitor reads — the
  * per-locale web manifest included — uses the translated `Common.appName`.
  */
-export const APP_NAME = 'Millionaire Quiz'
+export const APP_NAME = 'Millionaire'
 
-/** The TV show's English title — what the game is searched for. Each locale's own is `Home.heroTitle`. */
+/**
+ * The TV show's English title — what the game is searched for. Each locale's own is
+ * `Seo.showTitle`. Search-only (keywords, JSON-LD, llms.txt): no visible copy names the show.
+ */
 export const SHOW_TITLE = 'Who Wants to Be a Millionaire?'
 
 export const SITE_URL_FALLBACK = 'http://localhost:7006'

@@ -14,9 +14,10 @@ export const DesktopNav = () => {
   const pathname = usePathname()
 
   return (
-    // Never wraps: a long label (some languages need two words) scrolls the row instead of breaking it.
+    // Never wraps: a long label (some languages need two words) scrolls the row instead of breaking
+    // it, with a thin scrollbar so the clipped links are discoverable.
     <nav aria-label={t('main')} className='me-auto hidden min-w-0 lg:block'>
-      <ul className='flex items-center gap-1 overflow-x-auto py-1 no-scrollbar'>
+      <ul className='flex items-center gap-1 overflow-x-auto py-1 thin-scrollbar'>
         {PRIMARY_NAV.map(({ labelKey, href }) => {
           const active = isActivePath(pathname, href)
           return (

@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Chemsha Bongo ya Milionea",
-    "wordmarkTop": "Milionea",
-    "wordmarkBottom": "Chemsha Bongo",
+    "appName": "Milionea",
     "tagline": "Mchezo wa chemsha bongo kwa lugha yako",
     "play": "Cheza",
     "playNow": "Cheza sasa",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "mchezo wa nani anataka kuwa milionea, nani anataka kuwa milionea kwa Kiswahili, mchezo wa milionea mtandaoni, Chemsha Bongo ya Milionea, mchezo wa chemsha bongo, chemsha bongo ya bure, maswali ya maarifa",
+    "showTitle": "Nani anataka kuwa milionea?",
     "homeTitle": "Nani anataka kuwa milionea? Mchezo wa bure mtandaoni kwa Kiswahili | Chemsha Bongo ya Milionea",
     "homeDescription": "Cheza “Nani anataka kuwa milionea?” bure mtandaoni kwa Kiswahili: maswali 15 hadi kufika milioni moja, misaada mine na vituo viwili vya usalama, yakiwa na maswali yaliyoandikwa kwa Kiswahili, hayajatafsiriwa. Hakuna haja ya kujisajili. Pia katika lugha nyingine 79.",
     "playTitle": "Chemsha Bongo ya Milionea: Kawaida — maswali 15 hadi milioni",

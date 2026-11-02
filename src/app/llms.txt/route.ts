@@ -29,7 +29,7 @@ export async function GET(): Promise<Response> {
       const messages = (await import(`../../messages/${locale}.json`)).default
       const english = languageName(locale, 'en')
       const native = LOCALE_LABELS[locale] === english ? '' : ` (${LOCALE_LABELS[locale]})`
-      return `- [${english}${native} — ${messages.Home.heroTitle}](${absoluteUrl(localePath(locale, ROUTES.home))}): ${SHOW_TITLE} game in ${english}, free online`
+      return `- [${english}${native} — ${messages.Seo.showTitle}](${absoluteUrl(localePath(locale, ROUTES.home))}): ${APP_NAME}, a "${SHOW_TITLE}"-style quiz game in ${english}, free online`
     })
   )
 
@@ -38,7 +38,7 @@ export async function GET(): Promise<Response> {
   )
 
   const body = [
-    `# ${APP_NAME} — ${SHOW_TITLE} in ${LOCALES.length} languages`,
+    `# ${APP_NAME} — a "${SHOW_TITLE}"-style quiz game in ${LOCALES.length} languages`,
     '',
     `> A free online quiz game in the format of the TV show "${SHOW_TITLE}": 15 questions to the million, four lifelines (50:50, Ask the Audience, Phone a Friend, Switch the Question) and two safe havens. Questions are written natively in each language by artificial intelligence, not translated, and include the local culture. Free, no sign-up, works offline as an installable app. An independent fan-made game, not affiliated with the TV show.`,
     '',

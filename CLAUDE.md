@@ -1,6 +1,6 @@
-# Millionaire Quiz
+# Millionaire
 
-A "Who Wants to Be a Millionaire?"-style quiz game in 80 languages. A Next.js App Router PWA
+A quiz game in the TV quiz-show format, in 80 languages. A Next.js App Router PWA
 and an Express/Prisma API in `server/`, in one pnpm workspace. Questions are written by
 Gemini natively per language and pooled in Postgres; a curated English bank is the fallback.
 
@@ -47,7 +47,8 @@ sorts it.
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
 | Ranked runs (server-refereed, guests too) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` · guest cookie `lib/guest.ts` |
 | Leaderboard SQL | `server/src/services/leaderboard.ts` |
-| Google sign-in, session cookie | `server/src/routes/identity.ts`, `lib/google-oauth.ts`, `lib/oauth-state.ts`, `lib/session.ts` |
+| Sign-in (Google + email/password), session cookie | `server/src/routes/identity.ts` (password), `identity-google.ts`, `lib/password.ts`, `lib/google-oauth.ts`, `lib/oauth-state.ts`, `lib/session.ts` · UI `src/components/auth/` |
+| Account emails (verify, reset, "password changed") | `server/src/lib/account-mail.ts` — copy is the `Email` namespace of `src/messages/`, in the player's language |
 | Avatars | `server/src/routes/profile.ts` (multer → sharp → webp) |
 | HTTP calls from the web | `src/api/<domain>/` — `endpoints`, `types`, `processors`, `main` |
 | Client state | `src/store/<domain>/<slice>/{store,types}.ts` |
@@ -85,13 +86,23 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
 
 ## Easy to get wrong
 
+- **The game is "Millionaire"; the TV show's title is search-only.** "Who Wants to Be a
+  Millionaire?" and its local editions live in `Seo.showTitle` / `Seo.keywords` and reach only
+  the keywords meta, JSON-LD `alternateName` and `llms.txt` — never a title, description or
+  anything on the page.
+
 - `src/proxy.ts` is Next 16's middleware. Unprefixed URLs 307 to a negotiated locale.
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`
   (`next/root-params`), and `requestLocale` must never be destructured in the parameter list —
   it is a getter that calls `headers()`, which silently turns every page dynamic. No
-  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2570 routes.
+  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2890 routes.
 - `useSearchParams` needs a `<Suspense>` boundary, or every static page falls back to
   client rendering — prefer reading `window.location` in an event handler.
+- **One account per email, two ways in.** A password sign-up has no session until its emailed
+  link is opened; a Google sign-in on an address with an *unverified* password account claims it
+  (password cleared, sessions revoked). Passwords change only through an emailed link, never
+  from a session alone. The `Email` catalogue namespace is server-only copy — the root layout
+  strips it from what pages ship.
 - **No mode needs an account.** Marathon and Time Attack are always ranked and refereed by
   the server; a guest's run is tied to an httpOnly guest cookie and never reaches the
   leaderboard. Only Classic has custom settings (Settings page) and plays offline.

@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kvíz Milionár",
-    "wordmarkTop": "Milionár",
-    "wordmarkBottom": "Kvíz",
+    "appName": "Milionár",
     "tagline": "Vedomostná šou v tvojom jazyku",
     "play": "Hrať",
     "playNow": "Hraj teraz",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "chceš byť milionárom hra, chceš byť milionárom po slovensky, miliónová hra online, kvíz milionár, kvízová hra, bezplatný kvíz, vedomostná hra",
+    "showTitle": "Chceš byť milionárom?",
     "homeTitle": "Chceš byť milionárom? Bezplatná online hra v slovenčine | Kvíz Milionár",
     "homeDescription": "Zahrajte si „Chceš byť milionárom?“ zadarmo online v slovenčine: 15 otázok k miliónu, štyri nápovedy a dvestotisícové záchytné body, s otázkami napísanými v slovenčine, nie preloženými. Bez registrácie. Tiež v 79 iných jazykoch.",
     "playTitle": "Klasický kvíz Milionár — 15 otázok k miliónu",

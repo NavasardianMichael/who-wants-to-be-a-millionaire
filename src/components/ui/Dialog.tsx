@@ -1,6 +1,6 @@
 'use client'
 
-import { type ReactNode, useContext } from 'react'
+import { type ReactNode, type RefObject, useContext, useEffect } from 'react'
 import { ConfigProvider, Drawer, Grid, Modal } from 'antd'
 import { useTranslations } from 'next-intl'
 import { cn } from '@helpers/cn'
@@ -28,6 +28,8 @@ export type DialogProps = {
   pending?: boolean
   /** Modal width: `md` for confirmations and forms, `lg` for pickers. */
   size?: 'md' | 'lg'
+  /** Focused on open instead of the dialog itself, e.g. a picker's search field. */
+  initialFocus?: RefObject<{ focus: () => void } | null>
 }
 
 export const Dialog = ({
@@ -43,10 +45,20 @@ export const Dialog = ({
   closeOnBackdrop = true,
   pending = false,
   size = 'md',
+  initialFocus,
 }: DialogProps) => {
   const t = useTranslations('Common')
   const screens = Grid.useBreakpoint()
   const { direction } = useContext(ConfigProvider.ConfigContext)
+
+  // Runs after antd's own focus-on-open effects (they are children), so it wins; the open
+  // animation's end retries in case the portal mounted late.
+  useEffect(() => {
+    if (open) initialFocus?.current?.focus()
+  }, [open, initialFocus])
+  const afterOpenChange = (visible: boolean) => {
+    if (visible) initialFocus?.current?.focus()
+  }
 
   const requestClose = () => {
     if (!pending) onClose()
@@ -58,7 +70,15 @@ export const Dialog = ({
     </div>
   )
   const closable = { 'aria-label': t('close'), disabled: pending }
-  const shared = { open, title: heading, className, destroyOnHidden: true, keyboard: !pending, mask: { closable: closeOnBackdrop && !pending } }
+  const shared = {
+    open,
+    title: heading,
+    className,
+    destroyOnHidden: true,
+    keyboard: !pending,
+    mask: { closable: closeOnBackdrop && !pending },
+    afterOpenChange,
+  }
 
   // `useBreakpoint` is empty on the server and the first client render; a sheet starts as a modal.
   const asDrawer = variant === 'drawer' || (variant === 'sheet' && screens.md === false)
@@ -69,6 +89,9 @@ export const Dialog = ({
       <Drawer
         {...shared}
         onClose={requestClose}
+        // Whether the drawer focuses its own panel on open, not the HTML attribute.
+        // eslint-disable-next-line jsx-a11y/no-autofocus
+        autoFocus={!initialFocus}
         placement={fromBottom ? 'bottom' : direction === 'rtl' ? 'left' : 'right'}
         size={fromBottom ? 'auto' : 'min(24rem, 100%)'}
         closable={{ ...closable, placement: 'end' }}

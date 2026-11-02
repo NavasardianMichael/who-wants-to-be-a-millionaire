@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Quiz Millionnaire",
-    "wordmarkTop": "Millionnaire",
-    "wordmarkBottom": "Quiz",
+    "appName": "Millionnaire",
     "tagline": "Le jeu télévisé de quiz dans votre langue",
     "play": "Jouer",
     "playNow": "Jouer maintenant",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "jeu qui veut gagner des millions, qui veut gagner des millions en francais, jeu du millionnaire en ligne, quiz millionnaire, jeu de quiz, quiz gratuit, culture generale",
+    "showTitle": "Qui veut gagner des millions ?",
     "homeTitle": "Qui veut gagner des millions ? Jeu en ligne gratuit en français | Quiz Millionnaire",
     "homeDescription": "Jouez à « Qui veut gagner des millions ? » gratuitement en ligne en français : 15 questions jusqu'au million, quatre jokers et deux paliers de sécurité, avec des questions rédigées en français et non traduites. Sans inscription. Également disponible en 79 autres langues.",
     "playTitle": "Quiz Millionnaire Classique — 15 questions jusqu’au million",

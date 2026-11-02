@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Concurso Millonario",
-    "wordmarkTop": "Millonario",
-    "wordmarkBottom": "Concurso",
+    "appName": "Millonario",
     "tagline": "O concurso de preguntas na súa lingua",
     "play": "Xogar",
     "playNow": "Xogue xa",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "xogo quen quere ser millonario, quen quere ser millonario en galego, xogo de millonario en liña, Concurso Millonario, xogo de preguntas, preguntas e respostas gratuíto, trivia",
+    "showTitle": "Quen quere ser millonario?",
     "homeTitle": "Quen quere ser millonario? Xogo en liña gratuíto en galego | Concurso Millonario",
     "homeDescription": "Xoga a «Quen quere ser millonario?» de balde en liña en galego: 15 preguntas ata o millón, catro comodíns e dous puntos seguros, con preguntas escritas en galego e non traducidas. Sen rexistro. Tamén noutras 79 linguas.",
     "playTitle": "Concurso Millonario Clásico — 15 preguntas ata o millón",

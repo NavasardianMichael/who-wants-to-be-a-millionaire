@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milionerski Quiz",
-    "wordmarkTop": "Milionerski",
-    "wordmarkBottom": "Quiz",
+    "appName": "Milioner",
     "tagline": "Teleturniej w twoim języku",
     "play": "Graj",
     "playNow": "Zagraj teraz",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "kto chce zostać milionerem gra, kto chce zostać milionerem po polsku, gra milionerzy online, milionerski quiz, gra quizowa, darmowy quiz, trivia",
+    "showTitle": "Kto chce zostać milionerem?",
     "homeTitle": "Kto chce zostać milionerem? Darmowa gra online po polsku | Milionerski Quiz",
     "homeDescription": "Zagraj w „Kto chce zostać milionerem?” za darmo online po polsku: 15 pytań do miliona, cztery koła ratunkowe i dwa progi gwarantowane, z pytaniami napisanymi po polsku, a nie tłumaczonymi. Bez rejestracji. Dostępne także w 79 innych językach.",
     "playTitle": "Klasyczny quiz o milion — 15 pytań do miliona",

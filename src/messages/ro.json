@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Testul Milionarului",
-    "wordmarkTop": "Milionarului",
-    "wordmarkBottom": "Testul",
+    "appName": "Milionarul",
     "tagline": "Concursul de cultură generală în limba ta",
     "play": "Joacă",
     "playNow": "Joacă acum",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "joc vrei sa fii milionar, vrei sa fii milionar in romana, joc milionar online, testul milionarului, joc de cultura generala, quiz gratuit, trivia",
+    "showTitle": "Vrei să fii milionar?",
     "homeTitle": "Vrei să fii milionar? Joc online gratuit în română | Testul Milionarului",
     "homeDescription": "Joacă „Vrei să fii milionar?” online gratuit în română: 15 întrebări până la milion, patru ajutoare și două praguri de siguranță, cu întrebări scrise în română, nu traduse. Fără înregistrare. Disponibil și în alte 79 de limbi.",
     "playTitle": "Testul Milionarului, modul Clasic — 15 întrebări până la milion",

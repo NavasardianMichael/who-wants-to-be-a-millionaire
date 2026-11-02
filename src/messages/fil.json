@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milyonaryo Quiz",
-    "wordmarkTop": "Milyonaryo",
-    "wordmarkBottom": "Quiz",
+    "appName": "Milyonaryo",
     "tagline": "Ang quiz show game sa sarili ninyong wika",
     "play": "Maglaro",
     "playNow": "Maglaro na",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "larong sino ang gustong maging milyonaryo, sino ang gustong maging milyonaryo sa Filipino, laro ng milyonaryo online, Milyonaryo Quiz, laro ng pagsusulit, libreng pagsusulit, trivia",
+    "showTitle": "Sino ang Gustong Maging Milyonaryo?",
     "homeTitle": "Sino ang Gustong Maging Milyonaryo? Libreng online na laro sa Filipino | Milyonaryo Quiz",
     "homeDescription": "Maglaro ng “Sino ang Gustong Maging Milyonaryo?” nang libre online sa Filipino: 15 tanong hanggang sa milyon, apat na lifeline at dalawang safe haven, na may mga tanong na isinulat sa Filipino, hindi isinalin. Walang sign-up. Mayroon din sa 79 iba pang wika.",
     "playTitle": "Klasikong Milyonaryo Quiz — 15 tanong papunta sa milyon",

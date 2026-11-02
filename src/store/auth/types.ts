@@ -1,3 +1,4 @@
+import type { LoginPayload, RegisterPayload, RegisterResult } from '@api/identity/types'
 import type { SessionUser } from '@interfaces/entities'
 import { StateCommonProps } from '@interfaces/store'
 
@@ -13,5 +14,9 @@ export type AuthActions = {
   setAuthState: (payload: Partial<AuthState>) => void
   setUser: (user: SessionUser | null) => void
   resolveSession: () => Promise<void>
+  /** Rejects with the API's error, for the form to explain. */
+  login: (payload: LoginPayload) => Promise<SessionUser>
+  /** No session yet: resolves with where the verification link went. */
+  register: (payload: RegisterPayload) => Promise<RegisterResult>
   logout: () => Promise<void>
 }

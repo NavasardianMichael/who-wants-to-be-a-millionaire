@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { deriveCookieDomain } from './lib/cookie-domain.js'
@@ -8,6 +9,16 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const nodeEnv = process.env.NODE_ENV ?? 'development'
 const corsOrigin = process.env.CORS_ORIGIN ?? 'http://localhost:7006'
+
+/**
+ * The web app's message catalogues, which also hold the account emails' copy (`Email.*`):
+ * `src/messages` in the repo, `messages/` beside `dist/` in the release (`build-api-release.mjs`).
+ */
+const messagesDir = [
+  path.join(__dirname, '../../messages'),
+  path.join(__dirname, '../../src/messages'),
+  path.join(__dirname, '../../../src/messages'),
+].find((candidate) => existsSync(path.join(candidate, 'en.json')))
 
 const asNumber = (value: string | undefined, fallback: number): number => {
   const parsed = Number(value)
@@ -33,6 +44,10 @@ export const config = {
   /** Cookie holding an in-flight Google OAuth flow. Scoped to `/identity/google`. */
   oauthCookieName: 'millionaire_oauth',
   oauthFlowTtlMs: 10 * 60 * 1000,
+  /** The emails state these in words (`Email.verifyFooter`, `Email.resetFooter`): change both together. */
+  emailVerifyTtlMs: 48 * 60 * 60 * 1000,
+  passwordResetTtlMs: 60 * 60 * 1000,
+  messagesDir: messagesDir ?? '',
   /**
    * Google OAuth. `clientSecret` is read only by `lib/google-oauth.ts`. Empty values disable
    * sign-in instead of throwing: `/health` reports `google: false` and the web app hides
@@ -65,8 +80,9 @@ export const config = {
     maxCallsPerTick: asNumber(process.env.POOL_REFILL_MAX_CALLS, 4),
   },
   /**
-   * The mail engine shared with bookie, for the contact form. `apiKey` is read only by
-   * `lib/mail.ts`. Empty disables sending: in dev the message is printed instead.
+   * The mail engine shared with bookie: the contact form, and account emails (verification,
+   * password links). `apiKey` is read only by `lib/mail.ts`. Empty disables sending: in dev
+   * the mail is printed instead, links included.
    */
   mail: {
     apiUrl: (process.env.MAIL_API_URL ?? '').replace(/\/+$/, ''),

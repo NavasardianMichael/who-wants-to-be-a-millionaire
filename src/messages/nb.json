@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Millionærquiz",
-    "wordmarkTop": "Millionær",
-    "wordmarkBottom": "quiz",
+    "appName": "Millionær",
     "tagline": "Quizshowet på ditt eget språk",
     "play": "Spill",
     "playNow": "Spill nå",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "vil du bli millionær spill, vil du bli millionær på norsk, millionærspill på nett, millionærquiz, quizspill, gratis quiz, trivia",
+    "showTitle": "Vil du bli millionær?",
     "homeTitle": "Vil du bli millionær? Gratis nettspill på norsk | Millionærquiz",
     "homeDescription": "Spill «Vil du bli millionær?» gratis på nett på norsk: 15 spørsmål til millionen, fire livliner og to sikkerhetsnett, med spørsmål skrevet på norsk, ikke oversatt. Ingen pålogging. Også på 79 andre språk.",
     "playTitle": "Klassisk millionærquiz – 15 spørsmål til millionen",

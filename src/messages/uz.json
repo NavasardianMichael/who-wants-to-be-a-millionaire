@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Millioner Viktorinasi",
-    "wordmarkTop": "Millioner",
-    "wordmarkBottom": "Viktorinasi",
+    "appName": "Millioner",
     "tagline": "Oʻz tilingizdagi viktorina-shou oʻyini",
     "play": "Oʻynash",
     "playNow": "Hozir oʻynash",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "kim millioner bo'lishni xohlaydi o'yini, o'zbek tilida kim millioner, millioner o'yini onlayn, millioner viktorinasi, viktorina o'yini, bepul viktorina, mantiqiy savollar",
+    "showTitle": "Kim millioner boʻlishni xohlaydi?",
     "homeTitle": "Kim millioner boʻlishni xohlaydi? O'zbek tilidagi bepul onlayn o'yin | Millioner Viktorinasi",
     "homeDescription": "“Kim millioner boʻlishni xohlaydi?” o'yinini o'zbek tilida bepul onlayn o'ynang: million sari 15 ta savol, to'rtta yordamchi vosita va ikkita xavfsiz oraliq. Savollar tarjima qilinmagan, o'zbek tilida yozilgan. Ro'yxatdan o'tish shart emas. Shuningdek, 79 ta boshqa tilda ham mavjud.",
     "playTitle": "Klassik Millioner viktorinasi — milliongacha 15 savol",

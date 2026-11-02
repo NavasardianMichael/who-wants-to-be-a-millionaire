@@ -14,6 +14,8 @@ export const toSessionUser = (user: User) => ({
   displayName: user.displayName,
   avatarUrl: avatarOf(user),
   hasUploadedAvatar: Boolean(user.avatarPath),
+  /** Whether the profile offers "set a password" or "change password". */
+  hasPassword: Boolean(user.passwordHash),
   locale: user.locale,
   createdAt: user.createdAt.toISOString(),
 })

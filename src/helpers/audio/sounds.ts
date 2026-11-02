@@ -1,3 +1,5 @@
+import { SAFE_HAVEN_STAGES } from '@constants/game'
+
 /**
  * The show's sounds, carried over from the original app (`public/audio/`).
  *
@@ -27,5 +29,10 @@ export type SoundId = keyof typeof SOUNDS
 /** Short stings precached by the service worker; the music beds are cached lazily. */
 export const PRECACHED_SOUNDS: SoundId[] = ['start', 'finalAnswer', 'correct', 'wrong', 'next', 'fiftyFifty', 'askAudience', 'millionaire']
 
-/** Question music by level: the show's three beds. */
-export const musicForLevel = (level: number): SoundId => (level <= 2 ? 'easy' : level === 3 ? 'medium' : 'hard')
+/**
+ * Question music by stage, the show's three beds: questions 1–5, 6–10, then 11 on — they
+ * change after each safe haven. By stage, not by question level: levels come in threes and
+ * shift with the difficulty setting. Marathon and Time Attack count their questions the same way.
+ */
+export const musicForStage = (stage: number): SoundId =>
+  stage <= SAFE_HAVEN_STAGES[0] ? 'easy' : stage <= SAFE_HAVEN_STAGES[1] ? 'medium' : 'hard'

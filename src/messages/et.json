@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljonäri mälumäng",
-    "wordmarkTop": "Miljonäri",
-    "wordmarkBottom": "mälumäng",
+    "appName": "Miljonär",
     "tagline": "Mälumäng nagu telesaates – sinu keeles",
     "play": "Mängi",
     "playNow": "Mängi kohe",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "kes tahab saada miljonäriks mäng, kes tahab saada miljonäriks eesti keeles, miljonäri mäng online, Miljonäri mälumäng, mälumäng, tasuta mälumäng, viktoriin",
+    "showTitle": "Kes tahab saada miljonäriks?",
     "homeTitle": "Kes tahab saada miljonäriks? Tasuta online-mäng eesti keeles | Miljonäri mälumäng",
     "homeDescription": "Mängige saadet „Kes tahab saada miljonäriks?“ tasuta online-mänguna eesti keeles: 15 küsimust miljonini, neli abivahendit ja kaks vahepeatust. Küsimused on kirjutatud eesti keeles, mitte tõlgitud. Ilma registreerimiseta. Saadaval ka teistes keeltes (kokku 79 keeles).",
     "playTitle": "Klassikaline miljonäri mälumäng – 15 küsimust miljonini",

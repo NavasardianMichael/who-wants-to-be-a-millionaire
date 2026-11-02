@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljonairsquiz",
-    "wordmarkTop": "Miljonairs",
-    "wordmarkBottom": "quiz",
+    "appName": "Miljonair",
     "tagline": "De quizshow in uw taal",
     "play": "Spelen",
     "playNow": "Speel nu",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "wie wordt miljonair spel, wie wordt miljonair in het Nederlands, miljonair spel online, miljonairsquiz, quizspel, gratis quiz, trivia",
+    "showTitle": "Wie wordt miljonair?",
     "homeTitle": "Wie wordt miljonair? Gratis online spel in het Nederlands | Miljonairsquiz",
     "homeDescription": "Speel “Wie wordt miljonair?” gratis online in het Nederlands: 15 vragen tot de miljoen, vier hulplijnen en twee veiligheidsdrempels, met vragen in het Nederlands geschreven, niet vertaald. Geen registratie. Ook in 79 andere talen.",
     "playTitle": "Klassieke miljonairsquiz — 15 vragen naar het miljoen",

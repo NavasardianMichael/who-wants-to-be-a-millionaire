@@ -1,4 +1,4 @@
-# Millionaire Quiz
+# Millionaire
 
 The quiz-show game — fifteen questions to the million — rebuilt as a multilingual
 progressive web app.
@@ -45,5 +45,5 @@ pnpm test:e2e      # Playwright on desktop, tablet and phone viewports (needs `p
 - [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) — production setup.
 - [`docs/STACK_BLUEPRINT.md`](docs/STACK_BLUEPRINT.md) — how to build a new project on this stack.
 
-Millionaire Quiz is a fan-made game and is not affiliated with any television programme or
+Millionaire is a fan-made game and is not affiliated with any television programme or
 rights holder. The sounds in `public/audio/` were carried over from the project's earlier version.

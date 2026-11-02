@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milliomos kvíz",
-    "wordmarkTop": "Milliomos",
-    "wordmarkBottom": "kvíz",
+    "appName": "Milliomos",
     "tagline": "A kvízműsor-játék a te nyelveden",
     "play": "Játék",
     "playNow": "Játssz most",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "ki akar milliomos lenni játék, ki akar milliomos lenni magyarul, milliomos játék online, milliomos kvíz, kvízjáték, ingyenes kvíz, trivia",
+    "showTitle": "Ki akar milliomos lenni?",
     "homeTitle": "Ki akar milliomos lenni? Ingyenes online játék magyarul | Milliomos kvíz",
     "homeDescription": "Játsszon a „Ki akar milliomos lenni?” játékkal ingyen online magyarul: 15 kérdés a millióért, négy segítség és két mentőpont, magyarul írt, nem fordított kérdésekkel. Nincs szükség regisztrációra. További 79 nyelven is elérhető.",
     "playTitle": "Klasszikus milliomos kvíz – 15 kérdés a millióig",

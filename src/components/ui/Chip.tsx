@@ -19,7 +19,7 @@ export const Chip = ({ label, selected, onToggle, className }: ChipProps) => (
     // Through `icon`, not children: the tag wraps children in a span, where the block-level SVG would wrap.
     icon={selected ? <Check aria-hidden className='size-4 shrink-0' /> : undefined}
     className={cn(
-      'm-0 inline-flex min-h-10 items-center gap-1.5 border px-3.5 text-body-sm font-semibold whitespace-nowrap',
+      'm-0 inline-flex min-h-10 max-w-full items-center gap-1.5 border px-3.5 py-1.5 text-body-sm leading-tight font-semibold wrap-anywhere whitespace-normal',
       selected ? 'border-gold-300 bg-gold-400/15 text-gold-200' : 'border-line-strong bg-studio-900/60 text-mist hover:text-ivory',
       className
     )}

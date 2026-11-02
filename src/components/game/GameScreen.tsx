@@ -32,12 +32,16 @@ import { ResultScreen } from './ResultScreen'
 import { StudioLoader } from './StudioLoader'
 import { TimerRing } from './TimerRing'
 
+/** Where the money ladder is a permanent column (globals.css `--breakpoint-lg`); below it, a sheet. */
+const LADDER_COLUMN_QUERY = '(min-width: 64rem)'
+
 /**
  * The studio floor: exactly one screen under the header, never scrolled, like a game. The
  * board (question and answers) is pinned to the bottom, within thumb reach; the HUD and the
  * lifelines sit on top, and lifeline results and the reveal float over the space between
  * them instead of pushing the board around. The final answer is asked in a dialog.
- * Desktop adds the money ladder (or the run stats) as a column; below `lg` it is a sheet.
+ * Desktop adds the money ladder (or the run stats) as a column; below `lg` it is a sheet,
+ * which also rises by itself between Classic questions to show the climb.
  */
 export const GameScreen = ({ mode }: { mode: GameMode }) => {
   const t = useTranslations()
@@ -46,6 +50,8 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
   const store = useGameSessionStore()
   const toggleMuted = useAudioStore.use.toggleMuted()
   const [ladderOpen, setLadderOpen] = useState(false)
+  /** The climb the player closed early, by the answer count it celebrates. */
+  const [climbDismissed, setClimbDismissed] = useState<number | null>(null)
   const [walkAwayOpen, setWalkAwayOpen] = useState(false)
   const [leaveOpen, setLeaveOpen] = useState(false)
   const [reportOpen, setReportOpen] = useState(false)
@@ -63,6 +69,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
     busyLifeline,
     overlay,
     switchPreview,
+    ladderClimb,
     questionDeadline,
     runEndsAt,
     penaltyCount,
@@ -183,6 +190,10 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
 
   const correctLetter = revealedCorrectIndex !== null ? OPTION_LETTERS[revealedCorrectIndex] : null
   const showSafeHaven = mode === 'classic' && phase === 'transition' && isSafeHaven(answered)
+  // The column shows the climb by itself; elsewhere the sheet comes up for it. Only ever true
+  // after a game has started on the client, so reading the viewport here is safe.
+  const climbSheet = ladderClimb && climbDismissed !== answered && !window.matchMedia(LADDER_COLUMN_QUERY).matches
+  const safeHavenReached = t('Game.safeHavenReached', { amount: formatMoney(prizeForStage(answered), locale) })
 
   // What floats over the space above the board, if anything. A lifeline's result can still be
   // open when the answer is revealed; the reveal takes its place.
@@ -352,7 +363,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
                       )}
                       {showSafeHaven && (
                         <p className='mt-1 rounded-tag bg-gold-400/15 px-4 py-1 font-display font-bold text-gold-200 sweep-gold'>
-                          {t('Game.safeHavenReached', { amount: formatMoney(prizeForStage(answered), locale) })}
+                          {safeHavenReached}
                         </p>
                       )}
                     </>
@@ -466,7 +477,16 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
       </Dialog>
 
       {mode === 'classic' && (
-        <Dialog open={ladderOpen} onClose={() => setLadderOpen(false)} title={t('Game.ladder')} variant='sheet'>
+        <Dialog
+          open={ladderOpen || climbSheet}
+          onClose={() => {
+            setLadderOpen(false)
+            if (ladderClimb) setClimbDismissed(answered)
+          }}
+          title={t('Game.ladder')}
+          description={climbSheet && showSafeHaven ? safeHavenReached : undefined}
+          variant='sheet'
+        >
           <PrizeLadder {...ladderProps} compact className='border-0 bg-transparent p-0 shadow-none' />
         </Dialog>
       )}

@@ -1,8 +1,6 @@
 {
   "Common": {
     "appName": "Asọmpi Nde",
-    "wordmarkTop": "Nde",
-    "wordmarkBottom": "Asọmpi",
     "tagline": "Egwuregwu asọmpi ajụjụ n'asụsụ gị",
     "play": "Gwuo egwu",
     "playNow": "Gwuo egwu ugbu a",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "egwuregwu onye chọrọ ịbụ onye nwere nde ego, onye chọrọ ịbụ onye nwere nde ego n'asụsụ Igbo, egwuregwu nde ego n'ịntanetị, asọmpi nde ego, egwuregwu ajụjụ, ajụjụ n'efu, trivia",
+    "showTitle": "Onye chọrọ ịbụ onye nwere nde ego?",
     "homeTitle": "Onye chọrọ ịbụ onye nwere nde ego? Egwuregwu n'efu n'ịntanetị n'asụsụ Igbo | Asọmpi Nde",
     "homeDescription": "Kpọọ „Onye chọrọ ịbụ onye nwere nde ego?“ n'efu n'ịntanetị n'asụsụ Igbo: ajụjụ 15 ruo na nde, enyemaka anọ na ebe mgbaba abụọ, ya na ajụjụ e dere n'asụsụ Igbo, ọ bụghị nsụgharị. Enweghị ndebanye aha. Ọ nọ kwa n'asụsụ 79 ndị ọzọ.",
     "playTitle": "Ọdịnala — ajụjụ 15 ruo nde",

@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Millionär-Quiz",
-    "wordmarkTop": "Millionär",
-    "wordmarkBottom": "Quiz",
+    "appName": "Millionär",
     "tagline": "Das Quizshow-Spiel in Ihrer Sprache",
     "play": "Spielen",
     "playNow": "Jetzt spielen",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "wer wird millionär spiel, wer wird millionär auf deutsch, millionär spiel online, millionär-quiz, quizspiel, kostenloses quiz, triviale fragen",
+    "showTitle": "Wer wird Millionär?",
     "homeTitle": "Wer wird Millionär? Kostenloses Online-Spiel auf Deutsch | Millionär-Quiz",
     "homeDescription": "Spielen Sie „Wer wird Millionär?“ kostenlos online auf Deutsch: 15 Fragen bis zur Million, vier Joker und zwei Sicherheitsstufen, mit Fragen auf Deutsch statt Übersetzungen. Keine Registrierung. Auch in 79 anderen Sprachen verfügbar.",
     "playTitle": "Klassisches Millionär-Quiz – 15 Fragen bis zur Million",

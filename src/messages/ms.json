@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kuiz Jutawan",
-    "wordmarkTop": "Jutawan",
-    "wordmarkBottom": "Kuiz",
+    "appName": "Jutawan",
     "tagline": "Permainan kuiz TV dalam bahasa anda",
     "play": "Main",
     "playNow": "Main sekarang",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "permainan siapa mahu jadi jutawan, siapa mahu jadi jutawan dalam bahasa Melayu, permainan jutawan online, kuiz jutawan, permainan kuiz, kuiz percuma, trivia",
+    "showTitle": "Siapa mahu jadi jutawan?",
     "homeTitle": "Siapa mahu jadi jutawan? Permainan dalam talian percuma dalam bahasa Melayu | Kuiz Jutawan",
     "homeDescription": "Main “Siapa mahu jadi jutawan?” percuma dalam talian dalam bahasa Melayu: 15 soalan ke peringkat sejuta, empat talian hayat dan dua tempat perlindungan selamat, dengan soalan ditulis dalam bahasa Melayu, bukan diterjemah. Tiada pendaftaran. Turut tersedia dalam 79 bahasa lain.",
     "playTitle": "Kuiz Jutawan Klasik — 15 soalan ke sejuta",

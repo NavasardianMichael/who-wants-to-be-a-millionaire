@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Gasar Miloniya",
-    "wordmarkTop": "Miloniya",
-    "wordmarkBottom": "Gasar",
+    "appName": "Miloniya",
     "tagline": "Wasan gasar tambayoyi a harshenku",
     "play": "Yi wasa",
     "playNow": "Yi wasa yanzu",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "wasan wa yake son zama miloniya, wa yake son zama miloniya cikin harshen Hausa, wasan miloniya a yanar gizo, gasar miloniya, wasan tambayoyi, tambayoyin kyauta, ƙalubale",
+    "showTitle": "Wa yake son zama miloniya?",
     "homeTitle": "Wa yake son zama miloniya? Wasan kyauta a yanar gizo cikin harshen Hausa | Gasar Miloniya",
     "homeDescription": "Ku buga “Wa yake son zama miloniya?” kyauta a yanar gizo cikin harshen Hausa: tambayoyi 15 zuwa ga milon ɗaya, tallafi huɗu da wuraren tsira biyu, tare da tambayoyin da aka rubuta da Hausa, ba tare da an fassara su ba. Babu rajista. Kuma a cikin wasu harsuna 79.",
     "playTitle": "Gasar Miloniya ta Asali — tambayoyi 15 zuwa miliyan",

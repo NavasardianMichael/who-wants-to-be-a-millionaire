@@ -1,8 +1,9 @@
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
 import { immer } from 'zustand/middleware/immer'
-import { getHealthAPI, getMeAPI, logoutAPI } from '@api/identity/main'
+import { getHealthAPI, getMeAPI, loginAPI, logoutAPI, registerAPI } from '@api/identity/main'
 import { appendSelectors } from '@store/appendSelectors'
+import { trackEvent } from '@helpers/analytics'
 import { reportError } from '@helpers/reportError'
 import { AuthActions, AuthState } from './types'
 
@@ -42,6 +43,37 @@ export const useAuthStoreBase = create<AuthState & AuthActions>()(
             set((state) => {
               state.isPending = false
               state.isResolved = true
+            })
+          }
+        },
+        login: async (payload) => {
+          set((state) => {
+            state.isPending = true
+          })
+          try {
+            const user = await loginAPI(payload)
+            set((state) => {
+              state.user = user
+            })
+            trackEvent('login', { method: 'password' })
+            return user
+          } finally {
+            set((state) => {
+              state.isPending = false
+            })
+          }
+        },
+        register: async (payload) => {
+          set((state) => {
+            state.isPending = true
+          })
+          try {
+            const result = await registerAPI(payload)
+            trackEvent('sign_up', { method: 'password' })
+            return result
+          } finally {
+            set((state) => {
+              state.isPending = false
             })
           }
         },

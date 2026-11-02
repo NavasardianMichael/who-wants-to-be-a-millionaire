@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Quiz Milionario",
-    "wordmarkTop": "Milionario",
-    "wordmarkBottom": "Quiz",
+    "appName": "Milionario",
     "tagline": "Il gioco a quiz nella tua lingua",
     "play": "Gioca",
     "playNow": "Gioca ora",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "gioco chi vuol essere milionario, chi vuol essere milionario in italiano, gioco del milionario online, quiz milionario, gioco a quiz, quiz gratis, trivia",
+    "showTitle": "Chi vuol essere milionario?",
     "homeTitle": "Chi vuol essere milionario? Gioco online gratuito in italiano | Quiz Milionario",
     "homeDescription": "Gioca a «Chi vuol essere milionario?» gratis online in italiano: 15 domande per un milione, quattro aiuti e due traguardi, con domande scritte in italiano e non tradotte. Senza registrazione. Disponibile anche in altre 79 lingue.",
     "playTitle": "Quiz Milionario, modalità Classica — 15 domande per il milione",

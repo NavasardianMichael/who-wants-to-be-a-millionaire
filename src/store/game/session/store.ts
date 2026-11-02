@@ -12,7 +12,7 @@ import { isLocale } from '@i18n/config'
 import { type BadgeId, type Category, type Level, type Lifeline, LIFELINES, STAGES_COUNT } from '@constants/game'
 import { trackEvent } from '@helpers/analytics'
 import { audioManager } from '@helpers/audio/audioManager'
-import { musicForLevel } from '@helpers/audio/sounds'
+import { musicForStage } from '@helpers/audio/sounds'
 import { guaranteedAmount, prizeForStage, walkAwayAmount } from '@helpers/game/ladder'
 import { audienceVotes, fiftyFifty, friendPick } from '@helpers/game/lifelines'
 import { mergeLocalBadges, readLocalBadges, recordGame } from '@helpers/game/progress'
@@ -51,6 +51,7 @@ const initialState: GameSessionState = {
   busyLifeline: null,
   overlay: null,
   switchPreview: null,
+  ladderClimb: false,
   questionDeadline: null,
   runEndsAt: null,
   penaltyCount: 0,
@@ -62,9 +63,12 @@ const initialState: GameSessionState = {
   error: null,
 }
 
-/** How long each beat of the show lasts, per mode. Classic builds suspense as the money grows. */
+/**
+ * How long each beat of the show lasts, per mode. Classic holds the final answer a few seconds,
+ * longer as the money grows; the ranked modes stay brisk because their clocks keep running.
+ */
 const PACE = {
-  classic: { suspenseMs: (stage: number) => (stage <= 5 ? 1500 : stage <= 10 ? 2800 : 4000), revealMs: 2600, transitionMs: 1700 },
+  classic: { suspenseMs: (stage: number) => (stage <= 5 ? 2500 : stage <= 10 ? 3000 : 4000), revealMs: 2600, transitionMs: 3400 },
   marathon: { suspenseMs: () => 1000, revealMs: 1400, transitionMs: 600 },
   timeAttack: { suspenseMs: () => 250, revealMs: 650, transitionMs: 150 },
 } as const
@@ -73,6 +77,14 @@ const PACE = {
 const LIFELINE_EXTRA_MS: Partial<Record<Lifeline, number>> = { phoneAFriend: 20_000, askAudience: 8_000 }
 
 const QUICK_ANSWER_MS = 3000
+
+/**
+ * Classic's walk to the next question (`transitionMs` in all): the ladder opens on the rung
+ * just won, climbs to the next one after `LADDER_RISE_MS`, holds, and closes `LADDER_CLOSE_MS`
+ * before the next question is asked.
+ */
+const LADDER_RISE_MS = 900
+const LADDER_CLOSE_MS = 400
 
 /**
  * Switch the Question's interlude. Ranked: the server has already started the new question's
@@ -142,12 +154,13 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           state.lastAnswerCorrect = null
           state.overlay = null
           state.switchPreview = null
+          state.ladderClimb = false
           state.questionDeadline = deadline
           state.isPending = false
         })
         shownAt = Date.now()
         friendSuggestion = null
-        audioManager.playMusic(musicForLevel(question.level))
+        audioManager.playMusic(musicForStage(get().stage))
       }
 
       const applyRun = (run: RunView) => {
@@ -309,12 +322,23 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
       const continueAfterLocal = async (gen: number, correct: boolean) => {
         if (!correct) return finish(gen, 'lost')
         if (get().correctCount >= STAGES_COUNT) return finish(gen, 'won')
+        const { transitionMs } = pace()
         set((state) => {
           state.phase = 'transition'
+          state.ladderClimb = true
+        })
+        void audioManager.playSting('next', { maxWaitMs: transitionMs - LADDER_CLOSE_MS })
+        await sleep(LADDER_RISE_MS)
+        if (!alive(gen)) return
+        set((state) => {
           state.stage += 1
         })
-        void audioManager.playSting('next', { maxWaitMs: pace().transitionMs })
-        await sleep(pace().transitionMs)
+        await sleep(transitionMs - LADDER_RISE_MS - LADDER_CLOSE_MS)
+        if (!alive(gen)) return
+        set((state) => {
+          state.ladderClimb = false
+        })
+        await sleep(LADDER_CLOSE_MS)
         if (alive(gen)) await nextLocalQuestion(gen)
       }
 
@@ -343,7 +367,8 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             offline: isOffline(),
           }))
           trackEvent('game_start', { mode, ranked, locale })
-          const startSting = audioManager.playSting('start', { maxWaitMs: 4000 })
+          // The first question arrives as the start sting ends (5.7 s), or later if loading is slower.
+          const startSting = audioManager.playSting('start', { maxWaitMs: 6000 })
 
           try {
             if (ranked) {

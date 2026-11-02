@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import Script from 'next/script'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
-import { getTranslations } from 'next-intl/server'
+import { getMessages, getTranslations } from 'next-intl/server'
 import { getAntdLocale } from '@i18n/antdLocale'
 import { getDirection, LOCALES } from '@i18n/config'
 import { currentLocale, socialCard } from '@i18n/metadata'
@@ -77,6 +77,8 @@ export default async function RootLayout({ children, params }: Props) {
   const direction = getDirection(lang)
   // Loaded on the server: only the active locale's antd copy crosses the RSC boundary.
   const antdLocale = await getAntdLocale(lang)
+  // `Email` is the API's copy for account emails (`server/src/lib/account-mail.ts`); no page renders it.
+  const { Email: _emailCopy, ...messages } = await getMessages()
   const scriptFont = getScriptFont(lang)
   const style = scriptFont ? ({ '--font-script': `'${scriptFont.family}'` } as CSSProperties) : undefined
 
@@ -100,7 +102,7 @@ export default async function RootLayout({ children, params }: Props) {
         <StudioBackdrop />
         {/* `layer` wraps antd's CSS in `@layer antd`, below Tailwind's utilities. */}
         <AntdRegistry layer>
-          <NextIntlClientProvider>
+          <NextIntlClientProvider messages={messages}>
             <App antdLocale={antdLocale} direction={direction}>
               {children}
             </App>

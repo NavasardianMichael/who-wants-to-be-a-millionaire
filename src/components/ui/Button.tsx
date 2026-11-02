@@ -3,7 +3,7 @@
 import { type ButtonHTMLAttributes, forwardRef, type ReactNode } from 'react'
 import { Button as AntButton } from 'antd'
 import { cn } from '@helpers/cn'
-import type { ButtonSize, ButtonVariant } from './bare/buttonClassName'
+import { type ButtonSize, type ButtonVariant, buttonWrapClassName } from './bare/buttonClassName'
 
 export type { ButtonSize, ButtonVariant } from './bare/buttonClassName'
 
@@ -34,10 +34,12 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       icon={icon}
       className={cn(
         'font-bold',
+        // antd fixes the height and forbids wrapping; a long label grows the button instead.
+        buttonWrapClassName(size),
         // The hexagon's padding follows its point depth (`--cut`); only the flat ghost pads itself.
         size === 'sm' && 'text-body-sm [--cut:0.6rem]',
         size === 'md' && 'text-body',
-        size === 'lg' && 'h-14 text-h3 [--cut:1rem]',
+        size === 'lg' && 'text-h3 [--cut:1rem]',
         variant === 'ghost' && (size === 'sm' ? 'px-3' : 'px-5'),
         variant === 'gold' && 'btn-hex btn-gold',
         variant === 'violet' && 'btn-hex btn-violet',

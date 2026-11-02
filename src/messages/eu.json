@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milioidunaren Lehiaketa",
-    "wordmarkTop": "Milioidunaren",
-    "wordmarkBottom": "Lehiaketa",
+    "appName": "Milioiduna",
     "tagline": "Galdera-lehiaketa zure hizkuntzan",
     "play": "Jokatu",
     "playNow": "Jokatu orain",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "nork nahi du milioiduna izan jokoa, nork nahi du milioiduna izan euskaraz, milioidunaren jokoa online, milioidunaren lehiaketa, galdetegi jokoa, doako galdetegia, bitxikeriak",
+    "showTitle": "Nork nahi du milioiduna izan?",
     "homeTitle": "Nork nahi du milioiduna izan? Doako lineako jokoa euskaraz | Milioidunaren Lehiaketa",
     "homeDescription": "Jokatu «Nork nahi du milioiduna izan?» doako lineako jokoan euskaraz: 15 galdera milioirako, lau laguntza-puntu eta bi segurtasun-tarte, euskaraz idatzitako galderekin, itzuli gabe. Izena eman gabe. Beste 79 hizkuntzatan ere.",
     "playTitle": "Milioidunaren Lehiaketa Klasikoa — 15 galdera milioira iristeko",

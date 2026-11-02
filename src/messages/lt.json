@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milijonieriaus viktorina",
-    "wordmarkTop": "Milijonieriaus",
-    "wordmarkBottom": "viktorina",
+    "appName": "Milijonierius",
     "tagline": "Televizijos viktorinos žaidimas tavo kalba",
     "play": "Žaisti",
     "playNow": "Žaisti dabar",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "kas nori tapti milijonieriumi žaidimas, kas nori tapti milijonieriumi lietuviškai, milijonieriaus žaidimas internete, Milijonieriaus viktorina, viktorinos žaidimas, nemokama viktorina, protmūšis",
+    "showTitle": "Kas nori tapti milijonieriumi?",
     "homeTitle": "Kas nori tapti milijonieriumi? Nemokamas internetinis žaidimas lietuvių kalba | Milijonieriaus viktorina",
     "homeDescription": "Žaiskite „Kas nori tapti milijonieriumi?“ nemokamai internete lietuvių kalba: 15 klausimų iki milijono, keturios pagalbos linijos ir dvi saugios ribos. Klausimai parašyti lietuviškai, o ne išversti. Nereikia registruotis. Taip pat 79 kitomis kalbomis.",
     "playTitle": "Klasikinė milijonieriaus viktorina – 15 klausimų iki milijono",

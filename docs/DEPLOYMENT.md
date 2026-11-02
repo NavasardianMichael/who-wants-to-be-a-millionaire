@@ -78,9 +78,13 @@ refuses anything else, since compose would interpolate `$` in `.env`.
 - **Gemini:** a billed key from https://aistudio.google.com/apikey into `GEMINI_KEY`. Spend
   follows play: generated questions are pooled and reused, `POOL_REFILL_MAX_CALLS` caps the
   background top-up (on in production only), and a bucket that yields nothing backs off.
-- **Mail engine** (contact form): the engine bookie uses. `MAIL_API_URL`, `MAIL_API_KEY`,
-  `MAIL_APP_ID="millionaire"`. Messages go to the engine's internal inbox; nothing is stored.
-  Without a key the contact form answers 503 in production.
+- **Mail engine** (contact form, account emails): the engine bookie uses. `MAIL_API_URL`,
+  `MAIL_API_KEY`, `MAIL_APP_ID="millionaire"`. Contact messages go to the engine's internal
+  inbox and nothing is stored; verification and password links go to the player through its
+  external endpoint, as `Millionaire <millionaire@…>`, written in the player's language
+  from the `Email` namespace of `src/messages/` (the release ships them in `messages/`).
+  Without a key the contact form answers 503 and password sign-up and reset answer 503 in
+  production; Google sign-in still works.
 
 ## GitHub configuration
 

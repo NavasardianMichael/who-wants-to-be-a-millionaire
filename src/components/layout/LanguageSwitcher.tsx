@@ -1,37 +1,43 @@
 'use client'
 
-import { useMemo, useState, useTransition } from 'react'
-import { Button, Empty, Input, Tooltip } from 'antd'
+import { useMemo, useRef, useState, useTransition } from 'react'
+import { Button, Empty, Input, type InputRef, Tooltip } from 'antd'
 import { Check, Globe, Search } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { confirmLeave } from '@hooks/useLeaveGuard'
 import { setLocale } from '@i18n/actions'
-import { isLocale, type Locale, LOCALE_LABELS, LOCALES } from '@i18n/config'
+import { isLocale, type Locale, LOCALE_LABELS, LOCALES, localeShortLabel } from '@i18n/config'
+import { foldForSearch, languageSearchText } from '@i18n/languageNames'
 import { usePathname, useRouter } from '@i18n/navigation'
 import { cn } from '@helpers/cn'
 import { Dialog } from '@components/ui/Dialog'
 
 /**
- * Fifty languages do not fit a dropdown, so the switcher is a searchable dialog. Each
+ * Eighty languages do not fit a dropdown, so the switcher is a searchable dialog. Each
  * language is shown by its own name (an endonym) and code, so someone who cannot read the
- * current UI can still find theirs. Switching keeps the page and its query.
+ * current UI can still find theirs; the search also knows its English name and its name in
+ * the current UI. Switching keeps the page and its query.
  */
 export const LanguageSwitcher = ({ className, withLabel }: { className?: string; withLabel?: boolean }) => {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const searchRef = useRef<InputRef>(null)
   const [isPending, startTransition] = useTransition()
   const locale = useLocale()
   const t = useTranslations('Common')
   const router = useRouter()
   const pathname = usePathname()
 
+  const searchIndex = useMemo(
+    () => LOCALES.map((each) => [each, languageSearchText(each, isLocale(locale) ? locale : 'en')] as const),
+    [locale]
+  )
+
   const filtered = useMemo(() => {
-    const needle = query.trim().toLocaleLowerCase()
+    const needle = foldForSearch(query)
     if (!needle) return LOCALES
-    return LOCALES.filter(
-      (each) => each.toLowerCase().includes(needle) || LOCALE_LABELS[each].toLocaleLowerCase().includes(needle)
-    )
-  }, [query])
+    return searchIndex.filter(([, text]) => text.includes(needle)).map(([each]) => each)
+  }, [query, searchIndex])
 
   const choose = async (next: Locale) => {
     setOpen(false)
@@ -60,13 +66,23 @@ export const LanguageSwitcher = ({ className, withLabel }: { className?: string;
           {withLabel && isLocale(locale) ? (
             <span className='normal-case'>{LOCALE_LABELS[locale]}</span>
           ) : (
-            <span className='hidden sm:inline'>{locale}</span>
+            <span lang={locale} className='hidden sm:inline'>
+              {isLocale(locale) ? localeShortLabel(locale) : locale}
+            </span>
           )}
         </Button>
       </Tooltip>
 
-      <Dialog open={open} onClose={() => setOpen(false)} title={t('chooseLanguage')} variant='sheet' size='lg'>
+      <Dialog
+        open={open}
+        onClose={() => setOpen(false)}
+        title={t('chooseLanguage')}
+        variant='sheet'
+        size='lg'
+        initialFocus={searchRef}
+      >
         <Input
+          ref={searchRef}
           type='search'
           size='large'
           allowClear
@@ -94,8 +110,7 @@ export const LanguageSwitcher = ({ className, withLabel }: { className?: string;
                       : 'border-transparent text-ivory hover:border-line-strong hover:bg-white/5'
                   )}
                 >
-                  <span className='flex-1 truncate font-semibold'>{LOCALE_LABELS[each]}</span>
-                  <span className='text-caption text-mist-dim uppercase'>{each}</span>
+                  <span className='min-w-0 flex-1 font-semibold wrap-anywhere'>{LOCALE_LABELS[each]}</span>
                   {active && <Check aria-hidden className='size-4' />}
                 </button>
               </li>

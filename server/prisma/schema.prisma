@@ -44,21 +44,34 @@ enum ClassicOutcome {
 /// Accounts are Google-only: there is no password and no email verification of our own,
 /// because Google has already verified the address (`lib/google-oauth.ts`).
 model User {
-  id              String   @id @default(uuid())
-  email           String   @unique @db.Citext
-  /// Google's `sub` — the account key, never the email, which users can change.
-  googleId        String   @unique
+  id                     String    @id @default(uuid())
+  email                  String    @unique @db.Citext
+  /// Google's `sub`, never the email, which users can change. Null for a password-only account.
+  googleId               String?   @unique
+  /// Argon2id (`lib/password.ts`). Null for a Google-only account.
+  passwordHash           String?
   /// Shown on leaderboards. Defaults to the Google name; editable on the profile page.
-  displayName     String
+  displayName            String
   /// Path of an uploaded avatar under `/uploads`, served by this API.
-  avatarPath      String?
+  avatarPath             String?
   /// Google's photo URL, used when no avatar was uploaded.
-  googleAvatarUrl String?
-  locale          String   @default("en")
-  /// Bumped to revoke every cookie minted before (`middleware/auth.ts`).
-  tokenVersion    Int      @default(0)
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  googleAvatarUrl        String?
+  /// Also the language of the account's emails.
+  locale                 String    @default("en")
+  /// Set when the inbox was proven: Google vouched for it, or the owner opened an emailed link
+  /// (verification or password reset). A password account cannot sign in until it is set, and
+  /// a Google sign-in claims an account where it is not (`routes/identity-google.ts`).
+  emailVerifiedAt        DateTime?
+  /// The pending verification link, hashed (`lib/token.ts`). Cleared once used.
+  emailVerifyTokenHash   String?   @unique
+  emailVerifyExpiresAt   DateTime?
+  passwordResetTokenHash String?   @unique
+  passwordResetExpiresAt DateTime?
+  /// Bumped to revoke every cookie minted before (`middleware/auth.ts`): password reset,
+  /// a Google sign-in claiming an unverified account.
+  tokenVersion           Int       @default(0)
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
 
   runs         Run[]
   classicGames ClassicGame[]

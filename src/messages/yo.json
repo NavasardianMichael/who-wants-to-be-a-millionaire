@@ -1,8 +1,6 @@
 {
   "Common": {
     "appName": "Ìdíje Mílíọ̀nù",
-    "wordmarkTop": "Mílíọ̀nù",
-    "wordmarkBottom": "Ìdíje",
     "tagline": "Eré ìdíje ìbéèrè ní èdè yín",
     "play": "Ṣeré",
     "playNow": "Ṣeré báyìí",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "who wants to be a millionaire game, who wants to be a millionaire in Yoruba, millionaire game online, Ìdíje Mílíọ̀nù, eré ìbéèrè, ìbéèrè ọ̀fẹ́, ìmọ̀ ìjinlẹ̀",
+    "showTitle": "Ta ló fẹ́ di olówó mílíọ̀nù?",
     "homeTitle": "Ta ló fẹ́ di olówó mílíọ̀nù? Eré orí ayélujára ọ̀fẹ́ ní èdè Yorùbá | Ìdíje Mílíọ̀nù",
     "homeDescription": "Ṣeré “Ta ló fẹ́ di olówó mílíọ̀nù?” ọ̀fẹ́ lórí ayélujára ní èdè Yorùbá: ìbéèrè 15 sí mílíọ̀nù, ìrànlọ́wọ́ mẹ́rin àti ibùdó àìléwu méjì, pẹ̀lú àwọn ìbéèrè tí a kọ ní èdè Yorùbá, kò sí ì túmọ̀. Kò sí ìforúkọsílẹ̀. Ó tún wà ní àwọn èdè 79 mìíràn.",
     "playTitle": "Àtayébáyé — ìbéèrè 15 sí mílíọ̀nù",

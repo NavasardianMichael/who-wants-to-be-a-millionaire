@@ -42,6 +42,18 @@ describe('parseGeneratedQuestions', () => {
     expect(parse([{ ...valid, question: '赤い惑星として知られている惑星はどれ？' }], 'ja')).toHaveLength(1)
   })
 
+  it('drops questions half-written in another language', () => {
+    const armenian = { ...valid, question: 'Ո՞ր մոլորակն են անվանում Կարմիր մոլորակ։' }
+    expect(parse([armenian], 'hy')).toHaveLength(1)
+    expect(parse([{ ...armenian, question: 'Ո՞ր planet is known as the Red Planet?' }], 'hy')).toEqual([])
+  })
+
+  it('drops questions with punctuation a native text never uses', () => {
+    expect(parse([{ ...valid, question: 'Ո՞ր մոլորակն են անվանում Կարմիր մոլորակ?' }], 'hy')).toEqual([])
+    expect(parse([{ ...valid, question: 'Ποιος πλανήτης λέγεται Κόκκινος Πλανήτης?' }], 'el')).toEqual([])
+    expect(parse([{ ...valid, question: 'Ποιος πλανήτης λέγεται Κόκκινος Πλανήτης;' }], 'el')).toHaveLength(1)
+  })
+
   it('keeps one copy of a question repeated in the same batch', () => {
     expect(parse([valid, { ...valid, question: 'Which planet is known as the red planet ?' }])).toHaveLength(1)
   })

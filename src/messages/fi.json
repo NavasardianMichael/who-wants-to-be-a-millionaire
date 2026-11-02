@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Miljonäärivisa",
-    "wordmarkTop": "Miljonääri",
-    "wordmarkBottom": "visa",
+    "appName": "Miljonääri",
     "tagline": "Visailupeli omalla kielelläsi",
     "play": "Pelaa",
     "playNow": "Pelaa nyt",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "haluatko miljonääriksi peli, haluatko miljonääriksi suomeksi, miljonääripeli verkossa, miljonäärivisa, tietokilpailupeli, ilmainen visa, nippelitieto",
+    "showTitle": "Haluatko miljonääriksi?",
     "homeTitle": "Haluatko miljonääriksi? Ilmainen verkkopeli suomeksi | Miljonäärivisa",
     "homeDescription": "Pelaa “Haluatko miljonääriksi?” -peliä ilmaiseksi verkossa suomeksi: 15 kysymystä miljoonaan, neljä oljenkortta ja kaksi turvapaikkaa. Kysymykset on kirjoitettu suomeksi, ei käännetty. Ei rekisteröitymistä. Saatavilla myös 79 muulla kielellä.",
     "playTitle": "Klassinen miljonäärivisa – 15 kysymystä miljoonaan",

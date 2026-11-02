@@ -58,6 +58,8 @@ mkdirSync(outDir, { recursive: true })
 cpSync(path.join(serverDir, 'dist'), path.join(outDir, 'dist'), { recursive: true })
 // The schema and migrations ship too: the deploy runs `prisma migrate deploy` on the host.
 cpSync(path.join(serverDir, 'prisma'), path.join(outDir, 'prisma'), { recursive: true })
+// The account emails are written from the web's catalogues (`Email.*`), read by `config.messagesDir`.
+cpSync(path.join(rootDir, 'src', 'messages'), path.join(outDir, 'messages'), { recursive: true })
 
 writeFileSync(
   path.join(outDir, 'package.json'),

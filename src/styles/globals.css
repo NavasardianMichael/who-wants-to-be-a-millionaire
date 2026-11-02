@@ -592,6 +592,29 @@
   }
 }
 
+/* A 4px scrollbar that shows a row overflows. Chromium ignores ::-webkit-scrollbar once
+ * `scrollbar-width` is set, so the standard properties go only to browsers without it. */
+@utility thin-scrollbar {
+  @supports not selector(::-webkit-scrollbar) {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in oklab, var(--color-mist) 35%, transparent) transparent;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: color-mix(in oklab, var(--color-mist) 35%, transparent);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--color-mist) 60%, transparent);
+  }
+}
+
 @utility sweep-gold {
   background-image: linear-gradient(100deg, transparent 30%, #ffe7a366 50%, transparent 70%);
   background-size: 200% 100%;

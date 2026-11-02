@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import { Empty, Skeleton, Statistic } from 'antd'
-import { LogOut } from 'lucide-react'
+import { LogIn, LogOut } from 'lucide-react'
 import { useFormatter, useLocale, useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
 import { useProfileStore } from '@store/profile/single/store'
@@ -12,12 +12,13 @@ import { ROUTES } from '@constants/routes'
 import { formatMoney } from '@helpers/money'
 import { BadgeMedal } from '@components/badges/BadgeMedal'
 import { GoogleSignInButton } from '@components/layout/GoogleSignInButton'
-import { AppLink } from '@components/ui/bare/AppLink'
+import { AppLink, ButtonLink } from '@components/ui/bare/AppLink'
 import { Button } from '@components/ui/Button'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 import { Card } from '@components/ui/layout/Card'
 import { AvatarEditor } from './AvatarEditor'
 import { DisplayNameForm } from './DisplayNameForm'
+import { PasswordSection } from './PasswordSection'
 
 const Stat = ({ label, value, sub }: { label: string; value: string; sub?: string }) => (
   <Card className='panel-chrome flex flex-col gap-1'>
@@ -66,7 +67,13 @@ export const ProfileView = () => {
       <Card tone='gold' className='mx-auto flex max-w-lg flex-col items-center gap-4 text-center'>
         <h2 className='text-h2 font-black text-gold-gradient'>{t('Profile.signInTitle')}</h2>
         <p className='text-mist'>{t('Profile.signInBody')}</p>
-        {googleAvailable && <GoogleSignInButton />}
+        <div className='flex w-full flex-col gap-3 sm:w-auto'>
+          {googleAvailable && <GoogleSignInButton />}
+          <ButtonLink href={ROUTES.signIn} variant='outline'>
+            <LogIn aria-hidden className='size-5 rtl:-scale-x-100' />
+            {t('Common.signInWithEmail')}
+          </ButtonLink>
+        </div>
       </Card>
     )
   }
@@ -79,6 +86,7 @@ export const ProfileView = () => {
         <p className='text-caption text-mist'>
           {t('Profile.memberSince', { date: format.dateTime(new Date(user.createdAt), { dateStyle: 'long' }) })}
         </p>
+        <PasswordSection user={user} />
         <Button
           variant='ghost'
           size='sm'

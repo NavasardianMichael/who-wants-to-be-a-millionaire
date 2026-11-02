@@ -6,10 +6,10 @@ import { useTranslations } from 'next-intl'
 import { useProfileStore } from '@store/profile/single/store'
 import { toast } from '@store/toast/store'
 import { useLeaveGuard } from '@hooks/useLeaveGuard'
+import { DISPLAY_NAME_LIMITS } from '@constants/auth'
 import { Button } from '@components/ui/Button'
 
-const MIN = 2
-const MAX = 24
+const { min: MIN, max: MAX } = DISPLAY_NAME_LIMITS
 
 export const DisplayNameForm = ({ initial }: { initial: string }) => {
   const t = useTranslations('Profile')

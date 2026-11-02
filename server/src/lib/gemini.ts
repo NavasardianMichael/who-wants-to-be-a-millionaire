@@ -19,6 +19,13 @@ const MODELS = [
 /** The cheapest model, for the blind answer-check pass in `services/questionGen.ts`. */
 export const CHECKER_MODEL = MODELS[0].name
 
+/**
+ * Where question writing starts. Flash-lite with minimal thinking writes stilted, translated-
+ * sounding text in smaller languages; a batch is pooled and served many times, so the better
+ * writer is worth its price.
+ */
+export const WRITER_MODEL = MODELS[1].name
+
 const FALLBACK_STATUSES = [429, 500, 503]
 const OVERLOAD_COOLDOWN_MS = 15_000
 const DEFAULT_QUOTA_COOLDOWN_MS = 60_000
@@ -53,6 +60,8 @@ export type GenerateJsonOptions = {
   temperature?: number
   /** Pin one model instead of walking the chain. */
   model?: string
+  /** Skip the cheaper models: the chain starts at this one. */
+  startAt?: string
 }
 
 export type GenerateJsonResult = {
@@ -76,7 +85,8 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
 
   const failures: AllModelsFailedError['failures'] = []
   const now = Date.now()
-  const chain = options.model ? MODELS.filter(({ name }) => name === options.model) : MODELS
+  const start = Math.max(0, MODELS.findIndex(({ name }) => name === options.startAt))
+  const chain = options.model ? MODELS.filter(({ name }) => name === options.model) : MODELS.slice(start)
   const available = chain.filter(({ name }) => (modelCooldowns.get(name) ?? 0) <= now)
 
   // When every model is cooling down, try them anyway rather than fail without asking.

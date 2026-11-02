@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Kuizi i Milionerit",
-    "wordmarkTop": "i Milionerit",
-    "wordmarkBottom": "Kuizi",
+    "appName": "Milioneri",
     "tagline": "Kuizi televiziv në gjuhën tënde",
     "play": "Luaj",
     "playNow": "Luaj tani",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "loja kush do te behet milioner, kush do te behet milioner ne shqip, loja e milionerit online, kuizi i milionerit, loje kuiz, kuiz falas, trivia",
+    "showTitle": "Kush do të bëhet milioner?",
     "homeTitle": "Kush do të bëhet milioner? Lojë falas online në gjuhën shqipe | Kuizi i Milionerit",
     "homeDescription": "Luani “Kush do të bëhet milioner?” falas online në gjuhën shqipe: 15 pyetje deri te milioni, katër ndihma dhe dy pragje sigurie, me pyetje të shkruara në shqip, jo të përkthyera. Pa regjistrim. Gjithashtu në 79 gjuhë të tjera.",
     "playTitle": "Kuizi klasik i milionerit — 15 pyetje deri te milioni",

@@ -1,7 +1,7 @@
 # Stack Blueprint — building a new project on this stack
 
 Instructions for generating a new full-stack project with the same stack, structure and
-patterns as **Millionaire Quiz** (this repo), **Bookie** (`../bookie`) and **Hangman**
+patterns as **Millionaire** (this repo), **Bookie** (`../bookie`) and **Hangman**
 (`../hangman`). Hand this file to a coding agent together with a description of the new
 product; it says what to build, how, and which existing file to copy for each piece.
 

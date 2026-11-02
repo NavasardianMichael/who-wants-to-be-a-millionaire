@@ -1,8 +1,6 @@
 {
   "Common": {
-    "appName": "Milionářský kvíz",
-    "wordmarkTop": "Milionářský",
-    "wordmarkBottom": "kvíz",
+    "appName": "Milionář",
     "tagline": "Kvízová show ve tvém jazyce",
     "play": "Hrát",
     "playNow": "Hrát teď",
@@ -574,6 +572,7 @@
   },
   "Seo": {
     "keywords": "chcete být milionářem hra, chcete být milionářem v češtině, hra milionář online, milionářský kvíz, kvízová hra, bezplatný kvíz, vědomostní hra",
+    "showTitle": "Chcete být milionářem?",
     "homeTitle": "Chcete být milionářem? Bezplatná online hra v češtině | Milionářský kvíz",
     "homeDescription": "Zahrajte si „Chcete být milionářem?“ online zdarma v češtině: 15 otázek k milionu, čtyři nápovědy a dvě záchytné sítě, s otázkami v češtině, žádný překlad. Bez registrace. Také v 79 dalších jazycích.",
     "playTitle": "Klasický milionářský kvíz — 15 otázek k milionu",

@@ -27,6 +27,8 @@ export type SessionUser = {
   /** Absolute (Google) or an API path (`/uploads/...`) — resolve with `resolveAvatarUrl`. */
   avatarUrl: string | null
   hasUploadedAvatar: boolean
+  /** Google-only accounts have none; the profile offers to set one. */
+  hasPassword: boolean
   locale: string
   createdAt: string
 }

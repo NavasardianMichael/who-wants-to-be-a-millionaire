@@ -8,7 +8,7 @@
  *   pnpm i18n:sync                                   # every locale, missing keys only
  *   pnpm i18n:sync hy ja                             # just these
  *   pnpm i18n:sync --retranslate=Home.eyebrow,Common.appName
- *   pnpm i18n:sync --matching="Millionaire Quiz"     # re-translate keys whose English matches
+ *   pnpm i18n:sync --matching="Millionaire"          # re-translate keys whose English matches
  *   pnpm i18n:sync --formal hy ru                    # move existing copy to the polite "you"
  *
  * `--retranslate` / `--matching` redo existing translations — for when the English changed or
@@ -34,7 +34,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DIR = path.join(ROOT, 'src/messages')
 const serverRequire = createRequire(path.join(ROOT, 'server/package.json'))
 
-const BRAND = 'Millionaire Quiz'
+const BRAND = 'Millionaire'
 
 /** How the copy speaks to the player — shared by translation and the `--formal` pass. */
 const ADDRESS =
@@ -90,13 +90,13 @@ const prompt = (locale, entries, knownName, showTitle) =>
     'Rules:',
     '- Keep the keys unchanged. Return only the JSON object.',
     '- Keep ICU placeholders like {count} exactly; adapt plural categories to the language.',
-    `- The game's name "${BRAND}" is translated naturally into the language (never left in English), as a proper name, and written identically everywhere it appears.` +
+    `- The game's name "${BRAND}" is the language's one word for a millionaire, as a proper name in the nominative — no "quiz", "game" or "contest" added, never left in English — and written identically everywhere it appears.` +
       (knownName ? ` In this language it is "${knownName}".` : ''),
-    '- "Who Wants to Be a Millionaire?" is the TV quiz show\'s title: write it as the show is known and searched for in this language (its local edition\'s title where one aired, e.g. German "Wer wird Millionär?", Hindi "कौन बनेगा करोड़पति?"), identically everywhere it appears; inside a sentence it is set off the way the language quotes titles (“…”, «…», „…“, 「…」).' +
-      (showTitle ? ` In this language it is "${showTitle}".` : ''),
+    '- "Who Wants to Be a Millionaire?" (Seo.showTitle) is the TV quiz show\'s title, used only for search: write it as the show is known and searched for in this language (its local edition\'s title where one aired, e.g. German "Wer wird Millionär?", Hindi "कौन बनेगा करोड़पति?").' +
+      (showTitle ? ` In this language it is "${showTitle}".` : '') +
+      ' It appears in Seo.showTitle and Seo.keywords only — never in any other value, which names the game by its own name.',
     '- Where the copy says the game or its questions are "in English" or for "English speakers", English stands for the language you are translating into: name that language instead, inflected naturally (Armenian "in English" → "հայերենով", Russian → "на русском"). "79 other languages" stays 79.',
-    '- Common.wordmarkTop and Common.wordmarkBottom are the two lines of the logo and together read as the translated game name: the main word on top, the rest below.',
-    "- Pwa.shortName is the installed app's label under its home-screen icon: a short form of the game's name that stands on its own (nominative, never a fragment such as a genitive), ideally at most 12 characters.",
+    "- Pwa.shortName is the installed app's label under its home-screen icon: the game's name, or a shorter form of it that stands on its own, ideally at most 12 characters.",
     '- Artificial intelligence ("AI") is always written out in full in the language — never an abbreviation or acronym such as AI, KI, IA or ИИ.',
     '- Keep "50:50" as is.',
     `- ${ADDRESS}`,
@@ -213,7 +213,7 @@ const main = async () => {
     if (todo.length) {
       const knownName = todo.some(([dotted]) => dotted === 'Common.appName') ? null : have.get('Common.appName')
       const name = knownName && knownName !== BRAND ? knownName : null
-      const showTitle = todo.some(([dotted]) => dotted === 'Home.heroTitle') ? null : have.get('Home.heroTitle')
+      const showTitle = todo.some(([dotted]) => dotted === 'Seo.showTitle') ? null : have.get('Seo.showTitle')
       // With smaller pieces to fall back on, a whole batch gets one retry, not three: each is billed in full.
       let translated = await translate(ai, prompt(locale, todo, name, showTitle), todo.length > CHUNK ? 2 : 3)
       // A batch the model cannot return as valid JSON usually goes through in smaller pieces.

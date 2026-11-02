@@ -6,11 +6,12 @@ import { GOLD, SPOT, STUDIO } from '@styles/tokens'
  * "M" under a diamond), deliberately not the TV show's logo.
  */
 export const emblemSvg = ({ withRays = true }: { withRays?: boolean } = {}): string => {
+  // Grouped under a class so the header logo can turn the dial on hover while the "M" stays upright.
   const rays = withRays
-    ? Array.from({ length: 16 }, (_, index) => {
+    ? `<g class="emblem-rays">${Array.from({ length: 16 }, (_, index) => {
         const angle = (index * 360) / 16
         return `<line x1="50" y1="9" x2="50" y2="17" transform="rotate(${angle} 50 50)" stroke="${SPOT[300]}" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>`
-      }).join('')
+      }).join('')}</g>`
     : ''
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">

@@ -70,7 +70,7 @@ const Panel = ({ width, height, src, children }: { width: number; height: number
 
 export default async function OpengraphImage() {
   const headline = en.Home.heroTitle
-  const copy = [en.Common.wordmarkTop, en.Common.wordmarkBottom, en.Common.tagline, headline, ...ANSWERS.flatMap((a) => [a.letter, a.text])].join('')
+  const copy = [en.Common.appName, en.Common.tagline, headline, ...ANSWERS.flatMap((a) => [a.letter, a.text])].join('')
   // Both cases: the wordmark is uppercased by `textTransform`, after the subset is chosen.
   const glyphs = `${copy}${copy.toUpperCase()}:`
   const fonts = [...(await loadFont('Montserrat', 800, glyphs)), ...(await loadFont('Manrope', 600, glyphs))]
@@ -108,10 +108,7 @@ export default async function OpengraphImage() {
               color: 'transparent',
             }}
           >
-            {en.Common.wordmarkTop}
-          </div>
-          <div style={{ fontFamily: 'Montserrat', fontSize: 40, letterSpacing: 24, textTransform: 'uppercase', color: TEXT.ivory, marginTop: 6 }}>
-            {en.Common.wordmarkBottom}
+            {en.Common.appName}
           </div>
           <div style={{ fontSize: 32, color: TEXT.mist, marginTop: 18 }}>{en.Common.tagline}</div>
         </div>
