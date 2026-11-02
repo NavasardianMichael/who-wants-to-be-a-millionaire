@@ -36,6 +36,7 @@
     "signIn": "Mlebu",
     "signOut": "Metu",
     "signInWithGoogle": "Terusaken nganggo Google",
+    "signInWithEmail": "Mlebu nganggo email",
     "signedInAs": "Mlebu minangka {name}",
     "you": "Panjenengan",
     "unsavedTitle": "Ninggal kaca iki?",
@@ -68,6 +69,7 @@
   "Home": {
     "eyebrow": "Game online gratis ing basa Jawa · pitakonan ditulis dening kaslametan gawean",
     "heroTitle": "Sapa sing pengin dadi jutawan?",
+    "demoQuestion": "Negara endi sing duwe zona wektu paling akeh?",
     "modesTitle": "Telung cara main",
     "lifelinesTitle": "Papat bantuan, saben siji mung sepisan",
     "lifelinesSubtitle": "Yen panjenengan buntu, bantuan bisa nylametake dolanan panjenengan. Ginakaken kanthi pinter — pitakonan sing paling angel tekane paling keri.",
@@ -358,7 +360,13 @@
     "badgesTitle": "Lencana panjenengan",
     "historyTitle": "Dolanan Klasik pungkasan",
     "noHistory": "Durung ana dolanan.",
-    "memberSince": "Main wiwit {date}"
+    "memberSince": "Main wiwit {date}",
+    "passwordTitle": "Sandhi",
+    "passwordSetBody": "Panjenengan mlebu nganggo Google. Tambahaken sandhi supaya panjenengan uga bisa mlebu nganggo email.",
+    "passwordChangeBody": "Kita bakal ngirim link menyang email panjenengan kanggo milih sandhi anyar.",
+    "passwordSet": "Gawe sandhi",
+    "passwordChange": "Ganti sandhi",
+    "passwordLinkSent": "Priksa {email} kanggo link-e. Link iki mung aktif sak jam."
   },
   "Badges": {
     "title": "Lencana",
@@ -369,26 +377,86 @@
     "earnedOn": "Digayuh tanggal {date}",
     "unlocked": "Lencana kebukak",
     "items": {
-      "firstSteps": { "name": "Langkah Kapisan", "description": "Jawab bener pitakonan panjenengan sing kapisan." },
-      "safeHaven": { "name": "Batas Aman", "description": "Tekan batas aman kapisan ing Klasik (pitakonan 5)." },
-      "halfWay": { "name": "Separo Dalan", "description": "Tekan batas aman kapindho ing Klasik (pitakonan 10)." },
-      "millionaire": { "name": "Jutawan", "description": "Jawab kabeh 15 pitakonan Klasik lan menangaken sejuta dolar." },
-      "purist": { "name": "Murni", "description": "Menangaken sejuta dolar tanpa nganggo bantuan babar pisan." },
-      "smartExit": { "name": "Mundur Pinter", "description": "Mandheg nggawa hadiah panjenengan ing pitakonan 12 utawa sabanjure." },
-      "quickThinker": { "name": "Mikir Kilat", "description": "Paringaken 10 jawaban bener, saben siji kurang saka 3 detik." },
-      "marathon10": { "name": "Pelari Maraton", "description": "Jawab bener 10 pitakonan runtut ing Maraton peringkat." },
-      "marathon25": { "name": "Jarak Adoh", "description": "Jawab bener 25 pitakonan runtut ing Maraton peringkat." },
-      "marathon50": { "name": "Utek Wesi", "description": "Jawab bener 50 pitakonan runtut ing Maraton peringkat." },
-      "marathon100": { "name": "Legendha", "description": "Jawab bener 100 pitakonan runtut ing Maraton peringkat." },
-      "timeAttack15": { "name": "Si Rikat", "description": "Entuk skor 15 ing Adu Wektu peringkat." },
-      "timeAttack30": { "name": "Kilat", "description": "Entuk skor 30 ing Adu Wektu peringkat." },
-      "polyglot3": { "name": "Poliglot", "description": "Main ing 3 basa sing beda." },
-      "polyglot10": { "name": "Penjelajah Donya", "description": "Main ing 10 basa sing beda." },
-      "streak3": { "name": "Lagi Semangat", "description": "Main 3 dina runtut." },
-      "streak7": { "name": "Setya", "description": "Main 7 dina runtut." },
-      "offlineHero": { "name": "Tanpa Sinyal", "description": "Rampungaken dolanan nalika offline." },
-      "savedByAFriend": { "name": "Ditulungi Kanca", "description": "Turuti saran kanca panjenengan lan jawab bener." },
-      "categoryMaster": { "name": "Jagoan Kategori", "description": "Jawab bener 25 pitakonan ing siji kategori." }
+      "firstSteps": {
+        "name": "Langkah Kapisan",
+        "description": "Jawab bener pitakonan panjenengan sing kapisan."
+      },
+      "safeHaven": {
+        "name": "Batas Aman",
+        "description": "Tekan batas aman kapisan ing Klasik (pitakonan 5)."
+      },
+      "halfWay": {
+        "name": "Separo Dalan",
+        "description": "Tekan batas aman kapindho ing Klasik (pitakonan 10)."
+      },
+      "millionaire": {
+        "name": "Jutawan",
+        "description": "Jawab kabeh 15 pitakonan Klasik lan menangaken sejuta dolar."
+      },
+      "purist": {
+        "name": "Murni",
+        "description": "Menangaken sejuta dolar tanpa nganggo bantuan babar pisan."
+      },
+      "smartExit": {
+        "name": "Mundur Pinter",
+        "description": "Mandheg nggawa hadiah panjenengan ing pitakonan 12 utawa sabanjure."
+      },
+      "quickThinker": {
+        "name": "Mikir Kilat",
+        "description": "Paringaken 10 jawaban bener, saben siji kurang saka 3 detik."
+      },
+      "marathon10": {
+        "name": "Pelari Maraton",
+        "description": "Jawab bener 10 pitakonan runtut ing Maraton peringkat."
+      },
+      "marathon25": {
+        "name": "Jarak Adoh",
+        "description": "Jawab bener 25 pitakonan runtut ing Maraton peringkat."
+      },
+      "marathon50": {
+        "name": "Utek Wesi",
+        "description": "Jawab bener 50 pitakonan runtut ing Maraton peringkat."
+      },
+      "marathon100": {
+        "name": "Legendha",
+        "description": "Jawab bener 100 pitakonan runtut ing Maraton peringkat."
+      },
+      "timeAttack15": {
+        "name": "Si Rikat",
+        "description": "Entuk skor 15 ing Adu Wektu peringkat."
+      },
+      "timeAttack30": {
+        "name": "Kilat",
+        "description": "Entuk skor 30 ing Adu Wektu peringkat."
+      },
+      "polyglot3": {
+        "name": "Poliglot",
+        "description": "Main ing 3 basa sing beda."
+      },
+      "polyglot10": {
+        "name": "Penjelajah Donya",
+        "description": "Main ing 10 basa sing beda."
+      },
+      "streak3": {
+        "name": "Lagi Semangat",
+        "description": "Main 3 dina runtut."
+      },
+      "streak7": {
+        "name": "Setya",
+        "description": "Main 7 dina runtut."
+      },
+      "offlineHero": {
+        "name": "Tanpa Sinyal",
+        "description": "Rampungaken dolanan nalika offline."
+      },
+      "savedByAFriend": {
+        "name": "Ditulungi Kanca",
+        "description": "Turuti saran kanca panjenengan lan jawab bener."
+      },
+      "categoryMaster": {
+        "name": "Jagoan Kategori",
+        "description": "Jawab bener 25 pitakonan ing siji kategori."
+      }
     }
   },
   "Rules": {
@@ -485,8 +553,61 @@
     "benefitLeaderboard": "Pilih jeneng lan foto sing dideleng pemain liya",
     "benefitSync": "Simpen rekor Klasik, riwayat dolanan lan lencana panjenengan ing ngendi wae",
     "privacyNote": "Saka Google, kita mung nganggo jeneng, alamat email lan foto panjenengan.",
-    "unavailable": "Saiki durung bisa mlebu. Panjenengan tetep bisa main Klasik — kemajuan panjenengan disimpen ing piranti iki.",
     "alreadySignedIn": "Panjenengan wis mlebu minangka {name}.",
+    "email": "Email",
+    "password": "Sandhi",
+    "displayName": "Jeneng ing papan peringkat",
+    "displayNameHint": "{min}–{max} karakter. Panjenengan bisa ngganti mengko.",
+    "newPassword": "Sandhi anyar",
+    "confirmPassword": "Baleni sandhi",
+    "passwordHint": "Paling ora {min} karakter, kanthi huruf lan angka.",
+    "required": "Mangga diisi.",
+    "invalidEmail": "Lebetaken alamat email sing bener.",
+    "weakPassword": "Gunakaken paling ora {min} karakter, kanthi huruf lan angka.",
+    "passwordMismatch": "Sandhine ora padha.",
+    "invalidDisplayName": "Kudu {min}–{max} karakter.",
+    "forgot": "Kelalen sandhi?",
+    "submitSignIn": "Mlebu",
+    "noAccount": "Anyar ing kene?",
+    "haveAccount": "Wis duwe akun?",
+    "signUpTitle": "Gawe akun",
+    "signUpSubtitle": "Dolanan nganggo jeneng panjenengan dhewe ing papan peringkat, ing kabeh piranti.",
+    "submitSignUp": "Gawe akun",
+    "terms": "Kanthi nggawe akun, panjenengan nyarujuki <terms>katentuan panggunaan</terms> lan <privacy>kabijakan privasi</privacy>.",
+    "checkInboxTitle": "Priksa kothak mlebu panjenengan",
+    "checkInboxBody": "Kita wis ngirim link konfirmasi menyang <b>{email}</b>. Bukak link kuwi kanggo ngaktifaken akun panjenengan, banjur mlebu.",
+    "unverifiedTitle": "Konfirmasi email panjenengan dhisik",
+    "unverifiedBody": "Akun <b>{email}</b> durung aktif. Bukak link sing wis kita kirim menyang email panjenengan, utawa jaluk dikirim maneh.",
+    "checkInboxSpam": "Ora ana? Priksa folder spam utawa promosi — bisa nganti sak menit.",
+    "resendVerification": "Kirim link maneh",
+    "resendSent": "Link anyar lagi dikirim. Mung link sing paling anyar sing bisa digunakake.",
+    "forgotTitle": "Kelalen sandhi?",
+    "forgotSubtitle": "Lebetaken email akun panjenengan, kita bakal ngirim link kanggo milih sandhi anyar.",
+    "forgotSubmit": "Kirim link",
+    "forgotSent": "Yen ana akun sing nganggo alamat kuwi, link lagi dikirim. Link iki mung aktif sak jam.",
+    "backToSignIn": "Bali menyang mlebu",
+    "resetTitle": "Pilih sandhi anyar",
+    "resetSubtitle": "Panjenengan bakal mlebu ing kene lan metu saka kabeh piranti liyane.",
+    "resetSubmit": "Simpen sandhi",
+    "resetMissing": "Link iki ora jangkep. Jaluk link anyar.",
+    "requestNewLink": "Kirimi link anyar",
+    "passwordSaved": "Sandhi anyar panjenengan wis disimpen.",
+    "verifyTitle": "Konfirmasi email panjenengan",
+    "verifySubtitle": "Cukup sepisan klik, akun panjenengan wis siyap.",
+    "verifySubmit": "Konfirmasi email kula",
+    "verifyMissing": "Link iki ora jangkep. Bukak email paling anyar sing kita kirim.",
+    "verifiedTitle": "Email panjenengan wis dikonfirmasi",
+    "verifiedBody": "Akun panjenengan wis aktif. Mlebu kanggo miwiti dolanan.",
+    "codes": {
+      "emailTaken": "Akun kanthi email iki wis ana. Mlebu, utawa atur ulang sandhi panjenengan.",
+      "invalidCredentials": "Email utawa sandhi salah.",
+      "weakPassword": "Gunakaken paling ora {min} karakter, kanthi huruf lan angka.",
+      "resetTokenInvalid": "Link iki wis kedaluwarsa utawa wis tau digunakake. Jaluk link anyar.",
+      "googleOnlyAccount": "Akun iki mlebu nganggo Google. Terusaken nganggo Google — panjenengan bisa nambahi sandhi ing profil panjenengan.",
+      "emailNotVerified": "Konfirmasi email panjenengan dhisik.",
+      "verifyTokenInvalid": "Link iki wis kedaluwarsa utawa wis tau digunakake. Mlebu, mengko kita tawani ngirim link anyar.",
+      "invalidDisplayName": "Jeneng panjenengan kudu {min}–{max} karakter."
+    },
     "errors": {
       "google_unavailable": "Mlebu nganggo Google saiki lagi ora bisa.",
       "google_denied": "Mlebu dibatalake.",
@@ -544,6 +665,28 @@
     "contactDescription": "Ana pitakon, ide utawa kesalahan ing pitakonan? Kirim pesen marang tim Kuis Jutawan.",
     "signInTitle": "Mlebu",
     "signInDescription": "Mlebu nganggo Google supaya skor panjenengan mlebu papan peringkat lan kemajuan panjenengan kesimpen ing kabeh piranti.",
-    "settingsDescription": "Swara, basa lan setelan dolanan Klasik."
+    "settingsDescription": "Swara, basa lan setelan dolanan Klasik.",
+    "signUpTitle": "Gawe akun",
+    "signUpDescription": "Gawe akun gratis nganggo email panjenengan supaya skor panjenengan mlebu papan peringkat lan kemajuan panjenengan kesimpen ing kabeh piranti.",
+    "forgotPasswordTitle": "Kelalen sandhi?",
+    "forgotPasswordDescription": "Entuk link kanggo milih sandhi anyar kanggo akun Jutawan panjenengan.",
+    "resetPasswordTitle": "Pilih sandhi anyar",
+    "resetPasswordDescription": "Gawe sandhi anyar kanggo akun Jutawan panjenengan.",
+    "verifyEmailTitle": "Konfirmasi email panjenengan",
+    "verifyEmailDescription": "Konfirmasi alamat email panjenengan kanggo ngaktifaken akun Jutawan panjenengan."
+  },
+  "Email": {
+    "verifySubject": "Konfirmasi email panjenengan — Jutawan",
+    "verifyLead": "Halo {name}, sugeng rawuh ing Jutawan! Mangga konfirmasi alamat email panjenengan kanggo ngaktifaken akun:",
+    "verifyButton": "Konfirmasi email kula",
+    "verifyFooter": "Link iki aktif suwene 48 jam. Yen panjenengan ora nggawe akun nganggo alamat iki, mangga email iki ora usah digubris — tanpa konfirmasi, akun kuwi tetep ora aktif.",
+    "resetSubject": "Atur ulang sandhi panjenengan — Jutawan",
+    "resetLead": "Halo {name}, ana sing njaluk ngatur ulang sandhi akun Jutawan panjenengan:",
+    "resetButton": "Pilih sandhi anyar",
+    "resetFooter": "Link iki aktif sak jam lan mung bisa digunakake sepisan. Yen dudu panjenengan, mangga email iki ora usah digubris — sandhi panjenengan ora owah.",
+    "changedSubject": "Sandhi panjenengan wis diganti — Jutawan",
+    "changedLead": "Halo {name}, sandhi akun Jutawan panjenengan nembe wae diganti, lan kabeh piranti liyane wis metu. Yen dudu panjenengan, mangga enggal atur ulang:",
+    "changedButton": "Atur ulang sandhi kula",
+    "changedFooter": "Yen kuwi panjenengan, ora perlu nindakake apa-apa."
   }
 }
