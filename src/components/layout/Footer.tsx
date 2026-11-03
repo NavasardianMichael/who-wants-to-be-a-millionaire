@@ -17,7 +17,7 @@ export const Footer = () => {
   return (
     // A game page is one screen with nothing under it (ModePage marks it `data-game-stage`).
     <footer className='mt-16 border-t border-spot-300/10 bg-studio-950/80 pb-safe backdrop-blur [body:has([data-game-stage])_&]:hidden'>
-      <div className='container-page grid gap-10 py-12 md:grid-cols-[1.2fr_1fr_1fr]'>
+      <div className='container-wide grid gap-10 py-12 md:grid-cols-[1.2fr_1fr_1fr]'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center gap-3'>
             <Emblem className='size-12' />
@@ -47,7 +47,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className='container-page border-t border-spot-300/10 py-5 text-caption text-mist-dim'>
+      <p className='container-wide border-t border-spot-300/10 py-5 text-caption text-mist-dim'>
         {t('Common.copyright', { year, appName: t('Common.appName') })}
       </p>
     </footer>

@@ -26,7 +26,6 @@ const questions = bank.map((question, index) => ({
   text: question.text,
   options: question.options,
   correctIndex: question.correctIndex,
-  explanation: question.explanation,
   fallback: false,
 }))
 

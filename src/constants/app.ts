@@ -36,6 +36,7 @@ export const STORAGE_KEYS = {
   stats: 'millionaire:stats',
   pwaInstalledAt: 'millionaire:pwa-installed',
   iosHintClosedAt: 'millionaire:ios-hint-closed',
+  soundHintShown: 'millionaire:sound-hint-shown',
 } as const
 
 /** How many question ids the device remembers to avoid repeats. */

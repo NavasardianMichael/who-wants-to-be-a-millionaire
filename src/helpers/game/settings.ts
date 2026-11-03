@@ -12,8 +12,8 @@ import {
 export const DIFFICULTIES = ['easy', 'normal', 'hard'] as const
 export type Difficulty = (typeof DIFFICULTIES)[number]
 
-/** `classic` = the show's pacing: 30 s for Q1–5, 45 s for Q6–10, no limit for Q11–15. */
-export const TIMER_OPTIONS = ['classic', 'off', 15, 30, 45, 60] as const
+/** `off`, or seconds per question. */
+export const TIMER_OPTIONS = ['off', 30, 60, 180] as const
 export type TimerSetting = (typeof TIMER_OPTIONS)[number]
 
 export type GameSettings = {
@@ -27,7 +27,7 @@ export type GameSettings = {
 export const DEFAULT_SETTINGS: GameSettings = {
   categories: [],
   difficulty: 'normal',
-  timer: 'classic',
+  timer: 'off',
   lifelines: [...LIFELINES],
 }
 
@@ -46,11 +46,7 @@ export const classicLevel = (stage: number, difficulty: Difficulty): Level =>
   clampLevel((STAGE_LEVELS[stage - 1] ?? 5) + DIFFICULTY_SHIFT[difficulty])
 
 /** Seconds for a Classic question, or null for no limit. */
-export const classicSeconds = (stage: number, timer: TimerSetting): number | null => {
-  if (timer === 'off') return null
-  if (timer === 'classic') return stage <= 5 ? 30 : stage <= 10 ? 45 : null
-  return timer
-}
+export const classicSeconds = (timer: TimerSetting): number | null => (timer === 'off' ? null : timer)
 
 /** Settings read back from storage are untrusted — keep only what still parses. */
 export const sanitizeSettings = (raw: unknown): GameSettings => {
@@ -60,7 +56,7 @@ export const sanitizeSettings = (raw: unknown): GameSettings => {
   return {
     categories: categories.length === CATEGORIES.length ? [] : categories,
     difficulty: DIFFICULTIES.includes(value.difficulty as Difficulty) ? (value.difficulty as Difficulty) : 'normal',
-    timer: TIMER_OPTIONS.includes(value.timer as TimerSetting) ? (value.timer as TimerSetting) : 'classic',
+    timer: TIMER_OPTIONS.includes(value.timer as TimerSetting) ? (value.timer as TimerSetting) : DEFAULT_SETTINGS.timer,
     lifelines,
   }
 }

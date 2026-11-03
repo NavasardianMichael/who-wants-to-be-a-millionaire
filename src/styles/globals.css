@@ -577,6 +577,17 @@
   }
 }
 
+/* The header's row: wider than the content column, so five nav links and the controls fit in long-word languages. */
+@utility container-wide {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 96rem;
+  padding-inline: max(1rem, var(--safe-left));
+  @variant sm {
+    padding-inline: 1.5rem;
+  }
+}
+
 @utility pt-safe {
   padding-top: var(--safe-top);
 }

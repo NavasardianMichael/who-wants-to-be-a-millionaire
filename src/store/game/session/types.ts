@@ -35,7 +35,6 @@ export type ActiveQuestion = {
   fallback: boolean
   /** Known up front in unranked games; in ranked runs only once the server reveals it. */
   correctIndex: number | null
-  explanation: string | null
 }
 
 export type LifelineOverlay =

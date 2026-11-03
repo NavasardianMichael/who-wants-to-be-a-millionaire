@@ -208,7 +208,6 @@ export type AnswerResult = {
   correct: boolean
   /** Shown index of the correct option; null on a timeout reported without an answer. */
   correctIndex: number
-  explanation: string | null
   timedOut: boolean
   run: RunView
   badges: BadgeId[]
@@ -234,7 +233,7 @@ export const answerRun = async (
 
   if (timedOut) {
     const { run: finished, badges } = await finishRun(run)
-    return { correct: false, correctIndex: correctShown, explanation: question.explanation, timedOut, run: toView(finished, null), badges }
+    return { correct: false, correctIndex: correctShown, timedOut, run: toView(finished, null), badges }
   }
 
   const correct = index === correctShown && !run.removedIndexes.includes(index)
@@ -250,7 +249,7 @@ export const answerRun = async (
 
   if (outcome.finished) {
     const { run: finished, badges } = await finishRun(run, progress)
-    return { correct, correctIndex: correctShown, explanation: question.explanation, timedOut: false, run: toView(finished, null), badges }
+    return { correct, correctIndex: correctShown, timedOut: false, run: toView(finished, null), badges }
   }
 
   const mode = run.mode as RankedMode
@@ -266,7 +265,7 @@ export const answerRun = async (
     currentDeadline: questionDeadline(mode, now),
     servedQuestionIds: { push: next.id },
   })
-  return { correct, correctIndex: correctShown, explanation: question.explanation, timedOut: false, run: toView(updated, next), badges: [] }
+  return { correct, correctIndex: correctShown, timedOut: false, run: toView(updated, next), badges: [] }
 }
 
 export type LifelineResult = {
@@ -275,7 +274,7 @@ export type LifelineResult = {
   votes?: number[]
   friend?: FriendAnswer
   /** Switch the Question: the discarded question's answer, safe to reveal once it is retired from the run. */
-  switched?: { correctIndex: number; explanation: string | null }
+  switched?: { correctIndex: number }
   run: RunView
 }
 
@@ -316,7 +315,7 @@ export const useRunLifeline = async (runId: string, owner: RunOwner, lifeline: L
     })
     return {
       lifeline,
-      switched: { correctIndex: correctShown, explanation: question.explanation },
+      switched: { correctIndex: correctShown },
       run: toView(updated, next),
     }
   }

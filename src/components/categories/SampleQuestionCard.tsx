@@ -32,7 +32,6 @@ export const SampleQuestionCard = async ({ number, question }: { number: number;
         </summary>
         <div className='mt-3 rounded-xl border border-correct-500/40 bg-correct-500/10 p-3 text-body-sm'>
           <p className='font-bold text-correct-300'>{t('answer', { answer })}</p>
-          {question.explanation && <p className='mt-1 text-mist'>{question.explanation}</p>}
         </div>
       </details>
     </li>

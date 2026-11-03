@@ -5,7 +5,6 @@ const valid = {
   question: 'Which planet is known as the Red Planet?',
   options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
   correctIndex: 1,
-  explanation: 'Iron oxide gives Mars its colour.',
   scope: 'global',
 }
 

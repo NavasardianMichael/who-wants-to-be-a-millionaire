@@ -103,7 +103,7 @@ let shownAt = 0
 let tally = { quickAnswers: 0, categoryCorrect: {} as Partial<Record<Category, number>>, savedByFriend: false }
 let friendSuggestion: number | null = null
 /** The discarded question's answer, and what replaces the board when the Switch interlude ends. */
-let pendingSwitch: { correctIndex: number; explanation: string | null; replace: () => void } | null = null
+let pendingSwitch: { correctIndex: number; replace: () => void } | null = null
 let switchTimer: ReturnType<typeof setTimeout> | null = null
 
 const clearSwitch = () => {
@@ -123,7 +123,6 @@ const toActive = (question: Question): ActiveQuestion => ({
   removed: [],
   fallback: question.fallback,
   correctIndex: question.correctIndex,
-  explanation: question.explanation,
 })
 
 const isOffline = () => typeof navigator !== 'undefined' && !navigator.onLine
@@ -175,7 +174,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         })
         if (run.question) {
           present(
-            { ...run.question, fallback: false, correctIndex: null, explanation: null },
+            { ...run.question, fallback: false, correctIndex: null },
             run.deadline ? Date.parse(run.deadline) + offset : null
           )
         }
@@ -183,8 +182,8 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
 
       /** A fresh Classic clock for the question about to be shown; null = no limit. */
       const localDeadline = () => {
-        const { stage, settings } = get()
-        const seconds = settings ? classicSeconds(stage, settings.timer) : null
+        const { settings } = get()
+        const seconds = settings ? classicSeconds(settings.timer) : null
         return seconds ? Date.now() + seconds * 1000 : null
       }
 
@@ -471,10 +470,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             state.revealedCorrectIndex = correctIndex
             state.lastAnswerCorrect = correct
             state.correctCount += correct ? 1 : 0
-            if (state.question) {
-              state.question.correctIndex = correctIndex
-              state.question.explanation = rankedResult?.explanation ?? state.question.explanation
-            }
+            if (state.question) state.question.correctIndex = correctIndex
           })
           if (correct) countCorrect(question, answerMs, selectedIndex)
 
@@ -575,7 +571,6 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
                 }
                 pendingSwitch = {
                   correctIndex: question.correctIndex,
-                  explanation: question.explanation,
                   replace: () => present(toActive(replacement), localDeadline()),
                 }
               }
@@ -613,7 +608,6 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
               state.selectedIndex = index
               state.revealedCorrectIndex = pending.correctIndex
               state.switchPreview = { status: 'revealed', correct, correctIndex: pending.correctIndex }
-              if (state.question) state.question.explanation = pending.explanation
             })
             trackEvent('switch_preview', { correct, mode: get().mode })
             audioManager.stopMusic()

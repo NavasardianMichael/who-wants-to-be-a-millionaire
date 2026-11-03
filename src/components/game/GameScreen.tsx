@@ -102,7 +102,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
 
   const questionTotalMs =
     mode === 'classic' && settings
-      ? (classicSeconds(stage, settings.timer) ?? 0) * 1000
+      ? (classicSeconds(settings.timer) ?? 0) * 1000
       : mode === 'marathon'
         ? MARATHON_RULES.questionSeconds * 1000
         : 0
@@ -353,12 +353,6 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
                       {!lastAnswerCorrect && question && correctLetter && (
                         <p className='text-body-sm text-mist'>
                           {t('Game.theAnswerWas', { letter: correctLetter, text: question.options[revealedCorrectIndex!] ?? '' })}
-                        </p>
-                      )}
-                      {question?.explanation && mode !== 'timeAttack' && (
-                        <p className='max-w-lg text-body-sm text-mist'>
-                          <span className='font-semibold text-gold-300'>{t('Game.didYouKnow')} </span>
-                          {question.explanation}
                         </p>
                       )}
                       {showSafeHaven && (

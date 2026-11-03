@@ -19,7 +19,6 @@ type SeedQuestion = {
   text: string
   options: string[]
   correctIndex: number
-  explanation: string
 }
 
 const prisma = new PrismaClient()
@@ -57,7 +56,6 @@ const main = async () => {
       text: question.text,
       options: question.options,
       correctIndex: question.correctIndex,
-      explanation: question.explanation,
       origin: 'seed' as const,
       hash: questionHash(question.text),
     })),

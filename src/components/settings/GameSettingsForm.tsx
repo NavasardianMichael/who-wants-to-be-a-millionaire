@@ -31,7 +31,11 @@ export const GameSettingsForm = () => {
     setGameSettings({ lifelines: on ? [...settings.lifelines, lifeline] : settings.lifelines.filter((each) => each !== lifeline) })
 
   const timerLabel = (option: TimerSetting) =>
-    option === 'classic' ? t('Settings.timerClassic') : option === 'off' ? t('Settings.timerOff') : t('Common.secondsShort', { count: option })
+    option === 'off'
+      ? t('Settings.timerOff')
+      : option < 60
+        ? t('Common.secondsShort', { count: option })
+        : t('Common.minutesShort', { count: option / 60 })
 
   return (
     <div className='flex flex-col gap-6'>
@@ -71,7 +75,6 @@ export const GameSettingsForm = () => {
           onChange={(timer) => setGameSettings({ timer })}
           options={TIMER_OPTIONS.map((value) => ({ value, label: timerLabel(value) }))}
         />
-        {settings.timer === 'classic' && <p className='text-caption text-mist'>{t('Settings.timerClassicHint')}</p>}
       </div>
 
       <fieldset className='flex flex-col gap-3'>

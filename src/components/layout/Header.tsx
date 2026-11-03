@@ -18,7 +18,7 @@ export const Header = async () => {
   const t = await getTranslations('Nav')
   return (
   <header className='sticky top-0 z-40 bg-studio-950/75 pt-safe backdrop-blur-xl backdrop-saturate-150'>
-    <div className='container-page flex h-header items-center gap-3'>
+    <div className='container-wide flex h-header items-center gap-3'>
       <Logo className='me-auto shrink-0 lg:me-4' />
       <DesktopNav />
       <div className='flex shrink-0 items-center gap-2'>

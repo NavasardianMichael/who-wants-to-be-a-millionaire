@@ -21,13 +21,12 @@ describe('levels', () => {
 })
 
 describe('timer', () => {
-  it('follows the show pace by default', () => {
-    expect([1, 5, 6, 10, 11, 15].map((stage) => classicSeconds(stage, 'classic'))).toEqual([30, 30, 45, 45, null, null])
+  it('has no limit by default', () => {
+    expect(classicSeconds(DEFAULT_SETTINGS.timer)).toBeNull()
   })
 
-  it('honours a fixed limit or none', () => {
-    expect(classicSeconds(12, 15)).toBe(15)
-    expect(classicSeconds(1, 'off')).toBeNull()
+  it('honours a fixed limit', () => {
+    expect(classicSeconds(180)).toBe(180)
   })
 })
 
@@ -42,7 +41,7 @@ describe('settings', () => {
     expect(sanitizeSettings({ categories: ['history', 'nope'], difficulty: 'insane', timer: 99, lifelines: ['fiftyFifty', 'x'] })).toEqual({
       categories: ['history'],
       difficulty: 'normal',
-      timer: 'classic',
+      timer: 'off',
       lifelines: ['fiftyFifty'],
     })
     expect(sanitizeSettings(null)).toEqual(DEFAULT_SETTINGS)

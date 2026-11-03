@@ -27,14 +27,13 @@ export type PoolQuestion = {
   text: string
   options: string[]
   correctIndex: number
-  explanation: string | null
   /** Served from the English fallback bank because the locale's pool and Gemini both came up short. */
   fallback: boolean
 }
 
 type QuestionRow = Omit<PoolQuestion, 'fallback'>
 
-const SELECT_COLUMNS = Prisma.sql`id, locale, category, level, scope::text AS scope, text, options, "correctIndex", explanation`
+const SELECT_COLUMNS = Prisma.sql`id, locale, category, level, scope::text AS scope, text, options, "correctIndex"`
 
 /** Generated per call; the surplus beyond what the request needs stays in the pool. */
 export const GENERATION_BATCH = 8
@@ -128,7 +127,6 @@ export const generateIntoPool = (
           text: question.text,
           options: question.options,
           correctIndex: question.correctIndex,
-          explanation: question.explanation || null,
           origin: 'ai' as const,
           ranked,
           model,
@@ -296,7 +294,6 @@ export const getQuestionById = async (id: string): Promise<PoolQuestion | null> 
     text: row.text,
     options: row.options,
     correctIndex: row.correctIndex,
-    explanation: row.explanation,
     fallback: false,
   }
 }

@@ -92,7 +92,6 @@ model Question {
   /// Always four. Stored in a random order; `correctIndex` points into this array.
   options      String[]
   correctIndex Int
-  explanation  String?
   origin       QuestionOrigin @default(ai)
   /// The Gemini model that wrote it, for quality tracking.
   model        String?

@@ -15,7 +15,6 @@ export type Question = {
   text: string
   options: string[]
   correctIndex: number
-  explanation: string | null
   /** From the English bank because the locale's pool and the AI both came up short. */
   fallback: boolean
 }
@@ -83,7 +82,6 @@ export type RunView = {
 export type RunAnswerResult = {
   correct: boolean
   correctIndex: number
-  explanation: string | null
   timedOut: boolean
   run: RunView
   badges: BadgeId[]
@@ -95,7 +93,7 @@ export type RunLifelineResult = {
   votes?: number[]
   friend?: FriendAnswer
   /** Switch the Question: the discarded question's answer, revealed for the "what would you have said" beat. */
-  switched?: { correctIndex: number; explanation: string | null }
+  switched?: { correctIndex: number }
   run: RunView
 }
 

@@ -81,6 +81,7 @@ export const antdTheme: ThemeConfig = {
     Drawer: { colorBgElevated: STUDIO[900] },
     Segmented: {
       trackBg: STUDIO[950],
+      trackPadding: 5,
       itemColor: TEXT.mist,
       itemHoverColor: TEXT.ivory,
       itemHoverBg: STUDIO[800],

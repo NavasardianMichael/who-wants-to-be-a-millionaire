@@ -13,9 +13,6 @@ import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
  * question only works in the language it was written in, and a question about a local
  * poet or holiday is what makes the game feel like it belongs to its players.
  *
- * The model writes the fact first (`explanation` leads the schema) and builds the question on
- * it, so it commits to something it knows before it phrases anything.
- *
  * Everything the model returns is validated (`parseGeneratedQuestions`) before it can reach
  * the pool, and optionally cross-checked by a second, blind model pass (`checkAnswers`).
  */
@@ -24,14 +21,12 @@ export type GeneratedQuestion = {
   text: string
   options: string[]
   correctIndex: number
-  explanation: string
   scope: 'global' | 'local'
   hash: string
 }
 
 const MAX_QUESTION_LENGTH = 300
 const MAX_OPTION_LENGTH = 120
-const MAX_EXPLANATION_LENGTH = 300
 /** Below this share of letters in the locale's own script, the question was half-written in another language. */
 const MIN_SCRIPT_SHARE = 0.6
 
@@ -73,11 +68,10 @@ const QUESTIONS_SCHEMA: Schema = {
           question: { type: Type.STRING },
           options: { type: Type.ARRAY, items: { type: Type.STRING }, minItems: '4', maxItems: '4' },
           correctIndex: { type: Type.INTEGER },
-          explanation: { type: Type.STRING },
           scope: { type: Type.STRING, enum: ['global', 'local'] },
         },
-        required: ['explanation', 'question', 'options', 'correctIndex', 'scope'],
-        propertyOrdering: ['explanation', 'question', 'options', 'correctIndex', 'scope'],
+        required: ['question', 'options', 'correctIndex', 'scope'],
+        propertyOrdering: ['question', 'options', 'correctIndex', 'scope'],
       },
     },
   },
@@ -88,7 +82,7 @@ const buildSystemInstruction = (locale: Locale): string => {
   const { name, culture, writing }: LocaleInfo = LOCALE_INFO[locale]
   return [
     `You are an experienced editor of a national "Who Wants to Be a Millionaire"-style TV quiz, writing in ${name} for an audience from ${culture}.`,
-    `Write every question, option and explanation directly in natural, native ${name}, the way a well-educated native quiz writer would — never translate from English in your head, and never mix languages.`,
+    `Write every question and option directly in natural, native ${name}, the way a well-educated native quiz writer would — never translate from English in your head, and never mix languages.`,
     writing ?? '',
     'What makes a good question:',
     '- It tests knowledge, being well-informed or reasoning — the kind a smart player is proud to get right. Prefer questions that make the player think (connect two facts, reason it out, recall precisely) over bare lookups of numbers.',
@@ -106,7 +100,6 @@ const buildSystemInstruction = (locale: Locale): string => {
     '- No questions whose answer depends on the language itself (e.g. "how many letters are in this word") unless the category is about language.',
     '- No politics, wars, tragedies, or anything offensive, sexual or divisive.',
     '- In one batch every question is about a different subject — never two about the same person, event or work — and the phrasing varies.',
-    '- explanation: one short sentence stating the fact the question is built on; write it first. Never start it with "Correct" or similar.',
     '- correctIndex is the 0-based index of the correct option. Vary its position across questions.',
   ]
     .filter(Boolean)
@@ -223,7 +216,6 @@ export const parseGeneratedQuestions = (text: string, locale: Locale): Generated
         text: question,
         options: shuffled.options,
         correctIndex: shuffled.correctIndex,
-        explanation: clip(raw.explanation, MAX_EXPLANATION_LENGTH),
         scope: raw.scope === 'local' ? 'local' : 'global',
         hash,
       },

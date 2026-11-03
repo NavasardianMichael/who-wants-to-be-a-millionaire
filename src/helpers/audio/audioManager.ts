@@ -47,6 +47,8 @@ class AudioManager {
   private musicId: SoundId | null = null
   /** Stings playing, each with the function that ends it. */
   private stings = new Map<HTMLAudioElement, (how: StingEnd) => void>()
+  /** Stings started muted: the game no longer waits on them, so the next sting cuts them. */
+  private released = new Set<HTMLAudioElement>()
   private fading = new Set<HTMLAudioElement>()
   private muted = false
   private volume = 0.8
@@ -149,6 +151,8 @@ class AudioManager {
   playSting(id: SoundId, { maxWaitMs = 12_000 }: PlayOptions = {}): Promise<void> {
     if (!this.available || this.hidden) return Promise.resolve()
 
+    for (const [sting, finish] of this.stings) if (this.released.has(sting)) finish('cut')
+
     const audio = new Audio(SOUNDS[id].src)
     audio.muted = this.muted
     audio.volume = this.volume
@@ -159,6 +163,7 @@ class AudioManager {
         if (!this.stings.has(audio)) return
         clearTimeout(timer)
         this.stings.delete(audio)
+        this.released.delete(audio)
         if (how === 'timeout') this.fadeOut(audio)
         else audio.pause()
         // A sting that played out leaves a breath; one the game cut hands over at once, so the
@@ -168,7 +173,13 @@ class AudioManager {
         resolve()
       }
       this.stings.set(audio, finish)
-      const timer = setTimeout(() => finish('timeout'), this.muted ? 0 : maxWaitMs)
+      const timer = setTimeout(() => finish('timeout'), maxWaitMs)
+      // Muted, the game does not wait on a sound nobody hears, but the sting still runs its
+      // course silently: sound switched back on mid-beat comes in where the beat is.
+      if (this.muted) {
+        this.released.add(audio)
+        resolve()
+      }
       audio.addEventListener('ended', () => finish('ended'), { once: true })
       audio.addEventListener('error', () => finish('cut'), { once: true })
       const start = () => {

@@ -28,10 +28,11 @@ export const AccountButton = () => {
     )
   }
 
+  // Between lg and xl the inline nav shares the bar, so the label folds away (still the accessible name).
   return (
-    <ButtonLink href={ROUTES.signIn} size='sm' className='hidden sm:inline-flex'>
+    <ButtonLink href={ROUTES.signIn} size='sm' title={t('Common.signIn')} className='hidden sm:inline-flex'>
       <LogIn aria-hidden className='size-4 rtl:-scale-x-100' />
-      {t('Common.signIn')}
+      <span className='lg:max-xl:sr-only'>{t('Common.signIn')}</span>
     </ButtonLink>
   )
 }
