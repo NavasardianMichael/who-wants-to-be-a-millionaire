@@ -15,8 +15,8 @@ export const dynamic = 'force-static'
 
 const PAGE_LABELS: Partial<Record<(typeof INDEXABLE_ROUTES)[number], string>> = {
   play: 'Classic — 15 questions to the million, four lifelines, two safe havens',
-  marathon: 'Marathon — endless, harder every five answers, one mistake ends the run (ranked)',
-  timeAttack: 'Time Attack — as many answers as possible against the clock (ranked)',
+  marathon: 'Marathon — endless, harder every five answers, one mistake ends the run (ranked, needs a free account)',
+  timeAttack: 'Time Attack — as many answers as possible against the clock (ranked, needs a free account)',
   leaderboard: 'Leaderboard — Marathon and Time Attack rankings',
   rules: 'Rules — the money ladder, safe havens and lifelines',
   badges: 'Badges',
@@ -40,7 +40,7 @@ export async function GET(): Promise<Response> {
   const body = [
     `# ${APP_NAME} — a "${SHOW_TITLE}"-style quiz game in ${LOCALES.length} languages`,
     '',
-    `> A free online quiz game in the format of the TV show "${SHOW_TITLE}": 15 questions to the million, four lifelines (50:50, Ask the Audience, Phone a Friend, Switch the Question) and two safe havens. Questions are written natively in each language by artificial intelligence, not translated, and include the local culture. Free, no sign-up, works offline as an installable app. An independent fan-made game, not affiliated with the TV show.`,
+    `> A free online quiz game in the format of the TV show "${SHOW_TITLE}": 15 questions to the million, four lifelines (Two Out, Crowd Poll, Friend's Tip, New Question) and two safe havens. Questions are written natively in each language by artificial intelligence, not translated, and include the local culture. Free; Classic needs no sign-up and works offline as an installable app. An independent fan-made game, not affiliated with the TV show.`,
     '',
     `Every language has its own home page; the path prefix is the language code (${absoluteUrl('/hy')} is Armenian, ${absoluteUrl('/ru')} Russian).`,
     '',

@@ -159,7 +159,9 @@ Then:
   (`viewportFit: 'cover'`, no zoom lock), GA scripts when enabled.
 - **Fonts:** next/font for Latin faces (`--font-heading`, `--font-body`); per-locale script
   faces (CJK, Indic, Arabic, Armenian, Georgian…) loaded from Google Fonts with a `<link>` only
-  for that locale and composed via `--font-script` (avoids shipping every family's CSS).
+  for that locale (avoids shipping every family's CSS), slotted into `--font-heading`/`--font-body`
+  *between* the next/font face and its `local("Arial")` fallback face — Arial covers Armenian,
+  Greek, Hebrew, Arabic and Cyrillic, so a script face placed after the fallback is never used.
 - **Catalogues:** `src/messages/<locale>.json`, namespaces per area; `en.json` is the source.
   `scripts/check-messages.mjs` (keys, placeholders, plural `other`, untranslatable brand) runs in
   CI and in a unit test; `scripts/i18n-sync.mjs` fills new keys with Gemini. Translate the first

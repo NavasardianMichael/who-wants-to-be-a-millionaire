@@ -45,7 +45,7 @@ sorts it.
 | Where questions come from (API → pack → bundled bank) | `src/helpers/offline/questionSource.ts`, `src/helpers/game/questionQueue.ts` |
 | Question generation, validation, the pool | `server/src/services/questionGen.ts`, `questionPool.ts`, `jobs/poolRefill.ts` |
 | Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
-| Ranked runs (server-refereed, guests too) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` · guest cookie `lib/guest.ts` |
+| Ranked runs (server-refereed, signed-in players only) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` |
 | Leaderboard SQL | `server/src/services/leaderboard.ts` |
 | Sign-in (Google + email/password), session cookie | `server/src/routes/identity.ts` (password), `identity-google.ts`, `lib/password.ts`, `lib/google-oauth.ts`, `lib/oauth-state.ts`, `lib/session.ts` · UI `src/components/auth/` |
 | Account emails (verify, reset, "password changed") | `server/src/lib/account-mail.ts` — copy is the `Email` namespace of `src/messages/`, in the player's language |
@@ -103,9 +103,10 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   (password cleared, sessions revoked). Passwords change only through an emailed link, never
   from a session alone. The `Email` catalogue namespace is server-only copy — the root layout
   strips it from what pages ship.
-- **No mode needs an account.** Marathon and Time Attack are always ranked and refereed by
-  the server; a guest's run is tied to an httpOnly guest cookie and never reaches the
-  leaderboard. Only Classic has custom settings (Settings page) and plays offline.
+- **Only Classic plays without an account.** Marathon and Time Attack are always ranked,
+  refereed by the server and need a session (`requireAuth` on `/runs`, `Run.userId` is
+  required); a signed-out player gets a sign-in button where the start button would be.
+  Only Classic has custom settings (Settings page) and plays offline.
 - Ranked runs never send `correctIndex` before the answer; the display order of options is
   per-serve (`Run.currentOrder`). Don't add an answer to `RunView`. Ranked questions come
   from the ranked reserve (`Question.ranked`), which Classic batches and offline packs never

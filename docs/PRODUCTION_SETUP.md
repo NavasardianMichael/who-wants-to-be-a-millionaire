@@ -182,8 +182,8 @@ https://api.who-wants-to-be-a-millionaire.eapps.site/identity/google/callback
 No JavaScript origins are needed: the browser never talks to Google directly. Keep the client
 ID and secret for step 6. Publish the OAuth consent screen before real users arrive.
 
-Sign-in is optional: leave the three `GOOGLE_*` values empty in step 6 and every run is a guest
-run (refereed, but off the leaderboard).
+Google sign-in is optional: leave the three `GOOGLE_*` values empty in step 6 and players sign
+in with email and password only. Marathon and Time Attack need an account either way.
 
 ## 6. Server environment **[PC]** (once)
 

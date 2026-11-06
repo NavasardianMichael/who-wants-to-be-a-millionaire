@@ -3,8 +3,7 @@
  * Checks translated catalogues against `src/messages/en.json`:
  *   - the same set of keys (nothing missing, nothing extra);
  *   - every `{placeholder}` of the English string is present in the translation;
- *   - ICU messages still parse (balanced braces, `plural` blocks keep an `other` branch);
- *   - the brand name and "50:50" are left untranslated.
+ *   - ICU messages still parse (balanced braces, `plural` blocks keep an `other` branch).
  *
  * Usage: node scripts/check-messages.mjs [locale ...]   (no locales = all of them)
  * Exits non-zero on any problem. `tests/unit/i18n/catalogues.spec.ts` runs the same checks.
@@ -47,12 +46,6 @@ export const balanced = (message) => {
   return depth === 0
 }
 
-/** Values every language keeps verbatim. The game's name is translated (Common.appName). */
-const PRESERVED = [
-  ['Lifelines.fiftyFifty', '50:50'],
-  ['Lifelines.fiftyFiftyName', '50:50'],
-]
-
 export const checkLocale = (locale, english = flatten(JSON.parse(readFileSync(path.join(DIR, 'en.json'), 'utf8')))) => {
   const problems = []
   let translated
@@ -76,9 +69,6 @@ export const checkLocale = (locale, english = flatten(JSON.parse(readFileSync(pa
     if (/\bplural\b/.test(source) && !/\bother\s*\{/.test(value)) problems.push(`${locale}: ${key} plural has no "other"`)
   }
   for (const key of translated.keys()) if (!englishMap.has(key)) problems.push(`${locale}: extra key ${key}`)
-  for (const [key, expected] of PRESERVED) {
-    if (translated.get(key) !== expected) problems.push(`${locale}: ${key} must stay "${expected}"`)
-  }
   return problems
 }
 

@@ -11,7 +11,8 @@ import '../src/load-env.js'
 /**
  * Loads the curated English fallback bank (`seed/fallback-questions.en.json`) into the pool
  * as `origin: 'seed'`. Idempotent: re-running skips questions whose hash already exists, so
- * adding questions to the file and seeding again only inserts the new ones.
+ * adding questions to the file and seeding again only inserts the new ones, and retires the
+ * seeded questions that are no longer in the file.
  */
 type SeedQuestion = {
   category: string
@@ -62,7 +63,18 @@ const main = async () => {
     skipDuplicates: true,
   })
 
-  console.log(`Seeded ${count} new fallback questions (${questions.length} in the bank).`)
+  // A question taken out of the bank file is retired; the cleanup job deletes it once no run shows it.
+  const { count: retired } = await prisma.question.updateMany({
+    where: {
+      origin: 'seed',
+      locale: 'en',
+      retiredAt: null,
+      hash: { notIn: questions.map((question) => questionHash(question.text)) },
+    },
+    data: { retiredAt: new Date() },
+  })
+
+  console.log(`Seeded ${count} new fallback questions, retired ${retired} (${questions.length} in the bank).`)
 }
 
 main()

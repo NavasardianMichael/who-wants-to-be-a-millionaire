@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import { Manrope, Montserrat } from 'next/font/google'
 import type { Locale } from '@i18n/config'
 
@@ -6,7 +7,7 @@ import type { Locale } from '@i18n/config'
  * cover Latin, Latin-ext, Cyrillic and Vietnamese; Manrope adds Greek.
  *
  * The variables are `--font-heading` / `--font-body`, NOT `--font-sans`: Tailwind defines
- * `--font-sans` itself, and globals.css composes it from these plus `--font-script`.
+ * `--font-sans` itself, and globals.css composes it from these.
  */
 export const fontHeading = Montserrat({
   subsets: ['latin'],
@@ -28,8 +29,10 @@ export const fontBody = Manrope({
  * (next/font would inline every family's @font-face rules into the shared CSS; with 23
  * script families, four of them CJK, that costs every visitor hundreds of KB.)
  *
- * `--font-script` is appended *after* the Latin faces, so Latin text inside an Arabic UI
- * still renders in Montserrat/Manrope by per-glyph fallback.
+ * The script face goes *after* Montserrat/Manrope, so Latin text inside an Arabic UI still
+ * renders in them by per-glyph fallback — but *before* next/font's metric-matched fallback
+ * face (`'Manrope Fallback'`, a `local("Arial")`): Arial has Armenian, Greek, Hebrew, Arabic
+ * and Cyrillic glyphs, so behind it the script face was never reached.
  */
 const SCRIPT_FAMILIES: Partial<Record<Locale, string>> = {
   'zh-CN': 'Noto Sans SC',
@@ -63,7 +66,18 @@ const SCRIPT_FAMILIES: Partial<Record<Locale, string>> = {
   am: 'Noto Sans Ethiopic',
 }
 
-export type ScriptFont = { family: string; href: string }
+export type ScriptFont = {
+  family: string
+  href: string
+  /** `--font-heading` / `--font-body` with the script face slotted in; set on <html> over next/font's own. */
+  variables: CSSProperties
+}
+
+/** `'Manrope', 'Manrope Fallback'` → `'Manrope', '<script>', 'Manrope Fallback'`. */
+const withScriptFace = (fontFamily: string, family: string): string => {
+  const [face, ...fallbacks] = fontFamily.split(',').map((name) => name.trim())
+  return [face, `'${family}'`, ...fallbacks].join(', ')
+}
 
 export const getScriptFont = (locale: Locale): ScriptFont | null => {
   const family = SCRIPT_FAMILIES[locale]
@@ -71,5 +85,9 @@ export const getScriptFont = (locale: Locale): ScriptFont | null => {
   return {
     family,
     href: `https://fonts.googleapis.com/css2?family=${family.replace(/ /g, '+')}:wght@400;600;700;800&display=swap`,
+    variables: {
+      '--font-heading': withScriptFace(fontHeading.style.fontFamily, family),
+      '--font-body': withScriptFace(fontBody.style.fontFamily, family),
+    } as CSSProperties,
   }
 }

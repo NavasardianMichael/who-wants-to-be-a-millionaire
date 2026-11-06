@@ -1,19 +1,21 @@
 import { Router } from 'express'
 import { fail, ok } from '../lib/api-response.js'
 import { isLifeline, isRankedMode } from '../lib/game.js'
-import { runOwnerFor } from '../lib/guest.js'
 import { isLocale } from '../lib/locales.js'
 import { asInteger, isUuid } from '../lib/request.js'
+import { requireAuth } from '../middleware/auth.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
 import { answerRun, getRun, startRun, useRunLifeline } from '../services/runs.js'
 
 /**
- * Ranked Marathon and Time Attack runs — see `services/runs.ts` for the refereeing. No
- * sign-in needed: a guest's runs are tied to a guest cookie (`lib/guest.ts`) and refereed the
- * same way; only a signed-in player's runs reach the leaderboard.
+ * Ranked Marathon and Time Attack runs — see `services/runs.ts` for the refereeing. They need
+ * an account (Classic is the mode that plays without one), so every run belongs to a player
+ * the leaderboard can name.
  */
 export const runsRouter = Router()
+
+runsRouter.use(requireAuth)
 
 const readRunId = (value: unknown): string | null => (typeof value === 'string' && isUuid(value) ? value : null)
 
@@ -25,7 +27,7 @@ runsRouter.post(
     if (!isRankedMode(mode)) return fail(res, 'mode must be marathon or timeAttack', 400)
     if (!isLocale(locale)) return fail(res, 'Unsupported locale', 400)
 
-    return ok(res, await startRun(runOwnerFor(req, res), mode, locale), 201)
+    return ok(res, await startRun(req.session!.userId, mode, locale), 201)
   })
 )
 
@@ -34,7 +36,7 @@ runsRouter.get(
   asyncHandler(async (req, res) => {
     const runId = readRunId(req.params.id)
     if (!runId) return fail(res, 'Run not found', 404, 404)
-    return ok(res, await getRun(runId, runOwnerFor(req, res)))
+    return ok(res, await getRun(runId, req.session!.userId))
   })
 )
 
@@ -52,7 +54,7 @@ runsRouter.post(
     const index = req.body?.index === null ? null : asInteger(req.body?.index, 0, 3)
     if (index === undefined) return fail(res, 'index must be 0-3 or null', 400)
 
-    return ok(res, await answerRun(runId, runOwnerFor(req, res), questionId, index))
+    return ok(res, await answerRun(runId, req.session!.userId, questionId, index))
   })
 )
 
@@ -64,6 +66,6 @@ runsRouter.post(
     if (!runId) return fail(res, 'Run not found', 404, 404)
     if (!isLifeline(req.body?.lifeline)) return fail(res, 'Unknown lifeline', 400)
 
-    return ok(res, await useRunLifeline(runId, runOwnerFor(req, res), req.body.lifeline))
+    return ok(res, await useRunLifeline(runId, req.session!.userId, req.body.lifeline))
   })
 )

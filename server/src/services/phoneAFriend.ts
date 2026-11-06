@@ -72,7 +72,7 @@ export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> 
   try {
     const { text } = await generateJson({
       systemInstruction: [
-        `You play the friend who answers a "Phone a Friend" call on a TV quiz show. Reply in natural, spoken ${name} only.`,
+        `You play the friend a quiz-game player calls for help with a question. Reply in natural, spoken ${name} only.`,
         writing ?? '',
         `Invent a first name that is common in ${culture} for yourself (friendName).`,
         'message: what you say on the phone, at most 35 words. Think out loud briefly, then name your answer with its letter.',

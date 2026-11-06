@@ -1,4 +1,4 @@
-import type { CSSProperties, ReactNode } from 'react'
+import type { ReactNode } from 'react'
 import { AntdRegistry } from '@ant-design/nextjs-registry'
 import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
@@ -80,12 +80,18 @@ export default async function RootLayout({ children, params }: Props) {
   // `Email` is the API's copy for account emails (`server/src/lib/account-mail.ts`); no page renders it.
   const { Email: _emailCopy, ...messages } = await getMessages()
   const scriptFont = getScriptFont(lang)
-  const style = scriptFont ? ({ '--font-script': `'${scriptFont.family}'` } as CSSProperties) : undefined
 
   return (
     // CSS_VAR_SCOPE is the class antd scopes its `--ant-*` variables to (theme.ts); on <html>
     // they cover antd portals too, and the globals.css §2 aliases read them from :root.
-    <html lang={lang} dir={direction} className={cn(fontHeading.variable, fontBody.variable, CSS_VAR_SCOPE)} style={style}>
+    // data-scroll-behavior lets Next turn globals.css's smooth scrolling off during route changes.
+    <html
+      lang={lang}
+      dir={direction}
+      data-scroll-behavior='smooth'
+      className={cn(fontHeading.variable, fontBody.variable, CSS_VAR_SCOPE)}
+      style={scriptFont?.variables}
+    >
       <head>
         {/* Fixes the cascade-layer order before any stylesheet — antd's inline <style> included —
             can declare a layer first (globals.css §0 repeats it). */}

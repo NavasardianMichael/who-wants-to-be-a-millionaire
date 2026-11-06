@@ -114,26 +114,22 @@ describe('ranked runs', () => {
     reserve = await createRankedQuestions('en', 1, 8)
   })
 
-  it('lets a guest play, tied to its own cookie and kept off the leaderboard', async () => {
-    const guest = request.agent(app)
-    const start = await guest.post('/runs').set('Origin', ORIGIN).send({ mode: 'marathon', locale: 'en' })
+  it('needs an account: a signed-out browser can neither start a run nor reach one', async () => {
+    for (const mode of ['marathon', 'timeAttack']) {
+      const start = await request(app).post('/runs').set('Origin', ORIGIN).send({ mode, locale: 'en' })
+      expect(start.status).toBe(401)
+    }
+
+    const { cookie } = await createUser('Owner')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'en' })
     expect(start.status).toBe(201)
     const run = start.body.value
-    expect((await guest.get(`/runs/${run.id}`)).status).toBe(200)
-    // Another browser (no guest cookie) cannot see or play it.
-    expect((await request(app).get(`/runs/${run.id}`)).status).toBe(404)
-
-    const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
-    expect(row.userId).toBeNull()
-    const question = await prisma.question.findUniqueOrThrow({ where: { id: row.currentQuestionId! } })
-    const shown = row.currentOrder.indexOf(question.correctIndex)
-    const answer = await guest.post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).send({ questionId: run.question.id, index: shown })
-    expect(answer.body.value.run.score).toBe(1)
-    // Finished with a score, yet still not on the board: there is no account to show.
-    await prisma.run.update({ where: { id: run.id }, data: { status: 'finished', finishedAt: new Date() } })
-
-    const board = await request(app).get('/leaderboards').query({ mode: 'marathon' })
-    expect(board.body.value.entries.every((entry: { userId: string | null }) => entry.userId !== null)).toBe(true)
+    expect((await request(app).get(`/runs/${run.id}`)).status).toBe(401)
+    const answer = await request(app).post(`/runs/${run.id}/answer`).set('Origin', ORIGIN).send({ questionId: run.question.id, index: 0 })
+    expect(answer.status).toBe(401)
+    // Someone else's account gets a 404, as if the run did not exist.
+    const other = await createUser('Other')
+    expect((await request(app).get(`/runs/${run.id}`).set('Cookie', other.cookie)).status).toBe(404)
   })
 
   it('referees a marathon end to end without ever sending the answer early', async () => {

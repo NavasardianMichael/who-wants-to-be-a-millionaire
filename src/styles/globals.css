@@ -84,9 +84,9 @@
   --color-wrong-500: #ff3b4e;
   --color-wrong-700: #b3172a;
 
-  /* Typefaces: next/font variables, with the per-locale script face appended. */
-  --font-sans: var(--font-body), var(--font-script, ui-sans-serif), system-ui, sans-serif;
-  --font-display: var(--font-heading), var(--font-script, ui-sans-serif), system-ui, sans-serif;
+  /* Typefaces: next/font variables; on script locales the layout slots the script face into them (fonts.ts). */
+  --font-sans: var(--font-body), system-ui, sans-serif;
+  --font-display: var(--font-heading), system-ui, sans-serif;
 
   /* Fluid type scale. */
   --text-display: clamp(2.25rem, 1.35rem + 3.8vw, 4.75rem);

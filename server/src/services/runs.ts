@@ -15,7 +15,6 @@ import {
   SWITCH_PREVIEW_MS,
 } from './runRules.js'
 import { type BadgeId, isLifeline, type Level, type Lifeline, type RankedMode } from '../lib/game.js'
-import type { RunOwner } from '../lib/guest.js'
 import { audienceVotes, fiftyFifty } from '../lib/lifelines.js'
 import type { Locale } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
@@ -85,15 +84,13 @@ const displayOrder = (question: PoolQuestion): number[] => shuffledOrder(questio
 
 const clockOf = (run: Run) => ({ mode: run.mode as RankedMode, endsAt: run.endsAt, currentDeadline: run.currentDeadline })
 
-const ownedBy = (owner: RunOwner) => (owner.userId ? { userId: owner.userId } : { guestId: owner.guestId })
-
 /** How many of the player's most recent ranked questions a new draw steers clear of. */
 const PLAYER_HISTORY_LIMIT = 500
 
 /** Questions the player met in recent runs of either mode, newest first. */
-const playerSeenIds = async (owner: RunOwner): Promise<string[]> => {
+const playerSeenIds = async (userId: string): Promise<string[]> => {
   const runs = await prisma.run.findMany({
-    where: ownedBy(owner),
+    where: { userId },
     orderBy: { startedAt: 'desc' },
     take: 50,
     select: { servedQuestionIds: true },
@@ -122,11 +119,10 @@ const writeRun = async (run: Run, data: Prisma.RunUpdateInput): Promise<Run> => 
 /** The run's flag once a question came from the public pool: set, never cleared. */
 const publicFlag = ({ isPublic }: RunQuestion) => (isPublic ? { usedPublicQuestions: true } : {})
 
-const loadOwnRun = async (runId: string, owner: RunOwner): Promise<Run> => {
+const loadOwnRun = async (runId: string, userId: string): Promise<Run> => {
   const run = await prisma.run.findUnique({ where: { id: runId } })
-  const mine = run && (owner.userId ? run.userId === owner.userId : run.guestId === owner.guestId)
   // 404 for someone else's run too — no need to confirm it exists.
-  if (!run || !mine) throw new HttpError(404, 'Run not found', 404)
+  if (run?.userId !== userId) throw new HttpError(404, 'Run not found', 404)
   return run
 }
 
@@ -138,8 +134,7 @@ const finishRun = async (run: Run, data: Prisma.RunUpdateInput = {}): Promise<{ 
     currentQuestionId: null,
     currentDeadline: null,
   })
-  // Badges live on accounts; a guest's run earns none on the server.
-  const badges = finished.userId ? await awardBadges(finished.userId, runBadges(finished.mode as RankedMode, finished.correctCount)) : []
+  const badges = await awardBadges(finished.userId, runBadges(finished.mode as RankedMode, finished.correctCount))
   return { run: finished, badges }
 }
 
@@ -165,17 +160,17 @@ export const sweepStaleRuns = async (): Promise<number> => {
   return finished
 }
 
-export const startRun = async (owner: RunOwner, mode: RankedMode, locale: Locale): Promise<RunView> => {
+export const startRun = async (userId: string, mode: RankedMode, locale: Locale): Promise<RunView> => {
   // One live run per mode: starting again forfeits the old one at its current score.
-  const live = await prisma.run.findMany({ where: { ...ownedBy(owner), mode, status: 'active' } })
+  const live = await prisma.run.findMany({ where: { userId, mode, status: 'active' } })
   for (const run of live) await finishUnlessRaced(run)
 
-  const first = await getRunQuestion(locale, 1, [], await playerSeenIds(owner))
+  const first = await getRunQuestion(locale, 1, [], await playerSeenIds(userId))
   const { question } = first
   const now = new Date()
   const run = await prisma.run.create({
     data: {
-      ...ownedBy(owner),
+      userId,
       ...publicFlag(first),
       mode,
       locale,
@@ -190,14 +185,14 @@ export const startRun = async (owner: RunOwner, mode: RankedMode, locale: Locale
   return toView(run, question)
 }
 
-export const getRun = async (runId: string, owner: RunOwner): Promise<RunView> => {
-  let run = await loadOwnRun(runId, owner)
+export const getRun = async (runId: string, userId: string): Promise<RunView> => {
+  let run = await loadOwnRun(runId, userId)
   if (run.status === 'active' && isStale(clockOf(run), new Date())) {
     try {
       run = (await finishRun(run)).run
     } catch (error) {
       if (!isConflict(error)) throw error
-      run = await loadOwnRun(runId, owner)
+      run = await loadOwnRun(runId, userId)
     }
   }
   const question = run.currentQuestionId ? await getQuestionById(run.currentQuestionId) : null
@@ -216,11 +211,11 @@ export type AnswerResult = {
 /** `index` is the shown index, or null when the client reports its own timeout. */
 export const answerRun = async (
   runId: string,
-  owner: RunOwner,
+  userId: string,
   questionId: string,
   index: number | null
 ): Promise<AnswerResult> => {
-  const run = await loadOwnRun(runId, owner)
+  const run = await loadOwnRun(runId, userId)
   if (run.status !== 'active') throw new HttpError(409, 'Run is already finished', 409)
   if (run.currentQuestionId !== questionId) throw new HttpError(409, 'Not the current question', 409)
 
@@ -253,7 +248,7 @@ export const answerRun = async (
   }
 
   const mode = run.mode as RankedMode
-  const drawn = await getRunQuestion(run.locale as Locale, levelFor(mode, correctCount), run.servedQuestionIds, await playerSeenIds(owner))
+  const drawn = await getRunQuestion(run.locale as Locale, levelFor(mode, correctCount), run.servedQuestionIds, await playerSeenIds(userId))
   const next = drawn.question
   const updated = await writeRun(run, {
     ...progress,
@@ -278,8 +273,8 @@ export type LifelineResult = {
   run: RunView
 }
 
-export const useRunLifeline = async (runId: string, owner: RunOwner, lifeline: Lifeline): Promise<LifelineResult> => {
-  const run = await loadOwnRun(runId, owner)
+export const useRunLifeline = async (runId: string, userId: string, lifeline: Lifeline): Promise<LifelineResult> => {
+  const run = await loadOwnRun(runId, userId)
   const mode = run.mode as RankedMode
   if (run.status !== 'active' || !run.currentQuestionId) throw new HttpError(409, 'Run is already finished', 409)
   if (!allowedLifelines(mode).includes(lifeline)) throw new HttpError(400, 'Lifeline not allowed in this mode', 400)
@@ -299,7 +294,7 @@ export const useRunLifeline = async (runId: string, owner: RunOwner, lifeline: L
   const deadline = run.currentDeadline ? new Date(run.currentDeadline.getTime() + extraMs) : null
 
   if (lifeline === 'switchQuestion') {
-    const drawn = await getRunQuestion(run.locale as Locale, level, run.servedQuestionIds, await playerSeenIds(owner))
+    const drawn = await getRunQuestion(run.locale as Locale, level, run.servedQuestionIds, await playerSeenIds(userId))
     const next = drawn.question
     const nextDeadline = questionDeadline(mode, now)
     const updated = await writeRun(run, {

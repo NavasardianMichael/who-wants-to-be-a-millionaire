@@ -98,7 +98,7 @@ const prompt = (locale, entries, knownName, showTitle) =>
     '- Where the copy says the game or its questions are "in English" or for "English speakers", English stands for the language you are translating into: name that language instead, inflected naturally (Armenian "in English" → "հայերենով", Russian → "на русском"). "79 other languages" stays 79.',
     "- Pwa.shortName is the installed app's label under its home-screen icon: the game's name, or a shorter form of it that stands on its own, ideally at most 12 characters.",
     '- Artificial intelligence ("AI") is always written out in full in the language — never an abbreviation or acronym such as AI, KI, IA or ИИ.',
-    '- Keep "50:50" as is.',
+    "- The lifelines are the game's own (Two Out, Crowd Poll, Friend's Tip, New Question): name them naturally in the language, never with the TV show's lifeline names in that language.",
     `- ${ADDRESS}`,
     '',
     JSON.stringify(Object.fromEntries(entries), null, 2),

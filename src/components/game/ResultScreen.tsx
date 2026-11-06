@@ -155,7 +155,7 @@ export const ResultScreen = ({ end, mode, ranked, onPlayAgain }: ResultScreenPro
 
         {isResolved && !user && (
           <div className='flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 border-t border-line-subtle pt-3 sm:flex-nowrap sm:pt-4 lg:flex-col'>
-            <p className='text-caption text-mist sm:text-start sm:text-body-sm lg:text-center short:hidden'>{ranked ? t('Result.signInToRank') : t('Result.signInToSave')}</p>
+            <p className='text-caption text-mist sm:text-start sm:text-body-sm lg:text-center short:hidden'>{t('Result.signInToSave')}</p>
             <ButtonLink href={ROUTES.signIn} variant='outline' size='sm'>
               <LogIn aria-hidden className='size-4 rtl:-scale-x-100' />
               {t('Common.signIn')}

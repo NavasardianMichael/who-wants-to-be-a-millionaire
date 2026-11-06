@@ -94,6 +94,9 @@ const LADDER_CLOSE_MS = 400
 const SWITCH_PICK_MS = 10_000
 const SWITCH_LINGER_MS = 1200
 
+/** A losing answer stays on the board at least this long, counted from its reveal, before the result screen. */
+const LOSS_HOLD_MS = 5000
+
 const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms))
 
 // Per-game working memory that is not UI state.
@@ -214,7 +217,12 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         present(toActive(question), localDeadline())
       }
 
-      const finish = async (gen: number, outcome: GameOutcome, extra: { serverBadges?: BadgeId[] } = {}) => {
+      /** `lostAt`: when the losing answer was revealed; the result waits `LOSS_HOLD_MS` from then. */
+      const finish = async (gen: number, outcome: GameOutcome, extra: { serverBadges?: BadgeId[]; lostAt?: number } = {}) => {
+        if (extra.lostAt !== undefined) {
+          await sleep(extra.lostAt + LOSS_HOLD_MS - Date.now())
+          if (!alive(gen)) return
+        }
         const state = get()
         audioManager.stopAll()
         if (outcome === 'won') void audioManager.playSting('millionaire')
@@ -304,9 +312,12 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         if (friendSuggestion === selected) tally.savedByFriend = true
       }
 
-      const continueAfterRanked = async (gen: number, result: RunAnswerResult) => {
+      const continueAfterRanked = async (gen: number, result: RunAnswerResult, revealedAt: number) => {
         if (result.run.status === 'finished') {
-          await finish(gen, result.timedOut ? 'timeout' : 'ended', { serverBadges: result.badges })
+          await finish(gen, result.timedOut ? 'timeout' : 'ended', {
+            serverBadges: result.badges,
+            lostAt: result.correct ? undefined : revealedAt,
+          })
           return
         }
         set((state) => {
@@ -318,8 +329,8 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
       }
 
       /** Classic only: the other modes are refereed by the server. */
-      const continueAfterLocal = async (gen: number, correct: boolean) => {
-        if (!correct) return finish(gen, 'lost')
+      const continueAfterLocal = async (gen: number, correct: boolean, revealedAt: number) => {
+        if (!correct) return finish(gen, 'lost', { lostAt: revealedAt })
         if (get().correctCount >= STAGES_COUNT) return finish(gen, 'won')
         const { transitionMs } = pace()
         set((state) => {
@@ -472,14 +483,15 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             state.correctCount += correct ? 1 : 0
             if (state.question) state.question.correctIndex = correctIndex
           })
+          const revealedAt = Date.now()
           if (correct) countCorrect(question, answerMs, selectedIndex)
 
           const sting = audioManager.playSting(correct ? 'correct' : 'wrong', { maxWaitMs: pace().revealMs })
           await Promise.all([sting, sleep(pace().revealMs)])
           if (!alive(gen)) return
 
-          if (rankedResult) await continueAfterRanked(gen, rankedResult)
-          else await continueAfterLocal(gen, correct)
+          if (rankedResult) await continueAfterRanked(gen, rankedResult, revealedAt)
+          else await continueAfterLocal(gen, correct, revealedAt)
         },
 
         useLifeline: async (lifeline) => {
@@ -652,8 +664,9 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
                 state.phase = 'revealed'
                 state.revealedCorrectIndex = result.correctIndex
               })
+              const lostAt = Date.now()
               await audioManager.playSting('wrong', { maxWaitMs: 2000 })
-              if (alive(gen)) await finish(gen, 'timeout', { serverBadges: result.badges })
+              if (alive(gen)) await finish(gen, 'timeout', { serverBadges: result.badges, lostAt })
               return
             }
 
@@ -672,8 +685,9 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             state.phase = 'revealed'
             state.revealedCorrectIndex = question?.correctIndex ?? null
           })
+          const lostAt = Date.now()
           await audioManager.playSting('wrong', { maxWaitMs: 2000 })
-          if (alive(gen)) await finish(gen, 'timeout')
+          if (alive(gen)) await finish(gen, 'timeout', { lostAt })
         },
 
         quitGame: () => {

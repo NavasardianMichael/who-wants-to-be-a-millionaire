@@ -3,7 +3,7 @@ import { emblemSvg } from './brand'
 export const SERVICE_WORKER_URL = '/sw.js'
 
 /** Bump when the worker's behaviour or the offline document changes: old caches are dropped on activate. */
-export const PWA_CACHE_VERSION = 'v1'
+export const PWA_CACHE_VERSION = 'v3'
 
 const OFFLINE_URL = '/__offline__'
 
@@ -65,10 +65,13 @@ export const buildOfflineDocument = (colors: OfflineColors): string => `<!doctyp
  * - Navigations: network first (with navigation preload), cached by path; offline, the same
  *   path from cache, else the locale's home page, else the offline document.
  * - `/_next/static/`: cache first — content-hashed, never stale.
- * - Audio, images, packs, fonts (incl. Google Fonts): stale-while-revalidate.
+ * - Audio: cache first, the whole file fetched once; an `<audio>` element's byte-range
+ *   request is sliced from it. 206s are never stored.
+ * - Images, packs, fonts (incl. Google Fonts): stale-while-revalidate.
  * - Never intercepted: non-GET, the API (another origin), RSC payloads, analytics.
  * - `CACHE_URLS` message: the page hands over assets it loaded before the worker took
- *   control, and pages to keep for offline play (a downloaded pack's locale).
+ *   control (fetched only if not cached yet), and pages to keep for offline play (a
+ *   downloaded pack's locale, refreshed each time).
  */
 export const buildServiceWorkerScript = (options: { version: string; offlineDocument: string }): string => {
   const cacheName = JSON.stringify(`millionaire-${options.version}`)
@@ -89,6 +92,55 @@ const isStaticAsset = (url) =>
   /\\.(mp3|woff2?|ttf|png|jpe?g|webp|avif|svg|ico|json|webmanifest)$/.test(url.pathname);
 
 const isPage = (url) => url.origin === self.location.origin && !url.pathname.startsWith('/_next/') && !isStaticAsset(url);
+
+/** The Cache API rejects partial (206) responses, so only whole ones are stored. */
+const isCacheable = (response) => response.status === 200 || response.type === 'opaque';
+const store = (cache, key, response) => cache.put(key, response).catch(skip);
+
+/** Answers a media element's byte-range request from a whole response, as a 206. */
+const sliceRange = async (request, response) => {
+  const match = /^bytes=(\\d*)-(\\d*)$/.exec(request.headers.get('Range') || '');
+  if (!match || (match[1] === '' && match[2] === '')) return response;
+  const blob = await response.blob();
+  const size = blob.size;
+  const start = match[1] === '' ? Math.max(0, size - Number(match[2])) : Number(match[1]);
+  const end = match[1] === '' || match[2] === '' ? size - 1 : Math.min(Number(match[2]), size - 1);
+  if (start >= size || start > end) {
+    return new Response(null, { status: 416, headers: { 'Content-Range': 'bytes */' + size } });
+  }
+  return new Response(blob.slice(start, end + 1), {
+    status: 206,
+    statusText: 'Partial Content',
+    headers: {
+      'Content-Type': response.headers.get('Content-Type') || blob.type,
+      'Content-Range': 'bytes ' + start + '-' + end + '/' + size,
+      'Content-Length': String(end - start + 1),
+      'Accept-Ranges': 'bytes',
+    },
+  });
+};
+
+/**
+ * Sounds: cache first by URL, fetched whole once and never revalidated (a changed file ships
+ * with a PWA_CACHE_VERSION bump). An <audio> element asks for a byte range; forwarded as-is
+ * it comes back a 206, which the Cache API refuses, and the file is fetched on every play.
+ */
+const mediaRequest = async (event) => {
+  const request = event.request;
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(request.url, { ignoreVary: true });
+  if (cached) return sliceRange(request, cached);
+  let whole;
+  try {
+    whole = await fetch(request.url, { credentials: 'same-origin' });
+  } catch (error) {
+    return Response.error();
+  }
+  if (whole.status !== 200) return whole;
+  // Stored in the background: playback starts while a long music bed is still downloading.
+  event.waitUntil(store(cache, request.url, whole.clone()));
+  return sliceRange(request, whole);
+};
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -119,9 +171,9 @@ self.addEventListener('message', (event) => {
         if (url.origin !== self.location.origin) return;
         if (isPage(url)) {
           const response = await fetch(url.pathname, { credentials: 'same-origin' });
-          if (response.ok) await cache.put(url.pathname, response);
+          if (isCacheable(response)) await store(cache, url.pathname, response);
         } else if (isStaticAsset(url) || url.pathname.startsWith('/_next/static/')) {
-          await cache.add(url.href);
+          if (!(await cache.match(url.href, { ignoreVary: true }))) await cache.add(url.href);
         }
       } catch (error) { /* offline or gone: skip it */ }
     }));
@@ -135,7 +187,7 @@ const networkFirst = async (event) => {
   const key = new URL(event.request.url).pathname;
   try {
     const response = (await event.preloadResponse) || (await fetch(event.request));
-    if (response.ok) cache.put(key, response.clone());
+    if (isCacheable(response)) store(cache, key, response.clone());
     return response;
   } catch (error) {
     return (await cache.match(key)) || (await cache.match(localeHome(key))) || (await cache.match(OFFLINE_URL)) ||
@@ -148,7 +200,7 @@ const cacheFirst = async (request) => {
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response.ok) cache.put(request, response.clone());
+  if (isCacheable(response)) store(cache, request, response.clone());
   return response;
 };
 
@@ -157,7 +209,7 @@ const staleWhileRevalidate = async (request) => {
   const cached = await cache.match(request, { ignoreVary: true });
   const network = fetch(request)
     .then((response) => {
-      if (response.ok || response.type === 'opaque') cache.put(request, response.clone());
+      if (isCacheable(response)) store(cache, request, response.clone());
       return response;
     })
     .catch(() => cached || Response.error());
@@ -176,6 +228,10 @@ self.addEventListener('fetch', (event) => {
 
   if (request.mode === 'navigate') { event.respondWith(networkFirst(event)); return; }
   if (url.pathname.startsWith('/_next/static/')) { event.respondWith(cacheFirst(request)); return; }
+  if (url.pathname.startsWith('/audio/') || (isStaticAsset(url) && request.headers.has('Range'))) {
+    event.respondWith(mediaRequest(event));
+    return;
+  }
   if (isStaticAsset(url)) event.respondWith(staleWhileRevalidate(request));
 });
 `

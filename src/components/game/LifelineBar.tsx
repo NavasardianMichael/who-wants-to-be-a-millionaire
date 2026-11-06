@@ -2,14 +2,14 @@
 
 import type { ReactNode } from 'react'
 import { Tooltip } from 'antd'
-import { Phone, Repeat, Users } from 'lucide-react'
+import { Phone, Repeat, Scissors, Users } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { type Lifeline, LIFELINES } from '@constants/game'
 import { cn } from '@helpers/cn'
 import { Spinner } from '@components/ui/Spinner'
 
 const ICONS: Record<Lifeline, ReactNode> = {
-  fiftyFifty: <span className='font-display text-[0.95rem] font-black tracking-tight'>50:50</span>,
+  fiftyFifty: <Scissors aria-hidden className='size-5 sm:size-6' />,
   askAudience: <Users aria-hidden className='size-5 sm:size-6' />,
   phoneAFriend: <Phone aria-hidden className='size-5 sm:size-6' />,
   switchQuestion: <Repeat aria-hidden className='size-5 sm:size-6' />,

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { Play, Settings2, Trophy } from 'lucide-react'
+import { LogIn, Play, Settings2, Trophy } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useAuthStore } from '@store/auth/store'
 import { useGameSessionStore } from '@store/game/session/store'
@@ -11,7 +11,7 @@ import { type GameMode, isCategory, LADDER, MARATHON_RULES, TIME_ATTACK_RULES } 
 import { ROUTES } from '@constants/routes'
 import { isDefaultSettings } from '@helpers/game/settings'
 import { formatMoney } from '@helpers/money'
-import { AppLink } from '@components/ui/bare/AppLink'
+import { AppLink, ButtonLink } from '@components/ui/bare/AppLink'
 import { Button } from '@components/ui/Button'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 
@@ -22,8 +22,9 @@ import { ErrorAlert } from '@components/ui/ErrorAlert'
  * Classic plays the player's saved settings (edited on the Settings page; a note here says
  * when they differ from the defaults). Marathon and Time Attack are always refereed by the
  * server on the standard rules, so they need a connection — offline they say so instead of
- * offering a start that would fail. No mode needs an account: a guest's runs are refereed the
- * same, they just do not reach the leaderboard.
+ * offering a start that would fail — and an account, so every run can reach the leaderboard:
+ * a signed-out player gets a way to sign in where the start button would be. Classic plays
+ * without one.
  */
 export const GameSetup = ({ mode }: { mode: GameMode }) => {
   const t = useTranslations()
@@ -38,8 +39,9 @@ export const GameSetup = ({ mode }: { mode: GameMode }) => {
   const online = useOnline()
 
   const ranked = mode !== 'classic'
-  const guest = isResolved && !user
-  const blocked = ranked && !online
+  const needsSignIn = ranked && isResolved && !user
+  // Until the session resolves, a ranked start could still turn out to need an account.
+  const blocked = ranked && (!online || !user)
 
   // `?category=history` from a category landing page plays that category. Read once from
   // `window.location` rather than useSearchParams, which would need a Suspense boundary.
@@ -65,20 +67,7 @@ export const GameSetup = ({ mode }: { mode: GameMode }) => {
       {ranked ? (
         <p className='flex justify-center gap-2 text-center text-body-sm text-mist'>
           <Trophy aria-hidden className='size-4 shrink-0 text-gold-300' />
-          <span>
-            {!online ? t('Modes.needsConnection') : guest ? t('Modes.guestHint') : t('Modes.rankedHint')}
-            {online && guest && (
-              <>
-                {' '}
-                <AppLink
-                  href={ROUTES.signIn}
-                  className='font-semibold text-gold-200 underline-offset-4 hover:underline'
-                >
-                  {t('Common.signIn')}
-                </AppLink>
-              </>
-            )}
-          </span>
+          <span>{!online ? t('Modes.needsConnection') : needsSignIn ? t('Modes.signInRequired') : t('Modes.rankedHint')}</span>
         </p>
       ) : (
         !isDefaultSettings(settings) && (
@@ -94,16 +83,23 @@ export const GameSetup = ({ mode }: { mode: GameMode }) => {
 
       {Boolean(error) && <ErrorAlert error={error} message={t('Game.error')} />}
 
-      <Button
-        size='lg'
-        fullWidth
-        onClick={() => startGame({ mode, locale, settings })}
-        loading={isPending}
-        disabled={blocked}
-        icon={ranked ? <Trophy aria-hidden className='size-6' /> : <Play aria-hidden className='size-6' />}
-      >
-        {t('Game.startGame')}
-      </Button>
+      {needsSignIn ? (
+        <ButtonLink href={ROUTES.signIn} size='lg' fullWidth>
+          <LogIn aria-hidden className='size-6 rtl:-scale-x-100' />
+          {t('Common.signIn')}
+        </ButtonLink>
+      ) : (
+        <Button
+          size='lg'
+          fullWidth
+          onClick={() => startGame({ mode, locale, settings })}
+          loading={isPending}
+          disabled={blocked}
+          icon={ranked ? <Trophy aria-hidden className='size-6' /> : <Play aria-hidden className='size-6' />}
+        >
+          {t('Game.startGame')}
+        </Button>
+      )}
       <p className='hidden text-center text-caption text-mist-dim lg:block'>{t('Game.keyboardHint')}</p>
     </div>
   )

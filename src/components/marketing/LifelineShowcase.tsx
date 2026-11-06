@@ -1,9 +1,9 @@
-import { Phone, Repeat, Users } from 'lucide-react'
+import { Phone, Repeat, Scissors, Users } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 import { type Lifeline, LIFELINES } from '@constants/game'
 
 const ICON: Record<Lifeline, React.ReactNode> = {
-  fiftyFifty: <span className='font-display text-body font-black'>50:50</span>,
+  fiftyFifty: <Scissors aria-hidden className='size-6' />,
   askAudience: <Users aria-hidden className='size-6' />,
   phoneAFriend: <Phone aria-hidden className='size-6' />,
   switchQuestion: <Repeat aria-hidden className='size-6' />,

@@ -29,7 +29,9 @@ pnpm dev                                # web http://localhost:7006 · API http:
 ```
 
 Without a `GEMINI_KEY` everything works on the English bank. Without Google OAuth credentials
-sign-in is unavailable and every run is a guest run (refereed, but off the leaderboard).
+the Google button is hidden, but email and password sign-in still works — in development,
+without a mail engine, the confirmation link is printed in the API log. Marathon and Time
+Attack need an account; Classic plays without one.
 
 ## Verify
 

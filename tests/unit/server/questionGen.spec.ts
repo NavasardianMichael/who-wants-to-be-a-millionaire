@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parseGeneratedQuestions, questionHash, shuffleOptions } from '../../../server/src/services/questionGen'
+import { applyCheck, type GeneratedQuestion, parseGeneratedQuestions, questionHash, shuffleOptions } from '../../../server/src/services/questionGen'
 
 const valid = {
   question: 'Which planet is known as the Red Planet?',
@@ -75,5 +75,31 @@ describe('shuffleOptions', () => {
       const shuffled = shuffleOptions(['a', 'b', 'c', 'd'], 2, random)
       expect(shuffled.options[shuffled.correctIndex]).toBe('c')
     }
+  })
+})
+
+describe('applyCheck', () => {
+  const question = (correctIndex: number): GeneratedQuestion => ({
+    text: `Question ${correctIndex}`,
+    options: ['a', 'b', 'c', 'd'],
+    correctIndex,
+    scope: 'global',
+    hash: String(correctIndex),
+  })
+  const batch = [question(0), question(1), question(2)]
+
+  it('drops a question the checker answers differently', () => {
+    expect(applyCheck(batch, 3, { answers: [0, 2, 2], levels: [3, 3, 3] })).toEqual([batch[0], batch[2]])
+  })
+
+  it('drops a question rated two or more levels from its own', () => {
+    expect(applyCheck(batch, 1, { answers: [0, 1, 2], levels: [1, 2, 3] })).toEqual([batch[0], batch[1]])
+    expect(applyCheck(batch, 5, { answers: [0, 1, 2], levels: [5, 4, 2] })).toEqual([batch[0], batch[1]])
+  })
+
+  it('keeps the batch when the reply is malformed, and skips the level check without ratings', () => {
+    expect(applyCheck(batch, 3, { answers: [0] })).toEqual(batch)
+    expect(applyCheck(batch, 3, null)).toEqual(batch)
+    expect(applyCheck(batch, 1, { answers: [0, 1, 2], levels: [5] })).toEqual(batch)
   })
 })

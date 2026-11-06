@@ -52,8 +52,8 @@ test.describe('classic game', () => {
     const optionA = page.getByRole('button', { name: /^Option A:/ })
     await expect(optionA).toBeVisible({ timeout: 30_000 })
 
-    await page.getByRole('button', { name: '50:50', exact: true }).click()
-    await expect(page.getByRole('button', { name: /removed by 50:50/ })).toHaveCount(2, { timeout: 20_000 })
+    await page.getByRole('button', { name: 'Two Out', exact: true }).click()
+    await expect(page.getByRole('button', { name: /removed by Two Out/ })).toHaveCount(2, { timeout: 20_000 })
 
     // Pick the first option still on the board and confirm it.
     const remaining = page.getByRole('button', { name: /^Option [A-D]:/ })
@@ -64,13 +64,13 @@ test.describe('classic game', () => {
     await expect(page.getByText(/Correct!|So close!|Wrong answer/).first()).toBeVisible({ timeout: 15_000 })
   })
 
-  test('Switch the Question asks for a would-be answer, reveals it unscored, then switches', async ({ page }) => {
+  test('New Question asks for a would-be answer, reveals it unscored, then switches', async ({ page }) => {
     await page.goto('/en/play')
     await page.getByRole('button', { name: 'Start game' }).click()
     await expect(page.getByRole('button', { name: /^Option A:/ })).toBeVisible({ timeout: 30_000 })
     const before = await page.getByRole('heading', { level: 2 }).first().textContent()
 
-    await page.getByRole('button', { name: 'Switch the Question', exact: true }).click()
+    await page.getByRole('button', { name: 'New Question', exact: true }).click()
     await expect(page.getByText('Before we switch — what would you have answered?')).toBeVisible({ timeout: 10_000 })
     // The board has not changed yet.
     expect(await page.getByRole('heading', { level: 2 }).first().textContent()).toBe(before)
@@ -81,7 +81,7 @@ test.describe('classic game', () => {
     // Then the new question, still on question 1 whatever the would-be answer was.
     await expect(page.getByText('Before we switch')).toBeHidden({ timeout: 15_000 })
     await expect(page.getByText('Question 1 of 15').first()).toBeVisible()
-    await expect(page.getByRole('button', { name: /Switch the Question/ })).toBeDisabled()
+    await expect(page.getByRole('button', { name: /New Question/ })).toBeDisabled()
   })
 
   test('leaving mid-game asks first, by link and by the back button', async ({ page }) => {
