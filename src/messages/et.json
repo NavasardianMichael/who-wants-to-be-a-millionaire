@@ -504,6 +504,8 @@
     "privacyUseBody": "Kasutame su andmeid ainult mängu toimimiseks: et näidata su profiili ja edetabelikirjeid ning säilitada su edusamme. Me ei müü neid kunagi ega jaga reklaamijatega.",
     "privacyAnalyticsTitle": "Analüütika ja veateated",
     "privacyAnalyticsBody": "Võime kasutada privaatsust austavat analüütikat ja veateateid, et mõista, milliseid funktsioone kasutatakse, ja vigu parandada. Need ei sisalda kunagi sinu vastuste sisu.",
+    "privacyAdsTitle": "Reklaam",
+    "privacyAdsBody": "Mõnel lehel näidatakse Google AdSense’i reklaame, kuid mitte kunagi mängu ajal. Google ja tema partnerid kasutavad küpsiseid, et näidata sulle reklaame sinu varasemate külastuste põhjal sellel ja teistel veebisaitidel. Isikupärastatud reklaamid saad välja lülitada <settings>Google’i reklaamiseadetes</settings> ning lugeda, <partners>kuidas Google kasutab teavet saitidelt, mis tema teenuseid kasutavad</partners>. EMP-s, Ühendkuningriigis ja Šveitsis küsitakse kõigepealt sinu nõusolekut.",
     "privacyRightsTitle": "Sinu õigused",
     "privacyRightsBody": "Saad oma kuvatavat nime ja pilti igal ajal muuta ning autoriga ühendust võttes paluda oma konto ja kõigi sellega seotud andmete kustutamist.",
     "termsTitle": "Kasutustingimused",

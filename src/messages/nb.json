@@ -504,6 +504,8 @@
     "privacyUseBody": "Dataene dine brukes bare til å drive spillet: til å vise profilen din og plasseringene dine på topplisten og til å ta vare på fremgangen din. Vi selger dem aldri og deler dem aldri med annonsører.",
     "privacyAnalyticsTitle": "Analyse og feilrapporter",
     "privacyAnalyticsBody": "Vi kan bruke personvernvennlig analyse og feilrapporter for å forstå hvilke funksjoner som brukes, og for å rette feil. Disse inneholder aldri innholdet i svarene dine.",
+    "privacyAdsTitle": "Annonser",
+    "privacyAdsBody": "Noen sider viser annonser fra Google AdSense, men aldri mens du spiller. Google og partnerne deres bruker informasjonskapsler til å vise deg annonser basert på tidligere besøk på dette og andre nettsteder. Du kan slå av personlig tilpassede annonser i <settings>Googles annonseinnstillinger</settings> og lese <partners>hvordan Google bruker informasjon fra nettsteder som bruker tjenestene deres</partners>. I EØS, Storbritannia og Sveits blir du først spurt om samtykke.",
     "privacyRightsTitle": "Dine rettigheter",
     "privacyRightsBody": "Du kan når som helst endre visningsnavnet og bildet ditt, og du kan be oss slette kontoen din og alle tilknyttede data ved å kontakte utvikleren.",
     "termsTitle": "Bruksvilkår",

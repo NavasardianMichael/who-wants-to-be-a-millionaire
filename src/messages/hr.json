@@ -504,6 +504,8 @@
     "privacyUseBody": "Tvoje podatke koristimo samo za rad igre: za prikaz profila i unosa na ljestvici te za čuvanje napretka. Nikada ih ne prodajemo niti dijelimo s oglašivačima.",
     "privacyAnalyticsTitle": "Analitika i izvješća o pogreškama",
     "privacyAnalyticsBody": "Možemo koristiti analitiku koja poštuje privatnost i izvješća o pogreškama kako bismo razumjeli koje se značajke koriste i ispravili pogreške. Ona nikada ne sadrže tvoje odgovore.",
+    "privacyAdsTitle": "Oglašavanje",
+    "privacyAdsBody": "Neke stranice prikazuju oglase servisa Google AdSense, ali nikad tijekom igre. Google i njegovi partneri koriste kolačiće kako bi ti prikazivali oglase na temelju tvojih ranijih posjeta ovoj i drugim web-stranicama. Personalizirane oglase možeš isključiti u <settings>postavkama oglasa tvrtke Google</settings>, a možeš i pročitati <partners>kako Google koristi podatke s web-stranica koje koriste njegove usluge</partners>. U EGP-u, Ujedinjenom Kraljevstvu i Švicarskoj najprije se traži tvoj pristanak.",
     "privacyRightsTitle": "Tvoja prava",
     "privacyRightsBody": "Prikazano ime i sliku možeš promijeniti u bilo kojem trenutku, a brisanje računa i svih povezanih podataka možeš zatražiti tako da se javiš autoru.",
     "termsTitle": "Uvjeti korištenja",

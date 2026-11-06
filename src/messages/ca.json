@@ -504,6 +504,8 @@
     "privacyUseBody": "Les teves dades només serveixen perquè el joc funcioni: per mostrar el teu perfil i les teves entrades a la classificació, i per conservar el teu progrés. No les venem mai ni les compartim amb anunciants.",
     "privacyAnalyticsTitle": "Analítica i informes d’errors",
     "privacyAnalyticsBody": "Podem fer servir analítica respectuosa amb la privadesa i informes d’errors per saber quines funcions es fan servir i corregir errors. Mai no inclouen el contingut de les teves respostes.",
+    "privacyAdsTitle": "Publicitat",
+    "privacyAdsBody": "Algunes pàgines mostren anuncis de Google AdSense, mai durant una partida. Google i els seus socis fan servir galetes per mostrar-te anuncis basats en les teves visites anteriors a aquest i a altres llocs web. Pots desactivar els anuncis personalitzats a la <settings>configuració d’anuncis de Google</settings> i llegir <partners>com fa servir Google la informació dels llocs que utilitzen els seus serveis</partners>. A l’EEE, el Regne Unit i Suïssa primer se’t demana el consentiment.",
     "privacyRightsTitle": "Els teus drets",
     "privacyRightsBody": "Pots canviar el teu nom visible i la teva foto quan vulguis, i pots demanar-nos que eliminem el teu compte i totes les dades associades escrivint a l’autor.",
     "termsTitle": "Condicions d’ús",

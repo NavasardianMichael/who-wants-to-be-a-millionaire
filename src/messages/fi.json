@@ -504,6 +504,8 @@
     "privacyUseBody": "Käytämme tietojasi vain pelin pyörittämiseen: profiilisi ja tulostaulumerkintöjesi näyttämiseen sekä edistymisesi tallentamiseen. Emme koskaan myy niitä emmekä jaa niitä mainostajille.",
     "privacyAnalyticsTitle": "Analytiikka ja virheraportit",
     "privacyAnalyticsBody": "Saatamme käyttää yksityisyyttä kunnioittavaa analytiikkaa ja virheraportteja ymmärtääksemme, mitä ominaisuuksia käytetään, ja korjataksemme bugeja. Ne eivät koskaan sisällä vastaustesi sisältöä.",
+    "privacyAdsTitle": "Mainonta",
+    "privacyAdsBody": "Joillakin sivuilla näytetään Google AdSensen mainoksia, mutta ei koskaan pelin aikana. Google ja sen kumppanit käyttävät evästeitä näyttääkseen sinulle mainoksia aiempien käyntiesi perusteella tällä ja muilla sivustoilla. Voit poistaa personoidut mainokset käytöstä <settings>Googlen mainosasetuksista</settings> ja lukea, <partners>miten Google käyttää tietoja sen palveluja käyttäviltä sivustoilta</partners>. ETA-alueella, Isossa-Britanniassa ja Sveitsissä sinulta pyydetään ensin suostumus.",
     "privacyRightsTitle": "Oikeutesi",
     "privacyRightsBody": "Voit vaihtaa näyttönimesi ja kuvasi milloin tahansa, ja voit pyytää meitä poistamaan tilisi ja kaikki siihen liittyvät tiedot ottamalla yhteyttä tekijään.",
     "termsTitle": "Käyttöehdot",

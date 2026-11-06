@@ -504,6 +504,8 @@
     "privacyUseBody": "Az adataidat kizárólag a játék működtetésére használjuk: a profilod és a ranglistás eredményeid megjelenítésére, valamint a haladásod megőrzésére. Soha nem adjuk el és nem osztjuk meg hirdetőkkel.",
     "privacyAnalyticsTitle": "Analitika és hibajelentések",
     "privacyAnalyticsBody": "Adatvédelmet tiszteletben tartó analitikát és hibajelentéseket használhatunk, hogy lássuk, mely funkciókat használják, és kijavíthassuk a hibákat. Ezek soha nem tartalmazzák a válaszaid tartalmát.",
+    "privacyAdsTitle": "Hirdetések",
+    "privacyAdsBody": "Egyes oldalakon a Google AdSense hirdetései jelennek meg, játék közben azonban soha. A Google és partnerei cookie-kat használnak, hogy az ezen és más webhelyeken tett korábbi látogatásaid alapján hirdetéseket mutassanak neked. A személyre szabott hirdetéseket a <settings>Google hirdetésbeállításaiban</settings> kapcsolhatod ki, és elolvashatod, <partners>hogyan használja a Google a szolgáltatásait használó webhelyekről származó adatokat</partners>. Az EGT-ben, az Egyesült Királyságban és Svájcban először a hozzájárulásodat kérik.",
     "privacyRightsTitle": "A jogaid",
     "privacyRightsBody": "A megjelenítendő nevedet és a képedet bármikor megváltoztathatod, és a szerzővel kapcsolatba lépve kérheted a fiókod és az összes kapcsolódó adat törlését.",
     "termsTitle": "Felhasználási feltételek",

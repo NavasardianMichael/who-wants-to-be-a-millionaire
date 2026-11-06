@@ -504,6 +504,8 @@
     "privacyUseBody": "Zure datuak jokoak funtziona dezan baino ez dira erabiltzen: zure profila eta sailkapeneko sarrerak erakusteko eta zure aurrerapena gordetzeko. Ez ditugu inoiz saltzen, ezta iragarleekin partekatzen ere.",
     "privacyAnalyticsTitle": "Analitika eta errore-txostenak",
     "privacyAnalyticsBody": "Pribatutasuna errespetatzen duen analitika eta errore-txostenak erabil ditzakegu, zer funtzio erabiltzen diren jakiteko eta akatsak konpontzeko. Ez dute inoiz zure erantzunen edukia jasotzen.",
+    "privacyAdsTitle": "Publizitatea",
+    "privacyAdsBody": "Orri batzuek Google AdSense-ren iragarkiak erakusten dituzte, inoiz ez partida batean zehar. Google-k eta haren bazkideek cookieak erabiltzen dituzte webgune honetara eta beste batzuetara egindako aurreko bisitetan oinarritutako iragarkiak erakusteko. Iragarki pertsonalizatuak <settings>Google-ren iragarkien ezarpenetan</settings> desaktiba ditzakezu, eta irakur dezakezu <partners>nola erabiltzen duen Google-k haren zerbitzuak erabiltzen dituzten guneetako informazioa</partners>. EEEn, Erresuma Batuan eta Suitzan, lehenik zure baimena eskatzen zaizu.",
     "privacyRightsTitle": "Zure eskubideak",
     "privacyRightsBody": "Bistaratzeko izena eta argazkia nahi duzunean alda ditzakezu, eta zure kontua eta lotutako datu guztiak ezabatzeko eska diezagukezu, egileari idatzita.",
     "termsTitle": "Erabilera-baldintzak",

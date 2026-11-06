@@ -9,10 +9,12 @@ import { getAntdLocale } from '@i18n/antdLocale'
 import { getDirection, LOCALES } from '@i18n/config'
 import { currentLocale, socialCard } from '@i18n/metadata'
 import { routing } from '@i18n/routing'
+import { ADSENSE_CLIENT, ADSENSE_ENABLED } from '@constants/ads'
 import { GA_ENABLED, GA_INIT_SCRIPT, GA_SCRIPT_SRC } from '@constants/analytics'
 import { AUTHOR } from '@constants/app'
 import { cn } from '@helpers/cn'
 import { getSiteUrl } from '@helpers/url'
+import { AutoAds } from '@components/ads/AutoAds'
 import { App } from '@components/App'
 import { StudioBackdrop } from '@components/layout/StudioBackdrop'
 import '@styles/globals.css'
@@ -46,7 +48,8 @@ export async function generateMetadata(): Promise<Metadata> {
     applicationName: appName,
     manifest: `/${locale}/manifest.webmanifest`,
     appleWebApp: { capable: true, title: appName, statusBarStyle: 'black-translucent' },
-    other: { 'apple-mobile-web-app-capable': 'yes' },
+    // google-adsense-account: AdSense's site-ownership tag. Not ad code, so every locale carries it.
+    other: { 'apple-mobile-web-app-capable': 'yes', ...(ADSENSE_ENABLED && { 'google-adsense-account': ADSENSE_CLIENT }) },
     openGraph: { type: 'website', siteName: appName, images: [image] },
     twitter: { card: 'summary_large_image', images: [image] },
     creator: AUTHOR.name,
@@ -112,6 +115,7 @@ export default async function RootLayout({ children, params }: Props) {
             <App antdLocale={antdLocale} direction={direction}>
               {children}
             </App>
+            {ADSENSE_ENABLED && <AutoAds />}
           </NextIntlClientProvider>
         </AntdRegistry>
         {GA_ENABLED && (

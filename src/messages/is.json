@@ -504,6 +504,8 @@
     "privacyUseBody": "Gögnin þín eru aðeins notuð til að keyra leikinn: til að sýna notandasíðuna þína og færslur á stigatöflunni og til að halda utan um framvinduna. Við seljum þau aldrei né deilum þeim með auglýsendum.",
     "privacyAnalyticsTitle": "Vefgreining og villuskýrslur",
     "privacyAnalyticsBody": "Við kunnum að nota persónuvæna vefgreiningu og villuskýrslur til að skilja hvaða eiginleikar eru notaðir og til að laga villur. Þær innihalda aldrei efni svaranna þinna.",
+    "privacyAdsTitle": "Auglýsingar",
+    "privacyAdsBody": "Sumar síður sýna auglýsingar frá Google AdSense, en aldrei á meðan leikur stendur yfir. Google og samstarfsaðilar þess nota vafrakökur til að sýna þér auglýsingar byggðar á fyrri heimsóknum þínum á þessa og aðrar vefsíður. Þú getur slökkt á sérsniðnum auglýsingum í <settings>auglýsingastillingum Google</settings> og lesið <partners>hvernig Google notar upplýsingar frá vefsvæðum sem nota þjónustu þess</partners>. Á EES-svæðinu, í Bretlandi og Sviss er fyrst beðið um samþykki þitt.",
     "privacyRightsTitle": "Réttindi þín",
     "privacyRightsBody": "Þú getur breytt birtingarnafni og mynd hvenær sem er og beðið um að aðgangi þínum og öllum tengdum gögnum verði eytt með því að hafa samband við höfundinn.",
     "termsTitle": "Notkunarskilmálar",

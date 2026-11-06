@@ -444,6 +444,8 @@
     "privacyUseBody": "Your data is used only to run the game: to show your profile and leaderboard entries and to keep your progress. We never sell it or share it with advertisers.",
     "privacyAnalyticsTitle": "Analytics and error reports",
     "privacyAnalyticsBody": "We may use privacy-friendly analytics and error reports to understand which features are used and to fix bugs. These never include the content of your answers.",
+    "privacyAdsTitle": "Advertising",
+    "privacyAdsBody": "Some pages show ads from Google AdSense, never during a game. Google and its partners use cookies to show you ads based on your earlier visits to this and other websites. You can turn off personalized ads in <settings>Google's ad settings</settings> and read <partners>how Google uses information from sites that use its services</partners>. In the EEA, the UK and Switzerland you are asked for your consent first.",
     "privacyRightsTitle": "Your rights",
     "privacyRightsBody": "You can change your display name and picture at any time, and you can ask us to delete your account and all associated data by contacting the author.",
     "termsTitle": "Terms of use",

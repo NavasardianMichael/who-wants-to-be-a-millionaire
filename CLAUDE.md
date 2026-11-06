@@ -60,6 +60,7 @@ sorts it.
 | Offline packs (automatic, no UI) and the sync outbox | `src/helpers/offline/` (`ensurePack`) · `src/store/offline/packs/` |
 | Contact form (mail engine, nothing stored) | `src/app/[lang]/contact/`, `src/components/contact/` · `server/src/routes/contact.ts`, `lib/mail.ts` |
 | Leave-page guard (game, unsaved forms) | `src/hooks/useLeaveGuard.ts` · `src/components/LeaveGuard.tsx` |
+| Ads (AdSense Auto ads: 48 supported locales, content pages only) | `src/constants/ads.ts`, `src/helpers/ads.ts`, `src/components/ads/AutoAds.tsx`, `src/app/ads.txt/route.ts` · setup `docs/ADSENSE_SETUP.md` |
 | Sound (main theme off-stage, stings pause music) | `src/helpers/audio/audioManager.ts` · `src/components/AmbientMusic.tsx` |
 | Deploying | `docs/DEPLOYMENT.md` (how) · `docs/PRODUCTION_SETUP.md` (manual setup, in order) · `deployment/`, `.github/workflows/` |
 | Reusing this stack for a new project | `docs/STACK_BLUEPRINT.md` |
@@ -91,11 +92,16 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   the keywords meta, JSON-LD `alternateName` and `llms.txt` — never a title, description or
   anything on the page.
 
+- **Ads are policy-bound.** AdSense ad code may load only in its 48 supported languages
+  (`AD_LOCALES`) and only on content pages (`AD_ROUTES` allow-list) — never on a game screen,
+  form, account page or 404. Loaded ad code can't be unloaded, so `AutoAds` turns the way to
+  an ad-free page into a full page load.
+
 - `src/proxy.ts` is Next 16's middleware. Unprefixed URLs 307 to a negotiated locale.
 - **Static rendering hinges on `src/i18n/request.ts`:** the locale comes from `lang()`
   (`next/root-params`), and `requestLocale` must never be destructured in the parameter list —
   it is a getter that calls `headers()`, which silently turns every page dynamic. No
-  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2890 routes.
+  `setRequestLocale` (deprecated). `.next/prerender-manifest.json` must list 2891 routes.
 - `useSearchParams` needs a `<Suspense>` boundary, or every static page falls back to
   client rendering — prefer reading `window.location` in an event handler.
 - **One account per email, two ways in.** A password sign-up has no session until its emailed

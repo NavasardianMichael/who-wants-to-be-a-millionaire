@@ -504,6 +504,8 @@
     "privacyUseBody": "Vos données servent uniquement à faire tourner le jeu : afficher votre profil et vos entrées au classement, et conserver votre progression. Nous ne les vendons jamais et ne les partageons jamais avec des annonceurs.",
     "privacyAnalyticsTitle": "Statistiques et rapports d’erreurs",
     "privacyAnalyticsBody": "Nous pouvons utiliser des statistiques respectueuses de la vie privée et des rapports d’erreurs pour savoir quelles fonctionnalités sont utilisées et corriger les bugs. Ils n’incluent jamais le contenu de vos réponses.",
+    "privacyAdsTitle": "Publicité",
+    "privacyAdsBody": "Certaines pages affichent des annonces Google AdSense, jamais pendant une partie. Google et ses partenaires utilisent des cookies pour vous montrer des annonces basées sur vos visites précédentes sur ce site et d’autres. Vous pouvez désactiver les annonces personnalisées dans les <settings>paramètres des annonces Google</settings> et lire <partners>comment Google utilise les informations des sites qui utilisent ses services</partners>. Dans l’EEE, au Royaume-Uni et en Suisse, votre consentement vous est d’abord demandé.",
     "privacyRightsTitle": "Vos droits",
     "privacyRightsBody": "Vous pouvez changer votre pseudo et votre photo à tout moment, et nous demander de supprimer votre compte et toutes les données associées en contactant l’auteur.",
     "termsTitle": "Conditions d’utilisation",

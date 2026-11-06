@@ -504,6 +504,8 @@
     "privacyUseBody": "Data yako inatumika tu kuendesha mchezo: kuonyesha wasifu wako na nafasi zako kwenye ubao wa washindi na kuhifadhi maendeleo yako. Hatuiuzi kamwe wala hatuishiriki na watangazaji.",
     "privacyAnalyticsTitle": "Takwimu za matumizi na ripoti za hitilafu",
     "privacyAnalyticsBody": "Tunaweza kutumia takwimu za matumizi zinazoheshimu faragha na ripoti za hitilafu ili kuelewa vipengele vipi vinatumika na kurekebisha hitilafu. Hazijumuishi kamwe maudhui ya majibu yako.",
+    "privacyAdsTitle": "Matangazo",
+    "privacyAdsBody": "Baadhi ya kurasa huonyesha matangazo kutoka Google AdSense, kamwe si wakati wa mchezo. Google na washirika wake hutumia vidakuzi kukuonyesha matangazo kulingana na ziara zako za awali kwenye tovuti hii na nyinginezo. Unaweza kuzima matangazo yanayolengwa kwako katika <settings>mipangilio ya matangazo ya Google</settings> na kusoma <partners>jinsi Google inavyotumia taarifa kutoka kwa tovuti zinazotumia huduma zake</partners>. Katika EEA, Uingereza na Uswisi utaombwa idhini yako kwanza.",
     "privacyRightsTitle": "Haki zako",
     "privacyRightsBody": "Unaweza kubadilisha jina lako la kuonyesha na picha wakati wowote, na unaweza kutuomba tufute akaunti yako na data zote zinazohusiana kwa kuwasiliana na mwandishi.",
     "termsTitle": "Masharti ya matumizi",
