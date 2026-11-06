@@ -41,10 +41,11 @@ const GATES = [
   },
   {
     name: "no raw `next/link`",
-    why: 'Drops the locale prefix — use AppLink / @i18n/navigation',
+    why: 'Drops the locale prefix — use AppLink / @i18n/navigation; the `useLinkStatus` hook is fine',
     root: 'src',
     exts: TS,
     pattern: /from 'next\/link'/,
+    excludeLine: /^import \{ useLinkStatus \} from 'next\/link'$/,
   },
   {
     name: "no raw `next/navigation` routing",

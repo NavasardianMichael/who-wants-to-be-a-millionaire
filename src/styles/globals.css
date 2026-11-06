@@ -153,6 +153,9 @@
   --animate-twinkle: twinkle 4s ease-in-out infinite;
   --animate-light-up: light-up 1.6s ease-in-out infinite;
   --animate-spin-fast: spin 2.4s linear infinite;
+  /* A link whose page is loading. The delay keeps an instant navigation from flashing. */
+  --animate-link-pending: link-pending 1.1s ease-in-out 120ms infinite;
+  --animate-link-pending-in: link-pending-in 0.2s ease-out 120ms both;
 }
 
 /* ── §2 antd aliases ─────────────────────────────────────────────────────────────────── */
@@ -446,6 +449,23 @@
   }
   50% {
     filter: brightness(0.75) saturate(0.8);
+  }
+}
+
+@keyframes link-pending {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes link-pending-in {
+  from {
+    opacity: 0;
+    scale: 0.6;
   }
 }
 
@@ -813,5 +833,10 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  /* No pulse: a loading link is dimmed instead. */
+  a:has([data-link-pending]) {
+    opacity: 0.6;
   }
 }
