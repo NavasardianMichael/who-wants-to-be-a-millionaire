@@ -68,19 +68,85 @@ Then run `sudo nginx -t && sudo systemctl reload nginx`. Open <https://eapps.sit
 This is required by Google. Without it, ads in those countries are limited.
 
 1. AdSense → **Privacy & messaging → European regulations → Create message**.
-2. Select site `eapps.site`, keep Google's default text, add the languages you want, and choose a
-   style.
-3. **Publish**. The ad code shows the message by itself, so no app change is needed.
-4. Optional: do the same under **US state regulations**.
+2. **Select sites**: `eapps.site`. AdSense only takes root domains, so there is no separate
+   entry for the game's subdomain. The message shows on `eapps.site` and **every subdomain**,
+   wherever a page loads the ad code. Today that is only this game, but later it will be every
+   app on the domain that shows ads. So the details below must be true for all of them, not
+   just Millionaire.
+3. Keep Google's default text, add the languages you want, choose a style, and fill in the site
+   details:
+
+   | Field | Value |
+   |---|---|
+   | Site name | **`eapps`**. Not `Millionaire`: the same message will greet visitors of every app on the domain. |
+   | Logo | Turn the **Logo** toggle (Styling → Header) **off**, unless you have a logo for eapps as a whole. Don't use the game's icon. If the toggle is on but finds no logo, the message won't publish. |
+   | Privacy policy URL | One page that covers every app that shows ads. While the game is the only one, **`https://who-wants-to-be-a-millionaire.eapps.site/privacy`** works; it redirects each visitor to the policy in their own language (if the form rejects a redirect, use `…/en/privacy`). Before a second app starts showing ads, publish a policy for the whole domain, e.g. `https://eapps.site/privacy`, and change the URL here. |
+4. **Publish**. The ad code shows the message by itself, so no app change is needed.
+5. Optional: do the same under **US state regulations**, also on `eapps.site`, with the same
+   details.
 
 ## 7. Turn on Auto ads
 
-1. AdSense → **Ads → By site** → pencil icon next to `eapps.site`.
-2. **Auto ads: ON**.
-3. **Ad formats**: keep them all (in-page, anchor, vignette, side rails). The app already keeps
-   game screens and forms ad-free.
-4. **Ad load**: start in the middle and adjust later.
-5. **Apply to site**. It can take up to an hour.
+AdSense → **Ads → By site** → pencil icon next to `eapps.site`. A preview of the site opens with
+a settings panel beside it. The settings apply to `eapps.site` **and every subdomain**, so they
+also apply to any other app on that domain that loads ad code.
+
+The app already keeps ad code off game screens, forms and unsupported languages. These settings
+only decide what Google shows on the content pages.
+
+### Ad settings tab
+
+**Auto ads: ON.**
+
+**Intent-driven formats (Beta): leave all OFF** (links, anchors, chips). They turn words in the
+page text into ad links. On the rules and categories pages those look like part of the game,
+and they earn little until a player taps them.
+
+**Overlay formats: keep all three ON**, then open **Advanced settings**:
+
+| Setting | Choose | Why |
+|---|---|---|
+| Anchor ads | ON | The best-paying format on phones |
+| → Select anchor ad position | **Bottom only** | The site's header is sticky at the top; an anchor there would stack on it |
+| → Allow dynamic anchors | ✔ (default) | |
+| → Allow anchor ads on screens wider than 1000px | ✘ uncheck | Side rails already cover desktop; a bottom bar there only covers content |
+| Vignette ads | ON | |
+| → Vignette ad frequency | the **longest** interval offered | See the note below |
+| → Allow vignette ads on screens wider than 1000px | ✔ (default) | |
+| → Allow additional triggers for vignette ads | ✘ uncheck | They fire on clicks within a page, not only between pages |
+| Side rail ads | ON | Desktop only, in the empty space beside the content column |
+| → Select side rail ad position | **Left and right** | |
+
+> **Vignettes and Play:** a link from a content page to a game screen is a full page load
+> (`AutoAds` forces it, so ad code never reaches the game). A vignette can show in exactly
+> that moment: after **Play**, before the game. That's allowed, since it belongs to the page
+> being left. But a player who starts many games would see it often, so keep the frequency
+> interval long.
+
+**In-page formats: keep both ON** (Banner ads, Multiplex ads), then under Banner ads →
+**Advanced settings**:
+
+| Setting | Choose | Why |
+|---|---|---|
+| Maximum number of ads on a page | low, about a third of the slider | The content pages are short (rules, badges, leaderboard); too many ads on a thin page counts against the review |
+| Minimum distance between ads on a page | the default, or larger | |
+| Find more ad placements on article pages | OFF | None of the pages are articles |
+| Allow Google to optimize existing ads | leave as is | The app has no manual ad units, so it does nothing |
+
+**Excluded areas: none.** **Excluded pages: none.** The app's own allow-list (`AD_ROUTES` in
+`src/constants/ads.ts`) already keeps ads off everything else, in all 80 languages. A URL
+list here would have to repeat that for every locale.
+
+### Auto optimize tab
+
+**Turn it OFF**, or at least untick **Auto-apply experiment winner**. It runs experiments on a
+share of your traffic (half, by default) and applies the winning settings on its own. That
+could turn back on what you switched off above. Revisit it once the site has a few weeks of
+data.
+
+### Save
+
+**Apply to site**. It can take up to an hour to take effect.
 
 ## 8. Payments
 
