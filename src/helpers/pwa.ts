@@ -1,9 +1,10 @@
+import { PRECACHED_SOUNDS, SOUNDS } from './audio/sounds'
 import { emblemSvg } from './brand'
 
 export const SERVICE_WORKER_URL = '/sw.js'
 
 /** Bump when the worker's behaviour or the offline document changes: old caches are dropped on activate. */
-export const PWA_CACHE_VERSION = 'v3'
+export const PWA_CACHE_VERSION = 'v5'
 
 const OFFLINE_URL = '/__offline__'
 
@@ -12,15 +13,7 @@ export const PRECACHE_URLS = [
   '/icon',
   '/apple-icon',
   '/packs/fallback-en.json',
-  '/audio/resign.mp3',
-  '/audio/final-answer.mp3',
-  '/audio/correct-answer.mp3',
-  '/audio/wrong-answer.mp3',
-  '/audio/next.mp3',
-  '/audio/fifty-fifty.mp3',
-  '/audio/audience-help.mp3',
-  '/audio/phone-a-friend.mp3',
-  '/audio/you-won-a-million.mp3',
+  ...PRECACHED_SOUNDS.map((id) => SOUNDS[id].src),
 ]
 
 export type OfflineColors = { background: string; text: string; muted: string; accent: string; onAccent: string }
@@ -97,6 +90,13 @@ const isPage = (url) => url.origin === self.location.origin && !url.pathname.sta
 const isCacheable = (response) => response.status === 200 || response.type === 'opaque';
 const store = (cache, key, response) => cache.put(key, response).catch(skip);
 
+/**
+ * A file the worker keeps for good is checked with the server, not taken from the browser's
+ * HTTP cache: sounds and packs are not content-hashed, so after a version bump that cache can
+ * still hold the old copy for days (max-age plus stale-while-revalidate).
+ */
+const fresh = (url) => new Request(url, { cache: 'no-cache', credentials: 'same-origin' });
+
 /** Answers a media element's byte-range request from a whole response, as a 206. */
 const sliceRange = async (request, response) => {
   const match = /^bytes=(\\d*)-(\\d*)$/.exec(request.headers.get('Range') || '');
@@ -122,7 +122,7 @@ const sliceRange = async (request, response) => {
 
 /**
  * Sounds: cache first by URL, fetched whole once and never revalidated (a changed file ships
- * with a PWA_CACHE_VERSION bump). An <audio> element asks for a byte range; forwarded as-is
+ * under a new URL: SOUND_VERSION in sounds.ts). An <audio> element asks for a byte range; forwarded as-is
  * it comes back a 206, which the Cache API refuses, and the file is fetched on every play.
  */
 const mediaRequest = async (event) => {
@@ -132,7 +132,7 @@ const mediaRequest = async (event) => {
   if (cached) return sliceRange(request, cached);
   let whole;
   try {
-    whole = await fetch(request.url, { credentials: 'same-origin' });
+    whole = await fetch(fresh(request.url));
   } catch (error) {
     return Response.error();
   }
@@ -147,7 +147,7 @@ self.addEventListener('install', (event) => {
     const cache = await caches.open(CACHE);
     await cache.put(OFFLINE_URL, new Response(OFFLINE_HTML, { headers: { 'Content-Type': 'text/html; charset=utf-8' } }));
     // One missing file must not fail the whole install.
-    await Promise.all(PRECACHE_URLS.map((url) => cache.add(url).catch(skip)));
+    await Promise.all(PRECACHE_URLS.map((url) => cache.add(fresh(url)).catch(skip)));
     await self.skipWaiting();
   })());
 });
@@ -173,7 +173,7 @@ self.addEventListener('message', (event) => {
           const response = await fetch(url.pathname, { credentials: 'same-origin' });
           if (isCacheable(response)) await store(cache, url.pathname, response);
         } else if (isStaticAsset(url) || url.pathname.startsWith('/_next/static/')) {
-          if (!(await cache.match(url.href, { ignoreVary: true }))) await cache.add(url.href);
+          if (!(await cache.match(url.href, { ignoreVary: true }))) await cache.add(fresh(url.href));
         }
       } catch (error) { /* offline or gone: skip it */ }
     }));

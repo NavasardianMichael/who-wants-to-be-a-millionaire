@@ -48,4 +48,5 @@ pnpm test:e2e      # Playwright on desktop, tablet and phone viewports (needs `p
 - [`docs/STACK_BLUEPRINT.md`](docs/STACK_BLUEPRINT.md) — how to build a new project on this stack.
 
 Millionaire is a fan-made game and is not affiliated with any television programme or
-rights holder. The sounds in `public/audio/` were carried over from the project's earlier version.
+rights holder. The sounds in `public/audio/` are CC0 recordings from Freesound; each source is
+listed in [`docs/AUDIO_CREDITS.md`](docs/AUDIO_CREDITS.md).

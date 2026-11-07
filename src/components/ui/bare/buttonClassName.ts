@@ -44,7 +44,8 @@ export const buttonClassName = ({
     variant === 'outline' && 'btn-hex btn-outline',
     variant === 'ivory' && 'btn-hex btn-ivory',
     variant === 'danger' && 'btn-hex btn-danger',
-    variant === 'ghost' && 'border-transparent bg-transparent text-mist transition-colors hover:bg-white/5 hover:text-ivory',
+    variant === 'ghost' &&
+      'border-white/10 bg-white/6 text-mist transition-colors hover:border-white/20 hover:bg-white/12 hover:text-ivory',
     fullWidth && 'w-full',
     className
   )

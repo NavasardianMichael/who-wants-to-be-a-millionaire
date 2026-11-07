@@ -13,9 +13,10 @@ The code is done. Ads stay off until you set one variable (step 3).
 - Serves `/ads.txt`, adds the AdSense ownership meta tag, and shows an "Advertising" section on
   the privacy page (only in those 48 languages).
 
-> **Before you apply:** the game's music files (`public/audio/`) are the TV show's own audio.
-> Replace them first. Copyrighted content can get the AdSense review rejected or the account
-> closed later.
+> **Audio:** the TV show's audio has been replaced. Every file in `public/audio/` is now
+> public-domain (CC0); each source is listed in [`AUDIO_CREDITS.md`](AUDIO_CREDITS.md). Keep it
+> that way. Copyrighted content can get the AdSense review rejected, or the account closed
+> later.
 
 ---
 

@@ -61,7 +61,7 @@ sorts it.
 | Contact form (mail engine, nothing stored) | `src/app/[lang]/contact/`, `src/components/contact/` · `server/src/routes/contact.ts`, `lib/mail.ts` |
 | Leave-page guard (game, unsaved forms) | `src/hooks/useLeaveGuard.ts` · `src/components/LeaveGuard.tsx` |
 | Ads (AdSense Auto ads: 48 supported locales, content pages only) | `src/constants/ads.ts`, `src/helpers/ads.ts`, `src/components/ads/AutoAds.tsx`, `src/app/ads.txt/route.ts` · setup `docs/ADSENSE_SETUP.md` |
-| Sound (main theme off-stage, stings pause music) | `src/helpers/audio/audioManager.ts` · `src/components/AmbientMusic.tsx` |
+| Sound (main theme off-stage, stings pause music) | `src/helpers/audio/audioManager.ts` · `src/components/AmbientMusic.tsx` · CC0 sources and how to replace one `docs/AUDIO_CREDITS.md` |
 | Deploying | `docs/DEPLOYMENT.md` (how) · `docs/PRODUCTION_SETUP.md` (manual setup, in order) · `deployment/`, `.github/workflows/` |
 | Reusing this stack for a new project | `docs/STACK_BLUEPRINT.md` |
 

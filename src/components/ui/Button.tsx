@@ -46,7 +46,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         variant === 'outline' && 'btn-hex btn-outline',
         variant === 'ivory' && 'btn-hex btn-ivory',
         variant === 'danger' && 'btn-hex btn-danger',
-        variant === 'ghost' && 'text-mist hover:text-ivory',
+        // A faint glass fill and rim, so the quiet action still reads as a button.
+        variant === 'ghost' &&
+          'border-white/10 bg-white/6 text-mist hover:border-white/20 hover:bg-white/12 hover:text-ivory',
         className
       )}
       {...rest}

@@ -415,6 +415,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           if (phase === 'switching') return void useGameSessionStoreBase.getState().previewSwitchAnswer(index)
           if (phase !== 'asking' && phase !== 'selected') return
 
+          if (index !== get().selectedIndex) audioManager.playEffect('select')
           set((state) => {
             state.selectedIndex = index
             state.phase = mode === 'classic' ? 'selected' : state.phase

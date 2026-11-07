@@ -22,9 +22,15 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Sounds and packs are immutable between deploys but not content-hashed: a day, then revalidate.
+        // Sounds and packs are immutable between deploys but not content-hashed: a day, then
+        // revalidate. In development every request revalidates, so a replaced file is heard at once.
         source: '/:dir(audio|packs)/:file*',
-        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }],
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: process.env.NODE_ENV === 'production' ? 'public, max-age=86400, stale-while-revalidate=604800' : 'no-cache',
+          },
+        ],
       },
     ]
   },

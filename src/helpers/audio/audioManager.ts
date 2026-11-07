@@ -191,6 +191,17 @@ class AudioManager {
     })
   }
 
+  /**
+   * A short interface sound (an answer picked) laid over whatever plays: unlike a sting it
+   * neither pauses the bed nor holds back the next sound.
+   */
+  playEffect(id: SoundId): void {
+    if (!this.available || this.hidden || this.muted) return
+    const audio = new Audio(SOUNDS[id].src)
+    audio.volume = this.volume
+    audio.play().catch(ignoreAutoplayRefusal)
+  }
+
   private fadeOut(audio: HTMLAudioElement): void {
     this.fading.add(audio)
     const from = audio.volume
