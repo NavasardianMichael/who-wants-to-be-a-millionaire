@@ -9,7 +9,7 @@ import { getAntdLocale } from '@i18n/antdLocale'
 import { getDirection, LOCALES } from '@i18n/config'
 import { currentLocale, socialCard } from '@i18n/metadata'
 import { routing } from '@i18n/routing'
-import { ADSENSE_CLIENT, ADSENSE_ENABLED } from '@constants/ads'
+import { AD_LOCALES, ADSENSE_CLIENT, ADSENSE_ENABLED } from '@constants/ads'
 import { GA_ENABLED, GA_INIT_SCRIPT, GA_SCRIPT_SRC } from '@constants/analytics'
 import { AUTHOR } from '@constants/app'
 import { cn } from '@helpers/cn'
@@ -40,6 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const appName = (await getTranslations('Common'))('appName')
   const locale = await currentLocale()
   const { image } = await socialCard()
+  const adsenseOwned = ADSENSE_ENABLED && AD_LOCALES.includes(locale)
   return {
     metadataBase: new URL(getSiteUrl()),
     title: { default: t('homeTitle'), template: `%s | ${appName}` },
@@ -48,8 +49,10 @@ export async function generateMetadata(): Promise<Metadata> {
     applicationName: appName,
     manifest: `/${locale}/manifest.webmanifest`,
     appleWebApp: { capable: true, title: appName, statusBarStyle: 'black-translucent' },
-    // google-adsense-account: AdSense's site-ownership tag. Not ad code, so every locale carries it.
-    other: { 'apple-mobile-web-app-capable': 'yes', ...(ADSENSE_ENABLED && { 'google-adsense-account': ADSENSE_CLIENT }) },
+    // google-adsense-account: AdSense's site-ownership tag. Only in the languages AdSense supports:
+    // on an Armenian or Georgian page it claims that page for the account, and the site review
+    // rejected the domain as "not primarily in a supported language".
+    other: { 'apple-mobile-web-app-capable': 'yes', ...(adsenseOwned && { 'google-adsense-account': ADSENSE_CLIENT }) },
     openGraph: { type: 'website', siteName: appName, images: [image] },
     twitter: { card: 'summary_large_image', images: [image] },
     creator: AUTHOR.name,

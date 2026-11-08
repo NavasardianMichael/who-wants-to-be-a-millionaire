@@ -10,8 +10,8 @@ The code is done. Ads stay off until you set one variable (step 3).
 - Ads appear only on content pages: home, leaderboard, categories, badges, rules, about,
   privacy, terms. **Never** on game screens (Classic, Marathon, Time Attack), sign-in, forms,
   settings, profile or 404 pages.
-- Serves `/ads.txt`, adds the AdSense ownership meta tag, and shows an "Advertising" section on
-  the privacy page (only in those 48 languages).
+- Serves `/ads.txt`. In those 48 languages only, it also adds the AdSense ownership meta tag and
+  an "Advertising" section on the privacy page.
 
 > **Audio:** the TV show's audio has been replaced. Every file in `public/audio/` is now
 > public-domain (CC0); each source is listed in [`AUDIO_CREDITS.md`](AUDIO_CREDITS.md). Keep it
@@ -62,6 +62,24 @@ Then run `sudo nginx -t && sudo systemctl reload nginx`. Open <https://eapps.sit
 3. **Request review**. It takes from a few days to a few weeks, and you get an email.
    - AdSense reviews `eapps.site` itself. If that address shows no page of its own, make it
      redirect to the game (or show a real page) before you request review.
+
+### If the review says "Unsupported language"
+
+AdSense wants a site "primarily" in one of its [supported languages](https://support.google.com/adsense/answer/9727).
+It reviews `eapps.site` and every subdomain together, so it sees the game's 32 unsupported
+languages, plus the Armenian pages of the eapps.site hub and the crossword app.
+
+1. **Check that this app claims only supported pages.** Open
+   `https://who-wants-to-be-a-millionaire.eapps.site/hy` and view the page source. It must
+   contain neither `google-adsense-account` nor `adsbygoogle`; `/en` must contain the first.
+   (Until November 2026 the ownership tag was on all 80 languages, which is what the first
+   review saw.)
+2. **Keep AdSense markup off every Armenian page on the domain**, in the hub and the crossword
+   app too: no ownership meta tag and no ad code on `hy` pages.
+3. Tick **I confirm I have fixed the issues** → **Request review**.
+4. **If it's rejected again**, Google doesn't publish a fix, so you're left with the bigger
+   options: give the unsupported languages `noindex` (they drop out of Google Search), or move
+   them to a domain that isn't in AdSense.
 
 ## 6. Turn on the consent message (Europe, UK, Switzerland)
 
