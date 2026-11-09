@@ -44,6 +44,7 @@ sorts it.
 | The game itself (state machine, pacing, sounds) | `src/store/game/session/` · UI in `src/components/game/` |
 | Where questions come from (API → pack → bundled bank) | `src/helpers/offline/questionSource.ts`, `src/helpers/game/questionQueue.ts` |
 | Question generation, validation, the pool | `server/src/services/questionGen.ts`, `questionPool.ts`, `jobs/poolRefill.ts` |
+| Hand-written question seed (50 Classic per language) | `server/prisma/seed/classic/`, checker `server/prisma/check-classic-seed.ts` · how to write more: `docs/QUESTION_SEEDING.md` |
 | AI providers (the one-line switch, model chains, cooldowns, key readers) | `server/src/lib/ai/` — `index.ts` (switch) · `openrouter.ts` · `gemini.ts` · `types.ts` |
 | Ranked runs (server-refereed, signed-in players only) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` |
 | Leaderboard SQL | `server/src/services/leaderboard.ts` |
