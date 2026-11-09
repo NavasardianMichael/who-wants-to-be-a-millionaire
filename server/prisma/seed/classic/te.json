@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "సామెత ప్రకారం, అందని ద్రాక్ష ఎలా ఉంటుంది?",
+    "options": ["తియ్యన", "పుల్లన", "చప్పన", "కమ్మన"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, how are the grapes you can't reach? — Sour: «అందని ద్రాక్ష పుల్లన», the Telugu 'sour grapes'."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "తెల్లవారుజామున సూర్యుడు తూర్పున ఉదయిస్తున్నప్పుడు, ఆరుబయట నిలబడిన మీ నీడ ఏ దిక్కుకు పడుతుంది?",
+    "options": ["తూర్పు", "ఉత్తరం", "దక్షిణం", "పడమర"],
+    "correctIndex": 3,
+    "gloss": "At dawn, with the sun rising in the east, which way does your shadow fall? — West: a shadow points away from the light."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "గుణింతం వరుసలో 'కె, కే' తర్వాత, 'కొ' కంటే ముందు వచ్చే అక్షరం ఏది?",
+    "options": ["కై", "కౌ", "కో", "కం"],
+    "correctIndex": 0,
+    "gloss": "In the gunintam (consonant + vowel-sign drill), which syllable comes after ke, kē and before ko? — kai: the vowel order is e, ē, ai, o, ō, au."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ఉగాది పచ్చడిలోని ఆరు రుచుల్లో చేదు దేని నుంచి వస్తుంది?",
+    "options": ["బెల్లం", "చింతపండు", "వేప పువ్వు", "మామిడి ముక్కలు"],
+    "correctIndex": 2,
+    "gloss": "Of the six tastes in Ugadi pachadi, where does the bitterness come from? — Neem flowers; jaggery is sweet, tamarind sour, raw mango tangy."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "రంగురంగుల పూలను గోపురంలా పేర్చి, దాని చుట్టూ ఆడపడుచులు పాటలు పాడుతూ ఆడే తెలంగాణ పండుగ ఏది?",
+    "options": ["బోనాలు", "బతుకమ్మ", "సంక్రాంతి", "సమ్మక్క-సారలమ్మ జాతర"],
+    "correctIndex": 1,
+    "gloss": "Which Telangana festival has women singing and dancing around flowers stacked like a temple tower? — Bathukamma."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఉపరితలం మీద ఉన్న తుప్పు రంగు దుమ్ము (ఐరన్ ఆక్సైడ్) వల్ల ఎర్రగా కనిపించే గ్రహం ఏది?",
+    "options": ["శుక్రుడు", "బృహస్పతి", "అంగారకుడు", "శని"],
+    "correctIndex": 2,
+    "gloss": "Which planet looks red because of rust-coloured iron-oxide dust on its surface? — Mars."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ఒక డజను అరటిపళ్లలో సగం తినేశారు. మిగిలిన వాటిలో సగం పక్కింటివాళ్లకు ఇచ్చారు. ఇంకా ఎన్ని అరటిపళ్లు ఉన్నాయి?",
+    "options": ["6", "4", "3", "9"],
+    "correctIndex": 2,
+    "gloss": "Half of a dozen bananas were eaten, then half of the rest given to the neighbours. How many are left? — 3: 12 → 6 → 3."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "పరిసరాలను బట్టి ఒంటి రంగు మార్చుకుంటుంది; అందుకే మాట మార్చేవాళ్లను దీంతో పోలుస్తారు. ఏ జీవి?",
+    "options": ["ఉడుము", "మొసలి", "తాబేలు", "ఊసరవెల్లి"],
+    "correctIndex": 3,
+    "gloss": "It changes colour with its surroundings, so people who keep changing their word are compared to it. Which animal? — The chameleon."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "కంప్యూటర్ కీబోర్డులో అన్నిటికంటే పొడవైన కీ ఏది?",
+    "options": ["స్పేస్ బార్", "ఎంటర్", "షిఫ్ట్", "బ్యాక్‌స్పేస్"],
+    "correctIndex": 0,
+    "gloss": "Which is the longest key on a computer keyboard? — The space bar."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "సుడోకు పజిల్‌లో ప్రతి అడ్డు వరుసనూ ఏ అంకెలతో నింపాలి?",
+    "options": ["1 నుంచి 9", "0 నుంచి 9", "1 నుంచి 10", "1 నుంచి 8"],
+    "correctIndex": 0,
+    "gloss": "In a sudoku, which digits fill every row? — 1 to 9, each once."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "దసరా రోజు కనిపిస్తే శుభమని నమ్మే, తెలంగాణ రాష్ట్ర పక్షి ఏది?",
+    "options": ["రామచిలుక", "నెమలి", "పాలపిట్ట", "కోయిల"],
+    "correctIndex": 2,
+    "gloss": "Which bird, considered lucky to see on Dasara, is Telangana's state bird? — The Indian roller (palapitta). The parakeet is Andhra Pradesh's."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "అచ్చమైన తెలుగమ్మాయిని 'పదహారణాల తెలుగమ్మాయి' అంటారు. పాత లెక్కలో పదహారు అణాలు కలిస్తే ఎంత అవుతుంది?",
+    "options": ["అర్ధ రూపాయి", "ఒక రూపాయి", "ఒక వరహా", "పావలా"],
+    "correctIndex": 1,
+    "gloss": "A true Telugu girl is a 'sixteen-anna Telugu girl'. In old money, what did sixteen annas make? — One rupee: sixteen annas is a whole, hence 'complete, genuine'."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "'మాయాబజార్'లో 'వివాహ భోజనంబు' పాడుతూ లడ్డూలు ఆరగించే ఘటోత్కచుడిగా నటించినది ఎవరు?",
+    "options": ["ఎన్.టి. రామారావు", "ఎస్.వి. రంగారావు", "అక్కినేని నాగేశ్వరరావు", "రేలంగి"],
+    "correctIndex": 1,
+    "gloss": "In Mayabazar (1957), who played Ghatotkacha, gobbling laddus to 'Vivaha Bhojanambu'? — S. V. Ranga Rao. NTR played Krishna, ANR Abhimanyu, Relangi Lakshmana Kumara."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "పొడుపు కథ: 'తోక లేని పిట్ట తొంభై ఆమడలు పోతుంది.' ఏమిటది?",
+    "options": ["గాలిపటం", "పావురం", "ఉత్తరం", "ఎండుటాకు"],
+    "correctIndex": 2,
+    "gloss": "Riddle: 'A bird with no tail flies ninety leagues.' What is it? — A letter (by post). The kite and pigeon have tails; a leaf doesn't travel ninety leagues."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "టీ20 క్రికెట్‌లో ఒక జట్టు పూర్తి ఇన్నింగ్స్ ఆడితే, వైడ్లు, నోబాల్‌లు కాకుండా ఎన్ని బంతులు ఎదుర్కొంటుంది?",
+    "options": ["100", "120", "200", "150"],
+    "correctIndex": 1,
+    "gloss": "In a full T20 innings, how many balls does a team face, not counting wides and no-balls? — 120: 20 overs × 6 balls."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "సినిమా టికెట్ల క్యూలో రవి ముందు నుంచి లెక్కపెట్టినా ఐదో వాడే, వెనక నుంచి లెక్కపెట్టినా ఐదో వాడే. క్యూలో మొత్తం ఎంతమంది ఉన్నారు?",
+    "options": ["10", "11", "8", "9"],
+    "correctIndex": 3,
+    "gloss": "Ravi is fifth from the front and fifth from the back of a ticket queue. How many people are in it? — 9: four ahead, four behind, plus Ravi. 10 counts him twice."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ఇంద్రధనుస్సులోని ఏడు రంగుల్లో సరిగ్గా మధ్యలో ఉండే రంగు ఏది?",
+    "options": ["ఆకుపచ్చ", "పసుపు", "నీలం", "నారింజ"],
+    "correctIndex": 0,
+    "gloss": "Of the rainbow's seven colours, which is exactly in the middle? — Green: violet, indigo, blue, GREEN, yellow, orange, red."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "బంగాళాఖాతం, అరేబియా సముద్రం, హిందూ మహాసముద్రం — మూడూ కలిసే భారత దక్షిణపు కొన ఏది?",
+    "options": ["రామేశ్వరం", "ధనుష్కోడి", "కోవళం", "కన్యాకుమారి"],
+    "correctIndex": 3,
+    "gloss": "Where at India's southern tip do the Bay of Bengal, Arabian Sea and Indian Ocean meet? — Kanyakumari."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "చేతికర్ర, గుండ్రటి నల్ల టోపీ, చిన్న మీసంతో 'ట్రాంప్' పాత్రను సృష్టించిన మూకీ చిత్రాల హాస్యనటుడు ఎవరు?",
+    "options": ["చార్లీ చాప్లిన్", "బస్టర్ కీటన్", "హెరాల్డ్ లాయిడ్", "స్టాన్ లారెల్"],
+    "correctIndex": 0,
+    "gloss": "Which silent-film comedian created 'the Tramp', with a cane, bowler hat and toothbrush moustache? — Charlie Chaplin."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఎడారిలో రోజుల తరబడి నీళ్లు లేకుండా బతికే ఒంటె మూపురంలో అసలు నిల్వ ఉండేది ఏమిటి?",
+    "options": ["నీరు", "కండరం", "మాంసకృత్తులు", "కొవ్వు"],
+    "correctIndex": 3,
+    "gloss": "A camel goes days without water, but what does its hump actually store? — Fat, not water."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "కాగితమంత పలుచటి బియ్యపు పొరల్లో బెల్లం, నెయ్యి చుట్టి చేసే 'పూతరేకులు' ఏ ఊరి పేరుతో ప్రసిద్ధి?",
+    "options": ["ఆత్రేయపురం", "తాపేశ్వరం", "కాకినాడ", "బందరు"],
+    "correctIndex": 0,
+    "gloss": "Pootharekulu, paper-thin rice sheets rolled with jaggery and ghee, are famous by which town's name? — Atreyapuram (GI-tagged). Tapeswaram and Kakinada are famous for kaja, Bandaru for laddu."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "హైదరాబాద్ చిహ్నమైన చార్మినార్‌ను నిర్మించింది ఏ రాజవంశం?",
+    "options": ["అసఫ్‌జాహీలు", "కాకతీయులు", "కుతుబ్‌షాహీలు", "మొఘలులు"],
+    "correctIndex": 2,
+    "gloss": "Which dynasty built the Charminar? — The Qutb Shahis (Muhammad Quli Qutb Shah, 1591). The Asaf Jahis (Nizams) came later."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "తెలుగు పదాలు దాదాపు అన్నీ అచ్చుతో ముగుస్తాయి. అదే లక్షణం ఉన్న ఏ యూరోపియన్ భాషతో పోలుస్తూ తెలుగును 'తూర్పు దేశాల ___' అంటారు?",
+    "options": ["ఫ్రెంచ్", "జర్మన్", "ఇంగ్లిష్", "ఇటాలియన్"],
+    "correctIndex": 3,
+    "gloss": "Telugu words nearly all end in a vowel; Telugu is called 'the ___ of the East' after which European language that shares this? — Italian. Even without the phrase, Italian is the one whose words end in vowels."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "గ్రీనిచ్ కాలమానం ప్రకారం సరిగ్గా మధ్యాహ్నం 12 గంటలైనప్పుడు, హైదరాబాద్‌లో గడియారం ఎంత సమయం చూపిస్తుంది?",
+    "options": ["ఉదయం 6:30", "సాయంత్రం 5:30", "మధ్యాహ్నం 12", "రాత్రి 9:30"],
+    "correctIndex": 1,
+    "gloss": "When it is exactly noon GMT, what time do clocks show in Hyderabad? — 5:30 pm: Indian Standard Time is GMT + 5½ hours, and India is east, so ahead."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ఒకే పరిమాణం గల ఇనుప బంతిని, చెక్క బంతిని ఒకే ఎత్తు నుంచి ఒకేసారి వదిలారు. గాలి నిరోధాన్ని పట్టించుకోకపోతే ఏం జరుగుతుంది?",
+    "options": ["ఇనుప బంతి ముందు నేలను తాకుతుంది", "చెక్క బంతి ముందు నేలను తాకుతుంది", "ఇనుప బంతి సగం సమయంలోనే నేలను తాకుతుంది", "రెండూ ఒకేసారి నేలను తాకుతాయి"],
+    "correctIndex": 3,
+    "gloss": "An iron ball and a wooden ball of the same size are dropped together from the same height. Ignoring air resistance, what happens? — Both land together: gravity accelerates all bodies equally (Galileo)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "1 నుంచి 100 వరకు అన్ని సంఖ్యలనూ వరుసగా రాస్తే, '9' అనే అంకె మొత్తం ఎన్నిసార్లు వస్తుంది?",
+    "options": ["10", "11", "19", "20"],
+    "correctIndex": 3,
+    "gloss": "Writing every number from 1 to 100, how many times does the digit 9 appear? — 20: ten times in the units (9, 19 … 99) and ten in the tens (90–99); 99 counts twice."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "మామూలు రూబిక్స్ క్యూబ్ మొత్తం మీద ఎన్ని రంగు చతురస్రాలు ఉంటాయి?",
+    "options": ["27", "36", "54", "48"],
+    "correctIndex": 2,
+    "gloss": "How many coloured squares are there on a standard Rubik's Cube? — 54: six faces of 3 × 3. 27 is the number of small cubes, a trap."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "మూడు గుండెలు, నీలి రంగు రక్తం ఉండే సముద్ర జీవి ఏది?",
+    "options": ["ఆక్టోపస్", "జెల్లీఫిష్", "స్టార్‌ఫిష్", "సముద్ర గుర్రం"],
+    "correctIndex": 0,
+    "gloss": "Which sea creature has three hearts and blue blood? — The octopus (copper-based haemocyanin). Jellyfish and starfish have no heart at all."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "తండ్రి కోసం 'భీష్మ ప్రతిజ్ఞ' చేయక ముందు భీష్ముడి అసలు పేరు ఏమిటి?",
+    "options": ["శాంతనుడు", "విచిత్రవీర్యుడు", "దేవవ్రతుడు", "చిత్రాంగదుడు"],
+    "correctIndex": 2,
+    "gloss": "Before his terrible vow for his father's sake, what was Bhishma's name? — Devavrata. Shantanu was his father; Chitrangada and Vichitravirya his half-brothers."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఒలింపిక్ పతాకంపై ఉన్న ఐదు వలయాల్లో ఏ రంగు వలయం లేదు?",
+    "options": ["నీలం", "ఊదా", "పసుపు", "ఆకుపచ్చ"],
+    "correctIndex": 1,
+    "gloss": "Which colour is not among the five rings on the Olympic flag? — Purple. The rings are blue, yellow, black, green and red."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "2024 ఉగాదితో 'క్రోధి' నామ సంవత్సరం మొదలైంది. తెలుగు సంవత్సరాల పేర్ల చక్రం ప్రకారం మళ్లీ 'క్రోధి' ఏ ఏటి ఉగాదికి వస్తుంది?",
+    "options": ["2072", "2084", "2064", "2096"],
+    "correctIndex": 1,
+    "gloss": "The Krodhi year began at Ugadi 2024. When does Krodhi return? — 2084: Telugu year names run in a 60-year cycle (Prabhava to Akshaya), the same cycle behind shashtipurti at 60."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "తెలుగుకు తొలి జ్ఞానపీఠ పురస్కారం తెచ్చిపెట్టిన రచన ఏది?",
+    "options": ["వేయిపడగలు", "విశ్వంభర", "మహాప్రస్థానం", "రామాయణ కల్పవృక్షం"],
+    "correctIndex": 3,
+    "gloss": "Which work won Telugu its first Jnanpith Award? — Viswanatha Satyanarayana's Ramayana Kalpavrukshamu (1970). Veyipadagalu is also his novel; Viswambhara won C. Narayana Reddy the 1988 award."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "చంద్రుడి మీద నుంచి బయలుదేరిన కాంతి భూమిని చేరడానికి సుమారు ఎంత సమయం పడుతుంది?",
+    "options": ["సుమారు ఒక సెకను", "సుమారు 8 నిమిషాలు", "సుమారు ఒక నిమిషం", "సుమారు ఒక గంట"],
+    "correctIndex": 0,
+    "gloss": "How long does light from the Moon take to reach Earth? — About a second (≈1.3 s): ~384,000 km at ~300,000 km/s. Eight minutes is sunlight, the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "నీళ్ల గ్లాసులో ఒక ఐస్ ముక్క తేలుతోంది. అది పూర్తిగా కరిగిపోతే గ్లాసులో నీటి మట్టం ఏమవుతుంది?",
+    "options": ["పెరుగుతుంది", "తగ్గుతుంది", "మారదు", "మొదట పెరిగి తర్వాత తగ్గుతుంది"],
+    "correctIndex": 2,
+    "gloss": "An ice cube floats in a glass of water. When it melts completely, what happens to the water level? — It stays the same: floating ice displaces exactly its own weight of water (Archimedes)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "శ్రీహరికోటలోని ఇస్రో రాకెట్ ప్రయోగ కేంద్రానికి ఎవరి పేరు పెట్టారు?",
+    "options": ["విక్రమ్ సారాభాయ్", "హోమీ భాభా", "ఏ.పి.జె. అబ్దుల్ కలాం", "సతీష్ ధావన్"],
+    "correctIndex": 3,
+    "gloss": "Whose name does ISRO's launch centre at Sriharikota bear? — Satish Dhawan. Vikram Sarabhai's name is on the space centre in Thiruvananthapuram."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2019లో మహిళల ప్రపంచ ర్యాపిడ్ చెస్ ఛాంపియన్‌గా నిలిచిన భారత క్రీడాకారిణి ఎవరు?",
+    "options": ["ద్రోణవల్లి హారిక", "కోనేరు హంపి", "తానియా సచ్‌దేవ్", "ఆర్. వైశాలి"],
+    "correctIndex": 1,
+    "gloss": "Which Indian player became women's world rapid chess champion in 2019? — Koneru Humpy, from Andhra Pradesh. Harika is the other Telugu grandmaster, a trap."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ప్రపంచంలోనే ఖరీదైన మసాలా అయిన కుంకుమపువ్వు, క్రోకస్ పువ్వులోని ఏ భాగం?",
+    "options": ["రేకలు", "పుప్పొడి", "కీలాగ్రాలు", "విత్తనాలు"],
+    "correctIndex": 2,
+    "gloss": "Saffron, the world's most expensive spice, is which part of the crocus flower? — The stigmas, picked by hand, three per flower."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "క్షీరదం అయినా పిల్లల్ని కనకుండా గుడ్లు పెట్టే ఆస్ట్రేలియా జీవి ఏది?",
+    "options": ["ప్లాటిపస్", "కంగారూ", "కోలా", "వొంబాట్"],
+    "correctIndex": 0,
+    "gloss": "Which Australian animal is a mammal yet lays eggs instead of giving birth? — The platypus. Kangaroo, koala and wombat are marsupials that give birth."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "దేవతల దగ్గర నుంచి నిప్పును దొంగిలించి మనుషులకు ఇచ్చిన గ్రీకు పురాణ టైటాన్ ఎవరు?",
+    "options": ["ప్రొమీథియస్", "అట్లాస్", "క్రోనస్", "హైపీరియన్"],
+    "correctIndex": 0,
+    "gloss": "Which Titan of Greek myth stole fire from the gods and gave it to humans? — Prometheus. All the others are Titans too."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "సంస్కృత పదానికి తెలుగు ప్రత్యయం చేరి ఏర్పడిన 'రాముడు', 'వృక్షము' వంటి పదాలను వ్యాకరణంలో ఏమంటారు?",
+    "options": ["తద్భవం", "తత్సమం", "దేశ్యం", "అన్యదేశ్యం"],
+    "correctIndex": 1,
+    "gloss": "Words like 'Rāmuḍu' and 'vṛkṣamu', a Sanskrit word plus a Telugu ending, are called what in grammar? — Tatsamam. Tadbhavam is a word changed in form; desyam is native Telugu; anyadesyam a foreign loan."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "హైదరాబాద్ సాలార్‌జంగ్ మ్యూజియంలోని 'వీల్డ్ రెబెకా' పాలరాతి విగ్రహాన్ని చెక్కిన శిల్పి ఏ దేశానికి చెందినవాడు?",
+    "options": ["ఫ్రాన్స్", "ఇటలీ", "గ్రీస్", "ఇంగ్లాండ్"],
+    "correctIndex": 1,
+    "gloss": "The sculptor of the marble 'Veiled Rebecca' in Hyderabad's Salar Jung Museum came from which country? — Italy: Giovanni Maria Benzoni; Salar Jung I bought it in Rome in 1876."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1947లో హార్వర్డ్ కంప్యూటర్ 'మార్క్ II' రిలేలో ఇరుక్కుని, తొలి నిజమైన కంప్యూటర్ 'బగ్'గా లాగ్‌బుక్‌లో అతికించిన కీటకం ఏది?",
+    "options": ["బొద్దింక", "చీమ", "ఈగ", "చిమ్మట"],
+    "correctIndex": 3,
+    "gloss": "In 1947 an insect stuck in a relay of Harvard's Mark II was taped into the logbook as the first actual computer 'bug'. Which insect? — A moth."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ఏటా పుష్య బహుళ పంచమి నాడు త్యాగరాజ ఆరాధనోత్సవాలు ఆయన సమాధి ఉన్న ఏ ఊరిలో జరుగుతాయి?",
+    "options": ["తిరువయ్యారు", "తంజావూరు", "శ్రీరంగం", "కంచి"],
+    "correctIndex": 0,
+    "gloss": "Every year on Pushya Bahula Panchami, the Tyagaraja Aradhana is held at his samadhi in which town? — Thiruvaiyaru, on the Kaveri. Thanjavur is the nearby district town, a trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "హైదరాబాద్‌లో మిట్ట మధ్యాహ్నం సూర్యుడు సరిగ్గా నడినెత్తిన ఉండి, నీడ అసలు పడని రోజులు ఏడాదికి ఎన్ని?",
+    "options": ["ఒక్కటీ ఉండదు", "ఒకే రోజు", "రెండు రోజులు", "నాలుగు రోజులు"],
+    "correctIndex": 2,
+    "gloss": "How many days a year is the noon sun exactly overhead in Hyderabad, casting no shadow? — Two (early May and early August): Hyderabad (~17°N) lies between the Equator and the Tropic of Cancer, so the overhead sun passes it going north and again coming back."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "భూమధ్యరేఖ, కర్కాటక రేఖ, మకర రేఖ — ఈ మూడు రేఖలూ దాటే ఏకైక ఖండం ఏది?",
+    "options": ["దక్షిణ అమెరికా", "ఆసియా", "ఆస్ట్రేలియా", "ఆఫ్రికా"],
+    "correctIndex": 3,
+    "gloss": "Which is the only continent crossed by the Equator, the Tropic of Cancer and the Tropic of Capricorn? — Africa. South America misses Cancer, Asia misses Capricorn, Australia misses the Equator."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "గుంటూరు మిర్చి ఘాటుకు పేరు. కానీ నన్నయ కాలంలో (11వ శతాబ్దం) తెలుగు వంటకు ఘాటు ఇచ్చింది వీటిలో ఏది?",
+    "options": ["మిరియాలు", "ఎండుమిర్చి", "పచ్చిమిర్చి", "కారప్పొడి"],
+    "correctIndex": 0,
+    "gloss": "Guntur chillies are famous for heat, but in Nannaya's 11th century what gave Telugu cooking its heat? — Black pepper: chillies came from the Americas with the Portuguese only in the 16th century. 'Mirapa' itself comes from 'miriyam', pepper."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "తెలుగు నేలను సస్యశ్యామలం చేసే కృష్ణమ్మ ఎక్కడ పుడుతుంది?",
+    "options": ["త్ర్యంబకేశ్వర్", "తలకావేరి", "అమరకంటక్", "మహాబలేశ్వర్"],
+    "correctIndex": 3,
+    "gloss": "Where does the Krishna, which makes Telugu land green, rise? — Mahabaleshwar (Maharashtra). Trimbakeshwar is the Godavari's source, Talakaveri the Kaveri's, Amarkantak the Narmada's."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "కవిత్రయంలో నన్నయ 'ఆదికవి', తిక్కన 'కవిబ్రహ్మ'. మరి ఎర్రనకు ఉన్న బిరుదు ఏది?",
+    "options": ["కవిసార్వభౌముడు", "సహజ పండితుడు", "ప్రబంధ పరమేశ్వరుడు", "ఆంధ్ర కవితా పితామహుడు"],
+    "correctIndex": 2,
+    "gloss": "Of the Kavitrayam, Nannaya is 'Adikavi' and Tikkana 'Kavibrahma'. What is Errana's title? — Prabandha Parameshwara. The others are Srinatha's, Pothana's and Allasani Peddana's titles."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "సున్నాతో కూడికలు, తీసివేతలకు నియమాలను క్రీ.శ. 628లో గ్రంథస్థం చేసిన భారత గణితజ్ఞుడు ఎవరు?",
+    "options": ["ఆర్యభటుడు", "భాస్కరాచార్యుడు", "బ్రహ్మగుప్తుడు", "వరాహమిహిరుడు"],
+    "correctIndex": 2,
+    "gloss": "Which Indian mathematician set down rules for adding and subtracting with zero in 628 CE? — Brahmagupta, in the Brahmasphutasiddhanta. Aryabhata is the tempting name."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఎవరెస్ట్ శిఖరానికి పేరు వచ్చిన జార్జ్ ఎవరెస్ట్ నిజానికి ఎవరు?",
+    "options": ["ఆ శిఖరాన్ని తొలిసారి ఎక్కిన పర్వతారోహకుడు", "బ్రిటిష్ ఇండియా సర్వేయర్ జనరల్", "నేపాల్‌కు వెళ్లిన తొలి బ్రిటిష్ రాయబారి", "ఆ శిఖరాన్ని తొలిసారి ఫొటో తీసిన యాత్రికుడు"],
+    "correctIndex": 1,
+    "gloss": "Who actually was George Everest, after whom the peak is named? — Surveyor General of British India. He never climbed it; the first ascent was Hillary and Tenzing in 1953."
+  }
+]

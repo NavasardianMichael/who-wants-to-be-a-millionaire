@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Completa il proverbio: «Chi dorme non piglia…»",
+    "options": [
+      "lepri",
+      "uccelli",
+      "pesci",
+      "grilli"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: 'He who sleeps doesn't catch…' — fish: «Chi dorme non piglia pesci», success takes effort."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "La pizza Margherita porta in tavola i colori della bandiera: il rosso del pomodoro, il verde del basilico e il bianco di quale formaggio?",
+    "options": [
+      "Mozzarella",
+      "Ricotta",
+      "Gorgonzola",
+      "Pecorino"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Margherita shows the flag's colours: red tomato, green basil, and white of which cheese? — Mozzarella, the classic Margherita topping."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Secondo la leggenda, quale dei due gemelli allattati da una lupa diede il nome a Roma?",
+    "options": [
+      "Remo",
+      "Romolo",
+      "Enea",
+      "Numa Pompilio"
+    ],
+    "correctIndex": 1,
+    "gloss": "According to legend, which of the twins nursed by a she-wolf gave his name to Rome? — Romulus (Romolo); Remus is the trap, Aeneas and Numa are other Roman legends."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un duo, un trio e un quartetto salgono insieme sul palco. Quanti musicisti sono in tutto?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "gloss": "A duo, a trio and a quartet go on stage together; how many musicians in all? — 2 + 3 + 4 = 9."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quale di questi nomi si legge uguale anche da destra a sinistra?",
+    "options": [
+      "Elisa",
+      "Irene",
+      "Marta",
+      "Anna"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these names reads the same backwards? — Anna, a palindrome; the others reverse into nonsense."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale gas assorbono le piante dall'aria per produrre, con la luce del sole, i propri zuccheri?",
+    "options": [
+      "Anidride carbonica",
+      "Ossigeno",
+      "Azoto",
+      "Idrogeno"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas do plants take from the air to make their sugars with sunlight? — Carbon dioxide; oxygen is what they release, a tempting reversal."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nel 1492 un navigatore al servizio dei sovrani di Spagna toccò terra in America, credendo di essere arrivato nelle Indie. Chi era?",
+    "options": [
+      "Amerigo Vespucci",
+      "Marco Polo",
+      "Giovanni Caboto",
+      "Cristoforo Colombo"
+    ],
+    "correctIndex": 3,
+    "gloss": "In 1492 a navigator in the service of the Spanish monarchs landed in America thinking he had reached the Indies; who? — Christopher Columbus; the others are Italian explorers of other voyages."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Il simbolo @ degli indirizzi e-mail ha in italiano il nome di un animale. Quale?",
+    "options": [
+      "Formica",
+      "Chiocciola",
+      "Tartaruga",
+      "Coccinella"
+    ],
+    "correctIndex": 1,
+    "gloss": "The @ in e-mail addresses is named after an animal in Italian; which? — «chiocciola» (snail)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale animale, simbolo del WWF, si nutre quasi esclusivamente di bambù?",
+    "options": [
+      "Koala",
+      "Panda gigante",
+      "Lemure",
+      "Orso polare"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal, symbol of the WWF, eats almost only bamboo? — The giant panda; the koala is the eucalyptus eater."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Al bar prendi un caffè da 1,20 euro e un cornetto da 1,30 euro e paghi con una banconota da 5 euro. Quanto resto ricevi?",
+    "options": [
+      "1,50 €",
+      "2,00 €",
+      "2,30 €",
+      "2,50 €"
+    ],
+    "correctIndex": 3,
+    "gloss": "At the bar you buy a 1.20 coffee and a 1.30 croissant and pay with a 5 euro note; how much change? — 5 - 2.50 = 2.50 euro."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quale di questi numeri, scritto in lettere, ha tante lettere quanto vale?",
+    "options": [
+      "due",
+      "tre",
+      "cinque",
+      "otto"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these numbers, written in words, has as many letters as its value? — «tre» has 3 letters; «due» has 3, «cinque» 6, «otto» 4."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "L'antivigilia di Natale è il 23 dicembre. In che data cade l'antivigilia di Capodanno?",
+    "options": [
+      "28 dicembre",
+      "29 dicembre",
+      "30 dicembre",
+      "31 dicembre"
+    ],
+    "correctIndex": 2,
+    "gloss": "The day before Christmas Eve is 23 December; what date is the day before New Year's Eve? — New Year's Day is 1 January, its eve 31 December, so the «antivigilia» is 30 December."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi guidò nel 1860 la spedizione dei Mille, partita da Quarto, vicino a Genova, alla volta della Sicilia?",
+    "options": [
+      "Giuseppe Mazzini",
+      "Camillo Benso di Cavour",
+      "Vittorio Emanuele II",
+      "Giuseppe Garibaldi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who led the Expedition of the Thousand in 1860, sailing from Quarto near Genoa to Sicily? — Giuseppe Garibaldi; Mazzini and Cavour are the other makers of unification."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Una pentola di spaghetti cuoce in otto minuti. Se metti sul fuoco due pentole uguali, ognuna con la sua porzione, quanto tempo serve per cuocere tutti gli spaghetti?",
+    "options": [
+      "4 minuti",
+      "8 minuti",
+      "12 minuti",
+      "16 minuti"
+    ],
+    "correctIndex": 1,
+    "gloss": "One pot of spaghetti cooks in 8 minutes; with two identical pots on the stove, how long to cook everything? — Still 8 minutes: they cook at the same time."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale vitamina produce la nostra pelle quando si espone alla luce del sole?",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina K"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which vitamin does our skin make when exposed to sunlight? — Vitamin D."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chi è l'autore di «Don Chisciotte della Mancia», il cavaliere che combatte contro i mulini a vento?",
+    "options": [
+      "Miguel de Cervantes",
+      "Lope de Vega",
+      "Gabriel García Márquez",
+      "Jorge Luis Borges"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote Don Quixote, the knight who fights windmills? — Miguel de Cervantes."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quanti giocatori di ciascuna squadra sono in campo contemporaneamente in una partita di pallavolo?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many players per team are on court at once in volleyball? — Six; basketball has 5 and handball 7."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale di questi Paesi europei non ha sbocco sul mare?",
+    "options": [
+      "Portogallo",
+      "Grecia",
+      "Svizzera",
+      "Belgio"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these European countries has no coast? — Switzerland; the others all border the sea."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Gli storici dell'arte chiamano «Quattrocento» il secolo di Brunelleschi e Donatello. Quali anni comprende?",
+    "options": [
+      "dal 400 al 499",
+      "dal 1300 al 1399",
+      "dal 1400 al 1499",
+      "dal 1500 al 1599"
+    ],
+    "correctIndex": 2,
+    "gloss": "Art historians call the century of Brunelleschi and Donatello the «Quattrocento»; which years? — 1400-1499: the hundreds are counted without the thousand, the trap being 400-499."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale compositore, ormai quasi del tutto sordo, scrisse la Nona Sinfonia con il coro dell'«Inno alla gioia»?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johannes Brahms",
+      "Franz Schubert"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which composer, by then nearly deaf, wrote the Ninth Symphony with the «Ode to Joy» chorus? — Beethoven (1824)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quanti cuori ha un polpo?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three (two branchial hearts and one systemic); 8 is its arms."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Una pizzeria propone una pizza da 30 cm di diametro oppure due pizze da 20 cm, allo stesso prezzo. A parità di spessore e di farcitura, quale scelta ti dà più pizza?",
+    "options": [
+      "La pizza da 30 cm",
+      "Le due pizze da 20 cm",
+      "Sono uguali",
+      "Non si può stabilire senza pesarle"
+    ],
+    "correctIndex": 0,
+    "gloss": "A pizzeria offers one 30 cm pizza or two 20 cm pizzas at the same price; with equal thickness and toppings, which gives more? — The 30 cm one: area grows with the square of the diameter, 30² = 900 against 2 x 20² = 800."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qual è il numero successivo nella serie 2, 3, 5, 8, 12, …?",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "20"
+    ],
+    "correctIndex": 1,
+    "gloss": "What number follows 2, 3, 5, 8, 12? — 17: the gaps grow by one each time (+1, +2, +3, +4, +5)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dopo Torino e prima di Roma, quale città fu capitale del Regno d'Italia dal 1865 al 1871?",
+    "options": [
+      "Milano",
+      "Napoli",
+      "Venezia",
+      "Firenze"
+    ],
+    "correctIndex": 3,
+    "gloss": "After Turin and before Rome, which city was capital of the Kingdom of Italy from 1865 to 1871? — Florence."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual è il Paese più popoloso dell'Africa?",
+    "options": [
+      "Egitto",
+      "Etiopia",
+      "Nigeria",
+      "Repubblica Democratica del Congo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which is the most populous country in Africa? — Nigeria, over 200 million people, ahead of Ethiopia."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi diresse «La dolce vita», con la celebre scena di Anita Ekberg nella Fontana di Trevi?",
+    "options": [
+      "Luchino Visconti",
+      "Federico Fellini",
+      "Roberto Rossellini",
+      "Vittorio De Sica"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who directed «La dolce vita», with Anita Ekberg's famous scene in the Trevi Fountain? — Federico Fellini (1960)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nell'antica Roma la dea della saggezza era Minerva. A quale dea greca corrispondeva?",
+    "options": [
+      "Era",
+      "Afrodite",
+      "Artemide",
+      "Atena"
+    ],
+    "correctIndex": 3,
+    "gloss": "In ancient Rome the goddess of wisdom was Minerva; which Greek goddess is her counterpart? — Athena; Hera is Juno, Aphrodite is Venus, Artemis is Diana."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Al Lotto molti puntano sul numero «ritardatario», che non esce da moltissime estrazioni. Quante probabilità ha di uscire alla prossima, rispetto agli altri numeri?",
+    "options": [
+      "Più degli altri, perché «è in ritardo»",
+      "Meno degli altri, perché è uscito poco",
+      "Le stesse degli altri",
+      "Nessuna, finché non escono tutti gli altri"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Lotto many bet on the «late» number that hasn't come up for ages; what are its odds next draw compared with the others? — The same: draws have no memory."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "L'orologio del campanile batte sei rintocchi in cinque secondi. Quanti secondi servono per dodici rintocchi, battuti con lo stesso ritmo?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "gloss": "The church clock strikes six times in five seconds; how long for twelve strokes at the same pace? — 11 seconds: six strokes have five gaps of one second, twelve have eleven gaps."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quanti tasti ha un pianoforte moderno di dimensioni standard?",
+    "options": [
+      "76",
+      "84",
+      "88",
+      "92"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many keys does a standard modern piano have? — 88 (52 white, 36 black)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un cubetto di ghiaccio galleggia in un bicchiere pieno fino all'orlo. Che cosa succede quando si scioglie del tutto?",
+    "options": [
+      "L'acqua trabocca",
+      "Il livello scende",
+      "Dipende dalle dimensioni",
+      "Non cambia nulla"
+    ],
+    "correctIndex": 3,
+    "gloss": "An ice cube floats in a glass filled to the brim; what happens when it melts completely? — Nothing: it already displaces its own weight in water (Archimedes), so the melt fills exactly the space it occupied below the surface."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "In pieno inverno un volo parte da Roma alle 10:00 e atterra a New York dopo 8 ore e mezza di viaggio. Che ora segnano gli orologi di New York all'atterraggio?",
+    "options": [
+      "00:30",
+      "06:30",
+      "12:30",
+      "18:30"
+    ],
+    "correctIndex": 2,
+    "gloss": "In midwinter a flight leaves Rome at 10:00 and lands in New York after 8.5 hours; what time is it on New York clocks? — 12:30: it is 18:30 in Rome, and New York is six hours behind."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quale gruppo sanguigno ha globuli rossi privi degli antigeni A e B e del fattore Rh, e per questo si può donare in emergenza a quasi tutti?",
+    "options": [
+      "A negativo",
+      "AB negativo",
+      "0 positivo",
+      "0 negativo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which blood group has red cells with neither A nor B antigens nor the Rh factor, so that it can be given to nearly anyone in an emergency? — O negative: group O has no A or B, and negative means no Rh."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un messaggio radio inviato dalla Terra a un astronauta sulla Luna quanto tempo impiega ad arrivare?",
+    "options": [
+      "Meno di un millesimo di secondo",
+      "Poco più di un secondo",
+      "Circa otto minuti",
+      "Circa un'ora"
+    ],
+    "correctIndex": 1,
+    "gloss": "How long does a radio message from Earth to an astronaut on the Moon take to arrive? — A little over one second (about 384,000 km at the speed of light, about 1.3 s); eight minutes is the Sun's distance."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi è l'unica donna italiana ad aver vinto il premio Nobel per la Letteratura?",
+    "options": [
+      "Elsa Morante",
+      "Natalia Ginzburg",
+      "Oriana Fallaci",
+      "Grazia Deledda"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is the only Italian woman to have won the Nobel Prize in Literature? — Grazia Deledda (1926)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale tra queste è la regione italiana più piccola per superficie?",
+    "options": [
+      "Molise",
+      "Liguria",
+      "Umbria",
+      "Valle d'Aosta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these is Italy's smallest region by area? — Aosta Valley (about 3,260 km²), ahead of Molise."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale artista progettò il grande colonnato che abbraccia piazza San Pietro a Roma?",
+    "options": [
+      "Michelangelo Buonarroti",
+      "Francesco Borromini",
+      "Gian Lorenzo Bernini",
+      "Donato Bramante"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which artist designed the great colonnade embracing St Peter's Square in Rome? — Gian Lorenzo Bernini (1656-1667)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In quale città italiana si sono svolti i Giochi olimpici invernali del 2006?",
+    "options": [
+      "Torino",
+      "Cortina d'Ampezzo",
+      "Milano",
+      "Bormio"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Italian city were the 2006 Winter Olympics held? — Turin; Cortina hosted in 1956."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lo zafferano, che dà il colore giallo al risotto alla milanese, si ricava da quale parte di un piccolo fiore viola?",
+    "options": [
+      "Dai petali",
+      "Dagli stimmi",
+      "Dalle radici",
+      "Dal polline"
+    ],
+    "correctIndex": 1,
+    "gloss": "Saffron, which colours the Milanese risotto yellow, comes from which part of a small purple flower? — The stigmas of Crocus sativus."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale antica civiltà della Mesopotamia inventò la scrittura cuneiforme, incisa su tavolette d'argilla?",
+    "options": [
+      "Assiri",
+      "Babilonesi",
+      "Persiani",
+      "Sumeri"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ancient Mesopotamian civilisation invented cuneiform writing on clay tablets? — The Sumerians; Assyrians and Babylonians adopted it later."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Una bibita ha pH 3 e un'altra ha pH 5. Quante volte è più acida la prima?",
+    "options": [
+      "2 volte",
+      "10 volte",
+      "100 volte",
+      "1.000 volte"
+    ],
+    "correctIndex": 2,
+    "gloss": "One drink has pH 3 and another pH 5; how many times more acidic is the first? — 100 times: the pH scale is logarithmic, each step is a factor of ten."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quanti anni passano tra il 1° gennaio del 10 a.C. e il 1° gennaio del 10 d.C.?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many years pass between 1 January 10 BC and 1 January AD 10? — 19: there is no year zero, 1 BC is followed directly by AD 1."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quanti bit servono, come minimo, per assegnare un codice binario diverso a ciascuno di 100 studenti?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many bits are needed at minimum to give each of 100 students a different binary code? — 7: 2^6 = 64 is too few, 2^7 = 128 is enough."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale popolo scavò nella roccia rosa la città di Petra, nell'attuale Giordania?",
+    "options": [
+      "Nabatei",
+      "Fenici",
+      "Assiri",
+      "Ittiti"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which people carved the city of Petra into the rose-red rock, in today's Jordan? — The Nabataeans."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale di queste città si trova alla latitudine più settentrionale?",
+    "options": [
+      "New York",
+      "Madrid",
+      "Pechino",
+      "Roma"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these cities lies furthest north? — Rome (41.9° N), ahead of New York (40.7°), Madrid (40.4°) and Beijing (39.9°)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale pianeta del sistema solare ruota quasi «sdraiato», con l'asse inclinato di circa 98 gradi sul piano della sua orbita?",
+    "options": [
+      "Saturno",
+      "Urano",
+      "Nettuno",
+      "Venere"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet rotates almost on its side, with its axis tilted about 98 degrees to its orbit? — Uranus."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Il saluto «ciao» deriva dal veneziano «s-ciào». Che cosa significava alla lettera?",
+    "options": [
+      "«Sono vostro schiavo»",
+      "«Dio vi accompagni»",
+      "«Buona fortuna»",
+      "«A presto»"
+    ],
+    "correctIndex": 0,
+    "gloss": "The greeting «ciao» comes from Venetian «s-ciào»; what did it mean literally? — 'I am your slave (servant)', from «schiavo»."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Le contrade di Siena sono diciassette, ma al Palio ne corrono ogni volta soltanto un certo numero. Quante?",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "17"
+    ],
+    "correctIndex": 1,
+    "gloss": "Siena has seventeen contrade, but only a certain number race in each Palio; how many? — Ten (seven that sat out the previous year plus three drawn by lot)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale di questi grandi scrittori italiani del Novecento è nato a Cuba?",
+    "options": [
+      "Cesare Pavese",
+      "Primo Levi",
+      "Alberto Moravia",
+      "Italo Calvino"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these great 20th-century Italian writers was born in Cuba? — Italo Calvino (Santiago de las Vegas, 1923)."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Per potersi chiamare Parmigiano Reggiano, un formaggio deve stagionare almeno per quanto tempo?",
+    "options": [
+      "6 mesi",
+      "12 mesi",
+      "18 mesi",
+      "24 mesi"
+    ],
+    "correctIndex": 1,
+    "gloss": "For a cheese to be called Parmigiano Reggiano, how long must it age at the very least? — 12 months."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "பழமொழிப்படி, எவ்வளவு கவனமாக நடந்தாலும் எதற்கும் அடி சறுக்கும்?",
+    "options": ["குதிரைக்கும்", "யானைக்கும்", "புலிக்கும்", "ஒட்டகத்துக்கும்"],
+    "correctIndex": 1,
+    "gloss": "By the proverb, whose foot too slips, however carefully it walks? — The elephant's: «யானைக்கும் அடி சறுக்கும்», even the mighty err."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "தைப் பொங்கல் அன்று புதுப் பானையில் பால் பொங்கி வழியும்போது வீட்டார் எல்லாரும் சேர்ந்து என்ன முழங்குவார்கள்?",
+    "options": ["அரோகரா!", "கோவிந்தா!", "பொங்கலோ பொங்கல்!", "வாழ்க வாழ்க!"],
+    "correctIndex": 2,
+    "gloss": "On Thai Pongal, when the milk boils over in the new pot, what does the family shout together? — «Pongalo Pongal!». Arohara and Govinda are temple chants for Murugan and Vishnu."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "கடல் மட்டத்தில் தூய நீர் எத்தனை டிகிரி செல்சியஸில் கொதிக்கத் தொடங்கும்?",
+    "options": ["100", "90", "212", "120"],
+    "correctIndex": 0,
+    "gloss": "At sea level, at how many degrees Celsius does pure water boil? — 100. 212 is the trap: that is the Fahrenheit figure."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ஒரு வியாபாரியிடம் 10 மாம்பழங்கள் இருந்தன. மூன்றைத் தவிர மற்ற எல்லாம் விற்றுப்போயின. இப்போது அவரிடம் எத்தனை மாம்பழங்கள் மீதம்?",
+    "options": ["7", "10", "0", "3"],
+    "correctIndex": 3,
+    "gloss": "A trader had 10 mangoes; all but three were sold. How many are left? — 3: 'all but three' means three remain; 7 is the autopilot answer."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘சோழ நாடு சோறுடைத்து’ என்று புகழப்படும் தஞ்சை டெல்டாவின் வயல்களுக்கு நீர் தரும் ஆறு எது?",
+    "options": ["வைகை", "காவிரி", "தாமிரபரணி", "பாலாறு"],
+    "correctIndex": 1,
+    "gloss": "Which river waters the fields of the Thanjavur delta, praised as 'the Chola land is rich in rice'? — The Kaveri; the Vaigai is Madurai's, the Tamirabarani Tirunelveli's."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "இட்லியும் தோசையும் பெரும்பாலும் ஒரே மாவில்தான். தோசை கல்லில் சுடப்படுகிறது; இட்லி எப்படிச் சமைக்கப்படுகிறது?",
+    "options": ["எண்ணெயில் பொரித்து", "நெருப்பில் வாட்டி", "ஆவியில் வேகவைத்து", "அடுப்பில் சுட்டு"],
+    "correctIndex": 2,
+    "gloss": "Idli and dosa are usually the same batter; dosa is made on a griddle. How is idli cooked? — Steamed."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "இருபது ஓவர் கிரிக்கெட்டில் ஒரு அணியின் இன்னிங்ஸில் அதிகபட்சம் எத்தனை சரியான பந்துகள் வீசப்படும்?",
+    "options": ["100", "120", "200", "160"],
+    "correctIndex": 1,
+    "gloss": "In T20 cricket, at most how many legal balls are bowled in one innings? — 120: 20 overs × 6 balls."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "சிலந்தி பூச்சி இனத்தைச் சேர்ந்தது அல்ல; அதன் கால்களை எண்ணினாலே தெரியும். சிலந்திக்கு எத்தனை கால்கள்?",
+    "options": ["6", "10", "4", "8"],
+    "correctIndex": 3,
+    "gloss": "A spider is not an insect; count its legs and you'll see. How many legs does it have? — 8; insects have 6."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "நீண்ட கயிறு ஒன்றை மடிக்காமல் நேராக வைத்து, சம நீளமுள்ள நான்கு துண்டுகளாக்க வேண்டும். குறைந்தது எத்தனை வெட்டுகள் தேவை?",
+    "options": ["3", "4", "2", "5"],
+    "correctIndex": 0,
+    "gloss": "A long rope, laid straight and unfolded, must be cut into four equal pieces. How many cuts at least? — 3: each cut adds one piece."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘இசைஞானி’ என்று ரசிகர்கள் அன்புடன் அழைக்கும் இசையமைப்பாளர் யார்?",
+    "options": ["ஏ. ஆர். ரகுமான்", "எம். எஸ். விஸ்வநாதன்", "இளையராஜா", "தேவா"],
+    "correctIndex": 2,
+    "gloss": "Which composer do fans call 'Isaignani'? — Ilaiyaraaja. A. R. Rahman is 'Isai Puyal', M. S. Viswanathan 'Mellisai Mannar'."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "வாழ்வின் நான்கு உறுதிப்பொருள்களில் மூன்றுக்கு மட்டுமே திருக்குறளில் தனிப் ‘பால்’ உண்டு. தனிப் பாலாக இடம்பெறாதது எது?",
+    "options": ["அறம்", "பொருள்", "இன்பம்", "வீடு"],
+    "correctIndex": 3,
+    "gloss": "Of life's four aims, only three get their own section in the Thirukkural. Which has none? — Veedu (liberation): the Kural's sections are Aram, Porul and Inbam (Kamam)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "மின்னல் வெட்டி 6 விநாடிகள் கழித்து இடிச் சத்தம் கேட்டது. ஒலி விநாடிக்குச் சுமார் 340 மீட்டர் பயணிக்கும் என்றால், மின்னல் ஏறத்தாழ எவ்வளவு தொலைவில்?",
+    "options": ["2 கிலோமீட்டர்", "200 மீட்டர்", "6 கிலோமீட்டர்", "20 கிலோமீட்டர்"],
+    "correctIndex": 0,
+    "gloss": "Thunder came 6 seconds after the lightning; sound travels about 340 m/s. How far away was the lightning? — About 2 km: 6 × 340 = 2,040 m."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "பசிபிக் பெருங்கடலுக்கு அருகே, பெருவின் மலைகளில் பிறக்கும் அமேசான் ஆறு இறுதியில் எங்கே கடலில் கலக்கிறது?",
+    "options": ["அட்லாண்டிக் பெருங்கடல்", "பசிபிக் பெருங்கடல்", "கரீபியன் கடல்", "இந்தியப் பெருங்கடல்"],
+    "correctIndex": 0,
+    "gloss": "The Amazon rises in the Peruvian Andes, near the Pacific. Where does it reach the sea? — The Atlantic, crossing the whole continent eastward."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "பிரபலமான வாக்கின்படி, ‘கற்றது கைம்மண் அளவு; கல்லாதது …’ எந்த அளவு?",
+    "options": ["கடலளவு", "உலகளவு", "வானளவு", "மலையளவு"],
+    "correctIndex": 1,
+    "gloss": "By the famous saying, 'what we have learnt is a handful of sand; what we have not is…' how much? — The size of the world: «கற்றது கைம்மண் அளவு, கல்லாதது உலகளவு», traditionally Avvaiyar's."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "சென்னை மெரினா கடற்கரையில் கடலைப் பார்த்தபடி நின்றால், அதிகாலையில் சூரியன் எங்கே உதிக்கும்?",
+    "options": ["உங்களுக்குப் பின்னால்", "உங்கள் வலப்புறம்", "உங்கள் இடப்புறம்", "உங்களுக்கு நேர் முன்னால்"],
+    "correctIndex": 3,
+    "gloss": "Standing on Chennai's Marina facing the sea, where does the sun rise? — Straight ahead: Chennai is on the east coast, the Bay of Bengal lies to the east."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "செயற்கைக்கோள்களின் உதவியுடன் கைப்பேசி வரைபடத்தில் நாம் இருக்கும் இடத்தைக் காட்டும் அமைப்பின் சுருக்கப் பெயர் என்ன?",
+    "options": ["வை-ஃபை", "ஜி.பி.எஸ்.", "புளூடூத்", "என்.எஃப்.சி."],
+    "correctIndex": 1,
+    "gloss": "What is the short name of the satellite system that shows where we are on a phone map? — GPS."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "தமிழ் ஆண்டு ஏப்ரல் நடுவில் சித்திரையில் தொடங்குகிறது; ஒவ்வொரு மாதமும் ஏறத்தாழ ஆங்கில மாத நடுவில் பிறக்கிறது. ஜனவரி நடுவில் பிறக்கும் தை, ஆண்டின் எத்தனையாவது மாதம்?",
+    "options": ["எட்டாவது", "ஒன்பதாவது", "பத்தாவது", "பதினொன்றாவது"],
+    "correctIndex": 2,
+    "gloss": "The Tamil year starts with Chithirai in mid-April, each month starting mid-way through a Western one. Which month of the year is Thai, starting mid-January? — The tenth: count April to January."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "டென்னிஸ் போட்டியில் நடுவர் ‘லவ்’ என்று அறிவிக்கும் புள்ளி எண்ணிக்கை என்ன?",
+    "options": ["பூஜ்ஜியம்", "பதினைந்து", "முப்பது", "நாற்பது"],
+    "correctIndex": 0,
+    "gloss": "In tennis, what score does the umpire call 'love'? — Zero."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "நுங்கும் கிழங்கும் தந்து, தன் ஓலைகளில் பண்டைய நூல்கள் எழுதப்பட இடம் தந்த, தமிழ்நாட்டின் மாநில மரம் எது?",
+    "options": ["தென்னை", "பனை", "வேம்பு", "ஆலமரம்"],
+    "correctIndex": 1,
+    "gloss": "Which tree, giving nungu and tubers and the leaves old texts were written on, is Tamil Nadu's state tree? — The palmyra palm."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "மனித உடலின் மிகப் பெரிய உறுப்பு எது? ஒரு குறிப்பு: அது உடலுக்குள் இல்லை.",
+    "options": ["கல்லீரல்", "நுரையீரல்", "மூளை", "தோல்"],
+    "correctIndex": 3,
+    "gloss": "What is the human body's largest organ? Hint: it isn't inside the body. — The skin; the liver is the largest internal organ."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "நடிகர் வி. சி. கணேசனுக்குச் ‘சிவாஜி’ என்ற அடைமொழி எப்படி வந்தது?",
+    "options": ["முதல் திரைப்படத்தின் தலைப்பு அது என்பதால்", "தந்தை வைத்த செல்லப்பெயர் என்பதால்", "மேடை நாடகத்தில் மன்னர் சிவாஜியாக நடித்ததால்", "ரசிகர் மன்றம் சூட்டிய பட்டம் என்பதால்"],
+    "correctIndex": 2,
+    "gloss": "How did actor V. C. Ganesan get the name 'Sivaji'? — From playing Shivaji in Anna's stage play «சிவாஜி கண்ட இந்து ராஜ்யம்»; Periyar hailed him so. His first film was Parasakthi."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "கங்கைக் கரை வரை படை நடத்தி வென்றதன் நினைவாக, ‘கங்கைகொண்ட சோழபுரம்’ என்ற புதிய தலைநகரை அமைத்த மன்னன் யார்?",
+    "options": ["முதலாம் இராஜராஜ சோழன்", "கரிகால் சோழன்", "முதலாம் குலோத்துங்க சோழன்", "முதலாம் இராஜேந்திர சோழன்"],
+    "correctIndex": 3,
+    "gloss": "Which king founded the new capital Gangaikonda Cholapuram after his campaign to the Ganges? — Rajendra Chola I; his father Rajaraja built the Thanjavur temple."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ஒருவர் பூமியின் வட துருவத்தில் சரியாக நிற்கிறார். அங்கிருந்து அவர் எந்தப் பக்கம் அடியெடுத்து வைத்தாலும் அது எந்தத் திசை?",
+    "options": ["தெற்கு", "வடக்கு", "கிழக்கு", "மேற்கு"],
+    "correctIndex": 0,
+    "gloss": "Someone stands exactly on the North Pole. Whichever way he steps, which direction is it? — South: every direction away from the North Pole is south."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "தமிழில் 12 உயிர் எழுத்துகள், 18 மெய் எழுத்துகள். ஒவ்வொரு மெய்யும் ஒவ்வொரு உயிருடனும் சேர்ந்து ஓர் உயிர்மெய் எழுத்தாகிறது. உயிர்மெய் எழுத்துகள் மொத்தம் எத்தனை?",
+    "options": ["30", "247", "216", "228"],
+    "correctIndex": 2,
+    "gloss": "Tamil has 12 vowels and 18 consonants; each consonant joins each vowel to form a vowel-consonant letter. How many are there? — 216 = 12 × 18. 247 is the trap: the whole alphabet (12 + 18 + 216 + āytam)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "போஸ்பரஸ் நீரிணை நகரின் நடுவே ஓடுவதால், ஐரோப்பாவிலும் ஆசியாவிலும் பரந்திருக்கும் பெருநகரம் எது?",
+    "options": ["ஏதென்ஸ்", "இஸ்தான்புல்", "கெய்ரோ", "மாஸ்கோ"],
+    "correctIndex": 1,
+    "gloss": "With the Bosphorus running through it, which city lies in both Europe and Asia? — Istanbul."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "மாமல்லபுரத்தில் அலைகளைப் பார்த்தபடி நிற்கும் கடற்கரைக் கோயிலைக் கட்டியவர்கள் யார்?",
+    "options": ["சோழர்கள்", "பாண்டியர்கள்", "பல்லவர்கள்", "நாயக்கர்கள்"],
+    "correctIndex": 2,
+    "gloss": "Who built the Shore Temple facing the waves at Mamallapuram? — The Pallavas (under Narasimhavarman II, Rajasimha)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ஒரு புத்தகத்தின் பக்கங்கள் 1 முதல் 100 வரை எண்ணிடப்பட்டுள்ளன. அவற்றில் ‘9’ என்ற இலக்கம் மொத்தம் எத்தனை முறை அச்சாகியிருக்கும்?",
+    "options": ["10", "11", "19", "20"],
+    "correctIndex": 3,
+    "gloss": "A book's pages are numbered 1 to 100. How many times is the digit 9 printed? — 20: ten times as the units digit (9, 19 … 99) and ten times as the tens digit (90–99); 99 counts twice."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ஒரு குளத்தில் ஆகாயத்தாமரை ஒவ்வொரு நாளும் இரு மடங்காகப் பெருகுகிறது. 30-ஆம் நாள் குளம் முழுவதும் மூடிவிட்டது. குளத்தின் பாதி எந்த நாளில் மூடியிருந்தது?",
+    "options": ["15-ஆம் நாள்", "29-ஆம் நாள்", "20-ஆம் நாள்", "28-ஆம் நாள்"],
+    "correctIndex": 1,
+    "gloss": "Water lettuce in a pond doubles every day and covers it fully on day 30. On which day was half the pond covered? — Day 29: one doubling before full."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ஒரு வகை குரோக்கஸ் மலரின் சூலகமுடிகளைக் கையால் பிரித்தெடுத்து உலர்த்திப் பெறப்படும் விலையுயர்ந்த நறுமணப் பொருள் எது?",
+    "options": ["கிராம்பு", "ஏலக்காய்", "ஜாதிபத்திரி", "குங்குமப்பூ"],
+    "correctIndex": 3,
+    "gloss": "Which costly spice is the hand-picked, dried stigmas of a crocus flower? — Saffron. Clove is a flower bud, mace the aril of nutmeg."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "முருகனின் அறுபடை வீடுகளில் கடலோரத்தில் அமைந்திருப்பது எது?",
+    "options": ["பழனி", "திருச்செந்தூர்", "சுவாமிமலை", "திருத்தணி"],
+    "correctIndex": 1,
+    "gloss": "Which of Murugan's six abodes stands on the seashore? — Tiruchendur. Palani and Tiruttani are hill shrines, Swamimalai by the Kaveri."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "சிலப்பதிகாரத்தின் தொடர்ச்சியாகக் கருதப்படும் ‘மணிமேகலை’ காப்பியத்தை இயற்றியவர் யார்?",
+    "options": ["சீத்தலைச் சாத்தனார்", "இளங்கோவடிகள்", "திருத்தக்கதேவர்", "கம்பர்"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the epic Manimekalai, seen as the sequel to Silappatikaram? — Seethalai Sathanar. Ilango Adigal wrote Silappatikaram, Thiruthakka Thevar Seevaka Chintamani."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "நீரின் ஒவ்வொரு மூலக்கூறிலும் இரண்டு ஹைட்ரஜன் அணுக்களும் ஒரு ஆக்சிஜன் அணுவும் உள்ளன. ஒரு லிட்டர் நீரின் எடையில் ஏறத்தாழ எவ்வளவு பங்கு ஆக்சிஜன்?",
+    "options": ["மூன்றில் ஒரு பங்கு", "பாதி", "மூன்றில் இரண்டு பங்கு", "ஒன்பதில் எட்டு பங்கு"],
+    "correctIndex": 3,
+    "gloss": "Each water molecule has two hydrogen atoms and one oxygen atom. Roughly what share of a litre of water's weight is oxygen? — Eight-ninths: oxygen weighs 16, the two hydrogens 2. 'One third' counts atoms, not mass."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "திருகோணமலைக்கு அருகே கடலில் கலக்கும் இலங்கையின் மிக நீளமான ஆறு எது?",
+    "options": ["களனி கங்கை", "மகாவலி கங்கை", "களு கங்கை", "வளவை கங்கை"],
+    "correctIndex": 1,
+    "gloss": "Which is Sri Lanka's longest river, reaching the sea near Trincomalee? — The Mahaweli."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "வரலாற்றில் முதன்முறையாக உலகைச் சுற்றி வந்த கப்பல் பயணத்தை நிறைவுசெய்து ஸ்பெயினுக்குத் திரும்பிய தலைவர் யார்?",
+    "options": ["பெர்டினாண்ட் மெகல்லன்", "கிறிஸ்டோபர் கொலம்பஸ்", "ஹுவான் செபாஸ்தியன் எல்கானோ", "வாஸ்கோ ட காமா"],
+    "correctIndex": 2,
+    "gloss": "Who led the first voyage around the world home to Spain? — Juan Sebastián Elcano; Magellan died in the Philippines on the way."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "பாரிஸின் ஈஃபிள் கோபுரம் முதலில் எதற்காகக் கட்டப்பட்டது?",
+    "options": ["1889 பாரிஸ் உலகக் கண்காட்சிக்காக", "வானொலி ஒலிபரப்புக்காக", "1900 பாரிஸ் ஒலிம்பிக்கிற்காக", "நெப்போலியனின் நினைவாக"],
+    "correctIndex": 0,
+    "gloss": "What was the Eiffel Tower originally built for? — The 1889 Paris World's Fair. Radio is the trap: it later saved the tower from demolition."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "இரட்டை உடல் கொண்ட படகைக் குறிக்கும் ‘கேட்டமரான்’ என்ற ஆங்கிலச் சொல் எந்தத் தமிழ்ச் சொல்லிலிருந்து பிறந்தது?",
+    "options": ["கட்டுமரம்", "தோணி", "வள்ளம்", "படகு"],
+    "correctIndex": 0,
+    "gloss": "The English word 'catamaran', a twin-hulled boat, comes from which Tamil word? — Kattumaram, 'tied logs'; the sound gives it away to a thinking player."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "எண்காலி எனப்படும் ஆக்டோபஸின் உடலில் எத்தனை இதயங்கள் உள்ளன?",
+    "options": ["1", "2", "3", "4"],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three: two pump blood through the gills, one through the body."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "டேனிஷ் மொழியில் ‘நன்றாக விளையாடு’ என்று பொருள்படும் இரண்டு சொற்களைச் சுருக்கித் தன் பெயராக்கிக்கொண்ட பொம்மை நிறுவனம் எது?",
+    "options": ["மேட்டல்", "ஹாஸ்ப்ரோ", "ப்ளேமொபில்", "லெகோ"],
+    "correctIndex": 3,
+    "gloss": "Which toy company took its name from two Danish words meaning 'play well'? — LEGO, from «leg godt». Mattel and Hasbro are American, Playmobil German."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ஜல்லிக்கட்டு’ என்ற பெயர், காளையின் கொம்புகளில் முன்பு கட்டப்பட்ட பரிசிலிருந்து வந்தது. ‘சல்லி’ எனப்பட்ட அந்தப் பரிசு என்ன?",
+    "options": ["நாணயங்கள்", "சலங்கைகள்", "பூமாலைகள்", "பட்டுத் துணிகள்"],
+    "correctIndex": 0,
+    "gloss": "The name Jallikattu comes from a prize once tied to the bull's horns, called 'salli'. What was it? — Coins (salli kasu); kattu = tied."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ஒருவர் மணிக்கு 14 கிலோமீட்டர் என்ற மாறாத வேகத்தில் முழு மாரத்தான் தூரத்தையும் ஓடினால், ஏறத்தாழ எவ்வளவு நேரத்தில் முடிப்பார்?",
+    "options": ["சுமார் 2 மணி நேரம்", "சுமார் 3 மணி நேரம்", "சுமார் 4 மணி நேரம்", "சுமார் 5 மணி நேரம்"],
+    "correctIndex": 1,
+    "gloss": "Running a full marathon at a steady 14 km/h, roughly how long does it take? — About 3 hours: the marathon is 42.195 km. Thinking '26' (miles) gives the 2-hour trap."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘ஆலிஸின் அற்புத உலகம்’ எழுதிய லூயிஸ் கரோல் நிஜ வாழ்க்கையில் என்ன பணி செய்தார்?",
+    "options": ["கணித விரிவுரையாளர்", "மருத்துவர்", "வழக்கறிஞர்", "கப்பல் மாலுமி"],
+    "correctIndex": 0,
+    "gloss": "What was Lewis Carroll, author of Alice in Wonderland, by profession? — A mathematics lecturer at Christ Church, Oxford (as Charles Dodgson)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "பானையில் இட்ட ஓலைச்சீட்டுகளில் இருந்து ஊர்ச் சபை உறுப்பினர்களைத் தேர்ந்தெடுக்கும் ‘குடவோலை’ முறையை விரிவாகப் பதிவுசெய்த சோழர் காலக் கல்வெட்டு எந்த ஊரில் உள்ளது?",
+    "options": ["உத்திரமேரூர்", "தஞ்சாவூர்", "கும்பகோணம்", "மதுரை"],
+    "correctIndex": 0,
+    "gloss": "Where is the Chola-era inscription that records in detail the 'kudavolai' system, choosing village council members from palm-leaf slips drawn from a pot? — Uthiramerur (Parantaka I's reign)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "பூமியில் ஒருவரின் நிறை 60 கிலோகிராம். சந்திரனின் ஈர்ப்பு பூமியைவிட ஏறத்தாழ ஆறு மடங்கு குறைவு. சந்திரனில் அவரது நிறை எவ்வளவு?",
+    "options": ["10 கி.கி.", "360 கி.கி.", "60 கி.கி.", "0 கி.கி."],
+    "correctIndex": 2,
+    "gloss": "A person's mass on Earth is 60 kg; the Moon's gravity is about a sixth of Earth's. What is his mass on the Moon? — Still 60 kg: mass does not change, only weight does. 10 kg is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "கடலை அடைய குறைந்தது இரண்டு நாடுகளைக் கடக்க வேண்டிய ‘இரட்டை நிலஞ்சூழ்’ நாடுகள் உலகில் இரண்டே. அவற்றில் ஒன்று எது?",
+    "options": ["கஜகஸ்தான்", "மங்கோலியா", "உஸ்பெகிஸ்தான்", "ஆப்கானிஸ்தான்"],
+    "correctIndex": 2,
+    "gloss": "Only two 'doubly landlocked' countries must cross at least two borders to reach the sea. Which is one? — Uzbekistan (the other is Liechtenstein). Kazakhstan and Mongolia border Russia/China, Afghanistan borders Pakistan and Iran."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "கர்நாடக இசையின் மும்மூர்த்திகளான தியாகராஜர், முத்துசுவாமி தீட்சிதர், சியாமா சாஸ்திரி மூவரும் பிறந்த ஊர் எது?",
+    "options": ["திருவையாறு", "தஞ்சாவூர்", "திருவாரூர்", "கும்பகோணம்"],
+    "correctIndex": 2,
+    "gloss": "Where were all three of the Carnatic Trinity born? — Thiruvarur. Thiruvaiyaru is the trap: Thyagaraja lived there and his aradhana is held there."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "இத்தாலியின் பைசா நகரில் உள்ள புகழ்பெற்ற சாய்ந்த கோபுரம் உண்மையில் என்ன?",
+    "options": ["கலங்கரை விளக்கம்", "கோட்டைக் காவல் கோபுரம்", "வானாய்வுக் கோபுரம்", "தேவாலய மணிக்கூண்டு"],
+    "correctIndex": 3,
+    "gloss": "What actually is the famous Leaning Tower of Pisa? — The cathedral's bell tower (campanile). The observatory is a trap from the Galileo legend."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "இன்று இந்தியா உலகின் முன்னணி முந்திரி உற்பத்தியாளர்களில் ஒன்று. ஆனால் போர்த்துகீசியர் இங்கு கொண்டுவந்த முந்திரி மரத்தின் தாயகம் எது?",
+    "options": ["இலங்கை", "பிரேசில்", "கிழக்கு ஆப்பிரிக்கா", "இந்தோனேசியா"],
+    "correctIndex": 1,
+    "gloss": "India is a leading cashew producer today, but where is the cashew tree, brought by the Portuguese, native to? — Brazil; the Portuguese link is the reasoning clue."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "கிரேக்கத் தொன்மத்தின் ‘பண்டோராவின் பெட்டி’, பழைய மூலக் கதையில் உண்மையில் பெட்டியே அல்ல. அது என்ன?",
+    "options": ["மண் ஜாடி", "மரப்பேழை", "தோல் பை", "நகைப்பெட்டி"],
+    "correctIndex": 0,
+    "gloss": "In the original Greek myth, 'Pandora's box' wasn't a box at all. What was it? — A jar (pithos, in Hesiod); 'box' came from a Renaissance mistranslation."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "கணினியில் ஒரு பிட் 0 அல்லது 1 என்ற இரண்டு மதிப்புகளில் ஒன்றை மட்டுமே கொள்ளும். ஒரு பைட் எத்தனை வெவ்வேறு மதிப்புகளைக் குறிக்க முடியும்?",
+    "options": ["8", "16", "128", "256"],
+    "correctIndex": 3,
+    "gloss": "A bit holds only 0 or 1. How many different values can one byte represent? — 256: a byte is 8 bits, 2⁸ = 256."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "தொல்காப்பியம் வகுக்கும் ஐந்திணைகளில், காடும் காடு சார்ந்த இடமுமான முல்லை நிலத்தின் தெய்வம் யார்?",
+    "options": ["சேயோன்", "வேந்தன்", "வருணன்", "மாயோன்"],
+    "correctIndex": 3,
+    "gloss": "Among Tolkappiyam's five landscapes, who is the god of Mullai, the forest land? — Mayon (Thirumal). Seyon (Murugan) is Kurinji's, Vendhan (Indra) Marutham's, Varunan Neythal's."
+  }
+]
