@@ -35,13 +35,14 @@ const UNSPACED = new Set(['zh-CN', 'zh-TW', 'ja', 'th', 'lo', 'km', 'my'])
 
 /**
  * True when the answer is given away by the question: as a whole word where words are spaced
- * (Persian «انگل», "parasite", is not given away by «انگلیسی», "English"), anywhere otherwise.
+ * (Persian «انگل», "parasite", is not given away by «انگلیسی», "English"; "5.000" not by
+ * "35.000"), anywhere otherwise.
  */
 const givesAwayAnswer = (text: string, answer: string, locale: string): boolean => {
   const haystack = text.toLocaleLowerCase()
   const needle = answer.toLocaleLowerCase()
   if (UNSPACED.has(locale)) return haystack.includes(needle)
-  const isWordChar = (char: string | undefined) => char !== undefined && /[\p{L}\p{M}]/u.test(char)
+  const isWordChar = (char: string | undefined) => char !== undefined && /[\p{L}\p{M}\p{N}]/u.test(char)
   for (let at = haystack.indexOf(needle); at !== -1; at = haystack.indexOf(needle, at + 1)) {
     if (!isWordChar(haystack[at - 1]) && !isWordChar(haystack[at + needle.length])) return true
   }
