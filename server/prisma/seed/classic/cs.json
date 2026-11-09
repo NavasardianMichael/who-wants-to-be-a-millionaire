@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "V kolik hodin se sejdete, když se domluvíte na ‚půl osmé‘?",
+    "options": [
+      "7:15",
+      "7:30",
+      "8:15",
+      "8:30"
+    ],
+    "correctIndex": 1,
+    "gloss": "At what time do you meet if you agree on 'půl osmé'? — 7:30: Czech counts the half hour towards the coming hour, so 'half of the eighth hour' is 7:30, not 8:30 as in English 'half eight'."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Která hora Krkonoš, tyčící se přímo na hranici s Polskem, je zároveň nejvyšší horou celého Česka?",
+    "options": [
+      "Sněžka",
+      "Praděd",
+      "Lysá hora",
+      "Ještěd"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Giant Mountains peak, on the Polish border, is the highest in all of Czechia? — Sněžka. Praděd is the highest in Moravia, Lysá hora in the Beskids, Ještěd is the famous TV-tower hill."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kolik zvířat od každého druhu vzal Mojžíš na archu?",
+    "options": [
+      "Dvě",
+      "Sedm",
+      "Žádné",
+      "Čtyři"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many animals of each kind did Moses take on the ark? — None: it was Noah who built the ark (the 'Moses illusion'); a player who answers on autopilot says two."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Která ryba bývá v mnoha českých rodinách hlavním chodem štědrovečerní večeře a před Vánoci se prodává živá v nádržích na ulicích?",
+    "options": [
+      "Pstruh",
+      "Štika",
+      "Sumec",
+      "Kapr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fish is the main course of the Christmas Eve dinner in many Czech families and is sold live from tanks on the street before Christmas? — Carp, fried in breadcrumbs with potato salad."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který pták snáší vejce do cizích hnízd a mláďata nechává vychovat jiným ptákům?",
+    "options": [
+      "Sýkora",
+      "Kukačka",
+      "Vrána",
+      "Vrabec"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which bird lays its eggs in other birds' nests and lets them raise its chicks? — The cuckoo (brood parasite)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kterou planetu Sluneční soustavy nazýváme kvůli rezavé barvě povrchu rudou planetou?",
+    "options": [
+      "Venuše",
+      "Merkur",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which planet is called the red planet because of its rusty surface? — Mars (iron oxide dust)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Které zvíře, žijící pod zemí, je hrdinou téměř němých animovaných příběhů Zdeňka Milera?",
+    "options": [
+      "Krtek",
+      "Zajíc",
+      "Ježek",
+      "Veverka"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which underground animal is the hero of Zdeněk Miler's almost wordless cartoons? — The mole (Krteček, 'Little Mole')."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kolik měsíců v roce má alespoň 28 dní?",
+    "options": [
+      "Jeden",
+      "Dva",
+      "Šest",
+      "Dvanáct"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many months of the year have at least 28 days? — All twelve; the trap is to think only of February."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak začíná česká státní hymna?",
+    "options": [
+      "Kde domov můj",
+      "Hej, Slované",
+      "Ach synku, synku",
+      "Skákal pes přes oves"
+    ],
+    "correctIndex": 0,
+    "gloss": "How does the Czech national anthem begin? — «Kde domov můj» ('Where is my home'). The others are a pan-Slavic anthem and two folk songs."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Které zvíře dalo jméno zařízení, kterým posouváme kurzor po obrazovce?",
+    "options": [
+      "Krysa",
+      "Myš",
+      "Kočka",
+      "Pes"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal gave its name to the device we use to move the cursor on the screen? — The mouse (Czech «myš»)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který skladatel napsal operu Prodaná nevěsta o Mařence a Jeníkovi?",
+    "options": [
+      "Antonín Dvořák",
+      "Leoš Janáček",
+      "Bedřich Smetana",
+      "Bohuslav Martinů"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which composer wrote the opera The Bartered Bride about Mařenka and Jeník? — Bedřich Smetana; all the options are famous Czech composers."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Která z těchto vět neobsahuje jedinou samohlásku?",
+    "options": [
+      "Strč prst skrz krk",
+      "Tři sta třicet tři stříbrných stříkaček",
+      "Příliš žluťoučký kůň úpěl ďábelské ódy",
+      "Kolo, kolo mlýnský"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these sentences contains not a single vowel? — «Strč prst skrz krk» ('Stick a finger down your throat'): only consonants, r being syllabic. Check the others for vowels."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Největší ostrov světa leží u Severní Ameriky, ale patří k Dánskému království. Který to je?",
+    "options": [
+      "Island",
+      "Grónsko",
+      "Madagaskar",
+      "Borneo"
+    ],
+    "correctIndex": 1,
+    "gloss": "The world's largest island lies by North America but belongs to the Kingdom of Denmark. Which? — Greenland (Australia counts as a continent)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo se v roce 1918 stal prvním prezidentem Československa?",
+    "options": [
+      "Edvard Beneš",
+      "Emil Hácha",
+      "Antonín Zápotocký",
+      "Tomáš Garrigue Masaryk"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who became the first president of Czechoslovakia in 1918? — T. G. Masaryk; the other three were presidents later."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který spisovatel napsal humoristický román Osudy dobrého vojáka Švejka za světové války?",
+    "options": [
+      "Jaroslav Hašek",
+      "Karel Čapek",
+      "Bohumil Hrabal",
+      "Jaroslav Seifert"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer wrote the humorous novel The Good Soldier Švejk? — Jaroslav Hašek; the others are other famous Czech 20th-century writers."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z jakého plynu se skládá většina vzduchu, který dýcháme?",
+    "options": [
+      "Kyslík",
+      "Oxid uhličitý",
+      "Vodík",
+      "Dusík"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which gas makes up most of the air we breathe? — Nitrogen (about 78 %); oxygen, the tempting answer, is only about 21 %."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hmyz má vždy šest nohou. Které z těchto zvířat tedy hmyzem není?",
+    "options": [
+      "Mravenec",
+      "Včela",
+      "Pavouk",
+      "Moucha"
+    ],
+    "correctIndex": 2,
+    "gloss": "Insects always have six legs. Which of these is therefore not an insect? — The spider, which has eight legs."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Čeští hokejisté v roce 1998 senzačně vyhráli olympijský turnaj. Které japonské město hry hostilo?",
+    "options": [
+      "Sapporo",
+      "Nagano",
+      "Tokio",
+      "Kjóto"
+    ],
+    "correctIndex": 1,
+    "gloss": "Czech hockey players sensationally won the 1998 Olympic tournament. Which Japanese city hosted the Games? — Nagano; Sapporo hosted the 1972 Winter Games."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z čeho se vyrábí tofu, oblíbená náhražka masa?",
+    "options": [
+      "Rýže",
+      "Sójové boby",
+      "Hrách",
+      "Čočka"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is tofu, a popular meat substitute, made from? — Soybeans (curdled soy milk)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pacient spolkne první tabletu hned a každou další po třiceti minutách. Kolik minut uplyne, než spolkne třetí?",
+    "options": [
+      "30 minut",
+      "60 minut",
+      "90 minut",
+      "120 minut"
+    ],
+    "correctIndex": 1,
+    "gloss": "A patient takes the first tablet at once and each further one thirty minutes later. How many minutes until the third? — 60: the times are 0, 30, 60; the trap is multiplying 3 × 30."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Která z těchto vět se čte stejně zepředu i zezadu, když nepočítáme mezery?",
+    "options": [
+      "Jelenovi víno nelej",
+      "Jelenovi pivo nalej",
+      "Jelenovi pivo neber",
+      "Jelenovi pivo nelej"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sentence reads the same backwards, ignoring spaces? — «Jelenovi pivo nelej» ('Don't pour beer for the deer'), the best-known Czech palindrome; each other option changes one word and breaks it."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "V Česku se platí mincemi o hodnotě 1, 2, 5, 10, 20 a 50 korun. Kolik nejméně mincí potřebujete na přesnou platbu 87 korun?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "gloss": "Czech coins are worth 1, 2, 5, 10, 20 and 50 crowns. What is the fewest coins needed to pay exactly 87? — 5: 50 + 20 + 10 + 5 + 2. Four coins cannot reach 87 (50 + 37 needs three coins, and 37 takes at least four)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hrom uslyšíte šest sekund po zablesknutí. Jak daleko asi udeřil blesk?",
+    "options": [
+      "Asi 200 metrů",
+      "Asi 2 kilometry",
+      "Asi 6 kilometrů",
+      "Asi 20 kilometrů"
+    ],
+    "correctIndex": 1,
+    "gloss": "You hear thunder six seconds after the flash. About how far was the strike? — About 2 km: sound travels roughly 340 m/s, about 1 km per 3 seconds, while the light is practically instant."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Na dvorku běhají slepice a králíci. Dohromady mají 5 hlav a 14 nohou. Kolik je tam králíků?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "gloss": "Hens and rabbits together have 5 heads and 14 legs. How many rabbits? — 2: with 2 rabbits (8 legs) and 3 hens (6 legs) the legs add up to 14."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Antonín Dvořák napsal Symfonii č. 9 „Z nového světa“ v New Yorku. Jakou funkci tam tehdy zastával?",
+    "options": [
+      "Ředitel konzervatoře",
+      "Dirigent opery",
+      "Varhaník v katedrále",
+      "Kapelník vojenské hudby"
+    ],
+    "correctIndex": 0,
+    "gloss": "Dvořák wrote the 'New World' Symphony in New York. What post did he hold there? — Director of the National Conservatory of Music of America (1892-95)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který český film o violoncellistovi a malém ruském chlapci získal Oscara za nejlepší cizojazyčný film?",
+    "options": [
+      "Kolja",
+      "Obchod na korze",
+      "Ostře sledované vlaky",
+      "Zelary"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Czech film about a cellist and a little Russian boy won the Oscar for best foreign-language film? — Kolya (1996). Two options are other Oscar winners with different plots; Zelary was only nominated."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak se jmenuje věrný zbrojnoš Dona Quijota, který ho doprovází při boji s větrnými mlýny?",
+    "options": [
+      "Doktor Watson",
+      "Sam Gamgee",
+      "Sancho Panza",
+      "Pátek"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is Don Quixote's loyal squire called? — Sancho Panza; the others are other literary sidekicks (Sherlock's Watson, Frodo's Sam, Robinson's Friday)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chobotnice má modrou krev. Kolik srdcí ji pohání?",
+    "options": [
+      "Jedno",
+      "Dvě",
+      "Tři",
+      "Osm"
+    ],
+    "correctIndex": 2,
+    "gloss": "An octopus has blue blood. How many hearts pump it? — Three (two for the gills, one for the body); eight is the tempting number of arms."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který holandský malíř je autorem obrazu Dívka s perlovou náušnicí?",
+    "options": [
+      "Rembrandt van Rijn",
+      "Frans Hals",
+      "Vincent van Gogh",
+      "Jan Vermeer"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Dutch painter made Girl with a Pearl Earring? — Johannes Vermeer; the others are other famous Dutch painters."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ve kterém městě se Vltava vlévá do Labe?",
+    "options": [
+      "Mělník",
+      "Litoměřice",
+      "Kolín",
+      "Ústí nad Labem"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which town does the Vltava flow into the Elbe? — Mělník; the other options are towns on the Elbe itself."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Emil Zátopek vyhrál na olympiádě v Helsinkách v roce 1952 tři zlaté medaile: v běhu na 5000 m, na 10 000 m a v další disciplíně, ve které startoval vůbec poprvé v životě. V jaké?",
+    "options": [
+      "Běh na 800 m",
+      "Běh na 1500 m",
+      "Běh na 3000 m překážek",
+      "Maraton"
+    ],
+    "correctIndex": 3,
+    "gloss": "Zátopek won three golds at Helsinki 1952: 5000 m, 10,000 m and one more event, in which he ran for the first time ever. Which? — The marathon."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na které planetě trvá jedno otočení kolem osy déle než celý oběh kolem Slunce?",
+    "options": [
+      "Merkur",
+      "Mars",
+      "Uran",
+      "Venuše"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which planet does one rotation take longer than a whole orbit of the Sun? — Venus: rotation about 243 Earth days, year about 225 days. Mercury rotates in 59 days, its year is 88."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Která kniha Jana Amose Komenského z roku 1658 patří mezi první obrázkové učebnice pro děti?",
+    "options": [
+      "Orbis pictus",
+      "Didactica magna",
+      "Labyrint světa a ráj srdce",
+      "Janua linguarum reserata"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which book by Comenius of 1658 is among the first illustrated textbooks for children? — Orbis pictus; all four options are real Comenius works."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Které jezero je nejhlubší na světě a obsahuje asi pětinu veškeré sladké vody na zemském povrchu?",
+    "options": [
+      "Tanganika",
+      "Bajkal",
+      "Horní jezero",
+      "Ladoga"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which lake is the world's deepest and holds about a fifth of all surface fresh water? — Baikal (over 1,600 m deep); Tanganyika is the second deepest."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Který z těchto českých měsíců je pojmenován podle stromu?",
+    "options": [
+      "Leden",
+      "Duben",
+      "Srpen",
+      "Říjen"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these Czech month names comes from a tree? — Duben, from dub (oak). Leden from led (ice), srpen from srp (sickle), říjen from říje (the deer rut)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Film Jiřího Menzela Ostře sledované vlaky vznikl podle novely. Kdo ji napsal?",
+    "options": [
+      "Bohumil Hrabal",
+      "Josef Škvorecký",
+      "Milan Kundera",
+      "Ladislav Fuks"
+    ],
+    "correctIndex": 0,
+    "gloss": "Jiří Menzel's film Closely Watched Trains is based on a novella. Who wrote it? — Bohumil Hrabal; the others are other well-known Czech novelists."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který z těchto netvorů dal podle řeckého mýtu zrod okřídlenému koni Pegasovi?",
+    "options": [
+      "Hydra",
+      "Chiméra",
+      "Medúza",
+      "Skylla"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these monsters gave birth to the winged horse Pegasus in Greek myth? — Medusa: Pegasus sprang from her body when Perseus beheaded her. Chimera is the trap: Bellerophon killed it riding Pegasus."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na pomníku stojí letopočet MCMLXIX. Který rok to je?",
+    "options": [
+      "1869",
+      "1959",
+      "1969",
+      "1979"
+    ],
+    "correctIndex": 2,
+    "gloss": "A monument shows the date MCMLXIX. Which year? — 1969: M = 1000, CM = 900, LX = 60, IX = 9."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak se v notách označuje „velmi hlasitě“?",
+    "options": [
+      "Pianissimo",
+      "Crescendo",
+      "Staccato",
+      "Fortissimo"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is 'very loud' called in sheet music? — Fortissimo (ff). Pianissimo is the opposite, crescendo means gradually louder."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kolik různých hodnot může nabýt jeden bajt?",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "1024"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many different values can one byte take? — 256: a byte is 8 bits and each bit has two states, so 2^8."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který z těchto vynálezů je dílem premonstrátského kněze Prokopa Diviše?",
+    "options": [
+      "Bleskosvod",
+      "Lodní šroub",
+      "Cukr v kostkách",
+      "Měkká kontaktní čočka"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these inventions is by the Premonstratensian priest Prokop Diviš? — The lightning rod (1754). The others are other Czech inventions: ship's screw (Ressel), sugar cubes (Rad), soft contact lens (Wichterle)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jaroslav Heyrovský získal roku 1959 Nobelovu cenu za chemii za analytickou metodu, kterou vynalezl. Jak se jmenuje?",
+    "options": [
+      "Chromatografie",
+      "Polarografie",
+      "Elektroforéza",
+      "Spektroskopie"
+    ],
+    "correctIndex": 1,
+    "gloss": "Heyrovský won the 1959 Nobel Prize in Chemistry for an analytical method he invented. Which? — Polarography; the others are other analytical methods."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který kov má ze všech kovů nejmenší hustotu a používá se v dobíjecích bateriích?",
+    "options": [
+      "Hořčík",
+      "Hliník",
+      "Lithium",
+      "Sodík"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which metal has the lowest density of all metals and is used in rechargeable batteries? — Lithium (0.53 g/cm3); sodium, magnesium and aluminium are all denser."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Loď plující z Černého moře do Egejského projde nejprve Bosporem a nakonec Dardanelami. Jaké moře leží mezi těmito dvěma průlivy?",
+    "options": [
+      "Azovské moře",
+      "Jónské moře",
+      "Adriatické moře",
+      "Marmarské moře"
+    ],
+    "correctIndex": 3,
+    "gloss": "A ship from the Black Sea to the Aegean passes the Bosporus, then the Dardanelles. Which sea lies between the two straits? — The Sea of Marmara."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kdo napsal román Jméno růže z roku 1980, který se odehrává v benediktinském klášteře?",
+    "options": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Alberto Moravia",
+      "Primo Levi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the 1980 novel The Name of the Rose, set in a Benedictine abbey? — Umberto Eco; the others are other well-known Italian writers."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Měříme-li hory od úpatí, a to i pod hladinou oceánu, je nejvyšší z nich jedna sopka. Která?",
+    "options": [
+      "Mauna Loa",
+      "Mauna Kea",
+      "Kilimandžáro",
+      "Fudži"
+    ],
+    "correctIndex": 1,
+    "gloss": "Measured from base to summit, including the part under the ocean, which volcano is the tallest mountain? — Mauna Kea (over 10,000 m from the sea floor). Mauna Loa, its neighbour, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Která kost je v lidském těle nejmenší?",
+    "options": [
+      "Kladívko",
+      "Kovadlinka",
+      "Třmínek",
+      "Jazylka"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which is the smallest bone in the human body? — The stapes (třmínek), in the middle ear. The malleus and incus are also ear bones; the hyoid is a larger small bone."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který architekt navrhl kostel Nejsvětějšího Srdce Páně na pražském náměstí Jiřího z Poděbrad?",
+    "options": [
+      "Josef Gočár",
+      "Jan Kotěra",
+      "Adolf Loos",
+      "Josip Plečnik"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the Church of the Most Sacred Heart of Our Lord in Prague's Jiřího z Poděbrad Square? — Josip Plečnik; the others are other architects of Prague's early 20th century."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Rosettská deska nese tentýž dekret třikrát: v hieroglyfech, v démotickém a v řeckém písmu. Které z těchto tří písem uměli vědci číst, takže posloužilo jako klíč k rozluštění ostatních?",
+    "options": [
+      "Démotické písmo",
+      "Hieroglyfické písmo",
+      "Řecké písmo",
+      "Koptské písmo"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Rosetta Stone carries the same decree in hieroglyphs, demotic and Greek. Which of the three could scholars already read, serving as the key? — Greek. Coptic is not on the stone."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Slovo „dolar“ pochází z názvu stříbrné mince tolaru. Od jména kterého českého města se tento název odvozuje?",
+    "options": [
+      "Kutná Hora",
+      "Příbram",
+      "Jihlava",
+      "Jáchymov"
+    ],
+    "correctIndex": 3,
+    "gloss": "The word 'dollar' comes from the name of the silver coin thaler. After which Czech town is that name derived? — Jáchymov (Joachimsthal), where the Joachimsthaler was minted; Kutná Hora is the trap (the Prague groschen)."
+  }
+]

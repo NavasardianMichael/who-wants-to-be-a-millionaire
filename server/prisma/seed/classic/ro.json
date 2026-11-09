@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Potrivit proverbului, ce strică graba?",
+    "options": ["Somnul", "Treaba", "Drumul", "Masa"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, what does haste spoil? — The work: «Graba strică treaba» (haste spoils the work)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cum sunt așezate culorile drapelului României, începând de lângă lance?",
+    "options": ["Roșu, galben, albastru", "Galben, albastru, roșu", "Albastru, roșu, galben", "Albastru, galben, roșu"],
+    "correctIndex": 3,
+    "gloss": "How are the colours of the Romanian flag arranged, starting next to the flagpole? — Blue, yellow, red (vertical stripes)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce planetă din sistemul solar este numită „planeta roșie”, din cauza ruginii de pe sol?",
+    "options": ["Marte", "Venus", "Mercur", "Saturn"],
+    "correctIndex": 0,
+    "gloss": "Which planet is called the \"red planet\" because of the rust on its soil? — Mars: iron oxide dust colours its surface."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un tren electric merge spre nord, cu viteză mare. În ce direcție îi bate fumul?",
+    "options": ["Spre sud", "Spre est", "Spre nord", "În nicio parte"],
+    "correctIndex": 3,
+    "gloss": "An electric train runs north at speed. Which way does its smoke blow? — Nowhere: an electric train makes no smoke (a trap for autopilot)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Care dintre aceste legume te face să lăcrimezi când o tai?",
+    "options": ["Roșia", "Varza", "Ceapa", "Vânăta"],
+    "correctIndex": 2,
+    "gloss": "Which of these vegetables makes you tear up when you cut it? — The onion; every option is feminine so the grammar gives nothing away."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a fost primul om care a pășit pe Lună, în 1969?",
+    "options": ["Iuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+    "correctIndex": 1,
+    "gloss": "Who was the first person to step on the Moon, in 1969? — Neil Armstrong (Aldrin followed; Collins stayed in orbit; Gagarin was the first in space)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a scris poemul „Luceafărul”, în care un astru se îndrăgostește de o fată de împărat?",
+    "options": ["Mihai Eminescu", "George Coșbuc", "Vasile Alecsandri", "Lucian Blaga"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the poem \"Luceafărul\" (The Evening Star), in which a star falls in love with an emperor's daughter? — Mihai Eminescu."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ghicitoare: „Are dinți și nu mușcă, trece prin păr și nu-l tunde.” Ce este?",
+    "options": ["Foarfeca", "Fierăstrăul", "Briciul", "Pieptenele"],
+    "correctIndex": 3,
+    "gloss": "Riddle: \"It has teeth and doesn't bite, goes through hair and doesn't cut it.\" What is it? — The comb; scissors, saw and razor all fail one clue."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Delfinul trăiește în mare, dar de fapt ce fel de animal este?",
+    "options": ["Pește", "Reptilă", "Mamifer", "Moluscă"],
+    "correctIndex": 2,
+    "gloss": "The dolphin lives in the sea, but what kind of animal is it really? — A mammal: it breathes air and nurses its young."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Câte corzi are, de obicei, o vioară?",
+    "options": ["Patru", "Cinci", "Șase", "Opt"],
+    "correctIndex": 0,
+    "gloss": "How many strings does a violin usually have? — Four (G, D, A, E); six is the guitar."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dintre aceste piese de port popular, un singur nume se citește la fel de la stânga la dreapta și de la dreapta la stânga. Care?",
+    "options": ["Brâu", "Opincă", "Cojoc", "Ie"],
+    "correctIndex": 2,
+    "gloss": "Of these folk-costume items, only one name reads the same in both directions. — Cojoc (sheepskin coat), a palindrome: c-o-j-o-c."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cel mai înalt vârf din România se află în Munții Făgăraș. Cum se numește?",
+    "options": ["Omu", "Moldoveanu", "Negoiu", "Peleaga"],
+    "correctIndex": 1,
+    "gloss": "Romania's highest peak is in the Făgăraș Mountains. What is it called? — Moldoveanu (2,544 m); Negoiu is the runner-up, Omu is the Bucegi's top, Peleaga is in Retezat."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aluatul pâinii crește pentru că drojdia, o ciupercă microscopică, produce în el un gaz. Care?",
+    "options": ["Oxigen", "Azot", "Hidrogen", "Dioxid de carbon"],
+    "correctIndex": 3,
+    "gloss": "Bread dough rises because yeast, a microscopic fungus, produces a gas in it. Which? — Carbon dioxide, from fermentation of the sugars."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "În 1922, arheologul Howard Carter a deschis în Valea Regilor un mormânt aproape neatins. Al cărui faraon era?",
+    "options": ["Tutankhamon", "Ramses al II-lea", "Keops", "Akhenaton"],
+    "correctIndex": 0,
+    "gloss": "In 1922 Howard Carter opened a nearly intact tomb in the Valley of the Kings. Whose was it? — Tutankhamun's."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Detectivul din Baker Street 221B a fost născocit de un scriitor care era și medic. Cine este scriitorul?",
+    "options": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "Georges Simenon"],
+    "correctIndex": 1,
+    "gloss": "The detective of 221B Baker Street was invented by a writer who was also a physician. Who? — Arthur Conan Doyle."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "La Montréal, în 1976, tabela electronică a afișat pentru Nadia Comăneci doar „1,00”, pentru că nu fusese făcută să arate nota maximă. Ce notă primise?",
+    "options": ["9,95", "9,90", "9,80", "10,00"],
+    "correctIndex": 3,
+    "gloss": "In Montréal 1976 the scoreboard showed Nadia Comăneci only \"1,00\" because it was not built to show the top mark. What was her score? — A perfect 10,00; the board had no digit for a leading ten."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a pictat „Noapte înstelată”, cu cerul ei învolburat deasupra unui sat adormit?",
+    "options": ["Claude Monet", "Paul Cézanne", "Vincent van Gogh", "Edvard Munch"],
+    "correctIndex": 2,
+    "gloss": "Who painted \"The Starry Night\", with its swirling sky above a sleeping village? — Vincent van Gogh (1889)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "În București, când Soarele urcă cel mai sus pe cer într-o zi, unde îl vezi?",
+    "options": ["Spre sud", "Spre nord", "Spre est", "Chiar deasupra capului"],
+    "correctIndex": 0,
+    "gloss": "In Bucharest, when the Sun is at its highest in the day, where do you see it? — In the south: at 44°N it is never overhead, which happens only between the tropics."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "La nunțile și la sărbătorile satelor românești, jucătorii se prind de mână și se învârt în cerc. Cum se numește acest dans?",
+    "options": ["Sirtaki", "Hora", "Csárdás", "Polca"],
+    "correctIndex": 1,
+    "gloss": "At Romanian village weddings and feasts, dancers hold hands and turn in a circle. What is the dance? — The hora."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "În mitologia greacă, zeul care stăpânește mările poartă în mână un trident. Cum îl cheamă?",
+    "options": ["Hades", "Zeus", "Hefaistos", "Poseidon"],
+    "correctIndex": 3,
+    "gloss": "In Greek mythology the god of the seas carries a trident. His name? — Poseidon; Hades and Zeus are his brothers."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "„Septembrie”, „octombrie”, „noiembrie” și „decembrie” poartă în nume numerele latine 7, 8, 9 și 10, deși azi sunt a noua, a zecea, a unsprezecea și a douăsprezecea lună. Cu ce lună începea anul în cel mai vechi calendar roman?",
+    "options": ["Martie", "Ianuarie", "Iunie", "Decembrie"],
+    "correctIndex": 0,
+    "gloss": "Sept., Oct., Nov., Dec. carry Latin 7, 8, 9, 10 yet are now months 9–12. Which month began the old Roman year? — March: if September was the 7th, the count started six months earlier."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un melc urcă pe un stâlp înalt de 7 metri: ziua se cațără 2 metri, iar noaptea alunecă 1 metru. În a câta zi ajunge în vârf?",
+    "options": ["A cincea", "A șasea", "A șaptea", "A opta"],
+    "correctIndex": 1,
+    "gloss": "A snail climbs a 7 m pole: 2 m by day, slips 1 m by night. On which day does it reach the top? — The sixth: after 5 nights it sits at 5 m, and on day 6 it climbs the last 2 m before it can slip."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Un vechi cântec spune că cine bea apă din ea nu se mai duce din București. Ce râu este?",
+    "options": ["Argeș", "Ialomița", "Dâmbovița", "Prahova"],
+    "correctIndex": 2,
+    "gloss": "An old song says whoever drinks its water never leaves Bucharest. Which river? — The Dâmbovița (\"Dâmbovița, apă dulce, cine bea nu se mai duce\")."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "În 1859, Moldova și Țara Românească au ales același domnitor, pregătind unirea lor. Cine a fost el?",
+    "options": ["Barbu Știrbei", "Carol I", "Mihai Viteazul", "Alexandru Ioan Cuza"],
+    "correctIndex": 3,
+    "gloss": "In 1859 Moldavia and Wallachia elected the same prince, preparing their union. Who? — Alexandru Ioan Cuza; Carol I came in 1866."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ilie Moromete, țăranul din Siliștea-Gumești, e eroul unui roman celebru. Cine l-a scris?",
+    "options": ["Liviu Rebreanu", "Camil Petrescu", "Marin Preda", "Mihail Sadoveanu"],
+    "correctIndex": 2,
+    "gloss": "Ilie Moromete, the peasant from Siliștea-Gumești, is the hero of a famous novel. Who wrote it? — Marin Preda (\"Moromeții\")."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lipsa insulinei duce la diabet. Ce organ din corp o produce?",
+    "options": ["Pancreasul", "Ficatul", "Rinichiul", "Splina"],
+    "correctIndex": 0,
+    "gloss": "A lack of insulin leads to diabetes. Which organ makes it? — The pancreas."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Câte inimi bat în trupul unei caracatițe?",
+    "options": ["Una", "Două", "Trei", "Opt"],
+    "correctIndex": 2,
+    "gloss": "How many hearts beat in an octopus's body? — Three: two for the gills and one for the rest of the body; eight is the arms."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Același regizor a făcut „Titanic” (1997) și „Avatar”. Cum îl cheamă?",
+    "options": ["James Cameron", "Ridley Scott", "Steven Spielberg", "Christopher Nolan"],
+    "correctIndex": 0,
+    "gloss": "The same director made \"Titanic\" (1997) and \"Avatar\". Who? — James Cameron."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dacă scrii cifrele romane I, V, X, L, C, D și M, fiecare o singură dată, care este cel mai mare număr pe care îl poți forma?",
+    "options": ["1066", "1556", "1666", "1766"],
+    "correctIndex": 2,
+    "gloss": "Using the Roman numerals I, V, X, L, C, D, M once each, what is the largest number you can form? — 1666 (MDCLXVI): the sum of all values, written largest first, since subtracting only lowers the total."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Când la București e ora 15:00, ce oră este în același moment la Londra?",
+    "options": ["13:00", "14:00", "16:00", "17:00"],
+    "correctIndex": 0,
+    "gloss": "When it is 15:00 in Bucharest, what time is it in London? — 13:00: Romania is two hours ahead of the UK all year, since both change clocks on the same dates."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Într-un pahar umplut până la margine plutește un cub de gheață. Ce se întâmplă cu apa din pahar când gheața se topește complet?",
+    "options": ["Se revarsă peste margine", "Nivelul scade sub margine", "Mai întâi crește, apoi scade", "Rămâne la același nivel"],
+    "correctIndex": 3,
+    "gloss": "A floating ice cube in a glass filled to the brim: what happens when it melts? — The level stays the same: the ice displaced exactly its own weight of water, which is the volume it melts into (Archimedes)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Româna a moștenit din latină cuvintele de bază, dar a primit mult și din limbile slave. Care dintre aceste cuvinte vine din slavă, nu din latină?",
+    "options": ["Apă", "Pâine", "Dragoste", "Frate"],
+    "correctIndex": 2,
+    "gloss": "Romanian inherited basic words from Latin but took many from Slavic. Which of these is Slavic? — Dragoste (love, from Slavic drag); apă < aqua, pâine < panem, frate < frater."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "George Enescu, mare violonist și compozitor, a scris o singură operă, prezentată la Paris în 1936. Cum se numește?",
+    "options": ["Orfeu", "Oedip", "Medeea", "Alceste"],
+    "correctIndex": 1,
+    "gloss": "Enescu wrote a single opera, premiered in Paris in 1936. Its name? — Oedipe (Oedip)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ce număr din sistemul zecimal reprezintă 1101 scris în binar, cum scriu calculatoarele?",
+    "options": ["11", "13", "14", "15"],
+    "correctIndex": 1,
+    "gloss": "What decimal number is 1101 written in binary? — 13 (8 + 4 + 0 + 1)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Care lac este cel mai adânc din lume, cu peste 1.600 de metri, și ține aproape o cincime din apa dulce de la suprafața Pământului?",
+    "options": ["Tanganica", "Baikal", "Victoria", "Superior"],
+    "correctIndex": 1,
+    "gloss": "Which lake is the deepest in the world, over 1,600 m, and holds nearly a fifth of the planet's surface fresh water? — Baikal (1,642 m); Tanganyika is the runner-up."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a mutat în anul 330 capitala Imperiului Roman la Bizanț, oraș ce avea să-i poarte numele?",
+    "options": ["Traian", "Dioclețian", "Iustinian", "Constantin cel Mare"],
+    "correctIndex": 3,
+    "gloss": "Who moved the Roman Empire's capital to Byzantium in 330, a city that would bear his name? — Constantine the Great (Constantinople)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a publicat în 1916 volumul de versuri „Plumb”, cu orașe cenușii și toamne ploioase?",
+    "options": ["Tudor Arghezi", "Lucian Blaga", "Ion Barbu", "George Bacovia"],
+    "correctIndex": 3,
+    "gloss": "Who published the 1916 verse collection \"Plumb\", with grey towns and rainy autumns? — George Bacovia."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mirodenia făcută din trei firișoare roșii, culese cu mâna din fiecare floare violetă de toamnă, e cea mai scumpă din lume. Care este?",
+    "options": ["Vanilie", "Cardamom", "Șofran", "Scorțișoară"],
+    "correctIndex": 2,
+    "gloss": "The spice made from three red threads hand-picked from each purple autumn flower is the world's most expensive. Which? — Saffron (stigmas of Crocus sativus)."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un avion decolează din București la ora 8:00, într-o zi de iulie, și zboară zece ore până la New York. Ce oră locală arată ceasurile din New York la aterizare?",
+    "options": ["01:00", "04:00", "11:00", "18:00"],
+    "correctIndex": 2,
+    "gloss": "A plane leaves Bucharest at 8:00 on a July day and flies ten hours to New York. What is the local time on landing? — 11:00: it is 18:00 in Bucharest, and New York is seven hours behind."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Câte dintre țările învecinate cu România au țărm la Marea Neagră?",
+    "options": ["Una", "Două", "Trei", "Patru"],
+    "correctIndex": 1,
+    "gloss": "How many of Romania's neighbours have a Black Sea coast? — Two: Bulgaria and Ukraine (the others are Moldova, Hungary and Serbia)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Un om de știință născut la Iași a primit în 1974 Premiul Nobel pentru Medicină, pentru descoperiri despre structura celulei. Cine este?",
+    "options": ["George Emil Palade", "Nicolae Paulescu", "Victor Babeș", "Ion Cantacuzino"],
+    "correctIndex": 0,
+    "gloss": "A scientist born in Iași won the 1974 Nobel Prize in Medicine for discoveries on the structure of the cell. Who? — George Emil Palade; Paulescu (insulin) never won a Nobel."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ilie Năstase a câștigat două turnee de Grand Slam, în 1972 și în 1973. Pe care dintre ele l-a luat în 1972?",
+    "options": ["Roland Garros", "Wimbledon", "US Open", "Australian Open"],
+    "correctIndex": 2,
+    "gloss": "Ilie Năstase won two Grand Slams, in 1972 and 1973. Which did he win in 1972? — The US Open (Roland Garros followed in 1973)."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Care regizor român a primit Palme d'Or la Cannes, în 2007, pentru „4 luni, 3 săptămâni și 2 zile”?",
+    "options": ["Cristian Mungiu", "Cristi Puiu", "Corneliu Porumboiu", "Radu Jude"],
+    "correctIndex": 0,
+    "gloss": "Which Romanian director won the Palme d'Or at Cannes in 2007 for \"4 Months, 3 Weeks and 2 Days\"? — Cristian Mungiu."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Când România a adoptat calendarul gregorian, în 1919, calendarul a „sărit” peste câteva zile. Câte?",
+    "options": ["10", "11", "12", "13"],
+    "correctIndex": 3,
+    "gloss": "When Romania adopted the Gregorian calendar in 1919, the calendar skipped some days. How many? — 13: the gap between Julian and Gregorian had grown to 13 days by the 20th century (1 April became 14 April)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Care arhitect a proiectat Opera din Sydney, celebră pentru acoperișul ei ca niște vele?",
+    "options": ["Frank Gehry", "Jørn Utzon", "Norman Foster", "Renzo Piano"],
+    "correctIndex": 1,
+    "gloss": "Which architect designed the Sydney Opera House, famed for its sail-like roof? — Jørn Utzon."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Care dintre acești scriitori a lăsat în urmă romanul „Procesul”, publicat abia după moartea sa?",
+    "options": ["Robert Musil", "Thomas Mann", "Hermann Hesse", "Franz Kafka"],
+    "correctIndex": 3,
+    "gloss": "Which of these writers left behind the novel \"The Trial\", published only after his death? — Franz Kafka (died 1924, published 1925)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cea mai mare lună din sistemul solar este chiar mai mare decât planeta Mercur. Cum se numește?",
+    "options": ["Ganimede", "Titan", "Callisto", "Europa"],
+    "correctIndex": 0,
+    "gloss": "The largest moon in the solar system is even bigger than Mercury. Which? — Ganymede (Jupiter); Titan is second."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un pian clasic are 88 de clape. Câte dintre ele sunt negre?",
+    "options": ["32", "36", "40", "44"],
+    "correctIndex": 1,
+    "gloss": "A standard piano has 88 keys. How many are black? — 36 (52 white): five black keys in each of seven octaves, plus one in the partial octave at the bottom."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cleopatra, ultima regină a Egiptului faraonic, a trăit mai aproape în timp de ridicarea Marii Piramide din Giza sau de primii pași ai omului pe Lună?",
+    "options": ["De aselenizarea din 1969", "De construirea Marii Piramide", "La fel de aproape de ambele", "Nu se poate spune"],
+    "correctIndex": 0,
+    "gloss": "Was Cleopatra, the last queen of pharaonic Egypt, closer in time to the building of the Great Pyramid or to the 1969 Moon landing? — The Moon landing: the pyramid dates from c. 2560 BC (about 2,500 years before her), the landing is about 2,000 years after."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "În mitologia nordică, un frasin uriaș leagă între ele cele nouă lumi. Cum se numește?",
+    "options": ["Bifröst", "Valhalla", "Yggdrasil", "Asgard"],
+    "correctIndex": 2,
+    "gloss": "In Norse mythology a giant ash tree links the nine worlds. Its name? — Yggdrasil; Bifröst is the rainbow bridge, Valhalla a hall, Asgard a realm."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποια λέξη συμπληρώνει την παροιμία «Τα πολλά λόγια …»;",
+    "options": [
+      "Ασήμι",
+      "Σοφία",
+      "Φτώχεια",
+      "Χρυσάφι"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word completes the proverb \"Too many words …\"? — Poverty: «Τα πολλά λόγια φτώχεια»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Τι χρώμα έχουν παραδοσιακά τα αυγά που τσουγκρίζουν οι Έλληνες το Πάσχα;",
+    "options": [
+      "Μπλε",
+      "Κίτρινο",
+      "Πράσινο",
+      "Κόκκινο"
+    ],
+    "correctIndex": 3,
+    "gloss": "What colour are the eggs Greeks traditionally crack together at Easter? — Red, the colour of the Easter eggs."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Η παράδοση θέλει έναν τυφλό ποιητή να έχει συνθέσει την Ιλιάδα και την Οδύσσεια. Ποιον;",
+    "options": [
+      "Ησίοδο",
+      "Όμηρο",
+      "Πίνδαρο",
+      "Σοφοκλή"
+    ],
+    "correctIndex": 1,
+    "gloss": "Tradition says a blind poet composed the Iliad and the Odyssey. Whom? — Homer; Hesiod, Pindar and Sophocles are other ancient authors."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος θεός της αρχαιότητας, αδελφός του Δία, κυβερνούσε τις θάλασσες κρατώντας τρίαινα;",
+    "options": [
+      "Ποσειδώνας",
+      "Άδης",
+      "Ήφαιστος",
+      "Άρης"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ancient god, brother of Zeus, ruled the seas holding a trident? — Poseidon (Hades is also a brother of Zeus, but rules the underworld)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο ζώο ονομάζουμε «το πλοίο της ερήμου»;",
+    "options": [
+      "Ελέφαντας",
+      "Λάμα",
+      "Άλογο",
+      "Καμήλα"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal do we call \"the ship of the desert\"? — The camel, which crosses sand and goes long without water."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος πλανήτης του Ηλιακού Συστήματος ονομάζεται «ο κόκκινος πλανήτης»;",
+    "options": [
+      "Άρης",
+      "Αφροδίτη",
+      "Ερμής",
+      "Δίας"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which planet is called \"the red planet\"? — Mars, red from iron oxide on its surface."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Τι ζυγίζει περισσότερο: ένα κιλό βαμβάκι ή ένα κιλό ελιές;",
+    "options": [
+      "Το βαμβάκι",
+      "Οι ελιές",
+      "Ζυγίζουν το ίδιο",
+      "Δεν μπορεί να καθοριστεί"
+    ],
+    "correctIndex": 2,
+    "gloss": "What weighs more: a kilo of cotton or a kilo of olives? — The same: both are a kilo; cotton only looks bigger. Autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Αγοράζεις δύο σουβλάκια των 3,50 € το ένα και δίνεις 10 €. Πόσα ρέστα παίρνεις;",
+    "options": [
+      "2,50 €",
+      "3 €",
+      "3,50 €",
+      "6,50 €"
+    ],
+    "correctIndex": 1,
+    "gloss": "You buy two souvlaki at 3.50 € each and pay 10 €. How much change? — 3 €: 2 × 3.50 = 7, and 10 − 7 = 3."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Σε ποιο φρούτο έχει φτιάξει το σπίτι του ο Μπομπ Σφουγγαράκης στον βυθό της θάλασσας;",
+    "options": [
+      "Σε ένα καρπούζι",
+      "Σε έναν ανανά",
+      "Σε ένα πορτοκάλι",
+      "Σε μια μπανάνα"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which fruit has SpongeBob made his home on the seabed? — A pineapple."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Οι Ολυμπιακοί Αγώνες γεννήθηκαν σε έναν ιερό τόπο αφιερωμένο στον Δία. Ποιος ήταν αυτός;",
+    "options": [
+      "Δελφοί",
+      "Δωδώνη",
+      "Νεμέα",
+      "Ολυμπία"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Olympic Games were born at a sacred site dedicated to Zeus. Which? — Olympia; Delphi, Dodona (Zeus's oracle) and Nemea (other games) are traps."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος φιλόσοφος δίδαξε τον νεαρό Μέγα Αλέξανδρο;",
+    "options": [
+      "Πλάτωνας",
+      "Σωκράτης",
+      "Διογένης",
+      "Αριστοτέλης"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which philosopher taught the young Alexander the Great? — Aristotle (Plato taught Aristotle; Diogenes only met Alexander)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Σύμφωνα με τον μύθο, οι δώδεκα θεοί της αρχαίας Ελλάδας κατοικούσαν στην κορυφή του ψηλότερου βουνού της χώρας. Ποιο είναι αυτό;",
+    "options": [
+      "Παρνασσός",
+      "Όλυμπος",
+      "Ταΰγετος",
+      "Πήλιο"
+    ],
+    "correctIndex": 1,
+    "gloss": "The twelve gods lived on the highest mountain in Greece. Which? — Olympus (2,917 m)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο πουλί, σύμβολο της σοφίας και της Αθηνάς, κοσμεί το ελληνικό κέρμα του 1 ευρώ;",
+    "options": [
+      "Αετός",
+      "Περιστέρι",
+      "Κουκουβάγια",
+      "Πελαργός"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird, symbol of wisdom and Athena, is on the Greek 1 euro coin? — The owl, from the ancient Athenian tetradrachm."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Ιταλός συνθέτης έγραψε τις «Τέσσερις Εποχές», τέσσερα κοντσέρτα για βιολί;",
+    "options": [
+      "Βέρντι",
+      "Ροσίνι",
+      "Βιβάλντι",
+      "Πουτσίνι"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Italian composer wrote \"The Four Seasons\", four violin concertos? — Vivaldi; the others are opera composers."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ποιος αριθμός συνεχίζει τη σειρά 1, 4, 9, 16, …;",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number continues 1, 4, 9, 16, …? — 25: the squares 1², 2², 3², 4², 5²."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Το αμερικανικό διαστημικό πρόγραμμα «Απόλλων» πήρε το όνομά του από έναν ελληνικό θεό. Ποιος άνθρωπος πάτησε πρώτος στη Σελήνη, το 1969;",
+    "options": [
+      "Μπαζ Όλντριν",
+      "Γιούρι Γκαγκάριν",
+      "Νιλ Άρμστρονγκ",
+      "Άλαν Σέπαρντ"
+    ],
+    "correctIndex": 2,
+    "gloss": "The US programme \"Apollo\" is named after a Greek god. Who first stepped on the Moon in 1969? — Neil Armstrong (Gagarin was first in space, Aldrin second on the Moon)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο ελληνικό ποτό, με άρωμα γλυκάνισου, θολώνει και γίνεται άσπρο όταν προσθέσουμε νερό;",
+    "options": [
+      "Ούζο",
+      "Ρετσίνα",
+      "Τσικουδιά",
+      "Κονιάκ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Greek drink with an aniseed aroma turns cloudy white when water is added? — Ouzo."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Οι θερινοί Ολυμπιακοί Αγώνες γίνονται κάθε τέσσερα χρόνια και το 2004 έγιναν στην Αθήνα. Σε ποια από τις παρακάτω χρονιές δεν προγραμματίστηκαν θερινοί Αγώνες;",
+    "options": [
+      "2008",
+      "2012",
+      "2016",
+      "2018"
+    ],
+    "correctIndex": 3,
+    "gloss": "Summer Games are every four years, Athens 2004. In which year were none scheduled? — 2018; the pattern gives 2008, 2012, 2016, 2020."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Το «μικρόβιο» προέρχεται από τις λέξεις «μικρός» και «βίος», δηλαδή ζωή. Με την ίδια λογική, τι σημαίνει ο «μακρόβιος» άνθρωπος;",
+    "options": [
+      "Αυτός που ζει μόνος του",
+      "Αυτός που ζει πολλά χρόνια",
+      "Αυτός που ζει στο εξωτερικό",
+      "Αυτός που ζει πολυτελώς"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Microbe\" comes from \"small\" + \"life\". By the same logic, what is a \"makróvios\" person? — One who lives many years (long + life)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Οι αράχνες δεν ανήκουν στα έντομα, που έχουν έξι πόδια. Πόσα πόδια έχουν οι αράχνες;",
+    "options": [
+      "Έξι",
+      "Δέκα",
+      "Τέσσερα",
+      "Οκτώ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Spiders are not insects, which have six legs. How many legs do spiders have? — Eight."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ένας φραπές και μια τσίχλα κοστίζουν μαζί 2,40 €. Ο φραπές κοστίζει 2 € περισσότερο από την τσίχλα. Πόσο κοστίζει η τσίχλα;",
+    "options": [
+      "0,10 €",
+      "0,20 €",
+      "0,30 €",
+      "0,40 €"
+    ],
+    "correctIndex": 1,
+    "gloss": "A frappé and a gum cost 2.40 € together; the frappé costs 2 € more than the gum. Gum price? — 0.20 €: 0.20 + 2.20 = 2.40. Autopilot says 0.40."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ο «μονόλογος» είναι ο λόγος ενός προσώπου. Ο «διάλογος» όμως δεν σημαίνει «λόγος δύο προσώπων», αφού μπορούν να συμμετέχουν και τρεις ή περισσότεροι. Τι δηλώνει το «δια-» στη λέξη;",
+    "options": [
+      "Μεταξύ",
+      "Δύο",
+      "Ξανά",
+      "Αντί"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Monologue\" is one speaker; \"dialogue\" does not mean \"two speakers\". What does \"dia-\" mean? — Between/through: the speech passes between the speakers."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια επιστήμονας κέρδισε Νόμπελ και στη Φυσική και στη Χημεία;",
+    "options": [
+      "Μαρία Κιουρί",
+      "Ντόροθι Χότζκιν",
+      "Ιρέν Ζολιό-Κιουρί",
+      "Λίζε Μάιτνερ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which woman scientist won a Nobel in both Physics and Chemistry? — Marie Curie (1903, 1911); her daughter Irène won only Chemistry, Hodgkin only Chemistry."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Οι αρχαίοι Έλληνες αποκαλούσαν «Στήλες του Ηρακλή» τα βράχια στην έξοδο της Μεσογείου προς τον Ατλαντικό. Ποιο στενό ανοίγεται ανάμεσά τους;",
+    "options": [
+      "Στενό του Βοσπόρου",
+      "Στενό των Δαρδανελίων",
+      "Στενό της Μεσσήνης",
+      "Στενό του Γιβραλτάρ"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Greeks called the rocks at the Mediterranean's exit the Pillars of Heracles. Which strait lies between them? — Gibraltar."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο αέριο αποτελεί σχεδόν τα τέσσερα πέμπτα της ατμόσφαιρας της Γης;",
+    "options": [
+      "Άζωτο",
+      "Οξυγόνο",
+      "Υδρογόνο",
+      "Διοξείδιο του άνθρακα"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas makes up almost four fifths of Earth's atmosphere? — Nitrogen (about 78%); oxygen is only about 21%."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Οι υπολογιστές γράφουν τους αριθμούς μόνο με 0 και 1: το 1 είναι ένα, το 10 είναι δύο, το 11 είναι τρία και το 100 είναι τέσσερα. Ποιος αριθμός είναι το 110;",
+    "options": [
+      "Πέντε",
+      "Έξι",
+      "Επτά",
+      "Δέκα"
+    ],
+    "correctIndex": 1,
+    "gloss": "Computers write numbers with 0 and 1: 1=one, 10=two, 11=three, 100=four. What is 110? — Six: 101 is five, 110 is six (binary, from the pattern)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Όταν ο Πολύφημος ρώτησε το όνομά του, ο Οδυσσέας απάντησε με ένα πονηρό όνομα και έτσι οι άλλοι Κύκλωπες δεν έτρεξαν να τον βοηθήσουν. Ποιο ήταν;",
+    "options": [
+      "Ξένος",
+      "Ναυαγός",
+      "Κανένας",
+      "Ταξιδιώτης"
+    ],
+    "correctIndex": 2,
+    "gloss": "Asked his name by Polyphemus, Odysseus gave a clever name so the other Cyclopes did not help. Which? — \"Nobody\": \"Nobody is blinding me!\""
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος σκηνοθέτης, ο «μετρ του σασπένς», υπογράφει τα «Ψυχώ» και τα «Πουλιά»;",
+    "options": [
+      "Στάνλεϊ Κιούμπρικ",
+      "Άλφρεντ Χίτσκοκ",
+      "Μάρτιν Σκορσέζε",
+      "Στίβεν Σπίλμπεργκ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which director, \"the master of suspense\", made Psycho and The Birds? — Alfred Hitchcock."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Η ελληνική ονομασία ενός μεγάλου αφρικανικού ζώου σημαίνει κατά λέξη «ποτάμιο άλογο». Ποιο είναι αυτό;",
+    "options": [
+      "Ρινόκερος",
+      "Ιπποπόταμος",
+      "Κροκόδειλος",
+      "Ζέβρα"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Greek name of a big African animal literally means \"river horse\". Which? — The hippopotamus (hippos + potamos); rhinoceros means \"nose-horn\"."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Η μαστίχα, η αρωματική ρητίνη του σχίνου, φέρει σήμα προστατευόμενης ονομασίας προέλευσης από ένα νησί του Αιγαίου. Ποιο;",
+    "options": [
+      "Νάξος",
+      "Λέσβος",
+      "Χίος",
+      "Σάμος"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mastic, the aromatic resin of the lentisk tree, has a protected designation from an Aegean island. Which? — Chios (the mastic villages in the south)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ο Περικλής ανέθεσε σε έναν μεγάλο γλύπτη την επίβλεψη των έργων στην Ακρόπολη. Ποιον;",
+    "options": [
+      "Πραξιτέλη",
+      "Μύρωνα",
+      "Σκόπα",
+      "Φειδία"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pericles entrusted the supervision of the Acropolis works to a great sculptor. Whom? — Pheidias (per Plutarch); Praxiteles, Myron and Scopas are other famous sculptors."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Το 1895 ένας φυσικός ανακάλυψε μια άγνωστη ακτινοβολία και, επειδή δεν ήξερε τι ήταν, της έδωσε το όνομα του αγνώστου των μαθηματικών. Ποιος;",
+    "options": [
+      "Βίλχελμ Ρέντγκεν",
+      "Ανρί Μπεκερέλ",
+      "Έρνεστ Ράδερφορντ",
+      "Τζ. Τζ. Τόμσον"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 1895 a physicist found an unknown radiation and named it after the maths unknown \"X\". Who? — Wilhelm Röntgen (Becquerel found radioactivity in 1896)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Στην πόλη Μακόντο ζει η οικογένεια Μπουεντία, στο μυθιστόρημα «Εκατό χρόνια μοναξιά». Ποιος το έγραψε;",
+    "options": [
+      "Χόρχε Λουίς Μπόρχες",
+      "Γκαμπριέλ Γκαρσία Μάρκες",
+      "Μάριο Βάργκας Γιόσα",
+      "Ιζαμπέλ Αλιέντε"
+    ],
+    "correctIndex": 1,
+    "gloss": "Macondo is home of the Buendía family in \"One Hundred Years of Solitude\". Who wrote it? — Gabriel García Márquez."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Μετά την Κρήτη, ποιο είναι το μεγαλύτερο νησί της Ελλάδας;",
+    "options": [
+      "Εύβοια",
+      "Λέσβος",
+      "Ρόδος",
+      "Χίος"
+    ],
+    "correctIndex": 0,
+    "gloss": "After Crete, which is the largest island of Greece? — Euboea (about 3,650 km²), ahead of Lesbos, Rhodes and Chios."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Αν ο Ήλιος έσβηνε ξαφνικά, σε πόσο χρόνο περίπου θα το καταλαβαίναμε στη Γη, βλέποντας τον ουρανό να σκοτεινιάζει;",
+    "options": [
+      "Αμέσως",
+      "Σε περίπου 8 δευτερόλεπτα",
+      "Σε περίπου 8 λεπτά",
+      "Σε περίπου 8 ώρες"
+    ],
+    "correctIndex": 2,
+    "gloss": "If the Sun suddenly went out, how long until we noticed on Earth? — About 8 minutes: sunlight takes about 8 minutes 20 seconds to reach us, and nothing travels faster."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Στο αγροτικό ημερολόγιο, ο μήνας που αλώνιζαν τα σιτάρια στα αλώνια πήρε το όνομά του από αυτή τη δουλειά: ο «Αλωνάρης». Ποιος μήνας είναι;",
+    "options": [
+      "Μάιος",
+      "Ιούνιος",
+      "Ιούλιος",
+      "Σεπτέμβριος"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the rural calendar the month of threshing grain on the threshing floors (alóni) is \"Alonáris\". Which month? — July; June is the reaper (Theristís)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος Έλληνας συνθέτης κέρδισε Όσκαρ για το τραγούδι «Τα παιδιά του Πειραιά» από την ταινία «Ποτέ την Κυριακή»;",
+    "options": [
+      "Μάνος Χατζιδάκις",
+      "Μίκης Θεοδωράκης",
+      "Βασίλης Τσιτσάνης",
+      "Σταύρος Ξαρχάκος"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Greek composer won an Oscar for the song \"Children of Piraeus\" from \"Never on Sunday\"? — Manos Hadjidakis (1961)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ο πρώτος σύγχρονος μαραθώνιος του 1896 ήταν περίπου 40 χιλιόμετρα. Η σημερινή απόσταση των 42,195 χιλιομέτρων προέκυψε από τη διαδρομή του μαραθωνίου των Αγώνων ποιας πόλης;",
+    "options": [
+      "Παρίσι",
+      "Σεντ Λούις",
+      "Στοκχόλμη",
+      "Λονδίνο"
+    ],
+    "correctIndex": 3,
+    "gloss": "The first modern marathon (1896) was about 40 km. The present 42.195 km comes from the marathon of the Games of which city? — London 1908."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Μέσα στον χειμώνα, όταν στην Αθήνα η ώρα είναι 15:00, τι ώρα δείχνουν τα ρολόγια στη Νέα Υόρκη;",
+    "options": [
+      "07:00",
+      "08:00",
+      "09:00",
+      "10:00"
+    ],
+    "correctIndex": 1,
+    "gloss": "In winter, when it is 15:00 in Athens, what time is it in New York? — 08:00: Athens is UTC+2, New York UTC−5, a 7-hour gap."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Μια σκάλα μήκους 10 μέτρων ακουμπά σε έναν κατακόρυφο τοίχο και η βάση της απέχει 6 μέτρα από αυτόν. Σε ποιο ύψος φτάνει η κορυφή της;",
+    "options": [
+      "4 μέτρα",
+      "7 μέτρα",
+      "8 μέτρα",
+      "16 μέτρα"
+    ],
+    "correctIndex": 2,
+    "gloss": "A 10 m ladder leans on a wall, its foot 6 m away. How high does it reach? — 8 m, by the Pythagorean theorem (6² + 8² = 10²); 4 is the autopilot trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος αρχαίος Έλληνας αστρονόμος πρότεινε πρώτος ότι η Γη κινείται γύρω από τον Ήλιο, πάνω από 1.800 χρόνια πριν από τον Κοπέρνικο;",
+    "options": [
+      "Εύδοξος",
+      "Αρίσταρχος",
+      "Ίππαρχος",
+      "Ερατοσθένης"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ancient Greek astronomer first proposed that the Earth moves around the Sun, over 1,800 years before Copernicus? — Aristarchus of Samos (c. 270 BC)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Το 1952 ένας αρχιτέκτονας, ερασιτέχνης ερευνητής, αποκρυπτογράφησε τη Γραμμική Β και έδειξε ότι γράφει την αρχαιότερη γνωστή μορφή της ελληνικής γλώσσας. Ποιος ήταν;",
+    "options": [
+      "Άρθουρ Έβανς",
+      "Μάικλ Βέντρις",
+      "Χάινριχ Σλήμαν",
+      "Κάρλ Μπλέγκεν"
+    ],
+    "correctIndex": 1,
+    "gloss": "In 1952 an architect and amateur researcher deciphered Linear B, the oldest known form of Greek. Who? — Michael Ventris (Evans found Knossos, Schliemann Mycenae, Blegen Pylos)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Στην αρχαία Αθήνα η λέξη «ιδιώτης» δεν ήταν βρισιά, αν και από αυτήν προήλθε η αγγλική «idiot». Τι σήμαινε αρχικά;",
+    "options": [
+      "Ο ξένος που δεν ήξερε ελληνικά",
+      "Ο φτωχός πολίτης χωρίς περιουσία",
+      "Ο απλός πολίτης, χωρίς δημόσιο αξίωμα",
+      "Ο πολίτης που ζούσε στην ύπαιθρο"
+    ],
+    "correctIndex": 2,
+    "gloss": "In ancient Athens \"idiótis\" was no insult although English \"idiot\" comes from it. Original meaning? — A private person with no public office (idios = one's own)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Σε ποιον πλανήτη μια περιστροφή γύρω από τον άξονά του διαρκεί περισσότερο από μια περιφορά του γύρω από τον Ήλιο;",
+    "options": [
+      "Ερμής",
+      "Αφροδίτη",
+      "Άρης",
+      "Ουρανός"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which planet does one rotation on its axis last longer than one orbit of the Sun? — Venus: 243 Earth days to rotate, about 225 to orbit."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια θάλασσα του πλανήτη δεν έχει καμία ακτή, γιατί τα όριά της ορίζονται μόνο από ωκεάνια ρεύματα;",
+    "options": [
+      "Θάλασσα των Σαργασσών",
+      "Μαύρη Θάλασσα",
+      "Βαλτική Θάλασσα",
+      "Ιόνιο Πέλαγος"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sea has no coast, its limits set only by ocean currents? — The Sargasso Sea, in the North Atlantic."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Πόσες διαφορετικές κινήσεις έχει στη διάθεσή του το λευκό στην πρώτη κίνηση ενός παιχνιδιού σκάκι;",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "32"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many different moves does White have on the first move of a chess game? — 20: 16 pawn moves (8 pawns × 1 or 2 squares) plus 4 knight moves."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ένα κανονικό πιάνο έχει 52 άσπρα πλήκτρα. Πόσα είναι τα μαύρα;",
+    "options": [
+      "28",
+      "32",
+      "36",
+      "40"
+    ],
+    "correctIndex": 2,
+    "gloss": "A standard piano has 52 white keys. How many black keys? — 36: the standard piano has 88 keys, 88 − 52 = 36."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος αρχιτέκτονας σχεδίασε το Μουσείο Γκούγκενχαϊμ του Μπιλμπάο, με την επένδυση από τιτάνιο;",
+    "options": [
+      "Φρανκ Λόιντ Ράιτ",
+      "Ζάχα Χαντίντ",
+      "Νόρμαν Φόστερ",
+      "Φρανκ Γκέρι"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the Guggenheim Museum in Bilbao, clad in titanium? — Frank Gehry (Wright designed the New York Guggenheim)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια Βρετανίδα μαθηματικός, κόρη ενός διάσημου ποιητή, θεωρείται η πρώτη προγραμματίστρια, επειδή έγραψε αλγόριθμο για την Αναλυτική Μηχανή του Μπάμπατζ;",
+    "options": [
+      "Άντα Λάβλεϊς",
+      "Γκρέις Χόπερ",
+      "Χεντί Λαμάρ",
+      "Μάργκαρετ Χάμιλτον"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which British mathematician, daughter of a famous poet, is called the first programmer for her algorithm for Babbage's Analytical Engine? — Ada Lovelace (daughter of Lord Byron)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ποιο από αυτά τα αλογόνα πήρε το όνομά του από την ελληνική λέξη για το πράσινο χρώμα;",
+    "options": [
+      "Φθόριο",
+      "Βρώμιο",
+      "Χλώριο",
+      "Ιώδιο"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these halogens is named from the Greek word for green? — Chlorine (chlōrós); bromine is from \"stench\", iodine from \"violet\"."
+  }
+]
