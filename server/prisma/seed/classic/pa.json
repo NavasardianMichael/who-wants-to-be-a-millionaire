@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੁਰਾਣਾ ਅਖਾਣ ਹੈ: ਆਪਣੀ ਗਲੀ ਵਿੱਚ ਤਾਂ … ਵੀ ਸ਼ੇਰ ਹੁੰਦਾ ਹੈ। ਕੌਣ?",
+    "options": ["ਬਿੱਲਾ", "ਕੁੱਤਾ", "ਗਿੱਦੜ", "ਚੂਹਾ"],
+    "correctIndex": 1,
+    "gloss": "Old saying: in his own lane even a … is a lion. Who? — The dog: «ਆਪਣੀ ਗਲੀ ਵਿੱਚ ਕੁੱਤਾ ਵੀ ਸ਼ੇਰ ਹੁੰਦਾ ਹੈ»."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੰਜਾਬ ਦਾ ਨਾਂ ਪੰਜ ਦਰਿਆਵਾਂ ਤੋਂ ਪਿਆ ਹੈ। ਕਿਹੜਾ ਦਰਿਆ ਉਨ੍ਹਾਂ ਪੰਜਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ?",
+    "options": ["ਜਿਹਲਮ", "ਬਿਆਸ", "ਯਮੁਨਾ", "ਰਾਵੀ"],
+    "correctIndex": 2,
+    "gloss": "Punjab is named after five rivers. Which river is not one of them? — The Yamuna; the five are Jhelum, Chenab, Ravi, Beas and Sutlej."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਦਰਜਨ ਕੇਲਿਆਂ ਵਿੱਚੋਂ ਅੱਧੇ ਸਵੇਰੇ ਖਾ ਲਏ ਗਏ ਅਤੇ ਬਚਿਆਂ ਵਿੱਚੋਂ ਅੱਧੇ ਸ਼ਾਮ ਨੂੰ। ਕਿੰਨੇ ਕੇਲੇ ਬਚੇ?",
+    "options": ["6", "4", "0", "3"],
+    "correctIndex": 3,
+    "gloss": "Half of a dozen bananas were eaten in the morning and half of the rest in the evening. How many are left? — 3: 12 → 6 → 3. «Half and half = all gone» (0) is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਖੀਰ ਵਿੱਚ ਪੈਣ ਵਾਲੀ ਸੌਗੀ ਕਿਹੜੇ ਫਲ ਨੂੰ ਸੁਕਾ ਕੇ ਬਣਦੀ ਹੈ?",
+    "options": ["ਅੰਗੂਰ", "ਖਜੂਰ", "ਆਲੂ-ਬੁਖ਼ਾਰਾ", "ਖ਼ੁਰਮਾਨੀ"],
+    "correctIndex": 0,
+    "gloss": "The raisins that go into kheer are made by drying which fruit? — Grapes. Dried dates, plums and apricots are other dry fruits with their own names."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਗੁਰਮੁਖੀ ਦੀ ਵਰਨਮਾਲਾ ਨੂੰ “ਪੈਂਤੀ” ਕਿਹਾ ਜਾਂਦਾ ਹੈ। ਨਾਂ ਤੋਂ ਹੀ ਦੱਸੋ: ਇਸ ਦੇ ਮੂਲ ਅੱਖਰ ਕਿੰਨੇ ਹਨ?",
+    "options": ["25", "30", "35", "40"],
+    "correctIndex": 2,
+    "gloss": "The Gurmukhi alphabet is called «paintee». From the name alone: how many basic letters does it have? — 35: «ਪੈਂਤੀ» is the Punjabi number thirty-five."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਵਿਸਾਖੀ ਦੇ ਮੇਲੇ ਵੇਲੇ ਪੰਜਾਬ ਦੇ ਖੇਤਾਂ ਵਿੱਚ ਕਿਹੜੀ ਫ਼ਸਲ ਪੱਕ ਕੇ ਵਾਢੀ ਲਈ ਤਿਆਰ ਹੁੰਦੀ ਹੈ?",
+    "options": ["ਝੋਨਾ", "ਕਪਾਹ", "ਗੰਨਾ", "ਕਣਕ"],
+    "correctIndex": 3,
+    "gloss": "At Vaisakhi, which crop in Punjab's fields is ripe for harvest? — Wheat, the rabi crop harvested in April; paddy and cotton are kharif crops."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਭੰਗੜੇ ਦੀ ਜਿੰਦ-ਜਾਨ ਉਹ ਸਾਜ਼ ਹੈ ਜੋ ਗਲ਼ ਵਿੱਚ ਲਟਕਾ ਕੇ ਡੱਗੇ ਨਾਲ ਵਜਾਇਆ ਜਾਂਦਾ ਹੈ। ਕਿਹੜਾ?",
+    "options": ["ਢੋਲ", "ਢੱਡ", "ਤੂੰਬੀ", "ਚਿਮਟਾ"],
+    "correctIndex": 0,
+    "gloss": "The soul of bhangra is the instrument hung from the neck and beaten with a «dagga» stick. Which? — The dhol. The dhadd is a small hand-held drum played with the fingers."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਕ੍ਰਿਕਟ ਦੇ ਇੱਕ ਓਵਰ ਵਿੱਚ ਛੇ ਸਹੀ ਗੇਂਦਾਂ ਹੁੰਦੀਆਂ ਹਨ। 20 ਓਵਰਾਂ ਵਾਲੇ ਮੈਚ ਵਿੱਚ ਇੱਕ ਪਾਰੀ ਦੀਆਂ ਵੱਧ ਤੋਂ ਵੱਧ ਕਿੰਨੀਆਂ ਸਹੀ ਗੇਂਦਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ?",
+    "options": ["120", "100", "126", "200"],
+    "correctIndex": 0,
+    "gloss": "An over has six legal balls. At most how many legal balls can one innings of a 20-over match have? — 120 = 20 × 6 (wides and no-balls are not legal balls)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕੰਪਿਊਟਰ ਦਾ ਉਹ ਛੋਟਾ ਜਿਹਾ ਜੰਤਰ, ਜਿਸ ਨੂੰ ਮੇਜ਼ ਉੱਤੇ ਘੁਮਾ ਕੇ ਸਕਰੀਨ ਦਾ ਤੀਰ ਹਿਲਾਈਦਾ ਹੈ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਕਿਸ ਜਾਨਵਰ ਦੇ ਨਾਂ ਉੱਤੇ ਹੈ?",
+    "options": ["ਕੱਛੂਕੁੰਮਾ", "ਖ਼ਰਗੋਸ਼", "ਚੂਹਾ", "ਕਿਰਲੀ"],
+    "correctIndex": 2,
+    "gloss": "The little device you slide on the desk to move the on-screen arrow is named in English after which animal? — The mouse (ਚੂਹਾ)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਦੌੜ ਵਿੱਚ ਤੁਸੀਂ ਉਸ ਖਿਡਾਰੀ ਨੂੰ ਪਿੱਛੇ ਛੱਡ ਦਿੰਦੇ ਹੋ ਜੋ ਨੰਬਰ ਦੋ ’ਤੇ ਸੀ। ਹੁਣ ਤੁਸੀਂ ਕਿਹੜੇ ਨੰਬਰ ’ਤੇ ਹੋ?",
+    "options": ["ਪਹਿਲੇ", "ਦੂਜੇ", "ਤੀਜੇ", "ਚੌਥੇ"],
+    "correctIndex": 1,
+    "gloss": "In a race you overtake the runner in second place. What place are you in now? — Second: you take his place; the leader is still ahead. «First» is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਸ਼ਤਰੰਜ ਦਾ ਕਿਹੜਾ ਮੋਹਰਾ ਸਿਰਫ਼ ਤਿਰਛਾ ਚੱਲਦਾ ਹੈ ਅਤੇ ਸਾਰੀ ਖੇਡ ਆਪਣੇ ਰੰਗ ਦੇ ਖ਼ਾਨਿਆਂ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾ ਸਕਦਾ?",
+    "options": ["ਹਾਥੀ", "ਊਠ", "ਘੋੜਾ", "ਵਜ਼ੀਰ"],
+    "correctIndex": 1,
+    "gloss": "Which chess piece moves only diagonally and never leaves the squares of its own colour? — The bishop, called «camel» (ਊਠ) in Punjabi. The queen (ਵਜ਼ੀਰ) also moves straight."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੰਜਾਬੀ ਦਾ ਸਭ ਤੋਂ ਮਸ਼ਹੂਰ ਕਿੱਸਾ ਕਵੀ ਦੇ ਨਾਂ ਸਮੇਤ ਹੀ ਯਾਦ ਕੀਤਾ ਜਾਂਦਾ ਹੈ: “ਹੀਰ …”। ਖ਼ਾਲੀ ਥਾਂ ਵਿੱਚ ਕਿਹੜਾ ਨਾਂ ਆਵੇਗਾ?",
+    "options": ["ਬੁੱਲ੍ਹੇ ਸ਼ਾਹ", "ਹਾਸ਼ਮ ਸ਼ਾਹ", "ਵਾਰਿਸ ਸ਼ਾਹ", "ਸ਼ਾਹ ਹੁਸੈਨ"],
+    "correctIndex": 2,
+    "gloss": "Punjabi's most famous qissa is always named together with its poet: «Heer …». Who fills the gap? — Waris Shah («Heer Waris Shah», 1766). Hashim Shah wrote «Sassi Punnun»; the others are Sufi poets."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਹਰਿਮੰਦਰ ਸਾਹਿਬ ਉੱਤੇ ਸੋਨਾ ਚੜ੍ਹਾਉਣ ਦੀ ਸੇਵਾ ਕਿਸ ਮਹਾਰਾਜੇ ਨੇ ਕਰਵਾਈ, ਜਿਸ ਤੋਂ ਬਾਅਦ ਦੁਨੀਆ ਇਸ ਨੂੰ “ਗੋਲਡਨ ਟੈਂਪਲ” ਕਹਿਣ ਲੱਗੀ?",
+    "options": ["ਮਹਾਰਾਜਾ ਭੁਪਿੰਦਰ ਸਿੰਘ", "ਮਹਾਰਾਜਾ ਸ਼ੇਰ ਸਿੰਘ", "ਮਹਾਰਾਜਾ ਜਗਤਜੀਤ ਸਿੰਘ", "ਮਹਾਰਾਜਾ ਰਣਜੀਤ ਸਿੰਘ"],
+    "correctIndex": 3,
+    "gloss": "Which maharaja had the Harmandir Sahib covered in gold, after which the world called it the «Golden Temple»? — Maharaja Ranjit Singh (early 19th century). The others: Patiala, his son Sher Singh, Kapurthala."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਸੂਰਜ ਦੀ ਰੌਸ਼ਨੀ ਨੂੰ ਧਰਤੀ ਤੱਕ ਪਹੁੰਚਣ ਵਿੱਚ ਲਗਭਗ 8 ਮਿੰਟ ਲੱਗਦੇ ਹਨ। ਜੇ ਦਿਨ ਵੇਲੇ ਸੂਰਜ ਇਸੇ ਪਲ ਬੁਝ ਜਾਵੇ, ਤਾਂ ਸਾਨੂੰ ਹਨੇਰਾ ਕਦੋਂ ਦਿਸੇਗਾ?",
+    "options": ["ਲਗਭਗ 8 ਮਿੰਟ ਬਾਅਦ", "ਉਸੇ ਪਲ", "ਲਗਭਗ 8 ਘੰਟੇ ਬਾਅਦ", "ਅਗਲੀ ਸਵੇਰ"],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. If the Sun went out right now during the day, when would we see darkness? — About 8 minutes later: the light already on its way keeps arriving."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕਿਸ ਦੇਸ਼ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ ਇੱਕ ਸਮੁੰਦਰੀ ਪਣਜੋੜ ਦੇ ਦੋਹਾਂ ਕੰਢਿਆਂ ਉੱਤੇ ਵੱਸਿਆ ਹੈ, ਕੁਝ ਯੂਰਪ ਵਿੱਚ ਤੇ ਕੁਝ ਏਸ਼ੀਆ ਵਿੱਚ?",
+    "options": ["ਯੂਨਾਨ", "ਤੁਰਕੀ", "ਮਿਸਰ", "ਰੂਸ"],
+    "correctIndex": 1,
+    "gloss": "Which country's largest city lies on both shores of a strait, partly in Europe and partly in Asia? — Turkey: Istanbul on the Bosphorus. Russia and Egypt span two continents, but Moscow and Cairo do not."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਤੁਹਾਡੀ ਮਾਸੀ ਦੀ ਉਹ ਸਕੀ ਭੈਣ, ਜੋ ਤੁਹਾਡੀ ਮਾਸੀ ਨਹੀਂ ਲੱਗਦੀ, ਤੁਹਾਡੀ ਕੀ ਲੱਗਦੀ ਹੈ?",
+    "options": ["ਭੂਆ", "ਮਾਮੀ", "ਚਾਚੀ", "ਮਾਂ"],
+    "correctIndex": 3,
+    "gloss": "Your «masi»'s own sister who is not your masi — what is she to you? — Your mother: a masi is your mother's sister, so her only sister who isn't your masi is your mother. Bhua is father's sister."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਜੇਬ ਵਿੱਚ ਪੌਣੇ ਤਿੰਨ ਸੌ ਰੁਪਏ ਸਨ ਅਤੇ ਢਾਈ ਸੌ ਦਾ ਸੌਦਾ ਲੈ ਲਿਆ। ਕਿੰਨੇ ਰੁਪਏ ਬਚੇ?",
+    "options": ["25", "50", "75", "125"],
+    "correctIndex": 0,
+    "gloss": "You had «paune tin sau» rupees and spent «dhai sau». How much is left? — 25: paune tin sau = 275 (a quarter less than 300), dhai sau = 250. Reading «paune» as «plus three quarters» gives 75."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਪੱਛਮੀ ਸੰਗੀਤ ਦੇ ਸੁਰ ਹਨ: ਡੋ, ਰੇ, ਮੀ, ਫ਼ਾ, ਸੋਲ, ਲਾ, ਸੀ। ਸਾਡੀ ਸਰਗਮ ਵਿੱਚ “ਸੋਲ” ਦੀ ਥਾਂ ਕਿਹੜਾ ਸੁਰ ਆਉਂਦਾ ਹੈ?",
+    "options": ["ਮਾ", "ਪਾ", "ਧਾ", "ਗਾ"],
+    "correctIndex": 1,
+    "gloss": "Western solfège is do, re, mi, fa, sol, la, ti. Which note of our sargam stands where «sol» does? — Pa: sol is the fifth note, and sa-re-ga-ma-PA."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਨਿਨਟੈਂਡੋ ਦੀਆਂ ਵੀਡੀਓ ਖੇਡਾਂ ਦਾ ਉਹ ਮੁੱਛਾਂ ਵਾਲਾ ਇਤਾਲਵੀ ਪਲੰਬਰ, ਜੋ ਖੁੰਬ ਖਾ ਕੇ ਵੱਡਾ ਹੋ ਜਾਂਦਾ ਹੈ, ਕੌਣ ਹੈ?",
+    "options": ["ਸੋਨਿਕ", "ਪੈਕ-ਮੈਨ", "ਮਾਰੀਓ", "ਕ੍ਰੈਸ਼ ਬੈਂਡੀਕੂਟ"],
+    "correctIndex": 2,
+    "gloss": "Nintendo's moustached Italian plumber who grows big after eating a mushroom? — Mario."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਚਾਰਲੀ ਚੈਪਲਿਨ ਦਾ ਮਸ਼ਹੂਰ ਅਵਾਰਾ ਪਾਤਰ, ਤੰਗ ਕੋਟ, ਖੁੱਲ੍ਹੀ ਪਤਲੂਨ ਤੇ ਨਿੱਕੀਆਂ ਮੁੱਛਾਂ ਵਾਲਾ, ਹੱਥ ਵਿੱਚ ਹਮੇਸ਼ਾ ਕੀ ਫੜੀ ਰੱਖਦਾ ਸੀ?",
+    "options": ["ਛਤਰੀ", "ਪਾਈਪ", "ਅਖ਼ਬਾਰ", "ਛੜੀ"],
+    "correctIndex": 3,
+    "gloss": "Charlie Chaplin's Tramp — tight coat, baggy trousers, little moustache — always carried what? — A cane (walking stick)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਸਿੰਧ ਘਾਟੀ ਦੀ ਸੱਭਿਅਤਾ ਦਾ ਜਿਹੜਾ ਸ਼ਹਿਰ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਖੋਜਿਆ ਗਿਆ ਅਤੇ ਜਿਸ ਦੇ ਨਾਂ ਉੱਤੇ ਸਾਰੀ ਸੱਭਿਅਤਾ ਦਾ ਇੱਕ ਨਾਂ ਵੀ ਪਿਆ, ਉਹ ਪੰਜਾਬ ਦੀ ਧਰਤੀ ਉੱਤੇ ਹੈ। ਕਿਹੜਾ?",
+    "options": ["ਮੋਹਿੰਜੋਦੜੋ", "ਹੜੱਪਾ", "ਲੋਥਲ", "ਟੈਕਸਲਾ"],
+    "correctIndex": 1,
+    "gloss": "The Indus Valley city excavated first, which gave the whole civilisation one of its names, is on Punjabi soil. Which? — Harappa (Sahiwal district), hence «Harappan civilisation». Mohenjo-daro is in Sindh, Lothal in Gujarat; Taxila is much later."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਲੋਹੜੀ ਪੋਹ ਮਹੀਨੇ ਦੀ ਆਖ਼ਰੀ ਰਾਤ ਮਨਾਈ ਜਾਂਦੀ ਹੈ। ਅਗਲੀ ਸਵੇਰ ਜਿਹੜਾ ਪੁਰਬ ਆਉਂਦਾ ਹੈ, ਉਸ ਦਾ ਨਾਂ ਨਵੇਂ ਚੜ੍ਹੇ ਮਹੀਨੇ ਤੋਂ ਪਿਆ ਹੈ। ਕਿਹੜਾ ਪੁਰਬ?",
+    "options": ["ਵਿਸਾਖੀ", "ਮਾਘੀ", "ਤੀਆਂ", "ਹੋਲਾ ਮਹੱਲਾ"],
+    "correctIndex": 1,
+    "gloss": "Lohri is the last night of the month Poh. The festival next morning is named after the month that begins. Which? — Maghi: the month after Poh is Magh. Needs the Punjabi month order plus the step."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਲੋਕ-ਕਥਾ ਅਨੁਸਾਰ ਸੋਹਣੀ ਦੇ ਆਸ਼ਕ ਦਾ ਅਸਲ ਨਾਂ ਇੱਜ਼ਤ ਬੇਗ ਸੀ। ਉਸ ਨੂੰ “ਮਹੀਂਵਾਲ” ਨਾਂ ਕਿਹੜਾ ਕੰਮ ਕਰਨ ਕਰਕੇ ਮਿਲਿਆ?",
+    "options": ["ਘੜੇ ਬਣਾਉਣਾ", "ਬੇੜੀ ਚਲਾਉਣਾ", "ਊਠ ਚਾਰਨਾ", "ਮੱਝਾਂ ਚਾਰਨਾ"],
+    "correctIndex": 3,
+    "gloss": "In the folk tale Sohni's lover was really Izzat Baig. Which work earned him the name «Mahiwal»? — Herding buffaloes: «mahin» are buffaloes, «-wal» the one who keeps them. Making pots is the trap: Sohni's father was a potter."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਇੱਕ ਨਾਕਆਊਟ ਟੂਰਨਾਮੈਂਟ ਵਿੱਚ 32 ਟੀਮਾਂ ਹਨ: ਹਰ ਮੈਚ ਦੀ ਹਾਰਨ ਵਾਲੀ ਟੀਮ ਬਾਹਰ ਹੋ ਜਾਂਦੀ ਹੈ ਅਤੇ ਬਰਾਬਰੀ ਨਹੀਂ ਹੁੰਦੀ। ਜੇਤੂ ਤੈਅ ਹੋਣ ਤੱਕ ਕੁੱਲ ਕਿੰਨੇ ਮੈਚ ਖੇਡੇ ਜਾਣਗੇ?",
+    "options": ["31", "16", "32", "63"],
+    "correctIndex": 0,
+    "gloss": "A knockout tournament has 32 teams; each match's loser is out, no draws. How many matches until there is a winner? — 31: every match knocks out exactly one team, and 31 must go (16+8+4+2+1)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਵਿਨਸੈਂਟ ਵੈਨ ਗੌਗ ਨੇ ਗੁਲਦਾਨ ਵਿੱਚ ਸਜੇ ਕਿਹੜੇ ਫੁੱਲਾਂ ਦੀਆਂ ਕਈ ਤਸਵੀਰਾਂ ਬਣਾਈਆਂ, ਜੋ ਉਸ ਦੀ ਪਛਾਣ ਬਣ ਗਈਆਂ?",
+    "options": ["ਸੂਰਜਮੁਖੀ", "ਕੰਵਲ", "ਟਿਊਲਿਪ", "ਗੇਂਦਾ"],
+    "correctIndex": 0,
+    "gloss": "Van Gogh painted a series of which flowers in a vase that became his signature? — Sunflowers. Lotus/water lilies are the trap for Monet."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਪੰਜਾਬੀ ਗਿਣਤੀ ਵਿੱਚ “ਉਣ” ਦਾ ਅਰਥ ਹੈ “ਇੱਕ ਘੱਟ”: ਉਣੱਤੀ ਤੀਹ ਤੋਂ ਇੱਕ ਘੱਟ ਹੈ। ਤਾਂ “ਉਣਾਸੀ” ਕਿੰਨੇ ਹੁੰਦੇ ਹਨ?",
+    "options": ["69", "79", "81", "89"],
+    "correctIndex": 1,
+    "gloss": "In Punjabi numbers «un-» means «one less»: unatti is one less than thirty. So what is «unasi»? — 79: one less than assi (80). 89 is unanve, from nabbe (90)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਪੈਨਸਿਲ ਦੇ ਸਿੱਕੇ ਵਿੱਚ ਅਸਲ ਵਿੱਚ ਸਿੱਕਾ ਧਾਤ ਨਹੀਂ ਹੁੰਦੀ: ਉਹ ਗ੍ਰੈਫ਼ਾਈਟ ਹੈ, ਜੋ ਹੀਰੇ ਵਾਂਗ ਇੱਕੋ ਤੱਤ ਦਾ ਬਣਿਆ ਹੈ। ਕਿਹੜਾ ਤੱਤ?",
+    "options": ["ਸਿਲੀਕਾਨ", "ਗੰਧਕ", "ਕਾਰਬਨ", "ਫ਼ਾਸਫ਼ੋਰਸ"],
+    "correctIndex": 2,
+    "gloss": "A pencil's «sikka» (lead) contains no lead metal: it is graphite, made, like diamond, of a single element. Which? — Carbon."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਸ਼ੇਕਸਪੀਅਰ ਦਾ ਕਿਹੜਾ ਨਾਇਕ ਕਬਰਸਤਾਨ ਵਿੱਚ ਪੁਰਾਣੇ ਦਰਬਾਰੀ ਮਸਖ਼ਰੇ ਯੋਰਿਕ ਦੀ ਖੋਪੜੀ ਹੱਥ ਵਿੱਚ ਫੜ ਕੇ ਉਸ ਨਾਲ ਗੱਲਾਂ ਕਰਦਾ ਹੈ?",
+    "options": ["ਮੈਕਬੈਥ", "ਓਥੈਲੋ", "ਕਿੰਗ ਲੀਅਰ", "ਹੈਮਲੇਟ"],
+    "correctIndex": 3,
+    "gloss": "Which Shakespeare hero, in a graveyard, holds the skull of the old court jester Yorick and speaks to it? — Hamlet («Alas, poor Yorick»)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਦੱਖਣੀ ਅਮਰੀਕਾ ਦੇ ਕਿਸ ਦੇਸ਼ ਦਾ ਨਾਂ ਸਪੇਨੀ ਭਾਸ਼ਾ ਵਿੱਚ ਸਿੱਧਾ “ਭੂ-ਮੱਧ ਰੇਖਾ” ਹੀ ਹੈ?",
+    "options": ["ਕੋਲੰਬੀਆ", "ਪੇਰੂ", "ਇਕੁਆਡੋਰ", "ਵੈਨੇਜ਼ੁਏਲਾ"],
+    "correctIndex": 2,
+    "gloss": "Which South American country's name simply means «the equator» in Spanish? — Ecuador. Knowing the English word «equator» lets you hear it; Colombia is also crossed by the equator."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2023 ਵਿੱਚ ਅਮਰੀਕਾ ਦੇ ਕੋਚੈਲਾ ਸੰਗੀਤ ਮੇਲੇ ਦੀ ਸਟੇਜ ਉੱਤੇ ਪੇਸ਼ਕਾਰੀ ਦੇਣ ਵਾਲਾ ਪਹਿਲਾ ਪੰਜਾਬੀ ਗਾਇਕ ਕੌਣ ਸੀ?",
+    "options": ["ਦਿਲਜੀਤ ਦੋਸਾਂਝ", "ਏਪੀ ਢਿੱਲੋਂ", "ਕਰਨ ਔਜਲਾ", "ਗੁਰਦਾਸ ਮਾਨ"],
+    "correctIndex": 0,
+    "gloss": "Who in 2023 became the first Punjabi singer to perform at Coachella? — Diljit Dosanjh. AP Dhillon followed in 2024."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਮਹਾਰਾਜਾ ਰਣਜੀਤ ਸਿੰਘ ਦਾ ਸਭ ਤੋਂ ਛੋਟਾ ਪੁੱਤਰ, ਜੋ ਬਚਪਨ ਵਿੱਚ ਹੀ ਤਖ਼ਤ ਉੱਤੇ ਬੈਠਾ ਅਤੇ ਸਿੱਖ ਰਾਜ ਦਾ ਆਖ਼ਰੀ ਮਹਾਰਾਜਾ ਬਣਿਆ, ਕੌਣ ਸੀ?",
+    "options": ["ਖੜਕ ਸਿੰਘ", "ਸ਼ੇਰ ਸਿੰਘ", "ਦਲੀਪ ਸਿੰਘ", "ਨੌਨਿਹਾਲ ਸਿੰਘ"],
+    "correctIndex": 2,
+    "gloss": "Ranjit Singh's youngest son, who took the throne as a child and was the last maharaja of the Sikh Empire? — Duleep Singh (enthroned 1843, aged five). Kharak and Sher Singh ruled before him; Nau Nihal was a grandson."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਸਾਡਾ ਲਹੂ ਲੋਹੇ ਕਰਕੇ ਲਾਲ ਹੈ, ਪਰ ਆਕਟੋਪਸ ਦਾ ਲਹੂ ਨੀਲਾ ਹੁੰਦਾ ਹੈ। ਉਸ ਦੇ ਲਹੂ ਵਿੱਚ ਲੋਹੇ ਦੀ ਥਾਂ ਕਿਹੜੀ ਧਾਤ ਆਕਸੀਜਨ ਲੈ ਕੇ ਜਾਂਦੀ ਹੈ?",
+    "options": ["ਤਾਂਬਾ", "ਜਿਸਤ", "ਕੋਬਾਲਟ", "ਮੈਗਨੀਸ਼ੀਅਮ"],
+    "correctIndex": 0,
+    "gloss": "Our blood is red because of iron, but an octopus's is blue. Which metal carries oxygen in its blood instead? — Copper (haemocyanin)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਹਰ ਦੇਸ਼ ਦਾ ਆਪਣਾ ਡੋਮੇਨ ਹੈ: ਭਾਰਤ ਦਾ .in, ਪਾਕਿਸਤਾਨ ਦਾ .pk। ਕਿਸ ਦੇਸ਼ ਦਾ ਡੋਮੇਨ .ch ਹੈ, ਜੋ ਉਸ ਦੇ ਪੁਰਾਣੇ ਲਾਤੀਨੀ ਨਾਂ ਤੋਂ ਬਣਿਆ ਹੈ?",
+    "options": ["ਚੀਨ", "ਚਿਲੀ", "ਚੈੱਕ ਗਣਰਾਜ", "ਸਵਿਟਜ਼ਰਲੈਂਡ"],
+    "correctIndex": 3,
+    "gloss": "Every country has its internet domain: India .in, Pakistan .pk. Which country is .ch, taken from its old Latin name? — Switzerland (Confoederatio Helvetica). The hint rules out China (.cn), Chile (.cl) and Czechia (.cz), whose names start with «ch» in English."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਯੋਹਾਨਸ ਗੁਟਨਬਰਗ ਨੇ ਪੰਦਰ੍ਹਵੀਂ ਸਦੀ ਦੇ ਅੱਧ ਵਿੱਚ ਹਿੱਲਣ ਵਾਲੇ ਧਾਤ ਦੇ ਅੱਖਰਾਂ ਨਾਲ ਛਪਾਈ ਕੀਤੀ। ਉਸ ਦੀ ਛਾਪੀ ਮਸ਼ਹੂਰ ਵੱਡੀ ਕਿਤਾਬ ਕਿਹੜੀ ਸੀ?",
+    "options": ["ਡੌਨ ਕੀਹੋਟੇ", "ਬਾਈਬਲ", "ਕੈਂਟਰਬਰੀ ਟੇਲਜ਼", "ਯੂਟੋਪੀਆ"],
+    "correctIndex": 1,
+    "gloss": "Gutenberg printed with movable metal type in the mid-15th century. Which famous large book did he print? — The Bible (c. 1455). Don Quixote (1605) and Utopia (1516) came after his death; the Canterbury Tales were first printed by Caxton."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਫੁਲਕਾਰੀ ਦੀ ਉਹ ਕਿਸਮ ਕੀ ਅਖਵਾਉਂਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਪੱਟ ਦੀ ਕਢਾਈ ਨਾਲ ਸਾਰਾ ਕੱਪੜਾ ਇਉਂ ਢਕ ਜਾਂਦਾ ਹੈ ਕਿ ਹੇਠਲਾ ਖੱਦਰ ਦਿਸਦਾ ਹੀ ਨਹੀਂ, ਜਿਵੇਂ ਫੁੱਲਾਂ ਨਾਲ ਭਰਿਆ ਹੋਵੇ?",
+    "options": ["ਚੋਪ", "ਬਾਗ਼", "ਸੁਭਰ", "ਤਿਲ-ਪੱਤਰ"],
+    "correctIndex": 1,
+    "gloss": "What is the phulkari called whose silk embroidery covers the whole cloth so the khaddar underneath doesn't show, as if full of flowers? — Bagh («garden»). Chope, subar and til-patra are sparser phulkari types; the «full of flowers» clue points to the garden."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ਬੁੱਲ੍ਹਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ” ਲਿਖਣ ਵਾਲੇ ਸੂਫ਼ੀ ਕਵੀ ਬੁੱਲ੍ਹੇ ਸ਼ਾਹ ਦੀ ਦਰਗਾਹ ਕਿਸ ਸ਼ਹਿਰ ਵਿੱਚ ਹੈ?",
+    "options": ["ਪਾਕਪਟਨ", "ਮੁਲਤਾਨ", "ਕਸੂਰ", "ਝੰਗ"],
+    "correctIndex": 2,
+    "gloss": "In which city is the shrine of the Sufi poet Bulleh Shah, author of «Bulleya ki jaana main kaun»? — Kasur. Pakpattan is Baba Farid's, Multan has many Sufi shrines, Jhang is linked to Heer and Sultan Bahu."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਲਿਖਟਨਸਟਾਈਨ ਵਾਂਗ ਇਹ ਦੇਸ਼ ਸਮੁੰਦਰ ਤੋਂ “ਦੂਹਰਾ” ਕੱਟਿਆ ਹੋਇਆ ਹੈ: ਇਸ ਦੇ ਸਾਰੇ ਗੁਆਂਢੀ ਦੇਸ਼ ਵੀ ਸਮੁੰਦਰ ਨਾਲ ਨਹੀਂ ਲੱਗਦੇ। ਕਿਹੜਾ ਦੇਸ਼?",
+    "options": ["ਅਫ਼ਗ਼ਾਨਿਸਤਾਨ", "ਨੇਪਾਲ", "ਮੰਗੋਲੀਆ", "ਉਜ਼ਬੇਕਿਸਤਾਨ"],
+    "correctIndex": 3,
+    "gloss": "Like Liechtenstein, this country is «doubly» landlocked: none of its neighbours touches the sea either. Which? — Uzbekistan. Check the neighbours: Afghanistan borders Pakistan, Nepal borders India, Mongolia borders China and Russia — all coastal."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੰਜਾਬੀ ਦੀ ਕਿਹੜੀ ਖ਼ਾਸੀਅਤ ਇਸ ਨੂੰ ਹਿੰਦੀ ਤੇ ਉਰਦੂ ਸਮੇਤ ਬਹੁਤੀਆਂ ਹਿੰਦ-ਆਰੀਆਈ ਭਾਸ਼ਾਵਾਂ ਤੋਂ ਵੱਖਰਾ ਕਰਦੀ ਹੈ?",
+    "options": ["ਸੁਰ ਬਦਲਣ ਨਾਲ ਸ਼ਬਦ ਦਾ ਅਰਥ ਬਦਲ ਜਾਣਾ", "ਨਾਂਵਾਂ ਦਾ ਕੋਈ ਲਿੰਗ ਨਾ ਹੋਣਾ", "ਕਿਰਿਆ ਦਾ ਵਾਕ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਆਉਣਾ", "ਬਹੁਵਚਨ ਦਾ ਨਾ ਹੋਣਾ"],
+    "correctIndex": 0,
+    "gloss": "Which feature sets Punjabi apart from most Indo-Aryan languages, Hindi and Urdu included? — It is tonal: pitch changes a word's meaning (e.g. ਘ, ਝ, ਢ, ਧ, ਭ are spoken as tones). Punjabi has gender, plurals and verb-final order, so the others are false."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਮੱਕੀ ਦੀ ਰੋਟੀ, ਆਲੂ ਦੇ ਪਰੌਂਠੇ ਤੇ ਹਰੀ ਮਿਰਚ ਪੰਜਾਬੀ ਰਸੋਈ ਦੀ ਜਾਨ ਹਨ। ਪਰ ਮੱਕੀ, ਆਲੂ ਤੇ ਮਿਰਚ, ਤਿੰਨੇ ਮੂਲ ਰੂਪ ਵਿੱਚ ਕਿੱਥੋਂ ਆਏ?",
+    "options": ["ਅਫ਼ਰੀਕਾ ਤੋਂ", "ਅਮਰੀਕੀ ਮਹਾਂਦੀਪਾਂ ਤੋਂ", "ਮੱਧ ਏਸ਼ੀਆ ਤੋਂ", "ਚੀਨ ਤੋਂ"],
+    "correctIndex": 1,
+    "gloss": "Makki di roti, aloo parathas and green chillies are the soul of Punjabi cooking. Where did maize, potatoes and chillies all originally come from? — The Americas; they reached India after the 16th-century voyages."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕਿਹੜੀ ਚਾਂਦੀ-ਰੰਗੀ ਧਾਤ ਹਥੇਲੀ ਉੱਤੇ ਰੱਖਿਆਂ ਸਰੀਰ ਦੀ ਗਰਮੀ ਨਾਲ ਹੀ ਪਿਘਲ ਜਾਂਦੀ ਹੈ?",
+    "options": ["ਗੈਲੀਅਮ", "ਲਿਥੀਅਮ", "ਇੰਡੀਅਮ", "ਬਿਸਮਥ"],
+    "correctIndex": 0,
+    "gloss": "Which silvery metal melts in your palm from body heat alone? — Gallium (melts at about 29.8 °C). Lithium ~180 °C, indium ~157 °C, bismuth ~271 °C."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਬਲਬੀਰ ਸਿੰਘ ਸੀਨੀਅਰ ਨੇ ਓਲੰਪਿਕ ਹਾਕੀ ਦੇ ਇੱਕ ਫ਼ਾਈਨਲ ਵਿੱਚ ਇਕੱਲਿਆਂ ਪੰਜ ਗੋਲ ਕੀਤੇ ਸਨ। ਉਹ ਫ਼ਾਈਨਲ ਕਿਸ ਸ਼ਹਿਰ ਵਿੱਚ ਖੇਡਿਆ ਗਿਆ ਸੀ?",
+    "options": ["ਲੰਡਨ", "ਹੈਲਸਿੰਕੀ", "ਮੈਲਬਰਨ", "ਰੋਮ"],
+    "correctIndex": 1,
+    "gloss": "Balbir Singh Sr scored five goals by himself in an Olympic hockey final. In which city? — Helsinki, 1952 (India 6–1 Netherlands). He also won gold in London 1948 and Melbourne 1956."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਸ਼ਿਵ ਕੁਮਾਰ ਬਟਾਲਵੀ ਨੂੰ ਸਾਹਿਤ ਅਕਾਦਮੀ ਪੁਰਸਕਾਰ ਉਸ ਰਚਨਾ ਲਈ ਮਿਲਿਆ, ਜਿਸ ਵਿੱਚ ਪੂਰਨ ਭਗਤ ਦੀ ਮਤਰੇਈ ਮਾਂ ਨੂੰ ਨਵੀਂ ਨਜ਼ਰ ਨਾਲ ਪੇਸ਼ ਕੀਤਾ ਗਿਆ। ਕਿਹੜੀ ਰਚਨਾ?",
+    "options": ["ਪੀੜਾਂ ਦਾ ਪਰਾਗਾ", "ਲੂਣਾ", "ਮੈਂ ਤੇ ਮੈਂ", "ਆਰਤੀ"],
+    "correctIndex": 1,
+    "gloss": "Shiv Kumar Batalvi won the Sahitya Akademi Award for the work that retells Puran Bhagat's stepmother in a new light. Which? — «Loona» (award 1967). You need to know the stepmother is Loona; all four are his books."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦਾ ਬਾਰਹ ਮਾਹਾ, ਜਿਸ ਵਿੱਚ ਸਾਲ ਦੇ ਬਾਰਾਂ ਮਹੀਨਿਆਂ ਰਾਹੀਂ ਵਿਛੋੜੇ ਦੀ ਪੀੜ ਗਾਈ ਗਈ ਹੈ, ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਵਿੱਚ ਕਿਸ ਰਾਗ ਵਿੱਚ ਦਰਜ ਹੈ?",
+    "options": ["ਮਾਝ", "ਆਸਾ", "ਤੁਖਾਰੀ", "ਸਿਰੀ"],
+    "correctIndex": 2,
+    "gloss": "Guru Nanak's Barah Maha, singing the pain of separation through the twelve months, is in which raag of the Guru Granth Sahib? — Tukhari. Majh is the trap: Guru Arjan's Barah Maha is in Raag Majh."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਲਹੂ ਦੇ A, B ਅਤੇ O ਗਰੁੱਪਾਂ ਦੀ ਖੋਜ ਕਰਕੇ ਸੁਰੱਖਿਅਤ ਖ਼ੂਨ ਚੜ੍ਹਾਉਣ ਦਾ ਰਾਹ ਖੋਲ੍ਹਣ ਵਾਲਾ ਵਿਗਿਆਨੀ ਕੌਣ ਸੀ?",
+    "options": ["ਲੂਈ ਪਾਸਚਰ", "ਰਾਬਰਟ ਕੋਖ", "ਅਲੈਗਜ਼ੈਂਡਰ ਫ਼ਲੈਮਿੰਗ", "ਕਾਰਲ ਲੈਂਡਸਟਾਈਨਰ"],
+    "correctIndex": 3,
+    "gloss": "Who discovered the A, B and O blood groups, opening the way to safe transfusions? — Karl Landsteiner (1901; Nobel Prize 1930). The others are fellow giants of medicine."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਅਲਮਾਰੀ, ਚਾਬੀ ਅਤੇ ਬਾਲਟੀ: ਇਹ ਸ਼ਬਦ ਉਸ ਯੂਰਪੀ ਕੌਮ ਦੀ ਭਾਸ਼ਾ ਤੋਂ ਆਏ, ਜਿਸ ਦੇ ਜਹਾਜ਼ ਅੰਗਰੇਜ਼ਾਂ ਤੋਂ ਲਗਭਗ ਸੌ ਸਾਲ ਪਹਿਲਾਂ ਭਾਰਤ ਦੇ ਕੰਢੇ ਪਹੁੰਚ ਗਏ ਸਨ। ਕਿਹੜੀ ਭਾਸ਼ਾ?",
+    "options": ["ਡੱਚ", "ਫ਼ਰਾਂਸੀਸੀ", "ਇਤਾਲਵੀ", "ਪੁਰਤਗਾਲੀ"],
+    "correctIndex": 3,
+    "gloss": "«Almari», «chabi» and «balti» come from the language of the European nation whose ships reached India about a century before the English. Which? — Portuguese (armário, chave, balde; Vasco da Gama 1498). The Dutch and French arrived around or after the English."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਸਤੰਬਰ ਤੋਂ ਦਸੰਬਰ ਤੱਕ ਦੇ ਮਹੀਨਿਆਂ ਦੇ ਨਾਂ ਲਾਤੀਨੀ ਗਿਣਤੀ ਤੋਂ ਬਣੇ ਹਨ, ਪਰ ਅੱਜ ਆਪਣੇ ਨੰਬਰਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ। ਪੁਰਾਣਾ ਰੋਮਨ ਸਾਲ ਕਿਸ ਮਹੀਨੇ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਸੀ?",
+    "options": ["ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ"],
+    "correctIndex": 2,
+    "gloss": "September to December are named after Latin numbers but no longer match them. Which month did the old Roman year start with? — March: December («decem», ten — like Punjabi «das») is now 12th, two places late, so the count began two months after January."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1947 ਵਿੱਚ ਹਾਰਵਰਡ ਦੇ ਇੱਕ ਕੰਪਿਊਟਰ ਦੇ ਰਿਲੇ ਵਿੱਚ ਫਸਿਆ ਇੱਕ ਅਸਲੀ ਕੀੜਾ ਮਿਲਿਆ, ਜਿਸ ਨੂੰ ਲੌਗਬੁੱਕ ਵਿੱਚ ਚਿਪਕਾ ਕੇ “ਬੱਗ” ਲੱਭਣ ਦਾ ਪਹਿਲਾ ਅਸਲ ਮਾਮਲਾ ਲਿਖਿਆ ਗਿਆ। ਉਹ ਕੀ ਸੀ?",
+    "options": ["ਕਾਕਰੋਚ", "ਪਤੰਗਾ", "ਮੱਖੀ", "ਕੀੜੀ"],
+    "correctIndex": 1,
+    "gloss": "In 1947 a real insect was found stuck in a relay of a Harvard computer (Mark II) and taped into the logbook as the «first actual case of bug being found». What was it? — A moth."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਚਿੱਤਰਕਾਰ ਅੰਮ੍ਰਿਤਾ ਸ਼ੇਰਗਿੱਲ ਦੇ ਪਿਤਾ ਪੰਜਾਬ ਦੇ ਸਿੱਖ ਸਰਦਾਰ ਸਨ। ਉਸ ਦੀ ਮਾਂ ਕਿਸ ਦੇਸ਼ ਦੀ ਸੀ, ਜਿੱਥੇ ਅੰਮ੍ਰਿਤਾ ਦਾ ਜਨਮ ਵੀ ਹੋਇਆ?",
+    "options": ["ਹੰਗਰੀ", "ਆਸਟਰੀਆ", "ਪੋਲੈਂਡ", "ਫ਼ਰਾਂਸ"],
+    "correctIndex": 0,
+    "gloss": "Painter Amrita Sher-Gil's father was a Punjabi Sikh aristocrat. Which country was her mother from, where Amrita was also born? — Hungary (born in Budapest, 1913). France is the trap: she trained in Paris."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਨੌਰਸ ਮਿਥਿਹਾਸ ਵਿੱਚ ਅੱਠ ਲੱਤਾਂ ਵਾਲਾ ਘੋੜਾ ਸਲੇਪਨਿਰ ਕਿਸ ਦੇਵਤੇ ਦੀ ਸਵਾਰੀ ਸੀ?",
+    "options": ["ਥੌਰ", "ਲੋਕੀ", "ਓਡਿਨ", "ਫ਼੍ਰੇਅਰ"],
+    "correctIndex": 2,
+    "gloss": "In Norse myth, whose mount was the eight-legged horse Sleipnir? — Odin. Loki is the trap: he is Sleipnir's parent, not its rider; Thor rides a goat-drawn chariot."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਪੂਰੀ ਤਰ੍ਹਾਂ ਕੰਪਿਊਟਰ ਉੱਤੇ ਬਣੀ ਦੁਨੀਆ ਦੀ ਪਹਿਲੀ ਪੂਰੀ-ਲੰਬਾਈ ਦੀ ਐਨੀਮੇਸ਼ਨ ਫ਼ਿਲਮ ਕਿਹੜੀ ਸੀ?",
+    "options": ["ਐਂਟਜ਼", "ਏ ਬੱਗਜ਼ ਲਾਈਫ਼", "ਸ਼੍ਰੈੱਕ", "ਟੌਏ ਸਟੋਰੀ"],
+    "correctIndex": 3,
+    "gloss": "Which was the world's first feature-length film made entirely by computer animation? — Toy Story (1995). Antz and A Bug's Life followed in 1998, Shrek in 2001."
+  }
+]

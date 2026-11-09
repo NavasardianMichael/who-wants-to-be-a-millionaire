@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dokończ przysłowie: „Gdzie kucharek sześć, tam nie ma co…”",
+    "options": [
+      "pić",
+      "jeść",
+      "kupić",
+      "spać"
+    ],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: 'Where there are six cooks, there is nothing to...' — eat: too many cooks spoil the broth (\"Gdzie kucharek sześć, tam nie ma co jeść\")."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Syrenka z uniesionym mieczem i tarczą widnieje w herbie którego miasta?",
+    "options": [
+      "Warszawa",
+      "Kraków",
+      "Gdańsk",
+      "Wrocław"
+    ],
+    "correctIndex": 0,
+    "gloss": "A mermaid with a raised sword and shield is on the coat of arms of which city? — Warsaw (the Warsaw Mermaid, Syrenka)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Babcia ulepiła 40 pierogów. Wnuki zjadły połowę, a dziadek jeszcze pięć. Ile pierogów zostało?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctIndex": 1,
+    "gloss": "Grandma made 40 pierogi; the grandchildren ate half, grandpa five more. How many are left? — 15: 40 - 20 - 5."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które z tych zwierząt wcale nie jest ssakiem?",
+    "options": [
+      "delfin",
+      "nietoperz",
+      "pingwin",
+      "foka"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these animals is not a mammal? — the penguin is a bird; dolphin, bat and seal are mammals."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jakim słowem rozpoczyna się „Pan Tadeusz” Adama Mickiewicza?",
+    "options": [
+      "Polsko",
+      "Ojczyzno",
+      "Soplicowo",
+      "Litwo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which word opens Mickiewicz's 'Pan Tadeusz'? — 'Litwo!' (\"Litwo! Ojczyzno moja!\")."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Który z tych wyrazów czytany od tyłu brzmi tak samo jak od przodu?",
+    "options": [
+      "kosz",
+      "kajak",
+      "kreda",
+      "kawa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word reads the same backwards? — kajak (kayak); the others reverse to nonsense."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Małyszomania” ogarnęła Polskę na początku XXI wieku. Jaką dyscyplinę uprawiał Adam Małysz?",
+    "options": [
+      "skoki narciarskie",
+      "biegi narciarskie",
+      "narciarstwo alpejskie",
+      "łyżwiarstwo szybkie"
+    ],
+    "correctIndex": 0,
+    "gloss": "'Małyszomania' swept Poland in the early 2000s. Which sport did Adam Małysz do? — ski jumping."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jaka ryba przed Wigilią trafia do wielu polskich domów żywa i czeka w wannie na świąteczny stół?",
+    "options": [
+      "łosoś",
+      "sandacz",
+      "karp",
+      "szczupak"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which fish arrives alive in many Polish homes before Christmas Eve and waits in the bathtub? — carp, the traditional Wigilia dish."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które państwo nazywane jest „Krajem Kwitnącej Wiśni”?",
+    "options": [
+      "Chiny",
+      "Korea Południowa",
+      "Tajlandia",
+      "Japonia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is called the 'Land of the Cherry Blossom'? — Japan."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który bohater kreskówki mieszka w ananasie na dnie morza?",
+    "options": [
+      "Patryk Rozgwiazda",
+      "SpongeBob Kanciastoporty",
+      "Skalmar Obłynos",
+      "Plankton"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which cartoon character lives in a pineapple under the sea? — SpongeBob SquarePants; Patrick lives under a rock, Squidward in a moai head, Plankton in a bucket."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nazwa którego miesiąca nawiązuje do opadających z drzew liści?",
+    "options": [
+      "październik",
+      "wrzesień",
+      "grudzień",
+      "listopad"
+    ],
+    "correctIndex": 3,
+    "gloss": "The name of which month refers to leaves falling from trees? — listopad (November), from 'liście' + 'padać'."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który z tych szczytów jest najwyższy w Polsce?",
+    "options": [
+      "Giewont",
+      "Rysy",
+      "Śnieżka",
+      "Babia Góra"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these peaks is the highest in Poland? — Rysy; Giewont is the famous one with the cross, Śnieżka is the highest of the Sudetes, Babia Góra of the Beskids."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W której miejscowości urodził się Fryderyk Chopin?",
+    "options": [
+      "Żelazowa Wola",
+      "Szafarnia",
+      "Wilanów",
+      "Nieborów"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which village was Frédéric Chopin born? — Żelazowa Wola; Szafarnia is where he spent childhood holidays."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "O jaki kwiat Mały Książę dbał na swojej planetce?",
+    "options": [
+      "tulipan",
+      "stokrotka",
+      "róża",
+      "lilia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which flower did the Little Prince care for on his planet? — a rose."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pociąg do Gdyni odjeżdża o 9:40, a podróż trwa 3 godziny i 35 minut. O której będzie na miejscu?",
+    "options": [
+      "12:55",
+      "13:05",
+      "13:15",
+      "13:25"
+    ],
+    "correctIndex": 2,
+    "gloss": "A train leaves at 9:40 and the trip takes 3 h 35 min; when does it arrive? — 13:15."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Chrzest Mieszka I, od którego liczymy początek państwa polskiego, odbył się w roku 966. W którym to wieku?",
+    "options": [
+      "IX wiek",
+      "X wiek",
+      "XI wiek",
+      "XII wiek"
+    ],
+    "correctIndex": 1,
+    "gloss": "Mieszko I was baptised in 966; in which century? — the 10th; the trap is the 9 in 966 (years 901-1000 are the 10th century)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Według legendy książę Lech zobaczył białego orła w gnieździe i w tym miejscu założył swój gród. Jaki?",
+    "options": [
+      "Gniezno",
+      "Kraków",
+      "Poznań",
+      "Płock"
+    ],
+    "correctIndex": 0,
+    "gloss": "According to legend Prince Lech saw a white eagle in its nest and founded his stronghold there. Which? — Gniezno (gniazdo = nest); the legend also explains the white eagle emblem."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który ssak, największy lądowy ssak Europy, jest symbolem Puszczy Białowieskiej?",
+    "options": [
+      "łoś",
+      "niedźwiedź brunatny",
+      "jeleń szlachetny",
+      "żubr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mammal, the largest land mammal of Europe, symbolises Białowieża Forest? — the European bison (żubr)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ile nóg mają łącznie dwa pająki i jedna biedronka?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many legs do two spiders and a ladybird have together? — 22: spiders have 8 legs (not 6, they are not insects), a ladybird has 6."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Jaka liczba kontynuuje ciąg: 2, 6, 12, 20, 30, …?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "correctIndex": 1,
+    "gloss": "What number continues 2, 6, 12, 20, 30? — 42: the differences are 4, 6, 8, 10, 12 (or n x (n+1))."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który król w 1364 roku założył w Krakowie uczelnię, dziś znaną jako Uniwersytet Jagielloński?",
+    "options": [
+      "Władysław Jagiełło",
+      "Bolesław Chrobry",
+      "Kazimierz Wielki",
+      "Stefan Batory"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which king founded in Kraków in 1364 the school now known as the Jagiellonian University? — Casimir the Great; Jagiełło only refounded it in 1400."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "W tłusty czwartek Polacy zajadają się pączkami. Ile dni po tym czwartku wypada Środa Popielcowa?",
+    "options": [
+      "5 dni",
+      "6 dni",
+      "7 dni",
+      "40 dni"
+    ],
+    "correctIndex": 1,
+    "gloss": "On Fat Thursday Poles eat doughnuts. How many days later is Ash Wednesday? — 6: Fat Thursday is the Thursday before Ash Wednesday, so Thursday + 6 days = Wednesday."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dawniej jajka liczono na mendle i kopy: mendel to 15 sztuk, a kopa to 60. Gospodyni kupiła dwa mendle i pół kopy jajek. Ile to sztuk?",
+    "options": [
+      "90",
+      "75",
+      "60",
+      "45"
+    ],
+    "correctIndex": 2,
+    "gloss": "Old Polish counting: a mendel is 15 pieces, a kopa 60. A housewife bought two mendels and half a kopa. How many? — 60: 2 x 15 + 30."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Maria Skłodowska-Curie otrzymała Nagrodę Nobla z chemii za odkrycie dwóch pierwiastków. Których?",
+    "options": [
+      "polon i rad",
+      "polon i uran",
+      "rad i tor",
+      "uran i tor"
+    ],
+    "correctIndex": 0,
+    "gloss": "Maria Skłodowska-Curie won the Chemistry Nobel for discovering two elements. Which? — polonium and radium (uranium and thorium were found by others)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który architekt jest głównym twórcą barcelońskiej bazyliki Sagrada Família, której budowę rozpoczęto w 1882 roku?",
+    "options": [
+      "Le Corbusier",
+      "Antoni Gaudí",
+      "Gustave Eiffel",
+      "Frank Lloyd Wright"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which architect is the chief creator of Barcelona's Sagrada Família, begun in 1882? — Antoni Gaudí."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "W komputerze jeden bajt to 8 bitów, a każdy bit przyjmuje wartość 0 lub 1. Ile różnych wartości można zapisać w jednym bajcie?",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "512"
+    ],
+    "correctIndex": 2,
+    "gloss": "One byte is 8 bits, each 0 or 1. How many different values fit in one byte? — 2^8 = 256."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Którego z tych instrumentów nie ma w klasycznym kwartecie smyczkowym?",
+    "options": [
+      "skrzypce",
+      "altówka",
+      "wiolonczela",
+      "kontrabas"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which instrument is not in a classical string quartet? — the double bass (two violins, viola and cello)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dlaczego dorosłe flamingi mają różowe upierzenie?",
+    "options": [
+      "Od barwników z krewetek i glonów, którymi się żywią",
+      "Od długiego przebywania na słońcu",
+      "Od soli w jeziorach, w których żyją",
+      "Od niskiej temperatury ciała"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why are adult flamingos pink? — from pigments (carotenoids) in the shrimp and algae they eat."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Które z tych państw leży w całości na półkuli południowej?",
+    "options": [
+      "Kenia",
+      "Ekwador",
+      "Indonezja",
+      "Nowa Zelandia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these countries lies entirely in the Southern Hemisphere? — New Zealand; Kenya, Ecuador and Indonesia are all crossed by the equator."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Które z tych słów znalazłoby się w polskim słowniku jako pierwsze?",
+    "options": [
+      "zebra",
+      "ząb",
+      "źrebak",
+      "żaba"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these words comes first in a Polish dictionary? — ząb: in the Polish alphabet ą follows a, so 'zą-' sorts before 'ze-', then ź and ż come last."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który polski film w 2015 roku otrzymał Oscara dla najlepszego filmu nieanglojęzycznego?",
+    "options": [
+      "„Zimna wojna”",
+      "„Pianista”",
+      "„Człowiek z żelaza”",
+      "„Ida”"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Polish film won the Oscar for best non-English-language film in 2015? — 'Ida' (Pawlikowski); 'Cold War' was only nominated."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który król, wybrany w 1573 roku w pierwszej wolnej elekcji, rok później potajemnie opuścił Kraków, by objąć tron Francji?",
+    "options": [
+      "Henryk Walezy",
+      "Stefan Batory",
+      "Zygmunt III Waza",
+      "Michał Korybut Wiśniowiecki"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which king, elected in 1573 in the first free election, secretly left Kraków a year later to take the French throne? — Henry of Valois."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Robert Korzeniowski zdobył cztery złote medale olimpijskie w jednej dyscyplinie lekkoatletycznej. Jakiej?",
+    "options": [
+      "bieg maratoński",
+      "rzut młotem",
+      "skok o tyczce",
+      "chód sportowy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Robert Korzeniowski won four Olympic golds in one athletics discipline. Which? — race walking (20 km and 50 km)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Światło Słońca biegnie do Ziemi około 8 minut. Gdyby Słońce nagle zniknęło, po jakim czasie Ziemia przestałaby krążyć po orbicie i poleciała prosto?",
+    "options": [
+      "Po około 8 minutach",
+      "Natychmiast",
+      "Po około dobie",
+      "Po kilku miesiącach"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. If the Sun vanished, when would Earth stop orbiting? — after about 8 minutes: changes in gravity also travel at the speed of light."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które państwo jest dziś największe w Afryce pod względem powierzchni?",
+    "options": [
+      "Sudan",
+      "Libia",
+      "Demokratyczna Republika Konga",
+      "Algieria"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is now the largest in Africa by area? — Algeria (Sudan lost the title when South Sudan split off in 2011)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nazwę którego języka programowania wzięto od brytyjskiej grupy komików z lat 70.?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Java",
+      "Perl"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which programming language is named after a British comedy troupe of the 1970s? — Python (Monty Python's Flying Circus), not the snake."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Którą z muz w mitologii greckiej uważano za opiekunkę astronomii?",
+    "options": [
+      "Klio",
+      "Talia",
+      "Urania",
+      "Terpsychora"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Greek muse presided over astronomy? — Urania (Clio: history, Thalia: comedy, Terpsichore: dance)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Który z tych owoców jest botanicznie jagodą?",
+    "options": [
+      "truskawka",
+      "banan",
+      "malina",
+      "jeżyna"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these fruits is botanically a berry? — the banana; strawberry, raspberry and blackberry are not true berries."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Słowo „robot” zrobiło światową karierę po czeskiej sztuce teatralnej z początku lat 20. XX wieku. Co oznacza czeskie „robota”, od którego je utworzono?",
+    "options": [
+      "sztuczny człowiek",
+      "maszyna parowa",
+      "przymusowa praca",
+      "mechaniczna zabawka"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Robot' became global after a Czech play of the early 1920s (Čapek's R.U.R.). What does Czech 'robota' mean? — forced labour (corvée)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ośmiornica ma osiem ramion. A ile serc?",
+    "options": [
+      "jedno",
+      "dwa",
+      "trzy",
+      "osiem"
+    ],
+    "correctIndex": 2,
+    "gloss": "An octopus has eight arms. How many hearts? — three."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak nazywał się powołany w 1773 roku polski organ, uważany za pierwsze w Europie ministerstwo oświaty?",
+    "options": [
+      "Towarzystwo Przyjaciół Nauk",
+      "Komisja Edukacji Narodowej",
+      "Collegium Nobilium",
+      "Szkoła Rycerska"
+    ],
+    "correctIndex": 1,
+    "gloss": "What was the Polish body founded in 1773, regarded as Europe's first ministry of education? — the Commission of National Education (KEN)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Za którą powieść Olga Tokarczuk otrzymała w 2018 roku Międzynarodową Nagrodę Bookera?",
+    "options": [
+      "„Księgi Jakubowe”",
+      "„Dom dzienny, dom nocny”",
+      "„Prowadź swój pług przez kości umarłych”",
+      "„Bieguni”"
+    ],
+    "correctIndex": 3,
+    "gloss": "For which novel did Olga Tokarczuk win the 2018 Man Booker International Prize? — 'Flights' (\"Bieguni\")."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W 1978 roku na pierwszą Listę światowego dziedzictwa UNESCO trafiły dwa polskie obiekty. Jednym było Stare Miasto w Krakowie. Jakim drugim?",
+    "options": [
+      "Kopalnia soli w Wieliczce",
+      "Stare Miasto w Zamościu",
+      "Stare Miasto w Warszawie",
+      "Zamek w Malborku"
+    ],
+    "correctIndex": 0,
+    "gloss": "Two Polish sites were on the very first UNESCO list in 1978: Kraków's Old Town and...? — the Wieliczka salt mine (Warsaw 1980, Zamość 1992, Malbork 1997)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z jakiego metalu, o najwyższej temperaturze topnienia ze wszystkich metali, robiono żarniki dawnych żarówek?",
+    "options": [
+      "platyna",
+      "tytan",
+      "wolfram",
+      "żelazo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which metal, with the highest melting point of all metals, was used for old light-bulb filaments? — tungsten (wolfram, melts at about 3,422 °C)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Które z tych mórz jako jedyne nie ma żadnego lądowego brzegu, bo jego granice wyznaczają prądy oceaniczne?",
+    "options": [
+      "Morze Koralowe",
+      "Morze Śródziemne",
+      "Morze Barentsa",
+      "Morze Sargassowe"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these seas has no land shore at all, its borders set by ocean currents? — the Sargasso Sea."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "W 1906 roku kobiety zyskały w jednym kraju pełne prawa wyborcze (głosowanie i kandydowanie), jako pierwsze w Europie. Którym?",
+    "options": [
+      "Finlandia",
+      "Norwegia",
+      "Szwecja",
+      "Wielka Brytania"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 1906 women gained full voting and candidacy rights in one country, the first in Europe. Which? — Finland (Norway 1913, UK 1918/1928, Sweden 1919/1921)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który architekt zaprojektował błyszczące tytanowe Muzeum Guggenheima w Bilbao, otwarte w 1997 roku?",
+    "options": [
+      "Zaha Hadid",
+      "Frank Lloyd Wright",
+      "Renzo Piano",
+      "Frank Gehry"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the shiny titanium Guggenheim Museum in Bilbao (1997)? — Frank Gehry; Wright designed the New York Guggenheim."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Która planeta Układu Słonecznego ma średnią gęstość mniejszą od gęstości wody, więc w odpowiednio wielkim basenie by pływała?",
+    "options": [
+      "Jowisz",
+      "Saturn",
+      "Uran",
+      "Neptun"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet has an average density lower than water, so it would float in a big enough pool? — Saturn (about 0.69 g/cm3)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Po polsku znak @ nazywamy „małpą”, a po włosku „chiocciola”. Jakie zwierzę mają na myśli Włosi?",
+    "options": [
+      "pies",
+      "śledź",
+      "ślimak",
+      "robak"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Polish @ is 'monkey'; in Italian it is 'chiocciola'. Which animal do Italians mean? — a snail."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które państwo wygrało pierwsze piłkarskie mistrzostwa świata w 1930 roku, rozgrywane na własnej ziemi?",
+    "options": [
+      "Urugwaj",
+      "Argentyna",
+      "Brazylia",
+      "Włochy"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country won the first football World Cup in 1930, played on its own soil? — Uruguay (beat Argentina 4-2 in the final)."
+  }
+]

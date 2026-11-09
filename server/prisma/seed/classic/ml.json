@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "രാമസേതു പണിയാൻ മണൽ ചുമന്ന കുഞ്ഞുജീവിയുടെ കഥയിൽ നിന്നുള്ള പഴഞ്ചൊല്ല്: ‘___ കുഞ്ഞും തന്നാലായത്’. വിട്ടുപോയ വാക്ക് ഏത്?",
+    "options": ["ആന", "അണ്ണാൻ", "പൂച്ച", "കാക്ക"],
+    "correctIndex": 1,
+    "gloss": "A proverb from the story of the little creature that carried sand for Rama's bridge: '___'s young one too does what it can'. The missing word? — Squirrel: «അണ്ണാൻ കുഞ്ഞും തന്നാലായത്»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഓണക്കാലത്ത് പ്രജകളെ കാണാൻ പാതാളത്തിൽ നിന്ന് എത്തുന്നുവെന്ന് വിശ്വസിക്കപ്പെടുന്ന രാജാവ് ആര്?",
+    "options": ["രാവണൻ", "ഹരിശ്ചന്ദ്രൻ", "മഹാബലി", "വിക്രമാദിത്യൻ"],
+    "correctIndex": 2,
+    "gloss": "Which king is believed to come up from the netherworld at Onam to see his people? — Mahabali."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ഒരു ഓട്ടമത്സരത്തിൽ രണ്ടാം സ്ഥാനത്ത് ഓടുന്നയാളെ നിങ്ങൾ മറികടന്നു. ഇപ്പോൾ നിങ്ങൾ എത്രാമതാണ്?",
+    "options": ["ഒന്നാമത്", "മൂന്നാമത്", "നാലാമത്", "രണ്ടാമത്"],
+    "correctIndex": 3,
+    "gloss": "In a race you overtake the runner in second place. Where are you now? — Second: you take his place, the leader is still ahead. Autopilot says first."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ഒരു പാറ്റയ്ക്കും ഒരു ചിലന്തിക്കും കൂടി ആകെ എത്ര കാലുകളുണ്ട്?",
+    "options": ["14", "12", "16", "10"],
+    "correctIndex": 0,
+    "gloss": "How many legs do a cockroach and a spider have together? — 14: an insect has 6, a spider 8."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഓണസദ്യ പരമ്പരാഗതമായി വിളമ്പുന്നത് ഏത് ഇലയിലാണ്?",
+    "options": ["തേക്കില", "വാഴയില", "താമരയില", "പ്ലാവില"],
+    "correctIndex": 1,
+    "gloss": "On which leaf is the Onam sadya traditionally served? — Banana leaf. Jackfruit leaf is the trap: it is folded into a spoon for kanji."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "നോ ബോളും വൈഡും ഒഴികെ, ക്രിക്കറ്റിൽ ഒരു ഓവറിൽ എത്ര പന്തുകളാണ് എറിയുന്നത്?",
+    "options": ["4", "5", "8", "6"],
+    "correctIndex": 3,
+    "gloss": "Not counting no-balls and wides, how many balls are bowled in a cricket over? — 6."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ദൃശ്യം’ സിനിമയിൽ കുടുംബത്തെ രക്ഷിക്കാൻ പോലീസിനെ കബളിപ്പിക്കുന്ന ജോർജുകുട്ടിയായി അഭിനയിച്ചതാര്?",
+    "options": ["മമ്മൂട്ടി", "ജയറാം", "മോഹൻലാൽ", "ദിലീപ്"],
+    "correctIndex": 2,
+    "gloss": "In 'Drishyam', who plays Georgekutty, who outwits the police to save his family? — Mohanlal."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ഒരു മുട്ട നന്നായി പുഴുങ്ങാൻ 10 മിനിറ്റ് വേണം. മൂന്ന് മുട്ടകൾ ഒരേ പാത്രത്തിൽ ഒരുമിച്ചിട്ട് പുഴുങ്ങാൻ എത്ര മിനിറ്റ് വേണം?",
+    "options": ["30", "10", "20", "13"],
+    "correctIndex": 1,
+    "gloss": "An egg takes 10 minutes to hard-boil. How many minutes for three eggs boiled together in one pot? — 10: they boil at the same time. 30 is the autopilot answer."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "പിരമിഡുകളുടെ നാടായ ഈജിപ്തിന്റെ ജീവനാഡിയായി ഒഴുകുന്ന നദി ഏത്?",
+    "options": ["ടൈഗ്രിസ്", "ആമസോൺ", "യൂഫ്രട്ടീസ്", "നൈൽ"],
+    "correctIndex": 3,
+    "gloss": "Which river is the lifeline of Egypt, the land of the pyramids? — The Nile. Tigris and Euphrates are the rivers of Mesopotamia."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഇലകൾ സൂര്യപ്രകാശം ഉപയോഗിച്ച് ആഹാരം നിർമ്മിക്കുന്ന പ്രക്രിയയുടെ പേരെന്ത്?",
+    "options": ["പ്രകാശസംശ്ലേഷണം", "സ്വേദനം", "ശ്വസനം", "ബാഷ്പീകരണം"],
+    "correctIndex": 0,
+    "gloss": "What is the process by which leaves make food using sunlight called? — Photosynthesis. Others: transpiration, respiration, evaporation."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "കൊക്കിനു മുകളിൽ കൊമ്പുപോലൊരു തൊപ്പിയുള്ള, കേരളത്തിന്റെ സംസ്ഥാന പക്ഷി ഏത്?",
+    "options": ["മയിൽ", "മലമുഴക്കി വേഴാമ്പൽ", "മലബാർ ചൂളക്കാക്ക", "പൊന്മാൻ"],
+    "correctIndex": 1,
+    "gloss": "Which bird, with a horn-like casque on its beak, is Kerala's state bird? — The great hornbill. The peacock is India's national bird."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "പഴയ കണക്കിൽ ‘കാൽ’ നാലിലൊന്നും ‘അര’ രണ്ടിലൊന്നുമാണ്. എങ്കിൽ ‘അരക്കാൽ’ എത്ര?",
+    "options": ["ആറിലൊന്ന്", "മൂന്നിലൊന്ന്", "എട്ടിലൊന്ന്", "പന്ത്രണ്ടിലൊന്ന്"],
+    "correctIndex": 2,
+    "gloss": "In old reckoning 'kaal' is a quarter and 'ara' a half. So what is 'arakkaal'? — One eighth: half of a quarter. (Three quarters is 'mukkaal'.)"
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘കേരളത്തിന്റെ ജീവരേഖ’ എന്നറിയപ്പെടുന്ന, സംസ്ഥാനത്തെ ഏറ്റവും നീളമേറിയ നദി ഏത്?",
+    "options": ["ഭാരതപ്പുഴ", "പമ്പ", "ചാലിയാർ", "പെരിയാർ"],
+    "correctIndex": 3,
+    "gloss": "Which river, called 'the lifeline of Kerala', is the longest in the state? — Periyar (about 244 km). Bharathapuzha is second."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1498-ൽ കടൽമാർഗം ഇന്ത്യയിലെത്തിയ വാസ്കോ ഡ ഗാമ കപ്പലിറങ്ങിയത് ഏത് നഗരത്തിനടുത്താണ്?",
+    "options": ["കോഴിക്കോട്", "കൊച്ചി", "കണ്ണൂർ", "ആലപ്പുഴ"],
+    "correctIndex": 0,
+    "gloss": "Vasco da Gama reached India by sea in 1498. Near which city did he land? — Kozhikode (Calicut), at Kappad."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ഇംഗ്ലീഷ് അക്ഷരങ്ങളിൽ എഴുതുമ്പോൾ ‘Malayalam’ എന്ന പേരിന് ഒരു കൗതുകമുണ്ട്. എന്താണത്?",
+    "options": ["ഒരക്ഷരവും ആവർത്തിക്കുന്നില്ല", "പിന്നോട്ട് വായിച്ചാലും ഒന്നുതന്നെ", "അഞ്ച് സ്വരാക്ഷരങ്ങളും അതിലുണ്ട്", "അക്ഷരമാലാക്രമത്തിലാണ് അക്ഷരങ്ങൾ"],
+    "correctIndex": 1,
+    "gloss": "Written in English letters, the name 'Malayalam' has a curiosity. What? — It reads the same backwards (a palindrome). Checkable from the word itself."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "നാം ശ്വസിക്കുന്ന വായുവിന്റെ ഏകദേശം അഞ്ചിൽ നാലു ഭാഗവും ഏത് വാതകമാണ്?",
+    "options": ["ഓക്സിജൻ", "നൈട്രജൻ", "കാർബൺ ഡൈ ഓക്സൈഡ്", "ആർഗൺ"],
+    "correctIndex": 1,
+    "gloss": "About four fifths of the air we breathe is which gas? — Nitrogen (about 78%). Oxygen is the tempting guess at about 21%."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ഒരു തടി ഒരു തവണ മുറിക്കാൻ 2 മിനിറ്റ് വേണം. അതിനെ 5 കഷണങ്ങളാക്കാൻ ആകെ എത്ര മിനിറ്റ് വേണം?",
+    "options": ["8", "10", "12", "6"],
+    "correctIndex": 0,
+    "gloss": "One cut through a log takes 2 minutes. How many minutes to cut it into 5 pieces? — 8: five pieces need only four cuts. 10 is the trap."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "പറക്കുമെങ്കിലും വവ്വാൽ പക്ഷിയല്ല. ഏത് ജീവിവിഭാഗത്തിലാണ് അത് ഉൾപ്പെടുന്നത്?",
+    "options": ["ഉരഗങ്ങൾ", "ഉഭയജീവികൾ", "സസ്തനികൾ", "ഷഡ്പദങ്ങൾ"],
+    "correctIndex": 2,
+    "gloss": "A bat flies but is not a bird. Which group of animals does it belong to? — Mammals: it bears live young and suckles them."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഷെർലക് ഹോംസ് എന്ന കുറ്റാന്വേഷകനെ സൃഷ്ടിച്ച എഴുത്തുകാരൻ ആര്?",
+    "options": ["അഗതാ ക്രിസ്റ്റി", "ചാൾസ് ഡിക്കൻസ്", "എഡ്ഗർ അലൻ പോ", "ആർതർ കോനൻ ഡോയൽ"],
+    "correctIndex": 3,
+    "gloss": "Which writer created the detective Sherlock Holmes? — Arthur Conan Doyle. Christie created Poirot, Poe created Dupin."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ചായയിലും കാപ്പിയിലും അടങ്ങിയിട്ടുള്ള, ഉറക്കം അകറ്റുന്ന പദാർത്ഥം ഏത്?",
+    "options": ["കഫീൻ", "ടാനിൻ", "നിക്കോട്ടിൻ", "ഗ്ലൂക്കോസ്"],
+    "correctIndex": 0,
+    "gloss": "Which substance in tea and coffee keeps sleep away? — Caffeine. Tannin is in tea too, but gives the bitter taste, not alertness."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘തിരുവനന്തപുരം’ എന്നാൽ അനന്തന്റെ പുരം. ഏത് ദേവൻ ശയിക്കുന്ന സർപ്പമാണ് അനന്തൻ?",
+    "options": ["ശിവൻ", "ബ്രഹ്മാവ്", "സുബ്രഹ്മണ്യൻ", "വിഷ്ണു"],
+    "correctIndex": 3,
+    "gloss": "'Thiruvananthapuram' means the city of Anantha. On the serpent Anantha, which god reclines? — Vishnu, as Padmanabha in the city's great temple. Shiva is the trap: he wears a serpent."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "അലമാര, കസേര, മേശ, ജനാല — ദിവസവും നാം പറയുന്ന ഈ വാക്കുകൾ മലയാളത്തിലെത്തിയത് ഏത് ഭാഷയിൽ നിന്നാണ്?",
+    "options": ["ഡച്ച്", "പോർച്ചുഗീസ്", "ഇംഗ്ലീഷ്", "അറബി"],
+    "correctIndex": 1,
+    "gloss": "Almirah, chair, table, window — from which language did these everyday Malayalam words come? — Portuguese: armário, cadeira, mesa, janela. The Dutch came to Kerala later."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "മികച്ച ചിത്രത്തിനുള്ള രാഷ്ട്രപതിയുടെ സ്വർണ്ണമെഡൽ ആദ്യമായി മലയാളത്തിലെത്തിച്ച, കടലോരഗ്രാമത്തിന്റെ കഥ പറഞ്ഞ സിനിമ ഏത്?",
+    "options": ["നീലക്കുയിൽ", "ഓളവും തീരവും", "ചെമ്മീൻ", "നിർമ്മാല്യം"],
+    "correctIndex": 2,
+    "gloss": "Which film, set in a fishing village, first brought the President's Gold Medal for Best Film to Malayalam? — Chemmeen (1965). Neelakkuyil won the silver medal; Nirmalyam won Best Film later, in 1973."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "കിളിയെക്കൊണ്ട് കഥ പറയിക്കുന്ന കിളിപ്പാട്ട് രീതിയിൽ രാമായണം എഴുതിയ കവി ആര്?",
+    "options": ["ചെറുശ്ശേരി", "കുഞ്ചൻ നമ്പ്യാർ", "പൂന്താനം", "തുഞ്ചത്ത് എഴുത്തച്ഛൻ"],
+    "correctIndex": 3,
+    "gloss": "Which poet wrote the Ramayana in the kilippattu form, where a parrot tells the story? — Thunchath Ezhuthachan (Adhyatma Ramayanam Kilippattu). Cherusseri wrote Krishnagatha, Poonthanam Jnanappana."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ഒരു ഇഷ്ടികയുടെ ഭാരം ഒരു കിലോയും അര ഇഷ്ടികയുടെ ഭാരവും ചേർന്നതാണ്. ഇഷ്ടികയ്ക്ക് ആകെ എത്ര ഭാരമുണ്ട്?",
+    "options": ["ഒന്നര കിലോ", "രണ്ട് കിലോ", "ഒരു കിലോ", "മൂന്ന് കിലോ"],
+    "correctIndex": 1,
+    "gloss": "A brick weighs one kilo plus half a brick. How much does the brick weigh? — Two kilos: if half a brick is 1 kg, the whole is 2 kg. 1.5 kg is the hasty answer."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ശബ്ദം വായുവിൽ സെക്കൻഡിൽ ഏകദേശം 340 മീറ്റർ സഞ്ചരിക്കും. മിന്നൽ കണ്ട് 3 സെക്കൻഡ് കഴിഞ്ഞാണ് ഇടിമുഴക്കം കേട്ടത്. മിന്നൽ എത്ര അകലെയാണ്?",
+    "options": ["ഏകദേശം 1 കിലോമീറ്റർ", "ഏകദേശം 3 കിലോമീറ്റർ", "ഏകദേശം 340 മീറ്റർ", "ഏകദേശം 100 മീറ്റർ"],
+    "correctIndex": 0,
+    "gloss": "Sound travels about 340 m per second. Thunder came 3 seconds after the flash. How far away was the lightning? — About 1 km: 3 × 340 ≈ 1,020 m (the light arrives almost instantly)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ആഫ്രിക്കയിലെ ഏറ്റവും ഉയരമുള്ള കൊടുമുടിയായ കിളിമഞ്ചാരോ ഏത് രാജ്യത്താണ്?",
+    "options": ["കെനിയ", "ടാൻസാനിയ", "ഉഗാണ്ട", "എത്യോപ്യ"],
+    "correctIndex": 1,
+    "gloss": "Kilimanjaro, Africa's highest peak, is in which country? — Tanzania. Kenya is the trap: the famous views of it are from Kenya's Amboseli."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "കേൾവിശക്തി ഏതാണ്ട് പൂർണമായി നഷ്ടപ്പെട്ട ശേഷം ഒമ്പതാം സിംഫണി രചിച്ച സംഗീതജ്ഞൻ ആര്?",
+    "options": ["മൊസാർട്ട്", "ബാക്ക്", "ബീഥോവൻ", "ഷൂബർട്ട്"],
+    "correctIndex": 2,
+    "gloss": "Which composer wrote his Ninth Symphony after almost completely losing his hearing? — Beethoven."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "എ.ടി.എം. പിൻ നാലക്കമാണ്; ഓരോ സ്ഥാനത്തും 0 മുതൽ 9 വരെ ഏതക്കവും വരാം, ആവർത്തിക്കുകയും ചെയ്യാം. ആകെ എത്ര വ്യത്യസ്ത പിൻ സാധ്യമാണ്?",
+    "options": ["9,999", "5,040", "10,000", "40"],
+    "correctIndex": 2,
+    "gloss": "An ATM PIN has four digits, each 0-9, repeats allowed. How many different PINs are possible? — 10,000: 0000 to 9999. 9,999 forgets 0000; 5,040 forbids repeats."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ഇന്ത്യയിൽ ഉച്ചയ്ക്ക് 12 മണിയാകുമ്പോൾ ഗ്രീൻവിച്ച് സമയം (GMT) എത്രയായിരിക്കും?",
+    "options": ["രാവിലെ 6:30", "വൈകിട്ട് 5:30", "രാവിലെ 7:00", "രാവിലെ 5:30"],
+    "correctIndex": 0,
+    "gloss": "When it is noon in India, what is Greenwich Mean Time? — 6:30 a.m.: IST is GMT + 5:30, and India is ahead, so subtract. 5:30 p.m. is the trap of adding."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "കഥകളിയിൽ കൃഷ്ണൻ, അർജുനൻ, നളൻ തുടങ്ങിയ ധീരോദാത്ത നായകന്മാർക്കുള്ള വേഷം ഏത്?",
+    "options": ["കത്തി", "കരി", "മിനുക്ക്", "പച്ച"],
+    "correctIndex": 3,
+    "gloss": "In Kathakali, which make-up type is used for noble heroes like Krishna, Arjuna and Nala? — Pacha (green). Kathi is for arrogant villains, Kari for forest dwellers and demonesses, Minukku for women and sages."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "മലയാള മാസങ്ങൾക്ക് രാശികളുടെ പേരാണ്: ‘മീനം’ മത്സ്യവും ‘വൃശ്ചികം’ തേളുമാണ്. എങ്കിൽ ‘കർക്കടകം’ ഏത് ജീവിയാണ്?",
+    "options": ["ആമ", "ഞണ്ട്", "മുതല", "പാമ്പ്"],
+    "correctIndex": 1,
+    "gloss": "Malayalam months are named after zodiac signs: Meenam is the fish, Vrischikam the scorpion. So which creature is Karkidakam? — The crab: Sanskrit karkata, the sign Cancer."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "കേരളത്തിലെ പതിനാല് ജില്ലകളിൽ ഒമ്പതെണ്ണത്തിന് കടൽത്തീരമുണ്ട്. ഇവയിൽ ഏത് ജില്ലയ്ക്കാണ് കടൽത്തീരമുള്ളത്?",
+    "options": ["മലപ്പുറം", "ഇടുക്കി", "കോട്ടയം", "വയനാട്"],
+    "correctIndex": 0,
+    "gloss": "Nine of Kerala's 14 districts have a sea coast. Which of these does? — Malappuram (Ponnani, Tanur). Idukki and Wayanad are hill districts; Kottayam is the trap: it touches Vembanad Lake, not the sea."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഇന്ത്യയിലെ ആദ്യത്തെ ജ്ഞാനപീഠ പുരസ്കാരം (1965) ഒരു മലയാള കൃതിക്കായിരുന്നു. ഏത് കൃതിക്ക്?",
+    "options": ["ഒരു ദേശത്തിന്റെ കഥ", "ഓടക്കുഴൽ", "ഖസാക്കിന്റെ ഇതിഹാസം", "കയർ"],
+    "correctIndex": 1,
+    "gloss": "India's first Jnanpith Award (1965) went to a Malayalam work. Which? — Odakkuzhal by G. Sankara Kurup. Pottekkatt (Oru Desathinte Katha) and Thakazhi won it later."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഫാക്ടറികളിൽ കാർ ഘടകങ്ങൾ തിരിച്ചറിയാനായി QR കോഡ് ആദ്യം വികസിപ്പിച്ചത് ഏത് രാജ്യത്താണ്?",
+    "options": ["ദക്ഷിണ കൊറിയ", "ജർമ്മനി", "അമേരിക്ക", "ജപ്പാൻ"],
+    "correctIndex": 3,
+    "gloss": "In which country was the QR code first developed, to track car parts in factories? — Japan: Denso Wave, 1994."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "18 ഗ്രാം വെള്ളത്തിൽ (H₂O) ഹൈഡ്രജന്റെ ഭാരം എത്രയാണ്?",
+    "options": ["1 ഗ്രാം", "2 ഗ്രാം", "9 ഗ്രാം", "16 ഗ്രാം"],
+    "correctIndex": 1,
+    "gloss": "How much of 18 g of water (H2O) is hydrogen? — 2 g: two hydrogens of mass 1 and one oxygen of 16 make 18, so hydrogen is 2 of the 18."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1519-ൽ മഗല്ലൻ നയിച്ച് പുറപ്പെട്ട കപ്പൽപ്പട ലോകം ചുറ്റി സ്പെയിനിൽ തിരിച്ചെത്തുമ്പോൾ മഗല്ലൻ ജീവിച്ചിരുന്നില്ല. ശേഷിച്ച കപ്പലിനെ നയിച്ചതാര്?",
+    "options": ["ഹുവാൻ സെബാസ്റ്റ്യൻ എൽക്കാനോ", "ഫ്രാൻസിസ് ഡ്രേക്ക്", "അമേരിഗോ വെസ്പുച്ചി", "ബർത്തലോമിയോ ഡയസ്"],
+    "correctIndex": 0,
+    "gloss": "Magellan's fleet set out in 1519 and circled the globe, but he did not live to return. Who led the surviving ship home to Spain? — Juan Sebastián Elcano (the Victoria, 1522). Drake was the second to circumnavigate."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1882-ൽ പണി തുടങ്ങിയ ബാഴ്സലോണയിലെ സഗ്രദ ഫമീലിയ ദേവാലയം രൂപകൽപന ചെയ്ത വാസ്തുശില്പി ആര്?",
+    "options": ["ലെ കൊർബ്യുസിയേ", "അന്റോണി ഗൗഡി", "ഫ്രാങ്ക് ലോയ്ഡ് റൈറ്റ്", "സഹ ഹദീദ്"],
+    "correctIndex": 1,
+    "gloss": "Which architect designed Barcelona's Sagrada Família, begun in 1882? — Antoni Gaudí."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഗ്രീക്ക് പുരാണത്തിൽ ദേവന്മാരിൽ നിന്ന് തീ മോഷ്ടിച്ച് മനുഷ്യർക്ക് നൽകിയതിന് ശിക്ഷിക്കപ്പെട്ടതാര്?",
+    "options": ["ഹെർമിസ്", "അറ്റ്ലസ്", "പ്രൊമിത്യൂസ്", "ഹെഫേസ്റ്റസ്"],
+    "correctIndex": 2,
+    "gloss": "In Greek myth, who was punished for stealing fire from the gods and giving it to humans? — Prometheus. Hephaestus is the god of fire (the trap); Atlas was punished for another reason."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "റോമൻ അക്കങ്ങളിൽ MCM എന്ന് എഴുതുന്നത് ഏത് സംഖ്യയാണ്?",
+    "options": ["1900", "2100", "1100", "1400"],
+    "correctIndex": 0,
+    "gloss": "Which number is MCM in Roman numerals? — 1900: M = 1000, and CM = 900 because C before M is subtracted. 2100 is the trap of adding everything."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "നാലു ദിവസങ്ങളായി ആടുന്ന ‘നളചരിതം’ ആട്ടക്കഥ എഴുതിയതാര്?",
+    "options": ["കോട്ടയത്ത് തമ്പുരാൻ", "ഇരയിമ്മൻ തമ്പി", "ഉണ്ണായി വാരിയർ", "കുഞ്ചൻ നമ്പ്യാർ"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the Kathakali play 'Nalacharitham', performed over four days? — Unnayi Warrier. Kottayathu Thampuran and Irayimman Thampi wrote other attakathas; Kunchan Nambiar wrote thullal."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1930-ൽ കഥകളിക്കും മറ്റു കേരളീയ കലകൾക്കും പുതുജീവൻ നൽകാൻ കേരള കലാമണ്ഡലം സ്ഥാപിക്കാൻ മുൻകൈയെടുത്ത മഹാകവി ആര്?",
+    "options": ["ഉള്ളൂർ എസ്. പരമേശ്വരയ്യർ", "കുമാരനാശാൻ", "ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള", "വള്ളത്തോൾ നാരായണമേനോൻ"],
+    "correctIndex": 3,
+    "gloss": "Which great poet led the founding of Kerala Kalamandalam in 1930 to revive Kathakali and other Kerala arts? — Vallathol Narayana Menon. Kumaranasan had died in 1924."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "യൂറോപ്പിനും നൂറ്റാണ്ടുകൾക്ക് മുമ്പ് പൈയുടെ മൂല്യത്തിനുള്ള അനന്തശ്രേണി കണ്ടെത്തിയ, കേരളീയ ഗണിതശാസ്ത്ര സരണിയുടെ സ്ഥാപകനായി കണക്കാക്കപ്പെടുന്നതാര്?",
+    "options": ["ആര്യഭടൻ", "സംഗമഗ്രാമ മാധവൻ", "ഭാസ്കരാചാര്യർ", "ബ്രഹ്മഗുപ്തൻ"],
+    "correctIndex": 1,
+    "gloss": "Who, centuries before Europe, found an infinite series for pi and is regarded as the founder of the Kerala school of mathematics? — Madhava of Sangamagrama (14th century), hence the 'Madhava–Leibniz series'."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "കൊല്ലവർഷം 1000 ആരംഭിച്ചത് ക്രിസ്തുവർഷം ഏതിലാണ്?",
+    "options": ["1825", "1824", "1826", "1724"],
+    "correctIndex": 1,
+    "gloss": "In which Common Era year did Kollam Era year 1000 begin? — 1824: year 1 began in 825 CE, so year 1000 began 999 years later. 1825 is the trap of adding 1000 to 825."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "സൂര്യൻ ഈ നിമിഷം പെട്ടെന്ന് അണഞ്ഞുപോയെന്ന് കരുതുക. ഭൂമിയിലുള്ളവർ അത് അറിയുന്നത് ഏകദേശം എത്ര സമയം കഴിഞ്ഞാകും?",
+    "options": ["8 സെക്കൻഡ്", "8 മണിക്കൂർ", "ഉടൻതന്നെ", "8 മിനിറ്റ്"],
+    "correctIndex": 3,
+    "gloss": "Suppose the Sun went out this instant. Roughly how long until people on Earth notice? — About 8 minutes: sunlight takes about 8 min 20 s to cover 150 million km."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഭൂമധ്യരേഖയും ദക്ഷിണായനരേഖയും ഒരുപോലെ കടന്നുപോകുന്ന ലോകത്തിലെ ഏക രാജ്യം ഏത്?",
+    "options": ["ഇക്വഡോർ", "ഇന്തോനേഷ്യ", "ബ്രസീൽ", "കെനിയ"],
+    "correctIndex": 2,
+    "gloss": "Which is the only country crossed by both the Equator and the Tropic of Capricorn? — Brazil. Ecuador, Indonesia and Kenya lie on the Equator only."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഇന്നത്തെ ഒരു സാധാരണ പിയാനോയിൽ വെളുപ്പും കറുപ്പും ചേർത്ത് ആകെ എത്ര കീകളുണ്ട്?",
+    "options": ["88", "76", "96", "64"],
+    "correctIndex": 0,
+    "gloss": "How many keys, white and black together, does a standard modern piano have? — 88: 52 white and 36 black."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "റൊസെറ്റ ശിലയുടെ സഹായത്തോടെ 1822-ൽ ഈജിപ്ഷ്യൻ ചിത്രലിപിയുടെ രഹസ്യം തുറന്ന പണ്ഡിതൻ ആര്?",
+    "options": ["ഹോവാർഡ് കാർട്ടർ", "ഹൈൻറിച്ച് ഷ്ലീമാൻ", "ആർതർ ഇവാൻസ്", "ഷാൻ-ഫ്രാൻസ്വാ ഷാംപൊല്യോൺ"],
+    "correctIndex": 3,
+    "gloss": "Who, with the help of the Rosetta Stone, deciphered Egyptian hieroglyphs in 1822? — Jean-François Champollion. The others are archaeologists: Carter (Tutankhamun), Schliemann (Troy), Evans (Knossos)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "സെർവാന്റിസിന്റെ ഡോൺ ക്വിക്സോട്ട് സവാരി ചെയ്യുന്ന മെലിഞ്ഞ കുതിരയുടെ പേരെന്ത്?",
+    "options": ["ബ്യൂസെഫാലസ്", "റോസിനാന്റെ", "ഷാഡോഫാക്സ്", "മാരെംഗോ"],
+    "correctIndex": 1,
+    "gloss": "What is the name of the scrawny horse Cervantes's Don Quixote rides? — Rocinante. Bucephalus was Alexander's, Shadowfax Gandalf's, Marengo Napoleon's."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ലത്തീനിൽ ‘septem’ എന്നാൽ ഏഴ്. എന്നിട്ടും സെപ്റ്റംബർ ഒമ്പതാം മാസമായതിന് കാരണമെന്ത്?",
+    "options": ["പഴയ റോമൻ വർഷം മാർച്ചിലാണ് തുടങ്ങിയിരുന്നത്", "ജൂലിയസ് സീസർ രണ്ട് പുതിയ മാസങ്ങൾ ഇടയ്ക്ക് ചേർത്തു", "മാർപ്പാപ്പ മാസങ്ങളുടെ ക്രമം മാറ്റി", "പകർത്തിയെഴുത്തിലെ ഒരു പിശക് സ്ഥിരമായി"],
+    "correctIndex": 0,
+    "gloss": "In Latin 'septem' means seven. Why then is September the ninth month? — The early Roman year began in March, making September the seventh (October, November, December likewise). Caesar added no months: July was renamed from Quintilis."
+  }
+]
