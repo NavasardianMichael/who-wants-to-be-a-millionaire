@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "สำนวนที่สอนให้รีบคว้าโอกาสเมื่อมันมาถึงคือ “น้ำขึ้นให้รีบ…” คำที่หายไปคือคำใด",
+    "options": ["ว่าย", "พาย", "ตัก", "ข้าม"],
+    "correctIndex": 2,
+    "gloss": "The saying that teaches you to seize a chance is 'When the water rises, hurry to…' what? — Scoop (ตัก): «น้ำขึ้นให้รีบตัก»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ถ้าอยากใส่เสื้อให้ตรงกับสีประจำวันจันทร์ตามความเชื่อของไทย ควรเลือกเสื้อสีใด",
+    "options": ["ชมพู", "เขียว", "ส้ม", "เหลือง"],
+    "correctIndex": 3,
+    "gloss": "To wear Monday's colour by Thai custom, which colour shirt? — Yellow. Pink is Tuesday, green Wednesday, orange Thursday."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ตามตำนาน พิซซามาร์เกริตาใช้มะเขือเทศ มอซซาเรลลา และใบโหระพา เพื่อให้มีสีแดง ขาว เขียว เหมือนธงชาติของประเทศใด",
+    "options": ["อิตาลี", "ฝรั่งเศส", "สเปน", "กรีซ"],
+    "correctIndex": 0,
+    "gloss": "By legend, pizza Margherita's tomato, mozzarella and basil copy the red, white and green of which flag? — Italy."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ศิลาจารึกหลักที่ 1 บันทึกว่ากษัตริย์พระองค์ใดทรงคิดประดิษฐ์ “ลายสือไทย” ขึ้นเมื่อ พ.ศ. 1826",
+    "options": ["พ่อขุนศรีอินทราทิตย์", "พ่อขุนรามคำแหงมหาราช", "พญาลิไท", "สมเด็จพระรามาธิบดีที่ 1"],
+    "correctIndex": 1,
+    "gloss": "Inscription No. 1 says which king devised the Thai script in BE 1826 (1283)? — King Ramkhamhaeng. The others are his father, a later Sukhothai king and Ayutthaya's founder."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ชื่อเดือนไทยบอกจำนวนวันได้ เดือนที่ลงท้ายด้วย “-ยน” มี 30 วัน ส่วนเดือนที่ลงท้ายด้วย “-คม” มี 31 วัน เดือนใดต่อไปนี้มี 31 วัน",
+    "options": ["กันยายน", "ตุลาคม", "พฤศจิกายน", "มิถุนายน"],
+    "correctIndex": 1,
+    "gloss": "Thai month names tell their length: '-yon' months have 30 days, '-khom' months 31. Which has 31? — October (ตุลาคม), the only '-khom' month listed."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "แมงมุม 2 ตัวกับผึ้ง 3 ตัวอยู่ในกล่องเดียวกัน นับขารวมกันได้กี่ขา",
+    "options": ["30 ขา", "32 ขา", "34 ขา", "36 ขา"],
+    "correctIndex": 2,
+    "gloss": "Two spiders and three bees in a box: how many legs? — 34: 2×8 + 3×6. Counting the spider as a six-legged insect gives the trap 30."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "นกเพนกวินจักรพรรดิ เพนกวินตัวใหญ่ที่สุดในโลก วางไข่และเลี้ยงลูกบนน้ำแข็งของทวีปใด",
+    "options": ["ออสเตรเลีย", "อเมริกาใต้", "แอฟริกา", "แอนตาร์กติกา"],
+    "correctIndex": 3,
+    "gloss": "Emperor penguins lay eggs and raise chicks on the ice of which continent? — Antarctica (other penguins live in Australia, South America and Africa)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "พับกระดาษแผ่นหนึ่งครึ่งหนึ่ง แล้วพับครึ่งซ้ำอีกครั้ง จากนั้นเจาะรูทะลุหนึ่งรูโดยไม่โดนรอยพับ เมื่อคลี่ออกจะเห็นรูกี่รู",
+    "options": ["2 รู", "3 รู", "4 รู", "8 รู"],
+    "correctIndex": 2,
+    "gloss": "Fold a sheet in half, then in half again, punch one hole away from the folds: how many holes when unfolded? — 4: two folds make four layers."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "บนคอมพิวเตอร์ส่วนใหญ่ การกด Ctrl + C มีไว้ทำอะไรกับข้อความที่เลือกไว้",
+    "options": ["ตัด", "คัดลอก", "วาง", "ลบ"],
+    "correctIndex": 1,
+    "gloss": "On most computers, what does Ctrl + C do to selected text? — Copy (Ctrl+X cuts, Ctrl+V pastes)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ในรามเกียรติ์ ทหารเอกของพระรามที่เป็นลิงเผือกและหาวเป็นดาวเป็นเดือนได้คือใคร",
+    "options": ["สุครีพ", "องคต", "หนุมาน", "ชมพูพาน"],
+    "correctIndex": 2,
+    "gloss": "In the Ramakien, Rama's champion, the white monkey who yawns out stars and moons, is who? — Hanuman. The others are monkey allies too."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“คำผวน” คือการสลับเสียงสระและตัวสะกดระหว่างพยางค์หน้ากับพยางค์หลัง เช่น “ตะปู” ผวนเป็น “ตูปะ” ถ้าผวนคำว่า “สายลม” จะได้คำใด",
+    "options": ["ลมสาย", "สมลาย", "สายลาย", "ลายสม"],
+    "correctIndex": 1,
+    "gloss": "A 'kham phuan' swaps the vowel-and-final of the first and last syllables (ta-pu -> tu-pa). What is 'sai-lom' spooned? — 'som-lai': s+om, l+ai. 'lom-sai' just swaps the words."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ตอนนี้เป็นเวลาสองทุ่มตรง อีกห้าชั่วโมงข้างหน้าจะเป็นเวลาใด",
+    "options": ["ห้าทุ่ม", "เที่ยงคืน", "ตีหนึ่ง", "ตีสอง"],
+    "correctIndex": 2,
+    "gloss": "It is exactly 'song thum' now; what time is it in five hours? — 'ti nueng': 2 thum is 20:00, plus 5 hours is 01:00. Needs the Thai six-hour clock."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "มนุษย์เหยียบดวงจันทร์ครั้งแรกในปี ค.ศ. 1969 ปีนั้นตรงกับ พ.ศ. ใด",
+    "options": ["พ.ศ. 2512", "พ.ศ. 2502", "พ.ศ. 2522", "พ.ศ. 2426"],
+    "correctIndex": 0,
+    "gloss": "Humans first walked on the Moon in AD 1969. Which Buddhist Era year is that? — BE 2512: add 543. 2426 is the trap of subtracting."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "คำใดเติมข้างหน้าได้ครบทั้งสามคำจนเกิดเป็นคำที่มีความหมาย …น้ำ …ไก่ …ชิ้น",
+    "options": ["แม่", "หัว", "เนื้อ", "ลูก"],
+    "correctIndex": 3,
+    "gloss": "Which word fits before all three: …water, …chicken, …piece? — ลูก: ลูกน้ำ (mosquito larva), ลูกไก่ (chick), ลูกชิ้น (meatball). แม่ fits the first two only."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "เครื่องดนตรีพื้นบ้านอีสานชนิดใดทำจากไม้ซางหลายลำเรียงเป็นแพ แล้วใช้ปากเป่า",
+    "options": ["พิณ", "โปงลาง", "แคน", "ซึง"],
+    "correctIndex": 2,
+    "gloss": "Which Isan folk instrument is made of bamboo pipes set in a raft and blown by mouth? — The khaen. Phin and sueng are lutes, pong lang a log xylophone."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในกีฬาเทนนิส ผู้เล่นได้แต้มจาก 0 เป็น 15 แล้วเป็น 30 แต้มถัดไปนับเป็นเท่าใด",
+    "options": ["35", "40", "45", "50"],
+    "correctIndex": 1,
+    "gloss": "In tennis the score goes 0, 15, 30… what next? — 40, not the 45 the pattern suggests."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในการ์ตูน “เดอะ ไลอ้อน คิง” ลูกสิงโตตัวเอกที่เติบโตมาเป็นราชาชื่ออะไร",
+    "options": ["มูฟาซา", "สการ์", "ซิมบ้า", "นาลา"],
+    "correctIndex": 2,
+    "gloss": "In The Lion King, the lion cub hero who grows up to be king is called? — Simba. Mufasa is his father, Scar his uncle, Nala his friend."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ค้างคาวบินได้ก็จริง แต่จัดเป็นสัตว์จำพวกใด",
+    "options": ["นก", "สัตว์เลื้อยคลาน", "สัตว์สะเทินน้ำสะเทินบก", "สัตว์เลี้ยงลูกด้วยนม"],
+    "correctIndex": 3,
+    "gloss": "Bats fly, but what class of animal are they? — Mammals: they bear live young and nurse them."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ถ้าวันที่ 1 มกราคมของปีหนึ่งเป็นวันศุกร์ วันที่ 30 มกราคมปีเดียวกันจะเป็นวันอะไร",
+    "options": ["วันพฤหัสบดี", "วันเสาร์", "วันศุกร์", "วันอาทิตย์"],
+    "correctIndex": 1,
+    "gloss": "If 1 January is a Friday, what day is 30 January? — Saturday: 29 days later is four whole weeks plus one day. 'Friday' is the trap of counting 28."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในบรรดาสมาชิกอาเซียน ประเทศใดเป็นประเทศเดียวที่ไม่มีทางออกสู่ทะเล",
+    "options": ["กัมพูชา", "เมียนมา", "บรูไน", "ลาว"],
+    "correctIndex": 3,
+    "gloss": "Which is the only ASEAN member with no coastline? — Laos."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ชื่อเต็มของกรุงเทพฯ ในปัจจุบันขึ้นต้นว่า “กรุงเทพมหานคร” คำที่ตามมาเป็นคำที่สองคือคำใด",
+    "options": ["บวรรัตนโกสินทร์", "อมรรัตนโกสินทร์", "มหินทรายุธยา", "ศรีอยุธยา"],
+    "correctIndex": 1,
+    "gloss": "Bangkok's current full name begins 'Krung Thep Maha Nakhon'; which word comes second? — Amon Rattanakosin. 'Bowon Rattanakosin' was the form before King Mongkut changed it; Mahinthara Ayutthaya comes third."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "แม่น้ำปิงกับแม่น้ำน่านไหลมาบรรจบกันเกิดเป็นแม่น้ำเจ้าพระยาที่จังหวัดใด",
+    "options": ["พิษณุโลก", "ชัยนาท", "อุทัยธานี", "นครสวรรค์"],
+    "correctIndex": 3,
+    "gloss": "In which province do the Ping and Nan meet to form the Chao Phraya? — Nakhon Sawan, at Pak Nam Pho."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ขนมจีน” ที่กินกับน้ำยาหรือแกงเขียวหวาน แม้ชื่อจะมีคำว่าจีน แต่เส้นทำจากอะไร",
+    "options": ["ข้าวเจ้า", "ข้าวเหนียว", "ข้าวสาลี", "ถั่วเขียว"],
+    "correctIndex": 0,
+    "gloss": "Khanom chin, eaten with nam ya or green curry, has 'Chinese' in its name, but its noodles are made of what? — Ordinary (non-glutinous) rice. Mung bean makes glass noodles."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ปี พ.ศ. 2567 เป็นปีมะโรง ปี พ.ศ. 2569 จะเป็นปีนักษัตรของสัตว์ชนิดใด",
+    "options": ["งู", "แพะ", "ม้า", "ลิง"],
+    "correctIndex": 2,
+    "gloss": "BE 2567 (2024) was the Year of the Dragon; which animal is BE 2569 (2026)? — Horse (มะเมีย): dragon, then snake (2568), then horse."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ตัวต่อพลาสติก LEGO ซึ่งชื่อมาจากวลีที่แปลว่า “เล่นให้สนุก” ในภาษาท้องถิ่น ถือกำเนิดในประเทศใด",
+    "options": ["สวีเดน", "เยอรมนี", "เนเธอร์แลนด์", "เดนมาร์ก"],
+    "correctIndex": 3,
+    "gloss": "LEGO, named from a local phrase meaning 'play well', was born in which country? — Denmark ('leg godt')."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ลูกบาศก์ไม้ทาสีทั้งหกด้าน แล้วตัดเป็นลูกบาศก์เล็กขนาดเท่ากัน 27 ลูก จะมีลูกเล็กกี่ลูกที่มีสีติดอยู่สามด้าน",
+    "options": ["1 ลูก", "6 ลูก", "8 ลูก", "12 ลูก"],
+    "correctIndex": 2,
+    "gloss": "A wooden cube painted on all six faces is cut into 27 equal cubes; how many have paint on three faces? — 8, the corners. 6 have one painted face, 12 have two, 1 has none."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "เดือนมิถุนายนเป็นช่วงที่กลางวันในประเทศไทยยาวที่สุดของปี ขณะนั้นที่นครซิดนีย์ ประเทศออสเตรเลีย เป็นฤดูอะไร",
+    "options": ["ฤดูร้อน", "ฤดูใบไม้ผลิ", "ฤดูใบไม้ร่วง", "ฤดูหนาว"],
+    "correctIndex": 3,
+    "gloss": "June brings Thailand its longest days; what season is it then in Sydney? — Winter: Sydney is in the southern hemisphere, so its seasons are reversed."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "นักบินอวกาศที่มีมวล 60 กิโลกรัมบนโลก เมื่อไปยืนบนดวงจันทร์ซึ่งมีแรงโน้มถ่วงราวหนึ่งในหกของโลก มวลของเขาจะเป็นเท่าใด",
+    "options": ["10 กก.", "60 กก.", "100 กก.", "360 กก."],
+    "correctIndex": 1,
+    "gloss": "An astronaut of mass 60 kg stands on the Moon, where gravity is about one sixth of Earth's. What is his mass? — Still 60 kg: weight changes, mass does not. 10 kg is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ไวโอลินคอนแชร์โตชุด “สี่ฤดู” เป็นผลงานของคีตกวีชาวอิตาลีคนใด",
+    "options": ["วีวัลดี", "กอเรลลี", "อัลบีโนนี", "สการ์ลัตตี"],
+    "correctIndex": 0,
+    "gloss": "The violin concertos 'The Four Seasons' are by which Italian composer? — Vivaldi. The others are Italian Baroque composers too."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "สัตว์ชนิดใดมีหัวใจถึงสามดวงและมีเลือดสีน้ำเงิน",
+    "options": ["หมึกยักษ์", "ปลาดาว", "แมงกะพรุน", "ปลาไหล"],
+    "correctIndex": 0,
+    "gloss": "Which animal has three hearts and blue blood? — The octopus (copper-based haemocyanin). Starfish and jellyfish have no heart at all."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "คำว่า “อาลัย” ใน “หิมาลัย” และใน “มหาวิทยาลัย” มีความหมายเดียวกัน ความหมายนั้นคืออะไร",
+    "options": ["ความห่วงหาอาวรณ์", "ยอดสูงสุด", "ที่อยู่อาศัย", "ความรู้"],
+    "correctIndex": 2,
+    "gloss": "'Alai' means the same in 'Himalai' (Himalaya) and 'mahawitthayalai' (university). What? — Abode (Sanskrit ālaya): abode of snow, great abode of knowledge. The everyday Thai 'alai' (longing) is the trap; 'knowledge' is วิทยา."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "บึงกาฬ จังหวัดที่ตั้งขึ้นล่าสุดของไทยเมื่อ พ.ศ. 2554 แยกตัวออกมาจากจังหวัดใด",
+    "options": ["หนองคาย", "อุดรธานี", "นครพนม", "สกลนคร"],
+    "correctIndex": 0,
+    "gloss": "Bueng Kan, Thailand's newest province (2011), was split off from which province? — Nong Khai."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "มรดกภูมิปัญญาทางวัฒนธรรมรายการแรกของไทยที่ยูเนสโกขึ้นทะเบียนเป็นมรดกทางวัฒนธรรมที่จับต้องไม่ได้คืออะไร",
+    "options": ["นวดไทย", "โขน", "โนรา", "ประเพณีสงกรานต์"],
+    "correctIndex": 1,
+    "gloss": "What was Thailand's first element on UNESCO's intangible heritage list? — Khon (2018). Nuad Thai followed in 2019, Nora in 2021, Songkran in 2023."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ภาพยนตร์ไทยเรื่องแรกที่คว้ารางวัลปาล์มทองคำจากเทศกาลภาพยนตร์เมืองคานส์คือเรื่องใด",
+    "options": ["สัตว์ประหลาด!", "ฟ้าทะลายโจร", "ลุงบุญมีระลึกชาติ", "แสงศตวรรษ"],
+    "correctIndex": 2,
+    "gloss": "Which was the first Thai film to win the Palme d'Or at Cannes? — Uncle Boonmee Who Can Recall His Past Lives (2010). Tropical Malady won the Jury Prize in 2004."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "เครื่องบินออกจากโตเกียวเวลา 20.00 น. บินตรงไปโฮโนลูลูซึ่งอยู่อีกฟากหนึ่งของเส้นแบ่งเขตวันสากล ใช้เวลา 7 ชั่วโมง ตามเวลาท้องถิ่นจะถึงเมื่อใด",
+    "options": ["เช้าวันเดียวกัน ก่อนเวลาที่ออกเดินทาง", "เช้าวันรุ่งขึ้น", "เช้าวันถัดไปอีกสองวัน", "เช้าของวันก่อนหน้า"],
+    "correctIndex": 0,
+    "gloss": "A plane leaves Tokyo at 20:00 and flies 7 hours to Honolulu, across the International Date Line. When does it land, local time? — The morning of the same date, 'before' it left: 03:00 next day Tokyo time, minus a day for crossing the line eastward (08:00 local, Honolulu being 19 hours behind)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "เห็นฟ้าแลบแล้วอีก 3 วินาทีจึงได้ยินเสียงฟ้าร้อง ฟ้าแลบครั้งนั้นอยู่ห่างออกไปประมาณเท่าใด",
+    "options": ["100 เมตร", "1 กิโลเมตร", "3 กิโลเมตร", "10 กิโลเมตร"],
+    "correctIndex": 1,
+    "gloss": "Thunder is heard 3 seconds after the flash; how far away was the lightning? — About 1 km: sound travels about 340 m/s, light arrives almost instantly."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ใครคือผู้นำคณะสำรวจกลุ่มแรกที่ไปถึงขั้วโลกใต้ได้สำเร็จ",
+    "options": ["โรเบิร์ต สกอตต์", "เออร์เนสต์ แชกเคิลตัน", "ฟริดท์จอฟ นานเซน", "โรอัลด์ อามุนด์เซน"],
+    "correctIndex": 3,
+    "gloss": "Who led the first expedition to reach the South Pole? — Roald Amundsen (December 1911), a month ahead of Scott."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "กุสตาฟ ไอเฟล วิศวกรผู้สร้างหอไอเฟล ยังเป็นผู้ออกแบบโครงเหล็กด้านในของสิ่งก่อสร้างชื่อดังใด",
+    "options": ["เทพีเสรีภาพ", "ประตูชัยแห่งปารีส", "หอนาฬิกาบิ๊กเบน", "สะพานทาวเวอร์บริดจ์"],
+    "correctIndex": 0,
+    "gloss": "Gustave Eiffel, engineer of the Eiffel Tower, also designed the inner iron frame of which landmark? — The Statue of Liberty."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "นวนิยาย “ดอนกิโฆเต้” เรื่องของอัศวินผู้ต่อสู้กับกังหันลม เป็นผลงานของนักเขียนคนใด",
+    "options": ["โลเป เด เบกา", "ฟรันซิสโก เด เกเบโด", "เปโดร กัลเดรอน เด ลา บาร์กา", "มิเกล เด เซร์บันเตส"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Don Quixote', the knight who fights windmills? — Miguel de Cervantes. The others are Spanish Golden Age writers too."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในบรรดาสิ่งประดิษฐ์เหล่านี้ อย่างใดเกิดขึ้นก่อนเพื่อน",
+    "options": ["หลอดไฟของเอดิสัน", "โทรศัพท์ของเบลล์", "รถยนต์ของเบนซ์", "เครื่องบินของพี่น้องไรต์"],
+    "correctIndex": 1,
+    "gloss": "Which of these inventions came first? — Bell's telephone (1876), ahead of Edison's bulb (1879), Benz's car (1886) and the Wrights' plane (1903)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "“ศึกษา” กับ “สิกขา” เป็นคำที่มีรากเดียวกันและความหมายใกล้กัน ข้อใดบอกที่มาของทั้งสองคำได้ถูกต้อง",
+    "options": ["ศึกษามาจากบาลี สิกขามาจากสันสกฤต", "ศึกษามาจากสันสกฤต สิกขามาจากบาลี", "ทั้งสองคำมาจากบาลี", "ทั้งสองคำมาจากเขมร"],
+    "correctIndex": 1,
+    "gloss": "'Sueksa' and 'sikkha' share a root and meaning; where does each come from? — Sueksa from Sanskrit (śikṣā), sikkha from Pali (sikkhā). The clue: ศ, ษ and ฤ mark Sanskrit loans; Pali has no such letters."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ภาษาโปรแกรม Python ได้ชื่อมาจากอะไร",
+    "options": ["งูเหลือมที่ผู้สร้างเลี้ยงไว้", "งูยักษ์ไพธอนในตำนานกรีก", "คณะตลกของอังกฤษทางโทรทัศน์", "ชื่อย่อของโครงการวิจัย"],
+    "correctIndex": 2,
+    "gloss": "Where does the Python programming language get its name? — From the British TV comedy troupe Monty Python, which Guido van Rossum was a fan of; not from the snake."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ก่อนการแสดงของวงออร์เคสตรา เครื่องดนตรีใดเป็นผู้ให้เสียงโน้ต A เพื่อให้ทั้งวงตั้งเสียงตาม",
+    "options": ["ไวโอลิน", "ฟลุต", "คลาริเน็ต", "โอโบ"],
+    "correctIndex": 3,
+    "gloss": "Before an orchestra plays, which instrument gives the A the whole orchestra tunes to? — The oboe. The concertmaster (violin) leads the tuning, which is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ประเทศใดไม่มีทางออกทะเล และประเทศเพื่อนบ้านทุกประเทศของมันก็ไม่มีทางออกทะเลเช่นกัน",
+    "options": ["คาซัคสถาน", "มองโกเลีย", "อุซเบกิสถาน", "เติร์กเมนิสถาน"],
+    "correctIndex": 2,
+    "gloss": "Which landlocked country has only landlocked neighbours? — Uzbekistan (with Liechtenstein, the only 'doubly landlocked' countries). Kazakhstan and Mongolia border Russia and China; Turkmenistan borders Iran."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ถ้าจุดเทียนบนสถานีอวกาศซึ่งอยู่ในสภาพไร้น้ำหนัก เปลวไฟจะมีรูปร่างแบบใด",
+    "options": ["กลมเป็นทรงกลม", "ยาวแหลมชี้ขึ้นเหมือนบนโลก", "แผ่แบนเป็นแผ่น", "แตกเป็นประกายกระจาย"],
+    "correctIndex": 0,
+    "gloss": "Light a candle on a space station in weightlessness: what shape is the flame? — A sphere. On Earth hot air rises and draws the flame into a point; without gravity there is no 'up', so it spreads evenly (and burns dim blue)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "เมื่อเปิดกิจการไปรษณีย์ไทยครั้งแรกใน พ.ศ. 2426 ผู้ใดดำรงตำแหน่งอธิบดีกรมไปรษณีย์พระองค์แรก",
+    "options": ["สมเด็จฯ กรมพระยาดำรงราชานุภาพ", "สมเด็จฯ เจ้าฟ้าภาณุรังษีสว่างวงศ์", "กรมหลวงราชบุรีดิเรกฤทธิ์", "กรมพระกำแพงเพชรอัครโยธิน"],
+    "correctIndex": 1,
+    "gloss": "When the Thai post opened in 1883, who was the first Director-General of the Post Department? — Prince Bhanurangsi Savangwongse. The others are the fathers of the Interior Ministry, Thai law and the railways."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ตามตำนานสงกรานต์ ธิดาทั้งเจ็ดของท้าวกบิลพรหมผลัดกันอัญเชิญสิ่งใดของบิดาแห่รอบเขาพระสุเมรุทุกปี",
+    "options": ["พระขรรค์", "พระเศียร", "มงกุฎ", "คัมภีร์"],
+    "correctIndex": 1,
+    "gloss": "In the Songkran legend, what of their father's do Kabil Maha Phrom's seven daughters take turns carrying around Mount Meru each year? — His head, cut off after he lost a riddle wager to Thammaban Kuman."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ภาพ “กำเนิดวีนัส” ที่เทพีโผล่ขึ้นมาบนเปลือกหอย เป็นผลงานของจิตรกรคนใด",
+    "options": ["บอตตีเชลลี", "ราฟาเอล", "ทิเชียน", "เลโอนาร์โด ดา วินชี"],
+    "correctIndex": 0,
+    "gloss": "'The Birth of Venus', with the goddess rising on a shell, was painted by whom? — Sandro Botticelli. The others are Italian Renaissance painters too."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในนวนิยาย “โมบี้ดิก” กัปตันผู้หมกมุ่นกับการล่าวาฬขาวมีชื่อว่าอะไร",
+    "options": ["นีโม", "ฮุก", "ฟลินต์", "เอแฮบ"],
+    "correctIndex": 3,
+    "gloss": "In 'Moby-Dick', the captain obsessed with hunting the white whale is called? — Ahab. Nemo (Verne), Hook (Barrie) and Flint (Stevenson) are other fictional captains."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "กรุงเทพฯ อยู่ที่เส้นรุ้งราว 14 องศาเหนือ ถ้ามองจากกรุงเทพฯ ดาวเหนือจะอยู่สูงจากขอบฟ้าประมาณกี่องศา",
+    "options": ["ประมาณ 14 องศา", "ประมาณ 45 องศา", "ประมาณ 76 องศา", "ประมาณ 90 องศา"],
+    "correctIndex": 0,
+    "gloss": "Bangkok lies at about 14° N; how high above the horizon is the Pole Star seen from there? — About 14°: the Pole Star's height equals your latitude (90° at the North Pole, 0° at the equator). 76° is the trap of subtracting from 90."
+  }
+]

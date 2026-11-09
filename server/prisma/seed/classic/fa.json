@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در این مَثَل، جای خالی را چه پر می‌کند؟ «قطره قطره جمع گردد، وانگهی … شود»",
+    "options": [
+      "رود",
+      "سیل",
+      "دریا",
+      "باران"
+    ],
+    "correctIndex": 2,
+    "gloss": "Fill the proverb \"drop by drop gathers, and then becomes a …\" — Sea: «قطره قطره جمع گردد، وانگهی دریا شود»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "کدام‌یک نمی‌تواند یکی از «سین»های سفرهٔ هفت‌سین باشد؟",
+    "options": [
+      "شیرینی",
+      "سنجد",
+      "سمنو",
+      "سماق"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which cannot be one of the \"s\" items of the Haft-sin table? — Shirini (sweets): it starts with ش, not س."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "رنگ زرد خورش‌های کاری هندی بیشتر از کدام ادویه است؟",
+    "options": [
+      "زعفران",
+      "دارچین",
+      "زیره",
+      "زردچوبه"
+    ],
+    "correctIndex": 3,
+    "gloss": "What gives Indian curry its yellow colour? — Turmeric; saffron is the tempting trap."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "آرامگاه حافظ در کدام شهر است؟",
+    "options": [
+      "اصفهان",
+      "شیراز",
+      "تبریز",
+      "مشهد"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where is the tomb of Hafez? — Shiraz (Hafezieh)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام جانور را «کشتی صحرا» می‌نامند؟",
+    "options": [
+      "اسب",
+      "شتر",
+      "الاغ",
+      "گورخر"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal is called \"the ship of the desert\"? — The camel."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "برگه‌ای کاغذ را سه بار پشت سر هم از وسط تا می‌کنیم. اکنون چند لایه کاغذ روی هم است؟",
+    "options": [
+      "۶",
+      "۹",
+      "۱۲",
+      "۸"
+    ],
+    "correctIndex": 3,
+    "gloss": "Fold a sheet in half three times: how many layers? — 8 (2×2×2); 6 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "هر تیم والیبال در زمین چند بازیکن دارد؟",
+    "options": [
+      "۶",
+      "۵",
+      "۷",
+      "۱۱"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many players does a volleyball team have on court? — 6."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "داستان «رستم و سهراب» را کدام شاعر سروده است؟",
+    "options": [
+      "نظامی",
+      "سعدی",
+      "فردوسی",
+      "مولوی"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the tale of Rostam and Sohrab? — Ferdowsi, in the Shahnameh."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "در پویانمایی «شیرشاه»، توله‌شیری که سرانجام پادشاه می‌شود چه نام دارد؟",
+    "options": [
+      "موفاسا",
+      "اسکار",
+      "نالا",
+      "سیمبا"
+    ],
+    "correctIndex": 3,
+    "gloss": "In The Lion King, what is the cub who becomes king called? — Simba (Mufasa is his father, Scar the uncle, Nala his friend)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "کدام رقم فارسی، شکلِ وارونهٔ رقم ۷ است؟",
+    "options": [
+      "۶",
+      "۸",
+      "۹",
+      "۲"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Persian digit looks like ۷ upside down? — ۸ (∧ versus ∨)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در زورخانه، ورزشکاران چوب‌های سنگین و گلابی‌شکلی را دور سر می‌چرخانند. نام این وسیله چیست؟",
+    "options": [
+      "میل",
+      "کباده",
+      "سنگ",
+      "تخته‌شنا"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the zurkhaneh, what are the heavy pear-shaped wooden clubs swung around the head? — Mil; kabadeh (iron bow), sang (boards) and takhte-shena (push-up board) are other zurkhaneh tools."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ترشیِ خورش قورمه‌سبزی معمولاً از کدام ماده است؟",
+    "options": [
+      "زرشک",
+      "آلوچه",
+      "لیمو عمانی",
+      "غوره"
+    ],
+    "correctIndex": 2,
+    "gloss": "What usually gives ghormeh sabzi its sourness? — Dried lime (limoo amani)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "با اینکه نامش «چهارشنبه‌سوری» است، آتش‌افروزی و پریدن از روی آتش در شبِ کدام روز انجام می‌شود؟",
+    "options": [
+      "چهارشنبه",
+      "پنجشنبه",
+      "سه‌شنبه",
+      "دوشنبه"
+    ],
+    "correctIndex": 2,
+    "gloss": "Chaharshanbe Suri (\"Wednesday feast\") is celebrated on the evening of which day? — Tuesday: in Persian, \"Wednesday night\" is the night before Wednesday (last Tuesday of the year)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "کدام واژه از راست به چپ و از چپ به راست یکسان خوانده می‌شود؟",
+    "options": [
+      "درد",
+      "سرد",
+      "برد",
+      "گرد"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word reads the same both ways? — درد (d-r-d); سرد reversed is درس."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام تنگه دریای مدیترانه را به اقیانوس اطلس می‌رساند؟",
+    "options": [
+      "بسفر",
+      "جبل‌الطارق",
+      "هرمز",
+      "باب‌المندب"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which strait links the Mediterranean to the Atlantic? — Gibraltar."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "انسولین، هورمونی که کمبودش به دیابت می‌انجامد، در کدام اندام ساخته می‌شود؟",
+    "options": [
+      "کبد",
+      "کلیه",
+      "طحال",
+      "لوزالمعده"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which organ makes insulin? — The pancreas."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "شهر باستانی ماچوپیچو را بر فراز کوه‌های آند کدام تمدن ساخت؟",
+    "options": [
+      "مایا",
+      "آزتک",
+      "اینکا",
+      "اولمک"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which civilisation built Machu Picchu in the Andes? — The Inca."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام آهنگساز سمفونی نهم خود را زمانی ساخت که تقریباً به‌کلی ناشنوا شده بود؟",
+    "options": [
+      "بتهوون",
+      "موتسارت",
+      "باخ",
+      "هایدن"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which composer wrote his Ninth Symphony while almost completely deaf? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«سامسونگ» در زبان کره‌ای یعنی «سه ستاره». این شرکت از کدام کشور است؟",
+    "options": [
+      "ژاپن",
+      "چین",
+      "تایوان",
+      "کرهٔ جنوبی"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"Samsung\" means \"three stars\" in Korean; where is the company from? — South Korea."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "پل الله‌وردی‌خان اصفهان بیشتر با نامی شناخته می‌شود که شمار دهانه‌هایش را می‌گوید. این پل چند دهانه دارد؟",
+    "options": [
+      "۱۱",
+      "۳۳",
+      "۲۳",
+      "۴۰"
+    ],
+    "correctIndex": 1,
+    "gloss": "Isfahan’s Allahverdi Khan bridge is better known by a name counting its arches; how many? — 33: Si-o-se Pol."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "اگر بر قلهٔ دماوند آب بجوشانیم، تقریباً در چه دمایی به جوش می‌آید؟",
+    "options": [
+      "۱۰۰ درجه",
+      "حدود ۸۰ درجه",
+      "حدود ۱۱۰ درجه",
+      "حدود ۵۰ درجه"
+    ],
+    "correctIndex": 1,
+    "gloss": "At what temperature does water boil on the summit of Damavand (5,610 m)? — About 80 °C: air pressure there is roughly half, so the boiling point drops (≈81 °C)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "با سرعت دانلودِ ۲ مگابایت بر ثانیه، دانلود فایلی ۱ گیگابایتی تقریباً چقدر طول می‌کشد؟",
+    "options": [
+      "حدود ۵۰ ثانیه",
+      "حدود ۵۰ دقیقه",
+      "حدود ۲ ساعت",
+      "حدود ۸ دقیقه"
+    ],
+    "correctIndex": 3,
+    "gloss": "At 2 MB/s, how long does a 1 GB file take? — About 8 minutes: ~1,000 MB / 2 = ~500 seconds."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "رمان «بوف کور» نوشتهٔ کیست؟",
+    "options": [
+      "صادق هدایت",
+      "صادق چوبک",
+      "بزرگ علوی",
+      "جلال آل‌احمد"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote The Blind Owl? — Sadegh Hedayat."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام‌یک از عجایب هفتگانهٔ جهان باستان در اسکندریه بود؟",
+    "options": [
+      "باغ‌های معلق",
+      "تندیس زئوس",
+      "فانوس دریایی",
+      "معبد آرتمیس"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of the Seven Wonders stood in Alexandria? — The Lighthouse (Pharos)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ساعت رسمی ایران سه ساعت و نیم از گرینویچ جلوتر است. وقتی در یک روز زمستانی در تهران ساعت ۱۲ ظهر است، در لندن ساعت چند است؟",
+    "options": [
+      "۹:۳۰",
+      "۱۵:۳۰",
+      "۷:۳۰",
+      "۸:۳۰"
+    ],
+    "correctIndex": 3,
+    "gloss": "Iran is GMT+3:30; at noon in Tehran in winter, what time is it in London? — 8:30 (London is on GMT in winter); 15:30 is the wrong-direction trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«کُتُب» جمعِ «کتاب» است. جمعِ «عِلم» کدام است؟",
+    "options": [
+      "علما",
+      "علوم",
+      "معلومات",
+      "عوالم"
+    ],
+    "correctIndex": 1,
+    "gloss": "Kotob is the plural of ketab; what is the plural of elm (knowledge)? — Olum; olama is the plural of alem, maalumat of maalum, avalem of alam."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«سه‌تار» با وجود نامش، امروزه چند سیم دارد؟",
+    "options": [
+      "۴",
+      "۳",
+      "۵",
+      "۶"
+    ],
+    "correctIndex": 0,
+    "gloss": "Despite its name (\"three strings\"), how many strings does the setar have today? — Four; a fourth string was added (attributed to Moshtaq Ali Shah)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "زعفران را از کدام بخشِ گلِ زعفران به دست می‌آورند؟",
+    "options": [
+      "گلبرگ",
+      "پرچم",
+      "کلاله",
+      "ساقه"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which part of the crocus flower gives saffron? — The stigma."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کدام گربه‌سان امروز در سراسر جهان فقط در طبیعت ایران زندگی می‌کند و شمارش به چند ده رسیده است؟",
+    "options": [
+      "پلنگ ایرانی",
+      "کاراکال",
+      "یوزپلنگ آسیایی",
+      "ببر مازندران"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cat now lives in the wild only in Iran, with a few dozen left? — The Asiatic cheetah; the Caspian tiger is extinct, the Persian leopard and caracal live elsewhere too."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "هر قطعه در بازی «تتریس» از چند مربع ساخته شده است؟",
+    "options": [
+      "۴",
+      "۳",
+      "۵",
+      "۶"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many squares make up each Tetris piece? — Four (tetrominoes, from Greek tetra)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کدام‌یک از منظومه‌های «خمسه»ٔ نظامی نیست؟",
+    "options": [
+      "لیلی و مجنون",
+      "منطق‌الطیر",
+      "خسرو و شیرین",
+      "هفت‌پیکر"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is not part of Nezami’s Khamseh? — Mantiq al-Tayr (The Conference of the Birds), which is by Attar."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کتاب پزشکیِ ابن‌سینا که قرن‌ها در دانشگاه‌های اروپا درس داده می‌شد چه نام دارد؟",
+    "options": [
+      "شفا",
+      "الحاوی",
+      "ذخیرهٔ خوارزمشاهی",
+      "قانون"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the medical book by Avicenna taught in Europe for centuries? — The Canon (al-Qanun); al-Shifa is his philosophy book despite its name (\"healing\"), al-Hawi is by Razi, Zakhireh by Jorjani."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "نور خورشید حدود ۸ دقیقه طول می‌کشد تا به زمین برسد. نوری که از سطح ماه بازمی‌تابد چقدر طول می‌کشد تا به ما برسد؟",
+    "options": [
+      "حدود ۸ دقیقه",
+      "حدود ۱ دقیقه",
+      "کمتر از ۲ ثانیه",
+      "حدود ۱۶ دقیقه"
+    ],
+    "correctIndex": 2,
+    "gloss": "Sunlight takes ~8 minutes to reach us; how long does light reflected from the Moon take? — Under 2 seconds: ~384,000 km at ~300,000 km/s ≈ 1.3 s."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کلیسای ساگرادا فامیلیا در بارسلون را کدام معمار طراحی کرد؟",
+    "options": [
+      "آنتونی گائودی",
+      "لوکوربوزیه",
+      "فرانک گهری",
+      "اسکار نیمایر"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who designed the Sagrada Família in Barcelona? — Antoni Gaudí."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "پیانوی استاندارد ۸۸ کلید دارد. چند کلیدِ آن سیاه است؟",
+    "options": [
+      "۴۴",
+      "۳۲",
+      "۴۰",
+      "۳۶"
+    ],
+    "correctIndex": 3,
+    "gloss": "A standard piano has 88 keys; how many are black? — 36 (52 white); 44 is the half-and-half trap."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "نام خط «نستعلیق» از پیوندِ نام کدام دو خط ساخته شده است؟",
+    "options": [
+      "ثلث و تعلیق",
+      "نسخ و تعلیق",
+      "نسخ و ثلث",
+      "کوفی و تعلیق"
+    ],
+    "correctIndex": 1,
+    "gloss": "The name of the Nastaliq script joins the names of which two scripts? — Naskh and Ta’liq (naskh-ta’liq → nasta’liq)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کدام جفت واژهٔ فارسی و انگلیسی به‌راستی هم‌ریشه‌اند؟",
+    "options": [
+      "دیو و devil",
+      "برادر و brother",
+      "خوب و good",
+      "اسم و name"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Persian–English pair is truly cognate? — Baradar/brother (Indo-European); div/devil is a famous false match (devil is from Greek diabolos), khub/good and esm (Arabic)/name are unrelated."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«فاسبری فلاپ»، یعنی پریدن با پشت از روی میله، در کدام رشته رواج یافت؟",
+    "options": [
+      "پرش با نیزه",
+      "پرش طول",
+      "پرش سه‌گام",
+      "پرش ارتفاع"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which event did the Fosbury Flop (going over the bar backwards) catch on? — High jump."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام فیلم کره‌ای نخستین فیلم غیرانگلیسی‌زبانی بود که اسکار بهترین فیلم را برد؟",
+    "options": [
+      "انگل",
+      "پیرپسر",
+      "قطار بوسان",
+      "سوختن"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Korean film was the first non-English-language film to win the Best Picture Oscar? — Parasite (2020); Oldboy, Train to Busan and Burning are other famous Korean films."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "عدد دودوییِ ۱۰۱۰ در دستگاه دهدهی برابر با چند است؟",
+    "options": [
+      "۱۲",
+      "۵",
+      "۱۰",
+      "۲۰"
+    ],
+    "correctIndex": 2,
+    "gloss": "Binary 1010 in decimal? — 10 (8 + 2)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سطح آب دریای خزر نسبت به سطح آب‌های آزاد کجاست؟",
+    "options": [
+      "حدود ۲۸ متر بالاتر",
+      "حدود ۴۰۰ متر پایین‌تر",
+      "تقریباً هم‌سطح",
+      "حدود ۲۸ متر پایین‌تر"
+    ],
+    "correctIndex": 3,
+    "gloss": "Where is the Caspian’s surface relative to sea level? — About 28 m below; ~400 m below is the Dead Sea."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "شایلوکِ رباخوار، از شخصیت‌های کدام نمایشنامهٔ شکسپیر است؟",
+    "options": [
+      "اتللو",
+      "تاجر ونیزی",
+      "شاه لیر",
+      "طوفان"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which Shakespeare play is the moneylender Shylock? — The Merchant of Venice; Othello is the other Venice trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "کدام واژه از نامِ خودِ خوارزمی، ریاضی‌دان ایرانی، گرفته شده است؟",
+    "options": [
+      "الگوریتم",
+      "جبر",
+      "لگاریتم",
+      "الکل"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word comes from the name of al-Khwarizmi himself? — Algorithm; algebra comes from the title of his book (al-jabr), logarithm only sounds alike."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "نام کدام ماه خورشیدی از نام ایزد «میترا» آمده است؟",
+    "options": [
+      "آبان",
+      "آذر",
+      "مهر",
+      "تیر"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which solar month is named after the deity Mithra? — Mehr; Aban is the waters, Azar fire, Tir the star Tishtrya."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام سازِ بادیِ ارکستر، مانند اُبوا، با قمیش دوتایی نواخته می‌شود اما صدایی بسیار بم‌تر دارد؟",
+    "options": [
+      "کلارینت",
+      "ساکسیفون",
+      "فاگوت",
+      "ترومبون"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which orchestral wind instrument uses a double reed like the oboe but sounds much lower? — Bassoon; clarinet and sax use single reeds, trombone none."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در شطرنجِ کهنِ ایرانی مهره‌ای به نام «فرزین» بود. امروز این مهره را چه می‌نامیم؟",
+    "options": [
+      "وزیر",
+      "فیل",
+      "رخ",
+      "اسب"
+    ],
+    "correctIndex": 0,
+    "gloss": "Old Persian chess had a piece called farzin; what is it called today? — The queen (vazir)."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در شاهنامه، رستم به راهنمایی سیمرغ با تیری از چوب کدام درخت اسفندیار را از پا درآورد؟",
+    "options": [
+      "سرو",
+      "گز",
+      "چنار",
+      "بید"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the Shahnameh, with an arrow of which wood did Rostam, guided by the Simurgh, bring down Esfandiyar? — Tamarisk (gaz)."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "نام علمیِ میوه‌ای «persica» یعنی «ایرانی» است و میوهٔ دیگری «armeniaca» یعنی «ارمنی». کدام میوه «ایرانی» نام گرفته است؟",
+    "options": [
+      "زردآلو",
+      "آلو",
+      "گیلاس",
+      "هلو"
+    ],
+    "correctIndex": 3,
+    "gloss": "One fruit is named persica (\"Persian\") and another armeniaca (\"Armenian\"); which is the Persian one? — Peach (Prunus persica); apricot is Prunus armeniaca."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "سنگ روزتا، که کلید خواندن هیروگلیف شد، امروز در کدام موزه است؟",
+    "options": [
+      "موزهٔ لوور",
+      "موزهٔ مصر در قاهره",
+      "موزهٔ بریتانیا",
+      "موزهٔ ارمیتاژ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Where is the Rosetta Stone today? — The British Museum; the Louvre tempts because Champollion was French."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "وب جهان‌گستر را تیم برنرز-لی در کدام مؤسسه ابداع کرد؟",
+    "options": [
+      "سرن",
+      "ناسا",
+      "دانشگاه ام‌آی‌تی",
+      "شرکت آی‌بی‌ام"
+    ],
+    "correctIndex": 0,
+    "gloss": "At which institution did Tim Berners-Lee invent the World Wide Web? — CERN."
+  }
+]

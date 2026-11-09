@@ -30,6 +30,24 @@ export type ClassicSeedQuestion = {
 export const PER_LEVEL = 10
 const KINDS = ['fact', 'reasoning', 'reasoning+fact']
 
+/** Written without spaces between words, so a giveaway can hide inside any longer run of text. */
+const UNSPACED = new Set(['zh-CN', 'zh-TW', 'ja', 'th', 'lo', 'km', 'my'])
+
+/**
+ * True when the answer is given away by the question: as a whole word where words are spaced
+ * (Persian «انگل», "parasite", is not given away by «انگلیسی», "English"), anywhere otherwise.
+ */
+const givesAwayAnswer = (text: string, answer: string, locale: string): boolean => {
+  const haystack = text.toLocaleLowerCase()
+  const needle = answer.toLocaleLowerCase()
+  if (UNSPACED.has(locale)) return haystack.includes(needle)
+  const isWordChar = (char: string | undefined) => char !== undefined && /[\p{L}\p{M}]/u.test(char)
+  for (let at = haystack.indexOf(needle); at !== -1; at = haystack.indexOf(needle, at + 1)) {
+    if (!isWordChar(haystack[at - 1]) && !isWordChar(haystack[at + needle.length])) return true
+  }
+  return false
+}
+
 export const seedFilePath = (locale: string): string =>
   path.join(path.dirname(fileURLToPath(import.meta.url)), 'seed', 'classic', `${locale}.json`)
 
@@ -73,7 +91,7 @@ export const checkClassicSeed = (locale: string, questions: ClassicSeedQuestion[
       return
     }
     const answer = options[correctIndex]!
-    if (answer.length > 3 && text.toLocaleLowerCase().includes(answer.toLocaleLowerCase())) fail('the answer appears in the question')
+    if (answer.length > 3 && givesAwayAnswer(text, answer, locale)) fail('the answer appears in the question')
 
     const hash = questionHash(text)
     if (hashes.has(hash)) fail(`same question as #${hashes.get(hash)! + 1}`)

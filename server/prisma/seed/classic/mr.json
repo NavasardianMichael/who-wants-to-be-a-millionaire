@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "म्हण पूर्ण करा: “नाचता येईना, … वाकडे.” रिकाम्या जागी कोणता शब्द येतो?",
+    "options": ["घर", "अंगण", "रस्ता", "ओसरी"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Can't dance, so the ... is crooked.' — Courtyard (अंगण): the classic Marathi proverb about blaming circumstances."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दारात गुढी उभारून आपण कोणत्या मराठी महिन्याच्या पहिल्या दिवसाचे स्वागत करतो?",
+    "options": ["कार्तिक", "श्रावण", "चैत्र", "मार्गशीर्ष"],
+    "correctIndex": 2,
+    "gloss": "Raising a gudi at the door, we welcome the first day of which Marathi month? — Chaitra: Gudi Padwa is Chaitra Shuddha Pratipada, the Marathi new year."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "मधमाश्या मध मुख्यतः कशापासून तयार करतात?",
+    "options": ["फुलांतील मकरंद", "झाडांचा डिंक", "पिकलेल्या फळांचा रस", "पानांवरील दवबिंदू"],
+    "correctIndex": 0,
+    "gloss": "What do bees mainly make honey from? — Flower nectar."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "बाजारातून ‘दीड’ डझन आणि ‘अडीच’ डझन केळी आणली. एकूण किती केळी झाली?",
+    "options": ["३६", "४२", "४८", "५४"],
+    "correctIndex": 2,
+    "gloss": "One and a half dozen plus two and a half dozen bananas: how many in all? — 48: दीड = 1½, अडीच = 2½, together 4 dozen. Uses the Marathi fraction words."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पुरणपोळीचे गोड पुरण मुख्यतः कोणत्या डाळीपासून बनवतात?",
+    "options": ["तुरीची डाळ", "मुगाची डाळ", "उडदाची डाळ", "हरभऱ्याची डाळ"],
+    "correctIndex": 3,
+    "gloss": "Which dal is the sweet puran of puranpoli mainly made from? — Chana (Bengal gram) dal, cooked with jaggery."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "निलगिरीची पाने खाऊन जगणारा कोआला नैसर्गिकरीत्या कोणत्या देशात आढळतो?",
+    "options": ["ऑस्ट्रेलिया", "ब्राझील", "दक्षिण आफ्रिका", "इंडोनेशिया"],
+    "correctIndex": 0,
+    "gloss": "The eucalyptus-eating koala lives in the wild in which country? — Australia, and nowhere else."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "‘षटक’ या शब्दातच उत्तर दडले आहे: आजच्या क्रिकेटमध्ये एका षटकात किती वैध चेंडू टाकले जातात?",
+    "options": ["चार", "पाच", "सहा", "आठ"],
+    "correctIndex": 2,
+    "gloss": "The word 'shatak' (over) hides the answer: how many legal balls in an over today? — Six: षट् means six."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘श्यामची आई’ हे मराठी मनाला भिडलेले पुस्तक कोणी लिहिले?",
+    "options": ["पु. ल. देशपांडे", "वि. स. खांडेकर", "आचार्य अत्रे", "साने गुरुजी"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Shyamchi Aai', the book that touched every Marathi heart? — Sane Guruji."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "कोळ्याला आठ पाय असतात आणि मुंगीला सहा. दोन कोळी आणि तीन मुंग्या मिळून किती पाय होतात?",
+    "options": ["३०", "३२", "३४", "३६"],
+    "correctIndex": 2,
+    "gloss": "A spider has eight legs, an ant six. Two spiders and three ants: how many legs? — 34: 2×8 + 3×6."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "आषाढी एकादशीला विठ्ठलाच्या दर्शनासाठी दिंडीत पायी पंढरपूरला जाणाऱ्या भक्तांना काय म्हणतात?",
+    "options": ["वारकरी", "गोंधळी", "कीर्तनकार", "वासुदेव"],
+    "correctIndex": 0,
+    "gloss": "What are the devotees called who walk in a dindi to Pandharpur for Ashadhi Ekadashi? — Varkari. Gondhali and Vasudev are other folk figures."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "घड्याळ पाहून कोणी म्हणाले, “पावणेतीन वाजले.” म्हणजे नेमकी वेळ किती?",
+    "options": ["२:१५", "२:४५", "३:१५", "३:४५"],
+    "correctIndex": 1,
+    "gloss": "Someone says 'paavne-teen' o'clock. What time is it? — 2:45: पावणे means 'a quarter short of', so three minus a quarter. The trap is hearing 'three'."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "शिवनेरीवर जन्मलेल्या शिवाजी महाराजांचा राज्याभिषेक कोणत्या किल्ल्यावर झाला?",
+    "options": ["रायगड", "सिंहगड", "प्रतापगड", "पुरंदर"],
+    "correctIndex": 0,
+    "gloss": "Shivaji Maharaj was born at Shivneri; at which fort was he crowned? — Raigad, in 1674."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "पृथ्वी २४ तासांत स्वतःभोवती ३६० अंश फिरते. म्हणजे एका तासात ती किती अंश फिरते?",
+    "options": ["१०", "१२", "१५", "२०"],
+    "correctIndex": 2,
+    "gloss": "The Earth turns 360° in 24 hours. How many degrees in one hour? — 15: which is why time zones are about 15° of longitude apart."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "एका शेतकऱ्याकडे दहा बकऱ्या होत्या. त्याने “तीन सोडून बाकीच्या सगळ्या” विकल्या. आता त्याच्याकडे किती बकऱ्या उरल्या?",
+    "options": ["तीन", "सात", "दहा", "शून्य"],
+    "correctIndex": 0,
+    "gloss": "A farmer had ten goats and sold 'all but three'. How many are left? — Three. Autopilot says 10 − 3 = 7."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "तमाशातील लावणीला ठेका देणारे मुख्य तालवाद्य कोणते?",
+    "options": ["तबला", "ढोलकी", "मृदंग", "ताशा"],
+    "correctIndex": 1,
+    "gloss": "Which drum gives the beat to the lavani in a tamasha? — The dholki."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "१९१३ साली ‘राजा हरिश्चंद्र’ हा भारतातील पहिला पूर्ण लांबीचा चित्रपट कोणी बनवला?",
+    "options": ["व्ही. शांताराम", "बाबूराव पेंटर", "दादासाहेब फाळके", "भालजी पेंढारकर"],
+    "correctIndex": 2,
+    "gloss": "Who made 'Raja Harishchandra' (1913), India's first full-length feature film? — Dadasaheb Phalke, from Trimbak near Nashik. The others are later Marathi film pioneers."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "एक लांब दोरी पाच तुकड्यांत कापायची आहे. तुकडे एकमेकांवर न ठेवता कापल्यास किमान किती वेळा कात्री चालवावी लागेल?",
+    "options": ["तीन", "चार", "पाच", "सहा"],
+    "correctIndex": 1,
+    "gloss": "A rope must be cut into five pieces without stacking them. How many cuts at least? — Four: each cut adds one piece."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मुलगी पाहण्याच्या कार्यक्रमाला गमतीने ‘कांदेपोहे’ म्हणतात. हे पोहे कोणत्या धान्यापासून बनतात?",
+    "options": ["गहू", "ज्वारी", "बाजरी", "तांदूळ"],
+    "correctIndex": 3,
+    "gloss": "The bride-viewing visit is jokingly called 'kande-pohe'. What grain is poha made from? — Rice (flattened rice)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वाळवंटात उंट दिवसेंदिवस तग धरतो. त्याच्या पाठीवरच्या कुबडात मुख्यतः काय साठलेले असते?",
+    "options": ["पाणी", "रक्त", "हवा", "चरबी"],
+    "correctIndex": 3,
+    "gloss": "What is mainly stored in a camel's hump? — Fat, not water, the common myth."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "सचिन तेंडुलकरने आंतरराष्ट्रीय क्रिकेटमध्ये कसोटी आणि एकदिवसीय सामने मिळून किती शतके झळकावली?",
+    "options": ["५०", "७५", "१००", "१२५"],
+    "correctIndex": 2,
+    "gloss": "How many international centuries did Sachin Tendulkar score in Tests and ODIs together? — 100 (51 Test + 49 ODI)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘कटक’ हा शब्द अक्षरे उलट्या क्रमाने वाचली तरी तसाच राहतो. असाच आणखी एक शब्द कोणता?",
+    "options": ["सारस", "सरल", "सरस", "रसिक"],
+    "correctIndex": 2,
+    "gloss": "'Katak' reads the same letter by letter backwards. Which other word does too? — सरस (sa-ra-sa). सारस reversed is स-र-सा, not the same."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "एकविसावे शतक नेमके कोणत्या दिवशी सुरू झाले?",
+    "options": ["१ जानेवारी १९९९", "१ जानेवारी २०००", "१ जानेवारी २००१", "१ जानेवारी २०१०"],
+    "correctIndex": 2,
+    "gloss": "On what day exactly did the 21st century begin? — 1 January 2001: there is no year 0, so the first century ran 1–100 and the 21st 2001–2100."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "वेरूळचे कैलास मंदिर कसे घडवले गेले आहे?",
+    "options": ["दगडी चिरे रचून", "एकाच अखंड खडकात कोरून", "संगमरवरी शिळा जोडून", "विटा आणि चुना वापरून"],
+    "correctIndex": 1,
+    "gloss": "How was the Kailasa temple at Ellora made? — Carved out of a single rock, from the top down."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "आवाज हवेत सेकंदाला सुमारे ३४० मीटर जातो. वीज चमकल्यानंतर तीन सेकंदांनी गडगडाट ऐकू आला, तर ती वीज साधारण किती अंतरावर होती?",
+    "options": ["१०० मीटर", "१ किलोमीटर", "३ किलोमीटर", "१० किलोमीटर"],
+    "correctIndex": 1,
+    "gloss": "Sound travels about 340 m/s; thunder came 3 seconds after the flash. How far was the lightning? — About 1 km (3 × 340 = 1,020 m)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संत ज्ञानेश्वरांची ‘ज्ञानेश्वरी’ कोणत्या ग्रंथाचे मराठीत निरूपण करते?",
+    "options": ["भगवद्गीता", "वाल्मीकी रामायण", "भागवत पुराण", "ईशावास्य उपनिषद"],
+    "correctIndex": 0,
+    "gloss": "Sant Dnyaneshwar's 'Dnyaneshwari' is a Marathi commentary on which text? — The Bhagavad Gita."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "गोदावरी नाशिकजवळ, अरबी समुद्रापासून जेमतेम ऐंशी किलोमीटरवर उगम पावते. तरीही ती अखेर कोठे समुद्राला मिळते?",
+    "options": ["अरबी समुद्र", "बंगालचा उपसागर", "खंबातचे आखात", "कच्छचे आखात"],
+    "correctIndex": 1,
+    "gloss": "The Godavari rises near Nashik, only about 80 km from the Arabian Sea. Where does it finally meet the sea? — The Bay of Bengal: the Deccan tilts east, so it crosses the whole peninsula."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ग्रीक पुराणकथेनुसार देवांकडून अग्नी चोरून तो माणसांना देणारा कोण?",
+    "options": ["हर्क्युलिस", "अ‍ॅटलस", "ऑर्फियस", "प्रोमिथियस"],
+    "correctIndex": 3,
+    "gloss": "In Greek myth, who stole fire from the gods and gave it to humans? — Prometheus."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "जगातील सर्वात महाग मसाला मानले जाणारे केशर म्हणजे फुलाचा कोणता भाग?",
+    "options": ["पाकळ्या", "परागकण", "स्त्रीकेसराची टोके", "बिया"],
+    "correctIndex": 2,
+    "gloss": "Saffron, considered the world's most expensive spice, is which part of a flower? — The stigmas (tips of the pistil) of the saffron crocus, picked by hand."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "पाच मित्र भेटले आणि प्रत्येकाने इतर प्रत्येकाशी एकदाच हस्तांदोलन केले. एकूण किती हस्तांदोलने झाली?",
+    "options": ["८", "१०", "२०", "२५"],
+    "correctIndex": 1,
+    "gloss": "Five friends each shake hands once with every other. How many handshakes? — 10: 4+3+2+1. 20 counts each one twice."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "१९७५ मध्ये अवकाशात सोडलेल्या भारताच्या पहिल्या उपग्रहाला कोणत्या प्राचीन गणितज्ञाचे नाव दिले होते?",
+    "options": ["भास्कर", "ब्रह्मगुप्त", "वराहमिहिर", "आर्यभट"],
+    "correctIndex": 3,
+    "gloss": "India's first satellite (1975) was named after which ancient mathematician? — Aryabhata. Bhaskara was the name of the second."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "शेक्सपिअरच्या ‘किंग लिअर’ची आठवण करून देणारे ‘नटसम्राट’ हे नाटक कोणी लिहिले?",
+    "options": ["विजय तेंडुलकर", "वि. वा. शिरवाडकर", "पु. ल. देशपांडे", "राम गणेश गडकरी"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the play 'Natsamrat', which echoes Shakespeare's King Lear? — V. V. Shirwadkar (Kusumagraj)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "माणसाच्या शरीरपेशीत गुणसूत्रांच्या २३ जोड्या असतात. मग शुक्राणूत किती गुणसूत्रे असतात?",
+    "options": ["२२", "२३", "४६", "९२"],
+    "correctIndex": 1,
+    "gloss": "Human body cells have 23 pairs of chromosomes. How many in a sperm cell? — 23: gametes carry one of each pair, so that egg + sperm make 46 again."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“जय जय महाराष्ट्र माझा, गर्जा महाराष्ट्र माझा” हे राज्यगीत कोणी लिहिले?",
+    "options": ["राजा बढे", "शांता शेळके", "ग. दि. माडगूळकर", "कुसुमाग्रज"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the state song 'Jai Jai Maharashtra Maza'? — Raja Badhe; Shahir Sable made it famous."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कोणती मोठी नदी विषुववृत्त दोन वेळा ओलांडते?",
+    "options": ["नाईल", "ॲमेझॉन", "काँगो", "नायजर"],
+    "correctIndex": 2,
+    "gloss": "Which major river crosses the equator twice? — The Congo, in its great arc through central Africa."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "मराठीत एखाद्याला ‘उंबराचे फूल’ म्हणतात, ते कशामुळे?",
+    "options": ["तो क्वचितच भेटतो", "तो फार नाजूक आहे", "तो खूप देखणा आहे", "तो पटकन रागावतो"],
+    "correctIndex": 0,
+    "gloss": "Why would someone be called 'a fig flower' in Marathi? — Because he is rarely seen: the fig's flowers are hidden inside the fruit, so nobody sees them."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वितळणारी घड्याळे दाखवणारे ‘द पर्सिस्टन्स ऑफ मेमरी’ हे चित्र कोणाचे?",
+    "options": ["साल्वादोर दाली", "रने माग्रित", "पाब्लो पिकासो", "होआन मिरो"],
+    "correctIndex": 0,
+    "gloss": "Whose painting is 'The Persistence of Memory', with its melting clocks? — Salvador Dalí."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "इंग्रजी ‘डिसेंबर’ महिन्याच्या नावाचा लॅटिन मूळ अर्थ काय?",
+    "options": ["आठवा", "नववा", "दहावा", "बारावा"],
+    "correctIndex": 2,
+    "gloss": "What does the Latin root of 'December' mean? — Tenth (decem, as in decimal): the old Roman year began in March, so it was the tenth month."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "चार्ली चॅप्लिनचा पहिला पूर्ण बोलपट कोणता?",
+    "options": ["द ग्रेट डिक्टेटर", "सिटी लाइट्स", "मॉडर्न टाइम्स", "द किड"],
+    "correctIndex": 0,
+    "gloss": "Which was Charlie Chaplin's first full talking picture? — The Great Dictator (1940). Modern Times (1936) still has no spoken dialogue."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कोणता सस्तन प्राणी पिलांना जन्म न देता अंडी घालतो?",
+    "options": ["वटवाघूळ", "देवमासा", "खवलेमांजर", "प्लॅटिपस"],
+    "correctIndex": 3,
+    "gloss": "Which mammal lays eggs instead of giving birth? — The platypus. Bat, whale and pangolin are the 'odd' mammals that still give birth."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "अष्टविनायकांपैकी कोणता गणपती पुणे जिल्ह्यात नाही?",
+    "options": ["महडचा वरदविनायक", "मोरगावचा मयूरेश्वर", "थेऊरचा चिंतामणी", "रांजणगावचा महागणपती"],
+    "correctIndex": 0,
+    "gloss": "Which of the Ashtavinayak Ganeshas is not in Pune district? — Varadvinayak of Mahad, in Raigad district. Morgaon, Theur and Ranjangaon are in Pune district."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "बाळशास्त्री जांभेकरांनी १८३२ मध्ये सुरू केलेले, मराठी पत्रकारितेची सुरुवात मानले जाणारे वृत्तपत्र कोणते?",
+    "options": ["दर्पण", "दिग्दर्शन", "प्रभाकर", "ज्ञानोदय"],
+    "correctIndex": 0,
+    "gloss": "Which newspaper, started by Balshastri Jambhekar in 1832, marks the beginning of Marathi journalism? — Darpan; 6 January is Marathi Journalism Day. Digdarshan was his later magazine."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "पाण्याच्या रेणूत दोन हायड्रोजन अणू आणि एक ऑक्सिजन अणू असतो. पाण्याच्या वजनापैकी साधारण किती टक्के वाटा ऑक्सिजनचा असतो?",
+    "options": ["३३%", "५०%", "६७%", "८९%"],
+    "correctIndex": 3,
+    "gloss": "A water molecule has two hydrogen atoms and one oxygen. Roughly what percentage of water's mass is oxygen? — About 89%: oxygen weighs 16, each hydrogen 1, so 16/18. 33% counts atoms, not mass."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "आफ्रिकेतील सर्वोच्च शिखर किलिमांजारो कोणत्या देशात आहे?",
+    "options": ["केनिया", "टांझानिया", "युगांडा", "इथिओपिया"],
+    "correctIndex": 1,
+    "gloss": "Kilimanjaro, Africa's highest peak, is in which country? — Tanzania, close to the Kenyan border (the classic trap)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ययाति’ कादंबरीसाठी ज्ञानपीठ पुरस्कार मिळवणारे, हा सन्मान मिळालेले पहिले मराठी साहित्यिक कोण?",
+    "options": ["कुसुमाग्रज", "विंदा करंदीकर", "भालचंद्र नेमाडे", "वि. स. खांडेकर"],
+    "correctIndex": 3,
+    "gloss": "Who won the Jnanpith Award for the novel 'Yayati', the first Marathi writer to receive it? — V. S. Khandekar (1974). The other three won it later."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘भारतरत्न’ पुरस्काराने गौरवलेल्या संगीतकलावंतांपैकी पहिले कोण?",
+    "options": ["पं. रविशंकर", "लता मंगेशकर", "पं. भीमसेन जोशी", "एम. एस. सुब्बुलक्ष्मी"],
+    "correctIndex": 3,
+    "gloss": "Who was the first musician to receive the Bharat Ratna? — M. S. Subbulakshmi (1998), before Ravi Shankar (1999), Lata Mangeshkar (2001) and Bhimsen Joshi (2009)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘पाव’, ‘चावी’, ‘बटाटा’ आणि ‘अननस’ हे चारही शब्द मराठीत कोणत्या भाषेतून आले?",
+    "options": ["फारसी", "पोर्तुगीज", "अरबी", "इंग्रजी"],
+    "correctIndex": 1,
+    "gloss": "Pav, chavi, batata and ananas: which language did all four come into Marathi from? — Portuguese: pão, chave, batata, ananás, via the Portuguese on the Konkan coast."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "स्वतंत्र भारताला ऑलिम्पिकमधील पहिले वैयक्तिक पदक मिळवून देणारे साताऱ्याचे कुस्तीगीर कोण?",
+    "options": ["मारुती माने", "दादू चौगुले", "हरिश्चंद्र बिराजदार", "खाशाबा जाधव"],
+    "correctIndex": 3,
+    "gloss": "Which wrestler from Satara won independent India's first individual Olympic medal? — Khashaba Jadhav, bronze at Helsinki 1952. The others are famous Maharashtrian wrestlers without Olympic medals."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "शिडांसारख्या छपरांचे सिडनी ऑपेरा हाउस कोणत्या वास्तुविशारदाने रचले?",
+    "options": ["ल कॉर्बुझिए", "फ्रँक गेरी", "ऑस्कर निमेयर", "योर्न उत्झॉन"],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the Sydney Opera House with its sail-like roofs? — Jørn Utzon, a Dane. Le Corbusier designed Chandigarh."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "संगणक वापरत असलेल्या द्विमान (बायनरी) पद्धतीत ‘१०१०’ लिहिलेली संख्या दशमान पद्धतीत किती?",
+    "options": ["५", "८", "१०", "१२"],
+    "correctIndex": 2,
+    "gloss": "In the binary system computers use, what is '1010' in decimal? — 10: 8 + 0 + 2 + 0."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "हापूस आंब्याचे इंग्रजी नाव ‘अल्फान्सो’ कोणाच्या नावावरून पडले असे मानले जाते?",
+    "options": ["वास्को द गामा", "अफोन्सो द आल्बुकर्क", "पेद्रो आल्व्हारेस काब्राल", "फ्रान्सिस्को द आल्मेदा"],
+    "correctIndex": 1,
+    "gloss": "The Hapus mango's English name 'Alphonso' is held to come from whom? — Afonso de Albuquerque, the Portuguese governor of Goa; the other three are fellow Portuguese navigators of the same era."
+  }
+]
