@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lengkapkan peribahasa ini: “Di mana bumi dipijak, di situ … dijunjung.”",
+    "options": ["Bulan", "Langit", "Bintang", "Awan"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Where the earth is trodden, there the … is upheld.' — Sky (langit): 'when in Rome, do as the Romans do'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Perkataan manakah dibaca sama, sama ada dari kiri ke kanan atau dari kanan ke kiri?",
+    "options": ["Ketam", "Kerbau", "Katak", "Kancil"],
+    "correctIndex": 2,
+    "gloss": "Which word reads the same left-to-right and right-to-left? — Katak (frog): k-a-t-a-k is a palindrome; the others are not."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pada waktu subuh suhu di sebuah bandar ialah −5 °C, dan pada tengah hari 15 °C. Berapa darjahkah suhu itu naik?",
+    "options": ["10 darjah", "15 darjah", "5 darjah", "20 darjah"],
+    "correctIndex": 3,
+    "gloss": "At dawn it is −5 °C, at noon 15 °C. By how many degrees did it rise? — 20: from −5 to 0 is 5, then 15 more. 10 traps those who just subtract the numbers."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Aminah tidur pada pukul 10 malam dan terjaga pada pukul 6 pagi keesokannya. Berapa lamakah dia tidur?",
+    "options": ["8 jam", "4 jam", "6 jam", "16 jam"],
+    "correctIndex": 0,
+    "gloss": "Aminah sleeps at 10 pm and wakes at 6 am. How long did she sleep? — 8 hours: 2 hours to midnight plus 6. 4 traps those who compute 10 − 6."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Selat manakah yang memisahkan Semenanjung Malaysia daripada Pulau Sumatera?",
+    "options": ["Selat Sunda", "Selat Karimata", "Selat Melaka", "Selat Lombok"],
+    "correctIndex": 2,
+    "gloss": "Which strait separates Peninsular Malaysia from Sumatra? — The Strait of Malacca. Sunda, Karimata and Lombok are all Indonesian straits elsewhere."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nasi lemak mendapat nama dan rasa lemaknya daripada bahan apa yang dimasak bersama beras?",
+    "options": ["Santan", "Minyak sapi", "Susu lembu", "Mentega"],
+    "correctIndex": 0,
+    "gloss": "Nasi lemak gets its name and rich taste from what, cooked with the rice? — Coconut milk (santan)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ikan paus perlu timbul ke permukaan laut dari semasa ke semasa untuk bernafas. Organ apakah yang digunakannya untuk bernafas?",
+    "options": ["Insang", "Kulit", "Sirip", "Paru-paru"],
+    "correctIndex": 3,
+    "gloss": "Whales must surface from time to time to breathe. Which organ do they breathe with? — Lungs: whales are mammals, despite the Malay name 'ikan' (fish)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Datuk Lee Chong Wei memenangi tiga pingat perak Olimpik bagi Malaysia. Dalam sukan apa?",
+    "options": ["Skuasy", "Badminton", "Tenis", "Tenis meja"],
+    "correctIndex": 1,
+    "gloss": "Lee Chong Wei won three Olympic silver medals for Malaysia. In which sport? — Badminton (men's singles, 2008, 2012, 2016)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hari Raya Aidilfitri disambut sebaik sahaja umat Islam selesai berpuasa sebulan. Dalam bulan apakah mereka berpuasa?",
+    "options": ["Syaaban", "Syawal", "Zulhijah", "Ramadan"],
+    "correctIndex": 3,
+    "gloss": "Eid al-Fitr is celebrated once Muslims finish a month of fasting. In which month do they fast? — Ramadan. Syawal is the month Hari Raya itself falls on, a trap for the hasty."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Seorang pelukis mencampurkan cat biru dengan cat kuning di atas paletnya. Warna apakah yang terhasil?",
+    "options": ["Ungu", "Hijau", "Jingga", "Coklat"],
+    "correctIndex": 1,
+    "gloss": "A painter mixes blue and yellow paint. What colour results? — Green."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hari ini hari Isnin. Jika kenduri diadakan pada hari tulat, hari apakah kenduri itu?",
+    "options": ["Rabu", "Jumaat", "Khamis", "Selasa"],
+    "correctIndex": 2,
+    "gloss": "Today is Monday. If the feast is held on 'tulat', which day is it? — Thursday: esok is tomorrow, lusa the day after, tulat the day after lusa. Wednesday (lusa) is the trap."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pada pagi 31 Ogos 1957, Tunku Abdul Rahman membaca pemasyhuran kemerdekaan Persekutuan Tanah Melayu di sebuah stadium. Stadium apakah itu?",
+    "options": ["Stadium Merdeka", "Stadium Negara", "Stadium Bukit Jalil", "Stadium Shah Alam"],
+    "correctIndex": 0,
+    "gloss": "On 31 August 1957 Tunku Abdul Rahman read the proclamation of independence in which stadium? — Stadium Merdeka, built for the occasion. Stadium Negara opened in 1962, Shah Alam and Bukit Jalil in the 1990s."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Anda berdiri tegak menghadap matahari yang sedang terbit. Arah utara berada di sebelah mana anda?",
+    "options": ["Kanan", "Belakang", "Hadapan", "Kiri"],
+    "correctIndex": 3,
+    "gloss": "You stand facing the rising sun. On which side is north? — Left: the sun rises in the east, and facing east, north is on your left."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rafflesia, antara bunga terbesar di dunia, tumbuh di hutan Sabah, Sarawak dan Semenanjung. Bunga ini terkenal kerana baunya. Bau apakah itu?",
+    "options": ["Madu", "Daging busuk", "Pandan", "Kemenyan"],
+    "correctIndex": 1,
+    "gloss": "Rafflesia, among the world's biggest flowers, grows in Malaysian forests and is known for its smell. What smell? — Rotting meat: it attracts carrion flies as pollinators."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam Hikayat Hang Tuah, sahabat manakah yang menderhaka kepada Sultan Melaka lalu bertikam dengan Hang Tuah sendiri?",
+    "options": ["Hang Kasturi", "Hang Lekir", "Hang Lekiu", "Hang Jebat"],
+    "correctIndex": 3,
+    "gloss": "In the Hikayat Hang Tuah, which friend rebelled against the Sultan and fought Hang Tuah himself? — Hang Jebat. Hang Kasturi is the trap: he is the rebel in the Sejarah Melayu version, hence 'in the Hikayat Hang Tuah'."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Komposer manakah terus mencipta karya agung, termasuk Simfoni Kesembilan, walaupun pendengarannya sudah hampir hilang sama sekali?",
+    "options": ["Beethoven", "Mozart", "Bach", "Chopin"],
+    "correctIndex": 0,
+    "gloss": "Which composer kept writing masterpieces, including the Ninth Symphony, while almost completely deaf? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Trio filem “Bujang Lapok” terdiri daripada P. Ramlee, S. Shamsuddin dan seorang lagi pelakon. Siapakah dia?",
+    "options": ["Ibrahim Pendek", "Aziz Sattar", "Jins Shamsuddin", "Salleh Kamil"],
+    "correctIndex": 1,
+    "gloss": "The 'Bujang Lapok' trio was P. Ramlee, S. Shamsuddin and which other actor? — Aziz Sattar. Jins Shamsuddin is a name trap; Ibrahim Pendek and Salleh Kamil acted with P. Ramlee too."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jalur Gemilang mempunyai 14 jalur merah dan putih yang berselang-seli. Berapakah jalur yang berwarna merah?",
+    "options": ["6 jalur", "8 jalur", "7 jalur", "14 jalur"],
+    "correctIndex": 2,
+    "gloss": "The Malaysian flag has 14 alternating red and white stripes. How many are red? — 7: an even number of alternating stripes splits evenly, whichever colour comes first."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Microsoft diasaskan pada tahun 1975 oleh dua sahabat sejak zaman persekolahan: Paul Allen dan siapa?",
+    "options": ["Steve Jobs", "Larry Page", "Steve Wozniak", "Bill Gates"],
+    "correctIndex": 3,
+    "gloss": "Microsoft was founded in 1975 by two school friends: Paul Allen and whom? — Bill Gates. Jobs and Wozniak founded Apple, Page co-founded Google."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam siri animasi “Upin & Ipin”, siapakah yang membesarkan pasangan kembar itu bersama Opah?",
+    "options": ["Kak Ros", "Mei Mei", "Susanti", "Cikgu Jasmin"],
+    "correctIndex": 0,
+    "gloss": "In 'Upin & Ipin', who raises the twins together with their grandmother? — Kak Ros, their elder sister. Mei Mei and Susanti are friends, Cikgu Jasmin their teacher."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kita memerlukan oksigen untuk hidup, tetapi gas itu bukanlah yang paling banyak dalam udara. Gas manakah yang paling banyak?",
+    "options": ["Hidrogen", "Nitrogen", "Karbon dioksida", "Argon"],
+    "correctIndex": 1,
+    "gloss": "We need oxygen, but it is not the most plentiful gas in air. Which is? — Nitrogen, about 78%."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Perkataan “almari”, “bendera”, “jendela” dan “keju” dipinjam daripada bahasa yang sama. Bahasa apakah itu?",
+    "options": ["Belanda", "Sepanyol", "Portugis", "Inggeris"],
+    "correctIndex": 2,
+    "gloss": "'Almari', 'bendera', 'jendela' and 'keju' come from the same language. Which? — Portuguese: armário, bandeira, janela, queijo. Spanish tempts (bandera), but its 'ventana' and 'queso' don't fit."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Pada musim sejuk di England, jam di Kuala Lumpur menunjukkan pukul 12 tengah hari. Pukul berapakah ketika itu di London?",
+    "options": ["Pukul 8 pagi", "Pukul 4 pagi", "Pukul 4 petang", "Pukul 8 malam"],
+    "correctIndex": 1,
+    "gloss": "In the English winter it is noon in Kuala Lumpur. What time is it in London? — 4 am: Malaysia is UTC+8, London in winter UTC+0, and London is behind, not ahead."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tulisan hieroglif Mesir purba dapat dibaca semula pada abad ke-19 berkat sebuah batu yang memuatkan teks yang sama dalam tiga tulisan. Batu apakah itu?",
+    "options": ["Batu Rosetta", "Batu Behistun", "Batu Mesha", "Batu Bersurat Terengganu"],
+    "correctIndex": 0,
+    "gloss": "Egyptian hieroglyphs were deciphered in the 19th century thanks to a stone bearing one text in three scripts. Which? — The Rosetta Stone. The Behistun inscription played the same role for cuneiform."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sebuah kejohanan badminton perseorangan menggunakan sistem kalah mati dengan 64 pemain. Berapa perlawanan perlu dimainkan untuk menentukan juara?",
+    "options": ["32", "6", "64", "63"],
+    "correctIndex": 3,
+    "gloss": "A knockout singles tournament has 64 players. How many matches decide the champion? — 63: every match eliminates exactly one player, and 63 must go. 6 is the number of rounds."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Untuk menolak pinangan Sultan Melaka, Puteri Gunung Ledang meminta antaranya jambatan emas dan perak, serta tujuh dulang hati seekor makhluk kecil. Makhluk apakah itu?",
+    "options": ["Semut", "Lalat", "Nyamuk", "Lebah"],
+    "correctIndex": 2,
+    "gloss": "To refuse the Sultan of Malacca's proposal, the Princess of Mount Ledang asked, among other things, for a gold and silver bridge and seven trays of the livers of a tiny creature. Which? — Mosquitoes (hati nyamuk)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Don Quixote, kesatria khayalan yang menyerang kincir angin kerana menyangkanya raksasa, ialah ciptaan pengarang dari negara mana?",
+    "options": ["Itali", "Portugal", "Perancis", "Sepanyol"],
+    "correctIndex": 3,
+    "gloss": "Don Quixote, the would-be knight who attacks windmills thinking they are giants, was created by a writer from which country? — Spain (Miguel de Cervantes)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Teh hijau dan teh hitam dibuat daripada daun pokok yang sama. Apakah yang menjadikan kedua-duanya berbeza?",
+    "options": ["Tahap pengoksidaan daun", "Spesies pokok teh", "Negara penanamnya", "Ketinggian ladangnya"],
+    "correctIndex": 0,
+    "gloss": "Green and black tea come from the same plant. What makes them different? — How far the leaves are oxidised: black tea fully, green tea hardly at all (both are Camellia sinensis)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Komputer menyimpan nombor dalam sistem perduaan, yang hanya menggunakan digit 0 dan 1. Nombor perduaan 101 bersamaan dengan nombor apa dalam sistem biasa?",
+    "options": ["3", "6", "5", "7"],
+    "correctIndex": 2,
+    "gloss": "Binary 101 equals what decimal number? — 5: one 4, no 2, one 1."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pengarah manakah membikin filem “E.T.”, tentang makhluk asing yang ingin pulang, dan “Jurassic Park”?",
+    "options": ["James Cameron", "Steven Spielberg", "George Lucas", "Ridley Scott"],
+    "correctIndex": 1,
+    "gloss": "Which director made 'E.T.' and 'Jurassic Park'? — Steven Spielberg."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Tulisan Jawi menambah beberapa huruf baharu pada abjad Arab untuk bunyi Melayu yang tiada dalam bahasa Arab. Bunyi manakah TIDAK memerlukan huruf tambahan itu?",
+    "options": ["“c” seperti dalam “cari”", "“ng” seperti dalam “bunga”", "“p” seperti dalam “padi”", "“b” seperti dalam “batu”"],
+    "correctIndex": 3,
+    "gloss": "Jawi added letters to the Arabic alphabet for Malay sounds Arabic lacks. Which sound needs no added letter? — 'b': Arabic has ب. Arabic has no c, ng or p, so Jawi added چ, ڠ and ڤ."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nama Kuala Lumpur berasal daripada pertemuan dua sungai yang berlumpur, tempat Masjid Jamek berdiri kini. Sungai Gombak bertemu sungai apa?",
+    "options": ["Sungai Langat", "Sungai Klang", "Sungai Selangor", "Sungai Pahang"],
+    "correctIndex": 1,
+    "gloss": "Kuala Lumpur, 'muddy confluence', is where two rivers meet at today's Masjid Jamek. The Gombak meets which river? — The Klang."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Anda nampak kilat memancar, dan bunyi guruhnya sampai tiga saat kemudian. Lebih kurang berapa jauhkah kilat itu dari anda?",
+    "options": ["1 kilometer", "100 meter", "3 kilometer", "10 kilometer"],
+    "correctIndex": 0,
+    "gloss": "You see lightning and hear the thunder 3 seconds later. How far away is it? — About 1 km: sound travels about 340 m per second, light arrives almost instantly."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Menara Berkembar Petronas, yang reka bentuknya diilhamkan oleh corak geometri Islam, direka oleh arkitek mana?",
+    "options": ["I. M. Pei", "Norman Foster", "César Pelli", "Frank Gehry"],
+    "correctIndex": 2,
+    "gloss": "The Petronas Twin Towers, inspired by Islamic geometric patterns, were designed by which architect? — César Pelli (Argentine-American)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Garisan Khatulistiwa merentasi tiga daripada empat negara ini. Negara manakah yang tidak dilaluinya?",
+    "options": ["Indonesia", "Malaysia", "Kenya", "Brazil"],
+    "correctIndex": 1,
+    "gloss": "The equator crosses three of these four countries. Which one does it miss? — Malaysia: its southernmost point is about 1° north. The equator crosses Sumatra, Borneo's Indonesian part, Kenya and Brazil."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Acara maraton memperingati legenda seorang utusan Yunani yang berlari dari Marathon untuk menyampaikan berita penting. Ke kota manakah dia berlari?",
+    "options": ["Sparta", "Olympia", "Athens", "Korintus"],
+    "correctIndex": 2,
+    "gloss": "The marathon commemorates the legend of a Greek messenger who ran from Marathon with important news. To which city? — Athens."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melodi lagu kebangsaan “Negaraku” diambil daripada lagu rasmi sebuah negeri. Negeri manakah itu?",
+    "options": ["Perak", "Johor", "Selangor", "Kedah"],
+    "correctIndex": 0,
+    "gloss": "The melody of the national anthem 'Negaraku' was taken from which state's anthem? — Perak ('Allah Lanjutkan Usia Sultan')."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kapten Ahab, yang sanggup mengorbankan segalanya untuk memburu seekor paus putih, ialah watak ciptaan pengarang mana?",
+    "options": ["Jules Verne", "Daniel Defoe", "Robert Louis Stevenson", "Herman Melville"],
+    "correctIndex": 3,
+    "gloss": "Captain Ahab, who sacrifices everything to hunt a white whale, was created by which writer? — Herman Melville (Moby-Dick)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tarian zapin dibawa ke Alam Melayu oleh pedagang dan pendakwah yang datang dari negeri mana?",
+    "options": ["Parsi", "Yaman", "India", "Turki"],
+    "correctIndex": 1,
+    "gloss": "The zapin dance was brought to the Malay world by traders and preachers from where? — Yemen (Hadhramaut)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Berapakah bilangan nombor perdana antara 1 hingga 20?",
+    "options": ["7", "9", "8", "10"],
+    "correctIndex": 2,
+    "gloss": "How many primes are there from 1 to 20? — 8: 2, 3, 5, 7, 11, 13, 17, 19. 9 traps those who count 1, which is not prime."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Perkataan “kamus” dipinjam daripada bahasa Arab. Apakah maksud asal perkataan itu sebelum ia digunakan untuk buku rujukan kata?",
+    "options": ["Kunci", "Perbendaharaan", "Mutiara", "Lautan"],
+    "correctIndex": 3,
+    "gloss": "'Kamus' (dictionary) comes from Arabic. What did it originally mean? — Ocean: Arabic qāmūs, from the title of al-Fīrūzābādī's dictionary 'al-Qāmūs al-Muḥīṭ' (the surrounding ocean)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Laksamana Cheng Ho, yang armadanya singgah di Melaka beberapa kali, ialah seorang Muslim. Dari wilayah China manakah dia berasal?",
+    "options": ["Fujian", "Yunnan", "Guangdong", "Xinjiang"],
+    "correctIndex": 1,
+    "gloss": "Admiral Zheng He, whose fleets called at Malacca, was a Muslim. Which Chinese province was he from? — Yunnan (born in Kunyang). Fujian (Changle) was where his fleets waited for the monsoon; Xinjiang tempts as a Muslim region."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Darah haiwan manakah berwarna biru kerana mengandungi tembaga, bukan besi?",
+    "options": ["Ikan yu", "Penyu", "Buaya", "Belangkas"],
+    "correctIndex": 3,
+    "gloss": "Whose blood is blue because it carries copper, not iron? — The horseshoe crab (belangkas): its blood uses haemocyanin. Sharks, turtles and crocodiles have red, iron-based blood."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Siri lukisan “Pago-Pago”, yang mengolah bentuk tumbuhan dan seni bina Asia Tenggara, adalah karya pelukis mana?",
+    "options": ["Latiff Mohidin", "Syed Ahmad Jamal", "Ibrahim Hussein", "Abdullah Ariff"],
+    "correctIndex": 0,
+    "gloss": "The 'Pago-Pago' series, reworking South-East Asian plant forms and architecture, is by which painter? — Latiff Mohidin (1960s). The others are fellow Malaysian painters."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bumi tidak bulat sempurna; ia sedikit membonjol di Khatulistiwa. Puncak manakah titik permukaan Bumi yang paling jauh dari pusatnya?",
+    "options": ["Everest", "Kilimanjaro", "Chimborazo", "Kinabalu"],
+    "correctIndex": 2,
+    "gloss": "The Earth bulges at the equator. Which summit is farthest from the Earth's centre? — Chimborazo in Ecuador: almost on the equator and over 6,200 m high. Everest is higher above sea level but far from the bulge; Kinabalu tempts as an equatorial peak but is only about 4,100 m."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam ensembel nobat diraja, alat tiup yang berbentuk trompet panjang dikenali sebagai apa?",
+    "options": ["Nafiri", "Serunai", "Bangsi", "Seruling"],
+    "correctIndex": 0,
+    "gloss": "In the royal nobat ensemble, what is the long trumpet-shaped wind instrument called? — The nafiri. The serunai is also in the nobat but is a reed (oboe-like) instrument."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wasabi tulen yang dihidangkan bersama sushi diparut daripada batang sejenis tumbuhan. Tumbuhan itu sekeluarga dengan apa?",
+    "options": ["Halia", "Lada hitam", "Kubis", "Bawang putih"],
+    "correctIndex": 2,
+    "gloss": "Real wasabi is grated from a plant stem. That plant is in the same family as what? — Cabbage: wasabi belongs to the Brassicaceae, like mustard and horseradish. Ginger tempts because both are grated pungent roots."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bahasa pengaturcaraan Python dinamakan sempena apa?",
+    "options": ["Ular sawa", "Raksasa dalam mitos Yunani", "Kumpulan komedi Monty Python", "Sebuah gunung di Australia"],
+    "correctIndex": 2,
+    "gloss": "What is the Python programming language named after? — The comedy group Monty Python; Guido van Rossum was a fan. The snake and the Greek monster Python are the traps."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Jisim seorang angkasawan di Bumi ialah 60 kg. Graviti di Bulan hanya kira-kira satu per enam graviti Bumi. Berapakah jisimnya di Bulan?",
+    "options": ["Menjadi 10 kg", "Menjadi 6 kg", "Menjadi 360 kg", "Kekal 60 kg"],
+    "correctIndex": 3,
+    "gloss": "An astronaut's mass on Earth is 60 kg; the Moon's gravity is about a sixth of Earth's. What is the mass on the Moon? — Still 60 kg: mass doesn't depend on gravity, only weight does. 10 kg is the trap."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Bulan Ramadan datang lebih awal sedikit setiap tahun Masihi. Lebih kurang berapa tahun diperlukan sebelum ia kembali jatuh pada tarikh Masihi yang sama?",
+    "options": ["33 tahun", "11 tahun", "19 tahun", "50 tahun"],
+    "correctIndex": 0,
+    "gloss": "Ramadan comes a little earlier each Gregorian year. About how many years until it returns to the same Gregorian date? — About 33: the lunar Hijri year is about 11 days shorter, and 365 ÷ 11 ≈ 33. 11 is the number trap; 19 is the Metonic cycle."
+  }
+]

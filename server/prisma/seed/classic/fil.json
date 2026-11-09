@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ayon sa kasabihan, ang hindi marunong lumingon sa pinanggalingan ay hindi makararating sa…",
+    "options": [
+      "Kaitaasan",
+      "Paroroonan",
+      "Tahanan",
+      "Kinabukasan"
+    ],
+    "correctIndex": 1,
+    "gloss": "He who doesn't look back to where he came from will not reach... — his destination (paroroonan): the classic proverb."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iba-iba man ang luto ng adobo sa bawat bahay, anong sangkap ang hindi nawawala rito at siyang dahilan kung bakit hindi ito agad napapanis?",
+    "options": [
+      "Toyo",
+      "Gata",
+      "Patis",
+      "Suka"
+    ],
+    "correctIndex": 3,
+    "gloss": "Adobo differs in every home, but which ingredient is always there and keeps it from spoiling quickly? — Vinegar: adobo is defined by stewing in vinegar; soy sauce is common but not universal (adobong puti)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kung Biyernes ngayon, anong araw ang “kamakalawa”?",
+    "options": [
+      "Miyerkoles",
+      "Huwebes",
+      "Linggo",
+      "Martes"
+    ],
+    "correctIndex": 0,
+    "gloss": "If today is Friday, what day was 'kamakalawa'? — Wednesday: kamakalawa = the day before yesterday. Traps: Thursday (kahapon), Sunday (makalawa, the day after tomorrow)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ang Bulkang Mayon, na tanyag sa halos perpektong hugis-apa nito, ay nasa aling lalawigan?",
+    "options": [
+      "Sorsogon",
+      "Camarines Sur",
+      "Albay",
+      "Batangas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mayon Volcano, famous for its near-perfect cone, is in which province? — Albay."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hindi insekto ang gagamba, kaya iba ang bilang ng mga paa nito. Ilan ang paa ng gagamba?",
+    "options": [
+      "Walo",
+      "Anim",
+      "Sampu",
+      "Apat"
+    ],
+    "correctIndex": 0,
+    "gloss": "A spider isn't an insect, so its leg count differs. How many legs? — Eight (insects have six)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa pagpipinta, anong kulay ang lumalabas kapag pinaghalo ang asul at dilaw?",
+    "options": [
+      "Lila",
+      "Berde",
+      "Kahel",
+      "Kayumanggi"
+    ],
+    "correctIndex": 1,
+    "gloss": "In painting, what colour do blue and yellow make? — Green."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tatlong dosenang itlog ang binili ni Aling Nena sa palengke. Ilang itlog lahat iyon?",
+    "options": [
+      "30",
+      "24",
+      "33",
+      "36"
+    ],
+    "correctIndex": 3,
+    "gloss": "Aling Nena bought three dozen eggs. How many eggs? — 36: 3 × 12. Trap: 30, the size of an egg tray."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Baligtarin ang pagkakabaybay ng bilang na “apat”. Anong pagkain ang mabubuo?",
+    "options": [
+      "Tinapa",
+      "Taho",
+      "Tapa",
+      "Tuyo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Spell the number 'apat' (four) backwards. Which food do you get? — Tapa: a-p-a-t reversed is t-a-p-a. Tinapa looks similar."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa kuwentong-bayang “Si Pagong at si Matsing”, anong puno ang pinaghatian ng dalawa?",
+    "options": [
+      "Saging",
+      "Mangga",
+      "Niyog",
+      "Papaya"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the folk tale 'The Turtle and the Monkey', what tree did the two split? — A banana tree: the monkey took the leafy top, the turtle the bottom, which grew."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa chess, aling piyesa ang gumagalaw nang pa-L at nakalulundag pa sa ibang piyesa?",
+    "options": [
+      "Obispo",
+      "Kabayo",
+      "Tore",
+      "Reyna"
+    ],
+    "correctIndex": 1,
+    "gloss": "In chess, which piece moves in an L and can jump over other pieces? — The knight (kabayo)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Napakaraming gulay ang binanggit sa awiting “Bahay Kubo”. Alin sa mga ito ang HINDI kasama?",
+    "options": [
+      "Patola",
+      "Sigarilyas",
+      "Ampalaya",
+      "Mustasa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Many vegetables are named in the song 'Bahay Kubo'. Which is NOT in it? — Bitter gourd (ampalaya). Patola, sigarilyas and mustasa are all in the lyrics."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa kompyuter na Windows, anong kombinasyon ng mga key ang ginagamit para bawiin o i-“undo” ang huling ginawa?",
+    "options": [
+      "Ctrl+Z",
+      "Ctrl+Y",
+      "Ctrl+X",
+      "Ctrl+V"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a Windows computer, which key combination undoes the last action? — Ctrl+Z. Ctrl+Y is redo, Ctrl+X cut, Ctrl+V paste."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Noong Hunyo 12, 1898, ipinahayag ang kalayaan ng Pilipinas mula sa bintana ng bahay ni Emilio Aguinaldo. Saang bayan ito naganap?",
+    "options": [
+      "Malolos, Bulacan",
+      "Imus, Cavite",
+      "San Miguel, Bulacan",
+      "Kawit, Cavite"
+    ],
+    "correctIndex": 3,
+    "gloss": "On 12 June 1898 independence was proclaimed from the window of Aguinaldo's house. In which town? — Kawit, Cavite. Malolos hosted the later Congress; Imus is a nearby Cavite town."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Nagsimula ang pulong nang alas-onse y medya ng umaga at tumagal ito nang eksaktong dalawang oras. Anong oras ito natapos?",
+    "options": [
+      "Alas-dose y medya ng tanghali",
+      "Ala-una y medya ng hapon",
+      "Alas-dos ng hapon",
+      "Alas-tres y medya ng hapon"
+    ],
+    "correctIndex": 1,
+    "gloss": "A meeting began at half past eleven (Spanish-style time words) and lasted two hours. When did it end? — Half past one in the afternoon."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tinatawag na “whale shark” ang butanding at kasinlaki pa ng bus. Anong uri ng hayop ito?",
+    "options": [
+      "Mamalya",
+      "Reptilya",
+      "Ampibyan",
+      "Isda"
+    ],
+    "correctIndex": 3,
+    "gloss": "The butanding is called a 'whale shark' and is as big as a bus. What kind of animal is it? — A fish: it is a shark, not a whale (mammal)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa pelikulang “The Lion King” ng Disney, ano ang pangalan ng batang leon na magiging hari?",
+    "options": [
+      "Mufasa",
+      "Scar",
+      "Simba",
+      "Nala"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Disney's 'The Lion King', what is the name of the cub who will become king? — Simba."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ang tokwa na ipinapares sa baboy sa “tokwa’t baboy” ay gawa sa anong butil?",
+    "options": [
+      "Soya",
+      "Mani",
+      "Munggo",
+      "Mais"
+    ],
+    "correctIndex": 0,
+    "gloss": "The tofu (tokwa) in 'tokwa't baboy' is made from which bean? — Soybean."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Maraming salita natin ang hiram sa Espanyol. Anong pagbati sa Filipino ang hango sa tanong na “¿Cómo está?”",
+    "options": [
+      "Mabuhay",
+      "Kumusta",
+      "Paalam",
+      "Magandang araw"
+    ],
+    "correctIndex": 1,
+    "gloss": "Many Filipino words come from Spanish. Which greeting comes from '¿Cómo está?' — Kumusta: hear the Spanish in it."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sa isang laro ng basketball, nakapasok si Jun ng apat na tres, tatlong two-point shot at dalawang free throw. Ilang puntos ang naitala niya?",
+    "options": [
+      "18",
+      "22",
+      "9",
+      "20"
+    ],
+    "correctIndex": 3,
+    "gloss": "In basketball Jun scored four threes, three two-pointers and two free throws. How many points? — 20: 12 + 6 + 2."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Umaalis ang bus sa terminal tuwing 15 minuto, at ang unang biyahe ay alas-singko ng umaga. Ilang biyahe ang nakaalis na bago mag-alas-sais?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "gloss": "A bus leaves every 15 minutes, the first at 5:00. How many have left before 6:00? — 4: 5:00, 5:15, 5:30, 5:45. Autopilot gives 60 ÷ 15 + 1 = 5."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Iisa ang oras sa buong Pilipinas. Aling bansa sa Asya ang may kaparehong oras natin sa buong taon?",
+    "options": [
+      "Thailand",
+      "Singapore",
+      "Vietnam",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "gloss": "The whole Philippines keeps one time. Which Asian country shares our clock all year? — Singapore (UTC+8). Thailand and Vietnam are UTC+7, Japan UTC+9; none uses daylight saving."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sa tabing-dagat, kumukulo ang tubig sa 100°C. Paano ito kumukulo sa tuktok ng isang napakataas na bundok?",
+    "options": [
+      "Sa mas mataas sa 100°C",
+      "Sa eksaktong 100°C pa rin",
+      "Sa mas mababa sa 100°C",
+      "Hindi na ito kumukulo"
+    ],
+    "correctIndex": 2,
+    "gloss": "At sea level water boils at 100 °C. How does it boil on a very high mountain top? — Below 100 °C: lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aling obra ang nagwagi ng gintong medalya sa Madrid noong 1884 at ngayon ay bumubungad sa mga bisita ng Pambansang Museo sa Maynila?",
+    "options": [
+      "Spoliarium",
+      "Las Vírgenes Cristianas Expuestas al Populacho",
+      "España y Filipinas",
+      "Planting Rice"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which work won a gold medal in Madrid in 1884 and now greets visitors to the National Museum? — Juan Luna's Spoliarium. Hidalgo's 'Las Vírgenes…' won silver that same year."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Itinaas ng tindero nang 50% ang presyo ng isang bentilador, saka ito ibinaba nang 50% sa sale. Kumpara sa orihinal, ano na ang presyo nito?",
+    "options": [
+      "Pareho lang",
+      "50% na mas mababa",
+      "25% na mas mataas",
+      "25% na mas mababa"
+    ],
+    "correctIndex": 3,
+    "gloss": "A fan is marked up 50%, then cut 50% in a sale. Compared with the original? — 25% lower: 1.5 × 0.5 = 0.75. Autopilot says \"the same\"."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa “Florante at Laura” ni Francisco Balagtas, aling kaharian ang pinamumunuan ni Haring Linceo, ang ama ni Laura?",
+    "options": [
+      "Krotona",
+      "Albanya",
+      "Etolya",
+      "Persya"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Balagtas's 'Florante at Laura', which kingdom does King Linceo, Laura's father, rule? — Albania. Crotona is Florante's mother's homeland; Persia is Aladin's."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Halos tuluyan nang nabingi ang kompositor na ito nang likhain niya ang kanyang Ikasiyam na Simponya. Sino siya?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Frédéric Chopin"
+    ],
+    "correctIndex": 0,
+    "gloss": "This composer was almost completely deaf when he wrote his Ninth Symphony. Who? — Beethoven."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Siyam na madaling-araw ang Simbang Gabi, at ang huli ay sa bisperas ng Pasko. Anong petsa ang unang Simbang Gabi?",
+    "options": [
+      "Disyembre 15",
+      "Disyembre 17",
+      "Disyembre 16",
+      "Disyembre 1"
+    ],
+    "correctIndex": 2,
+    "gloss": "Simbang Gabi is nine dawn masses, the last on Christmas Eve. On what date is the first? — 16 December: 16 to 24 inclusive is nine days. Autopilot gives 24 − 9 = 15."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ibinalik ang Olympic Games sa makabagong panahon noong 1896. Saang lungsod ito unang idinaos?",
+    "options": [
+      "Paris",
+      "London",
+      "Roma",
+      "Athens"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Olympics were revived in modern times in 1896. In which city? — Athens."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ang guacamole, ang sawsawang Mehikano, ay pangunahing gawa sa anong prutas?",
+    "options": [
+      "Mangga",
+      "Abokado",
+      "Kamatis",
+      "Langka"
+    ],
+    "correctIndex": 1,
+    "gloss": "Guacamole, the Mexican dip, is made mainly from which fruit? — Avocado."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Sa salitang kalye, binabaligtad ang mga pantig: ang “idol” ay naging “lodi”. Ano ang pinagmulang salita ng “petmalu”?",
+    "options": [
+      "Matapang",
+      "Malamig",
+      "Malupit",
+      "Mapusok"
+    ],
+    "correctIndex": 2,
+    "gloss": "In street slang syllables are flipped: 'idol' became 'lodi'. What word is 'petmalu' from? — Malupit (said 'malupet'): malu-pet flipped gives pet-malu."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa katutubong pagbilang ng Tagalog, 100 ang “sandaan” at 1,000 ang “sanlibo”. Ilan naman ang “sanlaksa”?",
+    "options": [
+      "10,000",
+      "100,000",
+      "1,000,000",
+      "5,000"
+    ],
+    "correctIndex": 0,
+    "gloss": "In native Tagalog counting, 'sandaan' is 100 and 'sanlibo' 1,000. How much is 'sanlaksa'? — 10,000 (laksa = ten thousand)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Animnapung kilo ang masa ng isang astronaut dito sa Daigdig. Ano ang magiging masa niya pagdating sa Buwan?",
+    "options": [
+      "10 kg",
+      "360 kg",
+      "0 kg",
+      "60 kg"
+    ],
+    "correctIndex": 3,
+    "gloss": "An astronaut has a mass of 60 kg on Earth. What is their mass on the Moon? — Still 60 kg: mass does not change; only weight drops to about a sixth (the 10 kg trap)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sino ang nagtatag ng pahayagang “La Solidaridad” sa Barcelona noong 1889?",
+    "options": [
+      "Marcelo H. del Pilar",
+      "Graciano López Jaena",
+      "José Rizal",
+      "Mariano Ponce"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who founded the newspaper 'La Solidaridad' in Barcelona in 1889? — Graciano López Jaena. Marcelo H. del Pilar later took it over as editor."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Anong taon ang nakasulat sa Romanong bilang na MCMXCVIII?",
+    "options": [
+      "1988",
+      "2002",
+      "1998",
+      "1898"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which year is MCMXCVIII? — 1998: M 1000 + CM 900 + XC 90 + VIII 8."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ikinasal ang anak ni Aling Nena sa anak ni Aling Cora. Ano na ang tawag ng dalawang ina sa isa’t isa?",
+    "options": [
+      "Balae",
+      "Bilas",
+      "Hipag",
+      "Bayaw"
+    ],
+    "correctIndex": 0,
+    "gloss": "Aling Nena's child married Aling Cora's child. What do the two mothers now call each other? — Balae (co-parents-in-law). Bilas are the spouses of siblings; hipag/bayaw are siblings-in-law."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa nobelang “Moby-Dick” ni Herman Melville, sino ang kapitang nahuhumaling na mapatay ang puting balyena?",
+    "options": [
+      "Ishmael",
+      "Nemo",
+      "Ahab",
+      "Flint"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 'Moby-Dick', which captain is obsessed with killing the white whale? — Ahab. Ishmael is the narrator; Nemo and Flint are captains from other novels."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Anong pelikula ng Disney noong 1937 ang kauna-unahang buong-habang pelikulang animated ng studio?",
+    "options": [
+      "Pinocchio",
+      "Fantasia",
+      "Bambi",
+      "Snow White and the Seven Dwarfs"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which 1937 Disney film was the studio's first full-length animated feature? — Snow White and the Seven Dwarfs (Pinocchio and Fantasia 1940, Bambi 1942)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pinagsamang “mass” (maraming tao) at Espanyol na “cara” (mukha) ang pangalan ng pistang puno ng nakangiting maskara tuwing Oktubre. Saang lungsod ito ipinagdiriwang?",
+    "options": [
+      "Iloilo",
+      "Bacolod",
+      "Kalibo",
+      "Davao"
+    ],
+    "correctIndex": 1,
+    "gloss": "A festival named from 'mass' + Spanish 'cara' (face), full of smiling masks every October. Which city? — Bacolod (MassKara). Iloilo has Dinagyang, Kalibo Ati-Atihan, Davao Kadayawan."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Tanghaling-tapat sa Maynila sa kalagitnaan ng Enero. Anong oras naman sa London sa sandaling iyon?",
+    "options": [
+      "Alas-kuwatro ng madaling-araw",
+      "Alas-singko ng madaling-araw",
+      "Alas-otso ng gabi",
+      "Alas-otso ng umaga"
+    ],
+    "correctIndex": 0,
+    "gloss": "Noon in Manila in mid-January. What time is it in London? — 4 a.m.: Manila is UTC+8 and London is on GMT in winter. 5 a.m. would be summer time; 8 p.m. is the wrong direction."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aling hayop-dagat ang may tatlong puso?",
+    "options": [
+      "Dikya",
+      "Bituing-dagat",
+      "Alimango",
+      "Pugita"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sea animal has three hearts? — The octopus. Jellyfish and starfish have no heart; a crab has one."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Isinilang si William Shakespeare noong 1564. Sinong siyentipiko ang isinilang din sa taong iyon?",
+    "options": [
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Tycho Brahe"
+    ],
+    "correctIndex": 2,
+    "gloss": "Shakespeare was born in 1564. Which scientist was born the same year? — Galileo (Kepler 1571, Brahe 1546, Newton 1643)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ang pilandok, isang maliit na hayop na kahawig ng usa, ay natural na matatagpuan lamang sa mga isla ng aling lalawigan?",
+    "options": [
+      "Mindoro",
+      "Palawan",
+      "Bohol",
+      "Samar"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Philippine mouse-deer (pilandok), lives naturally only on the islands of which province? — Palawan (Balabac and nearby islands)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Karamihan sa mga elementong ito ay ipinangalan sa isang bansa. Alin ang ipinangalan sa isang buong kontinente?",
+    "options": [
+      "Germanium",
+      "Francium",
+      "Polonium",
+      "Americium"
+    ],
+    "correctIndex": 3,
+    "gloss": "Most of these elements are named after a country. Which is named after a whole continent? — Americium (the Americas). Germanium, francium and polonium honour Germany, France and Poland."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sinong arkitekto ang nagdisenyo ng kumikinang na titanyong Guggenheim Museum sa Bilbao, Espanya?",
+    "options": [
+      "Frank Gehry",
+      "Frank Lloyd Wright",
+      "Zaha Hadid",
+      "Renzo Piano"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which architect designed the shining titanium Guggenheim Museum in Bilbao? — Frank Gehry. Frank Lloyd Wright designed the New York Guggenheim."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sino ang may-akda ng nobelang “Mga Ibong Mandaragit”?",
+    "options": [
+      "Lope K. Santos",
+      "Lualhati Bautista",
+      "Amado V. Hernandez",
+      "Edgardo M. Reyes"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the novel 'Mga Ibong Mandaragit' (Birds of Prey)? — Amado V. Hernandez. Lope K. Santos wrote 'Banaag at Sikat', Bautista 'Dekada ’70', Reyes 'Sa mga Kuko ng Liwanag'."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Walang titik ang pambansang awit nang una itong tugtugin noong 1898. Sino ang sumulat ng tulang Espanyol na “Filipinas” na naging unang titik nito?",
+    "options": [
+      "Rafael Palma",
+      "Julian Felipe",
+      "Cecilio Apóstol",
+      "José Palma"
+    ],
+    "correctIndex": 3,
+    "gloss": "The national anthem had no words when first played in 1898. Who wrote the Spanish poem 'Filipinas' that became its first lyrics? — José Palma (1899). Rafael Palma is his brother; Julian Felipe composed the music."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa baybayin, may likas na tunog na “a” ang bawat katinig. Ano ang tawag sa markang inilalagay sa itaas o ibaba nito para gawing “e/i” o “o/u” ang tunog?",
+    "options": [
+      "Tuldik",
+      "Kudlit",
+      "Gitling",
+      "Kuwit"
+    ],
+    "correctIndex": 1,
+    "gloss": "In baybayin every consonant carries an inherent 'a'. What is the mark placed above or below it to change the sound to e/i or o/u? — Kudlit. Tuldik is an accent mark in modern Filipino."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mga walong minuto ang biyahe ng liwanag mula sa Araw papunta sa Daigdig. Aling bagay sa kalawakan ang humigit-kumulang 1.3 segundo lamang ang layo sa atin sa bilis ng liwanag?",
+    "options": [
+      "Buwan",
+      "Venus",
+      "Mars",
+      "Mercury"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about eight minutes to reach Earth. Which body is only about 1.3 light-seconds away? — The Moon: ~384,000 km ÷ 300,000 km/s. Even Venus at its closest is over two light-minutes away."
+  },
+  {
+    "level": 5,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bago naging hari ng burger at Chickenjoy, anong uri ng tindahan ang Jollibee nang magbukas ito noong 1975?",
+    "options": [
+      "Panaderya",
+      "Karinderya",
+      "Tindahan ng sorbetes",
+      "Tindahan ng hopia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Before burgers and Chickenjoy, what kind of shop was Jollibee when it opened in 1975? — An ice-cream parlour (Magnolia franchise in Cubao and Quiapo)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aling programming language ang ipinangalan ng lumikha nito sa isang grupo ng mga komedyanteng British?",
+    "options": [
+      "Ruby",
+      "Python",
+      "Java",
+      "Perl"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which programming language did its creator name after a British comedy troupe? — Python, after Monty Python."
+  }
+]

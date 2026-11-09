@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Enligt ordspråket är en fågel i handen bättre än hur många i skogen?",
+    "options": ["Fem", "Tio", "Tjugo", "Hundra"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, a bird in the hand is better than how many in the woods? — Ten: the proverb ”Bättre en fågel i handen än tio i skogen”."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken sjö är Sveriges största, och till ytan dessutom Europas tredje största?",
+    "options": ["Vättern", "Mälaren", "Hjälmaren", "Vänern"],
+    "correctIndex": 3,
+    "gloss": "Which lake is Sweden's largest and also the third largest in Europe by area? — Vänern (about 5,650 km2), after Ladoga and Onega in Russia."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vilket av dessa båtord läses likadant framifrån som bakifrån?",
+    "options": ["Kajak", "Kanot", "Flotte", "Färja"],
+    "correctIndex": 0,
+    "gloss": "Which of these boat words reads the same forwards and backwards? — Kajak (k-a-j-a-k), a palindrome; the other words are not."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket av dessa havsdjur är ett däggdjur och måste upp till ytan för att andas?",
+    "options": ["Haj", "Delfin", "Bläckfisk", "Svärdfisk"],
+    "correctIndex": 1,
+    "gloss": "Which of these sea animals is a mammal and must surface to breathe? — The dolphin; shark and swordfish are fish, the octopus a mollusc."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket bakverk äter svenskar traditionellt på fettisdagen?",
+    "options": ["Kanelbulle", "Lussekatt", "Semla", "Prinsesstårta"],
+    "correctIndex": 2,
+    "gloss": "Which pastry do Swedes traditionally eat on Shrove Tuesday? — The semla (cardamom bun with almond paste and cream); lussekatt belongs to St Lucia's Day."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken gas tar växterna upp ur luften för att med solens hjälp bygga socker?",
+    "options": ["Koldioxid", "Syre", "Kväve", "Väte"],
+    "correctIndex": 0,
+    "gloss": "Which gas do plants take from the air to build sugar with the help of sunlight? — Carbon dioxide (photosynthesis); they give off oxygen."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Du ska betala exakt 8 kronor kontant med de svenska mynten 1, 2, 5 och 10 kronor. Hur få mynt kan du klara dig med?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "gloss": "You must pay exactly 8 kronor with 1, 2, 5 and 10 kronor coins. What is the fewest coins? — Three: 5 + 2 + 1; no pair of the coins sums to 8."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken tecknad figur bor i en ananas på havets botten?",
+    "options": ["Nemo", "Dory", "Ariel", "Svampbob"],
+    "correctIndex": 3,
+    "gloss": "Which cartoon character lives in a pineapple on the sea floor? — SpongeBob SquarePants; the other options are sea characters from Disney/Pixar films."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hur många strängar har en vanlig akustisk gitarr?",
+    "options": ["Fyra", "Fem", "Sex", "Åtta"],
+    "correctIndex": 2,
+    "gloss": "How many strings does an ordinary acoustic guitar have? — Six (a ukulele or bass has four, a banjo five)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hur många ringar finns det i den olympiska symbolen?",
+    "options": ["Fyra", "Fem", "Sex", "Sju"],
+    "correctIndex": 1,
+    "gloss": "How many rings are in the Olympic symbol? — Five, one for each of the continents represented, in blue, yellow, black, green and red."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk kemist och industriman tog 1867 patent på dynamiten?",
+    "options": ["Alfred Nobel", "Gustaf Dalén", "Lars Magnus Ericsson", "Gustaf de Laval"],
+    "correctIndex": 0,
+    "gloss": "Which Swedish chemist and industrialist patented dynamite in 1867? — Alfred Nobel; the others are other Swedish inventors (AGA lighthouse valve, telephones, the cream separator)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Klockan är tjugo i sex och du ska vara på plats halv sju. Hur lång tid har du på dig?",
+    "options": ["10 minuter", "50 minuter", "70 minuter", "110 minuter"],
+    "correctIndex": 1,
+    "gloss": "It is twenty to six and you must be there at half past six (Swedish ”halv sju” = 6:30). How long do you have? — 50 minutes: 5:40 to 6:30. The traps come from misreading ”tjugo i sex” or ”halv sju”."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Du ser en blixt och hör åskan 6 sekunder senare. Ljudet färdas ungefär en kilometer på tre sekunder. Hur långt bort slog blixten ner?",
+    "options": ["Cirka 200 meter", "Cirka 1 kilometer", "Cirka 2 kilometer", "Cirka 6 kilometer"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and hear thunder 6 seconds later; sound travels about 1 km per 3 s. How far away did it strike? — About 2 km (6 s / 3 s per km); light arrives practically instantly."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket av dessa barrträd fäller sina barr varje höst?",
+    "options": ["Gran", "Tall", "En", "Lärk"],
+    "correctIndex": 3,
+    "gloss": "Which of these conifers sheds its needles every autumn? — The larch, one of the few deciduous conifers; spruce, pine and juniper stay green."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken sydamerikansk flod för mer vatten ut i havet än någon annan flod i världen?",
+    "options": ["Amazonas", "Orinoco", "Paraná", "Magdalena"],
+    "correctIndex": 0,
+    "gloss": "Which South American river carries more water to the sea than any other river on Earth? — The Amazon; the others are real South American rivers."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken författare skrev om pojken Nils som flyger över Sverige på en gås och blev 1909 den första kvinnan med Nobelpriset i litteratur?",
+    "options": ["Astrid Lindgren", "Elsa Beskow", "Selma Lagerlöf", "Karin Boye"],
+    "correctIndex": 2,
+    "gloss": "Which author wrote about the boy Nils flying over Sweden on a goose and in 1909 became the first woman to win the Nobel Prize in Literature? — Selma Lagerlöf (”Nils Holgerssons underbara resa”)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Regalskeppet Vasa sjönk på sin jungfruresa i Stockholm 1628 och bärgades 1961. Ungefär hur länge låg hon på botten?",
+    "options": ["Cirka 130 år", "Cirka 230 år", "Cirka 330 år", "Cirka 430 år"],
+    "correctIndex": 2,
+    "gloss": "The warship Vasa sank on her maiden voyage in Stockholm in 1628 and was raised in 1961. About how long was she on the bottom? — About 330 years (1961 minus 1628)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken nederländsk konstnär målade ”Stjärnenatten” under sin tid på ett sjukhus i Saint-Rémy?",
+    "options": ["Rembrandt", "Vincent van Gogh", "Johannes Vermeer", "Piet Mondrian"],
+    "correctIndex": 1,
+    "gloss": "Which Dutch artist painted The Starry Night during his stay at a hospital in Saint-Rémy? — Vincent van Gogh (1889); the others are other famous Dutch painters."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket företag grundades 1976 av bland andra Steve Jobs och Steve Wozniak?",
+    "options": ["Microsoft", "IBM", "Atari", "Apple"],
+    "correctIndex": 3,
+    "gloss": "Which company was founded in 1976 by, among others, Steve Jobs and Steve Wozniak? — Apple; Microsoft (1975), IBM (1911) and Atari (1972) are other computing and gaming names."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken grekisk gud härskade över havet och bar en treudd?",
+    "options": ["Poseidon", "Zeus", "Hades", "Apollon"],
+    "correctIndex": 0,
+    "gloss": "Which Greek god ruled the sea and carried a trident? — Poseidon; Zeus (sky) and Hades (underworld) are his brothers."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "På svenska kommer miljon, miljard, biljon och biljard i stigande ordning. Hur många nollor har en biljon?",
+    "options": ["9", "12", "15", "18"],
+    "correctIndex": 1,
+    "gloss": "In Swedish million, milliard, billion and billiard come in rising order. How many zeros does a ”biljon” have? — 12 (the long scale: miljon 6, miljard 9, biljon 12, biljard 15); it is not the English ”billion”."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mount Everest ligger på gränsen mellan Nepal och vilket annat land?",
+    "options": ["Indien", "Bhutan", "Kina", "Pakistan"],
+    "correctIndex": 2,
+    "gloss": "Mount Everest lies on the border between Nepal and which other country? — China (Tibet); India, Bhutan and Pakistan all have Himalayan borders but not at Everest."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "En isbit flyter i ett glas vatten som är fyllt till brädden. Vad händer med vattnet när isen smälter?",
+    "options": ["Det svämmar över", "Nivån sjunker en aning", "Det beror på glasets form", "Nivån är oförändrad"],
+    "correctIndex": 3,
+    "gloss": "An ice cube floats in a glass filled to the brim. What happens when it melts? — The level stays the same: floating ice displaces exactly its own weight of water, which is the volume the meltwater fills."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket folkinstrument från Uppland spelas med stråke men har tangenter som kallas nycklar?",
+    "options": ["Nyckelharpa", "Hardingfela", "Kantele", "Säckpipa"],
+    "correctIndex": 0,
+    "gloss": "Which folk instrument from Uppland is played with a bow but has keys called ”nycklar”? — The nyckelharpa; the hardingfela is Norwegian and the kantele Finnish."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vilken av dessa händelser inträffade först?",
+    "options": ["Columbus första resa över Atlanten", "Luthers 95 teser", "Magellans världsomsegling", "Gutenbergs tryckta bibel"],
+    "correctIndex": 3,
+    "gloss": "Which of these happened first? — Gutenberg's printed Bible (about 1455), then Columbus (1492), Luther (1517), Magellan (1519–1522)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I vilken sport använder man begreppen ”birdie” och ”bogey”?",
+    "options": ["Cricket", "Baseboll", "Golf", "Curling"],
+    "correctIndex": 2,
+    "gloss": "In which sport are the terms birdie and bogey used? — Golf (one stroke under and over par on a hole)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Midsommarafton firas i Sverige alltid på en fredag. Vilket av dessa datum kan den aldrig infalla på?",
+    "options": ["19 juni", "21 juni", "24 juni", "26 juni"],
+    "correctIndex": 3,
+    "gloss": "Midsummer Eve in Sweden is always on a Friday. On which of these dates can it never fall? — 26 June: it is the Friday between 19 and 25 June."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Vilken av dessa svenska städer ligger norr om polcirkeln?",
+    "options": ["Luleå", "Kiruna", "Piteå", "Haparanda"],
+    "correctIndex": 1,
+    "gloss": "Which of these Swedish towns lies north of the Arctic Circle? — Kiruna (about 67.9 N, the Circle is at 66.6 N); Luleå, Piteå and Haparanda are all south of it."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket japanskt spelföretag står bakom rörmokaren Mario och hjälten Link?",
+    "options": ["Sega", "Sony", "Nintendo", "Capcom"],
+    "correctIndex": 2,
+    "gloss": "Which Japanese game company is behind the plumber Mario and the hero Link? — Nintendo; the others are Japanese games and console makers."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vem regisserade ”Pulp Fiction” och ”Kill Bill”?",
+    "options": ["Quentin Tarantino", "Martin Scorsese", "David Fincher", "Ridley Scott"],
+    "correctIndex": 0,
+    "gloss": "Who directed Pulp Fiction and Kill Bill? — Quentin Tarantino."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken stjärna ligger närmast jorden, om man bortser från solen?",
+    "options": ["Sirius", "Proxima Centauri", "Vega", "Betelgeuse"],
+    "correctIndex": 1,
+    "gloss": "Which star is closest to Earth, not counting the Sun? — Proxima Centauri (about 4.2 light years); Sirius is the brightest night star but farther."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk monark abdikerade 1654 och flyttade sedan till Rom?",
+    "options": ["Margareta", "Ulrika Eleonora", "Kristina", "Lovisa Ulrika"],
+    "correctIndex": 2,
+    "gloss": "Which Swedish monarch abdicated in 1654 and then moved to Rome? — Queen Christina; the others are other Swedish queens."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ordet ”fika” har bildats genom att man kastat om stavelserna i ett annat ord. Vilket?",
+    "options": ["Kaffe", "Kaka", "Fikon", "Bulle"],
+    "correctIndex": 0,
+    "gloss": "The word ”fika” was formed by swapping the syllables of another word. Which? — Kaffe (dialect ”kaffi” became ”fika”); ”fikon” only looks similar."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vem skrev romanen ”Hundra år av ensamhet” om familjen Buendía i byn Macondo?",
+    "options": ["Mario Vargas Llosa", "Jorge Luis Borges", "Isabel Allende", "Gabriel García Márquez"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novel One Hundred Years of Solitude about the Buendía family in the village of Macondo? — Gabriel García Márquez; the others are other Latin American writers."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk konstnär målade ”Midvinterblot” och gjorde sitt hem i Sundborn till en ikon för svensk inredning?",
+    "options": ["Anders Zorn", "Bruno Liljefors", "Carl Larsson", "Ernst Josephson"],
+    "correctIndex": 2,
+    "gloss": "Which Swedish artist painted Midvinterblot and made his home in Sundborn an icon of Swedish interiors? — Carl Larsson; the others are other leading Swedish painters of the era."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken hjälte dödade Minotauren på Kreta och hittade ut ur labyrinten med hjälp av ett garnnystan?",
+    "options": ["Perseus", "Theseus", "Herakles", "Jason"],
+    "correctIndex": 1,
+    "gloss": "Which hero killed the Minotaur on Crete and found his way out of the labyrinth with a ball of thread? — Theseus (with Ariadne's thread); Perseus, Heracles and Jason have other myths."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vilket decimalt tal motsvarar det binära talet 1011?",
+    "options": ["9", "10", "11", "13"],
+    "correctIndex": 2,
+    "gloss": "Which decimal number equals the binary number 1011? — 11 (8 + 0 + 2 + 1)."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vilket av dessa tal är ett primtal?",
+    "options": ["51", "57", "91", "97"],
+    "correctIndex": 3,
+    "gloss": "Which of these numbers is prime? — 97; 51 = 3 x 17, 57 = 3 x 19, 91 = 7 x 13 (all look prime at a glance)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Anders Celsius skapade sin temperaturskala 1742, men ”upp och ner” jämfört med dagens. Vad låg vid 0 grader på hans skala?",
+    "options": ["Vattnets kokpunkt", "Vattnets fryspunkt", "Människans kroppstemperatur", "Rumstemperatur"],
+    "correctIndex": 0,
+    "gloss": "Anders Celsius created his temperature scale in 1742, but upside down compared with today's. What was at 0 degrees on his scale? — The boiling point of water (the freezing point was 100); it was reversed after his death."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hur många hjärtan har en åttaarmad bläckfisk, vars blod dessutom är blått?",
+    "options": ["Ett", "Två", "Tre", "Fyra"],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have, whose blood is also blue? — Three: two pump blood through the gills, one through the body; the blood is blue from copper-based hemocyanin."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Efter ett kalenderkaos fick Sverige en 30 februari. Vilket år inträffade den?",
+    "options": ["1700", "1712", "1753", "1796"],
+    "correctIndex": 1,
+    "gloss": "After a calendar muddle, Sweden got a 30 February. In which year? — 1712: the leap day skipped in 1700 was made up with two leap days; 1753 was the year Sweden skipped days to adopt the Gregorian calendar."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Engelskans ”tungsten” är lånat från svenskans ord för ”tung sten”. Vilket grundämne kallas så på engelska?",
+    "options": ["Volfram", "Osmium", "Tantal", "Iridium"],
+    "correctIndex": 0,
+    "gloss": "English ”tungsten” is borrowed from the Swedish for ”heavy stone”. Which element is called that in English? — Tungsten, Swedish ”volfram” (W); the others are other dense metals."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken roman av August Strindberg, utgiven 1879, brukar kallas den första moderna svenska romanen?",
+    "options": ["Hemsöborna", "Röda rummet", "Inferno", "Giftas"],
+    "correctIndex": 1,
+    "gloss": "Which novel by August Strindberg, published in 1879, is often called the first modern Swedish novel? — Röda rummet; the others are Strindberg works from 1884 to 1897."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken tonsättare skrev orkesterrapsodin ”Midsommarvaka” 1903?",
+    "options": ["Wilhelm Stenhammar", "Wilhelm Peterson-Berger", "Hugo Alfvén", "Franz Berwald"],
+    "correctIndex": 2,
+    "gloss": "Which composer wrote the orchestral rhapsody Midsommarvaka in 1903? — Hugo Alfvén (Swedish Rhapsody No. 1); the others are other Swedish composers."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bara två länder är ”dubbelt kustlösa”: man måste korsa två gränser för att nå havet. Vilket av dessa är ett av dem?",
+    "options": ["Liechtenstein", "Schweiz", "Österrike", "Ungern"],
+    "correctIndex": 0,
+    "gloss": "Only two countries are doubly landlocked: two borders must be crossed to reach the sea. Which of these is one? — Liechtenstein (Uzbekistan is the other); Switzerland, Austria and Hungary border countries with a coast."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Solens ljus är drygt åtta minuter på väg till oss. Hur lång tid tar det för ljuset att färdas från månen till jorden?",
+    "options": ["Drygt en sekund", "Ungefär åtta sekunder", "Ungefär en minut", "Ungefär åtta minuter"],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes a little over eight minutes to reach us. How long does moonlight take to reach Earth? — A little over a second: about 384,000 km at 300,000 km/s is 1.3 s."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Fakultet n! är produkten av alla heltal från 1 till n. Hur mycket är 0!?",
+    "options": ["0", "1", "-1", "Odefinierat"],
+    "correctIndex": 1,
+    "gloss": "n! is the product of the integers from 1 to n. What is 0!? — 1: an empty product is 1, and n! = n x (n-1)! gives 1! = 1 x 0!."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vem patenterade 1888 den ställbara skiftnyckeln, en svensk uppfinning som blev känd över hela världen?",
+    "options": ["Gustaf de Laval", "Frans Lindqvist", "Gustaf Dalén", "Johan Petter Johansson"],
+    "correctIndex": 3,
+    "gloss": "Who patented the adjustable spanner in 1888, a Swedish invention known worldwide? — Johan Petter Johansson; Lindqvist made the Primus stove, de Laval the cream separator, Dalén the AGA lighthouse valve."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken hovmålare skapade 1656 ”Las Meninas”, med den spanska kungafamiljen och konstnären själv i bild?",
+    "options": ["Francisco de Goya", "Bartolomé Murillo", "El Greco", "Diego Velázquez"],
+    "correctIndex": 3,
+    "gloss": "Which court painter created Las Meninas in 1656, with the Spanish royal family and the artist himself in the picture? — Diego Velázquez; the others are other Spanish masters."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket folk utvecklade kilskriften i Mesopotamien för över 5 000 år sedan?",
+    "options": ["Babylonierna", "Assyrierna", "Sumererna", "Hettiterna"],
+    "correctIndex": 2,
+    "gloss": "Which people developed cuneiform in Mesopotamia over 5,000 years ago? — The Sumerians; Babylonians, Assyrians and Hittites later used the script."
+  }
+]
