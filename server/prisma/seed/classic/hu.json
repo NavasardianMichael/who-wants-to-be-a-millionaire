@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hogyan folytatódik a közmondás: „Addig jár a korsó a kútra, amíg…”?",
+    "options": ["megtelik", "kiszárad", "el nem törik", "meg nem öregszik"],
+    "correctIndex": 2,
+    "gloss": "How does the proverb continue: \"The pitcher goes to the well until...\"? — until it breaks: «Addig jár a korsó a kútra, amíg el nem törik»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sötét szobában vagy, a fiókban összekeveredve 10 fekete és 10 fehér zokni van. Legalább hányat kell kivenned, hogy biztosan legyen köztük két egyforma színű?",
+    "options": ["2", "3", "4", "11"],
+    "correctIndex": 1,
+    "gloss": "In a dark room, a drawer holds 10 black and 10 white socks mixed up. How many must you take out to be sure of two of the same colour? — Three: with two colours, the third sock must repeat one."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kinek a nevéhez fűződik az államalapítás, amelyet augusztus 20-án ünneplünk?",
+    "options": ["Szent István", "Árpád fejedelem", "Szent László", "Könyves Kálmán"],
+    "correctIndex": 0,
+    "gloss": "Whose name is tied to the founding of the state, celebrated on 20 August? — Saint Stephen, first king, crowned around 1000-1001. Árpád led the conquest, not the founding of the kingdom."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik állat nem tartozik az emlősök közé?",
+    "options": ["Delfin", "Denevér", "Fóka", "Pingvin"],
+    "correctIndex": 3,
+    "gloss": "Which animal is not a mammal? — The penguin, a bird. Dolphin, bat and seal all look \"unusual\" but are mammals."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik ünnep előtt szokás kitenni a gyerekeknek a kitisztított csizmát az ablakba?",
+    "options": ["Húsvét", "Pünkösd", "Mikulás napja", "Szilveszter"],
+    "correctIndex": 2,
+    "gloss": "Before which holiday do children put their polished boots in the window? — St Nicholas' Day (6 December), when the Mikulás fills them with sweets."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Melyik új szót kapod, ha a „kalap” szóról leveszed az első betűt?",
+    "options": ["kap", "alap", "lap", "kapa"],
+    "correctIndex": 1,
+    "gloss": "Which new word do you get if you drop the first letter of \"kalap\" (hat)? — \"alap\" (base). \"lap\" would need two letters removed, \"kap\" the middle one."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A levegő nagyobbik részét a nitrogén alkotja. Melyik gázra van mégis szüksége a testünknek a légzéshez?",
+    "options": ["Nitrogén", "Szén-dioxid", "Hélium", "Oxigén"],
+    "correctIndex": 3,
+    "gloss": "Air is mostly nitrogen. Which gas does our body nevertheless need for breathing? — Oxygen (about 21% of air)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik rajzfilmfigura szokta sárgarépát rágcsálva megkérdezni: „Mi újság, doki?”",
+    "options": ["Mickey egér", "Donald kacsa", "Bugs Bunny", "Tom macska"],
+    "correctIndex": 2,
+    "gloss": "Which cartoon character chews a carrot and asks \"What's up, Doc?\" — Bugs Bunny."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "A hentesnél 25 deka sonkát kérsz. Hány grammot mér le neked a hentes?",
+    "options": ["25", "250", "2500", "2,5"],
+    "correctIndex": 1,
+    "gloss": "At the butcher you ask for 25 deka of ham. How many grams? — 250: a deka (dekagram) is 10 grams, the everyday Hungarian shop unit."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Melyik hónap folytatja a sort: január, március, május, …?",
+    "options": ["július", "június", "augusztus", "szeptember"],
+    "correctIndex": 0,
+    "gloss": "Which month continues: January, March, May, ...? — July: every second month, skipping one each time."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik regény fiúhősei védik elszántan a grundjukat?",
+    "options": ["A Pál utcai fiúk", "Tüskevár", "Légy jó mindhalálig", "Egri csillagok"],
+    "correctIndex": 0,
+    "gloss": "Whose boy heroes defend their \"grund\" (a vacant lot) with determination? — Ferenc Molnár's The Paul Street Boys. Each wrong option is another classic Hungarian novel about boys or youth."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Édesanyád édesapjának az édesapja neked ki?",
+    "options": ["Nagyapád", "Dédapád", "Ükapád", "Nagybátyád"],
+    "correctIndex": 1,
+    "gloss": "Your mother's father's father is your... what? — Great-grandfather (dédapa). Parents are one step, nagyapa two, dédapa three, ükapa four generations up."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Melyik szám folytatja a sort: 1, 4, 9, 16, …?",
+    "options": ["24", "30", "36", "25"],
+    "correctIndex": 3,
+    "gloss": "Which number continues 1, 4, 9, 16, ...? — 25: the square numbers (1², 2², 3², 4², 5²). 36 is the trap, the square after the next."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik században találta fel Johannes Gutenberg a mozgatható betűs könyvnyomtatást Európában?",
+    "options": ["13. század", "14. század", "15. század", "17. század"],
+    "correctIndex": 2,
+    "gloss": "In which century did Gutenberg invent movable-type printing in Europe? — The 15th (around 1440s-1450s)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik zeneszerző vesztette el a hallását, mégis megkomponálta a Kilencedik szimfóniát?",
+    "options": ["Wolfgang Amadeus Mozart", "Joseph Haydn", "Franz Schubert", "Ludwig van Beethoven"],
+    "correctIndex": 3,
+    "gloss": "Which composer lost his hearing yet wrote the Ninth Symphony? — Beethoven (Ninth, with the Ode to Joy, 1824)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A rovarok hatlábúak. Melyik apró állat nem tartozik közéjük?",
+    "options": ["Pók", "Hangya", "Méh", "Szúnyog"],
+    "correctIndex": 0,
+    "gloss": "Insects have six legs. Which small animal is not one? — The spider (eight legs, an arachnid)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik ételt tartja a hagyomány szerencsehozónak újévkor, mert aprópénzre emlékeztet?",
+    "options": ["Lencse", "Spenót", "Karfiol", "Padlizsán"],
+    "correctIndex": 0,
+    "gloss": "Which food does tradition make lucky at New Year because it looks like small coins? — Lentils (lencsefőzelék / lencseleves)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik fa magjából készül a csokoládé?",
+    "options": ["Kávécserje", "Kakaófa", "Mogyorófa", "Vaníliaorchidea"],
+    "correctIndex": 1,
+    "gloss": "From the seeds of which tree is chocolate made? — The cacao tree. Coffee and vanilla are the other tropical \"seed\" flavours people mix up."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hány darab egy tucat, egy fél tucat és egy pár tojás együtt?",
+    "options": ["18", "19", "20", "21"],
+    "correctIndex": 2,
+    "gloss": "How many eggs are a dozen, half a dozen and a pair together? — 12 + 6 + 2 = 20 (tucat = 12, pár = 2)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik angol szó kezdőbetűje az „https” végén álló „s”?",
+    "options": ["speed", "server", "safe", "secure"],
+    "correctIndex": 3,
+    "gloss": "Which English word does the \"s\" at the end of \"https\" stand for? — \"secure\" (Hypertext Transfer Protocol Secure)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Egy űrhajós egy kalapácsot és egy tollat egyszerre ejt le a Hold felszínén. Melyik ér előbb a talajra?",
+    "options": ["Egyszerre érnek le", "A kalapács ér előbb", "A toll ér előbb", "Egyik sem ér le"],
+    "correctIndex": 0,
+    "gloss": "An astronaut drops a hammer and a feather at the same moment on the Moon. Which lands first? — Both together: no air, no drag (shown on Apollo 15 in 1971)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hány különböző értéket vehet fel egy bájt, ha minden bitje 0 vagy 1 lehet?",
+    "options": ["64", "128", "256", "512"],
+    "correctIndex": 2,
+    "gloss": "How many different values can one byte hold, if each bit is 0 or 1? — 256: a byte is 8 bits, so 2^8. 128 is the trap (that is 2^7)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Melyik vízi jármű neve olvasható visszafelé is ugyanúgy?",
+    "options": ["Kenu", "Csónak", "Tutaj", "Kajak"],
+    "correctIndex": 3,
+    "gloss": "The name of which watercraft reads the same backwards? — kajak (a palindrome)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Egy könyv ára ezer forint meg még az árának a fele. Mennyibe kerül a könyv?",
+    "options": ["1500 Ft", "1750 Ft", "2000 Ft", "2500 Ft"],
+    "correctIndex": 2,
+    "gloss": "A book costs a thousand forints plus half of its own price. What does it cost? — 2000: half the price is 1000, so the price is 2000. 1500 is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik tengerszoros választja el Európát Afrikától a Földközi-tenger nyugati kapujánál?",
+    "options": ["Boszporusz", "Dardanellák", "Messinai-szoros", "Gibraltári-szoros"],
+    "correctIndex": 3,
+    "gloss": "Which strait separates Europe from Africa at the western gate of the Mediterranean? — Gibraltar. The Bosphorus and Dardanelles divide Europe from Asia; Messina separates Sicily from Italy."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik ókori római város ismert elsősorban arról, hogy a Vezúv i. sz. 79-es kitörése hamuval borította be?",
+    "options": ["Pompeji", "Ostia", "Capua", "Ravenna"],
+    "correctIndex": 0,
+    "gloss": "Which ancient Roman city is best known for being covered in ash by Vesuvius in AD 79? — Pompeii. Ostia, Capua and Ravenna are real Roman-era Italian cities that survived."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ki írta A kis herceget, a rókával és a rózsával?",
+    "options": ["Jules Verne", "Antoine de Saint-Exupéry", "Victor Hugo", "Albert Camus"],
+    "correctIndex": 1,
+    "gloss": "Who wrote The Little Prince, with the fox and the rose? — Antoine de Saint-Exupéry, who was also an airman."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik építész tervezte a budapesti Országház épületét?",
+    "options": ["Ybl Miklós", "Steindl Imre", "Lechner Ödön", "Hauszmann Alajos"],
+    "correctIndex": 1,
+    "gloss": "Which architect designed the Hungarian Parliament building in Budapest? — Imre Steindl. Ybl (Opera), Lechner (Museum of Applied Arts) and Hauszmann (Buda Castle) are other Budapest architects."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kodály Zoltánnal együtt melyik zeneszerző járta a magyar falvakat, hogy fonográffal népdalokat gyűjtsön?",
+    "options": ["Bartók Béla", "Liszt Ferenc", "Erkel Ferenc", "Dohnányi Ernő"],
+    "correctIndex": 0,
+    "gloss": "Which composer toured Hungarian villages with Kodály, recording folk songs on a phonograph? — Béla Bartók."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik sportágban nyert a magyar férfi válogatott olimpiai aranyat Sydneyben, Athénban és Pekingben is?",
+    "options": ["Kézilabda", "Kosárlabda", "Röplabda", "Vízilabda"],
+    "correctIndex": 3,
+    "gloss": "In which sport did Hungary's men's team win Olympic gold in Sydney, Athens and Beijing alike? — Water polo (2000, 2004, 2008)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik római császár uralkodása végén, Kr. u. 117 körül érte el a birodalom a legnagyobb kiterjedését?",
+    "options": ["Augustus", "Traianus", "Hadrianus", "Marcus Aurelius"],
+    "correctIndex": 1,
+    "gloss": "At the end of whose reign, around AD 117, did the Roman Empire reach its greatest extent? — Trajan. Hadrian, his successor, gave up some of the eastern conquests."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar származású rendező készítette a Casablanca című klasszikust?",
+    "options": ["Korda Sándor", "Pressburger Imre", "Fejős Pál", "Curtiz Mihály"],
+    "correctIndex": 3,
+    "gloss": "Which Hungarian-born director made the classic Casablanca? — Mihály Curtiz (Michael Curtiz). Korda, Pressburger and Fejős are other Hungarian-born film makers."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Egy pohár színültig tele van vízzel, a tetején jégkocka úszik. Mi történik, amikor a jég teljesen elolvad?",
+    "options": ["Kicsordul a víz", "Alacsonyabb lesz a vízszint", "Ugyanott marad a vízszint", "Nem lehet megmondani"],
+    "correctIndex": 2,
+    "gloss": "A glass is filled to the brim, with an ice cube floating in it. What happens when the ice melts completely? — Nothing: the floating ice displaces exactly its own weight in water, which is what it becomes."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A magyar Magna Cartának is nevezett Aranybullát 1222-ben melyik király adta ki?",
+    "options": ["II. András", "IV. Béla", "Könyves Kálmán", "Nagy Lajos"],
+    "correctIndex": 0,
+    "gloss": "Which king issued the Golden Bull, called the Hungarian Magna Carta, in 1222? — Andrew II."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik európai kutatóközpontban dolgozott Tim Berners-Lee, amikor 1989-ben kidolgozta a világháló alapötletét?",
+    "options": ["ESA", "ESO", "EMBL", "CERN"],
+    "correctIndex": 3,
+    "gloss": "At which European research centre was Tim Berners-Lee working when he proposed the World Wide Web in 1989? — CERN. ESA, ESO and EMBL are other European research organisations."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Az angol „coach”, a német „Kutsche” és a spanyol „coche” szó közös forrása egy magyar szó. Melyik?",
+    "options": ["Szekér", "Kocsi", "Hintó", "Fogat"],
+    "correctIndex": 1,
+    "gloss": "The English \"coach\", German \"Kutsche\" and Spanish \"coche\" all come from one Hungarian word. Which? — \"kocsi\", from the village of Kocs, famed for its carriages."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik a Föld legmélyebb tava, amely egyben a legnagyobb mennyiségű édesvizet tartalmazza?",
+    "options": ["Tanganyika-tó", "Viktória-tó", "Bajkál-tó", "Felső-tó"],
+    "correctIndex": 2,
+    "gloss": "Which is the deepest lake on Earth, also holding the greatest volume of fresh water? — Lake Baikal. Tanganyika is second deepest."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A fény másodpercenként nagyjából 300 ezer kilométert tesz meg. Mennyi idő alatt ér el hozzánk a Nap fénye?",
+    "options": ["Kb. 8 másodperc", "Kb. 80 másodperc", "Kb. 8 perc", "Kb. 8 óra"],
+    "correctIndex": 2,
+    "gloss": "Light travels about 300,000 km per second. How long does sunlight take to reach us? — About 8 minutes: the Sun is about 150 million km away, so 150,000,000 / 300,000 = 500 s."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Magyarul egy billió hány nullával írható le?",
+    "options": ["9", "12", "15", "18"],
+    "correctIndex": 1,
+    "gloss": "In Hungarian, how many zeros does a \"billió\" have? — 12. Hungarian uses the long scale: millió 10^6, milliárd 10^9, billió 10^12; the English \"billion\" is the Hungarian milliárd."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Székesfehérvár és Gyulafehérvár mellett volt egy harmadik „fehérvár” is, Nándorfehérvár. Ma melyik ország fővárosa?",
+    "options": ["Belgrád", "Szófia", "Bukarest", "Pozsony"],
+    "correctIndex": 0,
+    "gloss": "Besides Székesfehérvár and Gyulafehérvár there was a third \"white castle\", Nándorfehérvár. Today the capital of which country? — Serbia: Belgrade, whose own name (Beograd) also means \"white city\"."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mátyás király második felesége, Aragóniai Beatrix melyik itáliai város udvarában nevelkedett?",
+    "options": ["Nápoly", "Milánó", "Ferrara", "Firenze"],
+    "correctIndex": 0,
+    "gloss": "At the court of which Italian city was King Matthias's second wife, Beatrice of Aragon, raised? — Naples. Ferrara is the trap: her sister Eleonora married the Duke of Ferrara."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Marie Curie egyik felfedezett elemét a szülőhazájáról nevezte el. Melyiket?",
+    "options": ["Rádium", "Francium", "Polónium", "Germánium"],
+    "correctIndex": 2,
+    "gloss": "Marie Curie named one of the elements she discovered after her homeland. Which? — Polonium (Poland). Francium and germanium are also country names, but she did not discover them."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shakespeare A vihar című drámájában ki Prospero lánya?",
+    "options": ["Ophelia", "Miranda", "Portia", "Viola"],
+    "correctIndex": 1,
+    "gloss": "In Shakespeare's The Tempest, who is Prospero's daughter? — Miranda. The others are heroines of Hamlet, The Merchant of Venice and Twelfth Night."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik versenyszámban nyert Egerszegi Krisztina háromszor egymás után olimpiai aranyérmet?",
+    "options": ["100 m hát", "200 m hát", "200 m vegyes", "400 m vegyes"],
+    "correctIndex": 1,
+    "gloss": "In which event did Krisztina Egerszegi win Olympic gold three Games in a row? — 200 m backstroke (1988, 1992, 1996)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik zeneszerző készítette Muszorgszkij Egy kiállítás képei című zongoraciklusának ma legismertebb zenekari változatát?",
+    "options": ["Maurice Ravel", "Claude Debussy", "Nyikolaj Rimszkij-Korszakov", "Igor Sztravinszkij"],
+    "correctIndex": 0,
+    "gloss": "Who made the best-known orchestral version of Mussorgsky's piano suite Pictures at an Exhibition? — Maurice Ravel (1922). Rimsky-Korsakov edited other Mussorgsky works, hence the trap."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A görög mitológiában ki volt Zeusz anyja?",
+    "options": ["Héra", "Démétér", "Gaia", "Rheia"],
+    "correctIndex": 3,
+    "gloss": "In Greek mythology, who was Zeus's mother? — Rhea, a Titaness and wife of Cronus. Hera was his wife, Demeter his sister, Gaia his grandmother."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Budapesten télen éppen dél van. Hány óra van ekkor Tokióban?",
+    "options": ["18:00", "19:00", "20:00", "21:00"],
+    "correctIndex": 2,
+    "gloss": "It is noon in Budapest in winter. What time is it in Tokyo? — 20:00: Hungary is UTC+1 in winter and Japan UTC+9 all year, eight hours apart."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik uralkodó építtette a Tádzs Mahalt elhunyt felesége emlékére?",
+    "options": ["Akbar", "Babur", "Aurangzéb", "Sáh Dzsahán"],
+    "correctIndex": 3,
+    "gloss": "Which ruler built the Taj Mahal in memory of his late wife? — Shah Jahan. The others are other Mughal emperors."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik város nevéhez köthető a matyó népművészet, a gazdagon hímzett viselet?",
+    "options": ["Kalocsa", "Hollókő", "Hódmezővásárhely", "Mezőkövesd"],
+    "correctIndex": 3,
+    "gloss": "With which town is Matyó folk art, with its richly embroidered costume, associated? — Mezőkövesd. Kalocsa is known for another embroidery and paprika, Hollókő for its village, Hódmezővásárhely for pottery."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A Merkúr van a legközelebb a Naphoz, mégis a Vénusz a Naprendszer legforróbb bolygója. Miért?",
+    "options": ["Sűrű légköre bezárja a hőt", "Gyorsabban forog a tengelyén", "Vulkánjai állandóan fűtik", "Közelebb kering a Földhöz"],
+    "correctIndex": 0,
+    "gloss": "Mercury is closest to the Sun, yet Venus is the hottest planet. Why? — Its thick carbon-dioxide atmosphere traps the heat (a runaway greenhouse effect); Mercury has almost no atmosphere."
+  }
+]

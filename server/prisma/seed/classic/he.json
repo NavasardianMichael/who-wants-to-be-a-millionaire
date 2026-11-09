@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איך מסתיים הפתגם “אין עשן בלי…”?",
+    "options": ["רוח", "אש", "מים", "עפר"],
+    "correctIndex": 1,
+    "gloss": "How does the proverb 'There is no smoke without...' end? — Fire: the proverb «אין עשן בלי אש»; the wrong options are the other classical elements."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה סמל מופיע במרכז דגל ישראל, בין שני הפסים הכחולים?",
+    "options": ["מנורה", "ענף זית", "מגן דוד", "ארז"],
+    "correctIndex": 2,
+    "gloss": "Which symbol is in the centre of Israel's flag, between the two blue stripes? — The Star of David; the other options are real Israeli symbols (the menorah and olive branch of the state emblem, the cedar)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ירון קנה שלוש לחמניות ב־4 ש״ח כל אחת ושילם בשטר של 20 ש״ח. כמה עודף קיבל?",
+    "options": ["4 ש״ח", "6 ש״ח", "8 ש״ח", "12 ש״ח"],
+    "correctIndex": 2,
+    "gloss": "Yaron bought three rolls at 4 shekels each and paid with a 20-shekel note. How much change? — 8 shekels: 3 x 4 = 12, 20 - 12 = 8; 12 is the price, not the change."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "עומדים עם הפנים אל השמש השוקעת. לאיזה כיוון פונה הגב?",
+    "options": ["מזרח", "מערב", "צפון", "דרום"],
+    "correctIndex": 0,
+    "gloss": "You stand facing the setting sun. Which way is your back facing? — East: the sun sets in the west, so behind you is the opposite direction."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה פרי נהוג לטבול בדבש בראש השנה, כדי לאחל שנה מתוקה?",
+    "options": ["תפוח", "אגס", "שזיף", "אפרסק"],
+    "correctIndex": 0,
+    "gloss": "Which fruit is customarily dipped in honey on Rosh Hashanah, for a sweet year? — An apple; the others are autumn fruits that are not part of the custom."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה כלי נגינה נמנה עם כלי הנשיפה?",
+    "options": ["צ׳לו", "חליל", "נבל", "קסילופון"],
+    "correctIndex": 1,
+    "gloss": "Which instrument is a wind instrument? — The flute; the cello and harp are strings, the xylophone is percussion."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "באיזה ים אפשר לשכב על הגב על פני המים, בלי לשחות, ולקרוא עיתון?",
+    "options": ["ים סוף", "הים התיכון", "הכנרת", "ים המלח"],
+    "correctIndex": 3,
+    "gloss": "In which sea can you lie on your back on the water, without swimming, and read a newspaper? — The Dead Sea, because of its very high salinity."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה חרק הופך צוף של פרחים לדבש?",
+    "options": ["צרעה", "נמלה", "פרפר", "דבורה"],
+    "correctIndex": 3,
+    "gloss": "Which insect turns flower nectar into honey? — The bee; the wasp is the tempting lookalike."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "במשחק כדורגל, כמה שחקנים מכל קבוצה נמצאים על המגרש בהרכב המלא, כולל השוער?",
+    "options": ["9", "10", "11", "12"],
+    "correctIndex": 2,
+    "gloss": "In a football match, how many players per team are on the pitch at full strength, goalkeeper included? — 11."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "איזו מילה נשארת אותה מילה גם כשקוראים אותה מהסוף להתחלה?",
+    "options": ["סבא", "אבא", "סבתא", "אחות"],
+    "correctIndex": 1,
+    "gloss": "Which word stays the same word when read from the end to the start? — אבא (dad), a palindrome: א-ב-א; the others reverse into nonsense."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "בלילה הרביעי של חנוכה, כמה נרות דולקים בחנוכייה, כולל נר השמש?",
+    "options": ["4", "5", "8", "9"],
+    "correctIndex": 1,
+    "gloss": "On the fourth night of Hanukkah, how many candles are lit in the hanukkiah, the helper candle (shamash) included? — 5: four candles for the fourth night plus the shamash."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה יונק הוא היחיד שמסוגל לעוף באמת, ולא רק לדאות?",
+    "options": ["סנאי מעופף", "לטאה מעופפת", "עטלף", "דג מעופף"],
+    "correctIndex": 2,
+    "gloss": "Which mammal is the only one capable of true flight, not just gliding? — The bat; the flying squirrel only glides, the lizard and the fish are not mammals."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "פותחים בקבוק קולה ושומעים ״פססס״. איזה גז בורח החוצה?",
+    "options": ["חנקן", "חמצן", "מימן", "פחמן דו־חמצני"],
+    "correctIndex": 3,
+    "gloss": "You open a bottle of cola and hear a hiss. Which gas escapes? — Carbon dioxide, dissolved in fizzy drinks."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "איזו מילה שייכת לאותה משפחה כמו ״מחשב״, כלומר חולקת איתה שורש?",
+    "options": ["חשבון", "חשמל", "חשוך", "חשש"],
+    "correctIndex": 0,
+    "gloss": "Which word is in the same family as 'computer' (mahshev), i.e. shares its root? — חשבון (bill, arithmetic): root ח-ש-ב; the others begin with the same two letters but come from other roots."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה נהר זורם בקהיר, וכמעט כל תושבי מצרים חיים לאורכו?",
+    "options": ["החידקל", "הנילוס", "הפרת", "הירדן"],
+    "correctIndex": 1,
+    "gloss": "Which river flows through Cairo, with almost all Egyptians living along it? — The Nile; the Tigris, Euphrates and Jordan are other Middle Eastern rivers."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו אפליקציית ניווט שנולדה בישראל נמכרה לגוגל ב־2013?",
+    "options": ["ווייז", "מוביט", "גט", "וויקס"],
+    "correctIndex": 0,
+    "gloss": "Which navigation app born in Israel was sold to Google in 2013? — Waze; Moovit went to Intel in 2020, Gett and Wix are other Israeli companies."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "פלאפל וקולה עולים יחד 30 ש״ח. הפלאפל יקר ב־20 ש״ח מהקולה. כמה עולה הקולה?",
+    "options": ["5 ש״ח", "10 ש״ח", "15 ש״ח", "20 ש״ח"],
+    "correctIndex": 0,
+    "gloss": "Falafel and cola cost 30 shekels together; the falafel costs 20 more than the cola. How much is the cola? — 5: the cola is 5 and the falafel 25. The autopilot answer is 10."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "הילדה אליס נופלת לחור של ארנב ומגיעה לארץ הפלאות. מי כתב את הספר?",
+    "options": ["צ׳רלס דיקנס", "רואלד דאל", "ג׳ורג׳ אורוול", "לואיס קרול"],
+    "correctIndex": 3,
+    "gloss": "The girl Alice falls down a rabbit hole and reaches Wonderland. Who wrote the book? — Lewis Carroll; all options are English-language writers."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "הסדרה א, ג, ה, ז, ט בנויה מדילוג על אות אחת באלפבית העברי. איזו אות באה אחריה?",
+    "options": ["י", "כ", "ל", "מ"],
+    "correctIndex": 1,
+    "gloss": "The series א, ג, ה, ז, ט skips one letter of the Hebrew alphabet each time. Which letter comes next? — כ: the alphabet runs ... ט, י, כ, so skipping י lands on כ."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "שבת נכנסת בשישי בערב ולא בשבת בבוקר. באיזה רגע מתחלף התאריך בלוח העברי?",
+    "options": ["בחצות הלילה", "בצהריים", "בשקיעה", "בזריחה"],
+    "correctIndex": 2,
+    "gloss": "Shabbat begins on Friday evening, not Saturday morning. At what moment does the date change in the Hebrew calendar? — At sunset (nightfall): the Hebrew day runs from evening to evening."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו עיר ישראלית החלה ב־1909 כשכונה בשם ״אחוזת בית״ על חולות ליד יפו?",
+    "options": ["פתח תקווה", "חולון", "ראשון לציון", "תל אביב"],
+    "correctIndex": 3,
+    "gloss": "Which Israeli city began in 1909 as a neighbourhood called Ahuzat Bayit on sand dunes near Jaffa? — Tel Aviv; the others are older or later towns."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "כמה אותיות באלפבית העברי יש להן צורה מיוחדת בסוף מילה, כמו מ ו־ם?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "gloss": "How many letters of the Hebrew alphabet have a special form at the end of a word, like מ and ם? — Five: ך ם ן ף ץ (the mnemonic is מנצפ״ך)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "שישה חברים נפגשים, וכל אחד לוחץ את ידו של כל אחד מהאחרים בדיוק פעם אחת. כמה לחיצות יד נלחצות בסך הכול?",
+    "options": ["12", "15", "18", "30"],
+    "correctIndex": 1,
+    "gloss": "Six friends meet and each shakes hands with each of the others exactly once. How many handshakes in all? — 15: 6 x 5 / 2, since each handshake is shared by two people."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "אצה בבריכה מכפילה את שטח הכיסוי שלה מדי יום, וביום ה־30 הבריכה מכוסה כולה. באיזה יום היא הייתה מכוסה עד חציה?",
+    "options": ["ביום ה־15", "ביום ה־20", "ביום ה־28", "ביום ה־29"],
+    "correctIndex": 3,
+    "gloss": "Algae in a pond double their coverage every day, and on day 30 the pond is fully covered. On which day was it half covered? — Day 29: one doubling before full."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "אם השמש הייתה נעלמת בדיוק עכשיו, כמה זמן עוד היינו רואים אותה בשמיים?",
+    "options": ["כ־8 דקות", "מיד, באותו רגע", "כ־8 שניות", "כ־8 שעות"],
+    "correctIndex": 0,
+    "gloss": "If the Sun vanished right now, how long would we still see it in the sky? — About 8 minutes: sunlight needs that long to reach Earth, and we see only light that has already travelled."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו ציפור נבחרה ב־2008, בהצבעת הציבור, לציפור הלאומית של ישראל?",
+    "options": ["בולבול", "עורב", "דוכיפת", "נשר"],
+    "correctIndex": 2,
+    "gloss": "Which bird was chosen by public vote in 2008 as Israel's national bird? — The hoopoe (duchifat)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "עד 2011 הייתה זו סודאן. מאז שדרום סודאן קיבלה עצמאות, איזו מדינה היא הגדולה באפריקה בשטחה?",
+    "options": ["סודאן", "אלג׳יריה", "לוב", "קונגו הדמוקרטית"],
+    "correctIndex": 1,
+    "gloss": "Until 2011 it was Sudan. Since South Sudan became independent, which country is the largest in Africa by area? — Algeria; the Democratic Republic of the Congo is a close second."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו זמרת ישראלית זכתה באירוויזיון בליסבון ב־2018?",
+    "options": ["נועה קירל", "גלי עטרי", "דנה אינטרנשיונל", "נטע ברזילי"],
+    "correctIndex": 3,
+    "gloss": "Which Israeli singer won the Eurovision Song Contest in Lisbon in 2018? — Netta Barzilai with 'Toy'; Gali Atari won in 1979, Dana International in 1998, Noa Kirel finished third in 2023."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "פסח וסוכות חלים ב־15 בחודש העברי. איך נראה הירח בדרך כלל בליל החג?",
+    "options": ["ירח חדש", "רבע ראשון", "ירח מלא", "רבע אחרון"],
+    "correctIndex": 2,
+    "gloss": "Passover and Sukkot fall on the 15th of the Hebrew month. What does the Moon usually look like on the festival night? — Full: Hebrew months are lunar and start at the new moon, so the middle of the month has a full moon."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ארבעת המינים בחג סוכות הם אתרוג, לולב, הדס ו…?",
+    "options": ["אורן", "ערבה", "זית", "רימון"],
+    "correctIndex": 1,
+    "gloss": "The four species of Sukkot are the etrog, lulav, myrtle and...? — The willow (aravah)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה מלך צרפתי, שכונה ״מלך השמש״, העביר את חצר המלוכה לארמון ורסאי?",
+    "options": ["לואי ה־13", "לואי ה־14", "לואי ה־15", "לואי ה־16"],
+    "correctIndex": 1,
+    "gloss": "Which French king, nicknamed the Sun King, moved the royal court to the Palace of Versailles? — Louis XIV (court moved in 1682)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "מחממים טבעת מתכת שיש בה חור באמצע. מה קורה לחור?",
+    "options": ["הוא מתרחב", "הוא מצטמצם", "הוא לא משתנה", "הוא נסגר לגמרי"],
+    "correctIndex": 0,
+    "gloss": "You heat a metal ring with a hole in the middle. What happens to the hole? — It widens: thermal expansion enlarges every dimension, the hole included, like a photo enlargement."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה מלך ביהודה בנה את קיסריה שעל חוף הים התיכון והקדיש אותה לקיסר רומא?",
+    "options": ["אלכסנדר ינאי", "אגריפס הראשון", "שלמה", "הורדוס"],
+    "correctIndex": 3,
+    "gloss": "Which king in Judea built Caesarea on the Mediterranean coast and dedicated it to the Roman emperor? — Herod (late 1st century BCE)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "שמות החודשים העבריים, כמו ניסן ותשרי, אינם מופיעים בתורה. מאיזו תרבות הם הגיעו?",
+    "options": ["מצרית", "יוונית", "בבלית", "כנענית"],
+    "correctIndex": 2,
+    "gloss": "The names of the Hebrew months, like Nisan and Tishrei, do not appear in the Torah. From which culture did they come? — Babylonian, brought back from the exile; the older Canaanite names such as Aviv were replaced."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי היה הספורטאי הישראלי הראשון שזכה במדליית זהב אולימפית?",
+    "options": ["גל פרידמן", "אורן סמדג׳", "שחר צוברי", "ארטיום דולגופיאט"],
+    "correctIndex": 0,
+    "gloss": "Who was the first Israeli athlete to win an Olympic gold medal? — Gal Fridman, windsurfing, Athens 2004; Smadja (judo, bronze 1992) and Tzuberi (bronze 2008) took lesser medals, Dolgopyat won gold later."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה סופר עברי זכה בפרס נובל לספרות בשנת 1966?",
+    "options": ["חיים נחמן ביאליק", "עמוס עוז", "ש״י עגנון", "דוד גרוסמן"],
+    "correctIndex": 2,
+    "gloss": "Which Hebrew writer won the Nobel Prize in Literature in 1966? — S. Y. Agnon (shared with Nelly Sachs)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "מחשבים סופרים רק בעזרת 0 ו־1. איזה מספר עשרוני מסתתר מאחורי 1101?",
+    "options": ["11", "12", "13", "15"],
+    "correctIndex": 2,
+    "gloss": "Computers count with only 0 and 1. Which decimal number hides behind 1101? — 13: 8 + 4 + 0 + 1 (binary place values 8, 4, 2, 1)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "רואים ברק, ואחרי 3 שניות שומעים את הרעם. בערך כמה רחוק היה הברק?",
+    "options": ["100 מטר", "300 מטר", "1 ק״מ", "10 ק״מ"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and hear the thunder 3 seconds later. About how far was the strike? — About 1 km: sound travels roughly 340 m/s (a third of a kilometre per second) and the light arrives almost instantly."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "איזה מספר כתוב בספרות רומיות MCMXCIV?",
+    "options": ["1894", "1994", "1984", "2094"],
+    "correctIndex": 1,
+    "gloss": "Which number is written in Roman numerals as MCMXCIV? — 1994: M (1000) + CM (900) + XC (90) + IV (4)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "גובה כוכב הצפון מעל האופק שווה לקו הרוחב של הצופה. באיזה גובה בערך נראה כוכב הצפון מישראל?",
+    "options": ["10°", "32°", "45°", "60°"],
+    "correctIndex": 1,
+    "gloss": "The height of the Pole Star above the horizon equals the observer's latitude. About how high is it seen from Israel? — About 32 degrees, since Israel lies at roughly 32 degrees north."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה מדען ישראלי זכה בפרס נובל בכימיה בשנת 2011?",
+    "options": ["אהרן צ׳חנובר", "אברם הרשקו", "אריה ורשל", "דן שכטמן"],
+    "correctIndex": 3,
+    "gloss": "Which Israeli scientist won the Nobel Prize in Chemistry in 2011? — Dan Shechtman (quasicrystals); Ciechanover and Hershko won in 2004, Warshel in 2013."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "כדי שפסח יישאר באביב, הלוח העברי מוסיף חודש שלם לשנים מסוימות. כמה שנים מעוברות יש בכל מחזור של 19 שנה?",
+    "options": ["3", "5", "7", "9"],
+    "correctIndex": 2,
+    "gloss": "To keep Passover in spring, the Hebrew calendar adds a whole month in certain years. How many leap years are in each 19-year cycle? — Seven."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "כמה אפסים יש בסוף המספר ״10 עצרת״ (10!)?",
+    "options": ["1", "2", "3", "4"],
+    "correctIndex": 1,
+    "gloss": "How many zeros are at the end of 10 factorial (10!)? — Two: 10! = 3,628,800; each trailing zero needs a pair 2 x 5, and 5 and 10 supply two fives."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "מהו המספר הקטן ביותר של אנשים בחדר שבו הסיכוי ששניים מהם חוגגים יום הולדת באותו תאריך עובר את 50 אחוז?",
+    "options": ["23", "60", "100", "183"],
+    "correctIndex": 0,
+    "gloss": "What is the smallest number of people in a room for which the chance that two share a birthday exceeds 50 per cent? — 23 (about 50.7 per cent): there are 253 pairs. The autopilot answer is 183."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה צייר הולנדי צייר את ״נערה עם עגיל פנינה״?",
+    "options": ["רמברנדט", "פרנס האלס", "וינסנט ון גוך", "יוהנס ורמיר"],
+    "correctIndex": 3,
+    "gloss": "Which Dutch painter painted 'Girl with a Pearl Earring'? — Johannes Vermeer; the options are all Dutch painters."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה מלחין רוסי כתב את הבלט ״ציפור האש״ בשנת 1910?",
+    "options": ["סרגיי פרוקופייב", "דמיטרי שוסטקוביץ׳", "איגור סטרווינסקי", "סרגיי רחמנינוב"],
+    "correctIndex": 2,
+    "gloss": "Which Russian composer wrote the ballet 'The Firebird' in 1910? — Igor Stravinsky."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "הדנובה זורמת דרך עשר מדינות, אך אינה הנהר הארוך באירופה. איזה נהר ארוך ממנה?",
+    "options": ["הוולגה", "הריין", "האלבה", "הדנייפר"],
+    "correctIndex": 0,
+    "gloss": "The Danube flows through ten countries but is not Europe's longest river. Which river is longer? — The Volga (about 3,530 km against the Danube's 2,850)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה מלך אנגלי נאלץ לחתום ב־1215 על מגנה כרטה, שהגבילה את סמכותו?",
+    "options": ["ריצ׳רד לב הארי", "ג׳ון חסר הארץ", "הנרי השמיני", "אדוארד הראשון"],
+    "correctIndex": 1,
+    "gloss": "Which English king was forced to sign Magna Carta in 1215, limiting his power? — King John; Richard the Lionheart was his brother."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "מי היה הרץ הראשון שעבר את מחסום ארבע הדקות במייל?",
+    "options": ["סבסטיאן קו", "ג׳ון לנדי", "פאבו נורמי", "רוג׳ר בניסטר"],
+    "correctIndex": 3,
+    "gloss": "Who was the first runner to break the four-minute barrier in the mile? — Roger Bannister (1954); John Landy was second, weeks later."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "לתמנון שמונה זרועות. כמה לבבות יש לו?",
+    "options": ["שניים", "שלושה", "ארבעה", "שמונה"],
+    "correctIndex": 1,
+    "gloss": "An octopus has eight arms. How many hearts does it have? — Three: two pump blood through the gills and one through the body."
+  }
+]
