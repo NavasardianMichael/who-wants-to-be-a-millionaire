@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dokončite známe príslovie o pracovitosti: „Bez práce nie sú ...“",
+    "options": ["úspechy", "koláče", "peniaze", "sviatky"],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: \"Without work there are no ...\" — Cakes (koláče): the proverb «Bez práce nie sú koláče»."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pastier stráži na lúke 4 ovce a pomáhajú mu 2 psy. Koľko nôh majú dokopy všetky zvieratá (pastiera nepočítame)?",
+    "options": ["16", "20", "24", "28"],
+    "correctIndex": 2,
+    "gloss": "A shepherd watches 4 sheep with 2 dogs helping. How many legs do all the animals have (not counting the shepherd)? — 24: 6 animals x 4 legs."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bratislava leží na rieke, ktorá je po Volge druhou najdlhšou v Európe. Ktorá je to?",
+    "options": ["Dunaj", "Dneper", "Váh", "Rýn"],
+    "correctIndex": 0,
+    "gloss": "Bratislava lies on the river that is Europe's second longest after the Volga. Which? — The Danube (about 2,850 km); the Dnieper is third."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Jano kúpil tri rožky po 30 centov a zaplatil jedným eurom. Koľko centov mu vrátili?",
+    "options": ["20 centov", "70 centov", "90 centov", "10 centov"],
+    "correctIndex": 3,
+    "gloss": "Jano bought three rolls at 30 cents each and paid with one euro. How many cents change? — 10: 3 x 30 = 90, 100 - 90 = 10."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bryndzové halušky sa podávajú s ovčím syrom a opraženou slaninou. Z čoho sa robia samotné halušky?",
+    "options": ["Z kapusty", "Zo zemiakov", "Z ryže", "Z kukurice"],
+    "correctIndex": 1,
+    "gloss": "Bryndzové halušky are served with sheep cheese and fried bacon. What are the dumplings themselves made from? — Potatoes (grated potato dough)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto namaľoval Monu Lízu, najslávnejší obraz parížskeho Louvru?",
+    "options": ["Leonardo da Vinci", "Michelangelo Buonarroti", "Rafael Santi", "Sandro Botticelli"],
+    "correctIndex": 0,
+    "gloss": "Who painted the Mona Lisa, the Louvre's most famous painting? — Leonardo da Vinci; the wrong options are other Italian Renaissance masters."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorá planéta dostala prezývku Červená planéta pre hrdzavú farbu svojho povrchu?",
+    "options": ["Venuša", "Merkúr", "Mars", "Jupiter"],
+    "correctIndex": 2,
+    "gloss": "Which planet is nicknamed the Red Planet for its rusty surface? — Mars (iron oxide dust)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá pieseň je dnes štátnou hymnou Slovenskej republiky?",
+    "options": ["Hej, Slováci", "Kde domov môj", "Hore Váhom, dolu Váhom", "Nad Tatrou sa blýska"],
+    "correctIndex": 3,
+    "gloss": "Which song is today's state anthem of Slovakia? — \"Nad Tatrou sa blýska\"; \"Kde domov môj\" is the Czech anthem and \"Hej, Slováci\" a well-known patriotic song."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Podľa ľudovej povesti zbojník Juraj Jánošík bral bohatým a dával ...",
+    "options": ["kňazom", "vojakom", "chudobným", "mešťanom"],
+    "correctIndex": 2,
+    "gloss": "According to the folk legend, the outlaw Juraj Jánošík took from the rich and gave to ... — the poor (chudobným)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Logo s nahryznutým jablkom patrí ktorej technologickej firme?",
+    "options": ["Apple", "Microsoft", "Samsung", "Google"],
+    "correctIndex": 0,
+    "gloss": "A logo with a bitten apple belongs to which tech company? — Apple."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vlak má odísť „o tri štvrte na päť“. O koľkej to je?",
+    "options": ["5.45", "4.15", "4.45", "5.15"],
+    "correctIndex": 2,
+    "gloss": "The train leaves \"three quarters to five\" (Slovak clock idiom). What time is it? — 4:45: \"štvrť na päť\" is 4:15, \"tri štvrte na päť\" is 4:45, counting toward the next hour."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na slovenských jedno-, dvoj- a päťcentových minciach je zobrazený vrch, ktorý sa pokladá za národný symbol. Ktorý?",
+    "options": ["Kriváň", "Gerlachovský štít", "Lomnický štít", "Rysy"],
+    "correctIndex": 0,
+    "gloss": "Slovak 1-, 2- and 5-cent coins show a mountain regarded as a national symbol. Which? — Kriváň."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "V rímskych číslicách je X desať a L päťdesiat. Koľko je XL?",
+    "options": ["60", "40", "90", "110"],
+    "correctIndex": 1,
+    "gloss": "In Roman numerals X is ten and L is fifty. What is XL? — 40: a smaller numeral before a larger one is subtracted (50 - 10)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý skladateľ napísal Deviatu symfóniu s Odou na radosť, hoci už vtedy takmer nič nepočul?",
+    "options": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Joseph Haydn", "Ludwig van Beethoven"],
+    "correctIndex": 3,
+    "gloss": "Which composer wrote the Ninth Symphony with the Ode to Joy while almost deaf? — Beethoven (1824)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Konštantín (neskôr Cyril) a Metod prišli na Veľkú Moravu v roku 863. Aké písmo pre svoju misiu vytvoril Konštantín?",
+    "options": ["Hlaholika", "Azbuka", "Runové písmo", "Latinka"],
+    "correctIndex": 0,
+    "gloss": "Constantine (later Cyril) and Methodius came to Great Moravia in 863. Which script did Constantine create for the mission? — Glagolitic; Cyrillic was developed later by their disciples."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kyslík, ktorý dýchame, tvorí len asi pätinu vzduchu. Ktorý plyn tvorí jeho väčšinu?",
+    "options": ["Oxid uhličitý", "Dusík", "Vodík", "Argón"],
+    "correctIndex": 1,
+    "gloss": "The oxygen we breathe is only about a fifth of air. Which gas makes up most of it? — Nitrogen (about 78 %)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Auto ide stálou rýchlosťou 72 km/h. Za koľko minút prejde 36 kilometrov?",
+    "options": ["20 minút", "36 minút", "45 minút", "30 minút"],
+    "correctIndex": 3,
+    "gloss": "A car drives at a steady 72 km/h. In how many minutes does it cover 36 km? — 30: half of 72 km is 36 km, so half an hour."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z ktorej rastliny sa vyrába mexická tequila?",
+    "options": ["Kaktus opuncia", "Cukrová trstina", "Agáva", "Kukurica"],
+    "correctIndex": 2,
+    "gloss": "Which plant is Mexican tequila made from? — The blue agave; sugar cane gives rum."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktoré z týchto morských zvierat nie je cicavec?",
+    "options": ["Delfín", "Tuleň", "Veľryba", "Žralok"],
+    "correctIndex": 3,
+    "gloss": "Which of these sea animals is not a mammal? — The shark, a fish; dolphins, seals and whales are mammals."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Podľa legendy ukázal knieža Svätopluk synom, že zväzok prútov sa nedá zlomiť, kým jednotlivé prúty áno. Čo im tým chcel povedať?",
+    "options": ["Že sila je dôležitejšia než múdrosť", "Že v jednote je sila", "Že vládnuť má iba najstarší syn", "Že treba byť ohybný ako prút"],
+    "correctIndex": 1,
+    "gloss": "By legend Prince Svätopluk showed his sons that a bundle of rods cannot be broken, though single rods can. What was the lesson? — That unity is strength."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Spisovná slovenčina, ktorou píšeme dodnes, sa kodifikovala v roku 1843 podľa stredoslovenského nárečia. Kto viedol toto úsilie?",
+    "options": ["Ľudovít Štúr", "Anton Bernolák", "Ján Kollár", "Pavol Jozef Šafárik"],
+    "correctIndex": 0,
+    "gloss": "Standard Slovak was codified in 1843 on the central Slovak dialect. Who led it? — Ľudovít Štúr (with Hurban and Hodža); Bernolák's earlier codification (1787) was western-based."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Slovo „robot“ vymyslel Josef Čapek, brat spisovateľa Karla, podľa slovanského slova „robota“. Čo toto slovo pôvodne znamenalo?",
+    "options": ["Umelý človek", "Nútená práca", "Strojový pohon", "Kovový sluha"],
+    "correctIndex": 1,
+    "gloss": "The word \"robot\" was coined by Josef Čapek from the Slavic \"robota\". What did it originally mean? — Forced labour; Slovak \"robiť\" (to work) points the way."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pohár je naplnený vodou až po okraj a na hladine pláva kocka ľadu. Čo sa stane, keď sa celá roztopí?",
+    "options": ["Voda pretečie cez okraj", "Hladina klesne", "Hladina zostane rovnaká", "Hladina najprv stúpne a potom klesne"],
+    "correctIndex": 2,
+    "gloss": "A glass is full to the brim with an ice cube floating in it. What happens when it all melts? — The level stays the same: the floating ice already displaces exactly its own weight of water."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na ktorom mieste Zeme by ste videli Polárku takmer priamo nad hlavou?",
+    "options": ["Na severnom póle", "Na rovníku", "Na obratníku Raka", "Na južnom póle"],
+    "correctIndex": 0,
+    "gloss": "Where on Earth would you see the Pole Star almost directly overhead? — At the North Pole: Polaris sits almost exactly above Earth's north axis, so the height above the horizon equals the latitude."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý z týchto ihličnanov sa na jeseň zbavuje ihličia ako listnaté stromy?",
+    "options": ["Smrek", "Borovica", "Jedľa", "Smrekovec"],
+    "correctIndex": 3,
+    "gloss": "Which of these conifers sheds its needles in autumn like a deciduous tree? — The larch (smrekovec opadavý)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Doplňte rad čísel: 2, 6, 12, 20, ...",
+    "options": ["28", "30", "32", "36"],
+    "correctIndex": 1,
+    "gloss": "Continue the series 2, 6, 12, 20, ... — 30: the gaps grow 4, 6, 8, 10 (also n x (n+1))."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktoré veľké mesto leží na dvoch kontinentoch, v Európe aj v Ázii, na oboch brehoch Bosporu?",
+    "options": ["Atény", "Káhira", "Istanbul", "Sofia"],
+    "correctIndex": 2,
+    "gloss": "Which big city lies on two continents, on both banks of the Bosporus? — Istanbul."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý romantický básnik napísal ľúbostnú báseň Marína?",
+    "options": ["Ján Botto", "Janko Kráľ", "Samo Chalupka", "Andrej Sládkovič"],
+    "correctIndex": 3,
+    "gloss": "Which Romantic poet wrote the love poem Marína? — Andrej Sládkovič; the others are fellow Štúr-generation poets (Botto, Kráľ, Chalupka)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý režisér trilerov sa rád ukázal na pár sekúnd v epizódnej úlohe vo vlastných filmoch, napríklad v Psycho a Vtákoch?",
+    "options": ["Stanley Kubrick", "Orson Welles", "Alfred Hitchcock", "Steven Spielberg"],
+    "correctIndex": 2,
+    "gloss": "Which thriller director liked to appear for a few seconds in his own films, e.g. Psycho and The Birds? — Alfred Hitchcock, famous for his cameos."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Peter Sagan vyhral bodovaciu súťaž na Tour de France rekordných sedemkrát. Akej farby je dres jej lídra?",
+    "options": ["Zelený", "Žltý", "Bodkovaný", "Biely"],
+    "correctIndex": 0,
+    "gloss": "Peter Sagan won the points classification of the Tour de France a record seven times. What colour is its leader's jersey? — Green (yellow is the overall leader, polka-dot the climbers, white the young riders)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ben-Hur a Titanic získali po jedenásť Oscarov. Ktorý ďalší z týchto filmov sa k nim pridal s rovnakým počtom?",
+    "options": ["Gladiátor", "Pán prsteňov: Návrat kráľa", "Avatar", "Forrest Gump"],
+    "correctIndex": 1,
+    "gloss": "Ben-Hur and Titanic won eleven Oscars each. Which other film matched them? — The Lord of the Rings: The Return of the King (2003, won all 11 nominations)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ivan Bella sa v roku 1999 stal prvým Slovákom vo vesmíre. Na ktorú orbitálnu stanicu letel, ak jej ruský názov znamená „mier“ aj „svet“?",
+    "options": ["Mir", "Skylab", "Saljut 7", "ISS"],
+    "correctIndex": 0,
+    "gloss": "Ivan Bella became the first Slovak in space in 1999. Which orbital station did he fly to, if its Russian name means \"peace\" and \"world\"? — Mir (Soyuz TM-29); the Russian word is the clue."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Keď pápež Gregor XIII. v roku 1582 zaviedol nový kalendár, vynechalo sa 10 dní. Po 4. októbri nasledoval hneď ktorý dátum?",
+    "options": ["5. október", "10. október", "14. október", "15. október"],
+    "correctIndex": 3,
+    "gloss": "When Pope Gregory XIII introduced the new calendar in 1582, 10 days were skipped. Which date followed 4 October? — 15 October: 5 to 14 October never happened."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá slovenská osada s drevenými domami je ako celok zapísaná na zozname svetového dedičstva UNESCO?",
+    "options": ["Čičmany", "Ždiar", "Vlkolínec", "Terchová"],
+    "correctIndex": 2,
+    "gloss": "Which Slovak log-house village is inscribed as a whole on the UNESCO World Heritage List? — Vlkolínec (1993); Čičmany, Ždiar and Terchová are well known but not inscribed."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Strany trojuholníka merajú 9 cm, 12 cm a 15 cm. Aký veľký je uhol medzi dvoma kratšími stranami?",
+    "options": ["60°", "75°", "90°", "120°"],
+    "correctIndex": 2,
+    "gloss": "A triangle has sides 9, 12 and 15 cm. How big is the angle between the two shorter sides? — 90°: 81 + 144 = 225, the Pythagorean theorem holds, so it is a right triangle."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mohylu Milana Rastislava Štefánika na Bradle navrhol architekt ...",
+    "options": ["Jože Plečnik", "Dušan Jurkovič", "Emil Belluš", "Milan Michal Harminc"],
+    "correctIndex": 1,
+    "gloss": "The mound (mohyla) of M. R. Štefánik on Bradlo was designed by the architect ... — Dušan Jurkovič (1927-28)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý skladateľ napísal štvordielny operný cyklus Prsteň Nibelungov?",
+    "options": ["Giuseppe Verdi", "Richard Strauss", "Giacomo Puccini", "Richard Wagner"],
+    "correctIndex": 3,
+    "gloss": "Which composer wrote the four-part opera cycle The Ring of the Nibelung? — Richard Wagner."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chobotnica má osem ramien a modrú krv. Koľko sŕdc jej bije v tele?",
+    "options": ["Jedno", "Tri", "Štyri", "Osem"],
+    "correctIndex": 1,
+    "gloss": "An octopus has eight arms and blue blood. How many hearts does it have? — Three: two pump blood through the gills, one through the body."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bajt je základná jednotka údajov v počítači. Koľko rôznych hodnôt môže uložiť jeden bajt?",
+    "options": ["64", "128", "512", "256"],
+    "correctIndex": 3,
+    "gloss": "A byte is the basic unit of computer data. How many different values can one byte store? — 256: a byte is 8 bits, 2^8 = 256."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktoré knieža dalo roku 828 postaviť v Nitre kostol, ktorý vysvätil salzburský arcibiskup Adalram?",
+    "options": ["Pribina", "Mojmír I.", "Rastislav", "Svätopluk"],
+    "correctIndex": 0,
+    "gloss": "Which prince had a church built in Nitra in 828, consecrated by Archbishop Adalram of Salzburg? — Pribina, the first known Christian church on Slovak territory."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý vynález sa spája s menom Jozefa Murgaša, slovenského kňaza a maliara, ktorý pôsobil v USA?",
+    "options": ["Bezdrôtový telegraf", "Padák", "Vrtuľník", "Fotografický objektív"],
+    "correctIndex": 0,
+    "gloss": "Which invention is linked with Jozef Murgaš, the Slovak priest and painter working in the USA? — Wireless telegraphy; the other options are other Slovak inventors' work (Banič, Bahýľ, Petzval)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý slovenský skladateľ napísal operu Krútňava?",
+    "options": ["Ján Cikker", "Alexander Moyzes", "Mikuláš Schneider-Trnavský", "Eugen Suchoň"],
+    "correctIndex": 3,
+    "gloss": "Which Slovak composer wrote the opera Krútňava (The Whirlpool)? — Eugen Suchoň."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý spisovateľ napísal román Jozef Mak?",
+    "options": ["Martin Kukučín", "Jozef Cíger-Hronský", "Milo Urban", "Dobroslav Chrobák"],
+    "correctIndex": 1,
+    "gloss": "Which writer wrote the novel Jozef Mak? — Jozef Cíger-Hronský; the others are other Slovak prose writers."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "V slovenčine nasleduje po miliarde (deväť núl) bilión a po ňom biliarda. Koľko núl má biliarda?",
+    "options": ["12", "15", "18", "24"],
+    "correctIndex": 1,
+    "gloss": "In Slovak, after miliarda (nine zeros) come bilión and then biliarda. How many zeros does biliarda have? — 15: the long scale, each step is x1000 (milión 6, miliarda 9, bilión 12, biliarda 15)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Anglické slovo plumber (inštalatér) pochádza z latinského názvu kovu, z ktorého sa kedysi vyrábali vodovodné rúry. Akú značku má tento kov v periodickej tabuľke?",
+    "options": ["Cu", "Sn", "Zn", "Pb"],
+    "correctIndex": 3,
+    "gloss": "The English word plumber comes from the Latin name of the metal old water pipes were made of. What is its chemical symbol? — Pb: plumbum, lead (Cu is a tempting but wrong pipe metal)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na začiatku šachovej partie má biely na výber z rôznych prvých ťahov. Koľko ich je?",
+    "options": ["16", "18", "20", "24"],
+    "correctIndex": 2,
+    "gloss": "At the start of a chess game White has several different first moves. How many? — 20: 16 pawn moves (8 pawns x 1 or 2 squares) plus 4 knight moves."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý francúzsky učenec rozlúštil roku 1822 egyptské hieroglyfy vďaka Rosettskej doske?",
+    "options": ["Jean-François Champollion", "Thomas Young", "Auguste Mariette", "Napoleon Bonaparte"],
+    "correctIndex": 0,
+    "gloss": "Which French scholar deciphered Egyptian hieroglyphs in 1822 thanks to the Rosetta Stone? — Champollion; Young was English, Mariette a later Egyptologist."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Obrazovka mobilu skladá farby zo svetla červenej, zelenej a modrej. Akú farbu uvidíte, keď sa červené a zelené svetlo zmieša v rovnakej miere?",
+    "options": ["Hnedú", "Oranžovú", "Fialovú", "Žltú"],
+    "correctIndex": 3,
+    "gloss": "A phone screen builds colours from red, green and blue light. What colour appears when red and green light mix equally? — Yellow: additive mixing of light, unlike paint."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Voda ktorej z týchto slovenských riek putuje nakoniec do Baltského mora, nie do Čierneho?",
+    "options": ["Váh", "Hron", "Poprad", "Hornád"],
+    "correctIndex": 2,
+    "gloss": "Water from which of these Slovak rivers ends up in the Baltic Sea, not the Black Sea? — The Poprad (via the Dunajec and Vistula); the others reach the Danube."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý z týchto slávnych koní má podľa severskej mytológie osem nôh a nosí boha Odina?",
+    "options": ["Pegas", "Sleipnir", "Bucefalos", "Rocinante"],
+    "correctIndex": 1,
+    "gloss": "Which of these famous horses has eight legs and carries the god Odin in Norse mythology? — Sleipnir; Pegasus is Greek, Bucephalus was Alexander's horse, Rocinante Don Quixote's."
+  }
+]

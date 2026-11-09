@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Работата не е …, няма да избяга“ — коя дума липсва в поговорката?",
+    "options": ["Лисица", "Заек", "Сърна", "Лястовица"],
+    "correctIndex": 1,
+    "gloss": "\"Work is not a ..., it won't run away\" — which word is missing? — Hare: the proverb «Работата не е заек, няма да избяга»."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В двора на баба има 3 кокошки и 2 крави. Колко крака имат всички тези животни заедно?",
+    "options": ["10", "12", "14", "16"],
+    "correctIndex": 2,
+    "gloss": "Grandma's yard has 3 hens and 2 cows. How many legs in all? — 14: 3 × 2 + 2 × 4 = 6 + 8."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой е най-високият връх в България и на целия Балкански полуостров?",
+    "options": ["Мусала", "Вихрен", "Ботев", "Черни връх"],
+    "correctIndex": 0,
+    "gloss": "Which is the highest peak in Bulgaria and on the whole Balkan Peninsula? — Musala (2925 m) in Rila; Vihren is Pirin's highest, Botev the Balkan Range's, Cherni vrah Vitosha's."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя студена лятна супа се приготвя от кисело мляко, краставици, чесън и орехи?",
+    "options": ["Шкембе чорба", "Боб чорба", "Пилешка супа", "Таратор"],
+    "correctIndex": 3,
+    "gloss": "Which cold summer soup is made from yoghurt, cucumbers, garlic and walnuts? — Tarator; the others are hot soups."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кое от тези небесни тела свети със собствена светлина?",
+    "options": ["Слънцето", "Луната", "Венера", "Марс"],
+    "correctIndex": 0,
+    "gloss": "Which of these celestial bodies shines with its own light? — The Sun; the Moon and the planets only reflect its light."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кога България чества националния си празник?",
+    "options": ["1 май", "6 септември", "3 март", "22 септември"],
+    "correctIndex": 2,
+    "gloss": "When does Bulgaria celebrate its national day? — 3 March, the Liberation of 1878; 6 September (Unification) and 22 September (Independence) are other state dates."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кое от тези животни не е бозайник?",
+    "options": ["Делфин", "Пингвин", "Прилеп", "Кит"],
+    "correctIndex": 1,
+    "gloss": "Which of these animals is not a mammal? — The penguin is a bird; dolphins, bats and whales are mammals despite looking otherwise."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В една кошница има 6 ябълки. Мара взема 4 от тях. Колко ябълки има Мара?",
+    "options": ["2", "10", "6", "4"],
+    "correctIndex": 3,
+    "gloss": "A basket holds 6 apples; Mara takes 4. How many apples does Mara have? — 4, the ones she took; a trap for autopilot subtraction."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Коя от тези думи се чете еднакво отляво надясно и отдясно наляво?",
+    "options": ["кит", "поп", "мак", "нос"],
+    "correctIndex": 1,
+    "gloss": "Which of these words reads the same left-to-right and right-to-left? — «поп» (priest) is a palindrome; кит→тик, мак→кам, нос→сон."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На кой връх, най-високият в Гърция, според древните митове живеят боговете?",
+    "options": ["Олимп", "Парнас", "Атон", "Пелион"],
+    "correctIndex": 0,
+    "gloss": "On which mountain, the highest in Greece, do the gods live in the ancient myths? — Olympus; Parnassus was sacred to Apollo and the Muses, Athos is a Greek peak too but lower."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой български футболист печели „Златната топка“ на списание „Франс Футбол“ за 1994 г.?",
+    "options": ["Йордан Лечков", "Красимир Балъков", "Христо Стоичков", "Емил Костадинов"],
+    "correctIndex": 2,
+    "gloss": "Which Bulgarian footballer won France Football's Ballon d'Or for 1994? — Hristo Stoichkov; the others were his team-mates at the 1994 World Cup."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой писател е създал образа на Бай Ганьо?",
+    "options": ["Иван Вазов", "Пенчо Славейков", "Елин Пелин", "Алеко Константинов"],
+    "correctIndex": 3,
+    "gloss": "Which writer created the character Bai Ganyo? — Aleko Konstantinov; all options are well-known Bulgarian writers."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой град е столица на Австралия?",
+    "options": ["Сидни", "Канбера", "Мелбърн", "Бризбън"],
+    "correctIndex": 1,
+    "gloss": "Which city is the capital of Australia? — Canberra; Sydney and Melbourne are the tempting bigger cities."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "От какво се състои най-голямата част от земната атмосфера?",
+    "options": ["Азот", "Кислород", "Въглероден диоксид", "Аргон"],
+    "correctIndex": 0,
+    "gloss": "What makes up most of Earth's atmosphere? — Nitrogen (about 78%); many pick oxygen (about 21%)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как се нарича обичаят, при който на Нова година децата потупват роднините по гърба с украсена дрянова пръчка за здраве и късмет?",
+    "options": ["Лазаруване", "Коледуване", "Кукерство", "Сурвакане"],
+    "correctIndex": 3,
+    "gloss": "What is the custom in which children tap relatives' backs on New Year with a decorated cornel stick for health and luck? — Survakane; Lazaruvane is for St Lazarus' day, koleduvane for Christmas carolling, kukerstvo is the masked mummers."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой е първият човек, стъпил на Луната през 1969 г.?",
+    "options": ["Нийл Армстронг", "Бъз Олдрин", "Юрий Гагарин", "Майкъл Колинс"],
+    "correctIndex": 0,
+    "gloss": "Who was the first person to set foot on the Moon in 1969? — Neil Armstrong; Aldrin followed, Collins stayed in orbit, Gagarin was first in space."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое животно е изобразено на герба на България?",
+    "options": ["Орел", "Вълк", "Лъв", "Мечка"],
+    "correctIndex": 2,
+    "gloss": "Which animal is shown on the coat of arms of Bulgaria? — A crowned golden lion."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Влак тръгва от Варна в 14:50 и пътува 3 часа и 40 минути. В колко часа пристига?",
+    "options": ["17:30", "18:30", "18:10", "18:50"],
+    "correctIndex": 1,
+    "gloss": "A train leaves Varna at 14:50 and travels 3 h 40 min. When does it arrive? — 18:30: 14:50 + 3:00 = 17:50, + 40 min = 18:30."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Баба купува две дузини яйца за козунаците. Една трета от тях използва за първия козунак. Колко яйца ѝ остават?",
+    "options": ["8", "12", "18", "16"],
+    "correctIndex": 3,
+    "gloss": "Grandma buys two dozen eggs for the Easter breads and uses a third for the first one. How many are left? — 16: a dozen is 12, so 24 eggs; a third is 8; 24 − 8 = 16."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Продължи редицата: 1, 1, 2, 3, 5, 8, … Кое число следва?",
+    "options": ["11", "12", "13", "14"],
+    "correctIndex": 2,
+    "gloss": "Continue the sequence 1, 1, 2, 3, 5, 8, … — 13: each number is the sum of the two before it (Fibonacci)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Имената септември, октомври, ноември и декември идват от латинските числа 7, 8, 9 и 10, а днес са 9-ият, 10-ият, 11-ият и 12-ият месец. Кой месец е бил първи в стария римски календар?",
+    "options": ["Януари", "Март", "Февруари", "Април"],
+    "correctIndex": 1,
+    "gloss": "September to December are named for the Latin numbers 7 to 10 but are now months 9 to 12. Which month began the old Roman year? — March: the names are two places off, so the year started two months later than January."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой писател, по образование ветеринарен лекар, е авторът на романа „Тютюн“?",
+    "options": ["Димитър Димов", "Димитър Талев", "Йордан Йовков", "Елин Пелин"],
+    "correctIndex": 0,
+    "gloss": "Which writer, a veterinarian by training, wrote the novel \"Tobacco\"? — Dimitar Dimov; Talev wrote \"The Iron Candlestick\"."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой проток минава през Истанбул и разделя Европа от Азия?",
+    "options": ["Дарданели", "Гибралтар", "Ормузки проток", "Босфор"],
+    "correctIndex": 3,
+    "gloss": "Which strait runs through Istanbul and separates Europe from Asia? — The Bosphorus; the Dardanelles is the other Turkish strait but does not pass through Istanbul."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Пет приятели се срещат и всеки се ръкува с всеки от останалите по веднъж. Колко са всички ръкостискания?",
+    "options": ["5", "8", "10", "15"],
+    "correctIndex": 2,
+    "gloss": "Five friends meet and each shakes hands once with each of the others. How many handshakes? — 10: 5 × 4 ÷ 2."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Св. Кирил е създал първата славянска азбука около 863 г. Как се нарича тя?",
+    "options": ["Глаголица", "Кирилица", "Латиница", "Руни"],
+    "correctIndex": 0,
+    "gloss": "St Cyril created the first Slavic alphabet around 863. What is it called? — Glagolitic; the Cyrillic alphabet came later, made by his disciples and named in his honour."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Виждаш мълния и точно 6 секунди по-късно чуваш гръмотевицата. На какво разстояние приблизително е ударила мълнията?",
+    "options": ["600 м", "2 км", "6 км", "20 км"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear thunder exactly 6 seconds later. About how far did it strike? — About 2 km: sound travels roughly 340 m/s, the light arrives practically instantly; 6 × 340 ≈ 2 km."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой от тези червени винени сортове е стар български сорт, отглеждан около Асеновград?",
+    "options": ["Мерло", "Каберне совиньон", "Пино ноар", "Мавруд"],
+    "correctIndex": 3,
+    "gloss": "Which of these red wine grapes is an old Bulgarian variety grown around Asenovgrad? — Mavrud; the others are French varieties."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Когато в София часовникът показва 15:00, колко е часът в Лондон?",
+    "options": ["12:00", "13:00", "14:00", "16:00"],
+    "correctIndex": 1,
+    "gloss": "When it is 15:00 in Sofia, what time is it in London? — 13:00: Bulgaria is two hours ahead of Britain all year (both switch to summer time on the same dates)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "На фасадата на една стара сграда е изписано MDCCCXCIX. Коя година е това?",
+    "options": ["1799", "1889", "1899", "1999"],
+    "correctIndex": 2,
+    "gloss": "A façade bears MDCCCXCIX. Which year is it? — 1899: M 1000 + D 500 + CCC 300 + XC 90 + IX 9; 1889 would be written MDCCCLXXXIX."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Според древногръцките предания митичният певец, чиято лира омагьосвала дори дивите зверове, е бил тракиец. Как се казва той?",
+    "options": ["Орфей", "Омир", "Аполон", "Арион"],
+    "correctIndex": 0,
+    "gloss": "According to the Greeks, the mythical singer whose lyre charmed even wild beasts was a Thracian. Who? — Orpheus; Thrace covers much of today's Bulgaria and the Rhodopes are tied to his legend."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Въстанието от 1185 г. започва под предводителството на двама братя — Асен и …",
+    "options": ["Калоян", "Борил", "Петър", "Иван Асен II"],
+    "correctIndex": 2,
+    "gloss": "The uprising of 1185 was led by two brothers, Asen and ... — Peter; it restored the Bulgarian state (the Second Bulgarian Empire). Kaloyan, their younger brother, joined later."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя е най-дългата река, която протича изцяло в България?",
+    "options": ["Марица", "Струма", "Янтра", "Искър"],
+    "correctIndex": 3,
+    "gloss": "Which is the longest river that flows entirely within Bulgaria? — The Iskar (about 368 km); the Maritsa and Struma flow on into Greece (and Turkey)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой писател е авторът на романа „Сто години самота“?",
+    "options": ["Хорхе Луис Борхес", "Габриел Гарсия Маркес", "Марио Варгас Льоса", "Пабло Неруда"],
+    "correctIndex": 1,
+    "gloss": "Who wrote \"One Hundred Years of Solitude\"? — Gabriel García Márquez; the others are other Latin American Nobel-winning writers."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя българска народна песен в изпълнение на Валя Балканска е записана на златния диск на космическите сонди „Вояджър“?",
+    "options": ["„Излел е Дельо хайдутин“", "„Лале ли си, зюмбюл ли си“", "„Тих бял Дунав“", "„Мила Родино“"],
+    "correctIndex": 0,
+    "gloss": "Which Bulgarian folk song sung by Valya Balkanska is on the golden disc of the Voyager probes? — \"Izlel e Delyo haydutin\"."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Има една температура, при която термометрите по Целзий и по Фаренхайт показват едно и също число. Коя е тя?",
+    "options": ["−50°", "−45°", "−40°", "−32°"],
+    "correctIndex": 2,
+    "gloss": "There is one temperature at which Celsius and Fahrenheit show the same number. Which? — −40°: from F = 1.8·C + 32, setting F = C gives 0.8·C = −32."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Колко различни стойности може да запази един байт, ако всеки бит е 0 или 1?",
+    "options": ["64", "128", "256", "512"],
+    "correctIndex": 2,
+    "gloss": "How many different values can one byte hold, if every bit is 0 or 1? — 256: a byte is 8 bits, so 2^8; many say 255, the largest value."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое от тези места в България е в списъка на ЮНЕСКО заради средновековните си скални църкви със стенописи?",
+    "options": ["Иваново", "Несебър", "Мадара", "Бояна"],
+    "correctIndex": 0,
+    "gloss": "Which of these Bulgarian places is on the UNESCO list for its medieval rock-hewn churches with frescoes? — Ivanovo, near Ruse; Boyana is a frescoed church in Sofia, not rock-hewn."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Слънчево затъмнение е възможно само при една от лунните фази. Коя е тя?",
+    "options": ["Пълнолуние", "Първа четвърт", "Последна четвърт", "Новолуние"],
+    "correctIndex": 3,
+    "gloss": "A solar eclipse is possible at only one lunar phase. Which? — New moon: the Moon must be between the Sun and Earth, with its lit side turned away from us."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя от тези ежедневни думи не е дошла в българския от турския език?",
+    "options": ["чорап", "трамвай", "чекмедже", "кибрит"],
+    "correctIndex": 1,
+    "gloss": "Which of these everyday words did not come into Bulgarian from Turkish? — «трамвай» (tram) is a Western loan; чорап, чекмедже and кибрит are Turkish (çorap, çekmece, kibrit)."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "До въвеждането на еврото левът беше вързан към него с фиксиран курс. Колко евро са 1955,83 лева по този курс?",
+    "options": ["800", "1000", "1200", "1500"],
+    "correctIndex": 1,
+    "gloss": "Until the euro was introduced the lev was pegged to it at a fixed rate. How many euros are 1955.83 leva? — 1000: the rate was 1.95583 leva per euro."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой е авторът на „Рибния буквар“ от 1824 г., наричан първия новобългарски светски учебник?",
+    "options": ["Петър Берон", "Неофит Рилски", "Васил Априлов", "Иван Богоров"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the \"Fish Primer\" of 1824, called the first modern Bulgarian secular textbook? — Petar Beron; Neofit Rilski wrote a grammar in 1835, Aprilov founded the Gabrovo school."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В народния календар годината се дели на две половини — лятна и зимна. С кой празник започва лятото?",
+    "options": ["Димитровден", "Еньовден", "Бъдни вечер", "Гергьовден"],
+    "correctIndex": 3,
+    "gloss": "In the folk calendar the year splits into a summer and a winter half. Which feast opens the summer? — Gergyovden (6 May); Dimitrovden (26 October) opens the winter."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой български композитор е авторът на рапсодията „Вардар“?",
+    "options": ["Добри Христов", "Панчо Владигеров", "Георги Атанасов", "Любомир Пипков"],
+    "correctIndex": 1,
+    "gloss": "Which Bulgarian composer wrote the \"Vardar\" rhapsody? — Pancho Vladigerov; the others are other Bulgarian composers."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой от тези нобелови лауреати по литература е роден в Русе, но пише на немски?",
+    "options": ["Херман Хесе", "Томас Ман", "Елиас Канети", "Гюнтер Грас"],
+    "correctIndex": 2,
+    "gloss": "Which of these Nobel laureates in literature was born in Ruse but writes in German? — Elias Canetti (born 1905 in Ruse, Nobel Prize 1981)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой архитект спечелва конкурса през 1957 г. за проекта на операта в Сидни?",
+    "options": ["Арне Якобсен", "Алвар Аалто", "Ле Корбюзие", "Йорн Утцон"],
+    "correctIndex": 3,
+    "gloss": "Which architect won the 1957 competition for the Sydney Opera House? — Jørn Utzon, a Dane; Jacobsen is Danish too, Aalto Finnish, Le Corbusier Swiss-French."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя е първата столица на обединена Италия през 1861 г.?",
+    "options": ["Торино", "Флоренция", "Рим", "Милано"],
+    "correctIndex": 0,
+    "gloss": "What was the first capital of united Italy in 1861? — Turin; Florence followed in 1865 and Rome in 1871."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чаша е пълна до ръба с вода, а в нея плува кубче лед. Какво ще стане, когато ледът се стопи напълно?",
+    "options": ["Водата ще прелее", "Нивото ще спадне", "Нивото няма да се промени", "Зависи от размера на чашата"],
+    "correctIndex": 2,
+    "gloss": "A glass is filled to the brim with water and an ice cube floats in it. What happens when it fully melts? — Nothing: floating ice displaces its own weight of water, and the melt takes exactly that volume (Archimedes)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Колко градуса е сборът на вътрешните ъгли на всеки петоъгълник?",
+    "options": ["360°", "450°", "540°", "720°"],
+    "correctIndex": 2,
+    "gloss": "What is the sum of the interior angles of any pentagon? — 540°: split it into three triangles, 3 × 180°."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Някои православни църкви, например руската, празнуват Коледа на 25 декември по юлианския календар. Кога е това по нашия календар?",
+    "options": ["6 януари", "7 януари", "13 януари", "14 януари"],
+    "correctIndex": 1,
+    "gloss": "Some Orthodox churches, such as the Russian, keep Christmas on 25 December by the Julian calendar. What date is that in ours? — 7 January: the Julian calendar runs 13 days behind (25 Dec + 13)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На коя планета едно завъртане около оста продължава по-дълго от една година (един оборот около Слънцето)?",
+    "options": ["Меркурий", "Марс", "Юпитер", "Венера"],
+    "correctIndex": 3,
+    "gloss": "On which planet does one rotation take longer than one year? — Venus: about 243 Earth days to rotate, about 225 to orbit the Sun."
+  }
+]
