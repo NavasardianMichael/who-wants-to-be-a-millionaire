@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "俗話說「三個臭皮匠，勝過一個○○○」，空格裡該填哪位三國人物？",
+    "options": ["曹操", "關羽", "諸葛亮", "劉備"],
+    "correctIndex": 2,
+    "gloss": "The saying 'three cobblers beat one ___': which Three Kingdoms figure goes in the blank? — Zhuge Liang: 'three humble cobblers together beat one Zhuge Liang'."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "桌上有三顆橘子，你拿走了兩顆。現在，你手上有幾顆橘子？",
+    "options": ["一顆", "兩顆", "三顆", "五顆"],
+    "correctIndex": 1,
+    "gloss": "Three oranges on the table, you take two. How many do you hold? — Two: the question asks what you have, not what is left on the table."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "現在手搖飲店裡 Q 彈的「珍珠」，主要是用哪一種植物的澱粉做成的？",
+    "options": ["樹薯", "馬鈴薯", "蓮藕", "山藥"],
+    "correctIndex": 0,
+    "gloss": "The chewy 'pearls' in bubble tea are mainly made from the starch of which plant? — Cassava (tapioca), called 樹薯 in Taiwan; bubble tea was invented in Taiwan."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "鯨魚雖然生活在海裡，卻屬於哪一類動物？",
+    "options": ["魚類", "兩棲類", "爬蟲類", "哺乳類"],
+    "correctIndex": 3,
+    "gloss": "Though it lives in the sea, a whale is which kind of animal? — A mammal: it breathes air and nurses its young; the word 'fish' in its Chinese name is the trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「木」加「木」是「林」，再多一棵就成了「森」。仔細數數，「森」字一共由幾個「木」組成？",
+    "options": ["兩個", "三個", "四個", "五個"],
+    "correctIndex": 1,
+    "gloss": "Tree + tree = grove (林); one more makes forest (森). How many 木 are in 森? — Three: the characters are built by stacking the same component."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "台灣的統一發票每兩個月開獎一次。一年有十二個月，總共會開幾次獎？",
+    "options": ["四次", "八次", "六次", "十二次"],
+    "correctIndex": 2,
+    "gloss": "Taiwan's receipt lottery is drawn every two months; how many draws in a twelve-month year? — Six (12 ÷ 2); 十二次 is the trap for players who ignore 'every two months'."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "地圖上，哪個國家的形狀就像一隻伸入地中海的靴子？",
+    "options": ["西班牙", "希臘", "葡萄牙", "義大利"],
+    "correctIndex": 3,
+    "gloss": "On the map, which country looks like a boot reaching into the Mediterranean? — Italy. The other options are also Mediterranean peninsulas."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "元宵節時，新北市平溪最出名的活動是施放什麼？",
+    "options": ["天燈", "水燈", "蜂炮", "風箏"],
+    "correctIndex": 0,
+    "gloss": "At the Lantern Festival, what is Pingxi (New Taipei) most famous for releasing? — Sky lanterns. Water lanterns belong to Keelung's Ghost Festival and bee-rocket firecrackers to Yanshui in Tainan."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "皮克斯動畫《玩具總動員》裡，那位頭戴牛仔帽的玩具主角叫什麼名字？",
+    "options": ["胡迪", "巴斯光年", "抱抱龍", "彈簧狗"],
+    "correctIndex": 0,
+    "gloss": "In Pixar's Toy Story, what is the cowboy-hat-wearing toy lead called? — Woody (胡迪 in Taiwan). The others are also Toy Story toys: Buzz, Rex, Slinky Dog."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "棒球比賽中，守方讓攻方累積幾人出局，就會攻守交換？",
+    "options": ["兩人", "三人", "四人", "五人"],
+    "correctIndex": 1,
+    "gloss": "In baseball, after how many outs do the teams switch between batting and fielding? — Three."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "〈月亮代表我的心〉最廣為人知的版本，是出自哪位歌手之口？",
+    "options": ["蔡琴", "鄧麗君", "鳳飛飛", "江蕙"],
+    "correctIndex": 1,
+    "gloss": "Whose voice gave 'The Moon Represents My Heart' its best-known version? — Teresa Teng (鄧麗君); the other options are major Taiwanese singers with their own signature songs."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "造紙術、印刷術、火藥，再加上什麼，合稱中國古代的四大發明？",
+    "options": ["算盤", "瓷器", "絲綢", "指南針"],
+    "correctIndex": 3,
+    "gloss": "Papermaking, printing, gunpowder and what else are China's Four Great Inventions? — The compass. Abacus, porcelain and silk are Chinese too but not on the list."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "民國元年是西元 1912 年。那麼，西元 2024 年是民國幾年？",
+    "options": ["民國111年", "民國112年", "民國113年", "民國114年"],
+    "correctIndex": 2,
+    "gloss": "Republic of China year 1 is 1912 CE; what ROC year is 2024? — Year 113: 2024 − 1912 + 1 (year 1 counts, so adding 1 avoids the off-by-one trap 112)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台灣沿海居民世代敬奉，被尊稱為「天上聖母」的海上守護神是哪一位？",
+    "options": ["媽祖", "觀音菩薩", "王母娘娘", "土地公"],
+    "correctIndex": 0,
+    "gloss": "Which sea guardian, revered along Taiwan's coast, is honoured as 'Holy Mother of Heaven'? — Mazu (媽祖). Guanyin, the Queen Mother of the West and Tudigong are other deities people might mix up."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "一張正方形的桌子，沿著一條直線鋸掉其中一個角，切口兩端落在相鄰的兩條邊上。桌面現在有幾個角？",
+    "options": ["三個", "四個", "五個", "六個"],
+    "correctIndex": 2,
+    "gloss": "A square table has one corner sawn off in a straight line across two adjacent sides; how many corners now? — Five: one corner is removed but the cut adds two new ones."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "超商的飲料每瓶 30 元，現在「買二送一」。買了三瓶，平均每瓶多少元？",
+    "options": ["10 元", "15 元", "20 元", "25 元"],
+    "correctIndex": 2,
+    "gloss": "A drink costs 30 dollars, 'buy two get one free'. Average price per bottle for three? — 20 (you pay for two: 60 ÷ 3)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "不小心刪掉了一整段文字，在電腦上按下 Ctrl+Z 通常能做什麼？",
+    "options": ["復原上一個動作", "複製選取的內容", "儲存檔案", "全部選取"],
+    "correctIndex": 0,
+    "gloss": "You accidentally delete a whole paragraph; what does Ctrl+Z usually do? — Undo the last action."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "畫出《向日葵》與《星夜》的畫家梵谷，是哪個國家的人？",
+    "options": ["荷蘭", "法國", "比利時", "德國"],
+    "correctIndex": 0,
+    "gloss": "Which country was Van Gogh, painter of Sunflowers and The Starry Night, from? — The Netherlands; France is the trap because he painted there."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "《瑪利歐兄弟》裡的瑪利歐與路易吉，在故事設定中是什麼職業？",
+    "options": ["木匠", "水管工", "廚師", "郵差"],
+    "correctIndex": 1,
+    "gloss": "In Mario Bros., what is the job of Mario and Luigi? — Plumbers (the carpenter option is a nod to Mario's very first appearance, which the question rules out by naming Mario Bros.)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "昆蟲的身體分成頭、胸、腹三部分，並且有六隻腳。下列哪一種動物不是昆蟲？",
+    "options": ["蜻蜓", "螞蟻", "螳螂", "蜘蛛"],
+    "correctIndex": 3,
+    "gloss": "Insects have head, thorax and abdomen and six legs; which of these is not an insect? — The spider: two body parts and eight legs, an arachnid."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台南的安平古堡，前身是十七世紀的「熱蘭遮城」，它是哪個國家的人建造的？",
+    "options": ["西班牙", "荷蘭", "葡萄牙", "英國"],
+    "correctIndex": 1,
+    "gloss": "Anping Fort in Tainan grew out of 17th-century Fort Zeelandia; which country's people built it? — The Dutch. Spain built forts in the north (Keelung, Tamsui), which is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "年輕人常用數字「5201314」傳情。把每個數字用國語唸出來，它諧音的是哪一句話？",
+    "options": ["我想你每一天", "我要你一輩子", "我愛你一生一世", "我等你一年又一年"],
+    "correctIndex": 2,
+    "gloss": "Young people text '5201314' as a love code; read each digit aloud in Mandarin, which sentence does it sound like? — 'I love you for a lifetime' (wu-er-ling-yi-san-yi-si ≈ 我愛你一生一世)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "閃電亮起後，你數到 6 秒才聽見雷聲。聲音大約每秒走三分之一公里，雷擊處離你大約多遠？",
+    "options": ["約 200 公尺", "約 700 公尺", "約 2 公里", "約 20 公里"],
+    "correctIndex": 2,
+    "gloss": "You count 6 seconds between lightning and thunder, sound travels about a third of a kilometre per second; how far is the strike? — About 2 km (6 × 1/3); light arrives practically instantly."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "《小王子》裡，被小王子澆水、罩上玻璃罩細心照顧的，是什麼植物？",
+    "options": ["薰衣草", "向日葵", "猴麵包樹", "玫瑰"],
+    "correctIndex": 3,
+    "gloss": "In The Little Prince, which plant does he water and cover with a glass globe? — His rose. The baobab is the weed he pulls up."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "余光中的詩〈鄉愁〉寫道：「長大後，鄉愁是一張窄窄的○○」，空格裡是什麼？",
+    "options": ["郵票", "船票", "墳墓", "海峽"],
+    "correctIndex": 1,
+    "gloss": "Yu Kwang-chung's 'Nostalgia': 'When grown up, nostalgia is a narrow ___' — A ticket for a ship (船票). The poem's four stanzas run: stamp, ship ticket, grave, strait."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "羅馬數字裡，I 是 1、V 是 5、X 是 10、L 是 50。那麼 XLIV 代表哪個數字？",
+    "options": ["34", "44", "56", "66"],
+    "correctIndex": 1,
+    "gloss": "Given I=1, V=5, X=10, L=50, what is XLIV? — 44: a smaller numeral before a larger one is subtracted (XL = 40, IV = 4); simply adding gives the trap 66."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "十二月的某一天，台北時間是上午 9 點整，同一時刻的倫敦是幾點？",
+    "options": ["凌晨 1 點", "凌晨 2 點", "下午 5 點", "前一晚 11 點"],
+    "correctIndex": 0,
+    "gloss": "On a December day it is 9:00 a.m. in Taipei; what time is it in London at that moment? — 1:00 a.m. (Taiwan is UTC+8, London UTC+0 in winter; London is behind, so subtract)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台灣積體電路製造（台積電）於 1987 年創立，創辦人是誰？",
+    "options": ["郭台銘", "施振榮", "張忠謀", "王永慶"],
+    "correctIndex": 2,
+    "gloss": "TSMC was founded in 1987; who founded it? — Morris Chang (張忠謀). The others founded Foxconn, Acer and Formosa Plastics."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "設計了巴塞隆納奎爾公園，並接手興建聖家堂的建築師是誰？",
+    "options": ["高第", "柯比意", "卡拉特拉瓦", "萊特"],
+    "correctIndex": 0,
+    "gloss": "Which architect designed Park Güell in Barcelona and took over the Sagrada Família? — Antoni Gaudí. Calatrava is another Spanish architect, the trap."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "4/4 拍的一小節裡有四拍，每一拍是一個四分音符。如果全部改寫成八分音符，一小節能寫幾個？",
+    "options": ["4", "6", "8", "16"],
+    "correctIndex": 2,
+    "gloss": "A 4/4 bar has four quarter-note beats; rewritten entirely in eighth notes, how many fit? — Eight (an eighth note is half a quarter note); 16 would be sixteenth notes."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "李安曾兩度獲得奧斯卡最佳導演獎，他第一次得獎是憑哪一部電影？",
+    "options": ["臥虎藏龍", "少年Pi的奇幻漂流", "色，戒", "斷背山"],
+    "correctIndex": 3,
+    "gloss": "Ang Lee has won the Best Director Oscar twice; for which film did he win it first? — Brokeback Mountain (2005 film, awarded 2006); Life of Pi came later, while Crouching Tiger won other Oscars but not his."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "非洲面積最大的國家是哪一個？",
+    "options": ["阿爾及利亞", "剛果民主共和國", "蘇丹", "利比亞"],
+    "correctIndex": 0,
+    "gloss": "Which is the largest country in Africa by area? — Algeria (Sudan held the title until 2011); DR Congo is second."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1911 年率領探險隊首度抵達南極點的是哪位探險家？",
+    "options": ["史考特", "沙克爾頓", "皮里", "阿蒙森"],
+    "correctIndex": 3,
+    "gloss": "Which explorer led the first expedition to reach the South Pole in 1911? — Roald Amundsen. Scott arrived a month later; Shackleton never reached it; Peary claimed the North Pole."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "歌手齊豫唱紅的〈橄欖樹〉，歌詞是由哪位作家所寫？",
+    "options": ["三毛", "瓊瑤", "席慕蓉", "林海音"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the lyrics of 'The Olive Tree', made famous by the singer Chyi Yu?— The writer Sanmao (music by Li Tai-hsiang). The others are well-known Taiwanese women writers."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "號稱世界上最昂貴的香料之一的番紅花，我們拿來入菜的是花的哪一個部位？",
+    "options": ["花瓣", "花粉", "根莖", "柱頭"],
+    "correctIndex": 3,
+    "gloss": "Saffron is among the world's priciest spices; which part of the flower is used? — The stigmas (柱頭), picked by hand."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "古人把一天分成十二個時辰，每個時辰兩小時。「子時」是深夜十一點到凌晨一點，照著十二地支的順序往下數，「午時」是幾點到幾點？",
+    "options": ["上午 9 點至 11 點", "上午 11 點至下午 1 點", "下午 1 點至 3 點", "下午 3 點至 5 點"],
+    "correctIndex": 1,
+    "gloss": "The ancient day has twelve two-hour periods; 子 is 23:00–01:00. Counting the earthly branches, what hours is 午? — 11:00–13:00 (子, 丑, 寅, 卯, 辰, 巳, 午: the seventh period; 午 also means noon)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台灣選手首度在奧運奪得金牌，是在 2004 年雅典奧運的哪一個項目？",
+    "options": ["舉重", "跆拳道", "羽球", "射箭"],
+    "correctIndex": 1,
+    "gloss": "In which event did Taiwanese athletes win their first Olympic gold, at Athens 2004? — Taekwondo (Chu Mu-yen and Chen Shih-hsin). Weightlifting and badminton golds came later."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "在海拔將近 4,000 公尺的高山上燒開水，水大約在幾度時就會沸騰？",
+    "options": ["約 100 度", "約 87 度", "約 75 度", "約 60 度"],
+    "correctIndex": 1,
+    "gloss": "Boiling water on a mountain of nearly 4,000 m, at about what temperature does it boil? — About 87 °C: air pressure is roughly 60% of sea level, so water boils lower (about 1 °C per 300 m)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "下列哪一種動物的血液因為含銅而呈現藍色？",
+    "options": ["章魚", "海星", "水母", "海膽"],
+    "correctIndex": 0,
+    "gloss": "Which animal has blue blood because it carries copper? — The octopus (haemocyanin instead of iron-based haemoglobin)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "夏至那天的正午，北回歸線通過的嘉義水上，一根垂直立著的竹竿，影子會變成怎樣？",
+    "options": ["比平常都長", "與竹竿一樣長", "縮成幾乎看不見", "指向正東"],
+    "correctIndex": 2,
+    "gloss": "At noon on the summer solstice in Shuishang, Chiayi, which the Tropic of Cancer crosses, what happens to the shadow of a vertical pole? — It shrinks to almost nothing: the Sun is directly overhead on the Tropic at the solstice."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "古人用「古稀」稱七十歲，那麼稱一百歲的雅稱是什麼？",
+    "options": ["花甲", "米壽", "喜壽", "期頤"],
+    "correctIndex": 3,
+    "gloss": "Old age has elegant names: 古稀 is seventy; what is the name for a hundred? — 期頤 (from the Book of Rites). 花甲 is sixty, 喜壽 seventy-seven, 米壽 eighty-eight."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台北 101 的外形取意於節節高升的竹子，主要的建築設計師是誰？",
+    "options": ["貝聿銘", "漢寶德", "郭茂林", "李祖原"],
+    "correctIndex": 3,
+    "gloss": "Taipei 101's form evokes rising bamboo; who was its principal architect? — C.Y. Lee (李祖原). The others are well-known Chinese-born or Taiwanese architects."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "冬天湖面結了冰，在夠深的湖裡，湖底的水溫通常大約是幾度？",
+    "options": ["0 度", "4 度", "8 度", "12 度"],
+    "correctIndex": 1,
+    "gloss": "A deep lake is frozen over in winter; what is the water temperature at the bottom? — About 4 °C: water is densest at 4 °C, so it sinks, while colder water floats to the top and freezes."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "第一位獲得諾貝爾文學獎的華語作家是誰？",
+    "options": ["莫言", "魯迅", "巴金", "高行健"],
+    "correctIndex": 3,
+    "gloss": "Who was the first Chinese-language writer to win the Nobel Prize in Literature? — Gao Xingjian (2000); Mo Yan followed in 2012; Lu Xun and Ba Jin never won."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "有一種國家被稱為「雙重內陸國」：自己不靠海，鄰國也都不靠海。下列哪個國家就是？",
+    "options": ["瑞士", "奧地利", "列支敦斯登", "盧森堡"],
+    "correctIndex": 2,
+    "gloss": "A 'doubly landlocked' country has no coast and all its neighbours have none either; which of these is one? — Liechtenstein (bordered only by Switzerland and Austria). Switzerland touches France and Italy, Luxembourg touches Belgium and France."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "俄國作曲家史特拉汶斯基的芭蕾舞劇《春之祭》，1913 年首演時因前衛的音樂與舞蹈引起觀眾騷動，地點是哪座城市？",
+    "options": ["聖彼得堡", "維也納", "倫敦", "巴黎"],
+    "correctIndex": 3,
+    "gloss": "Stravinsky's ballet The Rite of Spring caused an uproar at its 1913 premiere; in which city? — Paris (Théâtre des Champs-Élysées); St Petersburg is the trap because of the composer's nationality."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "北歐神話中的眾神之王奧丁，為了換取智慧之泉的泉水，付出了什麼代價？",
+    "options": ["一隻手", "一隻眼睛", "一條腿", "一對耳朵"],
+    "correctIndex": 1,
+    "gloss": "In Norse myth, what did Odin give up to drink from the well of wisdom? — One of his eyes. A hand was lost by Tyr to the wolf Fenrir, the trap."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "和日本麻將不同，台灣麻將每位玩家手中握十六張牌。胡牌時，連同最後摸進或胡進的那張，手上共有幾張牌？",
+    "options": ["14 張", "16 張", "17 張", "18 張"],
+    "correctIndex": 2,
+    "gloss": "Taiwanese mahjong players hold sixteen tiles; including the winning tile, how many tiles are in a winning hand? — Seventeen: five sets of three plus a pair (15 + 2); 14 is the Japanese count."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "約 1450 年前後，古騰堡在德國哪座城市發展出歐洲的活字印刷術，印出了知名的《聖經》？",
+    "options": ["美因茲", "紐倫堡", "科隆", "法蘭克福"],
+    "correctIndex": 0,
+    "gloss": "Around 1450 Gutenberg developed European movable-type printing in which German city, printing his famous Bible? — Mainz; Frankfurt (home of the book fair) is the trap."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "32 隊參賽的世界盃足球賽，先分成 8 個小組，每組 4 隊彼此各踢一場。整屆賽事（含季軍賽）總共踢幾場比賽？",
+    "options": ["48 場", "56 場", "64 場", "72 場"],
+    "correctIndex": 2,
+    "gloss": "A 32-team World Cup: 8 groups of 4, everyone plays everyone once; how many matches in the whole tournament including the third-place match? — 64: 48 in groups plus 16 knockout games (8+4+2+1+1)."
+  }
+]
