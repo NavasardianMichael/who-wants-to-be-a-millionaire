@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Xalq maqoliga koʻra, ilm olish nima bilan quduq qazishga oʻxshaydi?",
+    "options": ["Ketmon bilan", "Qoshiq bilan", "Igna bilan", "Barmoq bilan"],
+    "correctIndex": 2,
+    "gloss": "According to the proverb, getting knowledge is like digging a well with what? — A needle: «Ilm olish — igna bilan quduq qazish». The hoe is the tempting 'sensible' tool."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Onam 20 ta somsa yopdi. Mehmonlar avval somsalarning yarmini, keyin qolganining ham yarmini yeyishdi. Nechta somsa qoldi?",
+    "options": ["0", "5", "10", "15"],
+    "correctIndex": 1,
+    "gloss": "Mum baked 20 samsas; guests ate half, then half of what was left. How many are left? — 5: 20 → 10 → 5. '0' catches those who hear 'half and half' as 'all'."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ulugʻbek, Sherdor va Tillakori madrasalari bir-biriga yuzlanib turgan Registon maydoni qaysi shaharda?",
+    "options": ["Samarqandda", "Buxoroda", "Xivada", "Qoʻqonda"],
+    "correctIndex": 0,
+    "gloss": "In which city is the Registan, framed by the Ulugh Beg, Sher-Dor and Tilya-Kori madrasas? — Samarkand. Naming the three madrasas rules out Bukhara's own historic Registan square."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ipak qurti qaysi daraxtning barglari bilan oziqlanadi — shuning uchun bu daraxt qishloqlarda koʻp ekilgan?",
+    "options": ["Terak", "Chinor", "Olma", "Tut"],
+    "correctIndex": 3,
+    "gloss": "Silkworms feed on the leaves of which tree, which is why villages plant so many of them? — The mulberry."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbek adabiyotidagi ilk roman — «Oʻtkan kunlar»ni kim yozgan?",
+    "options": ["Choʻlpon", "Abdulla Qodiriy", "Abdulla Qahhor", "Hamid Olimjon"],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'Days Gone By', the first Uzbek novel? — Abdulla Qodiriy (1920s). The others are major Uzbek writers of the same century."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi materikda doimiy aholi yoʻq — u yerda faqat qutb stansiyalaridagi olimlar navbatma-navbat yashaydi?",
+    "options": ["Avstraliya", "Afrika", "Antarktida", "Janubiy Amerika"],
+    "correctIndex": 2,
+    "gloss": "Which continent has no permanent population, only scientists at polar stations on rotation? — Antarctica."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kompyuterda belgilangan matnni nusxalash uchun Ctrl tugmasi bilan birga qaysi harf bosiladi?",
+    "options": ["C", "V", "X", "Z"],
+    "correctIndex": 0,
+    "gloss": "To copy selected text, Ctrl plus which letter? — C (copy). V pastes, X cuts, Z undoes: every option is a real shortcut."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qaysi soʻz oxiridan boshiga qarab oʻqilganda ham aynan oʻzi boʻlib qoladi?",
+    "options": ["Qovun", "Olma", "Tulki", "Kiyik"],
+    "correctIndex": 3,
+    "gloss": "Which word reads the same backwards? — Kiyik (deer): k-i-y-i-k. The others become nuvoq, amlo, iklut."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Boksda raqib yiqilib, hakam oʻngacha sanaguncha oʻrnidan tura olmasa, bu nima deyiladi?",
+    "options": ["Penalti", "Nokaut", "Ofsayd", "Taym-aut"],
+    "correctIndex": 1,
+    "gloss": "In boxing, if a fallen fighter can't get up before the referee counts ten, what is it called? — A knockout. The others are real sports terms from other games."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bozorda olmaning kilosi 12 000 soʻm. Sotuvchi: «Ikki kilo olsangiz, uchinchisi tekin», — dedi. Uch kilo olma uchun qancha toʻlaysiz?",
+    "options": ["12 000 soʻm", "36 000 soʻm", "24 000 soʻm", "30 000 soʻm"],
+    "correctIndex": 2,
+    "gloss": "Apples cost 12,000 som a kilo; 'buy two, the third is free'. What do three kilos cost? — 24,000 som: you pay for two."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tuyaning oʻrkachida asosan nima toʻplanadi?",
+    "options": ["Yogʻ", "Suv", "Havo", "Qon"],
+    "correctIndex": 0,
+    "gloss": "What is mainly stored in a camel's hump? — Fat, not water as many believe; the camel draws energy from it on long trips."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Amaki — otaning aka-ukasi, togʻa — onaning aka-ukasi. Onangizning akasining oʻgʻli sizga kim boʻladi?",
+    "options": ["Amakivachcha", "Xolavachcha", "Togʻavachcha", "Ammavachcha"],
+    "correctIndex": 2,
+    "gloss": "Amaki is father's brother, togʻa is mother's brother. Your mother's brother's son is your…? — Togʻavachcha. Xolavachcha (mother's sister's child) is the trap for 'mother's side'."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kristofor Kolumb 1492-yilda qaysi davlat homiyligida Atlantika okeani boʻylab gʻarbga suzib ketgan?",
+    "options": ["Italiya", "Portugaliya", "Angliya", "Ispaniya"],
+    "correctIndex": 3,
+    "gloss": "Under which country's sponsorship did Columbus sail west in 1492? — Spain (the Catholic Monarchs). Traps: he was Genoese (Italy) and first sought backing in Portugal."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Navroʻz bahorgi kun-tun tengligida nishonlanadi. Yilning qaysi oyida kun bilan tun yana tenglashadi?",
+    "options": ["Iyunda", "Sentabrda", "Dekabrda", "Avgustda"],
+    "correctIndex": 1,
+    "gloss": "Navruz is celebrated at the spring equinox. In which month are day and night equal again? — September (autumn equinox, ~22–23 Sept), half a year later. June and December are the solstices."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻrta Osiyoning ikki eng katta daryosi — Amudaryo bilan Sirdaryo qaysi suv havzasiga quyiladi?",
+    "options": ["Orol dengiziga", "Kaspiy dengiziga", "Balxash koʻliga", "Issiqkoʻlga"],
+    "correctIndex": 0,
+    "gloss": "Into which body of water do the Amu Darya and Syr Darya flow? — The Aral Sea. The others are the region's other great lakes/seas."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sevimli «Shum bola» filmi qaysi yozuvchining shu nomli qissasi asosida suratga olingan?",
+    "options": ["Abdulla Qahhor", "Said Ahmad", "Gʻafur Gʻulom", "Oybek"],
+    "correctIndex": 2,
+    "gloss": "The beloved film 'The Naughty Boy' is based on whose novella of the same name? — Gʻafur Gʻulom."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nintendo oʻyinlarining moʻylovli qahramoni Mario kasbi boʻyicha kim?",
+    "options": ["Oshpaz", "Santexnik", "Pochtachi", "Elektrik"],
+    "correctIndex": 1,
+    "gloss": "What is the moustached Nintendo hero Mario by trade? — A plumber. 'Carpenter' (his role in the original Donkey Kong) is deliberately left out."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shaxmatda qaysi dona faqat diagonal boʻylab yuradi?",
+    "options": ["Shoh", "Farzin", "Ot", "Fil"],
+    "correctIndex": 3,
+    "gloss": "In chess, which piece moves only diagonally? — The bishop (fil). The king and queen can also move diagonally, but not only."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ota 40 yoshda, oʻgʻli 10 yoshda: ota oʻgʻlidan 4 barobar katta. Necha yildan keyin ota oʻgʻlidan roppa-rosa 3 barobar katta boʻladi?",
+    "options": ["5 yildan keyin", "10 yildan keyin", "15 yildan keyin", "20 yildan keyin"],
+    "correctIndex": 0,
+    "gloss": "Father 40, son 10 (four times older). In how many years will the father be exactly three times older? — 5: 45 = 3 × 15. In 10 years it is only 2.5×."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Muchal hisobida 2020-yilda tugʻilgan bola bilan muchali bir xil boʻlgan kishi qaysi yilda tugʻilgan boʻlishi mumkin?",
+    "options": ["2008-yilda", "2010-yilda", "2014-yilda", "2016-yilda"],
+    "correctIndex": 0,
+    "gloss": "In the muchal (12-animal) calendar, someone with the same animal as a child born in 2020 could be born in which year? — 2008: the cycle repeats every 12 years (both Rat years)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Oʻzbekistonning hech bir qoʻshnisi okeanga chiqa olmaydi. Dunyoda bunday holatdagi yana bitta davlat bor, u Yevropada. Qaysi?",
+    "options": ["Shveytsariya", "Lixtenshteyn", "Andorra", "Lyuksemburg"],
+    "correctIndex": 1,
+    "gloss": "None of Uzbekistan's neighbours reaches the ocean; one other such country exists, in Europe. Which? — Liechtenstein (neighbours Switzerland and Austria, both landlocked). Andorra and Luxembourg are landlocked but border coastal France, Spain, Belgium."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Alpomish» dostonida qahramon qalmoq yurtiga borib, musobaqalarda gʻolib chiqib, qaysi qizni oʻziga yor qiladi?",
+    "options": ["Barchinoy", "Kumushbibi", "Tomaris", "Zumrad"],
+    "correctIndex": 0,
+    "gloss": "In the epic 'Alpomish', the hero goes to the Kalmyk land, wins the contests and claims which maiden? — Barchinoy. Kumushbibi is from 'Days Gone By', Tomaris a historical queen, Zumrad a fairy-tale girl."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Samarqandda rasadxona qurdirgan Mirzo Ulugʻbek Sohibqiron Amir Temurga kim boʻlgan?",
+    "options": ["Oʻgʻli", "Ukasi", "Kuyovi", "Nevarasi"],
+    "correctIndex": 3,
+    "gloss": "Ulugh Beg, who built the Samarkand observatory, was Timur's…? — Grandson (son of Shahrukh). 'Son' is the trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tovush havoda soniyasiga taxminan 340 metr yuradi. Chaqmoq chaqqanidan 3 soniya oʻtib momaqaldiroq eshitildi. Chaqmoq qancha uzoqda chaqqan?",
+    "options": ["Taxminan 100 metr", "Taxminan 340 metr", "Taxminan 1 kilometr", "Taxminan 3 kilometr"],
+    "correctIndex": 2,
+    "gloss": "Sound travels about 340 m per second; thunder came 3 s after the lightning. How far away was it? — About 1 km (3 × 340 = 1,020 m)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbek lotin alifbosi Z harfi bilan tugamaydi. Undan keyin darhol qaysi harf keladi?",
+    "options": ["Oʻ", "Gʻ", "Sh", "Ch"],
+    "correctIndex": 0,
+    "gloss": "The Uzbek Latin alphabet doesn't end with Z. Which letter comes right after it? — Oʻ. The official order ends …X, Y, Z, Oʻ, Gʻ, Sh, Ch, ng, ʼ."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qator qanday davom etadi: 2, 3, 5, 7, 11, 13, …?",
+    "options": ["15", "17", "19", "21"],
+    "correctIndex": 1,
+    "gloss": "How does the series continue: 2, 3, 5, 7, 11, 13…? — 17: these are the prime numbers. 15 catches those who see 'odd numbers'."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dunyodagi eng qimmat ziravorni gul ichidagi ingichka qizgʻish iplarni birma-bir qoʻlda terib olishadi. Bu qaysi ziravor?",
+    "options": ["Vanil", "Kardamon", "Doljin", "Zaʼfaron"],
+    "correctIndex": 3,
+    "gloss": "The world's most expensive spice is hand-picked thread by thread from inside a flower. Which? — Saffron (crocus stigmas). Vanilla, the second most expensive, is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Kitob», «maktab» va «kotib» soʻzlari arabcha «yozmoq» maʼnosidagi bitta oʻzakdan. Qaysi soʻz ham shu oilaga kiradi?",
+    "options": ["Maktub", "Muallim", "Madrasa", "Maqola"],
+    "correctIndex": 0,
+    "gloss": "Kitob (book), maktab (school) and kotib (clerk) share one Arabic root meaning 'to write'. Which word belongs too? — Maktub (letter), k-t-b again. Muallim is ʿ-l-m, madrasa d-r-s, maqola q-w-l."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hijriy yil quyosh yilidan taxminan 11 kun qisqa. Shuning uchun Ramazon oyi bizning taqvimda qanday siljiydi?",
+    "options": ["Har yili 11 kunga yaqin kechroq boshlanadi", "Har yili 11 kunga yaqin oldinroq boshlanadi", "Har yili bir xil sanada boshlanadi", "Har toʻrt yilda bir oyga suriladi"],
+    "correctIndex": 1,
+    "gloss": "The Hijri year is about 11 days shorter than the solar year. How does Ramadan move in our calendar? — About 11 days earlier each year: a shorter year comes round sooner. 'Later' is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Telefondagi kulgichlar — «emoji» soʻzi qaysi tildan kelgan?",
+    "options": ["Ingliz tilidan", "Xitoy tilidan", "Yapon tilidan", "Koreys tilidan"],
+    "correctIndex": 2,
+    "gloss": "Which language does the word 'emoji' come from? — Japanese (e 'picture' + moji 'character'). English is the trap, by its look-alike 'emotion'."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Buxorodagi Ismoil Somoniy maqbarasining butun naqshi qaysi materialdan terilgan?",
+    "options": ["Koshindan", "Pishiq gʻishtdan", "Marmardan", "Yogʻochdan"],
+    "correctIndex": 1,
+    "gloss": "What is the entire ornament of the Samanid Mausoleum in Bukhara laid out in? — Fired brick (10th century), with no glazed tiles: the patterns come from how the bricks are set."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "QR-kod 1994-yilda Yaponiyada dastlab qanday maqsadda ixtiro qilingan?",
+    "options": ["Avtomobil detallarini kuzatish", "Supermarketda toʻlov qilish", "Aviachiptalarni tekshirish", "Pochtani saralash"],
+    "correctIndex": 0,
+    "gloss": "What was the QR code first invented for in Japan in 1994? — Tracking car parts (Denso Wave, a Toyota group company)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Alisher Navoiyning «Muhokamat ul-lugʻatayn» asari nomi «Ikki til muhokamasi» degani. Navoiy unda qaysi ikki tilni qiyoslagan?",
+    "options": ["Arab va fors tillarini", "Turkiy va arab tillarini", "Turkiy va fors tillarini", "Fors va hind tillarini"],
+    "correctIndex": 2,
+    "gloss": "Navoi's 'Judgement of Two Languages' compares which two languages? — Turkic and Persian; he argued Turkic was as fit for poetry as Persian (1499)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2004-yilda Liviyada boʻlib oʻtgan FIDE jahon chempionatida gʻolib chiqqan oʻzbekistonlik shaxmatchi kim?",
+    "options": ["Nodirbek Abdusattorov", "Javohir Sindarov", "Nodirbek Yoqubboyev", "Rustam Qosimjonov"],
+    "correctIndex": 3,
+    "gloss": "Which Uzbek chess player won the 2004 FIDE World Championship in Libya? — Rustam Kasimdzhanov. Abdusattorov (2021 world rapid champion) is the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«Algoritm» soʻzi bir olimning nisbasi — tugʻilgan yurtini bildiruvchi nomi — lotinchada buzib aytilganidan kelib chiqqan. Bu olim kim?",
+    "options": ["Ahmad al-Fargʻoniy", "Muhammad al-Xorazmiy", "Abu Rayhon Beruniy", "Abu Ali ibn Sino"],
+    "correctIndex": 1,
+    "gloss": "'Algorithm' comes from the Latin mangling of a scholar's nisba (name from his homeland). Whose? — al-Khwarizmi (Latin 'Algoritmi'). Al-Farghani, whose nisba became 'Alfraganus', is the trap; the sound 'al-gorithm' points to Khwarizmi."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quyosh tizimining qaysi sayyorasida Quyosh gʻarbdan chiqib, sharqqa botadi?",
+    "options": ["Venera", "Mars", "Merkuriy", "Yupiter"],
+    "correctIndex": 0,
+    "gloss": "On which planet does the Sun rise in the west and set in the east? — Venus, which spins backwards. (Uranus, also retrograde, is left out.)"
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Qaysi poytaxt ekvatorga hammasidan yaqin joylashgan?",
+    "options": ["Bogota", "Nayrobi", "Lima", "Kito"],
+    "correctIndex": 3,
+    "gloss": "Which capital lies closest to the equator? — Quito (~0.2° S); Nairobi ~1.3° S, Bogotá ~4.6° N, Lima ~12° S. The aha: Quito is the capital of Ecuador, whose name means 'equator' (Uzbek Ekvador / ekvator)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bobur Hindistonda asos solgan sulola Yevropada qanday nom bilan mashhur boʻlgan?",
+    "options": ["Gʻaznaviylar", "Safaviylar", "Buyuk Moʻgʻullar", "Saljuqiylar"],
+    "correctIndex": 2,
+    "gloss": "By what name is the dynasty Babur founded in India known in Europe? — The Great Mughals. The others are real neighbouring dynasties of the region."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Rimliklar yunon xudolarini oʻzicha atagan: masalan, Germes ular uchun Merkuriy edi. Quyosh tizimidagi eng katta sayyora qaysi yunon xudosining rimcha nomini olgan?",
+    "options": ["Zevs", "Kronos", "Poseydon", "Ares"],
+    "correctIndex": 0,
+    "gloss": "The Romans renamed Greek gods (Hermes = Mercury). The largest planet bears the Roman name of which Greek god? — Zeus: the largest planet is Jupiter. Kronos = Saturn, Poseidon = Neptune, Ares = Mars."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Yil fasllari» konsertlari muallifi Antonio Vivaldi qaysi shaharda tugʻilgan?",
+    "options": ["Rimda", "Venetsiyada", "Neapolda", "Florensiyada"],
+    "correctIndex": 1,
+    "gloss": "In which city was Antonio Vivaldi, composer of 'The Four Seasons', born? — Venice, where he spent most of his career."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Samarqanddagi Goʻri Amir maqbarasi dastlab Temurning oʻzi uchun emas, boshqa bir temuriy uchun qurila boshlagan. Kim uchun?",
+    "options": ["Muhammad Sulton", "Ulugʻbek", "Shohruh", "Mironshoh"],
+    "correctIndex": 0,
+    "gloss": "The Gur-e-Amir in Samarkand was first built not for Timur himself but for another Timurid. Whom? — Muhammad Sultan, Timur's grandson and heir, who died in 1403. The others are also connected with the tomb."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dante «Ilohiy komediya»sida doʻzax va aʼrof boʻylab qaysi qadimgi shoir yoʻlboshchilik qiladi?",
+    "options": ["Gomer", "Ovidiy", "Vergiliy", "Goratsiy"],
+    "correctIndex": 2,
+    "gloss": "In the Divine Comedy, which ancient poet guides Dante through Hell and Purgatory? — Virgil. Homer, Ovid and Horace appear only among the poets in Limbo."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quyosh nuri Yerga taxminan 8 daqiqada yetib keladi. Oy yuzasidan qaytgan yorugʻlik Yergacha qancha vaqtda yetadi?",
+    "options": ["Taxminan 8 daqiqada", "Taxminan 1 daqiqada", "Taxminan 8 soniyada", "Taxminan 1 soniyada"],
+    "correctIndex": 3,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. How long does moonlight take? — About 1 second: the Moon is ~384,000 km away and light covers ~300,000 km/s. Moonlight is reflected sunlight, which tempts '8 minutes'."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Botanik jihatdan qaysi biri haqiqiy rezavor meva hisoblanadi?",
+    "options": ["Qulupnay", "Banan", "Malina", "Gilos"],
+    "correctIndex": 1,
+    "gloss": "Botanically, which is a true berry? — The banana. The strawberry is an accessory fruit, the raspberry an aggregate of drupelets, the cherry a drupe."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Buyuk Ipak yoʻli» atamasini XIX asrda ilk bor kim fanga kiritgan?",
+    "options": ["Ferdinand fon Rixtgofen", "Marko Polo", "Aleksandr fon Gumboldt", "Nikolay Prjevalskiy"],
+    "correctIndex": 0,
+    "gloss": "Who first introduced the term 'Silk Road' in the 19th century? — The German geographer Ferdinand von Richthofen (1877). Marco Polo travelled it but never named it so."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekistonning eng baland nuqtasi — Hazrati Sulton choʻqqisi qaysi togʻ tizmasida?",
+    "options": ["Turkiston tizmasida", "Chotqol tizmasida", "Hisor tizmasida", "Zarafshon tizmasida"],
+    "correctIndex": 2,
+    "gloss": "In which range is Khazret Sultan, Uzbekistan's highest point (4,643 m)? — The Hissar Range, on the Tajik border in Surxondaryo. The others are real ranges of the country."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bir bayt 8 bitdan iborat. Bitta bayt nechta turli qiymatni ifodalay oladi?",
+    "options": ["8", "64", "255", "256"],
+    "correctIndex": 3,
+    "gloss": "A byte has 8 bits. How many different values can one byte hold? — 256 (2⁸, from 0 to 255). 255, the largest value, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XI asrda turkiy soʻzlarni arabcha izohlab, «Devonu lugʻotit turk» lugʻatini yaratgan olim kim?",
+    "options": ["Yusuf Xos Hojib", "Mahmud Koshgʻariy", "Ahmad Yugnakiy", "Nosiruddin Rabgʻuziy"],
+    "correctIndex": 1,
+    "gloss": "Who compiled the 11th-century 'Compendium of the Languages of the Turks', explaining Turkic words in Arabic? — Mahmud al-Kashgari. Yusuf Khass Hajib (Kutadgu Bilig) is his contemporary and the main trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Toshkentda Yangi yil kirib, soat 00:00 ni koʻrsatdi. Xuddi shu lahzada Londonda soat necha boʻladi?",
+    "options": ["19:00", "21:00", "05:00", "17:00"],
+    "correctIndex": 0,
+    "gloss": "New Year arrives in Tashkent at 00:00. What time is it in London at that moment? — 19:00 on 31 December: Tashkent is UTC+5, London in winter UTC+0. 05:00 catches those who add instead of subtract."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dengiz sathida suv necha kelvinda qaynaydi?",
+    "options": ["100 K", "212 K", "373,15 K", "273,15 K"],
+    "correctIndex": 2,
+    "gloss": "At sea level, at how many kelvins does water boil? — 373.15 K: 0 °C = 273.15 K, plus 100. 273.15 K is freezing, 212 is the Fahrenheit boiling point."
+  }
+]
