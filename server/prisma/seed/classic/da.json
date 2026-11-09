@@ -1,0 +1,507 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvordan slutter ordsproget »Mange bække små gør en stor …«?",
+    "options": ["sø", "fjord", "å", "bugt"],
+    "correctIndex": 2,
+    "gloss": "How does the proverb 'Many small streams make a big …' end? — å (a river): many small contributions add up to something big."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvilken af disse både har et navn, der staves ens forfra og bagfra?",
+    "options": ["Kano", "Kajak", "Jolle", "Gondol"],
+    "correctIndex": 1,
+    "gloss": "Which of these boats has a name spelled the same forwards and backwards? — Kajak: a palindrome; checking each word reversed settles it."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvem skrev eventyrene om den grimme ælling og kejserens nye klæder?",
+    "options": ["Karen Blixen", "Søren Kierkegaard", "Ludvig Holberg", "H.C. Andersen"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the fairy tales of the ugly duckling and the emperor's new clothes? — H.C. Andersen, the Danish storyteller."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken svensk by ligger i den anden ende af Øresundsbroen, set fra København?",
+    "options": ["Malmø", "Göteborg", "Helsingborg", "Lund"],
+    "correctIndex": 0,
+    "gloss": "Which Swedish city lies at the other end of the Øresund Bridge, seen from Copenhagen? — Malmö. Helsingborg is only linked to Helsingør by ferry."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvem er hjernen i Olsen-banden, ham der altid har »en plan«?",
+    "options": ["Benny Frandsen", "Egon Olsen", "Kjeld Jensen", "Børge Jensen"],
+    "correctIndex": 1,
+    "gloss": "Who is the brain of the Olsen Gang, the one who always has 'a plan'? — Egon Olsen; Benny and Kjeld are his partners, Børge is Kjeld's son."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En landmand har 17 køer. Alle på nær ni bliver solgt. Hvor mange køer har han tilbage?",
+    "options": ["0", "8", "9", "17"],
+    "correctIndex": 2,
+    "gloss": "A farmer has 17 cows. All but nine are sold. How many are left? — 9: 'all but nine' means nine remain. 8 is the autopilot trap (17 - 9)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket af disse dyr er ikke et insekt?",
+    "options": ["Græshoppe", "Myre", "Bille", "Edderkop"],
+    "correctIndex": 3,
+    "gloss": "Which of these animals is not an insect? — The spider: it has eight legs and is an arachnid; insects have six."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken romersk arena, kendt for gladiatorkampe, kan man stadig besøge i Rom?",
+    "options": ["Pantheon", "Colosseum", "Circus Maximus", "Forum Romanum"],
+    "correctIndex": 1,
+    "gloss": "Which Roman arena, known for gladiator fights, can you still visit in Rome? — The Colosseum. Circus Maximus was for chariot races, the Pantheon is a temple."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvor lang tid går der mellem to olympiske sommerlege?",
+    "options": ["To år", "Tre år", "Fire år", "Fem år"],
+    "correctIndex": 2,
+    "gloss": "How much time passes between two Summer Olympics? — Four years."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En pizza er delt i otte lige store stykker. Mette spiser to, og Jonas spiser tre. Hvor stor en del af pizzaen er tilbage?",
+    "options": ["1/4", "3/8", "1/2", "5/8"],
+    "correctIndex": 1,
+    "gloss": "A pizza is cut into eight equal slices. Mette eats two and Jonas three. What fraction is left? — 3/8: 8 - 2 - 3 = 3 slices."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvad betyder navnet København oprindeligt?",
+    "options": ["Købmændenes havn", "Kongens havn", "Fiskernes havn", "Skibenes havn"],
+    "correctIndex": 0,
+    "gloss": "What did the name København originally mean? — 'Merchants' harbour'. The first part is 'køb' (trade, as in købmand), the second 'havn' (harbour)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Navnet LEGO er dannet af to danske ord. Hvilke?",
+    "options": ["Lav godt", "Lær godt", "Læs godt", "Leg godt"],
+    "correctIndex": 3,
+    "gloss": "The name LEGO is made from two Danish words. Which? — 'Leg godt' (play well): LEg + GOdt. Only that phrase spells LE-GO."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Operahuset i Sydney med sine sejllignende tage blev tegnet af en dansker. Hvem?",
+    "options": ["Arne Jacobsen", "Jørn Utzon", "Henning Larsen", "Bjarke Ingels"],
+    "correctIndex": 1,
+    "gloss": "The Sydney Opera House with its sail-like roofs was designed by a Dane. Who? — Jørn Utzon. Henning Larsen designed the Copenhagen Opera."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Tallet »halvfjerds« er en forkortelse af »halvfjerdsindstyve«, altså »tyve« gange et vist tal. Hvilket?",
+    "options": ["2½", "3", "3½", "4"],
+    "correctIndex": 2,
+    "gloss": "'Halvfjerds' (70) is short for 'halvfjerdsindstyve', i.e. twenty times some number. Which? — 3½ (halvfjerde = three and a half): 3.5 x 20 = 70."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket berømt cykelløb slutter traditionelt på Champs-Élysées i Paris?",
+    "options": ["Giro d'Italia", "Vuelta a España", "Tour de France", "Paris–Roubaix"],
+    "correctIndex": 2,
+    "gloss": "Which famous cycling race traditionally ends on the Champs-Élysées in Paris? — The Tour de France."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken gas optager planter fra luften, når de laver fotosyntese?",
+    "options": ["Ilt", "Kvælstof", "Brint", "Kuldioxid"],
+    "correctIndex": 3,
+    "gloss": "Which gas do plants take up from the air during photosynthesis? — Carbon dioxide. Oxygen is what they give off."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hvad er halvdelen af et halvt dusin?",
+    "options": ["2", "3", "4", "6"],
+    "correctIndex": 1,
+    "gloss": "What is half of half a dozen? — 3: a dozen is 12, half a dozen is 6, half of that is 3."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken komponist skrev sin niende symfoni, selv om han var næsten helt døv?",
+    "options": ["Beethoven", "Mozart", "Bach", "Schubert"],
+    "correctIndex": 0,
+    "gloss": "Which composer wrote his ninth symphony although he was almost completely deaf? — Beethoven (Ninth Symphony, 1824)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem skabte detektiven Sherlock Holmes?",
+    "options": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "Charles Dickens"],
+    "correctIndex": 1,
+    "gloss": "Who created the detective Sherlock Holmes? — Arthur Conan Doyle."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Frihedsgudinden i New Yorks havn blev i 1886 en gave til USA. Fra hvilket land?",
+    "options": ["Storbritannien", "Italien", "Frankrig", "Holland"],
+    "correctIndex": 2,
+    "gloss": "The Statue of Liberty in New York harbour became a gift to the USA in 1886. From which country? — France."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ifølge sagnet faldt Dannebrog ned fra himlen under et slag i 1219. I hvilket land foregik slaget?",
+    "options": ["Finland", "Letland", "Litauen", "Estland"],
+    "correctIndex": 3,
+    "gloss": "According to the legend Dannebrog fell from the sky during a battle in 1219. In which country was it fought? — Estonia (Lyndanisse, near present-day Tallinn)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Carlsberg blev grundlagt i 1847 af J.C. Jacobsen. Hvem er bryggeriet opkaldt efter?",
+    "options": ["Grundlæggerens søn", "Grundlæggeren selv", "Grundlæggerens far", "En dansk konge"],
+    "correctIndex": 0,
+    "gloss": "Carlsberg was founded in 1847 by J.C. Jacobsen. Whom is the brewery named after? — The founder's son Carl (plus 'berg', the hill it stands on)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken af Karen Blixens bøger ligger til grund for filmen »Mit Afrika« med Meryl Streep og Robert Redford?",
+    "options": ["Syv fantastiske fortællinger", "Babettes gæstebud", "Vinter-Eventyr", "Den afrikanske farm"],
+    "correctIndex": 3,
+    "gloss": "Which of Karen Blixen's books underlies the film 'Out of Africa' (Danish title 'Mit Afrika')? — 'Den afrikanske farm' (Out of Africa). Babette's Feast is a different film."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken af disse forlystelsesparker regnes for verdens ældste, der stadig er i drift?",
+    "options": ["Tivoli", "Bakken", "Liseberg", "Prater"],
+    "correctIndex": 1,
+    "gloss": "Which of these amusement parks counts as the world's oldest still in operation? — Bakken (Dyrehavsbakken, from 1583), not Tivoli (1843)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Klokken er 12 middag i København. Hvad er klokken da normalt i New York?",
+    "options": ["03.00", "06.00", "15.00", "18.00"],
+    "correctIndex": 1,
+    "gloss": "It is noon in Copenhagen. What time is it normally in New York? — 06.00: New York is six hours behind (03.00 would be Los Angeles)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvilken planet har den højeste gennemsnitstemperatur i hele solsystemet?",
+    "options": ["Venus", "Merkur", "Mars", "Jupiter"],
+    "correctIndex": 0,
+    "gloss": "Which planet has the highest average temperature in the whole solar system? — Venus: its thick CO2 atmosphere traps heat, so it is hotter than Mercury, which is closer to the Sun."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En bakterieklump fordobler sig hvert minut og fylder en flaske på præcis 60 minutter. Hvornår er flasken halvfuld?",
+    "options": ["30 minutter", "45 minutter", "58 minutter", "59 minutter"],
+    "correctIndex": 3,
+    "gloss": "A bacteria colony doubles every minute and fills a bottle in exactly 60 minutes. When is the bottle half full? — 59 minutes: one more doubling fills it."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket af disse dyr er et pattedyr, men lægger alligevel æg?",
+    "options": ["Flagermus", "Pindsvin", "Næbdyr", "Odder"],
+    "correctIndex": 2,
+    "gloss": "Which of these animals is a mammal that nevertheless lays eggs? — The platypus (næbdyr)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Picasso og Braque grundlagde i begyndelsen af 1900-tallet en kunstretning, hvor motivet brydes op i geometriske flader. Hvad hedder den?",
+    "options": ["Kubisme", "Impressionisme", "Surrealisme", "Fauvisme"],
+    "correctIndex": 0,
+    "gloss": "Picasso and Braque founded an art movement in the early 1900s in which the subject is broken into geometric planes. What is it called? — Cubism."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Man kaster to almindelige terninger og lægger øjnene sammen. Hvilken sum er mest sandsynlig?",
+    "options": ["6", "7", "9", "12"],
+    "correctIndex": 1,
+    "gloss": "Two ordinary dice are thrown and the pips added. Which sum is most likely? — 7: it can be made 6 ways out of 36 (6 only 5 ways, 12 only one)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ved retskrivningsreformen i 1948 fik et bogstav officiel plads i det danske alfabet og afløste skrivemåden »aa«. Hvilket?",
+    "options": ["Å", "Æ", "Ø", "Z"],
+    "correctIndex": 0,
+    "gloss": "The 1948 spelling reform gave one letter an official place in the Danish alphabet, replacing the spelling 'aa'. Which? — Å."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Odin har to ravne, der hver dag flyver ud i verden og fortæller ham nyt. De hedder Hugin og Munin. Hvad betyder navnene?",
+    "options": ["Krig og fred", "Dag og nat", "Tanke og erindring", "Syn og hørelse"],
+    "correctIndex": 2,
+    "gloss": "Odin has two ravens, Hugin and Munin, who fly out each day and bring him news. What do the names mean? — Thought and memory."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Københavns Universitet blev grundlagt i året MCDLXXIX af en dansk konge. Hvilken?",
+    "options": ["Christian 1.", "Christian 4.", "Frederik 2.", "Valdemar Atterdag"],
+    "correctIndex": 0,
+    "gloss": "The University of Copenhagen was founded in the year MCDLXXIX by a Danish king. Which? — Christian 1.: MCDLXXIX = 1479, within his reign (1448–1481)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Fastelavnssøndag falder syv uger før påskedag. Hvis påskedag falder den 20. april, hvilken dato er det så fastelavn?",
+    "options": ["23. februar", "2. marts", "9. marts", "16. marts"],
+    "correctIndex": 1,
+    "gloss": "Fastelavn Sunday falls seven weeks before Easter. If Easter is on 20 April, what date is Fastelavn? — 2 March (49 days earlier)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Det kemiske symbol Pb stammer fra det latinske ord plumbum. Hvilket grundstof er det?",
+    "options": ["Fosfor", "Platin", "Kalium", "Bly"],
+    "correctIndex": 3,
+    "gloss": "The chemical symbol Pb comes from the Latin word plumbum. Which element? — Lead (bly); 'plumbum' lives on in 'plumbing'. Phosphorus and platinum are the P-traps."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Et glas er fyldt helt op til randen, og en isterning flyder i vandet. Hvad sker der, når isterningen er smeltet?",
+    "options": [
+      "Vandet står stadig helt oppe ved randen",
+      "Vandet løber over randen",
+      "Vandstanden falder under randen",
+      "Det afhænger af isterningens størrelse"
+    ],
+    "correctIndex": 0,
+    "gloss": "A glass is filled to the brim and an ice cube floats in it. What happens when it melts? — Nothing: the floating ice displaces exactly its own weight of water, so the level stays the same."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem knækkede i 1822 koden til de egyptiske hieroglyffer ved hjælp af Rosettastenen?",
+    "options": ["Howard Carter", "Heinrich Schliemann", "Jean-François Champollion", "Auguste Mariette"],
+    "correctIndex": 2,
+    "gloss": "Who cracked the code of Egyptian hieroglyphs in 1822 with the help of the Rosetta Stone? — Jean-François Champollion."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket havdyr har tre hjerter og blåt blod?",
+    "options": ["Delfin", "Hammerhaj", "Havskildpadde", "Blæksprutte"],
+    "correctIndex": 3,
+    "gloss": "Which sea animal has three hearts and blue blood? — The octopus (blæksprutte)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem skrev romanen »Hundrede års ensomhed« om familien Buendía?",
+    "options": ["Jorge Luis Borges", "Mario Vargas Llosa", "Gabriel García Márquez", "Pablo Neruda"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the novel 'One Hundred Years of Solitude' about the Buendía family? — Gabriel García Márquez."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket af disse krydderier udvindes af frugten fra en orkidé?",
+    "options": ["Vanilje", "Safran", "Kardemomme", "Kanel"],
+    "correctIndex": 0,
+    "gloss": "Which of these spices is obtained from the fruit of an orchid? — Vanilla. Saffron is a crocus, cardamom a ginger relative, cinnamon is bark."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk forfatter fik Nobelprisen i litteratur i 1944?",
+    "options": ["Martin Andersen Nexø", "Henrik Pontoppidan", "Karen Blixen", "Johannes V. Jensen"],
+    "correctIndex": 3,
+    "gloss": "Which Danish author won the Nobel Prize in Literature in 1944? — Johannes V. Jensen. Pontoppidan won in 1917; Blixen and Nexø never did."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Grundstoffet hafnium er opkaldt efter en dansk by via byens latinske navn, Hafnia. Hvilken by?",
+    "options": ["Aarhus", "Odense", "København", "Aalborg"],
+    "correctIndex": 2,
+    "gloss": "The element hafnium is named after a Danish city via its Latin name, Hafnia. Which city? — Copenhagen: Hafnia comes from the Old Norse word for harbour, as in 'havn'."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk komponist skrev i 1916 sin fjerde symfoni, »Det uudslukkelige«?",
+    "options": ["Carl Nielsen", "Niels W. Gade", "Rued Langgaard", "Per Nørgård"],
+    "correctIndex": 0,
+    "gloss": "Which Danish composer wrote his Fourth Symphony, 'The Inextinguishable', in 1916? — Carl Nielsen."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansker opfandt i 1898 telegrafonen, den første magnetiske lydoptager?",
+    "options": ["Poul la Cour", "Peter L. Jensen", "Valdemar Poulsen", "Rasmus Malling-Hansen"],
+    "correctIndex": 2,
+    "gloss": "Which Dane invented the telegraphone, the first magnetic sound recorder, in 1898? — Valdemar Poulsen. La Cour (wind power), Jensen (loudspeaker) and Malling-Hansen (writing ball) are other Danish inventors."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "En »maximum break« i snooker er den perfekte serie: alle 15 røde bolde hver efterfulgt af den sorte, og derefter alle farverne fra gul til sort. Hvor mange point giver den?",
+    "options": ["105", "120", "135", "147"],
+    "correctIndex": 3,
+    "gloss": "A 'maximum break' in snooker is 15 reds each followed by the black, then all colours from yellow to black. How many points? — 147: 15 x (1 + 7) = 120, plus 2+3+4+5+6+7 = 27."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvilken af disse hovedstæder ligger længst mod nord?",
+    "options": ["Oslo", "Helsinki", "Stockholm", "Tallinn"],
+    "correctIndex": 1,
+    "gloss": "Which of these capitals lies farthest north? — Helsinki (about 60.2°N), just ahead of Oslo (59.9°N); Tallinn and Stockholm are further south."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken hollandsk maler skabte »Pigen med perleørering«?",
+    "options": ["Johannes Vermeer", "Rembrandt", "Frans Hals", "Jan Steen"],
+    "correctIndex": 0,
+    "gloss": "Which Dutch painter created 'Girl with a Pearl Earring'? — Johannes Vermeer."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "De ål, man fanger i danske åer og fjorde, begynder deres liv langt væk. I hvilket hav gyder de europæiske ål?",
+    "options": ["Nordsøen", "Østersøen", "Middelhavet", "Sargassohavet"],
+    "correctIndex": 3,
+    "gloss": "The eels caught in Danish streams and fjords begin life far away. In which sea do European eels spawn? — The Sargasso Sea."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvilket land har flest tidszoner, når man regner dets oversøiske områder med?",
+    "options": ["Rusland", "Frankrig", "USA", "Storbritannien"],
+    "correctIndex": 1,
+    "gloss": "Which country has the most time zones when its overseas territories are counted? — France (12, or 13 with Antarctica), ahead of Russia and the USA (11 each)."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken film regnes for den første spillefilm med synkroniserede sangnumre og tale?",
+    "options": ["Metropolis", "Moderne tider", "The Jazz Singer", "King Kong"],
+    "correctIndex": 2,
+    "gloss": "Which film counts as the first feature film with synchronised songs and speech? — The Jazz Singer (1927). Metropolis (1927) was silent."
+  }
+]

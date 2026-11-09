@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva har morgenstund i munn, ifølge det kjente ordtaket?",
+    "options": ["Sølv", "Gull", "Bronse", "Jern"],
+    "correctIndex": 1,
+    "gloss": "What does the morning hour have in its mouth, according to the well-known proverb? — Gold: «Morgenstund har gull i munn» (the early bird gets the worm)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvilket av disse ordene blir det samme ordet om du leser det baklengs?",
+    "options": ["Radio", "Motor", "Radar", "Robot"],
+    "correctIndex": 2,
+    "gloss": "Which of these words is the same word read backwards? — Radar: a palindrome; radio, motor and robot reversed are nonsense."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dato er Norges nasjonaldag, med barnetog, bunad og flagg i hver hånd?",
+    "options": ["17. mai", "1. mai", "24. juni", "8. mai"],
+    "correctIndex": 0,
+    "gloss": "Which date is Norway's national day, with children's parades, bunad and flags? — 17 May, the anniversary of the 1814 constitution."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva kalles en nyfødt ku?",
+    "options": ["Føll", "Lam", "Kje", "Kalv"],
+    "correctIndex": 3,
+    "gloss": "What is a newborn cow called? — A calf (kalv); foal is a horse, lamb a sheep, kid a goat."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "To hunder og tre kråker møtes i skogen. Hvor mange bein har de til sammen?",
+    "options": ["10", "12", "14", "16"],
+    "correctIndex": 2,
+    "gloss": "Two dogs and three crows meet in the forest. How many legs in total? — 14: dogs 2×4 = 8, crows 3×2 = 6."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Holmenkollbakken i Oslo er en bakke i hvilken vintersport?",
+    "options": ["Alpint", "Skihopp", "Skeleton", "Snowboard"],
+    "correctIndex": 1,
+    "gloss": "The Holmenkollen hill in Oslo is a hill for which winter sport? — Ski jumping."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket land ligner en støvel på kartet?",
+    "options": ["Italia", "Hellas", "Portugal", "Spania"],
+    "correctIndex": 0,
+    "gloss": "Which country looks like a boot on the map? — Italy."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Du kjøper en kanelbolle til 32 kroner og betaler med en 50-lapp. Hvor mye får du tilbake?",
+    "options": ["12 kroner", "18 kroner", "22 kroner", "28 kroner"],
+    "correctIndex": 1,
+    "gloss": "You buy a cinnamon bun for 32 kroner and pay with a 50 note. How much change? — 18 kroner (50 − 32)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk maler står bak «Skrik», et av verdens mest gjenkjennelige bilder?",
+    "options": ["Harald Sohlberg", "Christian Krohg", "Edvard Munch", "Theodor Kittelsen"],
+    "correctIndex": 2,
+    "gloss": "Which Norwegian painter made «The Scream»? — Edvard Munch; the others are real Norwegian painters/illustrators."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken Disney-film handler om søstrene Anna og Elsa og snømannen Olaf?",
+    "options": ["Rapunzel", "Vaiana", "Mulan", "Frost"],
+    "correctIndex": 3,
+    "gloss": "Which Disney film is about sisters Anna and Elsa and the snowman Olaf? — Frozen (Norwegian title «Frost»)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken av disse norske byene ligger lengst nord?",
+    "options": ["Bergen", "Trondheim", "Bodø", "Tromsø"],
+    "correctIndex": 3,
+    "gloss": "Which of these Norwegian cities lies furthest north? — Tromsø (about 69.6°N); Bodø is about 67.3°N, Trondheim 63.4°N, Bergen 60.4°N."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Planter bruker sollys til å lage sukker av vann og en gass fra lufta. Hvilken gass?",
+    "options": ["Karbondioksid", "Nitrogen", "Metan", "Argon"],
+    "correctIndex": 0,
+    "gloss": "Plants use sunlight to make sugar from water and a gas from the air. Which gas? — Carbon dioxide; nitrogen is most of the air but plants don't use it this way."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk komponist skrev «I dovregubbens hall» til skuespillet «Peer Gynt»?",
+    "options": ["Ole Bull", "Edvard Grieg", "Johan Halvorsen", "Christian Sinding"],
+    "correctIndex": 1,
+    "gloss": "Which Norwegian composer wrote «In the Hall of the Mountain King» for the play Peer Gynt? — Edvard Grieg; the others are real Norwegian musicians/composers."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket vesen fra gresk mytologi hadde slanger i stedet for hår og gjorde alle som så henne i øynene til stein?",
+    "options": ["Sfinksen", "Harpyen", "Medusa", "Sirenen"],
+    "correctIndex": 2,
+    "gloss": "Which creature from Greek myth had snakes for hair and turned anyone who met her gaze to stone? — Medusa; the others are other female monsters of Greek myth."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvilket ord danner tre nye ord når det settes foran «ball», «kle» og «tak»?",
+    "options": ["Fot", "Hode", "Arm", "Hånd"],
+    "correctIndex": 3,
+    "gloss": "Which word forms three new words in front of «ball», «kle» and «tak»? — Hånd: håndball, håndkle (towel), håndtak (handle). Fotball works, but fotkle and fottak don't."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket dataspill, opprinnelig laget av svenske Mojang, går ut på å bygge og utforske verdener av blokker?",
+    "options": ["Minecraft", "Roblox", "Terraria", "Fortnite"],
+    "correctIndex": 0,
+    "gloss": "Which game, originally made by Sweden's Mojang, is about building and exploring worlds of blocks? — Minecraft."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En vanlig terning har tallene 1 til 6, og de to tallene på motsatte sider gir alltid samme sum. Hvilket tall er på motsatt side av 2?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "gloss": "A normal die has 1 to 6 and opposite faces always give the same sum. What is opposite 2? — 5: all faces total 21, three pairs, so each pair makes 7."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hvilket tall kommer neste i rekken 2, 3, 5, 8, 12, …?",
+    "options": ["16", "17", "18", "19"],
+    "correctIndex": 1,
+    "gloss": "Which number comes next in 2, 3, 5, 8, 12, …? — 17: the gaps grow by one each time (+1, +2, +3, +4, +5)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk dramatiker skrev «Et dukkehjem», der Nora til slutt forlater mann og barn?",
+    "options": ["Bjørnstjerne Bjørnson", "Knut Hamsun", "Jonas Lie", "Henrik Ibsen"],
+    "correctIndex": 3,
+    "gloss": "Which Norwegian playwright wrote «A Doll's House», where Nora finally leaves her husband and children? — Henrik Ibsen (1879)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hver pannekake må stekes to minutter på hver side, og stekepannen rommer to av gangen. Hvor lang tid tar det å steke seks pannekaker?",
+    "options": ["6 minutter", "8 minutter", "12 minutter", "24 minutter"],
+    "correctIndex": 2,
+    "gloss": "Each pancake needs two minutes per side and the pan holds two. How long for six? — 12 minutes: three batches of 4 minutes (both sides). The trap is forgetting the second side (6)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket biprodukt fra ostelaging kokes inn til brunost, slik at den får brun farge og søt karamellsmak?",
+    "options": ["Myse", "Kjernemelk", "Rømme", "Fløte"],
+    "correctIndex": 0,
+    "gloss": "Which by-product of cheesemaking is boiled down into brunost (brown cheese)? — Whey (myse); its milk sugar caramelises. Buttermilk comes from butter, not cheese."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Programmeringsspråket Python har ikke fått navnet sitt etter slangen. Hva er det oppkalt etter?",
+    "options": ["En gresk heltefigur", "En britisk humorserie", "En japansk tegneserie", "Et amerikansk rockeband"],
+    "correctIndex": 1,
+    "gloss": "The Python language is not named after the snake. After what? — The British comedy show Monty Python's Flying Circus, as its creator Guido van Rossum said."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "En isbit flyter i et glass vann. Hva skjer med vannstanden når isbiten har smeltet helt?",
+    "options": ["Den stiger litt", "Den synker litt", "Den forblir uendret", "Det avhenger av hvor kald isen var"],
+    "correctIndex": 2,
+    "gloss": "An ice cube floats in a glass of water. What happens to the water level once it has melted? — Unchanged: a floating cube displaces exactly its own weight of water, which is the volume it melts into."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem er den eneste som har fått Nobelprisen i både fysikk og kjemi?",
+    "options": ["Albert Einstein", "Linus Pauling", "Niels Bohr", "Marie Curie"],
+    "correctIndex": 3,
+    "gloss": "Who is the only person to win a Nobel Prize in both physics and chemistry? — Marie Curie (1903 and 1911). Pauling won chemistry and peace."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I hvilket land ligger Afrikas høyeste fjell, Kilimanjaro?",
+    "options": ["Tanzania", "Kenya", "Uganda", "Etiopia"],
+    "correctIndex": 0,
+    "gloss": "In which country is Africa's highest mountain, Kilimanjaro? — Tanzania; Kenya is the tempting neighbour."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hva er summen av de fire vinklene i en vanlig firkant?",
+    "options": ["180°", "270°", "360°", "540°"],
+    "correctIndex": 2,
+    "gloss": "What is the sum of the four angles of an ordinary quadrilateral? — 360°: a diagonal splits it into two triangles of 180° each."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk ungdomsserie fra NRK, om elever ved Hartvig Nissen skole i Oslo, ble så populær at den fikk versjoner i andre land?",
+    "options": ["Okkupert", "Skam", "Lilyhammer", "Himmelblå"],
+    "correctIndex": 1,
+    "gloss": "Which NRK youth series about pupils at Hartvig Nissen school in Oslo was so popular it got foreign versions? — Skam (2015–2017); the others are other Norwegian series."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Midt i juni er det midnattssol i Tromsø. Hva ser man samtidig på Sydpolen?",
+    "options": ["Midnattssol også", "Mørketid døgnet rundt", "Vanlig dag og natt", "Bare noen få timer dagslys"],
+    "correctIndex": 1,
+    "gloss": "In mid-June Tromsø has the midnight sun. What is seen at the South Pole at the same time? — Polar night: when the north tilts to the Sun, the south tilts away, so it is winter and dark there."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hvilket av disse tallene er et primtall?",
+    "options": ["51", "87", "91", "97"],
+    "correctIndex": 3,
+    "gloss": "Which of these numbers is prime? — 97. The others are traps: 51 = 3×17, 87 = 3×29, 91 = 7×13."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "I en cup med utslagskamper deltar 16 lag. Taperen går ut, og det er ingen bronsefinale. Hvor mange kamper spilles til sammen før vinneren er kåret?",
+    "options": ["15", "8", "16", "31"],
+    "correctIndex": 0,
+    "gloss": "A knockout cup has 16 teams, the loser goes out, no bronze final. How many matches in total? — 15: every match eliminates exactly one team and 15 must go."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket av disse idrettsordene har verden lånt fra norske dialekter, der det betyr «skrått spor nedover en bakke»?",
+    "options": ["Kajakk", "Rodeo", "Slalåm", "Maraton"],
+    "correctIndex": 2,
+    "gloss": "Which of these sports words did the world borrow from Norwegian dialects, where it means «a sloping track down a hill»? — Slalåm (sla = sloping, låm = track). Kayak is Inuit, rodeo Spanish, marathon Greek."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken av disse europeiske hovedstedene ligger lengst vest?",
+    "options": ["Lisboa", "Dublin", "London", "Reykjavik"],
+    "correctIndex": 3,
+    "gloss": "Which of these European capitals is furthest west? — Reykjavik (about 22°W); Lisbon (9°W) is the tempting answer."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvor mange ulike verdier kan en enkelt byte, som bare består av nuller og enere, ha?",
+    "options": ["64", "255", "256", "512"],
+    "correctIndex": 2,
+    "gloss": "How many different values can a single byte, made only of zeros and ones, hold? — 256: a byte is 8 bits and 2^8 = 256 (0 to 255)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva skiller hardingfela fra en vanlig fiolin?",
+    "options": ["Understrenger som klinger med", "Den spilles med fingrene, uten bue", "Den har bare to strenger i alt", "Den har bånd på halsen som en gitar"],
+    "correctIndex": 0,
+    "gloss": "What sets the Hardanger fiddle apart from an ordinary violin? — Sympathetic strings under the fingerboard that ring along. It is played with a bow and has no frets."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvem av Norges fire nobelprisvinnere i litteratur skrev romantrilogien «Kristin Lavransdatter» om middelalderen?",
+    "options": ["Knut Hamsun", "Sigrid Undset", "Bjørnstjerne Bjørnson", "Jon Fosse"],
+    "correctIndex": 1,
+    "gloss": "Which of Norway's four Nobel laureates in literature wrote the medieval trilogy «Kristin Lavransdatter»? — Sigrid Undset (Nobel 1928); the others are Bjørnson 1903, Hamsun 1920, Fosse 2023."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva kalles torsk som henges til vinterluft på hjeller i Lofoten, en vare som i århundrer er solgt til Italia?",
+    "options": ["Klippfisk", "Rakfisk", "Lutefisk", "Tørrfisk"],
+    "correctIndex": 3,
+    "gloss": "What is cod called that is hung on racks in the winter air in Lofoten and has been sold to Italy for centuries? — Stockfish (tørrfisk); klippfisk is salted, rakfisk fermented, lutefisk soaked in lye."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvilket tall har ikke noe eget tegn i romertallene?",
+    "options": ["Femti", "Null", "Tusen", "Hundre"],
+    "correctIndex": 1,
+    "gloss": "Which number has no symbol of its own in Roman numerals? — Zero (null); the symbols are I, V, X, L (50), C (100), D, M (1000)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Om vinteren fryser innsjøer fra toppen og ned, slik at fisken overlever i bunnen. Ved hvilken temperatur er vann tyngst?",
+    "options": ["0 °C", "2 °C", "4 °C", "10 °C"],
+    "correctIndex": 2,
+    "gloss": "Lakes freeze from the top, so fish survive at the bottom. At what temperature is water densest? — 4 °C: the densest water sinks to the bottom, colder water floats and freezes."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Jordaksen heller omtrent 23,5 grader. På hvilken breddegrad ligger da den nordlige polarsirkelen?",
+    "options": ["66,5° N", "23,5° N", "45° N", "80° N"],
+    "correctIndex": 0,
+    "gloss": "The Earth's axis is tilted about 23.5°. At which latitude is the Arctic Circle? — 66.5°N, which is 90° minus the tilt."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En kritikers spottende omtale av et Monet-maleri fra 1872 ga navn til en hel kunstretning. Hvilken?",
+    "options": ["Kubismen", "Ekspresjonismen", "Surrealismen", "Impresjonismen"],
+    "correctIndex": 3,
+    "gloss": "A critic's mocking review of a Monet painting from 1872 named a whole art movement. Which? — Impressionism, from «Impression, soleil levant»."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I rundt 300 år het hovedstaden Christiania eller Kristiania. Hvilket år fikk den navnet Oslo tilbake?",
+    "options": ["1905", "1914", "1925", "1945"],
+    "correctIndex": 2,
+    "gloss": "For about 300 years the capital was Christiania/Kristiania. In which year did it get the name Oslo back? — 1925 (1 January)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvem komponerte melodien til nasjonalsangen «Ja, vi elsker dette landet»?",
+    "options": ["Rikard Nordraak", "Edvard Grieg", "Halfdan Kjerulf", "Johan Svendsen"],
+    "correctIndex": 0,
+    "gloss": "Who composed the melody of the national anthem «Ja, vi elsker dette landet»? — Rikard Nordraak (Bjørnson wrote the words); Grieg was his friend."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken by er hovedstad i Myanmar?",
+    "options": ["Yangon", "Mandalay", "Bago", "Naypyidaw"],
+    "correctIndex": 3,
+    "gloss": "Which city is the capital of Myanmar? — Naypyidaw (capital since 2005–2006); Yangon is the largest city and the usual guess."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken franskmann klarte i 1822 å tyde egyptiske hieroglyfer ved hjelp av Rosettasteinen?",
+    "options": ["Auguste Mariette", "Jean-François Champollion", "Napoleon Bonaparte", "Howard Carter"],
+    "correctIndex": 1,
+    "gloss": "Which Frenchman deciphered Egyptian hieroglyphs in 1822 with the Rosetta Stone? — Champollion; Napoleon's expedition found the stone, Mariette was a later French Egyptologist, Carter British."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket dyr er hvalenes nærmeste nålevende slektning?",
+    "options": ["Sel", "Elefant", "Flodhest", "Isbjørn"],
+    "correctIndex": 2,
+    "gloss": "Which animal is the closest living relative of whales? — The hippopotamus."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sand er silisiumdioksid, og de fleste bergarter er bygd opp på lignende vis. Hvilket grunnstoff er det mest av i jordskorpen?",
+    "options": ["Silisium", "Oksygen", "Aluminium", "Jern"],
+    "correctIndex": 1,
+    "gloss": "Sand is silicon dioxide and most rocks are built similarly. Which element is the most abundant in the Earth's crust? — Oxygen (about 46% by mass), locked into silicates and oxides; silicon is second."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "På norsk kommer tallordene i denne rekkefølgen: million, milliard, billion, billiard, trillion. Hvor mange nuller har en trillion?",
+    "options": ["15", "18", "21", "24"],
+    "correctIndex": 1,
+    "gloss": "In Norwegian the number words run million, milliard, billion, billiard, trillion. How many zeros in a trillion? — 18: million has 6 and each step is 1000 times larger (Norwegian uses the long scale)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvor mange år gikk det fra nyttårsdag 5 f.Kr. til nyttårsdag 5 e.Kr.?",
+    "options": ["9", "8", "10", "11"],
+    "correctIndex": 0,
+    "gloss": "How many years passed from New Year's Day 5 BC to New Year's Day 5 AD? — 9: there is no year 0, so 5 BC to 1 BC is five years and 1 AD to 4 AD four more."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken nordmann fikk Nobels fredspris i 1922 for sitt arbeid for flyktninger, og ga navn til et internasjonalt pass for statsløse?",
+    "options": ["Roald Amundsen", "Thor Heyerdahl", "Otto Sverdrup", "Fridtjof Nansen"],
+    "correctIndex": 3,
+    "gloss": "Which Norwegian won the 1922 Nobel Peace Prize for his work for refugees and gave his name to a passport for stateless people? — Fridtjof Nansen (the Nansen passport)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken japansk hoffdame skrev rundt år 1000 «Fortellingen om Genji», ofte regnet som verdens første roman?",
+    "options": ["Sei Shonagon", "Izumi Shikibu", "Murasaki Shikibu", "Ono no Komachi"],
+    "correctIndex": 2,
+    "gloss": "Which Japanese court lady wrote «The Tale of Genji» around the year 1000, often called the world's first novel? — Murasaki Shikibu; the others are other Heian-era women writers/poets."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mihin kapsahtaa sananlaskun mukaan se, joka kuuseen kurkottaa?",
+    "options": ["Koivuun", "Mäntyyn", "Katajaan", "Pihlajaan"],
+    "correctIndex": 2,
+    "gloss": "According to the proverb, where does the one who reaches for the spruce end up? — The juniper: «Joka kuuseen kurkottaa, se katajaan kapsahtaa» (aim too high and you fall into the juniper)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minä päivänä vietetään Suomen itsenäisyyspäivää?",
+    "options": ["6. tammikuuta", "6. joulukuuta", "1. toukokuuta", "24. joulukuuta"],
+    "correctIndex": 1,
+    "gloss": "On which day is Finland's Independence Day celebrated? — 6 December (independence declared 1917). 6 January is Epiphany, 1 May is Vappu, 24 December is Christmas Eve."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka kirjoitti tarinat Muumipeikosta ja Muumilaaksosta?",
+    "options": ["Astrid Lindgren", "Selma Lagerlöf", "Zacharias Topelius", "Tove Jansson"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the stories of Moomintroll and Moomin Valley? — Tove Jansson. The wrong options are other well-known Nordic writers (Topelius is Finnish, Lindgren and Lagerlöf Swedish)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Suomalainen kertoo kellon olevan ”viisi vaille kaksitoista”. Mikä kellonaika on kyseessä?",
+    "options": ["11.55", "12.05", "12.55", "11.05"],
+    "correctIndex": 0,
+    "gloss": "A Finn says it is 'five to twelve'. What time is it? — 11:55. 'Vaille' means 'short of', so five minutes before twelve; 12:55 and 12:05 are the traps for people who read it the other way."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kasvit vapauttavat yhteyttäessään kaasua, jota ihminen tarvitsee hengittääkseen. Mikä kaasu se on?",
+    "options": ["Hiilidioksidi", "Happi", "Typpi", "Vety"],
+    "correctIndex": 1,
+    "gloss": "Plants release a gas during photosynthesis that people need to breathe. Which? — Oxygen. Carbon dioxide is the one plants take in."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kartalla tämä Etelä-Euroopan maa muistuttaa saapasta. Mikä maa on kyseessä?",
+    "options": ["Kreikka", "Espanja", "Italia", "Portugali"],
+    "correctIndex": 2,
+    "gloss": "On the map this southern European country looks like a boot. Which country? — Italy."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tusina on kaksitoista. Montako on puolitoista tusinaa?",
+    "options": ["15", "16", "18", "24"],
+    "correctIndex": 2,
+    "gloss": "A dozen is twelve. How many is one and a half dozen? — 18 (12 + 6). 24 is two dozen, 15 and 16 are the slips of the rushed."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Suomessa vietetään juhannusta kesäkuun lopulla. Mikä vuodenaika Australiassa silloin on?",
+    "options": ["Kesä", "Kevät", "Syksy", "Talvi"],
+    "correctIndex": 3,
+    "gloss": "Finland celebrates midsummer in late June. What season is it in Australia then? — Winter: the southern hemisphere's seasons are the reverse of ours."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä on suurin nisäkäs, joka maapallolla nykyisin elää?",
+    "options": ["Sinivalas", "Afrikannorsu", "Kaskelotti", "Valashai"],
+    "correctIndex": 0,
+    "gloss": "What is the largest mammal alive today? — The blue whale. The whale shark is the largest fish, not a mammal; the sperm whale and African elephant are smaller."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Maalari sekoittaa palettiinsa keltaista ja sinistä maalia. Mikä väri syntyy?",
+    "options": ["Oranssi", "Vihreä", "Violetti", "Ruskea"],
+    "correctIndex": 1,
+    "gloss": "A painter mixes yellow and blue paint on the palette. Which colour results? — Green."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka näistä pohjoismaisista säveltäjistä sävelsi Finlandian?",
+    "options": ["Edvard Grieg", "Carl Nielsen", "Jean Sibelius", "Wilhelm Stenhammar"],
+    "correctIndex": 2,
+    "gloss": "Which of these Nordic composers wrote Finlandia? — Jean Sibelius. Grieg is Norwegian, Nielsen Danish, Stenhammar Swedish."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä on Aleksis Kiven romaani, jonka päähenkilöt ovat Jukolan talon veljekset?",
+    "options": ["Nummisuutarit", "Seitsemän veljestä", "Kihlaus", "Kullervo"],
+    "correctIndex": 1,
+    "gloss": "Which Aleksis Kivi novel is about the brothers of the Jukola farm? — Seven Brothers (1870). The others are his plays (Nummisuutarit, Kihlaus, Kullervo)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Suomen kielessä ”jäällä” kertoo, missä ollaan, ja ”jäältä”, mistä tullaan. Mikä sana kertoo, minne mennään?",
+    "options": ["Jäässä", "Jään", "Jäätä", "Jäälle"],
+    "correctIndex": 3,
+    "gloss": "In Finnish 'jäällä' says where you are and 'jäältä' where you come from. Which word says where you go? — 'jäälle' (onto the ice). 'Jäässä' means 'frozen / in the ice'; 'jään' and 'jäätä' are other case forms."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä kaupunki oli Suomen pääkaupunki, ennen kuin se vuonna 1812 vaihtui Helsingiksi?",
+    "options": ["Porvoo", "Oulu", "Turku", "Hämeenlinna"],
+    "correctIndex": 2,
+    "gloss": "Which city was Finland's capital before Helsinki took over in 1812? — Turku."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mikä näistä sanoista on palindromi eli se luetaan samoin alusta loppuun ja lopusta alkuun?",
+    "options": ["Saippuakauppias", "Kalakukko", "Karjalanpiirakka", "Ruisleipä"],
+    "correctIndex": 0,
+    "gloss": "Which of these words is a palindrome? — 'Saippuakauppias' (soap seller), s-a-i-p-p-u-a-k-a-u-p-p-i-a-s reads the same both ways; the others are Finnish foods that don't."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä vitamiinin iho valmistaa auringonvalon vaikutuksesta?",
+    "options": ["D-vitamiini", "A-vitamiini", "C-vitamiini", "K-vitamiini"],
+    "correctIndex": 0,
+    "gloss": "Which vitamin does skin make under sunlight? — Vitamin D (relevant in dark Finnish winters)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mikä näistä Euroopan maista on sisämaavaltio, jolla ei ole lainkaan merirannikkoa?",
+    "options": ["Portugali", "Belgia", "Kroatia", "Sveitsi"],
+    "correctIndex": 3,
+    "gloss": "Which of these European countries is landlocked? — Switzerland. Portugal, Belgium and Croatia all have a coast."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä antiikin kaupungin Vesuvius hautasi tuhkaan vuonna 79?",
+    "options": ["Pompeji", "Rooma", "Syrakusa", "Karthago"],
+    "correctIndex": 0,
+    "gloss": "Which ancient city did Vesuvius bury in ash in AD 79? — Pompeii."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Suomessa kello on 18.00. Mikä kellonaika on samalla hetkellä Lontoossa?",
+    "options": ["15.00", "16.00", "17.00", "20.00"],
+    "correctIndex": 1,
+    "gloss": "It is 18:00 in Finland. What time is it in London at that moment? — 16:00: Finland is two hours ahead of the UK all year, since both change clocks on the same dates. 17:00 would be Berlin or Stockholm."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä säveltäjän yhdeksäs sinfonia kantaesitettiin vuonna 1824, vaikka tekijä oli jo lähes täysin kuuro?",
+    "options": ["Wolfgang Amadeus Mozart", "Joseph Haydn", "Ludwig van Beethoven", "Johann Sebastian Bach"],
+    "correctIndex": 2,
+    "gloss": "Whose Ninth Symphony premiered in 1824 although the composer was almost completely deaf? — Beethoven."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuinka monta olympiakultamitalia juoksijalegenda Paavo Nurmi voitti urallaan?",
+    "options": ["5", "7", "9", "12"],
+    "correctIndex": 2,
+    "gloss": "How many Olympic gold medals did running legend Paavo Nurmi win? — 9 (plus 3 silvers, 12 medals in all, which is the trap)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka sävelsi Maamme-laulun, jonka sanat on kirjoittanut Johan Ludvig Runeberg?",
+    "options": ["Jean Sibelius", "Oskar Merikanto", "Armas Järnefelt", "Fredrik Pacius"],
+    "correctIndex": 3,
+    "gloss": "Who composed the song Maamme, with words by J. L. Runeberg? — Fredrik Pacius (German-born, in Finland). Sibelius is the tempting guess."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nokia tunnetaan matkapuhelimista, mutta yhtiö aloitti 1860-luvulla tehtaana, joka valmisti mitä?",
+    "options": ["Puumassaa", "Kumisaappaita", "Kaapeleita", "Rautalankaa"],
+    "correctIndex": 0,
+    "gloss": "Nokia is known for mobile phones, but in the 1860s it began as a factory making what? — Wood pulp (a pulp and paper mill). Rubber boots and cables came from companies that merged into Nokia later, in 1967."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ensimmäinen suomenkielinen kirja, Abckiria, ilmestyi 1540-luvulla. Kuka sen laati ja tunnetaan siksi suomen kirjakielen isänä?",
+    "options": ["Elias Lönnrot", "Mikael Agricola", "Aleksis Kivi", "Jaakko Juteini"],
+    "correctIndex": 1,
+    "gloss": "The first Finnish-language book, Abckiria, appeared in the 1540s. Who wrote it and is called the father of written Finnish? — Mikael Agricola."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Helsinki sijaitsee noin 60. leveyspiirin kohdalla. Mikä näistä kaupungeista on suunnilleen samalla leveydellä?",
+    "options": ["Berliini", "Lontoo", "Oslo", "Pariisi"],
+    "correctIndex": 2,
+    "gloss": "Helsinki is near the 60th parallel. Which of these cities is at about the same latitude? — Oslo (about 59.9 N). Berlin is about 52.5, London 51.5, Paris 49."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mikä näistä luvuista on alkuluku eli jaollinen vain yhdellä ja itsellään?",
+    "options": ["51", "57", "87", "89"],
+    "correctIndex": 3,
+    "gloss": "Which of these numbers is prime? — 89. 51 = 3 x 17, 57 = 3 x 19 and 87 = 3 x 29 (digit sums 6, 12, 15 are all divisible by 3)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Jos Aurinko yhtäkkiä sammuisi, kuinka kauan kestäisi, ennen kuin Maasta nähtäisiin sen sammuneen?",
+    "options": ["Se nähtäisiin heti", "Noin kahdeksan minuutin kuluttua", "Noin kahdeksan tunnin kuluttua", "Noin vuorokauden kuluttua"],
+    "correctIndex": 1,
+    "gloss": "If the Sun suddenly went out, how long before we would see it from Earth? — About eight minutes, the time light takes to travel from the Sun to Earth."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Elokuvan lopputeksteissä tekijänoikeusvuodeksi on merkitty MCMLXXXVIII. Mikä vuosi se on?",
+    "options": ["1888", "1978", "1988", "1998"],
+    "correctIndex": 2,
+    "gloss": "A film's credits give the copyright year as MCMLXXXVIII. Which year? — 1988: M (1000) + CM (900) + LXXX (80) + VIII (8)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Julius Caesarin ottopoika Octavianus sai vuonna 27 eKr. nimen, jolla hänet muistetaan Rooman ensimmäisenä keisarina. Mikä nimi se oli?",
+    "options": ["Augustus", "Nero", "Tiberius", "Claudius"],
+    "correctIndex": 0,
+    "gloss": "Julius Caesar's adopted son Octavian received a name in 27 BC under which he is remembered as Rome's first emperor. Which? — Augustus. The others were later emperors' names."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuka taiteilija maalasi Sikstuksen kappelin katon Vatikaanissa 1500-luvun alussa?",
+    "options": ["Rafael", "Leonardo da Vinci", "Botticelli", "Michelangelo"],
+    "correctIndex": 3,
+    "gloss": "Who painted the ceiling of the Sistine Chapel in the early 1500s? — Michelangelo (1508-1512)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lasse Virén voitti sekä 5000 että 10 000 metrin olympiakullan kahdesti peräkkäin. Missä kisoissa?",
+    "options": ["Tokiossa 1964 ja Méxicossa 1968", "Münchenissä 1972 ja Montrealissa 1976", "Montrealissa 1976 ja Moskovassa 1980", "Helsingissä 1952 ja Melbournessa 1956"],
+    "correctIndex": 1,
+    "gloss": "Lasse Viren won both the 5000 m and 10,000 m Olympic golds twice in a row. At which Games? — Munich 1972 and Montreal 1976."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka arkkitehti suunnitteli Helsingin päärautatieaseman, jonka sisäänkäyntiä vartioivat lyhtyjä kantavat kivipatsaat?",
+    "options": ["Eliel Saarinen", "Alvar Aalto", "Carl Ludvig Engel", "Lars Sonck"],
+    "correctIndex": 0,
+    "gloss": "Which architect designed Helsinki Central Station, whose entrance is guarded by stone figures holding lamps? — Eliel Saarinen. Engel designed the Senate Square, Aalto Finlandia Hall."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kalevalassa Väinämöinen valmistaa ensimmäisen kanteleen minkä kalan leuasta?",
+    "options": ["Lohi", "Ahven", "Kuha", "Hauki"],
+    "correctIndex": 3,
+    "gloss": "In the Kalevala, from the jawbone of which fish does Väinämöinen make the first kantele? — The pike."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Suomalaisista vain yksi on saanut kirjallisuuden Nobel-palkinnon, vuonna 1939. Kuka hän on?",
+    "options": ["Mika Waltari", "Väinö Linna", "Frans Eemil Sillanpää", "Eino Leino"],
+    "correctIndex": 2,
+    "gloss": "Only one Finn has won the Nobel Prize in Literature, in 1939. Who? — Frans Eemil Sillanpää."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hopean kemiallinen merkki Ag tulee latinan sanasta argentum. Minkä maan nimi on peräisin samasta sanasta?",
+    "options": ["Argentiina", "Armenia", "Algeria", "Angola"],
+    "correctIndex": 0,
+    "gloss": "Silver's symbol Ag comes from Latin 'argentum'. Which country's name comes from the same word? — Argentina ('land of silver', after the Río de la Plata)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ajanlaskussa ei ole vuotta nolla: vuotta 1 eKr. seuraa heti vuosi 1 jKr. Montako vuotta kuluu vuoden 5 eKr. alusta vuoden 5 jKr. alkuun?",
+    "options": ["8", "9", "10", "11"],
+    "correctIndex": 1,
+    "gloss": "The calendar has no year zero: 1 BC is followed directly by AD 1. How many years from the start of 5 BC to the start of AD 5? — 9 (5, 4, 3, 2, 1 BC and AD 1, 2, 3, 4). Most people answer 10."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Syvän järven pohjan vesi pysyy talvellakin nestemäisenä, koska puhdas vesi on tiheimmillään tietyssä lämpötilassa. Mikä se on?",
+    "options": ["0 °C", "+10 °C", "−4 °C", "+4 °C"],
+    "correctIndex": 3,
+    "gloss": "The bottom of a deep lake stays liquid in winter because pure water is densest at a certain temperature. Which? — About +4 °C; colder water (and ice) is lighter and stays above it."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuka japanilainen ohjaaja teki vuonna 1954 elokuvan Seitsemän samuraita?",
+    "options": ["Yasujirō Ozu", "Hayao Miyazaki", "Akira Kurosawa", "Kenji Mizoguchi"],
+    "correctIndex": 2,
+    "gloss": "Which Japanese director made Seven Samurai in 1954? — Akira Kurosawa. The others are also famous Japanese directors."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Afrikan korkein vuori Kilimanjaro nousee lähellä päiväntasaajaa, mutta sen huipulla on lunta. Missä maassa se sijaitsee?",
+    "options": ["Kenia", "Tansania", "Uganda", "Etiopia"],
+    "correctIndex": 1,
+    "gloss": "Africa's highest mountain, Kilimanjaro, rises near the equator yet has snow on top. In which country? — Tanzania (Kenya, just across the border, is the trap since it is seen from there)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Tietokoneissa värikoodit kirjoitetaan usein heksadesimaaliluvuilla. Mikä luku on FF kymmenjärjestelmässä?",
+    "options": ["155", "225", "255", "256"],
+    "correctIndex": 2,
+    "gloss": "Computers often write colour codes in hexadecimal. What is FF in decimal? — 255 (15 x 16 + 15). 256 is the number of values 0-255, a classic slip."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mika Waltarin romaani Sinuhe egyptiläinen sijoittuu aikaan, jolloin faarao yritti syrjäyttää vanhat jumalat ja palvotuttaa vain aurinkokiekko Atenia. Kuka hän oli?",
+    "options": ["Ramses II", "Hatshepsut", "Hufu", "Ekhnaton"],
+    "correctIndex": 3,
+    "gloss": "Waltari's The Egyptian is set in the time of the pharaoh who tried to replace the old gods with the worship of the sun disc Aten. Who? — Akhenaten (Finnish: Ekhnaton)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Suomen kielen biljoona ei tarkoita samaa kuin englannin billion. Montako nollaa on suomalaisessa biljoonassa?",
+    "options": ["9", "12", "15", "18"],
+    "correctIndex": 1,
+    "gloss": "The Finnish 'biljoona' is not the English 'billion'. How many zeros does it have? — 12 (10^12; the English billion is the Finnish 'miljardi', 9 zeros; 18 is 'triljoona')."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vanhin tunnettu itämerensuomalaisella kielellä kirjoitettu teksti löydettiin Novgorodista vuonna 1957. Mille materiaalille se on kirjoitettu?",
+    "options": ["Koivuntuohelle", "Pergamentille", "Savitaululle", "Vahatauluille"],
+    "correctIndex": 0,
+    "gloss": "The oldest known text in a Finnic language was found in Novgorod in 1957. What was it written on? — Birch bark (birch bark letter no. 292, 13th century)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Suomalainen A. I. Virtanen sai kemian Nobelin vuonna 1945. Mitä hänen kehittämällään AIV-menetelmällä säilytetään?",
+    "options": ["Maitoa", "Kalaa", "Viljaa", "Rehua"],
+    "correctIndex": 3,
+    "gloss": "The Finn A. I. Virtanen won the Chemistry Nobel in 1945. What does his AIV method preserve? — Fodder (AIV silage for cattle)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ruotsalainen Anders Celsius kehitti 1740-luvulla lämpötila-asteikon, joka oli nykyiseen verrattuna toisin päin. Mikä oli veden kiehumispisteen lukema hänen asteikollaan?",
+    "options": ["0", "32", "100", "−100"],
+    "correctIndex": 0,
+    "gloss": "Anders Celsius's 1740s scale was the reverse of today's. What reading did boiling water have on it? — 0 (freezing point was 100; it was flipped after his death)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Täysi auringonpimennys on mahdollinen, koska Kuu ja Aurinko näyttävät taivaalla lähes yhtä suurilta. Aurinko on halkaisijaltaan paljon suurempi. Kuinka monta kertaa kauempana se on Kuuta?",
+    "options": ["Noin 40 kertaa", "Noin 100 kertaa", "Noin 400 kertaa", "Noin 4000 kertaa"],
+    "correctIndex": 2,
+    "gloss": "A total eclipse works because Sun and Moon look about equally big. The Sun is far larger across; how many times farther away is it? — About 400 times (150 million km vs 384,000 km), matching its ~400 times larger diameter."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Maa kiertää Auringon vuodessa kerran. Montako kertaa se tänä aikana pyörähtää akselinsa ympäri kaukaisiin tähtiin nähden?",
+    "options": ["360", "364", "365", "366"],
+    "correctIndex": 3,
+    "gloss": "Earth orbits the Sun once a year. How many times does it turn on its axis relative to the distant stars in that time? — About 366: 365 sunrises plus one extra turn from going round the Sun."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuka espanjalainen hovimaalari maalasi Las Meninas -teoksen, jossa hän on kuvannut itsensäkin työskentelemässä?",
+    "options": ["Diego Velázquez", "Francisco Goya", "El Greco", "Bartolomé Murillo"],
+    "correctIndex": 0,
+    "gloss": "Which Spanish court painter made Las Meninas, showing himself at work in the picture? — Diego Velázquez."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Valaat polveutuvat maalla eläneistä sorkkaeläimistä. Mikä nykyisin elävä eläin on niiden lähin sukulainen?",
+    "options": ["Hylje", "Virtahepo", "Sika", "Jääkarhu"],
+    "correctIndex": 1,
+    "gloss": "Whales descend from land-living even-toed ungulates. Which living animal is their closest relative? — The hippopotamus. Seals and polar bears are carnivorans, only marine by lifestyle."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vanilja on yksi maailman kalleimmista mausteista, koska sen kukat pölytetään monin paikoin käsin. Mihin kasviheimoon vaniljakasvi kuuluu?",
+    "options": ["Orkideat", "Palkokasvit", "Ristikukkaiset", "Heinäkasvit"],
+    "correctIndex": 0,
+    "gloss": "Vanilla is one of the priciest spices because the flowers are often pollinated by hand. Which plant family is the vanilla plant in? — Orchids. The pod-like beans tempt people to say legumes."
+  }
+]
