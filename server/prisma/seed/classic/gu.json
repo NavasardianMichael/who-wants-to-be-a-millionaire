@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કહેવત પૂરી કરો: “ટીપે ટીપે … ભરાય.” ખાલી જગ્યામાં કયો શબ્દ આવે?",
+    "options": ["ઘડો", "સરોવર", "કૂવો", "દરિયો"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Drop by drop the ... fills.' — Lake (સરોવર): the standard Gujarati proverb «ટીપે ટીપે સરોવર ભરાય» about small efforts adding up."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "દુનિયામાં જંગલી એશિયાઈ સિંહો હવે ફક્ત ગુજરાતમાં જ બચ્યા છે. તેમનું મુખ્ય ઘર કયું જંગલ છે?",
+    "options": ["કાઝીરંગા", "સુંદરવન", "ગીર", "જિમ કૉર્બેટ"],
+    "correctIndex": 2,
+    "gloss": "Wild Asiatic lions survive only in Gujarat. Which forest is their main home? — Gir. Kaziranga (rhinos), the Sundarbans and Corbett (tigers) are famous parks elsewhere in India."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "મથુરા છોડ્યા પછી શ્રીકૃષ્ણે યાદવો સાથે કયું નગર વસાવીને ત્યાં રાજ કર્યું?",
+    "options": ["દ્વારકા", "ગોકુળ", "વૃંદાવન", "હસ્તિનાપુર"],
+    "correctIndex": 0,
+    "gloss": "After leaving Mathura, which city did Krishna found with the Yadavas and rule from? — Dwarka. Gokul and Vrindavan are his childhood places; Hastinapur was the Kuru capital."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "મકરસંક્રાંતિએ ગુજરાતમાં ધાબે-ધાબેથી “કાઈ પો છે!”ની બૂમો ક્યારે સંભળાય છે?",
+    "options": ["ગરબાનો તાલ બદલાય ત્યારે", "દહીંહાંડી ફૂટે ત્યારે", "હોળી પ્રગટે ત્યારે", "કોઈનો પતંગ કપાય ત્યારે"],
+    "correctIndex": 3,
+    "gloss": "On Makar Sankranti, when do you hear 'Kai po che!' from the rooftops of Gujarat? — When someone's kite is cut: the cry of the winner of a kite fight at Uttarayan."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1930માં ગાંધીજીએ અમદાવાદથી દાંડી સુધી પગપાળા કૂચ કઈ વસ્તુ પરના અંગ્રેજ કરના વિરોધમાં કરી હતી?",
+    "options": ["કાપડ", "ચા", "અનાજ", "મીઠું"],
+    "correctIndex": 3,
+    "gloss": "In 1930 Gandhi marched from Ahmedabad to Dandi against the British tax on what? — Salt: the Dandi March (Salt Satyagraha)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "બજારમાંથી એક ડઝન કેળાં લાવ્યાં. અડધાં ઘરમાં ખવાઈ ગયાં અને પછી બે પડોશીને આપ્યાં. હવે કેટલાં કેળાં બચ્યાં?",
+    "options": ["છ", "આઠ", "ચાર", "દસ"],
+    "correctIndex": 2,
+    "gloss": "A dozen bananas; half eaten, then two given to a neighbour. How many left? — Four: 12 − 6 − 2 = 4."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "કાર્ટૂન “ટૉમ ઍન્ડ જેરી”માં ટૉમ બિલાડો છે. તો જેરી કયું પ્રાણી છે?",
+    "options": ["ઉંદર", "ખિસકોલી", "છછુંદર", "સસલું"],
+    "correctIndex": 0,
+    "gloss": "In 'Tom and Jerry' Tom is a cat. What animal is Jerry? — A mouse."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "લીલાં પાન સૂર્યપ્રકાશમાં પોતાનો ખોરાક બનાવે ત્યારે હવામાંથી કયો વાયુ લે છે?",
+    "options": ["ઓક્સિજન", "નાઇટ્રોજન", "હાઇડ્રોજન", "કાર્બન ડાયોક્સાઇડ"],
+    "correctIndex": 3,
+    "gloss": "When green leaves make food in sunlight, which gas do they take from the air? — Carbon dioxide (photosynthesis); oxygen is what they give off."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ધ્રુવીય રીંછ અને પેંગ્વિન કુદરતમાં ક્યારેય એકબીજાની સામે આવતાં નથી. કેમ?",
+    "options": ["પેંગ્વિન ફક્ત રાત્રે જ દરિયાકિનારે બહાર નીકળે છે", "રીંછ ઉત્તરના આર્કટિકમાં, પેંગ્વિન મોટે ભાગે દક્ષિણ ગોળાર્ધમાં રહે છે", "ધ્રુવીય રીંછ બરફ છોડીને ક્યારેય દરિયામાં ઊતરતું નથી", "પેંગ્વિન ફક્ત ગરમ, ઉષ્ણકટિબંધીય દરિયામાં જ રહે છે"],
+    "correctIndex": 1,
+    "gloss": "Polar bears and penguins never meet in the wild. Why? — Polar bears live in the Arctic, wild penguins (almost all) in the southern hemisphere. Polar bears swim well, and penguins are mostly cold-water birds."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ઓલિમ્પિકના ધ્વજ પરનાં પાંચ જોડાયેલાં વર્તુળો શું દર્શાવે છે?",
+    "options": ["પાંચ ખંડ", "પાંચ મહાસાગર", "પહેલી પાંચ રમતો", "પાંચ સ્થાપક દેશો"],
+    "correctIndex": 0,
+    "gloss": "What do the five linked rings on the Olympic flag stand for? — The five continents, united by the Games (Coubertin's design)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ચોરસ”, “ચોપગું” અને “ચોમાસું” — ત્રણેય શબ્દોમાં “ચો” કઈ સંખ્યા સૂચવે છે?",
+    "options": ["બે", "ત્રણ", "ચાર", "છ"],
+    "correctIndex": 2,
+    "gloss": "'Square', 'four-legged' and 'monsoon': what number does 'cho' mean in all three? — Four: four sides, four legs, and chaumasu = the four months (chaturmas) of the rains."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "શિયાળાની વાનગી “ઊંધિયું”નું નામ તેને પરંપરાગત રીતે રાંધવાની રીત પરથી પડ્યું છે. એ રીત કઈ?",
+    "options": ["શાકને ઊંધી બાજુથી સમારીને", "માટલું ઊંધું કરી જમીનમાં દાટી, ઉપર તાપ કરીને", "તવો ઊંધો મૂકીને તેના પર શેકીને", "થાળીમાં ઊંધું વાળીને પીરસીને"],
+    "correctIndex": 1,
+    "gloss": "Undhiyu is named after how it was traditionally cooked. How? — In an earthen pot turned upside down (undhu) and buried, with a fire lit on top. Every option contains 'upside down', so the player has to know or reason about the cooking."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "નવરાત્રિમાં જેની ફરતે ગરબે ઘૂમીએ છીએ, તે મૂળ “ગરબો” ખરેખર શું છે?",
+    "options": ["માતાજીની છબી મૂકેલો બાજઠ", "ફૂલોથી શણગારેલો થાંભલો", "રંગોળીનું મોટું વર્તુળ", "કાણાંવાળો માટીનો ઘડો, જેમાં દીવો મુકાય"],
+    "correctIndex": 3,
+    "gloss": "At Navratri we dance around the 'garbo'. What is it originally? — A perforated clay pot with a lamp inside (garbha-deep), which gives the dance its name."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ચંદ્રયાનના લૅન્ડરને જેમનું નામ અપાયું, તે અમદાવાદના વૈજ્ઞાનિક અને ભારતીય અવકાશ કાર્યક્રમના પિતા કોણ?",
+    "options": ["હોમી ભાભા", "સતીશ ધવન", "એ. પી. જે. અબ્દુલ કલામ", "વિક્રમ સારાભાઈ"],
+    "correctIndex": 3,
+    "gloss": "Chandrayaan's lander is named after him: the Ahmedabad scientist called the father of India's space programme? — Vikram Sarabhai (the lander is 'Vikram'). Bhabha led the atomic programme; Dhawan and Kalam came later at ISRO."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "T20 ક્રિકેટમાં એક દાવ વધુમાં વધુ 20 ઓવરનો હોય છે. વાઇડ અને નો-બૉલ ન ગણીએ તો એક દાવમાં વધુમાં વધુ કેટલા દડા નખાય?",
+    "options": ["100", "120", "150", "240"],
+    "correctIndex": 1,
+    "gloss": "A T20 innings is at most 20 overs. Without wides and no-balls, how many balls at most? — 120: knowing an over is 6 balls, 20 × 6 = 120. 240 is both innings."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ચંદ્ર પર બે મીટરના અંતરે ઊભેલા બે અવકાશયાત્રી રેડિયો વગર એકબીજાની બૂમ પણ સાંભળી શકતા નથી. કેમ?",
+    "options": ["ત્યાં સતત પવન ફૂંકાય છે", "ત્યાં ગુરુત્વાકર્ષણ ઓછું છે", "ત્યાં હવા જ નથી", "ત્યાં કડકડતી ઠંડી છે"],
+    "correctIndex": 2,
+    "gloss": "Two astronauts two metres apart on the Moon can't hear each other shout without radio. Why? — There is no air: sound needs a medium. And with no atmosphere there is no wind either."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "221-બી, બેકર સ્ટ્રીટમાં શેરલૉક હોમ્સ સાથે રહેતા તેમના ડૉક્ટર મિત્રનું નામ શું હતું?",
+    "options": ["મોરિયાર્ટી", "વૉટસન", "લેસ્ટ્રેડ", "માયક્રૉફ્ટ"],
+    "correctIndex": 1,
+    "gloss": "The doctor friend who lived with Sherlock Holmes at 221B Baker Street? — Dr Watson. Moriarty is the villain, Lestrade the inspector, Mycroft Holmes's brother."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "કથા પ્રમાણે મહર્ષિ વ્યાસ મહાભારત બોલતા ગયા અને બીજું કોઈ તે લખતું ગયું. લખનાર કોણ હતા?",
+    "options": ["ગણેશ", "નારદ", "હનુમાન", "બ્રહ્મા"],
+    "correctIndex": 0,
+    "gloss": "Vyasa dictated the Mahabharata and someone wrote it down. Who? — Ganesha, by the well-known legend (he broke off a tusk to use as a pen)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ઉસ્તાદ અલ્લારખાં અને તેમના પુત્ર ઉસ્તાદ ઝાકિર હુસેન કયા વાદ્ય માટે જગવિખ્યાત છે?",
+    "options": ["સિતાર", "સરોદ", "તબલાં", "શહનાઈ"],
+    "correctIndex": 2,
+    "gloss": "Ustad Alla Rakha and his son Ustad Zakir Hussain are world-famous for which instrument? — The tabla."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "એવરેસ્ટનું શિખર નેપાળ અને કયા દેશની સરહદ પર આવેલું છે?",
+    "options": ["ચીન", "ભારત", "ભૂતાન", "પાકિસ્તાન"],
+    "correctIndex": 0,
+    "gloss": "Everest's summit is on the border of Nepal and which country? — China (Tibet); climbers use both the Nepali south side and the Tibetan north side."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "તમારે દુકાનદારને પોણા બસો રૂપિયા ચૂકવવાના છે. સવાસો રૂપિયા તો આપી દીધા. હજી કેટલા આપવાના બાકી છે?",
+    "options": ["પચીસ", "પચાસ", "પંચોતેર", "સો"],
+    "correctIndex": 1,
+    "gloss": "You owe the shopkeeper 'three-quarters-to-two-hundred' rupees and have paid 'one-and-a-quarter hundred'. How much is left? — Fifty: 175 − 125 = 50. Gujarati fraction-numbers (પોણા, સવા) do the work."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "રમેશનાં ફઈ એટલે રમેશના પપ્પાની બહેન. એ ફઈનો દીકરો રમેશના પપ્પાને શું કહીને બોલાવશે?",
+    "options": ["કાકા", "માસા", "ફુવા", "મામા"],
+    "correctIndex": 3,
+    "gloss": "Ramesh's 'fai' is his father's sister. What does her son call Ramesh's father? — Mama: to him, Ramesh's father is his mother's brother. Kaka (father's brother), masa and fuva (husbands of aunts) are the traps."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "સવારે વરસાદ અટકે અને તરત તડકો નીકળે. મેઘધનુષ જોવા માટે તમે કઈ દિશામાં નજર કરશો?",
+    "options": ["પૂર્વ", "ઉત્તર", "પશ્ચિમ", "દક્ષિણ"],
+    "correctIndex": 2,
+    "gloss": "The rain stops in the morning and the sun comes out. Which way do you look for a rainbow? — West: a rainbow is always opposite the sun, and the morning sun is in the east."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "કમ્પ્યુટર બધું 0 અને 1માં જ સમજે છે. દ્વિઅંકી (બાઇનરી) સંખ્યા 101 આપણી દશાંક પદ્ધતિમાં કેટલી થાય?",
+    "options": ["3", "6", "101", "5"],
+    "correctIndex": 3,
+    "gloss": "Computers think in 0s and 1s. What is binary 101 in decimal? — 5: 1×4 + 0×2 + 1×1."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "હિમાલયની ઊંચાઈએ કૂકર વિના દાળ-ભાત ચડતાં ઘણી વાર લાગે છે. એનું કારણ શું?",
+    "options": ["ત્યાં પાણી 100°થી ઓછા તાપમાને જ ઊકળી જાય છે", "ત્યાં પાણી 100°થી વધુ તાપમાને ઊકળે છે", "ત્યાં ગુરુત્વાકર્ષણ ઓછું હોય છે", "ત્યાંનું પાણી વધુ ખારું હોય છે"],
+    "correctIndex": 0,
+    "gloss": "High in the Himalaya, dal and rice take ages to cook without a pressure cooker. Why? — Lower air pressure makes water boil below 100 °C, so the food never gets as hot. The trap: thinking water boils 'harder' up there."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“સૌરાષ્ટ્રની રસધાર”માં લોકકથાઓ ભેગી કરનાર અને ગાંધીજી દ્વારા “રાષ્ટ્રીય શાયર” કહેવાયેલા સાહિત્યકાર કોણ?",
+    "options": ["નર્મદ", "ઉમાશંકર જોશી", "ઝવેરચંદ મેઘાણી", "કનૈયાલાલ મુનશી"],
+    "correctIndex": 2,
+    "gloss": "Who collected folk tales in 'Saurashtra ni Rasdhar' and was called the 'national poet' by Gandhi? — Zaverchand Meghani."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "રામાનંદ સાગરની ટીવી શ્રેણી “રામાયણ”માં રાવણનું પાત્ર ભજવીને ઘેર-ઘેર જાણીતા થયેલા ગુજરાતી અભિનેતા કોણ?",
+    "options": ["ઉપેન્દ્ર ત્રિવેદી", "અરવિંદ ત્રિવેદી", "નરેશ કનોડિયા", "ફિરોઝ ઈરાની"],
+    "correctIndex": 1,
+    "gloss": "Which Gujarati actor became a household name playing Ravan in Ramanand Sagar's 'Ramayan'? — Arvind Trivedi. His brother Upendra Trivedi, a Gujarati film star, is the trap."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "હડપ્પીય સંસ્કૃતિનું કયું નગર વહાણો માટેની ગોદી (ડૉકયાર્ડ) માટે જાણીતું છે?",
+    "options": ["ધોળાવીરા", "મોહેં-જો-દડો", "કાલીબંગન", "લોથલ"],
+    "correctIndex": 3,
+    "gloss": "Which Harappan city is known for its dockyard for ships? — Lothal, in Gujarat. Dholavira (also Gujarat) is the tempting trap."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1911માં ચોરાઈ ગયા પછી દુનિયાભરમાં ગાજેલું ચિત્ર “મોના લિસા” આજે કયા સંગ્રહાલયમાં છે?",
+    "options": ["લૂવ્ર, પૅરિસ", "ઉફીઝી, ફ્લૉરેન્સ", "પ્રાડો, માડ્રિડ", "બ્રિટિશ મ્યુઝિયમ, લંડન"],
+    "correctIndex": 0,
+    "gloss": "The Mona Lisa became world-famous after it was stolen in 1911. Where is it today? — The Louvre, Paris. The Uffizi (Florence) is the trap for those who think 'Leonardo, Italy'."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "શતરંજ (ચેસ)માં સામાન્ય ચાલ વખતે કયું મહોરું બીજાં મહોરાં પરથી કૂદીને આગળ જઈ શકે છે?",
+    "options": ["ઊંટ", "હાથી", "ઘોડો", "વજીર"],
+    "correctIndex": 2,
+    "gloss": "In chess, which piece can jump over other pieces in a normal move? — The knight (ghodo). 'Normal move' sets castling aside."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ઈ.સ. 2000ના જાન્યુઆરી મહિનામાં ગુજરાતી પંચાંગ મુજબ કયું વિક્રમ સંવત ચાલતું હતું?",
+    "options": ["2055", "2056", "2057", "2058"],
+    "correctIndex": 1,
+    "gloss": "In January 2000, which Vikram Samvat year was it by the Gujarati calendar? — 2056. The Gujarati year turns the day after Diwali (Kartak sud 1) and runs 57 years ahead of the Gregorian year from then until the next Diwali, so Samvat 2056 began after Diwali 1999 (1999 + 57). 2057 is the autopilot trap: it began only after Diwali 2000."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "આખ્યાન કહેતા માણભટ્ટ આંગળીઓમાં વીંટીઓ પહેરીને જેના પર તાલ આપતા, તે “માણ” શું છે?",
+    "options": ["ધાતુનો મોટો ઘડો", "ચામડું મઢેલું ઢોલક", "પિત્તળના મંજીરા", "વાંસની વાંસળી"],
+    "correctIndex": 0,
+    "gloss": "The akhyan storytellers (manbhatt) beat rhythm on the 'maan' with rings on their fingers. What is a maan? — A large narrow-mouthed metal (copper) pot, as Premanand used. The rings are the clue: you strike metal, not a drum skin or a flute."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1928ના કયા સત્યાગ્રહની સફળતા પછી ત્યાંની બહેનોએ વલ્લભભાઈ પટેલને “સરદાર”નું બિરુદ આપ્યું?",
+    "options": ["ખેડા", "ચંપારણ", "બારડોલી", "ધોલેરા"],
+    "correctIndex": 2,
+    "gloss": "After which 1928 satyagraha did the local women give Vallabhbhai Patel the title 'Sardar'? — Bardoli. Kheda (1918) is the trap: Patel was active there too."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ગુજરાતી ભાષાને પહેલો જ્ઞાનપીઠ પુરસ્કાર કયા સાહિત્યકારે અપાવ્યો?",
+    "options": ["પન્નાલાલ પટેલ", "રાજેન્દ્ર શાહ", "રઘુવીર ચૌધરી", "ઉમાશંકર જોશી"],
+    "correctIndex": 3,
+    "gloss": "Who won Gujarati's first Jnanpith Award? — Umashankar Joshi (1967, for 'Nishith'). The other three are the later Gujarati laureates: Pannalal Patel (1985), Rajendra Shah (2001), Raghuveer Chaudhari (2015)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "સિનેમાના પ્રેમમાં પડેલા સૌરાષ્ટ્રના એક ગામડાના છોકરાની વાર્તા કહેતી કઈ ગુજરાતી ફિલ્મ 2022માં ઑસ્કર માટે ભારતની સત્તાવાર એન્ટ્રી બની?",
+    "options": ["હેલ્લારો", "છેલ્લો શો", "ધ ગુડ રોડ", "રેવા"],
+    "correctIndex": 1,
+    "gloss": "Which Gujarati film about a Saurashtra village boy in love with cinema was India's official Oscar entry in 2022? — Chhello Show (Last Film Show, Pan Nalin). The Good Road was India's (Gujarati) entry in 2013; Hellaro won the National Award."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "પંડિત રવિશંકર પાસે સિતાર શીખનાર “બીટલ્સ”ના સભ્ય કોણ હતા?",
+    "options": ["જૉન લેનન", "પૉલ મૅકકાર્ટની", "જ્યૉર્જ હૅરિસન", "રિંગો સ્ટાર"],
+    "correctIndex": 2,
+    "gloss": "Which Beatle learned the sitar from Pandit Ravi Shankar? — George Harrison."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "આવર્ત કોષ્ટકમાં K સંજ્ઞા લેટિન નામ “કેલિયમ” પરથી આવી છે. આ કયું તત્ત્વ છે?",
+    "options": ["પોટૅશિયમ", "કૅલ્શિયમ", "ક્રિપ્ટૉન", "કાર્બન"],
+    "correctIndex": 0,
+    "gloss": "In the periodic table, K comes from the Latin 'kalium'. Which element? — Potassium. Calcium (Ca) sounds like kalium, krypton is Kr, carbon is C."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "રમકડાંની ઈંટો “લેગો”નું નામ “leg godt” એટલે કે “સારું રમો” પરથી પડ્યું છે. આ કંપની કયા દેશની છે?",
+    "options": ["સ્વીડન", "નૉર્વે", "નેધરલૅન્ડ્સ", "ડેન્માર્ક"],
+    "correctIndex": 3,
+    "gloss": "LEGO is named after 'leg godt', 'play well'. Which country is the company from? — Denmark (Billund). Sweden and Norway are the Scandinavian traps."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "શિયાળામાં, જ્યારે બ્રિટનમાં ઉનાળુ સમય લાગુ નથી હોતો, લંડનમાં બપોરના 12 વાગ્યા હોય ત્યારે અમદાવાદમાં કેટલા વાગ્યા હશે?",
+    "options": ["સવારે 6:30", "સાંજે 5:30", "સાંજે 6:30", "સાંજે 4:30"],
+    "correctIndex": 1,
+    "gloss": "In winter (no British summer time), when it's noon in London, what time is it in Ahmedabad? — 5:30 pm: India is GMT+5:30 and lies east, so ahead. 6:30 am is the 'wrong direction' trap; 6:30/4:30 pm are summer-time confusions."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ઈ.સ. પૂર્વે 50ની 1 જાન્યુઆરીથી ઈ.સ. 50ની 1 જાન્યુઆરી સુધીમાં કેટલાં વર્ષ વીત્યાં?",
+    "options": ["100", "101", "99", "98"],
+    "correctIndex": 2,
+    "gloss": "How many years from 1 January 50 BC to 1 January AD 50? — 99: there is no year zero (1 BC is followed by AD 1), so 50 + 49 = 99. 100 is the autopilot answer."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“જ્યાં જ્યાં નજર મારી ઠરે, યાદી ભરી ત્યાં આપની” લખનાર કવિ કલાપી એક રજવાડાના રાજવી હતા. કયા રજવાડાના?",
+    "options": ["લાઠી", "ગોંડલ", "ભાવનગર", "વાંકાનેર"],
+    "correctIndex": 0,
+    "gloss": "The poet Kalapi, who wrote 'Wherever my gaze rests, it is full of your memory', was a ruling prince. Of which state? — Lathi (Sursinhji Gohil). The others are real Saurashtra princely states."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1932માં રજૂ થયેલી પહેલી ગુજરાતી બોલતી ફિલ્મ કયા સંતકવિના જીવન પર આધારિત હતી?",
+    "options": ["જલારામ બાપા", "નરસિંહ મહેતા", "દયારામ", "અખો"],
+    "correctIndex": 1,
+    "gloss": "The first Gujarati talkie (1932) was based on the life of which saint-poet? — Narsinh Mehta ('Narsinh Mehta', directed by Nanubhai Vakil)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "મોઢેરાનું સૂર્યમંદિર પૂર્વાભિમુખ છે અને ઊગતા સૂર્યનાં કિરણો અમુક દિવસોએ સીધાં ગર્ભગૃહ સુધી પહોંચે તેવી તેની રચના છે. એ કયા દિવસો?",
+    "options": ["મકરસંક્રાંતિ (14 જાન્યુઆરી)", "વર્ષનો સૌથી લાંબો દિવસ (21 જૂન)", "વિષુવ દિવસો (21 માર્ચ અને 23 સપ્ટેમ્બર આસપાસ)", "વર્ષનો સૌથી ટૂંકો દિવસ (22 ડિસેમ્બર)"],
+    "correctIndex": 2,
+    "gloss": "The Modhera Sun Temple faces east and is built so the rising sun's rays reach the sanctum on certain days. Which? — The equinoxes: only then does the sun rise due east. Uttarayan is the tempting local trap."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કચ્છના “ખારાઈ” ઊંટ બીજાં ઊંટોથી કઈ વાતમાં જુદાં પડે છે?",
+    "options": ["તેમને બેક્ટ્રિયન ઊંટની જેમ બે ખૂંધ હોય છે", "તેઓ દિવસે સૂઈ રહે છે અને ફક્ત રાત્રે જ ચરે છે", "તેઓ મીઠાના અગરમાંથી મીઠું ચાટીને જીવે છે", "તેઓ દરિયામાં તરીને ચેરનાં જંગલોમાં ચરવા જાય છે"],
+    "correctIndex": 3,
+    "gloss": "How do Kutch's 'Kharai' camels differ from other camels? — They swim in the sea to graze in mangrove (cher) forests; they are the only swimming camel breed."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "પાર્થિવ પટેલની કપ્તાનીમાં ગુજરાતે 2016-17માં પહેલી વાર રણજી ટ્રોફી જીતી. ફાઇનલમાં કઈ ટીમને હરાવી હતી?",
+    "options": ["સૌરાષ્ટ્ર", "મુંબઈ", "કર્ણાટક", "વિદર્ભ"],
+    "correctIndex": 1,
+    "gloss": "Under Parthiv Patel, Gujarat won its first Ranji Trophy in 2016-17. Whom did they beat in the final? — Mumbai (at Indore)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "જેનો આખો વિસ્તાર 1,000 મીટરથી વધુ ઊંચાઈએ છે અને જે ચારે બાજુથી ફક્ત દક્ષિણ આફ્રિકાથી ઘેરાયેલો છે, તે દેશ કયો?",
+    "options": ["એસ્વાતિની", "બોત્સ્વાના", "લેસોથો", "ઝિમ્બાબ્વે"],
+    "correctIndex": 2,
+    "gloss": "Which country lies entirely above 1,000 m and is surrounded only by South Africa? — Lesotho. Eswatini is the trap: it also borders Mozambique."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "કર્કવૃત્ત ગુજરાતમાંથી પસાર થાય છે. ત્યાં ઊભા રહીને રાત્રે ધ્રુવતારો જોઈએ તો તે ક્ષિતિજથી આશરે કેટલા અંશ ઊંચો દેખાય?",
+    "options": ["આશરે 23°", "આશરે 45°", "આશરે 67°", "આશરે 90°"],
+    "correctIndex": 0,
+    "gloss": "The Tropic of Cancer runs through Gujarat. Standing on it at night, how high above the horizon is the Pole Star? — About 23°: the Pole Star's altitude equals your latitude, and the Tropic of Cancer is at about 23.4° N. 67° (90 − 23) is the trap."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "1869માં સુએઝ નહેર ખૂલી તે પહેલાં મુંબઈથી લંડન જતાં વહાણોને કયો છેડો ફરીને જવું પડતું?",
+    "options": ["કેપ હૉર્ન", "કેપ કૉમોરિન (કન્યાકુમારી)", "કેપ યૉર્ક", "કેપ ઑફ ગુડ હોપ"],
+    "correctIndex": 3,
+    "gloss": "Before the Suez Canal opened in 1869, which cape did ships from Bombay to London have to round? — The Cape of Good Hope, at Africa's southern tip. Cape Comorin is the trap, but Bombay is on the west coast; Cape Horn is South America, Cape York Australia."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1799માં મળેલી રોઝેટા શિલાએ કઈ પ્રાચીન લિપિ ઉકેલવાની ચાવી આપી?",
+    "options": ["સિંધુ લિપિ", "ઇજિપ્તની ચિત્રલિપિ (હાયરોગ્લિફ)", "મેસોપોટેમિયાની ક્યુનિફૉર્મ", "માયા લિપિ"],
+    "correctIndex": 1,
+    "gloss": "The Rosetta Stone, found in 1799, was the key to deciphering which script? — Egyptian hieroglyphs (Champollion, 1822). The Indus script is still undeciphered."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "કયા ગ્રહને પોતાની ધરી પર એક આંટો પૂરો કરતાં, સૂર્યની એક પ્રદક્ષિણા કરતાં પણ વધુ સમય લાગે છે?",
+    "options": ["શુક્ર", "બુધ", "મંગળ", "નેપ્ચ્યુન"],
+    "correctIndex": 0,
+    "gloss": "Which planet takes longer to spin once on its axis than to go once around the Sun? — Venus: about 243 Earth days to rotate, 225 to orbit. Mercury is the trap: it rotates in about 59 days but orbits in 88."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk woord ontbreekt in het spreekwoord: een gegeven paard kijk je niet in de …?",
+    "options": ["Ogen", "Oren", "Hoeven", "Bek"],
+    "correctIndex": 3,
+    "gloss": "Which word is missing in the proverb: you don't look a gift horse in the …? — The mouth (bek): «een gegeven paard kijk je niet in de bek»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Je koopt op de markt anderhalf dozijn eieren. Hoeveel eieren zijn dat?",
+    "options": ["15", "16", "18", "20"],
+    "correctIndex": 2,
+    "gloss": "You buy one and a half dozen eggs. How many eggs? — 18: a dozen is 12, and 12 + 6 = 18."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie brengt volgens de traditie in Nederland en Vlaanderen rond 5 december cadeaus voor de kinderen?",
+    "options": ["De Kerstman", "Sinterklaas", "De Paashaas", "Sint-Maarten"],
+    "correctIndex": 1,
+    "gloss": "Who brings the children presents around 5 December in the Netherlands and Flanders? — Sinterklaas (Saint Nicholas), not Father Christmas."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoeveel snaren heeft een gewone akoestische gitaar?",
+    "options": ["6", "4", "5", "8"],
+    "correctIndex": 0,
+    "gloss": "How many strings does an ordinary acoustic guitar have? — Six (a ukulele or bass has four)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoeveel poten heeft een spin?",
+    "options": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "gloss": "How many legs does a spider have? — Eight; six is the trap, because insects have six."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welk stuk bestek heeft een naam die je van achteren naar voren precies zo leest als van voren naar achteren?",
+    "options": ["Vork", "Lepel", "Mes", "Theelepel"],
+    "correctIndex": 1,
+    "gloss": "Which piece of cutlery has a name that reads the same backwards? — Lepel (spoon): l-e-p-e-l is a palindrome; vork, mes and theelepel are not."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie schilderde in 1642 De Nachtwacht, een van de beroemdste schilderijen van het Rijksmuseum?",
+    "options": ["Johannes Vermeer", "Vincent van Gogh", "Frans Hals", "Rembrandt van Rijn"],
+    "correctIndex": 3,
+    "gloss": "Who painted The Night Watch in 1642? — Rembrandt van Rijn; Vermeer, Van Gogh and Hals are the other well-known Dutch painters."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Een broodje haring kost op de markt € 3,50. Je koopt er twee en betaalt met een biljet van € 10. Hoeveel krijg je terug?",
+    "options": ["€ 3,00", "€ 2,50", "€ 3,50", "€ 6,50"],
+    "correctIndex": 0,
+    "gloss": "A herring sandwich costs € 3.50; you buy two and pay with a € 10 note. How much change? — € 3.00: 2 × 3.50 = 7.00, and 10 − 7 = 3. € 6.50 is the change after only one."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke jonge herder versloeg volgens de Bijbel de reus Goliath met een slinger?",
+    "options": ["Mozes", "Samson", "David", "Salomo"],
+    "correctIndex": 2,
+    "gloss": "Which young shepherd defeated the giant Goliath with a sling, according to the Bible? — David; Samson is the other strongman of the Old Testament."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoeveel spelers van één ploeg staan tijdens een voetbalwedstrijd tegelijk op het veld, de keeper meegerekend?",
+    "options": ["12", "11", "10", "9"],
+    "correctIndex": 1,
+    "gloss": "How many players of one team are on the pitch at once in football, goalkeeper included? — Eleven; ten is the trap of forgetting the keeper."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Amsterdam ontstond bij een dam in de Amstel, Rotterdam bij een dam in de Rotte. Welke stad dankt haar naam aan een dam in de Schie?",
+    "options": ["Schiedam", "Zaandam", "Edam", "Volendam"],
+    "correctIndex": 0,
+    "gloss": "Amsterdam: dam in the Amstel; Rotterdam: dam in the Rotte. Which city is named after a dam in the Schie? — Schiedam; the pattern river + dam gives it away, while Zaandam, Edam and Volendam are other dam towns."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welk woord kun je vóór alle drie deze woorden zetten: wagen, mandje en centrum?",
+    "options": ["Markt", "Boodschap", "Klant", "Winkel"],
+    "correctIndex": 3,
+    "gloss": "Which word fits in front of all three: wagen, mandje, centrum? — Winkel: winkelwagen (shopping trolley), winkelmandje (basket), winkelcentrum (shopping centre)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat vond Johannes Gutenberg rond 1450 in Mainz uit?",
+    "options": ["De microscoop", "De boekdrukkunst", "Het kompas", "De klok"],
+    "correctIndex": 1,
+    "gloss": "What did Johannes Gutenberg invent in Mainz around 1450? — Printing with movable type."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Waar eet een koala bijna uitsluitend van?",
+    "options": ["Bamboescheuten", "Wilde vruchten", "Eucalyptusbladeren", "Gras en klaver"],
+    "correctIndex": 2,
+    "gloss": "What does a koala eat almost exclusively? — Eucalyptus leaves; bamboo is the panda's food, the common mix-up."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Een boer heeft 12 schapen. Alle schapen op vijf na lopen weg. Hoeveel schapen houdt hij over?",
+    "options": ["5", "7", "0", "12"],
+    "correctIndex": 0,
+    "gloss": "A farmer has 12 sheep; all but five run away. How many are left? — Five: 'all but five' leaves five. Seven is the trap of subtracting."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke componist werd tijdens zijn leven bijna volledig doof en schreef toch nog zijn negende symfonie?",
+    "options": ["Mozart", "Bach", "Haydn", "Beethoven"],
+    "correctIndex": 3,
+    "gloss": "Which composer went almost completely deaf yet still wrote his ninth symphony? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "De blauwe Smurfen zijn bedacht door de tekenaar Peyo. Uit welk land kwam hij?",
+    "options": ["Frankrijk", "België", "Nederland", "Zwitserland"],
+    "correctIndex": 1,
+    "gloss": "The blue Smurfs were created by the cartoonist Peyo. Which country was he from? — Belgium (Pierre Culliford, born in Brussels)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat doe je op een computer met de toetscombinatie Ctrl+C?",
+    "options": ["Je knipt tekst weg", "Je plakt tekst", "Je kopieert tekst", "Je maakt de laatste handeling ongedaan"],
+    "correctIndex": 2,
+    "gloss": "What does Ctrl+C do on a computer? — It copies (Ctrl+X cuts, Ctrl+V pastes, Ctrl+Z undoes)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uit welke stad komt oorspronkelijk de stroopwafel?",
+    "options": ["Gouda", "Edam", "Alkmaar", "Leiden"],
+    "correctIndex": 0,
+    "gloss": "Which city does the stroopwafel originally come from? — Gouda; Edam and Alkmaar are the other cheese towns."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie schreef het kinderboek ‘Pluk van de Petteflet’?",
+    "options": ["Dick Bruna", "Godfried Bomans", "Jan Terlouw", "Annie M.G. Schmidt"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the children's book 'Pluk van de Petteflet'? — Annie M.G. Schmidt (1971); Dick Bruna is the creator of Miffy."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hoe schrijf je het voltooid deelwoord van ‘reizen’ correct: ‘Ik heb veel …’?",
+    "options": ["gereisde", "gereist", "gereisd", "gereis"],
+    "correctIndex": 2,
+    "gloss": "How do you spell the past participle of 'reizen'? — gereisd. The 't kofschip rule looks at the infinitive (reiz-en): z is not in 't kofschip, so -d. Contrast gefietst, where the infinitive has an s."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Nederlandse zeevaarder zag in 1642 als eerste Europeaan Nieuw-Zeeland en het eiland dat later naar hem werd genoemd?",
+    "options": ["Abel Tasman", "Willem Barentsz", "Jacob Roggeveen", "Willem Janszoon"],
+    "correctIndex": 0,
+    "gloss": "Which Dutch navigator in 1642 was the first European to sight New Zealand and the island later named after him? — Abel Tasman (Tasmania). Roggeveen found Easter Island, Barentsz sailed the Arctic."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "In een rij voor de kassa staat Jan als achtste van voren en als vijfde van achteren. Hoeveel mensen staan er in de rij?",
+    "options": ["13", "11", "14", "12"],
+    "correctIndex": 3,
+    "gloss": "In a queue Jan is eighth from the front and fifth from the back. How many people? — 12: 8 + 5 = 13, but Jan is counted twice, so 13 − 1 = 12."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Een jas van € 150 is met 20% korting. Aan de kassa gaat er nog € 10 af. Wat betaal je uiteindelijk?",
+    "options": ["€ 100", "€ 110", "€ 120", "€ 130"],
+    "correctIndex": 1,
+    "gloss": "A € 150 coat has 20% off and € 10 more off at the till. What do you pay? — € 110: 150 × 0.8 = 120, then 120 − 10 = 110."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Catalaanse architect werkte tot zijn dood in 1926 aan de Sagrada Família in Barcelona?",
+    "options": ["Lluís Domènech i Montaner", "Josep Puig i Cadafalch", "Antoni Gaudí", "Santiago Calatrava"],
+    "correctIndex": 2,
+    "gloss": "Which Catalan architect worked on the Sagrada Família until his death in 1926? — Antoni Gaudí; the others are real architects, but not of this church."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Eduard Douwes Dekker schreef ‘Max Havelaar’ onder een pseudoniem. Welk?",
+    "options": ["Multatuli", "Nescio", "Piet Paaltjens", "Marnix Gijsen"],
+    "correctIndex": 0,
+    "gloss": "Eduard Douwes Dekker wrote 'Max Havelaar' under a pen name. Which? — Multatuli; Nescio, Piet Paaltjens and Marnix Gijsen are also real pen names, of other writers."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk blaasinstrument, genoemd naar zijn Belgische uitvinder, werd in de jaren 1840 gepatenteerd en klinkt vooral in de jazz?",
+    "options": ["Hobo", "Saxofoon", "Sousafoon", "Klarinet"],
+    "correctIndex": 1,
+    "gloss": "Which wind instrument, named after its Belgian inventor and patented in the 1840s, is heard mostly in jazz? — The saxophone (Adolphe Sax)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Je ziet een bliksemflits en hoort zes seconden later de donder. Op ongeveer welke afstand sloeg de bliksem in?",
+    "options": ["Ongeveer 600 meter", "Ongeveer 20 kilometer", "Ongeveer 200 meter", "Ongeveer 2 kilometer"],
+    "correctIndex": 3,
+    "gloss": "You see lightning and hear thunder six seconds later. How far away did it strike? — About 2 km: light arrives at once, sound travels about 340 m/s, so 6 × 340 ≈ 2,000 m."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Op welke datum viert Nederland sinds 2014 Koningsdag, de verjaardag van koning Willem-Alexander?",
+    "options": ["27 april", "30 april", "5 mei", "1 mei"],
+    "correctIndex": 0,
+    "gloss": "On which date has the Netherlands celebrated King's Day since 2014? — 27 April; 30 April was the old Queen's Day (Juliana's birthday, kept by Beatrix)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In de Tour de France draagt de beste klimmer een speciale trui. Hoe heet die?",
+    "options": ["De gele trui", "De groene trui", "De bolletjestrui", "De roze trui"],
+    "correctIndex": 2,
+    "gloss": "In the Tour de France the best climber wears a special jersey. What is it called? — The polka-dot jersey (bolletjestrui); yellow is the leader, green the sprinter, pink belongs to the Giro."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "IJs is ongeveer 10% lichter dan water, en daarom drijft een ijsberg. Hoeveel procent van de ijsberg steekt dan boven het water uit?",
+    "options": ["50%", "10%", "90%", "25%"],
+    "correctIndex": 1,
+    "gloss": "Ice is about 10% lighter than water, so an iceberg floats. How much of it sticks out above the water? — About 10%: a floating body sinks until it displaces its own weight, so about 90% is below. 90% is the trap."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Het Engelse woord ‘cookie’ komt uit het Nederlands. Van welk Nederlands woord is het afgeleid?",
+    "options": ["Kookpot", "Kaakje", "Krakeling", "Koekje"],
+    "correctIndex": 3,
+    "gloss": "The English word 'cookie' comes from Dutch. From which word? — Koekje (little cake)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In 1932 scheidde de Afsluitdijk de Zuiderzee van de Waddenzee, en het meer kreeg rivierwater uit onder meer de IJssel. Wat gebeurde er daarna met het zoute water?",
+    "options": ["Het werd geleidelijk zoet", "Het bleef even zout", "Het werd steeds zouter", "Het droogde grotendeels op"],
+    "correctIndex": 0,
+    "gloss": "In 1932 the Afsluitdijk cut the Zuiderzee off from the Wadden Sea and rivers such as the IJssel fed it. What happened to the salt water? — It gradually became fresh: the IJsselmeer is a freshwater lake."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Een IPv4-adres bestaat uit vier getallen tussen 0 en 255, zoals 192.168.1.1. Uit hoeveel bits bestaat zo’n adres?",
+    "options": ["16", "32", "64", "128"],
+    "correctIndex": 1,
+    "gloss": "An IPv4 address is four numbers from 0 to 255. How many bits? — 32: each number 0–255 fits in 8 bits, and 4 × 8 = 32 (IPv6 has 128)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Welk van deze landen heeft uitsluitend buurlanden die zelf óók geen zeekust hebben?",
+    "options": ["Luxemburg", "Liechtenstein", "Oostenrijk", "Zwitserland"],
+    "correctIndex": 1,
+    "gloss": "Which of these countries has only neighbours that have no sea coast themselves? — Liechtenstein (Switzerland and Austria are both landlocked). Luxembourg borders Belgium, Austria borders Germany and Italy, Switzerland borders France."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoe heet in de Noordse mythologie de reusachtige es die de negen werelden met elkaar verbindt?",
+    "options": ["Valhalla", "Asgard", "Midgard", "Yggdrasil"],
+    "correctIndex": 3,
+    "gloss": "What is the giant ash tree connecting the nine worlds called in Norse mythology? — Yggdrasil; Valhalla, Asgard and Midgard are places, not the tree."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Nederlandse band bereikte in 1970 met ‘Venus’ de eerste plaats in de Amerikaanse hitlijst?",
+    "options": ["Shocking Blue", "Golden Earring", "Focus", "Earth & Fire"],
+    "correctIndex": 0,
+    "gloss": "Which Dutch band topped the US chart in 1970 with 'Venus'? — Shocking Blue. Golden Earring ('Radar Love'), Focus ('Hocus Pocus') and Earth & Fire are other Dutch bands."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Wat is de hoogste score die je met drie pijlen in één beurt kunt gooien bij darten?",
+    "options": ["120", "150", "180", "171"],
+    "correctIndex": 2,
+    "gloss": "What is the highest score with three darts in one turn? — 180: three triple twenties, 3 × 60. 171 is three triple nineteens, the near-miss."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ben-Hur, Titanic en The Return of the King delen een record voor het aantal Oscars dat één film won. Hoeveel waren het er?",
+    "options": ["12", "11", "10", "9"],
+    "correctIndex": 1,
+    "gloss": "Ben-Hur, Titanic and The Return of the King share the record for most Oscars won by one film. How many? — Eleven."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Als de zon op dit moment zou verdwijnen, hoe lang zouden we haar op aarde nog zien schijnen?",
+    "options": ["Ongeveer 8 seconden", "Meteen niet meer", "Ongeveer 8 uur", "Ongeveer 8 minuten"],
+    "correctIndex": 3,
+    "gloss": "If the Sun vanished right now, how long would we still see it shine? — About 8 minutes: its light needs roughly 8 minutes 20 seconds to reach Earth (150 million km at 300,000 km/s)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke planeet in ons zonnestelsel draait het snelst om zijn as?",
+    "options": ["Jupiter", "Saturnus", "Mars", "Neptunus"],
+    "correctIndex": 0,
+    "gloss": "Which planet spins fastest on its axis? — Jupiter, about 10 hours per rotation; Saturn is next at about 10.5 hours."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In 2013 werd Willem-Alexander de eerste Nederlandse koning in 123 jaar. Wie was vóór hem de laatste koning?",
+    "options": ["Willem I", "Willem II", "Willem III", "Lodewijk Napoleon"],
+    "correctIndex": 2,
+    "gloss": "In 2013 Willem-Alexander became the first Dutch king in 123 years. Who was the last king before him? — Willem III: 2013 − 123 = 1890, the year he died, after which came queens Wilhelmina, Juliana and Beatrix."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie schreef in 1838 de roman ‘De Leeuw van Vlaanderen’, waarmee het Vlaamse volk zijn eigen verleden leerde kennen?",
+    "options": ["Guido Gezelle", "Hendrik Conscience", "Hugo Claus", "Willem Elsschot"],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'The Lion of Flanders' in 1838? — Hendrik Conscience; Gezelle was a poet, Claus and Elsschot are 20th-century writers."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Vlaamse meester voltooide in 1432 in Gent het Lam Gods, het altaarstuk dat zijn broer Hubert was begonnen?",
+    "options": ["Rogier van der Weyden", "Hans Memling", "Pieter Bruegel", "Jan van Eyck"],
+    "correctIndex": 3,
+    "gloss": "Which Flemish master completed the Ghent Altarpiece in 1432, begun by his brother Hubert? — Jan van Eyck."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke negentiende-eeuwse Britse wiskundige wordt vaak de eerste programmeur ter wereld genoemd, vanwege haar notities bij Babbages Analytical Engine?",
+    "options": ["Ada Lovelace", "Grace Hopper", "Emmy Noether", "Hedy Lamarr"],
+    "correctIndex": 0,
+    "gloss": "Which 19th-century British mathematician is often called the first programmer for her notes on Babbage's Analytical Engine? — Ada Lovelace."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Ethiopische atleet won in 1960 in Rome de olympische marathon op blote voeten?",
+    "options": ["Haile Gebrselassie", "Emil Zátopek", "Abebe Bikila", "Paavo Nurmi"],
+    "correctIndex": 2,
+    "gloss": "Which Ethiopian athlete won the 1960 Olympic marathon in Rome barefoot? — Abebe Bikila."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Op de aardbol teken je een driehoek: één hoekpunt op de Noordpool en twee op de evenaar, een kwart van de aarde van elkaar vandaan. Alle drie de hoeken blijken recht te zijn. Wat is de som van de hoeken?",
+    "options": ["360°", "180°", "210°", "270°"],
+    "correctIndex": 3,
+    "gloss": "On the globe you draw a triangle with one corner at the North Pole and two on the equator, a quarter of the way round from each other. All three angles are right angles. Their sum? — 270°: on a curved surface the angle sum exceeds 180°."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Het New Yorkse Flushing, waar het US Open tennis wordt gespeeld, is genoemd naar een Zeeuwse havenstad. Welke?",
+    "options": ["Middelburg", "Vlissingen", "Terneuzen", "Zierikzee"],
+    "correctIndex": 1,
+    "gloss": "Flushing in New York, home of the US Open, is named after a Zeeland port. Which? — Vlissingen (Flushing is the English form of its name)."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Belgische bierstijl ontstaat door spontane gisting met wilde gisten uit de lucht rond Brussel, zonder dat er gist wordt toegevoegd?",
+    "options": ["Tripel", "Saison", "Dubbel", "Lambiek"],
+    "correctIndex": 3,
+    "gloss": "Which Belgian beer style ferments spontaneously with wild yeasts from the air around Brussels, with no yeast added? — Lambic."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Nederlandse natuurkundige ontdekte in 1911 de supergeleiding en kreeg in 1913 de Nobelprijs?",
+    "options": ["Heike Kamerlingh Onnes", "Hendrik Lorentz", "Pieter Zeeman", "Johannes van der Waals"],
+    "correctIndex": 0,
+    "gloss": "Which Dutch physicist discovered superconductivity in 1911 and won the Nobel Prize in 1913? — Heike Kamerlingh Onnes; Lorentz, Zeeman and Van der Waals are also Dutch Nobel laureates in physics, for other work."
+  }
+]

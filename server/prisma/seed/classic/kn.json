@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಗಾದೆಯ ಪ್ರಕಾರ ಹಿತ್ತಲ ಗಿಡ ಏನಲ್ಲ?",
+    "options": ["ಮದ್ದು", "ಹೂವು", "ನೆರಳು", "ಹಣ್ಣು"],
+    "correctIndex": 0,
+    "gloss": "According to the proverb, the plant in your own backyard is not… what? — Medicine: «ಹಿತ್ತಲ ಗಿಡ ಮದ್ದಲ್ಲ», we don't value what is close at hand."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಭಾರತದ ಪಶ್ಚಿಮಕ್ಕೆ ಅರಬ್ಬಿ ಸಮುದ್ರ, ಪೂರ್ವಕ್ಕೆ ಬಂಗಾಳ ಕೊಲ್ಲಿ. ಕನ್ಯಾಕುಮಾರಿಯಿಂದ ದಕ್ಷಿಣಕ್ಕೆ ಹರಡಿರುವ ಸಾಗರ ಯಾವುದು?",
+    "options": ["ಪೆಸಿಫಿಕ್ ಮಹಾಸಾಗರ", "ಅಟ್ಲಾಂಟಿಕ್ ಮಹಾಸಾಗರ", "ಹಿಂದೂ ಮಹಾಸಾಗರ", "ಆರ್ಕ್ಟಿಕ್ ಮಹಾಸಾಗರ"],
+    "correctIndex": 2,
+    "gloss": "West of India is the Arabian Sea, east the Bay of Bengal. Which ocean lies south of Kanyakumari? — The Indian Ocean."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಮೈಸೂರು ದಸರಾದ ಜಂಬೂಸವಾರಿಯಲ್ಲಿ ಚಾಮುಂಡೇಶ್ವರಿಯ ವಿಗ್ರಹವಿರುವ ಚಿನ್ನದ ಅಂಬಾರಿಯನ್ನು ಹೊರುವ ಪ್ರಾಣಿ ಯಾವುದು?",
+    "options": ["ಕುದುರೆ", "ಆನೆ", "ಒಂಟೆ", "ಎತ್ತು"],
+    "correctIndex": 1,
+    "gloss": "In the Mysuru Dasara Jamboo Savari, which animal carries the golden howdah with the idol of Chamundeshwari? — An elephant."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಮರಿಯನ್ನು ಹೊಟ್ಟೆಯ ಮೇಲಿನ ಚೀಲದಲ್ಲಿಟ್ಟುಕೊಂಡು ಜಿಗಿಯುತ್ತ ಸಾಗುವ ಆಸ್ಟ್ರೇಲಿಯಾದ ಪ್ರಾಣಿ ಯಾವುದು?",
+    "options": ["ಜಿರಾಫೆ", "ಜೀಬ್ರಾ", "ಚಿರತೆ", "ಕಾಂಗರೂ"],
+    "correctIndex": 3,
+    "gloss": "Which Australian animal hops about carrying its young in a pouch on its belly? — The kangaroo."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಬಿಸಿ ಮಾಡಿದಾಗ ಕಾಳು ಸಿಡಿದು ಅರಳುವ ಪಾಪ್‌ಕಾರ್ನ್ ಯಾವ ಧಾನ್ಯದಿಂದ ತಯಾರಾಗುತ್ತದೆ?",
+    "options": ["ಮೆಕ್ಕೆಜೋಳ", "ಗೋಧಿ", "ಅಕ್ಕಿ", "ರಾಗಿ"],
+    "correctIndex": 0,
+    "gloss": "Popcorn, whose kernels burst open when heated, is made from which grain? — Maize (corn)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಒಬ್ಬ ಬೌಲರ್ ಮೂರು ಪೂರ್ಣ ಓವರ್ ಎಸೆದರೆ, ವೈಡ್ ಮತ್ತು ನೋಬಾಲ್‌ಗಳನ್ನು ಬಿಟ್ಟು, ಒಟ್ಟು ಎಷ್ಟು ಎಸೆತಗಳನ್ನು ಹಾಕಿದಂತಾಯಿತು?",
+    "options": ["12", "15", "18", "24"],
+    "correctIndex": 2,
+    "gloss": "A bowler sends down three full overs; not counting wides and no-balls, how many deliveries is that? — 18: six legal balls an over × 3."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕನ್ನಡ ಚಿತ್ರರಂಗವನ್ನು ಕರ್ನಾಟಕದ ಪ್ರಸಿದ್ಧ ಮರದ ಹೆಸರಿನಿಂದ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+    "options": ["ಟಾಲಿವುಡ್", "ಸ್ಯಾಂಡಲ್‌ವುಡ್", "ಕಾಲಿವುಡ್", "ಮಾಲಿವುಡ್"],
+    "correctIndex": 1,
+    "gloss": "After Karnataka's famous tree, what is the Kannada film industry called? — Sandalwood. Tollywood is Telugu, Kollywood Tamil, Mollywood Malayalam."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ಅಂಗಡಿಯಲ್ಲಿ 35 ರೂಪಾಯಿಯ ಸಾಮಾನು ಕೊಂಡು 100 ರೂಪಾಯಿಯ ನೋಟು ಕೊಟ್ಟರೆ ಎಷ್ಟು ಚಿಲ್ಲರೆ ವಾಪಸ್ ಬರಬೇಕು?",
+    "options": ["55 ರೂಪಾಯಿ", "75 ರೂಪಾಯಿ", "45 ರೂಪಾಯಿ", "65 ರೂಪಾಯಿ"],
+    "correctIndex": 3,
+    "gloss": "You buy something for 35 rupees and pay with a 100-rupee note. How much change? — 65 rupees."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಹಸಿರು ಎಲೆಗಳು ಬಿಸಿಲಿನಲ್ಲಿ ಆಹಾರ ತಯಾರಿಸುವಾಗ ಗಾಳಿಯಿಂದ ಯಾವ ಅನಿಲವನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ?",
+    "options": ["ಆಮ್ಲಜನಕ", "ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್", "ಸಾರಜನಕ", "ಜಲಜನಕ"],
+    "correctIndex": 1,
+    "gloss": "When green leaves make food in sunlight, which gas do they take from the air? — Carbon dioxide (oxygen is what they give off)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು” ಎಂಬ ಗಾದೆ ಕೊಡುವ ಬುದ್ಧಿವಾದ ಏನು?",
+    "options": ["ಆದಾಯಕ್ಕೆ ತಕ್ಕಷ್ಟೇ ಖರ್ಚು ಮಾಡು", "ಬೇಗ ಮಲಗಿ ಬೇಗ ಏಳು", "ಅತಿಥಿಗೆ ಮೊದಲು ಜಾಗ ಕೊಡು", "ದಣಿದಾಗ ವಿಶ್ರಾಂತಿ ತೆಗೆದುಕೋ"],
+    "correctIndex": 0,
+    "gloss": "What advice does the proverb 'stretch your legs only as far as the bed goes' give? — Spend within your means; the image explains itself."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ರಾಜ, ರಾಣಿ, ರೋರರ್, ರಾಕೆಟ್ ಎಂಬ ನಾಲ್ಕು ಧಾರೆಗಳಾಗಿ ಧುಮುಕುವ ಜೋಗ ಜಲಪಾತವನ್ನು ಸೃಷ್ಟಿಸುವ ನದಿ ಯಾವುದು?",
+    "options": ["ಕಾವೇರಿ", "ತುಂಗಾ", "ಶರಾವತಿ", "ಕಾಳಿ"],
+    "correctIndex": 2,
+    "gloss": "Which river forms Jog Falls, which drops in four streams called Raja, Rani, Roarer and Rocket? — The Sharavathi."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ಶ್ರೀ ರಾಮಾಯಣ ದರ್ಶನಂ” ಮಹಾಕಾವ್ಯಕ್ಕಾಗಿ ಕನ್ನಡಕ್ಕೆ ಮೊದಲ ಜ್ಞಾನಪೀಠ ಪ್ರಶಸ್ತಿ ತಂದುಕೊಟ್ಟ ಕವಿ ಯಾರು?",
+    "options": ["ಕುವೆಂಪು", "ದ. ರಾ. ಬೇಂದ್ರೆ", "ಶಿವರಾಮ ಕಾರಂತ", "ಮಾಸ್ತಿ ವೆಂಕಟೇಶ ಅಯ್ಯಂಗಾರ್"],
+    "correctIndex": 0,
+    "gloss": "Which poet brought Kannada its first Jnanpith Award, for the epic 'Sri Ramayana Darshanam'? — Kuvempu (1967). The others are later Kannada Jnanpith laureates."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ನಯನ” ಪದವನ್ನು ಹಿಂದಿನಿಂದ ಮುಂದಕ್ಕೆ ಓದಿದರೂ “ನಯನ”ವೇ ಆಗುತ್ತದೆ. ಈ ಪದಗಳಲ್ಲಿ ಅದೇ ಗುಣ ಇರುವುದು ಯಾವುದು?",
+    "options": ["ಕಮಲ", "ನಗರ", "ಪವನ", "ಜಲಜ"],
+    "correctIndex": 3,
+    "gloss": "'Nayana' (eye) reads the same backwards (na-ya-na). Which of these words does too? — Jalaja (ja-la-ja, 'lotus'); kamala, nagara and pavana do not. The aha: kamala also means lotus."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ನೀರು ತುಂಬಿ ಬಿಗಿಯಾಗಿ ಮುಚ್ಚಳ ಹಾಕಿದ ಗಾಜಿನ ಬಾಟಲಿಯನ್ನು ಫ್ರೀಜರ್‌ನಲ್ಲಿಟ್ಟರೆ ಒಡೆದುಹೋಗಬಹುದು. ಏಕೆ?",
+    "options": ["ಚಳಿಯಲ್ಲಿ ಗಾಜು ಮೆತ್ತಗಾಗುತ್ತದೆ", "ನೀರು ಹೆಪ್ಪುಗಟ್ಟುವಾಗ ಹಿಗ್ಗುತ್ತದೆ", "ಬಾಟಲಿಯೊಳಗೆ ಅನಿಲ ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ", "ಮಂಜುಗಡ್ಡೆ ನೀರಿಗಿಂತ ಭಾರ"],
+    "correctIndex": 1,
+    "gloss": "A glass bottle filled with water and tightly capped can burst in the freezer. Why? — Water expands as it freezes; the same reason ice floats, which rules out 'ice is heavier than water'."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ತುಂಗಭದ್ರಾ ತೀರದ ಹಂಪಿ ಯಾವ ಸಾಮ್ರಾಜ್ಯದ ರಾಜಧಾನಿಯಾಗಿತ್ತು?",
+    "options": ["ಹೊಯ್ಸಳ", "ಚಾಲುಕ್ಯ", "ವಿಜಯನಗರ", "ರಾಷ್ಟ್ರಕೂಟ"],
+    "correctIndex": 2,
+    "gloss": "Hampi, on the Tungabhadra, was the capital of which empire? — Vijayanagara."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ಕರ್ನಾಟಕ ಸಂಗೀತ ಪಿತಾಮಹ” ಎಂದು ಗೌರವಿಸಲ್ಪಡುವ ಹರಿದಾಸರು ಯಾರು?",
+    "options": ["ಕನಕದಾಸರು", "ವಿಜಯದಾಸರು", "ಜಗನ್ನಾಥದಾಸರು", "ಪುರಂದರದಾಸರು"],
+    "correctIndex": 3,
+    "gloss": "Which Haridasa is honoured as the 'father of Carnatic music'? — Purandara Dasa, who laid out the graded lessons still taught to beginners."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ಸಾಲಾಗಿ ನೆಟ್ಟ ಐದು ಕಂಬಗಳಲ್ಲಿ ಪಕ್ಕಪಕ್ಕದ ಎರಡು ಕಂಬಗಳ ನಡುವೆ 2 ಮೀಟರ್ ಅಂತರವಿದೆ. ಮೊದಲ ಕಂಬದಿಂದ ಕೊನೆಯ ಕಂಬಕ್ಕೆ ಎಷ್ಟು ದೂರ?",
+    "options": ["8 ಮೀಟರ್", "10 ಮೀಟರ್", "12 ಮೀಟರ್", "9 ಮೀಟರ್"],
+    "correctIndex": 0,
+    "gloss": "Five posts stand in a row, 2 m apart. How far is it from the first to the last? — 8 m: five posts have only four gaps. 10 m is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಎರಡು ಜೇಡ ಮತ್ತು ಮೂರು ಇರುವೆಗಳ ಕಾಲುಗಳನ್ನು ಒಟ್ಟು ಎಣಿಸಿದರೆ ಎಷ್ಟಾಗುತ್ತದೆ?",
+    "options": ["28", "30", "40", "34"],
+    "correctIndex": 3,
+    "gloss": "Count the legs of two spiders and three ants together. — 34: a spider has 8 legs, an ant (an insect) 6; 16 + 18."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಟೆಸ್ಟ್ ಕ್ರಿಕೆಟ್‌ನಲ್ಲಿ 600ಕ್ಕೂ ಹೆಚ್ಚು ವಿಕೆಟ್ ಪಡೆದು “ಜಂಬೋ” ಎಂದೇ ಖ್ಯಾತರಾದ ಬೆಂಗಳೂರಿನ ಬೌಲರ್ ಯಾರು?",
+    "options": ["ಜಾವಗಲ್ ಶ್ರೀನಾಥ್", "ಅನಿಲ್ ಕುಂಬ್ಳೆ", "ಬಿ. ಎಸ್. ಚಂದ್ರಶೇಖರ್", "ಇ. ಎ. ಎಸ್. ಪ್ರಸನ್ನ"],
+    "correctIndex": 1,
+    "gloss": "Which Bengaluru bowler, nicknamed 'Jumbo', took more than 600 Test wickets? — Anil Kumble (619). The others are also Karnataka bowlers."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಭಾರತೀಯ ಬಾಹ್ಯಾಕಾಶ ಸಂಶೋಧನಾ ಸಂಸ್ಥೆಯ (ಇಸ್ರೋ) ಕೇಂದ್ರ ಕಚೇರಿ ಯಾವ ಊರಿನಲ್ಲಿದೆ?",
+    "options": ["ಶ್ರೀಹರಿಕೋಟ", "ತಿರುವನಂತಪುರ", "ಅಹಮದಾಬಾದ್", "ಬೆಂಗಳೂರು"],
+    "correctIndex": 3,
+    "gloss": "Where is the headquarters of ISRO? — Bengaluru. Sriharikota is the launch site, Thiruvananthapuram has the rocket centre, Ahmedabad the Space Applications Centre."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ಒಂದು ಪುಸ್ತಕದ 1ರಿಂದ 20ರವರೆಗಿನ ಪುಟಗಳಿಗೆ ಸಂಖ್ಯೆ ಮುದ್ರಿಸಲು ಒಟ್ಟು ಎಷ್ಟು ಅಂಕೆಗಳು ಬೇಕು?",
+    "options": ["20", "31", "29", "40"],
+    "correctIndex": 1,
+    "gloss": "How many digits are needed to number pages 1 to 20? — 31: nine one-digit pages plus eleven two-digit pages (10–20) × 2 = 22."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಆದಿಕವಿ ಪಂಪನ ಯಾವ ಕೃತಿ ಮಹಾಭಾರತದ ಕಥೆಯನ್ನು ಆಧರಿಸಿದೆ?",
+    "options": ["ಆದಿಪುರಾಣ", "ಗದಾಯುದ್ಧ", "ಕರ್ಣಾಟ ಭಾರತ ಕಥಾಮಂಜರಿ", "ವಿಕ್ರಮಾರ್ಜುನ ವಿಜಯ"],
+    "correctIndex": 3,
+    "gloss": "Which work of Pampa, the 'first poet', retells the Mahabharata? — Vikramarjuna Vijaya (Pampa Bharata). Adipurana is Pampa's Jain work; Gadayuddha (Ranna) and Karnata Bharata Kathamanjari (Kumaravyasa) are Mahabharata works by others."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಹುಣ್ಣಿಮೆಯ ದಿನ ಸೂರ್ಯ ಪಶ್ಚಿಮದಲ್ಲಿ ಮುಳುಗುತ್ತಿರುವಾಗ ಪೂರ್ಣಚಂದ್ರ ಆಕಾಶದಲ್ಲಿ ಎಲ್ಲಿರುತ್ತಾನೆ?",
+    "options": ["ಪೂರ್ವದಲ್ಲಿ ಉದಯಿಸುತ್ತಿರುತ್ತಾನೆ", "ನೆತ್ತಿಯ ಮೇಲೆ ಇರುತ್ತಾನೆ", "ಪಶ್ಚಿಮದಲ್ಲಿ ಸೂರ್ಯನ ಪಕ್ಕ ಇರುತ್ತಾನೆ", "ಇನ್ನೂ ಆರು ಗಂಟೆ ಉದಯಿಸುವುದಿಲ್ಲ"],
+    "correctIndex": 0,
+    "gloss": "On a full-moon day, as the sun sets in the west, where is the full moon? — Rising in the east: the Moon is fully lit only when it is opposite the Sun."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1969ರಲ್ಲಿ ನೀಲ್ ಆರ್ಮ್‌ಸ್ಟ್ರಾಂಗ್ ನಂತರ ಚಂದ್ರನ ಮೇಲೆ ಕಾಲಿಟ್ಟ ಎರಡನೆಯ ಮನುಷ್ಯ ಯಾರು?",
+    "options": ["ಮೈಕೆಲ್ ಕಾಲಿನ್ಸ್", "ಯೂರಿ ಗಗಾರಿನ್", "ಬಝ್ ಆಲ್ಡ್ರಿನ್", "ಜಾನ್ ಗ್ಲೆನ್"],
+    "correctIndex": 2,
+    "gloss": "In 1969, who was the second person to step on the Moon after Neil Armstrong? — Buzz Aldrin. Michael Collins, the third Apollo 11 astronaut, stayed in orbit."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಅಡುಗೆಗೆ ಬಣ್ಣ ಮತ್ತು ಘಮ ಕೊಡುವ ಕೇಸರಿಯ ಎಳೆಗಳು ಆ ಗಿಡದ ಯಾವ ಭಾಗ?",
+    "options": ["ಹೂವಿನ ದಳ", "ಹೂವಿನ ಕೇಸರ", "ಬೀಜದ ಸಿಪ್ಪೆ", "ಹೂವಿನ ಶಲಾಕಾಗ್ರ"],
+    "correctIndex": 3,
+    "gloss": "The saffron threads that colour and scent food are which part of the plant? — The stigmas of the crocus flower. 'Kesara' (stamen) is the trap, since it sounds like 'kesari'."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಒಂದೇ ಪ್ರಾಚೀನ ಲಿಪಿಯಿಂದ ಕವಲೊಡೆದು ಇಂದಿಗೂ ಕನ್ನಡ ಲಿಪಿಯನ್ನು ಅತ್ಯಂತ ಹೋಲುವ ಲಿಪಿ ಯಾವ ಭಾಷೆಯದು?",
+    "options": ["ತೆಲುಗು", "ತಮಿಳು", "ಮಲಯಾಳಂ", "ಮರಾಠಿ"],
+    "correctIndex": 0,
+    "gloss": "Which language's script branched from the same ancient script and still looks most like Kannada's? — Telugu (both descend from the old Telugu-Kannada script)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಒಬ್ಬ ವ್ಯಕ್ತಿ ಕ್ರಿ.ಪೂ. 50ರ ಜನವರಿ 1ರಂದು ಹುಟ್ಟಿ ಕ್ರಿ.ಶ. 50ರ ಜನವರಿ 1ರಂದು ತೀರಿಕೊಂಡರೆ, ಆಗ ಅವನಿಗೆ ಎಷ್ಟು ವರ್ಷ ತುಂಬಿತ್ತು?",
+    "options": ["100", "99", "101", "98"],
+    "correctIndex": 1,
+    "gloss": "Someone born on 1 January 50 BC dies on 1 January AD 50. How old are they? — 99: the calendar has no year 0; 1 BC is followed directly by AD 1."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಡಾ. ರಾಜ್‌ಕುಮಾರ್ ಚಿತ್ರರಂಗಕ್ಕೆ ಬರುವ ಮೊದಲು ಅವರ ಹೆಸರೇನಿತ್ತು?",
+    "options": ["ವರದರಾಜ್", "ನಾಗರಾಜ್", "ಮುತ್ತುರಾಜ್", "ಶಿವರಾಜ್"],
+    "correctIndex": 2,
+    "gloss": "What was Dr. Rajkumar's name before he entered films? — Muthuraj. Varadaraj was his brother, Shivaraj(kumar) his son."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಮರುಭೂಮಿಯಲ್ಲಿ ದಿನಗಟ್ಟಲೆ ಆಹಾರವಿಲ್ಲದೆ ಸಾಗುವ ಒಂಟೆಯ ಡುಬ್ಬದಲ್ಲಿ ಮುಖ್ಯವಾಗಿ ಏನು ಶೇಖರವಾಗಿರುತ್ತದೆ?",
+    "options": ["ನೀರು", "ರಕ್ತ", "ಗಾಳಿ", "ಕೊಬ್ಬು"],
+    "correctIndex": 3,
+    "gloss": "What is mainly stored in the hump of a camel that crosses the desert for days without food? — Fat, not water, as is often believed."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ಯುಗಾದಿಯಿಂದ ಆರಂಭವಾಗುವ ಪ್ರತಿ ಸಂವತ್ಸರಕ್ಕೂ ಪ್ರಭವ, ವಿಭವ… ಹೀಗೆ ಹೆಸರಿದೆ. ಒಬ್ಬರು ಹುಟ್ಟಿದ ಸಂವತ್ಸರದ ಹೆಸರು ಮತ್ತೆ ಬರುವುದು ಅವರಿಗೆ ಎಷ್ಟು ವರ್ಷ ತುಂಬಿದಾಗ?",
+    "options": ["60", "12", "30", "100"],
+    "correctIndex": 0,
+    "gloss": "Each year starting at Ugadi has a name: Prabhava, Vibhava… At what age does the name of your birth year come round again? — 60: the cycle has 60 names, which is why the 60th birthday (shashtyabdapurti) is celebrated."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಶ್ರವಣಬೆಳಗೊಳದ ವಿಂಧ್ಯಗಿರಿಯ ಮೇಲಿನ ಗೊಮ್ಮಟೇಶ್ವರನ ಏಕಶಿಲಾ ಮೂರ್ತಿಯನ್ನು ಕೆತ್ತಿಸಿದವರು ಯಾರು?",
+    "options": ["ವಿಷ್ಣುವರ್ಧನ", "ಚಾವುಂಡರಾಯ", "ಗಂಗರಾಜ", "ಮಯೂರವರ್ಮ"],
+    "correctIndex": 1,
+    "gloss": "Who had the monolithic Gommateshwara statue on Vindhyagiri at Shravanabelagola carved? — Chavundaraya, minister of the Western Ganga kings (c. 983). Gangaraja, a Hoysala general, built at Shravanabelagola later, which makes him a trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಮಿಂಚು ಕಂಡ ಆರು ಸೆಕೆಂಡುಗಳ ನಂತರ ಗುಡುಗಿನ ಸದ್ದು ಕೇಳಿಸಿತು. ಸಿಡಿಲು ಸುಮಾರು ಎಷ್ಟು ದೂರದಲ್ಲಿ ಬಡಿದಿರಬಹುದು?",
+    "options": ["200 ಮೀಟರ್", "6 ಕಿಲೋಮೀಟರ್", "20 ಕಿಲೋಮೀಟರ್", "2 ಕಿಲೋಮೀಟರ್"],
+    "correctIndex": 3,
+    "gloss": "You hear thunder six seconds after the flash. About how far away did the lightning strike? — About 2 km: sound travels about 340 m a second, the light arrives almost instantly."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಅಲ್ಲಮಪ್ರಭುವಿನ ವಚನಗಳ ಅಂಕಿತ ಯಾವುದು?",
+    "options": ["ಕೂಡಲಸಂಗಮದೇವ", "ಚೆನ್ನಮಲ್ಲಿಕಾರ್ಜುನ", "ಗುಹೇಶ್ವರ", "ರಾಮನಾಥ"],
+    "correctIndex": 2,
+    "gloss": "What is the signature name (ankita) in Allama Prabhu's vachanas? — Guheshwara. Kudalasangamadeva is Basavanna's, Chennamallikarjuna Akkamahadevi's, Ramanatha Jedara Dasimayya's."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಸಮಭಾಜಕ ವೃತ್ತ ಮತ್ತು ಮಕರ ಸಂಕ್ರಾಂತಿ ವೃತ್ತ — ಎರಡೂ ಹಾದುಹೋಗುವ ಏಕೈಕ ದೇಶ ಯಾವುದು?",
+    "options": ["ಬ್ರೆಜಿಲ್", "ಇಂಡೋನೇಷ್ಯಾ", "ಕೀನ್ಯಾ", "ಪೆರು"],
+    "correctIndex": 0,
+    "gloss": "Which is the only country crossed by both the Equator and the Tropic of Capricorn? — Brazil. Indonesia and Kenya have only the Equator; Peru neither."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕಾಳಿದಾಸ ಮತ್ತು ಭಾರವಿಯರ ಹೆಸರನ್ನು ಉಲ್ಲೇಖಿಸುವ ಐಹೊಳೆ ಶಾಸನವನ್ನು ಕವಿ ರವಿಕೀರ್ತಿ ಯಾವ ದೊರೆಯ ಕೀರ್ತಿಗಾಗಿ ರಚಿಸಿದನು?",
+    "options": ["ಅಮೋಘವರ್ಷ ನೃಪತುಂಗ", "ಕೃಷ್ಣದೇವರಾಯ", "ಮಂಗಳೇಶ", "ಇಮ್ಮಡಿ ಪುಲಕೇಶಿ"],
+    "correctIndex": 3,
+    "gloss": "The Aihole inscription, which mentions Kalidasa and Bharavi, was composed by the poet Ravikirti in praise of which king? — Pulakeshin II of the Badami Chalukyas. Mangalesha, his uncle and predecessor, is the close trap."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಯುರೋಪಿನ ಗೀತೆಯಾಗಿ ಬಳಸಲಾಗುವ “ಓಡ್ ಟು ಜಾಯ್” ಬೀಥೋವನ್‌ನ ಯಾವ ಸಿಂಫನಿಯ ಕೊನೆಯ ಭಾಗದಿಂದ ಬಂದದ್ದು?",
+    "options": ["ಐದನೆಯ ಸಿಂಫನಿ", "ಒಂಬತ್ತನೆಯ ಸಿಂಫನಿ", "ಮೂರನೆಯ ಸಿಂಫನಿ", "ಆರನೆಯ ಸಿಂಫನಿ"],
+    "correctIndex": 1,
+    "gloss": "'Ode to Joy', used as the anthem of Europe, comes from the finale of which Beethoven symphony? — The Ninth."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಕಂಪ್ಯೂಟರ್‌ನ ಒಂದು ಬಿಟ್ 0 ಅಥವಾ 1 ಮಾತ್ರ ಆಗಿರಬಲ್ಲದು. ಹಾಗಾದರೆ ಒಂದು ಬೈಟ್ ಎಷ್ಟು ಬೇರೆ ಬೇರೆ ಮೌಲ್ಯಗಳನ್ನು ಹಿಡಿದಿಡಬಲ್ಲದು?",
+    "options": ["256", "8", "16", "128"],
+    "correctIndex": 0,
+    "gloss": "A bit can only be 0 or 1. How many different values can one byte hold? — 256: a byte is 8 bits, and 2⁸ = 256."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಗ್ರೀಕ್ ಪುರಾಣದಲ್ಲಿ ದೇವತೆಗಳಿಂದ ಬೆಂಕಿಯನ್ನು ಕದ್ದು ಮನುಷ್ಯರಿಗೆ ಕೊಟ್ಟು ಶಿಕ್ಷೆಗೊಳಗಾದವನು ಯಾರು?",
+    "options": ["ಹರ್ಮಿಸ್", "ಅಟ್ಲಾಸ್", "ಪ್ರೊಮಿಥಿಯಸ್", "ಹೆಫೆಸ್ಟಸ್"],
+    "correctIndex": 2,
+    "gloss": "In Greek myth, who stole fire from the gods, gave it to humans and was punished for it? — Prometheus. Hephaestus is the god of the forge, a natural trap."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಗಾಲ್ಫ್‌ನಲ್ಲಿ “ಪಾರ್ 5” ಇರುವ ಹೋಲ್‌ಗೆ ಚೆಂಡನ್ನು ಕೇವಲ ಮೂರು ಹೊಡೆತಗಳಲ್ಲಿ ತಲುಪಿಸಿದರೆ ಅದಕ್ಕೆ ಏನೆನ್ನುತ್ತಾರೆ?",
+    "options": ["ಬರ್ಡಿ", "ಈಗಲ್", "ಬೋಗಿ", "ಆಲ್ಬಟ್ರಾಸ್"],
+    "correctIndex": 1,
+    "gloss": "In golf, what do you call holing out a par-5 in just three strokes? — An eagle: two under par. Birdie is one under, albatross three under, bogey one over."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ಚೆನ್ನಾಗಿ ಆಡು” ಎಂಬರ್ಥದ ಪದಗಳಿಂದ ಹೆಸರು ಪಡೆದ ಲೆಗೋ ಆಟಿಕೆ ಇಟ್ಟಿಗೆಗಳು ಮೂಲತಃ ಯಾವ ದೇಶದವು?",
+    "options": ["ಸ್ವೀಡನ್", "ಜರ್ಮನಿ", "ನೆದರ್ಲ್ಯಾಂಡ್ಸ್", "ಡೆನ್ಮಾರ್ಕ್"],
+    "correctIndex": 3,
+    "gloss": "LEGO bricks take their name from words meaning 'play well'. Which country are they from? — Denmark: Danish 'leg godt'."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಹಳೆಗನ್ನಡದಲ್ಲಿ ಬಳಕೆಯಲ್ಲಿದ್ದು ಇಂದು ಕೈಬಿಡಲಾಗಿರುವ “ಶಕಟರೇಫ” ಎಂಬ ಅಕ್ಷರ ಯಾವುದು?",
+    "options": ["ೞ", "ಙ", "ಞ", "ಱ"],
+    "correctIndex": 3,
+    "gloss": "Which letter is the 'shakata repha', used in Old Kannada and dropped today? — ಱ (a second, trilled 'r'). ೞ is the other obsolete letter (the old 'ḻ'), ಙ and ಞ are nasals still in the alphabet."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಸಮಭಾಜಕ ವೃತ್ತದ ಮೇಲೆ ನಿಂತು ರಾತ್ರಿಯ ಆಕಾಶ ನೋಡಿದರೆ ಧ್ರುವ ನಕ್ಷತ್ರ ಎಲ್ಲಿ ಕಾಣುತ್ತದೆ?",
+    "options": ["ಉತ್ತರದ ದಿಗಂತಕ್ಕೆ ತಾಗಿಕೊಂಡಂತೆ", "ನೆತ್ತಿಯ ಮೇಲೆ", "ಉತ್ತರ ಆಕಾಶದ ಅರ್ಧ ಎತ್ತರದಲ್ಲಿ", "ದಕ್ಷಿಣದ ದಿಗಂತದ ಬಳಿ"],
+    "correctIndex": 0,
+    "gloss": "Standing on the Equator at night, where do you see the Pole Star? — Right on the northern horizon: its height above the horizon equals your latitude, here 0°."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಜೇನುಗೂಡಿನ ಒಂದು ಗಂಡು ನೊಣಕ್ಕೆ (ಡ್ರೋನ್) ಅದರ ವಂಶವೃಕ್ಷದಲ್ಲಿ ಎಷ್ಟು ಅಜ್ಜಂದಿರು ಇರುತ್ತಾರೆ?",
+    "options": ["0", "2", "1", "4"],
+    "correctIndex": 2,
+    "gloss": "How many grandfathers does a male honeybee (drone) have in its family tree? — One: a drone hatches from an unfertilised egg, so it has a mother but no father; its mother, the queen, has both a father and a mother."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ನಾಲ್ಕೂ ಕಡೆಯಿಂದ ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ ದೇಶವೊಂದರಿಂದಲೇ ಸಂಪೂರ್ಣವಾಗಿ ಸುತ್ತುವರಿದಿರುವ ದೇಶ ಯಾವುದು?",
+    "options": ["ಇಸ್ವಾಟಿನಿ", "ಲೆಸೊಥೊ", "ಬೋಟ್ಸ್‌ವಾನ", "ನಮೀಬಿಯಾ"],
+    "correctIndex": 1,
+    "gloss": "Which country is entirely surrounded by South Africa alone? — Lesotho. Eswatini also borders Mozambique."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಬೇಲೂರು ಮತ್ತು ಹಳೇಬೀಡಿನ ಹೊಯ್ಸಳ ದೇವಾಲಯಗಳ ಸೂಕ್ಷ್ಮ ಕೆತ್ತನೆ ಸಾಧ್ಯವಾದದ್ದು ಯಾವ ಕಲ್ಲಿನಿಂದ?",
+    "options": ["ಬಳಪದ ಕಲ್ಲು", "ಅಮೃತಶಿಲೆ", "ಕೆಂಪು ಮರಳುಗಲ್ಲು", "ಕಪ್ಪು ಕಣಶಿಲೆ"],
+    "correctIndex": 0,
+    "gloss": "Which stone made the fine carving of the Hoysala temples at Belur and Halebidu possible? — Soapstone (chloritic schist), soft when quarried and hardening with time. Badami's temples are red sandstone."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1934ರಲ್ಲಿ ತೆರೆಕಂಡ ಕನ್ನಡದ ಮೊದಲ ವಾಕ್ಚಿತ್ರ ಯಾವುದು?",
+    "options": ["ಭಕ್ತ ಧ್ರುವ", "ಬೇಡರ ಕಣ್ಣಪ್ಪ", "ಸಂಸಾರ ನೌಕೆ", "ಸತಿ ಸುಲೋಚನ"],
+    "correctIndex": 3,
+    "gloss": "What was the first Kannada talkie, released in 1934? — Sati Sulochana. Bhakta Dhruva came out later the same year; Samsara Nauke (1936) and Bedara Kannappa (1954) are later milestones."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಮಧ್ಯ ಸ್ಥಾಯಿಯ ಷಡ್ಜದ ಕಂಪನಾಂಕ 240 ಹರ್ಟ್ಜ್ ಆಗಿದ್ದರೆ, ತಾರ ಸ್ಥಾಯಿಯ ಷಡ್ಜದ ಕಂಪನಾಂಕ ಎಷ್ಟು?",
+    "options": ["360 ಹರ್ಟ್ಜ್", "480 ಹರ್ಟ್ಜ್", "300 ಹರ್ಟ್ಜ್", "960 ಹರ್ಟ್ಜ್"],
+    "correctIndex": 1,
+    "gloss": "If middle-octave Sa is 240 Hz, what is Sa in the upper octave? — 480 Hz: one octave up doubles the frequency. 360 Hz would be Pa, the fifth."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಬೆಂಗಳೂರಿನ ಪೀಣ್ಯದಲ್ಲಿ ನಿರ್ಮಿಸಲಾದ ಭಾರತದ ಮೊದಲ ಉಪಗ್ರಹ “ಆರ್ಯಭಟ” 1975ರಲ್ಲಿ ಯಾವ ದೇಶದ ರಾಕೆಟ್ ಮೂಲಕ ಕಕ್ಷೆ ಸೇರಿತು?",
+    "options": ["ಅಮೆರಿಕ", "ಫ್ರಾನ್ಸ್", "ಸೋವಿಯತ್ ಒಕ್ಕೂಟ", "ಜಪಾನ್"],
+    "correctIndex": 2,
+    "gloss": "India's first satellite, Aryabhata, built at Peenya in Bengaluru, reached orbit in 1975 on whose rocket? — The Soviet Union's (Kosmos-3M, from Kapustin Yar)."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಐತಿಹ್ಯದ ಪ್ರಕಾರ ಬಾಬಾ ಬುಡನ್ ಏಳು ಕಾಫಿ ಬೀಜಗಳನ್ನು ಗುಟ್ಟಾಗಿ ತಂದು ಚಿಕ್ಕಮಗಳೂರಿನ ಬೆಟ್ಟಗಳಲ್ಲಿ ನೆಟ್ಟದ್ದು. ಅವನ್ನು ಅವರು ಎಲ್ಲಿಂದ ತಂದರು?",
+    "options": ["ಇಥಿಯೋಪಿಯಾ", "ಬ್ರೆಜಿಲ್", "ಶ್ರೀಲಂಕಾ", "ಯೆಮೆನ್"],
+    "correctIndex": 3,
+    "gloss": "By legend, Baba Budan smuggled seven coffee beans and planted them in the hills of Chikkamagaluru. Where did he bring them from? — Yemen (the port of Mocha). Ethiopia, coffee's homeland, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ನೇಪಾಳದ ಪ್ರಮಾಣಿತ ಸಮಯ ಗ್ರೀನಿಚ್‌ಗಿಂತ 5 ಗಂಟೆ 45 ನಿಮಿಷ ಮುಂದಿದೆ. ಹಾಗಾದರೆ ಅದು ಯಾವ ರೇಖಾಂಶದ ಸ್ಥಳೀಯ ಸಮಯಕ್ಕೆ ಹೊಂದುತ್ತದೆ?",
+    "options": ["86°15′ ಪೂರ್ವ", "82°30′ ಪೂರ್ವ", "84°45′ ಪೂರ್ವ", "90° ಪೂರ್ವ"],
+    "correctIndex": 0,
+    "gloss": "Nepal's standard time is 5 h 45 min ahead of Greenwich. Which meridian's local time does it match? — 86°15′ E: the Earth turns 15° an hour, and 5.75 × 15 = 86.25°. 82°30′ is India's meridian (+5:30)."
+  }
+]
