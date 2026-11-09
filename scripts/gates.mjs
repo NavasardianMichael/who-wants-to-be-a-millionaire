@@ -124,12 +124,20 @@ const GATES = [
     skip: /^server\/src\/(lib\/mail|config)\.ts$/,
   },
   {
-    name: 'no GEMINI key outside lib/gemini.ts',
+    name: 'no GEMINI key outside lib/ai/gemini.ts',
     why: 'One reader per secret — server/CLAUDE.md',
     root: 'server/src',
     exts: ['.ts'],
     pattern: /gemini\.key/,
-    skip: /^server\/src\/(lib\/gemini|config)\.ts$/,
+    skip: /^server\/src\/(lib\/ai\/gemini|config)\.ts$/,
+  },
+  {
+    name: 'no OPENROUTER key outside lib/ai/openrouter.ts',
+    why: 'One reader per secret — server/CLAUDE.md',
+    root: 'server/src',
+    exts: ['.ts'],
+    pattern: /openrouter\.key/,
+    skip: /^server\/src\/(lib\/ai\/openrouter|config)\.ts$/,
   },
 ]
 

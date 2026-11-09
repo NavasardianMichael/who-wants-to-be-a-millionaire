@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართული ნათქვამის თანახმად, სტუმარი ვისია?",
+    "options": ["მასპინძლისა", "ღვთისა", "მეზობლისა", "სოფლისა"],
+    "correctIndex": 1,
+    "gloss": "According to the Georgian saying, whose is a guest? — God's: „სტუმარი ღვთისაა“."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ზეგ ხუთშაბათი იქნება. რა დღე იყო გუშინ?",
+    "options": ["ორშაბათი", "სამშაბათი", "ოთხშაბათი", "კვირა"],
+    "correctIndex": 0,
+    "gloss": "The day after tomorrow is Thursday. What day was yesterday? — Monday: today is Tuesday."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელ ხაჭაპურს აცხობენ ნავის ფორმით და მიირთმევენ შუაში ჩადებული კვერცხითა და კარაქით?",
+    "options": ["იმერულს", "მეგრულს", "აჭარულს", "ფენოვანს"],
+    "correctIndex": 2,
+    "gloss": "Which khachapuri is boat-shaped and served with an egg and butter in the middle? — Adjarian."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "პეპელა კვერცხიდან ფრთებით არ იჩეკება. რა ჰქვია მას, სანამ ჭუპრად გადაიქცევა?",
+    "options": ["თავკომბალა", "ჭიაყელა", "ლოკოკინა", "მუხლუხო"],
+    "correctIndex": 3,
+    "gloss": "A butterfly doesn't hatch with wings. What is it called before it turns into a pupa? — A caterpillar; the tadpole is the frog's larva."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ფეხბურთის მატჩის დაწყებისას მოედანზე ორივე გუნდიდან ერთად რამდენი მოთამაშეა?",
+    "options": ["20", "22", "24", "11"],
+    "correctIndex": 1,
+    "gloss": "At kick-off, how many players are on the pitch from both teams together? — 22: eleven per side, doubled."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ნოდარ დუმბაძის რომანის სათაურში — „მე, ბებია, ილიკო და ...“ — ვინ აკლია?",
+    "options": ["ილარიონი", "ზურიკელა", "გოგია", "სოსო"],
+    "correctIndex": 0,
+    "gloss": "Who is missing from the title of Nodar Dumbadze's novel \"Me, Grandma, Iliko and ...\"? — Ilarion."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ლიფტით მეხუთე სართულიდან სამი სართულით ჩავედით, მერე ექვსით ავედით. რომელ სართულზე ვართ?",
+    "options": ["მეცხრეზე", "მერვეზე", "მეთოთხმეტეზე", "მეორეზე"],
+    "correctIndex": 1,
+    "gloss": "From the 5th floor we went down three floors, then up six. Which floor are we on? — The 8th: 5 − 3 + 6. 14th is the trap of adding everything."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელია სამსიმიანი ქართული ხალხური საკრავი?",
+    "options": ["ჩონგური", "ფანდური", "ბალალაიკა", "დუდუკი"],
+    "correctIndex": 1,
+    "gloss": "Which is the three-stringed Georgian folk instrument? — The panduri; the chonguri has four strings, the balalaika is Russian, the duduk is a wind instrument."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართულ სუფრაზე ვინ წარმოთქვამს სადღეგრძელოებს და უძღვება ქეიფს?",
+    "options": ["მეჯვარე", "მასპინძელი", "თამადა", "მერიქიფე"],
+    "correctIndex": 2,
+    "gloss": "At a Georgian supra, who proposes the toasts and leads the feast? — The tamada; the merikipe pours the wine, the mejvare is a wedding witness."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "კომპიუტერთან რომელი მოწყობილობით ვამოძრავებთ ეკრანზე ისარს?",
+    "options": ["მაუსით", "კლავიატურით", "მონიტორით", "პრინტერით"],
+    "correctIndex": 0,
+    "gloss": "Which device do we use to move the pointer on a computer screen? — The mouse."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართული ხალხური ბურთის თამაში — ლელო — ყველაზე მეტად რომელ თანამედროვე სპორტს წააგავს?",
+    "options": ["ფეხბურთს", "ხელბურთს", "რაგბის", "ჰოკეის"],
+    "correctIndex": 2,
+    "gloss": "Which modern sport does the Georgian folk ball game lelo resemble most? — Rugby; the national rugby team is even nicknamed „ლელოები“."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ნინოს სამი და ჰყავს, თითოეულ მათგანს კი — ერთი ძმა. სულ რამდენი შვილია ამ ოჯახში?",
+    "options": ["4", "5", "7", "8"],
+    "correctIndex": 1,
+    "gloss": "Nino has three sisters, and each of them has one brother. How many children are in the family? — 5: four girls and the same one brother."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელი მეფე დაკრძალეს თავისივე ნებით გელათის მონასტრის კარიბჭეში, რათა ყოველ შემსვლელს მასზე გაევლო?",
+    "options": ["გიორგი III", "ბაგრატ III", "ერეკლე II", "დავით IV"],
+    "correctIndex": 3,
+    "gloss": "Which king was buried, at his own wish, in the gateway of Gelati so that everyone entering would step over him? — David IV the Builder."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "როცა საქართველოში ზაფხულია, რა სეზონია ავსტრალიაში?",
+    "options": ["ზაფხული", "ზამთარი", "გაზაფხული", "შემოდგომა"],
+    "correctIndex": 1,
+    "gloss": "When it is summer in Georgia, what season is it in Australia? — Winter: the hemispheres have opposite seasons."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ლითონს მიიზიდავს ჩვეულებრივი მაგნიტი?",
+    "options": ["სპილენძს", "ალუმინს", "რკინას", "ოქროს"],
+    "correctIndex": 2,
+    "gloss": "Which metal does an ordinary magnet attract? — Iron; copper, aluminium and gold are not attracted."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ განასახიერა ფილმ „მიმინოში“ მფრინავი ვალიკო მიზანდარი?",
+    "options": ["რამაზ ჩხიკვაძემ", "კახი კავსაძემ", "სერგო ზაქარიაძემ", "ვახტანგ კიკაბიძემ"],
+    "correctIndex": 3,
+    "gloss": "Who played the pilot Valiko Mizandari in \"Mimino\"? — Vakhtang Kikabidze."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ქართულ ანბანში ხმოვნების სახელებს ერთი ნიმუში აქვს: ა — „ან“, ი — „ინ“, ო — „ონ“. რა ჰქვია ასო „ე“-ს?",
+    "options": ["ებ", "ენ", "ელ", "ეს"],
+    "correctIndex": 1,
+    "gloss": "Georgian vowel letters are named by a pattern: a is \"an\", i is \"in\", o is \"on\". What is the letter e called? — \"en\": vowel + n."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "კოლხეთში რისთვის ჩამოვიდნენ იასონი და არგონავტები?",
+    "options": ["ოქროს საწმისისთვის", "ოქროს ვაშლისთვის", "წმინდა გრაალისთვის", "სპილენძის ფარისთვის"],
+    "correctIndex": 0,
+    "gloss": "What did Jason and the Argonauts come to Colchis for? — The Golden Fleece."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ვიდეოთამაშების ერთ-ერთი ყველაზე ცნობილი გმირი, ულვაშიანი მარიო, რა პროფესიისაა?",
+    "options": ["სანტექნიკოსი", "ხაბაზი", "მზარეული", "ელექტრიკოსი"],
+    "correctIndex": 0,
+    "gloss": "What is the profession of Mario, the moustached video-game hero? — A plumber. (Carpenter, his very first job, is deliberately not an option.)"
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "რიცხვების მწკრივი: 1, 1, 2, 3, 5, 8, … რომელია შემდეგი?",
+    "options": ["11", "12", "13", "16"],
+    "correctIndex": 2,
+    "gloss": "1, 1, 2, 3, 5, 8, … what comes next? — 13: each number is the sum of the two before it (Fibonacci)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელია საქართველოს უმაღლესი მწვერვალი?",
+    "options": ["მყინვარწვერი", "უშბა", "შხარა", "თეთნულდი"],
+    "correctIndex": 2,
+    "gloss": "What is Georgia's highest peak? — Shkhara (about 5,200 m); the famous Kazbek (Mkinvartsveri) is lower."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ქართულად 80 „ოთხმოცია“ — ოთხჯერ ოცი. რომელ ენაშია 80 ასევე „ოთხი ოცი“?",
+    "options": ["ფრანგულში", "იტალიურში", "ესპანურში", "გერმანულში"],
+    "correctIndex": 0,
+    "gloss": "In Georgian 80 is \"four twenties\". In which language is 80 also \"four twenties\"? — French: quatre-vingts."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართული თქმულების გმირი ამირანი ღმერთს შეებრძოლა და კავკასიონზე მიაჯაჭვეს. რომელ ბერძენ გმირს ადარებენ მას ყველაზე ხშირად?",
+    "options": ["ჰერაკლეს", "პრომეთეს", "თეზევსს", "ოდისევსს"],
+    "correctIndex": 1,
+    "gloss": "Amirani defied God and was chained in the Caucasus. Which Greek hero is he most often compared to? — Prometheus, also chained in the Caucasus."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ბოთლში ზუსტად ერთი ლიტრი წყალია. რა მოცულობა ექნება ამ წყალს, როცა მთლიანად გაიყინება?",
+    "options": ["ლიტრზე ნაკლები", "ზუსტად ერთი ლიტრი", "ლიტრზე ოდნავ მეტი", "ორ ლიტრზე მეტი"],
+    "correctIndex": 2,
+    "gloss": "A bottle holds exactly one litre of water. What volume will it have once frozen? — Slightly more than a litre (about 1.09 L): ice is less dense, which is why it floats."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "საათისა და წუთის ისრები შუადღეს ერთმანეთს ფარავს. შუაღამემდე, შუაღამის ჩათვლით, კიდევ რამდენჯერ დაემთხვევა ისინი?",
+    "options": ["10", "11", "12", "13"],
+    "correctIndex": 1,
+    "gloss": "The hour and minute hands coincide at noon. Up to and including midnight, how many more times will they coincide? — 11: around 1:05, 2:11 … 10:55 and at midnight; there is no overlap in the 11 o'clock hour."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "თბილისში შუადღეა. რომელი საათია ამ დროს ლონდონში, ზამთარში?",
+    "options": ["10:00", "09:00", "16:00", "08:00"],
+    "correctIndex": 3,
+    "gloss": "It is noon in Tbilisi. What time is it in London in winter? — 08:00: Georgia is UTC+4 all year, London is UTC+0 in winter."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ნიკო ფიროსმანი თავის ნახატთა უმეტესობას ტილოს ნაცვლად რაზე ხატავდა?",
+    "options": ["მინაზე", "აბრეშუმზე", "შავ მუშამბაზე", "სპილენძის ფირფიტაზე"],
+    "correctIndex": 2,
+    "gloss": "Instead of canvas, what did Niko Pirosmani paint most of his works on? — Black oilcloth."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელი ქართული ხალხური სიმღერა გაფრინდა 1977 წელს კოსმოსში „ვოიაჯერის“ ოქროს ფირფიტით?",
+    "options": ["„სულიკო“", "„ჩაკრულო“", "„ურმული“", "„მრავალჟამიერი“"],
+    "correctIndex": 1,
+    "gloss": "Which Georgian folk song flew into space in 1977 on Voyager's Golden Record? — \"Chakrulo\"."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ზღვის ბინადარს სამი გული აქვს?",
+    "options": ["დელფინს", "მედუზას", "ზღვის ზღარბს", "რვაფეხას"],
+    "correctIndex": 3,
+    "gloss": "Which sea creature has three hearts? — The octopus (two gill hearts and one systemic heart); the jellyfish has none."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "„საქართველო“ ქართველების მხარეა: სა- + ქართველ + -ო. რომელი კუთხის სახელია ზუსტად ასევე ნაწარმოები ხალხის სახელიდან?",
+    "options": ["კახეთი", "იმერეთი", "სამეგრელო", "აჭარა"],
+    "correctIndex": 2,
+    "gloss": "\"Sakartvelo\" is the land of the Kartvelians: sa- + Kartvel + -o. Which region's name is built the same way from a people's name? — Samegrelo: sa- + Megrel + -o; Kakheti and Imereti use -eti."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვაჟა-ფშაველა ფსევდონიმია. რა ერქვა პოეტს სინამდვილეში?",
+    "options": ["ლუკა რაზიკაშვილი", "ნიკო რაზიკაშვილი", "თედო რაზიკაშვილი", "გიორგი რაზიკაშვილი"],
+    "correctIndex": 0,
+    "gloss": "Vazha-Pshavela is a pen name. What was the poet's real name? — Luka Razikashvili; Niko (\"Bachana\") and Teodore were his writer brothers."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„ვედრება“, „ნატვრის ხე“ და „მონანიება“ ერთი რეჟისორის ტრილოგიაა. ვინ არის ის?",
+    "options": ["ოთარ იოსელიანი", "ელდარ შენგელაია", "თენგიზ აბულაძე", "გიორგი დანელია"],
+    "correctIndex": 2,
+    "gloss": "\"The Plea\", \"The Wishing Tree\" and \"Repentance\" form one director's trilogy. Who? — Tengiz Abuladze."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "პირველი ქართული ნაბეჭდი წიგნი 1629 წელს გამოვიდა. სად?",
+    "options": ["თბილისში", "რომში", "ვენეციაში", "მოსკოვში"],
+    "correctIndex": 1,
+    "gloss": "The first printed Georgian book appeared in 1629. Where? — Rome; Tbilisi got its first press only in 1709 under Vakhtang VI."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ელვის გაელვებიდან ქუხილის გაგონებამდე სამი წამი გავიდა. დაახლოებით რა მანძილზეა ელვა?",
+    "options": ["10 კილომეტრზე", "100 მეტრზე", "100 კილომეტრზე", "1 კილომეტრზე"],
+    "correctIndex": 3,
+    "gloss": "Three seconds passed between the flash and the thunder. Roughly how far away is the lightning? — About 1 km: sound travels about 340 m per second."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელია ყველაზე ჩრდილოეთით მდებარე დამოუკიდებელი ქვეყნის დედაქალაქი?",
+    "options": ["ოსლო", "ჰელსინკი", "რეიკიავიკი", "სტოკჰოლმი"],
+    "correctIndex": 2,
+    "gloss": "Which is the northernmost capital of a sovereign country? — Reykjavik (about 64°N); Helsinki and Oslo are near 60°N."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ნაკიან წელს თებერვალს 29 დღე აქვს. რომელი ამ წლებიდან არ არის ნაკიანი?",
+    "options": ["1996", "2000", "2024", "2100"],
+    "correctIndex": 3,
+    "gloss": "In a leap year February has 29 days. Which of these years is not a leap year? — 2100: century years are leap only if divisible by 400, which is why 2000 was one."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ იყო მსოფლიოში პირველი ქალი, რომელსაც ჭადრაკში დიდოსტატის საერთო, არა მხოლოდ ქალთა, წოდება მიენიჭა?",
+    "options": ["მაია ჩიბურდანიძე", "ნონა გაფრინდაშვილი", "ნანა ალექსანდრია", "ნანა იოსელიანი"],
+    "correctIndex": 1,
+    "gloss": "Who was the first woman in the world awarded the full (not women's) chess grandmaster title? — Nona Gaprindashvili, in 1978."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ინგლისური Thursday ქუხილის ღმერთ ტორს ეძღვნება. ფრანგულად ხუთშაბათს jeudi ჰქვია — ის რომელ რომაულ ღმერთს ეძღვნება?",
+    "options": ["მარსს", "იუპიტერს", "ნეპტუნს", "სატურნს"],
+    "correctIndex": 1,
+    "gloss": "English Thursday is Thor's day, the thunder god. French jeudi is dedicated to which Roman god? — Jupiter (Jovis dies), the Roman thunder god; Mars gives mardi, Saturn gives Saturday."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ყურძნის რომელი ჯიშისგან მზადდება ნახევრად ტკბილი წითელი „ქინძმარაული“?",
+    "options": ["ალექსანდროულისგან", "ოჯალეშისგან", "რქაწითელისგან", "საფერავისგან"],
+    "correctIndex": 3,
+    "gloss": "Which grape variety is the semi-sweet red Kindzmarauli made from? — Saperavi; Alexandrouli makes Khvanchkara, Ojaleshi is Megrelian, Rkatsiteli is white."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "რომაულ რიცხვებში რომელი წელია MCMXCIX?",
+    "options": ["1999", "1899", "1949", "2009"],
+    "correctIndex": 0,
+    "gloss": "Which year is MCMXCIX in Roman numerals? — 1999: M 1000 + CM 900 + XC 90 + IX 9."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "გიორგი მერჩულემ X საუკუნეში რომელი წმინდანის ცხოვრება აღწერა?",
+    "options": ["აბო თბილელის", "გრიგოლ ხანძთელის", "შუშანიკ დედოფლის", "ევსტათი მცხეთელის"],
+    "correctIndex": 1,
+    "gloss": "Whose life did Giorgi Merchule write in the 10th century? — St Grigol of Khandzta (951); Abo's martyrdom is by Ioane Sabanisdze, Shushanik's by Iakob Tsurtaveli."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ოქროს ქიმიური სიმბოლოა Au (aurum), რკინისა — Fe (ferrum). რომელი ელემენტია Pb?",
+    "options": ["პლატინა", "ფოსფორი", "ტყვია", "კალა"],
+    "correctIndex": 2,
+    "gloss": "Gold is Au (aurum), iron Fe (ferrum). Which element is Pb? — Lead, from Latin plumbum; platinum is Pt, phosphorus P, tin Sn."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ქვეყანაშია მსოფლიოში ყველაზე მაღალი ჩანჩქერი — ანხელი?",
+    "options": ["ვენესუელაში", "ბრაზილიაში", "კოლუმბიაში", "გაიანაში"],
+    "correctIndex": 0,
+    "gloss": "Which country is home to Angel Falls, the world's highest waterfall? — Venezuela."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ არის თბილისის „ქართლის დედის“ ქანდაკების ავტორი?",
+    "options": ["ზურაბ წერეთელი", "იაკობ ნიკოლაძე", "ელგუჯა ამაშუკელი", "მერაბ ბერძენიშვილი"],
+    "correctIndex": 2,
+    "gloss": "Who sculpted Tbilisi's \"Mother of Georgia\" (Kartlis Deda)? — Elguja Amashukeli (1958)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "როგორ უწოდა სულხან-საბა ორბელიანმა თავის განმარტებით ლექსიკონს?",
+    "options": ["„სიბრძნე სიცრუისა“", "„დედა ენა“", "„ქართლის ცხოვრება“", "„სიტყვის კონა“"],
+    "correctIndex": 3,
+    "gloss": "What did Sulkhan-Saba Orbeliani call his explanatory dictionary? — \"Sitqvis Kona\" (A Bouquet of Words); \"The Wisdom of Lying\" is his book of fables."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "რამდენი სხვადასხვა მნიშვნელობის ჩაწერა შეიძლება ერთ ბაიტში?",
+    "options": ["8", "255", "256", "1024"],
+    "correctIndex": 2,
+    "gloss": "How many different values can one byte hold? — 256: a byte is 8 bits, 2⁸ = 256 (0 to 255, so 255 is the trap)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "საქართველოს ჰიმნის — „თავისუფლების“ — მუსიკა რომელი კომპოზიტორის ოპერების მელოდიებზეა აგებული?",
+    "options": ["ზაქარია ფალიაშვილის", "მელიტონ ბალანჩივაძის", "დიმიტრი არაყიშვილის", "გია ყანჩელის"],
+    "correctIndex": 0,
+    "gloss": "The music of Georgia's anthem \"Tavisupleba\" is built on melodies from whose operas? — Zakaria Paliashvili's (\"Abesalom and Eteri\", \"Daisi\")."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ქალაქში გაიმართა 1930 წელს ფეხბურთის პირველი მსოფლიო ჩემპიონატის ყველა მატჩი?",
+    "options": ["ბუენოს-აირესში", "რიო-დე-ჟანეიროში", "სანტიაგოში", "მონტევიდეოში"],
+    "correctIndex": 3,
+    "gloss": "In which city were all matches of the first football World Cup in 1930 played? — Montevideo, Uruguay."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელია პირველი არაინგლისურენოვანი ფილმი, რომელმაც „ოსკარი“ საუკეთესო ფილმის ნომინაციაში მოიგო?",
+    "options": ["„რომა“", "„ამელი“", "„პარაზიტი“", "„ცხოვრება მშვენიერია“"],
+    "correctIndex": 2,
+    "gloss": "Which was the first non-English-language film to win the Oscar for Best Picture? — \"Parasite\" (2020); \"Roma\" was nominated a year earlier but lost."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი ცხოველის ექსკრემენტს აქვს კუბის ფორმა?",
+    "options": ["კოალას", "ვომბატის", "კენგურუს", "ექიდნას"],
+    "correctIndex": 1,
+    "gloss": "Which animal produces cube-shaped droppings? — The wombat."
+  }
+]

@@ -3,7 +3,7 @@
  *
  * In-memory and per-process: counters reset on restart and are not shared across instances,
  * so this is a cheap abuse brake, not an accounting boundary. One API process holds all
- * traffic, so it is accurate today. It matters most in front of Gemini, whose free quota is
+ * traffic, so it is accurate today. It matters most in front of the AI provider, whose free quota is
  * shared by every visitor.
  */
 

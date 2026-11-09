@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Completa el refrán: «A caballo regalado no se le mira el…»",
+    "options": ["pelo", "diente", "casco", "lomo"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Don't look a gift horse in the...' — Tooth (diente): «A caballo regalado no se le mira el diente»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mi abuelo es mayor que mi padre, y mi padre es mayor que yo. ¿Quién es el más joven de los tres?",
+    "options": ["Mi abuelo", "Mi padre", "Yo", "Imposible saberlo"],
+    "correctIndex": 2,
+    "gloss": "My grandfather is older than my father, and my father is older than me. Who is the youngest of the three? — Me: grandfather > father > me. 'Impossible to know' is for players who rush."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el animal más grande que ha existido jamás, incluso mayor que los dinosaurios?",
+    "options": ["La jirafa", "El elefante africano", "El tiburón ballena", "La ballena azul"],
+    "correctIndex": 3,
+    "gloss": "What is the biggest animal that has ever lived, even bigger than the dinosaurs? — The blue whale; the whale shark is the biggest fish, not the biggest animal."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué escritor, apodado el Manco de Lepanto, creó a don Quijote y a Sancho Panza?",
+    "options": ["Miguel de Cervantes", "Lope de Vega", "Francisco de Quevedo", "Luis de Góngora"],
+    "correctIndex": 0,
+    "gloss": "Which writer, nicknamed the one-handed man of Lepanto, created Don Quixote and Sancho Panza? — Miguel de Cervantes; the other three are fellow Golden Age writers."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿De qué semillas, fermentadas, tostadas y molidas, se obtiene el chocolate?",
+    "options": ["Café", "Vainilla", "Cacao", "Almendra"],
+    "correctIndex": 2,
+    "gloss": "From which seeds, fermented, roasted and ground, is chocolate made? — Cacao beans."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué personaje de cuento ve crecerle la nariz cada vez que dice una mentira?",
+    "options": ["Peter Pan", "Pinocho", "Aladino", "Pulgarcito"],
+    "correctIndex": 1,
+    "gloss": "Which storybook character's nose grows every time he lies? — Pinocchio."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tengo 10 caramelos, regalo la mitad y después me como 2 de los que me quedan. ¿Cuántos caramelos me quedan?",
+    "options": ["2", "3", "5", "8"],
+    "correctIndex": 1,
+    "gloss": "I have 10 sweets, give away half, then eat 2 of the rest. How many are left? — 3: 10 → 5 → 3."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Si hoy es miércoles, ¿qué día de la semana será dentro de tres días?",
+    "options": ["Jueves", "Viernes", "Sábado", "Domingo"],
+    "correctIndex": 2,
+    "gloss": "If today is Wednesday, what day will it be in three days? — Saturday: Thursday, Friday, Saturday."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "¿Cuál de estas partes del cuerpo es un palíndromo, es decir, se lee igual al derecho que al revés?",
+    "options": ["Mano", "Pie", "Codo", "Ojo"],
+    "correctIndex": 3,
+    "gloss": "Which of these body parts is a palindrome, reading the same forwards and backwards? — Ojo (eye); mano, pie and codo are not."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿En qué país se llenan de altares, velas y flores de cempasúchil las casas y los cementerios durante el Día de Muertos?",
+    "options": ["México", "Argentina", "Colombia", "España"],
+    "correctIndex": 0,
+    "gloss": "In which country do homes and cemeteries fill with altars, candles and marigolds for the Day of the Dead? — Mexico (a UNESCO intangible heritage tradition)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En español, «lunes» viene de la Luna, «martes» de Marte y «jueves» de Júpiter. ¿De qué astro viene «viernes»?",
+    "options": ["Mercurio", "Venus", "Saturno", "El Sol"],
+    "correctIndex": 1,
+    "gloss": "Lunes comes from the Moon, martes from Mars, jueves from Jupiter. What does viernes come from? — Venus; the pattern (Vi-/Venus) and elimination (Mercury is miércoles, the Sun is domingo) give it."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Entre los países de Sudamérica, ¿cuál tiene el portugués como lengua oficial?",
+    "options": ["Uruguay", "Paraguay", "Bolivia", "Brasil"],
+    "correctIndex": 3,
+    "gloss": "Among the South American countries, which has Portuguese as its official language? — Brazil."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué pueblo levantó, en lo alto de una montaña de Perú, la ciudadela de Machu Picchu?",
+    "options": ["Aztecas", "Mayas", "Incas", "Olmecas"],
+    "correctIndex": 2,
+    "gloss": "Which people built the citadel of Machu Picchu on a mountaintop in Peru? — The Incas; the others are Mesoamerican peoples."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "options": ["Tibia", "Húmero", "Fémur", "Peroné"],
+    "correctIndex": 2,
+    "gloss": "What is the longest bone in the human body? — The femur (thigh bone)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "¿Cuántos meses del año tienen al menos 28 días?",
+    "options": ["1", "2", "11", "12"],
+    "correctIndex": 3,
+    "gloss": "How many months of the year have at least 28 days? — All 12; February is the shortest and has 28."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Las Meninas», con la infanta Margarita rodeada de sus damas, es la obra más famosa de…",
+    "options": ["Goya", "Velázquez", "El Greco", "Murillo"],
+    "correctIndex": 1,
+    "gloss": "'Las Meninas', with the infanta Margarita surrounded by her ladies, is the most famous work of... — Velázquez."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué fontanero bigotudo, con gorra roja, es la mascota de Nintendo?",
+    "options": ["Mario", "Luigi", "Sonic", "Link"],
+    "correctIndex": 0,
+    "gloss": "Which moustached plumber in a red cap is Nintendo's mascot? — Mario; Luigi wears green."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué legumbre es el ingrediente principal del hummus?",
+    "options": ["Lentejas", "Judías", "Garbanzos", "Guisantes"],
+    "correctIndex": 2,
+    "gloss": "Which legume is the main ingredient of hummus? — Chickpeas."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "¿Qué número continúa esta serie: 1, 4, 9, 16, …?",
+    "options": ["20", "24", "25", "36"],
+    "correctIndex": 2,
+    "gloss": "Which number continues 1, 4, 9, 16...? — 25: the squares 1², 2², 3², 4², 5²."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un caracol quiere salir de un pozo de 5 metros. De día sube 3 metros y de noche resbala 2. ¿Cuántos días tarda en salir?",
+    "options": ["2 días", "3 días", "4 días", "5 días"],
+    "correctIndex": 1,
+    "gloss": "A snail climbs 3 m by day and slips 2 m by night in a 5 m well. How many days? — 3: it is at 1 m, then 2 m, and on the third day climbs from 2 m to 5 m and is out before sliding back."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué gas es el más abundante en el aire que respiramos?",
+    "options": ["Oxígeno", "Dióxido de carbono", "Argón", "Nitrógeno"],
+    "correctIndex": 3,
+    "gloss": "Which gas is the most abundant in the air we breathe? — Nitrogen (about 78%); oxygen is about 21%."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "¿Cuál de estas palabras contiene las cinco vocales, cada una al menos una vez?",
+    "options": ["Murciélago", "Aeropuerto", "Biblioteca", "Mariposa"],
+    "correctIndex": 0,
+    "gloss": "Which of these words contains all five vowels? — Murciélago (u-i-e-a-o); aeropuerto lacks i, biblioteca lacks u, mariposa has only a, i, o."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un reloj da 3 campanadas y entre la primera y la última pasan 4 segundos. ¿Cuántos segundos pasan entre la primera y la última cuando da 5 campanadas?",
+    "options": ["6 segundos", "7 segundos", "8 segundos", "10 segundos"],
+    "correctIndex": 2,
+    "gloss": "A clock strikes 3 times, 4 seconds from first to last. How long from first to last when it strikes 5 times? — 8 seconds: 3 strikes have 2 gaps of 2 s; 5 strikes have 4 gaps."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Julio César nunca llegó a ser emperador. ¿Quién fue el primer emperador de Roma, hijo adoptivo suyo?",
+    "options": ["Nerón", "Augusto", "Trajano", "Calígula"],
+    "correctIndex": 1,
+    "gloss": "Julius Caesar never became emperor. Who was Rome's first emperor, his adopted son? — Augustus (Octavian); Nero, Trajan and Caligula came later."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué lago, a más de 3.800 metros de altura, comparten Perú y Bolivia?",
+    "options": ["Maracaibo", "Poopó", "Nicaragua", "Titicaca"],
+    "correctIndex": 3,
+    "gloss": "Which lake, above 3,800 m, do Peru and Bolivia share? — Lake Titicaca (3,812 m); Poopó is wholly Bolivian."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Quién escribió «Cien años de soledad», la novela que transcurre en el pueblo imaginario de Macondo?",
+    "options": ["Mario Vargas Llosa", "Julio Cortázar", "Gabriel García Márquez", "Carlos Fuentes"],
+    "correctIndex": 2,
+    "gloss": "Who wrote 'One Hundred Years of Solitude', set in the imaginary town of Macondo? — Gabriel García Márquez; the others are other Latin American 'boom' authors."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué arquitecto modernista dedicó más de cuarenta años de su vida a la Sagrada Familia de Barcelona?",
+    "options": ["Antoni Gaudí", "Lluís Domènech i Montaner", "Josep Puig i Cadafalch", "Santiago Calatrava"],
+    "correctIndex": 0,
+    "gloss": "Which modernist architect devoted over forty years of his life to the Sagrada Familia in Barcelona? — Gaudí (1883 until his death in 1926); the other two are Catalan modernists, Calatrava is a modern architect."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántos trabajos tuvo que cumplir Hércules, el héroe de la mitología grecorromana?",
+    "options": ["Siete", "Nueve", "Doce", "Quince"],
+    "correctIndex": 2,
+    "gloss": "How many labours did Hercules have to perform? — Twelve."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Los ordenadores cuentan solo con ceros y unos. ¿Qué número de nuestro sistema decimal es 1101 en binario?",
+    "options": ["9", "11", "12", "13"],
+    "correctIndex": 3,
+    "gloss": "Computers count only with zeros and ones. Which decimal number is 1101 in binary? — 13: 8 + 4 + 0 + 1; you need to know that binary places are powers of two."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En un torneo de eliminatoria directa participan 16 equipos y quien pierde queda fuera. ¿Cuántos partidos se juegan en total hasta conocer al campeón?",
+    "options": ["8", "15", "16", "32"],
+    "correctIndex": 1,
+    "gloss": "In a 16-team knockout tournament, how many matches are played in total? — 15: every match eliminates exactly one team and 15 must go (8+4+2+1)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Si el Sol se apagara de repente, ¿cuánto tardaríamos en notarlo en la Tierra?",
+    "options": ["Unos 8 minutos", "Unos 8 segundos", "Unas 8 horas", "Nada: lo notaríamos al instante"],
+    "correctIndex": 0,
+    "gloss": "If the Sun suddenly went out, how long until we noticed on Earth? — About 8 minutes: nothing travels faster than light, and light (and gravity's change) takes about 8 minutes to cross 150 million km."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ves un relámpago y oyes el trueno seis segundos después. ¿A qué distancia, aproximadamente, ha caído el rayo?",
+    "options": ["Unos 6 kilómetros", "Unos 600 metros", "Unos 20 kilómetros", "Unos 2 kilómetros"],
+    "correctIndex": 3,
+    "gloss": "You see lightning and hear thunder six seconds later. About how far did it strike? — About 2 km: light is instant, sound travels about 340 m/s, so 6 × 340 ≈ 2,000 m."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Muchas palabras españolas que empiezan por «al-» llegaron del árabe. ¿Cuál de estas, en cambio, viene del latín?",
+    "options": ["Alto", "Almohada", "Alcalde", "Albañil"],
+    "correctIndex": 0,
+    "gloss": "Many Spanish words starting with 'al-' came from Arabic. Which of these comes from Latin instead? — Alto (Latin altus); almohada, alcalde and albañil are Arabic."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "En español, un «billón» no equivale al «billion» del inglés. ¿Cuántos ceros tiene?",
+    "options": ["9", "12", "15", "18"],
+    "correctIndex": 1,
+    "gloss": "In Spanish a 'billón' is not the English 'billion'. How many zeros has it? — 12: a billón is a million millions (10^12); the English billion is a mil millones (10^9)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Cuál es la capital constitucional de Bolivia?",
+    "options": ["La Paz", "Cochabamba", "Santa Cruz", "Sucre"],
+    "correctIndex": 3,
+    "gloss": "What is the constitutional capital of Bolivia? — Sucre; La Paz is the seat of government."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Quién fue la primera persona latinoamericana en ganar el Premio Nobel de Literatura, en 1945?",
+    "options": ["Gabriela Mistral", "Pablo Neruda", "Alfonsina Storni", "Octavio Paz"],
+    "correctIndex": 0,
+    "gloss": "Who was the first Latin American to win the Nobel Prize in Literature, in 1945? — Gabriela Mistral; Neruda won in 1971 and Paz in 1990."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antes de un concierto, ¿qué instrumento de la orquesta da tradicionalmente la nota «la» para que los demás se afinen?",
+    "options": ["Violín", "Flauta", "Trompeta", "Oboe"],
+    "correctIndex": 3,
+    "gloss": "Before a concert, which orchestral instrument traditionally gives the note A for the others to tune to? — The oboe."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué villa, hasta entonces modesta, eligió Felipe II en 1561 como sede de la corte, y hoy es la capital de España?",
+    "options": ["Madrid", "Toledo", "Valladolid", "Sevilla"],
+    "correctIndex": 0,
+    "gloss": "Which until-then modest town did Philip II choose in 1561 as the seat of the court, today Spain's capital? — Madrid; Toledo was the more important city, Valladolid hosted the court only briefly (1601-1606)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En el rugby a quince, ¿cuántos puntos vale un ensayo, sin contar la transformación?",
+    "options": ["Tres", "Cuatro", "Cinco", "Seis"],
+    "correctIndex": 2,
+    "gloss": "In rugby union, how many points is a try worth, not counting the conversion? — Five; four is the trap, since a try is worth four in rugby league."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué película de animación fue la primera nominada al Óscar a mejor película, en 1992?",
+    "options": ["El rey león", "La bella y la bestia", "Toy Story", "Aladdín"],
+    "correctIndex": 1,
+    "gloss": "Which animated film was the first nominated for the Best Picture Oscar, in 1992? — Beauty and the Beast; Toy Story and The Lion King were not nominated for Best Picture."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "En conjunto, ¿en qué dirección avanza un barco que cruza el canal de Panamá desde el Atlántico hacia el Pacífico?",
+    "options": ["Hacia el oeste", "Hacia el norte", "Hacia el suroeste", "Hacia el sureste"],
+    "correctIndex": 3,
+    "gloss": "Overall, in what direction does a ship go crossing the Panama Canal from the Atlantic to the Pacific? — Southeast: the isthmus curves, and the Pacific entrance (Balboa) is south and slightly east of the Atlantic one (Colón)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hay una temperatura en la que un termómetro Celsius y uno Fahrenheit marcan exactamente lo mismo. ¿Cuál es?",
+    "options": ["−40 grados", "−32 grados", "0 grados", "40 grados"],
+    "correctIndex": 0,
+    "gloss": "There is one temperature at which Celsius and Fahrenheit thermometers read the same. Which? — −40: F = 1.8·C + 32, and C = F gives C = −40."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Quién recibió en 1976 la primera edición del Premio Cervantes, el máximo galardón de las letras hispánicas?",
+    "options": ["Alejo Carpentier", "Jorge Guillén", "Dámaso Alonso", "Jorge Luis Borges"],
+    "correctIndex": 1,
+    "gloss": "Who received the first Cervantes Prize in 1976, the highest honour of Hispanic letters? — Jorge Guillén; Carpentier won in 1977, Borges (shared) in 1979."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué tratado, firmado en 1494, repartió entre España y Portugal las tierras descubiertas fuera de Europa mediante una línea trazada en el Atlántico?",
+    "options": ["Tratado de Alcáçovas", "Tratado de Utrecht", "Tratado de Tordesillas", "Tratado de Versalles"],
+    "correctIndex": 2,
+    "gloss": "Which treaty of 1494 divided newly found lands outside Europe between Spain and Portugal along a line in the Atlantic? — Tordesillas; Alcáçovas (1479) was an earlier Spain-Portugal agreement."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "La «ñ» nació en los manuscritos medievales como una abreviatura de dos letras seguidas. ¿Cuáles?",
+    "options": ["nn", "ny", "gn", "nh"],
+    "correctIndex": 0,
+    "gloss": "The ñ began in medieval manuscripts as an abbreviation of two consecutive letters. Which? — nn; ny, gn and nh are how Catalan, Italian/French and Portuguese write the same sound."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué inventor español creó en los años veinte el autogiro, precursor del helicóptero?",
+    "options": ["Isaac Peral", "Narcís Monturiol", "Leonardo Torres Quevedo", "Juan de la Cierva"],
+    "correctIndex": 3,
+    "gloss": "Which Spanish inventor created the autogyro in the 1920s, a forerunner of the helicopter? — Juan de la Cierva; the others are Spanish inventors of submarines (Peral, Monturiol) and the cable car/Telekino (Torres Quevedo)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+    "options": ["Silicio", "Oxígeno", "Hierro", "Aluminio"],
+    "correctIndex": 1,
+    "gloss": "Which chemical element is the most abundant in the Earth's crust? — Oxygen (about 46% by mass), mostly bound in silicates; silicon is second."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Quién pintó el tríptico «El jardín de las delicias», que se conserva en el Museo del Prado?",
+    "options": ["Brueghel el Viejo", "Jan van Eyck", "El Bosco", "Alberto Durero"],
+    "correctIndex": 2,
+    "gloss": "Who painted the triptych 'The Garden of Earthly Delights', kept in the Prado Museum? — Hieronymus Bosch (El Bosco)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántos kilómetros mide exactamente la distancia oficial de un maratón?",
+    "options": ["42,195 km", "42 km", "41,195 km", "43 km"],
+    "correctIndex": 0,
+    "gloss": "How long exactly is the official marathon distance? — 42.195 km."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué pueblo de Mesopotamia inventó la escritura cuneiforme, una de las primeras de la historia?",
+    "options": ["Asirios", "Hititas", "Babilonios", "Sumerios"],
+    "correctIndex": 3,
+    "gloss": "Which people of Mesopotamia invented cuneiform writing, one of the earliest in history? — The Sumerians; Babylonians and Assyrians used it later."
+  }
+]

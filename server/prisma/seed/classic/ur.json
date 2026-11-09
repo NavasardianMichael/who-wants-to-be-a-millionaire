@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "مشہور کہاوت ہے: ”نیکی کر، ___ میں ڈال“۔ خالی جگہ میں کیا آئے گا؟",
+    "options": ["دریا", "کنویں", "سمندر", "تالاب"],
+    "correctIndex": 0,
+    "gloss": "The saying goes: 'Do good and throw it in the ___'. — River: «نیکی کر دریا میں ڈال», do good without expecting thanks."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "نہاری کا نام ”نہار منہ“ سے بنا ہے۔ اسی نسبت سے یہ پکوان روایتی طور پر کب کھایا جاتا تھا؟",
+    "options": ["دوپہر کے کھانے میں", "صبح سویرے ناشتے میں", "شام کی چائے کے ساتھ", "رات کے کھانے میں"],
+    "correctIndex": 1,
+    "gloss": "Nihari is named after 'nihar munh' (on an empty stomach). When was it traditionally eaten? — Early morning, at breakfast: 'nihar munh' means first thing in the morning before eating."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "شہد کی مکھیاں شہد کس چیز سے بناتی ہیں؟",
+    "options": ["درختوں کی گوند", "پتوں کی اوس", "پھولوں کا رس", "پکے پھلوں کا گودا"],
+    "correctIndex": 2,
+    "gloss": "What do honeybees make honey from? — Flower nectar."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پاکستان کا کون سا شہر ملک کا پہلا دارالحکومت بھی رہا اور آج بھی اس کی سب سے بڑی بندرگاہ ہے؟",
+    "options": ["لاہور", "پشاور", "کوئٹہ", "کراچی"],
+    "correctIndex": 3,
+    "gloss": "Which Pakistani city was the first capital and is still the largest port? — Karachi (capital until the move to Rawalpindi/Islamabad in 1959-60s)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ایک درجن انڈوں میں سے آدھے ٹوٹ گئے، اور جو بچے ان میں سے آدھے ابال لیے گئے۔ اب کتنے انڈے ثابت اور کچے ہیں؟",
+    "options": ["۳", "۶", "۴", "۲"],
+    "correctIndex": 0,
+    "gloss": "Of a dozen eggs half broke, and half of the rest were boiled. How many are whole and raw? — 3: 12 → 6 → 3."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "آج کل کے قوانین کے مطابق کرکٹ کے ایک اوور میں کتنی جائز گیندیں ہوتی ہیں؟",
+    "options": ["آٹھ", "چھ", "پانچ", "دس"],
+    "correctIndex": 1,
+    "gloss": "Under today's laws, how many legal balls in a cricket over? — Six. Eight-ball overs were once used (Australia, also Pakistan in the 1970s), hence 'today'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اگر کوئی بچہ ماں باپ کی ”آنکھوں کا تارا“ ہو تو اس کا مطلب کیا ہے؟",
+    "options": ["وہ بہت شرارتی ہے", "وہ رات بھر جاگتا ہے", "وہ انہیں بہت پیارا ہے", "اس کی نظر بہت تیز ہے"],
+    "correctIndex": 2,
+    "gloss": "If a child is the 'star of the eyes' of the parents, what does it mean? — They love him dearly (idiom = apple of one's eye)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ایک ہفتے میں کل کتنے گھنٹے ہوتے ہیں؟",
+    "options": ["۱۴۴", "۱۹۲", "۱۲۰", "۱۶۸"],
+    "correctIndex": 3,
+    "gloss": "How many hours are in a week? — 168 = 24 × 7."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کارٹون ”ٹام اینڈ جیری“ میں جیری کون ہے؟",
+    "options": ["چوہا", "بلی", "گلہری", "کتا"],
+    "correctIndex": 0,
+    "gloss": "In 'Tom and Jerry', what is Jerry? — A mouse. Tom is the cat, Spike the dog."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "آسمان پر قوسِ قزح دیکھنے کے لیے کن دو چیزوں کا ایک ساتھ ہونا ضروری ہے؟",
+    "options": ["بادل اور ہوا", "بارش کی بوندیں اور دھوپ", "چاند کی روشنی اور کہرا", "گرج اور بجلی"],
+    "correctIndex": 1,
+    "gloss": "Which two things must be present together to see a rainbow? — Raindrops and sunshine: drops split sunlight into colours."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پتنگ بازی کا تہوار بسنت سب سے بڑھ کر کس شہر کی پہچان رہا ہے؟",
+    "options": ["کراچی", "ملتان", "لاہور", "حیدرآباد"],
+    "correctIndex": 2,
+    "gloss": "The kite festival Basant has above all been the hallmark of which city? — Lahore."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اسکولوں میں صبح پڑھی جانے والی دعا ”لب پہ آتی ہے دعا بن کے تمنا میری“ کس شاعر نے لکھی؟",
+    "options": ["فیض احمد فیض", "الطاف حسین حالی", "مرزا غالب", "علامہ اقبال"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the school morning prayer 'Lab pe aati hai dua'? — Allama Iqbal ('Bachche ki Dua', in Bang-e-Dara)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "تبت سے نکل کر پورے پاکستان کو شمال سے جنوب تک طے کرنے والا دریائے سندھ آخرکار کس سمندر میں جا گرتا ہے؟",
+    "options": ["بحیرۂ عرب", "خلیج بنگال", "بحیرۂ احمر", "خلیج فارس"],
+    "correctIndex": 0,
+    "gloss": "Rising in Tibet and crossing Pakistan north to south, into which sea does the Indus finally flow? — The Arabian Sea, near Thatta/Karachi."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "اگر پرسوں جمعہ تھا تو آنے والا کل کون سا دن ہوگا؟",
+    "options": ["اتوار", "ہفتہ", "پیر", "منگل"],
+    "correctIndex": 2,
+    "gloss": "If the day before yesterday was Friday, what day is tomorrow? — Monday: yesterday Saturday, today Sunday."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "آج جیسا کاغذ، جو چیتھڑوں اور پودوں کے ریشوں کو گلا کر بنتا ہے، سب سے پہلے کس ملک میں بنایا گیا؟",
+    "options": ["مصر", "یونان", "ایران", "چین"],
+    "correctIndex": 3,
+    "gloss": "Paper as we know it, made from pulped rags and plant fibres, was first made where? — China (Han dynasty). Egypt's papyrus is a different material."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "”پنجاب“ کا مطلب ہے پانچ دریاؤں کی سرزمین۔ اسی حساب سے ”دوآبہ“ کسے کہتے ہیں؟",
+    "options": ["دو دریاؤں کے بیچ کی زمین", "دو پہاڑوں کے بیچ کی وادی", "دو فصلوں والا کھیت", "دو شہروں کو ملانے والی سڑک"],
+    "correctIndex": 0,
+    "gloss": "'Punjab' means land of five rivers. By the same logic, what is a 'doaba'? — Land between two rivers: panj + aab = five waters, do + aab = two waters."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ٹینس کے چاروں گرینڈ سلام ٹورنامنٹس میں سے صرف ومبلڈن کس قسم کے کورٹ پر کھیلا جاتا ہے؟",
+    "options": ["مٹی", "گھاس", "سخت کورٹ", "لکڑی"],
+    "correctIndex": 1,
+    "gloss": "Of tennis's four Grand Slams, on what surface is Wimbledon alone played? — Grass (French Open clay, US and Australian Opens hard courts)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "نصرت فتح علی خان کو دنیا بھر میں کس صنف کا شہنشاہ مانا جاتا ہے؟",
+    "options": ["غزل", "ٹھمری", "قوالی", "لوک گیت"],
+    "correctIndex": 2,
+    "gloss": "Nusrat Fateh Ali Khan is hailed worldwide as the emperor of which genre? — Qawwali ('Shahenshah-e-Qawwali')."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ایک دکاندار نے ۱۰۰ روپے کی چیز کی قیمت ۱۰ فیصد بڑھائی، پھر نئی قیمت ۱۰ فیصد گھٹا دی۔ اب چیز کتنے کی ہے؟",
+    "options": ["۱۰۱ روپے", "۱۰۰ روپے", "۹۸ روپے", "۹۹ روپے"],
+    "correctIndex": 3,
+    "gloss": "A 100-rupee item is raised 10%, then the new price cut 10%. What does it cost now? — 99: 110 − 11. 'Back to 100' is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "صبح سویرے، سورج نکلنے کے فوراً بعد، کھلے میدان میں آپ کا سایہ کس سمت میں پڑے گا؟",
+    "options": ["مغرب", "مشرق", "شمال", "جنوب"],
+    "correctIndex": 0,
+    "gloss": "Just after sunrise in an open field, which way does your shadow fall? — West: the sun rises in the east and shadows point away from it."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "دنیا کی دوسری بلند ترین چوٹی کے ٹو کس پہاڑی سلسلے کا حصہ ہے؟",
+    "options": ["ہمالیہ", "قراقرم", "ہندوکش", "کوہِ سلیمان"],
+    "correctIndex": 1,
+    "gloss": "K2, the world's second-highest peak, belongs to which range? — The Karakoram, not the Himalaya."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "”علم“ کی جمع ”علوم“ اور ”کتاب“ کی جمع ”کتب“ عربی قاعدے سے بنتی ہے۔ اسی قاعدے سے ”شاعر“ کی جمع کیا ہوگی؟",
+    "options": ["اشعار", "مشاعر", "شعرا", "شعور"],
+    "correctIndex": 2,
+    "gloss": "'Ilm' → 'uloom' and 'kitab' → 'kutub' follow Arabic plurals. By that rule, the plural of 'shair' (poet)? — Shu'ara. Trap: 'ash'ar' is the plural of 'sher' (verse)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "پانی کے گلاس میں برف کا ایک ٹکڑا تیر رہا ہے۔ برف پوری پگھل جائے تو گلاس میں پانی کی سطح کا کیا ہوگا؟",
+    "options": ["بڑھ جائے گی", "گھٹ جائے گی", "پہلے بڑھے گی پھر گھٹے گی", "وہیں رہے گی"],
+    "correctIndex": 3,
+    "gloss": "An ice cube floats in a glass of water. When it melts, what happens to the water level? — It stays the same: floating ice displaces exactly its own weight of water (Archimedes)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لاڑکانہ کے قریب جن کھنڈرات کے نام کا مطلب ”مُردوں کا ٹیلا“ ہے، وہ کس قدیم تہذیب کا شہر تھا؟",
+    "options": ["وادیٔ سندھ کی تہذیب", "گندھارا تہذیب", "میسوپوٹیمیا کی تہذیب", "مصری تہذیب"],
+    "correctIndex": 0,
+    "gloss": "The ruins near Larkana whose name means 'mound of the dead' were a city of which civilisation? — Mohenjo-daro, Indus Valley Civilisation."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لاہور کے شاہی قلعے کے سامنے کھڑی بادشاہی مسجد کس مغل بادشاہ نے بنوائی؟",
+    "options": ["شاہ جہاں", "اورنگزیب عالمگیر", "اکبر", "جہانگیر"],
+    "correctIndex": 1,
+    "gloss": "Which Mughal emperor built the Badshahi Mosque opposite Lahore Fort? — Aurangzeb (1671–73). Shah Jahan is the trap (Taj Mahal, Wazir Khan era)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ایک ڈبے میں ۳ مکڑیاں اور ۲ بھونرے ہیں۔ ان سب کی کل کتنی ٹانگیں ہیں؟",
+    "options": ["۳۰", "۴۰", "۳۶", "۳۲"],
+    "correctIndex": 2,
+    "gloss": "A box holds 3 spiders and 2 beetles. How many legs in all? — 36: spiders 8 × 3 = 24, beetles (insects) 6 × 2 = 12."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "پی ٹی وی کی وہ مزاحیہ سیریز کون سی ہے جس کے دو کردار، چالاک الن اور بھولا بھالا ننھا، ہر قسط میں کوئی نیا چکر چلاتے تھے؟",
+    "options": ["ففٹی ففٹی", "اندھیرا اجالا", "تعلیمِ بالغاں", "الف نون"],
+    "correctIndex": 3,
+    "gloss": "Which PTV comedy had two characters, crafty Allan and naive Nanha, starting a new scheme every episode? — Alif Noon: the title is the first letters of Allan (الف) and Nanha (نون)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "یونانی دیومالا میں کس نے دیوتاؤں سے آگ چرا کر انسانوں کو دی اور اس کی سخت سزا پائی؟",
+    "options": ["پرومیتھیس", "ہرکولیس", "اٹلس", "ہرمیس"],
+    "correctIndex": 0,
+    "gloss": "In Greek myth, who stole fire from the gods for humans and was harshly punished? — Prometheus, chained to a rock where an eagle ate his liver."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ایک کتاب کے صفحوں پر ۱ سے ۱۰۰ تک نمبر لکھے ہیں۔ ان نمبروں میں ہندسہ ۹ کل کتنی بار آیا ہے؟",
+    "options": ["۱۰", "۲۰", "۱۹", "۱۱"],
+    "correctIndex": 1,
+    "gloss": "Pages are numbered 1 to 100. How many times does the digit 9 appear? — 20: ten times in the units (9, 19 … 99) and ten in the tens (90–99); 99 counts twice."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پنجابی ادب کی شاہکار منظوم داستان ”ہیر“ کس شاعر نے لکھی؟",
+    "options": ["بلھے شاہ", "سلطان باہو", "وارث شاہ", "میاں محمد بخش"],
+    "correctIndex": 2,
+    "gloss": "Who wrote 'Heer', the masterpiece verse romance of Punjabi literature? — Waris Shah (18th c.). The others are Punjabi Sufi poets too."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "مرزا غالب نے اپنی ابتدائی شاعری میں ”غالب“ کے بجائے کون سا تخلص رکھا تھا، جو بعد میں بھی کبھی کبھار استعمال کرتے رہے؟",
+    "options": ["داغ", "نوشہ", "میر", "اسد"],
+    "correctIndex": 3,
+    "gloss": "Which pen name did Ghalib use in his early poetry and occasionally later? — Asad (from Asadullah). 'Nausha' was a nickname, Dagh and Mir are other poets' pen names."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "بجلی چمکنے کے ٹھیک ۳ سیکنڈ بعد کڑک سنائی دی۔ بجلی آپ سے تقریباً کتنی دور گری؟",
+    "options": ["ایک کلومیٹر", "تین کلومیٹر", "سو میٹر", "دس کلومیٹر"],
+    "correctIndex": 0,
+    "gloss": "Thunder came exactly 3 seconds after the flash. How far away was the lightning? — About 1 km: sound travels ~340 m/s, light arrives almost instantly."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سکواش کے کس پاکستانی کھلاڑی نے برٹش اوپن ریکارڈ دس بار جیتا؟",
+    "options": ["جان شیر خان", "جہانگیر خان", "ہاشم خان", "قمر زمان"],
+    "correctIndex": 1,
+    "gloss": "Which Pakistani squash player won the British Open a record ten times? — Jahangir Khan (1982–1991). Jansher Khan's record is eight World Opens."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "رمضان ہر سال پچھلے سال سے کچھ دن پہلے آتا ہے اور یوں سب موسموں سے گزرتا ہے۔ تقریباً کتنے برس میں یہ پورا چکر مکمل کر کے پھر انہی شمسی تاریخوں پر لوٹ آتا ہے؟",
+    "options": ["۱۲ برس", "۱۹ برس", "۳۳ برس", "۵۰ برس"],
+    "correctIndex": 2,
+    "gloss": "Ramadan comes a few days earlier each year, passing through every season. In about how many years does it return to the same solar dates? — About 33: the lunar year is ~11 days shorter, and 365 ÷ 11 ≈ 33."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "سردیوں میں جب کراچی میں دوپہر کے ۱۲ بجے ہوں تو لندن میں گھڑیاں کیا وقت بتا رہی ہوں گی؟",
+    "options": ["دوپہر ایک بجے", "صبح ۹ بجے", "شام ۵ بجے", "صبح ۷ بجے"],
+    "correctIndex": 3,
+    "gloss": "In winter, when it is noon in Karachi, what time is it in London? — 7 a.m.: Pakistan is GMT+5 and London is on GMT in winter. 5 p.m. is the trap of adding instead of subtracting."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لفظ ”اردو“ ترکی زبان سے آیا ہے۔ ترکی میں اس کا اصل مطلب کیا ہے؟",
+    "options": ["لشکر", "دربار", "بازار", "قافلہ"],
+    "correctIndex": 0,
+    "gloss": "The word 'Urdu' comes from Turkic. What does it originally mean? — Army/camp (Turkish 'ordu'), as in 'zaban-e-urdu-e-mualla', the language of the royal camp."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "۱۹۴۷ میں ہارورڈ کے ایک کمپیوٹر کی خرابی کی وجہ ایک اصلی کیڑا نکلا، جسے لاگ بک میں چپکا دیا گیا۔ وہ کیڑا کیا تھا؟",
+    "options": ["مکڑی", "پتنگا", "لال بیگ", "چیونٹی"],
+    "correctIndex": 1,
+    "gloss": "In 1947 a fault in a Harvard computer turned out to be a real bug, taped into the logbook. What was it? — A moth, found in the Harvard Mark II relay: the famous 'first actual case of bug being found'."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ونیلا دراصل ایک پھول دار بیل کی پھلی ہے۔ یہ بیل پودوں کے کس خاندان سے تعلق رکھتی ہے؟",
+    "options": ["کیکٹس", "لوبیا", "آرکڈ", "کافی"],
+    "correctIndex": 2,
+    "gloss": "Vanilla is the pod of a flowering vine. Which plant family is it? — The orchids (genus Vanilla). Bean is the trap, as the pods are called 'beans'."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ان چار ایجادات میں سے کون سی سب سے پہلے عام استعمال میں آئی؟",
+    "options": ["ٹیلی فون", "ریڈیو", "ٹیلی وژن", "ٹیلی گراف"],
+    "correctIndex": 3,
+    "gloss": "Which of these four inventions came into general use first? — The telegraph (1840s), then telephone (1870s), radio (1890s–1900s), television (1920s–30s)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پاکستان کا قومی پرندہ کون سا ہے؟",
+    "options": ["چکور", "شاہین", "تیتر", "بلبل"],
+    "correctIndex": 0,
+    "gloss": "What is Pakistan's national bird? — The chukar partridge. Shaheen (from Iqbal's poetry) is the trap; the markhor is the national animal."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "چندرگپت موریہ کے زمانے سے بیسویں صدی تک کی کہانی سمیٹنے والا اردو ناول ”آگ کا دریا“ کس کا لکھا ہوا ہے؟",
+    "options": ["عصمت چغتائی", "قرۃالعین حیدر", "بانو قدسیہ", "عبداللہ حسین"],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'Aag ka Darya', the Urdu novel spanning from Chandragupta Maurya's time to the 20th century? — Qurratulain Hyder (1959)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کون سا سیارہ اپنے محور پر تقریباً لیٹا ہوا ہے، یوں کہ وہ سورج کے گرد گویا لڑھکتا ہوا گھومتا ہے؟",
+    "options": ["زحل", "نیپچون", "یورینس", "مشتری"],
+    "correctIndex": 2,
+    "gloss": "Which planet lies almost on its side, as if rolling around the Sun? — Uranus, axial tilt about 98°."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "سورج کی روشنی مریخ تک پہنچنے میں اوسطاً تقریباً کتنا وقت لیتی ہے؟",
+    "options": ["۳ منٹ", "۸ منٹ", "۴۳ منٹ", "۱۳ منٹ"],
+    "correctIndex": 3,
+    "gloss": "On average, how long does sunlight take to reach Mars? — About 13 minutes: light takes ~8 min to Earth, and Mars is ~1.5 times farther (≈12.7 min). 43 min is Jupiter."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اسلام آباد کی فیصل مسجد، جس کا ڈیزائن بدوؤں کے خیمے سے متاثر ہے، کس ملک کے ماہرِ تعمیرات نے بنایا تھا؟",
+    "options": ["ترکی", "سعودی عرب", "مصر", "ایران"],
+    "correctIndex": 0,
+    "gloss": "Islamabad's Faisal Mosque, inspired by a Bedouin tent, was designed by an architect from which country? — Turkey: Vedat Dalokay. Saudi Arabia is the trap (funded by and named after King Faisal)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "”الماری“، ”چابی“ اور ”بالٹی“ — یہ تینوں روزمرہ اردو لفظ کس یورپی زبان سے آئے ہیں؟",
+    "options": ["انگریزی", "پرتگالی", "فرانسیسی", "ولندیزی"],
+    "correctIndex": 1,
+    "gloss": "'Almari' (cupboard), 'chabi' (key) and 'balti' (bucket) came into Urdu from which European language? — Portuguese: armário, chave, balde."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "دنیا کا کون سا بڑا دریا خطِ استوا کو دو بار پار کرتا ہے؟",
+    "options": ["نیل", "ایمیزون", "کانگو", "نائجر"],
+    "correctIndex": 2,
+    "gloss": "Which major river crosses the equator twice? — The Congo."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "جنہیں یورپ میں ”عربی اعداد“ کہا جاتا ہے، ۰ سے ۹ تک کی وہ علامتیں اصل میں کس خطے میں وضع ہوئیں؟",
+    "options": ["عرب", "یونان", "ایران", "ہندوستان"],
+    "correctIndex": 3,
+    "gloss": "The 0–9 symbols Europe calls 'Arabic numerals' were originally devised where? — India (the Hindu–Arabic system); Arabs passed them on to Europe."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "قصور میں پیدا ہونے والے استاد بڑے غلام علی خان کا تعلق موسیقی کے کس گھرانے سے تھا؟",
+    "options": ["پٹیالہ", "گوالیار", "شام چوراسی", "کیرانہ"],
+    "correctIndex": 0,
+    "gloss": "Kasur-born Ustad Bade Ghulam Ali Khan belonged to which musical gharana? — Patiala (Kasur–Patiala). Sham Chaurasi is another Punjabi gharana."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "فٹ بال ورلڈ کپ کی پہلی ٹرافی اس ٹیم کو ہمیشہ کے لیے دے دی گئی جو سب سے پہلے تین بار عالمی چیمپئن بنی۔ وہ ٹیم کون سی تھی؟",
+    "options": ["اٹلی", "برازیل", "یوراگوئے", "جرمنی"],
+    "correctIndex": 1,
+    "gloss": "The first World Cup trophy was given for good to the first team to become champion three times. Which? — Brazil (1958, 1962, 1970) kept the Jules Rimet Trophy. Italy had two titles by then."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "مغل سلطنت کے بانی بابر نے اپنی خودنوشت ”بابر نامہ“ کس زبان میں لکھی؟",
+    "options": ["فارسی", "عربی", "چغتائی ترکی", "اردو"],
+    "correctIndex": 2,
+    "gloss": "In which language did Babur, founder of the Mughal Empire, write his memoir the Baburnama? — Chagatai Turkic. Persian is the trap: it was translated into Persian under Akbar."
+  }
+]

@@ -59,25 +59,53 @@ export const config = {
     redirectUri: process.env.GOOGLE_REDIRECT_URI ?? 'http://localhost:9006/identity/google/callback',
   },
   /**
-   * Gemini. `key` is read only by `lib/gemini.ts`. Empty disables generation: every request
-   * is served from the pool and, when that runs dry, from the seeded English bank.
+   * AI question writing. Which provider runs is chosen in code (`lib/ai/index.ts`); each key is
+   * read only by its provider (`lib/ai/gemini.ts`, `lib/ai/openrouter.ts`). The active
+   * provider's key empty disables generation: every request is served from the pool and,
+   * when that runs dry, from the seeded English bank.
    */
-  gemini: {
-    key: process.env.GEMINI_KEY ?? '',
+  ai: {
     /** A second, blind "answer it yourself" pass that drops questions the checker disagrees with. */
     verifyQuestions: process.env.VERIFY_QUESTIONS === 'true',
   },
+  gemini: {
+    key: process.env.GEMINI_KEY ?? '',
+  },
+  openrouter: {
+    key: process.env.OPENROUTER_KEY ?? '',
+  },
   /**
-   * The background job that keeps every busy (locale, level) bucket stocked. Off by default
-   * outside production: stocking a dev database spends the paid key on questions nobody plays.
+   * The background job that keeps every busy (locale, level) bucket stocked ahead of demand.
+   * Off unless `POOL_REFILL_ENABLED="true"`, in every environment: the pools are seeded by
+   * hand, and AI writes only when a player has nothing unseen left (`getQuestionBatch`,
+   * under `liveGeneration`). Stocking ahead would buy questions while unseen ones remain.
    */
   poolRefill: {
-    enabled: process.env.POOL_REFILL_ENABLED ? process.env.POOL_REFILL_ENABLED !== 'false' : nodeEnv === 'production',
+    enabled: process.env.POOL_REFILL_ENABLED === 'true',
     intervalMs: asNumber(process.env.POOL_REFILL_INTERVAL_MS, 5 * 60 * 1000),
     /** Unserved questions a bucket should hold before the job leaves it alone. */
     targetPerBucket: asNumber(process.env.POOL_REFILL_TARGET, 60),
-    /** Gemini calls per tick — the free quota is per minute and per day, so this stays small. */
+    /** AI calls per tick — the free quota is per minute and per day, so this stays small. */
     maxCallsPerTick: asNumber(process.env.POOL_REFILL_MAX_CALLS, 4),
+  },
+  /**
+   * The ceiling on AI batches started by player requests (a bucket with nothing unseen left),
+   * enforced by `lib/generationBudget.ts`. Past it the request is served from what exists.
+   * A new language's first game alone can start 5 (one per level).
+   */
+  /**
+   * Ranked questions that have done their job move to Classic (`jobs/rankedGraduation.ts`).
+   * Never the other way: a Classic question's answer is public.
+   */
+  rankedGraduation: {
+    /** Ranked serves before a question may leave; by then most regulars have met it. */
+    minServes: asNumber(process.env.RANKED_GRADUATION_MIN_SERVES, 20),
+    /** Questions each (locale, level) reserve always keeps; Marathon lives at level 5. */
+    keepPerBucket: asNumber(process.env.RANKED_GRADUATION_KEEP, 150),
+  },
+  liveGeneration: {
+    perHour: asNumber(process.env.AI_LIVE_GENERATIONS_PER_HOUR, 60),
+    perPlayerPerHour: asNumber(process.env.AI_LIVE_GENERATIONS_PER_PLAYER_PER_HOUR, 10),
   },
   /**
    * The mail engine shared with bookie: the contact form, and account emails (verification,
@@ -93,5 +121,3 @@ export const config = {
 
 export const isGoogleOAuthConfigured = (): boolean =>
   Boolean(config.google.clientId && config.google.clientSecret && config.google.redirectUri)
-
-export const isGeminiConfigured = (): boolean => Boolean(config.gemini.key)

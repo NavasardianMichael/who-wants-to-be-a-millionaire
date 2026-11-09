@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मशहूर कहावत के मुताबिक़ चलते समय कौन-सी गगरी छलकती है?",
+    "options": ["पूरी भरी", "आधी भरी", "बिलकुल ख़ाली", "उलटी रखी"],
+    "correctIndex": 1,
+    "gloss": "By the famous saying, which pitcher spills as you walk? — Half-full: «अधजल गगरी छलकत जाय», the half-learned show off."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दीवाली की रात घर-घर में गणेश जी के साथ किस देवी की पूजा होती है?",
+    "options": ["सरस्वती", "दुर्गा", "लक्ष्मी", "पार्वती"],
+    "correctIndex": 2,
+    "gloss": "On Diwali night, which goddess is worshipped with Ganesh in every home? — Lakshmi: the Lakshmi–Ganesh puja."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हम साँस में जो गैस बाहर छोड़ते हैं, पेड़-पौधे उसी से अपना भोजन बनाते हैं। कौन-सी गैस?",
+    "options": ["ऑक्सीजन", "नाइट्रोजन", "हाइड्रोजन", "कार्बन डाइऑक्साइड"],
+    "correctIndex": 3,
+    "gloss": "Plants make food from the gas we breathe out. Which gas? — Carbon dioxide (photosynthesis)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कीड़ों के छह पैर होते हैं, पर मकड़ी कीड़ा नहीं है। मकड़ी के कितने पैर होते हैं?",
+    "options": ["आठ", "छह", "दस", "बारह"],
+    "correctIndex": 0,
+    "gloss": "Insects have six legs, but a spider is not an insect. How many legs does it have? — Eight: spiders are arachnids."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मकर संक्रांति पर परंपरागत रूप से तिल के साथ किस चीज़ को मिलाकर लड्डू बनाए जाते हैं?",
+    "options": ["खोया", "गुड़", "नारियल", "बेसन"],
+    "correctIndex": 1,
+    "gloss": "On Makar Sankranti, sesame is traditionally mixed with what to make laddus? — Jaggery: til-gud laddus, tilkut."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "दुनिया का अकेला महासागर, जिसका नाम किसी देश के नाम पर पड़ा है, भारत के दक्षिण में फैला है। उसका नाम क्या है?",
+    "options": ["प्रशांत महासागर", "अटलांटिक महासागर", "हिंद महासागर", "आर्कटिक महासागर"],
+    "correctIndex": 2,
+    "gloss": "The only ocean named after a country lies south of India. Its name? — The Indian Ocean."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "क्रिकेट के एक ओवर में छह वैध गेंदें होती हैं। किसी गेंदबाज़ ने पूरे चार ओवर डाले, तो उसने कम से कम कितनी गेंदें फेंकीं?",
+    "options": ["20", "30", "36", "24"],
+    "correctIndex": 3,
+    "gloss": "An over has six legal balls. A bowler bowled four full overs: at least how many balls? — 24 (4 × 6; wides and no-balls only add)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘नयन’ को उलटा पढ़ें तो भी वह ‘नयन’ ही रहता है। इनमें से कौन-सा शब्द भी ऐसा ही है?",
+    "options": ["कमल", "नमक", "जलज", "पवन"],
+    "correctIndex": 2,
+    "gloss": "«नयन» reads the same backwards. Which of these does too? — «जलज» (ज-ल-ज); कमल→लमक, नमक→कमन, पवन→नवप."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "होली से एक रात पहले किसका दहन किया जाता है?",
+    "options": ["रावण", "होलिका", "कुंभकर्ण", "मेघनाद"],
+    "correctIndex": 1,
+    "gloss": "What is burned the night before Holi? — Holika (Holika Dahan); the others are Dussehra effigies."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "सरगम ‘सा रे ग म प ध नि’ का पाँचवाँ स्वर कौन-सा है?",
+    "options": ["म", "प", "ध", "ग"],
+    "correctIndex": 1,
+    "gloss": "Which is the fifth note of the sargam Sa Re Ga Ma Pa Dha Ni? — Pa, whose full name «पंचम» literally means 'fifth'."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘पौने तीन सौ’ रुपये असल में कितने रुपये होते हैं?",
+    "options": ["275", "325", "225", "250"],
+    "correctIndex": 0,
+    "gloss": "How many rupees is «पौने तीन सौ»? — 275: «पौने» means a quarter less (300 − 25); 325 would be «सवा तीन सौ»."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘कितने आदमी थे?’ — यह संवाद बोलने वाले गब्बर सिंह का किरदार किस अभिनेता ने निभाया?",
+    "options": ["अमरीश पुरी", "प्राण", "अमजद ख़ान", "प्रेम चोपड़ा"],
+    "correctIndex": 2,
+    "gloss": "'How many men were there?' — which actor played Gabbar Singh, who says it? — Amjad Khan, in Sholay (1975)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "माउंट एवरेस्ट की चोटी किन दो देशों की सरहद पर है?",
+    "options": ["भारत और नेपाल", "नेपाल और चीन", "नेपाल और भूटान", "भारत और चीन"],
+    "correctIndex": 1,
+    "gloss": "Everest's summit is on the border of which two countries? — Nepal and China (Tibet)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "कंप्यूटर के सबसे आम कीबोर्ड का नाम उसकी ऊपरी अक्षर-पंक्ति के पहले छह अक्षरों पर पड़ा है। वह नाम क्या है?",
+    "options": ["AZERTY", "ASDFGH", "ZXCVBN", "QWERTY"],
+    "correctIndex": 3,
+    "gloss": "The most common keyboard is named after the first six letters of its top letter row. What is it? — QWERTY; AZERTY is the French layout."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "दस मीटर लंबी रस्सी से दो-दो मीटर के टुकड़े काटने हैं। कुल कितनी बार कैंची चलानी पड़ेगी?",
+    "options": ["चार", "पाँच", "छह", "दस"],
+    "correctIndex": 0,
+    "gloss": "A 10 m rope is cut into 2 m pieces. How many cuts? — Four: five pieces need only four cuts; the last piece is already there."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1949 में इसी दिन संविधान सभा ने देवनागरी में लिखी हिंदी को संघ की राजभाषा के रूप में अपनाया था, इसलिए यह ‘हिंदी दिवस’ है। कौन-सी तारीख़?",
+    "options": ["10 जनवरी", "26 नवंबर", "14 सितंबर", "21 फ़रवरी"],
+    "correctIndex": 2,
+    "gloss": "On this day in 1949 the Constituent Assembly adopted Hindi in Devanagari as the Union's official language — Hindi Day. Which date? — 14 September (10 Jan is World Hindi Day, 26 Nov Constitution Day, 21 Feb Mother Language Day)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "यह अंग हमें हर वक़्त दिखता है, फिर भी लोग अक्सर इसे अंग गिनना भूल जाते हैं। मानव शरीर का सबसे बड़ा अंग कौन-सा है?",
+    "options": ["जिगर", "फेफड़े", "दिमाग़", "त्वचा"],
+    "correctIndex": 3,
+    "gloss": "We always see this organ yet forget to count it. The body's largest organ? — The skin (the liver is the largest internal one)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "प्रेमचंद की कहानी ‘ईदगाह’ में नन्हा हामिद मेले से अपनी दादी के लिए क्या लाता है?",
+    "options": ["चिमटा", "चश्मा", "शॉल", "चूड़ियाँ"],
+    "correctIndex": 0,
+    "gloss": "In Premchand's story 'Idgah', what does little Hamid bring his grandmother from the fair? — Tongs, so she no longer burns her fingers on the griddle."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "डायनामाइट के आविष्कारक ने अपनी वसीयत में अपनी दौलत किस पुरस्कार के लिए छोड़ी?",
+    "options": ["पुलित्ज़र पुरस्कार", "नोबेल पुरस्कार", "बुकर पुरस्कार", "ऑस्कर पुरस्कार"],
+    "correctIndex": 1,
+    "gloss": "The inventor of dynamite left his fortune in his will for which prize? — The Nobel Prize (Alfred Nobel)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "चमगादड़ उड़ता तो है, पर अपने बच्चों को दूध पिलाता है। वह जीवों के किस वर्ग में आता है?",
+    "options": ["पक्षी", "सरीसृप", "स्तनधारी", "उभयचर"],
+    "correctIndex": 2,
+    "gloss": "A bat flies but feeds its young milk. Which class is it? — Mammals: suckling the young is what defines them."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘नीरज’ में ‘नीर’ यानी पानी और ‘ज’ यानी जन्मा: पानी में जन्मा, यानी कमल। इसी तर्क से ‘अग्रज’ किसे कहते हैं?",
+    "options": ["छोटे भाई को", "बड़े भाई को", "बेटे को", "पिता को"],
+    "correctIndex": 1,
+    "gloss": "«नीरज» = water + born = lotus. By the same logic, who is an «अग्रज»? — The elder brother: «अग्र» (before) + «ज» (born); the younger is «अनुज»."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दिल्ली की क़ुतुब मीनार का निर्माण जिस सुल्तान ने शुरू करवाया, उसे उसके दामाद ने आगे बढ़ाया। निर्माण किसने शुरू करवाया था?",
+    "options": ["इल्तुतमिश", "क़ुतुबुद्दीन ऐबक", "अलाउद्दीन ख़िलजी", "बलबन"],
+    "correctIndex": 1,
+    "gloss": "The sultan who began the Qutb Minar had it continued by his son-in-law. Who began it? — Qutb-ud-din Aibak; his son-in-law Iltutmish added storeys. Alauddin Khalji began the unfinished Alai Minar."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "भूमध्य रेखा से कुछ ही दूर होने के बावजूद बर्फ़ से ढकी रहने वाली किलिमंजारो चोटी किस देश में है?",
+    "options": ["केन्या", "इथियोपिया", "युगांडा", "तंज़ानिया"],
+    "correctIndex": 3,
+    "gloss": "Snow-capped Kilimanjaro, close to the equator, is in which country? — Tanzania (near the Kenyan border, the usual trap)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ध्वनि हवा में लगभग 340 मीटर प्रति सेकंड चलती है। बिजली चमकने के ठीक 3 सेकंड बाद गड़गड़ाहट सुनाई दी। बिजली लगभग कितनी दूर गिरी?",
+    "options": ["लगभग 3 किलोमीटर", "लगभग 100 मीटर", "लगभग 10 किलोमीटर", "लगभग 1 किलोमीटर"],
+    "correctIndex": 3,
+    "gloss": "Sound travels ~340 m/s; thunder came 3 s after the flash. How far was the lightning? — About 1 km (3 × 340 ≈ 1,020 m; the light arrives almost instantly)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "महाभारत में खांडव वन-दहन से पहले अग्निदेव के कहने पर वरुण ने अर्जुन को जो धनुष दिया, उसका नाम क्या था?",
+    "options": ["पिनाक", "शारंग", "गांडीव", "विजय"],
+    "correctIndex": 2,
+    "gloss": "Before the burning of Khandava, at Agni's request Varuna gave Arjuna a bow. Its name? — Gandiva (Pinaka is Shiva's, Sharanga Vishnu's, Vijaya Karna's)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ओलंपिक में किसी व्यक्तिगत स्पर्धा का स्वर्ण पदक जीतने वाले पहले भारतीय कौन थे?",
+    "options": ["नीरज चोपड़ा", "राज्यवर्धन सिंह राठौड़", "अभिनव बिंद्रा", "लिएंडर पेस"],
+    "correctIndex": 2,
+    "gloss": "Who was the first Indian to win an individual Olympic gold? — Abhinav Bindra, 10 m air rifle, Beijing 2008 (Chopra 2021, Rathore silver 2004, Paes bronze 1996)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "बौद्ध भित्ति-चित्रों के लिए मशहूर अजंता की गुफाएँ किस राज्य में हैं?",
+    "options": ["मध्य प्रदेश", "महाराष्ट्र", "कर्नाटक", "ओडिशा"],
+    "correctIndex": 1,
+    "gloss": "The Ajanta caves, famous for Buddhist murals, are in which state? — Maharashtra (Aurangabad/Chhatrapati Sambhajinagar district)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ऑस्ट्रेलिया का कोआला लगभग सिर्फ़ किस पेड़ की पत्तियाँ खाकर जीता है?",
+    "options": ["बाँस", "बबूल", "यूकेलिप्टस", "चीड़"],
+    "correctIndex": 2,
+    "gloss": "Australia's koala lives almost entirely on the leaves of which tree? — Eucalyptus (bamboo is the panda's)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "हम एक करोड़ को 1,00,00,000 लिखते हैं। अंतरराष्ट्रीय गिनती में यह संख्या क्या कहलाती है?",
+    "options": ["दस मिलियन", "एक मिलियन", "सौ मिलियन", "एक बिलियन"],
+    "correctIndex": 0,
+    "gloss": "We write one crore as 1,00,00,000. What is it in international counting? — Ten million: seven zeros; a million has six."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "भारतीय मानक समय ग्रीनविच के समय से साढ़े पाँच घंटे आगे चलता है। सर्दियों में जब दिल्ली में दोपहर के 12 बजते हैं, तब लंदन में कितने बजे होते हैं?",
+    "options": ["शाम के साढ़े पाँच", "सुबह के छह", "सुबह के साढ़े छह", "सुबह के साढ़े पाँच"],
+    "correctIndex": 2,
+    "gloss": "IST is GMT + 5:30. At noon in Delhi in winter, what time is it in London? — 6:30 a.m. (12:00 − 5:30; London is on GMT in winter)."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "भारतीय रसोई की जान मिर्च असल में भारत की नहीं है। 16वीं सदी में पुर्तगाली इसे मूल रूप से किस इलाक़े से लाए?",
+    "options": ["अमेरिका महाद्वीप", "पश्चिम अफ़्रीका", "दक्षिण-पूर्व एशिया", "अरब देश"],
+    "correctIndex": 0,
+    "gloss": "Chilli, the soul of Indian cooking, isn't Indian. From which region did the Portuguese bring it in the 16th century? — The Americas, its native home."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ऊँचे पहाड़ों पर पानी 100 डिग्री से पहले ही उबल जाता है और दाल देर से गलती है। इसकी असली वजह क्या है?",
+    "options": ["ऑक्सीजन की कमी", "ठंडी हवा", "गुरुत्वाकर्षण का कम होना", "हवा का कम दबाव"],
+    "correctIndex": 3,
+    "gloss": "High in the mountains water boils below 100 °C and dal takes longer. The real reason? — Lower air pressure lowers the boiling point; oxygen plays no part."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "भारत का पहला उपग्रह ‘आर्यभट’ 1975 में किस देश के रॉकेट से अंतरिक्ष में भेजा गया?",
+    "options": ["सोवियत संघ", "अमेरिका", "फ़्रांस", "जापान"],
+    "correctIndex": 0,
+    "gloss": "India's first satellite Aryabhata was launched in 1975 on whose rocket? — The Soviet Union's (a Kosmos-3M from Kapustin Yar)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "कृष्ण की बाल-लीलाओं के कवि सूरदास ने अपने पद उसी इलाक़े की बोली में रचे, जहाँ कृष्ण का बचपन बीता। वह बोली कौन-सी है?",
+    "options": ["अवधी", "भोजपुरी", "बुंदेली", "ब्रजभाषा"],
+    "correctIndex": 3,
+    "gloss": "Surdas wrote in the dialect of the land where Krishna grew up. Which? — Braj Bhasha (Krishna's childhood: Braj, around Mathura–Vrindavan); Avadhi is Tulsidas's."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "महाभारत में नदी में बहती पेटी में मिले नन्हे कर्ण को किस सारथी ने अपने बेटे की तरह पाला?",
+    "options": ["अधिरथ", "संजय", "शल्य", "सुमंत्र"],
+    "correctIndex": 0,
+    "gloss": "Which charioteer raised baby Karna, found floating in a box on the river? — Adhiratha (with Radha, hence 'Radheya'); Shalya was later Karna's charioteer, Sanjaya Dhritarashtra's, Sumantra Dasharatha's."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "स्वेज़ नहर ने यूरोप से भारत आने वाले जहाज़ों को अफ़्रीका का चक्कर लगाने से बचा दिया। यह नहर किन दो सागरों को जोड़ती है?",
+    "options": ["भूमध्य सागर और लाल सागर", "भूमध्य सागर और अरब सागर", "काला सागर और लाल सागर", "लाल सागर और अरब सागर"],
+    "correctIndex": 0,
+    "gloss": "The Suez Canal spared ships from Europe to India the trip round Africa. Which two seas does it join? — The Mediterranean and the Red Sea."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "शास्त्रीय संगीत में हर राग का एक समय माना गया है। राग भैरव पारंपरिक रूप से कब गाया जाता है?",
+    "options": ["दोपहर में", "आधी रात को", "शाम को", "भोर में"],
+    "correctIndex": 3,
+    "gloss": "In Hindustani music each raga has its time. When is Raag Bhairav traditionally sung? — At dawn: it is the classic early-morning raga."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "लियोनार्दो दा विंची का भित्ति-चित्र ‘द लास्ट सपर’ किस शहर में एक मठ की दीवार पर बना है?",
+    "options": ["फ़्लोरेंस", "मिलान", "रोम", "वेनिस"],
+    "correctIndex": 1,
+    "gloss": "Leonardo's mural 'The Last Supper' is on a convent wall in which city? — Milan (Santa Maria delle Grazie)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "रणजी ट्रॉफ़ी जिन रणजीतसिंहजी के नाम पर है, वे टेस्ट क्रिकेट किस टीम की ओर से खेले?",
+    "options": ["भारत", "ऑस्ट्रेलिया", "इंग्लैंड", "दक्षिण अफ़्रीका"],
+    "correctIndex": 2,
+    "gloss": "Ranjitsinhji, for whom the Ranji Trophy is named, played Test cricket for which team? — England (1896–1902); India's first Test came only in 1932."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "इंटरनेट पतों में .in भारत का निशान है। तो .de किस देश का निशान है?",
+    "options": ["डेनमार्क", "नीदरलैंड्स", "जर्मनी", "स्विट्ज़रलैंड"],
+    "correctIndex": 2,
+    "gloss": ".in marks India in web addresses. Which country is .de? — Germany, from its own name Deutschland (Denmark is .dk)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "सर्दियों में झीलें ऊपर से जमती हैं और बर्फ़ के नीचे मछलियाँ ज़िंदा रहती हैं, क्योंकि पानी एक ख़ास तापमान पर सबसे घना होता है। वह तापमान कितना है?",
+    "options": ["4 °C", "0 °C", "−4 °C", "10 °C"],
+    "correctIndex": 0,
+    "gloss": "Lakes freeze from the top and fish survive below because water is densest at a certain temperature. Which? — About 4 °C: the densest water sinks, so it must be above 0 °C."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "रोज़ेटा पत्थर पर एक ही लेख तीन लिपियों में खुदा था। इसी पत्थर से किस लिपि को पढ़ने की कुंजी मिली?",
+    "options": ["मिस्र की चित्रलिपि", "कीलाक्षर लिपि", "सिंधु लिपि", "माया लिपि"],
+    "correctIndex": 0,
+    "gloss": "The Rosetta Stone carries one text in three scripts. Which script did it unlock? — Egyptian hieroglyphs (Champollion, 1822); the Indus script is still undeciphered."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "हिंदी का ‘चाय’ और अंग्रेज़ी का ‘टी’ — दोनों शब्द एक ही देश की दो अलग बोलियों से निकले हैं। कौन-सा देश?",
+    "options": ["जापान", "कोरिया", "म्यांमार", "चीन"],
+    "correctIndex": 3,
+    "gloss": "Hindi 'chai' and English 'tea' come from two dialects of one country. Which? — China: Mandarin/Cantonese 'chá' travelled overland, Hokkien 'te' by sea via the Dutch."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "अफ़्रीका का कौन-सा देश चारों ओर से केवल दक्षिण अफ़्रीका से घिरा है?",
+    "options": ["एस्वातिनी", "बोत्सवाना", "लेसोथो", "नामीबिया"],
+    "correctIndex": 2,
+    "gloss": "Which African country is surrounded entirely by South Africa? — Lesotho; Eswatini also borders Mozambique."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1910 में जोहान्सबर्ग के पास गांधी जी और उनके साथी जिस फ़ार्म पर रहने लगे, उसका नाम किस लेखक के नाम पर रखा गया था?",
+    "options": ["जॉन रस्किन", "हेनरी डेविड थोरो", "राल्फ़ वाल्डो इमर्सन", "लियो टॉल्स्टॉय"],
+    "correctIndex": 3,
+    "gloss": "In 1910 Gandhi and his companions settled on a farm near Johannesburg named after which writer? — Leo Tolstoy (Tolstoy Farm); Ruskin inspired the earlier Phoenix Settlement."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "खजुराहो के प्रसिद्ध मंदिर किस राजवंश के शासनकाल में बने?",
+    "options": ["चंदेल", "परमार", "प्रतिहार", "कलचुरि"],
+    "correctIndex": 0,
+    "gloss": "Under which dynasty were the famous Khajuraho temples built? — The Chandelas (10th–11th centuries)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "हिंदी का ‘सप्तक’ सात की ओर इशारा करता है, अंग्रेज़ी का ‘ऑक्टेव’ आठ की ओर। किसी स्वर से ठीक एक सप्तक ऊपर वाले स्वर की आवृत्ति उससे कितने गुना होती है?",
+    "options": ["डेढ़ गुनी", "आठ गुनी", "सात गुनी", "दोगुनी"],
+    "correctIndex": 3,
+    "gloss": "'Saptak' hints at seven, 'octave' at eight. How many times higher is the frequency one octave up? — Exactly double; the names count notes, not frequency."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "तैराकी की मेडले रिले में एक शैली ऐसी है जिसमें तैराक ब्लॉक से छलाँग नहीं लगाता, बल्कि पानी के भीतर से शुरुआत करता है। इसीलिए वही सबसे पहले आती है। कौन-सी?",
+    "options": ["बैकस्ट्रोक", "ब्रेस्टस्ट्रोक", "बटरफ़्लाई", "फ़्रीस्टाइल"],
+    "correctIndex": 0,
+    "gloss": "In the medley relay one stroke starts in the water rather than from the block, so it goes first. Which? — Backstroke (order: back, breast, fly, free)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ऑक्टोपस का ख़ून नीला होता है। उसके शरीर में कितने दिल होते हैं?",
+    "options": ["एक", "दो", "तीन", "आठ"],
+    "correctIndex": 2,
+    "gloss": "An octopus has blue blood. How many hearts does it have? — Three: two for the gills, one for the body."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "भारत की पहली बोलती फ़िल्म ‘आलम आरा’ (1931) का निर्देशन किसने किया था?",
+    "options": ["दादासाहेब फाल्के", "अर्देशिर ईरानी", "वी. शांताराम", "हिमांशु राय"],
+    "correctIndex": 1,
+    "gloss": "Who directed India's first talkie, 'Alam Ara' (1931)? — Ardeshir Irani; Phalke made the first silent feature, Raja Harishchandra (1913)."
+  }
+]

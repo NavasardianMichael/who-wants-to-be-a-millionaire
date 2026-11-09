@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie geht das Sprichwort weiter: „Aller guten Dinge sind …“?",
+    "options": [
+      "zwei",
+      "drei",
+      "vier",
+      "sieben"
+    ],
+    "correctIndex": 1,
+    "gloss": "How does the proverb continue: \"All good things are …\"? — Three: \"Aller guten Dinge sind drei\"."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "In Wien ist es gerade 15 Uhr. Wie spät ist es im selben Augenblick in Zürich?",
+    "options": [
+      "Erst 14 Uhr",
+      "Ebenfalls 15 Uhr",
+      "Schon 16 Uhr",
+      "Schon 17 Uhr"
+    ],
+    "correctIndex": 1,
+    "gloss": "It is 15:00 in Vienna; what time is it right then in Zurich? — 15:00: both are in Central European Time. Trap for people who expect an offset."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Astronaut betrat 1969 als erster Mensch den Mond?",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Juri Gagarin",
+      "John Glenn"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which astronaut was the first human to set foot on the Moon in 1969? — Neil Armstrong (Apollo 11); Aldrin followed, Gagarin was first in space, Glenn first American in orbit."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Planet ist als der „Rote Planet“ bekannt?",
+    "options": [
+      "Venus",
+      "Jupiter",
+      "Merkur",
+      "Mars"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which planet is known as the \"Red Planet\"? — Mars, coloured by iron oxide."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches dieser Instrumente gehört zu den Blechblasinstrumenten?",
+    "options": [
+      "Oboe",
+      "Fagott",
+      "Klarinette",
+      "Posaune"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these instruments is a brass instrument? — The trombone; oboe, bassoon and clarinet are woodwinds."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches dieser Tiere gehört nicht zu den Insekten?",
+    "options": [
+      "Biene",
+      "Ameise",
+      "Spinne",
+      "Marienkäfer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these animals is not an insect? — The spider: an arachnid with eight legs and two body sections."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ein Frühstücksei braucht in kochendem Wasser drei Minuten. Wie lange brauchen drei Eier, wenn sie gleichzeitig im selben Topf liegen?",
+    "options": [
+      "Nur eine Minute",
+      "Auch drei Minuten",
+      "Sechs Minuten",
+      "Neun Minuten"
+    ],
+    "correctIndex": 1,
+    "gloss": "A breakfast egg needs three minutes; how long do three eggs in the same pot need? — Three minutes: they cook at the same time. Trap for autopilot multiplication."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wer rettet im Märchen der Brüder Grimm Rotkäppchen und die Großmutter aus dem Bauch des Wolfes?",
+    "options": [
+      "Der Jäger",
+      "Der Müller",
+      "Der Schäfer",
+      "Der Bauer"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who rescues Little Red Riding Hood and her grandmother from the wolf's belly in the Grimm fairy tale? — The huntsman."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welches Tier steht im Wappen der Stadt Berlin?",
+    "options": [
+      "Adler",
+      "Löwe",
+      "Bär",
+      "Wolf"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal is in the coat of arms of Berlin? — The bear (the Berlin bear)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welches Wort lässt sich mit „-schuh“, „-tasche“ und „-tuch“ zu je einem neuen Wort verbinden?",
+    "options": [
+      "Fuß",
+      "Hand",
+      "Kopf",
+      "Hals"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word forms a new word with -schuh, -tasche and -tuch? — Hand: Handschuh, Handtasche, Handtuch. Kopf and Hals only fit \"-tuch\"."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welches dieser Wörter liest sich rückwärts genauso wie vorwärts?",
+    "options": [
+      "Rentier",
+      "Reiter",
+      "Reittier",
+      "Retina"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words reads the same backwards as forwards? — Reittier (a palindrome); Rentier is the close trap."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher Fluss mündet am Deutschen Eck in Koblenz in den Rhein?",
+    "options": [
+      "Mosel",
+      "Main",
+      "Neckar",
+      "Ruhr"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river flows into the Rhine at the Deutsches Eck in Koblenz? — The Moselle."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aus welchem Gas besteht die Luft, die wir atmen, zu etwa vier Fünfteln?",
+    "options": [
+      "Sauerstoff",
+      "Stickstoff",
+      "Kohlendioxid",
+      "Wasserstoff"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which gas makes up about four fifths of the air we breathe? — Nitrogen (about 78 %); oxygen is only about a fifth."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wer entwickelte um 1450 in Mainz den Buchdruck mit beweglichen Lettern?",
+    "options": [
+      "Martin Luther",
+      "Albrecht Dürer",
+      "Johannes Kepler",
+      "Johannes Gutenberg"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who developed printing with movable type in Mainz around 1450? — Johannes Gutenberg."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Maler schuf die „Sternennacht“ und die „Sonnenblumen“?",
+    "options": [
+      "Vincent van Gogh",
+      "Paul Gauguin",
+      "Paul Cézanne",
+      "Pierre-Auguste Renoir"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which painter made \"The Starry Night\" and \"Sunflowers\"? — Vincent van Gogh; the others are post-/impressionist neighbours."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie heißt der Bruder von Super Mario in den Nintendo-Spielen?",
+    "options": [
+      "Wario",
+      "Toad",
+      "Yoshi",
+      "Luigi"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is Super Mario's brother called in the Nintendo games? — Luigi."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Woraus wird Marzipan neben Zucker hauptsächlich hergestellt?",
+    "options": [
+      "Haselnüssen",
+      "Mandeln",
+      "Walnüssen",
+      "Pistazien"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is marzipan mainly made of besides sugar? — Almonds."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Eine Basketballspielerin trifft zwei Dreier, drei Zweier und zwei Freiwürfe. Wie viele Punkte sind das insgesamt?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctIndex": 2,
+    "gloss": "A basketball player scores two three-pointers, three two-pointers and two free throws; total points? — 14 (6 + 6 + 2). Needs the scoring rules plus a sum."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welche Farbe hat der Elefant in der „Sendung mit der Maus“?",
+    "options": [
+      "Blau",
+      "Grau",
+      "Rosa",
+      "Grün"
+    ],
+    "correctIndex": 0,
+    "gloss": "What colour is the elephant in \"Die Sendung mit der Maus\"? — Blue; grey is the tempting trap."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Auf dem Markt kaufst du zweieinhalb Dutzend Eier. Wie viele Eier sind das?",
+    "options": [
+      "24",
+      "25",
+      "30",
+      "36"
+    ],
+    "correctIndex": 2,
+    "gloss": "At the market you buy two and a half dozen eggs; how many? — 30 (2.5 × 12). 24 is the \"two dozen\" trap."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher Dichter schrieb die Ballade „Der Zauberlehrling“, in der ein verzauberter Besen außer Kontrolle gerät?",
+    "options": [
+      "Johann Wolfgang von Goethe",
+      "Friedrich Schiller",
+      "Heinrich Heine",
+      "Theodor Fontane"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which poet wrote the ballad \"The Sorcerer's Apprentice\", in which an enchanted broom runs amok? — Goethe."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie heißt in der griechischen Mythologie der Fährmann, der die Toten über den Fluss Styx rudert?",
+    "options": [
+      "Hades",
+      "Hermes",
+      "Charon",
+      "Kerberos"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Greek mythology, who is the ferryman who rows the dead across the river Styx? — Charon; Hades rules the underworld, Cerberus guards it."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Welcher ist der größte See, der vollständig auf deutschem Staatsgebiet liegt?",
+    "options": [
+      "Chiemsee",
+      "Müritz",
+      "Starnberger See",
+      "Bodensee"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is the largest lake lying entirely within Germany? — The Müritz. The Bodensee is bigger but shared with Austria and Switzerland (\"entirely\" is the reasoning step)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie heißt der kleinste Knochen im menschlichen Körper?",
+    "options": [
+      "Hammer",
+      "Amboss",
+      "Zungenbein",
+      "Steigbügel"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the smallest bone in the human body? — The stirrup (stapes) in the middle ear; hammer and anvil are also ossicles but larger."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wer war der erste Kaiser des Römischen Reiches?",
+    "options": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Konstantin"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first emperor of the Roman Empire? — Augustus; Caesar was dictator, never emperor."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ein Duo sind zwei Musiker, ein Trio drei, ein Quartett vier. Wie viele Musiker spielen in einem Septett?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "A duo is two musicians, a trio three, a quartet four; how many in a septet? — Seven: the Latin numeral prefix continues the pattern (quintet 5, sextet 6, septet 7)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Eine Kuckucksuhr aus dem Schwarzwald ruft zur vollen Stunde so oft, wie die Uhr anzeigt, und zur halben Stunde genau einmal. Wie oft ruft sie zwischen 11:45 Uhr und 13:15 Uhr insgesamt?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "26"
+    ],
+    "correctIndex": 2,
+    "gloss": "A Black Forest cuckoo clock calls the hour as many times as it shows and once on the half hour; how often between 11:45 and 13:15? — 14: 12:00 (12), 12:30 (1), 13:00 (1)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aus den Blütennarben welcher Pflanze gewinnt man das teure Gewürz Safran?",
+    "options": [
+      "Tulpe",
+      "Krokus",
+      "Lavendel",
+      "Mohn"
+    ],
+    "correctIndex": 1,
+    "gloss": "From the stigmas of which flower is the expensive spice saffron gained? — The crocus (Crocus sativus)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche bekannte Programmiersprache ist nach einer Kaffeesorte benannt?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Swift",
+      "Java"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which well-known programming language is named after a kind of coffee? — Java."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die Schweiz hat vier Landessprachen: Deutsch, Französisch, Italienisch und …",
+    "options": [
+      "Rätoromanisch",
+      "Ladinisch",
+      "Okzitanisch",
+      "Katalanisch"
+    ],
+    "correctIndex": 0,
+    "gloss": "Switzerland has four national languages: German, French, Italian and … — Romansh. Ladin is spoken in the Dolomites, not Switzerland."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Im Deutschen ist eine Million eine Eins mit sechs Nullen, eine Milliarde eine Eins mit neun. Mit wie vielen Nullen schreibt man eine deutsche Billion?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctIndex": 2,
+    "gloss": "In German a million is 1 with six zeros, a milliard nine; how many zeros in a German \"Billion\"? — 12 (long scale: the English \"billion\" is the German Milliarde). The pattern plus the fact."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Die Sonne ist rund 150 Millionen Kilometer von der Erde entfernt. Wie lange ist ihr Licht ungefähr unterwegs, bis es uns erreicht?",
+    "options": [
+      "Acht Sekunden",
+      "Acht Minuten",
+      "Acht Stunden",
+      "Acht Tage"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Sun is about 150 million km away; how long does its light take to reach us? — About eight minutes (c is about 300,000 km/s, so about 500 s)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher Gipfel ist der höchste Berg der Schweiz?",
+    "options": [
+      "Matterhorn",
+      "Jungfrau",
+      "Eiger",
+      "Dufourspitze"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which peak is the highest mountain of Switzerland? — The Dufourspitze (4,634 m) in the Monte Rosa massif; the Matterhorn is only the famous one."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wer schrieb den Roman „Der Steppenwolf“ und erhielt 1946 den Nobelpreis für Literatur?",
+    "options": [
+      "Hermann Hesse",
+      "Thomas Mann",
+      "Günter Grass",
+      "Heinrich Böll"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel \"Steppenwolf\" and won the 1946 Nobel Prize in Literature? — Hermann Hesse; the other three are also German Nobel laureates (1929, 1999, 1972)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ein Byte besteht aus acht Bit, und jedes Bit kann 0 oder 1 sein. Wie viele verschiedene Werte kann ein einzelnes Byte darstellen?",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "512"
+    ],
+    "correctIndex": 2,
+    "gloss": "A byte has eight bits, each 0 or 1; how many different values can one byte hold? — 256 (2 to the power of 8); the step is doubling eight times."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aus welchem Land stammt der Kaffeestrauch ursprünglich?",
+    "options": [
+      "Brasilien",
+      "Kolumbien",
+      "Vietnam",
+      "Äthiopien"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country does the coffee plant originally come from? — Ethiopia; the other three are major producers today."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie viele Herzen hat ein Krake?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three: two pump blood through the gills, one through the body."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches der sieben Weltwunder der Antike stand auf einer Insel vor der Küste Ägyptens bei Alexandria?",
+    "options": [
+      "Der Koloss von Rhodos",
+      "Das Mausoleum von Halikarnassos",
+      "Der Tempel der Artemis",
+      "Der Leuchtturm von Pharos"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of the Seven Wonders of the Ancient World stood on an island off Alexandria in Egypt? — The Lighthouse of Pharos."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nach welchem Gemälde Claude Monets erhielt eine ganze Kunstrichtung ihren Namen?",
+    "options": [
+      "„Impression, Sonnenaufgang“",
+      "„Seerosen“",
+      "„Frau mit Sonnenschirm“",
+      "„Die Kathedrale von Rouen“"
+    ],
+    "correctIndex": 0,
+    "gloss": "After which Monet painting did a whole art movement get its name? — \"Impression, Sunrise\" (Impressionism). The name itself is the clue; the other three are real Monet works."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher Regisseur drehte 1927 den Stummfilm „Metropolis“?",
+    "options": [
+      "F. W. Murnau",
+      "Robert Wiene",
+      "G. W. Pabst",
+      "Fritz Lang"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which director made the 1927 silent film \"Metropolis\"? — Fritz Lang; Murnau (Nosferatu), Wiene (Caligari) and Pabst were his contemporaries."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Auf welchem Berg feiern die Hexen in Goethes „Faust“ die Walpurgisnacht?",
+    "options": [
+      "Zugspitze",
+      "Brocken",
+      "Feldberg",
+      "Fichtelberg"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which mountain do the witches celebrate Walpurgis Night in Goethe's \"Faust\"? — The Brocken in the Harz."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Welches Bundesland grenzt an die meisten anderen Bundesländer?",
+    "options": [
+      "Bayern",
+      "Brandenburg",
+      "Niedersachsen",
+      "Hessen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which German state borders the most other states? — Lower Saxony (nine, including the enclave Bremen); Hesse has six, Brandenburg five, Bavaria four. Counting plus geography."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In der Schweiz isst man „Znüni“. Was ist das?",
+    "options": [
+      "Das Abendessen",
+      "Einen Imbiss am Vormittag",
+      "Das Mittagessen",
+      "Einen Imbiss am Nachmittag"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Switzerland people eat \"Znüni\". What is it? — A mid-morning snack (\"zu neun\", at nine o'clock); the afternoon snack is \"Zvieri\"."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Wasser dehnt sich beim Gefrieren aus, deshalb schwimmt Eis. Bei welcher Temperatur ist flüssiges Wasser am dichtesten, also pro Liter am schwersten?",
+    "options": [
+      "0 °C",
+      "4 °C",
+      "10 °C",
+      "20 °C"
+    ],
+    "correctIndex": 1,
+    "gloss": "Water expands on freezing, so ice floats; at which temperature is liquid water densest? — About 4 °C. It cannot be 0 °C (it would sink) and it shrinks as it warms from 0."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beethoven schrieb neun Sinfonien und viele Sonaten, aber nur eine einzige Oper. Wie heißt sie?",
+    "options": [
+      "Fidelio",
+      "Don Giovanni",
+      "Der Freischütz",
+      "Die Zauberflöte"
+    ],
+    "correctIndex": 0,
+    "gloss": "Beethoven wrote nine symphonies and many sonatas but only one opera; what is it called? — Fidelio."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welche Stadt trägt den Beinamen „Königin der Hanse“?",
+    "options": [
+      "Hamburg",
+      "Bremen",
+      "Rostock",
+      "Lübeck"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city bears the nickname \"Queen of the Hanse\"? — Lübeck."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Der Oktober ist der zehnte Monat des Jahres, sein Name kommt aber vom lateinischen Wort für „acht“. Mit welchem Monat begann das altrömische Jahr?",
+    "options": [
+      "Januar",
+      "Februar",
+      "März",
+      "April"
+    ],
+    "correctIndex": 2,
+    "gloss": "October is the tenth month but its name means \"eighth\"; which month began the old Roman year? — March (September, October, November, December were 7th to 10th)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Beim Darts wirft man pro Aufnahme drei Pfeile. Wie viele Punkte sind mit drei Pfeilen höchstens möglich?",
+    "options": [
+      "120",
+      "140",
+      "150",
+      "180"
+    ],
+    "correctIndex": 3,
+    "gloss": "In darts you throw three darts per turn; what is the maximum score with three darts? — 180 (three triple 20s). The bullseye (50) is not the top field."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Architekt entwarf das Guggenheim-Museum in Bilbao mit seiner glänzenden Titanfassade?",
+    "options": [
+      "Frank Gehry",
+      "Norman Foster",
+      "Zaha Hadid",
+      "Renzo Piano"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which architect designed the Guggenheim Museum in Bilbao with its shining titanium facade? — Frank Gehry."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wer bewacht in der nordischen Mythologie die Regenbogenbrücke Bifröst?",
+    "options": [
+      "Tyr",
+      "Heimdall",
+      "Baldur",
+      "Loki"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who guards the rainbow bridge Bifröst in Norse mythology? — Heimdall."
+  }
+]

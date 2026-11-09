@@ -8,7 +8,7 @@
 #   SSH_HOST, SSH_USER, SSH_KEY, SSH_PORT (optional, default 22)
 #   APP_DIR          deployment root, e.g. /home/michael/apps/who-wants-to-be-a-millionaire
 #   ENV_API_BASE64   base64 of the API env file — DATABASE_URL, JWT_SECRET,
-#                    CORS_ORIGIN, GEMINI_KEY, GOOGLE_*, MAIL_*, optionally
+#                    CORS_ORIGIN, OPENROUTER_KEY and/or GEMINI_KEY, GOOGLE_*, MAIL_*, optionally
 #                    VERIFY_QUESTIONS, POOL_REFILL_*.
 #                    NODE_ENV/PORT/HOST/UPLOAD_DIR are appended below, so do not
 #                    put them in the secret.
@@ -523,9 +523,11 @@ jobs:
             set -a; . "$APP_DIR/shared/.env.api"; set +a
             ensure_database "$NEW/docker-compose.prod.yml"
             ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
-            # The curated English fallback bank. Idempotent (skipDuplicates on the question
-            # hash) and it creates no accounts, so running it on every deploy is safe — and
-            # it guarantees the game can start even before Gemini has written a question.
+            # The hand-written banks: the English fallback, and one Classic file per language
+            # (prisma/seed/classic/). Merges, never overwrites: only questions missing here
+            # are inserted (skipDuplicates on locale + text hash), AI questions are never
+            # touched, and only a seed question taken out of its file is retired. A file that
+            # fails its checks stops the deploy here, before the release is switched in.
             node dist/prisma/seed.js
 
             ln -sfn "$NEW" "$APP_DIR/api/current"

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ըստ առածի՝ մի ծաղկով ի՞նչ չի գա։",
+    "options": ["Ամառ", "Գարուն", "Աշուն", "Ձմեռ"],
+    "correctIndex": 1,
+    "gloss": "One flower doesn't bring... what? — Spring: the proverb «Մի ծաղկով գարուն չի գա»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Տիգրանն Աննայից բարձրահասակ է, իսկ Աննան՝ Արամից։ Ո՞վ է երեքից ամենացածրահասակը։",
+    "options": ["Տիգրանը", "Աննան", "Արամը", "Հնարավոր չէ որոշել"],
+    "correctIndex": 2,
+    "gloss": "Tigran is taller than Anna, and Anna than Aram. Who is the shortest? — Aram: Tigran > Anna > Aram; 'can't be determined' is for players who rush."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Աշխարհի յոթ հրաշալիքներից մինչև մեր օրերը պահպանվել է միայն մեկը՝ հսկայական բուրգը։ Ո՞ր երկրում է այն գտնվում։",
+    "options": ["Մեքսիկա", "Հունաստան", "Իրաք", "Եգիպտոս"],
+    "correctIndex": 3,
+    "gloss": "Only one of the Seven Wonders survives, a giant pyramid. Which country is it in? — Egypt: the Great Pyramid of Giza."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Հայաստանի զինանշանի կենտրոնում պատկերված է լեռ, որի գագաթին Նոյյան տապանն է։ Ո՞ր լեռն է դա։",
+    "options": ["Արագած", "Արա", "Աժդահակ", "Արարատ"],
+    "correctIndex": 3,
+    "gloss": "The centre of Armenia's coat of arms shows a mountain with Noah's Ark on top. Which? — Ararat; the other three are real Armenian mountains."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Թանը պատրաստում են՝ ջրով նոսրացնելով ո՞ր կաթնամթերքը։",
+    "options": ["Թթվասերը", "Մածունը", "Սերուցքը", "Կաթնաշոռը"],
+    "correctIndex": 1,
+    "gloss": "Tan is made by diluting which dairy product with water? — Matsun (Armenian yogurt), with a pinch of salt."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Արմեն Տիգրանյանի «Անուշ» օպերան գրված է ո՞ր բանաստեղծի համանուն պոեմի հիման վրա։",
+    "options": ["Հովհաննես Թումանյանի", "Ավետիք Իսահակյանի", "Վահան Տերյանի", "Եղիշե Չարենցի"],
+    "correctIndex": 0,
+    "gloss": "Armen Tigranian's opera 'Anoush' is based on the poem of the same name by which poet? — Hovhannes Tumanyan."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ո՞ր ամսաթիվն է հունվարի 1-ից ուղիղ մեկ շաբաթ առաջ։",
+    "options": ["Դեկտեմբերի 23-ը", "Դեկտեմբերի 24-ը", "Դեկտեմբերի 25-ը", "Դեկտեմբերի 26-ը"],
+    "correctIndex": 2,
+    "gloss": "Which date is exactly one week before 1 January? — 25 December: 1 Jan minus 7 days; the 24th catches those who count 31 Dec as day one."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Այս շարքում ամեն թիվ նախորդ երկուսի գումարն է՝ 1, 1, 2, 3, 5, 8 և այլն։ Ո՞ր թիվն է գալիս 8-ից հետո։",
+    "options": ["12", "13", "15", "16"],
+    "correctIndex": 1,
+    "gloss": "In this sequence each number is the sum of the two before: 1, 1, 2, 3, 5, 8... What comes after 8? — 13 (5 + 8); 16 is the doubling trap."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր թռչունը չի կարողանում թռչել, բայց հիանալի լողում ու սուզվում է։",
+    "options": ["Պինգվինը", "Կարապը", "Ճայը", "Բադը"],
+    "correctIndex": 0,
+    "gloss": "Which bird can't fly but swims and dives superbly? — The penguin; swans, gulls and ducks are water birds that fly."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Եգիպտոսը, Ալժիրը և Մալին ունեն մի ընդհանուր անապատ։ Ո՞րը։",
+    "options": ["Գոբին", "Կալահարին", "Ատակաման", "Սահարան"],
+    "correctIndex": 3,
+    "gloss": "Egypt, Algeria and Mali share one desert. Which? — The Sahara; Gobi (Asia), Kalahari (southern Africa), Atacama (South America)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Երկուշաբթի, երեքշաբթի, չորեքշաբթի, հինգշաբթի՝ այս օրերի անունները թվերից են ծագել։ Նույն տրամաբանությամբ ո՞ր օրը կլիներ «միաշաբթին»։",
+    "options": ["Շաբաթ", "Ուրբաթ", "Կիրակի", "Երկուշաբթի"],
+    "correctIndex": 2,
+    "gloss": "Monday to Thursday are named after numbers (two-, three-, four-, five-'shabti'). Which day would 'one-shabti' be? — Sunday, the day before 'two'."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Սևանա լիճ են թափվում տասնյակ գետեր, բայց լճից դուրս է հոսում միայն մեկը։ Ո՞րը։",
+    "options": ["Արփա", "Հրազդան", "Դեբեդ", "Ախուրյան"],
+    "correctIndex": 1,
+    "gloss": "Dozens of rivers flow into Sevan, only one flows out. Which? — The Hrazdan; the Arpa is a trap (its tunnel carries water into the lake)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր մետաղն է սենյակային ջերմաստիճանում հեղուկ, և հենց դրա համար երկար ժամանակ լցվել է ջերմաչափերի մեջ։",
+    "options": ["Կապար", "Անագ", "Ալյումին", "Սնդիկ"],
+    "correctIndex": 3,
+    "gloss": "Which metal is liquid at room temperature, which is why it went into thermometers? — Mercury."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Մայրը 30 տարեկան է, որդին՝ 6։ Քանի՞ տարի հետո մայրը որդուց ուղիղ երեք անգամ մեծ կլինի։",
+    "options": ["3", "6", "9", "12"],
+    "correctIndex": 1,
+    "gloss": "A mother is 30, her son 6. In how many years will she be exactly three times his age? — 6: then 36 and 12."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Երկիրը պտտվում է արևմուտքից արևելք, ուստի նոր օրն ավելի շուտ է գալիս արևելքում։ Այս քաղաքներից ո՞րն է Ամանորը դիմավորում առաջինը։",
+    "options": ["Լոնդոնը", "Երևանը", "Նյու Յորքը", "Տոկիոն"],
+    "correctIndex": 3,
+    "gloss": "The Earth turns west to east, so a new day arrives first in the east. Which of these cities sees in the New Year first? — Tokyo (UTC+9), the easternmost; needs knowing where the cities lie."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Հանելուկ՝ «Մի ծառ է՝ տասներկու ճյուղով, ամեն ճյուղին երեսուն տերև, ամեն տերևի մի կողմը սև է, մյուսը՝ սպիտակ»։ Ի՞նչ է սա։",
+    "options": ["Տարին", "Ժամացույցը", "Շաբաթը", "Արևը"],
+    "correctIndex": 0,
+    "gloss": "Riddle: 'A tree with twelve branches, thirty leaves on each, every leaf black on one side and white on the other.' What is it? — The year: 12 months, 30 days, night and day."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Երևանի Մատենադարանը՝ հին ձեռագրերի աշխարհահռչակ գանձարանը, կրում է ո՞ւմ անունը։",
+    "options": ["Սահակ Պարթևի", "Մեսրոպ Մաշտոցի", "Գրիգոր Նարեկացու", "Մովսես Խորենացու"],
+    "correctIndex": 1,
+    "gloss": "Yerevan's Matenadaran, the famous repository of ancient manuscripts, is named after whom? — Mesrop Mashtots, creator of the Armenian alphabet."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞վ է նկարել «Իններորդ ալիքը»՝ փոթորկից փրկվող նավաբեկյալների մասին աշխարհահռչակ կտավը։",
+    "options": ["Մարտիրոս Սարյանը", "Գևորգ Բաշինջաղյանը", "Վարդգես Սուրենյանցը", "Հովհաննես Այվազովսկին"],
+    "correctIndex": 3,
+    "gloss": "Who painted 'The Ninth Wave', the famous canvas of shipwreck survivors after a storm? — Ivan (Hovhannes) Aivazovsky, the Armenian-born marine painter (1850)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր կոմպոզիտորն է իր վերջին սիմֆոնիաները ստեղծել՝ արդեն գրեթե ամբողջովին կորցրած լսողությունը։",
+    "options": ["Լյուդվիգ վան Բեթհովենը", "Վոլֆգանգ Ամադեուս Մոցարտը", "Ֆրանց Հայդնը", "Ֆրանց Շուբերտը"],
+    "correctIndex": 0,
+    "gloss": "Which composer wrote his last symphonies having almost entirely lost his hearing? — Beethoven (the Ninth, 1824)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր մուլտֆիլմի հերոսն է Սիմբան՝ առյուծի ձագը, որը մեծանալով վերադառնում է հոր գահը ետ վերցնելու։",
+    "options": ["«Ջունգլիների գիրքը»", "«Մադագասկար»", "«Առյուծ արքան»", "«Տարզան»"],
+    "correctIndex": 2,
+    "gloss": "Which cartoon's hero is Simba, the lion cub who grows up and returns to reclaim his father's throne? — 'The Lion King' (Disney, 1994)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Դարեր շարունակ հայերը թվերը գրել են տառերով՝ Ա-ն 1 էր, Բ-ն՝ 2, …, Թ-ն՝ 9, Ժ-ն՝ 10, իսկ 11-ը գրում էին ԺԱ։ Ո՞ր թիվն էր նշանակում Ժ-ին հաջորդող Ի տառը։",
+    "options": ["11", "12", "20", "100"],
+    "correctIndex": 2,
+    "gloss": "Armenians wrote numbers with letters: Ա=1 … Թ=9, Ժ=10, and 11 was ԺԱ. What did Ի, the letter after Ժ, stand for? — 20: if 11 is ԺԱ, no single letter is needed for 11-19, so the next letter is the next ten."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Սասնա ծռեր» էպոսում ո՞վ է Դավթի հայրը։",
+    "options": ["Սանասար", "Ձենով Օհան", "Մեծ Մհեր", "Փոքր Մհեր"],
+    "correctIndex": 2,
+    "gloss": "In 'Daredevils of Sassoun', who is David's father? — Mher the Elder; the others are his grandfather, uncle and son."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր գետն է հոսում և՛ Վիեննայով, և՛ Բուդապեշտով, և՛ Բելգրադով։",
+    "options": ["Դանուբ", "Ռեյն", "Էլբա", "Դնեպր"],
+    "correctIndex": 0,
+    "gloss": "Which river flows through Vienna, Budapest and Belgrade? — The Danube."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ֆուտբոլում հաղթանակը տալիս է 3 միավոր, ոչ ոքին՝ 1։ Թիմը 5 խաղում ոչ մի անգամ չպարտվեց և վաստակեց 7 միավոր։ Քանի՞ խաղում այն հաղթեց։",
+    "options": ["1", "2", "3", "4"],
+    "correctIndex": 0,
+    "gloss": "A win is 3 points, a draw 1. A team unbeaten in 5 games earned 7 points. How many did it win? — 1: one win and four draws = 3 + 4 = 7; two wins would already give at least 9."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Բարձր լեռներում ձուն եռացող ջրում ավելի երկար է եփվում, քան ծովի ափին։ Ինչո՞ւ։",
+    "options": ["Այնտեղ ջուրն ավելի բարձր ջերմաստիճանում է եռում", "Այնտեղ օդն ավելի խոնավ է", "Այնտեղ ջուրն ավելի ցածր ջերմաստիճանում է եռում", "Այնտեղ արևի ճառագայթներն ավելի ուժեղ են"],
+    "correctIndex": 2,
+    "gloss": "High in the mountains an egg takes longer to cook in boiling water than at the seaside. Why? — Lower air pressure makes water boil below 100°C, so the boiling water is cooler; the 'higher' option is the reversed trap."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Լոնդոնի ո՞ր փողոցում էին ապրում Շերլոկ Հոլմսն ու դոկտոր Ուոթսոնը։",
+    "options": ["Օքսֆորդ-սթրիթում", "Բեյքեր-սթրիթում", "Ֆլիթ-սթրիթում", "Ռիջենթ-սթրիթում"],
+    "correctIndex": 1,
+    "gloss": "On which London street did Sherlock Holmes and Dr Watson live? — Baker Street (221B)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞վ է գրել «Վերք Հայաստանի» վեպը, որը համարվում է աշխարհաբարով գրված առաջին հայերեն վեպը։",
+    "options": ["Րաֆֆին", "Պերճ Պռոշյանը", "Ղազարոս Աղայանը", "Խաչատուր Աբովյանը"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Wounds of Armenia', considered the first Armenian novel in the modern vernacular? — Khachatur Abovyan; the others are later 19th-century prose writers."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Հին հռոմեական օրացույցում տարին սկսվում էր մարտից։ Ո՞ր ամսի անունն է նշանակում «ութերորդ»։",
+    "options": ["Հոկտեմբերի", "Սեպտեմբերի", "Նոյեմբերի", "Դեկտեմբերի"],
+    "correctIndex": 0,
+    "gloss": "In the old Roman calendar the year began in March. Which month's name means 'eighth'? — October: counting from March, it is the eighth (Latin octo); December, the 'tenth', is the trap for those who count from January."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր նկարիչն է «Աստղային գիշեր» կտավը ստեղծել Ֆրանսիայի հարավում՝ հոգեբուժարանում բուժվելիս։",
+    "options": ["Պոլ Գոգենը", "Վինսենթ վան Գոգը", "Կլոդ Մոնեն", "Էդվարդ Մունկը"],
+    "correctIndex": 1,
+    "gloss": "Which painter created 'The Starry Night' in the south of France while being treated in an asylum? — Vincent van Gogh, Saint-Rémy, 1889."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Բյուրականի աստղադիտարանն այսօր կրում է իր հիմնադրի անունը։ Ո՞վ է նա։",
+    "options": ["Վիկտոր Համբարձումյանը", "Գրիգոր Գուրզադյանը", "Արտեմ Ալիխանյանը", "Սերգեյ Մերգելյանը"],
+    "correctIndex": 0,
+    "gloss": "The Byurakan Observatory bears its founder's name. Who is he? — Viktor Ambartsumian (founded 1946); Gurzadyan (astrophysicist), Alikhanyan (physicist), Mergelyan (mathematician) are tempting peers."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Այս տարեթվերից ո՞րն է հռոմեական թվանշաններով գրվում ամենաշատ նշաններով։",
+    "options": ["1777", "1888", "1999", "2024"],
+    "correctIndex": 1,
+    "gloss": "Which of these years takes the most symbols in Roman numerals? — 1888 = MDCCCLXXXVIII (13); 1777 = MDCCLXXVII (10), 1999 = MCMXCIX (7), 2024 = MMXXIV (6). Replaces the sample's clock-hands question."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bluetooth անլար կապը կոչվել է 10-րդ դարի մի թագավորի մականունով։ Ո՞ր երկրի թագավորն էր նա։",
+    "options": ["Շվեդիա", "Դանիա", "Անգլիա", "Շոտլանդիա"],
+    "correctIndex": 1,
+    "gloss": "Bluetooth is named after a 10th-century king's nickname. Which country? — Denmark (Harald Bluetooth); Norway left out because he ruled it too."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1963 թվականին Տիգրան Պետրոսյանը դարձավ շախմատի աշխարհի չեմպիոն՝ հաղթելով ո՞ր շախմատիստին։",
+    "options": ["Միխայիլ Տալ", "Բորիս Սպասսկի", "Միխայիլ Բոտվիննիկ", "Վասիլի Սմիսլով"],
+    "correctIndex": 2,
+    "gloss": "Petrosian became world champion in 1963 by beating whom? — Botvinnik; Spassky lost to him in 1966 and took the title in 1969."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞վ է Հայաստանի օրհներգի՝ «Մեր Հայրենիք»-ի երաժշտության հեղինակը։",
+    "options": ["Արամ Խաչատրյանը", "Առնո Բաբաջանյանը", "Ալեքսանդր Սպենդիարյանը", "Բարսեղ Կանաչյանը"],
+    "correctIndex": 3,
+    "gloss": "Who composed the music of Armenia's anthem 'Mer Hayrenik'? — Barsegh Kanachyan; Khachaturian is the trap (he wrote the Soviet Armenian anthem)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ո՞ր քաղաքում կեսօրին Արևը միշտ երկնքի հյուսիսային կողմում է։",
+    "options": ["Տոկիոյում", "Երևանում", "Սիդնեյում", "Լոնդոնում"],
+    "correctIndex": 2,
+    "gloss": "In which city is the noon Sun always in the northern part of the sky? — Sydney: south of the Tropic of Capricorn the noon Sun is always to the north; the other three lie north of the Tropic of Cancer, where it is always south."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Վանա լճի Աղթամար կղզու Սուրբ Խաչ եկեղեցին՝ իր քանդակազարդ պատերով, կառուցվել է ո՞ր թագավորի պատվերով։",
+    "options": ["Գագիկ Արծրունու", "Աշոտ Երկաթի", "Սմբատ Առաջինի", "Գագիկ Առաջին Բագրատունու"],
+    "correctIndex": 0,
+    "gloss": "The Church of the Holy Cross on Akhtamar island, with its carved walls, was built for which king? — Gagik Artsruni of Vaspurakan (915-921); the Bagratid Gagik I is the namesake trap."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Մաշտոցը տառ ստեղծեց միայն այն հնչյունների համար, որոնք կային 5-րդ դարի հայերենում։ Այս տառերից ո՞րը նրա այբուբենում չկար։",
+    "options": ["Է", "Ը", "Ձ", "Ֆ"],
+    "correctIndex": 3,
+    "gloss": "Mashtots made letters only for the sounds of 5th-century Armenian. Which of these letters was not in his alphabet? — Ֆ (f), added in the Middle Ages for foreign words; Է, Ը and Ձ are among his 36."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր գրողն է ձևակերպել ռոբոտաշինության երեք օրենքները։",
+    "options": ["Ռեյ Բրեդբերին", "Այզեկ Ազիմովը", "Արթուր Քլարկը", "Ստանիսլավ Լեմը"],
+    "correctIndex": 1,
+    "gloss": "Which writer formulated the Three Laws of Robotics? — Isaac Asimov."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Երկրի վրա տիեզերագնացի զանգվածը 80 կգ է։ Ինչպե՞ս կփոխվի այն Մարսի վրա։",
+    "options": ["Կնվազի մոտ երեք անգամ", "Կդառնա գրեթե զրո", "Չի փոխվի", "Կաճի մոտ երեք անգամ"],
+    "correctIndex": 2,
+    "gloss": "An astronaut's mass on Earth is 80 kg. How does it change on Mars? — It doesn't: mass is the amount of matter; only weight drops (to about 38%), which is the trap."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Քիվին անվանվել է Նոր Զելանդիայի խորհրդանիշ թռչնի պատվին, բայց այդ մրգի հայրենիքը մեկ այլ երկիր է։ Ո՞րը։",
+    "options": ["Չինաստանը", "Ավստրալիան", "Չիլին", "Ճապոնիան"],
+    "correctIndex": 0,
+    "gloss": "The kiwi fruit is named after New Zealand's national bird, but its homeland is another country. Which? — China (once called 'Chinese gooseberry')."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Հայերեն առաջին տպագիր գիրքը՝ «Ուրբաթագիրքը», Հակոբ Մեղապարտը հրատարակել է 1512 թվականին։ Ո՞ր քաղաքում։",
+    "options": ["Վենետիկ", "Ամստերդամ", "Կոստանդնուպոլիս", "Հռոմ"],
+    "correctIndex": 0,
+    "gloss": "In which city did Hakob Meghapart print the first Armenian book, the 'Friday Book', in 1512? — Venice; all options are early centres of Armenian printing."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ո՞ր տարին նահանջ տարի չէր, թեև բաժանվում է 4-ի։",
+    "options": ["1996", "1900", "2000", "2024"],
+    "correctIndex": 1,
+    "gloss": "Which year was not a leap year, although it divides by 4? — 1900: a century year is a leap year only if divisible by 400, so 2000 was and 1900 wasn't."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Լուսինը Երկրին միշտ նույն կողմով է նայում։ Լուսնի վրա կանգնած տիեզերագնացի համար որքա՞ն է տևում մեկ արևածագից մինչև հաջորդ արևածագը։",
+    "options": ["Մոտ մեկ երկրային օր", "Մոտ մեկ շաբաթ", "Մոտ երկու շաբաթ", "Մոտ մեկ ամիս"],
+    "correctIndex": 3,
+    "gloss": "The Moon always shows Earth one face. For an astronaut on the Moon, how long from sunrise to sunrise? — About a month (29.5 days): it turns once per orbit; 'two weeks' is only the daylight half."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "7-րդ դարի ո՞ր հայ գիտնականն է գրել, որ Երկիրը գնդաձև է, և կազմել թվաբանական խնդիրների ժողովածու։",
+    "options": ["Դավիթ Անհաղթը", "Մխիթար Հերացին", "Հովհաննես Սարկավագը", "Անանիա Շիրակացին"],
+    "correctIndex": 3,
+    "gloss": "Which 7th-century Armenian scholar wrote that the Earth is a sphere and compiled a book of arithmetic problems? — Anania Shirakatsi; David the Invincible (5th-6th c.), Mkhitar Heratsi and Hovhannes Sarkavag (12th c.) are other scholars."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ըստ Կորյունի՝ Մաշտոցի գրերով թարգմանված առաջին նախադասությունը վերցված էր Աստվածաշնչից։ Ո՞ր գրքից։",
+    "options": ["Սաղմոսաց գրքից", "Առակաց գրքից", "Ծննդոց գրքից", "Ժողովողի գրքից"],
+    "correctIndex": 1,
+    "gloss": "According to Koryun, the first sentence translated in Mashtots's letters came from the Bible. Which book? — Proverbs: «Ճանաչել զիմաստութիւն և զխրատ...»; Ecclesiastes, also Solomon's, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Կոմիտասը բարձրագույն երաժշտական կրթություն է ստացել ո՞ր քաղաքում։",
+    "options": ["Փարիզում", "Վիեննայում", "Բեռլինում", "Սանկտ Պետերբուրգում"],
+    "correctIndex": 2,
+    "gloss": "In which city did Komitas receive his higher musical education? — Berlin (1896-1899, Richard Schmidt's conservatory and the university); Paris is the trap, where he later lived and died."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Կասպից ծովը ողողում է հինգ երկրի ափեր։ Այս երկրներից ո՞րը դրանց թվում չէ։",
+    "options": ["Ուզբեկստանը", "Թուրքմենստանը", "Իրանը", "Ղազախստանը"],
+    "correctIndex": 0,
+    "gloss": "The Caspian Sea washes the shores of five countries. Which of these is not one of them? — Uzbekistan (the five: Russia, Kazakhstan, Turkmenistan, Iran, Azerbaijan)."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Հայ առաքելական եկեղեցին Սուրբ Ծնունդը նշում է հունվարի 6-ին, իսկ Երուսաղեմի հայոց պատրիարքությունը նույն օրը նշում է հին՝ Հուլյան օրացույցով։ Գրիգորյան օրացույցով ո՞ր ամսաթիվն է դա։",
+    "options": ["Հունվարի 7-ը", "Հունվարի 13-ը", "Հունվարի 19-ը", "Հունվարի 25-ը"],
+    "correctIndex": 2,
+    "gloss": "The Armenian Church celebrates Christmas on 6 January, but the Armenian Patriarchate of Jerusalem keeps it by the Julian calendar. Which Gregorian date is that? — 19 January: 6 + the 13-day gap; 7 January (Orthodox Christmas) is the trap."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր գրողն է իր վեպերի ու պատմվածքների ահռելի շարքը միավորել «Մարդկային կատակերգություն» ընդհանուր վերնագրով։",
+    "options": ["Ուիլյամ Սարոյանը", "Էմիլ Զոլան", "Վիկտոր Հյուգոն", "Օնորե դը Բալզակը"],
+    "correctIndex": 3,
+    "gloss": "Which writer united his huge cycle of novels and stories under the title 'The Human Comedy'? — Balzac; Saroyan is the Armenian trap (a single novel of that name), Zola's cycle is Les Rougon-Macquart."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր ծրագրավորման լեզուն է անվանվել բրիտանական կատակերգական խմբի պատվին։",
+    "options": ["Ջավա", "Ռուբի", "Պերլ", "Փայթոն"],
+    "correctIndex": 3,
+    "gloss": "Which programming language is named after a British comedy group? — Python, after Monty Python; Java (coffee), Ruby and Perl (gems) are named otherwise."
+  }
+]

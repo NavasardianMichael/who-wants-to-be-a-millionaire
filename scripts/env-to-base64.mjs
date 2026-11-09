@@ -79,7 +79,9 @@ if (/DATABASE_URL="?postgresql:\/\/[^\n]*@localhost:/.test(content)) {
 }
 if (content.includes('millionaire:millionaire@')) warn('DATABASE_URL still has the dev password')
 if (/DATABASE_URL="?postgresql:\/\/[^:\n]*:@/.test(content)) warn('DATABASE_URL has an empty password')
-if (/^GEMINI_KEY="?"?\s*$/m.test(content)) warn('GEMINI_KEY is empty — generation stays off, games use the pool and the English bank only')
+if (!/^(GEMINI|OPENROUTER)_KEY="?[^"\s]/m.test(content)) {
+  warn('GEMINI_KEY and OPENROUTER_KEY are both empty — generation stays off, games use the pool and the English bank only')
+}
 if (owned.length || missing.length) console.error('')
 
 console.error('Paste the line below into the ENV_API_BASE64 GitHub secret:')

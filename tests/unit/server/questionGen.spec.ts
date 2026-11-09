@@ -19,6 +19,19 @@ describe('parseGeneratedQuestions', () => {
     expect([...question!.options].sort()).toEqual([...valid.options].sort())
   })
 
+  it('drops quotation marks wrapping the whole question, and only those', () => {
+    expect(parse([{ ...valid, question: '« Quelle planète est surnommée la planète rouge ? »' }])[0]!.text).toBe(
+      'Quelle planète est surnommée la planète rouge ?'
+    )
+    expect(parse([{ ...valid, question: '"Which planet is known as the Red Planet?"' }])[0]!.text).toBe(valid.question)
+    expect(parse([{ ...valid, question: 'Who wrote "Hamlet" and "Macbeth"?', options: ['A', 'B', 'C', 'D'] }])[0]!.text).toBe(
+      'Who wrote "Hamlet" and "Macbeth"?'
+    )
+    expect(parse([{ ...valid, question: '"Hamlet" was written by which playwright, "the Bard"', options: ['A', 'B', 'C', 'D'] }])[0]!.text).toBe(
+      '"Hamlet" was written by which playwright, "the Bard"'
+    )
+  })
+
   it('rejects malformed JSON and a missing list', () => {
     expect(parseGeneratedQuestions('not json', 'en')).toEqual([])
     expect(parseGeneratedQuestions('{"items": []}', 'en')).toEqual([])
@@ -38,6 +51,15 @@ describe('parseGeneratedQuestions', () => {
 
   it('drops questions written in the wrong script', () => {
     expect(parse([valid], 'ja')).toEqual([])
+    expect(parse([{ ...valid, question: '赤い惑星として知られている惑星はどれ？' }], 'ja')).toHaveLength(1)
+  })
+
+  it('drops a question with a word that mixes two alphabets', () => {
+    const czech = { ...valid, question: 'Která památka je zapsána jako jediná památka v zemi?' }
+    expect(parse([czech], 'cs')).toHaveLength(1)
+    expect(parse([{ ...czech, question: 'Která památka je zapsána jako единinná památka v zemi?' }], 'cs')).toEqual([])
+    // Separate words in separate alphabets are fine, and Japanese mixes scripts inside words by design.
+    expect(parse([{ ...valid, question: 'Как по-английски называют Красную планету — Mars?', options: ['A', 'B', 'C', 'D'] }], 'ru')).toHaveLength(1)
     expect(parse([{ ...valid, question: '赤い惑星として知られている惑星はどれ？' }], 'ja')).toHaveLength(1)
   })
 

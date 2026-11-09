@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "أيّ هذه الكلمات تُقرأ بالحروف نفسها سواء بدأتَ من أولها أو من آخرها؟",
+    "options": ["نهار", "صباح", "ليل", "مساء"],
+    "correctIndex": 2,
+    "gloss": "Which of these words reads the same from its first letter or from its last? — Layl (night): ل-ي-ل is a palindrome; the other time-of-day words are not."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أكمل المثل: «العلم في الصغر كالنقش على ...»",
+    "options": ["الرمل", "الحجر", "الماء", "الورق"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Learning in youth is like carving on ...' — Stone (الحجر): the proverb «العلم في الصغر كالنقش على الحجر»."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في «ألف ليلة وليلة» تحكي راوية حكاية كل ليلة للملك شهريار لتنجو بحياتها. من هي؟",
+    "options": ["شهرزاد", "دنيازاد", "مرجانة", "زبيدة"],
+    "correctIndex": 0,
+    "gloss": "In One Thousand and One Nights, who tells the king Shahriyar a story each night to save her life? — Scheherazade. Dunyazad is her sister, Morgiana is the maid in Ali Baba."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "يُصنع الزبيب بتجفيف أيّ فاكهة؟",
+    "options": ["التين", "المشمش", "البلح", "العنب"],
+    "correctIndex": 3,
+    "gloss": "Raisins are made by drying which fruit? — Grapes. Dried figs, apricots and dates are the tempting cousins."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما اسم الوجبة التي يتناولها الصائم في رمضان قبل أذان الفجر؟",
+    "options": ["الفطور", "السحور", "الغداء", "العشاء"],
+    "correctIndex": 1,
+    "gloss": "What is the meal a fasting person eats before the dawn call in Ramadan? — Suhoor; iftar is the meal at sunset."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "تحتاج النباتات لصنع غذائها بالضوء إلى غاز من الهواء. أيّ غاز هو؟",
+    "options": ["الأكسجين", "النيتروجين", "الهيدروجين", "ثاني أكسيد الكربون"],
+    "correctIndex": 3,
+    "gloss": "To make food with light, plants need a gas from the air. Which? — Carbon dioxide (photosynthesis); oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "كم شهراً من أشهر السنة الميلادية فيها 28 يوماً على الأقل؟",
+    "options": ["اثنا عشر شهراً", "شهر واحد", "شهران", "ستة أشهر"],
+    "correctIndex": 0,
+    "gloss": "How many months of the year have at least 28 days? — All twelve. Autopilot answers 'one' (February); every month has 28 days or more."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما الرمز الذي لا يخلو منه أيّ عنوان بريد إلكتروني؟",
+    "options": ["@", "#", "&", "%"],
+    "correctIndex": 0,
+    "gloss": "Which symbol does every email address contain? — The @ sign, between the user name and the domain."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ كوكب هو الأقرب إلى الشمس بين كواكب المجموعة الشمسية؟",
+    "options": ["الزهرة", "عطارد", "الأرض", "المريخ"],
+    "correctIndex": 1,
+    "gloss": "Which planet is closest to the Sun? — Mercury. Venus is hotter but farther out."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "أيّ كلمة من هذه الكلمات الأربع تختلف عن الثلاث الأخرى؟",
+    "options": ["الرياض", "دمشق", "النيل", "عمّان"],
+    "correctIndex": 2,
+    "gloss": "Which of these four words differs from the other three? — The Nile: a river, while the others are capital cities (Riyadh, Damascus, Amman)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما الطبق المغربي الذي يُطهى في إناء فخاري بغطاء مخروطي ويحمل اسم هذا الإناء؟",
+    "options": ["الكسكس", "البسطيلة", "الحريرة", "الطاجين"],
+    "correctIndex": 3,
+    "gloss": "Which Moroccan dish is cooked in a clay pot with a cone-shaped lid and takes the pot's name? — Tagine. Couscous, bastilla and harira are other famous Moroccan dishes."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ما الشيء الذي كلما أخذتَ منه ازداد حجماً؟",
+    "options": ["الكيس", "الحفرة", "الجبل", "الظلّ"],
+    "correctIndex": 1,
+    "gloss": "What gets bigger the more you take away from it? — A hole; the classic riddle. Bag, mountain and shadow all shrink or stay put when you take from them."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "من أول إنسان وطئت قدماه سطح القمر عام 1969؟",
+    "options": ["باز ألدرين", "يوري غاغارين", "نيل أرمسترونغ", "مايكل كولينز"],
+    "correctIndex": 2,
+    "gloss": "Who was the first person to set foot on the Moon in 1969? — Neil Armstrong. Aldrin followed him; Collins stayed in orbit; Gagarin was the first in space."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "أيّ هذه الكلمات حروفها كلها بلا نقاط؟",
+    "options": ["ورد", "قمر", "نجم", "شجر"],
+    "correctIndex": 0,
+    "gloss": "Which of these words has no dotted letter at all? — Ward (rose): و-ر-د; qamar has ق, najm has ن and ج, shajar has ش and ج."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "يظنّ كثيرون أن سنام الجمل خزّان ماء. فماذا يخزّن فيه فعلاً؟",
+    "options": ["الدهون", "الماء", "الهواء", "الدم"],
+    "correctIndex": 0,
+    "gloss": "Many think a camel's hump is a water tank. What does it really store? — Fat, an energy reserve."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما اسم القنفذ الأزرق السريع، الشخصية الأشهر في ألعاب سيغا؟",
+    "options": ["ماريو", "باك مان", "سونيك", "كراش"],
+    "correctIndex": 2,
+    "gloss": "What is the fast blue hedgehog, Sega's best-known game character, called? — Sonic. Mario is Nintendo's, Pac-Man is Namco's."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اشتُهرت المطربة المصرية أم كلثوم بلقب ...",
+    "options": ["العندليب الأسمر", "كوكب الشرق", "موسيقار الأجيال", "سفيرتنا إلى النجوم"],
+    "correctIndex": 1,
+    "gloss": "The Egyptian singer Umm Kulthum was famous by the title ... — Kawkab al-Sharq (Star of the East). The others belong to Abdel Halim, Abdel Wahab and Fairuz."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "نال أديب عربي جائزة نوبل للآداب لأول مرة عام 1988. فمن هو؟",
+    "options": ["طه حسين", "توفيق الحكيم", "جبران خليل جبران", "نجيب محفوظ"],
+    "correctIndex": 3,
+    "gloss": "An Arab writer first won the Nobel Prize in Literature in 1988. Who? — Naguib Mahfouz, the first Arab laureate in literature."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ما العدد الذي يمثّله الرمز الروماني XIV؟",
+    "options": ["4", "6", "14", "16"],
+    "correctIndex": 2,
+    "gloss": "What number does the Roman numeral XIV stand for? — 14: X (10) plus IV (4). 16 is XVI, a trap for fast readers."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ هذه الحيوانات يلد صغاره ولا يبيض؟",
+    "options": ["الدلفين", "السلحفاة", "النعامة", "الضفدع"],
+    "correctIndex": 0,
+    "gloss": "Which of these animals gives birth to live young instead of laying eggs? — The dolphin, a mammal; the turtle, ostrich and frog all lay eggs."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "نقول «السَّلام» فتُدغَم لام «ال» في السين ولا تُسمع، ونقول «القمر» فتظهر اللام. فأيّ هذه الكلمات تُنطق لام «ال» فيها مُدغمة؟",
+    "options": ["الجبل", "الكتاب", "النهر", "البيت"],
+    "correctIndex": 2,
+    "gloss": "We say as-salam (the lam assimilates into the s) but al-qamar (the lam is heard). In which of these is the lam of 'al' assimilated? — an-nahr (the river): ن is a sun letter; ج, ك and ب are moon letters."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ما العدد التالي في هذه المتتالية: 3، 5، 9، 17، 33، ...؟",
+    "options": ["49", "57", "65", "66"],
+    "correctIndex": 2,
+    "gloss": "Next number in 3, 5, 9, 17, 33, ...? — 65. The gaps double (2, 4, 8, 16, so 32); equivalently each term is twice the previous minus 1."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ هذه الدول العربية ليس لها أيّ ساحل على البحر المتوسط؟",
+    "options": ["الأردن", "لبنان", "ليبيا", "تونس"],
+    "correctIndex": 0,
+    "gloss": "Which of these Arab countries has no Mediterranean coast? — Jordan (its only sea outlet is the Red Sea at Aqaba)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في أيّ مدينة وُلد الرحّالة ابن بطوطة الذي جاب العالم المعروف في القرن الرابع عشر؟",
+    "options": ["فاس", "مراكش", "سبتة", "طنجة"],
+    "correctIndex": 3,
+    "gloss": "In which city was the traveller Ibn Battuta, who toured the known world in the 14th century, born? — Tangier."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "تطفو قطعة جليد في كوب مملوء ماءً عذباً حتى حافته. عندما تذوب كلياً، ماذا يحدث؟",
+    "options": ["يبقى المستوى كما هو", "يفيض الماء من الكوب", "ينخفض مستوى الماء", "يتوقف الأمر على حجم القطعة"],
+    "correctIndex": 0,
+    "gloss": "A piece of ice floats in a cup filled to the brim with fresh water. When it melts completely, what happens? — The level stays the same: floating ice displaces exactly its own weight of water, which is the volume it becomes when melted."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أُقيمت أولى دورات الألعاب الأولمبية الحديثة عام 1896 في مدينة ...",
+    "options": ["باريس", "أثينا", "لندن", "روما"],
+    "correctIndex": 1,
+    "gloss": "The first modern Olympic Games, in 1896, were held in the city of ... — Athens, home of the ancient Games. Paris hosted in 1900."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما أول فيلم رسوم متحركة طويل أنتجته ديزني، وعُرض عام 1937؟",
+    "options": ["سندريلا", "بينوكيو", "دامبو", "بياض الثلج"],
+    "correctIndex": 3,
+    "gloss": "What was the first full-length animated feature Disney made, released in 1937? — Snow White and the Seven Dwarfs; Pinocchio and Dumbo came in 1940 and 1941, Cinderella in 1950."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "السنة الهجرية القمرية أقصر من الميلادية بنحو 11 يوماً. إذا بدأ رمضان في أول أبريل هذا العام، ففي أيّ شهر ميلادي يبدأ بعد سنتين؟",
+    "options": ["فبراير", "مارس", "أبريل", "مايو"],
+    "correctIndex": 1,
+    "gloss": "The lunar Hijri year is about 11 days shorter than the Gregorian one. If Ramadan starts on 1 April this year, in which month does it start two years later? — March (about 22 days earlier, around 10 March); February would need three years."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في مصر القديمة، أيّ إله يُصوَّر برأس ابن آوى ويُنسب إليه حراسة الموتى والتحنيط؟",
+    "options": ["أنوبيس", "حورس", "تحوت", "سوبك"],
+    "correctIndex": 0,
+    "gloss": "In ancient Egypt, which god is shown with a jackal's head and linked to guarding the dead and embalming? — Anubis. Horus has a falcon's head, Thoth an ibis's, Sobek a crocodile's."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ سمفونية لبيتهوفن، التي تنتهي بجوقة تُنشد «نشيد الفرح»، ألّفها وهو أصمّ تقريباً؟",
+    "options": ["الخامسة", "السادسة", "التاسعة", "الثالثة"],
+    "correctIndex": 2,
+    "gloss": "Which Beethoven symphony, ending with a choir singing the 'Ode to Joy', did he write when nearly deaf? — The Ninth."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "انتقلت كلمة «الجبر» إلى لغات أوروبا عبر عنوان كتاب ألّفه في بغداد، في القرن التاسع، عالم رياضيات وفلك. من هو؟",
+    "options": ["ابن الهيثم", "الخوارزمي", "الرازي", "البيروني"],
+    "correctIndex": 1,
+    "gloss": "The word 'algebra' reached Europe from the title of a 9th-century Baghdad book by a mathematician and astronomer. Who? — Al-Khwarizmi (al-Kitab al-mukhtasar fi hisab al-jabr wa-l-muqabala). Ibn al-Haytham and al-Biruni are later; al-Razi was a physician."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أسّست امرأة في القرن التاسع الميلادي جامعة القرويين في فاس، وهي من أقدم الجامعات القائمة في العالم. ما اسمها؟",
+    "options": ["رابعة العدوية", "شجرة الدر", "زبيدة بنت جعفر", "فاطمة الفهرية"],
+    "correctIndex": 3,
+    "gloss": "A woman founded the University of al-Qarawiyyin in Fez in the 9th century, one of the oldest still running. Her name? — Fatima al-Fihri (859). The others are a Sufi saint, a Mamluk-era sultana and an Abbasid princess."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "نُقلت حكايات «كليلة ودمنة» من الفهلوية إلى العربية في القرن الثامن الميلادي. فمن نقلها؟",
+    "options": ["الجاحظ", "ابن خلدون", "ابن المقفع", "أبو العلاء المعري"],
+    "correctIndex": 2,
+    "gloss": "Kalila wa Dimna was translated from Middle Persian (Pahlavi) into Arabic in the 8th century. By whom? — Ibn al-Muqaffa. Al-Jahiz, Ibn Khaldun and al-Ma'arri are later authors."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "تقترب الأرض من الشمس أكثر ما تكون في مطلع يناير تقريباً. فما السبب الحقيقي لبرد الشتاء في نصف الكرة الشمالي؟",
+    "options": ["بُعد الأرض عن الشمس", "ميل محور دوران الأرض", "تغيّر حجم الشمس", "دوران القمر حولها"],
+    "correctIndex": 1,
+    "gloss": "Earth is closest to the Sun in early January. So what really causes winter cold in the Northern Hemisphere? — The tilt of Earth's axis; distance cannot be the cause when we are nearest."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "من ابتكر الشبكة العنكبوتية العالمية (الويب) عام 1989 أثناء عمله في المنظمة الأوروبية للأبحاث النووية (سيرن)؟",
+    "options": ["فينت سيرف", "بيل غيتس", "ستيف جوبز", "تيم بيرنرز-لي"],
+    "correctIndex": 3,
+    "gloss": "Who invented the World Wide Web in 1989 while working at CERN? — Tim Berners-Lee. Vint Cerf co-designed the internet protocols (the internet, not the Web)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "رسم فنان هولندي لوحة «الفتاة ذات القرط اللؤلؤي». فمن هو؟",
+    "options": ["يوهانس فيرمير", "ريمبرانت", "فان غوخ", "فرانس هالس"],
+    "correctIndex": 0,
+    "gloss": "A Dutch artist painted 'Girl with a Pearl Earring'. Who? — Johannes Vermeer; Rembrandt and Hals are fellow Dutch Golden Age painters, Van Gogh came two centuries later."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "تُقطف خيوطها الحمراء من الأزهار يدوياً، ويلزم عدد هائل من الأزهار لكيلوغرام واحد، وهي من أغلى التوابل ثمناً في العالم. ما هي؟",
+    "options": ["الزعفران", "الفانيليا", "الهيل", "الكركم"],
+    "correctIndex": 0,
+    "gloss": "Its red threads are picked from flowers by hand, a kilogram needs a huge number of flowers, and it is among the world's costliest spices. What is it? — Saffron (the stigmas of the saffron crocus)."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "الشهر الأول في التقويم الميلادي سُمّي على اسم إله روماني بوجهين، أحدهما ينظر إلى الماضي والآخر إلى المستقبل. من هو؟",
+    "options": ["مارس", "جوبيتر", "يانوس", "نبتون"],
+    "correctIndex": 2,
+    "gloss": "The first month of the Gregorian calendar is named after a two-faced Roman god, one face looking to the past and one to the future. Who? — Janus (January). Mars gave March."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "عدّاء هاوٍ يركض بوتيرة ثابتة قدرها 5 دقائق لكل كيلومتر. كم تقريباً سيحتاج لإنهاء ماراثون رسمي كامل؟",
+    "options": ["ساعتين ونصف", "3 ساعات ونصف", "4 ساعات ونصف", "5 ساعات"],
+    "correctIndex": 1,
+    "gloss": "An amateur runs at a steady 5 minutes per kilometre. About how long for a full official marathon? — About 3.5 hours: the marathon is 42.195 km, and 42.195 x 5 is about 211 minutes."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "في الكتابة العربية حروف لا تُوصَل بما بعدها، مثل الألف والدال. كم عدد هذه الحروف في الأبجدية كلها؟",
+    "options": ["4", "5", "6", "7"],
+    "correctIndex": 2,
+    "gloss": "Arabic has letters that never join to the one after them, like alif and dal. How many in all? — Six: ا د ذ ر ز و."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في بلاط الملك روجر الثاني في صقلية وضع جغرافي عربي سنة 1154 كتاب «نزهة المشتاق» وخريطة العالم الشهيرة. من هو؟",
+    "options": ["ابن بطوطة", "ابن ماجد", "المقدسي", "الإدريسي"],
+    "correctIndex": 3,
+    "gloss": "At the court of King Roger II in Sicily an Arab geographer produced in 1154 the book Nuzhat al-Mushtaq and the famous world map. Who? — Al-Idrisi."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "غادر موسيقيّ بغداد في القرن التاسع إلى قرطبة، فأسّس فيها مدرسة للموسيقى وأثّر في الذوق الأندلسي. من هو؟",
+    "options": ["إسحاق الموصلي", "الفارابي", "زرياب", "ابن باجة"],
+    "correctIndex": 2,
+    "gloss": "A musician left Baghdad in the 9th century for Cordoba, founded a music school there and shaped Andalusian taste. Who? — Ziryab. Ishaq al-Mawsili was his teacher; al-Farabi and Ibn Bajja lived later."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "تتكوّن معظم صخور القشرة الأرضية من السيليكات، أي مركّبات السيليكون مع عنصر آخر. فما العنصر الأكثر وفرة في القشرة بالكتلة؟",
+    "options": ["الأكسجين", "السيليكون", "الألمنيوم", "الحديد"],
+    "correctIndex": 0,
+    "gloss": "Most crustal rock is silicate, silicon combined with another element. Which element is the most abundant in the crust by mass? — Oxygen (about 46%), ahead of silicon (about 28%), aluminium and iron."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما اسم أعلى قمة في بلاد المغرب العربي، ويبلغ ارتفاعها نحو 4200 متر في سلسلة الأطلس الكبير؟",
+    "options": ["تاهات", "توبقال", "الشعانبي", "سانت كاترين"],
+    "correctIndex": 1,
+    "gloss": "What is the highest peak of the Maghreb, about 4,200 m, in the High Atlas? — Toubkal (4,167 m, Morocco). Tahat is Algeria's highest, Chambi Tunisia's, Mount Catherine Egypt's."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ شاعر مصري عُرف بلقب «شاعر النيل»؟",
+    "options": ["أحمد شوقي", "حافظ إبراهيم", "محمود سامي البارودي", "أحمد رامي"],
+    "correctIndex": 1,
+    "gloss": "Which Egyptian poet was known as the 'Poet of the Nile'? — Hafez Ibrahim. Shawqi is 'Prince of Poets', al-Barudi the pioneer of the classical revival."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "كم يبلغ أكبر عدد صحيح موجب يمكن تخزينه في بايت واحد (8 بتات) دون إشارة؟",
+    "options": ["128", "255", "256", "512"],
+    "correctIndex": 1,
+    "gloss": "What is the largest whole number one byte (8 bits) can store, unsigned? — 255: there are 256 combinations, one of which is zero."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "من أخرج فيلم «المومياء» (1969) الذي يُعدّ من أبرز ما أنتجته السينما المصرية؟",
+    "options": ["يوسف شاهين", "صلاح أبو سيف", "حسن الإمام", "شادي عبد السلام"],
+    "correctIndex": 3,
+    "gloss": "Who directed the film The Mummy (al-Mummia, 1969), a landmark of Egyptian cinema? — Shadi Abdel Salam."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "دمُ الأخطبوط أزرق، وله فوق ذلك أكثر من قلب واحد. كم عدد قلوبه؟",
+    "options": ["قلب واحد", "قلبان", "ثلاثة قلوب", "ثمانية قلوب"],
+    "correctIndex": 2,
+    "gloss": "An octopus has blue blood and more than one heart. How many hearts? — Three: two for the gills and one for the body. Eight is its number of arms."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ ملكة مصرية حكمت كفرعون في القرن الخامس عشر قبل الميلاد، وشيّدت معبدها الجنائزي المدرّج في الدير البحري؟",
+    "options": ["حتشبسوت", "نفرتيتي", "كليوباترا", "نفرتاري"],
+    "correctIndex": 0,
+    "gloss": "Which Egyptian queen ruled as pharaoh in the 15th century BC and built her terraced mortuary temple at Deir el-Bahari? — Hatshepsut. Nefertiti is 14th century BC, Cleopatra far later, Nefertari was Ramesses II's queen."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ دولة استضافت أول بطولة كأس عالم لكرة القدم عام 1930 وفازت بها؟",
+    "options": ["أوروغواي", "البرازيل", "إيطاليا", "إنجلترا"],
+    "correctIndex": 0,
+    "gloss": "Which country hosted and won the first football World Cup in 1930? — Uruguay. Italy won in 1934, England in 1966 and Brazil first in 1958."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "속담 ‘가는 말이 고와야 ( ) 말이 곱다’의 빈칸에 들어갈 말은?",
+    "options": ["하는", "듣는", "오는", "되는"],
+    "correctIndex": 2,
+    "gloss": "Proverb: 'The words you send must be fine for the words coming back to be fine.' Fill the blank — 오는 (coming): 'Kind words given, kind words returned.'"
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "농부에게 양이 17마리 있었는데, 9마리만 빼고 모두 죽었다. 남은 양은 몇 마리일까?",
+    "options": ["8마리", "9마리", "17마리", "26마리"],
+    "correctIndex": 1,
+    "gloss": "A farmer had 17 sheep and all but 9 died; how many are left? — 9: 'all but 9' means 9 survived; the trap is to subtract."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "바다에 살지만 물고기가 아니라, 허파로 숨을 쉬고 새끼에게 젖을 먹이는 동물은?",
+    "options": ["상어", "가오리", "문어", "고래"],
+    "correctIndex": 3,
+    "gloss": "Lives in the sea but is not a fish: breathes with lungs and nurses its young — the whale, a mammal; shark and ray are fish, the octopus a mollusc."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "해마다 10월 9일에 기념하는 국경일은?",
+    "options": ["개천절", "한글날", "제헌절", "광복절"],
+    "correctIndex": 1,
+    "gloss": "The national holiday celebrated every 9 October — Hangul Day (한글날); Gaecheonjeol is 3 October, Gwangbokjeol 15 August, Jeheonjeol 17 July."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "설날 아침에 먹으면 나이를 한 살 더 먹는다고 하는 음식은?",
+    "options": ["송편", "팥죽", "미역국", "떡국"],
+    "correctIndex": 3,
+    "gloss": "The New Year's morning dish said to add a year to your age — tteokguk (rice cake soup); songpyeon is for Chuseok, patjuk for the winter solstice."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "식물이 햇빛을 받아 이산화탄소와 물로 양분을 만드는 작용은?",
+    "options": ["광합성", "호흡", "증산 작용", "발효"],
+    "correctIndex": 0,
+    "gloss": "The process by which plants make nutrients from carbon dioxide and water using sunlight — photosynthesis."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "축구 경기에서 한 팀은 골키퍼를 포함해 몇 명이 경기장에서 뛸까?",
+    "options": ["9명", "10명", "12명", "11명"],
+    "correctIndex": 3,
+    "gloss": "How many players of one team are on the pitch, goalkeeper included? — 11."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "센강이 흐르고 강변에 에펠탑이 서 있는 도시는?",
+    "options": ["파리", "런던", "로마", "베를린"],
+    "correctIndex": 0,
+    "gloss": "The city on the Seine with the Eiffel Tower — Paris."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "연필 한 다스를 사서 친구에게 3자루를 주고 나면 남는 연필은 몇 자루일까?",
+    "options": ["7자루", "12자루", "15자루", "9자루"],
+    "correctIndex": 3,
+    "gloss": "You buy a dozen (다스) pencils and give 3 to a friend; how many are left? — 9: a 다스 is 12 (from 'dozen'), minus 3."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "신비로운 미소로 유명한 〈모나리자〉를 그린 화가는?",
+    "options": ["레오나르도 다 빈치", "보티첼리", "미켈란젤로", "라파엘로"],
+    "correctIndex": 0,
+    "gloss": "Who painted the Mona Lisa with the mysterious smile? — Leonardo da Vinci; the others are also Italian Renaissance masters."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "윷놀이에서 도는 한 칸, 개는 두 칸, 걸은 세 칸, 윷은 네 칸을 간다. 같은 규칙대로라면 ‘모’는 몇 칸을 갈까?",
+    "options": ["6칸", "8칸", "4칸", "5칸"],
+    "correctIndex": 3,
+    "gloss": "In yutnori do=1, gae=2, geol=3, yut=4 spaces; by the same pattern how many for mo? — 5 (and mo earns another throw)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "한국의 건물에는 0층이 없어서 1층 바로 아래가 지하 1층이다. 5층에서 지하 2층까지 걸어 내려가려면 한 층씩 모두 몇 번 내려가야 할까?",
+    "options": ["6번", "5번", "7번", "4번"],
+    "correctIndex": 0,
+    "gloss": "Korean buildings have no floor 0; from floor 5 to basement 2 how many single-floor steps down? — 6 (5→4→3→2→1→B1→B2); 7 is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "광화문이 정문인 조선의 궁궐은?",
+    "options": ["창덕궁", "경복궁", "창경궁", "덕수궁"],
+    "correctIndex": 1,
+    "gloss": "The Joseon palace whose main gate is Gwanghwamun — Gyeongbokgung; the other three are also Seoul palaces."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "소리는 공기나 물 같은 물질의 알갱이를 타고 전해진다. 다음 중 소리가 가장 빨리 전달되는 것은?",
+    "options": ["공기", "물", "철", "진공"],
+    "correctIndex": 2,
+    "gloss": "Sound travels through the particles of matter; where is it fastest? — Iron (about 5,000 m/s, versus water 1,500 and air 340); in a vacuum there is no sound at all."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "《어린 왕자》의 주인공이 자기 별에서 정성껏 돌보던 꽃은?",
+    "options": ["튤립", "해바라기", "백합", "장미"],
+    "correctIndex": 3,
+    "gloss": "The flower the Little Prince tended on his small planet — the rose."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "현악 4중주는 바이올린 두 대, 비올라 한 대, 그리고 또 하나의 악기로 이루어진다. 그 악기는?",
+    "options": ["첼로", "플루트", "클라리넷", "하프"],
+    "correctIndex": 0,
+    "gloss": "A string quartet is two violins, a viola and one more instrument — the cello; the harp is a string instrument but not part of it."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "지금은 한밤중인 밤 12시이고 비가 내리고 있다. 72시간 뒤에 해가 떠 있을까?",
+    "options": ["그렇다. 사흘 뒤 한낮이다", "아니다. 그때도 밤 12시다", "그렇다. 비가 그친 뒤다", "아니다. 아직 새벽이다"],
+    "correctIndex": 1,
+    "gloss": "It is midnight and raining; will the sun be out in 72 hours? — No: 72 hours is exactly three days, so it is midnight again."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "된장과 간장의 원료가 되는, 삶은 콩을 찧어 덩어리로 빚어 말린 것은?",
+    "options": ["누룩", "엿기름", "메주", "젓갈"],
+    "correctIndex": 2,
+    "gloss": "Boiled, pounded and dried blocks of soybeans used to make doenjang and ganjang — meju; nuruk is for rice wine, yeotgireum (malt) for sikhye."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "하루 열 시간 넘게 먹는 판다가 주로 먹는 식물은?",
+    "options": ["대나무", "유칼립투스", "억새", "갈대"],
+    "correctIndex": 0,
+    "gloss": "The plant pandas eat for most of the day — bamboo; eucalyptus is the koala's food."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "단군 신화에서 곰이 사람이 되려고 동굴에서 백 일 동안 먹은 것은?",
+    "options": ["마늘과 도토리", "쑥과 마늘", "쑥과 미역", "솔잎과 밤"],
+    "correctIndex": 1,
+    "gloss": "In the Dangun myth, what did the bear eat in the cave for a hundred days to become human? — Mugwort and garlic."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "하루, 이틀, 사흘, 나흘, 닷새, 엿새, 그다음에 오는 ‘이레’는 며칠일까?",
+    "options": ["6일", "8일", "7일", "9일"],
+    "correctIndex": 2,
+    "gloss": "Native day-counts 하루(1), 이틀(2), 사흘(3), 나흘(4), 닷새(5), 엿새(6): what is the next, 이레? — 7 days; 여드레 is 8 and 아흐레 is 9."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "번개를 본 지 6초 뒤에 천둥소리가 들렸다. 빛은 순식간에 도착한다고 할 때, 번개는 대략 얼마나 떨어진 곳에서 쳤을까?",
+    "options": ["약 200m", "약 2km", "약 20km", "약 200km"],
+    "correctIndex": 1,
+    "gloss": "Thunder arrives 6 s after the flash; how far was the lightning? — about 2 km: sound travels roughly 340 m/s, and 6 × 340 ≈ 2,000 m."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "알프스 산맥에 땅이 걸쳐 있지 않은 나라는?",
+    "options": ["오스트리아", "스위스", "이탈리아", "스페인"],
+    "correctIndex": 3,
+    "gloss": "Which country has no part of the Alps? — Spain (its mountains are the Pyrenees); Austria, Switzerland and Italy all share the Alps."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "김소월의 시 〈진달래꽃〉에서 화자는 떠나는 임의 가실 길에 영변 약산의 진달래꽃을 아름 따다 어떻게 하겠다고 할까?",
+    "options": ["뿌리겠다", "꽂아 드리겠다", "던지겠다", "엮어 두겠다"],
+    "correctIndex": 0,
+    "gloss": "In Kim Sowol's 'Azaleas', what will the speaker do with the armful of azaleas on the path of the departing beloved? — scatter them (뿌리오리다)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1799년 이집트에서 발견된 로제타석 덕분에 19세기에 해독의 길이 열린 고대 문자는?",
+    "options": ["마야 문자", "쐐기문자", "룬 문자", "이집트 상형문자"],
+    "correctIndex": 3,
+    "gloss": "The Rosetta Stone, found in Egypt in 1799, opened the way to decoding which ancient script? — Egyptian hieroglyphs (Champollion, 1822)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "컴퓨터는 0과 1만 쓰는 2진수로 계산한다. 2진수 1011은 우리가 쓰는 10진수로 얼마일까?",
+    "options": ["9", "10", "11", "13"],
+    "correctIndex": 2,
+    "gloss": "Binary 1011 in decimal? — 11: 8 + 0 + 2 + 1."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "벽시계가 3시를 알리며 ‘댕’ 소리를 3번 울리는 데 첫 소리부터 마지막 소리까지 3초가 걸렸다. 소리 사이의 간격이 늘 같다면, 6시에 6번 울리는 데는 몇 초가 걸릴까?",
+    "options": ["7.5초", "9초", "6초", "5초"],
+    "correctIndex": 0,
+    "gloss": "Three strokes take 3 s from first to last; how long do six strokes take? — 7.5 s: three strokes have 2 gaps of 1.5 s, six strokes have 5 gaps."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "영화 〈기생충〉이 2019년 한국 영화 최초로 받은 칸 영화제 최고상은?",
+    "options": ["황금사자상", "황금곰상", "황금종려상", "심사위원대상"],
+    "correctIndex": 2,
+    "gloss": "The top prize Parasite won at Cannes in 2019, a first for Korean cinema — the Palme d'Or (황금종려상); the Golden Lion is Venice's and the Golden Bear Berlin's."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "소용돌이치는 밤하늘을 그린 〈별이 빛나는 밤〉의 화가는?",
+    "options": ["고갱", "빈센트 반 고흐", "세잔", "모네"],
+    "correctIndex": 1,
+    "gloss": "The painter of The Starry Night with its swirling sky — Vincent van Gogh; the others are French contemporaries."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "어머니의 오빠의 딸은 나와 어떤 사이일까?",
+    "options": ["고종사촌", "이종사촌", "친사촌", "외사촌"],
+    "correctIndex": 3,
+    "gloss": "Your mother's older brother's daughter is your — maternal cousin (외사촌); 고종 is the father's sister's child, 이종 the mother's sister's child, 친사촌 the father's brother's child."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "1791년 프랑스는 1미터를 ‘북극에서 적도까지 거리의 천만분의 1’로 정하려 했다. 이 기준대로라면 지구 둘레는 약 몇 km일까?",
+    "options": ["10,000km", "20,000km", "40,000km", "100,000km"],
+    "correctIndex": 2,
+    "gloss": "France set the metre as one ten-millionth of the pole-to-equator distance; what circumference does that imply? — about 40,000 km: the pole-to-equator arc is a quarter of the circle, 10,000 km × 4."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "고려 시대에 청주 흥덕사에서 금속활자로 찍은, 현존하는 세계에서 가장 오래된 금속활자본은?",
+    "options": ["직지심체요절", "팔만대장경", "무구정광대다라니경", "훈민정음 해례본"],
+    "correctIndex": 0,
+    "gloss": "The oldest surviving book printed with movable metal type, from Heungdeoksa temple in Cheongju — Jikji; the Tripitaka Koreana and the Dharani Sutra are woodblock prints."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "서울이 한겨울 낮 12시일 때, 영국 런던은 몇 시일까?",
+    "options": ["오전 9시", "오전 3시", "오후 3시", "오후 9시"],
+    "correctIndex": 1,
+    "gloss": "When it is noon in Seoul in midwinter, what time is it in London? — 3 a.m.: Korea is UTC+9 and London in winter is UTC+0."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "박경리의 대하소설 《토지》의 무대가 시작되는 마을 평사리는 오늘날 어느 도에 있을까?",
+    "options": ["경상남도", "전라남도", "충청남도", "경상북도"],
+    "correctIndex": 0,
+    "gloss": "Which province holds Pyeongsa-ri, the village where Park Kyung-ni's epic novel 'Toji' opens? — South Gyeongsang (Hadong); South Jeolla lies just across the Seomjin River."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "야구에서 투수 한 명이 9이닝 동안 한 명의 주자도 내보내지 않는 ‘퍼펙트게임’을 하면, 그 투수가 잡아낸 아웃은 모두 몇 개일까?",
+    "options": ["21개", "24개", "27개", "30개"],
+    "correctIndex": 2,
+    "gloss": "A pitcher throws a perfect game over nine innings; how many outs did he record? — 27: three outs per inning, nine innings."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘example.com’ 같은 도메인 이름을 컴퓨터가 찾아갈 수 있는 숫자 주소로 바꿔 주는, ‘인터넷의 전화번호부’ 같은 시스템은?",
+    "options": ["HTTP", "SMTP", "FTP", "DNS"],
+    "correctIndex": 3,
+    "gloss": "The 'phone book of the internet' that turns domain names into numeric addresses — DNS; HTTP is for web pages, SMTP for mail, FTP for file transfer."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "그리스 신화에서 눈이 마주치면 돌이 된다는 괴물 메두사의 목을 벤 영웅은?",
+    "options": ["헤라클레스", "테세우스", "페르세우스", "이아손"],
+    "correctIndex": 2,
+    "gloss": "The Greek hero who beheaded Medusa, whose gaze turned people to stone — Perseus; the others are also famous heroes."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2013년 유네스코 인류무형문화유산에 오른 한국의 것은?",
+    "options": ["동지 팥죽 나눔", "김장 문화", "설날 세배 풍습", "대보름 달집태우기"],
+    "correctIndex": 1,
+    "gloss": "Which Korean tradition was inscribed on UNESCO's intangible heritage list in 2013? — Kimjang, making and sharing kimchi for winter; the other options are real customs not on the list."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "한자 百(백)에서 한 획(一)을 빼면 白(백)이 된다. 그래서 장수를 축하하는 말 ‘백수(白壽)’는 몇 살을 가리킬까?",
+    "options": ["88세", "90세", "100세", "99세"],
+    "correctIndex": 3,
+    "gloss": "Take one stroke (一) off 百 and you get 白; so 'baeksu' (白壽), a longevity milestone, means what age? — 99: 百 (100) minus 一 (1)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "오케스트라가 음을 맞출 때 쓰는 ‘라’는 440Hz다. 한 옥타브 높은 ‘라’는 몇 Hz일까?",
+    "options": ["660Hz", "220Hz", "1,320Hz", "880Hz"],
+    "correctIndex": 3,
+    "gloss": "The orchestra tunes to A = 440 Hz; what is the A one octave higher? — 880 Hz: an octave doubles the frequency (220 is the octave below)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "한글을 만든 원리에 따르면, 자음 ‘ㅅ’은 어떤 발음 기관의 모양을 본뜬 것일까?",
+    "options": ["입", "혀", "목구멍", "이(치아)"],
+    "correctIndex": 3,
+    "gloss": "By the principle behind Hangul, which speech organ does the consonant ㅅ imitate? — the teeth (ㅁ the mouth, ㄴ the tongue, ㅇ the throat)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "율리우스 카이사르의 양자로, 로마 공화정을 끝내고 초대 황제가 된 사람은?",
+    "options": ["네로", "트라야누스", "티베리우스", "아우구스투스"],
+    "correctIndex": 3,
+    "gloss": "Julius Caesar's adopted heir who ended the Republic and became Rome's first emperor — Augustus; Tiberius was the second."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "판소리에서 소리꾼이 노래(창)를 잠시 멈추고 이야기를 말로 풀어 가는 부분을 무엇이라 할까?",
+    "options": ["아니리", "추임새", "발림", "장단"],
+    "correctIndex": 0,
+    "gloss": "In pansori, the spoken passages where the singer pauses the song to tell the story — aniri; chuimsae is the drummer's shouts, ballim the gestures, jangdan the rhythm."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "겨울 연못은 위부터 얼지만 바닥의 물은 얼지 않아 물고기가 살아남는다. 이는 물의 밀도가 약 몇 ℃에서 가장 크기 때문일까?",
+    "options": ["0℃", "4℃", "10℃", "15℃"],
+    "correctIndex": 1,
+    "gloss": "A pond freezes from the top while the bottom stays liquid; water is densest at about which temperature? — 4 °C, so the 4 °C water sinks and ice (lighter) floats on top."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1989년 유럽 입자물리연구소(CERN)에서 일하며 월드 와이드 웹의 구상을 처음 제안한 사람은?",
+    "options": ["팀 버너스리", "빈트 서프", "마크 앤드리슨", "리누스 토르발스"],
+    "correctIndex": 0,
+    "gloss": "Who, working at CERN in 1989, first proposed the World Wide Web? — Tim Berners-Lee; Vint Cerf co-designed TCP/IP, Marc Andreessen the Mosaic browser, Linus Torvalds Linux."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1976년 몬트리올 올림픽에서 대한민국 올림픽 역사상 첫 금메달을 안긴 종목은?",
+    "options": ["복싱", "유도", "레슬링", "사격"],
+    "correctIndex": 2,
+    "gloss": "Korea's first Olympic gold, at Montreal 1976 (Yang Jeong-mo, freestyle featherweight) — wrestling."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "지구에서 알려진 종의 수가 가장 많은 곤충 무리는?",
+    "options": ["나비와 나방", "파리와 모기", "벌과 개미", "딱정벌레"],
+    "correctIndex": 3,
+    "gloss": "Which insect group has the most known species? — Beetles (Coleoptera, about 380,000), ahead of butterflies and moths, flies, and bees and ants."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "크로커스 꽃의 암술머리를 하나하나 손으로 따서 말려 만드는 붉은 향신료는?",
+    "options": ["바닐라", "카다멈", "사프란", "팔각"],
+    "correctIndex": 2,
+    "gloss": "The red spice made from the hand-picked, dried stigmas of the crocus flower — saffron."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "백남준의 대표작으로, 텔레비전 1003대를 탑처럼 쌓아 올린 〈다다익선〉이 있는 곳은?",
+    "options": ["서울시립미술관", "국립현대미술관 과천관", "리움미술관", "국립중앙박물관"],
+    "correctIndex": 1,
+    "gloss": "Where is Nam June Paik's tower of 1,003 TVs, 'The More, the Better' (다다익선)? — the National Museum of Modern and Contemporary Art, Gwacheon."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "1부터 1000까지의 자연수를 모두 더하면 얼마일까?",
+    "options": ["500,000", "501,000", "500,500", "505,000"],
+    "correctIndex": 2,
+    "gloss": "The sum of the integers from 1 to 1000 — 500,500: pair them (1+1000, 2+999, ...) into 500 pairs of 1001 (Gauss's trick)."
+  }
+]

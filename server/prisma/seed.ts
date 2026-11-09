@@ -1,10 +1,11 @@
 import { PrismaClient } from '@prisma/client'
 import { existsSync } from 'node:fs'
-import { readFile } from 'node:fs/promises'
+import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { checkClassicSeed, type ClassicSeedQuestion } from './check-classic-seed.js'
 import { isCategory, isLevel, OPTIONS_COUNT } from '../src/lib/game.js'
-import { questionHash } from '../src/services/questionGen.js'
+import { questionHash, shuffleOptions } from '../src/services/questionGen.js'
 
 import '../src/load-env.js'
 
@@ -75,6 +76,69 @@ const main = async () => {
   })
 
   console.log(`Seeded ${count} new fallback questions, retired ${retired} (${questions.length} in the bank).`)
+
+  await seedClassicBanks()
+}
+
+/** `seed/classic/` beside this file under tsx, or under the release's `prisma/` when compiled. */
+const SEED_DIR_CANDIDATES = [
+  path.join(path.dirname(fileURLToPath(import.meta.url)), 'seed'),
+  path.resolve(process.cwd(), 'prisma', 'seed'),
+]
+
+const readTexts = async (file: string): Promise<string[]> =>
+  existsSync(file) ? (JSON.parse(await readFile(file, 'utf8')) as { text: string }[]).map(({ text }) => text) : []
+
+/**
+ * The hand-written Classic banks, one file per language (`seed/classic/<locale>.json`, English
+ * excepted: its bank is the fallback file above). A file that fails `checkClassicSeed` stops
+ * the seed, so a bad bank never half-loads. Like the English bank, each file is mirrored: a
+ * public seed question no longer in it is retired — unless its language's ranked file
+ * (`seed/ranked/<locale>.json`) lists it, because ranked questions graduate into Classic.
+ */
+const seedClassicBanks = async () => {
+  const seedDir = SEED_DIR_CANDIDATES.find((candidate) => existsSync(path.join(candidate, 'classic')))
+  if (!seedDir) return
+
+  const files = (await readdir(path.join(seedDir, 'classic'))).filter((name) => name.endsWith('.json')).sort()
+  for (const file of files) {
+    const locale = file.replace(/\.json$/, '')
+    if (locale === 'en') {
+      console.warn('seed/classic/en.json skipped: English Classic questions live in the fallback bank')
+      continue
+    }
+
+    const questions = JSON.parse(await readFile(path.join(seedDir, 'classic', file), 'utf8')) as ClassicSeedQuestion[]
+    const problems = checkClassicSeed(locale, questions)
+    if (problems.length) throw new Error(`seed/classic/${file} fails its checks:\n  ${problems.join('\n  ')}`)
+
+    const { count } = await prisma.question.createMany({
+      data: questions.map((question) => {
+        // Stored in a random order, like every AI question; re-seeding skips it by hash, so the order holds.
+        const { options, correctIndex } = shuffleOptions(question.options, question.correctIndex)
+        return {
+          locale,
+          category: question.category,
+          level: question.level,
+          scope: question.scope,
+          text: question.text,
+          options,
+          correctIndex,
+          origin: 'seed' as const,
+          hash: questionHash(question.text),
+        }
+      }),
+      skipDuplicates: true,
+    })
+
+    const keep = [...questions.map(({ text }) => text), ...(await readTexts(path.join(seedDir, 'ranked', file)))].map(questionHash)
+    const { count: retired } = await prisma.question.updateMany({
+      where: { origin: 'seed', locale, ranked: false, retiredAt: null, hash: { notIn: keep } },
+      data: { retiredAt: new Date() },
+    })
+
+    console.log(`Classic ${locale}: ${count} new, ${retired} retired (${questions.length} in the bank).`)
+  }
 }
 
 main()

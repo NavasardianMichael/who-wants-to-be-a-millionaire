@@ -8,6 +8,7 @@ import { asInteger, asStringArray, isUuid } from '../lib/request.js'
 import { requireAuth } from '../middleware/auth.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
+import { recordSeenQuestions } from '../services/questionPool.js'
 
 /**
  * Classic results, synced from the device's outbox. **Personal only** — they never reach a
@@ -19,13 +20,16 @@ classicRouter.use(requireAuth)
 
 const OUTCOMES: readonly ClassicOutcome[] = ['won', 'walked', 'lost', 'timeout']
 const MAX_GAMES_PER_SYNC = 50
+/** 15 stages, Switch Question and a few nearest-level stand-ins stay well under this. */
+const MAX_QUESTION_IDS = 30
 
 type SyncedGame = Prisma.ClassicGameCreateManyInput
 
 /** The winnings a game can legitimately report: any ladder rung, the safe havens, or nothing. */
 const VALID_WINNINGS = new Set<number>([0, ...LADDER])
 
-const readGame = (raw: unknown, userId: string): SyncedGame | null => {
+/** The game row, and the questions it showed (recorded as seen, not stored on the row). */
+const readGame = (raw: unknown, userId: string): { game: SyncedGame; questionIds: string[] } | null => {
   const game = (raw ?? {}) as Record<string, unknown>
   if (typeof game.clientId !== 'string' || !isUuid(game.clientId)) return null
   if (!isLocale(game.locale)) return null
@@ -39,15 +43,18 @@ const readGame = (raw: unknown, userId: string): SyncedGame | null => {
   if (Number.isNaN(playedAt.getTime()) || playedAt.getTime() > Date.now() + 60_000) return null
 
   return {
-    userId,
-    clientId: game.clientId,
-    locale: game.locale,
-    reachedStage,
-    winnings,
-    outcome: game.outcome as ClassicOutcome,
-    lifelinesUsed: asStringArray(game.lifelinesUsed, 4, isLifeline),
-    settings: typeof game.settings === 'object' && game.settings !== null ? (game.settings as Prisma.InputJsonObject) : {},
-    playedAt,
+    game: {
+      userId,
+      clientId: game.clientId,
+      locale: game.locale,
+      reachedStage,
+      winnings,
+      outcome: game.outcome as ClassicOutcome,
+      lifelinesUsed: asStringArray(game.lifelinesUsed, 4, isLifeline),
+      settings: typeof game.settings === 'object' && game.settings !== null ? (game.settings as Prisma.InputJsonObject) : {},
+      playedAt,
+    },
+    questionIds: asStringArray(game.questionIds, MAX_QUESTION_IDS, isUuid),
   }
 }
 
@@ -60,8 +67,11 @@ classicRouter.post(
     const raw = Array.isArray(req.body?.games) ? req.body.games.slice(0, MAX_GAMES_PER_SYNC) : null
     if (!raw) return fail(res, 'games must be an array', 400)
 
-    const games = raw.map((game: unknown) => readGame(game, userId)).filter(Boolean) as SyncedGame[]
+    const read = raw.map((game: unknown) => readGame(game, userId)).filter(Boolean) as NonNullable<ReturnType<typeof readGame>>[]
+    const games = read.map(({ game }) => game)
     const { count } = await prisma.classicGame.createMany({ data: games, skipDuplicates: true })
+    // Games played offline reach the account here; online ones were usually reported already (idempotent).
+    await recordSeenQuestions(userId, read.flatMap(({ questionIds }) => questionIds))
 
     // Accepted ids are returned even when already stored, so the outbox can drop them.
     return ok(res, { stored: count, acceptedClientIds: games.map(({ clientId }) => clientId) })

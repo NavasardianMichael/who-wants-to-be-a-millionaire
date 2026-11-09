@@ -68,15 +68,17 @@ so changing the password later is done inside Postgres (see `deployment/db.env.e
 by editing either file. The password must be URL-safe (`openssl rand -hex 32`); the deploy
 refuses anything else, since compose would interpolate `$` in `.env`.
 
-## Google OAuth and Gemini
+## Google OAuth and the AI provider
 
 - **Google:** Google Cloud console → APIs & Services → Credentials → OAuth client ID (Web).
   Authorized redirect URI:
   `https://api.who-wants-to-be-a-millionaire.eapps.site/identity/google/callback`.
   No JavaScript origins are needed — the browser never talks to Google directly. Publish the
   consent screen before real users arrive.
-- **Gemini:** a billed key from https://aistudio.google.com/apikey into `GEMINI_KEY`. Spend
-  follows play: generated questions are pooled and reused, `POOL_REFILL_MAX_CALLS` caps the
+- **AI:** the provider is chosen in code (`server/src/lib/ai/index.ts`). OpenRouter: a key from
+  https://openrouter.ai/keys into `OPENROUTER_KEY` (free models only — 50 requests a day, 1000
+  after a one-time 10-credit purchase). Gemini: a billed key from
+  https://aistudio.google.com/apikey into `GEMINI_KEY`. Spend follows play: generated questions are pooled and reused, `POOL_REFILL_MAX_CALLS` caps the
   background top-up (on in production only), and a bucket that yields nothing backs off.
 - **Mail engine** (contact form, account emails): the engine bookie uses. `MAIL_API_URL`,
   `MAIL_API_KEY`, `MAIL_APP_ID="millionaire"`. Contact messages go to the engine's internal

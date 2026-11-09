@@ -2,6 +2,7 @@ import { createApp } from './app.js'
 import { config } from './config.js'
 import { startPoolRefillJob } from './jobs/poolRefill.js'
 import { startQuestionCleanup } from './jobs/questionCleanup.js'
+import { startRankedGraduation } from './jobs/rankedGraduation.js'
 import { startRunSweeper } from './jobs/runSweeper.js'
 
 const app = createApp()
@@ -12,4 +13,5 @@ app.listen(config.port, config.host, () => {
   startPoolRefillJob()
   startRunSweeper()
   startQuestionCleanup()
+  startRankedGraduation()
 })

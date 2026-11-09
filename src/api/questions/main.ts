@@ -8,8 +8,9 @@ import {
   processOfflinePackResponse,
   processQuestionBatchResponse,
   processReportQuestionResponse,
+  processReportShownQuestionsResponse,
 } from './processors'
-import { GetCategorySamplesAPI, GetOfflinePackAPI, GetQuestionBatchAPI, ReportQuestionAPI } from './types'
+import { GetCategorySamplesAPI, GetOfflinePackAPI, GetQuestionBatchAPI, ReportQuestionAPI, ReportShownQuestionsAPI } from './types'
 
 export const getQuestionBatchAPI: GetQuestionBatchAPI['api'] = async (payload) => {
   const { data } = await axiosInstance.post<APIResponse<GetQuestionBatchAPI['response']>>(ENDPOINTS.batch, payload, {
@@ -35,6 +36,12 @@ export const getOfflinePackAPI: GetOfflinePackAPI['api'] = async ({ locale }) =>
     { timeout: API_QUESTIONS_TIMEOUT_MS }
   )
   return processOfflinePackResponse(data)
+}
+
+/** The questions a Classic game actually showed: counted as served, and remembered for a signed-in player. */
+export const reportShownQuestionsAPI: ReportShownQuestionsAPI['api'] = async (payload) => {
+  const { data } = await axiosInstance.post<APIResponse<ReportShownQuestionsAPI['response']>>(ENDPOINTS.shown, payload)
+  return processReportShownQuestionsResponse(data)
 }
 
 export const reportQuestionAPI: ReportQuestionAPI['api'] = async ({ id, reason }) => {

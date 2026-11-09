@@ -1,7 +1,8 @@
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import express from 'express'
-import { config, isGeminiConfigured, isGoogleOAuthConfigured } from './config.js'
+import { config, isGoogleOAuthConfigured } from './config.js'
+import { isAiConfigured } from './lib/ai/index.js'
 import { fail, ok } from './lib/api-response.js'
 import { optionalAuth } from './middleware/auth.js'
 import { requireSameOrigin } from './middleware/csrf.js'
@@ -32,10 +33,10 @@ export function createApp() {
   app.use(requireSameOrigin)
   app.use(optionalAuth)
 
-  // `google` and `gemini` are reported from the server's own config, so the web app decides
+  // `google` and `ai` are reported from the server's own config, so the web app decides
   // what to render from one source of truth rather than a mirrored NEXT_PUBLIC_ variable.
   app.get('/health', (_req, res) => {
-    ok(res, { status: 'ok', google: isGoogleOAuthConfigured(), gemini: isGeminiConfigured() })
+    ok(res, { status: 'ok', google: isGoogleOAuthConfigured(), ai: isAiConfigured() })
   })
 
   app.use('/identity', identityRouter)

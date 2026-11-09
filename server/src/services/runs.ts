@@ -165,7 +165,7 @@ export const startRun = async (userId: string, mode: RankedMode, locale: Locale)
   const live = await prisma.run.findMany({ where: { userId, mode, status: 'active' } })
   for (const run of live) await finishUnlessRaced(run)
 
-  const first = await getRunQuestion(locale, 1, [], await playerSeenIds(userId))
+  const first = await getRunQuestion(locale, 1, [], await playerSeenIds(userId), `user:${userId}`)
   const { question } = first
   const now = new Date()
   const run = await prisma.run.create({
@@ -248,7 +248,7 @@ export const answerRun = async (
   }
 
   const mode = run.mode as RankedMode
-  const drawn = await getRunQuestion(run.locale as Locale, levelFor(mode, correctCount), run.servedQuestionIds, await playerSeenIds(userId))
+  const drawn = await getRunQuestion(run.locale as Locale, levelFor(mode, correctCount), run.servedQuestionIds, await playerSeenIds(userId), `user:${userId}`)
   const next = drawn.question
   const updated = await writeRun(run, {
     ...progress,
@@ -294,7 +294,7 @@ export const useRunLifeline = async (runId: string, userId: string, lifeline: Li
   const deadline = run.currentDeadline ? new Date(run.currentDeadline.getTime() + extraMs) : null
 
   if (lifeline === 'switchQuestion') {
-    const drawn = await getRunQuestion(run.locale as Locale, level, run.servedQuestionIds, await playerSeenIds(userId))
+    const drawn = await getRunQuestion(run.locale as Locale, level, run.servedQuestionIds, await playerSeenIds(userId), `user:${userId}`)
     const next = drawn.question
     const nextDeadline = questionDeadline(mode, now)
     const updated = await writeRun(run, {
@@ -327,7 +327,7 @@ export const useRunLifeline = async (runId: string, userId: string, lifeline: Li
     return { lifeline, votes, run: toView(updated, question) }
   }
 
-  // Claimed before the call, so a racing duplicate is refused without spending Gemini quota.
+  // Claimed before the call, so a racing duplicate is refused without spending AI quota.
   const updated = await writeRun(run, { lifelinesUsed, currentDeadline: deadline })
   const friend = await callFriend({
     locale: run.locale as Locale,

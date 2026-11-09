@@ -4,6 +4,7 @@ import { immer } from 'zustand/middleware/immer'
 import { syncBadgesAPI } from '@api/badges/main'
 import { getLeaderboardAPI } from '@api/leaderboards/main'
 import { phoneAFriendAPI } from '@api/lifelines/main'
+import { reportShownQuestionsAPI } from '@api/questions/main'
 import { answerRunAPI, getRunAPI, runLifelineAPI, startRunAPI } from '@api/runs/main'
 import { appendSelectors } from '@store/appendSelectors'
 import { useAuthStoreBase } from '@store/auth/store'
@@ -129,6 +130,18 @@ const toActive = (question: Question): ActiveQuestion => ({
 })
 
 const isOffline = () => typeof navigator !== 'undefined' && !navigator.onLine
+
+/**
+ * Tells the server which questions this Classic game actually showed — not the whole batch,
+ * whose spares may never be reached. Once per game (the queue hands its list out once), when
+ * it ends, is quit, or is replaced by a new one. Offline it is skipped; a signed-in player's
+ * offline games still reach their account through the outbox.
+ */
+const reportShown = (game: QuestionQueue | null) => {
+  const questionIds = game?.shownToReport() ?? []
+  if (!questionIds.length || isOffline()) return
+  reportShownQuestionsAPI({ questionIds }).catch((error: unknown) => reportError(error, 'questions:shown', { silent: true }))
+}
 
 /** A whole Classic game by level, plus one spare per level for Switch Question. */
 const classicCounts = (difficulty: Parameters<typeof classicLevel>[1], withSpares: boolean) => {
@@ -271,6 +284,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
 
         // Persistence and sync happen after the result is on screen; none of it may block it.
         if (state.mode === 'classic') {
+          reportShown(queue)
           await enqueueClassicResult({
             clientId: uuid(),
             locale: state.locale,
@@ -280,6 +294,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
             lifelinesUsed: state.lifelinesUsed,
             playedAt: new Date().toISOString(),
             settings: state.settings ?? undefined,
+            questionIds: queue?.servedIds() ?? [],
           })
         }
         // After the first game in a language, keep a pack of it for offline play (Settings can turn this off).
@@ -362,6 +377,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           tally = { quickAnswers: 0, categoryCorrect: {}, savedByFriend: false }
           friendSuggestion = null
           clearSwitch()
+          reportShown(queue)
           queue = null
 
           const lifelinesAllowed = mode === 'timeAttack' ? [] : mode === 'marathon' ? [...LIFELINES] : settings.lifelines
@@ -694,6 +710,7 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
         quitGame: () => {
           generation += 1
           clearSwitch()
+          reportShown(queue)
           queue = null
           audioManager.stopAll()
           set(() => ({ ...initialState }))

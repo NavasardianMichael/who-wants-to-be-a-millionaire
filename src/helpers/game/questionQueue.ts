@@ -38,6 +38,20 @@ export class QuestionQueue {
     return Array.from(new Set([...readSeenIds(), ...this.served, ...queued]))
   }
 
+  private reported = false
+
+  /** Every question this game has shown, including ones swapped out by Switch Question. */
+  servedIds(): string[] {
+    return Array.from(this.served)
+  }
+
+  /** The shown ids the first time, then nothing: a game is reported when it ends or is left, never twice. */
+  shownToReport(): string[] {
+    if (this.reported) return []
+    this.reported = true
+    return this.servedIds()
+  }
+
   size(level: Level): number {
     return this.queues.get(level)?.length ?? 0
   }

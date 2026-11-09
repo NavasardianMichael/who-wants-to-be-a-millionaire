@@ -311,7 +311,7 @@ Then:
 | Install button / iOS hint | `src/helpers/installPrompt.ts`, `src/components/pwa/*` (originals in Hangman `src/helpers/utils/installPrompt.ts`, `src/components/downloadAppBtn`) |
 | Server skeleton | `server/src/{app,index,config,load-env}.ts`, `server/src/lib/{api-response,error-response,request,rateLimit}.ts`, `server/src/middleware/*` |
 | Google sign-in | `server/src/routes/identity.ts`, `server/src/lib/{google-oauth,oauth-state,session,return-path,cookie-domain}.ts` (fuller version with linking/registration in Bookie) |
-| Gemini + validation + pool | `server/src/lib/gemini.ts`, `server/src/services/{questionGen,questionPool,phoneAFriend}.ts`, `server/src/jobs/poolRefill.ts` |
+| AI providers + validation + pool | `server/src/lib/ai/`, `server/src/services/{questionGen,questionPool,phoneAFriend}.ts`, `server/src/jobs/poolRefill.ts` |
 | Server-refereed sessions | `server/src/services/{runs,runRules}.ts` |
 | Leaderboard SQL (best per user, rank, search) | `server/src/services/leaderboard.ts` |
 | Tests | `vitest.config.mts`, `tests/setup/integration.ts`, `tests/integration/*`, `playwright.config.ts`, `tests/e2e/*` |

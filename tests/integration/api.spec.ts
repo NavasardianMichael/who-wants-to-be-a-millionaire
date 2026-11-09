@@ -3,7 +3,7 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 import { createRankedQuestions, createUser, ORIGIN, prisma, sharp } from './helpers'
 import { createApp } from '../../server/src/app'
 import { MARATHON_RULES } from '../../server/src/lib/game'
-import { deleteRetiredQuestions } from '../../server/src/services/questionPool'
+import { deleteRetiredQuestions, graduateRankedQuestions } from '../../server/src/services/questionPool'
 import { SWITCH_PREVIEW_MS } from '../../server/src/services/runRules'
 
 const app = createApp()
@@ -16,7 +16,7 @@ describe('health', () => {
   it('reports what the web app may offer', async () => {
     const response = await request(app).get('/health')
     expect(response.status).toBe(200)
-    expect(response.body).toEqual({ value: { status: 'ok', google: false, gemini: false }, error: null })
+    expect(response.body).toEqual({ value: { status: 'ok', google: false, ai: false }, error: null })
   })
 
   it('answers unknown routes in the envelope', async () => {
@@ -57,11 +57,19 @@ describe('questions', () => {
     }
   })
 
-  it('falls back to English, flagged, when a locale has no pool and Gemini is off', async () => {
-    const response = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'hy', counts: { 1: 2 } })
-    expect(response.status).toBe(200)
-    expect(response.body.value).toHaveLength(2)
-    expect(response.body.value.every((question: { fallback: boolean }) => question.fallback)).toBe(true)
+  it('falls back to English, flagged, when a locale has no pool and the AI is off', async () => {
+    // Every locale may carry a hand-written seed, so empty one for the duration of the test.
+    const emptied = { locale: 'hy', level: 1, retiredAt: null }
+    const ids = (await prisma.question.findMany({ where: emptied, select: { id: true } })).map(({ id }) => id)
+    await prisma.question.updateMany({ where: { id: { in: ids } }, data: { retiredAt: new Date() } })
+    try {
+      const response = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'hy', counts: { 1: 2 } })
+      expect(response.status).toBe(200)
+      expect(response.body.value).toHaveLength(2)
+      expect(response.body.value.every((question: { fallback: boolean }) => question.fallback)).toBe(true)
+    } finally {
+      await prisma.question.updateMany({ where: { id: { in: ids } }, data: { retiredAt: null } })
+    }
   })
 
   it('honours excluded ids before repeating', async () => {
@@ -230,7 +238,7 @@ describe('ranked runs', () => {
 
   it('keeps a run off the leaderboard once it had to fall back to the public pool', async () => {
     const { user, cookie } = await createUser('Exposed')
-    // No French reserve and no Gemini in tests, so the run is served public questions.
+    // No French reserve and no AI in tests, so the run is served public questions.
     const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'fr' })
     const run = start.body.value
     const row = await prisma.run.findUniqueOrThrow({ where: { id: run.id } })
@@ -340,6 +348,89 @@ describe('reported questions', () => {
   })
 })
 
+describe('shown questions', () => {
+  const served = async (ids: string[]) =>
+    Object.fromEntries((await prisma.question.findMany({ where: { id: { in: ids } } })).map(({ id, servedCount }) => [id, servedCount]))
+  const shown = (questionIds: string[], cookie?: string) => {
+    const call = request(app).post('/questions/shown').set('Origin', ORIGIN)
+    return (cookie ? call.set('Cookie', cookie) : call).send({ questionIds })
+  }
+
+  it('counts only the questions a game reports as shown, not the whole batch', async () => {
+    const batch = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'en', counts: { 2: 5 } })
+    const ids: string[] = batch.body.value.map(({ id }: { id: string }) => id)
+    const before = await served(ids)
+
+    expect((await shown(ids.slice(0, 2))).status).toBe(200)
+    const after = await served(ids)
+    for (const id of ids.slice(0, 2)) expect(after[id]).toBe(before[id]! + 1)
+    for (const id of ids.slice(2)) expect(after[id]).toBe(before[id])
+  })
+
+  it('remembers a quit game for the account, so another device skips what was shown', async () => {
+    const { cookie } = await createUser('Quitter')
+    const first = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'en', counts: { 3: 5 } })
+    const ids: string[] = first.body.value.map(({ id }: { id: string }) => id)
+    const [seenA, seenB, ...reachedNever] = ids
+    await shown([seenA!, seenB!], cookie)
+    // The pool's first picks, so only the account history can keep the shown ones out.
+    await prisma.question.updateMany({ where: { locale: 'en', level: 3, id: { notIn: ids } }, data: { servedCount: { increment: 1000 } } })
+
+    const second = await request(app).post('/questions/batch').set('Origin', ORIGIN).set('Cookie', cookie).send({ locale: 'en', counts: { 3: 5 } })
+    const secondIds: string[] = second.body.value.map(({ id }: { id: string }) => id)
+    expect(secondIds).not.toContain(seenA)
+    expect(secondIds).not.toContain(seenB)
+    // Fetched but never shown: still fair game.
+    expect(secondIds.some((id) => reachedNever.includes(id))).toBe(true)
+  })
+
+  it('never counts a ranked question as served from a Classic report', async () => {
+    const [ranked] = await createRankedQuestions('pl', 4, 1)
+    await shown([ranked!])
+    expect((await prisma.question.findUniqueOrThrow({ where: { id: ranked! } })).servedCount).toBe(0)
+  })
+
+  it('validates the report', async () => {
+    expect((await shown([])).status).toBe(400)
+    expect((await shown(['not-a-uuid'])).status).toBe(400)
+  })
+})
+
+describe('ranked graduation', () => {
+  // Serve counts far above anything the other tests reach, so only these questions qualify.
+  const MIN_SERVES = 1000
+  const setServes = (ids: string[], servedCount: number) => prisma.question.updateMany({ where: { id: { in: ids } }, data: { servedCount } })
+
+  it('moves the most-served ranked questions to Classic and keeps the reserve', async () => {
+    const [barelyPlayed, kept, ...rest] = await createRankedQuestions('nl', 2, 5)
+    await setServes([barelyPlayed!], 5)
+    await setServes([kept!], MIN_SERVES)
+    await Promise.all(rest.map((id, index) => setServes([id], MIN_SERVES + 10 * (index + 1))))
+
+    // A bucket of 5 keeping 2: the three most-served leave; `kept` is fourth.
+    expect(await graduateRankedQuestions({ minServes: MIN_SERVES, keepPerBucket: 2 })).toBe(3)
+
+    const rows = await prisma.question.findMany({ where: { locale: 'nl', level: 2 } })
+    const byId = new Map(rows.map((row) => [row.id, row]))
+    for (const id of rest) expect(byId.get(id)).toMatchObject({ ranked: false, servedCount: 0 })
+    expect(byId.get(kept!)!.ranked).toBe(true)
+    expect(byId.get(barelyPlayed!)!.ranked).toBe(true)
+  })
+
+  it('never moves the question a run has on screen', async () => {
+    const ids = await createRankedQuestions('sv', 1, 3)
+    const { cookie } = await createUser('On screen')
+    const start = await request(app).post('/runs').set('Origin', ORIGIN).set('Cookie', cookie).send({ mode: 'marathon', locale: 'sv' })
+    const onScreen: string = start.body.value.question.id
+    expect(ids).toContain(onScreen)
+    await setServes(ids, MIN_SERVES)
+
+    await graduateRankedQuestions({ minServes: MIN_SERVES, keepPerBucket: 0 })
+    const rows = await prisma.question.findMany({ where: { id: { in: ids } } })
+    expect(rows.filter(({ ranked }) => ranked).map(({ id }) => id)).toEqual([onScreen])
+  })
+})
+
 describe('classic sync', () => {
   it('stores a game once however often it is synced', async () => {
     const { cookie, user } = await createUser('Syncer')
@@ -357,6 +448,23 @@ describe('classic sync', () => {
       expect(response.body.value.acceptedClientIds).toEqual([game.clientId])
     }
     expect(await prisma.classicGame.count({ where: { userId: user.id } })).toBe(1)
+  })
+
+  it('keeps a signed-in player off questions they met on another device', async () => {
+    const { cookie } = await createUser('Traveller')
+    const first = await request(app).post('/questions/batch').set('Origin', ORIGIN).send({ locale: 'en', counts: { 1: 5 } })
+    const questionIds: string[] = first.body.value.map(({ id }: { id: string }) => id)
+
+    const game = { clientId: '31111111-2222-4333-8444-555555555555', locale: 'en', reachedStage: 3, winnings: 0, outcome: 'lost', playedAt: new Date().toISOString(), questionIds }
+    const sync = await request(app).post('/classic/sync').set('Origin', ORIGIN).set('Cookie', cookie).send({ games: [game] })
+    expect(sync.body.value.acceptedClientIds).toEqual([game.clientId])
+    // Make the seen questions the pool's first pick (least served), so only the account's history keeps them out.
+    await prisma.question.updateMany({ where: { locale: 'en', level: 1, id: { notIn: questionIds } }, data: { servedCount: { increment: 1000 } } })
+
+    // No excludeIds: a fresh device knows nothing; the account does.
+    const second = await request(app).post('/questions/batch').set('Origin', ORIGIN).set('Cookie', cookie).send({ locale: 'en', counts: { 1: 5 } })
+    expect(second.body.value).toHaveLength(5)
+    expect(second.body.value.filter(({ id }: { id: string }) => questionIds.includes(id))).toHaveLength(0)
   })
 
   it('rejects implausible winnings', async () => {

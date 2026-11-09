@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яке слово пропущено в прислів'ї: «Сім разів відміряй, а раз …»?",
+    "options": [
+      "відріж",
+      "відший",
+      "відкрий",
+      "відпусти"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word is missing in the proverb 'Measure seven times, ... once'? — відріж (cut): the proverb «Сім разів відміряй, а раз відріж»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "У кошику лежить п'ять яблук. Ти забрав із нього три. Скільки яблук тепер у тебе?",
+    "options": [
+      "Два",
+      "П'ять",
+      "Три",
+      "Вісім"
+    ],
+    "correctIndex": 2,
+    "gloss": "There are five apples in the basket and you take three; how many apples do you have now? — Three: the ones you took. Two is the autopilot answer."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яка річка, за рядком Шевченка, «реве та стогне»?",
+    "options": [
+      "Дністер",
+      "Дніпро",
+      "Десна",
+      "Південний Буг"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which river 'roars and moans' in Shevchenko's line? — The Dnipro: «Реве та стогне Дніпр широкий» (the poem «Причинна»)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Лелеки, журавлі й ластівки щороку мандрують у вирій. А який із цих птахів узагалі не вміє літати?",
+    "options": [
+      "Лелека",
+      "Журавель",
+      "Ластівка",
+      "Страус"
+    ],
+    "correctIndex": 3,
+    "gloss": "Storks, cranes and swallows fly south every year; which of these birds cannot fly at all? — The ostrich, a flightless bird."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який овоч надає українському борщу його характерного червоного кольору?",
+    "options": [
+      "Морква",
+      "Картопля",
+      "Буряк",
+      "Капуста"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which vegetable gives Ukrainian borscht its typical red colour? — Beetroot."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Скільки місяців у році мають 28 днів?",
+    "options": [
+      "Один",
+      "Дванадцять",
+      "Шість",
+      "Одинадцять"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many months of the year have 28 days? — Twelve: every month has at least 28 days, not only February."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яке державне свято в Україні відзначають 24 серпня?",
+    "options": [
+      "День Конституції",
+      "День Державного Прапора",
+      "Покрова",
+      "День Незалежності"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which state holiday is marked in Ukraine on 24 August? — Independence Day; Flag Day is the day before, 23 August."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Скільки всього пальців на руках і ногах у однієї людини, якщо все на місці?",
+    "options": [
+      "20",
+      "10",
+      "15",
+      "25"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many fingers and toes does one person have in total? — 20: ten fingers plus ten toes."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Як називається мультфільм студії Disney про левеня Сімбу, якому судилося стати королем савани?",
+    "options": [
+      "Книга джунглів",
+      "Бембі",
+      "Король Лев",
+      "Тарзан"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Disney cartoon about the lion cub Simba who is destined to become king of the savanna called? — The Lion King; the others are other Disney animal/jungle films."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яким пристроєм, названим як маленький гризун, ми водимо по столу, щоб рухати курсор на екрані?",
+    "options": [
+      "Принтер",
+      "Миша",
+      "Монітор",
+      "Сканер"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which device, named after a small rodent, do we move across the desk to move the cursor? — The mouse."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто, за літописною легендою, заснував Київ разом із братами Щеком і Хоривом та сестрою Либіддю?",
+    "options": [
+      "Олег",
+      "Кий",
+      "Рюрик",
+      "Аскольд"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who, by the chronicle legend, founded Kyiv with his brothers Shchek and Khoryv and sister Lybid? — Kyi; Oleg, Rurik and Askold are real early rulers of the Rus', not the founders."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Назви багатьох українських місяців пов'язані з природою: у квітні цвітуть квіти, у травні росте трава. Який місяць названо за листям, що опадає?",
+    "options": [
+      "Жовтень",
+      "Вересень",
+      "Серпень",
+      "Листопад"
+    ],
+    "correctIndex": 3,
+    "gloss": "Many Ukrainian month names come from nature: April for blossoms, May for grass. Which month is named for falling leaves? — Листопад (November, 'leaf fall'); Жовтень is the yellow-leaf trap, Вересень is heather, Серпень the sickle."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який газ становить близько чотирьох п'ятих повітря, яким ми дихаємо?",
+    "options": [
+      "Азот",
+      "Кисень",
+      "Вуглекислий газ",
+      "Аргон"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas makes up about four fifths of the air we breathe? — Nitrogen (about 78%); oxygen is only about 21%."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яку гору Карпат вважають найвищою точкою України?",
+    "options": [
+      "Піп Іван",
+      "Бребенескул",
+      "Говерла",
+      "Петрос"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Carpathian peak is the highest point of Ukraine? — Hoverla (2,061 m); the others are also peaks of the Chornohora range."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Фермер мав сімнадцять овець. Усі, крім дев'яти, розбіглися. Скільки овець залишилося?",
+    "options": [
+      "Вісім",
+      "Дев'ять",
+      "Сімнадцять",
+      "Двадцять шість"
+    ],
+    "correctIndex": 1,
+    "gloss": "A farmer had seventeen sheep; all but nine ran away. How many are left? — Nine: 'all but nine' means nine stayed. Eight is the subtraction trap."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Мавка і Лукаш — герої драми-феєрії «Лісова пісня». Хто її авторка?",
+    "options": [
+      "Марко Вовчок",
+      "Ольга Кобилянська",
+      "Ліна Костенко",
+      "Леся Українка"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mavka and Lukash are heroes of the fairy drama «Lisova pisnia» (The Forest Song). Who wrote it? — Lesya Ukrainka; all options are women writers."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто намалював «Зоряну ніч» — небо з величезними вирами над сонним містечком?",
+    "options": [
+      "Клод Моне",
+      "Пабло Пікассо",
+      "Вінсент Ван Гог",
+      "Сальвадор Далі"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who painted 'The Starry Night', the sky with huge swirls over a sleepy town? — Vincent van Gogh."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Збірні країн змагаються за Кубок Девіса. З яким видом спорту він пов'язаний?",
+    "options": [
+      "Теніс",
+      "Гольф",
+      "Бадмінтон",
+      "Крикет"
+    ],
+    "correctIndex": 0,
+    "gloss": "National teams compete for the Davis Cup; which sport is it? — Tennis."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "З якого плода роблять мексиканський соус гуакамоле?",
+    "options": [
+      "Манго",
+      "Авокадо",
+      "Гуава",
+      "Папайя"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which fruit is the Mexican sauce guacamole made from? — Avocado."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Якщо вчора був четвер, то яким днем тижня буде післязавтра?",
+    "options": [
+      "Субота",
+      "П'ятниця",
+      "Понеділок",
+      "Неділя"
+    ],
+    "correctIndex": 3,
+    "gloss": "If yesterday was Thursday, what day will it be the day after tomorrow? — Sunday: today is Friday, tomorrow Saturday, the day after Sunday."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який титан із давньогрецьких міфів тримає на плечах небесне склепіння?",
+    "options": [
+      "Кронос",
+      "Прометей",
+      "Атлант",
+      "Гіперіон"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Titan of Greek myth holds the vault of heaven on his shoulders? — Atlas; all options are Titans."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Дочка Ярослава Мудрого стала королевою Франції. Як її звали?",
+    "options": [
+      "Анна",
+      "Єлизавета",
+      "Анастасія",
+      "Євпраксія"
+    ],
+    "correctIndex": 0,
+    "gloss": "A daughter of Yaroslav the Wise became queen of France; what was her name? — Anna Yaroslavna (wife of Henry I). Elizabeth became queen of Norway, Anastasia of Hungary."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Яке з цих чисел не є простим?",
+    "options": [
+      "79",
+      "83",
+      "89",
+      "91"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these numbers is not prime? — 91 = 7 × 13; it looks prime, but 79, 83 and 89 are all primes."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Яке з цих українських слів читається однаково і зліва направо, і справа наліво?",
+    "options": [
+      "Козак",
+      "Потоп",
+      "Шатро",
+      "Оселя"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these Ukrainian words reads the same forwards and backwards? — Потоп (a palindrome), checked letter by letter."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Столиця Буковини Чернівці розкинулася на берегах якої річки?",
+    "options": [
+      "Прут",
+      "Сірет",
+      "Дністер",
+      "Тиса"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Bukovyna capital Chernivtsi lies on which river? — The Prut; the Siret is a neighbouring river that rises in Ukraine."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Назва якої мови програмування — не про змію, а данина британському комедійному гурту «Монті Пайтон»?",
+    "options": [
+      "Ruby",
+      "Java",
+      "Python",
+      "Perl"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which programming language is named not after the snake but after the British comedy troupe Monty Python? — Python."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто зняв у 1965 році фільм «Тіні забутих предків» за повістю Михайла Коцюбинського?",
+    "options": [
+      "Юрій Іллєнко",
+      "Сергій Параджанов",
+      "Кіра Муратова",
+      "Леонід Биков"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who directed 'Shadows of Forgotten Ancestors' (1965) after Kotsiubynsky's novella? — Sergei Parajanov; Illienko was its cinematographer."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кров у восьминога блакитна. А скільки в нього сердець?",
+    "options": [
+      "Одне",
+      "Два",
+      "Вісім",
+      "Три"
+    ],
+    "correctIndex": 3,
+    "gloss": "An octopus has blue blood; how many hearts does it have? — Three: two pump blood through the gills and one through the body."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Три мокрі сорочки, розвішані на сонці, висихають за 3 години. Скільки часу сохнутимуть шість таких самих сорочок, розвішаних поруч у той самий час?",
+    "options": [
+      "Три години",
+      "Шість годин",
+      "Півтори години",
+      "Дев'ять годин"
+    ],
+    "correctIndex": 0,
+    "gloss": "Three wet shirts dry in three hours in the sun; how long for six such shirts hung side by side at once? — Three hours: they dry at the same time, not one after another."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Земля робить повний оберт навколо своєї осі за добу. На скільки градусів довготи вона повертається за одну годину?",
+    "options": [
+      "10°",
+      "12°",
+      "15°",
+      "24°"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Earth turns fully about its axis in a day; by how many degrees of longitude per hour? — 15°: 360° divided by 24 hours."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто з гетьманів склав у 1710 році «Конституцію прав і вольностей Війська Запорозького», яку вважають однією з перших конституцій Європи?",
+    "options": [
+      "Іван Мазепа",
+      "Богдан Хмельницький",
+      "Іван Виговський",
+      "Пилип Орлик"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which hetman drew up in 1710 the 'Constitution of Rights and Liberties of the Zaporozhian Host', seen as one of Europe's first constitutions? — Pylyp Orlyk, Mazepa's former chancellor (the Mazepa option is the trap)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "В українській абетці десять голосних літер. А скільки голосних звуків?",
+    "options": [
+      "П'ять",
+      "Шість",
+      "Вісім",
+      "Десять"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Ukrainian alphabet has ten vowel letters; how many vowel sounds? — Six (а, о, у, е, и, і): the letters є, ї, ю, я stand for a consonant sound plus a vowel."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто з українських композиторів написав оперу «Запорожець за Дунаєм»?",
+    "options": [
+      "Микола Лисенко",
+      "Микола Леонтович",
+      "Семен Гулак-Артемовський",
+      "Станіслав Людкевич"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Ukrainian composer wrote the opera 'A Zaporozhian Beyond the Danube'? — Semen Hulak-Artemovsky (1863); Lysenko is the tempting wrong option."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яка гімнастка, уродженка Херсона, здобула 18 олімпійських медалей, з них дев'ять золотих?",
+    "options": [
+      "Лариса Латиніна",
+      "Ольга Корбут",
+      "Лілія Подкопаєва",
+      "Світлана Хоркіна"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gymnast, born in Kherson, won 18 Olympic medals, nine of them gold? — Larysa Latynina."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Якби Сонце раптом згасло, через який час ми побачили б, що стало темно?",
+    "options": [
+      "Миттєво",
+      "Приблизно за вісім секунд",
+      "Приблизно за вісім годин",
+      "Приблизно за вісім хвилин"
+    ],
+    "correctIndex": 3,
+    "gloss": "If the Sun suddenly went out, how long until we saw it go dark? — About eight minutes: sunlight takes that long to reach Earth, so the news travels at light speed."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дунай тече територією більшої кількості країн, ніж будь-яка інша річка світу. Скількох?",
+    "options": [
+      "Вісьмох",
+      "Десятьох",
+      "Дванадцятьох",
+      "П'ятнадцятьох"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Danube flows through more countries than any other river; how many? — Ten (Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, Ukraine)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "У двійковій системі, якою «думають» комп'ютери, число 101 — це яке число у звичайному записі?",
+    "options": [
+      "П'ять",
+      "Три",
+      "Шість",
+      "Сім"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the binary system computers 'think' in, which ordinary number is 101? — Five: 4 + 0 + 1."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Старий Новий рік українці відзначають 14 січня. На скільки днів у наш час юліанський календар відстає від григоріанського?",
+    "options": [
+      "На 10",
+      "На 12",
+      "На 13",
+      "На 14"
+    ],
+    "correctIndex": 2,
+    "gloss": "Ukrainians mark Old New Year on 14 January; by how many days does the Julian calendar lag behind the Gregorian today? — 13: Old New Year is 1 January by the Julian calendar, which is 14 January in the Gregorian."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка з дев'яти муз, за давньогрецькою міфологією, опікувалася астрономією?",
+    "options": [
+      "Терпсихора",
+      "Мельпомена",
+      "Талія",
+      "Уранія"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of the nine Muses oversaw astronomy in Greek mythology? — Urania; Terpsichore is dance, Melpomene tragedy, Thalia comedy."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Склянка повна води до країв, у ній плаває шматок льоду, що виступає над краєм. Що станеться, коли лід розтане?",
+    "options": [
+      "Вода не перелиється, бо рівень не зміниться",
+      "Вода перелиється, бо лід розширюється при таненні",
+      "Рівень води помітно впаде, бо лід займав місце",
+      "Вода перелиється, бо з льоду вийде додаткова вода"
+    ],
+    "correctIndex": 0,
+    "gloss": "A glass is full to the brim with a chunk of ice floating above the rim; what happens when it melts? — Nothing overflows: floating ice displaces exactly its own weight of water, so the melted water fills the same volume."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яке християнське ім'я отримав при хрещенні князь Володимир Святославич?",
+    "options": [
+      "Василь",
+      "Георгій",
+      "Роман",
+      "Давид"
+    ],
+    "correctIndex": 0,
+    "gloss": "What Christian name did Prince Volodymyr Sviatoslavych receive at baptism? — Vasyl (Basil); Yaroslav was Heorhiy, while Roman and David were the baptismal names of Boris and Gleb."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який народний розпис із Дніпропетровщини ЮНЕСКО внесла до списку нематеріальної культурної спадщини людства?",
+    "options": [
+      "Опішнянська кераміка",
+      "Решетилівське ткацтво",
+      "Петриківський розпис",
+      "Яворівська іграшка"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which folk painting from the Dnipropetrovsk region did UNESCO place on its intangible cultural heritage list? — Petrykivka painting (2013); the others come from other regions."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який уродженець Чернігівщини зняв німий фільм «Земля» (1930), який критики зараховують до найкращих в історії кіно?",
+    "options": [
+      "Дзиґа Вертов",
+      "Олександр Довженко",
+      "Сергій Ейзенштейн",
+      "Лев Кулешов"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which native of the Chernihiv region made the silent film 'Earth' (1930), ranked among the best in film history? — Oleksandr Dovzhenko, born in Sosnytsia; the others are other Soviet silent-era directors."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "У січні в Україні холодно. Коли ж Земля найближча до Сонця на своїй орбіті?",
+    "options": [
+      "На початку квітня",
+      "На початку липня",
+      "На початку жовтня",
+      "На початку січня"
+    ],
+    "correctIndex": 3,
+    "gloss": "It is cold in Ukraine in January; when is the Earth closest to the Sun in its orbit? — Early January: the seasons come from the tilt of the axis, not from distance. July is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яке море у світі не має жодного берега й обмежене лише океанськими течіями?",
+    "options": [
+      "Азовське",
+      "Мертве",
+      "Саргасове",
+      "Аральське"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sea in the world has no shore and is bounded only by ocean currents? — The Sargasso Sea, in the Atlantic."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка картина Клода Моне 1872 року дала назву цілому напряму в живопису?",
+    "options": [
+      "«Враження. Схід сонця»",
+      "«Водяні лілеї»",
+      "«Руанський собор»",
+      "«Жінка з парасолею»"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which 1872 painting by Claude Monet gave its name to a whole art movement? — 'Impression, Sunrise', which gave us 'Impressionism'."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Смак печива «мадлен» повертає герою спогади дитинства в романі «У пошуках утраченого часу». Хто його автор?",
+    "options": [
+      "Гюстав Флобер",
+      "Стендаль",
+      "Оноре де Бальзак",
+      "Марсель Пруст"
+    ],
+    "correctIndex": 3,
+    "gloss": "The taste of a madeleine brings the hero's childhood back in 'In Search of Lost Time'; who wrote it? — Marcel Proust."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яку доньку знаменитого англійського поета називають першою у світі програмісткою?",
+    "options": [
+      "Грейс Гоппер",
+      "Ада Лавлейс",
+      "Гедді Ламарр",
+      "Марі Кюрі"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which daughter of a famous English poet is called the world's first programmer? — Ada Lovelace, daughter of Lord Byron, who wrote an algorithm for Babbage's engine."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка з цих європейських мов не належить до індоєвропейської родини?",
+    "options": [
+      "Румунська",
+      "Литовська",
+      "Угорська",
+      "Албанська"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these European languages is not Indo-European? — Hungarian, a Uralic language related to Finnish and Estonian."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Альпіністи нарікають, що високо в горах картоплю не звариш. Де вода закипить за найнижчої температури?",
+    "options": [
+      "На березі Мертвого моря",
+      "На вершині Евересту",
+      "У Києві",
+      "На узбережжі Одеси"
+    ],
+    "correctIndex": 1,
+    "gloss": "Climbers complain that you cannot cook potatoes high in the mountains; where does water boil at the lowest temperature? — On the summit of Everest (about 70 °C): the lower the air pressure, the lower the boiling point."
+  }
+]

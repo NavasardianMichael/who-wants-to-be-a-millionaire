@@ -6,7 +6,7 @@ import { isLocale } from '../lib/locales.js'
 import { asBoundedString, asInteger, asStringArray, isUuid } from '../lib/request.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
-import { getCategorySamples, getOfflinePack, getQuestionBatch, reportQuestion } from '../services/questionPool.js'
+import { classicSeenIds, getCategorySamples, getOfflinePack, getQuestionBatch, markQuestionsShown, reportQuestion } from '../services/questionPool.js'
 
 export const questionsRouter = Router()
 
@@ -22,7 +22,10 @@ const MAX_EXCLUDE = 500
  */
 questionsRouter.post(
   '/batch',
-  rateLimit('questions', { limit: 30, windowMs: 60_000 }),
+  // A game takes one or two batches. The daily cap is what slows a script reading the pool:
+  // each batch hands out the next least-served questions, answers included.
+  rateLimit('questions', { limit: 15, windowMs: 60_000 }),
+  rateLimit('questions:day', { limit: 600, windowMs: 24 * 60 * 60 * 1000 }),
   asyncHandler(async (req, res) => {
     const { locale } = req.body ?? {}
     if (!isLocale(locale)) return fail(res, 'Unsupported locale', 400)
@@ -37,10 +40,33 @@ questionsRouter.post(
     if (!total || total > MAX_BATCH) return fail(res, `Ask for 1-${MAX_BATCH} questions`, 400)
 
     const categories = asStringArray(req.body?.categories, 16, isCategory) as Category[]
-    const excludeIds = asStringArray(req.body?.excludeIds, MAX_EXCLUDE, isUuid)
+    const deviceSeen = asStringArray(req.body?.excludeIds, MAX_EXCLUDE, isUuid)
+    // A signed-in player also skips what they met on their other devices.
+    const excludeIds = req.session ? [...new Set([...deviceSeen, ...(await classicSeenIds(req.session.userId))])] : deviceSeen
 
-    const questions = await getQuestionBatch({ locale, counts, categories, excludeIds })
+    const player = req.session ? `user:${req.session.userId}` : `ip:${req.ip ?? 'unknown'}`
+    const questions = await getQuestionBatch({ locale, counts, categories, excludeIds, player })
     return ok(res, questions)
+  })
+)
+
+/** A game shows 15 questions, plus any swapped out by Switch Question or drawn from a nearby level. */
+const MAX_SHOWN = 30
+
+/**
+ * POST /questions/shown — `{ questionIds }`, the questions a Classic game actually showed,
+ * sent when it ends or is left. Counts them as served, and for a signed-in player remembers
+ * them so no device of theirs gets them again.
+ */
+questionsRouter.post(
+  '/shown',
+  rateLimit('shown', { limit: 20, windowMs: 60_000 }),
+  asyncHandler(async (req, res) => {
+    const questionIds = asStringArray(req.body?.questionIds, MAX_SHOWN, isUuid)
+    if (!questionIds.length) return fail(res, 'questionIds must list shown question ids', 400)
+
+    await markQuestionsShown(questionIds, req.session?.userId ?? null)
+    return ok(res, true)
   })
 )
 
@@ -60,7 +86,8 @@ questionsRouter.get(
 /** GET /questions/packs/:locale — an offline language pack. */
 questionsRouter.get(
   '/packs/:locale',
-  rateLimit('packs', { limit: 20, windowMs: 60_000 }),
+  // The app re-downloads a language's pack only once it is old, so a few an hour is plenty.
+  rateLimit('packs', { limit: 10, windowMs: 60 * 60 * 1000 }),
   asyncHandler(async (req, res) => {
     const { locale } = req.params
     if (!isLocale(locale)) return fail(res, 'Unsupported locale', 400)

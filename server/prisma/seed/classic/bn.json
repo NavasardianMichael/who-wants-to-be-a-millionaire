@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "প্রবাদ বলে, অতি লোভে কে নষ্ট হয়?",
+    "options": ["কামার", "কুমোর", "তাঁতি", "জেলে"],
+    "correctIndex": 2,
+    "gloss": "The proverb says: too much greed ruins whom? — The weaver: «অতি লোভে তাঁতি নষ্ট». All options are village trades."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "রংধনুর সাত রং মনে রাখার চেনা কৌশল ‘বেনীআসহকলা’। এর ‘স’ কোন রং?",
+    "options": ["সাদা", "সবুজ", "সোনালি", "সিঁদুরে"],
+    "correctIndex": 1,
+    "gloss": "The Bengali rainbow mnemonic is 'beniasahakala'. What colour is its 'sa'? — Green (sabuj): be-guni, ni-l, a-samani, sa-buj, ha-lud, ka-mala, la-l. The other 'sa' colours are not in a rainbow."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "রসগোল্লা বানানোর মূল উপকরণ কোনটি?",
+    "options": ["ছানা", "সুজি", "খোয়া", "চালের গুঁড়া"],
+    "correctIndex": 0,
+    "gloss": "What is the main ingredient of rasgulla? — Chhana (fresh curd cheese). Khoa is the trap: it is used in other sweets."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ভারত আর বাংলাদেশ — দুই দেশের জাতীয় সংগীতই একজনের লেখা। তিনি কে?",
+    "options": ["জীবনানন্দ দাশ", "দ্বিজেন্দ্রলাল রায়", "অতুলপ্রসাদ সেন", "রবীন্দ্রনাথ ঠাকুর"],
+    "correctIndex": 3,
+    "gloss": "The national anthems of both India and Bangladesh were written by one man. Who? — Rabindranath Tagore: «জনগণমন» and «আমার সোনার বাংলা»."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ক্রিকেটে এক ওভারে ছয়টি বৈধ বল। কুড়ি ওভারের পুরো এক ইনিংসে বৈধ বল কয়টি?",
+    "options": ["১০০", "১২০", "১২৬", "১৪০"],
+    "correctIndex": 1,
+    "gloss": "An over has six legal balls. How many legal balls in a full 20-over innings? — 120 (6 × 20)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "মরুভূমির উট পিঠের কুঁজে আসলে কী জমিয়ে রাখে?",
+    "options": ["চর্বি", "পানি", "বাড়তি রক্ত", "হজম না হওয়া খাবার"],
+    "correctIndex": 0,
+    "gloss": "What does a camel really store in its hump? — Fat, not water, which is the popular myth and the trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "বাজারে ডিম বিক্রি হয় হালি ধরে। দেড় হালি ডিমে কয়টি ডিম?",
+    "options": ["৪", "৫", "৬", "৮"],
+    "correctIndex": 2,
+    "gloss": "Eggs are sold by the 'hali' at the market. How many eggs in one and a half hali? — 6: a hali is four."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "কোন গ্রহের চারপাশের উজ্জ্বল বলয় ছোট দূরবিনেও দেখা যায়?",
+    "options": ["বৃহস্পতি", "মঙ্গল", "শনি", "ইউরেনাস"],
+    "correctIndex": 2,
+    "gloss": "Which planet's bright rings can be seen even through a small telescope? — Saturn. Jupiter and Uranus have only faint rings."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "কোন মহাদেশে কোনো দেশ নেই, আছে শুধু নানা দেশের গবেষণাকেন্দ্র?",
+    "options": ["অস্ট্রেলিয়া", "অ্যান্টার্কটিকা", "আফ্রিকা", "দক্ষিণ আমেরিকা"],
+    "correctIndex": 1,
+    "gloss": "Which continent has no countries, only research stations of many countries? — Antarctica. Australia tempts as a continent that is a single country."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "সুর তুলতে তার লাগে না কোন বাদ্যযন্ত্রে?",
+    "options": ["সেতার", "বেহালা", "গিটার", "বাঁশি"],
+    "correctIndex": 3,
+    "gloss": "Which instrument needs no strings to make music? — The flute (banshi); the others are string instruments."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ভারত থেকে বাংলাদেশে ঢুকে যে নদীর নাম হয় পদ্মা, ভারতে তাকে কী নামে ডাকা হয়?",
+    "options": ["যমুনা", "গঙ্গা", "তিস্তা", "ব্রহ্মপুত্র"],
+    "correctIndex": 1,
+    "gloss": "The river called Padma once it enters Bangladesh is called what in India? — The Ganges (Ganga). The Jamuna is the trap: it is the Brahmaputra's name in Bangladesh."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "বজ্রপাতে আলো আর শব্দ একসঙ্গে তৈরি হয়। তবু ঝলকানির পরে গর্জন শোনা যায় কেন?",
+    "options": ["আলো শব্দের চেয়ে অনেক দ্রুত চলে", "কানের চেয়ে চোখ দ্রুত সাড়া দেয়", "মেঘ শব্দকে কিছুক্ষণ আটকে রাখে", "বাতাস শব্দকে উল্টো দিকে ঠেলে দেয়"],
+    "correctIndex": 0,
+    "gloss": "Lightning makes light and sound at the same moment, so why is thunder heard after the flash? — Light travels far faster than sound (about 300,000 km/s against about 340 m/s)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "কাকে বলা হয় ‘বিদ্রোহী কবি’?",
+    "options": ["সুকান্ত ভট্টাচার্য", "মাইকেল মধুসূদন দত্ত", "জসীমউদ্‌দীন", "কাজী নজরুল ইসলাম"],
+    "correctIndex": 3,
+    "gloss": "Who is called 'the rebel poet'? — Kazi Nazrul Islam, after his poem «বিদ্রোহী»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘রবি’, ‘ভানু’, ‘দিবাকর’ — সবই সূর্যের আরেক নাম। কোনটি এই দলে পড়ে না?",
+    "options": ["তপন", "আদিত্য", "মার্তণ্ড", "সুধাকর"],
+    "correctIndex": 3,
+    "gloss": "Rabi, Bhanu, Dibakar are all names of the Sun. Which word does not belong? — Sudhakar, 'maker of nectar', is the Moon. Tapan, Aditya and Martanda are the Sun."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "নতুন বাড়ির প্রতিটি তলায় উঠতে ২০টি করে সিঁড়ির ধাপ। নিচতলা থেকে চারতলায় পৌঁছাতে কয়টি ধাপ ভাঙতে হবে?",
+    "options": ["৪০", "৬০", "৮০", "১০০"],
+    "correctIndex": 1,
+    "gloss": "Each storey takes 20 steps. How many steps from the ground floor to the 'four-storey' (chartala) level? — 60: in Bengali the ground floor is the first storey (ektala), so chartala is only three flights up. 80 is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "জুলাইয়ে ঢাকা-কলকাতায় যখন ভরা বর্ষা, অস্ট্রেলিয়ার সিডনিতে তখন কোন ঋতু?",
+    "options": ["গ্রীষ্ম", "বসন্ত", "শরৎ", "শীত"],
+    "correctIndex": 3,
+    "gloss": "In July, when Dhaka and Kolkata are in full monsoon, what season is it in Sydney? — Winter: the southern hemisphere's seasons are reversed."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "আধুনিক অলিম্পিক গেমসের প্রেরণা কোন দেশের প্রাচীন ক্রীড়া উৎসব?",
+    "options": ["গ্রিস", "ইতালি", "মিশর", "তুরস্ক"],
+    "correctIndex": 0,
+    "gloss": "The modern Olympic Games were inspired by the ancient games of which country? — Greece (Olympia). Italy tempts through Rome."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "কাকের বাসায় ডিম পেড়ে নিজের ছানা কাককে দিয়েই বড় করায় কোন পাখি?",
+    "options": ["দোয়েল", "কোকিল", "শালিক", "বুলবুলি"],
+    "correctIndex": 1,
+    "gloss": "Which bird lays its eggs in a crow's nest and lets the crow raise its chicks? — The koel (Asian koel, a brood parasite)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বাংলার দুর্গাপ্রতিমায় দেবী দুর্গা কোন প্রাণীর পিঠে?",
+    "options": ["সিংহ", "ময়ূর", "হাঁস", "ইঁদুর"],
+    "correctIndex": 0,
+    "gloss": "In a Bengali Durga idol, on which animal's back is the goddess? — The lion. The other options are all in the same idol group: Kartik's peacock, Saraswati's swan, Ganesh's mouse."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "নামে ‘মাছ’ থাকলেও আসলে মাছ নয় কোনটি?",
+    "options": ["শিং মাছ", "কই মাছ", "চিংড়ি মাছ", "টেংরা মাছ"],
+    "correctIndex": 2,
+    "gloss": "Which one is called 'fish' but is not a fish? — The prawn (chingri), a crustacean. Shing, koi and tengra are real fish."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "কাচ্চি বিরিয়ানির ‘কাচ্চি’ নামটি কী বোঝায়?",
+    "options": ["মাংস আগে আলাদা করে রান্না করা হয়", "কাঁচা মাংস চালের সঙ্গে একসঙ্গে দমে বসে", "কেবল খাসির রানের মাংস দেওয়া হয়", "চাল না ভিজিয়েই রান্না করা হয়"],
+    "correctIndex": 1,
+    "gloss": "What does 'kacchi' in kacchi biryani mean? — The meat goes in raw (kachcha) with the rice and cooks together under dum; the opposite is pakki biryani, with pre-cooked meat."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "হিন্দি গানের জগতের ‘পঞ্চম দা’-র বাবা, কুমিল্লায় জন্ম নেওয়া কিংবদন্তি সুরকার কে?",
+    "options": ["সলিল চৌধুরী", "হেমন্ত মুখোপাধ্যায়", "শচীন দেববর্মন", "মান্না দে"],
+    "correctIndex": 2,
+    "gloss": "Who was the father of 'Pancham da' (R. D. Burman), a legendary composer born in Comilla? — Sachin Dev Burman."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "বিটলস ব্যান্ডের চার সদস্যই কোন শহরের ছেলে?",
+    "options": ["লিভারপুল", "ম্যানচেস্টার", "লন্ডন", "বার্মিংহাম"],
+    "correctIndex": 0,
+    "gloss": "All four Beatles came from which city? — Liverpool."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘পঞ্চবটী’, ‘সপ্তর্ষি’ আর ‘অষ্টধাতু’ — তিনটি শব্দে লুকানো সংখ্যাগুলো যোগ করলে কত হয়?",
+    "options": ["১৮", "১৯", "২০", "২১"],
+    "correctIndex": 2,
+    "gloss": "Add up the numbers hidden in panchabati, saptarshi and ashtadhatu. — 20: pancha 5 + sapta 7 + ashta 8."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "আন্দিজ পর্বতের ওপরে মাচু পিচু নগর গড়েছিল কোন সভ্যতা?",
+    "options": ["মায়া", "অ্যাজটেক", "ওলমেক", "ইনকা"],
+    "correctIndex": 3,
+    "gloss": "Which civilisation built Machu Picchu high in the Andes? — The Inca. Maya, Aztec and Olmec were in Mesoamerica."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "প্রাপ্তবয়স্ক মানুষের শরীরে হাড় ২০৬টি। সদ্যোজাত শিশুর শরীরে হাড় কয়টি?",
+    "options": ["প্রায় ১০০টি", "প্রায় ১৫০টি", "প্রায় ৩০০টি", "ঠিক ২০৬টি"],
+    "correctIndex": 2,
+    "gloss": "An adult has 206 bones. How many does a newborn have? — About 300 (often given as 270–300); many fuse together as the child grows."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ঢাকায় যখন ঠিক দুপুর ১২টা, কলকাতার ঘড়িতে তখন কটা?",
+    "options": ["১১টা", "১১টা ৩০ মিনিট", "১২টা", "১২টা ৩০ মিনিট"],
+    "correctIndex": 1,
+    "gloss": "When it is exactly noon in Dhaka, what time is it in Kolkata? — 11:30. Bangladesh is UTC+6, India UTC+5:30, and Kolkata lies west of Dhaka."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "লিওনার্দো দা ভিঞ্চির ‘দ্য লাস্ট সাপার’ কখনো জাদুঘরে নেওয়া যায়নি। কারণ ছবিটি আঁকা কোথায়?",
+    "options": ["কাঠের প্যানেলে", "ক্যানভাসে", "মঠের ভোজনকক্ষের দেয়ালে", "গির্জার ছাদে"],
+    "correctIndex": 2,
+    "gloss": "Leonardo's 'The Last Supper' was never moved to a museum. Why — where is it painted? — On the refectory wall of the convent of Santa Maria delle Grazie in Milan. The ceiling is the Sistine Chapel trap."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "সত্যজিৎ রায়ের ‘পথের পাঁচালী’ ছবির কাহিনি কার উপন্যাস থেকে নেওয়া?",
+    "options": ["তারাশঙ্কর বন্দ্যোপাধ্যায়", "মানিক বন্দ্যোপাধ্যায়", "শরৎচন্দ্র চট্টোপাধ্যায়", "বিভূতিভূষণ বন্দ্যোপাধ্যায়"],
+    "correctIndex": 3,
+    "gloss": "Whose novel is Satyajit Ray's film 'Pather Panchali' based on? — Bibhutibhushan Bandyopadhyay. Three of the options are famous Bandyopadhyays."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "একটি বইয়ের ১ থেকে ২০ পৃষ্ঠার নম্বর ছাপতে ‘১’ অঙ্কটি মোট কতবার লাগবে?",
+    "options": ["১০", "১১", "১২", "১৩"],
+    "correctIndex": 2,
+    "gloss": "Printing page numbers 1 to 20, how many times is the digit 1 used? — 12: once each in 1, 10 and 12–19 (10 times) plus twice in 11. Forgetting 11's second 1 gives 11."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "চারদিক থেকে কেবল দক্ষিণ আফ্রিকা দিয়ে ঘেরা দেশ কোনটি?",
+    "options": ["এসওয়াতিনি", "বতসোয়ানা", "লেসোথো", "নামিবিয়া"],
+    "correctIndex": 2,
+    "gloss": "Which country is surrounded on all sides by South Africa alone? — Lesotho. Eswatini is the trap: it also borders Mozambique."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "বিরিয়ানিতে রং আর সুবাস আনে জাফরান। এটি আসলে ফুলের কোন অংশ?",
+    "options": ["পাপড়ি", "পরাগরেণু", "বৃতি", "গর্ভমুণ্ড"],
+    "correctIndex": 3,
+    "gloss": "Saffron gives biryani its colour and aroma. Which part of the flower is it? — The stigma (garbhamunda) of the saffron crocus."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "কালীঘাটের পটের মোটা রেখা আর সরল রং নিজের ছবিতে এনে খ্যাতি পেয়েছিলেন কোন শিল্পী?",
+    "options": ["যামিনী রায়", "অবনীন্দ্রনাথ ঠাকুর", "নন্দলাল বসু", "জয়নুল আবেদিন"],
+    "correctIndex": 0,
+    "gloss": "Which artist became famous by bringing the bold lines and flat colours of Kalighat pat painting into his own work? — Jamini Roy."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "বাংলাদেশ আর পশ্চিমবঙ্গের ওপর দিয়ে চলে গেছে কর্কটক্রান্তি রেখা। বছরের কোন সময়ে দুপুরের সূর্য এই রেখার ঠিক মাথার ওপরে আসে?",
+    "options": ["২১ মার্চের কাছাকাছি", "২১ জুনের কাছাকাছি", "২৩ সেপ্টেম্বরের কাছাকাছি", "২২ ডিসেম্বরের কাছাকাছি"],
+    "correctIndex": 1,
+    "gloss": "The Tropic of Cancer crosses Bangladesh and West Bengal. When is the noon Sun directly overhead on it? — Around 21 June, the June solstice. The equinoxes put it over the equator."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "শার্লক হোমসের স্রষ্টা আর্থার কোনান ডয়েল পেশায় কী ছিলেন?",
+    "options": ["চিকিৎসক", "আইনজীবী", "পুলিশ কর্মকর্তা", "সাংবাদিক"],
+    "correctIndex": 0,
+    "gloss": "What was Arthur Conan Doyle, creator of Sherlock Holmes, by profession? — A physician (doctor)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "রক্তের গ্রুপ ‘ও নেগেটিভ’ সবাইকে লোহিত কণিকা দিতে পারে। তাহলে সবার কাছ থেকে নিতে পারে কোন গ্রুপ?",
+    "options": ["এ পজিটিভ", "বি নেগেটিভ", "এবি পজিটিভ", "ও পজিটিভ"],
+    "correctIndex": 2,
+    "gloss": "O negative can give red cells to everyone. Which group can receive from everyone? — AB positive: it already carries A, B and Rh antigens, so none is foreign to it."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "আটটি বাহু আর নীল রক্তের প্রাণী অক্টোপাসের হৃৎপিণ্ড কয়টি?",
+    "options": ["একটি", "দুটি", "তিনটি", "আটটি"],
+    "correctIndex": 2,
+    "gloss": "How many hearts does the eight-armed, blue-blooded octopus have? — Three: two for the gills, one for the body."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বাংলাদেশ ক্রিকেট দল টেস্ট মর্যাদা পায় কোন সালে?",
+    "options": ["১৯৯৭", "১৯৯৯", "২০০০", "২০০৩"],
+    "correctIndex": 2,
+    "gloss": "In which year did Bangladesh get Test status? — 2000 (June 2000; first Test against India in November). 1997 (ICC Trophy) and 1999 (first World Cup) are the traps."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "কম্পিউটার সব হিসাব করে কেবল ০ আর ১ দিয়ে। এই দ্বিমিক পদ্ধতিতে লেখা ‘১০১’ দশমিকে কত?",
+    "options": ["৩", "৫", "৬", "১০১"],
+    "correctIndex": 1,
+    "gloss": "Computers count with only 0 and 1. What is binary 101 in decimal? — 5: 4 + 0 + 1."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "বাংলা মাসের নাম এসেছে নক্ষত্র থেকে: বিশাখা থেকে বৈশাখ, শ্রবণা থেকে শ্রাবণ। ‘মৃগশিরা’ নক্ষত্র থেকে নাম এসেছে কোন মাসের?",
+    "options": ["পৌষ", "মাঘ", "অগ্রহায়ণ", "ফাল্গুন"],
+    "correctIndex": 2,
+    "gloss": "Bengali months are named after nakshatras: Bishakha gives Boishakh, Shrabana gives Shrabon. Which month comes from Mrigashira? — Agrahayan, whose old name is Margashirsha. The others come from Pushya, Magha and Phalguni, so they can be eliminated."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ইউনেস্কোর অধরা সাংস্কৃতিক ঐতিহ্যের তালিকায় বাংলাদেশের প্রথম স্বীকৃতি পায় কোনটি?",
+    "options": ["জামদানি বয়নশিল্প", "বাউল গান", "মঙ্গল শোভাযাত্রা", "শীতলপাটি বয়নশিল্প"],
+    "correctIndex": 1,
+    "gloss": "What was Bangladesh's first entry on UNESCO's intangible cultural heritage list? — Baul songs (proclaimed 2005, inscribed 2008). Then Jamdani (2013), Mangal Shobhajatra (2016), Shital Pati (2017)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস ধরা হয় কোনটিকে?",
+    "options": ["আলালের ঘরের দুলাল", "কপালকুণ্ডলা", "দুর্গেশনন্দিনী", "বিষবৃক্ষ"],
+    "correctIndex": 2,
+    "gloss": "Which is considered the first successful (sarthak) Bengali novel? — Bankim Chandra's «দুর্গেশনন্দিনী» (1865). «আলালের ঘরের দুলাল» is the trap: it is earlier but called the first novel, not the first 'successful' one."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "নিরক্ষরেখা আর গ্রিনিচের মূল মধ্যরেখা যে বিন্দুতে মেলে, সেটি কোথায়?",
+    "options": ["আটলান্টিক মহাসাগরে", "ভারত মহাসাগরে", "সাহারা মরুভূমিতে", "প্রশান্ত মহাসাগরে"],
+    "correctIndex": 0,
+    "gloss": "Where do the Equator and the Greenwich prime meridian meet? — In the Atlantic Ocean (Gulf of Guinea). Follow the meridian south from London: it crosses West Africa and reaches the Equator at sea."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "আধুনিক একটি পূর্ণাঙ্গ পিয়ানোতে সাদা-কালো মিলিয়ে কয়টি চাবি থাকে?",
+    "options": ["৭২", "৭৬", "৮৮", "৯৬"],
+    "correctIndex": 2,
+    "gloss": "How many keys, white and black, are on a modern full-size piano? — 88 (52 white, 36 black)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘আলমারি’, ‘বালতি’, ‘চাবি’, ‘আনারস’ — শব্দগুলো বাংলায় এসেছে একই ভাষা থেকে। কোন ভাষা?",
+    "options": ["পর্তুগিজ", "ফারসি", "আরবি", "ওলন্দাজ"],
+    "correctIndex": 0,
+    "gloss": "Almari, balti, chabi, anaras all came into Bengali from one language. Which? — Portuguese: armário, balde, chave, ananás."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ঋত্বিক ঘটকের ‘মেঘে ঢাকা তারা’-য় নীতার চরিত্রে অভিনয় করেছিলেন কে?",
+    "options": ["সুপ্রিয়া দেবী", "সুচিত্রা সেন", "মাধবী মুখোপাধ্যায়", "শর্মিলা ঠাকুর"],
+    "correctIndex": 0,
+    "gloss": "Who played Neeta in Ritwik Ghatak's 'Meghe Dhaka Tara' (1960)? — Supriya Devi (credited as Supriya Choudhury)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "১৯৬৬ সালে লন্ডনে চুরি যাওয়া ফুটবল বিশ্বকাপের ট্রফি খুঁজে পেয়েছিল কে?",
+    "options": ["স্কটল্যান্ড ইয়ার্ডের এক গোয়েন্দা", "এক ট্যাক্সিচালক", "এক স্কুলছাত্র", "একটি পোষা কুকুর"],
+    "correctIndex": 3,
+    "gloss": "Who found the football World Cup trophy stolen in London in 1966? — A pet dog named Pickles, sniffing under a hedge in south London."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "শুক্র গ্রহের মাটিতে দাঁড়িয়ে, মেঘ না থাকলে, সূর্যকে উঠতে দেখা যেত কোন দিকে?",
+    "options": ["পূর্ব দিকে", "পশ্চিম দিকে", "উত্তর দিকে", "দক্ষিণ দিকে"],
+    "correctIndex": 1,
+    "gloss": "Standing on Venus with no clouds, where would you see the Sun rise? — In the west: Venus spins on its axis in the opposite direction to Earth (retrograde rotation)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "সূর্যের আলো পৃথিবীতে পৌঁছায় প্রায় ৮ মিনিটে। সূর্য হঠাৎ উধাও হয়ে গেলে পৃথিবী কক্ষপথ ছেড়ে ছিটকে যেতে শুরু করবে কখন?",
+    "options": ["সঙ্গে সঙ্গে", "প্রায় এক দিন পরে", "প্রায় এক বছর পরে", "প্রায় ৮ মিনিট পরে"],
+    "correctIndex": 3,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. If the Sun vanished, when would Earth leave its orbit? — After about 8 minutes: gravity's pull also travels at the speed of light (confirmed by gravitational-wave observations). 'At once' is the intuitive trap."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "যাঁর ভ্রমণকাহিনি পড়ে ইউরোপ প্রথম ভালো করে চীনকে চিনেছিল, সেই মার্কো পোলো কোন শহরের মানুষ ছিলেন?",
+    "options": ["জেনোয়া", "ভেনিস", "ফ্লোরেন্স", "পিসা"],
+    "correctIndex": 1,
+    "gloss": "Marco Polo, whose travel book introduced China to Europe, came from which city? — Venice. Genoa is the trap: he dictated the book while a prisoner there."
+  }
+]

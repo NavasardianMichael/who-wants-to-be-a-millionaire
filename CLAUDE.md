@@ -2,11 +2,11 @@
 
 A quiz game in the TV quiz-show format, in 80 languages. A Next.js App Router PWA
 and an Express/Prisma API in `server/`, in one pnpm workspace. Questions are written by
-Gemini natively per language and pooled in Postgres; a curated English bank is the fallback.
+an AI (OpenRouter free models or Gemini, switched in code) natively per language and pooled in Postgres; a curated English bank is the fallback.
 
 **Stack:** Next.js 16 (App Router, `src/proxy.ts`) · React 19 · TypeScript 6 · Ant Design 6 +
 Tailwind 4 (one token chain) · Zustand + immer · next-intl 4 · motion · idb · pnpm · Express 5 · Prisma 6 ·
-PostgreSQL 16 · `@google/genai` · sharp · Sentry · GA4
+PostgreSQL 16 · OpenRouter (`fetch`) / `@google/genai` · sharp · Sentry · GA4
 
 ## Commands
 
@@ -44,7 +44,7 @@ sorts it.
 | The game itself (state machine, pacing, sounds) | `src/store/game/session/` · UI in `src/components/game/` |
 | Where questions come from (API → pack → bundled bank) | `src/helpers/offline/questionSource.ts`, `src/helpers/game/questionQueue.ts` |
 | Question generation, validation, the pool | `server/src/services/questionGen.ts`, `questionPool.ts`, `jobs/poolRefill.ts` |
-| Gemini (model chain, cooldowns, the only key reader) | `server/src/lib/gemini.ts` |
+| AI providers (the one-line switch, model chains, cooldowns, key readers) | `server/src/lib/ai/` — `index.ts` (switch) · `openrouter.ts` · `gemini.ts` · `types.ts` |
 | Ranked runs (server-refereed, signed-in players only) | `server/src/services/runs.ts` + pure `runRules.ts` · `server/src/routes/runs.ts` |
 | Leaderboard SQL | `server/src/services/leaderboard.ts` |
 | Sign-in (Google + email/password), session cookie | `server/src/routes/identity.ts` (password), `identity-google.ts`, `lib/password.ts`, `lib/google-oauth.ts`, `lib/oauth-state.ts`, `lib/session.ts` · UI `src/components/auth/` |

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kamilisha methali: “Haraka haraka haina …”",
+    "options": ["Baraka", "Faida", "Mwisho", "Heshima"],
+    "correctIndex": 0,
+    "gloss": "Complete the proverb: “Haste, haste has no …” — Baraka (blessing): «Haraka haraka haina baraka»."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kilele cha Uhuru, sehemu ya juu kabisa ya bara la Afrika, kiko juu ya mlima gani?",
+    "options": ["Mlima Kenya", "Mlima Elgon", "Kilimanjaro", "Mlima Meru"],
+    "correctIndex": 2,
+    "gloss": "Uhuru Peak, the highest point in Africa, is on which mountain? — Kilimanjaro. Mount Meru is its close neighbour."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kitendawili: “Nyumba yangu haina mlango.” Jibu lake ni lipi?",
+    "options": ["Kibuyu", "Yai", "Chungu", "Sanduku"],
+    "correctIndex": 1,
+    "gloss": "Riddle: “My house has no door.” — An egg: the classic answer; a gourd, a pot and a box all have an opening or a lid."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ukilisoma neno lipi kinyumenyume, kuanzia herufi ya mwisho, linabaki vilevile?",
+    "options": ["Moyo", "Figo", "Pafu", "Ini"],
+    "correctIndex": 3,
+    "gloss": "Which word reads the same backwards? (heart, kidney, lung, liver) — Ini (liver) is a palindrome; the others read oyom, ogif, ufap."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Majani ya mimea hufyonza gesi gani kutoka hewani ili kutengeneza chakula kwa msaada wa mwanga wa jua?",
+    "options": ["Oksijeni", "Naitrojeni", "Kaboni dioksidi", "Hidrojeni"],
+    "correctIndex": 2,
+    "gloss": "Which gas do leaves take from the air to make food with sunlight? — Carbon dioxide (photosynthesis); oxygen is what they give off."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kitu gani huwekwa kwenye unga wa ngano ili mkate uumuke kabla ya kuokwa?",
+    "options": ["Chumvi", "Sukari", "Mafuta", "Hamira"],
+    "correctIndex": 3,
+    "gloss": "What is added to wheat flour so bread rises before baking? — Yeast (hamira)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ndege huyu ndiye mkubwa kuliko wote duniani na hukimbia kwa kasi sana, lakini hawezi kuruka. Ni yupi?",
+    "options": ["Tai", "Mbuni", "Korongo", "Kanga"],
+    "correctIndex": 1,
+    "gloss": "The world's biggest bird runs very fast but cannot fly. Which? — Ostrich (mbuni), a word that in Swahili also names the coffee plant."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwaka 2019 Mkenya Eliud Kipchoge alikuwa mtu wa kwanza kukimbia mbio zipi kwa chini ya saa mbili?",
+    "options": ["Mita 10,000", "Kilomita 5", "Nusu marathoni", "Marathoni"],
+    "correctIndex": 3,
+    "gloss": "In 2019 Kenyan Eliud Kipchoge became the first person to run which race in under two hours? — The marathon (Vienna, 1:59:40)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mwanariadha Usain Bolt, bingwa wa mbio fupi, anatoka nchi gani?",
+    "options": ["Jamaika", "Kuba", "Barbados", "Trinidad na Tobago"],
+    "correctIndex": 0,
+    "gloss": "Sprint champion Usain Bolt comes from which country? — Jamaica; the others are Caribbean neighbours."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nelson Mandela alikuwa rais wa kwanza mweusi wa nchi gani?",
+    "options": ["Zimbabwe", "Namibia", "Botswana", "Afrika Kusini"],
+    "correctIndex": 3,
+    "gloss": "Nelson Mandela was the first black president of which country? — South Africa (1994)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mjini Jinja, Uganda, mto Nile hutoka ziwani na kuanza safari yake ndefu kuelekea Misri. Ni ziwa lipi?",
+    "options": ["Ziwa Albert", "Ziwa Victoria", "Ziwa Kyoga", "Ziwa Tanganyika"],
+    "correctIndex": 1,
+    "gloss": "At Jinja, Uganda, the Nile leaves a lake on its way to Egypt. Which lake? — Lake Victoria. The Nile later passes through Lake Kyoga and Lake Albert."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kiswahili hukuza kitu kwa kubadili mwanzo wa neno: “mtu” mkubwa kupita kiasi huwa “jitu”. Kwa kanuni hiyohiyo, “mji” mkubwa huitwaje?",
+    "options": ["Kijiji", "Mjini", "Majiji", "Jiji"],
+    "correctIndex": 3,
+    "gloss": "Swahili makes things big by changing the start of a word: an oversized “mtu” (person) is a “jitu” (giant). By the same rule, a big “mji” (town) is? — Jiji (city). The aha: kijiji (village) is built on the same root; majiji is the plural."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Damu ni nyekundu kwa sababu ya madini fulani yaliyomo kwenye himoglobini. Ni madini gani?",
+    "options": ["Shaba", "Kalsiamu", "Zinki", "Chuma"],
+    "correctIndex": 3,
+    "gloss": "Blood is red because of a mineral in haemoglobin. Which? — Iron."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mwaka 1969 binadamu alikanyaga Mwezi kwa mara ya kwanza. Alikuwa nani?",
+    "options": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "John Glenn"],
+    "correctIndex": 0,
+    "gloss": "In 1969 a human first set foot on the Moon. Who? — Neil Armstrong; Aldrin followed him, Gagarin was the first in space."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Muziki wa Bongo Flava ulizaliwa nchi gani?",
+    "options": ["Kenya", "Uganda", "Tanzania", "Rwanda"],
+    "correctIndex": 2,
+    "gloss": "In which country was Bongo Flava music born? — Tanzania; “Bongo” is slang for Dar es Salaam and Tanzania."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katika katuni “The Lion King”, nyani mzee mwenye hekima amepewa jina la Kiswahili. Ni lipi?",
+    "options": ["Rafiki", "Pumbaa", "Sarabi", "Shenzi"],
+    "correctIndex": 0,
+    "gloss": "In “The Lion King”, the wise old baboon has a Swahili name. Which? — Rafiki (friend). Pumbaa is the warthog, Sarabi Simba's mother, Shenzi a hyena."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kwenye foleni ya benki, Amina ni wa tano kuhesabu kutoka mbele, na pia wa tano kuhesabu kutoka nyuma. Foleni ina watu wangapi?",
+    "options": ["8", "9", "10", "11"],
+    "correctIndex": 1,
+    "gloss": "In a bank queue Amina is fifth from the front and fifth from the back. How many people? — 9: four ahead, four behind, plus Amina. 10 counts her twice."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Muuzaji anakuambia bei ni “laki tatu na nusu”. Ni shilingi ngapi?",
+    "options": ["3,500", "35,000", "350,000", "3,500,000"],
+    "correctIndex": 2,
+    "gloss": "A seller says the price is “three and a half laki”. How many shillings? — 350,000: one laki is 100,000."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Daktari amekupa vidonge vitatu: umeze kimoja kila baada ya nusu saa. Tangu umeze cha kwanza, utamaliza vyote baada ya muda gani?",
+    "options": ["Saa moja", "Nusu saa", "Saa moja na nusu", "Saa mbili"],
+    "correctIndex": 0,
+    "gloss": "A doctor gives you three pills, one every half hour. From the first, when have you taken them all? — One hour: at 0, 30 and 60 minutes. Autopilot says an hour and a half."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chokoleti hutengenezwa kutokana na mbegu za mmea gani?",
+    "options": ["Kahawa", "Vanila", "Karanga", "Kakao"],
+    "correctIndex": 3,
+    "gloss": "Chocolate is made from the seeds of which plant? — Cacao."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwalimu Julius Nyerere alitafsiri kwa Kiswahili tamthilia “Juliasi Kaizari”. Mwandishi wake wa asili ni nani?",
+    "options": ["Christopher Marlowe", "William Shakespeare", "Charles Dickens", "George Bernard Shaw"],
+    "correctIndex": 1,
+    "gloss": "Julius Nyerere translated the play “Juliasi Kaizari” into Swahili. Who wrote the original? — Shakespeare (Julius Caesar); Nyerere also translated The Merchant of Venice."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Neno “gereza” lilikopwa kutoka lugha ya kigeni ambamo maana yake asili ilikuwa “kanisa”. Ni lugha gani?",
+    "options": ["Kiarabu", "Kiingereza", "Kijerumani", "Kireno"],
+    "correctIndex": 3,
+    "gloss": "The word “gereza” (prison) was borrowed from a language where it meant “church”. Which? — Portuguese, igreja; the Portuguese fort church on the coast came to mean a prison."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Glasi imejazwa maji hadi ukingoni, na kipande cha barafu kinaelea ndani yake. Barafu ikiyeyuka yote, nini kitatokea?",
+    "options": ["Maji yatafurika na kumwagika", "Kiwango cha maji kitashuka", "Kiwango cha maji kitabaki vilevile", "Maji yatapanda kidogo bila kumwagika"],
+    "correctIndex": 2,
+    "gloss": "A glass is full to the brim with ice floating in it. When the ice melts, what happens? — The level stays the same: floating ice displaces exactly its own weight of water."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwaka 2004 alikuwa mwanamke wa kwanza wa Kiafrika kushinda Tuzo ya Nobel, kutokana hasa na kampeni yake ya kupanda miti. Ni nani?",
+    "options": ["Ellen Johnson Sirleaf", "Graça Machel", "Miriam Makeba", "Wangari Maathai"],
+    "correctIndex": 3,
+    "gloss": "In 2004 she became the first African woman to win a Nobel Prize, above all for her tree-planting campaign. Who? — Wangari Maathai (Peace Prize, Green Belt Movement). Sirleaf won in 2011."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beethoven alipotunga Simfoni yake ya Tisa, hakuweza tena kufanya jambo gani ambalo kwa mwanamuziki ni muhimu sana?",
+    "options": ["Kuona", "Kuzungumza", "Kutembea", "Kusikia"],
+    "correctIndex": 3,
+    "gloss": "When Beethoven wrote his Ninth Symphony, what could he no longer do? — Hear: he was almost completely deaf."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Una sarafu tisa zinazofanana, lakini moja ni nzito kidogo kuliko nyingine. Kwa mizani ya sahani mbili, isiyo na vipimo, unahitaji kupima angalau mara ngapi kuipata kwa uhakika?",
+    "options": ["Mara 1", "Mara 2", "Mara 3", "Mara 4"],
+    "correctIndex": 1,
+    "gloss": "Nine identical coins, one slightly heavier; a two-pan balance. Fewest weighings to be sure? — Two: weigh 3 against 3 to find the heavy group of three, then 1 against 1 within it."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kompyuta hufanya kazi kwa mfumo wa binari, unaotumia tarakimu 0 na 1 pekee. Namba 5 huandikwaje katika mfumo huo?",
+    "options": ["110", "011", "101", "111"],
+    "correctIndex": 2,
+    "gloss": "Computers use binary, only 0 and 1. How is 5 written? — 101 = 4 + 0 + 1. (110 = 6, 011 = 3, 111 = 7.)"
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mnyama gani hutumia ulimi wake mrefu, wenye rangi ya zambarau iliyokolea, kuchuma majani katikati ya miiba ya mgunga?",
+    "options": ["Twiga", "Swala twiga", "Kifaru", "Pofu"],
+    "correctIndex": 0,
+    "gloss": "Which animal uses its long dark-purple tongue to pick leaves from between acacia thorns? — The giraffe (tongue about half a metre). The gerenuk also browses acacia but by standing on its hind legs."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ukisafiri kwa ndege moja kwa moja kutoka Nairobi hadi Kampala, unaelekea upande gani wa dira?",
+    "options": ["Kaskazini-mashariki", "Kusini-magharibi", "Kaskazini-magharibi", "Kusini-mashariki"],
+    "correctIndex": 2,
+    "gloss": "Flying straight from Nairobi to Kampala, which compass direction? — North-west: Kampala lies west of Nairobi and just north of the equator, while Nairobi is just south of it."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Mechi inaanza London saa 20:00 kwa saa za Greenwich (GMT). Shabiki aliyeko Dar es Salaam ataiona ikianza saa ngapi kwa saa za Afrika Mashariki?",
+    "options": ["17:00", "21:00", "22:00", "23:00"],
+    "correctIndex": 3,
+    "gloss": "A match kicks off in London at 20:00 GMT. What time is that in Dar es Salaam (East Africa Time)? — 23:00: EAT is GMT+3. 17:00 is the trap of subtracting."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwaka 1498 Vasco da Gama alipata rubani wa kumwongoza hadi India katika mji gani wa pwani ya Afrika Mashariki?",
+    "options": ["Mombasa", "Kilwa", "Malindi", "Pate"],
+    "correctIndex": 2,
+    "gloss": "In 1498 Vasco da Gama found a pilot to guide him to India in which East African coastal town? — Malindi, whose ruler welcomed him after Mombasa had been hostile."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mtindo maarufu wa uchoraji wa Tanzania, wenye wanyama na ndege wa rangi angavu, umepewa jina la mchoraji gani?",
+    "options": ["George Lilanga", "Edward Saidi Tingatinga", "Sam Ntiro", "Elimo Njau"],
+    "correctIndex": 1,
+    "gloss": "Tanzania's famous painting style of brightly coloured animals and birds is named after which painter? — Edward Saidi Tingatinga; the others are real Tanzanian artists."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Shujaa wa hadithi za pwani, Fumo Liyongo, hakuweza kudhurika kwa silaha yoyote isipokuwa kitu kimoja. Kipi?",
+    "options": ["Sindano ya shaba", "Mshale wa sumu", "Upanga wa dhahabu", "Mkuki wa mpingo"],
+    "correctIndex": 0,
+    "gloss": "The coastal legend Fumo Liyongo could be harmed by no weapon except one. Which? — A copper needle (driven into his navel), the secret his son betrayed."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Umeona mwako wa radi, na ngurumo yake ikasikika sekunde tisa baadaye. Radi hiyo ilipiga umbali wa takriban kiasi gani?",
+    "options": ["Mita 300", "Kilomita 3", "Kilomita 9", "Kilomita 30"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear the thunder nine seconds later. About how far away was it? — About 3 km: sound travels about 340 m per second, light arrives almost at once."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kifaa cha GPS kinahitaji ishara za angalau satelaiti ngapi ili kujua mahali kilipo pamoja na mwinuko, huku kikirekebisha saa yake?",
+    "options": ["2", "3", "4", "6"],
+    "correctIndex": 2,
+    "gloss": "How many satellites at least does a GPS receiver need to fix its position and altitude while correcting its own clock? — Four: three unknowns of position plus one of time."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Adolf Dassler alianzisha kampuni ya Adidas. Kaka yake Rudolf, waliyekosana naye, alianzisha kampuni gani mji uleule?",
+    "options": ["Reebok", "Fila", "Nike", "Puma"],
+    "correctIndex": 3,
+    "gloss": "Adolf Dassler founded Adidas. His older brother Rudolf, after their falling-out, founded which company in the same town? — Puma (Herzogenaurach, Germany)."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kahawa aina ya arabika, licha ya jina lake, asili yake ni nchi gani?",
+    "options": ["Yemen", "Brazili", "Ethiopia", "Kenya"],
+    "correctIndex": 2,
+    "gloss": "Arabica coffee, despite its name, originally comes from which country? — Ethiopia; Yemen is where it was first cultivated and traded, hence the name."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ziwa lenye kina kirefu kuliko yote duniani, ambalo pia lina karibu moja ya tano ya maji baridi yote ya juu ya ardhi, liko nchi gani?",
+    "options": ["Kanada", "Urusi", "Marekani", "Tanzania"],
+    "correctIndex": 1,
+    "gloss": "The world's deepest lake, holding about a fifth of the planet's surface fresh water, is in which country? — Russia (Lake Baikal). Tanzania's Lake Tanganyika is the second deepest."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katika shairi la kimapokeo la Kiswahili, kila mstari kwa kawaida una mizani ngapi?",
+    "options": ["8", "12", "16", "20"],
+    "correctIndex": 2,
+    "gloss": "In a traditional Swahili shairi, how many syllables (mizani) does each line usually have? — 16, split 8 + 8 by the caesura. 8 is the utenzi line, the trap."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kwa saa za Kiswahili, siku huanza kuhesabiwa jua linapochomoza. Kwa nini mfumo huu unafaa sana Afrika Mashariki kuliko Ulaya?",
+    "options": ["Jua huchomoza karibu saa ileile mwaka mzima", "Mvua hunyesha kwa misimu miwili kila mwaka", "Ukanda wake wa saa uko mbele ya GMT kwa saa tatu", "Mwezi mpya huonekana mapema kuliko kwingineko"],
+    "correctIndex": 0,
+    "gloss": "Swahili time counts the hours from sunrise. Why does this suit East Africa better than Europe? — Near the equator the sun rises at almost the same time all year, so sunrise is a fixed clock point; in Europe it shifts by hours across the seasons."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Riwaya ya Chinua Achebe “Things Fall Apart” ilichukua jina lake kutoka kwenye shairi la mshairi gani?",
+    "options": ["W. B. Yeats", "T. S. Eliot", "Rudyard Kipling", "Robert Frost"],
+    "correctIndex": 0,
+    "gloss": "Chinua Achebe's novel “Things Fall Apart” takes its title from a poem by whom? — W. B. Yeats, “The Second Coming”."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwaka 1974 Mtanzania Filbert Bayi aliweka rekodi ya dunia katika mbio za umbali gani?",
+    "options": ["Mita 800", "Mita 1,500", "Mita 5,000", "Mita 3,000 kuruka viunzi"],
+    "correctIndex": 1,
+    "gloss": "In 1974 Tanzanian Filbert Bayi set a world record over which distance? — 1,500 m (3:32.2, Commonwealth Games, Christchurch). His Olympic medal later came in the steeplechase, the trap."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Opera “Aida”, ambayo hadithi yake iko katika Misri ya kale, ilionyeshwa kwa mara ya kwanza mjini Cairo mwaka 1871. Mtunzi wake ni nani?",
+    "options": ["Giacomo Puccini", "Gioachino Rossini", "Giuseppe Verdi", "Gaetano Donizetti"],
+    "correctIndex": 2,
+    "gloss": "The opera “Aida”, set in ancient Egypt, premiered in Cairo in 1871. Who composed it? — Giuseppe Verdi."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sherehe ya Mwaka Kogwa, yenye asili ya Mwaka Mpya wa Kiajemi (Nairuzi), huadhimishwa kila Julai katika kijiji gani cha Unguja?",
+    "options": ["Nungwi", "Jambiani", "Paje", "Makunduchi"],
+    "correctIndex": 3,
+    "gloss": "Mwaka Kogwa, rooted in the Persian New Year (Nowruz), is celebrated every July in which village of Unguja (Zanzibar)? — Makunduchi; the others are also Unguja villages."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mfungo wa Ramadhani hufuata kalenda ya mwezi, hivyo husogea katika kalenda ya Gregori. Baada ya takriban miaka mingapi hurudi kuanza karibu tarehe ileile?",
+    "options": ["Miaka 11", "Miaka 19", "Miaka 33", "Miaka 50"],
+    "correctIndex": 2,
+    "gloss": "Ramadan follows the lunar calendar and drifts through the Gregorian one. After about how many years does it start on nearly the same date again? — About 33: the lunar year is about 11 days shorter, and 365 ÷ 11 ≈ 33. 11 is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ziwa Tanganyika linapakana na nchi nne. Ipi kati ya hizi haipakani nalo?",
+    "options": ["Rwanda", "Burundi", "Zambia", "Kongo (DRC)"],
+    "correctIndex": 0,
+    "gloss": "Lake Tanganyika borders four countries. Which of these does not? — Rwanda (it borders Lake Kivu). The four are Tanzania, DR Congo, Burundi and Zambia."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Msafiri Ibn Battuta alitembelea pwani ya Afrika Mashariki katika karne ya 14 na kuueleza mji mmoja kuwa miongoni mwa miji mizuri na iliyojengwa vizuri kuliko yote duniani. Ni upi?",
+    "options": ["Malindi", "Lamu", "Kilwa", "Bagamoyo"],
+    "correctIndex": 2,
+    "gloss": "Ibn Battuta visited the East African coast in the 14th century and called one town among the most beautiful and best-built in the world. Which? — Kilwa (Kilwa Kisiwani)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nyuki dume ana mababu na mabibi (wazazi wa wazazi wake) wangapi kwa jumla?",
+    "options": ["1", "2", "3", "4"],
+    "correctIndex": 1,
+    "gloss": "How many grandparents does a male honeybee (drone) have? — Two: a drone hatches from an unfertilised egg, so it has a mother but no father; its mother, a female, has two parents."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Watu wenye damu ya kundi O huitwa “watoaji wa wote”. Ni kundi gani la damu linaloweza kupokea damu kutoka makundi yote manne?",
+    "options": ["A", "B", "AB", "O"],
+    "correctIndex": 2,
+    "gloss": "Group O people are called “universal donors”. Which blood group can receive from all four groups? — AB: it carries both A and B antigens, so neither is foreign to it (ABO system)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lugha ya programu “Python” ilipewa jina hilo kwa heshima ya nini?",
+    "options": ["Kikundi cha vichekesho cha Uingereza", "Chatu, nyoka mkubwa", "Mungu wa Kigiriki wa hekima", "Jina la ukoo wa mvumbuzi wake"],
+    "correctIndex": 0,
+    "gloss": "What is the programming language Python named after? — A British comedy group, Monty Python; not the snake (chatu)."
+  }
+]

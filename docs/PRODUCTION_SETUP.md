@@ -38,7 +38,7 @@ in production:
 
 The app's values are all public: every `NEXT_PUBLIC_*` value ends up in the browser bundle. The
 server's are secret: the database password, the session signing key, the Google client secret,
-the Gemini key and the mail engine key.
+the AI key (OpenRouter or Gemini) and the mail engine key.
 
 ## 1. DNS **[DNS]** (once)
 
@@ -287,7 +287,7 @@ that, every merge to `master` deploys automatically, and every pull request runs
 Check it (any time):
 
 ```powershell
-curl.exe -s  https://api.who-wants-to-be-a-millionaire.eapps.site/health   # "status":"ok", "google":true, "gemini":true
+curl.exe -s  https://api.who-wants-to-be-a-millionaire.eapps.site/health   # "status":"ok", "google":true, "ai":true
 curl.exe -sI https://who-wants-to-be-a-millionaire.eapps.site/en           # 200
 curl.exe -sI https://www.who-wants-to-be-a-millionaire.eapps.site          # 301 -> https://who-wants-to-be-a-millionaire.eapps.site
 ```

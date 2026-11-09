@@ -1,8 +1,9 @@
-import { FinishReason, type GenerateContentConfig, GoogleGenAI, type Schema, ThinkingLevel } from '@google/genai'
-import { config } from '../config.js'
+import { FinishReason, type GenerateContentConfig, GoogleGenAI, type Schema, ThinkingLevel, Type } from '@google/genai'
+import { type AiProvider, type AiRole, AllModelsFailedError, type GenerateJsonOptions, type GenerateJsonResult, type JsonSchema } from './types.js'
+import { config } from '../../config.js'
 
 /**
- * The only reader of `GEMINI_KEY`. Ported from hangman's `getWord/route.ts`.
+ * The Gemini provider, and the only reader of `GEMINI_KEY`. Ported from hangman's `getWord/route.ts`.
  *
  * The key is billed per token, so the chain runs **cheapest first** and a pricier model is
  * only reached when the one before it is rate-limited or overloaded (failed calls are not
@@ -16,15 +17,17 @@ const MODELS = [
   { name: 'gemini-3.8-flash', thinkingLevel: ThinkingLevel.LOW },
 ] as const
 
-/** The cheapest model, for the blind answer-check pass in `services/questionGen.ts`. */
-export const CHECKER_MODEL = MODELS[0].name
-
 /**
- * Where question writing starts. Flash-lite with minimal thinking writes stilted, translated-
- * sounding text in smaller languages; a batch is pooled and served many times, so the better
- * writer is worth its price.
+ * - `writer` starts at flash: flash-lite with minimal thinking writes stilted, translated-
+ *   sounding text in smaller languages, and a batch is pooled and served many times, so the
+ *   better writer is worth its price.
+ * - `checker` is pinned to the cheapest model: it only answers with option indexes.
  */
-export const WRITER_MODEL = MODELS[1].name
+const CHAINS: Record<AiRole, readonly (typeof MODELS)[number][]> = {
+  writer: MODELS.slice(1),
+  checker: MODELS.slice(0, 1),
+  reply: MODELS,
+}
 
 const FALLBACK_STATUSES = [429, 500, 503]
 const OVERLOAD_COOLDOWN_MS = 15_000
@@ -41,9 +44,31 @@ const getCooldownMs = (error: unknown) => {
   return Number.isFinite(seconds) && seconds > 0 ? seconds * 1000 : DEFAULT_QUOTA_COOLDOWN_MS
 }
 
-export class AllModelsFailedError extends Error {
-  constructor(readonly failures: { model: string; status: number; message: string }[]) {
-    super(failures.map(({ model, status }) => `${model}: ${status}`).join(', ') || 'Gemini is not configured')
+const GEMINI_TYPES = { object: Type.OBJECT, array: Type.ARRAY, string: Type.STRING, integer: Type.INTEGER } as const
+
+/** JSON Schema → Gemini's `Schema`: upper-case types, string item counts, explicit property order. */
+const toGeminiSchema = (schema: JsonSchema): Schema => {
+  switch (schema.type) {
+    case 'object': {
+      const keys = Object.keys(schema.properties)
+      return {
+        type: Type.OBJECT,
+        properties: Object.fromEntries(keys.map((key) => [key, toGeminiSchema(schema.properties[key]!)])),
+        required: schema.required,
+        ...(keys.length > 1 && { propertyOrdering: keys }),
+      }
+    }
+    case 'array':
+      return {
+        type: Type.ARRAY,
+        items: toGeminiSchema(schema.items),
+        ...(schema.minItems !== undefined && { minItems: String(schema.minItems) }),
+        ...(schema.maxItems !== undefined && { maxItems: String(schema.maxItems) }),
+      }
+    case 'string':
+      return { type: Type.STRING, ...(schema.enum && { enum: schema.enum }) }
+    default:
+      return { type: GEMINI_TYPES[schema.type] }
   }
 }
 
@@ -51,42 +76,22 @@ let ai: GoogleGenAI | null = null
 // Created lazily so the build and tests never need GEMINI_KEY
 const getAI = () => (ai ??= new GoogleGenAI({ apiKey: config.gemini.key }))
 
-export type GenerateJsonOptions = {
-  contents: string
-  systemInstruction: string
-  schema: Schema
-  /** Thinking tokens count toward this limit; too low a cap cuts the JSON off. */
-  maxOutputTokens?: number
-  temperature?: number
-  /** Pin one model instead of walking the chain. */
-  model?: string
-  /** Skip the cheaper models: the chain starts at this one. */
-  startAt?: string
-}
+const isConfigured = (): boolean => Boolean(config.gemini.key)
 
-export type GenerateJsonResult = {
-  text: string
-  model: string
-  /** Cut off at `maxOutputTokens`: the JSON is broken, and asking again the same way fails the same way. */
-  truncated: boolean
-}
-
-/** Runs the prompt down the model chain and returns the first model's raw JSON text. */
-export const generateJson = async (options: GenerateJsonOptions): Promise<GenerateJsonResult> => {
-  if (!config.gemini.key) throw new AllModelsFailedError([])
+const generateJson = async (options: GenerateJsonOptions): Promise<GenerateJsonResult> => {
+  if (!isConfigured()) throw new AllModelsFailedError([], 'Gemini')
 
   const generationConfig: GenerateContentConfig = {
     systemInstruction: options.systemInstruction,
     responseMimeType: 'application/json',
-    responseSchema: options.schema,
+    responseSchema: toGeminiSchema(options.schema),
     maxOutputTokens: options.maxOutputTokens ?? 4096,
     temperature: options.temperature ?? 0.9,
   }
 
   const failures: AllModelsFailedError['failures'] = []
   const now = Date.now()
-  const start = Math.max(0, MODELS.findIndex(({ name }) => name === options.startAt))
-  const chain = options.model ? MODELS.filter(({ name }) => name === options.model) : MODELS.slice(start)
+  const chain = CHAINS[options.role ?? 'reply']
   const available = chain.filter(({ name }) => (modelCooldowns.get(name) ?? 0) <= now)
 
   // When every model is cooling down, try them anyway rather than fail without asking.
@@ -110,15 +115,12 @@ export const generateJson = async (options: GenerateJsonOptions): Promise<Genera
     }
   }
 
-  throw new AllModelsFailedError(failures)
+  throw new AllModelsFailedError(failures, 'Gemini')
 }
 
-/** True while every model is cooling down — the refill job skips its tick instead of burning a call. */
-export const allModelsCoolingDown = (): boolean => {
+const allModelsCoolingDown = (): boolean => {
   const now = Date.now()
   return MODELS.every(({ name }) => (modelCooldowns.get(name) ?? 0) > now)
 }
 
-/** Shared by the parsers: trims, collapses whitespace, caps. Non-strings become ''. */
-export const clip = (text: unknown, maxLength: number): string =>
-  typeof text === 'string' ? text.trim().replace(/\s+/g, ' ').slice(0, maxLength) : ''
+export const gemini: AiProvider = { name: 'gemini', isConfigured, generateJson, allModelsCoolingDown }

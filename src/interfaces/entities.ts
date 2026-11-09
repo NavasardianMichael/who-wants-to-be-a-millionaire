@@ -126,6 +126,8 @@ export type ClassicResult = {
   lifelinesUsed: Lifeline[]
   playedAt: string
   settings?: Record<string, unknown>
+  /** The questions the game showed; the server skips them in this player's batches on any device. */
+  questionIds?: string[]
 }
 
 export type OfflinePack = {
@@ -134,4 +136,4 @@ export type OfflinePack = {
   questions: Omit<Question, 'fallback'>[]
 }
 
-export type HealthStatus = { status: 'ok'; google: boolean; gemini: boolean }
+export type HealthStatus = { status: 'ok'; google: boolean; ai: boolean }

@@ -15,7 +15,7 @@ export const SITE_URL_FALLBACK = 'http://localhost:7006'
 export const API_URL_FALLBACK = 'http://localhost:9006'
 
 export const API_REQUEST_TIMEOUT_MS = 30_000
-/** Generating a fresh batch with Gemini can take a while on a cold bucket. */
+/** Generating a fresh batch with the AI can take a while on a cold bucket. */
 export const API_QUESTIONS_TIMEOUT_MS = 60_000
 export const API_UPLOAD_TIMEOUT_MS = 120_000
 

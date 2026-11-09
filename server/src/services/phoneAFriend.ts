@@ -1,13 +1,11 @@
-import { type Schema, Type } from '@google/genai'
-import { isGeminiConfigured } from '../config.js'
+import { clip, generateJson, isAiConfigured, type JsonSchema } from '../lib/ai/index.js'
 import { type Level, OPTION_LETTERS } from '../lib/game.js'
-import { clip, generateJson } from '../lib/gemini.js'
 import { type FriendConfidence, friendPick } from '../lib/lifelines.js'
 import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
 
 /**
  * Phone a Friend. **Code decides, the model only speaks.** `friendPick` chooses the answer
- * and how confident the friend is, from the level-based accuracy table; Gemini is then asked
+ * and how confident the friend is, from the level-based accuracy table; the model is then asked
  * to voice exactly that choice as a short, natural phone reply in the player's language.
  *
  * If the model's reply does not name the chosen option, it is discarded (`message: null`)
@@ -21,14 +19,13 @@ export type FriendAnswer = {
   confidence: FriendConfidence
 }
 
-const FRIEND_SCHEMA: Schema = {
-  type: Type.OBJECT,
+const FRIEND_SCHEMA: JsonSchema = {
+  type: 'object',
   properties: {
-    friendName: { type: Type.STRING },
-    message: { type: Type.STRING },
+    friendName: { type: 'string' },
+    message: { type: 'string' },
   },
   required: ['friendName', 'message'],
-  propertyOrdering: ['friendName', 'message'],
 }
 
 const CONFIDENCE_TONE: Record<FriendConfidence, string> = {
@@ -59,7 +56,7 @@ export const mentionsOption = (message: string, letter: string, optionText: stri
 export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> => {
   const pick = friendPick(request.correctIndex, request.removed, request.level)
   const base: FriendAnswer = { friendName: null, message: null, suggestedIndex: pick.index, confidence: pick.confidence }
-  if (!isGeminiConfigured()) return base
+  if (!isAiConfigured()) return base
 
   const { name, culture, writing }: LocaleInfo = LOCALE_INFO[request.locale]
   const letter = OPTION_LETTERS[pick.index]!

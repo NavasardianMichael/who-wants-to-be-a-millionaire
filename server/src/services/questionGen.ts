@@ -1,12 +1,11 @@
-import { type Schema, Type } from '@google/genai'
 import { createHash } from 'node:crypto'
 import { config } from '../config.js'
+import { clip, generateJson, type JsonSchema } from '../lib/ai/index.js'
 import { type Category, type Level, OPTIONS_COUNT } from '../lib/game.js'
-import { CHECKER_MODEL, clip, generateJson, WRITER_MODEL } from '../lib/gemini.js'
 import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
 
 /**
- * Writing quiz questions with Gemini.
+ * Writing quiz questions with the AI provider (`lib/ai`).
  *
  * The prompt asks for questions **written natively** in the target language and anchored in
  * its culture, not translated from English: a pun, an idiom or a "which of these rhymes"
@@ -66,21 +65,20 @@ const CATEGORY_GUIDE: Record<Category, string> = {
   localCulture: 'the local culture itself — traditions, holidays, famous people, landmarks, folk tales, cuisine and everyday life',
 }
 
-const QUESTIONS_SCHEMA: Schema = {
-  type: Type.OBJECT,
+const QUESTIONS_SCHEMA: JsonSchema = {
+  type: 'object',
   properties: {
     questions: {
-      type: Type.ARRAY,
+      type: 'array',
       items: {
-        type: Type.OBJECT,
+        type: 'object',
         properties: {
-          question: { type: Type.STRING },
-          options: { type: Type.ARRAY, items: { type: Type.STRING }, minItems: '4', maxItems: '4' },
-          correctIndex: { type: Type.INTEGER },
-          scope: { type: Type.STRING, enum: ['global', 'local'] },
+          question: { type: 'string' },
+          options: { type: 'array', items: { type: 'string' }, minItems: 4, maxItems: 4 },
+          correctIndex: { type: 'integer' },
+          scope: { type: 'string', enum: ['global', 'local'] },
         },
         required: ['question', 'options', 'correctIndex', 'scope'],
-        propertyOrdering: ['question', 'options', 'correctIndex', 'scope'],
       },
     },
   },
@@ -184,6 +182,21 @@ export const scriptShare = (text: string, script: RegExp): number => {
   return letters.length ? letters.filter((letter) => script.test(letter)).length / letters.length : 1
 }
 
+const ALPHABETS = [/\p{Script=Latin}/u, /\p{Script=Cyrillic}/u, /\p{Script=Greek}/u, /\p{Script=Armenian}/u, /\p{Script=Georgian}/u, /\p{Script=Arabic}/u, /\p{Script=Hebrew}/u]
+
+/**
+ * True when one word mixes two alphabets ("единinná") — a model slipping between languages
+ * mid-word. Never valid in any language; CJK scripts, which do mix within a word, are not checked.
+ */
+export const hasMixedScriptWord = (text: string): boolean =>
+  (text.match(/\p{L}+/gu) ?? []).some((word) => ALPHABETS.filter((alphabet) => alphabet.test(word)).length > 1)
+
+const QUOTES ='"\'«»„“”‘’‚‹›「」『』'
+const WRAPPED = new RegExp(`^[${QUOTES}]\\s*([^${QUOTES}]+?)\\s*[${QUOTES}]$`, 'u')
+
+/** Some models wrap the whole question in quotation marks (« … »); a quote inside the question stays. */
+export const unquote = (text: string): string => WRAPPED.exec(text)?.[1] ?? text
+
 /**
  * Validates the model's JSON. Every check is a reason a question would be wrong or unfair
  * in play; a failing question is dropped, never repaired.
@@ -204,14 +217,15 @@ export const parseGeneratedQuestions = (text: string, locale: Locale): Generated
 
   return items.flatMap((item): GeneratedQuestion[] => {
     const raw = item as Record<string, unknown>
-    const question = clip(raw.question, MAX_QUESTION_LENGTH)
+    const question = unquote(clip(raw.question, MAX_QUESTION_LENGTH))
     if (question.length < 8) return []
     if (script && scriptShare(question, script) < MIN_SCRIPT_SHARE) return []
+    if (hasMixedScriptWord(question)) return []
     if (notNative?.test(question)) return []
 
     const rawOptions = Array.isArray(raw.options) ? raw.options : []
     const options = rawOptions.map((option) => clip(option, MAX_OPTION_LENGTH))
-    if (options.length !== OPTIONS_COUNT || options.some((option) => !option)) return []
+    if (options.length !== OPTIONS_COUNT || options.some((option) => !option || hasMixedScriptWord(option))) return []
     if (new Set(options.map((option) => option.toLocaleLowerCase())).size !== OPTIONS_COUNT) return []
 
     const correctIndex = raw.correctIndex
@@ -241,11 +255,11 @@ export const parseGeneratedQuestions = (text: string, locale: Locale): Generated
   })
 }
 
-const CHECK_SCHEMA: Schema = {
-  type: Type.OBJECT,
+const CHECK_SCHEMA: JsonSchema = {
+  type: 'object',
   properties: {
-    answers: { type: Type.ARRAY, items: { type: Type.INTEGER } },
-    levels: { type: Type.ARRAY, items: { type: Type.INTEGER } },
+    answers: { type: 'array', items: { type: 'integer' } },
+    levels: { type: 'array', items: { type: 'integer' } },
   },
   required: ['answers', 'levels'],
 }
@@ -280,7 +294,7 @@ export const checkAnswers = async (questions: GeneratedQuestion[], locale: Local
 
   try {
     const { text } = await generateJson({
-      model: CHECKER_MODEL,
+      role: 'checker',
       systemInstruction: [
         `You are a careful quiz expert answering questions written in ${LOCALE_INFO[locale].name} for an audience from ${LOCALE_INFO[locale].culture}.`,
         'For each question, return in `answers` the 0-based index of the correct option; -1 when no option is clearly correct, or when more than one could be argued correct.',
@@ -300,18 +314,18 @@ export const checkAnswers = async (questions: GeneratedQuestion[], locale: Local
 
 export type GenerationResult = { questions: GeneratedQuestion[]; model: string; truncated: boolean }
 
-/** One Gemini call (plus the optional check). Throws `AllModelsFailedError` when the chain is exhausted. */
+/** One AI call (plus the optional check). Throws `AllModelsFailedError` when the chain is exhausted. */
 export const generateQuestions = async (params: GenerateParams): Promise<GenerationResult> => {
   const { text, model, truncated } = await generateJson({
-    startAt: WRITER_MODEL,
+    role: 'writer',
     systemInstruction: buildSystemInstruction(params.locale),
     contents: buildPrompt(params),
     schema: QUESTIONS_SCHEMA,
-    // Thinking counts toward the cap, and non-Latin scripts take several tokens per word.
+    // Reasoning counts toward the cap, and non-Latin scripts take several tokens per word.
     maxOutputTokens: 16384,
   })
 
   const parsed = parseGeneratedQuestions(text, params.locale)
-  const questions = config.gemini.verifyQuestions ? await checkAnswers(parsed, params.locale, params.level) : parsed
+  const questions = config.ai.verifyQuestions ? await checkAnswers(parsed, params.locale, params.level) : parsed
   return { questions, model, truncated }
 }

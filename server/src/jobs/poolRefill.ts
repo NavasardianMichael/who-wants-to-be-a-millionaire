@@ -1,13 +1,13 @@
-import { config, isGeminiConfigured } from '../config.js'
+import { config } from '../config.js'
+import { allModelsCoolingDown, isAiConfigured } from '../lib/ai/index.js'
 import { type Level } from '../lib/game.js'
-import { allModelsCoolingDown } from '../lib/gemini.js'
 import { isLocale } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
 import { generateIntoPool } from '../services/questionPool.js'
 
 /**
  * Keeps the busiest (locale, level) buckets stocked between games, so most games are
- * served straight from the pool with no Gemini latency.
+ * served straight from the pool with no AI latency.
  *
  * Demand-ordered on purpose: 50 locales × 5 levels × 16 categories is far beyond any free
  * quota, so the job only ever tops up buckets players have recently asked for, a few calls
@@ -29,7 +29,7 @@ const barren = new Map<string, { until: number; backoffMs: number }>()
 let running = false
 
 export const refillTick = async (): Promise<number> => {
-  if (running || !isGeminiConfigured() || allModelsCoolingDown()) return 0
+  if (running || !isAiConfigured() || allModelsCoolingDown()) return 0
   running = true
   let calls = 0
 
@@ -61,7 +61,7 @@ export const refillTick = async (): Promise<number> => {
           barren.set(key, { until: Date.now() + backoffMs, backoffMs })
         }
       } catch (error) {
-        // Quota or overload: stop for this tick; the cooldowns in lib/gemini.ts decide when to retry.
+        // Quota or overload: stop for this tick; the provider's cooldowns (lib/ai) decide when to retry.
         console.warn('[refill] stopped:', (error as Error).message)
         break
       }

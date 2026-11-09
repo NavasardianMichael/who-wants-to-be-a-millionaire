@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ことわざ「急がば○○」。○○に入る言葉は？",
+    "options": [
+      "走れ",
+      "回れ",
+      "待て",
+      "戻れ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Proverb 'If you're in a hurry, ...' — 回れ (go around): the safe, roundabout way beats a risky shortcut."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "節分の豆まきで、「福は内」と言いながら追い払うものは？",
+    "options": [
+      "鬼",
+      "狐",
+      "狸",
+      "天狗"
+    ],
+    "correctIndex": 0,
+    "gloss": "At Setsubun bean-throwing, what do you drive out while saying 'luck in'? — Demons (oni): 'Oni wa soto, fuku wa uchi'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "しりとりでは、「ん」で終わる言葉を言うと負けになります。次のうち、言ってしまうと負けになる言葉は？",
+    "options": [
+      "りんご",
+      "すいか",
+      "みかん",
+      "ぶどう"
+    ],
+    "correctIndex": 2,
+    "gloss": "In shiritori, ending a word with 'n' loses; which word loses? — みかん, which ends in ん (りんご has ん only in the middle)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "桃太郎が鬼ヶ島へ連れていくお供は、犬、猿、そして何？",
+    "options": [
+      "タヌキ",
+      "ウサギ",
+      "カラス",
+      "キジ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Momotaro's companions: a dog, a monkey and... — a pheasant (キジ)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "地球の表面のうち、海が占める割合はおよそどれくらい？",
+    "options": [
+      "約3割",
+      "約5割",
+      "約7割",
+      "約9割"
+    ],
+    "correctIndex": 2,
+    "gloss": "About what share of Earth's surface is ocean? — About 70% (c. 71%)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ミツバチが花から集めて、はちみつの材料にするものは？",
+    "options": [
+      "花の蜜",
+      "花粉",
+      "木の樹液",
+      "朝露"
+    ],
+    "correctIndex": 0,
+    "gloss": "What do bees gather from flowers to make honey? — Nectar (pollen is food for the larvae, not honey)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "野球では、攻撃と守備が入れ替わるのは、攻撃側のアウトがいくつになったとき？",
+    "options": [
+      "2つ",
+      "3つ",
+      "4つ",
+      "5つ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In baseball, sides switch after how many outs? — Three."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ケーキを6等分して、そのうち2切れを食べました。残っているのは全体の何分の何？",
+    "options": [
+      "3分の1",
+      "2分の1",
+      "4分の3",
+      "3分の2"
+    ],
+    "correctIndex": 3,
+    "gloss": "A cake cut in 6, 2 pieces eaten; what fraction is left? — 4/6 = 2/3 (3分の2 in Japanese reading order)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "500円玉1枚と100円玉3枚を持っています。1個180円のおにぎりは、最大で何個買えますか？",
+    "options": [
+      "3個",
+      "4個",
+      "5個",
+      "6個"
+    ],
+    "correctIndex": 1,
+    "gloss": "With one 500-yen and three 100-yen coins (800 yen), how many 180-yen rice balls at most? — 4: 800 / 180 = 4.4, rounded down."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "赤と青の絵の具を混ぜると、何色になる？",
+    "options": [
+      "紫",
+      "緑",
+      "オレンジ",
+      "茶色"
+    ],
+    "correctIndex": 0,
+    "gloss": "What colour do red and blue paint make? — Purple."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "七夕に、願いごとを書いて笹の葉につるすものは？",
+    "options": [
+      "絵馬",
+      "おみくじ",
+      "短冊",
+      "お守り"
+    ],
+    "correctIndex": 2,
+    "gloss": "At Tanabata, what do you write a wish on and hang on bamboo? — A tanzaku paper strip (ema are wooden plaques at shrines)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「人」と「木」を横に並べてできる、「やすむ」という意味の漢字は？",
+    "options": [
+      "体",
+      "休",
+      "困",
+      "林"
+    ],
+    "correctIndex": 1,
+    "gloss": "Person + tree side by side, meaning 'to rest' — 休: a person leaning on a tree. 体 is body, 困 is trouble, 林 is woods."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "日本一大きな湖、琵琶湖があるのは何県？",
+    "options": [
+      "滋賀県",
+      "岐阜県",
+      "福井県",
+      "三重県"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which prefecture holds Lake Biwa, Japan's largest lake? — Shiga."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「ひとつ、ふたつ、みっつ…」と数えるときの最初の音だけを順に並べると、「ひ・ふ・み・よ・い・む…」となります。このまま続けると、「な」は何番目？",
+    "options": [
+      "6番目",
+      "7番目",
+      "8番目",
+      "9番目"
+    ],
+    "correctIndex": 1,
+    "gloss": "First sounds of hitotsu, futatsu, mittsu, yottsu, itsutsu, muttsu go hi-fu-mi-yo-i-mu; where does 'na' fall? — 7th, from nanatsu (seven)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ダイヤモンドと同じ炭素でできている、鉛筆の芯の主成分は？",
+    "options": [
+      "鉛",
+      "スズ",
+      "鉄",
+      "黒鉛"
+    ],
+    "correctIndex": 3,
+    "gloss": "Made of the same carbon as diamond, the main material of pencil lead? — Graphite (there is no lead in it)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "クジラは海にすんでいますが、魚ではなく何の仲間？",
+    "options": [
+      "哺乳類",
+      "爬虫類",
+      "両生類",
+      "甲殻類"
+    ],
+    "correctIndex": 0,
+    "gloss": "Whales live in the sea but are not fish; what are they? — Mammals."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "3月1日が月曜日の年、3月29日は何曜日？",
+    "options": [
+      "火曜日",
+      "土曜日",
+      "月曜日",
+      "日曜日"
+    ],
+    "correctIndex": 2,
+    "gloss": "If 1 March is a Monday, what day is 29 March? — Monday: 28 days (exactly four weeks) later."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "オーケストラで、指揮者が手に持って振る細い棒は？",
+    "options": [
+      "マレット",
+      "ステッキ",
+      "バチ",
+      "タクト"
+    ],
+    "correctIndex": 3,
+    "gloss": "The thin stick a conductor holds — a takuto (baton)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "悲劇『ロミオとジュリエット』を書いた劇作家は？",
+    "options": [
+      "モリエール",
+      "シェイクスピア",
+      "イプセン",
+      "チェーホフ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the tragedy Romeo and Juliet? — Shakespeare; the others are also playwrights (Moliere, Ibsen, Chekhov)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "パンの生地を膨らませる、糖を食べて二酸化炭素を出す微生物は？",
+    "options": [
+      "酵母",
+      "乳酸菌",
+      "納豆菌",
+      "麹菌"
+    ],
+    "correctIndex": 0,
+    "gloss": "The microbe that eats sugar and releases CO2 to make dough rise — yeast (koji mould is for sake and miso)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "大航海時代、船乗りたちを苦しめた壊血病は、何が不足して起こる病気？",
+    "options": [
+      "ビタミンA",
+      "ビタミンD",
+      "ビタミンK",
+      "ビタミンC"
+    ],
+    "correctIndex": 3,
+    "gloss": "Scurvy, the sailors' disease of the Age of Discovery, comes from a lack of what? — Vitamin C."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "鎖国の時代、江戸幕府がオランダとの貿易を認めた、長崎の人工の島は？",
+    "options": [
+      "平戸",
+      "堺",
+      "出島",
+      "種子島"
+    ],
+    "correctIndex": 2,
+    "gloss": "The artificial island in Nagasaki where the Dutch were allowed to trade during national seclusion — Dejima (Hirado was the earlier Dutch post)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「国境の長いトンネルを抜けると雪国であった」で始まる小説『雪国』を書き、日本人で初めてノーベル文学賞を受けた作家は？",
+    "options": [
+      "谷崎潤一郎",
+      "志賀直哉",
+      "三島由紀夫",
+      "川端康成"
+    ],
+    "correctIndex": 3,
+    "gloss": "Author of Snow Country and the first Japanese Nobel laureate in literature (1968) — Kawabata Yasunari."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ひらがなで書いて、上から読んでも下から読んでも同じになる言葉は？",
+    "options": [
+      "しんぶんし",
+      "ひこうき",
+      "ちりがみ",
+      "えんぴつ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word, written in hiragana, reads the same backwards? — しんぶんし (newspaper): し-ん-ぶ-ん-し."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "光は1秒間に約30万キロメートル進みます。太陽から地球までの距離は約1億5000万キロメートルです。太陽の光が地球に届くまでには、どれくらいかかる？",
+    "options": [
+      "約8秒",
+      "約80秒",
+      "約8分",
+      "約80分"
+    ],
+    "correctIndex": 2,
+    "gloss": "Light travels 300,000 km/s and the Sun is 150 million km away; how long does sunlight take? — About 8 minutes: 150,000,000 / 300,000 = 500 s."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "日本標準時は、東経135度の経線の太陽の動きを基準にしています。地球は24時間で360度回るので、経度が15度ずれるごとに1時間の時差が生まれます。経度0度のロンドンと日本の、冬の時差は何時間？",
+    "options": [
+      "7時間",
+      "8時間",
+      "9時間",
+      "10時間"
+    ],
+    "correctIndex": 2,
+    "gloss": "Japan Standard Time follows 135 degrees E; Earth turns 15 degrees per hour; winter time difference with London? — 9 hours: 135 / 15."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "オーケストラで、弓で弾く弦楽器のうち、最も大きくて低い音を出すのは？",
+    "options": [
+      "コントラバス",
+      "チェロ",
+      "ヴィオラ",
+      "ヴァイオリン"
+    ],
+    "correctIndex": 0,
+    "gloss": "The largest, lowest-pitched bowed string instrument in an orchestra — the double bass."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "テニスの四大大会のうち、芝のコートで行われる大会は？",
+    "options": [
+      "全豪オープン",
+      "ウィンブルドン",
+      "全仏オープン",
+      "全米オープン"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Grand Slam is played on grass? — Wimbledon (Australian and US Opens are hard court, the French Open is clay)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "スーパーやスマホ決済でおなじみのQRコードを、1994年に開発した日本の企業は？",
+    "options": [
+      "ソニー",
+      "任天堂",
+      "パナソニック",
+      "デンソー"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Japanese company developed the QR code in 1994? — Denso (its Denso Wave unit)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "鶴と亀が合わせて10匹います。足の数は全部で28本。鶴は何羽？",
+    "options": [
+      "4羽",
+      "5羽",
+      "6羽",
+      "7羽"
+    ],
+    "correctIndex": 2,
+    "gloss": "The crane-and-turtle problem (tsurukamezan): 10 animals, 28 legs; how many cranes? — 6 (6x2 + 4x4 = 28)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「つれづれなるままに、日暮らし硯に向かひて」で始まる随筆『徒然草』の作者は？",
+    "options": [
+      "鴨長明",
+      "吉田兼好",
+      "清少納言",
+      "紀貫之"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the essays Tsurezuregusa? — Yoshida Kenko (Kamo no Chomei wrote Hojoki, Sei Shonagon the Pillow Book)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "旧暦では、7月から9月が秋でした。秋のちょうど真ん中にあたる「中秋の名月」は、旧暦の何月の満月？",
+    "options": [
+      "7月",
+      "8月",
+      "9月",
+      "10月"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the old calendar autumn was months 7-9; the 'mid-autumn moon' falls in which month? — The 8th (15th day), the middle of autumn."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "海に浮かぶ氷山は、氷が水より軽いために浮かんでいます。海面の上に出ているのは、全体の約どれくらい？",
+    "options": [
+      "約1割",
+      "約3割",
+      "約5割",
+      "約7割"
+    ],
+    "correctIndex": 0,
+    "gloss": "Icebergs float because ice is lighter than water; how much shows above the surface? — About a tenth: ice is about 90% as dense as water."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "冬の室内運動として、桃を入れる籠をゴールにしたバスケットボールを考案した体育教師は？",
+    "options": [
+      "ウィリアム・ウェブ・エリス",
+      "ピエール・ド・クーベルタン",
+      "ジェームズ・ネイスミス",
+      "アブナー・ダブルデー"
+    ],
+    "correctIndex": 2,
+    "gloss": "The PE teacher who invented basketball with peach baskets as goals — James Naismith (the others: Ellis for rugby, Coubertin for the Olympics, Doubleday for baseball myth)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1989年、スイスの研究所CERNで働いていたとき、ワールド・ワイド・ウェブの仕組みを提案したイギリスの技術者は？",
+    "options": [
+      "ティム・バーナーズ＝リー",
+      "ヴィントン・サーフ",
+      "リーナス・トーバルズ",
+      "マーク・ザッカーバーグ"
+    ],
+    "correctIndex": 0,
+    "gloss": "The British engineer who proposed the World Wide Web at CERN in 1989 — Tim Berners-Lee (Cerf co-designed TCP/IP)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "宇宙空間で爆発が起きても、音が聞こえないのは、なぜ？",
+    "options": [
+      "気温が低すぎて音が凍るから",
+      "重力がなくて音が出ないから",
+      "太陽の光が音を打ち消すから",
+      "音を伝える空気がほとんどないから"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why is an explosion silent in space? — Sound needs a medium such as air to travel through, and space is almost empty."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ギリシャ神話で、パンドラが箱を開けると、あらゆる災いが飛び出しました。最後に箱の底に残ったものは？",
+    "options": [
+      "愛",
+      "知恵",
+      "勇気",
+      "希望"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Pandora's box, after all the evils flew out, what remained at the bottom? — Hope."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "傷みやすく、すぐ弱ってしまうことから、魚へんに「弱」と書くようになったとされる魚は？",
+    "options": [
+      "タイ",
+      "イワシ",
+      "マグロ",
+      "サケ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which fish gets 'weak' (弱) next to the fish radical because it spoils quickly? — The sardine (鰯)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "アフリカ大陸で最も高い山、キリマンジャロがある国は？",
+    "options": [
+      "ケニア",
+      "ウガンダ",
+      "タンザニア",
+      "エチオピア"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country holds Africa's highest mountain, Kilimanjaro? — Tanzania (Kenya is the tempting neighbour)."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「ポケットモンスター」を生み出した田尻智は、子どもの頃に熱中した遊びをゲームの着想にしたといわれます。その遊びは？",
+    "options": [
+      "昆虫採集",
+      "魚釣り",
+      "切手集め",
+      "模型づくり"
+    ],
+    "correctIndex": 0,
+    "gloss": "Pokemon creator Satoshi Tajiri drew on a childhood hobby; which? — Insect collecting."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "712年に完成した『古事記』は、稗田阿礼が暗記していた伝承を、天皇の命で文章にまとめたものです。まとめた人物は？",
+    "options": [
+      "舎人親王",
+      "紀貫之",
+      "太安万侶",
+      "柿本人麻呂"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who put Hieda no Are's memorised tales into writing as the Kojiki (712)? — Ō no Yasumaro (Prince Toneri led the Nihon Shoki)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ドストエフスキーの長編『罪と罰』の主人公である、元大学生の青年は？",
+    "options": [
+      "ラスコーリニコフ",
+      "ムイシュキン公爵",
+      "ラズミーヒン",
+      "アリョーシャ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Protagonist of Dostoevsky's Crime and Punishment, a former student — Raskolnikov (Myshkin is from The Idiot, Alyosha from The Brothers Karamazov)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "人体を質量で見たとき、最も大きな割合を占める元素は？",
+    "options": [
+      "炭素",
+      "水素",
+      "窒素",
+      "酸素"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which element makes up most of the human body by mass? — Oxygen (about 65%), because the body is mostly water, and oxygen is 8/9 of water's mass."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "日本の47都道府県のうち、海に面していないのはいくつ？",
+    "options": [
+      "6つ",
+      "7つ",
+      "8つ",
+      "9つ"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many of Japan's 47 prefectures have no coastline? — 8: Tochigi, Gunma, Saitama, Yamanashi, Nagano, Gifu, Shiga, Nara."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1888年、ゴッホが「黄色い家」でゴーギャンと共同生活を送った、南フランスの町は？",
+    "options": [
+      "アヴィニョン",
+      "アルル",
+      "マルセイユ",
+      "ニース"
+    ],
+    "correctIndex": 1,
+    "gloss": "The southern French town where Van Gogh shared the Yellow House with Gauguin in 1888 — Arles."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1951年、黒澤明監督の『羅生門』がヴェネツィア国際映画祭で受賞した最高賞は？",
+    "options": [
+      "金熊賞",
+      "パルム・ドール",
+      "銀獅子賞",
+      "金獅子賞"
+    ],
+    "correctIndex": 3,
+    "gloss": "Kurosawa's Rashomon won which top prize at Venice in 1951? — The Golden Lion."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "水深が約1,640メートルと、世界で最も深い湖は？",
+    "options": [
+      "タンガニーカ湖",
+      "バイカル湖",
+      "ヴィクトリア湖",
+      "スペリオル湖"
+    ],
+    "correctIndex": 1,
+    "gloss": "The world's deepest lake, about 1,640 m — Lake Baikal (Tanganyika is second, about 1,470 m)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ホッキョクグマの毛は白く見えますが、その下の皮膚は何色？",
+    "options": [
+      "黒",
+      "白",
+      "ピンク",
+      "灰色"
+    ],
+    "correctIndex": 0,
+    "gloss": "A polar bear's fur looks white; what colour is the skin beneath? — Black, which absorbs the Sun's warmth."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "紀元前3世紀、夏至の日の影の長さの違いから地球の大きさを測ったとされる、ギリシャの学者は？",
+    "options": [
+      "アルキメデス",
+      "アリストテレス",
+      "エラトステネス",
+      "ピタゴラス"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Greek scholar who estimated Earth's size from shadow lengths at the summer solstice — Eratosthenes."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "「いろは歌」は、同じ仮名を二度使わずに作られた歌です。次のうち、いろは歌に出てこない文字は？",
+    "options": [
+      "ろ",
+      "ん",
+      "ゆ",
+      "す"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Iroha poem uses each kana once; which of these is not in it? — ん (it did not exist as a kana in Heian times); ろ, ゆ, す appear in it."
+  }
+]

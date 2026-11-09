@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "俗话说：“一年之计在于____，一日之计在于晨。”横线上应填什么？",
+    "options": ["夏", "春", "秋", "冬"],
+    "correctIndex": 1,
+    "gloss": "The proverb: 'The plan for the year lies in ____, the plan for the day in the morning.' — Spring (春): 一年之计在于春."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "今天是星期三，十天以后是星期几？",
+    "options": ["星期四", "星期五", "星期六", "星期日"],
+    "correctIndex": 2,
+    "gloss": "Today is Wednesday; what day is it ten days later? — Saturday: ten days = one week + 3 days, Wednesday + 3 = Saturday."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "农历八月十五，一家人团聚赏月，餐桌上最应景的传统点心是什么？",
+    "options": ["月饼", "粽子", "汤圆", "年糕"],
+    "correctIndex": 0,
+    "gloss": "On the 15th of the 8th lunar month families gather to admire the moon; which traditional treat fits? — Mooncakes (Mid-Autumn Festival); zongzi are for Dragon Boat, tangyuan for Lantern Festival."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "大熊猫虽然属于食肉目，却几乎只吃一种植物，每天要吃上十几千克。它是什么？",
+    "options": ["甘蔗", "芦苇", "玉米", "竹子"],
+    "correctIndex": 3,
+    "gloss": "Though a carnivoran, the giant panda eats almost one plant, many kilograms a day. What is it? — Bamboo."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "冰块能浮在水面上，这说明水结成冰以后，同样质量的水所占的体积发生了什么变化？",
+    "options": ["变大", "变小", "不变", "无法判断"],
+    "correctIndex": 0,
+    "gloss": "Ice floats on water; so what happens to the volume of a given mass of water when it freezes? — It gets bigger: ice is less dense than water, which is why it floats."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "春节时，人们会在大门两侧贴上一副红纸写成的对子，这叫什么？",
+    "options": ["年画", "春联", "窗花", "福字"],
+    "correctIndex": 1,
+    "gloss": "At Spring Festival people paste a pair of red-paper couplets on both sides of the door; what is it called? — Chunlian (spring couplets); a 福 character is a single word, not a pair."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "桌上有3个苹果，你拿走了2个。现在你手里有几个苹果？",
+    "options": ["1个", "2个", "3个", "5个"],
+    "correctIndex": 1,
+    "gloss": "There are 3 apples on the table and you take 2; how many do you have? — 2: the trap is answering 1, but the question asks what is in your hand."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《西游记》里，会七十二变、一个筋斗能翻十万八千里的是谁？",
+    "options": ["猪八戒", "沙僧", "白龙马", "孙悟空"],
+    "correctIndex": 3,
+    "gloss": "In Journey to the West, who knows 72 transformations and can somersault 108,000 li? — Sun Wukong, the Monkey King."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "奥运会的会旗上有五个相互连接的圆环，它们象征着什么？",
+    "options": ["五大洲", "五大洋", "五种肤色", "五个创始国"],
+    "correctIndex": 0,
+    "gloss": "The Olympic flag has five interlocking rings; what do they stand for? — The five continents (the 'five skin colours' is a popular myth; the Games were founded by far more than five countries)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "手机上“扫一扫”识别的那种由许多小黑白方块组成的图案，叫什么？",
+    "options": ["条形码", "验证码", "二维码", "密码"],
+    "correctIndex": 2,
+    "gloss": "The pattern of small black-and-white squares your phone scans — QR code (二维码); a barcode is the one-dimensional striped kind."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "统一六国后，推行“书同文、车同轨”，统一了文字、车轨和度量衡的皇帝是谁？",
+    "options": ["汉武帝", "隋文帝", "秦始皇", "唐太宗"],
+    "correctIndex": 2,
+    "gloss": "Which emperor, after unifying the six states, standardised writing, cart axles and weights and measures? — Qin Shi Huang."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "尼罗河自南向北流过非洲东北部，最后注入哪片海？",
+    "options": ["红海", "地中海", "黑海", "阿拉伯海"],
+    "correctIndex": 1,
+    "gloss": "The Nile flows north through north-eastern Africa; into which sea does it end? — The Mediterranean (the Red Sea is the tempting neighbour)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "一架标准钢琴的键盘上，白键和黑键合起来一共有多少个键？",
+    "options": ["66个", "76个", "98个", "88个"],
+    "correctIndex": 3,
+    "gloss": "How many keys, white and black together, does a standard piano have? — 88."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "小明面朝北站着，先向右转，再向后转。他现在面朝哪个方向？",
+    "options": ["西", "东", "南", "北"],
+    "correctIndex": 0,
+    "gloss": "Xiao Ming faces north, turns right, then turns around. Which way does he face now? — West: north, right turn gives east, about-turn gives west."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "它生活在海里，却不是鱼：用肺呼吸，还会给幼崽喂奶。下面哪种动物是这样的？",
+    "options": ["鲨鱼", "海龟", "鲸鱼", "章鱼"],
+    "correctIndex": 2,
+    "gloss": "It lives in the sea but is not a fish: breathes with lungs and nurses its young. Which animal? — The whale; sea turtles breathe air but lay eggs and do not nurse."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“桃园三结义”中，除了刘备和关羽，第三位结拜兄弟是谁？",
+    "options": ["张飞", "赵云", "马超", "黄忠"],
+    "correctIndex": 0,
+    "gloss": "In the Oath of the Peach Garden, besides Liu Bei and Guan Yu, who is the third sworn brother? — Zhang Fei (the other options are also Shu generals but not part of the oath)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "端午节吃粽子、赛龙舟，人们常说是为了纪念哪位诗人？",
+    "options": ["李白", "杜甫", "苏轼", "屈原"],
+    "correctIndex": 3,
+    "gloss": "Eating zongzi and racing dragon boats at the Dragon Boat Festival is said to commemorate which poet? — Qu Yuan."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "画下《星月夜》（又译《星空》）和一系列《向日葵》的荷兰画家是谁？",
+    "options": ["莫奈", "梵高", "伦勃朗", "塞尚"],
+    "correctIndex": 1,
+    "gloss": "Which Dutch painter made The Starry Night and the Sunflowers series? — Vincent van Gogh (Rembrandt is also Dutch, the trap)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "春节是农历正月初一，元宵节是农历正月十五。元宵节比春节晚几天？",
+    "options": ["13天", "14天", "15天", "16天"],
+    "correctIndex": 1,
+    "gloss": "Spring Festival is on the 1st of the first lunar month, Lantern Festival on the 15th; how many days later? — 14 days (15 − 1); the autopilot answer is 15."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "下面哪个数既是偶数，又是质数？",
+    "options": ["2", "4", "6", "8"],
+    "correctIndex": 0,
+    "gloss": "Which number is both even and prime? — 2: every other even number is divisible by 2, so 2 is the only even prime."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "字谜：“一口咬掉牛尾巴”，谜底是哪个字？",
+    "options": ["吉", "吠", "告", "咕"],
+    "correctIndex": 2,
+    "gloss": "Riddle: 'a mouth bites off the ox's tail' — which character? — 告: take 牛 (ox), remove the last vertical stroke (its tail) and add 口 (mouth)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "夏夜打雷，你看到闪电5秒钟后才听到雷声。闪电大约发生在多远的地方？",
+    "options": ["约170米", "约1.7千米", "约17千米", "约170千米"],
+    "correctIndex": 1,
+    "gloss": "You hear thunder 5 seconds after seeing the lightning; how far away was it? — About 1.7 km: light arrives at once, sound travels about 340 m/s, 340 × 5 = 1,700 m."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "世界上第一部完全由电脑制作的长篇动画电影是哪一部？",
+    "options": ["《怪物史莱克》", "《海底总动员》", "《冰雪奇缘》", "《玩具总动员》"],
+    "correctIndex": 3,
+    "gloss": "Which was the first feature-length film made entirely with computer animation? — Toy Story (1995)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "在美第奇家族的资助下，被誉为“文艺复兴摇篮”的意大利城市是哪一座？",
+    "options": ["罗马", "威尼斯", "米兰", "佛罗伦萨"],
+    "correctIndex": 3,
+    "gloss": "Which Italian city, patronised by the Medici family, is called the cradle of the Renaissance? — Florence."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "在鸟类中，以能在花前悬停、甚至倒着飞而闻名的是哪一种？",
+    "options": ["啄木鸟", "燕子", "蜂鸟", "信天翁"],
+    "correctIndex": 2,
+    "gloss": "Which bird is famous for hovering at a flower and even flying backwards? — The hummingbird."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "2024年是龙年。按十二生肖的顺序往后数，2030年是什么年？",
+    "options": ["猴", "鸡", "狗", "猪"],
+    "correctIndex": 2,
+    "gloss": "2024 is the Year of the Dragon; what zodiac year is 2030? — Dog: Snake 2025, Horse, Goat, Monkey, Rooster 2029, Dog 2030. Needs the order of the 12 animals plus counting."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "把一根木头锯成3段需要6分钟，如果每次锯的时间相同，锯成4段需要几分钟？",
+    "options": ["8分钟", "9分钟", "10分钟", "12分钟"],
+    "correctIndex": 1,
+    "gloss": "Sawing a log into 3 pieces takes 6 minutes; how long for 4 pieces at the same pace per cut? — 9 minutes: 3 pieces = 2 cuts = 3 min per cut, 4 pieces = 3 cuts. The trap is 8."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "希腊神话中，从奥林匹斯山偷出火种送给人类的是谁？",
+    "options": ["普罗米修斯", "赫菲斯托斯", "阿波罗", "赫尔墨斯"],
+    "correctIndex": 0,
+    "gloss": "In Greek myth, who stole fire from Olympus and gave it to humans? — Prometheus; Hephaestus, the god of fire, is the tempting wrong option."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "龙井茶的核心产区位于浙江的哪座城市？",
+    "options": ["宁波", "绍兴", "湖州", "杭州"],
+    "correctIndex": 3,
+    "gloss": "In which Zhejiang city is the heartland of Longjing tea? — Hangzhou (West Lake Longjing); the other options are real tea-producing Zhejiang cities."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "二胡名曲《二泉映月》的作者是谁？",
+    "options": ["阿炳", "聂耳", "冼星海", "刘天华"],
+    "correctIndex": 0,
+    "gloss": "Who composed the erhu piece Reflection of the Moon on the Second Spring? — Abing (Hua Yanjun). Nie Er wrote the March of the Volunteers, Xian Xinghai the Yellow River Cantata, Liu Tianhua other erhu works."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1405年，派遣郑和率领船队首次下西洋的明朝皇帝是谁？",
+    "options": ["朱元璋", "朱棣", "朱高炽", "朱瞻基"],
+    "correctIndex": 1,
+    "gloss": "Which Ming emperor sent Zheng He on his first voyage in 1405? — Zhu Di (Yongle Emperor); Zhu Zhanji sent the seventh voyage."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "寒冬里，深湖的湖面结了冰，冰层之下最深处的湖水温度大约是多少摄氏度？",
+    "options": ["约0℃", "约2℃", "约4℃", "约8℃"],
+    "correctIndex": 2,
+    "gloss": "In a deep lake capped with ice, how warm is the water at the bottom? — About 4 °C: water is densest at 4 °C, so the densest water sinks and the colder water floats up to freeze at the top."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "土耳其的伊斯坦布尔跨在欧亚两洲之间，把这座城市分成欧洲部分和亚洲部分的海峡叫什么？",
+    "options": ["达达尼尔海峡", "直布罗陀海峡", "马六甲海峡", "博斯普鲁斯海峡"],
+    "correctIndex": 3,
+    "gloss": "Istanbul lies in both Europe and Asia; which strait divides it? — The Bosphorus (the Dardanelles is a separate strait further south-west)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "下面哪一部是钱钟书的长篇小说？",
+    "options": ["《围城》", "《边城》", "《倾城之恋》", "《骆驼祥子》"],
+    "correctIndex": 0,
+    "gloss": "Which of these is Qian Zhongshu's novel? — Fortress Besieged (围城); Border Town is by Shen Congwen, Love in a Fallen City by Eileen Chang, Camel Xiangzi by Lao She."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "雅典卫城上的帕特农神庙，供奉的是哪位女神？",
+    "options": ["阿佛洛狄忒", "赫拉", "阿尔忒弥斯", "雅典娜"],
+    "correctIndex": 3,
+    "gloss": "The Parthenon on the Athenian Acropolis was built for which goddess? — Athena, patron of Athens."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "从地球向月球发射一束激光，光大约需要多久才能到达月球？",
+    "options": ["约0.13秒", "约1.3秒", "约13秒", "约13分钟"],
+    "correctIndex": 1,
+    "gloss": "Fire a laser from Earth at the Moon; how long until it arrives? — About 1.3 s: the Moon is about 384,000 km away and light travels about 300,000 km/s."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1993年，哪一部华语电影获得了戛纳电影节的最高奖项金棕榈奖？",
+    "options": ["《红高粱》", "《活着》", "《霸王别姬》", "《大红灯笼高高挂》"],
+    "correctIndex": 2,
+    "gloss": "Which Chinese-language film won the Palme d'Or at Cannes in 1993? — Farewell My Concubine (shared with The Piano). Red Sorghum won Berlin's Golden Bear, To Live a Cannes jury prize, Raise the Red Lantern a Venice Silver Lion."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "咖啡树最早的故乡，在下面哪个国家？",
+    "options": ["巴西", "哥伦比亚", "埃塞俄比亚", "也门"],
+    "correctIndex": 2,
+    "gloss": "Where does the coffee plant originally come from? — Ethiopia; Brazil and Colombia are famous producers, Yemen an early centre of cultivation."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "农历每月十五前后，月亮最圆最亮。那么农历每月初一的夜晚，月亮是什么样的？",
+    "options": ["圆圆的满月", "半圆的上弦月", "细细的蛾眉月", "几乎看不见的新月"],
+    "correctIndex": 3,
+    "gloss": "Around the 15th of each lunar month the Moon is fullest; what is it like on the night of the 1st? — A new moon, almost invisible: the lunar calendar follows the Moon's phases, so the 1st is when the Moon sits between us and the Sun."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "二进制数1010等于十进制中的哪个数？",
+    "options": ["10", "8", "12", "14"],
+    "correctIndex": 0,
+    "gloss": "Which decimal number is the binary 1010? — 10: 8 + 0 + 2 + 0. Needs the positional values 8-4-2-1."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "罗塞塔石碑是破译古埃及象形文字的钥匙，最终成功破译这种文字的学者是谁？",
+    "options": ["商博良", "托马斯·杨", "海因里希·施里曼", "霍华德·卡特"],
+    "correctIndex": 0,
+    "gloss": "The Rosetta Stone was the key to Egyptian hieroglyphs; who finally deciphered them? — Jean-François Champollion. Thomas Young made partial progress, Schliemann dug Troy, Carter found Tutankhamun's tomb."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "从地心量起，地球表面上离地心最远的山峰是下面哪一座？",
+    "options": ["珠穆朗玛峰", "乞力马扎罗山", "钦博拉索山", "勃朗峰"],
+    "correctIndex": 2,
+    "gloss": "Measured from the centre of the Earth, which of these peaks is farthest away? — Chimborazo (Ecuador): the Earth bulges at the equator, so a mountain there outreaches Everest from the centre."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "人体内最小的一块骨头藏在耳朵里，它是下面哪一块？",
+    "options": ["锤骨", "镫骨", "砧骨", "豌豆骨"],
+    "correctIndex": 1,
+    "gloss": "The smallest bone in the human body is hidden in the ear; which? — The stapes (镫骨, 'stirrup'); the malleus and incus are its neighbours, the pisiform is a small wrist bone."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "我们的血液是红色的，是因为血红蛋白里含有铁。章鱼的血液却是蓝色的，因为它的血蓝蛋白里含有另一种金属。是哪一种？",
+    "options": ["锌", "钴", "镁", "铜"],
+    "correctIndex": 3,
+    "gloss": "Our blood is red thanks to iron in haemoglobin; octopus blood is blue thanks to which metal in its haemocyanin? — Copper (cobalt is the blue-compound trap)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "互联网和万维网（WWW）并不是一回事。1989年，在欧洲核子研究中心提出万维网构想的人是谁？",
+    "options": ["比尔·盖茨", "马克·安德森", "蒂姆·伯纳斯-李", "林纳斯·托瓦兹"],
+    "correctIndex": 2,
+    "gloss": "The internet and the World Wide Web are not the same; who proposed the Web at CERN in 1989? — Tim Berners-Lee. Andreessen co-created the Mosaic browser, Torvalds created Linux."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "据希腊神话，英雄珀尔修斯斩下美杜莎的头颅时，从她的血液中诞生了谁？",
+    "options": ["珀伽索斯", "喀迈拉", "刻耳柏洛斯", "许德拉"],
+    "correctIndex": 0,
+    "gloss": "In Greek myth, when Perseus beheaded Medusa, who was born from her blood? — Pegasus (and Chrysaor); the others are monsters from other myths."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "“三更灯火五更鸡，正是男儿读书时。”其中的“五更”大约是现在的几点？",
+    "options": ["晚上11点到次日1点", "凌晨1点到3点", "清晨5点到7点", "凌晨3点到5点"],
+    "correctIndex": 3,
+    "gloss": "'Lamplight at the third watch, cockcrow at the fifth: the time for a young man to study.' What time is the fifth watch? — About 3 to 5 a.m.: the night is five watches of two hours from about 7 p.m., so the fifth ends at dawn, with the roosters."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "北京约位于北纬40°。夏至这天正午，太阳在北京上空的高度角大约是多少？",
+    "options": ["约26.5°", "约73.5°", "约50°", "90°"],
+    "correctIndex": 1,
+    "gloss": "Beijing is at about 40° N; how high is the noon Sun on the summer solstice? — About 73.5°: 90° − 40° + 23.5° (the axial tilt). 50° is the equinox, 26.5° the winter solstice, 90° only on the Tropic of Cancer."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“唐宋八大家”中，属于唐代的有两位，其余六位都是宋代人。这两位是谁？",
+    "options": ["韩愈和欧阳修", "柳宗元和苏轼", "韩愈和柳宗元", "欧阳修和王安石"],
+    "correctIndex": 2,
+    "gloss": "Of the 'Eight Great Prose Masters of the Tang and Song', two were Tang writers; who? — Han Yu and Liu Zongyuan. Ouyang Xiu, Su Shi and Wang Anshi are Song."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "标准围棋棋盘上，一共有多少个可以落子的交叉点？",
+    "options": ["324", "361", "380", "400"],
+    "correctIndex": 1,
+    "gloss": "How many points can a stone be placed on, on a standard Go board? — 361: the board has 19 lines each way, 19 × 19; 324 (18 × 18) counts the squares, the trap."
+  }
+]

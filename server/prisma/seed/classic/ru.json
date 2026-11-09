@@ -1,0 +1,507 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Закончите известную пословицу: «Семь раз отмерь, один раз …».",
+    "options": ["отпили", "отрежь", "отруби", "отломи"],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: measure seven times, ... once. — Cut: «Семь раз отмерь, один раз отрежь», think carefully before you act."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В семье пять сестёр, и у каждой из них есть один брат. Сколько всего детей в этой семье?",
+    "options": ["Пять", "Десять", "Шесть", "Одиннадцать"],
+    "correctIndex": 2,
+    "gloss": "Five sisters, each has one brother. How many children? — Six: the brother is the same for all five sisters; ten and eleven are for those who count a brother per sister."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой газ листья растений поглощают из воздуха при фотосинтезе?",
+    "options": ["Кислород", "Азот", "Гелий", "Углекислый газ"],
+    "correctIndex": 3,
+    "gloss": "Which gas do leaves absorb from the air in photosynthesis? — Carbon dioxide; oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Что на Руси принято печь на Масленицу, провожая зиму?",
+    "options": ["Блины", "Расстегаи", "Кулебяки", "Пряники"],
+    "correctIndex": 0,
+    "gloss": "What is traditionally baked at Maslenitsa to see off winter? — Pancakes (блины), round like the sun; the others are Russian baked goods but not tied to the holiday."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой литературный герой вырос в джунглях, воспитанный волчьей семьёй?",
+    "options": ["Тарзан", "Маугли", "Пиноккио", "Питер Пэн"],
+    "correctIndex": 1,
+    "gloss": "Which literary hero grew up in the jungle raised by a wolf family? — Mowgli (Kipling's Jungle Book); Tarzan was raised by apes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой корнеплод придаёт борщу характерный бордовый цвет?",
+    "options": ["Морковь", "Репа", "Свёкла", "Редис"],
+    "correctIndex": 2,
+    "gloss": "Which root vegetable gives borscht its deep red colour? — Beetroot."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая страна подарила Соединённым Штатам Статую Свободы?",
+    "options": ["Франция", "Англия", "Италия", "Испания"],
+    "correctIndex": 0,
+    "gloss": "Which country gave the United States the Statue of Liberty? — France (unveiled in 1886)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Какое из этих слов читается одинаково слева направо и справа налево?",
+    "options": ["Шатёр", "Шарик", "Шашка", "Шалаш"],
+    "correctIndex": 3,
+    "gloss": "Which word reads the same forwards and backwards? — Шалаш (a hut), a palindrome; the others all start with Ш but fail when reversed."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "В каком виде спорта игроки гоняют по льду шайбу?",
+    "options": ["Керлинг", "Хоккей", "Шорт-трек", "Фигурное катание"],
+    "correctIndex": 1,
+    "gloss": "In which sport do players chase a puck across the ice? — Ice hockey; curling uses stones, the other two are skating."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Позавчера была среда. Какой день недели будет завтра?",
+    "options": ["Суббота", "Пятница", "Воскресенье", "Четверг"],
+    "correctIndex": 0,
+    "gloss": "The day before yesterday was Wednesday. What day is tomorrow? — Saturday: yesterday Thursday, today Friday, tomorrow Saturday."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какое озеро России считается самым глубоким на планете?",
+    "options": ["Ладожское", "Онежское", "Байкал", "Телецкое"],
+    "correctIndex": 2,
+    "gloss": "Which Russian lake is the deepest on the planet? — Baikal (over 1,600 m); Ladoga and Onega are the largest in Europe, not the deepest."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из русских правителей «прорубил окно в Европу», основав на Неве новую столицу?",
+    "options": ["Иван Грозный", "Пётр I", "Алексей Михайлович", "Николай I"],
+    "correctIndex": 1,
+    "gloss": "Which Russian ruler cut a window to Europe by founding a new capital on the Neva? — Peter the Great (St Petersburg, 1703)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как зовут бывшего студента, главного героя романа Достоевского «Преступление и наказание»?",
+    "options": ["Лев Мышкин", "Алексей Карамазов", "Аркадий Свидригайлов", "Родион Раскольников"],
+    "correctIndex": 3,
+    "gloss": "What is the name of the former student who is the main hero of Dostoevsky's Crime and Punishment? — Rodion Raskolnikov; the others are Dostoevsky characters from other novels, or a secondary figure."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто написал музыку к балетам «Щелкунчик» и «Лебединое озеро»?",
+    "options": ["Пётр Чайковский", "Сергей Прокофьев", "Игорь Стравинский", "Дмитрий Шостакович"],
+    "correctIndex": 0,
+    "gloss": "Who composed the music for the ballets The Nutcracker and Swan Lake? — Tchaikovsky; Prokofiev and Stravinsky wrote other famous ballets."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кто из этих морских обитателей — не рыба, а млекопитающее?",
+    "options": ["Дельфин", "Акула", "Морской конёк", "Камбала"],
+    "correctIndex": 0,
+    "gloss": "Which of these sea creatures is a mammal, not a fish? — The dolphin; the seahorse is a real fish despite its name."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что означают три буквы «w» в начале адреса многих сайтов?",
+    "options": ["Беспроводная сеть", "Защищённый сайт", "Всемирная паутина", "Быстрый интернет"],
+    "correctIndex": 2,
+    "gloss": "What do the three w's at the start of many web addresses stand for? — World Wide Web, the «Всемирная паутина»."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Из чего делают тофу — «творог» азиатской кухни?",
+    "options": ["Рис", "Кукуруза", "Пшеница", "Соевые бобы"],
+    "correctIndex": 3,
+    "gloss": "What is tofu, the «curd» of Asian cooking, made from? — Soybeans (curdled soy milk, pressed)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В скольких месяцах года набирается хотя бы 28 дней?",
+    "options": ["Только в феврале", "В шести", "В одиннадцати", "В двенадцати"],
+    "correctIndex": 3,
+    "gloss": "In how many months of the year are there at least 28 days? — All twelve: every month has 28 days or more. A trap for those who think only of February."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Продолжите ряд чисел: 2, 3, 5, 7, 11, …",
+    "options": ["12", "13", "14", "15"],
+    "correctIndex": 1,
+    "gloss": "Continue the series 2, 3, 5, 7, 11 — 13: these are the prime numbers; 12, 14 and 15 all have other divisors."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Сказочное «тридевять земель» — это три раза по девять, то есть 27. А какое число лежит в основе слова «тридесятое» в выражении «тридесятое царство»?",
+    "options": ["Тринадцать", "Двадцать семь", "Тридцать", "Девяносто"],
+    "correctIndex": 2,
+    "gloss": "«Three-nine lands» is three times nine, i.e. 27. What number lies behind «тридесятое» in «the tri-desyat kingdom»? — Thirty: three times ten, built the same way. 27 is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "О бездельниках говорят «бить баклуши». А чем на самом деле были баклуши?",
+    "options": ["Заготовками для деревянных ложек", "Старыми лаптями", "Речными камешками для игры", "Берестяными туесками"],
+    "correctIndex": 0,
+    "gloss": "People who idle «beat baklushi». What were baklushi really? — Wooden blocks split off to be carved into spoons: an easy job, hence the idiom."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ровно в полдень часовая и минутная стрелки совпадают. Сколько раз они совпадут снова до следующего полудня, не считая самого полудня?",
+    "options": ["9", "10", "11", "12"],
+    "correctIndex": 1,
+    "gloss": "At noon the hands coincide. How many more times before the next noon, not counting that noon? — 10: they meet every 12/11 of an hour, so the eleventh meeting is the next noon itself."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая древняя цивилизация построила высокогорный город Мачу-Пикчу в Андах?",
+    "options": ["Майя", "Ацтеки", "Инки", "Ольмеки"],
+    "correctIndex": 2,
+    "gloss": "Which ancient civilisation built the mountain city of Machu Picchu in the Andes? — The Incas; the Maya, Aztecs and Olmecs lived in Mesoamerica."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из этих русских писателей — нобелевских лауреатов написал «Тихий Дон»?",
+    "options": ["Иван Бунин", "Борис Пастернак", "Александр Солженицын", "Михаил Шолохов"],
+    "correctIndex": 3,
+    "gloss": "Which of these Russian Nobel laureates wrote Quiet Flows the Don? — Mikhail Sholokhov (Nobel 1965); Bunin, Pasternak and Solzhenitsyn also won it, for other work."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Вы увидели вспышку молнии и ровно через 6 секунд услышали гром. Примерно как далеко ударила молния?",
+    "options": ["Около 200 метров", "Около 2 километров", "Около 20 километров", "Около 200 километров"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear thunder exactly 6 seconds later. How far was the strike? — About 2 km: light arrives at once, sound covers roughly 340 m per second, so 6 × 340 ≈ 2 km."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Мама старше сына на 24 года. Через 6 лет она станет ровно вдвое старше него. Сколько лет сыну сейчас?",
+    "options": ["12", "18", "24", "30"],
+    "correctIndex": 1,
+    "gloss": "A mother is 24 years older than her son; in 6 years she will be exactly twice his age. How old is he now? — 18: son 18, mother 42; in 6 years 24 and 48."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В турнире по кубковой системе, где проигравший выбывает, участвуют 16 команд. Сколько матчей нужно сыграть, чтобы определить победителя, не считая матча за третье место?",
+    "options": ["31", "16", "15", "8"],
+    "correctIndex": 2,
+    "gloss": "A knockout tournament of 16 teams: how many matches to find the winner, not counting a third-place game? — 15: every match eliminates exactly one team, and 15 must be eliminated (8+4+2+1)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой славянский бог в языческой Руси считался повелителем грома и молнии?",
+    "options": ["Велес", "Даждьбог", "Сварог", "Перун"],
+    "correctIndex": 3,
+    "gloss": "Which Slavic god in pagan Rus was the lord of thunder and lightning? — Perun; Veles was the god of cattle and wealth, Dazhbog the sun."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какую специю, которую собирают из рылец цветков крокуса, называют самой дорогой в мире?",
+    "options": ["Ваниль", "Кардамон", "Корица", "Шафран"],
+    "correctIndex": 3,
+    "gloss": "Which spice, picked from the stigmas of crocus flowers, is called the most expensive in the world? — Saffron."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой пролив отделяет Чукотку от Аляски?",
+    "options": ["Берингов", "Магелланов", "Гудзонов", "Дрейка"],
+    "correctIndex": 0,
+    "gloss": "Which strait separates Chukotka from Alaska? — The Bering Strait; Magellan's and Drake's are at the southern tip of South America, Hudson's is in Canada."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Лёд плавает, потому что он легче воды, но ненамного. Какая примерно часть айсберга выступает над поверхностью воды?",
+    "options": ["Около половины", "Около трети", "Около одной десятой", "Около одной сотой"],
+    "correctIndex": 2,
+    "gloss": "Ice floats because it is lighter than water, but not by much. How much of an iceberg sticks out above the surface? — About a tenth: ice is about 90% as dense as sea water, so about 90% sits below."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сколько примерно лет в миллиарде секунд?",
+    "options": ["Около 3 лет", "Около 32 лет", "Около 320 лет", "Около 3200 лет"],
+    "correctIndex": 1,
+    "gloss": "About how many years are in a billion seconds? — About 32: a year is about 31.5 million seconds (365 × 86,400), so a billion seconds is a little over 31 years."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "В Москве ровно полдень. Какое время показывают часы в Токио?",
+    "options": ["15:00", "18:00", "21:00", "23:00"],
+    "correctIndex": 1,
+    "gloss": "It is exactly noon in Moscow. What time is it in Tokyo? — 18:00: Moscow is UTC+3, Tokyo UTC+9, six hours ahead; neither uses daylight saving time."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "В обычной клетке человеческого тела 46 хромосом. Сколько хромосом в яйцеклетке?",
+    "options": ["92", "46", "23", "12"],
+    "correctIndex": 2,
+    "gloss": "A normal human body cell has 46 chromosomes. How many in an egg cell? — 23: sex cells carry half the set, so that fertilisation restores 46."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая из этих южноамериканских стран пересекается экватором?",
+    "options": ["Эквадор", "Перу", "Боливия", "Венесуэла"],
+    "correctIndex": 0,
+    "gloss": "Which of these South American countries is crossed by the equator? — Ecuador, whose name is Spanish for «equator»; Peru and Bolivia lie south of the line, Venezuela north."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Названия дней недели в русском языке славянские, кроме одного, пришедшего из древнееврейского слова «шаббат», то есть «покой». Что это за день?",
+    "options": ["Среда", "Пятница", "Воскресенье", "Суббота"],
+    "correctIndex": 3,
+    "gloss": "Russian weekday names are Slavic except one, from the Hebrew shabbat, «rest». Which day? — Saturday (суббота); среда is «middle», пятница «fifth», воскресенье «resurrection»."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из этих композиторов не входил в «Могучую кучку» — содружество русских композиторов XIX века?",
+    "options": ["Милий Балакирев", "Модест Мусоргский", "Александр Бородин", "Сергей Рахманинов"],
+    "correctIndex": 3,
+    "gloss": "Which of these composers was not in the Mighty Handful, the circle of 19th-century Russian composers? — Rachmaninoff, born later (1873); Balakirev, Mussorgsky and Borodin were members."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто создал скульптуру «Рабочий и колхозница» для павильона СССР на Всемирной выставке 1937 года в Париже?",
+    "options": ["Евгений Вучетич", "Вера Мухина", "Сергей Коненков", "Анна Голубкина"],
+    "correctIndex": 1,
+    "gloss": "Who made the sculpture Worker and Kolkhoz Woman for the Soviet pavilion at the 1937 Paris World's Fair? — Vera Mukhina; Vuchetich is known for «The Motherland Calls» and the Treptow memorial."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто написал повесть-сказку «Старик Хоттабыч» о джинне, попавшем в Москву?",
+    "options": ["Лазарь Лагин", "Николай Носов", "Корней Чуковский", "Александр Волков"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the fairy-tale novella Old Khottabych about a genie who ends up in Moscow? — Lazar Lagin (1938); the others wrote other children's classics."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой советский фильм получил «Оскар» как лучший иностранный фильм в 1981 году?",
+    "options": ["«Москва слезам не верит»", "«Ирония судьбы, или С лёгким паром!»", "«Служебный роман»", "«Любовь и голуби»"],
+    "correctIndex": 0,
+    "gloss": "Which Soviet film won the 1981 Oscar for best foreign film? — Moscow Does Not Believe in Tears; the others are beloved Soviet comedies and melodramas that did not win."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сколько полных оборотов вокруг своей оси относительно далёких звёзд успевает сделать Земля за один год?",
+    "options": ["364", "365", "366", "367"],
+    "correctIndex": 2,
+    "gloss": "How many full turns on its axis relative to the distant stars does the Earth make in a year? — 366: the year holds about 365.24 solar days, and orbiting the Sun adds one extra turn relative to the stars."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "При какой температуре термометры со шкалами Цельсия и Фаренгейта покажут одно и то же число?",
+    "options": ["−273", "−40", "−32", "0"],
+    "correctIndex": 1,
+    "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40: solving F = 1.8C + 32 with F = C gives −40."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сколько существует разных ходов у белых в самом начале шахматной партии?",
+    "options": ["16", "18", "20", "24"],
+    "correctIndex": 2,
+    "gloss": "How many different first moves does White have in chess? — 20: sixteen pawn moves (8 pawns, one or two squares) plus four knight moves."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Клеопатра правила Египтом в I веке до нашей эры. Что отстоит от её времени меньше: строительство Великой пирамиды в Гизе или высадка людей на Луну?",
+    "options": [
+      "Пирамида — примерно на 500 лет ближе",
+      "Высадка на Луну — примерно на 500 лет ближе",
+      "Пирамида — примерно на 1500 лет ближе",
+      "Они отстоят от неё одинаково"
+    ],
+    "correctIndex": 1,
+    "gloss": "Cleopatra ruled in the 1st century BC. Which is nearer to her time, the Great Pyramid or the Moon landing? — The Moon landing, by about 500 years: the pyramid was about 2,500 years before her, the landing about 2,000 years after."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Адрес в интернете версии IPv4 — это четыре числа от 0 до 255, например 192.168.0.1. Сколько всего разных таких адресов существует?",
+    "options": ["Около 1 триллиона", "Около 4,3 миллиарда", "Около 16 миллионов", "Около 65 тысяч"],
+    "correctIndex": 1,
+    "gloss": "An IPv4 address is four numbers from 0 to 255. How many different addresses exist? — About 4.3 billion: 256 to the fourth power, i.e. 2 to the 32nd."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какая книга, вышедшая в Москве в 1564 году, считается первой точно датированной печатной книгой на Руси?",
+    "options": ["«Апостол»", "«Азбука»", "«Часовник»", "«Псалтырь»"],
+    "correctIndex": 0,
+    "gloss": "Which book, printed in Moscow in 1564, is considered the first precisely dated printed book in Rus? — The Apostol, by Ivan Fyodorov and Pyotr Mstislavets; the Azbuka and the Chasovnik by Fyodorov came later."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В каком году Казимир Малевич впервые показал публике «Чёрный квадрат» на выставке в Петрограде?",
+    "options": ["1905", "1915", "1925", "1935"],
+    "correctIndex": 1,
+    "gloss": "In what year did Kazimir Malevich first show the Black Square to the public, at an exhibition in Petrograd? — 1915."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какова длина Транссибирской магистрали от Москвы до Владивостока?",
+    "options": ["Около 5000 км", "Около 7000 км", "Около 9300 км", "Около 12 000 км"],
+    "correctIndex": 2,
+    "gloss": "How long is the Trans-Siberian Railway from Moscow to Vladivostok? — About 9,300 km (9,289 km), the longest railway line in the world."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У осьминога голубая кровь, а сколько у него сердец?",
+    "options": ["Одно", "Два", "Восемь", "Три"],
+    "correctIndex": 3,
+    "gloss": "An octopus has blue blood; how many hearts does it have? — Three: two pump blood through the gills, one through the body. Eight is its number of arms."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кому из поэтов принадлежит строка «Бессонница. Гомер. Тугие паруса…»?",
+    "options": ["Борис Пастернак", "Марина Цветаева", "Александр Блок", "Осип Мандельштам"],
+    "correctIndex": 3,
+    "gloss": "Which poet wrote the line «Insomnia. Homer. Taut sails…»? — Osip Mandelstam (1915); the other three are also great Silver Age poets."
+  }
+]

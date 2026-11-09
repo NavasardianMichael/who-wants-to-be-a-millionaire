@@ -1,14 +1,15 @@
 import { Prisma } from '@prisma/client'
 import { generateQuestions } from './questionGen.js'
-import { isGeminiConfigured } from '../config.js'
+import { isAiConfigured } from '../lib/ai/index.js'
 import { CATEGORIES, type Category, type Level } from '../lib/game.js'
+import { liveGenerationAllowed } from '../lib/generationBudget.js'
 import { DEFAULT_LOCALE, type Locale } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
 
 /**
- * Serving questions: **pool first, Gemini second, the seeded English bank last.**
+ * Serving questions: **pool first, the AI second, the seeded English bank last.**
  *
- * Every question Gemini writes is kept, so the free quota is spent once per question rather
+ * Every question the AI writes is kept, so the free quota is spent once per question rather
  * than once per player. A request the pool can satisfy costs no API call at all; a short
  * bucket is generated on the spot and the surplus stays for the next player; and when the
  * model chain is exhausted the game still starts, on the curated English bank.
@@ -27,7 +28,7 @@ export type PoolQuestion = {
   text: string
   options: string[]
   correctIndex: number
-  /** Served from the English fallback bank because the locale's pool and Gemini both came up short. */
+  /** Served from the English fallback bank because the locale's pool and the AI both came up short. */
   fallback: boolean
 }
 
@@ -37,6 +38,25 @@ const SELECT_COLUMNS = Prisma.sql`id, locale, category, level, scope::text AS sc
 
 /** Generated per call; the surplus beyond what the request needs stays in the pool. */
 export const GENERATION_BATCH = 8
+
+/**
+ * How long a waiting player waits for a fresh batch — under the web app's 60 s
+ * `API_QUESTIONS_TIMEOUT_MS`, or the game fails instead of falling back. Past it the player
+ * gets the fallback, and the batch carries on into the pool for the next game.
+ */
+const LIVE_GENERATION_WAIT_MS = 40_000
+
+const waitForGeneration = async (task: Promise<number>): Promise<number> => {
+  let timer: NodeJS.Timeout | undefined
+  const deadline = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`no batch within ${LIVE_GENERATION_WAIT_MS / 1000} s, still generating`)), LIVE_GENERATION_WAIT_MS)
+  })
+  try {
+    return await Promise.race([task, deadline])
+  } finally {
+    clearTimeout(timer)
+  }
+}
 
 /** Reports after which an AI question is retired from play and deleted. */
 const RETIRE_AFTER_REPORTS = 3
@@ -76,7 +96,7 @@ export const pickCategory = (categories: readonly Category[], random: () => numb
 }
 
 /**
- * Concurrent requests for the same short bucket share one Gemini call instead of each paying
+ * Concurrent requests for the same short bucket share one AI call instead of each paying
  * for its own. Keyed without the category: a waiter takes the batch already being written
  * whenever its category is one the waiter accepts.
  */
@@ -85,16 +105,25 @@ const inFlight = new Map<string, { category: Category; task: Promise<number> }>(
 /**
  * Generates one batch, in one of `categories` (any when empty), into the pool or into the
  * ranked reserve. Returns how many new questions were stored.
+ *
+ * `player` is who a live request is for, and is charged against the generation budget; the
+ * refill job passes none. Joining a batch already being written costs nothing.
  */
 export const generateIntoPool = (
   locale: Locale,
   level: Level,
   categories: readonly Category[],
-  ranked = false
+  ranked = false,
+  player: string | null = null
 ): Promise<number> => {
   const key = `${locale}:${level}:${ranked}`
   const existing = inFlight.get(key)
   if (existing && (!categories.length || categories.includes(existing.category))) return existing.task
+
+  if (player && !liveGenerationAllowed(player)) {
+    console.warn(`[pool] live generation budget spent; ${locale}/L${level} is served from what exists`)
+    return Promise.resolve(0)
+  }
 
   const category = pickCategory(categories)
   const task = (async () => {
@@ -158,19 +187,66 @@ const recordDemand = async (locale: string, levels: readonly number[], ranked = 
   )
 }
 
+/**
+ * How many of a signed-in player's most recently seen Classic questions a batch steers clear
+ * of. Larger than a device can send: a regular should run through their language's whole pool
+ * before they meet a repeat, and AI is asked only after that.
+ */
+const CLASSIC_HISTORY_LIMIT = 3000
+
+/**
+ * Questions the player was shown in Classic, on any device, newest first. The device's own
+ * list covers only that device and dies with its storage.
+ */
+export const classicSeenIds = async (userId: string): Promise<string[]> => {
+  const rows = await prisma.seenQuestion.findMany({
+    where: { userId },
+    orderBy: { seenAt: 'desc' },
+    take: CLASSIC_HISTORY_LIMIT,
+    select: { questionId: true },
+  })
+  return rows.map(({ questionId }) => questionId)
+}
+
+/** Remembers, for the account, questions it was shown. Seen again → `seenAt` moves to now. */
+export const recordSeenQuestions = async (userId: string, questionIds: readonly string[]): Promise<void> => {
+  const ids = [...new Set(questionIds)]
+  if (!ids.length) return
+  await prisma.$executeRaw`
+    INSERT INTO "SeenQuestion" ("userId", "questionId", "seenAt")
+    SELECT ${userId}, id, now() FROM unnest(${ids}::text[]) AS id
+    ON CONFLICT ("userId", "questionId") DO UPDATE SET "seenAt" = EXCLUDED."seenAt"
+  `
+}
+
+/**
+ * A Classic game reports the questions it actually showed, when it ends or is left. Only
+ * these count as served: a batch hands out spares the player may never reach. Ranked
+ * questions are skipped — their serves are counted by the run, and inflating them from here
+ * would hurry them out of the reserve.
+ */
+export const markQuestionsShown = async (questionIds: readonly string[], userId: string | null): Promise<void> => {
+  const ids = [...new Set(questionIds)]
+  if (!ids.length) return
+  await prisma.question.updateMany({ where: { id: { in: ids }, ranked: false }, data: { servedCount: { increment: 1 } } })
+  if (userId) await recordSeenQuestions(userId, ids)
+}
+
 export type BatchRequest = {
   locale: Locale
   /** How many questions each level needs. */
   counts: Partial<Record<Level, number>>
   categories: readonly Category[]
   excludeIds: readonly string[]
+  /** Who asked (`user:<id>` or `ip:<address>`), charged for any AI batch the request starts. */
+  player: string
 }
 
 /**
  * Fills a whole game's worth of questions, level by level, in parallel. Never throws for a
- * Gemini failure — that is what the fallback bank is for.
+ * AI failure — that is what the fallback bank is for.
  */
-export const getQuestionBatch = async ({ locale, counts, categories, excludeIds }: BatchRequest): Promise<PoolQuestion[]> => {
+export const getQuestionBatch = async ({ locale, counts, categories, excludeIds, player }: BatchRequest): Promise<PoolQuestion[]> => {
   const levels = (Object.keys(counts).map(Number) as Level[]).filter((level) => (counts[level] ?? 0) > 0)
   void recordDemand(locale, levels).catch((error: unknown) => console.error('[pool] demand', error))
 
@@ -180,9 +256,9 @@ export const getQuestionBatch = async ({ locale, counts, categories, excludeIds 
       const exclude = [...excludeIds]
       let rows = await drawFromPool({ locale, level, ranked: false, categories, excludeIds: exclude, count })
 
-      if (rows.length < count && isGeminiConfigured()) {
+      if (rows.length < count && isAiConfigured()) {
         try {
-          await generateIntoPool(locale, level, categories)
+          await waitForGeneration(generateIntoPool(locale, level, categories, false, player))
           const more = await drawFromPool({
             locale,
             level,
@@ -228,19 +304,13 @@ export const getQuestionBatch = async ({ locale, counts, categories, excludeIds 
     })
   )
 
-  const questions = perLevel.flat()
-  if (questions.length) {
-    await prisma.question.updateMany({
-      where: { id: { in: questions.map(({ id }) => id) } },
-      data: { servedCount: { increment: 1 } },
-    })
-  }
-  return questions
+  // Not counted as served here: the game reports what it actually showed (`markQuestionsShown`).
+  return perLevel.flat()
 }
 
 export type RunQuestion = {
   question: PoolQuestion
-  /** Drawn from the public pool because the reserve and Gemini both came up short. */
+  /** Drawn from the public pool because the reserve and the AI both came up short. */
   isPublic: boolean
 }
 
@@ -250,21 +320,24 @@ export type RunQuestion = {
  * nothing unseen is left, the reserve is generated into on the spot; failing that, the player
  * gets a repeat from an earlier run; and only an empty reserve falls back to the public pool,
  * whose run the caller keeps off the leaderboard.
+ *
+ * `player` (`user:<id>`) is charged for any AI batch the draw starts.
  */
 export const getRunQuestion = async (
   locale: Locale,
   level: Level,
   servedIds: readonly string[],
-  playerSeenIds: readonly string[] = []
+  playerSeenIds: readonly string[],
+  player: string
 ): Promise<RunQuestion> => {
   void recordDemand(locale, [level], true).catch((error: unknown) => console.error('[pool] demand', error))
 
   const draw = (excludeIds: readonly string[]) => drawFromPool({ locale, level, ranked: true, categories: [], excludeIds, count: 1 })
   const unseen = [...servedIds, ...playerSeenIds]
   let [row] = await draw(unseen)
-  if (!row && isGeminiConfigured()) {
+  if (!row && isAiConfigured()) {
     try {
-      await generateIntoPool(locale, level, [], true)
+      await waitForGeneration(generateIntoPool(locale, level, [], true, player))
       ;[row] = await draw(unseen)
     } catch (error) {
       console.warn(`[pool] ranked generation failed for ${locale}/L${level}:`, (error as Error).message)
@@ -277,8 +350,10 @@ export const getRunQuestion = async (
     return { question: { ...row, fallback: false }, isPublic: false }
   }
 
-  const [question] = await getQuestionBatch({ locale, counts: { [level]: 1 }, categories: [], excludeIds: servedIds })
+  const [question] = await getQuestionBatch({ locale, counts: { [level]: 1 }, categories: [], excludeIds: servedIds, player })
   if (!question) throw new Error(`No question available for ${locale}/L${level}`)
+  // A run shows what it draws, so this one is served now; batches leave counting to the game.
+  await prisma.question.update({ where: { id: question.id }, data: { servedCount: { increment: 1 } } })
   return { question, isPublic: true }
 }
 
@@ -346,6 +421,31 @@ export const deleteRetiredQuestions = async (questionId?: string): Promise<numbe
     DELETE FROM "Question" q
     WHERE q."retiredAt" IS NOT NULL ${questionId ? Prisma.sql`AND q.id = ${questionId}` : Prisma.empty}
       AND NOT EXISTS (SELECT 1 FROM "Run" r WHERE r.status = 'active' AND r."currentQuestionId" = q.id)
+  `
+
+/**
+ * Moves well-used questions from the ranked reserve to the public pool — the only direction a
+ * question may cross: it stops being drawn for ranked at the moment its answer becomes
+ * downloadable. Each reserve bucket (locale, level) keeps `keepPerBucket`, the most-served
+ * leave first, and one a run has on screen waits for the next pass. `servedCount` starts over,
+ * because in Classic the question is new. Returns how many moved.
+ */
+export const graduateRankedQuestions = ({ minServes, keepPerBucket }: { minServes: number; keepPerBucket: number }): Promise<number> =>
+  prisma.$executeRaw`
+    WITH reserve AS (
+      SELECT id, "servedCount",
+             count(*) OVER (PARTITION BY locale, level) AS "bucketSize",
+             row_number() OVER (PARTITION BY locale, level ORDER BY "servedCount" DESC, "createdAt" ASC) AS "servedRank"
+      FROM "Question"
+      WHERE ranked AND "retiredAt" IS NULL
+    )
+    UPDATE "Question" q
+    SET ranked = false, "servedCount" = 0
+    FROM reserve r
+    WHERE q.id = r.id
+      AND r."servedCount" >= ${minServes}
+      AND r."servedRank" <= r."bucketSize" - ${keepPerBucket}
+      AND NOT EXISTS (SELECT 1 FROM "Run" run WHERE run.status = 'active' AND run."currentQuestionId" = q.id)
   `
 
 /**

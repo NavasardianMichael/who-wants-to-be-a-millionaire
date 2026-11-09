@@ -23,4 +23,6 @@ export type GetCategorySamplesAPI = Endpoint<{
 
 export type GetOfflinePackAPI = Endpoint<{ payload: { locale: string }; response: OfflinePack; processed: OfflinePack }>
 
-export type ReportQuestionAPI = Endpoint<{ payload: { id: string; reason?: string }; response: boolean; processed: boolean }>
+export type ReportShownQuestionsAPI = Endpoint<{ payload: { questionIds: string[] }; response: boolean; processed: boolean }>
+
+export type ReportQuestionAPI =Endpoint<{ payload: { id: string; reason?: string }; response: boolean; processed: boolean }>

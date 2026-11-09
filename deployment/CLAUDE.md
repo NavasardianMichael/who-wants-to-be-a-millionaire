@@ -29,6 +29,10 @@ here, say so in the PR: someone has to re-copy it.
 - **`/sw.js` is never cached** anywhere — a stale worker pins old pages on every installed copy.
 - **Never clear or rewrite `Origin`/`Referer` on the API host** — `requireSameOrigin` rejects
   state-changing requests without them in production.
+- **The API host's flood brake (`limit_req`, 20/s per IP, burst 100) answers from
+  `@too_many_requests`,** which must keep the CORS headers: a 429 without them reaches the app
+  as a network error. It is safe only because page renders call `API_INTERNAL_URL`
+  (127.0.0.1:9006) directly; routing them through nginx would put every render on one IP.
 - **`proxy_buffering off` on the web host is load-bearing** — Next streams RSC payloads.
 - **`/_next/static/`, `/audio/`, `/packs/` and `/uploads/` are served from disk; `/_next/image`
   is not** — it is the optimizer and must reach Node.

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Selon le proverbe, que récolte celui qui sème le vent ?",
+    "options": [
+      "la pluie",
+      "la tempête",
+      "le brouillard",
+      "la grêle"
+    ],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, what does he who sows the wind reap? — The storm: \"Qui sème le vent récolte la tempête\"."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel fleuve coule au pied de la tour Eiffel ?",
+    "options": [
+      "la Loire",
+      "le Rhône",
+      "la Garonne",
+      "la Seine"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which river flows at the foot of the Eiffel Tower? — The Seine, through Paris."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Je pense à un nombre. Je le double, puis je retire 4 : j’obtiens 10. Quel est ce nombre ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "I think of a number, double it, subtract 4 and get 10. What is it? — 7: work backwards, 10 + 4 = 14, half of 14 is 7."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle fête est traditionnellement marquée par une galette dans laquelle se cache une fève ?",
+    "options": [
+      "l’Épiphanie",
+      "la Chandeleur",
+      "Noël",
+      "Pâques"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which feast is traditionally marked by a galette hiding a fève (charm)? — Epiphany (galette des rois); Candlemas is the crêpes feast, a tempting wrong option."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Combien de cordes compte une guitare classique ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many strings does a classical guitar have? — Six."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle planète tourne le plus près du Soleil ?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "Mars",
+      "Terre"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet orbits closest to the Sun? — Mercury; Venus is the hotter neighbour that tempts."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle célèbre course cycliste s’achève traditionnellement sur les Champs-Élysées ?",
+    "options": [
+      "Paris-Roubaix",
+      "Paris-Nice",
+      "Critérium du Dauphiné",
+      "Tour de France"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which famous cycle race traditionally ends on the Champs-Élysées? — The Tour de France; the other options are real French races."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "À la boulangerie, la baguette coûte 1,20 € et le croissant 1,10 €. Vous achetez 2 baguettes et 3 croissants, et vous payez avec un billet de 10 €. Combien la boulangère vous rend-elle ?",
+    "options": [
+      "3,70 €",
+      "4,30 €",
+      "4,70 €",
+      "5,70 €"
+    ],
+    "correctIndex": 1,
+    "gloss": "Baguette 1.20, croissant 1.10; 2 baguettes + 3 croissants, paid with 10 euros. How much change? — 4.30: 2.40 + 3.30 = 5.70, and 10 − 5.70 = 4.30 (5.70 is the trap, the total)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que veut dire « poser un lapin à quelqu’un » ?",
+    "options": [
+      "Ne pas venir au rendez-vous fixé",
+      "Lui faire peur par surprise",
+      "Lui offrir un cadeau",
+      "Lui emprunter de l’argent"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does \"poser un lapin à quelqu'un\" mean? — To stand someone up: not to show up at the agreed meeting."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Trois coccinelles sont posées sur une feuille. Combien de pattes cela fait-il en tout ?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "30"
+    ],
+    "correctIndex": 1,
+    "gloss": "Three ladybirds sit on a leaf. How many legs in all? — 18: insects have six legs, 3 × 6 = 18 (12 and 24 tempt those thinking of 4 or 8 legs)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Parmi les mammifères, la plupart de ceux qui « volent » ne font que planer. Lequel est le seul à voler vraiment, en battant des ailes ?",
+    "options": [
+      "L’écureuil volant",
+      "Le galéopithèque",
+      "La chauve-souris",
+      "Le phalanger volant"
+    ],
+    "correctIndex": 2,
+    "gloss": "Most \"flying\" mammals only glide. Which is the only one that truly flies, flapping its wings? — The bat; the others are gliders."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle ville est surnommée la « Ville rose » pour la couleur de ses briques ?",
+    "options": [
+      "Albi",
+      "Toulouse",
+      "Montpellier",
+      "Bordeaux"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which city is nicknamed the \"Pink City\" for the colour of its bricks? — Toulouse; Albi (\"la Rouge\") is also brick-built and tempts."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans « Le Petit Prince », quelle fleur capricieuse le héros a-t-il laissée sur sa minuscule planète ?",
+    "options": [
+      "Une tulipe",
+      "Une marguerite",
+      "Une orchidée",
+      "Une rose"
+    ],
+    "correctIndex": 3,
+    "gloss": "In The Little Prince, which capricious flower did the hero leave on his tiny planet? — A rose."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Dans le noir, vous prenez des chaussettes au hasard dans un tiroir qui en contient 10 noires et 10 blanches. Combien devez-vous en prendre, au minimum, pour être sûr d’avoir deux chaussettes de la même couleur ?",
+    "options": [
+      "2",
+      "3",
+      "10",
+      "11"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the dark you take socks from a drawer of 10 black and 10 white. Minimum to be sure of a same-colour pair? — 3: with two colours, the third sock must match one of the first two (pigeonhole)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle région française a donné son nom à une célèbre tarte salée aux lardons, aux œufs et à la crème ?",
+    "options": [
+      "la Lorraine",
+      "l’Alsace",
+      "la Bretagne",
+      "la Normandie"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which French region gave its name to a famous savoury tart of bacon, eggs and cream? — Lorraine (quiche lorraine); Alsace tempts with its own tarts."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dans les albums d’« Astérix », comment s’appelle le petit chien d’Obélix ?",
+    "options": [
+      "Milou",
+      "Rantanplan",
+      "Idéfix",
+      "Snoopy"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Asterix books, what is Obelix's little dog called? — Idéfix (Dogmatix); Milou is Tintin's dog, Rantanplan is Lucky Luke's."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel peintre a signé « La Nuit étoilée », aux ciels tourbillonnants, en 1889 ?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Paul Cézanne",
+      "Paul Gauguin"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which painter made \"The Starry Night\", with its swirling skies, in 1889? — Vincent van Gogh, at Saint-Rémy."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Paris a accueilli les Jeux olympiques d’été en 2024, exactement un siècle après les avoir reçus la fois précédente. En quelle année ?",
+    "options": [
+      "1900",
+      "1924",
+      "1948",
+      "1968"
+    ],
+    "correctIndex": 1,
+    "gloss": "Paris hosted the 2024 Summer Games exactly a century after the previous time. Which year? — 1924 (2024 − 100); 1900 was also a Paris Games but is 124 years back."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En Belgique, on dit « nonante » là où la France dit « quatre-vingt-dix ». Quel mot y emploie-t-on pour 70 ?",
+    "options": [
+      "Septante",
+      "Soixante-dix",
+      "Huitante",
+      "Quatre-vingts"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Belgium they say \"nonante\" where France says \"quatre-vingt-dix\". What word do they use for 70? — \"Septante\", by the same pattern (sept-ante, neuf-ante)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un chêne abattu en 2024 montre 150 cernes sur sa souche. En quelle année environ a-t-il germé ?",
+    "options": [
+      "1824",
+      "1874",
+      "1924",
+      "1974"
+    ],
+    "correctIndex": 1,
+    "gloss": "An oak felled in 2024 shows 150 rings on its stump. Roughly when did it sprout? — About 1874: one ring forms per year, 2024 − 150."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel écrivain a créé Arsène Lupin, le gentleman cambrioleur ?",
+    "options": [
+      "Georges Simenon",
+      "Gaston Leroux",
+      "Jules Verne",
+      "Maurice Leblanc"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which writer created Arsène Lupin, the gentleman burglar? — Maurice Leblanc; Simenon (Maigret) and Leroux (Rouletabille) are other French crime writers."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En 1895, à Paris, quels frères ont présenté leur cinématographe à un public payant, dans un salon du Grand Café ?",
+    "options": [
+      "Les frères Pathé",
+      "Les frères Montgolfier",
+      "Les frères Lumière",
+      "Les frères Goncourt"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 1895 in Paris, which brothers showed their cinématographe to a paying audience in a room of the Grand Café? — The Lumière brothers."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Lequel de ces mots se lit exactement de la même façon à l’endroit et à l’envers ?",
+    "options": [
+      "Ressortir",
+      "Réfléchir",
+      "Repasser",
+      "Ressasser"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words reads the same forwards and backwards? — \"Ressasser\" (r-e-s-s-a-s-s-e-r), a palindrome."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un avion décolle de Paris à midi pour New York, où il est six heures de moins qu’à Paris. Le vol dure 8 heures. Quelle heure est-il à New York à l’atterrissage ?",
+    "options": [
+      "2 h",
+      "6 h",
+      "14 h",
+      "20 h"
+    ],
+    "correctIndex": 2,
+    "gloss": "A plane leaves Paris at noon for New York, where it is six hours earlier; the flight takes 8 hours. Local time at landing? — 14:00: noon − 6 h + 8 h (20:00 is Paris time, 2:00 is the wrong-way trap)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel roi de la Renaissance a fait bâtir l’immense château de Chambord, en pleine forêt ?",
+    "options": [
+      "François Ier",
+      "Louis XIV",
+      "Henri IV",
+      "Charles VIII"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Renaissance king had the huge château of Chambord built in the middle of a forest? — François I (from 1519)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Le World Wide Web est né au CERN, un laboratoire à cheval sur la frontière franco-suisse. Près de quelle ville se trouve-t-il ?",
+    "options": [
+      "Lyon",
+      "Genève",
+      "Lausanne",
+      "Bâle"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Web was born at CERN, a lab straddling the Franco-Swiss border. Near which city? — Geneva."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel héros grec a tué le Minotaure dans le labyrinthe de Crète, aidé par le fil d’Ariane ?",
+    "options": [
+      "Persée",
+      "Hercule",
+      "Thésée",
+      "Ulysse"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Greek hero killed the Minotaur in the Cretan labyrinth, helped by Ariadne's thread? — Theseus."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel mot les Français emploient-ils d’ordinaire pour le repas du soir que les Québécois appellent « souper » ?",
+    "options": [
+      "Le petit-déjeuner",
+      "Le déjeuner",
+      "Le goûter",
+      "Le dîner"
+    ],
+    "correctIndex": 3,
+    "gloss": "What word do the French usually use for the evening meal Quebeckers call \"souper\"? — \"Le dîner\" (in Quebec: déjeuner = breakfast, dîner = lunch, souper = dinner)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lequel de ces mots n’appartient pas à la famille du mot « terre » ?",
+    "options": [
+      "Atterrir",
+      "Terrasse",
+      "Terrier",
+      "Terrifier"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words is not in the word family of \"terre\" (earth)? — \"Terrifier\" comes from Latin terrere (to frighten); atterrir, terrasse and terrier all come from terre."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quel nombre vient après 13 dans cette suite : 2, 3, 5, 7, 11, 13 ?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "19"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number follows 13 in 2, 3, 5, 7, 11, 13? — 17: the sequence is the prime numbers (15 and 16 are not prime, 19 is the one after)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "À midi pile, un astronome observe en direct, dans son télescope, une éruption à la surface du Soleil. À quelle heure s’est-elle réellement produite ?",
+    "options": [
+      "Vers 11 h 52",
+      "À midi pile",
+      "Vers 12 h 08",
+      "Vers 11 h"
+    ],
+    "correctIndex": 0,
+    "gloss": "At noon sharp an astronomer sees a solar flare live through a telescope. When did it really happen? — About 11:52: sunlight takes roughly 8 minutes 20 seconds to reach Earth, so we see the past."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Le canal de Panama relie l’Atlantique au Pacifique. Dans quelle direction navigue un bateau qui le traverse de l’entrée atlantique vers la sortie pacifique ?",
+    "options": [
+      "Vers le sud-est",
+      "Vers l’ouest",
+      "Vers le nord",
+      "Vers le nord-est"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Panama Canal links the Atlantic to the Pacific. Which way does a ship sail from the Atlantic end to the Pacific end? — South-east: the isthmus bends, so the Pacific end lies slightly east of the Atlantic end."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "La tour Eiffel a été bâtie pour l’Exposition universelle de 1889. Quel événement s’était produit un siècle plus tôt ?",
+    "options": [
+      "Le sacre de Napoléon",
+      "La prise de la Bastille",
+      "La mort de Louis XIV",
+      "La proclamation de la Première République"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Eiffel Tower was built for the 1889 World's Fair. What happened a century earlier? — The storming of the Bastille (1789); coronation 1804, Louis XIV's death 1715, Republic 1792."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un bit ne peut valoir que 0 ou 1. Combien de valeurs différentes un octet peut-il représenter ?",
+    "options": [
+      "8",
+      "64",
+      "128",
+      "256"
+    ],
+    "correctIndex": 3,
+    "gloss": "A bit is 0 or 1. How many different values can a byte represent? — 256: a byte is 8 bits, 2^8 (128 is the common trap)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Le calendrier républicain donnait aux mois des noms tirés du climat et des travaux des champs. À quelle saison correspondait « Thermidor » ?",
+    "options": [
+      "Le printemps",
+      "L’été",
+      "L’automne",
+      "L’hiver"
+    ],
+    "correctIndex": 1,
+    "gloss": "The French Republican calendar named months after weather and farm work. Which season was Thermidor? — Summer (about 19 July to 17 August); the root is Greek thermos, heat."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Henri Beyle a employé des dizaines de pseudonymes. Sous lequel a-t-il publié « Le Rouge et le Noir » ?",
+    "options": [
+      "Voltaire",
+      "Molière",
+      "George Sand",
+      "Stendhal"
+    ],
+    "correctIndex": 3,
+    "gloss": "Henri Beyle used dozens of pen names. Under which did he publish The Red and the Black? — Stendhal; the others are pen names of other authors."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel architecte a dessiné la pyramide de verre du Louvre, inaugurée en 1989 ?",
+    "options": [
+      "Jean Nouvel",
+      "Renzo Piano",
+      "I. M. Pei",
+      "Norman Foster"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which architect designed the Louvre's glass pyramid, opened in 1989? — I. M. Pei."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel pays a organisé, puis remporté, la toute première Coupe du monde de football, en 1930 ?",
+    "options": [
+      "Argentine",
+      "Brésil",
+      "Uruguay",
+      "Italie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country hosted and then won the very first football World Cup, in 1930? — Uruguay (Argentina lost the final)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel jour la Belgique célèbre-t-elle sa fête nationale ?",
+    "options": [
+      "14 juillet",
+      "21 juillet",
+      "1er août",
+      "11 novembre"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which day does Belgium celebrate its national day? — 21 July (Leopold I's oath, 1831); 14 July is France, 1 August Switzerland, 11 November the Armistice."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Un seul de ces noms d’instruments est masculin au singulier mais s’emploie au féminin au pluriel. Lequel ?",
+    "options": [
+      "Orgue",
+      "Hautbois",
+      "Violon",
+      "Tambour"
+    ],
+    "correctIndex": 0,
+    "gloss": "Only one of these instrument names is masculine in the singular but used as feminine in the plural. Which? — \"Orgue\": un orgue, de belles orgues."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Louis XIV est monté sur le trône à quatre ans, en 1643, mais n’a gouverné seul qu’à la mort de Mazarin. En quelle année ?",
+    "options": [
+      "1648",
+      "1661",
+      "1682",
+      "1685"
+    ],
+    "correctIndex": 1,
+    "gloss": "Louis XIV became king at four in 1643 but ruled alone only when Mazarin died. In which year? — 1661 (1648 the Fronde, 1682 the court to Versailles, 1685 the Revocation of the Edict of Nantes)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel écrivain a refusé le prix Nobel de littérature en 1964 ?",
+    "options": [
+      "Albert Camus",
+      "André Gide",
+      "André Malraux",
+      "Jean-Paul Sartre"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which writer declined the 1964 Nobel Prize in Literature? — Jean-Paul Sartre (Camus won in 1957, Gide in 1947, Malraux never)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un pays est dit « doublement enclavé » quand il n’a pas de côte et que tous ses voisins n’en ont pas non plus. Lequel de ces petits États l’est ?",
+    "options": [
+      "Luxembourg",
+      "Andorre",
+      "Saint-Marin",
+      "Liechtenstein"
+    ],
+    "correctIndex": 3,
+    "gloss": "A country is \"doubly landlocked\" if it has no coast and neither do its neighbours. Which small state is? — Liechtenstein (neighbours Switzerland and Austria); Luxembourg borders Belgium, Andorra France and Spain, San Marino Italy, all with coasts."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Le sable et le quartz sont faits de silice, de formule SiO2. Quel élément est le plus abondant, en masse, dans la croûte terrestre ?",
+    "options": [
+      "Le silicium",
+      "L’aluminium",
+      "L’oxygène",
+      "Le fer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Sand and quartz are silica, SiO2. Which element is most abundant by mass in the Earth's crust? — Oxygen (about 46%, silicon about 28%); silica holds two oxygen atoms per silicon."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Le mot « zéro » vient de l’arabe « sifr », qui signifiait « vide ». Quel autre mot français en est issu ?",
+    "options": [
+      "Nombre",
+      "Chiffre",
+      "Compte",
+      "Calcul"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Zéro\" comes from Arabic \"sifr\", meaning \"empty\". Which other French word comes from it? — \"Chiffre\" (digit, cipher)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qui est le premier Français à avoir remporté le Ballon d’or, en 1958 ?",
+    "options": [
+      "Michel Platini",
+      "Just Fontaine",
+      "Raymond Kopa",
+      "Jean-Pierre Papin"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who was the first Frenchman to win the Ballon d'Or, in 1958? — Raymond Kopa; Fontaine was the 1958 World Cup top scorer, a tempting wrong option."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel réalisateur a signé « Les Quatre Cents Coups », film emblématique de la Nouvelle Vague sorti en 1959 ?",
+    "options": [
+      "Claude Chabrol",
+      "Jean-Luc Godard",
+      "François Truffaut",
+      "Éric Rohmer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which director made \"The 400 Blows\" (1959), a landmark of the New Wave? — François Truffaut; the others are fellow New Wave directors."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans la mythologie grecque, quelle muse veille sur l’astronomie ?",
+    "options": [
+      "Uranie",
+      "Clio",
+      "Érato",
+      "Calliope"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Greek mythology, which Muse watches over astronomy? — Urania (Clio is history, Erato love poetry, Calliope epic poetry)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Faux ami de l’anglais : en français, un « billion » s’écrit 1 suivi de combien de zéros ?",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "correctIndex": 1,
+    "gloss": "False friend of English: in French, a \"billion\" is 1 followed by how many zeros? — 12 (a million squared); the English billion is the French \"milliard\", 9 zeros."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Combien de cœurs bat-il dans le corps d’une pieuvre ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many hearts beat in an octopus's body? — Three: two pump blood through the gills, one through the body."
+  }
+]

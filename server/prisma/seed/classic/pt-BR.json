@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segundo o provérbio, “água mole em pedra dura, tanto bate até que…” o quê?",
+    "options": [
+      "quebra",
+      "racha",
+      "fura",
+      "derrete"
+    ],
+    "correctIndex": 2,
+    "gloss": "Soft water on hard stone, it beats so long until it... what? — \"fura\" (pierces): the proverb about persistence."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual destas é uma luta de origem afro-brasileira, praticada em roda ao som do berimbau?",
+    "options": [
+      "Jiu-jítsu",
+      "Capoeira",
+      "Judô",
+      "Muay thai"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is an Afro-Brazilian fighting art played in a circle to the sound of the berimbau? — Capoeira; the others come from Japan or Thailand."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qual destas aves tem um nome que se lê igual de trás para a frente?",
+    "options": [
+      "Tucano",
+      "Papagaio",
+      "Gavião",
+      "Arara"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these birds has a name that reads the same backwards? — Arara (macaw), a palindrome; check each name letter by letter."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A tapioca, comum no café da manhã brasileiro, é feita com a goma de qual raiz?",
+    "options": [
+      "Mandioca",
+      "Batata-doce",
+      "Inhame",
+      "Gengibre"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tapioca, common at Brazilian breakfast, is made from the starch of which root? — Cassava (mandioca)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que gás as plantas retiram do ar para fazer a fotossíntese?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Hidrogênio",
+      "Gás carbônico"
+    ],
+    "correctIndex": 3,
+    "gloss": "What gas do plants take from the air for photosynthesis? — Carbon dioxide; oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual destes bichos não é um inseto?",
+    "options": [
+      "Aranha",
+      "Formiga",
+      "Besouro",
+      "Abelha"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these critters is not an insect? — The spider: it has eight legs and is an arachnid; insects have six."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual destes países africanos tem o português como língua oficial?",
+    "options": [
+      "Quênia",
+      "Angola",
+      "Nigéria",
+      "Gana"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these African countries has Portuguese as an official language? — Angola; Kenya, Nigeria and Ghana use English (and others)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quantas cordas tem um violão tradicional?",
+    "options": [
+      "Quatro",
+      "Cinco",
+      "Seis",
+      "Sete"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many strings does a standard acoustic guitar have? — Six."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Um ônibus sai do ponto com 10 passageiros. Na primeira parada descem 3 e sobem 5; na segunda descem 4 e sobe 1. Quantos passageiros seguem viagem?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "gloss": "A bus leaves with 10 passengers; stop 1: 3 off, 5 on; stop 2: 4 off, 1 on. How many continue? — 10-3+5=12, 12-4+1=9."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qual mês vem a seguir na sequência: janeiro, março, maio…?",
+    "options": [
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which month comes next: January, March, May...? — July: every other month."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segundo a tradição, quem gritou “Independência ou morte!” às margens do riacho do Ipiranga, em 1822?",
+    "options": [
+      "Dom João VI",
+      "Tiradentes",
+      "Dom Pedro II",
+      "Dom Pedro I"
+    ],
+    "correctIndex": 3,
+    "gloss": "According to tradition, who shouted \"Independence or death!\" by the Ipiranga stream in 1822? — Dom Pedro I; his father João VI had returned to Portugal, Pedro II was a child."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quem escreveu “Dom Casmurro”, romance em que a dúvida sobre Capitu divide os leitores há mais de cem anos?",
+    "options": [
+      "Machado de Assis",
+      "José de Alencar",
+      "Graciliano Ramos",
+      "Jorge Amado"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"Dom Casmurro\", the novel whose doubt about Capitu has divided readers for over a century? — Machado de Assis (1899)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual estilo musical nasceu no Rio de Janeiro no fim dos anos 1950, com João Gilberto, Tom Jobim e Vinicius de Moraes?",
+    "options": [
+      "Tropicália",
+      "Bossa nova",
+      "Jovem Guarda",
+      "Samba-enredo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which style was born in Rio in the late 1950s with João Gilberto, Tom Jobim and Vinicius de Moraes? — Bossa nova; Tropicália and Jovem Guarda came in the 1960s."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Na adivinha “O que é, o que é? Quanto mais se tira, maior fica”, qual é a resposta?",
+    "options": [
+      "O buraco",
+      "O sono",
+      "A fome",
+      "O tempo"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the riddle \"What is it? The more you take away, the bigger it gets\" — the hole (buraco): dig out more earth, the hole grows."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "De qual planta vêm as sementes usadas para fazer o chocolate?",
+    "options": [
+      "Café",
+      "Baunilha",
+      "Avelã",
+      "Cacau"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which plant gives the seeds used to make chocolate? — Cacao."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Em um dado comum, as faces opostas sempre somam 7. Se a face de cima mostra o 2, qual número está virado para a mesa?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a standard die opposite faces add to 7; top shows 2, what faces the table? — 7-2=5."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Qual número é representado por XIV em algarismos romanos?",
+    "options": [
+      "14",
+      "16",
+      "9",
+      "6"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which number is XIV in Roman numerals? — 14: X(10) + IV(4); XVI would be 16, IX is 9."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quando o computador é desligado, qual destes componentes perde tudo o que guardava?",
+    "options": [
+      "HD",
+      "SSD",
+      "Pen drive",
+      "Memória RAM"
+    ],
+    "correctIndex": 3,
+    "gloss": "When the computer is switched off, which component loses everything it held? — RAM is volatile; the others store files permanently."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Em julho é inverno no Brasil. Que estação do ano a maior parte da Europa vive nesse mês?",
+    "options": [
+      "Inverno",
+      "Primavera",
+      "Verão",
+      "Outono"
+    ],
+    "correctIndex": 2,
+    "gloss": "July is winter in Brazil. What season is most of Europe in that month? — Summer: the hemispheres have opposite seasons."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Segundo a lenda que deu origem à maratona, o mensageiro correu da planície de Maratona até qual cidade para anunciar a vitória?",
+    "options": [
+      "Esparta",
+      "Atenas",
+      "Corinto",
+      "Tebas"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the legend behind the marathon, the messenger ran from Marathon to which city to announce the victory? — Athens."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "No folclore brasileiro, qual criatura protege as matas e tem os pés virados para trás, para confundir os caçadores?",
+    "options": [
+      "Saci-pererê",
+      "Curupira",
+      "Boitatá",
+      "Iara"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Brazilian folklore, which creature protects the forests and has backwards feet to confuse hunters? — Curupira."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual arquiteto desenhou os principais edifícios de Brasília, como a Catedral e o Palácio da Alvorada?",
+    "options": [
+      "Lúcio Costa",
+      "Paulo Mendes da Rocha",
+      "Oscar Niemeyer",
+      "Affonso Reidy"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which architect designed Brasília's main buildings, such as the Cathedral and the Alvorada Palace? — Oscar Niemeyer; Lúcio Costa drew the city plan."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual cidade foi a primeira capital do Brasil, fundada em 1549, antes de o Rio de Janeiro assumir o posto?",
+    "options": [
+      "Recife",
+      "Olinda",
+      "São Vicente",
+      "Salvador"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city was Brazil's first capital, founded in 1549, before Rio took over? — Salvador (capital until 1763)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Qual destes países sul-americanos não faz fronteira com o Brasil?",
+    "options": [
+      "Chile",
+      "Peru",
+      "Bolívia",
+      "Paraguai"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these South American countries does not border Brazil? — Chile (Argentina and Bolivia lie between); Ecuador is the other one."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A água ferve a 100 °C ao nível do mar. No alto de uma montanha muito alta, a que temperatura ela ferve?",
+    "options": [
+      "Exatamente a 100 °C",
+      "A menos de 100 °C",
+      "A mais de 100 °C",
+      "Não ferve, só evapora"
+    ],
+    "correctIndex": 1,
+    "gloss": "Water boils at 100 °C at sea level; on a very high mountain? — Below 100 °C: lower air pressure means it boils sooner."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Se 3 pasteleiros fritam 3 pastéis em cinco minutos, quanto tempo levam 9 pasteleiros para fritar 9 pastéis?",
+    "options": [
+      "15 minutos",
+      "3 minutos",
+      "5 minutos",
+      "9 minutos"
+    ],
+    "correctIndex": 2,
+    "gloss": "If 3 pastry cooks fry 3 pastries in five minutes, how long do 9 take for 9? — Still 5 minutes: each cook fries one pastry in 5 minutes."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual estúdio produziu “Toy Story”, o primeiro longa-metragem totalmente animado por computador?",
+    "options": [
+      "DreamWorks",
+      "Pixar",
+      "Blue Sky",
+      "Illumination"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which studio made \"Toy Story\", the first fully computer-animated feature film? — Pixar (1995)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quantos corações tem um polvo?",
+    "options": [
+      "Um",
+      "Dois",
+      "Três",
+      "Oito"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three: two pump blood through the gills, one to the body."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Entre estes habitantes do mar, só um não é peixe. Qual?",
+    "options": [
+      "Cavalo-marinho",
+      "Arraia",
+      "Tubarão",
+      "Estrela-do-mar"
+    ],
+    "correctIndex": 3,
+    "gloss": "Among these sea dwellers only one is not a fish. Which? — The starfish (an echinoderm); the seahorse, ray and shark are all fish."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "No verão, a Torre Eiffel chega a ficar cerca de 15 centímetros mais alta do que no inverno. Por quê?",
+    "options": [
+      "O ferro se dilata com o calor",
+      "O solo de Paris incha com o calor",
+      "A tinta fica mais grossa ao sol",
+      "O vento a estica"
+    ],
+    "correctIndex": 0,
+    "gloss": "In summer the Eiffel Tower is about 15 cm taller than in winter. Why? — The iron expands with heat (thermal expansion)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual bioma existe exclusivamente no território brasileiro?",
+    "options": [
+      "Cerrado",
+      "Pantanal",
+      "Caatinga",
+      "Pampa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which biome exists only inside Brazil? — The Caatinga; Pantanal, Cerrado and Pampa extend into neighbouring countries."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual escritora brasileira publicou “A Hora da Estrela”, com a datilógrafa nordestina Macabéa?",
+    "options": [
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Clarice Lispector",
+      "Lygia Fagundes Telles"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Brazilian writer published \"The Hour of the Star\", with the typist Macabéa from the Northeast? — Clarice Lispector (1977)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quem foi o primeiro brasileiro a ser campeão mundial de Fórmula 1?",
+    "options": [
+      "Emerson Fittipaldi",
+      "Nelson Piquet",
+      "Ayrton Senna",
+      "Rubens Barrichello"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first Brazilian Formula 1 world champion? — Emerson Fittipaldi (1972); Piquet and Senna came later."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Santos-Dumont reclamava que tirar o relógio do bolso, em pleno voo, o obrigava a soltar os comandos. Que objeto o joalheiro Louis Cartier criou para ele, ajudando a popularizar um hábito de hoje?",
+    "options": [
+      "Cronômetro de bolso",
+      "Relógio de pulso",
+      "Relógio de parede",
+      "Barômetro portátil"
+    ],
+    "correctIndex": 1,
+    "gloss": "Santos-Dumont complained that taking a pocket watch out mid-flight meant letting go of the controls; what did jeweller Louis Cartier make for him? — A wristwatch (the Cartier Santos, c. 1904)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual planeta do Sistema Solar gira quase “deitado”, com o eixo de rotação praticamente na horizontal em relação à sua órbita?",
+    "options": [
+      "Netuno",
+      "Urano",
+      "Saturno",
+      "Vênus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Solar System planet spins almost on its side? — Uranus (axial tilt about 98 degrees)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Se o Sol se apagasse num estalo, quanto tempo a Terra ainda continuaria iluminada?",
+    "options": [
+      "Cerca de 8 segundos",
+      "Cerca de 8 minutos",
+      "Cerca de 8 horas",
+      "Nem um instante"
+    ],
+    "correctIndex": 1,
+    "gloss": "If the Sun went out in a snap, how long would Earth stay lit? — About 8 minutes: that is how long sunlight takes to reach us."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Um bit só pode valer 0 ou 1. Quantos valores diferentes cabem em um byte?",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "512"
+    ],
+    "correctIndex": 2,
+    "gloss": "A bit is 0 or 1; how many different values fit in a byte? — 256: a byte is 8 bits, 2^8."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na mitologia grega, qual titã foi condenado por Zeus a sustentar o céu sobre os ombros?",
+    "options": [
+      "Prometeu",
+      "Cronos",
+      "Hipérion",
+      "Atlas"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Greek myth, which Titan was condemned by Zeus to hold up the sky on his shoulders? — Atlas; Prometheus was punished for fire."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual imperador romano mandou construir, no norte da Britânia, uma muralha que ainda leva seu nome?",
+    "options": [
+      "Júlio César",
+      "Nero",
+      "Trajano",
+      "Adriano"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Roman emperor built a wall in northern Britain that still bears his name? — Hadrian (Hadrian's Wall, begun c. AD 122); Trajan was his predecessor."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Em qual cidade nasceu Mozart, em 1756?",
+    "options": [
+      "Viena",
+      "Praga",
+      "Salzburgo",
+      "Munique"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which city was Mozart born, in 1756? — Salzburg; Vienna is where he lived and died."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual destas palavras do português brasileiro veio de uma língua africana, o quimbundo?",
+    "options": [
+      "Cafuné",
+      "Pipoca",
+      "Abacaxi",
+      "Jabuticaba"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these Brazilian Portuguese words came from an African language, Kimbundu? — Cafuné; pipoca, abacaxi and jabuticaba are Tupi."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A ópera “O Guarani”, do campineiro Carlos Gomes, estreou em 1870 em qual cidade?",
+    "options": [
+      "Milão",
+      "Roma",
+      "Veneza",
+      "Florença"
+    ],
+    "correctIndex": 0,
+    "gloss": "The opera \"O Guarani\" by Carlos Gomes of Campinas premiered in 1870 in which city? — Milan, at La Scala."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual prato típico do Pará leva folhas de mandioca-brava moídas e cozidas por cerca de sete dias?",
+    "options": [
+      "Tacacá",
+      "Vatapá",
+      "Pato no tucupi",
+      "Maniçoba"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Pará dish uses ground bitter-cassava leaves cooked for about seven days? — Maniçoba; tacacá and pato no tucupi use tucupi, the root juice."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual é o ponto mais alto do território brasileiro, com quase 3.000 metros?",
+    "options": [
+      "Pico da Bandeira",
+      "Pico das Agulhas Negras",
+      "Monte Roraima",
+      "Pico da Neblina"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the highest point in Brazil, almost 3,000 m? — Pico da Neblina (2,995 m); Pico da Bandeira is the usual wrong guess."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "O símbolo W da tabela periódica vem de “wolfram”, nome alemão de qual metal?",
+    "options": [
+      "Vanádio",
+      "Zinco",
+      "Urânio",
+      "Tungstênio"
+    ],
+    "correctIndex": 3,
+    "gloss": "The periodic table symbol W comes from German \"wolfram\", the name of which metal? — Tungsten."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "No Brasil, um bilhão é o número 1 seguido de nove zeros. Na escala longa, usada tradicionalmente em Portugal, quantos zeros tem um “bilião”?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Brazil a billion has nine zeros; on the long scale used in Portugal, how many zeros in a \"bilião\"? — 12 (10^12, a million millions)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "O Mar dos Sargaços tem uma particularidade: é o único mar do mundo sem nenhuma costa. Em qual oceano ele fica?",
+    "options": [
+      "Atlântico",
+      "Pacífico",
+      "Índico",
+      "Glacial Ártico"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Sargasso Sea is the only sea with no coastline; in which ocean? — The Atlantic: a sea with no shore must lie in mid-ocean (it is bounded by currents)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "O nome de qual movimento artístico nasceu de uma crítica irônica ao quadro “Impressão, nascer do sol”, de Claude Monet?",
+    "options": [
+      "Fauvismo",
+      "Expressionismo",
+      "Realismo",
+      "Impressionismo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which art movement got its name from a mocking review of Monet's \"Impression, Sunrise\"? — Impressionism; Fauvism got its name from a different remark."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milhares de soldados de argila, os guerreiros de terracota, foram enterrados para guardar o túmulo de qual imperador chinês?",
+    "options": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Kangxi",
+      "Qianlong"
+    ],
+    "correctIndex": 0,
+    "gloss": "The thousands of clay soldiers, the Terracotta Army, were buried to guard the tomb of which Chinese emperor? — Qin Shi Huang, the first emperor."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uma linguagem de programação foi batizada em homenagem a uma matemática inglesa do século XIX, considerada a primeira programadora da história. Qual é ela?",
+    "options": [
+      "Ruby",
+      "Swift",
+      "Ada",
+      "Python"
+    ],
+    "correctIndex": 2,
+    "gloss": "A programming language was named after a 19th-century English mathematician regarded as the first programmer; which? — Ada, for Ada Lovelace."
+  }
+]
