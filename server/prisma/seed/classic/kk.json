@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Бір сөз әрі түнгі аспандағы шырақты, әрі жылдың он екіден бір бөлігін білдіреді. Ол қай сөз?",
+    "options": ["Күн", "Ай", "Жыл", "Апта"],
+    "correctIndex": 1,
+    "gloss": "One word means both the light in the night sky and a twelfth of the year. Which? — Ай (moon / month). Күн is the trap: it means both sun and day."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Мақалды толықтырыңыз: «Өнер алды — қызыл …».",
+    "options": ["сөз", "ой", "ән", "тіл"],
+    "correctIndex": 3,
+    "gloss": "Complete the proverb: 'The first of the arts is the red ...' — тіл (tongue): «Өнер алды — қызыл тіл», eloquence. «Қызыл сөз» (fine empty talk) is the trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шұбатты түйенің сүтінен ашытады. Ал қымыз қай малдың сүтінен ашытылады?",
+    "options": ["Биенің", "Сиырдың", "Қойдың", "Ешкінің"],
+    "correctIndex": 0,
+    "gloss": "Shubat is fermented from camel's milk. What animal's milk is kumis made from? — The mare's."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Мына сөздердің қайсысы солдан оңға қарай да, оңнан солға қарай да бірдей оқылады?",
+    "options": ["Тараз", "Арал", "Қазақ", "Қазан"],
+    "correctIndex": 2,
+    "gloss": "Which word reads the same left to right and right to left? — Қазақ (Kazakh) is a palindrome; Тараз, Арал, Қазан are not."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақтың қара домбырасының әдетте неше ішегі болады?",
+    "options": ["Үш", "Екі", "Төрт", "Алты"],
+    "correctIndex": 1,
+    "gloss": "How many strings does the Kazakh dombyra usually have? — Two."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Наурыз көктемгі күн мен түннің теңелуіне тұспа-тұс келеді. Сол күндері түн шамамен қанша уақытқа созылады?",
+    "options": ["6 сағатқа", "10 сағатқа", "14 сағатқа", "12 сағатқа"],
+    "correctIndex": 3,
+    "gloss": "Nauryz falls on the spring equinox, when day and night are equal. About how long is the night then? — About 12 hours: half of 24."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Суда жүзетін мына жануарлардың қайсысы балық емес?",
+    "options": ["Акула", "Бекіре", "Дельфин", "Сазан"],
+    "correctIndex": 2,
+    "gloss": "Which of these swimming animals is not a fish? — The dolphin, a mammal; shark, sturgeon and carp are fish."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Жапонияның ақ туының ортасындағы қызыл дөңгелек нені бейнелейді?",
+    "options": ["Күнді", "Айды", "Жұлдызды", "Гүлді"],
+    "correctIndex": 0,
+    "gloss": "What does the red disc on Japan's white flag stand for? — The sun (Japan, 'land of the rising sun')."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Том мен Джерри» мультфильміндегі Джерри қандай жануар?",
+    "options": ["Мысық", "Ит", "Тышқан", "Тиін"],
+    "correctIndex": 2,
+    "gloss": "In 'Tom and Jerry', what animal is Jerry? — A mouse; Tom is the cat."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Электрондық пошта мекенжайында пайдаланушы аты мен сайт атауын қай белгі бөліп тұрады?",
+    "options": ["#", "&", "%", "@"],
+    "correctIndex": 3,
+    "gloss": "Which sign separates the user name from the domain in an email address? — @."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Тоғызқұмалақта екі ойыншының әрқайсысында тоғыз отау бар, ойын басында әр отауға тоғыз құмалақтан салынады. Тақтада барлығы неше құмалақ болады?",
+    "options": ["81", "99", "162", "180"],
+    "correctIndex": 2,
+    "gloss": "In togyz kumalak each of two players has nine holes with nine stones each at the start. How many stones in all? — 162 = 2 × 9 × 9; 81 is for those who count one player."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Астанадағы «Бәйтерек» монументінің ұшар басындағы алтын шар аңыз бойынша қай құстың жұмыртқасы?",
+    "options": ["Самұрықтың", "Қарлығаштың", "Бүркіттің", "Аққудың"],
+    "correctIndex": 0,
+    "gloss": "By legend, the golden sphere on top of Astana's Baiterek is the egg of which bird? — Samruk, the mythical bird that laid its egg in the tree of life."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қай көлдің батыс бөлігінің суы тұщы, ал шығыс бөлігінің суы ащы?",
+    "options": ["Алакөл", "Балқаш", "Зайсан", "Теңіз"],
+    "correctIndex": 1,
+    "gloss": "Which lake is fresh in its western part and salty in its eastern part? — Balkhash: the Ili brings fresh water to the west, the narrow Uzynaral strait limits mixing."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шабыспен келе жатқан шабандоз ат үстінен еңкейіп, жерде жатқан тиынды іліп алатын ұлттық ойын қалай аталады?",
+    "options": ["Көкпар", "Қыз қуу", "Аударыспақ", "Теңге ілу"],
+    "correctIndex": 3,
+    "gloss": "Which national game has a galloping rider lean down and pick a coin off the ground? — Tenge ilu ('picking up the coin')."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Баланың алғашқы қадамына арналып, аяғына байланған ала жіпті қиятын салт қалай аталады?",
+    "options": ["Шілдехана", "Тұсаукесер", "Бесікке салу", "Тілашар"],
+    "correctIndex": 1,
+    "gloss": "Which custom marks a child's first steps by cutting a two-coloured cord tied to its legs? — Tusaukeser ('cutting the hobble')."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2017 жылы Қытайдың «Singer» ән байқауына қатысқаннан кейін әлемге танылған қазақ әншісі кім?",
+    "options": ["Ерке Есмахан", "Төреғали Төреәлі", "Димаш Құдайберген", "Мақпал Исабекова"],
+    "correctIndex": 2,
+    "gloss": "Which Kazakh singer became world-famous after China's 'Singer' contest in 2017? — Dimash Kudaibergen."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Кішкентай ханзада» ертегісінің авторы Антуан де Сент-Экзюпери жазушылықпен қатар қандай кәсіппен айналысты?",
+    "options": ["Дәрігерлікпен", "Теңізшілікпен", "Мұғалімдікпен", "Ұшқыштықпен"],
+    "correctIndex": 3,
+    "gloss": "Besides writing, what was the profession of Saint-Exupéry, author of 'The Little Prince'? — Pilot (airmail and military aviator)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Австралияда Жаңа жылды жылдың қай мезгілінде қарсы алады?",
+    "options": ["Жазда", "Қыста", "Көктемде", "Күзде"],
+    "correctIndex": 0,
+    "gloss": "In which season do Australians see in the New Year? — Summer: in the southern hemisphere the seasons are reversed."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Қорада қаздар мен қойлар бар. Олардың барлығы 7 бас, ал аяқтары 20. Қорада неше қой бар?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "gloss": "A pen holds geese and sheep: 7 heads, 20 legs. How many sheep? — 3: 3 × 4 + 4 × 2 = 20."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ресейдің Чукотка түбегі мен АҚШ-тың Аляскасын қай бұғаз бөліп тұр?",
+    "options": ["Гибралтар бұғазы", "Босфор бұғазы", "Беринг бұғазы", "Магеллан бұғазы"],
+    "correctIndex": 2,
+    "gloss": "Which strait separates Russia's Chukotka from Alaska? — The Bering Strait."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Қазақ салтында мүшел жас 13-тен басталып, әр 12 жыл сайын қайталанады. Мына жастың қайсысы мүшел жас?",
+    "options": ["36", "48", "61", "72"],
+    "correctIndex": 2,
+    "gloss": "Mushel ages start at 13 and come every 12 years. Which of these is one? — 61 (13, 25, 37, 49, 61); the multiples of 12 are traps."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Сарыарқа», «Адай», «Балбырауын» күйлерінің авторы кім?",
+    "options": ["Құрманғазы", "Тәттімбет", "Дина Нұрпейісова", "Қазанғап"],
+    "correctIndex": 0,
+    "gloss": "Who composed the küis 'Saryarka', 'Adai' and 'Balbyrauyn'? — Kurmangazy; the others are kuishi of the same tradition."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Немеренің баласы — шөбере. Ал шөберенің баласын қазақ қалай атайды?",
+    "options": ["Немене", "Жиен", "Туажат", "Шөпшек"],
+    "correctIndex": 3,
+    "gloss": "A grandchild's child is a shobere. What is a shobere's child called? — Shopshek; nemene and tuazhat come further down, zhien is a sister's child."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Абай» — ақынның бала кезінде алған еркелету аты. Ал оның азан шақырып қойылған шын есімі қандай?",
+    "options": ["Ысқақ", "Ибраһим", "Оспан", "Халиолла"],
+    "correctIndex": 1,
+    "gloss": "'Abai' was the poet's childhood pet name. What was his real given name? — Ibrahim; the other three are his brothers."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ертіс Қытайдан басталып, Қазақстан арқылы солтүстікке қарай ағады. Оның суы ақыр соңында қай мұхитқа жетеді?",
+    "options": ["Тынық мұхитқа", "Үнді мұхитына", "Солтүстік Мұзды мұхитқа", "Атлант мұхитына"],
+    "correctIndex": 2,
+    "gloss": "The Irtysh rises in China and flows north through Kazakhstan. Which ocean does its water finally reach? — The Arctic, via the Ob."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Биік таудағы лагерьде шай қайнатсаң, су қандай температурада қайнайды?",
+    "options": ["100 °C-тан төменірек", "Дәл 100 °C-та", "100 °C-тан жоғарырақ", "Мүлдем қайнамайды"],
+    "correctIndex": 0,
+    "gloss": "Boiling water for tea at a high mountain camp: at what temperature does it boil? — Below 100 °C, because air pressure is lower."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Күннен шыққан жарық Жерге шамамен қанша уақытта жетеді?",
+    "options": ["8 секундта", "8 минутта", "8 сағатта", "8 күнде"],
+    "correctIndex": 1,
+    "gloss": "About how long does sunlight take to reach Earth? — About 8 minutes (150 million km at 300,000 km/s)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Заңдылықты тауып, тізбекті жалғастырыңыз: 2, 6, 12, 20, 30, …",
+    "options": ["40", "44", "45", "42"],
+    "correctIndex": 3,
+    "gloss": "Continue: 2, 6, 12, 20, 30, ... — 42: the gaps grow 4, 6, 8, 10, 12 (n × (n + 1))."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Эйфель мұнарасын салынғаннан кейін 20 жылдан соң бұзу көзделген еді. Оны негізінен сол кездегі жаңа технологияға пайдалы болғаны сақтап қалды. Қай технологияға?",
+    "options": ["Электр жарығына", "Радиобайланысқа", "Телефон желісіне", "Әуе кемелеріне"],
+    "correctIndex": 1,
+    "gloss": "The Eiffel Tower was due to be dismantled after 20 years; usefulness to a new technology saved it. Which? — Radio: it became a radiotelegraph antenna."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Терминатор» мен «Аватар» фильмдерін қай режиссер түсірген?",
+    "options": ["Стивен Спилберг", "Ридли Скотт", "Джордж Лукас", "Джеймс Кэмерон"],
+    "correctIndex": 3,
+    "gloss": "Who directed 'The Terminator' and 'Avatar'? — James Cameron."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Халық «Қасым ханның қасқа жолы», «Есім ханның ескі жолы» дейді. Ал «Жеті жарғы» заңдар жинағы қай ханның тұсында қабылданған?",
+    "options": ["Абылай", "Әбілқайыр", "Тәуке", "Жәңгір"],
+    "correctIndex": 2,
+    "gloss": "People speak of 'Kasym Khan's bright road' and 'Esim Khan's old road'. Under which khan was the 'Zheti Zhargy' law code adopted? — Tauke Khan."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Түркістандағы Қожа Ахмет Ясауи кесенесін XIV ғасырдың соңында кім салдырған?",
+    "options": ["Әмір Темір", "Шыңғыс хан", "Ұлықбек", "Абылай хан"],
+    "correctIndex": 0,
+    "gloss": "Who had the Khoja Ahmed Yasawi mausoleum in Turkestan built at the end of the 14th century? — Timur; Ulugh Beg, his grandson, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ахмет Байтұрсынұлы 1911 жылы шыққан өлеңдер жинағын ызыңымен ұйқыдағыны оятатын жәндіктің атымен атаған. Қай жәндік?",
+    "options": ["Ара", "Маса", "Шыбын", "Сона"],
+    "correctIndex": 1,
+    "gloss": "Baitursynuly named his 1911 poetry collection after an insect whose buzz wakes a sleeper. Which? — «Маса» (Mosquito), meant to wake the people."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Қазақ аңызында Жеті қарақшы Темірқазыққа байлаулы екі атты ұрламақ болып, оны айналып жүреді. Жеті қарақшы — қай шоқжұлдыз?",
+    "options": ["Кіші Аю", "Орион", "Кассиопея", "Үлкен Аю"],
+    "correctIndex": 3,
+    "gloss": "In the legend the Seven Robbers circle the Iron Stake (Polaris) to steal two horses tied to it. Which constellation are they? — Ursa Major; the Little Dipper holds Polaris and the horses."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Мария Склодовская-Кюри өзі ашқан элементтердің бірін туған елінің құрметіне атаған. Қай элемент?",
+    "options": ["Радий", "Франций", "Полоний", "Германий"],
+    "correctIndex": 2,
+    "gloss": "Marie Skłodowska-Curie named one element she discovered after her homeland. Which? — Polonium (Poland). Francium, named after France where she worked, was found by Marguerite Perey."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Бүкіләлемдік өрмекті (WWW) ойлап тапқан Тим Бернерс-Ли сол кезде қай ұйымда жұмыс істеді?",
+    "options": ["CERN", "NASA", "IBM", "Microsoft"],
+    "correctIndex": 0,
+    "gloss": "Where did Tim Berners-Lee work when he invented the World Wide Web? — CERN, near Geneva."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Экваторға жақын болса да, басынан қар кетпейтін Африканың ең биік шыңы Килиманджаро қай елде орналасқан?",
+    "options": ["Кенияда", "Танзанияда", "Эфиопияда", "Угандада"],
+    "correctIndex": 1,
+    "gloss": "In which country is Kilimanjaro, Africa's highest, snow-capped peak near the equator? — Tanzania; Kenya, from where it is often photographed, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Белгісіз тапсырыс берушіге жазылып, композитор аяқтай алмай кеткен атақты «Реквием» кімдікі?",
+    "options": ["Бетховен", "Шуберт", "Верди", "Моцарт"],
+    "correctIndex": 3,
+    "gloss": "Whose famous Requiem, written for an anonymous patron, was left unfinished at the composer's death? — Mozart's. Verdi finished his; Schubert's 'Unfinished' is a symphony."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Теннистің «Үлкен дулыға» турнирлерінің ішінде тек біреуі топырақ кортта өтеді. Қайсысы?",
+    "options": ["Уимблдон", "Франция ашық чемпионаты", "АҚШ ашық чемпионаты", "Австралия ашық чемпионаты"],
+    "correctIndex": 1,
+    "gloss": "Only one Grand Slam tournament is played on clay. Which? — The French Open (Roland Garros)."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Капучино кофесі өз атауын кімдердің киімінің түсінен алған?",
+    "options": ["Капуцин монахтарының", "Венециялық гондольерлердің", "Испан тореадорларының", "Италия карабинерлерінің"],
+    "correctIndex": 0,
+    "gloss": "Cappuccino is named after the colour of whose clothing? — The Capuchin friars' brown habit."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1858 жылы Шоқан Уәлиханов Әлімбай есімді саудагер болып киініп, ол кезде еуропалықтар бара алмай жүрген қай қалаға жетті?",
+    "options": ["Құлжаға", "Бұхараға", "Қашқарға", "Хиуаға"],
+    "correctIndex": 2,
+    "gloss": "In 1858, disguised as the merchant Alimbai, Chokan Valikhanov reached which city then closed to Europeans? — Kashgar."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Дүниедегі мәдени алма сорттарының бәрінің арғы тегі саналатын, Іле Алатауында әлі де жабайы өсетін алма қалай аталады?",
+    "options": ["Апорт", "Сиверс алмасы", "Ақ құйма", "Семиренко"],
+    "correctIndex": 1,
+    "gloss": "Which apple, still growing wild in the Trans-Ili Alatau, is the ancestor of all cultivated apples? — Sievers' apple (Malus sieversii); Aport is Almaty's famous cultivar, the trap."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Ұлы Жібек жолы» деген атауды 1877 жылы ғылымға енгізген неміс географы кім?",
+    "options": ["Александр фон Гумбольдт", "Карл Риттер", "Свен Гедин", "Фердинанд фон Рихтгофен"],
+    "correctIndex": 3,
+    "gloss": "Which German geographer introduced the name 'Silk Road' in 1877? — Ferdinand von Richthofen."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Алиса ғажайыптар елінде» кітабының авторы Льюис Кэрролл Оксфордта қай пәннен сабақ берген?",
+    "options": ["Математикадан", "Тарихтан", "Медицинадан", "Химиядан"],
+    "correctIndex": 0,
+    "gloss": "What subject did Lewis Carroll, author of 'Alice in Wonderland', teach at Oxford? — Mathematics (Christ Church)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Менделеев кестесіндегі төрт элемент бір шведтік ауылдың атымен аталған. Қай ауыл?",
+    "options": ["Уппсала", "Фалун", "Иттербю", "Кируна"],
+    "correctIndex": 2,
+    "gloss": "Four elements are named after one Swedish village. Which? — Ytterby: yttrium, ytterbium, terbium, erbium. Knowing the element names lets you match the village."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Теңіз асқан аумақтарын қоса есептегенде, қай елде уақыт белдеулері ең көп?",
+    "options": ["Ресей", "АҚШ", "Қытай", "Франция"],
+    "correctIndex": 3,
+    "gloss": "Counting overseas territories, which country has the most time zones? — France, 12 (Polynesia, Réunion, Guiana...); Russia has 11, China only one."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "«Импрессионизм» атауы бір сыншының 1874 жылғы көрмедегі бір картинаны мазақ етуінен шыққан. Қай картина?",
+    "options": ["Клод Моненің «Әсер. Күннің шығуы»", "Эдуард Маненің «Шөп үстіндегі таңғы ас»", "Эдгар Дегастың «Көк биішілер»", "Огюст Ренуардың «Қайықшылардың таңғы асы»"],
+    "correctIndex": 0,
+    "gloss": "'Impressionism' came from a critic mocking one painting at the 1874 exhibition. Which? — Monet's 'Impression, Sunrise' (impression = әсер)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қазіргі стандартты фортепианода барлығы неше перне бар?",
+    "options": ["72", "85", "88", "96"],
+    "correctIndex": 2,
+    "gloss": "How many keys on a modern standard piano? — 88 (52 white, 36 black); 85 was the older standard."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1886 жылы шахматтан тұңғыш ресми әлем чемпионы атанған кім?",
+    "options": ["Пол Морфи", "Вильгельм Стейниц", "Эмануил Ласкер", "Хосе Рауль Капабланка"],
+    "correctIndex": 1,
+    "gloss": "Who became the first official world chess champion in 1886? — Wilhelm Steinitz, beating Zukertort; Morphy never held an official title."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Робот» сөзін 1920 жылы жазылған пьесасы арқылы әлемге таныстырған чех жазушысы кім?",
+    "options": ["Франц Кафка", "Ярослав Гашек", "Милан Кундера", "Карел Чапек"],
+    "correctIndex": 3,
+    "gloss": "Which Czech writer introduced the word 'robot' to the world in a 1920 play? — Karel Čapek, in R.U.R. (the word was suggested by his brother Josef)."
+  }
+]

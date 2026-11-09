@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Према пословици, ко рано рани, тај граби – колико среће?",
+    "options": ["Једну", "Две", "Три", "Седам"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, whoever rises early grabs how much luck? — Two: «Ко рано рани, две среће граби»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Бака је са пијаце понела туце јаја, а пола туцета јој се разбило на путу кући. Колико је целих јаја донела?",
+    "options": ["Четири", "Осам", "Шест", "Десет"],
+    "correctIndex": 2,
+    "gloss": "Grandma carried a dozen eggs home from the market and half a dozen broke on the way. How many whole eggs did she bring? — Six: 12 − 6."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Калемегдан гледа на ушће двеју река. Једна је Дунав – а која је друга?",
+    "options": ["Сава", "Тиса", "Морава", "Дрина"],
+    "correctIndex": 0,
+    "gloss": "Kalemegdan overlooks the confluence of two rivers. One is the Danube, which is the other? — The Sava, which flows into the Danube at Belgrade."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Паук није инсект, што се види већ по ногама. Колико их има?",
+    "options": ["Шест", "Четири", "Десет", "Осам"],
+    "correctIndex": 3,
+    "gloss": "A spider is not an insect, as its legs show. How many does it have? — Eight; insects have six."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шта се у јесен пече по двориштима да би се од тога направио ајвар?",
+    "options": ["Тиква", "Паприка", "Кукуруз", "Кромпир"],
+    "correctIndex": 1,
+    "gloss": "What is roasted in yards every autumn to make ajvar? — Red peppers."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Сваког лета Гуча у Драгачеву окупља стотине хиљада људи. Који инструмент је звезда тог сабора?",
+    "options": ["Гусле", "Фрула", "Хармоника", "Труба"],
+    "correctIndex": 3,
+    "gloss": "Every summer Guča in Dragačevo draws hundreds of thousands. Which instrument is the star of the festival? — The trumpet: the Dragačevo Trumpet Festival."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Колико је грама пола од пола килограма?",
+    "options": ["125", "250", "500", "750"],
+    "correctIndex": 1,
+    "gloss": "How many grams is half of half a kilogram? — 250: a quarter of 1000 g. 500 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Које се од ових занимања чита исто и слева надесно и здесна налево?",
+    "options": ["Пекар", "Ковач", "Ратар", "Ловац"],
+    "correctIndex": 2,
+    "gloss": "Which of these trades reads the same left to right and right to left? — Ratar (farmer) is a palindrome; pekar, kovač, lovac are not."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се зове дрвени дечак коме нос порасте сваки пут кад слаже?",
+    "options": ["Пинокио", "Петар Пан", "Мали принц", "Том Сојер"],
+    "correctIndex": 0,
+    "gloss": "What is the name of the wooden boy whose nose grows every time he lies? — Pinocchio (Collodi)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коју боју добијате кад помешате плаву и жуту темперу?",
+    "options": ["Љубичасту", "Наранџасту", "Смеђу", "Зелену"],
+    "correctIndex": 3,
+    "gloss": "What colour do you get by mixing blue and yellow paint? — Green."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Роман о мосту у Вишеграду написао је једини југословенски добитник Нобелове награде за књижевност. Ко је он?",
+    "options": ["Иво Андрић", "Меша Селимовић", "Милош Црњански", "Бранко Ћопић"],
+    "correctIndex": 0,
+    "gloss": "The novel about the bridge in Višegrad was written by the only Yugoslav Nobel laureate in literature. Who? — Ivo Andrić, «На Дрини ћуприја», Nobel 1961."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Планинари знају да се на великој висини пасуљ кува дуже. Каква је тамо температура кључања воде у односу на 100 °C?",
+    "options": ["Виша", "Иста", "Нижа", "Зависи од доба дана"],
+    "correctIndex": 2,
+    "gloss": "Mountaineers know beans take longer to cook at altitude. How does water's boiling point there compare with 100 °C? — Lower: lower air pressure; cooler boiling water cooks more slowly."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Вулкан Етна, који и данас често избацује лаву, налази се на ком острву?",
+    "options": ["Крит", "Сицилија", "Сардинија", "Корзика"],
+    "correctIndex": 1,
+    "gloss": "Mount Etna, which still erupts often, is on which island? — Sicily."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Неке животиње једре кроз ваздух, али само један сисар заиста лети. Који?",
+    "options": ["Летећа веверица", "Кртица", "Слепи миш", "Летећи лемур"],
+    "correctIndex": 2,
+    "gloss": "Some animals glide, but only one mammal truly flies. Which? — The bat; flying squirrels and colugos only glide."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Божић по јулијанском календару, 25. децембар, данас пада 7. јануара. Када онда по истом календару пада 1. јануар?",
+    "options": ["8. јануара", "13. јануара", "15. јануара", "14. јануара"],
+    "correctIndex": 3,
+    "gloss": "Julian Christmas, 25 December, now falls on 7 January. When does Julian 1 January fall? — 14 January: the gap is 13 days (25 Dec → 7 Jan), so 1 Jan → 14 Jan, the 'Serbian New Year'. 13 is the trap."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Бетовен је Девету симфонију компоновао у време када је већ био потпуно…",
+    "options": ["глув", "слеп", "нем", "непокретан"],
+    "correctIndex": 0,
+    "gloss": "Beethoven composed his Ninth Symphony when he was already completely… — deaf."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У ком тимском спорту је Србија освојила олимпијско злато три пута заредом – у Рију, Токију и Паризу?",
+    "options": ["Кошарка", "Одбојка", "Ватерполо", "Рукомет"],
+    "correctIndex": 2,
+    "gloss": "In which team sport did Serbia win Olympic gold three times running, in Rio, Tokyo and Paris? — Water polo (men, 2016, 2020, 2024)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Један бит може бити само 0 или 1. Колико различитих вредности могу да запишу два бита заједно?",
+    "options": ["2", "3", "4", "8"],
+    "correctIndex": 2,
+    "gloss": "One bit can only be 0 or 1. How many different values can two bits store? — 4: 00, 01, 10, 11."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У говору „урнебес“ значи општу лудницу. А шта је урнебес на српској трпези?",
+    "options": ["Чорба од речне рибе", "Љути намаз од сира и паприке", "Колач од млевених ораха", "Пита од рендане тикве"],
+    "correctIndex": 1,
+    "gloss": "In speech 'urnebes' means utter chaos. What is urnebes on a Serbian table? — A spicy spread of cheese and hot pepper (urnebes salata)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Свећа изгори за три сата. За колико сати изгоре три такве свеће упаљене у исти мах?",
+    "options": ["1", "3", "6", "9"],
+    "correctIndex": 1,
+    "gloss": "A candle burns down in three hours. How long do three such candles lit at the same time take? — 3 hours: they burn in parallel. 9 is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Његов лик је на новчаници од 50 динара, а славу су му донеле хорске „Руковети“. Ко је он?",
+    "options": ["Корнелије Станковић", "Јосиф Маринковић", "Стеван Мокрањац", "Петар Коњовић"],
+    "correctIndex": 2,
+    "gloss": "His face is on the 50-dinar note, and his choral 'Garlands' made him famous. Who? — Stevan Stojanović Mokranjac."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Премештањем слова речи „трава“ могу се сложити још две познате речи. Које?",
+    "options": ["„врата“ и „тврда“", "„ватра“ и „карта“", "„патка“ и „ватра“", "„ватра“ и „врата“"],
+    "correctIndex": 3,
+    "gloss": "Rearranging the letters of 'trava' (grass) gives two other common words. Which? — 'vatra' (fire) and 'vrata' (door); every other option needs a letter trava lacks (д, к, п)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је римски цар, рођен у Нишу, Миланским едиктом 313. године дао хришћанима слободу вероисповести?",
+    "options": ["Диоклецијан", "Константин Велики", "Јустинијан", "Теодосије"],
+    "correctIndex": 1,
+    "gloss": "Which Roman emperor, born in Niš, gave Christians freedom of worship with the Edict of Milan in 313? — Constantine the Great (born in Naissus)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Звук кроз ваздух пређе око 340 метара у секунди. Ако гром чујете три секунде после муње, колико је далеко ударио?",
+    "options": ["Око 100 метара", "Око 340 метара", "Око 1 километра", "Око 3 километра"],
+    "correctIndex": 2,
+    "gloss": "Sound travels about 340 m per second. If thunder comes three seconds after the lightning, how far away did it strike? — About 1 km: 3 × 340 ≈ 1020 m."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Нил извире у срцу Африке, а улива се у Средоземно море. У ком смеру углавном тече?",
+    "options": ["Ка југу", "Ка истоку", "Ка западу", "Ка северу"],
+    "correctIndex": 3,
+    "gloss": "The Nile rises in the heart of Africa and flows into the Mediterranean. Which way does it mostly flow? — North: the Mediterranean lies north of Africa."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Песма названа по једној венецијанској цркви, „Санта Марија дела Салуте“, дело је ког песника?",
+    "options": ["Лазе Костића", "Ђуре Јакшића", "Јована Јовановића Змаја", "Бранка Радичевића"],
+    "correctIndex": 0,
+    "gloss": "The poem named after a Venetian church, 'Santa Maria della Salute', is by which poet? — Laza Kostić (1909)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чувени „Бели анђео“, фреска анђела на Христовом гробу, налази се у ком манастиру?",
+    "options": ["Студеница", "Сопоћани", "Жича", "Милешева"],
+    "correctIndex": 3,
+    "gloss": "The famous 'White Angel', a fresco of the angel at Christ's tomb, is in which monastery? — Mileševa."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Чамац у мирној води плови 10 км/ч, а река тече 2 км/ч. За колико сати чамац пређе 24 км узводно?",
+    "options": ["2", "2,4", "3", "4"],
+    "correctIndex": 2,
+    "gloss": "A boat makes 10 km/h in still water; the river flows at 2 km/h. How many hours to go 24 km upstream? — 3: upstream speed is 10 − 2 = 8 km/h. 2.4 ignores the current."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хоботница има плаву крв и неуобичајено много срца. Колико?",
+    "options": ["Три", "Два", "Четири", "Осам"],
+    "correctIndex": 0,
+    "gloss": "The octopus has blue blood and an unusual number of hearts. How many? — Three: two for the gills, one for the body. Eight is the 'arms' trap."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Шаховски скакач скаче у облику слова Г. Колико поља може да нападне скакач који стоји у углу табле?",
+    "options": ["Једно", "Два", "Три", "Четири"],
+    "correctIndex": 1,
+    "gloss": "A chess knight moves in an L shape. How many squares can a knight in a corner attack? — Two: from a1 only b3 and c2."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Име динара потиче од римског новчића денаријуса. Шта је, по пореклу, значила та латинска реч?",
+    "options": ["Онај од сребра", "Онај са царевим ликом", "Онај који вреди десет", "Онај који је ситан"],
+    "correctIndex": 2,
+    "gloss": "The dinar is named after the Roman denarius. What did the Latin word originally mean? — 'Containing ten': from deni (ten each), as it was worth ten asses; cf. decimal."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је писац свој роман објавио у „мушком“ и „женском“ издању, која се разликују у једном пасусу?",
+    "options": ["Милорад Павић", "Данило Киш", "Борислав Пекић", "Милош Црњански"],
+    "correctIndex": 0,
+    "gloss": "Which writer published his novel in a 'male' and a 'female' edition that differ in one passage? — Milorad Pavić, 'Dictionary of the Khazars' (1984)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Експедиција која је први пут опловила свет назива се по свом вођи, иако он није доживео њен повратак. Ко је то?",
+    "options": ["Васко да Гама", "Хуан Себастијан Елкано", "Џејмс Кук", "Фернандо Магелан"],
+    "correctIndex": 3,
+    "gloss": "The first expedition round the world is named after its leader, though he did not live to see its return. Who? — Ferdinand Magellan, killed in the Philippines in 1521; Elcano, the trap, survived and brought the ship home."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Српска ћирилица има 30 слова. Колико од њих не постоји у руској азбуци?",
+    "options": ["Пет", "Шест", "Седам", "Осам"],
+    "correctIndex": 1,
+    "gloss": "Serbian Cyrillic has 30 letters. How many of them are not in the Russian alphabet? — Six: Ђ, Ј, Љ, Њ, Ћ, Џ; the other 24 all exist in Russian."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Дрина настаје спајањем двеју река код Шћепан Поља. Којих?",
+    "options": ["Лима и Увца", "Таре и Лима", "Пиве и Сутјеске", "Таре и Пиве"],
+    "correctIndex": 3,
+    "gloss": "The Drina is formed where two rivers meet at Šćepan Polje. Which? — The Tara and the Piva. Lim and Sutjeska are later tributaries."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Гистав Ајфел није градио само своју кулу: његова фирма направила је и унутрашњу носећу конструкцију ког чувеног споменика?",
+    "options": ["Тријумфалне капије", "Кипа слободе", "Атомијума", "Биг Бена"],
+    "correctIndex": 1,
+    "gloss": "Gustave Eiffel didn't only build his tower: his firm also made the internal supporting framework of which famous monument? — The Statue of Liberty."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је режисер снимио и „Ко то тамо пева“ и „Маратонци трче почасни круг“?",
+    "options": ["Емир Кустурица", "Горан Марковић", "Слободан Шијан", "Горан Паскаљевић"],
+    "correctIndex": 2,
+    "gloss": "Which director made both 'Who's Singin' Over There?' and 'The Marathon Family'? — Slobodan Šijan (1980, 1982)."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "По народном веровању, трећу ноћ по рођењу детета долазе да му одреде судбину. Ко?",
+    "options": ["Виле", "Суђаје", "Караконџуле", "Вештице"],
+    "correctIndex": 1,
+    "gloss": "In folk belief, who comes on the third night after a child's birth to decide its fate? — The Suđaje (suđenice), the Fates of Serbian folklore."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Колико је римских знакова потребно да се запише број 1888?",
+    "options": ["9", "11", "13", "15"],
+    "correctIndex": 2,
+    "gloss": "How many Roman numeral characters does 1888 take? — 13: MDCCCLXXXVIII (M, D, CCC, L, XXX, V, III)."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Капучино је добио име по боји мантија једног монашког реда. Ког?",
+    "options": ["Доминиканаца", "Бенедиктинаца", "Језуита", "Капуцина"],
+    "correctIndex": 3,
+    "gloss": "Cappuccino is named after the colour of one religious order's habits. Which? — The Capuchins: the name gives it away to anyone who links cappuccino and Capuchin. Franciscans, of whom the Capuchins are a branch, are deliberately left out."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Од кога је Вук Караџић преузео начело „Пиши као што говориш“?",
+    "options": ["Јохана Кристофа Аделунга", "Јернеја Копитара", "Јакоба Грима", "Доситеја Обрадовића"],
+    "correctIndex": 0,
+    "gloss": "From whom did Vuk Karadžić take the principle 'Write as you speak'? — Johann Christoph Adelung, the German grammarian. Kopitar, Vuk's mentor, and Grimm, his friend, are the traps."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Раскошно Мирослављево јеванђеље из XII века израђено је за хумског кнеза Мирослава. Чији је он био брат?",
+    "options": ["Стефана Немање", "Стефана Првовенчаног", "Вукана Немањића", "Светог Саве"],
+    "correctIndex": 0,
+    "gloss": "The lavish 12th-century Miroslav Gospel was made for Prince Miroslav of Hum. Whose brother was he? — Stefan Nemanja's. The other options are Nemanja's sons, i.e. Miroslav's nephews."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Михајло Пупин обогатио се кад је једна америчка компанија откупила његов патент. Шта је тај изум омогућио?",
+    "options": ["Бежични пренос енергије", "Телефонирање на велике даљине", "Снимање звука на плочу", "Пренос слике жицом"],
+    "correctIndex": 1,
+    "gloss": "Mihajlo Pupin grew rich when an American company bought his patent. What did the invention make possible? — Long-distance telephony: his loading coils, bought by AT&T."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Које море нема ниједну обалу, већ су му границе океанске струје?",
+    "options": ["Аралско", "Мртво", "Саргаско", "Каспијско"],
+    "correctIndex": 2,
+    "gloss": "Which sea has no coast at all, bounded only by ocean currents? — The Sargasso Sea, in the North Atlantic gyre."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коме је Његош посветио „Горски вијенац“?",
+    "options": ["Петру I Петровићу", "Милошу Обреновићу", "Вуку Караџићу", "Карађорђу"],
+    "correctIndex": 3,
+    "gloss": "To whom did Njegoš dedicate 'The Mountain Wreath'? — Karađorđe: «Праху оца Србије» (To the ashes of the father of Serbia)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ко је пројектовао зграду Опере у Сиднеју, чији кровови подсећају на једра?",
+    "options": ["Оскар Нимајер", "Јерн Уцон", "Френк Гери", "Ренцо Пјано"],
+    "correctIndex": 1,
+    "gloss": "Who designed the Sydney Opera House, with roofs like sails? — Jørn Utzon, the Danish architect."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кад се Одисеј после двадесет година вратио на Итаку прерушен у просјака, стари пас га је одмах препознао. Како се пас звао?",
+    "options": ["Кербер", "Ортос", "Аргос", "Лелап"],
+    "correctIndex": 2,
+    "gloss": "When Odysseus returned to Ithaca after twenty years disguised as a beggar, his old dog knew him at once. What was the dog's name? — Argos (Odyssey, book 17). Cerberus, Orthrus and Laelaps are other mythic dogs."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Галијум, метал који се топи на длану, добио је име по латинском називу једне земље. Које?",
+    "options": ["Португалије", "Француске", "Шпаније", "Немачке"],
+    "correctIndex": 1,
+    "gloss": "Gallium, the metal that melts in your hand, is named after the Latin name of a country. Which? — France: Gallia (Gaul). Germany (germanium) is the trap."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Од ког се млека прави француски сир рокфор?",
+    "options": ["Крављег", "Козјег", "Бивољег", "Овчијег"],
+    "correctIndex": 3,
+    "gloss": "What milk is French Roquefort cheese made from? — Sheep's milk (protected designation requires it)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "У низу 1, 1, 2, 3, 5, 8, 13… сваки број је збир претходна два. Ком чувеном броју тежи количник два суседна члана?",
+    "options": ["Златном пресеку", "Броју π", "Ојлеровом броју", "Квадратном корену из 2"],
+    "correctIndex": 0,
+    "gloss": "In 1, 1, 2, 3, 5, 8, 13… each number is the sum of the two before. Which famous number does the ratio of neighbours approach? — The golden ratio (≈1.618): 13/8 = 1.625, 21/13 ≈ 1.615."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dovršite poslovicu: „Tko rano rani, … grabi.”",
+    "options": [
+      "Tri sreće",
+      "Jednu sreću",
+      "Dvije sreće",
+      "Sve sreće"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: \"He who rises early, grabs ... \" — Two fortunes: the proverb \"Tko rano rani, dvije sreće grabi\"."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "U utrci pretekneš trkača koji je drugi. Na kojem si mjestu sada?",
+    "options": [
+      "Prvom",
+      "Drugom",
+      "Trećem",
+      "Četvrtom"
+    ],
+    "correctIndex": 1,
+    "gloss": "In a race you overtake the runner who is second. What place are you in now? — Second: you take his place; passing the runner in second does not put you first."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je kontinent gotovo u cijelosti prekriven ledom i nema stalnih stanovnika, samo istraživače?",
+    "options": [
+      "Australija",
+      "Europa",
+      "Sjeverna Amerika",
+      "Antarktika"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which continent is almost entirely covered in ice and has no permanent residents, only researchers? — Antarctica."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pizza margherita nosi boje talijanske zastave: crvenu daje rajčica, bijelu mozzarella. Koja začinska biljka daje zelenu?",
+    "options": [
+      "Bosiljak",
+      "Peršin",
+      "Menta",
+      "Lovor"
+    ],
+    "correctIndex": 0,
+    "gloss": "Pizza margherita carries the colours of the Italian flag: red tomato, white mozzarella. Which herb gives the green? — Basil."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hrvatska je do 2023. plaćala valutom nazvanom po maloj životinji. Po kojoj?",
+    "options": [
+      "Lisici",
+      "Kuni",
+      "Vjeverici",
+      "Zecu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Until 2023 Croatia paid with a currency named after a small animal. Which? — The marten (kuna)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koja velika ptica selica, bijela s crnim krilima i crvenim kljunom, gradi gnijezda na dimnjacima i krovovima, a u priči „donosi” bebe?",
+    "options": [
+      "Lastavica",
+      "Golub",
+      "Roda",
+      "Vrana"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which large migratory bird, white with black wings and a red beak, nests on chimneys and roofs and \"brings\" babies in the story? — The white stork (roda)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koji hrvatski naziv mjeseca doslovno znači „pad lišća”?",
+    "options": [
+      "Listopad",
+      "Rujan",
+      "Studeni",
+      "Prosinac"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Croatian month name literally means \"fall of leaves\"? — Listopad (October): list(će) + pad; a word-building clue."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tko je napisala „Čudnovate zgode šegrta Hlapića”, najpoznatiju hrvatsku pripovijest o postolarskom šegrtu?",
+    "options": [
+      "Marija Jurić Zagorka",
+      "Vesna Parun",
+      "Dubravka Ugrešić",
+      "Ivana Brlić-Mažuranić"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"The Strange Adventures of Hlapić the Apprentice\"? — Ivana Brlić-Mažuranić (1913)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Utakmica je završila s ukupno pet postignutih golova, a domaćin je pobijedio s jednim golom razlike. Koji je bio rezultat?",
+    "options": [
+      "4:1",
+      "5:0",
+      "3:2",
+      "2:1"
+    ],
+    "correctIndex": 2,
+    "gloss": "A match ended with five goals in total and the home side won by one goal. What was the score? — 3:2; the other scores have a wrong sum or margin."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je žuti Pokémon sa strelastim repom i crvenim obrazima koji ispušta struju?",
+    "options": [
+      "Charmander",
+      "Pikachu",
+      "Bulbasaur",
+      "Squirtle"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which yellow Pokémon with a lightning-bolt tail and red cheeks gives off electricity? — Pikachu."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je vladar oko 925. godine postao prvi hrvatski kralj?",
+    "options": [
+      "Zvonimir",
+      "Branimir",
+      "Trpimir",
+      "Tomislav"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ruler became the first Croatian king around 925? — Tomislav; the others are later or earlier Croatian rulers."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Riječ „oktava” dolazi od latinskog „octo”, osam. Koliko bijelih tipki na klaviru obuhvaća oktava ako se broje oba krajnja „do”?",
+    "options": [
+      "7",
+      "8",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word \"octave\" comes from Latin \"octo\", eight. How many white piano keys does an octave span, counting both end Cs? — 8: C D E F G A B C. 12 and 13 count the black keys too."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nikola Tesla rođen je 1856. u selu Smiljan. U kojem se hrvatskom kraju ono nalazi?",
+    "options": [
+      "Slavonija",
+      "Istra",
+      "Lika",
+      "Zagorje"
+    ],
+    "correctIndex": 2,
+    "gloss": "Nikola Tesla was born in 1856 in the village of Smiljan. In which Croatian region is it? — Lika (near Gospić)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je hrvatski tenisač 2001. osvojio Wimbledon kao igrač s pozivnicom organizatora, takozvanim wild cardom?",
+    "options": [
+      "Goran Ivanišević",
+      "Ivan Ljubičić",
+      "Marin Čilić",
+      "Mario Ančić"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Croatian tennis player won Wimbledon in 2001 as a wild card? — Goran Ivanišević, the only wild card to win the tournament."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja hrvatska riječ znači i povrće zbog kojeg plačemo pri rezanju i oružje iz kojeg se ispucavaju strijele?",
+    "options": [
+      "Kosa",
+      "Ključ",
+      "Bor",
+      "Luk"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Croatian word means both the vegetable that makes us cry when cut and the weapon that shoots arrows? — Luk (onion / bow); the others are homonyms for other things."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Što je glavni uzrok godišnjih doba na Zemlji?",
+    "options": [
+      "Promjena udaljenosti Zemlje od Sunca",
+      "Nagib Zemljine osi",
+      "Sunčeve pjege",
+      "Mjesečeve mijene"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the main cause of the seasons on Earth? — The tilt of Earth's axis; the distance trap fails because the Earth is closest to the Sun in early January."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Koji broj slijedi u nizu: 1, 1, 2, 3, 5, 8, …?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number comes next: 1, 1, 2, 3, 5, 8, ...? — 13; each term is the sum of the two before it (Fibonacci)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je jedini sisavac koji doista leti, a ne samo klizi zrakom?",
+    "options": [
+      "Šišmiš",
+      "Leteća vjeverica",
+      "Kolibrić",
+      "Leteća riba"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which is the only mammal that truly flies rather than merely glides? — The bat; the flying squirrel glides, the hummingbird is a bird, the flying fish is a fish."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koja je andska civilizacija u 15. stoljeću podigla Machu Picchu, grad visoko u planinama Perua?",
+    "options": [
+      "Maje",
+      "Inke",
+      "Azteci",
+      "Olmeci"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Andean civilization built Machu Picchu, a city high in the mountains of Peru, in the 15th century? — The Incas; Maya, Aztecs and Olmecs lived in Mesoamerica."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je nizozemski slikar naslikao „Zvjezdanu noć”?",
+    "options": [
+      "Rembrandt van Rijn",
+      "Johannes Vermeer",
+      "Piet Mondrian",
+      "Vincent van Gogh"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Dutch painter painted \"The Starry Night\"? — Vincent van Gogh (1889); the others are also Dutch painters."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tko je napisao roman „Zlatarovo zlato”, smješten u Zagreb 16. stoljeća?",
+    "options": [
+      "August Šenoa",
+      "Antun Gustav Matoš",
+      "Vladimir Nazor",
+      "Ksaver Šandor Gjalski"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel \"The Goldsmith's Gold\", set in 16th-century Zagreb? — August Šenoa (1871)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na kojoj se planini nalazi najviši vrh Hrvatske, visok 1831 metar?",
+    "options": [
+      "Velebit",
+      "Biokovo",
+      "Dinara",
+      "Medvednica"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which mountain is the highest peak of Croatia, 1,831 metres high? — Dinara (Sinjal)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dodir palca na nozi golemog brončanog kipa Grgura Ninskog, djela Ivana Meštrovića, prema vjerovanju donosi sreću. U kojem gradu stoji taj kip?",
+    "options": [
+      "Zadar",
+      "Split",
+      "Šibenik",
+      "Dubrovnik"
+    ],
+    "correctIndex": 1,
+    "gloss": "Touching the toe of the huge bronze statue of Gregory of Nin, by Ivan Meštrović, is said to bring luck. In which city does it stand? — Split (north of the Golden Gate of Diocletian's Palace)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kravata je ime dobila po plaćenicima iz 17. stoljeća, čiji su šareni rupci oko vrata oduševili Francuze. Iz koje su zemlje dolazili?",
+    "options": [
+      "Hrvatska",
+      "Mađarska",
+      "Poljska",
+      "Austrija"
+    ],
+    "correctIndex": 0,
+    "gloss": "The cravat got its name from 17th-century mercenaries whose neckerchiefs delighted the French. Which country did they come from? — Croatia (\"cravate\" is from \"Croate\"); the sound of \"kravata\" is a clue."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Računalo sve zapisuje nulama i jedinicama. Koji se broj u binarnom zapisu piše kao 101?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "gloss": "A computer writes everything with zeros and ones. Which number is written 101 in binary? — 5 (4 + 0 + 1)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koja ptica može lebdjeti u mjestu i letjeti unatrag?",
+    "options": [
+      "Lastavica",
+      "Vrabac",
+      "Sova",
+      "Kolibri"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird can hover in place and fly backwards? — The hummingbird."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Rimljani su grčkog Zeusa zvali Jupiter, a Afroditu Venera. Kako su zvali Hermesa, brzog glasnika bogova?",
+    "options": [
+      "Merkur",
+      "Vulkan",
+      "Saturn",
+      "Neptun"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Romans called Greek Zeus Jupiter and Aphrodite Venus. What did they call Hermes, the swift messenger of the gods? — Mercury; Vulcan is Hephaestus, Neptune is Poseidon, Saturn is Cronus."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je prvi dugometražni film u cijelosti nastao računalnom animacijom, izašao 1995.?",
+    "options": [
+      "Potraga za Nemom",
+      "Priča o igračkama",
+      "Život jedne bube",
+      "Shrek"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which was the first feature film made entirely with computer animation, released in 1995? — Toy Story (\"Priča o igračkama\")."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pet strojeva za pet minuta izradi pet igračaka. Koliko je minuta potrebno da sto strojeva izradi sto igračaka?",
+    "options": [
+      "1",
+      "5",
+      "20",
+      "100"
+    ],
+    "correctIndex": 1,
+    "gloss": "Five machines make five toys in five minutes. How long do 100 machines need for 100 toys? — 5 minutes: each machine makes one toy in five minutes."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kvasac u tijestu „jede” šećer i pritom oslobađa plin koji tijesto podiže. Koji je to plin?",
+    "options": [
+      "Kisik",
+      "Dušik",
+      "Vodik",
+      "Ugljikov dioksid"
+    ],
+    "correctIndex": 3,
+    "gloss": "Yeast in dough \"eats\" sugar and releases a gas that makes the dough rise. Which gas? — Carbon dioxide."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je grad na Jadranu 1416. donio zakon o zabrani trgovine robljem, među prvima u Europi?",
+    "options": [
+      "Venecija",
+      "Ancona",
+      "Dubrovnik",
+      "Zadar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Adriatic city passed a law banning the slave trade in 1416, among the first in Europe? — Dubrovnik."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dražen Petrović u NBA ligi igrao je za dva kluba. U kojem je proveo posljednje dvije sezone?",
+    "options": [
+      "Portland Trail Blazers",
+      "New Jersey Nets",
+      "Chicago Bulls",
+      "Boston Celtics"
+    ],
+    "correctIndex": 1,
+    "gloss": "Dražen Petrović played for two NBA clubs. Which did he spend his last two seasons with? — The New Jersey Nets (1991-93), after Portland (1989-91)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hrvatski seizmolog Andrija Mohorovičić otkrio je 1909. granicu koja danas nosi njegovo ime. Što ona razdvaja?",
+    "options": [
+      "Zemljinu koru i plašt",
+      "Plašt i vanjsku jezgru",
+      "Vanjsku i unutarnju jezgru",
+      "Zemljinu koru i atmosferu"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Croatian seismologist Andrija Mohorovičić discovered in 1909 a boundary that bears his name. What does it separate? — The Earth's crust and mantle (the Moho)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hrvatski broji prema dugoj ljestvici: milijun, milijarda, pa tek onda bilijun. Čemu je jednak bilijun?",
+    "options": [
+      "Tisuću milijuna",
+      "Sto milijardi",
+      "Milijun milijardi",
+      "Tisuću milijardi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Croatian counts on the long scale: million, milliard, and only then \"bilijun\". What is a bilijun equal to? — A thousand milliards (10^12); a thousand millions is a milliard."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Čovječja ribica, bijelo i gotovo slijepo stvorenje iz podzemnih voda dinarskog krša, unatoč imenu nije riba. Kojoj životinjskoj skupini pripada?",
+    "options": [
+      "Gmazovima",
+      "Mekušcima",
+      "Rakovima",
+      "Vodozemcima"
+    ],
+    "correctIndex": 3,
+    "gloss": "The olm (\"human fish\"), a white, almost blind creature of Dinaric karst waters, is not a fish despite its name. Which group does it belong to? — Amphibians."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tko se, zbog algoritma za Babbageov Analitički stroj iz 1843., često naziva prvom programerkom u povijesti?",
+    "options": [
+      "Grace Hopper",
+      "Hedy Lamarr",
+      "Ada Lovelace",
+      "Marie Curie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who is often called the first programmer in history because of an 1843 algorithm for Babbage's Analytical Engine? — Ada Lovelace."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tko je režirao „Građanina Kanea” (1941.) i u njemu odigrao naslovnu ulogu?",
+    "options": [
+      "Alfred Hitchcock",
+      "Orson Welles",
+      "Stanley Kubrick",
+      "Akira Kurosawa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who directed \"Citizen Kane\" (1941) and played the title role? — Orson Welles."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Prije koncerta cijeli se orkestar ugađa prema tonu a. Koji instrument obično daje taj ton?",
+    "options": [
+      "Oboa",
+      "Violina",
+      "Truba",
+      "Flauta"
+    ],
+    "correctIndex": 0,
+    "gloss": "Before a concert the whole orchestra tunes to the note A. Which instrument usually gives it? — The oboe."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kad je u Zagrebu 18 sati, koliko je sati u Los Angelesu (u većem dijelu godine)?",
+    "options": [
+      "6 sati",
+      "8 sati",
+      "9 sati",
+      "10 sati"
+    ],
+    "correctIndex": 2,
+    "gloss": "When it is 18:00 in Zagreb, what time is it in Los Angeles (most of the year)? — 9:00; the zones are nine hours apart except for a few weeks when the two daylight-saving changes do not line up."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Samo jedan od ovih brojeva nije prost. Koji?",
+    "options": [
+      "91",
+      "89",
+      "97",
+      "101"
+    ],
+    "correctIndex": 0,
+    "gloss": "Only one of these numbers is not prime. Which? — 91 = 7 x 13; the others are prime."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Splitski humanist Marko Marulić, autor „Judite”, u izgubljenom je spisu s početka 16. stoljeća, prema poznatim izvorima, prvi upotrijebio naziv jedne današnje znanosti. Koje?",
+    "options": [
+      "Sociologije",
+      "Biologije",
+      "Geologije",
+      "Psihologije"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Split humanist Marko Marulić, author of \"Judita\", is according to known sources the first to use the name of a present-day science, in a lost early-16th-century treatise. Which? — Psychology (\"psichiologia\")."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Šibenčanin Faust Vrančić u knjizi „Machinae novae” (oko 1615.) nacrtao je napravu zvanu „Homo volans”, latinski „leteći čovjek”. Što je to?",
+    "options": [
+      "Jedrilica",
+      "Padobran",
+      "Balon na vrući zrak",
+      "Helikopter"
+    ],
+    "correctIndex": 1,
+    "gloss": "In \"Machinae novae\" (c. 1615) Faust Vrančić of Šibenik drew a device called \"Homo volans\", \"flying man\". What is it? — A parachute."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "U hrvatskoj abecedi dž, lj i nj broje se kao zasebna slova. Koliko slova ima ta abeceda?",
+    "options": [
+      "27",
+      "29",
+      "30",
+      "32"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Croatian alphabet dž, lj and nj count as separate letters. How many letters does it have? — 30: 22 basic Latin letters + č ć đ š ž + dž lj nj."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na kojem se hrvatskom otoku uzdiže Vidova gora, najviši vrh svih jadranskih otoka?",
+    "options": [
+      "Brač",
+      "Hvar",
+      "Vis",
+      "Korčula"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which Croatian island does Vidova gora rise, the highest peak of all Adriatic islands? — Brač (778 m)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Riječ „robot” u svjetske je jezike stigla iz Čapekove drame iz 1920. Što je „robota” značila u njegovu, češkom jeziku?",
+    "options": [
+      "Umjetni čovjek",
+      "Prisilni rad",
+      "Čelični stroj",
+      "Pokorni sluga"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word \"robot\" came into world languages from Čapek's 1920 play. What did \"robota\" mean in his Czech? — Forced labour, drudgery; compare Croatian \"rob\" and \"robija\"."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kemijski simbol Sb za antimon izveden je iz latinske riječi. Koje?",
+    "options": [
+      "Stannum",
+      "Sulfur",
+      "Stibium",
+      "Argentum"
+    ],
+    "correctIndex": 2,
+    "gloss": "The chemical symbol Sb for antimony derives from a Latin word. Which? — Stibium; stannum is tin, sulfur is S, argentum is silver."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "U kojoj je europskoj istraživačkoj ustanovi Tim Berners-Lee 1989. predložio sustav koji je postao World Wide Web?",
+    "options": [
+      "CERN",
+      "ESA",
+      "Institut Max Planck",
+      "Sveučilište Oxford"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which European research institution did Tim Berners-Lee propose in 1989 the system that became the World Wide Web? — CERN."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Šafran, jedan od najskupljih začina na svijetu, dobiva se iz cvijeta ljubičastog krokusa. Koji se dio cvijeta ručno bere i suši?",
+    "options": [
+      "Latice",
+      "Prašnici",
+      "Čašični listići",
+      "Njuške tučka"
+    ],
+    "correctIndex": 3,
+    "gloss": "Saffron, one of the most expensive spices, comes from the flower of a purple crocus. Which part of the flower is picked by hand and dried? — The stigmas."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koliko je različitih poteza bijelom na raspolaganju u prvom potezu šahovske partije?",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "24"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many different moves does White have on the first move of a chess game? — 20: 16 pawn moves (8 pawns x 1 or 2 squares) plus 4 knight moves."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "U kojem se talijanskom gradu nalazi bazilika San Vitale, ukrašena bizantskim mozaicima iz 6. stoljeća?",
+    "options": [
+      "Ravenna",
+      "Padova",
+      "Verona",
+      "Siena"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Italian city is the basilica of San Vitale, decorated with 6th-century Byzantine mosaics? — Ravenna."
+  }
+]
