@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Theo tục ngữ, một cây làm chẳng nên non, còn ba cây chụm lại thì nên gì?",
+    "options": ["Cánh rừng xanh", "Dòng sông dài", "Hòn núi cao", "Mái nhà vững"],
+    "correctIndex": 2,
+    "gloss": "According to the proverb, one tree cannot make a hill; what do three trees together make? — A tall mountain: «Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dịp Tết, miền Bắc thường gói bánh chưng hình vuông, còn miền Nam thường gói một loại bánh hình trụ dài. Tên của loại bánh ấy là gì?",
+    "options": ["Bánh tét", "Bánh giầy", "Bánh ít", "Bánh ú"],
+    "correctIndex": 0,
+    "gloss": "At Tet the north wraps square bánh chưng, the south a long cylindrical cake; what is it called? — Bánh tét. Bánh giầy is round and white, bánh ít and bánh ú are small wrapped cakes."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Trong cơn giông, ta thường thấy chớp trước rồi vài giây sau mới nghe tiếng sấm. Nguyên nhân là gì?",
+    "options": ["Âm thanh truyền nhanh hơn ánh sáng", "Ánh sáng truyền nhanh hơn âm thanh", "Sấm nổ muộn hơn chớp vài giây", "Tai nghe chậm hơn mắt nhìn"],
+    "correctIndex": 1,
+    "gloss": "In a storm we see lightning first and hear thunder seconds later; why? — Light travels far faster than sound. Both happen at the same moment."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mẹ mua hai chục trứng, đã dùng hết 5 quả. Còn lại bao nhiêu quả?",
+    "options": ["25 quả", "20 quả", "5 quả", "15 quả"],
+    "correctIndex": 3,
+    "gloss": "Mum bought two «chục» of eggs and used 5; how many are left? — 15. A «chục» is ten, so 20 − 5 = 15."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Cá voi mẹ nuôi con non bằng sữa của mình. Điều đó cho thấy cá voi thuộc nhóm động vật nào?",
+    "options": ["Cá", "Bò sát", "Thú có vú", "Lưỡng cư"],
+    "correctIndex": 2,
+    "gloss": "A mother whale nurses her calf with milk; which animal group does that show whales belong to? — Mammals. Feeding young with milk is the mark of a mammal, despite the word «cá» (fish) in the name."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Món sốt guacamole nổi tiếng của Mexico được làm chủ yếu từ loại quả nào?",
+    "options": ["Xoài", "Đu đủ", "Dưa hấu", "Bơ"],
+    "correctIndex": 3,
+    "gloss": "Mexico's famous guacamole sauce is made mainly from which fruit? — Avocado (bơ)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vịnh nào của Việt Nam, với hàng nghìn đảo đá vôi nhô lên từ mặt nước, được UNESCO công nhận là Di sản thiên nhiên thế giới?",
+    "options": ["Vịnh Nha Trang", "Vịnh Hạ Long", "Vịnh Vân Phong", "Vịnh Cam Ranh"],
+    "correctIndex": 1,
+    "gloss": "Which Vietnamese bay, with thousands of limestone islands, is a UNESCO World Natural Heritage Site? — Ha Long Bay. The others are real bays but not World Heritage sites."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Năm 1969, tàu Apollo 11 đưa con người đến Mặt Trăng. Ai là người đầu tiên bước xuống bề mặt đó?",
+    "options": ["Neil Armstrong", "Buzz Aldrin", "Michael Collins", "Yuri Gagarin"],
+    "correctIndex": 0,
+    "gloss": "In 1969 Apollo 11 took people to the Moon; who stepped onto it first? — Neil Armstrong. Aldrin followed, Collins stayed in orbit, Gagarin was the first man in space."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nhạc cụ dân tộc nào của người Việt chỉ có một dây mà tiếng ngân vang như giọng hát?",
+    "options": ["Đàn nhị", "Đàn tranh", "Đàn bầu", "Đàn nguyệt"],
+    "correctIndex": 2,
+    "gloss": "Which Vietnamese folk instrument has just one string yet sings like a voice? — The đàn bầu. The nhị and nguyệt have two strings, the tranh many."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Trong tiếng Việt, mỗi âm tiết được gọi là một “tiếng”. Câu ca dao “Nghĩa mẹ như nước trong nguồn chảy ra” có bao nhiêu tiếng?",
+    "options": ["7", "8", "9", "10"],
+    "correctIndex": 1,
+    "gloss": "In Vietnamese each syllable is a «tiếng»; how many does the folk line «Nghĩa mẹ như nước trong nguồn chảy ra» have? — 8: nghĩa, mẹ, như, nước, trong, nguồn, chảy, ra, the «bát» (eight) half of a lục bát couplet."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Năm 1010, vua Lý Thái Tổ dời kinh đô từ Hoa Lư ra một thành mới bên sông Hồng, nơi sau này là Hà Nội. Thành ấy được đặt tên là gì?",
+    "options": ["Phú Xuân", "Cổ Loa", "Tây Đô", "Thăng Long"],
+    "correctIndex": 3,
+    "gloss": "In 1010 King Ly Thai To moved the capital from Hoa Lu to a new citadel on the Red River, later Hanoi; what was it named? — Thang Long. The others are other historic capitals."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nhiều du khách giờ có thể lên tận đỉnh bằng cáp treo. Đỉnh núi nào được mệnh danh là “nóc nhà Đông Dương”?",
+    "options": ["Ngọc Linh", "Phan Xi Păng", "Bạch Mã", "Tam Đảo"],
+    "correctIndex": 1,
+    "gloss": "Tourists can now ride a cable car to the top; which peak is called the «roof of Indochina»? — Phan Xi Pang (Fansipan), over 3,100 m."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dù ta thở bằng ôxi, nhưng khí nào mới là thành phần chiếm nhiều nhất trong không khí?",
+    "options": ["Ôxi", "Argon", "Nitơ", "Cacbon đioxit"],
+    "correctIndex": 2,
+    "gloss": "We breathe oxygen, but which gas makes up most of the air? — Nitrogen, about 78%; oxygen is about 21%."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Trong mười hai con giáp của người Việt, chỗ của con thỏ trong lịch Trung Hoa là con vật nào?",
+    "options": ["Mèo", "Cáo", "Chồn", "Sóc"],
+    "correctIndex": 0,
+    "gloss": "In the Vietnamese zodiac, which animal takes the place of the rabbit in the Chinese one? — The cat (Mão)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tôi mua một ly cà phê và một ổ bánh mì hết 40.000 đồng. Ly cà phê đắt hơn ổ bánh mì đúng 30.000 đồng. Ổ bánh mì giá bao nhiêu?",
+    "options": ["5.000 đồng", "10.000 đồng", "15.000 đồng", "20.000 đồng"],
+    "correctIndex": 0,
+    "gloss": "A coffee and a bánh mì cost 40,000 đồng together; the coffee costs 30,000 more than the bánh mì. The bánh mì? — 5,000 (coffee 35,000). The autopilot answer 10,000 would make the difference only 20,000."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Tháng Bảy ở Hà Nội là giữa mùa hè nóng bức. Cùng lúc ấy, ở thành phố Sydney của Úc đang là mùa gì?",
+    "options": ["Mùa xuân", "Mùa hè", "Mùa đông", "Mùa thu"],
+    "correctIndex": 2,
+    "gloss": "July in Hanoi is mid-summer; what season is it in Sydney, Australia, at the same time? — Winter: the southern hemisphere's seasons are reversed."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nhà soạn nhạc nào bị mất dần thính lực nhưng vẫn viết được những bản giao hưởng vĩ đại, trong đó có bản số 9 với phần hợp xướng?",
+    "options": ["Mozart", "Beethoven", "Haydn", "Schubert"],
+    "correctIndex": 1,
+    "gloss": "Which composer lost his hearing yet wrote great symphonies, including the 9th with a choir? — Beethoven (1824)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Trong từ Hán Việt, “thượng” nghĩa là trên, “hạ” nghĩa là dưới. Vậy “hạ lưu” của một con sông là đoạn nào?",
+    "options": ["Đoạn đầu nguồn, nơi nước bắt đầu chảy", "Đoạn chảy qua vùng núi cao", "Đoạn nằm giữa hai nhánh sông", "Đoạn cuối, gần nơi sông đổ ra biển"],
+    "correctIndex": 3,
+    "gloss": "In Sino-Vietnamese «thượng» is up and «hạ» is down; which stretch of a river is the «hạ lưu»? — The lower course near the mouth; «thượng lưu» is the upper course."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Một bit trong máy tính chỉ có hai trạng thái là 0 hoặc 1. Ghép ba bit lại thì được bao nhiêu tổ hợp khác nhau?",
+    "options": ["6", "8", "9", "16"],
+    "correctIndex": 1,
+    "gloss": "A bit is 0 or 1; how many different combinations do three bits make? — 8 (2 × 2 × 2). The tempting 6 and 9 come from adding or multiplying 3 with 2 and 3."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Món cao lầu, sợi mì dày dai ăn kèm thịt heo xíu và rau sống, là đặc sản của phố cổ nào?",
+    "options": ["Quy Nhơn", "Huế", "Nha Trang", "Hội An"],
+    "correctIndex": 3,
+    "gloss": "Cao lau, chewy thick noodles with sliced roast pork and herbs, is a speciality of which old town? — Hoi An."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chữ quốc ngữ ghi tiếng Việt bằng chữ cái Latinh được nhiều giáo sĩ phương Tây góp sức hoàn thiện. Cuốn từ điển Việt–Bồ–La in ở Roma năm 1651 là của ai?",
+    "options": ["Alexandre de Rhodes", "Francisco de Pina", "Christoforo Borri", "Gaspar do Amaral"],
+    "correctIndex": 0,
+    "gloss": "Quoc ngu writes Vietnamese in Latin letters, perfected by many missionaries; whose Vietnamese–Portuguese–Latin dictionary was printed in Rome in 1651? — Alexandre de Rhodes. The others were also Jesuits working on early romanisation."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Năm 2000 nhiều người ăn mừng thế kỷ mới. Nhưng theo cách tính chính xác (không có năm 0), thế kỷ XXI bắt đầu từ năm nào?",
+    "options": ["1999", "2000", "2001", "2010"],
+    "correctIndex": 2,
+    "gloss": "Many celebrated a new century in 2000, but counting exactly (there is no year 0), when did the 21st century begin? — 2001: the 1st century is years 1–100, so the 21st starts at 2001."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Năm 1971, trên Mặt Trăng, một nhà du hành vũ trụ thả cùng lúc cái búa và chiếc lông chim từ cùng độ cao. Điều gì xảy ra?",
+    "options": ["Búa chạm đất trước", "Lông chim bay lên cao", "Lông chim rơi chậm như trên Trái Đất", "Cả hai chạm đất cùng lúc"],
+    "correctIndex": 3,
+    "gloss": "In 1971 an astronaut dropped a hammer and a feather together on the Moon; what happened? — They landed at the same time: with no air, gravity accelerates all objects equally (David Scott, Apollo 15)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ở loài cá ngựa, con nào mang trứng trong túi ấp trên bụng và đẻ ra cá con?",
+    "options": ["Cá ngựa cái", "Cá ngựa đực", "Cả hai thay phiên nhau", "Trứng trôi tự do và nở ngoài biển"],
+    "correctIndex": 1,
+    "gloss": "In seahorses, which one carries the eggs in a belly pouch and gives birth? — The male: the female deposits eggs in his brood pouch."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tranh khắc gỗ in trên giấy điệp, với những bức như “Đám cưới chuột” và “Đàn lợn âm dương”, thuộc dòng tranh dân gian nào?",
+    "options": ["Hàng Trống", "Kim Hoàng", "Đông Hồ", "Sình"],
+    "correctIndex": 2,
+    "gloss": "Woodblock prints on «giấy điệp» paper such as «The Mice's Wedding» and «Yin-Yang Pigs» belong to which folk painting tradition? — Dong Ho. The others are other real Vietnamese folk-print traditions."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tên nhiều phố cổ Hà Nội bắt đầu bằng “Hàng”, theo mặt hàng từng bán ở đó. Phố Hàng Mã nổi tiếng với mặt hàng nào?",
+    "options": ["Đồ giấy cúng, vàng mã", "Ngựa và yên cương", "Mã não và đá quý", "Chiếu cói"],
+    "correctIndex": 0,
+    "gloss": "Many Hanoi Old Quarter streets start with «Hàng» plus the goods once sold; what is Hang Ma known for? — Votive paper offerings. «Mã» can mean horse, which is the trap; Hang Chieu (mats) is another real street."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Phim hoạt hình “Spirited Away” của Nhật Bản, giành Oscar Phim hoạt hình hay nhất năm 2003, do ai đạo diễn?",
+    "options": ["Isao Takahata", "Hayao Miyazaki", "Makoto Shinkai", "Mamoru Hosoda"],
+    "correctIndex": 1,
+    "gloss": "Who directed the Japanese animated film «Spirited Away», winner of the 2003 Oscar for Best Animated Feature? — Hayao Miyazaki. The others are also well-known Japanese animation directors."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ai là người mang về tấm huy chương vàng Olympic đầu tiên cho thể thao Việt Nam, tại Rio de Janeiro năm 2016?",
+    "options": ["Trần Hiếu Ngân", "Lê Văn Công", "Hoàng Xuân Vinh", "Nguyễn Thị Ánh Viên"],
+    "correctIndex": 2,
+    "gloss": "Who won Vietnam's first Olympic gold medal, in Rio de Janeiro in 2016? — Hoang Xuan Vinh (10 m air pistol). Le Van Cong won a Paralympic gold in the same city, Tran Hieu Ngan an Olympic silver in 2000."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Một tháng âm lịch dài trung bình khoảng 29,5 ngày. Vậy một năm âm lịch gồm 12 tháng ngắn hơn năm dương lịch (365 ngày) khoảng bao nhiêu ngày?",
+    "options": ["3 ngày", "6 ngày", "11 ngày", "31 ngày"],
+    "correctIndex": 2,
+    "gloss": "A lunar month averages 29.5 days; how many days shorter than a 365-day solar year is a 12-month lunar year? — About 11 (12 × 29.5 = 354). That gap is why a leap month is added every few years."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Bảng chữ cái tiếng Việt có 29 chữ cái, nhưng không dùng f, j, w, z của bảng Latinh 26 chữ. Hỏi có bao nhiêu chữ cái của tiếng Việt không có trong bảng 26 chữ ấy (như ă, â, đ…)?",
+    "options": ["4", "7", "11", "22"],
+    "correctIndex": 1,
+    "gloss": "The Vietnamese alphabet has 29 letters but lacks f, j, w, z of the 26-letter Latin one; how many Vietnamese letters are not in the Latin 26? — 7: 26 − 4 = 22 shared, 29 − 22 = 7 (ă, â, đ, ê, ô, ơ, ư)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Văn Miếu ở Thăng Long, nơi thờ Khổng Tử và các bậc hiền triết, được xây dựng năm 1070 dưới triều vua nào?",
+    "options": ["Lý Nhân Tông", "Trần Nhân Tông", "Lê Thánh Tông", "Lý Thánh Tông"],
+    "correctIndex": 3,
+    "gloss": "The Temple of Literature in Thang Long, dedicated to Confucius, was built in 1070 under which king? — Ly Thanh Tong. Ly Nhan Tong added the Imperial Academy in 1076, a close trap."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Khi ở Hà Nội đang là 12 giờ trưa, ở New Delhi (Ấn Độ) là mấy giờ?",
+    "options": ["9 giờ 30", "10 giờ 00", "10 giờ 30", "11 giờ 00"],
+    "correctIndex": 2,
+    "gloss": "When it is noon in Hanoi, what time is it in New Delhi? — 10:30. Vietnam is UTC+7, India UTC+5:30, a difference of 1.5 hours."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Trên hành tinh nào của Hệ Mặt Trời, một vòng tự quay quanh trục mất nhiều thời gian hơn cả một vòng quanh Mặt Trời?",
+    "options": ["Sao Thủy", "Sao Hỏa", "Sao Thổ", "Sao Kim"],
+    "correctIndex": 3,
+    "gloss": "On which planet does one rotation on its axis take longer than one orbit of the Sun? — Venus (rotation about 243 Earth days, year about 225)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nhà văn Gabriel García Márquez, tác giả tiểu thuyết “Trăm năm cô đơn”, sinh ra ở nước nào?",
+    "options": ["Colombia", "Argentina", "Mexico", "Chile"],
+    "correctIndex": 0,
+    "gloss": "In which country was Gabriel García Márquez, author of «One Hundred Years of Solitude», born? — Colombia. He lived much of his life in Mexico, a tempting trap."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Máy tính đếm bằng hệ nhị phân, chỉ dùng hai chữ số 0 và 1. Số 1101 trong hệ ấy bằng số nào ở hệ thập phân?",
+    "options": ["11", "12", "13", "15"],
+    "correctIndex": 2,
+    "gloss": "Computers count in binary; what is 1101 in decimal? — 13 (8 + 4 + 0 + 1). 15 is 1111."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Theo truyền thuyết và sử sách, nước Văn Lang của các vua Hùng đóng đô ở đâu?",
+    "options": ["Cổ Loa", "Phong Châu", "Hoa Lư", "Mê Linh"],
+    "correctIndex": 1,
+    "gloss": "According to legend and chronicles, where was the capital of the Hung kings' Van Lang? — Phong Chau. Co Loa was Au Lac's, Hoa Lu the Dinh and Early Le capital, Me Linh the Trung sisters' seat."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nhân vật Mario của hãng Nintendo, khi xuất hiện lần đầu trong trò chơi “Donkey Kong” (1981), làm nghề gì?",
+    "options": ["Thợ mộc", "Thợ sửa ống nước", "Thợ điện", "Đầu bếp"],
+    "correctIndex": 0,
+    "gloss": "In his first appearance, in «Donkey Kong» (1981), what was Nintendo's Mario by trade? — A carpenter. He became a plumber later, in Mario Bros."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bản “Boléro” (1928), với giai điệu lặp đi lặp lại trong khi dàn nhạc dày dần lên, là tác phẩm của nhà soạn nhạc nào?",
+    "options": ["Claude Debussy", "Georges Bizet", "Erik Satie", "Maurice Ravel"],
+    "correctIndex": 3,
+    "gloss": "Who composed «Boléro» (1928), a repeating melody over a growing orchestra? — Maurice Ravel. The others are other famous French composers."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Bài thơ “Qua Đèo Ngang” của Bà Huyện Thanh Quan viết theo thể thất ngôn bát cú. Cả bài có bao nhiêu chữ (tiếng)?",
+    "options": ["48", "56", "64", "72"],
+    "correctIndex": 1,
+    "gloss": "«Qua Đèo Ngang» by Ba Huyen Thanh Quan is in the «thất ngôn bát cú» form; how many syllables in the whole poem? — 56: thất = 7 syllables per line, bát = 8 lines, 7 × 8 = 56."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Người Việt gọi tên năm bằng cả can (Giáp, Ất, Bính…) lẫn chi (Tý, Sửu, Dần…). Sau bao nhiêu năm thì một năm như “Giáp Tý” lại trở về?",
+    "options": ["12", "22", "60", "120"],
+    "correctIndex": 2,
+    "gloss": "Years are named by a stem (can) and a branch (chi); after how many years does a name like «Giáp Tý» return? — 60: 10 stems and 12 branches repeat together every lcm(10, 12) = 60 years, the «hoa giáp»."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bộ quốc sử đầu tiên của nước ta, “Đại Việt sử ký”, hoàn thành năm 1272 dưới triều Trần, do ai biên soạn?",
+    "options": ["Lê Văn Hưu", "Ngô Sĩ Liên", "Phan Huy Chú", "Lê Quý Đôn"],
+    "correctIndex": 0,
+    "gloss": "Who compiled the first national history, «Đại Việt sử ký», completed in 1272 under the Tran? — Le Van Huu. Ngo Si Lien later expanded the chronicle (15th century), Phan Huy Chu and Le Quy Don were later scholars."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Chỉ có hai quốc gia trên thế giới bị bao quanh hoàn toàn bởi những nước cũng không có biển. Một trong hai là Uzbekistan. Nước còn lại là nước nào?",
+    "options": ["Áo", "Luxembourg", "Andorra", "Liechtenstein"],
+    "correctIndex": 3,
+    "gloss": "Only two countries are surrounded entirely by other landlocked countries; one is Uzbekistan, which is the other? — Liechtenstein (Switzerland and Austria). Austria, Luxembourg and Andorra each border a country with a coast."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ở nhiệt độ nào thì nhiệt kế Celsius và nhiệt kế Fahrenheit cùng chỉ một con số?",
+    "options": ["0 độ", "-17,8 độ", "-32 độ", "-40 độ"],
+    "correctIndex": 3,
+    "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40. F = 1.8·C + 32, so C = 1.8·C + 32 gives C = −40. (−17.8 °C is 0 °F.)"
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Loài thú nào không thuộc bộ linh trưởng nhưng có vân tay giống của người đến mức khó phân biệt dưới kính hiển vi?",
+    "options": ["Gấu túi (koala)", "Gấu trúc", "Chuột túi", "Con lười"],
+    "correctIndex": 0,
+    "gloss": "Which non-primate mammal has fingerprints so like a human's they are hard to tell apart under a microscope? — The koala."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bức bích họa “Bữa tiệc cuối cùng” của Leonardo da Vinci được vẽ trên tường nhà ăn của một tu viện ở thành phố Milano. Đó là tu viện nào?",
+    "options": ["Santa Croce", "San Marco", "Santa Maria del Fiore", "Santa Maria delle Grazie"],
+    "correctIndex": 3,
+    "gloss": "Leonardo's «Last Supper» fresco is on the refectory wall of a convent in Milan; which one? — Santa Maria delle Grazie. The others are real Italian churches (Santa Maria del Fiore is Florence's cathedral)."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bộ phim câm khoa học viễn tưởng “Metropolis” (1927), với người máy Maria, do đạo diễn nào thực hiện?",
+    "options": ["Robert Wiene", "Fritz Lang", "Sergei Eisenstein", "F. W. Murnau"],
+    "correctIndex": 1,
+    "gloss": "Who directed the silent science-fiction film «Metropolis» (1927) with the robot Maria? — Fritz Lang. The others are famous silent-era directors."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cự ly marathon chuẩn 42,195 km lần đầu tiên xuất hiện tại kỳ Thế vận hội nào?",
+    "options": ["Athens 1896", "Paris 1900", "Luân Đôn 1908", "Stockholm 1912"],
+    "correctIndex": 2,
+    "gloss": "At which Olympics did the 42.195 km marathon distance first appear? — London 1908 (26 miles 385 yards); the other Games ran different lengths."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bài tiểu luận “Một thời đại trong thi ca”, mở đầu cuốn “Thi nhân Việt Nam” (1942), là của nhà phê bình nào?",
+    "options": ["Hoài Thanh", "Vũ Ngọc Phan", "Thạch Lam", "Dương Quảng Hàm"],
+    "correctIndex": 0,
+    "gloss": "Which critic wrote the essay «Một thời đại trong thi ca», the opening of «Thi nhân Việt Nam» (1942)? — Hoai Thanh. The others are other Vietnamese writers and literary historians."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nước chanh có pH khoảng 2 còn nước tinh khiết có pH 7. Nước chanh có nồng độ ion hiđrô gấp khoảng bao nhiêu lần nước tinh khiết?",
+    "options": ["5 lần", "50 lần", "1.000 lần", "100.000 lần"],
+    "correctIndex": 3,
+    "gloss": "Lemon juice has pH about 2 and pure water pH 7; how many times more hydrogen ions does the juice have? — 100,000: pH is logarithmic, each step is ten times, and 7 − 2 = 5 steps."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Loại pho mát xanh nổi tiếng của Pháp, ủ trong các hang đá vôi quanh làng Roquefort-sur-Soulzon, được làm từ sữa con vật nào?",
+    "options": ["Cừu", "Bò", "Dê", "Trâu"],
+    "correctIndex": 0,
+    "gloss": "The famous French blue cheese aged in limestone caves around Roquefort-sur-Soulzon is made from the milk of which animal? — Sheep."
+  }
+]

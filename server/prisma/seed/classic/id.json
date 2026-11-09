@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lengkapi peribahasa berikut: “Ada gula ada ….”",
+    "options": [
+      "Lalat",
+      "Lebah",
+      "Semut",
+      "Tikus"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: 'Where there is sugar, there are ...' — Ants (semut): 'ada gula ada semut', where there is something sweet, people gather."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Siapa yang bersama Soekarno memproklamasikan kemerdekaan Indonesia pada 17 Agustus 1945?",
+    "options": [
+      "Sutan Sjahrir",
+      "Mohammad Hatta",
+      "Ki Hajar Dewantara",
+      "Soepomo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who proclaimed Indonesian independence together with Soekarno on 17 August 1945? — Mohammad Hatta, the two signed the proclamation as the 'dwitunggal'."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Di sebuah warung, seporsi nasi goreng harganya Rp14.000 dan segelas es teh Rp6.000. Bayu memesan dua nasi goreng dan satu es teh, lalu membayar dengan uang Rp50.000. Berapa kembaliannya?",
+    "options": [
+      "Rp12.000",
+      "Rp22.000",
+      "Rp18.000",
+      "Rp16.000"
+    ],
+    "correctIndex": 3,
+    "gloss": "At a warung fried rice is Rp14,000, iced tea Rp6,000; Bayu orders two rice and one tea and pays Rp50,000. Change? — Rp16,000: 2x14,000 + 6,000 = 34,000; Rp22,000 is the trap of forgetting the tea."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Warna pelangi mudah diingat lewat kata “mejikuhibiniu”: tiap suku kata adalah awal nama satu warna, berurutan dari merah. Warna apa yang diwakili “ni”?",
+    "options": [
+      "Biru",
+      "Nila",
+      "Ungu",
+      "Hijau"
+    ],
+    "correctIndex": 1,
+    "gloss": "The rainbow mnemonic 'mejikuhibiniu': each syllable starts one colour, in order from red. Which colour is 'ni'? — Nila (indigo): me-rah, ji-ngga, ku-ning, hi-jau, bi-ru, ni-la, u-ngu."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hewan apa yang paling besar di Bumi saat ini, jauh melampaui gajah?",
+    "options": [
+      "Paus biru",
+      "Gajah Afrika",
+      "Hiu paus",
+      "Paus sperma"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which animal is the largest on Earth today, far beyond the elephant? — The blue whale."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kamu berdiri menghadap arah matahari terbenam. Ke arah mana tangan kananmu menunjuk?",
+    "options": [
+      "Selatan",
+      "Timur",
+      "Barat",
+      "Utara"
+    ],
+    "correctIndex": 3,
+    "gloss": "You face the sunset. Which way does your right hand point? — North: the sun sets in the west; facing west, your right is north."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Alat musik bambu khas Sunda yang dimainkan dengan cara digoyangkan itu bernama ….",
+    "options": [
+      "Angklung",
+      "Sasando",
+      "Kolintang",
+      "Rebab"
+    ],
+    "correctIndex": 0,
+    "gloss": "The bamboo instrument from Sunda played by shaking it is called ... — Angklung. Sasando is from Rote, kolintang from Minahasa, rebab is bowed."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam cerita rakyat dari Sumatra Barat, Malin Kundang durhaka kepada ibunya dan akhirnya dikutuk menjadi apa?",
+    "options": [
+      "Pohon",
+      "Ikan",
+      "Burung",
+      "Batu"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the West Sumatran folk tale, Malin Kundang wrongs his mother and is cursed into what? — A stone."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sungai apa yang mengalir melalui Kairo dan membuat tanah Mesir subur sejak ribuan tahun lalu?",
+    "options": [
+      "Kongo",
+      "Nil",
+      "Mekong",
+      "Amazon"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which river runs through Cairo and has made Egypt fertile for thousands of years? — The Nile."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Planet mana yang dijuluki “Planet Merah”?",
+    "options": [
+      "Venus",
+      "Merkurius",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which planet is nicknamed the 'Red Planet'? — Mars."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Medali emas Olimpiade pertama bagi Indonesia diraih di Barcelona pada 1992, dari cabang olahraga ….",
+    "options": [
+      "Angkat besi",
+      "Tinju",
+      "Panahan",
+      "Bulu tangkis"
+    ],
+    "correctIndex": 3,
+    "gloss": "Indonesia's first Olympic gold came in Barcelona 1992, in which sport? — Badminton (Susi Susanti and Alan Budikusuma)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Bu Rina membeli 3 kodi piring untuk warungnya, lalu 10 piring pecah. Berapa piring yang masih utuh?",
+    "options": [
+      "20",
+      "40",
+      "50",
+      "60"
+    ],
+    "correctIndex": 2,
+    "gloss": "Bu Rina buys 3 kodi of plates and 10 break. How many are left? — 50: one kodi is 20 items, so 3 kodi = 60, minus 10."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Di peta berskala 1:100.000, jarak dua kota tampak 4 cm. Berapa jarak sebenarnya kedua kota itu?",
+    "options": [
+      "400 m",
+      "4 km",
+      "40 km",
+      "400 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a 1:100,000 map two towns are 4 cm apart. Real distance? — 4 km: 4 cm x 100,000 = 400,000 cm = 4 km."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Komodo, kadal terbesar di dunia, hidup liar hanya di beberapa pulau di Indonesia. Pulau-pulau itu termasuk wilayah provinsi ….",
+    "options": [
+      "Nusa Tenggara Timur",
+      "Nusa Tenggara Barat",
+      "Maluku",
+      "Sulawesi Tenggara"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Komodo dragon lives wild only on a few Indonesian islands, in which province? — East Nusa Tenggara (Komodo, Rinca, Flores); West Nusa Tenggara is the neighbour trap."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Penulis dongeng “Putri Duyung Kecil” dan “Itik Buruk Rupa”, Hans Christian Andersen, berasal dari negara ….",
+    "options": [
+      "Swedia",
+      "Norwegia",
+      "Denmark",
+      "Finlandia"
+    ],
+    "correctIndex": 2,
+    "gloss": "The author of 'The Little Mermaid' and 'The Ugly Duckling', Hans Christian Andersen, was from which country? — Denmark; the others are neighbouring Nordic countries."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Berapa hasil penjumlahan angka Romawi XIV dan IX?",
+    "options": [
+      "21",
+      "23",
+      "24",
+      "25"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Roman numerals XIV plus IX? — 23: 14 + 9."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hari Batik Nasional, yang diperingati sejak UNESCO mengakui batik pada 2009, jatuh pada bulan ….",
+    "options": [
+      "Oktober",
+      "Agustus",
+      "April",
+      "November"
+    ],
+    "correctIndex": 0,
+    "gloss": "National Batik Day, observed since UNESCO recognised batik in 2009, falls in which month? — October (2 Oct). The others are months of other national days."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cokelat dibuat dari biji buah sebuah pohon tropis. Apa nama pohon itu?",
+    "options": [
+      "Kopi",
+      "Vanili",
+      "Kayu manis",
+      "Kakao"
+    ],
+    "correctIndex": 3,
+    "gloss": "Chocolate is made from the seeds of a tropical tree. What is it called? — Cacao (kakao); the others are other tropical crops."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bahasa pemrograman populer ini bernama sama dengan pulau tempat Jakarta berada, dan logonya berupa secangkir kopi panas. Apa namanya?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Java",
+      "Swift"
+    ],
+    "correctIndex": 2,
+    "gloss": "This popular programming language shares its name with the island where Jakarta lies, and its logo is a cup of hot coffee. — Java."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Resep nasi kuning untuk 4 orang memakai 300 gram beras. Berapa gram beras yang dibutuhkan untuk 10 orang?",
+    "options": [
+      "600",
+      "750",
+      "900",
+      "1.200"
+    ],
+    "correctIndex": 1,
+    "gloss": "A nasi kuning recipe for 4 people uses 300 g of rice. How much for 10? — 750 g: 75 g per person."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kilat terlihat, dan tiga detik kemudian guruhnya terdengar. Kira-kira seberapa jauh petir itu?",
+    "options": [
+      "100 meter",
+      "1 kilometer",
+      "10 kilometer",
+      "100 kilometer"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lightning flashes and the thunder comes three seconds later. How far is it? — About 1 km: light is instant, sound covers roughly 340 m per second."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sebuah buku dan sebuah pensil harganya Rp11.000 bersama-sama. Buku lebih mahal Rp10.000 daripada pensil. Berapa harga pensil?",
+    "options": [
+      "Rp500",
+      "Rp1.000",
+      "Rp1.500",
+      "Rp5.500"
+    ],
+    "correctIndex": 0,
+    "gloss": "A book and a pencil cost Rp11,000 together; the book costs Rp10,000 more than the pencil. Pencil price? — Rp500 (book Rp10,500). Rp1,000 is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam Sumpah Pemuda 1928, para pemuda berikrar menjunjung bahasa persatuan. Bahasa apakah itu?",
+    "options": [
+      "Bahasa Jawa",
+      "Bahasa Melayu",
+      "Bahasa Indonesia",
+      "Bahasa Belanda"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the 1928 Youth Pledge, the youth vowed to uphold a unifying language. Which? — Bahasa Indonesia; Malay is the tempting root."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Novel “Laskar Pelangi” karya Andrea Hirata berlatar di pulau ….",
+    "options": [
+      "Natuna",
+      "Bangka",
+      "Madura",
+      "Belitung"
+    ],
+    "correctIndex": 3,
+    "gloss": "Andrea Hirata's novel 'Laskar Pelangi' is set on the island of ... — Belitung; Bangka is the neighbouring tin island."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Danau mana yang merupakan danau terdalam di dunia, dengan kedalaman lebih dari 1.600 meter?",
+    "options": [
+      "Baikal",
+      "Tanganyika",
+      "Victoria",
+      "Toba"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which lake is the deepest in the world, over 1,600 m? — Baikal (about 1,640 m); Tanganyika is second at about 1,470 m."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Di antara hewan khas Australia ini, mana yang mamalia, tetapi berkembang biak dengan bertelur?",
+    "options": [
+      "Kanguru",
+      "Koala",
+      "Platipus",
+      "Wombat"
+    ],
+    "correctIndex": 2,
+    "gloss": "Of these Australian animals, which is a mammal that lays eggs? — The platypus; kangaroo, koala and wombat are marsupials that bear live young."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kata “bendera”, “meja”, dan “sepatu” tidak berasal dari bahasa Belanda, melainkan dari pelaut dan pedagang Eropa lain yang tiba lebih dulu di Nusantara. Dari bahasa apa?",
+    "options": [
+      "Portugis",
+      "Spanyol",
+      "Inggris",
+      "Italia"
+    ],
+    "correctIndex": 0,
+    "gloss": "'Bendera', 'meja', 'sepatu' are not Dutch but come from earlier European traders. Which language? — Portuguese (bandeira, mesa, sapato)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Desember berasal dari kata Latin decem, “sepuluh”, padahal kini bulan ke-12. Pada kalender Romawi yang paling awal, tahun dimulai pada bulan ….",
+    "options": [
+      "Januari",
+      "Maret",
+      "April",
+      "Juli"
+    ],
+    "correctIndex": 1,
+    "gloss": "December comes from Latin decem, 'ten', though it is now month 12. In the old Roman calendar, the year began in which month? — March: December was then the tenth month."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ketika jam di Jakarta menunjukkan pukul 10.00 WIB, pukul berapa di Jayapura, Papua?",
+    "options": [
+      "09.00 WIT",
+      "11.00 WIT",
+      "12.00 WIT",
+      "13.00 WIT"
+    ],
+    "correctIndex": 2,
+    "gloss": "When it is 10:00 WIB in Jakarta, what time is it in Jayapura, Papua? — 12:00 WIT: Indonesia's three zones are UTC+7, +8 and +9."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Film animasi “Spirited Away” dan “My Neighbor Totoro” dibuat oleh studio ….",
+    "options": [
+      "Toei Animation",
+      "Madhouse",
+      "Sunrise",
+      "Studio Ghibli"
+    ],
+    "correctIndex": 3,
+    "gloss": "The animated films 'Spirited Away' and 'My Neighbor Totoro' were made by which studio? — Studio Ghibli."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Lambang kimia Pb berasal dari nama Latin plumbum, yang juga melahirkan kata “plumbing” dalam bahasa Inggris. Logam apakah itu?",
+    "options": [
+      "Perak",
+      "Timbal",
+      "Seng",
+      "Platina"
+    ],
+    "correctIndex": 1,
+    "gloss": "The chemical symbol Pb comes from Latin plumbum, which also gave English 'plumbing'. Which metal? — Lead (timbal); silver is Ag and platinum Pt."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Candi Borobudur dibangun pada abad ke-8 hingga ke-9 oleh wangsa ….",
+    "options": [
+      "Syailendra",
+      "Sanjaya",
+      "Isyana",
+      "Rajasa"
+    ],
+    "correctIndex": 0,
+    "gloss": "Borobudur was built in the 8th-9th century by which dynasty? — The Syailendra."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Segelas air terisi penuh sampai bibir gelas, dan sebongkah es mengapung di dalamnya. Jika es itu mencair seluruhnya, apa yang terjadi pada air di gelas?",
+    "options": [
+      "Meluap dari gelas",
+      "Turun sedikit",
+      "Tetap setinggi semula",
+      "Tidak dapat dipastikan"
+    ],
+    "correctIndex": 2,
+    "gloss": "A glass filled to the brim has an ice cube floating in it. When the ice melts completely, what happens? — The level stays the same: floating ice displaces exactly its own weight in water."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antonio Stradivari, pembuat biola yang karyanya kini dihargai jutaan dolar, bekerja di sebuah kota kecil di Italia utara. Kota apa itu?",
+    "options": [
+      "Milan",
+      "Venesia",
+      "Florence",
+      "Cremona"
+    ],
+    "correctIndex": 3,
+    "gloss": "Antonio Stradivari, whose violins now fetch millions, worked in a small town in northern Italy. Which? — Cremona."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dalam sistem biner yang dipakai komputer, bilangan 1010 sama dengan bilangan berapa dalam sistem desimal?",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the binary system computers use, the number 1010 equals which decimal number? — 10: 8 + 0 + 2 + 0."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Rudy Hartono menjuarai tunggal putra All England setiap tahun dari 1968 sampai 1974. Berapa kali ia juara dalam rentang itu?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "Rudy Hartono won the All England men's singles every year from 1968 to 1974. How many titles is that? — 7 (both end years count); 6 is the subtraction trap, 8 his career total with 1976."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tetralogi Buru karya Pramoedya Ananta Toer dibuka dengan novel ….",
+    "options": [
+      "Anak Semua Bangsa",
+      "Jejak Langkah",
+      "Rumah Kaca",
+      "Bumi Manusia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pramoedya's Buru Quartet opens with which novel? — Bumi Manusia (This Earth of Mankind), then Anak Semua Bangsa, Jejak Langkah, Rumah Kaca."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bahasa Indonesia secara historis dikembangkan dari bahasa Melayu yang dituturkan di daerah ….",
+    "options": [
+      "Betawi",
+      "Minangkabau",
+      "Riau",
+      "Pontianak"
+    ],
+    "correctIndex": 2,
+    "gloss": "Indonesian historically developed from the Malay spoken in which area? — Riau (Riau Malay)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Menurut ilmu botani, buah mana yang termasuk buah beri sejati?",
+    "options": [
+      "Stroberi",
+      "Raspberi",
+      "Pisang",
+      "Murbei"
+    ],
+    "correctIndex": 2,
+    "gloss": "In botany, which fruit is a true berry? — The banana; strawberry, raspberry and mulberry are not true berries."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lengkung runcing, jendela kaca patri raksasa, dan penopang melayang menandai gaya arsitektur katedral abad pertengahan yang disebut ….",
+    "options": [
+      "Barok",
+      "Gotik",
+      "Romanesk",
+      "Renaisans"
+    ],
+    "correctIndex": 1,
+    "gloss": "Pointed arches, huge stained-glass windows and flying buttresses mark which medieval cathedral style? — Gothic."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pada 1667 Inggris mendapat Nieuw Amsterdam, kini bagian dari New York, dan melepas klaimnya atas sebuah pulau pala kecil di Kepulauan Banda. Pulau apa itu?",
+    "options": [
+      "Run",
+      "Ai",
+      "Neira",
+      "Lonthor"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 1667 England got Nieuw Amsterdam (now part of New York) and gave up its claim to a small nutmeg island in the Banda Islands. Which? — Run (Treaty of Breda)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Titik di permukaan Bumi yang paling jauh dari pusat Bumi ternyata bukan puncak tertinggi dari permukaan laut. Puncak gunung mana itu?",
+    "options": [
+      "Chimborazo",
+      "Everest",
+      "Mauna Kea",
+      "Kilimanjaro"
+    ],
+    "correctIndex": 0,
+    "gloss": "The point on Earth's surface farthest from the Earth's centre is not the highest peak above sea level. Which mountain? — Chimborazo: Earth bulges at the equator."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Semboyan negara “Bhinneka Tunggal Ika” dikutip dari kakawin Sutasoma yang digubah pujangga Majapahit ….",
+    "options": [
+      "Mpu Prapanca",
+      "Mpu Kanwa",
+      "Mpu Sedah",
+      "Mpu Tantular"
+    ],
+    "correctIndex": 3,
+    "gloss": "The national motto 'Bhinneka Tunggal Ika' is quoted from the kakawin Sutasoma, composed by which Majapahit poet? — Mpu Tantular (Prapanca wrote the Nagarakretagama)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dalam orbitnya, Bumi berada pada titik terdekat dari Matahari pada awal bulan ….",
+    "options": [
+      "Januari",
+      "April",
+      "Juli",
+      "Oktober"
+    ],
+    "correctIndex": 0,
+    "gloss": "In its orbit, Earth is closest to the Sun in early which month? — January: seasons come from the axial tilt, not from distance."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pada 1971 seorang insinyur memilih tanda “@” untuk memisahkan nama pengguna dari nama komputer dalam surel antarkomputer pertama. Siapa dia?",
+    "options": [
+      "Tim Berners-Lee",
+      "Vint Cerf",
+      "Alan Turing",
+      "Ray Tomlinson"
+    ],
+    "correctIndex": 3,
+    "gloss": "In 1971 an engineer chose the '@' sign for the first networked email. Who? — Ray Tomlinson."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam pewayangan Jawa, Semar yang tampil sebagai abdi para ksatria Pandawa sebenarnya adalah dewa yang menjelma. Siapa dia?",
+    "options": [
+      "Batara Narada",
+      "Batara Kala",
+      "Batara Bayu",
+      "Batara Ismaya"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Javanese wayang, Semar, servant of the Pandawa, is really a god in disguise. Which? — Batara Ismaya."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cleopatra VII hidup pada abad ke-1 SM, sedangkan Piramida Agung Giza dibangun sekitar 2560 SM. Peristiwa mana yang jaraknya lebih dekat dengan masa hidup Cleopatra?",
+    "options": [
+      "Pembangunan Piramida Agung",
+      "Keduanya hampir sama jauhnya",
+      "Tidak dapat dipastikan",
+      "Pendaratan manusia di Bulan pada 1969"
+    ],
+    "correctIndex": 3,
+    "gloss": "Cleopatra lived in the 1st century BC; the Great Pyramid was built about 2560 BC. Which is closer in time to her? — The 1969 Moon landing (about 2,000 years later, versus about 2,500 years after the pyramid)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Garis Wallace, batas imajiner antara satwa Asia dan satwa Australasia, menyusuri selat sempit di sebelah timur Bali. Selat itu memisahkan Bali dari pulau ….",
+    "options": [
+      "Lombok",
+      "Sumbawa",
+      "Madura",
+      "Flores"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Wallace Line, the imaginary boundary between Asian and Australasian fauna, follows a narrow strait east of Bali. It separates Bali from which island? — Lombok."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nama nada do-re-mi (semula ut-re-mi) diambil dari suku kata pertama tiap baris sebuah himne Latin untuk seorang santo. Santo siapa?",
+    "options": [
+      "Santo Yohanes Pembaptis",
+      "Santa Sesilia",
+      "Santo Fransiskus",
+      "Santo Petrus"
+    ],
+    "correctIndex": 0,
+    "gloss": "The names do-re-mi (originally ut-re-mi) come from the first syllables of lines of a Latin hymn to which saint? — St John the Baptist; St Cecilia, patron of music, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kata “robot” berasal dari kata robota dalam bahasa Ceko. Apa arti aslinya?",
+    "options": [
+      "Manusia tiruan",
+      "Kerja paksa",
+      "Mesin pintar",
+      "Tenaga baja"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word 'robot' comes from Czech robota. Its original meaning? — Forced labour (corvée)."
+  }
+]
