@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Toʻy kuni tongda mehmonlarga tortiladigan «nahor oshi» aslida qaysi taom?",
+    "options": [
+      "Shoʻrva",
+      "Lagʻmon",
+      "Manti",
+      "Palov"
+    ],
+    "correctIndex": 3,
+    "gloss": "The 'nahor oshi' served at dawn on a wedding day is which dish? — Plov: the morning wedding plov."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Navroʻzda undirilgan bugʻdoydan tun boʻyi qozonda qaynatib tayyorlanadigan taom qaysi?",
+    "options": [
+      "Halim",
+      "Sumalak",
+      "Nishalda",
+      "Moshxoʻrda"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Navruz dish is cooked all night from sprouted wheat? — Sumalak."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekiston tarkibidagi yagona avtonom respublika qaysi?",
+    "options": [
+      "Xorazm",
+      "Navoiy",
+      "Qoraqalpogʻiston",
+      "Surxondaryo"
+    ],
+    "correctIndex": 2,
+    "gloss": "The only autonomous republic within Uzbekistan? — Karakalpakstan; the others are regions."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ikki torli, uzun dastali oʻzbek milliy cholgʻusi qaysi?",
+    "options": [
+      "Dutor",
+      "Doira",
+      "Nay",
+      "Karnay"
+    ],
+    "correctIndex": 0,
+    "gloss": "Two-stringed long-necked Uzbek instrument? — Dutor ('du' = two, 'tor' = string)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Maqolni davom ettiring: «Bir kun tuz ichgan joyingga … kun salom ber».",
+    "options": [
+      "Yetti",
+      "Yuz",
+      "Ming",
+      "Qirq"
+    ],
+    "correctIndex": 3,
+    "gloss": "Complete the proverb: 'Greet the place where you ate salt for one day for ... days' — forty."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bir yarim soat necha daqiqa boʻladi?",
+    "options": [
+      "80",
+      "90",
+      "150",
+      "100"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many minutes is an hour and a half? — 90: 60 + 30 (150 is the autopilot reading of \"1.5\")."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qaysi soʻz kasb egasini bildiradi?",
+    "options": [
+      "Temirli",
+      "Temirsiz",
+      "Temirchi",
+      "Temirday"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word names a person's trade? — Temirchi (blacksmith): the suffix -chi forms professions."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Oʻsimliklar quyosh nuri yordamida havodan qaysi gazni yutadi?",
+    "options": [
+      "Kislorod",
+      "Karbonat angidrid",
+      "Azot",
+      "Vodorod"
+    ],
+    "correctIndex": 1,
+    "gloss": "Plants absorb which gas from the air in sunlight? — Carbon dioxide (photosynthesis)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dunyodagi eng katta okean qaysi?",
+    "options": [
+      "Atlantika okeani",
+      "Hind okeani",
+      "Shimoliy Muz okeani",
+      "Tinch okeani"
+    ],
+    "correctIndex": 3,
+    "gloss": "The largest ocean? — The Pacific."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Futbol oʻyinida maydonda ikkala jamoadan jami nechta oʻyinchi boʻladi?",
+    "options": [
+      "11",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players from both teams are on a football pitch? — 22: eleven per team, times two."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbek odatiga koʻra, aziz mehmonga piyolada choy qanday quyiladi?",
+    "options": [
+      "Kamroq quyib",
+      "Limmo-lim toʻldirib",
+      "Sovutib",
+      "Ikki piyolada"
+    ],
+    "correctIndex": 0,
+    "gloss": "By Uzbek custom, how is tea poured for an honoured guest? — Only a little, so it can be refilled often; a full piala is impolite."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi qush tunda ov qiladi va boshini deyarli orqaga bura oladi?",
+    "options": [
+      "Laylak",
+      "Qaldirgʻoch",
+      "Boyqush",
+      "Musicha"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird hunts at night and can turn its head almost backwards? — The owl."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Zumrad va Qimmat» ertagida Zumradni kimning gapi bilan oʻrmonga tashlab kelishadi?",
+    "options": [
+      "Oʻgay onasining",
+      "Opasining",
+      "Buvisining",
+      "Qoʻshnisining"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the tale 'Zumrad and Qimmat', at whose word is Zumrad left in the forest? — Her stepmother's."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shekspir fojiasida Romeoning sevgilisi kim?",
+    "options": [
+      "Ofeliya",
+      "Dezdemona",
+      "Kordeliya",
+      "Julyetta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Romeo's beloved in Shakespeare's tragedy? — Juliet."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mashhur «Nu, pogodi!» multfilmida Boʻri doim kimni quvlaydi?",
+    "options": [
+      "Tulkini",
+      "Quyonni",
+      "Tipratikanni",
+      "Ayiqni"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the cartoon 'Nu, pogodi!', whom does the Wolf always chase? — The Hare."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Smartfonlar uchun Android operatsion tizimini qaysi kompaniya ishlab chiqadi?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "Samsung"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which company develops Android? — Google."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Misrdagi mashhur piramidalar kimlar uchun qurilgan?",
+    "options": [
+      "Firavnlar",
+      "Sultonlar",
+      "Imperatorlar",
+      "Xonlar"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who were Egypt's famous pyramids built for? — The pharaohs."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekistonda Mustaqillik kuni qaysi sanada nishonlanadi?",
+    "options": [
+      "8-dekabr",
+      "1-sentabr",
+      "9-may",
+      "21-mart"
+    ],
+    "correctIndex": 1,
+    "gloss": "On what date is Independence Day celebrated in Uzbekistan? — 1 September."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mayiz qaysi mevani quritib tayyorlanadi?",
+    "options": [
+      "Oʻrik",
+      "Olxoʻri",
+      "Anjir",
+      "Uzum"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mayiz (raisins) are made by drying which fruit? — Grapes."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Mona Liza» kartinasini kim chizgan?",
+    "options": [
+      "Rafael",
+      "Mikelanjelo",
+      "Leonardo da Vinchi",
+      "Rembrandt"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who painted the Mona Lisa? — Leonardo da Vinci."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekiston hududining katta qismini egallagan Qizilqum nima?",
+    "options": [
+      "Choʻl",
+      "Togʻ tizmasi",
+      "Koʻl",
+      "Vodiy"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the Kyzylkum, which covers much of Uzbekistan? — A desert."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Anʼanaga koʻra kamalakda nechta rang sanaladi?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "gloss": "By tradition, how many colours are counted in a rainbow? — Seven."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi sport turida toʻp oʻrniga shayba ishlatiladi?",
+    "options": [
+      "Xokkey",
+      "Futbol",
+      "Tennis",
+      "Golf"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sport uses a puck instead of a ball? — Ice hockey."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qadimgi yunonlar fikricha, Olimp togʻida kimlar yashagan?",
+    "options": [
+      "Qahramonlar",
+      "Xudolar",
+      "Devlar",
+      "Kentavrlar"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who lived on Mount Olympus according to the ancient Greeks? — The gods."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi ijtimoiy tarmoq qisqa videolari bilan mashhur, logotipi esa musiqa notasiga oʻxshaydi?",
+    "options": [
+      "Telegram",
+      "Facebook",
+      "TikTok",
+      "LinkedIn"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which social network is known for short videos and has a musical-note logo? — TikTok."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qaysi davlat Oʻzbekiston bilan chegaradosh emas?",
+    "options": [
+      "Qozogʻiston",
+      "Tojikiston",
+      "Turkmaniston",
+      "Ozarbayjon"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country does not border Uzbekistan? — Azerbaijan (across the Caspian)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qaysi soʻz ikki soʻzning qoʻshilishidan yasalgan?",
+    "options": [
+      "Belbogʻ",
+      "Kitob",
+      "Daraxt",
+      "Qalam"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word is built from two words? — Belbogʻ (sash) = bel (waist) + bogʻ (tie)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qator qanday davom etadi: 5, 10, 20, 40, …?",
+    "options": [
+      "60",
+      "80",
+      "50",
+      "45"
+    ],
+    "correctIndex": 1,
+    "gloss": "Continue: 5, 10, 20, 40, ... — 80: each number doubles."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Xudoyberdi Toʻxtaboyevning «Sariq devni minib» romani qahramoni kim?",
+    "options": [
+      "Ahmadjon",
+      "Hoshimjon",
+      "Mamatqul",
+      "Gʻulomjon"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is the hero of Khudoyberdi Tokhtaboyev's novel 'Riding the Yellow Giant'? — Hoshimjon (Qobilov)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fargʻona vodiysidagi qaysi shahar pichoqlari bilan butun yurtga mashhur?",
+    "options": [
+      "Rishton",
+      "Margʻilon",
+      "Chust",
+      "Andijon"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Fergana Valley town is famous for its knives? — Chust (Rishton: ceramics; Margilan: silk)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekiston futbol terma jamoasi ilk bor qaysi yilgi jahon chempionatiga yoʻllanma oldi?",
+    "options": [
+      "2014",
+      "2018",
+      "2022",
+      "2026"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which World Cup did Uzbekistan's national team qualify for first? — 2026 (qualified in June 2025)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekiston gerbida tasvirlangan, baxt ramzi boʻlgan afsonaviy qush qaysi?",
+    "options": [
+      "Humo",
+      "Burgut",
+      "Laylak",
+      "Qaldirgʻoch"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which legendary bird, a symbol of happiness, is on Uzbekistan's coat of arms? — Humo."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qator qanday davom etadi: 1, 4, 9, 16, …?",
+    "options": [
+      "20",
+      "25",
+      "24",
+      "32"
+    ],
+    "correctIndex": 1,
+    "gloss": "Continue: 1, 4, 9, 16, ... — 25: the squares 1², 2², 3², 4², 5²."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koinotga uchgan birinchi inson kim?",
+    "options": [
+      "Nil Armstrong",
+      "German Titov",
+      "Yuriy Gagarin",
+      "Aleksey Leonov"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who was the first person in space? — Yuri Gagarin (1961)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi davlat bayrogʻida zarang bargi tasvirlangan?",
+    "options": [
+      "Avstriya",
+      "Kanada",
+      "Shvetsiya",
+      "Yaponiya"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country's flag shows a maple leaf? — Canada."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Betxoven umrining soʻnggi yillarida qanday holatga qaramay musiqa yozishda davom etgan?",
+    "options": [
+      "Koʻzi koʻrmay qolgan",
+      "Qoʻli falaj boʻlgan",
+      "Qulogʻi eshitmay qolgan",
+      "Ovozi chiqmay qolgan"
+    ],
+    "correctIndex": 2,
+    "gloss": "Despite what condition did Beethoven keep composing in his last years? — He had gone deaf."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qaysi hayvon nomi oʻzbekchada «ism» maʼnosini ham beradi?",
+    "options": [
+      "Tuya",
+      "Qoʻy",
+      "Echki",
+      "Ot"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal's name in Uzbek also means 'name'? — Ot (horse; also 'name', as in 'Otingiz nima?')."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qaysi taom maxsus qasqonda bugʻda pishiriladi?",
+    "options": [
+      "Somsa",
+      "Chuchvara",
+      "Manti",
+      "Lagʻmon"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which dish is steamed in a special steamer (qasqon)? — Manti."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Elektron pochta manzilida foydalanuvchi nomi bilan domen orasida qaysi belgi turadi?",
+    "options": [
+      "#",
+      "&",
+      "%",
+      "@"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which symbol separates the user name from the domain in an email address? — @."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yunon afsonasida Prometey odamlarga xudolardan nimani oʻgʻirlab bergan?",
+    "options": [
+      "Suvni",
+      "Olovni",
+      "Bugʻdoyni",
+      "Yozuvni"
+    ],
+    "correctIndex": 1,
+    "gloss": "What did Prometheus steal from the gods for people? — Fire."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "365 kunlik yilda nechta toʻliq hafta bor?",
+    "options": [
+      "48",
+      "50",
+      "53",
+      "52"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many full weeks are in a 365-day year? — 52 (52 × 7 = 364, one day left over)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi brend logotipida tishlab olingan olma tasvirlangan?",
+    "options": [
+      "Apple",
+      "Samsung",
+      "Xiaomi",
+      "Nokia"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which brand's logo shows an apple with a bite taken out? — Apple."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ibn Sino Yevropada qanday nom bilan tanilgan?",
+    "options": [
+      "Averroes",
+      "Alfraganus",
+      "Avitsenna",
+      "Algorizmi"
+    ],
+    "correctIndex": 2,
+    "gloss": "By what name was Ibn Sina known in Europe? — Avicenna (Averroes = Ibn Rushd, Alfraganus = al-Farghani, Algorizmi = al-Khwarizmi)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Oʻzbekiston» soʻzida nechta harf bor?",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many letters are in 'Oʻzbekiston'? — 10: oʻ is one letter of the alphabet, though it takes two characters to type (trap: 11)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi metall xona haroratida suyuq holatda boʻladi?",
+    "options": [
+      "Qalay",
+      "Qoʻrgʻoshin",
+      "Alyuminiy",
+      "Simob"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which metal is liquid at room temperature? — Mercury."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Yulduzli tun» kartinasi muallifi kim?",
+    "options": [
+      "Klod Mone",
+      "Vinsent van Gog",
+      "Pablo Pikasso",
+      "Salvador Dali"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who painted 'The Starry Night'? — Vincent van Gogh."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qaysi shahar «Ichan qalʼa» deb ataladigan ichki shahri bilan mashhur?",
+    "options": [
+      "Xiva",
+      "Buxoro",
+      "Shahrisabz",
+      "Termiz"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which city is famous for its inner town Itchan Kala? — Khiva."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Abu Rayhon Beruniy qaysi qadimiy oʻlkada tugʻilgan?",
+    "options": [
+      "Soʻgʻd",
+      "Baqtriya",
+      "Fargʻona",
+      "Xorazm"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which ancient land was al-Biruni born? — Khwarazm (in Kath, 973)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Qaysi kimyoviy element nomi yunoncha «quyosh» soʻzidan olingan?",
+    "options": [
+      "Geliy",
+      "Selen",
+      "Neon",
+      "Argon"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which element is named after the Greek word for 'sun'? — Helium (helios); selenium is named after the Moon (selene)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Choʻlpon taxallusi bilan tanilgan shoirning asl ismi qanday?",
+    "options": [
+      "Abdurauf",
+      "Abdulla",
+      "Hamza",
+      "Abdulhamid"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was the real first name of the poet known as Choʻlpon? — Abdulhamid (Sulaymon oʻgʻli Yunusov); Abdurauf was Fitrat, Abdulla was Qodiriy."
+  }
+]

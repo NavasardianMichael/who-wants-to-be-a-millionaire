@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kāds vainags Jāņos tradicionāli pienākas vīriešiem?",
+    "options": ["No bērza lapām", "No ozola lapām", "No liepas lapām", "No kļavas lapām"],
+    "correctIndex": 1,
+    "gloss": "What wreath do men traditionally wear at Midsummer (Jāņi)? — One of oak leaves; women wear flower wreaths."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ar ko pildīti klasiskie latviešu pīrādziņi, bez kuriem neiztiek neviens godu galds?",
+    "options": ["Ar sieru un ķiplokiem", "Ar sēnēm un rīsiem", "Ar speķi un sīpoliem", "Ar zivi un olu"],
+    "correctIndex": 2,
+    "gloss": "What fills the classic Latvian pīrādziņi found on every festive table? — Bacon and onion (speķa pīrāgi)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kā turpinās sakāmvārds „Kas pirmais brauc, …”?",
+    "options": ["tas pirmais ēd", "tas pirmais dzer", "tas pirmais atpūšas", "tas pirmais maļ"],
+    "correctIndex": 3,
+    "gloss": "How does the proverb \"Whoever drives up first…\" go on? — \"…grinds first\" (at the mill): «Kas pirmais brauc, tas pirmais maļ», first come, first served."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Cik zilbju ir vārdā „Ziemassvētki”?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 1,
+    "gloss": "How many syllables are in \"Ziemassvētki\" (Christmas)? — 4: Zie-mas-svēt-ki. \"ie\" is one diphthong, so counting vowel letters gives the trap 5."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš okeāns skalo gan Japānas, gan Kalifornijas krastus?",
+    "options": ["Atlantijas okeāns", "Indijas okeāns", "Klusais okeāns", "Ziemeļu Ledus okeāns"],
+    "correctIndex": 2,
+    "gloss": "Which ocean washes both Japan and California? — The Pacific."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kukainim ir sešas kājas. Cik kāju ir zirneklim, kas kukainis nav?",
+    "options": ["Astoņas", "Sešas", "Desmit", "Četras"],
+    "correctIndex": 0,
+    "gloss": "An insect has six legs. How many does a spider, which is not an insect, have? — Eight: spiders are arachnids."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Vilciens izbrauc 9.45 un ceļā pavada pusotru stundu. Cikos tas pienāk galapunktā?",
+    "options": ["10.15", "11.45", "11.25", "11.15"],
+    "correctIndex": 3,
+    "gloss": "A train leaves at 9:45 and travels an hour and a half. When does it arrive? — 11:15. 9:45 + 1:30; 11:45 adds two hours, 10:15 only half an hour."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurā sporta veidā Latvijas izlases bronza 2023. gada pasaules čempionātā deva valstij papildu brīvdienu?",
+    "options": ["Basketbolā", "Hokejā", "Volejbolā", "Florbolā"],
+    "correctIndex": 1,
+    "gloss": "In which sport did Latvia's bronze at the 2023 world championship earn the country an extra day off? — Ice hockey: after beating the USA, the government declared 29 May 2023 a holiday."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cik stīgu ir parastai klasiskajai ģitārai?",
+    "options": ["Četras", "Piecas", "Sešas", "Astoņas"],
+    "correctIndex": 2,
+    "gloss": "How many strings does an ordinary classical guitar have? — Six."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kā sauc Astridas Lindgrēnes varoni, kurš dzīvo uz jumta un lido ar propelleri mugurā?",
+    "options": ["Emīls", "Karlsons", "Mio", "Rasmuss"],
+    "correctIndex": 1,
+    "gloss": "What is the name of Astrid Lindgren's hero who lives on the roof and flies with a propeller on his back? — Karlsson (Karlsson-on-the-Roof). Emil, Mio and Rasmus are her other heroes."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuras valsts imperators bija Napoleons Bonaparts?",
+    "options": ["Francijas", "Austrijas", "Krievijas", "Vācijas"],
+    "correctIndex": 0,
+    "gloss": "Of which country was Napoleon Bonaparte emperor? — France (Emperor of the French, 1804–1814/15)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kā sauc runājošo sniegavīru Disneja multfilmā par māsām Elzu un Annu?",
+    "options": ["Svens", "Hanss", "Olafs", "Kristofs"],
+    "correctIndex": 2,
+    "gloss": "What is the talking snowman called in Disney's film about the sisters Elsa and Anna (Frozen)? — Olaf. Sven is the reindeer, Hans the prince, Kristoff the ice harvester."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuras divas krāsas jāsajauc, lai iegūtu zaļu?",
+    "options": ["Sarkanā un zilā", "Dzeltenā un sarkanā", "Baltā un zilā", "Dzeltenā un zilā"],
+    "correctIndex": 3,
+    "gloss": "Which two colours do you mix to get green? — Yellow and blue. Red and blue give purple, yellow and red orange."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš sengrieķu varonis bija neievainojams visur, izņemot papēdi?",
+    "options": ["Ahillejs", "Hērakls", "Odisejs", "Persejs"],
+    "correctIndex": 0,
+    "gloss": "Which Greek hero was invulnerable everywhere except his heel? — Achilles."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kura pilsēta stiepjas vairāk nekā 30 km garā, šaurā joslā starp Lielupi un jūru?",
+    "options": ["Saulkrasti", "Jūrmala", "Liepāja", "Ventspils"],
+    "correctIndex": 1,
+    "gloss": "Which town stretches for over 30 km in a narrow strip between the Lielupe river and the sea? — Jūrmala (about 32 km long)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kura gāze rada burbulīšus limonādē un minerālūdenī?",
+    "options": ["Skābeklis", "Slāpeklis", "Ogļskābā gāze", "Hēlijs"],
+    "correctIndex": 2,
+    "gloss": "Which gas makes the bubbles in soft drinks and sparkling water? — Carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ko dara cilvēks, kurš „tur mēli aiz zobiem”?",
+    "options": ["Klusē", "Melo", "Smejas", "Ēd"],
+    "correctIndex": 0,
+    "gloss": "What is a person doing who \"keeps the tongue behind the teeth\"? — Keeping quiet: the idiom «turēt mēli aiz zobiem»."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kas spēlē „Angry Birds” zog dusmīgo putnu olas?",
+    "options": ["Cūkas", "Kaķi", "Žurkas", "Lapsas"],
+    "correctIndex": 0,
+    "gloss": "Who steals the angry birds' eggs in \"Angry Birds\"? — The green pigs."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurā sporta veidā sacenšas Vimbldonas turnīrā?",
+    "options": ["Golfā", "Kriketā", "Badmintonā", "Tenisā"],
+    "correctIndex": 3,
+    "gloss": "In which sport is the Wimbledon tournament played? — Tennis."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "No kā gatavo meksikāņu mērci gvakamoli?",
+    "options": ["No tomātiem", "No avokado", "No gurķiem", "No zirņiem"],
+    "correctIndex": 1,
+    "gloss": "What is the Mexican dip guacamole made from? — Avocado."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš putns Latvijā mēdz ligzdot uz stabiem un jumtiem, un tā atlidošana vēsta pavasari?",
+    "options": ["Dzērve", "Gārnis", "Baltais stārķis", "Gulbis"],
+    "correctIndex": 2,
+    "gloss": "Which bird in Latvia nests on poles and roofs, its return heralding spring? — The white stork. Cranes and swans nest on the ground, herons in trees."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ziemassvētku vakars ir 24. decembrī. Cik dienas vēlāk ir Vecgada vakars?",
+    "options": ["6", "7", "8", "9"],
+    "correctIndex": 1,
+    "gloss": "Christmas Eve is on 24 December. How many days later is New Year's Eve? — 7: 31 − 24. 8 catches those who count both ends."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kurš no šiem vārdiem, izlasīts no otra gala, arī ir latviešu vārds?",
+    "options": ["Māja", "Zivs", "Galds", "Sala"],
+    "correctIndex": 3,
+    "gloss": "Which of these words, read backwards, is also a Latvian word? — \"Sala\" (island) gives \"alas\" (caves). The others give ajām, sviz, sdlag."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kāda bija Latvijas nauda pirms eiro ieviešanas 2014. gadā?",
+    "options": ["Lats", "Lits", "Krona", "Rublis"],
+    "correctIndex": 0,
+    "gloss": "What was Latvia's currency before the euro arrived in 2014? — The lats. The litas was Lithuania's, the kroon Estonia's."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kāds putns tradicionāli rotā Rīgas vecpilsētas baznīcu torņu smailes?",
+    "options": ["Ērglis", "Gulbis", "Gailis", "Balodis"],
+    "correctIndex": 2,
+    "gloss": "What bird traditionally tops the church spires of Riga's Old Town? — The rooster (weathercocks on the Dome, St Peter's and St James's)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cik bieži parasti notiek Vispārējie latviešu Dziesmu un deju svētki?",
+    "options": ["Katru gadu", "Ik pēc trim gadiem", "Ik pēc desmit gadiem", "Ik pēc pieciem gadiem"],
+    "correctIndex": 3,
+    "gloss": "How often is the Latvian Song and Dance Festival usually held? — Every five years (e.g. 2018, 2023)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuros svētkos Latvijā olas tradicionāli krāso sīpolu mizās?",
+    "options": ["Lieldienās", "Jāņos", "Mārtiņos", "Ziemassvētkos"],
+    "correctIndex": 0,
+    "gloss": "At which holiday are eggs traditionally dyed in onion skins in Latvia? — Easter."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš uzņēmums izstrādā viedtālruņu operētājsistēmu Android?",
+    "options": ["Apple", "Google", "Microsoft", "Samsung"],
+    "correctIndex": 1,
+    "gloss": "Which company develops the Android smartphone operating system? — Google. Samsung makes Android phones but not the system."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tikai ap 312 metriem virs jūras: kurš ir Latvijas augstākais kalns?",
+    "options": ["Sirdskalns", "Zilaiskalns", "Gaiziņkalns", "Riekstukalns"],
+    "correctIndex": 2,
+    "gloss": "Only about 312 m above sea level: which is Latvia's highest hill? — Gaiziņkalns (311.9 m)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš zieds ir Latvijas nacionālā puķe?",
+    "options": ["Rudzupuķe", "Magone", "Saulgrieze", "Pīpene"],
+    "correctIndex": 3,
+    "gloss": "Which flower is Latvia's national flower? — The oxeye daisy (pīpene). The cornflower is Estonia's national flower."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuru Rīgas ēku ļaudis mēdz dēvēt par „Staļina kūku”?",
+    "options": ["Nacionālo bibliotēku", "Zinātņu akadēmiju", "Nacionālo operu", "Radio un televīzijas torni"],
+    "correctIndex": 1,
+    "gloss": "Which Riga building do people call \"Stalin's cake\"? — The Academy of Sciences high-rise (1950s Stalinist style)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš sociālais tīkls sākotnēji ļāva rakstīt ne vairāk kā 140 zīmes garus ierakstus?",
+    "options": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+    "correctIndex": 2,
+    "gloss": "Which social network originally limited posts to 140 characters? — Twitter (raised to 280 in 2017)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kurš skaitlis turpina virkni 1, 1, 2, 3, 5, 8, …?",
+    "options": ["13", "11", "12", "16"],
+    "correctIndex": 0,
+    "gloss": "Which number continues 1, 1, 2, 3, 5, 8…? — 13: each number is the sum of the previous two (5 + 8)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kurš gads romiešu ciparos rakstāms MMXXV?",
+    "options": ["2015", "2030", "2055", "2025"],
+    "correctIndex": 3,
+    "gloss": "Which year is MMXXV in Roman numerals? — 2025: MM = 2000, XX = 20, V = 5."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ar ko pildīts kurzemnieku sklandrausis?",
+    "options": ["Ar kartupeļiem un burkāniem", "Ar speķi un sīpoliem", "Ar biezpienu un rozīnēm", "Ar kāpostiem un gaļu"],
+    "correctIndex": 0,
+    "gloss": "What fills the Courland sklandrausis? — Potato and carrot (a rye-dough tart, EU-protected traditional speciality)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kura gāze veido gandrīz četras piektdaļas no gaisa, ko elpojam?",
+    "options": ["Skābeklis", "Slāpeklis", "Argons", "Ūdeņradis"],
+    "correctIndex": 1,
+    "gloss": "Which gas makes up nearly four fifths of the air we breathe? — Nitrogen (about 78%). Oxygen is about 21%."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuru dievieti latviešu dainās piesauc kā govju un piena sargātāju?",
+    "options": ["Laimu", "Sauli", "Māru", "Dēklu"],
+    "correctIndex": 2,
+    "gloss": "Which goddess do Latvian folk songs invoke as the protector of cows and milk? — Māra. Laima and Dēkla are fate goddesses, Saule the Sun."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurā pilsētā atrodas Karosta, kas celta kā cara laika kara osta?",
+    "options": ["Ventspilī", "Liepājā", "Rīgā", "Pāvilostā"],
+    "correctIndex": 1,
+    "gloss": "Which city is home to Karosta, built as a tsarist naval port? — Liepāja."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurā Londonas ielā dzīvoja Šerloks Holmss?",
+    "options": ["Dauningstrītā", "Oksfordstrītā", "Flītstrītā", "Beikerstrītā"],
+    "correctIndex": 3,
+    "gloss": "On which London street did Sherlock Holmes live? — Baker Street (221B)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kuram no šiem vārdiem nav vienskaitļa formas?",
+    "options": ["Durvis", "Logi", "Sienas", "Grīdas"],
+    "correctIndex": 0,
+    "gloss": "Which of these words has no singular form? — \"Durvis\" (door) is plural-only; logs, siena, grīda all have singulars. Try forming each singular."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kura valsts 1896. gadā uzņēma pirmās mūsdienu olimpiskās spēles?",
+    "options": ["Francija", "Grieķija", "Lielbritānija", "ASV"],
+    "correctIndex": 1,
+    "gloss": "Which country hosted the first modern Olympic Games in 1896? — Greece (Athens). France is the trap: Coubertin was French and Paris hosted in 1900."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš režisors uzņēma „Juras laikmeta parku”?",
+    "options": ["Džeimss Kamerons", "Džordžs Lūkass", "Stīvens Spīlbergs", "Roberts Zemekiss"],
+    "correctIndex": 2,
+    "gloss": "Who directed \"Jurassic Park\"? — Steven Spielberg (1993)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Rīga 2001. gadā svinēja 800 gadu jubileju. Kurā gadsimtā tā tika dibināta?",
+    "options": ["11. gadsimtā", "12. gadsimtā", "13. gadsimtā", "14. gadsimtā"],
+    "correctIndex": 2,
+    "gloss": "Riga celebrated its 800th anniversary in 2001. In which century was it founded? — The 13th: 1201 falls in the 13th century. \"12th\" catches autopilot."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kurš ir mazākais pirmskaitlis, kas lielāks par 20?",
+    "options": ["21", "23", "25", "27"],
+    "correctIndex": 1,
+    "gloss": "What is the smallest prime greater than 20? — 23. 21 = 3 × 7, 25 = 5 × 5, 27 = 3 × 9."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš romāns sākas ar vārdiem „Visas laimīgās ģimenes ir līdzīgas…”?",
+    "options": ["„Karš un miers”", "„Noziegums un sods”", "„Brāļi Karamazovi”", "„Anna Kareņina”"],
+    "correctIndex": 3,
+    "gloss": "Which novel opens with \"All happy families are alike…\"? — Tolstoy's \"Anna Karenina\"."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš ir dziļākais Latvijas ezers?",
+    "options": ["Drīdzis", "Rāzna", "Lubāns", "Usmas ezers"],
+    "correctIndex": 0,
+    "gloss": "Which is Latvia's deepest lake? — Drīdzis (about 65 m). Lubāns is the largest by area but shallow; Rāzna the largest by volume."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kā sauca pirmo mākslīgo Zemes pavadoni, kas 1957. gadā devās orbītā?",
+    "options": ["Sputņiks", "Vostoks", "Eksplorers", "Saljuts"],
+    "correctIndex": 0,
+    "gloss": "What was the first artificial Earth satellite, launched in 1957? — Sputnik (1). Vostok carried Gagarin, Explorer was the first US satellite, Salyut a space station."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš Rīgā dzimušais inženieris tiek uzskatīts par vienu no raķešu tehnikas pionieriem?",
+    "options": ["Konstantīns Ciolkovskis", "Frīdrihs Canders", "Sergejs Koroļovs", "Hermanis Oberts"],
+    "correctIndex": 1,
+    "gloss": "Which Riga-born engineer is counted among the pioneers of rocketry? — Friedrich Zander (born in Riga, 1887). Tsiolkovsky, Korolev and Oberth were born elsewhere."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kura ķīmiskā elementa simbols ir Hg?",
+    "options": ["Hēlija", "Hafnija", "Dzīvsudraba", "Holmija"],
+    "correctIndex": 2,
+    "gloss": "Which element has the symbol Hg? — Mercury, from Latin hydrargyrum. Helium is He, hafnium Hf, holmium Ho."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš Rīgā dzimušais domātājs kļuva slavens ar eseju „Ezis un lapsa”?",
+    "options": ["Hanna Ārente", "Karls Popers", "Ludvigs Vitgenšteins", "Jesaja Berlins"],
+    "correctIndex": 3,
+    "gloss": "Which Riga-born thinker became famous for the essay \"The Hedgehog and the Fox\"? — Isaiah Berlin (born in Riga, 1909). Arendt was born near Hanover, Popper and Wittgenstein in Vienna."
+  }
+]

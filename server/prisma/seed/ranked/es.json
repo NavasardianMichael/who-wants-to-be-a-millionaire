@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el océano más grande del planeta?",
+    "options": [
+      "Atlántico",
+      "Pacífico",
+      "Índico",
+      "Ártico"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the largest ocean on the planet? — The Pacific."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué fruto es la base del guacamole?",
+    "options": [
+      "Tomate",
+      "Pepino",
+      "Aguacate",
+      "Lima"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which fruit is the base of guacamole? — Avocado (aguacate)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿En qué deporte ganó Rafael Nadal catorce veces el torneo de Roland Garros?",
+    "options": [
+      "Golf",
+      "Pádel",
+      "Baloncesto",
+      "Tenis"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport did Rafael Nadal win the Roland Garros tournament fourteen times? — Tennis."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántos planetas tiene hoy el sistema solar?",
+    "options": [
+      "Ocho",
+      "Siete",
+      "Nueve",
+      "Diez"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many planets does the solar system have today? — Eight; Pluto was reclassified as a dwarf planet in 2006."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el ave más grande del mundo, incapaz de volar?",
+    "options": [
+      "Emú",
+      "Cóndor",
+      "Pingüino emperador",
+      "Avestruz"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the world's largest bird, unable to fly? — The ostrich."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "¿Qué palabra aparece al leer «Roma» de derecha a izquierda?",
+    "options": [
+      "Ramo",
+      "Mora",
+      "Amor",
+      "Omar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word appears when reading 'Roma' right to left? — Amor (R-o-m-a reversed is a-m-o-r); ramo, mora and omar are anagrams, not reversals."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué antigua civilización levantó las pirámides de Guiza?",
+    "options": [
+      "Maya",
+      "Egipcia",
+      "Mesopotámica",
+      "Romana"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ancient civilization built the pyramids of Giza? — The Egyptians; the Maya also built pyramids, in Mesoamerica."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué pintor catalán de bigote inconfundible pintó relojes blandos que se derriten?",
+    "options": [
+      "Picasso",
+      "Dalí",
+      "Miró",
+      "Goya"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Catalan painter with an unmistakable moustache painted soft, melting clocks? — Salvador Dalí (The Persistence of Memory)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántas cuerdas tiene una guitarra clásica?",
+    "options": [
+      "Cuatro",
+      "Cinco",
+      "Seis",
+      "Siete"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many strings does a classical guitar have? — Six."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué joven mago lleva una cicatriz en forma de rayo en la frente?",
+    "options": [
+      "Merlín",
+      "Gandalf",
+      "Aladino",
+      "Harry Potter"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which young wizard has a lightning-shaped scar on his forehead? — Harry Potter."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué empresa fundada por Steve Jobs fabrica el iPhone?",
+    "options": [
+      "Samsung",
+      "Microsoft",
+      "Apple",
+      "Sony"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which company founded by Steve Jobs makes the iPhone? — Apple."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué fruta se recoge en la vendimia para elaborar el vino?",
+    "options": [
+      "Uva",
+      "Manzana",
+      "Higo",
+      "Granada"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which fruit is harvested in the vendimia to make wine? — The grape."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "¿Cuántos huevos son una docena y media?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many eggs is a dozen and a half? — 18: 12 + 6."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "¿Cuántos minutos son tres cuartos de hora?",
+    "options": [
+      "30",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many minutes are three quarters of an hour? — 45: a quarter is 15 minutes, times three."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿A cuántos grados Celsius hierve el agua al nivel del mar?",
+    "options": [
+      "100 °C",
+      "90 °C",
+      "110 °C",
+      "212 °C"
+    ],
+    "correctIndex": 0,
+    "gloss": "At how many degrees Celsius does water boil at sea level? — 100 °C; 212 is the Fahrenheit figure."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué baile andaluz, de guitarra y taconeo, es Patrimonio Inmaterial de la Humanidad?",
+    "options": [
+      "Tango",
+      "Samba",
+      "Salsa",
+      "Flamenco"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Andalusian dance, of guitar and heel-stamping, is on UNESCO's intangible heritage list? — Flamenco (inscribed 2010); the others are Latin American dances."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué infusión se bebe en Argentina, Uruguay y Paraguay con una bombilla metálica?",
+    "options": [
+      "Té negro",
+      "Café",
+      "Manzanilla",
+      "Mate"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which infusion is drunk in Argentina, Uruguay and Paraguay through a metal straw (bombilla)? — Mate."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué dios griego empuña un tridente y gobierna los mares?",
+    "options": [
+      "Hades",
+      "Poseidón",
+      "Zeus",
+      "Apolo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Greek god wields a trident and rules the seas? — Poseidon."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En la obra de Juan Ramón Jiménez, ¿qué animal es Platero?",
+    "options": [
+      "Burro",
+      "Caballo",
+      "Perro",
+      "Gato"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Juan Ramón Jiménez's book, what animal is Platero? — A small donkey (Platero y yo); the horse is the tempting wrong answer."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué navegante cruzó el Atlántico en 1492 con la Niña, la Pinta y la Santa María?",
+    "options": [
+      "Fernando de Magallanes",
+      "Vasco da Gama",
+      "Cristóbal Colón",
+      "Américo Vespucio"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which navigator crossed the Atlantic in 1492 with the Niña, the Pinta and the Santa María? — Christopher Columbus."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántos jugadores, portero incluido, tiene cada equipo en el campo en un partido de fútbol?",
+    "options": [
+      "Nueve",
+      "Diez",
+      "Once",
+      "Doce"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players, goalkeeper included, does each team have on the pitch in a football match? — Eleven."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "¿Qué animal se esconde dentro de la palabra «zapato»?",
+    "options": [
+      "Gato",
+      "Rata",
+      "Lobo",
+      "Pato"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal hides inside the word 'zapato'? — Pato (duck): za-PATO."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Cómo se llama la gran cordillera que recorre Sudamérica de norte a sur?",
+    "options": [
+      "Andes",
+      "Alpes",
+      "Pirineos",
+      "Montañas Rocosas"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the great mountain range running the length of South America called? — The Andes."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el país más extenso del mundo?",
+    "options": [
+      "Canadá",
+      "China",
+      "Estados Unidos",
+      "Rusia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is the largest country in the world by area? — Russia."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué cantante colombiana grabó «Waka Waka», himno del Mundial de 2010?",
+    "options": [
+      "Thalía",
+      "Shakira",
+      "Jennifer López",
+      "Gloria Estefan"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Colombian singer recorded 'Waka Waka', the 2010 World Cup anthem? — Shakira."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En español, ¿qué signo abre una pregunta?",
+    "options": [
+      "¡",
+      "¿",
+      "«",
+      "…"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Spanish, which sign opens a question? — ¿ (the inverted question mark); ¡ opens exclamations."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Si hoy es martes, ¿qué día fue anteayer?",
+    "options": [
+      "Domingo",
+      "Sábado",
+      "Lunes",
+      "Viernes"
+    ],
+    "correctIndex": 0,
+    "gloss": "If today is Tuesday, what day was anteayer (the day before yesterday)? — Sunday; lunes is only ayer."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "¿Cuántas patas hay en total en tres gallinas y un perro?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many legs in total on three hens and a dog? — 10: 3 × 2 + 4."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Quién dirigió «Todo sobre mi madre», Óscar a la mejor película internacional?",
+    "options": [
+      "Alejandro Amenábar",
+      "Luis Buñuel",
+      "Pedro Almodóvar",
+      "Guillermo del Toro"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who directed 'All About My Mother', Oscar winner for Best International Film? — Pedro Almodóvar (2000)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Cómo se llama la flauta de Pan andina, hecha de varios tubos de caña de distinta longitud?",
+    "options": [
+      "Charango",
+      "Zampoña",
+      "Bombo",
+      "Quena"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Andean panpipe, made of several reed tubes of different length, called? — The zampoña; the quena is a single-tube flute."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué fiesta de Valencia termina con la quema de grandes figuras de cartón y madera?",
+    "options": [
+      "Feria de Abril",
+      "San Fermín",
+      "La Tomatina",
+      "Las Fallas"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which festival in Valencia ends with the burning of huge cardboard-and-wood figures? — Las Fallas."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué ciudad quedó sepultada por las cenizas del Vesubio en el año 79 y hoy es un célebre yacimiento?",
+    "options": [
+      "Pompeya",
+      "Roma",
+      "Nápoles",
+      "Rávena"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which city was buried under Vesuvius's ash in AD 79 and is now a famous archaeological site? — Pompeii."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Quién escribió «Bodas de sangre» y «Romancero gitano»?",
+    "options": [
+      "Antonio Machado",
+      "Miguel Hernández",
+      "Federico García Lorca",
+      "Rafael Alberti"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote 'Blood Wedding' and 'Gypsy Ballads'? — Federico García Lorca; the others are fellow 20th-century Spanish poets."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿En qué museo de París se exhibe la Mona Lisa?",
+    "options": [
+      "Museo de Orsay",
+      "Museo del Louvre",
+      "Centro Pompidou",
+      "Museo Rodin"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which Paris museum is the Mona Lisa displayed? — The Louvre."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué compositor, ya sordo, estrenó la Novena Sinfonía con el «Himno a la alegría»?",
+    "options": [
+      "Mozart",
+      "Bach",
+      "Brahms",
+      "Beethoven"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which composer, already deaf, premiered the Ninth Symphony with the 'Ode to Joy'? — Beethoven (1824)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es la isla más grande del mundo?",
+    "options": [
+      "Madagascar",
+      "Borneo",
+      "Groenlandia",
+      "Nueva Guinea"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the largest island in the world? — Greenland (Australia is counted as a continent)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un coche recorre 120 km en dos horas a velocidad constante. ¿Cuántos kilómetros hace en media hora?",
+    "options": [
+      "15 km",
+      "30 km",
+      "45 km",
+      "60 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "A car covers 120 km in two hours at constant speed. How many km in half an hour? — 30: 60 km/h halved."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "¿Cuál de estas palabras es esdrújula?",
+    "options": [
+      "Camión",
+      "Árbol",
+      "Teléfono",
+      "Canción"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words is esdrújula (stressed on the third-from-last syllable)? — Teléfono; camión and canción are agudas, árbol is llana."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Cuando en España es enero, ¿qué estación es en Argentina?",
+    "options": [
+      "Invierno",
+      "Otoño",
+      "Primavera",
+      "Verano"
+    ],
+    "correctIndex": 3,
+    "gloss": "When it is January in Spain, what season is it in Argentina? — Summer: the seasons are reversed in the southern hemisphere."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿De qué leche se elabora el queso manchego?",
+    "options": [
+      "De oveja",
+      "De vaca",
+      "De cabra",
+      "De búfala"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which milk is manchego cheese made from? — Sheep's milk."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuántos corazones tiene un pulpo?",
+    "options": [
+      "Uno",
+      "Dos",
+      "Tres",
+      "Cuatro"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three (two branchial, one systemic)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué tipo de ser mitológico es Polifemo, al que Ulises dejó ciego?",
+    "options": [
+      "Minotauro",
+      "Cíclope",
+      "Hidra",
+      "Grifo"
+    ],
+    "correctIndex": 1,
+    "gloss": "What kind of mythical being is Polyphemus, whom Odysseus blinded? — A Cyclops."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "De una baraja española de 48 cartas se quitan todos los ochos y los nueves. ¿Cuántas cartas quedan?",
+    "options": [
+      "40",
+      "44",
+      "38",
+      "36"
+    ],
+    "correctIndex": 0,
+    "gloss": "From a 48-card Spanish deck, all the eights and nines are removed. How many cards are left? — 40: four suits, so 8 cards go; 48 − 8 = 40, the usual Spanish deck for brisca and tute."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué científico español recibió en 1906 el Nobel de Medicina por sus estudios sobre las neuronas?",
+    "options": [
+      "Severo Ochoa",
+      "Carlos Finlay",
+      "Bernardo Houssay",
+      "Santiago Ramón y Cajal"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Spanish scientist received the 1906 Nobel Prize in Medicine for his work on neurons? — Santiago Ramón y Cajal; Ochoa won in 1959, Houssay (Argentine) in 1947, Finlay never won."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Cuál es el río más largo de Europa?",
+    "options": [
+      "Danubio",
+      "Volga",
+      "Rin",
+      "Dniéper"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the longest river in Europe? — The Volga (about 3,530 km)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "¿Qué lenguaje de programación comparte nombre con una isla de Indonesia?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Java",
+      "Swift"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which programming language shares its name with an Indonesian island? — Java."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué ciclista navarro ganó cinco Tours de Francia seguidos, de 1991 a 1995?",
+    "options": [
+      "Pedro Delgado",
+      "Miguel Induráin",
+      "Alberto Contador",
+      "Óscar Pereiro"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Navarrese cyclist won five consecutive Tours de France, 1991 to 1995? — Miguel Induráin."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«Septiembre» alude al siete y «diciembre» al diez, pero son los meses nueve y doce. ¿Con qué mes empezaba el antiguo año romano?",
+    "options": [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Septiembre' points to seven and 'diciembre' to ten, yet they are months nine and twelve. Which month began the old Roman year? — March, which makes September the seventh month."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿En qué país de África es el español lengua oficial, junto al francés y al portugués?",
+    "options": [
+      "Gabón",
+      "Camerún",
+      "Guinea Ecuatorial",
+      "Santo Tomé y Príncipe"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which African country is Spanish an official language, alongside French and Portuguese? — Equatorial Guinea; Gabon and Cameroon are francophone, São Tomé is Portuguese-speaking."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "¿Qué compositor español, ciego desde los tres años, escribió el «Concierto de Aranjuez»?",
+    "options": [
+      "Manuel de Falla",
+      "Isaac Albéniz",
+      "Enrique Granados",
+      "Joaquín Rodrigo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Spanish composer, blind from the age of three, wrote the 'Concierto de Aranjuez'? — Joaquín Rodrigo (1939)."
+  }
+]
