@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Нүд айдаг, … бүтээдэг» гэдэг. Юу бүтээдэг вэ?",
+    "options": ["Хөл", "Гар", "Ухаан", "Зүрх"],
+    "correctIndex": 1,
+    "gloss": "\"The eyes fear, the … gets it done.\" What gets it done? — The hand: the proverb «Нүд айдаг, гар бүтээдэг»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монгол гэрт орохдоо юун дээр гишгэхийг цээрлэдэг вэ?",
+    "options": ["Хивс", "Шал", "Босго", "Дэвсгэр"],
+    "correctIndex": 2,
+    "gloss": "Entering a ger, what is it taboo to step on? — The threshold (босго), one of the best-known Mongolian customs."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чингис хаан цолоо хүртэхээсээ өмнө ямар нэртэй байсан бэ?",
+    "options": ["Тэмүжин", "Жамуха", "Хасар", "Тулуй"],
+    "correctIndex": 0,
+    "gloss": "What was Chinggis Khaan's name before he took the title? — Temüjin. Jamukha was his sworn brother, Khasar his brother, Tolui his son."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Морин хуурын утсыг уламжлал ёсоор адууны сүүлний хялгасаар хийдэг. Морин хуур хэдэн утастай вэ?",
+    "options": ["Нэг", "Хоёр", "Гурав", "Дөрөв"],
+    "correctIndex": 1,
+    "gloss": "The morin khuur's strings are traditionally horsetail hair. How many strings does it have? — Two."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Эрийн гурван наадамд бөх, морин уралдаанаас гадна юу ордог вэ?",
+    "options": ["Сур харваа", "Шагай харваа", "Тэмээн уралдаан", "Шатар"],
+    "correctIndex": 0,
+    "gloss": "Besides wrestling and horse racing, what is the third of the 'three manly games'? — Archery. Ankle-bone shooting is now part of Naadam, but not of the traditional three."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Солонгын долоон өнгийг дарааллаар нь тоочвол яг голд нь аль өнгө таарах вэ?",
+    "options": ["Шар", "Цэнхэр", "Ногоон", "Улбар шар"],
+    "correctIndex": 2,
+    "gloss": "Listing the rainbow's seven colours in order, which one is exactly in the middle? — Green: red, orange, yellow, GREEN, light blue, blue, violet (the 4th of 7)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шоколадыг ямар ургамлын үрээр хийдэг вэ?",
+    "options": ["Кофе", "Кокос", "Хушга", "Какао"],
+    "correctIndex": 3,
+    "gloss": "Chocolate is made from the seeds of which plant? — Cacao."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Цагаан баавгай байгальд оцон шувуу хэзээ ч агнадаггүй. Яагаад?",
+    "options": ["Оцон шувууны мах хортой", "Оцон шувуу хэт хурдан сэлдэг", "Цагаан баавгай загас л иддэг", "Тэдний нутаг дэлхийн хоёр захад"],
+    "correctIndex": 3,
+    "gloss": "Polar bears never hunt penguins in the wild. Why? — They live at opposite ends of the Earth: polar bears in the Arctic, penguins in the Southern Hemisphere. Polar bears mostly eat seals, not just fish."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Олон улсын эмэгтэйчүүдийн баярыг жил бүр хэдэн сарын хэдэнд тэмдэглэдэг вэ?",
+    "options": ["3-р сарын 8", "3-р сарын 18", "5-р сарын 1", "6-р сарын 1"],
+    "correctIndex": 0,
+    "gloss": "On what date is International Women's Day? — 8 March. 18 March is Mongolia's Armed Forces Day (the 'men's day'), 1 June Children's Day, 1 May Labour Day."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Улаанбаатарт 7-р сарын зуны халуун байхад Австралийн Сидней хотод аль улирал байх вэ?",
+    "options": ["Зун", "Хавар", "Намар", "Өвөл"],
+    "correctIndex": 3,
+    "gloss": "When it's hot July summer in Ulaanbaatar, what season is it in Sydney? — Winter: the Southern Hemisphere's seasons are reversed."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Их Монгол Улс 1206 онд байгуулагдсан. Энэ хэддүгээр зуун бэ?",
+    "options": ["XI зуун", "XII зуун", "XIII зуун", "XIV зуун"],
+    "correctIndex": 2,
+    "gloss": "The Great Mongol State was founded in 1206. Which century is that? — The 13th: the 1200s are the 13th century. 'XII' is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Сумогийн түүхэнд дээд зэрэглэлд хамгийн олон удаа түрүүлсэн, монгол гаралтай ёкозуна хэн бэ?",
+    "options": ["Хакухо", "Асашёорюү", "Харумафүжи", "Какүрюү"],
+    "correctIndex": 0,
+    "gloss": "Which Mongolian-born yokozuna won the most top-division titles in sumo history? — Hakuhō (45). All four options are Mongolian yokozuna."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Хэнтий, Хангай, Соёны өндөр сайхан нуруунууд» гэж эхэлдэг «Миний нутаг» шүлгийг хэн бичсэн бэ?",
+    "options": ["Б.Явуухулан", "Ц.Дамдинсүрэн", "Б.Ринчен", "Д.Нацагдорж"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the poem 'My Native Land', which begins 'Khentii, Khangai, the high fine ranges of Soyon'? — D. Natsagdorj."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Хар цай», «хар ажил», «хар хүн» (лам бус хүн) гэсэн хэллэгүүдэд «хар» гэдэг үг ямар утгатай вэ?",
+    "options": ["Муу, хортой", "Энгийн, жирийн", "Харанхуй, бараан", "Хуучин, элэгдсэн"],
+    "correctIndex": 1,
+    "gloss": "In 'black tea' (tea without milk), 'black work' (manual labour) and 'black person' (a layman, not a lama), what does 'black' mean? — Plain, ordinary: the only sense shared by all three."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Нэг хуудас цаасыг тэг дундуур нь гурван удаа дараалан нугалбал хэдэн давхар болох вэ?",
+    "options": ["3", "6", "8", "9"],
+    "correctIndex": 2,
+    "gloss": "Fold a sheet of paper exactly in half three times in a row. How many layers? — 8: each fold doubles it, 2 → 4 → 8. 6 is the trap of adding instead of doubling."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Колумб Америкийн уугуул иргэдийг «индиан» гэж нэрлэсэн нь өөрийгөө аль газарт хүрлээ гэж андуурсантай холбоотой вэ?",
+    "options": ["Африк", "Австрали", "Арабын хойг", "Энэтхэг"],
+    "correctIndex": 3,
+    "gloss": "Columbus called the native Americans 'Indians' because he believed he had reached where? — India (the 'Indies'): he was looking for a western sea route to Asia."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Арслан хаан» хүүхэлдэйн киноны гол баатрын нэр суахили хэлээр «арслан» гэсэн утгатай. Түүнийг хэн гэдэг вэ?",
+    "options": ["Симба", "Муфаса", "Скар", "Нала"],
+    "correctIndex": 0,
+    "gloss": "The hero of 'The Lion King' has a name meaning 'lion' in Swahili. What is it? — Simba. Mufasa is his father, Scar his uncle, Nala his friend."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сонсголоо бараг бүрэн алдсан хойноо есдүгээр симфониоо туурвисан хөгжмийн зохиолч хэн бэ?",
+    "options": ["Моцарт", "Бах", "Бетховен", "Чайковский"],
+    "correctIndex": 2,
+    "gloss": "Which composer wrote his Ninth Symphony after losing almost all his hearing? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Нью-Йоркийн Эрх чөлөөний хөшөөг аль улс АНУ-д бэлэглэсэн бэ?",
+    "options": ["Франц", "Их Британи", "Испани", "Итали"],
+    "correctIndex": 0,
+    "gloss": "Which country gave the Statue of Liberty to the USA? — France (dedicated 1886)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Гудамжны оронд суваг, машины оронд гондол завь үйлчилдэг хот аль вэ?",
+    "options": ["Амстердам", "Венец", "Брюгге", "Санкт-Петербург"],
+    "correctIndex": 1,
+    "gloss": "Which city has canals for streets and gondolas for cars? — Venice. The other three are famous canal cities too, but gondolas are Venice's."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Монгол хэлэнд «зүүн» нь нар мандах тал, бас зүүн гар; «баруун» нь нар жаргах тал, бас баруун гар. Эндээс үзвэл эртний монголчууд аль зүг рүү харж зүг чигээ тогтоодог байжээ?",
+    "options": ["Хойд зүг", "Зүүн зүг", "Баруун зүг", "Урд зүг"],
+    "correctIndex": 3,
+    "gloss": "In Mongolian 'züün' is both east and the left hand, 'baruun' both west and the right hand. Which way did Mongols face to orient themselves? — South: facing south, east is on your left and west on your right (and 'ömnö', front, also means south)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Монгол хэлэнд үгийг эгшгээр нь эр, эм гэж ангилдаг. Эдгээрээс аль нь эм үг вэ?",
+    "options": ["Хүү", "Охин", "Хатан", "Ах"],
+    "correctIndex": 0,
+    "gloss": "Mongolian classes words as 'male' or 'female' by their vowels. Which of these is a 'female' word? — Хүү (son): ү is a female vowel. Охин (girl), Хатан (queen) and Ах (elder brother) have male vowels а/о. The trap is the meaning."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Монголчууд нэгэн одыг «Алтан гадас» гэдэг: бусад од түүнийг тойрон эргэх мэт, харин өөрөө байрнаасаа хөдөлдөггүй. Аль од вэ?",
+    "options": ["Сириус", "Туйлын од", "Вега", "Бетельгейзе"],
+    "correctIndex": 1,
+    "gloss": "Mongolians call one star the 'Golden Tethering Post': the others seem to circle it while it stays put. Which star? — Polaris, the Pole Star: it sits almost on the sky's axis of rotation."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Цагаан сарын битүүн бол билгийн тооллын сарын хамгийн сүүлчийн өдөр. Тэр шөнө тэнгэрт сар ямар харагдах вэ?",
+    "options": ["Тэргэл", "Хагас", "Огт харагдахгүй", "Нарийн хавирган"],
+    "correctIndex": 2,
+    "gloss": "Bituun, the eve of Tsagaan Sar, is the last day of a lunar month. What does the Moon look like that night? — It isn't visible: lunar months start at the new moon, and the 15th is the full moon (тэргэл)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Зөвхөн Монголын Их говьд амьдардаг, нутгийнхан «мазаалай» гэж нэрлэдэг ховор амьтан юу вэ?",
+    "options": ["Ирвэс", "Мануул", "Хулан", "Баавгай"],
+    "correctIndex": 3,
+    "gloss": "What rare animal, found only in Mongolia's Great Gobi, do locals call the mazaalai? — A bear: the Gobi bear."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Шатарт аль нь тоглолтын турш зөвхөн нэг өнгийн нүдээр явдаг вэ?",
+    "options": ["Тэмээ", "Морь", "Тэрэг", "Бэрс"],
+    "correctIndex": 0,
+    "gloss": "In chess, which piece stays on squares of one colour all game? — The bishop (Mongolian 'тэмээ', camel): it moves only diagonally, and a diagonal never changes colour. The knight changes colour on every move."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Европын хамгийн урт гол Волга далайд хүрдэггүй. Тэгвэл аль усан санд цутгадаг вэ?",
+    "options": ["Хар тэнгис", "Каспийн тэнгис", "Азовын тэнгис", "Балтийн тэнгис"],
+    "correctIndex": 1,
+    "gloss": "Europe's longest river, the Volga, never reaches the ocean. Where does it flow? — The Caspian Sea, really a landlocked lake. The other three connect to the ocean."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Бяцхан ханхүү»-г бичсэн Антуан де Сент-Экзюпери ямар мэргэжлээрээ алдартай байсан бэ?",
+    "options": ["Далайчин", "Эмч", "Нисгэгч", "Уул уурхайчин"],
+    "correctIndex": 2,
+    "gloss": "What profession was Antoine de Saint-Exupéry, author of 'The Little Prince', famous for? — Aviator; the book's narrator is a pilot stranded in the Sahara."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Рубикийн шоог зохион бүтээсэн Эрнө Рубик аль орны хүн бэ?",
+    "options": ["Чех", "Польш", "Австри", "Унгар"],
+    "correctIndex": 3,
+    "gloss": "Which country is Ernő Rubik, inventor of the Rubik's Cube, from? — Hungary."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Грекийн домогт бурхдаас гал хулгайлж хүмүүст өгсний төлөө хаданд гинжлүүлсэн титан хэн бэ?",
+    "options": ["Прометей", "Атлас", "Кронос", "Эпиметей"],
+    "correctIndex": 0,
+    "gloss": "In Greek myth, which Titan was chained to a rock for stealing fire from the gods for humans? — Prometheus. Epimetheus is his brother, Atlas holds up the sky."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Монгол зурхайд жилийн өнгө хоёр жил тутам солигддог. 2026 оны Цагаан сараар улаан морин жил гарсан. Тэгвэл 2028 оны Цагаан сараар ямар жил гарах вэ?",
+    "options": ["Улаан бичин жил", "Цагаан бичин жил", "Шар хонин жил", "Шар бичин жил"],
+    "correctIndex": 3,
+    "gloss": "In the Mongolian calendar a year's colour changes every two years. 2026 began the Red Horse year. What year begins in 2028? — Yellow Monkey: horse → sheep → monkey, and the colours run blue, red, yellow, white, black, so red (2026–27) gives way to yellow."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Хуучин монгол хуанлид гарагуудыг гаригийн нэрээр нэрлэдэг байв: ням гарагийг Адъяа (Нар), даваа гарагийг Сумъяа (Сар) гэх мэт. Сугар гаригийн нэрээр аль гарагийг нэрлэдэг байсан бэ?",
+    "options": ["Мягмар", "Баасан", "Лхагва", "Бямба"],
+    "correctIndex": 1,
+    "gloss": "The old Mongolian calendar named weekdays after the planets: Sunday Adiya (Sun), Monday Sumiya (Moon), and so on. Which day was named after Venus (Sugar)? — Friday (Баасан), as in French vendredi: Ангараг Tue, Буд Wed, Бархасбадь Thu, Сугар Fri, Санчир Sat."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Сэлэнгэ мөрөн Байгал нуурт цутгадаг. Монголын нутгаас эх авсан энэ усны дусал эцэстээ аль далайд хүрэх вэ?",
+    "options": ["Номхон далай", "Атлантын далай", "Хойд мөсөн далай", "Энэтхэгийн далай"],
+    "correctIndex": 2,
+    "gloss": "The Selenge flows into Lake Baikal. Where does a drop of this Mongolian water finally end up? — The Arctic Ocean: Baikal drains through the Angara into the Yenisei, which flows north to the Kara Sea."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Их Монгол Улсын үед хааны нэрийн өмнөөс явж буй элч, түшмэдэд эрх мэдлийнх нь баталгаа болгон олгодог алт, мөнгө, модон хавтанг юу гэдэг вэ?",
+    "options": ["Пайз", "Тамга", "Ярлиг", "Сүлд"],
+    "correctIndex": 0,
+    "gloss": "In the Mongol Empire, what was the gold, silver or wooden tablet given to envoys and officials as proof of their authority? — The paiza. A tamga is a seal, a jarlig a written decree."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Эверестийн оргилд (8848 м) агаарын даралт бага. Тэнд ус ойролцоогоор хэдэн хэмд буцлах вэ?",
+    "options": ["50 хэм", "70 хэм", "85 хэм", "100 хэм"],
+    "correctIndex": 1,
+    "gloss": "Air pressure is low on top of Everest (8,848 m). At roughly what temperature does water boil there? — About 70 °C (≈68–71 °C): lower pressure, lower boiling point."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Бүх металлаас хамгийн бага нягттай нь аль вэ? Тэр ус дээр ч хөвдөг.",
+    "options": ["Хөнгөн цагаан", "Магни", "Натри", "Литий"],
+    "correctIndex": 3,
+    "gloss": "Which metal has the lowest density of all? It even floats on water. — Lithium (0.53 g/cm³). The Mongolian name of aluminium, 'light white', is the trap."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шампольон египет иероглифийг Розеттын чулуун дээрх аль хэлний бичвэртэй харьцуулж тайлсан бэ?",
+    "options": ["Эртний грек", "Латин", "Финик", "Арамей"],
+    "correctIndex": 0,
+    "gloss": "Champollion deciphered hieroglyphs by comparing them with the Rosetta Stone's text in which language? — Ancient Greek (the stone also carries Demotic)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Моцарт амьдралынхаа сүүлийн арван жилийг Венад өнгөрүүлсэн. Харин аль хотод төрсөн бэ?",
+    "options": ["Вена", "Прага", "Зальцбург", "Мюнхен"],
+    "correctIndex": 2,
+    "gloss": "Mozart spent the last ten years of his life in Vienna. Where was he born? — Salzburg (1756)."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дэлхийд хамгийн их тархсан тоглоомуудын нэг «Тетрис»-ийг 1984 онд аль хотод зохиосон бэ?",
+    "options": ["Токио", "Будапешт", "Сан-Франциско", "Москва"],
+    "correctIndex": 3,
+    "gloss": "In which city was Tetris created in 1984? — Moscow, by Alexey Pajitnov at the Soviet Academy of Sciences."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Будааны үрээс ч жижиг, хүний биеийн хамгийн бяцхан яс хаана байдаг вэ?",
+    "options": ["Хамрын хөндийд", "Дунд чихэнд", "Хөлийн тавхайд", "Бугуйнд"],
+    "correctIndex": 1,
+    "gloss": "Where is the human body's smallest bone, smaller than a grain of rice? — In the middle ear: the stapes (stirrup), about 3 mm."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хубилай хааны зарлигаар Төвдийн Пагва лам зохиосон бичгийг монголчууд юу гэж нэрлэдэг вэ?",
+    "options": ["Дөрвөлжин бичиг", "Тод бичиг", "Соёмбо бичиг", "Вагиндра бичиг"],
+    "correctIndex": 0,
+    "gloss": "What do Mongolians call the script the Tibetan lama Phags-pa created by Kublai Khan's order? — Dörvöljin ('square') script. Todo bichig is Zaya Pandita's, Soyombo Zanabazar's, Vagindra Agvaandorj's."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XVII зуунд «Алтан товч» хэмээх монголын түүхэн бичгийг туурвисан лам хэн бэ?",
+    "options": ["Саган Сэцэн", "Зая бандида", "Лувсанданзан", "Занабазар"],
+    "correctIndex": 2,
+    "gloss": "Which 17th-century lama wrote the Mongolian chronicle 'Altan Tobchi' (Golden Summary)? — Luvsandanzan. Sagang Sechen wrote the 'Erdeniin Tobchi' (1662), a close trap."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Оросоор Хятадыг «Китай» гэдэг, монголоор «Хятад». Хоёулаа X–XII зуунд хойд Хятадыг захирч байсан нэгэн ард түмний нэрээс гаралтай. Аль ард түмэн бэ?",
+    "options": ["Жүрчид", "Тангуд", "Хүннү", "Кидан"],
+    "correctIndex": 3,
+    "gloss": "Russian 'Kitai' and Mongolian 'Khyatad' (China) both come from a people who ruled northern China in the 10th–12th centuries. Which? — The Khitans (Liao dynasty); 'Khyatad' is the Mongolian plural of their name. The Jurchens came after them (12th–13th c.)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Улаанбаатарыг дэлхийн хамгийн хүйтэн нийслэл гэдэг ч өргөргийн хувьд аль хоттой бараг ижил оршдог вэ?",
+    "options": ["Москва", "Парис", "Ром", "Стокгольм"],
+    "correctIndex": 1,
+    "gloss": "Ulaanbaatar is called the world's coldest capital, yet it lies at almost the same latitude as which city? — Paris (UB ≈47.9° N, Paris ≈48.9° N). Moscow ≈55.8°, Stockholm ≈59.3°, Rome ≈41.9°. The cold comes from altitude and distance from the sea."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ниагара хүрхрээ аль хоёр нуурыг холбосон голд байдаг вэ?",
+    "options": ["Эри ба Онтарио", "Хурон ба Эри", "Мичиган ба Хурон", "Супериор ба Хурон"],
+    "correctIndex": 0,
+    "gloss": "Niagara Falls lies on the river that links which two lakes? — Erie and Ontario."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дэлхийн анхны программист гэгддэг Ада Лавлейс ямар алдартай яруу найрагчийн охин бэ?",
+    "options": ["Перси Шелли", "Уильям Вордсворт", "Лорд Байрон", "Жон Китс"],
+    "correctIndex": 2,
+    "gloss": "Ada Lovelace, often called the first programmer, was the daughter of which famous poet? — Lord Byron."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Францын алдарт «Рокфор» хөхт бяслагийг ямар малын сүүгээр хийдэг вэ?",
+    "options": ["Үнээний", "Ямааны", "Одос үхрийн", "Хонины"],
+    "correctIndex": 3,
+    "gloss": "France's famous blue cheese Roquefort is made from which animal's milk? — Sheep's (ewe's) milk, by law."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дон Кихотын туранхай морийг юу гэдэг вэ?",
+    "options": ["Буцефал", "Росинант", "Маренго", "Пегас"],
+    "correctIndex": 1,
+    "gloss": "What is Don Quixote's skinny horse called? — Rocinante. Bucephalus was Alexander's, Marengo Napoleon's, Pegasus the winged horse of myth."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Леонардо да Винчийн «Сүүлчийн зоог» ханын зураг аль хотод байдаг вэ?",
+    "options": ["Флоренц", "Милан", "Ром", "Венец"],
+    "correctIndex": 1,
+    "gloss": "In which city is Leonardo da Vinci's mural 'The Last Supper'? — Milan, in the refectory of Santa Maria delle Grazie. Florence is the trap: Leonardo's home city."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Теннисний «Их дуулга»-ын дөрвөн тэмцээнээс аль нь шавар талбайд болдог вэ?",
+    "options": ["Уимблдон", "Австралийн нээлттэй", "Францын нээлттэй", "АНУ-ын нээлттэй"],
+    "correctIndex": 2,
+    "gloss": "Which of tennis's four Grand Slams is played on clay? — The French Open (Roland Garros). Wimbledon is grass, the Australian and US Opens hard courts."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Voltooi die gesegde wat ons gebruik wanneer iemand met min middele ’n probleem oplos: “’n Boer maak ’n …”",
+    "options": ["Draai", "Plan", "Vuur", "Grap"],
+    "correctIndex": 1,
+    "gloss": "Complete the saying used when someone solves a problem with little to hand: 'A farmer makes a …' — Plan: '’n Boer maak ’n plan', the classic Afrikaans saying for resourcefulness."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Wat op die etenstafel se naam lees van agter na voor presies dieselfde as van voor na agter?",
+    "options": ["Vurk", "Bord", "Beker", "Lepel"],
+    "correctIndex": 3,
+    "gloss": "Which thing on the dinner table has a name that reads the same backwards? — Lepel (spoon): l-e-p-e-l is a palindrome; vurk, bord, beker are not."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In Suid-Afrika val Kersfees in die somer. In watter seisoen val Paasfees, wat gewoonlik in Maart of April is?",
+    "options": ["Lente", "Somer", "Herfs", "Winter"],
+    "correctIndex": 2,
+    "gloss": "In South Africa Christmas is in summer. In which season is Easter, usually in March or April? — Autumn: in the southern hemisphere March–May is autumn."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter Kaapse gereg is gekruide maalvleis wat met ’n eiervla bo-op in die oond gebak word en tradisioneel met geelrys en blatjang bedien word?",
+    "options": ["Bobotie", "Bredie", "Sosatie", "Frikkadel"],
+    "correctIndex": 0,
+    "gloss": "Which Cape dish is spiced mince baked with an egg custard on top, served with yellow rice and chutney? — Bobotie. Bredie is a stew, sosatie a kebab, frikkadel a meatball."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Op ’n gewone dobbelsteen tel die kolletjies op twee teenoorstaande kante altyd sewe. Hoeveel kolletjies is daar op die kant teenoor die twee?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "gloss": "On a normal die, opposite faces always add up to seven. How many pips are opposite the two? — 5, because 2 + 5 = 7."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Spinnekoppe is nie insekte nie, en ’n mens kan dit sommer aan hul bene sien. Hoeveel bene het ’n spinnekop?",
+    "options": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "gloss": "Spiders aren't insects, and you can tell by their legs. How many legs does a spider have? — 8 (insects have 6)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter Nederlandse skilder het die “Sonneblomme”-reeks en “Die sterrenag” geskilder?",
+    "options": ["Rembrandt van Rijn", "Johannes Vermeer", "Piet Mondriaan", "Vincent van Gogh"],
+    "correctIndex": 3,
+    "gloss": "Which Dutch painter painted the Sunflowers series and The Starry Night? — Vincent van Gogh."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In watter animasierolprent leer ’n jong leeu die leuse “Hakuna Matata” by ’n meerkat en ’n vlakvark?",
+    "options": ["Madagascar", "The Lion King", "The Jungle Book", "Tarzan"],
+    "correctIndex": 1,
+    "gloss": "In which animated film does a young lion learn the motto 'Hakuna Matata' from a meerkat and a warthog? — The Lion King (Timon and Pumbaa)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Op watter openbare vakansiedag, 24 September, steek talle Suid-Afrikaners die vuur aan vir wat al bekend staan as Nasionale Braaidag?",
+    "options": ["Vryheidsdag", "Versoeningsdag", "Erfenisdag", "Jeugdag"],
+    "correctIndex": 2,
+    "gloss": "On which public holiday, 24 September, do many South Africans light a fire for what's become known as National Braai Day? — Heritage Day (Erfenisdag). Freedom Day is 27 April, Youth Day 16 June, Day of Reconciliation 16 December."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "As jy van Durban af reguit oos vaar, sal jy uiteindelik in Australië aankom. Oor watter oseaan vaar jy dan?",
+    "options": ["Die Indiese Oseaan", "Die Atlantiese Oseaan", "Die Stille Oseaan", "Die Suidelike Oseaan"],
+    "correctIndex": 0,
+    "gloss": "Sail due east from Durban and you reach Australia. Which ocean do you cross? — The Indian Ocean. The Southern Ocean lies far south, below 60°S."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Watter dier se Afrikaanse naam bestaan uit ’n metaal en ’n plaasdier?",
+    "options": ["Seekoei", "Goudmol", "Ystervark", "Kameelperd"],
+    "correctIndex": 2,
+    "gloss": "Which animal's Afrikaans name is made of a metal and a farm animal? — Ystervark (porcupine): yster 'iron' + vark 'pig'. Seekoei = sea + cow (no metal), goudmol = gold + mole (not a farm animal), kameelperd = camel + horse."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die sterk suidoostewind wat in die somer oor Kaapstad waai, vee volgens oorlewering die stad se rook en stof weg. Watter bynaam het hy daarom gekry?",
+    "options": ["Die Kaapse Dokter", "Die Tafeldoek", "Die Bergwind", "Die Noordwester"],
+    "correctIndex": 0,
+    "gloss": "The strong summer south-easter over Cape Town is said to sweep away the city's smoke and dust. What nickname did it get? — The Cape Doctor. The 'tablecloth' is the cloud it pushes over Table Mountain; the berg wind and the north-wester are other winds."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter rivier vorm die grens tussen Suid-Afrika en Namibië voordat dit in die Atlantiese Oseaan uitmond?",
+    "options": ["Die Vaalrivier", "Die Kunenerivier", "Die Limpoporivier", "Die Oranjerivier"],
+    "correctIndex": 3,
+    "gloss": "Which river forms the border between South Africa and Namibia before flowing into the Atlantic? — The Orange River. The Kunene also reaches the Atlantic but is Namibia's border with Angola."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hoeveel punte kry ’n rugbyspan altesaam vir ’n drie wat suksesvol verdoel word?",
+    "options": ["5", "6", "7", "8"],
+    "correctIndex": 2,
+    "gloss": "How many points in total does a rugby team get for a try that is converted? — 7: a try is worth 5 and the conversion 2."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Die Griekse held wat net by sy hakskeen gewond kon word, het sy naam aan ’n sening agter die enkel gegee. Wie was hy?",
+    "options": ["Herakles", "Achilles", "Odysseus", "Perseus"],
+    "correctIndex": 1,
+    "gloss": "The Greek hero who could only be wounded in the heel gave his name to a tendon behind the ankle. Who? — Achilles (the Achilles tendon, Afrikaans 'Achillespees')."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Klank trek omtrent een kilometer in drie sekondes. Jy sien die weerlig en tel ses sekondes tot die donderslag. Hoe ver is die storm omtrent?",
+    "options": ["200\u00a0m", "2\u00a0km", "6\u00a0km", "18\u00a0km"],
+    "correctIndex": 1,
+    "gloss": "Sound travels about a kilometre in three seconds. You see lightning and count six seconds to the thunder. How far is the storm? — About 2 km: 6 ÷ 3. '6 km' traps those who count one second per kilometre."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter Franse skrywer het Phileas Fogg in tagtig dae om die wêreld laat reis?",
+    "options": ["Alexandre Dumas", "Victor Hugo", "Émile Zola", "Jules Verne"],
+    "correctIndex": 3,
+    "gloss": "Which French writer sent Phileas Fogg around the world in eighty days? — Jules Verne."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter speelgoedmaatskappy se naam is saamgetrek uit die Deense ‘leg godt’, wat ‘speel lekker’ beteken?",
+    "options": ["LEGO", "Playmobil", "Meccano", "Hasbro"],
+    "correctIndex": 0,
+    "gloss": "Which toy company's name is contracted from the Danish 'leg godt', 'play well'? — LEGO."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Een oktaaf hoër verdubbel ’n noot se frekwensie. Die A bo middel-C klink teen 440\u00a0Hz. Teen hoeveel hertz klink die A een oktaaf hoër?",
+    "options": ["450\u00a0Hz", "660\u00a0Hz", "880\u00a0Hz", "1\u00a0760\u00a0Hz"],
+    "correctIndex": 2,
+    "gloss": "One octave up doubles a note's frequency. The A above middle C is 440 Hz. What is the A one octave higher? — 880 Hz (1,760 Hz is two octaves up)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Suid-Afrika se nasionale voël pryk op die 5c-muntstuk. Watter voël is dit?",
+    "options": ["Die sekretarisvoël", "Die visarend", "Die volstruis", "Die bloukraanvoël"],
+    "correctIndex": 3,
+    "gloss": "South Africa's national bird is on the 5c coin. Which bird? — The blue crane. The secretary bird is on the coat of arms (a trap)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die Taalmonument staan op die hange van ’n berg langs die dorp waar die Genootskap van Regte Afrikaners in 1875 gestig is. Watter dorp?",
+    "options": ["Stellenbosch", "Paarl", "Wellington", "Franschhoek"],
+    "correctIndex": 1,
+    "gloss": "The Afrikaans Language Monument stands on a mountain beside the town where the Society of True Afrikaners was founded in 1875. Which town? — Paarl."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die Knysnabos is die wêreld van Saul Barnard in “Kringe in ’n bos” en van Benjamin in “Fiela se kind”. Wie het albei romans geskryf?",
+    "options": ["Elsa Joubert", "Anna M. Louw", "Dalene Matthee", "Marita van der Vyver"],
+    "correctIndex": 2,
+    "gloss": "The Knysna forest is the world of Saul Barnard in 'Circles in a Forest' and of Benjamin in 'Fiela's Child'. Who wrote both? — Dalene Matthee."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Watter land grens aan Suid-Afrika, Namibië én Zimbabwe?",
+    "options": ["Mosambiek", "Zambië", "Lesotho", "Botswana"],
+    "correctIndex": 3,
+    "gloss": "Which country borders South Africa, Namibia and Zimbabwe? — Botswana. Mozambique misses Namibia, Zambia misses South Africa, Lesotho borders only South Africa."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Baie Afrikaanse woorde het met slawe uit die Oos-Indiese eilande na die Kaap gekom. Watter vrugtenaam kom so uit Maleis?",
+    "options": ["Piesang", "Appel", "Druif", "Peer"],
+    "correctIndex": 0,
+    "gloss": "Many Afrikaans words came to the Cape with slaves from the East Indies. Which fruit name comes from Malay that way? — Piesang (banana), from Malay 'pisang'. Apple, grape and pear are European fruits with Dutch names."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hierdie metaal se Latynse naam, ‘plumbum’, gee dit die simbool Pb en Engels die woord ‘plumber’, want die Romeine het hul waterpype daarvan gemaak. Watter metaal?",
+    "options": ["Koper", "Lood", "Tin", "Yster"],
+    "correctIndex": 1,
+    "gloss": "This metal's Latin name 'plumbum' gives it the symbol Pb and English the word 'plumber', because the Romans made water pipes from it. Which metal? — Lead."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Op ’n ou hoeksteen is die jaartal in Romeinse syfers uitgekap: MCMLXI. Watter jaar is dit?",
+    "options": ["1941", "1959", "1961", "1911"],
+    "correctIndex": 2,
+    "gloss": "An old cornerstone has the year in Roman numerals: MCMLXI. Which year? — 1961: M 1000 + CM 900 + L 50 + X 10 + I 1."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Suid-Afrika is twee uur voor Greenwich-tyd, en Brittanje draai sy horlosies in die somer een uur vorentoe. Hoe laat is dit in Londen as dit 12:00 in Johannesburg is, middel Julie?",
+    "options": ["10:00", "11:00", "13:00", "14:00"],
+    "correctIndex": 1,
+    "gloss": "SA is two hours ahead of Greenwich time, and Britain puts its clocks forward an hour in summer. What time is it in London when it's 12:00 in Johannesburg in mid-July? — 11:00: 12:00 SAST = 10:00 GMT = 11:00 BST. 10:00 traps those who forget summer time."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Salvador Dalí se smeltende horlosies is ’n ikoon van watter kunsrigting?",
+    "options": ["Kubisme", "Impressionisme", "Dadaïsme", "Surrealisme"],
+    "correctIndex": 3,
+    "gloss": "Salvador Dalí's melting clocks are an icon of which art movement? — Surrealism."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Die QR-kode is in 1994 ontwerp om motoronderdele in fabrieke na te spoor. In watter land?",
+    "options": ["Duitsland", "Japan", "Suid-Korea", "Die VSA"],
+    "correctIndex": 1,
+    "gloss": "The QR code was designed in 1994 to track car parts in factories. In which country? — Japan, by Denso Wave, a Toyota group company."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tussen watter twee stede hardloop atlete die Comrades-maraton, party jare ‘op’ en ander jare ‘af’?",
+    "options": ["Durban en Pietermaritzburg", "Kaapstad en Stellenbosch", "Johannesburg en Pretoria", "Gqeberha en Makhanda"],
+    "correctIndex": 0,
+    "gloss": "Between which two cities is the Comrades Marathon run, some years 'up' and others 'down'? — Durban and Pietermaritzburg ('up' runs from Durban inland)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie het die epiese gedig “Raka” geskryf, oor ’n halfdierlike wese wat ’n vreedsame stam bedreig?",
+    "options": ["W.E.G. Louw", "N.P. van Wyk Louw", "D.J. Opperman", "Uys Krige"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the epic poem 'Raka', about a half-animal creature threatening a peaceful tribe? — N.P. van Wyk Louw (1941). W.E.G. Louw, also a poet, was his brother."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die beroemde goue renostertjie is in 1933 in ’n graf op ’n heuwel in Limpopo gevind. By watter ou koninkryk se hoofstad?",
+    "options": ["Mapungubwe", "Thulamela", "Groot-Zimbabwe", "Khami"],
+    "correctIndex": 0,
+    "gloss": "The famous golden rhino was found in 1933 in a grave on a hill in Limpopo. At which old kingdom's capital? — Mapungubwe. Thulamela (also Limpopo) yielded gold too; Great Zimbabwe and Khami are its successors in Zimbabwe."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chris Barnard het in 1967 die eerste hartoorplanting van mens tot mens uitgevoer. In watter Karoodorp is hy gebore?",
+    "options": ["Graaff-Reinet", "Colesberg", "Oudtshoorn", "Beaufort-Wes"],
+    "correctIndex": 3,
+    "gloss": "Chris Barnard performed the first human-to-human heart transplant in 1967. In which Karoo town was he born? — Beaufort West (1922)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter Suid-Afrikaanse dier is, al sou ’n mens dit nooit raai nie, een van die olifant se naaste lewende familie?",
+    "options": ["Die renoster", "Die seekoei", "Die dassie", "Die vlakvark"],
+    "correctIndex": 2,
+    "gloss": "Which South African animal is, unlikely as it seems, one of the elephant's closest living relatives? — The rock hyrax (dassie): hyraxes, sea cows and elephants form one group (Paenungulata). Rhino, hippo and warthog are far removed."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Op seevlak kook water by 100\u00a0°C. By watter temperatuur kook dit ongeveer in Johannesburg, sowat 1\u00a0750\u00a0m bo seevlak?",
+    "options": ["85\u00a0°C", "94\u00a0°C", "100\u00a0°C", "106\u00a0°C"],
+    "correctIndex": 1,
+    "gloss": "At sea level water boils at 100 °C. At about what temperature does it boil in Johannesburg, about 1,750 m up? — About 94 °C: lower air pressure lowers the boiling point, roughly 1 °C per 300 m. 85 °C would need about 4,500 m."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kaapstad voel soos die suidpunt van die wêreld, maar hoe ver suid lê dit regtig? Watter stad lê die verste suid?",
+    "options": ["Kaapstad", "Sydney", "Buenos Aires", "Melbourne"],
+    "correctIndex": 3,
+    "gloss": "Cape Town feels like the bottom of the world, but how far south is it really? Which city lies furthest south? — Melbourne (about 37.8°S), against Buenos Aires 34.6°S, Cape Town 33.9°S and Sydney 33.9°S."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter Egiptiese god, met die kop van ’n jakkals, was die beskermer van balseming en van grafte?",
+    "options": ["Horus", "Anubis", "Thoth", "Osiris"],
+    "correctIndex": 1,
+    "gloss": "Which jackal-headed Egyptian god protected embalming and tombs? — Anubis. Horus is falcon-headed, Thoth ibis-headed, Osiris shown as a mummified king."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Watter skaakstuk staan die hele spel lank op blokkies van dieselfde kleur?",
+    "options": ["Die toring", "Die perd", "Die koning", "Die loper"],
+    "correctIndex": 3,
+    "gloss": "Which chess piece stays on squares of the same colour all game? — The bishop (loper): it moves only diagonally, and diagonal steps never change colour. The knight always changes colour."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter Suid-Afrikaner het “District 9” geregisseer, die wetenskapfiksie-rolprent oor ruimtewesens wat in Johannesburg strand?",
+    "options": ["Neill Blomkamp", "Gavin Hood", "Jamie Uys", "Oliver Hermanus"],
+    "correctIndex": 0,
+    "gloss": "Which South African directed 'District 9', the science-fiction film about aliens stranded in Johannesburg? — Neill Blomkamp (2009). Gavin Hood made 'Tsotsi', Jamie Uys 'The Gods Must Be Crazy'."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "September se naam kom van die Latynse ‘septem’, sewe, want dit was eens die sewende maand. Met watter maand het die oudste Romeinse jaar dan begin?",
+    "options": ["Januarie", "Maart", "Februarie", "April"],
+    "correctIndex": 1,
+    "gloss": "September comes from Latin 'septem', seven, because it was once the seventh month. So which month began the oldest Roman year? — March: count back six months from September. Martius was the first month of the early Roman calendar."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die grootste bevestigde meteoriet-impakstruktuur op aarde is ’n Wêrelderfenisgebied in Suid-Afrika. Watter een?",
+    "options": ["Die Vredefort-koepel", "Die Tswaing-krater", "Die Morokweng-krater", "Die Kalkkop-krater"],
+    "correctIndex": 0,
+    "gloss": "The largest verified meteorite impact structure on Earth is a World Heritage Site in South Africa. Which? — The Vredefort Dome. Tswaing, Morokweng and Kalkkop are real but smaller South African impact sites."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter piek is die hoogste binne Suid-Afrika se grense?",
+    "options": ["Thabana Ntlenyana", "Champagne Castle", "Mafadi", "Kompasberg"],
+    "correctIndex": 2,
+    "gloss": "Which peak is the highest within South Africa's borders? — Mafadi (about 3,450 m) in the Drakensberg. Thabana Ntlenyana is higher but lies in Lesotho."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter planeet wentel om die Son terwyl hy amper op sy sy lê, met ’n ashelling van byna 98°?",
+    "options": ["Uranus", "Neptunus", "Saturnus", "Venus"],
+    "correctIndex": 0,
+    "gloss": "Which planet orbits the Sun almost lying on its side, with an axial tilt of nearly 98°? — Uranus. Venus is the trap: it spins backwards, but is nearly upright (tilt about 177°)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie het in 1822 met behulp van die Rosetta-steen aangekondig dat hy die Egiptiese hiërogliewe ontsyfer het?",
+    "options": ["Thomas Young", "Howard Carter", "Auguste Mariette", "Jean-François Champollion"],
+    "correctIndex": 3,
+    "gloss": "Who announced in 1822, with the help of the Rosetta Stone, that he had deciphered Egyptian hieroglyphs? — Jean-François Champollion (Lettre à M. Dacier). Thomas Young made earlier partial progress."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dante se “Goddelike Komedie” begin in die Hel en eindig in die Paradys. Waar speel die middelste deel af?",
+    "options": ["In die Vagevuur", "In die Limbo", "In die Hades", "In die Elysium"],
+    "correctIndex": 0,
+    "gloss": "Dante's Divine Comedy begins in Hell and ends in Paradise. Where is the middle part set? — Purgatory (Purgatorio). Limbo is the first circle of Dante's Hell; Hades and Elysium are Greek."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In 1947 het tegnici ’n ‘bug’ in die Harvard Mark II-rekenaar opgespoor en dit in die logboek vasgeplak: ’n regte insek. Watter soort?",
+    "options": ["’n Kakkerlak", "’n Vlieg", "’n Mot", "’n Kriek"],
+    "correctIndex": 2,
+    "gloss": "In 1947 technicians found a 'bug' in the Harvard Mark II and taped it into the logbook: a real insect. What kind? — A moth, logged as the 'first actual case of bug being found'."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In watter museum hang Rembrandt se reusagtige “Nagwag”?",
+    "options": ["Die Rijksmuseum", "Die Mauritshuis", "Die Louvre", "Die Prado"],
+    "correctIndex": 0,
+    "gloss": "In which museum does Rembrandt's huge 'Night Watch' hang? — The Rijksmuseum, Amsterdam. The Mauritshuis in The Hague is the trap (Vermeer's 'Girl with a Pearl Earring')."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Roquefort, die bekende blouskimmelkaas, word in grotte in Suid-Frankryk laat ryp word. Van watter dier se melk word dit gemaak?",
+    "options": ["Koei", "Bok", "Skaap", "Buffel"],
+    "correctIndex": 2,
+    "gloss": "Roquefort, the famous blue cheese, is ripened in caves in southern France. Which animal's milk is it made from? — Sheep's (ewe's) milk, by law."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koolstof-14 se halfleeftyd is sowat 5\u00a0730 jaar. Watter deel van die oorspronklike koolstof-14 in ’n stuk hout is ná sowat 17\u00a0190 jaar nog oor?",
+    "options": ["’n Derde", "’n Kwart", "’n Sesde", "’n Agtste"],
+    "correctIndex": 3,
+    "gloss": "Carbon-14's half-life is about 5,730 years. What fraction of the original carbon-14 in a piece of wood remains after about 17,190 years? — An eighth: three half-lives, ½ × ½ × ½. 'A third' traps those who divide by three."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Engels het al vier hierdie woorde uit Suid-Afrika oorgeneem, maar net een het Afrikaans self uit Portugees gekry. Watter een?",
+    "options": ["Veld", "Kraal", "Trek", "Stoep"],
+    "correctIndex": 1,
+    "gloss": "English took all four words from South Africa, but only one came into Afrikaans from Portuguese. Which? — Kraal, from Portuguese 'curral' (compare Spanish 'corral'). Veld, trek and stoep are Dutch."
+  }
+]

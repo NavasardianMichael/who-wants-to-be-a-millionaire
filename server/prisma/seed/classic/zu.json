@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qedela isaga esikhuthaza abantu ukuthi basizane: “… ziyagezana.”",
+    "options": ["Izinyawo", "Izandla", "Izingane", "Izinkomo"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb urging people to help one another: '… wash each other.' — Hands: 'Izandla ziyagezana'."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Izinambuzane zinemilenze eyisithupha. Isicabucabu sona sinemilenze emingaki?",
+    "options": ["6", "10", "8", "12"],
+    "correctIndex": 2,
+    "gloss": "Insects have six legs. How many does a spider have? — 8: spiders are arachnids, not insects."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Leli dolobha libizwa ngokuthi yiGoli ngenxa yegolide elatholakala khona ngo-1886. Igama lalo elisemthethweni lithini?",
+    "options": ["Kimberley", "Pretoria", "Bloemfontein", "Johannesburg"],
+    "correctIndex": 3,
+    "gloss": "This city is called eGoli because of the gold found there in 1886. What is its official name? — Johannesburg (Witwatersrand gold rush). Kimberley is the diamond trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Igama elithi “indlulamithi” lisho “edlula imithi”. Ngakho lesi silwane sidume ngani?",
+    "options": ["Ngobude baso", "Ngejubane laso", "Ngamandla aso", "Ngombala waso"],
+    "correctIndex": 0,
+    "gloss": "The word for giraffe, 'indlulamithi', means 'the one that passes (is taller than) the trees'. What is the animal known for? — Its height."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uphuthu, oluvame ukudliwa namasi, lwenziwa ngani?",
+    "options": ["Ngofulawa kakolweni", "Ngempuphu yombila", "Ngelayisi", "Ngamazambane"],
+    "correctIndex": 1,
+    "gloss": "Uphuthu, often eaten with amasi (sour milk), is made from what? — Maize meal (crumbly maize porridge)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ebholeni lezinyawo, uma unompempe ekhombisa umdlali ikhadi elibomvu, kusho ukuthini?",
+    "options": ["Uthola isexwayiso nje", "Kufanele aphume imizuzu eyishumi", "Uxoshwa enkundleni", "Uyashintshwa, kungene omunye esikhundleni sakhe"],
+    "correctIndex": 2,
+    "gloss": "In football, when the referee shows a player a red card, what does it mean? — He is sent off. The team plays a man short (no replacement); a ten-minute sin bin is rugby."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuthatha isikhathi esingakanani ukuba uMhlaba uzungeze iLanga kanye?",
+    "options": ["Ngosuku olulodwa", "Ngenyanga eyodwa", "Ngesonto elilodwa", "Ngonyaka owodwa"],
+    "correctIndex": 3,
+    "gloss": "How long does the Earth take to go round the Sun once? — One year. 'One day' is the trap: that is one turn on its axis."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "NgesiZulu “luhlaza” lungasho imibala emibili: okotshani noma okwesibhakabhaka. Uma uxuba upende ophuzi nopende oluhlaza okwesibhakabhaka, uthola umbala onjani?",
+    "options": ["Oluhlaza okotshani", "Onsundu", "Owolintshi", "Ompunga"],
+    "correctIndex": 0,
+    "gloss": "In Zulu 'luhlaza' covers both grass-green and sky-blue. Mix yellow paint with sky-blue paint: what colour do you get? — Grass green."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Esibayeni kunezinkomo eziyisithupha, phakathi kwazo kuzulazula izinkukhu ezine. Imilenze yazo zonke ihlangene ingaki?",
+    "options": ["40", "32", "24", "20"],
+    "correctIndex": 1,
+    "gloss": "In the kraal there are six cows and four chickens wandering among them. How many legs altogether? — 32: 6×4 + 4×2. 40 is for those who give chickens four legs."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "NgokweBhayibheli, uNowa wakha ini ukuze yena, umndeni wakhe nezilwane basinde kuzamcolo?",
+    "options": ["Umbhoshongo", "Ithempeli", "Umkhumbi", "Udonga"],
+    "correctIndex": 2,
+    "gloss": "According to the Bible, what did Noah build so that he, his family and the animals survived the flood? — A ship (the ark). The tower is Babel's."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ekuseni umi ubheke ngqo lapho ilanga liphuma khona. Isandla sakho sobunxele sikhomba ngakuphi?",
+    "options": ["Eningizimu", "Entshonalanga", "Empumalanga", "Enyakatho"],
+    "correctIndex": 3,
+    "gloss": "In the morning you stand facing exactly where the sun rises. Which way does your left hand point? — North: facing east, left is north."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "UPhuzekhemisi noMfaz' Omnyama baziwa kakhulu ngaluphi uhlobo lomculo?",
+    "options": ["Umaskandi", "Isicathamiya", "Ikwaito", "Igqom"],
+    "correctIndex": 0,
+    "gloss": "Phuzekhemisi and Mfaz' Omnyama are best known for which kind of music? — Maskandi, the Zulu guitar-led genre."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yimuphi umfula omkhulu kunayo yonke KwaZulu-Natali, oqala ezintabeni zoKhahlamba lapho wehla khona ngempophoma ende?",
+    "options": ["UMngeni", "UThukela", "UMfolozi", "UMzimkhulu"],
+    "correctIndex": 1,
+    "gloss": "Which is the largest river in KwaZulu-Natal, rising in the Drakensberg where it drops down a tall waterfall? — The Tugela (uThukela) and the Tugela Falls."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ubona umbani, bese ubala imizuzwana emithathu ngaphambi kokuzwa ukuduma kwezulu. Uma umsindo uhamba cishe amamitha angu-340 ngomzuzwana, umbani ukude kangakanani?",
+    "options": ["Cishe amamitha angu-340", "Cishe amakhilomitha amathathu", "Cishe ikhilomitha elilodwa", "Cishe amamitha angu-100"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and count three seconds before the thunder. If sound travels about 340 m a second, how far away is the lightning? — About 1 km (3 × 340 = 1,020 m)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yini emzimbeni eyenza umchamo ngokuhlunga igazi?",
+    "options": ["Isibindi", "Isinye", "Amaphaphu", "Izinso"],
+    "correctIndex": 3,
+    "gloss": "What in the body makes urine by filtering the blood? — The kidneys. The bladder only stores urine; the liver does not make it."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uma umuntu ethi “Akukho qili lazikhotha emhlane”, usho ukuthini?",
+    "options": ["Noma uhlakaniphe kangakanani, uyabadinga abanye", "Abantu abahlakaniphile abathembeki neze", "Ubuqili bugcina bulimaza umnikazi wabo", "Ukuhlakanipha kuza ngokukhula ngeminyaka"],
+    "correctIndex": 0,
+    "gloss": "'No clever one ever licked his own back' means what? — However clever you are, you still need other people."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I-bunny chow, isidlo esadabuka eThekwini, iyini?",
+    "options": ["Inyama yemvu eyosiwe emalahleni", "Ingxenye yesinkwa egcwaliswe ngekhari", "Isitshulu sikabhontshisi nombila", "Inhlanzi ethosiwe namazambane"],
+    "correctIndex": 1,
+    "gloss": "Bunny chow, a dish born in Durban, is what? — A part of a loaf hollowed and filled with curry."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ekubaleni ngeminwe, u-6 ngesiZulu uthiwa “isithupha” ngoba kuphakanyiswa isithupha sesandla sesibili. Inombolo 7, “isikhombisa”, iqanjwe ngamuphi umunwe?",
+    "options": ["Umunwe omude ophakathi", "Ucikicane", "Umunwe wokukhomba", "Umunwe wendandatho"],
+    "correctIndex": 2,
+    "gloss": "Counting on fingers, 6 is 'isithupha' (thumb) because the second hand's thumb goes up. Which finger is 7, 'isikhombisa', named after? — The index (pointing, -khomba) finger, the next one after the thumb."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "NgoDisemba eNingizimu Afrika kusehlobo, amabhishi agcwele abantu. Ngaleso sikhathi eYurophu kuyisikhathi sini sonyaka?",
+    "options": ["Ihlobo", "Ikwindla", "Intwasahlobo", "Ubusika"],
+    "correctIndex": 3,
+    "gloss": "In December it is summer in South Africa and the beaches are full. What season is it then in Europe? — Winter: the hemispheres have opposite seasons."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Umjaho we-Comrades ugijinywa phakathi kweTheku noMgungundlovu. Cishe ubude bawo bungamakhilomitha angaki?",
+    "options": ["Cishe angu-90", "Cishe angu-42", "Cishe angu-60", "Cishe angu-160"],
+    "correctIndex": 0,
+    "gloss": "The Comrades is run between Durban and Pietermaritzburg. Roughly how many kilometres is it? — About 90 (it varies around 86–90 km). 42 is the ordinary marathon trap."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Umkhosi woMhlanga, lapho izintombi ziletha imihlanga eNkosini yamaZulu, ubanjelwa esigodlweni saseNyokeni. Lesi sigodlo sikuphi?",
+    "options": ["EShowe", "KwaNongoma", "EMpangeni", "ENquthu"],
+    "correctIndex": 1,
+    "gloss": "The Reed Dance, where maidens bring reeds to the Zulu King, is held at Enyokeni palace. Where is it? — Nongoma."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ILadysmith Black Mambazo yaduma emhlabeni wonke ngemva kokucula ku-albhamu ethi “Graceland” (1986). Leyo albhamu ingekabani?",
+    "options": ["UBob Dylan", "UStevie Wonder", "UPaul Simon", "UHarry Belafonte"],
+    "correctIndex": 2,
+    "gloss": "Ladysmith Black Mambazo became world famous after singing on the album 'Graceland' (1986). Whose album was it? — Paul Simon's. Belafonte worked with Miriam Makeba."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ngokwenganekwane yesiZulu, uNkulunkulu wathuma unwabu ukuba lutshele abantu ukuthi ngeke bafe, kodwa lwabambezeleka endleleni. Yisiphi isilwane esafika kuqala nomlayezo wokufa?",
+    "options": ["Inyoka", "Ixoxo", "Ufudu", "Intulo"],
+    "correctIndex": 3,
+    "gloss": "In the Zulu tale, uNkulunkulu sent the chameleon to tell people they would not die, but it dawdled. Which animal arrived first with the message of death? — The lizard (intulo)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "UMbusi waseNdiya uShah Jahan wakha i-Taj Mahal ukuze ibe yini?",
+    "options": ["Ithuna lomkakhe", "Isigodlo sakhe sokuhlala", "Inqaba yokuvikela idolobha", "Indawo yokugcina ingcebo yakhe"],
+    "correctIndex": 0,
+    "gloss": "Why did the Mughal emperor Shah Jahan build the Taj Mahal? — As a tomb for his wife, Mumtaz Mahal."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Emahhashini asolwandle, ngubani othwala amaqanda aze achamusele?",
+    "options": ["Insikazi", "Iduna", "Bobabili ngokushintshana", "Akekho, ashiywa emanzini"],
+    "correctIndex": 1,
+    "gloss": "In seahorses, who carries the eggs until they hatch? — The male, in his brood pouch."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ngubani owasungula umshini wokunyathelisa onezinhlamvu ezinyakazayo eYurophu ngekhulu le-15?",
+    "options": ["ULeonardo da Vinci", "UNicolaus Copernicus", "UJohannes Gutenberg", "UChristopher Columbus"],
+    "correctIndex": 2,
+    "gloss": "Who invented the movable-type printing press in Europe in the 15th century? — Johannes Gutenberg. The others are near-contemporaries."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Efilimini yopopayi ethi “The Lion King”, inkosana ibizwa ngokuthi nguSimba. NgesiSwahili leli gama lisho ukuthini?",
+    "options": ["Inkosi", "Indodana", "Isibindi", "Ibhubesi"],
+    "correctIndex": 3,
+    "gloss": "In the cartoon 'The Lion King' the young prince is Simba. What does the name mean in Swahili? — Lion. The film's title is the clue; 'king' is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Amagama athi “itafula”, “ifasitela” nelithi “ibhulukwe” angena esiZulwini evela kuluphi ulimi?",
+    "options": ["IsiBhunu", "IsiNgisi", "IsiPutukezi", "IsiHindi"],
+    "correctIndex": 0,
+    "gloss": "The words 'itafula' (table), 'ifasitela' (window) and 'ibhulukwe' (trousers) came into Zulu from which language? — Afrikaans: tafel, venster, broek. English 'table, window, trousers' could not give these forms."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Umalume ngumfowabo kamama. Ngokwakheka kwegama, “ubabekazi” ungubani?",
+    "options": ["Udadewabo kamama", "Udadewabo kababa", "Unina kababa", "Umkamalume"],
+    "correctIndex": 1,
+    "gloss": "Umalume is mother's brother. From how the word is built, who is 'ubabekazi'? — Father's sister: baba (father) + -kazi (female)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "INdebe yoMhlaba yeFIFA yabanjelwa eNingizimu Afrika ngo-2010. Lowo nyaka ubhalwa kanjani ngezinombolo zamaRoma?",
+    "options": ["MMXX", "MXX", "MMX", "MMV"],
+    "correctIndex": 2,
+    "gloss": "South Africa hosted the FIFA World Cup in 2010. How is that year written in Roman numerals? — MMX: M = 1000 twice, X = 10."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Uma sisola umuntu, sivame ukwenza umsindo othi “tsk-tsk” ngokuqhafaza ulimi emazinyweni angaphambili. EsiZulwini lowo msindo ubhalwa ngaluphi uhlamvu?",
+    "options": ["q", "x", "gq", "c"],
+    "correctIndex": 3,
+    "gloss": "When we disapprove of someone we make a 'tsk-tsk' by clicking the tongue on the front teeth. Which Zulu letter writes that sound? — c, the dental click. q is alveolar, x lateral (the horse-urging click), gq voiced alveolar."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Esiqongweni sentaba, cishe amamitha angu-3000 ngaphezu kwezinga lolwandle, umoya uncane. Amanzi abila ezingeni lokushisa elingakanani lapho?",
+    "options": ["Cishe ku-90 °C", "Cishe ku-100 °C", "Cishe ku-110 °C", "Cishe ku-70 °C"],
+    "correctIndex": 0,
+    "gloss": "On a mountain top about 3,000 m above sea level the air is thin. At what temperature does water boil there? — About 90 °C: lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ikhwezi, elikhanya kakhulu empumalanga ekuseni ngaphambi kokuphuma kwelanga, empeleni aliyona inkanyezi. Liyini?",
+    "options": ["Iplanethi iMars", "Iplanethi iVenus", "Iplanethi iJupiter", "Iplanethi iSaturn"],
+    "correctIndex": 1,
+    "gloss": "Ikhwezi, the 'morning star' shining brightly in the east before sunrise, is not a star at all. What is it? — The planet Venus, the brightest object in the sky after the Sun and Moon."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ngo-1996 e-Atlanta, uJosia Thugwane waba ngowokuqala waseNingizimu Afrika omnyama ukuwina indondo yegolide kuma-Olimpiki. Wayiwina kuwuphi umjaho?",
+    "options": ["Amamitha angu-10 000", "Amamitha angu-5 000", "Imarathoni", "Amamitha angu-1 500"],
+    "correctIndex": 2,
+    "gloss": "In Atlanta 1996, Josia Thugwane became the first black South African to win Olympic gold. In which race? — The marathon."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ifilimu yaseNingizimu Afrika eyawina i-Oscar yefilimu yolimi lwangaphandle ngo-2006 yayibizwa ngokuthi yini?",
+    "options": ["Yesterday", "Sarafina!", "District 9", "Tsotsi"],
+    "correctIndex": 3,
+    "gloss": "Which South African film won the Oscar for Best Foreign Language Film in 2006? — Tsotsi. 'Yesterday' (in Zulu) was only nominated, in 2005; District 9 was nominated for Best Picture."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Enovelini kaChinua Achebe ethi “Things Fall Apart”, umlingiswa oyinhloko uOkonkwo ungowasiphi isizwe?",
+    "options": ["Ama-Igbo", "Ama-Yoruba", "Ama-Hausa", "Ama-Ashanti"],
+    "correctIndex": 0,
+    "gloss": "In Chinua Achebe's novel 'Things Fall Apart', which people does the hero Okonkwo belong to? — The Igbo."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ikhodi ye-QR, esiyiskena ngomakhalekhukhwini, yasungulwa ngo-1994 ukuze kulandelelwe izingxenye zezimoto efekthri. Yasungulelwa kuliphi izwe?",
+    "options": ["EJalimane", "EJapane", "ENingizimu Korea", "EMelika"],
+    "correctIndex": 1,
+    "gloss": "The QR code we scan with our phones was invented in 1994 to track car parts in a factory. In which country? — Japan (Denso Wave, a Toyota group company)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ILesotho izungezwe nxazonke yiNingizimu Afrika kuphela. Yiliphi kulawa mazwe elizungezwe nxazonke yizwe elilodwa, njengayo?",
+    "options": ["I-Eswatini", "ILiechtenstein", "ISan Marino", "ILuxembourg"],
+    "correctIndex": 2,
+    "gloss": "Lesotho is entirely surrounded by South Africa alone. Which of these countries is likewise entirely surrounded by a single country? — San Marino (by Italy). Eswatini also borders Mozambique; Liechtenstein borders two countries."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Emaqandeni engwenya, yini enquma ukuthi kuzochamusela iduna noma insikazi?",
+    "options": ["Ubukhulu beqanda", "Ubudala bukanina", "Isikhathi sosuku iqanda elabekelwa ngaso", "Izinga lokushisa esidlekeni"],
+    "correctIndex": 3,
+    "gloss": "In crocodile eggs, what decides whether a male or a female hatches? — The temperature of the nest."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Uma ilanga lisithekiswa yinyanga emini, ngalolo suku inyanga ikusiphi isigaba?",
+    "options": ["Inyanga entsha", "Inyanga egcwele", "Isigamu sokuqala", "Isigamu sokugcina"],
+    "correctIndex": 0,
+    "gloss": "When the Moon eclipses the Sun, what phase is the Moon in that day? — New moon: it sits between Earth and Sun, its dark side to us. Full moon is when a lunar eclipse happens."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Igazi lethu libomvu ngenxa yensimbi (i-ayoni) eliyiphethe. Elembambazi lona liluhlaza okwesibhakabhaka, ngoba esikhundleni sensimbi lisebenzisa yiphi into?",
+    "options": ["Isiliva", "Ithusi", "Uzinki", "Igolide"],
+    "correctIndex": 1,
+    "gloss": "Our blood is red because of the iron it carries. An octopus's blood is blue because instead of iron it uses what? — Copper (haemocyanin)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iqoqo lezinkanyezi elibizwa ngesiZulu ngokuthi yisiLimela, igama elihlobene no-“ukulima”, ngesiNgisi laziwa ngokuthi yini?",
+    "options": ["Orion's Belt", "Southern Cross", "Pleiades", "Big Dipper"],
+    "correctIndex": 2,
+    "gloss": "The star cluster called isiLimela in Zulu, a name linked to 'ukulima' (to plough), is known in English as what? — The Pleiades."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iqoqo lezinkondlo elidumile elithi “Amal'eZulu” labhalwa ngubani?",
+    "options": ["UMazisi Kunene", "UC. L. S. Nyembezi", "UR. R. R. Dhlomo", "UB. W. Vilakazi"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the famous poetry collection 'Amal'eZulu'? — B. W. Vilakazi. The others are fellow Zulu writers."
+  },
+  {
+    "level": 5,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ikhyubhu kaRubik, ithoyizi elixazululwa ngokusonta izinhlangothi zalo ezinemibala, yasungulwa ngo-1974 nguErnő Rubik. Yasungulelwa kuliphi izwe?",
+    "options": ["EHungary", "ERashiya", "EJalimane", "EPholandi"],
+    "correctIndex": 0,
+    "gloss": "The Rubik's Cube, a toy solved by twisting its coloured faces, was invented in 1974 by Ernő Rubik. In which country? — Hungary."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Leli zwe libanzi ngokwanele ukuba nezikhathi ezihlukene ezinhlanu, kodwa ezweni lonke amawashi akhombisa isikhathi esisodwa. Yiliphi?",
+    "options": ["IRashiya", "IShayina", "I-Australia", "IBrazil"],
+    "correctIndex": 1,
+    "gloss": "This country is wide enough for five time zones, yet all its clocks show one time. Which? — China (Beijing time). Russia, Australia and Brazil use several zones."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Itiye elimnyama netiye eliluhlaza okotshani kwenziwa ngamaqabunga esitshalo esifanayo. Umehluko wawo uvela kuphi ikakhulukazi?",
+    "options": ["Ezweni lapho isitshalo simila khona", "Eminyakeni yobudala besitshalo", "Endleleni amaqabunga acutshungulwa ngayo", "Esikhathini sonyaka okuvunwa ngaso"],
+    "correctIndex": 2,
+    "gloss": "Black and green tea come from the leaves of the same plant. Where does the difference mainly come from? — How the leaves are processed: black tea is oxidised, green is not."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Umuzi wobukhosi weNkosi uCetshwayo, owanika idolobha lanamuhla igama lawo, wawubizwa ngokuthi yini?",
+    "options": ["KwaBulawayo", "UMgungundlovu", "KwaDukuza", "ONdini"],
+    "correctIndex": 3,
+    "gloss": "King Cetshwayo's royal homestead, which gave a modern town its name, was called what? — oNdini (Ulundi). KwaBulawayo and KwaDukuza were Shaka's, uMgungundlovu Dingane's."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Igama elithi “irobhothi” laqala ukusetshenziswa emdlalweni weshashalazi, livela egameni elisho “umsebenzi ophoqelelwe”. Lidabuka kuluphi ulimi?",
+    "options": ["IsiCzech", "IsiRashiya", "IsiJalimane", "IsiPholishi"],
+    "correctIndex": 0,
+    "gloss": "The word 'robot' was first used in a stage play and comes from a word meaning 'forced labour'. From which language? — Czech: 'robota', in Karel Čapek's play R.U.R."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ingilazi igcwele amanzi aze afika onqenqemeni, kuntanta kuwo amaqhwa. Uma onke amaqhwa encibilika, kwenzekani ngezinga lamanzi?",
+    "options": ["Liyakhuphuka, amanzi ayachichima", "Lihlala linjalo", "Liyehla", "Liyehla kuqala, bese liyakhuphuka"],
+    "correctIndex": 1,
+    "gloss": "A glass is filled to the brim with water, ice floating in it. When all the ice melts, what happens to the water level? — It stays the same: floating ice displaces exactly its own weight of water, which is what it becomes when it melts."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "NgoDisemba, emini enkulu yosuku olude kunazo zonke onyakeni, ilanga liba ngqo phezu kwekhanda emugqeni odlula esifundazweni saseLimpopo. Lowo mugqa ubizwa ngokuthi yini?",
+    "options": ["ITropiki likaCancer", "Inkabazwe", "ITropiki likaCapricorn", "Umugqa weGreenwich"],
+    "correctIndex": 2,
+    "gloss": "In December, at noon on the longest day of the year, the sun is straight overhead on a line that crosses Limpopo province. What is that line? — The Tropic of Capricorn, the southern tropic (near Polokwane)."
+  }
+]

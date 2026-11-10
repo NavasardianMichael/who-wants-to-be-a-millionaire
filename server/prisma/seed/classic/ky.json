@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Макалды толуктаңыз: «Ат — эрдин …».",
+    "options": ["күчү", "канаты", "байлыгы", "тиреги"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'The horse is a man's ...' — канаты (wings): «Ат — эрдин канаты»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Асман да көк, жазында жаңы чыккан чөп да көк. Анда кыргыздар «көк чай» деп кайсы чайды айтат?",
+    "options": ["Кара чайды", "Ак чайды", "Кызыл чайды", "Жашыл чайды"],
+    "correctIndex": 3,
+    "gloss": "The sky is 'kök' and fresh grass is 'kök' too. So which tea do Kyrgyz call 'kök tea'? — Green tea: kök covers both blue and green. «Ак чай» (tea with milk) is the trap."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Бийик тоолордун арасында жатса да, кышында тоңбогон бул көлдүн аты да ошол касиетин айтып турат. Кайсы көл?",
+    "options": ["Ысык-Көл", "Соң-Көл", "Сары-Челек", "Чатыр-Көл"],
+    "correctIndex": 0,
+    "gloss": "Though it lies among high mountains, this lake does not freeze in winter, and its name says so. Which lake? — Issyk-Kul, 'warm lake'."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чабандестер ат үстүндө улак талашкан кыргыздын улуттук оюну кандай аталат?",
+    "options": ["Кыз куумай", "Тыйын эңмей", "Көк бөрү", "Эр эңиш"],
+    "correctIndex": 2,
+    "gloss": "What is the Kyrgyz national game where riders fight over a goat carcass? — Kök-börü. The others: chasing a girl, picking up coins at a gallop, horseback wrestling."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Нооруз түнү казанда таң атканча кайнатылып, өстүрүлгөн буудайдан жасалуучу таттуу тамак кандай аталат?",
+    "options": ["Боорсок", "Сүмөлөк", "Чучук", "Талкан"],
+    "correctIndex": 1,
+    "gloss": "Which sweet Nooruz dish is made from sprouted wheat, stirred in a cauldron all night until dawn? — Sümölök."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Токтогул да чертип ырдаган кыргыздын улуттук аспабы комуздун канча кылы бар?",
+    "options": ["Үч", "Эки", "Төрт", "Алты"],
+    "correctIndex": 0,
+    "gloss": "How many strings does the komuz, the instrument Toktogul played, have? — Three."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Том жана Джерри» мультфильминде Джерриге эч жетпей, аны түбөлүк кууп жүргөн Том ким?",
+    "options": ["Ит", "Чычкан", "Мышык", "Коён"],
+    "correctIndex": 2,
+    "gloss": "In 'Tom and Jerry', who is Tom, forever chasing Jerry and never catching him? — A cat."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Көчөлөрүнүн ордун каналдар, таксинин ордун гондолалар ээлеген италиялык шаар кайсы?",
+    "options": ["Рим", "Милан", "Неаполь", "Венеция"],
+    "correctIndex": 3,
+    "gloss": "Which Italian city has canals for streets and gondolas for taxis? — Venice."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Деңизде жашап, суу астында сүзсө да, балык эмес, баласын сүт менен баккан жаныбар кайсы?",
+    "options": ["Акула", "Дельфин", "Скат", "Тунец"],
+    "correctIndex": 1,
+    "gloss": "Which sea animal swims underwater yet is not a fish and feeds its young on milk? — The dolphin, a mammal."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Футбол беттешинде эки команданын ар биринен бирден оюнчу кызыл карточка алып, талаадан чыгарылды. Эми талаада дарбазачыларды кошкондо канча оюнчу калды?",
+    "options": ["20", "18", "21", "22"],
+    "correctIndex": 0,
+    "gloss": "One player from each team is sent off with a red card. How many players are left on the pitch, goalkeepers included? — 20: 11 + 11 − 2."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Туулган жылдын жаныбары кайра айланып келгенде, кыргыздар «мүчөл жашка чыкты» дешет. Биринчи мүчөл 13 жашта болсо, үчүнчү мүчөл канча жашта болот?",
+    "options": ["25 жашта", "36 жашта", "37 жашта", "39 жашта"],
+    "correctIndex": 2,
+    "gloss": "When the animal of your birth year comes round again, Kyrgyz say you've reached your 'müchöl'. If the first is at 13, when is the third? — 37: the cycle is 12 years, 13 → 25 → 37."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кыргыздын байыркы ай аттарынын үчөө катары менен келет: Тогуздун айы, Жетинин айы, Бештин айы. Андан кийинки ай кандай аталат?",
+    "options": ["Төрттүн айы", "Үчтүн айы", "Алтынын айы", "Бирдин айы"],
+    "correctIndex": 1,
+    "gloss": "Three old Kyrgyz month names come in a row: month of Nine, of Seven, of Five (Oct–Dec). What is the next one called? — Üchtün aiy, 'of Three' (January); the numbers drop by two, then Birdin aiy (February)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кыргыз алфавитинде орус алфавитинин 33 тамгасынан тышкары дагы үч тамга бар. Алар кайсылар?",
+    "options": ["Ә, Ө, Ү", "Ң, Ғ, Ө", "Ө, Ү, Һ", "Ң, Ө, Ү"],
+    "correctIndex": 3,
+    "gloss": "The Kyrgyz alphabet has three letters beyond the 33 Russian ones. Which? — Ң, Ө, Ү (36 letters). Ә, Ғ, Һ are Kazakh letters."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Борбор калаабыз мурда Пишпек деп аталып, 1991-жылы Бишкек болгон. Ал эми 1926–1991-жылдары ал кандай аталган?",
+    "options": ["Фрунзе", "Пржевальск", "Рыбачье", "Ленинабад"],
+    "correctIndex": 0,
+    "gloss": "Our capital was once Pishpek and became Bishkek in 1991. What was it called in 1926–1991? — Frunze. Przhevalsk (Karakol), Rybachye (Balykchy), Leninabad (Khujand) are other Soviet names."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«Манас» үчилтигинин үчүнчү бөлүгүнүн каарманы Сейтек Манаска ким болот?",
+    "options": ["Уулу", "Иниси", "Небереси", "Чөбөрөсү"],
+    "correctIndex": 2,
+    "gloss": "Seitek, hero of the third part of the Manas trilogy — what is he to Manas? — His grandson: the parts follow generations, Manas → Semetey → Seitek."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Грек мифологиясында колуна үч тиштүү айры кармап, деңиздерди башкарган кудай ким?",
+    "options": ["Зевс", "Посейдон", "Аид", "Аполлон"],
+    "correctIndex": 1,
+    "gloss": "In Greek mythology, which god holds a trident and rules the seas? — Poseidon."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Теннисте упайлар өзгөчө саналат: 0, 15, 30… Андан кийинки упай канча?",
+    "options": ["40", "45", "50", "60"],
+    "correctIndex": 0,
+    "gloss": "Tennis counts points oddly: 0, 15, 30... What comes next? — 40, not the 45 the pattern suggests."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Австралияда Жаңы жылды жылдын кайсы мезгилинде тосушат?",
+    "options": ["Кышында", "Жазында", "Күзүндө", "Жайында"],
+    "correctIndex": 3,
+    "gloss": "In which season do Australians see in the New Year? — Summer: in the Southern Hemisphere the seasons are reversed."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ак аюу жапайы жаратылышта пингвинге эч качан жолукпайт. Себеби эмнеде?",
+    "options": ["Ак аюу канаттууларга эч качан кол салбайт", "Пингвиндер кургактыкка дээрлик чыкпайт", "Алар Жердин эки башка уюлунда жашашат", "Пингвиндер ак аюудан тезирээк сүзөт"],
+    "correctIndex": 2,
+    "gloss": "In the wild a polar bear never meets a penguin. Why? — They live at opposite poles: polar bears in the Arctic, penguins in the Southern Hemisphere."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Нарындын бийик тоолорунда суу 100 градуска жетпей эле кайнап калат. Эмне үчүн?",
+    "options": ["Аба басымы төмөн болгондуктан", "Аба муздак болгондуктан", "Тоо суусу таза болгондуктан", "Күн жакыныраак болгондуктан"],
+    "correctIndex": 0,
+    "gloss": "High in the Naryn mountains water boils before it reaches 100 °C. Why? — Lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хан-Теңири баарынан атактуу болгону менен, Кыргызстандын эң бийик чокусу эмес. Эң бийиги кайсы?",
+    "options": ["Ленин чокусу", "Жеңиш чокусу", "Корженевская чокусу", "Исмоил Сомони чокусу"],
+    "correctIndex": 1,
+    "gloss": "Khan Tengri is the most famous, but not Kyrgyzstan's highest peak. Which is? — Jengish Chokusu (Pobeda, 7439 m). Lenin Peak is 7134 m; Korzhenevskaya and Ismoil Somoni are in Tajikistan."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Өз тегин, ата-энесин унуткан адамды «манкурт» дейбиз. Бул сөздү элге кеңири тараткан Чыңгыз Айтматовдун чыгармасы кайсы?",
+    "options": ["«Ак кеме»", "«Кыямат»", "«Деңиз бойлой жорткон ала дөбөт»", "«Кылым карытар бир күн»"],
+    "correctIndex": 3,
+    "gloss": "We call someone who has forgotten his roots a 'mankurt'. Which Aitmatov work made the word widespread? — 'The Day Lasts More than a Hundred Years' (1980), with the legend of Naiman-Ana."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чүй өрөөнүндөгү байыркы Бурана мунарасы кайсы шаардын жанында турат?",
+    "options": ["Токмок", "Кара-Балта", "Талас", "Өзгөн"],
+    "correctIndex": 0,
+    "gloss": "Which town is the ancient Burana Tower in the Chüy valley next to? — Tokmok. Özgön is the trap: it has its own Karakhanid minaret."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Айбек — Асельдин бир тууган агасы. Асельдин уулу Айбекке ким болот?",
+    "options": ["Небереси", "Бөлөсү", "Жээни", "Иниси"],
+    "correctIndex": 2,
+    "gloss": "Aibek is Asel's elder brother. What is Asel's son to Aibek? — His jeen: a sister's child. Bölö (children of two sisters) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Түнү бою ордунан жылбай, калган жылдыздар айланасында айланган Түндүк уюл жылдызын кыргыздар эмне деп атаган?",
+    "options": ["Чолпон", "Темир казык", "Үркөр", "Жетиген"],
+    "correctIndex": 1,
+    "gloss": "What did the Kyrgyz call the Pole Star, which stays put while the other stars circle it? — Temir kazyk, 'iron stake', the tether post of the sky. Cholpon is Venus, Ürkör the Pleiades, Jetigen the Big Dipper."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чагылган жарк этти, үч секунддан кийин күн күркүрөдү. Чагылган болжол менен канча алыстыкта түштү?",
+    "options": ["100 м", "10 км", "100 км", "1 км"],
+    "correctIndex": 3,
+    "gloss": "Lightning flashes and thunder follows three seconds later. Roughly how far away did it strike? — About 1 km: sound travels about 340 m per second."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Эмодзи» сөзү «эмоция» сөзүнө үндөш болгону менен, андан келип чыккан эмес. Ал кайсы тилден келген?",
+    "options": ["Англис тилинен", "Корей тилинен", "Жапон тилинен", "Кытай тилинен"],
+    "correctIndex": 2,
+    "gloss": "'Emoji' sounds like 'emotion' but doesn't come from it. Which language is it from? — Japanese: e (picture) + moji (character)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Компьютер сандарды 0 жана 1 менен гана жазат. Экилик системадагы 101 саны кадимки ондук эсепте канча болот?",
+    "options": ["5", "3", "6", "11"],
+    "correctIndex": 0,
+    "gloss": "Computers write numbers with only 0 and 1. What is binary 101 in ordinary decimal? — 5: 4 + 0 + 1."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Бул сандардын кайсынысы жөнөкөй сан, башкача айтканда, бирге жана өзүнө гана бөлүнөт?",
+    "options": ["51", "87", "91", "97"],
+    "correctIndex": 3,
+    "gloss": "Which of these numbers is prime, divisible only by 1 and itself? — 97. 51 = 3 × 17, 87 = 3 × 29, 91 = 7 × 13."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ар түстүү кийизден оюм-чийим кесилип, бири-бирине кыналып тигилген салттуу килем кандай аталат?",
+    "options": ["Ала кийиз", "Шырдак", "Туш кийиз", "Көшөгө"],
+    "correctIndex": 1,
+    "gloss": "What is the traditional carpet made of patterns cut from felt of different colours, fitted into each other and stitched? — Shyrdak. Ala-kiyiz has its pattern pressed into the felt, not sewn."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XI кылымда жазылган «Кутадгу билиг» дастанынын автору ким?",
+    "options": ["Махмуд Кашгари", "Ахмед Яссави", "Жусуп Баласагын", "Алишер Навои"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the 11th-century poem 'Kutadgu Bilig'? — Yusuf Balasaguni. Kashgari, his contemporary, wrote the Turkic dictionary."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Экватор да, Түштүк тропик да кесип өткөн жалгыз өлкө кайсы?",
+    "options": ["Индонезия", "Австралия", "Кения", "Бразилия"],
+    "correctIndex": 3,
+    "gloss": "Which is the only country crossed by both the Equator and the Tropic of Capricorn? — Brazil. Indonesia and Kenya have only the Equator, Australia only the Tropic."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Самоа менен Америка Самоасы бири-бирине жакын жайгашкан, бирок Жаңы жылды бир сутка айырма менен тосушат. Себеби эмнеде?",
+    "options": ["Ортосунан эл аралык дата сызыгы өтөт", "Ортосунан экватор өтөт", "Ортосунан нөлүнчү меридиан өтөт", "Алар ар башка календарь колдонушат"],
+    "correctIndex": 0,
+    "gloss": "Samoa and American Samoa lie close together but greet the New Year a day apart. Why? — The International Date Line runs between them (UTC+13 vs UTC−11)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Электр зымдары көбүнчө жезден жасалат, бирок тогду баарынан жакшы өткөргөн металл башка. Кайсы?",
+    "options": ["Алтын", "Күмүш", "Алюминий", "Платина"],
+    "correctIndex": 1,
+    "gloss": "Wires are mostly copper, but another metal conducts electricity best. Which? — Silver."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Python программалоо тилинин аты кайдан алынган?",
+    "options": ["Питон жыланынан", "Грек уламышындагы Пифон ажыдаарынан", "«Монти Пайтон» британ комедия тобунан", "Автордун үй жаныбарынан"],
+    "correctIndex": 2,
+    "gloss": "Where does the name of the Python programming language come from? — Monty Python, the British comedy troupe; Guido van Rossum was a fan."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Жер Күнгө эң жакын келген убак — январдын башы. Анда эмне үчүн январда бизде кыш болот?",
+    "options": ["Жердин огу жантык болгондуктан", "Январда Күн азыраак жылуулук чыгаргандыктан", "Кышында асман булуттуу болгондуктан", "Январда Күндүн нуру Жерге кечирээк жеткендиктен"],
+    "correctIndex": 0,
+    "gloss": "Earth is closest to the Sun in early January. So why is January winter for us? — Earth's axis is tilted: seasons come from the angle of sunlight, not the distance."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Тадж-Махалды кайсы падыша сүйүктүү жары Мумтаз-Махалдын эстелиги катары курдурган?",
+    "options": ["Бабур", "Акбар", "Аурангзеб", "Шах-Жахан"],
+    "correctIndex": 3,
+    "gloss": "Which emperor built the Taj Mahal as a memorial to his beloved wife Mumtaz Mahal? — Shah Jahan. Babur, founder of the dynasty, is the local trap: he grew up in Andijan and knew Osh."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Физика жана химия — эки башка илим боюнча Нобель сыйлыгын алган жалгыз окумуштуу ким?",
+    "options": ["Лайнус Полинг", "Мария Кюри", "Альберт Эйнштейн", "Нильс Бор"],
+    "correctIndex": 1,
+    "gloss": "Who is the only scientist to win Nobel Prizes in two different sciences, physics and chemistry? — Marie Curie (1903, 1911). Pauling won chemistry and peace."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Нарын облусунун Ат-Башы районунда, тоо капчыгайында турган байыркы таш кербен сарай кандай аталат?",
+    "options": ["Кошой-Коргон", "Таш-Рабат", "Шах-Фазил", "Бурана"],
+    "correctIndex": 1,
+    "gloss": "What is the ancient stone caravanserai in a mountain gorge of At-Bashy district, Naryn region? — Tash-Rabat. Koshoy-Korgon, also in At-Bashy, is a fortress ruin."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Алгоритм» сөзү кайсы окумуштуунун ысымынан келип чыккан?",
+    "options": ["Ибн Сина", "Фараби", "Улукбек", "Хорезми"],
+    "correctIndex": 3,
+    "gloss": "The word 'algorithm' comes from which scholar's name? — al-Khwarizmi, the 9th-century mathematician from Khorezm."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Манас» эпосунан «Көкөтөйдүн ашы» бөлүмүн 1856-жылы биринчи болуп кагазга түшүргөн окумуштуу ким?",
+    "options": ["Василий Радлов", "Чокан Валиханов", "Касым Тыныстанов", "Абай Кунанбаев"],
+    "correctIndex": 1,
+    "gloss": "Which scholar was the first to write down an episode of Manas, 'Kökötöy's Memorial Feast', in 1856? — Chokan Valikhanov. Radlov recorded Manas later, in the 1860s."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Бишкектеги Кыргыз улуттук көркөм сүрөт музейи кайсы сүрөтчүнүн атын алып жүрөт?",
+    "options": ["Семён Чуйков", "Сүймөнкул Чокморов", "Гапар Айтиев", "Тургунбай Садыков"],
+    "correctIndex": 2,
+    "gloss": "The Kyrgyz National Museum of Fine Arts in Bishkek bears which artist's name? — Gapar Aitiev, founder of Kyrgyz professional painting."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1924-жылы чыга баштаган биринчи кыргыз гезити кандай аталган?",
+    "options": ["«Ленинчил жаш»", "«Ала-Тоо»", "«Эркин-Тоо»", "«Кыргызстан маданияты»"],
+    "correctIndex": 2,
+    "gloss": "What was the first Kyrgyz-language newspaper, launched in 1924, called? — 'Erkin-Too' (first issue 7 November 1924)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Жибек жолу» деген аталышты 1877-жылы илимге киргизген немис географы ким?",
+    "options": ["Александр фон Гумбольдт", "Фердинанд фон Рихтгофен", "Карл Риттер", "Петер Паллас"],
+    "correctIndex": 1,
+    "gloss": "Which German geographer coined the name 'Silk Road' in 1877? — Ferdinand von Richthofen (Seidenstraße)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Байкалдан кийинки дүйнөдөгү эң терең көл кайсы?",
+    "options": ["Каспий", "Виктория", "Ысык-Көл", "Танганьика"],
+    "correctIndex": 3,
+    "gloss": "After Baikal, what is the world's deepest lake? — Tanganyika (about 1470 m). The Caspian is third (about 1025 m); Issyk-Kul is about 668 m."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Дүйнөдө деңизге чыгуу үчүн кеминде эки мамлекеттин аймагын кесип өтүш керек болгон эки гана өлкө бар. Алардын бири Борбор Азияда. Кайсы?",
+    "options": ["Өзбекстан", "Тажикстан", "Түркмөнстан", "Кыргызстан"],
+    "correctIndex": 0,
+    "gloss": "Only two countries must cross at least two other countries to reach the sea; one is in Central Asia. Which? — Uzbekistan (the other is Liechtenstein). Kyrgyzstan and Tajikistan border China, Turkmenistan borders Iran, so one crossing is enough."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Денебиздин көбү суудан турат. Адамдын денесинин массасынын эң чоң бөлүгү кайсы химиялык элементке туура келет?",
+    "options": ["Суутек", "Көмүртек", "Кычкылтек", "Азот"],
+    "correctIndex": 2,
+    "gloss": "Our body is mostly water. Which element makes up the largest share of the body's mass? — Oxygen (about 65%): in water it is 16 of every 18 units of mass. Hydrogen is the trap: the most atoms, not the most mass."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Скандинав мифологиясында Одиндин сегиз буттуу аты кандай аталат?",
+    "options": ["Фенрир", "Слейпнир", "Хугин", "Ёрмунганд"],
+    "correctIndex": 1,
+    "gloss": "In Norse mythology, what is Odin's eight-legged horse called? — Sleipnir. Fenrir is a wolf, Huginn a raven, Jörmungandr a serpent."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сервантестин романындагы Дон Кихоттун арык атынын аты эмне?",
+    "options": ["Буцефал", "Маренго", "Росинант", "Пегас"],
+    "correctIndex": 2,
+    "gloss": "In Cervantes' novel, what is Don Quixote's scrawny horse called? — Rocinante. Bucephalus was Alexander's, Marengo Napoleon's."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Жайкы да, кышкы да Олимпиада оюндарын өткөргөн жалгыз шаар кайсы?",
+    "options": ["Пекин", "Токио", "Сеул", "Москва"],
+    "correctIndex": 0,
+    "gloss": "Which is the only city to have hosted both Summer and Winter Olympics? — Beijing (2008, 2022). Tokyo hosted two Summer Games; Japan's Winter Games were in Sapporo and Nagano."
+  }
+]

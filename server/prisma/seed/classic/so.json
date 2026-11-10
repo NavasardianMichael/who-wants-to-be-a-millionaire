@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Maahmaahda Soomaaliyeed waxay tidhaahdaa: “Far keliya … ma dhaqdo.” Ereygee ayaa ka maqan?",
+    "options": ["Gacan", "Fool", "Lug", "Madax"],
+    "correctIndex": 1,
+    "gloss": "The proverb says: “A single finger does not wash a … ” — which word is missing? — Face (fool): “Far keliya fool ma dhaqdo”, i.e. nothing is achieved alone."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Soomaali badan markay bariis iyo hilib cunayaan, waxay saxanka dhinaciisa ku daraan miro ay la cunaan. Waa miraha noocee?",
+    "options": ["Canbe", "Babbaay", "Tufaax", "Muus"],
+    "correctIndex": 3,
+    "gloss": "Many Somalis eating rice and meat put a fruit on the side of the plate to eat with it. Which fruit? — Banana (muus): rice with banana is a Somali table signature."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kubadda cagta, inta ciyaartu socoto, ciyaartoygee ayaa kubadda gacmaha ku qaban kara haddii uu joogo sanduuqiisa?",
+    "options": ["Goolhayaha", "Daafaca", "Kabtanka", "Weeraryahanka"],
+    "correctIndex": 0,
+    "gloss": "In football, while the ball is in play, which player may handle it inside his own penalty area? — The goalkeeper. The captain is the trap."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Laba iyo labaatan iyo saddex iyo soddon haddii la isku daro, wadartoodu waa immisa?",
+    "options": ["Shan iyo lixdan", "Afar iyo konton", "Shan iyo konton", "Lix iyo konton"],
+    "correctIndex": 2,
+    "gloss": "Twenty-two plus thirty-three, in Somali number words — fifty-five (shan iyo konton). Somali names the units first, so the sum must be read and rebuilt in words."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Xubintee jidhka ayaa habeen iyo maalin dhiigga u tuurta jidhka oo dhan?",
+    "options": ["Beerka", "Wadnaha", "Sambabada", "Kelyaha"],
+    "correctIndex": 1,
+    "gloss": "Which organ pumps blood to the whole body day and night? — The heart (wadnaha). Liver, lungs and kidneys are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Qofka Muqdisho ku tukanaya wuxuu u jeedaa qiblada, Kacbada ee Makka. Qiyaas ahaan dhankee ayuu u jeedaa?",
+    "options": ["Bari", "Galbeed", "Koonfur", "Waqooyi"],
+    "correctIndex": 3,
+    "gloss": "Someone praying in Mogadishu faces the qibla, the Kaaba in Mecca. Roughly which direction? — North: Mecca is about 19° of latitude north and only ~5° west of Mogadishu (bearing about 344°)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“EVC Plus” iyo “Zaad” waa adeegyo Soomaali badan maalin walba isticmaasho. Maxaa lagu qabsadaa?",
+    "options": ["Lacag ku dirid taleefan", "Daawasho telefishin", "Ballansi tigidh diyaaradeed", "Barasho luqado"],
+    "correctIndex": 0,
+    "gloss": "EVC Plus and Zaad are services many Somalis use every day. What are they for? — Sending money by phone: they are the mobile-money services of Hormuud and Telesom."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aroosyada iyo ciidaha, dumarka Soomaaliyeed gacmaha iyo cagaha waxay ku sharraxaan naqshado midab leh. Maxay ku sameeyaan?",
+    "options": ["Uunsi", "Cadar", "Cillaan", "Malmal"],
+    "correctIndex": 2,
+    "gloss": "At weddings and Eid, Somali women decorate hands and feet with coloured patterns. With what? — Henna (cillaan). Incense, perfume and myrrh are other things of the same household world."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Garbasaar” waa maro ay dumarku xidhaan. Magaceeda ka garo: jidhka meeshee ayaa la saaraa?",
+    "options": ["Dhexda", "Garabka", "Gacanta", "Lugaha"],
+    "correctIndex": 1,
+    "gloss": "A garbasaar is a cloth women wear. Guess from its name: where on the body is it put? — The shoulder: garab (shoulder) + saar (put on)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shimbirahan midkee ayaan duuli karin, balse ku orda xawaare ka badan 60 km saacaddii?",
+    "options": ["Gorgor", "Tuke", "Qoolley", "Gorayo"],
+    "correctIndex": 3,
+    "gloss": "Which of these birds cannot fly but runs faster than 60 km/h? — The ostrich (gorayo), native to the Somali plains; it reaches about 70 km/h."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sheekooyinka hiddaha Soomaalida, waa kuma naagta bahalka ah ee dadka cunta, ee carruurta lagu cabsiiyo?",
+    "options": ["Dhegdheer", "Arraweelo", "Cigaal Shidaad", "Wiil Waal"],
+    "correctIndex": 0,
+    "gloss": "In Somali folk tales, who is the monstrous man-eating woman children are scared with? — Dhegdheer (“Long-Ear”). Arraweelo is the legendary queen, Cigaal Shidaad the trickster, Wiil Waal the clever sultan."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ka hor hijradii Madiina, qaar ka mid ah asxaabta Nebiga (NNKH) cadaadiskii Makka ayay ka carareen. Boqortooyadee ayay u haajireen?",
+    "options": ["Yaman", "Xabashida", "Faaris", "Masar"],
+    "correctIndex": 1,
+    "gloss": "Before the Hijra to Medina, some of the Prophet's companions fled persecution in Mecca. To which kingdom did they migrate? — Abyssinia (Aksum), whose Christian king, the Negus, sheltered them."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dabaaldegga sannad-cusubka dhaqanka Soomaalida waxaa la yidhaahdaa “Dabshid”. Magaciisa haddii la kala furfuro, maxaa la sameeyaa habeenkaas?",
+    "options": ["Xoolo ayaa la qalaa", "Roob ayaa la sugaa", "Dab ayaa la shidaa", "Geed ayaa la beeraa"],
+    "correctIndex": 2,
+    "gloss": "The traditional Somali new-year festival is called Dabshid. Taking the name apart, what is done that night? — A fire is lit: dab (fire) + shid (light)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Soomaalidu “police” waxay u qortaa “booliis”, “pasta” waxay u qortaa “baasto”. Xarafkee ka mid ah kuwan ayaan ku jirin alifbeetada Af-Soomaaliga?",
+    "options": ["Q", "X", "C", "P"],
+    "correctIndex": 3,
+    "gloss": "Somalis write “police” as booliis and “pasta” as baasto. Which of these letters is not in the Somali alphabet? — P (nor V or Z); the loanwords show P becoming B. X, C and Q look foreign but are core Somali letters."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Geelu maalmo badan ayuu biyo la'aan socon karaa. Kuruskiisa maxaa inta badan ku kaydsan?",
+    "options": ["Dufan", "Biyo", "Caano", "Dhiig"],
+    "correctIndex": 0,
+    "gloss": "A camel can go many days without water. What is mainly stored in its hump? — Fat, not water, as is often believed."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sheekooyinka “Kun iyo Hal Habeen”, gabadhee ayaa boqorka habeen walba sheeko u sheegta si ay nafteeda u badbaadiso?",
+    "options": ["Bilqiis", "Layla", "Shahrazaad", "Sulaykha"],
+    "correctIndex": 2,
+    "gloss": "In the Thousand and One Nights, which woman tells the king a story every night to save her life? — Scheherazade. Bilqis (Queen of Sheba), Layla and Zulaykha are other famous women of Arabic tradition."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Geedka bunka, ee qaxwaha laga sameeyo, wuxuu asal ahaan si duur-joog ah uga baxaa kaymaha buuraleyda dalkee?",
+    "options": ["Yaman", "Itoobiya", "Barasiil", "Kolombiya"],
+    "correctIndex": 1,
+    "gloss": "The coffee plant originally grows wild in the highland forests of which country? — Ethiopia (Coffea arabica is native there). Yemen is the trap: it was first cultivated and traded there (Mocha)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bisha Luulyo waxaa loogu magac daray Julius Caesar. Bisha ku xigta, Agoosto, magaceeda kumay ka timid?",
+    "options": ["Nero", "Tiberius", "Caligula", "Augustus"],
+    "correctIndex": 3,
+    "gloss": "July is named after Julius Caesar. Who gave his name to the next month, August? — Augustus, the first Roman emperor. The sound of the name and knowing the Roman emperors both point there."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dalalkan Bariga Afrika midkee ayaan xeeb ku lahayn Badweynta Hindiya?",
+    "options": ["Ugaandha", "Kenya", "Tansaaniya", "Musambiig"],
+    "correctIndex": 0,
+    "gloss": "Which of these East African countries has no coast on the Indian Ocean? — Uganda, which is landlocked; Kenya, Tanzania and Mozambique all face the ocean."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koobkii Adduunka ee 2010 ee Koonfur Afrika, fannaanka Kanadiyaanka ah ee asalkiisu Soomaaliga yahay, K'naan, heestiisee ayaa adduunka oo dhan ku faaftay?",
+    "options": ["Waka Waka", "Shosholoza", "Wavin' Flag", "Pata Pata"],
+    "correctIndex": 2,
+    "gloss": "At the 2010 World Cup in South Africa, which song of the Somali-born Canadian artist K'naan spread worldwide? — Wavin' Flag (Coca-Cola's tournament anthem). Waka Waka is Shakira's official song; the other two are South African classics."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Af-Soomaaliga, Af-Oromada iyo Af-Canfarta waa luqado walaalo ah. Laantee luqadaha ayay ka wada tirsan yihiin?",
+    "options": ["Samiitiga", "Kushitiga", "Bantuuga", "Niilootiga"],
+    "correctIndex": 1,
+    "gloss": "Somali, Oromo and Afar are sister languages. Which branch do they all belong to? — Cushitic (within Afroasiatic). Semitic (Arabic, Amharic) is the tempting cousin branch."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nooca maansada Soomaaliyeed ee u gaar ah haweenka, oo inta badan lagu tiriyo aroosyada iyo xafladaha, waa kee?",
+    "options": ["Gabay", "Geeraar", "Jiifto", "Buraambur"],
+    "correctIndex": 3,
+    "gloss": "Which genre of Somali poetry belongs to women, often recited at weddings and celebrations? — Buraambur. Gabay, geeraar and jiifto are the classical (traditionally men's) genres."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Istunka, ciyaar dhaqameed ay ragga kooxo-kooxo sannad walba ulo ugu dagaallamaan, waxay caan ku tahay magaaladee?",
+    "options": ["Afgooye", "Marka", "Baydhabo", "Jowhar"],
+    "correctIndex": 0,
+    "gloss": "Istunka, the traditional yearly mock stick-fight between teams of men, is famous in which town? — Afgooye, on the Shabelle west of Mogadishu."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Barta ugu hoosaysa qaaradda Afrika — harro cusbo leh oo qiyaastii 155 mitir ka hoosaysa heerka badda — waxay ku taal dalkee?",
+    "options": ["Masar", "Itoobiya", "Jabuuti", "Liibiya"],
+    "correctIndex": 2,
+    "gloss": "Africa's lowest point, a salt lake about 155 m below sea level, is in which country? — Djibouti (Lake Assal). Egypt's Qattara Depression (−133 m) and Ethiopia's Danakil (−125 m) are the traps."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bisha Janaayo, marka Muqdisho saacaddu tahay 12-ka duhurnimo, London saacaddu waa immisa?",
+    "options": ["Tobanka subaxnimo", "Sagaalka subaxnimo", "Saddexda galabnimo", "Afarta galabnimo"],
+    "correctIndex": 1,
+    "gloss": "In January, when it is noon in Mogadishu, what time is it in London? — 9 a.m.: Somalia is UTC+3, London is on GMT in winter, and the west is behind, not ahead."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Muqdisho xeebteeda biyuhu waxay ku karaan qiyaastii 100°C. Ceerigaabo, oo in ka badan 1,500 mitir ka sarraysa heerka badda, biyuhu heerkulkee ayay ku karaan?",
+    "options": ["Isla 100°C", "Wax ka badan 100°C", "Wax ka badan 150°C", "Wax ka yar 100°C"],
+    "correctIndex": 3,
+    "gloss": "On Mogadishu's coast water boils at about 100°C. In Erigavo, over 1,500 m above sea level, at what temperature? — Below 100°C (about 94–95°C): lower air pressure at altitude lowers the boiling point."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Dhulbadhuhu wuxuu dhex maraa koonfurta Soomaaliya. Magaalooyinkan midkee ayaa ku taal badhka koonfureed ee dunida?",
+    "options": ["Kismaayo", "Muqdisho", "Baraawe", "Beledweyne"],
+    "correctIndex": 0,
+    "gloss": "The equator crosses southern Somalia. Which of these cities is in the southern hemisphere? — Kismayo (about 0°22′ S), the southernmost; Barawe is about 1° N, Mogadishu 2° N, Beledweyne 4.7° N."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Laxamiistihii Jarmalka ahaa ee sameeyay Simfooniyaddii Sagaalaad isagoo ku dhowaad aan waxba maqlin waa kuma?",
+    "options": ["Bach", "Brahms", "Beethoven", "Wagner"],
+    "correctIndex": 2,
+    "gloss": "Which German composer wrote his Ninth Symphony while almost completely deaf? — Beethoven. Brahms wrote only four symphonies, Wagner one, Bach none."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ereyga “emoji” wuxuu u eg yahay “emotion” ee Ingiriisiga, laakiin runtii wuxuu ka yimid luqaddee?",
+    "options": ["Af-Shiinays", "Af-Jabbaan", "Af-Kuuriyaan", "Af-Hindi"],
+    "correctIndex": 1,
+    "gloss": "“Emoji” looks like English “emotion”, but which language is it really from? — Japanese: e (picture) + moji (character); the likeness to “emotion” is a coincidence."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Tobanaadka Af-Soomaaliga qaarkood waxay ka samaysan yihiin tiro lagu daray “-tan”: afar → afartan, lix → lixdan. Kuwan midkee aan sidaas u samaysnayn?",
+    "options": ["Siddeetan", "Toddobaatan", "Sagaashan", "Konton"],
+    "correctIndex": 3,
+    "gloss": "Some Somali tens are built from a digit plus “-tan”: four → forty, six → sixty. Which of these is not built that way? — Konton (50) has nothing to do with shan (5); siddeetan comes from siddeed (8), toddobaatan from toddoba (7), sagaashan from sagaal (9)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Socdaalyahankee caan ah ayaa qarnigii 14aad booqday Muqdisho, kadibna buuggiisa ku qoray martisoorkii suldaanka iyo raashinka badan ee reer Xamar?",
+    "options": ["Ibnu Battuuta", "Marco Polo", "Ibnu Khalduun", "Al-Idriisi"],
+    "correctIndex": 0,
+    "gloss": "Which famous traveller visited Mogadishu in the 14th century and described the sultan's hospitality and the city's lavish meals? — Ibn Battuta (1331). Marco Polo never went there; al-Idrisi wrote in the 12th century; Ibn Khaldun did not travel to East Africa."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cabdi Bile wuxuu 1987-kii magaalada Roma ku qaaday bilad dahab ah oo Horyaalka Adduunka ee orodka. Tartankee ayuu ku guuleystay?",
+    "options": ["800 mitir", "1,500 mitir", "5,000 mitir", "10,000 mitir"],
+    "correctIndex": 1,
+    "gloss": "Abdi Bile won gold at the 1987 World Championships in Rome. In which event? — The 1500 m."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Magaca “Laas Geel” waxaa ku jira ereyga “geel”, haddana sawirrada kumanaanka sano jira ee godadkaas ku yaal inta badan waxay muujiyaan xoolahee?",
+    "options": ["Geel", "Ari", "Lo'", "Fardo"],
+    "correctIndex": 2,
+    "gloss": "The name Laas Geel contains the word “camel”, yet the thousands-of-years-old paintings in its rock shelters mostly show which animals? — Cattle (lo'), with ornamented necks; the name means roughly “camels' watering hole”. The name is the trap."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bisha Ramadaan sannad walba waxay ku soo beegantaa xilli ka horreeya kii sannadkii hore. Qiyaastii immisa sano kadib ayay ku soo noqotaa isla xilligii sannadka miilaadiga?",
+    "options": ["11 sano", "19 sano", "33 sano", "50 sano"],
+    "correctIndex": 2,
+    "gloss": "Ramadan falls earlier every year. After about how many years does it return to the same season of the Gregorian year? — About 33: the lunar year is ~11 days shorter, and 365 ÷ 11 ≈ 33. The 11 days is a trap for those who stop at the fact; 19 is the Metonic cycle."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ereyga “algorithm” ee cilmiga kombiyuutarka wuxuu ka yimid magaca culimadee qarnigii 9aad ku noolaa Baqdaad?",
+    "options": ["Al-Khawaarizmi", "Ibnu Siina", "Al-Biiruuni", "Ibnu Haytham"],
+    "correctIndex": 0,
+    "gloss": "The computing word “algorithm” comes from the name of which 9th-century Baghdad scholar? — Al-Khwarizmi (Latinised Algoritmi). The others lived in the 10th–11th centuries."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Xayawaannada maanta nool, kuwee ayay saynisyahannadu u arkaan farcanka tooska ah ee dinosoorrada?",
+    "options": ["Yaxaasyada", "Shimbiraha", "Masaska", "Diinka"],
+    "correctIndex": 1,
+    "gloss": "Which living animals do scientists regard as the direct descendants of dinosaurs? — Birds. Crocodiles are the trap: close relatives, not descendants."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1920-aadkii horraantoodii, kuma ayaa Af-Soomaaliga u hindisay far u gaar ah oo aan Laatiin iyo Carabi midna ahayn?",
+    "options": ["Sheekh Cabdiraxmaan Sheekh Nuur", "Xuseen Sheekh Axmed Kaddare", "Cismaan Yuusuf Keenadiid", "Muuse Xaaji Ismaaciil Galaal"],
+    "correctIndex": 2,
+    "gloss": "In the early 1920s, who invented a script of its own for Somali, neither Latin nor Arabic? — Osman Yusuf Kenadid (the Osmanya script, 1920–22). Sheikh Abdurahman Sheikh Nur's Borama script (1933) and Kaddare's script (1950s) came later."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qorraxda aad hadda aragto waa sideedii ay ahayd in yar ka hor, maxaa yeelay iftiinkeedu safar ayuu galaa. Qiyaastii intee ayuu iftiinkeedu ku soo gaaraa Dhulka?",
+    "options": ["8 ilbiriqsi", "8 daqiiqo", "8 saacadood", "8 maalmood"],
+    "correctIndex": 1,
+    "gloss": "The Sun you see now is as it was a little earlier, because its light travels. About how long does sunlight take to reach Earth? — About 8 minutes (8 min 20 s)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Marinka badda ee “Baab al-Mandab”, ee u dhexeeya Jabuuti iyo Yaman, magaciisa Carabiga ah macnihiisu waa?",
+    "options": ["Albaabka Baroorta", "Albaabka Nabadda", "Albaabka Dahabka", "Albaabka Dabaysha"],
+    "correctIndex": 0,
+    "gloss": "The Bab el-Mandeb strait between Djibouti and Yemen: what does its Arabic name mean? — Gate of Lamentation (often given as “Gate of Tears”/“of Grief”). Bāb = gate (Somali albaab) is easy; mandab (lament for the dead) needs the Arabic."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Warshadda filimada Hindiya ee “Bollywood”, xarafkeeda koowaad ee “B” wuxuu ka yimid magacii hore ee magaalo. Magaaladaas maanta maxaa la yidhaahdaa?",
+    "options": ["Bangalore", "Delhi", "Kolkata", "Mumbai"],
+    "correctIndex": 3,
+    "gloss": "The “B” of Bollywood comes from a city's former name. What is that city called today? — Mumbai, formerly Bombay (Bombay + Hollywood). Bangalore, which starts with B, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Webiga Shabeelle wuxuu maraa meel u dhow Muqdisho, haddana inta badan sannadka badda ma gaaro. Sannadaha roobku badan yahay, webigee ayuu ku biiraa?",
+    "options": ["Daawa", "Jubba", "Tana", "Awash"],
+    "correctIndex": 1,
+    "gloss": "The Shabelle passes near Mogadishu yet most of the year never reaches the sea. In very wet years, which river does it join? — The Jubba, near Jilib. The Dawa is a Jubba headwater, the Tana is Kenyan, the Awash ends in Lake Abbe."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sheeko-faneedka “Aqoondarro waa u nacab jacayl” (1974), oo ka mid ah kuwii ugu horreeyay ee Af-Soomaali lagu qoro, waxaa qoray?",
+    "options": ["Maxamed Daahir Afrax", "Axmed Faarax Cali “Idaajaa”", "Faarax Maxamed Jaamac Cawl", "Shire Jaamac Axmed"],
+    "correctIndex": 2,
+    "gloss": "Who wrote “Ignorance Is the Enemy of Love” (1974), one of the first novels written in Somali? — Faarax M. J. Cawl. The others are real Somali writers and scholars of the same generation."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Masaafadda rasmiga ah ee maaraatoonka, 42.195 km, waxay ka timid waddadii orodka ee Olombikadii lagu qabtay magaaladee?",
+    "options": ["Atiina 1896", "Baariis 1900", "London 1908", "Stockholm 1912"],
+    "correctIndex": 2,
+    "gloss": "The official marathon distance, 42.195 km, comes from the course of which Olympics? — London 1908 (Windsor Castle to the stadium), later fixed as the standard. Athens 1896 is the trap: that first marathon was about 40 km."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Markii kalandarka Gregory la qaatay 1582-kii, Talyaaniga iyo Isbayn maalmo ayaa laga booday. Maalintii ku xigtay 4 Oktoobar 1582 waxay ahayd?",
+    "options": ["5 Oktoobar", "14 Oktoobar", "15 Oktoobar", "25 Oktoobar"],
+    "correctIndex": 2,
+    "gloss": "When the Gregorian calendar was adopted in 1582, Italy and Spain skipped days. Which date followed 4 October 1582? — 15 October: ten dates (5–14) were dropped. 14 is the trap for adding ten."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Muqdisho, sannadkii immisa jeer ayay qorraxdu duhurkii si toos ah madaxa uga sarraysaa, oo hooska qofku ku dhowaad gebi ahaanba lumaa?",
+    "options": ["Marna", "Hal mar", "Laba jeer", "Afar jeer"],
+    "correctIndex": 2,
+    "gloss": "In Mogadishu, how many times a year is the noon Sun directly overhead, so a person's shadow almost vanishes? — Twice: every place strictly between the tropics gets the overhead Sun twice a year, as the Sun passes north and back south (Mogadishu is at about 2° N)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Alifbeetada Laatiinka ee Af-Soomaaliga lagu qoro iyo alifbeetada Carabiga, labaduba waxay asal fog ka soo jeedaan farta qoomkee?",
+    "options": ["Giriigga", "Roomaanka", "Sumeeriyiinta", "Finiiqiyiinta"],
+    "correctIndex": 3,
+    "gloss": "The Latin alphabet Somali is written in and the Arabic alphabet both descend, far back, from whose script? — The Phoenicians'. Greek and Roman fit Latin only; Sumerian cuneiform is unrelated. “Both” is the step of reasoning."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaniisadda “Sagrada Família” ee Barcelona waxaa lagu xasuustaa naqshadeeyihii reer Kataloonia ee sannadihiisii dambe oo dhan u huray. Waa kuma?",
+    "options": ["Le Corbusier", "Antoni Gaudí", "Gustave Eiffel", "Oscar Niemeyer"],
+    "correctIndex": 1,
+    "gloss": "Barcelona's Sagrada Família is remembered as the work of the Catalan architect who devoted his last years to it. Who? — Antoni Gaudí."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shabakadda “World Wide Web” waxaa 1989-kii soo jeediyay Tim Berners-Lee, isagoo ka shaqaynayay xaruntee cilmi-baaris?",
+    "options": ["NASA", "MIT", "Bell Labs", "CERN"],
+    "correctIndex": 3,
+    "gloss": "Tim Berners-Lee proposed the World Wide Web in 1989 while working at which research centre? — CERN, the European particle-physics laboratory near Geneva."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Muqdisho qadiimiga ah waxay ka koobnayd laba xaafadood oo xeebta ku yaal: Xamar Weyne iyo kee?",
+    "options": ["Shangaani", "Hodan", "Wadajir", "Kaaraan"],
+    "correctIndex": 0,
+    "gloss": "Old Mogadishu was made of two seaside quarters: Hamar Weyne and which other? — Shingani (Shangaani). Hodan, Wadajir and Karan are modern districts."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Opera-da “Aida” ee Giuseppe Verdi, oo sheekadeedu ka dhacdo Masar hore, markii ugu horreysay waxaa lagu soo bandhigay 1871-kii magaaladee?",
+    "options": ["Milano", "Qaahira", "Baariis", "Iskandariya"],
+    "correctIndex": 1,
+    "gloss": "Verdi's Aida, set in ancient Egypt, premiered in 1871 in which city? — Cairo, at the Khedivial Opera House (Milan's La Scala followed in 1872)."
+  }
+]
