@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lengkepan paribasa ieu: “Cikaracak ninggang batu, laun-laun jadi …”",
+    "options": ["bolong", "legok", "rempag", "beulah"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: 'Dripping water falling on a stone slowly becomes…' — legok (hollowed): perseverance wins in the end. 'Bolong' (pierced) is the half-remembered trap."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Numutkeun dongéng, Sangkuriang najong parahu nu teu kaburu anggeus nepi ka nangkub. Parahu éta jadi gunung naon?",
+    "options": ["Gunung Burangrang", "Gunung Papandayan", "Gunung Tangkuban Parahu", "Gunung Cikuray"],
+    "correctIndex": 2,
+    "gloss": "In the legend, Sangkuriang kicked the unfinished boat so that it overturned. Which mountain did it become? — Tangkuban Parahu ('upturned boat'). Burangrang also belongs to the legend (the branches of the felled tree)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Asép ngantri meuli karcis. Di hareupeunana aya tilu urang, di tukangeunana aya opat urang. Sabaraha urang nu ngantri, kaasup Asép?",
+    "options": ["7 urang", "9 urang", "8 urang", "12 urang"],
+    "correctIndex": 2,
+    "gloss": "Asep queues for a ticket: three people in front, four behind. How many in the queue including him? — 8: 3 + 4 + Asep. 7 is the trap of forgetting him."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sato laut mana nu ngambekan ku bayah sarta nyusuan anakna?",
+    "options": ["Hiu", "Lumba-lumba", "Gurita", "Pari"],
+    "correctIndex": 1,
+    "gloss": "Which sea animal breathes with lungs and suckles its young? — The dolphin, a mammal. Shark and ray are fish, octopus a mollusc."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Suporter Persib Bandung nu sok ngabirukeun stadion téh katelahna …",
+    "options": ["Bonek", "Aremania", "The Jakmania", "Bobotoh"],
+    "correctIndex": 3,
+    "gloss": "Persib Bandung's supporters, who turn the stadium blue, are known as… — Bobotoh. Bonek follow Persebaya, Aremania Arema, The Jakmania Persija."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kecap mana nu dibaca ti hareup atawa ti tukang tetep sarua?",
+    "options": ["tutut", "kéong", "bangkong", "hayam"],
+    "correctIndex": 0,
+    "gloss": "Which word reads the same forwards and backwards? — tutut (paddy-field snail, a West Javan snack): t-u-t-u-t. The others are not palindromes."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bulan caang ari peuting, padahal teu boga cahaya sorangan. Cahaya ti mana nu dipantulkeunana?",
+    "options": ["Béntang kutub", "Planét Vénus", "Panonpoé", "Bima Sakti"],
+    "correctIndex": 2,
+    "gloss": "The Moon shines at night but has no light of its own. Whose light does it reflect? — The Sun's."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Waditra naon nu biasana boga 88 konci hideung jeung bodas?",
+    "options": ["Akordéon", "Kacapi", "Biola", "Piano"],
+    "correctIndex": 3,
+    "gloss": "Which instrument usually has 88 black and white keys? — The piano. A piano accordion also has black and white keys, but far fewer."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Buana mana nu ampir sakabéhna katutup ku és, sarta teu boga pangeusi pituin?",
+    "options": ["Antarktika", "Australia", "Amérika Kidul", "Éropa"],
+    "correctIndex": 0,
+    "gloss": "Which continent is almost entirely covered in ice and has no native inhabitants? — Antarctica."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ema ngaliwet tabuh 11.40. Liwetna asak 25 menit ti harita. Tabuh sabaraha liwetna asak?",
+    "options": ["12.15", "11.55", "12.25", "12.05"],
+    "correctIndex": 3,
+    "gloss": "Mum starts cooking rice at 11:40; it is done 25 minutes later. At what time? — 12:05: 20 minutes to 12:00, then 5 more."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Nini keur nganjang ka imah. Pikeun ngajak manéhna dahar, nu merenah téh: “Mangga, Ni, …”",
+    "options": ["neda", "emam", "tuang", "nyatu"],
+    "correctIndex": 2,
+    "gloss": "Grandma is visiting. To invite her to eat, the proper phrase is 'Please, Grandma, …' — tuang, the polite (lemes) word for someone else eating. 'Neda' is polite but only for oneself, 'emam' is baby talk, 'nyatu' is coarse."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Comro téh singgetan tina “oncom di jero”, da eusina oncom. Upama ngaran misro dijieun ku cara nu sarua, naon eusina?",
+    "options": ["Oncom", "Kacang suuk", "Daging sapi", "Gula kawung"],
+    "correctIndex": 3,
+    "gloss": "Comro is short for 'oncom inside'. If misro is named the same way, what is inside? — Palm sugar: misro = 'amis di jero', 'sweet inside'."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Buruy nu ngojay di balong, lamun geus gedé bakal jadi naon?",
+    "options": ["Lauk", "Papatong", "Bangkong", "Keuyeup"],
+    "correctIndex": 2,
+    "gloss": "The 'buruy' swimming in the pond, when grown, becomes what? — A frog: buruy is the Sundanese word for tadpole. Dragonfly larvae also live in water, a deliberate trap."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina kaulinan barudak, budak nu kudu peureum bari ngitung, tuluy néangan babaturanana nu nyarumput, disebut naon?",
+    "options": ["Ucing", "Maung", "Beurit", "Kuda"],
+    "correctIndex": 0,
+    "gloss": "In the children's game, the one who closes their eyes and counts, then looks for the hiding friends, is called… — 'ucing' (cat), as in 'ucing sumput', hide-and-seek. 'Beurit' (mouse) is the cat-and-mouse trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Botol plastik nu pinuh ku cai ditutup pageuh, tuluy diasupkeun kana freezer sapeuting. Naon nu bisa kajadian?",
+    "options": ["Botolna kempot ka jero", "Botolna ngagelembung atawa beulah", "Caina ngurangan satengahna", "Teu aya robahan nanaon"],
+    "correctIndex": 1,
+    "gloss": "A plastic bottle full of water, tightly capped, spends a night in the freezer. What can happen? — It bulges or splits: water expands as it freezes. 'Dented inward' is the trap of assuming cold makes things shrink."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kota mana nu wewengkonna aya di dua buana sakaligus, Éropa jeung Asia?",
+    "options": ["Kairo", "Athena", "Istanbul", "Roma"],
+    "correctIndex": 2,
+    "gloss": "Which city lies on two continents at once, Europe and Asia? — Istanbul, split by the Bosporus."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina catur, buah mana nu ngan bisa léngkah serong waé?",
+    "options": ["Bénténg", "Gajah", "Kuda", "Mentri"],
+    "correctIndex": 1,
+    "gloss": "In chess, which piece can only move diagonally? — The bishop ('gajah' in Indonesian/Sundanese chess). The queen moves diagonally too, but not only."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina pilem “The Lion King”, saha ngaran bapana Simba?",
+    "options": ["Mufasa", "Scar", "Rafiki", "Timon"],
+    "correctIndex": 0,
+    "gloss": "In 'The Lion King', what is Simba's father called? — Mufasa. Scar is his uncle."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Babasan “kawas cai dina daun taleus” dipaké pikeun jalma nu kumaha?",
+    "options": ["Nu bageur, sok mantuan batur", "Nu getol digawé ti isuk nepi ka peuting", "Nu kumeli, embung barang béré", "Nu teu puguh pamadegan, gampang robah"],
+    "correctIndex": 3,
+    "gloss": "The saying 'like water on a taro leaf' describes what kind of person? — One with no firm stance, who keeps changing: water rolls around on a taro leaf and never settles."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dina sataun Masehi, sabaraha bulan nu lilana 31 poé?",
+    "options": ["5 bulan", "6 bulan", "7 bulan", "8 bulan"],
+    "correctIndex": 2,
+    "gloss": "In a Gregorian year, how many months have 31 days? — 7: January, March, May, July, August, October, December (the knuckle count gives it)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dina aksara Sunda, unggal aksara ngalagena geus mawa sora “a”, contona “ka”. Tanda nu disebut “pamaéh” gunana pikeun …",
+    "options": ["ngarobah sora “a” jadi “i”", "ngaleungitkeun sora vokalna, jadi “k” wungkul", "nambahan sora “ng” di tukangna", "nandaan yén éta téh angka"],
+    "correctIndex": 1,
+    "gloss": "In Sundanese script every consonant letter carries an 'a', e.g. 'ka'. The mark called 'pamaéh' is used to… — remove the vowel, leaving just 'k': the name comes from 'paéh', 'dead', it 'kills' the vowel (a virama)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Prasasti Batutulis, nu dijieun pikeun mengét Sri Baduga Maharaja (Prabu Siliwangi), ayana di kota …",
+    "options": ["Ciamis", "Sumedang", "Bogor", "Cirebon"],
+    "correctIndex": 2,
+    "gloss": "The Batutulis inscription, made in memory of Sri Baduga Maharaja (Prabu Siliwangi), is in which city? — Bogor, the site of Pakuan Pajajaran. Ciamis is the trap: it has the Kawali inscriptions."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kasenian ngarak budak sunatan dina tandu wangun singa nu dipanggul ku opat urang asalna ti kabupatén …",
+    "options": ["Purwakarta", "Subang", "Karawang", "Indramayu"],
+    "correctIndex": 1,
+    "gloss": "The art of parading circumcision boys on lion-shaped litters carried by four men comes from which regency? — Subang (Sisingaan)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina carita Lutung Kasarung, saha saenyana lutung nu ngabéla Purbasari?",
+    "options": ["Ciung Wanara", "Munding Laya", "Sangkuriang", "Guruminda"],
+    "correctIndex": 3,
+    "gloss": "In the tale of Lutung Kasarung, who really is the langur who stands by Purbasari? — Guruminda, a heavenly being in disguise. The others are heroes of other Sundanese tales."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Waduk Saguling, Cirata, jeung Jatiluhur kabéh ngabendung walungan nu sarua. Walungan naon?",
+    "options": ["Cimanuk", "Citarum", "Citanduy", "Ciliwung"],
+    "correctIndex": 1,
+    "gloss": "The Saguling, Cirata and Jatiluhur reservoirs all dam the same river. Which? — The Citarum, in a cascade."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pilem panjang munggaran nu sakabéh gambarna dijieun ku komputer, dirilis taun 1995, nyaéta …",
+    "options": ["Antz", "Shrek", "Toy Story", "Finding Nemo"],
+    "correctIndex": 2,
+    "gloss": "The first feature film made entirely by computer, released in 1995? — Toy Story (Pixar). Antz (1998) was the second."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Lima babaturan papanggih, sarta unggal dua urang sasalaman sakali. Sabaraha kali sasalaman sakabéhna?",
+    "options": ["10 kali", "20 kali", "25 kali", "5 kali"],
+    "correctIndex": 0,
+    "gloss": "Five friends meet and every two shake hands once. How many handshakes? — 10: 5 × 4 = 20 counts each handshake twice."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Upama Panonpoé ngadadak pareum, sabaraha lila deui Bumi masih kénéh katojo ku cahayana?",
+    "options": ["Langsung poék harita kénéh", "Kira-kira dalapan menit", "Kira-kira sajam", "Kira-kira sapoé"],
+    "correctIndex": 1,
+    "gloss": "If the Sun suddenly went out, how much longer would Earth still be lit by it? — About eight minutes: the light already on its way still arrives (sunlight takes about 8 min 20 s)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Johannes Gutenberg ngamimitian nyitak buku ku hurup-hurup logam nu bisa dipindah-pindah di kota Mainz. Kiwari Mainz kaasup nagara …",
+    "options": ["Walanda", "Italia", "Swiss", "Jérman"],
+    "correctIndex": 3,
+    "gloss": "Gutenberg began printing with movable metal type in Mainz. Which country is Mainz in today? — Germany."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saha pelukis Spanyol nu ngagagas aliran kubisme bareng jeung Georges Braque?",
+    "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco Goya"],
+    "correctIndex": 1,
+    "gloss": "Which Spanish painter founded Cubism together with Georges Braque? — Pablo Picasso. Dalí and Miró are Spanish surrealists, Goya much earlier."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Dina basa Sunda, budak jadi barudak, geulis jadi gareulis. Kumaha wangun jamak tina “beureum” ku rarangkén nu sarua?",
+    "options": ["bareureum", "abeureum", "baleureum", "beureum-beureum"],
+    "correctIndex": 2,
+    "gloss": "Budak → barudak, geulis → gareulis. What is the plural of 'beureum' (red) with the same infix? — baleureum: the infix -ar- becomes -al- when the root contains an r. 'Bareureum' is the autopilot trap."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Saha nu ngarobah angklung jadi bisa maénkeun tangga nada diatonis (do-re-mi), nepi ka bisa dipaké ngamaénkeun lagu-lagu ti mancanagara?",
+    "options": ["Udjo Ngalagena", "Mang Koko", "Daeng Soetigna", "Nano S."],
+    "correctIndex": 2,
+    "gloss": "Who made the angklung play the diatonic (do-re-mi) scale, so it could play foreign songs? — Daeng Soetigna (1938). Udjo Ngalagena, founder of Saung Angklung Udjo, was his pupil."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tari Jaipongan, nu ngamekarkeun gerak ketuk tilu jeung pencak silat, diciptakeun ku …",
+    "options": ["Gugum Gumbira", "Tjetje Somantri", "Irawati Durban", "Mang Koko"],
+    "correctIndex": 0,
+    "gloss": "Jaipongan, developed from ketuk tilu and pencak silat movements, was created by… — Gugum Gumbira (1970s). Tjetje Somantri created the Peacock Dance (Tari Merak)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina sisindiran, dua padalisan mimiti nu ukur jadi pamanis sora, lain inti maksudna, disebut …",
+    "options": ["eusi", "purwakanti", "pada", "cangkang"],
+    "correctIndex": 3,
+    "gloss": "In a sisindiran (pantun-style verse), the first two lines that only set up the sound, not the meaning, are called… — cangkang ('shell'); the meaning lines are the eusi ('content')."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina Prasasti Ciaruteun di Bogor aya ukiran sapasang tapak suku raja Tarumanagara. Raja saha?",
+    "options": ["Sanjaya", "Mulawarman", "Sri Baduga", "Purnawarman"],
+    "correctIndex": 3,
+    "gloss": "The Ciaruteun inscription in Bogor bears a pair of carved footprints of a Tarumanagara king. Which? — Purnawarman. Mulawarman is the trap: king of Kutai, in Kalimantan."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Saksofon dijieun tina logam, tapi digolongkeun kana waditra tiup kai. Naon sababna?",
+    "options": ["Sorana ti lidah ipis (reed) nu ngageter waktu ditiup", "Mimitina mah dijieun tina kai", "Sok dipaénkeun bareng jeung suling dina orkéstra", "Liang-liangna ditutupan ku ramo"],
+    "correctIndex": 0,
+    "gloss": "The saxophone is metal but classed as a woodwind. Why? — Its sound comes from a vibrating reed, as in the clarinet. It was never made of wood: Adolphe Sax built it in brass."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Basa pamrograman Python dingaranan tina …",
+    "options": ["oray sanca", "grup komédi Monty Python", "mitologi Yunani", "ngaran ucing panyiptana"],
+    "correctIndex": 1,
+    "gloss": "The Python programming language is named after… — the comedy group Monty Python; Guido van Rossum was a fan. The snake is the obvious trap."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dina bulu tangkis, skor hiji game 29–29. Sabaraha poin deui nu kudu diala ku salah saurang pamaén pikeun meunang game éta?",
+    "options": ["Dua poin", "Sapoin", "Tilu poin", "Nepi ka unggul dua poin"],
+    "correctIndex": 1,
+    "gloss": "In badminton a game stands at 29–29. How many more points does a player need to win it? — One: a game is capped at 30, so the next point wins. 'Two' and 'until two clear' are the traps of the 'win by two' rule."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Awi, nu bisa jangkung nepi ka puluhan méter, sacara botani kaasup kulawarga …",
+    "options": ["palem-paleman", "paku-pakuan", "jujukutan", "anggrék-anggrékan"],
+    "correctIndex": 2,
+    "gloss": "Bamboo, which can grow tens of metres tall, botanically belongs to which family? — The grasses (Poaceae)."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Taun Hijriah kira-kira 11 poé leuwih pondok ti taun Masehi, jadi Lebaran unggal taun maju. Sanggeus kira-kira sabaraha taun Lebaran balik deui kana tanggal Masehi nu ampir sarua?",
+    "options": ["Kira-kira 12 taun", "Kira-kira 19 taun", "Kira-kira 33 taun", "Kira-kira 50 taun"],
+    "correctIndex": 2,
+    "gloss": "The Hijri year is about 11 days shorter, so Eid moves earlier each year. After about how many years does it return to nearly the same Gregorian date? — About 33: 365 ÷ 11 ≈ 33. 19 is the trap (the Metonic cycle of the Jewish calendar)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“Baruang ka nu Ngarora” (1914), nu dianggap novél basa Sunda munggaran, dikarang ku …",
+    "options": ["Moh. Ambri", "D.K. Ardiwinata", "Yuhana", "Memed Sastrahadiprawira"],
+    "correctIndex": 1,
+    "gloss": "'Baruang ka nu Ngarora' (1914), regarded as the first Sundanese novel, was written by… — D.K. Ardiwinata. The others are later Sundanese prose writers."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Naskah lontar Bujangga Manik, catetan perjalanan hiji pangeran Pakuan nu milih jadi pandita, kiwari disimpen di perpustakaan kota …",
+    "options": ["Leiden", "London", "Oxford", "Amsterdam"],
+    "correctIndex": 2,
+    "gloss": "The palm-leaf manuscript of Bujangga Manik, the travels of a Pakuan prince turned hermit, is kept in a library in which city? — Oxford (Bodleian Library, since the 1620s). Leiden, home of many Indonesian manuscripts, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina kasenian tarawangsa ti Rancakalong, Sumedang, waditra gesek tarawangsa sok dibarengan ku waditra petik leutik nu disebut …",
+    "options": ["kacapi siter", "celempung", "karinding", "jentréng"],
+    "correctIndex": 3,
+    "gloss": "In the tarawangsa music of Rancakalong, Sumedang, the bowed tarawangsa is accompanied by a small plucked zither called… — jentréng."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hadiah Sastra Rancagé, pangajén taunan pikeun karya sastra basa daérah, diadegkeun taun 1989 ku …",
+    "options": ["Ajip Rosidi", "Wahyu Wibisana", "Godi Suwarna", "Ramadhan K.H."],
+    "correctIndex": 0,
+    "gloss": "The Rancagé Literary Award for works in regional languages was founded in 1989 by… — Ajip Rosidi. The others are well-known Sundanese and Indonesian writers."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nagara mana nu boga zona waktu pangloba di dunya lamun wilayah peuntas lautna diitung?",
+    "options": ["Rusia", "Amérika Sarikat", "Inggris", "Perancis"],
+    "correctIndex": 3,
+    "gloss": "Which country has the most time zones once its overseas territories are counted? — France (12), thanks to territories from the Pacific to the Indian Ocean. Russia and the US have 11 each."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Basa kalénder Grégorian mimiti dipaké, poé sanggeus Kemis 4 Oktober 1582 téh Jumaah tanggal …",
+    "options": ["5 Oktober", "11 Oktober", "14 Oktober", "15 Oktober"],
+    "correctIndex": 3,
+    "gloss": "When the Gregorian calendar began, the day after Thursday 4 October 1582 was Friday… — 15 October: ten days were dropped. 14 is the trap of skipping ten numbers instead of ten days."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Van Gogh ngalukis “The Starry Night” (1889) tina jandéla kamarna di hiji tempat perawatan. Di kota mana?",
+    "options": ["Arles", "Saint-Rémy-de-Provence", "Auvers-sur-Oise", "Paris"],
+    "correctIndex": 1,
+    "gloss": "Van Gogh painted 'The Starry Night' (1889) from his room window in an asylum. In which town? — Saint-Rémy-de-Provence. Arles came just before, Auvers-sur-Oise just after."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Larutan pH 3 dibandingkeun jeung larutan pH 5. Sabaraha kali leuwih loba ion hidrogén dina larutan pH 3?",
+    "options": ["2 kali", "20 kali", "100 kali", "1.000 kali"],
+    "correctIndex": 2,
+    "gloss": "A pH 3 solution vs a pH 5 solution: how many times more hydrogen ions in the pH 3 one? — 100: pH is logarithmic, each unit is a factor of 10."
+  },
+  {
+    "level": 5,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaulinan Minecraft mimitina dijieun ku programer ti nagara …",
+    "options": ["Finlandia", "Swédia", "Norwégia", "Dénmark"],
+    "correctIndex": 1,
+    "gloss": "Minecraft was first made by a programmer from which country? — Sweden (Markus 'Notch' Persson, Mojang). Finland, home of Angry Birds, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saffron, bungbu nu pangmahalna di dunya, dicokot tina bagian kembang nu mana?",
+    "options": ["Kembang sari", "Kelopak", "Kepala putik", "Siki"],
+    "correctIndex": 2,
+    "gloss": "Saffron, the world's most expensive spice, comes from which part of the flower? — The stigma (crocus stigmas, hand-picked). Stamens are the trap."
+  }
+]
