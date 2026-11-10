@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ଯେତେ ବଡ଼ ମୁଣ୍ଡ, ସେତେ ବଡ଼ …” — ଏହି ଓଡ଼ିଆ ଢଗଟି କେଉଁ ଶବ୍ଦରେ ଶେଷ ହୁଏ?",
+    "options": ["ପଗଡ଼ି", "ମୁଣ୍ଡବିନ୍ଧା", "ବୋଝ", "ଚିନ୍ତା"],
+    "correctIndex": 1,
+    "gloss": "\"The bigger the head, the bigger the …\" — which word ends this Odia saying? — Headache: «ଯେତେ ବଡ଼ ମୁଣ୍ଡ, ସେତେ ବଡ଼ ମୁଣ୍ଡବିନ୍ଧା» (more standing, more worries)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଶ୍ରୀମନ୍ଦିରର ରତ୍ନସିଂହାସନରେ ଜଗନ୍ନାଥ ଓ ବଳଭଦ୍ରଙ୍କ ମଝିରେ କେଉଁ ଦେବୀ ବିରାଜମାନ?",
+    "options": ["ଲକ୍ଷ୍ମୀ", "ବିମଳା", "ରୁକ୍ମିଣୀ", "ସୁଭଦ୍ରା"],
+    "correctIndex": 3,
+    "gloss": "On the jewelled throne of the Puri temple, which goddess sits between Jagannath and Balabhadra? — Subhadra, their sister. Lakshmi (his consort) and Bimala have their own shrines in the temple."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ଗୋଟିଏ ଲମ୍ବା ଦଉଡ଼ିକୁ ନ ମୋଡ଼ି ସିଧାସଳଖ ତିନି ଜାଗାରେ କାଟିଲେ କେତେ ଖଣ୍ଡ ହେବ?",
+    "options": ["ତିନି", "ଚାରି", "ପାଞ୍ଚ", "ଛଅ"],
+    "correctIndex": 1,
+    "gloss": "A long rope, not folded, is cut in three places. How many pieces? — Four: each cut adds one piece to the original one. \"Three\" is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଜହ୍ନର ନିଜର କୌଣସି ଆଲୁଅ ନାହିଁ। ରାତିରେ ତାକୁ ଚମକାଉଥିବା ଆଲୁଅ ଆସଲରେ କାହାର?",
+    "options": ["ପୃଥିବୀର", "ଶୁକ୍ର ଗ୍ରହର", "ସୂର୍ଯ୍ୟର", "ଧ୍ରୁବତାରାର"],
+    "correctIndex": 2,
+    "gloss": "The Moon has no light of its own. Whose light makes it shine at night? — The Sun's: moonlight is reflected sunlight."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଖରାଦିନେ ରନ୍ଧା ଭାତରେ ପାଣି ଢାଳି, ସାଙ୍ଗରେ ଆଳୁଭଜା, ବଡ଼ିଚୁରା କି ପୋଡ଼ା ବାଇଗଣ ଦେଇ ଖିଆଯାଉଥିବା ଖାଦ୍ୟଟି କ'ଣ?",
+    "options": ["ପଖାଳ", "ଖେଚେଡ଼ି", "ଡାଲମା", "ଚୁଡ଼ାଘସା"],
+    "correctIndex": 0,
+    "gloss": "In summer, cooked rice soaked in water, eaten with fried potato, badi chura or roast brinjal — what is it? — Pakhala, Odisha's signature summer meal."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "କ୍ରିକେଟରେ ଜଣେ ବ୍ୟାଟର ଗୋଟିଏ ଓଭରର ପ୍ରତିଟି ବଲରେ ଛକା ମାରିଲେ, କୌଣସି ଅତିରିକ୍ତ ବଲ ନ ଥିଲେ, ସେହି ଓଭରରୁ ତାଙ୍କର କେତେ ରନ ହେବ?",
+    "options": ["୨୪", "୩୦", "୩୬", "୪୨"],
+    "correctIndex": 2,
+    "gloss": "A batter hits a six off every ball of an over, with no extras. How many runs? — 36: six balls × six runs. Needs both facts (6 balls an over, 6 for a six)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ମା'ଙ୍କ ବାପାଙ୍କୁ ଆମେ ଅଜା ଡାକୁ। ଅଜାଙ୍କ ପୁଅ ଆମ ପାଇଁ କିଏ?",
+    "options": ["ଦାଦା", "ମଉସା", "ମାମୁଁ", "ପିଉସା"],
+    "correctIndex": 2,
+    "gloss": "We call mother's father 'aja'. Who is aja's son to us? — Mamu, mother's brother. Dada is father's elder brother, Mausa and Piusa are uncles by marriage."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "କାର୍ଟୁନ “ଟମ ଆଣ୍ଡ ଜେରି”ରେ ଟମ ଗୋଟିଏ ବିଲେଇ। ତାକୁ ସବୁବେଳେ ନାକେଦମ କରୁଥିବା ଜେରି କେଉଁ ପ୍ରାଣୀ?",
+    "options": ["କୁକୁର", "ଠେକୁଆ", "ଗୁଣ୍ଡୁଚି ମୂଷା", "ମୂଷା"],
+    "correctIndex": 3,
+    "gloss": "In 'Tom and Jerry' Tom is a cat. What animal is Jerry, who always runs rings round him? — A mouse. Squirrel is the near miss."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ନୂଆ ଦଶ ଟଙ୍କିଆ ନୋଟର ପଛପଟେ ଓଡ଼ିଶାର ଗୋଟିଏ ପ୍ରସିଦ୍ଧ ମନ୍ଦିରର ଛବି ଛପା ହୋଇଛି। କେଉଁ ମନ୍ଦିର?",
+    "options": ["ଲିଙ୍ଗରାଜ ମନ୍ଦିର", "କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର", "ମୁକ୍ତେଶ୍ୱର ମନ୍ଦିର", "ପୁରୀ ଶ୍ରୀମନ୍ଦିର"],
+    "correctIndex": 1,
+    "gloss": "The back of the new ten-rupee note shows a famous Odisha temple. Which? — The Sun Temple at Konark (2018 Mahatma Gandhi New Series ₹10 note)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଧଳା ପଟ ଉପରେ ମଝିରେ ଗୋଟିଏ ଲାଲ ଗୋଲ — ଏହା କେଉଁ ଦେଶର ଜାତୀୟ ପତାକା?",
+    "options": ["ଜାପାନ", "ବାଂଲାଦେଶ", "ଚୀନ", "ଦକ୍ଷିଣ କୋରିଆ"],
+    "correctIndex": 0,
+    "gloss": "A red disc in the middle of a white field — whose national flag? — Japan. Bangladesh is the trap: its red disc is on green."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“କଟକ” ନାମଟିକୁ ଓଲଟା ପଟୁ ପଢ଼ିଲେ ବି “କଟକ” ହିଁ ହୁଏ। ତଳ ଶବ୍ଦଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟିରେ ଏହି ଗୁଣ ଅଛି?",
+    "options": ["ନଗର", "ନଅର", "ନରମ", "ନୟନ"],
+    "correctIndex": 3,
+    "gloss": "'Kataka' (Cuttack) reads the same backwards. Which of these words does too? — Nayana (eye): ନ-ୟ-ନ. The others reverse to non-words (ରଗନ, ରଅନ, ମରନ)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ବଜାରରୁ ଦେଢ଼ ଶହ ଟଙ୍କାର ମାଛ ଆଉ ଅଢ଼େଇ ଶହ ଟଙ୍କାର ପରିବା କିଣିଲେ ମୋଟ କେତେ ଖର୍ଚ୍ଚ ହେଲା?",
+    "options": ["ସାଢ଼େ ତିନି ଶହ ଟଙ୍କା", "ଚାରି ଶହ ଟଙ୍କା", "ସାଢ଼େ ଚାରି ଶହ ଟଙ୍କା", "ତିନି ଶହ ଟଙ୍କା"],
+    "correctIndex": 1,
+    "gloss": "Fish for 'dedh shaha' and vegetables for 'adhei shaha' rupees: total? — Four hundred: dedh = 1½ (150), adhei = 2½ (250). The native fraction words do the work."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ମିଥୁନ ସଂକ୍ରାନ୍ତି ବେଳେ ତିନି ଦିନ ଝିଅମାନେ ଦୋଳି ଖେଳନ୍ତି, ପୋଡ଼ପିଠା ଖାଆନ୍ତି, ଆଉ ମାଟି ଖୋଳା ବନ୍ଦ ରହେ। ଏହା କେଉଁ ପର୍ବ?",
+    "options": ["ନୂଆଖାଇ", "ରଜ", "ଖୁଦୁରୁକୁଣୀ", "କୁମାର ପୂର୍ଣ୍ଣିମା"],
+    "correctIndex": 1,
+    "gloss": "Around Mithuna Sankranti, for three days girls swing, eat poda pitha and the earth is not dug. Which festival? — Raja, when Mother Earth is believed to rest before the farming season."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପହିଲି ଏପ୍ରିଲକୁ ଓଡ଼ିଆମାନେ ଉତ୍କଳ ଦିବସ ଭାବେ ପାଳନ୍ତି, କାରଣ ସେହି ଦିନ ଓଡ଼ିଶା ଭାଷା ଆଧାରରେ ଏକ ଅଲଗା ପ୍ରଦେଶ ହୋଇଥିଲା। କେଉଁ ବର୍ଷ?",
+    "options": ["୧୯୧୨", "୧୯୪୭", "୧୯୫୬", "୧୯୩୬"],
+    "correctIndex": 3,
+    "gloss": "Odias keep 1 April as Utkal Divas, the day Odisha became a separate province on the basis of language. Which year? — 1936. 1912 is when Bihar and Orissa left Bengal; 1956 the States Reorganisation."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଜମିର ମାପରୁ ନାମ ପାଇଥିବା ଉପନ୍ୟାସ “ଛ ମାଣ ଆଠ ଗୁଣ୍ଠ” କିଏ ଲେଖିଥିଲେ?",
+    "options": ["ଫକୀରମୋହନ ସେନାପତି", "ରାଧାନାଥ ରାୟ", "ଗଙ୍ଗାଧର ମେହେର", "ଉପେନ୍ଦ୍ର ଭଞ୍ଜ"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel named after a land measure, 'Chha Mana Atha Guntha' (Six Acres and a Third)? — Fakir Mohan Senapati. The others are poets."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଲୁହାରେ କଳଙ୍କି ଲାଗିବାକୁ ପାଣି ସହିତ ବାୟୁରୁ ଆଉ କେଉଁ ଗ୍ୟାସ ଦରକାର?",
+    "options": ["ଅକ୍ସିଜେନ", "ନାଇଟ୍ରୋଜେନ", "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "ହାଇଡ୍ରୋଜେନ"],
+    "correctIndex": 0,
+    "gloss": "Besides water, which gas from the air does iron need to rust? — Oxygen: rust is iron oxide. Nitrogen is the most plentiful gas in air, the trap."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଏଭରେଷ୍ଟ ଶିଖରର ଚୂଡ଼ା ଦେଇ କେଉଁ ଦୁଇ ଦେଶର ସୀମା ଯାଇଛି?",
+    "options": ["ଭାରତ ଓ ନେପାଳ", "ନେପାଳ ଓ ଭୁଟାନ", "ନେପାଳ ଓ ଚୀନ", "ଭୁଟାନ ଓ ଚୀନ"],
+    "correctIndex": 2,
+    "gloss": "The border of which two countries runs over the summit of Everest? — Nepal and China (Tibet)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ଦୌଡ଼ ପ୍ରତିଯୋଗିତାରେ ଆପଣ ଦୁଇ ନମ୍ବରରେ ଦୌଡ଼ୁଥିବା ଜଣକୁ ପଛରେ ପକାଇଦେଲେ। ଏବେ ଆପଣ କେଉଁ ସ୍ଥାନରେ?",
+    "options": ["ପ୍ରଥମ", "ଦ୍ୱିତୀୟ", "ତୃତୀୟ", "ଶେଷ"],
+    "correctIndex": 1,
+    "gloss": "In a race you overtake the runner in second place. Where are you now? — Second: you took their place, the leader is still ahead. \"First\" is the trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ଏହି ସଂଖ୍ୟା ଧାଡ଼ିରେ ପରବର୍ତ୍ତୀ ସଂଖ୍ୟା କେତେ: ୨, ୬, ୧୨, ୨୦, ୩୦, …?",
+    "options": ["୩୮", "୪୦", "୪୨", "୪୪"],
+    "correctIndex": 2,
+    "gloss": "Next in 2, 6, 12, 20, 30, …? — 42: the gaps grow 4, 6, 8, 10, 12 (or 1×2, 2×3, … 6×7)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପ୍ରତିବର୍ଷ ଗହିରମଥା ଓ ଋଷିକୁଲ୍ୟା ମୁହାଣ ବେଳାଭୂମିକୁ ହଜାର ହଜାର “ଅଲିଭ ରିଡଲେ” ଏକାଠି ଅଣ୍ଡା ଦେବାକୁ ଆସନ୍ତି। ଏମାନେ କେଉଁ ପ୍ରାଣୀ?",
+    "options": ["ସାମୁଦ୍ରିକ କଇଁଛ", "ଲୁଣିପାଣି କୁମ୍ଭୀର", "ଗୋଧି", "ପ୍ରବାସୀ ପକ୍ଷୀ"],
+    "correctIndex": 0,
+    "gloss": "Every year thousands of 'Olive Ridleys' come together to lay eggs on the beaches of Gahirmatha and the Rushikulya mouth. What are they? — Sea turtles. Saltwater crocodiles live next door in Bhitarkanika, the trap."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଶ୍ରୀଜଗନ୍ନାଥଙ୍କ ନବକଳେବର ସେହି ବର୍ଷରେ ହିଁ ହୁଏ, ଯେଉଁ ବର୍ଷ ପଞ୍ଜିକାରେ ଗୋଟିଏ ମାସ ଦୁଇ ଥର ଆସେ। କେଉଁ ମାସ?",
+    "options": ["ଜ୍ୟେଷ୍ଠ", "ଆଷାଢ଼", "ଶ୍ରାବଣ", "ଭାଦ୍ରବ"],
+    "correctIndex": 1,
+    "gloss": "Jagannath's Nabakalebara (renewal of the wooden idols) happens only in a year when one month comes twice. Which? — Ashadha (an adhika Ashadha year), as in 1996 and 2015. Jyeshtha (Snana Purnima) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଓଡ଼ିଆ ଭାଷାରେ ପ୍ରଥମ ସମ୍ପୂର୍ଣ୍ଣ ମହାଭାରତ କାହାର ରଚନା?",
+    "options": ["ଜଗନ୍ନାଥ ଦାସ", "ବଳରାମ ଦାସ", "ଅଚ୍ୟୁତାନନ୍ଦ ଦାସ", "ସାରଳା ଦାସ"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the first complete Mahabharata in Odia? — Sarala Das (15th century). The others are the later Panchasakha poets: Jagannath Das wrote the Odia Bhagabata, Balaram Das the Jagamohana Ramayana."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ଦେବନାଗରୀ ଅକ୍ଷର ଉପରେ ସିଧା ଗାର, ଓଡ଼ିଆ ଅକ୍ଷର ଉପରେ ଗୋଲ ଛତା। କୁହାଯାଏ, ଲୁହା ଲେଖନୀରେ ଲମ୍ବା ସିଧା ଗାର ଟାଣିଲେ ଲେଖିବା ଜିନିଷଟି ଚିରିଯାଉଥିଲା। ସେ ଜିନିଷ କ'ଣ?",
+    "options": ["ତମ୍ବା ଫଳକ", "ଭୂର୍ଜପତ୍ର", "ତାଳପତ୍ର", "ପଥର ଫଳକ"],
+    "correctIndex": 2,
+    "gloss": "Devanagari has a straight top line, Odia letters a round 'umbrella'. A long straight line drawn with an iron stylus would split the writing material. What was it? — Palm leaf, which splits along its grain. Copper and stone don't tear; birch bark was written with ink."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ଉଚ୍ଚ ପାହାଡ଼ ଉପରେ ଖୋଲା ହାଣ୍ଡିରେ ପାଣି ଟଗବଗ ହୋଇ ଫୁଟୁଛି। ସେହି ଫୁଟନ୍ତା ପାଣିର ତାପମାତ୍ରା କେତେ?",
+    "options": ["୧୦୦ ଡିଗ୍ରୀ ସେଲସିୟସରୁ ଅଧିକ", "ଠିକ୍ ୧୦୦ ଡିଗ୍ରୀ ସେଲସିୟସ", "୧୦୦ ଡିଗ୍ରୀ ସେଲସିୟସରୁ କମ୍", "ପାଣିର ପରିମାଣ ଉପରେ ନିର୍ଭର କରେ"],
+    "correctIndex": 2,
+    "gloss": "On a high mountain, water is boiling hard in an open pot. How hot is it? — Below 100 °C: air pressure is lower up there, so water boils sooner, which is why food cooks slowly on mountains."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ବିଜୁଳି ଚମକିବାର ପ୍ରାୟ ତିନି ସେକେଣ୍ଡ ପରେ ଘଡ଼ଘଡ଼ି ଶୁଭିଲା। ବିଜୁଳିଟି ଆପଣଙ୍କଠାରୁ ପ୍ରାୟ କେତେ ଦୂରରେ ହୋଇଥିଲା?",
+    "options": ["ପ୍ରାୟ ୧୦୦ ମିଟର", "ପ୍ରାୟ ୧ କିଲୋମିଟର", "ପ୍ରାୟ ୧୦ କିଲୋମିଟର", "ପ୍ରାୟ ୧୦୦ କିଲୋମିଟର"],
+    "correctIndex": 1,
+    "gloss": "Thunder is heard about three seconds after the lightning flash. How far away was it? — About 1 km: light arrives almost at once, sound travels about 340 m a second."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଓଡ଼ିଶାର ରାଜ୍ୟ ସଙ୍ଗୀତ “ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ”ର ରଚୟିତା କିଏ?",
+    "options": ["ଗଙ୍ଗାଧର ମେହେର", "ମଧୁସୂଦନ ରାଓ", "ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର", "ଗୋପବନ୍ଧୁ ଦାସ"],
+    "correctIndex": 2,
+    "gloss": "Who wrote Odisha's state song 'Bande Utkala Janani'? — Kantakabi Laxmikanta Mohapatra. The others are major Odia poets of the same era."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଆପୋଲୋ-୧୧ ଅଭିଯାନରେ ନିଲ ଆର୍ମଷ୍ଟ୍ରଙ୍ଗଙ୍କ ପରେ ଜହ୍ନ ମାଟିରେ ପାଦ ଥାପିଥିବା ଦ୍ୱିତୀୟ ମଣିଷ କିଏ?",
+    "options": ["ବଜ ଅଲଡ୍ରିନ", "ମାଇକେଲ କଲିନ୍ସ", "ଜନ ଗ୍ଲେନ", "ୟୁରି ଗାଗାରିନ"],
+    "correctIndex": 0,
+    "gloss": "On Apollo 11, who was the second man to step on the Moon after Neil Armstrong? — Buzz Aldrin. Michael Collins flew the same mission but stayed in orbit."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "୧ ରୁ ୧୦୦ ପର୍ଯ୍ୟନ୍ତ ସବୁ ସଂଖ୍ୟା ଲେଖିଲେ ‘୯’ ଅଙ୍କଟି ମୋଟ କେତେ ଥର ଲେଖିବାକୁ ପଡ଼ିବ?",
+    "options": ["୧୦", "୧୧", "୧୯", "୨୦"],
+    "correctIndex": 3,
+    "gloss": "Writing every number from 1 to 100, how many times do you write the digit 9? — 20: ten times in the units (9, 19 … 99) and ten in the tens (90–99); 99 counts twice."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ରୋଷେଇ ଘରର କେଉଁ ମସଲା ଆସଲରେ ନ ଫୁଟିଥିବା ଫୁଲକଢ଼ି, ଯାହାକୁ ଶୁଖାଇ ରଖାଯାଏ?",
+    "options": ["ଲବଙ୍ଗ", "ଗୋଲମରିଚ", "ଅଳେଇଚ", "ଡାଲଚିନି"],
+    "correctIndex": 0,
+    "gloss": "Which kitchen spice is really an unopened flower bud, dried? — Clove. Pepper is a berry, cardamom a seed pod, cinnamon a bark."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ଶୀତ ଦିନେ ଲଣ୍ଡନରେ ଗ୍ରୀନୱିଚ ସମୟ ଚାଲେ। ଭୁବନେଶ୍ୱରରେ ସନ୍ଧ୍ୟା ସାଢ଼େ ଛଅଟା ହେଲେ ଲଣ୍ଡନରେ ସେତେବେଳେ କେତେଟା?",
+    "options": ["ଦିନ ୧୨ଟା", "ଦିନ ୧ଟା", "ରାତି ୧୨ଟା", "ସକାଳ ୭ଟା"],
+    "correctIndex": 1,
+    "gloss": "In winter London keeps Greenwich time. When it is 6:30 pm in Bhubaneswar, what time is it in London? — 1 pm: Indian time is GMT + 5:30. Midnight is the trap for adding instead of subtracting."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "୧୪୯୮ରେ ଆଫ୍ରିକା ବୁଲି ସମୁଦ୍ର ବାଟେ ଭାରତ ପହଞ୍ଚିଥିବା ଭାସ୍କୋ ଦା ଗାମା କେଉଁ ବନ୍ଦର ପାଖରେ ପ୍ରଥମେ ଓହ୍ଲାଇଥିଲେ?",
+    "options": ["ଗୋଆ", "କୋଚି", "ପଣ୍ଡିଚେରୀ", "କାଲିକଟ"],
+    "correctIndex": 3,
+    "gloss": "Sailing round Africa in 1498, near which port did Vasco da Gama first land in India? — Calicut (Kozhikode). Goa became Portuguese only in 1510; Pondicherry was French."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପଟ୍ଟଚିତ୍ର ଗାଁ ଭାବେ ଜଣାଶୁଣା ପୁରୀ ଜିଲ୍ଲାର ରଘୁରାଜପୁରରେ କେଉଁ ଓଡ଼ିଶୀ ଗୁରୁଙ୍କ ଜନ୍ମ ହୋଇଥିଲା?",
+    "options": ["କେଳୁଚରଣ ମହାପାତ୍ର", "ପଙ୍କଜ ଚରଣ ଦାସ", "ଦେବପ୍ରସାଦ ଦାସ", "ମାୟାଧର ରାଉତ"],
+    "correctIndex": 0,
+    "gloss": "Which Odissi guru was born in Raghurajpur, the pattachitra painters' village near Puri? — Kelucharan Mohapatra, who began as a gotipua dancer. The others are the other great Odissi gurus of his generation."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "କାଳ୍ପନିକ ଗାଁ ମାକୋଣ୍ଡୋକୁ ନେଇ “ଶହେ ବର୍ଷର ନିଃସଙ୍ଗତା” ଲେଖିଥିବା ଗାବ୍ରିଏଲ ଗାର୍ସିଆ ମାର୍କେଜ କେଉଁ ଦେଶର ଲେଖକ?",
+    "options": ["ମେକ୍ସିକୋ", "କଲମ୍ବିଆ", "ଆର୍ଜେଣ୍ଟିନା", "ପେରୁ"],
+    "correctIndex": 1,
+    "gloss": "Gabriel García Márquez, who wrote 'One Hundred Years of Solitude' about the imaginary village of Macondo, was a writer from which country? — Colombia. He lived for decades in Mexico, the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ଜଣେ ରୋଗୀଙ୍କ ରକ୍ତ ଗ୍ରୁପ A ପଜିଟିଭ। ତଳ ଗ୍ରୁପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟିର ରକ୍ତ ତାଙ୍କୁ ନିରାପଦରେ ଦିଆଯାଇପାରିବ?",
+    "options": ["B ପଜିଟିଭ", "AB ପଜିଟିଭ", "AB ନେଗେଟିଭ", "O ନେଗେଟିଭ"],
+    "correctIndex": 3,
+    "gloss": "A patient is A positive. Which of these blood groups can safely be given to them? — O negative, the universal donor. B and AB carry the B antigen the patient's body would attack."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ବିଷୁବ ରେଖା ତଳ ମହାଦେଶଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଦେଇ ଯାଇନାହିଁ?",
+    "options": ["ଆଫ୍ରିକା", "ଏସିଆ", "ୟୁରୋପ", "ଦକ୍ଷିଣ ଆମେରିକା"],
+    "correctIndex": 2,
+    "gloss": "Which of these continents does the Equator not cross? — Europe. It crosses Africa, South America, and Asia through Indonesia. Asia is the trap for players who picture India."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଘରକଥାର ତିନିଟି ଶବ୍ଦ — ଚାବି, ଆଲମାରି, ବାଲ୍ଟି — ମୂଳତଃ ଗୋଟିଏ ୟୁରୋପୀୟ ଭାଷାର। କେଉଁ ଭାଷା?",
+    "options": ["ଇଂରାଜୀ", "ଫରାସୀ", "ପର୍ତ୍ତୁଗୀଜ", "ଡଚ"],
+    "correctIndex": 2,
+    "gloss": "Three household words — chabi (key), almari (cupboard), balti (bucket) — come from one European language. Which? — Portuguese: chave, armário, balde."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ପ୍ଲାଷ୍ଟିକ ଖେଳନା ଇଟା “ଲେଗୋ”ର ନାମ ତା' ଦେଶର ଭାଷାରେ “ଭଲ କରି ଖେଳ” ବୁଝାଉଥିବା ଦୁଇ ଶବ୍ଦରୁ ଗଢ଼ା। ଲେଗୋ କମ୍ପାନୀ କେଉଁ ଦେଶର?",
+    "options": ["ସ୍ୱିଡେନ", "ଜର୍ମାନୀ", "ନରୱେ", "ଡେନମାର୍କ"],
+    "correctIndex": 3,
+    "gloss": "The name of the LEGO toy brick comes from two words meaning 'play well' in its home language. Which country is the LEGO company from? — Denmark (Danish 'leg godt'; founded in Billund)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ଗାନ୍ଧୀ” ଚଳଚ୍ଚିତ୍ରର ପୋଷାକ ପରିକଳ୍ପନା ପାଇଁ ଅସ୍କାର ପାଇ କିଏ ପ୍ରଥମ ଭାରତୀୟ ଅସ୍କାର ବିଜେତା ହୋଇଥିଲେ?",
+    "options": ["ଭାନୁ ଅଥାଇୟା", "ସତ୍ୟଜିତ ରାୟ", "ରସୁଲ ପୁକୁଟି", "ଏ. ଆର. ରହମାନ"],
+    "correctIndex": 0,
+    "gloss": "Who became the first Indian Oscar winner, for the costume design of 'Gandhi'? — Bhanu Athaiya (1983). Satyajit Ray's honorary Oscar came in 1992; Pookutty and Rahman won in 2009."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ପଣା ସଂକ୍ରାନ୍ତିରୁ ଓଡ଼ିଆ ନୂଆ ବର୍ଷ ଆରମ୍ଭ ହୁଏ। ସେହି ଦିନ ସୂର୍ଯ୍ୟ କେଉଁ ରାଶିରେ ପ୍ରବେଶ କରନ୍ତି?",
+    "options": ["ମକର", "ମେଷ", "ମୀନ", "ବୃଷ"],
+    "correctIndex": 1,
+    "gloss": "The Odia new year begins on Pana Sankranti. Which zodiac sign does the Sun enter that day? — Mesha (Aries), the first sign: the new year starts with the first sign. Makar Sankranti is the trap."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ପୁରୁଣା ଓଡ଼ିଆ ଗଣନାରେ କୋଡ଼ିଏ ଗଣ୍ଡାରେ ଏକ ପଣ ହୁଏ। ତେବେ ଏକ ପଣରେ କେତୋଟି ଜିନିଷ?",
+    "options": ["୪୦", "୬୦", "୮୦", "୧୦୦"],
+    "correctIndex": 2,
+    "gloss": "In old Odia counting, twenty gandas make one pana. How many items in a pana? — 80: a ganda is four (the fact), so 20 × 4 = 80."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଉଦୟଗିରିର ହାତୀଗୁମ୍ଫା ଶିଳାଲେଖରେ ଯାହାଙ୍କ କୀର୍ତ୍ତି ଖୋଦିତ, ସେହି କଳିଙ୍ଗ ସମ୍ରାଟ ଖାରବେଳ କେଉଁ ରାଜବଂଶର?",
+    "options": ["ଶୈଳୋଦ୍ଭବ", "ଭୌମକର", "ମହାମେଘବାହନ", "ସୋମବଂଶୀ"],
+    "correctIndex": 2,
+    "gloss": "Kharavela, the Kalinga emperor whose deeds are carved in the Hathigumpha inscription at Udayagiri, belonged to which dynasty? — The Mahameghavahana (Chedi) dynasty. The others ruled Odisha centuries later."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଜଣେ କନ୍ନଡ଼ କବିଙ୍କ ସହ ପୁରସ୍କାର ବାଣ୍ଟି ପ୍ରଥମ ଓଡ଼ିଆ ଜ୍ଞାନପୀଠ ବିଜେତା ହୋଇଥିଲେ କିଏ?",
+    "options": ["ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ", "ଗୋପୀନାଥ ମହାନ୍ତି", "ସୀତାକାନ୍ତ ମହାପାତ୍ର", "କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀ"],
+    "correctIndex": 1,
+    "gloss": "Sharing it with a Kannada poet, who became the first Odia winner of the Jnanpith? — Gopinath Mohanty (1973, with D. R. Bendre). Routray (1986) and Sitakant Mahapatra (1993) won later; Kalindi Charan Panigrahi never did."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ଗୋଟିଏ ଦୁଇସୂତା ଡିଏନଏ ଅଣୁରେ ୩୦% କ୍ଷାରକ ଆଡେନିନ। ସେଥିରେ ଗୁଆନିନ କେତେ ପ୍ରତିଶତ?",
+    "options": ["୨୦%", "୩୦%", "୪୦%", "୭୦%"],
+    "correctIndex": 0,
+    "gloss": "In a double-stranded DNA molecule 30% of the bases are adenine. What percentage is guanine? — 20%: adenine pairs with thymine (30%), leaving 40% split equally between guanine and cytosine."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପୂର୍ବଘାଟ ପର୍ବତମାଳାର ଯେଉଁ ଶିଖର ଓଡ଼ିଶାର ସର୍ବୋଚ୍ଚ, ସେଟି କେଉଁ?",
+    "options": ["ଦେଓମାଳି", "ମହେନ୍ଦ୍ରଗିରି", "ଗନ୍ଧମାର୍ଦ୍ଦନ", "ମଲୟଗିରି"],
+    "correctIndex": 0,
+    "gloss": "Which Eastern Ghats peak is the highest in Odisha? — Deomali (about 1,672 m, Koraput). Mahendragiri, the better-known peak, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଏହି ପକ୍ଷୀର ନାକପୁଡ଼ା ଲମ୍ବା ଥଣ୍ଟର ଏକଦମ ଆଗ ମୁଣ୍ଡରେ, ତେଣୁ ସେ ମାଟି ଭିତରେ ପୋକ ଶୁଙ୍ଘି ଶୁଙ୍ଘି ଖୋଜେ। କେଉଁ ପକ୍ଷୀ?",
+    "options": ["ଏମୁ", "କାସୋୱାରି", "ଓଟପକ୍ଷୀ", "କିୱି"],
+    "correctIndex": 3,
+    "gloss": "This bird's nostrils are at the very tip of its long beak, so it sniffs out worms in the soil. Which bird? — The kiwi, the only bird with nostrils at the tip. The others are its flightless relatives."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ରୋଜେଟା ପଥରରେ ଗୋଟିଏ ରାଜାଦେଶ ତିନି ଲିପିରେ ଖୋଦିତ। ସେତେବେଳେ ମିଶରରେ ଟଲେମି ବଂଶର ଶାସନ ଥିଲା, ଆଉ ପଣ୍ଡିତମାନେ ଜାଣିଥିବା ଗୋଟିଏ ଭାଷା ସାହାଯ୍ୟରେ ହାଇରୋଗ୍ଲିଫ ପଢ଼ାଗଲା। ସେ ଭାଷା କେଉଁଟି?",
+    "options": ["ଲାଟିନ", "ପ୍ରାଚୀନ ଗ୍ରୀକ", "ଆରାମାଇକ", "ପ୍ରାଚୀନ ଫାର୍ସୀ"],
+    "correctIndex": 1,
+    "gloss": "The Rosetta Stone carries one decree in three scripts. Egypt was then ruled by the Ptolemies, and a language scholars could read unlocked the hieroglyphs. Which? — Ancient Greek: the Ptolemies were a Greek dynasty (the other scripts are hieroglyphic and Demotic)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "୧୯୭୧ରେ କମ୍ପ୍ୟୁଟର ନେଟୱର୍କରେ ପ୍ରଥମ ଇ-ମେଲ ପଠାଇ ଠିକଣାରେ ‘@’ ଚିହ୍ନ ବ୍ୟବହାର ଆରମ୍ଭ କରିଥିଲେ କେଉଁ ଇଞ୍ଜିନିୟର?",
+    "options": ["ଟିମ ବର୍ନର୍ସ-ଲି", "ଭିଣ୍ଟନ ସର୍ଫ", "ରେ ଟମଲିନସନ", "ଷ୍ଟିଭ ୱୋଜନିଆକ"],
+    "correctIndex": 2,
+    "gloss": "Which engineer sent the first email across a computer network in 1971 and started using '@' in addresses? — Ray Tomlinson (ARPANET). Berners-Lee made the Web, Cerf co-designed TCP/IP."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଧ୍ୟାନଚାନ୍ଦଙ୍କ ସମେତ ଭାରତୀୟ ହକି ଦଳ ପ୍ରଥମ ଅଲିମ୍ପିକ ସୁନା ପଦକ କେଉଁ ସହରରେ ଜିତିଥିଲା?",
+    "options": ["ଆମଷ୍ଟରଡାମ", "ପ୍ୟାରିସ", "ଲସ ଏଞ୍ଜେଲସ", "ବର୍ଲିନ"],
+    "correctIndex": 0,
+    "gloss": "In which city did India's hockey team, with Dhyan Chand, win its first Olympic gold? — Amsterdam, 1928. Los Angeles (1932) and Berlin (1936) were the next two golds; Paris 1924 was before."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "୨୦୧୪ରେ ଓଡ଼ିଆ ଭାରତର ଶାସ୍ତ୍ରୀୟ ଭାଷା ମାନ୍ୟତା ପାଇଲା। ତଳ ଭାଷାଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଏହି ମାନ୍ୟତା ଓଡ଼ିଆ ପରେ ପାଇଥିଲା?",
+    "options": ["ମାଲାୟାଲମ", "ସଂସ୍କୃତ", "ତାମିଲ", "ବଙ୍ଗଳା"],
+    "correctIndex": 3,
+    "gloss": "Odia became a classical language of India in 2014. Which of these got that status after Odia? — Bengali (October 2024). Tamil (2004), Sanskrit (2005) and Malayalam (2013) came before."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ମୋଜାର୍ଟ କେଉଁ ସହରରେ ଜନ୍ମ ନେଇଥିଲେ? ସେହି ସହରର ବିମାନବନ୍ଦର ଆଜି ତାଙ୍କ ନାମରେ।",
+    "options": ["ଭିଏନା", "ସାଲଜବର୍ଗ", "ପ୍ରାଗ", "ମ୍ୟୁନିକ"],
+    "correctIndex": 1,
+    "gloss": "In which city was Mozart born? Its airport bears his name today. — Salzburg. He did his greatest work in Vienna, the trap."
+  }
+]

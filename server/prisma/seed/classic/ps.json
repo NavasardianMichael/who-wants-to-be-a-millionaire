@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "دا څلور کلمې په پښتو کې ورځنۍ دي، خو یوازې یوه یې داسې توری لري چې د دري په الفبا کې نشته. کومه یوه؟",
+    "options": ["کتاب", "باران", "ښار", "قلم"],
+    "correctIndex": 2,
+    "gloss": "These four words are everyday Pashto, but only one has a letter the Dari alphabet lacks. Which? — ښار (city): ښ is a Pashto-only letter; the other three are written the same in Dari."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "قابلي پلو چې پر دسترخوان راوړل شي، معمولاً پر سر یې څه اچول شوي وي؟",
+    "options": ["ګازرې او کشمش", "پالک او ګندنه", "کچالو او پیاز", "نخود او لوبیا"],
+    "correctIndex": 0,
+    "gloss": "When Kabuli pulao is served, what is usually on top? — Carrots and raisins (julienned carrots and raisins, sometimes nuts)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په کرکټ کې که توپ ځمکې ته له لګېدو پرته د ډګر له پولې واوړي، توپ وهونکي ته څو منډې ورکول کېږي؟",
+    "options": ["څلور", "شپږ", "دوه", "اته"],
+    "correctIndex": 1,
+    "gloss": "In cricket, if the ball clears the boundary without touching the ground, how many runs does the batter get? — Six. Four is the trap: that's when it bounces first."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ځمکه په څومره وخت کې یو ځل د خپل محور شاوخوا تاوېږي؟",
+    "options": ["۱۲ ساعته", "۴۸ ساعته", "۳۶ ساعته", "۲۴ ساعته"],
+    "correctIndex": 3,
+    "gloss": "How long does the Earth take to turn once on its axis? — About 24 hours (one day and night)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د پېښور او کابل ترمنځ هغه مشهوره غرنۍ دره چې له پېړیو راهیسې د کاروانونو لار ده، څه نومېږي؟",
+    "options": ["سالنګ", "خیبر", "بولان", "کوژک"],
+    "correctIndex": 1,
+    "gloss": "The famous mountain pass between Peshawar and Kabul, a caravan route for centuries? — Khyber. Salang is north of Kabul; Bolan and Khojak are near Quetta."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "په یوه غوجل کې یوازې پسونه ولاړ دي. که د ټولو پښې شل وي، په غوجل کې څو پسونه دي؟",
+    "options": ["لس", "څلور", "پنځه", "اته"],
+    "correctIndex": 2,
+    "gloss": "Only sheep stand in a barn. If all their legs add up to twenty, how many sheep? — Five: 20 ÷ 4. Ten is the trap for those who think in pairs."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د ډول پر غږ په لویه کړۍ کې کېدونکې ډله ییزه ګډا، چې د افغانستان ملي نڅا ګڼل کېږي، څه نومېږي؟",
+    "options": ["بهنګړا", "دبکه", "سماع", "اتڼ"],
+    "correctIndex": 3,
+    "gloss": "The group dance in a big circle to the dhol, considered Afghanistan's national dance? — Attan. Bhangra is Punjabi, dabke Levantine, sama Sufi."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "له دې مېوو څخه کومه یوه پر ونه نه نیسي، بلکې پر ځمکه غځېدلي بوټي کې غټېږي؟",
+    "options": ["مڼه", "توت", "انار", "هندوانه"],
+    "correctIndex": 3,
+    "gloss": "Which of these fruits doesn't grow on a tree but on a plant spreading over the ground? — Watermelon: it grows on a creeping vine; apple, mulberry and pomegranate grow on trees."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د قرآن کریم له مخې، کوم پیغمبر د یوه لوی کب په خېټه کې پاتې شوی و؟",
+    "options": ["حضرت موسی", "حضرت یونس", "حضرت نوح", "حضرت ابراهیم"],
+    "correctIndex": 1,
+    "gloss": "According to the Quran, which prophet stayed in the belly of a great fish? — Jonah (Yunus), Surah As-Saffat 37:139–148."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "هغه ساز چې له توت لرګي کیندل کېږي او د افغانستان ملي ساز بلل کېږي، څه نومېږي؟",
+    "options": ["سرود", "ستار", "طبله", "رباب"],
+    "correctIndex": 3,
+    "gloss": "The instrument carved from mulberry wood and called Afghanistan's national instrument? — Rubab. The Indian sarod is its descendant, the trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«روغتون» له «روغ» او «تون» (ځای) جوړ شوی. په همدې قاعده، د هغو وړو ماشومانو ځای چې لا ښوونځي ته نه ځي، څه نومېږي؟",
+    "options": ["وړکتون", "لیلیه", "پوهنتون", "کتابتون"],
+    "correctIndex": 0,
+    "gloss": "Hospital (روغتون) is 'healthy' + 'place'. By the same rule, what is the place for small children not yet at school? — وړکتون (kindergarten), from وړکی 'little one' + تون."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د صوفي شاعر عبدالرحمن مومند، چې خلک یې «رحمان بابا» بولي، مزار په کوم ښار کې دی؟",
+    "options": ["کندهار", "جلال آباد", "پېښور", "مردان"],
+    "correctIndex": 2,
+    "gloss": "In which city is the shrine of the Sufi poet Abdul Rahman Mohmand, 'Rahman Baba'? — Peshawar (Hazarkhwani)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "دا لړۍ یوه قاعده لري: ۱، ۴، ۹، ۱۶، …، ۳۶. د تشې ځای عدد کوم دی؟",
+    "options": ["۲۵", "۲۰", "۲۴", "۳۰"],
+    "correctIndex": 0,
+    "gloss": "The sequence 1, 4, 9, 16, …, 36 follows a rule. What fills the gap? — 25: they are squares 1², 2², … 6²; gaps 3, 5, 7, 9, 11."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د نړۍ تر ټولو لوړه څوکه، اېورسټ، د نېپال او کوم هېواد پر پوله پرته ده؟",
+    "options": ["هند", "چین", "پاکستان", "بوتان"],
+    "correctIndex": 1,
+    "gloss": "Everest stands on the border of Nepal and which country? — China (Tibet)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "احمدشاه بابا، چې په ۱۷۴۷ زېږدیز کال یې نوی دولت جوړ کړ، کوم ښار خپله پلازمېنه وټاکه؟",
+    "options": ["کابل", "هرات", "غزني", "کندهار"],
+    "correctIndex": 3,
+    "gloss": "Ahmad Shah Baba founded a new state in 1747. Which city did he make his capital? — Kandahar. Kabul is the trap: his son Timur Shah moved the capital there in 1776."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "په پښتو کې «نولس» له «نهه» او «لس» جوړ شوی او ۱۹ معنا لري. په همدې ډول «اوولس» کوم عدد دی؟",
+    "options": ["۷۰", "۱۶", "۱۷", "۷۱"],
+    "correctIndex": 2,
+    "gloss": "In Pashto 'nolas' is nine + ten = 19. In the same way, what number is 'owolas'? — 17 (seven + ten). 70 is the trap: that's 'awiya'."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "قروت، چې په قروتي او ډېرو نورو خوړو کې اچول کېږي، له کوم شي جوړېږي؟",
+    "options": ["شیدې", "اوړه", "نخود", "غوښه"],
+    "correctIndex": 0,
+    "gloss": "Qurut, used in qurutai and many other dishes, is made from what? — Milk: it is dried, salted yogurt or buttermilk."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "موګلي، هغه هلک چې لېوانو لوی کړ، د کومې مشهورې کیسې او کارټون اتل دی؟",
+    "options": ["ټارزن", "د زمریانو پاچا", "علاءالدین", "د ځنګل کتاب"],
+    "correctIndex": 3,
+    "gloss": "Mowgli, the boy raised by wolves, is the hero of which famous story and cartoon? — The Jungle Book. Tarzan is the trap: raised by apes."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "که د یو فلم دوتنه شاوخوا یو ګیګابایټ وي، دا شاوخوا څو میګابایټه کېږي؟",
+    "options": ["۱۰", "۱۰۰", "۱۰۰۰", "۱۰۰۰۰۰۰"],
+    "correctIndex": 2,
+    "gloss": "If a film file is about one gigabyte, about how many megabytes is that? — About 1,000 (1,000 or 1,024 depending on convention; 'about' covers both)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "تاج محل، چې شاه جهان د خپلې مېرمنې ممتاز محل په یاد جوړ کړ، په کوم ښار کې دی؟",
+    "options": ["اګره", "دهلي", "لاهور", "جیپور"],
+    "correctIndex": 0,
+    "gloss": "The Taj Mahal, built by Shah Jahan in memory of his wife Mumtaz Mahal, is in which city? — Agra. Delhi and Lahore are Mughal traps."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د اوښ په کوهان کې په اصل کې کوم شی زېرمه کېږي؟",
+    "options": ["اوبه", "وینه", "وازده", "هوا"],
+    "correctIndex": 2,
+    "gloss": "What does a camel's hump actually store? — Fat, not water, as is often believed."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "د هندوکش په یوه ۴۵۰۰ متره لوړ ځای کې، چای ته اېښې اوبه په کومه تودوخه ایشېږي؟",
+    "options": ["شاوخوا ۸۵ درجې", "سمې ۱۰۰ درجې", "شاوخوا ۱۱۰ درجې", "شاوخوا ۱۲۰ درجې"],
+    "correctIndex": 0,
+    "gloss": "At a spot 4,500 m up in the Hindu Kush, at what temperature does water for tea boil? — About 85 °C: lower air pressure lowers the boiling point (roughly 1 °C per 300 m)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د کابل سیند له کابل او جلال آباد تېرېږي. دا سیند په پای کې په کوم سیند ورګډېږي؟",
+    "options": ["آمو", "هلمند", "اباسین", "جهلم"],
+    "correctIndex": 2,
+    "gloss": "The Kabul River runs through Kabul and Jalalabad. Into which river does it finally flow? — The Indus (Abasin, 'father of rivers'), near Attock."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "په افغانستان کې د لمریز کال میاشتې په پښتو د برجونو نومونه لري: وری، غویی، غبرګولی او داسې نور. له «تلې» وروسته کومه میاشت راځي؟",
+    "options": ["وږی", "لړم", "لیندۍ", "زمری"],
+    "correctIndex": 1,
+    "gloss": "Afghan solar months have Pashto zodiac names: Wray (lamb), Ghwayay (bull), Ghbargolay (twins)... Which month follows Tala (scales)? — Lardam (scorpion): Libra is followed by Scorpio."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "خوشال خان خټک ډېر کتابونه لیکلي. له دغو څلورو څخه د کوم یوه نوم د سر له یوې جامې اخیستل شوی؟",
+    "options": ["بازنامه", "سوات‌نامه", "دستارنامه", "فراق‌نامه"],
+    "correctIndex": 2,
+    "gloss": "Khushal Khan Khattak wrote many books. Which of these four is named after a piece of headwear? — Dastarnama (dastar = turban). All four are his: falconry, Swat, separation."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "هجري سپوږمیز کال تر لمریز کال شاوخوا ۱۱ ورځې لنډ دی. که سږ کال روژه د مارچ په ۱۲مه پیل شوې وي، راتلونکی کال به شاوخوا کله پیل شي؟",
+    "options": ["د مارچ ۱مه", "د مارچ ۱۲مه", "د مارچ ۲۳مه", "د اپرېل ۱۲مه"],
+    "correctIndex": 0,
+    "gloss": "The Hijri lunar year is about 11 days shorter than the solar year. If Ramadan began on 12 March this year, when next year? — About 1 March: a shorter year comes round earlier. 23 March is the trap for those who add."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "کندهاریان «پښتو» وايي او پېښوریان «پختو». یو بل توری هم شته چې کندهاریان یې «ژ» ته نږدې او پېښوریان یې «ګ» ته نږدې وايي. کوم توری؟",
+    "options": ["ږ", "ځ", "څ", "ړ"],
+    "correctIndex": 0,
+    "gloss": "Kandaharis say 'Pashto', Peshawaris 'Pakhto'. Another letter is said close to 'zh' in Kandahar and close to 'g' in Peshawar. Which? — ږ, the voiced partner of ښ (e.g. ږیره 'beard': zhira / gira)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کوم کمپوزر خپله نهمه سمفوني هغه مهال بشپړه کړه چې په بشپړ ډول کوڼ شوی و؟",
+    "options": ["موزارت", "بیتهوون", "باخ", "شوپن"],
+    "correctIndex": 1,
+    "gloss": "Which composer finished his Ninth Symphony when he was completely deaf? — Beethoven. Bach is a trap: he went blind, not deaf."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "په یوه حجره کې څلور مېلمانه سره راټول شوي او هر یو له نورو ټولو سره یو ځل لاس ورکوي. ټولټال څو ځله لاس ورکول کېږي؟",
+    "options": ["۴", "۸", "۱۲", "۶"],
+    "correctIndex": 3,
+    "gloss": "Four guests in a hujra each shake hands once with every other. How many handshakes in all? — 6: 3+2+1. 12 is the trap: it counts each handshake twice."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کله چې څوک د هغه چا کور ته ورشي چې ورسره یې بدي کړې وي او په عاجزۍ بخښنه وغواړي، په پښتونولي کې دې دود ته څه وايي؟",
+    "options": ["بدرګه", "ننواتې", "ننګ", "جرګه"],
+    "correctIndex": 1,
+    "gloss": "When someone goes humbly to the house of the person he wronged to ask forgiveness, what is this custom called in Pashtunwali? — Nanawatai. Badraga is a safe-conduct escort; nang is honour; jirga the council."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د هلمند سیند، چې د افغانستان په سویل کې بهېږي، په پای کې چېرته تویېږي؟",
+    "options": ["د عمان خلیج", "د خزر سمندرګی", "آمو سیند", "د سیستان هامونونه"],
+    "correctIndex": 3,
+    "gloss": "Where does the Helmand, which flows through southern Afghanistan, finally end? — In the Hamun lakes of the Sistan basin; it never reaches a sea."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لنډۍ دوه مسرې لري. که لومړۍ مسره نهه هجاوې ولري، دویمه مسره یې څو هجاوې لري؟",
+    "options": ["نهه", "یوولس", "دیارلس", "پنځلس"],
+    "correctIndex": 2,
+    "gloss": "A landay has two lines. If the first has nine syllables, how many has the second? — Thirteen: the landay is 9 + 13 syllables."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "که لمر ناڅاپه خاموش شي، په ځمکه به څومره وروسته تیاره خوره شي؟",
+    "options": ["سمدستي", "شاوخوا اته ثانیې", "شاوخوا اته دقیقې", "شاوخوا اته ساعته"],
+    "correctIndex": 2,
+    "gloss": "If the Sun suddenly went out, how long before darkness fell on Earth? — About 8 minutes: the light already on its way takes about 8 min 20 s to arrive."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کومه مساله د یوې ونې له پوستکي لاسته راځي؟",
+    "options": ["لونګ", "دارچیني", "تور مرچ", "زعفران"],
+    "correctIndex": 1,
+    "gloss": "Which spice comes from the bark of a tree? — Cinnamon. Clove is a flower bud, black pepper a berry, saffron the stigma of a crocus."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "په کابل کې سمه غرمه ده، د ورځې ۱۲ بجې. په همدې شېبه کې په پېښور کې ساعت څو بجې دی؟",
+    "options": ["۱۱:۳۰", "۱۲:۰۰", "۱۲:۳۰", "۱:۰۰"],
+    "correctIndex": 2,
+    "gloss": "It's exactly noon in Kabul. What time is it in Peshawar? — 12:30: Afghanistan is UTC+4:30, Pakistan UTC+5 with no daylight saving."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "په پښتني فولکلور کې شېربانو د کوم مشهور مین معشوقه ده؟",
+    "options": ["یوسف خان", "آدم خان", "موسی خان", "فرهاد"],
+    "correctIndex": 0,
+    "gloss": "In Pashtun folklore, Sherbano is the beloved of which famous lover? — Yusuf Khan ('Yusuf Khan and Sherbano'). Adam Khan loves Durkhanai, Musa Khan Gulmakai, Farhad Shirin."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "هغه مربع کوډونه چې موبایل یې په کامره لولي (QR کوډ)، لومړی ځل د موټرو د پرزو د څارلو لپاره په کوم هېواد کې جوړ شول؟",
+    "options": ["جاپان", "جنوبي کوریا", "امریکا", "المان"],
+    "correctIndex": 0,
+    "gloss": "The square codes phones read with the camera (QR codes) were first made to track car parts in which country? — Japan (Denso Wave, 1994)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "که په سپوږمۍ کې یو چکش او یوه بڼکه له یوه لوړوالي په یوه وخت خوشې کړې، څه به وشي؟",
+    "options": ["چکش به لومړی ورسېږي", "بڼکه به لومړی ورسېږي", "دواړه به یو وخت ورسېږي", "بڼکه به په هوا کې ودرېږي"],
+    "correctIndex": 2,
+    "gloss": "On the Moon, if you drop a hammer and a feather from the same height at the same time, what happens? — Both land together: no air resistance (shown by Apollo 15's David Scott in 1971)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "پښتو عددونه داسې لیکي: ۱، ۲، ۳، او انګرېزي داسې: 1، 2، 3. دا دواړه ډوله عددونه په اصل کې د کوم ځای له عددونو راوتلي دي؟",
+    "options": ["یونان", "روم", "عربستان", "هند"],
+    "correctIndex": 3,
+    "gloss": "Pashto writes digits ۱ ۲ ۳ and English 1 2 3. Where do both families of digits originally come from? — India (Hindu–Arabic numerals); the Arabs passed them on."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "افغانستان له کوم ګاونډي هېواد سره یوازې د واخان د تنګ دهلېز له لارې پوله لري؟",
+    "options": ["تاجکستان", "چین", "پاکستان", "ترکمنستان"],
+    "correctIndex": 1,
+    "gloss": "With which neighbour does Afghanistan share a border only through the narrow Wakhan corridor? — China. Tajikistan and Pakistan touch the Wakhan too, but their borders run far beyond it."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د افغانستان تر ټولو لوړه څوکه، چې له اووه زره مترو لوړه ده، کومه ده؟",
+    "options": ["نوشاخ", "تیرچمیر", "شاه فولادي", "سکارام"],
+    "correctIndex": 0,
+    "gloss": "Afghanistan's highest peak, over 7,000 m? — Noshaq (7,492 m). Tirich Mir is higher but entirely in Pakistan; Shah Fuladi and Sikaram are the tops of Koh-e Baba and Spin Ghar."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د جام منار، د دولسمې پېړۍ د خښتو لوړ منار چې د هریرود تر څنګ ولاړ دی، په کوم ولایت کې دی؟",
+    "options": ["هرات", "غور", "غزني", "بلخ"],
+    "correctIndex": 1,
+    "gloss": "The Minaret of Jam, a tall 12th-century brick minaret by the Hari River, is in which province? — Ghor. Herat is the trap (the Hari River flows there); Ghazni has minarets of its own."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کومه سیاره د خپل محور شاوخوا په یو ځل تاوېدو کې تر هغه ډېر وخت لګوي چې لمر شاوخوا یو ځل ګرځي؟",
+    "options": ["عطارد", "زهره", "مریخ", "مشتري"],
+    "correctIndex": 1,
+    "gloss": "Which planet takes longer to turn once on its axis than to go once around the Sun? — Venus: about 243 Earth days to rotate, 225 to orbit. Mercury, the trap, rotates in 59 days and orbits in 88."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "له ازبکستانه ازاد سمندر ته د رسېدو لپاره لږ تر لږه د څو نورو هېوادونو له خاورې تېرېدل پکار دي؟",
+    "options": ["یو", "دوه", "درې", "څلور"],
+    "correctIndex": 1,
+    "gloss": "To reach the open ocean from Uzbekistan, through at least how many other countries must you pass? — Two: all its neighbours are landlocked (e.g. via Afghanistan then Pakistan). Uzbekistan is one of only two doubly landlocked countries."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د روزېټا د ډبرې په مرسته چا لومړی ځل د لرغوني مصر هیروګلیفونه ولوستل؟",
+    "options": ["کارټر", "شلیمان", "پیټري", "شامپولیون"],
+    "correctIndex": 3,
+    "gloss": "Who first read ancient Egyptian hieroglyphs with the help of the Rosetta Stone? — Champollion (1822). Carter found Tutankhamun's tomb, Schliemann Troy, Petrie was an archaeologist of Egypt."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«هټ ټرېک» اصطلاح لومړی ځل په کومه لوبه کې وکارول شوه؟",
+    "options": ["فوټبال", "هاکي", "رګبي", "کرکټ"],
+    "correctIndex": 3,
+    "gloss": "In which sport was the term 'hat-trick' first used? — Cricket: in 1858 H. H. Stephenson took three wickets in three balls and was given a hat."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د لرغوني مصر په اساطیرو کې انوبیس، د مړو او مومیایي کولو ساتونکی، د کوم ځناور په سر انځورېده؟",
+    "options": ["ګیدړ", "باز", "پیشو", "تمساح"],
+    "correctIndex": 0,
+    "gloss": "In Egyptian mythology Anubis, guardian of the dead and of mummification, was shown with the head of which animal? — A jackal. Falcon is Horus, cat Bastet, crocodile Sobek."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د پامیر هغه لوی غرنی پسه چې اوږده تاو شوي ښکرونه لري، د کوم مشهور سیلاني په نوم یاد شوی؟",
+    "options": ["ابن بطوطه", "مارکو پولو", "واسکو دا ګاما", "کریستوفر کولمبس"],
+    "correctIndex": 1,
+    "gloss": "The great wild sheep of the Pamirs with long spiral horns is named after which famous traveller? — Marco Polo (the Marco Polo sheep, Ovis ammon polii), who described it."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "په دوه‌ییز (باینري) سیسټم کې ۱۰۱۰ په عادي لسیز سیسټم کې کوم عدد دی؟",
+    "options": ["۵", "۱۲", "۲۰", "۱۰"],
+    "correctIndex": 3,
+    "gloss": "In binary, 1010 is which ordinary decimal number? — 10: 8 + 0 + 2 + 0."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د ماکوندو د خیالي کلي او د بوئنډیا کورنۍ د څو نسلونو کیسه کوم لیکوال لیکلې ده؟",
+    "options": ["خورخې لوئیس بورخېس", "پابلو نېرودا", "ګابریل ګارسیا مارکېز", "ماریو بارګاس یوسا"],
+    "correctIndex": 2,
+    "gloss": "Which writer told the story of the imaginary village of Macondo and several generations of the Buendía family? — Gabriel García Márquez (One Hundred Years of Solitude)."
+  }
+]

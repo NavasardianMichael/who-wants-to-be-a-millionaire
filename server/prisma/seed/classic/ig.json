@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mezue ilu a ma ama: “Egbe bere, … bere; nke sị ibe ya ebela, nku kwaa ya.”",
+    "options": ["Udele", "Ugo", "Ọkụkọ", "Ụsụ"],
+    "correctIndex": 1,
+    "gloss": "Complete the famous proverb: 'Let the kite perch, let ___ perch; whichever says the other shall not, may its wing break.' — Ugo (eagle): «Egbe bere, ugo bere», the Igbo proverb of live and let live."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ndị Igbo kwenyere na mmadụ ọ bụla nwere onye nche mmụọ nke ya. Mezue ilu a: “Onye kwe, … ya ekwe.”",
+    "options": ["Nna", "Obi", "Chi", "Nne"],
+    "correctIndex": 2,
+    "gloss": "Igbo believe every person has their own spiritual guardian. Complete: 'If a person agrees, his ___ agrees.' — Chi: «Onye kwe, chi ya ekwe», the personal chi."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Àkwà mmiri a ma ama jikọrọ Ọnịcha na Asaba. Kedu osimiri ọ gafere?",
+    "options": ["Osimiri Benue", "Osimiri Anambra", "Osimiri Imo", "Osimiri Naịja"],
+    "correctIndex": 3,
+    "gloss": "The famous bridge links Onitsha and Asaba. Which river does it cross? — The Niger: the Niger Bridge (1965) spans it between Anambra and Delta."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kedu akụkụ ahụ na-agba ọbara gaa n'akụkụ ahụ mmadụ niile, ehihie na abalị?",
+    "options": ["Obi", "Akpa ume", "Imeju", "Akụrụ"],
+    "correctIndex": 0,
+    "gloss": "Which organ pumps blood to every part of the body, day and night? — The heart (obi); the others are lungs, liver, kidney."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "N'ogige, e nwere ọkụkọ atọ na ewu abụọ. Ụkwụ ole ka ha niile nwere?",
+    "options": ["10", "14", "20", "12"],
+    "correctIndex": 1,
+    "gloss": "In a yard there are three hens and two goats. How many legs in all? — 14: 3×2 + 2×4. 10 and 20 catch those who give every animal the same number of legs."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kedu agba ọkụ okporo ụzọ na-agwa ndị na-anya ụgbọ ala ka ha kwụsị?",
+    "options": ["Akwụkwọ ndụ", "Ọbara ọbara", "Odo odo", "Anụnụ anụnụ"],
+    "correctIndex": 1,
+    "gloss": "Which traffic-light colour tells drivers to stop? — Red."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu ihe ọkụkụ a na-esi na ya emepụta abacha, nke a na-agwakọta na ụgba na mmanụ nkwụ?",
+    "options": ["Ji", "Ede", "Ọka", "Akpụ"],
+    "correctIndex": 3,
+    "gloss": "From which crop is abacha made, the dish mixed with ugba and palm oil? — Cassava (akpụ): abacha is boiled, shredded and dried cassava."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ada lakpuru ụra n'elekere iri nke abalị, hie ụra awa asatọ zuru oke. Kedu elekere o tetara n'ụtụtụ?",
+    "options": ["Elekere ise", "Elekere isii", "Elekere asaa", "Elekere asatọ"],
+    "correctIndex": 1,
+    "gloss": "Ada went to bed at 10 p.m. and slept a full eight hours. What time did she wake? — 6 a.m.; 'eight o'clock' is the trap for those who repeat the number of hours."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'akụkọ ifo ndị Igbo, kedu anụmanụ a ma ama maka aghụghọ ya, nke na-aghọgbu ụmụ anụmanụ ibe ya oge niile?",
+    "options": ["Mbe", "Enwe", "Nkịta", "Ọdụm"],
+    "correctIndex": 0,
+    "gloss": "In Igbo folktales, which animal is famous for its cunning, always tricking the other animals? — The tortoise (mbe), the trickster of Igbo folklore."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Simba, dike nke ihe nkiri katuun Disney nke afọ 1994, bụ nwa anụmanụ ole?",
+    "options": ["Agụ", "Ọdụm", "Enyi", "Enwe"],
+    "correctIndex": 1,
+    "gloss": "Simba, hero of Disney's 1994 cartoon, is the cub of which animal? — A lion (ọdụm), from The Lion King; 'simba' is Swahili for lion."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kedu ọnụ ọgụgụ kachasị ukwuu n'ime ndị a?",
+    "options": ["Iri abụọ na itoolu", "Iri atọ", "Iri na itoolu", "Iri abụọ na asatọ"],
+    "correctIndex": 1,
+    "gloss": "Which of these numbers is the largest? — Iri atọ (30). The others are 29, 19 and 28: the big unit 'itoolu' (9) tempts the eye."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "N'Igbo, a na-akpọ ebe anyanwụ na-ada “ọdịda anyanwụ”. Ọ bụrụ na i chee ihu n'ebe ahụ, kedu akụkụ ga-adị n'aka nri gị?",
+    "options": ["Ndịda", "Ọwụwa anyanwụ", "Ugwu", "Ọdịda anyanwụ"],
+    "correctIndex": 2,
+    "gloss": "In Igbo, where the sun sets is 'ọdịda anyanwụ' (west). Facing that way, which direction is on your right? — Ugwu (north)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Otu okwu Igbo, dabere n'ụda e ji akpọ ya, pụtara ihe ọkụkọ na-eyi, ihe e ji ekpuchi ahụ, ihe a na-edina n'elu ya ehi ụra, na ihe nwa na-eme mgbe agụụ na-agụ ya. Kedu okwu ahụ?",
+    "options": ["Oke", "Isi", "Ike", "Akwa"],
+    "correctIndex": 3,
+    "gloss": "One Igbo word, depending on its tones, means what a hen lays, what covers the body, what you lie on to sleep, and what a hungry baby does. Which? — Akwa: àkwá (egg), ákwà (cloth), àkwà (bed), ákwá (crying). The classic example of Igbo tone."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "N'ime steeti ise dị na Ndịda Ọwụwa Anyanwụ Naịjirịa, naanị otu nwere isi obodo nke aha ya na aha steeti ahụ bụ otu. Kedu isi obodo ahụ?",
+    "options": ["Enugu", "Owere", "Ụmụahịa", "Abakaliki"],
+    "correctIndex": 0,
+    "gloss": "Of the five South-East states, only one has a capital with the same name as the state. Which capital? — Enugu. Owerri (Imo), Umuahia (Abia), Abakaliki (Ebonyi) and Awka (Anambra) all differ."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọtụtụ ndị Naịjirịa na-akpọ onye nkiri ọchị Nkem Owoh aha agwa ama ama o mere. Kedu aha ahụ?",
+    "options": ["Mr Ibu", "Aki", "Osuofia", "Pawpaw"],
+    "correctIndex": 2,
+    "gloss": "Many Nigerians call the comic actor Nkem Owoh by the name of his famous character. Which? — Osuofia. Mr Ibu is John Okafor; Aki and Pawpaw are Chinedu Ikedieze and Osita Iheme."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu ngwa egwu Igbo a kpụrụ n'ụrọ, nke onye na-akpọ ya na-eji aka akụ oghere dị n'akụkụ ya ka o nye ụda dị omimi?",
+    "options": ["Ogene", "Ekwe", "Udu", "Ọja"],
+    "correctIndex": 2,
+    "gloss": "Which Igbo instrument is moulded from clay, the player striking a hole in its side for a deep sound? — Udu, the clay pot drum. Ogene is a metal gong, ekwe a wooden slit drum, ọja a flute."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "A kụrụ osisi ise n'otu ahịrị, nke ọ bụla dị mita abụọ site n'ibe ya. Ogologo ole dị n'etiti osisi nke mbụ na nke ikpeazụ?",
+    "options": ["6 mita", "8 mita", "10 mita", "12 mita"],
+    "correctIndex": 1,
+    "gloss": "Five trees are planted in a row, each two metres from the next. How far is the first from the last? — 8 m: five trees leave only four gaps. 10 m is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "N'asọmpi bọọlụ, mmeri na-enye akara atọ, egwuregwu e gbara nhata na-enye otu akara. Otu ìgwè gbara egwuregwu ise: o meriri abụọ, gbaa nhata abụọ, e merie ya otu. Akara ole ka o nwetara?",
+    "options": ["6", "7", "9", "8"],
+    "correctIndex": 3,
+    "gloss": "In a football league a win gives three points, a draw one. A team played five: won two, drew two, lost one. How many points? — 8: 2×3 + 2×1 + 0."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Aha ihe ọṅụṅụ Coca-Cola sitere n'ihe ọkụkụ abụọ: akwụkwọ koka, na otu mkpụrụ onye Igbo ọ bụla maara nke ọma. Kedu mkpụrụ ahụ?",
+    "options": ["Akị", "Ọjị", "Ụgba", "Ahụekere"],
+    "correctIndex": 1,
+    "gloss": "Coca-Cola is named after two plants: coca leaves and a nut every Igbo knows well. Which? — The kola nut (ọjị), the drink's original source of caffeine. 'Cola' ≈ kola is the step of thinking."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "N'ime ihe ndị a na-efe efe, kedu nke na-enye ụmụ ya ara, ya bụ na ọ bụghị nnụnụ?",
+    "options": ["Udele", "Egbe", "Ụsụ", "Ugo"],
+    "correctIndex": 2,
+    "gloss": "Of these flying creatures, which suckles its young, so is not a bird? — The bat (ụsụ), a mammal. Vulture, kite and eagle are birds."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Taa bụ ụbọchị ahịa ndị Igbo na-akpọ nwa nwoke a mụrụ na ya “Okoye”. Kedu ụbọchị ahịa ga-abụ echi?",
+    "options": ["Afọ", "Eke", "Orie", "Nkwọ"],
+    "correctIndex": 0,
+    "gloss": "Today is the market day after which a boy born on it is named 'Okoye'. What market day is tomorrow? — Afọ. Okoye is born on Oye/Orie, and the week runs Eke, Orie, Afọ, Nkwọ. Orie (today) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ndị Igbo oge gboo ji iri abụọ agụ ọnụ: otu ọgụ bụ iri abụọ, otu nnụ bụkwa ọgụ iri abụọ. Ole ka otu nnụ ruru?",
+    "options": ["100", "200", "800", "400"],
+    "correctIndex": 3,
+    "gloss": "Igbo traditionally counted in twenties: one ọgụ is twenty, and one nnụ is twenty ọgụ. How much is one nnụ? — 400 (20×20). 200 is the trap for those who multiply by ten."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nnamdi Azikiwe tọrọ ntọala mahadum mepere ụzọ ya n'afọ 1960. N'obodo ole ka mahadum ahụ dị?",
+    "options": ["Nsụka", "Ọka", "Ụmụahịa", "Owere"],
+    "correctIndex": 0,
+    "gloss": "Nnamdi Azikiwe founded a university that opened its doors in 1960. In which town is it? — Nsukka: the University of Nigeria. Awka is the trap: Nnamdi Azikiwe University there is only named after him."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "I hụrụ àmụ̀mà; sekọnd itoolu gachara, ị nụrụ égbè eluigwe ya. Ihe dị ka kilomita ole ka àmụ̀mà ahụ dị site n'ebe ị nọ?",
+    "options": ["1 kilomita", "9 kilomita", "3 kilomita", "30 kilomita"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and hear its thunder nine seconds later. About how far away was it? — About 3 km: sound travels about 340 m per second, roughly 1 km every 3 seconds."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ọ bụrụ na ọ dị mkpa ka e nye onye ọrịa ọbara ngwa ngwa, tupu a mata ụdị ọbara ya, kedu ụdị ọbara ndị dọkịta na-enye?",
+    "options": ["AB+", "A+", "B−", "O−"],
+    "correctIndex": 3,
+    "gloss": "If a patient needs blood urgently, before their group is known, which group do doctors give? — O negative, the universal red-cell donor. AB+ is the trap: it is the universal recipient."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "N'ime anụmanụ ndị a, kedu nke nne ya na-adị ime ogologo oge karịa — ihe fọrọ nke nta ka ọ bụrụ afọ abụọ?",
+    "options": ["Ịnyịnya", "Ehi", "Enyi", "Ọdụm"],
+    "correctIndex": 2,
+    "gloss": "Of these animals, whose mother is pregnant longest, nearly two years? — The elephant (about 22 months). Horse about 11, cow about 9, lion under 4."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "E dere otu ozi ahụ ugboro atọ n'ụdị ide dị iche iche na Nkume Rosetta. Kedu ide ochie nke o nyere ndị ọkà mmụta aka ịgụ?",
+    "options": ["Ide hieroglyph nke Ijipt", "Ide cuneiform nke Mesopotemia", "Ide Maya", "Ide Linear B nke Gris"],
+    "correctIndex": 0,
+    "gloss": "The Rosetta Stone carries the same text three times in different scripts. Which ancient writing did it help scholars read? — Egyptian hieroglyphs (alongside Demotic and Greek)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ebee ka Ibini Ukpabi dị — ebe ịgba afa a ma ama nke ndị Bekee kpọrọ “Long Juju”?",
+    "options": ["Nri", "Oguta", "Arọchukwu", "Ọka"],
+    "correctIndex": 2,
+    "gloss": "Where is Ibini Ukpabi, the famous oracle the British called the 'Long Juju'? — Arochukwu, in today's Abia State."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Igbo gbaziri ọtụtụ okwu n'asụsụ Bekee. Kedu okwu n'ime ndị a na-abụghị okwu e si n'asụsụ Bekee nweta?",
+    "options": ["Tebụl", "Windo", "Kọmputa", "Ụgbọ"],
+    "correctIndex": 3,
+    "gloss": "Igbo has borrowed many words from English. Which of these is not one of them? — Ụgbọ (vessel, canoe: ụgbọ mmiri, ụgbọ ala), a native word. Tebụl, windo and kọmputa are table, window, computer."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kedu mba Ugwu Kilimanjaro dị n'ime ya?",
+    "options": ["Kenya", "Uganda", "Tanzania", "Etiopia"],
+    "correctIndex": 2,
+    "gloss": "Which country is Mount Kilimanjaro in? — Tanzania. Kenya is the trap: its most famous views are from Kenya's Amboseli, across the border."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu onye ode akwụkwọ si Oguta dere akwụkwọ akụkọ “Efuru”, nke e bipụtara n'afọ 1966?",
+    "options": ["Flora Nwapa", "Buchi Emecheta", "Ifeoma Okoye", "Chimamanda Ngozi Adichie"],
+    "correctIndex": 0,
+    "gloss": "Which writer from Oguta wrote the novel 'Efuru', published in 1966? — Flora Nwapa. All options are Igbo women novelists."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A na-akpọ ọla bronze ochie a gwupụtara n'Anambra, nke ndị ọkà mmụta kwuru na e mere ihe dị ka narị afọ nke itoolu, aha obodo ebe a hụrụ ha. Kedu obodo ahụ?",
+    "options": ["Nri", "Nnewi", "Ọka", "Igbo-Ukwu"],
+    "correctIndex": 3,
+    "gloss": "Ancient bronzes dug up in Anambra, dated by scholars to about the 9th century, are named after the town where they were found. Which? — Igbo-Ukwu. Nri is the trap: the finds are linked to Nri culture but named after Igbo-Ukwu."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu ihe nkiri asụsụ Igbo nke afọ 1992 ọtụtụ mmadụ na-ewere dị ka nke malitere Nollywood?",
+    "options": ["Glamour Girls", "Igodo", "Living in Bondage", "Rattlesnake"],
+    "correctIndex": 2,
+    "gloss": "Which 1992 Igbo-language film do many regard as the start of Nollywood? — Living in Bondage. Glamour Girls (1994), Rattlesnake (1995) and Igodo (1999) came later."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kemgbe ọtụtụ narị afọ, ndị Uburu na Okposi na-esi nnu n'ọdọ mmiri nnu dị n'ala ha. Steeti ole ka obodo abụọ a dị?",
+    "options": ["Abia", "Ebonyi", "Enugu", "Anambra"],
+    "correctIndex": 1,
+    "gloss": "For centuries the people of Uburu and Okposi have made salt from the salt lakes on their land. Which state are these two towns in? — Ebonyi (Ohaozara area)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Obi mmadụ toro eto nọ n'ezumike na-akụ ihe dị ka ugboro ole n'otu ụbọchị?",
+    "options": ["10,000", "100,000", "1,000,000", "10,000,000"],
+    "correctIndex": 1,
+    "gloss": "About how many times does a resting adult heart beat in one day? — About 100,000: roughly 70 a minute × 60 × 24 ≈ 100,800. Knowing the pulse rate and multiplying is the step."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ọtụtụ mkpụrụ ndụ dị n'ahụ mmadụ nwere kromosom n'ụzọ abụọ abụọ. Kromosom ole ka mkpụrụ akwa nwanyị nwere?",
+    "options": ["22", "23", "46", "92"],
+    "correctIndex": 1,
+    "gloss": "Most human body cells carry their chromosomes in pairs. How many chromosomes does a human egg cell have? — 23: body cells have 23 pairs (46), and an egg carries one of each pair."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "N'ime kọmputa, bit ọ bụla bụ 0 ma ọ bụ 1. Ụkpụrụ dị iche iche ole ka otu byte nwere ike igosi?",
+    "options": ["8", "16", "128", "256"],
+    "correctIndex": 3,
+    "gloss": "In a computer each bit is 0 or 1. How many different values can one byte show? — 256: a byte is 8 bits, and 2⁸ = 256. 8 is the trap for those who stop at the number of bits."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Angélique Kidjo, onye nwetara ihe nrite Grammy ọtụtụ ugboro, si na mba ole n'Afrịka?",
+    "options": ["Togo", "Ghana", "Kameroon", "Benin"],
+    "correctIndex": 3,
+    "gloss": "Angélique Kidjo, winner of several Grammys, comes from which African country? — Benin (born in Ouidah). Togo, its neighbour, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hakeem Olajuwon, onye a mụrụ na Legọs, meriri asọmpi NBA ugboro abụọ n'ìgwè ole?",
+    "options": ["Chicago Bulls", "Houston Rockets", "Los Angeles Lakers", "Boston Celtics"],
+    "correctIndex": 1,
+    "gloss": "Lagos-born Hakeem Olajuwon won the NBA title twice with which team? — The Houston Rockets (1994 and 1995)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mansa Musa, onye njem ya gaa Mecca n'afọ 1324 mere ka ụwa mara akụ na ụba ya, chịrị alaeze ole?",
+    "options": ["Songhai", "Ghana", "Mali", "Kanem-Bornu"],
+    "correctIndex": 2,
+    "gloss": "Mansa Musa, whose 1324 pilgrimage to Mecca showed the world his wealth, ruled which empire? — The Mali Empire. Songhai, ancient Ghana and Kanem-Bornu were its West African neighbours in time and place."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu onye dere “Omenuko” (1933), nke a na-akpọ akwụkwọ akụkọ ogologo mbụ e dere n'asụsụ Igbo?",
+    "options": ["Pita Nwana", "Tony Ubesie", "Leopold Bell-Gam", "F. C. Ogbalu"],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Omenuko' (1933), called the first full-length novel written in Igbo? — Pita Nwana. The others are later pioneers of Igbo writing (Bell-Gam wrote 'Ije Odumodu Jere')."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chinua Achebe si n'ahịrị uri nke W. B. Yeats nweta aha akwụkwọ ya “Things Fall Apart”. Kedu uri ahụ?",
+    "options": ["The Second Coming", "Sailing to Byzantium", "The Lake Isle of Innisfree", "When You Are Old"],
+    "correctIndex": 0,
+    "gloss": "Chinua Achebe took the title 'Things Fall Apart' from a line by W. B. Yeats. Which poem? — 'The Second Coming' ('Things fall apart; the centre cannot hold'), quoted as the novel's epigraph. All options are Yeats poems."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu onye na-ese ihe sere “Tutu” (1974), ihe osise ọtụtụ na-akpọ “Mona Lisa nke Afrịka”?",
+    "options": ["Uche Okeke", "Bruce Onobrakpeya", "El Anatsui", "Ben Enwonwu"],
+    "correctIndex": 3,
+    "gloss": "Which painter made 'Tutu' (1974), the portrait many call the 'African Mona Lisa'? — Ben Enwonwu of Onitsha. The others are major artists linked to Nigerian modernism and Nsukka."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "N'ime isi obodo mba ndị a, kedu nke kacha nso n'ahịrị dị n'etiti ụwa, nke kewara ya n'akụkụ ugwu na akụkụ ndịda?",
+    "options": ["Kampala", "Nairobi", "Akra", "Abuja"],
+    "correctIndex": 0,
+    "gloss": "Of these capitals, which is closest to the equator, the line dividing the globe into north and south? — Kampala (about 0.3° N). Nairobi is about 1.3° S, Accra 5.6° N, Abuja 9° N. Players must place each city, then compare."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Aha mba Argentina sitere n'okwu Latin maka otu ọla dị oke ọnụ ahịa. Kedu akara kemistri nke ọla ahụ?",
+    "options": ["Ag", "Ar", "Au", "Al"],
+    "correctIndex": 0,
+    "gloss": "Argentina's name comes from the Latin word for a precious metal. What is that metal's chemical symbol? — Ag: argentum, silver. Ar (argon) traps those matching letters; Au (gold) those guessing the most precious metal."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Magellan nwụrụ n'etiti njem mbụ gbara ụwa gburugburu (1519–1522). Kedu onye duru ụgbọ mmiri fọdụrụ laghachi Spen?",
+    "options": ["Juan Sebastián Elcano", "Francis Drake", "Vasco da Gama", "Amerigo Vespucci"],
+    "correctIndex": 0,
+    "gloss": "Magellan died midway through the first voyage around the world (1519–1522). Who led the surviving ship back to Spain? — Juan Sebastián Elcano, on the Victoria. Drake sailed round the world later, in 1577–1580."
+  },
+  {
+    "level": 5,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ọtụtụ mmadụ chere na okwu “emoji” sitere n'okwu Bekee “emotion”, mana o si n'asụsụ ọzọ. Kedu asụsụ ahụ?",
+    "options": ["Asụsụ Japan", "Asụsụ China", "Asụsụ Korea", "Asụsụ Thai"],
+    "correctIndex": 0,
+    "gloss": "Many think 'emoji' comes from English 'emotion', but it comes from another language. Which? — Japanese: e (picture) + moji (character). The likeness to 'emotion' is a coincidence."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aha nri jollof, nke ndị Naịjirịa na ndị Ghana na-arụrịta ụka maka ya, sitere n'aha alaeze ochie nke ndị Wolof. N'ime mba ole ka alaeze ahụ dị?",
+    "options": ["Ghana", "Senegal", "Sierra Leone", "Liberia"],
+    "correctIndex": 1,
+    "gloss": "The name of jollof rice, which Nigerians and Ghanaians argue over, comes from the old Wolof kingdom. In which country was it? — Senegal: the Jolof Empire. Ghana is the trap, from the jollof rivalry."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Elekere Naịjirịa anaghị agbanwe n'afọ dum. N'ọnwa Julaị, mgbe ọ bụ etiti ehihie n'Abuja, elekere ole ka ọ bụ na London?",
+    "options": ["Elekere iri", "Elekere iri na otu", "Elekere iri na abụọ", "Elekere iri na atọ"],
+    "correctIndex": 2,
+    "gloss": "Nigeria's clock never changes during the year. In July, when it is noon in Abuja, what time is it in London? — 12 noon: Nigeria is on UTC+1 all year, and in July Britain is on summer time, also UTC+1. 11 o'clock is the winter answer."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "N'akụkọ mgbe ochie ndị Ijipt, kedu chi nwere isi nkịta ọhịa, onye na-eche ndị nwụrụ anwụ nche?",
+    "options": ["Horus", "Anubis", "Ra", "Thoth"],
+    "correctIndex": 1,
+    "gloss": "In ancient Egyptian myth, which god has the head of a jackal and guards the dead? — Anubis. Horus and Ra are falcon-headed, Thoth ibis-headed."
+  }
+]

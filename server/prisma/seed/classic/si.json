@@ -1,0 +1,522 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "කරදරයක් පිට කරදරයක් ආ විට අපි කියන්නේ “ගහෙන් වැටුණු මිනිහට … ඇන්නා වගේ” කියායි. හිස්තැනට එන්නේ කුමන සතාද?",
+    "options": ["ඇතා", "ගොනා", "මීමා", "එළුවා"],
+    "correctIndex": 1,
+    "gloss": "When trouble piles on trouble we say \"like the man who fell from the tree being gored by a ...\". Which animal? — The bull (ගොනා): «ගහෙන් වැටුණු මිනිහට ගොනා ඇන්නා වගේ»."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ක්‍රිකට් ඕවරයක් යනු නීත්‍යනුකූල පන්දු හයකි. වයිඩ් හෝ නෝ බෝල් එකක්වත් නොයවා ඕවර හතරක් යැවූ පන්දු යවන්නා යවා ඇත්තේ පන්දු කීයක්ද?",
+    "options": ["16", "20", "24", "30"],
+    "correctIndex": 2,
+    "gloss": "An over is six legal balls. A bowler who sends down four overs with no wides or no-balls has bowled how many balls? — 24: 4 × 6."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "සෑම වසරකම උඳුවප් පොහොයෙන් ඇරඹෙන වන්දනා සමයේ, හිරු උදාව දැකීමට බැතිමතුන් රෑ තිස්සේ නගින කන්ද කුමක්ද?",
+    "options": ["ශ්‍රී පාදය", "පිදුරුතලාගල", "හක්ගල", "නමුනුකුල"],
+    "correctIndex": 0,
+    "gloss": "Which mountain do pilgrims climb through the night to see the sunrise, in the season that opens each year on Unduvap Poya? — Sri Pada (Adam's Peak); the season runs from Unduvap (December) to Vesak."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "කොළ කමින් ලොකු වන දළඹුවා අවසානයේ වෙනස් වී කුමන සතා බවට පත් වේද?",
+    "options": ["බත්කූරා", "මැස්සා", "සමනළයා", "කුරුමිණියා"],
+    "correctIndex": 2,
+    "gloss": "The leaf-eating caterpillar finally turns into which creature? — A butterfly. Moths (the other possible answer) are left out on purpose; dragonflies, flies and beetles have other larvae."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "අවුරුදු නැකතට පිසින කිරිබතට එක් කරන්නේ කුමන කිරිද?",
+    "options": ["එළකිරි", "කිරිපිටි", "මී කිරි", "පොල් කිරි"],
+    "correctIndex": 3,
+    "gloss": "Which 'milk' goes into the kiribath cooked at the New Year's auspicious time? — Coconut milk. The 'kiri' in the name tempts people towards cow's milk."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "උදාවන හිරු දෙසට මුහුණ ලා සිටින ඔබේ වම් අත පැත්තේ ඇත්තේ කුමන දිශාවද?",
+    "options": ["දකුණ", "බටහිර", "නැගෙනහිර", "උතුර"],
+    "correctIndex": 3,
+    "gloss": "Facing the rising sun, which direction is on your left? — North: you face east, so the left hand points north."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "සීගිරි පර්වතය මුදුනේ මාලිගාවක් ඉදිකර, එය සිය අගනුවර කරගත් රජු කවුද?",
+    "options": ["දේවානම්පියතිස්ස", "වළගම්බා", "කාශ්‍යප", "මහා පරාක්‍රමබාහු"],
+    "correctIndex": 2,
+    "gloss": "Which king built a palace on top of the Sigiriya rock and made it his capital? — Kashyapa (Kashyapa I, 5th century CE)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "දවල්ට අපට එළිය දෙන සූර්යයා විද්‍යාත්මකව හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": ["තාරකාවක්", "ග්‍රහලෝකයක්", "වල්ගා තරුවක්", "චන්ද්‍රිකාවක්"],
+    "correctIndex": 0,
+    "gloss": "Scientifically, what is the Sun that lights our day? — A star."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "සාමාන්‍ය ගිටාරයක (බේස් ගිටාරයක නොවේ) තත් කීයක් තිබේද?",
+    "options": ["4", "6", "7", "8"],
+    "correctIndex": 1,
+    "gloss": "How many strings does an ordinary guitar (not a bass guitar) have? — Six. The usual bass has four."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "මේ සතුන් අතරින් සිංහලෙන් ‘සිව්පාවකු’ ලෙස හැඳින්විය හැක්කේ කාවද?",
+    "options": ["ගවයා", "කුකුළා", "නයා", "මකුළුවා"],
+    "correctIndex": 0,
+    "gloss": "Which of these animals can be called a 'sivpava' in Sinhala? — The cow: සිව් = four, පා = feet, so a four-footed animal. The hen has two legs, the cobra none, the spider eight."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "මී මැස්සන් මී පැණි සාදා ගන්නේ මල්වලින් එකතු කරන කුමක් යොදාගෙනද?",
+    "options": ["මල් රේණු", "මල් පැණි", "මල් පෙති", "ගස් මැලියම්"],
+    "correctIndex": 1,
+    "gloss": "Bees make honey from what they collect from flowers. What? — Nectar. Pollen is the trap: bees collect it too, but as protein food, not to make honey."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ත්‍රිකුණාමලය අසල කොඩ්ඩියාර් බොක්ක හරහා මුහුදට වැටෙන, ශ්‍රී ලංකාවේ දිගම ගඟ කුමක්ද?",
+    "options": ["කැලණි ගඟ", "කළු ගඟ", "වළවේ ගඟ", "මහවැලි ගඟ"],
+    "correctIndex": 3,
+    "gloss": "Sri Lanka's longest river reaches the sea through Koddiyar Bay near Trincomalee. Which? — The Mahaweli. The other three flow to the west or south coast."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "උපාලි සහ ජින්නා කුඩා දූපතක් තමන්ගේ කර ගන්නා ‘මඩොල් දූව’ නවකතාව ලියූයේ කවුද?",
+    "options": ["මාර්ටින් වික්‍රමසිංහ", "කුමාරතුංග මුනිදාස", "ජී. බී. සේනානායක", "කේ. ජයතිලක"],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Madol Doova', in which Upali and Jinna make a small island their own? — Martin Wickramasinghe (1947)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ශ්‍රී ලංකාවේ වේලාව ග්‍රිනිච් වේලාවට වඩා පැය පහහමාරක් ඉදිරියෙන් ඇත. ශීත කාලයේ ග්‍රිනිච් වේලාව පවත්වන ලන්ඩනයේ මධ්‍යාහ්න 12 වන විට කොළඹ වේලාව කීයද?",
+    "options": ["පෙ.ව. 6.30", "ප.ව. 5.30", "ප.ව. 6.30", "පෙ.ව. 7.30"],
+    "correctIndex": 1,
+    "gloss": "Sri Lanka is 5½ hours ahead of Greenwich time. When it is noon in London in winter (on Greenwich time), what time is it in Colombo? — 5.30 p.m.; 6.30 a.m. catches those who subtract."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "පියාට වයස අවුරුදු 40යි, පුතාට 10යි. තව අවුරුදු කීයකින් පියාගේ වයස පුතාගේ වයස මෙන් හරියටම දෙගුණයක් වේද?",
+    "options": ["10", "15", "20", "30"],
+    "correctIndex": 2,
+    "gloss": "A father is 40, his son 10. In how many years will the father be exactly twice the son's age? — 20: then they are 60 and 30. The gap stays 30, so the son must be 30."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1996 දී ලාහෝර්හි පැවති අවසන් තරගයෙන් ඕස්ට්‍රේලියාව පරදවා ලෝක කුසලානය දිනූ ශ්‍රී ලංකා ක්‍රිකට් කණ්ඩායමේ නායකයා කවුද?",
+    "options": ["අරවින්ද ද සිල්වා", "සනත් ජයසූරිය", "රොෂාන් මහානාම", "අර්ජුන රණතුංග"],
+    "correctIndex": 3,
+    "gloss": "Who captained Sri Lanka when they beat Australia in the 1996 World Cup final in Lahore? — Arjuna Ranatunga. Aravinda de Silva was man of the match, Jayasuriya player of the tournament."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1947 දක්වා වසර ගණනාවක් මිකී මවුස්ට හඬ කැවූයේ එම චරිතයේ නිර්මාතෘවරුන්ගෙන් කෙනෙකුමය. ඒ කවුද?",
+    "options": ["වෝල්ට් ඩිස්නි", "අබ් අයිවර්ක්ස්", "මෙල් බ්ලැන්ක්", "චාලි චැප්ලින්"],
+    "correctIndex": 0,
+    "gloss": "For years, until 1947, Mickey Mouse was voiced by one of his own creators. Who? — Walt Disney. Ub Iwerks co-created Mickey but drew him; Mel Blanc was the voice of Bugs Bunny."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "2026 වෙසක් පොහොය දිනයේ බුද්ධ වර්ෂ 2570 ආරම්භ විය. එසේ නම් 1956 වෙසක් පොහොය දිනයේ ආරම්භ වූයේ කුමන බුද්ධ වර්ෂයද?",
+    "options": ["2470", "2486", "2500", "2514"],
+    "correctIndex": 2,
+    "gloss": "Buddhist Era 2570 began on Vesak 2026. Which Buddhist year began on Vesak 1956? — 2500: seventy years earlier. The aha: that is why 1956 was the famous Buddha Jayanti."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“හොරාගේ අම්මාගෙන් පේන අහනවා වගේ” යන කියමනට වඩාත්ම ගැළපෙන්නේ මින් කුමන අවස්ථාවද?",
+    "options": [
+      "කෙනෙකුගේ වරද ගැන, ඔහුට පක්ෂපාතී කෙනෙකුගෙන් සත්‍යය විමසීම",
+      "ලොකු කරදරයක් පිට තවත් කරදරයක් හදිසියේ පැමිණීම",
+      "කවුරුත් දැනටමත් දන්නා දෙයක් ගැන නැවත නැවත ඇසීම",
+      "අනාගතය ගැන පේන කියන්නෙකු පිට මුළුමනින්ම රැඳීම"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which situation best fits \"like asking the thief's mother for a fortune-telling\"? — Asking someone on the culprit's side for the truth about his guilt: the mother will never name her son."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "හිරු එළිය සමට වැදුණු විට අපේ සිරුර තුළම නිපදවෙන විටමිනය කුමක්ද?",
+    "options": ["විටමින් A", "විටමින් C", "විටමින් D", "විටමින් K"],
+    "correctIndex": 2,
+    "gloss": "Which vitamin does our own body make when sunlight falls on the skin? — Vitamin D."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘මේසය’, ‘කමිසය’, ‘ජනේලය’, ‘සපත්තුව’ — මේ හැම වචනයක්ම සිංහලයට ආවේ කුමන යුරෝපීය භාෂාවෙන්ද?",
+    "options": ["ලන්දේසි", "පෘතුගීසි", "ඉංග්‍රීසි", "ප්‍රංශ"],
+    "correctIndex": 1,
+    "gloss": "Table, shirt, window, shoe: from which European language did all these Sinhala words come? — Portuguese: mesa, camisa, janela, sapato. Dutch is the trap (it gave කන්තෝරුව, තාප්පය)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘පංචාස්‍රයකට’ පැති පහක් ඇත. එසේ නම් ‘ෂඩාස්‍රයකට’ ඇත්තේ පැති කීයක්ද?",
+    "options": ["6", "7", "8", "10"],
+    "correctIndex": 0,
+    "gloss": "A 'panchasraya' (pentagon) has five sides. How many sides has a 'shadasraya'? — Six: ෂඩ් means six, as in ෂඩ් රස (the six tastes). 'ෂ' sounding like සප්ත (7) or අෂ්ට (8) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "විදුලි කෙටීමක් දැක තත්පර තුනකට පසු ගිගුරුම ඇසිණි. ශබ්දය තත්පරයකට මීටර් 340ක් පමණ ගමන් කරයි නම්, විදුලිය කෙටුවේ කොපමණ දුරකින්ද?",
+    "options": ["මීටර් 100ක් පමණ", "කිලෝමීටරයක් පමණ", "කිලෝමීටර් තුනක් පමණ", "කිලෝමීටර් දහයක් පමණ"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear the thunder three seconds later. If sound travels about 340 m a second, how far away was it? — About a kilometre: 3 × 340 = 1,020 m (the light arrives almost instantly)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘2001: අ ස්පේස් ඔඩිසි’ කෘතියේ කතුවරයා වූ, 1956 සිට ජීවිතයේ අවසානය දක්වා ලංකාවේ ජීවත් වූ විද්‍යා ප්‍රබන්ධ ලේඛකයා කවුද?",
+    "options": ["අයිසැක් ඇසිමොව්", "රේ බ්‍රැඩ්බරි", "රොබට් හයින්ලයින්", "ආතර් සී. ක්ලාක්"],
+    "correctIndex": 3,
+    "gloss": "Which science-fiction writer, author of '2001: A Space Odyssey', lived in Sri Lanka from 1956 to the end of his life? — Arthur C. Clarke (died in Colombo, 2008)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "පෙරහැරේ උඩරට නැට්ටුවන් ප්‍රධාන වශයෙන් නටන්නේ කුමන බෙරයක තාලයටද?",
+    "options": ["යක් බෙරය", "දවුල", "ගැට බෙරය", "තම්මැට්ටම"],
+    "correctIndex": 2,
+    "gloss": "To which drum do the Kandyan dancers in a perahera mainly dance? — The geta bera. The yak bera belongs to the low-country (southern) tradition, the davula to Sabaragamuwa; the tammattama is played with the davula."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "මහාවංශයට අනුව, ශ්‍රී මහා බෝධි ශාඛාව ඉන්දියාවේ සිට අනුරාධපුරයට වැඩමවූයේ කවුද?",
+    "options": ["අනුලා දේවිය", "හේමමාලා කුමරිය", "විහාරමහාදේවිය", "සංඝමිත්තා තෙරණිය"],
+    "correctIndex": 3,
+    "gloss": "According to the Mahavamsa, who brought the sapling of the Sri Maha Bodhi from India to Anuradhapura? — Sanghamitta Theri. Hemamala brought the Tooth Relic; Queen Anula was ordained by Sanghamitta."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "වාහන නැවතුමක ත්‍රීරෝද රථ සහ කාර් පමණක් 10ක් තිබේ. ඒවායේ ගොඩබිම ගැටෙන රෝද 34ක් ගණන් කළ හැකිය. ත්‍රීරෝද රථ කීයක් තිබේද?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 3,
+    "gloss": "A car park holds only three-wheelers and cars, 10 vehicles in all, with 34 wheels on the ground. How many three-wheelers? — 6: if all ten were three-wheelers there would be 30 wheels; each car adds one, so 4 cars and 6 three-wheelers (18 + 16 = 34)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "පුරාණ ඔලිම්පික් ක්‍රීඩා පැවැත්වුණේ ග්‍රීසියේ ඔලිම්පියාවේ ය. 1896 දී නූතන ඔලිම්පික් ක්‍රීඩා උළෙල පළමු වරට පැවැත්වූයේ කුමන නගරයේද?",
+    "options": ["පැරිසිය", "ඇතන්ස්", "ලන්ඩනය", "රෝමය"],
+    "correctIndex": 1,
+    "gloss": "The ancient Olympics were held at Olympia in Greece. Where were the first modern Games held in 1896? — Athens, honouring Greece. Paris is the trap: the reviver Coubertin was French and Paris hosted in 1900."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "සිංහලෙන් විශාල මුදල් ගණන් කියන විට, එක් කෝටියක ලක්ෂ කීයක් තිබේද?",
+    "options": ["10", "100", "1,000", "10,000"],
+    "correctIndex": 1,
+    "gloss": "When counting big sums in Sinhala, how many lakhs make one koti? — 100: a lakh is 100,000 and a koti is 10,000,000."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "පළල, නොගැඹුරු තාච්චියක පිසින කහ පැහැති බත් වර්ගයක් වන ‘පයෙයා’ කුමන රටෙන් බිහි වූවක්ද?",
+    "options": ["ස්පාඤ්ඤය", "ඉතාලිය", "පෘතුගාලය", "මෙක්සිකෝව"],
+    "correctIndex": 0,
+    "gloss": "Paella, the yellow rice cooked in a wide, shallow pan, comes from which country? — Spain (Valencia). Italy's risotto and Portugal's rice dishes are the traps."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ගල් පර්වතයකට හේත්තු කර, කාලයත් සමඟ වැල්වලින් වැසී යන සේ ඉදිකළ කඳලම හෝටලය නිර්මාණය කළ ගෘහ නිර්මාණ ශිල්පියා කවුද?",
+    "options": ["මිනට් ද සිල්වා", "බෙවිස් බාවා", "ජෙෆ්රි බාවා", "වැලන්ටයින් ගුණසේකර"],
+    "correctIndex": 2,
+    "gloss": "Which architect designed the Kandalama hotel, built against a rock face so that creepers would cover it over time? — Geoffrey Bawa (1994). Bevis Bawa, his brother, was a landscape gardener, not an architect."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "සිංහල-දෙමළ අලුත් අවුරුද්ද උදා වන්නේ සූර්යයා කුමන රාශියෙන් කුමන රාශියට සංක්‍රමණය වන විටද?",
+    "options": ["මීන රාශියෙන් මේෂ රාශියට", "කුම්භ රාශියෙන් මීන රාශියට", "මේෂ රාශියෙන් වෘෂභ රාශියට", "ධනු රාශියෙන් මකර රාශියට"],
+    "correctIndex": 0,
+    "gloss": "The Sinhala and Tamil New Year dawns when the Sun passes from which sign to which? — From Meena (Pisces) to Mesha (Aries). Dhanu to Makara is the trap: that is Thai Pongal."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "පුනරුද යුගයේ ලෝකය වෙනස් කළ මේ සිදුවීම් හතර අතරින් මුලින්ම සිදු වූයේ කුමක්ද?",
+    "options": [
+      "කොලම්බස් ඇමරිකාවට ළඟා වීම",
+      "වාස්කෝ ද ගාමා මුහුදු මඟින් ඉන්දියාවට පැමිණීම",
+      "මැගලන්ගේ නැව් ලෝකය වටා යාත්‍රා කිරීම",
+      "ගුටන්බර්ග් චංචල අකුරින් පොත් මුද්‍රණය ඇරඹීම"
+    ],
+    "correctIndex": 3,
+    "gloss": "Of these four Renaissance-era events that changed the world, which came first? — Gutenberg's movable-type printing (about 1450). Columbus 1492, Vasco da Gama 1498, Magellan's expedition 1519–1522."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1957 කාන් චිත්‍රපට උළෙලට තේරී පත් වූ, ගම්බද දරුවෙකුගේ කතාව කියන ‘රේඛාව’ (1956) චිත්‍රපටයේ අධ්‍යක්ෂවරයා කවුද?",
+    "options": ["ලෙස්ටර් ජේම්ස් පීරිස්", "සිරි ගුණසිංහ", "තිස්ස අබේසේකර", "සුමිත්‍රා පීරිස්"],
+    "correctIndex": 0,
+    "gloss": "Who directed 'Rekava' (1956), the story of a village boy, selected for the 1957 Cannes Film Festival? — Lester James Peries. Sumitra Peries, his wife, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "අද මුදල් ගෙවීමටත් යොදන QR කේතය 1994 දී නිපදවූයේ මෝටර් රථ කොටස් ලුහුබැඳීමටයි. එය බිහි වූයේ කුමන රටේද?",
+    "options": ["දකුණු කොරියාව", "ජර්මනිය", "ඇමෙරිකා එක්සත් ජනපදය", "ජපානය"],
+    "correctIndex": 3,
+    "gloss": "The QR code, now used even for payments, was invented in 1994 to track car parts. In which country? — Japan (Denso Wave, a Toyota group company)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "රවි ශංකර්ගෙන් සිතාර් වාදනය ඉගෙනගෙන, බීට්ල්ස් ගීවලට එහි නාදය එක් කළ සාමාජිකයා කවුද?",
+    "options": ["ජෝන් ලෙනන්", "පෝල් මැකාට්නි", "ජෝර්ජ් හැරිසන්", "රින්ගෝ ස්ටාර්"],
+    "correctIndex": 2,
+    "gloss": "Which Beatle learned the sitar from Ravi Shankar and brought its sound into Beatles songs? — George Harrison."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘ලෙගෝ’ යන නම සැදුණේ ඩෙන්මාර්ක භාෂාවේ ‘leg godt’ යන වදන් දෙකෙනි. එහි අර්ථය කුමක්ද?",
+    "options": ["එකට ගොඩනඟන්න", "හොඳින් සෙල්ලම් කරන්න", "කුඩා ගඩොල්", "සතුටින් ඉගෙන ගන්න"],
+    "correctIndex": 1,
+    "gloss": "The name LEGO comes from the Danish words 'leg godt'. What do they mean? — 'Play well'."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "පෘථිවියේ අක්ෂය කිසිසේත් ඇල නොවී, කක්ෂ තලයට ලම්බකව කෙළින්ම තිබුණා නම්, ලෝකයෙන් අතුරුදහන් වන්නේ මින් කුමක්ද?",
+    "options": ["දිවා රාත්‍රී මාරුව", "ඍතු මාරුව", "මුහුදේ උදම් රළ", "සඳේ කලා වෙනස් වීම"],
+    "correctIndex": 1,
+    "gloss": "If Earth's axis were not tilted at all, but upright to its orbit, which would disappear? — The seasons, which come from the tilt, not from the distance to the Sun. Day and night come from rotation, tides and phases from the Moon."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "මේ නගර හතර අතරින් සමකයට වඩාත්ම ආසන්නයෙන් පිහිටා ඇත්තේ කුමක්ද?",
+    "options": ["සිංගප්පූරුව", "නයිරෝබි (කෙන්යාව)", "කීටෝ (ඉක්වදෝරය)", "ජකර්තා (ඉන්දුනීසියාව)"],
+    "correctIndex": 2,
+    "gloss": "Which of these four cities lies closest to the equator? — Quito, about 0.2° S; Ecuador is Spanish for 'equator'. Nairobi is 1.3° S, Singapore 1.35° N, Jakarta 6.2° S."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "මැරතන් තරගයක සම්පූර්ණ දුර, මීටර් 400ක ධාවන පථයක දිව්වොත් වට කීයක් පමණ දිවිය යුතුද?",
+    "options": ["42ක් පමණ", "105ක් පමණ", "250ක් පමණ", "420ක් පමණ"],
+    "correctIndex": 1,
+    "gloss": "Run a full marathon on a 400 m track: about how many laps? — About 105: 42,195 m ÷ 400 m ≈ 105.5. '42' catches those who stop at the kilometres."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "පොළොන්නරු යුගයෙන් පසු සිංහල රජවරුන්ගේ අගනුවරවල් වූ මේ නගර හතර අතරින්, අගනුවර බවට පත් වූ අවසාන නගරය කුමක්ද?",
+    "options": ["දඹදෙණිය", "යාපහුව", "කුරුණෑගල", "ගම්පොළ"],
+    "correctIndex": 3,
+    "gloss": "Of these four post-Polonnaruwa royal capitals, which became the capital last? — Gampola (1341). Dambadeniya (1220) → Yapahuwa (1270s) → Kurunegala (1290s) → Gampola, before Kotte."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘පරෙවි සන්දේශය’ සහ ‘සැළලිහිණි සන්දේශය’ යන කාව්‍ය දෙකම රචනා කළේ කවුද?",
+    "options": ["තොටගමුවේ ශ්‍රී රාහුල හිමි", "වීදාගම මෛත්‍රී හිමි", "වෑත්තෑවේ හිමි", "ගුරුළුගෝමී"],
+    "correctIndex": 0,
+    "gloss": "Who wrote both the 'Paravi Sandeshaya' (dove) and the 'Selalihini Sandeshaya' (myna)? — Thotagamuwe Sri Rahula Thera (Kotte period). Vidagama Maithree and Wettewe were his Kotte-era contemporaries; Gurulugomi wrote prose much earlier."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "කොළඹ පිහිටා ඇත්තේ උතුරු අක්ෂාංශ අංශක 7ක් පමණ මත ය. කොළඹ සිට බලන විට ධ්‍රැව තාරකාව පෙනෙන්නේ අහසේ කොතැනද?",
+    "options": [
+      "උතුරු අහසේ මැදට වන්නට, අංශක 45ක් පමණ ඉහළින්",
+      "හිසට කෙළින්ම ඉහළින්, අංශක 90ක් උසින්",
+      "උතුරු ක්ෂිතිජය අසල, අංශක 7ක් පමණ ඉහළින්",
+      "කොළඹ සිට එය කිසි විටෙකත් නොපෙනේ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Colombo lies at about 7° N. Where in the sky does the Pole Star appear from Colombo? — Low over the northern horizon, about 7° up: the Pole Star's altitude equals the observer's latitude (overhead at the North Pole, on the horizon at the equator)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "රොසෙටා ශිලා ලේඛනය ආධාරයෙන් 1822 දී පුරාණ ඊජිප්තු චිත්‍රාක්ෂර කියවීමේ රහස විසඳුවේ කවුද?",
+    "options": ["හවර්ඩ් කාටර්", "හයින්රිච් ෂ්ලීමන්", "ආතර් එවන්ස්", "ෂාන්-ෆ්‍රන්ස්වා ෂැම්පොලියොන්"],
+    "correctIndex": 3,
+    "gloss": "Who cracked Egyptian hieroglyphs in 1822 with the help of the Rosetta Stone? — Jean-François Champollion. The others are famous archaeologists: Carter (Tutankhamun), Schliemann (Troy), Evans (Knossos)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "මහාද්වීප ඉතා සෙමින් එකිනෙකින් ඈත් වෙමින් චලනය වන බවට වූ න්‍යාය 1912 දී ඉදිරිපත් කළේ කවුද?",
+    "options": ["ඇල්ෆ්‍රඩ් වෙගනර්", "චාල්ස් ලයල්", "ආතර් හෝම්ස්", "හැරී හෙස්"],
+    "correctIndex": 0,
+    "gloss": "Who proposed in 1912 that the continents slowly drift apart? — Alfred Wegener. Lyell was an earlier geologist; Holmes (mantle convection) and Hess (sea-floor spreading) came later."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "පුරාණ ලාංකේය වාරි ඉංජිනේරුවන්ගේ විශිෂ්ට නිර්මාණයක් ලෙස සැලකෙන ‘බිසෝකොටුව’ වැවක ඉටු කළේ කුමන කාර්යයද?",
+    "options": [
+      "වැව පිටාර යන විට අමතර ජලය ආරක්ෂිතව ඉවතට හැරීම",
+      "ඇළ මාර්ගවලින් වැවට ජලය හරවා ගැනීම",
+      "සොරොව්වෙන් පිටවන ජලයේ වේගය හා පීඩනය පාලනය කිරීම",
+      "වැවේ ජල මට්ටම මැන දැන ගැනීම"
+    ],
+    "correctIndex": 2,
+    "gloss": "What did the 'bisokotuwa', counted among the masterpieces of ancient Sri Lankan irrigation engineers, do in a tank? — It controlled the speed and pressure of the water leaving through the sluice (a valve pit). The overflow is handled by the spillway (පිටවාන), the trap."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ඉංග්‍රීසි නොවන භාෂාවකින් නිර්මිත චිත්‍රපටයක් ‘හොඳම චිත්‍රපටය’ සඳහා වූ ඔස්කාර් සම්මානය පළමු වරට දිනුවේ 2020 දී ය. ඒ කුමන චිත්‍රපටයද?",
+    "options": ["රෝමා", "පැරසයිට්", "ක්‍රවුචිං ටයිගර්, හිඩන් ඩ්‍රැගන්", "ලයිෆ් ඉස් බියුටිෆුල්"],
+    "correctIndex": 1,
+    "gloss": "In 2020 a film not in English won the Best Picture Oscar for the first time. Which? — Parasite (South Korea). Roma, Crouching Tiger, Hidden Dragon and Life Is Beautiful were all nominated for Best Picture and lost."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "සංගීතයේ සම්මත ‘A’ ස්වරයේ සංඛ්‍යාතය හර්ට්ස් 440කි. ඊට හරියටම එක් අෂ්ටකයක් (ඔක්ටේව්) ඉහළින් ඇති ‘A’ ස්වරයේ සංඛ්‍යාතය කීයද?",
+    "options": ["හර්ට්ස් 220", "හර්ට්ස් 660", "හර්ට්ස් 880", "හර්ට්ස් 1760"],
+    "correctIndex": 2,
+    "gloss": "Standard concert A is 440 Hz. What is the frequency of the A exactly one octave above? — 880 Hz: going up an octave doubles the frequency. 220 Hz is an octave below, 1760 Hz two octaves above."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ප්‍රාග් නුවර උපත ලද ෆ්‍රාන්ස් කෆ්කා ‘මෙටමෝෆොසිස්’ ඇතුළු සිය කෘති ලියූයේ කුමන භාෂාවෙන්ද?",
+    "options": ["චෙක්", "ජර්මන්", "යිඩිෂ්", "හංගේරියානු"],
+    "correctIndex": 1,
+    "gloss": "Franz Kafka, born in Prague, wrote 'The Metamorphosis' and his other works in which language? — German. Czech is the trap: he spoke it, but wrote in German."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "අනුරාධපුර යුගයේ ගල්ලෙන්වල කොටා ඇති පැරණිතම ලිපිවල දැකිය හැකි, සිංහල අක්ෂර මාලාව පැවත එන පුරාණ අක්ෂර ක්‍රමය කුමක්ද?",
+    "options": ["බ්‍රාහ්මී", "දේවනාගරී", "ඛරෝෂ්ඨී", "අරමයික"],
+    "correctIndex": 0,
+    "gloss": "The oldest inscriptions carved in Anuradhapura-era rock caves are in the ancient script from which the Sinhala alphabet descends. Which? — Brahmi. Devanagari is a sister descendant of Brahmi, not Sinhala's ancestor."
+  }
+]
