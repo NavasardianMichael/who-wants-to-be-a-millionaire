@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မနက်စာအဖြစ် လူကြိုက်များတဲ့ မုန့်ဟင်းခါးရဲ့ ဟင်းရည်ကို အဓိက ဘာနဲ့ ချက်သလဲ။",
+    "options": ["ကြက်သား", "ဝက်သား", "ငါး", "အမဲသား"],
+    "correctIndex": 2,
+    "gloss": "The broth of mohinga, the favourite breakfast, is cooked mainly with what? — Fish: mohinga is a fish broth with rice noodles."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာအမျိုးသမီးတွေ မျက်နှာမှာ လိမ်းလေ့ရှိတဲ့ သနပ်ခါးကို ဘာကနေ ရသလဲ။",
+    "options": ["သစ်ပင်", "ကျောက်", "မြေစေး", "ပင်လယ်ခရု"],
+    "correctIndex": 0,
+    "gloss": "Where does thanaka, the paste Burmese women put on their faces, come from? — A tree: the bark and wood of the thanaka tree is ground on a stone slab with water (the slab is the trap)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပြဿနာကို ပိုကြီးအောင် ဆွပေးတာကို “မီးလောင်ရာ … ပင့်” လို့ ဆိုကြတယ်။ ကွက်လပ်မှာ ဘာဝင်မလဲ။",
+    "options": ["ဆီ", "လေ", "ရေ", "ထင်း"],
+    "correctIndex": 1,
+    "gloss": "Stirring up a problem is called 'where the fire burns, … fans it'. What fills the gap? — Wind: «မီးလောင်ရာ လေပင့်». Oil is the trap from the English/Chinese 'add oil to the fire'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ဈေးထဲမှာ ဈေးဝယ်တစ်ယောက်က “ငါး ငါးကောင် ပေးပါ” လို့ ပြောတယ်။ သူ ဘယ်လောက် လိုချင်တာလဲ။",
+    "options": ["ငါး ၁၀ ကောင်", "ငါး ၂၅ ကောင်", "ငါး ၅၅ ကောင်", "ငါး ၅ ကောင်"],
+    "correctIndex": 3,
+    "gloss": "At the market a shopper says 'nga nga-kaung pay-ba'. How much do they want? — Five fish: ငါး means both 'fish' and 'five'; Burmese puts the noun, then the number with its classifier (ကောင်)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ဒီဒသမကိန်း လေးခုထဲမှာ တန်ဖိုး အကြီးဆုံးက ဘယ်ဟာလဲ။",
+    "options": ["၀.၄၅", "၀.၃၉၉", "၀.၅", "၀.၀၉၉"],
+    "correctIndex": 2,
+    "gloss": "Which of these four decimals is the largest? — 0.5 (= 0.500). The trap is that more digits look bigger."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ဒီည လပြည့်ရင် နောက်တစ်ကြိမ် လပြည့်ဖို့ ရက် ဘယ်လောက် စောင့်ရမလဲ။",
+    "options": ["၇ ရက်ခန့်", "၁၅ ရက်ခန့်", "၆၀ ရက်ခန့်", "၃၀ ရက်ခန့်"],
+    "correctIndex": 3,
+    "gloss": "If tonight is full moon, how many days until the next full moon? — About 30 (29.5): one lunar month, as every Burmese month runs from new moon to new moon. 15 days only reaches the new moon."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ပင့်ကူတစ်ကောင်မှာ ခြေထောက် ဘယ်နှချောင်း ရှိသလဲ။",
+    "options": ["၆ ချောင်း", "၈ ချောင်း", "၁၀ ချောင်း", "၁၂ ချောင်း"],
+    "correctIndex": 1,
+    "gloss": "How many legs does a spider have? — Eight: spiders are arachnids, not insects (six is the trap)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "မြန်မာ့ အနောက်ဘက် ကမ်းရိုးတန်းနဲ့ ထိစပ်နေတဲ့ ဘင်္ဂလားပင်လယ်အော်ဟာ ဘယ်သမုဒ္ဒရာရဲ့ တစ်စိတ်တစ်ပိုင်းလဲ။",
+    "options": ["အိန္ဒိယသမုဒ္ဒရာ", "ပစိဖိတ်သမုဒ္ဒရာ", "အတ္တလန္တိတ်သမုဒ္ဒရာ", "အာတိတ်သမုဒ္ဒရာ"],
+    "correctIndex": 0,
+    "gloss": "The Bay of Bengal, on Myanmar's western coast, is part of which ocean? — The Indian Ocean."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ပုံမှန် ဂစ်တာတစ်လက်မှာ ကြိုး ဘယ်နှချောင်း ပါသလဲ။",
+    "options": ["၄ ချောင်း", "၅ ချောင်း", "၇ ချောင်း", "၆ ချောင်း"],
+    "correctIndex": 3,
+    "gloss": "How many strings does a standard guitar have? — Six (a bass guitar usually has four)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“တွမ်နဲ့ ဂျယ်ရီ” ကာတွန်းမှာ ဂျယ်ရီက ဘာကောင်လဲ။",
+    "options": ["ကြောင်", "ကြွက်", "ခွေး", "ယုန်"],
+    "correctIndex": 1,
+    "gloss": "In the cartoon Tom and Jerry, what animal is Jerry? — A mouse (Tom is the cat)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ဗျည်းတွေကို “က” မှ “မ” အထိ ငါးလုံးတစ်တွဲစီ ဝဂ်ငါးဝဂ် ဖွဲ့ထားတယ်။ ဝဂ်မဝင်တဲ့ “ယ” မှ “အ” အထိ ဗျည်း ဘယ်နှလုံး ရှိသလဲ။",
+    "options": ["၆ လုံး", "၇ လုံး", "၈ လုံး", "၉ လုံး"],
+    "correctIndex": 2,
+    "gloss": "The consonants from က to မ form five groups (wag) of five. How many consonants from ယ to အ are outside the groups? — Eight: the alphabet has 33 consonants, 33 − 25 = 8 (ယ ရ လ ဝ သ ဟ ဠ အ)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "လေထဲမှာ ပျံတဲ့ ယာဉ်တွေထဲက “ရဟတ်ယာဉ်” လို့ မြန်မာလို ခေါ်တာ ဘာလဲ။",
+    "options": ["ဟယ်လီကော်ပတာ", "လေပူပေါင်း", "ဒုံးပျံ", "လေထီး"],
+    "correctIndex": 0,
+    "gloss": "Of the things that fly, which is called a 'yahat-yin' in Burmese? — The helicopter: ရဟတ် is the spinning pinwheel/rotor, ယာဉ် a vehicle."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "အိမ်၊ ကား ဈေးနှုန်းတွေကို “သိန်း” နဲ့ ပြောလေ့ရှိတယ်။ ဆယ်သိန်းကို ဘယ်လို ခေါ်သလဲ။",
+    "options": ["တစ်သောင်း", "တစ်သန်း", "တစ်ကုဋေ", "တစ်ဘီလီယံ"],
+    "correctIndex": 1,
+    "gloss": "House and car prices are quoted in 'thein' (100,000). What are ten thein called? — One 'than' (1,000,000). Thaung is 10,000, kudé 10 million; thein and than sound alike."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "၂၀၁၉ ခုနှစ်မှာ ယူနီကုဒ်ကို တရားဝင် ပြောင်းမသုံးခင် မြန်မာ ဖုန်းအများစုမှာ သုံးခဲ့တဲ့၊ ယူနီကုဒ် စံနှုန်းနဲ့ မကိုက်တဲ့ ဖောင့်က ဘာလဲ။",
+    "options": ["ပြည်ထောင်စု", "မြန်မာ၃", "ပိတောက်", "ဇော်ဂျီ"],
+    "correctIndex": 3,
+    "gloss": "Before the official switch to Unicode in 2019, which non-Unicode font did most Burmese phones use? — Zawgyi. Pyidaungsu, Myanmar3 and Padauk are Unicode fonts."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ခြင်းလုံး ကစားတဲ့ ဘောလုံးကို ရိုးရာအတိုင်း ဘာနဲ့ ယက်လုပ်သလဲ။",
+    "options": ["ဝါး", "သားရေ", "ကြိမ်", "ရော်ဘာ"],
+    "correctIndex": 2,
+    "gloss": "What is a chinlone ball traditionally woven from? — Rattan (bamboo is the trap)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ကုလားအုတ်ရဲ့ ကုန်းနှောက်ထဲမှာ အဓိက ဘာကို သိုလှောင်ထားသလဲ။",
+    "options": ["ရေ", "အဆီ", "သွေး", "လေ"],
+    "correctIndex": 1,
+    "gloss": "What does a camel mainly store in its hump? — Fat, not water (the popular myth)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဦးထုပ်လုံးလေး၊ တုတ်ကောက်နဲ့ နှုတ်ခမ်းမွေး တိုတိုလေးတို့နဲ့ အသံတိတ်ရုပ်ရှင်ခေတ်မှာ ကမ္ဘာကို ရယ်မောစေခဲ့သူက ဘယ်သူလဲ။",
+    "options": ["ချာလီ ချက်ပလင်", "ဘတ်စတာ ကီတန်", "ဟာရိုး လွိုက်", "စတန် လောရယ်"],
+    "correctIndex": 0,
+    "gloss": "With a bowler hat, a cane and a small moustache, who made the world laugh in the silent-film era? — Charlie Chaplin. The others are fellow silent-era comedians."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ဧဝရက်တောင်ထိပ်မှာ ရေနွေးအိုး တည်ရင် ရေက ဘယ်လို ဆူမလဲ။",
+    "options": ["စင်တီဂရိတ် ၁၀၀ ဒီဂရီ ရောက်မှ ဆူမယ်", "စင်တီဂရိတ် ၁၀၀ ဒီဂရီ ကျော်မှ ဆူမယ်", "ဘယ်လောက် အပူပေးပေး မဆူဘူး", "စင်တီဂရိတ် ၁၀၀ ဒီဂရီ မရောက်ခင် ဆူမယ်"],
+    "correctIndex": 3,
+    "gloss": "If you boil water on the summit of Everest, how does it boil? — Below 100 °C (around 70 °C): lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "နိုင်ငံတော်အလံပေါ်မှာ ရှေးဟောင်း ဘုရားကျောင်းကြီး အန်ကောဝပ်ရဲ့ ပုံ ပါတဲ့ နိုင်ငံက ဘယ်နိုင်ငံလဲ။",
+    "options": ["ထိုင်း", "လာအို", "ကမ္ဘောဒီးယား", "ဗီယက်နမ်"],
+    "correctIndex": 2,
+    "gloss": "Which country has the ancient temple Angkor Wat on its national flag? — Cambodia."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "လပေါ်ကို ပထမဆုံး ခြေချခဲ့သူက နေးလ် အမ်းစထရောင်း ဆိုရင် အာကာသထဲကို ပထမဆုံး ရောက်ခဲ့တဲ့ လူသားက ဘယ်သူလဲ။",
+    "options": ["ဘတ်ဇ် အော်လ်ဒရင်", "ယူရီ ဂါဂါရင်", "ဂျွန် ဂလင်း", "ဗယ်လင်တီနာ တယ်ရက်ရှ်ကိုဗာ"],
+    "correctIndex": 1,
+    "gloss": "If Neil Armstrong was first on the Moon, who was the first human in space? — Yuri Gagarin (1961). Glenn was the first American in orbit, Tereshkova the first woman, Aldrin second on the Moon."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "မြန်မာနှစ်ကို ခရစ်နှစ်ထဲက ၆၃၈ နုတ်ရင် ရတယ်။ ဒါပေမဲ့ နှစ်သစ်က ဧပြီလ သင်္ကြန်ပြီးမှ ကူးတယ်။ ၂၀၂၄ ခုနှစ် ဇန်နဝါရီလဟာ မြန်မာသက္ကရာဇ် ဘယ်နှခုနှစ်လဲ။",
+    "options": ["၁၃၈၄", "၁၃၈၅", "၁၃၈၆", "၁၃၈၇"],
+    "correctIndex": 1,
+    "gloss": "The Myanmar year is the Western year minus 638, but the new year begins only after Thingyan in April. Which Myanmar year is January 2024? — 1385: it began in April 2023 (2023 − 638); 1386 is the autopilot answer and starts only in April 2024."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ဧရာဝတီမြစ်ထဲ စီးဝင်တဲ့ မြစ်လက်တက်တွေထဲမှာ အကြီးဆုံးက ဘယ်မြစ်လဲ။",
+    "options": ["သံလွင်", "စစ်တောင်း", "မြစ်ငယ်", "ချင်းတွင်း"],
+    "correctIndex": 3,
+    "gloss": "Which is the largest tributary of the Irrawaddy? — The Chindwin. The Salween and Sittaung are separate rivers; the Myitnge is a smaller tributary."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "မွေထိုင်ကို လက်သီး၊ တံတောင်၊ ဒူး၊ ခြေ အစုံလိုက်သုံးလို့ “အင်္ဂါ ရှစ်ပါး” အတတ်လို့ ကမ္ဘာက ခေါ်ကြတယ်။ မြန်မာ့ရိုးရာ လက်ဝှေ့ကိုတော့ “ကိုးပါး” လို့ ခေါ်ကြတယ်။ ထပ်ပါတဲ့ တစ်ပါးက ဘာလဲ။",
+    "options": ["ခေါင်း", "ပခုံး", "လက်ဖဝါး", "ဖနောင့်"],
+    "correctIndex": 0,
+    "gloss": "Muay Thai uses pairs of fists, elbows, knees and feet, so it's called the 'art of eight limbs'. Lethwei is called 'nine'. What is the extra one? — The head: Lethwei allows headbutts. The odd number shows it is a single body part."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ဆိုင်းဝိုင်းမှာ ဗုံလေး နှစ်ဆယ်ကျော်ကို အဝိုင်းလိုက် ချိတ်ဆွဲထားပြီး အလယ်က ဆရာ ထိုင်တီးရတဲ့ တူရိယာကို ဘာခေါ်သလဲ။",
+    "options": ["ကြေးဝိုင်း", "မောင်းဆိုင်း", "ပတ်ဝိုင်း", "ပတ္တလား"],
+    "correctIndex": 2,
+    "gloss": "In a hsaing waing orchestra, what is the instrument of twenty-odd small drums hung in a circle, played by a musician seated inside? — The pat waing (21 drums). Kyi waing is the gong circle, maung hsaing the gong chime, pattala the xylophone."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာတွေ “မဟာပိန္နဲ” လို့ ခေါ်ပြီး ကိုးကွယ်ကြတဲ့ နတ်ဘုရား ရုပ်တုတွေမှာ ဘယ်သတ္တဝါရဲ့ ဦးခေါင်း ပါသလဲ။",
+    "options": ["မျောက်", "ခြင်္သေ့", "ကျား", "ဆင်"],
+    "correctIndex": 3,
+    "gloss": "Statues of the deity Burmese call Maha Peinne have the head of which animal? — An elephant: Maha Peinne is Ganesha."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ရွှေဥဒေါင်းရဲ့ နာမည်ကျော် စုံထောက် “မောင်စံရှား” ကို ဘယ်နိုင်ငံခြား စုံထောက်ကို အခြေခံပြီး မြန်မာမှု ပြုထားတာလဲ။",
+    "options": ["ဟာကျူးလ် ပွားရော့", "ရှားလော့ ဟုမ်း", "ဖာဒါ ဘရောင်း", "မစ်စ် မာပဲလ်"],
+    "correctIndex": 1,
+    "gloss": "Shwe U Daung's famous detective Maung San Shar is a Burmese version of which foreign detective? — Sherlock Holmes; even the name 'Shar' echoes 'Sher-lock'. The others are Poirot, Father Brown and Miss Marple."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ထိုင်းနိုင်ငံ ဘန်ကောက်မှာ နေ့လယ် ၁၂ နာရီ ထိုးချိန်မှာ ရန်ကုန်မှာ ဘယ်အချိန် ရှိမလဲ။",
+    "options": ["နံနက် ၁၁ နာရီ", "နေ့လယ် ၁၂ နာရီခွဲ", "နံနက် ၁၁ နာရီခွဲ", "နေ့လယ် ၁ နာရီ"],
+    "correctIndex": 2,
+    "gloss": "When it is noon in Bangkok, what time is it in Yangon? — 11:30 a.m.: Myanmar is UTC+6:30, Thailand UTC+7, so Yangon is half an hour behind. 12:30 is the wrong-direction trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ကမ္ဘာနဲ့ အနီးဆုံး ကြယ်က ဘယ်ကြယ်လဲ။",
+    "options": ["နေ", "ပရော့ဇီးမား စင်တော်ရီ", "ဆီးရီးယပ်", "ဓူဝံကြယ်"],
+    "correctIndex": 0,
+    "gloss": "Which star is closest to Earth? — The Sun, which is a star. Proxima Centauri is the closest star after the Sun."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "အိမ်ဆောက်တာကနေ မျှစ်ဟင်းအထိ နေ့စဉ်ဘဝမှာ သုံးနေကြတဲ့ ဝါးဟာ တကယ်တော့ ဘယ်အပင်မျိုးနွယ်ဝင်လဲ။",
+    "options": ["ထန်းမျိုး", "ကြိမ်မျိုး", "ငှက်ပျောမျိုး", "မြက်မျိုး"],
+    "correctIndex": 3,
+    "gloss": "Bamboo, used for everything from houses to bamboo-shoot curry, actually belongs to which plant family? — The grasses (Poaceae). Rattan is a palm."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "အရောင်ခြောက်ရောင်ပါ ပဟေဠိ ရူးဘစ်ကုဗကို ဘယ်နိုင်ငံသား ဗိသုကာပညာရှင် တစ်ဦးက တီထွင်ခဲ့သလဲ။",
+    "options": ["ဂျပန်", "ဟန်ဂေရီ", "ဂျာမနီ", "ဆွစ်ဇာလန်"],
+    "correctIndex": 1,
+    "gloss": "The six-coloured Rubik's Cube puzzle was invented by an architect from which country? — Hungary: Ernő Rubik, 1974."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "မြန်မာ ပြက္ခဒိန်ဟာ လနဲ့ ရာသီ မကွာသွားအောင် “ဝါထပ်နှစ်” တွေမှာ လတစ်လ ထပ်ထည့်တယ်။ ဘယ်လကို နှစ်ခါ ထပ်ထားတာလဲ။",
+    "options": ["ဝါခေါင်", "တပေါင်း", "ဝါဆို", "တန်ခူး"],
+    "correctIndex": 2,
+    "gloss": "So that months and seasons don't drift apart, the Burmese calendar adds a month in 'wa-htat' years. Which month is doubled? — Waso (first Waso and second Waso). The name hints at a 'wa' month; Wagaung is the trap."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာနိုင်ငံက ယူနက်စကို ကမ္ဘာ့ အမွေအနှစ် စာရင်းထဲ ပထမဆုံး ဝင်ခဲ့တဲ့ နေရာက ဘာလဲ။",
+    "options": ["ပျူမြို့ဟောင်းများ", "ပုဂံ", "မြောက်ဦး", "ရွှေတိဂုံ"],
+    "correctIndex": 0,
+    "gloss": "Which was Myanmar's first UNESCO World Heritage Site? — The Pyu Ancient Cities (Halin, Beikthano, Sri Ksetra), 2014. Bagan followed only in 2019."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ရာမဇာတ်မှာ သီတာကို ခိုးယူသွားတဲ့ ခေါင်းဆယ်လုံးပါ ဘီလူးဘုရင်ကို ဘယ်လို ခေါ်သလဲ။",
+    "options": ["ဟနုမာန်", "လက္ခဏ", "ဘရတ", "ဒဿဂီရိ"],
+    "correctIndex": 3,
+    "gloss": "In the Burmese Rama play, what is the ten-headed ogre king who abducts Sita called? — ဒဿဂီရိ (Dasagiri, Ravana; from Sanskrit daśagrīva). The others are Hanuman, Lakkhana and Bharata."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "၁၉၅၄ ခုနှစ်ကနေ ၁၉၅၆ ခုနှစ်အထိ ကျင်းပခဲ့တဲ့ ဆဋ္ဌသင်္ဂါယနာကို ဘယ်မြို့မှာ တင်ခဲ့သလဲ။",
+    "options": ["မန္တလေး", "ရန်ကုန်", "ကိုလံဘို", "ဗန်ကောက်"],
+    "correctIndex": 1,
+    "gloss": "In which city was the Sixth Buddhist Council (1954–1956) held? — Yangon, at the Maha Pasana Cave by Kaba Aye. Mandalay is the trap: it hosted the Fifth Council in 1871."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပုဂံဘုရားတွေထဲမှာ လက်ရာ အမြောက်ဆုံးလို့ ဆိုကြတဲ့ အာနန္ဒာ ဂူဘုရားကို တည်ခဲ့တဲ့ ဘုရင်က ဘယ်သူလဲ။",
+    "options": ["အနော်ရထာ", "အလောင်းစည်သူ", "ကျန်စစ်သား", "နရပတိစည်သူ"],
+    "correctIndex": 2,
+    "gloss": "Which king built the Ananda temple, often called the finest work in Bagan? — Kyansittha (c. 1105). All options are Bagan kings."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ငွေချေတိုင်း စကင်ဖတ်နေကြတဲ့ QR ကုဒ်ကို ကားအစိတ်အပိုင်းတွေ ခြေရာခံဖို့ ပထမဆုံး တီထွင်ခဲ့တဲ့ နိုင်ငံက ဘယ်နိုင်ငံလဲ။",
+    "options": ["တောင်ကိုရီးယား", "ဂျပန်", "တရုတ်", "ဂျာမနီ"],
+    "correctIndex": 1,
+    "gloss": "The QR code we scan to pay was first invented to track car parts. In which country? — Japan: Denso Wave, a Toyota group company, 1994."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ကိတ်မုန့်နဲ့ ရေခဲမုန့်တွေမှာ ထည့်တဲ့ ဗနီလာဟာ ဘယ်အပင်ရဲ့ အတောင့်ကနေ ရသလဲ။",
+    "options": ["ပဲပင်", "နှင်းဆီ", "ငရုတ်", "သစ်ခွ"],
+    "correctIndex": 3,
+    "gloss": "The vanilla in cakes and ice cream comes from the pod of which plant? — An orchid. 'Vanilla bean' makes the bean plant the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "လျှပ်စီးလက်တာ မြင်ပြီး ၃ စက္ကန့်အကြာမှာ မိုးချုန်းသံ ကြားရတယ်။ လျှပ်စီးက ဘယ်လောက် အကွာအဝေးမှာ ဖြစ်တာလဲ။",
+    "options": ["၁ ကီလိုမီတာခန့်", "၁၀၀ မီတာခန့်", "၃ ကီလိုမီတာခန့်", "၁၀ ကီလိုမီတာခန့်"],
+    "correctIndex": 0,
+    "gloss": "You see lightning and hear the thunder 3 seconds later. How far away was the lightning? — About 1 km: sound travels about 340 m per second, light arrives almost at once. 3 km is the 'one kilometre per second' mistake."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ဥပမာ တိုကျိုကနေ ဟာဝိုင်အီကို ပျံသလို အပြည်ပြည်ဆိုင်ရာ ရက်စွဲမျဉ်းကို အနောက်ဘက်ကနေ အရှေ့ဘက်ကို ဖြတ်ကျော်ရင် ပြက္ခဒိန် ရက်စွဲကို ဘယ်လို ပြင်ရမလဲ။",
+    "options": ["တစ်ရက် တိုးရမယ်", "မပြင်ရဘူး", "တစ်ရက် လျှော့ရမယ်", "နှစ်ရက် တိုးရမယ်"],
+    "correctIndex": 2,
+    "gloss": "Crossing the International Date Line from west to east, as on a flight from Tokyo to Hawaii, how do you change the calendar date? — Back one day: the east side of the line is a day behind (how Phileas Fogg 'gained' a day travelling east)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "အာဖရိကရဲ့ အမြင့်ဆုံးတောင် ကီလီမန်ဂျာရိုက ဘယ်နိုင်ငံမှာ ရှိသလဲ။",
+    "options": ["ကင်ညာ", "တန်ဇေးနီးယား", "ယူဂန်ဒါ", "အီသီယိုးပီးယား"],
+    "correctIndex": 1,
+    "gloss": "In which country is Kilimanjaro, Africa's highest mountain? — Tanzania. Kenya is the trap: it lies close to the border and is often photographed from Kenya."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပုဂံခေတ် မြစေတီကျောက်စာကို ဘာသာစကား လေးမျိုးနဲ့ ရေးထိုးထားတယ်။ ဒီထဲမှာ မပါတဲ့ ဘာသာက ဘာလဲ။",
+    "options": ["ပျူ", "မွန်", "ပါဠိ", "သက္ကတ"],
+    "correctIndex": 3,
+    "gloss": "The Bagan-era Myazedi inscription is written in four languages. Which of these is not one of them? — Sanskrit. The four are Pyu, Mon, Old Burmese and Pali; it was the key to reading Pyu."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "၁၉၂၀ ပြည့်နှစ်မှာ ရုံတင်ခဲ့တဲ့ ပထမဆုံး မြန်မာ ဇာတ်လမ်းရုပ်ရှင်ရဲ့ နာမည်က “မေတ္တာနှင့် …” ပါ။ ကွက်လပ်မှာ ဘာဝင်မလဲ။",
+    "options": ["သူရာ", "လောဘ", "မာန", "ဒေါသ"],
+    "correctIndex": 0,
+    "gloss": "The first Burmese feature film, released in 1920, was called 'Love and …'. What fills the gap? — Liquor: «မေတ္တာနှင့် သူရာ» (Love and Liquor), by U Ohn Maung."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပိဋကတ်သုံးပုံကို ကျောက်ချပ် ၇၂၉ ချပ်ပေါ် ထွင်းထားလို့ “ကမ္ဘာ့ အကြီးဆုံး စာအုပ်” လို့ တင်စားခံရတဲ့ မန္တလေးက ဘုရားက ဘယ်ဘုရားလဲ။",
+    "options": ["မဟာမုနိ", "ကျောက်တော်ကြီး", "ကုသိုလ်တော်", "ရွှေကျီးမြင်"],
+    "correctIndex": 2,
+    "gloss": "Which Mandalay pagoda, with the Tipitaka carved on 729 stone slabs, is called 'the world's largest book'? — Kuthodaw. Kyauktawgyi, its neighbour at the foot of Mandalay Hill, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ရန်ကုန်ကနေ ကမ္ဘာ့ဗဟိုကို ဖြတ်ပြီး တည့်တည့် တူးသွားနိုင်မယ်ဆိုရင် ကမ္ဘာ့ တစ်ဖက်ခြမ်းမှာ ဘယ်နေရာ ထွက်မလဲ။",
+    "options": ["ဘရာဇီး", "ပစိဖိတ်သမုဒ္ဒရာ", "အာဂျင်တီးနား", "အတ္တလန္တိတ်သမုဒ္ဒရာ"],
+    "correctIndex": 1,
+    "gloss": "If you could dig from Yangon straight through the centre of the Earth, where would you come out? — The Pacific Ocean: Yangon (16.8° N, 96.2° E) has its antipode at 16.8° S, 83.8° W, far off the coast of Peru and Chile."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ကမ္ဘာ့ ပထမဆုံး ကွန်ပျူတာ ပရိုဂရမ်မာလို့ ဆိုကြတဲ့ အေဒါ လပ်ဗ်လေ့စ်ရဲ့ ဖခင်က နာမည်ကျော် ကဗျာဆရာ ဘယ်သူလဲ။",
+    "options": ["ပါစီ ရှယ်လီ", "ဂျွန် ကိစ်", "ဝီလျံ ဝပ်ဒ်စဝါ့သ်", "လော့ဒ် ဘိုင်ရွန်"],
+    "correctIndex": 3,
+    "gloss": "Ada Lovelace, often called the first computer programmer, was the daughter of which famous poet? — Lord Byron. All options are English Romantic poets."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ရှိတ်စပီးယားရဲ့ ပြဇာတ် ဇာတ်ကောင် ဟမ်းလက်ဟာ ဘယ်နိုင်ငံရဲ့ မင်းသားလဲ။",
+    "options": ["စကော့တလန်", "ဒိန်းမတ်", "နော်ဝေ", "ဆွီဒင်"],
+    "correctIndex": 1,
+    "gloss": "Shakespeare's Hamlet is the prince of which country? — Denmark. Norway is the trap (Fortinbras is its prince); Scotland is Macbeth's."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "လက်ဗွေရာက လူ့လက်ဗွေနဲ့ ခွဲခြားဖို့ ခက်လောက်အောင် တူတယ်လို့ သိပ္ပံပညာရှင်တွေ တွေ့ထားတဲ့၊ မျောက်မျိုးနွယ် မဟုတ်တဲ့ သတ္တဝါက ဘာလဲ။",
+    "options": ["ကိုအာလာ", "ကန်ဂါရူး", "ပန်ဒါ", "ဝက်ဝံ"],
+    "correctIndex": 0,
+    "gloss": "Which animal, not a primate, has fingerprints scientists found almost impossible to tell from human ones? — The koala."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ဟီလီယမ်ကို ဂရိဘာသာ “နေ” ကနေ မှည့်ခဲ့သလို လမင်းရဲ့ ဂရိနာမည်ကနေ မှည့်ထားတဲ့ ဒြပ်စင်က ဘာလဲ။",
+    "options": ["တယ်လူရီယမ်", "လူတီရှီယမ်", "ဆီလီနီယမ်", "ပါလေဒီယမ်"],
+    "correctIndex": 2,
+    "gloss": "Helium is named after the Greek for 'sun'. Which element is named after the Greek name of the Moon? — Selenium, from Selene. Tellurium is from Latin 'earth', lutetium from Lutetia (Paris, the 'luna' trap), palladium from the asteroid Pallas."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "၁၉၁၁ ခုနှစ်မှာ တောင်ဝင်ရိုးစွန်းကို လူသားတွေ ပထမဆုံး ရောက်ခဲ့ကြတယ်။ အဲဒီ စူးစမ်းရှာဖွေရေးအဖွဲ့က ဘယ်နိုင်ငံကလဲ။",
+    "options": ["ဗြိတိန်", "ဆွီဒင်", "ဒိန်းမတ်", "နော်ဝေ"],
+    "correctIndex": 3,
+    "gloss": "In 1911 people reached the South Pole for the first time. Which country was the expedition from? — Norway (Roald Amundsen). Britain is the trap: Scott arrived about five weeks later, in January 1912."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "နယူးယောက်က လွတ်လပ်ရေး ရုပ်တုရဲ့ အတွင်းပိုင်း သံကိုယ်ထည်ကို ဒီဇိုင်းထုတ်ခဲ့တဲ့ အင်ဂျင်နီယာက ဘယ်သူလဲ။",
+    "options": ["ဖရက်ဒရစ် ဘာသိုလ်ဒီ", "အန်တိုနီ ဂေါ်ဒီ", "ဂူစတပ် အီဖယ်", "လီ ကော်ဗူဇီယေး"],
+    "correctIndex": 2,
+    "gloss": "Who was the engineer who designed the iron framework inside New York's Statue of Liberty? — Gustave Eiffel. Bartholdi is the trap: he sculpted the statue's exterior."
+  }
+]

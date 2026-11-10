@@ -1,0 +1,507 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Parí òwe yìí: “Àgbájọ … la fi ń sọ̀yà.”",
+    "options": ["Ẹsẹ̀", "Orí", "Ọwọ́", "Ẹnu"],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: 'It is with gathered … that we beat our chest.' — Ọwọ́ (hands): 'Àgbájọ ọwọ́ la fi ń sọ̀yà', unity is strength."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nínú ìbejì, Táíwò ni wọ́n kọ́kọ́ bí, ṣùgbọ́n àwọn Yorùbá gbà pé èkejì rẹ̀ ni ẹ̀gbọ́n, nítorí òun ló rán Táíwò ṣíwájú láti tọ́ ayé wò. Kí ni orúkọ èkejì náà?",
+    "options": ["Kẹ́hìndé", "Ìdòwú", "Àlàbá", "Dàda"],
+    "correctIndex": 0,
+    "gloss": "Of twins, Táíwò is born first, but Yoruba hold the second to be the elder, who sent Táíwò ahead to 'taste the world'. The second twin's name? — Kẹ́hìndé. Ìdòwú and Àlàbá are the children born after twins; Dàda is a child with curly hair."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ẹ̀yà ara wo ló ń ti ẹ̀jẹ̀ ká gbogbo ara, tí ó sì ń lù láìdúró ní gbogbo ìgbà tí a bá wà láàyè?",
+    "options": ["Ẹ̀dọ̀fóró", "Ẹ̀dọ̀", "Kíndìnrín", "Ọkàn"],
+    "correctIndex": 3,
+    "gloss": "Which organ pushes blood round the whole body and beats without stopping as long as we live? — The heart (ọkàn). Lungs, liver and kidney are the wrong options."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ẹranko wo ló ga jùlọ lórí ilẹ̀, tí ọrùn rẹ̀ nìkan sì lè gùn ju ènìyàn tó dàgbà lọ?",
+    "options": ["Erin", "Àgùnfọn", "Ràkúnmí", "Ẹṣin"],
+    "correctIndex": 1,
+    "gloss": "Which is the tallest land animal, whose neck alone can be longer than a grown man is tall? — The giraffe (àgùnfọn); its neck reaches about 2 m. Elephant, camel and horse are the traps."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wọ́n bó ẹ̀wà, wọ́n lọ̀ ọ́ pẹ̀lú ata àti àlùbọ́sà, wọ́n sì ń fi ṣíbí bù ú sínú epo gbígbóná. Oúnjẹ wo nìyí?",
+    "options": ["Mọ́ínmọ́ín", "Dòdò", "Àkàrà", "Ẹ̀kọ"],
+    "correctIndex": 2,
+    "gloss": "Peeled beans are ground with pepper and onion and spooned into hot oil. Which food? — Àkàrà (bean fritters). Mọ́ínmọ́ín is the same paste steamed, not fried; dòdò is fried plantain."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ọkọ̀ ojú-irin kan kúrò ní Èkó ní aago mẹ́jọ àárọ̀, ó sì lo wákàtí méjì ààbọ̀ lójú ọ̀nà kí ó tó dé Ìbàdàn. Aago mélòó ló dé ibẹ̀?",
+    "options": ["Aago mẹ́wàá", "Aago mẹ́sàn-án ààbọ̀", "Aago mọ́kànlá ààbọ̀", "Aago mẹ́wàá ààbọ̀"],
+    "correctIndex": 3,
+    "gloss": "A train leaves Lagos at 8 a.m. and spends two and a half hours on the way to Ibadan. What time does it arrive? — Half past ten: 8:00 + 2:30. A hypothetical train; no timetable is claimed."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ohun èlò orin wo ló sábà máa ń ní okùn mẹ́fà, tí wọ́n ń fi ìka ta?",
+    "options": ["Gìtá", "Fèrè", "Ìlù gángan", "Sẹ̀kẹ̀rẹ̀"],
+    "correctIndex": 0,
+    "gloss": "Which instrument usually has six strings that are plucked with the fingers? — The guitar. Flute, talking drum and gourd rattle have no strings."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ìdíje bọ́ọ̀lù-àfẹsẹ̀gbá kan bẹ̀rẹ̀ pẹ̀lú iye agbábọ́ọ̀lù tí òfin gbà fún ẹgbẹ́ méjèèjì. Lẹ́yìn náà, rẹfirí fi káàdì pupa lé ẹnì kan jáde. Agbábọ́ọ̀lù mélòó ló kù lórí pápá lápapọ̀?",
+    "options": ["22", "20", "21", "10"],
+    "correctIndex": 2,
+    "gloss": "A football match starts with both teams at full strength; then the referee sends one player off with a red card. How many players are left on the pitch in all? — 21: 11 + 11 − 1. '10' catches those who only count one team."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Òrìṣà wo ni àwọn Yorùbá gbà pé ó ń sán àrá, tí ìtàn sì sọ pé ó ti jẹ Aláàfin Ọ̀yọ́ rí?",
+    "options": ["Ògún", "Ṣàngó", "Ọbàtálá", "Ọ̀ṣun"],
+    "correctIndex": 1,
+    "gloss": "Which òrìṣà do the Yoruba hold to send thunder, and who in tradition was once Aláàfin of Ọ̀yọ́? — Ṣàngó."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Àsíá Nàìjíríà ní ìlà gbọọrọ mẹ́ta. Àwọ̀ mélòó ló wà lára rẹ̀?",
+    "options": ["Ọ̀kan", "Mẹ́ta", "Mẹ́rin", "Méjì"],
+    "correctIndex": 3,
+    "gloss": "Nigeria's flag has three vertical stripes. How many colours are on it? — Two: green, white, green. 'Three' is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ìyá Bísí máa ń se ẹyin kan fún ìṣẹ́jú 10 kí ó tó jinná dáadáa. Bí ó bá kó ẹyin mẹ́ta sínú ìkòkò omi kan náà lẹ́ẹ̀kan náà, ìṣẹ́jú mélòó ni wọ́n máa gbà kí gbogbo wọn tó jinná?",
+    "options": ["30", "10", "20", "13"],
+    "correctIndex": 1,
+    "gloss": "Bisi's mother boils one egg for 10 minutes until it is done. If she puts three eggs into the same pot of water at once, how many minutes until all are done? — 10: they cook side by side. 30 is the trap for multiplying."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lọ́dún 1986, ta ló di ọmọ ilẹ̀ Áfíríkà àkọ́kọ́ tí ó gba Ẹ̀bùn Nobel nínú lítíréṣọ̀?",
+    "options": ["Chinua Achebe", "Ben Okri", "Ngũgĩ wa Thiong'o", "Wọlé Ṣóyínká"],
+    "correctIndex": 3,
+    "gloss": "In 1986, who became the first African to win the Nobel Prize in Literature? — Wole Soyinka. Achebe and Ngũgĩ never won it; Okri won the Booker."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Irè oko wo ni wọ́n fi ń ṣe ṣokoléètì, èyí tí àwọn àgbẹ̀ Oǹdó àti Ọ̀ṣun ń gbìn lọ́pọ̀lọpọ̀?",
+    "options": ["Kòkó", "Obì", "Kọfí", "Ẹ̀pà"],
+    "correctIndex": 0,
+    "gloss": "Which crop, grown in quantity by farmers in Ondo and Osun, is chocolate made from? — Cocoa (kòkó). Kola, coffee and groundnut are the traps."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ta ló dá Facebook sílẹ̀ nígbà tí ó ṣì jẹ́ akẹ́kọ̀ọ́ ní Yunifásítì Harvard?",
+    "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Jeff Bezos"],
+    "correctIndex": 2,
+    "gloss": "Who founded Facebook while still a student at Harvard? — Mark Zuckerberg (2004). Bill Gates is the trap: he too left Harvard to found a company."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ní èdè Yorùbá, mẹ́ẹ̀ẹ́dógún (15) túmọ̀ sí “márùn-ún dín ní ogún”. Bí a bá tẹ̀lé ọgbọ́n kan náà, iye wo ni méjìdínlọ́gbọ̀n?",
+    "options": ["32", "22", "28", "26"],
+    "correctIndex": 2,
+    "gloss": "In Yoruba, mẹ́ẹ̀ẹ́dógún (15) means 'five less than twenty'. By the same logic, what is méjìdínlọ́gbọ̀n? — 28: 'two less than thirty' (ọgbọ̀n = 30). 32 traps those who add."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọdún wo ni wọ́n ń ṣe lọ́dọọdún ní Òṣogbo, tí igbó mímọ́ rẹ̀ létí odò sì wà nínú àkọsílẹ̀ Ibi Àjogúnbá Àgbáyé ti UNESCO?",
+    "options": ["Ọdún Ọ̀ṣun", "Ọdún Egúngún", "Ọdún Ọlọ́jọ́", "Ọdún Orò"],
+    "correctIndex": 0,
+    "gloss": "Which festival is held every year in Osogbo, whose sacred riverside grove is on UNESCO's World Heritage list? — The Ọ̀ṣun festival (Osun-Osogbo Sacred Grove, listed 2005). Ọlọ́jọ́ is Ile-Ife's."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ẹranko wo ló ń fò bí ẹyẹ, ṣùgbọ́n tí kì í yé ẹyin, tí ó sì ń fún ọmọ rẹ̀ lọ́mú?",
+    "options": ["Òwìwí", "Ògòǹgò", "Àkàlà", "Àdán"],
+    "correctIndex": 3,
+    "gloss": "Which animal flies like a bird but lays no eggs and suckles its young? — The bat (àdán), a mammal. Owl, ostrich and ground hornbill are birds."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Irú orin wo ni King Sunny Adé fi di olókìkí káàkiri àgbáyé?",
+    "options": ["Fújì", "Jùjú", "Àpàlà", "Afrobeat"],
+    "correctIndex": 1,
+    "gloss": "Which kind of music made King Sunny Adé famous around the world? — Jùjú."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lẹ́tà kan náà ni àwọn ọ̀rọ̀ mẹ́rin yìí ní; àmì ohùn nìkan ló yàtọ̀. Èwo ni irinṣẹ́ tí àgbẹ̀ fi ń kọ ebè?",
+    "options": ["Ọkọ̀", "Ọkọ", "Ọ̀kọ̀", "Ọkọ́"],
+    "correctIndex": 3,
+    "gloss": "These four words share the same letters; only the tone marks differ. Which is the tool a farmer makes yam heaps with? — Ọkọ́ (hoe). Ọkọ̀ = vehicle, ọkọ = husband, ọ̀kọ̀ = spear."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Wọ́n sọ ọmọbìnrin kan tí wọ́n ṣẹ̀ṣẹ̀ bí ní Yétúndé. Kí ni orúkọ yìí sábà máa ń fi hàn nípa ìdílé rẹ̀?",
+    "options": [
+      "Wọ́n bí ìbejì kan ṣáájú rẹ̀ nínú ìdílé náà",
+      "Ìyá-ìyá rẹ̀ tàbí ìyá baba rẹ̀ ti kú kí wọ́n tó bí i",
+      "Wọ́n bí i nígbà tí ìdílé ń ṣe ọdún ìbílẹ̀",
+      "Ẹsẹ̀ rẹ̀ ló kọ́kọ́ jáde nígbà tí wọ́n ń bí i"
+    ],
+    "correctIndex": 1,
+    "gloss": "A newborn girl is named Yétúndé. What does the name usually tell about her family? — A grandmother has died before her birth: Yé (ìyá, mother) + tún dé (has come again). The others describe Ìdòwú, Abíọ́dún and Ìge."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ẹni tó ń ta ẹja ni ẹlẹ́ja, ẹni tó ń ta ẹran sì ni ẹlẹ́ran. Kí ni a ń pe ẹni tó ń ta iṣu?",
+    "options": ["Ẹlẹ́ṣu", "Oníṣu", "Olóṣu", "Aláṣu"],
+    "correctIndex": 1,
+    "gloss": "A fish seller is ẹlẹ́ja, a meat seller ẹlẹ́ran. What is a yam seller called? — Oníṣu: oní- copies the noun's first vowel (oní + ẹja → ẹlẹ́ja), but before i the i simply drops (oní + iṣu → oníṣu, as onílé). Ẹlẹ́ṣu is the trap for copying the pattern blindly."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ìdíje Ife Ẹ̀yẹ Àgbáyé FIFA àkọ́kọ́ wáyé lọ́dún 1930. Orílẹ̀-èdè wo ló gbàlejò rẹ̀, tí ó sì tún gbé ife náà?",
+    "options": ["Argentina", "Brazil", "Uruguay", "Italy"],
+    "correctIndex": 2,
+    "gloss": "The first FIFA World Cup was in 1930. Which country hosted it and also won it? — Uruguay, beating Argentina in the final. Italy hosted and won the next one, in 1934."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Gbogbo àwọn ohun-ìṣẹ̀dá wọ̀nyí ló yí ayé padà ní ọ̀rúndún kọkàndínlógún. Èwo ló kọ́kọ́ dé?",
+    "options": ["Fọ́tò yíyà", "Tẹlifóònù", "Gílóòbù iná mànàmáná", "Rédíò"],
+    "correctIndex": 0,
+    "gloss": "All these inventions changed the world in the 19th century. Which came first? — Photography (Niépce 1826–27, Daguerre 1839); then the telephone (1876), Edison's light bulb (1879) and radio (1890s)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nínú yàrá tí wọ́n ti fa gbogbo afẹ́fẹ́ jáde, wọ́n ju òòlù kan àti ìyẹ́ adìẹ kan sílẹ̀ lẹ́ẹ̀kan náà láti ibi gíga kan náà. Kí ló máa ṣẹlẹ̀?",
+    "options": ["Òòlù máa kọ́kọ́ balẹ̀", "Ìyẹ́ máa kọ́kọ́ balẹ̀", "Méjèèjì máa balẹ̀ pọ̀", "Ìyẹ́ máa léfòó sókè"],
+    "correctIndex": 2,
+    "gloss": "In a room with all the air pumped out, a hammer and a chicken feather are dropped together from the same height. What happens? — Both land together: without air resistance everything falls at the same rate (shown on the Moon by Apollo 15)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ló kọ “Ògbójú Ọdẹ nínú Igbó Irúnmọlẹ̀”, ìwé àròsọ tí ọdẹ Àkàrà-ògùn ti ń sọ ìtàn ìrìn-àjò rẹ̀?",
+    "options": ["Adébáyọ̀ Fálétí", "Akínwùmí Ìṣọ̀lá", "Ọládẹjọ Òkédìjí", "D. O. Fágúnwà"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Ògbójú Ọdẹ nínú Igbó Irúnmọlẹ̀', the novel in which the hunter Àkàrà-ògùn tells of his journeys? — D. O. Fágúnwà (Soyinka translated it as 'The Forest of a Thousand Daemons'). All options are major Yoruba writers."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Àwọn ère orí onídẹ ìgbàanì tí ìlà tínrín-tínrín wà lójú wọn, tí ayé sì ń kan sáárá sí nítorí bí wọ́n ṣe jọ ènìyàn gidi, ìlú wo ni wọ́n ti hú wọn jáde?",
+    "options": ["Ọ̀yọ́-Ilé", "Ilé-Ifẹ̀", "Ìjẹ̀bú-Òde", "Èkó"],
+    "correctIndex": 1,
+    "gloss": "The ancient brass heads with fine striations on the face, admired worldwide for their lifelike realism — in which town were they dug up? — Ile-Ife (the Ife heads)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nàìjíríà kì í yí aago rẹ̀ padà rárá, ó sì máa ń fi wákàtí kan ṣáájú àkókò Greenwich (GMT). Bí ó bá jẹ́ aago méjìlá ọ̀sán ní Èkó ní oṣù Kínní, aago mélòó ni ní London?",
+    "options": ["Aago mọ́kànlá àárọ̀", "Aago kan ọ̀sán", "Aago méjìlá ọ̀sán", "Aago mẹ́wàá àárọ̀"],
+    "correctIndex": 0,
+    "gloss": "Nigeria never changes its clocks and is one hour ahead of Greenwich Mean Time. When it is noon in Lagos in January, what time is it in London? — 11 a.m.: London keeps GMT in winter (summer time only from late March)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nínú àwọn àlọ́ Yorùbá, ta ni ìyàwó Ìjàpá, ọlọ́gbọ́n àrékérekè tí ọgbọ́n rẹ̀ sábà máa ń kó o sí wàhálà?",
+    "options": ["Àdùnní", "Àyìnkẹ́", "Yánníbo", "Àbẹ̀kẹ́"],
+    "correctIndex": 2,
+    "gloss": "In Yoruba folktales, who is the wife of Ìjàpá the tortoise, the trickster whose cunning usually lands him in trouble? — Yánníbo. The others are common Yoruba women's names."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ni wọ́n ń pè ní baba orin fújì, ẹni tí ó sọ pé àwòrán Òkè Fuji ní Japan ló fún òun ní orúkọ orin náà?",
+    "options": ["Hárúnà Ìṣọ̀lá", "Síkírù Àyìndé Barrister", "Àyìnlá Ọmọwúrà", "Yusuf Ọlátúnjí"],
+    "correctIndex": 1,
+    "gloss": "Who is called the father of fuji music, and said a picture of Mount Fuji in Japan gave him the name? — Sikiru Ayinde Barrister. Ìṣọ̀lá and Ọmọwúrà were àpàlà stars, Ọlátúnjí a sákárà star."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú fíìmù erére “The Lion King”, orúkọ akọni ọmọ kìnnìún náà túmọ̀ sí “kìnnìún” ní èdè Swahili. Kí ni orúkọ rẹ̀?",
+    "options": ["Mufasa", "Nala", "Rafiki", "Simba"],
+    "correctIndex": 3,
+    "gloss": "In the cartoon 'The Lion King', the hero cub's name means 'lion' in Swahili. What is it? — Simba. Mufasa is his father, Nala his friend, Rafiki ('friend' in Swahili) the baboon."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lọ́dún 1922, Howard Carter rí sàréè Fáráò kan ní Àfonífojì Àwọn Ọba, ẹrù inú rẹ̀ sì fẹ́rẹ̀ẹ́ wà ní pípé. Ta ni Fáráò náà?",
+    "options": ["Ramesses II", "Khufu", "Akhenaten", "Tutankhamun"],
+    "correctIndex": 3,
+    "gloss": "In 1922 Howard Carter found a pharaoh's tomb in the Valley of the Kings with its treasures almost intact. Which pharaoh? — Tutankhamun. Akhenaten is the trap: probably his father."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ni olùdarí fíìmù Yorùbá “Ṣaworoidẹ” (1999), ẹni tí ilé-iṣẹ́ rẹ̀, Mainframe, tún ṣe “Agogo Èèwọ̀” tí ó tẹ̀lé e?",
+    "options": ["Kúnlé Afọláyan", "Túndé Kèlání", "Hubert Ògúndé", "Adé Love"],
+    "correctIndex": 1,
+    "gloss": "Who directed the Yoruba film 'Ṣaworoidẹ' (1999), whose company Mainframe also made its sequel 'Agogo Èèwọ̀'? — Tunde Kelani. All options are real Yoruba filmmakers."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Irú ẹ̀jẹ̀ wo ni ẹni tí ó ní in lè gba ẹ̀jẹ̀ lọ́wọ́ ẹnikẹ́ni, láìka irú ẹ̀jẹ̀ olùfúnni sí?",
+    "options": ["O−", "A+", "AB+", "B−"],
+    "correctIndex": 2,
+    "gloss": "People with which blood group can receive blood from anyone, whatever the donor's group? — AB+ (the universal recipient: it carries A, B and Rh antigens, so attacks none). O− is the trap: the universal donor."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Lọ́dún 1897, akọ̀ròyìn Flora Shaw dábàá orúkọ “Nigeria” fún agbègbè tí Ilẹ̀ Gẹ̀ẹ́sì ń ṣàkóso. Láti ara kí ni ó ti mú orúkọ náà?",
+    "options": ["Orílẹ̀-èdè Niger", "Odò Niger", "Aṣálẹ̀ Sàhárà", "Adágún Chad"],
+    "correctIndex": 1,
+    "gloss": "In 1897 the journalist Flora Shaw proposed the name 'Nigeria' for the British-ruled territory. What did she take it from? — The River Niger. The country Niger is the trap: it did not exist yet and is itself named after the river."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ilé-iṣẹ́ bàtà eré-ìdárayá Nike mú orúkọ rẹ̀ láti ara abo-òrìṣà Gíríìkì kan. Kí ni abo-òrìṣà náà dúró fún?",
+    "options": ["Ìṣẹ́gun", "Ọgbọ́n", "Ẹwà", "Ọdẹ"],
+    "correctIndex": 0,
+    "gloss": "The sportswear company Nike is named after a Greek goddess. What did she stand for? — Victory. Wisdom (Athena), beauty (Aphrodite) and the hunt (Artemis) belong to other goddesses."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ní ìbẹ̀rẹ̀ ayò ọlọ́pọ́n, kóró mẹ́rin mẹ́rin ni wọ́n ń kó sínú ihò kọ̀ọ̀kan. Kóró mélòó ló wà lórí ọpọ́n náà lápapọ̀?",
+    "options": ["48", "36", "24", "64"],
+    "correctIndex": 0,
+    "gloss": "At the start of ayò ọlọ́pọ́n, four seeds go into each pit. How many seeds are on the board in all? — 48: the board has two rows of six pits, 12 × 4."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wọ́n kọ́ Ilé-ìṣọ́ Eiffel ní Paris lọ́dún 1889. Fún kí ni wọ́n kọ́ ọ ní àkọ́kọ́?",
+    "options": ["Fún ibùdó rédíò àwọn ọmọ ogun", "Fún eré Olympic tí ìlú náà gbàlejò", "Fún ìpàtẹ àgbáyé tí ìlú náà gbàlejò", "Fún ìrántí ọba Napoleon"],
+    "correctIndex": 2,
+    "gloss": "The Eiffel Tower was built in Paris in 1889. What was it first built for? — The World's Fair (Exposition Universelle) held there. The military radio station is the trap: that use later saved it from demolition."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ní orílẹ̀-èdè wo ni ẹ̀sìn Candomblé, tí wọ́n ti ń bọ àwọn òrìṣà Yorùbá bíi Yemọja àti Ògún, ti gbilẹ̀?",
+    "options": ["Cuba", "Haiti", "Brazil", "Jamaica"],
+    "correctIndex": 2,
+    "gloss": "In which country did Candomblé, a religion that worships Yoruba òrìṣà such as Yemọja and Ògún, take root? — Brazil (Bahia above all). Cuba is the trap: its Yoruba-derived religion is Santería (Lucumí); Haiti's is Vodou."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Wọ́n ń so ojú Odù Ifá pọ̀ ní méjì-méjì láti di gbogbo Odù tí babaláwo ń dá. Odù mélòó ló wà lápapọ̀?",
+    "options": ["16", "401", "256", "64"],
+    "correctIndex": 2,
+    "gloss": "The principal Odù of Ifá are combined in pairs to make all the Odù a babaláwo casts. How many Odù are there in all? — 256: there are 16 principal Odù, and 16 × 16 = 256. 401 is the traditional count of the irúnmọlẹ̀ (divinities)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Oòrùn jìnnà sí ayé tó nǹkan bí mílíọ̀nù 150 kìlómítà. Nǹkan bí ìgbà wo ni ìmọ́lẹ̀ rẹ̀ ń lò kí ó tó dé ọ̀dọ̀ wa?",
+    "options": ["Ìṣẹ́jú-àáyá mẹ́jọ", "Wákàtí mẹ́jọ", "Ọjọ́ mẹ́jọ", "Ìṣẹ́jú mẹ́jọ"],
+    "correctIndex": 3,
+    "gloss": "The Sun is about 150 million km from Earth. Roughly how long does its light take to reach us? — About eight minutes: light travels about 300,000 km a second, so 150,000,000 ÷ 300,000 = 500 s. Eight seconds is the trap."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bí a bá ń ka láti 0, tí a kò sì lo àmì òdì, nọ́ńbà tí ó tóbi jùlọ wo ni báìtì kan ṣoṣo nínú kọ̀ǹpútà lè gbé?",
+    "options": ["256", "255", "128", "1024"],
+    "correctIndex": 1,
+    "gloss": "Counting from 0, with no minus sign, what is the largest number a single computer byte can hold? — 255: a byte is 8 bits, giving 2⁸ = 256 values, 0 to 255. 256 traps those who forget the zero."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọdún wo ni wọ́n ń ṣe ní Ilé-Ifẹ̀ láti rántí Mọ́remí Àjàṣorò, ẹni tí ìtàn sọ pé ó fi Olúorogbo, ọmọ rẹ̀ kan ṣoṣo, rúbọ?",
+    "options": ["Ọdún Edi", "Ọdún Ọlọ́jọ́", "Ọdún Ìtapa", "Ọdún Òkè-Ìbàdàn"],
+    "correctIndex": 0,
+    "gloss": "Which festival in Ile-Ife commemorates Moremi Ajasoro, who in tradition sacrificed her only son, Oluorogbo? — The Edi festival. Ọlọ́jọ́ (Ògún) and Ìtapa (Ọbàtálá) are other Ife festivals; Òkè-Ìbàdàn is Ibadan's."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sẹ́ẹ̀lì ara ènìyàn ní kírómósómù 46. Kírómósómù mélòó ló wà nínú kóró àtọ̀ kan ṣoṣo?",
+    "options": ["46", "92", "23", "22"],
+    "correctIndex": 2,
+    "gloss": "A human body cell has 46 chromosomes. How many are in a single sperm cell? — 23: sex cells carry half, so that egg and sperm together make 46 again. 22 is the number of non-sex chromosomes in it."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Èwo nínú àwọn ìlú Yorùbá ìgbàanì wọ̀nyí ló wà ní Orílẹ̀-èdè Olómìnira Benin lónìí?",
+    "options": ["Ọ̀wọ̀", "Ìsẹ́yìn", "Kétu", "Ìlá-Ọ̀ràngún"],
+    "correctIndex": 2,
+    "gloss": "Which of these ancient Yoruba towns lies in today's Republic of Benin? — Kétu, seat of the Alákétu. Ọ̀wọ̀ (Ondo), Ìsẹ́yìn (Oyo) and Ìlá-Ọ̀ràngún (Osun) are in Nigeria."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Pianó òde-òní tí ó péye ní kọ́kọ́rọ́ funfun 52. Kọ́kọ́rọ́ dúdú mélòó ló ní?",
+    "options": ["52", "36", "26", "44"],
+    "correctIndex": 1,
+    "gloss": "A full-size modern piano has 52 white keys. How many black keys does it have? — 36: the full keyboard has 88 keys, and 88 − 52 = 36."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ta ni ayàwòrán-ilé tí ó lo ohun tó lé ní ogójì ọdún ayé rẹ̀ lórí ṣọ́ọ̀ṣì Sagrada Família ní Barcelona?",
+    "options": ["Antoni Gaudí", "Le Corbusier", "Oscar Niemeyer", "Frank Gehry"],
+    "correctIndex": 0,
+    "gloss": "Which architect spent more than forty years of his life on the Sagrada Família church in Barcelona? — Antoni Gaudí (1883 until his death in 1926)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ìdíje marathon jẹ́ kìlómítà 42.195 nítorí pé ní Olympics kan, wọ́n fẹ́ kí eré náà bẹ̀rẹ̀ ní ààfin ọba, kí ó sì parí níwájú ibi tí ọba jókòó sí. Ìlú wo ni Olympics náà ti wáyé?",
+    "options": ["Athens", "Paris", "Stockholm", "London"],
+    "correctIndex": 3,
+    "gloss": "The marathon is 42.195 km because at one Olympics they wanted it to start at a royal castle and finish in front of the royal box. Where were those Games? — London, 1908 (Windsor Castle to the stadium). Athens is the trap: the first Olympic marathon, 1896, was shorter."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fíìmù wo ni àkọ́kọ́ tí kì í ṣe èdè Gẹ̀ẹ́sì tí ó gba àmì-ẹ̀yẹ Oscar fún fíìmù tí ó dára jùlọ?",
+    "options": ["Roma", "Parasite", "Life Is Beautiful", "Crouching Tiger, Hidden Dragon"],
+    "correctIndex": 1,
+    "gloss": "Which was the first non-English-language film to win the Oscar for Best Picture? — Parasite (Korean, 2020 ceremony). The other three were also nominated for Best Picture and lost."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lọ́dún 1859, wọ́n tẹ “Ìwé Ìròhìn”, ìwé ìròyìn àkọ́kọ́ ní èdè Yorùbá, jáde ní ìlú wo?",
+    "options": ["Àgbádárìgì", "Èkó", "Abẹ́òkúta", "Ìbàdàn"],
+    "correctIndex": 2,
+    "gloss": "In 1859, in which town was 'Ìwé Ìròhìn', the first newspaper in Yoruba, published? — Abeokuta (by the missionary Henry Townsend). Badagry is the trap: the missionaries landed there first, in 1842."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú ìwé “Moby-Dick” ti Herman Melville, ta ni ọ̀gá ọkọ̀ ojú-omi tí ó ń lépa ẹja àbùùbùtán funfun náà?",
+    "options": ["Ishmael", "Starbuck", "Ahab", "Queequeg"],
+    "correctIndex": 2,
+    "gloss": "In Herman Melville's 'Moby-Dick', who is the ship's captain hunting the white whale? — Ahab. Ishmael is the narrator, Starbuck the first mate, Queequeg the harpooner."
+  }
+]

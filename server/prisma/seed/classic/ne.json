@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "उखानअनुसार नाच्न नजान्नेले आँगनलाई कस्तो भन्छ?",
+    "options": ["सानो", "चिप्लो", "टेढो", "फोहोर"],
+    "correctIndex": 2,
+    "gloss": "According to the proverb, what does one who can't dance call the courtyard? — Crooked: «नाच्न नजान्ने आँगन टेढो», blaming the tools."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संसारका राष्ट्रिय झन्डामध्ये आयताकार नभएको एक मात्र झन्डा नेपालको हो। यो कतिवटा त्रिकोण मिलेर बनेको छ?",
+    "options": ["एउटा", "दुईवटा", "तीनवटा", "चारवटा"],
+    "correctIndex": 1,
+    "gloss": "Nepal's is the only non-rectangular national flag. How many triangles is it made of? — Two stacked pennants."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "विद्यालय, पुस्तकालय र देवालयमा जस्तै ‘हिमालय’ मा पनि ‘आलय’ लुकेको छ। त्यसो भए ‘हिमालय’ को शाब्दिक अर्थ के हो?",
+    "options": ["हिउँको घर", "हिउँको नदी", "हिउँको टाकुरा", "हिउँको आँधी"],
+    "correctIndex": 0,
+    "gloss": "Like school (vidyalaya), library and temple, 'Himalaya' hides 'alaya'. What does it literally mean? — Abode of snow: him (snow) + alaya (dwelling), as the clue words show."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हामीले सास फेर्दा बाहिर फाल्ने कुन ग्यासबाट बोटबिरुवाले आफ्नो खाना बनाउँछन्?",
+    "options": ["अक्सिजन", "नाइट्रोजन", "हाइड्रोजन", "कार्बन डाइअक्साइड"],
+    "correctIndex": 3,
+    "gloss": "Which gas that we breathe out do plants use to make their food? — Carbon dioxide, in photosynthesis."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "चितवनको जङ्गलमा पाइने कुन ठूलो जनावरको नाकमाथि एउटा मात्र सिङ हुन्छ?",
+    "options": ["बाघ", "गैँडा", "हात्ती", "गौरीगाई"],
+    "correctIndex": 1,
+    "gloss": "Which large animal of Chitwan's forests has a single horn on its nose? — The greater one-horned rhinoceros."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दसैँमा टीकासँगै शिरमा सिउरिने पहेँलो अङ्कुरलाई के भनिन्छ?",
+    "options": ["दुबो", "कुश", "जमरा", "तुलसी"],
+    "correctIndex": 2,
+    "gloss": "What are the yellow shoots worn on the head with the tika at Dashain called? — Jamara, barley/maize sprouts grown in the dark from Ghatasthapana."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "इमेल ठेगानामा प्रयोगकर्ताको नाम र डोमेनलाई कुन चिन्हले छुट्याउँछ?",
+    "options": ["@", "#", "&", "%"],
+    "correctIndex": 0,
+    "gloss": "Which sign separates the user name from the domain in an email address? — @."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "उनन्तीस भनेको २९ र उनन्चालीस भनेको ३९ हो। त्यही ढाँचामा ‘उनन्साठी’ कति हो?",
+    "options": ["६१", "४९", "६९", "५९"],
+    "correctIndex": 3,
+    "gloss": "'Unantis' is 29 and 'unanchalis' is 39. By the same pattern, what is 'unansathi'? — 59: 'unan-' means one less than the next ten, and sathi is 60."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "क्रिकेटमा ब्याट्सम्यानले हानेको बल भुइँ नछोई सिधै सीमारेखाबाहिर पुग्यो भने कति रन पाइन्छ?",
+    "options": ["दुई", "चार", "छ", "आठ"],
+    "correctIndex": 2,
+    "gloss": "In cricket, if the batter's hit clears the boundary without touching the ground, how many runs? — Six; four is when it bounces first."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "घमाइलो साँझ घाम अस्ताउन लाग्दा खुला चौरमा उभिएको तपाईंको छाया कुन दिशातिर लम्बिन्छ?",
+    "options": ["पश्चिम", "पूर्व", "उत्तर", "दक्षिण"],
+    "correctIndex": 1,
+    "gloss": "On a sunny evening as the sun sets, which way does your shadow stretch? — East: the sun sets in the west, so the shadow points away from it. 'West' catches autopilot."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘साढे दुई’ भनेको २:३० र ‘सवा दुई’ भनेको २:१५ हो। त्यसो भए ‘पौने दुई’ बजेको भनेको कति हो?",
+    "options": ["१:१५", "१:३०", "२:४५", "१:४५"],
+    "correctIndex": 3,
+    "gloss": "'Sadhe dui' is 2:30 and 'sawa dui' is 2:15. What time is 'paune dui'? — 1:45: paune means a quarter less. 2:45 tempts those who add instead."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "सूर्यको सबैभन्दा नजिक भए पनि सौर्यमण्डलको सबैभन्दा तातो ग्रह नहुने ग्रह कुन हो?",
+    "options": ["बुध", "शुक्र", "मङ्गल", "पृथ्वी"],
+    "correctIndex": 0,
+    "gloss": "Which planet is the closest to the Sun, yet not the hottest in the Solar System? — Mercury; Venus is hotter because of its thick atmosphere."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "नेपाली नयाँ वर्ष वैशाख १ गते लाग्छ, तर सरकारी आर्थिक वर्ष साउन १ गतेदेखि सुरु हुन्छ। नयाँ वर्ष लागेको कति महिनापछि आर्थिक वर्ष सुरु हुन्छ?",
+    "options": ["दुई", "तीन", "चार", "पाँच"],
+    "correctIndex": 1,
+    "gloss": "The Nepali New Year starts on Baisakh 1, the fiscal year on Shrawan 1. How many months later? — Three: Baisakh, Jestha, Asar, then Shrawan."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "अन्तरिक्षमा जतिसुकै ठूलो विस्फोट भए पनि आवाज सुनिँदैन। ध्वनि कुन माध्यममा यात्रा गर्न सक्दैन?",
+    "options": ["पानीमा", "फलाममा", "निर्वातमा", "हावामा"],
+    "correctIndex": 2,
+    "gloss": "No explosion in space can be heard. Through what can sound not travel? — A vacuum; sound needs matter to carry it."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ल्हासा गएको मदन र घरमा पर्खिरहेकी मुनाको कथा ‘मुनामदन’ कसले लेखेका हुन्?",
+    "options": ["लक्ष्मीप्रसाद देवकोटा", "लेखनाथ पौड्याल", "बालकृष्ण सम", "भानुभक्त आचार्य"],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Muna Madan', the story of Madan who went to Lhasa and Muna who waited at home? — Laxmi Prasad Devkota."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "सन् १९५३ मा तेन्जिङ नोर्गे शेर्पासँगै पहिलो पटक सगरमाथाको चुचुरोमा पुग्ने पर्वतारोही को थिए?",
+    "options": ["जर्ज मालोरी", "जोन हन्ट", "रेनहोल्ड मेस्नर", "एडमन्ड हिलारी"],
+    "correctIndex": 3,
+    "gloss": "Who reached the summit of Everest first with Tenzing Norgay Sherpa in 1953? — Edmund Hillary. John Hunt led the expedition but did not summit."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "चमेरोले निस्पट्ट अँध्यारोमा पनि उड्दाउड्दै साना कीरा कसरी पत्ता लगाउँछ?",
+    "options": ["शरीरको ताप देखेर", "पखेटाले हावाको कम्पन छामेर", "आफ्नै आवाजको प्रतिध्वनि सुनेर", "पृथ्वीको चुम्बकीय शक्ति थाहा पाएर"],
+    "correctIndex": 2,
+    "gloss": "How does a bat find small insects in flight in pitch darkness? — By hearing the echo of its own calls (echolocation)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "धेरैजसो एम्बुलेन्सको अगाडिपट्टि अङ्ग्रेजीमा लेखिएको नाम ऐनामा देखिएजस्तो उल्टो हुन्छ। किन?",
+    "options": ["राति बत्तीमा राम्ररी चम्कियोस् भनेर", "अगाडिको चालकले ऐनामा सुल्टो पढोस् भनेर", "भित्रका बिरामीले सुल्टो पढून् भनेर", "पैदलयात्रीले टाढैबाट चिनून् भनेर"],
+    "correctIndex": 1,
+    "gloss": "Why is the word on the front of many ambulances written mirror-reversed? — So the driver ahead reads it the right way round in the rear-view mirror."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दसैँसँग जोडिएको कथाअनुसार देवी दुर्गाले कुन असुरको वध गरेकी थिइन्?",
+    "options": ["महिषासुर", "कंस", "हिरण्यकशिपु", "बकासुर"],
+    "correctIndex": 0,
+    "gloss": "In the story behind Dashain, which demon did the goddess Durga slay? — Mahishasura. Kansa fell to Krishna, Hiranyakashipu to Narasimha, Bakasura to Bhima."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "आज नेपाली भान्साको अभिन्न अङ्ग बनेको आलुको खेती सबैभन्दा पहिले कुन महादेशमा सुरु भएको थियो?",
+    "options": ["एसिया", "युरोप", "अफ्रिका", "दक्षिण अमेरिका"],
+    "correctIndex": 3,
+    "gloss": "The potato is now central to Nepali cooking. On which continent was it first farmed? — South America, in the Andes."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "गुन्द्रुक हरियो सागपात कुहाएर सुकाइन्छ। त्यसैगरी कुहाएर सुकाइने सिन्की केबाट बनाइन्छ?",
+    "options": ["रायोको साग", "मुला", "तोरीको साग", "बन्दा"],
+    "correctIndex": 1,
+    "gloss": "Gundruk is fermented and dried leafy greens. What is sinki, made the same way, made from? — Radish (the root); mustard and rayo leaves go into gundruk."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘टाइटानिक’ र ‘अवतार’ दुवै फिल्मका निर्देशक को हुन्?",
+    "options": ["स्टिभन स्पिलबर्ग", "क्रिस्टोफर नोलन", "पिटर ज्याक्सन", "जेम्स क्यामरन"],
+    "correctIndex": 3,
+    "gloss": "Who directed both 'Titanic' and 'Avatar'? — James Cameron."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "तेह्रौँ शताब्दीमा कुब्लाई खानको दरबारमा पुगेर बेइजिङको प्रसिद्ध सेतो स्तूप बनाउने नेपाली कलाकार को हुन्?",
+    "options": ["अरनिको", "भृकुटी", "अंशुवर्मा", "जयस्थिति मल्ल"],
+    "correctIndex": 0,
+    "gloss": "Which Nepali artist went to Kublai Khan's court in the 13th century and built Beijing's famous White Stupa? — Araniko (Miaoying Temple, 1279). Bhrikuti is the princess who went to Tibet."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "एउटा प्रतियोगितामा चार टोली छन्, र हरेक टोलीले बाँकी प्रत्येक टोलीसँग एक-एक पटक खेल्छ। जम्मा कति खेल हुन्छन्?",
+    "options": ["चार", "आठ", "छ", "बाह्र"],
+    "correctIndex": 2,
+    "gloss": "Four teams, each plays every other once. How many matches? — Six: 4×3÷2. Twelve counts every match twice."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संसारमा ८,००० मिटरभन्दा अग्ला १४ हिमशिखर छन्। तीमध्ये कतिवटा नेपालभित्र वा नेपालको सीमामा पर्छन्?",
+    "options": ["पाँच", "आठ", "दस", "बाह्र"],
+    "correctIndex": 1,
+    "gloss": "Of the 14 peaks above 8,000 m, how many are in Nepal or on its border? — Eight: Everest, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, Annapurna."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "१०० मिटर लामो सडकको एकापट्टि हरेक १० मिटरमा बत्तीको खम्बा गाडिँदै छ, सडकका दुवै छेउमा पनि। जम्मा कतिवटा खम्बा चाहिन्छन्?",
+    "options": ["९", "१०", "१२", "११"],
+    "correctIndex": 3,
+    "gloss": "A pole every 10 m along one side of a 100 m road, including both ends. How many poles? — 11: ten gaps need eleven poles. Ten is the autopilot answer."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "पानीमा बस्ने जीवलाई ‘जलचर’ र जमिनमा बस्नेलाई ‘स्थलचर’ भनिन्छ। त्यसो भए ‘नभचर’ कस्ता जीव हुन्?",
+    "options": ["आकाशमा उड्ने जीव", "रातमा चर्ने जीव", "जङ्गलमा बस्ने जीव", "माटोमुनि बस्ने जीव"],
+    "correctIndex": 0,
+    "gloss": "Water creatures are 'jalachar', land creatures 'sthalachar'. What are 'nabhachar'? — Creatures of the sky (birds): nabha means sky; the pattern gives -char, the knowledge gives nabha."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "अग्लो हिमाली भेगमा पानी १०० डिग्री सेल्सियस नपुग्दै उम्लिन्छ, त्यसैले दाल पकाउन धेरै समय लाग्छ। यसको कारण के हो?",
+    "options": ["हावामा अक्सिजन कम हुनु", "हावा धेरै चिसो हुनु", "हावाको चाप कम हुनु", "हिउँ पग्लिएको पानी हलुका हुनु"],
+    "correctIndex": 2,
+    "gloss": "High in the Himalaya water boils below 100 °C, so lentils take long to cook. Why? — Lower air pressure lowers the boiling point. Thin oxygen is true but not the cause."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "सरगमको ‘सा’ लाई पश्चिमी संगीतमा ‘डो’ भनिन्छ। त्यसो भए ‘प’ लाई पश्चिमी संगीतमा के भनिन्छ?",
+    "options": ["फा", "सो", "ला", "मि"],
+    "correctIndex": 1,
+    "gloss": "Sargam's 'sa' is 'do' in Western solfège. What is 'pa'? — 'So': pa is the fifth note (sa re ga ma pa), and so is the fifth of do re mi fa so."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "मुखैसम्म पानी भरिएको गिलासमा बरफका टुक्रा तैरिरहेका छन्। बरफ पूरै पग्लिएपछि पानीको सतह के हुन्छ?",
+    "options": ["उस्तै रहन्छ", "बढेर पोखिन्छ", "अलिकति घट्छ", "पहिले घटेर फेरि बढ्छ"],
+    "correctIndex": 0,
+    "gloss": "Ice floats in a glass filled to the brim. When it melts completely, what happens to the water level? — It stays the same: floating ice displaces exactly its own weight of water."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पाटन दरबार क्षेत्रमा रहेको ढुङ्गाको कृष्ण मन्दिर कुन वास्तुशैलीमा बनेको छ?",
+    "options": ["प्यागोडा", "गुम्बज", "स्तूप", "शिखर"],
+    "correctIndex": 3,
+    "gloss": "In which architectural style is the stone Krishna Mandir in Patan Durbar Square built? — Shikhara (1637, Siddhi Narasimha Malla), unlike the square's pagoda temples."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "हामीले दैनिक बोल्ने ‘बजार’, ‘हप्ता’ र ‘कागज’ शब्द नेपालीमा कुन भाषाबाट आएका हुन्?",
+    "options": ["संस्कृत", "पोर्तुगाली", "फारसी", "तिब्बती"],
+    "correctIndex": 2,
+    "gloss": "From which language did the everyday words bazar (market), hapta (week) and kagaj (paper) come into Nepali? — Persian (bāzār, hafta, kāghaz)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "एउटै राजाज्ञा तीन लिपिमा कुँदिएको कुन ढुङ्गाले मिश्रको चित्रलिपि पढ्ने बाटो खोलिदियो?",
+    "options": ["बेहिस्तुन शिलालेख", "रोसेटा ढुङ्गा", "हम्मुराबीको स्तम्भ", "अशोक स्तम्भ"],
+    "correctIndex": 1,
+    "gloss": "Which stone, carved with one decree in three scripts, opened the way to reading Egyptian hieroglyphs? — The Rosetta Stone. Behistun is also trilingual but unlocked cuneiform."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नेपालको सबैभन्दा होचो भूभाग मानिने केचनाकलान कुन जिल्लामा पर्छ?",
+    "options": ["झापा", "मोरङ", "सप्तरी", "बाँके"],
+    "correctIndex": 0,
+    "gloss": "In which district is Kechana Kalan, regarded as Nepal's lowest point? — Jhapa."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "क्युबाली बूढो माझी सान्तियागो र एउटा विशाल माछाको कथा ‘द ओल्ड म्यान एन्ड द सी’ कसले लेखेका हुन्?",
+    "options": ["जोन स्टाइनबेक", "विलियम फक्नर", "मार्क ट्वेन", "अर्नेस्ट हेमिङ्वे"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'The Old Man and the Sea', about the old Cuban fisherman Santiago and a giant fish? — Ernest Hemingway."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "लगभग पूरै बहिरो भइसकेपछि पनि नवौँ सिम्फनी रच्ने संगीतकार को हुन्?",
+    "options": ["मोजार्ट", "बिथोभन", "बाख", "चाइकोभ्स्की"],
+    "correctIndex": 1,
+    "gloss": "Which composer wrote his Ninth Symphony when almost completely deaf? — Beethoven (premiered 1824)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बाँस रूखजत्तिकै अग्लो र कडा हुन्छ, तर वनस्पतिशास्त्रले यसलाई कुन परिवारमा राख्छ?",
+    "options": ["ताड", "उन्यू", "घाँस", "सल्ला"],
+    "correctIndex": 2,
+    "gloss": "Bamboo is as tall and hard as a tree, but which family does botany put it in? — The grasses (Poaceae)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "कम्प्युटरले प्रयोग गर्ने द्विआधारी (बाइनरी) प्रणालीमा लेखिएको ‘१०१’ हाम्रो सामान्य गन्तीमा कति हो?",
+    "options": ["५", "३", "७", "१०१"],
+    "correctIndex": 0,
+    "gloss": "What is '101' in the binary system computers use, in ordinary decimal? — 5: 1×4 + 0×2 + 1×1. Needs knowing place values are powers of two."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "विक्रम संवत्को नयाँ वर्ष अप्रिलको मध्यतिर लाग्छ। सन् २००० को जनवरी १ तारिखमा विक्रम संवत्को कुन साल चलिरहेको थियो?",
+    "options": ["२०५५", "२०५७", "२०४३", "२०५६"],
+    "correctIndex": 3,
+    "gloss": "The Bikram Sambat new year falls in mid-April. Which BS year was it on 1 January 2000? — 2056 (Poush). BS is AD+57 only after mid-April; 2057 began on 13 April 2000."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "मारी र पियर क्युरीले मारीको जन्मभूमिको सम्मानमा कुन तत्वको नाम राखेका थिए?",
+    "options": ["फ्रान्सियम", "जर्मेनियम", "पोलोनियम", "रुथेनियम"],
+    "correctIndex": 2,
+    "gloss": "Which element did Marie and Pierre Curie name in honour of Marie's homeland? — Polonium, for Poland. Francium (France) is the trap: she worked in France but was born in Warsaw."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "नेपालको प्रामाणिक समय ग्रीनविचभन्दा ५ घण्टा ४५ मिनेट अगाडि छ। यो समय कुन देशान्तरको स्थानीय सौर्य समयसँग मेल खान्छ?",
+    "options": ["८६°१५′ पूर्व", "८२°३०′ पूर्व", "८०° पूर्व", "९०° पूर्व"],
+    "correctIndex": 0,
+    "gloss": "Nepal Standard Time is 5 h 45 min ahead of Greenwich. Which meridian's local solar time is that? — 86°15′ E: 15° per hour × 5.75 h. 82°30′ is India's meridian (+5:30)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "भानुभक्त आचार्यले नेपालीमा लेखेको ‘रामायण’ मूलतः कुन संस्कृत ग्रन्थमा आधारित छ?",
+    "options": ["वाल्मीकि रामायण", "आनन्द रामायण", "योगवासिष्ठ", "अध्यात्म रामायण"],
+    "correctIndex": 3,
+    "gloss": "Which Sanskrit text is Bhanubhakta Acharya's Nepali Ramayana chiefly based on? — The Adhyatma Ramayana, not Valmiki's."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "म्याराथनको दूरी ४२.१९५ किलोमिटर कुन ओलम्पिकमा दौडिएको दूरीबाट पछि मानक बनेको हो?",
+    "options": ["एथेन्स, १८९६", "लन्डन, १९०८", "पेरिस, १९००", "स्टकहोम, १९१२"],
+    "correctIndex": 1,
+    "gloss": "The marathon's 42.195 km became standard after the distance run at which Olympics? — London 1908; fixed as the standard in 1921. Earlier Games ran about 40 km."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "संसारकै महँगो मसलामध्ये गनिने केसर क्रोकस फूलको कुन भाग सुकाएर बनाइन्छ?",
+    "options": ["पुंकेसर", "पराग", "वर्तिकाग्र", "पंखुडी"],
+    "correctIndex": 2,
+    "gloss": "Saffron, among the world's costliest spices, is the dried form of which part of the crocus flower? — The stigma. 'Punkesar' (stamen) is the trap the word kesar invites."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नेपालीमा ‘ज्ञ’ लाई प्रायः ‘ग्य’ जस्तो उच्चारण गरिन्छ। तर यो संयुक्त अक्षर मूल रूपमा कुन दुई वर्ण मिलेर बनेको हो?",
+    "options": ["ज् + ञ", "ग् + य", "ज् + न", "ग् + ञ"],
+    "correctIndex": 0,
+    "gloss": "In Nepali 'ज्ञ' is usually pronounced like 'gya'. Which two letters is the conjunct actually made of? — ज् + ञ (j + ña); the pronunciation tempts ग् + य."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "न्युयोर्कको स्ट्याच्यु अफ लिबर्टीको तामाको बाहिरी रूप एक मूर्तिकारले बनाए, तर भित्री फलामे ढाँचा कुन इन्जिनियरले डिजाइन गरे?",
+    "options": ["फ्रेडेरिक बार्थोल्डी", "शार्ल गार्नियर", "जर्ज–युजिन हाउसम्यान", "गुस्ताभ आइफल"],
+    "correctIndex": 3,
+    "gloss": "A sculptor shaped the Statue of Liberty's copper skin, but which engineer designed its inner iron framework? — Gustave Eiffel. Bartholdi is the sculptor."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "सन् १९८९ मा युरोपको सर्न प्रयोगशालामा काम गर्दै गर्दा वर्ल्ड वाइड वेबको प्रस्ताव लेख्ने वैज्ञानिक को हुन्?",
+    "options": ["भिन्ट सर्फ", "टिम बर्नर्स-ली", "बिल गेट्स", "लिनस टोर्भाल्ड्स"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the proposal for the World Wide Web in 1989 while working at CERN? — Tim Berners-Lee. Vint Cerf co-designed the internet's protocols, not the web."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "काठमाडौँबाट पृथ्वीको केन्द्र हुँदै सिधा प्वाल खन्दै गए पृथ्वीको अर्कोपट्टि कहाँ निस्किइन्छ?",
+    "options": ["अटलान्टिक महासागर", "हिन्द महासागर", "प्रशान्त महासागर", "दक्षिणी महासागर"],
+    "correctIndex": 2,
+    "gloss": "Dig straight through the Earth's centre from Kathmandu: where do you come out? — The Pacific: the antipode of 27.7° N 85.3° E is 27.7° S 94.7° W, about 2,000 km off Chile."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "तिब्बती भाषामा ‘गर्मीमा घाँस, जाडोमा कीरा’ अर्थ दिने यार्सागुम्बा वास्तवमा के हो?",
+    "options": ["कीराको लार्भामा उम्रने ढुसी", "हिमाली घाँसको सुकेको जरा", "कीराको फुकालिएको खोल", "चिसो पानीमा हुने लेउ"],
+    "correctIndex": 0,
+    "gloss": "Yarsagumba, Tibetan for 'summer grass, winter worm', is really what? — A fungus (Ophiocordyceps sinensis) that grows from a ghost-moth caterpillar it has infected."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ग्रीक पौराणिक कथामा, हेर्नेलाई ढुङ्गा बनाइदिने मेड्युसाको टाउको काट्ने वीर को हुन्?",
+    "options": ["हर्क्युलिस", "थिसियस", "जेसन", "पर्सियस"],
+    "correctIndex": 3,
+    "gloss": "In Greek myth, which hero cut off the head of Medusa, whose gaze turned people to stone? — Perseus."
+  }
+]
