@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Gratis aanlyn speletjie in Afrikaans · vrae geskryf deur kunsmatige intelligensie",
-    "heroTitle": "Wie wil 'n miljoenêr wees?",
+    "heroTitle": "Miljoenêr",
     "demoQuestion": "Watter land het die meeste tydsones?",
     "modesTitle": "Drie maniere om te speel",
     "lifelinesTitle": "Vier hulplyne, elkeen net een keer",
@@ -112,7 +112,7 @@
     "faq5Answer": "Meld aan met Google en speel 'n ranglysrondte in Marathon of Teen die klok. Elke antwoord word deur ons bediener nagegaan, sodat die ranglys regverdig bly.",
     "faq6Question": "Is dit die amptelike spel van die TV-program?",
     "faq6Answer": "Nee. Miljoenêrvasvra is 'n onafhanklike spel deur aanhangers gemaak, geïnspireer deur die klassieke formaat van die vasvraprogram.",
-    "faqLanguageQuestion": "Kan ek “Wie wil 'n miljoenêr wees?” in Afrikaans speel?",
+    "faqLanguageQuestion": "Kan ek “Miljoenêr” in Afrikaans speel?",
     "faqLanguageAnswer": "Ja — dit is die Afrikaanse weergawe van die speletjie. Elke vraag is in Afrikaans vir Afrikaanssprekendes geskryf eerder as vertaal, en elke modus en hulplyn is gratis. Die speletjie is ook beskikbaar in 79 ander tale.",
     "languagesTitle": "Speel in U taal",
     "languagesSubtitle": "Elke taal het sy eie vrae, inheemse geskryf — nie vertaal nie."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "wie wil 'n miljoenêr wees speletjie, wie wil 'n miljoenêr wees in afrikaans, miljoenêr speletjie aanlyn, miljoenêrvasvra, vasvra speletjie, gratis vasvra, trivia",
     "showTitle": "Wie wil 'n miljoenêr wees?",
-    "homeTitle": "Wie wil 'n miljoenêr wees? Gratis aanlyn speletjie in Afrikaans | Miljoenêrvasvra",
-    "homeDescription": "Speel “Wie wil 'n miljoenêr wees?” gratis aanlyn in Afrikaans: 15 vrae tot die miljoen, vier hulplyne en twee veilige hawens, met vrae wat in Afrikaans geskryf is, nie vertaal nie. Geen aanmelding nie. Ook in 79 ander tale.",
+    "homeTitle": "Miljoenêr Gratis aanlyn speletjie in Afrikaans | Miljoenêrvasvra",
+    "homeDescription": "Speel “Miljoenêr” gratis aanlyn in Afrikaans: 15 vrae tot die miljoen, vier hulplyne en twee veilige hawens, met vrae wat in Afrikaans geskryf is, nie vertaal nie. Geen aanmelding nie. Ook in 79 ander tale.",
     "playTitle": "Klassieke miljoenêrvasvra – 15 vrae tot die miljoen",
     "playDescription": "Klim die geldleer van {first} tot {top}: vyftien vrae, twee veilige vlakke, vier hulplyne. Gratis, sonder registrasie, in u taal.",
     "marathonTitle": "Marathonvasvra – hoe lank hou u uit?",

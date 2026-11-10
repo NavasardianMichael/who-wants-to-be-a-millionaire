@@ -19,7 +19,7 @@ pnpm test:unit                # fast, no database
 pnpm test:integration         # real API against a throwaway millionaire_test database
 pnpm test:e2e                 # Playwright, needs `pnpm dev` running
 pnpm check:messages           # all 79 catalogues match en.json (keys, placeholders, plurals)
-pnpm i18n:sync [locales]      # Gemini-fills keys added to en.json since the last translation
+pnpm i18n:sync [locales]      # Gemini-fills keys added to en.json — ask first; it spends the key
 pnpm i18n:formats             # regenerate src/i18n/numberFormats.ts (money/number patterns) from Node's ICU
 pnpm export:fallback          # copy the English bank to public/packs/fallback-en.json
 pnpm pwa:screenshots [url]    # recapture the install-dialog screenshots (production gives the cleanest shots)
@@ -79,9 +79,16 @@ Per-layer rules: `src/CLAUDE.md` (web) and `server/CLAUDE.md` (API).
   original message. Never render a server's English message. A deliberate silence goes
   through `reportError`.
 - **Every user-visible string** is in `src/messages/en.json`, then synced to the 79 other
-  catalogues (`pnpm i18n:sync`, then `pnpm check:messages`).
+  catalogues. `pnpm i18n:sync` spends Gemini: ask before running it (once per run). Then
+  `pnpm check:messages`, which does not call a model.
+- **Gemini spend** is for writing questions (`questionGen`, the pool, `poolRefill`). Any other
+  Gemini or OpenRouter call — catalogue sync, Friend's Tip during a test, a hand-run refill —
+  waits for an explicit yes. See `.cursor/rules/gemini-spend.mdc`.
 - **No hex outside the token files, no `dark:`, no bare antd `Modal`/`Drawer`, no `var(--ant-*)`
   outside globals.css §2** — `pnpm gates` enforces it.
+- **Tailwind utilities use the canonical v4 name** (`suggestCanonicalClasses`): `bg-linear-to-*`,
+  `wrap-break-word`, `order-0`, and a theme utility when an arbitrary value matches it. Leave
+  existing classes until that line is already being edited. Detail in `src/CLAUDE.md`.
 - **Server-render what crawlers should see.** Client components are islands; pages fetch on
   the server through `src/helpers/serverData.ts`, which degrades to empty when the API is down.
 - Comment only where the purpose is not obvious from the code.

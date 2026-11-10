@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Besplatna mrežna igra na hrvatskom · pitanja pisana umjetnom inteligencijom",
-    "heroTitle": "Tko želi biti milijunaš?",
+    "heroTitle": "Milijunaš",
     "demoQuestion": "Koja država ima najviše vremenskih zona?",
     "modesTitle": "Tri načina igre",
     "lifelinesTitle": "Četiri džokera, svaki jednom",
@@ -112,7 +112,7 @@
     "faq5Answer": "Prijavi se s Googleom i odigraj rangiranu partiju Maratona ili Utrke s vremenom. Naš poslužitelj provjerava svaki odgovor, pa ljestvica ostaje poštena.",
     "faq6Question": "Je li ovo službena igra TV emisije?",
     "faq6Answer": "Ne. Milijunaški kviz je nezavisna igra koju su stvorili obožavatelji, nadahnuta klasičnim televizijskim kvizom.",
-    "faqLanguageQuestion": "Mogu li igrati „Tko želi biti milijunaš?” na hrvatskom?",
+    "faqLanguageQuestion": "Mogu li igrati „Milijunaš” na hrvatskom?",
     "faqLanguageAnswer": "Da — ovo je hrvatska verzija igre. Svako je pitanje napisano na hrvatskom za izvorne govornike umjesto da je prevedeno, a svaki je način igranja i džoker besplatan. Igra je dostupna i na 79 drugih jezika.",
     "languagesTitle": "Igrajte na svom jeziku",
     "languagesSubtitle": "Svaki jezik ima svoja pitanja, pisana izvorno — a ne prevedena."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "tko želi biti milijunaš igra, tko želi biti milijunaš na hrvatskom, milijunaš igra online, milijuhaški kviz, kviz igra, besplatni kviz, trivia",
     "showTitle": "Tko želi biti milijunaš?",
-    "homeTitle": "Tko želi biti milijunaš? Besplatna mrežna igra na hrvatskom | Milijunaški kviz",
-    "homeDescription": "Igrajte „Tko želi biti milijunaš?” besplatno na mreži na hrvatskom: 15 pitanja do milijuna, četiri džokera i dva praga, s pitanjima pisanim na hrvatskom, a ne prevedenim. Bez registracije. Također na 79 drugih jezika.",
+    "homeTitle": "Milijunaš Besplatna mrežna igra na hrvatskom | Milijunaški kviz",
+    "homeDescription": "Igrajte „Milijunaš” besplatno na mreži na hrvatskom: 15 pitanja do milijuna, četiri džokera i dva praga, s pitanjima pisanim na hrvatskom, a ne prevedenim. Bez registracije. Također na 79 drugih jezika.",
     "playTitle": "Milijunaški kviz: Klasik — 15 pitanja do milijuna",
     "playDescription": "Popni se novčanom ljestvicom od {first} do {top}: petnaest pitanja, dva sigurna praga, četiri džokera. Besplatno, bez registracije, na tvom jeziku.",
     "marathonTitle": "Maraton kviz — koliko dugo možeš izdržati?",

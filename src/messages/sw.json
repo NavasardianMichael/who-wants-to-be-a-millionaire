@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Mchezo wa bure mtandaoni kwa Kiswahili · maswali yaliyoandikwa na akili bandia",
-    "heroTitle": "Nani anataka kuwa milionea?",
+    "heroTitle": "Milionea",
     "demoQuestion": "Ni nchi gani yenye kanda nyingi zaidi za saa?",
     "modesTitle": "Njia tatu za kucheza",
     "lifelinesTitle": "Misaada minne, kila mmoja mara moja",
@@ -112,7 +112,7 @@
     "faq5Answer": "Ingia kwa Google na ucheze mzunguko wa ushindani wa Marathoni au Mbio za Muda. Kila jibu hukaguliwa na seva yetu, hivyo ubao wa washindi unabaki wa haki.",
     "faq6Question": "Je, huu ni mchezo rasmi wa kipindi cha TV?",
     "faq6Answer": "Hapana. Chemsha Bongo ya Milionea ni mchezo huru uliotengenezwa na mashabiki, uliohamasishwa na muundo wa kipindi cha chemsha bongo cha zamani.",
-    "faqLanguageQuestion": "Je, ninaweza kucheza “Nani anataka kuwa milionea?” kwa Kiswahili?",
+    "faqLanguageQuestion": "Je, ninaweza kucheza “Milionea” kwa Kiswahili?",
     "faqLanguageAnswer": "Ndiyo — hili ni toleo la Kiswahili la mchezo huu. Kila swali limeandikwa kwa Kiswahili kwa ajili ya wazungumzaji wa Kiswahili badala ya kutafsiriwa, na kila hali na msaada ni vya bure. Mchezo huu unapatikana pia katika lugha nyingine 79.",
     "languagesTitle": "Cheza katika lugha yako",
     "languagesSubtitle": "Kila lugha ina maswali yake yenyewe, yaliyoandikwa kiasili — hayajatafsiriwa."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "mchezo wa nani anataka kuwa milionea, nani anataka kuwa milionea kwa Kiswahili, mchezo wa milionea mtandaoni, Chemsha Bongo ya Milionea, mchezo wa chemsha bongo, chemsha bongo ya bure, maswali ya maarifa",
     "showTitle": "Nani anataka kuwa milionea?",
-    "homeTitle": "Nani anataka kuwa milionea? Mchezo wa bure mtandaoni kwa Kiswahili | Chemsha Bongo ya Milionea",
-    "homeDescription": "Cheza “Nani anataka kuwa milionea?” bure mtandaoni kwa Kiswahili: maswali 15 hadi kufika milioni moja, misaada mine na vituo viwili vya usalama, yakiwa na maswali yaliyoandikwa kwa Kiswahili, hayajatafsiriwa. Hakuna haja ya kujisajili. Pia katika lugha nyingine 79.",
+    "homeTitle": "Milionea Mchezo wa bure mtandaoni kwa Kiswahili | Chemsha Bongo ya Milionea",
+    "homeDescription": "Cheza “Milionea” bure mtandaoni kwa Kiswahili: maswali 15 hadi kufika milioni moja, misaada mine na vituo viwili vya usalama, yakiwa na maswali yaliyoandikwa kwa Kiswahili, hayajatafsiriwa. Hakuna haja ya kujisajili. Pia katika lugha nyingine 79.",
     "playTitle": "Chemsha Bongo ya Milionea: Kawaida — maswali 15 hadi milioni",
     "playDescription": "Panda ngazi ya pesa kuanzia {first} hadi {top}: maswali kumi na tano, viwango salama viwili, misaada minne. Bure, bila kujisajili, kwa lugha yako.",
     "marathonTitle": "Chemsha bongo ya Marathoni — utadumu kwa muda gani?",

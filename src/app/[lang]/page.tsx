@@ -116,7 +116,7 @@ export default async function HomePage() {
 
       <section className='container-page py-12'>
         <Card tone='gold' className='flex flex-col items-center gap-5 py-12 text-center'>
-          <h2 className='text-h1 font-black text-gold-gradient'>{t('Home.heroTitle')}</h2>
+          <h2 className='text-h1 font-black text-gold-gradient'>{t('Common.appName')}</h2>
           <ButtonLink href={ROUTES.play} size='lg'>
             <Play aria-hidden className='size-6' /> {t('Common.playNow')}
           </ButtonLink>

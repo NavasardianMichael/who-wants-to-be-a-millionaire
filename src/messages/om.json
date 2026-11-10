@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Tapha bilisaa Afaan Oromootiin · gaaffileen kalaqa sammuu nama-tolcheetiin qophaa'an",
-    "heroTitle": "Eenyutu abbaa miliyoonaa ta'uu barbaada?",
+    "heroTitle": "Abbaa Miliyoonaa",
     "demoQuestion": "Biyya kamtu naannoo yeroo hunda caalaa baay'ee qaba?",
     "modesTitle": "Karaa taphaa sadii",
     "lifelinesTitle": "Gargaarsota afur, tokkoon tokkoon isaanii al tokko",
@@ -112,7 +112,7 @@
     "faq5Answer": "Google'n seenaatii marsaa sadarkaa Maaratoonii ykn Fiigicha Yeroo taphadhaa. Deebiin hundi sarvarii keenyaan ni mirkanaa'a, kanaaf Gabateen Sadarkaa haqa qabeessa ta'ee tura.",
     "faq6Question": "Kun tapha sagantaa TV sanaa isa beekamtii qabuudhaa?",
     "faq6Answer": "Lakki. Dorgommii Abbaa Miliyoonaa tapha walabaa jaallattoonni hojjetan, kan akkaataa sagantaa dorgommii gaaffii beekamaa sanaan kakaafame dha.",
-    "faqLanguageQuestion": "Tapha „Eenyutu abbaa miliyoonaa ta'uu barbaada?“ Afaan Oromootiin taphachuu danda'aa?",
+    "faqLanguageQuestion": "Tapha „Abbaa Miliyoonaa“ Afaan Oromootiin taphachuu danda'aa?",
     "faqLanguageAnswer": "Eeyyee — kun inni Afaan Oromooti. Gaaffiin hundinuu kan qophaa'e Afaan Oromootiin yoo ta'u, akkaataa dhalootaa Afaan Oromootiin barreeffame malee hiikame miti; moodonnifi gargaarsiniis hundi bilisa. Taphi kun afaanota biroo 79nis ni argama.",
     "languagesTitle": "Afaan keetiin taphadhu",
     "languagesSubtitle": "Afaan hundinuu gaaffilee mataa isaa qaba, kan akkaataa dhalootaatti barreeffame malee kan hiikame miti."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "tapha eenyutu abbaa miliyoonaa ta'uu barbaada, eenyutu abbaa miliyoonaa ta'uu barbaada afaan Oromootiin, tapha miliyoonaa marsariitiirratti, dorgommii abbaa miliyoonaa, tapha gaaffilee, gaaffii bilisaa, trivia",
     "showTitle": "Eenyutu abbaa miliyoonaa ta'uu barbaada?",
-    "homeTitle": "Eenyutu abbaa miliyoonaa ta'uu barbaada? Tapha bilisaa marsariitiirratti Afaan Oromootiin | Dorgommii Abbaa Miliyoonaa",
-    "homeDescription": "Tapha „Eenyutu abbaa miliyoonaa ta'uu barbaada?“ marsariitiirratti Afaan Oromootiin bilisaan taphadhu: gaaffilee 15 gara miliyoonaatti, gargaarsa afurfi bakka buufata nageenyaa lama, gaaffilee Afaan Oromootiin qophaa'an malee kan hiikaman miti. Galmaa'uun hin barbaachisu. Afaanota biroo 79nillee ni argama.",
+    "homeTitle": "Abbaa Miliyoonaa Tapha bilisaa marsariitiirratti Afaan Oromootiin | Dorgommii Abbaa Miliyoonaa",
+    "homeDescription": "Tapha „Abbaa Miliyoonaa“ marsariitiirratti Afaan Oromootiin bilisaan taphadhu: gaaffilee 15 gara miliyoonaatti, gargaarsa afurfi bakka buufata nageenyaa lama, gaaffilee Afaan Oromootiin qophaa'an malee kan hiikaman miti. Galmaa'uun hin barbaachisu. Afaanota biroo 79nillee ni argama.",
     "playTitle": "Kilaasikii Dorgommii Abbaa Miliyoonaa — gaaffilee 15 hanga miliyoonaatti",
     "playDescription": "Gulantaa maallaqaa {first} irraa hanga {top} ol bahaa: gaaffilee kudha shan, buufatawwan nageenyaa lama, gargaarsota afur. Kaffaltii malee, galmee malee, afaan keessaniin.",
     "marathonTitle": "Maaratoonii — hammam turuu dandeessu?",

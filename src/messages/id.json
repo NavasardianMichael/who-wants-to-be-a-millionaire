@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Permainan daring gratis dalam bahasa Indonesia · pertanyaan dibuat oleh kecerdasan buatan",
-    "heroTitle": "Siapa yang ingin jadi miliuner?",
+    "heroTitle": "Miliarder",
     "demoQuestion": "Negara mana yang memiliki zona waktu terbanyak?",
     "modesTitle": "Tiga cara bermain",
     "lifelinesTitle": "Empat bantuan, masing-masing sekali",
@@ -112,7 +112,7 @@
     "faq5Answer": "Masuk dengan Google dan mainkan Maraton atau Adu Waktu berperingkat. Setiap jawaban diperiksa oleh server kami, jadi papan peringkat tetap adil.",
     "faq6Question": "Apakah ini game resmi acara TV-nya?",
     "faq6Answer": "Tidak. Kuis Miliarder adalah permainan independen buatan penggemar yang terinspirasi dari format kuis klasik.",
-    "faqLanguageQuestion": "Bisakah saya bermain “Siapa yang ingin jadi miliuner?” dalam bahasa Indonesia?",
+    "faqLanguageQuestion": "Bisakah saya bermain “Miliarder” dalam bahasa Indonesia?",
     "faqLanguageAnswer": "Ya — ini adalah versi bahasa Indonesia dari permainan ini. Setiap pertanyaan ditulis dalam bahasa Indonesia untuk penutur bahasa Indonesia alih-alih diterjemahkan, dan setiap mode serta bantuan tidak dipungut biaya. Permainan ini juga tersedia dalam 79 bahasa lainnya.",
     "languagesTitle": "Bermain dalam bahasa Anda",
     "languagesSubtitle": "Setiap bahasa memiliki pertanyaannya sendiri, ditulis secara asli — bukan diterjemahkan."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "permainan who wants to be a millionaire, who wants to be a millionaire dalam bahasa Indonesia, permainan miliarder online, kuis miliarder, permainan kuis, kuis gratis, trivia",
     "showTitle": "Siapa yang ingin jadi miliuner?",
-    "homeTitle": "Siapa yang ingin jadi miliuner? Permainan daring gratis dalam bahasa Indonesia | Kuis Miliarder",
-    "homeDescription": "Mainkan “Siapa yang ingin jadi miliuner?” gratis secara daring dalam bahasa Indonesia: 15 pertanyaan menuju satu juta, empat bantuan dan dua tempat aman, dengan pertanyaan yang ditulis dalam bahasa Indonesia, bukan diterjemahkan. Tanpa pendaftaran. Tersedia juga dalam 79 bahasa lainnya.",
+    "homeTitle": "Miliarder Permainan daring gratis dalam bahasa Indonesia | Kuis Miliarder",
+    "homeDescription": "Mainkan “Miliarder” gratis secara daring dalam bahasa Indonesia: 15 pertanyaan menuju satu juta, empat bantuan dan dua tempat aman, dengan pertanyaan yang ditulis dalam bahasa Indonesia, bukan diterjemahkan. Tanpa pendaftaran. Tersedia juga dalam 79 bahasa lainnya.",
     "playTitle": "Kuis Miliarder Klasik — 15 pertanyaan menuju satu juta dolar",
     "playDescription": "Naiki tangga hadiah dari {first} sampai {top}: lima belas pertanyaan, dua batas aman, empat bantuan. Gratis, tanpa daftar, dalam bahasa Anda.",
     "marathonTitle": "Kuis Maraton — seberapa lama Anda bisa bertahan?",

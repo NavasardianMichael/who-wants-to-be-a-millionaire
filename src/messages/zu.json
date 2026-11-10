@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Umdlalo wamahhala ku-inthanethi ngesiZulu · imibuzo ebhalwe ubuchwepheshe bokuhlakanipha kwesintu",
-    "heroTitle": "Ubani ofuna ukuba usozigidi?",
+    "heroTitle": "Usozigidi",
     "demoQuestion": "Yiliphi izwe elinezindawo zesikhathi eziningi kunawo wonke?",
     "modesTitle": "Izindlela ezintathu zokudlala",
     "lifelinesTitle": "Izinsizo ezine, ngayinye kanye",
@@ -112,7 +112,7 @@
     "faq5Answer": "Ngena nge-Google bese udlala umdlalo wokuqhudelana weMarathoni noma woMjaho Nesikhathi. Yonke impendulo ihlolwa iseva yethu, ngakho uhlu lwabaphambili luhlala lunobulungiswa.",
     "faq6Question": "Ingabe lona ngumdlalo osemthethweni wohlelo lwethelevishini?",
     "faq6Answer": "Cha. Imibuzo Yosozigidi ngumdlalo ozimele owenziwe abalandeli, ogqugquzelwe uhlobo lohlelo lwemibuzo lwakudala.",
-    "faqLanguageQuestion": "Ngiyakwazi yini ukudlala u-“Ubani ofuna ukuba usozigidi?” ngesiZulu?",
+    "faqLanguageQuestion": "Ngiyakwazi yini ukudlala u-“Usozigidi” ngesiZulu?",
     "faqLanguageAnswer": "Yebo — lolu luhlobo lwesiZulu lomdlalo. Yonke imibuzo ibhalwe ngesiZulu yabantu abakhuluma isiZulu esikhundleni sokuhunyushwa, futhi yonke imodi kanye nosizo lukhona mahhala. Umdlalo utholakala nakwezinye izilimi ezingama-79.",
     "languagesTitle": "Dlala ngolimi lwakho",
     "languagesSubtitle": "Ulimi ngalunye lunemibuzo yalo, ebhalwe ngokomdabu — hhayi ngokuhunyushwa."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "umdlalo ka-ubani ofuna ukuba usozigidi, ubani ofuna ukuba usozigidi ngesiZulu, umdlalo wosozigidi ku-inthanethi, imibuzo yosozigidi, umdlalo wemibuzo, imibuzo yamahhala, inhlekisa",
     "showTitle": "Ubani ofuna ukuba usozigidi?",
-    "homeTitle": "Ubani ofuna ukuba usozigidi? Umdlalo wamahhala ku-inthanethi ngesiZulu | Imibuzo Yosozigidi",
-    "homeDescription": "Dlala u-“Ubani ofuna ukuba usozigidi?” mahhala ku-inthanethi ngesiZulu: imibuzo eyi-15 eya esigidini, izinsiza ezine nezindawo ezimbili zokuphepha, enemibuzo ebhalwe ngesiZulu, ingahunywanga. Akukho ukubhalisa. Futhi nakwezinye izilimi ezingama-79.",
+    "homeTitle": "Usozigidi Umdlalo wamahhala ku-inthanethi ngesiZulu | Imibuzo Yosozigidi",
+    "homeDescription": "Dlala u-“Usozigidi” mahhala ku-inthanethi ngesiZulu: imibuzo eyi-15 eya esigidini, izinsiza ezine nezindawo ezimbili zokuphepha, enemibuzo ebhalwe ngesiZulu, ingahunywanga. Akukho ukubhalisa. Futhi nakwezinye izilimi ezingama-79.",
     "playTitle": "Okwakudala — imibuzo engu-15 eya esigidini",
     "playDescription": "Khuphuka isitebhisi semali kusuka ku-{first} kuya ku-{top}: imibuzo eyishumi nanhlanu, iziphephelo ezimbili, izinsizo ezine. Mahhala, akudingeki ubhalise, ngolimi lwakho.",
     "marathonTitle": "Imarathoni — ungabekezela isikhathi esingakanani?",

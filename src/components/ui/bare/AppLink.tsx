@@ -11,7 +11,7 @@ export type AppLinkProps = ComponentProps<typeof Link>
 export const AppLink = ({ className, children, ...rest }: AppLinkProps) => (
   <Link
     className={cn(
-      'has-[[data-link-pending]]:animate-link-pending has-[[data-link-pending]]:cursor-progress',
+      'has-data-link-pending:animate-link-pending has-data-link-pending:cursor-progress',
       className as string | undefined
     )}
     {...rest}

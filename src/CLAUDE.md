@@ -55,3 +55,8 @@
   respects `prefers-reduced-motion` (global rule in §10, `useReducedMotion` in components).
 - Accessibility: every icon-only control has a label; state is never colour-only; live regions
   announce results, lifeline outcomes and the 10 s / 5 s timer thresholds.
+- Tailwind classes use the canonical v4 name the language service suggests
+  (`suggestCanonicalClasses`). Write `bg-linear-to-*`, `wrap-break-word`, and `order-0`. Prefer a
+  theme utility over an equal arbitrary value, a bare variant (`data-open`, `aria-checked`,
+  `supports-display`) over the bracket form, and `*:` / `**:` over `[&>*]:` / `[&_*]:`. Leave
+  existing classes until that line is already being edited.

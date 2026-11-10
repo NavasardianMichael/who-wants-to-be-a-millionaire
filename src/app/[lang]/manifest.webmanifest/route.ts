@@ -27,6 +27,12 @@ const SCREENSHOTS = [
   { name: 'categories', label: 'Seo.categoriesTitle' },
 ] as const
 
+/** Phone shots listed ahead of the set above: the game, then the home screen with the three modes. */
+const LEADING_MOBILE = [
+  { name: 'mobile-game', label: 'Modes.classic.tagline' },
+  { name: 'mobile-home', label: 'Common.tagline' },
+] as const
+
 const FORM_FACTORS = {
   narrow: { sizes: '780x1688' },
   wide: { sizes: '1920x1380' },
@@ -68,15 +74,25 @@ export async function GET(_request: Request, { params }: { params: Promise<{ lan
       { src: '/icon-maskable', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
     ],
     // English screens for every locale: one set to keep current instead of eighty.
-    screenshots: Object.entries(FORM_FACTORS).flatMap(([formFactor, { sizes }]) =>
-      SCREENSHOTS.map(({ name, label }) => ({
-        src: `/screenshots/${name}-${formFactor}.jpg`,
-        sizes,
-        type: 'image/jpeg',
-        form_factor: formFactor as 'narrow' | 'wide',
+    // The two phone shots come first; the home, game, languages and categories set follows.
+    screenshots: [
+      ...LEADING_MOBILE.map(({ name, label }) => ({
+        src: `/screenshots/${name}-narrow.jpg`,
+        sizes: FORM_FACTORS.narrow.sizes,
+        type: 'image/jpeg' as const,
+        form_factor: 'narrow' as const,
         label: t(label),
-      }))
-    ),
+      })),
+      ...Object.entries(FORM_FACTORS).flatMap(([formFactor, { sizes }]) =>
+        SCREENSHOTS.map(({ name, label }) => ({
+          src: `/screenshots/${name}-${formFactor}.jpg`,
+          sizes,
+          type: 'image/jpeg' as const,
+          form_factor: formFactor as 'narrow' | 'wide',
+          label: t(label),
+        }))
+      ),
+    ],
     shortcuts: [
       shortcut(t('Modes.classic.name'), t('Modes.classic.tagline'), ROUTES.play),
       shortcut(t('Modes.marathon.name'), t('Modes.marathon.tagline'), ROUTES.marathon),

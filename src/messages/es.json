@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Juego en línea gratuito en español · preguntas redactadas por inteligencia artificial",
-    "heroTitle": "¿Quién quiere ser millonario?",
+    "heroTitle": "Millonario",
     "demoQuestion": "¿Qué país tiene más husos horarios?",
     "modesTitle": "Tres formas de jugar",
     "lifelinesTitle": "Cuatro comodines, un uso cada uno",
@@ -112,7 +112,7 @@
     "faq5Answer": "Inicie sesión con Google y juegue una partida clasificatoria de Maratón o Contrarreloj. Nuestro servidor comprueba cada respuesta, así que la clasificación es justa.",
     "faq6Question": "¿Es el juego oficial del programa de televisión?",
     "faq6Answer": "No. Quiz Millonario es un juego independiente hecho por fans, inspirado en el formato del clásico concurso de televisión.",
-    "faqLanguageQuestion": "¿Puedo jugar a «¿Quién quiere ser millonario?» en español?",
+    "faqLanguageQuestion": "¿Puedo jugar a «Millonario» en español?",
     "faqLanguageAnswer": "Sí, esta es la versión en español del juego. Todas las preguntas están redactadas en español para hispanohablantes en lugar de ser traducidas, y todos los modos y comodines son gratuitos. El juego también está disponible en otros 79 idiomas.",
     "languagesTitle": "Juegue en su idioma",
     "languagesSubtitle": "Cada idioma tiene sus propias preguntas, redactadas de forma nativa y no traducidas."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "juego quién quiere ser millonario, quién quiere ser millonario en español, juego de millonario en línea, Quiz Millonario, juego de preguntas, trivial gratis",
     "showTitle": "¿Quién quiere ser millonario?",
-    "homeTitle": "¿Quién quiere ser millonario? Juego en línea gratuito en español | Quiz Millonario",
-    "homeDescription": "Juegue a «¿Quién quiere ser millonario?» gratis en línea en español: 15 preguntas hasta el millón, cuatro comodines y dos asegurados, con preguntas redactadas en español y no traducidas. Sin registro. También en otros 79 idiomas.",
+    "homeTitle": "Millonario Juego en línea gratuito en español | Quiz Millonario",
+    "homeDescription": "Juegue a «Millonario» gratis en línea en español: 15 preguntas hasta el millón, cuatro comodines y dos asegurados, con preguntas redactadas en español y no traducidas. Sin registro. También en otros 79 idiomas.",
     "playTitle": "Quiz Millonario Clásico — 15 preguntas hasta el millón",
     "playDescription": "Suba por la escalera de premios de {first} a {top}: quince preguntas, dos escalones de seguridad, cuatro comodines. Gratis, sin registro y en su idioma.",
     "marathonTitle": "Quiz Maratón: ¿cuánto aguantará?",

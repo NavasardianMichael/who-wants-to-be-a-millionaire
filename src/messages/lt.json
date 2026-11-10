@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Nemokamas internetinis žaidimas lietuvių kalba · klausimus parašė dirbtinis intelektas",
-    "heroTitle": "Kas nori tapti milijonieriumi?",
+    "heroTitle": "Milijonierius",
     "demoQuestion": "Kurioje šalyje yra daugiausia laiko juostų?",
     "modesTitle": "Trys žaidimo būdai",
     "lifelinesTitle": "Keturios pagalbos – kiekviena po vieną kartą",
@@ -112,7 +112,7 @@
     "faq5Answer": "Prisijunk su „Google“ ir sužaisk reitinginį Maratono ar Laiko iššūkio žaidimą. Kiekvieną atsakymą tikrina mūsų serveris, todėl lyderių lentelė išlieka sąžininga.",
     "faq6Question": "Ar tai oficialus televizijos laidos žaidimas?",
     "faq6Answer": "Ne. Milijonieriaus viktorina – nepriklausomas, gerbėjų sukurtas žaidimas, įkvėptas klasikinio televizijos viktorinos formato.",
-    "faqLanguageQuestion": "Ar galiu žaisti „Kas nori tapti milijonieriumi?“ lietuvių kalba?",
+    "faqLanguageQuestion": "Ar galiu žaisti „Milijonierius“ lietuvių kalba?",
     "faqLanguageAnswer": "Taip — tai lietuviška žaidimo versija. Kiekvienas klausimas yra parašytas lietuviškai lietuviškai kalbantiems žaidėjams, o ne išverstas, visi režimai ir pagalbos linijos yra nemokami. Žaidimas taip pat pasiekiamas 79 kitomis kalbomis.",
     "languagesTitle": "Žaiskite savo kalba",
     "languagesSubtitle": "Kiekviena kalba turi savo klausimus, parašytus gimtąja kalba, o ne išverstus."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "kas nori tapti milijonieriumi žaidimas, kas nori tapti milijonieriumi lietuviškai, milijonieriaus žaidimas internete, Milijonieriaus viktorina, viktorinos žaidimas, nemokama viktorina, protmūšis",
     "showTitle": "Kas nori tapti milijonieriumi?",
-    "homeTitle": "Kas nori tapti milijonieriumi? Nemokamas internetinis žaidimas lietuvių kalba | Milijonieriaus viktorina",
-    "homeDescription": "Žaiskite „Kas nori tapti milijonieriumi?“ nemokamai internete lietuvių kalba: 15 klausimų iki milijono, keturios pagalbos linijos ir dvi saugios ribos. Klausimai parašyti lietuviškai, o ne išversti. Nereikia registruotis. Taip pat 79 kitomis kalbomis.",
+    "homeTitle": "Milijonierius Nemokamas internetinis žaidimas lietuvių kalba | Milijonieriaus viktorina",
+    "homeDescription": "Žaiskite „Milijonierius“ nemokamai internete lietuvių kalba: 15 klausimų iki milijono, keturios pagalbos linijos ir dvi saugios ribos. Klausimai parašyti lietuviškai, o ne išversti. Nereikia registruotis. Taip pat 79 kitomis kalbomis.",
     "playTitle": "Klasikinė milijonieriaus viktorina – 15 klausimų iki milijono",
     "playDescription": "Kopk laimėjimų laiptais nuo {first} iki {top}: penkiolika klausimų, du saugūs laipteliai, keturios pagalbos. Nemokamai, be registracijos, tavo kalba.",
     "marathonTitle": "Maratono viktorina – kiek ištversi?",

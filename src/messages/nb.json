@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Gratis nettspill på norsk · spørsmål skrevet av kunstig intelligens",
-    "heroTitle": "Vil du bli millionær?",
+    "heroTitle": "Millionær",
     "demoQuestion": "Hvilket land har flest tidssoner?",
     "modesTitle": "Tre måter å spille på",
     "lifelinesTitle": "Fire hjelpemidler, én gang hver",
@@ -112,7 +112,7 @@
     "faq5Answer": "Logg inn med Google og spill en rangert Maraton- eller Mot klokka-runde. Hvert svar kontrolleres av serveren vår, så topplisten forblir rettferdig.",
     "faq6Question": "Er dette det offisielle spillet fra TV-programmet?",
     "faq6Answer": "Nei. Millionærquiz er et uavhengig spill laget av fans, inspirert av det klassiske quizshow-formatet.",
-    "faqLanguageQuestion": "Kan jeg spille «Vil du bli millionær?» på norsk?",
+    "faqLanguageQuestion": "Kan jeg spille «Millionær» på norsk?",
     "faqLanguageAnswer": "Ja – dette er den norske versjonen av spillet. Hvert spørsmål er skrevet på norsk for norsktalende i stedet for å bli oversatt, og alle moduser og livliner er gratis. Spillet er også tilgjengelig på 79 andre språk.",
     "languagesTitle": "Spill på ditt språk",
     "languagesSubtitle": "Hvert språk har sine egne spørsmål, skrevet innfødt – ikke oversatt."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "vil du bli millionær spill, vil du bli millionær på norsk, millionærspill på nett, millionærquiz, quizspill, gratis quiz, trivia",
     "showTitle": "Vil du bli millionær?",
-    "homeTitle": "Vil du bli millionær? Gratis nettspill på norsk | Millionærquiz",
-    "homeDescription": "Spill «Vil du bli millionær?» gratis på nett på norsk: 15 spørsmål til millionen, fire livliner og to sikkerhetsnett, med spørsmål skrevet på norsk, ikke oversatt. Ingen pålogging. Også på 79 andre språk.",
+    "homeTitle": "Millionær Gratis nettspill på norsk | Millionærquiz",
+    "homeDescription": "Spill «Millionær» gratis på nett på norsk: 15 spørsmål til millionen, fire livliner og to sikkerhetsnett, med spørsmål skrevet på norsk, ikke oversatt. Ingen pålogging. Også på 79 andre språk.",
     "playTitle": "Klassisk millionærquiz – 15 spørsmål til millionen",
     "playDescription": "Klatre opp pengestigen fra {first} til {top}: femten spørsmål, to sikre trinn, fire hjelpemidler. Gratis, uten registrering, på ditt språk.",
     "marathonTitle": "Maratonquiz – hvor lenge holder du ut?",

@@ -2,8 +2,9 @@
 /**
  * Fills keys that exist in `en.json` but are missing from other catalogues, using Gemini —
  * for the day a feature adds copy and 79 files fall behind. Keys removed from `en.json` are
- * dropped. Run `pnpm check:messages` afterwards and review the diff before committing:
- * machine output is a draft.
+ * dropped. This spends the Gemini key. Question generation is the only unprompted spend;
+ * an agent asks and waits for a yes before running this script. Run `pnpm check:messages`
+ * afterwards and review the diff before committing: machine output is a draft.
  *
  *   pnpm i18n:sync                                   # every locale, missing keys only
  *   pnpm i18n:sync hy ja                             # just these
@@ -94,8 +95,9 @@ const prompt = (locale, entries, knownName, showTitle) =>
       (knownName ? ` In this language it is "${knownName}".` : ''),
     '- "Who Wants to Be a Millionaire?" (Seo.showTitle) is the TV quiz show\'s title, used only for search: write it as the show is known and searched for in this language (its local edition\'s title where one aired, e.g. German "Wer wird Millionär?", Hindi "कौन बनेगा करोड़पति?").' +
       (showTitle ? ` In this language it is "${showTitle}".` : '') +
-      ' It appears in Seo.showTitle and Seo.keywords only — never in any other value, which names the game by its own name.',
+      ' It appears in Seo.showTitle and Seo.keywords only — never in any other value. Every other value names the game by its own name (the translation of "Millionaire"), never by the TV show\'s title. Home.heroTitle is a translation of "Can you win the million?", never the show\'s title.',
     '- Where the copy says the game or its questions are "in English" or for "English speakers", English stands for the language you are translating into: name that language instead, inflected naturally (Armenian "in English" → "հայերենով", Russian → "на русском"). "79 other languages" stays 79.',
+    '- Never translate the name of a language into another language. Each language is shown by its own name (English, Հայերեն, Português (Brasil)); do not write "Brazilian Portuguese", "Բրազիլական պորտուգալերեն" or any other language\'s name in the language you are translating into. The rule above only renames the language of this catalogue.',
     "- Pwa.shortName is the installed app's label under its home-screen icon: the game's name, or a shorter form of it that stands on its own, ideally at most 12 characters.",
     '- Artificial intelligence ("AI") is always written out in full in the language — never an abbreviation or acronym such as AI, KI, IA or ИИ.',
     "- The lifelines are the game's own (Two Out, Crowd Poll, Friend's Tip, New Question): name them naturally in the language, never with the TV show's lifeline names in that language.",

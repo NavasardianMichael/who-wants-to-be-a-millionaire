@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Bezplatná online hra v češtině · otázky napsané umělou inteligencí",
-    "heroTitle": "Chcete být milionářem?",
+    "heroTitle": "Milionář",
     "demoQuestion": "Která země má nejvíce časových pásem?",
     "modesTitle": "Tři způsoby hry",
     "lifelinesTitle": "Čtyři nápovědy, každá jen jednou",
@@ -112,7 +112,7 @@
     "faq5Answer": "Přihlas se přes Google a zahraj si hodnocenou hru v Maratonu nebo Závodu s časem. Každou odpověď kontroluje náš server, takže žebříček zůstává férový.",
     "faq6Question": "Je to oficiální hra k televiznímu pořadu?",
     "faq6Answer": "Ne. Milionářský kvíz je nezávislá fanouškovská hra inspirovaná klasickým formátem televizní soutěže.",
-    "faqLanguageQuestion": "Mohu hrát „Chcete být milionářem?“ v češtině?",
+    "faqLanguageQuestion": "Mohu hrát „Milionář“ v češtině?",
     "faqLanguageAnswer": "Ano — toto je česká verze hry. Každá otázka je napsána v češtině pro české hráče a není překládána. Všechny režimy i nápovědy jsou zdarma. Hra je k dispozici také v 79 dalších jazycích.",
     "languagesTitle": "Hrajte ve svém jazyce",
     "languagesSubtitle": "Každý jazyk má své vlastní otázky napsané přímo v daném jazyce — nejsou překládané."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "chcete být milionářem hra, chcete být milionářem v češtině, hra milionář online, milionářský kvíz, kvízová hra, bezplatný kvíz, vědomostní hra",
     "showTitle": "Chcete být milionářem?",
-    "homeTitle": "Chcete být milionářem? Bezplatná online hra v češtině | Milionářský kvíz",
-    "homeDescription": "Zahrajte si „Chcete být milionářem?“ online zdarma v češtině: 15 otázek k milionu, čtyři nápovědy a dvě záchytné sítě, s otázkami v češtině, žádný překlad. Bez registrace. Také v 79 dalších jazycích.",
+    "homeTitle": "Milionář Bezplatná online hra v češtině | Milionářský kvíz",
+    "homeDescription": "Zahrajte si „Milionář“ online zdarma v češtině: 15 otázek k milionu, čtyři nápovědy a dvě záchytné sítě, s otázkami v češtině, žádný překlad. Bez registrace. Také v 79 dalších jazycích.",
     "playTitle": "Klasický milionářský kvíz — 15 otázek k milionu",
     "playDescription": "Vyšplhej po peněžním žebříčku od {first} až k {top}: patnáct otázek, dvě jistoty, čtyři nápovědy. Zdarma, bez registrace, ve tvém jazyce.",
     "marathonTitle": "Maratonský kvíz — jak dlouho vydržíš?",

@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Ilmainen verkkopeli suomeksi · tekoälyn kirjoittamat kysymykset",
-    "heroTitle": "Haluatko miljonääriksi?",
+    "heroTitle": "Miljonääri",
     "demoQuestion": "Missä maassa on eniten aikavyöhykkeitä?",
     "modesTitle": "Kolme tapaa pelata",
     "lifelinesTitle": "Neljä oljenkortta, kukin kerran",
@@ -112,7 +112,7 @@
     "faq5Answer": "Kirjaudu sisään Googlella ja pelaa Maratonin tai Aikahaasteen kilpapeli. Palvelimemme tarkistaa jokaisen vastauksen, joten tulostaulu pysyy reiluna.",
     "faq6Question": "Onko tämä TV-ohjelman virallinen peli?",
     "faq6Answer": "Ei ole. Miljonäärivisa on itsenäinen, fanien tekemä peli, joka on saanut inspiraationsa klassisesta tietovisailuformaatista.",
-    "faqLanguageQuestion": "Voinko pelata “Haluatko miljonääriksi?” -peliä suomeksi?",
+    "faqLanguageQuestion": "Voinko pelata “Miljonääri” -peliä suomeksi?",
     "faqLanguageAnswer": "Kyllä — tämä on pelin suomenkielinen versio. Jokainen kysymys on kirjoitettu suomeksi suomen puhujille eikä sitä ole käännetty, ja jokainen pelitila ja oljenkorsi on ilmainen. Peli on saatavilla myös 79 muulla kielellä.",
     "languagesTitle": "Pelaa omalla kielelläsi",
     "languagesSubtitle": "Jokaisella kielellä on omat kysymyksensä, jotka on kirjoitettu alkuperäisesti – ei käännetty."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "haluatko miljonääriksi peli, haluatko miljonääriksi suomeksi, miljonääripeli verkossa, miljonäärivisa, tietokilpailupeli, ilmainen visa, nippelitieto",
     "showTitle": "Haluatko miljonääriksi?",
-    "homeTitle": "Haluatko miljonääriksi? Ilmainen verkkopeli suomeksi | Miljonäärivisa",
-    "homeDescription": "Pelaa “Haluatko miljonääriksi?” -peliä ilmaiseksi verkossa suomeksi: 15 kysymystä miljoonaan, neljä oljenkortta ja kaksi turvapaikkaa. Kysymykset on kirjoitettu suomeksi, ei käännetty. Ei rekisteröitymistä. Saatavilla myös 79 muulla kielellä.",
+    "homeTitle": "Miljonääri Ilmainen verkkopeli suomeksi | Miljonäärivisa",
+    "homeDescription": "Pelaa “Miljonääri” -peliä ilmaiseksi verkossa suomeksi: 15 kysymystä miljoonaan, neljä oljenkortta ja kaksi turvapaikkaa. Kysymykset on kirjoitettu suomeksi, ei käännetty. Ei rekisteröitymistä. Saatavilla myös 79 muulla kielellä.",
     "playTitle": "Klassinen miljonäärivisa – 15 kysymystä miljoonaan",
     "playDescription": "Kiipeä voittoportaita summasta {first} summaan {top}: viisitoista kysymystä, kaksi turvatasoa, neljä oljenkortta. Ilmainen, ei rekisteröitymistä, sinun kielelläsi.",
     "marathonTitle": "Maratonvisa – kuinka pitkälle jaksat?",

@@ -1,0 +1,25 @@
+---
+description: Use Tailwind's canonical utility names so suggestCanonicalClasses stays quiet
+globs: "**/*.{tsx,css}"
+alwaysApply: false
+---
+
+# Canonical Tailwind classes
+
+Tailwind 4.3 warns (`suggestCanonicalClasses`) when a class has a shorter spelling that emits the same CSS. New classes use that spelling. Leave an existing class until the line is already being edited.
+
+Fixed renames:
+
+| Warning | Write |
+|---|---|
+| `bg-gradient-to-*` | `bg-linear-to-*` (`t`, `tr`, `r`, `br`, `b`, `bl`, `l`, `tl`) |
+| `break-words` | `wrap-break-word` |
+| `order-none` | `order-0` |
+
+Same CSS, shorter form:
+
+- A theme utility when an arbitrary value matches it (`p-[16px]` when 16px is on the spacing scale).
+- Drop a redundant arbitrary type (`w-[length:1rem]` becomes `w-[1rem]`, or the scale utility).
+- Bare variants when they equal the bracket form: `data-open`, `aria-checked`, `supports-display`.
+- `*:` for `[&>*]:`, `**:` for `[&_*]:`.
+- Omit a modifier that does not change the declaration (`/100` or `/100%` when the result is the unmodified utility).

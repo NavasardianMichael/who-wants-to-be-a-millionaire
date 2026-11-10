@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Libreng online na laro sa Filipino · mga tanong na isinulat ng artipisyal na katalinuhan",
-    "heroTitle": "Sino ang Gustong Maging Milyonaryo?",
+    "heroTitle": "Milyonaryo",
     "demoQuestion": "Aling bansa ang may pinakamaraming time zone?",
     "modesTitle": "Tatlong paraan ng paglalaro",
     "lifelinesTitle": "Apat na lifeline, tig-iisang gamit",
@@ -112,7 +112,7 @@
     "faq5Answer": "Mag-sign in gamit ang Google at maglaro ng ranked na Marathon o Laban sa Oras. Sinusuri ng aming server ang bawat sagot, kaya patas ang leaderboard.",
     "faq6Question": "Ito ba ang opisyal na laro ng palabas sa TV?",
     "faq6Answer": "Hindi. Ang Milyonaryo Quiz ay isang independiyenteng larong gawa ng fans, na hango sa klasikong format ng quiz show.",
-    "faqLanguageQuestion": "Maaari ba akong maglaro ng “Sino ang Gustong Maging Milyonaryo?” sa Filipino?",
+    "faqLanguageQuestion": "Maaari ba akong maglaro ng “Milyonaryo” sa Filipino?",
     "faqLanguageAnswer": "Oo — ito ang bersyon ng laro sa Filipino. Ang bawat tanong ay isinulat sa Filipino para sa mga nagsasalita ng Filipino sa halip na isinalin lamang, at ang bawat mode at lifeline ay libre. Ang laro ay makukuha rin sa 79 iba pang wika.",
     "languagesTitle": "Maglaro sa iyong wika",
     "languagesSubtitle": "Ang bawat wika ay may sariling mga tanong, na orihinal na isinulat — hindi isinalin."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "larong sino ang gustong maging milyonaryo, sino ang gustong maging milyonaryo sa Filipino, laro ng milyonaryo online, Milyonaryo Quiz, laro ng pagsusulit, libreng pagsusulit, trivia",
     "showTitle": "Sino ang Gustong Maging Milyonaryo?",
-    "homeTitle": "Sino ang Gustong Maging Milyonaryo? Libreng online na laro sa Filipino | Milyonaryo Quiz",
-    "homeDescription": "Maglaro ng “Sino ang Gustong Maging Milyonaryo?” nang libre online sa Filipino: 15 tanong hanggang sa milyon, apat na lifeline at dalawang safe haven, na may mga tanong na isinulat sa Filipino, hindi isinalin. Walang sign-up. Mayroon din sa 79 iba pang wika.",
+    "homeTitle": "Milyonaryo Libreng online na laro sa Filipino | Milyonaryo Quiz",
+    "homeDescription": "Maglaro ng “Milyonaryo” nang libre online sa Filipino: 15 tanong hanggang sa milyon, apat na lifeline at dalawang safe haven, na may mga tanong na isinulat sa Filipino, hindi isinalin. Walang sign-up. Mayroon din sa 79 iba pang wika.",
     "playTitle": "Klasikong Milyonaryo Quiz — 15 tanong papunta sa milyon",
     "playDescription": "Akyatin ang hagdan ng premyo mula {first} hanggang {top}: labinlimang tanong, dalawang siguradong premyo, apat na lifeline. Libre, walang sign-up, sa inyong wika.",
     "marathonTitle": "Marathon quiz — hanggang kailan kayo tatagal?",

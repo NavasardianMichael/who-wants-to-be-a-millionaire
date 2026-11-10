@@ -1,0 +1,21 @@
+---
+description: Ask before any Gemini spend that is not question generation
+alwaysApply: true
+---
+
+# Gemini spend
+
+The Gemini key pays for **writing quiz questions** (`questionGen`, the pool, `poolRefill` while the API is running). That path does not need a prompt.
+
+Every other Gemini or OpenRouter call needs an explicit yes in this chat before it runs. Do not start it, and do not treat a nearby task ("add this string", "sync the catalogues", "verify the lifeline") as that yes.
+
+Ask first:
+
+- `pnpm i18n:sync`, with or without locales, `--retranslate`, `--matching`, or `--formal`
+- Any other script, eval, or one-off that calls Gemini or OpenRouter
+- Triggering Friend's Tip while testing — that call writes a reply, it does not write a question
+- A hand-run of `generateIntoPool` or a pool-refill tick outside normal play
+
+`pnpm check:messages` and `pnpm i18n:formats` do not call a model. Run those freely.
+
+When you ask, name the command and that it spends Gemini. Wait for a yes. A yes covers that one run only.

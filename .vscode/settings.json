@@ -1,12 +1,19 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    // TypeScript's organizer ignores simple-import-sort. ESLint applies that rule on save.
+    "source.organizeImports": "never",
     "source.sortMembers": "explicit"
   },
   "cSpell.words": ["closecircle", "Entypo", "genai", "nativewind", "Pressable"],
   "semi": false,
   "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "postman.settings.dotenv-detection-notification-visibility": false

@@ -12,7 +12,7 @@ export const Footer = () => {
   const t = useTranslations()
   const year = new Date().getFullYear()
 
-  const linkClass = 'text-body-sm text-mist transition-colors hover:text-gold-200'
+  const linkClass = 'text-body-sm text-mist transition-colors hover:text-gold-200 text-underline'
 
   return (
     // A game page is one screen with nothing under it (ModePage marks it `data-game-stage`).

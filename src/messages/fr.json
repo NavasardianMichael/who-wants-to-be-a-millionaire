@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Jeu en ligne gratuit en français · questions écrites par intelligence artificielle",
-    "heroTitle": "Qui veut gagner des millions ?",
+    "heroTitle": "Millionnaire",
     "demoQuestion": "Quel pays compte le plus de fuseaux horaires ?",
     "modesTitle": "Trois façons de jouer",
     "lifelinesTitle": "Quatre jokers, un seul usage chacun",
@@ -112,7 +112,7 @@
     "faq5Answer": "Connectez-vous avec Google et jouez une partie classée en Marathon ou en Contre-la-montre. Chaque réponse est vérifiée par notre serveur, pour un classement équitable.",
     "faq6Question": "Est-ce le jeu officiel de l’émission ?",
     "faq6Answer": "Non. Quiz Millionnaire est un jeu indépendant créé par des fans, inspiré par le format culte des jeux télévisés.",
-    "faqLanguageQuestion": "Puis-je jouer à « Qui veut gagner des millions ? » en français ?",
+    "faqLanguageQuestion": "Puis-je jouer à « Millionnaire » en français ?",
     "faqLanguageAnswer": "Oui — voici la version française du jeu. Chaque question est rédigée en français pour les francophones plutôt que traduite, et chaque mode ainsi que chaque joker est gratuit. Le jeu est également disponible en 79 autres langues.",
     "languagesTitle": "Jouez dans votre langue",
     "languagesSubtitle": "Chaque langue a ses propres questions, écrites de manière native et non traduites."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "jeu qui veut gagner des millions, qui veut gagner des millions en francais, jeu du millionnaire en ligne, quiz millionnaire, jeu de quiz, quiz gratuit, culture generale",
     "showTitle": "Qui veut gagner des millions ?",
-    "homeTitle": "Qui veut gagner des millions ? Jeu en ligne gratuit en français | Quiz Millionnaire",
-    "homeDescription": "Jouez à « Qui veut gagner des millions ? » gratuitement en ligne en français : 15 questions jusqu'au million, quatre jokers et deux paliers de sécurité, avec des questions rédigées en français et non traduites. Sans inscription. Également disponible en 79 autres langues.",
+    "homeTitle": "Millionnaire Jeu en ligne gratuit en français | Quiz Millionnaire",
+    "homeDescription": "Jouez à « Millionnaire » gratuitement en ligne en français : 15 questions jusqu'au million, quatre jokers et deux paliers de sécurité, avec des questions rédigées en français et non traduites. Sans inscription. Également disponible en 79 autres langues.",
     "playTitle": "Quiz Millionnaire Classique — 15 questions jusqu’au million",
     "playDescription": "Grimpez la pyramide des gains de {first} à {top} : quinze questions, deux paliers, quatre jokers. Gratuit, sans inscription, dans votre langue.",
     "marathonTitle": "Quiz Marathon — combien de temps tiendrez-vous ?",

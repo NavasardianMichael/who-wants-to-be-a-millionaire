@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Bezplatná online hra v slovenčine · otázky sú vytvorené umelou inteligenciou",
-    "heroTitle": "Chceš byť milionárom?",
+    "heroTitle": "Milionár",
     "demoQuestion": "Ktorá krajina má najviac časových pásiem?",
     "modesTitle": "Tri spôsoby hry",
     "lifelinesTitle": "Štyri nápovedy, každá raz",
@@ -112,7 +112,7 @@
     "faq5Answer": "Prihlás sa cez Google a zahraj si hodnotený Maratón alebo Hru s časom. Každú odpoveď overuje náš server, takže rebríček zostáva férový.",
     "faq6Question": "Je to oficiálna hra televíznej šou?",
     "faq6Answer": "Nie. Kvíz Milionár je nezávislá hra vytvorená fanúšikmi, inšpirovaná klasickým formátom vedomostnej súťaže.",
-    "faqLanguageQuestion": "Môžem hrať „Chceš byť milionárom?“ v slovenčine?",
+    "faqLanguageQuestion": "Môžem hrať „Milionár“ v slovenčine?",
     "faqLanguageAnswer": "Áno — toto je slovenská verzia hry. Každá otázka je napísaná v slovenčine pre slovenských hráčov namiesto prekladu a každý herný režim a nápoveda sú zadarmo. Hra je k dispozícii aj v 79 iných jazykoch.",
     "languagesTitle": "Hrajte vo svojom jazyku",
     "languagesSubtitle": "Každý jazyk má svoje vlastné otázky, ktoré sú napísané natívne — nie preložené."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "chceš byť milionárom hra, chceš byť milionárom po slovensky, miliónová hra online, kvíz milionár, kvízová hra, bezplatný kvíz, vedomostná hra",
     "showTitle": "Chceš byť milionárom?",
-    "homeTitle": "Chceš byť milionárom? Bezplatná online hra v slovenčine | Kvíz Milionár",
-    "homeDescription": "Zahrajte si „Chceš byť milionárom?“ zadarmo online v slovenčine: 15 otázok k miliónu, štyri nápovedy a dvestotisícové záchytné body, s otázkami napísanými v slovenčine, nie preloženými. Bez registrácie. Tiež v 79 iných jazykoch.",
+    "homeTitle": "Milionár Bezplatná online hra v slovenčine | Kvíz Milionár",
+    "homeDescription": "Zahrajte si „Milionár“ zadarmo online v slovenčine: 15 otázok k miliónu, štyri nápovedy a dvestotisícové záchytné body, s otázkami napísanými v slovenčine, nie preloženými. Bez registrácie. Tiež v 79 iných jazykoch.",
     "playTitle": "Klasický kvíz Milionár — 15 otázok k miliónu",
     "playDescription": "Vystúp po peňažnom rebríčku od {first} až po {top}: pätnásť otázok, dve istoty, štyri nápovedy. Zadarmo, bez registrácie, v tvojom jazyku.",
     "marathonTitle": "Kvíz Maratón — ako dlho vydržíš?",

@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Darmowa gra online po polsku · pytania stworzone przez sztuczną inteligencję",
-    "heroTitle": "Kto chce zostać milionerem?",
+    "heroTitle": "Milioner",
     "demoQuestion": "Który kraj ma najwięcej stref czasowych?",
     "modesTitle": "Trzy sposoby gry",
     "lifelinesTitle": "Cztery koła ratunkowe, każde tylko raz",
@@ -112,7 +112,7 @@
     "faq5Answer": "Zaloguj się przez Google i zagraj rankingowo w Maratonie lub Wyścigu z czasem. Każdą odpowiedź sprawdza nasz serwer, więc ranking pozostaje uczciwy.",
     "faq6Question": "Czy to oficjalna gra teleturnieju?",
     "faq6Answer": "Nie. Milionerski Quiz to niezależna gra stworzona przez fanów, zainspirowana klasycznym formatem teleturnieju.",
-    "faqLanguageQuestion": "Czy mogę zagrać w „Kto chce zostać milionerem?” po polsku?",
+    "faqLanguageQuestion": "Czy mogę zagrać w „Milioner” po polsku?",
     "faqLanguageAnswer": "Tak — to jest polska wersja gry. Każde pytanie jest napisane po polsku dla polskich graczy, a nie tłumaczone, a każdy tryb i koło ratunkowe są darmowe. Gra jest dostępna również w 79 innych językach.",
     "languagesTitle": "Graj w swoim języku",
     "languagesSubtitle": "Każdy język ma własne pytania, napisane w nim naturalnie, a nie przetłumaczone."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "kto chce zostać milionerem gra, kto chce zostać milionerem po polsku, gra milionerzy online, milionerski quiz, gra quizowa, darmowy quiz, trivia",
     "showTitle": "Kto chce zostać milionerem?",
-    "homeTitle": "Kto chce zostać milionerem? Darmowa gra online po polsku | Milionerski Quiz",
-    "homeDescription": "Zagraj w „Kto chce zostać milionerem?” za darmo online po polsku: 15 pytań do miliona, cztery koła ratunkowe i dwa progi gwarantowane, z pytaniami napisanymi po polsku, a nie tłumaczonymi. Bez rejestracji. Dostępne także w 79 innych językach.",
+    "homeTitle": "Milioner Darmowa gra online po polsku | Milionerski Quiz",
+    "homeDescription": "Zagraj w „Milioner” za darmo online po polsku: 15 pytań do miliona, cztery koła ratunkowe i dwa progi gwarantowane, z pytaniami napisanymi po polsku, a nie tłumaczonymi. Bez rejestracji. Dostępne także w 79 innych językach.",
     "playTitle": "Klasyczny quiz o milion — 15 pytań do miliona",
     "playDescription": "Wspinaj się po drabince wygranych od {first} do {top}: piętnaście pytań, dwa progi gwarantowane, cztery koła ratunkowe. Za darmo, bez rejestracji, w twoim języku.",
     "marathonTitle": "Quiz Maraton — jak długo wytrzymasz?",

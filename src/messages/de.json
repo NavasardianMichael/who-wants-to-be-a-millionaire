@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Kostenloses Online-Spiel auf Deutsch · Fragen von künstlicher Intelligenz erstellt",
-    "heroTitle": "Wer wird Millionär?",
+    "heroTitle": "Millionär",
     "demoQuestion": "Welches Land hat die meisten Zeitzonen?",
     "modesTitle": "Drei Spielmodi",
     "lifelinesTitle": "Vier Joker, je einmal",
@@ -112,7 +112,7 @@
     "faq5Answer": "Melden Sie sich mit Google an und spielen Sie eine Ranglisten-Runde im Marathon oder in der Zeitjagd. Jede Antwort wird von unserem Server geprüft – so bleibt die Bestenliste fair.",
     "faq6Question": "Ist das das offizielle Spiel zur TV-Show?",
     "faq6Answer": "Nein. Millionär-Quiz ist ein unabhängiges, von Fans erstelltes Spiel, inspiriert vom klassischen Quizshow-Format.",
-    "faqLanguageQuestion": "Kann ich „Wer wird Millionär?“ auf Deutsch spielen?",
+    "faqLanguageQuestion": "Kann ich „Millionär“ auf Deutsch spielen?",
     "faqLanguageAnswer": "Ja – dies ist die deutsche Version des Spiels. Jede Frage ist auf Deutsch für deutschsprachige Spieler verfasst statt übersetzt, und jeder Modus sowie Joker ist kostenlos. Das Spiel ist auch in 79 anderen Sprachen verfügbar.",
     "languagesTitle": "Spielen Sie in Ihrer Sprache",
     "languagesSubtitle": "Jede Sprache hat ihre eigenen Fragen, die nativ verfasst und nicht übersetzt sind."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "wer wird millionär spiel, wer wird millionär auf deutsch, millionär spiel online, millionär-quiz, quizspiel, kostenloses quiz, triviale fragen",
     "showTitle": "Wer wird Millionär?",
-    "homeTitle": "Wer wird Millionär? Kostenloses Online-Spiel auf Deutsch | Millionär-Quiz",
-    "homeDescription": "Spielen Sie „Wer wird Millionär?“ kostenlos online auf Deutsch: 15 Fragen bis zur Million, vier Joker und zwei Sicherheitsstufen, mit Fragen auf Deutsch statt Übersetzungen. Keine Registrierung. Auch in 79 anderen Sprachen verfügbar.",
+    "homeTitle": "Millionär Kostenloses Online-Spiel auf Deutsch | Millionär-Quiz",
+    "homeDescription": "Spielen Sie „Millionär“ kostenlos online auf Deutsch: 15 Fragen bis zur Million, vier Joker und zwei Sicherheitsstufen, mit Fragen auf Deutsch statt Übersetzungen. Keine Registrierung. Auch in 79 anderen Sprachen verfügbar.",
     "playTitle": "Klassisches Millionär-Quiz – 15 Fragen bis zur Million",
     "playDescription": "Klettern Sie die Gewinnleiter von {first} bis {top} hinauf: fünfzehn Fragen, zwei Sicherheitsstufen, vier Joker. Kostenlos, ohne Anmeldung, in Ihrer Sprache.",
     "marathonTitle": "Marathon-Quiz – wie lange halten Sie durch?",

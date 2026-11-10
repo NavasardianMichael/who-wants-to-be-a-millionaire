@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Gratis onlinespel på svenska · frågor skrivna av artificiell intelligens",
-    "heroTitle": "Vem vill bli miljonär?",
+    "heroTitle": "Miljonär",
     "demoQuestion": "Vilket land har flest tidszoner?",
     "modesTitle": "Tre sätt att spela",
     "lifelinesTitle": "Fyra livlinor, en gång var",
@@ -112,7 +112,7 @@
     "faq5Answer": "Logga in med Google och spela en rankad runda i Maraton eller Mot klockan. Varje svar kontrolleras av vår server, så topplistan förblir rättvis.",
     "faq6Question": "Är det här det officiella spelet från tv-programmet?",
     "faq6Answer": "Nej. Miljonärsquiz är ett fristående spel gjort av fans, inspirerat av det klassiska frågesportformatet.",
-    "faqLanguageQuestion": "Kan jag spela \"Vem vill bli miljonär?\" på svenska?",
+    "faqLanguageQuestion": "Kan jag spela \"Miljonär\" på svenska?",
     "faqLanguageAnswer": "Ja – det här är den svenska versionen av spelet. Varje fråga är skriven på svenska för svensktalande snarare än översatt, och varje spelläge och livlina är gratis. Spelet finns också tillgängligt på 79 andra språk.",
     "languagesTitle": "Spela på ditt språk",
     "languagesSubtitle": "Varje språk har sina egna frågor, skrivna på anpassat språk – inte översatta."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "vem vill bli miljonär spel, vem vill bli miljonär på svenska, miljonärsspel online, miljonärsquiz, frågesport, gratis quiz, trivia",
     "showTitle": "Vem vill bli miljonär?",
-    "homeTitle": "Vem vill bli miljonär? Gratis onlinespel på svenska | Miljonärsquiz",
-    "homeDescription": "Spela \"Vem vill bli miljonär?\" gratis online på svenska: 15 frågor till miljonen, fyra livlinor och två säkerhetsnivåer, med frågor skrivna på svenska, inte översatta. Ingen registrering krävs. Finns även på 79 andra språk.",
+    "homeTitle": "Miljonär Gratis onlinespel på svenska | Miljonärsquiz",
+    "homeDescription": "Spela \"Miljonär\" gratis online på svenska: 15 frågor till miljonen, fyra livlinor och två säkerhetsnivåer, med frågor skrivna på svenska, inte översatta. Ingen registrering krävs. Finns även på 79 andra språk.",
     "playTitle": "Klassisk miljonärsquiz – 15 frågor till miljonen",
     "playDescription": "Klättra uppför vinststegen från {first} till {top}: femton frågor, två säkra nivåer, fyra livlinor. Gratis, utan registrering, på ditt språk.",
     "marathonTitle": "Maratonquiz – hur länge håller du?",

@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Game online gratis ing basa Jawa · pitakonan ditulis dening kaslametan gawean",
-    "heroTitle": "Sapa sing pengin dadi jutawan?",
+    "heroTitle": "Jutawan",
     "demoQuestion": "Negara endi sing duwe zona wektu paling akeh?",
     "modesTitle": "Telung cara main",
     "lifelinesTitle": "Papat bantuan, saben siji mung sepisan",
@@ -112,7 +112,7 @@
     "faq5Answer": "Mlebu nganggo Google lan main Maraton utawa Adu Wektu peringkat. Saben jawaban dipriksa server kita, dadi papan peringkat tetep adil.",
     "faq6Question": "Apa iki dolanan resmi acara TV-ne?",
     "faq6Answer": "Dudu. Kuis Jutawan kuwi dolanan independen gawean penggemar sing diilhami format acara kuis klasik.",
-    "faqLanguageQuestion": "Apa aku bisa main “Sapa sing pengin dadi jutawan?” ing basa Jawa?",
+    "faqLanguageQuestion": "Apa aku bisa main “Jutawan” ing basa Jawa?",
     "faqLanguageAnswer": "Ya — iki versi basa Jawa saka game kasebut. Saben pitakonan ditulis ing basa Jawa kanggo para pamicara basa Jawa lan ora diterjemahake, lan saben mode lan pitulungan gratis. Game iki uga kasedhiya ing 79 basa liyane.",
     "languagesTitle": "Main ing basa panjenengan",
     "languagesSubtitle": "Saben basa nduweni pitakonan dhewe, ditulis sacara asli — ora diterjemahake."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "game sapa sing pengin dadi jutawan, sapa sing pengin dadi jutawan ing basa jawa, game jutawan online, kuis jutawan, game kuis, kuis gratis, trivia",
     "showTitle": "Sapa sing pengin dadi jutawan?",
-    "homeTitle": "Sapa sing pengin dadi jutawan? Game online gratis ing basa Jawa | Kuis Jutawan",
-    "homeDescription": "Main “Sapa sing pengin dadi jutawan?” gratis online ing basa Jawa: 15 pitakonan menyang yuta, papat pitulungan lan rong papan aman, kanthi pitakonan ditulis ing basa Jawa, ora diterjemahake. Tanpa dhaptar. Uga ing 79 basa liyane.",
+    "homeTitle": "Jutawan Game online gratis ing basa Jawa | Kuis Jutawan",
+    "homeDescription": "Main “Jutawan” gratis online ing basa Jawa: 15 pitakonan menyang yuta, papat pitulungan lan rong papan aman, kanthi pitakonan ditulis ing basa Jawa, ora diterjemahake. Tanpa dhaptar. Uga ing 79 basa liyane.",
     "playTitle": "Kuis Jutawan Klasik — 15 pitakonan tumuju sejuta dolar",
     "playDescription": "Munggah undhak-undhakan hadiah saka {first} nganti {top}: limalas pitakonan, loro batas aman, papat bantuan. Gratis, tanpa daftar, ing basa panjenengan.",
     "marathonTitle": "Kuis Maraton — panjenengan kuwat nganti kapan?",

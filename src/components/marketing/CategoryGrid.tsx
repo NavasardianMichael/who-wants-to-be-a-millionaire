@@ -47,14 +47,14 @@ export const CategoryGrid = async ({ exclude, withDescriptions }: { exclude?: Ca
       {CATEGORIES.filter((category) => category !== exclude).map((category) => {
         const Icon = CATEGORY_ICONS[category]
         return (
-          <li key={category}>
+          <li key={category} className='min-w-0'>
             <AppLink
               href={categoryPath(category)}
-              className='panel flex h-full flex-col gap-2 p-4 transition-[transform,border-color] duration-300 hover:-translate-y-0.5 hover:border-gold-300/60'
+              className='panel flex h-full min-w-0 flex-col gap-2 p-4 transition-[transform,border-color] duration-300 hover:-translate-y-0.5 hover:border-gold-300/60'
             >
               <Icon aria-hidden className='size-6 text-gold-300' />
-              <span className='font-display font-bold text-ivory'>{t(`names.${category}`)}</span>
-              {withDescriptions && <span className='text-caption text-mist'>{t(`descriptions.${category}`)}</span>}
+              <span className='font-display font-bold break-words text-ivory'>{t(`names.${category}`)}</span>
+              {withDescriptions && <span className='text-caption break-words text-mist'>{t(`descriptions.${category}`)}</span>}
             </AppLink>
           </li>
         )

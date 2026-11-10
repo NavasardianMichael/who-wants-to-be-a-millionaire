@@ -33,24 +33,37 @@ const settle = async (page) => {
   await page.waitForTimeout(2500)
 }
 
-/** Keys match the manifest's `screenshots` entries. */
+const openHome = async (page) => {
+  await page.goto(`${BASE_URL}/en`)
+}
+
+const openGame = async (page) => {
+  await page.goto(`${BASE_URL}/en/play`)
+  await page.getByRole('button', { name: 'Start game' }).click()
+  await page.getByRole('button', { name: /^Option D:/ }).waitFor({ timeout: 30_000 })
+}
+
+/**
+ * Keys match the manifest's `screenshots` entries. `mobile-game` and `mobile-home` are the
+ * phone shots listed first; they are only captured at the narrow size.
+ */
 const SCREENS = {
-  home: async (page) => {
-    await page.goto(`${BASE_URL}/en`)
-  },
-  game: async (page) => {
-    await page.goto(`${BASE_URL}/en/play`)
-    await page.getByRole('button', { name: 'Start game' }).click()
-    await page.getByRole('button', { name: /^Option D:/ }).waitFor({ timeout: 30_000 })
-  },
+  'mobile-game': { formFactors: ['narrow'], open: openGame },
+  'mobile-home': { formFactors: ['narrow'], open: openHome },
+  home: { open: openHome },
+  game: { open: openGame },
   // The switcher's dialog lists every language by its own name: the range at a glance.
-  languages: async (page) => {
-    await page.goto(`${BASE_URL}/en`)
-    await page.getByRole('button', { name: 'Choose your language' }).first().click()
-    await page.getByRole('dialog').waitFor()
+  languages: {
+    open: async (page) => {
+      await page.goto(`${BASE_URL}/en`)
+      await page.getByRole('button', { name: 'Choose your language' }).first().click()
+      await page.getByRole('dialog').waitFor()
+    },
   },
-  categories: async (page) => {
-    await page.goto(`${BASE_URL}/en/categories`)
+  categories: {
+    open: async (page) => {
+      await page.goto(`${BASE_URL}/en/categories`)
+    },
   },
 }
 
@@ -59,10 +72,11 @@ await mkdir(OUT_DIR, { recursive: true })
 
 for (const [formFactor, contextOptions] of Object.entries(FORM_FACTORS)) {
   const context = await browser.newContext({ ...contextOptions, locale: 'en-US', colorScheme: 'dark' })
-  for (const [name, open] of Object.entries(SCREENS)) {
+  for (const [name, screen] of Object.entries(SCREENS)) {
     if (ONLY.length && !ONLY.includes(name)) continue
+    if (screen.formFactors && !screen.formFactors.includes(formFactor)) continue
     const page = await context.newPage()
-    await open(page)
+    await screen.open(page)
     await settle(page)
     const file = `${OUT_DIR}${name}-${formFactor}.jpg`
     await page.screenshot({ path: file, type: 'jpeg', quality: 85 })

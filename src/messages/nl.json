@@ -72,7 +72,7 @@
   },
   "Home": {
     "eyebrow": "Gratis online spel in het Nederlands · vragen geschreven door kunstmatige intelligentie",
-    "heroTitle": "Wie wordt miljonair?",
+    "heroTitle": "Miljonair",
     "demoQuestion": "Welk land heeft de meeste tijdzones?",
     "modesTitle": "Drie manieren om te spelen",
     "lifelinesTitle": "Vier hulplijnen, elk één keer",
@@ -112,7 +112,7 @@
     "faq5Answer": "Log in met Google en speel een competitieronde in Marathon of Tijdrace. Elk antwoord wordt door onze server gecontroleerd, zodat de ranglijst eerlijk blijft.",
     "faq6Question": "Is dit het officiële spel van het tv-programma?",
     "faq6Answer": "Nee. Miljonairsquiz is een onafhankelijk spel gemaakt door fans, geïnspireerd op het klassieke quizformat.",
-    "faqLanguageQuestion": "Kan ik “Wie wordt miljonair?” spelen in het Nederlands?",
+    "faqLanguageQuestion": "Kan ik “Miljonair” spelen in het Nederlands?",
     "faqLanguageAnswer": "Ja — dit is de Nederlandse versie van het spel. Elke vraag is in het Nederlands geschreven voor Nederlandstaligen in plaats van vertaald, en elke spelmodus en hulplijn is gratis. Het spel is ook beschikbaar in 79 andere talen.",
     "languagesTitle": "Speel in uw taal",
     "languagesSubtitle": "Elke taal heeft zijn eigen vragen, in de taal zelf geschreven — niet vertaald."
@@ -636,8 +636,8 @@
   "Seo": {
     "keywords": "wie wordt miljonair spel, wie wordt miljonair in het Nederlands, miljonair spel online, miljonairsquiz, quizspel, gratis quiz, trivia",
     "showTitle": "Wie wordt miljonair?",
-    "homeTitle": "Wie wordt miljonair? Gratis online spel in het Nederlands | Miljonairsquiz",
-    "homeDescription": "Speel “Wie wordt miljonair?” gratis online in het Nederlands: 15 vragen tot de miljoen, vier hulplijnen en twee veiligheidsdrempels, met vragen in het Nederlands geschreven, niet vertaald. Geen registratie. Ook in 79 andere talen.",
+    "homeTitle": "Miljonair Gratis online spel in het Nederlands | Miljonairsquiz",
+    "homeDescription": "Speel “Miljonair” gratis online in het Nederlands: 15 vragen tot de miljoen, vier hulplijnen en twee veiligheidsdrempels, met vragen in het Nederlands geschreven, niet vertaald. Geen registratie. Ook in 79 andere talen.",
     "playTitle": "Klassieke miljonairsquiz — 15 vragen naar het miljoen",
     "playDescription": "Beklim de geldladder van {first} tot {top}: vijftien vragen, twee vangnetten, vier hulplijnen. Gratis, zonder aanmelden, in uw taal.",
     "marathonTitle": "Marathonquiz — hoe lang houdt u het vol?",
