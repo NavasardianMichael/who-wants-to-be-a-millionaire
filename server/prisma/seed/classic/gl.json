@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segundo o refrán, a cada porco chégalle o seu…",
+    "options": ["San Xoán", "San Martiño", "Entroido", "Nadal"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, every pig gets its own... — San Martiño: «A cada porco chégalle o seu San Martiño» (11 November, the pig-slaughter season)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que noite de festa enche Galicia de cacharelas, sardiñas e saltos sobre o lume para espantar o meigallo?",
+    "options": ["Santiago", "San Pedro", "San Xoán", "San Roque"],
+    "correctIndex": 2,
+    "gloss": "Which festive night fills Galicia with bonfires, sardines and jumping over the fire to scare off the evil eye? — San Xoán (23-24 June)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Se les a palabra «Roma» de dereita a esquerda, que palabra aparece?",
+    "options": ["amor", "ramo", "mora", "armo"],
+    "correctIndex": 0,
+    "gloss": "Read «Roma» right to left: which word appears? — «amor» (love). The others are anagrams, not reversals."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que río fai de fronteira entre Galicia e Portugal nos seus últimos quilómetros antes de chegar ao mar?",
+    "options": ["Limia", "Sil", "Ulla", "Miño"],
+    "correctIndex": 3,
+    "gloss": "Which river forms the border between Galicia and Portugal in its last stretch before the sea? — The Miño. The Limia crosses into Portugal but is not the border."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que gas expulsamos ao respirar e aproveitan as plantas para facer a fotosíntese?",
+    "options": ["Osíxeno", "Dióxido de carbono", "Nitróxeno", "Hidróxeno"],
+    "correctIndex": 1,
+    "gloss": "Which gas do we breathe out and plants use for photosynthesis? — Carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Os pementos de Padrón, uns pican e outros…» Como remata o dito?",
+    "options": ["non", "tamén", "moito", "pouco"],
+    "correctIndex": 0,
+    "gloss": "\"Padrón peppers: some are hot and others...\" How does the saying end? — \"...not\" («uns pican e outros non»)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que estadio xoga os seus partidos na casa o Celta de Vigo?",
+    "options": ["Riazor", "A Malata", "Pasarón", "Balaídos"],
+    "correctIndex": 3,
+    "gloss": "Where does Celta de Vigo play its home games? — Balaídos. Riazor is Deportivo's, A Malata Racing de Ferrol's, Pasarón Pontevedra CF's."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que personaxe de Cervantes arremete contra uns muíños de vento convencido de que son xigantes?",
+    "options": ["Sancho Panza", "Lazarillo de Tormes", "Don Quixote", "Don Xoán"],
+    "correctIndex": 2,
+    "gloss": "Which Cervantes character charges at windmills thinking they are giants? — Don Quixote."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Para o magosto hai 3 kg de castañas, e repártense a partes iguais entre seis amigos. Canto lle toca a cada un?",
+    "options": ["300 g", "500 g", "600 g", "2 kg"],
+    "correctIndex": 1,
+    "gloss": "3 kg of chestnuts for the magosto shared equally among six friends: how much each? — 500 g (3000 g / 6)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cal destes animais NON pon ovos?",
+    "options": ["Galiña", "Tartaruga", "Golfiño", "Crocodilo"],
+    "correctIndex": 2,
+    "gloss": "Which of these animals does NOT lay eggs? — The dolphin: a mammal, it gives birth to live young; it looks like a fish, which is the trap."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A Torre de Hércules, na Coruña, aínda funciona como faro. Que pobo a construíu?",
+    "options": ["Os romanos", "Os celtas", "Os suevos", "Os árabes"],
+    "correctIndex": 0,
+    "gloss": "The Tower of Hercules in A Coruña still works as a lighthouse. Who built it? — The Romans (1st-2nd c. AD). The Celts are the trap, via the legend of Breogán."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "A maceira dá mazás, a figueira dá figos… e que dá a cerdeira?",
+    "options": ["Ameixas", "Castañas", "Cereixas", "Abelás"],
+    "correctIndex": 2,
+    "gloss": "The apple tree gives apples, the fig tree figs... what does the «cerdeira» give? — Cherries (cereixas): cerdeira is the cherry tree; the -eira pattern plus the cer- root leads there."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que río pasa por Toledo e desemboca no Atlántico en Lisboa?",
+    "options": ["Douro", "Guadiana", "Guadalquivir", "Texo"],
+    "correctIndex": 3,
+    "gloss": "Which river flows past Toledo and reaches the Atlantic at Lisbon? — The Tagus (Texo)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "1, 1, 2, 3, 5, 8… Esta serie aparece nas espirais das piñas dos piñeiros. Que número vén despois?",
+    "options": ["11", "12", "13", "16"],
+    "correctIndex": 2,
+    "gloss": "1, 1, 2, 3, 5, 8... this series appears in the spirals of pine cones. What comes next? — 13: each number is the sum of the two before (Fibonacci)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Enches de auga ata arriba unha botella de vidro, péchala ben e métela no conxelador. Que é o máis probable que pase?",
+    "options": ["A auga mingua e queda un oco", "A botella rompe", "Non lle pasa nada", "O vidro afúndese cara a dentro"],
+    "correctIndex": 1,
+    "gloss": "A glass bottle filled to the top with water, tightly closed, goes into the freezer. What most likely happens? — It breaks: water expands when it freezes."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que data se celebra o Día Nacional de Galicia?",
+    "options": ["17 de maio", "24 de xuño", "25 de xullo", "15 de agosto"],
+    "correctIndex": 2,
+    "gloss": "On which date is Galicia's National Day? — 25 July, the feast of St James. 17 May is Galician Literature Day, 24 June San Xoán."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que tecla se preme xunto con Ctrl para desfacer o último cambio en case todos os programas?",
+    "options": ["Z", "X", "C", "V"],
+    "correctIndex": 0,
+    "gloss": "Which key, pressed with Ctrl, undoes the last change in almost every program? — Z. X, C and V are cut, copy and paste."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que bebida se queima na pota para facer unha queimada?",
+    "options": ["Viño", "Licor café", "Sidra", "Augardente"],
+    "correctIndex": 3,
+    "gloss": "Which drink is set alight in the pot to make a queimada? — Augardente (Galician pomace brandy). Licor café is made from it, which is the trap."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tes que pagar exactamente 5 € só con moedas de 2 € e de 50 céntimos. Cantas moedas necesitas como mínimo?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 1,
+    "gloss": "You must pay exactly 5 EUR using only 2 EUR and 50-cent coins. Minimum number of coins? — 4: 2 + 2 + 0.50 + 0.50. Three coins give 6, 4.50 or less, never 5."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Como chaman aínda hoxe en Arxentina e Uruguai a calquera español, sexa de onde sexa?",
+    "options": ["«Gachupines»", "«Chapetones»", "«Gringos»", "«Gallegos»"],
+    "correctIndex": 3,
+    "gloss": "What do people in Argentina and Uruguay still call any Spaniard, wherever they come from? — «Gallegos», after the huge Galician emigration. Gachupín (Mexico) and chapetón (colonial Peru) are other names for Spaniards elsewhere."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na gaita galega, como se chama o tubo con buratos no que o gaiteiro toca a melodía?",
+    "options": ["Ronco", "Punteiro", "Soprete", "Ronqueta"],
+    "correctIndex": 1,
+    "gloss": "On the Galician bagpipe, what is the fingered pipe that plays the melody called? — The punteiro (chanter). Ronco and ronqueta are drones, the soprete is the blowpipe."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Setembro, outubro, novembro e decembro levan no nome os números sete, oito, nove e dez, aínda que hoxe son os meses 9 a 12. Con que mes comezaba, logo, aquel ano romano?",
+    "options": ["Xaneiro", "Febreiro", "Marzo", "Abril"],
+    "correctIndex": 2,
+    "gloss": "September to December carry the numbers seven to ten in their names but are months 9-12. So which month did that Roman year begin with? — March: count back seven from September."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cal é o cumio máis alto de Galicia?",
+    "options": ["Pena Trevinca", "Cabeza de Manzaneda", "Pía Paxaro", "Monte Faro"],
+    "correctIndex": 0,
+    "gloss": "What is the highest peak in Galicia? — Pena Trevinca (2,127 m). Cabeza de Manzaneda (1,778 m) is the trap, being the best-known mountain resort."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que escritor creou a Balbino, o protagonista de «Memorias dun neno labrego»?",
+    "options": ["Xosé Neira Vilas", "Celso Emilio Ferreiro", "Álvaro Cunqueiro", "Ánxel Fole"],
+    "correctIndex": 0,
+    "gloss": "Which writer created Balbino, the hero of \"Memoirs of a Peasant Boy\"? — Xosé Neira Vilas (1961)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nunha fachada está gravada a data MDCCL. A que século corresponde?",
+    "options": ["XVI", "XVII", "XVIII", "XIX"],
+    "correctIndex": 2,
+    "gloss": "A façade bears the date MDCCL. Which century is that? — 18th: M=1000, D=500, CC=200, L=50, so 1750; the 1700s are the 18th century (XVII is the autopilot trap)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que deporte practicaba o cangués David Cal, ouro olímpico en Atenas 2004?",
+    "options": ["Remo", "Vela", "Natación", "Piragüismo"],
+    "correctIndex": 3,
+    "gloss": "Which sport did David Cal from Cangas, Olympic champion at Athens 2004, compete in? — Canoeing (C-1 1000 m)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Os hórreos galegos érguense sobre pés rematados nunha pedra plana e saínte. Para que serve esa pedra?",
+    "options": ["Para que non suban os ratos", "Para afastar a auga da choiva", "Para suxeitar mellor o tellado", "Para secar o millo ao sol"],
+    "correctIndex": 0,
+    "gloss": "Galician granaries stand on legs topped by a flat, overhanging stone. What is it for? — To stop rats climbing in (it is called the tornarratos); a rodent cannot climb round the overhang."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cando en Santiago de Compostela son as 12:00, que hora é en Lisboa?",
+    "options": ["10:00", "11:00", "12:00", "13:00"],
+    "correctIndex": 1,
+    "gloss": "When it is 12:00 in Santiago, what time is it in Lisbon? — 11:00: Portugal is on Western European Time, one hour behind Spain all year (both change clocks together)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que especia, a máis cara do mundo, se obtén dos estigmas dunha flor?",
+    "options": ["Vainilla", "Canela", "Cardamomo", "Azafrán"],
+    "correctIndex": 3,
+    "gloss": "Which spice, the world's most expensive, comes from a flower's stigmas? — Saffron (Crocus sativus). Vanilla comes from orchid pods, cinnamon from bark."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "O nome de que xoguete danés vén de «leg godt», ‘xoga ben’?",
+    "options": ["Playmobil", "LEGO", "Meccano", "Tente"],
+    "correctIndex": 1,
+    "gloss": "Which Danish toy's name comes from «leg godt», \"play well\"? — LEGO. Playmobil is German, Meccano British, Tente Spanish."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Cal das catro capitais de provincia galegas está máis ao sur?",
+    "options": ["A Coruña", "Lugo", "Pontevedra", "Ourense"],
+    "correctIndex": 3,
+    "gloss": "Which of the four Galician provincial capitals lies furthest south? — Ourense (about 42.34° N), slightly south of Pontevedra (42.43° N); most assume coastal Pontevedra."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cíes, Ons e Cortegada forman parte do Parque Nacional das Illas Atlánticas. Que outra illa o completa?",
+    "options": ["Arousa", "Sálvora", "Tambo", "Toralla"],
+    "correctIndex": 1,
+    "gloss": "Cíes, Ons and Cortegada are in the Atlantic Islands National Park. Which other island completes it? — Sálvora. Arousa, Tambo and Toralla are Rías Baixas islands outside the park."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na mitoloxía galega, que ser trae as treboadas e a sarabia que estragan as colleitas?",
+    "options": ["O trasno", "A moura", "O nubeiro", "O urco"],
+    "correctIndex": 2,
+    "gloss": "In Galician mythology, which being brings the storms and hail that ruin crops? — The nubeiro. The trasno is a household imp, the moura an enchanted maiden, the urco a spectral black dog."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A letra do himno galego é de Eduardo Pondal. Quen compuxo a música?",
+    "options": ["Pascual Veiga", "Marcial del Adalid", "Xoán Montes", "Andrés Gaos"],
+    "correctIndex": 0,
+    "gloss": "The words of the Galician anthem are by Eduardo Pondal. Who wrote the music? — Pascual Veiga. The others are Galician composers of the same era."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que elemento químico ten como símbolo a letra W?",
+    "options": ["Vanadio", "Bismuto", "Volframio", "Cobalto"],
+    "correctIndex": 2,
+    "gloss": "Which chemical element has the symbol W? — Tungsten (volframio), from its German name Wolfram. Vanadium is V."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que arquitecto deseñou a Cidade da Cultura no monte Gaiás, en Santiago?",
+    "options": ["Frank Gehry", "Zaha Hadid", "Santiago Calatrava", "Peter Eisenman"],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the City of Culture on Mount Gaiás in Santiago? — Peter Eisenman. Gehry, the Bilbao Guggenheim architect, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cantos corazóns ten un polbo?",
+    "options": ["Un", "Dous", "Tres", "Oito"],
+    "correctIndex": 2,
+    "gloss": "How many hearts does an octopus have? — Three: one systemic heart and two branchial hearts for the gills."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nun xogo de tenis o marcador está en 40-15. Se quen vai perdendo gaña os tres puntos seguintes, como queda?",
+    "options": ["Gañou o xogo", "Están iguais", "Ten vantaxe", "Segue perdendo"],
+    "correctIndex": 2,
+    "gloss": "A tennis game stands at 40-15. If the trailing player wins the next three points, where does it stand? — They have advantage: 40-30, 40-40 (deuce), then advantage; a game needs a two-point lead."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Franz Kafka naceu e viviu en Praga, daquela parte do Imperio austrohúngaro. En que lingua escribiu as súas obras?",
+    "options": ["Alemán", "Checo", "Húngaro", "Polaco"],
+    "correctIndex": 0,
+    "gloss": "Kafka was born and lived in Prague, then part of Austria-Hungary. In which language did he write? — German, the language of the empire's elite and of his schooling; Czech is the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Se o Sol se apagase de súpeto, canto tardariamos en notalo na Terra?",
+    "options": ["Nada, sería ao instante", "Uns 8 minutos", "Unhas 8 horas", "Uns 8 días"],
+    "correctIndex": 1,
+    "gloss": "If the Sun suddenly went out, how long before we noticed on Earth? — About 8 minutes: its last light (and gravity, at the same speed) takes about 8 min 20 s to arrive."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que cidade tiñan a súa corte os reis suevos da Gallaecia?",
+    "options": ["Tui", "Astorga", "Braga", "León"],
+    "correctIndex": 2,
+    "gloss": "In which city did the Suebian kings of Gallaecia hold their court? — Braga (Bracara Augusta), now in Portugal. Tui is the trap: the Visigothic king Witiza lived there."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que partícula descubriu James Chadwick en 1932?",
+    "options": ["O protón", "O positrón", "O electrón", "O neutrón"],
+    "correctIndex": 3,
+    "gloss": "Which particle did James Chadwick discover in 1932? — The neutron. The positron was also found in 1932, but by Carl Anderson."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "O primeiro Día das Letras Galegas celebrou o centenario da publicación de «Cantares gallegos». En que ano foi?",
+    "options": ["1953", "1963", "1973", "1983"],
+    "correctIndex": 1,
+    "gloss": "The first Galician Literature Day marked the centenary of Rosalía de Castro's \"Cantares gallegos\". In which year? — 1963: the book came out on 17 May 1863."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fisterra debe o nome ao «fin da terra», pero o punto máis occidental da España peninsular é outro cabo galego. Cal?",
+    "options": ["Cabo Touriñán", "Cabo Vilán", "Cabo Ortegal", "Cabo Prior"],
+    "correctIndex": 0,
+    "gloss": "Fisterra is named \"end of the land\", but the westernmost point of mainland Spain is another Galician cape. Which? — Cabo Touriñán (Muxía)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que arquitecto deseñou a fachada barroca do Obradoiro da catedral de Santiago?",
+    "options": ["Domingo de Andrade", "Fernando de Casas Novoa", "Simón Rodríguez", "Clemente Fernández Sarela"],
+    "correctIndex": 1,
+    "gloss": "Who designed the Baroque Obradoiro façade of Santiago Cathedral? — Fernando de Casas Novoa (1738-1750). Domingo de Andrade built the Clock Tower; the others are Compostela Baroque architects too."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que linguaxe de programación creou o neerlandés Guido van Rossum?",
+    "options": ["Java", "Ruby", "Perl", "Python"],
+    "correctIndex": 3,
+    "gloss": "Which programming language did the Dutchman Guido van Rossum create? — Python. Java is James Gosling's, Ruby Yukihiro Matsumoto's, Perl Larry Wall's."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na mitoloxía nórdica, como se chama a árbore xigante que une os nove mundos?",
+    "options": ["Valhalla", "Bifröst", "Yggdrasil", "Asgard"],
+    "correctIndex": 2,
+    "gloss": "In Norse mythology, what is the giant tree that links the nine worlds? — Yggdrasil. Valhalla is Odin's hall, Bifröst the rainbow bridge, Asgard the gods' world."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Se a nota la vibra a 440 Hz, a cantos hercios vibra o la unha oitava máis aguda?",
+    "options": ["480", "660", "880", "1320"],
+    "correctIndex": 2,
+    "gloss": "If A vibrates at 440 Hz, how many hertz is the A one octave higher? — 880: going up an octave doubles the frequency. 660 is the fifth, the common trap."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que actor lle deu voz e movementos a Gollum nas películas de «O Señor dos Aneis»?",
+    "options": ["Andy Serkis", "Elijah Wood", "Christopher Lee", "Doug Jones"],
+    "correctIndex": 0,
+    "gloss": "Which actor gave Gollum his voice and movements in the Lord of the Rings films? — Andy Serkis (motion capture). Elijah Wood played Frodo, Christopher Lee Saruman."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cantos anos separan a primeira viaxe de Colón a América do regreso de Elcano tras completar a primeira volta ao mundo?",
+    "options": ["20", "30", "40", "50"],
+    "correctIndex": 1,
+    "gloss": "How many years separate Columbus's first voyage to America from Elcano's return after the first circumnavigation? — 30: 1492 to 1522."
+  }
+]

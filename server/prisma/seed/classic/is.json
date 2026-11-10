@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða orð vantar í málsháttinn „Morgunstund gefur … í mund“?",
+    "options": ["Silfur", "Gull", "Brauð", "Auð"],
+    "correctIndex": 1,
+    "gloss": "Which word is missing from the proverb 'The morning hour gives … in the mouth'? — Gold: „Morgunstund gefur gull í mund“, the Icelandic 'early bird' proverb."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Íslensku jólasveinarnir koma til byggða einn á dag, sá fyrsti 12. desember og sá síðasti á aðfangadag. Hversu margir eru þeir?",
+    "options": ["12", "14", "24", "13"],
+    "correctIndex": 3,
+    "gloss": "The Icelandic Yule Lads come to town one a day, the first on 12 December and the last on Christmas Eve. How many are there? — 13: 12 to 24 December inclusive is 13 days (Stekkjarstaur to Kertasníkir); 12 is the off-by-one trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Faðir Önnu heitir Jón Sigurðsson. Hvert er föðurnafn Önnu?",
+    "options": ["Jónsdóttir", "Sigurðardóttir", "Jónsson", "Sigurðsson"],
+    "correctIndex": 0,
+    "gloss": "Anna's father is Jón Sigurðsson. What is Anna's patronymic? — Jónsdóttir: it is formed from the father's first name; Sigurðardóttir would make her the daughter of her grandfather."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða lofttegund taka grænar plöntur upp úr loftinu og nýta við ljóstillífun?",
+    "options": ["Súrefni", "Nitur", "Koldíoxíð", "Vetni"],
+    "correctIndex": 2,
+    "gloss": "Which gas do green plants take from the air and use in photosynthesis? — Carbon dioxide; oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Bolludagur, sprengidagur og öskudagur eru þrír dagar í röð og öskudagur ber alltaf upp á miðvikudag. Á hvaða vikudegi er sprengidagur?",
+    "options": ["Mánudegi", "Föstudegi", "Þriðjudegi", "Fimmtudegi"],
+    "correctIndex": 2,
+    "gloss": "Bun Day, Bursting Day and Ash Wednesday are three days in a row, and Ash Day is always a Wednesday. Which weekday is Bursting Day? — Tuesday: it is the middle day, the day before Wednesday (Shrove Tuesday)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bospórussund skiptir einni borg í tvennt, svo að hluti hennar er í Evrópu og hluti í Asíu. Hvaða borg er það?",
+    "options": ["Istanbúl", "Aþena", "Bakú", "Kaíró"],
+    "correctIndex": 0,
+    "gloss": "The Bosphorus splits one city in two, partly in Europe and partly in Asia. Which city? — Istanbul."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða fugl getur flogið aftur á bak, enda sveimar hann við blóm og sýgur úr þeim blómasafa?",
+    "options": ["Svala", "Fálki", "Kría", "Kólibrífugl"],
+    "correctIndex": 3,
+    "gloss": "Which bird can fly backwards, hovering at flowers and sipping their nectar? — The hummingbird."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hve margir leikmenn hvors liðs eru inni á vellinum í einu í handbolta, markvörður meðtalinn?",
+    "options": ["6", "7", "9", "11"],
+    "correctIndex": 1,
+    "gloss": "In handball, how many players per team are on court at once, goalkeeper included? — 7: six court players and a goalkeeper."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða mjólkurmatur kemur við sögu í Egils sögu og er nú seldur víða um heim undir íslensku heiti sínu?",
+    "options": ["Skyr", "Súrmjólk", "Mysuostur", "Rjómaostur"],
+    "correctIndex": 0,
+    "gloss": "Which dairy food appears in Egil's Saga and is now sold around the world under its Icelandic name? — Skyr; Egill is served skyr at Ármóður's farm."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða tónskáld var orðið nær heyrnarlaust þegar það samdi níundu sinfóníu sína?",
+    "options": ["Mozart", "Haydn", "Beethoven", "Bach"],
+    "correctIndex": 2,
+    "gloss": "Which composer was almost deaf when he wrote his Ninth Symphony? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bóndadagur er fyrsti dagur þorra. Fyrsti dagur hvaða mánaðar er konudagur?",
+    "options": ["Hörpu", "Einmánaðar", "Ýlis", "Góu"],
+    "correctIndex": 3,
+    "gloss": "Husband's Day is the first day of Þorri. Woman's Day is the first day of which month? — Góa, the old month after Þorri; Harpa begins on the First Day of Summer."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvaða bókstafur íslenska stafrófsins stendur aldrei fremst í íslensku orði?",
+    "options": ["Þ", "Ð", "Æ", "Ö"],
+    "correctIndex": 1,
+    "gloss": "Which letter of the Icelandic alphabet never begins an Icelandic word? — Ð: try words (þak, æður, ör) and only ð fails; it occurs only inside or at the end of words."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Þú ekur hringveginn frá Reykjavík og leggur af stað í norður. Að hvaða bæ af þessum kemurðu síðast?",
+    "options": ["Akureyri", "Egilsstöðum", "Vík í Mýrdal", "Blönduósi"],
+    "correctIndex": 2,
+    "gloss": "You drive the Ring Road from Reykjavík, setting off north. Which of these towns do you reach last? — Vík: the order is Blönduós, Akureyri, Egilsstaðir, then round the south coast to Vík."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vatn sýður við 100 °C við sjávarmál. Hvað verður um suðumarkið á tindi hás fjalls?",
+    "options": ["Það lækkar", "Það hækkar", "Það helst óbreytt", "Það fer eftir lofthita"],
+    "correctIndex": 0,
+    "gloss": "Water boils at 100 °C at sea level. What happens to the boiling point on a high mountain top? — It drops: air pressure is lower, which is why eggs cook slowly at altitude."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvert þessara dýra er ekki spendýr?",
+    "options": ["Höfrungur", "Mörgæs", "Leðurblaka", "Selur"],
+    "correctIndex": 1,
+    "gloss": "Which of these animals is not a mammal? — The penguin, a bird; the dolphin, bat and seal look less like mammals but are."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dagur íslenskrar tungu, 16. nóvember, er haldinn á fæðingardegi hvaða skálds?",
+    "options": ["Bjarna Thorarensen", "Matthíasar Jochumssonar", "Einars Benediktssonar", "Jónasar Hallgrímssonar"],
+    "correctIndex": 3,
+    "gloss": "Icelandic Language Day, 16 November, is held on which poet's birthday? — Jónas Hallgrímsson, born 16 November 1807."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða þjóð reisti borgina Machu Picchu hátt uppi í Andesfjöllum?",
+    "options": ["Inkar", "Astekar", "Majar", "Olmekar"],
+    "correctIndex": 0,
+    "gloss": "Which people built Machu Picchu high in the Andes? — The Inca; the others are Mesoamerican civilisations."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver skapaði Latabæ og lék sjálfur íþróttaálfinn?",
+    "options": ["Stefán Karl Stefánsson", "Þórhallur Sigurðsson", "Magnús Scheving", "Gísli Örn Garðarsson"],
+    "correctIndex": 2,
+    "gloss": "Who created LazyTown and played Sportacus himself? — Magnús Scheving; Stefán Karl played the villain Robbie Rotten."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Lið fær 3 stig fyrir sigur og 1 fyrir jafntefli. Það lék 10 leiki, vann 6 og tapaði 2. Hve mörg stig fékk það?",
+    "options": ["18", "19", "22", "20"],
+    "correctIndex": 3,
+    "gloss": "A team gets 3 points for a win and 1 for a draw. It played 10, won 6 and lost 2. How many points? — 20: the 2 remaining games were draws, 6×3 + 2×1; 18 forgets the draws."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hver stofnaði Microsoft ásamt æskuvini sínum Paul Allen árið 1975?",
+    "options": ["Steve Jobs", "Bill Gates", "Steve Wozniak", "Larry Ellison"],
+    "correctIndex": 1,
+    "gloss": "Who founded Microsoft in 1975 with his childhood friend Paul Allen? — Bill Gates."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Amma er hálfníræð í dag. Hvað er hún gömul?",
+    "options": ["45 ára", "85 ára", "89 ára", "95 ára"],
+    "correctIndex": 1,
+    "gloss": "Grandma is 'half-ninety' today. How old is she? — 85: 'hálfníræð' means halfway through the decade towards ninety; 45 is the trap of halving 90."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Orðið „tölva“ var myndað úr orðinu „tala“ og gömlu orði. Hvað merkir það orð?",
+    "options": ["Spákona", "Vélmenni", "Smiður", "Skrifari"],
+    "correctIndex": 0,
+    "gloss": "The word 'tölva' (computer) was formed from 'tala' (number) and an old word. What does that word mean? — Seeress: Sigurður Nordal blended 'tala' and 'völva', a prophetess."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða faraó var grafinn í gröfinni sem Howard Carter fann nær óhreyfða árið 1922?",
+    "options": ["Ramses II", "Keops", "Tútankamon", "Akenaten"],
+    "correctIndex": 2,
+    "gloss": "Which pharaoh was buried in the tomb Howard Carter found almost intact in 1922? — Tutankhamun."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvert var eina landspendýrið á Íslandi þegar landnámsmenn komu?",
+    "options": ["Hreindýr", "Minkur", "Kanína", "Refur"],
+    "correctIndex": 3,
+    "gloss": "What was the only land mammal in Iceland when the settlers arrived? — The Arctic fox; reindeer were brought in the 18th century and mink in the 20th."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Þú sérð eldingu og heyrir þrumuna 6 sekúndum síðar. Hljóð fer um 340 metra á sekúndu. Hve langt er í eldinguna?",
+    "options": ["Um 340 metrar", "Um 1 km", "Um 2 km", "Um 6 km"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and hear the thunder 6 seconds later. Sound travels about 340 m a second. How far away is it? — About 2 km: 6 × 340 = 2,040 m."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvert þessara Suður-Ameríkuríkja á ekki land að sjó?",
+    "options": ["Paragvæ", "Úrúgvæ", "Ekvador", "Perú"],
+    "correctIndex": 0,
+    "gloss": "Which of these South American countries has no coastline? — Paraguay; its similar-sounding neighbour Uruguay is on the Atlantic."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Tölvur reikna í tvíundakerfi, þar sem einu tölustafirnir eru 0 og 1. Hvaða tölu táknar runan 101 í því kerfi?",
+    "options": ["3", "5", "6", "101"],
+    "correctIndex": 1,
+    "gloss": "Computers work in binary, with only the digits 0 and 1. What number does 101 stand for in binary? — 5: one 4, no 2, one 1."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver samdi lagið við þjóðsönginn „Ó, guð vors lands“?",
+    "options": ["Matthías Jochumsson", "Páll Ísólfsson", "Jón Leifs", "Sveinbjörn Sveinbjörnsson"],
+    "correctIndex": 3,
+    "gloss": "Who composed the music of the national anthem 'Ó, guð vors lands'? — Sveinbjörn Sveinbjörnsson (1874); Matthías Jochumsson wrote the words."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sleipnir, áttfættur hestur Óðins, átti óvenjulega móður. Hver var hún?",
+    "options": ["Loki", "Freyja", "Frigg", "Gná"],
+    "correctIndex": 0,
+    "gloss": "Sleipnir, Odin's eight-legged horse, had an unusual mother. Who? — Loki, who turned into a mare (Snorra Edda); Gná is the goddess with the flying horse Hófvarpnir."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "LEGO dregur nafn sitt af orðunum „leg godt“, „leiktu vel“. Frá hvaða landi er fyrirtækið?",
+    "options": ["Noregi", "Svíþjóð", "Danmörku", "Hollandi"],
+    "correctIndex": 2,
+    "gloss": "LEGO takes its name from 'leg godt', 'play well'. Which country is the company from? — Denmark: the spelling is Danish (Norwegian would be 'lek godt')."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða arkitekt teiknaði bæði Hallgrímskirkju og Þjóðleikhúsið?",
+    "options": ["Rögnvaldur Ólafsson", "Guðjón Samúelsson", "Sigurður Guðmundsson", "Högna Sigurðardóttir"],
+    "correctIndex": 1,
+    "gloss": "Which architect designed both Hallgrímskirkja and the National Theatre? — Guðjón Samúelsson, State Architect."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Í fornum lögum og máldögum merkir „hundrað“ yfirleitt stórt hundrað. Hve mörg eru í því?",
+    "options": ["100", "108", "144", "120"],
+    "correctIndex": 3,
+    "gloss": "In old laws and church inventories, 'hundrað' usually means a 'great hundred'. How many is that? — 120: ten dozens (tólfrætt hundrað)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Í Íslandsklukku Halldórs Laxness er bóndi dæmdur fyrir að stela snæri. Hvað heitir hann?",
+    "options": ["Jón Hreggviðsson", "Arnas Arnæus", "Bjartur í Sumarhúsum", "Ólafur Kárason"],
+    "correctIndex": 0,
+    "gloss": "In Laxness's Iceland's Bell, a farmer is sentenced for stealing a piece of rope. What is his name? — Jón Hreggviðsson; Bjartur and Ólafur Kárason are heroes of other Laxness novels."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða lofttegund er langmest af í andrúmslofti jarðar?",
+    "options": ["Súrefni", "Argon", "Nitur", "Koldíoxíð"],
+    "correctIndex": 2,
+    "gloss": "Which gas makes up by far the most of Earth's atmosphere? — Nitrogen, about 78%; oxygen is about 21%."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Á Íslandi er klukkunni aldrei breytt milli sumars og vetrar. Þegar hún er 12 á hádegi í Reykjavík í júlí, hvað er hún þá í London?",
+    "options": ["11", "12", "14", "13"],
+    "correctIndex": 3,
+    "gloss": "Iceland never changes its clocks. At noon in Reykjavík in July, what time is it in London? — 13: both are on GMT in winter, but the UK is on summer time (UTC+1) in July."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Prentlistin breytti Evrópu. Hvað af þessu gerðist fyrst?",
+    "options": ["Kólumbus kemur til Ameríku", "Gutenberg prentar biblíu sína", "Lúther birtir greinarnar 95", "Guðbrandsbiblía kemur út"],
+    "correctIndex": 1,
+    "gloss": "Printing changed Europe. Which of these happened first? — Gutenberg's Bible (c. 1455), before Columbus (1492), Luther's 95 theses (1517) and the Guðbrandur Bible (1584)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilhjálmur Einarsson vann fyrstu ólympíuverðlaun Íslendinga, silfur í Melbourne 1956. Í hvaða grein?",
+    "options": ["Langstökki", "Hástökki", "Þrístökki", "Spjótkasti"],
+    "correctIndex": 2,
+    "gloss": "Vilhjálmur Einarsson won Iceland's first Olympic medal, silver in Melbourne 1956. In which event? — The triple jump."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Jón Ögmundarson Hólabiskup er sagður hafa lagt niður heiðin nöfn vikudaga. Hvaða dagur hét áður óðinsdagur?",
+    "options": ["Miðvikudagur", "Þriðjudagur", "Fimmtudagur", "Föstudagur"],
+    "correctIndex": 0,
+    "gloss": "Bishop Jón Ögmundarson of Hólar is said to have abolished the heathen weekday names. Which day was once Odin's day? — Wednesday (cf. English 'Woden's day'); Tuesday was Týr's, Thursday Thor's, Friday Frigg's/Freyja's."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hvaða atburður í sögu Íslands átti sér stað árið MCMXLIV?",
+    "options": ["Heimastjórnin", "Fullveldið", "Opnun hringvegarins", "Stofnun lýðveldisins"],
+    "correctIndex": 3,
+    "gloss": "Which event in Icelandic history took place in MCMXLIV? — The founding of the republic: MCMXLIV = 1944. Home rule was 1904, sovereignty 1918, the Ring Road opened 1974."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hver var fyrsta teiknimynd Disney í fullri lengd, frumsýnd 1937?",
+    "options": ["Gosi", "Mjallhvít og dvergarnir sjö", "Bambi", "Fantasía"],
+    "correctIndex": 1,
+    "gloss": "What was Disney's first full-length animated feature, released in 1937? — Snow White and the Seven Dwarfs; Pinocchio and Fantasia followed in 1940, Bambi in 1942."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða málmur hefur hæst bræðslumark allra málma og var því notaður í glóþræði ljósapera?",
+    "options": ["Títan", "Platína", "Volfram", "Osmín"],
+    "correctIndex": 2,
+    "gloss": "Which metal has the highest melting point of all metals, hence its use in light-bulb filaments? — Tungsten (wolfram), about 3,422 °C."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvar vestan Grænlands hafa fundist einu óumdeildu minjarnar um búðir norrænna manna frá því um árið 1000?",
+    "options": ["L'Anse aux Meadows á Nýfundnalandi", "Kensington í Minnesota", "Newport á Rhode Island", "Halifax á Nýja-Skotlandi"],
+    "correctIndex": 0,
+    "gloss": "Where west of Greenland is the only undisputed Norse site from around the year 1000? — L'Anse aux Meadows, Newfoundland (excavated in the 1960s). The Kensington runestone and Newport Tower are famous false claims."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Orðið „sími“ var endurvakið úr fornu máli þegar talsíminn kom til landsins. Hvað merkti það upphaflega?",
+    "options": ["Rödd", "Bjalla", "Boð", "Þráður"],
+    "correctIndex": 3,
+    "gloss": "The word 'sími' was revived from Old Norse when the telephone came to Iceland. What did it originally mean? — Thread or cord: early phones worked over wires."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Í Leyndardómum Snæfellsjökuls eftir Jules Verne fara ferðalangarnir niður um gíg jökulsins. Upp um hvaða eldfjall koma þeir aftur?",
+    "options": ["Etnu", "Stromboli", "Vesúvíus", "Heklu"],
+    "correctIndex": 1,
+    "gloss": "In Jules Verne's Journey to the Centre of the Earth the travellers descend through Snæfellsjökull's crater. Up which volcano do they come out? — Stromboli, in Italy."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða hljóðfæri hefur í fullri stærð 47 strengi og sjö pedala sem hækka og lækka tóna?",
+    "options": ["Harpa", "Sembal", "Sítar", "Lúta"],
+    "correctIndex": 0,
+    "gloss": "Which instrument, full-size, has 47 strings and seven pedals that raise and lower notes? — The concert (pedal) harp."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvað af þessu telst ekki ber samkvæmt grasafræðinni?",
+    "options": ["Banani", "Tómatur", "Vínber", "Jarðarber"],
+    "correctIndex": 3,
+    "gloss": "Which of these is not a berry in the botanical sense? — The strawberry (an aggregate accessory fruit, its seeds on the outside); bananas, tomatoes and grapes are true berries."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða ríki ræður yfir Galápagoseyjum, þar sem Darwin skoðaði finkur og risaskjaldbökur?",
+    "options": ["Perú", "Síle", "Ekvador", "Kólumbía"],
+    "correctIndex": 2,
+    "gloss": "Which country owns the Galápagos Islands, where Darwin studied finches and giant tortoises? — Ecuador."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða forritunarmál dregur nafn sitt af breskum grínþáttum sem BBC hóf að sýna árið 1969?",
+    "options": ["Java", "Python", "Ruby", "Perl"],
+    "correctIndex": 1,
+    "gloss": "Which programming language is named after a British comedy series the BBC began airing in 1969? — Python, after Monty Python's Flying Circus, not the snake."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvaða reikistjarna ber nafn rómverska guðsins sem Grikkir kölluðu Krónos?",
+    "options": ["Satúrnus", "Júpíter", "Úranus", "Merkúríus"],
+    "correctIndex": 0,
+    "gloss": "Which planet bears the name of the Roman god the Greeks called Kronos? — Saturn; Jupiter is Zeus, and Uranus is named after the Greek Ouranos, Kronos's father."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kylfingur leikur holu á „albatrossi“. Á hve mörgum höggum undir pari lék hann hana?",
+    "options": ["Einu", "Tveimur", "Þremur", "Fjórum"],
+    "correctIndex": 2,
+    "gloss": "A golfer makes an 'albatross' on a hole. How many strokes under par? — Three: birdie is one, eagle two, albatross three."
+  }
+]

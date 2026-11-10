@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Esaera zaharrak dioenez: «Zenbat buru, hainbat…». Nola amaitzen da?",
+    "options": ["iritzi", "aburu", "bide", "gogo"],
+    "correctIndex": 1,
+    "gloss": "The old saying goes: 'So many heads, so many…' How does it end? — aburu: «Zenbat buru, hainbat aburu». 'Iritzi' means the same but is not the saying (and breaks the rhyme)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Gaur astelehena da. Zer egun izango da etzi?",
+    "options": ["Asteartea", "Osteguna", "Asteazkena", "Ostirala"],
+    "correctIndex": 2,
+    "gloss": "Today is Monday. What day will it be 'etzi'? — Wednesday: Basque has its own word, etzi, for the day after tomorrow."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Zazpiak bat» leloak dio Euskal Herriak zazpi lurralde dituela. Horietatik lau Hegoaldean daude. Zenbat daude Iparraldean?",
+    "options": ["Bi", "Lau", "Bost", "Hiru"],
+    "correctIndex": 3,
+    "gloss": "The motto 'Seven are one' says the Basque Country has seven territories; four are in the South. How many in the North? — Three: Lapurdi, Lower Navarre, Zuberoa."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bilboko Guggenheim museoaren aurrean, loreez estalitako eskultura erraldoi bat dago. Zer animalia da?",
+    "options": ["Armiarma", "Katua", "Zaldia", "Txakurra"],
+    "correctIndex": 3,
+    "gloss": "In front of the Bilbao Guggenheim stands a giant sculpture covered in flowers. What animal is it? — A dog (Jeff Koons's 'Puppy'). The spider is a trap: Louise Bourgeois's 'Maman' is on the other side of the museum, but not made of flowers."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tradizioaren arabera, zer lanbide du Olentzerok, Gabon-gauean menditik jaisten den pertsonaiak?",
+    "options": ["Ikazkina", "Artzaina", "Arrantzalea", "Errementaria"],
+    "correctIndex": 0,
+    "gloss": "By tradition, what is the trade of Olentzero, who comes down from the mountain on Christmas Eve? — A charcoal burner."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Intsektuek sei hanka dituzte, baina armiarma ez da intsektua. Zenbat hanka ditu armiarmak?",
+    "options": ["Sei", "Zortzi", "Hamar", "Lau"],
+    "correctIndex": 1,
+    "gloss": "Insects have six legs, but a spider is not an insect. How many legs does a spider have? — Eight."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Landareek eguzki-argiarekin elikagaia sortzen dutenean, zein gas hartzen dute airetik?",
+    "options": ["Oxigenoa", "Nitrogenoa", "Karbono dioxidoa", "Helioa"],
+    "correctIndex": 2,
+    "gloss": "When plants make food from sunlight, which gas do they take from the air? — Carbon dioxide (photosynthesis); oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Trena 10:40an irten da eta 12:15ean iritsi. Zenbat iraun du bidaiak?",
+    "options": ["Ordubete eta 35 minutu", "Ordubete eta 75 minutu", "Bi ordu eta 35 minutu", "Ordubete eta 25 minutu"],
+    "correctIndex": 0,
+    "gloss": "The train left at 10:40 and arrived at 12:15. How long was the trip? — 1 h 35 min (20 min to 11:00, 1 h 15 min more). '75 minutes' is the autopilot subtraction 1215 − 1040."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein itsasok bustitzen ditu Bartzelonako hondartzak?",
+    "options": ["Kantauri itsasoak", "Mediterraneoak", "Itsaso Beltzak", "Ipar itsasoak"],
+    "correctIndex": 1,
+    "gloss": "Which sea washes Barcelona's beaches? — The Mediterranean (the Bay of Biscay/Cantabrian Sea is the Basque one)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Udako Olinpiar Jokoak lau urtean behin egiten dira, eta Parisekoak 2024an izan ziren. Zein urtetan izango dira hurrengoak, Los Angelesen?",
+    "options": ["2026an", "2027an", "2028an", "2032an"],
+    "correctIndex": 2,
+    "gloss": "Summer Olympics are every four years; Paris was 2024. When are the next ones, in Los Angeles? — 2028. 2026 is the Winter Games year; 2032 is Brisbane."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Marmitakoa arrantzaleen platera da: patata, piperra eta zein arrain?",
+    "options": ["Bakailaoa", "Hegaluzea", "Legatza", "Antxoa"],
+    "correctIndex": 1,
+    "gloss": "Marmitako is a fishermen's dish: potato, pepper and which fish? — Albacore/bonito (hegaluzea)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Anbotoko Dama ere esaten zaio, eta mendietako kobetan bizi omen da. Nor da euskal mitologiako jainkosa nagusi hau?",
+    "options": ["Lamia", "Basandere", "Sorgina", "Mari"],
+    "correctIndex": 3,
+    "gloss": "Also called the Lady of Anboto, said to live in mountain caves. Who is this chief goddess of Basque mythology? — Mari. Lamia, Basandere and the witch are lesser female figures of the same lore."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zer lanbide du Nintendoren Mario pertsonaiak, bere anaia Luigik bezala?",
+    "options": ["Errementaria", "Iturgina", "Sukaldaria", "Mekanikaria"],
+    "correctIndex": 1,
+    "gloss": "What is the trade of Nintendo's Mario, like his brother Luigi? — Plumber. (Carpenter, his very first job in 1981, is left out on purpose.)"
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Liburutegi» liburuen lekua da, eta «ardandegi» ardoarena. Zer saltzen da, beraz, «harategi» batean?",
+    "options": ["Harriak", "Hariak", "Haragia", "Arrautzak"],
+    "correctIndex": 2,
+    "gloss": "A 'liburutegi' is the place of books, an 'ardandegi' of wine. So what is sold in a 'harategi'? — Meat (haragi + -tegi). Stones and thread are traps on the sound 'har-'."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nork idatzi zuen «Obabakoak», euskal literaturako liburu itzulienetako bat?",
+    "options": ["Kirmen Uribek", "Joseba Sarrionandiak", "Ramon Saizarbitoriak", "Bernardo Atxagak"],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Obabakoak', one of the most translated books of Basque literature? — Bernardo Atxaga (1988)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Zergatik flotatzen da errazago itsasoan ibaian baino?",
+    "options": ["Ur gazia dentsoagoa delako", "Itsasoko ura beroagoa delako", "Olatuek gora bultzatzen dutelako", "Gatzak gorputza arintzen duelako"],
+    "correctIndex": 0,
+    "gloss": "Why is it easier to float in the sea than in a river? — Salt water is denser, so it pushes up harder (buoyancy)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Panamako kanalak bi ozeano lotzen ditu. Zein?",
+    "options": ["Atlantikoa eta Indikoa", "Barea eta Indikoa", "Atlantikoa eta Barea", "Artikoa eta Atlantikoa"],
+    "correctIndex": 2,
+    "gloss": "The Panama Canal links two oceans. Which? — The Atlantic and the Pacific (Suez is the one that points towards the Indian Ocean)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zer ontzi mota erabiltzen da Donostiako Kontxako Bandera estropadan?",
+    "options": ["Trainerua", "Batela", "Kanoa", "Belaontzia"],
+    "correctIndex": 0,
+    "gloss": "What kind of boat is raced in San Sebastián's Kontxa Flag regatta? — The trainera (trainerua). The batel is a smaller Basque rowing boat used in other races."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kontrabaxua eta biolina familia berekoak dira, baina kontrabaxua askoz handiagoa da, hari luzeago eta lodiagoekin. Nolakoa da, beraz, haren soinua?",
+    "options": ["Zorrotzagoa", "Baxuagoa", "Tonu berekoa", "Metalikoagoa"],
+    "correctIndex": 1,
+    "gloss": "Double bass and violin are one family, but the bass is far bigger, with longer, thicker strings. So its sound is…? — Lower: longer, heavier strings vibrate more slowly."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mendi-bide batek 12 km ditu. Igotzean orduko 3 km egiten dituzu, eta bide beretik jaistean orduko 6 km. Zenbat denbora behar duzu joan-etorrirako?",
+    "options": ["4 ordu eta erdi", "5 ordu", "6 ordu", "4 ordu"],
+    "correctIndex": 2,
+    "gloss": "A mountain path is 12 km. You climb at 3 km/h and come down the same way at 6 km/h. How long is the round trip? — 6 hours: 4 up + 2 down. Averaging the speeds (4.5 km/h) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Astelehena «astearen lehena» da, astearte «tartekoa» eta asteazkena «azkena». Izenen logikari jarraituz, zenbat egun zituen aste hark?",
+    "options": ["Bost", "Hiru", "Lau", "Sei"],
+    "correctIndex": 1,
+    "gloss": "Monday is 'the first of the week', Tuesday 'the one between', Wednesday 'the last'. Following the names' logic, how many days did that week have? — Three: first, middle, last. (Read in the names; the question claims no more than that.)"
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Itsas mailan ura 100 °C-tan irakiten da. Zer gertatzen da Everesten gailurrean?",
+    "options": ["100 °C baino gutxiagotan irakiten da", "100 °C baino gehiagotan irakiten da", "100 °C-tan irakiten da, itsas mailan bezala", "Ez da inoiz irakiten"],
+    "correctIndex": 0,
+    "gloss": "At sea level water boils at 100 °C. What happens on top of Everest? — It boils below 100 °C (about 70 °C): lower air pressure means a lower boiling point."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Andeetako mendi gainean eraikitako Machu Picchu hiria zein zibilizaziorena zen?",
+    "options": ["Maiena", "Aztekena", "Inkena", "Olmekena"],
+    "correctIndex": 2,
+    "gloss": "Machu Picchu, built high in the Andes, belonged to which civilisation? — The Inca. The others are Mesoamerican."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bilbon eguerdiko 12:00ak direnean, zer ordu da Londresen?",
+    "options": ["13:00", "11:00", "12:00", "10:00"],
+    "correctIndex": 1,
+    "gloss": "When it is noon in Bilbao, what time is it in London? — 11:00: Spain is on Central European Time, the UK one hour behind, and both change clocks on the same dates."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Idiazabal gazta zein ardi-arraza autoktonoren esnearekin egiten da batez ere?",
+    "options": ["Merinoa", "Churra", "Latxa", "Manchega"],
+    "correctIndex": 2,
+    "gloss": "Idiazabal cheese is made mainly from the milk of which native sheep breed? — Latxa. The others are Spanish breeds (Manchega makes Manchego)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Handia» filmak (2017) XIX. mendeko gizon erraldoi baten istorioa kontatzen du. Zein gipuzkoar herritakoa zen?",
+    "options": ["Altzokoa", "Zegamakoa", "Azpeitikoa", "Tolosakoa"],
+    "correctIndex": 0,
+    "gloss": "The film 'Handia' (2017) tells the story of a 19th-century giant. Which Gipuzkoan village was he from? — Altzo: Miguel Joaquín Eleizegi, 'the giant of Altzo'."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Byte batek zortzi bit ditu, eta bit bakoitzak 0 edo 1 balio du. Zenbat konbinazio desberdin har ditzake byte batek?",
+    "options": ["255", "16", "64", "256"],
+    "correctIndex": 3,
+    "gloss": "A byte has eight bits, each 0 or 1. How many different combinations can a byte take? — 256 (2^8). 255 is the trap: the largest value, but 0 counts too."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikel Laboak abestu zuen «Txoria txori», baina nork idatzi zuen poema?",
+    "options": ["Gabriel Arestik", "Xabier Letek", "Joxean Artzek", "Bitoriano Gandiagak"],
+    "correctIndex": 2,
+    "gloss": "Mikel Laboa sang 'Txoria txori', but who wrote the poem? — Joxean Artze. The others are poets of the same generation."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sushiaren arroza zerekin ontzen da, egosi ondoren?",
+    "options": ["Soja-saltsarekin", "Arroz-ozpinarekin", "Sakearekin", "Limoi-zukuarekin"],
+    "correctIndex": 1,
+    "gloss": "What is sushi rice seasoned with after cooking? — Rice vinegar (with sugar and salt). Soy sauce is for dipping."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Txapelketa batean zortzi taldek jokatzen dute, eta talde bakoitzak gainerako guztien aurka behin jokatzen du. Zenbat partida jokatuko dira guztira?",
+    "options": ["28", "56", "64", "32"],
+    "correctIndex": 0,
+    "gloss": "Eight teams each play every other team once. How many matches in total? — 28 (8 × 7 ÷ 2). 56 counts every match twice."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Euskarazko lehen liburu inprimatua «Linguae Vasconum Primitiae» izan zen, 1545ean. Nork idatzi zuen?",
+    "options": ["Joanes Leizarragak", "Bernat Etxeparek", "Pedro Axularrek", "Arnaut Oihenartek"],
+    "correctIndex": 1,
+    "gloss": "The first printed book in Basque was 'Linguae Vasconum Primitiae' (1545). Who wrote it? — Bernat Etxepare. Leizarraga is the trap: his New Testament came in 1571."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jorge Oteizak Arantzazuko basilikaren fatxadarako apostoluak landu zituen. Zenbat dira?",
+    "options": ["Hamabi", "Hamar", "Hamalau", "Hamahiru"],
+    "correctIndex": 2,
+    "gloss": "Jorge Oteiza carved the apostles for the facade of the Arantzazu basilica. How many are there? — Fourteen, not the expected twelve."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Eguzkiaren argiak zortzi minutu inguru behar ditu Lurrera iristeko. Zenbat behar du argiak Ilargitik Lurrera iristeko?",
+    "options": ["Segundo bat inguru", "Minutu bat inguru", "Zortzi minutu inguru", "Ordu-laurden bat inguru"],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about eight minutes to reach Earth. How long does light take from the Moon? — About one second: ~384,000 km at ~300,000 km/s."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nork aurkitu zuen Tutankamonen hilobia 1922an, ia osorik?",
+    "options": ["Heinrich Schliemannek", "Arthur Evansek", "Flinders Petriek", "Howard Carterrek"],
+    "correctIndex": 3,
+    "gloss": "Who found Tutankhamun's nearly intact tomb in 1922? — Howard Carter. Schliemann (Troy), Evans (Knossos) and Petrie (Egypt) are fellow archaeologists."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Zein urte da MCMXCII erromatar zenbakitan?",
+    "options": ["1892", "1912", "1992", "2192"],
+    "correctIndex": 2,
+    "gloss": "Which year is MCMXCII in Roman numerals? — 1992: M 1000 + CM 900 + XC 90 + II 2."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Jaioberri batek 300 hezur inguru ditu, eta heldu batek 206. Zer gertatzen da bitartean?",
+    "options": ["Hezur batzuk desagertu egiten dira", "Hezurrak hautsi eta birsortzen dira", "Hezur batzuk gihar bihurtzen dira", "Hezur batzuk elkarrekin batzen dira"],
+    "correctIndex": 3,
+    "gloss": "A newborn has about 300 bones, an adult 206. What happens in between? — Some bones fuse together (skull, sacrum, etc.)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Euskaltzaindiak euskara batuaren oinarriak Arantzazun finkatu zituen. Zein urtetan?",
+    "options": ["1919an", "1956an", "1968an", "1977an"],
+    "correctIndex": 2,
+    "gloss": "The Basque Academy laid the foundations of standard Basque at Arantzazu. In which year? — 1968. 1919 is the trap: the year the Academy was founded."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Donostian sortutako Gilda pintxoak 1946ko film baten izena darama. Zein aktorek jokatu zuen Gildaren papera?",
+    "options": ["Ava Gardnerrek", "Rita Hayworthek", "Lauren Bacallek", "Marilyn Monroek"],
+    "correctIndex": 1,
+    "gloss": "The Gilda pintxo, born in San Sebastián, is named after a 1946 film. Which actress played Gilda? — Rita Hayworth."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Robot» hitza antzerki-lan batean agertu zen lehen aldiz. Zein hizkuntzatatik dator?",
+    "options": ["Errusieratik", "Alemanetik", "Txekieratik", "Polonieratik"],
+    "correctIndex": 2,
+    "gloss": "The word 'robot' first appeared in a play. Which language does it come from? — Czech: Karel Čapek's 'R.U.R.', from 'robota', forced labour."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Titikaka lakua bi herrialderen artean banatuta dago: Bolivia eta zein?",
+    "options": ["Txile", "Ekuador", "Argentina", "Peru"],
+    "correctIndex": 3,
+    "gloss": "Lake Titicaca is shared by two countries: Bolivia and which? — Peru."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fausto eta Juan José Elhuyar anaiek 1783an isolatu zuten lehen aldiz, Bergaran. Zein elementu?",
+    "options": ["Platinoa", "Kobaltoa", "Wolframioa", "Molibdenoa"],
+    "correctIndex": 2,
+    "gloss": "Which element did the Elhuyar brothers first isolate in 1783 at Bergara? — Tungsten (wolfram). Platinum is a trap: it was also studied at Bergara, by Chabaneau."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Elkanoren itsasontzia 1522an itzuli zen, Lurrari lehen bira eman ondoren. Egunak arretaz zenbatu arren, egun bat falta zitzaien egutegian. Zergatik?",
+    "options": ["Mendebalderantz nabigatu zutelako, Eguzkiaren atzetik", "Ekuatorea gurutzatzean egun bat galtzen delako", "Bisurteko otsailaren 29a ahaztu zutelako", "Hegoaldeko hemisferioan egunak laburragoak direlako"],
+    "correctIndex": 0,
+    "gloss": "Elcano's ship returned in 1522 after the first trip round the world; though they had counted carefully, their calendar was a day behind. Why? — Sailing west, following the Sun, each day was slightly longer; one full circuit loses a whole day (what the date line fixes today). Pigafetta recorded it at Cape Verde."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ama euskalduna zuen eta Ziburun jaio zen, 1875ean. Zein konpositore?",
+    "options": ["Claude Debussy", "Maurice Ravel", "Erik Satie", "Camille Saint-Saëns"],
+    "correctIndex": 1,
+    "gloss": "He had a Basque mother and was born in Ciboure in 1875. Which composer? — Maurice Ravel. The others are French contemporaries."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hauetatik zein euskal hitzetan dago gaztelaniako hitz arrunt baten jatorria, eta ez alderantziz?",
+    "options": ["Bake", "Gorputz", "Ezker", "Eliza"],
+    "correctIndex": 2,
+    "gloss": "Which of these Basque words is the source of a common Spanish word, rather than the other way round? — Ezker, the source of Spanish 'izquierda' (pre-Roman; the DLE cites Basque ezker). Bake (pacem), gorputz (corpus) and eliza (ecclesia) came from Latin into Basque."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hauetatik zein herrialdek ez du Kaspiar itsasoarekin mugarik?",
+    "options": ["Iran", "Kazakhstan", "Azerbaijan", "Armenia"],
+    "correctIndex": 3,
+    "gloss": "Which of these countries does not border the Caspian Sea? — Armenia (landlocked; the Caspian states are Russia, Kazakhstan, Turkmenistan, Iran, Azerbaijan)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein museotan dago Hieronymus Boschen «Lurreko Atseginen Lorategia» triptikoa?",
+    "options": ["Prado museoan", "Louvre museoan", "Uffizi galerian", "Rijksmuseumean"],
+    "correctIndex": 0,
+    "gloss": "In which museum is Hieronymus Bosch's triptych 'The Garden of Earthly Delights'? — The Prado, Madrid. The Rijksmuseum is the Dutch trap (Bosch was Dutch)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Joseph Conradek poloniera zuen ama-hizkuntza. Zein hizkuntzatan idatzi zituen bere eleberriak, «Iluntasunaren bihotza» barne?",
+    "options": ["Ingelesez", "Polonieraz", "Frantsesez", "Errusieraz"],
+    "correctIndex": 0,
+    "gloss": "Joseph Conrad's mother tongue was Polish. In which language did he write his novels, 'Heart of Darkness' included? — English (French was his second language)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein zientzialarik deszifratu zuen erleen «dantza», hau da, nola adierazten dioten elkarri lore baten norabidea eta distantzia?",
+    "options": ["Konrad Lorenzek", "Nikolaas Tinbergenek", "Ivan Pavlovek", "Karl von Frischek"],
+    "correctIndex": 3,
+    "gloss": "Which scientist decoded the bees' 'dance', how they tell each other a flower's direction and distance? — Karl von Frisch. Lorenz and Tinbergen shared his 1973 Nobel Prize, for other work."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tim Berners-Leek World Wide Weba asmatu zuen 1989an. Non lan egiten zuen orduan?",
+    "options": ["MITen", "CERNen", "Bell laborategietan", "Xerox PARCen"],
+    "correctIndex": 1,
+    "gloss": "Tim Berners-Lee invented the World Wide Web in 1989. Where did he work then? — CERN, near Geneva. MIT is the trap: he moved there later."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein mahats-motarekin egiten da batez ere Getariako txakolina?",
+    "options": ["Tempranillo", "Albariño", "Garnatxa", "Hondarrabi Zuri"],
+    "correctIndex": 3,
+    "gloss": "Which grape variety is Getaria txakoli mainly made from? — Hondarrabi Zuri."
+  }
+]
