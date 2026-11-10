@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cwblhewch y dywediad: ‘Cenedl heb iaith, cenedl heb …’",
+    "options": ["enaid", "obaith", "galon", "gartref"],
+    "correctIndex": 2,
+    "gloss": "Complete the saying: 'A nation without a language, a nation without a…' — heart: «Cenedl heb iaith, cenedl heb galon»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mae baner Cymru'n wyrdd a gwyn, ond pa liw yw'r ddraig sydd arni?",
+    "options": ["Du", "Coch", "Aur", "Glas"],
+    "correctIndex": 1,
+    "gloss": "The Welsh flag is green and white, but what colour is the dragon on it? — Red: Y Ddraig Goch."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ystyr ‘brith’ yw ‘smotiog’. Beth sy'n rhoi i fara brith ei smotiau?",
+    "options": ["Ffrwythau sych", "Hadau pabi", "Darnau siocled", "Perlysiau"],
+    "correctIndex": 0,
+    "gloss": "'Brith' means speckled. What gives bara brith its speckles? — Dried fruit soaked in tea."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa nwy y mae planhigion yn ei dynnu o'r aer i wneud eu bwyd yng ngolau'r haul?",
+    "options": ["Ocsigen", "Nitrogen", "Hydrogen", "Carbon deuocsid"],
+    "correctIndex": 3,
+    "gloss": "Which gas do plants take from the air to make food in sunlight? — Carbon dioxide (photosynthesis); oxygen is what they give off."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa flodyn melyn y mae llawer o bobl yn ei wisgo ar Ddydd Gŵyl Dewi?",
+    "options": ["Briallen", "Blodyn yr haul", "Cenhinen Bedr", "Dant y llew"],
+    "correctIndex": 2,
+    "gloss": "Which yellow flower do many people wear on St David's Day? — The daffodil, 'Peter's leek' in Welsh; primrose and dandelion are yellow too."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beth yw'r enw Cymraeg ar yr afon sy'n llifo drwy ganol Llundain?",
+    "options": ["Tafwys", "Mersi", "Trent", "Tyne"],
+    "correctIndex": 0,
+    "gloss": "What is the Welsh name of the river through central London? — Tafwys, the Thames."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Dim ond defaid ac ieir sydd mewn cae. Mae tair dafad yno, ac mae 20 coes yn y cae i gyd. Sawl iâr sydd yno?",
+    "options": ["2", "4", "5", "8"],
+    "correctIndex": 1,
+    "gloss": "Only sheep and hens in a field: three sheep and 20 legs in all. How many hens? — 4: the sheep have 12 legs, the remaining 8 belong to 4 hens. 8 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ar fysellfwrdd cyfrifiadur arferol ym Mhrydain, pa chwe llythyren sydd ar ddechrau'r rhes uchaf o lythrennau?",
+    "options": ["AZERTY", "QWERTZ", "QWERTY", "ABCDEF"],
+    "correctIndex": 2,
+    "gloss": "On a standard British keyboard, which six letters begin the top letter row? — QWERTY; AZERTY is French, QWERTZ German."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mae gennych dri darn 20c a dau ddarn 50c. Faint o arian sydd gennych i gyd?",
+    "options": ["£1.10", "£1.40", "£1.70", "£1.60"],
+    "correctIndex": 3,
+    "gloss": "You have three 20p coins and two 50p coins. How much in all? — £1.60: 60p + £1."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nid pryfyn yw'r pry cop — mae gan bryfed chwe choes. Sawl coes sydd gan bry cop?",
+    "options": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "gloss": "A spider is not an insect — insects have six legs. How many legs does a spider have? — 8 (it is an arachnid), even though Welsh calls it 'pry'."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Yn yr wyddor Gymraeg, mae ambell lythyren yn cael ei hysgrifennu â dau nod. Sawl llythyren sydd yn y gair ‘llong’?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "gloss": "In the Welsh alphabet some letters are written with two characters. How many letters in 'llong' (ship)? — 3: ll-o-ng, both ll and ng are single letters."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Mae enwau rhai o ddyddiau'r wythnos yn Gymraeg yn enwau planedau hefyd. Pa ddiwrnod sy'n rhannu ei enw â'r blaned agosaf at yr Haul?",
+    "options": ["Dydd Gwener", "Dydd Mawrth", "Dydd Sadwrn", "Dydd Mercher"],
+    "correctIndex": 3,
+    "gloss": "Some Welsh weekday names are also planet names. Which day shares its name with the planet closest to the Sun? — Wednesday: Mercher = Mercury. Gwener (Venus) is the second planet, the trap."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mae afon hiraf Prydain yn tarddu ar Bumlumon ac yn cyrraedd y môr ger Bryste. Pa afon yw hi?",
+    "options": ["Hafren", "Gwy", "Teifi", "Dyfrdwy"],
+    "correctIndex": 0,
+    "gloss": "Britain's longest river rises on Plynlimon and reaches the sea near Bristol. Which? — The Severn. The Wye also rises on Plynlimon, the trap."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cafodd ei eni yn Llandaf, Caerdydd, i rieni o Norwy, ac ef a greodd Matilda a Willy Wonka. Pwy ydyw?",
+    "options": ["Roald Dahl", "Dylan Thomas", "Philip Pullman", "C. S. Lewis"],
+    "correctIndex": 0,
+    "gloss": "Born in Llandaff, Cardiff, to Norwegian parents, he created Matilda and Willy Wonka. Who? — Roald Dahl (born 1916)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mae ffens syth 20 metr o hyd, gyda pholyn bob 5 metr, gan gynnwys un ym mhob pen. Sawl polyn sydd ynddi?",
+    "options": ["4", "5", "6", "10"],
+    "correctIndex": 1,
+    "gloss": "A straight fence 20 m long has a post every 5 m, including one at each end. How many posts? — 5: four gaps need five posts; 4 is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Pa un o'r rhain a ddigwyddodd gyntaf?",
+    "options": ["Hediad cyntaf y brodyr Wright", "Glanio cyntaf ar y Lleuad", "Galwad ffôn gyntaf Alexander Graham Bell", "Lansio'r iPhone cyntaf"],
+    "correctIndex": 2,
+    "gloss": "Which of these happened first? — Bell's first telephone call (1876), before the Wright brothers (1903), the Moon landing (1969) and the first iPhone (2007)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa gyfarwyddwr a wnaeth ‘Jaws’, ‘E.T.’ a ‘Jurassic Park’?",
+    "options": ["George Lucas", "James Cameron", "Ridley Scott", "Steven Spielberg"],
+    "correctIndex": 3,
+    "gloss": "Which director made Jaws, E.T. and Jurassic Park? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa ffrwyth yw sylfaen y dip Mecsicanaidd guacamole?",
+    "options": ["Afocado", "Mango", "Papaia", "Ciwi"],
+    "correctIndex": 0,
+    "gloss": "Which fruit is the base of the Mexican dip guacamole? — Avocado."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa aderyn sy'n dodwy ei wyau yn nythod adar eraill, gan adael iddyn nhw fagu ei gywion?",
+    "options": ["Y dylluan", "Y fwyalchen", "Y gog", "Y robin goch"],
+    "correctIndex": 2,
+    "gloss": "Which bird lays its eggs in other birds' nests and leaves them to raise its chicks? — The cuckoo."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym mha bentref dychmygol yn y Cymoedd mae Sam Tân yn byw ac yn gweithio?",
+    "options": ["Llareggub", "Balamory", "Pontypandy", "Trumpton"],
+    "correctIndex": 2,
+    "gloss": "In which fictional Valleys village does Fireman Sam live and work? — Pontypandy (a blend of Pontypridd and Tonypandy). Llareggub is Dylan Thomas's village in Under Milk Wood."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Yn yr hen ddull Cymraeg o gyfrif, mae ‘ar hugain’ yn golygu ‘ar ben ugain’. Pa rif yw ‘un ar bymtheg ar hugain’?",
+    "options": ["16", "35", "36", "46"],
+    "correctIndex": 2,
+    "gloss": "In the traditional Welsh count, 'ar hugain' means 'on top of twenty'. What is 'one on fifteen on twenty'? — 36: 1 + 15 + 20. 16 is the trap for stopping halfway."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym 1588 cyhoeddwyd y Beibl cyfan yn Gymraeg am y tro cyntaf, gan roi hwb mawr i'r iaith. Pwy a'i cyfieithodd?",
+    "options": ["William Salesbury", "Griffith Jones", "Thomas Charles", "William Morgan"],
+    "correctIndex": 3,
+    "gloss": "In 1588 the whole Bible was published in Welsh for the first time. Who translated it? — William Morgan. Salesbury (the trap) translated the New Testament in 1567."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mae ciwb iâ'n arnofio mewn gwydraid o ddŵr sy'n llawn hyd at yr ymyl. Beth sy'n digwydd wrth i'r iâ doddi?",
+    "options": ["Mae'r lefel yn aros yr un fath", "Mae'r dŵr yn gorlifo dros yr ymyl", "Mae'r lefel yn gostwng ychydig", "Mae'r lefel yn gostwng yn amlwg"],
+    "correctIndex": 0,
+    "gloss": "An ice cube floats in a glass filled to the brim. What happens as it melts? — The level stays the same: floating ice displaces exactly its own weight of water (Archimedes)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mae enw Aberdaugleddau yn Sir Benfro yn dweud sawl afon sy'n cwrdd yn yr aber. Sawl un?",
+    "options": ["Un", "Dwy", "Tair", "Pedair"],
+    "correctIndex": 1,
+    "gloss": "The name Aberdaugleddau (Milford Haven) tells how many rivers meet in its estuary. How many? — Two: 'aber' + 'dau' + 'Cleddau', the Eastern and Western Cleddau."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa gapten sy'n hela'r morfil gwyn yn nofel Herman Melville?",
+    "options": ["Nemo", "Hook", "Ahab", "Flint"],
+    "correctIndex": 2,
+    "gloss": "Which captain hunts the white whale in Herman Melville's novel? — Ahab (Moby-Dick); the others are fictional captains too."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bwâu pigfain a ffenestri lliw uchel mewn eglwysi cadeiriol canoloesol: pa arddull bensaernïol yw hon?",
+    "options": ["Gothig", "Romanésg", "Baróc", "Neoglasurol"],
+    "correctIndex": 0,
+    "gloss": "Pointed arches and tall stained-glass windows in medieval cathedrals: which style? — Gothic. Romanesque, its predecessor, has round arches."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa gyfenw oedd gan y tad a'r mab o Bontypridd a luniodd ‘Hen Wlad fy Nhadau’ ym 1856?",
+    "options": ["Jones", "Evans", "Williams", "James"],
+    "correctIndex": 3,
+    "gloss": "What surname did the Pontypridd father and son who wrote the national anthem in 1856 share? — James: Evan James (words) and James James (tune). 'Evans' tempts those who half-remember 'Evan'."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Mae enw gwraig Lleu Llaw Gyffes yn y Mabinogi yn datgelu o beth y crëwyd hi gan Math a Gwydion. O beth?",
+    "options": ["O glai", "O flodau", "O ddail derw", "O ewyn y môr"],
+    "correctIndex": 1,
+    "gloss": "The name of Lleu Llaw Gyffes's wife in the Mabinogi reveals what Math and Gwydion made her from. What? — Flowers: Blodeuwedd, 'flower-face', made of oak blossom, broom and meadowsweet. Knowing the name plus reading it gives the answer."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mewn snwcer, beth yw'r egwyl uchaf bosibl fel arfer: pob coch gyda'r ddu, ac yna'r lliwiau i gyd?",
+    "options": ["140", "147", "150", "167"],
+    "correctIndex": 1,
+    "gloss": "In snooker, what is the usual maximum break: every red with the black, then all the colours? — 147: 15 × (1 + 7) = 120, plus 2+3+4+5+6+7 = 27."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dyfeisiodd Tim Berners-Lee y We Fyd-Eang tra oedd yn gweithio yn labordy CERN. Ger pa ddinas mae'r labordy hwnnw?",
+    "options": ["Zürich", "Lyon", "Basel", "Genefa"],
+    "correctIndex": 3,
+    "gloss": "Tim Berners-Lee invented the World Wide Web while working at CERN. Near which city is it? — Geneva."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yn y darlun ‘Salem’ (1908), mae rhai'n gweld wyneb y diafol ym mhlygion siôl Siân Owen. Pwy a'i paentiodd?",
+    "options": ["Kyffin Williams", "Sydney Curnow Vosper", "Augustus John", "Christopher Williams"],
+    "correctIndex": 1,
+    "gloss": "In the painting 'Salem' (1908), some see the devil's face in the folds of Siân Owen's shawl. Who painted it? — Sydney Curnow Vosper."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nid oes gan y môr hwn yng Ngogledd yr Iwerydd arfordir o gwbl: ceryntau'r cefnfor yw ei ffiniau. Pa fôr yw hwn?",
+    "options": ["Môr Labrador", "Môr y Gogledd", "Môr Sargasso", "Môr Iwerddon"],
+    "correctIndex": 2,
+    "gloss": "This North Atlantic sea has no coastline at all: ocean currents are its borders. Which sea? — The Sargasso Sea."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sawl symudiad sydd i gyd yn ‘Y Pedwar Tymor’ gan Vivaldi?",
+    "options": ["4", "8", "12", "16"],
+    "correctIndex": 2,
+    "gloss": "How many movements in all in Vivaldi's The Four Seasons? — 12: four violin concertos of three movements each. 4 is the autopilot answer."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Roedd Owain Tudur, o deulu Penmynydd ym Môn, yn daid i ba frenin?",
+    "options": ["Harri VIII", "Edward IV", "Rhisiart III", "Harri VII"],
+    "correctIndex": 3,
+    "gloss": "Owen Tudor, of the Penmynydd family on Anglesey, was grandfather of which king? — Henry VII, son of Edmund Tudor. Henry VIII was his great-grandson."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mae gan bob atom carbon chwe phroton. Sawl niwtron sydd mewn atom carbon-14?",
+    "options": ["6", "8", "14", "20"],
+    "correctIndex": 1,
+    "gloss": "Every carbon atom has six protons. How many neutrons in carbon-14? — 8: the 14 counts protons plus neutrons, 14 − 6 = 8."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Mae enw hir pentref ar Ynys Môn yn gorffen â ‘…llantysiliogogogoch’. At beth y mae'r ‘gogogoch’ yn cyfeirio?",
+    "options": ["Y gog goch", "Y graig goch", "Y gors goch", "Yr ogof goch"],
+    "correctIndex": 3,
+    "gloss": "The long Anglesey village name ends '…llantysiliogogogoch'. What does 'gogogoch' refer to? — The red cave: '(church of) Tysilio of the red cave', 'gogo' from 'ogof'. 'Y gog goch' (red cuckoo) is the sound-alike trap."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mewn golff, beth yw ystyr ‘albatros’ ar un twll?",
+    "options": ["Tair ergyd o dan y par", "Un ergyd o dan y par", "Dwy ergyd o dan y par", "Pedair ergyd o dan y par"],
+    "correctIndex": 0,
+    "gloss": "In golf, what does 'albatross' on a hole mean? — Three under par. Birdie is one, eagle two; the bigger the bird, the better the score."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa fath o grwst a ddefnyddir i wneud éclairs?",
+    "options": ["Crwst choux", "Crwst pwff", "Crwst brau", "Crwst filo"],
+    "correctIndex": 0,
+    "gloss": "What kind of pastry are éclairs made from? — Choux pastry (also used for profiteroles)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mae gan octopws wyth braich — ond sawl calon sydd ganddo?",
+    "options": ["Un", "Dwy", "Tair", "Wyth"],
+    "correctIndex": 2,
+    "gloss": "An octopus has eight arms — but how many hearts? — Three: one main heart and two for the gills."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ysgrifennodd hi'r hyn a ystyrir yn aml yn rhaglen gyfrifiadurol gyntaf, ar gyfer Peiriant Dadansoddol Charles Babbage. Pwy oedd hi?",
+    "options": ["Grace Hopper", "Mary Somerville", "Hedy Lamarr", "Ada Lovelace"],
+    "correctIndex": 3,
+    "gloss": "She wrote what is often considered the first computer program, for Charles Babbage's Analytical Engine. Who? — Ada Lovelace (1843)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ym mha ddrama gan Shakespeare y mae'r Cymro balch Fluellen yn gwneud i Pistol fwyta cenhinen?",
+    "options": ["Harri V", "Harri IV, Rhan 1", "Rhisiart II", "Rhisiart III"],
+    "correctIndex": 0,
+    "gloss": "In which Shakespeare play does the proud Welshman Fluellen make Pistol eat a leek? — Henry V. Henry IV Part 1 is the trap: it has Glendower."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym 1176 cynhaliwyd gŵyl o feirdd a cherddorion yng nghastell Aberteifi, yr eisteddfod gyntaf a gofnodwyd. Pwy a'i trefnodd?",
+    "options": ["Owain Gwynedd", "Yr Arglwydd Rhys", "Llywelyn Fawr", "Hywel Dda"],
+    "correctIndex": 1,
+    "gloss": "In 1176 a festival of poets and musicians was held at Cardigan castle, the first recorded eisteddfod. Who organised it? — The Lord Rhys (Rhys ap Gruffydd)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa un o'r prifddinasoedd hyn sydd bellaf i'r gogledd?",
+    "options": ["Moscfa", "Copenhagen", "Caeredin", "Vilnius"],
+    "correctIndex": 2,
+    "gloss": "Which of these capitals is furthest north? — Edinburgh (55.95° N), just north of Moscow (55.76°) and Copenhagen (55.68°); Vilnius is 54.7°."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa gyfansoddwr o Ferthyr Tudful a ysgrifennodd yr emyn-dôn ‘Aberystwyth’ a ‘Blodwen’, yr opera Gymraeg gyntaf?",
+    "options": ["John Hughes", "Joseph Parry", "Daniel Protheroe", "Ivor Novello"],
+    "correctIndex": 1,
+    "gloss": "Which Merthyr Tydfil composer wrote the hymn tune 'Aberystwyth' and 'Blodwen', the first Welsh-language opera? — Joseph Parry (Blodwen, 1878)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa arlunydd a aned yn Hwlffordd, a dreuliodd ran helaeth o'i hoes yn Ffrainc, ac a fu'n fodel i'r cerflunydd Auguste Rodin?",
+    "options": ["Brenda Chamberlain", "Margaret Lindsay Williams", "Gwen John", "Ray Howard-Jones"],
+    "correctIndex": 2,
+    "gloss": "Which artist, born in Haverfordwest, spent much of her life in France and modelled for the sculptor Auguste Rodin? — Gwen John."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym 1958 collodd Cymru o 1–0 i Frasil yn rownd yr wyth olaf Cwpan y Byd. Pwy sgoriodd y gôl, ei gôl gyntaf erioed yng Nghwpan y Byd?",
+    "options": ["Garrincha", "Vavá", "Didi", "Pelé"],
+    "correctIndex": 3,
+    "gloss": "In 1958 Wales lost 1–0 to Brazil in the World Cup quarter-final. Who scored, his first ever World Cup goal? — Pelé, aged 17."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sawl gwerth gwahanol y gall un beit eu cynrychioli?",
+    "options": ["128", "255", "256", "1024"],
+    "correctIndex": 2,
+    "gloss": "How many different values can one byte represent? — 256: a byte is 8 bits, 2⁸ = 256. 255 is the trap (the largest value, counting from 0)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sawl cromosom sydd mewn cell wy ddynol iach cyn iddi gael ei ffrwythloni?",
+    "options": ["22", "23", "46", "92"],
+    "correctIndex": 1,
+    "gloss": "How many chromosomes in a healthy human egg cell before fertilisation? — 23: body cells have 46, and a sex cell carries half."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa gymeriad sy'n ymddangos ym mhob un o Bedair Cainc y Mabinogi?",
+    "options": ["Pryderi", "Pwyll", "Rhiannon", "Manawydan"],
+    "correctIndex": 0,
+    "gloss": "Which character appears in all four Branches of the Mabinogi? — Pryderi: born in the first, a survivor in the second, central in the third, killed in the fourth."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa elfen sydd â'r symbol cemegol W?",
+    "options": ["Wraniwm", "Fanadiwm", "Platinwm", "Twngsten"],
+    "correctIndex": 3,
+    "gloss": "Which element has the chemical symbol W? — Tungsten, from its German name Wolfram. Uranium (Wraniwm in Welsh) is the trap: its symbol is U."
+  }
+]

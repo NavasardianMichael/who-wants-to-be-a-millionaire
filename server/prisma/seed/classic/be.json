@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Дапоўніце прыказку: «Не кажы „гоп“, пакуль не …»",
+    "options": ["пераскочыш", "падскочыш", "дабяжыш", "пабачыш"],
+    "correctIndex": 0,
+    "gloss": "Complete the proverb: \"Don't say 'hop' until you…\" — have jumped over (пераскочыш): «Не кажы „гоп“, пакуль не пераскочыш»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што ў Беларусі здаўна называюць «другім хлебам»?",
+    "options": ["Капусту", "Бульбу", "Гарох", "Буракі"],
+    "correctIndex": 1,
+    "gloss": "What has long been called \"the second bread\" in Belarus? — Potatoes: «бульба — другі хлеб» is a common saying."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ад палкі адпілавалі адзін канец. Колькі канцоў у яе засталося?",
+    "options": ["Адзін", "Ні аднаго", "Два", "Тры"],
+    "correctIndex": 2,
+    "gloss": "One end was sawn off a stick. How many ends does it have left? — Two: any stick still has two ends; autopilot says one."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Бацька старэйшы за сына на 30 гадоў. На колькі гадоў ён будзе старэйшы за сына праз 10 гадоў?",
+    "options": ["10", "20", "40", "30"],
+    "correctIndex": 3,
+    "gloss": "A father is 30 years older than his son. How much older will he be in 10 years? — Still 30: both age equally; 40 is the trap."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Як называецца свята, у ноч на якое, паводле павер'я, шукаюць кветку папараці?",
+    "options": ["Каляды", "Дзяды", "Гуканне вясны", "Купалле"],
+    "correctIndex": 3,
+    "gloss": "What is the feast on whose night, by folk belief, people search for the fern flower? — Kupalle, the midsummer feast."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Самая цяжкая наземная жывёла Еўропы — сімвал Белавежскай пушчы. Што гэта за звер?",
+    "options": ["Лось", "Зубр", "Буры мядзведзь", "Дзік"],
+    "correctIndex": 1,
+    "gloss": "Europe's heaviest land animal is the symbol of Białowieża Forest. Which beast? — The European bison (wisent), heavier than any elk or bear."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Якая планета Сонечнай сістэмы славіцца яркімі кольцамі, якія відаць нават у невялікі тэлескоп?",
+    "options": ["Юпітэр", "Марс", "Сатурн", "Нептун"],
+    "correctIndex": 2,
+    "gloss": "Which planet is famous for bright rings visible even in a small telescope? — Saturn; Jupiter's and Neptune's rings are faint and invisible to amateurs, Mars has none."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Колькі колцаў на алімпійскім сцягу?",
+    "options": ["Чатыры", "Пяць", "Шэсць", "Сем"],
+    "correctIndex": 1,
+    "gloss": "How many rings are on the Olympic flag? — Five."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Якая птушка не будуе ўласнага гнязда, а падкідвае яйкі ў чужыя?",
+    "options": ["Шпак", "Дзяцел", "Сарока", "Зязюля"],
+    "correctIndex": 3,
+    "gloss": "Which bird builds no nest of its own and lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Якое слова, калі прачытаць яго задам наперад, ператворыцца ў «сон»?",
+    "options": ["Нос", "Сом", "Сок", "Нож"],
+    "correctIndex": 0,
+    "gloss": "Which word, read backwards, turns into «сон» (sleep)? — «Нос» (nose); the others give «мос», «кос», «жон»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Многія беларускія месяцы названы па з'явах прыроды: у жніўні жнуць, у лістападзе ападае лісце. Які месяц атрымаў імя ад дрэва, што якраз тады квітнее?",
+    "options": ["Травень", "Чэрвень", "Ліпень", "Красавік"],
+    "correctIndex": 2,
+    "gloss": "Belarusian months are named after nature: in жнівень people reap, in лістапад leaves fall. Which month is named after a tree that blooms then? — Ліпень (July), from ліпа, the linden."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Радкі «Мой родны кут, як ты мне мілы!..» адкрываюць паэму «Новая зямля». Хто яе напісаў?",
+    "options": ["Янка Купала", "Якуб Колас", "Максім Багдановіч", "Максім Танк"],
+    "correctIndex": 1,
+    "gloss": "The lines \"My native corner, how dear you are to me!\" open the poem \"The New Land\". Who wrote it? — Yakub Kolas."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто з палачан у 1517 годзе выдаў у Празе «Псалтыр», з якога пачалося беларускае кнігадрукаванне?",
+    "options": ["Францыск Скарына", "Сымон Будны", "Васіль Цяпінскі", "Іван Фёдараў"],
+    "correctIndex": 0,
+    "gloss": "Which native of Polatsk printed the Psalter in Prague in 1517, beginning Belarusian book printing? — Francysk Skaryna. Fyodorov is the Russian first printer; Budny and Tsiapinski printed later."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Які газ расліны паглынаюць з паветра, каб на святле ператварыць яго ў цукры?",
+    "options": ["Кісларод", "Азот", "Вуглякіслы газ", "Вадарод"],
+    "correctIndex": 2,
+    "gloss": "Which gas do plants take from the air and turn into sugars in the light? — Carbon dioxide (photosynthesis); oxygen is what they release."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Гук праходзіць кіламетр прыкладна за 3 секунды. Ад успышкі маланкі да грому прайшло 9 секунд. Як далёка навальніца?",
+    "options": ["Каля 1 км", "Каля 3 км", "Каля 9 км", "Каля 27 км"],
+    "correctIndex": 1,
+    "gloss": "Sound travels a kilometre in about 3 seconds; 9 seconds passed between lightning and thunder. How far is the storm? — About 3 km: 9 ÷ 3."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У якой краіне высока ў Андах захаваўся горад інкаў Мачу-Пікчу?",
+    "options": ["Чылі", "Балівія", "Эквадор", "Перу"],
+    "correctIndex": 3,
+    "gloss": "In which country does the Inca city of Machu Picchu stand high in the Andes? — Peru; the other three are Andean countries too."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Які мастак, ураджэнец Віцебска, напоўніў свае карціны закаханымі, што лунаюць над дахамі роднага горада?",
+    "options": ["Казімір Малевіч", "Хаім Суцін", "Іван Хруцкі", "Марк Шагал"],
+    "correctIndex": 3,
+    "gloss": "Which Vitebsk-born painter filled his canvases with lovers floating over the roofs of his hometown? — Marc Chagall. Malevich worked in Vitebsk but was born in Kyiv; Soutine and Khrutsky were born elsewhere in Belarus."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Аксель», «сальхаў» і «лутц» — назвы элементаў у якім відзе спорту?",
+    "options": ["Скачкі ў ваду", "Спартыўная гімнастыка", "Фігурнае катанне", "Мастацкая гімнастыка"],
+    "correctIndex": 2,
+    "gloss": "Axel, Salchow and Lutz are elements of which sport? — Figure skating (they are jumps)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Назва гэтай беларускай стравы — густой падліўкі з мясам і каўбасой — падказвае, што з ёй робяць: у яе мачаюць бліны. Як яна называецца?",
+    "options": ["Мачанка", "Зацірка", "Крупеня", "Халаднік"],
+    "correctIndex": 0,
+    "gloss": "The name of this thick Belarusian gravy with meat and sausage tells you what to do with it: pancakes are dipped (мачаюць) in it. What is it? — Мачанка, from мачаць, to dip. The others are soups."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "У чэрвені ў Беларусі дні доўгія, а ночы кароткія. А як у гэты час у Аўстраліі?",
+    "options": ["Таксама дні даўжэйшыя за ночы", "Ночы даўжэйшыя за дні", "Дзень і ноч роўныя", "Сонца ўвогуле не заходзіць"],
+    "correctIndex": 1,
+    "gloss": "In June, Belarus has long days and short nights. What about Australia then? — Nights are longer: it is in the Southern Hemisphere, where June is winter."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што ў 1161 годзе зрабіў майстар Лазар Богша па замове Еўфрасінні Полацкай?",
+    "options": ["Іканастас", "Царкоўны звон", "Рукапіснае Евангелле", "Напрастольны крыж"],
+    "correctIndex": 3,
+    "gloss": "What did the master Lazar Bohsha make in 1161 for Euphrosyne of Polatsk? — The altar cross, the Cross of St Euphrosyne."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якое возера на Навагрудчыне, паводле легенды, схавала пад вадой цэлы горад, а Адам Міцкевіч прысвяціў яму баладу?",
+    "options": ["Свіцязь", "Нарач", "Дрывяты", "Асвейскае"],
+    "correctIndex": 0,
+    "gloss": "Which lake near Navahrudak, by legend, swallowed a whole town, and inspired a ballad by Adam Mickiewicz? — Lake Svitsiaz («Świteź»). The other lakes are in other regions."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто напісаў раман «Сто гадоў адзіноты» пра сем пакаленняў роду Буэндыя?",
+    "options": ["Хорхе Луіс Борхес", "Хуліа Кортасар", "Габрыэль Гарсія Маркес", "Марыё Варгас Льёса"],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"One Hundred Years of Solitude\", about seven generations of the Buendía family? — Gabriel García Márquez; the others are Latin American writers of the same era."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Якое з гэтых рымскіх лікаў найбольшае?",
+    "options": ["XL", "LX", "XC", "CX"],
+    "correctIndex": 3,
+    "gloss": "Which of these Roman numerals is the largest? — CX = 110 (XL = 40, LX = 60, XC = 90). Needs the letter values and the rule that a smaller numeral before a larger one subtracts."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "У словах «вока», «вуха», «вуліца» пачатковы «в» з'явіўся пазней, перад націскным гукам. У якім з гэтых слоў «в» такі ж прыстаўны?",
+    "options": ["Вецер", "Вугаль", "Вада", "Воўк"],
+    "correctIndex": 1,
+    "gloss": "In «вока», «вуха», «вуліца» the initial «в» was added later, before a stressed vowel. In which of these words is «в» likewise prosthetic? — «Вугаль» (coal; cf. Russian уголь). Вецер, вада and воўк had «в» from Common Slavic."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Мультфільм «Шрэк» (2001) атрымаў першы ў гісторыі «Оскар» за лепшы поўнаметражны анімацыйны фільм. Якая студыя яго стварыла?",
+    "options": ["DreamWorks", "Pixar", "Walt Disney", "Blue Sky"],
+    "correctIndex": 0,
+    "gloss": "\"Shrek\" (2001) won the first-ever Oscar for Best Animated Feature. Which studio made it? — DreamWorks (it beat Pixar's \"Monsters, Inc.\")."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Каб распілаваць бервяно на чатыры часткі, спатрэбілася 6 хвілін. Колькі хвілін зойме распілаваць такое ж бервяно на восем частак?",
+    "options": ["8", "12", "14", "16"],
+    "correctIndex": 2,
+    "gloss": "Sawing a log into four pieces took 6 minutes. How long to saw the same log into eight pieces? — 14: four pieces need 3 cuts (2 min each), eight pieces need 7 cuts. 12 is the trap."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Якое хвойнае дрэва штогод на зіму скідае іголкі?",
+    "options": ["Лістоўніца", "Хвоя", "Яліна", "Піхта"],
+    "correctIndex": 0,
+    "gloss": "Which conifer sheds its needles every winter? — The larch (лістоўніца, whose very name hints at leaves)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто заснаваў легендарны ансамбль «Песняры» і доўгія гады быў яго кіраўніком?",
+    "options": ["Ігар Лучанок", "Уладзімір Мулявін", "Леанід Барткевіч", "Аляксандр Ціхановіч"],
+    "correctIndex": 1,
+    "gloss": "Who founded the legendary band Pesniary and led it for many years? — Uladzimir Muliavin. Bartkevich was its singer, Tsikhanovich sang in Verasy, Luchanok is a composer."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Калі зімой у Мінску поўдзень, колькі часу ў Лондане?",
+    "options": ["9:00", "10:00", "11:00", "15:00"],
+    "correctIndex": 0,
+    "gloss": "When it is noon in Minsk in winter, what time is it in London? — 9:00: Belarus is UTC+3 all year, London is UTC+0 in winter. 15:00 is the wrong-direction trap."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Максім Багдановіч пры жыцці выдаў толькі адзін зборнік вершаў. Як ён называўся?",
+    "options": ["«Жалейка»", "«Песні жальбы»", "«Вянок»", "«Дудка беларуская»"],
+    "correctIndex": 2,
+    "gloss": "Maksim Bahdanovich published only one poetry collection in his lifetime. What was it called? — «Вянок» (The Wreath, 1913). The others are by Kupala, Kolas and Bahushevich."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Пад кіраўніцтвам якога дзяржаўнага дзеяча быў падрыхтаваны і выдадзены Статут Вялікага Княства Літоўскага 1588 года?",
+    "options": ["Мікалай Радзівіл Чорны", "Канстанцін Астрожскі", "Ян Хадкевіч", "Леў Сапега"],
+    "correctIndex": 3,
+    "gloss": "Under which statesman was the 1588 Statute of the Grand Duchy of Lithuania prepared and printed? — Leu Sapieha, the chancellor, who also paid for its printing."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чаму роўная сума ўнутраных вуглоў шасцівугольніка?",
+    "options": ["540°", "720°", "900°", "1080°"],
+    "correctIndex": 1,
+    "gloss": "What is the sum of the interior angles of a hexagon? — 720°: diagonals from one vertex split it into four triangles of 180° each."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Вада са Свіслачы, што цячэ праз Мінск, у рэшце рэшт трапляе ў мора. У якое?",
+    "options": ["Балтыйскае", "Каспійскае", "Чорнае", "Азоўскае"],
+    "correctIndex": 2,
+    "gloss": "Water from the Svislach, Minsk's river, ends up in a sea. Which? — The Black Sea: Svislach → Berezina → Dnieper → Black Sea. The Neman and Western Dvina go to the Baltic."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Адзін байт складаецца з васьмі бітаў. Колькі розных значэнняў можна запісаць у адзін байт?",
+    "options": ["8", "64", "255", "256"],
+    "correctIndex": 3,
+    "gloss": "A byte is eight bits. How many different values can one byte hold? — 256 = 2⁸. 255 is the trap: it is the largest value, but counting from 0 gives 256."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто аўтар «Беларускай граматыкі для школ» 1918 года, якая ўпершыню ўпарадкавала беларускі правапіс?",
+    "options": ["Браніслаў Тарашкевіч", "Яўхім Карскі", "Язэп Лёсік", "Вацлаў Ластоўскі"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the 1918 \"Belarusian Grammar for Schools\", the first to standardise Belarusian spelling? — Branislau Tarashkevich (hence «тарашкевіца»). Losik wrote his grammars later."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Конь стаіць у куце шахматнай дошкі. Колькі ў яго магчымых хадоў?",
+    "options": ["2", "3", "4", "8"],
+    "correctIndex": 0,
+    "gloss": "A knight stands in a corner of the chessboard. How many moves does it have? — 2 (from a1: b3 and c2). Needs the knight's L-shaped move and a moment of counting."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Самую дарагую прыправу ў свеце збіраюць уручную: гэта высушаныя рыльцы кветак крокусу. Як яна называецца?",
+    "options": ["Ваніль", "Шафран", "Кардамон", "Куркума"],
+    "correctIndex": 1,
+    "gloss": "The world's most expensive spice is hand-picked: the dried stigmas of crocus flowers. What is it? — Saffron. Vanilla, the runner-up in price, is an orchid pod."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто стварыў Сусветнае павуцінне і першы ў свеце вэб-сайт?",
+    "options": ["Вінтан Серф", "Лінус Торвальдс", "Цім Бернерс-Лі", "Біл Гейтс"],
+    "correctIndex": 2,
+    "gloss": "Who created the World Wide Web and the first website? — Tim Berners-Lee (CERN, 1989–1991). Vint Cerf co-designed the internet's TCP/IP, not the Web."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Які бог скандынаўскай міфалогіі аддаў адно вока, каб напіцца з крыніцы мудрасці?",
+    "options": ["Тор", "Локі", "Фрэйр", "Одзін"],
+    "correctIndex": 3,
+    "gloss": "Which Norse god gave up an eye to drink from the well of wisdom? — Odin, at Mímir's well."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якое аб'яднанне мастакоў-наватараў стварыў Казімір Малевіч у Віцебску ў 1920 годзе?",
+    "options": ["«Бубновы валет»", "«УНОВІС»", "«Блакітны вершнік»", "«Свет мастацтва»"],
+    "correctIndex": 1,
+    "gloss": "Which group of avant-garde artists did Kazimir Malevich found in Vitebsk in 1920? — UNOVIS (\"Champions of the New Art\"). The others are real groups from Moscow, Munich and St Petersburg."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Пры якой тэмпературы шкалы Цэльсія і Фарэнгейта паказваюць аднолькавы лік?",
+    "options": ["0°", "−32°", "−40°", "−273°"],
+    "correctIndex": 2,
+    "gloss": "At what temperature do the Celsius and Fahrenheit scales show the same number? — −40°: from F = 1.8C + 32, setting F = C gives C = −40."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто аўтар фарса-вадэвіля «Пінская шляхта», дзе са смехам паказаны павятовы суд?",
+    "options": ["Францішак Багушэвіч", "Ян Чачот", "Янка Лучына", "Вінцэнт Дунін-Марцінкевіч"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the farce-vaudeville \"The Pinsk Gentry\", which mocks a district court? — Vintsent Dunin-Martsinkevich (1866). The others are 19th-century Belarusian poets."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто з кампазітараў «Магутнай кучкі» быў па прафесіі хімікам і пакінуў след у арганічнай хіміі?",
+    "options": ["Аляксандр Барадзін", "Мадэст Мусаргскі", "Мілій Балакіраў", "Мікалай Рымскі-Корсаў"],
+    "correctIndex": 0,
+    "gloss": "Which composer of \"The Mighty Handful\" was a chemist by profession, known in organic chemistry? — Alexander Borodin. Rimsky-Korsakov was a naval officer, Mussorgsky a civil servant."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Які ўраджэнец Беларусі атрымаў Нобелеўскую прэмію па фізіцы ў 2000 годзе за паўправадніковыя гетэраструктуры?",
+    "options": ["Пётр Капіца", "Віталь Гінзбург", "Жарэс Алфёраў", "Леў Ландау"],
+    "correctIndex": 2,
+    "gloss": "Which native of Belarus won the 2000 Nobel Prize in Physics for semiconductor heterostructures? — Zhores Alferov, born in Vitebsk. Ginzburg won in 2003; Kapitsa and Landau earlier, and none was born in Belarus."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Беларускай лацінкай Магілёў пішацца «Mahiloŭ». А як ёю пішацца Віцебск?",
+    "options": ["Vitebsk", "Viciebsk", "Wiciebsk", "Vicebsk"],
+    "correctIndex": 1,
+    "gloss": "In the Belarusian Latin alphabet Mahilou is written «Mahiloŭ». How is Vitebsk written? — Viciebsk: ц is c, and е after a consonant is ie. Vitebsk is the Russian-based form, Wiciebsk mimics Polish."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ад Зямлі да Месяца каля 384 тысяч кіламетраў. Колькі часу ляціць да нас святло, адбітае ад Месяца?",
+    "options": ["Каля 0,1 секунды", "Каля 1,3 секунды", "Каля 13 секунд", "Каля 8 хвілін"],
+    "correctIndex": 1,
+    "gloss": "The Moon is about 384,000 km away. How long does moonlight take to reach us? — About 1.3 s: light covers ~300,000 km a second. 8 minutes is the Sun's figure."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Трутні — самцы пчол — вылупляюцца з неапладненых яек, таму ў трутня ёсць маці, але няма бацькі. Колькі ў трутня прадзедаў і прабабак разам?",
+    "options": ["2", "3", "4", "8"],
+    "correctIndex": 1,
+    "gloss": "Drones hatch from unfertilised eggs, so a drone has a mother but no father. How many great-grandparents does a drone have? — 3: mother (queen) has 2 parents; of those, the queen has 2 parents and the drone 1. Needs knowing that queens hatch from fertilised eggs (the Fibonacci family tree)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто з антычных вучоных першым даволі дакладна вымераў акружнасць Зямлі, параўнаўшы паўднёвыя цені ў Александрыі і Сіене?",
+    "options": ["Эратасфен", "Архімед", "Пталамей", "Гіпарх"],
+    "correctIndex": 0,
+    "gloss": "Which ancient scholar first measured Earth's circumference fairly accurately by comparing noon shadows in Alexandria and Syene? — Eratosthenes."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто зняў на «Беларусьфільме» музычныя казкі «Прыгоды Бураціна» і «Пра Чырвоную Шапачку»?",
+    "options": ["Валерый Рубінчык", "Віктар Тураў", "Міхаіл Пташук", "Леанід Нячаеў"],
+    "correctIndex": 3,
+    "gloss": "Who directed the Belarusfilm musical fairy tales \"The Adventures of Buratino\" (1975) and \"About Little Red Riding Hood\" (1977)? — Leanid Nechayeu. The others are Belarusfilm directors of other genres."
+  }
+]

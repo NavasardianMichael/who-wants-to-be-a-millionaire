@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millest on hommik vanasõna järgi targem?",
+    "options": ["Õhtust", "Ööst", "Eilsest", "Lõunast"],
+    "correctIndex": 0,
+    "gloss": "According to the proverb, the morning is wiser than what? — The evening: «Hommik on õhtust targem» (sleep on it)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis värvi on multifilmide väikesed metsaelanikud smurfid?",
+    "options": ["Rohelised", "Sinised", "Kollased", "Lillad"],
+    "correctIndex": 1,
+    "gloss": "What colour are the little forest-dwelling Smurfs of the cartoons? — Blue."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mis kuupäeval on jaanilaupäev, mil süüdatakse jaanituli ja otsitakse sõnajalaõit?",
+    "options": ["21. juunil", "22. juunil", "23. juunil", "24. juunil"],
+    "correctIndex": 2,
+    "gloss": "On what date is Midsummer Eve, when bonfires are lit and people look for the fern flower? — 23 June. 24 June is Midsummer Day itself (jaanipäev), the trap."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline lind kannab Eesti rahvuslinnu tiitlit?",
+    "options": ["Kägu", "Valge-toonekurg", "Rukkirääk", "Suitsupääsuke"],
+    "correctIndex": 3,
+    "gloss": "Which bird is Estonia's national bird? — The barn swallow (suitsupääsuke)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sõber ütleb, et buss väljub kolmveerand kaheksa. Mis kell buss väljub?",
+    "options": ["7.45", "8.45", "8.15", "7.15"],
+    "correctIndex": 0,
+    "gloss": "A friend says the bus leaves at 'three quarters eight'. What time is that? — 7.45: Estonian counts towards the coming hour, so three quarters of the way to eight. 8.45 is the trap for literal readers."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Millises ilmakaares on päike Eestis keskpäeval?",
+    "options": ["Põhjas", "Idas", "Lõunas", "Läänes"],
+    "correctIndex": 2,
+    "gloss": "In which direction is the sun at midday in Estonia? — South: north of the tropics the noon sun is always due south. The aha: in Estonian 'lõuna' means both 'noon' and 'south'."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ämblik ei ole putukas – seda reedab juba tema jalgade arv. Mitu jalga on ämblikul?",
+    "options": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "gloss": "A spider is not an insect, as its leg count shows. How many legs does a spider have? — 8 (insects have 6)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis puuviljast saadakse kuivatamise teel rosinad?",
+    "options": ["Ploomist", "Aprikoosist", "Kirsist", "Viinamarjast"],
+    "correctIndex": 3,
+    "gloss": "Which fruit is dried to make raisins? — The grape. Dried plums are prunes, dried apricots are apricots."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hommikul näitas kraadiklaas −5 °C, lõunaks oli läinud 8 kraadi soojemaks. Mitu kraadi oli lõunal?",
+    "options": ["−13 °C", "−3 °C", "+3 °C", "+13 °C"],
+    "correctIndex": 2,
+    "gloss": "The thermometer showed −5 °C in the morning; by noon it was 8 degrees warmer. What was the temperature? — +3 °C (−5 + 8). −13 and +13 catch autopilot arithmetic."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mis loom on Leiutajatekülas elav multifilmitegelane Lotte?",
+    "options": ["Kass", "Koer", "Jänes", "Rebane"],
+    "correctIndex": 1,
+    "gloss": "What animal is Lotte, the cartoon character from Gadgetville? — A dog (the Estonian animated films 'Lotte from Gadgetville', 'Lotte and the Moonstone Secret')."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kui liita sõnad „jää“ ja „äär“, saab liitsõna, milles on haruldaselt palju sama tähte järjest. Mitu ä-tähte seal kõrvuti seisab?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 2,
+    "gloss": "Joining 'jää' (ice) and 'äär' (edge) gives a compound with an unusual run of one letter. How many ä's in a row? — 4: jää + äär = jäääär (2 + 2). Many people say 3."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mis nime kannab paik, kus elavad A. H. Tammsaare „Tõe ja õiguse“ igavesti tülitsevad naabrid Andres ja Pearu?",
+    "options": ["Paunvere", "Vargamäe", "Kõrboja", "Mahtra"],
+    "correctIndex": 1,
+    "gloss": "What is the place where the feuding neighbours Andres and Pearu of Tammsaare's 'Truth and Justice' live? — Vargamäe. Paunvere is Luts's, Kõrboja another Tammsaare novel, Mahtra Vilde's."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tallinna raekoja torni tipus seisab sõdurikujuline tuulelipp. Kuidas teda rahvasuus kutsutakse?",
+    "options": ["Paks Margareeta", "Pikk Hermann", "Vana Toomas", "Kiek in de Kök"],
+    "correctIndex": 2,
+    "gloss": "A soldier-shaped weathervane stands on top of Tallinn Town Hall's tower. What is it popularly called? — Old Thomas (Vana Toomas). The others are Tallinn towers."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline 2003. aastal käivitatud internetikõnede programm valmis suuresti Eesti programmeerijate käe all?",
+    "options": ["Zoom", "Viber", "WhatsApp", "Skype"],
+    "correctIndex": 3,
+    "gloss": "Which internet-calling program launched in 2003 was largely built by Estonian programmers? — Skype (Ahti Heinla, Priit Kasesalu, Jaan Tallinn)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Milline neist tähtedest on eesti tähestikus olemas, aga puudub nii soome kui ka saksa tähestikust?",
+    "options": ["Ä", "Õ", "Ö", "Ü"],
+    "correctIndex": 1,
+    "gloss": "Which of these letters is in the Estonian alphabet but in neither the Finnish nor the German one? — Õ. Finnish has Ä and Ö, German has Ä, Ö and Ü; only Õ is Estonian alone."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kui Tallinnas on talvel keskpäev, mis kell on siis Londonis?",
+    "options": ["10.00", "11.00", "13.00", "14.00"],
+    "correctIndex": 0,
+    "gloss": "When it is noon in Tallinn in winter, what time is it in London? — 10.00: Estonia is UTC+2 in winter, London UTC+0, and London is west, so earlier."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Laulupidude lahutamatu osa on laul „Mu isamaa on minu arm“, mille viisi lõi Gustav Ernesaks. Kes kirjutas selle sõnad?",
+    "options": ["Juhan Liiv", "Marie Under", "Lydia Koidula", "Anna Haava"],
+    "correctIndex": 2,
+    "gloss": "'My Fatherland Is My Love', set to music by Gustav Ernesaks, is a fixture of the song festivals. Who wrote the words? — Lydia Koidula."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vana maja fassaadile on ehitusaasta kirjutatud rooma numbritega: MCMXII. Mis aastal maja valmis?",
+    "options": ["1812", "1912", "1892", "2112"],
+    "correctIndex": 1,
+    "gloss": "An old house shows its year in Roman numerals: MCMXII. Which year? — 1912: M = 1000, CM = 900, XII = 12."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Õhutühjas ruumis lastakse samal hetkel lahti linnusulg ja kivi. Kumb jõuab enne põrandale?",
+    "options": ["Kivi", "Sulg", "Mõlemad korraga", "Oleneb kõrgusest"],
+    "correctIndex": 2,
+    "gloss": "In a vacuum a feather and a stone are dropped together. Which lands first? — Both at once: without air resistance everything falls with the same acceleration (shown on the Moon by Apollo 15)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millises riigis asub inkade mägilinn Machu Picchu?",
+    "options": ["Boliivias", "Ecuadoris", "Tšiilis", "Peruus"],
+    "correctIndex": 3,
+    "gloss": "In which country is the Inca mountain city Machu Picchu? — Peru. The others were also part of the Inca Empire."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Emakeelepäeva tähistatakse 14. märtsil, sest siis sündis luuletaja, keda peetakse eestikeelse luule rajajaks. Kes ta on?",
+    "options": ["Kristjan Jaak Peterson", "Friedrich Reinhold Kreutzwald", "Friedrich Robert Faehlmann", "Jakob Hurt"],
+    "correctIndex": 0,
+    "gloss": "Mother Tongue Day is 14 March, the birthday of the poet seen as the founder of Estonian-language poetry. Who? — Kristjan Jaak Peterson (born 14 March 1801)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Peipsi on Eesti suurim järv, kuid me jagame seda naabriga. Milline on suurim järv, mis jääb tervenisti Eesti piiridesse?",
+    "options": ["Võrtsjärv", "Pühajärv", "Ülemiste järv", "Saadjärv"],
+    "correctIndex": 0,
+    "gloss": "Peipus is Estonia's largest lake but shared with a neighbour. Which is the largest lake entirely within Estonia? — Võrtsjärv (about 270 km²)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Erki Nool tuli 2000. aastal Sydneys olümpiavõitjaks alal, mille nimi ütleb ühtlasi, mitmest alast see koosneb. Mitu ala see on?",
+    "options": ["10", "7", "8", "12"],
+    "correctIndex": 0,
+    "gloss": "Erki Nool became Olympic champion in Sydney 2000 in an event whose name says how many events it has. How many? — 10: the decathlon (kümnevõistlus). 7 is the women's heptathlon."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lauset „Aias sadas saia“ tuuakse tihti näiteks ühe eripära tõttu. Mis see eripära on?",
+    "options": ["Selles pole ühtegi kaashäälikut peale s-i", "Kõik sõnad algavad sama tähega", "Seda saab lugeda ka tagantpoolt ettepoole", "Igas sõnas on täpselt neli tähte"],
+    "correctIndex": 2,
+    "gloss": "'It rained bread in the garden' is often quoted for one peculiarity. What? — It is a palindrome (aiassadassaia). The others fail on inspection: 'sadas' has a d and five letters, 'Aias' starts with A."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline 1969. aasta film põhineb Eduard Bornhöhe jutustusel „Vürst Gabriel ehk Pirita kloostri viimsed päevad“?",
+    "options": ["Kevade", "Nukitsamees", "Hullumeelsus", "Viimne reliikvia"],
+    "correctIndex": 3,
+    "gloss": "Which 1969 film is based on Bornhöhe's 'Prince Gabriel, or the Last Days of Pirita Convent'? — 'The Last Relic' (Viimne reliikvia). 'Kevade' is also from 1969, but from Luts's novel."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ühes anumas on liiter vett, teises liiter jääd. Kumma sisu kaalub rohkem?",
+    "options": ["Jää", "Mõlemad kaaluvad sama palju", "Oleneb temperatuurist", "Vesi"],
+    "correctIndex": 3,
+    "gloss": "Which weighs more, a litre of water or a litre of ice? — A litre of water: ice is less dense (it floats), so the same volume weighs less. Many think 'the same', mixing it up with a kilo of each."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Millise pilli itaaliakeelne täisnimi tähendab sõna-sõnalt „vaikne-vali“, sest erinevalt eelkäijast sai sellel mängida nii vaikselt kui ka valjult?",
+    "options": ["Klavessiin", "Orel", "Klaver", "Akordion"],
+    "correctIndex": 2,
+    "gloss": "Which instrument's full Italian name means 'soft-loud', because unlike its predecessor it could play both? — The piano (pianoforte). The harpsichord, its predecessor, cannot vary volume by touch."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Rosetta kivi aitas lahti muukida Egiptuse hieroglüüfid, sest sama tekst oli sellele raiutud ka ühes hästi tuntud keeles. Millises?",
+    "options": ["Ladina keeles", "Vanakreeka keeles", "Heebrea keeles", "Aramea keeles"],
+    "correctIndex": 1,
+    "gloss": "The Rosetta Stone helped decipher hieroglyphs because the same text was also carved in a well-known language. Which? — Ancient Greek (the third script is Demotic Egyptian)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Claude Monet’ maal päikesetõusust Le Havre’i sadamas sai 1874. aasta näitusel ühe kriitiku pilkesõna kaudu terve kunstivoolu nimeandjaks. Millise voolu?",
+    "options": ["Realism", "Impressionism", "Ekspressionism", "Sümbolism"],
+    "correctIndex": 1,
+    "gloss": "Monet's sunrise over Le Havre harbour gave its name to a whole movement through a critic's jibe at the 1874 exhibition. Which? — Impressionism ('Impression, soleil levant')."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bait koosneb kaheksast bitist ja iga bitt on kas 0 või 1. Mitu erinevat väärtust saab ühte baiti salvestada?",
+    "options": ["8", "16", "64", "256"],
+    "correctIndex": 3,
+    "gloss": "A byte is eight bits, each 0 or 1. How many different values can a byte hold? — 256: 2 to the power of 8. 8 and 16 catch those who add or double instead of multiplying."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Kalevipoja“ lõpus raiub kangelase enda mõõk, mis jõe põhjas teda ootas, tal jalad otsast. Millises jões see juhtub?",
+    "options": ["Emajões", "Kääpa jões", "Võhandu jões", "Pärnu jões"],
+    "correctIndex": 1,
+    "gloss": "At the end of 'Kalevipoeg' the hero's own sword, waiting in a riverbed, cuts off his legs. In which river? — The Kääpa, where he had thrown the cursed sword."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Arvo Pärdi 1970. aastatel loodud kompositsioonitehnika nimi tuleb ladinakeelsest sõnast, mis tähendab kellukesi. Kuidas seda tehnikat nimetatakse?",
+    "options": ["Tintinnabuli", "Dodekafoonia", "Punktualism", "Spektralism"],
+    "correctIndex": 0,
+    "gloss": "Arvo Pärt's 1970s compositional technique is named from the Latin for little bells. What is it called? — Tintinnabuli. Dodecaphony and pointillism are other 20th-century techniques, spectralism a French school."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline Tartu ülikoolis õppinud teadlane avastas imetajate munaraku ja teda peetakse embrüoloogia rajajaks?",
+    "options": ["Friedrich Georg Wilhelm Struve", "Nikolai Pirogov", "Alexander von Middendorff", "Karl Ernst von Baer"],
+    "correctIndex": 3,
+    "gloss": "Which scientist educated at the University of Tartu discovered the mammalian egg cell and is seen as the founder of embryology? — Karl Ernst von Baer. All four are Tartu names: astronomer, surgeon, explorer."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis Rooma keisri nime kannab Põhja-Inglismaal üle kogu saare kulgev kivimüür?",
+    "options": ["Augustus", "Claudius", "Trajanus", "Hadrianus"],
+    "correctIndex": 3,
+    "gloss": "Which Roman emperor gave his name to the stone wall running across northern England? — Hadrian. Claudius began the conquest of Britain, the trap."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milline Euroopa riik piirneb ainult kahe riigiga – Hispaania ja Prantsusmaaga?",
+    "options": ["Monaco", "Andorra", "Luksemburg", "San Marino"],
+    "correctIndex": 1,
+    "gloss": "Which European country borders only Spain and France? — Andorra, in the Pyrenees. Monaco borders only France, San Marino only Italy."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Croissant (eesti keeles sarvesai) sai nime oma kuju järgi ja sõna tuleb prantsuse verbist croître – „kasvama“. Mida see nimi tähendab?",
+    "options": ["Sarv", "Kasvav kuu", "Kerkiv tainas", "Rull"],
+    "correctIndex": 1,
+    "gloss": "The croissant (in Estonian 'horn bun') is named after its shape, from the French verb 'to grow'. What does the name mean? — Crescent, the waxing moon. 'Horn' is the trap from the Estonian name; 'rising dough' fits the verb but not the shape."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antoine de Saint-Exupéry raamatu kangelane Väike prints tuli Maale pisikeselt asteroidilt. Mis tähise all seda asteroidi raamatus mainitakse?",
+    "options": ["B 612", "A 113", "X 25", "K 7"],
+    "correctIndex": 0,
+    "gloss": "The Little Prince came to Earth from a tiny asteroid. Under what designation is it mentioned? — B 612."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milline mänguasjafirma sai oma nime taanikeelsest väljendist, mis tähendab „mängi hästi“?",
+    "options": ["Playmobil", "Mattel", "LEGO", "Hasbro"],
+    "correctIndex": 2,
+    "gloss": "Which toy company is named from a Danish phrase meaning 'play well'? — LEGO, from 'leg godt'. Playmobil is German, Mattel and Hasbro American."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milline olend on Šotimaa ametlik rahvusloom?",
+    "options": ["Lõvi", "Ükssarvik", "Punahirv", "Kaljukotkas"],
+    "correctIndex": 1,
+    "gloss": "Which creature is Scotland's official national animal? — The unicorn. The lion is on the royal standard, the trap."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Eesti keeles ei ole „biljon“ sama mis ingliskeelne „billion“. Kui palju on eesti biljon?",
+    "options": ["Sada miljonit", "Tuhat miljonit", "Tuhat miljardit", "Miljon miljardit"],
+    "correctIndex": 2,
+    "gloss": "In Estonian 'biljon' is not the English 'billion'. How much is it? — A thousand milliards, i.e. a million million (10^12): Estonian uses the long scale. A thousand million is the English billion, Estonian 'miljard'."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Eesti astronoom Ernst Öpik oletas 1932. aastal, et pika perioodiga komeedid pärinevad Päikesesüsteemi kaugeimast äärealast. Mis nime see piirkond praegu enamasti kannab?",
+    "options": ["Kuiperi vöö", "Oorti pilv", "Asteroidivöö", "Hajuketas"],
+    "correctIndex": 1,
+    "gloss": "In 1932 Ernst Öpik proposed that long-period comets come from the outermost region of the Solar System. What is it usually called today? — The Oort cloud (also Öpik–Oort cloud). The Kuiper belt is the source of short-period comets."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sõna „raamat“ on väga vana laensõna, mis tähendas lähtekeeles kirja või ürikut. Mis keelest see on eesti keelde tulnud?",
+    "options": ["Vanavene keelest", "Ladina keelest", "Alamsaksa keelest", "Rootsi keelest"],
+    "correctIndex": 0,
+    "gloss": "'Raamat' (book) is a very old loanword that meant a letter or charter in its source. From which language? — Old Russian, from грамота (itself from Greek grammata)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kes projekteeris titaaniplaatidega kaetud Guggenheimi muuseumi Bilbaos?",
+    "options": ["Zaha Hadid", "Renzo Piano", "Norman Foster", "Frank Gehry"],
+    "correctIndex": 3,
+    "gloss": "Who designed the titanium-clad Guggenheim Museum in Bilbao? — Frank Gehry (opened 1997)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kui paavst Gregorius XIII 1582. aastal kalendrit parandas, järgnes neljapäevale, 4. oktoobrile, kohe reede. Mis kuupäev see reede oli?",
+    "options": ["5. oktoober", "14. oktoober", "15. oktoober", "18. oktoober"],
+    "correctIndex": 2,
+    "gloss": "When Gregory XIII reformed the calendar in 1582, Thursday 4 October was followed directly by Friday. Which date? — 15 October: ten days were dropped, so 4 → 15 (14 is the off-by-one trap)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Maailmas on vaid kaks riiki, millel pole merele pääsu ja mille kõigil naabritel samuti pole. Üks on Usbekistan. Milline Euroopa riik on teine?",
+    "options": ["Liechtenstein", "Šveits", "Luksemburg", "Austria"],
+    "correctIndex": 0,
+    "gloss": "Only two countries are landlocked with all neighbours landlocked too. One is Uzbekistan; which European one is the other? — Liechtenstein (neighbours Switzerland and Austria). Switzerland and Austria border Italy/Germany, Luxembourg borders Belgium."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitmest ooperist koosneb Richard Wagneri tsükkel „Nibelungi sõrmus“?",
+    "options": ["Kolmest", "Neljast", "Viiest", "Seitsmest"],
+    "correctIndex": 1,
+    "gloss": "How many operas make up Wagner's 'Ring of the Nibelung'? — Four: Das Rheingold, Die Walküre, Siegfried, Götterdämmerung."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Orson Wellesi filmis „Kodanik Kane“ sosistab peategelane surres sõna „Rosebud“. Mis see lõpuks osutub olevat?",
+    "options": ["Kelk", "Puuhobune", "Jalgratas", "Mängukaru"],
+    "correctIndex": 0,
+    "gloss": "In 'Citizen Kane' the hero whispers 'Rosebud' as he dies. What does it turn out to be? — His childhood sled."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Esimesed taliolümpiamängud peeti 1924. aastal samas riigis, kus samal aastal toimusid suvemängud Pariisis. Millises linnas?",
+    "options": ["Sankt Moritz", "Oslo", "Chamonix", "Lake Placid"],
+    "correctIndex": 2,
+    "gloss": "The first Winter Olympics were held in 1924 in the same country as that year's Paris Summer Games. In which town? — Chamonix, France; the only French option. St. Moritz hosted in 1928, Lake Placid 1932, Oslo 1952."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vanillikaun on tegelikult ühe troopilise ronitaime vili. Millisesse taimesugukonda see taim kuulub?",
+    "options": ["Pipralised", "Liblikõielised", "Liilialised", "Käpalised"],
+    "correctIndex": 3,
+    "gloss": "The vanilla pod is the fruit of a tropical climbing plant. Which plant family is it? — The orchids (käpalised). The 'pod' tempts towards legumes, the climbing habit towards the pepper family."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1947. aastal leiti Harvardi arvuti Mark II releest putukas, mis kleebiti logiraamatusse märkusega, et see on esimene päris „bug“. Mis putukas see oli?",
+    "options": ["Kärbes", "Koi", "Sääsk", "Prussakas"],
+    "correctIndex": 1,
+    "gloss": "In 1947 an insect was found in a relay of the Harvard Mark II and taped into the log as the first actual 'bug'. What insect? — A moth."
+  }
+]
