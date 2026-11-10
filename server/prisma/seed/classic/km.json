@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "សុភាសិតខ្មែរពោលថា សូម្បីអ្នកប្រាជ្ញក៏ចេះភ្លេច ដូចសត្វមួយប្រភេទដែលមានជើងបួន ក៏នៅតែចេះភ្លាត់ជើងដែរ។ តើសត្វនោះជាសត្វអ្វី?",
+    "options": ["សេះ", "ដំរី", "ក្របី", "ខ្លា"],
+    "correctIndex": 1,
+    "gloss": "A Khmer proverb says even a scholar forgets, just as a certain four-legged animal still slips. Which animal? — The elephant: «ដំរីជើងបួន គង់ភ្លាត់ អ្នកប្រាជ្ញ គង់ភ្លេច»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ប្រហុក ដែលស្ទើរតែគ្រប់ផ្ទះខ្មែរតែងមានទុកក្នុងពាង គេធ្វើពីអ្វី?",
+    "options": ["សាច់ជ្រូក", "សណ្ដែកសៀង", "បង្គា", "ត្រី"],
+    "correctIndex": 3,
+    "gloss": "Prahok, kept in a jar in almost every Khmer home, is made from what? — Fish, salted and fermented. Shrimp paste is a different product (កាពិ)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ក្នុងពាក្យ «ខ្មែរ» ព្យញ្ជនៈ ម ត្រូវសរសេរជាជើងនៅក្រោម ខ។ តើពាក្យមួយណាទៀត មានជើង ម ដូចគ្នា?",
+    "options": ["ខ្ញុំ", "ម្ដាយ", "ក្មេង", "ស្រី"],
+    "correctIndex": 2,
+    "gloss": "In «ខ្មែរ» the consonant ម is written as a subscript under ខ. Which other word has the same subscript ម? — ក្មេង (ក + ជើងម). ម្ដាយ is the trap: there ម is the base letter and the subscript is ដ; ខ្ញុំ has ជើងញ, ស្រី has ជើងរ."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "អ្នកទិញនំបញ្ចុក ៣ ចាន ក្នុងតម្លៃចានមួយ ៤.០០០ រៀល ហើយហុចក្រដាសប្រាក់ ២០.០០០ រៀល។ តើអ្នកនឹងទទួលបានប្រាក់អាប់ប៉ុន្មាន?",
+    "options": ["៨.០០០ រៀល", "១០.០០០ រៀល", "១២.០០០ រៀល", "១៦.០០០ រៀល"],
+    "correctIndex": 0,
+    "gloss": "You buy 3 bowls of num banh chok at 4,000 riel each and pay with a 20,000-riel note. How much change? — 8,000 riel: 3 × 4,000 = 12,000 (the trap), 20,000 − 12,000 = 8,000."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "របាំបុរាណខ្មែរដ៏ល្បីមួយ ត្រាប់តាមរូបចម្លាក់នារីសួគ៌កំពុងរាំ ដែលឆ្លាក់លើជញ្ជាំងប្រាសាទសម័យអង្គរ។ តើរបាំនោះមានឈ្មោះអ្វី?",
+    "options": ["របាំត្រុដិ", "របាំគោះត្រឡោក", "របាំនេសាទ", "របាំអប្សរា"],
+    "correctIndex": 3,
+    "gloss": "A famous classical Khmer dance imitates the carved celestial dancers on Angkor-era temple walls. What is it called? — The Apsara dance. The others are real folk dances (New Year Trot, coconut-shell dance, fishing dance)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "សត្វល្អិតសុទ្ធតែមានជើងប្រាំមួយ។ តើសត្វមួយណា មិនមែនជាសត្វល្អិតទេ?",
+    "options": ["ពីងពាង", "ស្រមោច", "ឃ្មុំ", "មេអំបៅ"],
+    "correctIndex": 0,
+    "gloss": "All insects have six legs. Which of these is not an insect? — The spider: it has eight legs (an arachnid). Ant, bee and butterfly are insects."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "បើមិនគិតម៉ោងបន្ថែមទេ ការប្រកួតបាល់ទាត់មួយប្រកួតមានពីរតង់ សរុបប៉ុន្មាននាទី?",
+    "options": ["៦០ នាទី", "៨០ នាទី", "៩០ នាទី", "១២០ នាទី"],
+    "correctIndex": 2,
+    "gloss": "Without added time, a football match has two halves totalling how many minutes? — 90 (2 × 45). 120 is the trap: that is with extra time."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ពីរ៉ាមីតដ៏ធំៗនៅគីហ្សា ប្រទេសអេហ្ស៊ីប ត្រូវបានសាងសង់ឡើងសម្រាប់ធ្វើជាអ្វី?",
+    "options": ["ជាឃ្លាំងស្តុកស្រូវ", "ជាផ្នូររបស់ស្ដេចផារ៉ោន", "ជាបន្ទាយការពារសត្រូវ", "ជាកន្លែងសង្កេតផ្កាយ"],
+    "correctIndex": 1,
+    "gloss": "What were the great pyramids of Giza built as? — Tombs for the pharaohs. The 'granaries' idea is an old myth."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ក្នុងតុក្កតា «ថម និង ជែរី» ថមជាឆ្មា។ ចុះជែរីវិញ ជាសត្វអ្វី?",
+    "options": ["ឆ្កែ", "ទា", "កំប្រុក", "កណ្ដុរ"],
+    "correctIndex": 3,
+    "gloss": "In the cartoon Tom and Jerry, Tom is a cat. What is Jerry? — A mouse."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ពេលធ្វើរស្មីសំយោគ រុក្ខជាតិស្រូបយកឧស្ម័នអ្វីពីខ្យល់ ហើយបញ្ចេញអុកស៊ីសែនមកវិញ?",
+    "options": ["កាបូនឌីអុកស៊ីត", "អាសូត", "អ៊ីដ្រូសែន", "មេតាន"],
+    "correctIndex": 0,
+    "gloss": "In photosynthesis, which gas do plants take from the air, giving back oxygen? — Carbon dioxide."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ភាសាខ្មែរមានពាក្យច្រើនសម្រាប់ «ញ៉ាំ» អាស្រ័យលើអ្នកណាជាអ្នកញ៉ាំ។ ចំពោះព្រះសង្ឃ គេប្រើពាក្យណា?",
+    "options": ["សោយ", "ពិសា", "ហូប", "ឆាន់"],
+    "correctIndex": 3,
+    "gloss": "Khmer has several words for 'eat' depending on who eats. Which is used for monks? — ឆាន់. សោយ is for the king, ពិសា is polite for laypeople, ហូប is everyday."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "បុណ្យចូលឆ្នាំខ្មែរ ជាធម្មតាមានបីថ្ងៃ។ តើថ្ងៃទីមួយ ដែលគេទទួលទេវតាឆ្នាំថ្មី ហៅថាអ្វី?",
+    "options": ["មហាសង្ក្រាន្ត", "វារៈវ័នបត", "វារៈឡើងស័ក", "វិសាខបូជា"],
+    "correctIndex": 0,
+    "gloss": "Khmer New Year usually lasts three days. What is the first day, when the new year's tevoda is welcomed, called? — Moha Sangkran. Then come Virak Vanabat and Virak Loeng Sak; Visak Bochea is a separate festival."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "តាមរឿងព្រេងដើមកំណើតខ្មែរ ព្រះថោងបានរៀបការជាមួយបុត្រីនៃស្ដេចមួយអង្គ ហើយក្នុងពិធីការខ្មែរ កូនកំលោះនៅតែកាន់ចុងស្បៃកូនក្រមុំ ដូចព្រះថោងដែរ។ ស្ដេចនោះជាស្ដេចអ្វី?",
+    "options": ["ស្ដេចគ្រុឌ", "ស្ដេចយក្ស", "ស្ដេចនាគ", "ស្ដេចស្វា"],
+    "correctIndex": 2,
+    "gloss": "In the legend of Khmer origins, Preah Thong married the daughter of a king, and at Khmer weddings the groom still holds the bride's sbai as Preah Thong did. King of what? — The Naga king (Neang Neak's father)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "នៅឆ្នាំ ២០២៣ កម្ពុជាបានធ្វើជាម្ចាស់ផ្ទះព្រឹត្តិការណ៍កីឡាចម្រុះដ៏ធំមួយ ជាលើកដំបូងក្នុងប្រវត្តិសាស្ត្រ។ តើព្រឹត្តិការណ៍នោះគឺជាអ្វី?",
+    "options": ["អាស៊ីហ្គេម", "ស៊ីហ្គេម", "អូឡាំពិកយុវជន", "ពានរង្វាន់បាល់ទាត់អាស៊ី"],
+    "correctIndex": 1,
+    "gloss": "In 2023 Cambodia hosted a big multi-sport event for the first time in its history. Which? — The SEA Games (32nd, Phnom Penh)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "បើរៀបគ្រាប់ឃ្លីជារាងត្រីកោណ ជួរទីមួយមួយគ្រាប់ ជួរទីពីរពីរគ្រាប់ ជួរទីបីបីគ្រាប់ … ចំនួនសរុបគឺ ១, ៣, ៦, ១០, ១៥។ តើចំនួនបន្ទាប់គឺប៉ុន្មាន?",
+    "options": ["១៨", "១៩", "២០", "២១"],
+    "correctIndex": 3,
+    "gloss": "Marbles stacked in a triangle, one more per row, give totals 1, 3, 6, 10, 15. What comes next? — 21: the sixth row adds six marbles (15 + 6)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ផ្សោតក្នុងទន្លេមេគង្គ រស់នៅក្នុងទឹករហូត ប៉ុន្តែត្រូវងើបមកលើទឹកដើម្បីដកដង្ហើមតាមសួត ហើយបំបៅកូនដោយទឹកដោះ។ ដូច្នេះវាជាសត្វប្រភេទណា?",
+    "options": ["ថនិកសត្វ", "ត្រី", "ល្មូន", "ថលជលិក"],
+    "correctIndex": 0,
+    "gloss": "The Mekong dolphin lives in water but surfaces to breathe with lungs and feeds its young on milk. So what kind of animal is it? — A mammal; feeding young on milk is what defines mammals."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ពេលព្រឹកព្រលឹម អ្នកឈរបែរមុខទៅទិសខាងជើង។ តើព្រះអាទិត្យរះនៅខាងណារបស់អ្នក?",
+    "options": ["ខាងឆ្វេង", "ខាងស្ដាំ", "ខាងមុខ", "ខាងក្រោយ"],
+    "correctIndex": 1,
+    "gloss": "At dawn you stand facing north. On which side of you does the Sun rise? — On your right: the Sun rises in the east, which is to the right when you face north."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ក្នុងការប្រណាំងទូកង ទូករបស់អ្នកទើបតែវ៉ាជាប់ទូកដែលកំពុងនៅលេខពីរ។ ឥឡូវនេះទូករបស់អ្នកនៅលំដាប់ណា?",
+    "options": ["ទីមួយ", "ទីពីរ", "ទីបី", "មិនអាចកំណត់បាន"],
+    "correctIndex": 1,
+    "gloss": "In a boat race, your boat has just overtaken the boat in second place. What place are you in now? — Second: you took its place; the leader is still ahead. 'First' is the autopilot answer."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "កំពូលភ្នំអេវឺរេស ដែលខ្ពស់ជាងគេលើផែនដី ស្ថិតនៅលើព្រំដែនរវាងប្រទេសនេប៉ាល់ និងប្រទេសណា?",
+    "options": ["ឥណ្ឌា", "ប៊ូតាន", "ចិន", "បង់ក្លាដែស"],
+    "correctIndex": 2,
+    "gloss": "Mount Everest stands on the border between Nepal and which country? — China (the Tibet Autonomous Region). India is the tempting wrong answer."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "សុភាសិតខ្មែរ៖ «ទឹកឡើង ត្រីស៊ីស្រមោច ទឹកស្រក …»។ តើត្រូវបំពេញដោយឃ្លាណា?",
+    "options": ["ក្អែកស៊ីត្រី", "កង្កែបស៊ីត្រី", "ត្រីធំស៊ីត្រីតូច", "ស្រមោចស៊ីត្រី"],
+    "correctIndex": 3,
+    "gloss": "Complete the Khmer proverb: 'When the water rises, fish eat ants; when the water falls, …' — 'ants eat fish': fortunes turn. 'Big fish eat small fish' is a different saying."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ចតុមុខនៅភ្នំពេញ ជាកន្លែងដែលទន្លេជួបគ្នា ហើយបែកចេញជាបួនមុខ។ តើទន្លេ ឬស្ទឹងណា មិនមែនជាផ្នែកមួយនៃចតុមុខទេ?",
+    "options": ["ទន្លេសាប", "ទន្លេបាសាក់", "ស្ទឹងសែន", "ទន្លេមេគង្គ"],
+    "correctIndex": 2,
+    "gloss": "Chaktomuk in Phnom Penh is where rivers meet and split into 'four faces'. Which river is not part of it? — The Stung Sen: it flows into the Tonle Sap lake, far upstream. The four faces are the upper and lower Mekong, the Tonle Sap and the Bassac."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ប្រាសាទបាយ័ន ដែលល្បីដោយព្រះភក្ត្រញញឹមរាប់រយនៅលើកំពូល ត្រូវបានកសាងក្រោមរជ្ជកាលព្រះមហាក្សត្រអង្គណា?",
+    "options": ["ព្រះបាទជ័យវរ្ម័នទី៧", "ព្រះបាទសូរ្យវរ្ម័នទី២", "ព្រះបាទជ័យវរ្ម័នទី២", "ព្រះបាទយសោវរ្ម័នទី១"],
+    "correctIndex": 0,
+    "gloss": "The Bayon, famous for its hundreds of smiling faces on its towers, was built under which king? — Jayavarman VII (late 12th–early 13th century). Suryavarman II built Angkor Wat."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ឈ្មោះថ្ងៃទាំងប្រាំពីររបស់ខ្មែរ យកតាមឈ្មោះព្រះអាទិត្យ ព្រះច័ន្ទ និងភពប្រាំ។ តើថ្ងៃណាមានឈ្មោះដូចភពធំជាងគេបំផុតក្នុងប្រព័ន្ធព្រះអាទិត្យ?",
+    "options": ["ថ្ងៃអង្គារ", "ថ្ងៃព្រហស្បតិ៍", "ថ្ងៃសុក្រ", "ថ្ងៃសៅរ៍"],
+    "correctIndex": 1,
+    "gloss": "The seven Khmer weekday names are those of the Sun, the Moon and five planets. Which day bears the name of the largest planet? — Thursday, ថ្ងៃព្រហស្បតិ៍ (Jupiter). Saturn (ថ្ងៃសៅរ៍) is the trap; Tuesday is Mars, Friday Venus."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ក្នុងប្រតិទិនចន្ទគតិខ្មែរ ថ្ងៃ ១៥ កើត ជាថ្ងៃព្រះច័ន្ទពេញវង់។ តើនៅយប់ថ្ងៃ ៨ កើត ព្រះច័ន្ទមើលទៅមានរាងបែបណា?",
+    "options": ["ងងឹតមើលមិនឃើញ", "ជាចំណិតស្ដើងៗ", "ភ្លឺប្រហែលពាក់កណ្ដាលវង់", "ភ្លឺស្ទើរពេញវង់"],
+    "correctIndex": 2,
+    "gloss": "In the Khmer lunar calendar the 15th waxing day is full moon. What does the Moon look like on the 8th waxing day? — About half lit: 'កើត' is the waxing fortnight, starting just after the new moon, so day 8 is roughly halfway to full (first quarter)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "អ្នកឡើងជណ្ដើរពីជាន់ទីមួយ ដល់ជាន់ទីបី អស់ពេល ៣០ វិនាទី។ បើឡើងក្នុងល្បឿនដដែល ពីជាន់ទីមួយដល់ជាន់ទីប្រាំបួន ត្រូវអស់ពេលប៉ុន្មាន?",
+    "options": ["១ នាទី ៣០ វិនាទី", "២ នាទី", "២ នាទី ១៥ វិនាទី", "៤ នាទី ៣០ វិនាទី"],
+    "correctIndex": 1,
+    "gloss": "Climbing from floor 1 to floor 3 takes 30 seconds. At the same pace, how long from floor 1 to floor 9? — 2 minutes: 1→3 is two flights (15 s each), 1→9 is eight flights = 120 s. 4:30 is the autopilot 'three times as many floors'."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ក្នុងប្រព័ន្ធគោលពីរដែលកុំព្យូទ័រប្រើ ១ = ១, ១០ = ២, ១០០ = ៤, ១០០០ = ៨។ តើ ១០១០ ស្មើនឹងប៉ុន្មាន?",
+    "options": ["៥", "៦", "៨", "១០"],
+    "correctIndex": 3,
+    "gloss": "In binary, 1 = 1, 10 = 2, 100 = 4, 1000 = 8. What is 1010? — Ten: 1000 + 10 = 8 + 2. It looks like a trap because '10' is in the question, but it is genuinely 10. Five is 1010 read backwards."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងវង់ភ្លេងពិណពាទ្យ តើឧបករណ៍មួយណាជាប្រភេទផ្លុំ?",
+    "options": ["ស្រឡៃ", "រនាតឯក", "គងវង់តូច", "សំភោ"],
+    "correctIndex": 0,
+    "gloss": "In the pinpeat ensemble, which instrument is a wind instrument? — The sralai, a reed oboe. Roneat ek is a xylophone, kong vong toch a gong circle, sampho a drum."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ពេលនៅភ្នំពេញម៉ោង ៩ ព្រឹក តើនៅទីក្រុងតូក្យូ ប្រទេសជប៉ុន ម៉ោងប៉ុន្មាន?",
+    "options": ["ម៉ោង ៧ ព្រឹក", "ម៉ោង ១០ ព្រឹក", "ម៉ោង ១១ ព្រឹក", "ម៉ោង ១ រសៀល"],
+    "correctIndex": 2,
+    "gloss": "When it is 9 a.m. in Phnom Penh, what time is it in Tokyo? — 11 a.m.: Cambodia is UTC+7, Japan UTC+9, neither uses daylight saving. Knowing the east is ahead rules out 7 a.m.; 10 a.m. is China's time."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ឫស្សីអាចដុះខ្ពស់ដូចដើមឈើ ប៉ុន្តែតាមរុក្ខសាស្ត្រ វាជារុក្ខជាតិក្នុងក្រុមណា?",
+    "options": ["ក្រុមត្នោត", "ក្រុមស្មៅ", "ក្រុមចេក", "ក្រុមស្រល់"],
+    "correctIndex": 1,
+    "gloss": "Bamboo can grow as tall as a tree, but botanically which group does it belong to? — The grasses (family Poaceae)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ទសវត្សរ៍ គឺ ១០ ឆ្នាំ ហើយសតវត្សរ៍ គឺ ១០០ ឆ្នាំ។ ចុះ «សហស្សវត្សរ៍» វិញ គឺប៉ុន្មានឆ្នាំ?",
+    "options": ["១.០០០ ឆ្នាំ", "៥.០០០ ឆ្នាំ", "១០.០០០ ឆ្នាំ", "១០០.០០០ ឆ្នាំ"],
+    "correctIndex": 0,
+    "gloss": "A ទសវត្សរ៍ is 10 years and a សតវត្សរ៍ 100 years. How long is a សហស្សវត្សរ៍? — 1,000 years: សហស្ស is the Sanskrit-Pali 'thousand' (a millennium)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ប្រាសាទអង្គរវត្ត ដែលកសាងនៅសតវត្សរ៍ទី១២ ហើយបែរមុខទៅទិសខាងលិច ដំបូងឡើយត្រូវបានកសាងឧទ្ទិសថ្វាយព្រះណា?",
+    "options": ["ព្រះឥសូរ", "ព្រះពុទ្ធ", "ព្រះព្រហ្ម", "ព្រះវិស្ណុ"],
+    "correctIndex": 3,
+    "gloss": "Angkor Wat, built in the 12th century and facing west, was originally dedicated to which god? — Vishnu. Most earlier Angkorian state temples were Shaivite (ព្រះឥសូរ = Shiva); it became a Buddhist site later."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ព្យញ្ជនៈខ្មែររៀបជាវគ្គប្រាំៗ៖ ក ខ គ ឃ ង, ច ឆ ជ ឈ ញ, ដ ឋ ឌ ឍ ណ, ត ថ ទ ធ ន, ប ផ ព ភ ម។ តើអក្សរចុងក្រោយនៃវគ្គនីមួយៗ មានលក្ខណៈរួមអ្វី?",
+    "options": ["ជាសំឡេងមានខ្យល់ខ្លាំង", "ជាអក្សរដែលគ្មានជើង", "ជាសំឡេងចេញតាមច្រមុះ", "ប្រើតែក្នុងពាក្យបាលី"],
+    "correctIndex": 2,
+    "gloss": "Khmer consonants come in groups of five. What do the last letters of each group (ង ញ ណ ន ម) have in common? — They are nasals, voiced through the nose, as in the Indic order the alphabet follows. The aspirated ones are the 2nd and 4th; all five have subscript forms and are common in native words."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "នៅឆ្នាំ ២០១៦ យូណេស្កូបានចុះបញ្ជីសិល្បៈច្រៀងលេងភ្លេងខ្មែរមួយ ជាបេតិកភណ្ឌវប្បធម៌អរូបីដែលត្រូវការការពារជាបន្ទាន់។ តើគេច្រៀងអមដោយឧបករណ៍អ្វី?",
+    "options": ["ទ្រសោ", "ក្រពើ", "ខ្លុយ", "ចាប៉ីដងវែង"],
+    "correctIndex": 3,
+    "gloss": "In 2016 UNESCO inscribed a Khmer sung tradition on its list of intangible heritage in need of urgent safeguarding. Which instrument accompanies it? — The chapei dang veng, the long-necked lute."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "កាហ្វេអារ៉ាប៊ីកា ទោះមានឈ្មោះស្ដាប់ទៅដូចមកពីស្រុកអារ៉ាប់ក៏ដោយ ក៏ដើមកាហ្វេនេះមានដើមកំណើតដុះព្រៃនៅប្រទេសណា?",
+    "options": ["អារ៉ាប៊ីសាអូឌីត", "អេត្យូពី", "ប្រេស៊ីល", "វៀតណាម"],
+    "correctIndex": 1,
+    "gloss": "Arabica coffee sounds Arabian, but where does the plant grow wild originally? — Ethiopia. Brazil and Vietnam are today's big producers."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ពានរង្វាន់ «តោមាស» ជារង្វាន់កំពូលនៃមហោស្រពភាពយន្តដែលធ្វើឡើងនៅទីក្រុងណា?",
+    "options": ["វេនីស", "កាន", "ប៊ែកឡាំង", "តូរ៉ុនតូ"],
+    "correctIndex": 0,
+    "gloss": "The Golden Lion is the top prize of the film festival held in which city? — Venice. Cannes gives the Palme d'Or, Berlin the Golden Bear."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "គូបរូប៊ិក ដែលមានមុខប្រាំមួយពណ៌ ត្រូវបានបង្កើតឡើងដោយសាស្ត្រាចារ្យស្ថាបត្យកម្មម្នាក់ មកពីប្រទេសណា?",
+    "options": ["ជប៉ុន", "ស្វីស", "អាល្លឺម៉ង់", "ហុងគ្រី"],
+    "correctIndex": 3,
+    "gloss": "The six-coloured Rubik's Cube was invented by an architecture professor from which country? — Hungary (Ernő Rubik, 1974)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "អ្នកនិពន្ធសៀវភៅ «ព្រះអង្គម្ចាស់តូច» ជាជនជាតិបារាំង។ តើលោកមានមុខរបរដើមជាអ្វី?",
+    "options": ["គ្រូពេទ្យ", "អ្នកបើកយន្តហោះ", "គ្រូបង្រៀន", "នាវិក"],
+    "correctIndex": 1,
+    "gloss": "The author of The Little Prince was French. What was his profession? — A pilot (Antoine de Saint-Exupéry, an aviator; the book's narrator is a pilot stranded in the Sahara)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "មនុស្សពេញវ័យមានឆ្អឹង ២០៦ ដុំ។ ចុះទារកទើបនឹងកើតវិញ?",
+    "options": ["តិចជាង ព្រោះឆ្អឹងខ្លះមិនទាន់កើតមាន", "ស្មើគ្នា ព្រោះចំនួនឆ្អឹងមិនប្រែប្រួល", "ច្រើនជាង ព្រោះឆ្អឹងខ្លះផ្សារចូលគ្នាពេលធំ", "ពាក់កណ្ដាល ព្រោះឆ្អឹងនៅខ្ចីនិងតូច"],
+    "correctIndex": 2,
+    "gloss": "An adult has 206 bones. What about a newborn? — More (around 270–300): many bones, such as those of the skull and the base of the spine, fuse as the child grows."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "លេខទាំងបួននេះ សុទ្ធតែមើលទៅដូចជាចំនួនបឋម ប៉ុន្តែមានតែមួយទេដែលពិតជាចំនួនបឋម។ តើលេខណា?",
+    "options": ["៥៧", "៦៩", "៨៩", "៩១"],
+    "correctIndex": 2,
+    "gloss": "All four look prime, but only one is. Which? — 89. 57 = 3 × 19, 69 = 3 × 23, 91 = 7 × 13."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ភពអង្គារនៅឆ្ងាយពីព្រះអាទិត្យ ប្រហែល ១,៥ ដងនៃចម្ងាយពីផែនដីទៅព្រះអាទិត្យ។ តើពន្លឺព្រះអាទិត្យត្រូវចំណាយពេលប្រហែលប៉ុន្មាន ទើបទៅដល់ភពអង្គារ?",
+    "options": ["ប្រហែល ១៣ វិនាទី", "ប្រហែល ១៣ នាទី", "ប្រហែល ១៣ ម៉ោង", "ប្រហែល ១៣ ថ្ងៃ"],
+    "correctIndex": 1,
+    "gloss": "Mars is about 1.5 times as far from the Sun as Earth. Roughly how long does sunlight take to reach it? — About 13 minutes: sunlight reaches Earth in about 8 minutes (the fact), × 1.5 ≈ 12.5–13 (the reasoning). Same number in every option, so only the unit decides."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ប្រាសាទបន្ទាយស្រី ដែលមានចម្លាក់ល្អិតល្អន់បំផុតមួយនៅតំបន់អង្គរ មិនមែនកសាងដោយព្រះមហាក្សត្រទេ។ តើអ្នកកសាងគឺជានរណា?",
+    "options": ["គ្រូព្រាហ្មណ៍របស់ស្ដេច", "ព្រះមហេសីរបស់ស្ដេច", "មេទ័ពរបស់ស្ដេច", "ឈ្មួញអ្នកមាន"],
+    "correctIndex": 0,
+    "gloss": "Banteay Srei, with some of the finest carving at Angkor, was not built by a king. Who built it? — A Brahmin counsellor and royal guru, Yajnavaraha (consecrated 967). The modern name 'citadel of women' makes the queen tempting."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្រុមប្រាសាទសំបូរព្រៃគុក នៅខេត្តកំពង់ធំ ដែលយូណេស្កូចុះបញ្ជីជាបេតិកភណ្ឌពិភពលោកនៅឆ្នាំ ២០១៧ ជាទីតាំងនៃរាជធានីបុរាណមួយ។ តើរាជធានីនោះឈ្មោះអ្វី?",
+    "options": ["ឦសានបុរៈ", "យសោធរបុរៈ", "ហរិហរាល័យ", "វ្យាធបុរៈ"],
+    "correctIndex": 0,
+    "gloss": "Sambor Prei Kuk in Kampong Thom, a UNESCO World Heritage Site since 2017, is the site of which ancient capital? — Ishanapura, capital of Chenla (7th century). Yasodharapura is Angkor, Hariharalaya is Roluos, Vyadhapura is linked to Funan."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "នៅឆ្នាំ ៨០២ ព្រះបាទជ័យវរ្ម័នទី២ បានធ្វើពិធីប្រកាសខ្លួនជាចក្រពត្តិ ដែលគេចាត់ទុកជាការចាប់ផ្ដើមសម័យអង្គរ។ តើពិធីនោះធ្វើឡើងនៅលើភ្នំណា?",
+    "options": ["ភ្នំបាខែង", "ភ្នំក្រោម", "ភ្នំបូកគោ", "ភ្នំគូលែន"],
+    "correctIndex": 3,
+    "gloss": "In 802 Jayavarman II had himself consecrated universal monarch, taken as the start of the Angkor era. On which mountain? — Phnom Kulen (Mahendraparvata), per the Sdok Kak Thom inscription. Bakheng and Krom are later temple hills near Angkor."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ឆ្នាំខ្មែរនីមួយៗ មានទាំងឈ្មោះសត្វ និងឈ្មោះស័ក ដូចជា «ឆ្នាំរោង ឆស័ក»។ តើក្រោយប៉ុន្មានឆ្នាំ ទើបឈ្មោះសត្វ និងស័កដដែលនេះ វិលមកជួបគ្នាម្ដងទៀត?",
+    "options": ["១២ ឆ្នាំ", "២២ ឆ្នាំ", "៦០ ឆ្នាំ", "១២០ ឆ្នាំ"],
+    "correctIndex": 2,
+    "gloss": "Each Khmer year has an animal name and a sak name, e.g. 'Year of the Dragon, Chhá Sak'. After how many years does the same pair return? — 60: there are 12 animals and 10 saks (the fact), both advancing one per year, so the pair repeats after the least common multiple, 60 (the reasoning). 120 is the 12 × 10 trap."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ពាក្យ «រ៉ូបូត» ត្រូវបានប្រើជាលើកដំបូងក្នុងរឿងល្ខោនមួយ នៅឆ្នាំ ១៩២០។ តើរឿងល្ខោននោះសរសេរជាភាសាណា?",
+    "options": ["ឆេក", "រុស្ស៊ី", "ហុងគ្រី", "អាល្លឺម៉ង់"],
+    "correctIndex": 0,
+    "gloss": "The word 'robot' first appeared in a 1920 play. In which language was the play written? — Czech: Karel Čapek's R.U.R., from Czech 'robota', forced labour."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ឈ្មោះ «ផ្លូវសូត្រ» សម្រាប់ផ្លូវពាណិជ្ជកម្មបុរាណរវាងចិន និងលោកខាងលិច ត្រូវបានប្រើជាប្រចាំតាំងពីសតវត្សរ៍ទី១៩ ដោយអ្នកភូមិសាស្ត្រជនជាតិណា?",
+    "options": ["ចិន", "អង់គ្លេស", "បារាំង", "អាល្លឺម៉ង់"],
+    "correctIndex": 3,
+    "gloss": "The name 'Silk Road' for the ancient trade routes between China and the West was popularised in the 19th century by a geographer of which nationality? — German: Ferdinand von Richthofen, 'Seidenstraße', 1877."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ចម្ងាយម៉ារ៉ាតុង ៤២,១៩៥ គីឡូម៉ែត្រ បានមកពីផ្លូវរត់នៃកីឡាអូឡាំពិក ដែលធ្វើឡើងនៅទីក្រុងណា?",
+    "options": ["អាថែន", "ប៉ារីស", "ឡុងដ៍", "ស្តុកខុល"],
+    "correctIndex": 2,
+    "gloss": "The marathon's 42.195 km comes from the course of the Olympics held in which city? — London, 1908 (Windsor Castle to the stadium), later made the standard. Athens is the trap: the legend and the first modern marathon (1896, about 40 km)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "តើទន្លេធំមួយណា ហូរកាត់ខ្សែអេក្វាទ័រចំនួនពីរដង?",
+    "options": ["កុងហ្គោ", "នីល", "អាម៉ាហ្សូន", "នីហ្សេ"],
+    "correctIndex": 0,
+    "gloss": "Which great river crosses the equator twice? — The Congo. The Nile crosses it once; the Amazon stays just south of it; the Niger is entirely north."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ភពមួយក្នុងប្រព័ន្ធព្រះអាទិត្យ មានអ័ក្សទ្រេតស្ទើរដេក ទើបប៉ូលនីមួយៗរបស់វាត្រូវពន្លឺព្រះអាទិត្យជាប់ៗគ្នា ប្រហែល ៤២ ឆ្នាំផែនដី។ តើភពនោះជាភពអ្វី?",
+    "options": ["ភពសៅរ៍", "ភពយូរ៉ានុស", "ភពណិបទូន", "ភពព្រហស្បតិ៍"],
+    "correctIndex": 1,
+    "gloss": "One planet's axis is tilted almost onto its side, so each pole gets about 42 Earth years of continuous sunlight. Which planet? — Uranus (tilt about 98°, year about 84 Earth years)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ស្ថាបត្យករដែលរចនាអគារល្ខោនអូប៉េរ៉ាស៊ីដនី មិនដែលបានឃើញអគារនេះនៅពេលសាងសង់រួចផ្ទាល់ភ្នែកឡើយ។ តើលោកជាជនជាតិណា?",
+    "options": ["អូស្ត្រាលី", "អង់គ្លេស", "ស៊ុយអែត", "ដាណឺម៉ាក"],
+    "correctIndex": 3,
+    "gloss": "The architect of the Sydney Opera House never saw the finished building in person. What was his nationality? — Danish: Jørn Utzon, who left the project in 1966 and never returned to Australia."
+  }
+]
