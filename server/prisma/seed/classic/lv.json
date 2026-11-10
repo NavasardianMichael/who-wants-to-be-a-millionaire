@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pabeidziet sakāmvārdu: „Kas otram bedri rok, …”",
+    "options": ["pats iekrīt", "pats paklūp", "pats nogurst", "pats apmaldās"],
+    "correctIndex": 0,
+    "gloss": "Finish the proverb: \"Whoever digs a pit for another…\" — \"…falls into it himself\": «Kas otram bedri rok, pats iekrīt»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ja vārdā „kazas” pirmajam „a” uzliek garumzīmi, ko nozīmē jaunais vārds?",
+    "options": ["Ēdienu", "Svinības", "Apģērbu", "Darbarīku"],
+    "correctIndex": 1,
+    "gloss": "Put a macron on the first \"a\" of \"kazas\" (goats): what does the new word mean? — A celebration: \"kāzas\" is a wedding. One macron changes the word."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kādu ziedu pēc tautas ticējuma meklē Jāņu naktī, lai gan šis augs patiesībā nemaz nezied?",
+    "options": ["Ozola ziedu", "Liepas ziedu", "Papardes ziedu", "Bērza ziedu"],
+    "correctIndex": 2,
+    "gloss": "Which flower do people seek on Midsummer night by folk belief, though the plant never blooms? — The fern flower; ferns reproduce by spores. Oak, linden and birch all flower."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurā dienā Latvijā svin valsts proklamēšanas gadadienu?",
+    "options": ["18. novembrī", "4. maijā", "11. novembrī", "23. jūnijā"],
+    "correctIndex": 0,
+    "gloss": "On which day does Latvia celebrate the anniversary of its proclamation? — 18 November (1918). 4 May is the restoration of independence, 11 November is Lāčplēsis Day, 23 June is Līgo."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuru latviešu tautas mūzikas instrumentu spēlē, ar pirkstiem strinkšķinot stīgas?",
+    "options": ["Dūdas", "Stabuli", "Kokli", "Trideksni"],
+    "correctIndex": 2,
+    "gloss": "Which Latvian folk instrument is played by plucking strings with the fingers? — The kokle (zither). Dūdas are bagpipes, stabule a pipe, trideksnis a jingle percussion."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hokejā uz ledus katrai komandai ir seši spēlētāji, ieskaitot vārtsargu. Par cik spēlētājiem vairāk parastā spēles brīdī ir futbola laukumā?",
+    "options": ["Par 5", "Par 8", "Par 10", "Par 12"],
+    "correctIndex": 2,
+    "gloss": "In ice hockey each team has six players on the ice, goalie included. How many more players are on a football pitch? — 10: football 2 × 11 = 22, hockey 2 × 6 = 12."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Latvijai uz sauszemes ir četras kaimiņvalstis. Kura no šīm valstīm nav starp tām?",
+    "options": ["Lietuva", "Polija", "Baltkrievija", "Krievija"],
+    "correctIndex": 1,
+    "gloss": "Latvia has four land neighbours. Which of these is not one of them? — Poland: it borders Lithuania, not Latvia. The four are Estonia, Lithuania, Belarus, Russia."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Animācijas filmā „Ratatouille” žurka Remijs kļūst par pavāru. Kurā pilsētā notiek darbība?",
+    "options": ["Romā", "Parīzē", "Lionā", "Briselē"],
+    "correctIndex": 1,
+    "gloss": "In \"Ratatouille\" the rat Remy becomes a chef. In which city? — Paris (Gusteau's restaurant)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš no šiem dzīvniekiem ziemu pārguļ ziemas miegā?",
+    "options": ["Zaķis", "Lapsa", "Stirna", "Ezis"],
+    "correctIndex": 3,
+    "gloss": "Which of these animals hibernates through winter? — The hedgehog. Hares, foxes and roe deer stay active all winter."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "No rīta termometrs rādīja −5 °C, bet līdz pusdienlaikam kļuva par 8 grādiem siltāks. Cik grādu termometrs rāda pusdienlaikā?",
+    "options": ["−13 °C", "−3 °C", "3 °C", "13 °C"],
+    "correctIndex": 2,
+    "gloss": "In the morning it was −5 °C, by noon 8 degrees warmer. What is the temperature at noon? — 3 °C: −5 + 8. The others catch sign slips."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ko dara cilvēks, par kuru saka, ka viņš „pūš pīlītes”?",
+    "options": ["Slinko", "Melo", "Dzied", "Guļ"],
+    "correctIndex": 1,
+    "gloss": "What is a person doing who \"blows little ducks\"? — Lying / telling tall tales: the idiom «pūst pīlītes»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kurš no šiem vārdiem, ievērojot arī garumzīmes, lasāms vienādi no abām pusēm?",
+    "options": ["sēdās", "sākas", "sēdēs", "nesēs"],
+    "correctIndex": 2,
+    "gloss": "Which word, counting macrons too, reads the same both ways? — \"sēdēs\" (will sit): s-ē-d-ē-s. \"sēdās\" and \"sākas\" fail only on a macron; \"nesēs\" reverses to \"sēsen\"."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Zibens uzzibsnīja, un pērkons atskanēja pēc 9 sekundēm. Skaņa gaisā sekundē veic aptuveni 340 metrus. Cik tālu ir negaiss?",
+    "options": ["Apmēram 9 km", "Apmēram 6 km", "Apmēram 3 km", "Apmēram 1 km"],
+    "correctIndex": 2,
+    "gloss": "Lightning flashed, thunder came 9 seconds later; sound travels about 340 m per second. How far is the storm? — About 3 km: 9 × 340 ≈ 3,060 m. \"9 km\" catches autopilot."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Latīņu alfabētā ir 26 burti. Latviešu alfabētā nav burtu q, w, x un y, toties ir vienpadsmit burtu ar diakritiskajām zīmēm. Cik burtu ir latviešu alfabētā?",
+    "options": ["31", "33", "35", "37"],
+    "correctIndex": 1,
+    "gloss": "The Latin alphabet has 26 letters; Latvian drops q, w, x, y but adds eleven letters with diacritics. How many letters? — 33: 26 − 4 + 11 (ā č ē ģ ī ķ ļ ņ š ū ž)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saule, ko redzam debesīs, patiesībā ir neliels „vēstures ieraksts”. Cik ilgi tās gaisma ceļo līdz Zemei?",
+    "options": ["Apmēram 8 sekundes", "Apmēram 8 stundas", "Apmēram 8 dienas", "Apmēram 8 minūtes"],
+    "correctIndex": 3,
+    "gloss": "The Sun we see is a small \"recording of the past\". How long does its light take to reach Earth? — About 8 minutes (about 8 min 20 s for 150 million km)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kad Rīgā pulkstenis rāda 12.00, cik tas rāda Londonā?",
+    "options": ["10.00", "11.00", "13.00", "14.00"],
+    "correctIndex": 0,
+    "gloss": "When it is 12:00 in Riga, what time is it in London? — 10:00: Latvia is two hours ahead of the UK all year (both switch to summer time on the same dates). Needs the time zones and the direction."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Romānu „Mērnieku laiki” sarakstīja divi autori kopā. Kas viņi bija?",
+    "options": ["Rainis un Aspazija", "Andrejs Pumpurs un Auseklis", "Juris Alunāns un Krišjānis Valdemārs", "Reinis un Matīss Kaudzītes"],
+    "correctIndex": 3,
+    "gloss": "The novel \"The Times of the Land Surveyors\" was written by two authors together. Who? — The brothers Reinis and Matīss Kaudzīte (1879). The other pairs are real but never co-wrote a novel."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš izpildītājs 2002. gadā izcīnīja Latvijai uzvaru Eirovīzijas dziesmu konkursā?",
+    "options": ["Prāta Vētra", "Aisha", "Laima Vaikule", "Marie N"],
+    "correctIndex": 3,
+    "gloss": "Who won Eurovision for Latvia in 2002? — Marie N (Marija Naumova) with \"I Wanna\". Prāta Vētra came third in 2000; Aisha sang in 2010."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gints Zilbalodis ar animācijas filmu „Straume” izcīnīja Latvijai pirmo „Oskaru”. Kurš dzīvnieks ir filmas galvenais varonis?",
+    "options": ["Kaķis", "Lapsa", "Ezis", "Zaķis"],
+    "correctIndex": 0,
+    "gloss": "Gints Zilbalodis won Latvia's first Oscar with the animated film \"Flow\". Which animal is its hero? — A (black) cat. Best Animated Feature, 2025."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kāda profesija ir Nintendo spēļu varonim Mario?",
+    "options": ["Elektriķis", "Pastnieks", "Santehniķis", "Pavārs"],
+    "correctIndex": 2,
+    "gloss": "What is Nintendo's Mario by trade? — A plumber."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Jāsamaksā tieši 3,88 € tikai ar eiro monētām. Kāds ir mazākais monētu skaits, ar ko to var izdarīt?",
+    "options": ["6", "7", "8", "9"],
+    "correctIndex": 2,
+    "gloss": "You must pay exactly €3.88 using euro coins only. What is the fewest coins? — 8: 2 € + 1 € + 50 + 20 + 10 + 5 + 2 + 1 cents."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Daugava ir garāka, taču tās izteka ir Krievijā. Kura ir garākā upe, kuras gan izteka, gan grīva atrodas Latvijā?",
+    "options": ["Gauja", "Venta", "Lielupe", "Aiviekste"],
+    "correctIndex": 0,
+    "gloss": "The Daugava is longer but rises in Russia. Which is the longest river with both source and mouth in Latvia? — The Gauja (452 km). The Venta rises in Lithuania; the Lielupe and Aiviekste are far shorter."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Augstu kalnos ūdens vārās krietni zem 100 °C, tāpēc kartupeļi tur jāvāra ilgāk. Kāpēc ūdens tur vārās zemākā temperatūrā?",
+    "options": ["Gaiss ir aukstāks", "Gaisa spiediens ir zemāks", "Gaisā ir mazāk skābekļa", "Ūdens ir tīrāks"],
+    "correctIndex": 1,
+    "gloss": "High in the mountains water boils well below 100 °C. Why? — Lower air pressure. \"Less oxygen\" is true up there but irrelevant to boiling."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vārds „robots” pirmo reizi izskanēja Karela Čapeka lugā, kas tapa 1920. gadā. No kuras valodas tas nāk?",
+    "options": ["Krievu", "Poļu", "Vācu", "Čehu"],
+    "correctIndex": 3,
+    "gloss": "The word \"robot\" first appeared in Karel Čapek's play written in 1920 (R.U.R.). Which language does it come from? — Czech (robota, \"forced labour\"); the writer's nationality is the clue."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kurš no šiem notikumiem notika visagrāk?",
+    "options": ["Kolumbs sasniedz Ameriku", "Gūtenbergs iespiež Bībeli", "Luters publisko 95 tēzes", "Magelāna ekspedīcija dodas apkārt pasaulei"],
+    "correctIndex": 1,
+    "gloss": "Which of these happened first? — Gutenberg prints the Bible (c. 1455). Columbus 1492, Luther's theses 1517, Magellan sets out 1519."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurš pasaules šaha čempions sava aizraujošā uzbrukuma stila dēļ iesaukts par „burvi no Rīgas”?",
+    "options": ["Mihails Tāls", "Tigrans Petrosjans", "Mihails Botviņņiks", "Boriss Spaskis"],
+    "correctIndex": 0,
+    "gloss": "Which world chess champion was nicknamed \"the Magician from Riga\" for his attacking style? — Mikhail Tal (champion 1960–61)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Basketbolu 1891. gadā izdomāja kanādietis Džeimss Neismits. Kurā valstī tas notika?",
+    "options": ["Kanādā", "ASV", "Lielbritānijā", "Īrijā"],
+    "correctIndex": 1,
+    "gloss": "Basketball was invented in 1891 by the Canadian James Naismith. In which country? — The USA (Springfield, Massachusetts). His nationality is the trap."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Igaunijai tā ir bezdelīga, Lietuvai — baltais stārķis. Kurš putns ir Latvijas nacionālais putns?",
+    "options": ["Dzērve", "Lakstīgala", "Baltā cielava", "Lielā zīlīte"],
+    "correctIndex": 2,
+    "gloss": "Estonia's is the swallow, Lithuania's the white stork. Which is Latvia's national bird? — The white wagtail."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuru garšvielu iegūst no krokusa zieda drīksnām, un tāpēc tā ir viena no dārgākajām pasaulē?",
+    "options": ["Kurkumu", "Kanēli", "Vaniļu", "Safrānu"],
+    "correctIndex": 3,
+    "gloss": "Which spice comes from crocus stigmas and is therefore among the world's most expensive? — Saffron. Turmeric is a root, cinnamon a bark, vanilla an orchid pod."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuru seno ēģiptiešu dievu attēloja ar šakāļa galvu un saistīja ar mirušo apbedīšanu?",
+    "options": ["Horu", "Totu", "Ra", "Anubisu"],
+    "correctIndex": 3,
+    "gloss": "Which Egyptian god had a jackal's head and was linked with burying the dead? — Anubis. Horus and Ra are falcon-headed, Thoth ibis-headed."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hercoga Jēkaba laikā Kurzemes hercogistei piederēja kolonija Karību jūrā. Kura sala tā bija?",
+    "options": ["Barbadosa", "Jamaika", "Tobāgo", "Martinika"],
+    "correctIndex": 2,
+    "gloss": "Under Duke Jacob, the Duchy of Courland held a colony in the Caribbean. Which island? — Tobago (17th century; the duchy also held an island in the Gambia River)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Brīvības pieminekļa Milda tur trīs zvaigznes, kas simbolizē Latvijas novadus. Kuram novadam atsevišķas zvaigznes nav?",
+    "options": ["Kurzemei", "Vidzemei", "Latgalei", "Zemgalei"],
+    "correctIndex": 3,
+    "gloss": "\"Milda\" on the Freedom Monument holds three stars for Latvia's regions. Which region has no star of its own? — Zemgale: the stars stand for Kurzeme, Vidzeme and Latgale (Zemgale was counted with Kurzeme)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Daudzas Rīgas jūgendstila ēkas projektēja arhitekts Mihails Eizenšteins. Viņa dēls kļuva par slavenu kinorežisoru. Kuru filmu uzņēma dēls?",
+    "options": ["„Bruņukuģis Potjomkins”", "„Metropole”", "„Nosferatu”", "„Cilvēks ar kinoaparātu”"],
+    "correctIndex": 0,
+    "gloss": "Architect Mikhail Eisenstein designed many of Riga's Art Nouveau buildings; his son became a famous film director. Which film is the son's? — \"Battleship Potemkin\" (Sergei Eisenstein, born in Riga). Metropolis is Lang's, Nosferatu Murnau's, Man with a Movie Camera Vertov's."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "QR kodu 1994. gadā izgudroja, lai rūpnīcās izsekotu automašīnu detaļas. Kurā valstī tas radās?",
+    "options": ["Dienvidkorejā", "Vācijā", "ASV", "Japānā"],
+    "correctIndex": 3,
+    "gloss": "The QR code was invented in 1994 to track car parts in factories. In which country? — Japan (Denso Wave, a Toyota group company)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Žirafes kakls var būt gandrīz divus metrus garš. Cik tajā ir kakla skriemeļu?",
+    "options": ["Septiņi", "Divpadsmit", "Astoņpadsmit", "Divdesmit četri"],
+    "correctIndex": 0,
+    "gloss": "A giraffe's neck can be nearly two metres long. How many neck vertebrae does it have? — Seven, the same as a human; each is just very long."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš ir vismazākais kauls cilvēka ķermenī?",
+    "options": ["Āmuriņš", "Laktiņa", "Zirņveida kauls", "Kāpslis"],
+    "correctIndex": 3,
+    "gloss": "Which is the smallest bone in the human body? — The stapes (stirrup) in the middle ear; the hammer and anvil are its slightly larger neighbours, the pisiform a small wrist bone."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kā skandināvu mitoloģijā sauca Odina astoņkājaino zirgu?",
+    "options": ["Grani", "Pegazs", "Bucefāls", "Sleipnirs"],
+    "correctIndex": 3,
+    "gloss": "In Norse myth, what was Odin's eight-legged horse called? — Sleipnir. Grani is Sigurd's horse, Pegasus Greek, Bucephalus Alexander's."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Latvijas karogs ir 150 cm augsts. Cik plata ir tā baltā josla?",
+    "options": ["25 cm", "30 cm", "37,5 cm", "50 cm"],
+    "correctIndex": 1,
+    "gloss": "A Latvian flag is 150 cm tall. How wide is its white stripe? — 30 cm: the stripes are in the ratio 2:1:2, so white is 1/5 of the height. 50 cm assumes equal stripes."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kurā no šīm galvaspilsētām ikdienā maksā ar eiro, lai gan valsts nav Eiropas Savienības dalībvalsts?",
+    "options": ["Belgradā", "Tirānā", "Podgoricā", "Skopjē"],
+    "correctIndex": 2,
+    "gloss": "In which of these capitals do people pay in euros, though the country is not an EU member? — Podgorica: Montenegro uses the euro unilaterally. Serbia has the dinar, Albania the lek, North Macedonia the denar."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurš zinātnieks 1822. gadā pirmais atšifrēja ēģiptiešu hieroglifus, izmantojot Rozetas akmeni?",
+    "options": ["Tomass Jangs", "Hovards Kārters", "Žans Fransuā Šampoljons", "Heinrihs Šlīmanis"],
+    "correctIndex": 2,
+    "gloss": "Who first deciphered Egyptian hieroglyphs in 1822 using the Rosetta Stone? — Jean-François Champollion. Thomas Young made early progress but did not decipher them; Carter found Tutankhamun, Schliemann dug Troy."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Rundāles pils arhitekts Sanktpēterburgā projektēja arī vienu no tās slavenākajām ēkām. Kuru?",
+    "options": ["Īzaka katedrāli", "Ziemas pili", "Admiralitāti", "Kazaņas katedrāli"],
+    "correctIndex": 1,
+    "gloss": "The architect of Rundāle Palace also designed one of St Petersburg's most famous buildings. Which? — The Winter Palace (Francesco Bartolomeo Rastrelli). St Isaac's is Montferrand's, the Admiralty Zakharov's, Kazan Cathedral Voronikhin's."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "„Divkārt iekšzemes” valsts robežojas tikai ar valstīm, kurām arī nav pieejas jūrai. Kura no šīm valstīm ir tāda?",
+    "options": ["Šveice", "Austrija", "Luksemburga", "Lihtenšteina"],
+    "correctIndex": 3,
+    "gloss": "A \"doubly landlocked\" country borders only landlocked countries. Which of these is one? — Liechtenstein: its only neighbours are Switzerland and Austria. Luxembourg borders France and Germany, which have coasts."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurā pilsētā mācītājs Ernsts Gliks 17. gadsimtā tulkoja Bībeli latviešu valodā? Tur vēl šodien aug Glika ozoli.",
+    "options": ["Cēsīs", "Alūksnē", "Valmierā", "Kuldīgā"],
+    "correctIndex": 1,
+    "gloss": "In which town did pastor Ernst Glück translate the Bible into Latvian in the 17th century? Glück's oaks still grow there. — Alūksne."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Visi šie monarhi valdīja vairāk nekā 60 gadu. Kurš no viņiem valdīja visilgāk?",
+    "options": ["Luijs XIV", "Elizabete II", "Francis Jozefs I", "Karaliene Viktorija"],
+    "correctIndex": 0,
+    "gloss": "All these monarchs reigned over 60 years. Who reigned longest? — Louis XIV (72 years, 1643–1715). Elizabeth II 70, Franz Joseph 68, Victoria 63."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Marija Kirī vienu no saviem atklātajiem elementiem nosauca dzimtenes vārdā. Kuru?",
+    "options": ["Poloniju", "Franciju", "Germāniju", "Rutēniju"],
+    "correctIndex": 0,
+    "gloss": "Marie Curie named one of the elements she discovered after her homeland. Which? — Polonium (Poland). All four are named after countries; francium is the trap for her French career."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurā Šekspīra lugā darbojas Kalibāns?",
+    "options": ["„Vētrā”", "„Sapnī vasaras naktī”", "„Ziemas pasakā”", "„Divpadsmitajā naktī”"],
+    "correctIndex": 0,
+    "gloss": "In which Shakespeare play does Caliban appear? — The Tempest."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kurš komponists 19. gadsimta 30. gados bija diriģents Rīgas teātrī, bet bēgšana no Rīgas pa vētrainu jūru iedvesmoja viņa operu par spoku kuģi?",
+    "options": ["Rihards Vāgners", "Roberts Šūmanis", "Ferencs Lists", "Džuzepe Verdi"],
+    "correctIndex": 0,
+    "gloss": "Which composer conducted at the Riga theatre in the 1830s, and whose stormy sea escape from Riga inspired his ghost-ship opera? — Richard Wagner (Riga 1837–39; The Flying Dutchman)."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Latvijas izlase savu pirmo olimpisko zelta medaļu izcīnīja 2000. gadā Sidnejā. Kurā sporta veidā?",
+    "options": ["Vieglatlētikā", "Sporta vingrošanā", "Šaušanā", "Bobslejā"],
+    "correctIndex": 1,
+    "gloss": "Latvia won its first Olympic gold in Sydney 2000. In which sport? — Artistic gymnastics: Igors Vihrovs, floor exercise."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuru miniatūru ierīci, ko vēlāk iecienīja spiegi, 1938. gadā sāka ražot Rīgas VEF rūpnīcā?",
+    "options": ["Diktofonu", "Fotoaparātu", "Radioraidītāju", "Kabatas lukturīti"],
+    "correctIndex": 1,
+    "gloss": "Which miniature device, later loved by spies, went into production at Riga's VEF factory in 1938? — A camera: Walter Zapp's Minox."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kas īsti ir kaperi, ko pievieno mērcēm un salātiem?",
+    "options": ["Jauni dzinumi", "Sēklas", "Jaunas lapas", "Neuzplaukuši ziedpumpuri"],
+    "correctIndex": 3,
+    "gloss": "What exactly are capers, added to sauces and salads? — Unopened flower buds of the caper bush, pickled or salted."
+  }
+]

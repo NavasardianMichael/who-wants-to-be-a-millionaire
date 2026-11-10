@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dopolnite pregovor: „Rana ura, … ura.“",
+    "options": [
+      "Srebrna",
+      "Zlata",
+      "Zdrava",
+      "Mirna"
+    ],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: \"An early hour, a ... hour.\" — Golden: \"Rana ura, zlata ura\" (the early bird catches the worm)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Katera beseda, prebrana od zadaj naprej, postane ime pijače?",
+    "options": [
+      "Rak",
+      "Lok",
+      "Kos",
+      "Tok"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word, read backwards, becomes the name of a drink? — Kos (piece/blackbird) → sok (juice). Every option reverses into a real word (kar, kol, kot), so the player must check the meaning."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Če je pojutrišnjem sobota, kateri dan je bil včeraj?",
+    "options": [
+      "Četrtek",
+      "Petek",
+      "Torek",
+      "Sreda"
+    ],
+    "correctIndex": 3,
+    "gloss": "If the day after tomorrow is Saturday, what day was yesterday? — Wednesday: tomorrow is Friday, today Thursday (the trap), yesterday Wednesday."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "V katerem morju je voda tako slana, da kopalec v njem obleži na gladini kot zamašek?",
+    "options": [
+      "V Črnem",
+      "V Mrtvem",
+      "V Rdečem",
+      "V Belem"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sea is the water so salty that a bather floats like a cork? — The Dead Sea. All options are 'colour/adjective' seas."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kako se imenuje praznično pecivo iz kvašenega testa, ki ga namažemo z orehovim nadevom in zvijemo?",
+    "options": [
+      "Gibanica",
+      "Šarkelj",
+      "Kremšnita",
+      "Potica"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the festive yeast pastry spread with walnut filling and rolled up? — Potica. Gibanica is layered, šarkelj is a raisin bundt, kremšnita a cream slice."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri plin rastline jemljejo iz zraka, da lahko ob sončni svetlobi tvorijo hrano?",
+    "options": [
+      "Kisik",
+      "Dušik",
+      "Ogljikov dioksid",
+      "Vodik"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which gas do plants take from the air to make food in sunlight? — Carbon dioxide (photosynthesis); oxygen is the tempting product."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera ptica svojih jajc ne vali sama, ampak jih podtakne v gnezda drugih ptic?",
+    "options": [
+      "Kukavica",
+      "Sraka",
+      "Lastovka",
+      "Škorec"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird doesn't hatch its own eggs but slips them into other birds' nests? — The cuckoo (hence the idiom 'kukavičje jajce')."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "V Planici so leta 1994 prvič na svetu preleteli 200 metrov. V katerem športu?",
+    "options": [
+      "V alpskem smučanju",
+      "V smučarskih skokih",
+      "V biatlonu",
+      "V teku na smučeh"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Planica in 1994, 200 metres were flown for the first time in the world. In which sport? — Ski jumping (Toni Nieminen, 203 m, March 1994)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako je ime zabavnemu snežaku v risanki Ledeno kraljestvo?",
+    "options": [
+      "Sven",
+      "Hans",
+      "Kristoff",
+      "Olaf"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the funny snowman called in Frozen? — Olaf. Sven is the reindeer, Kristoff and Hans are the human leads."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na god katerega svetnika po ljudskem izročilu mošt postane vino?",
+    "options": [
+      "Svetega Miklavža",
+      "Svetega Štefana",
+      "Svetega Martina",
+      "Svetega Jurija"
+    ],
+    "correctIndex": 2,
+    "gloss": "On whose saint's day, by folk tradition, does must turn into wine? — St Martin (Martinovo, 11 November)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo je napisal zgodbo o silaku Martinu Krpanu, ki na Dunaju premaga strašnega Brdavsa?",
+    "options": [
+      "Fran Levstik",
+      "Josip Jurčič",
+      "Ivan Cankar",
+      "Janez Trdina"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the story of strongman Martin Krpan, who defeats the terrible Brdavs in Vienna? — Fran Levstik (1858). The others are 19th/early-20th-century prose writers."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo je leta 1550 izdal Katekizem in Abecednik, prvi slovenski tiskani knjigi?",
+    "options": [
+      "Adam Bohorič",
+      "Jurij Dalmatin",
+      "Primož Trubar",
+      "Janez Vajkard Valvasor"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who published the Catechism and the Primer in 1550, the first two printed Slovene books? — Primož Trubar. Bohorič and Dalmatin were his Protestant contemporaries."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Koliko nog imajo skupaj pajek, mravlja in kokoš?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many legs do a spider, an ant and a hen have together? — 16: 8 + 6 + 2. Common facts plus a sum; 14 catches those who give the spider six."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Slovenska abeceda nima črk q, w, x in y, ki jih pozna angleška, ima pa č, š in ž. Koliko črk ima?",
+    "options": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Slovene alphabet lacks q, w, x, y, which English has, but has č, š, ž. How many letters? — 25: English 26 − 4 + 3."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera reka teče skozi deset držav, več kot katera koli druga v Evropi?",
+    "options": [
+      "Ren",
+      "Volga",
+      "Laba",
+      "Donava"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which river flows through ten countries, more than any other in Europe? — The Danube (Germany to Ukraine)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hlod razžagaš na pet enakih kosov. Vsak rez traja dve minuti. Koliko minut žagaš?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "gloss": "You saw a log into five equal pieces; each cut takes two minutes. How many minutes? — 8: five pieces need only four cuts. 10 is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri arhitekt je Ljubljani podaril Tromostovje, Narodno in univerzitetno knjižnico ter tržnice ob Ljubljanici?",
+    "options": [
+      "Ivan Vurnik",
+      "Max Fabiani",
+      "Edvard Ravnikar",
+      "Jože Plečnik"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect gave Ljubljana the Triple Bridge, the National and University Library and the riverside market halls? — Jože Plečnik. The others are major Ljubljana architects too."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pri katerem glasbilu pritisk na tipko sproži kladivce, ki udari ob struno?",
+    "options": [
+      "Pri čembalu",
+      "Pri orglah",
+      "Pri klavirju",
+      "Pri harmoniki"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which instrument does pressing a key make a hammer strike a string? — The piano. The harpsichord (the trap) plucks its strings."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kupiš nekaj za 3,40 € in plačaš s petakom. Prodajalka ti vrne drobiž s čim manj kovanci. Koliko kovancev dobiš?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "You buy something for €3.40 and pay with a €5 note; the change comes in as few coins as possible. How many? — 3: €1.60 = €1 + 50 c + 10 c."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pod katero goro po najbolj znani pripovedki spi kralj Matjaž s svojo vojsko?",
+    "options": [
+      "Pod Triglavom",
+      "Pod Snežnikom",
+      "Pod Uršljo goro",
+      "Pod Peco"
+    ],
+    "correctIndex": 3,
+    "gloss": "Under which mountain, in the best-known legend, does King Matjaž sleep with his army? — Under Peca, in Koroška."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ajdovi žganci so slovenska klasika, a ajda botanično sploh ni žito. S katero rastlino je v sorodu?",
+    "options": [
+      "Z rabarbaro",
+      "S prosom",
+      "S sončnico",
+      "S krompirjem"
+    ],
+    "correctIndex": 0,
+    "gloss": "Buckwheat žganci are a Slovene classic, yet buckwheat is not a cereal. Which plant is it related to? — Rhubarb: both are in the knotweed family (Polygonaceae). Millet is a true cereal."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Nogometno moštvo dobi za zmago 3 točke, za neodločen izid 1. Po petih tekmah brez poraza ima 7 točk. Kolikokrat je zmagalo?",
+    "options": [
+      "Enkrat",
+      "Dvakrat",
+      "Trikrat",
+      "Štirikrat"
+    ],
+    "correctIndex": 0,
+    "gloss": "3 points for a win, 1 for a draw. After five unbeaten matches a team has 7 points. How many wins? — Once: 1 win + 4 draws = 7; two wins would give at least 9."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kateri od teh dogodkov se je zgodil najpozneje?",
+    "options": [
+      "Lutrove teze",
+      "Kolumbovo prvo potovanje v Ameriko",
+      "Rojstvo Williama Shakespeara",
+      "Magellanov odhod na plovbo okoli sveta"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these events happened last? — Shakespeare's birth (1564). Columbus 1492, Luther's theses 1517, Magellan set out 1519."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Rečemo „dve mizi“ in „pet miz“. Kako pravilno rečemo, če je miz 102?",
+    "options": [
+      "Sto dve mize",
+      "Sto dve mizi",
+      "Sto dve miz",
+      "Sto dva mizi"
+    ],
+    "correctIndex": 1,
+    "gloss": "We say 'two tables' (dual) and 'five tables' (genitive plural). How do we say 102 tables? — 'Sto dve mizi': in compound numbers the noun follows the last numeral, so 102 takes the dual. 'Sto dve mize' is the common slip."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Zvok v zraku prepotuje približno 340 metrov v sekundi. Blisk vidiš, grom zaslišiš šest sekund pozneje. Kako daleč je udarila strela?",
+    "options": [
+      "Približno 200 m",
+      "Približno 600 m",
+      "Približno 2 km",
+      "Približno 6 km"
+    ],
+    "correctIndex": 2,
+    "gloss": "Sound travels about 340 m/s; the thunder comes six seconds after the flash. How far away was the lightning? — About 2 km (340 × 6 ≈ 2040 m)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera južnoameriška država nima morja, ima pa vojno mornarico, ki pluje po jezeru Titicaca?",
+    "options": [
+      "Bolivija",
+      "Paragvaj",
+      "Peru",
+      "Čile"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which South American country has no sea but has a navy on Lake Titicaca? — Bolivia. Paraguay is landlocked but not on Titicaca; Peru shares the lake but has a coast."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri režiser je posnel Žrelo in Jurski park?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "James Cameron",
+      "Martin Scorsese"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which director made Jaws and Jurassic Park? — Steven Spielberg. Lucas, his close friend, is the trap."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri slovenski impresionist je naslikal Sejalca, ki je postal eden od simbolov slovenstva?",
+    "options": [
+      "Rihard Jakopič",
+      "Matija Jama",
+      "Matej Sternen",
+      "Ivan Grohar"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Slovene impressionist painted The Sower, which became a symbol of Slovene identity? — Ivan Grohar (1907). The other three are the rest of the impressionist group."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katero računalniško igro s padajočimi kockami je leta 1984 v Moskvi ustvaril Aleksej Pažitnov?",
+    "options": [
+      "Pac-Man",
+      "Tetris",
+      "Arkanoid",
+      "Space Invaders"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which computer game with falling blocks did Alexey Pajitnov create in Moscow in 1984? — Tetris."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Slovenci rečemo „petindvajset“: najprej enice, nato desetice. Kateri od teh jezikov šteje na enak način?",
+    "options": [
+      "Angleščina",
+      "Italijanščina",
+      "Hrvaščina",
+      "Nemščina"
+    ],
+    "correctIndex": 3,
+    "gloss": "Slovenes say 'five-and-twenty': units first, then tens. Which of these languages counts the same way? — German (fünfundzwanzig). English twenty-five, Italian venticinque, Croatian dvadeset pet put the tens first."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "V dvojiškem sistemu, ki ga uporabljajo računalniki, sta le števki 0 in 1. Katero število je dvojiško zapisano kot 101?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "In binary, used by computers, there are only the digits 0 and 1. Which number is written 101 in binary? — 5: 4 + 0 + 1."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Knežji kamen, ki je upodobljen na slovenskem kovancu za 2 centa, danes hranijo v katerem mestu?",
+    "options": [
+      "V Ljubljani",
+      "V Gradcu",
+      "V Celovcu",
+      "V Beljaku"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Prince's Stone, shown on the Slovene 2-cent coin, is kept today in which city? — Klagenfurt (Celovec), in Carinthia, Austria."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koga želi Cankarjev hlapec Jernej najti, ko se peš odpravi na Dunaj iskat svojo pravico?",
+    "options": [
+      "Cesarja",
+      "Papeža",
+      "Nadškofa",
+      "Ministra"
+    ],
+    "correctIndex": 0,
+    "gloss": "Whom does Cankar's farmhand Jernej want to find when he walks to Vienna in search of his justice? — The emperor."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kemijski simbol Pb izhaja iz latinskega imena kovine, iz katerega se je razvila tudi naša beseda „plomba“. Za katero kovino gre?",
+    "options": [
+      "Kositer",
+      "Cink",
+      "Svinec",
+      "Baker"
+    ],
+    "correctIndex": 2,
+    "gloss": "The symbol Pb comes from the metal's Latin name, which also gave Slovene the word 'plomba' (a seal/filling). Which metal? — Lead (plumbum); seals were once made of lead."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na katerem orodju je Miroslav Cerar dvakrat postal olimpijski prvak?",
+    "options": [
+      "Na krogih",
+      "Na bradlji",
+      "Na konju z ročaji",
+      "Na drogu"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which apparatus did Miroslav Cerar twice become Olympic champion? — Pommel horse (Tokyo 1964, Mexico City 1968)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Katera od teh prestolnic leži najbolj zahodno?",
+    "options": [
+      "Ljubljana",
+      "Praga",
+      "Zagreb",
+      "Budimpešta"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these capitals lies furthest west? — Prague (about 14.42° E), slightly west of Ljubljana (about 14.51° E). Most players assume Ljubljana."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Renesančnega skladatelja s Kranjske, ki mu Slovenci pravimo Jakob Petelin, je Evropa poznala pod latinskim imenom. Katerim?",
+    "options": [
+      "Jacobus Gallus",
+      "Orlandus Lassus",
+      "Jacobus Clemens non Papa",
+      "Josquinus Pratensis"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Renaissance composer from Carniola whom Slovenes call Jakob Petelin was known in Europe by a Latin name. Which? — Jacobus Gallus: gallus is Latin for rooster (petelin). The others are real Latinised names of Lasso, Clemens and Josquin."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Po pripovedki o Zlatorogu je iz krvi ranjenega belega gamsa zrasla čudežna rožica. Katera?",
+    "options": [
+      "Planika",
+      "Triglavska roža",
+      "Encijan",
+      "Murka"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the Zlatorog legend, a magic flower grew from the wounded white chamois's blood. Which? — The Triglav rose (triglavska roža), which healed him. Edelweiss (planika) is the trap."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri italijanski sir nosi ime po živali, iz katere mleka ga izdelujejo?",
+    "options": [
+      "Parmezan",
+      "Gorgonzola",
+      "Mocarela",
+      "Pecorino"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Italian cheese is named after the animal whose milk it is made from? — Pecorino, from pecora, 'sheep'. Parmesan and gorgonzola are named after places."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beseda „robot“ izhaja iz igre Karla Čapka R.U.R. Kaj je pomenila češka beseda, iz katere je nastala?",
+    "options": [
+      "Tlaka",
+      "Ropot",
+      "Železo",
+      "Stroj"
+    ],
+    "correctIndex": 0,
+    "gloss": "The word 'robot' comes from Karel Čapek's play R.U.R. What did the Czech word it came from mean? — Corvée, forced labour (robota; Slovene 'tlaka')."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri del človeškega telesa nima krvnih žil, zato večino kisika dobi kar iz zraka?",
+    "options": [
+      "Roženica",
+      "Leča",
+      "Beločnica",
+      "Mrežnica"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which part of the human body has no blood vessels and so takes most of its oxygen straight from the air? — The cornea. The lens is also avascular but sits inside the eye and is fed by the aqueous humour."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rimljani so Ljubljani rekli Emona, Ptuju pa Poetovio. Katero današnje slovensko mesto je bilo rimski Nauportus?",
+    "options": [
+      "Kranj",
+      "Celje",
+      "Kobarid",
+      "Vrhnika"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Romans called Ljubljana Emona and Ptuj Poetovio. Which Slovene town was Roman Nauportus? — Vrhnika. Celje was Celeia."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Robbov vodnjak pred ljubljanskim rotovžem se zgleduje po Berninijevem Vodnjaku štirih rek v Rimu. Katere reke predstavljajo njegovi kipi?",
+    "options": [
+      "Savo, Dravo in Muro",
+      "Savo, Krko in Ljubljanico",
+      "Savo, Sočo in Ljubljanico",
+      "Krko, Kolpo in Ljubljanico"
+    ],
+    "correctIndex": 1,
+    "gloss": "Robba's fountain by Ljubljana town hall is modelled on Bernini's Four Rivers fountain in Rome. Which rivers do its statues represent? — The Sava, Krka and Ljubljanica, the three Carniolan rivers."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako je ime konju, na katerem Don Kihot jezdi v boj z mlini na veter?",
+    "options": [
+      "Bucefal",
+      "Pegaz",
+      "Rosinante",
+      "Marengo"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the name of the horse Don Quixote rides against the windmills? — Rocinante (Slovene: Rosinante). Bucephalus was Alexander's, Marengo Napoleon's, Pegasus mythical."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katero morje je edino na svetu, ki nima nobene obale, saj ga obdajajo samo morski tokovi?",
+    "options": [
+      "Sargaško",
+      "Karibsko",
+      "Beringovo",
+      "Weddellovo"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which is the only sea with no coast at all, bounded only by ocean currents? — The Sargasso Sea."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaj pri golfu pomeni albatros?",
+    "options": [
+      "En udarec pod parom",
+      "Dva udarca pod parom",
+      "Trije udarci pod parom",
+      "Štirje udarci pod parom"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is an albatross in golf? — Three strokes under par (birdie one, eagle two, condor four)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Začetnice verzov magistrala v Prešernovem Sonetnem vencu tvorijo napis PRIMICOVI JULJI. Koliko sonetov ima ves venec?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "13"
+    ],
+    "correctIndex": 1,
+    "gloss": "The first letters of the lines of the master sonnet in Prešeren's Wreath of Sonnets spell PRIMICOVI JULJI. How many sonnets in the whole wreath? — 15: the acrostic has 14 letters, one per line of the master sonnet, and each line opens one of 14 sonnets; plus the master sonnet itself."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Na Ljubljanskem barju so našli eno najstarejših lesenih koles na svetu. Približno koliko je staro?",
+    "options": [
+      "Okoli 1500 let",
+      "Okoli 3000 let",
+      "Okoli 5000 let",
+      "Okoli 10 000 let"
+    ],
+    "correctIndex": 2,
+    "gloss": "One of the world's oldest wooden wheels was found on the Ljubljana Marshes. Roughly how old is it? — About 5,000 years (dated c. 3150 BC). The wheel was invented in the 4th millennium BC, which rules out 10,000."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Botaniki med jagode štejejo sočne plodove, kot sta grozdje in paradižnik. Kaj od naštetega je botanično jagoda?",
+    "options": [
+      "Jagoda",
+      "Malina",
+      "Češnja",
+      "Banana"
+    ],
+    "correctIndex": 3,
+    "gloss": "Botanists count fleshy fruits such as grapes and tomatoes as berries. Which of these is botanically a berry? — The banana. The strawberry ('jagoda' in Slovene, the trap) is an accessory fruit, the raspberry an aggregate, the cherry a drupe."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Herman Potočnik Noordung je leta 1929 zasnoval vesoljsko postajo na tiru, kjer obkroži Zemljo natanko v enem dnevu. Kako danes imenujemo tak tir nad ekvatorjem?",
+    "options": [
+      "Polarni tir",
+      "Geostacionarni tir",
+      "Sončevo sinhroni tir",
+      "Nizki Zemljin tir"
+    ],
+    "correctIndex": 1,
+    "gloss": "In 1929 Herman Potočnik Noordung designed a space station on an orbit that circles Earth in exactly one day. What do we call such an orbit above the equator today? — Geostationary orbit."
+  }
+]

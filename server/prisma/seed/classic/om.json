@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mammaaksi Oromoo walgargaarsa barsiisu “Harki harka …” jedha. Jechi bakka duwwaa guutu kami?",
+    "options": ["Qaba", "Dhiqa", "Kenna", "Dhaha"],
+    "correctIndex": 1,
+    "gloss": "The Oromo proverb that teaches mutual help says “A hand … a hand.” Which word fills the gap? — Washes (dhiqa): “Harki harka dhiqa”, one hand washes the other."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Soddomii shan fi kudha shan yoo walitti ida'aman, ida'amni isaanii meeqa?",
+    "options": ["Afurtama", "Afurtamii shan", "Jaatama", "Shantama"],
+    "correctIndex": 3,
+    "gloss": "Thirty-five plus fifteen, in Oromo number words — fifty (shantama). Forty-five and forty are there for a hasty reading."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sareen miila afur, lukkuun immoo miila lama qabdi. Saree sadii fi lukkuu shan walumaagalatti miila meeqa qabu?",
+    "options": ["16", "20", "22", "24"],
+    "correctIndex": 2,
+    "gloss": "A dog has four legs, a hen two. How many legs do three dogs and five hens have together? — 22: 3×4 + 5×2 = 12 + 10."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Irreechi Malkaa, ayyaanni galata Waaqaa, waggaa waggaan Bishooftuutti hora kam qarqaratti kabajama?",
+    "options": ["Hora Kiloolee", "Hora Babbogaayyaa", "Hora Arsadii", "Hora Kurifttuu"],
+    "correctIndex": 2,
+    "gloss": "Irreecha Malkaa, the thanksgiving festival, is celebrated every year in Bishoftu on the shore of which lake? — Hora Arsadi. The others are real Bishoftu lakes (Kilole and Babogaya are crater lakes, Kuriftu a reservoir)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Caaltuun kitaaba fuula 200 qabu guyyaa guyyaatti fuula 20 dubbisti. Kitaabicha guyyaa meeqatti xumurti?",
+    "options": ["Guyyaa 8", "Guyyaa 10", "Guyyaa 12", "Guyyaa 20"],
+    "correctIndex": 1,
+    "gloss": "Chaltu reads 20 pages a day of a 200-page book. In how many days does she finish it? — 10 days: 200 ÷ 20."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Onneen nama tokkoo daqiiqaa tokkotti al 70 yoo dhahatte, daqiiqaa sadii keessatti al meeqa dhahatti?",
+    "options": ["Al 210", "Al 140", "Al 280", "Al 170"],
+    "correctIndex": 0,
+    "gloss": "If a person's heart beats 70 times a minute, how many times does it beat in three minutes? — 210: 70 × 3."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bara 1960 Roomaatti miila duwwaa fiigee maaratoonii Olompikii kan injifate atileetiin Itoophiyaa eenyu?",
+    "options": ["Maammoo Woldee", "Abbabaa Biqilaa", "Miruts Yifxer", "Haayilee Gabrasillaasee"],
+    "correctIndex": 1,
+    "gloss": "Which Ethiopian athlete won the 1960 Olympic marathon in Rome running barefoot? — Abebe Bikila. Mamo Wolde won the marathon in 1968, in shoes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Buddeenni (injeraan) maatii Itoophiyaa hedduu biratti guyyaa guyyaan nyaatamu, caalaatti daakuu midhaan kamii irraa tolfama?",
+    "options": ["Boqolloo", "Qamadii", "Garbuu", "Xaafii"],
+    "correctIndex": 3,
+    "gloss": "Injera, eaten daily in many Ethiopian homes, is mostly made from the flour of which grain? — Teff (xaafii). Maize, wheat and barley are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Afaan Oromootiin iddoowwan hedduun jecha “mana” jedhuun moggaafamu. Namni dhukkubsate wal'aansa argachuuf gara isa kamii deema?",
+    "options": ["Mana murtii", "Mana kitaabaa", "Mana yaalaa", "Mana nyaataa"],
+    "correctIndex": 2,
+    "gloss": "In Oromo many places are named with “mana” (house). Where does a sick person go for treatment? — Mana yaalaa, “house of treatment” (clinic); the others are court, library, restaurant."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Meeshaan muuziqaa furtuuwwan adii fi gurraacha tartiibaan wal bira taa'an qabu kami?",
+    "options": ["Gitaara", "Piyaanoo", "Kiraara", "Masinqoo"],
+    "correctIndex": 1,
+    "gloss": "Which instrument has white and black keys set in a row? — The piano. Guitar, krar and masinqo are string instruments."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Gammachuun gara kaabaatti deemaa jira. Mirgatti garagala, achii booda irra deebi'ee mirgatti garagala. Amma gara kamitti deemaa jira?",
+    "options": ["Bahaa", "Dhihaa", "Kibbaa", "Kaabaa"],
+    "correctIndex": 2,
+    "gloss": "Gemechu walks north, turns right, then turns right again. Which way is he going now? — South: north → east → south."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qubee Afaan Oromoo keessatti, akka “lafa” fi “laafaa” keessatti mul'atu, dheerinni sagalee dubbachiiftuu akkamitti barreeffama?",
+    "options": ["Mallattoo hudhaa (') dabaluun", "Qubee guddaadhaan barreessuun", "Sarara jalatti muruun", "Dubbachiiftuu dachaa barreessuun"],
+    "correctIndex": 3,
+    "gloss": "In Qubee, as in “lafa” (land) vs “laafaa” (soft), how is a long vowel written? — By doubling the vowel. The hudhaa (') marks the glottal stop, not length."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Lakkoofsa sa'aatii Itoophiyaatiin namni “sa'aatii sadii ganama” jedhu, akka sa'aatii idil-addunyaatti yoom jechuu isaati?",
+    "options": ["Sa'aatii 9 ganama", "Sa'aatii 3 ganama", "Sa'aatii 6 ganama", "Sa'aatii 9 galgala"],
+    "correctIndex": 0,
+    "gloss": "In Ethiopian time, someone says “three o'clock in the morning”. What time is that internationally? — 9 a.m.: the Ethiopian day is counted from 6 a.m., so add six hours."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Konkolaataan sa'aatii sadiitti kiiloomeetira 180 deeme. Giddugaleessaan sa'aatii tokkotti kiiloomeetira meeqa deeme?",
+    "options": ["45", "50", "60", "90"],
+    "correctIndex": 2,
+    "gloss": "A car travelled 180 km in three hours. How many kilometres per hour on average? — 60: 180 ÷ 3."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Itoophiyaa keessatti Gannaan, yeroon roobni cimaan roobu, ji'oota kamii of keessatti qabata?",
+    "options": ["Fulbaana hanga Sadaasaa", "Waxabajjii hanga Hagayyaa", "Muddee hanga Guraandhalaa", "Bitootessa hanga Caamsaa"],
+    "correctIndex": 1,
+    "gloss": "In Ethiopia, which months does Ganna, the season of heavy rain, cover? — June to August. September–November is Birraa, March–May the small rains."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Amantaan aadaa Oromoo, kan Uumaa tokkicha qofa kabaju, maal jedhamee waamama?",
+    "options": ["Qaalluu", "Waaqeffannaa", "Ateetee", "Siinqee"],
+    "correctIndex": 1,
+    "gloss": "What is the traditional Oromo religion, which honours a single Creator, called? — Waaqeffannaa. Qaalluu is a ritual office, Ateetee a women's rite, Siinqee a women's stick and institution."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bunni Itoophiyaa irraa addunyaatti faca'e; garuu har'a biyyi buna hunda caalaa oomishu kami?",
+    "options": ["Itoophiyaa", "Kolombiyaa", "Veetinaam", "Biraazil"],
+    "correctIndex": 3,
+    "gloss": "Coffee spread to the world from Ethiopia, but which country produces the most coffee today? — Brazil, far ahead of Vietnam and Colombia."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fiilmii kartuunii “The Lion King” keessatti maqaan gooticha isaa, Simbaa, Afaan Suwaahiliitiin maal jechuudha?",
+    "options": ["Leenca", "Mootii", "Gootaa", "Ilma"],
+    "correctIndex": 0,
+    "gloss": "In the cartoon “The Lion King”, what does the hero's name Simba mean in Swahili? — Lion (leenca)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Fulbaana irraa eegaltee ji'oota waggaa tartiibaan yoo lakkoofte, ji'i jahaffaan kami?",
+    "options": ["Amajjii", "Muddee", "Bitootessa", "Guraandhala"],
+    "correctIndex": 3,
+    "gloss": "Counting the months in order starting from Fulbaana (September), which is the sixth? — Guraandhala (February): Fulbaana, Onkoloolessa, Sadaasa, Muddee, Amajjii, Guraandhala."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qorataa yakkaa beekamaa Sherlock Holmes fi hiriyaa isaa Dr. Watson kan uume barreessaan eenyu?",
+    "options": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "Charles Dickens"],
+    "correctIndex": 1,
+    "gloss": "Which writer created the detective Sherlock Holmes and his friend Dr Watson? — Arthur Conan Doyle. Christie and Poe also wrote detectives."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Sirna Gadaa keessatti lubni tokko waggaa saddeetiif aangoo qabatee booda luba itti aanuuf dabarsa. Lubni tokko erga aangoo qabatee, deebi'ee aangoo qabachuu isaatti waggaa meeqatu darba?",
+    "options": ["Waggaa 24", "Waggaa 32", "Waggaa 48", "Waggaa 40"],
+    "correctIndex": 3,
+    "gloss": "In the Gadaa system a class (luba) holds power for eight years, then hands over. How many years pass from a class taking power to taking it again? — 40: there are five luba, 5 × 8. 32 is the trap (the wait after leaving office)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Laggi Abbayyaa Naayil Adii waliin magaalaa kamitti walitti makama?",
+    "options": ["Kaartuum", "Kaayiroo", "Juubaa", "Asmaraa"],
+    "correctIndex": 0,
+    "gloss": "In which city does the Abbay (Blue Nile) meet the White Nile? — Khartoum. Juba lies on the White Nile only, Cairo downstream of the confluence."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ifni aduu dachee gahuuf daqiiqaa saddeet fudhata. Aduun amma tasa yoo dhaamte, nuti dachee irratti yoom hubanna?",
+    "options": ["Battalumatti", "Daqiiqaa 8 booda", "Sa'aatii 8 booda", "Guyyaa 8 booda"],
+    "correctIndex": 1,
+    "gloss": "Sunlight takes eight minutes to reach Earth. If the Sun suddenly went out now, when would we notice on Earth? — After 8 minutes: the last light already on its way keeps arriving."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Maqaan “Finfinnee” jedhu maal irraa akka moggaafame beekama?",
+    "options": ["Laga guddaa", "Gaara dheeraa", "Bosona guddaa", "Burqaa bishaanii"],
+    "correctIndex": 3,
+    "gloss": "What is the name “Finfinnee” known to come from? — A natural spring: the hot springs of the area (today's Filwuha)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Magaalaan xiqqoon Arsii, Daraartuu Tulluu fi Xuruneesh Dibaabaa itti dhalatan, “warshaa atileetotaa” jedhamtee beekamtu kami?",
+    "options": ["Asallaa", "Shaashamannee", "Baqqoojii", "Bishooftuu"],
+    "correctIndex": 2,
+    "gloss": "Which small town in Arsi, birthplace of Derartu Tulu and Tirunesh Dibaba, is known as the “runners' factory”? — Bekoji. Asella is the nearby zonal capital."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mootiin Mugaal Shaah Jahaan Taaj Mahaal maaliif ijaarsise?",
+    "options": ["Masaraa ofii isaatiif", "Awwaala haadha manaa isaatiif", "Masjiida ummataaf", "Kuusaa qabeenya mootummaatiif"],
+    "correctIndex": 1,
+    "gloss": "Why did the Mughal emperor Shah Jahan have the Taj Mahal built? — As a tomb for his wife, Mumtaz Mahal."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Weellisaan beekamaan Alii Birraa magaalaa kamitti dhalate?",
+    "options": ["Harar", "Jimmaa", "Naqamtee", "Dirree Dawaa"],
+    "correctIndex": 3,
+    "gloss": "In which city was the famous singer Ali Birra born? — Dire Dawa (1950). Harar is the nearby trap."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ancooteen, nyaanni aadaa hidda biqiltuu irraa qophaa'u, keessattuu naannoo kamiin beekama?",
+    "options": ["Wallaggaa", "Booranaa", "Harargee", "Baalee"],
+    "correctIndex": 0,
+    "gloss": "Anchote, a traditional dish made from a plant's root (Coccinia abyssinica), is especially associated with which area? — Wollega, western Oromia."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Biitiin tokko 0 ykn 1 qofa ta'uu danda'a. Biitii sadiin walitti qabama adda addaa meeqa barreessuu dandeessa?",
+    "options": ["8", "3", "6", "9"],
+    "correctIndex": 0,
+    "gloss": "A bit can only be 0 or 1. How many different combinations can you write with three bits? — 8: 2 × 2 × 2 (000 to 111)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Afurtama”, “shantama” fi “sagaltama” maqaa “afur”, “shan” fi “sagal” irraa uumaman. Lakkoofsi kam sirna kana hin hordofu?",
+    "options": ["Jaatama", "Digdama", "Torbaatama", "Saddeettama"],
+    "correctIndex": 1,
+    "gloss": "Forty, fifty and ninety are built from four, five and nine. Which number does not follow this pattern? — Digdama (20), not built from “lama” (two); jaatama, torbaatama, saddeettama come from jaha, torba, saddeet."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kitaaba Qulqulluu guutuu jalqaba Afaan Oromootti hiikee bara 1899 kan maxxansiise eenyu?",
+    "options": ["Johann Ludwig Krapf", "Onesimos Nasib", "Hiob Ludolf", "Sheek Bakrii Saphaloo"],
+    "correctIndex": 1,
+    "gloss": "Who first translated the whole Bible into Oromo and published it in 1899? — Onesimos Nesib (with Aster Ganno's help). Krapf translated only parts of the Gospels in the 1840s; Sapalo devised an Oromo script."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Laggi Awaash Oromiyaa keessaa ka'ee Afaar keessa yaa'a. Dhuma irratti eessatti gala?",
+    "options": ["Galaana Diimaa", "Galoo Adan", "Hora Abbee", "Hora Turkaanaa"],
+    "correctIndex": 2,
+    "gloss": "The Awash rises in Oromia and flows through Afar. Where does it end? — Lake Abbe: it never reaches the sea. Lake Turkana is fed by the Omo."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aadaa Oromoo keessatti “buna qalaa” jedhamee kan qophaa'u maali?",
+    "options": ["Firii bunaa dhadhaa waliin bilchaate", "Buna aannan waliin danfe", "Baala bunaa danfe", "Buna sukkaara malee dhugamu"],
+    "correctIndex": 0,
+    "gloss": "In Oromo tradition, what is “buna qalaa”? — Coffee beans cooked in butter, a ritual dish; leaf brew and coffee with milk are real but different."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Taphoota Olompikii irratti maaratoonii dubartootaa kan injifatte dubartiin Afrikaa jalqabaa eenyu?",
+    "options": ["Daraartuu Tulluu", "Tigist Tufaa", "Faaxumaa Roobaa", "Masarat Dafar"],
+    "correctIndex": 2,
+    "gloss": "Who was the first African woman to win the Olympic women's marathon? — Fatuma Roba, Atlanta 1996. Derartu Tulu's Olympic golds were at 10,000 m; Tigist Tufa won London, not the Olympics."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Lakkoofsa Roomaatiin “MCM” jedhamee kan barreeffamu meeqa?",
+    "options": ["1900", "1100", "2100", "1400"],
+    "correctIndex": 0,
+    "gloss": "What number is “MCM” in Roman numerals? — 1900: M = 1000, CM = 900 (a smaller numeral before a larger one is subtracted)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gamoon Eiffel bara 1889 Paariisitti maaliif ijaarame?",
+    "options": ["Taphoota Olompikiitiif", "Haala qilleensaa safaruuf", "Raadiyoo tamsaasuuf", "Agarsiisa Addunyaatiif"],
+    "correctIndex": 3,
+    "gloss": "Why was the Eiffel Tower built in Paris in 1889? — For the World's Fair (Exposition Universelle). Weather and radio were later uses that saved it from demolition."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Afsaanoo Giriik keessatti, ibidda waaqolii irraa hatee namootaaf kan kenne eenyu?",
+    "options": ["Atlas", "Prometheus", "Herakles", "Ikaros"],
+    "correctIndex": 1,
+    "gloss": "In Greek myth, who stole fire from the gods and gave it to humans? — Prometheus."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Weellisni “Ode to Joy”, faarfannaa Gamtaa Awurooppaa ta'e, sinfonii eenyuu irraa fudhatame?",
+    "options": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Joseph Haydn", "Ludwig van Beethoven"],
+    "correctIndex": 3,
+    "gloss": "“Ode to Joy”, which became the anthem of the European Union, is taken from whose symphony? — Beethoven's Ninth. Haydn wrote the melody of the German anthem, the trap."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Molakiyuulli bishaanii (H₂O) atoomii haayidiroojiinii lama fi oksijiinii tokko qaba. Ulfaatina bishaanii keessaa gara dhibbeentaa meeqatu oksijiinii irraa dhufa?",
+    "options": ["Gara dhibbeentaa 11", "Gara dhibbeentaa 33", "Gara dhibbeentaa 67", "Gara dhibbeentaa 89"],
+    "correctIndex": 3,
+    "gloss": "Water has two hydrogen atoms and one oxygen. About what percentage of water's mass comes from oxygen? — About 89%: oxygen weighs 16, each hydrogen 1, so 16/18. 33% counts atoms, not mass."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Finfinneetti bishaan osoo digirii Selsiyesii 100 hin ga'in danfa. Sababni isaa maali?",
+    "options": ["Qilleensi achi jiru waan qorraa'uuf", "Dhiibbaan qilleensaa olka'iinsa irratti waan hir'atuuf", "Aduutti waan dhihaatuuf", "Bishaan isaa ashaboo waan hin qabneef"],
+    "correctIndex": 1,
+    "gloss": "In Addis Ababa water boils before reaching 100 °C. Why? — Air pressure is lower at altitude (about 2,400 m), so water boils at about 92 °C."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Haroota Itoophiyaa hunda keessaa kan gad-fageenya guddaa qabu kami?",
+    "options": ["Hora Zuwaay", "Hora Langaanoo", "Hora Abijaataa", "Hora Shaalaa"],
+    "correctIndex": 3,
+    "gloss": "Which is the deepest lake in Ethiopia? — Lake Shala (about 266 m), right next to the shallow Lake Abijata in the Rift Valley."
+  },
+  {
+    "level": 5,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Maqaan dhaabbata meeshaalee ispoortii “Adidas” jedhu eessaa dhufe?",
+    "options": ["Waaqa injifannoo Giriik irraa", "Jecha Laatinii “fiiguu” irraa", "Maqaa hundeessaa isaa, Adolf “Adi” Dassler, irraa", "Magaalaa Jarmanii tokko irraa"],
+    "correctIndex": 2,
+    "gloss": "Where does the sportswear brand name “Adidas” come from? — Its founder Adolf “Adi” Dassler (Adi + Das). The Greek goddess of victory is Nike, the trap."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Johannes Gutenberg maashina maxxansaa qubee sochoo'aa qabu magaalaa kamitti hojiirra oolche?",
+    "options": ["Veenis", "Maayinz", "Paariis", "Landan"],
+    "correctIndex": 1,
+    "gloss": "In which city did Johannes Gutenberg put his movable-type printing press to work? — Mainz, his home town, where the Gutenberg Bible was printed."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jechi “roboot” jalqaba diraamaa bara 1920 barreeffame tokko keessatti uumame. Jechi kun afaan kamii irraa dhufe?",
+    "options": ["Afaan Jarmanii", "Afaan Raashiyaa", "Afaan Jaappaan", "Afaan Cheek"],
+    "correctIndex": 3,
+    "gloss": "The word “robot” was coined in a play written in 1920. Which language does it come from? — Czech: Karel Čapek's R.U.R., from “robota” (forced labour)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Asoosama Ernest Hemingway “The Old Man and the Sea” keessatti jaarsi qurxummii qabu namni biyya kamii?",
+    "options": ["Ispeen", "Kuubaa", "Meeksikoo", "Portugaal"],
+    "correctIndex": 1,
+    "gloss": "In Hemingway's “The Old Man and the Sea”, which country is the old fisherman from? — Cuba: Santiago fishes off Havana."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Akka seenaa hidda dhalootaa Oromootti, Oromoon ilmaan lama irraa dhalate jedhama: Booranaa fi obboleessa isaa. Inni kun eenyu?",
+    "options": ["Bareentuu", "Tuulamaa", "Maccaa", "Arsii"],
+    "correctIndex": 0,
+    "gloss": "By Oromo traditional genealogy, the Oromo descend from two sons: Borana and his brother. Who? — Barentu. Tulama and Macha are branches of Borana, Arsi a branch of Barentu."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ji'i dachee marsa, garuu yeroo hunda fuula isaa tokko qofa nutti agarsiisa. Maaliif?",
+    "options": ["Ji'i of hin naannessu", "Dacheen fuula isaa kaan ni dhoksiti", "Of naannessuu fi dachee marsuun isaa yeroo walqixa fudhatu", "Aduun cinaa isaa tokko qofa ifsiti"],
+    "correctIndex": 2,
+    "gloss": "The Moon orbits Earth but always shows us the same face. Why? — It turns once on its axis in exactly the time it takes to orbit Earth. “It doesn't rotate” is the common wrong answer."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vaniilaan, mi'eessituu beekamtuu, firii biqiltuu maatii kamii?",
+    "options": ["Maatii ataraa", "Maatii paalmii", "Maatii roozii", "Maatii orkiidii"],
+    "correctIndex": 3,
+    "gloss": "Vanilla, the famous flavouring, is the fruit of a plant from which family? — The orchids. The pea family is the trap, since vanilla pods are called “beans”."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Awustiraaliyaa, magaalaa Sidnii keessatti, walakkaa guyyaa aduun samii keessatti gara kamiin mul'atti?",
+    "options": ["Gara kaabaa", "Gara kibbaa", "Gara bahaa", "Gara dhihaa"],
+    "correctIndex": 0,
+    "gloss": "In Sydney, Australia, in which direction is the Sun at midday? — North: Sydney lies south of the Tropic of Capricorn, so the noon Sun is always to its north."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ispoortiin basketboolii bara 1891 eenyuun uumame?",
+    "options": ["Pierre de Coubertin", "William G. Morgan", "Walter Camp", "James Naismith"],
+    "correctIndex": 3,
+    "gloss": "Who invented basketball in 1891? — James Naismith. Morgan invented volleyball, Coubertin revived the Olympics, Camp shaped American football."
+  }
+]
