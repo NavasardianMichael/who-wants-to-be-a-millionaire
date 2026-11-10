@@ -1,4 +1,4 @@
-# Writer brief: 50 Classic seed questions for one language
+# Writer brief: Classic seed questions for one language
 
 > Given to one writer agent per language by the process in [QUESTION_SEEDING.md](QUESTION_SEEDING.md).
 > Paths are relative to the repository root.
@@ -26,10 +26,16 @@ quality matters far more than speed.
    names or letters-as-numbers unless your language has its own genuinely different twist.
    Every language gets the same templates otherwise, and the game feels translated.
 
-## What to write: exactly 50 questions
+## What to write
 
-- **10 per level** (levels 1–5, difficulty exactly as `LEVEL_GUIDE` defines it, judged for
-  adults in your language's culture).
+**How many.** The newest entry of `LEVEL_TARGETS.classic` in `server/prisma/check-seed.ts` gives
+the number of questions per level your file must hold (phase 1 was 10 per level, 50 in all). If
+your file does not exist yet, write that many. **If it exists, you are topping it up:** keep
+every existing question exactly as it is, and add questions until each level reaches the newest
+totals. The mix rules below apply to the whole file.
+
+- **Difficulty per level** exactly as `LEVEL_GUIDE` defines it, judged for adults in your
+  language's culture.
 - **About 40% local** (`scope: "local"`, about the culture in `culture`), the rest `global`.
   Local questions must ring true to a native, not read like a tourist guide.
 - **About 40% need reasoning, not just memory** (`kind`):
@@ -47,9 +53,23 @@ quality matters far more than speed.
   `language` are especially valuable. A reasoning question goes under the category it is about
   (`general`, `language`, `science`, ...); there is no "logic" category.
 - **Every question about a different subject.** Vary the phrasing.
-- **Vary which option is correct**: each of the four positions should be correct 7–18 times.
+- **Vary which option is correct**: each of the four positions should be correct in 14–36% of
+  the file's questions (7–18 of 50).
 - These are for Classic, which has no clock, so a puzzle may take a minute. Keep the question
   under 300 characters and each option under 120.
+
+## Never repeat
+
+- **Read your language's existing questions first:** your own file if it exists, and
+  `server/prisma/seed/ranked/<code>.json` if it exists. No new question may take a subject either
+  file already covers. Not reworded, not the same fact asked from another angle, not the same
+  person, work or place as the subject of the question. Make a list of the existing subjects
+  before you write, and check each of yours against it.
+- No two of your new questions about the same subject either.
+- The checker rejects a question whose text matches one in the other file. It also **lists
+  every pair of questions with the same correct answer**, within the file or across both. For
+  each pair that involves a new question, replace the new one unless the two are plainly about
+  different things (for example, "three" answering both a riddle and a count of provinces).
 
 ## Quality bar (the owner rejects anything below it)
 
@@ -70,8 +90,8 @@ quality matters far more than speed.
 
 ## Output
 
-Write a JSON array of 50 objects to `server/prisma/seed/classic/<code>.json` (UTF-8, 2-space
-indent), each:
+Write a JSON array to `server/prisma/seed/classic/<code>.json` (UTF-8, 2-space indent), or add
+your new objects to the end of the existing array. Each object:
 
 ```json
 {
@@ -94,7 +114,7 @@ Then run the checker from the `server` folder, and fix and re-run until it passe
 
 ```
 cd server
-npx tsx prisma/check-classic-seed.ts <code>
+npx tsx prisma/check-seed.ts <code>
 ```
 
 ## Rules of the workspace
@@ -102,7 +122,9 @@ npx tsx prisma/check-classic-seed.ts <code>
 - Write only your own file. Don't edit other files, don't run git, tests or `pnpm verify`,
   and never open `.env` files. Temporary helper scripts belong in your scratchpad, not the repo.
 
-## Your final message (under 150 words)
+## Your final message (under 200 words)
 
-The checker's last line; your counts (local, reasoning, per level); and any question you are
-not fully certain of, with why (ideally none: replace doubtful ones instead of reporting them).
+The checker's last line; your counts (local, reasoning, per level); every same-answer pair the
+checker listed that involves a new question, with one line each on why the two differ; and any
+question you are not fully certain of, with why (ideally none: replace doubtful ones instead of
+reporting them).

@@ -523,8 +523,8 @@ jobs:
             set -a; . "$APP_DIR/shared/.env.api"; set +a
             ensure_database "$NEW/docker-compose.prod.yml"
             ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
-            # The hand-written banks: the English fallback, and one Classic file per language
-            # (prisma/seed/classic/). Merges, never overwrites: only questions missing here
+            # The hand-written banks: the English fallback, and per language a Classic file
+            # (prisma/seed/classic/) and a ranked one (prisma/seed/ranked/). Merges, never overwrites: only questions missing here
             # are inserted (skipDuplicates on locale + text hash), AI questions are never
             # touched, and only a seed question taken out of its file is retired. A file that
             # fails its checks stops the deploy here, before the release is switched in.
