@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Според поговорката, што рони тивката вода?",
+    "options": ["Камења", "Брегови", "Мостови", "Корења"],
+    "correctIndex": 1,
+    "gloss": "According to the saying, what does still water wear away? — Banks: „Тивка вода брегови рони“ (still waters run deep)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Пицата е исечена на 8 еднакви парчиња. Ако изедете половина од половината пица, колку парчиња сте изеле?",
+    "options": ["1", "4", "2", "6"],
+    "correctIndex": 2,
+    "gloss": "A pizza is cut into 8 equal slices. If you eat half of half the pizza, how many slices did you eat? — 2: half of 8 is 4, half of that is 2; 4 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Струга е на северниот, а Свети Наум на јужниот брег на истото езеро. Кое е тоа езеро?",
+    "options": ["Преспанското", "Дојранското", "Мавровското", "Охридското"],
+    "correctIndex": 3,
+    "gloss": "Struga is on the northern shore and Sveti Naum on the southern shore of the same lake. Which lake? — Lake Ohrid."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Пајакот не е инсект: инсектите имаат шест нозе. Колку нозе има пајакот?",
+    "options": ["8", "6", "10", "12"],
+    "correctIndex": 0,
+    "gloss": "A spider is not an insect: insects have six legs. How many legs does a spider have? — 8: spiders are arachnids."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Секоја есен по дворовите се пече за зимница. Која е главната состојка на ајварот?",
+    "options": ["Модри патлиџани", "Домати", "Црвени пиперки", "Тиквички"],
+    "correctIndex": 2,
+    "gloss": "Every autumn people roast vegetables in their yards for winter stores. What is the main ingredient of ajvar? — Red peppers (some recipes add aubergine, but peppers are the base)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На кој празник се поздравуваме со „Христос воскресе!“ и одговараме „Навистина воскресе!“?",
+    "options": ["Божиќ", "Велигден", "Водици", "Духовден"],
+    "correctIndex": 1,
+    "gloss": "On which holiday do we greet each other with 'Christ is risen!' and answer 'Truly He is risen!'? — Easter (Velikden)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во кој спорт секој погодок од далеку, зад посебна полукружна линија, вреди три поени?",
+    "options": ["Ракомет", "Одбојка", "Ватерполо", "Кошарка"],
+    "correctIndex": 3,
+    "gloss": "In which sport is every long-range score, from behind a special semicircular line, worth three points? — Basketball (the three-point line)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Колку жици има обичната класична гитара?",
+    "options": ["4", "6", "7", "12"],
+    "correctIndex": 1,
+    "gloss": "How many strings does an ordinary classical guitar have? — 6 (a bass guitar has 4; twelve-string guitars are a separate type)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кој од овие зборови се чита исто и одлево надесно и оддесно налево?",
+    "options": ["Казан", "Котел", "Корен", "Капак"],
+    "correctIndex": 3,
+    "gloss": "Which of these words reads the same left to right and right to left? — Капак (lid): reversed it is still капак; kazan→nazak, kotel→letok, koren→nerok."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Мајка ми има само еден брат, а тој има само еден син. Што ми е мене тој син?",
+    "options": ["Братучед", "Внук", "Вујко", "Девер"],
+    "correctIndex": 0,
+    "gloss": "My mother has only one brother, and he has only one son. What is that son to me? — Cousin (братучед): my mother's brother is my вујко, his son my cousin. Внук (nephew) is the trap."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Над влезот на една стара зграда е испишана годината MCM. Која година е тоа?",
+    "options": ["1100", "1500", "1900", "2100"],
+    "correctIndex": 2,
+    "gloss": "Above the entrance of an old building the year MCM is written. Which year is it? — 1900: M = 1000, CM = 1000 − 100 = 900. 1100 is MC, 1500 MD, 2100 MMC."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На кој празник свештеникот фрла крст во река или езеро, а момчињата скокаат во ледената вода по него?",
+    "options": ["Водици", "Божиќ", "Василица", "Спасовден"],
+    "correctIndex": 0,
+    "gloss": "On which holiday does the priest throw a cross into a river or lake, and young men jump into the icy water after it? — Vodici (Epiphany, 19 January)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој ја напиша „Т’га за југ“, песната за копнежот по родниот крај далеку на студениот север?",
+    "options": ["Рајко Жинзифов", "Константин Миладинов", "Кочо Рацин", "Блаже Конески"],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'Longing for the South', the poem of yearning for the homeland far away in the cold north? — Konstantin Miladinov, written in Moscow (1856)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кое од овие морски животни не е цицач?",
+    "options": ["Делфинот", "Туленот", "Китот", "Ајкулата"],
+    "correctIndex": 3,
+    "gloss": "Which of these sea animals is not a mammal? — The shark: it is a fish that breathes through gills; dolphins, seals and whales breathe air and nurse their young."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која билка му ја дава бојата и мирисот на италијанското песто?",
+    "options": ["Магдонос", "Босилек", "Нане", "Копар"],
+    "correctIndex": 1,
+    "gloss": "Which herb gives Italian pesto its colour and scent? — Basil (pesto alla genovese: basil, pine nuts, garlic, cheese, olive oil)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која овчарска раса кучиња го носи името на планина во Македонија?",
+    "options": ["Каракачан", "Торњак", "Шарпланинец", "Кангал"],
+    "correctIndex": 2,
+    "gloss": "Which sheepdog breed is named after a mountain in Macedonia? — The Šarplaninec, after Šar Planina. Karakachan is named after a people, Tornjak after a sheep pen, Kangal after a Turkish town."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој режисер ги сними и „Е. Т.“ и „Јурски парк“?",
+    "options": ["Стивен Спилберг", "Џорџ Лукас", "Џејмс Камерон", "Роберт Земекис"],
+    "correctIndex": 0,
+    "gloss": "Which director made both 'E.T.' and 'Jurassic Park'? — Steven Spielberg (1982, 1993)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кој од овие пронајдоци е најстар?",
+    "options": ["Радиото", "Телевизорот", "Телефонот", "Мобилниот телефон"],
+    "correctIndex": 2,
+    "gloss": "Which of these inventions is the oldest? — The telephone (Bell's patent, 1876); radio came in the 1890s, television in the 1920s, the mobile phone in the 1970s. Needs rough dates plus ordering."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ако „ова дете“ можеме да го кажеме „детево“, а „тоа дете“ — „детето“, како со еден збор ќе кажеме „она дете“?",
+    "options": ["Детенце", "Детено", "Детиште", "Дечиња"],
+    "correctIndex": 1,
+    "gloss": "If 'this child' can be said 'детево' and 'that child' 'детето', how do we say 'that child over there' in one word? — Детено: Macedonian's three articles follow ова/тоа/она as -в/-т/-н."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој македонски ракометен клуб двапати ја освои ЕХФ Лигата на шампионите, во 2017 и во 2019 година?",
+    "options": ["Металург", "Пелистер", "Тиквеш", "Вардар"],
+    "correctIndex": 3,
+    "gloss": "Which Macedonian handball club won the EHF Champions League twice, in 2017 and 2019? — RK Vardar."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое писмо го создал Константин-Кирил Филозоф за јазикот на Словените?",
+    "options": ["Кирилица", "Глаголица", "Латиница", "Босанчица"],
+    "correctIndex": 1,
+    "gloss": "Which script did Constantine-Cyril the Philosopher create for the Slavs' language? — Glagolitic. Cyrillic, named in his honour, arose later among his disciples' successors; the trap."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Охридскиот бисер не е од школка: неговиот сјај се прави од лушпите на една риба од езерото. Која?",
+    "options": ["Плашица", "Летница", "Белвица", "Мрена"],
+    "correctIndex": 0,
+    "gloss": "The Ohrid pearl doesn't come from a shell: its lustre is made from the scales of a lake fish. Which? — The plašica (bleak); letnica and belvica are the famous Ohrid trouts, a tempting trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "На морско ниво водата врие на 100 °C. На колку степени ќе зоврие во чајник на врвот на Кораб, највисокиот врв во земјава?",
+    "options": ["Околу 91 °C", "Точно 100 °C", "Околу 105 °C", "Околу 110 °C"],
+    "correctIndex": 0,
+    "gloss": "At sea level water boils at 100 °C. At what temperature does it boil in a kettle on top of Korab, the country's highest peak (2,764 m)? — About 91 °C: lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој писател го измислил градчето Макондо, каде што се одвива неговиот најпознат роман?",
+    "options": ["Хорхе Луис Борхес", "Марио Варгас Љоса", "Габриел Гарсија Маркес", "Хулио Кортасар"],
+    "correctIndex": 2,
+    "gloss": "Which writer invented the town of Macondo, where his best-known novel takes place? — Gabriel García Márquez ('One Hundred Years of Solitude')."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Чие дело е таванот на Сикстинската капела во Ватикан?",
+    "options": ["Рафаел", "Леонардо да Винчи", "Сандро Ботичели", "Микеланџело"],
+    "correctIndex": 3,
+    "gloss": "Whose work is the ceiling of the Sistine Chapel? — Michelangelo (1508–1512). Botticelli painted frescoes on the chapel's walls, not the ceiling."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Топот стои во аголот на шаховската табла. Колку најмалку потези му требаат за да стигне до дијагонално спротивниот агол?",
+    "options": ["1", "2", "7", "14"],
+    "correctIndex": 1,
+    "gloss": "A rook stands in a corner of the chessboard. What is the fewest moves it needs to reach the diagonally opposite corner? — 2: it moves only straight, any distance, so one move along the edge and one up the other edge."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Сонцето изгрева на исток. Во кој од овие градови истиот ден изгрева најрано?",
+    "options": ["Охрид", "Тетово", "Струмица", "Кичево"],
+    "correctIndex": 2,
+    "gloss": "The Sun rises in the east. In which of these towns does it rise earliest on the same day? — Strumica, the easternmost (≈22.6°E vs ≈20.8–21°E for the others), about 6–7 minutes earlier; latitude differences change this by under 2 minutes."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Православниот Божиќ, 25 декември по стариот календар, паѓа на 7 јануари по новиот. Кој датум по новиот календар е 1 јануари по стариот?",
+    "options": ["13 јануари", "14 јануари", "8 јануари", "19 јануари"],
+    "correctIndex": 1,
+    "gloss": "Orthodox Christmas, 25 December in the old calendar, falls on 7 January in the new. Which new-calendar date is 1 January in the old? — 14 January: 25 Dec → 7 Jan is a 13-day shift, so 1 Jan + 13 = 14 Jan (the 'Old New Year', Vasilica). 13 January is the trap: the eve. Valid 1900–2099."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој титан, казнет од Зевс, засекогаш го држи небото на своите плеќи?",
+    "options": ["Прометеј", "Кронос", "Атлас", "Хиперион"],
+    "correctIndex": 2,
+    "gloss": "Which Titan, punished by Zeus, holds up the sky on his shoulders forever? — Atlas. Prometheus was also punished by Zeus, but chained to a rock."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Од кој јазик светот го зеде зборот „робот“, сроден со нашиот збор „работа“?",
+    "options": ["Руски", "Чешки", "Полски", "Германски"],
+    "correctIndex": 1,
+    "gloss": "From which language did the world take the word 'robot', related to our word 'работа' (work)? — Czech: Karel Čapek's play R.U.R. (1920), from 'robota', forced labour."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Црн Дрим истекува од Охридското Езеро кај Струга. Во кое море на крајот се влеваат неговите води?",
+    "options": ["Егејското", "Јадранското", "Јонското", "Црното"],
+    "correctIndex": 1,
+    "gloss": "The Black Drin flows out of Lake Ohrid at Struga. Which sea do its waters finally reach? — The Adriatic: it flows north-west into Albania, joins the White Drin as the Drin, and reaches the Adriatic. Aegean is the trap (the Vardar)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Во која црква е фреската „Оплакување Христово“ од 1164 година, позната по силната човечка болка на ликовите?",
+    "options": ["Св. Софија во Охрид", "Св. Ѓорѓи во Курбиново", "Св. Никита во Бањани", "Св. Пантелејмон во Нерези"],
+    "correctIndex": 3,
+    "gloss": "Which church holds the 1164 fresco 'The Lamentation of Christ', famed for the raw human grief of its figures? — St Panteleimon at Nerezi near Skopje. Kurbinovo is 1191, St Sophia 11th century, St Nikita 14th century."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На кое место завршија нашите кошаркари на Европското првенство 2011 година во Литванија?",
+    "options": ["Второ", "Трето", "Четврто", "Петто"],
+    "correctIndex": 2,
+    "gloss": "Where did our basketball team finish at EuroBasket 2011 in Lithuania? — Fourth: they lost the semi-final to Spain and the bronze game to Russia, the country's best result."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој филм на Милчо Манчевски го освои „Златниот лав“ во Венеција и беше номиниран за Оскар?",
+    "options": ["Пред дождот", "Прашина", "Сенки", "Мајки"],
+    "correctIndex": 0,
+    "gloss": "Which Milčo Mančevski film won the Golden Lion in Venice and was nominated for an Oscar? — 'Before the Rain' (1994). The others are all his later films."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Хемискиот симбол W не одговара на англиското име на елементот, туку на германското. Кој елемент е тоа?",
+    "options": ["Ванадиум", "Итербиум", "Бизмут", "Волфрам"],
+    "correctIndex": 3,
+    "gloss": "The chemical symbol W matches not the element's English name but its German one. Which element? — Tungsten, German and Macedonian 'Wolfram'/'волфрам'. Vanadium is V, ytterbium Yb, bismuth Bi."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој антички град лежи кај Градско, таму каде што Црна Река се влева во Вардар?",
+    "options": ["Хераклеја Линкестис", "Стоби", "Скупи", "Лихнид"],
+    "correctIndex": 1,
+    "gloss": "Which ancient city lies near Gradsko, where the Crna Reka flows into the Vardar? — Stobi. Heraclea is by Bitola, Scupi by Skopje, Lychnidos is Ohrid."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Компјутерите сметаат само со нули и единици. Колку е бинарниот број 1010 во декаден систем?",
+    "options": ["5", "10", "12", "20"],
+    "correctIndex": 1,
+    "gloss": "Computers count only with zeros and ones. What is binary 1010 in decimal? — 10: 8 + 0 + 2 + 0."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Денешната црква „Света Софија“ во Цариград е изградена во VI век. Под кој цар?",
+    "options": ["Константин Велики", "Теодосиј II", "Јустинијан I", "Василиј II"],
+    "correctIndex": 2,
+    "gloss": "Today's Hagia Sophia in Constantinople was built in the 6th century. Under which emperor? — Justinian I (532–537). Earlier churches on the site date from Constantius II and Theodosius II, hence 'today's'."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се вика осумногиот коњ на Один во нордиската митологија?",
+    "options": ["Фенрир", "Хугин", "Слејпнир", "Јормунганд"],
+    "correctIndex": 2,
+    "gloss": "What is Odin's eight-legged horse called in Norse mythology? — Sleipnir. Fenrir is the wolf, Huginn a raven, Jörmungandr the world serpent."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кој од овие ликови најрано се појавил пред публиката?",
+    "options": ["Мики Маус", "Супермен", "Бетмен", "Барби"],
+    "correctIndex": 0,
+    "gloss": "Which of these characters first appeared before the public earliest? — Mickey Mouse (1928); Superman 1938, Batman 1939, Barbie 1959."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Светлината од Сонцето до нас патува околу 8 минути. Ако Сонцето во миг исчезне, кога Земјата ќе престане да кружи по својата орбита?",
+    "options": ["Веднаш", "По околу 8 минути", "По околу 16 минути", "По околу 8 часа"],
+    "correctIndex": 1,
+    "gloss": "Sunlight takes about 8 minutes to reach us. If the Sun vanished in an instant, when would Earth stop orbiting? — After about 8 minutes: gravity's change travels at the speed of light (general relativity, confirmed by gravitational waves in 2017). 'Instantly' is the Newtonian trap."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Григор Прличев во 1860 година ја освои првата награда на поетски натпревар со поемата „Сердарот“. Во кој град?",
+    "options": ["Цариград", "Солун", "Атина", "Букурешт"],
+    "correctIndex": 2,
+    "gloss": "In 1860 Grigor Prličev won first prize at a poetry contest with the poem 'The Serdar'. In which city? — Athens (the university's poetry competition; he wrote it in Greek and was hailed as a 'second Homer')."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Галичката свадба, на која се венчаваат млади од Галичник, секоја година се одржува на кој празник?",
+    "options": ["Илинден", "Петровден", "Голема Богородица", "Митровден"],
+    "correctIndex": 1,
+    "gloss": "The Galičnik Wedding, where young people from Galičnik marry, is held every year on which feast? — Petrovden (St Peter's Day, 12 July), when the village's migrant workers traditionally came home."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој холандски сликар ја насликал „Девојка со бисерна обетка“?",
+    "options": ["Рембрант", "Франс Халс", "Јан Стен", "Јан Вермер"],
+    "correctIndex": 3,
+    "gloss": "Which Dutch painter painted 'Girl with a Pearl Earring'? — Johannes (Jan) Vermeer, c. 1665. The others are Dutch Golden Age contemporaries."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој од овие зборови во македонскиот дошол од грчкиот, а не од турскиот?",
+    "options": ["Хартија", "Пенџере", "Чаршија", "Кибрит"],
+    "correctIndex": 0,
+    "gloss": "Which of these Macedonian words came from Greek rather than Turkish? — Хартија (paper), from Greek χαρτί(ον). Пенџере (window), чаршија (bazaar) and кибрит (match) came through Turkish."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Крвта на октоподот кислородот го носи со помош на бакар, а не на железо. Каква боја има таа?",
+    "options": ["Сина", "Зелена", "Жолта", "Виолетова"],
+    "correctIndex": 0,
+    "gloss": "An octopus's blood carries oxygen with copper, not iron. What colour is it? — Blue: copper-based haemocyanin turns blue when it binds oxygen."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој од овие главни градови лежи западно од Скопје?",
+    "options": ["Атина", "Софија", "Хелсинки", "Варшава"],
+    "correctIndex": 3,
+    "gloss": "Which of these capitals lies west of Skopje? — Warsaw (≈21.0°E vs Skopje ≈21.4°E). Athens (23.7°E), Sofia (23.3°E) and Helsinki (24.9°E) are all east."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Тонот ла што го дава камертонот има 440 херци. Колку херци има истиот тон една октава повисоко?",
+    "options": ["450", "660", "880", "1760"],
+    "correctIndex": 2,
+    "gloss": "The A of a tuning fork is 440 hertz. How many hertz is the same note one octave higher? — 880: an octave up doubles the frequency. 1760 is two octaves; 660 is a fifth."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во која земја е измислен QR кодот?",
+    "options": ["Јапонија", "Јужна Кореја", "САД", "Кина"],
+    "correctIndex": 0,
+    "gloss": "In which country was the QR code invented? — Japan: Denso Wave, a Toyota group company, 1994, to track car parts."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кој од овие луѓе бил жив кога во 1605 година излегол првиот дел од „Дон Кихот“?",
+    "options": ["Леонардо да Винчи", "Кристофор Колумбо", "Николај Коперник", "Галилео Галилеј"],
+    "correctIndex": 3,
+    "gloss": "Which of these people was still alive when the first part of 'Don Quixote' came out in 1605? — Galileo (1564–1642). Columbus died 1506, Leonardo 1519, Copernicus 1543."
+  }
+]

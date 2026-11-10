@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ບົດທ່ອງພະຍັນຊະນະລາວ ທີ່ເດັກນ້ອຍທຸກຄົນຈື່ໄດ້ ເລີ່ມວ່າ “ກໍ ໄກ່, ຂໍ ໄຂ່, ຄໍ …” ຄຳທີ່ຕາມຫຼັງ ຄໍ ແມ່ນຫຍັງ?",
+    "options": ["ຄົນ", "ງົວ", "ຄວາຍ", "ຄ້ອນ"],
+    "correctIndex": 2,
+    "gloss": "The Lao alphabet rhyme goes \"ko kai, kho khai, kho ...\" — what comes after kho? — Khuay (buffalo): \"ກໍ ໄກ່, ຂໍ ໄຂ່, ຄໍ ຄວາຍ, ງໍ ງົວ\". Ngua (cow) is the next letter's word."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ເວລານຶ່ງເຂົ້າໜຽວ ຄົນລາວເອົາເຂົ້າທີ່ແຊ່ນ້ຳໄວ້ແລ້ວ ໃສ່ໃນເຄື່ອງຈັກສານອັນໃດ ຕັ້ງເທິງປາກໝໍ້ນຶ່ງ?",
+    "options": ["ຫວດ", "ກະຕິບ", "ກະດົ້ງ", "ກະຕ່າ"],
+    "correctIndex": 0,
+    "gloss": "To steam sticky rice, Lao put the soaked rice into which woven utensil set on the steaming pot? — The huad, the bamboo cone steamer. The tip khao is for serving, the kadong tray for cooling."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ໝໍລຳ ມັກລຳປະກອບກັບເຄື່ອງດົນຕີໃດ ທີ່ເປົ່າດ້ວຍປາກ ແລະ ເຮັດຈາກລຳໄມ້ໄຜ່ນ້ອຍໆ ຫຼາຍລຳ ມັດລຽງກັນເປັນສອງແຖວ?",
+    "options": ["ຂຸ່ຍ", "ພິນ", "ຊໍ", "ແຄນ"],
+    "correctIndex": 3,
+    "gloss": "Mor lam singers perform with which blown instrument made of many small bamboo pipes bound in two rows? — The khaen (UNESCO intangible heritage, 2017). The khuy is a single-pipe flute."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ສຸພາສິດລາວ ສອນວ່າ ຄຳເວົ້າທີ່ຟັງບໍ່ມ່ວນຫູ ອາດເປັນປະໂຫຍດກວ່າຄຳຍ້ອງຍໍ: “ຫວານເປັນລົມ … ເປັນຢາ”. ຄຳທີ່ຂາດໄປແມ່ນຫຍັງ?",
+    "options": ["ສົ້ມ", "ຂົມ", "ເຜັດ", "ເຄັມ"],
+    "correctIndex": 1,
+    "gloss": "A Lao proverb: unpleasant words may help more than flattery — \"Sweet makes you faint, ... is medicine.\" — Bitter: \"ຫວານເປັນລົມ ຂົມເປັນຢາ\"."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນການແຂ່ງຂັນບານເຕະ ແຕ່ລະທີມມີຜູ້ຫຼິ້ນຢູ່ໃນສະໜາມພ້ອມກັນຈັກຄົນ ນັບທັງຜູ້ຮັກສາປະຕູ?",
+    "options": ["9", "10", "11", "12"],
+    "correctIndex": 2,
+    "gloss": "In a football match, how many players does each team have on the pitch at once, goalkeeper included? — 11."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ຢູ່ເດີ່ນບ້ານລຸງ ມີໄກ່ 3 ໂຕ ແລະ ຄວາຍ 2 ໂຕ. ຖ້ານັບຂາຂອງສັດທັງໝົດ ຈະໄດ້ຈັກຂາ?",
+    "options": ["10", "12", "16", "14"],
+    "correctIndex": 3,
+    "gloss": "In uncle's yard there are 3 chickens and 2 buffaloes. How many legs in all? — 14: 3×2 + 2×4."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ຕົ້ມໄຂ່ 1 ໜ່ວຍ ໃຫ້ສຸກ ໃຊ້ເວລາ 10 ນາທີ. ຖ້າຕົ້ມໄຂ່ 3 ໜ່ວຍ ພ້ອມກັນໃນໝໍ້ດຽວ ຈະໃຊ້ເວລາຈັກນາທີ?",
+    "options": ["10", "15", "20", "30"],
+    "correctIndex": 0,
+    "gloss": "Boiling one egg takes 10 minutes. How long for 3 eggs boiled together in one pot? — Still 10: they cook at the same time. 30 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ແມງມຸມ ບໍ່ໄດ້ນັບເປັນແມງໄມ້ ເຖິງວ່າໂຕນ້ອຍຄືກັນ. ຈຸດທີ່ແຕກຕ່າງຢ່າງໜຶ່ງແມ່ນ ແມງມຸມມີຂາຈັກຂາ?",
+    "options": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "gloss": "Spiders are not insects, though just as small. One difference: how many legs does a spider have? — 8 (insects have 6)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ດາວເຄາະໃດ ທີ່ເມື່ອສ່ອງກ້ອງເບິ່ງ ຈະເຫັນວົງແຫວນກວ້າງອ້ອມຮອບໂຕ ຢ່າງຈະແຈ້ງ?",
+    "options": ["ດາວອັງຄານ", "ດາວສຸກ", "ດາວເສົາ", "ດາວພຸດ"],
+    "correctIndex": 2,
+    "gloss": "Which planet, seen through a telescope, clearly shows wide rings around it? — Saturn. Mars, Venus and Mercury have no rings."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ປະເທດໃດ ມີທຸງຊາດເປັນວົງມົນສີແດງ ຢູ່ກາງພື້ນສີຂາວ ແລະ ຊື່ປະເທດໃນພາສາຂອງເຂົາເອງ ໝາຍເຖິງ “ບ່ອນກຳເນີດຂອງຕາເວັນ”?",
+    "options": ["ບັງກະລາເທດ", "ເກົາຫຼີໃຕ້", "ຈີນ", "ຍີ່ປຸ່ນ"],
+    "correctIndex": 3,
+    "gloss": "Which country has a red disc on a white field, and a native name meaning \"origin of the sun\"? — Japan (Nihon). Bangladesh's red disc is on green."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ບຸນມີ ມີນ້າບ່າວຄົນໜຶ່ງ ທີ່ເປັນພີ່ນ້ອງທ້ອງດຽວກັນກັບພໍ່ ຫຼື ແມ່ຂອງລາວ. ນ້າບ່າວຄົນນີ້ ເອີ້ນແມ່ຂອງບຸນມີວ່າແນວໃດ?",
+    "options": ["ເອື້ອຍ", "ນ້ອງສາວ", "ປ້າ", "ນ້າສາວ"],
+    "correctIndex": 0,
+    "gloss": "Bounmy has a \"na bao\", a full sibling of his father or mother. What does this uncle call Bounmy's mother? — Euay (elder sister): na means a younger sibling of the mother, so the mother is his elder sister."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ເມືອງຫຼວງພະບາງ ໃນອະດີດມີຫຼາຍຊື່ ເຊັ່ນ ເມືອງຊວາ. ຊື່ທີ່ໃຊ້ມາຮອດທຸກວັນນີ້ ໄດ້ມາຈາກສິ່ງໃດ?",
+    "options": ["ພູສີທີ່ຕັ້ງຢູ່ກາງເມືອງ", "ພະພຸດທະຮູບອົງສຳຄັນ", "ກະສັດອົງທີ່ສ້າງເມືອງ", "ແມ່ນ້ຳຄານທີ່ໄຫຼຜ່ານ"],
+    "correctIndex": 1,
+    "gloss": "Luang Prabang once had other names, such as Muang Sua. Where does today's name come from? — From the Phra Bang, the revered Buddha image kept in the city."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ໃນປີ 1353, ກະສັດອົງໃດ ໄດ້ລວບລວມເມືອງຕ່າງໆ ສ້າງເປັນອານາຈັກລ້ານຊ້າງ?",
+    "options": ["ພະເຈົ້າໄຊເສດຖາທິລາດ", "ພະເຈົ້າໂພທິສະລາດ", "ເຈົ້າຟ້າງຸ່ມ", "ພະເຈົ້າສຸລິຍະວົງສາ"],
+    "correctIndex": 2,
+    "gloss": "In 1353, which king united the muang into the kingdom of Lan Xang? — Fa Ngum. The other three are later Lan Xang kings."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ໝາກກະຕໍ້ ແບບດັ້ງເດີມ ທີ່ຄົນລາວເຕະກັນມາແຕ່ບູຮານ ສານຂຶ້ນຈາກວັດສະດຸໃດ?",
+    "options": ["ໄມ້ໄຜ່", "ໃບລານ", "ເຊືອກປໍ", "ຫວາຍ"],
+    "correctIndex": 3,
+    "gloss": "The traditional kator (sepak takraw) ball is woven from what? — Rattan. Modern balls are synthetic; bamboo is the tempting wrong guess."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ຄອມພິວເຕີ ນັບເລກດ້ວຍພຽງ 0 ກັບ 1: ໜຶ່ງ ຂຽນເປັນ 1, ສອງ ເປັນ 10, ສາມ ເປັນ 11, ສີ່ ເປັນ 100, ຫ້າ ເປັນ 101. ແລ້ວ 111 ແທນເລກໃດ?",
+    "options": ["6", "7", "8", "11"],
+    "correctIndex": 1,
+    "gloss": "Computers count with only 0 and 1: one is 1, two 10, three 11, four 100, five 101. What is 111? — 7: continuing the pattern, 110 is 6 and 111 is 7 (4+2+1)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ແມ່ນ້ຳຂອງ ເລີ່ມຕົ້ນຈາກທີ່ລາບສູງທິເບດ ໄຫຼຜ່ານລາວລົງໄປທາງໃຕ້ ແລ້ວໄຫຼລົງສູ່ທະເລ ທີ່ປະເທດໃດ?",
+    "options": ["ຫວຽດນາມ", "ກຳປູເຈຍ", "ໄທ", "ມຽນມາ"],
+    "correctIndex": 0,
+    "gloss": "The Mekong rises on the Tibetan Plateau, flows south through Laos, and reaches the sea in which country? — Vietnam, through the Mekong Delta. Cambodia is the last country before it."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຈິດຕະກອນຊາວໂຮນລັງຄົນໃດ ແຕ້ມຮູບດອກທານຕະວັນໃນແຈກັນ ຫຼາຍຮູບ ຈົນກາຍເປັນຜົນງານທີ່ຄົນທົ່ວໂລກຈື່ໄດ້?",
+    "options": ["ໂກລດ ໂມເນ", "ປາໂບລ ປີກາສໂຊ", "ວິນເຊັນ ແວນ ໂກະ", "ເຣັມບຣັນດ໌"],
+    "correctIndex": 2,
+    "gloss": "Which Dutch painter painted a famous series of sunflowers in a vase? — Vincent van Gogh. Rembrandt is the Dutch trap."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ດາລາໜັງງຽບຄົນໃດ ທີ່ຄົນທົ່ວໂລກຈື່ໄດ້ໃນຮູບລັກສະນະ ໃສ່ໝວກກົມສີດຳ, ຖືໄມ້ເທົ້າ, ມີໜວດສັ້ນໆ ແລະ ຍ່າງເຕາະແຕະ?",
+    "options": ["ບັສເຕີ ຄີຕັນ", "ຊາລີ ແຊັບລິນ", "ມິສເຕີ ບີນ", "ເຈັກກີ ຈັນ"],
+    "correctIndex": 1,
+    "gloss": "Which silent-film star is remembered in a bowler hat, with a cane, a toothbrush moustache and a waddling walk? — Charlie Chaplin (the Tramp)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ພິຊຊ່າ “ມາກາຣິຕາ” ມີພຽງໝາກເລັ່ນ, ເນີຍແຂງ ແລະ ໃບໂຫລະພາ — ສີແດງ, ຂາວ ແລະ ຂຽວ ຄືກັບທຸງຊາດຂອງປະເທດທີ່ເປັນບ້ານເກີດຂອງພິຊຊ່າ. ແມ່ນປະເທດໃດ?",
+    "options": ["ຝຣັ່ງ", "ສະເປນ", "ກຣີກ", "ອີຕາລີ"],
+    "correctIndex": 3,
+    "gloss": "Pizza Margherita has only tomato, cheese and basil: red, white and green, like the flag of pizza's homeland. Which country? — Italy. The colours rule out France, Spain and Greece."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ໝູ່ 4 ຄົນ ພົບກັນ ແລ້ວແຕ່ລະຄົນ ຈັບມືກັບຄົນອື່ນທຸກຄົນ ຄົນລະເທື່ອ. ມີການຈັບມືກັນທັງໝົດຈັກເທື່ອ?",
+    "options": ["4", "6", "8", "12"],
+    "correctIndex": 1,
+    "gloss": "Four friends meet and each shakes hands once with every other. How many handshakes in all? — 6: 3+2+1. 12 counts every handshake twice."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ລ້ານຊ້າງ ໝາຍເຖິງ “ຊ້າງເປັນລ້ານໂຕ”. ອານາຈັກບູຮານທີ່ຢູ່ໃກ້ຄຽງ ຊຶ່ງມີຊື່ໝາຍເຖິງ “ທົ່ງນາເປັນລ້ານ” ມີສູນກາງຢູ່ເມືອງໃດ?",
+    "options": ["ຊຽງໃໝ່", "ສຸໂຂໄທ", "ອະຍຸທະຍາ", "ຊຽງຮຸ່ງ"],
+    "correctIndex": 0,
+    "gloss": "Lan Xang means \"a million elephants\". The neighbouring old kingdom whose name means \"a million rice fields\" was centred on which city? — Chiang Mai: the name gives Lan Na, and Lan Na's capital was Chiang Mai."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ໃນວັນນະຄະດີ “ສັງສິນໄຊ”, ສັງທອງ ຜູ້ເປັນພີ່ນ້ອງຂອງສິນໄຊ ເກີດມາໃນຮ່າງຂອງສິ່ງໃດ?",
+    "options": ["ສິງ", "ຫອຍສັງ", "ຊ້າງ", "ເຕົ່າ"],
+    "correctIndex": 1,
+    "gloss": "In the epic Sang Sinxay, Sinxay's brother Sangthong is born in the form of what? — A conch shell; his name says \"golden conch\". Lion and elephant are traps from Siho, born a lion-elephant."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ໃນປະຕິທິນຈັນທະຄະຕິ, ຂຶ້ນ 15 ຄ່ຳ ແມ່ນວັນເພັງ ດວງເດືອນເຕັມດວງ. ຄືນ ແຮມ 8 ຄ່ຳ ຈະເຫັນດວງເດືອນເປັນແນວໃດ?",
+    "options": ["ເຕັມດວງຄືເກົ່າ", "ມືດໝົດ ບໍ່ເຫັນເລີຍ", "ເປັນເສີ້ຍບາງໆ", "ປະມານເຄິ່ງດວງ"],
+    "correctIndex": 3,
+    "gloss": "In the lunar calendar, the 15th waxing day is the full moon. On the 8th waning day, what does the Moon look like? — About half: it is midway from full moon to the dark moon at the month's end."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ຄົນທີ່ເກີດປີຂານ ມີອາຍຸຄົບ 36 ປີ ໃນປີນີ້. ປີນີ້ ແມ່ນປີທີ່ມີສັດໃດເປັນສັນຍາລັກ?",
+    "options": ["ງົວ", "ກະຕ່າຍ", "ເສືອ", "ລີງ"],
+    "correctIndex": 2,
+    "gloss": "Someone born in a pi khan year turns 36 this year. Which animal is this year? — The tiger: pi khan is the tiger year, and 36 is three full 12-year cycles."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ເຫັນຟ້າແມບ ແລ້ວນັບໄດ້ 3 ວິນາທີ ຈຶ່ງໄດ້ຍິນສຽງຟ້າຮ້ອງ. ຟ້າຜ່າຢູ່ໄກຈາກເຮົາປະມານເທົ່າໃດ?",
+    "options": ["100 ແມັດ", "1 ກິໂລແມັດ", "10 ກິໂລແມັດ", "30 ກິໂລແມັດ"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear thunder 3 seconds later. How far away was the strike? — About 1 km: light arrives at once, sound travels about 340 m per second."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນປີ 2020, ຮູບເງົາທີ່ບໍ່ໄດ້ເວົ້າພາສາອັງກິດ ໄດ້ລາງວັນອອສກາ ສາຂາຮູບເງົາຍອດຢ້ຽມ ເປັນເທື່ອທຳອິດ. ຮູບເງົາເລື່ອງນັ້ນ ມາຈາກປະເທດໃດ?",
+    "options": ["ຍີ່ປຸ່ນ", "ຈີນ", "ເກົາຫຼີໃຕ້", "ອິນເດຍ"],
+    "correctIndex": 2,
+    "gloss": "In 2020 a non-English-language film won the Oscar for Best Picture for the first time. Which country was it from? — South Korea: Bong Joon-ho's Parasite."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຜູ້ຂຽນໜັງສື “ເຈົ້າຊາຍນ້ອຍ” ຊາວຝຣັ່ງ ມີອາຊີບຫຼັກເປັນຫຍັງ ເຊິ່ງກາຍມາເປັນຈຸດເລີ່ມຂອງເລື່ອງ?",
+    "options": ["ທ່ານໝໍ", "ກະລາສີເຮືອ", "ຄູສອນ", "ນັກບິນ"],
+    "correctIndex": 3,
+    "gloss": "What was the main profession of the French author of The Little Prince, which also opens the story? — A pilot: Saint-Exupéry flew mail and reconnaissance planes; the narrator crash-lands in the Sahara."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ສວນລຸມພິນີ ສະຖານທີ່ປະສູດຂອງເຈົ້າຊາຍສິດທັດຖະ ຜູ້ຕໍ່ມາເປັນພະພຸດທະເຈົ້າ, ປັດຈຸບັນຢູ່ໃນປະເທດໃດ?",
+    "options": ["ອິນເດຍ", "ເນປານ", "ສີລັງກາ", "ພູຖານ"],
+    "correctIndex": 1,
+    "gloss": "Lumbini, birthplace of Prince Siddhartha, the future Buddha, is in which country today? — Nepal. India, where he attained enlightenment, is the trap."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຫຼາຍຄົນເຂົ້າໃຈວ່າ ຄຳວ່າ “ອີໂມຈິ” ມາຈາກ “ອີໂມຊັນ” ໃນພາສາອັງກິດ. ແຕ່ແທ້ຈິງແລ້ວ ຄຳນີ້ມາຈາກພາສາໃດ?",
+    "options": ["ຍີ່ປຸ່ນ", "ເກົາຫຼີ", "ຈີນ", "ລາຕິນ"],
+    "correctIndex": 0,
+    "gloss": "Many think \"emoji\" comes from English \"emotion\". Which language does it really come from? — Japanese: e (picture) + moji (character); the likeness to \"emotion\" is a coincidence."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ເມື່ອທີ່ວຽງຈັນ ເປັນເວລາ 12:00 ທ່ຽງວັນ, ຢູ່ລອນດອນ ໃນລະດູໜາວ ຈະເປັນເວລາຈັກໂມງ?",
+    "options": ["07:00", "05:00", "17:00", "19:00"],
+    "correctIndex": 1,
+    "gloss": "When it is 12:00 noon in Vientiane, what time is it in London in winter? — 05:00: Laos is UTC+7, London in winter is UTC+0, and London lies west, so it is earlier."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ຝາດ້ານຫຼັງສິມຂອງວັດໜຶ່ງ ໃນຫຼວງພະບາງ ປະດັບດ້ວຍແກ້ວສີ ເປັນຮູບຕົ້ນທອງຂະໜາດໃຫຍ່ ທີ່ພົວພັນກັບຊື່ຂອງວັດ. ແມ່ນວັດໃດ?",
+    "options": ["ວັດວິຊຸນນະລາດ", "ວັດໃໝ່ສຸວັນນະພູມາຣາມ", "ວັດແສນສຸກາຣາມ", "ວັດຊຽງທອງ"],
+    "correctIndex": 3,
+    "gloss": "The back wall of a Luang Prabang temple's sim bears a large glass mosaic of a ton thong (flame tree), linked to the temple's name. Which temple? — Wat Xieng Thong. Wat Mai Suvannaphumaram is the trap: suvanna also means gold."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ວັນນະຄະດີ “ພະລັກພະລາມ” ຂອງລາວ ດັດແປງມາຈາກມະຫາກາບໃດຂອງອິນເດຍ?",
+    "options": ["ມະຫາພາລະຕະ", "ເວດສັນດອນຊາດົກ", "ຣາມາຍະນະ", "ປັນຈະຕັນຕະ"],
+    "correctIndex": 2,
+    "gloss": "The Lao classic Phra Lak Phra Lam is adapted from which Indian epic? — The Ramayana: Phra Lam is Rama and Phra Lak is Lakshmana. The Vessantara Jataka is the Lao Buddhist trap."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ໂທລະສັບ ກັບ ໂທລະທັດ ມີຄຳວ່າ “ໂທລະ” ທີ່ໝາຍເຖິງ “ໄກ” ຄືກັນ. ສ່ວນ “ທັດ” ໃນຄຳວ່າ ໂທລະທັດ ມີຄວາມໝາຍວ່າແນວໃດ?",
+    "options": ["ສຽງ", "ການເບິ່ງເຫັນ", "ການຂຽນ", "ໄຟຟ້າ"],
+    "correctIndex": 1,
+    "gloss": "Thorasap (telephone) and thorathat (television) share thora, \"far\". What does that in thorathat mean? — Seeing (Pali dassana, as in thatsana), so \"far-seeing\", like tele-vision. \"Sound\" belongs to the sap of thorasap."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ຕຳໝາກຫຸ່ງ ຂາດບໍ່ໄດ້ທັງໝາກຫຸ່ງ ແລະ ໝາກເຜັດ. ແຕ່ພືດທັງສອງຢ່າງນີ້ ມີຖິ່ນກຳເນີດມາຈາກໃສ?",
+    "options": ["ອາຊີຕາເວັນອອກສຽງໃຕ້", "ອະນຸທະວີບອິນເດຍ", "ທະວີບອາຟຣິກາ", "ທະວີບອາເມລິກາ"],
+    "correctIndex": 3,
+    "gloss": "Tam mak hung can't do without papaya and chilli. Where do both plants originally come from? — The Americas: papaya from Mexico and Central America, chilli from Central and South America; both reached Asia after the 1500s."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ລະຫັດ QR ທີ່ຄົນລາວສະແກນຈ່າຍເງິນທຸກມື້ນີ້ ຖືກປະດິດຂຶ້ນໃນປີ 1994 ເພື່ອໃຊ້ຕິດຕາມຊິ້ນສ່ວນ ໃນໂຮງງານຜະລິດຫຍັງ?",
+    "options": ["ລົດຍົນ", "ໂທລະສັບມືຖື", "ຢາປົວພະຍາດ", "ເຄື່ອງນຸ່ງຫົ່ມ"],
+    "correctIndex": 0,
+    "gloss": "The QR code Lao people now scan to pay was invented in 1994 to track parts in which kind of factory? — Car factories: Denso Wave, a Toyota group company, made it for automotive parts."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ຮັງເຜິ້ງປະກອບດ້ວຍຫ້ອງນ້ອຍໆ ຮູບຫົກແຈ. ມຸມພາຍໃນທັງຫົກມຸມ ຂອງຮູບຫົກແຈ ລວມກັນໄດ້ຈັກອົງສາ?",
+    "options": ["360°", "540°", "720°", "1080°"],
+    "correctIndex": 2,
+    "gloss": "A honeycomb is made of hexagonal cells. What do a hexagon's six interior angles add up to? — 720°: (6−2)×180°, or six angles of 120°."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ຫີນໂຣເຊັດຕາ ມີຂໍ້ຄວາມດຽວກັນຈາລຶກໄວ້ສາມແບບ. ແບບໜຶ່ງ ນັກວິຊາການອ່ານອອກຢູ່ແລ້ວ ຈຶ່ງກາຍເປັນກະແຈ ໃຫ້ຖອດອັກສອນຮູບພາບຂອງອີຢິບບູຮານໄດ້. ແບບທີ່ອ່ານອອກແລ້ວນັ້ນ ຂຽນເປັນພາສາໃດ?",
+    "options": ["ລາຕິນ", "ກຣີກບູຮານ", "ຮີບຣູ", "ອາຣາມິກ"],
+    "correctIndex": 1,
+    "gloss": "The Rosetta Stone carries one text in three forms; one was already readable and became the key to Egyptian hieroglyphs. Which language was it? — Ancient Greek (the others are hieroglyphic and Demotic Egyptian)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເລືອດຄົນເປັນສີແດງ ເພາະມີທາດເຫຼັກ. ເລືອດຂອງປາມຶກ ກັບເປັນສີຟ້າ ເພາະໃຊ້ທາດໃດແທນ?",
+    "options": ["ສັງກະສີ", "ທອງແດງ", "ແມັກນີຊຽມ", "ຄຳ"],
+    "correctIndex": 1,
+    "gloss": "Human blood is red because of iron. Squid and octopus blood is blue because it uses which element instead? — Copper, in haemocyanin."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ໃນເອກະສານທາງສາສະໜາ ແລະ ໃນປະຕິທິນລາວຫຼາຍສະບັບ, ປີຍັງນັບເປັນພຸດທະສັກກະລາດ (ພ.ສ.). ປີ ຄ.ສ. 2000 ກົງກັບ ພ.ສ. ປີໃດ?",
+    "options": ["2443", "2500", "2543", "2643"],
+    "correctIndex": 2,
+    "gloss": "Religious documents and many Lao calendars count years in the Buddhist Era (BE). Which BE year is AD 2000? — 2543: BE = AD + 543. 2443 is the subtraction trap."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເກມຮຽງບລັອກ “ເຕຕຣິສ” ທີ່ຫຼິ້ນກັນທົ່ວໂລກ ຖືກຂຽນຂຶ້ນຄັ້ງທຳອິດໃນປີ 1984 ຢູ່ປະເທດໃດ?",
+    "options": ["ຍີ່ປຸ່ນ", "ສະຫະລັດອາເມລິກາ", "ສະຫະພາບໂຊວຽດ", "ເກົາຫຼີໃຕ້"],
+    "correctIndex": 2,
+    "gloss": "The block game Tetris was first written in 1984 in which country? — The Soviet Union: Alexey Pajitnov wrote it in Moscow. Japan is the trap (the Game Boy made it famous)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ປີ 1641, ໃນລາຊະການຂອງພະເຈົ້າສຸລິຍະວົງສາທຳມິກຣາດ, ຄະນະພໍ່ຄ້າຂອງບໍລິສັດອິນເດຍຕາເວັນອອກ ໄດ້ເດີນທາງມາຮອດວຽງຈັນ ແລະ ຂຽນບັນທຶກລະອຽດກ່ຽວກັບນະຄອນແຫ່ງນີ້. ພວກເຂົາມາຈາກປະເທດໃດ?",
+    "options": ["ໂຮນລັງ", "ອັງກິດ", "ຝຣັ່ງ", "ປອກຕຸຍການ"],
+    "correctIndex": 0,
+    "gloss": "In 1641, under King Sourigna Vongsa, East India Company merchants reached Vientiane and wrote a detailed account. Where were they from? — The Netherlands: Gerrit van Wuysthoff's mission of the Dutch VOC."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ປີ 2005, ນັກວິທະຍາສາດ ໄດ້ປະກາດສັດຊະນິດໃໝ່ ຈາກຕົວຢ່າງທີ່ຊາວບ້ານເອົາມາຂາຍຢູ່ຕະຫຼາດທ່າແຂກ ແຂວງຄຳມ່ວນ. ຕໍ່ມາ ພົບວ່າ ມັນເປັນຕະກູນທີ່ເຄີຍຮູ້ຈັກແຕ່ຈາກຟອດຊິວ ອາຍຸຫຼາຍລ້ານປີ. ມັນແມ່ນສັດຫຍັງ?",
+    "options": ["ຄ້າງຄາວ", "ກິ້ງກ່າ", "ເຕົ່າ", "ໜູ"],
+    "correctIndex": 3,
+    "gloss": "In 2005 scientists described a new species from specimens sold at the Thakhek market, Khammouane; it turned out to belong to a family known only from fossils millions of years old. What animal? — A rodent: the Laotian rock rat (kha-nyou), Laonastes aenigmamus, of the Diatomyidae."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຖ້ານັບລວມທັງດິນແດນໂພ້ນທະເລ, ປະເທດໃດມີເຂດເວລາຫຼາຍທີ່ສຸດໃນໂລກ?",
+    "options": ["ຝຣັ່ງ", "ຣັດເຊຍ", "ສະຫະລັດອາເມລິກາ", "ອັງກິດ"],
+    "correctIndex": 0,
+    "gloss": "Counting overseas territories, which country has the most time zones? — France, with 12 (13 with its Antarctic claim). Russia and the USA have 11 each."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ອັກສອນລາວ, ອັກສອນໄທ, ອັກສອນຂະເໝນ ແລະ ອັກສອນມຽນມາ ລ້ວນແຕ່ສືບເຊື້ອສາຍມາຈາກອັກສອນບູຮານຂອງອິນເດຍອັນດຽວກັນ. ອັກສອນຕົ້ນຕໍນັ້ນແມ່ນອັກສອນໃດ?",
+    "options": ["ເທວະນາຄະລີ", "ຂະໂຣດຖີ", "ທະມິນ", "ພຣາຫມີ"],
+    "correctIndex": 3,
+    "gloss": "The Lao, Thai, Khmer and Burmese scripts all descend from the same ancient Indian script. Which? — Brahmi. Devanagari and Tamil are its other descendants; Kharosthi is an unrelated ancient Indian script."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຫຼຽນຄຳໂອລິມປິກທຸກມື້ນີ້ ເນື້ອໂລຫະສ່ວນໃຫຍ່ ເຮັດຈາກຫຍັງ?",
+    "options": ["ເງິນ", "ຄຳ", "ທອງແດງ", "ທອງເຫຼືອງ"],
+    "correctIndex": 0,
+    "gloss": "What is most of the metal in a modern Olympic gold medal? — Silver: the rules require at least 92.5% silver, plated with at least 6 g of gold. Solid gold medals ended after 1912."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ຕາມນິທານປີໃໝ່ລາວ, ລູກສາວທັງເຈັດ ຫຼື ນາງສັງຂານ ຜັດປ່ຽນກັນເຝົ້າຮັກສາສີສະຂອງພໍ່ ທີ່ຂາດໄປຍ້ອນແພ້ການທາຍປິດສະໜາ. ພໍ່ຂອງນາງແມ່ນໃຜ?",
+    "options": ["ທ້າວທຳມະບານ", "ພະຍາແຖນ", "ທ້າວກະບິນລະພົມ", "ພະອິນ"],
+    "correctIndex": 2,
+    "gloss": "In the Lao New Year legend, the seven Nang Sangkhan daughters take turns guarding their father's head, lost when he failed a riddle wager. Who is their father? — Kabinlaphom (Kapila Brahma). Thammaban is the boy who won the wager."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ວຽງຈັນ ຢູ່ປະມານລະຕິຈູດ 18° ເໜືອ ແລະ ລອງຈິຈູດ 103° ຕາເວັນອອກ. ຖ້າເຈາະອຸໂມງຊື່ໆ ຜ່ານໃຈກາງໂລກ ຈາກວຽງຈັນ, ປາຍອຸໂມງຈະໄປໂຜ່ຢູ່ໃສ?",
+    "options": ["ທະເລຄາຣິບບຽນ ໃກ້ເກາະຈາໄມກາ", "ມະຫາສະໝຸດແອດແລນຕິກ ນອກຝັ່ງບຣາຊິນ", "ມະຫາສະໝຸດອິນເດຍ ໃກ້ມາດາກັສກາ", "ມະຫາສະໝຸດປາຊີຟິກ ນອກຝັ່ງເປຣູ"],
+    "correctIndex": 3,
+    "gloss": "Vientiane is at about 18°N, 103°E. Drilling straight through Earth's centre, where would you come out? — The Pacific off Peru: the antipode is 18°S, 77°W. Jamaica (18°N, 77°W) is the trap for forgetting to flip the latitude."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ໃນໜຶ່ງປີ ມີຈັກເທື່ອ ທີ່ດວງຕາເວັນຂຶ້ນຮອດກາງຫົວພໍດີ ຕອນທ່ຽງ ຢູ່ເມືອງປາກເຊ ຈົນເສົາທີ່ຕັ້ງຊື່ ບໍ່ມີເງົາເລີຍ?",
+    "options": ["ສອງເທື່ອ", "ເທື່ອດຽວ", "ບໍ່ເຄີຍເລີຍ", "ທຸກມື້ໃນລະດູຮ້ອນ"],
+    "correctIndex": 0,
+    "gloss": "How many times a year is the noon Sun exactly overhead in Pakse, so an upright pole casts no shadow? — Twice: Pakse (about 15°N) lies between the equator and the Tropic of Cancer, which the overhead Sun crosses going north and coming back."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃຜເປັນບຸກຄົນດຽວ ທີ່ໄດ້ຮັບລາງວັນໂນແບລ ໃນສອງສາຂາວິທະຍາສາດທີ່ຕ່າງກັນ?",
+    "options": ["ໄລນັສ ພໍລິງ", "ອານເບີດ ໄອສະໄຕ", "ມາຣີ ກູຣີ", "ນີລສ໌ ບໍ"],
+    "correctIndex": 2,
+    "gloss": "Who is the only person to win Nobel Prizes in two different sciences? — Marie Curie: Physics 1903, Chemistry 1911. Linus Pauling's second prize was for Peace."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນນະວະນິຍາຍສະເປນທີ່ມີຊື່ສຽງ, ດອນກີໂຊເຕ ໄດ້ຂີ່ມ້າຖືຫອກບຸກເຂົ້າໃສ່ສິ່ງໃດ ດ້ວຍຄວາມເຊື່ອວ່າເປັນຍັກໃຫຍ່?",
+    "options": ["ກັງຫັນລົມ", "ຝູງແກະ", "ຕົ້ນໄມ້ໃຫຍ່", "ຮູບປັ້ນຫີນ"],
+    "correctIndex": 0,
+    "gloss": "In the famous Spanish novel, Don Quixote charges with his lance at what, believing them to be giants? — Windmills. The flocks of sheep he attacks are, in his mind, armies, not giants."
+  }
+]

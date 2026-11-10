@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sipas një fjale të urtë, cila pjesë e trupit nuk ka kocka, por kockat i thyen?",
+    "options": ["Zemra", "Gjuha", "Dora", "Buza"],
+    "correctIndex": 1,
+    "gloss": "According to a proverb, which part of the body has no bones but breaks bones? — The tongue: «Gjuha kockë s'ka, por kockën e thyen»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në flamurin kombëtar shqiptar, shqiponja dykrenare qëndron mbi një sfond të kuq. Ç'ngjyrë ka vetë shqiponja?",
+    "options": ["E artë", "E bardhë", "E zezë", "E kaltër"],
+    "correctIndex": 2,
+    "gloss": "On the Albanian flag the double-headed eagle sits on red. What colour is the eagle? — Black."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili qytet quhet «qyteti i një mbi një dritareve», për shtëpitë që ngjiten shkallë-shkallë në shpatin e kodrës?",
+    "options": ["Berati", "Gjirokastra", "Kruja", "Korça"],
+    "correctIndex": 0,
+    "gloss": "Which town is 'the city of a thousand (one-above-one) windows', for its houses climbing the hillside? — Berat. Gjirokastër is the 'city of stone'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Cili muaj e ka marrë emrin në shqip nga një frut që piqet pikërisht në atë kohë?",
+    "options": ["Korriku", "Gushti", "Maji", "Qershori"],
+    "correctIndex": 3,
+    "gloss": "Which month is named in Albanian after a fruit that ripens just then? — June, «qershor», from «qershi» (cherry). «Korrik» comes from «korr» (to reap), not a fruit; «gusht» and «maj» are Latin."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Në mëngjes ke përballë diellin që sapo ka lindur. Kthehesh majtas. Nga cila anë e horizontit shikon tani?",
+    "options": ["Nga jugu", "Nga veriu", "Nga perëndimi", "Nga lindja"],
+    "correctIndex": 1,
+    "gloss": "In the morning you face the rising sun, then turn left. Which way do you face? — North: the sun rises in the east, and left of east is north."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kur në Shqipëri fillon vera, cila stinë fillon në Australi?",
+    "options": ["Pranvera", "Vjeshta", "Vera", "Dimri"],
+    "correctIndex": 3,
+    "gloss": "When summer begins in Albania, which season begins in Australia? — Winter: the southern hemisphere has the opposite seasons."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili zvarranik është bërë simbol i njeriut që ndërron qëndrim sipas rastit, sepse ndërron ngjyrën e lëkurës?",
+    "options": ["Iguana", "Krokodili", "Kameleoni", "Breshka"],
+    "correctIndex": 2,
+    "gloss": "Which reptile became the symbol of a person who changes stance to suit the moment, because it changes skin colour? — The chameleon («kameleon» is used figuratively in Albanian)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Tour de France», gara e famshme franceze që zgjat rreth tri javë, i përket cilit sport?",
+    "options": ["Çiklizëm", "Atletikë", "Automobilizëm", "Kalërim"],
+    "correctIndex": 0,
+    "gloss": "The Tour de France, the famous three-week French race, belongs to which sport? — Cycling."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilin qytet ndodhet Koloseu, amfiteatri më i madh që u ndërtua në antikitet?",
+    "options": ["Athinë", "Napoli", "Firence", "Romë"],
+    "correctIndex": 3,
+    "gloss": "Which city is home to the Colosseum, the largest amphitheatre built in antiquity? — Rome."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pica «Margherita» ka ngjyrat e flamurit italian: domatja e kuqe, borziloku i gjelbër dhe një djathë i bardhë. Cili djathë?",
+    "options": ["Parmixhano", "Mocarela", "Gorgonzola", "Rikota"],
+    "correctIndex": 1,
+    "gloss": "Pizza Margherita has the Italian flag's colours: red tomato, green basil and a white cheese. Which cheese? — Mozzarella."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Alfabeti i shqipes ka 36 shkronja, por një nga 26 shkronjat e alfabetit latin nuk e ka fare. Cilën?",
+    "options": ["Y", "Q", "X", "W"],
+    "correctIndex": 3,
+    "gloss": "The Albanian alphabet has 36 letters but lacks one of the 26 Latin letters. Which? — W. A native can check by thinking of words: ylli, qeni, xixëllonja; no native word has W."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Emri i çiftelisë, veglës muzikore të veriut, të tregon vetë sa tela ka. Sa?",
+    "options": ["Një", "Dy", "Tre", "Katër"],
+    "correctIndex": 1,
+    "gloss": "The name of the çifteli, the northern folk instrument, tells you how many strings it has. How many? — Two: «çift» (pair) + «tel» (string)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në cilin qytet lindi më 1910 Anjezë Gonxhe Bojaxhiu, e njohur në mbarë botën si Nënë Tereza?",
+    "options": ["Prizreni", "Gjakova", "Shkupi", "Tetova"],
+    "correctIndex": 2,
+    "gloss": "In which city was Anjezë Gonxhe Bojaxhiu, Mother Teresa, born in 1910? — Skopje (Shkup)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në Ciklin e Kreshnikëve, kush është vëllai i Mujit, me të cilin del bashkë në shumë këngë?",
+    "options": ["Halili", "Gjergj Elez Alia", "Zuku Bajraktar", "Omeri"],
+    "correctIndex": 0,
+    "gloss": "In the Song Cycle of the Frontier Warriors, who is Muji's brother? — Halili. Gjergj Elez Alia has his own ballad; Zuku Bajraktar is a companion; Omeri is Muji's son."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Një merimangë dhe një milingonë ecin në tryezë. Sa këmbë kanë gjithsej?",
+    "options": ["12", "16", "14", "10"],
+    "correctIndex": 2,
+    "gloss": "A spider and an ant walk on a table. How many legs between them? — 14: a spider has 8, an insect 6."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Në majë të një mali të lartë, ku shtypja e ajrit është më e ulët, në ç'temperaturë vlon uji?",
+    "options": ["Nën 100 °C", "Pikërisht në 100 °C", "Mbi 100 °C", "Nuk vlon dot fare"],
+    "correctIndex": 0,
+    "gloss": "On top of a high mountain, where air pressure is lower, at what temperature does water boil? — Below 100 °C: lower pressure lowers the boiling point."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilin qytet italian e vendosi Shekspiri dashurinë e Romeos dhe Zhuljetës?",
+    "options": ["Venecia", "Firence", "Padova", "Verona"],
+    "correctIndex": 3,
+    "gloss": "In which Italian city did Shakespeare set Romeo and Juliet? — Verona."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kush ishte njeriu i parë që fluturoi në hapësirën kozmike, më 1961?",
+    "options": ["Neil Armstrong", "Jurij Gagarin", "German Titov", "Aleksej Leonov"],
+    "correctIndex": 1,
+    "gloss": "Who was the first human in space, in 1961? — Yuri Gagarin. Armstrong is the trap: first on the Moon."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Një poet e ndërtoi pseudonimin nga rrokjet e para të emrit të tij të plotë: Millosh Gjergj Nikolla. Me cilin emër e njohim?",
+    "options": ["Asdreni", "Çajupi", "Migjeni", "Lasgushi"],
+    "correctIndex": 2,
+    "gloss": "A poet built his pen name from the first syllables of his full name, Millosh Gjergj Nikolla. Which? — Migjeni: Mi-Gj-Ni. All options are real pen names."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Fjala shqipe «motër» është e një rrënje me latinishten «mater» dhe anglishten «mother», vetëm se ato kanë kuptim tjetër. Cilin?",
+    "options": ["Nënë", "Vajzë", "Gjyshe", "Teze"],
+    "correctIndex": 0,
+    "gloss": "Albanian «motër» (sister) shares a root with Latin mater and English mother, which mean something else. What? — Mother: the Indo-European word for mother shifted to 'sister' in Albanian."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sa shkronja të alfabetit shqip ka fjala «shqiptar»?",
+    "options": ["8", "6", "7", "9"],
+    "correctIndex": 2,
+    "gloss": "How many letters of the Albanian alphabet are in «shqiptar»? — 7: sh-q-i-p-t-a-r. «Sh» is one letter, so the 8 characters are a trap."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në cilin kongres, më 1908, u miratua alfabeti me shkronja latine që shkruajmë sot?",
+    "options": ["Kongresi i Lushnjës", "Kongresi i Manastirit", "Kongresi i Elbasanit", "Kongresi i Durrësit"],
+    "correctIndex": 1,
+    "gloss": "At which congress, in 1908, was today's Latin-letter alphabet adopted? — The Congress of Monastir (Bitola). Elbasan (1909), Durrës (1918) and Lushnjë (1920) were other congresses."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Në një turne me 16 skuadra, humbësi i çdo ndeshjeje del menjëherë jashtë. Sa ndeshje duhen që të shpallet kampioni?",
+    "options": ["15", "8", "16", "32"],
+    "correctIndex": 0,
+    "gloss": "In a 16-team knockout, how many matches until there is a champion? — 15: each match eliminates exactly one team, and 15 must go."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Në dimër, kur në Tiranë ora shënon 12:00, sa shënon ora në Londër?",
+    "options": ["13:00", "10:00", "12:00", "11:00"],
+    "correctIndex": 3,
+    "gloss": "In winter, when it's 12:00 in Tirana, what time is it in London? — 11:00: Central European Time is UTC+1, London is UTC+0, and it lies west."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cila nga këto këngëtare me prindër shqiptarë ka lindur në Prishtinë?",
+    "options": ["Dua Lipa", "Bebe Rexha", "Rita Ora", "Ava Max"],
+    "correctIndex": 2,
+    "gloss": "Which of these singers with Albanian parents was born in Pristina? — Rita Ora (1990). Dua Lipa was born in London, Bebe Rexha in New York, Ava Max in Virginia."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili gaz përbën gati katër të pestat e ajrit që thithim?",
+    "options": ["Oksigjeni", "Azoti", "Dioksidi i karbonit", "Argoni"],
+    "correctIndex": 1,
+    "gloss": "Which gas makes up nearly four-fifths of the air we breathe? — Nitrogen (about 78%); oxygen is about 21%."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kush e shpiku uebin (World Wide Web) ndërsa punonte në CERN?",
+    "options": ["Tim Berners-Lee", "Vint Cerf", "Bill Gates", "Linus Torvalds"],
+    "correctIndex": 0,
+    "gloss": "Who invented the World Wide Web while working at CERN? — Tim Berners-Lee (1989). Vint Cerf co-designed TCP/IP, the internet underneath, not the web."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Majlinda Kelmendi i solli Kosovës medaljen e parë olimpike, një medalje ari në Rio 2016. Në cilin sport?",
+    "options": ["Mundje", "Taekwondo", "Boks", "Xhudo"],
+    "correctIndex": 3,
+    "gloss": "Majlinda Kelmendi won Kosovo's first Olympic medal, gold at Rio 2016. In which sport? — Judo."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në filmin «Titaniku» (1997), si e siguron Xheku biletën për lundrimin e parë të anijes?",
+    "options": ["Si dhuratë nga Rouzi", "Në një lojë me letra", "Duke u punësuar si marinar", "Në një garë me kuaj"],
+    "correctIndex": 1,
+    "gloss": "In Titanic (1997), how does Jack get his ticket for the maiden voyage? — He wins it in a poker game, just before departure."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Liqeni Titikaka, ndër liqenet e lundrueshëm më të lartë në botë, ndahet mes cilave dy vendeve?",
+    "options": ["Kilit dhe Argjentinës", "Ekuadorit dhe Kolumbisë", "Brazilit dhe Paraguait", "Perusë dhe Bolivisë"],
+    "correctIndex": 3,
+    "gloss": "Lake Titicaca, among the highest navigable lakes in the world, is shared by which two countries? — Peru and Bolivia."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Përkrenarja origjinale e Skënderbeut, me kokën e dhisë mbi ballë, ruhet sot në një muze. Në cilin qytet?",
+    "options": ["Romë", "Vjenë", "Napoli", "Stamboll"],
+    "correctIndex": 1,
+    "gloss": "Skanderbeg's original goat-headed helmet is kept in a museum today. In which city? — Vienna, in the Kunsthistorisches Museum's arms collection; Albania displays copies."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush e shkroi «Mesharin» e vitit 1555, librin më të vjetër të shtypur në shqip që njohim?",
+    "options": ["Pjetër Budi", "Frang Bardhi", "Gjon Buzuku", "Pjetër Bogdani"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the 1555 'Missal', the oldest known printed book in Albanian? — Gjon Buzuku. The others are later 17th-century writers."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melodia e «Himnit të Flamurit», himnit kombëtar shqiptar, është vepër e një kompozitori të shekullit XIX. Ç'kombësi kishte ai?",
+    "options": ["Rumun", "Italian", "Grek", "Bullgar"],
+    "correctIndex": 0,
+    "gloss": "The melody of 'Hymn to the Flag', Albania's anthem, is by a 19th-century composer. What nationality? — Romanian: Ciprian Porumbescu. Asdreni, who wrote the lyrics, lived in Romania."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili piktor ikonash i shekullit XVI la pas një nuancë të kuqe aq të veçantë, sa sot mban emrin e tij?",
+    "options": ["David Selenica", "Kostandin Shpataraku", "Kolë Idromeno", "Onufri"],
+    "correctIndex": 3,
+    "gloss": "Which 16th-century icon painter left a shade of red so distinctive it bears his name? — Onufri ('Onufri red'). Selenica and Shpataraku were 18th-century icon painters, Idromeno 19th–20th."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Leku, monedha shqiptare, e ka emrin nga trajta shqipe e shkurtër e emrit të një sundimtari të famshëm të antikitetit. Cilit?",
+    "options": ["Pirros së Epirit", "Aleksandrit të Madh", "Gentit", "Bardhylit"],
+    "correctIndex": 1,
+    "gloss": "The lek is named after the short Albanian form of a famous ancient ruler's name. Whose? — Alexander the Great: Aleksandër → Lekë ('Leka i Madh'). Genti and Bardhyli have no such short form."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Guri i Rozetës ndihmoi në deshifrimin e hieroglifeve egjiptiane, sepse i njëjti tekst ishte gdhendur aty edhe në një gjuhë që studiuesit e lexonin. Cila ishte ajo?",
+    "options": ["Latinishtja", "Hebraishtja", "Greqishtja e vjetër", "Aramaishtja"],
+    "correctIndex": 2,
+    "gloss": "The Rosetta Stone helped decode hieroglyphs because the same text was also carved in a language scholars could read. Which? — Ancient Greek (the third script is Demotic)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Guido van Rossum e pagëzoi gjuhën e tij të programimit sipas një grupi komik britanik që e adhuronte. Cila është kjo gjuhë?",
+    "options": ["Ruby", "Java", "Perl", "Python"],
+    "correctIndex": 3,
+    "gloss": "Guido van Rossum named his programming language after a British comedy troupe he loved. Which language? — Python, after Monty Python, not the snake."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Cili kryeqytet i huaj është më afër Tiranës në vijë ajrore?",
+    "options": ["Podgorica", "Shkupi", "Prishtina", "Athina"],
+    "correctIndex": 0,
+    "gloss": "Which foreign capital is closest to Tirana as the crow flies? — Podgorica, about 130 km; Skopje is about 155 km, Pristina about 185 km, Athens far more."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nëse Dielli do të shuhej papritur, pas sa kohësh do ta kuptonim këtu në Tokë?",
+    "options": ["Menjëherë", "Pas rreth 8 minutash", "Pas rreth 8 orësh", "Pas rreth 8 ditësh"],
+    "correctIndex": 1,
+    "gloss": "If the Sun suddenly went out, how long before we'd notice on Earth? — About 8 minutes: the last light already on its way takes ~8 min 20 s to arrive."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Oktapodi ka gjak blu dhe më shumë se një zemër. Sa zemra ka gjithsej?",
+    "options": ["Dy", "Katër", "Tre", "Tetë"],
+    "correctIndex": 2,
+    "gloss": "The octopus has blue blood and more than one heart. How many in all? — Three: two pump blood through the gills, one through the body."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Fjala shqipe «mbret» është trashëguar nga një titull latin, i cili me shekuj u tkurr. Nga cili?",
+    "options": ["Rex", "Princeps", "Imperator", "Dominus"],
+    "correctIndex": 2,
+    "gloss": "Albanian «mbret» (king) was inherited from a Latin title that shrank over the centuries. Which? — Imperator: (i)mp(e)r(a)t(or) → mbret. Rex is the tempting meaning-match."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Si quhej anija me të cilën kapiten Ahabi ndiqte balenën e bardhë në romanin «Mobi Dik» të Melvilit?",
+    "options": ["Nautilus", "Pequod", "Hispaniola", "Bounty"],
+    "correctIndex": 1,
+    "gloss": "What was the ship on which Captain Ahab hunted the white whale in Melville's Moby-Dick? — The Pequod. Nautilus is Verne's, Hispaniola is from Treasure Island, Bounty is the mutiny ship."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kush e projektoi piramidën prej xhami që nga viti 1989 shërben si hyrje e Luvrit?",
+    "options": ["Frank Gehry", "Renzo Piano", "Norman Foster", "I. M. Pei"],
+    "correctIndex": 3,
+    "gloss": "Who designed the glass pyramid that has served as the Louvre's entrance since 1989? — I. M. Pei."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në një serial të famshëm italian të vitit 1968, sipas një epopeje të Homerit, Bekim Fehmiu luajti rolin kryesor. Cilin hero?",
+    "options": ["Odiseun", "Akilin", "Hektorin", "Agamemnonin"],
+    "correctIndex": 0,
+    "gloss": "In a famous 1968 Italian TV series based on Homer, Bekim Fehmiu played the lead. Which hero? — Odysseus, in RAI's «L'Odissea»."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili det nuk lag asnjë breg, sepse kufijtë e tij i përcaktojnë vetëm rrymat e oqeanit?",
+    "options": ["Deti Kaspik", "Deti i Marmarasë", "Deti i Barencit", "Deti i Sargasos"],
+    "correctIndex": 3,
+    "gloss": "Which sea touches no coast, because only ocean currents define its edges? — The Sargasso Sea, in the North Atlantic."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili instrument muzikor luhet pa u prekur fare, vetëm duke lëvizur duart në ajër pranë tij?",
+    "options": ["Celesta", "Theremini", "Ondes Martenot", "Harmonika e qelqit"],
+    "correctIndex": 1,
+    "gloss": "Which instrument is played without being touched, only by moving the hands in the air near it? — The theremin. The ondes Martenot, its electronic cousin, is played by keyboard or a ring on a wire."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në vitin 2005, Ismail Kadare u bë fituesi i parë i një çmimi letrar ndërkombëtar të sapokrijuar. Cili ishte ky çmim?",
+    "options": ["Çmimi Nobel", "Çmimi Princi i Asturias", "Çmimi Man Booker International", "Çmimi Neustadt"],
+    "correctIndex": 2,
+    "gloss": "In 2005 Ismail Kadare became the first winner of a newly created international literary prize. Which? — The Man Booker International Prize. He won the Asturias (2009) and Neustadt (2020) prizes later, but neither was new; he never won the Nobel."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush i mblodhi nga goja e malësorëve dhe i hodhi në letër normat e «Kanunit të Lekë Dukagjinit»?",
+    "options": ["Shtjefën Gjeçovi", "Gjergj Fishta", "Faik Konica", "Ndre Mjeda"],
+    "correctIndex": 0,
+    "gloss": "Who collected from the highlanders and wrote down the 'Kanun of Lekë Dukagjini'? — Shtjefën Gjeçovi; his collection was published in 1933, after his death."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sa kromozome ka një qelizë veze e njeriut?",
+    "options": ["46", "22", "92", "23"],
+    "correctIndex": 3,
+    "gloss": "How many chromosomes in a human egg cell? — 23: body cells have 46 and a sex cell carries half, so fertilisation restores 46."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Në cilën temperaturë termometri Celsius dhe ai Fahrenheit tregojnë të njëjtin numër?",
+    "options": ["0°", "−32°", "−40°", "32°"],
+    "correctIndex": 2,
+    "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40°: solve F = 9/5·C + 32 with F = C."
+  }
+]

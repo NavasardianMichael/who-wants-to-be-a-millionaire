@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Patarlė sako: „Ne tas draugas, kuris medum tepa, bet tas, kuris…“ Kaip ji baigiasi?",
+    "options": ["…duonos duoda", "…teisybę sako", "…kelią rodo", "…paslaptį saugo"],
+    "correctIndex": 1,
+    "gloss": "The proverb: 'Not he is a friend who spreads honey, but he who…' — '…tells the truth' (Ne tas draugas, kuris medum tepa, bet tas, kuris teisybę sako)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurios šventės naktį, pasak tradicijos, miške ieškoma žydinčio paparčio?",
+    "options": ["Joninių", "Užgavėnių", "Vėlinių", "Kūčių"],
+    "correctIndex": 0,
+    "gloss": "On the night of which holiday does tradition send people into the forest to look for the blooming fern? — Joninės (Midsummer, Rasos), the night of 23–24 June."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Katės jauniklis — kačiukas, šuns — šuniukas. O kaip vadinamas žąsies jauniklis?",
+    "options": ["Žąsinas", "Ančiukas", "Gaidžiukas", "Žąsiukas"],
+    "correctIndex": 3,
+    "gloss": "A cat's young is kačiukas, a dog's šuniukas. What is a goose's young called? — Žąsiukas, by the same -iukas pattern. Žąsinas (gander) is the trap: an adult male goose."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuri upė, ištekėjusi Baltarusijoje, teka pro Kauną ir įsilieja į Kuršių marias?",
+    "options": ["Neris", "Šventoji", "Nemunas", "Dubysa"],
+    "correctIndex": 2,
+    "gloss": "Which river rises in Belarus, flows past Kaunas and into the Curonian Lagoon? — The Nemunas. The Neris also rises in Belarus and reaches Kaunas, but it ends there, flowing into the Nemunas."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ką žali augalų lapai, gaudydami saulės šviesą, išskiria į orą?",
+    "options": ["Azotą", "Anglies dvideginį", "Vandenilį", "Deguonį"],
+    "correctIndex": 3,
+    "gloss": "What do green leaves release into the air while catching sunlight? — Oxygen (photosynthesis); carbon dioxide is what they take in."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Futbolo aikštėje kiekviena komanda turi po vienuolika žaidėjų. O kiek žaidėjų iš viso vienu metu žaidžia krepšinio aikštėje?",
+    "options": ["5", "10", "12", "22"],
+    "correctIndex": 1,
+    "gloss": "In football each team fields eleven. How many players in total are on a basketball court at once? — 10: five per team. 5 is the trap for reading 'per team', 22 for football."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaip vadinami dideli tarkuotų bulvių kukuliai su mėsos įdaru, vardą gavę dėl panašumo į dirižablius?",
+    "options": ["Cepelinai", "Kugelis", "Vėdarai", "Žemaičių blynai"],
+    "correctIndex": 0,
+    "gloss": "What are the big grated-potato dumplings with a meat filling, named for looking like airships? — Cepelinai, after the Zeppelin."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gyvena jūroje ir plaukia kaip žuvis, bet kvėpuoja plaučiais ir maitina jauniklius pienu. Kas tai?",
+    "options": ["Ryklys", "Delfinas", "Tunas", "Eršketas"],
+    "correctIndex": 1,
+    "gloss": "Lives in the sea and swims like a fish, but breathes with lungs and feeds its young milk. What is it? — The dolphin, a mammal; the other three are fish."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Trys bandelės kainuoja tiek pat, kiek vienas pyragas, o pyragas kainuoja 1,50 €. Kiek kainuos dvi bandelės?",
+    "options": ["1,50 €", "3,00 €", "0,50 €", "1,00 €"],
+    "correctIndex": 3,
+    "gloss": "Three buns cost as much as one pie, and the pie costs €1.50. How much do two buns cost? — €1.00: one bun is €0.50. €0.50 is the trap for stopping one step early."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kompaso neturite, bet žinote, kad stovite veidu tiesiai į rytus. Kurioje pusėje nuo jūsų yra šiaurė?",
+    "options": ["Priekyje", "Už nugaros", "Kairėje", "Dešinėje"],
+    "correctIndex": 2,
+    "gloss": "No compass, but you know you are facing due east. Where is north? — On your left (south on the right, west behind)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Keli lietuviški mėnesiai pavadinti paukščių vardais. Kuris iš šių mėnesių vardą gavo ne iš paukščio?",
+    "options": ["Kovas", "Balandis", "Liepa", "Gegužė"],
+    "correctIndex": 2,
+    "gloss": "Several Lithuanian months are named after birds. Which of these is not? — Liepa (July), named after the linden tree. Kovas = rook, balandis = pigeon, gegužė = an old word for the cuckoo (gegutė)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pasak legendos, sapne išgirdęs ant kalno staugiantį geležinį vilką, kunigaikštis ten įkūrė Vilnių. Kas jis?",
+    "options": ["Gediminas", "Mindaugas", "Vytautas", "Kęstutis"],
+    "correctIndex": 0,
+    "gloss": "In the legend, a grand duke dreamt of an iron wolf howling on a hill and founded Vilnius there. Who? — Gediminas. Only the legend is claimed, not the founding as history."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Pavasario linksmybės“, „Vasaros darbai“, „Rudens gėrybės“ ir „Žiemos rūpesčiai“ — keturios vienos poemos dalys. Kas ją parašė?",
+    "options": ["Antanas Baranauskas", "Kristijonas Donelaitis", "Maironis", "Antanas Strazdas"],
+    "correctIndex": 1,
+    "gloss": "'Spring Joys', 'Summer Toils', 'Autumn Bounties' and 'Winter Cares' are the four parts of one poem. Who wrote it? — Kristijonas Donelaitis: 'Metai' (The Seasons). Baranauskas is the trap: another long nature poem, 'Anykščių šilelis'."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gitara paprastai turi šešias stygas. O kiek jų turi smuikas?",
+    "options": ["Tris", "Penkias", "Septynias", "Keturias"],
+    "correctIndex": 3,
+    "gloss": "A guitar usually has six strings. How many does a violin have? — Four (G, D, A, E)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Telefonų gamintoja „Nokia“ vardą gavo iš to paties pavadinimo miesto. Kurioje šalyje jis yra?",
+    "options": ["Švedijoje", "Norvegijoje", "Suomijoje", "Danijoje"],
+    "correctIndex": 2,
+    "gloss": "Phone maker Nokia is named after a town of the same name. In which country is it? — Finland (Nokia, near Tampere, where the company's mill stood)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kas pirmajame „Šreko“ filme tampa nesiliaujančiu plepėti žaliojo ogro palydovu?",
+    "options": ["Asilas", "Katinas", "Arklys", "Vilkas"],
+    "correctIndex": 0,
+    "gloss": "In the first Shrek film, who becomes the green ogre's endlessly chattering companion? — Donkey. Puss in Boots (Katinas) only joins in Shrek 2."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Užgavėnių vaidinime žiemą įkūnija apkūnus Lašininis. Kas jį nugali ir taip išveja žiemą?",
+    "options": ["Morė", "Kanapinis", "Ragana", "Giltinė"],
+    "correctIndex": 1,
+    "gloss": "In the Shrovetide play, plump Lašininis (Mr Bacon) stands for winter. Who defeats him and drives winter out? — Kanapinis (Mr Hemp). Morė is the straw effigy that gets burned."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kurio daikto pavadinimas lietuvių kalboje neturi vienaskaitos — net tada, kai tas daiktas yra vienas?",
+    "options": ["Langai", "Sienos", "Durys", "Stalai"],
+    "correctIndex": 2,
+    "gloss": "Which object's name has no singular in Lithuanian, even when there is only one? — Durys (door): 'vienos durys'. Langas, siena and stalas all exist in the singular."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kai Vilniuje lygiai vidurdienis, kiek valandų tuo metu rodo laikrodžiai Londone?",
+    "options": ["10 val.", "11 val.", "13 val.", "14 val."],
+    "correctIndex": 0,
+    "gloss": "When it is noon in Vilnius, what time is it in London? — 10:00. Lithuania is two hours ahead of the UK all year, as both switch to summer time on the same dates."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1889 m., gydydamasis psichiatrijos ligoninėje Pietų Prancūzijoje, šis dailininkas nutapė „Žvaigždėtą naktį“. Kas jis?",
+    "options": ["Polis Gogenas", "Klodas Monė", "Polis Sezanas", "Vincentas van Gogas"],
+    "correctIndex": 3,
+    "gloss": "In 1889, while in an asylum in the south of France, this painter painted 'The Starry Night'. Who? — Vincent van Gogh, at Saint-Rémy-de-Provence."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Aukštai kalnuose oro slėgis daug mažesnis nei prie jūros. Kaip ten verda vanduo?",
+    "options": ["Užverda aukštesnėje nei 100 °C temperatūroje", "Užverda žemesnėje nei 100 °C temperatūroje", "Užverda lygiai 100 °C, tik greičiau", "Užverda lygiai 100 °C, tik lėčiau"],
+    "correctIndex": 1,
+    "gloss": "High in the mountains air pressure is much lower than at sea level. How does water boil there? — Below 100 °C: lower pressure lowers the boiling point (about 70 °C on Everest)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lietuvių abėcėlėje raidė y stovi visai ne ten, kur angliškoje. Tarp kurių raidžių?",
+    "options": ["Tarp v ir z", "Tarp i ir į", "Tarp į ir j", "Tarp ū ir v"],
+    "correctIndex": 2,
+    "gloss": "In the Lithuanian alphabet, y is not where it is in English. Between which letters? — Between į and j (… i, į, y, j …), as the long i sound."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Liepos 6-ąją Lietuva švenčia Valstybės dieną. Kokį įvykį ji primena?",
+    "options": ["Lietuvos vardo paminėjimą", "Lietuvos krikštą", "Vilniaus universiteto įkūrimą", "Mindaugo karūnavimą"],
+    "correctIndex": 3,
+    "gloss": "On 6 July Lithuania celebrates Statehood Day. What does it commemorate? — The coronation of Mindaugas (1253), the only crowned king of Lithuania."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kurią sostinę nuo pusiaujo skiria mažiausias atstumas?",
+    "options": ["Kairas", "Nairobis", "Akra", "Adis Abeba"],
+    "correctIndex": 1,
+    "gloss": "Which capital is closest to the equator? — Nairobi (about 1° S). Accra is about 5.6° N, Addis Ababa 9° N, Cairo 30° N."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vabzdžiai turi šešias kojas. Kuris iš šių smulkių gyvių vabzdžiu nėra?",
+    "options": ["Erkė", "Uodas", "Amaras", "Blusa"],
+    "correctIndex": 0,
+    "gloss": "Insects have six legs. Which of these small creatures is not an insect? — The tick: an arachnid with eight legs, like spiders. Mosquito, aphid and flea are insects."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Virgilijus Alekna olimpiniu čempionu tapo dukart — Sidnėjuje ir Atėnuose. Kokia jo rungtis?",
+    "options": ["Rutulio stūmimas", "Ieties metimas", "Kūjo metimas", "Disko metimas"],
+    "correctIndex": 3,
+    "gloss": "Virgilijus Alekna became Olympic champion twice, in Sydney and Athens. What was his event? — Discus throw (2000 and 2004)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Klasikinio Genujos pesto padažo sudėtis — bazilikas, česnakas, alyvuogių aliejus, kietas sūris ir riešutai. Kokie?",
+    "options": ["Pinijų riešutai", "Graikiniai riešutai", "Lazdyno riešutai", "Migdolai"],
+    "correctIndex": 0,
+    "gloss": "Classic Genoese pesto is basil, garlic, olive oil, hard cheese and nuts. Which nuts? — Pine nuts."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuriame mieste veikia Nacionalinis M. K. Čiurlionio dailės muziejus, saugantis daugumą jo paveikslų?",
+    "options": ["Vilniuje", "Druskininkuose", "Kaune", "Varėnoje"],
+    "correctIndex": 2,
+    "gloss": "Which city has the M. K. Čiurlionis National Museum of Art, holding most of his paintings? — Kaunas. Druskininkai has his memorial museum (childhood home); Varėna is his birthplace."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dvejetainėje sistemoje, kuria skaičiuoja kompiuteriai, yra tik nuliai ir vienetai. Kokį skaičių joje reiškia užrašas 1000?",
+    "options": ["4", "8", "10", "16"],
+    "correctIndex": 1,
+    "gloss": "In binary, the system computers count in, there are only 0s and 1s. What number does 1000 stand for? — 8: the places are 1, 2, 4, 8."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kryžių čia tiek, kad niekas jų nesuskaičiuoja, o 1993 m. šią vietą aplankė popiežius Jonas Paulius II. Netoli kurio miesto yra Kryžių kalnas?",
+    "options": ["Telšių", "Panevėžio", "Kelmės", "Šiaulių"],
+    "correctIndex": 3,
+    "gloss": "There are too many crosses to count, and Pope John Paul II visited in 1993. Near which town is the Hill of Crosses? — Šiauliai (about 12 km north of it)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Skaitvardžių nuo 11 iki 19 dalis „-lika“ kilusi iš veiksmažodžio „likti“: vienuolika — tai „vienas liko“ suskaičiavus dešimt. Kurios kalbos „vienuolika“ kilusi iš tos pačios idėjos?",
+    "options": ["Prancūzų „onze“", "Lotynų „undecim“", "Anglų „eleven“", "Ispanų „once“"],
+    "correctIndex": 2,
+    "gloss": "Lithuanian -lika in 11–19 comes from likti 'to remain': vienuolika = 'one left over' after ten. Which language's 'eleven' has the same idea? — English eleven, from Germanic *ain-lif 'one left'. Latin undecim (and onze, once from it) is simply 'one-ten'."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lotyniškai jis vadinamas stannum, todėl jo cheminis simbolis — Sn. Koks tai elementas?",
+    "options": ["Alavas", "Švinas", "Stibis", "Stroncis"],
+    "correctIndex": 0,
+    "gloss": "In Latin it is stannum, hence its symbol Sn. Which element is it? — Tin (alavas). Lead is Pb, antimony Sb, strontium Sr."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Skersai šiaurinės Britanijos romėnai pastatė beveik 120 km ilgio sieną, kuri iki šiol vadinama imperatoriaus vardu. Kurio?",
+    "options": ["Klaudijaus", "Trajano", "Augusto", "Hadriano"],
+    "correctIndex": 3,
+    "gloss": "Across northern Britain the Romans built a wall almost 120 km long, still named after an emperor. Which? — Hadrian (Hadrian's Wall, about 117 km). Claudius is the trap: he began the conquest of Britain."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaip vadinama aukščiausia Lietuvos kalva, iškilusi beveik 294 m virš jūros lygio?",
+    "options": ["Juozapinės kalnas", "Aukštojas", "Medvėgalis", "Rambynas"],
+    "correctIndex": 1,
+    "gloss": "What is Lithuania's highest hill, almost 294 m above sea level? — Aukštojas (293.84 m). Juozapinė was long taught as the highest, until measurements in the 2000s."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kuri iš šių knygų skaitytojus pasiekė anksčiausiai?",
+    "options": ["„Robinzonas Kruzas“", "„Guliverio kelionės“", "„Don Kichotas“", "„Frankenšteinas“"],
+    "correctIndex": 2,
+    "gloss": "Which of these books came out first? — Don Quixote (1605). Robinson Crusoe 1719, Gulliver's Travels 1726, Frankenstein 1818."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pirmoji lietuviška opera „Birutė“ pirmą kartą suvaidinta Vilniuje 1906 m. Kas sukūrė jos muziką?",
+    "options": ["Mikas Petrauskas", "Stasys Šimkus", "Juozas Naujalis", "Česlovas Sasnauskas"],
+    "correctIndex": 0,
+    "gloss": "The first Lithuanian opera, 'Birutė', premiered in Vilnius in 1906. Who wrote the music? — Mikas Petrauskas (libretto by Gabrielius Landsbergis-Žemkalnis)."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Trys iš šių gėrimų pavadinti vietovių, kuriose jie gaminami, vardais. Kuris — ne?",
+    "options": ["Šampanas", "Viskis", "Konjakas", "Portveinas"],
+    "correctIndex": 1,
+    "gloss": "Three of these drinks are named after the places they come from. Which is not? — Whisky, from Gaelic uisge beatha 'water of life'. Champagne (region), Cognac (town), port (Porto)."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Žaislų bendrovės LEGO pavadinimas sudarytas iš dviejų danų žodžių „leg godt“. Ką jie reiškia?",
+    "options": ["Statyk greitai", "Mažos plytos", "Žaisk gerai", "Vaiko džiaugsmas"],
+    "correctIndex": 2,
+    "gloss": "The toy company LEGO takes its name from two Danish words, 'leg godt'. What do they mean? — 'Play well'."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaip vadinamos senovinės lietuvių daugiabalsės dainos, 2010 m. įrašytos į UNESCO nematerialaus kultūros paveldo sąrašą?",
+    "options": ["Raudos", "Giesmės", "Romansai", "Sutartinės"],
+    "correctIndex": 3,
+    "gloss": "What are the old Lithuanian polyphonic songs inscribed on UNESCO's intangible heritage list in 2010? — Sutartinės."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Pirminis skaičius dalijasi tik iš vieneto ir iš savęs paties. Kuris iš šių skaičių pirminis?",
+    "options": ["51", "57", "87", "97"],
+    "correctIndex": 3,
+    "gloss": "A prime divides only by 1 and itself. Which of these is prime? — 97. The others look prime but divide by 3: 51 = 3·17, 57 = 3·19, 87 = 3·29 (digit sums 6, 12, 15)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kas parašė pirmąją spausdintą lietuvių kalbos gramatiką — 1653 m. Karaliaučiuje išleistą „Grammatica Litvanica“?",
+    "options": ["Konstantinas Sirvydas", "Danielius Kleinas", "Mikalojus Daukša", "Jonas Jablonskis"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the first printed grammar of Lithuanian, 'Grammatica Litvanica', Königsberg 1653? — Daniel Klein. Sirvydas wrote the first dictionary, Daukša the Postil (1599), Jablonskis standardised the modern language."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1579 m. Vilniaus jėzuitų kolegija tapo universitetu. Kuris valdovas suteikė jai universiteto teises?",
+    "options": ["Žygimantas Augustas", "Jogaila", "Steponas Batoras", "Vladislovas Vaza"],
+    "correctIndex": 2,
+    "gloss": "In 1579 the Jesuit college of Vilnius became a university. Which ruler granted it university rights? — Stephen Báthory. Sigismund Augustus, the trap, brought the Jesuits to Vilnius but died in 1572."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pagal šiuolaikinius genetinius tyrimus, kuris gyvūnas yra artimiausias gyvas banginių giminaitis?",
+    "options": ["Hipopotamas", "Ruonis", "Lamantinas", "Dramblys"],
+    "correctIndex": 0,
+    "gloss": "According to modern genetic studies, which animal is the whales' closest living relative? — The hippopotamus (both are cetartiodactyls). Seals are carnivorans; manatees are related to elephants."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nulinis Grinvičo dienovidinis eina per Londoną. Kuri iš šių sostinių yra į vakarus nuo jo?",
+    "options": ["Paryžius", "Briuselis", "Amsterdamas", "Madridas"],
+    "correctIndex": 3,
+    "gloss": "The Greenwich meridian runs through London. Which of these capitals lies west of it? — Madrid (about 3.7° W). Paris (2.3° E), Brussels (4.4° E) and Amsterdam (4.9° E) are all east."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Antanas Baranauskas, poemos „Anykščių šilelis“ autorius, vėliau tapo…",
+    "options": ["Žemaičių vyskupu", "Seinų vyskupu", "Vilniaus vyskupu", "Mogiliovo arkivyskupu"],
+    "correctIndex": 1,
+    "gloss": "Antanas Baranauskas, author of 'The Forest of Anykščiai', later became… — Bishop of Sejny (Seinai), from 1897. Bishop of Samogitia is the trap: that was Motiejus Valančius."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kas suprojektavo titanu dengtą Gugenheimo muziejų Bilbao mieste?",
+    "options": ["Frankas Gehry", "Renzo Piano", "Zaha Hadid", "Normanas Fosteris"],
+    "correctIndex": 0,
+    "gloss": "Who designed the titanium-clad Guggenheim Museum in Bilbao? — Frank Gehry (opened 1997)."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kurių metų skaičių romėniškais skaitmenimis tenka užrašyti daugiausia ženklų?",
+    "options": ["1999", "1777", "1888", "1666"],
+    "correctIndex": 2,
+    "gloss": "Which year takes the most symbols in Roman numerals? — 1888: MDCCCLXXXVIII (13). 1777 = MDCCLXXVII (10), 1999 = MCMXCIX (7), 1666 = MDCLXVI (7). 1999 is the autopilot trap."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pirmąjį Europos krepšinio čempionų vardą Lietuva iškovojo 1937 m. Kuriame mieste vyko tas čempionatas?",
+    "options": ["Rygoje", "Kaune", "Ženevoje", "Taline"],
+    "correctIndex": 0,
+    "gloss": "Lithuania won its first European basketball title in 1937. Where was that championship held? — Riga. Kaunas hosted the next one, in 1939, which Lithuania also won; Geneva hosted 1935."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kuris filmas pirmasis pelnė net 11 „Oskarų“?",
+    "options": ["„Titanikas“", "„Vėjo nublokšti“", "„Ben Huras“", "„Žiedų valdovas. Karaliaus sugrįžimas“"],
+    "correctIndex": 2,
+    "gloss": "Which film was the first to win 11 Oscars? — Ben-Hur (1959). Titanic (1997) and The Return of the King (2003) later equalled it; Gone with the Wind won eight."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kokiai temperatūrai esant Celsijaus ir Farenheito termometrai rodo tą patį skaičių?",
+    "options": ["0°", "−32°", "−273°", "−40°"],
+    "correctIndex": 3,
+    "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40°: F = 1.8·C + 32, and C = 1.8·C + 32 gives C = −40."
+  }
+]

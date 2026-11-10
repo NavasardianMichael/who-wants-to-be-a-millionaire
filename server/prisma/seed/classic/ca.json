@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segons el refrany, a l'abril, cada gota val per…",
+    "options": ["Cent", "Mil", "Deu", "Dos-cents"],
+    "correctIndex": 1,
+    "gloss": "According to the proverb, in April every drop is worth... what? — A thousand: «A l'abril, cada gota val per mil»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin objecte s'acostuma a regalar, juntament amb una rosa, el dia de Sant Jordi?",
+    "options": ["Un llibre", "Un rellotge", "Una bufanda", "Un paraigua"],
+    "correctIndex": 0,
+    "gloss": "Which object is traditionally given with a rose on Saint George's Day? — A book (23 April, Diada de Sant Jordi, also the book day)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quants mesos de l'any tenen almenys 28 dies?",
+    "options": ["Només un", "Dos", "Sis", "Tots"],
+    "correctIndex": 3,
+    "gloss": "How many months of the year have at least 28 days? — All twelve: February has 28 and every other month has more. The trap is answering 'only February'."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Les aranyes no són insectes. Quantes potes tenen?",
+    "options": ["Sis", "Deu", "Vuit", "Dotze"],
+    "correctIndex": 2,
+    "gloss": "Spiders are not insects. How many legs do they have? — Eight (insects have six, which is the tempting option)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Per a una coca gran calen dues dotzenes i mitja d'ous. Quants ous són?",
+    "options": ["30", "25", "28", "36"],
+    "correctIndex": 0,
+    "gloss": "A big cake needs two dozen and a half dozen eggs. How many eggs? — 30: two dozen is 24, plus half a dozen (6)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin ball tradicional català es balla en rotllana, agafats de les mans, al so d'una cobla?",
+    "options": ["Sirtaki", "Tarantel·la", "Sardana", "Flamenc"],
+    "correctIndex": 2,
+    "gloss": "Which traditional Catalan dance is danced in a circle, hand in hand, to a cobla band? — The sardana. The others are circle or folk dances from Greece, Italy and Andalusia."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin és l'únic estat del món on el català és l'única llengua oficial?",
+    "options": ["Mònaco", "Andorra", "Malta", "Luxemburg"],
+    "correctIndex": 1,
+    "gloss": "Which is the only state in the world where Catalan is the sole official language? — Andorra. Monaco, Malta and Luxembourg are small European states with other official languages."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un dia assolellat, quan és més curta l'ombra que fa un arbre?",
+    "options": ["A trenc d'alba", "A mitja tarda", "Al capvespre", "Cap al migdia"],
+    "correctIndex": 3,
+    "gloss": "On a sunny day, when is a tree's shadow shortest? — Around midday, when the Sun is highest in the sky."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin cavaller de la novel·la de Cervantes confon els molins de vent amb gegants i els ataca?",
+    "options": ["Sancho Pança", "Tirant lo Blanc", "Amadís de Gaula", "Don Quixot"],
+    "correctIndex": 3,
+    "gloss": "Which knight in Cervantes' novel mistakes windmills for giants and attacks them? — Don Quixote. Sancho is his squire; Tirant and Amadís are other chivalric heroes."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin riu travessa París i envolta l'illa de la Cité, on s'alça Notre-Dame?",
+    "options": ["Sena", "Loira", "Roine", "Garona"],
+    "correctIndex": 0,
+    "gloss": "Which river crosses Paris and surrounds the Île de la Cité, home of Notre-Dame? — The Seine. The others are other major French rivers."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "El nom del mes de setembre ve del llatí «septem», que vol dir «set». Quin lloc ocupa, doncs, aquest mes a l'any actualment?",
+    "options": ["Setè", "Vuitè", "Desè", "Novè"],
+    "correctIndex": 3,
+    "gloss": "September comes from Latin 'septem' (seven). Which place does it hold in the year today? — Ninth: the Roman year began in March, then January and February were put at the start, so the numbered months shifted by two."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin llegum és la base de l'hummus?",
+    "options": ["Cigró", "Llentia", "Mongeta", "Pèsol"],
+    "correctIndex": 0,
+    "gloss": "Which legume is the base of hummus? — The chickpea (cigró), blended with tahini, lemon and garlic."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Un nadó neix amb prop de tres-cents ossos, que es van soldant amb els anys. Quants ossos té una persona adulta?",
+    "options": ["120", "160", "206", "320"],
+    "correctIndex": 2,
+    "gloss": "A baby is born with nearly 300 bones that fuse over the years. How many does an adult have? — 206."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quina civilització va bastir la ciutadella de Machu Picchu, als Andes?",
+    "options": ["Els asteques", "Els inques", "Els maies", "Els olmeques"],
+    "correctIndex": 1,
+    "gloss": "Which civilisation built the citadel of Machu Picchu in the Andes? — The Incas (15th century). Aztecs, Maya and Olmecs were Mesoamerican peoples."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En quina ciutat de l'Empordà hi ha el Teatre-Museu Dalí?",
+    "options": ["Girona", "Cadaqués", "Roses", "Figueres"],
+    "correctIndex": 3,
+    "gloss": "In which Empordà town is the Dalí Theatre-Museum? — Figueres, Dalí's birthplace. Cadaqués (where he lived in Portlligat) is the tempting wrong option."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Rentaplats» es forma amb un verb (renta) i un nom en plural (plats). Quina d'aquestes paraules es forma de la mateixa manera?",
+    "options": ["Portamonedes", "Aiguamoll", "Mitjanit", "Campanar"],
+    "correctIndex": 0,
+    "gloss": "'Rentaplats' is verb + plural noun. Which of these is built the same way? — 'Portamonedes' (porta + monedes). Aiguamoll is noun + adjective, mitjanit is adjective + noun, campanar is noun + suffix."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quin nombre continua la sèrie 2, 3, 5, 8, 12…?",
+    "options": ["15", "16", "17", "18"],
+    "correctIndex": 2,
+    "gloss": "Which number continues 2, 3, 5, 8, 12…? — 17: the gaps grow by one each time (+1, +2, +3, +4, +5)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En un castell humà, quin casteller corona la construcció i aixeca la mà fent l'«aleta»?",
+    "options": ["Acotxador", "Enxaneta", "Dosos", "Vent"],
+    "correctIndex": 1,
+    "gloss": "In a human tower, who tops the structure and raises a hand in the 'aleta'? — The enxaneta, the child who climbs last. The others are other roles in the tower."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin d'aquests mamífers és l'únic capaç de volar activament, batent les ales?",
+    "options": ["Esquirol volador", "Ornitorinc", "Ós rentador", "Ratpenat"],
+    "correctIndex": 3,
+    "gloss": "Which of these mammals is the only one capable of true flight? — The bat. Flying squirrels only glide."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En quin torneig del Grand Slam ha guanyat més títols el mallorquí Rafael Nadal?",
+    "options": ["Wimbledon", "Obert d'Austràlia", "Roland Garros", "Obert dels Estats Units"],
+    "correctIndex": 2,
+    "gloss": "In which Grand Slam has Rafael Nadal, from Mallorca, won the most titles? — Roland Garros (14)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin és el punt més alt de Catalunya, a la frontera amb França?",
+    "options": ["Aneto", "Puigmal", "Pica d'Estats", "Comaloforno"],
+    "correctIndex": 2,
+    "gloss": "What is the highest point of Catalonia, on the French border? — Pica d'Estats (3,143 m). Aneto is the highest of the Pyrenees but lies in Aragon."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quina escriptora és l'autora de «La plaça del Diamant», novel·la ambientada al barri de Gràcia?",
+    "options": ["Mercè Rodoreda", "Aurora Bertrana", "Montserrat Roig", "Maria Aurèlia Capmany"],
+    "correctIndex": 0,
+    "gloss": "Which writer wrote 'La plaça del Diamant', set in Barcelona's Gràcia district? — Mercè Rodoreda (1962). The others are other well-known Catalan women writers."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un got ple d'aigua fins a la vora conté un glaçó que hi flota. Què passarà quan el glaçó es fongui del tot?",
+    "options": ["Vessarà una mica d'aigua", "No vessarà aigua", "El nivell baixarà", "Depèn de la mida del glaçó"],
+    "correctIndex": 1,
+    "gloss": "A glass is filled to the brim with a floating ice cube. What happens when it melts? — Nothing spills: a floating cube displaces exactly its own weight of water, and melting turns it into just that volume."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Si ordenem alfabèticament els noms dels nombres de l'u al vint, escrits en català, quin d'aquests va primer?",
+    "options": ["Quatre", "Cinc", "Dinou", "Catorze"],
+    "correctIndex": 3,
+    "gloss": "Ordering the Catalan number words from one to twenty alphabetically, which comes first? — 'Catorze' (14): 'ca' comes before 'ci' (cinc), 'de', 'di', 'qu' and so on."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un llibre i un punt de llibre costen 11 € en total. El llibre costa 10 € més que el punt de llibre. Quant costa el punt de llibre?",
+    "options": ["0,10 €", "0,25 €", "0,50 €", "1 €"],
+    "correctIndex": 2,
+    "gloss": "A book and a bookmark cost 11 € together; the book costs 10 € more than the bookmark. Price of the bookmark? — 0.50 € (0.50 + 10.50 = 11). The trap is 1 €, from simply subtracting 10 from 11."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A quin segle pertany l'any 1900?",
+    "options": ["Al segle XVIII", "Al segle XIX", "Al segle XX", "Al segle XXI"],
+    "correctIndex": 1,
+    "gloss": "Which century does the year 1900 belong to? — The 19th: centuries run from year 1 to 100, so the 19th century is 1801–1900 and the 20th starts in 1901."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "El primer ferrocarril de la península Ibèrica, inaugurat el 1848, unia Barcelona amb quina ciutat?",
+    "options": ["Mataró", "Granollers", "Martorell", "Vilanova i la Geltrú"],
+    "correctIndex": 0,
+    "gloss": "The first railway of the Iberian Peninsula, opened in 1848, linked Barcelona to which city? — Mataró."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "El mes de gener deu el nom a un déu romà amb dues cares, una mirant enrere i l'altra endavant. Quin?",
+    "options": ["Saturn", "Mart", "Mercuri", "Janus"],
+    "correctIndex": 3,
+    "gloss": "January is named after a Roman god with two faces, looking back and forward. Which? — Janus, god of doors and beginnings (Latin Ianuarius)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin director japonès va rodar «Els set samurais»?",
+    "options": ["Hayao Miyazaki", "Yasujirō Ozu", "Akira Kurosawa", "Takeshi Kitano"],
+    "correctIndex": 2,
+    "gloss": "Which Japanese director made 'Seven Samurai' (1954)? — Akira Kurosawa. Miyazaki is an animation director, Ozu and Kitano are other well-known Japanese filmmakers."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quina d'aquestes ciutats queda més al sud, és a dir, té la latitud més baixa?",
+    "options": ["Barcelona", "Nova York", "Roma", "Bucarest"],
+    "correctIndex": 1,
+    "gloss": "Which of these cities lies furthest south? — New York (40.7° N), south of Barcelona (41.4°), Rome (41.9°) and Bucharest (44.4°). Most people assume the Mediterranean cities are further south."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin arquitecte va projectar tant el Palau de la Música Catalana com l'Hospital de Sant Pau, tots dos Patrimoni Mundial?",
+    "options": ["Antoni Gaudí", "Josep Puig i Cadafalch", "Lluís Domènech i Montaner", "Josep Lluís Sert"],
+    "correctIndex": 2,
+    "gloss": "Which architect designed both the Palau de la Música Catalana and the Hospital de Sant Pau, both World Heritage sites? — Lluís Domènech i Montaner. Gaudí is the tempting wrong option."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "En quin mes de l'any passa la Terra més a prop del Sol?",
+    "options": ["Gener", "Abril", "Juliol", "Octubre"],
+    "correctIndex": 0,
+    "gloss": "In which month is the Earth closest to the Sun? — January (perihelion around 3 January). Seasons come from the tilt of the axis, not from distance, so July (the hot month in the north) is the trap."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cleòpatra va viure, en el temps, més a prop de l'arribada de l'ésser humà a la Lluna que de…",
+    "options": ["la mort d'Alexandre el Gran", "la construcció del Partenó", "els primers Jocs Olímpics de l'antiguitat", "la construcció de la Gran Piràmide de Giza"],
+    "correctIndex": 3,
+    "gloss": "Cleopatra lived closer in time to the Moon landing than to... — the building of the Great Pyramid (c. 2560 BC, about 2,500 years before her; the Moon landing is about 2,000 years after her). The other three events are all within about 750 years of her."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin d'aquests països no té sortida al mar?",
+    "options": ["Eslovènia", "Hongria", "Croàcia", "Bulgària"],
+    "correctIndex": 1,
+    "gloss": "Which of these countries is landlocked? — Hungary. Slovenia has a short Adriatic coast, Croatia the Adriatic, Bulgaria the Black Sea."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qui s'amagava darrere el pseudònim de Víctor Català, autora de la novel·la «Solitud»?",
+    "options": ["Caterina Albert", "Dolors Monserdà", "Clementina Arderiu", "Maria Antònia Salvà"],
+    "correctIndex": 0,
+    "gloss": "Who hid behind the pen name Víctor Català, author of 'Solitud' (1905)? — Caterina Albert, from L'Escala. The others are Catalan women writers of the same period."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Escala i corda, galotxa i raspall són modalitats d'un esport tradicional valencià. Quin?",
+    "options": ["Bitlles", "Tir amb arc", "Petanca", "Pilota valenciana"],
+    "correctIndex": 3,
+    "gloss": "Escala i corda, galotxa and raspall are variants of which traditional Valencian sport? — Pilota valenciana (Valencian ball game)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quants valors diferents pot guardar un únic byte?",
+    "options": ["128", "256", "512", "1.024"],
+    "correctIndex": 1,
+    "gloss": "How many different values can one byte hold? — 256: a byte is 8 bits and each bit has two states, 2^8 = 256."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin dels espais naturals següents és l'únic parc nacional de Catalunya?",
+    "options": ["Montseny", "Cap de Creus", "Aigüestortes i Estany de Sant Maurici", "Delta de l'Ebre"],
+    "correctIndex": 2,
+    "gloss": "Which of these natural areas is the only national park in Catalonia? — Aigüestortes i Estany de Sant Maurici. Montseny, Cap de Creus and the Ebre Delta are natural parks."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin pintor neerlandès va fer «La ronda de nit», l'obra més famosa del Rijksmuseum d'Amsterdam?",
+    "options": ["Rembrandt", "Johannes Vermeer", "Frans Hals", "Jan Steen"],
+    "correctIndex": 0,
+    "gloss": "Which Dutch painter made 'The Night Watch', the Rijksmuseum's most famous work? — Rembrandt (1642). The others are Dutch Golden Age contemporaries."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Una girafa i una persona tenen, al coll, el mateix nombre de vèrtebres. Quantes?",
+    "options": ["Cinc", "Set", "Dotze", "Vint-i-una"],
+    "correctIndex": 1,
+    "gloss": "A giraffe and a person have the same number of neck vertebrae. How many? — Seven, as in almost all mammals; the giraffe's are just very long."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin poeta valencià del segle XV és l'autor dels «Cants d'amor» i dels «Cants de mort»?",
+    "options": ["Jordi de Sant Jordi", "Ausiàs March", "Joan Roís de Corella", "Jaume Roig"],
+    "correctIndex": 1,
+    "gloss": "Which 15th-century Valencian poet wrote the 'Cants d'amor' and 'Cants de mort'? — Ausiàs March. The others are Valencian writers of the same century."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Quin d'aquests monuments de Barcelona es va construir com a porta d'entrada de l'Exposició Universal del 1888?",
+    "options": ["Palau Nacional de Montjuïc", "Font Màgica de Montjuïc", "Poble Espanyol", "Arc de Triomf"],
+    "correctIndex": 3,
+    "gloss": "Which Barcelona monument was built as the entrance gate of the 1888 Universal Exposition? — The Arc de Triomf. The other three belong to the 1929 International Exposition on Montjuïc."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin any es van aprovar les Normes ortogràfiques de l'Institut d'Estudis Catalans, redactades per Pompeu Fabra?",
+    "options": ["1907", "1913", "1918", "1932"],
+    "correctIndex": 1,
+    "gloss": "In which year were the orthographic norms of the Institut d'Estudis Catalans, drafted by Pompeu Fabra, approved? — 1913. 1907 is the Institut's founding, 1918 Fabra's grammar, 1932 the Normes de Castelló."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quina illa de les Balears va ser declarada Reserva de la Biosfera per la UNESCO el 1993?",
+    "options": ["Menorca", "Mallorca", "Eivissa", "Formentera"],
+    "correctIndex": 0,
+    "gloss": "Which Balearic island was declared a UNESCO Biosphere Reserve in 1993? — Menorca. Mallorca's Serra de Tramuntana is World Heritage (2011), a different distinction."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quin planeta triga més a girar sobre si mateix que a fer una volta al Sol, de manera que el seu dia és més llarg que el seu any?",
+    "options": ["Mercuri", "Mart", "Venus", "Júpiter"],
+    "correctIndex": 2,
+    "gloss": "Which planet takes longer to rotate once than to orbit the Sun, so its day is longer than its year? — Venus (rotation about 243 Earth days, orbit about 225). Mercury rotates in about 59 days and orbits in 88."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin escriptor mexicà és l'autor de la novel·la «Pedro Páramo», publicada el 1955?",
+    "options": ["Juan Rulfo", "Octavio Paz", "Carlos Fuentes", "Gabriel García Márquez"],
+    "correctIndex": 0,
+    "gloss": "Which Mexican writer wrote 'Pedro Páramo' (1955)? — Juan Rulfo. García Márquez, who admired the book, is Colombian."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Quin és el menor nombre que es pot dividir exactament per tots els nombres de l'1 al 10?",
+    "options": ["840", "1.260", "2.520", "5.040"],
+    "correctIndex": 2,
+    "gloss": "What is the smallest number divisible by all of 1 to 10? — 2,520 (2³·3²·5·7). 840 is not divisible by 9, 1,260 not by 8, and 5,040 is a common multiple but not the smallest."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "El nom d'un d'aquests gasos nobles ve del grec per a «nou». Quin?",
+    "options": ["Argó", "Criptó", "Xenó", "Neó"],
+    "correctIndex": 3,
+    "gloss": "One of these noble gases is named from the Greek for 'new'. Which? — Neon (neos). Argon means 'lazy', krypton 'hidden', xenon 'stranger'."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En quin centre de recerca va proposar Tim Berners-Lee, el 1989, la idea de la World Wide Web?",
+    "options": ["MIT", "Bell Labs", "CERN", "Xerox PARC"],
+    "correctIndex": 2,
+    "gloss": "At which research centre did Tim Berners-Lee propose the World Wide Web in 1989? — CERN, near Geneva. The others are famous US research labs."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qui va comandar la nau Victòria en el tram final de la primera volta al món, després de la mort de Magallanes?",
+    "options": ["Vasco da Gama", "Bartolomeu Dias", "Cristòfor Colom", "Joan Sebastià Elcano"],
+    "correctIndex": 3,
+    "gloss": "Who commanded the ship Victoria on the final leg of the first circumnavigation, after Magellan's death? — Juan Sebastián Elcano (Joan Sebastià Elcano). The others were other great navigators."
+  }
+]
