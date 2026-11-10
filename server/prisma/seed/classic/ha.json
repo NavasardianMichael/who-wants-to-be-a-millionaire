@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cika karin maganar nan: “Mai haƙuri yakan dafa …”",
+    "options": ["Nama", "Dutse", "Wake", "Ƙashi"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: “A patient person can cook a …” — Stone: «Mai haƙuri yakan dafa dutse (har ya sha romonsa)»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Gaisuwar “Ina kwana?” a zahiri tana tambayar yadda ka kwana. Yaushe ake yin ta?",
+    "options": ["Da yamma", "Da rana tsaka", "Da safe", "Da dare"],
+    "correctIndex": 2,
+    "gloss": "The greeting “Ina kwana?” literally asks how you spent the night. When is it said? — In the morning: you can only ask how someone slept once the night is over."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“Fura da nono” abin sha ne sananne a ƙasar Hausa. Da garin me ake yin fura ta gargajiya?",
+    "options": ["Shinkafa", "Alkama", "Rogo", "Gero"],
+    "correctIndex": 3,
+    "gloss": "“Fura da nono” is a well-known drink in Hausaland. What flour is traditional fura made from? — Millet (gero): the balls are pounded millet, mixed into fermented milk (nono)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ana yi wa masana'antar finafinan Hausa laƙabi da “Kannywood”. Sunan wane birni ne ya ba ta farkon wannan laƙabi?",
+    "options": ["Kano", "Kaduna", "Katsina", "Sakkwato"],
+    "correctIndex": 0,
+    "gloss": "The Hausa film industry is nicknamed “Kannywood”. Which city gave the first part of the name? — Kano (Kano + Hollywood), its centre; readable from the word itself."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gizo, mai wayon nan na tatsuniyoyin Hausa, gizo-gizo ne. Ƙafafu nawa gizo-gizo yake da su?",
+    "options": ["Shida", "Huɗu", "Goma", "Takwas"],
+    "correctIndex": 3,
+    "gloss": "Gizo, the trickster of Hausa folk tales, is a spider. How many legs does a spider have? — Eight; six is the insect trap."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Da safe ka tsaya kana fuskantar rana tana fitowa. Bayanka yana fuskantar wace kusurwa?",
+    "options": ["Yamma", "Arewa", "Kudu", "Gabas"],
+    "correctIndex": 0,
+    "gloss": "In the morning you stand facing the rising sun. Which direction is your back facing? — West (yamma): the sun rises in the east, so your back is to the west — the same Hausa word as “evening”, when the sun sets there."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A wasan ƙwallon ƙafa, alƙalin wasa ya kori ɗan wasa ɗaya daga kowace ƙungiya. 'Yan wasa nawa ne suka rage a fili gaba ɗaya?",
+    "options": ["18", "21", "20", "22"],
+    "correctIndex": 2,
+    "gloss": "In a football match the referee sends off one player from each team. How many players are left on the pitch in total? — 20: 11 + 11 = 22, minus 2."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wace dabba ce take iya sauya launin fatarta domin ta ɓuya a cikin ganye ko ƙasa?",
+    "options": ["Kunkuru", "Hawainiya", "Kada", "Bushiya"],
+    "correctIndex": 1,
+    "gloss": "Which animal can change the colour of its skin to hide among leaves or on the ground? — The chameleon (hawainiya). Tortoise, crocodile and hedgehog cannot."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wane kamfani ne yake ƙera wayoyin hannu na iPhone?",
+    "options": ["Apple", "Samsung", "Tecno", "Nokia"],
+    "correctIndex": 0,
+    "gloss": "Which company makes iPhone mobile phones? — Apple. Tecno, very popular in Nigeria and Niger, is the local-flavoured trap."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wace gaɓa ce take harba jini zuwa dukan sassan jiki, har likita yake sauraron bugunta?",
+    "options": ["Huhu", "Hanta", "Zuciya", "Ƙoda"],
+    "correctIndex": 2,
+    "gloss": "Which organ pumps blood to every part of the body, so a doctor listens to its beat? — The heart (zuciya). Lungs, liver and kidney are the other options."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A labarin Bayajidda, wace halitta ce ya kashe a rijiyar Kusugu ta Daura, har ya auri sarauniyar garin?",
+    "options": ["Zaki", "Kada", "Maciji", "Kura"],
+    "correctIndex": 2,
+    "gloss": "In the Bayajidda legend, what creature did he kill at the Kusugu well in Daura, and then marry the town's queen? — A snake (the one called Sarki), which kept people from the well."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A wane biki ne kusan kowane magidanci Musulmi yake ƙoƙarin yanka rago?",
+    "options": ["Babbar Sallah", "Ƙaramar Sallah", "Maulidi", "Sabuwar Shekarar Musulunci"],
+    "correctIndex": 0,
+    "gloss": "At which festival does nearly every Muslim household head try to slaughter a ram? — Babbar Sallah (Eid al-Adha). Ƙaramar Sallah (Eid al-Fitr) ends Ramadan and is the trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "A Hausa ana kiran 19 “ashirin babu ɗaya”. To, “talatin babu biyu” nawa ne?",
+    "options": ["32", "28", "29", "18"],
+    "correctIndex": 1,
+    "gloss": "In Hausa 19 is called “twenty less one”. So what is “thirty less two”? — 28: Hausa counts down from the next ten. 18 would be “ashirin babu biyu”."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane wasan gargajiya ne inda ake naushi da hannu ɗaya da aka naɗe da igiya, yayin da ɗayan hannun yake kare jiki?",
+    "options": ["Kokawa", "Sharo", "Langa", "Dambe"],
+    "correctIndex": 3,
+    "gloss": "Which traditional sport is fought by punching with one hand wrapped in cord, while the other hand guards the body? — Dambe (Hausa boxing). Kokawa is wrestling, sharo the Fulani flogging contest, langa a one-legged hopping game."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Karin magana na cewa: “Hannu ɗaya ba ya ɗaukar jinka.” Wane darasi yake koyarwa?",
+    "options": ["Haƙuri", "Haɗin kai", "Gaskiya", "Tsafta"],
+    "correctIndex": 1,
+    "gloss": "The proverb says: “One hand cannot lift a thatched roof.” What does it teach? — Cooperation (haɗin kai): a jinka (thatch roof) needs many hands to lift."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wace dabba ce take haihuwa tana shayar da 'ya'yanta, amma kuma take tashi sama da fikafikai?",
+    "options": ["Mujiya", "Kurege", "Shaho", "Jemage"],
+    "correctIndex": 3,
+    "gloss": "Which animal gives birth and suckles its young, yet flies with wings? — The bat (jemage), the only mammal that truly flies. Owl and hawk are birds; the squirrel does not fly."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A tsakiyar hamada, Alƙahira, babban birnin Masar, ta dogara ga ruwan wane kogi?",
+    "options": ["Kogin Nilu", "Kogin Kwara", "Kogin Kongo", "Kogin Zambezi"],
+    "correctIndex": 0,
+    "gloss": "In the middle of the desert, Cairo, Egypt's capital, depends on the water of which river? — The Nile."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "A garken Malam Bala akwai awaki da tumaki guda 12. Awakin sun ninka tumakin sau biyu. Tumaki nawa ne a garken?",
+    "options": ["6", "3", "4", "8"],
+    "correctIndex": 2,
+    "gloss": "Malam Bala's flock has 12 goats and sheep. There are twice as many goats as sheep. How many sheep? — 4: 4 sheep + 8 goats = 12. 8 is the goats, 6 is halving."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na'urar GPS da ke cikin wayarka tana gano inda kake ne ta hanyar karɓar sigina daga me?",
+    "options": ["Hasumiyoyin talabijin", "Wayoyin ƙarƙashin ƙasa", "Na'urorin radar", "Taurarin ɗan adam"],
+    "correctIndex": 3,
+    "gloss": "The GPS in your phone finds where you are by receiving signals from what? — Satellites (taurarin ɗan adam) orbiting the Earth."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kafin a sauya mata suna zuwa “X” a 2023, wace kafar sada zumunta ce tambarinta ɗan tsuntsu shuɗi?",
+    "options": ["Facebook", "Twitter", "Telegram", "Instagram"],
+    "correctIndex": 1,
+    "gloss": "Before it was renamed “X” in 2023, which social network had a little blue bird as its logo? — Twitter. Telegram's logo is a paper plane."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A Hausa, macen raƙumin da ba ta haihu ba ana kiranta “taguwa”. Macen doki fa, me ake kiranta?",
+    "options": ["Jaka", "Goɗiya", "Akuya", "Tunkiya"],
+    "correctIndex": 1,
+    "gloss": "In Hausa a she-camel that has not yet given birth is called “taguwa”. What is a female horse called? — Goɗiya (mare), spelled with hooked ɗ, the same word as “thanks”. Jaka is a she-donkey, akuya a she-goat, tunkiya a ewe."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Shahararrun karofin rini na Ƙofar Mata a Kano suna rina zane da wane launi tun zamanin da?",
+    "options": ["Ja", "Rawaya", "Kore", "Shuɗi"],
+    "correctIndex": 3,
+    "gloss": "The famous Kofar Mata dye pits in Kano have long dyed cloth what colour? — Blue: indigo (baba), the classic Kano indigo cloth."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dutsen Kilimanjaro yana da ƙanƙara a kansa duk da cewa yana kusa da layin tsakiyar duniya. A wace ƙasa yake?",
+    "options": ["Tanzaniya", "Kenya", "Yuganda", "Habasha"],
+    "correctIndex": 0,
+    "gloss": "Kilimanjaro has ice on top though it is near the equator. Which country is it in? — Tanzania. Kenya, right on its border, is the trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ruwan randa yana yin sanyi ko lokacin zafin rani. Me yake sanyaya shi?",
+    "options": ["Laka tana jan sanyi daga ƙasa", "Laka ba ta barin iska ta shiga", "Ruwan da ke zufa a jikinta yana bushewa", "Laka tana ajiye sanyin dare"],
+    "correctIndex": 2,
+    "gloss": "Water in a clay randa pot stays cool even in the hot season. What cools it? — Evaporation: water seeping through the porous clay (“sweating”) evaporates and carries heat away."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ka ga walƙiya, bayan daƙiƙa shida ka ji tsawarta. Idan sauti yana tafiyar kusan mita 340 a daƙiƙa ɗaya, kusan nisan nawa walƙiyar take daga gare ka?",
+    "options": ["Kilomita 1", "Kilomita 2", "Kilomita 6", "Kilomita 20"],
+    "correctIndex": 1,
+    "gloss": "You see lightning and hear its thunder six seconds later. If sound travels about 340 m per second, how far away is it? — About 2 km: 340 × 6 ≈ 2,040 m; light arrives almost instantly."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Yau 15 ga wata. Idan aka haɗa lambar ranar shekaranjiya da ta ranar jibi, nawa za a samu?",
+    "options": ["28", "29", "32", "30"],
+    "correctIndex": 3,
+    "gloss": "Today is the 15th. Add the date of “shekaranjiya” (the day before yesterday) and “jibi” (the day after tomorrow). — 30: 13 + 17. Needs the two Hausa words; the aha is that it is always twice today."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hausa ta aro kalmomi da dama daga Larabci da Turanci. Wace kalma ce a nan ta zo daga Turanci?",
+    "options": ["Fensir", "Alƙalami", "Littafi", "Takarda"],
+    "correctIndex": 0,
+    "gloss": "Hausa has borrowed many words from Arabic and English. Which of these came from English? — Fensir (pencil). Alƙalami is Arabic al-qalam; the others are not English either."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane jarumi ne ya shahara da sunan “Samanja Mazan Fama” a wasan kwaikwayon talabijin?",
+    "options": ["Rabilu Musa Ɗan Ibro", "Ali Nuhu", "Usman Baba Pategi", "Sani Danja"],
+    "correctIndex": 2,
+    "gloss": "Which actor became famous as “Samanja Mazan Fama” in the TV drama? — Usman Baba Pategi. The others are famous Kannywood actors."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mutane da yawa suna zaton raƙumi yana ajiye ruwa a tozonsa. Me tozon yake ɗauke da shi a zahiri?",
+    "options": ["Ƙashi", "Madara", "Iska", "Kitse"],
+    "correctIndex": 3,
+    "gloss": "Many think a camel stores water in its hump. What does the hump really hold? — Fat (kitse), an energy store."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ɗan Najeriya na farko da ya taɓa lashe kyautar Nobel marubuci ne, a 1986. Wane ne shi?",
+    "options": ["Wole Soyinka", "Chinua Achebe", "Ben Okri", "Cyprian Ekwensi"],
+    "correctIndex": 0,
+    "gloss": "The first Nigerian ever to win a Nobel Prize was a writer, in 1986. Who? — Wole Soyinka (Literature, 1986). Achebe never won it."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane sarkin Kano ne na ƙarni na 15 aka danganta gina fadar sarakunan Kano da Kasuwar Kurmi da shi?",
+    "options": ["Bagauda", "Abdullahi Bayero", "Muhammadu Rumfa", "Muhammadu Kisoki"],
+    "correctIndex": 2,
+    "gloss": "Which 15th-century king of Kano is credited with building the Kano palace and Kurmi Market? — Muhammadu Rumfa; the palace is still called Gidan Rumfa. Bagauda is the legendary first king."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hasumiyar Gobarau, ɗaya daga cikin tsofaffin gine-ginen laka a Afirka ta Yamma, tana wane birni?",
+    "options": ["Katsina", "Kano", "Zariya", "Daura"],
+    "correctIndex": 0,
+    "gloss": "The Gobarau Minaret, one of the oldest earthen buildings in West Africa, is in which city? — Katsina."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wace mace ce mai ilimi kuma marubuciyar waƙoƙi a ƙarni na 19, wadda ta kafa ƙungiyar 'Yan Taru domin ilmantar da mata?",
+    "options": ["Sarauniya Amina", "Daurama", "Ladi Kwali", "Nana Asma'u"],
+    "correctIndex": 3,
+    "gloss": "Which 19th-century woman scholar and poet founded the 'Yan Taru movement to educate women? — Nana Asma'u, daughter of Shehu Usman ɗan Fodio. Amina (16th c.), Daurama (legend) and Ladi Kwali (20th-c. potter) are other famous northern women."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kogin Kwara, wanda a Nijar ake kira Isa, a wace ƙasa tushensa yake?",
+    "options": ["Mali", "Gine", "Senegal", "Kamaru"],
+    "correctIndex": 1,
+    "gloss": "The Niger River (Kwara; “Isa” in Niger) has its source in which country? — Guinea (Guinea Highlands). Mali is the trap; Cameroon is where the Benue rises."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Agogo ya nuna 12:00 na rana a Kano, a watan Yuli. A daidai wannan lokaci, ƙarfe nawa ne a Landan?",
+    "options": ["Ƙarfe 10 na safe", "Ƙarfe 11 na safe", "Ƙarfe 1 na rana", "Ƙarfe 12 na rana"],
+    "correctIndex": 3,
+    "gloss": "It is 12:00 noon in Kano in July. What time is it in London? — Also 12 noon: Nigeria is UTC+1 all year, and Britain is on summer time (UTC+1) in July. In winter it would be 11."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Watan Azumi na Ramadan yana gabatowa a kowace shekara idan aka duba kalandar Miladiyya. Da kusan kwana nawa yake gabatowa?",
+    "options": ["Kusan kwana 5", "Kusan kwana 19", "Kusan kwana 11", "Kusan kwana 30"],
+    "correctIndex": 2,
+    "gloss": "Ramadan comes earlier every year on the Gregorian calendar. By about how many days? — About 11: twelve lunar months make about 354 days, against 365."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "An cika kofi da ruwa har baki, kuma ƙanƙara tana yawo a cikinsa. Idan ƙanƙarar ta narke gaba ɗaya, me zai faru da ruwan?",
+    "options": ["Zai tsaya daidai bakin kofin", "Zai zuba daga kofin", "Zai ragu ƙasa da baki", "Ya danganta da girman ƙanƙarar"],
+    "correctIndex": 0,
+    "gloss": "A cup is filled to the brim with water and ice floats in it. When the ice melts completely, what happens? — The level stays exactly at the brim: floating ice displaces its own weight of water, which is what it becomes when it melts, whatever its size."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Najeriya ta lashe lambar zinariya ta ƙwallon ƙafa a gasar Olympic da aka yi a wane birni?",
+    "options": ["Sydney", "Atlanta", "Beijing", "Barcelona"],
+    "correctIndex": 1,
+    "gloss": "Nigeria won Olympic football gold at the Games in which city? — Atlanta, 1996. Beijing 2008 was silver; Sydney 2000 gold went to Cameroon."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mansa Musa, wanda ya raba zinariya mai yawa a Alƙahira a hanyarsa ta zuwa aikin Hajji, sarkin wace daula ne?",
+    "options": ["Songhai", "Gana", "Mali", "Kanem-Borno"],
+    "correctIndex": 2,
+    "gloss": "Mansa Musa, who gave away so much gold in Cairo on his way to Hajj, ruled which empire? — Mali (pilgrimage of 1324). Songhai and Ghana are the neighbouring empires."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Sunan Coca-Cola ya samo asali ne daga ganyen koka da wata ƙwaya da fatake Hausawa suka daɗe suna safararta. Wace ƙwaya ce?",
+    "options": ["Gyaɗa", "Kaɗanya", "Dabino", "Goro"],
+    "correctIndex": 3,
+    "gloss": "Coca-Cola's name comes from coca leaves and a nut long traded by Hausa merchants. Which nut? — Kola nut (goro): “Cola” is the kola nut, brought north from the forest zone by Hausa traders for centuries."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kafin a mayar da cibiyar mulkin mallaka zuwa Yamai a 1926, wane gari ne cibiyar mulkin ƙasar Nijar?",
+    "options": ["Damagaram", "Maraɗi", "Agadas", "Birnin Konni"],
+    "correctIndex": 0,
+    "gloss": "Before the colonial capital moved to Niamey in 1926, which town was the seat of government of Niger? — Zinder (Damagaram), the old Hausa-speaking sultanate's capital."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kano tana kusan digiri 12 arewa da layin tsakiyar duniya. A wane lokaci na shekara inuwar mutum da tsakar rana take mafi tsawo a Kano?",
+    "options": ["Kusan 21 ga Yuni", "Kusan 21 ga Disamba", "Kusan 21 ga Maris", "Kusan 23 ga Satumba"],
+    "correctIndex": 1,
+    "gloss": "Kano is about 12° north of the equator. When in the year is a person's noon shadow longest there? — Around 21 December: the sun is then 23.4° south, about 35° from overhead; in June it is only about 11° from overhead (north)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Babban ƙamus na Hausa da Turanci mai shafuka sama da dubu, wanda aka buga a 1934, wane ne ya rubuta shi?",
+    "options": ["Rupert East", "Heinrich Barth", "Frederick Lugard", "G. P. Bargery"],
+    "correctIndex": 3,
+    "gloss": "Who compiled the great Hausa–English dictionary of over a thousand pages, published in 1934? — G. P. Bargery (A Hausa–English Dictionary and English–Hausa Vocabulary, OUP 1934)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Daular Songhai, wadda ta yi ƙarfi a ƙarni na 15 da na 16 a bakin Kogin Isa, wane gari ne babban birninta?",
+    "options": ["Timbuktu", "Jenne", "Gao", "Yamai"],
+    "correctIndex": 2,
+    "gloss": "The Songhai Empire, powerful on the Niger in the 15th–16th centuries — what was its capital? — Gao. Timbuktu, its great centre of learning, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Al'adar Nok, mai shahararrun mutum-mutumin laka da aka gasa, ta samo sunanta daga ƙauyen Nok. Ƙauyen yana wace jiha a yau?",
+    "options": ["Filato", "Kaduna", "Nasarawa", "Bauchi"],
+    "correctIndex": 1,
+    "gloss": "The Nok culture, famous for its terracotta figures, is named after the village of Nok. Which state is it in today? — Kaduna State (Jaba area). Plateau, where the tin mines and Jos Museum are, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hausa tana cikin babban iyalin harsuna da ya haɗa da Larabci da Ibrananci. A wane reshe na wannan iyali take?",
+    "options": ["Harsunan Chadi", "Harsunan Semitik", "Harsunan Berber", "Harsunan Kushitik"],
+    "correctIndex": 0,
+    "gloss": "Hausa belongs to the large family that includes Arabic and Hebrew. In which branch? — Chadic (Afro-Asiatic). Semitic is the trap: it is Arabic and Hebrew's own branch, a sister to Chadic."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Da Najeriya ta sauya fam zuwa Naira a 1973, fam ɗaya ya koma Naira biyu. To, sule ɗaya, wato shilin ɗaya, ya yi daidai da kwabo nawa?",
+    "options": ["Kwabo 5", "Kwabo 20", "Kwabo 50", "Kwabo 10"],
+    "correctIndex": 3,
+    "gloss": "When Nigeria replaced the pound with the naira in 1973, £1 became ₦2. So one sule (shilling) equalled how many kobo? — 10: a pound had 20 shillings, and ₦2 = 200 kobo, so 200 ÷ 20 = 10."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sunan “piano” gajarta ce ta “pianoforte” na harshen Italiyanci. Me kalmar take nufi?",
+    "options": ["Sauri da sannu", "Babba da ƙarami", "Laushi da ƙarfi", "Haske da duhu"],
+    "correctIndex": 2,
+    "gloss": "“Piano” is short for the Italian “pianoforte”. What does the word mean? — Soft and loud: unlike the harpsichord, it plays softer or louder with the touch."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Harshen shirye-shiryen kwamfuta “Python” an sa masa suna ne daga me?",
+    "options": ["Shirin barkwanci na talabijin", "Macijin mesa", "Macijin tatsuniyar Girkawa", "Sunan wani masanin lissafi"],
+    "correctIndex": 0,
+    "gloss": "What was the programming language Python named after? — A TV comedy show: Guido van Rossum named it after Monty Python's Flying Circus. The python snake and the Greek mythical serpent are traps."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Masar ta shahara da dalolinta, amma wace maƙwabciyarta ce take da dala fiye da ita?",
+    "options": ["Libiya", "Sudan", "Chadi", "Habasha"],
+    "correctIndex": 1,
+    "gloss": "Egypt is famous for its pyramids, but which of its neighbours has more pyramids than Egypt? — Sudan: the Nubian (Kushite) pyramids at Meroë and elsewhere number around 200 or more, against roughly 120 in Egypt."
+  }
+]

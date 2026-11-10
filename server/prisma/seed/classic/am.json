@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ድር ቢያብር … ያስር» ይላል የአበው ተረት። የጎደለው የእንስሳ ስም የትኛው ነው?",
+    "options": ["ዝሆን", "ነብር", "አንበሳ", "ጅብ"],
+    "correctIndex": 2,
+    "gloss": "\"When spider webs unite, they can tie up a …\" — which animal? — A lion: the proverb «ድር ቢያብር አንበሳ ያስር» (unity is strength)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በቡና ማፍላት ሥነ ሥርዓት ቡናው የሚፈላበት፣ አንገቱ ረጅም የሆነው የሸክላ ዕቃ ምን ይባላል?",
+    "options": ["ጀበና", "ሲኒ", "ረከቦት", "ምጣድ"],
+    "correctIndex": 0,
+    "gloss": "In the coffee ceremony, what is the long-necked clay pot the coffee is boiled in called? — Jebena. Sini is the cup, rekebot the tray/stand, mitad the injera griddle."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ዘሩ በዓለም ላይ ካሉ እህሎች ሁሉ ትንሹ ከሚባሉት አንዱ ሲሆን፣ እንጀራ በዋናነት የሚጋገረው ከዱቄቱ ነው። ይህ እህል የትኛው ነው?",
+    "options": ["ገብስ", "ጤፍ", "ማሽላ", "ስንዴ"],
+    "correctIndex": 1,
+    "gloss": "Its seed is among the tiniest of all grains, and injera is mainly baked from its flour. Which grain? — Teff. Barley, sorghum and wheat are sometimes mixed in, but teff is the main one."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "በኢትዮጵያ አቆጣጠር እያንዳንዱ ወር 30 ቀናት አሉት። ዛሬ ነሐሴ 30 ከሆነ፣ ነገ ስንት ይሆናል?",
+    "options": ["መስከረም 1", "ነሐሴ 31", "ጳጉሜ 1", "ጥቅምት 1"],
+    "correctIndex": 2,
+    "gloss": "In the Ethiopian calendar every month has 30 days. If today is Nehase 30, what is tomorrow? — Pagume 1: the short 13th month comes before New Year (Meskerem 1), the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በ1960 (እ.ኤ.አ.) በሮም ኦሊምፒክ ማራቶንን በባዶ እግሩ ሮጦ ያሸነፈው ኢትዮጵያዊ አትሌት ማን ነው?",
+    "options": ["ማሞ ወልዴ", "ምሩፅ ይፍጠር", "ኃይሌ ገብረሥላሴ", "አበበ ቢቂላ"],
+    "correctIndex": 3,
+    "gloss": "Which Ethiopian won the 1960 Rome Olympic marathon running barefoot? — Abebe Bikila. Mamo Wolde won in 1968, Miruts Yifter on the track in 1980, Haile Gebrselassie in 1996/2000."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ለበዓል ሦስት ደርዘን እንቁላል የገዛ ሰው በአጠቃላይ ስንት እንቁላል ገዛ?",
+    "options": ["30", "24", "36", "48"],
+    "correctIndex": 2,
+    "gloss": "Someone buys three dozen eggs for a holiday. How many eggs? — 36: a dozen is 12, times 3."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "በተለመደው ባለ ስድስት ገጽ የጨዋታ ዳይስ ላይ የተቃራኒ ገጾች ነጥቦች ሲደመሩ ሁልጊዜ 7 ይሆናሉ። ከ2 ነጥብ ተቃራኒ ያለው ገጽ ስንት ነጥብ አለው?",
+    "options": ["5", "4", "6", "1"],
+    "correctIndex": 0,
+    "gloss": "On a standard six-sided die, opposite faces always add up to 7. What is opposite the 2? — 5, since 2 + 5 = 7."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ከአፍሪካ ምሥራቃዊ ጠረፍ እስከ አውስትራሊያ ድረስ የተዘረጋው ውቅያኖስ የትኛው ነው?",
+    "options": ["አትላንቲክ", "ሕንድ", "ፓሲፊክ", "አርክቲክ"],
+    "correctIndex": 1,
+    "gloss": "Which ocean stretches from Africa's eastern coast to Australia? — The Indian Ocean."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በመጽሐፍ ቅዱስ ታሪክ መሠረት፣ ከጥፋት ውሃ በኋላ በመንቁሩ የወይራ ቅጠል ይዞ ወደ ኖኅ መርከብ የተመለሰው ወፍ የትኛው ነው?",
+    "options": ["ቁራ", "ንስር", "ድንቢጥ", "ርግብ"],
+    "correctIndex": 3,
+    "gloss": "In the Bible, which bird came back to Noah's ark with an olive leaf in its beak after the Flood? — The dove (Genesis 8). The raven is the trap: Noah sent it out first, but it did not come back with a leaf."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ክንፍ ኖሮት በእውነት መብረር የሚችል ብቸኛው አጥቢ እንስሳ የትኛው ነው?",
+    "options": ["ጥንቸል", "የሌሊት ወፍ", "ጃርት", "ጦጣ"],
+    "correctIndex": 1,
+    "gloss": "Which is the only mammal with wings that can truly fly? — The bat; the aha is that its Amharic name, \"night bird\", calls it a bird."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "በኢትዮጵያ የሰዓት አቆጣጠር «ከጠዋቱ 3 ሰዓት» በዓለም አቀፉ የ24 ሰዓት አቆጣጠር ስንት ሰዓት ነው?",
+    "options": ["03:00", "15:00", "21:00", "09:00"],
+    "correctIndex": 3,
+    "gloss": "In Ethiopian time, \"3 o'clock in the morning\" is what in international 24-hour time? — 09:00: the Ethiopian day starts counting at sunrise (06:00 = 12 o'clock), so add six hours."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ሰላም ታክሲ ለመያዝ በተሰለፉ ሰዎች መካከል ቆማለች፤ ከፊት ስትቆጠር 4ኛ፣ ከኋላ ስትቆጠር ደግሞ 4ኛ ናት። ሰልፉ ውስጥ በአጠቃላይ ስንት ሰው አለ?",
+    "options": ["8", "7", "9", "6"],
+    "correctIndex": 1,
+    "gloss": "Selam stands in a taxi queue, 4th from the front and 4th from the back. How many people are in the queue? — 7: three ahead, three behind, plus Selam. 8 is the trap of counting her twice."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "አንድ ወረቀት ለሁለት ታጥፎ፣ እንደገና ለሁለት፣ ከዚያም ለሦስተኛ ጊዜ ለሁለት ቢታጠፍ ስንት ንብርብር ይኖረዋል?",
+    "options": ["3", "6", "8", "9"],
+    "correctIndex": 2,
+    "gloss": "A sheet of paper is folded in half three times. How many layers does it have? — 8: each fold doubles the layers, 2 → 4 → 8."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የእርሳስ ጥቁሩ ልብ (ግራፋይት) እና አልማዝ የተሠሩት ከአንድ ዓይነት ንጥረ ነገር ነው። የትኛው ንጥረ ነገር ነው?",
+    "options": ["ካርቦን", "እርሳስ", "ሲሊከን", "ሰልፈር"],
+    "correctIndex": 0,
+    "gloss": "A pencil's black core (graphite) and diamond are made of the same element. Which? — Carbon. The trap: «እርሳስ» means both \"pencil\" and the metal lead, yet pencils contain no lead."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ፍቅር እስከ መቃብር» የተሰኘውን ዝነኛ ልብ ወለድ የጻፈው ማን ነው?",
+    "options": ["ሐዲስ ዓለማየሁ", "ብርሃኑ ዘሪሁን", "በዓሉ ግርማ", "ዳኛቸው ወርቁ"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the famous novel \"Love unto the Grave\" (Fikir Iske Mekabir)? — Haddis Alemayehu (1965). The others are major Amharic novelists of the same era."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ክብረ ነገሥት» እንደሚተርከው፣ ቀዳማዊ ምኒልክ የንግሥተ ሳባና የየትኛው ንጉሥ ልጅ ነው?",
+    "options": ["ንጉሥ ዳዊት", "ንጉሥ ሰሎሞን", "ንጉሥ ሳኦል", "ንጉሥ ሕዝቅያስ"],
+    "correctIndex": 1,
+    "gloss": "According to the Kebra Nagast, Menelik I is the son of the Queen of Sheba and which king? — Solomon. David, Solomon's father, is the trap."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በመስቀል በዓል የሚለኮሰው ደመራ፣ በትውፊቱ መሠረት የጢሱን አቅጣጫ ተከትላ የጌታን መስቀል ያገኘችውን ንግሥት ያስታውሳል። ይህች ንግሥት ማን ናት?",
+    "options": ["ንግሥተ ሳባ", "እቴጌ ጣይቱ", "ንግሥት እሌኒ", "ንግሥት ዘውዲቱ"],
+    "correctIndex": 2,
+    "gloss": "The Demera bonfire of Meskel recalls, by tradition, the queen who followed the smoke and found the True Cross. Who? — Queen Eleni (Saint Helena, mother of Constantine)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "አንድን ሰው «ሆደ ሰፊ ነው» ብንለው ምን ማለታችን ነው?",
+    "options": ["ብዙ የሚበላ ነው", "ፈሪ ነው", "ቁጡ ነው", "ታጋሽ ነው"],
+    "correctIndex": 3,
+    "gloss": "If we call someone \"wide-bellied\" (hode sefi), what do we mean? — That they are patient and tolerant. \"Eats a lot\" is the literal-reading trap."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በፔሩ ተራሮች ላይ የምትገኘውን ጥንታዊቷን ከተማ ማቹ ፒቹን የገነቡት እነማን ናቸው?",
+    "options": ["አዝቴኮች", "ማያዎች", "ኢንካዎች", "ኦልሜኮች"],
+    "correctIndex": 2,
+    "gloss": "Who built the ancient mountain city of Machu Picchu in Peru? — The Incas. Aztecs, Maya and Olmecs were Mesoamerican, far to the north."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "እያንዳንዱ ፎቶ 2 ሜጋባይት ቢሆን፣ 4 ጊጋባይት በሆነ ፍላሽ ላይ በግምት ስንት ፎቶ ይበቃል?",
+    "options": ["200", "500", "2000", "8000"],
+    "correctIndex": 2,
+    "gloss": "If each photo is 2 MB, about how many fit on a 4 GB flash drive? — About 2,000: a gigabyte is about 1,000 megabytes, so 4,000 ÷ 2."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "በባህላዊው «አቡጊዳ» ንባብ ፊደላት በጥንቱ ቅደም ተከተል (አ፣ በ፣ ገ፣ ደ፣ ሀ…) እየመጡ በየተራ አንድ ዘር ከፍ ብለው ይነበባሉ፤ አ፣ ቡ፣ ጊ፣ ዳ። አምስተኛው ፊደል ሀ እንዴት ይነበባል?",
+    "options": ["ሄ", "ሁ", "ሀ", "ህ"],
+    "correctIndex": 0,
+    "gloss": "In the traditional abugida recitation, letters come in the old order (A, B, G, D, H…) and each is read one vowel order higher: a, bu, gi, da. How is the fifth letter, ሀ, read? — ሄ (he), the 5th order. The chant goes «አ ቡ ጊ ዳ ሄ ው ዞ», and it gave linguists the word \"abugida\"."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ከጣና ሐይቅ የሚነሳው ዓባይ ወንዝ ከነጭ ዓባይ ጋር የሚቀላቀለው በየትኛው ከተማ ነው?",
+    "options": ["ጁባ", "ካርቱም", "አስዋን", "ካይሮ"],
+    "correctIndex": 1,
+    "gloss": "In which city does the Blue Nile (Abay), which leaves Lake Tana, meet the White Nile? — Khartoum."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ኃይሌ ገብረሥላሴ የመጀመሪያውን የኦሊምፒክ የወርቅ ሜዳሊያ በ10,000 ሜትር ያገኘው በየትኛው ከተማ በተካሄደው ውድድር ነው?",
+    "options": ["አትላንታ", "ሲድኒ", "ባርሴሎና", "አቴንስ"],
+    "correctIndex": 0,
+    "gloss": "In which host city did Haile Gebrselassie win his first Olympic gold in the 10,000 m? — Atlanta (1996). Sydney (2000) was his second gold."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "መብረቁን ካዩ ከ3 ሰከንድ በኋላ ነጎድጓዱን ቢሰሙ፣ መብረቁ ከእርስዎ በግምት ምን ያህል ይርቃል?",
+    "options": ["100 ሜትር ገደማ", "300 ሜትር ገደማ", "1 ኪሎ ሜትር ገደማ", "3 ኪሎ ሜትር ገደማ"],
+    "correctIndex": 2,
+    "gloss": "You see lightning and hear the thunder 3 seconds later. Roughly how far away is it? — About 1 km: light arrives almost instantly, sound travels about 340 m per second."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በደቡብ ኢትዮጵያ ለብዙዎች ዋና ምግብ የሆነው ቆጮ የሚዘጋጀው ከየትኛው ተክል ነው?",
+    "options": ["ሙዝ", "እንሰት", "ጤፍ", "ማሽላ"],
+    "correctIndex": 1,
+    "gloss": "Kocho, a staple for many in southern Ethiopia, is made from which plant? — Enset (\"false banana\"). Banana is the look-alike trap."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "የኢትዮጵያን ቅኝቶች ከጃዝ ጋር አዋሕዶ «የኢትዮ-ጃዝ አባት» የተባለው ሙዚቀኛ ማን ነው?",
+    "options": ["ጥላሁን ገሠሠ", "ማህሙድ አህመድ", "ጌታቸው መኩሪያ", "ሙላቱ አስታጥቄ"],
+    "correctIndex": 3,
+    "gloss": "Which musician blended Ethiopian modes (qenyet) with jazz and is called \"the father of Ethio-jazz\"? — Mulatu Astatke."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«ዘ ላየን ኪንግ» በተሰኘው የካርቱን ፊልም ውስጥ የሚዘመረው «ሀኩና ማታታ» ከየትኛው ቋንቋ የተወሰደ ነው?",
+    "options": ["ዙሉ", "ሐውሳ", "ዮሩባ", "ስዋሂሊ"],
+    "correctIndex": 3,
+    "gloss": "\"Hakuna Matata\" from The Lion King comes from which language? — Swahili (\"no worries\"). Zulu is tempting because the film's opening chant is in Zulu."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ከእነዚህ ታሪካዊ ክስተቶች ቀድሞ የተፈጸመው የትኛው ነው?",
+    "options": ["ኮሎምበስ አሜሪካ መድረሱ", "ማርቲን ሉተር 95ቱን አንቀጾቹን ማውጣቱ", "ኮፐርኒከስ ስለ ፀሐይ ማዕከልነት የጻፈውን መጽሐፍ ማሳተሙ", "ጉተንበርግ መጽሐፍ ቅዱስን በማተሚያ መሣሪያ ማተሙ"],
+    "correctIndex": 3,
+    "gloss": "Which of these happened first? — Gutenberg printing the Bible (c. 1455). Columbus reached America in 1492, Luther issued his 95 Theses in 1517, Copernicus published in 1543. Reasoning helps: Luther's and Copernicus's texts spread by print."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "እናት 30 ዓመቷ፣ ልጇ ደግሞ 6 ዓመቱ ነው። ከስንት ዓመት በኋላ የእናትየው ዕድሜ የልጇን ዕድሜ በትክክል ሦስት እጥፍ ይሆናል?",
+    "options": ["3", "6", "9", "12"],
+    "correctIndex": 1,
+    "gloss": "A mother is 30 and her child 6. In how many years will she be exactly three times the child's age? — 6 years: 36 = 3 × 12."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«በከዋክብት የተሞላው ምሽት» (ዘ ስታሪ ናይት) የተባለውን ዝነኛ ሥዕል የሣለው ማን ነው?",
+    "options": ["ክሎድ ሞኔ", "ፖል ጎገን", "ቪንሰንት ቫን ጎግ", "ፖል ሴዛን"],
+    "correctIndex": 2,
+    "gloss": "Who painted the famous \"The Starry Night\"? — Vincent van Gogh (1889). Gauguin, his friend, and the other post-/impressionists are the same-era traps."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በ1992 (እ.ኤ.አ.) የባርሴሎና ኦሊምፒክ በ10,000 ሜትር አሸንፋ ለኢትዮጵያ የኦሊምፒክ ወርቅ ያስገኘች የመጀመሪያዋ ሴት አትሌት ማን ናት?",
+    "options": ["ደራርቱ ቱሉ", "ፋጡማ ሮባ", "ጥሩነሽ ዲባባ", "መሠረት ደፋር"],
+    "correctIndex": 0,
+    "gloss": "Who won the 10,000 m at Barcelona 1992, becoming the first Ethiopian woman Olympic champion? — Derartu Tulu. Fatuma Roba won the marathon in 1996; Dibaba and Defar came later."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የአፍሪካ ሥነ ጽሑፍ ምልክት የሆነውን «ቲንግስ ፎል አፓርት» የተሰኘውን ልብ ወለድ የጻፈው ማን ነው?",
+    "options": ["ወሌ ሾይንካ", "ንጉጊ ዋ ቲዮንጎ", "ቤን ኦክሪ", "ቺኑዋ አቼቤ"],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"Things Fall Apart\", a landmark of African literature? — Chinua Achebe (1958). Soyinka and Okri are also Nigerian, Ngũgĩ Kenyan."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በ4ኛው ክፍለ ዘመን ክርስትናን የተቀበለውና በሳንቲሞቹ ላይ መስቀል ያሳተመው የአክሱም ንጉሥ ማን ነው?",
+    "options": ["ዒዛና", "ካሌብ", "ገብረ መስቀል", "ኤላ አሚዳ"],
+    "correctIndex": 0,
+    "gloss": "Which 4th-century king of Aksum accepted Christianity and put the cross on his coins? — Ezana. Kaleb and his son Gebre Meskel ruled in the 6th century; Ella Amida was Ezana's father."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "አዲስ አበባ ከባሕር ወለል በላይ 2,300 ሜትር ገደማ ከፍታ ላይ ትገኛለች። እዚህ ክፍት ድስት ውስጥ ያለ ውሃ በግምት በስንት ዲግሪ ሴልሺየስ ይፈላል?",
+    "options": ["80 ዲግሪ ገደማ", "92 ዲግሪ ገደማ", "100 ዲግሪ ገደማ", "105 ዲግሪ ገደማ"],
+    "correctIndex": 1,
+    "gloss": "Addis Ababa is about 2,300 m above sea level. At about what temperature does water boil there in an open pot? — About 92 °C: lower air pressure at altitude lowers the boiling point (roughly 1 °C per 300 m). 105 °C moves the wrong way; 80 °C is far too low."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ቀይ ባሕርን ከኤደን ባሕረ ሰላጤ ጋር የሚያገናኘው ጠባብ የባሕር ወሽመጥ ምን ይባላል?",
+    "options": ["ሆርሙዝ", "ጂብራልታር", "ቦስፎረስ", "ባብ ኤል ማንዴብ"],
+    "correctIndex": 3,
+    "gloss": "What is the narrow strait linking the Red Sea and the Gulf of Aden called? — Bab-el-Mandeb, between Djibouti and Yemen."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ሮማውያን በፀሐይ ዙሪያ በጣም በፍጥነት የምትዞረውን ፕላኔት በፈጣኑ መልእክተኛ አምላካቸው (የግሪኮቹ ሄርሜስ) ስም ሰየሟት። የትኛዋ ፕላኔት ናት?",
+    "options": ["ማርስ", "ቬነስ", "ሜርኩሪ", "ጁፒተር"],
+    "correctIndex": 2,
+    "gloss": "The Romans named the planet that circles the Sun fastest after their swift messenger god (the Greeks' Hermes). Which planet? — Mercury. Know the god, or reason that the innermost planet orbits fastest."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በስዊዘርላንድ በሚገኝ የምርምር ማዕከል ሲሠራ ዓለም አቀፍ ድርን (ወርልድ ዋይድ ዌብ) የፈጠረው ሳይንቲስት ማን ነው?",
+    "options": ["ቲም በርነርስ-ሊ", "ቪንት ሰርፍ", "ቢል ጌትስ", "ስቲቭ ጆብስ"],
+    "correctIndex": 0,
+    "gloss": "Which scientist invented the World Wide Web while working at a research centre in Switzerland? — Tim Berners-Lee, at CERN. Vint Cerf is the trap: he co-designed the internet's TCP/IP, not the Web."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ላይ ላዩን አንድ ትርጉም፣ ውስጥ ደግሞ የተደበቀ ሁለተኛ ትርጉም ያለው የአማርኛ ቅኔ አገጣጠም «ሰምና …» ይባላል። የጎደለው ቃል የትኛው ነው?",
+    "options": ["ማር", "ወርቅ", "ብር", "ዘይት"],
+    "correctIndex": 1,
+    "gloss": "The Amharic poetic device with a surface meaning and a hidden second one is called \"wax and …\"? — Gold (ሰምና ወርቅ), from lost-wax casting: the wax mould is the surface, the gold is the hidden meaning. \"Wax and honey\" is the trap."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ደሙ ሰማያዊ የሆነው ኦክቶፐስ ስንት ልብ አለው?",
+    "options": ["1", "2", "3", "8"],
+    "correctIndex": 2,
+    "gloss": "The blue-blooded octopus has how many hearts? — Three: two pump blood through the gills, one through the body."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "የግዕዝ ቁጥሮች ዜሮ የላቸውም፤ ለምሳሌ ፻ 100 ሲሆን ፲፻ ደግሞ 1000 ነው። 2018 በግዕዝ ቁጥር እንዴት ይጻፋል?",
+    "options": ["፪፻፲፰", "፲፰፻፳", "፳፻፹", "፳፻፲፰"],
+    "correctIndex": 3,
+    "gloss": "Ge'ez numerals have no zero: ፻ is 100 and ፲፻ (ten hundreds) is 1000. How is 2018 written? — ፳፻፲፰: twenty (፳) hundreds (፻) plus ten (፲) and eight (፰). ፪፻፲፰ is 218, ፲፰፻፳ is 1820, ፳፻፹ is 2080."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ቅዱስ ያሬድ የደረሳቸው ዜማዎች በሦስት ስልቶች ይከፈላሉ፤ ግዕዝ፣ ዕዝል እና አንድ ሌላ። ሦስተኛው ስልት ምን ይባላል?",
+    "options": ["አራራይ", "ቅኔ", "ወረብ", "ማኅሌት"],
+    "correctIndex": 0,
+    "gloss": "The chants of Saint Yared fall into three modes: Ge'ez, Ezel and one more. What is the third called? — Araray. Qene (poetry), wereb (a chant form) and mahlet (a night chant service) are church-music terms, but not modes."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "የፀሐይ ብርሃን ምድር ለመድረስ 8 ደቂቃ ገደማ ይወስድበታል። ከጨረቃ የተንፀባረቀ ብርሃን ደግሞ ምድር ለመድረስ በግምት ምን ያህል ጊዜ ይወስድበታል?",
+    "options": ["ከ1 ሰከንድ ጥቂት በላይ", "8 ሰከንድ ገደማ", "1 ደቂቃ ገደማ", "8 ደቂቃ ገደማ"],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. How long does light reflected from the Moon take? — Just over a second (about 1.3 s): the Moon is about 384,000 km away and light travels about 300,000 km per second (the Sun is roughly 400 times farther)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የአፍሪካ ዝቅተኛው ቦታ ከባሕር ወለል በታች 150 ሜትር ገደማ የሚገኝ የጨው ሐይቅ ነው። ይህ ሐይቅ በየትኛው አገር ይገኛል?",
+    "options": ["ኢትዮጵያ", "ግብፅ", "ጅቡቲ", "ሊቢያ"],
+    "correctIndex": 2,
+    "gloss": "Africa's lowest point is a salt lake about 150 m below sea level. Which country is it in? — Djibouti (Lake Assal, about −155 m). Ethiopia's Danakil (about −125 m) and Egypt's Qattara Depression (about −133 m) are the near-miss traps."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ከአድማስ ባሻገር» የተሰኘውን ልብ ወለድ የጻፈው ደራሲ ማን ነው?",
+    "options": ["ስብሐት ገብረ እግዚአብሔር", "በዓሉ ግርማ", "ብርሃኑ ዘሪሁን", "አቤ ጉበኛ"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novel \"Beyond the Horizon\" (Kadmas Bashager)? — Be'alu Girma (1970), also author of \"Oromay\". The others are fellow Amharic novelists of the period."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በአማርኛ «ቀይ ቀበሮ» እየተባለ የሚጠራው የኢትዮጵያ ተኩላ በብዛት የሚገኘው በየትኛው ብሔራዊ ፓርክ ነው?",
+    "options": ["ስሜን ተራሮች", "ባሌ ተራሮች", "አዋሽ", "ነጭ ሳር"],
+    "correctIndex": 1,
+    "gloss": "In which national park does the Ethiopian wolf, called \"red fox\" in Amharic, live in the largest numbers? — Bale Mountains, home to the biggest population. The Simien Mountains have a smaller one; Awash and Nech Sar are lowland parks without it."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ኮምፒውተሮች በሚጠቀሙበት ባለ ሁለት አሃዝ (ባይናሪ) የቁጥር አጻጻፍ 1111 የሚወክለው የትኛውን ቁጥር ነው?",
+    "options": ["4", "8", "15", "16"],
+    "correctIndex": 2,
+    "gloss": "In the binary notation computers use, what number does 1111 stand for? — 15: 8 + 4 + 2 + 1. 16 is the trap (10000 in binary)."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ላሊበላ «ሁለተኛዋ ኢየሩሳሌም» እንድትሆን ታስቦ እንደተቀረጸች ይነገራል፤ አብያተ ክርስቲያናቱን በሁለት ቡድን የሚከፍለው ጅረትም የቅድስት ምድርን ወንዝ ስም ይዟል። ስሙ ምንድን ነው?",
+    "options": ["ዮርዳኖስ", "ግዮን", "ኤፍራጥስ", "ጤግሮስ"],
+    "correctIndex": 0,
+    "gloss": "Lalibela is said to have been carved as a \"second Jerusalem\", and the stream dividing its churches into two groups bears the name of a Holy Land river. What is it? — Yordanos (Jordan). Gihon is the trap: a biblical river Ethiopians link to the Abay, but not the Holy Land's."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የሮዜታ ድንጋይ አንድን አዋጅ በሦስት ዓይነት ጽሕፈት ይዟል፤ በሂሮግሊፍ፣ በዲሞቲክ እና በሌላ አንድ። ሦስተኛው የትኛው ነው?",
+    "options": ["ጥንታዊ ግሪክ", "ላቲን", "ፊንቄ", "ዕብራይስጥ"],
+    "correctIndex": 0,
+    "gloss": "The Rosetta Stone carries one decree in three scripts: hieroglyphic, demotic and one more. Which? — Ancient Greek, which is what let scholars decipher the hieroglyphs."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የዋልት ዲዝኒ ስቱዲዮ የመጀመሪያው ሙሉ ርዝመት ያለው የአኒሜሽን ፊልም የትኛው ነው?",
+    "options": ["ፒኖኪዮ", "ስኖው ዋይት", "ባምቢ", "ሲንደሬላ"],
+    "correctIndex": 1,
+    "gloss": "What was Walt Disney studio's first feature-length animated film? — Snow White and the Seven Dwarfs (1937). Pinocchio (1940), Bambi (1942) and Cinderella (1950) followed."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በስፔኗ ቢልባኦ ከተማ የሚገኘውን፣ በብረት ልባስ የተሸፈነውን የጉገንሃይም ሙዚየም የነደፈው አርክቴክት ማን ነው?",
+    "options": ["ዛሃ ሃዲድ", "ኖርማን ፎስተር", "ሬንዞ ፒያኖ", "ፍራንክ ጌሪ"],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the metal-clad Guggenheim Museum in Bilbao, Spain? — Frank Gehry (1997, titanium cladding). The others are star architects of the same generation."
+  }
+]

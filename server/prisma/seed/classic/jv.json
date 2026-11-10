@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Paribasan Jawa sing ngélingaké supaya ora kesusu muni: “Alon-alon waton …”. Tembung pungkasané apa?",
+    "options": ["Tekan", "Rampung", "Kelakon", "Mulih"],
+    "correctIndex": 2,
+    "gloss": "A Javanese saying warning against haste: 'Slowly, as long as…'. What is the last word? — Kelakon ('it gets done'): 'alon-alon waton kelakon'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Rara lair ing wulan Januari 2000. Ing wulan Désèmber 2025, umuré wis pira?",
+    "options": ["Selikur", "Selawé", "Rong puluh", "Telung puluh"],
+    "correctIndex": 1,
+    "gloss": "Rara was born in January 2000. How old is she in December 2025? — Selawé (25): Javanese has its own word for 25 instead of the regular 'limang likur'; selikur is 21."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Laba-laba kerep dikira serangga, padhahal dudu. Sikilé laba-laba ana pira?",
+    "options": ["Enem", "Papat", "Sepuluh", "Wolu"],
+    "correctIndex": 3,
+    "gloss": "Spiders are often taken for insects, but they aren't. How many legs does a spider have? — Eight (wolu); six is the insect trap."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing pagelaran wayang kulit sewengi natas, sapa sing nglakokaké wayang lan nyuwaraké kabèh paragané?",
+    "options": ["Sindhèn", "Niyaga", "Dhalang", "Waranggana"],
+    "correctIndex": 2,
+    "gloss": "In an all-night shadow-puppet show, who moves the puppets and voices every character? — The dhalang. Sindhèn and waranggana are female singers, niyaga the gamelan players."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gudheg, panganan khas Yogyakarta sing legi lan coklat, digawé saka apa?",
+    "options": ["Nangka enom", "Pepaya enom", "Rebung", "Tela"],
+    "correctIndex": 0,
+    "gloss": "Gudeg, Yogyakarta's sweet brown dish, is made from what? — Young jackfruit (nangka enom, gori). Bamboo shoot (rebung) is the lumpia filling."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saben taun mayuta-yuta wong Islam saka sakdonya ngubengi Ka'bah nalika ibadah haji. Ka'bah dumunung ing kutha endi?",
+    "options": ["Madinah", "Mekah", "Yérusalem", "Kairo"],
+    "correctIndex": 1,
+    "gloss": "Every year millions of Muslims circle the Kaaba during the hajj. Which city is it in? — Mecca; Medina, the Prophet's city, is the near trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bu Narti tuku tempé telung papan, regané Rp3.000 saben papan. Dhèwèké mbayar nganggo dhuwit Rp10.000. Susuké pira?",
+    "options": ["Rp1.000", "Rp2.000", "Rp3.000", "Rp7.000"],
+    "correctIndex": 0,
+    "gloss": "Bu Narti buys three blocks of tempeh at Rp3,000 each and pays with Rp10,000. Her change? — Rp1,000: 3 × 3,000 = 9,000; Rp7,000 is the change for one block."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Terusna urutan iki: 3, 6, 12, 24, … Angka sabanjuré pira?",
+    "options": ["30", "36", "42", "48"],
+    "correctIndex": 3,
+    "gloss": "Continue: 3, 6, 12, 24, … — 48: each number doubles. 30 and 36 are the traps of adding 6 or 12."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ing liga bal-balan, menang olèh 3 poin, imbang olèh 1, kalah olèh 0. Sawijining tim menang ping loro, imbang sapisan lan kalah sapisan. Poiné pira?",
+    "options": ["5", "6", "8", "7"],
+    "correctIndex": 3,
+    "gloss": "In a football league a win is 3 points, a draw 1, a loss 0. A team wins twice, draws once and loses once. Points? — 7: 3 + 3 + 1 + 0."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Menara lonceng sing misuwur amarga miring dumunung ing kutha Pisa. Kutha iku ana ing negara endi?",
+    "options": ["Prancis", "Spanyol", "Yunani", "Italia"],
+    "correctIndex": 3,
+    "gloss": "The bell tower famous for leaning is in Pisa. Which country is Pisa in? — Italy."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yèn ngaturi simbah mangan, wong Jawa ora ngucap “mangan”, nanging nganggo tembung krama inggil. Tembung apa?",
+    "options": ["Dhahar", "Nedha", "Sare", "Unjuk"],
+    "correctIndex": 0,
+    "gloss": "Inviting a grandparent to eat, a Javanese speaker doesn't say 'mangan' but uses the high honorific (krama inggil). Which word? — Dhahar. Nedha is plain krama, used of oneself; sare is 'sleep', unjuk 'drink'."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kali paling dawa ing pulo Jawa iki tuwuh ing Wonogiri, Jawa Tengah, lan muara ing Gresik, Jawa Timur. Kali apa?",
+    "options": ["Kali Brantas", "Bengawan Solo", "Kali Progo", "Kali Serayu"],
+    "correctIndex": 1,
+    "gloss": "Java's longest river rises in Wonogiri, Central Java, and reaches the sea at Gresik, East Java. Which? — Bengawan Solo. The Brantas, second longest, lies wholly in East Java."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gamelan Jawa nduwé rong laras utawa tangga nada. Siji pélog, sijiné manèh apa?",
+    "options": ["Madenda", "Degung", "Sléndro", "Salisir"],
+    "correctIndex": 2,
+    "gloss": "Javanese gamelan has two tunings: pélog and which other? — Sléndro. Madenda and degung are Sundanese tunings, salisir a Balinese one."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Godhong ijo ngolah panganan nganggo sinar srengéngé. Gas apa sing diserep saka hawa kanggo proses kuwi?",
+    "options": ["Oksigen", "Nitrogen", "Hidrogen", "Karbon dioksida"],
+    "correctIndex": 3,
+    "gloss": "Green leaves make food from sunlight. Which gas do they take from the air for it? — Carbon dioxide; oxygen is what they give off."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kanca janjian ketemu “jam setengah sanga ésuk”. Ing jam digital, iku jam pira?",
+    "options": ["09.30", "08.30", "08.15", "09.00"],
+    "correctIndex": 1,
+    "gloss": "A friend agrees to meet at 'half nine in the morning' in Javanese. What time is that on a digital clock? — 08.30: Javanese counts the half hour towards the coming hour ('half to nine'); 09.30 is the English-style trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ing kandhang ana pitik lan wedhus. Gunggungé sirah ana lima, gunggungé sikil ana patbelas. Wedhusé ana pira?",
+    "options": ["Siji", "Loro", "Telu", "Papat"],
+    "correctIndex": 1,
+    "gloss": "A pen holds chickens and goats: five heads, fourteen legs. How many goats? — Two: 2 goats × 4 + 3 chickens × 2 = 14."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kimchi, sawi sing difermentasi nganggo lombok lan bawang, iku panganan khas negara endi?",
+    "options": ["Jepang", "Tiongkok", "Korea", "Thailand"],
+    "correctIndex": 2,
+    "gloss": "Kimchi, cabbage fermented with chilli and garlic, is the signature dish of which country? — Korea (both Koreas, hence no 'South')."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ing basa Jawa, anaké anak diarani putu, anaké putu diarani buyut, anaké buyut diarani canggah. Bu Sri iku canggahé Mbah Karto. Yèn saben generasi kira-kira 25 taun, Mbah Karto luwih tuwa kira-kira pira?",
+    "options": ["50 taun", "75 taun", "100 taun", "125 taun"],
+    "correctIndex": 2,
+    "gloss": "In Javanese a child's child is putu, a putu's child buyut, a buyut's child canggah. Bu Sri is Mbah Karto's canggah. At about 25 years a generation, how much older is he? — About 100 years: child, grandchild, great-grandchild, great-great-grandchild = 4 generations. 75 is the trap of counting the three named words."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Serial animasi bocah kembar gundhul Upin lan Ipin digawé ing negara endi?",
+    "options": ["Malaysia", "Indonesia", "Brunei", "Singapura"],
+    "correctIndex": 0,
+    "gloss": "The cartoon about the bald twins Upin and Ipin is made in which country? — Malaysia (Les' Copaque Production)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sepur budhal saka Yogyakarta jam 21.45 lan lakuné 8 jam 30 menit. Jam pira sepur iku tekan Jakarta?",
+    "options": ["06.45", "05.15", "07.15", "06.15"],
+    "correctIndex": 3,
+    "gloss": "A train leaves Yogyakarta at 21.45 and travels 8 h 30 min. When does it reach Jakarta? — 06.15 the next morning."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Marco Polo, sing lelungan nganti tekan kratoné Kubilai Khan ing Tiongkok, iku saudagar asal kutha endi?",
+    "options": ["Genova", "Roma", "Venesia", "Firenze"],
+    "correctIndex": 2,
+    "gloss": "Marco Polo, who travelled to Kublai Khan's court in China, was a merchant from which city? — Venice. Genoa is the trap: he dictated his book while a prisoner there."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Astronot sing massané 70 kg ing Bumi mabur menyang Rembulan. Ing kana, massané dadi pira?",
+    "options": ["Kira-kira 12 kg", "Tetep 70 kg", "Kira-kira 35 kg", "Kira-kira 140 kg"],
+    "correctIndex": 1,
+    "gloss": "An astronaut with a mass of 70 kg on Earth flies to the Moon. What is his mass there? — Still 70 kg: mass doesn't change; only weight drops to about a sixth (the 12 kg trap)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Miturut legendha asal-usulé aksara Jawa, Aji Saka nduwé abdi loro sing padha setya marang dhawuhé nganti tarung lan mati bebarengan. Sapa abdi loro mau?",
+    "options": ["Gareng lan Petruk", "Sabdapalon lan Nayagenggong", "Bancak lan Doyok", "Dora lan Sembada"],
+    "correctIndex": 3,
+    "gloss": "In the legend of the Javanese script, Aji Saka had two servants so loyal to his orders that they fought and died together. Who? — Dora and Sembada. The others are other famous servant pairs: Pandawa clowns, Brawijaya's legendary servants, Panji's clowns."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Weton, gabungan dina lan pasaran kaya Setu Pahing utawa Jemuwah Kliwon, baleni manèh saben pirang dina?",
+    "options": ["12", "30", "35", "40"],
+    "correctIndex": 2,
+    "gloss": "A weton, the pairing of weekday and market day such as Saturday Pahing, repeats every how many days? — 35 (selapan): 7 weekdays × 5 market days; 12 is the trap of adding."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kali Amazon, kali sing banyuné paling akèh ing donya, muara ing samodra endi?",
+    "options": ["Atlantik", "Pasifik", "Hindia", "Arktik"],
+    "correctIndex": 0,
+    "gloss": "The Amazon, the river with the most water in the world, flows into which ocean? — The Atlantic, although it rises in the Andes near the Pacific."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Lampu 10 watt diurubaké suwéné 10 jam. Pira listrik sing dientèkaké?",
+    "options": ["100 kWh", "10 kWh", "1 kWh", "0,1 kWh"],
+    "correctIndex": 3,
+    "gloss": "A 10-watt lamp burns for 10 hours. How much electricity does it use? — 0.1 kWh: 100 watt-hours, and a kilowatt-hour is 1,000 watt-hours."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Gudèl iku anaké kebo. Paribasan “kebo nusu gudèl” kanggo nggambaraké apa?",
+    "options": ["Wong tuwa sinau marang wong enom", "Anak sing ora bekti marang wong tuwané", "Wong sing seneng pamer", "Wong sing ora gelem ngalah"],
+    "correctIndex": 0,
+    "gloss": "A gudèl is a buffalo calf. What does the saying 'the buffalo suckles from its calf' describe? — An elder learning from someone younger."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing alam liar, kéwan iki saiki mung kari ana ing Taman Nasional Ujung Kulon, ing pucuk kulon pulo Jawa. Kéwan apa?",
+    "options": ["Banthèng", "Badhak Jawa", "Owa Jawa", "Macan tutul Jawa"],
+    "correctIndex": 1,
+    "gloss": "In the wild this animal now survives only in Ujung Kulon National Park, at Java's western tip. Which? — The Javan rhino. Banteng, Javan gibbon and Javan leopard also live elsewhere in Java."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kodhe QR kerep dipindai nganggo hapé kanggo mbayar. “QR” iku cekakan saka apa?",
+    "options": ["Quick Read", "Query Result", "Quick Response", "Quality Record"],
+    "correctIndex": 2,
+    "gloss": "QR codes are scanned with phones to pay. What does 'QR' stand for? — Quick Response (Denso Wave, 1994)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Turnamen tenis Grand Slam endi sing dimainaké ing lapangan lemah abang?",
+    "options": ["Wimbledon", "Australia Terbuka", "AS Terbuka", "Prancis Terbuka"],
+    "correctIndex": 3,
+    "gloss": "Which Grand Slam tennis tournament is played on red clay? — The French Open (Roland Garros). Wimbledon is grass, the other two hard courts."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Perjanjian taun 1755 sing mbagi Mataram dadi Kasunanan Surakarta lan Kasultanan Ngayogyakarta diarani Perjanjian apa?",
+    "options": ["Giyanti", "Salatiga", "Tuntang", "Bongaya"],
+    "correctIndex": 0,
+    "gloss": "The 1755 treaty that split Mataram into the Surakarta Sunanate and the Yogyakarta Sultanate is the Treaty of… — Giyanti. Salatiga (1757) created Mangkunegaran; Tuntang (1811) and Bongaya (1667) are other colonial-era treaties."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ukara kondhang “amenangi jaman édan” asalé saka serat anggitané R. Ng. Ranggawarsita. Serat apa?",
+    "options": ["Wulangrèh", "Kalatidha", "Centhini", "Tripama"],
+    "correctIndex": 1,
+    "gloss": "The famous line 'living through a mad age' comes from a work by Ranggawarsita. Which? — Serat Kalatidha. Wulangrèh is by Pakubuwana IV, Tripama by Mangkunegara IV, Centhini a court compilation."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ing pucuk Gunung Lawu, banyu digodhog nganti umob. Dibandhingaké ing pinggir segara, suhu umobé banyu ing kana kepriyé?",
+    "options": ["Luwih dhuwur", "Padha waé", "Luwih asor", "Gumantung gedhéné geni"],
+    "correctIndex": 2,
+    "gloss": "Water is boiled on the summit of Mount Lawu. Compared with the seashore, its boiling temperature is… — Lower: air pressure is lower up high, so water boils below 100 °C."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Papat negara iki padha ana ing pulo sing uga dadi wilayah Indonésia. Endi sing tapel wates dharatané ora gathuk karo Indonésia?",
+    "options": ["Malaysia", "Papua Nugini", "Timor Lèste", "Brunei Darussalam"],
+    "correctIndex": 3,
+    "gloss": "All four countries share an island with Indonesian territory. Which has no land border with Indonesia? — Brunei: it is on Borneo but surrounded by Malaysian Sarawak."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Patung prunggu wong lanang lungguh mikir karo janggut disangga tangan, “Le Penseur”, iku karyané sapa?",
+    "options": ["Michelangelo", "Auguste Rodin", "Donatello", "Gian Lorenzo Bernini"],
+    "correctIndex": 1,
+    "gloss": "The bronze of a seated man thinking with his chin on his hand, 'The Thinker', is by whom? — Auguste Rodin."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mendoan, gorengan tempé khas Banyumas, jenengé asalé saka tembung Banyumasan “mendo”. Apa tegesé?",
+    "options": ["Setengah mateng", "Garing kriuk", "Tipis banget", "Gurih asin"],
+    "correctIndex": 0,
+    "gloss": "Mendoan, Banyumas fried tempeh, is named after the dialect word 'mendo'. What does it mean? — Half-cooked (soft): mendoan is fried only briefly and stays limp."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kéwan segara endi sing nduwé jantung telu?",
+    "options": ["Iwak hiu", "Ubur-ubur", "Gurita", "Lintang segara"],
+    "correctIndex": 2,
+    "gloss": "Which sea creature has three hearts? — The octopus. Jellyfish and starfish have no heart at all, a shark has one."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Berkas 80 MB diundhuh nganggo internet sing kacepetané ajeg 80 Mbps. Paling cepet butuh wektu pira?",
+    "options": ["1 detik", "8 detik", "10 detik", "80 detik"],
+    "correctIndex": 1,
+    "gloss": "An 80 MB file is downloaded at a steady 80 Mbps. The fastest it can take? — 8 seconds: MB is megabytes, Mbps megabits per second, and a byte is 8 bits. 1 second is the autopilot trap."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Game Tetris, sing baloké tiba lan kudu ditata dadi larikan, pisanan digawé ing negara endi?",
+    "options": ["Jepang", "Amérika Serikat", "Jerman Kulon", "Uni Soviet"],
+    "correctIndex": 3,
+    "gloss": "Tetris, the game of falling blocks stacked into rows, was first made in which country? — The Soviet Union (Alexey Pajitnov, Moscow, 1984). Japan is the trap through Nintendo's Game Boy version."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing pewayangan, sapa ibuné Nakula lan Sadéwa, kembar paling enom ing Pandhawa?",
+    "options": ["Dèwi Kunthi", "Dèwi Gendari", "Dèwi Madrim", "Dèwi Drupadi"],
+    "correctIndex": 2,
+    "gloss": "In wayang, who is the mother of Nakula and Sadéwa, the youngest Pandawa twins? — Dewi Madrim. Kunthi bore the three elder brothers, Gendari the Kurawa; Drupadi is the Pandawa's wife."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Prasasti taun 732 Masèhi sing ditemokaké ing Gunung Wukir, Magelang, lan nyebut jeneng Raja Sanjaya, diarani prasasti apa?",
+    "options": ["Canggal", "Kalasan", "Tugu", "Kedukan Bukit"],
+    "correctIndex": 0,
+    "gloss": "The 732 CE inscription found at Gunung Wukir, Magelang, naming King Sanjaya, is called the… inscription. — Canggal (654 Saka). Kalasan is 778 Central Java, Tugu Tarumanagara, Kedukan Bukit Srivijaya."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kabel listrik umumé nganggo tembaga. Nanging logam endi sing sejatiné nyalurké listrik luwih apik tinimbang tembaga?",
+    "options": ["Emas", "Perak", "Aluminium", "Wesi"],
+    "correctIndex": 1,
+    "gloss": "Electric wires are usually copper. Which metal actually conducts electricity better than copper? — Silver, the best conductor of all metals; gold, used on contacts for not corroding, conducts worse than copper."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Perjanjian Tordesillas taun 1494 mbagi donya sing lagi ditemokaké dadi rong wilayah. Antarané negara endi waé?",
+    "options": ["Spanyol lan Inggris", "Portugis lan Walanda", "Spanyol lan Portugis", "Inggris lan Prancis"],
+    "correctIndex": 2,
+    "gloss": "The 1494 Treaty of Tordesillas split the newly found world into two zones. Between which countries? — Spain and Portugal."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wong Jawa ngarani kréta api “sepur”, saka tembung Walanda “spoor”. Ing basa Walanda, apa tegesé “spoor”?",
+    "options": ["Rel", "Lokomotif", "Gerbong", "Peluit"],
+    "correctIndex": 0,
+    "gloss": "Javanese calls the train 'sepur', from Dutch 'spoor'. What does 'spoor' mean in Dutch? — Track/rail (spoorweg = railway); a train is 'trein'."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Masjid Istiqlal ing Jakarta dirancang déning arsitèk sing agamané Kristen. Sapa arsitèk iku?",
+    "options": ["Soejoedi Wirjoatmodjo", "Henri Maclaine Pont", "Thomas Karsten", "Friedrich Silaban"],
+    "correctIndex": 3,
+    "gloss": "Jakarta's Istiqlal Mosque was designed by a Christian architect. Who? — Friedrich Silaban, a Batak Protestant, won the 1955 design contest. Soejoedi designed the parliament building, Maclaine Pont the ITB hall, Karsten planned Semarang and Malang."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Komponis Prancis endi sing kepincut swara gamelan Jawa ing Pameran Donya Paris 1889, lan pangaruhé katon ing karya-karyané?",
+    "options": ["Claude Debussy", "Charles Gounod", "Georges Bizet", "Hector Berlioz"],
+    "correctIndex": 0,
+    "gloss": "Which French composer was captivated by Javanese gamelan at the 1889 Paris World's Fair, with its influence heard in his works? — Claude Debussy (e.g. 'Pagodes'). Bizet and Berlioz were already dead by 1889."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sapa sing nyipta World Wide Web ing taun 1989 nalika nyambut gawé ing CERN?",
+    "options": ["Vint Cerf", "Tim Berners-Lee", "Bill Gates", "Linus Torvalds"],
+    "correctIndex": 1,
+    "gloss": "Who invented the World Wide Web in 1989 while working at CERN? — Tim Berners-Lee. Vint Cerf is the trap: he co-designed TCP/IP, the internet underneath."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Yogyakarta dumunung ing sisih kidul khatulistiwa. Ing wulan endi wayangané Tugu Yogyakarta tiba ngidul nalika srengéngé ana ing dhuwur dhéwé?",
+    "options": ["Januari", "Nopèmber", "Désèmber", "Juni"],
+    "correctIndex": 3,
+    "gloss": "Yogyakarta lies south of the equator (about 7.8° S). In which month does the Tugu monument's midday shadow fall to the south? — June: the Sun is then over the northern tropic, north of Yogyakarta. From November to January it is south of the city, so the shadow points north."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Unsur kimia nomer 92 dijenengi miturut planèt Uranus. Apa jenengé unsur nomer 94?",
+    "options": ["Neptunium", "Amerisium", "Plutonium", "Kurium"],
+    "correctIndex": 2,
+    "gloss": "Element 92 is named after Uranus. What is element 94 called? — Plutonium: 93 and 94 follow the planets outward, Neptunium then Plutonium. Americium (95) and curium (96) come next."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Sengkalan diwaca saka mburi. Taun Saka pira sing dituduhaké sengkalan “Sirna Ilang Kertaning Bumi”?",
+    "options": ["1004", "1040", "1440", "1400"],
+    "correctIndex": 3,
+    "gloss": "A sengkalan (word chronogram) is read backwards. Which Saka year does 'Sirna Ilang Kertaning Bumi' give? — 1400: sirna = 0, ilang = 0, kerta = 4, bumi = 1, read in reverse."
+  }
+]
