@@ -1,6 +1,6 @@
 import { Prisma, type Run } from '@prisma/client'
 import { awardBadges, runBadges } from './badges.js'
-import { callFriend, type FriendAnswer } from './phoneAFriend.js'
+import { callFriend, type FriendAnswer, playerNameOf } from './phoneAFriend.js'
 import { shuffledOrder } from './questionGen.js'
 import { getQuestionById, getRunQuestion, type PoolQuestion, type RunQuestion } from './questionPool.js'
 import {
@@ -336,6 +336,7 @@ export const useRunLifeline = async (runId: string, userId: string, lifeline: Li
     correctIndex: correctShown,
     removed: run.removedIndexes,
     level,
+    playerName: await playerNameOf(run.userId),
   })
   return { lifeline, friend, run: toView(updated, question) }
 }

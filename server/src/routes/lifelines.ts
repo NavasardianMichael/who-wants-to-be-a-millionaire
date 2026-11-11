@@ -5,7 +5,7 @@ import { isLocale } from '../lib/locales.js'
 import { asBoundedString, asInteger } from '../lib/request.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
-import { callFriend } from '../services/phoneAFriend.js'
+import { callFriend, playerNameOf } from '../services/phoneAFriend.js'
 
 export const lifelinesRouter = Router()
 
@@ -34,7 +34,8 @@ lifelinesRouter.post(
       ? body.removed.filter((index: unknown) => asInteger(index, 0, 3) !== undefined && index !== correctIndex)
       : []
 
-    const answer = await callFriend({ locale: body.locale, question, options, correctIndex, removed, level: body.level })
+    const playerName = await playerNameOf(req.session?.userId)
+    const answer = await callFriend({ locale: body.locale, question, options, correctIndex, removed, level: body.level, playerName })
     return ok(res, answer)
   })
 )

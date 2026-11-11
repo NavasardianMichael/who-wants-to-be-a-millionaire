@@ -2,6 +2,7 @@ import { clip, generateJson, isAiConfigured, type JsonSchema } from '../lib/ai/i
 import { type Level, OPTION_LETTERS } from '../lib/game.js'
 import { type FriendConfidence, friendPick } from '../lib/lifelines.js'
 import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
+import { prisma } from '../lib/prisma.js'
 
 /**
  * Phone a Friend. **Code decides, the model only speaks.** `friendPick` chooses the answer
@@ -41,6 +42,15 @@ export type FriendRequest = {
   correctIndex: number
   removed: number[]
   level: Level
+  /** The signed-in player's display name; without one the friend never names the caller. */
+  playerName?: string | null
+}
+
+/** The display name the friend may greet the caller by — null when signed out or unknown. */
+export const playerNameOf = async (userId: string | undefined): Promise<string | null> => {
+  if (!userId) return null
+  const user = await prisma.user.findUnique({ where: { id: userId }, select: { displayName: true } })
+  return user?.displayName.trim() || null
 }
 
 /**
@@ -72,6 +82,9 @@ export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> 
         `You play the friend a quiz-game player calls for help with a question. Reply in natural, spoken ${name} only.`,
         writing ?? '',
         `Invent a first name that is common in ${culture} for yourself (friendName).`,
+        request.playerName
+          ? `The caller is called ${JSON.stringify(request.playerName)}; you may address them by that name.`
+          : "You do not know the caller's name: never address them by a name or invent one for them.",
         'message: what you say on the phone, at most 35 words. Think out loud briefly, then name your answer with its letter.',
         'You must choose exactly the answer you are told to choose — never mention a different option as your answer.',
       ]
