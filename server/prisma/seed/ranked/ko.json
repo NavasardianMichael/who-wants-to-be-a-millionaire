@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "3시 30분을 한국어로 바르게 읽은 것은?",
+    "options": [
+      "세 시 삼십 분",
+      "삼 시 삼십 분",
+      "세 시 서른 분",
+      "삼 시 서른 분"
+    ],
+    "correctIndex": 0,
+    "gloss": "How do you read 3:30 in Korean? — 세 시 삼십 분: hours take the native numerals (세), minutes the Sino-Korean ones (삼십)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "스물, 서른, 마흔, 그다음에 오는 우리말 수는?",
+    "options": [
+      "예순",
+      "쉰",
+      "일흔",
+      "여든"
+    ],
+    "correctIndex": 1,
+    "gloss": "Twenty, thirty, forty, and then which native Korean number? — 쉰 (50); 예순 is 60, 일흔 70, 여든 80."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ㅅ, ㅏ, ㄴ을 한 글자로 합쳐 쓰면 어떤 글자가 될까?",
+    "options": [
+      "삼",
+      "상",
+      "산",
+      "살"
+    ],
+    "correctIndex": 2,
+    "gloss": "Put ㅅ, ㅏ, ㄴ together into one syllable block — 산: the final consonant (batchim) ㄴ goes underneath."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "이메일 주소에 꼭 들어가는 ‘@’ 기호를 한국에서는 흔히 무엇이라 부를까?",
+    "options": [
+      "달팽이",
+      "소라",
+      "고둥",
+      "골뱅이"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do Koreans commonly call the '@' sign in an e-mail address? — 골뱅이 (a whelk), after its spiral shape."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "시장에서 달걀 ‘한 판’을 사면 보통 몇 개를 받을까?",
+    "options": [
+      "10개",
+      "20개",
+      "24개",
+      "30개"
+    ],
+    "correctIndex": 3,
+    "gloss": "Buying one 'pan' (tray) of eggs at the market, how many do you usually get? — 30."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "만 원짜리 지폐에 그려진 인물은?",
+    "options": [
+      "이황",
+      "이이",
+      "세종대왕",
+      "신사임당"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who is on the 10,000-won note? — King Sejong; Yi Hwang is on the 1,000, Yi I on the 5,000, Shin Saimdang on the 50,000."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2010년 밴쿠버 올림픽에서 금메달을 딴 김연아 선수의 종목은?",
+    "options": [
+      "쇼트트랙",
+      "피겨 스케이팅",
+      "스피드스케이팅",
+      "컬링"
+    ],
+    "correctIndex": 1,
+    "gloss": "Kim Yu-na won gold at the 2010 Vancouver Olympics in which sport? — figure skating."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "드라마 〈오징어 게임〉에서 참가자들이 가장 먼저 치르는 게임은?",
+    "options": [
+      "무궁화 꽃이 피었습니다",
+      "달고나 뽑기",
+      "구슬치기",
+      "줄다리기"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the series Squid Game, which game do the players play first? — 'Red Light, Green Light' (무궁화 꽃이 피었습니다); dalgona comes second, tug of war third, marbles fourth."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "속담 ‘낮말은 새가 듣고 밤말은 ( )가 듣는다’의 빈칸에 들어갈 말은?",
+    "options": [
+      "부엉이",
+      "박쥐",
+      "고양이",
+      "쥐"
+    ],
+    "correctIndex": 3,
+    "gloss": "Proverb: 'Day words are heard by birds, night words by ( )' — 쥐 (the mouse): walls have ears, even in private."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "응급 환자가 생겨 구급차를 불러야 할 때, 한국에서 누르는 번호는?",
+    "options": [
+      "112",
+      "114",
+      "119",
+      "120"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number do you dial in Korea for an ambulance? — 119 (112 is the police, 114 directory enquiries)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《흥부와 놀부》에서 흥부가 다리를 고쳐 준 제비가 이듬해 물어다 준 것은?",
+    "options": [
+      "금화",
+      "박씨",
+      "보석",
+      "쌀"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the tale of Heungbu and Nolbu, what did the swallow whose leg Heungbu mended bring him the next year? — a gourd seed (박씨)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "고려의 뒤를 이어 조선을 세우고 첫 임금이 된 사람은?",
+    "options": [
+      "왕건",
+      "주몽",
+      "이성계",
+      "김유신"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who founded Joseon after Goryeo and became its first king? — Yi Seong-gye; Wang Geon founded Goryeo, Jumong Goguryeo, and Kim Yu-sin was a Silla general."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "견우와 직녀가 일 년에 한 번 만난다는 칠석은 음력 며칠일까?",
+    "options": [
+      "3월 3일",
+      "5월 5일",
+      "7월 7일",
+      "9월 9일"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which lunar date is Chilseok, when the Weaver Girl and the Herdsman meet? — 7th of the 7th month; 3/3 is Samjinnal, 5/5 Dano, 9/9 Jungyangjeol."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "방탄소년단 팬덤의 이름은?",
+    "options": [
+      "블링크",
+      "원스",
+      "캐럿",
+      "아미"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the name of BTS's fandom? — ARMY (아미); Blink is Blackpink's, Once Twice's, Carat Seventeen's."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "편의점에서 ‘2+1’ 행사 중인 과자를 6개 가져가려면 몇 개 값을 내야 할까?",
+    "options": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "correctIndex": 2,
+    "gloss": "At a convenience store with a '2+1' deal (buy two, get one free), how many do you pay for to take six? — 4: two sets of two paid plus one free."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "윈도 컴퓨터에서 방금 한 작업을 되돌리는 단축키는 Ctrl과 어느 키일까?",
+    "options": [
+      "Z",
+      "Y",
+      "X",
+      "V"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a Windows PC, which key with Ctrl undoes the last action? — Z (Y redoes, X cuts, V pastes)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "물을 가득 채운 유리병을 냉동실에 얼리면 병이 깨질 수 있다. 왜일까?",
+    "options": [
+      "유리가 차가워지면 휘어서",
+      "물이 얼면 부피가 늘어서",
+      "물이 얼면 무게가 늘어서",
+      "냉동실 바람이 세서"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why can a glass bottle filled with water crack in the freezer? — water expands when it freezes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "에스프레소에 뜨거운 물을 부어 만드는 커피는?",
+    "options": [
+      "카페라테",
+      "카푸치노",
+      "아메리카노",
+      "카페모카"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which coffee is an espresso topped up with hot water? — Americano (a latte and cappuccino use milk, a mocha chocolate)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "인천국제공항이 자리한 섬은?",
+    "options": [
+      "강화도",
+      "제주도",
+      "거제도",
+      "영종도"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which island is Incheon International Airport? — Yeongjong-do (joined to Yongyu-do by land reclamation)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "해리 포터가 다니는 마법 학교의 이름은?",
+    "options": [
+      "호그와트",
+      "보바통",
+      "덤스트랭",
+      "일버모니"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the name of the wizarding school Harry Potter attends? — Hogwarts; Beauxbatons, Durmstrang and Ilvermorny are other schools in the books."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "가을 길가에서 고약한 냄새가 나는 은행 열매는 어느 은행나무에 열릴까?",
+    "options": [
+      "수나무",
+      "암나무",
+      "어린 나무",
+      "늙은 나무"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ginkgo trees bear the foul-smelling seeds on autumn streets? — Female trees; that is why cities now plant male ones."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "로마 숫자 XIV는 얼마를 뜻할까?",
+    "options": [
+      "16",
+      "14",
+      "6",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the Roman numeral XIV mean? — 14: X (10) plus IV (4); 16 would be XVI."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "겨울에 문고리를 잡을 때 ‘찌릿’ 하는 정전기가 잘 생기는 날씨는?",
+    "options": [
+      "습한 날",
+      "안개 낀 날",
+      "건조한 날",
+      "비 오는 날"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which weather do you get a static shock from a door handle in winter? — dry days; moist air lets charge leak away."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "애니메이션 〈겨울왕국〉에서 엘사가 만들어 낸 눈사람의 이름은?",
+    "options": [
+      "스벤",
+      "한스",
+      "크리스토프",
+      "올라프"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Frozen, what is the name of the snowman Elsa creates? — Olaf (Sven is a reindeer, Hans a prince, Kristoff an ice harvester)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "콘서트가 끝난 뒤 관객이 ‘앙코르!’를 외치는 것은 무엇을 청하는 걸까?",
+    "options": [
+      "소리를 줄여 달라고",
+      "한 곡 더 들려 달라고",
+      "공연을 멈춰 달라고",
+      "가수를 소개해 달라고"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are fans asking for when they shout 'encore'? — one more song."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "야구에서 타자가 볼을 네 개 얻어 내면 어떻게 될까?",
+    "options": [
+      "삼진 아웃이 된다",
+      "2루까지 달려 나간다",
+      "타석을 새로 시작한다",
+      "1루까지 걸어 나간다"
+    ],
+    "correctIndex": 3,
+    "gloss": "In baseball, what happens when a batter gets four balls? — a walk (볼넷): he takes first base."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1989년 베를린 장벽이 무너진 뒤 이듬해 통일을 이룬 나라는?",
+    "options": [
+      "오스트리아",
+      "폴란드",
+      "독일",
+      "체코"
+    ],
+    "correctIndex": 2,
+    "gloss": "After the Berlin Wall fell in 1989, which country reunified the following year? — Germany (3 October 1990)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "〈포켓몬스터〉의 대표 캐릭터 피카추의 타입은?",
+    "options": [
+      "불꽃",
+      "전기",
+      "물",
+      "풀"
+    ],
+    "correctIndex": 1,
+    "gloss": "What type is Pikachu in Pokémon? — Electric."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "가나다순으로 사전에 가장 먼저 나오는 낱말은?",
+    "options": [
+      "가방",
+      "감자",
+      "개미",
+      "거미"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word comes first in Korean alphabetical order? — 가방: same start, then no final consonant (가) comes before 감, then ㅏ before ㅐ (개) and ㅓ (거)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "띠는 쥐, 소, 호랑이, 토끼 순으로 돌아간다. 토끼띠 바로 다음 해에 태어난 사람의 띠는?",
+    "options": [
+      "용띠",
+      "뱀띠",
+      "말띠",
+      "양띠"
+    ],
+    "correctIndex": 0,
+    "gloss": "The zodiac runs rat, ox, tiger, rabbit; what is the sign of the year right after the rabbit? — dragon (용)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《홍길동전》의 홍길동이 아버지를 ‘아버지’라 부르지 못해 한탄한 것은 그가 무엇이었기 때문일까?",
+    "options": [
+      "서자",
+      "양자",
+      "고아",
+      "승려"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why could Hong Gil-dong not call his father 'father' in the novel? — he was a secondary-wife's son (서자), barred from the family's full status."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "조선 시대에 비가 내린 양을 재던 기구는?",
+    "options": [
+      "자격루",
+      "앙부일구",
+      "혼천의",
+      "측우기"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Joseon instrument measured rainfall? — the cheugugi (rain gauge); jagyeongnu is a water clock, angbuilgu a sundial, honcheonui an armillary sphere."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "오늘이 수요일이라면 ‘글피’는 무슨 요일일까?",
+    "options": [
+      "금요일",
+      "일요일",
+      "목요일",
+      "토요일"
+    ],
+    "correctIndex": 3,
+    "gloss": "If today is Wednesday, what day is 글피? — Saturday: 모레 is +2 (Friday), 글피 is the day after that, +3."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "좁은 방에서 냉장고 문을 활짝 열어 두면 방 안 온도는 어떻게 될까?",
+    "options": [
+      "계속 내려간다",
+      "조금 올라간다",
+      "변하지 않는다",
+      "바깥 온도와 똑같아진다"
+    ],
+    "correctIndex": 1,
+    "gloss": "With the fridge door open in a small closed room, what happens to the room's temperature? — it rises slightly: the fridge's motor adds heat and removes none from the room."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "부엉이와 올빼미 가운데 머리에 귀처럼 솟은 깃털(귀깃)이 있는 쪽은?",
+    "options": [
+      "부엉이",
+      "올빼미",
+      "둘 다 있다",
+      "둘 다 없다"
+    ],
+    "correctIndex": 0,
+    "gloss": "Of 부엉이 and 올빼미, which has ear-like tufts on its head? — 부엉이 (eagle-owls, horned owls); 올빼미 have round heads without tufts."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "웹사이트 주소 맨 앞의 ‘https’에서 s는 무엇을 뜻할까?",
+    "options": [
+      "Speed",
+      "Server",
+      "Secure",
+      "Search"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 'https', what does the 's' stand for? — Secure (the connection is encrypted)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "다음 중 아프리카에 있지 않은 나라는?",
+    "options": [
+      "케냐",
+      "에티오피아",
+      "베네수엘라",
+      "나이지리아"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these countries is not in Africa? — Venezuela (South America)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "〈엘리제를 위하여〉를 작곡한 사람은?",
+    "options": [
+      "모차르트",
+      "슈베르트",
+      "쇼팽",
+      "베토벤"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who composed 'Für Elise'? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "얼굴을 앞과 옆에서 동시에 본 듯 그리는 입체주의의 대표 화가는?",
+    "options": [
+      "마티스",
+      "피카소",
+      "샤갈",
+      "모네"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which painter is the leading Cubist, drawing a face seen from front and side at once? — Picasso."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "카레를 노랗게 물들이는 향신료는?",
+    "options": [
+      "강황",
+      "계피",
+      "후추",
+      "정향"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice turns curry yellow? — turmeric (강황)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "증기 기관을 크게 개량했고, 이름이 전력의 단위로 남은 사람은?",
+    "options": [
+      "알레산드로 볼타",
+      "제임스 와트",
+      "앙드레마리 앙페르",
+      "게오르크 옴"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who greatly improved the steam engine and gave his name to the unit of power? — James Watt; Volta, Ampère and Ohm gave theirs to volt, ampere and ohm."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "사람을 한 번 쏘면 침이 빠져 죽는 벌은?",
+    "options": [
+      "말벌",
+      "땅벌",
+      "쌍살벌",
+      "꿀벌"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bee dies after stinging a person once, as its barbed sting is torn out? — the honeybee; wasps can sting repeatedly."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "수원 화성을 쌓을 때 도르래 원리를 이용한 거중기를 설계한 실학자는?",
+    "options": [
+      "정약용",
+      "박지원",
+      "김정호",
+      "허준"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Silhak scholar designed the pulley-based crane (geojunggi) used to build Hwaseong Fortress in Suwon? — Jeong Yak-yong; Kim Jeong-ho made maps, Heo Jun was a physician."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "오징어 두 축을 사면 모두 몇 마리일까?",
+    "options": [
+      "20마리",
+      "30마리",
+      "40마리",
+      "60마리"
+    ],
+    "correctIndex": 2,
+    "gloss": "If you buy two 'chuk' of squid, how many squid is that? — 40: one 축 is 20 squid."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "빵 반죽을 부풀리는 효모는 어떤 생물일까?",
+    "options": [
+      "균류의 한 종류",
+      "세균의 한 종류",
+      "바이러스의 한 종류",
+      "작은 식물의 한 종류"
+    ],
+    "correctIndex": 0,
+    "gloss": "What kind of organism is the yeast that makes bread dough rise? — a fungus (a single-celled one), not a bacterium."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "유럽과 아시아, 두 대륙에 걸쳐 있는 도시는?",
+    "options": [
+      "앙카라",
+      "아테네",
+      "카이로",
+      "이스탄불"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city lies on two continents, Europe and Asia? — Istanbul; Ankara is wholly in Asia, Athens in Europe, Cairo in Africa."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘아라비아 숫자’라 불리는 0부터 9까지의 숫자는 본래 어디에서 처음 쓰이기 시작했을까?",
+    "options": [
+      "인도",
+      "아라비아반도",
+      "이집트",
+      "그리스"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where did the so-called 'Arabic numerals' 0-9 first come into use? — India; Arab scholars carried them to Europe."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "백열전구 필라멘트에 쓰이는, 원소 기호 W인 금속은?",
+    "options": [
+      "텅스텐",
+      "주석",
+      "아연",
+      "납"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which metal with symbol W is used for incandescent-bulb filaments? — tungsten (from 'wolfram')."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "황금빛 장식으로 유명한 〈키스〉를 그린 오스트리아의 화가는?",
+    "options": [
+      "에곤 실레",
+      "구스타프 클림트",
+      "오스카 코코슈카",
+      "에드바르 뭉크"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Austrian painter made the gold-ornamented 'The Kiss'? — Gustav Klimt; Schiele and Kokoschka are also Austrian, Munch is Norwegian."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "삼국사기에 따르면 고구려에서 중국의 칠현금을 고쳐 거문고를 만들었다고 전하는 사람은?",
+    "options": [
+      "우륵",
+      "옥보고",
+      "박연",
+      "왕산악"
+    ],
+    "correctIndex": 3,
+    "gloss": "According to the Samguk sagi, who reworked the Chinese seven-string zither into the geomungo in Goguryeo? — Wang San-ak; Ureuk is tied to the gayageum, Ok Bo-go was a Silla geomungo master, Bak Yeon a Joseon court musician."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘பள்ளி’ என்ற சொல்லில் ‘ள’வுக்குப் பதிலாக ‘ல’ எழுதினால் எந்த உயிரினம் கிடைக்கும்?",
+    "options": [
+      "கிளி",
+      "பல்லி",
+      "எலி",
+      "புலி"
+    ],
+    "correctIndex": 1,
+    "gloss": "Write ‘பள்ளி’ (school) with ல instead of ள — which creature do you get? — பல்லி (lizard): Tamil's two L letters ள and ல make different words."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "பழைய தமிழ்க் கணக்கில் ‘கால்’ என்பது நான்கில் ஒன்று. அப்படியானால் ‘அரைக்கால்’ என்பது எவ்வளவு?",
+    "options": [
+      "எட்டில் ஒன்று",
+      "நான்கில் மூன்று",
+      "இரண்டில் ஒன்று",
+      "பதினாறில் ஒன்று"
+    ],
+    "correctIndex": 0,
+    "gloss": "In old Tamil reckoning ‘kāl’ is a quarter. So what is ‘araikkāl’? — One eighth: ‘arai’ (half) of ‘kāl’ (quarter)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘___ நாளை கோயிலுக்குப் போகிறோம்; நீ வர வேண்டாம்.’ — கோடிட்ட இடத்துக்குச் சரியான சொல் எது?",
+    "options": [
+      "நாம்",
+      "அவர்கள்",
+      "நீங்கள்",
+      "நாங்கள்"
+    ],
+    "correctIndex": 3,
+    "gloss": "‘___ are going to the temple tomorrow; you needn't come.’ — நாங்கள்: Tamil has an exclusive ‘we’ (நாங்கள், without the listener) and an inclusive one (நாம்); the listener is left out here."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "வாட்ஸ்அப்பில் நீங்கள் அனுப்பிய செய்தியின் கீழ் இரண்டு நீல டிக் குறிகள் தெரிந்தால் என்ன பொருள்?",
+    "options": [
+      "அனுப்பப்பட்டது மட்டும்",
+      "சென்றடைந்தது, படிக்கவில்லை",
+      "பெறுநர் படித்துவிட்டார்",
+      "செய்தி நீக்கப்பட்டது"
+    ],
+    "correctIndex": 2,
+    "gloss": "Two blue ticks under your WhatsApp message mean? — The recipient has read it (one grey tick: sent; two grey: delivered)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "சமையலுக்கும் எண்ணெய்க் குளியலுக்கும் பயன்படும் ‘நல்லெண்ணெய்’ எந்த விதையிலிருந்து எடுக்கப்படுகிறது?",
+    "options": [
+      "நிலக்கடலை",
+      "எள்",
+      "ஆமணக்கு",
+      "கடுகு"
+    ],
+    "correctIndex": 1,
+    "gloss": "‘Nallennai’ (‘good oil’), used for cooking and oil baths, is pressed from which seed? — Sesame (எள்)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "தமிழ்நாட்டில் ‘மலைகளின் அரசி’ என்று அழைக்கப்படும் மலைவாழிடம் எது?",
+    "options": [
+      "ஊட்டி",
+      "கொடைக்கானல்",
+      "ஏற்காடு",
+      "வால்பாறை"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Tamil Nadu hill station is called the ‘Queen of Hills’? — Ooty (Udhagamandalam); Kodaikanal is the ‘Princess’."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "சிங்கப்பூரின் நான்கு அதிகாரபூர்வ மொழிகளில் ஒன்றாக இருக்கும் இந்திய மொழி எது?",
+    "options": [
+      "இந்தி",
+      "தெலுங்கு",
+      "மலையாளம்",
+      "தமிழ்"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Indian language is one of Singapore's four official languages? — Tamil (with English, Malay and Mandarin)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "வெப்பமானியில் ஆரோக்கியமான மனித உடலின் இயல்பான வெப்பநிலை ஏறத்தாழ எவ்வளவு?",
+    "options": [
+      "35 °C",
+      "39 °C",
+      "37 °C",
+      "41 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "A healthy human body's normal temperature on a thermometer is about? — 37 °C."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "டெஸ்ட் கிரிக்கெட் போட்டிகளில் வீரர்கள் பாரம்பரியமாக எந்த நிற உடையில் ஆடுகிறார்கள்?",
+    "options": [
+      "நீலம்",
+      "வெள்ளை",
+      "மஞ்சள்",
+      "பச்சை"
+    ],
+    "correctIndex": 1,
+    "gloss": "What colour do players traditionally wear in Test cricket? — White (coloured kits are for limited-overs games)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ஜப்பானிய உணவான ‘சுஷி’யின் அடிப்படை எது?",
+    "options": [
+      "வினிகர் கலந்த சோறு",
+      "கோதுமை நூடுல்ஸ்",
+      "சோள ரொட்டி",
+      "உருளைக்கிழங்கு மசியல்"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the base of Japanese sushi? — Vinegared rice (not raw fish, as many think)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "general",
+    "scope": "local",
+    "text": "பொருள் உறையில் அச்சிடப்பட்ட ‘MRP’-யில் உள்ள ‘M’ எதைக் குறிக்கிறது?",
+    "options": [
+      "மாதாந்திர",
+      "குறைந்தபட்ச",
+      "உற்பத்தி",
+      "அதிகபட்ச"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the M in 'MRP' printed on a packet stand for? — Maximum (Maximum Retail Price): a shop may not charge more."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "யூடியூப் சின்னத்தில் சிவப்புப் பின்னணியின் நடுவே உள்ள வெள்ளை வடிவம் எது?",
+    "options": [
+      "வட்டம்",
+      "நட்சத்திரம்",
+      "முக்கோணம்",
+      "சதுரம்"
+    ],
+    "correctIndex": 2,
+    "gloss": "What white shape sits in the middle of the red YouTube logo? — A triangle (the ‘play’ sign)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "அதிகம் பேசாமலேயே உலகைச் சிரிக்க வைத்த ‘மிஸ்டர் பீன்’ கதாபாத்திரத்தில் நடித்தவர் யார்?",
+    "options": [
+      "ஜிம் கேரி",
+      "ரோவன் அட்கின்சன்",
+      "சார்லி சாப்ளின்",
+      "ஜாக்கி சான்"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who played Mr. Bean, who made the world laugh while barely speaking? — Rowan Atkinson."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘ரிங்கிட்’ என்ற நாணயம் புழக்கத்தில் உள்ள நாடு எது?",
+    "options": [
+      "மலேசியா",
+      "சிங்கப்பூர்",
+      "இந்தோனேசியா",
+      "தாய்லாந்து"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country uses the ringgit as its currency? — Malaysia (Singapore uses the dollar, Indonesia the rupiah, Thailand the baht)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "காபியும் தேநீரும் தூக்கத்தை விரட்டுவதற்குக் காரணமான வேதிப்பொருள் எது?",
+    "options": [
+      "மெலடோனின்",
+      "நிகோட்டின்",
+      "குளுக்கோஸ்",
+      "காஃபின்"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which substance makes coffee and tea chase sleep away? — Caffeine (melatonin is the body's sleep hormone)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "technology",
+    "scope": "global",
+    "text": "கைப்பேசியில் ‘ஏர்பிளேன் மோட்’ இயக்கினால் எது துண்டிக்கப்படும்?",
+    "options": [
+      "பேட்டரி சார்ஜிங்",
+      "திரை வெளிச்சம்",
+      "நெட்வொர்க் இணைப்புகள்",
+      "ஒலி"
+    ],
+    "correctIndex": 2,
+    "gloss": "Turning on airplane mode on a phone cuts off what? — Its network connections: mobile signal, and by default Wi-Fi and Bluetooth."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "சாதாரண ரூபிக் கனசதுரத்தின் ஆறு முகங்களிலும் தலா 9 வண்ணக் கட்டங்கள். மொத்தம் எத்தனை கட்டங்கள்?",
+    "options": [
+      "36",
+      "54",
+      "45",
+      "27"
+    ],
+    "correctIndex": 1,
+    "gloss": "A standard Rubik's Cube has 9 coloured squares on each of its six faces. How many in all? — 54 (6 × 9)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "science",
+    "scope": "global",
+    "text": "பிரஷர் குக்கரில் உணவு விரைவாக வேகக் காரணம் என்ன?",
+    "options": [
+      "அழுத்தத்தால் நீர் அதிக வெப்பநிலையில் கொதிப்பதால்",
+      "மூடி வெப்பத்தைப் பிரதிபலிப்பதால்",
+      "விசில் சத்தம் வெப்பம் தருவதால்",
+      "பாத்திரம் தடிமனாக இருப்பதால்"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does food cook faster in a pressure cooker? — Under pressure water boils at a higher temperature (about 120 °C instead of 100 °C)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "சதுரங்கத்தில் ‘செக்மேட்’ என்றால் என்ன?",
+    "options": [
+      "சிப்பாய் ராணியாக மாறியது",
+      "ஆட்டம் சமநிலையில் முடிந்தது",
+      "ராணி வெட்டுப்பட்டது",
+      "ராஜா தப்ப வழியில்லை; ஆட்டம் முடிந்தது"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does ‘checkmate’ mean in chess? — The king is attacked and cannot escape; the game is over."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "கைப்பேசியில் காலை அலாரம் அடிக்கும்போது ‘ஸ்னூஸ்’ அழுத்தினால் என்ன ஆகும்?",
+    "options": [
+      "அலாரம் முழுவதுமாக நீங்கும்",
+      "ஒலி அளவு கூடும்",
+      "சில நிமிடம் கழித்து மீண்டும் அடிக்கும்",
+      "கைப்பேசி அணைந்துவிடும்"
+    ],
+    "correctIndex": 2,
+    "gloss": "What happens if you press ‘Snooze’ when the morning alarm rings? — It rings again after a few minutes."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "நார்ஸ் தொன்மத்தில் சுத்தியல் ஏந்தி இடியை ஆளும் கடவுள் யார்?",
+    "options": [
+      "ஓடின்",
+      "தோர்",
+      "லோகி",
+      "ஜீயஸ்"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Norse myth, which hammer-wielding god rules thunder? — Thor (Zeus is Greek; Odin is his father)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "உங்கள் அப்பாவின் சகோதரியை உறவுமுறைப்படி எப்படி அழைப்பீர்கள்?",
+    "options": [
+      "அத்தை",
+      "பெரியம்மா",
+      "சித்தி",
+      "மாமி"
+    ],
+    "correctIndex": 0,
+    "gloss": "What do you call your father's sister? — அத்தை (சித்தி and பெரியம்மா are the mother's sisters)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "கோயில் விழாக்களிலும் திருமணங்களிலும் நாதஸ்வரத்துக்கு இணையாக முழங்கும் தாள வாத்தியம் எது?",
+    "options": [
+      "மிருதங்கம்",
+      "தபேலா",
+      "கஞ்சிரா",
+      "தவில்"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which drum thunders alongside the nadaswaram at temple festivals and weddings? — The thavil."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ரசிகர்கள் ‘சூப்பர் ஸ்டார்’ என்று கொண்டாடும் தமிழ்த் திரை நடிகர் யார்?",
+    "options": [
+      "கமல்ஹாசன்",
+      "விஜய்",
+      "ரஜினிகாந்த்",
+      "அஜித் குமார்"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Tamil film actor do fans celebrate as ‘Superstar’? — Rajinikanth."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "சோழர் காலத்தை மையமாகக் கொண்ட ‘பொன்னியின் செல்வன்’ நாவலை எழுதியவர் யார்?",
+    "options": [
+      "சாண்டில்யன்",
+      "கல்கி",
+      "சுஜாதா",
+      "ஜெயகாந்தன்"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote ‘Ponniyin Selvan’, the novel set in the Chola era? — Kalki (R. Krishnamurthy)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "தென்னிந்தியக் கோயில்களின் நுழைவாயிலில் வானுயர நிற்கும் அடுக்குச் சிற்ப அமைப்பின் பெயர் என்ன?",
+    "options": [
+      "ராஜகோபுரம்",
+      "விமானம்",
+      "மண்டபம்",
+      "கொடிமரம்"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the towering, tiered, sculpted structure over the entrance of South Indian temples called? — Rajagopuram (the vimanam rises over the sanctum)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "எதிர் அணிப் பகுதிக்குள் நுழைபவர் மூச்சு விடாமல் பாடிக்கொண்டே வீரர்களைத் தொட்டுத் திரும்பும் விளையாட்டு எது?",
+    "options": [
+      "கோ-கோ",
+      "கிட்டிப்புள்",
+      "சிலம்பம்",
+      "கபடி"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which game does a raider enter the opponents' half, chanting without taking a breath, touch players and return? — Kabaddi."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "local",
+    "text": "நீலகிரி மலைச்சரிவுகளை நீல நிறமாக்கும் நீலக்குறிஞ்சிப் பூ எத்தனை ஆண்டுகளுக்கு ஒருமுறை பூக்கும்?",
+    "options": [
+      "ஆண்டுக்கு ஒருமுறை",
+      "ஐந்து ஆண்டுக்கு ஒருமுறை",
+      "பன்னிரண்டு ஆண்டுக்கு ஒருமுறை",
+      "நூறு ஆண்டுக்கு ஒருமுறை"
+    ],
+    "correctIndex": 2,
+    "gloss": "How often does Neelakurinji, which turns the Nilgiri slopes blue, flower? — Once every twelve years."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ஒவ்வொரு குளிர்காலத்திலும் சென்னைக் கடற்கரைக்கு ஆலிவ் ரிட்லி ஆமைகள் எதற்காக வருகின்றன?",
+    "options": [
+      "இரை தேட",
+      "முட்டையிட",
+      "ஓடு மாற்ற",
+      "குளிர் காய"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why do Olive Ridley turtles come to the Chennai coast every winter? — To lay eggs (nesting season, roughly December–March)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "நூறு லட்சம் ரூபாய் என்பது எவ்வளவு?",
+    "options": [
+      "ஒரு கோடி",
+      "பத்து லட்சம்",
+      "பத்து கோடி",
+      "ஆயிரம் கோடி"
+    ],
+    "correctIndex": 0,
+    "gloss": "A hundred lakh rupees is how much? — One crore (1 crore = 100 lakh = 10 million)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "கார்த்திகை தீபத் திருநாளில் மலை உச்சியில் ‘மகா தீபம்’ ஏற்றப்படும் புகழ்பெற்ற ஊர் எது?",
+    "options": [
+      "பழனி",
+      "திருத்தணி",
+      "சிதம்பரம்",
+      "திருவண்ணாமலை"
+    ],
+    "correctIndex": 3,
+    "gloss": "On Karthigai Deepam, in which famous town is the ‘Maha Deepam’ lit on the hilltop? — Tiruvannamalai (on Arunachala hill)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘திங்கள்’ என்றால் சந்திரன். அதுபோல் வாரத்தின் முதல் நாளான ‘ஞாயிறு’ என்ற சொல்லின் பொருள் என்ன?",
+    "options": [
+      "விண்மீன்",
+      "வானம்",
+      "சூரியன்",
+      "மழை"
+    ],
+    "correctIndex": 2,
+    "gloss": "‘Thingal’ means the moon. Likewise, what does ‘Gnayiru’ (Sunday) mean? — The sun."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "இத்தாலிய பாஸ்தா பாரம்பரியமாக எந்த மாவிலிருந்து செய்யப்படுகிறது?",
+    "options": [
+      "அரிசி மாவு",
+      "கோதுமை ரவை",
+      "சோள மாவு",
+      "கடலை மாவு"
+    ],
+    "correctIndex": 1,
+    "gloss": "Traditional Italian pasta is made from which flour? — Durum wheat semolina."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "கிரிக்கெட்டில் ஒரு பந்துவீச்சாளர் ‘ஹாட்ரிக்’ எடுத்தார் என்றால் என்ன செய்தார்?",
+    "options": [
+      "தொடர்ந்து மூன்று பந்துகளில் மூன்று விக்கெட்",
+      "ஒரே ஓவரில் மூன்று சிக்ஸர் கொடுத்தார்",
+      "மூன்று மெய்டன் ஓவர்கள் வீசினார்",
+      "ஒரே போட்டியில் மூன்று கேட்ச்"
+    ],
+    "correctIndex": 0,
+    "gloss": "A bowler took a ‘hat-trick’ in cricket. What did he do? — Three wickets with three consecutive deliveries."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "துப்பறிவாளர் ஷெர்லாக் ஹோம்ஸ் லண்டனில் வசித்த ‘221B’ முகவரி எந்தத் தெருவில் உள்ளது?",
+    "options": [
+      "அபே சாலை",
+      "ஆக்ஸ்ஃபோர்ட் தெரு",
+      "டவுனிங் தெரு",
+      "பேக்கர் தெரு"
+    ],
+    "correctIndex": 3,
+    "gloss": "Detective Sherlock Holmes lived at ‘221B’ on which London street? — Baker Street."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "பாம்பு அடிக்கடி தன் பிளவுபட்ட நாக்கை வெளியே நீட்டுவது எதற்காக?",
+    "options": [
+      "விஷத்தைக் கக்க",
+      "உடலைக் குளிர்விக்க",
+      "வாசனையை அறிய",
+      "எதிரியை மிரட்ட"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does a snake keep flicking out its forked tongue? — To smell: it gathers scent particles for the Jacobson's organ."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘தி லயன் கிங்’ திரைப்படத்தில் சிம்பாவின் தந்தையின் பெயர் என்ன?",
+    "options": [
+      "ஸ்கார்",
+      "முஃபாசா",
+      "ரஃபிக்கி",
+      "டிமோன்"
+    ],
+    "correctIndex": 1,
+    "gloss": "In ‘The Lion King’, what is Simba's father called? — Mufasa (Scar is his uncle)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "பற்சிதைவைத் தடுப்பதற்காகப் பெரும்பாலான பற்பசைகளில் சேர்க்கப்படுவது எது?",
+    "options": [
+      "ஃப்ளூரைடு",
+      "அயோடின்",
+      "குளோரின்",
+      "கந்தகம்"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is added to most toothpastes to prevent tooth decay? — Fluoride."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "விண்டோஸ் கணினியில் Ctrl + Z அழுத்தினால் பொதுவாக என்ன நடக்கும்?",
+    "options": [
+      "கோப்பு சேமிக்கப்படும்",
+      "சாளரம் மூடப்படும்",
+      "உரை நகலெடுக்கப்படும்",
+      "கடைசியாகச் செய்தது ரத்தாகும்"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a Windows computer, what does Ctrl + Z usually do? — Undoes the last action."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "இந்திய நேரம் கிரீன்விச் நேரத்தைவிட 5½ மணி முன்னால். கிரீன்விச்சில் நண்பகல் 12 மணி என்றால், சென்னையில் மணி என்ன?",
+    "options": [
+      "காலை 6:30",
+      "காலை 5:30",
+      "மாலை 5:30",
+      "மாலை 6:30"
+    ],
+    "correctIndex": 2,
+    "gloss": "India is 5½ hours ahead of Greenwich time. When it is noon at Greenwich, what time is it in Chennai? — 5:30 p.m."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "காகிதத்தை வெட்டாமல் மடித்தே உருவங்கள் செய்யும் ‘ஓரிகாமி’ என்ற சொல் எந்த மொழியைச் சேர்ந்தது?",
+    "options": [
+      "சீன மொழி",
+      "ஜப்பானிய மொழி",
+      "கொரிய மொழி",
+      "வியட்நாமிய மொழி"
+    ],
+    "correctIndex": 1,
+    "gloss": "‘Origami’, the art of making figures by folding paper without cutting, is a word from which language? — Japanese (oru ‘fold’ + kami ‘paper’)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘பூ’, ‘கடை’ இரண்டையும் சேர்த்து ஒரே சொல்லாக எழுதும்போது சரியான வடிவம் எது?",
+    "options": [
+      "பூக்கடை",
+      "பூகடை",
+      "பூங்கடை",
+      "பூவுக்கடை"
+    ],
+    "correctIndex": 0,
+    "gloss": "Joining ‘பூ’ (flower) and ‘கடை’ (shop) into one word, which spelling is right? — பூக்கடை: after a one-letter word like பூ, a following hard consonant (க) doubles (வல்லினம் மிகுதல்)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "தலையில் கை வைத்து அலறும் உருவம் கொண்ட ‘தி ஸ்க்ரீம்’ ஓவியத்தை வரைந்தவர் யார்?",
+    "options": [
+      "பாப்லோ பிக்காசோ",
+      "வின்சென்ட் வான் கோ",
+      "குஸ்தாவ் கிளிம்ட்",
+      "எட்வர்ட் மங்க்"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who painted ‘The Scream’, the figure screaming with hands on its head? — Edvard Munch."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "இணையதளங்களை இணைப்புகள் வழியே பார்க்க உதவும் ‘வேர்ல்ட் வைட் வெப்’பை உருவாக்கியவர் யார்?",
+    "options": [
+      "பில் கேட்ஸ்",
+      "ஸ்டீவ் ஜாப்ஸ்",
+      "டிம் பெர்னர்ஸ்-லீ",
+      "லினஸ் டோர்வால்ட்ஸ்"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who created the World Wide Web, which lets us browse websites through links? — Tim Berners-Lee (at CERN, 1989)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "மேற்குத் தொடர்ச்சி மலையின் செங்குத்துப் பாறைகளில் வாழும், தமிழ்நாட்டின் மாநில விலங்கு எது?",
+    "options": [
+      "புலி",
+      "நீலகிரி வரையாடு",
+      "யானை",
+      "சிங்கவால் குரங்கு"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal of the Western Ghats' steep cliffs is Tamil Nadu's state animal? — The Nilgiri tahr (வரையாடு)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "சங்க கால நகர நாகரிகத்தின் சான்றுகள் கிடைத்த கீழடி அகழாய்வுத் தளம் எந்த ஆற்றின் கரையில் உள்ளது?",
+    "options": [
+      "வைகை",
+      "காவிரி",
+      "தாமிரபரணி",
+      "பாலாறு"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which river's bank is Keezhadi, the dig that revealed a Sangam-era urban settlement? — The Vaigai (near Madurai)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘மிளகாய்’ என்ற பெயரே சொல்கிறது: அமெரிக்காவிலிருந்து அது வருவதற்கு முன் தமிழர் சமையலுக்குக் காரம் தந்தது எது?",
+    "options": [
+      "கிராம்பு",
+      "கடுகு",
+      "இஞ்சி",
+      "மிளகு"
+    ],
+    "correctIndex": 3,
+    "gloss": "The very name ‘milagai’ tells it: before chilli came from the Americas, what gave Tamil cooking its heat? — Black pepper (மிளகு): ‘milagu + kāy’, the ‘pepper fruit’."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ஞானபீட விருது பெற்ற முதல் தமிழ் எழுத்தாளர் யார்?",
+    "options": [
+      "ஜெயகாந்தன்",
+      "அசோகமித்திரன்",
+      "அகிலன்",
+      "சுஜாதா"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who was the first Tamil writer to win the Jnanpith Award? — Akilan (1975, for ‘Chithirappavai’); Jayakanthan was the second (2002)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "18 காரட் தங்க நகையின் எடையில் எத்தனை சதவீதம் தூய தங்கம்?",
+    "options": [
+      "66%",
+      "75%",
+      "82%",
+      "91.6%"
+    ],
+    "correctIndex": 1,
+    "gloss": "What percentage of an 18-carat gold jewel's weight is pure gold? — 75%: pure gold is 24 carat, and 18/24 = 3/4 (91.6% is 22 carat, the ‘916’ hallmark)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "இரண்டு கனங்களின் கூட்டுத்தொகையாக இருவேறு வழிகளில் எழுதக்கூடிய மிகச் சிறிய எண் என ராமானுஜன் ஹார்டியிடம் சொன்ன ‘டாக்சி எண்’ எது?",
+    "options": [
+      "1729",
+      "1089",
+      "1001",
+      "6174"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ‘taxicab number’ did Ramanujan tell Hardy is the smallest expressible as a sum of two cubes in two ways? — 1729 = 1³ + 12³ = 9³ + 10³."
+  }
+]

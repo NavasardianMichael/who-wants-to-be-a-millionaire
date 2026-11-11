@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘ಬಳೆ’ ಪದದ ‘ಬ’ವನ್ನು ‘ಬಾ’ ಎಂದು ದೀರ್ಘಗೊಳಿಸಿದರೆ ಸಿಗುವ ಪದ ಏನನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+    "options": [
+      "ಕೈಗೆ ತೊಡುವ ಆಭರಣ",
+      "ಒಂದು ಹಣ್ಣಿನ ಗಿಡ",
+      "ಒಂದು ಹಕ್ಕಿ",
+      "ಅಡುಗೆಯ ಪಾತ್ರೆ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lengthen the 'ba' of 'baḷe' (bangle) to 'bā': what does the new word mean? — A fruit plant: 'bāḷe' is the banana; vowel length alone changes the word."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ಅಂಗಡಿಯಲ್ಲಿ ‘ಮುಕ್ಕಾಲು ಕೆ.ಜಿ. ಸಕ್ಕರೆ ಕೊಡಿ’ ಎಂದರೆ ಎಷ್ಟು ಗ್ರಾಂ ಕೊಡಬೇಕು?",
+    "options": [
+      "750 ಗ್ರಾಂ",
+      "250 ಗ್ರಾಂ",
+      "300 ಗ್ರಾಂ",
+      "600 ಗ್ರಾಂ"
+    ],
+    "correctIndex": 0,
+    "gloss": "At a shop, 'give me mukkālu kilo of sugar': how many grams? — 750 g: mukkālu is three quarters; kālu alone is a quarter, 250 g."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ಅಪ್ಪನಿಗಿಂತ ವಯಸ್ಸಿನಲ್ಲಿ ಹಿರಿಯರಾದ ಅವರ ಅಣ್ಣನನ್ನು ನೀವು ಏನೆಂದು ಕರೆಯುತ್ತೀರಿ?",
+    "options": [
+      "ಚಿಕ್ಕಪ್ಪ",
+      "ಮಾವ",
+      "ಭಾವ",
+      "ದೊಡ್ಡಪ್ಪ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do you call your father's elder brother? — Doḍḍappa ('big father'); chikkappa is the younger brother, māva the mother's brother, bhāva a brother-in-law."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ಅಂಗೈ ಹುಣ್ಣಿಗೆ ___ ಬೇಕೆ?’ — ಗಾದೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.",
+    "options": [
+      "ಔಷಧಿ",
+      "ಬಟ್ಟೆ",
+      "ಕನ್ನಡಿ",
+      "ದೀಪ"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Does a sore on the palm need a ___?' — A mirror: what is plain to see needs no proof."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ರಾಗಿ ಹಿಟ್ಟನ್ನು ಬೇಯಿಸಿ ಉಂಡೆ ಮಾಡಿ ಸಾರು ಅಥವಾ ಬಸ್ಸಾರಿನೊಂದಿಗೆ ತಿನ್ನುವುದನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?",
+    "options": [
+      "ರಾಗಿ ರೊಟ್ಟಿ",
+      "ರಾಗಿ ಮುದ್ದೆ",
+      "ರಾಗಿ ಅಂಬಲಿ",
+      "ರಾಗಿ ದೋಸೆ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do you call cooked ragi flour shaped into balls and eaten with saaru or bassaaru? — Ragi mudde. Ambali is a ragi drink."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ಎಳ್ಳು ಬೆಲ್ಲ ತಿಂದು ಒಳ್ಳೆ ಮಾತಾಡಿ’ ಎಂದು ಹಾರೈಸುವುದು ಯಾವ ಹಬ್ಬದಲ್ಲಿ?",
+    "options": [
+      "ಸಂಕ್ರಾಂತಿ",
+      "ಯುಗಾದಿ",
+      "ದೀಪಾವಳಿ",
+      "ನಾಗರ ಪಂಚಮಿ"
+    ],
+    "correctIndex": 0,
+    "gloss": "At which festival do people wish 'eat sesame and jaggery and speak sweetly'? — Sankranti, when ellu-bella is shared. Ugadi has bevu-bella instead."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕರಾವಳಿಯ ಕಂಬಳದಲ್ಲಿ ಕೆಸರು ಗದ್ದೆಯಲ್ಲಿ ಜೋಡಿಯಾಗಿ ಓಡಿಸುವ ಪ್ರಾಣಿಗಳು ಯಾವುವು?",
+    "options": [
+      "ಕುದುರೆಗಳು",
+      "ಒಂಟೆಗಳು",
+      "ಮೇಕೆಗಳು",
+      "ಕೋಣಗಳು"
+    ],
+    "correctIndex": 3,
+    "gloss": "In coastal Kambala, which animals are raced in pairs through a muddy paddy field? — Buffaloes (male)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ರಾಜ್ಯೋತ್ಸವದಂದು ಹಾರಿಸುವ ಕನ್ನಡ ಬಾವುಟದ ಎರಡು ಬಣ್ಣಗಳು ಯಾವುವು?",
+    "options": [
+      "ಕೇಸರಿ ಮತ್ತು ಹಸಿರು",
+      "ಕೆಂಪು ಮತ್ತು ಬಿಳಿ",
+      "ಹಳದಿ ಮತ್ತು ಕೆಂಪು",
+      "ಹಳದಿ ಮತ್ತು ಹಸಿರು"
+    ],
+    "correctIndex": 2,
+    "gloss": "What are the two colours of the Kannada flag flown on Rajyotsava? — Yellow and red."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕನ್ನಡ ಚಿತ್ರರಂಗದಲ್ಲಿ ‘ಸಾಹಸಸಿಂಹ’ ಎಂದೇ ಪ್ರಸಿದ್ಧರಾದ ನಟ ಯಾರು?",
+    "options": [
+      "ಅಂಬರೀಶ್",
+      "ವಿಷ್ಣುವರ್ಧನ್",
+      "ಶಂಕರ್ ನಾಗ್",
+      "ಅನಂತ್ ನಾಗ್"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Kannada actor is known as 'Sahasa Simha'? — Vishnuvardhan. Ambareesh was the 'Rebel Star'."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕರ್ನಾಟಕದಲ್ಲಿ ಗೌರಿ ಹಬ್ಬದ ಮರುದಿನವೇ ಬರುವ ಹಬ್ಬ ಯಾವುದು?",
+    "options": [
+      "ಗಣೇಶ ಚತುರ್ಥಿ",
+      "ವರಮಹಾಲಕ್ಷ್ಮಿ ವ್ರತ",
+      "ನಾಗರ ಪಂಚಮಿ",
+      "ಕೃಷ್ಣ ಜನ್ಮಾಷ್ಟಮಿ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Karnataka, which festival falls the day after Gowri Habba? — Ganesha Chaturthi: Gowri on the tritiya, her son Ganesha on the chaturthi."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಮೈಸೂರು ಅರಮನೆ ಯಾವ ರಾಜಮನೆತನದ ನೆಲೆ?",
+    "options": [
+      "ಹೊಯ್ಸಳ",
+      "ಕದಂಬ",
+      "ರಾಷ್ಟ್ರಕೂಟ",
+      "ಒಡೆಯರ್"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mysuru Palace is the seat of which royal family? — The Wodeyars."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಗಣರಾಜ್ಯೋತ್ಸವ ಮತ್ತು ಸ್ವಾತಂತ್ರ್ಯೋತ್ಸವದ ಸಮಯದಲ್ಲಿ ಬೆಂಗಳೂರಿನ ಲಾಲ್‌ಬಾಗ್‌ನಲ್ಲಿ ನಡೆಯುವುದು ಯಾವ ಪ್ರದರ್ಶನ?",
+    "options": [
+      "ಪುಸ್ತಕ ಮೇಳ",
+      "ವಾಹನ ಪ್ರದರ್ಶನ",
+      "ಫಲಪುಷ್ಪ ಪ್ರದರ್ಶನ",
+      "ಗಾಳಿಪಟ ಉತ್ಸವ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which show is held at Bengaluru's Lalbagh around Republic Day and Independence Day? — The flower show (phala-pushpa pradarshana) at the Glass House."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಯಾರಾದರೂ ನಿಮಗೆ ಯುಪಿಐ ಮೂಲಕ ಹಣ ಕಳುಹಿಸಿದರೆ, ಅದು ಖಾತೆಗೆ ಬರಲು ನೀವೇನು ಮಾಡಬೇಕು?",
+    "options": [
+      "ಯುಪಿಐ ಪಿನ್ ಹಾಕಬೇಕು",
+      "ಏನೂ ಬೇಡ, ತಾನಾಗಿ ಜಮೆಯಾಗುತ್ತದೆ",
+      "ಬಂದ ಓಟಿಪಿ ಹೇಳಬೇಕು",
+      "ಅವರ ಕ್ಯೂಆರ್ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಬೇಕು"
+    ],
+    "correctIndex": 1,
+    "gloss": "Someone sends you money by UPI: what must you do to receive it? — Nothing; the PIN is only for paying, which is how 'enter PIN to receive' scams work."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಬ್ಯಾಂಕ್ ಕಳುಹಿಸುವ ‘OTP’ಯಲ್ಲಿನ ‘O’ ಯಾವ ಪದದ ಮೊದಲಕ್ಷರ?",
+    "options": [
+      "One",
+      "Online",
+      "Open",
+      "Official"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the 'O' in a bank's OTP stand for? — One: One-Time Password."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಮಂಜು ಮುಸುಕಿದ ಬೆಟ್ಟಗಳಿಂದಾಗಿ ‘ಭಾರತದ ಸ್ಕಾಟ್ಲೆಂಡ್’ ಎನಿಸಿದ ಕರ್ನಾಟಕದ ಜಿಲ್ಲೆ ಯಾವುದು?",
+    "options": [
+      "ಮಂಡ್ಯ",
+      "ಬಳ್ಳಾರಿ",
+      "ರಾಯಚೂರು",
+      "ಕೊಡಗು"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Karnataka district, with its misty hills, is called the 'Scotland of India'? — Kodagu (Coorg)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಕ್ರಿಕೆಟ್‌ನಲ್ಲಿ ‘DRS’ ಅನ್ನು ಯಾವುದಕ್ಕೆ ಬಳಸುತ್ತಾರೆ?",
+    "options": [
+      "ಮಳೆ ಬಂದಾಗ ಗುರಿ ಲೆಕ್ಕಿಸಲು",
+      "ಓವರ್‌ಗಳನ್ನು ಎಣಿಸಲು",
+      "ಅಂಪೈರ್ ತೀರ್ಪಿನ ಮರುಪರಿಶೀಲನೆಗೆ",
+      "ಆಟಗಾರರನ್ನು ಬದಲಿಸಲು"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is DRS used for in cricket? — Reviewing an umpire's decision (Decision Review System); rain targets use the DLS method."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಪನೀರ್ ಅನ್ನು ಯಾವುದರಿಂದ ತಯಾರಿಸುತ್ತಾರೆ?",
+    "options": [
+      "ಸೋಯಾ ಅವರೆ",
+      "ಹಾಲು",
+      "ತೆಂಗಿನಕಾಯಿ",
+      "ಕಡಲೆ ಹಿಟ್ಟು"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is paneer made from? — Milk, curdled with lemon or vinegar. Tofu is the soya one."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಪ್ರೆಶರ್ ಕುಕ್ಕರ್‌ನಲ್ಲಿ ಅಡುಗೆ ಬೇಗ ಬೇಯಲು ಕಾರಣವೇನು?",
+    "options": [
+      "ಒತ್ತಡದಿಂದ ನೀರು ಹೆಚ್ಚು ಉಷ್ಣತೆಯಲ್ಲಿ ಕುದಿಯುತ್ತದೆ",
+      "ಮುಚ್ಚಳ ಶಾಖವನ್ನು ಹಿಂದಕ್ಕೆ ಚೆಲ್ಲುತ್ತದೆ",
+      "ಸೀಟಿ ಶಾಖವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ",
+      "ಪಾತ್ರೆ ದಪ್ಪವಾಗಿರುತ್ತದೆ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does food cook faster in a pressure cooker? — Under pressure water boils at a higher temperature (about 120 °C instead of 100 °C)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಬೇಸಿಗೆಯ ಬಿಸಿಲಿನಲ್ಲಿ ತಿಳಿಬಣ್ಣದ ಬಟ್ಟೆ ಕಪ್ಪು ಬಟ್ಟೆಗಿಂತ ತಂಪಾಗಿರಲು ಕಾರಣವೇನು?",
+    "options": [
+      "ಅದು ತೆಳುವಾಗಿರುತ್ತದೆ",
+      "ಅದು ಬೆವರನ್ನು ಹೀರುತ್ತದೆ",
+      "ಅದು ಗಾಳಿಯನ್ನು ತಣಿಸುತ್ತದೆ",
+      "ಅದು ಹೆಚ್ಚು ಬೆಳಕನ್ನು ಹಿಂದಕ್ಕೆ ಚೆಲ್ಲುತ್ತದೆ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why does light-coloured cloth stay cooler than black in summer sun? — It reflects more light; black absorbs it and heats up."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಆಗಾಗ ನಿಲುವು ಬದಲಿಸುವವರನ್ನು ಬಣ್ಣ ಬದಲಿಸುವ ಯಾವ ಪ್ರಾಣಿಗೆ ಹೋಲಿಸುತ್ತಾರೆ?",
+    "options": [
+      "ನರಿ",
+      "ಗಿಳಿ",
+      "ಊಸರವಳ್ಳಿ",
+      "ಹಲ್ಲಿ"
+    ],
+    "correctIndex": 2,
+    "gloss": "People who keep changing sides are compared to which colour-changing animal? — The chameleon. The fox stands for cunning, the parrot for repeating."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಯೂಟ್ಯೂಬ್ ಲಾಂಛನದಲ್ಲಿ ಕೆಂಪು ಚೌಕದೊಳಗಿರುವ ಬಿಳಿ ತ್ರಿಕೋನ ಯಾವ ಗುಂಡಿಯ ಚಿಹ್ನೆ?",
+    "options": [
+      "ರೆಕಾರ್ಡ್",
+      "ಪ್ಲೇ",
+      "ಶೇರ್",
+      "ಡೌನ್‌ಲೋಡ್"
+    ],
+    "correctIndex": 1,
+    "gloss": "The white triangle in the red box of the YouTube logo is the symbol of which button? — Play."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಕರೋಕೆಯಲ್ಲಿ ಹಾಡುವಾಗ ಹಿನ್ನೆಲೆ ಟ್ರ್ಯಾಕ್‌ನಿಂದ ತೆಗೆದುಹಾಕಿರುವುದು ಏನು?",
+    "options": [
+      "ಮುಖ್ಯ ಗಾಯಕನ ಧ್ವನಿ",
+      "ವಾದ್ಯಸಂಗೀತ",
+      "ತಾಳ",
+      "ಹಾಡಿನ ರಾಗ"
+    ],
+    "correctIndex": 0,
+    "gloss": "When singing karaoke, what has been removed from the backing track? — The lead singer's voice."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ಬೆಳಗ್ಗೆ 9ರಿಂದ ಸಂಜೆ 5ರವರೆಗೆ ಕಚೇರಿ ತೆರೆದಿದ್ದರೆ, ಅದು ಎಷ್ಟು ಗಂಟೆ ತೆರೆದಿರುತ್ತದೆ?",
+    "options": [
+      "4 ಗಂಟೆ",
+      "7 ಗಂಟೆ",
+      "9 ಗಂಟೆ",
+      "8 ಗಂಟೆ"
+    ],
+    "correctIndex": 3,
+    "gloss": "An office is open from 9 a.m. to 5 p.m. For how many hours? — 8: 5 p.m. is 17:00. '9 minus 5 = 4' is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘ಯೆನ್’ ಯಾವ ದೇಶದ ಹಣ?",
+    "options": [
+      "ಚೀನಾ",
+      "ದಕ್ಷಿಣ ಕೊರಿಯಾ",
+      "ಜಪಾನ್",
+      "ಥೈಲ್ಯಾಂಡ್"
+    ],
+    "correctIndex": 2,
+    "gloss": "The yen is the money of which country? — Japan. China has the yuan, Korea the won, Thailand the baht."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಚನ್ನಪಟ್ಟಣದ ಬಣ್ಣಬಣ್ಣದ ಗೊಂಬೆಗಳನ್ನು ಮುಖ್ಯವಾಗಿ ಯಾವುದರಿಂದ ಮಾಡುತ್ತಾರೆ?",
+    "options": [
+      "ಜೇಡಿಮಣ್ಣು",
+      "ಮೆರುಗೆಣ್ಣೆ ಹಚ್ಚಿದ ಮರ",
+      "ಹಿತ್ತಾಳೆ",
+      "ಕಾಗದದ ತಿರುಳು"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are Channapatna's colourful toys mainly made of? — Lacquered wood (traditionally ivory-wood), which is why Channapatna is called the 'toy town'."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಸ್ವಾಮಿ ಮತ್ತು ಅವನ ಗೆಳೆಯರ ‘ಮಾಲ್ಗುಡಿ’ ಕಥೆಗಳನ್ನು ಬರೆದ ಮೈಸೂರಿನ ಲೇಖಕ ಯಾರು?",
+    "options": [
+      "ಆರ್.ಕೆ. ನಾರಾಯಣ್",
+      "ರಸ್ಕಿನ್ ಬಾಂಡ್",
+      "ಚೇತನ್ ಭಗತ್",
+      "ಆರ್.ಕೆ. ಲಕ್ಷ್ಮಣ್"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Mysuru writer created Swami and his friends in the 'Malgudi' stories? — R. K. Narayan; his brother R. K. Laxman was the cartoonist who drew for them."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ನಾರ್ಸ್ ಪುರಾಣದ ಸಿಡಿಲಿನ ದೇವ ಥಾರ್‌ನ ಆಯುಧ ಯಾವುದು?",
+    "options": [
+      "ತ್ರಿಶೂಲ",
+      "ಬಿಲ್ಲು-ಬಾಣ",
+      "ಖಡ್ಗ",
+      "ಸುತ್ತಿಗೆ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the weapon of Thor, the Norse thunder god? — A hammer (Mjölnir)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಮೊದಲ ಮಳೆಯ ನಂತರ ಸಂಜೆ ದೀಪದ ಸುತ್ತ ಮುತ್ತುವ ‘ಈಸಲು’ ಯಾವ ಕೀಟದ ರೆಕ್ಕೆ ಬಂದ ರೂಪ?",
+    "options": [
+      "ಜಿರಳೆ",
+      "ನೊಣ",
+      "ಗೆದ್ದಲು",
+      "ಜೇನುನೊಣ"
+    ],
+    "correctIndex": 2,
+    "gloss": "After the first rains, the 'īsalu' that swarm round lamps in the evening are the winged form of which insect? — Termites, leaving the mound to found new colonies."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ಹಳಗನ್ನಡದ ‘ಪ’ ಇಂದು ‘ಹ’ ಆಗಿದೆ (ಪಾಲ್ → ಹಾಲು). ಹಾಗಾದರೆ ಹಳಗನ್ನಡದ ‘ಪುಲಿ’ ಯಾವ ಪ್ರಾಣಿ?",
+    "options": [
+      "ಇಲಿ",
+      "ಹುಲಿ",
+      "ಹಲ್ಲಿ",
+      "ನರಿ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Old Kannada 'p' became 'h' (pāl → hālu). So what animal is Old Kannada 'puli'? — Huli, the tiger."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಒಂದು ‘ಮಿಲಿಯನ್’ ಎಂದರೆ ನಮ್ಮ ಎಣಿಕೆಯಲ್ಲಿ ಎಷ್ಟು?",
+    "options": [
+      "ಹತ್ತು ಲಕ್ಷ",
+      "ಒಂದು ಲಕ್ಷ",
+      "ಒಂದು ಕೋಟಿ",
+      "ಹತ್ತು ಕೋಟಿ"
+    ],
+    "correctIndex": 0,
+    "gloss": "How much is a million in Indian counting? — Ten lakh: 10,00,000 = 1,000,000. A crore is ten million."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಯಕ್ಷಗಾನದಲ್ಲಿ ಹಿಮ್ಮೇಳದಲ್ಲಿ ಕುಳಿತು ಹಾಡುತ್ತಾ ಪ್ರಸಂಗವನ್ನು ಮುನ್ನಡೆಸುವವರನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?",
+    "options": [
+      "ಸೂತ್ರಧಾರ",
+      "ಹರಿದಾಸ",
+      "ವಿದೂಷಕ",
+      "ಭಾಗವತ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Yakshagana, who sits with the background ensemble and leads the story by singing? — The Bhagavata. The sutradhara is the stage-manager of classical drama; the vidushaka the jester."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ಅಂಬಿಕಾತನಯದತ್ತ’ ಎಂಬ ಕಾವ್ಯನಾಮದಲ್ಲಿ ಬರೆದ ಕವಿ ಯಾರು?",
+    "options": [
+      "ಗೋಪಾಲಕೃಷ್ಣ ಅಡಿಗ",
+      "ಪು.ತಿ. ನರಸಿಂಹಾಚಾರ್",
+      "ದ.ರಾ. ಬೇಂದ್ರೆ",
+      "ಕೆ.ಎಸ್. ನರಸಿಂಹಸ್ವಾಮಿ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which poet wrote under the pen name 'Ambikatanayadatta'? — Da. Ra. Bendre."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಮನುಷ್ಯರಿಗೆ ಕಚ್ಚಿ ರಕ್ತ ಹೀರುವ ಸೊಳ್ಳೆ ಯಾವುದು?",
+    "options": [
+      "ಗಂಡು ಸೊಳ್ಳೆ ಮಾತ್ರ",
+      "ಹೆಣ್ಣು ಸೊಳ್ಳೆ ಮಾತ್ರ",
+      "ಗಂಡು-ಹೆಣ್ಣು ಎರಡೂ",
+      "ಮರಿ ಸೊಳ್ಳೆ ಮಾತ್ರ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which mosquitoes bite people and suck blood? — Only the females, which need blood for their eggs; males feed on nectar."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ನಿಂಟೆಂಡೊ ಆಟಗಳ ಪ್ರಸಿದ್ಧ ಪಾತ್ರ ಮಾರಿಯೋನ ವೃತ್ತಿ ಏನು?",
+    "options": [
+      "ಕೊಳಾಯಿಗಾರ",
+      "ಬಡಗಿ",
+      "ಅಡುಗೆಯವನು",
+      "ಅಂಚೆಯವನು"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the job of Nintendo's Mario? — A plumber."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಆಸ್ಕರ್ ಗೆದ್ದ ‘ನಾಟು ನಾಟು’ ಹಾಡು ಯಾವ ಚಿತ್ರದ್ದು?",
+    "options": [
+      "ಬಾಹುಬಲಿ",
+      "ಪುಷ್ಪ",
+      "ಕೆಜಿಎಫ್",
+      "ಆರ್‌ಆರ್‌ಆರ್"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Oscar-winning song 'Naatu Naatu' is from which film? — RRR (Best Original Song, 2023)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2023ರಲ್ಲಿ ಚಂದ್ರನ ದಕ್ಷಿಣ ಧ್ರುವದ ಬಳಿ ಇಳಿದ ಚಂದ್ರಯಾನ-3ರ ಲ್ಯಾಂಡರ್‌ನ ಹೆಸರೇನು?",
+    "options": [
+      "ಪ್ರಜ್ಞಾನ್",
+      "ಧ್ರುವ",
+      "ವಿಕ್ರಮ್",
+      "ಅಗ್ನಿ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What was the name of Chandrayaan-3's lander, which touched down near the Moon's south pole in 2023? — Vikram. Pragyan is the rover it carried."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಸಂಗೀತದಲ್ಲಿ ‘ಅಕಾಪೆಲ್ಲಾ’ ಎಂದರೆ ಏನು?",
+    "options": [
+      "ತಾಳವಿಲ್ಲದ ವಾದ್ಯಸಂಗೀತ",
+      "ವಾದ್ಯಗಳಿಲ್ಲದೆ ಕೇವಲ ಧ್ವನಿಯಲ್ಲಿ ಹಾಡುವುದು",
+      "ಒಬ್ಬರೇ ಎಲ್ಲ ವಾದ್ಯ ನುಡಿಸುವುದು",
+      "ಮೈಕ್ ಇಲ್ಲದೆ ಹಾಡುವುದು"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does 'a cappella' mean in music? — Singing with voices alone, without instruments."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ವಾಟ್ಸ್‌ಆ್ಯಪ್ ಮತ್ತು ಇನ್‌ಸ್ಟಾಗ್ರಾಂ ಎರಡೂ ಯಾವ ಕಂಪನಿಗೆ ಸೇರಿವೆ?",
+    "options": [
+      "ಮೆಟಾ",
+      "ಗೂಗಲ್",
+      "ಮೈಕ್ರೋಸಾಫ್ಟ್",
+      "ಆ್ಯಪಲ್"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which company owns both WhatsApp and Instagram? — Meta (formerly Facebook)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಟೆನಿಸ್‌ನಲ್ಲಿ ಸೊನ್ನೆ ಅಂಕವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+    "options": [
+      "ಡ್ಯೂಸ್",
+      "ನಿಲ್",
+      "ಏಸ್",
+      "ಲವ್"
+    ],
+    "correctIndex": 3,
+    "gloss": "In tennis, what is a score of zero called? — Love. Deuce is 40–40; an ace is an unreturned serve."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಕಾಮನಬಿಲ್ಲನ್ನು ನೋಡುತ್ತಿರುವಾಗ ಸೂರ್ಯ ಎಲ್ಲಿರುತ್ತಾನೆ?",
+    "options": [
+      "ಕಾಮನಬಿಲ್ಲಿನ ಹಿಂದೆ",
+      "ನೆತ್ತಿಯ ಮೇಲೆ",
+      "ನಿಮ್ಮ ಬೆನ್ನ ಹಿಂದೆ",
+      "ಕಾಮನಬಿಲ್ಲಿನ ಪಕ್ಕದಲ್ಲಿ"
+    ],
+    "correctIndex": 2,
+    "gloss": "When you look at a rainbow, where is the Sun? — Behind you: raindrops ahead send the sunlight back towards you."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕರ್ನಾಟಕದ ಅತಿ ಎತ್ತರದ ಶಿಖರ ಯಾವುದು?",
+    "options": [
+      "ಕುದುರೆಮುಖ",
+      "ಮುಳ್ಳಯ್ಯನಗಿರಿ",
+      "ಕೊಡಚಾದ್ರಿ",
+      "ನಂದಿ ಬೆಟ್ಟ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the highest peak in Karnataka? — Mullayanagiri (about 1,930 m), in Chikkamagaluru district."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ಪೇಡ’ಕ್ಕೆ ಹೆಸರಾದ ಉತ್ತರ ಕರ್ನಾಟಕದ ನಗರ ಯಾವುದು?",
+    "options": [
+      "ಧಾರವಾಡ",
+      "ಬೆಳಗಾವಿ",
+      "ಗೋಕಾಕ್",
+      "ಮದ್ದೂರು"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which North Karnataka city is famous for its peda? — Dharwad. Belagavi is known for kunda, Gokak for karadantu, Maddur for vade."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ಹಚ್ಚೇವು ಕನ್ನಡದ ದೀಪ’ ಗೀತೆಯನ್ನು ಬರೆದ ಕವಿ ಯಾರು?",
+    "options": [
+      "ಹುಯಿಲಗೋಳ ನಾರಾಯಣರಾವ್",
+      "ಚೆನ್ನವೀರ ಕಣವಿ",
+      "ಜಿ.ಎಸ್. ಶಿವರುದ್ರಪ್ಪ",
+      "ಡಿ.ಎಸ್. ಕರ್ಕಿ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the song 'Hachchevu Kannadada Deepa'? — D. S. Karki. Huilgol Narayana Rao wrote 'Udayavagali namma cheluva Kannada nadu'."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘ಮನೆ’ + ‘ಅಲ್ಲಿ’ = ‘ಮನೆಯಲ್ಲಿ’ — ಇದು ಯಾವ ಸಂಧಿ?",
+    "options": [
+      "ವಕಾರಾಗಮ ಸಂಧಿ",
+      "ಲೋಪ ಸಂಧಿ",
+      "ಯಕಾರಾಗಮ ಸಂಧಿ",
+      "ಆದೇಶ ಸಂಧಿ"
+    ],
+    "correctIndex": 2,
+    "gloss": "'mane' + 'alli' = 'maneyalli': which sandhi? — Yakāra-āgama: a 'y' is inserted. Vakāra-āgama inserts 'v' (mara + annu = maravannu)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ಚಂದ್ರನ ಮೇಲೆ ಒಂದು ಗರಿ ಮತ್ತು ಒಂದು ಸುತ್ತಿಗೆಯನ್ನು ಒಂದೇ ಎತ್ತರದಿಂದ ಒಟ್ಟಿಗೆ ಬಿಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?",
+    "options": [
+      "ಸುತ್ತಿಗೆ ಮೊದಲು ಬೀಳುತ್ತದೆ",
+      "ಎರಡೂ ಒಟ್ಟಿಗೆ ನೆಲ ಮುಟ್ಟುತ್ತವೆ",
+      "ಗರಿ ಮೊದಲು ಬೀಳುತ್ತದೆ",
+      "ಗರಿ ತೇಲುತ್ತಾ ಇರುತ್ತದೆ"
+    ],
+    "correctIndex": 1,
+    "gloss": "On the Moon, a feather and a hammer are dropped together from the same height. What happens? — They land together: there is no air to slow the feather (shown on Apollo 15)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಭಾರತ ಮತ್ತು ಶ್ರೀಲಂಕಾವನ್ನು ಬೇರ್ಪಡಿಸುವ ಜಲಸಂಧಿ ಯಾವುದು?",
+    "options": [
+      "ಪಾಕ್ ಜಲಸಂಧಿ",
+      "ಮಲಕ್ಕಾ ಜಲಸಂಧಿ",
+      "ಹೊರ್ಮುಜ್ ಜಲಸಂಧಿ",
+      "ಜಿಬ್ರಾಲ್ಟರ್ ಜಲಸಂಧಿ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which strait separates India and Sri Lanka? — The Palk Strait."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಭಾರತದಲ್ಲಿ ಸೆಪ್ಟೆಂಬರ್ 15ರ ‘ಎಂಜಿನಿಯರ್‌ಗಳ ದಿನ’ ಯಾರ ಜನ್ಮದಿನದ ನೆನಪಿಗೆ?",
+    "options": [
+      "ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ",
+      "ಸಿ.ವಿ. ರಾಮನ್",
+      "ಹೋಮಿ ಭಾಭಾ",
+      "ಸರ್ ಎಂ. ವಿಶ್ವೇಶ್ವರಯ್ಯ"
+    ],
+    "correctIndex": 3,
+    "gloss": "India's Engineers' Day, 15 September, marks whose birthday? — Sir M. Visvesvaraya (born 1861), builder of the KRS dam."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ಕನ್ನಡ ಭಾಷೆಯಲ್ಲಿರುವ ಈವರೆಗೆ ಸಿಕ್ಕ ಅತ್ಯಂತ ಹಳೆಯ ಶಾಸನ ಯಾವುದು?",
+    "options": [
+      "ತಾಳಗುಂದ ಶಾಸನ",
+      "ಬಾದಾಮಿ ಶಾಸನ",
+      "ಹಲ್ಮಿಡಿ ಶಾಸನ",
+      "ಶ್ರವಣಬೆಳಗೊಳ ಶಾಸನ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the oldest known inscription in the Kannada language? — The Halmidi inscription (c. 450). The Talagunda inscription, also Kadamba, is in Sanskrit."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ಮೈಸೂರು ರಾಜ್ಯಕ್ಕೆ ‘ಕರ್ನಾಟಕ’ ಎಂದು ಹೆಸರು ಬಂದ ವರ್ಷವನ್ನು ಕನ್ನಡ ಅಂಕಿಗಳಲ್ಲಿ ಹೇಗೆ ಬರೆಯುತ್ತಾರೆ?",
+    "options": [
+      "೧೯೫೬",
+      "೧೯೭೩",
+      "೧೯೪೭",
+      "೧೯೬೯"
+    ],
+    "correctIndex": 1,
+    "gloss": "How is the year Mysore State was renamed Karnataka written in Kannada numerals? — ೧೯೭೩ (1973). ೧೯೫೬ (1956) is the year the state was formed, the trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ಭೂಮಿಯಲ್ಲಿ ಸಿಗುವ ಮೊದಲೇ, 1868ರ ಸೂರ್ಯಗ್ರಹಣದಂದು ಸೂರ್ಯನ ಬೆಳಕಿನ ರೋಹಿತದಲ್ಲಿ ಪತ್ತೆಯಾದ ಮೂಲಧಾತು ಯಾವುದು?",
+    "options": [
+      "ಹೀಲಿಯಂ",
+      "ನಿಯಾನ್",
+      "ಆರ್ಗಾನ್",
+      "ಹೈಡ್ರೋಜನ್"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which element was found in the Sun's spectrum during the 1868 eclipse, before it was found on Earth? — Helium (named after Greek hēlios); it was isolated on Earth in 1895."
+  }
+]

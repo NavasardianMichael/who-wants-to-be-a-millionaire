@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“સો”ની માત્રા બદલીને “સૌ” લખીએ, તો શબ્દનો અર્થ શો થઈ જાય?",
+    "options": [
+      "બધા",
+      "સોય",
+      "એકસો",
+      "સવાર"
+    ],
+    "correctIndex": 0,
+    "gloss": "Change the vowel sign of “so” (hundred) to “sau”: what does the word mean now? — Everyone/all: સો = 100, સૌ = all. “Ekso” (one hundred) is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“છોકરો” પુંલિંગ છે અને “છોકરી” સ્ત્રીલિંગ. તો “છોકરું” કઈ જાતિનો શબ્દ છે?",
+    "options": [
+      "પુંલિંગ",
+      "સ્ત્રીલિંગ",
+      "ઉભયલિંગ",
+      "નપુંસકલિંગ"
+    ],
+    "correctIndex": 3,
+    "gloss": "“Chhokro” is masculine, “chhokri” feminine. What gender is “chhokru”? — Neuter: Gujarati keeps a third gender, marked by the -ઉં ending (unlike Hindi)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "મહેમાનને પૂછીએ: “ચા-બા પીશો?” અહીં “બા” શું સૂચવે છે?",
+    "options": [
+      "બા પણ સાથે પીશે",
+      "ચા કે એવું બીજું કંઈ",
+      "ખાંડ વગરની ચા",
+      "મોટો કપ ભરીને ચા"
+    ],
+    "correctIndex": 1,
+    "gloss": "We ask a guest “cha-ba pisho?”. What does “ba” add? — “Tea or something like it”: an echo word (b-reduplication) meaning “and the like”. “Ba” also means mother/grandma, the joke trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“આંબે મોર આવ્યો” — આ વાક્યમાં “મોર” એટલે શું?",
+    "options": [
+      "મોર પક્ષી",
+      "નવાં કુમળાં પાન",
+      "આંબાનાં ફૂલ (મંજરી)",
+      "નાની કાચી કેરી"
+    ],
+    "correctIndex": 2,
+    "gloss": "“The mango tree got its mor”: what is “mor” here? — The mango blossom (manjari). Mor also means peacock, the trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ખમણ ફૂલીને પોચાં અને જાળીદાર બને, એ માટે ખીરામાં છેલ્લે શું ભેળવાય છે?",
+    "options": [
+      "હળદર",
+      "ખાવાનો સોડા",
+      "રાઈ",
+      "હિંગ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is mixed into the batter last so khaman rises soft and spongy? — Baking soda (or Eno, which is mostly soda). Mustard seeds and asafoetida go into the tempering, turmeric only colours it."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "જાપાની વાનગી સુશીમાં કાચી માછલી ન હોય તોય કઈ વસ્તુ તો હોય જ?",
+    "options": [
+      "નૂડલ્સ",
+      "બાફેલાં બટાકાં",
+      "ટોફુ",
+      "સરકાવાળા ભાત"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sushi may have no raw fish, but what does it always have? — Vinegared rice: “sushi” refers to the seasoned rice, not the fish."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "મુંબઈ રાજ્યમાંથી છૂટું પડીને ગુજરાત અલગ રાજ્ય કઈ તારીખે બન્યું?",
+    "options": [
+      "1 મે",
+      "15 ઑગસ્ટ",
+      "26 જાન્યુઆરી",
+      "2 ઑક્ટોબર"
+    ],
+    "correctIndex": 0,
+    "gloss": "On what date did Gujarat become a separate state, split from Bombay State? — 1 May (1960), Gujarat Day. The others are national days."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ધોરડોના સફેદ રણમાં દર શિયાળે ઊજવાતો રણોત્સવ કયા જિલ્લામાં થાય છે?",
+    "options": [
+      "બનાસકાંઠા",
+      "કચ્છ",
+      "જામનગર",
+      "પાટણ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Rann Utsav, held every winter on the white desert of Dhordo, is in which district? — Kutch."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "હોળીની કથામાં હોલિકા જેને ખોળામાં લઈને અગ્નિમાં બેઠી, તે બચી ગયો. એ કોણ?",
+    "options": [
+      "ધ્રુવ",
+      "નચિકેતા",
+      "પ્રહ્લાદ",
+      "માર્કંડેય"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Holi story, Holika sat in the fire holding a boy on her lap and he survived. Who? — Prahlad. Dhruva, Nachiketa and Markandeya are other famous devotee-boys of legend."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ફ્રિજમાંથી કાઢેલી ઠંડી બૉટલની બહાર થોડી વારમાં પાણીનાં ટીપાં કેમ બાઝે છે?",
+    "options": [
+      "અંદરનું પાણી ઝમીને બહાર આવે છે",
+      "ફ્રિજમાં જામેલો બરફ પીગળે છે",
+      "બૉટલનું પ્લાસ્ટિક પરસેવો છોડે છે",
+      "હવાનો ભેજ ઠંડો પડીને પાણી બને છે"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why do drops form on the outside of a cold bottle from the fridge? — Moisture in the air condenses on the cold surface."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "તંદુરસ્ત માણસના શરીરનું સામાન્ય તાપમાન આશરે કેટલું ગણાય છે?",
+    "options": [
+      "96.6 °F",
+      "98.6 °F",
+      "100.4 °F",
+      "102.2 °F"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the normal body temperature of a healthy person? — About 98.6 °F (37 °C). 100.4 °F is where fever is usually counted."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "બૅન્કના SMSમાં આવતો OTP કોઈને કહેવાય નહીં. OTPમાં “O” શાનો છે?",
+    "options": [
+      "ઓનલાઇન",
+      "ઓપન",
+      "વન (એક વારનો)",
+      "ઑફિશિયલ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Never share the OTP from your bank's SMS. What does the O stand for? — One: One-Time Password."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ક્રિકેટમાં બૅટ્સમૅન એક પણ રન કર્યા વગર આઉટ થાય, તેને શું કહેવાય?",
+    "options": [
+      "ડક",
+      "મેડન",
+      "હૅટ-ટ્રિક",
+      "બાય"
+    ],
+    "correctIndex": 0,
+    "gloss": "In cricket, what is it called when a batter is out without scoring? — A duck. A maiden is a scoreless over, a hat-trick three wickets in three balls, a bye a run not off the bat."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "સિક્કો ત્રણ વાર ઉછાળ્યો અને ત્રણેય વાર કાંટો આવ્યો. ચોથી વાર કાંટો આવવાની શક્યતા કેટલી?",
+    "options": [
+      "ચોથા ભાગની",
+      "આઠમા ભાગની",
+      "સોળમા ભાગની",
+      "અડધી"
+    ],
+    "correctIndex": 3,
+    "gloss": "A coin came up heads three times. What is the chance of heads on the fourth toss? — Half: a coin has no memory. 1/16 is the chance of four in a row decided in advance."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ઇંગ્લૅન્ડનું કયું શહેર તેની મોટી ગુજરાતી વસ્તી અને નવરાત્રિ-દિવાળીની ઉજવણી માટે જાણીતું છે?",
+    "options": [
+      "લેસ્ટર",
+      "ગ્લાસગો",
+      "કાર્ડિફ",
+      "એડિનબરો"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which English city is known for its large Gujarati community and its Navratri and Diwali celebrations? — Leicester. Glasgow and Edinburgh are in Scotland, Cardiff in Wales."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "હજારો પગથિયાં ચડીને જ્યાં યાત્રીઓ શિખરે પહોંચે છે, તે ગિરનાર પર્વત કયા શહેર પાસે છે?",
+    "options": [
+      "ભાવનગર",
+      "જૂનાગઢ",
+      "રાજકોટ",
+      "પોરબંદર"
+    ],
+    "correctIndex": 1,
+    "gloss": "Mount Girnar, whose summit pilgrims reach by thousands of steps, is near which city? — Junagadh."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "પંચતંત્રની વાર્તામાં વાંદરો ઝાડ પરથી મગરને રોજ કયાં ફળ ખવડાવતો?",
+    "options": [
+      "કેરી",
+      "કેળાં",
+      "જાંબુ",
+      "જામફળ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Panchatantra, which fruit did the monkey feed the crocodile from his tree every day? — Jamun (jambu, the rose-apple tree of the Sanskrit text)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કાર્ટૂન “છોટા ભીમ”માં ભીમને અઢળક તાકાત શું ખાવાથી મળે છે?",
+    "options": [
+      "જલેબી",
+      "પેંડા",
+      "ગુલાબજાંબુ",
+      "લાડુ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the cartoon “Chhota Bheem”, what food gives Bheem his strength? — Laddoos."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કાપડને નાની-નાની ગાંઠે બાંધીને રંગવાથી ટપકાંની ભાત ઊપસે, તે ગુજરાતી કળા કઈ?",
+    "options": [
+      "બાંધણી",
+      "પટોળું",
+      "અજરખ",
+      "કલમકારી"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Gujarati craft makes a dotted pattern by tying cloth into tiny knots before dyeing? — Bandhani. Patola is double-ikat weaving, Ajrakh block printing, Kalamkari pen-painting."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "રસોઈમાં વપરાતું આદુ ખરેખર છોડનો કયો ભાગ છે?",
+    "options": [
+      "મૂળ",
+      "જમીનની અંદરનું થડ",
+      "ફળ",
+      "બીજ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which part of the plant is the ginger used in cooking? — An underground stem (rhizome), not a root: it has nodes and sprouts shoots."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "સુડોકુના દરેક ખાનામાં કઈ સંખ્યાઓમાંથી જ એક લખવાની હોય છે?",
+    "options": [
+      "0થી 9",
+      "1થી 10",
+      "1થી 9",
+      "1થી 12"
+    ],
+    "correctIndex": 2,
+    "gloss": "Each Sudoku cell takes one of which numbers? — 1 to 9. 0 to 9 is the trap: ten digits, but a row has only nine cells."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ગુજરાતી પંચાંગમાં પૂનમ પછી અમાસ સુધીના પખવાડિયાને શું કહેવાય છે?",
+    "options": [
+      "સુદ",
+      "અધિક",
+      "ક્ષય",
+      "વદ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Gujarati calendar, what is the fortnight from full moon to new moon called? — Vad (the waning half). Sud is the waxing half; adhik and kshay are leap and dropped months/days."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "વૉટ્સઍપમાં મોકલેલા મેસેજ નીચે બે ભૂરી ટિક દેખાય, તો એનો અર્થ શો?",
+    "options": [
+      "મેસેજ મોકલાયો, હજી પહોંચ્યો નથી",
+      "મેસેજ પહોંચ્યો, વંચાયો નથી",
+      "મેસેજ વંચાઈ ગયો",
+      "મેસેજ ડિલીટ થયો"
+    ],
+    "correctIndex": 2,
+    "gloss": "Two blue ticks under a WhatsApp message mean? — It has been read. One grey tick is sent, two grey ticks delivered."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "વિમાનનું “બ્લૅક બૉક્સ” અકસ્માત પછી સહેલાઈથી મળે, એ માટે તે ખરેખર કયા રંગનું હોય છે?",
+    "options": [
+      "કાળા",
+      "નારંગી",
+      "સફેદ",
+      "ચાંદી જેવા"
+    ],
+    "correctIndex": 1,
+    "gloss": "So that it can be found easily after a crash, what colour is an aircraft's “black box” really? — Bright orange."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "કરાઓકેમાં ગીત વાગે ત્યારે એમાંથી શું કાઢી નાખેલું હોય છે?",
+    "options": [
+      "મૂળ ગાયકનો અવાજ",
+      "ઢોલ-તબલાંનો તાલ",
+      "ગીતના શબ્દો",
+      "વાજિંત્રોનું સંગીત"
+    ],
+    "correctIndex": 0,
+    "gloss": "In karaoke, what has been taken out of the song? — The original singer's voice; the lyrics are shown on screen instead."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "વારલી ચિત્રકળામાં માણસની આકૃતિનું ધડ કયા બે આકાર જોડીને દોરાય છે?",
+    "options": [
+      "બે વર્તુળ",
+      "બે ચોરસ",
+      "બે લંબચોરસ",
+      "બે ત્રિકોણ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Warli painting, the human torso is drawn by joining which two shapes? — Two triangles, tip to tip (with a circle for the head)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "કમ્પ્યુટરના કીબોર્ડને “QWERTY” નામ શા પરથી મળ્યું?",
+    "options": [
+      "શોધકના નામ પરથી",
+      "અક્ષરોની ઉપલી હરોળના પહેલા છ અક્ષર પરથી",
+      "પહેલી કંપનીના નામ પરથી",
+      "સૌથી વધુ વપરાતા છ અક્ષર પરથી"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why is the keyboard layout called “QWERTY”? — Those are the first six letters of the top letter row; a glance at any keyboard confirms it."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "જૂનાગઢ અને ગીર પંથકની જાણીતી, GI ટૅગ મેળવેલી કેરી કઈ?",
+    "options": [
+      "હાફુસ",
+      "લંગડો",
+      "દશેરી",
+      "કેસર"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which famous GI-tagged mango comes from the Junagadh and Gir area? — Kesar (Gir Kesar). Hafus (Alphonso) is from Ratnagiri, Langda and Dasheri from the north."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ઓગણીસ”માં “ઓગણ” એટલે વીસમાં એક ઓછું. તો “ઓગણએંસી” એટલે કેટલા?",
+    "options": [
+      "69",
+      "79",
+      "81",
+      "89"
+    ],
+    "correctIndex": 1,
+    "gloss": "In “ognis” (19) “ogan” means one less than twenty. So what is “oganensi”? — 79: one less than eighty (એંસી). 89 is the trap for those who misread એંસી."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ટેનિસના સ્કોરમાં અમ્પાયર “લવ” બોલે, એનો અર્થ કેટલા પૉઇન્ટ?",
+    "options": [
+      "પંદર",
+      "ત્રીસ",
+      "શૂન્ય",
+      "ચાળીસ"
+    ],
+    "correctIndex": 2,
+    "gloss": "When the tennis umpire says “love”, how many points is that? — Zero. Fifteen, thirty and forty are the other scores in a game."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ઈમેલ મોકલતી વખતે કયા ખાનામાં લખેલાં સરનામાં બીજા મેળવનારાઓને દેખાતાં નથી?",
+    "options": [
+      "To",
+      "CC",
+      "BCC",
+      "Subject"
+    ],
+    "correctIndex": 2,
+    "gloss": "When sending an email, which field's addresses are hidden from the other recipients? — BCC (blind carbon copy). CC addresses are visible to all."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કેવડિયા પાસે ઊભેલી સ્ટેચ્યૂ ઑફ યુનિટી કઈ નદીના કાંઠે છે?",
+    "options": [
+      "નર્મદા",
+      "તાપી",
+      "મહી",
+      "સાબરમતી"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Statue of Unity near Kevadia stands on which river? — The Narmada, facing the Sardar Sarovar dam."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "₹100ની જાંબલી રંગની નવી નોટની પાછળ ગુજરાતનું કયું સ્મારક છપાયું છે?",
+    "options": [
+      "અડાલજની વાવ",
+      "રાણકી વાવ",
+      "મોઢેરાનું સૂર્યમંદિર",
+      "સીદી સૈયદની જાળી"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Gujarat monument is on the back of the new lavender ₹100 note? — Rani ki Vav, the stepwell of Patan (note issued 2018). Adalaj is the tempting other stepwell."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "હરિપ્રસાદ વ્યાસની બાળવાર્તાઓના નાયક “બકોર પટેલ” કયું પ્રાણી છે?",
+    "options": [
+      "ઉંદર",
+      "શિયાળ",
+      "વાંદરો",
+      "બકરો"
+    ],
+    "correctIndex": 3,
+    "gloss": "Bakor Patel, hero of Hariprasad Vyas's children's stories, is which animal? — A goat (his wife is Shakri Patlani)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ડાન્સિંગ ક્વીન” અને “મમ્મા મિયા” જેવાં ગીતો ગાનારું બૅન્ડ ABBA કયા દેશનું છે?",
+    "options": [
+      "સ્વીડન",
+      "નૉર્વે",
+      "નેધરલૅન્ડ્સ",
+      "ડેન્માર્ક"
+    ],
+    "correctIndex": 0,
+    "gloss": "ABBA, the band of “Dancing Queen” and “Mamma Mia”, is from which country? — Sweden."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "કચ્છના નાના રણનું અભયારણ્ય કયા પ્રાણીનું દુનિયામાં છેલ્લું ઘર ગણાય છે?",
+    "options": [
+      "કાળિયાર",
+      "ઘુડખર",
+      "નીલગાય",
+      "ચિંકારા"
+    ],
+    "correctIndex": 1,
+    "gloss": "The sanctuary in the Little Rann of Kutch is the last home of which animal? — The Indian wild ass (ghudkhar). Blackbuck are Velavadar's; nilgai and chinkara live across India."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ધ લાયન કિંગ”માં સિંબાના પિતાનું નામ શું છે?",
+    "options": [
+      "સ્કાર",
+      "ટિમોન",
+      "મુફાસા",
+      "રફીકી"
+    ],
+    "correctIndex": 2,
+    "gloss": "In “The Lion King”, what is Simba's father called? — Mufasa. Scar is his uncle, Timon the meerkat, Rafiki the mandrill."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "કટોકટીમાં લગભગ કોઈને પણ ચડાવી શકાય એવું “સાર્વત્રિક દાતા” લોહી કયા ગ્રુપનું ગણાય?",
+    "options": [
+      "AB+",
+      "A+",
+      "B−",
+      "O−"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which blood group is the “universal donor” that can be given to almost anyone in an emergency? — O negative. AB+ is the universal recipient, the trap."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ફૉર્મ્યુલા વન રેસમાં વિજેતા ફિનિશ લાઇન પાર કરે ત્યારે કયો ધ્વજ ફરકાવાય?",
+    "options": [
+      "કાળા-ધોળા ખાનાંવાળો",
+      "લાલ",
+      "લીલો",
+      "પીળો"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which flag is waved as the winner crosses the line in Formula One? — The chequered (black-and-white) flag. Red stops the race, yellow means danger, green the track is clear."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "સવારે 10:50એ આવનારી ટ્રેન 1 કલાક 20 મિનિટ મોડી પડી. તે કેટલા વાગ્યે આવી?",
+    "options": [
+      "11:10",
+      "11:30",
+      "12:10",
+      "12:30"
+    ],
+    "correctIndex": 2,
+    "gloss": "A train due at 10:50 a.m. was 1 h 20 min late. When did it arrive? — 12:10: 10:50 + 1 h = 11:50, + 20 min = 12:10. 11:70 rolled over wrongly gives 12:30 or 11:10."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ઇટાલિયન લીલો સૉસ “પેસ્તો” મુખ્યત્વે કયાં પાન વાટીને બને છે?",
+    "options": [
+      "ફુદીનો",
+      "કોથમીર",
+      "પાલક",
+      "બેસિલ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Italian green pesto is made mainly by grinding which leaves? — Basil, with pine nuts, garlic, cheese and olive oil."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "દેવનાગરીની સરખામણીએ ગુજરાતી લિપિના અક્ષરોમાં કઈ વસ્તુ નથી હોતી?",
+    "options": [
+      "માત્રા",
+      "શિરોરેખા (માથે આડી લીટી)",
+      "અનુસ્વાર",
+      "જોડાક્ષર"
+    ],
+    "correctIndex": 1,
+    "gloss": "Compared with Devanagari, what do Gujarati letters lack? — The shirorekha, the horizontal headline across the top. Gujarati has vowel signs, anusvara and conjuncts."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ટીવી શ્રેણી “તારક મહેતા કા ઊલ્ટા ચશ્મા” કયા ગુજરાતી સામયિકમાં છપાતી કૉલમ પરથી બની છે?",
+    "options": [
+      "અભિયાન",
+      "નવનીત સમર્પણ",
+      "કુમાર",
+      "ચિત્રલેખા"
+    ],
+    "correctIndex": 3,
+    "gloss": "The TV series “Taarak Mehta Ka Ooltah Chashmah” is based on a column in which Gujarati magazine? — Chitralekha: Taarak Mehta's “Duniya Ne Undha Chashma”."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "વીજળીનો ચમકારો દેખાયા પછી 3 સેકન્ડે ગડગડાટ સંભળાયો. વીજળી આશરે કેટલે દૂર પડી?",
+    "options": [
+      "100 મીટર",
+      "1 કિલોમીટર",
+      "10 કિલોમીટર",
+      "100 કિલોમીટર"
+    ],
+    "correctIndex": 1,
+    "gloss": "Thunder came 3 seconds after the flash. How far away was the lightning? — About 1 km: light arrives almost at once, sound travels about 340 m a second."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“એક મૂરખને એવી ટેવ, પથ્થર એટલા પૂજે દેવ” — આવા ચાબખા મારતા છપ્પા કોણે લખ્યા?",
+    "options": [
+      "અખો",
+      "દયારામ",
+      "પ્રેમાનંદ",
+      "નરસિંહ મહેતા"
+    ],
+    "correctIndex": 0,
+    "gloss": "“A fool has this habit: every stone he sees he worships as a god” — who wrote such biting chhappas? — Akho (17th century). Dayaram wrote garbis, Premanand akhyans."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "નૉર્સ પુરાણકથાઓમાં ગર્જના અને વીજળીના દેવ થૉરનું હથિયાર કયું છે?",
+    "options": [
+      "ભાલો",
+      "તલવાર",
+      "હથોડો",
+      "ધનુષ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Norse myth, what is the weapon of Thor, god of thunder? — A hammer (Mjölnir). The spear (Gungnir) belongs to Odin."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1840માં દુનિયાની પહેલી ગુંદરવાળી ટપાલ ટિકિટ “પેની બ્લૅક” કયા દેશે બહાર પાડી?",
+    "options": [
+      "ફ્રાન્સ",
+      "બ્રિટન",
+      "અમેરિકા",
+      "જર્મની"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country issued the world's first adhesive postage stamp, the Penny Black, in 1840? — Britain (with Queen Victoria's profile)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "આજે ચુકવણીમાં વપરાતો QR કોડ સૌપ્રથમ કયા દેશમાં શોધાયો હતો?",
+    "options": [
+      "ચીન",
+      "જાપાન",
+      "દક્ષિણ કોરિયા",
+      "અમેરિકા"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which country was the QR code, now used for payments, invented? — Japan (Denso Wave, 1994, to track car parts)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "સર્વાન્તેસની નવલકથામાં ડૉન કિહોટે પવનચક્કીઓને શું સમજીને તેમની સામે ધસી જાય છે?",
+    "options": [
+      "ડ્રૅગન",
+      "દુશ્મન સૈનિકો",
+      "ડાકુઓ",
+      "દૈત્યો"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Cervantes's novel, what does Don Quixote take the windmills for when he charges them? — Giants."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1866માં પ્રગટ થયેલી, ગુજરાતી ભાષાની પહેલી નવલકથા ગણાતી “કરણ ઘેલો” કોણે લખી?",
+    "options": [
+      "નંદશંકર મહેતા",
+      "ગોવર્ધનરામ ત્રિપાઠી",
+      "નર્મદ",
+      "દલપતરામ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote “Karan Ghelo” (1866), counted as the first Gujarati novel? — Nandshankar Mehta. Govardhanram (Saraswatichandra) came later; Narmad and Dalpatram were poets."
+  }
+]

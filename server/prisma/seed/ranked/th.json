@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "คำว่า “เสือ” ถ้าเติมไม้โทลงไป จะกลายเป็นคำที่หมายถึงอะไร",
+    "options": [
+      "เครื่องนุ่งห่ม",
+      "เครื่องปูรองนั่ง",
+      "สัตว์ป่า",
+      "เครื่องมือจับปลา"
+    ],
+    "correctIndex": 0,
+    "gloss": "The word \"เสือ\" (tiger) with a mai tho tone mark becomes what? — Clothing: เสื้อ (shirt); the mat เสื่อ takes mai ek instead, hence the trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ตัวเลขใดต่อไปนี้ อ่านออกเสียงโดยมีคำว่า “ยี่” อยู่ด้วย",
+    "options": [
+      "2",
+      "20",
+      "12",
+      "200"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number is read with the word \"yi\"? — 20 (ยี่สิบ); 2 is สอง, 12 สิบสอง, 200 สองร้อย."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ประโยค “เด็ก ๆ วิ่งเร็ว ๆ” เมื่ออ่านออกเสียง มีทั้งหมดกี่พยางค์",
+    "options": [
+      "3 พยางค์",
+      "4 พยางค์",
+      "5 พยางค์",
+      "6 พยางค์"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"Dek dek wing reo reo\" — how many syllables aloud? — 5: each mai yamok (ๆ) repeats the word before it (เด็ก เด็ก วิ่ง เร็ว เร็ว)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "หนึ่งบาทมีสี่สลึง เงินสามสลึงเท่ากับกี่สตางค์",
+    "options": [
+      "30 สตางค์",
+      "50 สตางค์",
+      "60 สตางค์",
+      "75 สตางค์"
+    ],
+    "correctIndex": 3,
+    "gloss": "One baht is four salueng; three salueng is how many satang? — 75: one salueng is 25 satang."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "เวลาคนไทยพิมพ์ “555” ในแชต หมายถึงอะไร",
+    "options": [
+      "ร้องไห้",
+      "ตกใจ",
+      "หัวเราะ",
+      "โกรธ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does \"555\" in a Thai chat mean? — Laughing: five is \"ha\" (ห้า), so 555 reads \"hahaha\"."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "บริการโอนเงินของไทยที่ผูกบัญชีไว้กับเบอร์มือถือหรือเลขบัตรประชาชนชื่อว่าอะไร",
+    "options": [
+      "พร้อมเพย์",
+      "ทรูมันนี่",
+      "แรบบิท",
+      "เป๋าตัง"
+    ],
+    "correctIndex": 0,
+    "gloss": "Thai money-transfer service linked to a mobile number or ID number? — PromptPay; TrueMoney is a wallet, Rabbit a transit card, Paotang a government app."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ในกีฬาเซปักตะกร้อ ผู้เล่นห้ามใช้ส่วนใดของร่างกายสัมผัสลูก",
+    "options": [
+      "เข่า",
+      "ศีรษะ",
+      "หน้าอก",
+      "มือ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In sepak takraw, which body part may not touch the ball? — The hands (and arms); feet, knees, head and chest are allowed."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ประเพณีลอยกระทงจัดขึ้นในคืนวันเพ็ญของเดือนใดตามจันทรคติไทย",
+    "options": [
+      "เดือนห้า",
+      "เดือนสิบสอง",
+      "เดือนแปด",
+      "เดือนสิบเอ็ด"
+    ],
+    "correctIndex": 1,
+    "gloss": "Loy Krathong falls on the full moon of which Thai lunar month? — The twelfth month (เดือนสิบสอง)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "นางผีเสื้อสมุทรและนางเงือกเป็นตัวละครในผลงานเรื่องใดของสุนทรภู่",
+    "options": [
+      "พระอภัยมณี",
+      "นิราศภูเขาทอง",
+      "ขุนช้างขุนแผน",
+      "สังข์ทอง"
+    ],
+    "correctIndex": 0,
+    "gloss": "The sea ogress and the mermaid are characters in which work by Sunthorn Phu? — Phra Aphai Mani."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ภาพยนตร์ “พี่มาก..พระโขนง” เล่าเรื่องรักของพี่มากกับผีสาวคนใด",
+    "options": [
+      "นางตานี",
+      "แม่นาก",
+      "นางตะเคียน",
+      "นางไม้"
+    ],
+    "correctIndex": 1,
+    "gloss": "The film \"Pee Mak\" tells of Mak's love for which ghost? — Mae Nak of Phra Khanong."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ลิซ่า ลลิษา สาวบุรีรัมย์ โด่งดังไปทั่วโลกในฐานะสมาชิกวงเคป๊อปวงใด",
+    "options": [
+      "TWICE",
+      "aespa",
+      "BLACKPINK",
+      "Red Velvet"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lisa (Lalisa) from Buriram became world famous as a member of which K-pop group? — BLACKPINK."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ตามความเชื่อ “บั้งไฟพญานาค” ที่หนองคายพุ่งขึ้นมาจากแม่น้ำสายใด",
+    "options": [
+      "แม่น้ำมูล",
+      "แม่น้ำชี",
+      "แม่น้ำเจ้าพระยา",
+      "แม่น้ำโขง"
+    ],
+    "correctIndex": 3,
+    "gloss": "By belief, the Naga fireballs at Nong Khai rise from which river? — The Mekong."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "สำนวน “ไก่ได้พลอย” ใช้กับคนแบบใด",
+    "options": [
+      "โชคดีได้ลาภลอย",
+      "ขยันจนร่ำรวย",
+      "ได้ของดีแต่ไม่รู้ค่า",
+      "ชอบอวดของมีค่า"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"A chicken gets a gem\" describes whom? — Someone who gets something valuable but cannot appreciate it."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ไฟล์ที่มีนามสกุล .mp3 เก็บข้อมูลประเภทใด",
+    "options": [
+      "เสียง",
+      "ภาพนิ่ง",
+      "ข้อความ",
+      "ตารางคำนวณ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does an .mp3 file hold? — Audio."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "รหัส OTP ที่ธนาคารส่งมาทาง SMS ใช้ยืนยันได้กี่ครั้ง",
+    "options": [
+      "สองครั้ง",
+      "ไม่จำกัด",
+      "วันละครั้ง",
+      "ครั้งเดียว"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many times can a bank's SMS OTP be used? — Once: One-Time Password."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "กาแฟอเมริกาโนทำจากเอสเปรสโซผสมกับอะไร",
+    "options": [
+      "นมสด",
+      "น้ำร้อน",
+      "ฟองนม",
+      "วิปครีม"
+    ],
+    "correctIndex": 1,
+    "gloss": "An Americano is espresso mixed with what? — Hot water."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ชานมไข่มุกมีต้นกำเนิดมาจากที่ใด",
+    "options": [
+      "ไต้หวัน",
+      "ญี่ปุ่น",
+      "ฮ่องกง",
+      "เกาหลีใต้"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where does bubble milk tea come from? — Taiwan."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ซอสพริกศรีราชา ได้ชื่อมาจากอำเภอศรีราชาของจังหวัดใด",
+    "options": [
+      "ระยอง",
+      "ชลบุรี",
+      "จันทบุรี",
+      "ฉะเชิงเทรา"
+    ],
+    "correctIndex": 1,
+    "gloss": "Sriracha chilli sauce is named after Si Racha district in which province? — Chonburi."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "แก้วน้ำใส่น้ำแข็งมีหยดน้ำเกาะด้านนอก หยดน้ำนั้นมาจากไหน",
+    "options": [
+      "น้ำซึมผ่านแก้ว",
+      "น้ำแข็งที่ละลาย",
+      "ไอน้ำในอากาศ",
+      "เหงื่อจากมือ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Where do the drops outside an iced glass come from? — Water vapour in the air condensing on the cold glass."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "สารฟลูออไรด์ในยาสีฟันมีไว้เพื่ออะไร",
+    "options": [
+      "ทำให้ฟันขาว",
+      "ดับกลิ่นปาก",
+      "ทำให้เกิดฟอง",
+      "ป้องกันฟันผุ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is fluoride in toothpaste for? — Preventing tooth decay."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "เมื่อถูกจับหรือหนีศัตรู จิ้งจกสามารถสลัดอวัยวะใดทิ้งได้",
+    "options": [
+      "ขาหน้า",
+      "ผิวหนัง",
+      "หาง",
+      "เล็บ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What can a house lizard shed to escape a predator? — Its tail, which later grows back."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "แฮร์รี่ พอตเตอร์ เข้าเรียนที่โรงเรียนเวทมนตร์แห่งใด",
+    "options": [
+      "ฮอกวอตส์",
+      "โบซ์บาตงส์",
+      "เดิร์มสแตรง",
+      "อิลเวอร์มอร์นี"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which school of magic does Harry Potter attend? — Hogwarts; the others are rival wizarding schools."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ขนมที่โดราเอมอนชอบกินที่สุดคืออะไร",
+    "options": [
+      "ทาโกะยากิ",
+      "โมจิ",
+      "ไทยากิ",
+      "โดรายากิ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Doraemon's favourite snack? — Dorayaki."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในฟุตบอล ผู้เล่นคนเดียวยิงได้ 3 ประตูในเกมเดียว เรียกว่าอะไร",
+    "options": [
+      "คลีนชีต",
+      "แฮตทริก",
+      "ฟรีคิก",
+      "ดับเบิลแชมป์"
+    ],
+    "correctIndex": 1,
+    "gloss": "One player scoring three goals in a football match? — A hat-trick."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ผู้ที่ยืนหน้าวงออร์เคสตราและโบกไม้บาตองกำกับจังหวะ เรียกว่าอะไร",
+    "options": [
+      "วาทยกร",
+      "นักร้องนำ",
+      "มือกลอง",
+      "หัวหน้าวงไวโอลิน"
+    ],
+    "correctIndex": 0,
+    "gloss": "The person standing in front of an orchestra, beating time with a baton, is called? — The conductor (วาทยกร)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ร่มกระดาษสาวาดลายมือจากหมู่บ้านบ่อสร้าง เป็นของขึ้นชื่อของจังหวัดใด",
+    "options": [
+      "ลำปาง",
+      "เชียงใหม่",
+      "น่าน",
+      "เชียงราย"
+    ],
+    "correctIndex": 1,
+    "gloss": "Hand-painted mulberry-paper umbrellas from Bo Sang village are the pride of which province? — Chiang Mai (San Kamphaeng district)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ไปเที่ยวเกาหลีใต้ ต้องแลกเงินสกุลใดไว้ใช้จ่าย",
+    "options": [
+      "เยน",
+      "หยวน",
+      "วอน",
+      "ดอง"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which currency do you need in South Korea? — The won."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "สัญลักษณ์ลูกศรสามอันวนกันเป็นรูปสามเหลี่ยมบนบรรจุภัณฑ์ หมายถึงอะไร",
+    "options": [
+      "เข้าไมโครเวฟได้",
+      "ปลอดสารพิษ",
+      "ห้ามแช่แข็ง",
+      "รีไซเคิลได้"
+    ],
+    "correctIndex": 3,
+    "gloss": "Three arrows chasing each other in a triangle on packaging mean? — Recyclable."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "คำใดเมื่อเขียนกลับจากหลังมาหน้า ยังได้ตัวอักษรเรียงเหมือนเดิม",
+    "options": [
+      "นาย",
+      "ลม",
+      "นอน",
+      "กบ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word reads the same letter by letter backwards? — นอน (น-อ-น); นาย gives ยาน, ลม gives มล, กบ gives บก."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "เสื้อลดราคา 50% แล้วลดซ้ำอีก 50% จากราคาที่ลดแล้ว ต้องจ่ายกี่เปอร์เซ็นต์ของราคาเต็ม",
+    "options": [
+      "25%",
+      "0%",
+      "50%",
+      "75%"
+    ],
+    "correctIndex": 0,
+    "gloss": "A shirt is 50% off, then another 50% off the reduced price: what share of the full price do you pay? — 25%, not 0%."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "หลังเสียกรุงศรีอยุธยา สมเด็จพระเจ้าตากสินทรงตั้งราชธานีใหม่ที่ใด",
+    "options": [
+      "พิษณุโลก",
+      "ลพบุรี",
+      "จันทบุรี",
+      "กรุงธนบุรี"
+    ],
+    "correctIndex": 3,
+    "gloss": "After Ayutthaya fell, where did King Taksin found the new capital? — Thonburi."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ครุฑเป็นพาหนะของเทพองค์ใด",
+    "options": [
+      "พระอิศวร",
+      "พระนารายณ์",
+      "พระพรหม",
+      "พระอินทร์"
+    ],
+    "correctIndex": 1,
+    "gloss": "Garuda is the mount of which god? — Narai (Vishnu); Shiva rides a bull, Brahma a swan, Indra the elephant Erawan."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "เทพเจ้าแห่งสายฟ้าในตำนานนอร์ส ผู้ถือค้อนวิเศษ คือองค์ใด",
+    "options": [
+      "ธอร์",
+      "โอดิน",
+      "โลกิ",
+      "ไฮม์ดัลล์"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Norse god of thunder who wields a magic hammer? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ม้าน้ำเป็นสัตว์ที่แปลก เพราะตัวใดเป็นผู้ตั้งท้องและให้กำเนิดลูก",
+    "options": [
+      "ตัวเมีย",
+      "ตัวผู้",
+      "ทั้งสองตัวสลับกัน",
+      "ตัวที่อายุมากกว่า"
+    ],
+    "correctIndex": 1,
+    "gloss": "In seahorses, which parent carries and gives birth to the young? — The male, in his brood pouch."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ความดังของเสียงวัดเป็นหน่วยใด",
+    "options": [
+      "เฮิรตซ์",
+      "วัตต์",
+      "เดซิเบล",
+      "ลักซ์"
+    ],
+    "correctIndex": 2,
+    "gloss": "In what unit is loudness measured? — Decibels; hertz measures pitch (frequency), lux light."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ในกอล์ฟ การตีลงหลุมได้น้อยกว่าพาร์หนึ่งครั้ง เรียกว่าอะไร",
+    "options": [
+      "อีเกิล",
+      "โบกี้",
+      "อัลบาทรอส",
+      "เบอร์ดี้"
+    ],
+    "correctIndex": 3,
+    "gloss": "In golf, one stroke under par on a hole is called? — A birdie; eagle is two under, bogey one over."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "นักกีฬาไทยคนแรกที่คว้าเหรียญทองโอลิมปิกคือใคร",
+    "options": [
+      "เขาทราย แกแล็คซี่",
+      "วิจารณ์ พลฤทธิ์",
+      "สมรักษ์ คำสิงห์",
+      "แก้วสรร อติโพธิ"
+    ],
+    "correctIndex": 2,
+    "gloss": "The first Thai Olympic gold medallist? — Somluck Kamsing, boxing, Atlanta 1996; Wijan Ponlid won in 2000, Khaosai Galaxy was a pro champion."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ขนมไทยที่เป็นเส้นยาวสีทองทำจากไข่แดง นิยมใช้ในงานแต่งเพื่ออวยพรให้รักกันยืนยาว คือขนมใด",
+    "options": [
+      "ฝอยทอง",
+      "ทองหยิบ",
+      "ทองหยอด",
+      "เม็ดขนุน"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which golden Thai sweet of long egg-yolk threads is served at weddings for lasting love? — Foi thong."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "พระปรางค์วัดอรุณราชวรารามโดดเด่นด้วยการประดับสิ่งใด",
+    "options": [
+      "หินอ่อน",
+      "กระจกสี",
+      "ทองคำเปลว",
+      "กระเบื้องถ้วยชามสี"
+    ],
+    "correctIndex": 3,
+    "gloss": "The prang of Wat Arun is famous for being decorated with what? — Pieces of coloured porcelain; marble is Wat Benchamabophit."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "สำนวน “ดื่มน้ำใต้ศอก” หมายถึงอะไร",
+    "options": [
+      "ทำงานหนักไม่ได้พัก",
+      "ยอมเป็นรองผู้อื่น",
+      "อดทนต่อความยากจน",
+      "แอบทำความดีเงียบ ๆ"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"To drink water below the elbow\" means? — To accept an inferior position to someone (classically a minor wife)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "เว็บไซต์ให้เราพิมพ์ตัวอักษรบิดเบี้ยวหรือเลือกภาพ “CAPTCHA” เพื่อพิสูจน์อะไร",
+    "options": [
+      "ว่าเป็นมนุษย์",
+      "ว่าอายุครบ 18 ปี",
+      "ว่าเป็นเจ้าของบัญชี",
+      "ว่าอยู่ในประเทศไทย"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does a CAPTCHA prove? — That you are a human, not a bot."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ช่องแคบมะละกาคั่นระหว่างคาบสมุทรมลายูกับเกาะใด",
+    "options": [
+      "บอร์เนียว",
+      "สุมาตรา",
+      "ชวา",
+      "บาหลี"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Strait of Malacca separates the Malay Peninsula from which island? — Sumatra."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "เที่ยงวันตรงที่กรุงเทพฯ ในช่วงฤดูหนาว ที่ลอนดอนจะเป็นเวลาเท่าใด",
+    "options": [
+      "07.00 น.",
+      "17.00 น.",
+      "05.00 น.",
+      "19.00 น."
+    ],
+    "correctIndex": 2,
+    "gloss": "Noon in Bangkok, in (northern) winter: what time is it in London? — 05:00: Thailand is GMT+7 and London keeps GMT in winter."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "อาหารไทยจานใดที่ยูเนสโกขึ้นทะเบียนเป็นมรดกทางวัฒนธรรมที่จับต้องไม่ได้ เมื่อ พ.ศ. 2567",
+    "options": [
+      "ผัดไทย",
+      "ส้มตำ",
+      "แกงเขียวหวาน",
+      "ต้มยำกุ้ง"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Thai dish did UNESCO inscribe as intangible cultural heritage in 2024? — Tom yum kung."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "กรุงศรีอยุธยาเป็นราชธานีของไทยอยู่นานประมาณกี่ปี",
+    "options": [
+      "217 ปี",
+      "317 ปี",
+      "417 ปี",
+      "517 ปี"
+    ],
+    "correctIndex": 2,
+    "gloss": "For about how long was Ayutthaya the Thai capital? — 417 years (B.E. 1893-2310, 1350-1767)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ภาพจิตรกรรมบนเพดานโบสถ์ซิสทีนในนครรัฐวาติกันเป็นผลงานของใคร",
+    "options": [
+      "มีเกลันเจโล",
+      "เลโอนาร์โด ดา วินชี",
+      "ราฟาเอล",
+      "โดนาเตลโล"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who painted the Sistine Chapel ceiling? — Michelangelo."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ช่องแคบใดคั่นระหว่างทวีปยุโรปกับทวีปแอฟริกา",
+    "options": [
+      "บอสพอรัส",
+      "โดเวอร์",
+      "มะละกา",
+      "ยิบรอลตาร์"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which strait separates Europe from Africa? — Gibraltar; the Bosphorus separates Europe from Asia."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "วรรณคดีสโมสรยกย่องวรรณคดีเรื่องใดว่าเป็นยอดของกลอนเสภา",
+    "options": [
+      "อิเหนา",
+      "ขุนช้างขุนแผน",
+      "ลิลิตพระลอ",
+      "สามก๊ก"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which work did the Literature Club (วรรณคดีสโมสร) name the finest sepha verse? — Khun Chang Khun Phaen; Inao was named best dance-drama verse, Lilit Phra Lo best lilit, Sam Kok best prose tale."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "หน่วย “เฮิรตซ์” ตั้งตามนักฟิสิกส์ชาวเยอรมันผู้พิสูจน์การมีอยู่ของสิ่งใดเป็นคนแรก",
+    "options": [
+      "คลื่นแม่เหล็กไฟฟ้า",
+      "อิเล็กตรอน",
+      "กัมมันตภาพรังสี",
+      "รังสีเอกซ์"
+    ],
+    "correctIndex": 0,
+    "gloss": "The hertz is named after the German physicist who first proved the existence of what? — Electromagnetic (radio) waves, Heinrich Hertz, 1880s; Röntgen found X-rays."
+  },
+  {
+    "level": 5,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "พระมหาชนกในทศชาติชาดก เป็นชาติที่พระโพธิสัตว์บำเพ็ญบารมีใด",
+    "options": [
+      "ขันติบารมี",
+      "วิริยบารมี",
+      "ทานบารมี",
+      "เมตตาบารมี"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the Ten Jatakas, the Mahajanaka life perfects which virtue? — Perseverance (viriya); giving is Vessantara, loving-kindness Suvannasama."
+  }
+]
