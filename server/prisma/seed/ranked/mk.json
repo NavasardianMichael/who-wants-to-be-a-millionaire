@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое машко оро, што се игра бавно на тапан и зурла, е симбол на македонскиот фолклор?",
+    "options": [
+      "Пајдушкото",
+      "Комитското",
+      "Тешкото",
+      "Малешевското"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which slow men's dance, played on drum and zurla, is a symbol of Macedonian folklore? — Teškoto oro."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што се ренда одозгора на шопската салата?",
+    "options": [
+      "Кашкавал",
+      "Сирење",
+      "Тврдо варено јајце",
+      "Ореви"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is grated over a shopska salad? — White brined cheese (sirenje)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Преспанското Езеро нашата земја го дели со Албанија и со која уште држава?",
+    "options": [
+      "Бугарија",
+      "Србија",
+      "Косово",
+      "Грција"
+    ],
+    "correctIndex": 3,
+    "gloss": "Lake Prespa is shared by our country, Albania and which other state? — Greece."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која птица ги снесува своите јајца во туѓи гнезда и не ги квачи сама?",
+    "options": [
+      "Кукавицата",
+      "Враната",
+      "Свраката",
+      "Чавката"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird lays its eggs in other birds' nests and does not brood them itself? — The cuckoo."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој од овие метали го привлекува обичниот магнет?",
+    "options": [
+      "Бакарот",
+      "Алуминиумот",
+      "Железото",
+      "Златото"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these metals does an ordinary magnet attract? — Iron (aluminium cans, copper and gold are not attracted)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој наш фудбалер во 2010 година ја освои Лигата на шампионите со Интер?",
+    "options": [
+      "Дарко Панчев",
+      "Горан Пандев",
+      "Илија Наумоски",
+      "Елиф Елмас"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Macedonian footballer won the Champions League with Inter in 2010? — Goran Pandev (Pančev won the European Cup in 1991 with Red Star)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Во кој град израснал Тоше Проески, каде што денес е неговата спомен-куќа?",
+    "options": [
+      "Битола",
+      "Охрид",
+      "Кичево",
+      "Крушево"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which town did Toše Proeski grow up, where his memorial house now stands? — Kruševo (he was born in Prilep, deliberately not an option)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој ја напиша збирката песни „Бели мугри“?",
+    "options": [
+      "Кочо Рацин",
+      "Ацо Шопов",
+      "Блаже Конески",
+      "Славко Јаневски"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the poetry collection \"Beli mugri\" (White Dawns)? — Kočo Racin (1939)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кој од овие облици е вокатив, со кој некого повикуваме?",
+    "options": [
+      "Мајката",
+      "Мајко",
+      "Мајка",
+      "Мајкава"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these forms is the vocative, used to call someone? — Majko: the -o ending; the others are the bare and article forms."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "За кого од овие правилно велиме „двајца“?",
+    "options": [
+      "Браќа",
+      "Сестри",
+      "Маси",
+      "Мачки"
+    ],
+    "correctIndex": 0,
+    "gloss": "Of whom do we correctly say \"dvajca\" (two, for male persons)? — Brothers: dvajca braќa, but dve sestri, dve masi, dve mački."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што била Виа Егнација, која во римско време минувала покрај Охрид и Битола?",
+    "options": [
+      "Акведукт",
+      "Тврдина",
+      "Пат",
+      "Канал"
+    ],
+    "correctIndex": 2,
+    "gloss": "What was the Via Egnatia, which ran past Ohrid and Bitola in Roman times? — A road (Rome to Byzantium)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се вика веселиот снешко во цртаниот филм „Замрзнато“?",
+    "options": [
+      "Свен",
+      "Кристоф",
+      "Ханс",
+      "Олаф"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the cheerful snowman in \"Frozen\" called? — Olaf (Sven is the reindeer)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која сијалица троши најмалку струја за иста светлина?",
+    "options": [
+      "Обичната со влакно",
+      "ЛЕД-сијалицата",
+      "Халогената",
+      "Флуоресцентната"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which bulb uses the least electricity for the same light? — The LED bulb."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се вика водоинсталатерот со црвена капа и мустаќи од игрите на „Нинтендо“?",
+    "options": [
+      "Луиџи",
+      "Варио",
+      "Марио",
+      "Соник"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the red-capped, moustached plumber of the Nintendo games called? — Mario."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Од конци во кои две бои се прави мартинката што се врзува на 1 март?",
+    "options": [
+      "Црвена и бела",
+      "Сина и бела",
+      "Црвена и жолта",
+      "Црна и бела"
+    ],
+    "correctIndex": 0,
+    "gloss": "The martinka tied on on 1 March is made of threads of which two colours? — Red and white."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој наш град го викаат „град на конзулите“?",
+    "options": [
+      "Охрид",
+      "Прилеп",
+      "Велес",
+      "Битола"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Macedonian town is called \"the city of consuls\"? — Bitola."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Македонскиот акцент паѓа на третиот слог од крајот. Кој слог е нагласен во „телевизор“?",
+    "options": [
+      "Те",
+      "Ле",
+      "Ви",
+      "Зор"
+    ],
+    "correctIndex": 1,
+    "gloss": "Macedonian stress falls on the third syllable from the end. Which syllable is stressed in \"televizor\"? — Le: te-LE-vi-zor."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На обичната батерија пишува 1,5. Во што е изразен тој број?",
+    "options": [
+      "Волти",
+      "Вати",
+      "Ампери",
+      "Оми"
+    ],
+    "correctIndex": 0,
+    "gloss": "An ordinary battery says 1.5. In what unit is that number? — Volts."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Како се вика ѕидот со икони што во црквата го одвојува олтарот?",
+    "options": [
+      "Амвон",
+      "Апсида",
+      "Иконостас",
+      "Кивот"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the wall of icons that separates the altar in a church called? — Iconostasis."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Според народните песни, кој јунак живеел во кулите над Прилеп?",
+    "options": [
+      "Болен Дојчин",
+      "Секула Детенце",
+      "Сибињанин Јанко",
+      "Крале Марко"
+    ],
+    "correctIndex": 3,
+    "gloss": "According to folk songs, which hero lived in the towers above Prilep? — Krale Marko (Markovi Kuli)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Довршете ја поговорката: „Кој рано рани, …“",
+    "options": [
+      "две среќи граби",
+      "цел ден спие",
+      "далеку стига",
+      "сам си пее"
+    ],
+    "correctIndex": 0,
+    "gloss": "Finish the proverb \"Who rises early...\" — \"...grabs two fortunes\"."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во кој спорт наместо топче се удира перце?",
+    "options": [
+      "Сквош",
+      "Бадминтон",
+      "Пинг-понг",
+      "Тенис"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sport is a shuttlecock hit instead of a ball? — Badminton."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој густ, слаткаст пијалак од пченка се пие во старите слаткарници со баклава?",
+    "options": [
+      "Ајран",
+      "Салеп",
+      "Боза",
+      "Шира"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which thick, sweetish corn drink is drunk with baklava in old sweet shops? — Boza (salep is made from orchid root)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која пејачка нѐ претставуваше на Евровизија 2012 со песната „Црно и бело“?",
+    "options": [
+      "Каролина Гочева",
+      "Елена Ристеска",
+      "Тамара Тодевска",
+      "Калиопи"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which singer represented Macedonia at Eurovision 2012 with \"Crno i belo\"? — Kaliopi."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На колку линии се пишуваат нотите?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctIndex": 0,
+    "gloss": "On how many lines are notes written? — 5 (the staff)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во која книга девојчето тргнува по бел зајак што гледа на џебен часовник?",
+    "options": [
+      "Петар Пан",
+      "Алиса во земјата на чудата",
+      "Мери Попинс",
+      "Волшебникот од Оз"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which book does a girl follow a white rabbit checking a pocket watch? — Alice in Wonderland."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кој од овие зборови е умалителна форма од „прст“?",
+    "options": [
+      "Прстен",
+      "Прстенче",
+      "Прстче",
+      "Напрсток"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these is the diminutive of \"prst\" (finger)? — Prstče; prsten (ring), prstenče and naprstok (thimble) share the root but are not diminutives of it."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што значи сообраќајниот знак со црвен круг и бела хоризонтална линија?",
+    "options": [
+      "Стоп",
+      "Забрането паркирање",
+      "Крај на патот",
+      "Забранет влез"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the road sign with a red circle and a white horizontal bar mean? — No entry."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Од кој град е пастрмајлијата, издолжената пита со месо и јајце?",
+    "options": [
+      "Штип",
+      "Прилеп",
+      "Кочани",
+      "Велес"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which town is pastrmajlija, the long meat-and-egg pie, from? — Štip."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која од овие букви ја има македонската, а ја нема српската азбука?",
+    "options": [
+      "Ђ",
+      "Ѕ",
+      "Ћ",
+      "Џ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these letters is in the Macedonian but not the Serbian alphabet? — Ѕ (Ђ and Ћ are only Serbian, Џ is in both)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Пчелата лета толку брзо што крилата едвај ги гледаме. Колку крила има?",
+    "options": [
+      "Две",
+      "Шест",
+      "Четири",
+      "Осум"
+    ],
+    "correctIndex": 2,
+    "gloss": "A bee's wings move too fast to see. How many does it have? — Four (two pairs)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што мери струјното бројло во киловатчасови?",
+    "options": [
+      "Напонот",
+      "Јачината на струјата",
+      "Отпорот",
+      "Потрошената енергија"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the electricity meter measure in kilowatt-hours? — Energy used."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која видеоигра со коцки што паѓаат е создадена во Советскиот Сојуз?",
+    "options": [
+      "Тетрис",
+      "Пакман",
+      "Мајнкрафт",
+      "Супер Марио"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which falling-blocks video game was created in the Soviet Union? — Tetris (Pajitnov, 1984)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој библиски пророк поминал три дена во утробата на голема риба?",
+    "options": [
+      "Илија",
+      "Јона",
+      "Мојсеј",
+      "Данаил"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which biblical prophet spent three days in the belly of a great fish? — Jonah."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која река тече низ Виена, Будимпешта и Белград?",
+    "options": [
+      "Сава",
+      "Рајна",
+      "Дунав",
+      "Тиса"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which river flows through Vienna, Budapest and Belgrade? — The Danube."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој е белиот крвен брат на Винету во романите на Карл Мај?",
+    "options": [
+      "Клеки-Петра",
+      "Сем Хокенс",
+      "Олд Фајерхенд",
+      "Олд Шетерхенд"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is Winnetou's white blood brother in Karl May's novels? — Old Shatterhand."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кога во Скопје е 13 часот, колку е часот во Лондон?",
+    "options": [
+      "12 часот",
+      "14 часот",
+      "11 часот",
+      "13 часот"
+    ],
+    "correctIndex": 0,
+    "gloss": "When it is 13:00 in Skopje, what time is it in London? — 12:00: London is one hour behind all year."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ако некој е „самоук“, што значи тоа?",
+    "options": [
+      "Учи со другите",
+      "Сам се научил",
+      "Не сака да учи",
+      "Учи само еден предмет"
+    ],
+    "correctIndex": 1,
+    "gloss": "If someone is \"samouk\", what does it mean? — He taught himself: sam (self) + uk (learning)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Тенисерот има 30 и освојува уште еден поен. Колку има сега?",
+    "options": [
+      "35",
+      "45",
+      "40",
+      "50"
+    ],
+    "correctIndex": 2,
+    "gloss": "A tennis player on 30 wins another point. What is the score now? — 40 (15, 30, 40: not 45)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој антички град со прочуени подни мозаици лежи веднаш до Битола?",
+    "options": [
+      "Стоби",
+      "Скупи",
+      "Лихнид",
+      "Хераклеја Линкестис"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ancient city with famous floor mosaics lies right by Bitola? — Heraclea Lyncestis."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој филм почнува со зборовите „Одамна, во една далечна галаксија…“?",
+    "options": [
+      "Војна на ѕвездите",
+      "Ѕвездени патеки",
+      "Дина",
+      "Аватар"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which film opens with \"A long time ago in a galaxy far, far away…\"? — Star Wars."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој импресионист насликал цела серија слики со локвањите од својата градина?",
+    "options": [
+      "Едуар Мане",
+      "Клод Моне",
+      "Огист Реноар",
+      "Едгар Дега"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Impressionist painted a whole series of the water lilies in his garden? — Claude Monet (Manet is the trap)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој народ го создал клинестото писмо, утиснато во глинени плочки?",
+    "options": [
+      "Египќаните",
+      "Феникијците",
+      "Сумерите",
+      "Хетитите"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which people created cuneiform, pressed into clay tablets? — The Sumerians (the Hittites used it, but borrowed)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој ја компонирал музиката на химната „Денес над Македонија“?",
+    "options": [
+      "Стефан Гајдов",
+      "Трајко Прокопиев",
+      "Живко Фирфов",
+      "Тодор Скаловски"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who composed the music of the anthem \"Denes nad Makedonija\"? — Todor Skalovski (1943)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "На Месечината гравитацијата е шестпати послаба. Што ќе му биде шестпати помало на астронаутот таму?",
+    "options": [
+      "Тежината",
+      "Масата",
+      "Волуменот",
+      "Густината"
+    ],
+    "correctIndex": 0,
+    "gloss": "Gravity on the Moon is six times weaker. What of an astronaut's becomes six times smaller there? — His weight; mass does not change."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој роман, објавен во 1952 година, се смета за прв македонски роман?",
+    "options": [
+      "Пиреј",
+      "Село зад седумте јасени",
+      "Калеш Анѓа",
+      "Големата вода"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which novel, published in 1952, is considered the first Macedonian novel? — \"Selo zad sedumte jaseni\" by Slavko Janevski."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Во кое вештачко езеро стои полупотопената црква „Свети Никола“?",
+    "options": [
+      "Дебарско",
+      "Тиквешко",
+      "Мавровско",
+      "Козјак"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which artificial lake does the half-submerged church of St Nicholas stand? — Lake Mavrovo."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Селенот го носи името на Месечината. Кој елемент го носи името на планетата Земја?",
+    "options": [
+      "Ураниум",
+      "Германиум",
+      "Хелиум",
+      "Телур"
+    ],
+    "correctIndex": 3,
+    "gloss": "Selenium is named after the Moon. Which element is named after planet Earth? — Tellurium (Latin Tellus); uranium is the planet Uranus, germanium the country, helium the Sun."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој е авторот на драмата „Македонска крвава свадба“?",
+    "options": [
+      "Марко Цепенков",
+      "Војдан Чернодрински",
+      "Антон Панов",
+      "Васил Иљоски"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the play \"Makedonska krvava svadba\"? — Vojdan Černodrinski (1900)."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што снимиле браќата Манаки во 1905 година, во својот прв филм?",
+    "options": [
+      "Својата баба како ткае",
+      "Свадба во Битола",
+      "Пазарен ден",
+      "Посета на султанот"
+    ],
+    "correctIndex": 0,
+    "gloss": "What did the Manaki brothers film in 1905, in their first film? — Their grandmother weaving (\"The Weavers\"); the Sultan's visit came in 1911."
+  }
+]

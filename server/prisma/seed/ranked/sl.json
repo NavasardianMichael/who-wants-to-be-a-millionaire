@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lipicanci, ponos kobilarne Lipica, se skotijo temni. Kakšni postanejo večinoma, ko odrastejo?",
+    "options": [
+      "Rjavi",
+      "Beli",
+      "Črni",
+      "Pegasti"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lipizzaners are born dark. What colour do most become as adults? — White: their coat greys to white over several years."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na otoku katerega jezera stoji cerkev, v kateri obiskovalci pozvonijo z zvonom želja?",
+    "options": [
+      "Bohinjskega",
+      "Cerkniškega",
+      "Blejskega",
+      "Velenjskega"
+    ],
+    "correctIndex": 2,
+    "gloss": "On the island of which lake is the church where visitors ring the wishing bell? — Lake Bled."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri pustni lik v kosmatem ovčjem kožuhu in z zvonci za pasom po ljudskem verovanju odganja zimo?",
+    "options": [
+      "Kurent",
+      "Parkelj",
+      "Povodni mož",
+      "Škrat"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which carnival figure in a shaggy sheepskin with bells on his belt drives winter away? — Kurent, the Ptuj carnival figure."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Prekmurska gibanica ima plasti maka, skute in orehov. Iz katerega sadja je še četrta?",
+    "options": [
+      "Iz sliv",
+      "Iz hrušk",
+      "Iz marelic",
+      "Iz jabolk"
+    ],
+    "correctIndex": 3,
+    "gloss": "Prekmurska gibanica has poppy seed, cottage cheese and walnut layers. What fruit is the fourth? — Apples."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri ansambel je zaslovel s skladbo „Na Golici“, ki jo poznajo po vsem svetu?",
+    "options": [
+      "Ansambel Lojzeta Slaka",
+      "Ansambel bratov Avsenik",
+      "Ansambel Modrijani",
+      "Ansambel Franca Miheliča"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which band became famous with the tune \"Na Golici\"? — The Avsenik Brothers Ensemble (Slavko Avsenik composed it)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katero dirko je Tadej Pogačar prvič osvojil leta 2020?",
+    "options": [
+      "Dirko po Italiji",
+      "Dirko po Španiji",
+      "Dirko po Franciji",
+      "Dirko po Sloveniji"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which race did Tadej Pogačar first win in 2020? — The Tour de France (his Tour of Slovenia win came first in 2019, the Giro in 2024)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo je zlobnež, ki se ga bojijo vsi otroci v Vandotovih zgodbah o Kekcu?",
+    "options": [
+      "Kosobrin",
+      "Rožle",
+      "Brdavs",
+      "Bedanec"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is the villain all children fear in Vandot's Kekec stories? — Bedanec (Kosobrin is a kindly old man, Rožle Kekec's friend, Brdavs the giant from Martin Krpan)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Katera od teh besed ima samo množino, četudi govorimo o enem samem kosu oblačila?",
+    "options": [
+      "Kapa",
+      "Srajca",
+      "Hlače",
+      "Nogavica"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words exists only in the plural, even for a single garment? — Hlače (trousers): \"ene hlače\"; the others have a singular."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zakaj steklenica, polna vode, v zamrzovalniku poči?",
+    "options": [
+      "Ker se voda, ko zmrzne, razširi",
+      "Ker se steklo na mrazu zdrobi",
+      "Ker iz vode uide zrak",
+      "Ker je led težji od vode"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does a bottle full of water burst in the freezer? — Water expands by about 9% when it freezes (ice is lighter, not heavier, than water)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri iglavec vsako jesen porumeni in odvrže iglice?",
+    "options": [
+      "Smreka",
+      "Jelka",
+      "Bor",
+      "Macesen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which conifer turns yellow and sheds its needles every autumn? — The larch."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaj izbrizgne hobotnica, ko hoče zmesti plenilca in zbežati?",
+    "options": [
+      "Strup",
+      "Črnilo",
+      "Sluz",
+      "Mehurčke"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does an octopus squirt to confuse a predator and escape? — Ink."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "S katero sosedo ima Slovenija najdaljšo kopensko mejo?",
+    "options": [
+      "Z Avstrijo",
+      "Z Italijo",
+      "Z Madžarsko",
+      "S Hrvaško"
+    ],
+    "correctIndex": 3,
+    "gloss": "With which neighbour does Slovenia share its longest land border? — Croatia (about 670 km, roughly twice the Austrian border)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Majhna Andora leži v Pirenejih med Francijo in katero državo?",
+    "options": [
+      "Španijo",
+      "Portugalsko",
+      "Italijo",
+      "Švico"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tiny Andorra lies in the Pyrenees between France and which country? — Spain."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katero valuto je Slovenija leta 2007 zamenjala z evrom?",
+    "options": [
+      "Dinar",
+      "Krono",
+      "Tolar",
+      "Kuno"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which currency did Slovenia replace with the euro in 2007? — The tolar."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katera vladarska rodbina je do leta 1918 več stoletij vladala večini slovenskih dežel?",
+    "options": [
+      "Habsburžani",
+      "Celjski grofje",
+      "Romanovi",
+      "Bourboni"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ruling house governed most Slovene lands for centuries until 1918? — The Habsburgs; the Counts of Celje were a rival local house that died out in 1456."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iz katerega jezika izhaja beseda origami, umetnost prepogibanja papirja?",
+    "options": [
+      "Iz kitajščine",
+      "Iz japonščine",
+      "Iz korejščine",
+      "Iz tajščine"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which language does the word origami, the art of paper folding, come from? — Japanese (oru \"fold\" + kami \"paper\")."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri angleški igralec je upodobil molčečega gospoda Beana?",
+    "options": [
+      "Rowan Atkinson",
+      "John Cleese",
+      "Hugh Laurie",
+      "Benny Hill"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which English actor played the near-silent Mr. Bean? — Rowan Atkinson."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri risani maček obožuje lazanjo in sovraži ponedeljke?",
+    "options": [
+      "Tom",
+      "Garfield",
+      "Sylvester",
+      "Felix"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which cartoon cat loves lasagne and hates Mondays? — Garfield."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iz katere države prihajajo kocke LEGO?",
+    "options": [
+      "Iz Švedske",
+      "Iz Norveške",
+      "Iz Nemčije",
+      "Iz Danske"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country do LEGO bricks come from? — Denmark (Billund)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera brezžična povezava na kratke razdalje poveže telefon z brezžičnimi slušalkami?",
+    "options": [
+      "Wi-Fi",
+      "USB",
+      "Bluetooth",
+      "HDMI"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which short-range wireless link connects a phone to wireless earbuds? — Bluetooth; USB and HDMI are cables, Wi-Fi joins networks."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iz katere stročnice je narejen bližnjevzhodni namaz humus?",
+    "options": [
+      "Iz leče",
+      "Iz čičerike",
+      "Iz fižola",
+      "Iz graha"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which pulse is the Middle Eastern spread hummus made from? — Chickpeas."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri nordijski bog vihti kladivo Mjölnir?",
+    "options": [
+      "Odin",
+      "Loki",
+      "Baldr",
+      "Tor"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norse god wields the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "V katerem športu je Janja Garnbret postala olimpijska prvakinja?",
+    "options": [
+      "V športnem plezanju",
+      "V alpskem smučanju",
+      "V judu",
+      "V gimnastiki"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did Janja Garnbret become Olympic champion? — Sport climbing (Tokyo 2020 and Paris 2024)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katera bajeslovna žival stoji na grajskem stolpu v grbu Ljubljane?",
+    "options": [
+      "Grifon",
+      "Zmaj",
+      "Samorog",
+      "Bazilisk"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which mythical creature stands on the castle tower in Ljubljana's coat of arms? — A dragon."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ura kaže 14.15. Kako to po domače povemo?",
+    "options": [
+      "Četrt na dve",
+      "Pol treh",
+      "Četrt na tri",
+      "Tri četrt na dve"
+    ],
+    "correctIndex": 2,
+    "gloss": "The clock shows 14:15. How do we say it colloquially? — \"Četrt na tri\": Slovenian counts quarters towards the coming hour (pol treh = 14:30, četrt na dve = 13:15)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Katera beseda pomeni »jaz in še ena oseba«?",
+    "options": [
+      "Mi",
+      "Midva",
+      "Vidva",
+      "Onadva"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word means \"I and one other person\"? — Midva, the dual of \"we\"; mi is three or more, vidva \"you two\", onadva \"they two\"."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaj izmerimo z Richterjevo lestvico?",
+    "options": [
+      "Moč potresa",
+      "Hitrost vetra",
+      "Kislost tal",
+      "Jakost zvoka"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the Richter scale measure? — The strength (magnitude) of an earthquake."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katera skupina je Slovenijo na Evroviziji 2023 zastopala s pesmijo »Carpe Diem«?",
+    "options": [
+      "Siddharta",
+      "Perpetuum Jazzile",
+      "Magnifico",
+      "Joker Out"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which band represented Slovenia at Eurovision 2023 with \"Carpe Diem\"? — Joker Out."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "S katerim klubom je Luka Dončić pri devetnajstih letih osvojil evroligo?",
+    "options": [
+      "Z Barcelono",
+      "S Fenerbahçejem",
+      "Z Realom Madrid",
+      "Z Olimpijo"
+    ],
+    "correctIndex": 2,
+    "gloss": "With which club did Luka Dončić win the EuroLeague at nineteen? — Real Madrid, in 2018, as the Final Four MVP."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koliko je poldrugi liter?",
+    "options": [
+      "0,5 l",
+      "1,5 l",
+      "2 l",
+      "2,5 l"
+    ],
+    "correctIndex": 1,
+    "gloss": "How much is \"poldrugi\" litre? — 1.5 l: \"half of the second\" litre, i.e. one and a half."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kateri organ izdeluje žolč?",
+    "options": [
+      "Žolčnik",
+      "Trebušna slinavka",
+      "Vranica",
+      "Jetra"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which organ produces bile? — The liver; the gallbladder only stores it."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kje je vrelec Geysir, po katerem so poimenovani vsi gejzirji?",
+    "options": [
+      "Na Islandiji",
+      "Na Novi Zelandiji",
+      "V Yellowstonu",
+      "Na Kamčatki"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where is the spring Geysir that gave all geysers their name? — Iceland."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kdo je po grški bajki bogovom ukradel ogenj in ga podaril ljudem?",
+    "options": [
+      "Herakles",
+      "Prometej",
+      "Ikar",
+      "Atlas"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Greek myth, who stole fire from the gods and gave it to people? — Prometheus."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera draga začimba so posušene nitke iz cvetov posebne vrste krokusa?",
+    "options": [
+      "Kurkuma",
+      "Cimet",
+      "Žafran",
+      "Vanilija"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which costly spice is the dried threads from the flowers of a kind of crocus? — Saffron (the stigmas of Crocus sativus)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katero ljudstvo je visoko v Andih zgradilo Machu Picchu?",
+    "options": [
+      "Maji",
+      "Azteki",
+      "Olmeki",
+      "Inki"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which people built Machu Picchu high in the Andes? — The Incas."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo je napisal povest Cvetje v jeseni?",
+    "options": [
+      "Josip Jurčič",
+      "Ivan Tavčar",
+      "Janko Kersnik",
+      "Ivan Cankar"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novella Cvetje v jeseni (Flowers in Autumn)? — Ivan Tavčar (1917)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera pisateljica je ustvarila belgijskega detektiva Hercula Poirota?",
+    "options": [
+      "Agatha Christie",
+      "Dorothy L. Sayers",
+      "P. D. James",
+      "Ruth Rendell"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer created the Belgian detective Hercule Poirot? — Agatha Christie."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Koliko robov ima kocka?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many edges does a cube have? — 12: four on top, four on the bottom, four upright (6 is faces, 8 vertices)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Stari slovenski mesec vinotok je dobil ime po trgatvi in mladem vinu. Kateri mesec je to?",
+    "options": [
+      "Avgust",
+      "September",
+      "November",
+      "Oktober"
+    ],
+    "correctIndex": 3,
+    "gloss": "The old Slovenian month name vinotok comes from the grape harvest and new wine. Which month is it? — October (September is kimavec, November listopad)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Za katero angleško besedo stoji črka „s“ v https na začetku spletnih naslovov?",
+    "options": [
+      "Server",
+      "Secure",
+      "Site",
+      "Speed"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which English word does the \"s\" in https stand for? — Secure."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaj po stari šegi na cvetno nedeljo nesemo k blagoslovu?",
+    "options": [
+      "Pisanico",
+      "Butaro",
+      "Adventni venec",
+      "Lectovo srce"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is traditionally taken to be blessed on Palm Sunday? — A butara, the bundle of greenery."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katera riba se iz morja vrne drstit v reko, v kateri se je izlegla?",
+    "options": [
+      "Losos",
+      "Jegulja",
+      "Ščuka",
+      "Krap"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which fish returns from the sea to spawn in the river where it hatched? — The salmon (the eel does the opposite, spawning at sea)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri slovenski impresionist je dal v Ljubljani zgraditi razstavni paviljon, ki je nosil njegovo ime?",
+    "options": [
+      "Matija Jama",
+      "Matej Sternen",
+      "Ivan Grohar",
+      "Rihard Jakopič"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Slovenian impressionist had an exhibition pavilion built in Ljubljana that bore his name? — Rihard Jakopič (Jakopičev paviljon, 1909)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri je bil prvi slovenski celovečerni zvočni film, posnet leta 1948?",
+    "options": [
+      "Kekec",
+      "Na svoji zemlji",
+      "Vesna",
+      "Dolina miru"
+    ],
+    "correctIndex": 1,
+    "gloss": "What was the first Slovenian feature-length sound film, made in 1948? — Na svoji zemlji (On Our Own Land), by France Štiglic."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Nad vrati stare hiše je vklesana letnica MDCCC. Katero leto je to?",
+    "options": [
+      "1300",
+      "1600",
+      "1800",
+      "2300"
+    ],
+    "correctIndex": 2,
+    "gloss": "The year MDCCC is carved above an old door. Which year is it? — 1800: M 1000 + D 500 + CCC 300."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri živalski skupini pripada človeška ribica iz kraških jam?",
+    "options": [
+      "Ribam",
+      "Plazilcem",
+      "Dvoživkam",
+      "Rakom"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal group does the olm of the Karst caves belong to? — Amphibians, despite its Slovenian name \"human fish\"."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ko je v Ljubljani poldne, koliko je ura v Londonu?",
+    "options": [
+      "11.00",
+      "13.00",
+      "12.00",
+      "10.00"
+    ],
+    "correctIndex": 0,
+    "gloss": "When it is noon in Ljubljana, what time is it in London? — 11:00: London is one hour behind all year, as both switch to summer time on the same days."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "V katero morje se na koncu izlije voda iz Ljubljanice?",
+    "options": [
+      "V Jadransko",
+      "V Severno",
+      "V Črno",
+      "V Baltsko"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sea does the water of the Ljubljanica finally reach? — The Black Sea: Ljubljanica → Sava → Danube."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kateri v Ljubljani rojeni kemik je leta 1923 prejel Nobelovo nagrado za mikroanalizo organskih snovi?",
+    "options": [
+      "Maks Samec",
+      "Vladimir Prelog",
+      "Lavoslav Ružička",
+      "Friderik Pregl"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Ljubljana-born chemist won the 1923 Nobel Prize for the microanalysis of organic substances? — Fritz (Friderik) Pregl."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Po zakonu Jožefa Stefana je moč, ki jo izseva telo, sorazmerna s katero potenco njegove absolutne temperature?",
+    "options": [
+      "Z drugo",
+      "S tretjo",
+      "S četrto",
+      "S peto"
+    ],
+    "correctIndex": 2,
+    "gloss": "By Jožef Stefan's law, the power a body radiates is proportional to which power of its absolute temperature? — The fourth (Stefan–Boltzmann law, P ∝ T⁴)."
+  }
+]
