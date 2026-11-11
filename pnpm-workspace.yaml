@@ -8,7 +8,11 @@ onlyBuiltDependencies:
   - sharp
 
 ignoredBuiltDependencies:
+  - '@google/genai'
+  - '@parcel/watcher'
+  - '@swc/core'
   - esbuild
+  - protobufjs
   - unrs-resolver
 
 overrides:
