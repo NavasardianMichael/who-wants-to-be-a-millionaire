@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Цагаан сарын өмнө айл бүр олноор нь чимхэж, уураар жигнэдэг хоол аль вэ?",
+    "options": [
+      "Бууз",
+      "Хуушуур",
+      "Банш",
+      "Цуйван"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which dish does every family pinch by the hundred and steam before Tsagaan Sar? — Buuz: steamed; khuushuur is fried, bansh boiled."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Үндэсний их баяр наадам жил бүр 7-р сарын хэдэнд эхэлдэг вэ?",
+    "options": [
+      "1",
+      "11",
+      "15",
+      "22"
+    ],
+    "correctIndex": 1,
+    "gloss": "On what day of July does the Naadam festival begin each year? — 11: the holiday runs 11–15 July."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монгол Улсын төрийн далбаан дээр ямар бэлгэ тэмдэг байдаг вэ?",
+    "options": [
+      "Өлзий",
+      "Түмэн насан",
+      "Соёмбо",
+      "Хас"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which symbol is on the Mongolian national flag? — Soyombo, in gold on the hoist-side red stripe."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Дөч» нь «дөрөв»-өөс, «тавь» нь «тав»-аас гаралтай. Тэгвэл «ер» аль тооноос гаралтай вэ?",
+    "options": [
+      "Найм",
+      "Долоо",
+      "Зургаа",
+      "Ес"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"Forty\" comes from \"four\", \"fifty\" from \"five\". Which number does \"ninety\" (ер) come from? — Nine (ес): ер = 90."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монгол кирилл цагаан толгойд байдаг ч орос цагаан толгойд байдаггүй хоёр үсэг аль вэ?",
+    "options": [
+      "Ө ба Ү",
+      "Ы ба Ъ",
+      "Э ба Ю",
+      "Ё ба Й"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which two letters are in the Mongolian Cyrillic alphabet but not the Russian one? — Ө and Ү: 33 Russian letters plus these two make 35."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монголчуудын «таван хошуу мал»-д аль нь ордоггүй вэ?",
+    "options": [
+      "Тэмээ",
+      "Гахай",
+      "Ямаа",
+      "Үхэр"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is not one of the Mongolian \"five muzzles\" of livestock? — Pig: the five are horse, cattle, camel, sheep and goat."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Далай ээж» хэмээн хүндэлдэг, Монголын хамгийн гүн цэнгэг устай нуур аль вэ?",
+    "options": [
+      "Увс",
+      "Хар ус",
+      "Хөвсгөл",
+      "Буйр"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which lake, honoured as \"Mother Sea\", is Mongolia's deepest freshwater lake? — Khövsgöl (about 262 m deep); Uvs is larger but salty and shallow."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Өгөдэй хааны үед Их Монгол Улсын нийслэл байсан хот аль вэ?",
+    "options": [
+      "Хар балгас",
+      "Хэрлэн барс",
+      "Хиагт",
+      "Хархорум"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city was the capital of the Mongol Empire under Ögedei Khan? — Karakorum; Khar Balgas was the Uyghur capital, Kherlen Bars a Khitan town."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Зуны сэрүүн ундаа айргийг ямар малын сүүгээр бүлж исгэдэг вэ?",
+    "options": [
+      "Гүүний",
+      "Үнээний",
+      "Тэмээний",
+      "Ямааны"
+    ],
+    "correctIndex": 0,
+    "gloss": "Airag is churned and fermented from which animal's milk? — Mare's milk; fermented camel milk is a different drink (khoormog)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хоолойгоор нэгэн зэрэг хоёр өөр авиа гаргадаг монгол дуулах урлагийг юу гэдэг вэ?",
+    "options": [
+      "Уртын дуу",
+      "Хөөмий",
+      "Магтаал",
+      "Тууль"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Mongolian art of singing two sounds at once with the throat called? — Khöömii (throat singing)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Гуравдугаар», «тавдугаар» гэж бичдэг. Тэгвэл 4-ийн дэс тоог зөв бичсэн нь аль вэ?",
+    "options": [
+      "Дөрөвдугаар",
+      "Дөрвөдүгээр",
+      "Дөрөвдүгээр",
+      "Дөрөвдагаар"
+    ],
+    "correctIndex": 2,
+    "gloss": "We write \"third\" and \"fifth\" as гуравдугаар, тавдугаар. Which is the correct spelling of \"fourth\"? — Дөрөвдүгээр: the ordinal suffix follows vowel harmony, so front-vowel дөрөв takes -дүгээр."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Солонгосын кимчиг голлон ямар ногоогоор даршилж хийдэг вэ?",
+    "options": [
+      "Төмс",
+      "Өргөст хэмх",
+      "Сонгино",
+      "Байцаа"
+    ],
+    "correctIndex": 3,
+    "gloss": "Korean kimchi is mostly made by fermenting which vegetable? — Cabbage (napa cabbage)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хустайн нуруунд буцаан нутагшуулсан зэрлэг адууг юу гэдэг вэ?",
+    "options": [
+      "Тахь",
+      "Хулан",
+      "Аргаль",
+      "Янгир"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the wild horse reintroduced to the Khustai Mountains called? — Takhi (Przewalski horse); khulan is the wild ass, argali and ibex (yangir) are wild sheep and goat."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Харри Поттер ид шидийн аль сургуульд суралцдаг вэ?",
+    "options": [
+      "Дурмстранг",
+      "Хогвартс",
+      "Шармбатон",
+      "Нарни"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which school of magic does Harry Potter attend? — Hogwarts; Durmstrang and Beauxbatons are rival schools in the same books."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Эртний монголчуудын шүтлэгт хамгийн дээд тэнгэрийг юу гэж нэрлэдэг вэ?",
+    "options": [
+      "Улаан тэнгэр",
+      "Хан хөхий",
+      "Мөнх хөх тэнгэр",
+      "Отгонтэнгэр"
+    ],
+    "correctIndex": 2,
+    "gloss": "What did the ancient Mongols call the highest heaven they worshipped? — the Eternal Blue Sky (Mönkh khökh tenger); Otgontenger and Khan Khökhii are mountains."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Хүний эрээн дотроо, … эрээн гаднаа» гэдэг. Хэний эрээн гаднаа вэ?",
+    "options": [
+      "Барын",
+      "Ирвэсийн",
+      "Загасны",
+      "Могойн"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"A person's stripes are inside, a ...'s stripes are outside.\" Whose? — The snake's: the proverb says you cannot see a person's true colours."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Монголчууд өвлийн хүйтнийг «есөн ес»-өөр тоолдог. Есөн ес нийт хэдэн хоног вэ?",
+    "options": [
+      "81",
+      "90",
+      "72",
+      "99"
+    ],
+    "correctIndex": 0,
+    "gloss": "Mongolians count the winter cold in \"nine nines\". How many days is that in all? — 81: nine periods of nine days from the winter solstice."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Майнкрафт» тоглоомын ертөнц бүхэлдээ ямар хэлбэрийн блокоос бүтдэг вэ?",
+    "options": [
+      "Бөмбөлөг",
+      "Шоо",
+      "Пирамид",
+      "Цилиндр"
+    ],
+    "correctIndex": 1,
+    "gloss": "What shape are the blocks that make up the whole world of Minecraft? — Cubes."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1981 онд сансарт ниссэн анхны монгол хүн хэн бэ?",
+    "options": [
+      "М.Ганзориг",
+      "Б.Ринчен",
+      "Ж.Гүррагчаа",
+      "Н.Жанцанноров"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who was the first Mongolian in space, in 1981? — J. Gürragchaa (Soyuz 39); M. Ganzorig was his backup."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Улирал бүр тэргүүн, дунд, адаг гэсэн гурван сартай. «Өвлийн адаг сар»-ын дараа аль сар ирэх вэ?",
+    "options": [
+      "Хаврын адаг сар",
+      "Өвлийн тэргүүн сар",
+      "Намрын дунд сар",
+      "Хаврын тэргүүн сар"
+    ],
+    "correctIndex": 3,
+    "gloss": "Each season has a first, middle and last month. Which month comes after the last month of winter? — The first month of spring (Tsagaan Sar month)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Залуу наранцэцэг өдөржин нарыг дагаж эргэдэг. Өглөө тэр аль зүг рүү харсан байх вэ?",
+    "options": [
+      "Зүүн",
+      "Баруун",
+      "Урд",
+      "Хойд"
+    ],
+    "correctIndex": 0,
+    "gloss": "A young sunflower turns to follow the sun all day. Which way does it face in the morning? — East, where the sun rises."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Өвөл ус хөлдөхөд яагаад шугам хоолой хагардаг вэ?",
+    "options": [
+      "Мөс уснаас хүнд",
+      "Мөс уснаас их эзэлхүүнтэй",
+      "Хүйтэнд төмөр сунадаг",
+      "Ус хөлдөхдөө халдаг"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why do water pipes burst when water freezes in winter? — Ice takes up more volume than the water it came from."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Компьютер бүх мэдээллийг ердөө хоёр тэмдэгтээр кодолж хадгалдаг. Аль хоёр вэ?",
+    "options": [
+      "А ба Б",
+      "+ ба −",
+      "0 ба 1",
+      "X ба Y"
+    ],
+    "correctIndex": 2,
+    "gloss": "A computer encodes all its data with just two symbols. Which? — 0 and 1: binary code."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XIII зуунд бичигдсэн, монголчуудын хамгийн эртний түүх-утга зохиолын дурсгал аль вэ?",
+    "options": [
+      "Алтан товч",
+      "Эрдэнийн товч",
+      "Гэсэрийн тууж",
+      "Монголын нууц товчоо"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which 13th-century work is the oldest Mongolian historical and literary monument? — The Secret History of the Mongols; Altan Tobchi and Erdeniin Tobchi are 17th-century."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Гейзер, галт уул, мөсөн голоороо «мөс ба галын орон» гэгддэг арал улс аль вэ?",
+    "options": [
+      "Исланд",
+      "Ирланд",
+      "Норвеги",
+      "Финланд"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which island country is called \"the land of ice and fire\" for its geysers, volcanoes and glaciers? — Iceland."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Наадмын хурдан морины уралдаанд ихэвчлэн хэн морь унадаг вэ?",
+    "options": [
+      "Морины эзэн",
+      "Хүүхэд",
+      "Мэргэжлийн жокей",
+      "Уяач"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who usually rides in the Naadam horse races? — Children; the uyaach is the trainer who prepares the horse."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Азийн хоолонд түгээмэл, бяслаг мэт цагаан тофуг юугаар хийдэг вэ?",
+    "options": [
+      "Будаа",
+      "Вандуй",
+      "Шар буурцаг",
+      "Эрдэнэ шиш"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is tofu, the white cheese-like staple of Asian cooking, made from? — Soybeans."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дэлхийд алдартай «BTS» хөвгүүдийн хамтлаг аль орных вэ?",
+    "options": [
+      "Япон",
+      "Хятад",
+      "Тайвань",
+      "Өмнөд Солонгос"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is the world-famous boy band BTS from? — South Korea."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Цусыг улаан өнгөтэй болгож, хүчилтөрөгч зөөдөг бодис аль вэ?",
+    "options": [
+      "Гемоглобин",
+      "Инсулин",
+      "Кератин",
+      "Коллаген"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which substance makes blood red and carries oxygen? — Haemoglobin."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Улаанбаатар хотыг 1924 он хүртэл юу гэж нэрлэж байсан бэ?",
+    "options": [
+      "Хархорум",
+      "Нийслэл хүрээ",
+      "Зуун хүрээ",
+      "Хужирбулан"
+    ],
+    "correctIndex": 1,
+    "gloss": "What was Ulaanbaatar called until 1924? — Niislel Khüree; it was renamed Ulaanbaatar in 1924."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XVII зуунд «Цагаан Дарь эх» зэрэг алдарт бурхдыг цутгасан уран барималч хэн бэ?",
+    "options": [
+      "Д.Равжаа",
+      "Марзан Шарав",
+      "Занабазар",
+      "Ү.Ядамсүрэн"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which 17th-century sculptor cast famous figures such as the White Tara? — Zanabazar, the first Bogd; Ravjaa was a poet, Sharav and Yadamsüren painters."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монгол бичгийг ямар чиглэлд бичдэг вэ?",
+    "options": [
+      "Дээрээс доош, мөрөө баруунаас зүүн",
+      "Хэвтээгээр, баруунаас зүүн",
+      "Хэвтээгээр, зүүнээс баруун",
+      "Дээрээс доош, мөрөө зүүнээс баруун"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which direction is traditional Mongolian script written? — Top to bottom, columns from left to right."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Марафон гүйлтийн зай ойролцоогоор хэдэн километр вэ?",
+    "options": [
+      "42",
+      "21",
+      "30",
+      "50"
+    ],
+    "correctIndex": 0,
+    "gloss": "Roughly how many kilometres is a marathon? — 42 (42.195 km); 21 is the half marathon."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Нил мөрөн аль далай тэнгист цутгадаг вэ?",
+    "options": [
+      "Улаан тэнгис",
+      "Газар дундын тэнгис",
+      "Энэтхэгийн далай",
+      "Атлантын далай"
+    ],
+    "correctIndex": 1,
+    "gloss": "Into which sea does the Nile flow? — The Mediterranean, through its delta in Egypt."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монголын уламжлалт хөгжмийн зэмсэг шанз хэдэн утастай вэ?",
+    "options": [
+      "Хоёр",
+      "Дөрөв",
+      "Гурав",
+      "Зургаа"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many strings does the traditional shanz have? — Three: the name comes from Chinese sanxian, \"three strings\"."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сушиг ороодог хар ногоон нимгэн хуудсыг юугаар хийдэг вэ?",
+    "options": [
+      "Байцааны навч",
+      "Будааны гурил",
+      "Усан үзмийн навч",
+      "Далайн замаг"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the thin dark green sheet wrapped around sushi made from? — Seaweed (nori)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шерлок Холмсын үнэнч найз, адал явдлуудыг нь бичдэг эмч хэн бэ?",
+    "options": [
+      "Ватсон",
+      "Лестрейд",
+      "Мориарти",
+      "Майкрофт"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who is Sherlock Holmes's loyal friend, the doctor who writes up his cases? — Dr Watson."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Нобелийн шагналыг аль орны зохион бүтээгчийн гэрээслэлээр олгодог вэ?",
+    "options": [
+      "Норвеги",
+      "Швед",
+      "Дани",
+      "Швейцарь"
+    ],
+    "correctIndex": 1,
+    "gloss": "Nobel Prizes are awarded under the will of an inventor from which country? — Sweden: Alfred Nobel was Swedish (the Peace Prize is given in Norway, hence the trap)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ромын тоогоор «XL» гэж бичсэн бол хэд вэ?",
+    "options": [
+      "60",
+      "90",
+      "40",
+      "110"
+    ],
+    "correctIndex": 2,
+    "gloss": "What number is XL in Roman numerals? — 40: X before L means 50 − 10."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Покемон»-ы цахилгаан цохилт өгдөг шар өнгийн алдарт баатар хэн бэ?",
+    "options": [
+      "Чармандер",
+      "Бульбасавр",
+      "Сквиртл",
+      "Пикачу"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which famous yellow Pokémon gives electric shocks? — Pikachu."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2008 онд Монголд олимпийн анхны алтан медаль авчирсан жүдоч хэн бэ?",
+    "options": [
+      "Н.Түвшинбаяр",
+      "Д.Сумъяа",
+      "Ж.Мөнхбат",
+      "Э.Бадар-Ууган"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which judoka won Mongolia's first Olympic gold, in 2008? — N. Tüvshinbayar (Beijing, 14 August); boxer Badar-Uugan won gold later in the same Games."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Матриц» кинонд Нео үнэнийг мэдэхийн тулд ямар өнгийн эм сонгодог вэ?",
+    "options": [
+      "Цэнхэр",
+      "Улаан",
+      "Ногоон",
+      "Шар"
+    ],
+    "correctIndex": 1,
+    "gloss": "In The Matrix, which colour pill does Neo choose to learn the truth? — Red; the blue pill would have sent him back."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Монгол тоонд «түм» нь арван мянга. Арван түмийг нэг үгээр юу гэдэг вэ?",
+    "options": [
+      "Сая",
+      "Живаа",
+      "Бум",
+      "Тэрбум"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Mongolian numbers \"tüm\" is ten thousand. What one word means ten tüm? — Bum (100,000); saya is a million, terbum a billion."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сар Дэлхийгээс 384 мянган км зайтай. Сарнаас ойсон гэрэл бидэнд хэр удаан хүрэх вэ?",
+    "options": [
+      "Минут орчим",
+      "Найман минут орчим",
+      "Цаг орчим",
+      "Секунд орчим"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Moon is 384,000 km away. How long does moonlight take to reach us? — About a second: light covers about 300,000 km a second."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Эрдэнэ Зуу хийдийн дөрвөлжин хэрмийн дээр хэдэн суварга бий вэ?",
+    "options": [
+      "108",
+      "81",
+      "99",
+      "120"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many stupas stand on the square wall of Erdene Zuu monastery? — 108, a sacred number in Buddhism."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Аль улсын нутгаар экватор ч, Матрын тропик ч дайран өнгөрдөг вэ?",
+    "options": [
+      "Индонез",
+      "Бразил",
+      "Аргентин",
+      "Мексик"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country is crossed by both the equator and the Tropic of Capricorn? — Brazil; Indonesia has only the equator, Argentina only Capricorn, Mexico the Tropic of Cancer."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Одиссейг эхнэр Пенелопа нь хорин жил хүлээсэн төрөлх арал аль вэ?",
+    "options": [
+      "Крит",
+      "Родос",
+      "Итака",
+      "Сицили"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which home island did Penelope wait twenty years for Odysseus? — Ithaca."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Европоос Африкийг тойрч Энэтхэгт далайгаар анх хүрсэн аялагч хэн бэ?",
+    "options": [
+      "Бартоломеу Диаш",
+      "Фернан Магеллан",
+      "Америго Веспуччи",
+      "Васко да Гама"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who first reached India from Europe by sea, round Africa? — Vasco da Gama, 1498; Dias rounded the Cape but turned back."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Монголын анхны роман гэгддэг «Хөх судар»-ыг хэн бичсэн бэ?",
+    "options": [
+      "В.Инжинаш",
+      "Гүлэнс",
+      "Хуульч Сандаг",
+      "Д.Равжаа"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"Khökh Sudar\" (The Blue Chronicle), called the first Mongolian novel? — V. Injinash (19th century); Gülens was his brother."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Аль элементийг Дэлхий дээр олохоос өмнө Нарны спектрээс анх илрүүлсэн бэ?",
+    "options": [
+      "Неон",
+      "Гели",
+      "Аргон",
+      "Устөрөгч"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which element was first found in the Sun's spectrum before it was found on Earth? — Helium (1868 solar eclipse), named after Helios."
+  }
+]

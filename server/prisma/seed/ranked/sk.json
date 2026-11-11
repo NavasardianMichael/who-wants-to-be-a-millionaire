@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dokončite príslovie: „Opakovanie je matka ...“",
+    "options": [
+      "úspechu",
+      "trpezlivosti",
+      "múdrosti",
+      "pamäti"
+    ],
+    "correctIndex": 2,
+    "gloss": "Finish the proverb: \"Repetition is the mother of ...\" — Wisdom (múdrosti)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto podľa tradície nosí slovenským deťom 6. decembra sladkosti do čižmičiek?",
+    "options": [
+      "Mikuláš",
+      "Ježiško",
+      "Svätý Martin",
+      "Lucia"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who traditionally brings Slovak children sweets in their boots on 6 December? — St Nicholas (Mikuláš); Ježiško comes on 24 December."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá polievka z kyslej kapusty, klobásy a sušených húb patrí na slovenských stoloch k Štedrému večeru?",
+    "options": [
+      "Držková",
+      "Cesnaková",
+      "Šošovicová",
+      "Kapustnica"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which soup of sauerkraut, sausage and dried mushrooms belongs on Slovak tables on Christmas Eve? — Kapustnica."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktoré z týchto miest leží na rieke Váh?",
+    "options": [
+      "Nitra",
+      "Žilina",
+      "Prešov",
+      "Banská Bystrica"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these towns lies on the Váh river? — Žilina (Nitra is on the Nitra, Prešov on the Torysa, Banská Bystrica on the Hron)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý vták podhadzuje svoje vajcia do cudzích hniezd?",
+    "options": [
+      "Straka",
+      "Sojka",
+      "Kukučka",
+      "Drozd"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z ktorej suroviny sa vyrába tofu?",
+    "options": [
+      "Zo sójových bôbov",
+      "Z ryže",
+      "Z pšenice",
+      "Z repky"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is tofu made from? — Soybeans."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "V ktorom športe vyhrala Anastasia Kuzminová pre Slovensko olympijské zlato vo Vancouveri v roku 2010?",
+    "options": [
+      "Zjazdové lyžovanie",
+      "Krasokorčuľovanie",
+      "Skok na lyžiach",
+      "Biatlon"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport did Anastasia Kuzmina win Olympic gold for Slovakia in Vancouver 2010? — Biathlon."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ktoré z týchto slov sa používa len v množnom čísle?",
+    "options": [
+      "Stôl",
+      "Okuliare",
+      "Kreslo",
+      "Skriňa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these words is used only in the plural? — Okuliare (glasses); the others have a singular."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koľko rokov má štvrťstoročie?",
+    "options": [
+      "40 rokov",
+      "20 rokov",
+      "25 rokov",
+      "50 rokov"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many years is a \"štvrťstoročie\"? — 25: a quarter of a century (štvrť = quarter)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ako Slováci familiárne volajú znak @ v e-mailovej adrese?",
+    "options": [
+      "Zavináč",
+      "Lomka",
+      "Mriežka",
+      "Pomlčka"
+    ],
+    "correctIndex": 0,
+    "gloss": "What do Slovaks colloquially call the @ sign? — Zavináč (a rolled pickled herring, from its shape)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorou menou sa na Slovensku platilo pred zavedením eura v roku 2009?",
+    "options": [
+      "Maďarský forint",
+      "Poľský zlotý",
+      "Slovinský tolár",
+      "Slovenská koruna"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which currency was used in Slovakia before the euro in 2009? — The Slovak koruna."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Čím chlapci na Veľkonočný pondelok tradične šibú dievčatá?",
+    "options": [
+      "Metlou",
+      "Korbáčom",
+      "Palicou",
+      "Prakom"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do boys traditionally switch girls with on Easter Monday? — A korbáč, a braided whip of willow twigs."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá bytosť zo slovenských rozprávok zatvára duše utopencov pod hrnčeky na dne rieky?",
+    "options": [
+      "Čert",
+      "Bosorka",
+      "Vodník",
+      "Škriatok"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which creature of Slovak fairy tales keeps drowned souls under pots at the river bottom? — The vodník (water goblin)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý spisovateľ napísal Dobrodružstvá Toma Sawyera aj Huckleberryho Finna?",
+    "options": [
+      "Mark Twain",
+      "Jack London",
+      "Charles Dickens",
+      "Jules Verne"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer wrote both Tom Sawyer and Huckleberry Finn? — Mark Twain."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá rozprávka o dievčati s tromi lieskovými orieškami patrí k vianočnej klasike v slovenských televíziách?",
+    "options": [
+      "Soľ nad zlato",
+      "Princ Bajaja",
+      "Pyšná princezná",
+      "Tri oriešky pre Popolušku"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fairy-tale film with three hazelnuts is a Christmas TV classic in Slovakia? — Three Wishes for Cinderella (Tri oriešky pre Popolušku)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ako sa volá vodovodár v červenej čiapke, ktorý je maskotom firmy Nintendo?",
+    "options": [
+      "Sonic",
+      "Mario",
+      "Link",
+      "Pac-Man"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the plumber in a red cap who is Nintendo's mascot called? — Mario (Sonic is Sega's)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktoré zviera dokáže pri ohrození odhodiť chvost, ktorý mu potom znova dorastie?",
+    "options": [
+      "Užovka",
+      "Myš",
+      "Jašterica",
+      "Veverička"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal can shed its tail when threatened and grow it back? — The lizard (jašterica)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktoré pohorie tvorí tradičnú hranicu medzi Európou a Áziou?",
+    "options": [
+      "Ural",
+      "Alpy",
+      "Karpaty",
+      "Pyreneje"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which mountain range is the traditional border between Europe and Asia? — The Urals."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Slovensko sa stalo samostatným štátom 1. januára ktorého roku?",
+    "options": [
+      "1992",
+      "1990",
+      "1995",
+      "1993"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year did Slovakia become independent, on 1 January? — 1993."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Čo meria barometer?",
+    "options": [
+      "Vlhkosť vzduchu",
+      "Tlak vzduchu",
+      "Rýchlosť vetra",
+      "Teplotu vzduchu"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a barometer measure? — Air pressure."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktoré korenie dáva tradičnému gulášu jeho červenú farbu?",
+    "options": [
+      "Kurkuma",
+      "Škorica",
+      "Paprika",
+      "Šafran"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which spice gives traditional goulash its red colour? — Paprika."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorú legendárnu slovenskú skupinu vedie spevák a basgitarista Jožo Ráž?",
+    "options": [
+      "Elán",
+      "Tublatanka",
+      "Team",
+      "Modus"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which legendary Slovak band is led by singer and bassist Jožo Ráž? — Elán."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý z týchto nástrojov patrí medzi plechové dychové?",
+    "options": [
+      "Klarinet",
+      "Hoboj",
+      "Fagot",
+      "Trúbka"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these is a brass instrument? — The trumpet; the others are woodwinds."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ako sa volá maľba na čerstvú, ešte mokrú omietku?",
+    "gloss": "What is painting on fresh, still-wet plaster called? — A fresco (from Italian fresco, fresh).",
+    "options": [
+      "Mozaika",
+      "Freska",
+      "Akvarel",
+      "Grafika"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Koľko dní uplynie od Štedrého večera do Silvestra?",
+    "options": [
+      "Šesť",
+      "Päť",
+      "Sedem",
+      "Osem"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many days pass from Christmas Eve to New Year's Eve? — Seven: 24 December to 31 December."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ktoré z týchto slov vyjadruje, že niekto niečo robí s radosťou?",
+    "options": [
+      "Rád",
+      "Rad",
+      "Rod",
+      "Rok"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word says someone does something gladly? — Rád; the dĺžeň changes rad (row) into rád (gladly)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koľko hráčov zostane na futbalovom ihrisku, ak z každého tímu vylúčia dvoch?",
+    "options": [
+      "20",
+      "22",
+      "16",
+      "18"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many players remain on a football pitch if two are sent off from each team? — 18: 22 minus 4."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý systém v mobile určuje polohu pomocou družíc?",
+    "options": [
+      "Wi-Fi",
+      "GPS",
+      "NFC",
+      "USB"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which system in a phone finds its position using satellites? — GPS."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý slovenský ľudový nástroj, dlhá píšťala siahajúca aj cez meter, je zapísaný v zozname nehmotného dedičstva UNESCO?",
+    "options": [
+      "Gajdy",
+      "Cimbal",
+      "Fujara",
+      "Koncovka"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Slovak folk instrument, a pipe over a metre long, is on UNESCO's intangible heritage list? — The fujara."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý kolektívny šport priniesol Slovákom v roku 2002 titul majstrov sveta?",
+    "options": [
+      "Ľadový hokej",
+      "Futbal",
+      "Hádzaná",
+      "Basketbal"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which team sport won Slovakia a world title in 2002? — Ice hockey."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ktoré z týchto zvierat sa po slovensky volá slovom bez jedinej samohlásky?",
+    "options": [
+      "Líška",
+      "Medveď",
+      "Zajac",
+      "Vlk"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these animals has a Slovak name with no vowel at all? — Vlk (wolf), the l is syllabic."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý plyn, ľahší ako vzduch, plní párty balóny a po vdýchnutí zmení hlas na pisklavý?",
+    "options": [
+      "Neón",
+      "Hélium",
+      "Argón",
+      "Kyslík"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which gas lighter than air fills party balloons and makes your voice squeaky when inhaled? — Helium."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorá časť počítača stráca po vypnutí napájania všetko, čo je v nej uložené?",
+    "options": [
+      "SSD disk",
+      "USB kľúč",
+      "Operačná pamäť (RAM)",
+      "Pevný disk"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which part of a computer loses everything stored in it when the power goes off? — The working memory (RAM); the others are permanent storage."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorý veľký biely vták s červeným zobákom stavia obrovské hniezda na komínoch a na zimu odlieta do Afriky?",
+    "options": [
+      "Bocian biely",
+      "Žeriav popolavý",
+      "Labuť veľká",
+      "Volavka popolavá"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which big white bird with a red bill nests on chimneys and winters in Africa? — The white stork."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto napísal básnickú skladbu Hájnikova žena?",
+    "options": [
+      "Svetozár Hurban Vajanský",
+      "Martin Kukučín",
+      "Ivan Krasko",
+      "Pavol Országh Hviezdoslav"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the epic poem Hájnikova žena (The Gamekeeper's Wife)? — Pavol Országh Hviezdoslav."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Klavír má 52 bielych klávesov a o 16 menej čiernych. Koľko klávesov má spolu?",
+    "options": [
+      "104",
+      "88",
+      "72",
+      "68"
+    ],
+    "correctIndex": 1,
+    "gloss": "A piano has 52 white keys and 16 fewer black ones. How many keys in total? — 88: 52 + 36."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý herec stvárnil kapitána Jacka Sparrowa vo filmoch Piráti z Karibiku?",
+    "options": [
+      "Orlando Bloom",
+      "Brad Pitt",
+      "Johnny Depp",
+      "Tom Cruise"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which actor played Captain Jack Sparrow in Pirates of the Caribbean? — Johnny Depp (Orlando Bloom played Will Turner)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vo ktorom meste nájdete múzeum Prado s Velázquezovými Dvornými dámami?",
+    "options": [
+      "Madrid",
+      "Barcelona",
+      "Lisabon",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which city is the Prado, home of Las Meninas by Velázquez? — Madrid."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorú pohraničnú rieku splavujú turisti na drevených pltiach v Pieninách?",
+    "options": [
+      "Orava",
+      "Hornád",
+      "Poprad",
+      "Dunajec"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which border river do tourists raft on wooden rafts in the Pieniny? — The Dunajec (border with Poland)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorá obilnina je najčastejšou surovinou sladu, z ktorého sa varí pivo?",
+    "options": [
+      "Ovos",
+      "Jačmeň",
+      "Raž",
+      "Kukurica"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which grain is most often malted for brewing beer? — Barley."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ako sa volá rímska bohyňa lásky, ktorej zodpovedá grécka Afrodita?",
+    "options": [
+      "Minerva",
+      "Juno",
+      "Venuša",
+      "Diana"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Roman goddess of love, equal to the Greek Aphrodite, called? — Venus."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Keď je v Bratislave poludnie, koľko je hodín v Londýne?",
+    "options": [
+      "11:00",
+      "13:00",
+      "12:00",
+      "10:00"
+    ],
+    "correctIndex": 0,
+    "gloss": "When it is noon in Bratislava, what time is it in London? — 11:00: London is one hour behind in both winter and summer."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktoré dnešné slovenské mesto bolo v rokoch 1563 až 1830 korunovačným mestom uhorských kráľov?",
+    "options": [
+      "Trnava",
+      "Nitra",
+      "Košice",
+      "Bratislava"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which present-day Slovak city was the coronation city of Hungarian kings from 1563 to 1830? — Bratislava (St Martin's Cathedral)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto režíroval film Vtáčkovia, siroty a blázni z roku 1969?",
+    "options": [
+      "Štefan Uher",
+      "Juraj Jakubisko",
+      "Dušan Hanák",
+      "Peter Solan"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who directed the 1969 film Birds, Orphans and Fools? — Juraj Jakubisko."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koľko chromozómov má bežná ľudská telová bunka?",
+    "options": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many chromosomes does an ordinary human body cell have? — 46 (23 pairs)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koľko kusov označovala staršia slovenská miera „kopa“?",
+    "options": [
+      "60",
+      "12",
+      "100",
+      "20"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many items did the old Slovak count-measure \"kopa\" stand for? — 60 (a tucet is 12)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koľko dní v bežnom roku zostane po odpočítaní 52 celých týždňov?",
+    "options": [
+      "Dva",
+      "Sedem",
+      "Žiadny",
+      "Jeden"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many days of an ordinary year are left after 52 full weeks? — One: 365 minus 364."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "V ktorom meste prijali v roku 1861 Memorandum národa slovenského?",
+    "options": [
+      "Banská Bystrica",
+      "Martin",
+      "Liptovský Mikuláš",
+      "Trnava"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which town was the Memorandum of the Slovak Nation adopted in 1861? — Martin (Turčiansky Svätý Martin)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ktorý štát leží celý ako ostrov vo vnútri územia Juhoafrickej republiky?",
+    "options": [
+      "Eswatini",
+      "Botswana",
+      "Lesotho",
+      "Namíbia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country lies entirely inside South Africa? — Lesotho (Eswatini also borders Mozambique)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ktorá dvojica architektov navrhla historickú budovu Slovenského národného divadla v Bratislave?",
+    "options": [
+      "Fellner a Helmer",
+      "Zítek a Schulz",
+      "Semper a Hasenauer",
+      "Lechner a Pártos"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which pair of architects designed the historic Slovak National Theatre building in Bratislava (opened 1886)? — Fellner and Helmer."
+  }
+]

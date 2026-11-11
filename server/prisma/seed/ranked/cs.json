@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Které z těchto oděvních slov nemá v češtině jednotné číslo?",
+    "options": [
+      "Ponožky",
+      "Boty",
+      "Kalhoty",
+      "Rukavice"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these clothing words has no singular in Czech? — Kalhoty (trousers): socks, shoes and gloves all have a singular (ponožka, bota, rukavice)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "V Česku se datum píše od dne. Který měsíc je tedy 4. 5. 2026?",
+    "options": [
+      "Květen",
+      "Duben",
+      "Březen",
+      "Červen"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Czechia the date starts with the day. Which month is 4. 5. 2026? — May: day.month.year, trap for those who read it the American way (April)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Které z těchto slov je bez čárky nad „y“ obydlí, ale s čárkou sloveso?",
+    "options": [
+      "Dům",
+      "Stan",
+      "Chata",
+      "Byt"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words is a dwelling without the accent over y but a verb with it? — Byt (flat) / být (to be); the other dwellings do not turn into a verb."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Když je v Praze poledne, kolik hodin je v tu chvíli v Londýně?",
+    "options": [
+      "12:00",
+      "11:00",
+      "13:00",
+      "10:00"
+    ],
+    "correctIndex": 1,
+    "gloss": "When it is noon in Prague, what time is it in London? — 11:00: London is one hour behind Central Europe all year (both change clocks together)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo podle české tradice nosí dětem dárky na Štědrý den?",
+    "options": [
+      "Svatý Mikuláš",
+      "Ježíšek",
+      "Dědeček Mráz",
+      "Santa Claus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who brings children presents on Christmas Eve in Czech tradition? — Ježíšek (Baby Jesus); St Nicholas comes on 5 December."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak se jmenuje pletený prut z vrbových proutků, kterým chlapci o Velikonočním pondělí šlehají dívky?",
+    "options": [
+      "Metla",
+      "Rákoska",
+      "Bič",
+      "Pomlázka"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the braided willow switch boys use on girls on Easter Monday called? — Pomlázka, the Czech Easter custom."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak se jmenuje český sýr s bílou plísní na povrchu, podobný camembertu?",
+    "options": [
+      "Hermelín",
+      "Niva",
+      "Eidam",
+      "Tvarůžky"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the Czech white-mould cheese similar to camembert called? — Hermelín (Niva is blue-veined, Eidam has a wax rind, tvarůžky are smear-ripened)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Které zvíře si staví hráze na potocích a řekách?",
+    "options": [
+      "Vydra",
+      "Ondatra",
+      "Bobr",
+      "Nutrie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal builds dams on streams and rivers? — The beaver; otter, muskrat and coypu do not build dams."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na kterou horu podle pověsti přivedl svůj lid praotec Čech?",
+    "options": [
+      "Na Blaník",
+      "Na Radhošť",
+      "Na Ještěd",
+      "Na Říp"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which mountain did forefather Čech lead his people according to the legend? — Říp; Blaník (sleeping knights), Radhošť and Ještěd are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Slovo „sít“ dostane háček nad „s“. Co teď znamená?",
+    "options": [
+      "Péct chleba",
+      "Šít jehlou a nití",
+      "Prát prádlo",
+      "Žehlit košile"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word \"sít\" (to sow) gets a háček over the s. What does it mean now? — \"šít\", to sew with needle and thread; the háček turns one verb into another."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Které z těchto slov označuje nejmenší stavbu?",
+    "options": [
+      "Domek",
+      "Dům",
+      "Domeček",
+      "Činžák"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words names the smallest building? — Domeček: a diminutive of the diminutive domek, itself a diminutive of dům; činžák is a big tenement block."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak se jmenuje syn loupežníka Rumcajse z oblíbeného Večerníčku?",
+    "options": [
+      "Hurvínek",
+      "Kašpárek",
+      "Křemílek",
+      "Cipísek"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the son of the robber Rumcajs from the beloved Večerníček series called? — Cipísek (Rumcajs, his wife Manka and son Cipísek live in Řáholec)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který sport spojuje běh na lyžích se střelbou z pušky?",
+    "options": [
+      "Biatlon",
+      "Severská kombinace",
+      "Moderní pětiboj",
+      "Triatlon"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sport combines cross-country skiing with rifle shooting? — Biathlon."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jakým přístrojem měříme tlak vzduchu?",
+    "options": [
+      "Teploměrem",
+      "Vlhkoměrem",
+      "Barometrem",
+      "Tachometrem"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which instrument measures air pressure? — A barometer."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co se stane s objemem vody, když zamrzne v led?",
+    "options": [
+      "Zvětší se",
+      "Zmenší se",
+      "Zůstane stejný",
+      "Kolísá podle teploty"
+    ],
+    "correctIndex": 0,
+    "gloss": "What happens to the volume of water when it freezes into ice? — It grows (about 9 per cent), which is why bottles burst in a freezer."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kterým průlivem jezdí vlaky tunelem z Francie do Anglie?",
+    "options": [
+      "Gibraltarský průliv",
+      "Bospor",
+      "Skagerrak",
+      "Lamanšský průliv"
+    ],
+    "correctIndex": 3,
+    "gloss": "Under which strait do trains run through a tunnel from France to England? — The English Channel (La Manche), via the Channel Tunnel."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který strom je považován za národní strom Čechů?",
+    "options": [
+      "Dub",
+      "Lípa",
+      "Buk",
+      "Smrk"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which tree is regarded as the national tree of the Czechs? — The linden (lípa)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který zpěvák byl přezdívaný „Zlatý hlas z Prahy“?",
+    "options": [
+      "Karel Gott",
+      "Waldemar Matuška",
+      "Karel Kryl",
+      "Václav Neckář"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which singer was nicknamed \"the Golden Voice of Prague\"? — Karel Gott."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak se jmenuje zelený zlobr z bažiny, jehož nejlepším kamarádem je mluvící osel?",
+    "options": [
+      "Grinch",
+      "Hulk",
+      "Yoda",
+      "Shrek"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the green ogre from the swamp whose best friend is a talking donkey called? — Shrek."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Která česká spisovatelka napsala Babičku?",
+    "options": [
+      "Karolina Světlá",
+      "Eliška Krásnohorská",
+      "Božena Němcová",
+      "Teréza Nováková"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Czech woman writer wrote Babička (The Grandmother)? — Božena Němcová (1855)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který nástroj dostal své jméno podle toho, že umí hrát tiše i hlasitě?",
+    "options": [
+      "Harfa",
+      "Piano",
+      "Varhany",
+      "Akordeon"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which instrument was named after being able to play both soft and loud? — The piano (pianoforte, \"soft-loud\")."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na které pražské památce se každou celou hodinu objeví procesí apoštolů?",
+    "options": [
+      "Petřínská rozhledna",
+      "Rudolfinum",
+      "Vyšehrad",
+      "Staroměstský orloj"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which Prague monument does a procession of apostles appear every full hour? — The Old Town astronomical clock (orloj)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak se česky říká znaku @ z e-mailové adresy?",
+    "options": [
+      "Zavináč",
+      "Lomítko",
+      "Hvězdička",
+      "Podtržítko"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the @ sign of an e-mail address called in Czech? — Zavináč (a rollmop herring)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který italský sýr se v salátu caprese krájí na kolečka a střídá s rajčaty?",
+    "options": [
+      "Feta",
+      "Mozzarella",
+      "Cheddar",
+      "Gouda"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Italian cheese is sliced and alternated with tomatoes in a caprese salad? — Mozzarella."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co znamená písmeno „s“ v zkratce https na začátku webové adresy?",
+    "options": [
+      "Server",
+      "Stránka",
+      "Zabezpečený",
+      "Sdílený"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the \"s\" in https at the start of a web address stand for? — Secure (the connection is encrypted)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak se v českých pověstech říká zelenému mužíkovi z rybníka, který ukrývá duše utonulých pod hrnečky?",
+    "options": [
+      "Hejkal",
+      "Polednice",
+      "Vodník",
+      "Krakonoš"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the green little man of the pond who keeps drowned souls under pots called in Czech folklore? — Vodník."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Která stavebnice z plastových kostek pochází z Dánska?",
+    "options": [
+      "Merkur",
+      "Lego",
+      "Cheva",
+      "Playmobil"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which plastic-brick construction toy comes from Denmark? — Lego."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Které číslo tísňového volání funguje v celé Evropské unii?",
+    "options": [
+      "112",
+      "155",
+      "911",
+      "999"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which emergency number works across the whole EU? — 112."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ve kterém roce se Československo rozdělilo na Českou republiku a Slovensko?",
+    "options": [
+      "1993",
+      "1989",
+      "1991",
+      "1995"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which year did Czechoslovakia split into the Czech Republic and Slovakia? — 1993."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který kov má v periodické tabulce značku Fe?",
+    "options": [
+      "Měď",
+      "Zinek",
+      "Železo",
+      "Cín"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which metal has the symbol Fe? — Iron."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Které z těchto zvířat nesnáší vejce?",
+    "options": [
+      "Had",
+      "Ježek",
+      "Pstruh",
+      "Žába"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these animals does not lay eggs? — The hedgehog, a mammal; snake, trout and frog all lay eggs."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "S kterým z těchto států Česko nesousedí?",
+    "options": [
+      "Rakousko",
+      "Polsko",
+      "Slovensko",
+      "Maďarsko"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these states does Czechia not border? — Hungary."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který romantický básník napsal báseň Máj?",
+    "options": [
+      "Karel Hynek Mácha",
+      "Karel Jaromír Erben",
+      "Jan Neruda",
+      "Jaroslav Vrchlický"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Romantic poet wrote the poem Máj (May)? — Karel Hynek Mácha (1836)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který barokní skladatel napsal Čtvero ročních dob?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Georg Friedrich Händel",
+      "Antonio Vivaldi",
+      "Claudio Monteverdi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Baroque composer wrote The Four Seasons? — Antonio Vivaldi."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který režisér stojí za filmy Čelisti a Jurský park?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which director made Jaws and Jurassic Park? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Která česká tenistka vyhrála Wimbledon v letech 2011 a 2014?",
+    "options": [
+      "Martina Navrátilová",
+      "Lucie Šafářová",
+      "Barbora Strýcová",
+      "Petra Kvitová"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Czech tennis player won Wimbledon in 2011 and 2014? — Petra Kvitová."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Které slovo, které dnes zná celý svět, poprvé zaznělo v české divadelní hře Karla Čapka R.U.R.?",
+    "options": [
+      "Robot",
+      "Kyborg",
+      "Automat",
+      "Dron"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word known worldwide first appeared in Karel Čapek's Czech play R.U.R.? — Robot."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který švýcarský sýr proslul velkými dírami?",
+    "options": [
+      "Eidam",
+      "Parmazán",
+      "Ementál",
+      "Gorgonzola"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swiss cheese is famous for its large holes? — Emmental."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který hrdina řeckých bájí zabil v labyrintu Minotaura?",
+    "options": [
+      "Héraklés",
+      "Théseus",
+      "Odysseus",
+      "Perseus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which hero of Greek myth killed the Minotaur in the labyrinth? — Theseus."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kdo namaloval cyklus dvaceti velkoformátových pláten Slovanská epopej?",
+    "options": [
+      "Josef Lada",
+      "Mikoláš Aleš",
+      "František Kupka",
+      "Alfons Mucha"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who painted the cycle of twenty monumental canvases The Slav Epic? — Alfons Mucha."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Které z těchto slov se v českém slovníku řadí podle abecedy až na konec?",
+    "options": [
+      "Chata",
+      "Hrad",
+      "Husa",
+      "Hlava"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words comes last in Czech alphabetical order? — Chata: \"ch\" is a letter that sorts after \"h\", so it follows Hrad, Husa and Hlava."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Rychlík vyjede z Prahy ve 14:45 a jízda do Brna trvá 2 hodiny 30 minut. V kolik hodin přijede?",
+    "options": [
+      "16:15",
+      "17:30",
+      "17:15",
+      "17:45"
+    ],
+    "correctIndex": 2,
+    "gloss": "An express leaves Prague at 14:45 and the trip takes 2 h 30 min. When does it arrive? — 17:15."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kolik nul má podle české číselné soustavy jeden bilion?",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many zeros does one \"bilion\" have in the Czech system? — 12: Czech bilion is 10^12 (long scale), 10^9 is miliarda."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kdyby Slunce náhle zhaslo, za jak dlouho by si toho lidé na Zemi všimli?",
+    "options": [
+      "Okamžitě",
+      "Za asi 8 hodin",
+      "Za asi 8 dní",
+      "Za asi 8 minut"
+    ],
+    "correctIndex": 3,
+    "gloss": "If the Sun suddenly went out, how long until people on Earth noticed? — About 8 minutes: light (and gravity) needs that long to cross to Earth."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který habsburský císař přesunul dvůr do Prahy a pozval k němu astronomy Tychona Brahe a Johannese Keplera?",
+    "options": [
+      "Rudolf II.",
+      "Ferdinand I.",
+      "Karel IV.",
+      "Matyáš"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Habsburg emperor moved his court to Prague and invited astronomers Tycho Brahe and Johannes Kepler? — Rudolf II."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Který pták si v Antarktidě drží vejce na nohou, aby mu nezmrzlo?",
+    "options": [
+      "Albatros stěhovavý",
+      "Kormorán",
+      "Tučňák císařský",
+      "Racek"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird in Antarctica holds its egg on its feet so it does not freeze? — The emperor penguin (the male)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který skladatel z Hukvald napsal operu Příhody lišky Bystroušky?",
+    "options": [
+      "Bohuslav Martinů",
+      "Leoš Janáček",
+      "Josef Suk",
+      "Zdeněk Fibich"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which composer from Hukvaldy wrote the opera The Cunning Little Vixen? — Leoš Janáček (1924)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Která z těchto zemí leží tak, že k moři se z ní nedostanete dřív než po překročení dvou státních hranic?",
+    "options": [
+      "Švýcarsko",
+      "Rakousko",
+      "Slovensko",
+      "Lichtenštejnsko"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these countries needs two border crossings to reach a coastal state? — Liechtenstein (Switzerland or Austria first, then Italy or Slovenia); Switzerland, Austria and Slovakia each border a coastal state directly (Italy; Italy/Slovenia; Poland)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Který přemyslovský panovník se pro své bohatství i vojenskou sílu nazývá „králem železným a zlatým“?",
+    "options": [
+      "Přemysl Otakar I.",
+      "Václav I.",
+      "Přemysl Otakar II.",
+      "Václav II."
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Přemyslid ruler is called \"the iron and golden king\"? — Přemysl Otakar II."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Která žena je pokládána za autorku prvního počítačového programu, napsaného pro Babbageův Analytický stroj?",
+    "options": [
+      "Ada Lovelaceová",
+      "Grace Hopperová",
+      "Hedy Lamarrová",
+      "Margaret Hamiltonová"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which woman is regarded as the author of the first computer program, written for Babbage's Analytical Engine? — Ada Lovelace (1843)."
+  }
+]
