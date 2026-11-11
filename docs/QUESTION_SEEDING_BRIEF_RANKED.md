@@ -66,9 +66,19 @@ Cleopatra, Medusa, the phoenix, Marie Curie's two Nobels, Fleming and penicillin
 press, photosynthesis giving off oxygen, chlorophyll, mercury as the liquid metal, the platypus
 laying eggs, the dolphin or bat as a mammal, the Red Planet, nitrogen in the air, vitamin D from
 sunlight, pizza from Naples, the croissant, Titanic's Jack, E.T. phoning home, the Simpsons, the
-Little Prince's rose, July named after Caesar, Android made by Google, Pompeii. The list is a
-sample: the test is whether a player has met the question in other quizzes. Then, before your
+Little Prince's rose, July named after Caesar, Android made by Google, Pompeii. The next writers
+swapped in school-book items of the same kind, which also had to go: acorns from the oak, 32
+adult teeth, the panda's bamboo, the spider not being an insect, the painter's palette, Saturn's
+rings, the Nile in Egypt, avocado in guacamole, the five Olympic rings, the red card, red and
+yellow make orange, Heracles' labours, Poseidon's trident, the Stone Age, Italy shaped like a
+boot, a die's opposite faces adding to 7, counting animals' legs. The list is a sample: the test
+is whether a player has met the question in other quizzes or a school textbook. Then, before your
 final message, list your 28 level-1 questions and replace any that fails that test.
+
+**At least 3 of the 28 level-1 questions are quick reasoning only your language can ask.** The
+best earlier ones: Czech «sít» becoming «šít» with a háček, Slovenian «midva» (the dual "we
+two"), Macedonian «двајца» (the count word for men only), Mongolian vowel harmony in an ordinal
+suffix, German «halb acht» meaning 7:30, Greek «γέρος» and «γερός».
 
 **Unchanged from Classic:** about 40% `local` (30–55%), at least 10 of the 16 categories, every
 question about a different subject, and each of the four answer positions correct 7–18 times.
