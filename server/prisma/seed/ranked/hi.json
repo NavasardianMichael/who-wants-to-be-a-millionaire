@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«हंस» एक पक्षी है। बिंदु की जगह चंद्रबिंदु लगा दें तो «हँस» क्या बन जाता है?",
+    "options": [
+      "एक नदी",
+      "हँसने की क्रिया",
+      "एक राग",
+      "एक पेड़"
+    ],
+    "correctIndex": 1,
+    "gloss": "«हंस» is a swan. Swap the dot for a chandrabindu and «हँस» becomes what? — The verb 'laugh' (हँसना): one nasal mark changes the word."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«दो ___ आए।» किस शब्द का रूप इस वाक्य में बहुवचन होकर भी नहीं बदलता?",
+    "options": [
+      "लड़का",
+      "घोड़ा",
+      "बेटा",
+      "आदमी"
+    ],
+    "correctIndex": 3,
+    "gloss": "'Two ___ came.' Which word keeps its form in the plural here? — आदमी: masculine nouns in -ा become -े (लड़के, घोड़े, बेटे); आदमी stays आदमी."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "आज सोमवार है और दोस्त कहता है, «मैं परसों आऊँगा।» वह किस दिन आएगा?",
+    "options": [
+      "मंगलवार",
+      "बुधवार",
+      "गुरुवार",
+      "शनिवार"
+    ],
+    "correctIndex": 1,
+    "gloss": "Today is Monday; a friend says 'I'll come परसों'. Which day? — Wednesday: परसों is two days away (both before and after; the future tense fixes it)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "पुराने ज़माने में एक रुपया सोलह आने का होता था। तो «अठन्नी» कितने पैसे की हुई?",
+    "options": [
+      "8 पैसे",
+      "25 पैसे",
+      "50 पैसे",
+      "80 पैसे"
+    ],
+    "correctIndex": 2,
+    "gloss": "A rupee was sixteen annas. How many paise is an «अठन्नी»? — 50 paise: अठन्नी = आठ आने, half of sixteen."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "अपनी कमी का दोष दूसरों पर डालने वाले के लिए कहावत है: «नाच न जाने, ___ टेढ़ा»। ख़ाली जगह में क्या आएगा?",
+    "options": [
+      "आँगन",
+      "रास्ता",
+      "ढोलक",
+      "घुँघरू"
+    ],
+    "correctIndex": 0,
+    "gloss": "The proverb for blaming others for one's own lack: 'Can't dance, so the ___ is crooked.' — The courtyard (आँगन)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "माइक्रोवेव में खाना गरम करना हो तो कौन‑सा बर्तन भूलकर भी अंदर नहीं रखना चाहिए?",
+    "options": [
+      "काँच का कटोरा",
+      "चीनी मिट्टी की प्लेट",
+      "स्टील का डिब्बा",
+      "माइक्रोवेव‑सेफ़ प्लास्टिक का डिब्बा"
+    ],
+    "correctIndex": 2,
+    "gloss": "Heating food in a microwave, which container must never go in? — Steel: metal reflects microwaves and can spark."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पैकेट पर छपे «MRP» में «M» किस शब्द के लिए है?",
+    "options": [
+      "मूल",
+      "न्यूनतम",
+      "मासिक",
+      "अधिकतम"
+    ],
+    "correctIndex": 3,
+    "gloss": "In «MRP» printed on a packet, what does the M stand for? — Maximum (अधिकतम खुदरा मूल्य, Maximum Retail Price): the shop may not charge more."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वेबसाइट पर टेढ़े‑मेढ़े अक्षर पढ़कर भरने वाली «कैप्चा» जाँच असल में क्या साबित करती है?",
+    "options": [
+      "कि आप इंसान हैं, मशीन नहीं",
+      "कि आपका इंटरनेट चालू है",
+      "कि आपकी उम्र अठारह से ज़्यादा है",
+      "कि आपका पासवर्ड सही है"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does a CAPTCHA (squiggly letters to type) actually prove? — That you are a human, not a bot."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कंप्यूटर पर कुछ लिखते हुए ग़लती से मिटा दिया। कौन‑सा शॉर्टकट उसे वापस ले आएगा?",
+    "options": [
+      "Ctrl+S",
+      "Ctrl+Z",
+      "Ctrl+A",
+      "Ctrl+P"
+    ],
+    "correctIndex": 1,
+    "gloss": "You deleted something by mistake while typing. Which shortcut brings it back? — Ctrl+Z (undo); S saves, A selects all, P prints."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "क्रिकेट में «एलबीडब्ल्यू» आउट होने में पहला अक्षर «एल» किस अंग्रेज़ी शब्द से है?",
+    "options": [
+      "लाइन",
+      "लेफ़्ट",
+      "लेग",
+      "लॉन्ग"
+    ],
+    "correctIndex": 2,
+    "gloss": "In cricket's LBW, what English word is the L? — Leg (leg before wicket)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "कबड्डी में रेडर को विरोधी पाले में रहते हुए क्या करते रहना होता है?",
+    "options": [
+      "एक पैर पर चलते रहना",
+      "आँखें बंद रखना",
+      "हाथ पीछे बाँधे रखना",
+      "एक साँस में «कबड्डी‑कबड्डी» बोलते रहना"
+    ],
+    "correctIndex": 3,
+    "gloss": "In kabaddi, what must the raider keep doing in the opponents' half? — Chanting 'kabaddi' without taking a breath."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "शतरंज का कौन‑सा मोहरा कभी पीछे नहीं चल सकता?",
+    "options": [
+      "प्यादा",
+      "घोड़ा",
+      "ऊँट",
+      "हाथी"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which chess piece can never move backwards? — The pawn; knight, bishop and rook all can."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ढोल, पेपा और गमछे के साथ नाचा जाने वाला बीहू किस राज्य का त्योहार है?",
+    "options": [
+      "ओडिशा",
+      "असम",
+      "पश्चिम बंगाल",
+      "मणिपुर"
+    ],
+    "correctIndex": 1,
+    "gloss": "Bihu, danced with the dhol, the pepa (hornpipe) and the gamosa, is the festival of which state? — Assam."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "करवा चौथ का निर्जल व्रत रात में किसके दर्शन के बाद खोला जाता है?",
+    "options": [
+      "ध्रुवतारे",
+      "सप्तर्षि",
+      "चाँद",
+      "सूरज"
+    ],
+    "correctIndex": 2,
+    "gloss": "The waterless Karva Chauth fast is broken at night after sighting what? — The moon."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "चावल और उड़द के ख़मीर उठे घोल से बनी इडली आख़िर पकाई कैसे जाती है?",
+    "options": [
+      "तवे पर",
+      "तेल में तलकर",
+      "तंदूर में",
+      "भाप में"
+    ],
+    "correctIndex": 3,
+    "gloss": "Idli, made from a fermented rice and urad batter, is cooked how? — Steamed."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पनीर जैसा दिखने वाला टोफ़ू किस चीज़ के दूध को जमाकर बनाया जाता है?",
+    "options": [
+      "सोयाबीन",
+      "नारियल",
+      "बादाम",
+      "मूँगफली"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tofu, which looks like paneer, is made by curdling the milk of what? — Soybeans."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "एशिया का कौन‑सा देश असल में एक ही शहर है, जिसका और देश का नाम एक है?",
+    "options": [
+      "ब्रुनेई",
+      "सिंगापुर",
+      "मालदीव",
+      "बहरीन"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Asian country is in fact a single city of the same name? — Singapore, a city-state (Brunei's capital is Bandar Seri Begawan, Bahrain's Manama, the Maldives' Malé)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "art",
+    "scope": "local",
+    "text": "मछली, कमल और ज्यामितीय किनारियों वाली मधुबनी चित्रकला किस राज्य की लोक कला है?",
+    "options": [
+      "ओडिशा",
+      "राजस्थान",
+      "बिहार",
+      "गुजरात"
+    ],
+    "correctIndex": 2,
+    "gloss": "Madhubani painting, with fish, lotuses and geometric borders, is the folk art of which state? — Bihar (the Mithila region)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "global",
+    "text": "दीवार पर घूमती छिपकली पकड़े जाने पर अपना कौन‑सा अंग छोड़कर भाग जाती है?",
+    "options": [
+      "टाँग",
+      "जीभ",
+      "त्वचा",
+      "पूँछ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Caught, a house lizard escapes by shedding which part? — Its tail, which keeps wriggling to distract the predator and later grows back."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हैरी पॉटर जादू सीखने किस स्कूल में जाता है?",
+    "options": [
+      "हॉगवर्ट्स",
+      "ड्रमस्ट्रांग",
+      "ब्यूबैटन्स",
+      "इल्वरमॉर्नी"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which school does Harry Potter attend to learn magic? — Hogwarts; the others are real schools of the same world (Durmstrang, Beauxbatons, Ilvermorny)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«मोगैम्बो ख़ुश हुआ!» किस फ़िल्म के खलनायक का संवाद है?",
+    "options": [
+      "शोले",
+      "मिस्टर इंडिया",
+      "कर्मा",
+      "शहंशाह"
+    ],
+    "correctIndex": 1,
+    "gloss": "'Mogambo is pleased!' is the villain's line in which film? — Mr. India (1987), Amrish Puri."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पीछे फिसलते हुए आगे चलने का भ्रम देने वाला डांस «मूनवॉक» किस गायक की पहचान बना?",
+    "options": [
+      "एल्विस प्रेस्ली",
+      "फ़्रेडी मर्करी",
+      "माइकल जैक्सन",
+      "प्रिंस"
+    ],
+    "correctIndex": 2,
+    "gloss": "The 'moonwalk', gliding backwards while seeming to walk forward, became whose trademark? — Michael Jackson's."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "दुनिया भर में मशहूर बैंड बीटीएस किस देश का है?",
+    "options": [
+      "जापान",
+      "चीन",
+      "थाईलैंड",
+      "दक्षिण कोरिया"
+    ],
+    "correctIndex": 3,
+    "gloss": "The world-famous band BTS is from which country? — South Korea (K-pop)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "दस्त में शरीर की कमी पूरी करने वाले ओआरएस घोल में पानी के साथ मुख्य रूप से क्या होता है?",
+    "options": [
+      "नमक और चीनी",
+      "हल्दी और नमक",
+      "नींबू और शहद",
+      "सोडा और गुड़"
+    ],
+    "correctIndex": 0,
+    "gloss": "ORS, given for diarrhoea, is water with mainly what? — Salt and sugar (glucose)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "local",
+    "text": "इनमें से किस देश से भारत की ज़मीनी सीमा नहीं मिलती?",
+    "options": [
+      "नेपाल",
+      "थाईलैंड",
+      "भूटान",
+      "म्यांमार"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these countries has no land border with India? — Thailand (it is a maritime neighbour only, near the Andamans); Nepal, Bhutan and Myanmar all border India by land."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "रामायण में हनुमान संजीवनी बूटी के लिए पूरा पर्वत उठा लाए। किसके प्राण बचाने के लिए?",
+    "options": [
+      "भरत",
+      "सुग्रीव",
+      "लक्ष्मण",
+      "अंगद"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Ramayana, Hanuman carried a whole mountain for the sanjivani herb. To save whom? — Lakshmana, struck down by Meghnad."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दुकान पर क्यूआर कोड स्कैन करके मोबाइल से फ़ौरन भुगतान किस प्रणाली से होता है?",
+    "options": [
+      "एनईएफ़टी",
+      "आरटीजीएस",
+      "ईसीएस",
+      "यूपीआई"
+    ],
+    "correctIndex": 3,
+    "gloss": "Paying instantly by phone by scanning a shop's QR code uses which system? — UPI; NEFT, RTGS and ECS are bank transfers without QR codes."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कड़ाही के तेल में आग लग जाए तो क्या कभी नहीं करना चाहिए?",
+    "options": [
+      "गैस बंद करना",
+      "ढक्कन से ढक देना",
+      "उस पर पानी डालना",
+      "गीले कपड़े से ढकना"
+    ],
+    "correctIndex": 2,
+    "gloss": "If the oil in a pan catches fire, what must you never do? — Pour water on it: it flashes to steam and throws burning oil; smothering it is right."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«उनतीस» में «उन» का अर्थ है 'एक कम'। तो «उनचास» कितना हुआ?",
+    "options": [
+      "39",
+      "49",
+      "51",
+      "59"
+    ],
+    "correctIndex": 1,
+    "gloss": "In «उनतीस» (29), «उन» means 'one less'. So how much is «उनचास»? — 49: one less than पचास (50)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«पंजाब» में «आब» का अर्थ पानी है। तो भूगोल में «दोआब» किसे कहते हैं?",
+    "options": [
+      "दो पहाड़ों के बीच की घाटी",
+      "दो झीलों वाला इलाक़ा",
+      "दो समुद्रों का संगम",
+      "दो नदियों के बीच की ज़मीन"
+    ],
+    "correctIndex": 3,
+    "gloss": "In «पंजाब» (five waters), «आब» means water. So what is a «दोआब»? — The land between two rivers, like the Ganga–Yamuna doab."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "अमेरिका में तारीख़ लिखते समय पहले महीना, फिर दिन आता है। वहाँ के टिकट पर 03/04 छपा है। यात्रा कब है?",
+    "options": [
+      "3 अप्रैल",
+      "4 मार्च",
+      "3 मार्च",
+      "4 अप्रैल"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the US the month comes before the day. A ticket there says 03/04. When is the trip? — 4 March (month 03, day 04)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "रक्षाबंधन किस महीने की पूर्णिमा को मनाया जाता है?",
+    "options": [
+      "भादों",
+      "कार्तिक",
+      "सावन",
+      "फागुन"
+    ],
+    "correctIndex": 2,
+    "gloss": "Raksha Bandhan falls on the full moon of which month? — Shravan (सावन); Holi is Phalgun's, Dev Deepawali Kartik's."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "लेबनान और अरब देशों का मशहूर «हमस» मुख्य रूप से किससे बनता है?",
+    "options": [
+      "काबुली चना",
+      "राजमा",
+      "मसूर",
+      "उड़द"
+    ],
+    "correctIndex": 0,
+    "gloss": "The famous hummus of Lebanon and the Arab world is made mainly from what? — Chickpeas (काबुली चना), with tahini."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "लोककथा के अनुसार राम‑सेतु बनाने में मदद करने वाली गिलहरी की पीठ पर धारियाँ किसकी उँगलियों से पड़ीं?",
+    "options": [
+      "हनुमान",
+      "लक्ष्मण",
+      "सुग्रीव",
+      "राम"
+    ],
+    "correctIndex": 3,
+    "gloss": "By the folk tale, the squirrel that helped build Rama's bridge got its stripes from whose fingers? — Rama's, who stroked it in thanks."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "आपात स्थिति में किस ब्लड ग्रुप का ख़ून लगभग किसी को भी चढ़ाया जा सकता है?",
+    "options": [
+      "AB पॉज़िटिव",
+      "O नेगेटिव",
+      "A नेगेटिव",
+      "B पॉज़िटिव"
+    ],
+    "correctIndex": 1,
+    "gloss": "In an emergency, which blood group can be given to almost anyone? — O negative, the universal donor; AB positive is the universal recipient."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "अपनी चतुराई के क़िस्सों के लिए मशहूर तेनालीराम किस राजा के दरबार में थे?",
+    "options": [
+      "राजराज चोल",
+      "पुलकेशिन द्वितीय",
+      "कृष्णदेवराय",
+      "हरिहर प्रथम"
+    ],
+    "correctIndex": 2,
+    "gloss": "Tenali Raman, of the wit stories, was at whose court? — Krishnadevaraya's, at Vijayanagara."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वेब पते की शुरुआत में «https» का आख़िरी «s» किस शब्द के लिए है?",
+    "options": [
+      "सिक्योर",
+      "सर्वर",
+      "स्पीड",
+      "सिस्टम"
+    ],
+    "correctIndex": 0,
+    "gloss": "In «https» at the start of a web address, what does the last s stand for? — Secure (the connection is encrypted)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "सूर्य के सबसे पास बुध है, फिर भी सौरमंडल का सबसे गरम ग्रह कौन‑सा है?",
+    "options": [
+      "मंगल",
+      "बृहस्पति",
+      "बुध",
+      "शुक्र"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mercury is closest to the Sun, yet which planet is the hottest? — Venus: its thick carbon-dioxide atmosphere traps the heat."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पेरू की पहाड़ियों पर बसा पत्थर का शहर माचू पिच्चू किस सभ्यता ने बनाया?",
+    "options": [
+      "माया",
+      "इंका",
+      "एज़्टेक",
+      "ओल्मेक"
+    ],
+    "correctIndex": 1,
+    "gloss": "Machu Picchu, the stone city in Peru's mountains, was built by which civilisation? — The Inca."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "अँगूठी को «माई प्रेशियस» कहने वाला पात्र कौन है?",
+    "options": [
+      "डॉबी",
+      "योडा",
+      "गॉलम",
+      "ग्रूट"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which character calls the ring 'my precious'? — Gollum (The Lord of the Rings); Dobby, Yoda and Groot are creatures of other films."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«त्रि» यानी तीन, «नेत्र» यानी आँख। «त्रिनेत्र» किस देवता को कहा जाता है?",
+    "options": [
+      "विष्णु",
+      "शिव",
+      "ब्रह्मा",
+      "इंद्र"
+    ],
+    "correctIndex": 1,
+    "gloss": "«त्रि» is three, «नेत्र» eye. Which god is called «त्रिनेत्र»? — Shiva, with the third eye on his forehead; Indra is 'thousand-eyed'."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "दलदल में रहने वाले «बारहसिंगा» हिरन का नाम किस बात से पड़ा?",
+    "options": [
+      "बारह के झुंड में रहने से",
+      "बारह फ़ुट की छलाँग से",
+      "सींगों की कई शाखाओं से",
+      "बारह साल की उम्र से"
+    ],
+    "correctIndex": 2,
+    "gloss": "The swamp deer «बारहसिंगा» got its name from what? — Its many-tined antlers: बारह (twelve) + सींग (horn)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नुक़्ता हटते ही «ज़रा» (थोड़ा) बन जाता है «जरा»। शुद्ध हिंदी में «जरा» का अर्थ क्या है?",
+    "options": [
+      "बुढ़ापा",
+      "बीमारी",
+      "जल्दबाज़ी",
+      "धरती"
+    ],
+    "correctIndex": 0,
+    "gloss": "Drop the nukta and «ज़रा» (a little) becomes «जरा». What does «जरा» mean in Hindi? — Old age (as in जरावस्था, जरा-मरण)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "1 जनवरी 2025 को बुधवार था और उस साल में 365 दिन थे। 1 जनवरी 2026 को कौन‑सा दिन था?",
+    "options": [
+      "मंगलवार",
+      "बुधवार",
+      "शुक्रवार",
+      "गुरुवार"
+    ],
+    "correctIndex": 3,
+    "gloss": "1 Jan 2025 was a Wednesday and the year had 365 days. What day was 1 Jan 2026? — Thursday: 365 = 52 weeks + 1 day."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "स्वर्ण मंदिर वाला शहर अमृतसर किस सिख गुरु ने बसाया था?",
+    "options": [
+      "गुरु नानक देव",
+      "गुरु अमरदास",
+      "गुरु रामदास",
+      "गुरु अर्जन देव"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Sikh Guru founded Amritsar, the city of the Golden Temple? — Guru Ram Das (as Ramdaspur, 1570s); Guru Arjan Dev later built the Harmandir Sahib."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "जीपीएस अमेरिका का है। भारत की अपनी उपग्रह‑आधारित दिशा‑सूचक प्रणाली का नाम क्या है?",
+    "options": [
+      "ग्लोनास",
+      "नाविक",
+      "गैलीलियो",
+      "बेइदोउ"
+    ],
+    "correctIndex": 1,
+    "gloss": "GPS is American. What is India's own satellite navigation system called? — NavIC (नाविक); GLONASS is Russia's, Galileo the EU's, BeiDou China's."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "इस्तांबुल शहर को यूरोप और एशिया में बाँटने वाला जलडमरूमध्य कौन‑सा है?",
+    "options": [
+      "बोस्फ़ोरस",
+      "डार्डानेल्स",
+      "जिब्राल्टर",
+      "होर्मुज़"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which strait splits Istanbul between Europe and Asia? — The Bosphorus; the Dardanelles is the other Turkish strait, further south-west."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मनु और श्रद्धा की कथा कहने वाला छायावादी महाकाव्य «कामायनी» किसने लिखा?",
+    "options": [
+      "सुमित्रानंदन पंत",
+      "सूर्यकांत त्रिपाठी «निराला»",
+      "महादेवी वर्मा",
+      "जयशंकर प्रसाद"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote «Kamayani», the Chhayavad epic of Manu and Shraddha? — Jaishankar Prasad (1936); the others are the other three Chhayavad pillars."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "आवर्त सारणी में «K» किस तत्व का प्रतीक है?",
+    "options": [
+      "कैल्शियम",
+      "पोटैशियम",
+      "क्रिप्टॉन",
+      "कोबाल्ट"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which element's symbol is K? — Potassium, from its Latin name kalium; calcium is Ca, krypton Kr, cobalt Co."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "हिंदी साहित्य के लिए पहला ज्ञानपीठ पुरस्कार किस कवि को मिला?",
+    "options": [
+      "रामधारी सिंह «दिनकर»",
+      "अज्ञेय",
+      "सुमित्रानंदन पंत",
+      "महादेवी वर्मा"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which poet won the first Jnanpith Award for Hindi? — Sumitranandan Pant (1968, for «Chidambara»); Dinkar won in 1972, Agyeya 1978, Mahadevi Verma 1982."
+  }
+]

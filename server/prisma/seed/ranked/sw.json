@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jumapili, Jumatatu, Jumanne na Jumatano zina namba mbili hadi tano. Ni siku ipi basi inayohesabiwa ya kwanza?",
+    "options": [
+      "Jumamosi",
+      "Ijumaa",
+      "Alhamisi",
+      "Jumapili"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sunday (pili=2), Monday (tatu=3), Tuesday (nne=4), Wednesday (tano=5) carry the numbers two to five. Which day counts as the first? — Saturday, Jumamosi: \"mosi\" means one."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Chagua neno linalofaa: “Kitabu ___ ni kipya.”",
+    "options": [
+      "yangu",
+      "changu",
+      "langu",
+      "wangu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Choose the right word: \"My book ___ is new.\" — changu: kitabu is in the ki-/vi- class, so the possessive takes ch-."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Maneno haya yote yanatokana na kitenzi “andika”. Lipi ni jina la mtu?",
+    "options": [
+      "Maandishi",
+      "Mwandiko",
+      "Mwandishi",
+      "Andiko"
+    ],
+    "correctIndex": 2,
+    "gloss": "All these words come from the verb \"andika\" (write). Which one names a person? — Mwandishi (writer): the m-/wa- prefix marks people; the others mean writings, handwriting, a text."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Rafiki yako akisema “Nitakuja kesho kutwa”, atakuja baada ya siku ngapi kuanzia leo?",
+    "options": [
+      "Siku moja",
+      "Siku mbili",
+      "Siku tatu",
+      "Siku nne"
+    ],
+    "correctIndex": 1,
+    "gloss": "If a friend says \"I will come kesho kutwa\", in how many days from today? — Two days: kesho kutwa is the day after tomorrow."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Neno lipi kati ya haya halibadiliki likiwa katika wingi?",
+    "options": [
+      "Mtoto",
+      "Kitabu",
+      "Jicho",
+      "Ndizi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words stays the same in the plural? — Ndizi (banana): N-class, ndizi/ndizi; the others become watoto, vitabu, macho."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mtoto akimsalimu mzee kwa kusema “Shikamoo”, mzee hujibu nini?",
+    "options": [
+      "Marahaba",
+      "Salama",
+      "Sijambo",
+      "Karibu"
+    ],
+    "correctIndex": 0,
+    "gloss": "A child greets an elder with \"Shikamoo\"; what does the elder answer? — Marahaba, the fixed reply to shikamoo."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Katika hadithi za wanyama za Kiswahili, ni mnyama yupi mdogo anayewashinda wakubwa kwa ujanja wake?",
+    "options": [
+      "Fisi",
+      "Sungura",
+      "Tembo",
+      "Simba"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Swahili animal tales, which small animal outwits the big ones? — The hare (Sungura), the classic trickster; the hyena is usually the greedy fool."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rangi ipi haimo kwenye bendera ya Tanzania?",
+    "options": [
+      "Kijani",
+      "Njano",
+      "Nyekundu",
+      "Bluu"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which colour is not on the flag of Tanzania? — Red: the flag is green, yellow (gold), black and blue."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watani wa jadi wa klabu ya Simba SC ya Dar es Salaam ni klabu gani?",
+    "options": [
+      "Azam FC",
+      "Mtibwa Sugar",
+      "Coastal Union",
+      "Yanga"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who are the traditional rivals of Simba SC of Dar es Salaam? — Yanga (Young Africans): their matches are the Kariakoo derby."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Muziki wa taarab, wenye ala kama udi na kanuni, ulistawi zaidi wapi?",
+    "options": [
+      "Zanzibar",
+      "Arusha",
+      "Dodoma",
+      "Mwanza"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where did taarab music, with instruments like the oud and qanun, flourish most? — Zanzibar, the home of taarab orchestras such as Ikhwani Safaa."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jina “Tanzania” liliundwa kwa kuunganisha majina ya maeneo mawili. Ni yapi?",
+    "options": [
+      "Tanga na Zanzibar",
+      "Tanganyika na Zanzibar",
+      "Tanganyika na Zambia",
+      "Tabora na Zanzibar"
+    ],
+    "correctIndex": 1,
+    "gloss": "The name \"Tanzania\" was made by joining two names. Which? — Tanganyika and Zanzibar, united in 1964."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mgonjwa anayeharisha hunywa ORS, mchanganyiko wa maji, chumvi na sukari. Hii huzuia nini hasa?",
+    "options": [
+      "Homa kali",
+      "Upungufu wa damu",
+      "Upungufu wa maji mwilini",
+      "Shinikizo la damu"
+    ],
+    "correctIndex": 2,
+    "gloss": "Someone with diarrhoea drinks ORS, water with salt and sugar. What does it prevent? — Dehydration."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kwenye WhatsApp, vema mbili za rangi ya bluu chini ya ujumbe zinamaanisha nini?",
+    "options": [
+      "Ujumbe umetumwa tu",
+      "Ujumbe umefutwa",
+      "Ujumbe umesambazwa",
+      "Ujumbe umesomwa"
+    ],
+    "correctIndex": 3,
+    "gloss": "On WhatsApp, what do two blue ticks under a message mean? — The message has been read (grey ticks mean sent/delivered)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nambari ya siri ya OTP unayotumiwa kwa SMS inaweza kutumika mara ngapi?",
+    "options": [
+      "Mara moja tu",
+      "Mara tatu",
+      "Kwa siku nzima",
+      "Bila kikomo"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many times can an OTP code sent by SMS be used? — Only once: OTP means one-time password."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Harry Potter alisomea uchawi katika shule gani?",
+    "options": [
+      "Beauxbatons",
+      "Hogwarts",
+      "Durmstrang",
+      "Ilvermorny"
+    ],
+    "correctIndex": 1,
+    "gloss": "At which school did Harry Potter study magic? — Hogwarts; the others are other wizarding schools of the same books."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katika filamu za “Toy Story”, mwanasesere mwenye kofia ya mchunga ng’ombe anaitwa nani?",
+    "options": [
+      "Buzz",
+      "Rex",
+      "Woody",
+      "Hamm"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Toy Story films, what is the toy with the cowboy hat called? — Woody (Buzz is the spaceman, Rex the dinosaur, Hamm the piggy bank)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Katika mpira wa kikapu, mpira ukirushwa kikapuni kutoka nje ya mstari wa nusu duara, timu hupata pointi ngapi?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "gloss": "In basketball, how many points for a basket thrown from outside the arc? — 3."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dagaa waliokaushwa juani hukaa muda mrefu bila kuoza. Kwa nini?",
+    "options": [
+      "Jua huwaongezea chumvi",
+      "Mifupa yao huwa migumu",
+      "Harufu yao hufukuza nzi",
+      "Vijidudu hukosa maji ya kuishi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sun-dried dagaa (sardines) keep for a long time without rotting. Why? — Microbes that spoil food need water, and drying removes it."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "music",
+    "scope": "global",
+    "text": "Programu ya simu ya Boomplay hutumiwa hasa kwa ajili ya nini?",
+    "options": [
+      "Kulipa bili",
+      "Kuagiza teksi",
+      "Kusikiliza muziki",
+      "Kutuma pesa"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Boomplay phone app mainly used for? — Listening to music (streaming and downloads)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "art",
+    "scope": "local",
+    "text": "Wamakonde wa kusini mwa Tanzania na kaskazini mwa Msumbiji wanajulikana sana kwa sanaa gani?",
+    "options": [
+      "Uchongaji wa vinyago",
+      "Ufinyanzi wa vyungu",
+      "Ususi wa mikeka",
+      "Uchoraji wa kuta"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Makonde of southern Tanzania and northern Mozambique are famous for which art? — Wood carving (vinyago), often in African blackwood (mpingo)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kwa nini haifai kuweka sahani yenye mapambo ya chuma ndani ya maikrowevu?",
+    "options": [
+      "Chakula hupoa haraka",
+      "Inaweza kutoa cheche",
+      "Sahani hugeuka sumaku",
+      "Mlango hautafunguka"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why should a plate with metal decoration not go into a microwave? — It can spark: microwaves induce currents in the metal."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bisi hutengenezwa kwa kukaanga punje za zao gani hadi zipasuke?",
+    "options": [
+      "Mchele",
+      "Ngano",
+      "Mahindi",
+      "Karanga"
+    ],
+    "correctIndex": 2,
+    "gloss": "Bisi (popcorn) is made by heating kernels of which crop until they burst? — Maize."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "general",
+    "scope": "global",
+    "text": "Kwenye pakiti ya dawa, maandishi “EXP” yanaonyesha nini?",
+    "options": [
+      "Bei ya dawa",
+      "Kiwanda kilichoitengeneza",
+      "Dozi ya kila siku",
+      "Tarehe ya kuisha muda wake"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a medicine pack, what does \"EXP\" show? — The expiry date, after which it should not be used."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "technology",
+    "scope": "global",
+    "text": "Ukiwasha “Airplane mode” kwenye simu, nini huzimwa?",
+    "options": [
+      "Mawasiliano ya mtandao na simu",
+      "Mwanga wa skrini",
+      "Sauti ya simu",
+      "Kamera"
+    ],
+    "correctIndex": 0,
+    "gloss": "Turning on \"Airplane mode\" on a phone switches off what? — Its radio connections: the mobile network (calls, data) and, by default, Wi-Fi and Bluetooth."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mwili wa binadamu hutoa jasho hasa ili kufanya nini?",
+    "options": [
+      "Kutoa sumu",
+      "Kujipoza",
+      "Kupata nguvu",
+      "Kulainisha ngozi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does the human body mainly sweat? — To cool itself: evaporating sweat carries heat away (the \"detox\" idea is a myth)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kisiwa cha Pemba kinajulikana duniani kwa kilimo cha zao gani?",
+    "options": [
+      "Kahawa",
+      "Chai",
+      "Karafuu",
+      "Pamba"
+    ],
+    "correctIndex": 2,
+    "gloss": "The island of Pemba is known worldwide for growing which crop? — Cloves (karafuu), most of Zanzibar's clove harvest."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Alama © kwenye kitabu au filamu inaonyesha nini?",
+    "options": [
+      "Bei",
+      "Toleo",
+      "Udhibiti",
+      "Hakimiliki"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the sign © on a book or film show? — Copyright."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mbuyu hustahimili kiangazi kirefu kwa kuhifadhi nini ndani ya shina lake nene?",
+    "options": [
+      "Maji",
+      "Chumvi",
+      "Mafuta",
+      "Hewa"
+    ],
+    "correctIndex": 0,
+    "gloss": "The baobab survives long dry seasons by storing what in its thick trunk? — Water."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mwalimu akiwasalimu wanafunzi “Hamjambo?”, wote kwa pamoja hujibu nini?",
+    "options": [
+      "Sijambo",
+      "Hatujambo",
+      "Hajambo",
+      "Hawajambo"
+    ],
+    "correctIndex": 1,
+    "gloss": "A teacher greets the pupils \"Hamjambo?\" (are you all well?). What do they answer together? — Hatujambo: plural \"you\" is answered with plural \"we\"."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Nchini Kenya na Tanzania, magari huendeshwa upande wa kushoto wa barabara. Usukani huwa upande gani wa gari?",
+    "options": [
+      "Kushoto",
+      "Katikati",
+      "Kulia",
+      "Hutegemea gari"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Kenya and Tanzania cars drive on the left. Which side is the steering wheel? — The right: the driver sits on the side nearer the centre of the road."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Juu ya mlima mrefu, maji huchemka kabla ya kufikia nyuzi 100 °C. Kwa nini?",
+    "options": [
+      "Hewa ina baridi zaidi",
+      "Maji yana chumvi kidogo",
+      "Jua liko karibu zaidi",
+      "Shinikizo la hewa ni dogo"
+    ],
+    "correctIndex": 3,
+    "gloss": "High up a mountain, water boils below 100 °C. Why? — Air pressure is lower, so water boils at a lower temperature."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kila mwaka makundi makubwa ya nyumbu huvuka mto gani wenye mamba, kati ya Serengeti na Kenya?",
+    "options": [
+      "Mto Mara",
+      "Mto Rufiji",
+      "Mto Tana",
+      "Mto Pangani"
+    ],
+    "correctIndex": 0,
+    "gloss": "Every year huge herds of wildebeest cross which crocodile river between the Serengeti and Kenya? — The Mara River, in the Great Migration."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwanamuziki Diamond Platnumz ndiye mwanzilishi wa lebo gani?",
+    "options": [
+      "Konde Gang",
+      "WCB Wasafi",
+      "Kings Music",
+      "Sol Generation"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which label did singer Diamond Platnumz found? — WCB Wasafi; Konde Gang is Harmonize's, Kings Music Alikiba's, Sol Generation Sauti Sol's."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mwigizaji Lupita Nyong’o alishinda tuzo ya Oscar kupitia filamu gani?",
+    "options": [
+      "Black Panther",
+      "Us",
+      "12 Years a Slave",
+      "Queen of Katwe"
+    ],
+    "correctIndex": 2,
+    "gloss": "For which film did Lupita Nyong'o win her Oscar? — 12 Years a Slave (Best Supporting Actress, 2014); she also acted in the other three."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Riwaya “Kusadikika” na “Kufikirika” ziliandikwa na nani?",
+    "options": [
+      "Euphrase Kezilahabi",
+      "Mohamed Said Abdulla",
+      "Ngũgĩ wa Thiong’o",
+      "Shaaban Robert"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novels \"Kusadikika\" and \"Kufikirika\"? — Shaaban Robert."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mkenya David Rudisha alishinda dhahabu mbili za Olimpiki katika mbio za mita ngapi?",
+    "options": [
+      "Mita 400",
+      "Mita 800",
+      "Mita 1,500",
+      "Mita 5,000"
+    ],
+    "correctIndex": 1,
+    "gloss": "Kenyan David Rudisha won two Olympic golds over what distance? — 800 m (London 2012, Rio 2016)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antibiotiki hazisaidii kutibu ugonjwa upi kati ya haya?",
+    "options": [
+      "Mafua",
+      "Kifua kikuu",
+      "Kipindupindu",
+      "Homa ya matumbo"
+    ],
+    "correctIndex": 0,
+    "gloss": "Antibiotics do not help treat which of these? — The flu/common cold, caused by viruses; TB, cholera and typhoid are bacterial."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nembo ya “swoosh”, inayofanana na alama ya vema, ni ya kampuni gani?",
+    "options": [
+      "Adidas",
+      "Nike",
+      "Puma",
+      "Reebok"
+    ],
+    "correctIndex": 1,
+    "gloss": "The \"swoosh\" logo, shaped like a tick, belongs to which company? — Nike."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mwaka 1961 alikuwa binadamu wa kwanza kusafiri hadi anga za juu. Ni nani?",
+    "options": [
+      "Alexei Leonov",
+      "John Glenn",
+      "Yuri Gagarin",
+      "Valentina Tereshkova"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 1961 he became the first human in space. Who? — Yuri Gagarin, aboard Vostok 1."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mlango-bahari wa Gibraltar unaitenganisha Hispania na nchi gani?",
+    "options": [
+      "Algeria",
+      "Tunisia",
+      "Ureno",
+      "Moroko"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Strait of Gibraltar separates Spain from which country? — Morocco."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sushi ya Kijapani mara nyingi huviringishwa kwa jani jembamba la nini?",
+    "options": [
+      "Mwani",
+      "Mgomba",
+      "Kabichi",
+      "Mchicha"
+    ],
+    "correctIndex": 0,
+    "gloss": "Japanese sushi is often rolled in a thin sheet of what? — Seaweed (nori)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ukimweka mtu kwenye “Bcc” ya barua pepe, nani hataiona anwani yake?",
+    "options": [
+      "Wewe mtumaji",
+      "Wapokeaji wengine",
+      "Mtu huyo mwenyewe",
+      "Seva ya barua"
+    ],
+    "correctIndex": 1,
+    "gloss": "If you put someone in the \"Bcc\" of an email, who will not see their address? — The other recipients (blind carbon copy)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Msemo ulioandikwa kwenye kanga, mara nyingi methali au ujumbe, huitwaje?",
+    "options": [
+      "Pindo",
+      "Mji",
+      "Jina",
+      "Leso"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the saying printed on a kanga called? — Its \"jina\" (name); pindo is the border, mji the centre, leso another word for the cloth itself."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Katika Kiswahili sanifu, mkazo wa sauti kwa kawaida huwa kwenye silabi ipi ya neno?",
+    "options": [
+      "Ya mwisho",
+      "Ya kwanza",
+      "Ya tatu kutoka mwisho",
+      "Ya pili kutoka mwisho"
+    ],
+    "correctIndex": 3,
+    "gloss": "In standard Swahili, which syllable of a word normally takes the stress? — The penultimate: ba-RA-bara, ki-TA-bu; saying any word shows it."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Reli iliyopewa jina la utani “Lunatic Express” ilianza kujengwa mwaka 1896 kutoka mji gani?",
+    "options": [
+      "Mombasa",
+      "Dar es Salaam",
+      "Tanga",
+      "Kisumu"
+    ],
+    "correctIndex": 0,
+    "gloss": "The railway nicknamed the \"Lunatic Express\" began to be built in 1896 from which town? — Mombasa; it reached Kisumu on Lake Victoria in 1901."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bitcoin ilianzishwa mwaka 2009 na mtu anayejulikana kwa jina gani la bandia?",
+    "options": [
+      "Vitalik Buterin",
+      "Satoshi Nakamoto",
+      "Hal Finney",
+      "Nick Szabo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Bitcoin was launched in 2009 by someone known under which pseudonym? — Satoshi Nakamoto (Buterin created Ethereum; Finney and Szabo were early figures)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sifuri kamili (0 K), joto la chini kabisa linalowezekana, ni takriban nyuzi ngapi za Selsiasi?",
+    "options": [
+      "−100 °C",
+      "−373 °C",
+      "−273 °C",
+      "−459 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "Absolute zero (0 K), the lowest possible temperature, is about how many degrees Celsius? — −273 °C (−273.15; −459 is the Fahrenheit figure)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ukisimama kwenye Ncha ya Kaskazini kabisa, popote unapotazama ni upande gani wa dira?",
+    "options": [
+      "Kaskazini",
+      "Mashariki",
+      "Magharibi",
+      "Kusini"
+    ],
+    "correctIndex": 3,
+    "gloss": "Standing exactly on the North Pole, which compass direction do you face whichever way you look? — South: every direction away from the pole is south."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Utenzi wa Mwana Kupona (1858) ni mawaidha ya mshairi huyo kwa nani?",
+    "options": [
+      "Binti yake",
+      "Mume wake",
+      "Mwanawe wa kiume",
+      "Mjukuu wake"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Utendi of Mwana Kupona (1858) is the poet's advice to whom? — Her daughter, Mwana Hashima."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mmisionari gani Mjerumani aliandika sarufi ya kwanza ya Kiswahili mwaka 1850?",
+    "options": [
+      "Johannes Rebmann",
+      "Johann Ludwig Krapf",
+      "Edward Steere",
+      "Carl Velten"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which German missionary wrote the first grammar of Swahili in 1850? — Johann Ludwig Krapf (\"Outline of the Elements of the Kisuáheli Language\"); Rebmann was his colleague, Steere and Velten came later."
+  }
+]

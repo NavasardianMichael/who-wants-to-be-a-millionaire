@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "گھڑی میں ”پونے تین“ بجے ہوں تو وقت کیا ہے؟",
+    "options": [
+      "۳:۱۵",
+      "۲:۴۵",
+      "۲:۱۵",
+      "۳:۴۵"
+    ],
+    "correctIndex": 1,
+    "gloss": "If the clock says 'paune teen' (a quarter to three), what time is it? — 2:45: 'paune' means a quarter less than the number."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "”ایک ___، دو ___“ میں کون سا لفظ دونوں جگہ بالکل ایک جیسا رہے گا؟",
+    "options": [
+      "کمرہ",
+      "بچہ",
+      "گھر",
+      "لڑکا"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 'one ___, two ___', which word stays exactly the same in both places? — Ghar (house): 'do ghar'. Masculine nouns in -a/-ah change: kamre, bachche, larke."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "”انچاس“ میں ایک جمع کریں تو کون سی گنتی بنے گی؟",
+    "options": [
+      "اڑتالیس",
+      "اکاون",
+      "ساٹھ",
+      "پچاس"
+    ],
+    "correctIndex": 3,
+    "gloss": "Add one to 'unchaas': which number do you get? — Pachaas (50): unchaas is 49, literally 'one short of fifty'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "اردو کے کس حرف کے نیچے تین نقطے ہوتے ہیں؟",
+    "options": [
+      "پ",
+      "ث",
+      "ش",
+      "ت"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Urdu letter has three dots below it? — Pe (پ). Se and shin have three dots above; te has two above."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "دکان پر ”کیو آر کوڈ“ سے ادائیگی کے لیے فون کا کون سا حصہ اسے پڑھتا ہے؟",
+    "options": [
+      "مائیک",
+      "اسپیکر",
+      "کیمرہ",
+      "چارجنگ پورٹ"
+    ],
+    "correctIndex": 2,
+    "gloss": "To pay with a QR code at a shop, which part of the phone reads it? — The camera."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "بینک کی طرف سے ایس ایم ایس پر آنے والا ”او ٹی پی“ کتنی بار استعمال ہو سکتا ہے؟",
+    "options": [
+      "ایک بار",
+      "دو بار",
+      "دس بار",
+      "جتنی بار چاہیں"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many times can a bank's SMS OTP be used? — Once: OTP = one-time password."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ڈاکٹر ”او آر ایس“ کا گھول عموماً کس حالت میں پینے کو کہتے ہیں؟",
+    "options": [
+      "دانت کے درد میں",
+      "دست اور پانی کی کمی میں",
+      "خشک کھانسی میں",
+      "آنکھوں کی جلن میں"
+    ],
+    "correctIndex": 1,
+    "gloss": "When do doctors usually prescribe ORS solution? — For diarrhoea and dehydration: oral rehydration salts replace lost water and salts."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ڈھابے پر ”دودھ پتی“ منگوائیں تو کیسی چائے آتی ہے؟",
+    "options": [
+      "بغیر دودھ کی کالی چائے",
+      "سبز قہوہ",
+      "پانی کے بغیر دودھ میں پکی چائے",
+      "برف والی ٹھنڈی چائے"
+    ],
+    "correctIndex": 2,
+    "gloss": "Order 'doodh patti' at a roadside dhaba: what tea do you get? — Tea leaves boiled in milk with no water."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "شادی میں ”جوتا چھپائی“ کی رسم میں دولہے کا جوتا کون چھپاتا ہے؟",
+    "options": [
+      "دولہے کے دوست",
+      "قاضی صاحب",
+      "دولہے کی والدہ",
+      "دلہن کی بہنیں اور سہیلیاں"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the wedding custom 'joota chhupai', who hides the groom's shoes? — The bride's sisters and friends, who return them for a gift of money."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پی ایس ایل میں ”زلمی“ کس شہر کی ٹیم ہے؟",
+    "options": [
+      "ملتان",
+      "پشاور",
+      "کوئٹہ",
+      "اسلام آباد"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the PSL, 'Zalmi' is which city's team? — Peshawar Zalmi. The others are Sultans, Gladiators and United."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ٹیسٹ میچ میں کرکٹر روایتی طور پر کس رنگ کا لباس پہنتے ہیں؟",
+    "options": [
+      "سفید",
+      "سبز",
+      "نیلا",
+      "پیلا"
+    ],
+    "correctIndex": 0,
+    "gloss": "What colour do cricketers traditionally wear in Test matches? — White. Coloured kits (green for Pakistan) are for one-day and T20 games."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ان میں سے کون سا شہر صوبہ پنجاب میں نہیں ہے؟",
+    "options": [
+      "فیصل آباد",
+      "ملتان",
+      "گوجرانوالہ",
+      "سکھر"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these cities is not in Punjab province? — Sukkur, which is in Sindh."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سائبیریا سے ہجرت کرنے والے پرندے پاکستان کی جھیلوں پر کس موسم میں آتے ہیں؟",
+    "options": [
+      "گرمیوں میں",
+      "سردیوں میں",
+      "برسات میں",
+      "بہار کے آخر میں"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which season do migratory birds from Siberia arrive at Pakistan's lakes? — In winter, escaping the Siberian cold; they leave again in spring."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "”جنگل بک“ میں ننھے موگلی کو کس نے پالا تھا؟",
+    "options": [
+      "بندروں نے",
+      "ریچھ نے",
+      "بھیڑیوں نے",
+      "شیر نے"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 'The Jungle Book', who raised little Mowgli? — Wolves. Baloo the bear is his teacher; Shere Khan the tiger his enemy."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پاکستان کے ہر کرنسی نوٹ کے سامنے والے رخ پر کس کی تصویر ہوتی ہے؟",
+    "options": [
+      "علامہ اقبال",
+      "لیاقت علی خان",
+      "سر سید احمد خان",
+      "قائداعظم"
+    ],
+    "correctIndex": 3,
+    "gloss": "Whose portrait is on the front of every Pakistani banknote? — Quaid-e-Azam Muhammad Ali Jinnah."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "تھرمامیٹر پر صحت مند انسان کا عام درجۂ حرارت تقریباً کتنے درجے فارن ہائیٹ ہوتا ہے؟",
+    "options": [
+      "۹۸٫۶",
+      "۱۰۲",
+      "۹۵",
+      "۱۰۴"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a thermometer, what is the normal temperature of a healthy person in °F? — About 98.6 °F (37 °C); 100 °F and above is a fever."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "نیلے اور سرخ نقش والی ”اجرک“ کس صوبے کی پہچان ہے؟",
+    "options": [
+      "پنجاب",
+      "سندھ",
+      "بلوچستان",
+      "خیبر پختونخوا"
+    ],
+    "correctIndex": 1,
+    "gloss": "The ajrak, block-printed in blue and red, is the emblem of which province? — Sindh."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ٹریفک سگنل کی تین بتیوں میں سب سے اوپر کون سی بتی ہوتی ہے؟",
+    "options": [
+      "پیلی",
+      "سبز",
+      "سرخ",
+      "نیلی"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a three-light traffic signal, which light is at the top? — Red, then amber, then green."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "علاء الدین کی کہانی میں ”جن“ کس چیز کو رگڑنے سے نکلتا ہے؟",
+    "options": [
+      "چراغ",
+      "صراحی",
+      "صندوق",
+      "آئینہ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Aladdin tale, rubbing what brings out the genie? — The lamp. (A ring genie also exists in the original, so the ring is not offered.)"
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "”ناک میں دم کر دینا“ کا کیا مطلب ہے؟",
+    "options": [
+      "زکام ہو جانا",
+      "بہت تنگ کرنا",
+      "سانس روک لینا",
+      "غصے میں آ جانا"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the idiom 'to put breath in someone's nose' mean? — To pester someone endlessly."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "بہت بڑی ضرورت کے آگے بہت تھوڑی چیز کے لیے کہتے ہیں: ”اونٹ کے منہ میں ___“",
+    "options": [
+      "دانہ",
+      "تنکا",
+      "لقمہ",
+      "زیرہ"
+    ],
+    "correctIndex": 3,
+    "gloss": "For a tiny amount against a huge need: 'in the camel's mouth, a ___'. — Zeera (a cumin seed)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ہارمونیم بجاتے ہوئے ایک ہاتھ سے کلیدیں دبائی جاتی ہیں، دوسرے ہاتھ سے کیا چلایا جاتا ہے؟",
+    "options": [
+      "تار",
+      "پیڈل",
+      "دھونکنی",
+      "گھنٹی"
+    ],
+    "correctIndex": 2,
+    "gloss": "Playing the harmonium, one hand presses the keys; what does the other hand work? — The bellows (dhaunkni), which pump the air."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "لُڈو میں گوٹی کو گھر سے باہر نکالنے کے لیے پانسے پر کیا آنا ضروری ہے؟",
+    "options": [
+      "۱",
+      "۶",
+      "۳",
+      "۵"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Ludo, what must you roll to bring a piece out of home? — A six."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "پاپ کارن کس اناج کے دانوں سے بنتے ہیں؟",
+    "options": [
+      "مکئی",
+      "چاول",
+      "گندم",
+      "جو"
+    ],
+    "correctIndex": 0,
+    "gloss": "Popcorn is made from the kernels of which grain? — Maize (corn)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "شیشے کی بوتل پانی سے لبالب بھر کر فریزر میں رکھ دیں تو کیا ہو سکتا ہے؟",
+    "options": [
+      "پانی سکڑ کر آدھا رہ جائے گا",
+      "بوتل پھٹ سکتی ہے",
+      "پانی بھاپ بن جائے گا",
+      "کچھ بھی نہیں ہوگا"
+    ],
+    "correctIndex": 1,
+    "gloss": "Put a glass bottle filled to the brim with water in the freezer: what can happen? — It can burst: water expands as it freezes."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "فلم ”فروزن“ میں ملکہ ایلسا کے پاس کون سی جادوئی طاقت ہے؟",
+    "options": [
+      "آگ برسانا",
+      "ہوا میں اڑنا",
+      "غائب ہو جانا",
+      "برف اور ٹھنڈ پیدا کرنا"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the film 'Frozen', what magic power does Queen Elsa have? — Creating ice and snow."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "فٹ بال میچ کا ہر ہاف عام طور پر کتنے منٹ کا ہوتا ہے؟",
+    "options": [
+      "۳۰",
+      "۴۰",
+      "۴۵",
+      "۶۰"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many minutes is each half of a football match? — 45, plus stoppage time."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کون سا پرندہ اپنے انڈے کوے کے گھونسلے میں دے دیتا ہے؟",
+    "options": [
+      "مینا",
+      "فاختہ",
+      "بلبل",
+      "کوئل"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird lays its eggs in a crow's nest? — The koel (Asian koel), a brood parasite whose chicks the crows raise."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "عمرو عیار کی وہ کون سی چیز ہے جس میں دنیا بھر کا سامان سما جاتا ہے؟",
+    "options": [
+      "زنبیل",
+      "پگڑی",
+      "صندوقچی",
+      "مشک"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of Umro Ayyar's belongings can hold anything in the world? — His zambeel (bottomless bag), from Dastan-e-Amir Hamza."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "جاسوس شرلاک ہومز کا گھر ”۲۲۱ بی بیکر اسٹریٹ“ کس شہر میں ہے؟",
+    "options": [
+      "ایڈنبرا",
+      "لندن",
+      "پیرس",
+      "نیویارک"
+    ],
+    "correctIndex": 1,
+    "gloss": "Detective Sherlock Holmes lives at 221B Baker Street in which city? — London."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "۱۹۸۷ کا مشہور گیت ”دل دل پاکستان“ کس بینڈ نے گایا؟",
+    "options": [
+      "جنون",
+      "اسٹرنگز",
+      "وائٹل سائنز",
+      "نوری"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which band sang the famous 1987 song 'Dil Dil Pakistan'? — Vital Signs (lead singer Junaid Jamshed)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لوک داستان میں سوہنی مہینوال سے ملنے دریا کس چیز کے سہارے پار کرتی تھی؟",
+    "options": [
+      "لکڑی کے تختے",
+      "کشتی",
+      "مشک",
+      "مٹی کے گھڑے"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the folk tale, how did Sohni cross the river to meet Mahiwal? — On an earthen pot; one night it was swapped for an unbaked one and dissolved."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "فارسی گنتی ”پنج، شش، ہفت“ کے بعد ”ہشت“ آتی ہے۔ ”ہشت پہلو“ عمارت کے کتنے پہلو ہوں گے؟",
+    "options": [
+      "۶",
+      "۷",
+      "۸",
+      "۹"
+    ],
+    "correctIndex": 2,
+    "gloss": "Persian counting goes panj, shash, haft, then hasht. How many sides has a 'hasht-pehlu' building? — 8: five, six, seven, eight."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "گگلی کے ماہر عبدالقادر کس قسم کے بالر تھے؟",
+    "options": [
+      "فاسٹ بالر",
+      "لیگ اسپنر",
+      "آف اسپنر",
+      "میڈیم پیسر"
+    ],
+    "correctIndex": 1,
+    "gloss": "Abdul Qadir, master of the googly, was what kind of bowler? — A leg-spinner; the googly is the leg-spinner's disguised ball."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "”لوز ٹاک“ میں انور مقصود کے سامنے ہر ہفتے نیا بہروپ کون بھرتا تھا؟",
+    "options": [
+      "معین اختر",
+      "عمر شریف",
+      "اسماعیل تارا",
+      "شکیل صدیقی"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 'Loose Talk', who appeared in a new disguise each week opposite Anwar Maqsood? — Moin Akhtar."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "خون کی کمی (انیمیا) کی سب سے عام وجہ کس معدنی جز کی کمی ہے؟",
+    "options": [
+      "آیوڈین",
+      "کیلشیم",
+      "زنک",
+      "فولاد"
+    ],
+    "correctIndex": 3,
+    "gloss": "Anaemia is most commonly caused by a lack of which mineral? — Iron, needed to make haemoglobin."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ای میل میں ”بی سی سی“ میں ڈالا گیا پتا کون نہیں دیکھ سکتا؟",
+    "options": [
+      "بھیجنے والا",
+      "باقی وصول کنندگان",
+      "ای میل سرور",
+      "خود وہ وصول کنندہ"
+    ],
+    "correctIndex": 1,
+    "gloss": "An address put in an e-mail's BCC field cannot be seen by whom? — The other recipients (blind carbon copy)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "پرتگال کی زمینی سرحد صرف ایک ملک سے ملتی ہے۔ کون سا؟",
+    "options": [
+      "فرانس",
+      "اٹلی",
+      "اسپین",
+      "مراکش"
+    ],
+    "correctIndex": 2,
+    "gloss": "Portugal has a land border with only one country. Which? — Spain."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "چینی اور جاپانی کھانوں کا ”ٹوفو“ کس چیز کے دودھ سے بنتا ہے؟",
+    "options": [
+      "سویا بین",
+      "ناریل",
+      "چاول",
+      "بادام"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tofu, used in Chinese and Japanese cooking, is made from the milk of what? — Soybeans (curdled soy milk)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ویٹیکن کے سسٹین چیپل کی چھت پر ”آدم کی تخلیق“ کس نے پینٹ کی؟",
+    "options": [
+      "رافیل",
+      "لیونارڈو ڈا ونچی",
+      "بوتیچیلی",
+      "مائیکل اینجلو"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who painted 'The Creation of Adam' on the Sistine Chapel ceiling? — Michelangelo. Botticelli painted on the chapel's walls, not the ceiling."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "”دو خریدیں، ایک مفت“ کی پیشکش میں ۶ صابن لینے ہوں تو کتنوں کی قیمت دینی پڑے گی؟",
+    "options": [
+      "۳",
+      "۴",
+      "۵",
+      "۲"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a 'buy two, get one free' offer, you want 6 bars of soap: how many do you pay for? — 4: two sets of (2 paid + 1 free)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "اونٹ کے کوہان میں دراصل کیا ذخیرہ ہوتا ہے؟",
+    "options": [
+      "پانی",
+      "چربی",
+      "خون",
+      "ہوا"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a camel's hump actually store? — Fat, not water, as is often believed."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "منگلا ڈیم کس دریا پر بنا ہے؟",
+    "options": [
+      "جہلم",
+      "چناب",
+      "راوی",
+      "ستلج"
+    ],
+    "correctIndex": 0,
+    "gloss": "Mangla Dam is built on which river? — The Jhelum. Tarbela is the dam on the Indus."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "بچوں کا مشہور کردار ”ٹوٹ بٹوٹ“ کس شاعر کی تخلیق ہے؟",
+    "options": [
+      "اسماعیل میرٹھی",
+      "صوفی تبسم",
+      "ابن انشا",
+      "احمد ندیم قاسمی"
+    ],
+    "correctIndex": 1,
+    "gloss": "The famous children's character 'Toot Batoot' was created by which poet? — Sufi Ghulam Mustafa Tabassum."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "سردی میں لوہے کی ریلنگ اور لکڑی کا بنچ ایک ہی درجے پر ہوں، پھر بھی لوہا زیادہ ٹھنڈا کیوں لگتا ہے؟",
+    "options": [
+      "لوہا ہوا سے نمی جذب کرتا ہے",
+      "لکڑی اندر سے گرمی پیدا کرتی ہے",
+      "لوہا ہاتھ کی حرارت تیزی سے کھینچتا ہے",
+      "لوہے کا رنگ گہرا ہوتا ہے"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the cold, an iron railing and a wooden bench are at the same temperature, yet the iron feels colder. Why? — Iron conducts heat away from the hand much faster."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "سو لاکھ کا ایک کروڑ ہوتا ہے۔ ایک ”ارب“ میں کتنے کروڑ ہوتے ہیں؟",
+    "options": [
+      "۱۰",
+      "۵۰",
+      "۱۰۰۰",
+      "۱۰۰"
+    ],
+    "correctIndex": 3,
+    "gloss": "A hundred lakh make one crore. How many crore in one 'arab'? — 100: an arab is a billion, 100 × 10 million."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "چودھویں صدی کا مشہور سیاح ابن بطوطہ کس ملک کا رہنے والا تھا؟",
+    "options": [
+      "مصر",
+      "مراکش",
+      "شام",
+      "تیونس"
+    ],
+    "correctIndex": 1,
+    "gloss": "The famous 14th-century traveller Ibn Battuta came from which country? — Morocco (born in Tangier)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "پاکستان کے قومی ترانے کی دھن کس نے ترتیب دی؟",
+    "options": [
+      "نثار بزمی",
+      "احمد غلام علی چھاگلہ",
+      "خواجہ خورشید انور",
+      "سہیل رعنا"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who composed the tune of Pakistan's national anthem? — Ahmed Ghulamali Chagla (1949–50); Hafeez Jalandhari wrote the words later."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "”ٹ، ڈ، ڑ“ کے اوپر لگا چھوٹا سا نشان دراصل کس حرف کی شکل ہے؟",
+    "options": [
+      "ع",
+      "ء",
+      "ط",
+      "ہ"
+    ],
+    "correctIndex": 2,
+    "gloss": "The little mark above ٹ, ڈ, ڑ is actually the shape of which letter? — A small toe (ط), marking the retroflex sounds."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اردو شاعری کی تاریخ اور تذکرہ ”آبِ حیات“ کس کی تصنیف ہے؟",
+    "options": [
+      "الطاف حسین حالی",
+      "شبلی نعمانی",
+      "ڈپٹی نذیر احمد",
+      "محمد حسین آزاد"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Aab-e-Hayat', the history and anthology of Urdu poetry? — Muhammad Husain Azad (1880)."
+  }
+]

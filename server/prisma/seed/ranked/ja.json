@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "時計の「4時」は、どう読む？",
+    "options": [
+      "よんじ",
+      "しじ",
+      "よつじ",
+      "よじ"
+    ],
+    "correctIndex": 3,
+    "gloss": "How do you read '4 o'clock' (4時)? — よじ: the autopilot reading よんじ is wrong; 4 is よ before 時."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "開票のとき、「正」の字を一画ずつ書き足して数えます。「正」が完成すると何票？",
+    "options": [
+      "3票",
+      "4票",
+      "5票",
+      "6票"
+    ],
+    "correctIndex": 2,
+    "gloss": "When counting votes by writing the character 正 one stroke at a time, how many votes is a finished 正? — 5: the character has five strokes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "漢字で「秋刀魚」と書く、秋の味覚の魚は？",
+    "options": [
+      "サンマ",
+      "イワシ",
+      "サバ",
+      "アジ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which autumn fish is written 秋刀魚 (autumn-sword-fish)? — Sanma (Pacific saury), whose slender body looks like a sword."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "お正月に、重箱に詰めて食べる祝いの料理は？",
+    "options": [
+      "七草がゆ",
+      "年越しそば",
+      "ちらし寿司",
+      "おせち料理"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which festive dish is packed into stacked boxes for New Year? — Osechi (nanakusa-gayu is eaten on 7 January, toshikoshi soba on New Year's Eve)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "日本で、信号の「進め」の色は、ふつう何色と呼ばれる？",
+    "options": [
+      "緑",
+      "青",
+      "白",
+      "黄"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Japan, what colour do people normally call the 'go' traffic light? — Blue (青信号), although the light is green."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ドラえもんの道具で、開けると行きたい場所につながるものは？",
+    "options": [
+      "タケコプター",
+      "タイムふろしき",
+      "どこでもドア",
+      "ほんやくコンニャク"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Doraemon gadget opens onto any place you want to go? — Dokodemo Door (Anywhere Door)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "春と夏に、全国の高校球児が目指す野球場は？",
+    "options": [
+      "東京ドーム",
+      "甲子園球場",
+      "神宮球場",
+      "横浜スタジアム"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ballpark do high-school baseball players across Japan aim for, in spring and summer? — Koshien Stadium."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "music",
+    "scope": "local",
+    "text": "NHKの「紅白歌合戦」が毎年放送されるのは何月何日？",
+    "options": [
+      "12月24日",
+      "12月31日",
+      "1月1日",
+      "12月25日"
+    ],
+    "correctIndex": 1,
+    "gloss": "On what date is NHK's Kohaku Uta Gassen broadcast each year? — 31 December, New Year's Eve."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「カラオケ」の「オケ」は、何の略？",
+    "options": [
+      "オルガン",
+      "オペラ",
+      "オーボエ",
+      "オーケストラ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the 'oke' of karaoke abbreviate? — Orchestra: kara (空, empty) + orchestra, an orchestra without the singer."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "元号が「令和」になる前の元号は？",
+    "options": [
+      "平成",
+      "昭和",
+      "大正",
+      "明治"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which era name came right before Reiwa? — Heisei (1989-2019)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "浦島太郎が竜宮城の帰りに渡された、開けてはいけない箱は？",
+    "options": [
+      "宝箱",
+      "弁当箱",
+      "玉手箱",
+      "重箱"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which forbidden box was Urashima Taro given when he left the Dragon Palace? — The tamatebako."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "火事や救急車を呼ぶときの電話番号は？",
+    "options": [
+      "110",
+      "117",
+      "118",
+      "119"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number do you dial in Japan for a fire or an ambulance? — 119 (110 is the police, 117 the time signal, 118 the coast guard)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "女の子の成長を祝うひな祭りは、何月何日？",
+    "options": [
+      "3月3日",
+      "5月5日",
+      "7月7日",
+      "9月9日"
+    ],
+    "correctIndex": 0,
+    "gloss": "On what date is Hinamatsuri, the girls' festival? — 3 March (the other dates are the other seasonal festivals)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ハローキティがいつも耳もとにつけている飾りは？",
+    "options": [
+      "花",
+      "リボン",
+      "星",
+      "ハート"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does Hello Kitty always wear by her ear? — A ribbon (bow)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "書道で、半紙が動かないように押さえる細長い道具は？",
+    "options": [
+      "硯",
+      "筆置き",
+      "墨",
+      "文鎮"
+    ],
+    "correctIndex": 3,
+    "gloss": "In calligraphy, which long narrow weight holds the paper still? — A bunchin (paperweight); the inkstone, brush rest and ink stick do other jobs."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "メールで、添付ファイルがあることを、ふつう何の形のアイコンで示す？",
+    "options": [
+      "ホチキス",
+      "クリップ",
+      "はさみ",
+      "ふせん"
+    ],
+    "correctIndex": 1,
+    "gloss": "What shape is the usual email attachment icon? — A paper clip."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "偽のメールやサイトで、IDやパスワードをだまし取る行為は？",
+    "options": [
+      "スパム",
+      "ハッキング",
+      "フィッシング",
+      "スキミング"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is tricking people into giving IDs and passwords through fake emails and sites called? — Phishing (skimming copies card data, spam is junk mail)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "稲妻が見えてから雷鳴が聞こえるまで間が空くほど、雷は…",
+    "options": [
+      "近くに落ちている",
+      "遠くで鳴っている",
+      "真上に来ている",
+      "これから弱まる"
+    ],
+    "correctIndex": 1,
+    "gloss": "The longer the gap between the flash and the thunder, the... — farther away the storm is: light arrives almost instantly, sound is slower."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "磁石を近づけたとき、くっつくのは？",
+    "options": [
+      "アルミ缶",
+      "ガラス瓶",
+      "10円玉",
+      "スチール缶"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sticks to a magnet? — A steel can (aluminium, glass and the copper 10-yen coin do not)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "食品表示の「カロリー」は、何の量を表している？",
+    "options": [
+      "塩分",
+      "エネルギー",
+      "糖質",
+      "脂質"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the 'calories' figure on food labels measure? — Energy."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "パッケージの「賞味期限」は、何の目安？",
+    "options": [
+      "安全に食べられる期限",
+      "お店が売っていい期限",
+      "おいしく食べられる期限",
+      "作られた日"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the 'shomi kigen' printed on packages a guide to? — How long it keeps tasting its best (best-before); the 'shohi kigen' is the safe-to-eat date."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "セミの幼虫が、成虫になるまで長く過ごす場所は？",
+    "options": [
+      "土の中",
+      "水の中",
+      "木の上",
+      "落ち葉の山"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where does a cicada nymph spend its long years before becoming an adult? — Underground."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "local",
+    "text": "東海道新幹線で東京から新大阪へ向かうとき、晴れていれば富士山が見えるのは進行方向のどちら側？",
+    "options": [
+      "右側",
+      "左側",
+      "両側",
+      "どちらからも見えない"
+    ],
+    "correctIndex": 0,
+    "gloss": "Riding the Tokaido Shinkansen from Tokyo to Shin-Osaka on a clear day, which side shows Mt Fuji? — The right (the E-seat side), facing north."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ボウリングで、1投目に10本のピンを全部倒すことを何という？",
+    "options": [
+      "スペア",
+      "ガーター",
+      "ダブル",
+      "ストライク"
+    ],
+    "correctIndex": 3,
+    "gloss": "In bowling, knocking down all ten pins with the first ball is called? — A strike (a spare takes two balls, a gutter ball hits none)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "1000円の品物が「3割引き」のとき、値段はいくら？",
+    "options": [
+      "300円",
+      "900円",
+      "700円",
+      "970円"
+    ],
+    "correctIndex": 2,
+    "gloss": "A 1000-yen item is '30% off' (3割引き); the price? — 700 yen."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "シャーロック・ホームズの相棒で、医師でもある人物は？",
+    "options": [
+      "レストレード警部",
+      "ワトソン",
+      "ハドソン夫人",
+      "モリアーティ教授"
+    ],
+    "correctIndex": 1,
+    "gloss": "Sherlock Holmes's partner, who is also a doctor? — Dr Watson (Lestrade is a detective, Mrs Hudson the landlady, Moriarty the villain)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "local",
+    "text": "「成田空港」がある都道府県は？",
+    "options": [
+      "千葉県",
+      "東京都",
+      "茨城県",
+      "埼玉県"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which prefecture is Narita Airport in? — Chiba (despite its official name, New Tokyo International Airport, it is not in Tokyo)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ふつうの虹で、いちばん外側に見える色は？",
+    "options": [
+      "紫",
+      "黄",
+      "赤",
+      "緑"
+    ],
+    "correctIndex": 2,
+    "gloss": "In an ordinary rainbow, which colour is on the outside? — Red (violet is inside)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "竹かんむりに「旬」と書く漢字「筍」は、何と読む？",
+    "options": [
+      "たけのこ",
+      "たけかご",
+      "ささぶね",
+      "たけうま"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is the character 筍 (bamboo radical + 'in season') read? — Takenoko, the bamboo shoot, a seasonal food."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「鳴かぬなら、鳴くまで待とう、ホトトギス」の句でたとえられる武将は？",
+    "options": [
+      "徳川家康",
+      "織田信長",
+      "豊臣秀吉",
+      "武田信玄"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which warlord is characterised by the verse 'If the cuckoo doesn't sing, wait until it does'? — Tokugawa Ieyasu (Nobunaga and Hideyoshi get the other two verses)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "白い漆喰の壁が羽ばたく鳥のように見える、姫路城の愛称は？",
+    "options": [
+      "烏城",
+      "千鳥城",
+      "鶴ヶ城",
+      "白鷺城"
+    ],
+    "correctIndex": 3,
+    "gloss": "Himeji Castle, whose white plaster walls look like a bird in flight, has which nickname? — Hakuro-jo, the White Heron Castle (Karasu-jo is Okayama, Chidori-jo Matsue, Tsuruga-jo Aizu)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「走れメロス」を書いた作家は？",
+    "options": [
+      "夏目漱石",
+      "芥川龍之介",
+      "太宰治",
+      "宮沢賢治"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote 'Run, Melos!'? — Dazai Osamu."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "寿司屋の言葉で、「あがり」と呼ばれるものは？",
+    "options": [
+      "しょうゆ",
+      "しょうが",
+      "わさび",
+      "お茶"
+    ],
+    "correctIndex": 3,
+    "gloss": "In sushi-shop slang, what is 'agari'? — Tea (soy sauce is 'murasaki', ginger 'gari', wasabi 'namida')."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "天照大神が閉じこもり、世界が暗くなったという神話の場所は？",
+    "options": [
+      "天岩戸",
+      "高天原",
+      "黄泉比良坂",
+      "竜宮城"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where did the sun goddess Amaterasu shut herself away, darkening the world? — The Heavenly Rock Cave (Ama-no-Iwato)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ベートーヴェンの交響曲で、「歓喜の歌」の合唱が入るのは第何番？",
+    "options": [
+      "第3番",
+      "第5番",
+      "第6番",
+      "第9番"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which Beethoven symphony is the 'Ode to Joy' choir? — No. 9."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "空が青く見えるのは、青い光が空気中でどうなりやすいから？",
+    "options": [
+      "吸収されやすい",
+      "散乱されやすい",
+      "屈折されにくい",
+      "反射されにくい"
+    ],
+    "correctIndex": 1,
+    "gloss": "The sky looks blue because blue light is more easily... — scattered by the air (Rayleigh scattering)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "チェスで、王が逃げ場のない状態に追い込まれて勝負が決まることを何という？",
+    "options": [
+      "ステイルメイト",
+      "チェックメイト",
+      "キャスリング",
+      "プロモーション"
+    ],
+    "correctIndex": 1,
+    "gloss": "In chess, trapping the king with no escape ends the game; what is it called? — Checkmate (stalemate is a draw)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "オリンピックの金メダルの素材は、主に何？",
+    "options": [
+      "銀",
+      "純金",
+      "銅",
+      "真ちゅう"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is an Olympic gold medal mainly made of? — Silver, plated with gold (the rules ask for at least 92.5% silver and 6 g of gold)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "バターは、牛乳から取り出した何を固めて作る？",
+    "options": [
+      "チーズ",
+      "ホエー",
+      "クリーム",
+      "脱脂粉乳"
+    ],
+    "correctIndex": 2,
+    "gloss": "Butter is made by churning what taken from milk? — Cream."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ウェブサイトのアドレスの「https」にある「s」は、何を表す？",
+    "options": [
+      "高速に届く通信",
+      "料金がかからない通信",
+      "暗号化されて守られた通信",
+      "海外のサーバーとの通信"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the 's' in 'https' stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "スペイン語で「赤道」を意味する名前をもつ南米の国は？",
+    "options": [
+      "コロンビア",
+      "ペルー",
+      "ブラジル",
+      "エクアドル"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which South American country is named after the Spanish word for 'equator'? — Ecuador (Colombia and Brazil are also crossed by the equator, but the name is Ecuador's)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "人の血を吸うのは、蚊のオスとメスのどちら？",
+    "options": [
+      "オスだけ",
+      "メスだけ",
+      "オスもメスも",
+      "ボウフラだけ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which mosquitoes bite people? — Females only: they need blood for their eggs."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "「鳥」の字から一画減らしてできた「烏」は、全身が黒い、どの鳥を表す？",
+    "options": [
+      "カラス",
+      "ツバメ",
+      "スズメ",
+      "ハト"
+    ],
+    "correctIndex": 0,
+    "gloss": "The character 烏, 鳥 with one stroke fewer, stands for which all-black bird? — The crow (karasu)."
+  },
+  {
+    "level": 3,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "global",
+    "text": "サケの身がオレンジ色っぽいのは、主に何を食べているから？",
+    "options": [
+      "海藻",
+      "小魚の骨",
+      "エビやオキアミの色素",
+      "プランクトンの油"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why is salmon flesh orange-pink? — From the pigment (astaxanthin) in the shrimp and krill it eats; biologically it counts as a white-fleshed fish."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1853年、ペリーの黒船が来航した、神奈川県の港は？",
+    "options": [
+      "横浜",
+      "浦賀",
+      "下田",
+      "函館"
+    ],
+    "correctIndex": 1,
+    "gloss": "At which Kanagawa port did Perry's black ships arrive in 1853? — Uraga (Shimoda and Hakodate opened later; Yokohama is the 1854 negotiation site)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "電子レンジが食べ物を温めるとき、マイクロ波が主に震わせているのは？",
+    "options": [
+      "庫内の空気",
+      "皿や容器",
+      "庫内の金属の壁",
+      "食品の中の水の分子"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do a microwave oven's waves mainly shake to heat food? — The water molecules in the food."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "「印象派」の名前は、モネのある絵の題名から生まれました。その絵は？",
+    "options": [
+      "睡蓮",
+      "印象、日の出",
+      "日傘の女",
+      "積みわら"
+    ],
+    "correctIndex": 1,
+    "gloss": "Impressionism got its name from the title of which Monet painting? — 'Impression, Sunrise' (1872)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "プログラミング言語「Python」の名前は、何にちなんでつけられた？",
+    "options": [
+      "ニシキヘビ",
+      "ギリシャ神話の大蛇",
+      "イギリスのコメディ番組",
+      "開発者の飼い犬"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the programming language Python named after? — The British comedy show Monty Python's Flying Circus, not the snake."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "風車を巨人と思い込んで突撃する騎士の物語『ドン・キホーテ』を書いたのは？",
+    "options": [
+      "セルバンテス",
+      "ダンテ",
+      "ボッカチオ",
+      "モリエール"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote Don Quixote, the knight who charges at windmills he takes for giants? — Cervantes."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "日本人で初めてノーベル化学賞を受賞した、1981年の受賞者は？",
+    "options": [
+      "白川英樹",
+      "野依良治",
+      "下村脩",
+      "福井謙一"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who was the first Japanese Nobel laureate in chemistry, in 1981? — Fukui Kenichi (Shirakawa 2000, Noyori 2001, Shimomura 2008)."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘কাদা’ শব্দে একটি চন্দ্রবিন্দু বসালে নতুন শব্দটির মানে কী দাঁড়ায়?",
+    "options": [
+      "চোখের জল ফেলা",
+      "মাটি খোঁড়া",
+      "দড়ি দিয়ে আটকানো",
+      "জোরে দৌড়ানো"
+    ],
+    "correctIndex": 0,
+    "gloss": "Add a chandrabindu to «কাদা» (mud): what does the new word mean? — To weep: «কাঁদা». The nasal mark alone changes the word."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "বাংলা সংখ্যায় ‘ঊন’ মানে এক কম। তাহলে ‘ঊনচল্লিশ’ কত?",
+    "options": [
+      "৪১",
+      "৩৯",
+      "৪৯",
+      "২৯"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Bengali numerals «ঊন» means one less. So what is «ঊনচল্লিশ»? — 39: forty (চল্লিশ) minus one."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "কেউ বলল, ‘পৌনে আটটায় দেখা হবে।’ ঘড়িতে তখন কটা বাজবে?",
+    "options": [
+      "৮টা ১৫ মিনিট",
+      "৭টা ১৫ মিনিট",
+      "৭টা ৪৫ মিনিট",
+      "৮টা ৪৫ মিনিট"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"See you at পৌনে আটটা.\" What time is that? — 7:45: «পৌনে» means a quarter less than the hour named."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "সুকুমার রায়ের ‘হাঁসজারু’ কোন দুটি প্রাণী জুড়ে তৈরি?",
+    "options": [
+      "হাঁস আর জিরাফ",
+      "হাতি আর সজারু",
+      "হাঁস আর হাতি",
+      "হাঁস আর সজারু"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sukumar Ray's «হাঁসজারু» is made of which two animals? — Duck (হাঁস) and porcupine (সজারু), from the poem «খিচুড়ি»; the name itself shows it."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "উইন্ডোজ কম্পিউটারে ‘Ctrl + Z’ চাপলে সাধারণত কী হয়?",
+    "options": [
+      "সদ্য করা কাজটি বাতিল হয়",
+      "লেখাটি কপি হয়",
+      "ফাইলটি সেভ হয়",
+      "সব লেখা বাছাই হয়"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a Windows computer, what does Ctrl+Z usually do? — Undo the last action."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "পয়লা বৈশাখের সকালে ইলিশ ভাজার সঙ্গে খাওয়ার চল আছে কোনটি?",
+    "options": [
+      "পোলাও",
+      "পান্তা ভাত",
+      "খিচুড়ি",
+      "বিরিয়ানি"
+    ],
+    "correctIndex": 1,
+    "gloss": "On the morning of Pohela Boishakh, what is eaten with fried hilsa? — Panta bhat (soaked rice), the «পান্তা-ইলিশ» custom."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ইতালির পাস্তা মূলত কী দিয়ে তৈরি হয়?",
+    "options": [
+      "চালের গুঁড়ায়",
+      "ভুট্টার আটায়",
+      "গমের আটায়",
+      "সয়াবিনের আটায়"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is Italian pasta mainly made of? — Wheat flour (durum semolina)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ক্রিকেটে বোলার টানা তিন বলে তিনটি উইকেট নিলে তাকে কী বলে?",
+    "options": [
+      "মেডেন ওভার",
+      "সেঞ্চুরি",
+      "ডাক",
+      "হ্যাটট্রিক"
+    ],
+    "correctIndex": 3,
+    "gloss": "In cricket, three wickets on three consecutive balls by one bowler is called? — A hat-trick."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "বিদ্যুৎ চলে গেলেও কম্পিউটার কিছুক্ষণ চালু রাখে কোন যন্ত্র?",
+    "options": [
+      "ইউপিএস",
+      "রাউটার",
+      "স্ক্যানার",
+      "মডেম"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which device keeps a computer running for a while after the power goes? — A UPS (uninterruptible power supply)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বাংলাদেশের কোন অঞ্চল চা-বাগানের জন্য সবচেয়ে বিখ্যাত?",
+    "options": [
+      "বরিশাল",
+      "সিলেট",
+      "রাজশাহী",
+      "খুলনা"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which region of Bangladesh is best known for tea gardens? — Sylhet (Srimangal and around)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "global",
+    "text": "মক্কায় যেতে হজ ও ওমরাহর বেশির ভাগ ফ্লাইট নামে কোন শহরের বিমানবন্দরে?",
+    "options": [
+      "রিয়াদ",
+      "দোহা",
+      "জেদ্দা",
+      "দাম্মাম"
+    ],
+    "correctIndex": 2,
+    "gloss": "Most Hajj and Umrah flights bound for Mecca land at which city's airport? — Jeddah (King Abdulaziz Airport); Mecca has no airport of its own."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ফ্রিজে রাখলে খাবার দেরিতে নষ্ট হয় কেন?",
+    "options": [
+      "ঠান্ডায় পানি জমে যায়",
+      "আলো ঢুকতে পারে না",
+      "বাতাস ঢুকতে পারে না",
+      "ঠান্ডায় জীবাণু ধীরে বাড়ে"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why does food keep longer in a fridge? — Microbes multiply slowly in the cold."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ডায়রিয়া হলে পানিশূন্যতা ঠেকাতে প্রথমেই কী খাওয়াতে বলা হয়?",
+    "options": [
+      "ওরস্যালাইন",
+      "অ্যান্টাসিড",
+      "কাশির সিরাপ",
+      "প্যারাসিটামল"
+    ],
+    "correctIndex": 0,
+    "gloss": "With diarrhoea, what is given first to prevent dehydration? — Oral rehydration salts (ORS)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "সাধারণ একটি গিটারে কয়টি তার থাকে?",
+    "options": [
+      "চারটি",
+      "ছয়টি",
+      "আটটি",
+      "বারোটি"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many strings does a standard guitar have? — Six (twelve-string guitars are a variant, hence \"সাধারণ\")."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "কার্টুন ‘মীনা’-য় মীনার পোষা টিয়াপাখির নাম কী?",
+    "options": [
+      "ময়না",
+      "টুনটুনি",
+      "মিঠু",
+      "চুমকি"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the cartoon «মীনা», what is Meena's pet parrot called? — Mithu."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ঠাকুরমার ঝুলি’-র গল্পে ‘হাঁউ মাঁউ খাঁউ, মানুষের গন্ধ পাঁউ’ বলে কারা?",
+    "options": [
+      "পরিরা",
+      "ভূতেরা",
+      "বামনেরা",
+      "রাক্ষসেরা"
+    ],
+    "correctIndex": 3,
+    "gloss": "In «ঠাকুরমার ঝুলি», who says \"hau mau khau, I smell a human\"? — The rakshasas (ogres)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ইউনেস্কো ২১ ফেব্রুয়ারিকে কোন দিবস হিসেবে ঘোষণা করেছে?",
+    "options": [
+      "আন্তর্জাতিক মাতৃভাষা দিবস",
+      "বিশ্ব সাক্ষরতা দিবস",
+      "বিশ্ব বই দিবস",
+      "আন্তর্জাতিক শিক্ষক দিবস"
+    ],
+    "correctIndex": 0,
+    "gloss": "UNESCO declared 21 February as which day? — International Mother Language Day (1999), from Bangladesh's Ekushey."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "নকশিকাঁথা মূলত কীভাবে তৈরি হয়?",
+    "options": [
+      "পাটের আঁশ বুনে",
+      "পুরোনো কাপড় স্তরে স্তরে সেলাই করে",
+      "বাঁশের চাটাই বুনে",
+      "মাটি পুড়িয়ে"
+    ],
+    "correctIndex": 1,
+    "gloss": "How is a nakshi kantha mainly made? — By layering old cloth (saris, dhotis) and stitching it with embroidery."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "সবুজের মধ্যে সাদা টেলিফোনের লোগো কোন অ্যাপের?",
+    "options": [
+      "মেসেঞ্জার",
+      "ভাইবার",
+      "হোয়াটসঅ্যাপ",
+      "টেলিগ্রাম"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which app has a white phone on green as its logo? — WhatsApp (Viber's is purple)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বেহুলা-লখিন্দরের কাহিনিতে দেবী মনসা কোন প্রাণীর দেবী?",
+    "options": [
+      "বাঘের",
+      "কুমিরের",
+      "হাতির",
+      "সাপের"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Behula-Lakhindar tale, the goddess Manasa is the goddess of which animal? — Snakes."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "টাকার নোট আলোর দিকে ধরে জলছাপ দেখা হয় কেন?",
+    "options": [
+      "নোটটি আসল কি না বুঝতে",
+      "নোটের মূল্য জানতে",
+      "নোট ছাপার সাল জানতে",
+      "নোটটি কোন ব্যাংকের তা জানতে"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why hold a banknote to the light to see its watermark? — To check it is genuine."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "এডিস মশার কামড়ে কোন রোগ ছড়ায়?",
+    "options": [
+      "ম্যালেরিয়া",
+      "ডেঙ্গু",
+      "টাইফয়েড",
+      "কলেরা"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which disease does the Aedes mosquito spread? — Dengue (malaria is spread by Anopheles)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "প্রবাদটি পূর্ণ করুন: ‘যত গর্জে, তত…’",
+    "options": [
+      "ভাসে না",
+      "ডোবে না",
+      "বর্ষে না",
+      "জ্বলে না"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb \"The more it thunders, the less it…\" — rains («যত গর্জে, তত বর্ষে না»)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "তালগাছের পাতায় ঝুলন্ত নিপুণ বাসা বোনে কোন পাখি?",
+    "options": [
+      "চড়ুই",
+      "দোয়েল",
+      "শালিক",
+      "বাবুই"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird weaves hanging nests on palmyra palm leaves? — The baya weaver (বাবুই)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "sports",
+    "scope": "global",
+    "text": "ফুটবলে ‘ভিএআর’ কী কাজে লাগে?",
+    "options": [
+      "ভিডিও দেখে রেফারির সিদ্ধান্ত যাচাই",
+      "খেলোয়াড়ের দৌড়ের গতি মাপা",
+      "বলের বাতাসের চাপ মাপা",
+      "মাঠের দর্শক গোনা"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is VAR used for in football? — Checking referees' decisions on video (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "চা বা কফি খেলে ঘুম ঘুম ভাব কাটে মূলত কোন উপাদানের জন্য?",
+    "options": [
+      "নিকোটিনের",
+      "ক্যাফেইনের",
+      "ভিটামিন সি-র",
+      "ক্যালসিয়ামের"
+    ],
+    "correctIndex": 1,
+    "gloss": "Tea or coffee wakes you up mainly because of which substance? — Caffeine."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "পুরান ঢাকার লালবাগ কেল্লা কোন আমলে তৈরি?",
+    "options": [
+      "ব্রিটিশ আমলে",
+      "পাল আমলে",
+      "মোগল আমলে",
+      "সুলতানি আমলে"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which era was Lalbagh Fort in Old Dhaka built? — The Mughal era (begun 1678 by Prince Muhammad Azam)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "বিদেশে যাওয়ার জন্য পাসপোর্টে যে অনুমতিপত্র লাগাতে হয়, তার নাম কী?",
+    "options": [
+      "টিকিট",
+      "বোর্ডিং পাস",
+      "ট্রেড লাইসেন্স",
+      "ভিসা"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the permit put in a passport to enter a foreign country? — A visa."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ব্যাংক থেকে আসা ‘OTP’-তে ‘O’ মানে কী?",
+    "options": [
+      "অনলাইন",
+      "এককালীন",
+      "গোপন",
+      "সরকারি"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the OTP a bank sends, what does the O mean? — One (One-Time Password): «এককালীন»."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "জনপ্রিয় খাবার মোমো এসেছে মূলত কোন অঞ্চল থেকে?",
+    "options": [
+      "তিব্বত ও নেপাল",
+      "জাপান ও কোরিয়া",
+      "তুরস্ক ও ইরান",
+      "থাইল্যান্ড ও লাওস"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where do momos originally come from? — Tibet and Nepal."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বাঙালি রান্নার পাঁচফোড়নে কোনটি থাকে না?",
+    "options": [
+      "মেথি",
+      "কালোজিরা",
+      "মৌরি",
+      "এলাচ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is not in Bengali panch phoron? — Cardamom; the five are fenugreek, nigella, fennel, cumin and mustard (or radhuni)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "বেহালার চেয়ে অনেক বড়, দুই হাঁটুর মাঝে রেখে ছড় টেনে বসে বাজানো হয় কোন যন্ত্র?",
+    "options": [
+      "ভায়োলা",
+      "ম্যান্ডোলিন",
+      "চেলো",
+      "ইউকুলেলে"
+    ],
+    "correctIndex": 2,
+    "gloss": "Much bigger than a violin, held between the knees and bowed sitting down? — The cello."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "একটির ভেতরে আরেকটি — এমন কাঠের পুতুলের সারি ‘মাত্রিয়োশকা’ কোন দেশের?",
+    "options": [
+      "রাশিয়ার",
+      "জাপানের",
+      "চীনের",
+      "পোল্যান্ডের"
+    ],
+    "correctIndex": 0,
+    "gloss": "Matryoshka, wooden dolls nested one inside another, come from which country? — Russia."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "কলকাতার হাওড়া ব্রিজ কোন নদীর ওপর?",
+    "options": [
+      "রূপনারায়ণ",
+      "দামোদর",
+      "হুগলি",
+      "মহানন্দা"
+    ],
+    "correctIndex": 2,
+    "gloss": "Howrah Bridge in Kolkata spans which river? — The Hooghly."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "পেঁয়াজ কাটলে চোখে জল আসে কেন?",
+    "options": [
+      "পেঁয়াজের রস ছিটে চোখে পড়ে",
+      "কাটার সময় একটি গ্যাস বেরিয়ে চোখে লাগে",
+      "ছুরির ধাতুর সঙ্গে রসের বিক্রিয়া হয়",
+      "পেঁয়াজের খোসার ধুলো চোখে ঢোকে"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why do your eyes water when cutting onions? — Cutting releases a gas (syn-propanethial-S-oxide) that irritates the eyes."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "গোয়েন্দা ব্যোমকেশ বক্সীর স্রষ্টা কে?",
+    "options": [
+      "সত্যজিৎ রায়",
+      "শরদিন্দু বন্দ্যোপাধ্যায়",
+      "নীহাররঞ্জন গুপ্ত",
+      "হেমেন্দ্রকুমার রায়"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who created the detective Byomkesh Bakshi? — Sharadindu Bandyopadhyay."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘হিমালয়’ নামটি ভাঙলে আক্ষরিক মানে দাঁড়ায় কী?",
+    "options": [
+      "মেঘের দেশ",
+      "পাথরের প্রাচীর",
+      "আকাশের সিঁড়ি",
+      "বরফের ঘর"
+    ],
+    "correctIndex": 3,
+    "gloss": "Split the name «হিমালয়»: what does it literally mean? — Abode of snow: হিম (snow) + আলয় (house), as in বিদ্যালয়."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "উঁচু পাহাড়ে ভাত সেদ্ধ হতে বেশি সময় লাগে কেন?",
+    "options": [
+      "বাতাসের চাপ কম বলে পানি কম তাপে ফোটে",
+      "পাহাড়ের পানি বেশি ভারী",
+      "পাহাড়ি চাল বেশি শক্ত",
+      "ঠান্ডা হাওয়ায় হাঁড়ি জুড়িয়ে যায়"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does rice take longer to cook high in the mountains? — Lower air pressure makes water boil at a lower temperature."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "টেনিসে শূন্য পয়েন্টকে কী বলা হয়?",
+    "options": [
+      "ডিউস",
+      "এস",
+      "লাভ",
+      "ব্রেক"
+    ],
+    "correctIndex": 2,
+    "gloss": "In tennis, what is a score of zero called? — Love."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ওয়েবসাইটের ঠিকানার শুরুতে ‘https’-এর শেষ ‘s’ কী বোঝায়?",
+    "options": [
+      "সংযোগটি সুরক্ষিত",
+      "সাইটটি সরকারি",
+      "সাইটটি বিনামূল্যের",
+      "সাইটটি দ্রুতগতির"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the final s of \"https\" at the start of a web address mean? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "চন্দ্রগুপ্ত মৌর্যের গুরু ও মন্ত্রী, ‘অর্থশাস্ত্র’-এর রচয়িতা বলে খ্যাত কে?",
+    "options": [
+      "কালিদাস",
+      "চাণক্য",
+      "বাণভট্ট",
+      "পাণিনি"
+    ],
+    "correctIndex": 1,
+    "gloss": "Chandragupta Maurya's teacher and minister, famed as author of the Arthashastra? — Chanakya (Kautilya)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "রুবিক্স কিউবের প্রতিটি পাশে ৯টি রঙিন বর্গ। পুরো কিউবে এমন বর্গ কয়টি?",
+    "options": [
+      "৩৬",
+      "৪৫",
+      "৭২",
+      "৫৪"
+    ],
+    "correctIndex": 3,
+    "gloss": "A Rubik's Cube has 9 coloured squares on each face. How many on the whole cube? — 54: six faces × 9."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "তবলার জোড়ায় বাঁ হাতে বাজানো অংশটিকে কী বলে?",
+    "options": [
+      "খোল",
+      "ডুগি",
+      "মাদল",
+      "ঢোলক"
+    ],
+    "correctIndex": 1,
+    "gloss": "In a tabla pair, what is the drum played with the left hand called? — Dugi (also bayan); khol, madal and dholak are separate drums."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "সোনারগাঁ থেকে পেশোয়ার পর্যন্ত যে সড়ক পরে গ্র্যান্ড ট্রাংক রোড নামে পরিচিত হয়, তা তৈরি করান কোন শাসক?",
+    "options": [
+      "আকবর",
+      "আলাউদ্দিন খিলজি",
+      "শের শাহ",
+      "ইলিয়াস শাহ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which ruler built the Sonargaon-to-Peshawar road later called the Grand Trunk Road? — Sher Shah Suri (Sadak-e-Azam)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "সুন্দরবনের মানুষের বিশ্বাসে বনবিবি তাঁদের রক্ষা করেন মূলত কার কবল থেকে?",
+    "options": [
+      "কুমিরের",
+      "বাঘের",
+      "জলদস্যুর",
+      "সাপের"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Sundarbans belief, Bonbibi protects people mainly from what? — The tiger (the demon Dakshin Rai in tiger form)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘পঙ্কজ’ মানে পাঁকে জন্মায় যে। শব্দটি আসলে কিসের নাম?",
+    "options": [
+      "কেঁচোর",
+      "ব্যাঙের",
+      "শামুকের",
+      "পদ্মের"
+    ],
+    "correctIndex": 3,
+    "gloss": "«পঙ্কজ» means \"born in mud\". What does the word actually name? — The lotus (পঙ্ক mud + জ born)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "কাগজের টাকা প্রথম চালু হয়েছিল কোন দেশে?",
+    "options": [
+      "চীনে",
+      "ভারতে",
+      "মিসরে",
+      "পারস্যে"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where was paper money first used? — China (Song dynasty, 11th century)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "বেগম রোকেয়ার ‘সুলতানার স্বপ্ন’ প্রথম কোন ভাষায় লেখা হয়েছিল?",
+    "options": [
+      "বাংলায়",
+      "উর্দুতে",
+      "ইংরেজিতে",
+      "ফারসিতে"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which language was Begum Rokeya's «Sultana's Dream» first written? — English (1905, Indian Ladies' Magazine)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "পৃথিবী বিষুবরেখার কাছে একটু ফোলা। তাই পৃথিবীর কেন্দ্র থেকে সবচেয়ে দূরের পর্বতচূড়া কোনটি?",
+    "options": [
+      "এভারেস্ট",
+      "কিলিমাঞ্জারো",
+      "কে-টু",
+      "চিম্বোরাসো"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Earth bulges at the equator, so which summit is farthest from its centre? — Chimborazo (Ecuador, 1°S, 6,263 m)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "উদ্ভিদের বৃদ্ধি মাপতে জগদীশচন্দ্র বসু কোন যন্ত্র উদ্ভাবন করেন?",
+    "options": [
+      "সিসমোগ্রাফ",
+      "ক্রেস্কোগ্রাফ",
+      "গ্যালভানোমিটার",
+      "ব্যারোগ্রাফ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which instrument did Jagadish Chandra Bose invent to measure plant growth? — The crescograph."
+  }
+]

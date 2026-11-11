@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ఎవరైనా 'పావు తక్కువ ఐదింటికి వస్తా' అంటే, వాళ్లు ఎన్ని గంటలకు వస్తారు?",
+    "options": [
+      "4:45",
+      "4:15",
+      "5:15",
+      "5:45"
+    ],
+    "correctIndex": 0,
+    "gloss": "Someone says they'll come at 'a quarter less five'. What time? — 4:45: 'pāvu takkuva aidu' is five o'clock minus a quarter hour."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "'___ రేపు ఊరెళ్తున్నాం, నువ్వు మాత్రం రావట్లేదు కదా!' — ఖాళీలో సరిపోయే మాట ఏది?",
+    "options": [
+      "మనం",
+      "మేము",
+      "మీరు",
+      "వాళ్లు"
+    ],
+    "correctIndex": 1,
+    "gloss": "'___ are going to the village tomorrow, but you aren't coming, right?' — మేము: Telugu has two 'we's; మనం includes the listener, మేము leaves them out."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "'కలం'లోని 'క'ను దీర్ఘం చేసి 'కా' అని పలికితే వచ్చే 'కాలం' అంటే అర్థం ఏమిటి?",
+    "options": [
+      "సిరా",
+      "కాలు",
+      "సమయం",
+      "కలుపు మొక్క"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lengthen the 'ka' of 'kalam' (pen) to 'kā': what does 'kālam' mean? — Time: vowel length alone changes the word."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "హైదరాబాదీ బిర్యానీలో గిన్నె మూతను పిండితో అతికించి, సన్నని సెగపై ఆవిరిలో ఉడికించే పద్ధతిని ఏమంటారు?",
+    "options": [
+      "తందూర్",
+      "తడ్కా",
+      "బఘార్",
+      "దమ్"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the method of sealing the pot lid with dough and slow-cooking Hyderabadi biryani in its steam? — Dum. Tandoor is a clay oven; tadka and baghar are tempering."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "సంక్రాంతి రోజుల్లో సన్నాయి వాయిస్తూ ఇంటింటికీ తిప్పి ఆడించే అలంకరించిన ఎద్దును ఏమంటారు?",
+    "options": [
+      "గంగిరెద్దు",
+      "నంది",
+      "కాడెద్దు",
+      "కోడెదూడ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the decorated bull led house to house with a nadaswaram at Sankranti called? — Gangireddu. Nandi is Shiva's bull; kāḍeddu a plough ox; kōḍedūḍa a bull calf."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఈమెయిల్ పంపేటప్పుడు కనిపించే 'CC'కి పూర్తి రూపం ఏమిటి?",
+    "options": [
+      "Common Contact",
+      "Carbon Copy",
+      "Copy Check",
+      "Central Copy"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does 'CC' stand for when sending an email? — Carbon copy, after the carbon paper used to copy letters."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ఆవకాయ పేరులోని 'ఆవ' దేనిని సూచిస్తుంది?",
+    "options": [
+      "ఆవు పాలు",
+      "ఆవిరి",
+      "ఆవాలు",
+      "ఆముదం"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the 'āva' in āvakāya stand for? — Mustard (āvālu): the pickle is named for its mustard powder, āva piṇḍi."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "'బాహుబలి'లో దేశమంతా అడిగిన ప్రశ్న — బాహుబలిని ఎవరు చంపారు?",
+    "options": [
+      "భల్లాలదేవ",
+      "బిజ్జలదేవ",
+      "శివగామి",
+      "కట్టప్ప"
+    ],
+    "correctIndex": 3,
+    "gloss": "In 'Baahubali', the question the whole country asked: who killed Baahubali? — Kattappa (revealed in 'Baahubali 2')."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ఆస్కార్ గెలుచుకున్న 'నాటు నాటు' పాట ఏ సినిమాలోది?",
+    "options": [
+      "RRR",
+      "పుష్ప",
+      "బాహుబలి",
+      "ఈగ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which film is the Oscar-winning song 'Naatu Naatu' from? — RRR (Best Original Song, 2023)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "బ్యాడ్మింటన్‌లో ఒక గేమ్ గెలవాలంటే మామూలుగా ఎన్ని పాయింట్లు సాధించాలి?",
+    "options": [
+      "11",
+      "21",
+      "15",
+      "25"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many points normally win a game of badminton? — 21 (rally scoring; at 20–20 a two-point lead is needed)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఆన్‌లైన్ చెల్లింపులో అడిగే, డెబిట్ కార్డు వెనుక ఉండే మూడు అంకెల నంబరును ఏమంటారు?",
+    "options": [
+      "PIN",
+      "OTP",
+      "CVV",
+      "IFSC"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the three-digit number on the back of a debit card, asked for in online payments? — CVV. PIN is never printed; OTP comes by SMS; IFSC is a bank branch code."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఫ్రిజ్‌లోంచి తీసిన చల్లని నీళ్ల సీసా బయటివైపు నీటి బొట్లు చేరుతాయి. అవి ఎక్కడి నుంచి వస్తాయి?",
+    "options": [
+      "సీసా లోపలి నుంచి కారి",
+      "ఫ్రిజ్‌లోని మంచు నుంచి",
+      "గాజు చెమట నుంచి",
+      "చుట్టూ ఉన్న గాలిలోని తేమ నుంచి"
+    ],
+    "correctIndex": 3,
+    "gloss": "Drops form on the outside of a cold bottle from the fridge. Where from? — The moisture in the surrounding air, condensing on the cold glass."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "థర్మామీటర్‌లో ఆరోగ్యవంతుడి సాధారణ శరీర ఉష్ణోగ్రత సుమారుగా ఎంత?",
+    "options": [
+      "98.6 °F",
+      "89.6 °F",
+      "100.4 °F",
+      "96.8 °F"
+    ],
+    "correctIndex": 0,
+    "gloss": "Roughly what is a healthy person's normal body temperature on a thermometer? — 98.6 °F (37 °C). 100.4 °F is the usual fever line."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "వేసవిలో తినే చల్లని, జెల్లీ లాంటి 'ముంజలు' ఏ చెట్టు కాయల్లో ఉంటాయి?",
+    "options": [
+      "ఈత",
+      "తాటి",
+      "కొబ్బరి",
+      "పనస"
+    ],
+    "correctIndex": 1,
+    "gloss": "The cool, jelly-like 'munjalu' eaten in summer come from which tree's fruit? — The palmyra palm (tāṭi). Īta is the date palm."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "హైదరాబాద్‌లోని హుస్సేన్ సాగర్ మధ్యలో నిలబడి ఉండే భారీ ఏకశిలా విగ్రహం ఎవరిది?",
+    "options": [
+      "మహావీరుడు",
+      "గాంధీజీ",
+      "బుద్ధుడు",
+      "అంబేద్కర్"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whose giant monolithic statue stands in the middle of Hussain Sagar in Hyderabad? — The Buddha. The 125-ft Ambedkar statue is on the shore, not in the lake."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "దసరా రోజు 'బంగారం' అంటూ ఒకరికొకరు ఇచ్చిపుచ్చుకునే ఆకులు ఏ చెట్టువి?",
+    "options": [
+      "రావి",
+      "మర్రి",
+      "వేప",
+      "జమ్మి"
+    ],
+    "correctIndex": 3,
+    "gloss": "On Dasara, the leaves people exchange as 'gold' come from which tree? — Jammi (shami), the tree where the Pandavas hid their weapons; it is worshipped on Vijayadashami."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "'ఉప్పు కప్పురంబు నొక్కపోలికనుండు' అని మొదలయ్యే ప్రసిద్ధ పద్యం ఎవరిది?",
+    "options": [
+      "వేమన",
+      "బద్దెన",
+      "పోతన",
+      "ధూర్జటి"
+    ],
+    "correctIndex": 0,
+    "gloss": "Whose famous verse begins 'Salt and camphor look alike'? — Vemana."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "రంగురంగుల కొండపల్లి బొమ్మలను దేనితో తయారు చేస్తారు?",
+    "options": [
+      "మట్టి",
+      "తేలికపాటి చెక్క",
+      "ఇత్తడి",
+      "కాగితపు గుజ్జు"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are the colourful Kondapalli toys made of? — Light wood (tella poniki)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ఇన్‌స్టాగ్రామ్ లోగోలో దేని బొమ్మ ఉంటుంది?",
+    "options": [
+      "కవరు",
+      "పక్షి",
+      "కెమెరా",
+      "గంట"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the Instagram logo show? — A camera. The bird is Twitter's old logo; the envelope is mail."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "కాకతీయుల రాజధాని 'ఓరుగల్లు' ఈనాడు ఏ పేరుతో పిలవబడుతోంది?",
+    "options": [
+      "కరీంనగర్",
+      "ఖమ్మం",
+      "నల్గొండ",
+      "వరంగల్"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Kakatiya capital Orugallu is known today by what name? — Warangal."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "వెబ్‌సైట్ చిరునామా ముందు ఉండే 'https'లోని చివరి 's' దేనిని సూచిస్తుంది?",
+    "options": [
+      "Secure",
+      "Speed",
+      "Server",
+      "Site"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the final 's' in 'https' stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "షాపులో 'ఒకటి కొంటే ఒకటి ఉచితం' ఆఫర్. ₹300 ధర గల చొక్కాలు నాలుగు కావాలంటే ఎంత చెల్లించాలి?",
+    "options": [
+      "₹300",
+      "₹600",
+      "₹900",
+      "₹1,200"
+    ],
+    "correctIndex": 1,
+    "gloss": "'Buy one, get one free' on ₹300 shirts: how much for four? — ₹600: pay for two, get two free."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "టోఫు (సోయా పనీర్) ఏ గింజలతో తయారవుతుంది?",
+    "options": [
+      "శనగలు",
+      "మొక్కజొన్న",
+      "సోయాబీన్స్",
+      "వేరుశనగలు"
+    ],
+    "correctIndex": 2,
+    "gloss": "Tofu (soya paneer) is made from which seeds? — Soybeans, from curdled soy milk."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "భద్రాచలం శ్రీ సీతారామచంద్రస్వామి ఆలయం ఏ నది ఒడ్డున ఉంది?",
+    "options": [
+      "కృష్ణా",
+      "తుంగభద్ర",
+      "పెన్నా",
+      "గోదావరి"
+    ],
+    "correctIndex": 3,
+    "gloss": "On the bank of which river is the Sri Sitaramachandraswamy temple at Bhadrachalam? — The Godavari."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "గాయమైనప్పుడు రక్తం గడ్డకట్టడానికి తోడ్పడే, డెంగ్యూలో బాగా పడిపోయే రక్తకణాలు ఏవి?",
+    "options": [
+      "ప్లేట్‌లెట్లు",
+      "ఎర్ర రక్తకణాలు",
+      "తెల్ల రక్తకణాలు",
+      "ప్లాస్మా కణాలు"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood cells help blood clot at a wound and drop sharply in dengue? — Platelets."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "జేమ్స్ కామెరాన్ 'అవతార్' సినిమాలో పండోరా గ్రహవాసుల చర్మం ఏ రంగులో ఉంటుంది?",
+    "options": [
+      "ఆకుపచ్చ",
+      "నీలం",
+      "ఊదా",
+      "బంగారు"
+    ],
+    "correctIndex": 1,
+    "gloss": "In James Cameron's 'Avatar', what colour is the skin of Pandora's people? — Blue (the Na'vi)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "యాదాద్రి జిల్లాలోని పోచంపల్లి దేనికి ప్రసిద్ధి?",
+    "options": [
+      "కలంకారి అద్దకం",
+      "ఇత్తడి పాత్రలు",
+      "ఇక్కత్ చీరలు",
+      "లక్క గాజులు"
+    ],
+    "correctIndex": 2,
+    "gloss": "Pochampally in Yadadri district is famous for what? — Ikat sarees (handloom, with a GI tag); Kalamkari is from Srikalahasti and Machilipatnam."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "క్రికెట్‌లో బ్యాటర్ 'డక్' అయ్యాడంటే అర్థం ఏమిటి?",
+    "options": [
+      "సిక్సర్ కొట్టాడు",
+      "క్యాచ్ వదిలేశాడు",
+      "సెంచరీ చేశాడు",
+      "సున్నా పరుగులకే ఔటయ్యాడు"
+    ],
+    "correctIndex": 3,
+    "gloss": "In cricket, what does it mean when a batter is out for a 'duck'? — Out without scoring a run."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ఒలింపిక్స్‌లో రెండు వ్యక్తిగత పతకాలు గెలిచిన తొలి భారత మహిళ అయిన తెలుగు బ్యాడ్మింటన్ క్రీడాకారిణి ఎవరు?",
+    "options": [
+      "పి.వి. సింధు",
+      "సైనా నెహ్వాల్",
+      "జ్వాలా గుత్తా",
+      "అశ్విని పొన్నప్ప"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who is the Telugu badminton player who became the first Indian woman to win two individual Olympic medals? — P. V. Sindhu: silver at Rio 2016, bronze at Tokyo 2020. Saina Nehwal won one bronze (2012)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "2023లో చంద్రయాన్-3 ల్యాండర్ చంద్రుడిపై ఏ ప్రాంతం దగ్గర దిగింది?",
+    "options": [
+      "ఉత్తర ధ్రువం",
+      "దక్షిణ ధ్రువం",
+      "భూమధ్య రేఖ",
+      "చంద్రుడి అవతలి వైపు"
+    ],
+    "correctIndex": 1,
+    "gloss": "Near which region of the Moon did Chandrayaan-3's lander touch down in 2023? — Near the south pole, the first landing there."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "'QR కోడ్'లోని 'QR' దేనికి సంక్షిప్త రూపం?",
+    "options": [
+      "Quality Record",
+      "Quick Read",
+      "Quick Response",
+      "Query Result"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does 'QR' in QR code stand for? — Quick Response."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "కోయిల తన గుడ్లను సాధారణంగా ఏ పక్షి గూట్లో పెట్టి, పిల్లల్ని దానితో పెంచిస్తుంది?",
+    "options": [
+      "పిచ్చుక",
+      "పావురం",
+      "గోరువంక",
+      "కాకి"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which bird's nest does the koel usually lay its eggs, leaving it to raise the chicks? — The crow's."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "సామెత పూర్తి చేయండి: 'ఆలస్యం ___ విషం'.",
+    "options": [
+      "అమృతం",
+      "ఔషధం",
+      "భోజనం",
+      "ప్రయాణం"
+    ],
+    "correctIndex": 0,
+    "gloss": "Complete the saying: 'Delay [turns] ___ [into] poison.' — Amṛtam (nectar): even nectar becomes poison if delayed."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ఈ రోజు శనివారం. 'ఎల్లుండి కలుద్దాం' అంటే ఏ రోజు కలవాలి?",
+    "options": [
+      "ఆదివారం",
+      "సోమవారం",
+      "మంగళవారం",
+      "గురువారం"
+    ],
+    "correctIndex": 1,
+    "gloss": "Today is Saturday. 'Let's meet ellundi' means which day? — Monday: ellundi is the day after tomorrow (and monna the day before yesterday)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "రాత్రి 11:40కి బయలుదేరిన బస్సు 7 గంటలు ప్రయాణించి ఎప్పుడు చేరుతుంది?",
+    "options": [
+      "ఉదయం 4:40",
+      "ఉదయం 7:40",
+      "ఉదయం 6:40",
+      "సాయంత్రం 6:40"
+    ],
+    "correctIndex": 2,
+    "gloss": "A bus leaves at 11:40 pm and travels 7 hours. When does it arrive? — 6:40 am."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "'హ్యారీ పాటర్' నవలల రచయిత్రి ఎవరు?",
+    "options": [
+      "అగాథా క్రిస్టీ",
+      "జేన్ ఆస్టెన్",
+      "ఎనిడ్ బ్లైటన్",
+      "జె.కె. రౌలింగ్"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the Harry Potter novels? — J. K. Rowling."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "డైనోసార్లను మళ్లీ బతికించే 'జురాసిక్ పార్క్' (1993) సినిమాకు దర్శకుడు ఎవరు?",
+    "options": [
+      "స్టీవెన్ స్పీల్‌బర్గ్",
+      "జేమ్స్ కామెరాన్",
+      "క్రిస్టోఫర్ నోలన్",
+      "జార్జ్ లూకాస్"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed 'Jurassic Park' (1993), where dinosaurs are brought back to life? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "భారతదేశాన్ని శ్రీలంక నుంచి వేరు చేసే జలసంధి ఏది?",
+    "options": [
+      "మలక్కా జలసంధి",
+      "పాక్ జలసంధి",
+      "హోర్ముజ్ జలసంధి",
+      "జిబ్రాల్టర్ జలసంధి"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which strait separates India from Sri Lanka? — The Palk Strait."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "మాచు పిచ్చును నిర్మించిన ఇంకాల సామ్రాజ్యం ఏ ఖండంలో ఉండేది?",
+    "options": [
+      "ఉత్తర అమెరికా",
+      "ఆఫ్రికా",
+      "దక్షిణ అమెరికా",
+      "ఆసియా"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which continent was the Inca Empire, builders of Machu Picchu? — South America (the Andes). The Aztecs were in North America."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "గాజు పిరమిడ్ ప్రవేశద్వారం గల లూవ్ర్ మ్యూజియం ఏ నగరంలో ఉంది?",
+    "options": [
+      "లండన్",
+      "రోమ్",
+      "మాడ్రిడ్",
+      "పారిస్"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which city is the Louvre, with its glass-pyramid entrance? — Paris."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "పోకీమాన్‌లలో అందరికీ తెలిసిన పసుపు రంగు విద్యుత్ పోకీమాన్ పేరేమిటి?",
+    "options": [
+      "పికాచు",
+      "చార్మాండర్",
+      "బల్బసార్",
+      "జిగ్లీపఫ్"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the best-known yellow electric Pokémon? — Pikachu. Charmander is fire, Bulbasaur grass, Jigglypuff pink."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "మహాభారతంలో అర్జునుడి విల్లు పేరు ఏమిటి?",
+    "options": [
+      "పినాకం",
+      "గాండీవం",
+      "కోదండం",
+      "శార్ఙ్గం"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is Arjuna's bow called in the Mahabharata? — Gandivam. Pinakam is Shiva's, Kodandam Rama's, Sharngam Vishnu's."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "కూచిపూడిలో నర్తకి ఇత్తడి పళ్లెం అంచులపై నిలబడి లయబద్ధంగా చేసే నృత్యాంశాన్ని ఏమంటారు?",
+    "options": [
+      "తిల్లానా",
+      "జావళి",
+      "తరంగం",
+      "పదం"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Kuchipudi, what is the item danced standing on the rim of a brass plate called? — Tarangam (from Krishna Leela Tarangini)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "తెలుగు అంకెల్లో '౨౫' అని రాస్తే అది ఏ సంఖ్య?",
+    "options": [
+      "52",
+      "23",
+      "75",
+      "25"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number is '౨౫' in Telugu numerals? — 25: ౨ is 2 and ౫ is 5."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "పౌర్ణమి నుంచి తర్వాత వచ్చే అమావాస్యకు దాదాపు ఎన్ని రోజులు పడుతుంది?",
+    "options": [
+      "15",
+      "7",
+      "22",
+      "30"
+    ],
+    "correctIndex": 0,
+    "gloss": "About how many days from full moon to the next new moon? — About 15: half of the 29.5-day lunar month, one paksham."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "'ఆముక్తమాల్యద' కావ్యాన్ని రచించిన విజయనగర చక్రవర్తి ఎవరు?",
+    "options": [
+      "అళియ రామరాయలు",
+      "శ్రీకృష్ణదేవరాయలు",
+      "బుక్కరాయలు",
+      "తిరుమల దేవరాయలు"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Vijayanagara emperor wrote the poem 'Amuktamalyada'? — Sri Krishnadevaraya."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "సొరచేప (షార్క్) అస్థిపంజరం దేనితో తయారై ఉంటుంది?",
+    "options": [
+      "గట్టి ఎముకలు",
+      "కొమ్ము పదార్థం",
+      "మృదులాస్థి",
+      "సున్నపురాయి"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a shark's skeleton made of? — Cartilage, lighter and more flexible than bone."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "చాంద్రమాన సంవత్సరం సౌరమాన సంవత్సరం కంటే సుమారు 11 రోజులు చిన్నది. అందుకే 'అధిక మాసం' దాదాపు ఎన్నేళ్లకోసారి వస్తుంది?",
+    "options": [
+      "ప్రతి ఏడాది",
+      "పన్నెండేళ్లకు",
+      "అరవై ఏళ్లకు",
+      "దాదాపు మూడేళ్లకు"
+    ],
+    "correctIndex": 3,
+    "gloss": "The lunar year is about 11 days shorter than the solar one, so roughly how often comes the extra month (adhika māsam)? — About every three years (≈32.5 months): 11 × 3 ≈ a month. Twelve years is the Pushkaram cycle, sixty the year-name cycle."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "సాధారణ పూర్తి పరిమాణ పియానోలో మొత్తం ఎన్ని కీలు ఉంటాయి?",
+    "options": [
+      "88",
+      "76",
+      "96",
+      "108"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many keys does a standard full-size piano have? — 88 (52 white, 36 black)."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "క్షేత్రయ్య పదాలన్నింటిలో ముద్రగా వచ్చే దేవుడి పేరు ఏమిటి?",
+    "options": [
+      "వేంకటేశ్వర",
+      "మువ్వగోపాల",
+      "చెన్నకేశవ",
+      "శ్రీరామ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which god's name appears as the signature (mudra) in Kshetrayya's padams? — Muvva Gopala, the Krishna of Muvva (Movva) village."
+  }
+]
