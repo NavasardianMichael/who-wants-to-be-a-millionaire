@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "სიტყვა „პური“-ში „პ“ რომ „ფ“-თი შევცვალოთ, რომელ შინაურ ცხოველს მივიღებთ?",
+    "options": [
+      "ცხენს",
+      "ძროხას",
+      "თხას",
+      "ცხვარს"
+    ],
+    "correctIndex": 1,
+    "gloss": "Swap the ejective p in „პური“ (bread) for the aspirated ph: which farm animal do you get? — A cow: „ფური“ is a (milk) cow; Georgian keeps p/ph apart as separate letters."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "წინადადებაში „ის ექიმია“ ვინ შეიძლება იგულისხმებოდეს?",
+    "options": [
+      "მხოლოდ კაცი",
+      "მხოლოდ ქალი",
+      "მხოლოდ ბავშვი",
+      "კაციც და ქალიც"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the sentence „ის ექიმია“ (that one is a doctor), who can be meant? — A man or a woman: Georgian has no grammatical gender, „ის“ is he, she and it."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ორი — მეორე, სამი — მესამე, ოთხი — მეოთხე. რომელი რიცხვის რიგითი არ იწარმოება ამ წესით?",
+    "options": [
+      "ერთის",
+      "ათის",
+      "ოცის",
+      "ასის"
+    ],
+    "correctIndex": 0,
+    "gloss": "Two → second (me-or-e), three → third... Which number's ordinal is not built this way? — One: its ordinal is „პირველი“, not *მეერთე (that form lives only inside compounds like ოცდამეერთე, 21st)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "„ძველით ახალი წელი“ 14 იანვარს აღინიშნება. რამდენი დღით გვიანაა ის 1 იანვარზე?",
+    "options": [
+      "14 დღით",
+      "12 დღით",
+      "13 დღით",
+      "7 დღით"
+    ],
+    "correctIndex": 2,
+    "gloss": "Old New Year is on 14 January. How many days after 1 January is it? — 13 days, the gap between the Julian and Gregorian calendars; 14 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ჩურჩხელის გასაკეთებლად ძაფზე ასხმულ კაკალს რაში აწობენ?",
+    "options": [
+      "თაფლში",
+      "ტყლაპში",
+      "მაწონში",
+      "თათარაში"
+    ],
+    "correctIndex": 3,
+    "gloss": "To make churchkhela, what are the walnuts on a string dipped into? — Tatara: grape juice thickened with flour."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რა ჰქვია თიხის დიდ ჭურჭელს, რომელსაც მიწაში ფლავენ და მასში ღვინოს აყენებენ?",
+    "options": [
+      "ქვევრი",
+      "დოქი",
+      "კოკა",
+      "ხელადა"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the big clay vessel buried in the ground, in which wine is made? — The qvevri; qvevri winemaking is on UNESCO's intangible heritage list (2013)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„ვეფხისტყაოსნის“ რომელი გმირია თავად ვეფხის ტყაოსანი — ვეფხის ტყავით შემოსილი რაინდი?",
+    "options": [
+      "ავთანდილი",
+      "ტარიელი",
+      "ფრიდონი",
+      "როსტევანი"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which hero of Rustaveli's poem is the 'knight in the panther's skin' himself? — Tariel; Avtandil is his sworn brother, Pridon their ally, Rostevan the king of Arabia."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელ ქალაქშია სვეტიცხოვლის საკათედრო ტაძარი, სადაც, გადმოცემით, უფლის კვართია დაფლული?",
+    "options": [
+      "ქუთაისში",
+      "თელავში",
+      "მცხეთაში",
+      "გორში"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which town is Svetitskhoveli Cathedral, where by tradition Christ's robe is buried? — Mtskheta."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "გადმოცემით, რისგან გააკეთა წმინდა ნინომ ჯვარი, რომელიც საკუთარი თმით შეკრა?",
+    "options": [
+      "მუხის ტოტებისგან",
+      "კვიპაროსის ტოტებისგან",
+      "ზეთისხილის ტოტებისგან",
+      "ვაზის ლერწებისგან"
+    ],
+    "correctIndex": 3,
+    "gloss": "By tradition, what did St Nino make her cross from, binding it with her own hair? — Grapevine branches."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„ალილოს“ მსვლელობა რომელ დღესასწაულზე იმართება?",
+    "options": [
+      "შობას",
+      "აღდგომას",
+      "ნათლისღებას",
+      "ახალ წელს"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which holiday does the Alilo procession take place? — Christmas (7 January): carollers walk the streets singing and collecting gifts."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართული ხალხური სიმღერა, რომელიც UNESCO-მ კაცობრიობის შედევრად აღიარა, უმეტესად რამდენხმიანია?",
+    "options": [
+      "ერთხმიანი",
+      "ორხმიანი",
+      "სამხმიანი",
+      "ექვსხმიანი"
+    ],
+    "correctIndex": 2,
+    "gloss": "Georgian folk song, recognised by UNESCO as a masterpiece (2001), is mostly in how many voices? — Three-part polyphony."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "საქართველოს დროშაზე სულ რამდენი ჯვარია?",
+    "options": [
+      "ერთი",
+      "ხუთი",
+      "ოთხი",
+      "შვიდი"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many crosses are on the flag of Georgia in all? — Five: one large St George's cross and four small ones (the 'five-cross flag')."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ლეგენდით, რომელმა მეფემ დააარსა თბილისი მას შემდეგ, რაც ნადირობისას ხოხობი ცხელ წყაროში მოიხარშა?",
+    "options": [
+      "ფარნავაზმა",
+      "მირიანმა",
+      "დავით აღმაშენებელმა",
+      "ვახტანგ გორგასალმა"
+    ],
+    "correctIndex": 3,
+    "gloss": "By legend, which king founded Tbilisi after a pheasant caught on a hunt fell into a hot spring and was cooked? — Vakhtang Gorgasali."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ლაშა თალახაძე ორგზის ოლიმპიური და მრავალგზის მსოფლიო ჩემპიონია. რომელ სპორტში?",
+    "options": [
+      "ძალოსნობაში",
+      "ჭიდაობაში",
+      "ძიუდოში",
+      "კრივში"
+    ],
+    "correctIndex": 0,
+    "gloss": "Lasha Talakhadze is a two-time Olympic and multiple world champion. In which sport? — Weightlifting (super-heavyweight)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რას მოითხოვს წითელი რვაკუთხა საგზაო ნიშანი წარწერით STOP?",
+    "options": [
+      "გზის დათმობას",
+      "სრულ გაჩერებას",
+      "სიჩქარის შენელებას",
+      "შემობრუნების აკრძალვას"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the red octagonal STOP sign require? — A full stop; giving way is the inverted triangle."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "აბრეშუმის ჭია რომელი ხის ფოთლებით იკვებება?",
+    "options": [
+      "ვაზის",
+      "მუხის",
+      "თუთის",
+      "კაკლის"
+    ],
+    "correctIndex": 2,
+    "gloss": "The leaves of which tree does the silkworm feed on? — The mulberry."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "მიკროტალღურ ღუმელში რომელი ჭურჭლის ჩადება არ შეიძლება?",
+    "options": [
+      "მინის თასის",
+      "ფაიფურის თეფშის",
+      "ქაღალდის ჭიქის",
+      "ლითონის ქვაბის"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which dish must not go into a microwave? — A metal pot: metal reflects microwaves and can spark."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ თამაშში უნდა ჩამოვარდნილი ფიგურებით სრული მწკრივები შეავსო, რომ ისინი გაქრეს?",
+    "options": [
+      "„ტეტრისში“",
+      "„პაკმენში“",
+      "„მაინკრაფტში“",
+      "„ანგრი ბერდსში“"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which game do you fill complete rows with falling pieces so that they vanish? — Tetris."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რისგან მზადდება ყავა ამერიკანო?",
+    "options": [
+      "ესპრესოსა და რძისგან",
+      "ესპრესოსა და ნაღებისგან",
+      "ესპრესოსა და ცხელი წყლისგან",
+      "ესპრესოსა და ყინულისგან"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is an Americano made of? — Espresso topped up with hot water."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი რიცხვით გვატყობინებს ბრაუზერი, რომ მოთხოვნილი გვერდი ვერ მოიძებნა?",
+    "options": [
+      "200",
+      "404",
+      "500",
+      "101"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number does a browser show when the requested page is not found? — 404 (HTTP Not Found); 200 means OK, 500 a server error."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "მტკვარი თურქეთში იწყება და საქართველოს გადაკვეთს. რომელ ქვეყანაში მიედინება ის შემდეგ?",
+    "options": [
+      "აზერბაიჯანში",
+      "სომხეთში",
+      "რუსეთში",
+      "ირანში"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Mtkvari rises in Turkey and crosses Georgia. Which country does it flow into next? — Azerbaijan, on its way to the Caspian."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ქვეყანაშია კაპადოკია — ჰაერბურთებითა და კლდეში ნაკვეთი ეკლესიებით ცნობილი მხარე?",
+    "options": [
+      "საბერძნეთში",
+      "ეგვიპტეში",
+      "მაროკოში",
+      "თურქეთში"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is Cappadocia in, the region known for hot-air balloons and rock-cut churches? — Turkey."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ჭადრაკის რომელ ფიგურას შეუძლია ჩვეულებრივი სვლისას სხვა ფიგურებზე გადახტომა?",
+    "options": [
+      "კუს",
+      "ეტლს",
+      "მხედარს",
+      "ლაზიერს"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which chess piece can jump over other pieces in a normal move? — The knight („მხედარი“); bishop, rook and queen cannot."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რისგან მზადდება ჰუმუსი ძირითადად?",
+    "options": [
+      "ლობიოსგან",
+      "მუხუდოსგან",
+      "ოსპისგან",
+      "ცერცვისგან"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is hummus mainly made from? — Chickpeas, with tahini; beans, lentils and peas are the same family."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ქვეყანაშია ქალაქი დუბაი?",
+    "options": [
+      "არაბთა გაერთიანებულ საამიროებში",
+      "საუდის არაბეთში",
+      "ყატარში",
+      "ომანში"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country is Dubai in? — The United Arab Emirates."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელმა მომღერალმა ჩაატარა მსოფლიო ტურნე The Eras Tour?",
+    "options": [
+      "ბიონსემ",
+      "ადელმა",
+      "რიანამ",
+      "ტეილორ სვიფტმა"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which singer performed The Eras Tour (2023–2024), the highest-grossing concert tour ever? — Taylor Swift."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ავტომატური გადაცემათა კოლოფის რომელი ასო ნიშნავს უკუსვლას?",
+    "options": [
+      "P",
+      "D",
+      "R",
+      "N"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which letter on an automatic gearbox means reverse? — R; P is park, N neutral, D drive."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რამდენ წუთს გრძელდება ფეხბურთის მატჩის ერთი ტაიმი?",
+    "options": [
+      "45 წუთს",
+      "40 წუთს",
+      "50 წუთს",
+      "60 წუთს"
+    ],
+    "correctIndex": 0,
+    "gloss": "How long is one half of a football match? — 45 minutes (plus added time)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ხვიჩა კვარაცხელიამ 2023 წელს რომელ კლუბთან ერთად მოიგო იტალიის ჩემპიონატი?",
+    "options": [
+      "„მილანთან“",
+      "„ნაპოლისთან“",
+      "„იუვენტუსთან“",
+      "„ინტერთან“"
+    ],
+    "correctIndex": 1,
+    "gloss": "With which club did Khvicha Kvaratskhelia win the Italian league in 2023? — Napoli (2022–23 Serie A)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ დაწერა ლექსი „მერი“?",
+    "options": [
+      "ტიციან ტაბიძემ",
+      "ნიკოლოზ ბარათაშვილმა",
+      "ილია ჭავჭავაძემ",
+      "გალაკტიონ ტაბიძემ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the poem 'Meri'? — Galaktion Tabidze (1915); Titsian Tabidze, his cousin and fellow poet, is the trap."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "მცხეთასთან, ჯვრის მონასტრის ძირას, მტკვარს რომელი მდინარე ერთვის?",
+    "options": [
+      "ლიახვი",
+      "ხრამი",
+      "არაგვი",
+      "ალაზანი"
+    ],
+    "correctIndex": 2,
+    "gloss": "At Mtskheta, below the Jvari monastery, which river joins the Mtkvari? — The Aragvi."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ფრენსის ფორდ კოპოლას „ნათლიაში“ (1972) დონ ვიტო კორლეონე ვინ განასახიერა?",
+    "options": [
+      "მარლონ ბრანდომ",
+      "ალ პაჩინომ",
+      "რობერტ დე ნირომ",
+      "ჯეკ ნიკოლსონმა"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who played Don Vito Corleone in Coppola's 'The Godfather' (1972)? — Marlon Brando; De Niro played the young Vito only in Part II (1974)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ჩირაღდნების ზამთრის დღესასწაული „ლამპრობა“ საქართველოს რომელი კუთხისაა?",
+    "options": [
+      "რაჭის",
+      "სვანეთის",
+      "გურიის",
+      "კახეთის"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Georgian region does Lamproba, the winter festival of torches, belong to? — Svaneti."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ბიძაშვილი ბიძის შვილია. ვინ არის დეიდაშვილი?",
+    "options": [
+      "მამის დის შვილი",
+      "მამის ძმის შვილი",
+      "დედის ძმის შვილი",
+      "დედის დის შვილი"
+    ],
+    "correctIndex": 3,
+    "gloss": "A bidzashvili is an uncle's child. Who is a deidashvili? — Mother's sister's child: deida is the maternal aunt (the paternal one is mamida), and -shvili means child."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ჩოგბურთის „დიდი სლემის“ რომელ ტურნირს თამაშობენ ბალახის კორტებზე?",
+    "options": [
+      "„როლან გაროსს“",
+      "უიმბლდონს",
+      "აშშ-ის ღია პირველობას",
+      "ავსტრალიის ღია პირველობას"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Grand Slam tennis tournament is played on grass? — Wimbledon; Roland Garros is clay, the US and Australian Opens are hard courts."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ზღვის ცხენებთან ვინ ატარებს ქვირითს, სანამ ნაშიერები არ გამოიჩეკებიან?",
+    "options": [
+      "დედალი, მუცლის ღრუში",
+      "ორივე, მორიგეობით",
+      "მამალი, მუცლის ჩანთაში",
+      "არცერთი: ქვიშაში ფლავენ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In seahorses, who carries the eggs until the young hatch? — The male, in his brood pouch."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი ქვეყნისაა LEGO, რომლის სახელიც „კარგად ითამაშე“-ს ნიშნავს?",
+    "options": [
+      "შვედეთის",
+      "გერმანიის",
+      "ფინეთის",
+      "დანიის"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is LEGO from, whose name means 'play well'? — Denmark: from Danish „leg godt“."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ესპანურ პაელიას ოქროსფერს რომელი სანელებელი აძლევს?",
+    "options": [
+      "ზაფრანა",
+      "დარიჩინი",
+      "ზირა",
+      "ვანილი"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice gives Spanish paella its golden colour? — Saffron."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "რომელია ყველაზე გრძელი?",
+    "options": [
+      "10 000 სანტიმეტრი",
+      "1 კილომეტრი",
+      "900 მეტრი",
+      "100 000 მილიმეტრი"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is the longest? — 1 km: 10,000 cm and 100,000 mm are both only 100 m, and 900 m is short of a kilometre. The big numbers are the trap."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ არის სიმღერა „სულიკოს“ ლექსის ავტორი?",
+    "options": [
+      "ილია ჭავჭავაძე",
+      "იაკობ გოგებაშვილი",
+      "აკაკი წერეთელი",
+      "ნიკოლოზ ბარათაშვილი"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the words of the song 'Suliko'? — Akaki Tsereteli (1895); the tune is by Varinka Tsereteli."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ანდებში მდებარე ქალაქი მაჩუ-პიქჩუ რომელმა ხალხმა ააშენა?",
+    "options": [
+      "აცტეკებმა",
+      "მაიებმა",
+      "ოლმეკებმა",
+      "ინკებმა"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which people built Machu Picchu in the Andes? — The Incas; Aztecs, Maya and Olmecs lived in Mesoamerica."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი ქვეყნის კომპანიაა Samsung, რომლის სახელიც „სამ ვარსკვლავს“ ნიშნავს?",
+    "options": [
+      "სამხრეთ კორეის",
+      "იაპონიის",
+      "ჩინეთის",
+      "ტაივანის"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country is Samsung from, whose name means 'three stars'? — South Korea (Korean sam 'three', sung 'star')."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ძველ ქართულ კალენდარში ერთ თვეს „ღვინობისთვე“ ერქვა. რომელს?",
+    "options": [
+      "აგვისტოს",
+      "სექტემბერს",
+      "ოქტომბერს",
+      "ნოემბერს"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the old Georgian calendar one month was called 'Ghvinobistve' (wine month). Which? — October; September was „ენკენისთვე“, November „გიორგობისთვე“. The name points to the vintage, knowledge picks the month."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ არის რომან „დათა თუთაშხიას“ ავტორი?",
+    "options": [
+      "ოთარ ჭილაძე",
+      "ჭაბუა ამირეჯიბი",
+      "კონსტანტინე გამსახურდია",
+      "გურამ დოჩანაშვილი"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novel 'Data Tutashkhia'? — Chabua Amirejibi."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "კავკასიონის მაღალ მწვერვალზე ქვაბში წყალი რა ტემპერატურაზე ადუღდება?",
+    "options": [
+      "ზუსტად 100 °C-ზე",
+      "100 °C-ზე მაღალზე",
+      "საერთოდ არ ადუღდება",
+      "100 °C-ზე დაბალზე"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a high Caucasus summit, at what temperature does water in a pot boil? — Below 100 °C: air pressure is lower up there, and boiling point falls with pressure."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი მდინარე ჩაედინება ბაღდადში?",
+    "options": [
+      "ტიგროსი",
+      "ევფრატი",
+      "იორდანე",
+      "ორონტი"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river flows through Baghdad? — The Tigris; the Euphrates, its twin, passes to the west."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ვინ შექმნა „ბოლერო“, სადაც ერთი მელოდია თხუთმეტ წუთს მეორდება და თანდათან ძლიერდება?",
+    "options": [
+      "კლოდ დებიუსიმ",
+      "ჟორჟ ბიზემ",
+      "მორის რაველმა",
+      "კამილ სენ-სანსმა"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who composed 'Boléro', where one melody repeats for about fifteen minutes in a long crescendo? — Maurice Ravel (1928)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ შეადგინა XVIII საუკუნეში „აღწერა სამეფოსა საქართველოსა“ და საქართველოს ატლასი?",
+    "options": [
+      "სულხან-საბა ორბელიანმა",
+      "ანტონ კათალიკოსმა",
+      "თეიმურაზ ბატონიშვილმა",
+      "ვახუშტი ბატონიშვილმა"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Description of the Kingdom of Georgia' and made a Georgian atlas in the 18th century? — Prince Vakhushti Bagrationi (Batonishvili)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "თექვსმეტობით სისტემაში რომელ რიცხვს აღნიშნავს ციფრი F?",
+    "options": [
+      "6",
+      "15",
+      "16",
+      "255"
+    ],
+    "correctIndex": 1,
+    "gloss": "In hexadecimal, which number does the digit F stand for? — 15: after 9 come A=10 … F=15. 16 is written 10, and 255 is FF."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ბოლნისის სიონის წარწერა ერთ-ერთი უძველესი დათარიღებული ქართული წარწერაა. რომელი საუკუნისაა?",
+    "options": [
+      "IV საუკუნის",
+      "V საუკუნის",
+      "VI საუკუნის",
+      "VII საუკუნის"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Bolnisi Sioni inscription is one of the oldest dated Georgian inscriptions. Which century is it from? — The 5th (dated 493/494); the 4th, when Georgia converted, is the trap."
+  }
+]

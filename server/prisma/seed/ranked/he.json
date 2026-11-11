@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "איזה צירוף נכון בעברית?",
+    "options": [
+      "שלוש ילדות",
+      "שלושה ילדות",
+      "שלוש ילדים",
+      "שלושה גבינות"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which phrase is correct? — \"three girls\": Hebrew numbers 3-10 take the opposite gender of the noun (shalosh yeladot, shlosha yeladim)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "״ארבעים״ הוא ״ארבע״ ברבים, ו״שלושים״ הוא ״שלוש״ ברבים. מהו ״עשר״ ברבים?",
+    "options": [
+      "100",
+      "200",
+      "20",
+      "1,000"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"Forty\" is the plural of \"four\", \"thirty\" of \"three\"; what is \"ten\" in the plural? — 20: \"esrim\" is the plural form of \"eser\"."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "איזו מילה בעברית קיימת רק בלשון רבים, בלי צורת יחיד?",
+    "options": [
+      "אש",
+      "עשן",
+      "חול",
+      "מים"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Hebrew word exists only in the plural? — \"mayim\" (water); fire, smoke and sand all have a singular."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "היום יום ה׳. איזה יום יהיה מחרתיים?",
+    "options": [
+      "יום ו׳",
+      "שבת",
+      "יום א׳",
+      "יום ד׳"
+    ],
+    "correctIndex": 1,
+    "gloss": "Today is Thursday (\"yom he\"). What day is the day after tomorrow (\"mahratayim\")? — Saturday (Shabbat): Friday tomorrow, Saturday after."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "אילו שלוש מילים מסתתרות בראשי התיבות ״תנ״ך״?",
+    "options": [
+      "תפילה, נביאים, כתובים",
+      "תורה, נביאים, כתובים",
+      "תורה, נשים, כתובים",
+      "תורה, נביאים, כהנים"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which three words hide in the acronym \"Tanakh\"? — Torah, Nevi'im, Ketuvim (Law, Prophets, Writings)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו מילה שמקורה בערבית משמשת בישראל כשאומרים ״בואו נזוז״ או ״קדימה״?",
+    "options": [
+      "סבבה",
+      "אחלה",
+      "וואלה",
+      "יאללה"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Arabic-origin word means \"let's go / come on\"? — \"yalla\"; sababa means fine, ahla great, wallah really."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "בקריאת המגילה בפורים מרעישים ברעשן בכל פעם שנשמע שמו של…",
+    "options": [
+      "המן",
+      "מרדכי",
+      "אחשוורוש",
+      "חרבונה"
+    ],
+    "correctIndex": 0,
+    "gloss": "During the Megillah reading on Purim, the noisemaker sounds whenever whose name is heard? — Haman, the villain."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איך נקרא התבשיל החם שמתבשל על להבה קטנה מערב שבת עד צהרי שבת?",
+    "options": [
+      "שקשוקה",
+      "מג׳דרה",
+      "חמין",
+      "קובה"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the hot dish simmered from Friday afternoon to Saturday lunch called? — Hamin (cholent)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי כתבה והלחינה את ״ירושלים של זהב״?",
+    "options": [
+      "רחל המשוררת",
+      "לאה גולדברג",
+      "נעמי שמר",
+      "דליה רביקוביץ׳"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote and composed \"Jerusalem of Gold\"? — Naomi Shemer (1967); the others are poets."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי נחשב למחיה השפה העברית כשפה מדוברת בסוף המאה ה־19?",
+    "options": [
+      "אליעזר בן־יהודה",
+      "חיים ביאליק",
+      "תיאודור הרצל",
+      "דוד בן־גוריון"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who is considered the reviver of Hebrew as a spoken language in the late 19th century? — Eliezer Ben-Yehuda."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "מהו הרבים של ״אישה״?",
+    "options": [
+      "אנשים",
+      "נשים",
+      "אישות",
+      "נשיות"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the plural of \"isha\" (woman)? — \"nashim\", an irregular plural (not the regular -ot); \"anashim\" is the plural of \"ish\" (man)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזה חג בישראל מציינים בהדלקת מדורות, וגם בהר מירון?",
+    "options": [
+      "ט״ו באב",
+      "שבועות",
+      "פורים",
+      "ל״ג בעומר"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which holiday is marked by bonfires, including a huge one at Mount Meron? — Lag BaOmer."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איך קוראים בעברית מדוברת לסימן @ בכתובת דוא״ל?",
+    "options": [
+      "כוכבית",
+      "סולמית",
+      "נקודה",
+      "שטרודל"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the @ sign colloquially called in Hebrew? — \"shtrudel\" (strudel); kochavit is *, sulamit is #."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה יונק בעל זנב שטוח כמו משוט כורת עצים בשיניו כדי לסכור נחל?",
+    "options": [
+      "לוטרה",
+      "בונה",
+      "נוטריה",
+      "חולד"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which mammal with a paddle-like tail gnaws trees to dam a stream? — The beaver (\"bone\" in Hebrew)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה קוד שגיאה מוכר מופיע כשדף באינטרנט לא נמצא?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which well-known error code appears when a web page is not found? — 404."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "כמה קילומטרים, בערך, אורכה של ריצת מרתון?",
+    "options": [
+      "42",
+      "21",
+      "50",
+      "36"
+    ],
+    "correctIndex": 0,
+    "gloss": "About how many kilometres is a marathon? — 42 (42.195)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזו גבינה מוכרת בחורים הגדולים שבתוכה?",
+    "options": [
+      "אמנטל",
+      "גאודה",
+      "פרמזן",
+      "מוצרלה"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which cheese is known for its large holes? — Emmental."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה שירות סטרימינג הפיק את הסדרה הקוריאנית ״משחקי הדיונון״?",
+    "options": [
+      "דיסני פלוס",
+      "אפל טי־וי",
+      "נטפליקס",
+      "אמזון פריים"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which streaming service produced the Korean series \"Squid Game\"? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזו משחה ירוקה וחריפה מוגשת בדרך כלל לצד סושי?",
+    "options": [
+      "סחוג",
+      "חרדל",
+      "פסטו",
+      "ואסאבי"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which green, fiery paste is usually served with sushi? — Wasabi."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה אינסטלטור עם כובע אדום ושפם הוא גיבור משחקי נינטנדו?",
+    "options": [
+      "לואיג׳י",
+      "מריו",
+      "סוניק",
+      "פק־מן"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which plumber in a red cap with a moustache stars in Nintendo games? — Mario (Luigi wears green; Sonic is Sega)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה ענק ירוק גר בביצה ויוצא להציל את הנסיכה פיונה?",
+    "options": [
+      "חמור",
+      "שרק",
+      "נסיך מקסים",
+      "פינוקיו"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which green ogre lives in a swamp and sets out to rescue Princess Fiona? — Shrek."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "מי כתב את הספרים על פיפי גרב־ארוך?",
+    "options": [
+      "רואלד דאל",
+      "הנס כריסטיאן אנדרסן",
+      "אניד בלייטון",
+      "אסטריד לינדגרן"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the books about Pippi Longstocking? — Astrid Lindgren."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזו תעלה מחברת בין הים התיכון לים סוף וחוסכת לספינות את ההקפה של אפריקה?",
+    "options": [
+      "תעלת סואץ",
+      "תעלת פנמה",
+      "תעלת קורינתוס",
+      "תעלת קיל"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which canal links the Mediterranean to the Red Sea, sparing ships the trip round Africa? — The Suez Canal."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איך קוראים בכדורסל לקליעה שבה השחקן תוחב את הכדור מלמעלה לתוך הסל?",
+    "options": [
+      "לייאפ",
+      "פאול",
+      "דאנק",
+      "דריבל"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a basket scored by pushing the ball down into the hoop from above called? — A dunk (a layup is a gentle shot off the backboard)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה מצב בטלפון מנתק את הרשתות הסלולריות, ומבקשים להפעיל אותו בהמראה?",
+    "options": [
+      "מצב שקט",
+      "מצב חיסכון",
+      "מצב טיסה",
+      "מצב שינה"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which phone mode cuts the cellular networks and is requested at take-off? — Airplane mode."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה סוג קפה שמו באיטלקית פירושו ״מוכתם״, כי מוסיפים לאספרסו טיפת חלב?",
+    "options": [
+      "מקיאטו",
+      "לאטה",
+      "אמריקנו",
+      "ריסטרטו"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which coffee, whose Italian name means \"stained\", is an espresso with a drop of milk? — Macchiato."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה רכיב במחשב נקרא לעיתים ״המוח״ שלו?",
+    "options": [
+      "מאוורר",
+      "מעבד",
+      "מקלדת",
+      "ספק כוח"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which computer part is often called its \"brain\"? — The processor (CPU)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איך נקראת אמנות קיפול הנייר היפנית?",
+    "options": [
+      "איקבנה",
+      "קליגרפיה",
+      "בונסאי",
+      "אוריגמי"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the Japanese art of paper folding called? — Origami (ikebana is flowers, bonsai is trees)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "בגימטריה ח׳ שווה 8 וי׳ שווה 10. מה ערכה של המילה ״חי״?",
+    "options": [
+      "80",
+      "108",
+      "810",
+      "18"
+    ],
+    "correctIndex": 3,
+    "gloss": "In gematria het=8 and yod=10. What is the value of \"chai\" (alive)? — 18, by adding the two letters."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי כתב את ״אל הציפור״, השיר שנפתח במילים ״שלום רב שובך, ציפור נחמד״?",
+    "options": [
+      "נתן אלתרמן",
+      "חיים נחמן ביאליק",
+      "שאול טשרניחובסקי",
+      "יעקב פיכמן"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote \"El HaTzipor\", opening \"Shalom rav shuvekh, tzipor nehmad\"? — Hayim Nahman Bialik (1891)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "באיזה סגנון אדריכלי בנויים רוב בתי ״העיר הלבנה״ בתל אביב?",
+    "options": [
+      "בארוק",
+      "גותי",
+      "באוהאוס",
+      "רנסנס"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which architectural style are most buildings of Tel Aviv's \"White City\" built? — Bauhaus (International Style)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו תוכנת הודעות ישראלית משנות ה־90 נקראת על שם צליל האותיות שלה, ״איי סיק יו״?",
+    "options": [
+      "ICQ",
+      "MSN",
+      "Skype",
+      "Viber"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which 1990s Israeli messaging program is named for letters that sound like \"I seek you\"? — ICQ (Mirabilis, 1996)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "איזו סדרה ישראלית על משפחה חרדית בשכונת גאולה בירושלים זכתה להצלחה בעולם?",
+    "options": [
+      "שטיסל",
+      "בטיפול",
+      "פאודה",
+      "סרוגים"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Israeli series about a Haredi family in Jerusalem's Geula neighbourhood found worldwide success? — Shtisel."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "טחינה נטחנת מזרעים של איזה צמח?",
+    "options": [
+      "חמנייה",
+      "פשתן",
+      "שומשום",
+      "דלעת"
+    ],
+    "correctIndex": 2,
+    "gloss": "Tahini is ground from the seeds of which plant? — Sesame."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "מי הלחין את האופרה ״חליל הקסם״?",
+    "options": [
+      "רוסיני",
+      "ורדי",
+      "וגנר",
+      "מוצרט"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who composed the opera \"The Magic Flute\"? — Mozart."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה איבר בגוף מפריש אינסולין?",
+    "options": [
+      "כבד",
+      "לבלב",
+      "טחול",
+      "כליה"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which organ secretes insulin? — The pancreas."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איך קוראים בטניס להגשה שהיריב אפילו לא מצליח לגעת בה?",
+    "options": [
+      "סמאש",
+      "אייס",
+      "וולי",
+      "לוב"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is a tennis serve the opponent cannot even touch called? — An ace."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה אל נורדי נושא פטיש ושולט ברעם ובברק?",
+    "options": [
+      "אודין",
+      "לוקי",
+      "פריי",
+      "תור"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norse god wields a hammer and rules thunder and lightning? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "בתור אתה העשירי מההתחלה והחמישי מהסוף. כמה אנשים בתור?",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "12"
+    ],
+    "correctIndex": 0,
+    "gloss": "In a queue you are 10th from the front and 5th from the back; how many people? — 14 (10+5-1; you are counted twice)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזה מדען צרפתי פיתח את החיסון נגד כלבת?",
+    "options": [
+      "אדוארד ג׳נר",
+      "רוברט קוך",
+      "לואי פסטר",
+      "יונס סאלק"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which French scientist developed the rabies vaccine? — Louis Pasteur (1885); Jenner smallpox, Koch German, Salk polio."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "איזו זמרת אמריקאית עמדה מאחורי סיבוב ההופעות ״ארס״, הראשון שהכניס יותר ממיליארד דולר?",
+    "options": [
+      "ביונסה",
+      "אריאנה גרנדה",
+      "טיילור סוויפט",
+      "בריטני ספירס"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which American singer was behind the \"Eras\" tour, the first to gross over a billion dollars? — Taylor Swift."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "באיזה ענף חורף מחליקים אבן כבדה על הקרח ומטאטאים לפניה?",
+    "options": [
+      "קרלינג",
+      "הוקי קרח",
+      "סקלטון",
+      "ביאתלון"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which winter sport is a heavy stone slid over ice while teammates sweep in front of it? — Curling."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "בלוח העברי כותבים ט״ו ולא י״ה. מדוע?",
+    "options": [
+      "י״ה חסר משמעות בגימטריה",
+      "י״ה הוא אחד משמות האל",
+      "ט״ו קצר ונוח יותר לכתיבה",
+      "י״ה נשמע כמו מילה זרה"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why is 15 written tet-vav and not yod-heh? — Yod-heh is a name of God, so it is avoided (likewise 16 is tet-zayin)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי מהזוכים הישראלים בנובל זכה על חקר הריבוזום, מפעל החלבון של התא?",
+    "options": [
+      "אהרן צ׳חנובר",
+      "דן שכטמן",
+      "דניאל כהנמן",
+      "עדה יונת"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Israeli Nobel laureate was honoured for studying the ribosome? — Ada Yonath (Chemistry 2009)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "שבועות חל כשבעה שבועות אחרי פסח, שחל בניסן. באיזה חודש עברי חל שבועות?",
+    "options": [
+      "אייר",
+      "תמוז",
+      "אב",
+      "סיוון"
+    ],
+    "correctIndex": 3,
+    "gloss": "Shavuot falls about seven weeks after Passover (Nisan). In which month? — Sivan (6 Sivan)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "מי כתב את ״הגלגול״, על אדם שמתעורר בבוקר ומגלה שהפך לחרק ענק?",
+    "options": [
+      "תומאס מאן",
+      "פרנץ קפקא",
+      "הרמן הסה",
+      "סטפן צוויג"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote \"The Metamorphosis\", about a man who wakes up as a giant insect? — Franz Kafka."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "באיזו עיר נערכה אולימפיאדת הקיץ של שנת 2000?",
+    "options": [
+      "אתונה",
+      "אטלנטה",
+      "סידני",
+      "ברצלונה"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which city were the 2000 Summer Olympics held? — Sydney (Athens 2004, Atlanta 1996, Barcelona 1992)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי כתב את ״סיפור על אהבה וחושך״, ספר זיכרונות על ירושלים של ילדותו?",
+    "options": [
+      "עמוס עוז",
+      "דויד גרוסמן",
+      "א״ב יהושע",
+      "יורם קניוק"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"A Tale of Love and Darkness\", a memoir of his Jerusalem childhood? — Amos Oz."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "מכפילים את רדיוס העיגול. פי כמה גדל שטחו?",
+    "options": [
+      "פי 4",
+      "פי 2",
+      "פי 3",
+      "פי 8"
+    ],
+    "correctIndex": 0,
+    "gloss": "The radius of a circle is doubled; the area grows by what factor? — 4, since area = pi r squared."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "מי כתב את ״הכוזרי״, דיאלוג בין מלך כוזרי לחכם יהודי?",
+    "options": [
+      "הרמב״ם",
+      "אברהם אבן עזרא",
+      "יהודה הלוי",
+      "שלמה אבן גבירול"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"The Kuzari\", a dialogue between a Khazar king and a Jewish sage? — Judah Halevi (12th century)."
+  }
+]
