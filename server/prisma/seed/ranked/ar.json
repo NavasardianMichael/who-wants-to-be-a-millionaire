@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما الصحراء التي تغطّي معظم شمال أفريقيا العربي من مصر حتى موريتانيا؟",
+    "options": [
+      "الربع الخالي",
+      "النفود",
+      "الصحراء الكبرى",
+      "صحراء سيناء"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which desert covers most of Arab North Africa, from Egypt to Mauritania? — The Sahara (the Rub al-Khali and Nafud are in Arabia)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "نقول «نجّار» لمن يعمل في النجارة و«حدّاد» لمن يعمل في الحديد. فماذا نقول لمن يعمل في الخياطة؟",
+    "options": [
+      "خائط",
+      "مخيط",
+      "خياطة",
+      "خيّاط"
+    ],
+    "correctIndex": 3,
+    "gloss": "Carpenter = najjar, blacksmith = haddad; what is the worker in sewing called? — Khayyat (tailor), same intensive-noun pattern; the others are a needle, the craft, a rare participle."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ بهار يُضاف عادةً إلى القهوة العربية لنكهتها المميزة؟",
+    "options": [
+      "الكمّون",
+      "الفلفل الأسود",
+      "الكركم",
+      "الهيل"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which spice is usually added to Arabic coffee? — Cardamom (al-hayl)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "تُصنع الطحينة بطحن أيّ بذور؟",
+    "options": [
+      "السمسم",
+      "الفول",
+      "العدس",
+      "الحمّص"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tahini is made by grinding which seeds? — Sesame."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ فيتامين يصنعه الجسم حين تتعرّض البشرة لأشعة الشمس؟",
+    "options": [
+      "فيتامين د",
+      "فيتامين ج",
+      "فيتامين أ",
+      "فيتامين ك"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which vitamin does the body make when the skin is exposed to sunlight? — Vitamin D; C comes from food such as citrus."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ هذه الطيور لا يستطيع الطيران؟",
+    "options": [
+      "النورس",
+      "الحمام",
+      "الصقر",
+      "البطريق"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these birds cannot fly? — The penguin."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ رياضة يستعمل فيها الرياضي عصا طويلة ليقفز فوق عارضة مرتفعة؟",
+    "options": [
+      "رمي الرمح",
+      "القفز بالزانة",
+      "الوثب الطويل",
+      "رمي القرص"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sport uses a long pole to vault over a high bar? — Pole vault."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في أيّ دولة عربية أُقيمت بطولة كأس العالم لكرة القدم عام 2022؟",
+    "options": [
+      "قطر",
+      "الإمارات",
+      "السعودية",
+      "الكويت"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Arab country was the 2022 football World Cup held? — Qatar."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ منصّة فيديو شهيرة شعارها زرّ تشغيل أحمر؟",
+    "options": [
+      "فيسبوك",
+      "يوتيوب",
+      "واتساب",
+      "تيك توك"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which popular video platform has a red play button as its logo? — YouTube."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ بحر يفصل السعودية عن السودان؟",
+    "options": [
+      "المتوسط",
+      "العربي",
+      "الأسود",
+      "الأحمر"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sea separates Saudi Arabia from Sudan? — The Red Sea."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ كتابة قديمة تُرى بالرموز المصوّرة على جدران المعابد المصرية؟",
+    "options": [
+      "المسمارية",
+      "اللاتينية",
+      "الهيروغليفية",
+      "السنسكريتية"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which ancient script of picture signs covers the walls of Egyptian temples? — Hieroglyphs (cuneiform is Mesopotamian)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما الآلة الوترية العربية ذات الجسم الكمثري التي يُعزف عليها بالريشة؟",
+    "options": [
+      "العود",
+      "الناي",
+      "القانون",
+      "الطبلة"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Arabic stringed instrument with a pear-shaped body is played with a plectrum? — The oud."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ عيد يُحتفل به في العاشر من ذي الحجة؟",
+    "options": [
+      "عيد الفطر",
+      "المولد النبوي",
+      "عيد الأضحى",
+      "رأس السنة الهجرية"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which festival is celebrated on the 10th of Dhu al-Hijjah? — Eid al-Adha."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ محيط يفصل أفريقيا عن الأمريكتين؟",
+    "options": [
+      "الهندي",
+      "الهادئ",
+      "المتجمد الشمالي",
+      "الأطلسي"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ocean separates Africa from the Americas? — The Atlantic."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما اسم الزخرفة النباتية والهندسية المتشابكة المشهورة في الفن الإسلامي؟",
+    "options": [
+      "الباروك",
+      "الأرابيسك",
+      "التكعيبية",
+      "الواقعية"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the famous interlaced floral and geometric ornament of Islamic art called? — Arabesque."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "في حساب الجمل تساوي الألف 1 والباء 2 والجيم 3 والدال 4. فكم تساوي كلمة «باب»؟",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "gloss": "In abjad numerals alif = 1, ba = 2, jim = 3, dal = 4. What is the word bab (door) worth? — 2 + 1 + 2 = 5."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في المسلسل الكرتوني «كابتن ماجد» الذي كبر عليه جيل عربي، ما الرياضة التي يلعبها بطله؟",
+    "options": [
+      "كرة السلة",
+      "التنس",
+      "البيسبول",
+      "كرة القدم"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the cartoon Captain Majid that a generation of Arabs grew up on, which sport does the hero play? — Football (Japanese baseball is the trap)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في أيّ لعبة يبني اللاعبون عوالم كاملة من مكعّبات؟",
+    "options": [
+      "تيتريس",
+      "فيفا",
+      "كاندي كراش",
+      "ماينكرافت"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which game do players build whole worlds from blocks? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في الأساطير الإغريقية، من هو كبير الآلهة وسيّد جبل الأولمب؟",
+    "options": [
+      "زيوس",
+      "أبولو",
+      "بوسيدون",
+      "أريس"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Greek myth, who is the king of the gods on Mount Olympus? — Zeus."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ بحّار من حكايات «ألف ليلة وليلة» قام بسبع رحلات؟",
+    "options": [
+      "علاء الدين",
+      "علي بابا",
+      "السندباد",
+      "جحا"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sailor in the Thousand and One Nights made seven voyages? — Sinbad."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "على نمط «مكتبة» (مكان الكتب) و«مطبخ» (مكان الطبخ)، ما كلمة «مكان الزرع»؟",
+    "options": [
+      "مزرعة",
+      "زارع",
+      "زراعة",
+      "مزروع"
+    ],
+    "correctIndex": 0,
+    "gloss": "Following the pattern maktaba (place of books) and matbakh (place of cooking), what is the place of planting? — Mazra'a (farm); the other options are farmer, farming, planted."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أكمل المثل: «في التأنّي السلامة وفي العجلة ...»",
+    "options": [
+      "الفرح",
+      "الندامة",
+      "الراحة",
+      "الربح"
+    ],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: \"In patience there is safety, and in haste there is...\" — Regret (al-nadama)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ جملة صحيحة في الفصحى؟",
+    "options": [
+      "الكتب مفيدون",
+      "الكتب مفيدين",
+      "الكتب مفيدة",
+      "الكتب مفيد"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sentence is correct in Standard Arabic? — Al-kutub mufida: a plural of a non-human noun takes a feminine singular adjective."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "كم نقطة في مجموع حروف كلمة «ثمن»؟",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many dots are there in total in the word thaman? — tha has 3, mim 0, nun 1: 4."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ هذه المعادن ينجذب إلى المغناطيس؟",
+    "options": [
+      "الذهب",
+      "الألمنيوم",
+      "الحديد",
+      "النحاس"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these metals is attracted to a magnet? — Iron."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ اختراع يُنسب إلى الأخوين رايت؟",
+    "options": [
+      "السيارة",
+      "الهاتف",
+      "الغسّالة",
+      "الطائرة"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which invention is credited to the Wright brothers? — The aeroplane."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما الغذاء الأساسي للباندا العملاقة؟",
+    "options": [
+      "الأسماك",
+      "الخيزران",
+      "الفواكه",
+      "العسل"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the main food of the giant panda? — Bamboo."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما اللعبة التي تُلعب بالنرد والحجارة على لوح خشبي مزخرف وتُرى كثيراً في المقاهي العربية؟",
+    "options": [
+      "الطاولة",
+      "الشطرنج",
+      "الدومينو",
+      "الورق"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which game played with dice and pieces on a decorated wooden board is common in Arab cafés? — Tawla (backgammon)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما الطبق المصري الشعبي من الأرز والعدس والمعكرونة والبصل المقلي؟",
+    "options": [
+      "الملوخية",
+      "المحشي",
+      "الفتّة",
+      "الكشري"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which popular Egyptian dish combines rice, lentils, pasta and fried onion? — Koshari."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ أديب مصري صاحب سيرة «الأيام» لُقّب بـ«عميد الأدب العربي»؟",
+    "options": [
+      "توفيق الحكيم",
+      "عباس العقاد",
+      "طه حسين",
+      "مصطفى المنفلوطي"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Egyptian writer of the autobiography \"Al-Ayyam\" was called the Dean of Arabic Literature? — Taha Hussein."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ هذه الأسماء مؤنّث مع أنه لا ينتهي بتاء مربوطة؟",
+    "options": [
+      "شمس",
+      "قمر",
+      "بحر",
+      "نهر"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these nouns is feminine although it has no ta marbuta? — Shams (sun); qamar, bahr and nahr are masculine."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "أيّ هذه الكلمات ليست من جذر «ك ت ب»؟",
+    "options": [
+      "كاتب",
+      "كلب",
+      "مكتوب",
+      "مكتبة"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word is not from the root k-t-b? — Kalb (dog), root k-l-b; it only looks similar."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "نرى البرق قبل أن نسمع الرعد مع أنهما يحدثان معاً. لماذا؟",
+    "options": [
+      "الصوت أسرع من الضوء",
+      "العين أسرع من الأذن",
+      "الضوء أسرع من الصوت",
+      "الرعد أضعف من البرق"
+    ],
+    "correctIndex": 2,
+    "gloss": "We see lightning before hearing thunder though they occur together. Why? — Light travels much faster than sound."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "على أيّ نهر تقع مدينة بغداد؟",
+    "options": [
+      "الفرات",
+      "النيل",
+      "العاصي",
+      "دجلة"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which river does Baghdad lie? — The Tigris (Dijla)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ دولة أطلقت أول قمر اصطناعي إلى مدار الأرض عام 1957؟",
+    "options": [
+      "الاتحاد السوفييتي",
+      "الولايات المتحدة",
+      "الصين",
+      "بريطانيا"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country launched the first artificial satellite in 1957? — The Soviet Union (Sputnik 1)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما الرقصة الشعبية الشامية التي يصطفّ فيها الراقصون متشابكي الأيدي ويضربون الأرض بأقدامهم؟",
+    "options": [
+      "السامري",
+      "الدبكة",
+      "العرضة",
+      "التنّورة"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Levantine folk dance has dancers in a line, hands linked, stamping their feet? — Dabke."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "من المطرب المصري الملقّب بـ«العندليب الأسمر»؟",
+    "options": [
+      "محمد عبد الوهاب",
+      "فريد الأطرش",
+      "عبد الحليم حافظ",
+      "محمد فوزي"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Egyptian singer was nicknamed the Brown Nightingale? — Abdel Halim Hafez."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ رياضة تُقام في بطولة ويمبلدون العريقة؟",
+    "options": [
+      "الغولف",
+      "الكريكت",
+      "الرجبي",
+      "التنس"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sport is played at the Wimbledon championships? — Tennis."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "من الفنان الهولندي الذي رسم لوحة «ليلة النجوم»؟",
+    "options": [
+      "مونيه",
+      "فان غوخ",
+      "سيزان",
+      "دالي"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who painted The Starry Night? — Vincent van Gogh (Dutch; Monet, Cezanne and Dali are the other options)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ ممثل مصري يُلقَّب بـ«الزعيم»؟",
+    "options": [
+      "أحمد زكي",
+      "عادل إمام",
+      "يحيى الفخراني",
+      "نور الشريف"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Egyptian actor is nicknamed \"the Zaeem\" (the Leader)? — Adel Imam."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ جهاز يحوّل الأوراق والصور إلى ملفات رقمية؟",
+    "options": [
+      "الطابعة",
+      "الشاشة",
+      "الفأرة",
+      "الماسح الضوئي"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which device turns paper and photos into digital files? — The scanner."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ هذه الحيوانات ينام معلّقاً ورأسه إلى أسفل؟",
+    "options": [
+      "الصقر",
+      "الغزال",
+      "الخفّاش",
+      "السنجاب"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these animals sleeps hanging head-down? — The bat."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "في الفصحى يخالف العدد من ثلاثة إلى عشرة معدوده في التذكير والتأنيث. فأيّ عبارة صحيحة؟",
+    "options": [
+      "ثلاث كتب",
+      "ثلاثة أقلام",
+      "ثلاثة بنات",
+      "ثلاث رجال"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Standard Arabic, numbers 3-10 take the opposite gender of the counted noun. Which phrase is correct? — \"Three pens\" (qalam is masculine, so thalatha aqlam)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ شعب بنى مدينة البتراء الوردية في الأردن؟",
+    "options": [
+      "الأنباط",
+      "الفراعنة",
+      "الفينيقيون",
+      "الآشوريون"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which people built the rose-red city of Petra in Jordan? — The Nabataeans."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ عالم عربي ألّف «كتاب المناظر» ويُلقَّب بأبي البصريات؟",
+    "options": [
+      "ابن سينا",
+      "الرازي",
+      "ابن الهيثم",
+      "البيروني"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Arab scholar wrote the Book of Optics and is called the father of optics? — Ibn al-Haytham."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في أيّ دولة يقع جبل كليمنجارو؟",
+    "options": [
+      "كينيا",
+      "أوغندا",
+      "إثيوبيا",
+      "تنزانيا"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country is Mount Kilimanjaro? — Tanzania (Kenya is the trap)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ هذه الدول العربية ليس لها حدود برّية مع أيّ دولة أخرى؟",
+    "options": [
+      "البحرين",
+      "قطر",
+      "عُمان",
+      "الكويت"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these Arab countries has no land border with any other country? — Bahrain (an island); Qatar, Oman and Kuwait all have land borders."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما الغاز الأكثر وفرة في هواء الغلاف الجوي للأرض؟",
+    "options": [
+      "الأكسجين",
+      "النيتروجين",
+      "ثاني أكسيد الكربون",
+      "الأرغون"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which gas is the most abundant in Earth's air? — Nitrogen, about 78% (oxygen is about 21%)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "من ألّف كتاب «الأغاني» الذي جمع فيه الشعر والألحان والأخبار؟",
+    "options": [
+      "أبو الفرج الأصفهاني",
+      "الجاحظ",
+      "المسعودي",
+      "ابن قتيبة"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who compiled the Book of Songs (Kitab al-Aghani) of poetry, melodies and anecdotes? — Abu al-Faraj al-Isfahani (10th century)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ نجم هو الأقرب إلى الأرض بعد الشمس؟",
+    "options": [
+      "الشعرى اليمانية",
+      "قلب العقرب",
+      "بروكسيما القنطور",
+      "منكب الجوزاء"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which star is closest to Earth after the Sun? — Proxima Centauri (Sirius, Antares and Betelgeuse are farther)."
+  }
+]

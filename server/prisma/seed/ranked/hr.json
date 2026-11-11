@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koja rijeka teče pokraj Zagreba?",
+    "options": [
+      "Sava",
+      "Drava",
+      "Kupa",
+      "Una"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river flows past Zagreb? — The Sava, along the south of the city."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kako se zove jelo od listova kiselog kupusa zamotanih oko mljevenog mesa i riže?",
+    "options": [
+      "Štrukli",
+      "Burek",
+      "Ćevapi",
+      "Sarma"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the dish of sour-cabbage leaves wrapped around minced meat and rice called? — Sarma."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako se zove mladunče žabe dok još živi u vodi i ima rep?",
+    "options": [
+      "Kukuljica",
+      "Mlađ",
+      "Punoglavac",
+      "Gusjenica"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a young frog with a tail, still living in water, called? — A tadpole (punoglavac); mlađ is fish fry, kukuljica a pupa."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji plemeniti plin svijetli crvenonarančasto u staklenim cijevima svjetlećih reklama?",
+    "options": [
+      "Argon",
+      "Helij",
+      "Kripton",
+      "Neon"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which noble gas glows red-orange in the glass tubes of illuminated signs? — Neon; other colours come from argon, helium and others, but the classic red-orange glow is neon."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja od ovih riječi postoji samo u množini?",
+    "options": [
+      "Prozor",
+      "Zid",
+      "Vrata",
+      "Krov"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words exists only in the plural? — Vrata (door), a plurale tantum; the others have singulars."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja je od ovih riječi uvećanica od „kuća”?",
+    "options": [
+      "Kućerina",
+      "Kućica",
+      "Kućanstvo",
+      "Kućni"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these is the augmentative of \"kuća\" (house)? — Kućerina (-erina makes a big house); kućica is the diminutive, kućanstvo household, kućni an adjective."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tko je 2018. kao prvi Hrvat osvojio Zlatnu loptu za najboljeg nogometaša svijeta?",
+    "options": [
+      "Ivan Rakitić",
+      "Mario Mandžukić",
+      "Ivan Perišić",
+      "Luka Modrić"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who in 2018 became the first Croat to win the Ballon d'Or? — Luka Modrić."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je geometrijski uzorak glavno obilježje hrvatskog grba i zastave?",
+    "options": [
+      "Šahovnica",
+      "Križ",
+      "Trokut",
+      "Kružnica"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which geometric pattern is the main feature of the Croatian coat of arms and flag? — The checkerboard (šahovnica)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koliko žica ima klasična gitara?",
+    "options": [
+      "Šest",
+      "Četiri",
+      "Pet",
+      "Osam"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many strings does a classical guitar have? — Six."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji Shakespeareov junak izgovara riječi „Biti ili ne biti”?",
+    "options": [
+      "Otelo",
+      "Hamlet",
+      "Macbeth",
+      "Romeo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Shakespeare hero says 'To be or not to be'? — Hamlet."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kako se zove genijalni profesor iz poznate crtane serije zagrebačke škole animacije, čiji izumi rješavaju svaki problem?",
+    "options": [
+      "Melkior",
+      "Gašpar",
+      "Baltazar",
+      "Tobija"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the genius professor of the famous Zagreb School of Animation series whose inventions solve every problem called? — Professor Baltazar; Melkior and Gašpar are his fellow Magi, as distractors."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako se zove tražilica čije je ime dalo glagol „guglati”?",
+    "options": [
+      "Yahoo",
+      "Bing",
+      "Google",
+      "Ask"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which search engine's name gave the verb 'guglati' (to google)? — Google."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji grčki bog mora nosi trozubac?",
+    "options": [
+      "Zeus",
+      "Had",
+      "Posejdon",
+      "Ares"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Greek god of the sea carries a trident? — Poseidon."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "U kojoj se videoigri kopa i gradi u svijetu od kocki, a od eksplozivnih creepera se bježi?",
+    "options": [
+      "Minecraft",
+      "Tetris",
+      "Fortnite",
+      "Roblox"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which video game do you dig and build in a world of blocks while fleeing exploding creepers? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je renesansni umjetnik oslikao strop Sikstinske kapele u Vatikanu?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Rafael",
+      "Botticelli"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Renaissance artist painted the ceiling of the Sistine Chapel? — Michelangelo."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "U kojem se moru gotovo ne može potonuti jer je voda iznimno slana?",
+    "options": [
+      "Crvenom moru",
+      "Crnom moru",
+      "Mrtvom moru",
+      "Sredozemnom moru"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which sea can you hardly sink because the water is so salty? — The Dead Sea."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "U kojem se istarskom gradu nalazi dobro očuvan rimski amfiteatar, Arena?",
+    "options": [
+      "Rovinj",
+      "Poreč",
+      "Umag",
+      "Pula"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which Istrian town stands the well-preserved Roman amphitheatre, the Arena? — Pula."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je Gutenbergov izum iz 15. stoljeća omogućio brzo umnožavanje knjiga?",
+    "options": [
+      "Tiskarski stroj",
+      "Parni stroj",
+      "Teleskop",
+      "Kompas"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which invention of Gutenberg's in the 15th century allowed books to be copied quickly? — The printing press (movable type)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji hrvatski otok daje ime poznatom ovčjem siru, kojem sol i vjetar daju posebnu aromu?",
+    "options": [
+      "Hvar",
+      "Pag",
+      "Vis",
+      "Lastovo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Croatian island gives its name to the famous sheep's cheese flavoured by salt and wind? — Pag (paški sir)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Od čega se peče licitarsko srce, crveni ukras kakav se kupuje na hrvatskim sajmovima?",
+    "options": [
+      "Marcipana",
+      "Lisnatog tijesta",
+      "Kvasnog tijesta",
+      "Medenog tijesta"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the licitar heart, the red fair ornament, baked from? — Honey dough."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji se žičani instrument smatra glazbenim simbolom Slavonije?",
+    "options": [
+      "Harfa",
+      "Lauta",
+      "Mandolina",
+      "Tamburica"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which string instrument is regarded as the musical symbol of Slavonia? — The tamburica."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pasmina bijelih pasa s crnim pjegama, junaka poznatog Disneyjeva crtića, nosi ime po kojoj hrvatskoj pokrajini?",
+    "options": [
+      "Istri",
+      "Slavoniji",
+      "Dalmaciji",
+      "Lici"
+    ],
+    "correctIndex": 2,
+    "gloss": "The white dogs with black spots, heroes of a famous Disney cartoon, are named after which Croatian region? — Dalmatia."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako se zove škola čarobnjaštva koju pohađa Harry Potter?",
+    "options": [
+      "Durmstrang",
+      "Hogwarts",
+      "Beauxbatons",
+      "Narnija"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the school of wizardry Harry Potter attends? — Hogwarts (so named in the Croatian translation too). Durmstrang and Beauxbatons are rival schools; Narnia is from another series."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja se od ovih riječi čita jednako s lijeva na desno i zdesna nalijevo?",
+    "options": [
+      "Nos",
+      "Uho",
+      "Usta",
+      "Oko"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which word reads the same forwards and backwards? — Oko (eye), a palindrome."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hodaš prema sjeveru, pa skreneš pod pravim kutom ulijevo. U kojem sada smjeru ideš?",
+    "options": [
+      "Istok",
+      "Jug",
+      "Sjever",
+      "Zapad"
+    ],
+    "correctIndex": 3,
+    "gloss": "You walk north, then turn left at a right angle. Which way are you going now? — West."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Prema sastavu riječi „zrakoplov”, što on čini kroz zrak?",
+    "options": [
+      "Roni",
+      "Gmiže",
+      "Plovi",
+      "Skače"
+    ],
+    "correctIndex": 2,
+    "gloss": "By the way the word zrakoplov (aeroplane) is built, what does it do through the air? — It sails (zrak + plov-)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koje je boje majica koju nosi ukupni predvodnik biciklističke utrke Tour de France?",
+    "options": [
+      "Zelena",
+      "Žuta",
+      "Crvena",
+      "Plava"
+    ],
+    "correctIndex": 1,
+    "gloss": "What colour is the jersey worn by the overall leader of the Tour de France? — Yellow."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je rimski car, rodom iz Dalmacije, dao sagraditi golemu palaču u današnjem Splitu?",
+    "options": [
+      "Konstantin",
+      "Dioklecijan",
+      "Neron",
+      "August"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Roman emperor, born in Dalmatia, built a huge palace in today's Split? — Diocletian."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je hrvatski književnik napisao dramski ciklus o obitelji Glembay?",
+    "options": [
+      "Miroslav Krleža",
+      "Antun Gustav Matoš",
+      "Vladimir Nazor",
+      "Tin Ujević"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Croatian writer wrote the drama cycle about the Glembay family? — Miroslav Krleža."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "U kojem se hrvatskom narječju „što” kaže „ča”?",
+    "options": [
+      "Kajkavskom",
+      "Čakavskom",
+      "Štokavskom",
+      "Slavonskom"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which Croatian dialect is 'what' said 'ča'? — Chakavian."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zagreb je nastao od dvaju srednjovjekovnih naselja na susjednim brežuljcima: Gradeca i kojeg drugog?",
+    "options": [
+      "Kaptola",
+      "Trešnjevke",
+      "Dubrave",
+      "Peščenice"
+    ],
+    "correctIndex": 0,
+    "gloss": "Zagreb grew from two medieval settlements on neighbouring hills: Gradec and which other? — Kaptol."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je kemijski simbol zlata?",
+    "options": [
+      "Ag",
+      "Fe",
+      "Pt",
+      "Au"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the chemical symbol for gold? — Au, from Latin aurum."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja je riječ složena od naziva prvih dvaju slova staroslavenskih pisama, „az” i „buki”?",
+    "options": [
+      "Azbuka",
+      "Abeceda",
+      "Alfabet",
+      "Bukvar"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word is built from the names of the first two letters, 'az' and 'buki'? — Azbuka; alfabet is alpha+beta, abeceda a-b-c-d."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koji je od ovih glagola svršenog vida?",
+    "options": [
+      "Pisati",
+      "Čitati",
+      "Napisati",
+      "Gledati"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these verbs is perfective? — Napisati: the prefix na- makes a completed action; pisati, čitati and gledati are imperfective."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "U rečenici „Ivan čita knjigu” u kojem je padežu riječ „knjigu”?",
+    "options": [
+      "Nominativu",
+      "Dativu",
+      "Vokativu",
+      "Akuzativu"
+    ],
+    "correctIndex": 3,
+    "gloss": "In 'Ivan čita knjigu' (Ivan reads a book), in which case is 'knjigu'? — Accusative: it answers 'koga? što?'."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji se sport sastoji od plivanja, vožnje biciklom i trčanja?",
+    "options": [
+      "Biatlon",
+      "Triatlon",
+      "Pentatlon",
+      "Dekatlon"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sport consists of swimming, cycling and running? — Triathlon."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je američki poduzetnik 1975. s Paulom Allenom osnovao Microsoft?",
+    "options": [
+      "Steve Jobs",
+      "Mark Zuckerberg",
+      "Bill Gates",
+      "Elon Musk"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which American entrepreneur founded Microsoft with Paul Allen in 1975? — Bill Gates."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je skladatelj napisao glazbu za „Odu radosti”, zbor iz završetka Devete simfonije?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Franz Schubert"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which composer wrote the music of the 'Ode to Joy', the chorus ending the Ninth Symphony? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je grad u Dalmatinskoj zagori poznat po viteškoj igri alki, upisanoj na UNESCO-ov popis nematerijalne baštine?",
+    "options": [
+      "Sinj",
+      "Knin",
+      "Imotski",
+      "Makarska"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which town in the Dalmatian hinterland is known for the knightly game of the alka, on UNESCO's intangible heritage list? — Sinj."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je pisac stvorio detektiva Sherlocka Holmesa?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe",
+      "Charles Dickens"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which author created the detective Sherlock Holmes? — Arthur Conan Doyle."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tko je režirao filmove „Titanic” i „Avatar”?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott",
+      "Christopher Nolan"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who directed the films Titanic and Avatar? — James Cameron."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je glavni sastojak humusa, namaza s Bliskog istoka?",
+    "options": [
+      "Leća",
+      "Grah",
+      "Grašak",
+      "Slanutak"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the main ingredient of hummus, the Middle Eastern spread? — Chickpeas (slanutak)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je Vukovarac 1939. dobio Nobelovu nagradu za kemiju?",
+    "options": [
+      "Vladimir Prelog",
+      "Nikola Tesla",
+      "Leopold Ružička",
+      "Slavoljub Penkala"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which native of Vukovar won the 1939 Nobel Prize in Chemistry? — Leopold Ružička; Prelog (1975) was born in Sarajevo."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Koliko je 15 posto od 60?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is 15 per cent of 60? — 9 (6 + 3)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koji plin čini otprilike četiri petine zraka koji udišemo?",
+    "options": [
+      "Dušik",
+      "Kisik",
+      "Argon",
+      "Ugljikov dioksid"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas makes up roughly four fifths of the air we breathe? — Nitrogen (about 78%)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "U kojem se gradu rijeka Kupa ulijeva u Savu?",
+    "options": [
+      "Karlovac",
+      "Slavonski Brod",
+      "Osijek",
+      "Sisak"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which town does the Kupa flow into the Sava? — Sisak."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je animirani film Dušana Vukotića 1962. dobio Oscara?",
+    "options": [
+      "Igra",
+      "Surogat",
+      "Samac",
+      "Inspektor se vratio kući"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animated film by Dušan Vukotić won an Oscar in 1962? — Surogat (Ersatz), the first non-American Oscar-winning animation."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bašćanska ploča, spomenik pisan glagoljicom oko 1100. godine, pronađena je u crkvi na kojem otoku?",
+    "options": [
+      "Rab",
+      "Krk",
+      "Cres",
+      "Pag"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Baška tablet, a Glagolitic monument from around 1100, was found in a church on which island? — Krk."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tko je projektirao kupolu firentinske katedrale Santa Maria del Fiore, podignutu u 15. stoljeću?",
+    "options": [
+      "Leon Battista Alberti",
+      "Filippo Brunelleschi",
+      "Donato Bramante",
+      "Giotto"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who designed the dome of Florence cathedral, built in the 15th century? — Filippo Brunelleschi; Giotto began the campanile."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je skladatelj napisao „Ljubav i zloba”, prvu hrvatsku operu, praizvedenu 1846.?",
+    "options": [
+      "Vatroslav Lisinski",
+      "Ivan Zajc",
+      "Jakov Gotovac",
+      "Blagoje Bersa"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which composer wrote 'Love and Malice', the first Croatian opera, premiered in 1846? — Vatroslav Lisinski."
+  }
+]

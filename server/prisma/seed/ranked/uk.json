@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Яке з цих слів в українській мові вживається лише у множині?",
+    "options": [
+      "Штани",
+      "Спідниця",
+      "Сорочка",
+      "Куртка"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words is used only in the plural in Ukrainian? — Штани (trousers), a plural-only noun; the others have a singular."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який святковий хліб українці печуть на Великдень і несуть освячувати до церкви?",
+    "options": [
+      "Коровай",
+      "Калач",
+      "Пампушка",
+      "Паска"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which festive bread do Ukrainians bake for Easter and take to church to be blessed? — Paska; the korovai is the wedding loaf."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто з українських письменників написав казку у віршах «Лис Микита»?",
+    "options": [
+      "Леся Українка",
+      "Іван Котляревський",
+      "Іван Франко",
+      "Панас Мирний"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Ukrainian writer wrote the fairy tale in verse \"Fox Mykyta\"? — Ivan Franko (1890)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На березі якого моря стоїть Одеса?",
+    "options": [
+      "Азовського",
+      "Чорного",
+      "Балтійського",
+      "Білого"
+    ],
+    "correctIndex": 1,
+    "gloss": "On the shore of which sea does Odesa stand? — The Black Sea."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка речовина робить нашу кров червоною?",
+    "options": [
+      "Хлорофіл",
+      "Гемоглобін",
+      "Інсулін",
+      "Адреналін"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which substance makes our blood red? — Haemoglobin, the iron-containing protein in red blood cells; chlorophyll is the green pigment of plants."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яку картку показує футбольний арбітр, видаляючи гравця з поля?",
+    "options": [
+      "Червону",
+      "Жовту",
+      "Зелену",
+      "Білу"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which card does a football referee show to send a player off? — Red."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яка українська страва — це листки капусти, загорнуті навколо начинки з м'яса й рису?",
+    "options": [
+      "Деруни",
+      "Налисники",
+      "Пампушки",
+      "Голубці"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Ukrainian dish is cabbage leaves wrapped around a filling of meat and rice? — Holubtsi (cabbage rolls)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який гурт із Ліверпуля заспівав «Yesterday» і «Let It Be»?",
+    "options": [
+      "Квін",
+      "АББА",
+      "Бітлз",
+      "Роллінг Стоунз"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which band from Liverpool sang \"Yesterday\" and \"Let It Be\"? — The Beatles."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Мармурового «Давида» у Флоренції створив майстер, який розписав і Сикстинську капелу. Хто він?",
+    "options": [
+      "Рафаель",
+      "Донателло",
+      "Мікеланджело",
+      "Берніні"
+    ],
+    "correctIndex": 2,
+    "gloss": "The marble \"David\" in Florence was made by the master who also painted the Sistine Chapel; who is he? — Michelangelo; Raphael, Donatello and Bernini are other Italian artists."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Фільм 1961 року про Свирида Голохвастого й Проню Прокопівну знято за п'єсою Старицького. Як він називається?",
+    "options": [
+      "«Наталка Полтавка»",
+      "«За двома зайцями»",
+      "«Сорочинський ярмарок»",
+      "«Сватання на Гончарівці»"
+    ],
+    "correctIndex": 1,
+    "gloss": "The 1961 film about Svyryd Holokhvastyi and Pronia Prokopivna is based on Starytsky's play; what is it called? — \"Chasing Two Hares\" (За двома зайцями); the others are other Ukrainian classics."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який символ, що українською жартома звуть «равликом», стоїть в усіх адресах електронної пошти?",
+    "options": [
+      "@",
+      "#",
+      "&",
+      "%"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which symbol, jokingly called the \"snail\" in Ukrainian, is in every email address? — @."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "На базарі яйця продають десятками. Скільки яєць у трьох з половиною десятках?",
+    "options": [
+      "30",
+      "33",
+      "40",
+      "35"
+    ],
+    "correctIndex": 3,
+    "gloss": "Eggs are sold by the ten at the market; how many eggs in three and a half tens? — 35: 3 x 10 + 5."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який птах відомий тим, що підкидає свої яйця в чужі гнізда?",
+    "options": [
+      "Сорока",
+      "Ворона",
+      "Лелека",
+      "Зозуля"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird is known for laying its eggs in other birds' nests? — The cuckoo (brood parasite)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто, за українськими повір'ями, живе в оселі й береже її, часто ховаючись за піччю?",
+    "options": [
+      "Лісовик",
+      "Водяник",
+      "Домовик",
+      "Мавка"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who, in Ukrainian folk belief, lives in the house and guards it, often hiding behind the stove? — The domovyk (house spirit); the others live in forest or water."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У якій грі гравці будують із кубиків домівки, добувають ресурси й борються із зомбі?",
+    "options": [
+      "Фортнайт",
+      "Майнкрафт",
+      "Тетріс",
+      "Сімс"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which game do players build homes from blocks, mine resources and fight zombies? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто в XV столітті винайшов у Європі друкарський верстат із рухомими літерами?",
+    "options": [
+      "Йоганн Гутенберг",
+      "Іван Федоров",
+      "Леонардо да Вінчі",
+      "Мартін Лютер"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who invented the movable-type printing press in 15th-century Europe? — Johannes Gutenberg; Ivan Fedorov printed the first book in Ukraine in 1574, later."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яку європейську країну прославили фіорди — вузькі морські затоки між високими скелями?",
+    "options": [
+      "Норвегію",
+      "Нідерланди",
+      "Швейцарію",
+      "Грецію"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which European country is famous for fjords, narrow sea inlets between high cliffs? — Norway."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кінь — коня, стіл — стола: «і» стає «о». Яке з цих слів у родовому відмінку зберігає «і»?",
+    "options": [
+      "Міст",
+      "Ніч",
+      "Віл",
+      "Ліс"
+    ],
+    "correctIndex": 3,
+    "gloss": "Horse - horse's, table - table's: \"i\" turns into \"o\". Which of these words keeps \"i\" in the genitive? — Ліс (лісу); міст-моста, ніч-ночі, віл-вола all alternate."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Який газ рослини поглинають із повітря під час фотосинтезу?",
+    "options": [
+      "Кисень",
+      "Азот",
+      "Вуглекислий газ",
+      "Водень"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which gas do plants take from the air in photosynthesis? — Carbon dioxide; oxygen is what they release."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Які німецькі брати зібрали казки про Білосніжку, Попелюшку й Червону Шапочку?",
+    "options": [
+      "Брати Люм'єр",
+      "Брати Грімм",
+      "Брати Вачовскі",
+      "Брати Стругацькі"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which German brothers collected the tales of Snow White, Cinderella and Little Red Riding Hood? — The Brothers Grimm."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який напій із сушених фруктів обов'язково ставлять на Святвечір поруч із кутею?",
+    "options": [
+      "Квас",
+      "Узвар",
+      "Кисіль",
+      "Сироватка"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which dried-fruit drink is always served on Christmas Eve next to kutia? — Uzvar."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У якому виді спорту чемпіонами світу стали брати Віталій і Володимир Кличко?",
+    "options": [
+      "Бокс",
+      "Біатлон",
+      "Теніс",
+      "Шахи"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did the brothers Vitaliy and Volodymyr Klitschko become world champions? — Boxing."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Як називали вільних воїнів, що жили за дніпровськими порогами й мали Січ?",
+    "options": [
+      "Чумаки",
+      "Опришки",
+      "Гусари",
+      "Козаки"
+    ],
+    "correctIndex": 3,
+    "gloss": "What were the free warriors beyond the Dnipro rapids, with their Sich, called? — Cossacks; chumaks were salt traders, oprychky Carpathian outlaws."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яке слово пропущено в прислів'ї: «Тиха вода греблі …»?",
+    "options": [
+      "миє",
+      "гріє",
+      "рве",
+      "береже"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word is missing in the proverb \"Still water ... the dam\"? — рве (breaks): «Тиха вода греблі рве»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який колір на українському прапорі розташований угорі?",
+    "options": [
+      "Жовтий",
+      "Зелений",
+      "Синій",
+      "Червоний"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which colour is at the top of the Ukrainian flag? — Blue (sky over a yellow wheat field)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яку червону ягоду українці в піснях оспівують як символ України?",
+    "options": [
+      "Малина",
+      "Калина",
+      "Ожина",
+      "Смородина"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which red berry do Ukrainians sing of as a symbol of Ukraine? — Kalyna (viburnum): «Ой у лузі червона калина»."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яким рідким металом наповнювали старі градусники?",
+    "options": [
+      "Ртуттю",
+      "Свинцем",
+      "Оловом",
+      "Сріблом"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which liquid metal filled old thermometers? — Mercury (the only common metal liquid at room temperature)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто з героїв давньогрецьких міфів викрав для людей вогонь у богів?",
+    "options": [
+      "Орфей",
+      "Геракл",
+      "Одіссей",
+      "Прометей"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which hero of Greek myth stole fire from the gods for people? — Prometheus."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яка мелодія Миколи Леонтовича відома в усьому світі як різдвяна «Carol of the Bells»?",
+    "options": [
+      "Нова радість стала",
+      "Ніч яка місячна",
+      "Дивлюсь я на небо",
+      "Щедрик"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Mykola Leontovych melody is known worldwide as the Christmas \"Carol of the Bells\"? — Shchedryk (1916 arrangement of a folk chant)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яка співачка здобула першу для України перемогу на «Євробаченні» 2004 року?",
+    "options": [
+      "Джамала",
+      "Ані Лорак",
+      "Руслана",
+      "Світлана Лобода"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which singer won Ukraine's first Eurovision victory, in 2004? — Ruslana with \"Wild Dances\"."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який гуцульський духовий інструмент — довга дерев'яна труба завдовжки кілька метрів?",
+    "options": [
+      "Сопілка",
+      "Трембіта",
+      "Флояра",
+      "Дудка"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Hutsul wind instrument is a long wooden horn several metres long? — The trembita; the others are short pipes."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який український футболіст у 2004 році здобув «Золотий м'яч» найкращого гравця Європи?",
+    "options": [
+      "Андрій Шевченко",
+      "Олег Блохін",
+      "Андрій Воронін",
+      "Руслан Ротань"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Ukrainian footballer won the Ballon d'Or in 2004? — Andriy Shevchenko; Blokhin won it in 1975."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка річка тече через Вічне місто — Рим?",
+    "options": [
+      "Тібр",
+      "По",
+      "Арно",
+      "Тічино"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river flows through the Eternal City, Rome? — The Tiber; the Po, Arno and Ticino are other Italian rivers."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кому з римлян приписують слова «Прийшов, побачив, переміг»?",
+    "options": [
+      "Октавіан Август",
+      "Нерон",
+      "Марк Антоній",
+      "Юлій Цезар"
+    ],
+    "correctIndex": 3,
+    "gloss": "To which Roman are the words \"I came, I saw, I conquered\" attributed? — Julius Caesar (\"Veni, vidi, vici\")."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Мій годинник відстає на 20 хвилин і показує 9:45. Котра година насправді?",
+    "options": [
+      "9:25",
+      "10:25",
+      "10:05",
+      "10:15"
+    ],
+    "correctIndex": 2,
+    "gloss": "My clock is 20 minutes slow and shows 9:45; what time is it really? — 10:05: a slow clock must be moved forward; 9:25 is the wrong-direction trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Яке слово означає і заплетене волосся, і знаряддя з довгим лезом для трави, і піщану смугу в морі?",
+    "options": [
+      "Гребінь",
+      "Коса",
+      "Сито",
+      "Лопата"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word means a braid, a long-bladed tool for grass and a sand spit in the sea? — Коса (braid, scythe, spit); a homonym puzzle."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Який київський собор XI століття, прикрашений мозаїкою «Оранта», внесено до списку ЮНЕСКО?",
+    "options": [
+      "Володимирський собор",
+      "Софійський собор",
+      "Андріївська церква",
+      "Михайлівський Золотоверхий"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which 11th-century Kyiv cathedral with the Oranta mosaic is on the UNESCO list? — St Sophia Cathedral; the others are later or rebuilt."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка тварина будує на річках загати й має широкий плаский хвіст?",
+    "options": [
+      "Бобер",
+      "Видра",
+      "Ондатра",
+      "Нутрія"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which animal builds dams on rivers and has a broad flat tail? — The beaver."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Як звучить слово «хлопець» у звертанні: «Агов, …, не поспішай!»?",
+    "options": [
+      "Хлопцю",
+      "Хлопець",
+      "Хлопця",
+      "Хлопче"
+    ],
+    "correctIndex": 3,
+    "gloss": "How does \"хлопець\" sound in direct address: \"Hey, ..., don't rush!\"? — Хлопче (vocative; ць turns into ч); хлопцю is the dative."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кого Тесей здолав у лабіринті на Криті?",
+    "options": [
+      "Цербера",
+      "Гідру",
+      "Мінотавра",
+      "Циклопа"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whom did Theseus defeat in the labyrinth on Crete? — The Minotaur; the Hydra was Heracles' foe."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто з письменників створив детектива Шерлока Холмса?",
+    "options": [
+      "Агата Крісті",
+      "Едгар По",
+      "Артур Конан Дойл",
+      "Жуль Верн"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which writer created the detective Sherlock Holmes? — Arthur Conan Doyle."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яку найдорожчу спецію добувають із приймочок квітів крокуса?",
+    "options": [
+      "Куркуму",
+      "Шафран",
+      "Паприку",
+      "Кардамон"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which most expensive spice is taken from the stigmas of crocus flowers? — Saffron."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Стара міра «гросс» — це дюжина дюжин. Скільки це штук?",
+    "options": [
+      "144",
+      "120",
+      "132",
+      "156"
+    ],
+    "correctIndex": 0,
+    "gloss": "The old unit \"gross\" is a dozen dozens; how many pieces? — 144 = 12 x 12."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Яке місто, за переказом, Данило Галицький заснував і назвав на честь свого сина?",
+    "options": [
+      "Холм",
+      "Галич",
+      "Луцьк",
+      "Львів"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city, according to tradition, did Danylo of Halych found and name after his son? — Lviv (Lev); Kholm was also his foundation but not named for a son."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Яка планета Сонячної системи обертається, ніби «лежачи на боці»?",
+    "options": [
+      "Нептун",
+      "Сатурн",
+      "Венера",
+      "Уран"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which planet of the Solar System rotates as if \"lying on its side\"? — Uranus (axial tilt about 98 degrees)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Яка вантажівка має назву зі слів «сам» і «скидати», бо сама розвантажує кузов?",
+    "options": [
+      "Бульдозер",
+      "Автокран",
+      "Самоскид",
+      "Екскаватор"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which truck has a name made from \"self\" and \"to throw off\" because it unloads its body by itself? — Samoskyd (dump truck), built from the clue."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто автор повісті «Кайдашева сім'я»?",
+    "options": [
+      "Панас Мирний",
+      "Іван Нечуй-Левицький",
+      "Григорій Квітка-Основ'яненко",
+      "Іван Карпенко-Карий"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novella \"The Kaidash Family\"? — Ivan Nechuy-Levytsky (1878)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Нота «ля» першої октави звучить із частотою 440 Гц. Яка частота в тієї самої ноти на октаву вище?",
+    "options": [
+      "880 Гц",
+      "660 Гц",
+      "550 Гц",
+      "1 320 Гц"
+    ],
+    "correctIndex": 0,
+    "gloss": "The note A of the first octave sounds at 440 Hz; what is the frequency of the same note an octave higher? — 880 Hz: an octave doubles the frequency (660 is the fifth)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У якому місті народився автор «Чорного квадрата» Казимир Малевич?",
+    "options": [
+      "Київ",
+      "Варшава",
+      "Москва",
+      "Вітебськ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which city was Kazimir Malevich, author of the Black Square, born? — Kyiv (1879)."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто очолив створення першого в Україні комп'ютера МЕСМ, що працював у Києві?",
+    "options": [
+      "Віктор Глушков",
+      "Сергій Корольов",
+      "Ігор Сікорський",
+      "Сергій Лебедєв"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who led the building of MESM, Ukraine's first computer, which worked in Kyiv? — Serhiy Lebedev; Glushkov came later."
+  }
+]
