@@ -50,6 +50,14 @@ what players see is level 1. **Level 1 is where the quality shows**: 28 question
 different subject, spread across many categories. "Level 1" means easy for an adult of your
 culture, not trivial or childish (see `LEVEL_GUIDE`).
 
+Earlier ranked files had to replace a third of their level 1 for these, so **none of them**:
+stock riddles (a kilo of cotton or of iron, pills every half hour, "what gets bigger the more you
+take away", folk riddles every player already knows), stale superlatives (largest ocean, tallest
+animal, longest bone, "where is the Eiffel Tower"), battles and wars, and empty items ("which
+insect makes honey", counting the letters of a plain word). A quick reasoning question should
+use something only your language has: a tone or accent mark, a word with no plural, native
+number words, how a word is built.
+
 **Unchanged from Classic:** about 40% `local` (30–55%), at least 10 of the 16 categories, every
 question about a different subject, and each of the four answer positions correct 7–18 times.
 

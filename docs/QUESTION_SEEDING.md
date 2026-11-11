@@ -106,3 +106,17 @@ language, not one model for all:
 - **Ranked only (new, watch closely in the first packs):** puzzles too slow for a clock, and a
   subject the Classic file already covers, asked from another angle. The checker catches neither
   for certain: the same-answer list is the best hint.
+- **Ranked level 1 padded with filler** (the first ranked packs: pt-BR, vi, ru had 16 of 150
+  replaced, and every file passed the checker). With 28 level-1 slots to fill, writers reach for:
+  - **stock riddles**: a kilo of cotton or a kilo of iron, three pills every half hour, "what
+    gets bigger the more you take away", "what is yours but others use more", local folk riddles
+    every player knows the answer to;
+  - **stale superlatives**: largest ocean, tallest animal, longest bone or river, only flying
+    mammal, "which city is the Eiffel Tower in";
+  - **wars**: famous battles and victories, which the writer prompt bans outright;
+  - **childish or empty items**: "which insect makes honey", counting the letters or syllables
+    of a plain word.
+
+  The checker catches none of these. Read the whole level-1 block of every ranked file, not
+  only what the writer flagged. Replacements for a riddle should be quick reasoning that works
+  only in that language (a tone or accent mark, a word with no plural, native number words).
