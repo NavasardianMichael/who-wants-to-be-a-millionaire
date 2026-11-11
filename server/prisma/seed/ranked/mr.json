@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "हिंदीत नसलेले नपुंसकलिंग मराठीत आहे. यांपैकी नपुंसकलिंगी शब्द कोणता?",
+    "options": [
+      "डोंगर",
+      "नदी",
+      "झाड",
+      "दिवा"
+    ],
+    "correctIndex": 2,
+    "gloss": "Marathi has a neuter gender that Hindi lacks. Which of these words is neuter? — झाड (tree): 'ते झाड'; डोंगर and दिवा are masculine ('तो'), नदी feminine ('ती')."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘एकोणपन्नास’ ही संख्या अंकांत कशी लिहाल?",
+    "options": [
+      "५१",
+      "४९",
+      "४१",
+      "५९"
+    ],
+    "correctIndex": 1,
+    "gloss": "How do you write 'ekonpannas' in digits? — 49: 'ekon-' means one short of, so 'one short of fifty'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "आज बुधवार आहे. ‘परवा आठवडी बाजार भरला होता’, तर तो कोणत्या वारी भरला होता?",
+    "options": [
+      "शुक्रवारी",
+      "मंगळवारी",
+      "सोमवारी",
+      "गुरुवारी"
+    ],
+    "correctIndex": 2,
+    "gloss": "Today is Wednesday. 'The weekly market was held parva.' On which day? — Monday: परवा means both the day after tomorrow and the day before yesterday; the past tense picks the latter (Friday is the autopilot trap)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "आईच्या बहिणीला आपण मावशी म्हणतो; वडिलांच्या बहिणीला काय म्हणतो?",
+    "options": [
+      "मामी",
+      "काकू",
+      "वहिनी",
+      "आत्या"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mother's sister is 'mavshi'; what do we call father's sister? — Atya. Mami is mother's brother's wife, kaku father's brother's wife, vahini brother's wife."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पोळ्याच्या सणाला शेतकरी कोणाला सजवून त्यांची मिरवणूक काढतात?",
+    "options": [
+      "बैलांना",
+      "गायींना",
+      "घोड्यांना",
+      "म्हशींना"
+    ],
+    "correctIndex": 0,
+    "gloss": "On the Pola festival, whom do farmers decorate and parade? — Their bullocks, thanked for the year's ploughing."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "दिवाळीच्या सुट्टीत महाराष्ट्रातली मुले अंगणात माती-दगडांनी काय उभारतात?",
+    "options": [
+      "पूल",
+      "किल्ला",
+      "मंदिर",
+      "बंधारा"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the Diwali holidays, what do Maharashtrian children build of mud and stones in the yard? — A fort (killa), a tradition honouring Shivaji's forts."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“… घ्या, गोड गोड बोला” असे म्हणत मकर संक्रांतीला काय वाटतात?",
+    "options": [
+      "पेढे",
+      "बत्तासे",
+      "तिळगूळ",
+      "करंज्या"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Take ..., speak sweetly': what is handed out at Makar Sankranti with these words? — Tilgul (sesame and jaggery): «तिळगूळ घ्या, गोड गोड बोला»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "झणझणीत तांबडा आणि पांढरा रस्सा ही कोणत्या शहराची खासियत?",
+    "options": [
+      "सोलापूर",
+      "कोल्हापूर",
+      "नागपूर",
+      "नाशिक"
+    ],
+    "correctIndex": 1,
+    "gloss": "The fiery red and white mutton curries (tambda and pandhra rassa) are the speciality of which city? — Kolhapur."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वेबसाइट उघडताना पडद्यावर ‘४०४’ असा क्रमांक आला, तर त्याचा अर्थ काय?",
+    "options": [
+      "हवे ते पान सापडले नाही",
+      "इंटरनेट बंद आहे",
+      "पासवर्ड चुकला आहे",
+      "पानासाठी पैसे भरावे लागतील"
+    ],
+    "correctIndex": 0,
+    "gloss": "A web page shows '404'. What does it mean? — The page was not found (HTTP 404 Not Found)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कोकिळा आपली अंडी बहुधा कोणाच्या घरट्यात घालते?",
+    "options": [
+      "चिमणीच्या",
+      "कावळ्याच्या",
+      "पोपटाच्या",
+      "साळुंकीच्या"
+    ],
+    "correctIndex": 1,
+    "gloss": "In whose nest does the koel usually lay its eggs? — The crow's: the Asian koel is a brood parasite chiefly of crows."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "प्रेशर कुकरमध्ये डाळ-भात पटकन का शिजतो?",
+    "options": [
+      "शिट्टीमुळे वाफ थंड होते",
+      "झाकणामुळे गॅस वाचतो",
+      "भांड्याचा तळ जाड असतो",
+      "दाबामुळे पाणी जास्त तापमानाला उकळते"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why do dal and rice cook fast in a pressure cooker? — Under pressure water boils above 100 °C (about 120 °C), so food cooks hotter."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पहाटे पूर्वेला लखलखणारी ‘शुक्राची चांदणी’ खरे तर काय आहे?",
+    "options": [
+      "तारा",
+      "धूमकेतू",
+      "उल्का",
+      "ग्रह"
+    ],
+    "correctIndex": 3,
+    "gloss": "The 'star of Venus' shining in the east at dawn is really what? — A planet: Venus, called a 'star' in Marathi."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पेन ड्राइव्ह किंवा मेमरी कार्डची क्षमता कोणत्या एककात सांगतात?",
+    "options": [
+      "मेगापिक्सेल",
+      "वॅट",
+      "मेगाहर्ट्झ",
+      "गिगाबाइट"
+    ],
+    "correctIndex": 3,
+    "gloss": "In what unit is the capacity of a pen drive or memory card given? — Gigabytes."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बॅडमिंटनच्या ‘फुला’चा पसरट घेर पारंपरिकरीत्या कशापासून बनवतात?",
+    "options": [
+      "कागदापासून",
+      "रबरापासून",
+      "पिसांपासून",
+      "कापडापासून"
+    ],
+    "correctIndex": 2,
+    "gloss": "The flared skirt of a badminton 'flower' (shuttlecock) is traditionally made of what? — Feathers (usually goose), set in a cork base."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "लता मंगेशकरांची धाकटी बहीण असलेली नामवंत पार्श्वगायिका कोण?",
+    "options": [
+      "अनुराधा पौडवाल",
+      "आशा भोसले",
+      "सुमन कल्याणपूर",
+      "उत्तरा केळकर"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which renowned playback singer is Lata Mangeshkar's younger sister? — Asha Bhosle."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘झिंगाट’ गाण्यावर अख्खा महाराष्ट्र नाचला; हे गाणे कोणत्या चित्रपटातले?",
+    "options": [
+      "दुनियादारी",
+      "टाइमपास",
+      "नटरंग",
+      "सैराट"
+    ],
+    "correctIndex": 3,
+    "gloss": "All Maharashtra danced to 'Zingaat'; which film is it from? — Sairat (2016, Nagraj Manjule; music Ajay–Atul)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "मोबाईलवरच्या चित्रचिन्हांसाठी वापरला जाणारा ‘इमोजी’ हा शब्द मूळ कोणत्या भाषेतला?",
+    "options": [
+      "इंग्रजी",
+      "जपानी",
+      "कोरियन",
+      "चिनी"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word 'emoji' for phone picture symbols comes from which language? — Japanese: e (picture) + moji (character); not from English 'emotion'."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पंचतंत्राच्या गोष्टीत मगरीच्या बायकोला माकडाचे काय खायचे असते?",
+    "options": [
+      "काळीज",
+      "शेपूट",
+      "जांभळे",
+      "केळी"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Panchatantra tale, what of the monkey does the crocodile's wife want to eat? — His heart; the monkey had fed them jamun, and escapes by saying he left his heart in the tree."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संत्र्यांसाठी प्रसिद्ध असलेली महाराष्ट्राची उपराजधानी कोणती?",
+    "options": [
+      "अमरावती",
+      "अकोला",
+      "नागपूर",
+      "नाशिक"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city, famous for its oranges, is Maharashtra's second capital? — Nagpur, where the legislature's winter session sits."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "दुबईला गेल्यावर खरेदी करताना कोणते चलन वापरावे लागते?",
+    "options": [
+      "रियाल",
+      "दिनार",
+      "लिरा",
+      "दिरहम"
+    ],
+    "correctIndex": 3,
+    "gloss": "Shopping in Dubai, which currency do you use? — The UAE dirham. The riyal is Saudi, the dinar Kuwaiti/Bahraini, the lira Turkish."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पूर्व आशियाई पदार्थांतला पनीरसारखा दिसणारा ‘टोफू’ कशापासून बनतो?",
+    "options": [
+      "दूध",
+      "शेंगदाणे",
+      "तांदूळ",
+      "सोयाबीन"
+    ],
+    "correctIndex": 3,
+    "gloss": "Tofu, the paneer-like block of East Asian cooking, is made from what? — Soybeans (curdled soy milk), not dairy milk."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘महाराष्ट्र दिन’ म्हणून आपण कोणती तारीख साजरी करतो?",
+    "options": [
+      "१ मे",
+      "६ जून",
+      "१९ फेब्रुवारी",
+      "२७ फेब्रुवारी"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which date do we celebrate as Maharashtra Day? — 1 May (the state was formed on 1 May 1960). 6 June is Shivrajyabhishek Din, 19 February Shiv Jayanti, 27 February Marathi Bhasha Din."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "नॉर्स पुराणकथांमधला हातोडा घेतलेला थॉर हा कशाचा देव?",
+    "options": [
+      "समुद्राचा",
+      "प्रेमाचा",
+      "मेघगर्जनेचा",
+      "सूर्याचा"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Norse myth, hammer-wielding Thor is the god of what? — Thunder."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "मर्यादित षटकांच्या क्रिकेटमध्ये फलंदाजाला ‘फ्री हिट’ कोणत्या चेंडूनंतर मिळते?",
+    "options": [
+      "वाइड",
+      "नो बॉल",
+      "बाउन्सर",
+      "डेड बॉल"
+    ],
+    "correctIndex": 1,
+    "gloss": "In limited-overs cricket, after which delivery does the batter get a 'free hit'? — A no-ball: the next ball is a free hit."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "जगभर गाजलेली ‘स्क्विड गेम’ ही मालिका कोणत्या देशात बनली?",
+    "options": [
+      "जपान",
+      "चीन",
+      "दक्षिण कोरिया",
+      "थायलंड"
+    ],
+    "correctIndex": 2,
+    "gloss": "Where was the global hit series 'Squid Game' made? — South Korea (Netflix, 2021)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "यूपीआयवर व्यवहार करताना यूपीआय पिन कधी टाकावा लागतो?",
+    "options": [
+      "पैसे स्वीकारताना",
+      "स्वतःचा क्यूआर कोड दाखवताना",
+      "पैसे पाठवताना",
+      "आलेला संदेश वाचताना"
+    ],
+    "correctIndex": 2,
+    "gloss": "When do you have to enter your UPI PIN? — Only when paying (or checking your balance); never to receive money, the classic scam line."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "जुन्या काळी रुपयाचे सोळा आणे होते. मग ‘चार आणे’ म्हणजे रुपयाचा किती भाग?",
+    "options": [
+      "अर्धा",
+      "पाव",
+      "पाऊण",
+      "दहावा"
+    ],
+    "correctIndex": 1,
+    "gloss": "A rupee used to be sixteen annas. So 'four annas' is what part of a rupee? — A quarter (पाव): 4/16."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "डोळा घारा आहे की काळा, हे डोळ्याचा कोणता भाग ठरवतो?",
+    "options": [
+      "बाहुली",
+      "पापणी",
+      "पडदा",
+      "बुबुळ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which part of the eye decides whether it is grey-green or black? — The iris (बुबुळ); बाहुली is the pupil, always black."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘डोळ्यांत तेल घालून पहारा देणे’ म्हणजे कसा पहारा देणे?",
+    "options": [
+      "रडत रडत",
+      "अत्यंत सावधपणे",
+      "झोपेत असताना",
+      "अंधारात लपून"
+    ],
+    "correctIndex": 1,
+    "gloss": "'To keep watch with oil in one's eyes' means keeping watch how? — With the utmost vigilance."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "स्वातंत्र्याचा ‘अमृत महोत्सव’ किती वर्षे पूर्ण झाल्यावर साजरा झाला?",
+    "options": [
+      "५०",
+      "६०",
+      "७५",
+      "१००"
+    ],
+    "correctIndex": 2,
+    "gloss": "India's 'Amrit Mahotsav' of independence marked how many years? — 75 (2022). Suvarna = 50, Hirak = 60, Shatabdi = 100."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "सुडोकूच्या प्रत्येक ओळीत १ ते ९ हे अंक एकदाच येतात. मग प्रत्येक ओळीची बेरीज किती?",
+    "options": [
+      "४५",
+      "५०",
+      "८१",
+      "३६"
+    ],
+    "correctIndex": 0,
+    "gloss": "Every Sudoku row holds 1 to 9 once each. What does each row add up to? — 45 (9×10/2)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘जलचर’ पाण्यात, ‘भूचर’ जमिनीवर राहतो. मग ‘उभयचर’ प्राणी कुठे वावरतो?",
+    "options": [
+      "फक्त झाडांवर",
+      "हवेत आणि पाण्यात",
+      "पाण्यात आणि जमिनीवर",
+      "जमिनीखाली"
+    ],
+    "correctIndex": 2,
+    "gloss": "A 'jalachar' lives in water, a 'bhuchar' on land. Where does an 'ubhayachar' move about? — In water and on land: उभय = both (amphibian)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पेरूच्या डोंगरमाथ्यावरचे माचू पिचू कोणत्या प्राचीन संस्कृतीने वसवले?",
+    "options": [
+      "माया",
+      "ॲझ्टेक",
+      "इंका",
+      "ओल्मेक"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which ancient civilisation built Machu Picchu on a Peruvian ridge? — The Inca (15th century)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘रोबोट’ हा शब्द कोणत्या भाषेतील नाटकातून जगभर पोहोचला?",
+    "options": [
+      "चेक",
+      "जर्मन",
+      "रशियन",
+      "इंग्रजी"
+    ],
+    "correctIndex": 0,
+    "gloss": "From a play in which language did the word 'robot' spread worldwide? — Czech: Karel Čapek's R.U.R. (1920), from 'robota', forced labour."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "स्पेनचा प्रसिद्ध ‘पाएया’ मुख्यतः कशापासून बनतो?",
+    "options": [
+      "भात",
+      "बटाटे",
+      "पास्ता",
+      "मका"
+    ],
+    "correctIndex": 0,
+    "gloss": "Spain's famous paella is made mainly from what? — Rice, cooked in a wide shallow pan."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संगीत रंगभूमीवर स्त्रीभूमिका अजरामर करणारे नारायण श्रीपाद राजहंस कोणत्या नावाने ओळखले जातात?",
+    "options": [
+      "छोटा गंधर्व",
+      "बालगंधर्व",
+      "कुमार गंधर्व",
+      "सवाई गंधर्व"
+    ],
+    "correctIndex": 1,
+    "gloss": "Narayan Shripad Rajhans, who made women's roles immortal on the Marathi musical stage, is known by what name? — Balgandharva. The others are different singers."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "टेनिसमध्ये शून्य गुणाला काय म्हणतात?",
+    "options": [
+      "डक",
+      "निल",
+      "लव्ह",
+      "ड्यूस"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a score of zero called in tennis? — Love. A duck is a batsman's zero in cricket; deuce is 40–40."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "निन्टेंडोच्या खेळांतला मिशीवाला मारियो व्यवसायाने काय आहे?",
+    "options": [
+      "न्हावी",
+      "शिंपी",
+      "गवंडी",
+      "प्लंबर"
+    ],
+    "correctIndex": 3,
+    "gloss": "By trade, what is Nintendo's moustached Mario? — A plumber."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "वारली चित्रांतील माणसे, झाडे आणि प्राणी मुख्यतः कोणत्या रंगाने रेखाटतात?",
+    "options": [
+      "पांढऱ्या",
+      "काळ्या",
+      "पिवळ्या",
+      "निळ्या"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Warli paintings, what colour are the people, trees and animals mainly drawn in? — White (rice paste) on an earthen background."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "साप सारखी जीभ बाहेर काढतो, ती मुख्यतः कशासाठी?",
+    "options": [
+      "वास घेण्यासाठी",
+      "शत्रूला घाबरवण्यासाठी",
+      "पाणी पिण्यासाठी",
+      "अंग थंड करण्यासाठी"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does a snake keep flicking its tongue? — To smell: it carries scent particles to the Jacobson's organ in the roof of its mouth."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "सकाळी उन्हात इंद्रधनुष्य दिसले, तर ते आकाशात कोणत्या दिशेला असेल?",
+    "options": [
+      "पूर्वेला",
+      "पश्चिमेला",
+      "उत्तरेला",
+      "दक्षिणेला"
+    ],
+    "correctIndex": 1,
+    "gloss": "A rainbow appears in the morning sunshine; in which direction is it? — West: a rainbow always stands opposite the sun, which is in the east in the morning."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘गेम ऑफ थ्रोन्स’ मालिका कोणत्या लेखकाच्या कादंबऱ्यांवर आधारित आहे?",
+    "options": [
+      "जे. आर. आर. टोल्किन",
+      "सी. एस. लुईस",
+      "जॉर्ज आर. आर. मार्टिन",
+      "स्टीफन किंग"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Game of Thrones' is based on whose novels? — George R. R. Martin's 'A Song of Ice and Fire'."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "बुलढाणा जिल्ह्यातले लोणार सरोवर कशामुळे तयार झाले?",
+    "options": [
+      "ज्वालामुखीमुळे",
+      "उल्कापातामुळे",
+      "भूकंपामुळे",
+      "हिमनदीमुळे"
+    ],
+    "correctIndex": 1,
+    "gloss": "What formed Lonar Lake in Buldhana district? — A meteorite impact; it is a crater lake in basalt."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मराठीत ‘द्न्य’ असा उच्चारला जाणारा ‘ज्ञ’ लिपीत कोणत्या दोन वर्णांचा जोड आहे?",
+    "options": [
+      "द् + न",
+      "ज् + ञ",
+      "ग् + य",
+      "न् + य"
+    ],
+    "correctIndex": 1,
+    "gloss": "'ज्ञ', pronounced 'dnya' in Marathi, is written as a conjunct of which two letters? — ज् + ञ, though the sound is nothing like it."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "हजार पौर्णिमा पाहिल्याचा ‘सहस्रचंद्रदर्शन’ सोहळा साधारण कोणत्या वयात करतात?",
+    "options": [
+      "६० व्या वर्षी",
+      "७५ व्या वर्षी",
+      "८१ व्या वर्षी",
+      "१०० व्या वर्षी"
+    ],
+    "correctIndex": 2,
+    "gloss": "At about what age is the 'Sahasrachandradarshan' (having seen a thousand full moons) celebrated? — In the 81st year: 1000 full moons ÷ about 12.4 a year ≈ 80 years 8 months."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बुद्धिबळात ‘कॅसलिंग’ करताना राजासोबत कोणती सोंगटी जागा बदलते?",
+    "options": [
+      "वजीर",
+      "घोडा",
+      "उंट",
+      "हत्ती"
+    ],
+    "correctIndex": 3,
+    "gloss": "In chess, which piece moves together with the king when castling? — The rook (हत्ती, 'elephant', in Marathi)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "मूळ संख्येला १ आणि ती स्वतः सोडून दुसरा विभाजक नसतो. यांपैकी मूळ संख्या कोणती?",
+    "options": [
+      "५१",
+      "५७",
+      "८७",
+      "५३"
+    ],
+    "correctIndex": 3,
+    "gloss": "A prime has no divisor but 1 and itself. Which of these is prime? — 53. 51 = 3×17, 57 = 3×19, 87 = 3×29: their digits add up to a multiple of 3."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "१६६१ मध्ये पोर्तुगालकडून मुंबईची बेटे इंग्लंडच्या राजाला कशी मिळाली?",
+    "options": [
+      "विकत घेऊन",
+      "लग्नात हुंडा म्हणून",
+      "भाडेपट्ट्याने",
+      "कर्जाच्या बदल्यात"
+    ],
+    "correctIndex": 1,
+    "gloss": "How did England's king get the islands of Bombay from Portugal in 1661? — As dowry, on marrying Catherine of Braganza (Charles II)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "सूर्याचा प्रकाश पृथ्वीवर सुमारे आठ मिनिटांत पोहोचतो. चंद्रावरून परावर्तित होणारा प्रकाश किती वेळात पोहोचतो?",
+    "options": [
+      "सुमारे एका सेकंदात",
+      "सुमारे एका मिनिटात",
+      "सुमारे चार मिनिटांत",
+      "सुमारे आठ मिनिटांत"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sunlight reaches Earth in about eight minutes. How long does light reflected from the Moon take? — About a second (≈1.3 s for 384,000 km); 'eight minutes' is the autopilot trap."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "भास्कराचार्यांच्या ‘सिद्धांतशिरोमणी’ ग्रंथातील अंकगणिताचा भाग कोणत्या नावाने ओळखला जातो?",
+    "options": [
+      "बीजगणित",
+      "गोलाध्याय",
+      "लीलावती",
+      "ग्रहगणित"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the arithmetic part of Bhaskaracharya's 'Siddhanta Shiromani' called? — Lilavati. Bijaganita (algebra), Grahaganita and Goladhyaya are its other three parts."
+  }
+]

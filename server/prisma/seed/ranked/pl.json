@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Której z tych liter nie ma w 32-literowym polskim alfabecie?",
+    "options": [
+      "ł",
+      "ś",
+      "x",
+      "ó"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these letters is not in the 32-letter Polish alphabet? — x: Polish has ł, ś and ó, but q, v and x appear only in loanwords and are not part of the alphabet."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Które z tych słów występuje po polsku tylko w liczbie mnogiej?",
+    "options": [
+      "urodziny",
+      "święto",
+      "wesele",
+      "rocznica"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words exists in Polish only in the plural? — urodziny (birthday): it has no singular, while święto, wesele and rocznica all do."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Którym liczebnikiem uzupełnisz zdanie: „Mam … dzieci”?",
+    "options": [
+      "dwa",
+      "dwie",
+      "dwaj",
+      "dwoje"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which numeral completes \"I have … children\"? — dwoje: Polish uses the collective numeral (dwoje, troje) with dzieci; dwa, dwie and dwaj are wrong with it."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Która godzina jest, gdy Polak mówi: „wpół do ósmej”?",
+    "options": [
+      "8:30",
+      "7:30",
+      "7:15",
+      "8:00"
+    ],
+    "correctIndex": 1,
+    "gloss": "What time is it when a Pole says \"wpół do ósmej\"? — 7:30: \"half to the eighth\" means half past seven, a trap for those who hear 8:30."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gdzie leży miejscowość, o której mówimy, że jest „tam, gdzie diabeł mówi dobranoc”?",
+    "options": [
+      "Przy kościele",
+      "W głębokiej głuszy",
+      "Na cmentarzu",
+      "W nocnym klubie"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where is a place said to be \"where the devil says good night\"? — In the deep backwoods: the idiom means a remote, godforsaken spot."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak nazywa się słomiana kukła, którą Polacy topią w rzece, żegnając zimę?",
+    "options": [
+      "Dziewanna",
+      "Baba Jaga",
+      "Mokosz",
+      "Marzanna"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the straw effigy Poles drown in a river to bid winter farewell called? — Marzanna: the custom on the first day of spring."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak nazywamy lampki z knotem, które 1 listopada stawiamy na grobach bliskich?",
+    "options": [
+      "Znicze",
+      "Lampiony",
+      "Pochodnie",
+      "Świeczniki"
+    ],
+    "correctIndex": 0,
+    "gloss": "What are the lamps with a wick we put on graves on 1 November called? — Znicze: the grave lights of All Saints in Poland."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto napisał powieść „Quo vadis”, osadzoną w czasach cesarza Nerona?",
+    "options": [
+      "Bolesław Prus",
+      "Stefan Żeromski",
+      "Henryk Sienkiewicz",
+      "Eliza Orzeszkowa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the novel \"Quo vadis\", set in the time of Emperor Nero? — Henryk Sienkiewicz (Nobel Prize 1905)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dokąd wędrował Koziołek Matołek, by podkuć kozie nogi?",
+    "options": [
+      "Do Sandomierza",
+      "Do Pińczowa",
+      "Do Opatowa",
+      "Do Pacanowa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Where did Koziołek Matołek travel to have his goat hooves shod? — To Pacanów, in the books by Makuszyński and Walentynowicz."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "O co toczą spór Pawlakowie i Kargulowie w komedii „Sami swoi”?",
+    "options": [
+      "O studnię",
+      "O miedzę",
+      "O młyn",
+      "O konia"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do the Pawlaks and the Karguls quarrel over in the comedy \"Sami swoi\"? — The miedza, the boundary strip between their fields."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jak brzmi dalszy ciąg hymnu: „Jeszcze Polska nie zginęła, kiedy my…”?",
+    "options": [
+      "walczymy",
+      "wierzymy",
+      "żyjemy",
+      "stoimy"
+    ],
+    "correctIndex": 2,
+    "gloss": "How does the anthem continue: \"Poland has not yet perished, as long as we…\"? — żyjemy (are alive)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto strzelił najwięcej goli w historii piłkarskiej reprezentacji Polski?",
+    "options": [
+      "Robert Lewandowski",
+      "Zbigniew Boniek",
+      "Grzegorz Lato",
+      "Kazimierz Deyna"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who scored the most goals in the history of the Polish national football team? — Robert Lewandowski, far ahead of the legends of the 1970s and 80s."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które z tych win jest musujące?",
+    "options": [
+      "Prosecco",
+      "Chianti",
+      "Rioja",
+      "Bordeaux"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these wines is sparkling? — Prosecco; Chianti, Rioja and Bordeaux are still wines."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak nazywa się asystent głosowy w telefonach firmy Apple?",
+    "options": [
+      "Alexa",
+      "Cortana",
+      "Siri",
+      "Bixby"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the voice assistant in Apple phones called? — Siri (Alexa is Amazon, Cortana Microsoft, Bixby Samsung)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "W jakiej koszulce jedzie lider klasyfikacji generalnej Tour de France?",
+    "options": [
+      "w zielonej",
+      "w żółtej",
+      "w białej",
+      "w czerwonej"
+    ],
+    "correctIndex": 1,
+    "gloss": "In what jersey does the overall leader of the Tour de France ride? — The yellow one (maillot jaune); green is for sprinters, white for the best young rider."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jaki ser jest typowym składnikiem greckiej sałatki?",
+    "options": [
+      "mozzarella",
+      "parmezan",
+      "gorgonzola",
+      "feta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which cheese is a typical ingredient of a Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "W którym z tych państw jeździ się lewą stroną drogi?",
+    "options": [
+      "Francja",
+      "Włochy",
+      "Wielka Brytania",
+      "Hiszpania"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which of these countries do they drive on the left? — The United Kingdom; France, Italy and Spain drive on the right."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który numer alarmowy działa w całej Unii Europejskiej?",
+    "options": [
+      "112",
+      "911",
+      "999",
+      "100"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which emergency number works across the whole European Union? — 112 (911 is American, 999 British)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które z tych państw nie ma dostępu do morza?",
+    "options": [
+      "Dania",
+      "Litwa",
+      "Łotwa",
+      "Czechy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these countries has no access to the sea? — Czechia: Denmark, Lithuania and Latvia all have a coast."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ilu zawodników jednej drużyny gra jednocześnie na boisku w siatkówce?",
+    "options": [
+      "pięciu",
+      "sześciu",
+      "siedmiu",
+      "ośmiu"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many players of one team are on the court at once in volleyball? — Six."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Który wyraz uzupełni zwrot: „Chodź tu, mały …!”?",
+    "options": [
+      "chłopcu",
+      "chłopcze",
+      "chłopiec",
+      "chłopca"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word completes the address \"Come here, little …!\"? — chłopcze: the vocative of chłopiec is irregular; chłopcu, chłopiec and chłopca are other cases."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jakim zawodem słynie Mario z serii gier „Super Mario”?",
+    "options": [
+      "elektryk",
+      "kucharz",
+      "strażak",
+      "hydraulik"
+    ],
+    "correctIndex": 3,
+    "gloss": "What profession is Mario of the \"Super Mario\" games known for? — Plumber."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak nazywa się technika malowania farbami na świeżym, wilgotnym tynku?",
+    "options": [
+      "fresk",
+      "akwarela",
+      "pastel",
+      "kolaż"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the technique of painting on fresh, damp plaster called? — Fresco."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jakie napięcie ma prąd w domowych gniazdkach w Polsce?",
+    "options": [
+      "110 V",
+      "12 V",
+      "230 V",
+      "400 V"
+    ],
+    "correctIndex": 2,
+    "gloss": "What voltage comes out of a household socket in Poland? — 230 V (110 V is the American standard, a trap for travellers)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Którą nagrodę muzyczną wręcza się w formie złotego gramofonu?",
+    "options": [
+      "Oscar",
+      "Emmy",
+      "Złota Malina",
+      "Grammy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which music award is handed over as a golden gramophone? — The Grammy; Oscar is for film, Emmy for television."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który mały, zielony mistrz Jedi mówi w „Gwiezdnych wojnach” dziwnym szykiem zdań?",
+    "options": [
+      "Chewbacca",
+      "Yoda",
+      "Obi-Wan Kenobi",
+      "Han Solo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which small green Jedi master speaks in an odd word order in \"Star Wars\"? — Yoda."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który bóg z mitologii nordyckiej włada piorunami i nosi młot Mjölnir?",
+    "options": [
+      "Odyn",
+      "Loki",
+      "Thor",
+      "Baldur"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which god of Norse mythology rules thunder and carries the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto jest autorem sagi o Wiedźminie Geralcie, na której oparto gry i serial?",
+    "options": [
+      "Andrzej Sapkowski",
+      "Stanisław Lem",
+      "Jacek Dukaj",
+      "Andrzej Pilipiuk"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the saga about the Witcher Geralt, on which the games and the series are based? — Andrzej Sapkowski."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto namalował obraz „Stańczyk”, przedstawiający zadumanego błazna na królewskim dworze?",
+    "options": [
+      "Jan Matejko",
+      "Jacek Malczewski",
+      "Józef Chełmoński",
+      "Stanisław Wyspiański"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who painted \"Stańczyk\", showing a pensive court jester? — Jan Matejko (1862)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Która polska poetka otrzymała w 1996 roku Literacką Nagrodę Nobla?",
+    "options": [
+      "Maria Konopnicka",
+      "Eliza Orzeszkowa",
+      "Wisława Szymborska",
+      "Maria Pawlikowska-Jasnorzewska"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Polish poet received the Nobel Prize in Literature in 1996? — Wisława Szymborska."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Które z tych miast leży nad Odrą?",
+    "options": [
+      "Kraków",
+      "Wrocław",
+      "Toruń",
+      "Płock"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these cities lies on the Oder? — Wrocław; Kraków, Toruń and Płock are on the Vistula."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który turniej wielkoszlemowy wygrała w 2020 roku, jako 19-latka, Iga Świątek?",
+    "options": [
+      "Wimbledon",
+      "US Open",
+      "Australian Open",
+      "Roland Garros"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Grand Slam did Iga Świątek win in 2020, aged 19? — Roland Garros (the French Open)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Który z tych wyrazów, mimo wielu spółgłosek, ma tylko jedną sylabę?",
+    "options": [
+      "trzcina",
+      "szczotka",
+      "chrząszcz",
+      "szczebiot"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words, despite many consonants, has only one syllable? — chrząszcz: its only vowel is ą; the others have two syllables (trzci-na, szczot-ka, szcze-biot)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Który wyraz uzupełnia zdanie: „Minęło pięć … od naszego spotkania”?",
+    "options": [
+      "lat",
+      "roków",
+      "lata",
+      "rok"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word completes \"Five … have passed since we met\"? — lat: after five the genitive plural of rok is irregular (lat), not \"roków\"."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który władca został w 1025 roku koronowany na pierwszego króla Polski?",
+    "options": [
+      "Mieszko I",
+      "Kazimierz Odnowiciel",
+      "Władysław Łokietek",
+      "Bolesław Chrobry"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ruler was crowned the first king of Poland in 1025? — Bolesław the Brave (Chrobry)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który narząd człowieka wytwarza insulinę?",
+    "options": [
+      "wątroba",
+      "trzustka",
+      "śledziona",
+      "nerka"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which human organ produces insulin? — The pancreas."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto jest współzałożycielem Facebooka?",
+    "options": [
+      "Steve Jobs",
+      "Mark Zuckerberg",
+      "Elon Musk",
+      "Jeff Bezos"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is a co-founder of Facebook? — Mark Zuckerberg."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z jakiego pierwiastka zbudowane są zarówno diament, jak i grafit?",
+    "options": [
+      "krzem",
+      "wapń",
+      "siarka",
+      "węgiel"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which element are both diamond and graphite made of? — Carbon."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z jakiej rośliny strączkowej powstaje hummus?",
+    "options": [
+      "ciecierzyca",
+      "soczewica",
+      "fasola",
+      "groch"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which legume is hummus made from? — The chickpea."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które drzewo iglaste traci na zimę wszystkie igły?",
+    "options": [
+      "świerk",
+      "sosna",
+      "modrzew",
+      "jodła"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which conifer sheds all its needles for winter? — The larch."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Przez które z tych państw przebiega równik?",
+    "options": [
+      "Egipt",
+      "Etiopia",
+      "Tanzania",
+      "Kenia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these countries does the equator cross? — Kenya; Ethiopia and Tanzania lie just off it."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto według greckiego mitu zabił Minotaura w labiryncie na Krecie?",
+    "options": [
+      "Perseusz",
+      "Tezeusz",
+      "Jazon",
+      "Odyseusz"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who killed the Minotaur in the labyrinth on Crete, according to Greek myth? — Theseus."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Która z tych liczb jest liczbą pierwszą?",
+    "options": [
+      "51",
+      "57",
+      "97",
+      "91"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these numbers is prime? — 97; 51 = 3 x 17, 57 = 3 x 19, 91 = 7 x 13."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto skomponował „Halkę”, uważaną za polską operę narodową?",
+    "options": [
+      "Stanisław Moniuszko",
+      "Ignacy Jan Paderewski",
+      "Karol Szymanowski",
+      "Krzysztof Penderecki"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who composed \"Halka\", regarded as the Polish national opera? — Stanisław Moniuszko."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W którym mieście urodził się Mikołaj Kopernik?",
+    "options": [
+      "Toruń",
+      "Frombork",
+      "Kraków",
+      "Gdańsk"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which city was Nicolaus Copernicus born? — Toruń (1473); Frombork is where he worked and died."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto namalował „Dziewczynę z perłą”?",
+    "options": [
+      "Rembrandt",
+      "Frans Hals",
+      "Johannes Vermeer",
+      "Peter Paul Rubens"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who painted \"Girl with a Pearl Earring\"? — Johannes Vermeer."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nazwa Argentyny pochodzi od łacińskiego słowa „argentum”. Jaki metal ono oznacza?",
+    "options": [
+      "złoto",
+      "srebro",
+      "miedź",
+      "platyna"
+    ],
+    "correctIndex": 1,
+    "gloss": "Argentina takes its name from Latin \"argentum\". Which metal does it mean? — Silver (symbol Ag); the country is the \"silver land\"."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który wynalazca skonstruował we Lwowie z aptekarzem Janem Zehem lampę naftową, zapaloną w 1853 roku?",
+    "options": [
+      "Kazimierz Prószyński",
+      "Jan Szczepanik",
+      "Stefan Drzewiecki",
+      "Ignacy Łukasiewicz"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which inventor built the kerosene lamp, first lit in 1853, in Lviv with the pharmacist Jan Zeh? — Ignacy Łukasiewicz; it lit a hospital operating room."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dżinsy zawdzięczają nazwę włoskiemu miastu, które Francuzi nazywają „Gênes”. Któremu?",
+    "options": [
+      "Neapol",
+      "Genua",
+      "Mediolan",
+      "Turyn"
+    ],
+    "correctIndex": 1,
+    "gloss": "Jeans owe their name to the Italian city the French call \"Gênes\". Which? — Genoa (Genua); denim, by contrast, comes from Nîmes."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który gdański astronom wydał w 1647 roku atlas Księżyca „Selenographia”?",
+    "options": [
+      "Mikołaj Kopernik",
+      "Jan Brożek",
+      "Jan Heweliusz",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Gdańsk astronomer published the lunar atlas \"Selenographia\" in 1647? — Jan Heweliusz (Johannes Hevelius)."
+  }
+]

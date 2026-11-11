@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Shtoji një «r» fjalës «ara» dhe fusha e mbjellë bëhet diçka tjetër. Çfarë?",
+    "options": [
+      "Një vegël",
+      "Një kafshë",
+      "Një frut",
+      "Një ngjyrë"
+    ],
+    "correctIndex": 2,
+    "gloss": "Add an r to «ara» (ploughed field) and it becomes something else. What? — A fruit: «arra» is a walnut."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Cili nga këta numra, si njëzeti, ndërtohet në shqip me «zet»?",
+    "options": [
+      "40",
+      "30",
+      "50",
+      "60"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these numbers, like twenty («njëzet»), is built with «zet» in Albanian? — 40: «dyzet», two twenties; the others use «-dhjetë»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Një sy, dy sy; një këmbë, dy këmbë. Cila nga këto fjalë merr formë krejt tjetër në shumës?",
+    "options": [
+      "Gisht",
+      "Kokë",
+      "Vesh",
+      "Dorë"
+    ],
+    "correctIndex": 3,
+    "gloss": "One eye, two eyes; one leg, two legs. Which word takes a completely different form in the plural? — Hand: «dorë» → «duar» (kokë → koka, vesh → veshë, gisht → gishta just add an ending)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Në shqip, cila anë e horizontit quhet njësoj si ardhja në jetë e një fëmije?",
+    "options": [
+      "Perëndimi",
+      "Lindja",
+      "Veriu",
+      "Jugu"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Albanian, which direction has the same name as a child coming into the world? — East: «lindja» means both the east and birth."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sipas fjalës së urtë, ujku qimen e ndërron, po çfarë jo?",
+    "options": [
+      "Zakonin",
+      "Dhëmbët",
+      "Strofkën",
+      "Ulërimën"
+    ],
+    "correctIndex": 0,
+    "gloss": "According to the proverb, the wolf changes its fur, but not what? — Its habit: «Ujku qimen e ndërron, por zakonin s’e harron»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cilën ëmbëlsirë gatuajnë elbasanasit për Ditën e Verës, më 14 mars?",
+    "options": [
+      "Kadaif",
+      "Bakllava",
+      "Ballokume",
+      "Revani"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sweet do the people of Elbasan bake for Summer Day, 14 March? — Ballokume, the traditional Dita e Verës biscuit."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në cilin liqen jeton korani, peshku që nuk gjendet gjëkundi tjetër në botë?",
+    "options": [
+      "Në liqenin e Shkodrës",
+      "Në liqenin e Ohrit",
+      "Në liqenin e Prespës",
+      "Në liqenin e Butrintit"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which lake lives the koran, a fish found nowhere else in the world? — Lake Ohrid: the Ohrid trout (Salmo letnica) is endemic to it."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili qytet, me shtëpi të mbuluara me rrasa guri, njihet si «qyteti i gurtë»?",
+    "options": [
+      "Korça",
+      "Berati",
+      "Kruja",
+      "Gjirokastra"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which town, its houses roofed with stone slabs, is known as «the stone city»? — Gjirokastër."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili ishte emri i vërtetë i Skënderbeut, heroit tonë kombëtar?",
+    "options": [
+      "Gjergj Kastrioti",
+      "Gjon Kastrioti",
+      "Gjergj Arianiti",
+      "Lekë Dukagjini"
+    ],
+    "correctIndex": 0,
+    "gloss": "What was the real name of Skanderbeg, our national hero? — Gjergj Kastrioti (Gjon Kastrioti was his father, Gjergj Arianiti his father-in-law)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush e ngriti flamurin në Vlorë më 28 Nëntor 1912?",
+    "options": [
+      "Isa Boletini",
+      "Ismail Qemali",
+      "Hasan Prishtina",
+      "Avni Rustemi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who raised the flag in Vlorë on 28 November 1912? — Ismail Qemali, at the declaration of independence."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush e shkroi poemën «Bagëti e Bujqësi»?",
+    "options": [
+      "Andon Zako Çajupi",
+      "Gjergj Fishta",
+      "Ndre Mjeda",
+      "Naim Frashëri"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the poem «Herds and Crops»? — Naim Frashëri (1886)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilën lojë video e gjithë bota ndërtohet nga kube?",
+    "options": [
+      "The Sims",
+      "Fortnite",
+      "Minecraft",
+      "FIFA"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which video game is the whole world built of cubes? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pse një shishe qelqi plot me ujë mund të çahet në ngrirës?",
+    "options": [
+      "Qelqi tkurret më shumë se uji",
+      "Uji zgjerohet kur ngrin",
+      "Ajri brenda zgjerohet",
+      "Akulli është më i rëndë se uji"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why can a glass bottle full of water crack in the freezer? — Water expands as it freezes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Çfarë i shtohet espresos për ta bërë makiato?",
+    "options": [
+      "Pak qumësht i shkumëzuar",
+      "Ujë i nxehtë",
+      "Çokollatë e shkrirë",
+      "Një top akullore"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is added to an espresso to make a macchiato? — A little foamed milk (hot water makes an americano, ice cream an affogato)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa pikë vlen në basketboll një gjuajtje e suksesshme nga përtej vijës së harkut?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many points is a basket from beyond the arc worth? — Three."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili aktor e luan kapitenin Xhek Sperrou te «Piratët e Karaibeve»?",
+    "options": [
+      "Leonardo Di Kaprio",
+      "Orlando Blum",
+      "Bred Pit",
+      "Xhoni Dep"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which actor plays Captain Jack Sparrow in «Pirates of the Caribbean»? — Johnny Depp."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilin sport lojtarët godasin me raketë jo një top, por një topth me pupla?",
+    "options": [
+      "Badminton",
+      "Tenis",
+      "Pingpong",
+      "Skuosh"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport do players hit not a ball but a feathered shuttlecock? — Badminton."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili lumë kalon nëpër Vjenë, Budapest dhe Beograd?",
+    "options": [
+      "Vollga",
+      "Rini",
+      "Elba",
+      "Danubi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which river flows through Vienna, Budapest and Belgrade? — The Danube."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cilin djathë i hedhin zakonisht sallatës greke?",
+    "options": [
+      "Mocarelën",
+      "Fetën",
+      "Parmixhanon",
+      "Gaudën"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which cheese usually goes on a Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në cilin qytet ka lindur këngëtarja Dua Lipa?",
+    "options": [
+      "Në Tiranë",
+      "Në Prishtinë",
+      "Në Londër",
+      "Në Nju Jork"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which city was the singer Dua Lipa born? — London, to parents from Kosovo."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili zog shtegtar ngre fole të mëdha mbi kambanore e shtylla elektrike?",
+    "options": [
+      "Dallëndyshja",
+      "Lejleku",
+      "Mjellma",
+      "Shqiponja"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which migratory bird builds huge nests on bell towers and electricity poles? — The stork."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nga se punohet plisi, kësula e bardhë tradicionale e burrave shqiptarë?",
+    "options": [
+      "Nga leshi",
+      "Nga pambuku",
+      "Nga lëkura",
+      "Nga liri"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the plis, the traditional white cap of Albanian men, made of? — Wool, pressed into felt."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Cili nga këta përemra lexohet njësoj edhe së prapthi?",
+    "options": [
+      "Ai",
+      "Ato",
+      "Ajo",
+      "Ata"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these pronouns reads the same backwards? — «Ata» (they), a palindrome."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilin format ruhen zakonisht dokumentet që duhet të duken njësoj në çdo pajisje?",
+    "options": [
+      "MP3",
+      "JPG",
+      "PDF",
+      "ZIP"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which format are documents usually saved so they look the same on every device? — PDF; MP3 is audio, JPG an image, ZIP a compressed folder."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pse në dimër rrugët e ngrira spërkaten me kripë?",
+    "options": [
+      "Thith lagështinë",
+      "Ngroh asfaltin",
+      "Ul pikën e ngrirjes së ujit",
+      "Ashpërson sipërfaqen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why are icy roads sprinkled with salt in winter? — Salt lowers the freezing point of water, so the ice melts."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cilën monedhë përdor Kosova në jetën e përditshme?",
+    "options": [
+      "Frangun",
+      "Lekun",
+      "Dinarin",
+      "Euron"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which currency does Kosovo use in daily life? — The euro (adopted unilaterally; the Deutsche Mark before it)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili rrjet social, i njohur për videot e shkurtra vertikale, ka si logo një notë muzikore?",
+    "options": [
+      "TikTok",
+      "Instagram",
+      "Snapchat",
+      "YouTube"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which social network, known for short vertical videos, has a musical note as its logo? — TikTok."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ora jote shkon 10 minuta përpara dhe tregon 8:00. Sa është ora në të vërtetë?",
+    "options": [
+      "8:10",
+      "7:50",
+      "8:00",
+      "7:40"
+    ],
+    "correctIndex": 1,
+    "gloss": "Your watch is 10 minutes fast and shows 8:00. What is the real time? — 7:50."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në cilin vend u zhvillua Evropiani i futbollit 2016, i pari ku luajti Kombëtarja shqiptare?",
+    "options": [
+      "Në Portugali",
+      "Në Gjermani",
+      "Në Poloni",
+      "Në Francë"
+    ],
+    "correctIndex": 3,
+    "gloss": "Where was Euro 2016 held, the first European Championship Albania played in? — France."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili gatim piqet nën saç për orë të tëra, shtresë pas shtrese nga një brumë i lëngshëm?",
+    "options": [
+      "Byreku",
+      "Flija",
+      "Pispili",
+      "Fërgesa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which dish is baked under a saç for hours, layer upon layer of runny batter? — Flija."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në besimet popullore shqiptare, kush e lufton kuçedrën?",
+    "options": [
+      "Dragua",
+      "Shtriga",
+      "Zana",
+      "Lugati"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Albanian folk belief, who fights the kuçedra (the many-headed she-dragon)? — The dragua."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kush e regjisoi filmin «Parku Jurasik» (1993)?",
+    "options": [
+      "Xhorxh Lukas",
+      "Xhejms Kamerun",
+      "Stiven Spilberg",
+      "Robert Zemekis"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who directed «Jurassic Park» (1993)? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili qytet antik pranë Sarandës ishte vendi i parë i Shqipërisë që hyri në listën e UNESCO-s?",
+    "options": [
+      "Butrinti",
+      "Apolonia",
+      "Bylisi",
+      "Antigonea"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ancient city near Sarandë was the first Albanian site on the UNESCO list? — Butrint (1992)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kur thua «faleminderit», fjalë për fjalë i falesh diçkaje. Çfarë?",
+    "options": [
+      "Zotit",
+      "Bukës",
+      "Nderit",
+      "Shëndetit"
+    ],
+    "correctIndex": 2,
+    "gloss": "When you say «faleminderit» (thank you), literally you bow to something. What? — Honour: «falem nderit», I bow to (your) honour."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Me cilën vegël me një tel i shoqërojnë rapsodët këngët e kreshnikëve?",
+    "options": [
+      "Çiftelinë",
+      "Lahutën",
+      "Sharkinë",
+      "Fyellin"
+    ],
+    "correctIndex": 1,
+    "gloss": "With which one-stringed instrument do bards accompany the songs of the frontier warriors? — The lahuta."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nga cili vend vjen IKEA, me mobiliet që blerësi i monton vetë?",
+    "options": [
+      "Finlanda",
+      "Norvegjia",
+      "Danimarka",
+      "Suedia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country does IKEA, with its self-assembly furniture, come from? — Sweden."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kanali i Panamasë bashkon Oqeanin Atlantik me cilin oqean?",
+    "options": [
+      "Me Indianin",
+      "Me Paqësorin",
+      "Me Arktikun",
+      "Me Jugorin"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Panama Canal links the Atlantic with which ocean? — The Pacific."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili popull e ndërtoi qytetin malor Maçu Pikçu në Ande?",
+    "options": [
+      "Inkasit",
+      "Majat",
+      "Aztekët",
+      "Olmekët"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which people built the mountain city of Machu Picchu in the Andes? — The Incas."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili grup e këndoi këngën «Bohemian Rhapsody»?",
+    "options": [
+      "Pink Floyd",
+      "The Beatles",
+      "ABBA",
+      "Queen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which band sang «Bohemian Rhapsody»? — Queen."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Si quhet kujtesa ku kompjuteri mban përkohësisht programet e hapura dhe që fshihet kur e fik?",
+    "options": [
+      "SSD",
+      "ROM",
+      "RAM",
+      "CPU"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the memory where a computer temporarily keeps open programs, erased when switched off? — RAM."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Treni niset në 22:40 dhe udhëton 50 minuta. Në ç’orë mbërrin?",
+    "options": [
+      "23:50",
+      "23:10",
+      "23:30",
+      "00:30"
+    ],
+    "correctIndex": 2,
+    "gloss": "A train leaves at 22:40 and travels 50 minutes. When does it arrive? — 23:30."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Furra me mikrovalë ngroh kryesisht një përbërës të ushqimit. Cilin?",
+    "options": [
+      "Sheqerin",
+      "Kripën",
+      "Yndyrën",
+      "Ujin"
+    ],
+    "correctIndex": 3,
+    "gloss": "A microwave oven heats mainly one component of food. Which? — Water: microwaves make its molecules oscillate."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili lumë shërben si kufiri i zakonshëm mes gegërishtes dhe toskërishtes?",
+    "options": [
+      "Shkumbini",
+      "Drini",
+      "Vjosa",
+      "Semani"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river is the usual boundary between Gheg and Tosk? — The Shkumbin."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nëntori e dhjetori e kanë emrin nga nëntë e dhjetë, edhe pse janë muaji i 11-të e i 12-të. Me cilin muaj nisej viti romak?",
+    "options": [
+      "Me janarin",
+      "Me marsin",
+      "Me prillin",
+      "Me shkurtin"
+    ],
+    "correctIndex": 1,
+    "gloss": "November and December are named after nine and ten, though they are the 11th and 12th months. Which month began the Roman year? — March: count back from the ninth month."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Diamanti dhe grafiti i lapsit përbëhen nga i njëjti element kimik. Cili?",
+    "options": [
+      "Silici",
+      "Karboni",
+      "Squfuri",
+      "Bori"
+    ],
+    "correctIndex": 1,
+    "gloss": "Diamond and pencil graphite are made of the same element. Which? — Carbon."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush i solli në shqip «Otellon» e Shekspirit dhe «Don Kishotin» e Servantesit?",
+    "options": [
+      "Lasgush Poradeci",
+      "Faik Konica",
+      "Gjergj Fishta",
+      "Fan Noli"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who translated Shakespeare’s «Othello» and Cervantes’s «Don Quixote» into Albanian? — Fan Noli."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "«Viti dritë» është njësi matëse. Çfarë mat ai?",
+    "options": [
+      "Largësinë",
+      "Kohën",
+      "Shpejtësinë",
+      "Ndriçimin"
+    ],
+    "correctIndex": 0,
+    "gloss": "«Light-year» is a unit of measurement. What does it measure? — Distance: how far light travels in a year; «year» is the autopilot trap."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kush e kompozoi «Mrikën», operan e parë shqiptare?",
+    "options": [
+      "Tish Daija",
+      "Çesk Zadeja",
+      "Prenk Jakova",
+      "Feim Ibrahimi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who composed «Mrika», the first Albanian opera? — Prenk Jakova."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fjala «robot» u përdor për herë të parë në një dramë të vitit 1920. Kush e shkroi atë?",
+    "options": [
+      "Bertolt Breht",
+      "Isak Asimov",
+      "Zhyl Vern",
+      "Karel Çapek"
+    ],
+    "correctIndex": 3,
+    "gloss": "The word «robot» was first used in a 1920 play. Who wrote it? — Karel Čapek (R.U.R.)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Me cilin emër e themeluan kolonët grekë qytetin që sot quhet Durrës?",
+    "options": [
+      "Apolonia",
+      "Epidamnos",
+      "Lisos",
+      "Bylis"
+    ],
+    "correctIndex": 1,
+    "gloss": "Under what name did Greek colonists found the city now called Durrës? — Epidamnos (627 BC, later also Dyrrachion)."
+  }
+]
