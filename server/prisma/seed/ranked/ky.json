@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Бул сөздөрдүн кайсынысына көптүк мүчөсү «-лөр» болуп уланат?",
+    "options": [
+      "Тоо",
+      "Эне",
+      "Үй",
+      "Ата"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words takes the plural suffix «-лөр»? — Үй (үйлөр): front rounded ү takes -лөр; тоолор, энелер, аталар."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Менин атым — Айгүл» дегенде «ат» сөзү эмнени билдирет?",
+    "options": [
+      "Ысымды",
+      "Жылкыны",
+      "Атууну",
+      "Атаны"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Менин атым — Айгүл\": what does «ат» mean here? — A name: «ат» is both \"horse\" and \"name\"; with a person's name it can only be the name."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Сексен» деген сандын тамырында кайсы сан катылып турат?",
+    "options": [
+      "Алты",
+      "Жети",
+      "Тогуз",
+      "Сегиз"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number hides in the root of «сексен» (80)? — Eight: säkiz + on (ten) → сексен, like тогуз + он → токсон."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Апаңыздын атасын кыргызча кантип атайсыз?",
+    "options": [
+      "Чоң ата",
+      "Таята",
+      "Аке",
+      "Жезде"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do you call your mother's father in Kyrgyz? — Таята; чоң ата is the father's father, жезде an elder sister's husband."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Банк картасынын артындагы үч орундуу CVV код эмне үчүн керек?",
+    "options": [
+      "Банкоматтан акча алуу үчүн",
+      "Картанын мөөнөтүн билүү үчүн",
+      "Онлайн төлөмдү ырастоо үчүн",
+      "Картаны бөгөттөө үчүн"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the three-digit CVV code on the back of a bank card for? — Confirming online payments; cash withdrawals use the PIN."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Эспрессого ысык суу кошуп суюлтса, кофенин кайсы түрү болот?",
+    "options": [
+      "Латте",
+      "Американо",
+      "Капучино",
+      "Раф"
+    ],
+    "correctIndex": 1,
+    "gloss": "Espresso diluted with hot water makes which coffee? — Americano; latte, cappuccino and raf are made with milk or cream."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Муздаткычтан алынган бөтөлкөнүн сырты бир аздан кийин тамчы болуп калат. Ал суу кайдан келет?",
+    "options": [
+      "Бөтөлкөнүн ичинен",
+      "Муздаткычтан",
+      "Колубуздан",
+      "Абадагы буудан"
+    ],
+    "correctIndex": 3,
+    "gloss": "A bottle from the fridge soon gets drops on its outside. Where does the water come from? — Water vapour in the air condensing on the cold glass."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кыргызстандын желегиндеги күндүн канча нуру бар?",
+    "options": [
+      "40",
+      "12",
+      "24",
+      "30"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many rays does the sun on Kyrgyzstan's flag have? — 40, for the forty tribes of the Manas legend."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кыргызстанда Нооруз майрамы кайсы күнү белгиленет?",
+    "options": [
+      "8-март",
+      "1-май",
+      "21-март",
+      "31-август"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which day is Nooruz celebrated in Kyrgyzstan? — 21 March, the spring equinox."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Боз үйдүн чокусундагы, түтүн чыгып, жарык кирген тегерек кандай аталат?",
+    "options": [
+      "Уук",
+      "Түндүк",
+      "Кереге",
+      "Босого"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the round opening at the top of the yurt that lets smoke out and light in? — Tündük; uuk are the roof poles, kerege the lattice wall, bosogo the threshold."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Жайкы ысыкта ичилүүчү максым менен шоро эмнеден жасалат?",
+    "options": [
+      "Бээнин сүтүнөн",
+      "Жемиштерден",
+      "Балдан",
+      "Дан эгиндеринен"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the summer drinks maksym and shoro made from? — Cereal grain (wheat, barley, maize); kymyz is the mare's-milk one."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Тиш менен кармалып, манжа менен чертилген кичинекей темир аспап кандай аталат?",
+    "options": [
+      "Темир комуз",
+      "Кыл кыяк",
+      "Чоор",
+      "Добулбас"
+    ],
+    "correctIndex": 0,
+    "gloss": "The small metal instrument held against the teeth and plucked with a finger? — Temir komuz (jaw harp)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ат үстүндөгү эки балбан бири-бирин аттан кулатууга аракет кылган оюн кандай аталат?",
+    "options": [
+      "Кыз куумай",
+      "Ордо",
+      "Эр эңиш",
+      "Тыйын эңмей"
+    ],
+    "correctIndex": 2,
+    "gloss": "The game where two riders wrestle to throw each other off the horse? — Er enish."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Манас» эпосунда баатырдын акылман жары ким?",
+    "options": [
+      "Айчүрөк",
+      "Чыйырды",
+      "Карабөрк",
+      "Каныкей"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Manas epic, who is the hero's wise wife? — Kanykei; Aichürök is Semetei's wife, Chyiyrdy Manas's mother, Karabörk Almambet's wife."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ыйык Сулайман-Тоо кайсы шаардын так ортосунда турат?",
+    "options": [
+      "Жалал-Абад",
+      "Ош",
+      "Баткен",
+      "Өзгөн"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the middle of which city stands the sacred Sulaiman-Too? — Osh."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кыргыз тоолорунда жашап, «тоолордун арбагы» деп аталган жырткыч кайсы?",
+    "options": [
+      "Илбирс",
+      "Сүлөөсүн",
+      "Карышкыр",
+      "Аюу"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which predator of the Kyrgyz mountains is called \"the ghost of the mountains\"? — The snow leopard (ilbirs)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кышында тоңгон жолго эмне үчүн туз чачышат?",
+    "options": [
+      "Дөңгөлөктү тазалайт",
+      "Асфальтты бекемдейт",
+      "Туз музду эритет",
+      "Карды агартат"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why do they spread salt on an icy road in winter? — Salt lowers the freezing point, so the ice melts."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Микротолкундуу мешке кайсы идишти салууга болбойт?",
+    "options": [
+      "Айнек табакты",
+      "Фарфор кесени",
+      "Чопо чөйчөктү",
+      "Темир идишти"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which dish must not go into a microwave? — A metal one: it reflects the waves and can spark."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Шрек» мультфильминде Шректин жанынан калбаган, оозу жабылбаган досу ким?",
+    "options": [
+      "Мышык",
+      "Эшек",
+      "Ажыдаар",
+      "Ат"
+    ],
+    "correctIndex": 1,
+    "gloss": "In \"Shrek\", who is Shrek's never-silent companion? — Donkey."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Оюнчулар чарчы блоктордон бүтүндөй дүйнө курган атактуу оюн кайсы?",
+    "options": [
+      "Minecraft",
+      "Tetris",
+      "Fortnite",
+      "The Sims"
+    ],
+    "correctIndex": 0,
+    "gloss": "The famous game where players build whole worlds out of cube blocks? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шахматта пешка тактанын аркы четине жеткенде эмне болот?",
+    "options": [
+      "Тактадан чыгарылат",
+      "Артка кайтарылат",
+      "Башка фигурага айланат",
+      "Оюн бүтөт"
+    ],
+    "correctIndex": 2,
+    "gloss": "In chess, what happens when a pawn reaches the far edge of the board? — It is promoted to another piece."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Футболдо пенальти дарбазадан канча метр аралыктан тебилет?",
+    "options": [
+      "9 метр",
+      "16 метр",
+      "7 метр",
+      "11 метр"
+    ],
+    "correctIndex": 3,
+    "gloss": "From how many metres is a football penalty kicked? — 11 metres."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кошуна Кытайдын улуттук акчасы кандай аталат?",
+    "options": [
+      "Иена",
+      "Юань",
+      "Вон",
+      "Тугрик"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the currency of neighbouring China called? — Yuan; yen is Japan's, won Korea's, tögrög Mongolia's."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Италиянын тирамису десертиндеги печеньелер эмнеге чыланат?",
+    "options": [
+      "Кофеге",
+      "Сүткө",
+      "Чайга",
+      "Ширеге"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Italian tiramisu, what are the biscuits soaked in? — Coffee."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Дени сак адамдын дене табы, адатта, канча градус болот?",
+    "options": [
+      "38,2 °C",
+      "35,1 °C",
+      "36,6 °C",
+      "37,9 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the usual body temperature of a healthy person? — 36.6 °C."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Макалды толуктаңыз: «Жети өлчөп, … кес».",
+    "options": [
+      "эки",
+      "бир",
+      "үч",
+      "беш"
+    ],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: \"Measure seven times, cut …\" — once («бир»)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Аэропортто билетте жазылган «гейт» деген эмнени билдирет?",
+    "options": [
+      "Отургучтун номерин",
+      "Рейстин номерин",
+      "Жүк тапшыруучу жерди",
+      "Учакка чыгуучу эшикти"
+    ],
+    "correctIndex": 3,
+    "gloss": "At the airport, what does the \"gate\" on your boarding pass mean? — The door you board the plane through."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кагазды бүктөп фигура жасоо өнөрү — оригами кайсы өлкөдөн чыккан?",
+    "options": [
+      "Япония",
+      "Кытай",
+      "Корея",
+      "Индия"
+    ],
+    "correctIndex": 0,
+    "gloss": "Origami, the art of folding paper into figures, comes from which country? — Japan."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Дүйшөмбүдөгү «дүй» — эки, шейшембидеги «шей» — үч дегенди билдирет. Бейшембидеги «бей» эмнени билдирет?",
+    "options": [
+      "Төрт",
+      "Алты",
+      "Беш",
+      "Бир"
+    ],
+    "correctIndex": 2,
+    "gloss": "«Дүй» in Monday means two, «шей» in Tuesday three. What does «бей» in Thursday mean? — Five: Persian du, se, chahar, panj; Thursday is two days after Tuesday."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Бишкекте түшкү саат 12:00 болгондо Москвада саат канча болот?",
+    "options": [
+      "09:00",
+      "10:00",
+      "15:00",
+      "11:00"
+    ],
+    "correctIndex": 0,
+    "gloss": "When it is 12:00 noon in Bishkek, what time is it in Moscow? — 09:00: Bishkek is UTC+6, Moscow UTC+3."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Уламыш боюнча, эки баланы Энесайдан Ысык-Көлгө алып келген Мүйүздүү эне кайсы жаныбар болгон?",
+    "options": [
+      "Аркар",
+      "Тоо теке",
+      "Ак бөрү",
+      "Бугу"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the legend, which animal was the Horned Mother who brought two children from the Yenisei to Issyk-Kul? — A deer (Mother Deer of the Bugu tribe)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Антибиотиктер эмнеге каршы таасир этет?",
+    "options": [
+      "Вирустарга",
+      "Бактерияларга",
+      "Аллергияга",
+      "Баш ооруга"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do antibiotics work against? — Bacteria; they do nothing against viruses such as flu."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Мурундан кан кеткенде башты кайсы тарапка ийиш керек?",
+    "options": [
+      "Алдыга",
+      "Артка",
+      "Оң жакка",
+      "Сол жакка"
+    ],
+    "correctIndex": 0,
+    "gloss": "In a nosebleed, which way should you tilt your head? — Forward, so blood is not swallowed; tilting back is the common mistake."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Марафондук аралыктын узундугу канча?",
+    "options": [
+      "40 км",
+      "45 км 500 м",
+      "42 км 195 м",
+      "38 км 600 м"
+    ],
+    "correctIndex": 2,
+    "gloss": "How long is the marathon distance? — 42 km 195 m."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сайттын дарегиндеги «https» сөзүнүн акыркы «s» тамгасы эмнени билдирет?",
+    "options": [
+      "Издөө системасын",
+      "Ылдам серверди",
+      "Сайттын өлчөмүн",
+      "Коопсуз байланышты"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the final \"s\" in \"https\" stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Токтогул суу сактагычы кайсы дарыяга курулган?",
+    "options": [
+      "Чүй",
+      "Нарын",
+      "Талас",
+      "Чаткал"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which river was the Toktogul reservoir built? — The Naryn."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ашлямфу кайсы шаардын өзгөчө тамагы катары белгилүү?",
+    "options": [
+      "Каракол",
+      "Ош",
+      "Нарын",
+      "Талас"
+    ],
+    "correctIndex": 0,
+    "gloss": "Ashlyamfu is famous as the signature dish of which city? — Karakol."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Бир гектар жерде канча сотых бар?",
+    "options": [
+      "10",
+      "1000",
+      "50",
+      "100"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many sotyh (hundredths) are in one hectare? — 100: a hectare is 10,000 m², a sotyh 100 m²."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Суахили тилинде «сафари» сөзү эмнени билдирет?",
+    "options": [
+      "Аңчылык",
+      "Жапайы жаныбар",
+      "Саякат",
+      "Чөл"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does \"safari\" mean in Swahili? — Journey."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Телефонду дүкөндөгү терминалга жакын алып барып эле төлөөгө кайсы технология мүмкүндүк берет?",
+    "options": [
+      "GPS",
+      "NFC",
+      "Wi-Fi",
+      "USB"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which technology lets you pay by holding your phone near a shop terminal? — NFC (near-field communication)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кыргызстан өз эгемендүүлүгүн кайсы жылы жарыялаган?",
+    "options": [
+      "1991",
+      "1990",
+      "1993",
+      "1989"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which year did Kyrgyzstan declare its independence? — 1991 (31 August)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Үч мушкетёр» романын ким жазган?",
+    "options": [
+      "Виктор Гюго",
+      "Жюль Верн",
+      "Оноре де Бальзак",
+      "Александр Дюма"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"The Three Musketeers\"? — Alexandre Dumas."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Күндүн нуру Жерге болжол менен 8 мүнөттө жетет. Демек, асмандагы Күндү биз кандай абалда көрөбүз?",
+    "options": [
+      "Дал ушул көз ирмемдеги",
+      "8 саат мурунку",
+      "8 мүнөт мурунку",
+      "8 күн мурунку"
+    ],
+    "correctIndex": 2,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. So how do we see the Sun? — As it was 8 minutes ago."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Байыркы узундук ченеми «кулач» эмнеге барабар?",
+    "options": [
+      "Эки колду жайгандагы аралык",
+      "Бармак менен сөөмөйдүн аралыгы",
+      "Бир адымдын узундугу",
+      "Чыканактан манжанын учуна чейин"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the old length measure «кулач»? — The span of both outstretched arms (a fathom); thumb to forefinger is «сөөм»."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Рим цифралары менен жазылган XC кайсы сан?",
+    "options": [
+      "110",
+      "900",
+      "1100",
+      "90"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number is XC in Roman numerals? — 90: X before C means 100 − 10."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Сары-Челек көлү кайсы облуста жайгашкан?",
+    "options": [
+      "Ош",
+      "Жалал-Абад",
+      "Талас",
+      "Нарын"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which region is Lake Sary-Chelek? — Jalal-Abad (Aksy district)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Алмаз менен графит бир эле химиялык элементтен турат. Кайсынысынан?",
+    "options": [
+      "Көмүртек",
+      "Кремний",
+      "Кальций",
+      "Темир"
+    ],
+    "correctIndex": 0,
+    "gloss": "Diamond and graphite consist of the same chemical element. Which? — Carbon."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Манас» үчилтигинин эң көлөмдүү вариантын айтып калтырган манасчы ким?",
+    "options": [
+      "Сагымбай Орозбак уулу",
+      "Саякбай Каралаев",
+      "Келдибек",
+      "Жусуп Мамай"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which manaschy left the most voluminous recorded version of the Manas trilogy? — Sayakbay Karalaev (about 500,000 lines)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Нобель сыйлыктарынын кайсынысы Стокгольмдо эмес, Ослодо тапшырылат?",
+    "options": [
+      "Адабият сыйлыгы",
+      "Физика сыйлыгы",
+      "Тынчтык сыйлыгы",
+      "Медицина сыйлыгы"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Nobel Prize is awarded in Oslo, not Stockholm? — The Peace Prize."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Эсперанто тилин түзгөн Людвик Заменгоф кесиби боюнча ким болгон?",
+    "options": [
+      "Мугалим",
+      "Тилчи",
+      "Юрист",
+      "Көз доктур"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was Ludwik Zamenhof, creator of Esperanto, by profession? — An eye doctor (ophthalmologist)."
+  }
+]

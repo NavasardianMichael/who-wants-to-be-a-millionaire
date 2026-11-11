@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jika huruf-huruf kata “kasur” dibaca terbalik, kata apa yang muncul?",
+    "options": [
+      "Rasuk",
+      "Surak",
+      "Rusak",
+      "Sukar"
+    ],
+    "correctIndex": 2,
+    "gloss": "If the letters of \"kasur\" (mattress) are read backwards, what word appears? — \"rusak\" (broken): k-a-s-u-r reversed is r-u-s-a-k."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Pukul “setengah tiga” sama dengan pukul berapa?",
+    "options": [
+      "02.00",
+      "02.30",
+      "03.00",
+      "03.30"
+    ],
+    "correctIndex": 1,
+    "gloss": "What time is \"setengah tiga\" (lit. half three)? — 02.30: Indonesian counts the half hour toward the next hour, so it is half past two, not half past three."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kata “sapu” diberi awalan me- menjadi kata kerja ….",
+    "options": [
+      "Mensapu",
+      "Menyapu",
+      "Mengsapu",
+      "Memsapu"
+    ],
+    "correctIndex": 1,
+    "gloss": "The word \"sapu\" (broom) with the prefix me- becomes the verb... — \"menyapu\": the initial s drops out and ny takes its place."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kata mana yang bisa berarti makanan dari kedelai sekaligus “mengerti”?",
+    "options": [
+      "Tahu",
+      "Tempe",
+      "Oncom",
+      "Kecap"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word can mean a soybean food and also \"to know\"? — \"tahu\": tofu, and the verb \"to know\" (spelled the same)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ibu berkata kepada tetangga, “Kami ke pasar dulu, ya.” Siapa yang pergi ke pasar?",
+    "options": [
+      "Ibu dan tetangga",
+      "Ibu dan keluarganya, tanpa tetangga",
+      "Hanya tetangga",
+      "Semua orang di kampung"
+    ],
+    "correctIndex": 1,
+    "gloss": "A mother tells a neighbour \"Kami ke pasar dulu\". Who goes to the market? — Mother and her family without the neighbour: \"kami\" excludes the person addressed, \"kita\" includes them."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Dina menabung Rp2.000, lalu Rp4.000, Rp8.000, dan seterusnya. Berapa tabungan hari kelima?",
+    "options": [
+      "Rp20.000",
+      "Rp24.000",
+      "Rp32.000",
+      "Rp64.000"
+    ],
+    "correctIndex": 2,
+    "gloss": "Dina saves Rp2,000, then 4,000, 8,000 and so on. What is the fifth day? — Rp32,000: the amount doubles each day."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rendang, daging berbumbu santan dan rempah yang dimasak lama, berasal dari suku ….",
+    "options": [
+      "Bugis",
+      "Batak",
+      "Betawi",
+      "Minangkabau"
+    ],
+    "correctIndex": 3,
+    "gloss": "Rendang, meat slow-cooked in coconut milk and spices, comes from the ... people — Minangkabau of West Sumatra."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Danau Toba terletak di provinsi ….",
+    "options": [
+      "Sumatera Barat",
+      "Sumatera Utara",
+      "Aceh",
+      "Riau"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lake Toba lies in the province of — North Sumatra."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tari Saman, yang ditarikan sambil duduk berbaris dan bertepuk serempak, berasal dari provinsi ….",
+    "options": [
+      "Bali",
+      "Jawa Barat",
+      "Aceh",
+      "Sulawesi Selatan"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Saman dance, performed seated in a row with synchronised clapping, comes from the province of — Aceh (the Gayo people)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ketupat Lebaran dianyam dari daun muda pohon kelapa yang disebut ….",
+    "options": [
+      "Pandan",
+      "Pisang",
+      "Janur",
+      "Jati"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lebaran ketupat is woven from the young leaf of the coconut palm called — janur."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Buah berduri beraroma tajam apa yang dijuluki “raja buah”?",
+    "options": [
+      "Durian",
+      "Nangka",
+      "Salak",
+      "Manggis"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spiky, strong-smelling fruit is nicknamed the \"king of fruits\"? — durian (mangosteen is the \"queen\")."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam legenda Jawa, siapakah Ratu Laut Selatan?",
+    "options": [
+      "Dewi Sri",
+      "Dewi Sinta",
+      "Dewi Anjani",
+      "Nyi Roro Kidul"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Javanese legend, who is the Queen of the Southern Sea? — Nyi Roro Kidul."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lengkapi peribahasa: “Berakit-rakit ke hulu, berenang-renang ke ….”",
+    "options": [
+      "Tepian",
+      "Hilir",
+      "Muara",
+      "Seberang"
+    ],
+    "correctIndex": 0,
+    "gloss": "Complete the proverb \"Rafting upstream, swimming to the ...\" — tepian (the bank): hardship first, pleasure later."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Di WhatsApp, apa arti dua centang biru di samping pesan yang kamu kirim?",
+    "options": [
+      "Pesan gagal terkirim",
+      "Pesan sedang diketik",
+      "Pesan sudah dihapus",
+      "Pesan sudah dibaca"
+    ],
+    "correctIndex": 3,
+    "gloss": "In WhatsApp, what do two blue ticks beside a sent message mean? — the message has been read."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kode OTP yang dikirim bank lewat SMS dirancang untuk dipakai berapa kali?",
+    "options": [
+      "Sekali saja",
+      "Dua kali",
+      "Tiga kali",
+      "Tanpa batas"
+    ],
+    "correctIndex": 0,
+    "gloss": "A one-time password sent by the bank is meant to be used how many times? — once only."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Membocorkan akhir cerita film kepada orang yang belum menonton disebut memberi ….",
+    "options": [
+      "Spoiler",
+      "Trailer",
+      "Teaser",
+      "Rating"
+    ],
+    "correctIndex": 0,
+    "gloss": "Revealing a film ending to someone who has not seen it is giving a — spoiler."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minuman teh susu dengan bola tapioka kenyal, populer dengan nama boba, berasal dari ….",
+    "options": [
+      "Thailand",
+      "Korea Selatan",
+      "Vietnam",
+      "Taiwan"
+    ],
+    "correctIndex": 3,
+    "gloss": "Boba, milk tea with chewy tapioca pearls, comes from — Taiwan (1980s)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam permainan catur, bidak mana yang boleh melompati bidak lain?",
+    "options": [
+      "Benteng",
+      "Gajah",
+      "Kuda",
+      "Menteri"
+    ],
+    "correctIndex": 2,
+    "gloss": "In chess, which piece may jump over other pieces? — the knight (kuda, \"horse\")."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Di tiket pesawat, kode bandara DPS menuju ke ….",
+    "options": [
+      "Bali",
+      "Surabaya",
+      "Medan",
+      "Makassar"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a flight ticket, the airport code DPS goes to — Bali (Denpasar)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Benda apa yang tidak boleh dimasukkan ke microwave karena bisa memicu percikan api?",
+    "options": [
+      "Garpu logam",
+      "Piring keramik",
+      "Mangkuk kaca",
+      "Gelas kaca tahan panas"
+    ],
+    "correctIndex": 0,
+    "gloss": "What must not go in a microwave because it can spark? — a metal fork (metal reflects microwaves and sparks)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Apa keunggulan satu kode QRIS yang ditempel di warung?",
+    "options": [
+      "Bisa dibayar lewat bank atau dompet digital mana pun",
+      "Hanya untuk satu bank",
+      "Hanya untuk kartu debit",
+      "Hanya untuk uang tunai"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the advantage of a single QRIS code at a stall? — customers can pay through any bank or e-wallet app (QRIS is a unified standard)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Permintaan penonton agar penyanyi menyanyikan lagu tambahan di akhir konser disebut ….",
+    "options": [
+      "Soundcheck",
+      "Intro",
+      "Encore",
+      "Medley"
+    ],
+    "correctIndex": 2,
+    "gloss": "At a concert, the audience call for extra songs at the end is called an — encore."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam bola voli, satu tim boleh menyentuh bola paling banyak berapa kali sebelum bola melewati net?",
+    "options": [
+      "2 kali",
+      "3 kali",
+      "4 kali",
+      "5 kali"
+    ],
+    "correctIndex": 1,
+    "gloss": "In volleyball, a team may touch the ball at most how many times before it crosses the net? — three (a block does not count)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Upin dan Ipin tinggal bersama Opah dan kakak mereka, yaitu ….",
+    "options": [
+      "Kak Ayu",
+      "Kak Mila",
+      "Kak Nisa",
+      "Kak Ros"
+    ],
+    "correctIndex": 3,
+    "gloss": "Upin and Ipin live with Opah and their older sister — Kak Ros."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dewa petir bermartil Mjölnir dalam mitologi Nordik adalah ….",
+    "options": [
+      "Odin",
+      "Loki",
+      "Zeus",
+      "Thor"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Norse thunder god with the hammer Mjölnir is — Thor."
+  },
+  {
+    "level": 1,
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saat bepergian ke luar negeri, dokumen apa yang dicap oleh petugas imigrasi?",
+    "gloss": "When travelling abroad, which document does the immigration officer stamp? — The passport.",
+    "category": "general",
+    "options": [
+      "KTP",
+      "Paspor",
+      "SIM",
+      "Kartu vaksin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pada keyboard komputer, tombol Caps Lock mengubah huruf menjadi ….",
+    "options": [
+      "Huruf miring",
+      "Huruf kapital",
+      "Huruf tebal",
+      "Huruf kecil"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a computer keyboard, Caps Lock switches letters to — capitals."
+  },
+  {
+    "level": 1,
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam bulu tangkis, apa nama pukulan keras yang menukik tajam dari atas kepala?",
+    "gloss": "In badminton, what is the hard, steeply downward overhead shot called? — The smash.",
+    "category": "sports",
+    "options": [
+      "Lob",
+      "Smash",
+      "Drop shot",
+      "Netting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Berapa selisih lama antara satu dasawarsa dan satu windu?",
+    "options": [
+      "1 tahun",
+      "2 tahun",
+      "4 tahun",
+      "5 tahun"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the difference between a dasawarsa and a windu? — 2 years: a dasawarsa is 10 years, a windu is 8."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hari ini pasarannya Pon. Pasaran apa lima hari lagi?",
+    "options": [
+      "Pahing",
+      "Wage",
+      "Kliwon",
+      "Pon"
+    ],
+    "correctIndex": 3,
+    "gloss": "Today the Javanese market day is Pon. What is it five days on? — Pon again: the five pasaran (Legi, Pahing, Pon, Wage, Kliwon) cycle every five days."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Pantun biasa bersajak a-b-a-b. Baris keempatnya berima dengan baris ke ….",
+    "options": [
+      "Pertama",
+      "Ketiga",
+      "Tidak berima dengan baris mana pun",
+      "Kedua"
+    ],
+    "correctIndex": 3,
+    "gloss": "A pantun usually rhymes a-b-a-b. The fourth line rhymes with line — the second."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kumpulan surat R.A. Kartini terbit dengan judul “Habis Gelap Terbitlah ….”",
+    "options": [
+      "Terang",
+      "Fajar",
+      "Pagi",
+      "Cahaya"
+    ],
+    "correctIndex": 0,
+    "gloss": "R.A. Kartini collected letters are titled \"After Darkness Comes ...\" — Light (Terang)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Atap rumah gadang Minangkabau yang melengkung runcing menyerupai tanduk hewan apa?",
+    "options": [
+      "Sapi",
+      "Kambing",
+      "Rusa",
+      "Kerbau"
+    ],
+    "correctIndex": 3,
+    "gloss": "The curved, pointed roof of the Minangkabau rumah gadang resembles the horns of which animal? — the buffalo."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pemindai barcode di kasir membaca garis-garis hitam-putihnya dengan bantuan ….",
+    "options": [
+      "Magnet",
+      "Suara",
+      "Cahaya",
+      "Panas"
+    ],
+    "correctIndex": 2,
+    "gloss": "A supermarket barcode scanner reads the black and white bars with the help of — light."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Golongan darah mana yang dikenal sebagai donor universal?",
+    "options": [
+      "O",
+      "A",
+      "B",
+      "AB"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood group is the universal donor? — O."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jarak lari maraton resmi adalah ….",
+    "options": [
+      "40 km",
+      "42,195 km",
+      "45 km",
+      "50 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "The official marathon distance is — 42.195 km."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Satu byte terdiri atas 8 bit. Berapa nilai berbeda yang bisa disimpan satu byte?",
+    "options": [
+      "128",
+      "255",
+      "256",
+      "512"
+    ],
+    "correctIndex": 2,
+    "gloss": "One byte is 8 bits. How many different values can it hold? — 256 (2^8); 255 is only the highest value."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Rasa pedas cabai terutama berasal dari zat ….",
+    "options": [
+      "Kurkumin",
+      "Kapsaisin",
+      "Piperin",
+      "Kafein"
+    ],
+    "correctIndex": 1,
+    "gloss": "The heat of chilli peppers comes mainly from the compound — capsaicin."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kompleks candi Angkor Wat terletak di negara ….",
+    "options": [
+      "Kamboja",
+      "Thailand",
+      "Myanmar",
+      "Laos"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Angkor Wat temple complex lies in — Cambodia."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam serial dan manga “One Piece”, Luffy bercita-cita menjadi Raja ….",
+    "options": [
+      "Samurai",
+      "Bajak Laut",
+      "Ninja",
+      "Petualang"
+    ],
+    "correctIndex": 1,
+    "gloss": "In \"One Piece\", Luffy dreams of becoming King of the — Pirates."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Serial “Squid Game”, tontonan viral di seluruh dunia, berasal dari negara ….",
+    "options": [
+      "Jepang",
+      "Tiongkok",
+      "Korea Selatan",
+      "Thailand"
+    ],
+    "correctIndex": 2,
+    "gloss": "The series \"Squid Game\", a worldwide viral hit, comes from — South Korea."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Piala Dunia sepak bola 2022 di Qatar dimenangkan oleh tim nasional ….",
+    "options": [
+      "Argentina",
+      "Prancis",
+      "Kroasia",
+      "Maroko"
+    ],
+    "correctIndex": 0,
+    "gloss": "The 2022 football World Cup in Qatar was won by — Argentina."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Dibandingkan tahun lalu, awal Ramadan tahun ini jatuh pada tanggal Masehi yang ….",
+    "options": [
+      "Lebih lambat sekitar 11 hari",
+      "Sama persis",
+      "Lebih awal sekitar 11 hari",
+      "Lebih awal sekitar sebulan"
+    ],
+    "correctIndex": 2,
+    "gloss": "Compared with last year, Ramadan this year starts on a Gregorian date that is — about 11 days earlier: the lunar Hijri year is about 11 days shorter than the solar year."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Selat yang memisahkan Pulau Sumatra dari Semenanjung Malaysia adalah Selat ….",
+    "options": [
+      "Sunda",
+      "Makassar",
+      "Malaka",
+      "Lombok"
+    ],
+    "correctIndex": 2,
+    "gloss": "The strait separating Sumatra from the Malay Peninsula is the Strait of — Malacca."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Satuan frekuensi, hertz (Hz), dinamai dari fisikawan ….",
+    "options": [
+      "Georg Ohm",
+      "André-Marie Ampère",
+      "Nikola Tesla",
+      "Heinrich Hertz"
+    ],
+    "correctIndex": 3,
+    "gloss": "The unit of frequency, the hertz, is named after the physicist — Heinrich Hertz."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Situs ibu kota Majapahit, Trowulan, terletak di provinsi ….",
+    "options": [
+      "Jawa Tengah",
+      "Jawa Barat",
+      "Yogyakarta",
+      "Jawa Timur"
+    ],
+    "correctIndex": 3,
+    "gloss": "The site of the Majapahit capital, Trowulan, lies in the province of — East Java."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Siapa pencipta lagu keroncong “Bengawan Solo”?",
+    "options": [
+      "Gesang",
+      "Ismail Marzuki",
+      "W.R. Supratman",
+      "Ibu Sud"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who composed the keroncong song \"Bengawan Solo\"? — Gesang."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Candi utama Prambanan, yang tertinggi di kompleks itu, dipersembahkan kepada dewa ….",
+    "options": [
+      "Wisnu",
+      "Siwa",
+      "Brahma",
+      "Indra"
+    ],
+    "correctIndex": 1,
+    "gloss": "The main, tallest temple of Prambanan is dedicated to the god — Shiva (the flanking temples are Vishnu and Brahma)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tim Berners-Lee mengusulkan World Wide Web pada 1989 saat bekerja di lembaga riset ….",
+    "options": [
+      "MIT",
+      "Bell Labs",
+      "NASA",
+      "CERN"
+    ],
+    "correctIndex": 3,
+    "gloss": "Tim Berners-Lee proposed the World Wide Web in 1989 while working at the research institute — CERN."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Multatuli, penulis “Max Havelaar” yang mengkritik tanam paksa, bernama asli ….",
+    "options": [
+      "Conrad Busken Huet",
+      "Louis Couperus",
+      "Eduard Douwes Dekker",
+      "Pieter Brooshooft"
+    ],
+    "correctIndex": 2,
+    "gloss": "Multatuli, author of \"Max Havelaar\", which criticised the cultivation system, was born — Eduard Douwes Dekker."
+  }
+]

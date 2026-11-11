@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“木”字单独是一棵树，两个“木”并排是“林”。三个“木”叠在一起是哪个字？",
+    "options": [
+      "磊",
+      "焱",
+      "淼",
+      "森"
+    ],
+    "correctIndex": 3,
+    "gloss": "One 木 is a tree, two make 林 (grove); three stacked make which character? — 森 (forest); 磊 is three stones, 焱 three fires, 淼 three waters."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“一刻钟”是15分钟，那么“三刻钟”是多少分钟？",
+    "options": [
+      "30分钟",
+      "40分钟",
+      "45分钟",
+      "60分钟"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"One quarter-hour (刻) is 15 minutes\", so how long is 三刻钟? — 45 minutes: three times 15."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“妈、麻、马、骂”依次读一声、二声、三声、四声。其中读第三声的是哪个字？",
+    "options": [
+      "妈",
+      "麻",
+      "马",
+      "骂"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mā, má, mǎ, mà read in tones 1 to 4 in order; which is the third tone? — 马 (mǎ)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "下面哪个词里的“行”，读作 háng？",
+    "options": [
+      "行走",
+      "银行",
+      "行李",
+      "步行"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word reads 行 as háng rather than xíng? — 银行 (bank); in 行走, 行李 and 步行 it is xíng."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“年年有余”是春节的吉祥话，借的是谐音。年夜饭上取这个彩头的是哪道菜？",
+    "options": [
+      "鱼",
+      "虾",
+      "年糕",
+      "饺子"
+    ],
+    "correctIndex": 0,
+    "gloss": "A pun on 余 (surplus) and 鱼 (fish), both yú: which New Year dish carries the wish \"may every year have a surplus\"? — Fish; 年糕 puns on \"higher every year\" (年年高), not \"surplus\"."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "北方冬天街头常见的冰糖葫芦，最传统的主料是什么？",
+    "options": [
+      "苹果",
+      "草莓",
+      "山楂",
+      "橘子"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the most traditional fruit on a candied tanghulu skewer in northern winters? — Hawthorn berries (山楂)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "传说每年农历七月初七，喜鹊搭起鹊桥，让牛郎与谁相会？",
+    "options": [
+      "织女",
+      "嫦娥",
+      "白娘子",
+      "孟姜女"
+    ],
+    "correctIndex": 0,
+    "gloss": "On the seventh night of the seventh lunar month magpies build a bridge for the Cowherd to meet whom? — The Weaver Girl (织女)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "北京的故宫，在明清两代被称作什么？",
+    "options": [
+      "圆明园",
+      "颐和园",
+      "天坛",
+      "紫禁城"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was Beijing's Palace Museum called in the Ming and Qing dynasties? — The Forbidden City (紫禁城); the others are other Beijing imperial sites."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "素有“天府之国”美称的是哪个省？",
+    "options": [
+      "云南",
+      "四川",
+      "贵州",
+      "湖北"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which province is called the \"Land of Abundance\" (天府之国)? — Sichuan, from the fertile Chengdu Plain."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "古装剧里，皇帝自称什么？",
+    "options": [
+      "本宫",
+      "朕",
+      "哀家",
+      "本王"
+    ],
+    "correctIndex": 1,
+    "gloss": "In costume dramas what does the emperor call himself? — 朕; 本宫 is a consort, 哀家 the dowager, 本王 a prince."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "中医“望闻问切”里的“切”，指的是医生做什么？",
+    "options": [
+      "看舌苔",
+      "听声音",
+      "询问病情",
+      "摸脉"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the four diagnostic methods of Chinese medicine (look, listen/smell, ask, feel), what does 切 mean? — Feeling the pulse; 望 is looking (e.g. the tongue), 闻 listening and smelling, 问 asking."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "在简谱里，数字“1、2、3”分别唱作do、re、mi，照这个顺序往下数，数字“6”唱作什么？",
+    "options": [
+      "si",
+      "sol",
+      "la",
+      "fa"
+    ],
+    "correctIndex": 2,
+    "gloss": "In numbered notation 1 to 7 are do re mi fa sol la si; how is 6 sung? — la, the sixth in the list."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "文房四宝里的“砚”，是用来做什么的？",
+    "options": [
+      "磨墨",
+      "裁纸",
+      "压纸",
+      "洗笔"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Four Treasures of the Study, what is the inkstone (砚) for? — Grinding ink; paperweights press paper and brush washers clean brushes."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "京剧的“生、旦、净、丑”四大行当里，主要扮演女性角色的是哪一个？",
+    "options": [
+      "生",
+      "净",
+      "丑",
+      "旦"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of the four Peking opera role types mainly plays women? — 旦 (dan)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "手机“云盘”里的照片，实际保存在哪里？",
+    "options": [
+      "互联网上的服务器",
+      "绕地球飞的卫星",
+      "手机里的SIM卡",
+      "你家的路由器"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where are photos in a phone's \"cloud drive\" actually stored? — On servers on the internet, not a literal cloud or satellite."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "一杯拿铁咖啡里，除了咖啡，加得最多的是什么？",
+    "options": [
+      "清水",
+      "奶油",
+      "牛奶",
+      "巧克力酱"
+    ],
+    "correctIndex": 2,
+    "gloss": "Besides coffee, what is the main ingredient of a latte? — Steamed milk."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "冬天用湿手去摸冷冻室里的冰块，手会被粘住。这是因为手上的水发生了什么变化？",
+    "options": [
+      "蒸发",
+      "沸腾",
+      "结冰",
+      "升华"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does a wet hand stick to ice from the freezer? — The water on the skin freezes, bonding the hand to the ice."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "夏天开空调，出风口最好朝上吹，这是因为冷空气会怎样？",
+    "options": [
+      "上升",
+      "原地不动",
+      "下沉",
+      "变成热空气"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why should the air conditioner blow upward in summer? — Cold air is denser and sinks, so it spreads through the room."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "用手碰一碰含羞草的叶子，叶子会怎样？",
+    "options": [
+      "变红",
+      "合拢",
+      "掉落",
+      "张得更大"
+    ],
+    "correctIndex": 1,
+    "gloss": "What happens when you touch a mimosa (sensitive plant) leaf? — It folds closed."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "壁虎遇到危险时，会主动甩掉什么来脱身？",
+    "options": [
+      "爪子",
+      "舌头",
+      "脚趾",
+      "尾巴"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does a gecko drop to escape a predator? — Its tail, which later regrows."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "哆啦A梦能从肚子前面的哪里取出各种神奇道具？",
+    "options": [
+      "背包",
+      "四次元口袋",
+      "帽子",
+      "铃铛"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where does Doraemon pull his gadgets from? — His four-dimensional pocket."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "视频清晰度里常说的“4K”，指的是画面的什么更高？",
+    "options": [
+      "分辨率",
+      "屏幕尺寸",
+      "刷新速度",
+      "电池容量"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does \"4K\" refer to in video quality? — Resolution (about 4000 pixels across)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "《俄罗斯方块》里，每一块下落的方块都是由几个小方格拼成的？",
+    "options": [
+      "3个",
+      "4个",
+      "5个",
+      "6个"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many small squares make up each falling piece in Tetris? — Four (the tetrominoes)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "足球比赛中，球整体越过边线出界后，怎样把球重新发回场内？",
+    "options": [
+      "双手掷入",
+      "脚踢入",
+      "头顶入",
+      "单手抛入"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is a football put back into play after it crosses the touchline? — A two-handed throw-in."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "天气预报说“降水概率90%”，最接近什么意思？",
+    "options": [
+      "会下很大的雨",
+      "下雨的可能性很大",
+      "雨量达到90毫米",
+      "一天里有90%的时间在下雨"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does \"90% chance of precipitation\" mean? — Rain is very likely; it says nothing about intensity, amount or duration (the common trap)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "北京的七月正值盛夏，同一时间，澳大利亚的悉尼是什么季节？",
+    "options": [
+      "夏季",
+      "春季",
+      "冬季",
+      "秋季"
+    ],
+    "correctIndex": 2,
+    "gloss": "It is high summer in Beijing in July; what season is it in Sydney? — Winter: the southern hemisphere's seasons are reversed."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "做寿司卷时，外面包着米饭的那层黑色薄片叫什么？",
+    "options": [
+      "腐竹",
+      "海苔",
+      "荷叶",
+      "海蜇"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the thin black sheet wrapped around sushi rice? — Nori (海苔), dried seaweed."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "衣服标签上的“XL”表示什么尺码？",
+    "options": [
+      "小号",
+      "中号",
+      "加小号",
+      "加大号"
+    ],
+    "correctIndex": 3,
+    "gloss": "What size does \"XL\" on a clothing label mean? — Extra large (加大号)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "“朝三暮四”的故事里，猴子嫌早上三个晚上四个太少，改成早四晚三就高兴了。一天一共几个栗子？",
+    "options": [
+      "6个",
+      "7个",
+      "8个",
+      "9个"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the \"three in the morning, four at night\" story, the monkeys were angry, then happy with four and three. How many chestnuts a day? — Seven either way."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "传说天上原有十个太阳，后羿射日之后，留给人间的有几个？",
+    "options": [
+      "1个",
+      "2个",
+      "3个",
+      "9个"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the legend there were ten suns; after Hou Yi's arrows how many were left? — One (nine shot down)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《红楼梦》里，住在大观园潇湘馆、爱葬花的是谁？",
+    "options": [
+      "薛宝钗",
+      "史湘云",
+      "林黛玉",
+      "贾探春"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who lives in the Xiaoxiang Lodge of the Grand View Garden and buries fallen blossoms? — Lin Daiyu."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "举世闻名的兵马俑坑，位于哪座城市附近？",
+    "options": [
+      "洛阳",
+      "西安",
+      "南京",
+      "开封"
+    ],
+    "correctIndex": 1,
+    "gloss": "Near which city are the famous Terracotta Army pits? — Xi'an."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "跨越伶仃洋的港珠澳大桥，名字里的“珠”指的是哪座城市？",
+    "options": [
+      "广州",
+      "深圳",
+      "东莞",
+      "珠海"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city does the \"Zhu\" in the Hong Kong-Zhuhai-Macao Bridge stand for? — Zhuhai."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "姚明在美国职业篮球联赛（NBA）里，效力的是哪支球队？",
+    "options": [
+      "火箭队",
+      "湖人队",
+      "公牛队",
+      "热火队"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which NBA team did Yao Ming play for? — The Houston Rockets, his whole NBA career."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "鲨鱼的整副骨架，是由什么构成的？",
+    "options": [
+      "硬骨",
+      "软骨",
+      "角质",
+      "钙化的甲壳"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is a shark's skeleton made of? — Cartilage, not bone."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "夏天，一杯冰饮的外壁会挂满水珠。这些水是从哪里来的？",
+    "options": [
+      "空气中的水蒸气",
+      "从杯子里渗出来",
+      "冰块融化后溅出",
+      "杯壁材料释放"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where does the water on a cold glass come from? — Water vapour in the air condenses on the cold surface; glass does not leak."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "意大利水城威尼斯，最有代表性的传统小船叫什么？",
+    "options": [
+      "乌篷船",
+      "舢板",
+      "贡多拉",
+      "独木舟"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is Venice's emblematic traditional boat? — The gondola (贡多拉); 乌篷船 is Shaoxing's."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "男高音帕瓦罗蒂与多明戈、卡雷拉斯合称“三大男高音”，他来自哪个国家？",
+    "options": [
+      "意大利",
+      "西班牙",
+      "法国",
+      "美国"
+    ],
+    "correctIndex": 0,
+    "gloss": "Pavarotti, one of the Three Tenors, was from which country? — Italy; Domingo and Carreras were Spanish."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "哪部宫崎骏动画里，女孩的父母因为贪吃变成了猪？",
+    "options": [
+      "《千与千寻》",
+      "《龙猫》",
+      "《天空之城》",
+      "《哈尔的移动城堡》"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Miyazaki film has a girl's parents turned into pigs after gorging? — Spirited Away."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "手机网络“5G”里的“G”，指的是英文的哪个词？",
+    "options": [
+      "Gigabyte（千兆字节）",
+      "Global（全球）",
+      "Gateway（网关）",
+      "Generation（代）"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the G in 5G stand for? — Generation (the fifth generation of mobile networks)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "川菜里让人舌头发“麻”的，主要来自哪种调料？",
+    "options": [
+      "花椒",
+      "辣椒",
+      "胡椒",
+      "芥末"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice gives Sichuan food its numbing \"ma\" feeling? — Sichuan pepper (花椒); chili gives the heat."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "农历九月初九重阳节，人们自古有什么习俗？",
+    "options": [
+      "赛龙舟",
+      "放河灯",
+      "吃汤圆",
+      "登高"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the traditional custom on the Double Ninth Festival? — Climbing high (登高); the others belong to other festivals."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "成语“半斤八两”，是因为旧时一斤等于多少两？",
+    "options": [
+      "10两",
+      "12两",
+      "16两",
+      "20两"
+    ],
+    "correctIndex": 2,
+    "gloss": "The idiom 半斤八两 (\"half a jin, eight liang\") works because the old jin was how many liang? — 16, so half a jin is 8 liang, i.e. equal."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“印象派”这个名称，来自莫奈的哪一幅画？",
+    "options": [
+      "《睡莲》",
+      "《干草堆》",
+      "《草地上的午餐》",
+      "《日出·印象》"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Monet painting gave Impressionism its name? — Impression, Sunrise (1874); Luncheon on the Grass is by Manet."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "声音在下面哪种物质中传播得最快？",
+    "options": [
+      "空气",
+      "钢铁",
+      "水",
+      "橡胶"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which material does sound travel fastest? — Steel; faster in solids than in water, and slowest in air."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "黄河发源于青海，奔流数千千米，最终注入哪片海？",
+    "options": [
+      "黄海",
+      "东海",
+      "南海",
+      "渤海"
+    ],
+    "correctIndex": 3,
+    "gloss": "Into which sea does the Yellow River finally flow? — The Bohai Sea, often confused with the Yellow Sea."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“横眉冷对千夫指，俯首甘为孺子牛”出自谁之手？",
+    "options": [
+      "郭沫若",
+      "巴金",
+      "老舍",
+      "鲁迅"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"Fierce-browed I coolly face a thousand pointing fingers; head bowed I serve like an ox for children\"? — Lu Xun (the poem 自嘲)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1953年提出DNA双螺旋结构模型的，是哪两位科学家？",
+    "options": [
+      "孟德尔和摩尔根",
+      "巴斯德和科赫",
+      "沃森和克里克",
+      "达尔文和华莱士"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which two scientists proposed the DNA double helix in 1953? — Watson and Crick."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "玄奘西行取经归来后，口述、由弟子辩机整理的西域游记是哪一部？",
+    "options": [
+      "《佛国记》",
+      "《大唐西域记》",
+      "《洛阳伽蓝记》",
+      "《徐霞客游记》"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which travelogue did Xuanzang dictate and his disciple Bianji compile? — Great Tang Records on the Western Regions; 佛国记 is Faxian's."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "古希腊学者利用同一时刻两地日影的差异，最早较准确地算出了地球的周长。他是谁？",
+    "options": [
+      "阿基米德",
+      "毕达哥拉斯",
+      "埃拉托色尼",
+      "托勒密"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Greek scholar first estimated the Earth's circumference from shadow angles at two places? — Eratosthenes."
+  }
+]
