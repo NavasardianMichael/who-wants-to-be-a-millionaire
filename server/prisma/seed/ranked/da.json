@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvad er klokken, når en dansker siger »halv otte«?",
+    "options": [
+      "07.30",
+      "07.45",
+      "08.15",
+      "08.30"
+    ],
+    "correctIndex": 0,
+    "gloss": "What time is it when a Dane says \"halv otte\"? — 07.30: Danish counts toward the coming hour, so \"half eight\" is half an hour before eight (not 08.30 as in English)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Fjerner du det første bogstav i »skål«, står der en grøntsag. Hvilken?",
+    "options": [
+      "Løg",
+      "Ært",
+      "Majs",
+      "Kål"
+    ],
+    "correctIndex": 3,
+    "gloss": "Remove the first letter of \"skål\" and a vegetable remains. Which? — Kål (cabbage): s-kål."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En »tier« og en »femmer« ligger i lommen. Hvor mange kroner er det i alt?",
+    "options": [
+      "10 kr.",
+      "15 kr.",
+      "20 kr.",
+      "25 kr."
+    ],
+    "correctIndex": 1,
+    "gloss": "A \"tier\" (10-krone coin) and a \"femmer\" (5-krone coin) are in the pocket. How many kroner in all? — 15: Danish slang names coins by their value plus -er."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvem er din »farmor«?",
+    "options": [
+      "Din mors mor",
+      "Din fars mor",
+      "Din fars søster",
+      "Din mors søster"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is your \"farmor\"? — Your father's mother: Danish builds the word from far (father) + mor (mother)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket tegn kalder danskerne et »snabel-a«?",
+    "options": [
+      "&",
+      "#",
+      "%",
+      "@"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sign do Danes call a \"snabel-a\" (trunk-a)? — @, the at sign in e-mail addresses."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken ret med kartofler og persillesovs blev i 2014 kåret til Danmarks nationalret?",
+    "options": [
+      "Stegt flæsk",
+      "Frikadeller",
+      "Hakkebøf",
+      "Medisterpølse"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which dish with potatoes and parsley sauce was voted Denmark's national dish in 2014? — Stegt flæsk (fried pork belly) med persillesovs."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken figur brænder man traditionelt på bålet sankthansaften?",
+    "options": [
+      "En nisse",
+      "En heks",
+      "En snemand",
+      "En skorstensfejer"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which figure is traditionally burned on the bonfire on Midsummer Eve (Sankt Hans)? — A witch."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk ø ligger i Østersøen, tættere på Sverige end på resten af Danmark?",
+    "options": [
+      "Læsø",
+      "Samsø",
+      "Fanø",
+      "Bornholm"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Danish island lies in the Baltic, closer to Sweden than to the rest of Denmark? — Bornholm."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken fejlkode viser en hjemmeside, når siden ikke findes?",
+    "options": [
+      "404",
+      "200",
+      "301",
+      "500"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which error code does a website show when the page does not exist? — 404 (Not Found); 200 means OK, 301 a redirect, 500 a server error."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken sport har danske Viktor Axelsen to gange vundet OL-guld i?",
+    "options": [
+      "Tennis",
+      "Badminton",
+      "Bordtennis",
+      "Squash"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sport has Denmark's Viktor Axelsen won Olympic gold in twice? — Badminton (Tokyo 2020 and Paris 2024)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket dansk band fik i 1997 et verdenshit med »Barbie Girl«?",
+    "options": [
+      "Alphabeat",
+      "Safri Duo",
+      "Aqua",
+      "Lukas Graham"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Danish band had a worldwide hit in 1997 with \"Barbie Girl\"? — Aqua."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem er onkel til Rip, Rap og Rup?",
+    "options": [
+      "Fedtmule",
+      "Mickey Mouse",
+      "Alfred J. Kvak",
+      "Anders And"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is the uncle of Huey, Dewey and Louie (Rip, Rap og Rup)? — Anders And (Donald Duck)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvad hedder den lille bamse, der sejler verden rundt sammen med pingvinen Pingo?",
+    "options": [
+      "Rasmus Klump",
+      "Peter Plys",
+      "Bamse",
+      "Paddington"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the little bear who sails the world with the penguin Pingo called? — Rasmus Klump, the Danish picture-book bear."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken nordisk gud svinger hammeren Mjølner?",
+    "options": [
+      "Odin",
+      "Thor",
+      "Tyr",
+      "Loke"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Norse god wields the hammer Mjølner? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvad hedder den kolde risdessert, hvor den, der finder den hele mandel, får en gave?",
+    "options": [
+      "Koldskål",
+      "Rødgrød",
+      "Risalamande",
+      "Æblekage"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the cold rice dessert called where whoever finds the whole almond gets a present? — Risalamande, the Danish Christmas dessert."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket af disse danske dyr går i dvale hele vinteren?",
+    "options": [
+      "Ræv",
+      "Rådyr",
+      "Hare",
+      "Pindsvin"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these Danish animals hibernates all winter? — Pindsvin (hedgehog); fox, roe deer and hare stay active."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad er hovedingrediensen i hummus?",
+    "options": [
+      "Kikærter",
+      "Linser",
+      "Sojabønner",
+      "Aubergine"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the main ingredient of hummus? — Chickpeas (kikærter), blended with tahini, lemon and garlic."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvor mange spillere har et håndboldhold på banen ad gangen?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players does a handball team have on court at a time? — Seven, six court players and a goalkeeper."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken storby ligger lufthavnen Schiphol ved?",
+    "options": [
+      "Bruxelles",
+      "Rotterdam",
+      "Amsterdam",
+      "Antwerpen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which big city is Schiphol airport next to? — Amsterdam."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken ost laves traditionelt af fåremælk og er stjernen i en græsk salat?",
+    "options": [
+      "Mozzarella",
+      "Cheddar",
+      "Havarti",
+      "Feta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which cheese, traditionally from sheep's milk, is the star of a Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken streamingtjeneste står bag serierne »Stranger Things« og »Wednesday«?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "Viaplay",
+      "HBO Max"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which streaming service is behind the series \"Stranger Things\" and \"Wednesday\"? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvor lang er et maratonløb?",
+    "options": [
+      "21 km",
+      "32 km",
+      "42 km",
+      "50 km"
+    ],
+    "correctIndex": 2,
+    "gloss": "How long is a marathon? — About 42 km (42.195 km)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken filtype bruges ofte til korte, gentagne billedanimationer på nettet?",
+    "options": [
+      "PDF",
+      "MP3",
+      "GIF",
+      "ZIP"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which file type is often used for short looping image animations on the web? — GIF; PDF is a document, MP3 audio, ZIP an archive."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad hedder det grønne tepulver, der bruges i japansk teceremoni og i moderne lattes?",
+    "options": [
+      "Chai",
+      "Matcha",
+      "Rooibos",
+      "Earl Grey"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the green tea powder used in the Japanese tea ceremony and in modern lattes called? — Matcha."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad kaldes et maleri af opstillede ting som frugt og blomster i en vase?",
+    "options": [
+      "Portræt",
+      "Landskab",
+      "Stilleben",
+      "Abstrakt"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a painting of arranged objects such as fruit and flowers in a vase called? — Stilleben (still life)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket spil går ud på at grave og bygge i en verden af blokke og passe på creepers?",
+    "options": [
+      "Roblox",
+      "Fortnite",
+      "Tetris",
+      "Minecraft"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which game is about digging and building in a world of blocks while avoiding creepers? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I hvilken tegnefilm leder klovnefisken Marlin efter sin søn?",
+    "options": [
+      "Find Nemo",
+      "Biler",
+      "Toy Story",
+      "Monsters, Inc."
+    ],
+    "correctIndex": 0,
+    "gloss": "In which animated film does the clownfish Marlin search for his son? — Find Nemo."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad kaldes stillingen 40-40 i tennis?",
+    "options": [
+      "Ace",
+      "Deuce",
+      "Let",
+      "Break"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the score 40-40 called in tennis? — Deuce: a player must win two points in a row to take the game."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hvor mange er »halvanden snes«?",
+    "options": [
+      "15",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many is \"halvanden snes\"? — 30: a \"snes\" is 20 and \"halvanden\" is one and a half."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvilket af disse dyr hedder det samme i ental og flertal?",
+    "options": [
+      "Ko",
+      "Hest",
+      "Får",
+      "Gris"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these animals has the same word in singular and plural? — Får: et får, to får (køer, heste, grise)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken nordisk gud er tirsdag opkaldt efter?",
+    "options": [
+      "Thor",
+      "Odin",
+      "Balder",
+      "Tyr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norse god is Tuesday named after? — Tyr (tirsdag = Tyrs dag); Thor gave torsdag, Odin onsdag."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I hvilken jysk by står runestenene, der kaldes »Danmarks dåbsattest«?",
+    "options": [
+      "Jelling",
+      "Ribe",
+      "Viborg",
+      "Horsens"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Jutland town stand the runestones called \"Denmark's birth certificate\"? — Jelling."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dato holder danskerne grundlovsdag?",
+    "options": [
+      "1. maj",
+      "5. juni",
+      "16. april",
+      "23. juni"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which date do Danes keep Constitution Day? — 5 June (the constitution of 1849)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Danmark vandt EM i fodbold i 1992. Hvilket land blev slået i finalen?",
+    "options": [
+      "Holland",
+      "Sverige",
+      "Tyskland",
+      "Italien"
+    ],
+    "correctIndex": 2,
+    "gloss": "Denmark won the 1992 European football championship. Which country lost the final? — Germany, 2-0."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk fysiker fik i 1922 Nobelprisen for sin forskning i atomets opbygning?",
+    "options": [
+      "Aage Bohr",
+      "Niels Finsen",
+      "Piet Hein",
+      "Niels Bohr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Danish physicist won the 1922 Nobel Prize for work on atomic structure? — Niels Bohr; his son Aage won in 1975, Finsen won in 1903 for medicine."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvem tegnede de danske designerstole »Ægget« og »Svanen«?",
+    "options": [
+      "Arne Jacobsen",
+      "Hans J. Wegner",
+      "Børge Mogensen",
+      "Verner Panton"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who designed the Danish chairs \"the Egg\" and \"the Swan\"? — Arne Jacobsen (1958, SAS Royal Hotel)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I hvilket land blev musiktjenesten Spotify grundlagt?",
+    "options": [
+      "USA",
+      "Sverige",
+      "Norge",
+      "Finland"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which country was the music service Spotify founded? — Sweden (Stockholm, 2006)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket folk byggede bjergbyen Machu Picchu højt oppe i Andesbjergene?",
+    "options": [
+      "Mayaerne",
+      "Aztekerne",
+      "Inkaerne",
+      "Olmekerne"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which people built the mountain city Machu Picchu in the Andes? — The Incas."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken britisk forfatter skrev dystopien »1984«?",
+    "options": [
+      "Aldous Huxley",
+      "H.G. Wells",
+      "Charles Dickens",
+      "George Orwell"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which British author wrote the dystopia \"1984\"? — George Orwell; Huxley wrote \"Brave New World\"."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvor mange volt er der i en almindelig dansk stikkontakt?",
+    "options": [
+      "110 V",
+      "120 V",
+      "230 V",
+      "400 V"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many volts are in an ordinary Danish wall socket? — 230 V (110/120 V is the US standard, 400 V three-phase supply)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket krydderi giver karry dens gule farve?",
+    "options": [
+      "Paprika",
+      "Gurkemeje",
+      "Kanel",
+      "Spidskommen"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which spice gives curry its yellow colour? — Gurkemeje (turmeric)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad hedder det jernholdige stof, der binder ilt i de røde blodlegemer?",
+    "options": [
+      "Insulin",
+      "Keratin",
+      "Hæmoglobin",
+      "Kollagen"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the iron-containing substance that binds oxygen in red blood cells called? — Haemoglobin."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk fysiker opdagede i 1820, at en elektrisk strøm kan få en kompasnål til at dreje?",
+    "options": [
+      "Tycho Brahe",
+      "Niels Finsen",
+      "Ludvig Lorenz",
+      "H.C. Ørsted"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Danish physicist discovered in 1820 that an electric current can deflect a compass needle? — H.C. Ørsted, the discovery of electromagnetism."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvis det er lørdag om tre dage, hvilken dag var det så i forgårs?",
+    "options": [
+      "Mandag",
+      "Tirsdag",
+      "Onsdag",
+      "Torsdag"
+    ],
+    "correctIndex": 0,
+    "gloss": "If it is Saturday in three days, what day was it the day before yesterday (\"i forgårs\")? — Monday: today is Wednesday, and forgårs is two days back."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem var i 1963 den første kvinde i rummet?",
+    "options": [
+      "Valentina Teresjkova",
+      "Svetlana Savitskaja",
+      "Sally Ride",
+      "Peggy Whitson"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first woman in space, in 1963? — Valentina Tereshkova; Savitskaya (1982) and Ride (1983) came later."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvad står »S« for i internetadressen »https«?",
+    "options": [
+      "Server",
+      "Secure",
+      "Speed",
+      "Site"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the \"S\" stand for in the web address \"https\"? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken fransk filosof sagde »Jeg tænker, altså er jeg«?",
+    "options": [
+      "Voltaire",
+      "Blaise Pascal",
+      "René Descartes",
+      "Jean-Paul Sartre"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which French philosopher said \"I think, therefore I am\"? — René Descartes (cogito ergo sum)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken dansk astronom beregnede i 1676 lysets hastighed ved at følge Jupiters måne Io?",
+    "options": [
+      "Tycho Brahe",
+      "Niels Bohr",
+      "H.C. Ørsted",
+      "Ole Rømer"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Danish astronomer calculated the speed of light in 1676 by tracking Jupiter's moon Io? — Ole Rømer."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken by var Brasiliens hovedstad lige før Brasília blev indviet i 1960?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador",
+      "Belo Horizonte"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which city was Brazil's capital just before Brasília was inaugurated in 1960? — Rio de Janeiro (Salvador was capital until 1763)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvem opdagede elektronen i 1897?",
+    "options": [
+      "Ernest Rutherford",
+      "J.J. Thomson",
+      "Niels Bohr",
+      "James Chadwick"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who discovered the electron in 1897? — J.J. Thomson; Rutherford found the nucleus, Chadwick the neutron."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welk bepaald lidwoord hoort bij elk verkleinwoord op -je, zoals ‘meisje’?",
+    "options": [
+      "De",
+      "Een",
+      "Dit",
+      "Het"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which definite article goes with every diminutive in -je, such as \"meisje\"? — \"het\": all Dutch diminutives are neuter, even a girl."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hoe laat is het als het ‘tien over half acht’ is?",
+    "options": [
+      "7:10",
+      "7:40",
+      "8:10",
+      "8:40"
+    ],
+    "correctIndex": 1,
+    "gloss": "What time is \"ten past half eight\"? — 7:40: Dutch \"half acht\" is 7:30, so ten past it is 7:40."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk van deze woorden krijgt in het meervoud de uitgang -eren?",
+    "options": [
+      "Ei",
+      "Boek",
+      "Tafel",
+      "Auto"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word takes the plural ending -eren? — \"ei\" (eieren); boek gives boeken, tafel tafels, auto auto's."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welke vorm is juist: ‘Hij … elke dag naar zijn werk’ (fietsen)?",
+    "options": [
+      "fiets",
+      "fietsd",
+      "fietsdt",
+      "fietst"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which form is correct: \"He ... to work every day\" (to cycle)? — fietst: the he-form takes -t after the stem fiets, never -d or -dt."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welk getal is ‘negenenzestig’?",
+    "options": [
+      "69",
+      "79",
+      "96",
+      "99"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which number is \"negenenzestig\"? — 69: Dutch says the ones first (nine-and-sixty); trap is 96."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke sport beoefen je op natuurijs tijdens de Elfstedentocht in Friesland?",
+    "options": [
+      "Skiën",
+      "IJshockey",
+      "Curling",
+      "Schaatsen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sport is skated on natural ice in the Elfstedentocht in Friesland? — Skating, 200 km past eleven towns."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk gebak, bestrooid met poedersuiker, eten Nederlanders traditioneel met oud en nieuw?",
+    "options": [
+      "Oliebollen",
+      "Speculaas",
+      "Tompouces",
+      "Boterkoek"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which pastry dusted with icing sugar is traditional at New Year in the Netherlands? — Oliebollen."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In welke stad zetelen regering en parlement van Nederland, hoewel Amsterdam de hoofdstad is?",
+    "options": [
+      "Rotterdam",
+      "Utrecht",
+      "Den Haag",
+      "Haarlem"
+    ],
+    "correctIndex": 2,
+    "gloss": "Where do the Dutch government and parliament sit although Amsterdam is the capital? — The Hague."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In welk van deze landen betaal je niet met euro’s, maar met franken?",
+    "options": [
+      "Oostenrijk",
+      "Italië",
+      "Spanje",
+      "Zwitserland"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which of these countries do you pay with francs, not euros? — Switzerland."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke vogel brengt volgens het sprookje de baby’s?",
+    "options": [
+      "De ooievaar",
+      "De uil",
+      "De zwaan",
+      "De merel"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird brings the babies in the fairy tale? — The stork."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat betekent de foutmelding ‘404’ op een website?",
+    "options": [
+      "De pagina bestaat niet",
+      "De server is overbelast",
+      "Je hebt geen toegang",
+      "Je wifi is verbroken"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the error \"404\" on a website mean? — Page not found (503 is overloaded, 403 is forbidden)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke muziekdienst uit Zweden heeft een groen logo met drie gebogen strepen?",
+    "options": [
+      "Deezer",
+      "Tidal",
+      "SoundCloud",
+      "Spotify"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Swedish music service has a green logo with three curved lines? — Spotify (Stockholm)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk dier is Nijntje, het figuurtje van tekenaar Dick Bruna?",
+    "options": [
+      "Een lammetje",
+      "Een muis",
+      "Een konijn",
+      "Een beer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal is Nijntje (Miffy), Dick Bruna's character? — A rabbit."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoeveel punten krijgt een voetbalploeg voor een gewonnen competitiewedstrijd?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many points does a football team get for a league win? — 3."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hoe vaak mag een volleybalteam de bal achter elkaar raken voordat hij over het net moet?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many touches may a volleyball team take before the ball must cross the net? — 3."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uit het hart van welke plant wordt tequila gestookt?",
+    "options": [
+      "Agave",
+      "Suikerriet",
+      "Maïs",
+      "Aloë vera"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which plant is tequila distilled from? — Agave (not aloe vera)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In welk land werden de Olympische Spelen van de oudheid gehouden?",
+    "gloss": "In which country were the ancient Olympic Games held? — Greece, at Olympia.",
+    "options": [
+      "Italië",
+      "Egypte",
+      "Griekenland",
+      "Turkije"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hoe heet in het Nederlands het hondje van Kuifje?",
+    "options": [
+      "Idefix",
+      "Pluto",
+      "Snoopy",
+      "Bobbie"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is Tintin's little dog called in Dutch? — Bobbie (Milou in French)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke koffie bestaat uit een hoog glas warme melk met een scheut espresso erbovenop?",
+    "options": [
+      "Cappuccino",
+      "Latte macchiato",
+      "Ristretto",
+      "Americano"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which coffee is a tall glass of warm milk with a shot of espresso poured on top? — Latte macchiato."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uit welk land komt het speelgoedmerk LEGO?",
+    "options": [
+      "Zweden",
+      "Duitsland",
+      "Denemarken",
+      "Nederland"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country does the toy brand LEGO come from? — Denmark."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk gas maakt frisdrank bruisend?",
+    "options": [
+      "Koolzuurgas",
+      "Stikstof",
+      "Zuurstof",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas makes soft drinks fizzy? — Carbon dioxide (koolzuurgas)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke kaas hoort traditioneel in een Zwitserse kaasfondue?",
+    "gloss": "Which cheese traditionally goes into a Swiss cheese fondue? — Gruyère (often with Emmental or Vacherin).",
+    "options": [
+      "Mozzarella",
+      "Gruyère",
+      "Feta",
+      "Brie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wat eten Nederlanders traditioneel op beschuit als er een baby is geboren?",
+    "options": [
+      "Jam",
+      "Pindakaas",
+      "Kaas",
+      "Muisjes"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do the Dutch traditionally eat on a rusk when a baby is born? — Muisjes (sugared aniseed)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uit welk land komt de Netflix-serie ‘Squid Game’?",
+    "options": [
+      "Japan",
+      "China",
+      "Zuid-Korea",
+      "Thailand"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country does the Netflix series \"Squid Game\" come from? — South Korea."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk hulpmiddel gebruik je bij het fierljeppen om over een brede sloot te springen?",
+    "options": [
+      "Een trampoline",
+      "Een touw",
+      "Een springplank",
+      "Een polsstok"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which tool do you use in fierljeppen to vault over a wide ditch? — A pole."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In welke filmreeks vechten Jedi’s met lichtzwaarden?",
+    "options": [
+      "Star Trek",
+      "Dune",
+      "Star Wars",
+      "The Matrix"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which film series do Jedi fight with lightsabres? — Star Wars."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk woord ontbreekt in het spreekwoord: ‘Als de kat van huis is, dansen de … op tafel’?",
+    "options": [
+      "Muizen",
+      "Honden",
+      "Ratten",
+      "Vogels"
+    ],
+    "correctIndex": 0,
+    "gloss": "Proverb \"When the cat is away, the ... dance on the table\" — mice."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In welke zee ligt het Spaanse vakantie-eiland Mallorca?",
+    "options": [
+      "De Atlantische Oceaan",
+      "De Middellandse Zee",
+      "De Noordzee",
+      "De Zwarte Zee"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sea does the Spanish holiday island Mallorca lie? — The Mediterranean."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Een trein vertrekt om 14:50 en rijdt 45 minuten. Hoe laat komt hij aan?",
+    "options": [
+      "15:25",
+      "15:35",
+      "15:45",
+      "15:55"
+    ],
+    "correctIndex": 1,
+    "gloss": "A train leaves at 14:50 and travels 45 minutes — 15:35 (10 min to 15:00 plus 35)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk van deze woorden schrijf je met ‘ei’ en niet met ‘ij’?",
+    "options": [
+      "Tijd",
+      "Trein",
+      "Prijs",
+      "Wijn"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word is spelled with ei, not ij? — trein (tijd, prijs, wijn take ij)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wat was de munteenheid van Nederland vóór de euro?",
+    "options": [
+      "De gulden",
+      "De frank",
+      "De mark",
+      "De kroon"
+    ],
+    "correctIndex": 0,
+    "gloss": "What was the Dutch currency before the euro? — The guilder."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Waar staat de ‘O’ in VOC voor?",
+    "options": [
+      "Overzeese",
+      "Oranje",
+      "Oostzee",
+      "Oost-Indische"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the O in VOC stand for? — Oost-Indische (Dutch East India Company)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk edelgas laat een ballon in de lucht zweven?",
+    "options": [
+      "Neon",
+      "Argon",
+      "Helium",
+      "Krypton"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which noble gas makes a balloon float? — Helium."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk bestandstype is een gecomprimeerde map die je eerst moet uitpakken?",
+    "options": [
+      ".exe",
+      ".mp3",
+      ".docx",
+      ".zip"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which file type is a compressed folder you must extract? — .zip."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Zweedse groep won in 1974 het Eurovisie Songfestival?",
+    "options": [
+      "ABBA",
+      "Roxette",
+      "Ace of Base",
+      "Europe"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Swedish group won the 1974 Eurovision Song Contest? — ABBA."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Zuid-Koreaanse film won in 2020 als eerste niet-Engelstalige film de Oscar voor beste film?",
+    "options": [
+      "Joker",
+      "Parasite",
+      "1917",
+      "Roma"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which South Korean film won the 2020 Best Picture Oscar, the first non-English one? — Parasite."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Belgische wielrenner, bijgenaamd ‘de Kannibaal’, won vijf keer de Tour de France?",
+    "options": [
+      "Tom Boonen",
+      "Johan Museeuw",
+      "Eddy Merckx",
+      "Rik Van Looy"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Belgian cyclist nicknamed \"the Cannibal\" won the Tour de France five times? — Eddy Merckx."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wat eten Belgen traditioneel bij een portie mosselen?",
+    "options": [
+      "Rijst",
+      "Brood",
+      "Friet",
+      "Aardappelpuree"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do Belgians traditionally eat with a pot of mussels? — Fries."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welk Nederlands bedrijf bracht in 1963 de compactcassette op de markt?",
+    "options": [
+      "Fokker",
+      "Heineken",
+      "Shell",
+      "Philips"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Dutch company launched the compact cassette in 1963? — Philips."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welke Griekse god staat bekend als de god van de wijn en het feest?",
+    "options": [
+      "Hermes",
+      "Dionysos",
+      "Apollo",
+      "Ares"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Greek god is the god of wine and revelry? — Dionysus."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Nederlandse schilder staat bekend om vlakken in rood, geel en blauw, omlijst door zwarte lijnen?",
+    "options": [
+      "Piet Mondriaan",
+      "Karel Appel",
+      "Jan Steen",
+      "M.C. Escher"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Dutch painter is known for red, yellow and blue planes framed by black lines? — Piet Mondrian."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Acht ploegen spelen een knock-outtoernooi: wie verliest, valt af. Hoeveel wedstrijden zijn er nodig voor een winnaar?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "Eight teams, knockout: how many matches? — 7 (4+2+1; each match removes exactly one team)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Als het in Amsterdam 20:00 uur is, hoe laat is het dan in Londen?",
+    "options": [
+      "18:00 uur",
+      "19:00 uur",
+      "20:00 uur",
+      "21:00 uur"
+    ],
+    "correctIndex": 1,
+    "gloss": "When it is 20:00 in Amsterdam, what time is it in London? — 19:00: the UK is one hour behind the Netherlands all year."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wat betekent de uitdrukking ‘iemand een rad voor ogen draaien’?",
+    "options": [
+      "Iemand duizelig maken",
+      "Iemand helpen",
+      "Iemand misleiden",
+      "Iemand verrassen"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does \"to turn a wheel before someone's eyes\" mean? — To deceive someone."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke Nederlandse regisseur maakte ‘Turks fruit’ (1973) met Rutger Hauer in de hoofdrol?",
+    "options": [
+      "Paul Verhoeven",
+      "Fons Rademakers",
+      "Bert Haanstra",
+      "Dick Maas"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Dutch director made \"Turks fruit\" (1973) with Rutger Hauer? — Paul Verhoeven."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk orgaan maakt in het lichaam insuline aan?",
+    "options": [
+      "De lever",
+      "De alvleesklier",
+      "De nieren",
+      "De milt"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which organ makes insulin? — The pancreas (alvleesklier)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "In welke eeuw valt, strikt gerekend, het jaar 1600?",
+    "options": [
+      "De vijftiende",
+      "De zestiende",
+      "De zeventiende",
+      "De achttiende"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which century does the year 1600 fall, strictly? — The 16th (1501–1600); the 17th starts in 1601."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welke schrijver publiceerde in 1947 de roman ‘De avonden’, over Frits van Egters en de dagen tussen kerst en oud en nieuw?",
+    "options": [
+      "Willem Frederik Hermans",
+      "Harry Mulisch",
+      "Jan Wolkers",
+      "Gerard Reve"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who published \"De avonden\" in 1947 about Frits van Egters? — Gerard Reve (as Simon van het Reve)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Waarom kookt water op een hoge berg bij minder dan 100 °C?",
+    "options": [
+      "Het is er kouder",
+      "Het water is er zuiverder",
+      "De luchtdruk is er lager",
+      "De zon schijnt er sterker"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does water boil below 100 °C on a high mountain? — Lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welk scheikundig element heeft het symbool W?",
+    "options": [
+      "Waterstof",
+      "Wolfraam",
+      "Wismut",
+      "Zink"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which chemical element has the symbol W? — Tungsten (wolfraam in Dutch, from Wolfram)."
+  }
+]
