@@ -56,4 +56,12 @@ export default async function setup() {
   }
 
   execSync('npx tsx prisma/seed.ts', { cwd: SERVER_DIR, env, stdio: 'pipe' })
+
+  // The ranked tests build their own reserve; the hand-written ranked seed would be drawn instead.
+  const seeded = new PrismaClient({ datasources: { db: { url: TEST_DATABASE_URL } } })
+  try {
+    await seeded.$executeRawUnsafe(`DELETE FROM "Question" WHERE ranked AND origin = 'seed'`)
+  } finally {
+    await seeded.$disconnect()
+  }
 }
