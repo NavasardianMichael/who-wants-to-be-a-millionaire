@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Numele cărui anotimp înseamnă, la origine, „prima vară”?",
+    "options": [
+      "Toamna",
+      "Primăvara",
+      "Iarna",
+      "Vara"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which season's name originally means \"first summer\"? — Spring: primăvară is built from prim (first) + vară (summer); summer itself is a tempting wrong option."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Completează proverbul: „Câinele care latră…”",
+    "options": [
+      "nu doarme",
+      "nu fuge",
+      "nu mușcă",
+      "nu mănâncă"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: \"The dog that barks...\" — doesn't bite («Câinele care latră nu mușcă»)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce mic obiect, legat cu un șnur alb-roșu, se dăruiește în România pe 1 martie?",
+    "options": [
+      "Clopoțelul",
+      "Cununița",
+      "Colacul",
+      "Mărțișorul"
+    ],
+    "correctIndex": 3,
+    "gloss": "What small object on a white-and-red string is given in Romania on 1 March? — The mărțișor, the spring charm."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cum se numesc rulourile mici de carne tocată, fără piele, făcute la grătar și mâncate cu muștar?",
+    "options": [
+      "Micii",
+      "Cârnații",
+      "Frigăruile",
+      "Șnițelele"
+    ],
+    "correctIndex": 0,
+    "gloss": "What are the small skinless rolls of minced meat, grilled and eaten with mustard, called? — Mici (mititei)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "În ce regiune a României se află Delta Dunării?",
+    "options": [
+      "Banat",
+      "Oltenia",
+      "Dobrogea",
+      "Maramureș"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which region of Romania is the Danube Delta? — Dobrogea (Tulcea county), where the Danube meets the Black Sea."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pe ce dată se sărbătorește Ziua Națională a României?",
+    "options": [
+      "1 decembrie",
+      "24 ianuarie",
+      "9 mai",
+      "10 mai"
+    ],
+    "correctIndex": 0,
+    "gloss": "On what date is Romania's National Day? — 1 December, the anniversary of the 1918 union at Alba Iulia (24 January is the 1859 union of the Principalities; 9 May is Independence Day)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a scris comedia „O scrisoare pierdută”?",
+    "options": [
+      "Ion Luca Caragiale",
+      "Ion Creangă",
+      "Mihail Sebastian",
+      "Liviu Rebreanu"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the comedy \"O scrisoare pierdută\" (A Lost Letter)? — Ion Luca Caragiale."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce instrument de suflat, cu tuburi de lungimi diferite lipite în rând, cântă Gheorghe Zamfir?",
+    "options": [
+      "Fluierul",
+      "Naiul",
+      "Cimpoiul",
+      "Clarinetul"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which wind instrument, with tubes of different lengths joined in a row, does Gheorghe Zamfir play? — The nai (pan flute)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce se cântă, în România, mergând din casă în casă în ajunul Crăciunului?",
+    "options": [
+      "Doine",
+      "Bocete",
+      "Romanțe",
+      "Colinde"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is sung in Romania going from house to house on Christmas Eve? — Colinde, the carols."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Din ce fruct se distilează, de obicei, țuica românească?",
+    "options": [
+      "Pere",
+      "Prune",
+      "Caise",
+      "Struguri"
+    ],
+    "correctIndex": 1,
+    "gloss": "From which fruit is Romanian țuică usually distilled? — Plums."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce trupă a lansat în 2003 melodia „Dragostea din tei”, ajunsă hit în toată lumea?",
+    "options": [
+      "Akcent",
+      "Activ",
+      "O-Zone",
+      "Morandi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which band released \"Dragostea din tei\" in 2003, a worldwide hit? — O-Zone (the Moldovan-born trio)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a creat Coloana Infinitului din Târgu Jiu?",
+    "options": [
+      "Dimitrie Paciurea",
+      "Ion Jalea",
+      "Constantin Brâncuși",
+      "Oscar Han"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who created the Endless Column in Târgu Jiu? — Constantin Brâncuși; the other three are also Romanian sculptors."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce număr se formează în România pentru ambulanță, pompieri sau poliție?",
+    "options": [
+      "911",
+      "999",
+      "112",
+      "101"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number do you dial in Romania for an ambulance, firefighters or police? — 112 (911 is the American one, 999 the British one)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Străbunicul e tatăl bunicului. Atunci cine este „strănepotul”?",
+    "options": [
+      "Fiul nepotului",
+      "Fratele bunicului",
+      "Fiul vărului",
+      "Fiul fratelui"
+    ],
+    "correctIndex": 0,
+    "gloss": "The străbunic is the grandfather's father. So who is the strănepot? — The nepot's son: stră- adds one generation, as in străbunic."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce pasăre mare, albă cu aripi negre, își face cuibul pe stâlpii și hornurile din sate?",
+    "options": [
+      "Barza",
+      "Cocorul",
+      "Lebăda",
+      "Pescărușul"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which large white bird with black wings nests on village poles and chimneys? — The white stork; cranes are grey, swans and gulls don't nest on poles."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a fost primul rege al României?",
+    "options": [
+      "Ferdinand I",
+      "Mihai I",
+      "Carol al II-lea",
+      "Carol I"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who was Romania's first king? — Carol I, crowned in 1881 (prince from 1866); Ferdinand I followed him in 1914."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce gentleman englez pariază că face înconjurul lumii în 80 de zile, în romanul lui Jules Verne?",
+    "options": [
+      "Căpitanul Nemo",
+      "Robinson Crusoe",
+      "Dorian Gray",
+      "Phileas Fogg"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which English gentleman bets he can go round the world in 80 days, in Jules Verne's novel? — Phileas Fogg."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce piesă de șah se mișcă în formă de „L” și poate sări peste celelalte?",
+    "options": [
+      "Nebunul",
+      "Turnul",
+      "Pionul",
+      "Calul"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which chess piece moves in an L shape and can jump over the others? — The knight (calul, \"the horse\")."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce animal răcnește în sigla studioului de film Metro-Goldwyn-Mayer?",
+    "options": [
+      "Tigrul",
+      "Ursul",
+      "Leul",
+      "Pantera"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal roars in the logo of the Metro-Goldwyn-Mayer film studio? — The lion (Leo)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "La ora 3 fix, ce unghi fac între ele acele ceasului?",
+    "options": [
+      "60 de grade",
+      "90 de grade",
+      "120 de grade",
+      "180 de grade"
+    ],
+    "correctIndex": 1,
+    "gloss": "At exactly 3 o'clock, what angle do the clock hands make? — 90 degrees: a quarter of the dial."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce face combinația de taste Ctrl+Z într-un editor de text?",
+    "options": [
+      "Salvează documentul",
+      "Copiază textul ales",
+      "Lipește textul copiat",
+      "Anulează ultima acțiune"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does Ctrl+Z do in a text editor? — Undoes the last action."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pantofii costau 200 de lei și au acum reducere de 25%. Cât costă acum?",
+    "options": [
+      "175 de lei",
+      "150 de lei",
+      "125 de lei",
+      "50 de lei"
+    ],
+    "correctIndex": 1,
+    "gloss": "Shoes cost 200 lei and are now 25% off. What do they cost? — 150 lei (a quarter of 200 is 50); 175 is the trap of subtracting 25."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Care dintre aceste animale din Carpați își petrece iarna ațipit într-un bârlog?",
+    "options": [
+      "Lupul",
+      "Râsul",
+      "Ursul brun",
+      "Cerbul"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these Carpathian animals spends winter dozing in a den? — The brown bear; wolf, lynx and deer stay active."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce șosea celebră, construită în anii ’70, urcă peste Munții Făgăraș?",
+    "options": [
+      "Transfăgărășanul",
+      "Transalpina",
+      "Autostrada Soarelui",
+      "Valea Oltului"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which famous road, built in the 1970s, climbs over the Făgăraș Mountains? — The Transfăgărășan (Transalpina crosses other mountains)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cum se numește încercarea de a-ți fura parola printr-un mesaj fals, trimis ca de la bancă?",
+    "options": [
+      "Phishing",
+      "Roaming",
+      "Streaming",
+      "Hosting"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is an attempt to steal your password through a fake message sent as if from your bank called? — Phishing."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pizza Margherita poartă culorile steagului italian: roșu, alb și verde. Ce plantă dă verdele?",
+    "options": [
+      "Rucola",
+      "Oregano",
+      "Spanacul",
+      "Busuiocul"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pizza Margherita wears the Italian flag colours: red, white and green. Which plant gives the green? — Basil (busuioc)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce stil de arhitectură se recunoaște după arcele ascuțite și vitraliile mari ale catedralelor medievale?",
+    "options": [
+      "Gotic",
+      "Baroc",
+      "Romanic",
+      "Bizantin"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which architectural style is known by pointed arches and large stained-glass windows in medieval cathedrals? — Gothic (Romanesque uses round arches)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Din ce element chimic sunt făcute și diamantul, și mina creionului?",
+    "options": [
+      "Siliciu",
+      "Plumb",
+      "Carbon",
+      "Sulf"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which chemical element makes up both diamond and pencil lead? — Carbon (pencil \"lead\" is graphite; lead/plumb is the tempting myth)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dacă poimâine e duminică, ce zi a fost alaltăieri?",
+    "options": [
+      "Luni",
+      "Marți",
+      "Miercuri",
+      "Joi"
+    ],
+    "correctIndex": 2,
+    "gloss": "If the day after tomorrow is Sunday, what day was the day before yesterday? — Wednesday: today is Friday, yesterday Thursday, the day before yesterday (alaltăieri) Wednesday."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce desert românesc, o gogoașă în formă de inel cu o bilă deasupra, se servește cu smântână și dulceață?",
+    "options": [
+      "Cozonacul",
+      "Papanașii",
+      "Clătitele",
+      "Poale-n brâu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Romanian dessert, a ring-shaped doughnut with a ball on top, is served with sour cream and jam? — Papanași."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cine a scris „Amintiri din copilărie”, cu Nică al lui Ștefan a Petrei?",
+    "options": [
+      "Ion Creangă",
+      "Ioan Slavici",
+      "Mihail Sadoveanu",
+      "Alexandru Vlahuță"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"Amintiri din copilărie\" (Childhood Memories), with Nică, Ștefan a Petrei's son? — Ion Creangă."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce vitamină produce pielea noastră atunci când stă la soare?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12",
+      "Vitamina A"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which vitamin does our skin make when exposed to sunlight? — Vitamin D."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce gaz alcătuiește aproape patru cincimi din aerul pe care îl respirăm?",
+    "options": [
+      "Oxigenul",
+      "Dioxidul de carbon",
+      "Argonul",
+      "Azotul"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which gas makes up almost four fifths of the air we breathe? — Nitrogen (about 78%); oxygen is only about 21%."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vezi fulgerul și abia după câteva secunde auzi tunetul. De ce?",
+    "options": [
+      "Lumina e mai rapidă decât sunetul",
+      "Tunetul se produce mai târziu",
+      "Norii opresc sunetul",
+      "Urechea e mai înceată"
+    ],
+    "correctIndex": 0,
+    "gloss": "You see lightning and hear thunder seconds later. Why? — Light travels far faster than sound; the thunder is made at the same moment as the flash."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Care oraș din Moldova, fostă capitală, e numit, ca Roma, „orașul celor șapte coline”?",
+    "options": [
+      "Suceava",
+      "Bacău",
+      "Galați",
+      "Iași"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Moldavian city, a former capital, is called \"the city of seven hills\" like Rome? — Iași."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gheorghe Hagi, „Regele”, a jucat la Real Madrid și la FC Barcelona. În ce club turc e considerat legendă?",
+    "options": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beșiktaș",
+      "Trabzonspor"
+    ],
+    "correctIndex": 0,
+    "gloss": "Gheorghe Hagi, \"the King\", played for Real Madrid and Barcelona. At which Turkish club is he a legend? — Galatasaray."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce se sărbătorește, în tradiția populară românească, de Dragobete, pe 24 februarie?",
+    "options": [
+      "Recolta",
+      "Dragostea",
+      "Hora",
+      "Pomii"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does Romanian folk tradition celebrate on Dragobete, 24 February? — Love; it is the folk \"day of lovers\"."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce zeu din mitologia nordică purta ciocanul Mjölnir și stăpânea tunetul?",
+    "options": [
+      "Odin",
+      "Thor",
+      "Loki",
+      "Tyr"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Norse god carried the hammer Mjölnir and ruled thunder? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a inventat World Wide Web, în 1989, la CERN?",
+    "options": [
+      "Bill Gates",
+      "Linus Torvalds",
+      "Steve Jobs",
+      "Tim Berners-Lee"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who invented the World Wide Web in 1989 at CERN? — Tim Berners-Lee."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cupa Mondială din 2022, din Qatar, s-a jucat în noiembrie–decembrie. Care a fost motivul?",
+    "options": [
+      "Sezonul ploilor",
+      "Căldura de vară",
+      "Postul Ramadanului",
+      "Vacanța școlară"
+    ],
+    "correctIndex": 1,
+    "gloss": "The 2022 World Cup in Qatar was played in November–December. Why? — Summer heat there is far too high for football."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a compus „Anotimpurile”, patru concerte pentru vioară și orchestră?",
+    "options": [
+      "Bach",
+      "Haydn",
+      "Vivaldi",
+      "Mozart"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who composed \"The Four Seasons\", four violin concertos? — Antonio Vivaldi."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Din cuvântul latin „silva”, ca în „silvicultură”, vine a doua parte din „Transilvania”. Ce înseamnă?",
+    "options": [
+      "Munte",
+      "Câmpie",
+      "Pădure",
+      "Cetate"
+    ],
+    "correctIndex": 2,
+    "gloss": "The second part of \"Transilvania\" comes from Latin silva, as in silvicultură. What does it mean? — Forest: Transilvania is \"beyond the forests\"; silvicultură is forestry."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce inventator român a decolat în 1906, lângă Paris, cu un aparat mai greu decât aerul, propulsat de propriul motor?",
+    "options": [
+      "Aurel Vlaicu",
+      "Traian Vuia",
+      "Henri Coandă",
+      "Gogu Constantinescu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Romanian inventor took off in 1906 near Paris in a heavier-than-air machine under its own engine power? — Traian Vuia (Vlaicu flew in 1910, Coandă built a jet-type plane in 1910)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Cât este o duzină de duzini?",
+    "options": [
+      "124",
+      "132",
+      "156",
+      "144"
+    ],
+    "correctIndex": 3,
+    "gloss": "How much is a dozen dozens? — 144 (12 x 12)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un vapor se apropie dinspre larg. Ce parte a lui iese prima la vedere deasupra orizontului?",
+    "options": [
+      "Toată odată",
+      "Partea de jos",
+      "Partea de sus",
+      "Mijlocul"
+    ],
+    "correctIndex": 2,
+    "gloss": "A ship approaches from the open sea. Which part appears first over the horizon? — The top: the Earth's surface curves, so the highest part clears the horizon first."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cine a scris „Maestrul și Margareta”?",
+    "options": [
+      "Mihail Bulgakov",
+      "Nikolai Gogol",
+      "Fiodor Dostoievski",
+      "Boris Pasternak"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"The Master and Margarita\"? — Mikhail Bulgakov."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ce strâmtoare străbate Istanbulul, despărțind partea europeană de cea asiatică a orașului?",
+    "options": [
+      "Dardanele",
+      "Bosfor",
+      "Gibraltar",
+      "Kerci"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which strait runs through Istanbul, splitting its European and Asian sides? — The Bosphorus (the Dardanelles lie farther southwest)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Pe ce planetă o zi (o rotație completă) durează mai mult decât un an?",
+    "options": [
+      "Mercur",
+      "Marte",
+      "Jupiter",
+      "Venus"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which planet does a day (one full rotation) last longer than its year? — Venus: rotation about 243 Earth days, orbit about 225."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Care scriitoare, născută în Banat, a primit Premiul Nobel pentru Literatură în 2009?",
+    "options": [
+      "Herta Müller",
+      "Elfriede Jelinek",
+      "Olga Tokarczuk",
+      "Svetlana Aleksievici"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer, born in the Banat, won the 2009 Nobel Prize in Literature? — Herta Müller (born in Nițchidorf, writes in German)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ce om de știință român a luat parte, ca zoolog, la expediția Belgica în Antarctica, în 1897–1899?",
+    "options": [
+      "Grigore Antipa",
+      "Ion Cantacuzino",
+      "Emil Racoviță",
+      "Nicolae Paulescu"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Romanian scientist joined the Belgica Antarctic expedition of 1897–1899 as zoologist? — Emil Racoviță."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lequel de ces noms ne change pas au pluriel ?",
+    "options": [
+      "Un cheval",
+      "Un genou",
+      "Un fils",
+      "Un bijou"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these nouns does not change in the plural? — A son: 'fils' is spelled the same in the plural; the others become chevaux, genoux, bijoux."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Que donne « quatre-vingt-quatre » moins « vingt-quatre » ?",
+    "options": [
+      "60",
+      "50",
+      "64",
+      "70"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is 'quatre-vingt-quatre' (84) minus 'vingt-quatre' (24)? — 60: French builds 84 as 4×20+4, so a quick subtraction."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quel nombre se prononce exactement comme le mot « cette » ?",
+    "options": [
+      "Six",
+      "Huit",
+      "Neuf",
+      "Sept"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number sounds exactly like the word 'cette'? — Sept: both are pronounced /sɛt/."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Il est « midi moins le quart ». Quelle heure est-il ?",
+    "options": [
+      "11 h 15",
+      "11 h 45",
+      "12 h 15",
+      "12 h 45"
+    ],
+    "correctIndex": 1,
+    "gloss": "It is 'midi moins le quart'. What time is it? — 11:45: a quarter before noon."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "En français courant, que veut dire « dans huit jours » ?",
+    "options": [
+      "Dans huit semaines",
+      "Dans une semaine",
+      "Dans dix jours",
+      "Dans un mois"
+    ],
+    "correctIndex": 1,
+    "gloss": "In everyday French, what does 'dans huit jours' mean? — In a week: 'huit jours' is the idiom for one week (and 'quinze jours' for two)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel surnom la France métropolitaine doit-elle à sa forme géométrique ?",
+    "options": [
+      "Le Pentagone",
+      "L’Octogone",
+      "Le Losange",
+      "L’Hexagone"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which nickname does metropolitan France owe to its geometric shape? — The Hexagon: its outline has roughly six sides."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel fleuve français se jette dans la Méditerranée en formant le delta de la Camargue ?",
+    "options": [
+      "La Loire",
+      "La Garonne",
+      "Le Rhône",
+      "La Seine"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which French river flows into the Mediterranean, forming the Camargue delta? — The Rhône; the Loire, Garonne and Seine all reach the Atlantic or the Channel."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle partie de l’œil donne leur couleur aux yeux ?",
+    "options": [
+      "La pupille",
+      "L’iris",
+      "La rétine",
+      "La cornée"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which part of the eye gives eyes their colour? — The iris; the pupil is the dark opening, the retina is at the back, the cornea is transparent."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "À quel roi attribue-t-on le souhait que chaque paysan ait « la poule au pot » le dimanche ?",
+    "options": [
+      "Louis XIV",
+      "François Ier",
+      "Saint Louis",
+      "Henri IV"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which king is credited with wishing every peasant a 'chicken in the pot' on Sundays? — Henri IV, by long tradition (the wording only claims the attribution)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dans la fable de La Fontaine, quel oiseau se fait voler son fromage par le renard ?",
+    "options": [
+      "Le corbeau",
+      "La pie",
+      "Le pigeon",
+      "Le merle"
+    ],
+    "correctIndex": 0,
+    "gloss": "In La Fontaine's fable, which bird has its cheese stolen by the fox? — The crow ('Le Corbeau et le Renard')."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel conteur danois a écrit « La Petite Sirène » et « Le Vilain Petit Canard » ?",
+    "options": [
+      "Charles Perrault",
+      "Carlo Collodi",
+      "Hans Christian Andersen",
+      "Wilhelm Grimm"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Danish storyteller wrote 'The Little Mermaid' and 'The Ugly Duckling'? — Hans Christian Andersen."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel peintre à la moustache relevée est célèbre pour ses montres molles ?",
+    "options": [
+      "Salvador Dalí",
+      "Joan Miró",
+      "Pablo Picasso",
+      "René Magritte"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which painter with the upturned moustache is famous for his soft watches? — Salvador Dalí, 'The Persistence of Memory'."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle chanteuse française était surnommée « la Môme » à ses débuts ?",
+    "options": [
+      "Dalida",
+      "Barbara",
+      "Mireille Mathieu",
+      "Édith Piaf"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which French singer was nicknamed 'la Môme' early on? — Édith Piaf ('la Môme Piaf')."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle chanteuse américaine est surnommée « la reine de la soul » ?",
+    "options": [
+      "Diana Ross",
+      "Aretha Franklin",
+      "Whitney Houston",
+      "Tina Turner"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which American singer is called the 'Queen of Soul'? — Aretha Franklin."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Comment s’appelle la plus haute récompense du festival de Cannes ?",
+    "options": [
+      "La Palme d’or",
+      "Le Lion d’or",
+      "L’Ours d’or",
+      "Le Léopard d’or"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the top prize of the Cannes Film Festival called? — The Palme d'Or (the Golden Lion is Venice, the Golden Bear Berlin, the Golden Leopard Locarno)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Au tennis, comment s’appelle le score de 40 partout ?",
+    "options": [
+      "Avantage",
+      "Jeu blanc",
+      "Égalité",
+      "Balle de set"
+    ],
+    "correctIndex": 2,
+    "gloss": "In tennis, what is the score 40-40 called? — Deuce ('égalité')."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans quel sport réussit-on un « birdie » ?",
+    "options": [
+      "Le tennis",
+      "Le cricket",
+      "Le golf",
+      "Le baseball"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which sport do you score a 'birdie'? — Golf: one stroke under par on a hole."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Au café, que contient un « demi » ?",
+    "options": [
+      "De la bière",
+      "Du café",
+      "Du vin",
+      "De la limonade"
+    ],
+    "correctIndex": 0,
+    "gloss": "At a French café, what does a 'demi' contain? — Beer: half a pint (25 cl) of draught beer."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle région française est célèbre pour sa choucroute ?",
+    "options": [
+      "La Bretagne",
+      "L’Alsace",
+      "La Provence",
+      "L’Auvergne"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which French region is famous for its sauerkraut dish? — Alsace."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel animal des montagnes, qui hiberne plusieurs mois, avertit les siens d’un sifflement ?",
+    "options": [
+      "Le chamois",
+      "Le bouquetin",
+      "Le lièvre",
+      "La marmotte"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mountain animal, which hibernates for months, warns its kin with a whistle? — The marmot."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel Français, aveugle depuis l’enfance, a inventé au XIXe siècle un alphabet en points en relief ?",
+    "options": [
+      "Louis Braille",
+      "Louis Pasteur",
+      "Louis Daguerre",
+      "Louis Blériot"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Frenchman, blind from childhood, invented a raised-dot alphabet in the 19th century? — Louis Braille."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans la mythologie nordique, quel dieu frappe avec un marteau qui revient toujours dans sa main ?",
+    "options": [
+      "Odin",
+      "Loki",
+      "Freyr",
+      "Thor"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Norse myth, which god strikes with a hammer that always returns to his hand? — Thor, with Mjölnir."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Comment s’appellent les petits êtres bleus à bonnet blanc créés par le Belge Peyo ?",
+    "options": [
+      "Les Lutins",
+      "Les Gnomes",
+      "Les Korrigans",
+      "Les Schtroumpfs"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the little blue beings with white caps created by the Belgian Peyo called? — Les Schtroumpfs (the Smurfs)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle monnaie utilise-t-on en Suisse ?",
+    "options": [
+      "L’euro",
+      "Le franc suisse",
+      "La couronne",
+      "Le florin"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which currency is used in Switzerland? — The Swiss franc."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle fleur offre-t-on traditionnellement en France le 1er mai ?",
+    "options": [
+      "Le muguet",
+      "La rose",
+      "L’œillet",
+      "La tulipe"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which flower is traditionally given in France on 1 May? — Lily of the valley."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel animal, emblème des Bleus, figure sur le maillot de l’équipe de France de football ?",
+    "options": [
+      "L’aigle",
+      "Le lion",
+      "Le coq",
+      "Le loup"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal, emblem of 'les Bleus', appears on the France football shirt? — The rooster."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel gaz est le plus abondant dans l’air que nous respirons ?",
+    "options": [
+      "L’oxygène",
+      "L’azote",
+      "Le gaz carbonique",
+      "L’hydrogène"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which gas is the most abundant in the air we breathe? — Nitrogen (about 78%), not oxygen (about 21%)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle vitamine notre peau fabrique-t-elle grâce au soleil ?",
+    "options": [
+      "La vitamine A",
+      "La vitamine C",
+      "La vitamine K",
+      "La vitamine D"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which vitamin does our skin make thanks to sunlight? — Vitamin D."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Octobre doit son nom au latin « octo », huit. Quel rang occupe-t-il dans notre année ?",
+    "options": [
+      "Huitième",
+      "Neuvième",
+      "Onzième",
+      "Dixième"
+    ],
+    "correctIndex": 3,
+    "gloss": "October is named from Latin 'octo', eight. Which month number is it today? — Tenth: the Roman year began in March."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Au rugby à XV, une équipe marque quatre essais, dont deux transformés. Combien de points ?",
+    "options": [
+      "20",
+      "24",
+      "22",
+      "28"
+    ],
+    "correctIndex": 1,
+    "gloss": "In rugby union a team scores four tries, two converted. How many points? — 24: tries are 5 each (20) plus 2 per conversion (4)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Le mot « courriel », né au Québec, vient de « courrier » et de quel autre mot ?",
+    "options": [
+      "Électrique",
+      "Éclair",
+      "Électronique",
+      "Élémentaire"
+    ],
+    "correctIndex": 2,
+    "gloss": "The word 'courriel', born in Quebec, comes from 'courrier' and which other word? — 'électronique': courrier électronique, e-mail."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans quel pays se trouve la cité inca du Machu Picchu ?",
+    "options": [
+      "Le Pérou",
+      "La Bolivie",
+      "Le Chili",
+      "Le Mexique"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country is the Inca citadel of Machu Picchu? — Peru."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel est le vrai nom, en français, des oiseaux antarctiques que l’on appelle souvent à tort « pingouins » ?",
+    "options": [
+      "Les cormorans",
+      "Les manchots",
+      "Les macareux",
+      "Les fous de Bassan"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the real French name of the flightless Antarctic birds often wrongly called 'pingouins'? — Les manchots (penguins); pingouins are northern auks."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel artiste pop a peint des séries de boîtes de soupe Campbell dans les années 1960 ?",
+    "options": [
+      "Roy Lichtenstein",
+      "Keith Haring",
+      "Jeff Koons",
+      "Andy Warhol"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which pop artist painted series of Campbell's soup cans in the 1960s? — Andy Warhol."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel écrivain né en Algérie a publié « L’Étranger » en 1942 ?",
+    "options": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "André Gide",
+      "André Malraux"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer born in Algeria published 'The Stranger' in 1942? — Albert Camus."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel organe du corps humain produit l’insuline ?",
+    "options": [
+      "Le foie",
+      "Le rein",
+      "Le pancréas",
+      "La rate"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which human organ produces insulin? — The pancreas."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel moteur de recherche, né en 1998, tire son nom du mot « googol » ?",
+    "options": [
+      "Yahoo",
+      "Google",
+      "Bing",
+      "Ask"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which search engine, born in 1998, takes its name from the word 'googol'? — Google."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel peuple avait pour capitale Tenochtitlan, aujourd’hui Mexico ?",
+    "options": [
+      "Les Mayas",
+      "Les Incas",
+      "Les Toltèques",
+      "Les Aztèques"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which people had Tenochtitlan, today's Mexico City, as their capital? — The Aztecs."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Le couscous traditionnel est fait de semoule de quelle céréale ?",
+    "options": [
+      "Le riz",
+      "Le maïs",
+      "Le blé dur",
+      "L’avoine"
+    ],
+    "correctIndex": 2,
+    "gloss": "Traditional couscous is made from semolina of which grain? — Durum wheat."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans la saga « Harry Potter », comment s’appelle l’école de sorcellerie où étudie Harry ?",
+    "options": [
+      "Poudlard",
+      "Beauxbâtons",
+      "Durmstrang",
+      "Ilvermorny"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the 'Harry Potter' saga, what is the school of wizardry Harry attends called? — Hogwarts ('Poudlard'); the others are rival schools."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel sport d’hiver associe le ski de fond et le tir à la carabine ?",
+    "options": [
+      "Le biathlon",
+      "Le combiné nordique",
+      "Le skeleton",
+      "Le curling"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which winter sport combines cross-country skiing and rifle shooting? — Biathlon."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle fête, née en France en 1982, fait jouer des musiciens dans les rues chaque 21 juin ?",
+    "options": [
+      "La fête des Lumières",
+      "La Saint-Jean",
+      "La fête de la musique",
+      "La fête du cinéma"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which festival, born in France in 1982, fills the streets with musicians every 21 June? — The Fête de la Musique."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Rangés par ordre alphabétique, quel nombre de un à dix vient en premier ?",
+    "options": [
+      "Deux",
+      "Dix",
+      "Huit",
+      "Cinq"
+    ],
+    "correctIndex": 3,
+    "gloss": "Of the numbers one to ten written in French, which comes first alphabetically? — Cinq (then deux, dix, huit, neuf, quatre, sept, six, trois, un)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel explorateur a fondé la ville de Québec, en 1608 ?",
+    "options": [
+      "Jacques Cartier",
+      "Samuel de Champlain",
+      "Cavelier de La Salle",
+      "Paul de Maisonneuve"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which explorer founded Quebec City in 1608? — Samuel de Champlain (Cartier came earlier, Maisonneuve founded Montreal)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel détroit sépare l’Asie de l’Amérique du Nord ?",
+    "options": [
+      "Le détroit de Gibraltar",
+      "Le détroit de Magellan",
+      "Le détroit de Béring",
+      "Le détroit de Malacca"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which strait separates Asia from North America? — The Bering Strait."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel tableau de Monet, peint en 1872, a donné son nom à l’impressionnisme ?",
+    "options": [
+      "« Impression, soleil levant »",
+      "« Les Nymphéas »",
+      "« La Gare Saint-Lazare »",
+      "« Femmes au jardin »"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Monet painting of 1872 gave Impressionism its name? — 'Impression, Sunrise'."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel film de Hayao Miyazaki a reçu l’Oscar du meilleur film d’animation en 2003 ?",
+    "options": [
+      "Princesse Mononoké",
+      "Le Voyage de Chihiro",
+      "Mon voisin Totoro",
+      "Le Château ambulant"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Hayao Miyazaki film won the Best Animated Feature Oscar in 2003? — Spirited Away."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel écrivain a obtenu le prix Goncourt deux fois, en 1956 puis en 1975 sous un pseudonyme ?",
+    "options": [
+      "Patrick Modiano",
+      "Michel Tournier",
+      "Jean Echenoz",
+      "Romain Gary"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which writer won the Prix Goncourt twice, in 1956 and again in 1975 under a pseudonym? — Romain Gary (as Émile Ajar)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Combien de pays ont une frontière terrestre avec la France métropolitaine ?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many countries share a land border with metropolitan France? — 8: Belgium, Luxembourg, Germany, Switzerland, Italy, Monaco, Spain, Andorra."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel mathématicien a démontré le « dernier théorème de Fermat » dans les années 1990 ?",
+    "options": [
+      "Andrew Wiles",
+      "Grigori Perelman",
+      "Terence Tao",
+      "Paul Erdős"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which mathematician proved Fermat's Last Theorem in the 1990s? — Andrew Wiles."
+  }
+]

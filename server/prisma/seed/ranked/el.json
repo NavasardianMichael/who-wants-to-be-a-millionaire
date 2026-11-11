@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο φρούτο σπάζουμε στο κατώφλι την Πρωτοχρονιά για γούρι;",
+    "options": [
+      "Ρόδι",
+      "Πορτοκάλι",
+      "Κυδώνι",
+      "Καρπούζι"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which fruit do Greeks smash on the doorstep on New Year for luck? — Pomegranate: the seeds stand for abundance."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Τι «ξύνει» κατά λέξη ένας ουρανοξύστης;",
+    "options": [
+      "Τα σύννεφα",
+      "Τον ουρανό",
+      "Τον ήλιο",
+      "Τα αστέρια"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a skyscraper literally \"scrape\"? — The sky: ουρανός + ξύνω."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο φτερωτό άλογο γεννήθηκε από το αίμα της Μέδουσας;",
+    "options": [
+      "Αρίων",
+      "Ξάνθος",
+      "Πήγασος",
+      "Βουκεφάλας"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which winged horse was born from the blood of Medusa? — Pegasus, sprung from her body when Perseus beheaded her."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Με ποια ομάδα του ΝΒΑ κατέκτησε το πρωτάθλημα το 2021 ο Γιάννης Αντετοκούνμπο;",
+    "options": [
+      "Φοίνιξ Σανς",
+      "Λος Άντζελες Λέικερς",
+      "Μπρούκλιν Νετς",
+      "Μιλγουόκι Μπακς"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which NBA team did Giannis Antetokounmpo win the 2021 title with? — Milwaukee Bucks, beating the Phoenix Suns in the Finals."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Πώς λέμε στα ελληνικά, χαϊδευτικά, το σύμβολο @ των email;",
+    "options": [
+      "Σαλιγκάρι",
+      "Παπάκι",
+      "Γατάκι",
+      "Ποντικάκι"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do Greeks affectionately call the @ sign? — \"Little duck\" (παπάκι); Italians say snail, for instance."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο νησί του Σαρωνικού φημίζεται για τα φιστίκια του;",
+    "options": [
+      "Αίγινα",
+      "Σαλαμίνα",
+      "Πόρος",
+      "Ύδρα"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which island of the Saronic Gulf is famous for its pistachios? — Aegina (PDO Aegina pistachio)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο έγχορδο όργανο είναι το σήμα κατατεθέν του ρεμπέτικου;",
+    "options": [
+      "Λύρα",
+      "Λαούτο",
+      "Μπουζούκι",
+      "Σαντούρι"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which string instrument is the trademark of rebetiko? — Bouzouki."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποια τραγουδίστρια κέρδισε το 2005 τη Eurovision για την Ελλάδα;",
+    "options": [
+      "Άννα Βίσση",
+      "Δέσποινα Βανδή",
+      "Νατάσα Θεοδωρίδου",
+      "Έλενα Παπαρίζου"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which singer won Eurovision 2005 for Greece? — Helena Paparizou with \"My Number One\"; the others never won."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο νόμισμα χρησιμοποιούσε η Ελλάδα πριν από το ευρώ;",
+    "options": [
+      "Δραχμή",
+      "Λιρέτα",
+      "Μάρκο",
+      "Φράγκο"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which currency did Greece use before the euro? — The drachma."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο προστατευόμενο ζώο γεννά τα αυγά του στις αμμουδιές της Ζακύνθου;",
+    "options": [
+      "Μεσογειακή φώκια",
+      "Δαλματικός πελεκάνος",
+      "Ρινοδέλφινο",
+      "Χελώνα καρέτα-καρέτα"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which protected animal lays eggs on the beaches of Zakynthos? — The loggerhead sea turtle (Caretta caretta), nesting at Laganas Bay."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Τι πετάμε παραδοσιακά την Καθαρά Δευτέρα;",
+    "options": [
+      "Μπαλόνι",
+      "Φανάρι",
+      "Χαρταετό",
+      "Πυροτέχνημα"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do Greeks traditionally fly on Clean Monday? — A kite (χαρταετός)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο γλυκό με μέλι και καρύδι δεν λείπει από το χριστουγεννιάτικο τραπέζι;",
+    "options": [
+      "Γαλακτομπούρεκο",
+      "Μελομακάρονα",
+      "Ρυζόγαλο",
+      "Μπουγάτσα"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which honey-and-walnut sweet is a fixture of the Christmas table? — Melomakarona."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιοι χορεύουν όταν λείπει η γάτα, λέει η παροιμία;",
+    "options": [
+      "Τα σκυλιά",
+      "Τα πουλιά",
+      "Τα ποντίκια",
+      "Οι κότες"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who dance when the cat is away, says the proverb? — The mice (Όταν λείπει η γάτα, χορεύουν τα ποντίκια)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ποια μέρα της εβδομάδας παίρνει το όνομά της από τον αριθμό πέντε;",
+    "options": [
+      "Τετάρτη",
+      "Τρίτη",
+      "Παρασκευή",
+      "Πέμπτη"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which weekday is named after the number five? — Πέμπτη, from πέντε (Greek weekdays are counted from Sunday)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Σε ποιο παιχνίδι χτίζουν οι παίκτες με κύβους και φοβούνται τον «κρίπερ»;",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Roblox",
+      "Terraria"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which game do players build with blocks and fear the Creeper? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος συγγραφέας έγραψε το μυθιστόρημα «Βίος και πολιτεία του Αλέξη Ζορμπά»;",
+    "options": [
+      "Στρατής Μυριβήλης",
+      "Ηλίας Βενέζης",
+      "Αλέξανδρος Παπαδιαμάντης",
+      "Νίκος Καζαντζάκης"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novel 'Zorba the Greek'? — Nikos Kazantzakis (1946)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο βουνό της Ιαπωνίας, με συμμετρικό χιονισμένο κώνο, θεωρείται ιερό;",
+    "options": [
+      "Κιλιμάντζαρο",
+      "Φούτζι",
+      "Έβερεστ",
+      "Ματερχόρν"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Japanese mountain, a symmetrical snow-capped cone, is held sacred? — Mount Fuji."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Στην ελληνική αρίθμηση με γράμματα, ποιον αριθμό δείχνει το «ι΄»;",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "20"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Greek alphabetic numerals, which number is ι΄? — 10: α΄ to θ΄ are 1–9 with στ΄ for 6, so ι΄ is 10 even though ι is the 9th letter."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια ηρωίδα της Disney φτιάχνει πάγο και χιόνι με τα χέρια της;",
+    "options": [
+      "Άριελ",
+      "Έλσα",
+      "Μουλάν",
+      "Ραπουνζέλ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Disney heroine makes ice and snow with her hands? — Elsa, in Frozen (2013)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο ουράνιο σώμα προκαλεί κυρίως τις παλίρροιες στη Γη;",
+    "options": [
+      "Ο Ήλιος",
+      "Ο Άρης",
+      "Η Σελήνη",
+      "Ο Δίας"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which celestial body mainly causes the tides on Earth? — The Moon (the Sun contributes less)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια χώρα φιλοξένησε το Παγκόσμιο Κύπελλο ποδοσφαίρου του 2022;",
+    "options": [
+      "Ρωσία",
+      "Βραζιλία",
+      "ΗΠΑ",
+      "Κατάρ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country hosted the 2022 football World Cup? — Qatar (Russia 2018, Brazil 2014)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο ερπετό αλλάζει χρώμα και κινεί τα μάτια του ανεξάρτητα το ένα από το άλλο;",
+    "options": [
+      "Κροκόδειλος",
+      "Χαμαιλέοντας",
+      "Χελώνα",
+      "Κόμπρα"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which reptile changes colour and moves its eyes independently? — The chameleon."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια εταιρεία αναπτύσσει το λειτουργικό σύστημα Android;",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "Samsung"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which company develops the Android operating system? — Google."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Γερμανός τύπωσε τη Βίβλο με κινητά μεταλλικά στοιχεία, γύρω στο 1455;",
+    "options": [
+      "Γουτεμβέργιος",
+      "Λούθηρος",
+      "Κέπλερ",
+      "Μπαχ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which German printed the Bible with movable metal type around 1455? — Johannes Gutenberg, in Mainz."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο μπαχαρικό δίνει στην ισπανική παέγια το κίτρινο χρώμα της;",
+    "options": [
+      "Κανέλα",
+      "Κύμινο",
+      "Γαρίφαλο",
+      "Ζαφορά"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which spice gives Spanish paella its yellow colour? — Saffron (also grown in Greece as krokos Kozanis)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο ποτό του Μεξικού φτιάχνεται από το φυτό αγαύη;",
+    "options": [
+      "Τεκίλα",
+      "Ρούμι",
+      "Ουίσκι",
+      "Βότκα"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Mexican drink is made from the agave plant? — Tequila."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο όργανο του σώματος παράγει τη χολή;",
+    "options": [
+      "Το συκώτι",
+      "Το πάγκρεας",
+      "Τα νεφρά",
+      "Η σπλήνα"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which organ produces bile? — The liver; the gallbladder only stores it."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ποια από αυτές τις λέξεις αλλάζει νόημα αν ο τόνος πάει στην τελευταία συλλαβή;",
+    "options": [
+      "Θάλασσα",
+      "Μήλο",
+      "Γέρος",
+      "Παράθυρο"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word changes meaning if the accent moves to the last syllable? — Γέρος (old man) becomes γερός (sturdy, healthy); the others become non-words."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ο Δεκέμβριος παίρνει το όνομά του από το λατινικό «δέκα». Ο πόστος μήνας του έτους είναι όμως στην πράξη;",
+    "options": [
+      "Ο δέκατος",
+      "Ο δωδέκατος",
+      "Ο ενδέκατος",
+      "Ο ένατος"
+    ],
+    "correctIndex": 1,
+    "gloss": "December comes from Latin \"ten\", yet which place is it in the calendar year? — Twelfth: the Roman year started in March."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια διώρυγα ενώνει τη Μεσόγειο με την Ερυθρά Θάλασσα;",
+    "options": [
+      "Του Παναμά",
+      "Της Κορίνθου",
+      "Του Κιέλου",
+      "Του Σουέζ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which canal links the Mediterranean to the Red Sea? — Suez (the Corinth Canal is the Greek lookalike)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος ποιητής έγραψε τους στίχους του Εθνικού Ύμνου της Ελλάδας;",
+    "options": [
+      "Κωστής Παλαμάς",
+      "Κ. Π. Καβάφης",
+      "Διονύσιος Σολωμός",
+      "Ανδρέας Κάλβος"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the lyrics of the Greek national anthem? — Dionysios Solomos (\"Hymn to Liberty\"); Palamas wrote the Olympic Hymn."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο χημικό στοιχείο είναι κοινό στο διαμάντι και στον γραφίτη του μολυβιού;",
+    "options": [
+      "Ο άνθρακας",
+      "Το πυρίτιο",
+      "Το αργίλιο",
+      "Ο σίδηρος"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which element makes up both diamond and pencil graphite? — Carbon."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Βενετός έμπορος του 13ου αιώνα ταξίδεψε ως την αυλή του Κουμπλάι Χαν στην Κίνα;",
+    "options": [
+      "Χριστόφορος Κολόμβος",
+      "Μάρκο Πόλο",
+      "Βάσκο ντα Γκάμα",
+      "Μαγγελάνος"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which 13th-century Venetian merchant travelled to the court of Kublai Khan? — Marco Polo."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος ζωγράφος έφτιαξε την «Εμμονή της μνήμης» με τα λιωμένα ρολόγια;",
+    "options": [
+      "Χουάν Μιρό",
+      "Ρενέ Μαγκρίτ",
+      "Σαλβαδόρ Νταλί",
+      "Μαξ Ερνστ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who painted \"The Persistence of Memory\" with melting clocks? — Salvador Dalí."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο ήταν το πραγματικό όνομα του ζωγράφου που έμεινε στην ιστορία ως «Ελ Γκρέκο»;",
+    "options": [
+      "Νικόλαος Γύζης",
+      "Θεόφιλος Χατζημιχαήλ",
+      "Κωνσταντίνος Παρθένης",
+      "Δομήνικος Θεοτοκόπουλος"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was the real name of the painter known as \"El Greco\"? — Domenikos Theotokopoulos, from Crete, who lived in Toledo."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Σε ποια επιφάνεια παίζεται το τουρνουά τένις του Γουίμπλεντον;",
+    "options": [
+      "Γρασίδι",
+      "Χώμα",
+      "Σκληρή επιφάνεια",
+      "Ξύλο"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which surface is Wimbledon played? — Grass."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος θεός της σκανδιναβικής μυθολογίας κρατά το σφυρί Μιόλνιρ;",
+    "options": [
+      "Οδίνος",
+      "Λόκι",
+      "Φρέιρ",
+      "Θωρ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norse god wields the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια ιαπωνική εταιρεία δημιούργησε τον υδραυλικό Μάριο;",
+    "options": [
+      "Νίντεντο",
+      "Σέγκα",
+      "Σόνι",
+      "Ατάρι"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Japanese company created Mario the plumber? — Nintendo (Atari is American)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο κυπριακό τυρί ψήνεται ή τηγανίζεται χωρίς να λιώσει;",
+    "options": [
+      "Κεφαλογραβιέρα",
+      "Μανούρι",
+      "Χαλλούμι",
+      "Κασέρι"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Cypriot cheese can be grilled or fried without melting? — Halloumi."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος συνθέτης έγραψε την 9η Συμφωνία με την «Ωδή στη Χαρά» όντας σχεδόν κουφός;",
+    "options": [
+      "Μότσαρτ",
+      "Μπετόβεν",
+      "Μπαχ",
+      "Σούμπερτ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which composer wrote the 9th Symphony with the \"Ode to Joy\" while almost deaf? — Beethoven."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος ηθοποιός υποδύθηκε τον Χάρι Πότερ στις οκτώ ταινίες;",
+    "options": [
+      "Ντάνιελ Ράντκλιφ",
+      "Ρούπερτ Γκριντ",
+      "Τομ Φέλτον",
+      "Έντι Ρέντμεϊν"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who played Harry Potter in all eight films? — Daniel Radcliffe (Grint played Ron, Felton Draco)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Τι «γράφει» κατά λέξη η φωτογραφία;",
+    "options": [
+      "Με το μολύβι",
+      "Στον καμβά",
+      "Με το φως",
+      "Με τον ήλιο και τη σκιά"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does \"photography\" literally write? — With light (φως + γράφω)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Πόσες καρδιές έχουν μαζί τρία χταπόδια;",
+    "options": [
+      "Έξι",
+      "Εννέα",
+      "Οκτώ",
+      "Δώδεκα"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many hearts do three octopuses have together? — Nine: each octopus has three hearts."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Το ελληνικό αλφάβητο έχει 24 γράμματα. Πόσα από αυτά είναι σύμφωνα;",
+    "options": [
+      "15",
+      "16",
+      "18",
+      "17"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Greek alphabet has 24 letters; how many are consonants? — 17, since there are seven vowels (α, ε, η, ι, ο, υ, ω)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Βρετανός επιστήμονας του CERN δημιούργησε το World Wide Web το 1989;",
+    "options": [
+      "Μπιλ Γκέιτς",
+      "Στιβ Τζομπς",
+      "Άλαν Τιούρινγκ",
+      "Τιμ Μπέρνερς-Λι"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which British CERN scientist created the World Wide Web in 1989? — Tim Berners-Lee."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος ποιητής του «Άξιον Εστί» κέρδισε το Νόμπελ Λογοτεχνίας το 1979;",
+    "options": [
+      "Οδυσσέας Ελύτης",
+      "Γιώργος Σεφέρης",
+      "Γιάννης Ρίτσος",
+      "Νίκος Καζαντζάκης"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which poet of \"Axion Esti\" won the 1979 Nobel Prize in Literature? — Odysseas Elytis (Seferis won in 1963)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Σε ποια χώρα βρίσκεται το Μάτσου Πίτσου, η πόλη των Ίνκας στα βουνά;",
+    "options": [
+      "Βολιβία",
+      "Μεξικό",
+      "Περού",
+      "Χιλή"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which country is Machu Picchu? — Peru."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Σε ποιο νησί της Δωδεκανήσου γεννήθηκε, κατά την παράδοση, ο Ιπποκράτης, ο «πατέρας της ιατρικής»;",
+    "options": [
+      "Ρόδος",
+      "Κως",
+      "Κάλυμνος",
+      "Πάτμος"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which Dodecanese island was Hippocrates, the \"father of medicine\", born by tradition? — Kos."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Ιταλός συνθέτης έγραψε την όπερα «Μαντάμα Μπατερφλάι»;",
+    "options": [
+      "Τζουζέπε Βέρντι",
+      "Τζοακίνο Ροσίνι",
+      "Ζορζ Μπιζέ",
+      "Τζάκομο Πουτσίνι"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which composer wrote the opera \"Madama Butterfly\"? — Giacomo Puccini (Bizet was French)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος αρχαίος Έλληνας λόγιος της Αλεξάνδρειας υπολόγισε με μετρήσεις σκιάς την περιφέρεια της Γης;",
+    "options": [
+      "Ερατοσθένης",
+      "Ίππαρχος",
+      "Πτολεμαίος",
+      "Στράβων"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ancient Greek scholar of Alexandria first calculated the size of the Earth by a method? — Eratosthenes, from shadows at Syene and Alexandria."
+  }
+]
