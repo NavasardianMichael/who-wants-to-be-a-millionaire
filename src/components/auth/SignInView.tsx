@@ -8,7 +8,7 @@ import { AuthGate } from './AuthGate'
 import { GoogleOption } from './GoogleOption'
 import { SignInForm } from './SignInForm'
 
-/** Why an account is worth having, then Google, then email and password. */
+/** Google, then email and password, then why an account is worth having. */
 export const SignInView = () => {
   const t = useTranslations('Auth')
   const benefits = [t('benefitRanked'), t('benefitLeaderboard'), t('benefitSync')]
@@ -16,6 +16,8 @@ export const SignInView = () => {
   return (
     <AuthGate>
       <div className='flex flex-col gap-6'>
+        <GoogleOption />
+        <SignInForm />
         <ul className='flex flex-col gap-3'>
           {benefits.map((benefit) => (
             <li key={benefit} className='flex items-start gap-3 text-ivory'>
@@ -26,8 +28,6 @@ export const SignInView = () => {
             </li>
           ))}
         </ul>
-        <GoogleOption />
-        <SignInForm />
         <p className='text-center text-body-sm text-mist'>
           {t('noAccount')}{' '}
           <AppLink href={ROUTES.signUp} className='font-semibold text-gold-200 underline-offset-4 hover:underline'>
