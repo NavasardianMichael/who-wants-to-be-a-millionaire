@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "اگر روی «حال» فقط یک نقطه بگذاریم، کدام واژه ساخته می‌شود؟",
+    "options": [
+      "چال",
+      "بال",
+      "خال",
+      "فال"
+    ],
+    "correctIndex": 2,
+    "gloss": "Put a single dot on «حال» (state): which word do you get? — «خال» (mole): ح with one dot above is خ; چ needs three dots, ب and ف are other letters."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«ستان» در «نیستان» و «کوهستان» یعنی «جای چیزی». در کدام واژه چنین معنایی ندارد؟",
+    "options": [
+      "قبرستان",
+      "نخلستان",
+      "گلستان",
+      "داستان"
+    ],
+    "correctIndex": 3,
+    "gloss": "The ending «ستان» means \"place of\" in reed-bed, mountains. In which word does it not? — «داستان» (story): it is not «دا» + place; the others are places of graves, palm trees and flowers."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«بِنا» یعنی ساختمان. اگر «ن» تشدید بگیرد و «بَنّا» شود، معنایش چیست؟",
+    "options": [
+      "نقشهٔ ساختمان",
+      "کسی که ساختمان می‌سازد",
+      "پی ساختمان",
+      "صاحب ساختمان"
+    ],
+    "correctIndex": 1,
+    "gloss": "«بنا» is a building; with a shadda, «بنّا» means what? — A builder/mason: the doubled consonant makes the agent noun."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "برادرِ مادرم «دایی» من است. پسرِ دایی‌ام برای مادرم چه نسبتی دارد؟",
+    "options": [
+      "خواهرزاده",
+      "برادرزاده",
+      "پسرعمو",
+      "نوه"
+    ],
+    "correctIndex": 1,
+    "gloss": "My mother's brother is my «دایی». What is my دایی's son to my mother? — Her brother's son: «برادرزاده»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "شب یلدا، شبِ آخرِ کدام ماه است؟",
+    "options": [
+      "دی",
+      "آبان",
+      "بهمن",
+      "آذر"
+    ],
+    "correctIndex": 3,
+    "gloss": "Yalda night is the last night of which month? — Azar: Yalda falls between the last day of Azar and 1 Dey."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کدام نان ایرانی را روی سنگ‌ریزه‌های داغ تنور می‌پزند؟",
+    "options": [
+      "سنگک",
+      "بربری",
+      "لواش",
+      "تافتون"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Iranian bread is baked on hot pebbles in the oven? — Sangak, named after its \"little stones\"."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کدام دریاچهٔ شور ایران میان استان‌های آذربایجان غربی و شرقی است؟",
+    "options": [
+      "ارومیه",
+      "پریشان",
+      "گهر",
+      "زریوار"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which salt lake of Iran lies between West and East Azerbaijan provinces? — Lake Urmia."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«گلستان» و «بوستان» را کدام شاعر نوشته است؟",
+    "options": [
+      "سعدی",
+      "مولوی",
+      "عطار",
+      "نظامی"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote Golestan and Bustan? — Saadi of Shiraz."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "گازی که نوشابه را گازدار و پرحباب می‌کند کدام است؟",
+    "options": [
+      "اکسیژن",
+      "دی‌اکسید کربن",
+      "هیدروژن",
+      "هلیوم"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which gas makes soft drinks fizzy? — Carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "گلاب معروف قمصر کاشان را از گلبرگ کدام گل می‌گیرند؟",
+    "options": [
+      "یاس",
+      "نرگس",
+      "گل محمدی",
+      "لاله"
+    ],
+    "correctIndex": 2,
+    "gloss": "The famous rosewater of Qamsar (Kashan) is made from the petals of which flower? — The Damask rose, «گل محمدی»."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "در دوی امدادی، دونده‌ها چه چیزی را دست‌به‌دست به هم می‌دهند؟",
+    "options": [
+      "پرچم",
+      "مشعل",
+      "دستبند",
+      "باتوم"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a relay race, what do runners pass from hand to hand? — The baton."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "در شطرنج، کدام مهره فقط به‌صورت مورب حرکت می‌کند؟",
+    "options": [
+      "رخ",
+      "اسب",
+      "فیل",
+      "وزیر"
+    ],
+    "correctIndex": 2,
+    "gloss": "In chess, which piece moves only diagonally? — The bishop («فیل»); the queen moves diagonally too, but not only."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سازِ کوبه‌ایِ «ضرب» را با کدام نامِ دیگرش بیشتر می‌شناسیم؟",
+    "options": [
+      "دف",
+      "دهل",
+      "تنبک",
+      "نقاره"
+    ],
+    "correctIndex": 2,
+    "gloss": "The percussion instrument «ضرب» is better known by which other name? — Tombak (tonbak)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "وقتی کسی می‌گوید «یه ربع به هشت»، ساعت چند است؟",
+    "options": [
+      "۸:۱۵",
+      "۷:۱۵",
+      "۸:۴۵",
+      "۷:۴۵"
+    ],
+    "correctIndex": 3,
+    "gloss": "Someone says \"a quarter to eight\" in colloquial Persian: what time is it? — 7:45; «به» means \"to\", so a quarter before eight."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "میدان نقش جهان در کدام شهر است؟",
+    "options": [
+      "شیراز",
+      "اصفهان",
+      "تبریز",
+      "کرمان"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which city is Naqsh-e Jahan Square? — Isfahan."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کوروش بزرگ بنیان‌گذار کدام دودمان بود؟",
+    "options": [
+      "ساسانیان",
+      "هخامنشیان",
+      "اشکانیان",
+      "مادها"
+    ],
+    "correctIndex": 1,
+    "gloss": "Cyrus the Great founded which dynasty? — The Achaemenids."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در شاهنامه، اسبِ رستم چه نام دارد؟",
+    "options": [
+      "شبدیز",
+      "شبرنگ",
+      "گلگون",
+      "رخش"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Shahnameh, what is Rostam's horse called? — Rakhsh (Shabdiz was Khosrow Parviz's, Shabrang Siyavash's)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "روشن کردنِ «حالت پرواز» در گوشی، چه چیزی را خاموش می‌کند؟",
+    "options": [
+      "ارتباط‌های بی‌سیم گوشی",
+      "صفحه‌نمایش",
+      "دوربین",
+      "زنگ ساعت"
+    ],
+    "correctIndex": 0,
+    "gloss": "Switching a phone to airplane mode turns off what? — Its wireless connections (cellular, and by default Wi-Fi and Bluetooth); the alarm still rings."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "مجید در «قصه‌های مجید» با چه کسی زندگی می‌کند؟",
+    "options": [
+      "مادربزرگش",
+      "پدرش",
+      "عمه‌اش",
+      "برادرش"
+    ],
+    "correctIndex": 0,
+    "gloss": "In \"Tales of Majid\", whom does Majid live with? — His grandmother, Bibi."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در بازی «منچ»، برای بیرون آوردنِ مهره از خانه تاس باید چند بیاید؟",
+    "options": [
+      "۶",
+      "۱",
+      "۵",
+      "۴"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Mench (Ludo), what must the die show to bring a piece out? — Six."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "فلافلی که در ایران می‌خوریم، بیشتر از کدام حبوبات درست می‌شود؟",
+    "options": [
+      "عدس",
+      "نخود",
+      "لوبیا چیتی",
+      "ماش"
+    ],
+    "correctIndex": 1,
+    "gloss": "The falafel eaten in Iran is made mostly from which pulse? — Chickpeas (Egypt uses fava beans, deliberately left out of the options)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "شنبه روز اول هفته است. «پنج‌شنبه» چندمین روز هفته است؟",
+    "options": [
+      "پنجم",
+      "هفتم",
+      "ششم",
+      "چهارم"
+    ],
+    "correctIndex": 2,
+    "gloss": "Saturday is the first day of the Persian week. Which day is «پنج‌شنبه» (literally \"five-Saturday\")? — The sixth: the number counts days after Saturday, the autopilot trap is \"fifth\"."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "شمارش سال‌ها در گاه‌شماری میلادی از تولد چه کسی آغاز می‌شود؟",
+    "options": [
+      "موسی",
+      "ژولیوس سزار",
+      "کنستانتین",
+      "عیسی مسیح"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Gregorian (AD) count of years starts from whose birth? — Jesus Christ."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "این مَثَل را کامل کنید: «از تو حرکت، از خدا …»",
+    "options": [
+      "رحمت",
+      "نعمت",
+      "برکت",
+      "قدرت"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the saying \"From you the effort, from God the…\" — «برکت» (blessing), which rhymes."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«مردمک»، که نامش یعنی «آدمکِ کوچک»، بخشی از کدام اندام است؟",
+    "options": [
+      "گوش",
+      "دهان",
+      "چشم",
+      "بینی"
+    ],
+    "correctIndex": 2,
+    "gloss": "The «مردمک», literally \"little person\", is part of which organ? — The eye (the pupil)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "چرا بطریِ شیشه‌ایِ پر از آب ممکن است در فریزر بترکد؟",
+    "options": [
+      "شیشه در سرما ذوب می‌شود",
+      "آب با یخ زدن سنگین‌تر می‌شود",
+      "هوای فریزر به شیشه فشار می‌آورد",
+      "آب با یخ زدن حجیم‌تر می‌شود"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why can a full glass bottle of water burst in the freezer? — Water expands as it freezes (ice takes about 9% more volume); its mass does not change."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام جانور اگر دُمش کنده شود، دُمِ تازه‌ای می‌رویاند؟",
+    "options": [
+      "مار",
+      "مارمولک",
+      "قورباغه",
+      "لاک‌پشت"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal grows a new tail if its tail comes off? — The lizard (many lizards shed and regrow it)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "واحد پول امارات متحده عربی چیست؟",
+    "options": [
+      "دینار",
+      "درهم",
+      "ریال",
+      "لیره"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the currency of the United Arab Emirates? — The dirham (Kuwait/Iraq dinar, Saudi/Qatar riyal)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "در «منطق‌الطیر» عطار، چند مرغ به سیمرغ می‌رسند و درمی‌یابند که سیمرغ خودشان‌اند؟",
+    "options": [
+      "هفت",
+      "صد",
+      "هزار",
+      "سی"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Attar's Conference of the Birds, how many birds reach the Simorgh and find it is themselves? — Thirty: «سی مرغ» = Simorgh."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "در پویانمایی «راتاتویی»، موشی به نام رمی در کدام شهر آشپز می‌شود؟",
+    "options": [
+      "پاریس",
+      "رم",
+      "لیون",
+      "میلان"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the animated film Ratatouille, in which city does Remy the rat become a cook? — Paris."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«سال نوری» یکای اندازه‌گیریِ چیست؟",
+    "options": [
+      "فاصله",
+      "زمان",
+      "سرعت",
+      "روشنایی"
+    ],
+    "correctIndex": 0,
+    "gloss": "A light-year is a unit of what? — Distance (the trap is \"time\")."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام کارگردان «آرواره‌ها» و «پارک ژوراسیک» را ساخت؟",
+    "options": [
+      "استیون اسپیلبرگ",
+      "جیمز کامرون",
+      "جورج لوکاس",
+      "رابرت زمکیس"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which director made Jaws and Jurassic Park? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ثور، خدای تندر در اسطوره‌های اسکاندیناوی، چه سلاحی دارد؟",
+    "options": [
+      "نیزه",
+      "چکش",
+      "تبر",
+      "کمان"
+    ],
+    "correctIndex": 1,
+    "gloss": "What weapon does Thor, the Norse thunder god, carry? — A hammer (Mjölnir)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "سازِ زهیِ «سیتار»، با دسته‌ای بلند و سیم‌های فراوان، از کدام کشور است؟",
+    "options": [
+      "ترکیه",
+      "چین",
+      "هند",
+      "ژاپن"
+    ],
+    "correctIndex": 2,
+    "gloss": "The long-necked, many-stringed sitar comes from which country? — India."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کدام پرنده تخمش را در لانهٔ پرندگان دیگر می‌گذارد تا آن‌ها جوجه‌اش را بزرگ کنند؟",
+    "options": [
+      "دارکوب",
+      "سار",
+      "گنجشک",
+      "فاخته"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo («فاخته»)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "کاخ «چهل‌ستون» اصفهان بیست ستون دارد. به گفتهٔ مشهور، بیست ستونِ دیگر کجاست؟",
+    "options": [
+      "زیر خاک ایوان",
+      "در موزهٔ ایران باستان",
+      "بازتابشان در آب حوض",
+      "در تالار پشتی"
+    ],
+    "correctIndex": 2,
+    "gloss": "Chehel Sotoun (\"forty columns\") has twenty. Where, as the popular saying goes, are the other twenty? — Their reflection in the long pool."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "در افسانهٔ نوروزی، چه کسی هر سال چشم‌به‌راهِ عمو نوروز است و پیش از رسیدنش خوابش می‌برد؟",
+    "options": [
+      "حاجی فیروز",
+      "خاله سوسکه",
+      "ننه سرما",
+      "ننه علی"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Nowruz folk tale, who waits for Amu Nowruz each year and falls asleep before he arrives? — Naneh Sarma (\"Granny Cold\")."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کانال پاناما کدام دو اقیانوس را به هم می‌رساند؟",
+    "options": [
+      "آرام و هند",
+      "اطلس و هند",
+      "اطلس و منجمد شمالی",
+      "اطلس و آرام"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which two oceans does the Panama Canal link? — The Atlantic and the Pacific."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "مارکوپولو، جهانگرد نامدار، اهل کدام شهر بود؟",
+    "options": [
+      "جنوا",
+      "ونیز",
+      "رم",
+      "فلورانس"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which city was Marco Polo from? — Venice."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "پنیرِ سوراخ‌سوراخِ «امنتال» از کدام کشور است؟",
+    "options": [
+      "هلند",
+      "سوئیس",
+      "فرانسه",
+      "دانمارک"
+    ],
+    "correctIndex": 1,
+    "gloss": "Holey Emmental cheese comes from which country? — Switzerland (the Emmental valley, canton of Bern)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "در کدام ورزش به‌جای توپ، توپکی پردار را با راکت این‌سو و آن‌سو می‌زنند؟",
+    "options": [
+      "اسکواش",
+      "تنیس روی میز",
+      "تنیس",
+      "بدمینتون"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport is a feathered shuttlecock hit back and forth with rackets? — Badminton."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "کدام همسایهٔ ایران با روسیه هم مرز زمینی دارد؟",
+    "options": [
+      "جمهوری آذربایجان",
+      "ارمنستان",
+      "ترکمنستان",
+      "ترکیه"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of Iran's neighbours also has a land border with Russia? — Azerbaijan; Armenia and Turkey are cut off by Georgia, Turkmenistan by Kazakhstan, and the Caspian is not a land border."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سنگ‌نبشتهٔ بیستون به فرمانِ کدام شاه کنده شد؟",
+    "options": [
+      "داریوش بزرگ",
+      "کوروش بزرگ",
+      "خشایارشا",
+      "اردشیر یکم"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Behistun inscription was carved by order of which king? — Darius the Great (Darius I)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "گوشِ جیرجیرک کجای بدنش است؟",
+    "options": [
+      "پاهای جلویی",
+      "سر",
+      "شکم",
+      "بال‌ها"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where are a cricket's ears? — On its front legs, just below the knee (grasshoppers' are on the abdomen)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "واژهٔ انگلیسیِ pajamas از فارسی رفته است. از کدام دو واژه ساخته شده؟",
+    "options": [
+      "«پوش» و «جامه»",
+      "«پا» و «جامه»",
+      "«پیچ» و «جامه»",
+      "«پشم» و «جامه»"
+    ],
+    "correctIndex": 1,
+    "gloss": "The English word pajamas comes from Persian. From which two words? — «پا» (leg) + «جامه» (garment), via Hindustani."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کمبودِ ویتامینی که در مرکبات فراوان است، دریانوردانِ قدیم را به کدام بیماری دچار می‌کرد؟",
+    "options": [
+      "راشیتیسم",
+      "بری‌بری",
+      "اسکوربوت",
+      "پلاگر"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lacking the vitamin plentiful in citrus gave old-time sailors which disease? — Scurvy (vitamin C)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "نوروزِ سال ۱۴۰۰ خورشیدی در کدام سال میلادی بود؟",
+    "options": [
+      "۲۰۲۰",
+      "۲۰۲۲",
+      "۲۰۱۹",
+      "۲۰۲۱"
+    ],
+    "correctIndex": 3,
+    "gloss": "Nowruz of 1400 SH fell in which Gregorian year? — 2021: add 621 to a solar year for the Gregorian year it starts in (March 2021)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "رمانِ چندجلدیِ «کلیدر» نوشتهٔ کیست؟",
+    "options": [
+      "احمد محمود",
+      "جلال آل‌احمد",
+      "محمود دولت‌آبادی",
+      "هوشنگ گلشیری"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the multi-volume novel Kelidar? — Mahmoud Dowlatabadi."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "رصدخانهٔ مراغه را در قرن هفتم هجری کدام دانشمند بنیان نهاد؟",
+    "options": [
+      "عمر خیام",
+      "ابوریحان بیرونی",
+      "خواجه نصیرالدین طوسی",
+      "الغ‌بیگ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which scholar founded the Maragheh observatory in the 13th century (7th AH)? — Nasir al-Din Tusi (Ulugh Beg built Samarkand's)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "گاه‌شماری «جلالی»، که خیام در تنظیمش نقش داشت، به نامِ کدام پادشاه سلجوقی است؟",
+    "options": [
+      "آلپ ارسلان",
+      "طغرل",
+      "سنجر",
+      "ملکشاه"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Jalali calendar, which Khayyam helped devise, is named after which Seljuk ruler? — Malik-Shah I, whose title was Jalal al-Dawla."
+  }
+]

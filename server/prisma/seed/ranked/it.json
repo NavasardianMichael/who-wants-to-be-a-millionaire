@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Davanti a quale di queste parole «un» prende l'apostrofo?",
+    "options": [
+      "amico",
+      "albero",
+      "amica",
+      "uomo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Before which of these words does «un» take an apostrophe? — amica: the feminine «un'amica» elides, the masculine «un amico» never does."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Una di queste parole è maschile al singolare, ma femminile al plurale. Quale?",
+    "options": [
+      "dito",
+      "piede",
+      "naso",
+      "occhio"
+    ],
+    "correctIndex": 0,
+    "gloss": "One of these words is masculine in the singular but feminine in the plural. — dito: il dito, le dita; the others stay masculine (i piedi, i nasi, gli occhi)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Raddoppiando la «t» di «sete», il bisogno di bere, si ottiene un numero. Quale?",
+    "options": [
+      "cinque",
+      "sei",
+      "otto",
+      "sette"
+    ],
+    "correctIndex": 3,
+    "gloss": "Doubling the «t» of «sete» (thirst) gives a number. — sette (seven)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "La Pasqua cade sempre di domenica. Che giorno della settimana è sempre la Pasquetta?",
+    "options": [
+      "Sabato",
+      "Lunedì",
+      "Martedì",
+      "Venerdì"
+    ],
+    "correctIndex": 1,
+    "gloss": "Easter always falls on Sunday; which weekday is Pasquetta? — Monday: it is the day after Easter (Lunedì dell'Angelo)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Che ora segna l'orologio a «mezzanotte e mezza»?",
+    "options": [
+      "12:30",
+      "23:30",
+      "00:30",
+      "11:30"
+    ],
+    "correctIndex": 2,
+    "gloss": "What time is it at «mezzanotte e mezza»? — 00:30: midnight plus half an hour (noon plus half would be «mezzogiorno e mezza»)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale di queste grafie è corretta?",
+    "options": [
+      "qual'è",
+      "qual è",
+      "qua'l è",
+      "qual é"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which spelling is correct? — «qual è»: «qual» is a truncation of «quale», not an elision, so it takes no apostrophe."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale di queste lettere non fa parte dell'alfabeto italiano tradizionale?",
+    "options": [
+      "H",
+      "Q",
+      "Z",
+      "K"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these letters is not in the traditional Italian alphabet? — K (it has 21 letters; K, J, W, X, Y only appear in loanwords)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Con quale bevanda si inzuppano i savoiardi del tiramisù?",
+    "options": [
+      "Caffè",
+      "Tè",
+      "Latte",
+      "Cioccolata calda"
+    ],
+    "correctIndex": 0,
+    "gloss": "What are the ladyfingers of tiramisù dipped in? — Coffee."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Con quale soprannome sono noti i giocatori della Nazionale italiana di calcio?",
+    "options": [
+      "Rossoneri",
+      "Bianconeri",
+      "Azzurri",
+      "Giallorossi"
+    ],
+    "correctIndex": 2,
+    "gloss": "What nickname do the Italian national football team's players have? — Azzurri (blue is the national colour); the others are club nicknames (Milan, Juventus, Roma)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi scrisse «Le avventure di Pinocchio», il burattino dal naso che si allunga?",
+    "options": [
+      "Edmondo De Amicis",
+      "Carlo Collodi",
+      "Gianni Rodari",
+      "Giovanni Verga"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote The Adventures of Pinocchio? — Carlo Collodi (pen name of Carlo Lorenzini), 1881-83."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale animale è famoso per costruire dighe di rami nei fiumi?",
+    "options": [
+      "Lontra",
+      "Marmotta",
+      "Tasso",
+      "Castoro"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal is famous for building dams of branches in rivers? — Beaver (castoro)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale mare bagna la costa orientale d'Italia, di fronte alla Croazia?",
+    "options": [
+      "Adriatico",
+      "Tirreno",
+      "Ionio",
+      "Ligure"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sea washes Italy's east coast, facing Croatia? — Adriatic."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale Paese è celebre per i suoi fiordi, come il Geirangerfjord?",
+    "gloss": "Which country is famous for its fjords, such as the Geirangerfjord? — Norway.",
+    "options": [
+      "Finlandia",
+      "Danimarca",
+      "Norvegia",
+      "Irlanda"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Che cosa porta la Befana, nella calza, ai bambini che sono stati cattivi?",
+    "options": [
+      "Cenere",
+      "Carbone",
+      "Sassi",
+      "Legna"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the Befana put in the stocking of children who were naughty? — Carbone (coal, today usually sugar «coal»)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale app di messaggi ha come icona una cornetta bianca in un fumetto verde?",
+    "options": [
+      "WhatsApp",
+      "Telegram",
+      "Messenger",
+      "Signal"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which messaging app's icon is a white handset in a green speech bubble? — WhatsApp."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Come si chiama il fratello di Mario, l'idraulico baffuto dei videogiochi?",
+    "options": [
+      "Wario",
+      "Toad",
+      "Yoshi",
+      "Luigi"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the name of Mario's brother, the moustached plumber of the video games? — Luigi (Wario is a rival, not a brother)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi diresse e interpretò «La vita è bella», film premiato con tre Oscar?",
+    "options": [
+      "Carlo Verdone",
+      "Massimo Troisi",
+      "Roberto Benigni",
+      "Leonardo Pieraccioni"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who directed and starred in Life Is Beautiful, winner of three Oscars? — Roberto Benigni (1997 film, Oscars 1999)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In quale città si tiene ogni anno il Festival della canzone italiana?",
+    "options": [
+      "Genova",
+      "Sanremo",
+      "Viareggio",
+      "Rimini"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which city is the Italian Song Festival held every year? — Sanremo (Liguria)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Che cosa misura il barometro?",
+    "options": [
+      "Temperatura",
+      "Pressione atmosferica",
+      "Umidità",
+      "Velocità del vento"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a barometer measure? — Atmospheric pressure (humidity: hygrometer; wind: anemometer)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Di che colore è la maglia del leader della classifica generale al Giro d'Italia?",
+    "options": [
+      "Gialla",
+      "Rossa",
+      "Azzurra",
+      "Rosa"
+    ],
+    "correctIndex": 3,
+    "gloss": "What colour is the jersey of the overall leader at the Giro d'Italia? — Pink (maglia rosa), from the pink pages of the Gazzetta dello Sport."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale nota segue «sol» e «la» nella scala musicale, prima del «do» successivo?",
+    "options": [
+      "Fa",
+      "Re",
+      "Si",
+      "Mi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which note follows «sol» and «la» in the scale, before the next «do»? — Si."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nella mitologia norrena, chi brandisce il martello Mjöllnir?",
+    "options": [
+      "Thor",
+      "Odino",
+      "Loki",
+      "Baldr"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Norse mythology, who wields the hammer Mjöllnir? — Thor (Odin has the spear Gungnir)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Di quale frutto secco è fatto il marzapane tradizionale?",
+    "options": [
+      "Nocciole",
+      "Mandorle",
+      "Pistacchi",
+      "Noci"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which nut is traditional marzipan made of? — Almonds."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Come si chiama la caffettiera in alluminio, a base ottagonale, che si mette sul fornello?",
+    "options": [
+      "Napoletana",
+      "Samovar",
+      "Moka",
+      "Cezve"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the aluminium octagonal coffee pot used on the hob called? — Moka (Bialetti, 1933); the others are other brewing pots."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un film dura «un'ora e tre quarti». Quanti minuti sono?",
+    "options": [
+      "90 minuti",
+      "105 minuti",
+      "120 minuti",
+      "135 minuti"
+    ],
+    "correctIndex": 1,
+    "gloss": "A film lasts «an hour and three quarters». How many minutes? — 105: 60 + 3 x 15."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale popolo costruì la città di Machu Picchu, tra le Ande?",
+    "options": [
+      "Maya",
+      "Aztechi",
+      "Olmechi",
+      "Inca"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which people built the city of Machu Picchu in the Andes? — The Inca (Maya, Aztecs and Olmecs lived in Mesoamerica)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale scrittore inventò Lilliput, il paese dei minuscoli abitanti visitato da Gulliver?",
+    "gloss": "Which writer invented Lilliput, the land of tiny people Gulliver visits? — Jonathan Swift (1726).",
+    "options": [
+      "Daniel Defoe",
+      "Lewis Carroll",
+      "Jonathan Swift",
+      "Charles Dickens"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In quale sport si fa «strike» abbattendo tutti i birilli al primo tiro?",
+    "gloss": "In which sport is knocking down all the pins with the first ball a strike? — Bowling (baseball also has strikes, but no pins).",
+    "options": [
+      "Bowling",
+      "Biliardo",
+      "Baseball",
+      "Curling"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Come si scrive in lettere il numero 23?",
+    "options": [
+      "ventitre",
+      "ventitrè",
+      "venti tré",
+      "ventitré"
+    ],
+    "correctIndex": 3,
+    "gloss": "How is 23 written in words? — ventitré: compounds ending in «tre» take an acute accent."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Letto al contrario, quale nome di città italiana dà «amor», l'amore in latino?",
+    "options": [
+      "Roma",
+      "Pisa",
+      "Siena",
+      "Como"
+    ],
+    "correctIndex": 0,
+    "gloss": "Read backwards, which Italian city gives «amor», Latin for love? — Roma."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi compose «La traviata» e «Rigoletto»?",
+    "options": [
+      "Giacomo Puccini",
+      "Gioachino Rossini",
+      "Giuseppe Verdi",
+      "Gaetano Donizetti"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who composed La traviata and Rigoletto? — Giuseppe Verdi."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale impero ebbe Costantinopoli come capitale fino alla sua caduta, nel 1453?",
+    "options": [
+      "Ottomano",
+      "Bizantino",
+      "Persiano",
+      "Carolingio"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which empire had Constantinople as its capital until its fall in 1453? — The Byzantine (Eastern Roman) Empire."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale spazio televisivo di pubblicità, in onda dal 1957, mandava i bambini a letto con il detto «Dopo… tutti a letto»?",
+    "options": [
+      "Carosello",
+      "Tribuna politica",
+      "Rischiatutto",
+      "Il Musichiere"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which TV advertising slot, on air from 1957, sent children to bed with «Dopo… tutti a letto»? — Carosello (1957-1977)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In quale Paese si trova la città di Marrakech?",
+    "options": [
+      "Tunisia",
+      "Egitto",
+      "Algeria",
+      "Marocco"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country is Marrakech? — Morocco."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale scultore francese ha creato «Il pensatore»?",
+    "options": [
+      "Degas",
+      "Rodin",
+      "Monet",
+      "Renoir"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which French sculptor created The Thinker? — Auguste Rodin."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chi è il regista giapponese de «La città incantata», film d'animazione premiato con l'Oscar?",
+    "options": [
+      "Akira Kurosawa",
+      "Takeshi Kitano",
+      "Hayao Miyazaki",
+      "Katsuhiro Otomo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who is the Japanese director of Spirited Away, an Oscar-winning animation? — Hayao Miyazaki."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chi scrisse «Il vecchio e il mare»?",
+    "options": [
+      "Ernest Hemingway",
+      "John Steinbeck",
+      "Mark Twain",
+      "Jack London"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote The Old Man and the Sea? — Ernest Hemingway (1952)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In quale sport si lanciano pietre di granito su una pista di ghiaccio, spazzando davanti a esse con delle scope?",
+    "options": [
+      "Hockey su ghiaccio",
+      "Bob",
+      "Pattinaggio di figura",
+      "Curling"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport are granite stones slid over ice while sweepers brush ahead of them? — Curling."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A quale invenzione è legato il nome di Guglielmo Marconi, bolognese e Nobel per la Fisica nel 1909?",
+    "options": [
+      "Telefono",
+      "Televisione",
+      "Radio",
+      "Fonografo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which invention is tied to Guglielmo Marconi, from Bologna, Nobel Physics 1909? — Radio (wireless telegraphy)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Da quale Paese proviene il formaggio feta?",
+    "options": [
+      "Turchia",
+      "Grecia",
+      "Bulgaria",
+      "Cipro"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country does feta cheese come from? — Greece (protected designation of origin)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale strumento a corde pizzicate è l'emblema musicale di Napoli?",
+    "options": [
+      "Mandolino",
+      "Cornamusa",
+      "Arpa",
+      "Banjo"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which plucked string instrument is the musical emblem of Naples? — Mandolin."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Come si chiama la pittura eseguita sull'intonaco ancora umido di una parete?",
+    "options": [
+      "Acquerello",
+      "Mosaico",
+      "Affresco",
+      "Tempera"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is painting done on still-damp plaster of a wall called? — Fresco (affresco)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale sistema operativo ha come mascotte il pinguino Tux?",
+    "options": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Solaris"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which operating system has the penguin Tux as its mascot? — Linux."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quale di queste parole ha l'accento sulla terzultima sillaba?",
+    "options": [
+      "città",
+      "finestra",
+      "cantare",
+      "tavolo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words is stressed on the third-to-last syllable? — tavolo (TÀ-vo-lo); the others are stressed on the last or second-to-last."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "La somma di due numeri interi consecutivi è 41. Qual è il maggiore?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correctIndex": 2,
+    "gloss": "Two consecutive integers add to 41. Which is the larger? — 21 (20 + 21)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale fisico di Como costruì nel 1800 la prima pila elettrica?",
+    "options": [
+      "Alessandro Volta",
+      "Luigi Galvani",
+      "Antonio Meucci",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which physicist from Como built the first electric battery in 1800? — Alessandro Volta."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quale scrittore siciliano ha creato il commissario Montalbano?",
+    "options": [
+      "Leonardo Sciascia",
+      "Andrea Camilleri",
+      "Luigi Pirandello",
+      "Giovanni Verga"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Sicilian writer created Inspector Montalbano? — Andrea Camilleri."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chi guidò a Chicago, nel 1942, il gruppo che realizzò la prima reazione nucleare a catena controllata?",
+    "options": [
+      "Ettore Majorana",
+      "Emilio Segrè",
+      "Edoardo Amaldi",
+      "Enrico Fermi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who led the Chicago team that achieved the first controlled nuclear chain reaction in 1942? — Enrico Fermi (Chicago Pile-1)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quale pittore dipinse la «Vocazione di san Matteo» nella chiesa di San Luigi dei Francesi a Roma?",
+    "options": [
+      "Tiziano",
+      "Tintoretto",
+      "Caravaggio",
+      "Guido Reni"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which painter made the Calling of Saint Matthew in San Luigi dei Francesi, Rome? — Caravaggio (c. 1600)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In quale città toscana nacque nel 1304 il poeta Francesco Petrarca?",
+    "options": [
+      "Arezzo",
+      "Pisa",
+      "Siena",
+      "Firenze"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Tuscan city was the poet Petrarch born in 1304? — Arezzo (his family, exiled from Florence, lived there)."
+  }
+]
