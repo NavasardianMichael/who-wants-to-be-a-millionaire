@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Այս բառերից ո՞րի հոգնակին է կազմվում «-եր»-ով, ոչ թե «-ներ»-ով։",
+    "options": [
+      "Մատիտ",
+      "Գիրք",
+      "Աթոռ",
+      "Պատուհան"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these words forms its plural with -er, not -ner? — Գիրք (գրքեր): one-syllable words take -եր, longer ones -ներ (մատիտներ, աթոռներ, պատուհաններ)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Այս բառերից ո՞րն է իսկապես կազմված «երկու» թվականից։",
+    "options": [
+      "Երկաթ",
+      "Երկինք",
+      "Երկիր",
+      "Երկվորյակ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words is really built from \"two\" (երկու)? — Երկվորյակ (twin). Iron, sky and land only happen to start with երկ-."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ո՞ր բառին է որոշիչ հոդը միշտ միանում «-ն» ձևով։",
+    "options": [
+      "Ձի",
+      "Տուն",
+      "Քար",
+      "Գետ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word always takes the definite article as -n? — Ձի (ձին): after a vowel the article is always -ն; after a consonant it is -ը, and -ն only before a vowel (տունն է)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ո՞ր բառն արտասանելիս հնչում է «ը», որը գրավոր չի երևում։",
+    "options": [
+      "Արև",
+      "Ամառ",
+      "Գրիչ",
+      "Աղավնի"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word has a spoken \"ը\" that is not written? — Գրիչ, said \"գըրիչ\": Armenian breaks the initial consonant cluster with an unwritten schwa."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞ր տոնին են մարդիկ փողոցում իրար վրա ջուր լցնում։",
+    "options": [
+      "Տրնդեզ",
+      "Համբարձում",
+      "Վարդավառ",
+      "Բարեկենդան"
+    ],
+    "correctIndex": 2,
+    "gloss": "On which holiday do people pour water on each other in the street? — Vardavar, the summer feast of the Transfiguration."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞ր ուտեստն են ժամերով եփում ցորենից ու մսից՝ անընդհատ խառնելով, մինչև շիլայի պես թանձրանա։",
+    "options": [
+      "Հարիսա",
+      "Խաշ",
+      "Ղափամա",
+      "Բոզբաշ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which dish is cooked for hours from wheat and meat, stirred until it thickens like porridge? — Harissa. Khash is also cooked for hours, but from hooves and without wheat."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Հայաստանի ո՞ր տաճարն է կառուցվել դեռ քրիստոնեության ընդունումից առաջ։",
+    "options": [
+      "Զվարթնոց",
+      "Գեղարդ",
+      "Հաղպատ",
+      "Գառնի"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which temple in Armenia was built before the country became Christian? — Garni, the 1st-century Hellenistic temple; the others are Christian churches and monasteries."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞ր լեռան հյուսիսային գագաթն է Հայաստանի Հանրապետության ամենաբարձր կետը։",
+    "options": [
+      "Կապուտջուղ",
+      "Արագած",
+      "Աժդահակ",
+      "Խուստուփ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Whose northern summit is the highest point of the Republic of Armenia? — Aragats (4090 m). Kaputjugh is second."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞վ է գրել «Ես իմ անուշ Հայաստանի արևահամ բառն եմ սիրում» տողը։",
+    "options": [
+      "Եղիշե Չարենցը",
+      "Պարույր Սևակը",
+      "Վահան Տերյանը",
+      "Ավետիք Իսահակյանը"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote \"I love the sun-sweet word of my sweet Armenia\"? — Yeghishe Charents."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Միմինո» ֆիլմում ո՞վ է խաղացել Ռուբիկ Խաչիկյանի դերը։",
+    "options": [
+      "Արմեն Ջիգարխանյանը",
+      "Սոս Սարգսյանը",
+      "Ֆրունզիկ Մկրտչյանը",
+      "Խորեն Աբրահամյանը"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who played Rubik Khachikyan in \"Mimino\"? — Frunzik (Mher) Mkrtchyan."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞ր արքայի օրոք Հայաստանը տարածվեց «ծովից ծով»։",
+    "options": [
+      "Արտաշես Առաջին",
+      "Տիգրան Մեծ",
+      "Տրդատ Մեծ",
+      "Աշոտ Երկաթ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Under which king did Armenia stretch \"from sea to sea\"? — Tigran the Great (1st century BC)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ըստ առածի՝ լավություն արա և ո՞ւր գցիր։",
+    "options": [
+      "Ծովը",
+      "Գետը",
+      "Հորը",
+      "Ջուրը"
+    ],
+    "correctIndex": 3,
+    "gloss": "Do a good deed and throw it... where? — Into the water: «Լավություն արա, գցի՛ր ջուրը» (do good without expecting thanks)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր ստեղնն է ջնջում կուրսորից ձախ գտնվող նշանը։",
+    "options": [
+      "Delete",
+      "Backspace",
+      "Esc",
+      "Tab"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which key deletes the character to the left of the cursor? — Backspace. Delete removes the one to the right."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Շախմատում ո՞ր խաղաքարն է սովորական քայլով ցատկում մյուսների վրայով։",
+    "options": [
+      "Փիղը",
+      "Նավակը",
+      "Թագուհին",
+      "Ձին"
+    ],
+    "correctIndex": 3,
+    "gloss": "In chess, which piece jumps over others in an ordinary move? — The knight. (\"Ordinary\" excludes castling, where the rook passes the king.)"
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ի՞նչ ուներ Կառլսոնը մեջքին, որի շնորհիվ թռչում էր։",
+    "options": [
+      "Պտուտակ",
+      "Թևեր",
+      "Հովանոց",
+      "Պարաշյուտ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What did Karlsson-on-the-Roof have on his back that let him fly? — A propeller. The umbrella is Mary Poppins's."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Քիփլինգի «Ջունգլիների գրքում» ի՞նչ կենդանի է Բագիրան։",
+    "options": [
+      "Վագր",
+      "Գայլ",
+      "Հովազ",
+      "Արջ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Kipling's \"The Jungle Book\", what animal is Bagheera? — A (black) panther, i.e. leopard. The tiger is Shere Khan, the bear Baloo."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Դե, սպասի՛ր» մուլտսերիալում ո՞ւմ է անընդհատ հետապնդում Գայլը։",
+    "options": [
+      "Աղվեսին",
+      "Սկյուռին",
+      "Նապաստակին",
+      "Ոզնուն"
+    ],
+    "correctIndex": 2,
+    "gloss": "In \"Nu, pogodi!\", whom does the Wolf keep chasing? — The Hare."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր մայրաքաղաքով է հոսում Կուր գետը։",
+    "options": [
+      "Թբիլիսի",
+      "Բաքու",
+      "Թեհրան",
+      "Անկարա"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which capital does the Kura flow through? — Tbilisi (as the Mtkvari). It reaches the Caspian well south of Baku."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Խորհրդային տարիներին ո՞ր քաղաքն էր կոչվում Լենինական։",
+    "options": [
+      "Վանաձոր",
+      "Հրազդան",
+      "Կապան",
+      "Գյումրի"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which city was called Leninakan in Soviet times? — Gyumri. Vanadzor (Kirovakan) is the trap."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞ր ծաղիկն է Հայաստանի լեռներում բացվում առաջինը՝ դեռ հալվող ձյան միջից։",
+    "options": [
+      "Կակաչ",
+      "Ձնծաղիկ",
+      "Մանուշակ",
+      "Երիցուկ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which flower opens first in Armenia's mountains, through the melting snow? — The snowdrop (ձնծաղիկ, \"snow-flower\"). Poppies, violets and daisies come later."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ակնոցն աչքի համար է, ականատեսն իր աչքով է տեսել։ Ի՞նչ է բուժում ակնաբույժը։",
+    "options": [
+      "Աչքերը",
+      "Ականջները",
+      "Ատամները",
+      "Մաշկը"
+    ],
+    "correctIndex": 0,
+    "gloss": "Glasses (ակնոց) are for the eyes, an eyewitness (ականատես) saw with his eyes. What does an ակնաբույժ treat? — The eyes: ակն is the old word for eye. Ականջ (ear) only looks alike."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ինչո՞ւ չի կարելի մետաղե աման դնել միկրոալիքային վառարանի մեջ։",
+    "options": [
+      "Մետաղը հալվում է",
+      "Սնունդը սառչում է",
+      "Կայծեր են առաջանում",
+      "Ամանը մագնիսանում է"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why must you not put a metal dish in a microwave oven? — It makes sparks (arcing): metal reflects the microwaves and charges build up at its edges."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր հավելվածի պատկերանշանն է երաժշտական նոտան, իսկ հիմնական բովանդակությունը՝ կարճ ուղղաձիգ տեսանյութերը։",
+    "options": [
+      "Instagram",
+      "TikTok",
+      "Snapchat",
+      "Pinterest"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which app has a musical note as its logo and short vertical videos as its main content? — TikTok."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր մարզաձևում են խաղում փետրավոր գնդակով։",
+    "options": [
+      "Թենիս",
+      "Սքվոշ",
+      "Սեղանի թենիս",
+      "Բադմինտոն"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sport is played with a feathered ball? — Badminton: its shuttlecock is traditionally made of goose feathers."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Սուրճի ո՞ր տեսակն են պատրաստում էսպրեսոյից և խիտ փրփրած կաթից։",
+    "options": [
+      "Ամերիկանո",
+      "Կապուչինո",
+      "Ռիստրետո",
+      "Մոկա"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which coffee is made from espresso and thick milk foam? — Cappuccino. Americano is espresso with water, ristretto a short espresso, mocha adds chocolate. (Latte left out: also espresso and milk.)"
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր երկրում են գրի առել ժամանակակից ֆուտբոլի առաջին կանոնները։",
+    "options": [
+      "Բրազիլիայում",
+      "Իտալիայում",
+      "Իսպանիայում",
+      "Անգլիայում"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country were the first rules of modern football written down? — England: the Football Association’s Laws of the Game, London, 1863."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Սկանդինավյան ո՞ր աստծու զենքն է Մյոլնիր մուրճը։",
+    "options": [
+      "Թորի",
+      "Օդինի",
+      "Լոկիի",
+      "Ֆրեյրի"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Norse god wields the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր սեղանի խաղում են գնում փողոցներ ու դրանց վրա հյուրանոցներ կառուցում։",
+    "options": [
+      "Սկրաբլ",
+      "Նարդի",
+      "Մոնոպոլիա",
+      "Շաշկի"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which board game do you buy streets and build hotels on them? — Monopoly."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Այս թվերից ո՞րն է և՛ զույգ, և՛ պարզ։",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these numbers is both even and prime? — 2, the only even prime. 1 is not prime, 3 is odd, 4 = 2×2."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Դավթի հայրը Վարդանի եղբայրն է։ Ո՞վ է Դավիթը Վարդանի համար։",
+    "options": [
+      "Քրոջորդին",
+      "Հորեղբորորդին",
+      "Եղբորորդին",
+      "Թոռը"
+    ],
+    "correctIndex": 2,
+    "gloss": "David's father is Vardan's brother. What is David to Vardan? — Եղբորորդի, \"brother's son\": Armenian builds the word from եղբայր + որդի and keeps it apart from a sister's son (քրոջորդի)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Վոլեյբոլում թիմը առավելագույնը քանի՞ անգամ կարող է դիպչել գնդակին, մինչև այն կփոխանցի ցանցի վրայով։",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "In volleyball, at most how many times may a team touch the ball before sending it over the net? — Three (a block does not count)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Դուդուկն ավանդաբար պատրաստում են ո՞ր ծառի փայտից։",
+    "options": [
+      "Ծիրանենու",
+      "Ընկուզենու",
+      "Թթենու",
+      "Տանձենու"
+    ],
+    "correctIndex": 0,
+    "gloss": "From which tree's wood is the duduk traditionally made? — Apricot."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Էրեբունի ամրոցը, որից սկիզբ է առնում Երևանը, կառուցել է ո՞ր պետության արքա Արգիշտին։",
+    "options": [
+      "Ասորեստանի",
+      "Մեդիայի",
+      "Պարթևստանի",
+      "Ուրարտուի"
+    ],
+    "correctIndex": 3,
+    "gloss": "Erebuni, where Yerevan began, was built by King Argishti of which state? — Urartu (Argishti I, 782 BC)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Հայտնի ո՞ր երգիչն է եղել Հայաստանի դեսպանը Շվեյցարիայում։",
+    "options": [
+      "Սիլվի Վարտան",
+      "Շառլ Ազնավուր",
+      "Միշել Լեգրան",
+      "Էնրիկո Մասիաս"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which famous singer served as Armenia's ambassador to Switzerland? — Charles Aznavour (from 2009)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ո՞վ է Հայաստանի ֆուտբոլի հավաքականի պատմության լավագույն ռմբարկուն։",
+    "options": [
+      "Հենրիխ Մխիթարյան",
+      "Յուրա Մովսիսյան",
+      "Արթուր Պետրոսյան",
+      "Սարգիս Հովսեփյան"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who is the Armenian national team's all-time top scorer? — Henrikh Mkhitaryan (32 goals, retired from the team in 2022). Sargis Hovsepyan holds the caps record."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ամենատարածված ստեղնաշարը կոչվում է վերին շարքի առաջին վեց տառերով։ Ո՞րն է դրա անունը։",
+    "options": [
+      "AZERTY",
+      "QWERTZ",
+      "QWERTY",
+      "ASDFGH"
+    ],
+    "correctIndex": 2,
+    "gloss": "The most common keyboard layout is named after the first six letters of its top row. What is it called? — QWERTY. AZERTY (French) and QWERTZ (German) are regional variants."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր ընկերությունն է թողարկում PlayStation խաղային կոնսոլը։",
+    "options": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which company makes the PlayStation console? — Sony. Microsoft makes the Xbox, Nintendo the Switch, Sega made the Mega Drive."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞վ է «Մտածողը» արձանի հեղինակը։",
+    "options": [
+      "Միքելանջելո",
+      "Անտոնիո Կանովա",
+      "Լորենցո Բեռնինի",
+      "Օգյուստ Ռոդեն"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who sculpted \"The Thinker\"? — Auguste Rodin."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր պանիրն է հայտնի իր խոշոր անցքերով։",
+    "options": [
+      "Պարմեզան",
+      "Էմենթալ",
+      "Մոցարելլա",
+      "Չեդեր"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which cheese is famous for its big holes? — Emmental."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ո՞ր երկրում է ստեղծվել «Տետրիս» խաղը։",
+    "options": [
+      "Ճապոնիայում",
+      "ԱՄՆ-ում",
+      "Ֆինլանդիայում",
+      "ԽՍՀՄ-ում"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country was Tetris created? — The USSR: Alexey Pajitnov wrote it in Moscow in 1984."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ի՞նչ մասնագիտության մասին է երազում «Ռատատույ» մուլտֆիլմի առնետ Ռեմին։",
+    "options": [
+      "Խոհարար",
+      "Նկարիչ",
+      "Երաժիշտ",
+      "Դետեկտիվ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which profession does Remy the rat dream of in \"Ratatouille\"? — Chef."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Հայոց ո՞ր աստվածն էր կոչվում «Վիշապաքաղ»։",
+    "options": [
+      "Արամազդ",
+      "Միհր",
+      "Վահագն",
+      "Տիր"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Armenian god was called \"Dragon-reaper\"? — Vahagn."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Այս չորսից ո՞րն է ամենաթեթևը։",
+    "options": [
+      "1 լիտր ջուր",
+      "1 լիտր ծովաջուր",
+      "1 լիտր սառույց",
+      "1 լիտր կաթ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these four is the lightest? — A litre of ice: ice floats, so it is less dense than water; seawater and milk are denser than water."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ո՞ր երկրում են Ամանորը դիմավորում ամառվա շոգին։",
+    "options": [
+      "Չիլիում",
+      "Մեքսիկայում",
+      "Եգիպտոսում",
+      "Հնդկաստանում"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country is New Year met in the summer heat? — Chile, the only one in the Southern Hemisphere, where January is summer."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Սերգեյ Փարաջանովի «Նռան գույնը» ֆիլմը ո՞ր բանաստեղծի մասին է։",
+    "options": [
+      "Նահապետ Քուչակ",
+      "Ֆրիկ",
+      "Նաղաշ Հովնաթան",
+      "Սայաթ-Նովա"
+    ],
+    "correctIndex": 3,
+    "gloss": "Parajanov's \"The Color of Pomegranates\" is about which poet? — Sayat-Nova."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ՄիԳ ինքնաթիռների անվան «Մ» տառը ո՞ր կոնստրուկտորի ազգանունից է։",
+    "options": [
+      "Միխայիլ Գուրևիչ",
+      "Արտեմ Միկոյան",
+      "Անդրեյ Տուպոլև",
+      "Սերգեյ Իլյուշին"
+    ],
+    "correctIndex": 1,
+    "gloss": "The \"M\" in MiG comes from which designer's surname? — Artem Mikoyan, born in Sanahin, Armenia. Gurevich is the \"G\"."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Արամ Խաչատրյանի ո՞ր բալետն է պատմում ստրուկների ապստամբության մասին։",
+    "options": [
+      "«Սպարտակ»",
+      "«Գայանե»",
+      "«Երջանկություն»",
+      "«Մասկարադ»"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Khachaturian ballet tells of a slave revolt? — \"Spartacus\". \"Gayane\" and \"Happiness\" are his other ballets; \"Masquerade\" is incidental music."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ո՞ր երկրի անունն է ծագել «արծաթ» նշանակող լատիներեն բառից։",
+    "options": [
+      "Բրազիլիա",
+      "Կոստա Ռիկա",
+      "Արգենտինա",
+      "Էկվադոր"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is named after the Latin word for silver? — Argentina, from argentum (the chemical symbol Ag). Brazil is named after brazilwood, Costa Rica means \"rich coast\", Ecuador \"equator\"."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ամերիկացի ո՞ր նկարիչն է ծնվել Վանի մոտ՝ Ոստանիկ Ադոյան անունով։",
+    "options": [
+      "Մարկ Ռոթկո",
+      "Արշիլ Գորկի",
+      "Ջեքսոն Փոլոք",
+      "Վիլեմ դը Կունինգ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which American painter was born near Van as Vosdanig Adoian? — Arshile Gorky. Rothko (born Rothkowitz, in Latvia) is the trap for \"changed name\"."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Քանի՞ «բանից» (գլխից) է բաղկացած Գրիգոր Նարեկացու «Մատյան ողբերգության» պոեմը։",
+    "options": [
+      "72",
+      "77",
+      "95",
+      "100"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many \"words\" (chapters) make up Narekatsi's \"Book of Lamentations\"? — 95."
+  }
+]
