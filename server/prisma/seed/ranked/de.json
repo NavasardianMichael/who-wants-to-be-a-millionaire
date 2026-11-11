@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welche Zahl verbirgt sich hinter „dreiundvierzig“?",
+    "options": [
+      "34",
+      "43",
+      "44",
+      "53"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number is hidden behind German \"dreiundvierzig\"? — 43: German says the ones first (three-and-forty); trap for those who read it as 34."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Das Konzert beginnt „um halb acht“. Um wie viel Uhr geht es los?",
+    "options": [
+      "19:00 Uhr",
+      "19:30 Uhr",
+      "20:00 Uhr",
+      "20:30 Uhr"
+    ],
+    "correctIndex": 1,
+    "gloss": "The concert starts \"at half eight\" — 19:30: German \"halb acht\" means half an hour before eight, not after."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Im Frühling werden die Uhren eine Stunde vorgestellt. Wie lang ist die Nacht der Umstellung auf der Uhr?",
+    "options": [
+      "Eine Stunde länger",
+      "Genauso lang wie sonst",
+      "Zwei Stunden länger",
+      "Eine Stunde kürzer"
+    ],
+    "correctIndex": 3,
+    "gloss": "Clocks go forward an hour in spring; how long is the changeover night on the clock? — One hour shorter (02:00 jumps to 03:00)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welches Wort bezeichnet mit „der“ einen Chef und mit „die“ etwas zum Hinaufklettern?",
+    "options": [
+      "Tor",
+      "Band",
+      "Leiter",
+      "See"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which noun means a boss with \"der\" and something to climb with \"die\"? — Leiter (der Leiter = head, die Leiter = ladder). Tor/Band/See also switch article but not with these meanings."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Welches Wort passt hinter „Kopf“, „Hals“ und „Zahn“?",
+    "options": [
+      "kissen",
+      "kette",
+      "weh",
+      "bürste"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word fits after Kopf, Hals and Zahn? — weh (Kopfweh, Halsweh, Zahnweh); kissen, kette and bürste each fit only one of them."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie nennen Münchner das Oktoberfest umgangssprachlich?",
+    "options": [
+      "Dult",
+      "Kerwa",
+      "Wiesn",
+      "Rummel"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do Munich locals call the Oktoberfest? — Wiesn (after the Theresienwiese); the Dult is another Munich fair, Kerwa a Franconian church fair."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welchen Ruf hört man an Karneval vor allem in Köln?",
+    "options": [
+      "Narri-Narro",
+      "Helau",
+      "Ahoi",
+      "Alaaf"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which carnival cry is typical of Cologne? — Alaaf; Helau belongs to Düsseldorf and Mainz, Narri-Narro to the Swabian-Alemannic Fastnacht."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oberstdorf, Garmisch-Partenkirchen, Innsbruck, Bischofshofen: Welche Sportart gehört zur Vierschanzentournee?",
+    "options": [
+      "Skispringen",
+      "Biathlon",
+      "Rodeln",
+      "Langlauf"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sport belongs to the Four Hills Tournament? — Ski jumping, held at these four hills around New Year."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Was stehlen die grauen Herren in Michael Endes „Momo“?",
+    "options": [
+      "Träume",
+      "Geld",
+      "Erinnerungen",
+      "Zeit"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do the grey men steal in Michael Ende's \"Momo\"? — Time (the time-thieves)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welche Währung galt in Österreich unmittelbar vor dem Euro?",
+    "options": [
+      "Krone",
+      "Mark",
+      "Schilling",
+      "Gulden"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which currency applied in Austria directly before the euro? — The Schilling (until 2002); the Krone ended in 1925, the Gulden in 1892."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Was gehört in Bayern traditionell zur Weißwurst?",
+    "options": [
+      "Süßer Senf",
+      "Tomatenketchup",
+      "Currysoße",
+      "Remoulade"
+    ],
+    "correctIndex": 0,
+    "gloss": "What traditionally goes with a Weißwurst in Bavaria? — Sweet mustard (with a pretzel)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welche Krimireihe läuft seit 1970 sonntags um 20:15 Uhr im Ersten?",
+    "options": [
+      "Derrick",
+      "Der Alte",
+      "Tatort",
+      "SOKO München"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which crime series has aired on Sundays at 20:15 on ARD since 1970? — Tatort (first episode 29 Nov 1970); Derrick ended in 1998."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welche sagenhafte Frau soll auf einem Felsen am Rhein Schiffer mit ihrem Gesang betören?",
+    "options": [
+      "Undine",
+      "Melusine",
+      "Brunhild",
+      "Loreley"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which legendary woman lures boatmen with her song from a rock on the Rhine? — The Loreley; the others are other German/European legend figures."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mit welchem Kaiser war Kaiserin Elisabeth, genannt „Sisi“, verheiratet?",
+    "options": [
+      "Wilhelm I.",
+      "Franz Joseph I.",
+      "Napoleon III.",
+      "Maximilian von Mexiko"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which emperor was Empress Elisabeth \"Sisi\" married to? — Franz Joseph I of Austria (Maximilian was his brother, emperor of Mexico)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Was misst man mit einem Barometer?",
+    "options": [
+      "Luftdruck",
+      "Windstärke",
+      "Luftfeuchtigkeit",
+      "Regenmenge"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does a barometer measure? — Air pressure (humidity is the hygrometer's job)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Vitamin bildet der Körper selbst, wenn Sonnenlicht auf die Haut trifft?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which vitamin does the body make itself when sunlight hits the skin? — Vitamin D."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Gas sorgt im Mineralwasser für die Kohlensäure-Bläschen?",
+    "options": [
+      "Kohlendioxid",
+      "Sauerstoff",
+      "Stickstoff",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas makes the bubbles in sparkling mineral water? — Carbon dioxide, which dissolves as carbonic acid (Kohlensäure)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche Trikotfarbe trägt der Gesamtführende der Tour de France?",
+    "options": [
+      "Gelb",
+      "Grün",
+      "Rot",
+      "Blau"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which jersey colour does the overall leader of the Tour de France wear? — Yellow (green is the points classification)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche Sportart spielt man mit Granitsteinen und Besen auf dem Eis?",
+    "options": [
+      "Eishockey",
+      "Bandy",
+      "Curling",
+      "Eisschnelllauf"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sport is played with granite stones and brooms on ice? — Curling."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche Nuss steckt neben Kakao in Nutella?",
+    "options": [
+      "Walnuss",
+      "Haselnuss",
+      "Erdnuss",
+      "Mandel"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which nut, besides cocoa, is in Nutella? — Hazelnut."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Tanz mit Gitarre und Gesang stammt aus Andalusien?",
+    "options": [
+      "Tango",
+      "Polka",
+      "Samba",
+      "Flamenco"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which dance with guitar and song comes from Andalusia? — Flamenco."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wer moderierte die ZDF-Show „Wetten, dass..?“ am längsten?",
+    "options": [
+      "Thomas Gottschalk",
+      "Frank Elstner",
+      "Markus Lanz",
+      "Günther Jauch"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who hosted ZDF's 'Wetten, dass..?' the longest? — Thomas Gottschalk (1987–2011, with a break); Frank Elstner created it and hosted 1981–87, Markus Lanz 2012–14."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher nordische Gott schwingt den Hammer Mjölnir?",
+    "options": [
+      "Odin",
+      "Loki",
+      "Thor",
+      "Tyr"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Norse god wields the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Nagetier staut mit gefällten Bäumen ganze Bäche auf?",
+    "options": [
+      "Biber",
+      "Fischotter",
+      "Bisamratte",
+      "Dachs"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which rodent dams whole streams with felled trees? — The beaver; the otter and badger are not rodents, the muskrat builds lodges but no dams."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Konzern steht hinter dem Betriebssystem Android?",
+    "options": [
+      "Apple",
+      "Google",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which company is behind the Android operating system? — Google (Samsung only builds phones that run it)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aus welchem Land stammt die Musikrichtung K-Pop?",
+    "options": [
+      "Japan",
+      "China",
+      "Südkorea",
+      "Thailand"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country does K-Pop come from? — South Korea."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie heißen die beiden Lausbuben aus der Bildergeschichte von Wilhelm Busch?",
+    "options": [
+      "Hanni und Nanni",
+      "Tim und Struppi",
+      "Pünktchen und Anton",
+      "Max und Moritz"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the two rascals in Wilhelm Busch's picture story called? — Max and Moritz (1865)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Was bedeutet das englische Wort „gift“ auf Deutsch?",
+    "options": [
+      "Gift",
+      "Geschenk",
+      "Gabel",
+      "Gewinn"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does English \"gift\" mean in German? — Geschenk; the German word Gift means poison (a classic false friend)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Beim Skat bekommt jeder der drei Spieler zehn Karten, zwei liegen im Skat. Wie viele Karten hat das Blatt?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "36"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Skat each of three players gets ten cards and two go in the skat. How many cards in the deck? — 32 (3x10 + 2)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Ein Kaffee kostet in Zürich 4,50 Franken. Wie viele Rappen sind das?",
+    "options": [
+      "45",
+      "450",
+      "4500",
+      "4,5"
+    ],
+    "correctIndex": 1,
+    "gloss": "A coffee in Zurich costs 4.50 francs; how many Rappen? — 450, since one franc is 100 Rappen."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Auf einem Spielwürfel ergeben gegenüberliegende Augenzahlen immer dieselbe Summe. Welche?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "Opposite faces of a die always add to the same number; which? — 7 (1 opposite 6, so 2-5 and 3-4 too)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher kurze Sketch mit dem Satz „The same procedure as every year“ läuft in Deutschland jedes Silvester?",
+    "options": [
+      "Dinner for One",
+      "Die Feuerzangenbowle",
+      "Kevin – Allein zu Haus",
+      "Loriots Weihnachten"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which short sketch with the line \"The same procedure as every year\" airs every New Year's Eve in Germany? — Dinner for One; the others are Christmas-season staples."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welches Wort klingt englisch, wird im Englischen aber nicht für das Mobiltelefon benutzt?",
+    "options": [
+      "Smartphone",
+      "Cellphone",
+      "Mobile phone",
+      "Handy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which word sounds English but is not used for a mobile phone in English? — Handy (a German pseudo-anglicism; \"handy\" means convenient)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wie nennt man das Zeichen „@“ umgangssprachlich auf Deutsch?",
+    "options": [
+      "Gänsefüßchen",
+      "Schrägstrich",
+      "Klammeraffe",
+      "Doppelpunkt"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the \"@\" sign colloquially called in German? — Klammeraffe (\"clip monkey\"); Gänsefüßchen are quotation marks."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Volk errichtete Machu Picchu hoch in den Anden?",
+    "options": [
+      "Inka",
+      "Maya",
+      "Azteken",
+      "Olmeken"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which people built Machu Picchu high in the Andes? — The Inca."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches dieser Länder hat keinen Zugang zum Meer?",
+    "options": [
+      "Rumänien",
+      "Kroatien",
+      "Ungarn",
+      "Slowenien"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these countries has no sea access? — Hungary (Romania has the Black Sea, Croatia and Slovenia the Adriatic)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Gewürz verleiht Curry seine gelbe Farbe?",
+    "options": [
+      "Zimt",
+      "Paprika",
+      "Muskat",
+      "Kurkuma"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which spice gives curry its yellow colour? — Turmeric (Kurkuma)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Künstler machte Suppendosen zu Pop-Art-Ikonen?",
+    "options": [
+      "Roy Lichtenstein",
+      "Andy Warhol",
+      "Keith Haring",
+      "Jeff Koons"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which artist made soup cans pop-art icons? — Andy Warhol (Campbell's Soup Cans, 1962)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aus welchem Element besteht ein Diamant?",
+    "options": [
+      "Kohlenstoff",
+      "Silizium",
+      "Schwefel",
+      "Calcium"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which element is a diamond made of? — Carbon."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie heißt der Kapitän der „Nautilus“ in Jules Vernes Roman?",
+    "options": [
+      "Ahab",
+      "Hook",
+      "Nemo",
+      "Flint"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the captain of the Nautilus called in Jules Verne's novel? — Nemo; Ahab, Hook and Flint are captains of other books."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche Stimmlage ist die tiefste Frauenstimme?",
+    "options": [
+      "Sopran",
+      "Alt",
+      "Mezzosopran",
+      "Koloratursopran"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which voice type is the lowest female voice? — Alto (contralto)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welche fiktive Stadt ist die Heimat von Batman?",
+    "options": [
+      "Metropolis",
+      "Central City",
+      "Star City",
+      "Gotham City"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fictional city is Batman's home? — Gotham City; Metropolis is Superman's, Central City The Flash's, Star City Green Arrow's."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In welcher Stadt gründete Walter Gropius 1919 das Bauhaus?",
+    "options": [
+      "Dessau",
+      "Weimar",
+      "Berlin",
+      "Jena"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which city did Walter Gropius found the Bauhaus in 1919? — Weimar (it moved to Dessau in 1925 and Berlin in 1932)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ein Streichquartett besteht aus zwei Geigen, Bratsche und Cello. Wie viele Saiten haben die vier Instrumente zusammen?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "correctIndex": 1,
+    "gloss": "A string quartet is two violins, viola and cello; how many strings in all? — 16, since each of the four instruments has four strings."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "An welchem Institut erfand Tim Berners-Lee 1989 das World Wide Web?",
+    "options": [
+      "MIT",
+      "DESY",
+      "CERN",
+      "Bell Labs"
+    ],
+    "correctIndex": 2,
+    "gloss": "At which institute did Tim Berners-Lee invent the World Wide Web in 1989? — CERN near Geneva."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welches Organ bildet das Hormon Insulin?",
+    "options": [
+      "Leber",
+      "Niere",
+      "Milz",
+      "Bauchspeicheldrüse"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which organ produces the hormone insulin? — The pancreas (Bauchspeicheldrüse)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In der Bundesliga spielen 18 Vereine, jeder zweimal gegen jeden. Wie viele Spiele hat ein Verein pro Saison?",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "correctIndex": 2,
+    "gloss": "18 clubs, each plays everyone twice; how many matches per club per season? — 34 (17 opponents x 2)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Welcher Schweizer Ingenieur erfand den Klettverschluss, nachdem Kletten an seinem Hund hängen blieben?",
+    "options": [
+      "Auguste Piccard",
+      "Albert Hofmann",
+      "Louis Chevrolet",
+      "Georges de Mestral"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Swiss engineer invented Velcro after burrs stuck to his dog? — Georges de Mestral (1941; patent 1955)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Welcher Planet rollt wegen seiner extremen Neigung fast auf der Seite um die Sonne?",
+    "options": [
+      "Neptun",
+      "Uranus",
+      "Saturn",
+      "Venus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet rolls almost on its side around the Sun because of its extreme tilt? — Uranus (axis tilted about 98 degrees)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bei welcher Temperatur zeigen Celsius- und Fahrenheit-Thermometer denselben Wert?",
+    "options": [
+      "−40 Grad",
+      "−32 Grad",
+      "0 Grad",
+      "32 Grad"
+    ],
+    "correctIndex": 0,
+    "gloss": "At which temperature do Celsius and Fahrenheit thermometers show the same value? — -40 (F = 1.8C + 32 gives C = -40)."
+  }
+]

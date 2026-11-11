@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Which of these nouns keeps the same spelling in the plural?",
+    "options": [
+      "Goose",
+      "Deer",
+      "Mouse",
+      "Tooth"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these nouns keeps the same spelling in the plural? — Deer: the others become geese, mice and teeth."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Which of these words is a noun or a verb depending on which syllable you stress?",
+    "options": [
+      "Record",
+      "Garden",
+      "Window",
+      "Pencil"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word is a noun or a verb depending on the stressed syllable? — Record: a REcord, to reCORD."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Which of these words sounds exactly like “flower”?",
+    "options": [
+      "Floor",
+      "Flavour",
+      "Flour",
+      "Flare"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word sounds exactly like 'flower'? — Flour: a homophone; floor, flavour and flare sound different."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Someone who says they are “under the weather” is feeling what?",
+    "options": [
+      "Furious",
+      "Cheerful",
+      "Bored",
+      "Unwell"
+    ],
+    "correctIndex": 3,
+    "gloss": "Someone who is 'under the weather' is feeling what? — Unwell: the idiom means slightly ill."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A packet of “crisps” in Britain is a bag of what in the United States?",
+    "options": [
+      "Chips",
+      "Fries",
+      "Wafers",
+      "Flakes"
+    ],
+    "correctIndex": 0,
+    "gloss": "A packet of 'crisps' in Britain is a bag of what in the US? — Chips: Americans say 'chips' for crisps and 'fries' for British chips."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "What is a traditional British “ploughman’s lunch” mainly made of?",
+    "options": [
+      "Bread, cheese and pickle",
+      "Fish and chips",
+      "Roast beef and gravy",
+      "Sausage and mash"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is a ploughman's lunch mainly? — Bread, cheese and pickle, a cold pub plate."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "On an American form, which date does “04/07” stand for?",
+    "options": [
+      "4 July",
+      "7 April",
+      "4 April",
+      "7 July"
+    ],
+    "correctIndex": 1,
+    "gloss": "On an American form, which date is 04/07? — 7 April: Americans write the month first; in Britain it would be 4 July."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "In Australia, in which season does Christmas fall?",
+    "options": [
+      "Winter",
+      "Autumn",
+      "Summer",
+      "Spring"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Australia, in which season does Christmas fall? — Summer: the seasons are reversed south of the equator."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which US state is made up of islands in the middle of the Pacific?",
+    "options": [
+      "Hawaii",
+      "Alaska",
+      "Florida",
+      "Maine"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which US state is made up of islands in the mid-Pacific? — Hawaii: an island chain, the 50th state."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Which of these birds is named after the sound it makes?",
+    "options": [
+      "Robin",
+      "Heron",
+      "Cuckoo",
+      "Falcon"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird is named after its call? — Cuckoo: the name imitates its two-note cry."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In cricket, what do we call a batter who is out without scoring a run?",
+    "options": [
+      "A goose",
+      "A swan",
+      "A hen",
+      "A duck"
+    ],
+    "correctIndex": 3,
+    "gloss": "In cricket, what is a batter out for zero called? — A duck: from 'duck's egg', the shape of a zero."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "How many points is a touchdown worth in American football?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "10"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many points is a touchdown worth in American football? — 6: the kick afterwards adds one more."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which tree’s winged seeds spin down to the ground like little helicopters?",
+    "options": [
+      "Maple",
+      "Oak",
+      "Birch",
+      "Willow"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which tree's winged seeds spin down like helicopters? — The maple (the sycamore is one); oak has acorns, birch tiny flakes, willow fluff."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which UK nation has a red dragon on its flag?",
+    "options": [
+      "Scotland",
+      "England",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which UK nation has a red dragon on its flag? — Wales: Y Ddraig Goch."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which British monarch celebrated a Platinum Jubilee in 2022?",
+    "options": [
+      "Victoria",
+      "Elizabeth II",
+      "George III",
+      "Edward VII"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which British monarch celebrated a Platinum Jubilee in 2022? — Elizabeth II, after 70 years on the throne."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which reed did the ancient Egyptians use to make an early kind of paper?",
+    "options": [
+      "Papyrus",
+      "Bamboo",
+      "Flax",
+      "Rattan"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which reed did ancient Egyptians make paper from? — Papyrus, which also gave English the word 'paper'."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which animal is the national emblem of Canada?",
+    "options": [
+      "Beaver",
+      "Moose",
+      "Polar bear",
+      "Canada goose"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which animal is Canada's national emblem? — The beaver, made official in 1975."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which bestselling series follows the archer Katniss Everdeen?",
+    "options": [
+      "Divergent",
+      "Twilight",
+      "The Hunger Games",
+      "Percy Jackson"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bestselling series follows Katniss Everdeen? — The Hunger Games."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which mythical bird is said to burst into flames and rise again from its ashes?",
+    "options": [
+      "Griffin",
+      "Roc",
+      "Harpy",
+      "Phoenix"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mythical bird bursts into flames and rises from its ashes? — The phoenix."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In which video game do hissing creepers sneak up and explode?",
+    "options": [
+      "Fortnite",
+      "Roblox",
+      "Minecraft",
+      "Zelda"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which video game do hissing creepers explode? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which TV baking contest takes place in a large white tent in the English countryside?",
+    "options": [
+      "MasterChef",
+      "Top Chef",
+      "The Great British Bake Off",
+      "Hell’s Kitchen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which baking contest is held in a white tent in the countryside? — The Great British Bake Off."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "On a standard English keyboard, which letter sits between T and U?",
+    "options": [
+      "G",
+      "R",
+      "I",
+      "Y"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a QWERTY keyboard, which letter sits between T and U? — Y (Q W E R T Y U I O P)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which song do people traditionally sing at midnight on New Year’s Eve?",
+    "options": [
+      "Auld Lang Syne",
+      "Jingle Bells",
+      "Jerusalem",
+      "Danny Boy"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which song is sung at midnight on New Year's Eve? — Auld Lang Syne, Robert Burns's words."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which number do Americans dial in an emergency?",
+    "options": [
+      "999",
+      "911",
+      "000",
+      "777"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number do Americans dial in an emergency? — 911; 999 is the British number and 000 the Australian one."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which of these instruments belongs to the brass family?",
+    "options": [
+      "Flute",
+      "Clarinet",
+      "Trumpet",
+      "Oboe"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which instrument belongs to the brass family? — Trumpet; the flute is metal but counts as woodwind."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which vitamin does the skin make when it is in sunlight?",
+    "options": [
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which vitamin does skin make in sunlight? — Vitamin D."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "What makes a compass needle point north?",
+    "options": [
+      "Earth’s rotation",
+      "Earth’s magnetic field",
+      "Gravity",
+      "The Moon"
+    ],
+    "correctIndex": 1,
+    "gloss": "What makes a compass needle point north? — Earth's magnetic field."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which anonymous street artist from Bristol is known for stencils like “Girl with Balloon”?",
+    "options": [
+      "Keith Haring",
+      "Shepard Fairey",
+      "Basquiat",
+      "Banksy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which anonymous Bristol street artist made 'Girl with Balloon'? — Banksy."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Which month’s name comes from the Latin word for “eight”?",
+    "options": [
+      "September",
+      "November",
+      "October",
+      "December"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which month's name comes from Latin for 'eight'? — October (octo); it was the 8th month in the old Roman calendar."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Which US coin is worth more than a nickel but is physically smaller?",
+    "options": [
+      "Penny",
+      "Quarter",
+      "Half dollar",
+      "Dime"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which US coin is worth more than a nickel yet smaller? — The dime (10 cents), smaller than the nickel (5 cents)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which metal in the skin of the Statue of Liberty gave it its green colour?",
+    "options": [
+      "Iron",
+      "Bronze",
+      "Lead",
+      "Copper"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which metal in the Statue of Liberty's skin turned it green? — Copper, which develops a green patina."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which bird stands beside the kangaroo on Australia’s coat of arms?",
+    "options": [
+      "Cassowary",
+      "Ostrich",
+      "Emu",
+      "Kiwi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird stands beside the kangaroo on Australia's coat of arms? — The emu."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A golfer who finishes a hole one stroke under par has made a what?",
+    "options": [
+      "Eagle",
+      "Birdie",
+      "Bogey",
+      "Albatross"
+    ],
+    "correctIndex": 1,
+    "gloss": "One stroke under par is a what? — A birdie; an eagle is two under, a bogey one over."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "On which day of the week is American Thanksgiving always held?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which weekday is US Thanksgiving always on? — Thursday, the fourth Thursday of November."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which Marvel superhero is billionaire inventor Tony Stark?",
+    "options": [
+      "Batman",
+      "Iron Man",
+      "Thor",
+      "Captain America"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Marvel hero is Tony Stark? — Iron Man; Batman is DC's billionaire, Bruce Wayne."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "On which ship did Charles Darwin sail round the world in the 1830s?",
+    "options": [
+      "HMS Beagle",
+      "HMS Endeavour",
+      "HMS Bounty",
+      "HMS Discovery"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which ship did Darwin sail in the 1830s? — HMS Beagle (1831-36); Endeavour was Cook's, Bounty is the mutiny."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which company created the Windows operating system?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "IBM",
+      "Intel"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which company created Windows? — Microsoft."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In British legend, what is the name of King Arthur’s sword?",
+    "options": [
+      "Durandal",
+      "Gram",
+      "Excalibur",
+      "Joyeuse"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is King Arthur's sword called? — Excalibur; Durandal is Roland's, Gram Sigurd's, Joyeuse Charlemagne's."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which Canadian dish is made of fries topped with cheese curds and gravy?",
+    "options": [
+      "Tourtière",
+      "Bannock",
+      "Nanaimo bar",
+      "Poutine"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Canadian dish is fries with cheese curds and gravy? — Poutine, from Quebec."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In music, what does the Italian word “forte” tell the performer to do?",
+    "options": [
+      "Play softly",
+      "Play faster",
+      "Slow down",
+      "Play loudly"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does 'forte' tell a performer to do? — Play loudly (piano means softly)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which Roman wall runs across northern England, from coast to coast?",
+    "options": [
+      "Offa’s Dyke",
+      "Antonine Wall",
+      "Hadrian’s Wall",
+      "Watling Street"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Roman wall crosses northern England coast to coast? — Hadrian's Wall (AD 122); the Antonine Wall is in Scotland, Offa's Dyke is Anglo-Saxon, Watling Street a road."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which canal joins the Atlantic and Pacific oceans across Central America?",
+    "options": [
+      "Suez Canal",
+      "Kiel Canal",
+      "Corinth Canal",
+      "Panama Canal"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which canal joins the Atlantic and Pacific across Central America? — The Panama Canal (1914)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Which of these words does not rhyme with the other three?",
+    "options": [
+      "Tough",
+      "Cough",
+      "Rough",
+      "Enough"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word does not rhyme with the others? — Cough (rhymes with 'off'); tough, rough, enough end in '-uff'."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which Scottish scientist discovered penicillin in 1928?",
+    "options": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Joseph Lister",
+      "Edward Jenner"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Scottish scientist discovered penicillin in 1928? — Alexander Fleming."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Who was the first woman to fly solo across the Atlantic?",
+    "options": [
+      "Bessie Coleman",
+      "Amy Johnson",
+      "Harriet Quimby",
+      "Amelia Earhart"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who was the first woman to fly solo across the Atlantic? — Amelia Earhart, in 1932."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Which poet wrote “I wandered lonely as a cloud”?",
+    "options": [
+      "William Wordsworth",
+      "John Keats",
+      "Lord Byron",
+      "Percy Shelley"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'I wandered lonely as a cloud'? — William Wordsworth, the daffodils poem."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which architect designed Barcelona’s unfinished Sagrada Família?",
+    "options": [
+      "Santiago Calatrava",
+      "Antoni Gaudí",
+      "Joan Miró",
+      "Francisco Goya"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which architect designed the Sagrada Família? — Antoni Gaudí."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "The equator crosses all of these countries except which one?",
+    "options": [
+      "Brazil",
+      "Peru",
+      "Ecuador",
+      "Kenya"
+    ],
+    "correctIndex": 1,
+    "gloss": "The equator crosses all but which? — Peru; it crosses Brazil, Ecuador and Kenya."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which Dutch artist painted “The Milkmaid” and “View of Delft”?",
+    "options": [
+      "Rembrandt",
+      "Frans Hals",
+      "Pieter de Hooch",
+      "Johannes Vermeer"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Dutch artist painted 'The Milkmaid' and 'View of Delft'? — Johannes Vermeer."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Which element was detected in the Sun’s light before it was found on Earth?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Neon",
+      "Argon"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which element was seen in sunlight before being found on Earth? — Helium (1868 in the solar spectrum; on Earth 1895)."
+  }
+]
