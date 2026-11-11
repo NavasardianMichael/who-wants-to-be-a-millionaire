@@ -58,6 +58,18 @@ insect makes honey", counting the letters of a plain word). A quick reasoning qu
 use something only your language has: a tone or accent mark, a word with no plural, native
 number words, how a word is built.
 
+Every earlier writer also reached for the same world-famous items, and each one had to be
+replaced. **Never use any of these as a question's subject, at any level:** Romeo and Juliet's
+Verona, Hamlet as the prince of Denmark, "The Starry Night", Dalí's melting clocks, the Mona Lisa,
+the Taj Mahal, the Eiffel Tower, the last standing Wonder of the World, Tutankhamun's mask,
+Cleopatra, Medusa, the phoenix, Marie Curie's two Nobels, Fleming and penicillin, Gutenberg's
+press, photosynthesis giving off oxygen, chlorophyll, mercury as the liquid metal, the platypus
+laying eggs, the dolphin or bat as a mammal, the Red Planet, nitrogen in the air, vitamin D from
+sunlight, pizza from Naples, the croissant, Titanic's Jack, E.T. phoning home, the Simpsons, the
+Little Prince's rose, July named after Caesar, Android made by Google, Pompeii. The list is a
+sample: the test is whether a player has met the question in other quizzes. Then, before your
+final message, list your 28 level-1 questions and replace any that fails that test.
+
 **Unchanged from Classic:** about 40% `local` (30–55%), at least 10 of the 16 categories, every
 question about a different subject, and each of the four answer positions correct 7–18 times.
 
