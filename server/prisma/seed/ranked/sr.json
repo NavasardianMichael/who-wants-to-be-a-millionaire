@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Која се од ових алатки у српском каже само у множини, чак и кад је у руци један комад?",
+    "options": [
+      "Чекић",
+      "Тестера",
+      "Маказе",
+      "Шило"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these tools is plural-only in Serbian, even for one piece? — Scissors: «маказе» has no singular."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "У ћирилици „Љубљана“ има седам слова. Колико знакова откуцате кад је напишете латиницом?",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "10"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Ljubljana\" has 7 Cyrillic letters; how many characters in Latin script? — 9: Љ and љ each become the two characters \"lj\"."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кажемо „двојица браће“ и „две сестре“. А како кажемо за брата и сестру заједно?",
+    "options": [
+      "Њих двојица",
+      "Њих две",
+      "Њих два",
+      "Њих двоје"
+    ],
+    "correctIndex": 3,
+    "gloss": "We say \"two brothers\" (двојица) and \"two sisters\" (две); and a brother and a sister together? — «двоје», the collective number for a mixed pair."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Договорили сте се да се нађете у „пола осам“. У колико сати долазите?",
+    "options": [
+      "8:30",
+      "7:30",
+      "4:00",
+      "8:15"
+    ],
+    "correctIndex": 1,
+    "gloss": "You agreed to meet at \"half eight\". What time? — 7:30: Serbian \"пола осам\" is half way to eight (4:00 is the trap: half of eight)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Сунцокрет је име добио по томе што се, док је млад, окреће за…",
+    "options": [
+      "Месецом",
+      "Сунцем",
+      "Ветром",
+      "Кишом"
+    ],
+    "correctIndex": 1,
+    "gloss": "The sunflower got its name because, while young, it turns after… — the Sun: «сунце» + «окретати»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шта се скупља са површине прокуваног млека и маже на топлу лепињу?",
+    "options": [
+      "Урда",
+      "Павлака",
+      "Маслац",
+      "Кајмак"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is skimmed off boiled milk and spread on a warm flatbread? — Kajmak."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Како се зове породични празник свеца заштитника који се наслеђује с колена на колено?",
+    "options": [
+      "Слава",
+      "Задушнице",
+      "Сабор",
+      "Вашар"
+    ],
+    "correctIndex": 0,
+    "gloss": "The family feast of the patron saint, handed down the generations? — Slava."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је гренд слем турнир Новак Ђоковић освојио највише пута?",
+    "options": [
+      "Вимблдон",
+      "Ролан Гарос",
+      "Аустралијан опен",
+      "Ју-Ес опен"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Grand Slam has Novak Djokovic won most often? — The Australian Open, ten times."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На којој планини се налази Панчићев врх?",
+    "options": [
+      "Златибор",
+      "Тара",
+      "Стара планина",
+      "Копаоник"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which mountain is Pančić Peak? — Kopaonik."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шта значе две плаве квачице поред поруке у апликацији WhatsApp?",
+    "options": [
+      "Да је порука послата",
+      "Да је порука прочитана",
+      "Да је порука прослеђена",
+      "Да је порука избрисана"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do two blue ticks next to a WhatsApp message mean? — It has been read."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шта значи поље „CC“ кад шаљете имејл?",
+    "options": [
+      "Скривене примаоце",
+      "Хитну поруку",
+      "Копију другим примаоцима",
+      "Прилог уз поруку"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the \"CC\" field in an email? — A (carbon) copy to other visible recipients; hidden ones are BCC."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Зашто зими по залеђеним тротоарима посипају со?",
+    "options": [
+      "Да спусти тачку мржњења воде",
+      "Да загреје асфалт",
+      "Да упије влагу",
+      "Да ухвати прашину"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why is salt spread on icy pavements? — It lowers the freezing point of water, so the ice melts."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која птица своја јаја подмеће у туђа гнезда, а њеним именом зовемо и плашљивце?",
+    "options": [
+      "Кукавица",
+      "Сврака",
+      "Чавка",
+      "Детлић"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird lays its eggs in other birds' nests, and also names cowards? — The cuckoo: «кукавица» means both."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која апликација за слушање музике има зелени лого са три закривљене линије?",
+    "gloss": "Which music app has a green logo with three curved lines? — Spotify.",
+    "options": [
+      "Дизер",
+      "Тајдл",
+      "Спотифај",
+      "Саундклауд"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Које уметничко име носи певачица Фахрета Јахић?",
+    "options": [
+      "Неда Украден",
+      "Лепа Брена",
+      "Весна Змијанац",
+      "Силвана Арменулић"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the stage name of singer Fahreta Jahić? — Lepa Brena."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Који брбљиви сапутник прати Шрека још од првог филма?",
+    "options": [
+      "Мачак у чизмама",
+      "Медењак",
+      "Лорд Фаркуад",
+      "Магарац"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which chatty companion follows Shrek from the first film? — Donkey (Puss in Boots joins in Shrek 2)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који број у Србији позивате кад вам треба хитна помоћ?",
+    "options": [
+      "192",
+      "194",
+      "193",
+      "195"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number do you call in Serbia for an ambulance? — 194 (192 police, 193 fire brigade)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У којој се земљи налази Дубаи?",
+    "options": [
+      "Уједињени Арапски Емирати",
+      "Катар",
+      "Саудијска Арабија",
+      "Оман"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country is Dubai? — The United Arab Emirates."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који се српски манастир налази на Светој Гори?",
+    "options": [
+      "Студеница",
+      "Жича",
+      "Сопоћани",
+      "Хиландар"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Serbian monastery stands on Mount Athos? — Hilandar."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Зашто се огледало у купатилу замагли после туширања?",
+    "options": [
+      "Стакло се шири од топлоте",
+      "Сапуница се разлије по стаклу",
+      "Пара се на хладном стаклу кондензује",
+      "Светло се прелама кроз ваздух"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does the bathroom mirror fog up after a shower? — Steam condenses on the cold glass."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Колико поена доноси кош погођен иза линије од 6,75 метара?",
+    "options": [
+      "Два поена",
+      "Један поен",
+      "Три поена",
+      "Четири поена"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many points for a basket from beyond the 6.75 m line? — Three."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У ком граду се налази музеј Прадо, са сликама Веласкеза и Гоје?",
+    "options": [
+      "Барселона",
+      "Севиља",
+      "Лисабон",
+      "Мадрид"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which city is the Prado museum, with Velázquez and Goya? — Madrid."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који надимак је носио песник за децу Јован Јовановић?",
+    "options": [
+      "Змај",
+      "Соко",
+      "Орао",
+      "Вук"
+    ],
+    "correctIndex": 0,
+    "gloss": "What nickname did the children's poet Jovan Jovanović carry? — Zmaj (\"Dragon\")."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Који нордијски бог баца чекић који му се увек враћа у руку?",
+    "options": [
+      "Один",
+      "Тор",
+      "Локи",
+      "Фрејр"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Norse god throws a hammer that always returns to his hand? — Thor (Mjölnir)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Од чега се прави хумус?",
+    "options": [
+      "Од пасуља",
+      "Од сочива",
+      "Од грашка",
+      "Од леблебије"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is hummus made from? — Chickpeas."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Које дрво се по обичају сече за бадњак?",
+    "options": [
+      "Храст",
+      "Бор",
+      "Липа",
+      "Буква"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which tree is traditionally cut for the Christmas Eve badnjak? — A young oak."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је написао „Доживљаје Мачка Тоше“?",
+    "options": [
+      "Душан Радовић",
+      "Бранко Ћопић",
+      "Десанка Максимовић",
+      "Бранислав Нушић"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote \"The Adventures of Toša the Cat\"? — Branko Ćopić."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се зове водоинсталатер у црвеној капи, јунак Нинтендових игара?",
+    "options": [
+      "Луиђи",
+      "Соник",
+      "Марио",
+      "Пекмен"
+    ],
+    "correctIndex": 2,
+    "gloss": "The plumber in a red cap, hero of Nintendo games? — Mario (Luigi wears green)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је режирао „Подземље“ и „Црна мачка, бели мачор“?",
+    "options": [
+      "Емир Кустурица",
+      "Срђан Драгојевић",
+      "Горан Паскаљевић",
+      "Горан Марковић"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed \"Underground\" and \"Black Cat, White Cat\"? — Emir Kusturica."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је насликао „Сеобу Срба“, с патријархом Арсенијем на челу колоне?",
+    "options": [
+      "Урош Предић",
+      "Ђура Јакшић",
+      "Стеван Тодоровић",
+      "Паја Јовановић"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who painted \"The Migration of the Serbs\", led by Patriarch Arsenije? — Paja Jovanović."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шта значи слово „s“ у „https“ на почетку адресе сајта?",
+    "options": [
+      "Да је сајт брз",
+      "Да је сајт државни",
+      "Да је веза заштићена",
+      "Да је страница статична"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the \"s\" in \"https\" mean? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Која се од ових речи, написана великим словима, исто види и исто чита и ћирилицом и латиницом?",
+    "options": [
+      "ОТАЦ",
+      "МАЈКА",
+      "БРАТ",
+      "СЕСТРА"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which word, in capitals, looks and reads the same in Cyrillic and Latin? — МАЈКА/MAJKA: М, А, Ј, К look identical; Ц, Б, С, Р do not."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Који народ је на Андима саградио Мачу Пикчу?",
+    "options": [
+      "Астеци",
+      "Инке",
+      "Маје",
+      "Олмеци"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which people built Machu Picchu in the Andes? — The Inca."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На који град гледа тврђава у којој се одржава фестивал Егзит?",
+    "options": [
+      "Смедерево",
+      "Ниш",
+      "Нови Сад",
+      "Голубац"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city does the fortress hosting the EXIT festival overlook? — Novi Sad (Petrovaradin Fortress)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Телевизор има дијагоналу од 50 инча. Колико је то отприлике центиметара?",
+    "options": [
+      "100",
+      "75",
+      "150",
+      "127"
+    ],
+    "correctIndex": 3,
+    "gloss": "A TV has a 50-inch diagonal; about how many centimetres? — 127: an inch is 2.54 cm."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која риба из мора плива узводно да би се мрестила у реци у којој се излегла?",
+    "gloss": "Which fish swims upstream from the sea to spawn in the river where it hatched? — The salmon.",
+    "options": [
+      "Лосос",
+      "Шаран",
+      "Сом",
+      "Штука"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је написао „Зону Замфирову“?",
+    "options": [
+      "Бранислав Нушић",
+      "Борисав Станковић",
+      "Јанко Веселиновић",
+      "Стеван Сремац"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"Zona Zamfirova\"? — Stevan Sremac."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У ком спорту победник Мастерса облачи зелени сако?",
+    "options": [
+      "Тенис",
+      "Голф",
+      "Снукер",
+      "Једрење"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sport does the Masters winner put on a green jacket? — Golf."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Из ког града потиче пеглана кобасица?",
+    "options": [
+      "Пирот",
+      "Зајечар",
+      "Ужице",
+      "Лесковац"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which town is \"peglana\" (pressed) sausage from? — Pirot."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Како се на српски правилно преводи енглеско „billion“?",
+    "options": [
+      "Билион",
+      "Милион",
+      "Милијарда",
+      "Трилион"
+    ],
+    "correctIndex": 2,
+    "gloss": "How is English \"billion\" correctly translated? — «милијарда» (10⁹); Serbian «билион» is 10¹², a false friend."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Како се зове вампир из Глишићеве приповетке „После деведесет година“?",
+    "options": [
+      "Баш Челик",
+      "Змај Огњени Вук",
+      "Сава Савановић",
+      "Краљевић Марко"
+    ],
+    "correctIndex": 2,
+    "gloss": "The vampire in Glišić's story \"After Ninety Years\"? — Sava Savanović, of the mill in Zarožje."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Мађарски професор архитектуре измислио је загонетку са шест обојених страна. Како се зове?",
+    "options": [
+      "Рубикова коцка",
+      "Танграм",
+      "Тетрис",
+      "Судоку"
+    ],
+    "correctIndex": 0,
+    "gloss": "A Hungarian architecture professor invented a puzzle with six coloured faces. Its name? — Rubik's Cube (Ernő Rubik)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На којој температури Целзијусов и Фаренхајтов термометар показују исти број?",
+    "options": [
+      "0",
+      "−40",
+      "−32",
+      "100"
+    ],
+    "correctIndex": 1,
+    "gloss": "At what temperature do Celsius and Fahrenheit show the same number? — −40."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која је од ових речи у српски дошла из турског?",
+    "options": [
+      "Рукавица",
+      "Кошуља",
+      "Капа",
+      "Чарапа"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words came into Serbian from Turkish? — «чарапа» (çorap); кошуља and капа are from Latin, рукавица is Slavic."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чувени законик из 1349. године носи име ког српског владара?",
+    "options": [
+      "Краља Милутина",
+      "Цара Душана",
+      "Цара Уроша",
+      "Кнеза Лазара"
+    ],
+    "correctIndex": 1,
+    "gloss": "The famous law code of 1349 bears which Serbian ruler's name? — Emperor Dušan."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "У којој земљи се налази храмски комплекс Ангкор Ват?",
+    "options": [
+      "Тајланд",
+      "Вијетнам",
+      "Лаос",
+      "Камбоџа"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country is the Angkor Wat temple complex? — Cambodia."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кад је у Београду подне, колико је сати у Лондону?",
+    "options": [
+      "13:00",
+      "12:00",
+      "11:00",
+      "10:00"
+    ],
+    "correctIndex": 2,
+    "gloss": "When it is noon in Belgrade, what time is it in London? — 11:00: London is one hour behind, all year."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чиме је Милутин Миланковић објаснио смењивање ледених доба?",
+    "options": [
+      "Променама Земљине путање и осе",
+      "Сунчевим пегама",
+      "Ерупцијама вулкана",
+      "Променама морских струја"
+    ],
+    "correctIndex": 0,
+    "gloss": "How did Milutin Milanković explain the ice ages? — Cyclic changes in Earth's orbit and axial tilt (Milanković cycles)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ко је компоновао „Болеро“, у ком се једна мелодија понавља уз све јачи оркестар?",
+    "options": [
+      "Морис Равел",
+      "Клод Дебиси",
+      "Камиј Сен-Санс",
+      "Ерик Сати"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who composed \"Boléro\", one melody repeated over a swelling orchestra? — Maurice Ravel."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коју је књигу штампарија Ђурђа Црнојевића на Цетињу одштампала прву, 1494. године?",
+    "options": [
+      "Псалтир с последовањем",
+      "Требник",
+      "Октоих првогласник",
+      "Молитвеник"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which book did Đurađ Crnojević's press in Cetinje print first, in 1494? — The Octoechos of the First Tone, the first Serbian Church Slavonic printed book."
+  }
+]

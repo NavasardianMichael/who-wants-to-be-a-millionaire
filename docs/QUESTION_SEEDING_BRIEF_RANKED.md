@@ -80,6 +80,12 @@ best earlier ones: Czech «sít» becoming «šít» with a háček, Slovenian �
 two"), Macedonian «двајца» (the count word for men only), Mongolian vowel harmony in an ordinal
 suffix, German «halb acht» meaning 7:30, Greek «γέρος» and «γερός».
 
+**The global level-1 questions are where every writer slipped,** reaching for the textbook. What
+replaced them well was everyday modern knowledge an adult has: what a 404 page means, why food
+cooks faster in a pressure cooker, when to enter a payment PIN, what airplane mode turns off, the
+free hit after a no-ball, what goes into a macchiato, which app has a musical-note logo. Write
+those, and avoid anything that changes soon or differs by device or browser.
+
 **Unchanged from Classic:** about 40% `local` (30–55%), at least 10 of the 16 categories, every
 question about a different subject, and each of the four answer positions correct 7–18 times.
 

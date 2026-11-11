@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hány betűből áll a „tyúk” szó a magyar ábécé szerint?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many letters does the word \"tyúk\" have in the Hungarian alphabet? — 3: ty, ú, k; \"ty\" is a single letter (digraph) of the alphabet."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "A „2025. 04. 03.” magyar dátum melyik nap?",
+    "options": [
+      "április 3.",
+      "március 4.",
+      "április 30.",
+      "március 30."
+    ],
+    "correctIndex": 0,
+    "gloss": "Which day is the Hungarian date \"2025. 04. 03.\"? — 3 April: Hungarian dates run year, month, day; the trap is reading it day-first as 4 March."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "A film háromnegyed hatkor kezdődik. Hánykor?",
+    "options": [
+      "5:15",
+      "5:45",
+      "6:15",
+      "6:45"
+    ],
+    "correctIndex": 1,
+    "gloss": "The film starts at \"háromnegyed hat\". What time? — 5:45: Hungarian counts toward the coming hour, so three quarters of the way to six."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mit jelent a „Nagy Lászlóné” névben a „-né” végződés?",
+    "options": [
+      "Nagy László lánya",
+      "Nagy László anyja",
+      "Nagy László húga",
+      "Nagy László felesége"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the ending \"-né\" mean in \"Nagy Lászlóné\"? — László Nagy's wife: the Hungarian suffix -né marks a married woman by her husband's name."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar szó felel meg az angol „he” és a „she” szónak is?",
+    "options": [
+      "ő",
+      "ön",
+      "mi",
+      "ti"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Hungarian word corresponds to both English \"he\" and \"she\"? — \"ő\": Hungarian has no grammatical gender, so one pronoun covers both."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Egészítsd ki a közmondást: „Ki korán kel, aranyat …”",
+    "options": [
+      "kap",
+      "hoz",
+      "lel",
+      "ád"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb: \"Who rises early finds gold ...\" — \"lel\": \"Ki korán kel, aranyat lel.\""
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik sült tésztára kerül hagyományosan fokhagymás tejföl és reszelt sajt?",
+    "options": [
+      "Palacsinta",
+      "Kürtőskalács",
+      "Pogácsa",
+      "Lángos"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fried dough is traditionally topped with garlic sour cream and grated cheese? — Lángos, the classic Hungarian fairground and beach snack."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik édesség lóg hagyományosan a magyar karácsonyfán?",
+    "options": [
+      "Szaloncukor",
+      "Bejgli",
+      "Kürtőskalács",
+      "Mákos guba"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which sweet traditionally hangs on the Hungarian Christmas tree? — Szaloncukor, the wrapped fondant candy."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Húsvéthétfőn a fiúk meglocsolják a lányokat. Mit kapnak cserébe hagyományosan?",
+    "options": [
+      "Szaloncukrot",
+      "Bejglit",
+      "Hímes tojást",
+      "Mézeskalács-szívet"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Easter Monday boys sprinkle girls. What do they traditionally get in return? — Painted eggs (hímes tojás)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ki írta a „Talpra magyar, hí a haza!” kezdetű Nemzeti dalt?",
+    "options": [
+      "Arany János",
+      "Vörösmarty Mihály",
+      "Ady Endre",
+      "Petőfi Sándor"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the National Song that begins \"Talpra magyar, hí a haza!\"? — Sándor Petőfi, 1848."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar tanár találta fel 1974-ben a forgatható színes kockát?",
+    "options": [
+      "Rubik Ernő",
+      "Neumann János",
+      "Szilárd Leó",
+      "Kandó Kálmán"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Hungarian teacher invented the twisting coloured cube in 1974? — Ernő Rubik, the Rubik's Cube."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik tavat becézik „magyar tengernek”?",
+    "options": [
+      "Velencei-tó",
+      "Balaton",
+      "Tisza-tó",
+      "Fertő-tó"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which lake is nicknamed the \"Hungarian sea\"? — Lake Balaton."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hogy hívják magyarul az e-mail címekben álló „@” jelet?",
+    "options": [
+      "Szúnyog",
+      "Hangya",
+      "Kukac",
+      "Szöcske"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the \"@\" sign in e-mail addresses called in Hungarian? — \"kukac\" (worm)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik hosszú lábú madár rak hatalmas fészket falusi kémények és villanyoszlopok tetejére?",
+    "options": [
+      "Daru",
+      "Szarka",
+      "Fecske",
+      "Gólya"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which long-legged bird builds a huge nest on village chimneys and power poles? — The white stork."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mit jelent az „5G” a mobiltelefonoknál?",
+    "options": [
+      "Ötödik generációs mobilhálózat",
+      "Öt gigabájtos adatcsomag",
+      "Ötmagos processzor",
+      "Öt kamerás kialakítás"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does \"5G\" mean for mobile phones? — Fifth-generation mobile network."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik szám hívható segélyhívóként az Európai Unió minden országában?",
+    "options": [
+      "100",
+      "112",
+      "911",
+      "999"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number reaches the emergency services in every EU country? — 112."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mire való a bankkártya hátoldalán álló háromjegyű kód?",
+    "options": [
+      "A PIN-kód tárolása",
+      "A számlaszám rövidítése",
+      "Internetes vásárlás megerősítése",
+      "Az érvényesség jelzése"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the three-digit code on the back of a bank card for? — Confirming online purchases (CVV)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik rajzfilmhős lakik egy ananászban a tenger fenekén?",
+    "options": [
+      "Tom",
+      "Scooby-Doo",
+      "Maci Laci",
+      "SpongyaBob"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which cartoon hero lives in a pineapple at the bottom of the sea? — SpongeBob SquarePants."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik játékhős piros sapkás olasz vízvezeték-szerelő?",
+    "options": [
+      "Mario",
+      "Sonic",
+      "Link",
+      "Pac-Man"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which game hero is a red-capped Italian plumber? — Mario."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Miért forog a tányér a mikrohullámú sütőben?",
+    "options": [
+      "Hogy hűljön a sütő",
+      "Hogy egyenletesen melegedjen az étel",
+      "Hogy ne tapadjon az étel",
+      "Hogy csendesebb legyen"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does the plate turn in a microwave oven? — So the food heats evenly, as the waves form hot and cold spots."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik sajt kerül a görög salátába?",
+    "options": [
+      "Parmezán",
+      "Trappista",
+      "Feta",
+      "Ementáli"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cheese goes into a Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mit szórnak télen az utakra, hogy ne fagyjon rájuk a víz?",
+    "options": [
+      "Cukrot",
+      "Lisztet",
+      "Szódabikarbónát",
+      "Sót"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is spread on roads in winter to keep water from freezing on them? — Salt, which lowers the freezing point."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mi a ramen?",
+    "options": [
+      "Japán tésztaleves",
+      "Koreai savanyúság",
+      "Indiai lepénykenyér",
+      "Thai zöldcurry"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is ramen? — A Japanese noodle soup (kimchi is Korean, naan Indian)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mit jelent a „VAR” a labdarúgásban?",
+    "options": [
+      "Gólvonal-technika",
+      "Videóbíró",
+      "Pályafelügyelő",
+      "Les-jelző zászló"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does \"VAR\" mean in football? — The video assistant referee (videóbíró)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik alkalmazás ismert a rövid videókról és táncos kihívásokról?",
+    "options": [
+      "Spotify",
+      "Skype",
+      "TikTok",
+      "Waze"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which app is known for short videos and dance challenges? — TikTok."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik tenger partján fekszik Split és Dubrovnik?",
+    "options": [
+      "Égei-tenger",
+      "Fekete-tenger",
+      "Balti-tenger",
+      "Adriai-tenger"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which sea do Split and Dubrovnik lie? — The Adriatic."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik szállodai ellátásban jár reggeli, ebéd és vacsora is?",
+    "options": [
+      "Teljes panzió",
+      "Félpanzió",
+      "Szállás reggelivel",
+      "Önellátás"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which hotel board includes breakfast, lunch and dinner? — Full board (teljes panzió)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik növény csíp és éget, ha a bőrünkhöz ér?",
+    "options": [
+      "Gyermekláncfű",
+      "Csalán",
+      "Fodormenta",
+      "Nefelejcs"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which plant stings and burns when it touches the skin? — Stinging nettle (csalán)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Melyik testrész rejtőzik a „hétfő” szó második felében?",
+    "options": [
+      "Láb",
+      "Kéz",
+      "Fej",
+      "Hát"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which body part hides in the second half of \"hétfő\"? — The head: \"hétfő\" is \"head of the week\" (fő = old word for head)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Melyik szó áll legelöl a magyar betűrend szerint?",
+    "options": [
+      "szél",
+      "szív",
+      "tej",
+      "sün"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which word comes first in Hungarian alphabetical order? — \"sün\": \"sz\" is a separate letter after \"s\", so s+ü comes before sz."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Egy 10 000 forintos pulóver ára 20 százalékkal csökken. Mennyibe kerül utána?",
+    "options": [
+      "7500 Ft",
+      "8000 Ft",
+      "8500 Ft",
+      "9800 Ft"
+    ],
+    "correctIndex": 1,
+    "gloss": "A 10,000 forint jumper gets 20 percent off. What does it cost? — 8,000 forints."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik pénz volt a magyar fizetőeszköz közvetlenül a forint bevezetése előtt?",
+    "options": [
+      "Pengő",
+      "Korona",
+      "Dénár",
+      "Schilling"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which currency was Hungary's money directly before the forint? — The pengő (1927–1946)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar tudós kapott Nobel-díjat a C-vitamin kutatásáért, amelyet paprikából is kivont?",
+    "options": [
+      "Semmelweis Ignác",
+      "Szent-Györgyi Albert",
+      "Hevesy György",
+      "Békésy György"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Hungarian scientist won a Nobel Prize for vitamin C research, which he also extracted from paprika? — Albert Szent-Györgyi (1937)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik hangszert szólaltatják meg két kis verővel a magyar cigányzenekarokban?",
+    "options": [
+      "Citera",
+      "Tárogató",
+      "Cimbalom",
+      "Brácsa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which instrument is played with two small mallets in Hungarian Gypsy bands? — The cimbalom."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ki írta a magyar Himnusz szövegét?",
+    "options": [
+      "Vörösmarty Mihály",
+      "Arany János",
+      "Kisfaludy Károly",
+      "Kölcsey Ferenc"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the words of the Hungarian anthem? — Ferenc Kölcsey (Vörösmarty wrote the Szózat)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hogyan mondják a teniszben angolul a nulla pontot?",
+    "options": [
+      "Love",
+      "Nil",
+      "Duck",
+      "Deuce"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is zero called in tennis in English? — \"Love\"."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar születésű művész az op-art, a „vibráló” mintázatok atyja?",
+    "options": [
+      "Munkácsy Mihály",
+      "Victor Vasarely",
+      "Csontváry Kosztka Tivadar",
+      "Moholy-Nagy László"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Hungarian-born artist is the father of op art, the vibrating patterns? — Victor Vasarely (Győző Vásárhelyi), born in Pécs."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik három város egyesítésével jött létre 1873-ban Budapest?",
+    "options": [
+      "Buda, Pest és Szentendre",
+      "Pest, Vác és Esztergom",
+      "Buda, Pest és Óbuda",
+      "Buda, Pest és Gödöllő"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which three towns were united in 1873 to form Budapest? — Buda, Pest and Óbuda."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar borvidék édes aszújáról híres?",
+    "options": [
+      "Eger",
+      "Villány",
+      "Szekszárd",
+      "Tokaj"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Hungarian wine region is famous for its sweet aszú? — Tokaj."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik zenekar énekese volt Freddie Mercury?",
+    "options": [
+      "Queen",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Deep Purple"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which band was Freddie Mercury the singer of? — Queen."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik énekesnő turnéjának neve „Eras Tour”?",
+    "options": [
+      "Beyoncé",
+      "Taylor Swift",
+      "Adele",
+      "Dua Lipa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which singer's tour is called the \"Eras Tour\"? — Taylor Swift."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik skandináv isten fegyvere a Mjölnir nevű kalapács?",
+    "options": [
+      "Odin",
+      "Loki",
+      "Thor",
+      "Baldr"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Norse god wields the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Melyik számpár összege 10, szorzata pedig 24?",
+    "options": [
+      "3 és 7",
+      "2 és 8",
+      "5 és 5",
+      "4 és 6"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which pair of numbers sums to 10 and multiplies to 24? — 4 and 6 (3x7=21, 2x8=16, 5x5=25)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar feltaláló nevéhez fűződik a golyóstoll?",
+    "options": [
+      "Bíró László",
+      "Jedlik Ányos",
+      "Kandó Kálmán",
+      "Neumann János"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Hungarian inventor is tied to the ballpoint pen? — László Bíró."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A Szuezi-csatorna a Földközi-tengert melyik másik tengerrel köti össze?",
+    "options": [
+      "Fekete-tenger",
+      "Vörös-tenger",
+      "Arab-tenger",
+      "Északi-tenger"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sea does the Suez Canal link the Mediterranean to? — The Red Sea."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik szerző alkotta meg Hercule Poirot belga nyomozót?",
+    "options": [
+      "Arthur Conan Doyle",
+      "Georges Simenon",
+      "Agatha Christie",
+      "Raymond Chandler"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which author created the Belgian detective Hercule Poirot? — Agatha Christie."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik rendező készítette a Psycho és A madarak című filmeket?",
+    "options": [
+      "Stanley Kubrick",
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Alfred Hitchcock"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which director made Psycho and The Birds? — Alfred Hitchcock."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Melyik évszámot jelöli a MCMLXXXIV?",
+    "options": [
+      "1884",
+      "1974",
+      "1984",
+      "1994"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which year is MCMLXXXIV? — 1984: MCM = 1900, LXXX = 80, IV = 4."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Melyik magyar fizikus kapott 2023-ban Nobel-díjat az attoszekundumos fényimpulzusokért?",
+    "options": [
+      "Krausz Ferenc",
+      "Karikó Katalin",
+      "Wigner Jenő",
+      "Gábor Dénes"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Hungarian physicist won the 2023 Nobel Prize for attosecond light pulses? — Ferenc Krausz (Katalin Karikó won in medicine that year)."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Melyik rendező alkotása A hetedik pecsét, amelyben egy lovag sakkozik a Halállal?",
+    "options": [
+      "Federico Fellini",
+      "Ingmar Bergman",
+      "Andrej Tarkovszkij",
+      "Akira Kurosawa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which director made The Seventh Seal, in which a knight plays chess with Death? — Ingmar Bergman."
+  }
+]

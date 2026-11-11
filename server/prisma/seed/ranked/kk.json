@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Мына сөздердің қайсысының көпше түрі «-лер» жалғауымен жасалады?",
+    "options": [
+      "Тау",
+      "Үй",
+      "Бала",
+      "Қыз"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these words forms its plural with «-лер»? — Үй (үйлер): front vowel ü takes -лер; таулар, балалар, қыздар take back-vowel forms."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Бүгін — жұма. Бүрсігүні аптаның қай күні болады?",
+    "options": [
+      "Сенбі",
+      "Бейсенбі",
+      "Дүйсенбі",
+      "Жексенбі"
+    ],
+    "correctIndex": 3,
+    "gloss": "Today is Friday. What day is «бүрсігүні»? — Sunday: «бүрсігүні» is the day after tomorrow."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Анаңыздың ағасы — сіздің нағашы ағаңыз. Ал сіз оған кім боласыз?",
+    "options": [
+      "Жиен",
+      "Немере",
+      "Бөле",
+      "Жезде"
+    ],
+    "correctIndex": 0,
+    "gloss": "Your mother's brother is your «нағашы аға». What are you to him? — «Жиен», a sister's child to her kin."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақ салты бойынша неше атаға толмаған туыстар бір-бірімен қыз алыспайды?",
+    "options": [
+      "Үш",
+      "Бес",
+      "Жеті",
+      "Он"
+    ],
+    "correctIndex": 2,
+    "gloss": "By Kazakh custom, relatives within how many generations may not marry? — Seven («жеті ата»)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Нәресте дүниеге келгенде жасалатын той қалай аталады?",
+    "options": [
+      "Беташар",
+      "Шілдехана",
+      "Сүндет той",
+      "Қыз ұзату"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the celebration held when a baby is born? — Shildekhana."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қуанышты хабарды бірінші жеткізген адам сұрайтын сыйлық қалай аталады?",
+    "options": [
+      "Көрімдік",
+      "Байғазы",
+      "Жыртыс",
+      "Сүйінші"
+    ],
+    "correctIndex": 3,
+    "gloss": "The gift asked by whoever brings good news first? — Süiinshi; körimdik is for seeing a baby/bride, baighazy for a new thing, zhyrtys is wedding cloth."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қорқыт атамен байланыстырылатын, ысқышпен тартылатын көне қазақ аспабы қайсы?",
+    "options": [
+      "Қобыз",
+      "Сыбызғы",
+      "Жетіген",
+      "Шертер"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which ancient bowed Kazakh instrument is linked to Korkyt Ata? — Kobyz; the others are a flute and plucked instruments."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақстан туында күннің астында қандай құс қалықтап ұшып жүр?",
+    "options": [
+      "Аққу",
+      "Тырна",
+      "Қыран",
+      "Үкі"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird soars under the sun on the flag of Kazakhstan? — A steppe eagle («қалықтаған қыран»)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Әуе билетіндегі «Gate» деген жазу нені білдіреді?",
+    "options": [
+      "Тіркеу орнын",
+      "Отырғызу шығысын",
+      "Багаж тапсыратын орынды",
+      "Кеден бекетін"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does «Gate» on a boarding pass mean? — The boarding gate."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Қыз Жібек» жырында Жібектің сүйген жігіті кім?",
+    "options": [
+      "Қозы Көрпеш",
+      "Ер Тарғын",
+      "Алпамыс",
+      "Төлеген"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the epic «Kyz Zhibek», whom does Zhibek love? — Tolegen."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақ ертегілерінде сараң байларды айламен алдап кететін тапқыр кейіпкер кім?",
+    "options": [
+      "Алдар Көсе",
+      "Ер Төстік",
+      "Қобыланды",
+      "Шығайбай"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which witty folk-tale hero tricks stingy rich men? — Aldar Kose; Shygaibai is the miser he fools."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Отан — ... да ыстық» деген мақалда қай сөз түсіп қалған?",
+    "options": [
+      "Жаннан",
+      "Шоқтан",
+      "Оттан",
+      "Баладан"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word is missing: «The Motherland is hotter even than ...»? — «оттан» (fire), a play on Отан / от."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Киіз үйдің төбесіндегі, түтін шығатын дөңгелек ағаш бөлігі қалай аталады?",
+    "options": [
+      "Уық",
+      "Кереге",
+      "Түндік",
+      "Шаңырақ"
+    ],
+    "correctIndex": 3,
+    "gloss": "The round wooden crown at the top of the yurt where smoke escapes? — Shanyrak; tündik is the felt flap that covers it."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Биік тауда мекендейтін, жүні қалың әрі ақшыл, құйрығы ұзын жыртқыш мысық қайсы?",
+    "options": [
+      "Барыс",
+      "Сілеусін",
+      "Жолбарыс",
+      "Қабылан"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which big cat with thick pale fur and a long tail lives high in the mountains? — The snow leopard; the lynx has a short tail."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Көкпарда шабандоздар нені тартып алысады?",
+    "options": [
+      "Былғары допты",
+      "Серкенің ұшасын",
+      "Ақ орамалды",
+      "Қамшыны"
+    ],
+    "correctIndex": 1,
+    "gloss": "In kökpar, what do riders fight over? — A goat carcass."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Смартфондағы NFC не үшін керек?",
+    "options": [
+      "Батареяны үнемдеу үшін",
+      "Экранды бұру үшін",
+      "Жанаспай төлеу үшін",
+      "Фотоны жақсарту үшін"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is NFC in a smartphone for? — Contactless payment (near-field communication)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Суға толы шыны бөтелкені мұздатқышта ұмытып кетсеңіз, ол неге жарылуы мүмкін?",
+    "options": [
+      "Шыны суықта жұмсарады",
+      "Ішіндегі ауа сығылады",
+      "Су суықта ауырлайды",
+      "Су қатқанда ұлғаяды"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why can a full glass bottle burst in the freezer? — Water expands as it freezes."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Тұмауды антибиотикпен емдемейді, өйткені оның қоздырғышы — ...",
+    "options": [
+      "Бактерия",
+      "Вирус",
+      "Саңырауқұлақ",
+      "Құрт"
+    ],
+    "correctIndex": 1,
+    "gloss": "Flu isn't treated with antibiotics, because its cause is a... — Virus; antibiotics act on bacteria."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Американо кофесі эспрессоға не қосып жасалады?",
+    "options": [
+      "Ыстық су",
+      "Сүт",
+      "Кілегей",
+      "Шоколад"
+    ],
+    "correctIndex": 0,
+    "gloss": "An americano is espresso plus what? — Hot water."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Баскетболда доп қай жерден лақтырылса, үш ұпай береді?",
+    "options": [
+      "Айып сызығынан",
+      "Алаң ортасынан ғана",
+      "Доғаның сыртынан",
+      "Себеттің астынан"
+    ],
+    "correctIndex": 2,
+    "gloss": "In basketball, a shot from where counts three points? — From beyond the three-point arc."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Әлемге танылған «Кальмар ойыны» сериалы қай елде түсірілген?",
+    "options": [
+      "Жапонияда",
+      "Оңтүстік Кореяда",
+      "Қытайда",
+      "Тайландта"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which country was «Squid Game» made? — South Korea (Netflix, 2021)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қай мессенджердің белгісінде қағаз ұшақ бейнеленген?",
+    "options": [
+      "WhatsApp",
+      "Viber",
+      "Signal",
+      "Telegram"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which messenger's logo shows a paper plane? — Telegram."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Банкноттағы су белгісін көру үшін не істеу керек?",
+    "options": [
+      "Суға батыру",
+      "Жарыққа қарату",
+      "Қатты үйкелеу",
+      "Екі бүктеу"
+    ],
+    "correctIndex": 1,
+    "gloss": "How do you see a banknote's watermark? — Hold it up to the light."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Банк картасының артындағы үш таңбалы қорғаныс коды әдетте қалай аталады?",
+    "options": [
+      "PIN",
+      "IBAN",
+      "CVV",
+      "SWIFT"
+    ],
+    "correctIndex": 2,
+    "gloss": "The three-digit security code on the back of a bank card is usually called? — CVV."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қай жануар қауіп төнгенде құйрығын үзіп тастап, қашып кетеді?",
+    "options": [
+      "Бақа",
+      "Жылан",
+      "Тасбақа",
+      "Кесіртке"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal sheds its tail to escape danger? — The lizard; the tail later grows back."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шахматта тек қиғашынан жүретін фигура қайсы?",
+    "options": [
+      "Піл",
+      "Ат",
+      "Тура",
+      "Уәзір"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which chess piece moves only diagonally? — The bishop; the queen moves straight too."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қай елде көліктер жолдың сол жағымен жүреді?",
+    "options": [
+      "Франция",
+      "Ұлыбритания",
+      "Германия",
+      "Италия"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which country do cars drive on the left? — The United Kingdom."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "«Тетрис» ойынындағы әр фигура неше шаршыдан құралған?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many squares make each Tetris piece? — Four: the name comes from Greek tetra, «four»."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қонаққа тартылған бас табақтағы қойдың құлағын әдетте кімге кесіп береді?",
+    "options": [
+      "Үй иесіне",
+      "Құрметті қонаққа",
+      "Келінге",
+      "Жас балаға"
+    ],
+    "correctIndex": 3,
+    "gloss": "To whom is the sheep's ear from the head usually given at a feast? — A young child, so that he will «listen» to elders."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақ хандығының негізін қалаған хандар кімдер?",
+    "options": [
+      "Керей мен Жәнібек",
+      "Қасым мен Есім",
+      "Абылай мен Әбілмәмбет",
+      "Хақназар мен Тәуекел"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which khans founded the Kazakh Khanate? — Kerei and Zhanibek (1465)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сайт мекенжайындағы «https» сөзінің соңғы «s» әрпі нені білдіреді?",
+    "options": [
+      "Жылдам",
+      "Қауіпсіз",
+      "Серверлік",
+      "Қарапайым"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the final «s» in «https» stand for? — Secure."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Түрлі түсті киізден ою ойып, бір-біріне құрап тігетін қазақ кілемі қалай аталады?",
+    "options": [
+      "Текемет",
+      "Алаша",
+      "Сырмақ",
+      "Тұскиіз"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Kazakh rug of cut felt ornaments sewn together? — Syrmak; tekemet is pressed felt, alasha is woven, tuskiiz is an embroidered wall hanging."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Сексен» сөзі қай екі сан атауының бірігуінен шыққан?",
+    "options": [
+      "Алты мен он",
+      "Жеті мен он",
+      "Сегіз бен жүз",
+      "Сегіз бен он"
+    ],
+    "correctIndex": 3,
+    "gloss": "«Сексен» (80) comes from which two number words? — «сегіз» (8) + «он» (10)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қыста жолға тұз себеді. Неге?",
+    "options": [
+      "Мұздың еру температурасын төмендетеді",
+      "Асфальтты жылытады",
+      "Қарды тез буландырады",
+      "Дөңгелекті жолға жабыстырады"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why is salt spread on winter roads? — It lowers the melting point of ice."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Әуежайлардың халықаралық кодында ALA қай қаланы білдіреді?",
+    "options": [
+      "Астананы",
+      "Алматыны",
+      "Ақтауды",
+      "Атырауды"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which city is the airport code ALA? — Almaty; Astana is NQZ, Aktau SCO, Atyrau GUW."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Итальяндық тирамису десертіне қандай ірімшік қосылады?",
+    "options": [
+      "Моцарелла",
+      "Пармезан",
+      "Маскарпоне",
+      "Рикотта"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cheese goes into tiramisu? — Mascarpone."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Тақтар ойыны» сериалы қай жазушының кітаптары бойынша түсірілген?",
+    "options": [
+      "Джон Толкин",
+      "Стивен Кинг",
+      "Терри Пратчетт",
+      "Джордж Мартин"
+    ],
+    "correctIndex": 3,
+    "gloss": "«Game of Thrones» is based on whose books? — George R. R. Martin."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ақан сері ән арнаған, аңызға айналған жүйрік аты қалай аталған?",
+    "options": [
+      "Құлагер",
+      "Тайбурыл",
+      "Байшұбар",
+      "Тарлан"
+    ],
+    "correctIndex": 0,
+    "gloss": "Akan Seri's legendary racehorse, to which he devoted a song? — Kulager; Taiburyl and Baishubar are epic heroes' horses."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шөлде өсетін, сүрегі өте қатты әрі ауыр, отыны ұзақ жанатын өсімдік қайсы?",
+    "options": [
+      "Жиде",
+      "Сексеуіл",
+      "Тораңғы",
+      "Тобылғы"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which desert plant has very hard, heavy wood that burns long? — Saxaul."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Матрица» фильмінде Нео шындықты көру үшін қай түсті таблетканы таңдайды?",
+    "options": [
+      "Көк",
+      "Жасыл",
+      "Қызыл",
+      "Сары"
+    ],
+    "correctIndex": 2,
+    "gloss": "In «The Matrix», which pill does Neo take to see the truth? — The red one."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Скандинав мифологиясында балғасымен найзағай ойнататын құдай кім?",
+    "options": [
+      "Один",
+      "Локи",
+      "Фрейр",
+      "Тор"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Norse myth, which god wields thunder with his hammer? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Рим цифрымен жазылған XL қай сан?",
+    "options": [
+      "40",
+      "60",
+      "90",
+      "110"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which number is XL in Roman numerals? — 40: X before L means 50 − 10."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Парсыдан енген «дүйсенбі» атауы сенбіден кейінгі нешінші күн деген мағынаны береді?",
+    "options": [
+      "Бірінші",
+      "Екінші",
+      "Үшінші",
+      "Төртінші"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Persian-born «дүйсенбі» (Monday) means which day after Saturday? — The second: du-shanbe; compare сейсенбі (3), сәрсенбі (4)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақстан Елтаңбасында шаңырақтың екі жағында қандай мифтік жануарлар бар?",
+    "options": [
+      "Ақ барыстар",
+      "Алтын арыстандар",
+      "Қанатты пырақтар",
+      "Самұрық құстар"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which mythical creatures flank the shanyrak on the emblem of Kazakhstan? — Winged horses (pyraks/tulpars)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Найзағай жарқ еткеннен кейін 3 секундтан соң күн күркіреді. Найзағай шамамен қаншалықты қашықта?",
+    "options": [
+      "100 метр",
+      "10 км",
+      "30 км",
+      "1 км"
+    ],
+    "correctIndex": 3,
+    "gloss": "Thunder follows the flash by 3 seconds. How far is the lightning? — About 1 km: sound travels ~340 m/s."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Геральт туралы «Ведьмак» кітаптарының авторы қай елдің жазушысы?",
+    "options": [
+      "Польшаның",
+      "Чехияның",
+      "Венгрияның",
+      "Сербияның"
+    ],
+    "correctIndex": 0,
+    "gloss": "The author of the Witcher books about Geralt is from which country? — Poland (Andrzej Sapkowski)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Әл-Фараби «Екінші ұстаз» атанған. Ал «Бірінші ұстаз» деп кімді атаған?",
+    "options": [
+      "Платон",
+      "Аристотель",
+      "Сократ",
+      "Ибн Сина"
+    ],
+    "correctIndex": 1,
+    "gloss": "Al-Farabi was called «the Second Teacher». Who was the First? — Aristotle, whose works Farabi interpreted."
+  },
+  {
+    "level": 4,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Эмодзи» сөзі қай тілден шыққан?",
+    "options": [
+      "Ағылшын",
+      "Корей",
+      "Жапон",
+      "Қытай"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which language does «emoji» come from? — Japanese: e (picture) + moji (character), not from «emotion»."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Қай планета өз осінің айналасында бүйірімен «жатып» айналады?",
+    "options": [
+      "Венера",
+      "Сатурн",
+      "Нептун",
+      "Уран"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which planet spins lying on its side? — Uranus, axis tilted about 98°."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Көне түркі жазуымен қашалған Күлтегін ескерткіші қай елде табылған?",
+    "options": [
+      "Моңғолия",
+      "Қазақстан",
+      "Қырғызстан",
+      "Түркия"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country was the Old Turkic Kul Tigin monument found? — Mongolia, in the Orkhon valley."
+  }
+]
