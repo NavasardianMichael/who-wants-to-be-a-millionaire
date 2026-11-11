@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nước mắm Phú Quốc nổi tiếng được làm chủ yếu từ loại cá nào?",
+    "options": [
+      "Cá thu",
+      "Cá cơm",
+      "Cá lóc",
+      "Cá basa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Phu Quoc fish sauce is mainly made from which fish? — Anchovy (cá cơm), salted and fermented in wooden vats."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tết nào của người Việt có đèn ông sao, múa lân và bánh nướng, bánh dẻo?",
+    "options": [
+      "Tết Trung thu",
+      "Tết Đoan Ngọ",
+      "Tết Nguyên đán",
+      "Tết Hàn thực"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Vietnamese festival has star lanterns, lion dances and mooncakes? — Mid-Autumn Festival (Tết Trung thu), on the 15th of the 8th lunar month."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Thủ đô Hà Nội nằm bên bờ con sông nào?",
+    "options": [
+      "Sông Hương",
+      "Sông Đồng Nai",
+      "Sông Mã",
+      "Sông Hồng"
+    ],
+    "correctIndex": 3,
+    "gloss": "Hanoi lies on the bank of which river? — The Red River (sông Hồng)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kinh thành Huế là kinh đô của triều đại nào?",
+    "options": [
+      "Nhà Lý",
+      "Nhà Nguyễn",
+      "Nhà Trần",
+      "Nhà Lê"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Huế Citadel was the capital of which dynasty? — The Nguyễn dynasty (1802-1945)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hoàn thành câu tục ngữ: “Ăn quả nhớ kẻ trồng …”",
+    "options": [
+      "vườn",
+      "đất",
+      "nước",
+      "cây"
+    ],
+    "correctIndex": 3,
+    "gloss": "Finish the proverb: \"When eating the fruit, remember who planted the ...\" — tree (cây); \"uống nước nhớ nguồn\" is the other, related saying."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hành tinh nào của Hệ Mặt Trời được gọi là Hành tinh Đỏ?",
+    "options": [
+      "Sao Kim",
+      "Sao Hỏa",
+      "Sao Mộc",
+      "Sao Thủy"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet is called the Red Planet? — Mars (Sao Hỏa), red from iron oxide dust."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Loài gấu nào chủ yếu ăn tre?",
+    "options": [
+      "Gấu trúc",
+      "Gấu nâu",
+      "Gấu trắng",
+      "Gấu chó"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bear mainly eats bamboo? — The giant panda (gấu trúc)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quốc ca của Việt Nam có tên là gì?",
+    "options": [
+      "Giải phóng miền Nam",
+      "Tiến quân ca",
+      "Việt Nam quê hương tôi",
+      "Quốc tế ca"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the name of the Vietnamese national anthem? — Tiến quân ca, by Văn Cao."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chú chuột đội tai tròn nổi tiếng của hãng Disney tên là gì?",
+    "options": [
+      "Mickey",
+      "Jerry",
+      "Stuart",
+      "Remy"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the name of Disney's famous mouse with round ears? — Mickey Mouse."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mỗi đội bóng đá có bao nhiêu cầu thủ trên sân, kể cả thủ môn?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players does each football team have on the pitch, goalkeeper included? — 11."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hãng công nghệ nào tạo ra trình duyệt web Chrome?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "Mozilla",
+      "Google"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which company made the Chrome web browser? — Google."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sơn Tinh và Thủy Tinh tranh nhau cưới nàng công chúa nào?",
+    "options": [
+      "Mị Châu",
+      "Tiên Dung",
+      "Âu Cơ",
+      "Mị Nương"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which princess did Sơn Tinh and Thủy Tinh compete to marry? — Mị Nương, daughter of the Hùng king."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Chú mèo máy đến từ thế kỷ 22, bạn thân của Nobita, tên là gì?",
+    "options": [
+      "Pikachu",
+      "Totoro",
+      "Hello Kitty",
+      "Doraemon"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the robot cat from the 22nd century, Nobita's best friend, called? — Doraemon."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ngôi chùa nào ở Hà Nội nổi tiếng vì dựng trên một cột đá giữa hồ sen?",
+    "options": [
+      "Chùa Một Cột",
+      "Chùa Hương",
+      "Chùa Thiên Mụ",
+      "Chùa Trấn Quốc"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Hanoi pagoda stands on a single stone pillar in a lotus pond? — One Pillar Pagoda (Chùa Một Cột)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Đại thi hào Nguyễn Du viết kiệt tác thơ Nôm nào, mở đầu bằng câu “Trăm năm trong cõi người ta”?",
+    "options": [
+      "Truyện Kiều",
+      "Lục Vân Tiên",
+      "Chinh phụ ngâm",
+      "Cung oán ngâm khúc"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Nôm masterpiece by Nguyễn Du opens with \"A hundred years in the human realm\"? — The Tale of Kiều (Truyện Kiều)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Món pizza có nguồn gốc từ nước nào?",
+    "options": [
+      "Pháp",
+      "Mỹ",
+      "Tây Ban Nha",
+      "Ý"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country does pizza come from? — Italy (Naples)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Đơn vị tiền tệ của Nhật Bản là gì?",
+    "options": [
+      "Won",
+      "Baht",
+      "Yên",
+      "Nhân dân tệ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is Japan's currency? — The yen."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kênh đào Panama nối Thái Bình Dương với đại dương nào?",
+    "options": [
+      "Ấn Độ Dương",
+      "Đại Tây Dương",
+      "Bắc Băng Dương",
+      "Nam Đại Dương"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Panama Canal links the Pacific with which ocean? — The Atlantic (via the Caribbean). Suez is the canal that leads towards the Indian Ocean."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kim tự tháp Giza là công trình của nền văn minh nào?",
+    "options": [
+      "Maya",
+      "Ai Cập cổ đại",
+      "La Mã cổ đại",
+      "Lưỡng Hà"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Giza pyramids belong to which civilisation? — Ancient Egypt."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Việt Nam đón Quốc khánh vào ngày nào hằng năm?",
+    "options": [
+      "30 tháng 4",
+      "1 tháng 5",
+      "19 tháng 5",
+      "2 tháng 9"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which date does Vietnam celebrate National Day? — 2 September (Declaration of Independence, 1945)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Con vật nào được ví là “tàu sa mạc”?",
+    "options": [
+      "Ngựa",
+      "Lạc đà",
+      "Voi",
+      "Lừa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal is called the \"ship of the desert\"? — The camel."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Xương nào dài nhất trong cơ thể người?",
+    "options": [
+      "Xương chày",
+      "Xương cánh tay",
+      "Xương đùi",
+      "Xương sườn"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which is the longest bone in the human body? — The femur (xương đùi)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Thành phố nào ở đồng bằng sông Cửu Long được gọi là “Tây Đô”?",
+    "options": [
+      "Cà Mau",
+      "Mỹ Tho",
+      "Bạc Liêu",
+      "Cần Thơ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Mekong Delta city is nicknamed \"Tây Đô\" (Western Capital)? — Cần Thơ."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Từ “nghiêng” có bao nhiêu chữ cái?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many letters are in the word \"nghiêng\"? — 7: n-g-h-i-ê-n-g (ng and gh counted letter by letter)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Thêm dấu sắc vào chữ “ca”, ta được tên của loài vật nào sống dưới nước?",
+    "options": [
+      "Cua",
+      "Cá",
+      "Tôm",
+      "Ốc"
+    ],
+    "correctIndex": 1,
+    "gloss": "Add the acute tone mark to \"ca\": which water animal do you get? — \"cá\" (fish); crab, shrimp and snail cannot be made from \"ca\" by a tone mark."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ăn phở hết 45.000 đồng, đưa 100.000 đồng thì được thối lại bao nhiêu?",
+    "options": [
+      "45.000 đồng",
+      "55.000 đồng",
+      "65.000 đồng",
+      "145.000 đồng"
+    ],
+    "correctIndex": 1,
+    "gloss": "A bowl of phở costs 45,000 đồng; you pay 100,000. Change? — 55,000 đồng."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Chữ cái “ế” mang tất cả mấy dấu, tính cả dấu mũ lẫn dấu thanh?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many diacritics does the letter \"ế\" carry, circumflex and tone mark together? — 2 (the circumflex and the acute)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Theo cách tính 24 giờ, 6 giờ chiều là mấy giờ?",
+    "options": [
+      "15 giờ",
+      "16 giờ",
+      "17 giờ",
+      "18 giờ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In 24-hour time, what is 6 p.m.? — 18:00 (12 + 6)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Thánh địa Mỹ Sơn, nơi có nhiều đền tháp gạch cổ, là di tích của nền văn hóa nào?",
+    "options": [
+      "Phù Nam",
+      "Đại Việt",
+      "Chăm Pa",
+      "Khmer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mỹ Sơn, with its ancient brick temple towers, belongs to which culture? — Champa (Chăm Pa)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ai là tác giả truyện ngắn “Lão Hạc”?",
+    "options": [
+      "Ngô Tất Tố",
+      "Nam Cao",
+      "Nguyên Hồng",
+      "Vũ Trọng Phụng"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the short story \"Lão Hạc\"? — Nam Cao."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Đỉnh Everest nằm trong dãy núi nào?",
+    "options": [
+      "Alps",
+      "Andes",
+      "Hy Mã Lạp Sơn",
+      "Rocky"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mount Everest lies in which mountain range? — The Himalayas (Hy Mã Lạp Sơn)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kim loại nào ở thể lỏng ở nhiệt độ phòng?",
+    "options": [
+      "Thủy ngân",
+      "Chì",
+      "Nhôm",
+      "Đồng"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which metal is liquid at room temperature? — Mercury."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Loài thú nào là loài duy nhất thực sự biết bay?",
+    "options": [
+      "Sóc bay",
+      "Cầy bay",
+      "Dơi",
+      "Thằn lằn bay"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which mammal is the only one capable of true flight? — The bat; flying squirrels and colugos only glide."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nhạc sĩ nào sáng tác “Diễm xưa” và “Cát bụi”?",
+    "options": [
+      "Văn Cao",
+      "Phạm Duy",
+      "Trịnh Công Sơn",
+      "Đặng Thế Phong"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which composer wrote \"Diễm xưa\" and \"Cát bụi\"? — Trịnh Công Sơn."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ai là đạo diễn của bộ phim “Titanic” (1997)?",
+    "options": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "James Cameron"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who directed \"Titanic\" (1997)? — James Cameron."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Đội tuyển nào vô địch World Cup 2022 tại Qatar?",
+    "options": [
+      "Pháp",
+      "Croatia",
+      "Argentina",
+      "Maroc"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which team won the 2022 World Cup in Qatar? — Argentina (beat France on penalties)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ai cùng Paul Allen sáng lập hãng Microsoft?",
+    "options": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Mark Zuckerberg",
+      "Elon Musk"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who co-founded Microsoft with Paul Allen? — Bill Gates."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Món cà phê trứng nổi tiếng bắt nguồn từ thành phố nào?",
+    "options": [
+      "Đà Nẵng",
+      "Hà Nội",
+      "Huế",
+      "Đà Lạt"
+    ],
+    "correctIndex": 1,
+    "gloss": "Egg coffee originated in which city? — Hanoi (invented around 1946)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Loại hình sân khấu nào của người Việt có rối biểu diễn trên mặt nước?",
+    "options": [
+      "Chèo",
+      "Tuồng",
+      "Múa rối nước",
+      "Cải lương"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Vietnamese stage art has puppets performing on water? — Water puppetry (múa rối nước)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Trong Hán Việt, “nhị” là hai, “thập” là mười. Số “nhị thập” là bao nhiêu?",
+    "options": [
+      "12",
+      "20",
+      "22",
+      "102"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Sino-Vietnamese, nhị = 2 and thập = 10. What number is \"nhị thập\"? — 20 (two tens; \"thập nhị\" would be 12)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mua một tá bút và nửa tá thước thì được tất cả bao nhiêu món?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correctIndex": 2,
+    "gloss": "Buy a dozen pens and half a dozen rulers: how many items? — 18 (12 + 6)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bóng của một cây cột ngoài nắng ngắn nhất vào lúc nào trong ngày?",
+    "options": [
+      "Lúc sáng sớm",
+      "Lúc chiều tối",
+      "Giữa trưa",
+      "Lúc 9 giờ sáng"
+    ],
+    "correctIndex": 2,
+    "gloss": "When is a pole's shadow shortest during the day? — At midday, when the Sun is highest."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bản “Dạ cổ hoài lang” của Cao Văn Lầu là nền tảng của loại hình sân khấu nào?",
+    "options": [
+      "Cải lương",
+      "Chèo",
+      "Tuồng",
+      "Ca trù"
+    ],
+    "correctIndex": 0,
+    "gloss": "Cao Văn Lầu's \"Dạ cổ hoài lang\" is the foundation of which stage genre? — Cải lương (via the vọng cổ)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Viên đá nổi trong cốc nước đầy tới miệng. Khi đá tan hết, nước sẽ thế nào?",
+    "options": [
+      "Tràn ra ngoài",
+      "Mực nước hạ thấp",
+      "Nước đóng băng lại",
+      "Không tràn ra, mực nước giữ nguyên"
+    ],
+    "correctIndex": 3,
+    "gloss": "An ice cube floats in a glass filled to the brim. When it melts? — No overflow: floating ice displaces its own weight of water (Archimedes)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Cộng bốn con số trong hai thành ngữ “một nắng hai sương” và “ba chìm bảy nổi”, được bao nhiêu?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2,
+    "gloss": "Add the four numbers in \"một nắng hai sương\" and \"ba chìm bảy nổi\" — 13 (1+2+3+7)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Thành phố Istanbul bị chia đôi hai châu lục bởi eo biển nào?",
+    "options": [
+      "Bosphorus",
+      "Gibraltar",
+      "Malacca",
+      "Hormuz"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which strait divides Istanbul between two continents? — The Bosphorus."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nguyên tố hóa học có ký hiệu Pb là gì?",
+    "options": [
+      "Chì",
+      "Bạc",
+      "Phốt pho",
+      "Bạch kim"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which element has the chemical symbol Pb? — Lead (from Latin plumbum)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nhà thơ nào được người đời gọi là “Tam nguyên Yên Đổ”?",
+    "options": [
+      "Tú Xương",
+      "Nguyễn Công Trứ",
+      "Nguyễn Khuyến",
+      "Cao Bá Quát"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which poet is known as \"Tam nguyên Yên Đổ\"? — Nguyễn Khuyến, who topped all three exams."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ngôn ngữ lập trình Python được đặt tên theo điều gì?",
+    "options": [
+      "Nhóm hài Monty Python",
+      "Loài trăn",
+      "Con rắn trong thần thoại Hy Lạp",
+      "Một công ty phần mềm"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the programming language Python named after? — The comedy group Monty Python (Guido van Rossum); the snake logo came later."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Trong các kim loại, kim loại nào có nhiệt độ nóng chảy cao nhất?",
+    "options": [
+      "Bạch kim",
+      "Vonfram",
+      "Titan",
+      "Osmi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which metal has the highest melting point? — Tungsten (about 3,422 °C)."
+  }
+]

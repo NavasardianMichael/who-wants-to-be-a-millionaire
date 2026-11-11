@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой напиток традиционно готовят в самоваре?",
+    "options": [
+      "Кофе",
+      "Чай",
+      "Квас",
+      "Молоко"
+    ],
+    "correctIndex": 1,
+    "gloss": "What drink is traditionally made in a samovar? — Tea."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто написал «Сказку о царе Салтане»?",
+    "options": [
+      "Михаил Лермонтов",
+      "Николай Гоголь",
+      "Николай Некрасов",
+      "Александр Пушкин"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"The Tale of Tsar Saltan\"? — Alexander Pushkin (1831)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой город мира называют Вечным?",
+    "options": [
+      "Рим",
+      "Афины",
+      "Париж",
+      "Мадрид"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which city is called the Eternal City? — Rome."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сколько ног у паука?",
+    "options": [
+      "Шесть",
+      "Десять",
+      "Восемь",
+      "Четыре"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many legs does a spider have? — Eight (arachnids, unlike six-legged insects)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какие горы считают границей между европейской и азиатской частями России?",
+    "options": [
+      "Саяны",
+      "Алтай",
+      "Урал",
+      "Сихотэ-Алинь"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which mountains are taken as the border between the European and Asian parts of Russia? — The Urals."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой холодный суп на квасе русские любят есть жарким летом?",
+    "options": [
+      "Окрошка",
+      "Солянка",
+      "Рассольник",
+      "Щи"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which cold kvass-based soup do Russians eat in summer? — Okroshka; the others are hot soups."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из героев русских сказок живёт в избушке на курьих ножках?",
+    "options": [
+      "Кикимора",
+      "Леший",
+      "Водяной",
+      "Баба-яга"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who in Russian fairy tales lives in a hut on chicken legs? — Baba Yaga."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как зовут львёнка, ставшего королём, в мультфильме «Король Лев»?",
+    "options": [
+      "Муфаса",
+      "Симба",
+      "Скар",
+      "Нала"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the lion cub who becomes king called in \"The Lion King\"? — Simba (Mufasa is his father, Scar his uncle, Nala his friend)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сколько игроков одной команды, включая вратаря, одновременно играют на поле в футболе?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "11"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many players per football team on the pitch, goalkeeper included? — 11."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что обычно означает значок дискеты в программах?",
+    "options": [
+      "Открыть",
+      "Сохранить",
+      "Печать",
+      "Удалить"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the floppy-disk icon usually mean in programs? — Save."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто в 1961 году стал первым человеком в космосе?",
+    "options": [
+      "Герман Титов",
+      "Алексей Леонов",
+      "Юрий Гагарин",
+      "Валентина Терешкова"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who was the first human in space in 1961? — Yuri Gagarin (Titov was the second)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Сколько букв в русском алфавите?",
+    "options": [
+      "33",
+      "31",
+      "32",
+      "34"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many letters are in the Russian alphabet? — 33."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Какое из этих слов не меняется во множественном числе?",
+    "options": [
+      "Пальто",
+      "Стол",
+      "Окно",
+      "Дом"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words does not change in the plural? — Пальто (coat): an indeclinable loanword, «одно пальто — два пальто»; стол → столы, окно → окна, дом → дома."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Прочитайте слово «ток» справа налево: получится название домашнего животного. Какого?",
+    "options": [
+      "Пёс",
+      "Бык",
+      "Кот",
+      "Осёл"
+    ],
+    "correctIndex": 2,
+    "gloss": "Read \"ток\" (current) backwards and you get a domestic animal. Which? — \"кот\" (cat)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Сколько будет дюжина да ещё полдюжины?",
+    "options": [
+      "16",
+      "18",
+      "17",
+      "20"
+    ],
+    "correctIndex": 1,
+    "gloss": "How much is a dozen plus half a dozen? — 12 + 6 = 18."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Сколько копеек в трёх рублях?",
+    "options": [
+      "30",
+      "330",
+      "3000",
+      "300"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many kopecks in three roubles? — 1 rouble = 100 kopecks, so 300."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая планета Солнечной системы ближе всех к Солнцу?",
+    "options": [
+      "Венера",
+      "Меркурий",
+      "Марс",
+      "Земля"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet is closest to the Sun? — Mercury."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как называют человека, который управляет оркестром?",
+    "options": [
+      "Дирижёр",
+      "Конферансье",
+      "Режиссёр",
+      "Аранжировщик"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the person who leads an orchestra called? — A conductor."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кто написал картину «Мона Лиза»?",
+    "options": [
+      "Микеланджело",
+      "Рафаэль",
+      "Сандро Боттичелли",
+      "Леонардо да Винчи"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who painted the Mona Lisa? — Leonardo da Vinci."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какое животное считают неофициальным символом России?",
+    "options": [
+      "Волк",
+      "Лось",
+      "Медведь",
+      "Рысь"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal is the unofficial symbol of Russia? — The (brown) bear."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кто написал трагедию «Ромео и Джульетта»?",
+    "options": [
+      "Чарльз Диккенс",
+      "Иоганн Гёте",
+      "Уильям Шекспир",
+      "Мольер"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"Romeo and Juliet\"? — William Shakespeare."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какая самая длинная река Европы впадает в Каспийское море?",
+    "options": [
+      "Дон",
+      "Обь",
+      "Ока",
+      "Волга"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is the longest river in Europe, flowing into the Caspian Sea? — The Volga."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Из какой ягоды делают изюм?",
+    "options": [
+      "Из винограда",
+      "Из вишни",
+      "Из сливы",
+      "Из смородины"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is a raisin dried from? — Grapes (botanically berries)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какое животное носит детёныша в сумке на животе?",
+    "options": [
+      "Бобр",
+      "Кенгуру",
+      "Енот",
+      "Ёж"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal carries its young in a pouch on its belly? — The kangaroo (a marsupial)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "О каком празднике рассказывает фильм «Ирония судьбы, или С лёгким паром!»?",
+    "options": [
+      "О Новом годе",
+      "О Восьмом марта",
+      "О Дне Победы",
+      "О Рождестве"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which holiday is the film \"The Irony of Fate\" about? — New Year's Eve."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой газ необходим людям для дыхания?",
+    "options": [
+      "Азот",
+      "Водород",
+      "Гелий",
+      "Кислород"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which gas do people need to breathe? — Oxygen."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Закончите пословицу: «Не имей сто рублей, а имей сто …».",
+    "options": [
+      "коров",
+      "друзей",
+      "коней",
+      "слов"
+    ],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: \"Better to have a hundred friends than a hundred roubles.\" — friends (друзей)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сколько цветов принято выделять в радуге?",
+    "options": [
+      "Пять",
+      "Шесть",
+      "Семь",
+      "Восемь"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many colours are conventionally counted in a rainbow? — Seven."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой московский театр украшает квадрига Аполлона на фасаде?",
+    "options": [
+      "Малый",
+      "Ленком",
+      "Театр Вахтангова",
+      "Большой"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Moscow theatre has Apollo's quadriga on its facade? — The Bolshoi."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой металл жидкий при комнатной температуре?",
+    "options": [
+      "Ртуть",
+      "Свинец",
+      "Олово",
+      "Цинк"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which metal is liquid at room temperature? — Mercury."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Столицей какой страны является Канберра?",
+    "options": [
+      "Новой Зеландии",
+      "Канады",
+      "Австралии",
+      "Южной Африки"
+    ],
+    "correctIndex": 2,
+    "gloss": "Canberra is the capital of which country? — Australia (not Sydney)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой мореплаватель в 1492 году, плывя на запад, достиг берегов Америки?",
+    "options": [
+      "Фернан Магеллан",
+      "Христофор Колумб",
+      "Васко да Гама",
+      "Джеймс Кук"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which navigator sailing west reached the Americas in 1492? — Christopher Columbus."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто автор романа «Мастер и Маргарита»?",
+    "options": [
+      "Борис Пастернак",
+      "Михаил Булгаков",
+      "Владимир Набоков",
+      "Максим Горький"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote \"The Master and Margarita\"? — Mikhail Bulgakov."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой композитор написал симфоническую сказку «Петя и волк»?",
+    "options": [
+      "Дмитрий Шостакович",
+      "Игорь Стравинский",
+      "Сергей Прокофьев",
+      "Николай Римский-Корсаков"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who composed the symphonic tale \"Peter and the Wolf\"? — Sergei Prokofiev (1936)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая птица подкладывает свои яйца в чужие гнёзда?",
+    "options": [
+      "Сорока",
+      "Ворона",
+      "Стриж",
+      "Кукушка"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Из чего традиционно делают русский квас?",
+    "options": [
+      "Из ржаного хлеба",
+      "Из яблок",
+      "Из мёда",
+      "Из картофеля"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is Russian kvas traditionally made from? — Rye bread (fermented with malt)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В каком городе проходили зимние Олимпийские игры 2014 года?",
+    "options": [
+      "В Казани",
+      "В Красноярске",
+      "В Сочи",
+      "В Екатеринбурге"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which city were the 2014 Winter Olympics held? — Sochi."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как называют массовую нежелательную рассылку по электронной почте?",
+    "options": [
+      "Спам",
+      "Хостинг",
+      "Роуминг",
+      "Кэш"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is mass unsolicited email called? — Spam."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Какая буква чаще всего встречается в слове «молоко»?",
+    "options": [
+      "м",
+      "о",
+      "л",
+      "к"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which letter appears most often in \"молоко\" (milk)? — \"о\", three times (м-о-л-о-к-о)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Какое из этих слов употребляется только во множественном числе?",
+    "options": [
+      "Карандаши",
+      "Сапоги",
+      "Книги",
+      "Ножницы"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words exists only in the plural? — Ножницы (scissors): there is no singular «ножница»; the others have карандаш, сапог, книга."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Какое число записано римскими цифрами как XIV?",
+    "options": [
+      "14",
+      "6",
+      "16",
+      "24"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which number is XIV in Roman numerals? — 14 (X + IV = 10 + 4)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой церковный праздник в России отмечают 7 января?",
+    "options": [
+      "Крещение",
+      "Рождество",
+      "Пасху",
+      "Троицу"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which church holiday is celebrated in Russia on January 7? — Orthodox Christmas (Julian calendar 25 December)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто создал образ помещика Обломова, который не вылезает с дивана?",
+    "options": [
+      "Иван Тургенев",
+      "Николай Лесков",
+      "Фёдор Достоевский",
+      "Иван Гончаров"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who created Oblomov, the landowner who never leaves his sofa? — Ivan Goncharov (1859)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая страна занимает самую большую площадь на африканском континенте?",
+    "options": [
+      "ДР Конго",
+      "Судан",
+      "Алжир",
+      "Ливия"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country has the largest area in Africa? — Algeria (since South Sudan split from Sudan)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Какое из этих чисел не делится на 3 без остатка?",
+    "options": [
+      "51",
+      "87",
+      "111",
+      "91"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number is not divisible by 3? — 91 (digit sum 10; 91 = 7x13); the others have digit sums 6, 15, 3."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чему равно число 2 в десятой степени?",
+    "options": [
+      "512",
+      "1000",
+      "1024",
+      "2048"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is 2 to the tenth power? — 1024 (the \"kilo\" of computing)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой режиссёр снял фильм «Броненосец „Потёмкин“»?",
+    "options": [
+      "Сергей Эйзенштейн",
+      "Андрей Тарковский",
+      "Сергей Бондарчук",
+      "Никита Михалков"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed \"Battleship Potemkin\"? — Sergei Eisenstein (1925)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Какой химический элемент обозначается символом «Pb»?",
+    "options": [
+      "Платина",
+      "Свинец",
+      "Фосфор",
+      "Олово"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which element has the symbol Pb? — Lead, from Latin plumbum (cf. \"plumber\")."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В каком году Москва впервые упомянута в летописи?",
+    "options": [
+      "988",
+      "1240",
+      "1147",
+      "1380"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which year is Moscow first mentioned in a chronicle? — 1147 (Yury Dolgoruky's meeting with Svyatoslav)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой русский учёный получил Нобелевскую премию 1904 года за работы о пищеварении?",
+    "options": [
+      "Илья Мечников",
+      "Иван Павлов",
+      "Иван Сеченов",
+      "Дмитрий Менделеев"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Russian scientist won the 1904 Nobel Prize for work on digestion? — Ivan Pavlov (Mechnikov won in 1908)."
+  }
+]

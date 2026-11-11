@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Em qual cidade fica a estátua do Cristo Redentor?",
+    "options": [
+      "São Paulo",
+      "Salvador",
+      "Rio de Janeiro",
+      "Belo Horizonte"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which city is the Christ the Redeemer statue? — Rio de Janeiro, on Corcovado."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Em qual festa brasileira se dança quadrilha e se comem pamonha e canjica?",
+    "options": [
+      "Festa junina",
+      "Carnaval",
+      "Réveillon",
+      "Páscoa"
+    ],
+    "correctIndex": 0,
+    "gloss": "At which Brazilian party do people dance quadrilha and eat pamonha and canjica? — Festa junina (June festival)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual doce de leite condensado e chocolate em pó, enrolado em granulado, não falta nas festas de aniversário?",
+    "options": [
+      "Quindim",
+      "Brigadeiro",
+      "Cocada",
+      "Pé de moleque"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which condensed-milk and cocoa sweet rolled in sprinkles is a birthday-party staple? — Brigadeiro."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual craque brasileiro ficou conhecido como o “Rei do Futebol”?",
+    "options": [
+      "Garrincha",
+      "Zico",
+      "Romário",
+      "Pelé"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Brazilian star was known as the \"King of Football\"? — Pelé."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quem criou o Sítio do Picapau Amarelo, onde vivem a Emília e o Visconde de Sabugosa?",
+    "options": [
+      "Monteiro Lobato",
+      "Jorge Amado",
+      "Ziraldo",
+      "Ariano Suassuna"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who created the Sítio do Picapau Amarelo, home of Emília and Viscount of Sabugosa? — Monteiro Lobato."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual ave, de bico enorme e colorido, vive nas florestas brasileiras?",
+    "options": [
+      "Garça",
+      "Coruja",
+      "Tucano",
+      "Beija-flor"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird with a huge colourful beak lives in Brazilian forests? — Toucan."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Desde 2006, Plutão não é mais considerado planeta. Quantos planetas tem o Sistema Solar?",
+    "options": [
+      "Sete",
+      "Oito",
+      "Nove",
+      "Dez"
+    ],
+    "correctIndex": 1,
+    "gloss": "Since 2006 Pluto is no longer a planet. How many planets does the Solar System have? — Eight; the trap is the old nine."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual civilização antiga construiu as pirâmides de Gizé?",
+    "options": [
+      "Maia",
+      "Romana",
+      "Grega",
+      "Egípcia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ancient civilisation built the pyramids of Giza? — The Egyptian one."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual país europeu tem o formato de uma bota no mapa?",
+    "options": [
+      "Espanha",
+      "Itália",
+      "Grécia",
+      "Portugal"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which European country is shaped like a boot on the map? — Italy."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual queijo derrete sobre a pizza margherita, junto com o tomate e o manjericão?",
+    "options": [
+      "Muçarela",
+      "Parmesão",
+      "Gorgonzola",
+      "Ricota"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which cheese melts on a margherita pizza with tomato and basil? — Mozzarella."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual empresa fabrica o iPhone?",
+    "options": [
+      "Samsung",
+      "Nokia",
+      "Motorola",
+      "Apple"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which company makes the iPhone? — Apple."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual personagem da Disney é um rato de orelhas redondas e símbolo do estúdio?",
+    "options": [
+      "Pato Donald",
+      "Pateta",
+      "Mickey Mouse",
+      "Pluto"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Disney character is a round-eared mouse and the studio symbol? — Mickey Mouse."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual personagem dos quadrinhos de Mauricio de Sousa é baixinha, dentuça e tem um coelhinho de pelúcia chamado Sansão?",
+    "options": [
+      "Magali",
+      "Mônica",
+      "Marina",
+      "Denise"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Mauricio de Sousa comics character is short, buck-toothed and has a plush bunny named Sansão? — Mônica."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Que bicho aparece escondido em “prato”, se tirarmos a primeira letra?",
+    "options": [
+      "Pato",
+      "Gato",
+      "Galo",
+      "Rato"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which animal is hidden in \"prato\" if you drop the first letter? — Rato (\"rato\"); \"pato\" would need dropping the second letter."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quantas moedas de 25 centavos são necessárias para pagar R$ 2?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "12"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many 25-centavo coins pay R$ 2? — 8 (four per real)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quem comandava a frota portuguesa que chegou ao Brasil em 1500?",
+    "options": [
+      "Vasco da Gama",
+      "Cristóvão Colombo",
+      "Pedro Álvares Cabral",
+      "Bartolomeu Dias"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who commanded the Portuguese fleet that reached Brazil in 1500? — Pedro Álvares Cabral."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual é a padroeira do Brasil, cuja festa se celebra em 12 de outubro?",
+    "options": [
+      "Nossa Senhora de Fátima",
+      "Nossa Senhora Aparecida",
+      "Nossa Senhora de Lourdes",
+      "Nossa Senhora de Guadalupe"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is the patron saint of Brazil, celebrated on 12 October? — Our Lady of Aparecida."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Qual destas cores não aparece na bandeira do Brasil?",
+    "options": [
+      "Verde",
+      "Amarelo",
+      "Azul",
+      "Vermelho"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which colour is not on the Brazilian flag? — Red; the flag has green, yellow, blue and white."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual fruta amazônica, batida e servida na tigela com granola, virou mania no Brasil inteiro?",
+    "options": [
+      "Açaí",
+      "Cupuaçu",
+      "Graviola",
+      "Bacuri"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Amazonian fruit, blended and served in a bowl with granola, became a craze all over Brazil? — Açaí (açaí na tigela). Cupuaçu, graviola and bacuri are other northern fruits, mostly eaten as juice or sweets."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A quantos graus Celsius a água congela ao nível do mar?",
+    "options": [
+      "10 °C",
+      "32 °C",
+      "0 °C",
+      "−10 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "At what temperature in Celsius does water freeze at sea level? — 0 °C; 32 is the Fahrenheit trap."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual banda de Liverpool gravou “Hey Jude” e “Yesterday”?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "Queen",
+      "Pink Floyd"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Liverpool band recorded \"Hey Jude\" and \"Yesterday\"? — The Beatles."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quantos jogadores de cada time ficam em quadra num jogo de basquete?",
+    "options": [
+      "Quatro",
+      "Seis",
+      "Sete",
+      "Cinco"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many players per team are on court in basketball? — Five."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Em qual jogo de visual quadradinho se constroem mundos com blocos e se enfrentam os creepers?",
+    "options": [
+      "Minecraft",
+      "Tetris",
+      "Roblox",
+      "Fortnite"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which blocky game do you build worlds from blocks and face creepers? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual é o plural de “pão”?",
+    "options": [
+      "Pãos",
+      "Pões",
+      "Pães",
+      "Pãens"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the plural of \"pão\" (bread)? — Pães."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segundo o ditado, de que o gato escaldado tem medo?",
+    "options": [
+      "Fogo",
+      "Água fria",
+      "Barulho",
+      "Ratoeira"
+    ],
+    "correctIndex": 1,
+    "gloss": "According to the saying, what is the scalded cat afraid of? — Cold water."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quantas pernas têm, ao todo, dois cachorros e uma pessoa?",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "6"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many legs in total do two dogs and one person have? — 10 (4+4+2)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Em qual país fica o Taj Mahal, mausoléu de mármore branco?",
+    "options": [
+      "Paquistão",
+      "Irã",
+      "Turquia",
+      "Índia"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country is the Taj Mahal, a white marble mausoleum? — India (Agra)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual astronauta foi o primeiro a pisar na Lua, em 1969?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which astronaut was first to step on the Moon, in 1969? — Neil Armstrong (Gagarin was first in space)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quem pintou o teto da Capela Sistina, no Vaticano?",
+    "options": [
+      "Rafael",
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Botticelli"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who painted the ceiling of the Sistine Chapel? — Michelangelo."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual pintora modernista é autora do quadro “Abaporu”, de 1928?",
+    "options": [
+      "Tarsila do Amaral",
+      "Anita Malfatti",
+      "Djanira",
+      "Beatriz Milhazes"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which modernist woman painter made \"Abaporu\", 1928? — Tarsila do Amaral."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual jogadora brasileira foi eleita seis vezes a melhor do mundo pela Fifa?",
+    "options": [
+      "Formiga",
+      "Cristiane",
+      "Sissi",
+      "Marta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Brazilian player was named FIFA best in the world six times? — Marta (2006-2010, 2018)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quem escreveu “O Pequeno Príncipe”?",
+    "options": [
+      "Victor Hugo",
+      "Júlio Verne",
+      "Antoine de Saint-Exupéry",
+      "Albert Camus"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"The Little Prince\"? — Antoine de Saint-Exupéry."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual é o maior deserto quente do planeta, no norte da África?",
+    "options": [
+      "Gobi",
+      "Saara",
+      "Atacama",
+      "Kalahari"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is the largest hot desert, in northern Africa? — The Sahara."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual vitamina o corpo produz quando a pele recebe luz do sol?",
+    "options": [
+      "C",
+      "A",
+      "K",
+      "D"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which vitamin does the body make when skin gets sunlight? — Vitamin D."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Uma camisa de R$ 80 está com 25% de desconto. Quanto custa agora?",
+    "options": [
+      "R$ 60",
+      "R$ 20",
+      "R$ 55",
+      "R$ 65"
+    ],
+    "correctIndex": 0,
+    "gloss": "A R$ 80 shirt has 25% off. What does it cost now? — R$ 60 (R$ 20 is the discount)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qual cidade se forma lendo “amor” de trás para a frente?",
+    "options": [
+      "Lima",
+      "Cairo",
+      "Roma",
+      "Paris"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city do you get by reading \"amor\" backwards? — Roma."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "O chimarrão, bebida típica do Sul do Brasil, é preparado com folhas de qual planta?",
+    "options": [
+      "Camomila",
+      "Erva-mate",
+      "Boldo",
+      "Hortelã"
+    ],
+    "correctIndex": 1,
+    "gloss": "Chimarrão, a typical southern Brazilian drink, is made from leaves of which plant? — Yerba mate."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual personagem do folclore brasileiro tem uma perna só, fuma cachimbo e usa gorro vermelho?",
+    "options": [
+      "Boitatá",
+      "Mula sem cabeça",
+      "Caipora",
+      "Saci-Pererê"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Brazilian folklore figure has one leg, smokes a pipe and wears a red cap? — Saci-Pererê."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual princesa assinou a Lei Áurea, que pôs fim à escravidão no Brasil, em 1888?",
+    "options": [
+      "Leopoldina",
+      "Isabel",
+      "Carlota Joaquina",
+      "Teresa Cristina"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which princess signed the Lei Áurea abolishing slavery in Brazil in 1888? — Isabel."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quem dirigiu “Tubarão”, “E.T.” e “Jurassic Park”?",
+    "options": [
+      "Steven Spielberg",
+      "George Lucas",
+      "Martin Scorsese",
+      "James Cameron"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed Jaws, E.T. and Jurassic Park? — Steven Spielberg."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Qual é o único número primo que também é par?",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which is the only prime number that is also even? — 2; 1 is not prime, 4 and 8 are divisible by 2."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual instrumento de fole é a alma do forró, ao lado da zabumba e do triângulo?",
+    "options": [
+      "Violino",
+      "Cavaquinho",
+      "Pandeiro",
+      "Sanfona"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bellows instrument is the soul of forró alongside zabumba and triangle? — Sanfona (accordion)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual atriz foi a primeira brasileira indicada ao Oscar de melhor atriz, por “Central do Brasil”?",
+    "options": [
+      "Sônia Braga",
+      "Fernanda Montenegro",
+      "Regina Duarte",
+      "Marieta Severo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which actress was the first Brazilian nominated for the Best Actress Oscar, for Central Station? — Fernanda Montenegro (1999)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quanto é 10 dividido por ½?",
+    "options": [
+      "20",
+      "5",
+      "2",
+      "10"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is 10 divided by one half? — 20; the trap is 5."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual órgão do corpo humano produz a insulina?",
+    "options": [
+      "Fígado",
+      "Rim",
+      "Pâncreas",
+      "Baço"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which human organ produces insulin? — The pancreas."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quem escreveu “Grande Sertão: Veredas”, romance de 1956 narrado pelo jagunço Riobaldo?",
+    "options": [
+      "Graciliano Ramos",
+      "Euclides da Cunha",
+      "José Lins do Rego",
+      "Guimarães Rosa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"Grande Sertão: Veredas\" (1956), narrated by Riobaldo? — João Guimarães Rosa."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual país africano tem o maior número de habitantes?",
+    "options": [
+      "Egito",
+      "Nigéria",
+      "Etiópia",
+      "África do Sul"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which African country has the most inhabitants? — Nigeria."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual sanitarista brasileiro liderou, no início do século XX, a campanha contra a febre amarela no Rio de Janeiro?",
+    "options": [
+      "Oswaldo Cruz",
+      "Carlos Chagas",
+      "Vital Brazil",
+      "Adolfo Lutz"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Brazilian sanitarian led the early-1900s yellow fever campaign in Rio? — Oswaldo Cruz."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qual elemento químico é o mais abundante na crosta terrestre?",
+    "options": [
+      "Silício",
+      "Alumínio",
+      "Ferro",
+      "Oxigênio"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which chemical element is most abundant in the Earth's crust? — Oxygen (about 46% by mass), not silicon."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qual físico brasileiro co-descobriu, em 1947, o méson pi, também chamado píon?",
+    "options": [
+      "Mário Schenberg",
+      "José Leite Lopes",
+      "César Lattes",
+      "Joaquim da Costa Ribeiro"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Brazilian physicist co-discovered the pi meson (pion) in 1947? — César Lattes, with Occhialini and Powell."
+  }
+]
