@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Watter woord voltooi die sin: “Ek het hom gister nie gesien …”?",
+    "options": [
+      "niks",
+      "nooit",
+      "nie",
+      "geen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word completes: \"I didn't see him yesterday ...\"? — nie: Afrikaans double negation closes the sentence with a second «nie»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Wat is die verkleinwoord van ‘boom’?",
+    "options": [
+      "Boompie",
+      "Boomtjie",
+      "Boometjie",
+      "Boomkie"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the diminutive of \"boom\" (tree)? — Boompie: after -m the Afrikaans diminutive suffix is -pie."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Watter getal is ‘vier-en-dertig’?",
+    "options": [
+      "43",
+      "304",
+      "403",
+      "34"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which number is \"four-and-thirty\"? — 34: Afrikaans says the units first; 43 is the trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "’n Suid-Afrikaanse ID-nommer begin met 850214. Op watter dag verjaar die persoon?",
+    "options": [
+      "8 Mei",
+      "14 Februarie",
+      "2 Desember",
+      "21 April"
+    ],
+    "correctIndex": 1,
+    "gloss": "A South African ID number starts 850214. When is the birthday? — 14 February: the first six digits are YYMMDD (1985-02-14)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jou afspraak is om halfdrie die middag. Hoe laat moet jy daar wees?",
+    "options": [
+      "13:30",
+      "15:30",
+      "15:00",
+      "14:30"
+    ],
+    "correctIndex": 3,
+    "gloss": "Your appointment is at \"halfdrie\" in the afternoon. What time? — 14:30: Afrikaans \"half three\" means half an hour before three (English speakers may think 15:30)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "As jy voorafbetaalde elektrisiteit koop, in watter eenheid word die hoeveelheid wat jy kry, gemeet?",
+    "options": [
+      "Kilowatt-uur",
+      "Volt",
+      "Ampère",
+      "Ohm"
+    ],
+    "correctIndex": 0,
+    "gloss": "When you buy prepaid electricity, in what unit is the amount measured? — Kilowatt-hours (the units on the meter)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter soetgebak word gevleg, in olie gebraai en dan dadelik in koue stroop gedompel?",
+    "options": [
+      "Melktert",
+      "Vetkoek",
+      "Koeksister",
+      "Soetkoekie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sweet is plaited, deep-fried and dunked straight into cold syrup? — Koeksister."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter boom word die ‘onderstebo-boom’ genoem, omdat sy kaal takke soos wortels lyk?",
+    "options": [
+      "Maroela",
+      "Doringboom",
+      "Wildevy",
+      "Kremetart"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which tree is called the \"upside-down tree\" because its bare branches look like roots? — The baobab (kremetart)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter stad se inwoners noem dit liefdevol ‘Jozi’ of ‘Egoli’?",
+    "options": [
+      "Pretoria",
+      "Johannesburg",
+      "Durban",
+      "Kaapstad"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which city do its residents fondly call \"Jozi\" or \"Egoli\"? — Johannesburg (eGoli, \"place of gold\")."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter liedjie van Master KG het in 2020 ’n wêreldwye dansuitdaging ontketen?",
+    "options": [
+      "Jerusalema",
+      "Pata Pata",
+      "Shosholoza",
+      "Mbube"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Master KG song set off a worldwide dance challenge in 2020? — Jerusalema (with Nomcebo Zikode)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Voltooi die spreekwoord: “Wie die kleine nie eer nie, is die grote nie … nie.”",
+    "options": [
+      "sat",
+      "gewoond",
+      "werd",
+      "bewus"
+    ],
+    "correctIndex": 2,
+    "gloss": "Complete the proverb \"Who does not honour the small is not ... of the great\" — werd (worth)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wat noem Suid-Afrikaners in die volksmond ’n verkeerslig?",
+    "options": [
+      "Paal",
+      "Robot",
+      "Masjien",
+      "Lantern"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do South Africans colloquially call a traffic light? — A robot."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In die volksverhale oor Jakkals, watter dier is sy vaste maat wat altyd die kortste ent trek?",
+    "options": [
+      "Haas",
+      "Leeu",
+      "Bobbejaan",
+      "Wolf"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the folk tales about Jackal, which animal is his regular companion who always loses out? — Wolf (the \"Jakkals en Wolf\" stories)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat beteken dit in krieket as die skeidsregter albei arms reguit bo sy kop lig?",
+    "options": [
+      "Vier lopies",
+      "Ses lopies",
+      "Uit",
+      "Wydbal"
+    ],
+    "correctIndex": 1,
+    "gloss": "In cricket, what does the umpire raising both arms straight above his head mean? — Six runs."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Op ’n Windows-rekenaar maak Ctrl saam met watter letter jou laaste stap ongedaan?",
+    "options": [
+      "Z",
+      "X",
+      "U",
+      "Y"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a Windows computer, Ctrl plus which letter undoes your last step? — Z (X cuts, Y redoes)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat is die naam van Harry Potter se sneeuwit uil?",
+    "options": [
+      "Errol",
+      "Skurfies",
+      "Hedwig",
+      "Krulpoot"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the name of Harry Potter's snow-white owl? — Hedwig. Errol is the Weasleys' old owl, Scabbers Ron's rat, Crookshanks Hermione's cat."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter stroomdiens se logo is ’n rooi ‘N’ teen ’n swart agtergrond?",
+    "options": [
+      "Showmax",
+      "Disney+",
+      "Prime Video",
+      "Netflix"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which streaming service's logo is a red \"N\" on black? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In watter van hierdie lande kan jy in die winter die noorderlig sien?",
+    "options": [
+      "Egipte",
+      "Noorweë",
+      "Brasilië",
+      "Australië"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which of these countries can you see the northern lights in winter? — Norway (Australia sees only the southern lights)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat is die normale liggaamstemperatuur van ’n gesonde mens, ongeveer?",
+    "options": [
+      "35 °C",
+      "39 °C",
+      "37 °C",
+      "40 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the normal body temperature of a healthy person, roughly? — 37 °C."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter app se logo is ’n wit spokie op ’n geel agtergrond?",
+    "options": [
+      "TikTok",
+      "Instagram",
+      "WhatsApp",
+      "Snapchat"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which app's logo is a white ghost on yellow? — Snapchat."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat beteken twee blou regmerkies langs ’n WhatsApp-boodskap?",
+    "options": [
+      "Dit is gelees",
+      "Dit is gestuur",
+      "Dit is uitgevee",
+      "Dit is aangestuur"
+    ],
+    "correctIndex": 0,
+    "gloss": "What do two blue ticks next to a WhatsApp message mean? — It has been read."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter kaas word in blokkies bo-op ’n tradisionele Griekse slaai gesit?",
+    "options": [
+      "Gouda",
+      "Feta",
+      "Cheddar",
+      "Brie"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which cheese is put in blocks on top of a traditional Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In watter boek word die seuntjie Mowgli deur wolwe grootgemaak?",
+    "options": [
+      "Tarzan",
+      "Peter Pan",
+      "Die Oerwoudboek",
+      "Pinokkio"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which book is the boy Mowgli raised by wolves? — The Jungle Book (Kipling); Tarzan is raised by apes."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "In watter rekenaarspeletjie val blokke van bo af en verdwyn ’n ry sodra dit vol is?",
+    "options": [
+      "Pac-Man",
+      "Minecraft",
+      "Super Mario",
+      "Tetris"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which computer game do blocks fall from above and a row vanishes once full? — Tetris."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Waarteen waarsku die UV-indeks in die weerberig?",
+    "options": [
+      "Sonbrand",
+      "Hael",
+      "Rookmis",
+      "Stuifmeel"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the UV index in the weather report warn about? — Sunburn (strength of the sun's ultraviolet rays)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat beteken ‘ASAP’ in ’n werkboodskap?",
+    "options": [
+      "Net vir jou",
+      "So gou moontlik",
+      "Wanneer dit jou pas",
+      "Antwoord asseblief"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does \"ASAP\" mean in a work message? — As soon as possible."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter Sweedse groep het met ‘Dancing Queen’ en ‘Mamma Mia’ wêreldberoemd geword?",
+    "options": [
+      "Roxette",
+      "Boney M.",
+      "ABBA",
+      "Ace of Base"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swedish group became world-famous with \"Dancing Queen\" and \"Mamma Mia\"? — ABBA."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter land se webwerwe eindig op ‘.de’?",
+    "options": [
+      "Denemarke",
+      "Nederland",
+      "Spanje",
+      "Duitsland"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country's websites end in \".de\"? — Germany (Deutschland); Denmark is .dk."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter speserye gee tradisionele biltong, saam met sout en asyn, sy kenmerkende smaak?",
+    "options": [
+      "Koljander",
+      "Komyn",
+      "Kaneel",
+      "Borrie"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice, with salt and vinegar, gives traditional biltong its typical taste? — Coriander."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rooibos groei natuurlik net in een klein streek ter wêreld. In watter berge?",
+    "options": [
+      "Drakensberge",
+      "Sederberge",
+      "Magaliesberge",
+      "Outeniekwaberge"
+    ],
+    "correctIndex": 1,
+    "gloss": "Rooibos grows wild in only one small region on earth. Which mountains? — The Cederberg."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wat noem ’n gholfspeler dit as hy ’n putjie in een hou onder syfer voltooi?",
+    "options": [
+      "Arend",
+      "Albatros",
+      "Voëltjie",
+      "Kondor"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does a golfer call finishing a hole one stroke under par? — A birdie (voëltjie); eagle is two under."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "’n Glas is tot bo vol water met ys wat daarin dryf. Wat gebeur met die watervlak as die ys smelt?",
+    "options": [
+      "Dit styg",
+      "Dit daal",
+      "Dit loop oor",
+      "Dit bly dieselfde"
+    ],
+    "correctIndex": 3,
+    "gloss": "A glass is full to the brim with water and floating ice. What happens to the level when the ice melts? — It stays the same: floating ice displaces exactly its own weight of water."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "In die volksliedjie ‘Sarie Marais’ smeek die sanger om teruggebring te word na watter streek?",
+    "options": [
+      "Die ou Transvaal",
+      "Die Vrystaat",
+      "Natal",
+      "Die Kaap"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the folk song \"Sarie Marais\" the singer begs to be taken back to which region? — The old Transvaal (\"O bring my t'rug na die ou Transvaal\")."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Die rooi duine by Sossusvlei, van die hoogstes ter wêreld, lê in watter woestyn?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Karoo",
+      "Sahara"
+    ],
+    "correctIndex": 1,
+    "gloss": "The red dunes at Sossusvlei, among the world's highest, lie in which desert? — The Namib."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vir watter maatskappy het Jan van Riebeeck in 1652 ’n verversingspos aan die Kaap gestig?",
+    "options": [
+      "Die Britse Oos-Indiese Kompanjie",
+      "Die Wes-Indiese Kompanjie",
+      "Die Verenigde Oos-Indiese Kompanjie",
+      "Die Hudsonbaai-kompanjie"
+    ],
+    "correctIndex": 2,
+    "gloss": "For which company did Jan van Riebeeck set up a refreshment station at the Cape in 1652? — The Dutch East India Company (VOC)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter aktrise het in 2004 ’n Oscar gewen vir haar rol as reeksmoordenaar in ‘Monster’?",
+    "options": [
+      "Nicole Kidman",
+      "Halle Berry",
+      "Hilary Swank",
+      "Charlize Theron"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which actress won a 2004 Oscar for playing a serial killer in \"Monster\"? — Charlize Theron, from Benoni."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wie se ekspedisie het die eerste keer om die wêreld geseil, al het hy self op pad gesterf?",
+    "options": [
+      "Ferdinand Magellaan",
+      "Christoffel Columbus",
+      "Vasco da Gama",
+      "Bartolomeu Dias"
+    ],
+    "correctIndex": 0,
+    "gloss": "Whose expedition first sailed around the world, though he died on the way? — Ferdinand Magellan (killed in the Philippines in 1521)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Volgens die legende vaar die spookskip ‘Die Vlieënde Hollander’ vir ewig rond naby watter kaap?",
+    "options": [
+      "Kaap Hoorn",
+      "Kaap die Goeie Hoop",
+      "Kaap Verde",
+      "Kaap Canaveral"
+    ],
+    "correctIndex": 1,
+    "gloss": "By legend, the ghost ship \"Flying Dutchman\" sails forever off which cape? — The Cape of Good Hope."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter kunstenaar het in die sestigerjare blikkies Campbell-sop tot popkuns verhef?",
+    "options": [
+      "Roy Lichtenstein",
+      "Keith Haring",
+      "Andy Warhol",
+      "Jackson Pollock"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which artist turned Campbell's soup cans into pop art in the 1960s? — Andy Warhol."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Net een van hierdie diere is werklik familie van die vark. Watter een?",
+    "options": [
+      "Erdvark",
+      "Ystervark",
+      "Seekoei",
+      "Vlakvark"
+    ],
+    "correctIndex": 3,
+    "gloss": "Only one of these is really related to the pig. Which? — The warthog (vlakvark); aardvark, porcupine and hippo only sound like pigs or cows in Afrikaans."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dit staan 30–30 in ’n spel tennis en die opslaner wen die volgende punt. Wat is die telling nou?",
+    "options": [
+      "40–30",
+      "45–30",
+      "Voordeel",
+      "Gelykop"
+    ],
+    "correctIndex": 0,
+    "gloss": "It's 30–30 in a tennis game and the server wins the next point. What's the score? — 40–30 (advantage only follows deuce)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter draadlose tegnologie gebruik jou bankkaart as jy betaal deur dit net teen die masjien te tik?",
+    "options": [
+      "Bluetooth",
+      "NFC",
+      "GPS",
+      "Wi-Fi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which wireless technology does your bank card use when you pay by tapping it on the machine? — NFC (near-field communication)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter Klein-Karoo-dorp se ‘veerpaleise’ is gebou toe volstruisvere ruim ’n eeu gelede soos goud was?",
+    "options": [
+      "Prins Albert",
+      "Calitzdorp",
+      "Oudtshoorn",
+      "Ladismith"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Little Karoo town's \"feather palaces\" were built when ostrich feathers were like gold over a century ago? — Oudtshoorn."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter land het, saam met die Vatikaan, ’n vierkantige vlag eerder as ’n reghoekige?",
+    "options": [
+      "Denemarke",
+      "Oostenryk",
+      "Noorweë",
+      "Switserland"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country, along with the Vatican, has a square rather than rectangular flag? — Switzerland."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "‘Stad’ word ‘stede’ in die meervoud. Watter woord kry ook ’n ander klinker in die meervoud?",
+    "options": [
+      "Skip",
+      "Kat",
+      "Bed",
+      "Hond"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Stad\" becomes \"stede\" in the plural. Which word also changes its vowel? — Skip (skepe); katte, beddens, honde keep theirs."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter kunstenaar het die beroemde landskappanele vir die Johannesburgse stasie geskilder?",
+    "options": [
+      "Irma Stern",
+      "J.H. Pierneef",
+      "Maggie Laubser",
+      "Gerard Sekoto"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which artist painted the famous landscape panels for Johannesburg station? — J.H. Pierneef (the Station Panels, 1929–32)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter fantasieskrywer is in 1892 in Bloemfontein gebore?",
+    "options": [
+      "C.S. Lewis",
+      "Lewis Carroll",
+      "J.R.R. Tolkien",
+      "Terry Pratchett"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which fantasy writer was born in Bloemfontein in 1892? — J.R.R. Tolkien."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Watter element is in 1868 in die Son se lig ontdek, jare voordat iemand dit op Aarde gevind het?",
+    "options": [
+      "Neon",
+      "Argon",
+      "Waterstof",
+      "Helium"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which element was discovered in the Sun's light in 1868, years before anyone found it on Earth? — Helium (isolated on Earth in 1895)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Eugène Marais se ‘Die siel van die mier’ gaan eintlik oor watter insekte?",
+    "options": [
+      "Termiete",
+      "Bye",
+      "Perdebye",
+      "Kewers"
+    ],
+    "correctIndex": 0,
+    "gloss": "Eugène Marais's \"The Soul of the White Ant\" is actually about which insects? — Termites."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Watter Suid-Afrikaner het in 1979 ’n Nobelprys gedeel vir die wiskunde agter die CT-skandeerder?",
+    "options": [
+      "Max Theiler",
+      "Allan Cormack",
+      "Sydney Brenner",
+      "Aaron Klug"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which South African shared a 1979 Nobel Prize for the mathematics behind the CT scanner? — Allan Cormack, with Godfrey Hounsfield; the others are South African-born laureates too."
+  }
+]

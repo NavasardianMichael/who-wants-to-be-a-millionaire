@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ຄຳວ່າ “ປາ” ຖ້າໃສ່ໄມ້ໂທ ຈະກາຍເປັນຄຳທີ່ໝາຍເຖິງໃຜ?",
+    "options": [
+      "ເອື້ອຍຂອງພໍ່ ຫຼື ແມ່",
+      "ລູກຂອງເອື້ອຍ",
+      "ພໍ່ຂອງພໍ່",
+      "ແມ່ຂອງແມ່"
+    ],
+    "correctIndex": 0,
+    "gloss": "The word \"pa\" (fish) with a mai tho tone mark means whom? — An elder sister of one's father or mother: ປ້າ (aunt). With mai ek it becomes ປ່າ (forest), which is no person."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ໃນພາສາລາວ “ຊາວເອັດ” ແມ່ນເລກໃດ?",
+    "options": [
+      "12",
+      "21",
+      "11",
+      "201"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Lao, which number is \"xao et\"? — 21: xao is twenty and et is the word for one in the units place of a compound number."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ຄຳໃດ ມີ “ໝາກ” ນຳໜ້າ ແຕ່ເປັນສິ່ງທີ່ກິນບໍ່ໄດ້?",
+    "options": [
+      "ໝາກມ່ວງ",
+      "ໝາກຂາມ",
+      "ໝາກບານ",
+      "ໝາກເຜັດ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word starts with \"mak\" (fruit) but is not something you eat? — Mak ban, a ball; mak is also the prefix for round objects. Mango, tamarind and chilli are all eaten."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ແຖບລາຍທີ່ຕໍ່ໄວ້ລຸ່ມສຸດຂອງສິ້ນລາວ ເອີ້ນວ່າຫຍັງ?",
+    "options": [
+      "ຫົວສິ້ນ",
+      "ຕົວສິ້ນ",
+      "ແພບ່ຽງ",
+      "ຕີນສິ້ນ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the patterned band sewn at the very bottom of a Lao sinh called? — Tin sinh, \"the sinh's foot\": the skirt is named like a body, head (waistband), body, foot. The pha biang is a shoulder sash."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ຄົນລາວສາດນ້ຳໃສ່ກັນ ໃນບຸນປີໃໝ່ລາວ ທີ່ກົງກັບເດືອນໃດ?",
+    "options": [
+      "ມັງກອນ",
+      "ທັນວາ",
+      "ເມສາ",
+      "ພະຈິກ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lao people splash water on each other at Lao New Year, which falls in which month? — April (Mesa), mid-April. January is the international New Year trap."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ເຄື່ອງໝາຍປະຈຳຊາດລາວ ມີຮູບພະທາດອົງໃດ ຢູ່ສ່ວນເທິງສຸດ?",
+    "options": [
+      "ພະທາດຫຼວງ",
+      "ພະທາດອິງຮັງ",
+      "ພະທາດພູສີ",
+      "ພະທາດສີໂຄດຕະບອງ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which stupa appears at the top of the Lao national emblem? — That Luang, Vientiane. The other three are well-known stupas in Savannakhet, Luang Prabang and Khammouane."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ໃນພິທີບາສີສູ່ຂວັນ ຜູ້ໃຫຍ່ຜູກແຂນອວຍພອນໃຫ້ ດ້ວຍຝ້າຍສີຫຍັງ?",
+    "options": [
+      "ສີແດງ",
+      "ສີຂາວ",
+      "ສີເຫຼືອງ",
+      "ສີດຳ"
+    ],
+    "correctIndex": 1,
+    "gloss": "At a baci (sou khuan) ceremony, elders tie blessings onto the wrist with cotton string of what colour? — White."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ລາບ ຫອມກະລຸ່ນ ຍ້ອນໃສ່ຜົງຂອງຫຍັງ ທີ່ຂົ້ວໃຫ້ເຫຼືອງ ແລ້ວຕຳໃຫ້ມຸ່ນ?",
+    "options": [
+      "ງາ",
+      "ໝາກຖົ່ວດິນ",
+      "ໝາກພິກໄທ",
+      "ເຂົ້າສານ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Laap gets its toasty aroma from the powder of what, roasted golden and pounded fine? — Uncooked rice: khao khua, toasted ground rice."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ລາວ ເປັນປະເທດດຽວໃນອາຊີຕາເວັນອອກສ່ຽງໃຕ້ ທີ່ບໍ່ມີຫຍັງ?",
+    "options": [
+      "ຊາຍຝັ່ງທະເລ",
+      "ພູເຂົາສູງ",
+      "ແມ່ນ້ຳໃຫຍ່",
+      "ປ່າດົງດິບ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Laos is the only country in Southeast Asia without what? — A sea coast: it is the region's only landlocked country."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ທົ່ງໄຫຫີນ ມໍລະດົກໂລກ ທີ່ມີໄຫຫີນໃຫຍ່ຫຼາຍພັນໜ່ວຍ ຢູ່ແຂວງໃດ?",
+    "options": [
+      "ຫົວພັນ",
+      "ຊຽງຂວາງ",
+      "ຫຼວງນ້ຳທາ",
+      "ບໍລິຄຳໄຊ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Plain of Jars, a World Heritage site with thousands of great stone jars, is in which province? — Xiang Khouang."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ຕົວລະຄອນນິທານລາວຄົນໃດ ຂຶ້ນຊື່ເລື່ອງຫົວແຫຼມ ຈົນຫຼອກໃຫ້ເຈົ້າມະຫາຊີວິດເສຍຮູ້ໄດ້ຫຼາຍເທື່ອ?",
+    "options": [
+      "ສິນໄຊ",
+      "ທ້າວຮຸ່ງ",
+      "ຊຽງໝ້ຽງ",
+      "ກ່ຳກາດຳ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Lao folk-tale character is known for his wit, outsmarting the king again and again? — Xieng Mieng, the trickster. The others are heroes of epics and tales."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເປີດໂໝດໃນຍົນ ຢູ່ໂທລະສັບແລ້ວ ຈະເຮັດຫຍັງບໍ່ໄດ້?",
+    "options": [
+      "ຖ່າຍຮູບ",
+      "ຟັງເພງທີ່ໂຫຼດໄວ້",
+      "ຕັ້ງໂມງປຸກ",
+      "ໂທ ແລະ ຮັບສາຍ"
+    ],
+    "correctIndex": 3,
+    "gloss": "With airplane mode on, what can't your phone do? — Make and receive calls: it switches off the cellular radio. Camera, downloaded music and alarms still work."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເປີດເວັບໄຊແລ້ວ ຂຶ້ນ “404” ໝາຍຄວາມວ່າແນວໃດ?",
+    "options": [
+      "ບໍ່ພົບໜ້າທີ່ຊອກຫາ",
+      "ອິນເຕີເນັດຂາດ",
+      "ລະຫັດຜ່ານຜິດ",
+      "ເວັບໄຊຖືກແຮັກ"
+    ],
+    "correctIndex": 0,
+    "gloss": "A website shows \"404\". What does it mean? — Page not found: the server is reachable but the page does not exist."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ກິລາເປຕັງ ທີ່ຄົນລາວມັກຫຼິ້ນຕອນແລງ ມີຕົ້ນກຳເນີດມາຈາກປະເທດໃດ?",
+    "options": [
+      "ອີຕາລີ",
+      "ສະເປນ",
+      "ຝຣັ່ງ",
+      "ແບນຊິກ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Pétanque, a favourite Lao evening game, comes from which country? — France (Provence, early 1900s); it came to Laos in the French era."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນກິລາບານສົ່ງ ທີມໜຶ່ງ ສຳຜັດບານໄດ້ຫຼາຍສຸດຈັກຄັ້ງ ກ່ອນຕ້ອງສົ່ງຂ້າມຕາໜ່າງ?",
+    "options": [
+      "2 ຄັ້ງ",
+      "3 ຄັ້ງ",
+      "4 ຄັ້ງ",
+      "5 ຄັ້ງ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In volleyball, how many touches may a team make at most before sending the ball over the net? — Three (a block does not count)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ງາຊ້າງ ແທ້ຈິງແລ້ວ ແມ່ນສ່ວນໃດຂອງຮ່າງກາຍຊ້າງ?",
+    "options": [
+      "ເຂົາ",
+      "ກະດູກຄາງ",
+      "ເລັບ",
+      "ແຂ້ວ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What part of the elephant's body is a tusk, really? — A tooth: tusks are elongated incisors."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຕົວເລກ SPF ຢູ່ຄີມກັນແດດ ບອກວ່າປ້ອງກັນຜິວຈາກຫຍັງໄດ້ຫຼາຍໜ້ອຍ?",
+    "options": [
+      "ລັງສີ UV",
+      "ຄວາມຮ້ອນ",
+      "ຝຸ່ນລະອອງ",
+      "ຍຸງ"
+    ],
+    "correctIndex": 0,
+    "gloss": "The SPF number on sunscreen tells how well it protects the skin from what? — UV rays (UVB, which causes sunburn)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເປັນຫຍັງ ຈຶ່ງບໍ່ຄວນເອົາຖ້ວຍໂລຫະ ເຂົ້າເຕົາໄມໂຄເວບ?",
+    "options": [
+      "ອາຫານຈະເຢັນລົງ",
+      "ອາດເກີດປະກາຍໄຟ",
+      "ຖ້ວຍຈະລະລາຍ",
+      "ອາຫານຈະມີລົດຂົມ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why shouldn't a metal bowl go into a microwave oven? — It can spark: metal reflects the microwaves and edges arc."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຕຶກແຝດເປໂຕຣນາສ ທີ່ສູງຕະຫງ່ານຄູ່ກັນ ຕັ້ງຢູ່ນະຄອນໃດ?",
+    "options": [
+      "ສິງກະໂປ",
+      "ຈາກາຕາ",
+      "ກົວລາລຳເປີ",
+      "ບາງກອກ"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Petronas Twin Towers stand in which city? — Kuala Lumpur, Malaysia."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເຂົ້າທີ່ໃຊ້ເຮັດຊູຊິຂອງຍີ່ປຸ່ນ ຖືກປຸງລົດຊາດດ້ວຍຫຍັງ?",
+    "options": [
+      "ນ້ຳປາ",
+      "ນ້ຳກະທິ",
+      "ນ້ຳມັນງາ",
+      "ນ້ຳສົ້ມ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Japanese sushi rice is seasoned with what? — Vinegar (rice vinegar, with sugar and salt)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນກາຕູນດີສນີ “ໂຟຣເຊັນ” ແອວຊາ ມີພະລັງວິເສດຫຍັງ?",
+    "options": [
+      "ສ້າງນ້ຳກ້ອນ ແລະ ຫິມະ",
+      "ບິນໄດ້",
+      "ຫາຍໂຕໄດ້",
+      "ເວົ້າກັບສັດໄດ້"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Disney's Frozen, what magic power does Elsa have? — Creating ice and snow."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນເດືອນຣອມະດອນ ຊາວມຸສລິມ ຖືສິນອົດອາຫານ ແລະ ນ້ຳ ໃນຊ່ວງເວລາໃດ?",
+    "options": [
+      "ໝົດມື້ໝົດຄືນ",
+      "ສະເພາະວັນສຸກ",
+      "ຕອນກາງເວັນ",
+      "ຕອນກາງຄືນ"
+    ],
+    "correctIndex": 2,
+    "gloss": "During Ramadan, when do Muslims fast from food and water? — In the daytime, from dawn to sunset; they eat after dark."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນເລື່ອງ ອາລີບາບາ ກັບໂຈນສີ່ສິບຄົນ ຄາຖາເປີດປາກຖ້ຳ ອ້າງເຖິງເມັດພືດໃດ?",
+    "options": [
+      "ຖົ່ວ",
+      "ງາ",
+      "ເຂົ້າ",
+      "ສາລີ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Ali Baba and the Forty Thieves, the spell that opens the cave names which seed? — Sesame: \"Open, Sesame!\""
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຢາຕ້ານເຊື້ອ ກິນແກ້ໄຂ້ຫວັດບໍ່ໄດ້ຜົນ ເພາະມັນຂ້າໄດ້ແຕ່ເຊື້ອຊະນິດໃດ?",
+    "options": [
+      "ໄວຣັສ",
+      "ແມ່ທ້ອງ",
+      "ເຫົາ",
+      "ແບັກທີເຣຍ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Antibiotics don't cure a cold because they kill only which kind of germ? — Bacteria; colds are viral."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ປະເທດໃດໃນອາຊີຕາເວັນອອກສ່ຽງໃຕ້ ເປັນນະຄອນດຽວ ທີ່ຊື່ເມືອງ ແລະ ຊື່ປະເທດຄືກັນ?",
+    "options": [
+      "ສິງກະໂປ",
+      "ບຣູໄນ",
+      "ມາເລເຊຍ",
+      "ຟີລິບປິນ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Southeast Asian country is a single city sharing its name with the state? — Singapore, a city-state. Brunei's capital is Bandar Seri Begawan."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເຄື່ອງດົນຕີໃດ ຫຼິ້ນໂດຍວາງໄວ້ເທິງບ່າ ເອົາຄາງນາບ ແລ້ວສີດ້ວຍຄັນຊັກ?",
+    "options": [
+      "ເຊລໂລ",
+      "ໄວໂອລິນ",
+      "ກີຕາ",
+      "ຊໍ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which instrument rests on the shoulder, held under the chin, and is played with a bow? — The violin. The cello and the Lao so are bowed too, but held upright."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ສັນຍາລັກລູກສອນສາມອັນ ວົນກັນເປັນຮູບສາມຫຼ່ຽມ ໝາຍເຖິງຫຍັງ?",
+    "options": [
+      "ຫ້າມຖິ້ມຂີ້ເຫຍື້ອ",
+      "ສານເຄມີອັນຕະລາຍ",
+      "ນຳກັບມາໃຊ້ໃໝ່ໄດ້",
+      "ໄຟໄໝ້ງ່າຍ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Three arrows chasing each other in a triangle mean what? — Recyclable (the recycling symbol)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ມາຣິໂອ ຕົວລະຄອນເກມຂອງນິນເທັນໂດ ມີອາຊີບຫຍັງ?",
+    "options": [
+      "ພໍ່ຄົວ",
+      "ຕຳຫຼວດ",
+      "ຊ່າງໄຟຟ້າ",
+      "ຊ່າງທໍ່ນ້ຳ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the job of Mario, Nintendo's game character? — Plumber."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ກະສັດອົງໃດ ຍ້າຍນະຄອນຫຼວງຂອງລ້ານຊ້າງ ຈາກຊຽງທອງ ມາຢູ່ວຽງຈັນ?",
+    "options": [
+      "ພະເຈົ້າໂພທິສາລະລາດ",
+      "ພະເຈົ້າໄຊເສດຖາທິລາດ",
+      "ພະເຈົ້າສຸລິຍະວົງສາ",
+      "ພະເຈົ້າວິຊຸນນະລາດ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which king moved Lan Xang's capital from Xieng Thong (Luang Prabang) to Vientiane? — Setthathirath, around 1560. Photisarath was his father."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ກາເຟລາວ ທີ່ສົ່ງອອກໄປຂາຍຕ່າງປະເທດ ປູກຫຼາຍທີ່ສຸດຢູ່ພູພຽງໃດ?",
+    "options": [
+      "ພູພຽງຊຽງຂວາງ",
+      "ພູພຽງນາກາຍ",
+      "ພູພຽງບໍລະເວນ",
+      "ພູພຽງດາກຈຶງ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lao export coffee is mostly grown on which plateau? — The Bolaven Plateau (Champasak, Salavan, Sekong)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ປາຂ່າ ທີ່ຍັງເຫຼືອບໍ່ຫຼາຍໂຕ ຢູ່ແຖວສີ່ພັນດອນ ແທ້ຈິງແລ້ວແມ່ນສັດຫຍັງ?",
+    "options": [
+      "ແຂ້",
+      "ນາກ",
+      "ເຕົ່າ",
+      "ໂລມາ"
+    ],
+    "correctIndex": 3,
+    "gloss": "The \"pa kha\", few of which remain around Si Phan Don, is really what animal? — A dolphin: the Irrawaddy dolphin, despite the \"pa\" (fish) in its name."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ຕາມນິທານຂຸນບູລົມ ຄົນລາວ ແລະ ຊົນເຜົ່າອ້າຍນ້ອງ ອອກມາຈາກໝາກຫຍັງ?",
+    "options": [
+      "ໝາກນ້ຳເຕົ້າ",
+      "ໝາກພ້າວ",
+      "ໝາກອຶ",
+      "ໝາກມີ້"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Khun Borom legend, the Lao and their sibling peoples came out of what fruit? — A gourd (mak nam tao pung)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ບັ້ງໄຟພະຍານາກ ທີ່ຄົນແຫ່ໄປເບິ່ງແຄມແມ່ນ້ຳຂອງ ມັກເຫັນໃນຄືນບຸນໃດ?",
+    "options": [
+      "ບຸນເຂົ້າພັນສາ",
+      "ບຸນອອກພັນສາ",
+      "ບຸນວິສາຂະບູຊາ",
+      "ບຸນມາຂະບູຊາ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Naga fireballs that crowds watch on the Mekong banks appear on the night of which festival? — Boun Ok Phansa, the end of Buddhist Lent."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ມື້ນີ້ແມ່ນວັນຈັນ. “ມື້ຮື” ຈະແມ່ນວັນຫຍັງ?",
+    "options": [
+      "ວັນອາທິດ",
+      "ວັນອັງຄານ",
+      "ວັນພຸດ",
+      "ວັນພະຫັດ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Today is Monday. What day is \"mue hue\"? — Wednesday: mue hue is the day after tomorrow (tomorrow is mue uen)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ສຸພາສິດ “ນ້ຳຂຶ້ນໃຫ້ຮີບຕັກ” ສອນໃຫ້ເຮົາເຮັດແນວໃດ?",
+    "options": [
+      "ລະວັງນ້ຳຖ້ວມ",
+      "ປະຢັດນ້ຳ",
+      "ຊ່ວຍເຫຼືອກັນ",
+      "ຮີບສວຍໂອກາດ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the proverb \"When the water rises, hurry to draw it\" teach? — Seize the opportunity while it lasts."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໄມ້ໄຜ່ ທີ່ສູງໄດ້ຫຼາຍແມັດ ແທ້ຈິງແລ້ວເປັນພືດໃນຕະກູນໃດ?",
+    "options": [
+      "ຕະກູນຫຍ້າ",
+      "ຕະກູນປາມ",
+      "ຕະກູນກ້ວຍ",
+      "ຕະກູນສົນ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Bamboo, many metres tall, belongs to which plant family? — The grasses (Poaceae)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ເປຍໂນມາດຕະຖານ ມີຄີສີຂາວ ແລະ ສີດຳ ລວມກັນຈັກຄີ?",
+    "options": [
+      "66 ຄີ",
+      "76 ຄີ",
+      "88 ຄີ",
+      "96 ຄີ"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many keys, white and black together, does a standard piano have? — 88 (52 white, 36 black)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ຕັດໄມ້ຍາວ 1 ແມັດ ອອກເປັນທ່ອນ ທ່ອນລະ 20 ຊັງຕີແມັດ ຕ້ອງຕັດຈັກເທື່ອ?",
+    "options": [
+      "3 ເທື່ອ",
+      "4 ເທື່ອ",
+      "5 ເທື່ອ",
+      "6 ເທື່ອ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Cutting a 1-metre stick into 20 cm pieces takes how many cuts? — 4: five pieces need one cut fewer. 5 is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ຢູ່ເທິງຍອດພູສູງ ນ້ຳຈະເດືອດຢູ່ອຸນຫະພູມເທົ່າໃດ ທຽບກັບຢູ່ລະດັບນ້ຳທະເລ?",
+    "options": [
+      "ສູງກວ່າ 100 °C",
+      "100 °C ພໍດີ",
+      "ຕ່ຳກວ່າ 100 °C",
+      "ນ້ຳບໍ່ເດືອດເລີຍ"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a high mountain top, at what temperature does water boil, compared with sea level? — Below 100 °C: air pressure is lower, so water boils sooner."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ແບັດເຕີຣີໂທລະສັບມືຖືສ່ວນໃຫຍ່ທຸກມື້ນີ້ ແມ່ນແບັດຊະນິດໃດ?",
+    "options": [
+      "ຕະກົ່ວ-ກົດ",
+      "ລິທຽມ-ໄອອອນ",
+      "ນິກເກິລ-ແຄດມຽມ",
+      "ອັລຄາລາຍ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Most mobile phone batteries today are what type? — Lithium-ion. Lead-acid is for cars, alkaline for disposable cells."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ການແລ່ນເຄິ່ງມາຣາທອນ ມີໄລຍະທາງປະມານເທົ່າໃດ?",
+    "options": [
+      "10 ກມ",
+      "15 ກມ",
+      "25 ກມ",
+      "21 ກມ"
+    ],
+    "correctIndex": 3,
+    "gloss": "About how long is a half marathon? — 21 km: half of the marathon's 42.195 km."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຄົນທີ່ມີເລືອດກຸ່ມໃດ ບໍລິຈາກເລືອດໃຫ້ຄົນໄດ້ທຸກກຸ່ມເລືອດ?",
+    "options": [
+      "ກຸ່ມ O",
+      "ກຸ່ມ A",
+      "ກຸ່ມ B",
+      "ກຸ່ມ AB"
+    ],
+    "correctIndex": 0,
+    "gloss": "People of which blood group can donate to every group? — O (O negative, strictly). AB is the universal recipient, the trap."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ວັດພູ ໃນແຂວງຈຳປາສັກ ທີ່ເປັນມໍລະດົກໂລກ ສ້າງຂຶ້ນໂດຍຊົນຊາດໃດ?",
+    "options": [
+      "ຈາມ",
+      "ມອນ",
+      "ພະມ້າ",
+      "ຂອມ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Wat Phou, the World Heritage temple in Champasak, was built by which people? — The Khmer (Khom), as a Hindu sanctuary before Angkor's height."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ເຂົ້າໜຽວ ໜຽວກວ່າເຂົ້າຈ້າວ ເພາະແປ້ງຂອງມັນເກືອບທັງໝົດແມ່ນຫຍັງ?",
+    "options": [
+      "ກລູເຕັນ",
+      "ອະໄມໂລເປັກຕິນ",
+      "ເຊລລູໂລສ",
+      "ອະໄມໂລສ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Sticky rice is stickier than ordinary rice because its starch is almost all what? — Amylopectin. Gluten is the trap: glutinous rice contains none."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ຊື່ວັນໃນພາສາລາວ ມາຈາກດວງດາວ. ວັນໃດ ມີຊື່ຂອງດາວເຄາະທີ່ໃຫຍ່ທີ່ສຸດໃນລະບົບສຸລິຍະ?",
+    "options": [
+      "ວັນເສົາ",
+      "ວັນອັງຄານ",
+      "ວັນພະຫັດ",
+      "ວັນສຸກ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lao weekday names come from the heavenly bodies. Which day bears the name of the largest planet? — Thursday, wan phahat: phahat is Jupiter. Saturday (Saturn) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຮູບປັ້ນ “ນັກຄິດ” ຊາຍນັ່ງເອົາມືຄ້ຳຄາງ ເປັນຜົນງານຂອງປະຕິມາກອນຄົນໃດ?",
+    "options": [
+      "ໂອກູສ ໂຣແດັງ",
+      "ມີເກລັນເຈໂລ",
+      "ໂດນາເຕໂລ",
+      "ແບນີນີ"
+    ],
+    "correctIndex": 0,
+    "gloss": "The statue The Thinker, a seated man resting his chin on his hand, is by which sculptor? — Auguste Rodin."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ໃນກາຕູນ “ເດີະ ໄລອອນ ຄິງ” ຊື່ “ຊິມບາ” ແປວ່າຫຍັງ ໃນພາສາສະວາຮີລີ?",
+    "options": [
+      "ກະສັດ",
+      "ລູກຊາຍ",
+      "ກ້າຫານ",
+      "ສິງໂຕ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In The Lion King, what does the name Simba mean in Swahili? — Lion."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ອັກສອນເບຣລມາດຕະຖານ ສຳລັບຄົນຕາບອດ ແຕ່ລະຕົວອັກສອນ ມີຕຳແໜ່ງຈຸດນູນໄດ້ຈັກຈຸດ?",
+    "options": [
+      "4 ຈຸດ",
+      "5 ຈຸດ",
+      "6 ຈຸດ",
+      "9 ຈຸດ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In standard Braille, how many raised-dot positions does each character cell have? — 6 (two columns of three)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ປາບຶກ ປາໜັງຍັກໃຫຍ່ຂອງແມ່ນ້ຳຂອງ ເມື່ອໃຫຍ່ເຕັມໄວ ກິນຫຍັງເປັນອາຫານຫຼັກ?",
+    "options": [
+      "ປານ້ອຍ",
+      "ສາຫຼ່າຍ ແລະ ພືດນ້ຳ",
+      "ກຸ້ງ ແລະ ຫອຍ",
+      "ແມງໄມ້"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Mekong giant catfish (pa beuk), when fully grown, mainly eats what? — Algae and water plants: the toothless adults are herbivores, despite their size."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ຄຳວ່າ “ໂຣບົດ” ເກີດຂຶ້ນຈາກບົດລະຄອນປີ 1920 ຂອງນັກຂຽນຊາວປະເທດໃດ?",
+    "options": [
+      "ໂປແລນ",
+      "ຣັດເຊຍ",
+      "ເຢຍລະມັນ",
+      "ເຊັກ"
+    ],
+    "correctIndex": 3,
+    "gloss": "The word \"robot\" comes from a 1920 play by a writer from which country? — Czech: Karel Čapek's R.U.R., from Czech robota, forced labour."
+  }
+]

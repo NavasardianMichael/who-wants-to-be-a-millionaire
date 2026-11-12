@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ereyga “buug” wadarkiisu waa “buugag”. Sidaas oo kale, “dal” wadarkiisu waa maxay?",
+    "options": [
+      "Dallo",
+      "Daluun",
+      "Dalal",
+      "Dalaal"
+    ],
+    "correctIndex": 2,
+    "gloss": "The plural of \"buug\" (book) is \"buugag\". Likewise, the plural of \"dal\" (country)? — Dalal: one-syllable masculine nouns repeat their last consonant + a (\"dalalka\" = the countries). \"Dalaal\" is a different word (broker)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Hooyo” marka la qeexo waxay noqotaa “hooyada”. Ereyga “aabbe” se maxuu noqdaa?",
+    "options": [
+      "Aabbaha",
+      "Aabbeda",
+      "Aabbeta",
+      "Aabbeka"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Mother\" with the article becomes \"hooyada\". And \"aabbe\" (father)? — Aabbaha: masculine nouns in -e take -aha; -da is feminine."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ereyga “qorraxdhac” wuxuu ka samaysan yahay “qorrax” iyo “dhac”. Waa xilligee maalinta?",
+    "options": [
+      "Subaxda hore",
+      "Duhurka",
+      "Habeen badhkii",
+      "Fiidkii"
+    ],
+    "correctIndex": 3,
+    "gloss": "The word \"qorraxdhac\" is built from \"sun\" and \"fall\". Which time of day? — Evening: it means sunset."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ereyga “toddobaad” wuxuu ka dhashay tirada “toddoba”. Hadalka caadiga ah, waa muddo intee le'eg?",
+    "options": [
+      "Toddoba saacadood",
+      "Toddoba maalmood",
+      "Toddoba bilood",
+      "Toddoba sannadood"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Toddobaad\" comes from \"toddoba\" (seven). In everyday speech, how long is it? — Seven days: \"toddobaad\" is the week."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Dayax-gacmeed” waa dayax gacan lagu sameeyay oo dhulka ku wareega. Waa maxay?",
+    "options": [
+      "Gantaal",
+      "Telescoob",
+      "Diyaarad",
+      "Satalaayt"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"Dayax-gacmeed\" is a hand-made moon circling the Earth. What is it? — A satellite: dayax = moon, gacmeed = made by hand. The rocket only carries it up."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rootiga khafiifka ah ee quraacda, ee dhinac keliya la dubo oo dushiisa godad yaryar leeyahay, waa kee?",
+    "options": [
+      "Sabaayad",
+      "Canjeero",
+      "Muufo",
+      "Kimis"
+    ],
+    "correctIndex": 1,
+    "gloss": "The thin breakfast bread cooked on one side only, with small holes on top? — Canjeero (laxoox). Sabaayad and kimis are flat breads without holes; muufo is thick and baked."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Guriga reer-guuraaga ee la furfuro, geel lagu raro, meel kalena lagu dhiso, waa kee?",
+    "options": [
+      "Aqal Soomaali",
+      "Mundul",
+      "Cariish",
+      "Daar"
+    ],
+    "correctIndex": 0,
+    "gloss": "The nomad home that is taken apart, loaded on camels and rebuilt elsewhere? — The aqal. A mundul is a fixed round hut, a cariish a rectangular hut, a daar a stone house."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dekedaha Berbera iyo Boosaaso waxay ku yaalliin xeebta badda la yidhaahdo?",
+    "options": [
+      "Badda Cas",
+      "Badweynta Hindiya",
+      "Gacanka Cadmeed",
+      "Gacanka Faaris"
+    ],
+    "correctIndex": 2,
+    "gloss": "Berbera and Bosaso ports lie on which sea? — The Gulf of Aden."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sida maahmaahdu tidhaahdo, ninkii aan dhul marin maxaa ka maqan?",
+    "options": [
+      "Dhego",
+      "Xoolo",
+      "Dhaayo",
+      "Xaas"
+    ],
+    "correctIndex": 2,
+    "gloss": "As the proverb says, what does a man who has not travelled lack? — Eyes: «Nin aan dhul marin dhaayo ma leh» (travel opens your eyes)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Orodyahanka reer Ingiriis ee asalkiisu Soomaaliga yahay, ee Olombikada 2012 iyo 2016 qaaday afar bilood dahab ah?",
+    "options": [
+      "Mo Farah",
+      "Kenenisa Bekele",
+      "Haile Gebrselassie",
+      "Eliud Kipchoge"
+    ],
+    "correctIndex": 0,
+    "gloss": "The British runner of Somali origin who won four Olympic golds in 2012 and 2016? — Mo Farah (5,000 m and 10,000 m at both Games)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Macmacaanka dhegdhegga ah ee aroosyada iyo ciidaha lagu martiyo, ee sonkor iyo subag laga sameeyo?",
+    "options": [
+      "Doolsho",
+      "Buskud",
+      "Sambuus",
+      "Xalwo"
+    ],
+    "correctIndex": 3,
+    "gloss": "The sticky sweet served at weddings and Eid, made from sugar and ghee? — Xalwo (halwa)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Geela, dhaddigga waxaa la yidhaahdaa “hal”. Labka rarka iyo aqalka qaada se?",
+    "options": [
+      "Qaalin",
+      "Awr",
+      "Nirig",
+      "Baarqab"
+    ],
+    "correctIndex": 1,
+    "gloss": "A female camel is \"hal\". And the male that carries the loads and the hut? — Awr, the pack camel. Qaalin is a young female, nirig a calf, baarqab the breeding bull."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "mythology",
+    "scope": "global",
+    "text": "Sheekooyinka Giriigga, yaa ku duulay baalal shamac lagu dhejiyay, qorraxda u dhowaaday, kadibna dhacay?",
+    "options": [
+      "Perseus",
+      "Hermes",
+      "Achilles",
+      "Icarus"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Greek myth, who flew on wings stuck with wax, came too close to the sun and fell? — Icarus."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Afarta xilli — Jiilaal, Gu', Xagaa iyo Dayr — midkee ayaa ah xilliga roobka ugu badan?",
+    "options": [
+      "Jiilaal",
+      "Gu'",
+      "Xagaa",
+      "Dayr"
+    ],
+    "correctIndex": 1,
+    "gloss": "Of the four Somali seasons, which brings the most rain? — Gu' (April–June), the main rainy season; Dayr is the shorter one, Jiilaal the harsh dry season."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ciwaanka bogga internetka marka uu ku bilowdo “https” oo qufulka yar muuqdo, maxaa la ogaanayaa?",
+    "options": [
+      "Xogtu way qarsoon tahay",
+      "Boggu waa bilaash",
+      "Boggu waa dawladeed",
+      "Internetku waa degdeg"
+    ],
+    "correctIndex": 0,
+    "gloss": "When a web address starts with \"https\" and the small padlock shows, what do you know? — The connection is encrypted."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kombiyuutarka Windows-ka, “Ctrl + Z” maxay qabataa?",
+    "options": [
+      "Way kaydisaa",
+      "Way daabacdaa",
+      "Waxay celisaa ficilkii u dambeeyay",
+      "Way xidhdhaa barnaamijka"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a Windows computer, what does Ctrl+Z do? — Undo the last action."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kubadda cagta, “VAR” maxaa loo adeegsadaa?",
+    "options": [
+      "Xawaaraha kubadda ayaa la cabbiraa",
+      "Waqti dheeraad ah ayaa lagu daraa",
+      "Garsooruhu muuqaal dib ayuu u eegaa",
+      "Dhibcaha horyaalka ayaa la xisaabiyaa"
+    ],
+    "correctIndex": 2,
+    "gloss": "In football, what is VAR used for? — Video review of incidents for the referee."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kareemka qorraxda ee “SPF” ku qoran yahay, maqaarka wuxuu ka ilaaliyaa?",
+    "options": [
+      "Shucaaca UV",
+      "Kaneecada",
+      "Boodhka",
+      "Dhididka"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sun cream marked \"SPF\" protects the skin from? — Ultraviolet rays."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Baakadaha qaar waxaa ku sawiran saddex fallaadhood oo wareeg samaynaya. Maxay ka dhigan tahay?",
+    "options": [
+      "Waa la cuni karaa",
+      "Way jabi kartaa",
+      "Ha qaboojin",
+      "Dib ayaa loo warshadayn karaa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Some packaging shows three arrows in a loop. What does it mean? — It can be recycled."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ciyaarta Ludo, xabbadda si gurigeeda looga soo saaro, laadhuugu inta badan muxuu keenaa?",
+    "options": [
+      "Hal",
+      "Lix",
+      "Saddex",
+      "Shan"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Ludo, what must the die usually show to bring a piece out of its home? — Six."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cuntada qaboojiyaha la geliyo maxay u waartaa muddo dheer?",
+    "options": [
+      "Qabowgu biyaha wuu kordhiyaa",
+      "Iftiin la'aanta gudaha",
+      "Hawada qaboojiyaha oo milix leh",
+      "Qabowgu jeermiska wuu gaabiyaa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why does food last longer in the fridge? — Cold slows the growth of germs."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "App-ka “Shazam” maxaa inta badan loo isticmaalaa?",
+    "options": [
+      "Duubidda muusigga",
+      "Garashada heesta socota",
+      "Dhageysiga raadiyaha FM",
+      "Samaynta fiidiyowyada"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Shazam app mostly used for? — Identifying the song that is playing."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "general",
+    "scope": "global",
+    "text": "Bogagga internetka, qaybta lagu magacaabo “FAQ” maxaa ku jira?",
+    "options": [
+      "Su'aalaha inta badan la is weydiiyo",
+      "Foomka lacag bixinta",
+      "Xogta shirkadda maaliyadda",
+      "Fariimaha degdegga ah"
+    ],
+    "correctIndex": 0,
+    "gloss": "On websites, what is in the section called 'FAQ'? — Frequently asked questions, with their answers."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Daawooyinka antibiyootigu waxay daaweeyaan cudurrada ay keenaan?",
+    "options": [
+      "Fayrasyada",
+      "Xasaasiyadda",
+      "Bakteeriyada",
+      "Fitamiin yarida"
+    ],
+    "correctIndex": 2,
+    "gloss": "Antibiotics treat illnesses caused by? — Bacteria; they do nothing against viruses such as the common cold."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaxwaha “decaf” ah, maxaa inta badan laga saaray?",
+    "options": [
+      "Sonkorta",
+      "Caanaha",
+      "Kafeynta",
+      "Dufanka"
+    ],
+    "correctIndex": 2,
+    "gloss": "What has been taken out of \"decaf\" coffee? — Caffeine."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "local",
+    "text": "Fooxa (beeyada) ee laga dhoofiyo buuraha Sanaag iyo Bari, waa qaybtee geedka?",
+    "options": [
+      "Xabagta jirridda",
+      "Ubaxa",
+      "Midhaha",
+      "Xididdada"
+    ],
+    "correctIndex": 0,
+    "gloss": "Frankincense (foox/beeyo) exported from the Sanaag and Bari mountains is which part of the tree? — The resin that seeps from cuts in the trunk of the Boswellia tree."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Dukaan albaabkiisa waxaa ku qoran “24/7”. Goormuu xidhan yahay?",
+    "options": [
+      "Habeenkii",
+      "Jimcaha",
+      "Ciidaha",
+      "Weligiis ma xidhna"
+    ],
+    "correctIndex": 3,
+    "gloss": "A shop door says \"24/7\". When is it closed? — Never: 24 hours a day, 7 days a week."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "technology",
+    "scope": "global",
+    "text": "Marka taleefanka la geliyo “Airplane mode”, maxaa la damiyaa?",
+    "options": [
+      "Iftiinka shaashadda",
+      "Isku xidhka shabakadaha",
+      "Codka taleefanka",
+      "Kaamirada"
+    ],
+    "correctIndex": 1,
+    "gloss": "Turning on 'Airplane mode' switches off what? — The phone's network connections: mobile signal, and by default Wi-Fi and Bluetooth."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qalabka muusigga ee “kaban”, oo fanka Soomaalida qarnigii 20aad hormuud u ahaa, waa nooc ka mid ah?",
+    "options": [
+      "Durbaan",
+      "Biibiile",
+      "Fiyoole",
+      "Cuud"
+    ],
+    "correctIndex": 3,
+    "gloss": "The \"kaban\", lead instrument of 20th-century Somali music, is a kind of? — Oud (a lute)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Abwaanka Maxamed Ibraahim Warsame waxaa loogu yeedhaa naanaysta?",
+    "options": [
+      "Gaarriye",
+      "Hadraawi",
+      "Timacadde",
+      "Qarshe"
+    ],
+    "correctIndex": 1,
+    "gloss": "Poet Maxamed Ibraahim Warsame is known by which nickname? — Hadraawi. Gaarriye was Maxamed Xaashi Dhamac, Timacadde was Cabdullaahi Suldaan."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Filimka “The Lion King”, oraahda “Hakuna Matata” waa luqaddee?",
+    "options": [
+      "Sawaaxili",
+      "Zuulu",
+      "Amxaari",
+      "Yoruuba"
+    ],
+    "correctIndex": 0,
+    "gloss": "In \"The Lion King\", \"Hakuna Matata\" is in which language? — Swahili (\"no worries\")."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Suushiga Jabbaan waxaa inta badan lagu sameeyaa bariis iyo maxay?",
+    "options": [
+      "Hilib lo'",
+      "Digaag la dubay",
+      "Kalluun ceeriin ah",
+      "Farmaajo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Japanese sushi is mostly made of rice and what? — Raw fish."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kanaalka Suweys wuxuu Badda Cas ku xidhaa badda kale?",
+    "options": [
+      "Badda Madow",
+      "Badda Carab",
+      "Badda Dhexe",
+      "Badda Kaspiyan"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Suez Canal links the Red Sea to which other sea? — The Mediterranean."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koob biyo baraf leh dibaddiisa dhibco biyo ah ayaa ka soo baxa. Xaggee ka yimaadeen?",
+    "options": [
+      "Uumiga hawada",
+      "Koobka oo dhiidhiya",
+      "Barafka oo dalooliya",
+      "Gacanta qofka"
+    ],
+    "correctIndex": 0,
+    "gloss": "Drops of water form on the outside of a glass of ice water. Where do they come from? — Water vapour in the air, condensing on the cold surface; the glass does not leak."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Masku carrabkiisa laba-fargoodka ah wuu soo saaraa oo celiyaa. Maxay u tahay?",
+    "options": [
+      "Si uu u qaboobo",
+      "Si uu biyo u cabbo",
+      "Si uu u maqlo",
+      "Si uu u uriyo"
+    ],
+    "correctIndex": 3,
+    "gloss": "A snake flicks its forked tongue in and out. Why? — To smell: it picks up scent particles and carries them to an organ in its mouth."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jilaaga Ingiriiska ah ee Mr. Bean ku jila, isagoo hadal yar ku qosliya, waa kuma?",
+    "options": [
+      "Charlie Chaplin",
+      "Rowan Atkinson",
+      "Jim Carrey",
+      "Eddie Murphy"
+    ],
+    "correctIndex": 1,
+    "gloss": "The English actor who plays Mr. Bean, getting laughs with few words? — Rowan Atkinson. Chaplin is the silent-film trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ereyga “inan” wuxuu noqon karaa lab ama dhaddig. “Inanta” kee ayay tilmaamaysaa?",
+    "options": [
+      "Wiil",
+      "Wiilal",
+      "Odey",
+      "Gabadh"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"Inan\" can be male or female. Who does \"inanta\" mean? — A girl: the article -ta is feminine; a boy is \"inanka\"."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Magaalada qadiimiga ah ee xeebta ku taal, uguna dhow xadka Jabuuti, waa?",
+    "options": [
+      "Berbera",
+      "Saylac",
+      "Boosaaso",
+      "Laasqoray"
+    ],
+    "correctIndex": 1,
+    "gloss": "The ancient coastal town closest to the Djibouti border? — Zeila (Saylac)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tartanka orodka ee 4 × 100 mitir, ciyaartoyda kooxdu maxay isu dhiibaan?",
+    "options": [
+      "Ul",
+      "Kubad",
+      "Calan",
+      "Shumac"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the 4×100 m relay, what do teammates hand to each other? — A baton. The torch is the Olympic-flame trap."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lambarka IMEI ee *#06# lagu arko, maxuu aqoonsadaa?",
+    "options": [
+      "Kaarka SIM-ka",
+      "Akoonka bangiga",
+      "Taleefanka laftiisa",
+      "Shabakadda"
+    ],
+    "correctIndex": 2,
+    "gloss": "The IMEI number shown by *#06# identifies what? — The phone handset itself, not the SIM card."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“Waddada Xariirta” magaceeda waxaa laga bixiyay alaab laga keeni jiray dalkee?",
+    "options": [
+      "Hindiya",
+      "Faaris",
+      "Shiinaha",
+      "Masar"
+    ],
+    "correctIndex": 2,
+    "gloss": "The \"Silk Road\" is named after goods brought from which country? — China, where silk was made."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Magaalada qadiimiga ah ee Petra, ee Urdun, dhismayaasheeda caanka ah sidee loo sameeyay?",
+    "options": [
+      "Waxaa laga qoray buuraha dhagaxa",
+      "Leben la dubay",
+      "Marmar laga keenay Talyaaniga",
+      "Alwaax iyo dhoobo"
+    ],
+    "correctIndex": 0,
+    "gloss": "How were the famous buildings of ancient Petra in Jordan made? — Carved into the rock of the cliffs."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Qiimaha shay 50% ayaa laga dhimay, kadibna qiimaha cusub mar kale 50%. Guud ahaan intee laga dhimay?",
+    "options": [
+      "100%",
+      "75%",
+      "50%",
+      "25%"
+    ],
+    "correctIndex": 1,
+    "gloss": "A price is cut by 50%, then the new price by 50% again. What is the total cut? — 75%: half of a half is a quarter, so a quarter of the price is left. 100% is the autopilot answer."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sheeko-faneedka caanka ah ee “Things Fall Apart” waxaa qoray?",
+    "options": [
+      "Wole Soyinka",
+      "Chinua Achebe",
+      "Nuuradiin Faarax",
+      "Ngũgĩ wa Thiong'o"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novel \"Things Fall Apart\"? — Chinua Achebe (Nigeria, 1958). Soyinka is the other Nigerian giant; Nuruddin Farah the Somali trap."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Libaax-badeedka qalfoofkiisu maaha laf sida kalluunka badankiisa. Wuxuu ka samaysan yahay?",
+    "options": [
+      "Qolof",
+      "Ilko",
+      "Geeso",
+      "Carjaw"
+    ],
+    "correctIndex": 3,
+    "gloss": "A shark's skeleton is not bone like most fish. What is it made of? — Cartilage."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Afarta tartan ee waaweyn ee tennis-ka, kee ayaa lagu ciyaaraa garoon dhoobo casaan ah?",
+    "options": [
+      "Wimbledon",
+      "Roland-Garros",
+      "US Open",
+      "Australian Open"
+    ],
+    "correctIndex": 1,
+    "gloss": "Of tennis's four Grand Slams, which is played on red clay? — Roland-Garros (French Open). Wimbledon is grass, the other two hard courts."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalalka dhul-weynaha Afrika, kee ayaa leh xeebta ugu dheer?",
+    "options": [
+      "Soomaaliya",
+      "Koonfur Afrika",
+      "Masar",
+      "Liibiya"
+    ],
+    "correctIndex": 0,
+    "gloss": "Of the countries of mainland Africa, which has the longest coastline? — Somalia, about 3,300 km. \"Mainland\" excludes Madagascar."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shaaha cagaaran iyo shaaha madow, maxaa ugu weyn ee kala duwa?",
+    "options": [
+      "Geedo kala duwan ayay ka yimaadaan",
+      "Dalka laga beero",
+      "Habka caleenta loo farsameeyo",
+      "Xilliga caleenta la jaro"
+    ],
+    "correctIndex": 2,
+    "gloss": "What mainly separates green tea from black tea? — Processing: both come from the same plant, Camellia sinensis; black tea leaves are left to oxidise, green tea leaves are heated to stop it."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Shimbiris, barta ugu sarraysa Soomaaliya, waxay ku taal silsiladda buuraha?",
+    "options": [
+      "Golis",
+      "Karkaar",
+      "Calmadow",
+      "Ogo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Shimbiris, Somalia's highest point, lies in which mountain range? — Cal Madow, in Sanaag (about 2,416 m)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sahamiyihii Ingiriiska ahaa ee 1855-kii galay Harar, kadibna qoray “First Footsteps in East Africa”?",
+    "options": [
+      "Richard Burton",
+      "John Hanning Speke",
+      "David Livingstone",
+      "Henry Morton Stanley"
+    ],
+    "correctIndex": 0,
+    "gloss": "The British explorer who entered Harar in 1855 and then wrote \"First Footsteps in East Africa\"? — Richard Burton, travelling from Zeila through Somali country. Speke was on the same expedition but did not go to Harar."
+  }
+]
