@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ថ្ងៃនេះជាថ្ងៃច័ន្ទ។ តើ «ខានស្អែក» ជាថ្ងៃអ្វី?",
+    "options": [
+      "ថ្ងៃអង្គារ",
+      "ថ្ងៃពុធ",
+      "ថ្ងៃព្រហស្បតិ៍",
+      "ថ្ងៃសុក្រ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Today is Monday. What day is «ខានស្អែក»? — Wednesday: ស្អែក is tomorrow, ខានស្អែក the day after tomorrow. Tuesday is the autopilot 'tomorrow'."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "បើគេនិយាយថា «ប្រាំម៉ឺនរៀល» តើសរសេរជាលេខយ៉ាងដូចម្ដេច?",
+    "options": [
+      "៥០០ រៀល",
+      "៥.០០០ រៀល",
+      "៥០.០០០ រៀល",
+      "៥០០.០០០ រៀល"
+    ],
+    "correctIndex": 2,
+    "gloss": "How is 'five ម៉ឺន riel' written in figures? — 50,000 riel: ម៉ឺន is ten thousand (ពាន់ = 1,000, សែន = 100,000)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ពាក្យ «សំណួរ» បង្កើតចេញពីកិរិយាសព្ទណា?",
+    "options": [
+      "សូត្រ",
+      "ស្វែង",
+      "សន្សំ",
+      "សួរ"
+    ],
+    "correctIndex": 3,
+    "gloss": "From which verb is «សំណួរ» (a question) built? — សួរ (to ask), with the infix ំណ, as ដើរ → ដំណើរ and ឆ្លើយ → ចម្លើយ."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្រឡាន គឺបាយដំណើបលាយខ្ទិះដូង និងសណ្ដែក ដុតក្នុងអ្វី?",
+    "options": [
+      "បំពង់ឫស្សី",
+      "ស្លឹកចេក",
+      "ឆ្នាំងដី",
+      "សំបកដូង"
+    ],
+    "correctIndex": 0,
+    "gloss": "Krolan is sticky rice with coconut milk and beans, roasted in what? — Bamboo tubes, peeled before eating."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "នៅបុណ្យអុំទូក ពេលសំពះព្រះខែ គេបរិភោគអ្វីជាប្រពៃណី?",
+    "options": [
+      "នំអន្សម",
+      "នំគម",
+      "អំបុក",
+      "បាយដំណើប"
+    ],
+    "correctIndex": 2,
+    "gloss": "At the Water Festival, during the moon salute, what is traditionally eaten? — Ambok (pounded flattened young rice): the ceremony is called អកអំបុក. Num ansom and num kom belong to other festivals."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងបុណ្យភ្ជុំបិណ្ឌ គេបោះបាយបិណ្ឌឧទ្ទិសដល់អ្នកណា?",
+    "options": [
+      "ទេវតាឆ្នាំថ្មី",
+      "ព្រះមហាក្សត្រ",
+      "ស្ដេចនាគ",
+      "ដូនតាដែលបានស្លាប់"
+    ],
+    "correctIndex": 3,
+    "gloss": "At Pchum Ben, for whom are the rice balls thrown? — Deceased ancestors and relatives, whose spirits are believed to wander during the fortnight."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ម្រេចខ្មែរដែលមានស្លាកសម្គាល់ភូមិសាស្ត្រ ល្បីដល់ភោជនីយដ្ឋានបរទេស មកពីខេត្តណា?",
+    "options": [
+      "កំពត",
+      "កំពង់ចាម",
+      "ស្វាយរៀង",
+      "ព្រះវិហារ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Cambodia's pepper with a geographical indication, famous in foreign restaurants, comes from which province? — Kampot (Kampot pepper, GI since 2010; EU PGI 2016)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងរឿងនិទានខ្មែរ សត្វណាដែលឆ្លាតជាងគេ ហើយធ្វើជាចៅក្រមកាត់ក្ដី?",
+    "options": [
+      "ស្វា",
+      "ទន្សាយ",
+      "ក្ងោក",
+      "ក្រពើ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Khmer folk tales, which cleverest animal acts as the judge? — The rabbit: the tales of សុភាទន្សាយ, Judge Rabbit."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "តារាចម្រៀងជំនាន់ទសវត្សរ៍ ៦០ ណា ដែលគេហៅថា «ស្ដេចចម្រៀងខ្មែរ»?",
+    "options": [
+      "ណយ វ៉ាន់ណេត",
+      "ព្រាប សុវត្ថិ",
+      "ស៊ិន ស៊ីសាមុត",
+      "អ៊ឹម សុងសឺម"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which 1960s singer is called the 'King of Khmer song'? — Sinn Sisamouth. The others are later male stars (from the 1980s–90s on)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "តាមរឿងព្រេង យាយពេញរើសបានអ្វីក្នុងដើមគគីរដែលអណ្ដែតមកតាមទន្លេ?",
+    "options": [
+      "កូនក្មេងម្នាក់",
+      "ព្រះខ័នរាជ",
+      "ព្រះពុទ្ធរូប",
+      "ហិបមាស"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the legend, what did Grandma Penh find inside a koki tree floating down the river? — Buddha statues; she had a hill raised to house them (Wat Phnom), which gave Phnom Penh its name."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងរឿងរាមកេរ្តិ៍ ហនុមានជាសត្វអ្វី?",
+    "options": [
+      "ស្វា",
+      "ខ្លា",
+      "ក្រុឌ",
+      "សេះ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Reamker, what animal is Hanuman? — A monkey, the white monkey general who serves Preah Ream."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ធនាគារផ្ញើលេខកូដ OTP មកទូរស័ព្ទអ្នក។ តើគួរប្រាប់លេខនោះទៅអ្នកណា?",
+    "options": [
+      "បុគ្គលិកធនាគារដែលតេមក",
+      "ប៉ូលិស",
+      "មិត្តជិតស្និទ្ធ",
+      "គ្មាននរណាម្នាក់ឡើយ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Your bank texts you an OTP code. Whom should you tell it to? — Nobody: a one-time code is only for you to type in; callers 'from the bank' asking for it are scammers."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ឯកសារដែលមានកន្ទុយណា ជាឯកសាររូបភាព?",
+    "options": [
+      ".mp3",
+      ".jpg",
+      ".docx",
+      ".exe"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which file extension is a picture? — .jpg (JPEG image). .mp3 is audio, .docx a Word document, .exe a program."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "កម្មវិធីផ្ញើសារណា មាននិមិត្តសញ្ញាជាយន្តហោះក្រដាសពណ៌ស លើផ្ទៃពណ៌ខៀវ?",
+    "options": [
+      "Telegram",
+      "Messenger",
+      "WhatsApp",
+      "Signal"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which messaging app has a white paper plane on blue as its logo? — Telegram."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "sports",
+    "scope": "global",
+    "text": "ក្នុងកីឡាវាយកូនបាល់ (តិន្នីស) ពិន្ទុ «deuce» មានន័យថាអ្វី?",
+    "options": [
+      "០ ស្មើ ០",
+      "៤០ ស្មើ ៤០",
+      "១៥ ទល់ ០",
+      "ឈ្នះមួយឈុត"
+    ],
+    "correctIndex": 1,
+    "gloss": "In tennis, what does 'deuce' mean? — 40–40: a player must then win two points in a row to take the game."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "គុយទាវ «ហ្វឺ» ស៊ីជាមួយស្លឹកជីរ និងសាច់គោ ជាម្ហូបល្បីរបស់ប្រទេសណា?",
+    "options": [
+      "ថៃ",
+      "ឡាវ",
+      "ចិន",
+      "វៀតណាម"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pho, noodle soup eaten with herbs and beef, is the famous dish of which country? — Vietnam."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "តើអ្វីដែលធ្វើឲ្យម្សៅនំប៉័ងប៉ោងឡើងមុនពេលដុត?",
+    "options": [
+      "ដំបែ",
+      "អំបិល",
+      "ស្ករ",
+      "ប្រេង"
+    ],
+    "correctIndex": 0,
+    "gloss": "What makes bread dough rise before baking? — Yeast, whose fermentation releases gas."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ក្នុងរឿងគំនូរជីវចល Frozen ព្រះនាងអែលសាមានអំណាចបង្កើតអ្វី?",
+    "options": [
+      "ភ្លើង",
+      "ខ្យល់ព្យុះ",
+      "ទឹកកក",
+      "ផ្លេកបន្ទោរ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the animated film Frozen, what can Queen Elsa create? — Ice and snow."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "តួកំប្លែង Mr. Bean ដែលកម្រនិយាយស្ដី មកពីប្រទេសណា?",
+    "options": [
+      "អាមេរិក",
+      "កាណាដា",
+      "អូស្ត្រាលី",
+      "អង់គ្លេស"
+    ],
+    "correctIndex": 3,
+    "gloss": "The almost wordless comic character Mr. Bean comes from which country? — England (a British series, played by Rowan Atkinson)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "លើផ្ទាំងឡាន ព្រួញតូចក្បែររូបស្នប់សាំង ប្រាប់អ្នកពីអ្វី?",
+    "options": [
+      "សាំងជិតអស់",
+      "គម្របធុងសាំងនៅខាងណា",
+      "ប្រភេទសាំងត្រូវចាក់",
+      "ចម្ងាយដែលនៅសល់"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a car's dashboard, what does the small arrow beside the fuel-pump icon tell you? — Which side of the car the fuel cap is on. The low-fuel warning is a separate light."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "រូបិយប័ណ្ណ «គីប» ប្រើនៅប្រទេសណា?",
+    "options": [
+      "ថៃ",
+      "វៀតណាម",
+      "មីយ៉ាន់ម៉ា",
+      "ឡាវ"
+    ],
+    "correctIndex": 3,
+    "gloss": "The kip is the currency of which country? — Laos. Myanmar's kyat sounds similar (the trap); Thailand has the baht, Vietnam the dong."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ផ្លែឈើណាដែលគេហៅថា «ស្ដេចនៃផ្លែឈើ» ចំណែកមង្ឃុតជា «មហាក្សត្រី»?",
+    "options": [
+      "ធូរេន",
+      "ខ្នុរ",
+      "សាវម៉ាវ",
+      "ស្វាយ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which fruit is called the 'king of fruits', while the mangosteen is the 'queen'? — The durian."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "science",
+    "scope": "global",
+    "text": "លេខ «mAh» លើថ្មទូរស័ព្ទ ប្រាប់អំពីអ្វី?",
+    "options": [
+      "ទំហំអេក្រង់",
+      "ល្បឿនសាក",
+      "ចំណុះថ្ម",
+      "ទម្ងន់ទូរស័ព្ទ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the 'mAh' figure on a phone battery tell you? — Its capacity (milliampere-hours): how much charge it holds."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "កញ្ចប់តូចៗ «silica gel» ក្នុងប្រអប់ស្បែកជើងថ្មី ដាក់ដើម្បីអ្វី?",
+    "options": [
+      "កម្ចាត់សត្វល្អិត",
+      "ស្រូបសំណើម",
+      "ធ្វើឲ្យមានក្លិនក្រអូប",
+      "ការពារកម្ដៅ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are the little silica gel sachets in a new shoebox for? — To absorb moisture (a desiccant), preventing mould."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ដៃរលាកទឹកពុះ។ តើគួរធ្វើអ្វីមុនគេ?",
+    "options": [
+      "លាបថ្នាំដុសធ្មេញ",
+      "ដាក់ទឹកកកផ្ទាល់",
+      "លាបប្រេងឆា",
+      "លាងទឹកត្រជាក់ហូរ"
+    ],
+    "correctIndex": 3,
+    "gloss": "You scald your hand with boiling water. What should you do first? — Cool it under cold running water. Toothpaste and oil are myths that trap heat; ice directly can damage the skin."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ក្រុមចម្រៀងកូរ៉េណា ច្រៀងបទ «Dynamite» ល្បីពេញពិភពលោកនៅឆ្នាំ ២០២០?",
+    "options": [
+      "BTS",
+      "BLACKPINK",
+      "EXO",
+      "BIGBANG"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Korean group had a worldwide hit with 'Dynamite' in 2020? — BTS (their first Billboard Hot 100 number one)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ទូរស័ព្ទម៉ាក Samsung ជារបស់ក្រុមហ៊ុនមកពីប្រទេសណា?",
+    "options": [
+      "កូរ៉េខាងត្បូង",
+      "ជប៉ុន",
+      "ចិន",
+      "តៃវ៉ាន់"
+    ],
+    "correctIndex": 0,
+    "gloss": "Samsung phones are made by a company from which country? — South Korea."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ហាងប្រកាស៖ «អាវទីពីរ បញ្ចុះតម្លៃ ៥០%»។ អាវមួយថ្លៃ ១០ ដុល្លារ។ ទិញពីរ ត្រូវបង់ប៉ុន្មាន?",
+    "options": [
+      "១០ ដុល្លារ",
+      "១២ ដុល្លារ",
+      "១៥ ដុល្លារ",
+      "២០ ដុល្លារ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Shop sign: 'second shirt 50% off'. A shirt costs $10. What do two cost? — $15: $10 + $5. $10 is the 'buy one get one' misreading."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "នៅហាងមាស មាសមួយដំឡឹង ស្មើនឹងប៉ុន្មានជី?",
+    "options": [
+      "៥ ជី",
+      "១០ ជី",
+      "១២ ជី",
+      "១៦ ជី"
+    ],
+    "correctIndex": 1,
+    "gloss": "At a gold shop, one damlung of gold equals how many chi? — 10 (1 chi ≈ 3.75 g, 1 damlung ≈ 37.5 g)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«ទូរស័ព្ទ» = ទូរ (ឆ្ងាយ) + ស័ព្ទ (សំឡេង)។ ចុះ «ទូរទស្សន៍» = ឆ្ងាយ + អ្វី?",
+    "options": [
+      "ការសរសេរ",
+      "ពន្លឺ",
+      "ការមើលឃើញ",
+      "ចលនា"
+    ],
+    "correctIndex": 2,
+    "gloss": "Telephone = far + sound. Then television = far + what? — Seeing: ទស្សន៍ (Sanskrit darśana) as in ទស្សនា, to visit/view."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងរដូវវស្សា ទឹកទន្លេសាបហូរតាមទិសណា?",
+    "options": [
+      "ពីបឹងចេញទៅមេគង្គ",
+      "ពីមេគង្គចូលទៅបឹង",
+      "ពីបឹងចូលទៅសមុទ្រ",
+      "ពីបាសាក់ចូលទៅមេគង្គ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the rainy season, which way does the Tonle Sap river flow? — From the swollen Mekong into the lake; in the dry season it flows back out."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្នុងរឿង «ទុំទាវ» មុនពេលជួបនាងទាវ ទុំជាអ្វី?",
+    "options": [
+      "ទាហាន",
+      "អ្នកនេសាទ",
+      "ព្រះអង្គម្ចាស់",
+      "សាមណេរ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Tum Teav, what was Tum before he met Teav? — A novice monk, famous for his singing voice."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ល្ខោនស្បែកធំ តាមប្រពៃណីសម្ដែងរឿងអ្វី?",
+    "options": [
+      "រាមកេរ្តិ៍",
+      "ទុំទាវ",
+      "ព្រះថោងនាងនាគ",
+      "ទន្សាយកាត់ក្ដី"
+    ],
+    "correctIndex": 0,
+    "gloss": "What story does the Sbek Thom large shadow theatre traditionally perform? — The Reamker."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "បុណ្យវិសាខបូជា រំលឹកដល់ការប្រសូត ការត្រាស់ដឹង និងអ្វីទៀតរបស់ព្រះពុទ្ធ?",
+    "options": [
+      "ការចេញសាងព្រះផ្នួស",
+      "ការសម្ដែងធម៌ដំបូង",
+      "ការបរិនិព្វាន",
+      "ការចូលព្រះវស្សា"
+    ],
+    "correctIndex": 2,
+    "gloss": "Visak Bochea marks the Buddha's birth, enlightenment and what else? — His passing into parinirvana, all three on the full moon of Visak."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ប្រព័ន្ធទូទាត់ «បាគង» ដាក់ឲ្យដំណើរការដោយស្ថាប័នណា?",
+    "options": [
+      "ធនាគារ ABA",
+      "ធនាគារជាតិនៃកម្ពុជា",
+      "ធនាគារ ACLEDA",
+      "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which institution launched the Bakong payment system? — The National Bank of Cambodia (2020)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ក្នុងបាល់ទាត់ គេទាត់ប៉េណាល់ទីពីចម្ងាយប៉ុន្មានពីទី?",
+    "options": [
+      "៩ ម៉ែត្រ",
+      "១១ ម៉ែត្រ",
+      "១៦ ម៉ែត្រ",
+      "២០ ម៉ែត្រ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In football, how far from the goal is a penalty taken? — 11 metres (12 yards). 9 m (9.15) is how far a defensive wall stands; 16 m the depth of the penalty area."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "នៅប្រទេសណា អ្នកបើកបរត្រូវបើកនៅខាងឆ្វេងផ្លូវ?",
+    "options": [
+      "ឡាវ",
+      "វៀតណាម",
+      "មីយ៉ាន់ម៉ា",
+      "ថៃ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country do drivers keep to the left? — Thailand. Laos, Vietnam and Myanmar drive on the right, as Cambodia does."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "អគារភ្លោះ Petronas ដែលធ្លាប់ខ្ពស់ជាងគេលើលោក ស្ថិតនៅទីក្រុងណា?",
+    "options": [
+      "កូឡាឡាំពួ",
+      "សិង្ហបុរី",
+      "បាងកក",
+      "ហ្សាការតា"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Petronas Twin Towers, once the world's tallest buildings, are in which city? — Kuala Lumpur."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ទឹកមួយដប ២ លីត្រ ចាក់បានប៉ុន្មានកែវ បើកែវមួយចំណុះ ២៥០ មីលីលីត្រ?",
+    "options": [
+      "៤ កែវ",
+      "៦ កែវ",
+      "៨ កែវ",
+      "១០ កែវ"
+    ],
+    "correctIndex": 2,
+    "gloss": "A 2-litre bottle fills how many 250 ml glasses? — 8: 2,000 ÷ 250."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ឆ្មាយន្ត Doraemon មកពីសតវត្សរ៍ទីប៉ុន្មាន?",
+    "options": [
+      "ទី២១",
+      "ទី២២",
+      "ទី២៣",
+      "ទី៣០"
+    ],
+    "correctIndex": 1,
+    "gloss": "From which century did the robot cat Doraemon come? — The 22nd, sent back to help Nobita."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "សន្លឹកសារាយសមុទ្រខ្មៅ ដែលរុំស៊ូស៊ី ជនជាតិជប៉ុនហៅថាអ្វី?",
+    "options": [
+      "miso",
+      "wasabi",
+      "tofu",
+      "nori"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do the Japanese call the dark seaweed sheets wrapped around sushi? — Nori."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ទីក្រុងបុរាណ Machu Picchu លើជួរភ្នំអង់ដេស ជាស្នាដៃរបស់ជនជាតិណា?",
+    "options": [
+      "Maya",
+      "Aztec",
+      "Inca",
+      "Olmec"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which people built the ancient citadel of Machu Picchu in the Andes? — The Inca (15th century). The Maya, Aztecs and Olmecs lived in Mexico and Central America."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ក្បាច់គុនណា ដែល UNESCO ចុះបញ្ជីជាបេតិកភណ្ឌអរូបីនៅឆ្នាំ ២០២២?",
+    "options": [
+      "គុនខ្មែរ",
+      "តេក្វាន់ដូ",
+      "ចំបាប់ខ្មែរ",
+      "ល្បុក្កតោ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which martial art did UNESCO inscribe as intangible heritage in 2022? — Kun Lbokator, Cambodia's traditional martial art."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ទំនុកច្រៀងនៃបទចម្រៀងជាតិ «នគររាជ» ជាស្នាដៃរបស់អ្នកណា?",
+    "options": [
+      "សម្ដេចជួន ណាត",
+      "ក្រមង៉ុយ",
+      "ស៊ិន ស៊ីសាមុត",
+      "ព្រះបាទអង្គឌួង"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the words of the national anthem Nokor Reach? — Samdech Chuon Nath, the Supreme Patriarch and compiler of the Khmer dictionary (1941)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ប្រាសាទពុទ្ធសាសនា Borobudur ដែលសង់ក្នុងសតវត្សរ៍ទី៩ ស្ថិតនៅប្រទេសណា?",
+    "options": [
+      "មីយ៉ាន់ម៉ា",
+      "ឥណ្ឌូណេស៊ី",
+      "ស្រីលង្កា",
+      "ថៃ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The 9th-century Buddhist monument Borobudur is in which country? — Indonesia (Central Java)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ឆ្នាំណា អានពីឆ្វេងទៅស្ដាំ ឬពីស្ដាំទៅឆ្វេង ក៏ដូចគ្នា?",
+    "options": [
+      "២០១២",
+      "២០២០",
+      "២១០០",
+      "២០០២"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which year reads the same left to right and right to left? — 2002. 2020 reversed is 0202, 2012 is 2102, 2100 is 0012."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«ត្រីកោណ» មិនទាក់ទងនឹងត្រីទេ៖ ត្រី = បី។ ចុះ «បញ្ចកោណ» មានប៉ុន្មានជ្រុង?",
+    "options": [
+      "៤ ជ្រុង",
+      "៥ ជ្រុង",
+      "៦ ជ្រុង",
+      "៨ ជ្រុង"
+    ],
+    "correctIndex": 1,
+    "gloss": "«ត្រីកោណ» (triangle) has nothing to do with fish (ត្រី): ត្រី means three. How many sides has «បញ្ចកោណ»? — Five: បញ្ច is the Pali-Sanskrit 'five', as in បញ្ចសីល (the five precepts)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "អក្សរខ្មែរ វិវត្តចេញពីអក្សរឥណ្ឌាបុរាណមួយណា?",
+    "options": [
+      "អក្សរទេវនាគរី",
+      "អក្សរគុបតៈ",
+      "អក្សរបល្លវៈ",
+      "អក្សរខរោស្ឋី"
+    ],
+    "correctIndex": 2,
+    "gloss": "From which ancient Indian script did Khmer script develop? — The Pallava script of southern India. Devanagari and Gupta are northern; Kharosthi is north-western."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ឃើញផ្លេកបន្ទោរ ៣ វិនាទីទើបឮផ្គរ។ ផ្លេកនោះនៅឆ្ងាយប្រហែលប៉ុន្មាន?",
+    "options": [
+      "១០០ ម៉ែត្រ",
+      "១ គីឡូម៉ែត្រ",
+      "៣ គីឡូម៉ែត្រ",
+      "១០ គីឡូម៉ែត្រ"
+    ],
+    "correctIndex": 1,
+    "gloss": "You hear thunder 3 seconds after the flash. How far away was the lightning? — About 1 km: sound travels about 340 m/s (the fact), × 3 ≈ 1,000 m. 3 km is the 'one km per second' trap."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "អ្នករុករកបារាំងណា ស្លាប់នៅឡាវឆ្នាំ ១៨៦១ ហើយកំណត់ហេតុរបស់គាត់ធ្វើឲ្យអង្គរល្បីនៅអឺរ៉ុប?",
+    "options": [
+      "Francis Garnier",
+      "Auguste Pavie",
+      "Louis Delaporte",
+      "Henri Mouhot"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which French explorer died in Laos in 1861, his travel notes making Angkor famous in Europe? — Henri Mouhot, who died near Luang Prabang; his journals were published in 1863–64. Garnier, Pavie and Delaporte came later."
+  }
+]

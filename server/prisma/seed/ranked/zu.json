@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ubuningi begama elithi “umfana” buthini?",
+    "options": [
+      "Imifana",
+      "Abafana",
+      "Izimfana",
+      "Amafana"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the plural of \"umfana\" (boy)? — Abafana: um- nouns for people take aba- in the plural."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Uma namuhla kunguMsombuluko, uLwesithathu luzofika emva kwezinsuku ezingaki?",
+    "options": [
+      "Ezintathu",
+      "Ezine",
+      "Ezinhlanu",
+      "Ezimbili"
+    ],
+    "correctIndex": 3,
+    "gloss": "If today is Monday, in how many days is Wednesday (uLwesithathu, literally \"the third\")? — Two: Monday is day one, so the \"third day\" is two days later; autopilot says three."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Intaba encane ibizwa ngokuthi yini?",
+    "options": [
+      "Intatshana",
+      "Intabana",
+      "Intabakazi",
+      "Intabeni"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is a small mountain called? — Intatshana: the diminutive -ana turns b into tsh (palatalisation); intabakazi is not the form, intabeni is the locative."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Umama uthi: “OSipho sebefikile.” Kufike obani?",
+    "options": [
+      "USipho yedwa",
+      "Izingane zikaSipho",
+      "USipho nabanye abanaye",
+      "Abazali bakaSipho"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mother says \"oSipho have arrived\". Who came? — Sipho and the people with him: the o- prefix on a name is the associative plural."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Inombolo ethi “amashumi amathathu nesihlanu” ibhalwa kanjani ngezinombolo?",
+    "options": [
+      "53",
+      "350",
+      "35",
+      "305"
+    ],
+    "correctIndex": 2,
+    "gloss": "How is \"amashumi amathathu nesihlanu\" written in digits? — 35: three tens and five."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uma uhamba uvalelisa ngokuthi “Sala kahle”, osalayo ukuphendula athini?",
+    "options": [
+      "Sala kahle",
+      "Sawubona",
+      "Hamba kahle",
+      "Ngiyabonga"
+    ],
+    "correctIndex": 2,
+    "gloss": "When you leave saying \"Sala kahle\" (stay well), what does the one staying answer? — Hamba kahle (go well)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Isaga esichaza ubuntu sithi: “Umuntu ngumuntu …”",
+    "options": [
+      "ngabantu",
+      "ngomuzi wakhe",
+      "ngezinkomo zakhe",
+      "ngomsebenzi wakhe"
+    ],
+    "correctIndex": 0,
+    "gloss": "The proverb of ubuntu says \"A person is a person…\" — \"…through other people\" (ngabantu)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ngokwesiko lamaZulu, ilobolo belikhokhwa ngani?",
+    "options": [
+      "Ngezimbuzi",
+      "Ngezimvu",
+      "Ngamahhashi",
+      "Ngezinkomo"
+    ],
+    "correctIndex": 3,
+    "gloss": "By Zulu custom, what was ilobolo (bride wealth) paid in? — Cattle."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iqembu lesizwe laseNingizimu Afrika lebhola lombhoxo libizwa ngokuthi?",
+    "options": [
+      "Bafana Bafana",
+      "AmaBokoboko",
+      "AmaProteas",
+      "Banyana Banyana"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is South Africa's national rugby team called? — AmaBokoboko, the Springboks (Bafana/Banyana are football, Proteas cricket)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "UNelson Mandela wayevame ukubizwa ngesithakazelo sakhe. Sithini?",
+    "options": [
+      "UMthembu",
+      "UMadiba",
+      "UDlamini",
+      "UZulu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Nelson Mandela was often called by his clan name. Which? — Madiba."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Umculo i-amapiano, osudume emhlabeni wonke, wadabuka kuliphi izwe?",
+    "options": [
+      "ENigeria",
+      "EGhana",
+      "EKenya",
+      "ENingizimu Afrika"
+    ],
+    "correctIndex": 3,
+    "gloss": "Amapiano, now known worldwide, began in which country? — South Africa (Gauteng townships, mid-2010s)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ENingizimu Afrika, iyiphi inombolo oyishayela amaphoyisa esimweni esiphuthumayo?",
+    "options": [
+      "10111",
+      "10177",
+      "911",
+      "999"
+    ],
+    "correctIndex": 0,
+    "gloss": "In South Africa, which number calls the police in an emergency? — 10111 (10177 is the ambulance; 911/999 are USA/UK)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yisiphi kulezi zilwane esingesinye sezilwane ezaziwa ngokuthi yi-“Big Five”?",
+    "options": [
+      "Indlulamithi",
+      "Imvubu",
+      "Ingwe",
+      "Ingulule"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these is one of the \"Big Five\"? — The leopard (ingwe); giraffe, hippo and cheetah are not."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ezinganekwaneni zesiZulu, yisiphi isilwane esincane esaziwa ngobuqili, esikhohlisa izilwane ezinkulu?",
+    "options": [
+      "Ubhejane",
+      "Inyathi",
+      "UNogwaja",
+      "Imvubu"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Zulu folk tales, which small animal is the trickster who outwits the big ones? — The hare (uNogwaja)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Izinga lokushisa lomzimba womuntu ophilile licishe libe yini?",
+    "options": [
+      "33 °C",
+      "37 °C",
+      "40 °C",
+      "42 °C"
+    ],
+    "correctIndex": 1,
+    "gloss": "About what is the body temperature of a healthy person? — 37 °C."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uxhuma ama-earphone nomakhalekhukhwini ngaphandle kwezintambo. Kusetshenziswa buphi ubuchwepheshe?",
+    "options": [
+      "I-Bluetooth",
+      "I-USB",
+      "I-HDMI",
+      "I-GPS"
+    ],
+    "correctIndex": 0,
+    "gloss": "You connect earphones to a phone without wires. Which technology? — Bluetooth."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ekhadini lasebhange kubhalwe “05/27”. Liphelelwa yisikhathi nini?",
+    "options": [
+      "Ngomhla zingama-27 kuMeyi",
+      "NgoMashi 2027",
+      "Ngomhla zi-5 kuJulayi",
+      "NgoMeyi 2027"
+    ],
+    "correctIndex": 3,
+    "gloss": "A bank card says \"05/27\". When does it expire? — May 2027: card expiry is month/year."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ivayolini idlalwa ngokuhudula ini phezu kwezintambo zayo?",
+    "options": [
+      "Ucezu lwepulasitiki",
+      "Induku enoboya behhashi",
+      "Izinti ezimbili",
+      "Isando esincane"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is drawn across a violin's strings to play it? — A stick strung with horsehair (the bow)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Efilimini kapopayi ethi “Frozen”, u-Elsa unamandla okwenzani?",
+    "options": [
+      "Ukundiza",
+      "Ukwenza iqhwa",
+      "Ukukhuluma nezilwane",
+      "Ukuphilisa abagulayo"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the cartoon \"Frozen\", what power does Elsa have? — Making ice."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ama-taco nama-enchilada ayizidlo ezidabuka kuliphi izwe?",
+    "options": [
+      "ESpain",
+      "EBrazil",
+      "EArgentina",
+      "EMexico"
+    ],
+    "correctIndex": 3,
+    "gloss": "Tacos and enchiladas come from which country? — Mexico (Spain is the trap)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uhlelo lokusebenza (app) olunesipoki esimhlophe phezu kombala ophuzi yiluphi?",
+    "options": [
+      "I-Snapchat",
+      "I-TikTok",
+      "I-Instagram",
+      "I-WhatsApp"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which app has a white ghost on yellow as its logo? — Snapchat."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yini efakwa enhlameni ukuze isinkwa sikhukhumale?",
+    "options": [
+      "Usawoti",
+      "Ushukela",
+      "Imvubelo",
+      "Amafutha"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is put in dough so that bread rises? — Yeast (imvubelo)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Umdlalo wevidiyo lapho abadlali bakha khona izinto ngamabhulokhi ayizikwele ubizwa ngokuthi?",
+    "options": [
+      "Fortnite",
+      "Tetris",
+      "Minecraft",
+      "FIFA"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which video game has players build things out of square blocks? — Minecraft (Tetris has falling blocks but no building world)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iwebhusayithi ikucela ukhethe zonke izithombe ezinamabhasi. Ifuna ukuqinisekisa ini?",
+    "options": [
+      "Ukuthi ungumuntu, awuyona ikhompyutha",
+      "Ukuthi amehlo akho asebenza kahle",
+      "Ukuthi uyazazi izimoto",
+      "Ukuthi i-inthanethi yakho iyashesha"
+    ],
+    "correctIndex": 0,
+    "gloss": "A website asks you to pick all pictures with buses. What does it want to confirm? — That you are a human, not a computer (CAPTCHA)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Uma umuntu ebhala “ASAP” emlayezweni, usho ukuthini?",
+    "options": [
+      "Ngiyaxolisa kakhulu",
+      "Ngizobuya kamuva",
+      "Ngiyabonga kakhulu",
+      "Ngokushesha okukhulu"
+    ],
+    "correctIndex": 3,
+    "gloss": "If someone writes \"ASAP\" in a message, what do they mean? — As soon as possible."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Emjahweni wezimoto we-Formula 1, ifulegi elinezikwele ezimnyama nezimhlophe lisho ukuthini?",
+    "options": [
+      "Kunengozi emgwaqweni",
+      "Umjaho uphelile",
+      "Umjaho usaqala",
+      "Kufanele kunciphiswe ijubane"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Formula 1, what does the black-and-white chequered flag mean? — The race is over."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ebholeni likanobhutshuzwayo, i-VAR isetshenziselwa ini?",
+    "options": [
+      "Ukubala ababukeli enkundleni",
+      "Ukubuyekeza izinqumo zikanompempe ngevidiyo",
+      "Ukulinganisa ijubane lebhola",
+      "Ukukhanyisa inkundla ebusuku"
+    ],
+    "correctIndex": 1,
+    "gloss": "In football, what is VAR used for? — Reviewing the referee’s decisions on video."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ngosuku olushisayo, kungani inja ihefuzela ikhiphe ulimi?",
+    "options": [
+      "Ukuze ihogele kangcono",
+      "Ngoba ilambile",
+      "Ngoba yesaba",
+      "Ukuze iphole"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a hot day, why does a dog pant with its tongue out? — To cool down: dogs barely sweat, so they lose heat by panting."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uma kuthiwa “Inkunzi isematholeni”, kushiwo ukuthi?",
+    "options": [
+      "Ungabadeleli abancane, kuzovela iqhawe kubo",
+      "Abadala bakhohlwa ngokushesha",
+      "Umfana uhlala efana noyise",
+      "Izinkomo ziyaziwa ngamathole azo"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does \"the bull is among the calves\" mean? — Don't look down on the young: a future leader is among them."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Igama elithi “ithanga” lisho isitshalo esidliwayo, kodwa nengxenye yomzimba. Yiyiphi?",
+    "options": [
+      "Ingxenye yengalo ephezu kwendololwane",
+      "Ingxenye yesisu",
+      "Ingxenye yomlenze ephezu kwedolo",
+      "Ingxenye yomhlane"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"Ithanga\" means pumpkin, but also a body part. Which? — The thigh (the part of the leg above the knee); the two words differ in tone."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "INkosi uShaka yayiyindodana kabani?",
+    "options": [
+      "KaDingiswayo",
+      "KaMpande",
+      "KaSenzangakhona",
+      "KaCetshwayo"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whose son was King Shaka? — Senzangakhona (Dingiswayo was his mentor; Mpande his half-brother)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ngokwenkolelo yakudala, kungani abanye bephakamisa imibhede yabo ngezitini?",
+    "options": [
+      "Ukuze utokoloshe angabafinyeleli",
+      "Ukuze kungangeni amanzi",
+      "Ukuze kungangeni izinyoka",
+      "Ukuze kufudumale"
+    ],
+    "correctIndex": 0,
+    "gloss": "By old belief, why do some people raise their beds on bricks? — So that the tokoloshe cannot reach them."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ngokwakheka kwegama, “umakhalekhukhwini” uyinto ekhala kuphi?",
+    "options": [
+      "Endlini",
+      "Esandleni",
+      "Emotweni",
+      "Ekhukhwini"
+    ],
+    "correctIndex": 3,
+    "gloss": "By how the word is built, where does an \"umakhalekhukhwini\" (cellphone) ring? — In the pocket: khala (ring/cry) + ekhukhwini (in the pocket)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Impophoma iVictoria (Mosi-oa-Tunya) isemngceleni wamaphi amazwe?",
+    "options": [
+      "IBotswana neNamibia",
+      "IZambia neZimbabwe",
+      "IZimbabwe neMozambique",
+      "IZambia neMalawi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Victoria Falls lie on the border of which countries? — Zambia and Zimbabwe."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Enovelini kaCervantes, uDon Quixote ulwa nani ecabanga ukuthi yizitha?",
+    "options": [
+      "Nezihlahla",
+      "Nezigayo zomoya",
+      "Nezindlu zamatshe",
+      "Nemikhumbi"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Cervantes's novel, what does Don Quixote fight, taking them for enemies? — Windmills (he took them for giants)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Efilimini ethi “Black Panther”, abantu baseWakanda bakhuluma luphi ulimi lwaseNingizimu Afrika?",
+    "options": [
+      "IsiZulu",
+      "IsiSotho",
+      "IsiTswana",
+      "IsiXhosa"
+    ],
+    "correctIndex": 3,
+    "gloss": "In \"Black Panther\", which South African language do the Wakandans speak? — isiXhosa."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ezinganekwaneni zaseScandinavia, yimuphi unkulunkulu ophethe isando esinamandla?",
+    "options": [
+      "UThor",
+      "U-Odin",
+      "U-Loki",
+      "UFreyr"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Norse myth, which god carries a mighty hammer? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ethenisi, umdlali ongakatholi ngisho iphuzu elilodwa kugeyimu, amaphuzu akhe abizwa ngokuthi?",
+    "options": [
+      "Deuce",
+      "Ace",
+      "Love",
+      "Let"
+    ],
+    "correctIndex": 2,
+    "gloss": "In tennis, a player with no points yet in a game has a score called? — Love."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I-microwave ishisa ukudla ngokunyakazisa izinhlayiyana zani ezisekudleni?",
+    "options": [
+      "Zikasawoti",
+      "Zikashukela",
+      "Zamanzi",
+      "Zamafutha"
+    ],
+    "correctIndex": 2,
+    "gloss": "A microwave heats food by shaking which molecules in it? — Water molecules."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yiyiphi inyoni efika eNingizimu Afrika ehlobo ivela eYurophu, ibuye ihambe ebusika?",
+    "options": [
+      "Inkonjane",
+      "Ijuba",
+      "Isikhova",
+      "Ingwababane"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird arrives in South Africa in summer from Europe and leaves for winter? — The swallow (inkonjane)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ekhelini lewebhusayithi, u-“s” oku-“https” ukhombisa ukuthini?",
+    "options": [
+      "Isayithi liyashesha",
+      "Isayithi lincane",
+      "Isayithi lingelikahulumeni",
+      "Uxhumano luvikelwe ngokubethela"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a web address, what does the \"s\" in \"https\" show? — The connection is secured by encryption."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Isitolo sehlisa intengo yesicathulo ngo-50%, bese siyinyusa ngo-50%. Manje intengo injani?",
+    "options": [
+      "Ilingana neyokuqala",
+      "Iphansi kuneyokuqala",
+      "Iphezulu kuneyokuqala",
+      "Iphindwe kabili"
+    ],
+    "correctIndex": 1,
+    "gloss": "A shop cuts a shoe's price by 50%, then raises it by 50%. How is the price now? — Lower than at first: half, then half again of that half, is 75%."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yiliphi ichopho eliseningizimu kakhulu ezwekazini lase-Afrika?",
+    "options": [
+      "IKapa leThemba Elihle",
+      "ICape Agulhas",
+      "ICape Point",
+      "IHermanus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which is the southernmost point of the African continent? — Cape Agulhas, not the Cape of Good Hope."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Endulo, isicoco amadoda ayesifaka ekhanda sasibonisani?",
+    "options": [
+      "Ukuthi uyinyanga yokwelapha",
+      "Ukuthi uyindoda eshadile",
+      "Ukuthi usengumfana",
+      "Ukuthi ungumhambi ovela kude"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the old days, what did the isicoco head-ring worn by men show? — That he was a married man."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yimuphi umdwebi owaduma ngemidwebo yamathini esobho iCampbell’s?",
+    "options": [
+      "URoy Lichtenstein",
+      "UJackson Pollock",
+      "UKeith Haring",
+      "U-Andy Warhol"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which artist became famous for paintings of Campbell's soup cans? — Andy Warhol."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iliphi iqembu legazi elingaphiwa cishe noma ngubani esimweni esiphuthumayo?",
+    "options": [
+      "O−",
+      "AB+",
+      "A+",
+      "B−"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood group can be given to almost anyone in an emergency? — O negative, the universal donor."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "NgoJulayi, uma eThekwini kungu-12:00 emini, eLondon kungu-sikhathi sini?",
+    "options": [
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00"
+    ],
+    "correctIndex": 1,
+    "gloss": "In July, when it is 12:00 in Durban, what time is it in London? — 11:00: South Africa is UTC+2 all year, London is on summer time (UTC+1); in winter it would be 10:00."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Imbongi yokuqala yesizwe yaseNingizimu Afrika yabhala inkondlo ende ethi “Emperor Shaka the Great”. Ngubani?",
+    "options": [
+      "UB. W. Vilakazi",
+      "UKeorapetse Kgositsile",
+      "UMazisi Kunene",
+      "UH. I. E. Dhlomo"
+    ],
+    "correctIndex": 2,
+    "gloss": "South Africa's first national poet laureate wrote the epic \"Emperor Shaka the Great\". Who? — Mazisi Kunene (laureate 2005; Kgositsile succeeded him)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Indiza yokuqala yabakwaWright ngo-1903 yahlala emoyeni isikhathi esingakanani?",
+    "options": [
+      "Imizuzwana engu-12",
+      "Imizuzwana engu-59",
+      "Imizuzu emi-5",
+      "Ihora elilodwa"
+    ],
+    "correctIndex": 0,
+    "gloss": "How long did the Wright brothers' first flight in 1903 stay in the air? — 12 seconds (59 seconds was the longest flight that day)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ubhejane wegolide, umsebenzi wobuciko wasendulo odume kakhulu eNingizimu Afrika, watholakala kuyiphi indawo?",
+    "options": [
+      "EThulamela",
+      "ESterkfontein",
+      "EMapungubwe",
+      "EBlombos"
+    ],
+    "correctIndex": 2,
+    "gloss": "The golden rhinoceros, South Africa's most famous ancient artwork, was found where? — Mapungubwe (Limpopo, 13th century)."
+  }
+]

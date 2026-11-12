@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ଚାଳିଶ” ମାନେ ୪୦। ତେବେ “ଅଣଚାଳିଶ” କେତେ?",
+    "options": [
+      "୪୧",
+      "୩୯",
+      "୪୯",
+      "୨୯"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Chalisha\" is 40. So what is \"anachalisha\"? — 39: the prefix \"ana\" makes a ten one less (anatirisha 29, anachasha 49)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ହିନ୍ଦୀରେ “ଜାତା ହୈ” ଓ “ଜାତୀ ହୈ” ଅଲଗା। ଓଡ଼ିଆରେ “ସେ ଯାଉଛି” କାହା ପାଇଁ କୁହାଯାଏ?",
+    "options": [
+      "କେବଳ ପୁଅ ପାଇଁ",
+      "କେବଳ ଝିଅ ପାଇଁ",
+      "କେବଳ ଗୁରୁଜନଙ୍କ ପାଇଁ",
+      "ପୁଅ କି ଝିଅ, ଦୁହିଁଙ୍କ ପାଇଁ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Hindi says \"jata hai\" / \"jati hai\". Whom is Odia \"se jauchhi\" said of? — Either a boy or a girl: Odia verbs carry no gender. Elders take the honorific \"jauchhanti\" instead."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "କେଉଁ ଶବ୍ଦର “ଳ” ବଦଳରେ “ଲ” ଲେଖିଲେ ତାହା “ଯିବା”ର ଅତୀତ ରୂପ ହୋଇଯିବ?",
+    "options": [
+      "କଳା",
+      "ଖୋଳା",
+      "ଗଳା",
+      "ଖେଳା"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which word does swapping ଳ for ଲ give the past tense of \"to go\"? — ଗଳା (throat) → ଗଲା (went). କଳା → କଲା (did), ଖୋଳା → ଖୋଲା (open); ଖେଲା is not Odia."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ନୀଳାଦ୍ରି ବିଜେ ଦିନ ଅଭିମାନିନୀ ଲକ୍ଷ୍ମୀଙ୍କୁ ମନାଇବାକୁ ଜଗନ୍ନାଥ କେଉଁ ମିଠା ଭେଟି ଦିଅନ୍ତି?",
+    "options": [
+      "ରସଗୋଲା",
+      "ଛେନାପୋଡ଼",
+      "ରସାବଳି",
+      "ଖିରି"
+    ],
+    "correctIndex": 0,
+    "gloss": "On Niladri Bije, which sweet does Jagannath offer to win over the sulking Lakshmi? — Rasagola; the day is kept as Rasagola Dibasa."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଚିଲିକାର ସାତପଡ଼ାରୁ ଡଙ୍ଗାରେ ବସି ପର୍ଯ୍ୟଟକମାନେ କେଉଁ ଜଳଚର ଦେଖିବାକୁ ଯାଆନ୍ତି?",
+    "options": [
+      "କୁମ୍ଭୀର",
+      "ଡଲଫିନ",
+      "ଉଦବିଲେଇ",
+      "ହାଙ୍ଗର"
+    ],
+    "correctIndex": 1,
+    "gloss": "From Satapada on Chilika, tourists take boats to see which water animal? — Irrawaddy dolphins, Chilika's best-known residents."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପୁରୁଣା ସାଧବଙ୍କ ସମୁଦ୍ରଯାତ୍ରା ମନେପକାଇ କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମାରେ କଟକରେ ବସୁଥିବା ବଡ଼ ମେଳା କେଉଁ ଦ୍ୱୀପ ନାଁରେ?",
+    "options": [
+      "ଜାଭା",
+      "ସୁମାତ୍ରା",
+      "ବୋର୍ଣ୍ଣିଓ",
+      "ବାଲି"
+    ],
+    "correctIndex": 3,
+    "gloss": "Cuttack's big Kartika Purnima fair, recalling the old sea traders' voyages, is named after which island? — Bali: Bali Jatra."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ସମ୍ବଲପୁର ପାଖରେ ଥିବା ହୀରାକୁଦ ବନ୍ଧ କେଉଁ ନଦୀକୁ ବାନ୍ଧିଛି?",
+    "options": [
+      "ବ୍ରାହ୍ମଣୀ",
+      "ବୈତରଣୀ",
+      "ମହାନଦୀ",
+      "ସୁବର୍ଣ୍ଣରେଖା"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which river does the Hirakud Dam near Sambalpur hold back? — The Mahanadi."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ସମାଜ” ଖବରକାଗଜ ପ୍ରତିଷ୍ଠା କରିଥିବା କାହାକୁ “ଉତ୍କଳମଣି” କୁହାଯାଏ?",
+    "options": [
+      "ମଧୁସୂଦନ ଦାସ",
+      "ଗୋପବନ୍ଧୁ ଦାସ",
+      "ନୀଳକଣ୍ଠ ଦାସ",
+      "ବିଜୁ ପଟ୍ଟନାୟକ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who, founder of the newspaper \"The Samaja\", is called \"Utkalmani\"? — Gopabandhu Das. Madhusudan Das is \"Utkal Gourab\"."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ହିନ୍ଦୀ ସିନେମା ଜଗତ ବଲିଉଡ୍। ଓଡ଼ିଆ ସିନେମା ଜଗତର ଡାକନାମ କ'ଣ?",
+    "options": [
+      "ଟଲିଉଡ୍",
+      "ମଲିଉଡ୍",
+      "ସାଣ୍ଡାଲଉଡ୍",
+      "ଅଲିଉଡ୍"
+    ],
+    "correctIndex": 3,
+    "gloss": "Hindi cinema is Bollywood. What is the Odia film industry called? — Ollywood. Tollywood is Telugu/Bengali, Mollywood Malayalam, Sandalwood Kannada."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ସାବିତ୍ରୀ ବ୍ରତରେ ଯମଙ୍କଠାରୁ ସ୍ୱାମୀଙ୍କ ଜୀବନ ଫେରାଇ ଆଣିଥିବା ସାବିତ୍ରୀଙ୍କୁ ମନେପକାଯାଏ। ତାଙ୍କ ସ୍ୱାମୀ କିଏ?",
+    "options": [
+      "ସତ୍ୟବାନ",
+      "ନଳ",
+      "ଦୁଷ୍ମନ୍ତ",
+      "ଅଭିମନ୍ୟୁ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Savitri Brata remembers Savitri, who won her husband's life back from Yama. Who was her husband? — Satyavan. Nala is Damayanti's husband, Dushyanta Shakuntala's, Abhimanyu Uttara's."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଢଗଟି ପୂରଣ କରନ୍ତୁ: “ଅଧିକ ଯୋଗୀ ମଠ …”",
+    "options": [
+      "ଖାଲି",
+      "ଉପାସ",
+      "ଅନ୍ଧାର",
+      "ଭଙ୍ଗା"
+    ],
+    "correctIndex": 1,
+    "gloss": "Complete the saying \"Too many yogis, the monastery …\" — goes hungry (ଉପାସ): the Odia \"too many cooks\"."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ନିଜେ ଦକ୍ଷ ବୈମାନିକ ଥିବା କେଉଁ ନେତାଙ୍କ ନାଁରେ ଭୁବନେଶ୍ୱର ବିମାନବନ୍ଦର?",
+    "options": [
+      "ହରେକୃଷ୍ଣ ମହତାବ",
+      "ନବକୃଷ୍ଣ ଚୌଧୁରୀ",
+      "ବିଜୁ ପଟ୍ଟନାୟକ",
+      "ବୀରେନ ମିତ୍ର"
+    ],
+    "correctIndex": 2,
+    "gloss": "Bhubaneswar airport is named after which leader, himself a skilled pilot? — Biju Patnaik (Biju Patnaik International Airport)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ୱେବସାଇଟ “ମୁଁ ରୋବଟ ନୁହେଁ” ଟିକ କରିବାକୁ ବା ବସ ଥିବା ଛବି ବାଛିବାକୁ କହେ। କାହିଁକି?",
+    "options": [
+      "ଆପଣ ମଣିଷ ବୋଲି ଜାଣିବାକୁ",
+      "ଇଣ୍ଟରନେଟ ସ୍ପିଡ ମାପିବାକୁ",
+      "ଆଖିର ଦୃଷ୍ଟି ପରୀକ୍ଷା କରିବାକୁ",
+      "ଫୋନର ଚାର୍ଜ ବଞ୍ଚାଇବାକୁ"
+    ],
+    "correctIndex": 0,
+    "gloss": "A site asks you to tick \"I'm not a robot\" or pick the pictures with buses. Why? — To tell a human from a bot (a CAPTCHA)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଡାଏଲିସିସ୍ ମେସିନ ଶରୀରର କେଉଁ ଅଙ୍ଗର କାମ କରେ?",
+    "options": [
+      "ଯକୃତ",
+      "ହୃତ୍ପିଣ୍ଡ",
+      "ଫୁସଫୁସ",
+      "ବୃକକ"
+    ],
+    "correctIndex": 3,
+    "gloss": "A dialysis machine does the work of which organ? — The kidneys: it filters waste from the blood."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଅଭ୍ୟାସ ବେଳେ ଟିକ୍-ଟିକ୍ କରି ସଙ୍ଗୀତଜ୍ଞଙ୍କୁ ସମାନ ଲୟ ଧରାଇ ରଖେ କେଉଁ ଯନ୍ତ୍ର?",
+    "options": [
+      "ଟ୍ୟୁନର",
+      "ଆମ୍ପ୍ଲିଫାୟର",
+      "ମେଟ୍ରୋନୋମ",
+      "ମିକ୍ସର"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which device ticks during practice to keep a musician at a steady tempo? — The metronome."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ରଙ୍ଗୀନ ପଥର ବା କାଚର ଛୋଟ ଛୋଟ ଖଣ୍ଡ ଯୋଡ଼ି କାନ୍ଥ ବା ଚଟାଣରେ ଛବି ତିଆରି କଳାକୁ କ'ଣ କହନ୍ତି?",
+    "options": [
+      "ଫ୍ରେସ୍କୋ",
+      "କୋଲାଜ",
+      "ବାଟିକ",
+      "ମୋଜାଇକ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pictures made of small pieces of coloured stone or glass on a wall or floor — what is the art called? — Mosaic. Fresco is paint on wet plaster, collage pasted paper."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗରର ଘର ସୁନ୍ଦରବନ ଭାରତ ଓ କେଉଁ ଦେଶରେ ବିସ୍ତୃତ?",
+    "options": [
+      "ମିଆଁମାର",
+      "ବାଂଲାଦେଶ",
+      "ନେପାଳ",
+      "ଭୁଟାନ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Sundarbans, home of the Royal Bengal tiger, spread over India and which country? — Bangladesh, which holds the larger part."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ନେଭରଲ୍ୟାଣ୍ଡରେ ରହୁଥିବା, କେବେ ବଡ଼ ନ ହେଉଥିବା କାହାଣୀର ପିଲାଟି କିଏ?",
+    "options": [
+      "ପିନୋକିଓ",
+      "ଟମ ସୟର",
+      "ପିଟର ପ୍ୟାନ",
+      "ଅଲିଭର ଟ୍ୱିଷ୍ଟ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which storybook boy lives in Neverland and never grows up? — Peter Pan (J. M. Barrie)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ହଳଦିଆ ପୃଷ୍ଠଭୂମିରେ ଧଳା ଭୂତ — ଏହା କେଉଁ ଆପର ଲୋଗୋ?",
+    "options": [
+      "ସ୍ନାପଚାଟ",
+      "ଟେଲିଗ୍ରାମ",
+      "ୱାଟସଆପ",
+      "ଇନଷ୍ଟାଗ୍ରାମ"
+    ],
+    "correctIndex": 0,
+    "gloss": "A white ghost on a yellow background is which app's logo? — Snapchat."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଛୁଇଁଦେଲେ ପତ୍ର ତୁରନ୍ତ ବୁଜି ହୋଇଯାଏ — ଏହା କେଉଁ ଗଛ?",
+    "options": [
+      "ତୁଳସୀ",
+      "ପୋଦିନା",
+      "ଘିଅକୁଆଁରୀ",
+      "ଲାଜକୁଳି"
+    ],
+    "correctIndex": 3,
+    "gloss": "Touch it and its leaves fold up at once — which plant? — Lajakuli, the touch-me-not (Mimosa pudica). The others are tulsi, mint and aloe vera."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ପନିର ପରି ଦେଖାଯାଉଥିବା ଟୋଫୁ କେଉଁ ଜିନିଷର ଦୁଧରୁ ତିଆରି?",
+    "options": [
+      "ସୋୟାବିନ",
+      "ନଡ଼ିଆ",
+      "ଚିନାବାଦାମ",
+      "ଚାଉଳ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Tofu, which looks like paneer, is made from the \"milk\" of what? — Soybeans: soy milk curdled and pressed."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ରୋୱାନ ଆଟକିନସନଙ୍କ କେଉଁ ଚରିତ୍ର ପ୍ରାୟ କିଛି କଥା ନ କହି ଦର୍ଶକଙ୍କୁ ହସାଏ?",
+    "options": [
+      "ଜନି ଇଂଲିଶ",
+      "ମିଷ୍ଟର ବିନ",
+      "ଚାର୍ଲି ଚାପଲିନ",
+      "ମିଷ୍ଟର ଇଣ୍ଡିଆ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Rowan Atkinson character makes people laugh while hardly saying a word? — Mr. Bean. Johnny English, also Atkinson, talks plenty."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଫୁଟବଲ ନକଆଉଟ ମ୍ୟାଚ ଅତିରିକ୍ତ ସମୟ ପରେ ବି ଡ୍ର ରହିଲେ, ପେନାଲ୍ଟି ସୁଟଆଉଟରେ ପ୍ରଥମେ ପ୍ରତି ଦଳ କେତୋଟି କିକ୍ ନିଏ?",
+    "options": [
+      "୩",
+      "୬",
+      "୧୦",
+      "୫"
+    ],
+    "correctIndex": 3,
+    "gloss": "A football knockout tie still level after extra time: in the shoot-out each side first takes how many kicks? — Five, then sudden death."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଲୁଡୁ ଖେଳରେ ଘରୁ ଗୋଟି ବାହାର କରିବାକୁ ଡାଇସରେ କେତେ ପଡ଼ିବା ଦରକାର?",
+    "options": [
+      "୧",
+      "୪",
+      "୫",
+      "୬"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Ludo, what must the die show to bring a piece out of home? — A six."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଡେବିଟ କାର୍ଡର ପଛପଟେ ଛପା ତିନି ଅଙ୍କିଆ ସୁରକ୍ଷା ସଂଖ୍ୟାକୁ କ'ଣ କହନ୍ତି?",
+    "options": [
+      "CVV",
+      "PIN",
+      "OTP",
+      "IFSC"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the three-digit security number printed on the back of a debit card? — The CVV. The PIN is never printed, the OTP comes by SMS, IFSC identifies a bank branch."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଲାଲ ଟୋପି ଓ ଘନ ନିଶ ଥିବା କେଉଁ ଭିଡିଓ ଗେମ ଚରିତ୍ର ପେସାରେ ପ୍ଲମ୍ବର?",
+    "options": [
+      "ସୋନିକ",
+      "ମାରିଓ",
+      "ପ୍ୟାକ-ମ୍ୟାନ",
+      "ଲାରା କ୍ରଫ୍ଟ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which video-game character with a red cap and a thick moustache is a plumber by trade? — Mario (Nintendo)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଫୋନର ମୋବାଇଲ ଡାଟା ଲ୍ୟାପଟପ ସହ ବାଣ୍ଟିବାକୁ କେଉଁ ସୁବିଧା ଅନ କରିବେ?",
+    "options": [
+      "ହଟସ୍ପଟ",
+      "ଏୟାରପ୍ଲେନ ମୋଡ",
+      "ଡାର୍କ ମୋଡ",
+      "ଲୋକେସନ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which phone setting do you switch on to share mobile data with a laptop? — The hotspot."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ପିଜାରେ ଟାଣିଲେ ଲମ୍ବା ସୂତା ପରି ବାହାରୁଥିବା ପନିର କେଉଁଟି?",
+    "options": [
+      "ଚେଡାର",
+      "ପାରମେଜାନ",
+      "ମୋଜାରେଲା",
+      "ଫେଟା"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cheese pulls into long strings on a pizza? — Mozzarella. Cheddar and parmesan are harder, feta crumbles."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ଟ୍ରେନ ଛାଡ଼ିବ ପାଉଣେ ନଅଟାରେ। ଡିଜିଟାଲ ଘଣ୍ଟାରେ ସେତେବେଳେ କ'ଣ ଦେଖାଯିବ?",
+    "options": [
+      "୯:୧୫",
+      "୮:୪୫",
+      "୯:୪୫",
+      "୮:୧୫"
+    ],
+    "correctIndex": 1,
+    "gloss": "The train leaves at \"paune naata\". What will a digital clock show? — 8:45: \"paune\" means a quarter less than the hour named."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପ୍ରଥମାଷ୍ଟମୀ ଦିନ ଘରେ କାହାକୁ ବନ୍ଦାଣ କରି ଏଣ୍ଡୁରି ପିଠା ଖୁଆଯାଏ?",
+    "options": [
+      "ନୂଆ ବୋହୂ",
+      "ଜେଜେମା",
+      "ପ୍ରଥମ ସନ୍ତାନ",
+      "ଜ୍ୱାଇଁ"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Prathamashtami, who in the family is honoured with an arati and fed enduri pitha? — The first-born child."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ତପସ୍ୱିନୀ”ର କବି, ବରପାଲିର ତନ୍ତି ପରିବାରରୁ ଆସିଥିବା କାହାକୁ “ସ୍ୱଭାବ କବି” କୁହାଯାଏ?",
+    "options": [
+      "ରାଧାନାଥ ରାୟ",
+      "ମଧୁସୂଦନ ରାଓ",
+      "ନନ୍ଦକିଶୋର ବଳ",
+      "ଗଙ୍ଗାଧର ମେହେର"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which poet of \"Tapaswini\", from a weaver family of Barpali, is called \"Swabhaba Kabi\"? — Gangadhar Meher. Nanda Kishore Bal is \"Palli Kabi\", Radhanath Ray \"Kabibara\"."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "୨୦୨୩ ପୁରୁଷ ହକି ବିଶ୍ୱକପ ଭୁବନେଶ୍ୱର ସହ ଓଡ଼ିଶାର ଆଉ କେଉଁ ସହରରେ ହୋଇଥିଲା?",
+    "options": [
+      "ରାଉରକେଲା",
+      "କଟକ",
+      "ସମ୍ବଲପୁର",
+      "ବ୍ରହ୍ମପୁର"
+    ],
+    "correctIndex": 0,
+    "gloss": "The 2023 men's Hockey World Cup was played in Bhubaneswar and which other Odisha city? — Rourkela, at the new Birsa Munda stadium."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଚନ୍ଦ୍ରଯାନ-୩ର ଲ୍ୟାଣ୍ଡରର ନାଁ ଭାରତୀୟ ମହାକାଶ କାର୍ଯ୍ୟକ୍ରମର ଜନକ କେଉଁ ବୈଜ୍ଞାନିକଙ୍କ ନାଁରୁ ଆସିଛି?",
+    "options": [
+      "ହୋମି ଭାବା",
+      "ଏ. ପି. ଜେ. ଅବଦୁଲ କଲାମ",
+      "ବିକ୍ରମ ସାରାଭାଇ",
+      "ସି. ଭି. ରମଣ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Chandrayaan-3's lander is named after which scientist, father of India's space programme? — Vikram Sarabhai (the lander \"Vikram\"). Bhabha led the nuclear programme."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ନାଁରୁ ଅନୁମାନ କରନ୍ତୁ: “କାଳବୈଶାଖୀ” ଝଡ଼ ଓଡ଼ିଶାରେ କେଉଁ ଋତୁରେ ଆସେ?",
+    "options": [
+      "ବର୍ଷା",
+      "ଗ୍ରୀଷ୍ମ",
+      "ଶରତ",
+      "ଶୀତ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Guess from the name: in which season does the \"Kalbaisakhi\" storm hit Odisha? — Summer (grishma): it is named after the month Baisakha (April–May), before the monsoon."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଛତା, ଚାନ୍ଦୁଆ ଓ ବ୍ୟାଗରେ ରଙ୍ଗବେରଙ୍ଗ ଆପ୍ଲିକ କାମ ପାଇଁ ପୁରୀ ରାସ୍ତାର କେଉଁ ଗାଁ ପ୍ରସିଦ୍ଧ?",
+    "options": [
+      "ପିପିଲି",
+      "ରଘୁରାଜପୁର",
+      "ସାକ୍ଷୀଗୋପାଳ",
+      "ନିମାପଡ଼ା"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which village on the Puri road is famous for colourful appliqué umbrellas, canopies and bags? — Pipili. Raghurajpur is the pattachitra village."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "₹୨୦୦ର ସାର୍ଟରେ “ଗୋଟିଏ କିଣନ୍ତୁ, ଗୋଟିଏ ମାଗଣା”। ପ୍ରତି ସାର୍ଟରେ ପ୍ରକୃତରେ କେତେ ପ୍ରତିଶତ ରିହାତି?",
+    "options": [
+      "୧୦୦%",
+      "୨୫%",
+      "୫୦%",
+      "୩୩%"
+    ],
+    "correctIndex": 2,
+    "gloss": "A ₹200 shirt on \"buy one, get one free\": what discount per shirt is that really? — 50%: two shirts for ₹200, ₹100 each. 100% is the autopilot trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ଇମୋଜି” ଶବ୍ଦଟି ଇଂରାଜୀ “ଇମୋସନ”ରୁ ଆସିନାହିଁ। ଏହା କେଉଁ ଭାଷାର ଶବ୍ଦ?",
+    "options": [
+      "ଚୀନା",
+      "କୋରିଆନ",
+      "ଜାପାନୀ",
+      "ଥାଇ"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"Emoji\" does not come from English \"emotion\". Which language is it from? — Japanese: e (picture) + moji (character)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "QR କୋଡ୍‌ର “Q” କେଉଁ ଶବ୍ଦକୁ ବୁଝାଏ?",
+    "options": [
+      "କ୍ୱାଲିଟି",
+      "କ୍ୱିକ୍",
+      "କ୍ୱେରି",
+      "କ୍ୱାଣ୍ଟମ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the Q in \"QR code\" stand for? — Quick: Quick Response."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ସନସ୍କ୍ରିନର SPF ମୁଖ୍ୟତଃ କେଉଁ ରଶ୍ମିରୁ ସୁରକ୍ଷା ମାପେ?",
+    "options": [
+      "ଅବଲୋହିତ ରଶ୍ମି",
+      "ଏକ୍ସ-ରଶ୍ମି",
+      "ମାଇକ୍ରୋୱେଭ",
+      "ଅତିବାଇଗଣୀ ରଶ୍ମି"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sunscreen SPF measures protection mainly against which rays? — Ultraviolet (UVB, which causes sunburn)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ପୂରା କମ୍ପ୍ୟୁଟର ଆନିମେସନରେ ତିଆରି ପ୍ରଥମ ଫିଚର ଫିଲ୍ମ “ଟୟ ଷ୍ଟୋରି” କେଉଁ ଷ୍ଟୁଡିଓର?",
+    "options": [
+      "ଡ୍ରିମୱର୍କସ",
+      "ଷ୍ଟୁଡିଓ ଘିବ୍ଲି",
+      "ବ୍ଲୁ ସ୍କାଇ",
+      "ପିକ୍ସାର"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"Toy Story\", the first fully computer-animated feature film (1995), came from which studio? — Pixar."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଆଫ୍ରିକାର ସର୍ବୋଚ୍ଚ ଶୃଙ୍ଗ କିଲିମାଞ୍ଜାରୋ କେଉଁ ଦେଶରେ?",
+    "options": [
+      "ତାଞ୍ଜାନିଆ",
+      "କେନିଆ",
+      "ଉଗାଣ୍ଡା",
+      "ଇଥିଓପିଆ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Kilimanjaro, Africa's highest peak, is in which country? — Tanzania. It is close to the Kenyan border and often seen from Kenya, the trap."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ଇଂରାଜୀ “ସ୍ମଗ୍” ଶବ୍ଦ “ସ୍ମୋକ୍” (ଧୂଆଁ) ସହ ଆଉ କେଉଁ ଜିନିଷର ଇଂରାଜୀ ନାଁ ମିଶି ତିଆରି?",
+    "options": [
+      "ଧୂଳି",
+      "କୁହୁଡ଼ି",
+      "ମେଘ",
+      "ବାଷ୍ପ"
+    ],
+    "correctIndex": 1,
+    "gloss": "English \"smog\" is \"smoke\" plus the English name of what? — Fog (kuhudi): smoke + fog. Dust, cloud and steam don't fit the letters."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଓଡ଼ିଶୀ ନୃତ୍ୟ ଓ ସଙ୍ଗୀତର ମୁଖ୍ୟ ତାଳବାଦ୍ୟ କେଉଁଟି?",
+    "options": [
+      "ତବଲା",
+      "ମୃଦଙ୍ଗମ୍",
+      "ମର୍ଦ୍ଦଳ",
+      "ଢୋଲକ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the main percussion instrument of Odissi dance and music? — The mardala. The mridangam belongs to Carnatic music and Bharatanatyam."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ଉପେନ୍ଦ୍ର ଭଞ୍ଜଙ୍କ କେଉଁ କାବ୍ୟର ପ୍ରତିଟି ପଦ “ବ” ଅକ୍ଷରରେ ଆରମ୍ଭ ହୁଏ?",
+    "options": [
+      "ଲାବଣ୍ୟବତୀ",
+      "ବୈଦେହୀଶ ବିଳାସ",
+      "କୋଟିବ୍ରହ୍ମାଣ୍ଡସୁନ୍ଦରୀ",
+      "ରସିକହାରାବଳୀ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Upendra Bhanja poem has every line beginning with the letter ବ? — Baidehisa Bilasa; fittingly the only title here that itself starts with ବ."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଜଙ୍ଗଲରେ ଗାଢ଼ କଳା ଡୋରିଆ ଥିବା “କଳା ବାଘ” ଦେଖାଯାଉଥିବା ଓଡ଼ିଶାର ବ୍ୟାଘ୍ର ପ୍ରକଳ୍ପ କେଉଁଟି?",
+    "options": [
+      "ଶିମିଳିପାଳ",
+      "ସାତକୋଶିଆ",
+      "ଭିତରକନିକା",
+      "ଦେବୀଗଡ଼"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Odisha tiger reserve has \"black tigers\" with thick dark stripes in the wild? — Similipal, the only wild home of pseudo-melanistic tigers."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ଗତ ପ୍ରାୟ ତିନି ମାସର ହାରାହାରି ରକ୍ତ ଶର୍କରା କେଉଁ ପରୀକ୍ଷାରୁ ଜଣାପଡ଼େ?",
+    "options": [
+      "HbA1c",
+      "TSH",
+      "LFT",
+      "CBC"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood test shows the average blood sugar over roughly the last three months? — HbA1c (glycated haemoglobin). TSH is thyroid, LFT liver, CBC blood count."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ଏଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ମୌଳିକ ସଂଖ୍ୟା?",
+    "options": [
+      "୫୧",
+      "୫୭",
+      "୮୭",
+      "୫୩"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these is a prime number? — 53. The others have digit sums 6, 12 and 15, so 3 divides them (51 = 3×17, 57 = 3×19, 87 = 3×29)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ପୁରୀର ବର୍ତ୍ତମାନ ଶ୍ରୀମନ୍ଦିର ନିର୍ମାଣ ଦ୍ୱାଦଶ ଶତାବ୍ଦୀରେ କେଉଁ ରାଜା ଆରମ୍ଭ କରିଥିଲେ?",
+    "options": [
+      "ପ୍ରଥମ ନରସିଂହ ଦେବ",
+      "କପିଳେନ୍ଦ୍ର ଦେବ",
+      "ଅନନ୍ତବର୍ମା ଚୋଡ଼ଗଙ୍ଗ ଦେବ",
+      "ପୁରୁଷୋତ୍ତମ ଦେବ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which king began building the present Jagannath temple in Puri in the 12th century? — Anantavarman Chodaganga Deva (Eastern Ganga). Narasimha Deva I built Konark; Kapilendra and Purushottama were later Suryavamsi kings."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ସମୁଦ୍ରପାରିର ଅଞ୍ଚଳ ମିଶାଇଲେ କେଉଁ ଦେଶରେ ସବୁଠୁ ଅଧିକ ସମୟ ମଣ୍ଡଳ (ଟାଇମ ଜୋନ)?",
+    "options": [
+      "ଫ୍ରାନ୍ସ",
+      "ରୁଷିଆ",
+      "ଆମେରିକା",
+      "ବ୍ରିଟେନ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Counting overseas territories, which country spans the most time zones? — France (12). Russia and the USA have 11, the UK 9."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ଦୂରବୀକ୍ଷଣ ବିନା ବାଉଁଶ ଓ କାଠ ଯନ୍ତ୍ରରେ ଆକାଶ ମାପିଥିବା ପଠାଣି ସାମନ୍ତଙ୍କ ସଂସ୍କୃତ ଗ୍ରନ୍ଥର ନାଁ କ'ଣ?",
+    "options": [
+      "ସୂର୍ଯ୍ୟ ସିଦ୍ଧାନ୍ତ",
+      "ସିଦ୍ଧାନ୍ତ ଦର୍ପଣ",
+      "ସିଦ୍ଧାନ୍ତ ଶିରୋମଣି",
+      "ଆର୍ଯ୍ୟଭଟୀୟ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Sanskrit treatise of Pathani Samanta, who measured the sky with bamboo and wooden instruments and no telescope? — Siddhanta Darpana. Siddhanta Shiromani is Bhaskara II's, Aryabhatiya Aryabhata's, Surya Siddhanta an older classic."
+  }
+]

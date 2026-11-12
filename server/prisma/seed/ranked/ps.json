@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«زموږ ___ ډېره مهربانه ده.» په تش ځای کې کومه کلمه سمه ده؟",
+    "options": [
+      "ښوونکی",
+      "ښوونکي",
+      "ښوونکې",
+      "ښوونکو"
+    ],
+    "correctIndex": 2,
+    "gloss": "«Our ___ is very kind.» Which word fits the gap? — ښوونکې (female teacher): «مهربانه» and «ده» are feminine singular; ښوونکی is masculine, ښوونکي masculine plural or oblique, ښوونکو oblique plural."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "که څوک ووايي «پاو کم څلور بجې»، ساعت څو بجې دی؟",
+    "options": [
+      "۳:۴۵",
+      "۴:۱۵",
+      "۴:۴۵",
+      "۳:۱۵"
+    ],
+    "correctIndex": 0,
+    "gloss": "If someone says 'a quarter less four o'clock', what time is it? — 3:45: «پاو کم» means a quarter short of the hour; «پاو باندې» would be 4:15."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«... ډېرې سړې دي.» کومه کلمه په دې جمله کې سمه ځای نیسي؟",
+    "options": [
+      "چای",
+      "اوبه",
+      "ډوډۍ",
+      "مڼه"
+    ],
+    "correctIndex": 1,
+    "gloss": "«... are very cold.» Which word fits? — اوبه (water): in Pashto water is a feminine plural noun («اوبه سړې دي»); tea is masculine («سوړ دی»), bread and apple feminine singular («سړه ده»)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "متل بشپړ کړئ: «څه چې کرې، هغه به ...»",
+    "options": [
+      "خورې",
+      "وینې",
+      "ګټې",
+      "رېبې"
+    ],
+    "correctIndex": 3,
+    "gloss": "Complete the proverb: 'What you sow, that you will ...' — رېبې (reap): «څه چې کرې هغه به رېبې»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "په یوه کتار کې ته لسم کس یې. ستا مخې ته څو تنه ولاړ دي؟",
+    "options": [
+      "لس",
+      "نهه",
+      "یوولس",
+      "اته"
+    ],
+    "correctIndex": 1,
+    "gloss": "You are tenth in a queue. How many people stand in front of you? — Nine: you are the tenth, so nine are ahead. Ten is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کله چې د دوو کورنیو ترمنځ شخړه وي، د کلي مشران یې د هوارولو لپاره کومه ناسته جوړوي؟",
+    "options": [
+      "جرګه",
+      "حجره",
+      "بدرګه",
+      "مېلمستیا"
+    ],
+    "correctIndex": 0,
+    "gloss": "When two families quarrel, what gathering do the village elders hold to settle it? — Jirga. Hujra is the men's guest house, badraga a safe-conduct escort, melmastia hospitality."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د پېښور مشهور «چپلي کباب» له څه جوړېږي؟",
+    "options": [
+      "د چرګ له سینې",
+      "له کچالو",
+      "له ماهۍ",
+      "له قیمه شوې غوښې"
+    ],
+    "correctIndex": 3,
+    "gloss": "Peshawar's famous chapli kebab is made of what? — Minced meat (beef or mutton), flattened into a round patty and fried."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "په نورستان، پنجشېر او چترال کې نارینه کومه ګرده وړینه خولۍ په سر کوي؟",
+    "options": [
+      "قره‌قلي",
+      "لونګۍ",
+      "پکول",
+      "کندهارۍ خولۍ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What round woollen cap do men wear in Nuristan, Panjshir and Chitral? — The pakol, with its rolled brim. Karakul is lambskin, lungi a turban, the Kandahari cap is embroidered."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د حضرت علي (رض) په نوم منسوبه مشهوره شنه روضه په کوم ښار کې ده؟",
+    "options": [
+      "هرات",
+      "کندز",
+      "مزار شریف",
+      "بلخ"
+    ],
+    "correctIndex": 2,
+    "gloss": "The famous blue shrine attributed to Hazrat Ali is in which city? — Mazar-i-Sharif, whose very name means 'the noble shrine'. Balkh, its ancient neighbour, is the trap."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د بند امیر شنې جهيلې، چې د افغانستان لومړنی ملي پارک دی، په کوم ولایت کې دي؟",
+    "options": [
+      "بدخشان",
+      "پنجشېر",
+      "غزني",
+      "بامیان"
+    ],
+    "correctIndex": 3,
+    "gloss": "The blue lakes of Band-e Amir, Afghanistan's first national park, are in which province? — Bamyan (declared a national park in 2009)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کندهار په کومې مېوې ډېر مشهور دی؟",
+    "options": [
+      "انار",
+      "مڼه",
+      "زردالو",
+      "انځر"
+    ],
+    "correctIndex": 0,
+    "gloss": "Kandahar is especially famous for which fruit? — Pomegranates; Kandahari pomegranates are known across the region."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د «افغان سټار» تلویزیوني خپرونه د چا ترمنځ سیالي وه؟",
+    "options": [
+      "د کرکټ لوبغاړو",
+      "د آشپزانو",
+      "د شاعرانو",
+      "د سندرغاړو"
+    ],
+    "correctIndex": 3,
+    "gloss": "The TV show 'Afghan Star' was a contest between whom? — Singers: a televised singing competition on Tolo TV."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د کوم هېواد ټیلفون شمېرې په +۹۳ پیل کېږي؟",
+    "options": [
+      "پاکستان",
+      "ایران",
+      "افغانستان",
+      "هند"
+    ],
+    "correctIndex": 2,
+    "gloss": "Phone numbers of which country start with +93? — Afghanistan. Pakistan is +92, Iran +98, India +91."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "په پښتو کې «تربور» څوک دی؟",
+    "options": [
+      "د تره زوی",
+      "د ماما زوی",
+      "د خور زوی",
+      "د ورور زوی"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Pashto, who is a «تربور»? — The son of one's father's brother (paternal cousin), the root of «تربورولي», cousin rivalry. Mother's brother's son is «د ماما زوی», brother's son «وراره»."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په واټساپ کې د لېږل شوي پیغام تر څنګ دوه آبي نښې څه ښيي؟",
+    "options": [
+      "پیغام لوستل شوی",
+      "پیغام لېږل شوی خو نه دی رسېدلی",
+      "پیغام ړنګ شوی",
+      "پیغام بل چا ته استول شوی"
+    ],
+    "correctIndex": 0,
+    "gloss": "In WhatsApp, what do two blue ticks next to a sent message show? — The message has been read. One grey tick means sent, two grey delivered."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کله چې خپل عکس له ټیلفونه فېسبوک ته واچوئ، دې کار ته څه وايي؟",
+    "options": [
+      "ډاونلوډ",
+      "اپلوډ",
+      "سکرین شاټ",
+      "فارورډ"
+    ],
+    "correctIndex": 1,
+    "gloss": "When you put your photo from your phone onto Facebook, what is that called? — Uploading. Downloading is the opposite direction."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د شکر ناروغۍ ځینې ناروغان هره ورځ کوم درمل ځان ته پیچکاري کوي؟",
+    "options": [
+      "پاراسیټامول",
+      "انسولین",
+      "اسپرین",
+      "اموکسیسیلین"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which medicine do some diabetes patients inject every day? — Insulin, the hormone their body lacks or cannot use."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "science",
+    "scope": "global",
+    "text": "په پرېشر ککر کې خواړه ولې ژر پخېږي؟",
+    "options": [
+      "فشار اوبه په لوړه تودوخه ایشوي",
+      "سرپوښ تودوخه بېرته ګرځوي",
+      "شپېلۍ تودوخه زیاتوي",
+      "لوښی ډېر پنډ دی"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does food cook faster in a pressure cooker? — Under pressure water boils at a higher temperature (about 120 °C instead of 100 °C)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د درملو پر پوښ «EXP» څه ښيي؟",
+    "options": [
+      "د جوړېدو نېټه",
+      "بیه",
+      "د خوړلو اندازه",
+      "د ختمېدو نېټه"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does «EXP» on a medicine box show? — The expiry date. The manufacturing date is marked MFG."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په ټوکو او کیسو کې ملا نصرالدین په څه سپور وي؟",
+    "options": [
+      "آس",
+      "اوښ",
+      "خر",
+      "قاطر"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the jokes and stories, what does Mulla Nasreddin ride? — A donkey."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په لوی اختر کې قرباني د کوم پیغمبر یاد تازه کوي؟",
+    "options": [
+      "حضرت موسی",
+      "حضرت نوح",
+      "حضرت عیسی",
+      "حضرت ابراهیم"
+    ],
+    "correctIndex": 3,
+    "gloss": "The sacrifice of Eid al-Adha commemorates which prophet? — Abraham (Ibrahim), who was ready to sacrifice his son and was given a ram instead."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "نن سبا که د T20 کرکټ لوبه مساوي پای ته ورسېږي، ګټونکی معمولاً څنګه ټاکل کېږي؟",
+    "options": [
+      "په ټاس",
+      "په سوپر اوور",
+      "په ډکورت لوئس",
+      "په بیا لوبې"
+    ],
+    "correctIndex": 1,
+    "gloss": "Nowadays, if a T20 cricket match ends in a tie, how is the winner usually decided? — By a Super Over. Duckworth–Lewis is for rain-shortened games."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کله چې وايي یوه ویډیو «وایرل» شوه، معنا یې څه ده؟",
+    "options": [
+      "ویروس پکې ننوت",
+      "له انټرنېټه لرې شوه",
+      "ډېر ژر په ډېرو خلکو کې خپره شوه",
+      "د کاپي حق یې ونیول شو"
+    ],
+    "correctIndex": 2,
+    "gloss": "When people say a video 'went viral', what does it mean? — It spread very fast to a great many people. The virus is the trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "کوم شی د ډوډۍ خمیر پړسوي؟",
+    "options": [
+      "مالګه",
+      "بوره",
+      "خمیر مایه",
+      "غوړي"
+    ],
+    "correctIndex": 2,
+    "gloss": "What makes bread dough rise? — Yeast: it gives off gas that puffs the dough up."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "global",
+    "text": "پنګوئنان زیاتره د ځمکې په کومه نیمه کره کې اوسي؟",
+    "options": [
+      "شمالي نیمه کره",
+      "جنوبي نیمه کره",
+      "یوازې شمالي قطب",
+      "په دواړو قطبونو کې"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which hemisphere do penguins mostly live? — The southern hemisphere (Antarctica, South America, Africa, Australia); there are none at the North Pole."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په فوټبال کې «VAR» د څه لپاره کارېږي؟",
+    "options": [
+      "د لوبغاړو د منډې اندازه",
+      "د توپ د چټکتیا اندازه",
+      "د لوبې د وخت شمېرل",
+      "د ریفري د پرېکړو بیا کتنه په ویډیو"
+    ],
+    "correctIndex": 3,
+    "gloss": "In football, what is VAR used for? — Reviewing the referee's decisions on video (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "په پښتو کلیوالي موسیقۍ کې د اوبو کوم خاورین لوښی د ډول په څېر غږول کېږي؟",
+    "options": [
+      "منګی",
+      "کټوری",
+      "چاینک",
+      "لوټه"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Pashto folk music, which clay water vessel is played like a drum? — The mangay (منګی), a clay water pot struck with the fingers and rings."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "localCulture",
+    "scope": "local",
+    "text": "په پښتني کلي کې «حجره» څه ده؟",
+    "options": [
+      "جومات",
+      "ښوونځی",
+      "بازار",
+      "د نارینه وو مېلمستون"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a Pashtun village, what is a «hujra»? — The men's guest house, where guests are hosted and the village men gather."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«ما ډوډۍ وخوړه»، «ما انګور وخوړل». نو «ما وريجې ...»؟",
+    "options": [
+      "وخوړ",
+      "وخوړه",
+      "وخوړل",
+      "وخوړې"
+    ],
+    "correctIndex": 3,
+    "gloss": "'I ate bread (وخوړه)', 'I ate grapes (وخوړل)'. So 'I ate rice ...'? — وخوړې: in the past tense the verb agrees with the object; rice (وريجې) is feminine plural."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«سل» او «شل» یوازې په ټکو کې توپیر لري. «سل» د «شل» څو برابره دی؟",
+    "options": [
+      "دوه برابره",
+      "پنځه برابره",
+      "لس برابره",
+      "اته برابره"
+    ],
+    "correctIndex": 1,
+    "gloss": "«سل» and «شل» differ only in their dots. How many times «شل» is «سل»? — Five times: سل is 100, شل is 20."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د بزکشۍ ماهر او نامتو سپاره ته څه وايي؟",
+    "options": [
+      "چاپ‌انداز",
+      "پهلوان",
+      "شاهسوار",
+      "ملنګ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is a skilled, renowned buzkashi rider called? — Chapandaz."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«دا زموږ زېبا وطن» مشهوره سندره د کوم استاد په غږ ده؟",
+    "options": [
+      "استاد اول میر",
+      "احمد ظاهر",
+      "ناشناس",
+      "استاد سرآهنګ"
+    ],
+    "correctIndex": 0,
+    "gloss": "The famous song 'Da Zamong Zeba Watan' is sung by which master? — Ustad Awalmir."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "د کندهار مشهوره لاسي ګلدوزي، چې په کمیسونو او ګرېوانونو کېږي، څه نومېږي؟",
+    "options": [
+      "سوزني",
+      "خامک",
+      "ګلابتون",
+      "چکن"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is Kandahar's famous hand embroidery on shirts and collars called? — Khamak. Suzani is Central Asian, gulabatun gold-thread work, chikan from Lucknow."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "قیمتي شنه‌اسماني ډبره لاجورد له زرګونو کلونو راهیسې د کوم ولایت له کانونو ایستل کېږي؟",
+    "options": [
+      "پنجشېر",
+      "لوګر",
+      "بدخشان",
+      "هلمند"
+    ],
+    "correctIndex": 2,
+    "gloss": "From which province's mines has lapis lazuli been dug for thousands of years? — Badakhshan (Sar-e Sang). Panjshir is famous for emeralds, Logar for copper."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د ارطغرل غازي زوی، عثمان، د کومې امپراتورۍ بنسټ کېښود؟",
+    "options": [
+      "صفوي",
+      "عثماني",
+      "مغولي",
+      "سلجوقي"
+    ],
+    "correctIndex": 1,
+    "gloss": "Ertugrul Ghazi's son Osman founded which empire? — The Ottoman Empire, named after him. The Seljuks came before."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په «کونګ فو پانډا» کې د پو پلار، چې د آش دوکان لري، څه ډول مرغه دی؟",
+    "options": [
+      "زاڼه",
+      "طاووس",
+      "قاز",
+      "هیلۍ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 'Kung Fu Panda', Po's father, who runs a noodle shop, is what kind of bird? — A goose (Mr. Ping). Crane is one of the Furious Five, a peacock the villain of the second film."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ځینې وېبپاڼې غواړي چې د ټرافیکي څراغونو انځورونه وټاکئ. موخه یې څه ده؟",
+    "options": [
+      "ثابتول چې تاسو روبوټ نه یاست",
+      "ستاسو د سترګو ازموینه",
+      "ستاسو د ځای موندل",
+      "د انټرنېټ د چټکتیا ازموینه"
+    ],
+    "correctIndex": 0,
+    "gloss": "Some websites ask you to pick pictures of traffic lights. What for? — To prove you are not a robot (a CAPTCHA)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په تړلې کوټه کې بل منقل کوم زهرجن ګاز خپروي؟",
+    "options": [
+      "اوزون",
+      "مېتان",
+      "کاربن مونو اکسایډ",
+      "هایدروجن"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which poisonous gas does a lit charcoal brazier give off in a closed room? — Carbon monoxide, odourless and deadly."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«ګلستان» او «بوستان» د کوم شاعر اثار دي؟",
+    "options": [
+      "حافظ",
+      "جامي",
+      "مولانا",
+      "سعدي"
+    ],
+    "correctIndex": 3,
+    "gloss": "'Gulistan' and 'Bustan' are the works of which poet? — Saadi of Shiraz. Jami, of Herat, is the trap: he wrote 'Baharistan' after Gulistan's model."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د ورېښمو چینجي د کومې ونې پاڼې خوري؟",
+    "options": [
+      "چنار",
+      "توت",
+      "ناجو",
+      "ولې"
+    ],
+    "correctIndex": 1,
+    "gloss": "Silkworms eat the leaves of which tree? — The mulberry."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د عربي خوړو مشهور «حمص» له څه جوړېږي؟",
+    "options": [
+      "لوبیا",
+      "مشنګ",
+      "نخود",
+      "دال"
+    ],
+    "correctIndex": 2,
+    "gloss": "The famous Arab dish hummus is made of what? — Chickpeas, ground with sesame paste (tahini)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "استانبول د کوم تنګي دواړو غاړو ته پروت دی؟",
+    "options": [
+      "هرمز",
+      "جبل الطارق",
+      "باب المندب",
+      "باسفورس"
+    ],
+    "correctIndex": 3,
+    "gloss": "Istanbul lies on both shores of which strait? — The Bosphorus."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کوم پښتون شاعر ته د «غزل بابا» لقب ورکړل شوی؟",
+    "options": [
+      "غني خان",
+      "اجمل خټک",
+      "حمزه شینواري",
+      "قلندر مومند"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Pashtun poet was given the title 'Father of the Ghazal'? — Amir Hamza Shinwari (Hamza Baba)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "یو ۱۰۰ واټه ګروپ لس ساعته بل وي. څومره برېښنا لګوي؟",
+    "options": [
+      "یو کیلوواټ ساعت",
+      "لس کیلوواټ ساعته",
+      "سل کیلوواټ ساعته",
+      "زر کیلوواټ ساعته"
+    ],
+    "correctIndex": 0,
+    "gloss": "A 100-watt bulb burns for ten hours. How much electricity does it use? — One kilowatt-hour: 100 W × 10 h = 1,000 Wh."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "کوم لرغوني ښار ته «ام البلاد» یا د ښارونو مور ویل کېږي؟",
+    "options": [
+      "هرات",
+      "بلخ",
+      "غزني",
+      "کندهار"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ancient city is called 'Umm al-Bilad', the mother of cities? — Balkh."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "په شاهنامه کې د رستم آس څه نومېده؟",
+    "options": [
+      "شبدیز",
+      "بوسفالوس",
+      "دلدل",
+      "رخش"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Shahnameh, what was Rostam's horse called? — Rakhsh. Shabdiz was Khosrow Parviz's horse, Bucephalus Alexander's, Duldul Hazrat Ali's mount."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "برېښنا مو ولیده او درې ثانیې وروسته مو تالنده واورېده. برېښنا شاوخوا څومره لرې وه؟",
+    "options": [
+      "سل متره",
+      "یو کیلومتر",
+      "درې کیلومتره",
+      "لس کیلومتره"
+    ],
+    "correctIndex": 1,
+    "gloss": "You saw lightning and heard thunder three seconds later. About how far away was it? — About one kilometre: sound travels about 340 m a second."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "د «القانون في الطب» لیکوال ابن سینا د کوم ښار سیمه کې زېږېدلی؟",
+    "options": [
+      "بلخ",
+      "نیشاپور",
+      "هرات",
+      "بخارا"
+    ],
+    "correctIndex": 3,
+    "gloss": "Avicenna, author of 'The Canon of Medicine', was born near which city? — Bukhara (in Afshana). Balkh is the trap: his father came from there."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "د ۱۴۰۰ لمریز هجري کال نوروز د کوم میلادي کال په مارچ کې و؟",
+    "options": [
+      "۲۰۲۱",
+      "۲۰۲۰",
+      "۲۰۲۲",
+      "۱۹۷۹"
+    ],
+    "correctIndex": 0,
+    "gloss": "Nowruz of solar Hijri year 1400 fell in March of which Gregorian year? — 2021: add 621. 1979 is the trap: that is when lunar Hijri 1400 began."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«خیرالبیان» چې د پښتو نثر له لومړنیو کتابونو ګڼل کېږي، د چا اثر دی؟",
+    "options": [
+      "اخوند درویزه",
+      "میرزا خان انصاري",
+      "بایزید روښان",
+      "عبدالقادر خټک"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Khair al-Bayan', counted among the earliest books of Pashto prose, is whose work? — Bayazid Roshan (Pir Roshan), 16th century. Akhund Darweza wrote 'Makhzan al-Islam' against him; Mirza Khan Ansari was his descendant."
+  }
+]

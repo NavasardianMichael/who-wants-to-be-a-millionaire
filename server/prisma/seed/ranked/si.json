@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘ගෙදර ___ ඉන්නවා.’ — හිස්තැනට ගැළපෙන්නේ කුමක්ද?",
+    "options": [
+      "මේසයක්",
+      "ගහක්",
+      "පොතක්",
+      "පූසෙක්"
+    ],
+    "correctIndex": 3,
+    "gloss": "'At home there ___ (ඉන්නවා).' Which fits? — A cat: Sinhala uses ඉන්නවා only for living, moving beings; books, tables and even trees take තියෙනවා ('ගහක් තියෙනවා')."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘හතරට කාලයි’ කියූ විට වේලාව කීයද?",
+    "options": [
+      "4.15",
+      "4.25",
+      "3.45",
+      "3.15"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Hatarata kaalayi' — what time is it? — 3.45: 'quarter to four'. With -යි instead of -ට ('හතරයි කාලයි') it would be 4.15, the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘ක’ අකුරට කොම්බුවයි ඇලපිල්ලයි දෙකම එක් කළ විට ලැබෙන්නේ කුමන අකුරද?",
+    "options": [
+      "කො",
+      "කෙ",
+      "කෝ",
+      "කා"
+    ],
+    "correctIndex": 0,
+    "gloss": "Add both the kombuva and the aelapilla to ක — which letter? — කො (ko): kombuva ෙ + aelapilla ා. ක alone with the aelapilla is කා, with the kombuva කෙ; කෝ also needs the hal kirima."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "අම්මාගේ සහෝදරයා ඔබට කවුද?",
+    "options": [
+      "මාමා",
+      "බාප්පා",
+      "ලොකු තාත්තා",
+      "සීයා"
+    ],
+    "correctIndex": 0,
+    "gloss": "Your mother's brother is your...? — Maama. Baappa and loku thaaththa are the father's younger and elder brothers; Sinhala kinship keeps the two sides apart."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "මහනුවර දළදා මාලිගාවේ තැන්පත් කර ඇත්තේ බුදුරජාණන් වහන්සේගේ කුමන ධාතුවද?",
+    "options": [
+      "අකු ධාතුව",
+      "කේශ ධාතුව",
+      "දන්ත ධාතුව",
+      "ලලාට ධාතුව"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which relic of the Buddha is enshrined in the Temple of the Tooth in Kandy? — The tooth relic (දන්ත ධාතුව); 'dalada' itself means the tooth. Hair, forehead-bone and collarbone relics are enshrined elsewhere."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "අවුරුදු කාලයේ කාන්තාවන් කිහිප දෙනෙක් වටවී එකවර වාදනය කරන විශාල වට බෙරය කුමක්ද?",
+    "options": [
+      "රබාන",
+      "උඩැක්කිය",
+      "දවුල",
+      "තබ්ලාව"
+    ],
+    "correctIndex": 0,
+    "gloss": "At New Year, which large round drum do several women play together around it? — The rabana (the big raban)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ලුණු මිරිස් අඹරන විට ලුණු හා මිරිස් සමඟ එකතු කරන ප්‍රධාන අමුද්‍රව්‍යය කුමක්ද?",
+    "options": [
+      "රතු ළූණු",
+      "සුදු ළූණු",
+      "කරපිංචා",
+      "ඉඟුරු"
+    ],
+    "correctIndex": 0,
+    "gloss": "When grinding lunu miris, what main ingredient goes in with salt and chilli? — Red onions (shallots); lime and Maldive fish are optional extras, garlic, ginger and curry leaves are not used."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘පුංචි එංගලන්තය’ ලෙස හඳුන්වන කඳුකර නගරය කුමක්ද?",
+    "options": [
+      "බදුල්ල",
+      "හැටන්",
+      "නුවරඑළිය",
+      "බණ්ඩාරවෙල"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which hill town is called 'Little England'? — Nuwara Eliya, for its colonial-era cottages, gardens and cool climate."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "කඩුපුල් මල පිපෙන්නේ දවසේ කුමන වේලාවේද?",
+    "options": [
+      "රාත්‍රියේ",
+      "සවස",
+      "දහවල",
+      "උදෑසන"
+    ],
+    "correctIndex": 0,
+    "gloss": "At what time of day does the kadupul flower bloom? — At night; it wilts before dawn, which is why it is so rarely seen."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "සිංහල ජනකතාවල රජ මාළිගාවේ විහිළු තහළුවලින් ප්‍රසිද්ධ කවටයා කවුද?",
+    "options": [
+      "ගමරාළ",
+      "අන්දරේ",
+      "තෙනාලි රාමන්",
+      "මහදැනමුත්තා"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Sinhala folk tales, who is the jester famous for his pranks at the royal court? — Andare. Mahadenamutta is the foolish 'wise man', Tenali Raman a jester of South Indian tales, Gamarala the village headman."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "අනුරාධපුරයේ රුවන්වැලි මහා සෑය ඉදිකිරීම ආරම්භ කළ රජු කවුද?",
+    "options": [
+      "මහසෙන්",
+      "වළගම්බා",
+      "දේවානම්පියතිස්ස",
+      "දුටුගැමුණු"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which king began building the Ruwanweli Maha Seya in Anuradhapura? — Dutugemunu (finished by his brother Saddhatissa). Devanampiyatissa built the Thuparama, Valagamba the Abhayagiri, Mahasen the Jetavana."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘සුවසැරිය’ නොමිලේ ගිලන් රථ සේවාව ඇමතීමට ඩයල් කළ යුත්තේ කුමන අංකයද?",
+    "options": [
+      "110",
+      "1990",
+      "119",
+      "1919"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number do you dial for the free Suwa Seriya ambulance? — 1990. 119 is the police emergency line, 110 the fire service, 1919 the Government Information Centre."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "වරදකරුට ඔහු කැමති දෙයම දඬුවම ලෙස දුන් විට කියන්නේ ‘ඉබ්බා ___ දැම්මා වගේ’ කියායි. හිස්තැන?",
+    "options": [
+      "ගින්නේ",
+      "දියේ",
+      "වළේ",
+      "කැලේ"
+    ],
+    "correctIndex": 1,
+    "gloss": "When a culprit is 'punished' with exactly what he likes, we say 'like throwing the tortoise into the ___'. — Water: «ඉබ්බා දියේ දැම්මා වගේ»."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "හිටි, හිඳි, සැතපෙන බුදු පිළිම එකම ගල් පර්වතයේ කෙටූ ‘ගල් විහාරය’ ඇත්තේ කුමන පුරාණ නගරයේද?",
+    "options": [
+      "අනුරාධපුරය",
+      "දඹුල්ල",
+      "යාපහුව",
+      "පොළොන්නරුව"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which ancient city is the Gal Vihara, with standing, seated and reclining Buddhas carved from one rock? — Polonnaruwa (12th century, Parakramabahu I)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "රාමායණයේ සීතාව පැහැරගෙන ලංකාවට රැගෙන ආ රජු කවුද?",
+    "options": [
+      "රාවණා",
+      "කුම්භකර්ණ",
+      "ඉන්ද්‍රජිත්",
+      "විභීෂණ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Ramayana, which king carried Sita off to Lanka? — Ravana. Vibhishana and Kumbhakarna are his brothers, Indrajit his son."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "පරිගණකයේ Ctrl + Z එබූ විට සාමාන්‍යයෙන් සිදු වන්නේ කුමක්ද?",
+    "options": [
+      "අවසන් වෙනස අහෝසි වීම",
+      "තෝරාගත් දේ පිටපත් වීම",
+      "ගොනුව සුරැකීම",
+      "සියල්ල තෝරා ගැනීම"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does Ctrl + Z usually do on a computer? — Undo the last change. Copy is Ctrl + C, save Ctrl + S, select all Ctrl + A."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "බැංකු ගනුදෙනුවලදී SMS මගින් එවන ‘OTP’ අංකයේ ‘O’ අකුරෙන් කියවෙන්නේ කුමක්ද?",
+    "options": [
+      "Online",
+      "One",
+      "Open",
+      "Official"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the 'OTP' code a bank texts you, what does the 'O' stand for? — One: One-Time Password, valid for a single use."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "සෝඩා බෝතලයක් සොලවා ඇරිය විට පෙණ ගොඩක් නගින්නේ එහි දියවී ඇති කුමන වායුව නිසාද?",
+    "options": [
+      "හයිඩ්‍රජන්",
+      "කාබන් ඩයොක්සයිඩ්",
+      "නයිට්‍රජන්",
+      "ඔක්සිජන්"
+    ],
+    "correctIndex": 1,
+    "gloss": "Shake a soda bottle and open it: which dissolved gas makes it foam? — Carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "පාපන්දු තරගවල ‘VAR’ ක්‍රමය විනිසුරුට තීරණ ගැනීමට උදව් කරන්නේ කෙසේද?",
+    "options": [
+      "වීඩියෝ දර්ශන නැවත බැලීමෙන්",
+      "ක්‍රීඩකයන්ගෙන් විමසීමෙන්",
+      "ප්‍රේක්ෂක ඡන්දයෙන්",
+      "කාලය නවතා ගැනීමෙන්"
+    ],
+    "correctIndex": 0,
+    "gloss": "How does VAR help the referee in football? — By reviewing video replays (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘නුටෙලා’ චොකලට් ආලේපයට චොකලට් සමඟ එක් කර ඇති ඇට වර්ගය කුමක්ද?",
+    "options": [
+      "රටකජු",
+      "කජු",
+      "හේසල් නට්",
+      "ආමන්ඩ්"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which nut goes into Nutella along with chocolate? — Hazelnut; peanut is the trap (peanut butter)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘Let It Go’ ගීතය ගයන එල්සා කුමරිය ප්‍රධාන චරිතය වන ඩිස්නි චිත්‍රපටය කුමක්ද?",
+    "options": [
+      "ෆ්‍රෝසන්",
+      "ටැන්ගල්ඩ්",
+      "එන්කැන්ටෝ",
+      "මෝආනා"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Disney film stars Elsa, who sings 'Let It Go'? — Frozen (2013)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "කොළ පැහැ කතා බුබුලක් තුළ සුදු දුරකථනයක් ඇති ලාංඡනය කුමන යෙදුමේද?",
+    "options": [
+      "සිග්නල්",
+      "ටෙලිග්‍රෑම්",
+      "වට්ස්ඇප්",
+      "වයිබර්"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whose logo is a white phone inside a green speech bubble? — WhatsApp. Viber's bubble is purple, Signal's blue, Telegram's is a paper plane."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "සර්පයා නිතරම දිව එළියට දමමින් සිටින්නේ ප්‍රධාන වශයෙන් කුමකටද?",
+    "options": [
+      "ශබ්ද ඇසීමට",
+      "සිරුර සිසිල් කරගන්නට",
+      "ගඳ සුවඳ දැනගන්නට",
+      "සතුරන් බිය ගැන්වීමට"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does a snake keep flicking its tongue? — To smell: the tongue picks up scent particles and carries them to an organ in the roof of the mouth."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "අයිස් වතුර වීදුරුවක පිටත පැත්තේ දිය බිඳු ඇති වන්නේ කොහෙන්ද?",
+    "options": [
+      "වීදුරුවේ ඇති සියුම් සිදුරුවලින්",
+      "වාතයේ ඇති ජලවාෂ්පයෙන්",
+      "වීදුරුව හරහා කාන්දු වීමෙන්",
+      "පිටතට විසිරෙන අයිස් වතුරෙන්"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where do the drops on the outside of a glass of iced water come from? — Water vapour in the air, condensing on the cold glass; nothing leaks through."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "කැරෝකේ ගායනයේදී ගීතයෙන් ඉවත් කර ඇත්තේ කුමක්ද?",
+    "options": [
+      "බෙර හඬ",
+      "තනුව",
+      "පද රචනය",
+      "ගායකයාගේ හඬ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In karaoke, what has been taken out of the song? — The singer's voice; the melody stays in the backing track and the lyrics come up on screen."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "නිර්මාංශිකයෙක් කන නමුත් ‘වීගන්’ කෙනෙක් නොකන්නේ මින් කුමක්ද?",
+    "options": [
+      "බත්",
+      "කිරි",
+      "අර්තාපල්",
+      "කඩල"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these does a vegetarian eat but a vegan does not? — Milk: vegans avoid all animal products; rice, chickpeas and potatoes are plants."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ක්‍රිකට් පිතිකරුවෙකු එක ලකුණක්වත් නොලබා දැවී ගිය විට එය හඳුන්වන්නේ කුමන නමින්ද?",
+    "options": [
+      "බවුන්සර්",
+      "යෝකර්",
+      "මේඩන්",
+      "ඩක්"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is it called when a batter is out without scoring? — A duck. A maiden is an over with no runs; yorker and bouncer are deliveries."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ත්‍රිරෝද රථ, කුලී රථ සහ කෑම ඇණවුම් කළ හැකි ශ්‍රී ලාංකික යෙදුම කුමක්ද?",
+    "options": [
+      "Grab",
+      "PickMe",
+      "Careem",
+      "Ola"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Sri Lankan app lets you order three-wheelers, taxis and food? — PickMe (founded in Colombo, 2015). Grab is Singaporean, Ola Indian, Careem from Dubai."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ශ්‍රී ලංකාවේ නිල ජාතික ක්‍රීඩාව කුමක්ද?",
+    "options": [
+      "එල්ලේ",
+      "වොලිබෝල්",
+      "රග්බි",
+      "ක්‍රිකට්"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is Sri Lanka's official national sport? — Volleyball (declared in 1991), not cricket, which is far more popular."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ලංකාව සහ ඉන්දියාව අතර පෝක් සමුද්‍ර සන්ධියෙන් එපිට ඇත්තේ ඉන්දියාවේ කුමන ප්‍රාන්තයද?",
+    "options": [
+      "ආන්ද්‍ර ප්‍රදේශ්",
+      "කේරළය",
+      "තමිල්නාඩුව",
+      "කර්ණාටකය"
+    ],
+    "correctIndex": 2,
+    "gloss": "Across the Palk Strait from Sri Lanka lies which Indian state? — Tamil Nadu.."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ඉතාලි අතුරුපසක් වන ‘ටිරාමිසු’ හි බිස්කට් පොඟවා ගන්නේ කුමකින්ද?",
+    "options": [
+      "කොකෝවාවලින්",
+      "තේවලින්",
+      "පලතුරු යුෂවලින්",
+      "කෝපිවලින්"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Italian dessert tiramisu, what are the biscuits soaked in? — Coffee. Cocoa is only dusted on top."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "බොබ් මාලි ලොව පුරා ජනප්‍රිය කළ ජැමෙයිකානු සංගීත ශෛලිය කුමක්ද?",
+    "options": [
+      "ජෑස්",
+      "බ්ලූස්",
+      "රෙගේ",
+      "කැලිප්සෝ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Jamaican music style did Bob Marley make popular worldwide? — Reggae. Calypso is from Trinidad."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "කහ පැහැති පොකේමොන් ‘පිකචු’ සතුරන්ට පහර දෙන්නේ ප්‍රධාන වශයෙන් කුමකින්ද?",
+    "options": [
+      "විදුලියෙන්",
+      "ගින්නෙන්",
+      "විෂෙන්",
+      "වතුරෙන්"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the yellow Pokémon Pikachu mainly attack with? — Electricity: it is an Electric-type Pokémon."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "දේදුන්නක් දකින මොහොතේ සූර්යයා ඇත්තේ ඔබට කොතැනකද?",
+    "options": [
+      "ක්ෂිතිජයට පහළින්",
+      "පිටුපසින්",
+      "ඉදිරියෙන්",
+      "හිස මුදුනේ"
+    ],
+    "correctIndex": 1,
+    "gloss": "When you see a rainbow, where is the Sun? — Behind you: raindrops ahead reflect sunlight back towards you. A Sun overhead or below the horizon gives no rainbow."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "20%ක වට්ටමක් ලැබී රු. 800ක් ගෙවා ඇඳුමක් ගත්තා. වට්ටමට පෙර එහි මිල කීයද?",
+    "options": [
+      "රු. 960",
+      "රු. 1,020",
+      "රු. 1,000",
+      "රු. 1,200"
+    ],
+    "correctIndex": 2,
+    "gloss": "With a 20% discount you paid Rs 800 for a dress. What was the price before the discount? — Rs 1,000: 800 is 80% of it. Adding 20% to 800 (960) is the trap."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "වෙබ් අඩවි ‘CAPTCHA’ මගින් ඇඹරුණු අකුරු ටයිප් කරවන්නේ කුමක් තහවුරු කරගන්නටද?",
+    "options": [
+      "ඔබේ මුරපදය",
+      "ඔබ සිටින රට",
+      "ඔබ මිනිසෙකු බව",
+      "ඔබේ වයස"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why do websites make you type twisted letters in a CAPTCHA? — To check you are a human, not a bot."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "සාමාන්‍ය වසරක වෙසක් පොහොයට ඊළඟට එළඹෙන පොහොය කුමක්ද?",
+    "options": [
+      "ඇසළ",
+      "නිකිණි",
+      "බක්",
+      "පොසොන්"
+    ],
+    "correctIndex": 3,
+    "gloss": "In an ordinary year, which poya comes right after Vesak? — Poson (June). Bak comes before Vesak, Esala and Nikini after Poson."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘මගෙන් වීදුරුව බිඳුණා’ යැයි කියන කෙනා හඟවන්නේ කුමක්ද?",
+    "options": [
+      "හිතාමතාම බිඳි බව",
+      "වෙන කෙනෙක් බිඳි බව",
+      "තවම නොබිඳුණු බව",
+      "නොදැනුවත්වම බිඳුණු බව"
+    ],
+    "correctIndex": 3,
+    "gloss": "Someone says 'magen viduruva binduna' ('the glass got broken from me'). What do they imply? — That it broke by accident: Sinhala's involitive verb (බිඳුණා) with the agent in -ගෙන් marks an unintended act, unlike 'මම වීදුරුව බින්දා'."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "මයික්‍රෝවේව් උදුනක ආහාරය රත් වන්නේ ප්‍රධාන වශයෙන් ආහාරයේ ඇති කුමන අණු කම්පනය වීමෙන්ද?",
+    "options": [
+      "සීනි අණු",
+      "ප්‍රෝටීන අණු",
+      "ලුණු අණු",
+      "ජල අණු"
+    ],
+    "correctIndex": 3,
+    "gloss": "A microwave oven heats food mainly by setting which molecules in it moving? — Water molecules."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘හෙළ හවුල’ ආරම්භ කර, සංස්කෘත වචනවලින් තොර පිරිසිදු සිංහලය වෙනුවෙන් පෙනී සිටි ලේඛකයා කවුද?",
+    "options": [
+      "ජී. බී. සේනානායක",
+      "මාර්ටින් වික්‍රමසිංහ",
+      "කුමාරතුංග මුනිදාස",
+      "පියදාස සිරිසේන"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which writer founded the Hela Havula and championed a Sinhala free of Sanskrit words? — Kumaratunga Munidasa (1941)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "2009 දී තිරගත වූ ‘අවතාර්’ චිත්‍රපටය අධ්‍යක්ෂණය කළේ කවුද?",
+    "options": [
+      "ජේම්ස් කැමරන්",
+      "පීටර් ජැක්සන්",
+      "ස්ටීවන් ස්පිල්බර්ග්",
+      "ක්‍රිස්ටෝෆර් නෝලන්"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed the 2009 film 'Avatar'? — James Cameron."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "සිඩ්නි ඔපෙරා මන්දිරයේ වහලය බොහෝ විට සසඳනු ලබන්නේ කුමකටද?",
+    "options": [
+      "කුරුළු පියාපත්වලට",
+      "නැවක රුවල්වලට",
+      "නෙළුම් පෙතිවලට",
+      "කඳු මුදුන්වලට"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the roof of the Sydney Opera House usually compared to? — A ship's sails, fitting its harbour setting (Jørn Utzon, 1973)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2000 සිඩ්නි ඔලිම්පික් උළෙලේ මීටර් 200 ධාවනයෙන් ශ්‍රී ලංකාවට පදක්කමක් දිනූ ක්‍රීඩිකාව කවුද?",
+    "options": [
+      "දමයන්ති දර්ශා",
+      "ශ්‍රියානි කුලවංශ",
+      "සුසන්තිකා ජයසිංහ",
+      "නිමාලි ලියනආරච්චි"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which athlete won Sri Lanka a medal in the 200 m at the Sydney 2000 Olympics? — Susanthika Jayasinghe (bronze, later upgraded to silver)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "පිදුරුතලාගල මුදුනේදී විවෘත භාජනයක වතුර උතුරන්නේ කුමන උෂ්ණත්වයකදීද?",
+    "options": [
+      "100 °C ට අඩුවෙන්",
+      "හරියටම 100 °C",
+      "100 °C ට වැඩියෙන්",
+      "0 °C ට ආසන්නව"
+    ],
+    "correctIndex": 0,
+    "gloss": "On top of Pidurutalagala, at what temperature does water boil in an open pot? — Below 100 °C (about 92 °C at 2,524 m): lower air pressure, lower boiling point — the opposite of a pressure cooker."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "රෝම ඉලක්කමින් ‘MMXXVI’ ලෙස ලියා ඇත්තේ කුමන වර්ෂයද?",
+    "options": [
+      "2016",
+      "2026",
+      "2046",
+      "2024"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which year is written MMXXVI in Roman numerals? — 2026: MM = 2000, XX = 20, VI = 6. 2024 would be MMXXIV."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "වෙබ් ලිපිනයක ‘https’ හි අවසාන ‘s’ අකුරෙන් හැඟවෙන්නේ කුමක්ද?",
+    "options": [
+      "System",
+      "Secure",
+      "Server",
+      "Site"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the final 's' of 'https' stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "උඩරට නැටුම් සම්ප්‍රදායේ මූලාරම්භය ලෙස සැලකෙන ශාන්තිකර්මය කුමක්ද?",
+    "options": [
+      "සන්නි යකුම",
+      "දොළොස්මහ පහන",
+      "ගම්මඩුව",
+      "කොහොඹා කංකාරිය"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which ritual is seen as the origin of Kandyan dance? — The Kohomba Kankariya. Sanni yakuma, Dolos maha pahana and Gammaduva are rituals of other traditions (low country and Sabaragamuwa)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1409 දී ගාල්ලේ තැබූ, චීන, දෙමළ හා පර්සියානු භාෂා තුනේ සෙල්ලිපිය හා සම්බන්ධ චීන ජාතිකයා කවුද?",
+    "options": [
+      "චාං චියෙන්",
+      "ෆාහියන්",
+      "හියුං සාං",
+      "චෙං හෝ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Chinese is linked to the 1409 trilingual (Chinese, Tamil, Persian) inscription set up in Galle? — Admiral Zheng He. Faxian and Xuanzang were pilgrim monks, Zhang Qian a Han-era envoy to Central Asia."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "පෘථිවියේදී ස්කන්ධය කිලෝග්‍රෑම් 60ක් වූ ගගනගාමියෙකුගේ ස්කන්ධය සඳ මතදී කොපමණද?",
+    "options": [
+      "කි.ග්‍රෑ. 360",
+      "කි.ග්‍රෑ. 10",
+      "කි.ග්‍රෑ. 6",
+      "කි.ග්‍රෑ. 60"
+    ],
+    "correctIndex": 3,
+    "gloss": "An astronaut's mass is 60 kg on Earth. What is it on the Moon? — Still 60 kg: mass does not change; only weight drops to about a sixth (the 10 kg trap)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1905 දී පළ වූ, මුල්ම සිංහල නවකතාවලින් එකක් ලෙස සැලකෙන ‘මීනා’ ලියූයේ කවුද?",
+    "options": [
+      "ඒ. සයිමන් ද සිල්වා",
+      "හේමපාල මුනිදාස",
+      "පියදාස සිරිසේන",
+      "ඩබ්ලිව්. ඒ. සිල්වා"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Meena' (1905), counted among the very first Sinhala novels? — A. Simon de Silva. Piyadasa Sirisena's novels came soon after; W. A. Silva and Hemapala Munidasa wrote later."
+  }
+]
