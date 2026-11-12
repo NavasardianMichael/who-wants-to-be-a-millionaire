@@ -8,12 +8,13 @@ import { Button } from '@components/ui/Button'
 import { Dialog } from '@components/ui/Dialog'
 
 /**
- * A visitor who arrives with the sound off (muted, or the volume at zero) is asked once per
- * device to turn it on — the music and stings carry the show's suspense. The audio store
- * decides when to ask (`askToUnmute`, set on hydration).
+ * Offers the sound — the music and stings carry the show's suspense. A visitor who arrives with
+ * it off (muted, or the volume at zero) is asked once per device; one who has it on is asked
+ * whenever the browser holds it back until the first click (every reload, in most browsers),
+ * and the button is that click. The audio store decides when (`soundHint`).
  */
 export const SoundHint = () => {
-  const open = useAudioStore.use.askToUnmute()
+  const open = useAudioStore.use.soundHint() !== null
   const turnSoundOn = useAudioStore.use.turnSoundOn()
   const dismiss = useAudioStore.use.dismissSoundHint()
   const t = useTranslations('Common')
@@ -32,7 +33,7 @@ export const SoundHint = () => {
       description={t('soundHintBody')}
       footer={
         <>
-          <Button variant='ghost' onClick={dismiss}>
+          <Button variant='secondary' onClick={dismiss}>
             {t('notNow')}
           </Button>
           <Button onClick={accept} icon={<Volume2 aria-hidden className='size-5' />}>

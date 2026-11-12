@@ -69,7 +69,7 @@ export const ProfileView = () => {
         <p className='text-mist'>{t('Profile.signInBody')}</p>
         <div className='flex w-full flex-col gap-3 sm:w-auto'>
           {googleAvailable && <GoogleSignInButton />}
-          <ButtonLink href={ROUTES.signIn} variant='outline'>
+          <ButtonLink href={ROUTES.signIn} variant='secondary'>
             <LogIn aria-hidden className='size-5 rtl:-scale-x-100' />
             {t('Common.signInWithEmail')}
           </ButtonLink>
@@ -88,7 +88,7 @@ export const ProfileView = () => {
         </p>
         <PasswordSection user={user} />
         <Button
-          variant='ghost'
+          variant='secondary'
           size='sm'
           onClick={async () => {
             await logout()

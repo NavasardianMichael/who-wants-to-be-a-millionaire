@@ -12,7 +12,8 @@ import { type SoundId,SOUNDS } from './sounds'
  * moves on and the sting fades out with it rather than play on under the next beat.
  *
  * Browser autoplay rules: nothing can sound before the first user gesture. A refused music
- * bed is retried on that gesture; a refused sting is simply skipped — the game is fully
+ * bed is retried on that gesture, and `playbackBlocked` reports the wait so `SoundHint` can
+ * offer a button to be that gesture; a refused sting is simply skipped — the game is fully
  * playable silent.
  *
  * A hidden page (a locked phone, another app or tab) is silent: the bed pauses and resumes on
@@ -55,6 +56,11 @@ class AudioManager {
   private hidden = false
   /** Nothing new starts before this moment (epoch ms): the silence after the last sting. */
   private quietUntil = 0
+  private blocked = false
+  private blockedListeners = new Set<(blocked: boolean) => void>()
+  /** The sound hint is asking: only its answer may start the sound, not any click on the page. */
+  private held = false
+  private gestureArmed = false
 
   constructor() {
     if (typeof document === 'undefined') return
@@ -78,6 +84,34 @@ class AudioManager {
     return typeof window !== 'undefined' && typeof Audio !== 'undefined'
   }
 
+  /** The browser holds the sound back until the first click or key press on the page (autoplay rules). */
+  get playbackBlocked(): boolean {
+    return this.blocked
+  }
+
+  /** Called whenever `playbackBlocked` changes; returns the unsubscribe. */
+  onPlaybackBlocked(listener: (blocked: boolean) => void): () => void {
+    this.blockedListeners.add(listener)
+    return () => this.blockedListeners.delete(listener)
+  }
+
+  private setBlocked(blocked: boolean): void {
+    if (this.blocked === blocked) return
+    this.blocked = blocked
+    for (const listener of this.blockedListeners) listener(blocked)
+  }
+
+  /** While the sound hint asks, a click elsewhere on the page does not start the waiting bed. */
+  hold(): void {
+    this.held = true
+  }
+
+  /** The hint was answered — call it inside that click, which is the gesture the browser waits for. */
+  release(): void {
+    this.held = false
+    this.resumeMusic()
+  }
+
   configure({ muted, volume }: { muted: boolean; volume: number }): void {
     this.muted = muted
     this.volume = Math.min(1, Math.max(0, volume))
@@ -89,6 +123,8 @@ class AudioManager {
       sting.muted = muted
       sting.volume = this.volume
     }
+    // A muted bed may play before any gesture, and a change made by a click is that gesture.
+    if (this.blocked) this.resumeMusic()
   }
 
   /** Warms the HTTP cache so the first sting does not wait on the network. */
@@ -114,28 +150,40 @@ class AudioManager {
     this.resumeMusic(this.quietMs)
   }
 
-  /** Starts (or restarts) the bed — unless a sting has the floor or the page is hidden. */
+  /** Starts (or restarts) the bed — unless a sting has the floor, the page is hidden or the hint asks. */
   private resumeMusic(delayMs = 0): void {
     const music = this.music
     if (!music) return
     const resume = () => {
-      // Refused before the first gesture (autoplay rules): start it on the first click or key instead.
-      if (this.music === music && music.paused && this.stings.size === 0 && !this.hidden) {
-        music.play().catch(() => this.resumeOnGesture(music))
-      }
+      if (this.music !== music || !music.paused || this.stings.size > 0 || this.hidden || this.held) return
+      music.play().then(
+        () => this.setBlocked(false),
+        (error: unknown) => {
+          // Refused before the first gesture (autoplay rules): start it on the first click or key instead.
+          if (error instanceof DOMException && error.name === 'NotAllowedError') this.setBlocked(true)
+          this.resumeOnGesture()
+        }
+      )
     }
     if (delayMs) setTimeout(resume, delayMs)
     else resume()
   }
 
-  private resumeOnGesture(audio: HTMLAudioElement): void {
+  /**
+   * `click` rather than `pointerdown`: a touch's `pointerdown` does not count as a gesture, so it
+   * would spend the one retry on a refusal. While the hint asks, clicks pass and the retry waits.
+   */
+  private resumeOnGesture(): void {
+    if (this.gestureArmed) return
+    this.gestureArmed = true
     const resume = () => {
-      document.removeEventListener('pointerdown', resume, true)
+      if (this.held) return
+      document.removeEventListener('click', resume, true)
       document.removeEventListener('keydown', resume, true)
-      // Only if that bed is still the one meant to play.
-      if (this.music === audio && audio.paused && this.stings.size === 0) audio.play().catch(ignoreAutoplayRefusal)
+      this.gestureArmed = false
+      this.resumeMusic()
     }
-    document.addEventListener('pointerdown', resume, true)
+    document.addEventListener('click', resume, true)
     document.addEventListener('keydown', resume, true)
   }
 

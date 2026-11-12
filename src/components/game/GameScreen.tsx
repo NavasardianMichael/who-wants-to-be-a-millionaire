@@ -372,7 +372,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
                           {t('Game.switchPrompt')}
                         </p>
                         <p className='text-body-sm text-mist'>{t('Game.switchPromptHint')}</p>
-                        <Button variant='ghost' size='sm' onClick={() => void store.previewSwitchAnswer(null)}>
+                        <Button variant='secondary' size='sm' onClick={() => void store.previewSwitchAnswer(null)}>
                           {t('Game.switchSkip')}
                         </Button>
                       </>
@@ -443,7 +443,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
         title={t('Game.finalAnswerPrompt')}
         footer={
           <>
-            <Button variant='ghost' onClick={store.cancelSelection} className='grow sm:grow-0'>
+            <Button variant='secondary' onClick={store.cancelSelection} className='grow sm:grow-0'>
               {t('Game.changeAnswer')}
             </Button>
             {/* Focused on open, so A–D then Enter (the keyboard hint) locks the answer in. */}
@@ -492,7 +492,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
         description={t('Game.walkAwayBody', { amount: formatMoney(walkAwayAmount(answered), locale) })}
         footer={
           <>
-            <Button variant='ghost' onClick={() => setWalkAwayOpen(false)}>
+            <Button variant='secondary' onClick={() => setWalkAwayOpen(false)}>
               {t('Game.keepPlaying')}
             </Button>
             <Button
@@ -514,7 +514,7 @@ export const GameScreen = ({ mode }: { mode: GameMode }) => {
         description={ranked ? t('Game.leaveRankedBody') : t('Game.leaveBody')}
         footer={
           <>
-            <Button variant='ghost' onClick={() => setLeaveOpen(false)}>
+            <Button variant='secondary' onClick={() => setLeaveOpen(false)}>
               {t('Game.keepPlaying')}
             </Button>
             <Button

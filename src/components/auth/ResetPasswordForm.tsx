@@ -42,7 +42,7 @@ export const ResetPasswordForm = () => {
   }
 
   const newLink = (
-    <ButtonLink href={ROUTES.forgotPassword} variant='outline' fullWidth>
+    <ButtonLink href={ROUTES.forgotPassword} variant='secondary' fullWidth>
       {t('Auth.requestNewLink')}
     </ButtonLink>
   )

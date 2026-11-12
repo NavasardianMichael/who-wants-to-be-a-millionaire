@@ -101,7 +101,7 @@ export default async function HomePage() {
             </li>
           ))}
         </ul>
-        <ButtonLink href={ROUTES.badges} variant='ghost' className='mt-6'>
+        <ButtonLink href={ROUTES.badges} variant='secondary' className='mt-6'>
           <Sparkles aria-hidden className='size-5' /> {t('Home.viewBadges')}
         </ButtonLink>
       </Section>

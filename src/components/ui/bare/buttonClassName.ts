@@ -1,6 +1,7 @@
 import { cn } from '@helpers/cn'
 
-export type ButtonVariant = 'gold' | 'violet' | 'ghost' | 'outline' | 'ivory' | 'danger'
+/** `gold` is the primary action; `secondary` is the one look for every action beside or below it. */
+export type ButtonVariant = 'gold' | 'violet' | 'secondary' | 'ivory' | 'danger'
 export type ButtonSize = 'sm' | 'md' | 'lg'
 
 /**
@@ -38,14 +39,11 @@ export const buttonClassName = ({
     size === 'sm' && 'text-body-sm [--cut:0.6rem]',
     size === 'md' && 'text-body',
     size === 'lg' && 'text-h3 [--cut:1rem]',
-    variant === 'ghost' && (size === 'sm' ? 'px-3' : 'px-5'),
     variant === 'gold' && 'btn-hex btn-gold',
     variant === 'violet' && 'btn-hex btn-violet',
-    variant === 'outline' && 'btn-hex btn-outline',
+    variant === 'secondary' && 'btn-hex btn-outline',
     variant === 'ivory' && 'btn-hex btn-ivory',
     variant === 'danger' && 'btn-hex btn-danger',
-    variant === 'ghost' &&
-      'border-white/10 bg-white/6 text-mist transition-colors hover:border-white/20 hover:bg-white/12 hover:text-ivory',
     fullWidth && 'w-full',
     className
   )

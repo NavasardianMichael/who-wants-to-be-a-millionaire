@@ -69,7 +69,7 @@ export const ContactForm = () => {
         <h2 className='text-h3 font-bold text-gold-200'>{t('sentTitle')}</h2>
         <p className='text-mist'>{t('sentBody')}</p>
         <Button
-          variant='outline'
+          variant='secondary'
           onClick={() => {
             form.resetFields()
             prefill()

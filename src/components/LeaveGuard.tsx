@@ -110,7 +110,7 @@ export const LeaveGuard = () => {
       description={reason === 'rankedGame' ? t('Game.leaveRankedBody') : game ? t('Game.leaveBody') : t('Common.unsavedBody')}
       footer={
         <>
-          <Button variant='ghost' onClick={stay}>
+          <Button variant='secondary' onClick={stay}>
             {game ? t('Game.keepPlaying') : t('Common.stay')}
           </Button>
           <Button variant='danger' onClick={() => answer(true)}>

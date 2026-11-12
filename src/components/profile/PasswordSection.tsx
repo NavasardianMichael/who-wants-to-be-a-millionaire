@@ -44,7 +44,7 @@ export const PasswordSection = ({ user }: { user: SessionUser }) => {
           <p className='text-caption text-mist'>{user.hasPassword ? t('passwordChangeBody') : t('passwordSetBody')}</p>
           {Boolean(error) && <ErrorAlert error={error} />}
           <Button
-            variant='outline'
+            variant='secondary'
             size='sm'
             loading={state === 'sending'}
             onClick={send}

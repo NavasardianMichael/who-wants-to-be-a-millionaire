@@ -38,7 +38,7 @@ export const AuthGate = ({ children }: { children: ReactNode }) => {
           <Trophy aria-hidden className='size-5' />
           {t('Nav.marathon')}
         </ButtonLink>
-        <ButtonLink href={ROUTES.profile} variant='outline'>
+        <ButtonLink href={ROUTES.profile} variant='secondary'>
           <User aria-hidden className='size-5' />
           {t('Nav.profile')}
         </ButtonLink>

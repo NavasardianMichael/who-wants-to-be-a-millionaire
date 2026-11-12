@@ -41,9 +41,9 @@
   without `!important`, and preflight never resets an antd control.
 - Corners are deliberately tight (`RADII` 4/6/10 px; Tailwind's `rounded-*` scale is reduced
   to match). `rounded-full` only for things that are round: avatars, lifeline ovals, dots.
-- Buttons are the show's hexagon (`btn-hex` + `btn-gold|violet|outline|danger`, globals.css §8):
+- Buttons are the show's hexagon (`btn-hex` + `btn-gold|violet|outline|danger`; the `secondary` variant draws `btn-outline`, globals.css §8):
   rim, gloss, shape-following glow, a light sweep on hover; antd's click wave is off.
-- Use the kit, all antd underneath: `Button` (gold/violet/outline/ghost/danger) / `ButtonLink`
+- Use the kit, all antd underneath: `Button` (gold/violet/secondary/ivory/danger — `secondary` for every non-primary action) / `ButtonLink`
   (server-safe, same classes), `IconButton` (label = tooltip), `Dialog` (Modal; bottom sheet
   below `md`; end drawer), `SegmentedControl` (Segmented), `Chip` (CheckableTag), `Toggle`
   (Switch), `Spinner` (Spin), `ErrorAlert` (Alert), `Avatar`, `Toaster` (bridges the `toast()`

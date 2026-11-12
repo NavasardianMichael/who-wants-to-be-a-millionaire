@@ -45,7 +45,7 @@ export const VerificationNotice = ({ email, variant }: Props) => {
       <p className='text-body-sm text-mist'>{t('checkInboxSpam')}</p>
       {state === 'sent' && <Alert role='status' type='info' showIcon title={t('resendSent')} />}
       {Boolean(error) && <ErrorAlert error={error} />}
-      <Button variant='outline' fullWidth loading={state === 'sending'} onClick={resend}>
+      <Button variant='secondary' fullWidth loading={state === 'sending'} onClick={resend}>
         {t('resendVerification')}
       </Button>
     </div>

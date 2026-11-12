@@ -90,7 +90,7 @@ export const GameSettingsForm = () => {
         ))}
       </fieldset>
 
-      <Button variant='outline' size='sm' onClick={resetGameSettings} className='self-start'>
+      <Button variant='secondary' size='sm' onClick={resetGameSettings} className='self-start'>
         {t('Settings.reset')}
       </Button>
     </div>

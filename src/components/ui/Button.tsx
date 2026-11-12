@@ -26,7 +26,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     <AntButton
       ref={ref}
       htmlType={type}
-      type={variant === 'gold' ? 'primary' : variant === 'ghost' ? 'text' : variant === 'danger' ? 'primary' : 'default'}
+      type={variant === 'gold' || variant === 'danger' ? 'primary' : 'default'}
       danger={variant === 'danger'}
       size={size === 'sm' ? 'middle' : 'large'}
       block={fullWidth}
@@ -36,19 +36,15 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         'font-bold',
         // antd fixes the height and forbids wrapping; a long label grows the button instead.
         buttonWrapClassName(size),
-        // The hexagon's padding follows its point depth (`--cut`); only the flat ghost pads itself.
+        // The hexagon's padding follows its point depth (`--cut`).
         size === 'sm' && 'text-body-sm [--cut:0.6rem]',
         size === 'md' && 'text-body',
         size === 'lg' && 'text-h3 [--cut:1rem]',
-        variant === 'ghost' && (size === 'sm' ? 'px-3' : 'px-5'),
         variant === 'gold' && 'btn-hex btn-gold',
         variant === 'violet' && 'btn-hex btn-violet',
-        variant === 'outline' && 'btn-hex btn-outline',
+        variant === 'secondary' && 'btn-hex btn-outline',
         variant === 'ivory' && 'btn-hex btn-ivory',
         variant === 'danger' && 'btn-hex btn-danger',
-        // A faint glass fill and rim, so the quiet action still reads as a button.
-        variant === 'ghost' &&
-          'border-white/10 bg-white/6 text-mist hover:border-white/20 hover:bg-white/12 hover:text-ivory',
         className
       )}
       {...rest}

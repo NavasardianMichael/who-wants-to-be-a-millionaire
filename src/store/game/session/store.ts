@@ -712,7 +712,10 @@ export const useGameSessionStoreBase = create<GameSessionState & GameSessionActi
           clearSwitch()
           reportShown(queue)
           queue = null
-          audioManager.stopAll()
+          // Off stage again: the theme plays on (or comes back). Stopping it here would leave a
+          // page that quits an idle game silent, since `AmbientMusic` only reacts to a phase change.
+          audioManager.stopStings()
+          audioManager.playMusic('mainTheme')
           set(() => ({ ...initialState }))
         },
       }

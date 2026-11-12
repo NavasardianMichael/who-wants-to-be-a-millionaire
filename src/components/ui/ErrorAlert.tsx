@@ -39,7 +39,7 @@ export const ErrorAlert = ({ error, message, onRetry, className }: ErrorAlertPro
       }
       action={
         onRetry && (
-          <Button variant='outline' size='sm' onClick={onRetry} icon={<RotateCcw aria-hidden className='size-4' />}>
+          <Button variant='secondary' size='sm' onClick={onRetry} icon={<RotateCcw aria-hidden className='size-4' />}>
             {t('Common.retry')}
           </Button>
         )

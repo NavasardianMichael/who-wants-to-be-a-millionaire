@@ -81,7 +81,7 @@ export const AvatarEditor = ({ user }: { user: SessionUser }) => {
       <p className='text-caption text-mist'>{t('avatarHint')}</p>
       {Boolean(saveError) && <ErrorAlert error={saveError} message={t('avatarInvalid')} className='w-full text-start' />}
       {user.hasUploadedAvatar && (
-        <Button variant='ghost' size='sm' onClick={() => void removeAvatar()} icon={<Trash2 aria-hidden className='size-4' />}>
+        <Button variant='secondary' size='sm' onClick={() => void removeAvatar()} icon={<Trash2 aria-hidden className='size-4' />}>
           {t('removeAvatar')}
         </Button>
       )}

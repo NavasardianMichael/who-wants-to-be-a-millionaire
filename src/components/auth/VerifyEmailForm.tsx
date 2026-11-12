@@ -34,7 +34,7 @@ export const VerifyEmailForm = () => {
     )
   }
 
-  const signInLink = (variant: 'gold' | 'outline') => (
+  const signInLink = (variant: 'gold' | 'secondary') => (
     <ButtonLink href={ROUTES.signIn} variant={variant} fullWidth>
       {t('Auth.signInTitle')}
     </ButtonLink>
@@ -55,7 +55,7 @@ export const VerifyEmailForm = () => {
     return (
       <div className='flex flex-col gap-5'>
         <Alert type='warning' showIcon title={t('Auth.verifyMissing')} />
-        {signInLink('outline')}
+        {signInLink('secondary')}
       </div>
     )
   }
@@ -78,7 +78,7 @@ export const VerifyEmailForm = () => {
       <Button fullWidth loading={state === 'sending'} onClick={verify} icon={<MailCheck aria-hidden className='size-5' />}>
         {t('Auth.verifySubmit')}
       </Button>
-      {Boolean(error) && signInLink('outline')}
+      {Boolean(error) && signInLink('secondary')}
     </div>
   )
 }
