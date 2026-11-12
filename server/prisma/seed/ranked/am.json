@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ሴት ጓደኛዎን «ወደዚህ ___!» ብለው ሲጠሩ ባዶውን ቦታ የሚሞላው ቃል የትኛው ነው?",
+    "options": [
+      "ና",
+      "ኑ",
+      "ነይ",
+      "ይምጡ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Calling a female friend: 'Come ___ here!' — ነይ: the feminine imperative; ና is masculine, ኑ plural, ይምጡ polite."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ከ«ጻፈ» ግስ ከተገኙት ቃላት መካከል የሚጽፈውን ሰው የሚያመለክተው የትኛው ነው?",
+    "options": [
+      "ጽሑፍ",
+      "ጸሐፊ",
+      "መጻፊያ",
+      "ጽሕፈት"
+    ],
+    "correctIndex": 1,
+    "gloss": "Of the words built from 'he wrote', which names the person who writes? — ጸሐፊ (writer); ጽሑፍ is text, መጻፊያ a pen, ጽሕፈት writing."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "በ«ቤተ መንግሥት»፣ «ቤተ መጻሕፍት» እና «ቤተ ክርስቲያን» ውስጥ «ቤተ» ምን ማለት ነው?",
+    "options": [
+      "ቤት",
+      "ታላቅ",
+      "ቅዱስ",
+      "ጥንታዊ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 'palace', 'library' and 'church', what does ቤተ mean? — House: palace = house of government, library = house of books, church = house of Christians."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በዛሬው የአማርኛ አነባበብ ከ«ሰ» ጋር አንድ ዓይነት ድምፅ ያለው ፊደል የትኛው ነው?",
+    "options": [
+      "ሸ",
+      "ዘ",
+      "ጸ",
+      "ሠ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In today's Amharic pronunciation, which letter sounds the same as ሰ? — ሠ: the two 's' letters merged in sound; ሸ is 'sh', ዘ 'z', ጸ an ejective 'ts'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«የማያውቁት ___ አይናፍቅም» ይላል ተረቱ። የጎደለው ቃል የትኛው ነው?",
+    "options": [
+      "ሰው",
+      "አገር",
+      "ቤት",
+      "መንገድ"
+    ],
+    "correctIndex": 1,
+    "gloss": "'One does not miss a ___ one has never known', says the proverb — አገር (country): «የማያውቁት አገር አይናፍቅም»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በኦርቶዶክስ ተዋሕዶ እምነት በየሳምንቱ የሚጾሙት ሁለቱ ቀናት የትኞቹ ናቸው?",
+    "options": [
+      "ሰኞና ሐሙስ",
+      "ረቡዕና ዓርብ",
+      "ማክሰኞና ቅዳሜ",
+      "ሐሙስና እሑድ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which two days a week do Ethiopian Orthodox believers fast? — Wednesday and Friday (Monday and Thursday is the Muslim voluntary fast, a tempting trap)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ታቦታት ከየአብያተ ክርስቲያናቱ ወጥተው በወንዝ ወይም በኩሬ ዳርቻ የሚያድሩበት የጥር በዓል የትኛው ነው?",
+    "options": [
+      "መስቀል",
+      "ደብረ ታቦር",
+      "ጥምቀት",
+      "ፋሲካ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which January feast sees the tabots leave the churches and spend the night by a river or pool? — Timket (Epiphany), marking Christ's baptism."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በኢትዮጵያ ሰንደቅ ዓላማ መሐል ያለው ኮከብ የተቀመጠበት ክብ ቀለሙ ምንድን ነው?",
+    "options": [
+      "ሰማያዊ",
+      "ጥቁር",
+      "ነጭ",
+      "ሐምራዊ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What colour is the disc holding the star in the middle of Ethiopia's flag? — Blue."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "አንድ ብር ስንት ሳንቲም ነው?",
+    "options": [
+      "10",
+      "50",
+      "100",
+      "1000"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many santim make one birr? — 100."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በመድኃኒት ጠርሙስ ላይ «ከመጠቀምዎ በፊት ይነቅንቁ» የሚል የሚጻፈው ለምንድን ነው?",
+    "options": [
+      "ጣዕሙ እንዲጣፍጥ",
+      "እንዲቀዘቅዝ",
+      "ውስጡ ያለው ንጥረ ነገር ስለሚዘቅጥ",
+      "አየር እንዲገባበት"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does a medicine bottle say 'shake before use'? — Because the active ingredient settles at the bottom, so the dose would be uneven."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "የኢትዮጵያ ብሔራዊ የእግር ኳስ ቡድን በቅጽል ስሙ ምን ይባላል?",
+    "options": [
+      "ንስሮቹ",
+      "አናብስቱ",
+      "ዋልያዎቹ",
+      "ዝሆኖቹ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Ethiopian national football team's nickname? — The Walias (after the Walia ibex); Eagles, Lions and Elephants belong to other African teams."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ባለ አንድ ክር ሆኖ በቀስት የሚጫወተው ባህላዊ የሙዚቃ መሣሪያ የትኛው ነው?",
+    "options": [
+      "ክራር",
+      "ማሲንቆ",
+      "በገና",
+      "ዋሽንት"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which traditional instrument has a single string and is played with a bow? — Masenqo; krar and begena are plucked lyres, washint a flute."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ከክረምቱ ዝናብ በኋላ በአዲስ ዓመት መባቻ ሜዳውን በቢጫ የሚያለብሰው አበባ የትኛው ነው?",
+    "options": [
+      "ጽጌረዳ",
+      "ቱሊፕ",
+      "ሊሊ",
+      "አደይ አበባ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which flower covers the fields in yellow at the New Year, after the rains? — Adey abeba (the Meskel daisy)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ጠጅ የሚጣለው በዋናነት ከምንድን ነው?",
+    "options": [
+      "ከገብስ",
+      "ከማር",
+      "ከጤፍ",
+      "ከበቆሎ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is tej mainly brewed from? — Honey (it is honey wine, flavoured with gesho); barley is for tella."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የአውስትራሊያው ኮዋላ በዋናነት የሚመገበው የየትኛውን ዛፍ ቅጠል ነው?",
+    "options": [
+      "የባሕር ዛፍ",
+      "የጥድ",
+      "የዋንዛ",
+      "የዝግባ"
+    ],
+    "correctIndex": 0,
+    "gloss": "The koala of Australia feeds mainly on the leaves of which tree? — Eucalyptus (ባሕር ዛፍ), the same tree planted all around Addis Ababa."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በስልክዎ የጉግል ካርታ (Google Maps) ላይ የሚታየው ሰማያዊ ነጥብ ምንን ያመለክታል?",
+    "options": [
+      "የቅርቡን ሆስፒታል",
+      "የመድረሻዎን ቦታ",
+      "እርስዎ አሁን ያሉበትን ቦታ",
+      "የትራፊክ መጨናነቅን"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Google Maps on your phone, what does the blue dot show? — Where you are right now (the destination is a red pin)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ቴሌብር» የተሰኘው የሞባይል ገንዘብ አገልግሎት የየትኛው ኩባንያ ነው?",
+    "options": [
+      "የሳፋሪኮም",
+      "የኢትዮጵያ ንግድ ባንክ",
+      "የኢትዮ ቴሌኮም",
+      "የአዋሽ ባንክ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which company runs the telebirr mobile-money service? — Ethio Telecom (Safaricom's is M-Pesa)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የቴሌግራም መተግበሪያ መለያ ምልክት ምን ይመስላል?",
+    "options": [
+      "የወረቀት አውሮፕላን",
+      "የስልክ መቀበያ",
+      "ፖስታ",
+      "ወፍ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the Telegram app's logo look like? — A paper plane."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በኮምፒውተር ላይ Ctrl+Z ሲጫኑ ምን ይሆናል?",
+    "options": [
+      "ፋይሉ ይቀመጣል",
+      "የመጨረሻው ድርጊት ይቀለበሳል",
+      "ጽሑፉ ይገለበጣል",
+      "ገጹ ይታተማል"
+    ],
+    "correctIndex": 1,
+    "gloss": "What happens when you press Ctrl+Z on a computer? — The last action is undone (save is Ctrl+S, copy Ctrl+C, print Ctrl+P)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በምጣድ ላይ ያለ ዘይት በእሳት ቢያያዝ እሳቱን ለማጥፋት ምን ማድረግ ይገባል?",
+    "options": [
+      "ውሃ ማፍሰስ",
+      "በአፍ መንፋት",
+      "በማራገቢያ ማራገብ",
+      "በክዳን መክደን"
+    ],
+    "correctIndex": 3,
+    "gloss": "If oil in a pan catches fire, how should you put it out? — Cover it with a lid to cut off the air; water makes burning oil explode."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በጥሎ ማለፍ የእግር ኳስ ጨዋታ በተጨማሪ ሰዓትም አቻ ከተጠናቀቀ አሸናፊው በምን ይለያል?",
+    "options": [
+      "በሳንቲም ዕጣ",
+      "በማዕዘን ምት ብዛት",
+      "በቢጫ ካርድ ብዛት",
+      "በመለያ ምት"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a knockout football match still level after extra time, how is the winner decided? — By a penalty shoot-out."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ሊጡ ቦክቶ ዳቦው እንዲነፋ የሚያደርገው የትኛው ነው?",
+    "options": [
+      "እርሾ",
+      "ጨው",
+      "ስኳር",
+      "ዘይት"
+    ],
+    "correctIndex": 0,
+    "gloss": "What makes the dough ferment and the bread rise? — Yeast (እርሾ), whose gas puffs up the dough."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በግሪክ አፈ ታሪክ በሰም በተለጠፉ ክንፎች ወደ ፀሐይ ተጠግቶ በመብረሩ የወደቀው ማን ነው?",
+    "options": [
+      "ፐርሲየስ",
+      "ኢካሩስ",
+      "ሄርሜስ",
+      "አኪሊስ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Greek myth, who fell after flying too close to the sun on wings stuck with wax? — Icarus."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«ፍሮዝን» በተሰኘው የአኒሜሽን ፊልም ውስጥ የሚናገረው የበረዶ ሰው ስሙ ማን ነው?",
+    "options": [
+      "ስቬን",
+      "ኦላፍ",
+      "ክሪስቶፍ",
+      "ሃንስ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the animated film 'Frozen', what is the talking snowman called? — Olaf; Sven is the reindeer, Kristoff and Hans are people."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የእጅ ማጽጃ (ሳኒታይዘር) ጀርሞችን የሚገድለው በዋናነት በውስጡ ባለው በምን ነው?",
+    "options": [
+      "በአልኮል",
+      "በጨው",
+      "በሆምጣጤ",
+      "በሎሚ"
+    ],
+    "correctIndex": 0,
+    "gloss": "What in hand sanitiser mainly kills the germs? — Alcohol."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በሀበሻ ቀሚስና በነጠላ ጠርዝ ላይ በቀለማት ክር የሚሸመነው ጌጥ ምን ይባላል?",
+    "options": [
+      "ዘርፍ",
+      "ጥለት",
+      "ቁልፍ",
+      "ኩታ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the coloured woven border on a habesha dress and a netela called? — Tilet; zerf is the fringe, kuta a shawl."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በ1974 (እ.ኤ.አ.) በአፋር የተገኘችው ጥንታዊቷ «ሉሲ» በአማርኛ ምን ተብላ ትጠራለች?",
+    "options": [
+      "ብርቅነሽ",
+      "ውድነሽ",
+      "ውብነሽ",
+      "ድንቅነሽ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is 'Lucy', the ancient skeleton found in Afar in 1974, called in Amharic? — Dinkinesh ('you are wonderful')."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በለስላሳ መጠጦች ውስጥ አረፋውን የሚፈጥረው ጋዝ የትኛው ነው?",
+    "options": [
+      "ኦክስጅን",
+      "ናይትሮጅን",
+      "ካርቦን ዳይኦክሳይድ",
+      "ሂሊየም"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which gas makes the bubbles in soft drinks? — Carbon dioxide."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ማርች 2030 (እ.ኤ.አ.) በኢትዮጵያ አቆጣጠር የየትኛው ዓመት ወር ይሆናል?",
+    "options": [
+      "2022",
+      "2023",
+      "2037",
+      "2038"
+    ],
+    "correctIndex": 0,
+    "gloss": "March 2030 (Gregorian) falls in which Ethiopian year? — 2022: the Ethiopian year runs 8 years behind from January to the New Year in September (7 years after it)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ለአዲስ አበባ «አዲስ አበባ» የሚለውን ስም ያወጣችላት ማን ናት?",
+    "options": [
+      "እቴጌ ጣይቱ",
+      "ንግሥት ዘውዲቱ",
+      "እቴጌ መነን",
+      "እቴጌ ምንትዋብ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who gave Addis Ababa ('new flower') its name? — Empress Taytu, wife of Menelik II."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በ17ኛው ክፍለ ዘመን በአፄ ፋሲለደስ የተጀመረው የቤተ መንግሥት ግቢ፣ ፋሲል ግንብ፣ በየትኛው ከተማ ይገኛል?",
+    "options": [
+      "ባሕር ዳር",
+      "መቀሌ",
+      "ደሴ",
+      "ጎንደር"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which city is Fasil Ghebbi, the palace compound begun by Emperor Fasilides in the 17th century? — Gondar."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ስለ አንድ ሰው «ዓይኑን በጨው አጠበ» ሲባል ምን ማለት ነው?",
+    "options": [
+      "አምርሮ አለቀሰ",
+      "ታመመ",
+      "በጣም ደከመ",
+      "ሀፍረት አጣ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does it mean when someone 'washed his eyes with salt'? — He has lost all shame (became brazen)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "«ሁለት ይግዙ፣ ሦስተኛውን በነፃ ይውሰዱ» በሚል ቅናሽ 6 ዕቃ የወሰደ ሰው ለስንቱ ይከፍላል?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a 'buy two, get the third free' offer, someone takes 6 items. How many do they pay for? — 4: two groups of three, two paid in each."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ለማንኛውም የደም ዓይነት ላለው ሰው ሊሰጥ የሚችለው «ሁሉን ሰጪ» የደም ዓይነት የትኛው ነው?",
+    "options": [
+      "AB+",
+      "A−",
+      "O−",
+      "B+"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which is the 'universal donor' blood type, safe for a patient of any type? — O negative (AB+ is the universal recipient, the trap)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ብዙ ፋይሎችን ጨምቆ በአንድ የሚይዝ ፋይል በተለምዶ የትኛው ቅጥያ አለው?",
+    "options": [
+      ".pdf",
+      ".zip",
+      ".mp3",
+      ".jpg"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which extension does a file that compresses many files into one usually have? — .zip."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "መርከቦች ከቀይ ባሕር ወደ ሜዲትራኒያን ባሕር የሚሻገሩበት ቦይ የትኛው ነው?",
+    "options": [
+      "የፓናማ ቦይ",
+      "የኪየል ቦይ",
+      "የቆሮንቶስ ቦይ",
+      "የስዊዝ ቦይ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Through which canal do ships pass from the Red Sea to the Mediterranean? — The Suez Canal."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በቴኒስ ውጤት አቆጣጠር «ላቭ» (love) ማለት ምን ማለት ነው?",
+    "options": [
+      "ዜሮ",
+      "አቻ",
+      "አንድ ነጥብ",
+      "የጨዋታ ነጥብ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In tennis scoring, what does 'love' mean? — Zero."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ለኢትዮጵያ ያለውን ፍቅር በዘፈኖቹ የገለጸው ጃማይካዊው ቦብ ማርሊ የሚታወቅበት የሙዚቃ ስልት የትኛው ነው?",
+    "options": [
+      "ጃዝ",
+      "ሬጌ",
+      "ብሉዝ",
+      "ሶውል"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which music style is Jamaica's Bob Marley, who sang of his love for Ethiopia, known for? — Reggae."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ደረቱ ላይ ልብ የሚመስል ቀይ ቆዳ ያለው፣ በኢትዮጵያ ደጋማ ቦታዎች ብቻ የሚገኘው የዝንጀሮ ዝርያ የትኛው ነው?",
+    "options": [
+      "ጉሬዛ",
+      "ጭላዳ",
+      "ጦጣ",
+      "ጎሪላ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which primate, with a heart-shaped red patch on its chest, lives only in the Ethiopian highlands? — The gelada (ጭላዳ)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "የዋካንዳ ንጉሥ ቲቻላ የሚታወቅበት የልዕለ ኃያል ስም ማን ነው?",
+    "options": [
+      "ብላክ ፓንተር",
+      "አየርን ማን",
+      "ስፓይደር ማን",
+      "ቶር"
+    ],
+    "correctIndex": 0,
+    "gloss": "What superhero name does T'Challa, king of Wakanda, go by? — Black Panther."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በባለቀለም የፕላስቲክ መገጣጠሚያ ጡቦቹ የሚታወቀው የሌጎ (LEGO) ኩባንያ የየትኛው አገር ነው?",
+    "options": [
+      "የስዊድን",
+      "የጀርመን",
+      "የዴንማርክ",
+      "የኔዘርላንድስ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is LEGO, maker of the coloured plastic building bricks, from? — Denmark."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«ሎሬት» የሚለው ማዕረግ ከስሙ ጋር የሚጠራው ታዋቂው ገጣሚና ተውኔት ጸሐፊ ማን ነው?",
+    "options": [
+      "ጸጋዬ ገብረ መድኅን",
+      "ከበደ ሚካኤል",
+      "ሐዲስ ዓለማየሁ",
+      "ዳኛቸው ወርቁ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which famous poet and playwright is always called 'Laureate' before his name? — Tsegaye Gebre-Medhin, Ethiopia's poet laureate."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ጥሩነሽ ዲባባ በ2008 (እ.ኤ.አ.) የቤጂንግ ኦሊምፒክ ወርቅ ያገኘችው በየትኞቹ ርቀቶች ነው?",
+    "options": [
+      "በ800ና በ1,500 ሜትር",
+      "በ1,500ና በ5,000 ሜትር",
+      "በ10,000 ሜትርና በማራቶን",
+      "በ5,000ና በ10,000 ሜትር"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which events did Tirunesh Dibaba win gold at the 2008 Beijing Olympics? — The 5,000 m and the 10,000 m, a rare double."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "60 ዋት የሆነ አምፖል ለ10 ሰዓት ቢበራ ምን ያህል ኃይል ይፈጃል?",
+    "options": [
+      "600 ኪሎዋት ሰዓት",
+      "60 ኪሎዋት ሰዓት",
+      "6 ኪሎዋት ሰዓት",
+      "0.6 ኪሎዋት ሰዓት"
+    ],
+    "correctIndex": 3,
+    "gloss": "A 60-watt bulb burns for 10 hours. How much energy does it use? — 0.6 kWh: 60 W × 10 h = 600 Wh, and a kilowatt-hour is 1,000 Wh."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«ነገሥታት» እንደ «መጻሕፍት» ያለ የግዕዝ ዓይነት ብዙ ቁጥር ነው። የየትኛው ቃል ብዙ ቁጥር ነው?",
+    "options": [
+      "የንግሥት",
+      "የመንግሥት",
+      "የንግሥና",
+      "የንጉሥ"
+    ],
+    "correctIndex": 3,
+    "gloss": "«ነገሥታት» is a Ge'ez-style plural like «መጻሕፍት» (books). Plural of which word? — ንጉሥ (king): the root n-g-ś with the Ge'ez broken plural; queens are ንግሥታት."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "የአፍሪካ አንድነት ድርጅት በ1963 (እ.ኤ.አ.) የተመሠረተው በየትኛው ከተማ ነው?",
+    "options": [
+      "አዲስ አበባ",
+      "አክራ",
+      "ካይሮ",
+      "ናይሮቢ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which city was the Organisation of African Unity founded in 1963? — Addis Ababa, which also became its seat."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በሰርቫንቴስ «ዶን ኪኾቴ» ውስጥ የባላባቱ ታማኝ ጋሻ ጃግሬ ማን ነው?",
+    "options": [
+      "ዱልሲኒያ",
+      "ሳንቾ ፓንዛ",
+      "ሮሲናንቴ",
+      "ፊጋሮ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Cervantes' 'Don Quixote', who is the knight's loyal squire? — Sancho Panza; Dulcinea is his lady, Rocinante his horse, Figaro from another work."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "የሮማውያን ቁጥር XLIX ስንት ነው?",
+    "options": [
+      "51",
+      "41",
+      "59",
+      "49"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the Roman numeral XLIX? — 49: XL = 40 (10 before 50) and IX = 9 (1 before 10)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "በአዲስ አበባው የአፍሪካ አዳራሽ ያሉትን ግዙፍ የቀለም መስታወት ሥራዎች የሠራው ሠዓሊ ማን ነው?",
+    "options": [
+      "ገብረ ክርስቶስ ደስታ",
+      "እስክንድር ቦጎሲያን",
+      "አፈወርቅ ተክሌ",
+      "ለማ ጉያ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which artist made the huge stained-glass windows of Africa Hall in Addis Ababa? — Afewerk Tekle."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "በምድር ላይ ከመገኘቱ በፊት በ1868 (እ.ኤ.አ.) የፀሐይ ግርዶሽ ወቅት በፀሐይ ብርሃን ውስጥ የተለየው ንጥረ ነገር የትኛው ነው?",
+    "options": [
+      "ኒዮን",
+      "አርጎን",
+      "ሃይድሮጅን",
+      "ሂሊየም"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which element was identified in sunlight during the 1868 solar eclipse, before it was found on Earth? — Helium (from Greek helios, sun); it was isolated on Earth in 1895."
+  }
+]

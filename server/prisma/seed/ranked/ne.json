@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "सीता रामकी दिदी हुन्। त्यसो भए राम सीताका को हुन्?",
+    "options": [
+      "दाइ",
+      "भाइ",
+      "काका",
+      "मामा"
+    ],
+    "correctIndex": 1,
+    "gloss": "Sita is Ram's elder sister (दिदी). So what is Ram to Sita? — भाइ (younger brother): Nepali marks age in sibling words, so the autopilot answer दाइ (elder brother) is wrong."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "पसलेले ‘अढाई सय रुपैयाँ’ भन्यो भने तपाईंले कति रुपैयाँ तिर्नुपर्छ?",
+    "options": [
+      "२२५",
+      "२०५",
+      "३५०",
+      "२५०"
+    ],
+    "correctIndex": 3,
+    "gloss": "The shopkeeper says 'adhai say rupees'. How much do you pay? — 250: अढाई means two and a half, so two and a half hundred."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "साथीले ‘आउ, चिया-सिया खाऔँ’ भन्दा ‘सिया’ ले के जनाउँछ?",
+    "options": [
+      "चिनी नहालेको चिया",
+      "चिया र त्यस्तै अरू कुरा",
+      "दूध हालेको चिया",
+      "चिसो चिया"
+    ],
+    "correctIndex": 1,
+    "gloss": "A friend says 'come, let's have chiya-siya'. What does 'siya' add? — Tea and the like: an echo word that repeats the noun with a new first sound to mean 'and such things'."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "थर्मसले तातो चियालाई तातै राख्छ। त्यही थर्मसमा बरफको पानी राखे केही घण्टापछि त्यो कस्तो हुन्छ?",
+    "options": [
+      "मनतातो हुन्छ",
+      "उम्लिन्छ",
+      "चिसो नै रहन्छ",
+      "पूरै जम्छ"
+    ],
+    "correctIndex": 2,
+    "gloss": "A flask keeps hot tea hot. Put ice water in it: after a few hours it is? — Still cold: the flask only slows heat moving in either direction."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "तिहारको कुन दिन कुकुरलाई माला लगाएर पूजा गरिन्छ?",
+    "options": [
+      "पहिलो दिन",
+      "दोस्रो दिन",
+      "तेस्रो दिन",
+      "पाँचौँ दिन"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which day of Tihar are dogs garlanded and worshipped? — The second day (Kukur Tihar); day one is for crows, day three for cows and Laxmi, day five Bhai Tika."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "माटोको कटौरामा जमाइने ‘जुजु धौ’ कुन सहरको चिनारी हो?",
+    "options": [
+      "भक्तपुर",
+      "पोखरा",
+      "जनकपुर",
+      "धरान"
+    ],
+    "correctIndex": 0,
+    "gloss": "Juju dhau, curd set in clay bowls, is the hallmark of which town? — Bhaktapur: 'king of curds' in Newari."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "फेवाताल र त्यसमा देखिने माछापुच्छ्रेको छायाका लागि चर्चित सहर कुन हो?",
+    "options": [
+      "हेटौँडा",
+      "बुटवल",
+      "पोखरा",
+      "धनगढी"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city is famous for Phewa Lake and Machhapuchhre reflected in it? — Pokhara."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "गन्धर्वहरूले गाउँदै बजाउने सारङ्गी कसरी बजाइन्छ?",
+    "options": [
+      "फुकेर",
+      "हातले ठोकेर",
+      "हल्लाएर",
+      "रेटेर"
+    ],
+    "correctIndex": 3,
+    "gloss": "How is the sarangi, played by Gandharva singers, played? — By bowing (रेटेर): it is a bowed string instrument."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "उखान पूरा गर्नुहोस्: ‘जस्तो देश, उस्तै …’",
+    "options": [
+      "भेष",
+      "भाषा",
+      "भात",
+      "बास"
+    ],
+    "correctIndex": 0,
+    "gloss": "Complete the proverb 'As the country, so the ...' — भेष (dress): 'when in Rome, do as the Romans do'."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "छठ पर्वमा व्रतालुहरू पानीमा उभिएर कसलाई अर्घ्य दिन्छन्?",
+    "options": [
+      "चन्द्रमा",
+      "सूर्य",
+      "गङ्गा",
+      "इन्द्र"
+    ],
+    "correctIndex": 1,
+    "gloss": "During Chhath, devotees stand in water and make offerings to whom? — The Sun (Surya), at sunset and sunrise."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पशुपतिनाथ मन्दिर र आर्यघाट कुन नदीको किनारमा छन्?",
+    "options": [
+      "विष्णुमती",
+      "त्रिशूली",
+      "बागमती",
+      "कोशी"
+    ],
+    "correctIndex": 2,
+    "gloss": "Pashupatinath temple and Arya Ghat stand on which river? — The Bagmati."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नेपालको उत्तरी सीमामा छिमेकी चीनको कुन स्वायत्त क्षेत्र पर्छ?",
+    "options": [
+      "सिन्जियाङ",
+      "भित्री मङ्गोलिया",
+      "युनान",
+      "तिब्बत"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which autonomous region of China lies along Nepal's northern border? — Tibet (Yunnan is a province, not on the border)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "बौद्ध देवदेवीका चित्र कोरिएको थाङ्का प्रायः केमा बनाइन्छ?",
+    "options": [
+      "कपडामा",
+      "ढुङ्गामा",
+      "काठमा",
+      "माटोको भाँडामा"
+    ],
+    "correctIndex": 0,
+    "gloss": "A thangka with Buddhist deities is usually painted on what? — Cloth (cotton canvas), so it can be rolled up."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बैंकले मोबाइलमा पठाएको ओटीपी कसैलाई भन्नु हुँदैन। ओटीपी के हो?",
+    "options": [
+      "खाताको नम्बर",
+      "एक पटक मात्र चल्ने गोप्य कोड",
+      "बैंकको फोन नम्बर",
+      "मासिक ब्याजदर"
+    ],
+    "correctIndex": 1,
+    "gloss": "Never tell anyone the OTP your bank texts you. What is an OTP? — A one-time password: a secret code valid once."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पसलमा टाँसिएको क्युआर कोड मोबाइल एपले स्क्यान गरेर प्रायः के गरिन्छ?",
+    "options": [
+      "वाइफाइ जोडिन्छ",
+      "सामानको तौल हेरिन्छ",
+      "पसलेलाई फोन गरिन्छ",
+      "पैसा तिरिन्छ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do people usually do by scanning the QR code stuck up in a shop? — Pay."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "फुटबलमा गोलकिपरबाहेकका खेलाडीले बल हातले समातेर फाल्न पाउने अवस्था कुन हो?",
+    "options": [
+      "कर्नर किक",
+      "फ्री किक",
+      "थ्रो-इन",
+      "पेनाल्टी"
+    ],
+    "correctIndex": 2,
+    "gloss": "In football, when may an outfield player pick up the ball and throw it? — The throw-in."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "food",
+    "scope": "global",
+    "text": "पिज्जामा तानिने गरी पग्लिने मोजरेला चिज मूलतः कुन देशको हो?",
+    "options": [
+      "इटाली",
+      "फ्रान्स",
+      "स्विट्जरल्यान्ड",
+      "नेदरल्यान्ड्स"
+    ],
+    "correctIndex": 0,
+    "gloss": "Mozzarella, the cheese that stretches on pizza, comes originally from which country? — Italy (Campania)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "फ्रिजमा राखेको दूध छिटो नबिग्रनुको मुख्य कारण के हो?",
+    "options": [
+      "फ्रिजको बत्तीले कीटाणु मार्छ",
+      "चिसोले दूधको पानी सुकाउँछ",
+      "चिसोमा जीवाणु ढिलो बढ्छन्",
+      "फ्रिजभित्र हावा हुँदैन"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does milk in the fridge keep longer? — Bacteria multiply slowly in the cold."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "local",
+    "text": "राष्ट्रिय फूल लालीगुराँस पहाडमा कुन ऋतुमा फुल्छ?",
+    "options": [
+      "हिउँद",
+      "वसन्त",
+      "वर्षा",
+      "शरद"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which season does the rhododendron (laligurans), Nepal's national flower, bloom in the hills? — Spring (roughly Phagun to Baisakh)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "गर्मीमा कुकुर जिब्रो निकालेर हस्याङफस्याङ गर्छ। किन?",
+    "options": [
+      "शरीर चिसो पार्न",
+      "भोक लागेको देखाउन",
+      "गन्ध सुँघ्न",
+      "मालिकलाई बोलाउन"
+    ],
+    "correctIndex": 0,
+    "gloss": "In summer a dog pants with its tongue out. Why? — To cool down: dogs barely sweat, so they lose heat by panting."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "filmTv",
+    "scope": "global",
+    "text": "पहेँला, चस्मा लगाउने साना ‘मिनियन्स’ कुन फिल्म शृङ्खलाका पात्र हुन्?",
+    "options": [
+      "श्रेक",
+      "टोय स्टोरी",
+      "फ्रोजन",
+      "डेस्पिकेबल मी"
+    ],
+    "correctIndex": 3,
+    "gloss": "The little yellow goggled 'Minions' come from which film series? — Despicable Me."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "सामान्य रुबिक्स क्युबको हरेक मोहडामा ३×३ रङ्गीन वर्ग हुन्छन्। पूरै क्युबमा जम्मा कति वर्ग देखिन्छन्?",
+    "options": [
+      "२७",
+      "३६",
+      "५४",
+      "८१"
+    ],
+    "correctIndex": 2,
+    "gloss": "A standard Rubik's cube has 3×3 coloured squares on each face. How many in all? — 54: six faces × nine (27 is the trap: the number of small cubes)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "global",
+    "text": "धेरै नेपाली कामदार रहेको कतारको राजधानी कुन हो?",
+    "options": [
+      "दोहा",
+      "दुबई",
+      "रियाद",
+      "मस्कट"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the capital of Qatar, where many Nepali workers live? — Doha (Riyadh is Saudi Arabia's, Muscat Oman's; Dubai is a UAE city)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "धेरै शिवालयमा मूल ढोकातिर फर्केर बसेको साँढेको मूर्ति हुन्छ। शिवको यो वाहनको नाम के हो?",
+    "options": [
+      "गरुड",
+      "नन्दी",
+      "ऐरावत",
+      "हनुमान"
+    ],
+    "correctIndex": 1,
+    "gloss": "Many Shiva temples have a bull statue facing the shrine. What is the name of Shiva's mount? — Nandi (Garuda is Vishnu's, Airavata Indra's)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "अर्केस्ट्राको अगाडि उभिएर सानो छडी हल्लाउँदै बजाउनेहरूलाई निर्देशन दिने व्यक्तिलाई के भनिन्छ?",
+    "options": [
+      "कम्पोजर",
+      "ड्रमर",
+      "कन्डक्टर",
+      "गायक"
+    ],
+    "correctIndex": 2,
+    "gloss": "The person who stands in front of an orchestra waving a baton to direct it is the? — Conductor."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "sports",
+    "scope": "global",
+    "text": "क्रिकेटको ‘एलबीडब्ल्यू’ आउटमा ‘एल’ कुन अङ्ग्रेजी शब्दबाट आएको हो?",
+    "options": [
+      "लाइन",
+      "लेफ्ट",
+      "लङ",
+      "लेग"
+    ],
+    "correctIndex": 3,
+    "gloss": "In cricket's LBW, what English word is the L? — Leg (leg before wicket)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नेपालका मोबाइल नम्बर सामान्यतया कुन अङ्कबाट सुरु हुन्छन्?",
+    "options": [
+      "०",
+      "१",
+      "९",
+      "५"
+    ],
+    "correctIndex": 2,
+    "gloss": "Nepali mobile numbers usually start with which digit? — 9 (98…, 97…, 96…)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "भान्सामा ग्यास चुहिएको गन्ध आयो भने तुरुन्तै के गर्नु हुँदैन?",
+    "options": [
+      "झ्याल-ढोका खोल्ने",
+      "बिजुलीको स्विच थिच्ने",
+      "रेगुलेटर बन्द गर्ने",
+      "घरबाहिर निस्कने"
+    ],
+    "correctIndex": 1,
+    "gloss": "If you smell leaking gas in the kitchen, what must you not do? — Flip an electric switch: the spark can ignite the gas. The rest are what you should do."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "गौतम बुद्धको जन्मस्थल लुम्बिनी कुन जिल्लामा पर्छ?",
+    "options": [
+      "कपिलवस्तु",
+      "रुपन्देही",
+      "नवलपरासी",
+      "पाल्पा"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lumbini, the Buddha's birthplace, is in which district? — Rupandehi (Kapilvastu, the trap, is next door)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "चाकु वा खुवा भरेर माछाको आकारमा बनाइने ‘योमरी’ मूलतः कुन समुदायको परिकार हो?",
+    "options": [
+      "थारु",
+      "शेर्पा",
+      "नेवार",
+      "मगर"
+    ],
+    "correctIndex": 2,
+    "gloss": "Yomari, the rice-flour dumpling filled with chaku or khuwa, is originally a dish of which community? — The Newars (eaten at Yomari Punhi)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘पोहोर साल’ भन्नाले कुन वर्ष बुझिन्छ?",
+    "options": [
+      "यही वर्ष",
+      "अर्को वर्ष",
+      "दुई वर्षअघि",
+      "गत वर्ष"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does 'pohor sal' mean? — Last year (two years ago is परार)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘दशमी’ दसौँ तिथि हो। त्यसो भए ‘द्वादशी’ कुन तिथि हो?",
+    "options": [
+      "बाह्रौँ",
+      "दोस्रो",
+      "बीसौँ",
+      "एघारौँ"
+    ],
+    "correctIndex": 0,
+    "gloss": "'Dashami' is the tenth lunar day. So which is 'dwadashi'? — The twelfth: द्वि (two) + दश (ten). 'Second' is the trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "गर्मीमा चिसो पानीको गिलासको बाहिरपट्टि पानीका थोपा देखिन्छन्। ती कहाँबाट आउँछन्?",
+    "options": [
+      "गिलासबाट चुहिएर",
+      "हावामा भएको बाफबाट",
+      "पानीबाट उछिट्टिएर",
+      "हातको पसिनाबाट"
+    ],
+    "correctIndex": 1,
+    "gloss": "Drops form on the outside of a glass of cold water in summer. Where from? — Water vapour in the air condensing on the cold glass."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हात्तीका लामा सेता हस्तिदन्त वास्तवमा के हुन्?",
+    "options": [
+      "सिङ",
+      "हड्डी",
+      "नङ",
+      "दाँत"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are an elephant's long white tusks really? — Teeth (overgrown incisors)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "सुयोग र सकम्बरीको कथा भएको उपन्यास ‘शिरीषको फूल’ कसले लेखेकी हुन्?",
+    "options": [
+      "पारिजात",
+      "बानिरा गिरी",
+      "मञ्जु काँचुली",
+      "झमक घिमिरे"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel 'Shirishko Phool', the story of Suyogbir and Sakambari? — Parijat (Madan Puraskar 1965)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "फिल्मका जासुस जेम्स बन्डको गोप्य कोड नम्बर कति हो?",
+    "options": [
+      "००१",
+      "००७",
+      "०१०",
+      "७००"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the secret code number of film spy James Bond? — 007."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "वेबसाइटको ठेगानामा ‘एचटीटीपीएस’ को अन्तिम ‘एस’ ले के जनाउँछ?",
+    "options": [
+      "सर्भर",
+      "सर्च",
+      "सुरक्षित",
+      "सिस्टम"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the final 'S' in HTTPS stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "टेनिसको अङ्क गणनामा शून्यलाई के भनिन्छ?",
+    "options": [
+      "डिउस",
+      "एस",
+      "सेट",
+      "लभ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In tennis scoring, what is zero called? — Love."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "बौद्धनाथ स्तूपको गजुरमुनि चारैतिर के कोरिएको छ?",
+    "options": [
+      "कमलका फूल",
+      "बुद्धका आँखा",
+      "सिंहका मुख",
+      "सूर्य र चन्द्र"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is painted on all four sides below the spire of Boudhanath stupa? — The Buddha's eyes."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बिजुलीको शक्ति भएको पहेँलो मुसाजस्तो चर्चित पोकेमोनको नाम के हो?",
+    "options": [
+      "पिकाचु",
+      "चारमान्डर",
+      "स्क्वर्टल",
+      "बल्बासोर"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the famous yellow, mouse-like electric Pokémon called? — Pikachu."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "रामायणकी सीताको जन्मभूमि मानिने, जानकी मन्दिर भएको सहर कुन हो?",
+    "options": [
+      "बिराटनगर",
+      "वीरगन्ज",
+      "जनकपुर",
+      "राजविराज"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city, home of the Janaki temple, is held to be the birthplace of Sita? — Janakpur."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "पानी परेपछि इन्द्रेणी देख्न घाम कतातिर हुनुपर्छ?",
+    "options": [
+      "ठीक टाउकोमाथि",
+      "इन्द्रेणीकै पछाडि",
+      "इन्द्रेणीको छेउमा",
+      "हेर्नेको पछाडि"
+    ],
+    "correctIndex": 3,
+    "gloss": "After rain, where must the sun be for you to see a rainbow? — Behind you: the drops in front of you send the sunlight back."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "नेपालमा सती प्रथा कानुनी रूपमा अन्त्य गर्ने राणा प्रधानमन्त्री को हुन्?",
+    "options": [
+      "जङ्गबहादुर राणा",
+      "चन्द्रशमशेर राणा",
+      "भीमशमशेर राणा",
+      "जुद्धशमशेर राणा"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Rana prime minister legally abolished sati in Nepal? — Chandra Shumsher (1920); Jung Bahadur had only restricted it."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "जापानी सुसीमा कुन कुरा अनिवार्य हुन्छ?",
+    "options": [
+      "काँचो माछा",
+      "समुद्री झार",
+      "सिरका मिसाएको भात",
+      "सोया सस"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the one essential ingredient of Japanese sushi? — Vinegared rice; raw fish, seaweed and soy are common but optional."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "सूर्यको प्रकाश पृथ्वीसम्म आइपुग्न करिब ८ मिनेट लाग्छ। सूर्य अहिले नै निभ्यो भने हामीले कहिले थाहा पाउँछौँ?",
+    "options": [
+      "करिब ८ मिनेटपछि",
+      "तुरुन्तै",
+      "करिब ८ सेकेन्डपछि",
+      "करिब ८ दिनपछि"
+    ],
+    "correctIndex": 0,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth. If the Sun went out now, when would we know? — After about 8 minutes: the last light already on its way keeps arriving."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बोस्फोरस जलडमरूमध्यले छुट्याएको इस्तानबुल सहर कुन दुई महादेशमा फैलिएको छ?",
+    "options": [
+      "एसिया र अफ्रिका",
+      "युरोप र अफ्रिका",
+      "युरोप र एसिया",
+      "एसिया र ओसेनिया"
+    ],
+    "correctIndex": 2,
+    "gloss": "Istanbul, split by the Bosphorus, spreads over which two continents? — Europe and Asia."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘काठमाडौँ’ सहरको नाम कुन संरचनाको नामबाट आएको मानिन्छ?",
+    "options": [
+      "स्वयम्भू",
+      "धरहरा",
+      "हनुमानढोका",
+      "काष्ठमण्डप"
+    ],
+    "correctIndex": 3,
+    "gloss": "The name Kathmandu is held to come from which structure? — Kasthamandap, the wooden pavilion ('wood mandap')."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "पृथ्वीमा ६० किलो पिण्ड भएको अन्तरिक्षयात्री चन्द्रमामा पुग्दा उसको पिण्ड कति हुन्छ?",
+    "options": [
+      "छैटौँ भाग मात्र",
+      "शून्य",
+      "छ गुणा बढी",
+      "पृथ्वीमा जत्तिकै"
+    ],
+    "correctIndex": 3,
+    "gloss": "An astronaut of 60 kg mass on Earth lands on the Moon: what is their mass? — The same as on Earth: mass does not change, only weight (about 1/6). 'A sixth' is the autopilot trap."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "जङ्गबहादुरको समयको कथा भन्ने ऐतिहासिक उपन्यास ‘सेतो बाघ’ का लेखक को हुन्?",
+    "options": [
+      "डायमनशमशेर राणा",
+      "लैनसिंह बाङ्देल",
+      "विश्वेश्वरप्रसाद कोइराला",
+      "रमेश विकल"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Seto Bagh', the historical novel set in Jung Bahadur's time? — Diamond Shumsher Rana."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हेलियम ग्यास पृथ्वीमा भेटिनुअघि नै पहिलो पटक कहाँ पत्ता लागेको थियो?",
+    "options": [
+      "उल्कापिण्डभित्र",
+      "सूर्यको प्रकाशको वर्णपटमा",
+      "समुद्री पानीमा",
+      "बृहस्पतिको वायुमण्डलमा"
+    ],
+    "correctIndex": 1,
+    "gloss": "Before it was found on Earth, where was helium first detected? — In the spectrum of sunlight (1868 eclipse, Janssen and Lockyer); named after Helios."
+  }
+]

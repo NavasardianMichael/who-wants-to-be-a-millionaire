@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“မြင်” ဆိုတဲ့ စကားလုံးမှာ ဝစ္စပေါက် (း) ထည့်လိုက်ရင် ဘယ်တိရစ္ဆာန် ဖြစ်သွားမလဲ။",
+    "options": [
+      "မြွေ",
+      "မျောက်",
+      "မြင်း",
+      "မြည်း"
+    ],
+    "correctIndex": 2,
+    "gloss": "Add the visarga (း) to «မြင်» (to see): which animal do you get? — Horse: «မြင်း». The other animals all start with မ plus a medial, so only the tone mark decides."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ဘယ်ဂဏန်းကို စာလုံးနဲ့ ရေးရင် “ဆယ့်” လို့ အောက်မြစ် ပါလာမလဲ။",
+    "options": [
+      "၁၀",
+      "၁၅",
+      "၂၀",
+      "၁၀၀"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number, written out in words, contains «ဆယ့်» with the creaky-tone dot? — 15 («ဆယ့်ငါး»): ဆယ် takes the dot only when another number follows it; 10 is တစ်ဆယ်, 20 နှစ်ဆယ်, 100 တစ်ရာ."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ရိုးရာ နာမည်ပေးနည်းအရ “စန္ဒာ” လို့ နာမည်ပေးထားတဲ့ ကလေးမလေးဟာ ဘယ်နေ့ မွေးတာ ဖြစ်မလဲ။",
+    "options": [
+      "တနင်္လာ",
+      "ဗုဒ္ဓဟူး",
+      "သောကြာ",
+      "အင်္ဂါ"
+    ],
+    "correctIndex": 3,
+    "gloss": "By the traditional naming system, a girl named Sanda was born on which day? — Tuesday: names of Tuesday-born children start with the စ group (စ ဆ ဇ ဈ ည). Monday is the က group, Wednesday ယ ရ လ ဝ, Friday သ ဟ."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "မြန်မာနာမည်ကို သူ့အော်သံအတိုင်း ယူပေးထားတဲ့ သတ္တဝါက ဘယ်ကောင်လဲ။",
+    "options": [
+      "တောက်တဲ့",
+      "ပုတ်သင်",
+      "ဖွတ်",
+      "အိမ်မြှောင်"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which creature's Burmese name copies its own call? — The tokay gecko «တောက်တဲ့», named after its loud 'to-kay' call. Garden lizard, monitor lizard and house gecko are named otherwise."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "သင်္ကြန်မှာ လုပ်စားကြတဲ့ မုန့်လုံးရေပေါ်ရဲ့ အထဲမှာ ဘာ ထည့်ထားသလဲ။",
+    "options": [
+      "အုန်းသီးခြစ်",
+      "နှမ်း",
+      "ထန်းလျက်",
+      "ပဲကြီး"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is inside the floating rice balls (mont lone yay baw) made at Thingyan? — Palm jaggery. Grated coconut is sprinkled on top, hence the trap."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာ အမျိုးသမီးတွေ ဝတ်တဲ့ လုံချည်ကို ဘယ်လို ခေါ်သလဲ။",
+    "options": [
+      "ပုဆိုး",
+      "ရင်ဖုံး",
+      "တိုက်ပုံ",
+      "ထဘီ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the longyi worn by Burmese women called? — Htamein. Pahso is the men's longyi, yinbon a women's blouse, taikpon a jacket."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "လက်ဖက်ရည်ဆိုင်မှာ “ပေါ့ဆိမ့်” လို့ မှာရင် ဘယ်လို လက်ဖက်ရည် ရမလဲ။",
+    "options": [
+      "အချိုနည်းပြီး ဆိမ့်တာ",
+      "အချိုများပြီး ဆိမ့်တာ",
+      "ပြင်းပြီး ဆိမ့်တာ",
+      "နို့မပါဘဲ ချိုတာ"
+    ],
+    "correctIndex": 0,
+    "gloss": "At a tea shop you order 'pawt hseint'. What do you get? — Less sweet and creamy: ပေါ့ (mild, less sugar) + ဆိမ့် (rich with milk). ချိုဆိမ့် is the sweet one, ကျဆိမ့် the strong one."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "အိမ်တွေမှာ အုန်းသီးဆွဲပြီး ပူဇော်ကြတဲ့ “မင်းမဟာဂီရိ” ဟာ ဘာလဲ။",
+    "options": [
+      "ဘီလူး",
+      "နတ်",
+      "နဂါး",
+      "ဇော်ဂျီ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Min Mahagiri, honoured in homes with a hanging coconut, is what? — A nat (spirit): the household guardian nat, worshipped with the Mahagiri coconut."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "အပြစ်ရှိလို့ စိတ်မအေးတာကို “… မလုံဘူး” လို့ ပြောကြတယ်။ ကွက်လပ်မှာ ဘာဝင်မလဲ။",
+    "options": [
+      "ပုစဉ်း",
+      "ပျား",
+      "ပိုးစုန်းကြူး",
+      "လိပ်ပြာ"
+    ],
+    "correctIndex": 3,
+    "gloss": "A guilty conscience is '… not secure'. What fills the gap? — Butterfly: «လိပ်ပြာ မလုံဘူး»; the butterfly stands for the soul in Burmese belief."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ရှင်ပြုပွဲ ပြီးတဲ့အခါ ယောက်ျားလေးဟာ ခဏတာ ဘာ ဖြစ်သွားသလဲ။",
+    "options": [
+      "ပဉ္စင်း",
+      "ကိုရင်",
+      "ဖိုးသူတော်",
+      "ဆရာတော်"
+    ],
+    "correctIndex": 1,
+    "gloss": "After the shinbyu ceremony, what does a boy become for a while? — A novice (koyin). Full ordination as a monk (pazin) needs age 20; a hpothudaw is a lay ascetic."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ကျိုက်ထီးရိုး “ရွှေကျောက်တုံး” ဘုရားဟာ ဘယ်ပြည်နယ်မှာ ရှိသလဲ။",
+    "options": [
+      "ကရင်",
+      "ရှမ်း",
+      "မွန်",
+      "ရခိုင်"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which state is the Kyaiktiyo Golden Rock pagoda? — Mon State (Kyaikto township). Kayin State is the trap: it lies just across the hills."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာ့ စောင်းကောက်ကို ဘယ်လို တီးသလဲ။",
+    "options": [
+      "တုတ်နဲ့ ရိုက်တီး",
+      "ပါးစပ်နဲ့ မှုတ်တီး",
+      "ကြိုးကို လက်နဲ့ ခတ်တီး",
+      "တယောလို ထိုးတီး"
+    ],
+    "correctIndex": 2,
+    "gloss": "How is the Burmese harp (saung gauk) played? — By plucking its strings with the fingers; it is a boat-shaped arched harp."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပုဂံမှာ ပထမ မြန်မာနိုင်ငံတော်ကို တည်ထောင်ခဲ့သူက ဘယ်သူလဲ။",
+    "options": [
+      "အနော်ရထာ",
+      "ဘုရင့်နောင်",
+      "အလောင်းမင်းတရား",
+      "ကျန်စစ်သား"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who founded the First Myanmar Empire at Bagan? — Anawrahta. Bayinnaung is linked with the second, Alaungpaya with the third; Kyansittha came after Anawrahta."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "သင်္ကြန်မှာ ရေပက်ဖို့ လမ်းဘေးမှာ ဆောက်ထားတဲ့ စင်ကို ဘာလို့ ခေါ်သလဲ။",
+    "options": [
+      "ဇရပ်",
+      "မဏ္ဍပ်",
+      "ပြာသာဒ်",
+      "တန်ဆောင်း"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the stage built by the road for splashing water at Thingyan called? — Mandat (pandal). A zayat is a rest house, a pyatthat a tiered roof, a tazaung a pavilion."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာ့ ရိုးရာ ရုပ်သေးရုပ်တွေကို ဘာနဲ့ ကိုင်လှုပ်သလဲ။",
+    "options": [
+      "ကြိုး",
+      "တုတ်",
+      "လက်အိတ်",
+      "မီးအရိပ်"
+    ],
+    "correctIndex": 0,
+    "gloss": "How are traditional Burmese yoke thay puppets moved? — With strings: they are marionettes. Rod, glove and shadow puppets are other traditions."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ရာမဇာတ်ထဲက ဟနုမာန်ဟာ ဘာ သတ္တဝါလဲ။",
+    "options": [
+      "ဘီလူး",
+      "ဂဠုန်",
+      "မျောက်",
+      "ဆင်"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Rama play (Yama Zatdaw), what is Hanuman? — A monkey: the white monkey general who helps Rama."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဝက်ဘ်ဆိုက်တချို့က ကွေးကောက်နေတဲ့ စာလုံးတွေကို ရိုက်ထည့်ခိုင်းတာ ဘာကို စစ်တာလဲ။",
+    "options": [
+      "အင်တာနက် မြန်နှုန်း",
+      "လူ ဟုတ်မဟုတ်",
+      "အသက် ၁၈ ပြည့်မပြည့်",
+      "ဗိုင်းရပ်စ် ရှိမရှိ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why do some websites make you type distorted letters? — To check you are a human, not a bot (a CAPTCHA)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "မိုက်ခရိုဝေ့ဖ် မီးဖိုထဲကို ဘာ မထည့်ရဘူးလဲ။",
+    "options": [
+      "သတ္တုပန်းကန်",
+      "ကြွေပန်းကန်",
+      "ဖန်ပန်းကန်",
+      "မိုက်ခရိုဝေ့ဖ်သုံး ပလတ်စတစ်ဘူး"
+    ],
+    "correctIndex": 0,
+    "gloss": "What must you not put in a microwave oven? — A metal dish: metal reflects microwaves and can spark. Ceramic, glass and microwave-safe plastic are fine."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဓာတ်ဆားရည်ကို အဓိကအားဖြင့် ဘယ်အချိန်မှာ သောက်ခိုင်းလေ့ရှိသလဲ။",
+    "options": [
+      "ခေါင်းကိုက်တဲ့အခါ",
+      "အိပ်မပျော်တဲ့အခါ",
+      "သွားကိုက်တဲ့အခါ",
+      "ဝမ်းလျှောတဲ့အခါ"
+    ],
+    "correctIndex": 3,
+    "gloss": "When are you mainly told to drink oral rehydration salts (ORS)? — When you have diarrhoea, to replace lost water and salts."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဘောလုံးပွဲတွေမှာ “VAR” ကို ဘာအတွက် သုံးသလဲ။",
+    "options": [
+      "ဒိုင်လူကြီး ဗီဒီယို ပြန်ကြည့်ဖို့",
+      "ဘောလုံး လေဖိအား စစ်ဖို့",
+      "ကစားသမား အပြေးနှုန်း တိုင်းဖို့",
+      "အချိန်ပို တွက်ဖို့"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is VAR used for in football? — So the referee's decisions can be checked on video (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ကာတွန်းကား “ရှရက်” ထဲက အစိမ်းရောင် ဇာတ်လိုက် ရှရက်ဟာ ဘာလဲ။",
+    "options": [
+      "မြည်း",
+      "နဂါး",
+      "နတ်သမီး",
+      "ဘီလူး"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the animated film Shrek, what is the green hero Shrek? — An ogre. Donkey, the dragon and the Fairy Godmother are other characters, hence the traps."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“ရင်းဂစ်” ငွေကြေးကို သုံးတဲ့ နိုင်ငံက ဘယ်နိုင်ငံလဲ။",
+    "options": [
+      "ထိုင်း",
+      "စင်ကာပူ",
+      "အင်ဒိုနီးရှား",
+      "မလေးရှား"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country uses the ringgit as its currency? — Malaysia. Thailand uses the baht, Singapore the dollar, Indonesia the rupiah."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ရွှေဝါရောင် ပိတောက်ပန်းတွေ ပွင့်ပြီး သင်္ကြန်ကို ကြိုဆိုတာ ဘယ်လမှာလဲ။",
+    "options": [
+      "သီတင်းကျွတ်",
+      "နတ်တော်",
+      "တန်ခူး",
+      "တပို့တွဲ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which month do the golden padauk flowers bloom to welcome Thingyan? — Tagu (around April), the first month of the Burmese year."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "နာရီမှာ “၁၈:၄၅” လို့ ပြနေရင် ညနေ ဘယ်အချိန်လဲ။",
+    "options": [
+      "၄ နာရီ ၄၅ မိနစ်",
+      "၆ နာရီ ၄၅ မိနစ်",
+      "၈ နာရီ ၁၅ မိနစ်",
+      "၈ နာရီ ၄၅ မိနစ်"
+    ],
+    "correctIndex": 1,
+    "gloss": "A clock shows 18:45. What time in the evening is it? — 6:45 (18 − 12). Reading the 8 of 18 gives the 8:45 autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "“၂ ခုဝယ်ရင် ၁ ခု အလကား” ဆိုင်မှာ ၄ ခုစာ ပိုက်ဆံ ပေးရင် စုစုပေါင်း ဘယ်နှခု ရမလဲ။",
+    "options": [
+      "၅ ခု",
+      "၆ ခု",
+      "၇ ခု",
+      "၈ ခု"
+    ],
+    "correctIndex": 1,
+    "gloss": "At a 'buy 2, get 1 free' shop you pay for 4. How many do you get? — 6: two pairs bought, two free."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "နေလောင်ကာ ခရင်မ်ပေါ်က “SPF” နံပါတ်က ဘာကို ကာကွယ်နိုင်စွမ်းကို ပြတာလဲ။",
+    "options": [
+      "ခြင်ကိုက်တာ",
+      "ဖုန်မှုန့်",
+      "ချွေးထွက်တာ",
+      "ခရမ်းလွန်ရောင်ခြည်"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the SPF number on sunscreen show protection against? — Ultraviolet rays (UVB, which cause sunburn)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ပိုကီမွန် ပီကာချူးက ဘယ်လို စွမ်းအားနဲ့ တိုက်သလဲ။",
+    "options": [
+      "မီး",
+      "ရေ",
+      "လျှပ်စစ်",
+      "မြက်ပင်"
+    ],
+    "correctIndex": 2,
+    "gloss": "What power does the Pokémon Pikachu fight with? — Electricity: Pikachu is an Electric-type Pokémon."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "အစိမ်းရောင် ဝါဆာဘီ အစပ်ကို ဘယ်ဂျပန် အစားအစာနဲ့ တွဲစားလေ့ရှိသလဲ။",
+    "options": [
+      "ဆူရှီ",
+      "ရာမင်",
+      "တမ်ပူရာ",
+      "ဒိုရာယာကီ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Green, hot wasabi is usually eaten with which Japanese food? — Sushi. Ramen, tempura and dorayaki come without it."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "သီတင်းကျွတ်မှာ မီးထွန်းပြီး ကြိုဆိုကြတာဟာ ဘုရားရှင် ဘယ်နတ်ပြည်ကနေ ဆင်းသက်လာတာလဲ။",
+    "options": [
+      "တုသိတာ",
+      "ယာမာ",
+      "တာဝတိံသာ",
+      "ဗြဟ္မာ့ပြည်"
+    ],
+    "correctIndex": 2,
+    "gloss": "At Thadingyut people light lamps to welcome the Buddha back from which heaven? — Tavatimsa, where he preached the Abhidhamma to his mother during the Lent."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ယွန်းထည် လက်မှုပစ္စည်းတွေနဲ့ အထင်ရှားဆုံး မြို့က ဘယ်မြို့လဲ။",
+    "options": [
+      "ပုဂံ",
+      "ပုသိမ်",
+      "အမရပူရ",
+      "မော်လမြိုင်"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which town is most famous for lacquerware? — Bagan. Pathein is known for umbrellas, Amarapura for silk weaving."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ခြေထောက်နဲ့ လှေလှော်တာ နာမည်ကြီးတဲ့ တံငါသည်တွေက ဘယ်တိုင်းရင်းသားတွေလဲ။",
+    "options": [
+      "ပအိုဝ်း",
+      "ကယား",
+      "ဓနု",
+      "အင်းသား"
+    ],
+    "correctIndex": 3,
+    "gloss": "The fishermen famous for rowing with one leg are which people? — The Intha of Inle Lake. The Pa-O also live around the lake, hence the trap."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မန္တလေးမြို့ကို တည်ထောင်ခဲ့တဲ့ ဘုရင်က ဘယ်သူလဲ။",
+    "options": [
+      "သီပေါမင်း",
+      "မင်းတုန်းမင်း",
+      "ဘကြီးတော်",
+      "ဘိုးတော်ဘုရား"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which king founded Mandalay? — King Mindon (1857). Thibaw was his son and the last king."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "မြောက်ဘက် ၂ ကီလို၊ အရှေ့ဘက် ၂ ကီလို၊ တောင်ဘက် ၂ ကီလို၊ အနောက်ဘက် ၁ ကီလို လျှောက်ရင် စခဲ့တဲ့နေရာနဲ့ ဘယ်လောက် ဝေးမလဲ။",
+    "options": [
+      "၀ ကီလိုမီတာ",
+      "၁ ကီလိုမီတာ",
+      "၃ ကီလိုမီတာ",
+      "၇ ကီလိုမီတာ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Walk 2 km north, 2 east, 2 south, 1 west: how far are you from the start? — 1 km: north and south cancel, and 2 east minus 1 west leaves 1 km. 7 km is the add-everything trap."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ပန်ကာက အခန်းထဲက လေကို အေးအောင် မလုပ်ပေမယ့် ဘာကြောင့် အေးတယ်လို့ ခံစားရသလဲ။",
+    "options": [
+      "ချွေးကို မြန်မြန် အငွေ့ပျံစေလို့",
+      "လေထဲ အောက်ဆီဂျင် တိုးလို့",
+      "လေဖိအား ကျသွားလို့",
+      "အခန်းထဲ ဓာတ်ငွေ့ ပြောင်းလို့"
+    ],
+    "correctIndex": 0,
+    "gloss": "A fan doesn't cool the air in a room, so why do you feel cooler? — It makes sweat evaporate faster, and evaporation takes heat from the skin."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "လူကို ကိုက်ပြီး သွေးစုပ်တာက ဘယ်ခြင်တွေလဲ။",
+    "options": [
+      "ခြင်ထီးတွေ သာ",
+      "နှစ်မျိုးလုံး",
+      "ခြင်ပေါက်စတွေ သာ",
+      "ခြင်မတွေ သာ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mosquitoes bite people and suck blood? — Only females, which need blood to make eggs; males feed on nectar and larvae live in water."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဒိုရာအီမွန်က ဘယ်ရာစုကနေ အချိန်ခရီးသွားပြီး ရောက်လာတာလဲ။",
+    "options": [
+      "၂၀ ရာစု",
+      "၂၁ ရာစု",
+      "၂၂ ရာစု",
+      "၂၃ ရာစု"
+    ],
+    "correctIndex": 2,
+    "gloss": "From which century did Doraemon travel back in time? — The 22nd century (he was 'born' in 2112)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ရက်ဂေး ဂီတဟာ ဘယ်နိုင်ငံမှာ စတင်ပေါ်ပေါက်ခဲ့သလဲ။",
+    "options": [
+      "ကျူးဘား",
+      "ဂျမေကာ",
+      "ဘရာဇီး",
+      "မက္ကဆီကို"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which country did reggae music begin? — Jamaica (late 1960s; Bob Marley made it world famous)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "သွေးအုပ်စု အားလုံးနီးပါးကို သွေးလှူနိုင်လို့ “universal donor” လို့ ခေါ်တာ ဘယ်အုပ်စုလဲ။",
+    "options": [
+      "AB+",
+      "A−",
+      "O−",
+      "B+"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which blood group is called the 'universal donor'? — O negative. AB+ is the trap: it is the universal recipient."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "မာရသွန် အပြေးပြိုင်ပွဲ တစ်ပွဲရဲ့ အကွာအဝေးက ဘယ်လောက်လဲ။",
+    "options": [
+      "၁၀ ကီလိုမီတာ",
+      "၂၁ ကီလိုမီတာကျော်",
+      "၃၀ ကီလိုမီတာ",
+      "၄၂ ကီလိုမီတာကျော်"
+    ],
+    "correctIndex": 3,
+    "gloss": "How long is a marathon? — Just over 42 km (42.195 km). Just over 21 km is the half marathon."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "တောင်ပေါ်က အင်ကာ မြို့ဟောင်း မာချူ ပီချူဟာ ဘယ်နိုင်ငံမှာ ရှိသလဲ။",
+    "options": [
+      "မက္ကဆီကို",
+      "ချီလီ",
+      "ပီရူး",
+      "ဘိုလီးဗီးယား"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which country is the Inca mountain city of Machu Picchu? — Peru."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ရော်ဘင်ဆင် ခရူးဆိုးက ကျွန်းပေါ်မှာ တွေ့တဲ့ အဖော်ကို ဘယ်နေ့ရဲ့ နာမည်နဲ့ ခေါ်သလဲ။",
+    "options": [
+      "စနေ",
+      "တနင်္ဂနွေ",
+      "သောကြာ",
+      "တနင်္လာ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Robinson Crusoe names the companion he finds on the island after which day? — Friday, the day they met."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "“The Lion King” ကာတွန်းကားထဲက ခြင်္သေ့လေး ဆင်ဘာရဲ့ အဖေက ဘယ်သူလဲ။",
+    "options": [
+      "မူဖာဆာ",
+      "စကား",
+      "ရာဖီကီ",
+      "ပွမ်ဘာ"
+    ],
+    "correctIndex": 0,
+    "gloss": "In The Lion King, who is the lion cub Simba's father? — Mufasa. Scar is his uncle, Rafiki the mandrill, Pumbaa the warthog."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ဗာတီကန်က ဆစ်စတိုင်း ဘုရားကျောင်း မျက်နှာကြက် ပန်းချီကို ဆွဲခဲ့သူက ဘယ်သူလဲ။",
+    "options": [
+      "လီယိုနာဒို ဒါဗင်ချီ",
+      "မိုက်ကယ်လ်အိန်ဂျလို",
+      "ရာဖေးလ်",
+      "ဒိုနာတဲလို"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who painted the ceiling of the Sistine Chapel in the Vatican? — Michelangelo (1508–1512). Raphael painted rooms nearby in the Vatican, hence the trap."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ဘုရားမှာ သောကြာနေ့ မွေးသူတွေ ရေသပ်ရတဲ့ ထောင့်မှာ ဘယ်သတ္တဝါရုပ် ရှိသလဲ။",
+    "options": [
+      "ကြွက်",
+      "ဆင်",
+      "နဂါး",
+      "ပူး"
+    ],
+    "correctIndex": 3,
+    "gloss": "At a pagoda, which animal stands at the corner where Friday-born people pour water? — The guinea pig. The rat is Thursday's, the elephant Wednesday's, the naga Saturday's."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ရောမဂဏန်း “XC” က ဘယ်လောက်လဲ။",
+    "options": [
+      "၄၀",
+      "၆၀",
+      "၉၀",
+      "၁၁၀"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Roman numeral XC? — 90: X (10) before C (100) is subtracted. 110 is the add-them-up trap, 40 (XL) and 60 (LX) the letter mix-ups."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "မြန်မာ့ အမြင့်ဆုံးတောင် ခါကာဘိုရာဇီဟာ ဘယ်ပြည်နယ်မှာ ရှိသလဲ။",
+    "options": [
+      "ကချင်",
+      "ချင်း",
+      "ရှမ်း",
+      "ကယား"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which state is Hkakabo Razi, Myanmar's highest mountain? — Kachin State, in the far north on the border with Tibet."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ကမ္ဘာမကျေ” နိုင်ငံတော်သီချင်းကို ရေးစပ်ခဲ့သူက ဘယ်သူလဲ။",
+    "options": [
+      "သခင်ကိုယ်တော်မှိုင်း",
+      "မင်းသုဝဏ်",
+      "ဒဂုန်တာရာ",
+      "ဆရာတင်"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote and composed the national anthem 'Kaba Ma Kyei'? — Saya Tin (YMB Saya Tin, 1930). The others are famous Burmese poets."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ပြီးဆုံးခဲ့ရင် ကမ္ဘာ့အကြီးဆုံး စေတီ ဖြစ်မယ့် မင်းကွန်း ပုထိုးတော်ကြီးကို တည်ခဲ့တဲ့ ဘုရင်က ဘယ်သူလဲ။",
+    "options": [
+      "မင်းတုန်းမင်း",
+      "ဘိုးတော်ဘုရား",
+      "ဆင်ဖြူရှင်",
+      "ဘကြီးတော်"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which king built the Mingun Pahtodawgyi, which would have been the world's largest stupa if finished? — Bodawpaya (from 1790). All options are Konbaung kings."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "၁၉၄၇ မှာ ကွန်ပျူတာ ချို့ယွင်းချက်ကို စစ်ကြည့်တော့ စက်ထဲမှာ တကယ့် “bug” ညပ်နေတာ တွေ့ခဲ့တယ်။ ဘာကောင်လဲ။",
+    "options": [
+      "ပုရွက်ဆိတ်",
+      "ပိုးဟပ်",
+      "ပိုးဖလံ",
+      "ယင်ကောင်"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 1947, checking a computer fault, engineers found a real 'bug' stuck inside. What was it? — A moth, taped into the Harvard Mark II logbook ('first actual case of bug being found')."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ကိုယ့်ဝင်ရိုးပေါ် တစ်ပတ်လည်ဖို့ ကြာချိန်က နေကို တစ်ပတ်ပတ်ဖို့ ကြာချိန်ထက် ပိုကြာတဲ့ ဂြိုဟ်က ဘယ်ဂြိုဟ်လဲ။",
+    "options": [
+      "ဗုဒ္ဓဟူးဂြိုဟ်",
+      "သောကြာဂြိုဟ်",
+      "အင်္ဂါဂြိုဟ်",
+      "ကြာသပတေးဂြိုဟ်"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which planet takes longer to turn once on its axis than to orbit the Sun? — Venus: 243 Earth days to rotate, 225 to orbit. Mercury is the trap (59 days to rotate, 88 to orbit)."
+  }
+]

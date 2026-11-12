@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ní Yorùbá, ogún jẹ́ 20, ogójì sì jẹ́ ogún méjì. Iye wo ni ọgọ́ta?",
+    "options": [
+      "30",
+      "50",
+      "80",
+      "60"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Yoruba, ogún is 20 and ogójì is 'twenty times two'. What number is ọgọ́ta? — 60: ọgọ́ta is ogún × mẹ́ta (three twenties), as ogójì is ogún × méjì; 30 (ọgbọ̀n) is the sound-alike trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ọjọọjọ́ túmọ̀ sí “ní gbogbo ọjọ́”. Kí wá ni oṣooṣù túmọ̀ sí?",
+    "options": [
+      "Ní gbogbo ọ̀sẹ̀",
+      "Ní gbogbo ọdún",
+      "Ní gbogbo oṣù",
+      "Ní ìdajì oṣù"
+    ],
+    "correctIndex": 2,
+    "gloss": "Ọjọọjọ́ means 'every day'. So what does oṣooṣù mean? — Every month: the noun is doubled to mean 'every' (ọjọ́ → ọjọọjọ́, oṣù → oṣooṣù, ọdún → ọdọọdún)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Akọ̀wé ni ẹni tó ń kọ ìwé. Kí ni apẹja máa ń ṣe?",
+    "options": [
+      "Ó ń pa ẹja",
+      "Ó ń ta ẹja",
+      "Ó ń dín ẹja",
+      "Ó ń jẹ ẹja"
+    ],
+    "correctIndex": 0,
+    "gloss": "An akọ̀wé is one who writes (kọ) books (ìwé). What does an apẹja do? — He catches fish: a- + pa ('kill, catch') + ẹja ('fish') = fisherman. A fish seller is ẹlẹ́ja."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ta ni à ń pè ní ọmọọmọ ẹni?",
+    "options": [
+      "Gbogbo ọmọ ẹni",
+      "Ọmọ àbúrò ẹni",
+      "Àkọ́bí ẹni",
+      "Ọmọ tí ọmọ ẹni bí"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is one's ọmọọmọ? — A grandchild: ọmọ + ọmọ is 'child of a child', not a plural 'children' (Yoruba nouns have no plural; that would be àwọn ọmọ)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Àwọn orúkọ bíi Adéwálé àti Adébáyọ̀ sábà máa ń fi hàn pé ọmọ náà wá láti ìdílé wo?",
+    "options": [
+      "Ìdílé ọdẹ",
+      "Ìdílé ọba",
+      "Ìdílé onílù",
+      "Ìdílé babaláwo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Names like Adéwálé and Adébáyọ̀ usually show the child comes from which kind of family? — A royal one: adé is 'crown'. Hunters' names start with Ọdẹ-, drummers' with Àyàn-, Ifá priests' with Fá-/Ifá-."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gẹ́gẹ́ bí òwe ti wí, ilé ọba tó jó, kí ló bù kún un?",
+    "options": [
+      "Ọlá",
+      "Owó",
+      "Agbára",
+      "Ẹwà"
+    ],
+    "correctIndex": 3,
+    "gloss": "As the proverb says, when the king's house burns, what does it add to it? — Beauty: «Ilé ọba tó jó, ẹwà ló bù kún un» (a loss can lead to something finer)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kí ni ìnagijẹ ẹgbẹ́ agbábọ́ọ̀lù ọkùnrin orílẹ̀-èdè Nàìjíríà?",
+    "options": [
+      "Super Eagles",
+      "Black Stars",
+      "Indomitable Lions",
+      "Pharaohs"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the nickname of Nigeria's men's national football team? — The Super Eagles. Black Stars is Ghana, Indomitable Lions Cameroon, Pharaohs Egypt."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kí ni orúkọ atẹ́gùn gbígbẹ, eléruku, tí ń fẹ́ wá láti Sàhárà ní ìparí ọdún?",
+    "options": [
+      "Ìjì",
+      "Ìrì",
+      "Ọyẹ́",
+      "Òjò"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the dry, dusty wind that blows from the Sahara at the end of the year called? — Ọyẹ́ (harmattan). Ìjì is a storm, ìrì dew, òjò rain."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Láti ara kí ni wọ́n ti ń ṣe gàrí tí a máa ń rẹ sínú omi tútù pẹ̀lú ṣúgà?",
+    "options": [
+      "Iṣu",
+      "Ẹ̀gẹ́",
+      "Àgbàdo",
+      "Kókò"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is gàrí, which we soak in cold water with sugar, made from? — Cassava (ẹ̀gẹ́), grated, fermented and fried. Not yam, maize or cocoyam."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ìlù wo ni onílù ń fún okùn rẹ̀ lábẹ́ apá láti mú un “sọ̀rọ̀” bí ohùn Yorùbá?",
+    "options": [
+      "Bàtá",
+      "Bẹ̀ǹbẹ́",
+      "Sákárà",
+      "Dùndún"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which drum does the drummer squeeze under the arm by its cords to make it 'speak' like Yoruba tones? — Dùndún, the hourglass talking drum. Bàtá, bẹ̀ǹbẹ́ and sákárà are not squeezed."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ewì tí a fi ń kí ènìyàn, tí ó ń ròyìn ìdílé àti àwọn baba ńlá rẹ̀, ni à ń pè ní?",
+    "options": [
+      "Oríkì",
+      "Ìjálá",
+      "Ẹ̀sà",
+      "Ẹkún ìyàwó"
+    ],
+    "correctIndex": 0,
+    "gloss": "The poetry used to salute a person, recounting their lineage and ancestors, is called? — Oríkì (praise poetry). Ìjálá is hunters' chant, ẹ̀sà the egúngún chant, ẹkún ìyàwó the bride's lament."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Òrìṣà irin wo ni alágbẹ̀dẹ, ọdẹ àti awakọ̀ máa ń bọ?",
+    "options": [
+      "Ọ̀ṣun",
+      "Ọya",
+      "Ògún",
+      "Ọbàtálá"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which òrìṣà of iron do blacksmiths, hunters and drivers worship? — Ògún. Ọ̀ṣun is the river goddess, Ọya of wind and storm, Ọbàtálá the creator of human forms."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Olórin Nàìjíríà wo ni wọ́n ń pè ní “African Giant”, orúkọ àwo orin rẹ̀ kan?",
+    "options": [
+      "Davido",
+      "Burna Boy",
+      "Wizkid",
+      "Olamide"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Nigerian singer is called the 'African Giant', the title of one of his albums? — Burna Boy (album 'African Giant', 2019)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Èwo nínú ọ̀rọ̀ aṣínà wọ̀nyí ni olè orí ayélujára yóò ṣòro jùlọ láti mọ̀?",
+    "options": [
+      "123456",
+      "password",
+      "Adewale1990",
+      "Gb7#rQ!x2m"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these passwords would an online thief find hardest to guess? — Gb7#rQ!x2m: random mixed letters, digits and symbols; the others are common or built from a name and year."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kí ló ń mú kí ìyẹ̀fun búrẹ́dì wú sókè kí wọ́n tó yan án?",
+    "options": [
+      "Ìwúkàrà",
+      "Ṣúgà",
+      "Iyọ̀",
+      "Bọ́tà"
+    ],
+    "correctIndex": 0,
+    "gloss": "What makes bread dough rise before it is baked? — Yeast (ìwúkàrà), whose gas puffs up the dough. Sugar feeds it but does not raise the dough itself."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kí ni wọ́n ń dín nínú epo tí ó fi ń di dòdò?",
+    "options": [
+      "Iṣu",
+      "Ọ̀dùnkún",
+      "Ọ̀gẹ̀dẹ̀ àgbagbà",
+      "Ẹ̀gẹ́"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is fried in oil to make dòdò? — Ripe plantain (ọ̀gẹ̀dẹ̀ àgbagbà); fried yam is dùndú."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Orílẹ̀-èdè wo ló ń ná owó “cedi”?",
+    "options": [
+      "Togo",
+      "Ghana",
+      "Benin",
+      "Liberia"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country spends the cedi? — Ghana. Togo and Benin use the CFA franc, Liberia the Liberian dollar."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú ìtàn àròsọ Gíríìkì, ta ló fi ìyẹ́ tí a fi ìda lẹ̀ fò sún mọ́ oòrùn jù, tí ó sì já bọ́?",
+    "options": [
+      "Perseus",
+      "Hermes",
+      "Achilles",
+      "Icarus"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Greek myth, who flew too close to the sun on wings stuck with wax, and fell? — Icarus."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kí ni orúkọ ìkànnì X tẹ́lẹ̀, tí ẹyẹ búlúù kékeré jẹ́ àmì rẹ̀?",
+    "options": [
+      "Twitter",
+      "Telegram",
+      "Tumblr",
+      "Threads"
+    ],
+    "correctIndex": 0,
+    "gloss": "What was the platform X called before, when a little blue bird was its logo? — Twitter (renamed X in 2023). Telegram's logo is a paper plane."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ìkànnì wíwo fíìmù wo ni àmì rẹ̀ jẹ́ lẹ́tà N pupa?",
+    "options": [
+      "Showmax",
+      "YouTube",
+      "Netflix",
+      "Prime Video"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which film-streaming service has a red letter N as its logo? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bí o bá mú ìgò omi tútù jáde láti fíríìjì, ara rẹ̀ lóde máa ń rin. Ibo ni omi náà ti wá?",
+    "options": [
+      "Láti inú ìgò",
+      "Láti inú afẹ́fẹ́",
+      "Láti inú fíríìjì",
+      "Láti ọwọ́ ẹni"
+    ],
+    "correctIndex": 1,
+    "gloss": "Take a cold bottle of water out of the fridge and its outside gets wet. Where does that water come from? — From the air: water vapour condenses on the cold glass; nothing seeps through."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ìwọ̀n ìgbóná ara ènìyàn tí ara rẹ̀ le dáadáa jẹ́ nǹkan bí mélòó?",
+    "options": [
+      "32°C",
+      "35°C",
+      "40°C",
+      "37°C"
+    ],
+    "correctIndex": 3,
+    "gloss": "A healthy person's body temperature is about how much? — About 37°C. 40°C is a high fever, 35°C and below is hypothermia."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Níbo ni ẹ̀pà ń so sí lára ọ̀gbìn rẹ̀?",
+    "options": [
+      "Lábẹ́ ilẹ̀",
+      "Lórí ẹ̀ka",
+      "Nínú ìtànná",
+      "Lára ìtàkùn"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where on the plant do groundnuts form? — Underground: after flowering, the stalk pushes into the soil and the pods ripen there."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kí ló dé tí ó fi yẹ ká da omi tó dúró sínú agolo àti táyà àtijọ́ nù?",
+    "options": [
+      "Ó ń mú ilẹ̀ rùn",
+      "Ó ń fa eku",
+      "Ẹ̀fọn ń yé ẹyin sínú rẹ̀",
+      "Ó ń ba táyà jẹ́"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why should we empty standing water from tins and old tyres? — Mosquitoes lay their eggs in it, and the larvae grow there."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú bọ́ọ̀lù-àfẹsẹ̀gbá, kí ni “hat-trick” nínú ìdíje kan?",
+    "options": [
+      "Gólì mẹ́ta tí ẹgbẹ́ kan gbá",
+      "Gólì tí wọ́n fi orí gbá",
+      "Gólì tí wọ́n gbá láti ọ̀ọ̀kán",
+      "Gólì mẹ́ta tí ẹnì kan ṣoṣo gbá"
+    ],
+    "correctIndex": 3,
+    "gloss": "In football, what is a 'hat-trick' in one match? — Three goals by a single player. Three goals by one team is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bí ọ̀gá rẹ bá kọ “ASAP” sínú àtẹ̀jíṣẹ́, ìgbà wo ló fẹ́ kí o ṣe é?",
+    "options": [
+      "Kí o tó sùn lálẹ́",
+      "Ní kíákíá bí ó ti lè ṣeé ṣe",
+      "Ní ọ̀sẹ̀ tó ń bọ̀",
+      "Nígbà tí ó bá wù ọ́"
+    ],
+    "correctIndex": 1,
+    "gloss": "If your boss writes 'ASAP' in a message, when do they want it done? — As soon as possible."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "O yan “Pay on delivery” nígbà tí o ń ra ọjà lórí ayélujára. Ìgbà wo lo máa sanwó?",
+    "options": [
+      "Nígbà tí ọjà bá dé ọ̀dọ̀ rẹ",
+      "Kí wọ́n tó kó ọjà jáde",
+      "Lẹ́yìn oṣù kan",
+      "Nígbà tí o bá ń tẹ “order”"
+    ],
+    "correctIndex": 0,
+    "gloss": "You chose 'Pay on delivery' when shopping online. When do you pay? — When the goods reach you."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kí ló dé tí a kò gbọdọ̀ tan jẹnẹrétọ̀ nínú ilé tàbí yàrá tí a tì?",
+    "options": [
+      "Ìró rẹ̀ ń ba etí jẹ́",
+      "Ó ń jẹ epo púpọ̀",
+      "Èéfín rẹ̀ ní gáàsì olóró",
+      "Ó lè fọ́ fèrèsé"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why must a generator never run inside a house or a closed room? — Its exhaust holds a poisonous gas (carbon monoxide) that can kill sleepers."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ló dá orin Afrobeat sílẹ̀, tí ó sì pe ilé rẹ̀ ní “Kalakuta Republic”?",
+    "options": [
+      "Fẹlá Aníkúlápó-Kútì",
+      "Ebenezer Obey",
+      "King Sunny Adé",
+      "Orlando Owoh"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who created Afrobeat and called his compound the 'Kalakuta Republic'? — Fela Anikulapo-Kuti. Obey and Adé play jùjú, Owoh highlife/toye."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ni olórí ìjọba ẹkùn Ìwọ̀-Oòrùn nígbà tí ẹ̀kọ́ alákọ̀ọ́bẹ̀rẹ̀ ọ̀fẹ́ bẹ̀rẹ̀ lọ́dún 1955?",
+    "options": [
+      "Ládòkè Akíntọ́lá",
+      "Ọbáfẹ́mi Awólọ́wọ̀",
+      "Adékúnlé Fájuyì",
+      "Bọ́lá Ìgè"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who headed the Western Region government when free primary education began in 1955? — Obafemi Awolowo, Premier 1954–59. Akintola succeeded him; Fajuyi and Ige came later."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aṣọ wo ni wọ́n ń so tàbí fi ẹ̀kọ ṣe àwòrán sí kí wọ́n tó rì í sínú aró, tí Abẹ́òkúta lókìkí fún?",
+    "options": [
+      "Aṣọ òkè",
+      "Kíjìpá",
+      "Àdìrẹ",
+      "Àńkárá"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cloth is tied or patterned with starch paste before being dipped in indigo, Abeokuta's speciality? — Àdìrẹ. Aṣọ òkè and kíjìpá are handwoven; àńkárá is factory print."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Olórin wo ni orúkọ àbísọ rẹ̀ jẹ́ Ayọ̀déjì Balógun?",
+    "options": [
+      "Davido",
+      "Olamide",
+      "Asake",
+      "Wizkid"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which singer's birth name is Ayodeji Balogun? — Wizkid. Davido is David Adeleke, Olamide is Olamide Adedeji, Asake is Ahmed Ololade."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọjọ́ mélòó ló wà nínú ọ̀sẹ̀ ìbílẹ̀ Yorùbá, tí ọjọ́ kọ̀ọ̀kan jẹ́ ti òrìṣà kan?",
+    "options": [
+      "Mẹ́ta",
+      "Mẹ́rin",
+      "Márùn-ún",
+      "Méje"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many days are in the traditional Yoruba week, each belonging to an òrìṣà? — Four: Ọjọ́ Awo (Ifá), Ọjọ́ Ògún, Ọjọ́ Jàkúta (Ṣàngó), Ọjọ́ Ọ̀sẹ̀ (Ọbàtálá)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kí ni òwe “Ọ̀nà kan ò wọ ọjà” ń kọ́ wa?",
+    "options": [
+      "Ọ̀nà ju ẹyọ kan lọ ló wà láti ṣe nǹkan",
+      "Ọjà jìnnà sí ilé",
+      "Ẹni tó bá pẹ́ kò ní rí ọjà rà",
+      "Ọ̀nà ọjà kún fún ewu"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the proverb 'One road does not lead to the market' teach? — There is more than one way to do a thing; read straight from the image of many roads to one market."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Indomie gbajúmọ̀ ní gbogbo ilé ní Nàìjíríà. Orílẹ̀-èdè wo ni ilé-iṣẹ́ tó ni orúkọ rẹ̀ ti wá?",
+    "options": [
+      "China",
+      "Japan",
+      "India",
+      "Indonesia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Indomie is in every Nigerian home. Which country is the company that owns the brand from? — Indonesia (Indofood); the name is 'Indo' + 'mie' (noodles)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Orílẹ̀-èdè wo ló yí Gambia ká ní gbogbo ẹ̀gbẹ́ àfi etí òkun?",
+    "options": [
+      "Guinea",
+      "Mali",
+      "Senegal",
+      "Guinea-Bissau"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country surrounds The Gambia on every side except the coast? — Senegal."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú tẹníìsì, iye wo ni “love” dúró fún nígbà tí wọ́n bá ń ka àmì?",
+    "options": [
+      "Ọ̀kan",
+      "Òdo",
+      "Ọgbọ̀n",
+      "Ogójì"
+    ],
+    "correctIndex": 1,
+    "gloss": "In tennis, what number does 'love' stand for in the score? — Zero. Points go love, 15, 30, 40."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kí ló dé tí dókítà fi ń sọ pé ká lo gbogbo oògùn apakòkòrò (antibiotics) tán, kódà bí ara bá ti yá?",
+    "options": [
+      "Kí kòkòrò àrùn tó kù má bàa gbèrú padà",
+      "Kí oògùn náà lè di fítámìn nínú ara",
+      "Kí ẹ̀jẹ̀ lè pọ̀ sí i",
+      "Kí ikùn má bàa dun ni"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why do doctors say to finish a course of antibiotics even when you feel well? — So the surviving bacteria do not multiply again (and grow resistant)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ọkọ̀ kan ń sáré kìlómítà 60 ní wákàtí kan. Ìṣẹ́jú mélòó ni yóò fi rin kìlómítà 20?",
+    "options": [
+      "30",
+      "40",
+      "20",
+      "15"
+    ],
+    "correctIndex": 2,
+    "gloss": "A car travels 60 km in an hour. How many minutes does it take to cover 20 km? — 20: 60 km an hour is one kilometre a minute."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú Bíbélì, ta ni ẹja ńlá gbé mì, tí ó sì lo ọjọ́ mẹ́ta nínú ikùn rẹ̀?",
+    "options": [
+      "Jóòbù",
+      "Dáníẹ́lì",
+      "Èlíjà",
+      "Jónà"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Bible, who was swallowed by a great fish and spent three days in its belly? — Jonah. Daniel was in the lions' den."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nínú “OTP” tí báńkì ń fi ránṣẹ́ sí fóònù rẹ, kí ni lẹ́tà O dúró fún?",
+    "options": [
+      "Online",
+      "Official",
+      "One",
+      "Open"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the 'OTP' a bank texts to your phone, what does the O stand for? — One: One-Time Password, valid for a single use. 'Online' is the trap."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Orílẹ̀-èdè wo ló fi Ère Òmìnira (Statue of Liberty) tó wà ní New York ta Amẹ́ríkà lọ́rẹ?",
+    "options": [
+      "Britain",
+      "France",
+      "Spain",
+      "Netherlands"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country gave America the Statue of Liberty in New York? — France (dedicated 1886; sculptor Bartholdi)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọwá Obòkun ni orúkọ oyè ọba ìlú wo?",
+    "options": [
+      "Iléṣà",
+      "Ìjẹ̀bú-Òde",
+      "Ọ̀wọ̀",
+      "Àkúrẹ́"
+    ],
+    "correctIndex": 0,
+    "gloss": "Ọwá Obòkun is the title of the king of which town? — Ilesa, seat of Ijesaland. Ijebu-Ode's king is the Awùjalẹ̀, Owo's the Olówò, Akure's the Deji."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nínú òǹkà Yorùbá ìgbàanì, iye wo ni “ọ̀kẹ́ kan”?",
+    "options": [
+      "1,000",
+      "10,000",
+      "20,000",
+      "100,000"
+    ],
+    "correctIndex": 2,
+    "gloss": "In traditional Yoruba counting, what number is 'one ọ̀kẹ́'? — 20,000 (originally a bag of 20,000 cowries)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ife kan kún fún omi dé ẹnu, yìnyín sì léfòó lórí rẹ̀. Bí yìnyín bá yọ́ tán, kí ló máa ṣẹlẹ̀?",
+    "options": [
+      "Omi máa dà sílẹ̀",
+      "Ìpele omi máa wálẹ̀ díẹ̀",
+      "Omi máa dì padà",
+      "Ìpele omi kò ní yí padà"
+    ],
+    "correctIndex": 3,
+    "gloss": "A glass is filled with water to the brim with ice floating in it. When the ice has melted, what happens? — The level stays the same: floating ice displaces exactly its own weight of water, which is what it becomes."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ta ló kọ “Animal Farm”, ìtàn tí àwọn ẹranko ti gba oko lọ́wọ́ àgbẹ̀ wọn?",
+    "options": [
+      "Aldous Huxley",
+      "George Orwell",
+      "Charles Dickens",
+      "H. G. Wells"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'Animal Farm', the story in which animals take over the farm from their farmer? — George Orwell (1945)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ni bíṣọ́ọ̀bù Áfíríkà àkọ́kọ́ nínú ìjọ Anglican, tí ó ṣe aṣáájú títúmọ̀ Bíbélì sí Yorùbá?",
+    "options": [
+      "Samuel Àjàyí Crowther",
+      "Henry Townsend",
+      "Mọ̀jọ́lá Àgbébí",
+      "James Johnson"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first African Anglican bishop, who led the translation of the Bible into Yoruba? — Samuel Ajayi Crowther (consecrated 1864). Townsend was an English missionary, Agbebi a Baptist."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ìlú wo ni wọ́n ti fọwọ́ sí ìwé àdéhùn ìdásílẹ̀ Àjọ Ìṣọ̀kan Àgbáyé (UN) lọ́dún 1945?",
+    "options": [
+      "New York",
+      "Geneva",
+      "London",
+      "San Francisco"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which city was the founding Charter of the United Nations signed in 1945? — San Francisco (26 June 1945). New York became the headquarters later."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ta ló kọ, tí ó sì darí eré-oníṣe olókìkí náà, “Ọba Kò So”?",
+    "options": [
+      "Hubert Ògúndé",
+      "Dúró Ládipọ̀",
+      "Kọ́lá Ògúnmọ́lá",
+      "Akínwùmí Ìṣọ̀lá"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote and directed the famous play 'Ọba Kò So' ('The King Did Not Hang')? — Duro Ladipo (1960s, Osogbo). Ogunde and Ogunmola led other travelling theatres."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pílánẹ́ẹ̀tì wo ló ń yí ara rẹ̀ po jù lọ, tí ọjọ́ kan níbẹ̀ kò tó wákàtí mẹ́wàá?",
+    "options": [
+      "Mercury",
+      "Saturn",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which planet spins fastest, with a day of under ten hours? — Jupiter (about 9 h 56 min); Saturn is close behind at about 10 h 33 min, Mercury and Mars are slow."
+  }
+]

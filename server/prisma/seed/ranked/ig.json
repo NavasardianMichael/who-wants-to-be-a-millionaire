@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ndị Igbo na-akpọ ya “eze ihe ọkụkụ”, na-emekwa ememe ya kwa afọ mgbe owuwe ihe ubi ruru. Kedu ihe ọkụkụ a?",
+    "options": [
+      "Ji",
+      "Akpụ",
+      "Ede",
+      "Ọka"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Igbo call it 'the king of crops' and celebrate it every year at harvest. Which crop? — Yam (ji): the New Yam festival (Iri ji / Ịwa ji)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu aha ndị Igbo na-akpọ mmụọ nna nna anyị na-apụta n'ememe, kpuchie ihu ha?",
+    "options": [
+      "Dibịa",
+      "Ndị Ozo",
+      "Ụmụada",
+      "Mmanwụ"
+    ],
+    "correctIndex": 3,
+    "gloss": "What do the Igbo call the ancestral spirits who appear at festivals with covered faces? — Mmanwụ, the masquerades. Dibịa is a healer, Ozo a title, Ụmụada the lineage daughters."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gịnị ka a na-adịghị etinye n'ofe nsala, nke mere a na-akpọ ya “ofe ọcha”?",
+    "options": [
+      "Ose",
+      "Nnu",
+      "Mmanụ nkwụ",
+      "Azụ"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is left out of nsala soup, which is why it is called 'white soup'? — Palm oil: nsala is cooked without it (pepper, salt and fish all go in)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mezue okwu ndị okenye: “Ilu bụ … e ji eri okwu.”",
+    "options": [
+      "Nnu",
+      "Mmanụ",
+      "Ose",
+      "Ofe"
+    ],
+    "correctIndex": 1,
+    "gloss": "Complete the elders' saying: 'Proverbs are the ___ with which words are eaten.' — Mmanụ (palm oil): «Ilu bụ mmanụ e ji eri okwu», made famous by Achebe."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'ezinaụlọ Igbo, a na-akpọ nwa nwaanyị mbụ “ada”. Kedu ihe a na-akpọ nwa nwoke mbụ?",
+    "options": [
+      "Nwanne",
+      "Ọkpara",
+      "Ọgọ",
+      "Nwadiala"
+    ],
+    "correctIndex": 1,
+    "gloss": "In an Igbo family the first daughter is 'ada'. What is the first son called? — Ọkpara. Nwanne is sibling, ọgọ in-law, nwadiala a daughter's child."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'ịgba nkwụ, gịnị ka nwaanyị a na-alụ na-ebu na-achọ di ya n'etiti ọha?",
+    "options": [
+      "Iko mmanya",
+      "Ọkwa ọjị",
+      "Efere nri",
+      "Ite mmiri"
+    ],
+    "correctIndex": 0,
+    "gloss": "At the traditional wedding, what does the bride carry while searching for her husband in the crowd? — A cup of palm wine, which she gives him to drink."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mgbe nwaanyị mụsịrị nwa, nne ya na-abịa nọrọ izu ole na ole na-elekọta ya. Kedu aha omenala a?",
+    "options": [
+      "Ịgụ aha",
+      "Ịkụ aka",
+      "Ịgba nkwụ",
+      "Ọmụgwọ"
+    ],
+    "correctIndex": 3,
+    "gloss": "After a woman gives birth, her mother comes to stay for weeks to care for her. What is this custom? — Ọmụgwọ. Ịgụ aha is naming, ịkụ aka the first marriage visit, ịgba nkwụ the wedding."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aba, obodo a ma ama maka ahịa Ariaria, dị na steeti gịnị?",
+    "options": [
+      "Imo",
+      "Anambra",
+      "Abia",
+      "Ebonyi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Aba, the town famous for Ariaria market, is in which state? — Abia."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Otu onye na-akụzi bụ “onye nkụzi”. Kedu ka e si akpọ mmadụ ise na-akụzi?",
+    "options": [
+      "Onye nkụzi ise",
+      "Ụmụ nkụzi ise",
+      "Ndị nkụzi ise",
+      "Nkụzi ise"
+    ],
+    "correctIndex": 2,
+    "gloss": "One teacher is 'onye nkụzi'. How do you say five teachers? — Ndị nkụzi ise: Igbo nouns do not change for plural; 'onye' becomes 'ndị'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Emeka nwere naịra puku abụọ, Ada nwere naịra puku atọ. Ego ole ka ha nwere ọnụ?",
+    "options": [
+      "₦6,000",
+      "₦5,000",
+      "₦500",
+      "₦50,000"
+    ],
+    "correctIndex": 1,
+    "gloss": "Emeka has two thousand naira, Ada three thousand. How much together? — ₦5,000: puku = thousand, 2 + 3. ₦6,000 traps those who multiply."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Ụlọ akwụkwọ” bụ ebe a na-amụ akwụkwọ. Gịnị bụ “ụlọ ọgwụ”?",
+    "options": [
+      "Ebe a na-agwọ ndị ọrịa",
+      "Ebe a na-ere akwa",
+      "Ebe a na-ekpe ekpere",
+      "Ebe a na-esi nri"
+    ],
+    "correctIndex": 0,
+    "gloss": "'House of books' is a school. What is 'house of medicine'? — A hospital: ụlọ + ọgwụ, the way Igbo builds words for places."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'oge udu mmiri, ndị mmadụ na-eri ọka a ṅara n'ọkụ ya na mkpụrụ osisi gịnị?",
+    "options": [
+      "Ụdara",
+      "Ụkwa",
+      "Oroma",
+      "Ube"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the rainy season, people eat roasted corn with which fruit? — Ube (African pear): «ọka na ube» is the classic rainy-season pairing."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mmanụ dị n'ite na-ere ọkụ n'ekwu. Kedu ihe kacha mma ị ga-eme?",
+    "options": [
+      "Wụnye mmiri na ya",
+      "Fụọ ya ume",
+      "Kpalie ya",
+      "Kpuchie ite ahụ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Oil in a pot catches fire on the stove. What is the best thing to do? — Cover the pot: it starves the fire of air. Water makes burning oil explode."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Karama mmiri juru eju nwere ike ịgbawa na friza, n'ihi na mmiri, mgbe ọ na-aghọ ice,…",
+    "options": [
+      "Na-adịwanye obere",
+      "Na-ekpo ọkụ",
+      "Na-ebuwanye ibu",
+      "Na-aghọ ikuku"
+    ],
+    "correctIndex": 2,
+    "gloss": "A full water bottle can burst in the freezer, because water, as it turns to ice... — expands (by about 9%)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "sports",
+    "scope": "global",
+    "text": "N'egwuregwu football, gịnị ka a na-eji “VAR” eme?",
+    "options": [
+      "Iji gụọ oge fọdụrụ",
+      "Iji lee vidiyo nyochaa mkpebi onye ọkàikpe",
+      "Iji tụọ ikuku dị na bọọlụ",
+      "Iji gụọ ndị na-ekiri egwuregwu"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is VAR used for in football? — Checking the referee's decisions on video (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "food",
+    "scope": "global",
+    "text": "Kedu ihe abụọ bụ isi ihe a na-eji eme mayonnaise?",
+    "options": [
+      "Akwa na mmanụ",
+      "Mmiri ara ehi na shuga",
+      "Tomato na ose",
+      "Ntụ ọka na mmiri"
+    ],
+    "correctIndex": 0,
+    "gloss": "What two main ingredients is mayonnaise made from? — Egg (yolk) and oil, whisked together with a little vinegar or lemon."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ose na-agba gị ọkụ n'ọnụ. Kedu ihe ọṅụṅụ kacha ebelata ya?",
+    "options": [
+      "Mmiri ara ehi",
+      "Mmiri soda",
+      "Mmanya bia",
+      "Mmiri oroma"
+    ],
+    "correctIndex": 0,
+    "gloss": "Pepper is burning your mouth. Which drink soothes it best? — Milk: its fat and casein wash away capsaicin, which water and soda only spread."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "nature",
+    "scope": "local",
+    "text": "Akụ, nke a na-eghe eghe rie, na-efepụta n'abalị mgbe gịnị?",
+    "options": [
+      "N'etiti ọkọchị",
+      "N'oge harmattan",
+      "Kwa abalị n'afọ niile",
+      "Mgbe mmiri mbụ zoro"
+    ],
+    "correctIndex": 3,
+    "gloss": "Akụ, the winged termites people fry and eat, swarm out at night when? — After the first rains, when they leave the mound to found new colonies."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gịnị ka ị na-eji n'ekwentị agụ “QR code”?",
+    "options": [
+      "Maịkrofon",
+      "Spịka",
+      "Kamera",
+      "Chaja"
+    ],
+    "correctIndex": 2,
+    "gloss": "What part of a phone do you use to read a QR code? — The camera."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gịnị bụ “OTP” ụlọ akụ na-ezitere gị mgbe ị na-akwụ ụgwọ n'ịntanetị?",
+    "options": [
+      "Nọmba akaụntụ gị",
+      "Koodu maka naanị otu ugboro",
+      "Ego fọdụrụ n'akaụntụ gị",
+      "Nọmba ekwentị ụlọ akụ"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the 'OTP' your bank texts you when you pay online? — A one-time password: a code valid for a single use."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Batrị ekwentị dị 60%, ọ na-ebelata 10% kwa awa. Awa ole ka ọ ga-ewe ka ọ gwụchaa?",
+    "options": [
+      "Awa 10",
+      "Awa 6",
+      "Awa 60",
+      "Awa 5"
+    ],
+    "correctIndex": 1,
+    "gloss": "A phone battery is at 60% and drops 10% an hour. How many hours until it is empty? — 6: 60 ÷ 10."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na fim Disney “Frozen”, kedu nwanne nwaanyị nwere ike ime ka ihe niile ghọọ ice?",
+    "options": [
+      "Elsa",
+      "Anna",
+      "Moana",
+      "Ariel"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Disney's 'Frozen', which sister can turn everything to ice? — Elsa. Anna is her sister; Moana and Ariel are other Disney heroines."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nọmba ekwentị na-amalite na “+234” bụ nke mba gịnị?",
+    "options": [
+      "Ghana",
+      "Kamerun",
+      "Benin",
+      "Naịjirịa"
+    ],
+    "correctIndex": 3,
+    "gloss": "A phone number starting with +234 belongs to which country? — Nigeria. Ghana is +233, Cameroon +237, Benin +229."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na WhatsApp, gịnị na-egosi na onye ahụ agụọla ozi gị?",
+    "options": [
+      "Otu akara isi awọ",
+      "Akara abụọ isi awọ",
+      "Akara abụọ na-acha anụnụ anụnụ",
+      "Akara na-acha uhie uhie"
+    ],
+    "correctIndex": 2,
+    "gloss": "On WhatsApp, what shows that someone has read your message? — Two blue ticks. One grey tick is sent, two grey delivered."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Anthony Joshua, onye nne na nna ya si Naịjirịa, bụ onye mmeri ụwa n'egwuregwu gịnị?",
+    "options": [
+      "Ịgba mgba",
+      "Ịgba ọsọ",
+      "Ịkụ ọkpọ",
+      "Ịkụ tenis"
+    ],
+    "correctIndex": 2,
+    "gloss": "Anthony Joshua, whose parents are Nigerian, became world champion in which sport? — Boxing (heavyweight)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "mythology",
+    "scope": "global",
+    "text": "N'akụkọ ifo Gris, onye fere nso anyanwụ n'nku e ji wax rapara, wee daa?",
+    "options": [
+      "Perseus",
+      "Icarus",
+      "Hermes",
+      "Achilles"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Greek myth, who flew too close to the sun on wings stuck with wax, and fell? — Icarus."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ọ bụrụ na aha egwu nwere “feat.” n'ime ya, gịnị ka ọ na-egosi?",
+    "options": [
+      "Onye ọbụ abụ ọzọ so bụọ ya",
+      "Ọ bụ egwu ochie e megharịrị",
+      "Ọ bụ egwu na-enweghị okwu",
+      "E dekọrọ ya n'ihu ọha"
+    ],
+    "correctIndex": 0,
+    "gloss": "If a song's title contains 'feat.', what does it show? — Another artist sings on it ('featuring'). Not a remake, an instrumental or a live recording."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gịnị ka a na-etinye na ntụ ọka ka achịcha bilie, fụọ elu?",
+    "options": [
+      "Nnu",
+      "Shuga",
+      "Bọta",
+      "Yist"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is added to flour so that bread rises? — Yeast, whose gas puffs up the dough."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fela Anikulapo-Kuti bụ onye malitere ụdị egwu gịnị?",
+    "options": [
+      "Highlife",
+      "Jùjú",
+      "Fuji",
+      "Afrobeat"
+    ],
+    "correctIndex": 3,
+    "gloss": "Fela Anikulapo-Kuti pioneered which genre? — Afrobeat. Highlife came before him; jùjú and fuji are other Nigerian genres."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Otu football Naịjirịa nke Nwankwo Kanu so na ya meriri ọla edo Olympic n'afọ 1996. N'obodo gịnị?",
+    "options": [
+      "Sydney",
+      "Barcelona",
+      "Atlanta",
+      "Seoul"
+    ],
+    "correctIndex": 2,
+    "gloss": "Nigeria's football team, with Nwankwo Kanu, won Olympic gold in 1996. In which city? — Atlanta. Sydney 2000, Barcelona 1992, Seoul 1988."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Onye dere akwụkwọ akụkọ “Purple Hibiscus” (2003), nke e debere n'Enugu na Nsukka?",
+    "options": [
+      "Buchi Emecheta",
+      "Chimamanda Ngozi Adichie",
+      "Chika Unigwe",
+      "Akachi Adimora-Ezeigbo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novel 'Purple Hibiscus' (2003), set in Enugu and Nsukka? — Chimamanda Ngozi Adichie, her first novel. All options are Igbo women novelists."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'okpukpere ndị Igbo oge gboo, kedu arụsị nke égbè eluigwe na àmụ̀mà?",
+    "options": [
+      "Amadioha",
+      "Ala",
+      "Agwụ",
+      "Ikenga"
+    ],
+    "correctIndex": 0,
+    "gloss": "In traditional Igbo religion, which deity rules thunder and lightning? — Amadioha. Ala is the earth goddess, Agwụ the spirit of healers and diviners, Ikenga the cult of the right hand."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nọmba akaụntụ ụlọ akụ ọ bụla na Naịjirịa (NUBAN) nwere ọnụọgụ ole?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "8"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many digits does every Nigerian bank account number (NUBAN) have? — 10. 11 traps those thinking of the BVN or a phone number."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kedu n'ime ndị a abụghị otu mkpụrụedemede n'abịdịị Igbo?",
+    "options": [
+      "gb",
+      "kp",
+      "nw",
+      "th"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these is not a single letter of the Igbo alphabet? — th. Gb, kp and nw are letters of the Ọnwụ alphabet; Igbo has no 'th' sound."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ọgba Ogbunike, ebe a na-eyipụ akpụkpọ ụkwụ tupu a banye, dị na steeti gịnị?",
+    "options": [
+      "Enugu",
+      "Imo",
+      "Anambra",
+      "Abia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Ogbunike Caves, where visitors take off their shoes before entering, are in which state? — Anambra (Oyi area)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kedu ihe dị n'ọbara, nwere iron, na-ebu oxygen gaa n'ahụ niile?",
+    "options": [
+      "Insulin",
+      "Hemoglobin",
+      "Keratin",
+      "Melanin"
+    ],
+    "correctIndex": 1,
+    "gloss": "What iron-containing substance in blood carries oxygen around the body? — Haemoglobin."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ọwa mmiri Suez dị n'Ijipt jikọrọ Oké Osimiri Mediterenịan na…?",
+    "options": [
+      "Oké Osimiri Ojii",
+      "Oké Osimiri Uhie",
+      "Oké Osimiri Caspian",
+      "Oké Osimiri Nwụrụ Anwụ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Egypt's Suez Canal links the Mediterranean with...? — The Red Sea. The Black, Caspian and Dead Seas are its neighbours on the map."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kedu ụlọ ọrụ mepụtara igwe egwuregwu vidiyo PlayStation?",
+    "options": [
+      "Sony",
+      "Nintendo",
+      "Microsoft",
+      "Sega"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which company makes the PlayStation games console? — Sony. Microsoft makes Xbox, Nintendo the Switch, Sega the Mega Drive."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Akpụkpọ ụkwụ bụ ₦10,000. Onye ahịa belatara ya pasent 20. Ego ole ka ị ga-akwụ?",
+    "options": [
+      "₦9,800",
+      "₦2,000",
+      "₦6,000",
+      "₦8,000"
+    ],
+    "correctIndex": 3,
+    "gloss": "Shoes cost ₦10,000 and the seller takes off 20%. How much do you pay? — ₦8,000. ₦2,000 is the discount itself; ₦9,800 subtracts 200."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gịnị mere ọkụkọ ji eloda obere nkume?",
+    "options": [
+      "Iji kpochaa ọnụ ya",
+      "Iji gwọọ ọrịa",
+      "Iji gwerie nri n'afọ ya",
+      "Iji mee ka ọ dị arọ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why do chickens swallow small stones? — To grind food in the gizzard: birds have no teeth."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "N'adreesị weebụsaịtị, gịnị ka “s” dị na “https” na-egosi?",
+    "options": [
+      "Na ọ dị ọsọ",
+      "Na ọ bụ nke ụlọ akwụkwọ",
+      "Na ọ nwere nchekwa",
+      "Na ọ bụ nke gọọmentị"
+    ],
+    "correctIndex": 2,
+    "gloss": "In a website address, what does the 's' in 'https' indicate? — That it is secure (encrypted)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na fim “Black Panther” (2018), kedu aha obodo T'Challa na-achị?",
+    "options": [
+      "Zamunda",
+      "Wakanda",
+      "Genovia",
+      "Narnia"
+    ],
+    "correctIndex": 1,
+    "gloss": "In 'Black Panther' (2018), what is the country T'Challa rules? — Wakanda. Zamunda is from 'Coming to America', Genovia from 'The Princess Diaries', Narnia from C. S. Lewis."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "N'afọ gịnị ka Naịjirịa ji naịra na kobo dochie pound?",
+    "options": [
+      "1973",
+      "1963",
+      "1979",
+      "1985"
+    ],
+    "correctIndex": 0,
+    "gloss": "In what year did Nigeria replace the pound with the naira and kobo? — 1973 (1 January)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu ihe ọkpụkpụ osisi nwere mpi, nke na-anọchite anya aka nri nwoke na mmeri ya?",
+    "options": [
+      "Ọfọ",
+      "Ekwe",
+      "Okwa",
+      "Ikenga"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which carved wooden figure with horns stands for a man's right hand and his success? — Ikenga. Ọfọ is the staff of authority, ekwe the slit drum, okwa the kola bowl."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Onye ọbụ abụ highlife si Atani gụrụ egwu a ma ama “Osondi Owendi”?",
+    "options": [
+      "Oliver De Coque",
+      "Celestine Ukwu",
+      "Prince Nico Mbarga",
+      "Osita Osadebe"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which highlife singer from Atani sang the famous 'Osondi Owendi'? — Chief Stephen Osita Osadebe."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ego “cedi” bụ ego mba gịnị?",
+    "options": [
+      "Gambia",
+      "Sierra Leone",
+      "Ghana",
+      "Liberia"
+    ],
+    "correctIndex": 2,
+    "gloss": "The cedi is the currency of which country? — Ghana. Gambia uses the dalasi, Sierra Leone the leone, Liberia the dollar."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kedu afọ ka ọnụọgụ Rom “MMXX” na-egosi?",
+    "options": [
+      "2010",
+      "2020",
+      "1020",
+      "2200"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which year do the Roman numerals MMXX show? — 2020: M = 1000 twice, X = 10 twice."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kedu aha akara ederede oge gboo ndị Ejagham, Efik na ụfọdụ ndị Igbo jiri dee ihe?",
+    "options": [
+      "Nsịbịdị",
+      "Uli",
+      "Ajami",
+      "Tifinagh"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the old sign-writing used by the Ejagham, Efik and some Igbo? — Nsibidi. Uli is body and wall painting, Ajami Arabic script for African languages, Tifinagh the Berber script."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A tọpụrụ nkume n'elu ụlọ elu. Ọ bụrụ na ikuku egbochighị ya, ihe dị ka ọsọ ole ka ọ ga-enwe mgbe sekọn 2 gachara?",
+    "options": [
+      "20 m/s",
+      "10 m/s",
+      "40 m/s",
+      "5 m/s"
+    ],
+    "correctIndex": 0,
+    "gloss": "A stone is dropped from a tall building. Ignoring air, about how fast is it falling after 2 seconds? — About 20 m/s: gravity adds about 9.8 m/s each second. 10 m/s is the one-second answer."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Afọ abụọ ka Wole Soyinka nwetasịrị Nobel akwụkwọ (1986), onye edemede Ijipt nwetara ya. Onye?",
+    "options": [
+      "Taha Hussein",
+      "Tawfiq al-Hakim",
+      "Nawal El Saadawi",
+      "Naguib Mahfouz"
+    ],
+    "correctIndex": 3,
+    "gloss": "Two years after Wole Soyinka won the Nobel in literature (1986), an Egyptian writer won it. Who? — Naguib Mahfouz (1988). The others are major Egyptian writers who never won it."
+  }
+]

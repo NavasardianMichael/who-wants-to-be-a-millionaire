@@ -71,7 +71,11 @@ swapped in school-book items of the same kind, which also had to go: acorns from
 adult teeth, the panda's bamboo, the spider not being an insect, the painter's palette, Saturn's
 rings, the Nile in Egypt, avocado in guacamole, the five Olympic rings, the red card, red and
 yellow make orange, Heracles' labours, Poseidon's trident, the Stone Age, Italy shaped like a
-boot, a die's opposite faces adding to 7, counting animals' legs. The list is a sample: the test
+boot, a die's opposite faces adding to 7, counting animals' legs. Then, in nearly every language,
+the reviewer replaced: Dubai's country, origami, the koel laying in a crow's nest, a guitar's six
+strings, the camel's hump holding fat, Australia's reversed seasons, which chess piece ends the
+game, Harry Potter's school, and empty one-liners (the @ sign, the amber light, the longest key,
+Sherlock Holmes's job). The list is a sample: the test
 is whether a player has met the question in other quizzes or a school textbook. Then, before your
 final message, list your 28 level-1 questions and replace any that fails that test.
 
