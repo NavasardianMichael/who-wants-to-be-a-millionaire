@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vilket av dessa efternamn kommer sist i en svensk namnlista sorterad från A till Ö?",
+    "options": [
+      "Zetterlund",
+      "Åkesson",
+      "Östberg",
+      "Änggård"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these surnames comes last in a Swedish A–Ö name list? — Östberg: the Swedish alphabet ends Z, Å, Ä, Ö, so Z is not last."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vilket av dessa ord ser likadant ut i plural som i singular?",
+    "options": [
+      "Hus",
+      "Hand",
+      "Bok",
+      "Gata"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words looks the same in the plural as in the singular? — Hus (ett hus, flera hus); hand/händer, bok/böcker, gata/gator change."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vad menar man i vardagligt tal med ”åtta dagar”?",
+    "options": [
+      "Två veckor",
+      "En månad",
+      "Ett dygn",
+      "En vecka"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does \"åtta dagar\" mean in everyday speech? — A week (counting inclusively, as in \"om åtta dagar\"); \"fjorton dagar\" is two weeks."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vad får man med stöd av allemansrätten göra i den svenska skogen?",
+    "options": [
+      "Fälla ett träd",
+      "Plocka bär och svamp",
+      "Bryta grenar från levande träd",
+      "Tälta alldeles intill ett hus"
+    ],
+    "correctIndex": 1,
+    "gloss": "What may you do in the Swedish forest under the right of public access? — Pick berries and mushrooms; felling trees, breaking living branches and camping close to a dwelling are not allowed."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken färg har marsipanet på en prinsesstårta?",
+    "options": [
+      "Rosa",
+      "Grön",
+      "Gul",
+      "Vit"
+    ],
+    "correctIndex": 1,
+    "gloss": "What colour is the marzipan on a princess cake? — Green; the pink marzipan rose on top is the tempting wrong answer."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken av dessa frukter bär sina små frön på utsidan?",
+    "options": [
+      "Blåbär",
+      "Körsbär",
+      "Vindruva",
+      "Jordgubbe"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these fruits carries its tiny seeds on the outside? — The strawberry (the \"seeds\" are the true fruits, achenes)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Varför blir maten klar snabbare i en tryckkokare?",
+    "options": [
+      "Vattnet blir hetare än 100 grader",
+      "Vattnet kokar vid lägre temperatur",
+      "Locket släpper in mer syre",
+      "Spisplattan blir varmare"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does food cook faster in a pressure cooker? — The raised pressure lets the water get hotter than 100 degrees before it boils."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad betyder felmeddelandet 404 på en webbsida?",
+    "options": [
+      "Servern är överbelastad",
+      "Du saknar behörighet",
+      "Sidan hittades inte",
+      "Anslutningen bröts"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the error 404 on a web page mean? — The page was not found (403 is forbidden, 503 is overload)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken funktion stänger man av när man slår på flygplansläget i mobilen?",
+    "options": [
+      "Kameran",
+      "Skärmen",
+      "Högtalaren",
+      "Mobilnätet"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which function does airplane mode switch off? — The mobile network connection."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket skidlopp går varje år från Sälen till Mora?",
+    "options": [
+      "Tjejvasan",
+      "Vasaloppet",
+      "Birkebeinerrennet",
+      "Marcialonga"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ski race runs from Sälen to Mora every year? — Vasaloppet (Tjejvasan starts at Oxberg instead)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken app använder man i Sverige för att snabbt skicka pengar till en vän med bara telefonnumret?",
+    "options": [
+      "BankID",
+      "Klarna",
+      "Swish",
+      "Payson"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which app do people in Sweden use to quickly send money to a friend with just a phone number? — Swish (BankID is the e-ID that confirms it)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vad heter Pippi Långstrumps apa?",
+    "options": [
+      "Herr Nilsson",
+      "Lilla Gubben",
+      "Fröken Prusselius",
+      "Kapten Efraim"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is Pippi Longstocking's monkey called? — Herr Nilsson (Lilla Gubben is her horse)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Från vilket land kommer tv-serien ”Squid Game”?",
+    "options": [
+      "Sydkorea",
+      "Japan",
+      "Kina",
+      "Thailand"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country does the TV series \"Squid Game\" come from? — South Korea."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Öresundsbron binder ihop Danmark och Sverige. Vilken svensk stad ligger vid dess ände?",
+    "options": [
+      "Helsingborg",
+      "Ystad",
+      "Malmö",
+      "Trelleborg"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Øresund Bridge links Denmark and Sweden. Which Swedish city lies at its end? — Malmö."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad kallas en skulptur som föreställer en människas huvud och axlar?",
+    "options": [
+      "Relief",
+      "Byst",
+      "Mobil",
+      "Fresk"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is a sculpture of a person's head and shoulders called? — A bust."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vad äter Bamse, världens starkaste björn, för att bli stark?",
+    "options": [
+      "Blåbärssaft",
+      "Kanelbullar",
+      "Havregrynsgröt",
+      "Dunderhonung"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does Bamse, the world's strongest bear, eat to become strong? — Dunderhonung (thunder honey)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken nordisk gud svingar hammaren Mjölner?",
+    "options": [
+      "Oden",
+      "Frej",
+      "Tor",
+      "Balder"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Norse god swings the hammer Mjölnir? — Thor (Tor)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken app för korta videor har en musiknot i logotypen?",
+    "options": [
+      "TikTok",
+      "Instagram",
+      "Snapchat",
+      "Twitch"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which short-video app has a musical note in its logo? — TikTok."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad är huvudingrediensen i hummus?",
+    "options": [
+      "Bruna bönor",
+      "Linser",
+      "Gröna ärtor",
+      "Kikärtor"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the main ingredient of hummus? — Chickpeas."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sveriges kung heter Carl XVI Gustaf. Vilket tal är XVI?",
+    "options": [
+      "14",
+      "16",
+      "24",
+      "26"
+    ],
+    "correctIndex": 1,
+    "gloss": "Sweden's king is Carl XVI Gustaf. Which number is XVI? — 16 (X=10, V=5, I=1); 14 is XIV."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Tåget avgår 14.50 och resan tar 1 timme och 35 minuter. När är det framme?",
+    "options": [
+      "16.15",
+      "16.25",
+      "16.35",
+      "16.45"
+    ],
+    "correctIndex": 1,
+    "gloss": "The train leaves at 14:50 and the trip takes 1 h 35 min. When does it arrive? — 16:25: 14:50 plus 1 h is 15:50, plus 35 min is 16:25."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Du handlar för 68 kronor och betalar med en hundralapp. Hur mycket får du tillbaka?",
+    "options": [
+      "22 kronor",
+      "28 kronor",
+      "32 kronor",
+      "38 kronor"
+    ],
+    "correctIndex": 2,
+    "gloss": "You buy for 68 kronor and pay with a hundred-krona note. How much change do you get? — 32 kronor (100 - 68)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken dag firas som Sveriges nationaldag?",
+    "options": [
+      "1 maj",
+      "6 juni",
+      "17 maj",
+      "21 juni"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which day is Sweden's national day? — 6 June (17 May is Norway's)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket av dessa länder har inte euro som valuta?",
+    "options": [
+      "Finland",
+      "Danmark",
+      "Irland",
+      "Spanien"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these countries does not use the euro? — Denmark (it keeps the Danish krone)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken färg har tröjan som bärs av totalledaren i Tour de France?",
+    "options": [
+      "Grön",
+      "Gul",
+      "Röd",
+      "Vit"
+    ],
+    "correctIndex": 1,
+    "gloss": "What colour is the jersey worn by the overall leader of the Tour de France? — Yellow."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hur många spelare från varje lag står på planen i handboll, målvakten inräknad?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players per team are on court in handball, goalkeeper included? — 7."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad kallas sång helt utan instrument?",
+    "options": [
+      "Karaoke",
+      "Playback",
+      "Crescendo",
+      "A cappella"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is singing entirely without instruments called? — A cappella (karaoke has a backing track)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hur många av det svenska alfabetets bokstäver är vokaler?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many letters of the Swedish alphabet are vowels? — 9: a, e, i, o, u, y, å, ä, ö."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vad hände i Sverige på Dagen H, den 3 september 1967?",
+    "options": [
+      "Högertrafik infördes",
+      "Momsen infördes",
+      "Tunnelbanan öppnades",
+      "Sverige gick med i EU"
+    ],
+    "correctIndex": 0,
+    "gloss": "What happened in Sweden on Dagen H, 3 September 1967? — Right-hand traffic was introduced."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket folk byggde bergsstaden Machu Picchu i Anderna?",
+    "options": [
+      "Aztekerna",
+      "Mayafolket",
+      "Inkafolket",
+      "Olmekerna"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which people built the mountain city of Machu Picchu in the Andes? — The Incas."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I vilket land ligger semesterorten Phuket?",
+    "options": [
+      "Vietnam",
+      "Indonesien",
+      "Malaysia",
+      "Thailand"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country is the holiday resort of Phuket? — Thailand."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vem skrev böckerna om kriminalinspektören Kurt Wallander?",
+    "options": [
+      "Håkan Nesser",
+      "Henning Mankell",
+      "Stieg Larsson",
+      "Jens Lapidus"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the books about Inspector Kurt Wallander? — Henning Mankell."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad kallas det när bedragare via falska mejl lurar folk att lämna ut sina lösenord?",
+    "options": [
+      "Skimning",
+      "Nätmobbning",
+      "Nätfiske",
+      "Spam"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is it called when fraudsters use fake emails to trick people into giving up passwords? — Phishing (nätfiske); skimming is card fraud."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken fågel lägger sina ägg i andra fåglars bon?",
+    "options": [
+      "Göken",
+      "Skatan",
+      "Kråkan",
+      "Tranan"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken krydda ger lussekatterna deras gula färg?",
+    "options": [
+      "Saffran",
+      "Kardemumma",
+      "Kanel",
+      "Ingefära"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice gives lussekatter their yellow colour? — Saffron."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken konstriktning grundade Picasso tillsammans med Georges Braque?",
+    "options": [
+      "Surrealismen",
+      "Impressionismen",
+      "Kubismen",
+      "Dadaismen"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which art movement did Picasso found together with Georges Braque? — Cubism."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vem vann Eurovision Song Contest 2012 med ”Euphoria”?",
+    "options": [
+      "Måns Zelmerlöw",
+      "Loreen",
+      "Robyn",
+      "Zara Larsson"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who won the 2012 Eurovision Song Contest with \"Euphoria\"? — Loreen."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk regissör låter en riddare spela schack med Döden i ”Det sjunde inseglet”?",
+    "options": [
+      "Bo Widerberg",
+      "Roy Andersson",
+      "Lasse Hallström",
+      "Ingmar Bergman"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Swedish director lets a knight play chess with Death in \"The Seventh Seal\"? — Ingmar Bergman."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk tennisspelare vann Wimbledon fem år i rad 1976–1980?",
+    "options": [
+      "Mats Wilander",
+      "Stefan Edberg",
+      "Björn Borg",
+      "Thomas Enqvist"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swedish tennis player won Wimbledon five years in a row, 1976–1980? — Björn Borg."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket byggspel skapades av svensken Markus ”Notch” Persson?",
+    "options": [
+      "Minecraft",
+      "Roblox",
+      "Terraria",
+      "Fortnite"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which building game was created by the Swede Markus \"Notch\" Persson? — Minecraft."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket ord kom 2015 med i Svenska Akademiens ordlista som könsneutralt pronomen?",
+    "options": [
+      "Den",
+      "Ens",
+      "Man",
+      "Hen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which word was added to the Swedish Academy Glossary in 2015 as a gender-neutral pronoun? — \"hen\"."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En vara kostar 200 kronor utan moms. Vad kostar den med 25 procents moms?",
+    "options": [
+      "225 kronor",
+      "240 kronor",
+      "250 kronor",
+      "275 kronor"
+    ],
+    "correctIndex": 2,
+    "gloss": "An item costs 200 kronor before VAT. What does it cost with 25 percent VAT? — 250 kronor (200 + 50)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vad gör att himlen ser blå ut en klar dag?",
+    "options": [
+      "Havets färg speglas i himlen",
+      "Luften sprider blått ljus mest",
+      "Vattenånga färgar ljuset blått",
+      "Ozonlagret släpper bara igenom blått"
+    ],
+    "correctIndex": 1,
+    "gloss": "What makes the sky look blue on a clear day? — Air scatters blue light most (Rayleigh scattering)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken skrift kunde forskare tyda tack vare Rosettastenen?",
+    "options": [
+      "Kilskriften",
+      "Hieroglyferna",
+      "Runorna",
+      "Linear B"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which script could scholars decipher thanks to the Rosetta Stone? — Egyptian hieroglyphs."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vilken bokstav i det svenska alfabetet är också ett ord för ett litet vattendrag?",
+    "options": [
+      "Ä",
+      "Ö",
+      "Y",
+      "Å"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which letter of the Swedish alphabet is also a word for a small watercourse? — Å (Ö means island)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Vilket av dessa landskap saknar kust mot havet?",
+    "options": [
+      "Dalarna",
+      "Gästrikland",
+      "Hälsingland",
+      "Ångermanland"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these provinces has no sea coast? — Dalarna; the others all reach the Baltic."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Vilket tal kommer härnäst i raden 2, 3, 5, 8, 13?",
+    "options": [
+      "18",
+      "20",
+      "21",
+      "26"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which number comes next in 2, 3, 5, 8, 13? — 21: each number is the sum of the two before it."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk poet fick Nobelpriset i litteratur 2011?",
+    "options": [
+      "Harry Martinson",
+      "Pär Lagerkvist",
+      "Tomas Tranströmer",
+      "Eyvind Johnson"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swedish poet won the Nobel Prize in Literature in 2011? — Tomas Tranströmer."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket grundämne har den kemiska beteckningen Pb?",
+    "options": [
+      "Fosfor",
+      "Platina",
+      "Kalium",
+      "Bly"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which element has the chemical symbol Pb? — Lead (from Latin plumbum)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vad kallas den punkt i en planets bana där den är närmast solen?",
+    "options": [
+      "Aphelium",
+      "Perihelium",
+      "Perigeum",
+      "Apogeum"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the point in a planet's orbit closest to the sun called? — Perihelion (peri = near, helios = sun); aphelion is the farthest."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Anda mengajak kawan di depan anda makan bersama: “Jom, … pergi makan!” Kata ganti mana yang tepat?",
+    "options": [
+      "kami",
+      "mereka",
+      "kita",
+      "kalian"
+    ],
+    "correctIndex": 2,
+    "gloss": "Inviting the friend in front of you to eat together: \"Come on, … go eat!\" Which pronoun fits? — kita: Malay splits \"we\" into inclusive kita (listener included) and exclusive kami (listener excluded)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Penjodoh bilangan “sehelai” dipakai untuk benda yang nipis. Yang manakah dikira dengan “sehelai”?",
+    "options": [
+      "Kemeja",
+      "Kasut",
+      "Cawan",
+      "Payung"
+    ],
+    "correctIndex": 0,
+    "gloss": "The classifier \"sehelai\" is used for thin things. Which is counted with it? — A shirt (sehelai kemeja). Shoes are sepasang, a cup sebiji, an umbrella sekaki."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Saya tertinggal dompet di rumah.” Awalan ter- di sini menunjukkan perbuatan itu dilakukan…",
+    "options": [
+      "dengan sengaja",
+      "berulang kali",
+      "bersama-sama",
+      "tanpa sengaja"
+    ],
+    "correctIndex": 3,
+    "gloss": "\"I left (tertinggal) my wallet at home.\" The prefix ter- here shows the act was done... — unintentionally: ter- marks an accidental action."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Berapakah deria yang dirangkumkan dalam perkataan “pancaindera”?",
+    "options": [
+      "Empat",
+      "Lima",
+      "Enam",
+      "Tiga"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many senses does the word \"pancaindera\" cover? — Five: panca is the Sanskrit-derived word for five."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mod “Jangan Ganggu” pada telefon pintar menyenyapkan apa?",
+    "options": [
+      "Sambungan internet",
+      "Panggilan dan pemberitahuan",
+      "Lokasi GPS",
+      "Kamera"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a smartphone's \"Do Not Disturb\" mode silence? — Calls and notifications; the internet, GPS and camera keep working."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Selepas mandi air panas, cermin bilik air menjadi kabur. Mengapa?",
+    "options": [
+      "Sabun tersejat ke cermin",
+      "Kaca mengembang kerana haba",
+      "Cahaya terbias dalam udara lembap",
+      "Wap air memeluwap pada cermin"
+    ],
+    "correctIndex": 3,
+    "gloss": "After a hot shower the bathroom mirror fogs up. Why? — Water vapour condenses on the cooler mirror into tiny droplets."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mengapa badan kita menggigil apabila kesejukan?",
+    "options": [
+      "Otot bergerak untuk menghasilkan haba",
+      "Badan cuba mengeluarkan peluh",
+      "Darah menjadi lebih pekat",
+      "Kulit menutup liang roma"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why do we shiver when cold? — Rapid muscle contractions generate heat."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam WhatsApp, apabila dua tanda rait bertukar biru, mesej anda sudah…",
+    "options": [
+      "dihantar ke pelayan",
+      "dipadam",
+      "dibaca",
+      "disalin"
+    ],
+    "correctIndex": 2,
+    "gloss": "In WhatsApp, when the two ticks turn blue, your message has been... — read. Grey ticks mean delivered."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ular kerap menjelirkan lidahnya yang bercabang. Untuk apa?",
+    "options": [
+      "Menyejukkan badan",
+      "Menakutkan musuh",
+      "Meminum embun",
+      "Menghidu bau di udara"
+    ],
+    "correctIndex": 3,
+    "gloss": "Snakes often flick their forked tongue. Why? — To smell: the tongue picks up scent particles and carries them to the Jacobson's organ in the mouth."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam filem animasi “Frozen”, puteri manakah yang boleh menghasilkan ais dan salji?",
+    "options": [
+      "Anna",
+      "Moana",
+      "Elsa",
+      "Rapunzel"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the animated film \"Frozen\", which princess can make ice and snow? — Elsa. Anna is her sister."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Platform media sosial Twitter ditukar nama pada tahun 2023 kepada apa?",
+    "options": [
+      "Threads",
+      "X",
+      "Bluesky",
+      "Meta"
+    ],
+    "correctIndex": 1,
+    "gloss": "Twitter was renamed in 2023 to what? — X. Threads is Meta's rival app; Bluesky another rival."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam panggilan video, apakah kesan menekan butang mikrofon bergaris (mute)?",
+    "options": [
+      "Orang lain tidak dapat mendengar anda",
+      "Anda tidak dapat mendengar orang lain",
+      "Kamera anda dimatikan",
+      "Panggilan ditamatkan"
+    ],
+    "correctIndex": 0,
+    "gloss": "In a video call, what does pressing the crossed-out microphone (mute) do? — Others can no longer hear you."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mengapa tayar kereta mempunyai bunga (alur) yang dalam?",
+    "options": [
+      "Menjimatkan minyak",
+      "Mengurangkan bunyi enjin",
+      "Menyalurkan air supaya tidak tergelincir",
+      "Menyejukkan brek"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why do car tyres have deep treads? — To channel water away so the tyre keeps its grip and does not aquaplane."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam catur, buah manakah hanya boleh bergerak secara serong?",
+    "options": [
+      "Gajah",
+      "Kuda",
+      "Tir",
+      "Menteri"
+    ],
+    "correctIndex": 0,
+    "gloss": "In chess, which piece can move only diagonally? — The bishop (gajah in Malay). The queen (menteri) also moves straight; the rook (tir) only straight."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam bola keranjang, jaringan dari luar garisan lengkung besar bernilai berapa mata?",
+    "options": [
+      "2 mata",
+      "4 mata",
+      "1 mata",
+      "3 mata"
+    ],
+    "correctIndex": 3,
+    "gloss": "In basketball, a basket from beyond the big arc is worth how many points? — 3."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bandar Dubai terletak di negara mana?",
+    "options": [
+      "Arab Saudi",
+      "Emiriah Arab Bersatu",
+      "Qatar",
+      "Oman"
+    ],
+    "correctIndex": 1,
+    "gloss": "Dubai is in which country? — The United Arab Emirates."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dengan DuitNow, anda boleh memindahkan wang hanya dengan mengetahui apa tentang penerima?",
+    "options": [
+      "Alamat rumahnya",
+      "Nombor telefon bimbitnya",
+      "Tarikh lahirnya",
+      "Nama ibunya"
+    ],
+    "correctIndex": 1,
+    "gloss": "With DuitNow, you can transfer money knowing only what about the recipient? — Their mobile number (a MyKad or business number also works as a DuitNow ID)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Rumpai laut kering yang membalut sushi gulung dipanggil apa?",
+    "options": [
+      "Wakame",
+      "Kombu",
+      "Agar-agar",
+      "Nori"
+    ],
+    "correctIndex": 3,
+    "gloss": "The dried seaweed wrapping sushi rolls is called? — Nori. Wakame and kombu are other seaweeds; agar-agar a jelly made from seaweed."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nombor SPF pada losyen pelindung matahari menunjukkan perlindungan daripada apa?",
+    "options": [
+      "Sinaran ultraungu",
+      "Gigitan nyamuk",
+      "Peluh",
+      "Habuk"
+    ],
+    "correctIndex": 0,
+    "gloss": "The SPF number on sunscreen shows protection from what? — Ultraviolet (UVB) rays: Sun Protection Factor."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bateri telefon tinggal 20% dan susut 1% setiap 3 minit. Berapa lama lagi sebelum habis?",
+    "options": [
+      "20 minit",
+      "30 minit",
+      "1 jam",
+      "3 jam"
+    ],
+    "correctIndex": 2,
+    "gloss": "The phone battery is at 20% and drops 1% every 3 minutes. How long until empty? — 1 hour: 20 × 3 = 60 minutes."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam sepak takraw, pemain tidak boleh menyentuh bola dengan bahagian badan apa?",
+    "options": [
+      "Kepala",
+      "Lutut",
+      "Dada",
+      "Tangan"
+    ],
+    "correctIndex": 3,
+    "gloss": "In sepak takraw, which body part may players not touch the ball with? — Hands; head, knees, chest and feet are allowed."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Negeri manakah digelar “Negeri di Bawah Bayu”?",
+    "options": [
+      "Sarawak",
+      "Pahang",
+      "Sabah",
+      "Terengganu"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which state is called \"the Land below the Wind\"? — Sabah, south of the typhoon belt."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nama “orang utan” yang dipakai di seluruh dunia berasal daripada bahasa apa?",
+    "options": [
+      "Belanda",
+      "Melayu",
+      "Inggeris",
+      "Latin"
+    ],
+    "correctIndex": 1,
+    "gloss": "The name \"orangutan\", used worldwide, comes from which language? — Malay: orang (person) + hutan (forest)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kompang yang mengiringi perarakan pengantin dimainkan dengan cara apa?",
+    "options": [
+      "Dipalu dengan tapak tangan",
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is the kompang that accompanies a wedding procession played? — Struck with the palm: it is a frame drum."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam cerita rakyat, Sang Kancil menyeberangi sungai dengan melompat di atas belakang haiwan apa?",
+    "options": [
+      "Kerbau",
+      "Gajah",
+      "Buaya",
+      "Penyu"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the folk tale, Sang Kancil crosses a river by hopping on the backs of which animals? — Crocodiles, pretending to count them for the king."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam pantun empat kerat, dua baris pertama dipanggil apa?",
+    "options": [
+      "Pembayang",
+      "Maksud",
+      "Rangkap",
+      "Kiasan"
+    ],
+    "correctIndex": 0,
+    "gloss": "In a four-line pantun, what are the first two lines called? — Pembayang (the foreshadowing); the last two are the maksud (meaning)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hari Raya Aidiladha disambut dengan ibadah apa?",
+    "options": [
+      "Puasa",
+      "Zakat fitrah",
+      "Solat tarawih",
+      "Korban"
+    ],
+    "correctIndex": 3,
+    "gloss": "Eid al-Adha is marked by which act of worship? — Korban, the sacrifice of livestock. Fasting, zakat fitrah and tarawih belong to Ramadan."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Di kedai kopi, “kopi O” bermaksud kopi tanpa apa?",
+    "options": [
+      "Gula",
+      "Susu",
+      "Ais",
+      "Kafein"
+    ],
+    "correctIndex": 1,
+    "gloss": "At a coffee shop, \"kopi O\" means coffee without what? — Milk. Without sugar is \"kopi O kosong\"."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Makam Mahsuri, tokoh legenda “sumpahan tujuh keturunan”, terletak di pulau mana?",
+    "options": [
+      "Pangkor",
+      "Langkawi",
+      "Tioman",
+      "Pulau Pinang"
+    ],
+    "correctIndex": 1,
+    "gloss": "Mahsuri's tomb, the legendary figure of the \"seven-generation curse\", is on which island? — Langkawi."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam bahasa Melayu lama, “mata-mata” merujuk kepada siapa?",
+    "options": [
+      "Doktor",
+      "Guru",
+      "Penghulu",
+      "Polis"
+    ],
+    "correctIndex": 3,
+    "gloss": "In older Malay, who is a \"mata-mata\"? — A policeman (hence \"balai mata-mata\" for a police station)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Nombor MyKad 850214-08-xxxx. Bilakah pemiliknya lahir?",
+    "options": [
+      "14 Februari 1985",
+      "8 Februari 1985",
+      "2 Mei 1985",
+      "14 Ogos 1985"
+    ],
+    "correctIndex": 0,
+    "gloss": "An IC number begins 850214-08. When was the holder born? — 14 February 1985: the first six digits are YYMMDD; 08 is the place-of-birth code."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sebelum dikenali sebagai Singapura, pulau itu disebut dalam catatan lama dengan nama apa?",
+    "options": [
+      "Langkasuka",
+      "Gangga Negara",
+      "Temasek",
+      "Beruas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Before it was called Singapura, the island appears in old records under which name? — Temasek. The others are early kingdoms on the peninsula."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wau bulan, layang-layang yang diabadikan dalam logo MAS, sinonim dengan negeri mana?",
+    "options": [
+      "Kedah",
+      "Melaka",
+      "Johor",
+      "Kelantan"
+    ],
+    "correctIndex": 3,
+    "gloss": "The wau bulan, the kite in the Malaysia Airlines logo, is synonymous with which state? — Kelantan."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mengikut tatabahasa baku, frasa manakah yang betul?",
+    "options": [
+      "para guru-guru",
+      "semua murid-murid",
+      "para guru",
+      "banyak rumah-rumah"
+    ],
+    "correctIndex": 2,
+    "gloss": "By standard grammar, which phrase is correct? — \"para guru\": a plural word (para, semua, banyak) is not followed by a reduplicated noun, which would mark plural twice."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "E-mel dihantar kepada Ali, Siti dalam CC dan Ahmad dalam BCC. Siapa tidak tahu Ahmad turut menerimanya?",
+    "options": [
+      "Hanya Ali",
+      "Ali dan Siti",
+      "Hanya Siti",
+      "Ahmad sendiri"
+    ],
+    "correctIndex": 1,
+    "gloss": "An e-mail goes to Ali, with Siti in CC and Ahmad in BCC. Who does not know Ahmad received it? — Ali and Siti: BCC recipients are hidden from all other recipients."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antibiotik berkesan melawan jangkitan yang disebabkan oleh apa?",
+    "options": [
+      "Bakteria",
+      "Virus",
+      "Alahan",
+      "Cacing"
+    ],
+    "correctIndex": 0,
+    "gloss": "Antibiotics work against infections caused by what? — Bacteria; they do nothing against viruses such as the common cold."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam tenis, markah sifar disebut dengan perkataan apa?",
+    "options": [
+      "Deuce",
+      "Ace",
+      "Love",
+      "Nil"
+    ],
+    "correctIndex": 2,
+    "gloss": "In tennis, what word means a score of zero? — Love. Deuce is 40–40; an ace is an unreturned serve."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kumpulan darah manakah digelar “penderma universal” bagi sel darah merah?",
+    "options": [
+      "O negatif",
+      "AB positif",
+      "A negatif",
+      "B positif"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood type is the \"universal donor\" for red cells? — O negative. AB positive is the universal recipient."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bagaimanakah ketuhar gelombang mikro memanaskan makanan?",
+    "options": [
+      "Memanaskan dinding ketuhar",
+      "Memancarkan sinaran ultraungu",
+      "Menyalakan elemen pemanas",
+      "Menggetarkan molekul air dalam makanan"
+    ],
+    "correctIndex": 3,
+    "gloss": "How does a microwave oven heat food? — By making the water molecules in the food vibrate (rotate), which produces heat inside it."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Siri “Squid Game” yang popular di Netflix berasal dari negara mana?",
+    "options": [
+      "Jepun",
+      "Korea Selatan",
+      "China",
+      "Thailand"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Netflix hit \"Squid Game\" comes from which country? — South Korea."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam bola sepak, pemain tidak boleh dikira ofsaid jika menerima bola terus daripada apa?",
+    "options": [
+      "Sepakan percuma",
+      "Balingan ke dalam",
+      "Hantaran rakan sepasukan",
+      "Tandukan rakan sepasukan"
+    ],
+    "correctIndex": 1,
+    "gloss": "In football, a player cannot be offside when receiving the ball directly from what? — A throw-in (also a goal kick or corner kick, not among the options); a free kick and any pass or header from a teammate can still lead to offside."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pencuci mulut Itali “affogato” ialah espresso panas yang dituang ke atas apa?",
+    "options": [
+      "Susu panas",
+      "Krim putar",
+      "Ais batu",
+      "Aiskrim"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Italian dessert \"affogato\" is hot espresso poured over what? — Ice cream (usually vanilla gelato); affogato means \"drowned\"."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Isnin bermaksud “dua” dan Khamis “lima” dalam bahasa Arab. Ahad pula bermaksud?",
+    "options": [
+      "Satu",
+      "Tujuh",
+      "Enam",
+      "Tiga"
+    ],
+    "correctIndex": 0,
+    "gloss": "Isnin means \"two\" and Khamis \"five\" in Arabic. What does Ahad mean? — One: Malay weekday names count from Ahad (1) to Khamis (5), from Arabic ahad, ithnayn, thalatha, arba'a, khamsa."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kelip-kelip di Kampung Kuantan, Kuala Selangor, berkumpul pada waktu malam di pokok apa?",
+    "options": [
+      "Bakau",
+      "Nipah",
+      "Berembang",
+      "Nibung"
+    ],
+    "correctIndex": 2,
+    "gloss": "The fireflies of Kampung Kuantan, Kuala Selangor, gather at night on which tree? — The berembang (Sonneratia caseolaris) along the riverbank."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Novel “Salina” (1961) ialah karya Sasterawan Negara yang mana?",
+    "options": [
+      "Shahnon Ahmad",
+      "Usman Awang",
+      "Keris Mas",
+      "A. Samad Said"
+    ],
+    "correctIndex": 3,
+    "gloss": "The novel \"Salina\" (1961) is by which National Laureate? — A. Samad Said. All four are National Laureates."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dalam air, tin kola biasa tenggelam tetapi tin kola diet terapung. Apakah puncanya?",
+    "options": [
+      "Gas karbon dioksida",
+      "Kafein",
+      "Gula",
+      "Pewarna"
+    ],
+    "correctIndex": 2,
+    "gloss": "In water, a can of regular cola sinks but diet cola floats. Why? — Sugar: about 35 g of dissolved sugar makes the regular can denser than water; sweetener is used in tiny amounts."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Negara ASEAN manakah tidak mempunyai pantai?",
+    "options": [
+      "Kemboja",
+      "Laos",
+      "Myanmar",
+      "Vietnam"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ASEAN country has no coastline? — Laos, the only landlocked member."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gelaran “Bendahara”, pembesar tertinggi Kesultanan Melaka, berasal daripada bahasa apa?",
+    "options": [
+      "Sanskrit",
+      "Arab",
+      "Parsi",
+      "Tamil"
+    ],
+    "correctIndex": 0,
+    "gloss": "The title \"Bendahara\", the highest official of the Malacca Sultanate, comes from which language? — Sanskrit (bhāṇḍāgāra, storehouse/treasury)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tim Berners-Lee mencipta World Wide Web ketika bekerja di institusi mana?",
+    "options": [
+      "MIT",
+      "NASA",
+      "CERN",
+      "IBM"
+    ],
+    "correctIndex": 2,
+    "gloss": "Tim Berners-Lee invented the World Wide Web while working where? — CERN, near Geneva, in 1989."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Batu bersurat Kedukan Bukit, bukti awal bahasa Melayu Kuno dari abad ke-7, dikaitkan dengan kerajaan apa?",
+    "options": [
+      "Srivijaya",
+      "Majapahit",
+      "Langkasuka",
+      "Kedah Tua"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Kedukan Bukit inscription, early evidence of Old Malay from the 7th century, is linked to which kingdom? — Srivijaya (dated 683 CE, near Palembang)."
+  }
+]
