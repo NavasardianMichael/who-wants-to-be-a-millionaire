@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mitä kiukaan kiville heitetään, jotta saunaan saadaan löylyä?",
+    "options": [
+      "Vettä",
+      "Hiekkaa",
+      "Tuhkaa",
+      "Öljyä"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is thrown onto the sauna stove's stones to make steam (löyly)? — Water."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "»Ostin kaupasta viisi ___.» Mikä sana sopii aukkoon?",
+    "options": [
+      "omena",
+      "omenat",
+      "omenaa",
+      "omenan"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"I bought five ___ from the shop.\" Which word fits? — omenaa: after a number above one Finnish uses the partitive singular (viisi omenaa)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "»Auto on pysäköity ___.» Mikä sana sopii aukkoon?",
+    "options": [
+      "katulla",
+      "kadulla",
+      "kadulta",
+      "katulta"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"The car is parked ___.\" — kadulla: the adessive of katu with consonant gradation (t becomes d); katulla is the common slip, -lta would mean 'from'."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä kirjain on suomen aakkosten viimeinen?",
+    "options": [
+      "Z",
+      "Å",
+      "Ä",
+      "Ö"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which letter ends the Finnish alphabet? — Ö: the alphabet runs ...X, Y, Z, Å, Ä, Ö."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lisää sanaan »tuli» yksi kirjain, ja tuli muuttuu tuuleksi. Mikä kirjain lisätään?",
+    "options": [
+      "u",
+      "l",
+      "s",
+      "i"
+    ],
+    "correctIndex": 0,
+    "gloss": "Add one letter to \"tuli\" (fire) and it turns into \"tuuli\" (wind). Which letter? — u: tuli to tuuli."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mitä levitetään perinteisesti lämpimän karjalanpiirakan päälle?",
+    "options": [
+      "Hilloa",
+      "Munavoita",
+      "Kermavaahtoa",
+      "Hunajaa"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is traditionally spread on a warm Karelian pasty? — Egg butter (munavoi)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä tunturin kerrotaan olevan joulupukin kotipaikka?",
+    "options": [
+      "Saana",
+      "Yllästunturi",
+      "Korvatunturi",
+      "Pyhätunturi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which fell is said to be Santa Claus's home? — Korvatunturi, in Finnish Lapland."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä merenlahti erottaa Suomen ja Ruotsin toisistaan?",
+    "options": [
+      "Suomenlahti",
+      "Riianlahti",
+      "Vienanmeri",
+      "Pohjanlahti"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which gulf separates Finland from Sweden? — The Gulf of Bothnia (Pohjanlahti); the Gulf of Finland lies to the south, toward Estonia."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mitä jokamiehenoikeus sallii Suomessa ilman maanomistajan lupaa?",
+    "options": [
+      "Marjojen poimimisen",
+      "Nuotion sytyttämisen",
+      "Puun kaatamisen",
+      "Verkkokalastuksen"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does everyman's right allow in Finland without the landowner's permission? — Picking berries; lighting a fire, felling a tree or net fishing all need permission."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä suomalaisyhtyeen hirviöasuiset jäsenet voittivat Euroviisut vuonna 2006?",
+    "options": [
+      "Nightwish",
+      "Lordi",
+      "Apocalyptica",
+      "HIM"
+    ],
+    "correctIndex": 1,
+    "gloss": "Whose monster-costumed Finnish band won Eurovision in 2006? — Lordi (\"Hard Rock Hallelujah\")."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä kieli on suomen lisäksi Suomen toinen kansalliskieli?",
+    "options": [
+      "Saame",
+      "Venäjä",
+      "Ruotsi",
+      "Englanti"
+    ],
+    "correctIndex": 2,
+    "gloss": "Besides Finnish, which is Finland's other national language? — Swedish."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Missä lajissa Kimi Räikkönen voitti maailmanmestaruuden vuonna 2007?",
+    "options": [
+      "Ralli",
+      "Moottoripyöräily",
+      "Moottorivene",
+      "Formula 1"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport did Kimi Räikkönen win the world championship in 2007? — Formula 1, with Ferrari."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä on Suomen jääkiekkomaajoukkueen lempinimi?",
+    "options": [
+      "Leijonat",
+      "Huuhkajat",
+      "Susijengi",
+      "Karhut"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the Finnish ice hockey national team's nickname? — Leijonat (the Lions); Huuhkajat is the men's football team and Susijengi the basketball team."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä muotoinen on liikennemerkki, joka käskee pysähtymään (STOP)?",
+    "options": [
+      "Kolmio",
+      "Kahdeksankulmio",
+      "Ympyrä",
+      "Neliö"
+    ],
+    "correctIndex": 1,
+    "gloss": "What shape is the STOP traffic sign? — An octagon."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä ei pidä koskaan laittaa mikroaaltouuniin?",
+    "options": [
+      "Posliinilautasta",
+      "Lasikulhoa",
+      "Alumiinifoliota",
+      "Paperilautasta"
+    ],
+    "correctIndex": 2,
+    "gloss": "What should never go in a microwave oven? — Aluminium foil: metal sparks."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä paperiliittimen kuva sähköpostiviestissä yleensä tarkoittaa?",
+    "options": [
+      "Tärkeää viestiä",
+      "Luettua viestiä",
+      "Vastausta",
+      "Liitetiedostoa"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does a paperclip icon on an e-mail usually mean? — An attachment."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Takki maksaa 20 euroa, ja siitä annetaan 25 prosentin alennus. Mikä on uusi hinta?",
+    "options": [
+      "5 €",
+      "10 €",
+      "15 €",
+      "18 €"
+    ],
+    "correctIndex": 2,
+    "gloss": "A jacket costs 20 euros with a 25 percent discount. New price? — 15 €: a quarter of 20 is 5, and 20 - 5 = 15."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä kaasu kuplii virvoitusjuomissa?",
+    "options": [
+      "Hiilidioksidi",
+      "Happi",
+      "Vety",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which gas bubbles in fizzy drinks? — Carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä pakkauksen merkintä »parasta ennen» kertoo?",
+    "options": [
+      "Tuote on sen jälkeen pilaantunut",
+      "Laatu on parhaimmillaan siihen asti",
+      "Tuote on pakattu kyseisenä päivänä",
+      "Tuote pitää syödä sinä päivänä"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the \"best before\" mark on a package tell you? — Quality is at its best until then; the food is often still fine afterwards (unlike a use-by date)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä leivinjauhe tekee taikinalle?",
+    "options": [
+      "Sakeuttaa sitä",
+      "Makeuttaa sitä",
+      "Kohottaa sitä",
+      "Värjää sitä"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does baking powder do to dough? — It makes it rise."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä värinen on Tour de Francen kokonaiskilpailun johtajan paita?",
+    "options": [
+      "Vihreä",
+      "Punainen",
+      "Sininen",
+      "Keltainen"
+    ],
+    "correctIndex": 3,
+    "gloss": "What colour is the jersey of the Tour de France overall leader? — Yellow (green is for the points classification)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Minkä suoratoistopalvelun logossa on punainen N-kirjain?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "HBO Max",
+      "Prime Video"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which streaming service has a red N as its logo? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä kolmikirjaiminen koodi on Helsinki-Vantaan lentokentän tunnus?",
+    "options": [
+      "HKI",
+      "HEL",
+      "FIN",
+      "VAN"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the three-letter airport code of Helsinki-Vantaa? — HEL (HKI, FIN and VAN are tempting but not codes)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä kasvis on korealaisen kimchin pääraaka-aine?",
+    "options": [
+      "Retiisi",
+      "Kurkku",
+      "Kiinankaali",
+      "Pinaatti"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which vegetable is the main ingredient of Korean kimchi? — Napa (Chinese) cabbage."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä sähköpostin Bcc-kenttä tekee?",
+    "options": [
+      "Lähettää viestin kahdesti",
+      "Salaa viestin sisällön",
+      "Merkitsee viestin tärkeäksi",
+      "Piilottaa vastaanottajan muilta"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the Bcc field of an e-mail do? — It hides that recipient from the others (blind carbon copy)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä »ässä» tarkoittaa tenniksessä?",
+    "options": [
+      "Kentän ulkopuolelle menevä syöttö",
+      "Verkkoon osuva syöttö",
+      "Syöttö, johon vastustaja ei osu",
+      "Tasatilanne 40–40"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does an \"ace\" mean in tennis? — A serve the opponent cannot touch."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millaisista rakennuspalikoista Minecraft-pelin maailma koostuu?",
+    "options": [
+      "Kuutioista",
+      "Palloista",
+      "Kolmioista",
+      "Sylintereistä"
+    ],
+    "correctIndex": 0,
+    "gloss": "What shape are the building blocks of the Minecraft world? — Cubes."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä pähkinä antaa Nutella-levitteelle sen ominaisen maun?",
+    "options": [
+      "Manteli",
+      "Hasselpähkinä",
+      "Maapähkinä",
+      "Cashewpähkinä"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which nut gives Nutella its characteristic taste? — Hazelnut."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mikä lintu on Suomen kansallislintu?",
+    "options": [
+      "Kuikka",
+      "Kurki",
+      "Kotka",
+      "Laulujoutsen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird is Finland's national bird? — The whooper swan (laulujoutsen)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä käyttöjärjestelmän ytimen kehitti suomalainen Linus Torvalds?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Solaris"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which operating system kernel did the Finn Linus Torvalds create? — Linux."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä suomalaisyhtiön tunnetuin peli on Angry Birds?",
+    "options": [
+      "Supercell",
+      "Remedy",
+      "Rovio",
+      "Nokia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Finnish company is behind Angry Birds? — Rovio."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Hinta nousee 10 prosenttia ja laskee sitten 10 prosenttia. Mikä on lopputulos alkuhintaan verrattuna?",
+    "options": [
+      "Sama kuin alussa",
+      "Hieman pienempi",
+      "Hieman suurempi",
+      "10 prosenttia pienempi"
+    ],
+    "correctIndex": 1,
+    "gloss": "A price rises 10 percent, then falls 10 percent. Result versus the start? — Slightly lower: 1.1 x 0.9 = 0.99."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mitä ainetta lisätään hammastahnaan hampaiden reikiintymisen ehkäisemiseksi?",
+    "options": [
+      "Klooria",
+      "Fluoria",
+      "Jodia",
+      "Rautaa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which substance is added to toothpaste to prevent cavities? — Fluoride."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuka kirjoitti kirjat Peppi Pitkätossusta?",
+    "options": [
+      "Tove Jansson",
+      "Selma Lagerlöf",
+      "Zacharias Topelius",
+      "Astrid Lindgren"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the Pippi Longstocking books? — Astrid Lindgren."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kenen jumalan olkapäillä istuvat korpit Huginn ja Muninn?",
+    "options": [
+      "Odinin",
+      "Thorin",
+      "Lokin",
+      "Baldrin"
+    ],
+    "correctIndex": 0,
+    "gloss": "On whose shoulders do the ravens Huginn and Muninn sit? — Odin's (Norse mythology)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä shakkinappula liikkuu L-kirjaimen muotoisesti?",
+    "options": [
+      "Lähetti",
+      "Ratsu",
+      "Torni",
+      "Kuningatar"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which chess piece moves in an L shape? — The knight (ratsu)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä näistä maista kanssa Suomella ei ole yhteistä maarajaa?",
+    "options": [
+      "Norja",
+      "Ruotsi",
+      "Viro",
+      "Venäjä"
+    ],
+    "correctIndex": 2,
+    "gloss": "With which of these countries does Finland share no land border? — Estonia (across the Gulf of Finland)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mistä raaka-aineesta tofu valmistetaan?",
+    "options": [
+      "Riisistä",
+      "Kikherneistä",
+      "Linsseistä",
+      "Soijapavuista"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is tofu made from? — Soybeans."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka ohjasi elokuvan Tulitikkutehtaan tyttö vuonna 1990?",
+    "options": [
+      "Aki Kaurismäki",
+      "Mika Kaurismäki",
+      "Renny Harlin",
+      "Klaus Härö"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who directed Match Factory Girl in 1990? — Aki Kaurismäki (Mika is his brother, also a director)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lokakuun nimi tulee sanasta »loka». Mitä se tarkoittaa?",
+    "options": [
+      "Sadetta",
+      "Mutaa",
+      "Lehtiä",
+      "Pimeyttä"
+    ],
+    "correctIndex": 1,
+    "gloss": "October (lokakuu) comes from \"loka\". What does it mean? — Mud, slush."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Kahvi maksaa 3,20 € ja pulla 2,80 €. Paljonko kahden hengen kahvit ja pullat maksavat yhteensä?",
+    "options": [
+      "6 €",
+      "9 €",
+      "12 €",
+      "15 €"
+    ],
+    "correctIndex": 2,
+    "gloss": "Coffee costs 3.20 and a bun 2.80. What do coffee and a bun for two people cost? — 12 €: one portion is 6, so two are 12."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Poista luvun »kuusi» ensimmäinen kirjain. Mikä sana jää jäljelle?",
+    "options": [
+      "Kuu",
+      "Suu",
+      "Uni",
+      "Uusi"
+    ],
+    "correctIndex": 3,
+    "gloss": "Remove the first letter of \"kuusi\" (six). Which word remains? — Uusi (new): k-uusi."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuka suunnitteli Iittalan Savoy-maljakon, jonka epäsäännöllinen aaltomuoto on suunnittelun klassikko?",
+    "options": [
+      "Alvar Aalto",
+      "Eliel Saarinen",
+      "Tapio Wirkkala",
+      "Kaj Franck"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who designed the Iittala Savoy vase, a design classic with an irregular wave shape? — Alvar Aalto (1936)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minkä kirjailijan syntymäpäivä 19. maaliskuuta on Suomessa tasa-arvon päivä?",
+    "options": [
+      "Aleksis Kivi",
+      "Minna Canth",
+      "Eino Leino",
+      "Juhani Aho"
+    ],
+    "correctIndex": 1,
+    "gloss": "Whose birthday, 19 March, is Finland's Equality Day? — Minna Canth, the writer and women's rights campaigner."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minä vuonna eurosta tuli Suomessa käteisraha?",
+    "options": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year did the euro become cash in Finland? — 2002 (the euro existed as book money from 1999)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mikä elin tuottaa insuliinia?",
+    "options": [
+      "Haima",
+      "Maksa",
+      "Munuainen",
+      "Perna"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which organ produces insulin? — The pancreas (haima)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Montako kuukautta vuodessa on tasan 30 päivää?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many months of the year have exactly 30 days? — 4: April, June, September, November."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sana »robotti» levisi Karel Čapekin näytelmästä R.U.R. Mitä tšekin »robota», josta se tulee, tarkoittaa?",
+    "options": [
+      "Konetta",
+      "Palvelijaa",
+      "Pakkotyötä",
+      "Keinoihmistä"
+    ],
+    "correctIndex": 2,
+    "gloss": "The word \"robot\" spread from Čapek's play R.U.R. What does Czech \"robota\" mean? — Forced labour, drudgery."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Minä vuonna suomalaiset naiset saivat äänioikeuden ja vaalikelpoisuuden, ensimmäisinä Euroopassa?",
+    "options": [
+      "1893",
+      "1906",
+      "1917",
+      "1921"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which year did Finnish women get the vote and the right to stand for election, first in Europe? — 1906."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Halogeeneista vain yksi on huoneenlämmössä nestemäinen. Mikä?",
+    "options": [
+      "Bromi",
+      "Fluori",
+      "Kloori",
+      "Jodi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Only one halogen is liquid at room temperature. Which? — Bromine; fluorine and chlorine are gases, iodine a solid."
+  }
+]
