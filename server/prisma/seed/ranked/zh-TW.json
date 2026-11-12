@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「媽、麻、馬、罵」四個字，哪一個是國語的第三聲？",
+    "options": [
+      "媽",
+      "麻",
+      "罵",
+      "馬"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of 媽 麻 馬 罵 is Mandarin tone 3? — 馬 (mǎ): the four are the four tones in order, so the third is 馬."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "注音符號的順序是ㄅ、ㄆ、ㄇ，接下來是哪一個？",
+    "options": [
+      "ㄉ",
+      "ㄈ",
+      "ㄋ",
+      "ㄌ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Bopomofo runs ㄅ ㄆ ㄇ ... what comes next? — ㄈ: the order is ㄅㄆㄇㄈ, ㄉㄊㄋㄌ."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "春節時把「福」字倒著貼，是取「倒」和哪個字同音？",
+    "options": [
+      "到",
+      "刀",
+      "島",
+      "桃"
+    ],
+    "correctIndex": 0,
+    "gloss": "At New Year the 福 character is hung upside down because 倒 (dào) sounds like which word? — 到: \"福倒了\" sounds like \"福到了\", fortune has arrived."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "下列哪個成語，是形容做事專心、沒有別的念頭？",
+    "options": [
+      "三心二意",
+      "七上八下",
+      "一心一意",
+      "四分五裂"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which idiom describes being single-minded? — 一心一意: \"one heart, one mind\"; 三心二意 is the opposite."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "中秋節夜晚，台灣家家戶戶最盛行的戶外活動是什麼？",
+    "options": [
+      "烤肉",
+      "放鞭炮",
+      "賽龍舟",
+      "逛花市"
+    ],
+    "correctIndex": 0,
+    "gloss": "On Mid-Autumn night, what outdoor activity is most popular in Taiwanese homes? — Barbecue, a beloved Taiwanese Mid-Autumn custom (dragon boats are for the Dragon Boat Festival)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台灣夜市的名小吃「蚵仔煎」，裡面的「蚵仔」指的是什麼？",
+    "options": [
+      "蛤蜊",
+      "牡蠣",
+      "小魚",
+      "蝦子"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the night-market dish 蚵仔煎, what is 蚵仔? — Oysters."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "香港茶餐廳裡的「鴛鴦」，是把哪兩種飲料混在一起？",
+    "options": [
+      "紅茶和綠茶",
+      "奶茶和檸檬茶",
+      "咖啡和奶茶",
+      "咖啡和豆漿"
+    ],
+    "correctIndex": 2,
+    "gloss": "In a Hong Kong cha chaan teng, 鴛鴦 mixes which two drinks? — Coffee and milk tea (yuenyeung)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "香港人搭地鐵、巴士常用的儲值交通卡，叫做什麼？",
+    "options": [
+      "悠遊卡",
+      "一卡通",
+      "嶺南通",
+      "八達通"
+    ],
+    "correctIndex": 3,
+    "gloss": "Hong Kong's common stored-value transit card? — Octopus (八達通); 悠遊卡 and 一卡通 are Taiwan's, 嶺南通 is Guangdong's."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "以湖光山色聞名的日月潭，位在台灣哪個縣市？",
+    "options": [
+      "花蓮縣",
+      "嘉義縣",
+      "苗栗縣",
+      "南投縣"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sun Moon Lake is in which Taiwanese county? — Nantou County."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "簡譜的 1 2 3 4 唱成 Do、Re、Mi、Fa，接下來的 5 要唱成什麼？",
+    "options": [
+      "La",
+      "Sol",
+      "Si",
+      "Do"
+    ],
+    "correctIndex": 1,
+    "gloss": "In numbered notation 1 2 3 4 are Do Re Mi Fa; how is 5 sung? — Sol: the scale goes on Do Re Mi Fa Sol La Si."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "在 LINE 裡，對方看過你的訊息後，訊息旁會顯示哪兩個字？",
+    "options": [
+      "送達",
+      "未讀",
+      "已讀",
+      "回覆"
+    ],
+    "correctIndex": 2,
+    "gloss": "In LINE, what word appears beside a message once the other person has seen it? — 已讀 (\"read\")."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "明朝鄭和七次率領大船隊出海遠航，歷史上稱為「鄭和下○○」，空格裡是什麼？",
+    "options": [
+      "西洋",
+      "東洋",
+      "南洋",
+      "北洋"
+    ],
+    "correctIndex": 0,
+    "gloss": "Zheng He's seven voyages are known as \"Zheng He goes down to the ... Ocean\". — 西洋 (the Western Seas)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《西遊記》裡，唐僧師徒一路向西，是要到哪裡取經？",
+    "options": [
+      "波斯",
+      "天竺",
+      "高麗",
+      "蓬萊"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Journey to the West, where do the pilgrims travel to fetch scriptures? — Tianzhu, i.e. India."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "牛郎與織女的傳說中，兩人一年一度相會的日子是哪一天？",
+    "options": [
+      "農曆七月七日",
+      "農曆正月十五",
+      "農曆五月初五",
+      "農曆八月十五"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Cowherd and Weaver Girl meet once a year on which day? — The seventh day of the seventh lunar month (Qixi)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "「文房四寶」是筆、墨、紙，再加上哪一樣？",
+    "options": [
+      "印章",
+      "鎮紙",
+      "硯",
+      "筆洗"
+    ],
+    "correctIndex": 2,
+    "gloss": "The \"four treasures of the study\" are brush, ink, paper and...? — The inkstone (硯)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "「原價 500 元的外套打八折」，要付多少錢？",
+    "options": [
+      "100 元",
+      "450 元",
+      "480 元",
+      "400 元"
+    ],
+    "correctIndex": 3,
+    "gloss": "A 500-dollar coat is \"8 zhe\" off; what do you pay? — 400: 打八折 means paying 80% of the price, not taking 80% off."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "電影演職員表播完後，才出現的額外小片段，俗稱什麼？",
+    "options": [
+      "預告",
+      "花絮",
+      "彩蛋",
+      "廣告"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the extra short scene shown after the end credits of a film called? — A post-credits scene, nicknamed 彩蛋 (\"Easter egg\"); 花絮 is behind-the-scenes footage."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "瀏覽網頁時，畫面出現「404」，通常代表什麼意思？",
+    "options": [
+      "網路速度太快",
+      "找不到該網頁",
+      "電腦中毒了",
+      "網頁已被收藏"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a \"404\" page usually mean? — The requested page was not found."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "手機開啟「飛航模式」後，最主要會停用哪一類功能？",
+    "options": [
+      "無線通訊訊號",
+      "螢幕亮度",
+      "相機鏡頭",
+      "喇叭聲音"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does airplane mode mainly switch off? — Wireless radio signals (calls and mobile data)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "下列哪一種容器，絕對不能放進微波爐加熱？",
+    "options": [
+      "玻璃碗",
+      "陶瓷碗",
+      "微波專用保鮮盒",
+      "鋁箔盒"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which container must never go in a microwave? — The aluminium-foil tray: metal reflects microwaves and can spark."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "裝滿水的玻璃瓶放進冷凍庫可能會裂開，是因為水結成冰時體積會怎樣？",
+    "options": [
+      "變小",
+      "不變",
+      "變大",
+      "忽大忽小"
+    ],
+    "correctIndex": 2,
+    "gloss": "A full glass bottle can crack in the freezer because water, when it freezes, ... — expands."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "下列哪一種食物，對狗來說可能中毒，不能隨便餵？",
+    "options": [
+      "白開水",
+      "巧克力",
+      "煮熟的南瓜",
+      "水煮雞胸肉"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which food can poison a dog and should not be fed to it? — Chocolate (theobromine); the other three are safe."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "電梯面板上，兩個箭頭相對的「▶◀」按鈕，通常是用來做什麼？",
+    "options": [
+      "開門",
+      "緊急呼叫",
+      "下樓",
+      "關門"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a lift, what does the ▶◀ button (arrows pointing at each other) do? — Closes the door: the arrows squeeze together."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "義式咖啡裡的「拿鐵」，是在濃縮咖啡中加入大量的什麼？",
+    "options": [
+      "牛奶",
+      "巧克力",
+      "冰塊",
+      "糖漿"
+    ],
+    "correctIndex": 0,
+    "gloss": "A latte is espresso with a lot of what? — Milk."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "想親眼看見極光，下列哪個地方最合適？",
+    "options": [
+      "新加坡",
+      "冰島",
+      "峇里島",
+      "夏威夷"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where would you go to see the aurora? — Iceland: auroras appear at high latitudes, the other three are tropical."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "足球比賽中，裁判有時會看螢幕重播再判決，這套「VAR」是用來做什麼？",
+    "options": [
+      "用影像回放協助裁判判決",
+      "統計球員跑動距離",
+      "決定哪隊先開球",
+      "計算補時時間"
+    ],
+    "correctIndex": 0,
+    "gloss": "In football, what is VAR, the system referees use to look at replays? — Video assistant referee: it uses video replay to help the referee decide."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "寶可夢裡最有名的角色皮卡丘，屬於哪一種屬性？",
+    "options": [
+      "火",
+      "水",
+      "電",
+      "草"
+    ],
+    "correctIndex": 2,
+    "gloss": "Pikachu, the best-known Pokémon, is which type? — Electric."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "流行歌曲裡，最容易讓人朗朗上口、會重複出現的段落，叫做什麼？",
+    "options": [
+      "前奏",
+      "間奏",
+      "尾奏",
+      "副歌"
+    ],
+    "correctIndex": 3,
+    "gloss": "In a pop song, what is the catchy section that repeats? — The chorus (副歌)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "成語「半斤八兩」比喻彼此差不多，是因為舊制一斤等於幾兩？",
+    "options": [
+      "十兩",
+      "十二兩",
+      "二十兩",
+      "十六兩"
+    ],
+    "correctIndex": 3,
+    "gloss": "The idiom 半斤八兩 (\"half a jin, eight liang\") means \"much the same\" because an old jin was how many liang? — 16, so half a jin is 8 liang."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "日曆上寫著「廿五日」，指的是幾號？",
+    "options": [
+      "25 號",
+      "20 號",
+      "15 號",
+      "52 號"
+    ],
+    "correctIndex": 0,
+    "gloss": "A calendar shows \"廿五日\"; which date is it? — The 25th: 廿 is the single character for twenty."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "香港著名的「山頂纜車」，是通往哪一座山的山頂？",
+    "options": [
+      "獅子山",
+      "大帽山",
+      "太平山",
+      "鳳凰山"
+    ],
+    "correctIndex": 2,
+    "gloss": "Hong Kong's Peak Tram climbs to the top of which mountain? — Victoria Peak (太平山)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "台灣黑熊的胸前，有一塊什麼形狀的白色斑紋？",
+    "options": [
+      "圓形",
+      "V 字形",
+      "星形",
+      "十字形"
+    ],
+    "correctIndex": 1,
+    "gloss": "Taiwanese black bears have a white patch on the chest shaped like...? — A V."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "太空人在艙外，面對面卻聽不見彼此直接說話，是因為太空中有什麼特別之處？",
+    "options": [
+      "沒有空氣可以傳聲",
+      "溫度太低",
+      "光線太強",
+      "重力太小"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why can't spacewalking astronauts hear each other directly? — Sound needs a medium and space has no air."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "網址開頭的「https」，最後那個「s」代表什麼意思？",
+    "options": [
+      "速度",
+      "搜尋",
+      "安全",
+      "訂閱"
+    ],
+    "correctIndex": 2,
+    "gloss": "In \"https\", what does the final s stand for? — Secure (encrypted connection)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2008 年大賣的台灣電影《海角七號》，故事主要發生在南台灣哪個小鎮？",
+    "options": [
+      "鹿港",
+      "九份",
+      "淡水",
+      "恆春"
+    ],
+    "correctIndex": 3,
+    "gloss": "The 2008 Taiwanese hit Cape No. 7 is set mainly in which southern town? — Hengchun."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "搭飛機時，行動電源依規定應該放在哪裡？",
+    "options": [
+      "託運行李",
+      "隨身行李",
+      "兩者都可以",
+      "交給空服員保管"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a flight, where must a power bank go? — In the carry-on bag: lithium batteries are banned from checked luggage because of fire risk."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "《紅樓夢》裡，一出生口中就含著一塊玉的人物是誰？",
+    "options": [
+      "林黛玉",
+      "薛寶釵",
+      "賈寶玉",
+      "賈探春"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Dream of the Red Chamber, who is born with a piece of jade in his mouth? — Jia Baoyu."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "吃壽司時附上的醃薑片，主要的用途是什麼？",
+    "options": [
+      "換吃下一種魚片前清口",
+      "當作主菜",
+      "幫助米飯成形",
+      "增加海苔香氣"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the pickled ginger served with sushi mainly for? — To cleanse the palate between different fish."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "奧運會馬拉松的全程距離，大約是幾公里？",
+    "options": [
+      "21 公里",
+      "42 公里",
+      "50 公里",
+      "100 公里"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Olympic marathon covers roughly how many kilometres? — 42 (42.195)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "麻辣鍋裡讓舌頭發麻的「麻」，主要來自哪一種香料？",
+    "options": [
+      "辣椒",
+      "八角",
+      "胡椒",
+      "花椒"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which spice gives hot-pot its numbing tingle? — Sichuan pepper (花椒)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "澳門的地標「大三巴牌坊」，是哪一座教堂僅存的前壁？",
+    "options": [
+      "聖若瑟教堂",
+      "聖保祿教堂",
+      "聖多明我教堂",
+      "望德堂"
+    ],
+    "correctIndex": 1,
+    "gloss": "Macau's Ruins of St. Paul's are the surviving façade of which church? — The Church of St. Paul (聖保祿教堂)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "遊戲《Minecraft（麥塊）》裡，會悄悄靠近玩家再自爆的綠色怪物叫什麼？",
+    "options": [
+      "殭屍",
+      "骷髏",
+      "苦力怕",
+      "蜘蛛"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Minecraft, which green mob sneaks up and explodes? — The Creeper (苦力怕)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "爸爸的姊姊所生的兒子，年紀比你大，你要叫他什麼？",
+    "options": [
+      "表哥",
+      "堂哥",
+      "舅舅",
+      "姊夫"
+    ],
+    "correctIndex": 0,
+    "gloss": "Your father's sister's older son is your...? — 表哥: 堂 is for the father's brother's children (same surname), 表 for the others."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "用大同電鍋煮飯，飯熟後開關會自動跳起來，是什麼原因？",
+    "options": [
+      "內鍋的飯吸滿了水",
+      "電鍋的計時器時間到了",
+      "鍋蓋的蒸氣把開關頂起",
+      "外鍋的水燒乾，溫度升到 100 度以上"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why does a Tatung rice cooker switch pop up by itself when the rice is done? — The outer-pot water has boiled away, so the temperature rises past 100 °C and trips the thermal switch; there is no timer."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "清朝末年，在台灣興建第一條鐵路的巡撫是誰？",
+    "options": [
+      "劉銘傳",
+      "沈葆楨",
+      "丁日昌",
+      "左宗棠"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Qing governor built Taiwan's first railway? — Liu Mingchuan (Keelung to Hsinchu)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "貝多芬《第九號交響曲》最後樂章的〈歡樂頌〉，歌詞取自哪位詩人？",
+    "options": [
+      "歌德",
+      "海涅",
+      "席勒",
+      "荷爾德林"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whose poem is the text of the \"Ode to Joy\" in Beethoven's Ninth? — Friedrich Schiller."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "手機常掃的 QR Code，最早是哪個國家的公司發明的？",
+    "options": [
+      "美國",
+      "韓國",
+      "德國",
+      "日本"
+    ],
+    "correctIndex": 3,
+    "gloss": "The QR code was first invented by a company from which country? — Japan (Denso Wave, 1994)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "下列金屬元素中，哪一個是最輕、密度最小的金屬？",
+    "options": [
+      "鈉",
+      "鋰",
+      "鎂",
+      "鋁"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which metal is the lightest? — Lithium."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "名畫《清明上河圖》的作者是哪一位畫家？",
+    "options": [
+      "張擇端",
+      "顧愷之",
+      "吳道子",
+      "郭熙"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who painted Along the River During the Qingming Festival? — Zhang Zeduan (Song dynasty)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "哪一個國家的領土，同時橫跨東、西、南、北四個半球？",
+    "options": [
+      "斐濟",
+      "印尼",
+      "吉里巴斯",
+      "厄瓜多"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country lies in all four hemispheres? — Kiribati (equator and the 180th meridian both cross it)."
+  }
+]

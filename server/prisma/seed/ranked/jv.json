@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Wong Jawa ngarani 21 “selikur” lan 22 “rolikur”. Yèn ngono, “sangalikur” iku angka pira?",
+    "options": [
+      "19",
+      "29",
+      "90",
+      "92"
+    ],
+    "correctIndex": 1,
+    "gloss": "Javanese call 21 “selikur” and 22 “rolikur”. So what number is “sangalikur”? — 29: -likur marks the twenties, sanga is nine."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kanca kandha omahé “uadoh”. Tegesé omah iku kepriyé?",
+    "options": [
+      "Cedhak banget",
+      "Rada adoh",
+      "Ora patiya adoh",
+      "Adoh banget"
+    ],
+    "correctIndex": 3,
+    "gloss": "A friend says his house is “uadoh”. What does that mean? — Very far: Javanese intensifies an adjective by stretching its vowel to u (adoh → uadoh, cilik → cuilik)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Saka “sapu” dadi “nyapu”, saka “tulis” dadi apa?",
+    "options": [
+      "Nyulis",
+      "Mulis",
+      "Nulis",
+      "Ngulis"
+    ],
+    "correctIndex": 2,
+    "gloss": "“Sapu” (broom) becomes “nyapu” (to sweep); what does “tulis” become? — “Nulis”: the active nasal prefix turns initial t into n, as s into ny."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Terusna paribasan iki: “Becik ketitik, ala …”",
+    "options": [
+      "Ketara",
+      "Katon",
+      "Kalah",
+      "Kasep"
+    ],
+    "correctIndex": 0,
+    "gloss": "Complete the saying “Good will be noticed, evil …” — “ketara” (will show): «Becik ketitik, ala ketara»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ing petungan pasaran Jawa, yèn wingi Wagé, sésuk pasarané apa?",
+    "options": [
+      "Paing",
+      "Pon",
+      "Kliwon",
+      "Legi"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the Javanese five-day market week, if yesterday was Wagé, what is tomorrow? — Legi: the cycle runs Legi, Paing, Pon, Wagé, Kliwon, so today is Kliwon and the week wraps round to Legi."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Miturut legendha, Bandung Bondowoso kudu gawé sewu candhi sewengi kanggo nglamar sapa?",
+    "options": [
+      "Dèwi Sri",
+      "Rara Mendut",
+      "Rara Jonggrang",
+      "Dèwi Sinta"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the legend, Bandung Bondowoso had to build a thousand temples in one night to win whom? — Rara Jonggrang, the Prambanan legend."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Piranti cilik kanggo nulisaké malam panas ing kain batik tulis diarani apa?",
+    "options": [
+      "Canting",
+      "Gawangan",
+      "Wajan",
+      "Cap"
+    ],
+    "correctIndex": 0,
+    "gloss": "The small tool that draws hot wax onto hand-drawn batik is called? — Canting (gawangan is the frame, wajan the wax pot, cap the stamp of printed batik)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing angkringan, sega sakepel sing dibungkus karo sambel lan iwak teri diarani sega apa?",
+    "options": [
+      "Sega liwet",
+      "Sega kucing",
+      "Sega pecel",
+      "Sega megana"
+    ],
+    "correctIndex": 1,
+    "gloss": "At an angkringan stall, the fistful of rice wrapped with chili paste and anchovies is called? — Sega kucing (“cat rice”), named for its tiny portion."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Instrumen gamelan sing paling gedhé, digantung lan ditabuh ing pungkasané gendhing iku apa?",
+    "options": [
+      "Kendhang",
+      "Bonang",
+      "Saron",
+      "Gong"
+    ],
+    "correctIndex": 3,
+    "gloss": "The largest gamelan instrument, hung and struck at the end of a piece, is? — The gong (gong ageng), which closes each cycle."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing wayang, sapa bapaké punakawan Gareng, Petruk lan Bagong?",
+    "options": [
+      "Togog",
+      "Semar",
+      "Bilung",
+      "Sabdapalon"
+    ],
+    "correctIndex": 1,
+    "gloss": "In wayang, who is the father of the clown-servants Gareng, Petruk and Bagong? — Semar (Togog and Bilung serve the other side)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing dongèng, Kancil seneng nyolong timun ing kebon duwèké sapa?",
+    "options": [
+      "Pak Lurah",
+      "Pak Kaji",
+      "Pak Tani",
+      "Pak Guru"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the fable, whose garden does the mouse-deer Kancil steal cucumbers from? — Pak Tani, the farmer."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Nyabrang saka Banyuwangi menyang Bali, jam kudu dimajokaké sejam. Bali nganggo zona wektu apa?",
+    "options": [
+      "WIB",
+      "WITA",
+      "WIT",
+      "GMT"
+    ],
+    "correctIndex": 1,
+    "gloss": "Crossing from Banyuwangi to Bali you set the clock an hour forward. Which time zone does Bali use? — WITA (Central Indonesian Time, UTC+8); Java is on WIB."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing bulu tangkis, pukulan banter sing mudhun landhep saka dhuwur sirah diarani apa?",
+    "gloss": "In badminton, what is the hard, steeply downward overhead shot called? — The smash.",
+    "options": [
+      "Lob",
+      "Netting",
+      "Smash",
+      "Drop shot"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing WhatsApp, centhang loro sing werna biru tegesé apa?",
+    "options": [
+      "Pesen wis diwaca",
+      "Pesen lagi dikirim",
+      "Pesen wis tekan, durung diwaca",
+      "Pesen wis dibusak"
+    ],
+    "correctIndex": 0,
+    "gloss": "On WhatsApp, what do two blue ticks mean? — The message has been read (two grey ticks: delivered)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Botol kaca kebak banyu ditinggal sewengi ing freezer, ésuké pecah. Apa sebabé?",
+    "options": [
+      "Banyu nyusut nalika beku",
+      "Hawa ing botol mbledhos",
+      "Kaca dadi rapuh merga adhem",
+      "Banyu mekar nalika beku"
+    ],
+    "correctIndex": 3,
+    "gloss": "A full glass bottle of water left overnight in the freezer cracks. Why? — Water expands as it freezes."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing film animasi “Frozen”, sapa jenengé ratu sing bisa nggawé ès lan salju?",
+    "options": [
+      "Anna",
+      "Elsa",
+      "Moana",
+      "Aurora"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the animated film “Frozen”, what is the name of the queen who makes ice and snow? — Elsa (Anna is her sister)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing label klambi, ukuran “XL” iku cekakan saka apa?",
+    "options": [
+      "Extra Long",
+      "Extra Loose",
+      "Extra Light",
+      "Extra Large"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a clothing label, what does the size “XL” stand for? — Extra Large."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wasabi, bumbu ijo sing pedhesé nyegrak menyang irung, lumrahé dipangan karo apa?",
+    "options": [
+      "Sushi",
+      "Taco",
+      "Kebab",
+      "Pizza"
+    ],
+    "correctIndex": 0,
+    "gloss": "Wasabi, the green condiment whose heat shoots up the nose, is usually eaten with? — Sushi."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kéwan cilik ing témbok omah sing bisa ngeculaké buntuté yèn dicekel iku apa?",
+    "options": [
+      "Coro",
+      "Bunglon",
+      "Cecak",
+      "Kemlandhingan"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which small creature on the house wall can drop its tail when caught? — The house gecko (cecak)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Woh apa sing ambuné banter nganti akèh hotel lan maskapai nglarang digawa mlebu?",
+    "options": [
+      "Nangka",
+      "Durèn",
+      "Cempedak",
+      "Kweni"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which fruit smells so strong that many hotels and airlines ban it? — Durian."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pokémon kuning sing bisa ngetokaké setrum lan dadi maskot Pokémon jenengé sapa?",
+    "options": [
+      "Pikachu",
+      "Jigglypuff",
+      "Charmander",
+      "Bulbasaur"
+    ],
+    "correctIndex": 0,
+    "gloss": "The yellow electric Pokémon that is the franchise's mascot is called? — Pikachu."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Klambi regané Rp80.000 olèh diskon 25%. Kudu mbayar pira?",
+    "options": [
+      "Rp55.000",
+      "Rp60.000",
+      "Rp65.000",
+      "Rp70.000"
+    ],
+    "correctIndex": 1,
+    "gloss": "A shirt costs Rp80,000 with a 25% discount. How much do you pay? — Rp60,000: a quarter of 80,000 is 20,000."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sunscreen dianggo kanggo nglindhungi kulit saka sinar srengéngé jinis apa?",
+    "options": [
+      "Inframerah",
+      "Sinar-X",
+      "Gelombang mikro",
+      "Ultraviolet"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sunscreen protects the skin from which kind of sunlight? — Ultraviolet."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Seni nglempit kertas saka Jepang dadi manuk utawa kodhok diarani apa?",
+    "options": [
+      "Ikebana",
+      "Origami",
+      "Bonsai",
+      "Kirigami"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Japanese art of folding paper into birds or frogs is called? — Origami (kirigami also cuts the paper; ikebana is flower arranging)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Amplop abang isi dhuwit sing diwènèhaké nalika Imlèk diarani apa?",
+    "options": [
+      "Barongsai",
+      "Lampion",
+      "Angpao",
+      "Kuè keranjang"
+    ],
+    "correctIndex": 2,
+    "gloss": "The red envelope with money given at Chinese New Year is called? — Angpao."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Alamat situs web sing pungkasané “.jp” asalé saka negara endi?",
+    "options": [
+      "Jepang",
+      "Yordania",
+      "Jamaika",
+      "Jerman"
+    ],
+    "correctIndex": 0,
+    "gloss": "A website address ending in “.jp” is from which country? — Japan (Jordan is .jo, Jamaica .jm, Germany .de)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gelas ès teh ing dhuwur méja suwé-suwé teles ing sisih njaba. Banyu iku asalé saka ngendi?",
+    "options": [
+      "Teh rembes liwat gelas",
+      "Uap banyu saka hawa ngembun",
+      "Ès lèmèr mili metu",
+      "Gelasé kringeten merga adhem"
+    ],
+    "correctIndex": 1,
+    "gloss": "A glass of iced tea on the table gets wet on the outside. Where does that water come from? — Water vapour in the air condenses on the cold glass."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saliyané lenga lan cuka, bahan utama mayonès iku apa?",
+    "options": [
+      "Santen",
+      "Susu",
+      "Kuning endhog",
+      "Mentéga"
+    ],
+    "correctIndex": 2,
+    "gloss": "Besides oil and vinegar, what is the main ingredient of mayonnaise? — Egg yolk, which emulsifies the oil."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ing kirab malem 1 Sura Kraton Surakarta, kéwan apa sing mlaku ing ngarep dhéwé?",
+    "options": [
+      "Kebo bulé",
+      "Gajah",
+      "Jaran putih",
+      "Sapi"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Surakarta palace procession on the night of 1 Sura, which animals lead the way? — The albino buffaloes (kebo bulé) of the Kyai Slamet line."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wong Tengger nganakaké upacara Kasada kanthi nglarung sesaji menyang kawah gunung endi?",
+    "options": [
+      "Semeru",
+      "Arjuna",
+      "Ijen",
+      "Bromo"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Tengger people hold the Kasada ceremony by throwing offerings into the crater of which mountain? — Bromo."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Riyaya seminggu sakwisé Lebaran ing Jawa diarani Bakda apa?",
+    "options": [
+      "Kupat",
+      "Lontong",
+      "Lepet",
+      "Jadah"
+    ],
+    "correctIndex": 0,
+    "gloss": "The feast a week after Eid in Java is called Bakda what? — Bakda Kupat, the rice-dumpling feast."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Bakul tuku sarung telung kodhi. Gunggungé sarung pira?",
+    "options": [
+      "30",
+      "36",
+      "60",
+      "300"
+    ],
+    "correctIndex": 2,
+    "gloss": "A trader buys three kodhi of sarongs. How many sarongs in all? — 60: a kodhi is 20 pieces (36 would be three dozen)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kakangé bapak diundang Pakdhe. Adhiné bapak sing lanang diundang apa?",
+    "options": [
+      "Mas",
+      "Eyang",
+      "Pakdhe",
+      "Paklik"
+    ],
+    "correctIndex": 3,
+    "gloss": "Father's elder brother is called Pakdhe. What do you call father's younger brother? — Paklik: -dhe is from gedhe (big), -lik from cilik (small)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Didi Kempot, “The Godfather of Broken Heart”, misuwur lumantar lagu-lagu Jawa aliran apa?",
+    "options": [
+      "Campursari",
+      "Keroncong",
+      "Dangdut",
+      "Jaipongan"
+    ],
+    "correctIndex": 0,
+    "gloss": "Didi Kempot, “The Godfather of Broken Heart”, became famous for Javanese songs in which genre? — Campursari."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yèn HP disetel “mode pesawat”, apa sing utamané dipatèni?",
+    "gloss": "When a phone is set to airplane mode, what is mainly switched off? — Its wireless signals (mobile network, and by default Wi-Fi and Bluetooth).",
+    "options": [
+      "Layar",
+      "Kamera",
+      "Sinyal nirkabel",
+      "Swara spiker"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Golongan getih endi sing diarani “donor universal”?",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which blood group is called the “universal donor”? — O (AB is the universal recipient)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Negara Éropah endi sing ora nduwé segara babar pisan?",
+    "options": [
+      "Spanyol",
+      "Yunani",
+      "Kroasia",
+      "Swiss"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which European country has no coast at all? — Switzerland."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iwak salmon nglangi adoh menyang ngendi nalika arep ngendhog?",
+    "options": [
+      "Hulu kali",
+      "Segara jero",
+      "Muara",
+      "Terumbu karang"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where do salmon swim far to lay their eggs? — Upstream in rivers, where they hatched."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing basket, tembakan sing mlebu saka njaba garis lengkung olèh poin pira?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "gloss": "In basketball, how many points for a basket made from beyond the arc? — 3."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kutha kuna Machu Picchu ing pegunungan Andes dibangun déning bangsa apa?",
+    "options": [
+      "Maya",
+      "Inka",
+      "Aztèk",
+      "Olmek"
+    ],
+    "correctIndex": 1,
+    "gloss": "The ancient Andean city of Machu Picchu was built by which people? — The Inca."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ing film “Toy Story”, sapa jenengé boneka koboi kancané Buzz Lightyear?",
+    "options": [
+      "Rex",
+      "Hamm",
+      "Slinky",
+      "Woody"
+    ],
+    "correctIndex": 3,
+    "gloss": "In “Toy Story”, what is the name of the cowboy doll who is Buzz Lightyear's friend? — Woody."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bocah lanang sing ora gelem gedhé lan manggon ing Neverland iku sapa?",
+    "options": [
+      "Pinokio",
+      "Oliver Twist",
+      "Peter Pan",
+      "Tom Sawyer"
+    ],
+    "correctIndex": 2,
+    "gloss": "The boy who won't grow up and lives in Neverland is? — Peter Pan."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pola ing wilahan keris sing tuwuh saka campuran wesi lan logam liya diarani apa?",
+    "options": [
+      "Pamor",
+      "Dhapur",
+      "Warangka",
+      "Ukiran"
+    ],
+    "correctIndex": 0,
+    "gloss": "The pattern on a keris blade that comes from forging iron with another metal is called? — Pamor (dhapur is the blade's shape, warangka the sheath, ukiran the hilt)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Tembang macapat endi sing jenengé ateges “metu” lan nggambaraké bayi lair?",
+    "options": [
+      "Pocung",
+      "Durma",
+      "Mijil",
+      "Megatruh"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which macapat verse form has a name meaning “to come out” and stands for birth? — Mijil (mijil = to emerge); Megatruh and Pocung stand for death."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Miturut bobot, unsur kimia apa sing paling akèh ing awak manungsa?",
+    "options": [
+      "Karbon",
+      "Oksigen",
+      "Hidrogen",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "gloss": "By mass, which chemical element is most abundant in the human body? — Oxygen, about 65% (hydrogen leads only by number of atoms)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gunung endi sing pucuké paling dhuwur ing pulo Jawa?",
+    "options": [
+      "Slamet",
+      "Lawu",
+      "Merbabu",
+      "Semeru"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mountain has the highest summit on Java? — Semeru (3,676 m); Slamet is second."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Candhi Borobudur dibangun ing jaman wangsa apa?",
+    "options": [
+      "Sanjaya",
+      "Syailendra",
+      "Isyana",
+      "Rajasa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Borobudur was built in the time of which dynasty? — The Shailendra dynasty, in the 8th–9th centuries."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Logam apa sing paling entheng, sing saiki dadi bahan utama baterai hapé?",
+    "options": [
+      "Natrium",
+      "Aluminium",
+      "Magnesium",
+      "Litium"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which metal is the lightest of all and now the key material of phone batteries? — Lithium (lithium-ion batteries)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Taun 1633 Sultan Agung nggabungaké kalender Saka karo kalender apa dadi kalender Jawa?",
+    "options": [
+      "Masèhi",
+      "Hijriyah",
+      "Tionghoa",
+      "Julian"
+    ],
+    "correctIndex": 1,
+    "gloss": "In 1633 Sultan Agung merged the Saka calendar with which calendar to create the Javanese calendar? — The Hijri (Islamic lunar) calendar, keeping the Saka year count."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fosil Pithecanthropus erectus ing Trinil, Ngawi, ditemokaké taun 1891 déning sapa?",
+    "options": [
+      "Ralph von Koenigswald",
+      "Louis Leakey",
+      "Eugène Dubois",
+      "Raymond Dart"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who found the Pithecanthropus erectus fossil at Trinil, Ngawi, in 1891? — Eugène Dubois (von Koenigswald later dug at Sangiran)."
+  }
+]

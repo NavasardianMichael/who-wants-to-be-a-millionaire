@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mutumin Katsina “Bakatsine” ne, mutanen Katsina kuma “Katsinawa”. Me ake kiran mutanen Kano?",
+    "options": [
+      "Kanawa",
+      "Bakane",
+      "Kanuri",
+      "Kanembu"
+    ],
+    "correctIndex": 0,
+    "gloss": "A man of Katsina is “Bakatsine”, the people of Katsina “Katsinawa”. What are the people of Kano called? — Kanawa: the -awa plural of origin. Bakane is one Kano man; Kanuri and Kanembu are other peoples."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ka sa ƙugiya a k ɗin “baki”, wato bakin mutum, sai ka samu sunan wani launi. Wane launi ne?",
+    "options": [
+      "Fari",
+      "Baƙi",
+      "Ja",
+      "Kore"
+    ],
+    "correctIndex": 1,
+    "gloss": "Put a hook on the k of “baki” (mouth) and you get the name of a colour. Which? — Black (baƙi): k and hooked ƙ are different letters in Hausa."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Idan aka ce maka “ƙarfe huɗu saura kwata”, wane lokaci ne?",
+    "options": [
+      "4:15",
+      "4:45",
+      "3:45",
+      "3:15"
+    ],
+    "correctIndex": 2,
+    "gloss": "If you are told “four o’clock less a quarter”, what time is it? — 3:45: “saura” means “remaining”, a quarter still left until four."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ketchup, jan miya mai kauri da ake ci da soyayyen dankali, da me aka fi yin sa?",
+    "options": [
+      "Tattasai",
+      "Barkono",
+      "Karas",
+      "Tumatir"
+    ],
+    "correctIndex": 3,
+    "gloss": "Ketchup, the thick red sauce eaten with chips — what is it mostly made of? — Tomatoes. Red bell pepper (tattasai) is the look-alike trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Daddawa ta gargajiya, wadda ake sa wa miya don ƙamshi, da ƙwayar wace bishiya ake yin ta?",
+    "options": [
+      "Kuka",
+      "Ɗorawa",
+      "Tsamiya",
+      "Kaɗanya"
+    ],
+    "correctIndex": 1,
+    "gloss": "Traditional daddawa, the seasoning that gives soup its aroma — from the seeds of which tree? — Ɗorawa (African locust bean, Parkia biglobosa), fermented. Baobab, tamarind and shea are the others."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A auren Musulunci, wane abu ne shari'a ta wajabta ango ya bai wa amarya?",
+    "options": [
+      "Lefe",
+      "Gara",
+      "Sadaki",
+      "Kayan ɗaki"
+    ],
+    "correctIndex": 2,
+    "gloss": "In an Islamic marriage, what does the law make obligatory for the groom to give the bride? — Sadaki (mahr). Lefe (the gift box) is customary; gara and kayan ɗaki come from the bride’s side."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A ƙasar Hausa, a rana ta nawa bayan haihuwa ake yin bikin raɗin suna?",
+    "options": [
+      "Ta uku",
+      "Ta goma",
+      "Ta arba'in",
+      "Ta bakwai"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Hausaland, on which day after birth is the naming ceremony held? — The seventh day."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A ƙwallon ƙafa, idan ƙwallo ta fita ta layin gefen fili, ta yaya ake dawo da ita wasa?",
+    "options": [
+      "Jefa ta da hannu",
+      "Bugun kusurwa",
+      "Bugun fenariti",
+      "Bugun tazara"
+    ],
+    "correctIndex": 0,
+    "gloss": "In football, when the ball goes out over the touchline, how is it brought back into play? — A throw-in with the hands. Corner, penalty and free kick are the other restarts."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A WhatsApp, idan alamun ✓✓ da ke ƙarƙashin saƙonka suka koma shuɗi, me hakan yake nufi?",
+    "options": [
+      "An goge saƙon",
+      "Saƙon bai tafi ba",
+      "An karanta saƙon",
+      "An tura saƙon gaba"
+    ],
+    "correctIndex": 2,
+    "gloss": "On WhatsApp, when the two ticks under your message turn blue, what does it mean? — It has been read. Two grey ticks mean delivered."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Idan aka zuba man gyaɗa a cikin ruwa aka ɗan jira, me zai faru?",
+    "options": [
+      "Man zai nutse ƙasa",
+      "Za su gauraye su zama ɗaya",
+      "Ruwan zai yi kauri",
+      "Man zai taru a saman ruwan"
+    ],
+    "correctIndex": 3,
+    "gloss": "Pour groundnut oil into water and wait a little: what happens? — The oil gathers on top: it is lighter than water and does not mix with it."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaza tana kwanciya a kan ƙwayayenta kusan mako nawa kafin 'yan tsaki su fito?",
+    "options": [
+      "Mako 3",
+      "Mako 1",
+      "Mako 6",
+      "Mako 10"
+    ],
+    "correctIndex": 0,
+    "gloss": "For about how many weeks does a hen sit on her eggs before the chicks hatch? — About 3 weeks (21 days)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Birnin Dubai, inda 'yan kasuwa da yawa daga Kano suke zuwa sayayya, yana wace ƙasa?",
+    "options": [
+      "Saudiyya",
+      "Haɗaɗɗiyar Daular Larabawa",
+      "Katar",
+      "Kuwait"
+    ],
+    "correctIndex": 1,
+    "gloss": "Dubai, where many Kano traders go to buy goods, is in which country? — The United Arab Emirates."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Najeriya da Nijar duk sun sami 'yancin kai a shekara ɗaya. Wace shekara ce?",
+    "options": [
+      "1957",
+      "1963",
+      "1958",
+      "1960"
+    ],
+    "correctIndex": 3,
+    "gloss": "Nigeria and Niger both became independent in the same year. Which? — 1960 (Niger on 3 August, Nigeria on 1 October). 1957 is Ghana; 1963 is when Nigeria became a republic."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wane littafi ne Allah ya saukar wa Annabi Dauda?",
+    "options": [
+      "Zabura",
+      "Attaura",
+      "Injila",
+      "Alƙur'ani"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which scripture did God reveal to the Prophet David? — The Psalms (Zabura). Torah to Moses, Gospel to Jesus, Qur’an to Muhammad."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane kayan kiɗan Hausa ne ake matsewa a hamata, har sautinsa yana hawa yana sauka kamar mutum yana magana?",
+    "options": [
+      "Goge",
+      "Kalangu",
+      "Kakaki",
+      "Garaya"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Hausa instrument is squeezed under the arm so that its pitch rises and falls like speech? — Kalangu, the hourglass “talking drum”. Goge is a fiddle, kakaki a long trumpet, garaya a lute."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Shirin “Squid Game”, wanda ya yi fice a Netflix har duniya ta san shi, daga wace ƙasa ya fito?",
+    "options": [
+      "Japan",
+      "Sin",
+      "Koriya ta Kudu",
+      "Tailan"
+    ],
+    "correctIndex": 2,
+    "gloss": "The series “Squid Game”, a worldwide Netflix hit — which country is it from? — South Korea. Japan, home of anime and similar survival-game stories, is the trap."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mai tatsuniya ya ce: “Ga ta nan, ga ta nanku!” Me masu sauraro suke amsawa?",
+    "options": [
+      "Ta zo mu ji ta",
+      "Kurunkus",
+      "Mun ji",
+      "Allah ya kai mu"
+    ],
+    "correctIndex": 0,
+    "gloss": "The storyteller says: “Here it is, here it is for you!” What do the listeners answer? — “Let it come so we may hear it.” “Kurunkus” is the formula that ends a tale, the trap."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Abubuwan sha irin su espresso da cappuccino da ake sayarwa a otal-otal da shagunan zamani, da me ake yin su?",
+    "options": [
+      "Shayi",
+      "Kofi",
+      "Koko",
+      "Zoɓo"
+    ],
+    "correctIndex": 1,
+    "gloss": "Drinks like espresso and cappuccino sold in modern cafés — what are they made from? — Coffee. Cocoa (koko) and tea are the traps."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kare yakan fitar da harshe yana haki idan rana ta yi zafi. Me hakan yake yi masa?",
+    "options": [
+      "Yana ƙara masa ji",
+      "Yana tsoratar da maƙiya",
+      "Yana rage masa zafin jiki",
+      "Yana sa ya ji ƙamshi"
+    ],
+    "correctIndex": 2,
+    "gloss": "A dog sticks out its tongue and pants when it is hot. What does that do for it? — It cools the body: dogs barely sweat, so they lose heat by evaporation from the tongue and mouth."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Me ya sa nama ko madara ba sa saurin ɓaci idan suna cikin firji?",
+    "options": [
+      "Firji yana tsotse musu ruwa",
+      "Duhun ciki yana hana su ruɓewa",
+      "Firji yana cire musu iska",
+      "Sanyi yana rage saurin ƙwayoyin cuta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why do meat and milk not spoil quickly in a fridge? — Cold slows the growth of bacteria."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hedkwatar daular da Shehu Usman ɗan Fodio ya kafa, inda Sarkin Musulmi yake zaune har yau, wane birni ne?",
+    "options": [
+      "Gwandu",
+      "Sakkwato",
+      "Kano",
+      "Katsina"
+    ],
+    "correctIndex": 1,
+    "gloss": "The headquarters of the caliphate founded by Shehu Usman ɗan Fodio, where the Sultan still sits — which city? — Sokoto. Gwandu was the seat of the western half under Abdullahi, the trap."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A ginin gargajiya, ana cuɗa laka a yi ƙananan dunƙule masu tsini, a busar da su a rana. Me ake kiransu?",
+    "options": [
+      "Bulo",
+      "Kwano",
+      "Tubali",
+      "Siminti"
+    ],
+    "correctIndex": 2,
+    "gloss": "In traditional building, mud is kneaded into small pointed lumps dried in the sun. What are they called? — Tubali, the conical mud bricks. Bulo is a cement block, kwano a zinc roofing sheet, siminti cement."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Idan aka haifi tagwaye maza a ƙasar Hausa, waɗanne sunaye aka fi raɗa musu?",
+    "options": [
+      "Musa da Haruna",
+      "Adamu da Nuhu",
+      "Isma'ila da Ishaƙa",
+      "Hassan da Husaini"
+    ],
+    "correctIndex": 3,
+    "gloss": "When boy twins are born in Hausaland, what names are they most often given? — Hassan and Husaini (girls: Hassana and Husaina), after the Prophet’s two grandsons."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Za ka sayi data a waya. Wane kunshi ne ya fi girma?",
+    "options": [
+      "1 GB",
+      "900 MB",
+      "750 MB",
+      "500 MB"
+    ],
+    "correctIndex": 0,
+    "gloss": "You are buying phone data. Which bundle is biggest? — 1 GB: a gigabyte is about 1,000 megabytes, so it beats 900 MB."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Takalmi ne kuɗinsa ₦8,000, sai aka ce an yi rangwamen rabin farashi. Nawa za ka biya?",
+    "options": [
+      "₦2,000",
+      "₦6,000",
+      "₦4,000",
+      "₦7,500"
+    ],
+    "correctIndex": 2,
+    "gloss": "A pair of shoes costs ₦8,000 and is marked half price. How much do you pay? — ₦4,000: half of 8,000."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ƙananan hotunan fuska kamar 😂 da ❤️ da ake sakawa a cikin saƙo, me ake kiransu?",
+    "options": [
+      "Hashtag",
+      "GIF",
+      "Meme",
+      "Emoji"
+    ],
+    "correctIndex": 3,
+    "gloss": "The little face pictures like 😂 and ❤️ put into messages — what are they called? — Emoji."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A ƙwallon ƙafa, idan alƙalin wasa ya ce za a duba “VAR”, me ake dubawa?",
+    "options": [
+      "Bidiyon abin da ya faru",
+      "Agogon wasan",
+      "Katunan 'yan wasa",
+      "Takardar maki"
+    ],
+    "correctIndex": 0,
+    "gloss": "In football, when the referee says he will check “VAR”, what is checked? — Video of the incident (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ƙaramin katin da ake sakawa a cikin waya don ta samu layin kamfanin sadarwa, me ake kiransa?",
+    "options": [
+      "Katin ATM",
+      "Katin SIM",
+      "Katin ƙwaƙwalwa",
+      "Katin caji"
+    ],
+    "correctIndex": 1,
+    "gloss": "The small card put into a phone so it gets a network line — what is it called? — The SIM card. A memory card stores files; katin caji is airtime."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A wane gari ne Kogin Kwara da Kogin Binuwai suke haɗuwa?",
+    "options": [
+      "Makurdi",
+      "Jebba",
+      "Onitsha",
+      "Lokoja"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which town do the Niger and Benue rivers meet? — Lokoja (Kogi State). Makurdi is on the Benue, Jebba and Onitsha on the Niger."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wane kamfani ne ya mallaki Facebook, Instagram da WhatsApp?",
+    "options": [
+      "Meta",
+      "Google",
+      "Microsoft",
+      "Apple"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which company owns Facebook, Instagram and WhatsApp? — Meta (renamed from Facebook, Inc. in 2021)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane fitaccen mawaƙin baka na Hausa ne, ɗan asalin jihar Katsina, ya rasu a 1999?",
+    "options": [
+      "Musa Ɗanƙwairo",
+      "Mamman Shata",
+      "Ɗan Maraya Jos",
+      "Narambaɗa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which famous Hausa oral singer, from Katsina State, died in 1999? — Mamman Shata (1923–1999). Ɗanƙwairo died in 1991, Narambaɗa in 1960, Ɗan Maraya Jos in 2015."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A ƙwallon kwando, maki nawa ake samu idan aka jefa ƙwallo ta shiga raga daga bayan babban layin da'ira?",
+    "options": [
+      "Maki 2",
+      "Maki 4",
+      "Maki 3",
+      "Maki 5"
+    ],
+    "correctIndex": 2,
+    "gloss": "In basketball, how many points for a basket from beyond the big arc? — 3 points (the three-point line)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sallar Juma'a tana maye gurbin wace salla daga cikin salloli biyar na ranar?",
+    "options": [
+      "Azahar",
+      "La'asar",
+      "Asuba",
+      "Magariba"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Friday prayer takes the place of which of the day’s five prayers? — Zuhr (Azahar), the midday prayer."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sunayen kwanaki sun zo daga Larabci: “Lahadi” na nufin ta ɗaya, “Litinin” ta biyu. To, “Alhamis” ta nawa ce?",
+    "options": [
+      "Ta huɗu",
+      "Ta biyar",
+      "Ta uku",
+      "Ta shida"
+    ],
+    "correctIndex": 1,
+    "gloss": "Hausa weekday names come from Arabic: Lahadi means “the first”, Litinin “the second”. Which is Alhamis? — The fifth: count on Talata (3), Laraba (4), Alhamis (5)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ƙungiyoyi huɗu za su fafata, kowace da kowace sau ɗaya kacal. Wasa nawa za a buga gaba ɗaya?",
+    "options": [
+      "Wasa 4",
+      "Wasa 8",
+      "Wasa 6",
+      "Wasa 12"
+    ],
+    "correctIndex": 2,
+    "gloss": "Four teams each play every other team exactly once. How many matches in all? — 6: 3 + 2 + 1. 12 is the home-and-away trap."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Littafin “Magana Jari Ce”, wanda wani aku yake ba da labarai a cikinsa, wane ne ya rubuta shi?",
+    "options": [
+      "Sa'adu Zungur",
+      "Aliyu Akilu",
+      "Muhammadu Bello",
+      "Abubakar Imam"
+    ],
+    "correctIndex": 3,
+    "gloss": "The book “Magana Jari Ce”, in which a parrot tells the stories, was written by whom? — Abubakar Imam (1930s)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kalandar Hijira ta fara ne daga lokacin da Annabi Muhammadu ya yi hijira daga Makka zuwa wane birni?",
+    "options": [
+      "Taif",
+      "Madina",
+      "Ƙudus",
+      "Jidda"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Hijri calendar begins with the Prophet Muhammad’s emigration from Mecca to which city? — Medina (622)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tafkin Chadi yana taɓa iyakokin ƙasashe nawa?",
+    "options": [
+      "Ƙasa 3",
+      "Ƙasa 5",
+      "Ƙasa 4",
+      "Ƙasa 2"
+    ],
+    "correctIndex": 2,
+    "gloss": "Lake Chad touches the borders of how many countries? — 4: Nigeria, Niger, Chad and Cameroon."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Najeriya da Ghana suna cikin manyan masu noman ƙwayar da ake yin cakulan da ita. Wace ƙwaya ce?",
+    "options": [
+      "Kofi",
+      "Goro",
+      "Kwakwa",
+      "Koko"
+    ],
+    "correctIndex": 3,
+    "gloss": "Nigeria and Ghana are among the big growers of the bean chocolate is made from. Which? — Cocoa (koko). Kola nut (goro) is the local trap."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hoton wace mace ce, shahararriyar mai sana'ar tukwane, yake jikin takardar Naira 20?",
+    "options": [
+      "Ladi Kwali",
+      "Sarauniya Amina",
+      "Funmilayo Ransome-Kuti",
+      "Margaret Ekpo"
+    ],
+    "correctIndex": 0,
+    "gloss": "Whose portrait, a famous potter, is on the ₦20 note? — Ladi Kwali, the potter from Kwali."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ƙwai yana nutsewa a ruwa, amma yakan yi yawo idan an narkar da gishiri da yawa a ciki. Me ya sa?",
+    "options": [
+      "Gishiri yana ɗumama ruwan",
+      "Gishiri yana shiga cikin ƙwan",
+      "Ruwan gishiri ya fi nauyi",
+      "Ruwan gishiri ya fi sanyi"
+    ],
+    "correctIndex": 2,
+    "gloss": "An egg sinks in water but floats once plenty of salt is dissolved in it. Why? — Salt water is denser (heavier per volume) than the egg."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wane jarumin barkwanci na Kannywood ne aka fi sani da “Ɗan Ibro”?",
+    "options": [
+      "Ali Nuhu",
+      "Sani Danja",
+      "Adam A. Zango",
+      "Rabilu Musa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Kannywood comic actor was best known as “Ɗan Ibro”? — Rabilu Musa (died 2014)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wace Baturiya ce ta fara raɗa wa ƙasar sunan “Nigeria” a wata maƙala a 1897?",
+    "options": [
+      "Flora Shaw",
+      "Mary Slessor",
+      "Margery Perham",
+      "Gertrude Bell"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which British woman first coined the name “Nigeria” in an 1897 article? — Flora Shaw (later Lady Lugard), in The Times."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wane rukunin jini ne ake iya ƙara wa kusan kowane mara lafiya, shi ya sa ake kiransa “mai ba kowa”?",
+    "options": [
+      "AB+",
+      "O−",
+      "A+",
+      "B−"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which blood group can be given to almost any patient, the “universal donor”? — O negative. AB+ is the universal recipient, the trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Me ya sa kunnuwa sukan toshe idan jirgin sama yana sauka?",
+    "options": [
+      "Ƙarar injin jirgin",
+      "Sanyin cikin jirgin",
+      "Gudun jirgin",
+      "Sauyin matsin iska"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why do your ears block when a plane is landing? — The change in air pressure: the cabin pressure rises faster than the middle ear can equalise; swallowing or yawning opens the Eustachian tube."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Daga “noma” Hausa ta samu “manomi”. Daga wace kalma ce aka samu “masunci”?",
+    "options": [
+      "Su",
+      "Kifi",
+      "Ruwa",
+      "Raga"
+    ],
+    "correctIndex": 0,
+    "gloss": "From “noma” (farming) Hausa makes “manomi” (farmer). From which word does “masunci” (fisherman) come? — Su, the Hausa word for fishing. Kifi (fish) is the trap."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wane ne babban jarumin littafin “Things Fall Apart” na Chinua Achebe?",
+    "options": [
+      "Obierika",
+      "Okonkwo",
+      "Ezeulu",
+      "Ikemefuna"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is the hero of Chinua Achebe’s “Things Fall Apart”? — Okonkwo. Obierika is his friend, Ikemefuna the boy he takes in, Ezeulu the hero of “Arrow of God”."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A ma'aunin Celsius, digiri nawa ne mafi ƙarancin sanyin da zai iya kasancewa, wato sifili na Kelvin?",
+    "options": [
+      "Kusan −100 °C",
+      "Kusan −460 °C",
+      "Kusan −273 °C",
+      "Kusan −373 °C"
+    ],
+    "correctIndex": 2,
+    "gloss": "On the Celsius scale, what is the lowest possible temperature, absolute zero? — About −273 °C (−273.15). −460 is roughly its Fahrenheit value, the trap."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ƙahonin ado da ake ɗagawa a kusurwoyin saman bangon gidajen laka na Hausa, me ake kiransu?",
+    "options": [
+      "Zanko",
+      "Soro",
+      "Zaure",
+      "Kyauro"
+    ],
+    "correctIndex": 0,
+    "gloss": "The decorative horns raised at the top corners of Hausa mud walls — what are they called? — Zanko. Soro is a flat-roofed room, zaure the entrance hall, kyauro a reed."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Chappal Waddi, kololuwa mafi tsawo a Najeriya, tana wace jiha?",
+    "options": [
+      "Adamawa",
+      "Taraba",
+      "Filato",
+      "Bauchi"
+    ],
+    "correctIndex": 1,
+    "gloss": "Chappal Waddi, Nigeria’s highest peak, is in which state? — Taraba (on the Cameroon border). Plateau and Adamawa, both highland states, are the traps."
+  }
+]
