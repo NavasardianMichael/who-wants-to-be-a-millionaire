@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Пасля галоснай прыназоўнік «у» пішацца як «ў». Дзе трэба напісаць «ў»?",
+    "options": [
+      "Брат … школе",
+      "Сястра … школе",
+      "Сын … школе",
+      "Дзед … школе"
+    ],
+    "correctIndex": 1,
+    "gloss": "After a vowel the preposition «у» is written «ў». Where must «ў» go? — «Сястра ў школе»: only «сястра» ends in a vowel."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Якое з гэтых слоў ужываецца толькі ў множным ліку?",
+    "options": [
+      "Відэльцы",
+      "Лыжкі",
+      "Талеркі",
+      "Нажніцы"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words exists only in the plural? — Scissors (нажніцы): there is no singular; the others are plurals of відэлец, лыжка, талерка."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ненаціскное «о» па-беларуску пішацца як «а»: за́мак у Міры. Як пішацца з_м_к на дзвярах, з націскам на апошні склад?",
+    "options": [
+      "Замак",
+      "Зомак",
+      "Замок",
+      "Зомок"
+    ],
+    "correctIndex": 2,
+    "gloss": "Unstressed «o» is written «a» (за́мак, castle). How is the door lock z_m_k, stressed on the last syllable, spelled? — «Замок»: the stressed «о» stays, the unstressed first vowel is «а»."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "З якой з гэтых краін Беларусь не мае агульнай мяжы?",
+    "options": [
+      "Літва",
+      "Латвія",
+      "Польшча",
+      "Эстонія"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these countries does Belarus not border? — Estonia: Belarus borders Lithuania, Latvia, Poland, Ukraine and Russia."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Як называюцца восеньскія дні памяці продкаў, калі на вячэру ўрачыста «запрашаюць» душы памерлых?",
+    "options": [
+      "Каляды",
+      "Дзяды",
+      "Купалле",
+      "Масленіца"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are the autumn days of remembering ancestors, when the souls of the dead are 'invited' to supper? — Dziady."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якая птушка будуе гнёзды на слупах і дахах і лічыцца ў Беларусі сімвалам роднай зямлі?",
+    "options": [
+      "Жораў",
+      "Бусел",
+      "Чапля",
+      "Лебедзь"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which bird nests on poles and roofs and is seen in Belarus as a symbol of the homeland? — The white stork (бусел)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Які грыб у Беларусі называюць царом грыбоў?",
+    "options": [
+      "Лісічка",
+      "Мухамор",
+      "Баравік",
+      "Апенька"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which mushroom is called the king of mushrooms in Belarus? — The porcini (баравік)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Як называецца халодны летні суп з буракоў на кефіры, які ядуць з яйкам і свежымі гуркамі?",
+    "options": [
+      "Халаднік",
+      "Крупеня",
+      "Расольнік",
+      "Зацірка"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the cold summer beetroot soup on kefir, eaten with egg and fresh cucumbers? — Khaladnik."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто аўтар камедыі «Паўлінка» — адной з самых папулярных п'ес беларускага тэатра?",
+    "options": [
+      "Якуб Колас",
+      "Максім Багдановіч",
+      "Янка Купала",
+      "Кандрат Крапіва"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the comedy 'Paŭlinka', one of the most popular plays of Belarusian theatre? — Yanka Kupala (1912)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На якім народным інструменце граюць, удараючы па струнах двума малаточкамі?",
+    "options": [
+      "Дудка",
+      "Ліра",
+      "Гармонік",
+      "Цымбалы"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which folk instrument is played by striking the strings with two small hammers? — The tsymbaly (hammered dulcimer)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У якім відзе спорту Вікторыя Азаранка ўзначальвала сусветны рэйтынг?",
+    "options": [
+      "Біятлон",
+      "Тэніс",
+      "Гімнастыка",
+      "Плаванне"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sport did Victoria Azarenka top the world ranking? — Tennis: WTA No. 1 in 2012."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто, паводле беларускіх павер'яў, гаспадарыць у лесе і можа завесці чалавека ў гушчар?",
+    "options": [
+      "Дамавік",
+      "Вадзянік",
+      "Лясун",
+      "Палявік"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Belarusian folk belief, who rules the forest and can lead a person astray into the thicket? — Liasun, the forest spirit."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Як называлася сярэднявечная дзяржава, у якую разам з літоўскімі ўваходзілі і беларускія землі?",
+    "options": [
+      "Кіеўская Русь",
+      "Залатая Арда",
+      "Маскоўскае царства",
+      "Вялікае Княства Літоўскае"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was the medieval state that held Belarusian lands together with Lithuanian ones? — The Grand Duchy of Lithuania."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "scope": "global",
+    "category": "technology",
+    "text": "Што адключаецца, калі ўключыць на тэлефоне «рэжым палёту»?",
+    "options": [
+      "Сувязь з сеткамі",
+      "Экран",
+      "Гук",
+      "Камера"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is switched off when you turn on 'airplane mode' on a phone? — Its network connections: mobile signal, and by default Wi-Fi and Bluetooth."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што ў большасці праграм для Windows робіць спалучэнне клавіш Ctrl+Z?",
+    "options": [
+      "Захоўвае файл",
+      "Капіюе тэкст",
+      "Закрывае акно",
+      "Адмяняе апошняе дзеянне"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does Ctrl+Z do in most Windows programs? — Undoes the last action."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Як называецца кава, калі ў эспрэса проста даліваюць гарачай вады?",
+    "options": [
+      "Капучына",
+      "Амерыкана",
+      "Латэ",
+      "Раф"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the coffee called when hot water is simply added to an espresso? — An americano."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што азначае на ярлыку адзення перакрэслены тазік з вадой?",
+    "options": [
+      "Не мыць",
+      "Не прасаваць",
+      "Не адбельваць",
+      "Не сушыць у машыне"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does a crossed-out washtub on a clothing label mean? — Do not wash."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што вымяраюць танометрам, надзеўшы на руку манжэту?",
+    "options": [
+      "Тэмпературу цела",
+      "Артэрыяльны ціск",
+      "Цукар у крыві",
+      "Узровень кіслароду"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a tonometer measure with a cuff on the arm? — Blood pressure."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Для якога інструмента Фрыдэрык Шапэн напісаў амаль усе свае творы?",
+    "options": [
+      "Скрыпкі",
+      "Аргана",
+      "Фартэпіяна",
+      "Гітары"
+    ],
+    "correctIndex": 2,
+    "gloss": "For which instrument did Frédéric Chopin write almost all his works? — The piano."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Як называецца роспіс фарбамі па сырым тынку?",
+    "options": [
+      "Мазаіка",
+      "Вітраж",
+      "Ікона",
+      "Фрэска"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is painting in pigment on wet plaster called? — A fresco."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "scope": "global",
+    "category": "filmTv",
+    "text": "У якім карэйскім серыяле ўдзельнікі гуляюць у дзіцячыя гульні на вялікія грошы і на жыццё?",
+    "options": [
+      "«Гульня ў кальмара»",
+      "«Папяровы дом»",
+      "«Уэнздэй»",
+      "«Вельмі дзіўныя справы»"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Korean series do contestants play children's games for big money and their lives? — Squid Game."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кім па прафесіі з'яўляецца Марыа — вусаты герой гульняў Nintendo?",
+    "options": [
+      "Пажарны",
+      "Повар",
+      "Сантэхнік",
+      "Паштальён"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the job of Mario, the moustached hero of Nintendo games? — A plumber."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "scope": "global",
+    "category": "geography",
+    "text": "Праз прадмесце якой сталіцы праходзіць нулявы (Грынвіцкі) мерыдыян?",
+    "options": [
+      "Парыжа",
+      "Лондана",
+      "Берліна",
+      "Рыма"
+    ],
+    "correctIndex": 1,
+    "gloss": "The prime (Greenwich) meridian passes through a district of which capital? — London (Greenwich)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "У баскетболе каманда трапіла два кідкі з-за дугі і адзін штрафны. Колькі ў яе ачкоў?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "gloss": "In basketball a team made two shots from beyond the arc and one free throw. How many points? — 7: 3 + 3 + 1."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што паказвае лічба «3,2 %» на пачку малака?",
+    "options": [
+      "Долю тлушчу",
+      "Колькасць цукру",
+      "Колькасць бялку",
+      "Долю вады"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does '3.2%' on a milk carton show? — The fat content."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якая страва з зерня з мёдам і макам дала імя вечару перад Калядамі?",
+    "options": [
+      "Кулага",
+      "Куцця",
+      "Зацірка",
+      "Каша"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which dish of grain with honey and poppy seed gave its name to the eve of Kaliady (Christmas)? — Kuccia."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Праз якую з гэтых сталіц цячэ Дунай?",
+    "options": [
+      "Прага",
+      "Варшава",
+      "Бухарэст",
+      "Будапешт"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these capitals does the Danube flow through? — Budapest (Prague: Vltava, Warsaw: Vistula, Bucharest: Dâmbovița)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Навошта зімой дарогі пасыпаюць соллю?",
+    "options": [
+      "Каб растапіць лёд",
+      "Каб асфальт не трэскаўся",
+      "Каб забіць мікробы",
+      "Каб дарогу было лепш відаць"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why are roads salted in winter? — To melt the ice: salt lowers the freezing point of water."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якому магнацкаму роду стагоддзямі належалі замкі ў Нясвіжы і Міры?",
+    "options": [
+      "Сапегам",
+      "Агінскім",
+      "Радзівілам",
+      "Тызенгаўзам"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which magnate family owned the castles of Nesvizh and Mir for centuries? — The Radziwiłłs."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У якім відзе спорту Дар'я Домрачава выйграла тры залатыя медалі Алімпіяды ў Сочы?",
+    "options": [
+      "Біятлон",
+      "Лыжныя гонкі",
+      "Фрыстайл",
+      "Канькабежны спорт"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did Darya Domracheva win three Olympic golds in Sochi? — Biathlon (2014)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Чым у XVIII стагоддзі праславілася мануфактура ў Слуцку?",
+    "options": [
+      "Шкляным посудам",
+      "Кафляй",
+      "Гадзіннікамі",
+      "Тканымі паясамі"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was the 18th-century Slutsk manufactory famous for? — Woven sashes (the Slutsk belts)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто напісаў аповесць «Дзікае паляванне караля Стаха»?",
+    "options": [
+      "Іван Мележ",
+      "Уладзімір Караткевіч",
+      "Васіль Быкаў",
+      "Іван Шамякін"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novella 'King Stakh's Wild Hunt'? — Uladzimir Karatkevich."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На берагах якой ракі стаіць Гродна з яго Старым і Новым замкамі?",
+    "options": [
+      "Нёман",
+      "Заходняя Дзвіна",
+      "Прыпяць",
+      "Бярэзіна"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which river does Hrodna, with its Old and New Castles, stand? — The Neman."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Чаму ў скараварцы ежа гатуецца хутчэй, чым у звычайнай каструлі?",
+    "options": [
+      "Вечка трымае цяпло даўжэй",
+      "Пад ціскам вада кіпіць гарачэй",
+      "Тоўстае дно грэецца мацней",
+      "Пара праходзіць праз ежу"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does food cook faster in a pressure cooker? — Under pressure water boils at a higher temperature (about 120 °C)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Якую гульню з фігурак з чатырох квадрацікаў прыдумаў у 1984 годзе Аляксей Пажытнаў?",
+    "options": [
+      "Пакман",
+      "Сапёр",
+      "Тэтрыс",
+      "Змейка"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which game of four-square pieces did Alexey Pajitnov invent in 1984? — Tetris."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Гук [р] па-беларуску заўсёды цвёрды. Якое слова напісана з памылкай?",
+    "options": [
+      "Рэчка",
+      "Тры",
+      "Крэсла",
+      "Рябіна"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Belarusian [r] is always hard. Which word is misspelled? — «Рябіна»: after «р» there is no «я»; the correct form is «рабіна»."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Які сыр кладуць у класічны грэчаскі салат?",
+    "options": [
+      "Моцарэла",
+      "Пармезан",
+      "Фета",
+      "Чэдар"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cheese goes into a classic Greek salad? — Feta."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто стварыў кінасагу «Зорныя войны» і зняў яе першы фільм у 1977 годзе?",
+    "options": [
+      "Стывен Спілберг",
+      "Джордж Лукас",
+      "Джэймс Кэмеран",
+      "Рыдлі Скот"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who created the Star Wars saga and directed its first film in 1977? — George Lucas."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якая змяя — адзіная атрутная ў Беларусі?",
+    "options": [
+      "Вуж",
+      "Мядзянка",
+      "Палоз",
+      "Гадзюка"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is the only venomous snake in Belarus? — The common adder (гадзюка)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Якой жывёлы няма сярод дванаццаці знакаў кітайскага календара?",
+    "options": [
+      "Пеўень",
+      "Кот",
+      "Сабака",
+      "Свіння"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal is not among the twelve signs of the Chinese zodiac? — The cat (Rooster, Dog and Pig are signs)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Цягнік адыходзіць а 23:40 і едзе 50 хвілін. У колькі ён прыбудзе?",
+    "options": [
+      "0:10",
+      "1:30",
+      "0:40",
+      "0:30"
+    ],
+    "correctIndex": 3,
+    "gloss": "A train leaves at 23:40 and travels 50 minutes. When does it arrive? — 0:30, past midnight."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Якая краіна першай двойчы перамагла на дзіцячым «Еўрабачанні»?",
+    "options": [
+      "Расія",
+      "Беларусь",
+      "Грузія",
+      "Польшча"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which country was first to win Junior Eurovision twice? — Belarus (2005 and 2007); Georgia's second win came in 2011."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто напісаў раман «Людзі на балоце» пра жыццё палескай вёскі?",
+    "options": [
+      "Іван Мележ",
+      "Кузьма Чорны",
+      "Іван Шамякін",
+      "Міхась Лынькоў"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel 'People of the Marsh' about life in a Palesse village? — Ivan Melezh."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "1 лістапада выпала на нядзелю. Якім днём тыдня будзе 29 лістапада?",
+    "options": [
+      "Субота",
+      "Панядзелак",
+      "Нядзеля",
+      "Пятніца"
+    ],
+    "correctIndex": 2,
+    "gloss": "1 November is a Sunday. What day is 29 November? — Sunday: 28 days later, exactly four weeks."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Хто напісаў паланэз «Развітанне з Радзімай»?",
+    "options": [
+      "Станіслаў Манюшка",
+      "Міхал Клеафас Агінскі",
+      "Фрыдэрык Шапэн",
+      "Напалеон Орда"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the polonaise 'Farewell to the Homeland'? — Michał Kleofas Ogiński."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што азначае літара «s» у пачатку вэб-адраса «https»?",
+    "options": [
+      "Server",
+      "System",
+      "Site",
+      "Secure"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the 's' in 'https' stand for? — Secure (HTTP Secure)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сталь — гэта сплаў жалеза з якім элементам?",
+    "options": [
+      "З медзю",
+      "З волавам",
+      "З вугляродам",
+      "З алюмініем"
+    ],
+    "correctIndex": 2,
+    "gloss": "Steel is an alloy of iron with which element? — Carbon."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Словы «цэгла», «шыба» і «дах» прыйшлі ў беларускую праз польскую з адной мовы. З якой?",
+    "options": [
+      "З латыні",
+      "З нямецкай",
+      "З венгерскай",
+      "З грэчаскай"
+    ],
+    "correctIndex": 1,
+    "gloss": "The words for brick, windowpane and roof came into Belarusian via Polish from one language. Which? — German: Ziegel, Scheibe, Dach."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ураджэнец Навагрудчыны Ігнат Дамейка — нацыянальны герой якой краіны, дзе яго імем названы горад?",
+    "options": [
+      "Аргенціны",
+      "Перу",
+      "Балівіі",
+      "Чылі"
+    ],
+    "correctIndex": 3,
+    "gloss": "Ignacy Domeyko, born near Navahrudak, is a national hero of which country, where a town bears his name? — Chile."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Хто ў 1990-я гады даказаў Вялікую тэарэму Ферма, якая чакала доказу больш за 350 гадоў?",
+    "options": [
+      "Эндру Уайлз",
+      "Грыгорый Перальман",
+      "Тэрэнс Тао",
+      "Джон Неш"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who proved Fermat's Last Theorem in the 1990s, after more than 350 years? — Andrew Wiles (1994, published 1995)."
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Si són «tres quarts de set», quina hora marca el rellotge?",
+    "options": [
+      "7:15",
+      "7:45",
+      "6:45",
+      "6:15"
+    ],
+    "correctIndex": 2,
+    "gloss": "If it is \"three quarters of seven\", what time is it? — 6:45: Catalan counts toward the coming hour, so \"tres quarts de set\" is 6:45."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Com es diu el signe que s'escriu entre les dues eles de «col·legi»?",
+    "options": [
+      "Punt volat",
+      "Guionet",
+      "Apòstrof",
+      "Dièresi"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the sign written between the two l's of \"col·legi\" called? — The punt volat (interpunct) of the ela geminada l·l."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En «pels camins», la paraula «pels» és la unió de «per» i quin article?",
+    "options": [
+      "les",
+      "el",
+      "la",
+      "els"
+    ],
+    "correctIndex": 3,
+    "gloss": "In \"pels camins\", \"pels\" joins \"per\" and which article? — \"els\": per + els = pels (camins is masculine plural)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin color designa «grana» en el nom «blaugrana», el dels colors del Barça?",
+    "options": [
+      "Un groc intens",
+      "Un vermell fosc",
+      "Un verd fosc",
+      "Un taronja viu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which colour does \"grana\" name in \"blaugrana\"? — A dark red (garnet); blau + grana are the two colours of FC Barcelona."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin dolç no pot faltar a la Castanyada, per Tots Sants?",
+    "options": [
+      "Torrons",
+      "Neules",
+      "Panellets",
+      "Xurros"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which sweet cannot be missing at the Castanyada, for All Saints? — Panellets (almond-paste sweets); torrons and neules are Christmas."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En quina muntanya hi ha el monestir on es venera la Moreneta?",
+    "options": [
+      "Montserrat",
+      "Montseny",
+      "Montjuïc",
+      "Tibidabo"
+    ],
+    "correctIndex": 0,
+    "gloss": "On which mountain is the monastery where the Moreneta is venerated? — Montserrat."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin personatge va ser la mascota dels Jocs Olímpics de Barcelona del 1992?",
+    "options": [
+      "Curro",
+      "Cobi",
+      "Misha",
+      "Izzy"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which character was the mascot of the 1992 Barcelona Olympics? — Cobi, a cubist dog by Mariscal; Curro was Expo 92 Seville, Misha Moscow 1980, Izzy Atlanta 1996."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "A Catalunya, de quin color és el contenidor on es llença el paper i el cartró?",
+    "options": [
+      "Verd",
+      "Groc",
+      "Marró",
+      "Blau"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Catalonia, what colour is the bin for paper and cardboard? — Blue (green glass, yellow packaging, brown organic)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin és el número d'emergències comú a tota la Unió Europea?",
+    "options": [
+      "112",
+      "911",
+      "999",
+      "100"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the emergency number common to the whole EU? — 112 (911 is the US, 999 the UK)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin ocell rosa, de potes llargues, es veu sovint al Delta de l'Ebre?",
+    "options": [
+      "Cigonya",
+      "Gavina",
+      "Flamenc",
+      "Ànec"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which pink, long-legged bird is often seen in the Ebro Delta? — The flamingo (flamenc)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quina d'aquestes paraules es llegeix igual del dret que del revés?",
+    "options": [
+      "Ahir",
+      "Ara",
+      "Avui",
+      "Demà"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these words reads the same forwards and backwards? — \"Ara\" (now) is a palindrome; ahir, avui, demà are not."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quina festa valenciana acaba cada 19 de març amb la «cremà» de grans figures de cartró?",
+    "options": [
+      "La Tomatina",
+      "Les Fogueres",
+      "La Magdalena",
+      "Les Falles"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Valencian festival ends every 19 March with the \"cremà\" of big cardboard figures? — Les Falles (Fogueres are in June in Alicante, La Magdalena is Castelló)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quants grans de raïm es mengen, segons la tradició, a les campanades de Cap d'Any?",
+    "options": [
+      "Deu",
+      "Set",
+      "Dotze",
+      "Vint-i-quatre"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many grapes are eaten at the New Year chimes? — Twelve, one per chime."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Segons l'embarbussament, quants jutges d'un jutjat mengen fetge d'un penjat?",
+    "options": [
+      "Setze",
+      "Dotze",
+      "Vint",
+      "Deu"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the tongue twister, how many judges of a court eat a hanged man's liver? — Setze (16): \"Setze jutges d'un jutjat mengen fetge d'un penjat\"."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "technology",
+    "scope": "global",
+    "text": "Què vol dir que una web et mostri l'error «404»?",
+    "options": [
+      "El servidor està saturat",
+      "La contrasenya és incorrecta",
+      "No tens connexió",
+      "La pàgina no existeix"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does a website's '404' error mean? — Page not found: the server answered, but the page does not exist."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin ingredient fa créixer la massa del pa quan reposa?",
+    "options": [
+      "Sal",
+      "Llevat",
+      "Farina",
+      "Oli"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ingredient makes bread dough rise as it rests? — Yeast (llevat), which gives off gas as it ferments."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "sports",
+    "scope": "local",
+    "text": "Quin equip de futbol juga a l'estadi de Cornellà-El Prat?",
+    "options": [
+      "L'Espanyol",
+      "El Girona",
+      "El Barça",
+      "El Sabadell"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which football club plays at the Cornellà-El Prat stadium? — RCD Espanyol (since 2009)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "filmTv",
+    "scope": "local",
+    "text": "Com es diu el canal infantil i juvenil de la televisió pública catalana?",
+    "options": [
+      "Clan",
+      "Boing",
+      "SX3",
+      "Disney Channel"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the children's and youth channel of Catalan public television called? — SX3 (formerly Super3). Clan is RTVE's, Boing and Disney Channel are private."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quina radiació del Sol és la que ens crema la pell a la platja?",
+    "options": [
+      "Infraroja",
+      "Ultraviolada",
+      "Gamma",
+      "Microones"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which radiation from the Sun burns our skin at the beach? — Ultraviolet."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "mythology",
+    "scope": "global",
+    "text": "Quin personatge grec va volar massa a prop del sol amb ales enganxades amb cera i va caure?",
+    "options": [
+      "Perseu",
+      "Hermes",
+      "Aquil·les",
+      "Ícar"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Greek figure flew too close to the sun on wings stuck with wax, and fell? — Icarus (Ícar)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "geography",
+    "scope": "local",
+    "text": "Quin riu travessa Girona, amb les cases de colors penjades sobre l'aigua?",
+    "options": [
+      "L'Onyar",
+      "El Llobregat",
+      "El Segre",
+      "La Tordera"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which river runs through Girona, with the coloured houses hanging over the water? — The Onyar (it joins the Ter in the city)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Un hexàgon té tants costats com cares té un…",
+    "options": [
+      "Tetràedre",
+      "Octàedre",
+      "Cub",
+      "Dodecàedre"
+    ],
+    "correctIndex": 2,
+    "gloss": "A hexagon has as many sides as a … has faces — A cube: 6 sides, 6 faces (tetrahedron 4, octahedron 8, dodecahedron 12)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "science",
+    "scope": "global",
+    "text": "Per què el menjar es cou més de pressa en una olla a pressió?",
+    "options": [
+      "L'olla és més gruixuda",
+      "L'aigua bull a més temperatura",
+      "La tapa reflecteix la calor",
+      "El vapor no surt mai"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does food cook faster in a pressure cooker? — Under pressure water boils at a higher temperature (about 120 °C)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "literature",
+    "scope": "local",
+    "text": "Qui va escriure «Mecanoscrit del segon origen», lectura de tantes generacions d'escolars?",
+    "options": [
+      "Mercè Rodoreda",
+      "Quim Monzó",
+      "Joan Sales",
+      "Manuel de Pedrolo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote 'Mecanoscrit del segon origen', read by generations of pupils? — Manuel de Pedrolo (1974)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "art",
+    "scope": "global",
+    "text": "Per quin tipus d'art és famós l'anònim Banksy?",
+    "options": [
+      "Escultura de marbre",
+      "Fotografia de moda",
+      "Art urbà i grafits",
+      "Pintura a l'oli"
+    ],
+    "correctIndex": 2,
+    "gloss": "What kind of art is the anonymous Banksy famous for? — Street art and graffiti, often stencilled."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin robot de cinema d'animació passa els dies compactant escombraries en una Terra abandonada?",
+    "options": [
+      "WALL·E",
+      "R2-D2",
+      "Baymax",
+      "Bumblebee"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which animated-film robot spends his days compacting rubbish on an abandoned Earth? — WALL·E."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quantes tecles, entre blanques i negres, té un piano estàndard?",
+    "options": [
+      "76",
+      "88",
+      "92",
+      "100"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many keys, white and black, does a standard piano have? — 88."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "category": "history",
+    "scope": "global",
+    "text": "En quin any va caure el mur de Berlín?",
+    "options": [
+      "1961",
+      "1975",
+      "2001",
+      "1989"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year did the Berlin Wall fall? — 1989 (9 November); it went up in 1961."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin sobrenom té Jaume I, el rei que va dictar el «Llibre dels fets»?",
+    "options": [
+      "El Conqueridor",
+      "El Cerimoniós",
+      "El Magnànim",
+      "El Catòlic"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which nickname has James I, the king who dictated the \"Llibre dels fets\"? — El Conqueridor; Cerimoniós is Peter III, Magnànim Alfonso V, Catòlic Ferdinand II."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quina casa de Gaudí, al passeig de Gràcia, és coneguda com la «casa dels ossos»?",
+    "options": [
+      "Casa Milà",
+      "Casa Vicens",
+      "Casa Batlló",
+      "Casa Calvet"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Gaudí house on the passeig de Gràcia is known as the \"house of bones\"? — Casa Batlló (Casa Milà is La Pedrera)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin poeta, conegut com a «Mossèn Cinto», va escriure «L'Atlàntida» i «Canigó»?",
+    "options": [
+      "Joan Maragall",
+      "Jacint Verdaguer",
+      "Josep Carner",
+      "Miquel Costa i Llobera"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which poet, known as \"Mossèn Cinto\", wrote \"L'Atlàntida\" and \"Canigó\"? — Jacint Verdaguer."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quina cantant catalana va publicar el 2022 l'àlbum «Motomami»?",
+    "options": [
+      "Shakira",
+      "Lola Índigo",
+      "Zahara",
+      "Rosalía"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Catalan singer released the album \"Motomami\" in 2022? — Rosalía."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Si treus l'accent a l'adverbi «bé», obtens el nom d'un animal de granja. Quin?",
+    "options": [
+      "Bou",
+      "Cabra",
+      "Be",
+      "Porc"
+    ],
+    "correctIndex": 2,
+    "gloss": "Remove the accent from the adverb \"bé\" and you get a farm animal. Which? — \"Be\", a sheep/ram."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin canal egipci uneix el Mediterrani amb la mar Roja i estalvia la volta per Àfrica?",
+    "options": [
+      "Suez",
+      "Panamà",
+      "Corint",
+      "Kiel"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Egyptian canal joins the Mediterranean to the Red Sea, saving the trip around Africa? — Suez."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin òrgan del cos produeix la insulina?",
+    "options": [
+      "Fetge",
+      "Pàncrees",
+      "Ronyó",
+      "Estómac"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which organ makes insulin? — The pancreas."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin component de l'ordinador conserva els fitxers encara que l'apaguem?",
+    "options": [
+      "Memòria RAM",
+      "Processador",
+      "Disc dur o SSD",
+      "Targeta gràfica"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which computer part keeps files when it is switched off? — The hard disk or SSD; RAM is emptied."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Què és, en realitat, un cavallet de mar?",
+    "options": [
+      "Un mol·lusc",
+      "Un crustaci",
+      "Un rèptil",
+      "Un peix"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is a seahorse really? — A fish."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quants quilòmetres fa una marató?",
+    "options": [
+      "42,195",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many kilometres is a marathon? — 42.195."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quina espècia, tan cara perquè es recull a mà, s'obté dels estigmes d'una flor?",
+    "options": [
+      "Pebre",
+      "Safrà",
+      "Comí",
+      "Canyella"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which spice, so dear because it is picked by hand, comes from the stigmas of a flower? — Saffron."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin estudi va estrenar el 1995 «Toy Story», el primer llargmetratge d'animació per ordinador?",
+    "options": [
+      "DreamWorks",
+      "Studio Ghibli",
+      "Pixar",
+      "Illumination"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which studio released \"Toy Story\" in 1995, the first computer-animated feature? — Pixar."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin déu egipci amb cap de xacal acompanyava els morts?",
+    "options": [
+      "Ra",
+      "Horus",
+      "Osiris",
+      "Anubis"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Egyptian god with a jackal head guided the dead? — Anubis."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin navegant portuguès va arribar per mar a l'Índia el 1498?",
+    "options": [
+      "Vasco da Gama",
+      "Bartolomeu Dias",
+      "Pedro Álvares Cabral",
+      "Enric el Navegant"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Portuguese navigator reached India by sea in 1498? — Vasco da Gama (Dias rounded the Cape, Cabral reached Brazil)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin inventor de Figueres va construir l'«Ictíneo», un dels primers submarins?",
+    "options": [
+      "Isaac Peral",
+      "Narcís Monturiol",
+      "Ildefons Cerdà",
+      "Josep Trueta"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which inventor from Figueres built the \"Ictíneo\", one of the first submarines? — Narcís Monturiol (Peral was from Cartagena)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin ocell dels Pirineus s'alimenta d'ossos i els deixa caure des de l'aire per trencar-los?",
+    "options": [
+      "Voltor comú",
+      "Àguila daurada",
+      "Duc",
+      "Trencalòs"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Pyrenean bird eats bones and drops them from the air to break them? — The bearded vulture (trencalòs)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En quin país és Tombuctú, l'antiga ciutat caravanera al límit del Sàhara?",
+    "options": [
+      "Níger",
+      "Mauritània",
+      "Mali",
+      "Sudan"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which country is Timbuktu, the old caravan city at the edge of the Sahara? — Mali."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin emperador xinès va ser enterrat envoltat d'un exèrcit de soldats de terracota?",
+    "options": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Wu Zetian",
+      "Puyi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Chinese emperor was buried surrounded by an army of terracotta soldiers? — Qin Shi Huang."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Si barregem llum vermella i llum verda, quin color en resulta?",
+    "options": [
+      "Marró",
+      "Groc",
+      "Taronja",
+      "Blanc"
+    ],
+    "correctIndex": 1,
+    "gloss": "Mix red light and green light: what colour results? — Yellow (additive mixing, unlike paint, which gives brown)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quin escriptor de Palafrugell va escriure «El quadern gris», diari de joventut?",
+    "options": [
+      "Joan Fuster",
+      "Pere Calders",
+      "Josep Pla",
+      "Josep Carner"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which writer from Palafrugell wrote \"El quadern gris\", a diary of his youth? — Josep Pla."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin país té més fusos horaris del món, comptant-hi els territoris d'ultramar?",
+    "options": [
+      "França",
+      "Rússia",
+      "Estats Units",
+      "Regne Unit"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country has the most time zones, counting overseas territories? — France (12, or 13 with Antarctica); Russia has 11."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quin arquitecte va guanyar el concurs per dissenyar l'Òpera de Sydney?",
+    "options": [
+      "Alvar Aalto",
+      "Eero Saarinen",
+      "Oscar Niemeyer",
+      "Jørn Utzon"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect won the competition to design the Sydney Opera House? — Jørn Utzon."
+  }
+]

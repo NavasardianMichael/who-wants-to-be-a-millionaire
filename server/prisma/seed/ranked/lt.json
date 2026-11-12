@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Uždėkite varnelę ant pirmosios žodžio „sakė“ raidės. Ką gausite?",
+    "options": [
+      "Medžio dalį",
+      "Ūkio padargą",
+      "Paukštį",
+      "Drabužį"
+    ],
+    "correctIndex": 1,
+    "gloss": "Put a háček on the first letter of «sakė» (said). What do you get? — A farm tool: «šakė» is a pitchfork; «šaka» (branch) is the trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kiek žmonių slepiasi už lietuviško įvardžio „mudu“?",
+    "options": [
+      "Vienas",
+      "Du",
+      "Trys",
+      "Keturi"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many people hide behind the pronoun «mudu»? — Two: «mudu» is the dual \"we two\", still alive in Lithuanian."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Perskaitykite žodį „sula“ iš kito galo — gausite kitą gėrimą. Kokį?",
+    "options": [
+      "Midų",
+      "Girą",
+      "Kefyrą",
+      "Alų"
+    ],
+    "correctIndex": 3,
+    "gloss": "Read «sula» (birch sap) backwards and you get another drink. Which? — Beer: «sula» reversed is «alus»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Pono pavardė — Kazlauskas. Kokia pagal tradiciją būtų jo netekėjusios dukters pavardė?",
+    "options": [
+      "Kazlauskienė",
+      "Kazlauskytė",
+      "Kazlauskaitė",
+      "Kazlauskutė"
+    ],
+    "correctIndex": 2,
+    "gloss": "Mr Kazlauskas: what would his unmarried daughter's surname traditionally be? — Kazlauskaitė: surnames in -as take -aitė for daughters; -ienė is the wife's form, -ytė goes with -is/-ys, -utė with -us."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Užbaikite patarlę: „Ne vieta žmogų puošia, o…“",
+    "options": [
+      "darbas žmogų",
+      "žmogus vietą",
+      "protas galvą",
+      "žodis darbą"
+    ],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: \"It is not the place that adorns the person, but…\" — \"…the person the place\"."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurio šventojo vardu vadinama didžioji kovo pradžios mugė, sukviečianti amatininkus į Vilnių?",
+    "options": [
+      "Jurgio",
+      "Antano",
+      "Jono",
+      "Kaziuko"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which saint names the big early-March fair that brings craftspeople to Vilnius? — St Casimir: Kaziuko mugė, held around his feast on 4 March."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kas suteikia šaltibarščiams ryškiai rožinę spalvą?",
+    "options": [
+      "Ridikėliai",
+      "Spanguolės",
+      "Burokėliai",
+      "Pomidorai"
+    ],
+    "correctIndex": 2,
+    "gloss": "What makes cold beetroot soup (šaltibarščiai) bright pink? — Beetroot, mixed into kefir."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuriuo numeriu visoje Europos Sąjungoje skambinama pagalbos tarnyboms?",
+    "options": [
+      "112",
+      "911",
+      "999",
+      "101"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which number reaches the emergency services anywhere in the EU? — 112, the single European emergency number (911 is North American, 999 British)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuris iš šių lietuvių liaudies muzikos instrumentų yra styginis?",
+    "options": [
+      "Skudučiai",
+      "Daudytė",
+      "Kanklės",
+      "Birbynė"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these Lithuanian folk instruments is a string instrument? — The kanklės (a zither); skudučiai are pan pipes, the daudytė a wooden trumpet, the birbynė a reed pipe."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kas sukūrė ir žodžius, ir muziką Lietuvos himnui — „Tautiškai giesmei“?",
+    "options": [
+      "Maironis",
+      "Jonas Basanavičius",
+      "Vydūnas",
+      "Vincas Kudirka"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote both the words and the music of the Lithuanian anthem, «Tautiška giesmė»? — Vincas Kudirka (1898)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuri lietuvių pasakos herojė ištekėjo už žalčių karaliaus Žilvino?",
+    "options": [
+      "Eglė",
+      "Jūratė",
+      "Neringa",
+      "Milda"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Lithuanian folk-tale heroine married Žilvinas, king of the grass snakes? — Eglė, «Eglė žalčių karalienė»."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuris paukštis, sukantis lizdus ant sodybų stogų ir stulpų, paskelbtas Lietuvos nacionaliniu paukščiu?",
+    "options": [
+      "Gervė",
+      "Baltasis gandras",
+      "Pilkasis garnys",
+      "Kregždė"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which bird, nesting on farmhouse roofs and poles, is Lithuania's national bird? — The white stork (declared in 1973)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Grybaujant miške, kurį iš šių grybų reikia aplenkti, nes jis mirtinai nuodingas?",
+    "options": [
+      "Raudonviršį",
+      "Voveraitę",
+      "Baravyką",
+      "Žalsvąją musmirę"
+    ],
+    "correctIndex": 3,
+    "gloss": "Mushroom picking: which of these must you leave, as it is deadly poisonous? — The death cap (žalsvoji musmirė); the others are prized edible mushrooms."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Su kuria iš šių šalių Lietuva neturi bendros sienos?",
+    "options": [
+      "Latvija",
+      "Lenkija",
+      "Estija",
+      "Baltarusija"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these countries does Lithuania not border? — Estonia: Latvia lies between them."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuo Lietuvoje buvo atsiskaitoma prieš įvedant eurą?",
+    "options": [
+      "Litais",
+      "Talonais",
+      "Rubliais",
+      "Latais"
+    ],
+    "correctIndex": 0,
+    "gloss": "What did Lithuanians pay with before the euro? — Litas (1993–2014); talonai were the interim coupons of 1992–93, the lats was Latvia's."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ką reiškia raidės PVM, matomos kiekviename parduotuvės čekyje?",
+    "options": [
+      "Pajamų ir valstybės mokestis",
+      "Prekių vežimo mokestis",
+      "Pridėtinės vertės mokestis",
+      "Pirkimo vertės mažinimas"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do the letters PVM on every shop receipt stand for? — Value added tax (pridėtinės vertės mokestis)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "„Windows“ kompiuteryje netyčia ištrynėte sakinį. Kuris klavišų derinys jį sugrąžins?",
+    "options": [
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+S",
+      "Ctrl+Z"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a Windows computer you deleted a sentence by mistake. Which shortcut brings it back? — Ctrl+Z, undo."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kodėl žiemą apledėję keliai barstomi druska?",
+    "options": [
+      "Ji šildo asfaltą",
+      "Ji žemina užšalimo temperatūrą",
+      "Ji sugeria drėgmę",
+      "Ji šiurkština ledą"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why are icy roads salted in winter? — Salt lowers the freezing point, so the ice melts below 0 °C."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ką drabužio etiketėje reiškia perbrauktas lygintuvas?",
+    "options": [
+      "Lyginti tik garais",
+      "Nelyginti",
+      "Lyginti per drėgną audinį",
+      "Lyginti tik išvirkščiai"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a crossed-out iron on a clothing label mean? — Do not iron."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iš kokių ankštinių gaminamas humusas?",
+    "options": [
+      "Lęšių",
+      "Pupelių",
+      "Žirnių",
+      "Avinžirnių"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which pulse is hummus made from? — Chickpeas (avinžirniai)."
+  },
+  {
+    "level": 1,
+    "kind": "fact",
+    "scope": "global",
+    "category": "geography",
+    "text": "Kuriame mieste stovi Gaudí bažnyčia Sagrada Família, statoma nuo 1882 metų?",
+    "options": [
+      "Madride",
+      "Lisabonoje",
+      "Romoje",
+      "Barselonoje"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which city stands Gaudí's Sagrada Família, under construction since 1882? — Barcelona."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kokios rūšies žuvis yra Nemo — „Pixar“ animacinio filmo herojus?",
+    "options": [
+      "Klounžuvė",
+      "Chirurginė žuvis",
+      "Jūrų arkliukas",
+      "Auksinė žuvelė"
+    ],
+    "correctIndex": 0,
+    "gloss": "What kind of fish is Nemo, the Pixar hero? — A clownfish; his friend Dory is a blue tang (a surgeonfish)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurioje žiemos sporto šakoje ledu stumiamas sunkus akmuo, o priešais jį ledas trinamas šepečiais?",
+    "options": [
+      "Bobslėjuje",
+      "Akmenslydyje",
+      "Biatlone",
+      "Ledo ritulyje"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which winter sport is a heavy stone slid along the ice while players sweep in front of it? — Curling (akmenslydis)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurios programėlės logotipas — baltas vaiduokliukas geltoname fone?",
+    "options": [
+      "Snapchat",
+      "Instagram",
+      "TikTok",
+      "Telegram"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which app's logo is a little white ghost on a yellow background? — Snapchat."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaip lietuviškai vadinami nepageidaujami masiniai reklaminiai el. laiškai?",
+    "options": [
+      "Slapukai",
+      "Juodraščiai",
+      "Šlamštas",
+      "Kenkėjai"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Lithuanian word for unwanted mass advertising e-mail? — «Šlamštas» (spam); «slapukai» are cookies."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuriame žaidime pasaulis statomas iš kubelių, o naktį pasirodo zombiai ir sprogstantys kriperiai?",
+    "options": [
+      "Fortnite",
+      "Minecraft",
+      "Roblox",
+      "Tetris"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which game is the world built of cubes, with zombies and exploding creepers at night? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurio augalo jaunus lapus verdame sriubai, nors palietę juos nusidegame?",
+    "options": [
+      "Kiaulpienės",
+      "Gysločio",
+      "Dilgėlės",
+      "Rūgštynės"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which plant's young leaves go into soup, though touching them stings? — The nettle."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaip vadinama sienų tapyba ant dar šlapio tinko?",
+    "options": [
+      "Mozaika",
+      "Vitražas",
+      "Grafitis",
+      "Freska"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is wall painting on still-wet plaster called? — Fresco."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurį Lietuvos valdovą istorija vadina Didžiuoju?",
+    "options": [
+      "Algirdą",
+      "Kęstutį",
+      "Vytautą",
+      "Mindaugą"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Lithuanian ruler does history call \"the Great\"? — Vytautas (Vytautas Didysis)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurios sporto aprangos bendrovės ženklas — trys lygiagrečios juostelės?",
+    "options": [
+      "Puma",
+      "Nike",
+      "Reebok",
+      "Adidas"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sportswear company's mark is three parallel stripes? — Adidas."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurioje sporto šakoje kovojama dėl Stenlio taurės?",
+    "options": [
+      "Beisbole",
+      "Ledo ritulyje",
+      "Golfe",
+      "Amerikietiškame futbole"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which sport is the Stanley Cup contested? — Ice hockey (NHL)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaip vadinti žmonės, spaudos draudimo metais slapta gabenę lietuviškas knygas iš Prūsijos?",
+    "options": [
+      "Daraktoriai",
+      "Šauliai",
+      "Varpininkai",
+      "Knygnešiai"
+    ],
+    "correctIndex": 3,
+    "gloss": "What were the people called who smuggled Lithuanian books from Prussia during the press ban? — Knygnešiai (book smugglers); daraktoriai were the secret village teachers."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Žaibas blykstelėjo, o griaustinis nugriaudėjo po 3 sekundžių. Kiek toli audra, jei garsas per sekundę nueina 340 m?",
+    "options": [
+      "Apie 100 m",
+      "Apie 1 km",
+      "Apie 3 km",
+      "Apie 10 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lightning, then thunder 3 seconds later; sound travels 340 m a second. How far is the storm? — About 1 km: 3 × 340 = 1,020 m."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Šiandien pirmadienis. Kokia savaitės diena bus užporyt?",
+    "options": [
+      "Antradienis",
+      "Trečiadienis",
+      "Ketvirtadienis",
+      "Penktadienis"
+    ],
+    "correctIndex": 2,
+    "gloss": "Today is Monday. What day is «užporyt»? — Thursday: rytoj is tomorrow (Tue), poryt the day after (Wed), užporyt the day after that."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ant virvės džiūsta „ketveri marškiniai“. Kiek tai marškinių?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Ketveri marškiniai\" are drying on the line. How many shirts? — Four: «marškiniai» has no singular, so it counts with the collective numeral «ketveri»."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuris prieskonis kario mišiniui suteikia ryškiai geltoną spalvą?",
+    "options": [
+      "Ciberžolė",
+      "Imbieras",
+      "Paprika",
+      "Kmynai"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which spice gives curry powder its bright yellow colour? — Turmeric (ciberžolė)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurios grupės kraują skubiai prireikus galima perpilti beveik bet kuriam žmogui?",
+    "options": [
+      "AB Rh+",
+      "A Rh+",
+      "0 Rh−",
+      "B Rh−"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which blood group can be given to almost anyone in an emergency? — O negative, the universal donor; AB+ is the universal recipient."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Laiškas išsiųstas su „nematoma kopija“ (BCC). Ko nemato kiti gavėjai?",
+    "options": [
+      "BCC gavėjo adreso",
+      "Laiško temos",
+      "Laiško priedų",
+      "Siuntėjo adreso"
+    ],
+    "correctIndex": 0,
+    "gloss": "An e-mail is sent with a blind copy (BCC). What do the other recipients not see? — The BCC recipient's address."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kas parašė eilėraščių rinkinį „Pavasario balsai“?",
+    "options": [
+      "Salomėja Nėris",
+      "Justinas Marcinkevičius",
+      "Maironis",
+      "Vytautas Mačernis"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the poetry collection «Pavasario balsai» (Voices of Spring, 1895)? — Maironis."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kokį dalyką mokykloje dėstė Walteris White'as, kol tapo serialo „Breaking Bad“ antiherojumi?",
+    "options": [
+      "Fiziką",
+      "Chemiją",
+      "Biologiją",
+      "Matematiką"
+    ],
+    "correctIndex": 1,
+    "gloss": "What did Walter White teach at school before becoming the antihero of «Breaking Bad»? — Chemistry."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuri baltų deivė lemia žmogaus likimą jam gimstant?",
+    "options": [
+      "Gabija",
+      "Žemyna",
+      "Austėja",
+      "Laima"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Baltic goddess sets a person's fate at birth? — Laima; Gabija guards the hearth fire, Žemyna is the earth, Austėja the bees."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuris spygliuotis rudenį numeta spyglius tarsi lapuotis?",
+    "options": [
+      "Maumedis",
+      "Pušis",
+      "Kėnis",
+      "Kadagys"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which conifer sheds its needles in autumn like a broadleaf tree? — The larch (maumedis)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kuri iš šių sostinių yra arčiausiai Vilniaus?",
+    "options": [
+      "Ryga",
+      "Varšuva",
+      "Minskas",
+      "Talinas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these capitals is closest to Vilnius? — Minsk, about 170 km away; Riga is about 260 km, Warsaw about 390 km, Tallinn over 500 km."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ką reiškia raidė „s“ interneto adreso pradžioje „https“?",
+    "options": [
+      "Server",
+      "Site",
+      "Standard",
+      "Secure"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the \"s\" in \"https\" stand for? — Secure: HTTP over an encrypted connection."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kas 2006 m. „Eurovizijoje“ atstovavo Lietuvai su daina „We Are the Winners“?",
+    "options": [
+      "LT United",
+      "Skamp",
+      "InCulto",
+      "Sasha Song"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who represented Lithuania at Eurovision 2006 with «We Are the Winners»? — LT United (6th place); Skamp sang in 2001, Sasha Song in 2009, InCulto in 2010."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iš kokio gyvūno pieno gaminama tikroji mocarela „di bufala“?",
+    "options": [
+      "Ožkos",
+      "Buivolės",
+      "Avies",
+      "Karvės"
+    ],
+    "correctIndex": 1,
+    "gloss": "From which animal's milk is genuine mozzarella di bufala made? — The water buffalo's."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Angliškas „billion“ — tai tūkstantis milijonų. Kaip šis skaičius vadinamas lietuviškai?",
+    "options": [
+      "Bilijonas",
+      "Milijardas",
+      "Trilijonas",
+      "Kvadrilijonas"
+    ],
+    "correctIndex": 1,
+    "gloss": "English \"billion\" is a thousand million. What is that number in Lithuanian? — Milijardas; Lithuanian «bilijonas» is a million million, the classic mistranslation."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuris architektas suteikė Vilniaus arkikatedrai dabartinę klasicistinę išvaizdą?",
+    "options": [
+      "Jonas Kristupas Glaubicas",
+      "Pranciškus Smuglevičius",
+      "Karolis Podčašinskis",
+      "Laurynas Gucevičius"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect gave Vilnius Cathedral its present classicist look? — Laurynas Gucevičius (rebuilt 1783–1801); Glaubicas was a baroque architect, Smuglevičius a painter, Podčašinskis a later classicist."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Žalvaris — tai vario ir kurio metalo lydinys?",
+    "options": [
+      "Alavo",
+      "Cinko",
+      "Nikelio",
+      "Švino"
+    ],
+    "correctIndex": 1,
+    "gloss": "Brass is an alloy of copper and which metal? — Zinc; copper with tin makes bronze."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuris Kaune gimęs menininkas Niujorke subūrė avangardinį „Fluxus“ judėjimą?",
+    "options": [
+      "Jonas Mekas",
+      "Vytautas Kasiulis",
+      "Jurgis Mačiūnas",
+      "Žakas Lipšicas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Kaunas-born artist founded the avant-garde Fluxus movement in New York? — George Maciunas (Jurgis Mačiūnas, 1931–1978); Jonas Mekas was his friend and a filmmaker, Lipchitz a sculptor born in Druskininkai."
+  }
+]
