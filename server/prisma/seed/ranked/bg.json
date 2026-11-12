@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кои са цветовете на традиционната мартеница?",
+    "options": [
+      "Бяло и синьо",
+      "Бяло и червено",
+      "Зелено и жълто",
+      "Червено и черно"
+    ],
+    "correctIndex": 1,
+    "gloss": "What are the colours of the traditional martenitsa? — White and red."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Днес е 12-о число. Кое число беше завчера?",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "14"
+    ],
+    "correctIndex": 0,
+    "gloss": "Today is the 12th. Which date was \"zavchera\"? — The 10th: zavchera is the day before yesterday."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кое време е „девет без десет“?",
+    "options": [
+      "8:50",
+      "9:10",
+      "8:10",
+      "9:50"
+    ],
+    "correctIndex": 0,
+    "gloss": "What time is \"nine minus ten\"? — 8:50: Bulgarian says \"без\" (minus) the minutes before the hour."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Хляб купуваме от хлебарница, а риба — от …",
+    "options": [
+      "рибник",
+      "рибар",
+      "рибарство",
+      "рибарница"
+    ],
+    "correctIndex": 3,
+    "gloss": "We buy bread at a \"hlebarnitsa\", and fish at a ... — \"ribarnitsa\": the same -арница pattern makes a shop; a \"ribnik\" is a fish pond."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как разговорно наричаме знака @ в имейл адреса?",
+    "options": [
+      "Лястовичка",
+      "Мравчица",
+      "Маймунка",
+      "Врабче"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do we colloquially call the @ sign? — \"Maimunka\" (little monkey)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какво означава буквата „s“ в „https“?",
+    "options": [
+      "Бърза връзка",
+      "Защитена връзка",
+      "Споделена връзка",
+      "Платена връзка"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the \"s\" in \"https\" mean? — Secure connection."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "За какво служи системата VAR във футбола?",
+    "options": [
+      "Измерва скоростта на топката",
+      "Брои фаловете в мача",
+      "Видеопроверка на спорни решения",
+      "Следи играчите за допинг"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the VAR system used for in football? — Video review of disputed referee decisions."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя бобова култура е основата на хумуса?",
+    "options": [
+      "Леща",
+      "Боб",
+      "Нахут",
+      "Грах"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which legume is the base of hummus? — Chickpea."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя птица подхвърля яйцата си в чужди гнезда?",
+    "options": [
+      "Лястовицата",
+      "Кукувицата",
+      "Синигерът",
+      "Славеят"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой хан основава българската държава през 681 г.?",
+    "options": [
+      "Крум",
+      "Аспарух",
+      "Тервел",
+      "Омуртаг"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which khan founded the Bulgarian state in 681? — Asparuh."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кого наричат „патриарх на българската литература“?",
+    "options": [
+      "Пенчо Славейков",
+      "Йордан Йовков",
+      "Елин Пелин",
+      "Иван Вазов"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who is called the patriarch of Bulgarian literature? — Ivan Vazov."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Как се записва с цифри числото „милион и половина“?",
+    "options": [
+      "1 500 000",
+      "1 000 500",
+      "1 050 000",
+      "1 500"
+    ],
+    "correctIndex": 0,
+    "gloss": "How do you write \"a million and a half\" in digits? — 1,500,000: the number words say 1,000,000 plus half of it."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя стрийминг платформа започва филмите и сериалите си със звука „та-дум“?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "Apple TV+",
+      "Prime Video"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which streaming platform opens its titles with the \"ta-dum\" sound? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "В коя видеоигра играчите изграждат светове от кубични блокове?",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Pac-Man",
+      "Among Us"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which video game do players build worlds from cubic blocks? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя от тези европейски страни няма излаз на море?",
+    "options": [
+      "Дания",
+      "Испания",
+      "Белгия",
+      "Швейцария"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these European countries has no sea coast? — Switzerland."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Айрянът е кисело мляко, разредено с вода и подправено със …",
+    "options": [
+      "сол",
+      "захар",
+      "мед",
+      "канела"
+    ],
+    "correctIndex": 0,
+    "gloss": "Ayran is yoghurt thinned with water and seasoned with... — Salt."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как се наричат красивите горски девойки от фолклора ни, които танцуват хоро в лунни нощи?",
+    "options": [
+      "Таласъми",
+      "Ламии",
+      "Караконджули",
+      "Самодиви"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the beautiful forest maidens of our folklore who dance a horo on moonlit nights? — Samodivi."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Колко е 5 + 5 × 5?",
+    "options": [
+      "50",
+      "25",
+      "55",
+      "30"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is 5 + 5 × 5? — 30: multiplication first (25), then add 5; 50 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как се нарича японското изкуство да се сгъват фигури от хартия?",
+    "options": [
+      "Икебана",
+      "Бонсай",
+      "Калиграфия",
+      "Оригами"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the Japanese art of folding paper figures called? — Origami."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как най-безопасно се гаси пламнала мазнина в тиган?",
+    "options": [
+      "Покриваме с похлупак",
+      "Заливаме с вода",
+      "Духаме силно",
+      "Разбъркваме с лъжица"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is burning grease in a pan safely put out? — Cover it with a lid: no oxygen, no fire (water would make it splatter and spread)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Как се нарича документът, с който се качваме на самолет?",
+    "options": [
+      "Бордна карта",
+      "Транзитна виза",
+      "Багажна бележка",
+      "Застрахователна полица"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the document you board a plane with called? — A boarding pass (bordna karta)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какво се зарязва на Трифон Зарезан?",
+    "options": [
+      "Розите",
+      "Лозите",
+      "Овошките",
+      "Живите плетове"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is pruned on Trifon Zarezan? — The vines."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой от тези народни инструменти има мех?",
+    "options": [
+      "Кавал",
+      "Гъдулка",
+      "Гайда",
+      "Тъпан"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these folk instruments has a bag? — The gaida (bagpipe)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кого наричат „Апостола на свободата“?",
+    "options": [
+      "Васил Левски",
+      "Христо Ботев",
+      "Георги Раковски",
+      "Любен Каравелов"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who is called the Apostle of Freedom? — Vasil Levski."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя река очертава по-голямата част от северната граница на България?",
+    "options": [
+      "Марица",
+      "Струма",
+      "Тунджа",
+      "Дунав"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which river forms most of Bulgaria's northern border? — The Danube."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какъв цвят е фланелката на лидера в „Обиколката на Франция“?",
+    "options": [
+      "Розова",
+      "Жълта",
+      "Червена",
+      "Зелена"
+    ],
+    "correctIndex": 1,
+    "gloss": "What colour is the leader's jersey in the Tour de France? — Yellow (pink is the Giro, red the Vuelta)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя спортна марка има слоган „Just do it“?",
+    "options": [
+      "Adidas",
+      "Puma",
+      "Reebok",
+      "Nike"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which sportswear brand has the slogan \"Just do it\"? — Nike."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя телесна температура се смята за нормална при здрав възрастен?",
+    "options": [
+      "38,6 °C",
+      "36,6 °C",
+      "34,6 °C",
+      "32,6 °C"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which body temperature is considered normal for a healthy adult? — 36.6 °C."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Думата „азбука“ е образувана от имената на първите две букви на кирилицата — „аз“ и …",
+    "options": [
+      "Веди",
+      "Глагол",
+      "Буки",
+      "Добро"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"Azbuka\" is built from the names of the first two Cyrillic letters, \"az\" and ... — \"Buki\"."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Коя от тези букви има в руската азбука, но няма в българската?",
+    "options": [
+      "Ы",
+      "Щ",
+      "Ъ",
+      "Ю"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these letters exists in the Russian alphabet but not in Bulgarian? — Ы."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой празник, посветен на акушерките и родилките, честваме на 8 януари?",
+    "options": [
+      "Йордановден",
+      "Бабинден",
+      "Сирни заговезни",
+      "Бъдни вечер"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which holiday for midwives and women in childbirth do we keep on 8 January? — Babinden."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой роден в Габрово художник опакова с плат Райхстага в Берлин през 1995 г.?",
+    "options": [
+      "Златю Бояджиев",
+      "Кристо",
+      "Владимир Димитров – Майстора",
+      "Борис Георгиев"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Gabrovo-born artist wrapped the Reichstag in fabric in 1995? — Christo."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Колко играчи от един отбор са едновременно на терена във волейбола?",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many players per team are on court in volleyball? — 6."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя технология позволява да платиш, като допреш телефона до терминала?",
+    "options": [
+      "NFC",
+      "GPS",
+      "HDMI",
+      "USB"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which technology lets you pay by tapping your phone on the terminal? — NFC."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "На кой остров е вулканът Етна?",
+    "options": [
+      "Сардиния",
+      "Сицилия",
+      "Крит",
+      "Малта"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which island is Mount Etna? — Sicily."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какво основно прави VPN връзката?",
+    "options": [
+      "Ускорява интернета",
+      "Шифрира връзката ти",
+      "Чисти вирусите",
+      "Пести батерията"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does a VPN mainly do? — Encrypts your connection."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Традиционната боза е гъста напитка, ферментирала от …",
+    "options": [
+      "ориз",
+      "картофи",
+      "просо",
+      "грозде"
+    ],
+    "correctIndex": 2,
+    "gloss": "Traditional boza is a thick drink fermented from... — Millet."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя шведска писателка е създала Пипи Дългото чорапче?",
+    "options": [
+      "Туве Янсон",
+      "Астрид Линдгрен",
+      "Селма Лагерльоф",
+      "Ена Блайтън"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Swedish writer created Pippi Longstocking? — Astrid Lindgren (Jansson is Finnish, Blyton British)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Коя певица е известна със световното турне „Eras Tour“?",
+    "options": [
+      "Бионсе",
+      "Адел",
+      "Били Айлиш",
+      "Тейлър Суифт"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which singer is known for the world tour \"Eras Tour\"? — Taylor Swift."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Тениска струва 80 евро, а на разпродажбата е с 25 % по-евтина. Колко струва сега?",
+    "options": [
+      "60 евро",
+      "55 евро",
+      "65 евро",
+      "75 евро"
+    ],
+    "correctIndex": 0,
+    "gloss": "A T-shirt costs 80 euros and is 25% off. Price now? — 60 euros (25% of 80 is 20)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой цвят е най-високата степен на опасност в предупрежденията за времето?",
+    "options": [
+      "Червен",
+      "Жълт",
+      "Оранжев",
+      "Зелен"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which colour is the highest danger level in weather warnings? — Red."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Вчера видях … в двора на училището.",
+    "options": [
+      "учителят",
+      "учителе",
+      "учителът",
+      "учителя"
+    ],
+    "correctIndex": 3,
+    "gloss": "Yesterday I saw ... in the schoolyard. — \"Uchitelya\": the short article marks the object; the full \"-ят\" is only for the subject."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кой български лекар открива през 1905 г. бактерията, която прави киселото мляко кисело?",
+    "options": [
+      "Луи Пастьор",
+      "Асен Златаров",
+      "Георги Наджаков",
+      "Стамен Григоров"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Bulgarian doctor discovered in 1905 the bacterium that makes yoghurt sour? — Stamen Grigorov."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Паисий Хилендарски пише „История славянобългарска“ през 1762 г. В кой век е това?",
+    "options": [
+      "XVII век",
+      "XIX век",
+      "XVIII век",
+      "XVI век"
+    ],
+    "correctIndex": 2,
+    "gloss": "Paisius wrote the Slavonic-Bulgarian History in 1762; in which century? — 18th: years 1701-1800."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кое сирене се слага в тирамисуто?",
+    "options": [
+      "Рикота",
+      "Моцарела",
+      "Пармезан",
+      "Маскарпоне"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which cheese goes into tiramisu? — Mascarpone."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как се наричат момичетата, които на Лазаровден обикалят къщите с песни и благопожелания?",
+    "options": [
+      "Коледари",
+      "Сурвакари",
+      "Лазарки",
+      "Кукери"
+    ],
+    "correctIndex": 2,
+    "gloss": "What are the girls who go from house to house with songs and wishes on Lazarus Day called? — Lazarki."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой писател е авторът на „Старецът и морето“?",
+    "options": [
+      "Джон Стайнбек",
+      "Скот Фицджералд",
+      "Ърнест Хемингуей",
+      "Марк Твен"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"The Old Man and the Sea\"? — Ernest Hemingway."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Син на български емигрант, физикът Джон Атанасов създава в Айова един от първите електронни компютри. Как се нарича той?",
+    "options": [
+      "ENIAC",
+      "UNIVAC",
+      "ABC",
+      "Colossus"
+    ],
+    "correctIndex": 2,
+    "gloss": "The son of a Bulgarian immigrant, John Atanasoff, built one of the first electronic computers in Iowa. What is it called? — The ABC (Atanasoff–Berry Computer)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кой химичен елемент има символ „W“?",
+    "options": [
+      "Ванадий",
+      "Уран",
+      "Волфрам",
+      "Водород"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which chemical element has the symbol W? — Tungsten (wolfram)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "През коя година е открит Варненският халколитен некропол със златни накити от V хилядолетие пр. Хр.?",
+    "options": [
+      "1962",
+      "1972",
+      "1982",
+      "1992"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which year was the Varna Chalcolithic necropolis, with gold from the 5th millennium BC, found? — 1972."
+  }
+]

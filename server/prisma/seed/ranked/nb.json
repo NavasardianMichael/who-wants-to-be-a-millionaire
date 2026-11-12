@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hva er klokka når en nordmann sier «halv ti»?",
+    "options": [
+      "10.30",
+      "09.45",
+      "09.30",
+      "10.15"
+    ],
+    "correctIndex": 2,
+    "gloss": "What time is it when a Norwegian says \"halv ti\" (half ten)? — 09.30: Norwegian counts toward the coming hour, so half ten is half an hour before ten."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Setter du en s foran «kje», ungen til en geit, får du et bestikk. Hvilket?",
+    "options": [
+      "Skje",
+      "Gaffel",
+      "Kniv",
+      "Spisepinner"
+    ],
+    "correctIndex": 0,
+    "gloss": "Put an s before \"kje\" (a young goat) and you get a piece of cutlery. Which? — Skje (spoon): s + kje."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken bokstav står sist i det norske alfabetet?",
+    "options": [
+      "Z",
+      "Ø",
+      "Æ",
+      "Å"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which letter comes last in the Norwegian alphabet? — Å: the alphabet ends æ, ø, å."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Fullfør ordtaket: «Man skal ikke selge skinnet før ...»",
+    "options": [
+      "ulven er skutt",
+      "bjørnen er skutt",
+      "reven er skutt",
+      "elgen er skutt"
+    ],
+    "correctIndex": 1,
+    "gloss": "Finish the proverb: \"Do not sell the skin before ...\" — the bear is shot (do not count your chickens before they hatch)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Legger du en ekstra k til «tak», det øverste på et hus, får du et høflighetsord. Hvilket?",
+    "options": [
+      "Takt",
+      "Tank",
+      "Takk",
+      "Tall"
+    ],
+    "correctIndex": 2,
+    "gloss": "Add an extra k to \"tak\" (roof) and you get a polite word. Which? — Takk (thanks): tak + k."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva kalles det når du leverer tomme brusflasker og bokser i en automat og får penger tilbake?",
+    "options": [
+      "Å pante",
+      "Å veksle",
+      "Å refundere",
+      "Å låne"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is it called when you return empty soda bottles and cans to a machine and get money back? — Å pante (to return for deposit): the Norwegian pant system."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket dyr kommer pinnekjøtt, julematen fra Vestlandet, fra?",
+    "options": [
+      "Gris",
+      "Sau",
+      "Rein",
+      "Okse"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal does pinnekjøtt, the West Norwegian Christmas dish, come from? — Sheep: salted, dried ribs of lamb or mutton."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket nødnummer ringer du i Norge hvis du trenger ambulanse?",
+    "options": [
+      "110",
+      "112",
+      "115",
+      "113"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which emergency number do you call in Norway for an ambulance? — 113 (110 is fire, 112 police)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I eventyret om de tre bukkene Bruse må bukkene over ei bru. Hvem bor under den?",
+    "options": [
+      "Trollet",
+      "Ulven",
+      "Bjørnen",
+      "Reven"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the tale of the three Billy Goats Gruff, who lives under the bridge? — The troll."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken sjokolade tar nordmenn tradisjonelt med på påsketuren til fjells, sammen med appelsin?",
+    "options": [
+      "Firkløver",
+      "Smash!",
+      "Kvikk Lunsj",
+      "Hobby"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which chocolate do Norwegians traditionally take on the Easter mountain trip, together with an orange? — Kvikk Lunsj."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Du har en halv liter melk og bruker 3 dl. Hvor mange dl er igjen?",
+    "options": [
+      "1 dl",
+      "3 dl",
+      "4 dl",
+      "2 dl"
+    ],
+    "correctIndex": 3,
+    "gloss": "You have half a litre of milk and use 3 dl. How many dl are left? — 2 dl: half a litre is 5 dl, minus 3."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk app bruker mange til å sende penger fra mobilen til venner?",
+    "options": [
+      "Swish",
+      "Vipps",
+      "Venmo",
+      "Tikkie"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Norwegian app do many use to send money from the phone to friends? — Vipps (Swish is Swedish, Venmo American, Tikkie Dutch)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket instrument spilte Alexander Rybak da han vant Eurovision i 2009?",
+    "options": [
+      "Fiolin",
+      "Gitar",
+      "Piano",
+      "Trekkspill"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which instrument did Alexander Rybak play when he won Eurovision in 2009? — The violin."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken fugl legger eggene sine i andre fuglers reir?",
+    "options": [
+      "Svale",
+      "Spurv",
+      "Gjøk",
+      "Måke"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which bird lays its eggs in other birds' nests? — The cuckoo."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva trenger du for at en norsk lader skal passe i en stikkontakt i Storbritannia?",
+    "options": [
+      "Forlengerledning",
+      "Adapter",
+      "Sikring",
+      "Strømbryter"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do you need for a Norwegian charger to fit a socket in the UK? — An adapter (the voltage is the same, the plug shape differs)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvorfor kan en full vannflaske sprekke i fryseren?",
+    "options": [
+      "Vann trekker seg sammen når det fryser",
+      "Flasken krymper av kulden",
+      "Luften i flasken blir tung",
+      "Vann utvider seg når det fryser"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why can a full water bottle burst in the freezer? — Water expands when it freezes."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva måler enheten kWh på strømregningen?",
+    "options": [
+      "Energiforbruk",
+      "Spenning",
+      "Strømstyrke",
+      "Frekvens"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the unit kWh measure on the electricity bill? — Energy used (kilowatt-hours)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Metall og tre har samme temperatur, men metall kjennes kaldere. Hvorfor?",
+    "options": [
+      "Metall er tyngre",
+      "Metall leder varme bort fra hånden",
+      "Tre er varmere inni",
+      "Metall er hardere"
+    ],
+    "correctIndex": 1,
+    "gloss": "Metal and wood are at the same temperature, yet metal feels colder. Why? — Metal conducts heat away from the hand faster."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva kalles det når du må bekrefte innloggingen med en kode fra mobilen i tillegg til passordet?",
+    "options": [
+      "Brannmur",
+      "Kryptering",
+      "Tofaktorautentisering",
+      "Skylagring"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is it called when you must confirm a login with a code from your phone as well as the password? — Two-factor authentication."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva er hovedingrediensen i hummus?",
+    "options": [
+      "Aubergine",
+      "Linser",
+      "Poteter",
+      "Kikerter"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the main ingredient of hummus? — Chickpeas."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En ordinær håndballkamp for seniorer har to omganger. Hvor lenge varer hver?",
+    "options": [
+      "20 minutter",
+      "30 minutter",
+      "25 minutter",
+      "45 minutter"
+    ],
+    "correctIndex": 1,
+    "gloss": "A regular senior handball match has two halves. How long is each? — 30 minutes."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken vinteridrett går ut på å gå langrenn og skyte på blink med rifle?",
+    "options": [
+      "Skiskyting",
+      "Skihopp",
+      "Kombinert",
+      "Curling"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which winter sport combines cross-country skiing with rifle shooting at targets? — Biathlon (skiskyting); nordic combined is jumping plus cross-country."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Brødrene Mario og Luigi i «Super Mario Bros.» jobber som hva?",
+    "options": [
+      "Kokk",
+      "Maler",
+      "Brannmann",
+      "Rørlegger"
+    ],
+    "correctIndex": 3,
+    "gloss": "Brothers Mario and Luigi in \"Super Mario Bros.\" work as what? — Plumbers."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken kjent leketøysdukke fikk i 2023 en storfilm med Margot Robbie i hovedrollen?",
+    "options": [
+      "Bratz",
+      "Polly Pocket",
+      "Barbie",
+      "Sindy"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which famous toy doll got a 2023 blockbuster film starring Margot Robbie? — Barbie."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken finsk forfatter skapte Mummitrollet?",
+    "options": [
+      "Astrid Lindgren",
+      "Tove Jansson",
+      "Selma Lagerlöf",
+      "Anne-Cath. Vestly"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Finnish author created the Moomins (Mummitrollet)? — Tove Jansson."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken plante lages tequila av?",
+    "options": [
+      "Agave",
+      "Sukkerrør",
+      "Mais",
+      "Poteter"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which plant is tequila made from? — Agave."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva sier «best før»-datoen på maten egentlig noe om?",
+    "options": [
+      "Når maten blir helsefarlig",
+      "Når butikken må kaste den",
+      "Når kvaliteten kan bli dårligere",
+      "Når maten må fryses"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the \"best before\" date on food really tell you? — When the quality may start to decline (not when it becomes unsafe; that is \"last day of use\")."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norsk DJ står bak hitten «Firestone» fra 2014?",
+    "options": [
+      "Avicii",
+      "Martin Garrix",
+      "Calvin Harris",
+      "Kygo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norwegian DJ is behind the 2014 hit \"Firestone\"? — Kygo."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilket norsk band hadde verdenshiten «Take On Me» med den tegnede musikkvideoen?",
+    "options": [
+      "Roxette",
+      "a-ha",
+      "Secret Service",
+      "TNT"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Norwegian band had the world hit \"Take On Me\" with the animated video? — a-ha."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I hvilket år ble unionen mellom Norge og Sverige oppløst?",
+    "options": [
+      "1814",
+      "1920",
+      "1945",
+      "1905"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year was the union between Norway and Sweden dissolved? — 1905."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva kalles torsdagen før langfredag?",
+    "options": [
+      "Skjærtorsdag",
+      "Fettisdag",
+      "Palmesøndag",
+      "Kristi himmelfartsdag"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the Thursday before Good Friday called? — Skjærtorsdag (Maundy Thursday); Ascension Day is a Thursday too, but after Easter."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvilket av disse ordene endrer seg ikke i flertall («ett ..., to ...»)?",
+    "options": [
+      "Bil",
+      "Bok",
+      "Hus",
+      "Hund"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words does not change in the plural? — Hus (ett hus, to hus); biler, bøker, hunder. Neuter monosyllabic nouns take no ending."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken norrøn gud svinger hammeren Mjølner?",
+    "options": [
+      "Odin",
+      "Frøy",
+      "Loke",
+      "Tor"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norse god wields the hammer Mjølner? — Thor."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken nettleser ble opprinnelig utviklet i Norge?",
+    "options": [
+      "Safari",
+      "Opera",
+      "Firefox",
+      "Edge"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which web browser was originally developed in Norway? — Opera (Oslo, 1990s)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva betyr «s» i «https» i en nettadresse?",
+    "options": [
+      "Sikker",
+      "Server",
+      "Standard",
+      "Søk"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the \"s\" in \"https\" mean? — Secure (sikker)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva kalles det når et kor synger uten instrumenter?",
+    "options": [
+      "Crescendo",
+      "Falsett",
+      "A cappella",
+      "Vibrato"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is it called when a choir sings without instruments? — A cappella."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hva heter pilegrimsruten til Santiago de Compostela i Spania, som mange nordmenn går?",
+    "options": [
+      "Olavsleden",
+      "Caminoen",
+      "Via Francigena",
+      "Appalachian Trail"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the pilgrim route to Santiago de Compostela in Spain, walked by many Norwegians, called? — The Camino (de Santiago)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket vitamin manglet sjøfolk som fikk skjørbuk på lange reiser?",
+    "options": [
+      "A",
+      "B12",
+      "E",
+      "C"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which vitamin were sailors lacking when they got scurvy on long voyages? — Vitamin C."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilket land er hjem til kiwi-fuglen og består av to store hovedøyer?",
+    "options": [
+      "Australia",
+      "Irland",
+      "New Zealand",
+      "Madagaskar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is home to the kiwi bird and consists of two large main islands? — New Zealand."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvorfor strør man salt på isete veier?",
+    "options": [
+      "Det senker frysepunktet til vann",
+      "Det gjør isen tyngre",
+      "Det varmer opp asfalten",
+      "Det gjør veien ru"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why do people spread salt on icy roads? — It lowers the freezing point of water, so the ice melts."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I hvilket land ble musikktjenesten Spotify startet?",
+    "options": [
+      "Danmark",
+      "Norge",
+      "Finland",
+      "Sverige"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country was the music service Spotify founded? — Sweden (Stockholm)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Et tog holder 90 km/t. Hvor langt kommer det på 20 minutter?",
+    "options": [
+      "20 km",
+      "30 km",
+      "45 km",
+      "60 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "A train keeps 90 km/h. How far does it go in 20 minutes? — 30 km: 20 minutes is a third of an hour."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvilken politietterforsker er hovedperson i Jo Nesbøs krimromaner?",
+    "options": [
+      "Harry Hole",
+      "Kurt Wallander",
+      "Varg Veum",
+      "Sebastian Bergman"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which detective is the main character of Jo Nesbø's crime novels? — Harry Hole."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hva heter Norges lengste elv?",
+    "options": [
+      "Tana",
+      "Numedalslågen",
+      "Glomma",
+      "Drammenselva"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the longest river in Norway? — Glomma (about 620 km)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En vare koster 100 kr. Prisen settes opp 10 %, så ned 10 %. Hva koster den til slutt?",
+    "options": [
+      "90 kr",
+      "100 kr",
+      "101 kr",
+      "99 kr"
+    ],
+    "correctIndex": 3,
+    "gloss": "An item costs 100 kr. The price goes up 10 %, then down 10 %. What does it cost in the end? — 99 kr: 110 minus 10 % of 110 (11)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvor mange poeng gir selve touchdownen i amerikansk fotball, før ekstrapoeng?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "10"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many points is the touchdown itself worth in American football, before the extra point? — 6."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvilken nederlandsk maler står bak «Nattevakten»?",
+    "options": [
+      "Rembrandt",
+      "Vermeer",
+      "Frans Hals",
+      "Rubens"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Dutch painter is behind \"The Night Watch\"? — Rembrandt."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I hvilket år fikk alle norske kvinner stemmerett ved stortingsvalg?",
+    "options": [
+      "1884",
+      "1898",
+      "1913",
+      "1921"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which year did all Norwegian women get the vote in parliamentary elections? — 1913 (men: 1898)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Det kjemiske symbolet W står for hvilket grunnstoff?",
+    "options": [
+      "Titan",
+      "Wolfram",
+      "Vanadium",
+      "Platina"
+    ],
+    "correctIndex": 1,
+    "gloss": "The chemical symbol W stands for which element? — Tungsten (wolfram)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I hvilket år ble Ekofisk funnet, det første store oljefunnet på norsk sokkel?",
+    "options": [
+      "1959",
+      "1964",
+      "1974",
+      "1969"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year was Ekofisk found, the first large oil discovery on the Norwegian shelf? — 1969."
+  }
+]
