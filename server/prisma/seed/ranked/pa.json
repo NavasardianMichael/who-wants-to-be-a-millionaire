@@ -1,0 +1,502 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“ਪਤਾ” ਸ਼ਬਦ ਉੱਤੇ ਅੱਧਕ ਪਾ ਦਿਓ ਤਾਂ ਇਹ ਰੁੱਖ ਦੀ ਕਿਹੜੀ ਚੀਜ਼ ਬਣ ਜਾਂਦਾ ਹੈ?",
+    "options": ["ਟਾਹਣੀ", "ਪੱਤਾ", "ਜੜ੍ਹ", "ਛਿੱਲ"],
+    "correctIndex": 1,
+    "gloss": "Put an addhak on the word «pata» (address / knowing) and it becomes which part of a tree? — The leaf: the addhak (ੱ) doubles the consonant, ਪਤਾ → ਪੱਤਾ."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਉਹ ਕੱਲ੍ਹ ਆਇਆ ਸੀ ਤੇ ਕੱਲ੍ਹ ਫੇਰ ਆਵੇਗਾ। ਦੋਹਾਂ ਫੇਰੀਆਂ ਵਿੱਚ ਕਿੰਨੇ ਦਿਨਾਂ ਦਾ ਫ਼ਰਕ ਹੈ?",
+    "options": ["ਇੱਕ ਦਿਨ", "ਤਿੰਨ ਦਿਨ", "ਚਾਰ ਦਿਨ", "ਦੋ ਦਿਨ"],
+    "correctIndex": 3,
+    "gloss": "He came «kall» and will come again «kall». How many days apart are the two visits? — Two: Punjabi «kall» is both yesterday and tomorrow; the verb tense tells which."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਬੂਹੇ ’ਤੇ ਖੜ੍ਹਾ ਮੁੰਡਾ ਆਖਦਾ ਹੈ: “ਨਾਨਾ ਜੀ ਆਏ ਹਨ।” ਬਾਹਰ ਕਿੰਨੇ ਜਣੇ ਆਏ ਹਨ?",
+    "options": ["ਇੱਕ ਜਣਾ", "ਦੋ ਜਣੇ", "ਤਿੰਨ ਜਣੇ", "ਚਾਰ ਜਣੇ"],
+    "correctIndex": 0,
+    "gloss": "A boy at the door says «Nana ji aaye han» (plural verb). How many people have come? — One: the plural is the plural of respect for one's maternal grandfather, of whom there is only one."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਬੱਸ ਸਾਢੇ ਛੇ ਵਜੇ ਚੱਲੀ ਅਤੇ ਡੇਢ ਘੰਟੇ ਬਾਅਦ ਪਹੁੰਚੀ। ਬੱਸ ਕਿੰਨੇ ਵਜੇ ਪਹੁੰਚੀ?",
+    "options": ["ਸਾਢੇ ਸੱਤ ਵਜੇ", "ਸੱਤ ਵਜੇ", "ਅੱਠ ਵਜੇ", "ਸਾਢੇ ਅੱਠ ਵਜੇ"],
+    "correctIndex": 2,
+    "gloss": "The bus left at «saadhe chhe» and arrived «dedh» hours later. When did it arrive? — Eight: saadhe chhe = 6:30, dedh ghanta = 1.5 hours."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪਿਤਾ ਦੇ ਵੱਡੇ ਭਰਾ ਨੂੰ ਪੰਜਾਬੀ ਵਿੱਚ ਕੀ ਆਖਦੇ ਹਨ?",
+    "options": ["ਚਾਚਾ", "ਮਾਮਾ", "ਤਾਇਆ", "ਫੁੱਫੜ"],
+    "correctIndex": 2,
+    "gloss": "What is the father's elder brother called in Punjabi? — Taaya. Chacha is the father's younger brother, mama the mother's brother, phuphar the husband of the father's sister."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਦੁਕਾਨ ਉੱਤੇ ਲੱਗਾ ਕਾਲੀਆਂ-ਚਿੱਟੀਆਂ ਡੱਬੀਆਂ ਵਾਲਾ ਵਰਗ, ਜਿਸ ਨੂੰ ਫ਼ੋਨ ਨਾਲ ਸਕੈਨ ਕਰਕੇ ਪੈਸੇ ਭੇਜੀਦੇ ਹਨ, ਕੀ ਅਖਵਾਉਂਦਾ ਹੈ?",
+    "options": ["ਕਿਊਆਰ ਕੋਡ", "ਬਾਰਕੋਡ", "ਪਿੰਨ ਕੋਡ", "ਹੈਸ਼ਟੈਗ"],
+    "correctIndex": 0,
+    "gloss": "The square of black-and-white boxes at a shop that you scan with your phone to pay — what is it called? — A QR code. A barcode is made of lines."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਮਾਈਕ੍ਰੋਵੇਵ ਵਿੱਚ ਖਾਣਾ ਗਰਮ ਕਰਨ ਲਈ ਕਿਹੜਾ ਭਾਂਡਾ ਨਹੀਂ ਰੱਖਣਾ ਚਾਹੀਦਾ?",
+    "options": ["ਕੱਚ ਦੀ ਕੌਲੀ", "ਚੀਨੀ ਦੀ ਪਲੇਟ", "ਕਾਗਜ਼ ਦੀ ਪਲੇਟ", "ਸਟੀਲ ਦੀ ਕੌਲੀ"],
+    "correctIndex": 3,
+    "gloss": "Which dish should you not put in a microwave to heat food? — A steel bowl: metal reflects microwaves and can spark. Glass, plain porcelain and paper plates are fine."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਬੈਂਕ ਵੱਲੋਂ SMS ਰਾਹੀਂ ਆਇਆ ਓਟੀਪੀ ਕਿੰਨੀ ਵਾਰ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ?",
+    "options": ["ਤਿੰਨ ਵਾਰ", "ਇੱਕ ਵਾਰ", "ਦਿਨ ਭਰ ਜਿੰਨੀ ਵਾਰ ਮਰਜ਼ੀ", "ਜਦ ਤੱਕ ਬਦਲਿਆ ਨਾ ਜਾਵੇ"],
+    "correctIndex": 1,
+    "gloss": "How many times can the OTP your bank sends by SMS be used? — Once: OTP is a «one-time password»."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਅੱਜਕੱਲ੍ਹ ਕ੍ਰਿਕਟ ਦਾ ਟੈਸਟ ਮੈਚ ਵੱਧ ਤੋਂ ਵੱਧ ਕਿੰਨੇ ਦਿਨ ਚੱਲਦਾ ਹੈ?",
+    "options": ["ਤਿੰਨ ਦਿਨ", "ਚਾਰ ਦਿਨ", "ਪੰਜ ਦਿਨ", "ਛੇ ਦਿਨ"],
+    "correctIndex": 2,
+    "gloss": "Nowadays, at most how many days does a cricket Test match last? — Five."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਸਰਕਲ ਕਬੱਡੀ ਵਿੱਚ ਰੇਡ ਪਾਉਣ ਵਾਲੇ ਨੂੰ “ਧਾਵੀ” ਆਖਦੇ ਹਨ। ਉਸ ਨੂੰ ਫੜ ਕੇ ਰੋਕਣ ਵਾਲਾ ਕੀ ਅਖਵਾਉਂਦਾ ਹੈ?",
+    "options": ["ਰਾਖਾ", "ਪਹਿਲਵਾਨ", "ਗੋਲਚੀ", "ਜਾਫ਼ੀ"],
+    "correctIndex": 3,
+    "gloss": "In circle-style kabaddi the raider is the «dhaavi». What is the player who grabs and stops him called? — The «jaafi» (stopper)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਗੁਰਦੁਆਰੇ ਦੇ ਕੜਾਹ ਪ੍ਰਸ਼ਾਦ ਵਿੱਚ ਆਟਾ, ਖੰਡ ਅਤੇ ਕਿਹੜੀ ਤੀਜੀ ਚੀਜ਼ ਬਰਾਬਰ ਮਾਤਰਾ ਵਿੱਚ ਪੈਂਦੀ ਹੈ?",
+    "options": ["ਦੁੱਧ", "ਦੇਸੀ ਘਿਓ", "ਸ਼ਹਿਦ", "ਗੁੜ"],
+    "correctIndex": 1,
+    "gloss": "Gurdwara karah prashad takes flour, sugar and which third thing in equal measure? — Ghee: equal parts wheat flour, sugar and ghee, cooked with water."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਯੂਪੀਆਈ ਰਾਹੀਂ ਕਿਸੇ ਤੋਂ ਪੈਸੇ ਲੈਣ ਵੇਲੇ ਤੁਹਾਨੂੰ ਆਪਣਾ ਯੂਪੀਆਈ ਪਿੰਨ ਕਦੋਂ ਭਰਨਾ ਪੈਂਦਾ ਹੈ?",
+    "options": ["ਕਦੇ ਵੀ ਨਹੀਂ", "ਹਰ ਵਾਰ", "ਸਿਰਫ਼ ਵੱਡੀ ਰਕਮ ਉੱਤੇ", "ਸਿਰਫ਼ ਪਹਿਲੀ ਵਾਰ"],
+    "correctIndex": 0,
+    "gloss": "When do you have to enter your UPI PIN to receive money from someone over UPI? — Never: the PIN is only for sending money. A «enter your PIN to receive» request is a scam."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕੋਲਡ ਡਰਿੰਕ ਦੀ ਬੋਤਲ ਖੋਲ੍ਹਦਿਆਂ ਉੱਠਦੇ ਬੁਲਬੁਲੇ ਕਿਹੜੀ ਗੈਸ ਦੇ ਹੁੰਦੇ ਹਨ?",
+    "options": ["ਆਕਸੀਜਨ", "ਨਾਈਟ੍ਰੋਜਨ", "ਹਾਈਡ੍ਰੋਜਨ", "ਕਾਰਬਨ ਡਾਈਆਕਸਾਈਡ"],
+    "correctIndex": 3,
+    "gloss": "The bubbles that rise when you open a bottle of soft drink are which gas? — Carbon dioxide, dissolved under pressure."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "ਅੰਮ੍ਰਿਤਸਰ ਸ਼ਹਿਰ ਦਾ ਨਾਂ ਕਿਸ ਚੀਜ਼ ਤੋਂ ਪਿਆ?",
+    "options": ["ਇੱਕ ਕਿਲ੍ਹੇ ਤੋਂ", "ਇੱਕ ਸਰੋਵਰ ਤੋਂ", "ਇੱਕ ਦਰਿਆ ਤੋਂ", "ਇੱਕ ਰਾਜੇ ਤੋਂ"],
+    "correctIndex": 1,
+    "gloss": "What is the city of Amritsar named after? — A pool: «amrit» + «sar» (sarovar), the pool of nectar around the Harmandir Sahib. The «-sar» ending gives it away."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1699 ਦੀ ਵਿਸਾਖੀ ਨੂੰ ਅਨੰਦਪੁਰ ਸਾਹਿਬ ਵਿਖੇ ਖ਼ਾਲਸਾ ਪੰਥ ਦੀ ਸਾਜਨਾ ਕਿਸ ਗੁਰੂ ਸਾਹਿਬ ਨੇ ਕੀਤੀ?",
+    "options": ["ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ", "ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਜੀ", "ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ", "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ"],
+    "correctIndex": 3,
+    "gloss": "Which Guru founded the Khalsa at Anandpur Sahib on Vaisakhi 1699? — Guru Gobind Singh."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਵਿਆਹ ਤੋਂ ਪਹਿਲਾਂ ਲਾੜੇ ਤੇ ਲਾੜੀ ਦੇ ਪਿੰਡੇ ਉੱਤੇ ਹਲਦੀ ਤੇ ਵੇਸਣ ਦਾ ਲੇਪ ਮਲਣ ਦੀ ਰਸਮ ਨੂੰ ਕੀ ਆਖਦੇ ਹਨ?",
+    "options": ["ਵਟਣਾ", "ਜਾਗੋ", "ਘੋੜੀ", "ਡੋਲੀ"],
+    "correctIndex": 0,
+    "gloss": "What is the pre-wedding rite of rubbing a turmeric and gram-flour paste on the bride and groom called? — Vatna. Jaago is the night procession, ghodi the groom mounting the mare, doli the bride's departure."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਯਮਲਾ ਜੱਟ ਦੇ ਹੱਥਾਂ ਵਿੱਚ ਮਸ਼ਹੂਰ ਹੋਈ ਤੂੰਬੀ ਵਿੱਚ ਕਿੰਨੀਆਂ ਤਾਰਾਂ ਹੁੰਦੀਆਂ ਹਨ?",
+    "options": ["ਇੱਕ", "ਦੋ", "ਤਿੰਨ", "ਚਾਰ"],
+    "correctIndex": 0,
+    "gloss": "How many strings does the tumbi, made famous by Lal Chand Yamla Jatt, have? — One: it is a single-string instrument."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੰਜਾਬ ਦਾ ਕਿਹੜਾ ਲੋਕ-ਨਾਚ ਮੁਟਿਆਰਾਂ ਘੇਰਾ ਬਣਾ ਕੇ ਤਾੜੀਆਂ ਤੇ ਬੋਲੀਆਂ ਨਾਲ ਨੱਚਦੀਆਂ ਹਨ?",
+    "options": ["ਭੰਗੜਾ", "ਗਿੱਧਾ", "ਝੂਮਰ", "ਲੁੱਡੀ"],
+    "correctIndex": 1,
+    "gloss": "Which Punjabi folk dance do young women dance in a circle, with clapping and boliyan? — Giddha. Bhangra, jhumar and luddi are men's dances."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੇ ਬਿਲਕੁਲ ਸ਼ੁਰੂ ਵਿੱਚ ਦਰਜ ਕਿਹੜੀ ਬਾਣੀ ਦਾ ਪਾਠ ਹਰ ਰੋਜ਼ ਸਵੇਰੇ ਕੀਤਾ ਜਾਂਦਾ ਹੈ?",
+    "options": ["ਰਹਿਰਾਸ ਸਾਹਿਬ", "ਕੀਰਤਨ ਸੋਹਿਲਾ", "ਜਪੁਜੀ ਸਾਹਿਬ", "ਸੁਖਮਨੀ ਸਾਹਿਬ"],
+    "correctIndex": 2,
+    "gloss": "Which bani, at the very start of the Guru Granth Sahib, is recited every morning? — Japji Sahib. Rehras is the evening prayer, Kirtan Sohila the night prayer; Sukhmani comes much later in the Granth."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕਿਹੜੀ ਐਨੀਮੇਟਡ ਫ਼ਿਲਮ ਵਿੱਚ ਬਰਫ਼ ਦੀਆਂ ਤਾਕਤਾਂ ਵਾਲੀ ਰਾਣੀ ਐਲਸਾ “ਲੈੱਟ ਇਟ ਗੋ” ਗਾਉਂਦੀ ਹੈ?",
+    "options": ["ਮੋਆਨਾ", "ਟੈਂਗਲਡ", "ਬ੍ਰੇਵ", "ਫ਼੍ਰੋਜ਼ਨ"],
+    "correctIndex": 3,
+    "gloss": "In which animated film does Queen Elsa, with her ice powers, sing «Let It Go»? — Frozen (2013)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਹਰੇ ਰੰਗ ਦੇ ਗੱਲਬਾਤ ਵਾਲੇ ਬੁਲਬੁਲੇ ਵਿੱਚ ਚਿੱਟੇ ਫ਼ੋਨ ਵਾਲਾ ਲੋਗੋ ਕਿਸ ਐਪ ਦਾ ਹੈ?",
+    "options": ["ਟੈਲੀਗ੍ਰਾਮ", "ਵਟਸਐਪ", "ਸਿਗਨਲ", "ਸਨੈਪਚੈਟ"],
+    "correctIndex": 1,
+    "gloss": "Whose logo is a white phone handset in a green speech bubble? — WhatsApp. Telegram is a paper plane, Signal a blue bubble, Snapchat a ghost."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਪੋਕੇਮੌਨ ਦਾ ਸਭ ਤੋਂ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਪੀਲਾ ਪਾਤਰ, ਜੋ ਬਿਜਲੀ ਦੇ ਝਟਕੇ ਮਾਰਦਾ ਹੈ, ਕੌਣ ਹੈ?",
+    "options": ["ਪਿਕਾਚੂ", "ਚਾਰਮੈਂਡਰ", "ਬਲਬਾਸੌਰ", "ਸਕੁਇਰਟਲ"],
+    "correctIndex": 0,
+    "gloss": "Pokémon's best-known yellow character, who throws electric shocks? — Pikachu. Charmander is fire, Bulbasaur grass, Squirtle water."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਹਵਾਈ ਸਫ਼ਰ ਵਿੱਚ ਕਿਹੜੀ ਚੀਜ਼ ਚੈੱਕ-ਇਨ ਵਾਲੇ ਸਮਾਨ ਵਿੱਚ ਨਹੀਂ, ਸਿਰਫ਼ ਹੱਥ ਵਾਲੇ ਬੈਗ ਵਿੱਚ ਲਿਜਾਈ ਜਾ ਸਕਦੀ ਹੈ?",
+    "options": ["ਪਾਵਰ ਬੈਂਕ", "ਛੱਤਰੀ", "ਜੁੱਤੀਆਂ", "ਕਿਤਾਬਾਂ"],
+    "correctIndex": 0,
+    "gloss": "On a flight, which item may not go in checked baggage, only in the cabin bag? — A power bank: spare lithium batteries are banned from the hold because of fire risk. The others may go either way."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਲੱਖਾਂ ਪੰਜਾਬੀ ਕਾਮਿਆਂ ਦਾ ਟਿਕਾਣਾ ਦੁਬਈ ਕਿਸ ਦੇਸ਼ ਦਾ ਸ਼ਹਿਰ ਹੈ?",
+    "options": ["ਸਾਊਦੀ ਅਰਬ", "ਕਤਰ", "ਕੁਵੈਤ", "ਯੂਏਈ"],
+    "correctIndex": 3,
+    "gloss": "Dubai, home to many Punjabi workers, is a city of which country? — The UAE (United Arab Emirates)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਨੈੱਟਫ਼ਲਿਕਸ ਦੀ ਲੜੀ “ਸਕੁਇਡ ਗੇਮ”, ਜਿਸ ਵਿੱਚ ਕਰਜ਼ਾਈ ਲੋਕ ਬੱਚਿਆਂ ਦੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਜਾਨ ਦਾਅ ’ਤੇ ਲਾਉਂਦੇ ਹਨ, ਕਿਸ ਦੇਸ਼ ਦੀ ਹੈ?",
+    "options": ["ਜਪਾਨ", "ਚੀਨ", "ਥਾਈਲੈਂਡ", "ਦੱਖਣੀ ਕੋਰੀਆ"],
+    "correctIndex": 3,
+    "gloss": "Netflix's «Squid Game», where people in debt stake their lives on children's games, is from which country? — South Korea (2021)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਰੇਹੜੀਆਂ ’ਤੇ ਵਿਕਦੇ ਮੋਮੋ ਆਪਣੇ ਅਸਲ ਤਿੱਬਤੀ-ਨੇਪਾਲੀ ਰੂਪ ਵਿੱਚ ਕਿਵੇਂ ਪਕਾਏ ਜਾਂਦੇ ਹਨ?",
+    "options": ["ਤੰਦੂਰ ਵਿੱਚ", "ਤਵੇ ਉੱਤੇ", "ਭਾਫ਼ ਵਿੱਚ", "ਕੋਲਿਆਂ ਉੱਤੇ"],
+    "correctIndex": 2,
+    "gloss": "Street-stall momos — how are they cooked in their original Tibetan-Nepali form? — Steamed. Fried and tandoori momos are later variations."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ਤੁਸੀਂ ਕਿਤਾਬ ਦੇ ਸਫ਼ਾ 10 ਤੋਂ ਲੈ ਕੇ ਸਫ਼ਾ 20 ਤੱਕ ਸਾਰੇ ਸਫ਼ੇ ਪੜ੍ਹੇ। ਕੁੱਲ ਕਿੰਨੇ ਸਫ਼ੇ ਪੜ੍ਹੇ?",
+    "options": ["10", "11", "9", "20"],
+    "correctIndex": 1,
+    "gloss": "You read every page of a book from page 10 to page 20. How many pages in all? — 11: both ends count. 20 − 10 = 10 is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਟੁੱਟੀਆਂ ਚੂੜੀਆਂ, ਪਲੇਟਾਂ ਤੇ ਕਬਾੜ ਨਾਲ ਬਣੀਆਂ ਮੂਰਤੀਆਂ ਵਾਲਾ ਨੇਕ ਚੰਦ ਦਾ ਰੌਕ ਗਾਰਡਨ ਕਿਸ ਸ਼ਹਿਰ ਵਿੱਚ ਹੈ?",
+    "options": ["ਲੁਧਿਆਣਾ", "ਪਟਿਆਲਾ", "ਚੰਡੀਗੜ੍ਹ", "ਜਲੰਧਰ"],
+    "correctIndex": 2,
+    "gloss": "Nek Chand's Rock Garden, with sculptures made of broken bangles, plates and scrap, is in which city? — Chandigarh."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "“ਦੋਆਬਾ” ਦਾ ਅਰਥ ਹੈ ਦੋ ਪਾਣੀਆਂ ਵਿਚਲੀ ਧਰਤੀ। ਪੰਜਾਬ ਦਾ ਦੋਆਬਾ ਕਿਹੜੇ ਦੋ ਦਰਿਆਵਾਂ ਵਿਚਕਾਰ ਹੈ?",
+    "options": ["ਰਾਵੀ ਤੇ ਬਿਆਸ", "ਸਤਲੁਜ ਤੇ ਘੱਗਰ", "ਬਿਆਸ ਤੇ ਸਤਲੁਜ", "ਜਿਹਲਮ ਤੇ ਚਨਾਬ"],
+    "correctIndex": 2,
+    "gloss": "«Doaba» means the land between two waters. Between which two rivers is Punjab's Doaba? — The Beas and the Sutlej (Jalandhar, Kapurthala, Hoshiarpur, Nawanshahr)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਸੁਸ਼ੀ ਨਾਲ ਪਰੋਸੀ ਜਾਂਦੀ ਹਰੀ ਤੇ ਨੱਕ ਨੂੰ ਚੜ੍ਹਨ ਵਾਲੀ ਤਿੱਖੀ ਜਪਾਨੀ ਚਟਣੀ ਕੀ ਅਖਵਾਉਂਦੀ ਹੈ?",
+    "options": ["ਵਸਾਬੀ", "ਮਿਸੋ", "ਤੇਰੀਆਕੀ", "ਪੋਂਜ਼ੂ"],
+    "correctIndex": 0,
+    "gloss": "The green, nose-tingling hot Japanese paste served with sushi is called? — Wasabi. Miso is a brown soybean paste, teriyaki a sweet glaze, ponzu a citrus sauce."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕਿਹੜੀ ਕੌਫ਼ੀ ਦਾ ਨਾਂ ਭੂਰੇ ਚੋਗੇ ਪਹਿਨਣ ਵਾਲੇ ਇਤਾਲਵੀ ਈਸਾਈ ਸਾਧੂਆਂ ਤੋਂ ਪਿਆ?",
+    "options": ["ਲਾਤੇ", "ਐਸਪ੍ਰੈਸੋ", "ਮੋਕਾ", "ਕਾਪੂਚੀਨੋ"],
+    "correctIndex": 3,
+    "gloss": "Which coffee is named after Italian friars in brown habits? — Cappuccino, from the colour of the Capuchin friars' habit."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਟੈਨਿਸ ਦੇ ਸਕੋਰ ਵਿੱਚ “ਲਵ” ਦਾ ਕੀ ਅਰਥ ਹੁੰਦਾ ਹੈ?",
+    "options": ["ਸਿਫ਼ਰ", "ਬਰਾਬਰੀ", "ਇੱਕ ਅੰਕ", "ਜਿੱਤ"],
+    "correctIndex": 0,
+    "gloss": "What does «love» mean in a tennis score? — Zero. A tie at 40 is «deuce»."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2012 ਦੀ ਹਿੱਟ ਕਾਮੇਡੀ ਫ਼ਿਲਮ “ਕੈਰੀ ਔਨ ਜੱਟਾ” ਦਾ ਮੁੱਖ ਹੀਰੋ ਕੌਣ ਸੀ?",
+    "options": ["ਦਿਲਜੀਤ ਦੋਸਾਂਝ", "ਗਿੱਪੀ ਗਰੇਵਾਲ", "ਐਮੀ ਵਿਰਕ", "ਅਮਰਿੰਦਰ ਗਿੱਲ"],
+    "correctIndex": 1,
+    "gloss": "Who was the lead of the 2012 hit comedy «Carry On Jatta»? — Gippy Grewal."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪੰਜਾਬੀ ਦਾ ਪਹਿਲਾ ਵੱਡਾ ਕਵੀ ਮੰਨਿਆ ਜਾਂਦਾ ਕਿਹੜਾ ਸੂਫ਼ੀ, ਜਿਸ ਦੇ ਸਲੋਕ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਵਿੱਚ ਵੀ ਦਰਜ ਹਨ?",
+    "options": ["ਸ਼ਾਹ ਹੁਸੈਨ", "ਸੁਲਤਾਨ ਬਾਹੂ", "ਬਾਬਾ ਫ਼ਰੀਦ", "ਬੁੱਲ੍ਹੇ ਸ਼ਾਹ"],
+    "correctIndex": 2,
+    "gloss": "Which Sufi, considered the first great Punjabi poet, has his saloks in the Guru Granth Sahib too? — Baba Farid (Sheikh Farid, 12th–13th c.). The other three lived centuries later and are not in the Granth."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਵੈੱਬਸਾਈਟ ਦੇ ਪਤੇ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ https ਦਾ “s” ਕਿਸ ਸ਼ਬਦ ਲਈ ਹੈ?",
+    "options": ["ਸਪੀਡ", "ਸਰਵਰ", "ਸਿਸਟਮ", "ਸਕਿਓਰ"],
+    "correctIndex": 3,
+    "gloss": "What does the «s» of https at the start of a web address stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "“ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ” ਵਿੱਚ “ਅਕਾਲ” ਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "options": ["ਜੋ ਸੱਚਾ ਹੈ", "ਜੋ ਸਮੇਂ ਤੋਂ ਪਰੇ ਹੈ", "ਜੋ ਸਭ ਤੋਂ ਵੱਡਾ ਹੈ", "ਜੋ ਸਭ ਥਾਂ ਹੈ"],
+    "correctIndex": 1,
+    "gloss": "In «Sat Sri Akal», what does «Akal» mean? — Timeless: «a-» (without) + «kaal» (time). «True» is the trap: that is «sat»."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਮਨੁੱਖ ਦਾ ਲਹੂ ਪੀਣ ਲਈ ਡੰਗ ਕਿਹੜੇ ਮੱਛਰ ਮਾਰਦੇ ਹਨ?",
+    "options": ["ਸਿਰਫ਼ ਨਰ", "ਸਿਰਫ਼ ਮਾਦਾ", "ਨਰ ਤੇ ਮਾਦਾ ਦੋਵੇਂ", "ਸਿਰਫ਼ ਲਾਰਵੇ"],
+    "correctIndex": 1,
+    "gloss": "Which mosquitoes bite humans to drink blood? — Only females, which need the blood to make eggs; males feed on nectar."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਮਾਈਕਲ ਜੈਕਸਨ ਦਾ ਉਹ ਡਾਂਸ ਸਟੈੱਪ ਕੀ ਅਖਵਾਉਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਉਹ ਅੱਗੇ ਤੁਰਦਾ ਜਾਪਦਾ ਹੈ ਪਰ ਪਿੱਛੇ ਨੂੰ ਖਿਸਕਦਾ ਹੈ?",
+    "options": ["ਮੂਨਵਾਕ", "ਰੋਬੋਟ", "ਟਵਿਸਟ", "ਬ੍ਰੇਕਡਾਂਸ"],
+    "correctIndex": 0,
+    "gloss": "What is Michael Jackson's dance step called in which he seems to walk forward but glides backwards? — The moonwalk."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਦਲੇਰ ਮਹਿੰਦੀ ਦਾ ਕਿਹੜਾ ਗੀਤ, ਜਿਸ ਦੀ ਵੀਡੀਓ ਵਿੱਚ ਉਹ ਆਪ ਹੀ ਚਾਰ ਰੂਪਾਂ ਵਿੱਚ ਨੱਚਦਾ ਹੈ, ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦੁਨੀਆ ਭਰ ਵਿੱਚ ਛਾ ਗਿਆ?",
+    "options": ["ਬੋਲੋ ਤਾ ਰਾ ਰਾ", "ਹੋ ਜਾਏਗੀ ਬੱਲੇ ਬੱਲੇ", "ਨਾ ਨਾ ਨਾ ਨਾ ਰੇ", "ਤੁਨਕ ਤੁਨਕ ਤੁਨ"],
+    "correctIndex": 3,
+    "gloss": "Which Daler Mehndi song, whose video shows him dancing as four copies of himself, became a worldwide internet hit? — «Tunak Tunak Tun» (1998). All four are his songs."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਅਖਾਣ ਪੂਰਾ ਕਰੋ: “ਨੱਚਣ ਲੱਗੀ ਤਾਂ … ਕਾਹਦਾ।”",
+    "options": ["ਡਰ", "ਥਕੇਵਾਂ", "ਘੁੰਡ", "ਗਹਿਣਾ"],
+    "correctIndex": 2,
+    "gloss": "Complete the saying: «Once she starts dancing, why the …?» — Ghund (veil): once you take something on, there is no point being shy about it."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਸ਼ੈਂਗਨ ਵੀਜ਼ਾ ਲੈ ਕੇ ਕਿਸ ਮਹਾਂਦੀਪ ਦੇ ਬਹੁਤੇ ਦੇਸ਼ ਇੱਕੋ ਵੀਜ਼ੇ ਨਾਲ ਘੁੰਮੇ ਜਾ ਸਕਦੇ ਹਨ?",
+    "options": ["ਦੱਖਣੀ ਅਮਰੀਕਾ", "ਅਫ਼ਰੀਕਾ", "ਯੂਰਪ", "ਏਸ਼ੀਆ"],
+    "correctIndex": 2,
+    "gloss": "With a Schengen visa you can travel through most countries of which continent on one visa? — Europe (29 Schengen states, named after the village in Luxembourg)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ਦਿਨ-ਰਾਤ ਦੇ “ਅੱਠ ਪਹਿਰ” ਹੁੰਦੇ ਹਨ। ਇੱਕ ਪਹਿਰ ਕਿੰਨੇ ਘੰਟਿਆਂ ਦਾ ਹੁੰਦਾ ਹੈ?",
+    "options": ["ਦੋ ਘੰਟੇ", "ਤਿੰਨ ਘੰਟੇ", "ਚਾਰ ਘੰਟੇ", "ਛੇ ਘੰਟੇ"],
+    "correctIndex": 1,
+    "gloss": "A day and night has «eight pahars». How long is one pahar? — Three hours: 24 ÷ 8. «Dupahir» (noon) is the end of the second pahar after sunrise."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ਬੰਦ ਕਮਰੇ ਵਿੱਚ ਚੱਲਦੇ ਫ਼ਰਿੱਜ ਦਾ ਦਰਵਾਜ਼ਾ ਘੰਟਿਆਂ ਲਈ ਖੁੱਲ੍ਹਾ ਛੱਡ ਦਿਓ। ਕਮਰੇ ਦਾ ਤਾਪਮਾਨ ਕੀ ਹੋਵੇਗਾ?",
+    "options": ["ਘਟ ਜਾਵੇਗਾ", "ਵਧ ਜਾਵੇਗਾ", "ਉੱਨਾ ਹੀ ਰਹੇਗਾ", "ਪਹਿਲਾਂ ਵਧੇਗਾ, ਫਿਰ ਘਟੇਗਾ"],
+    "correctIndex": 1,
+    "gloss": "Leave a running fridge's door open for hours in a closed room. What happens to the room's temperature? — It rises: the fridge only moves heat from inside to the coils at the back, and its motor adds heat of its own."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਨੇ ਜੀਵਨ ਦੇ ਆਖ਼ਰੀ ਸਾਲ ਰਾਵੀ ਕੰਢੇ ਆਪ ਵਸਾਏ ਕਿਸ ਨਗਰ ਵਿੱਚ ਖੇਤੀ ਕਰਦਿਆਂ ਬਿਤਾਏ?",
+    "options": ["ਸੁਲਤਾਨਪੁਰ ਲੋਧੀ", "ਨਨਕਾਣਾ ਸਾਹਿਬ", "ਗੋਇੰਦਵਾਲ", "ਕਰਤਾਰਪੁਰ"],
+    "correctIndex": 3,
+    "gloss": "In which town, founded by himself on the Ravi, did Guru Nanak spend his last years farming? — Kartarpur. Nankana Sahib is his birthplace, Sultanpur Lodhi where he worked as a young man, Goindwal was founded later under Guru Amar Das."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਕਿਹੜਾ ਦੇਸ਼ ਚਾਰੇ ਪਾਸਿਓਂ ਸਿਰਫ਼ ਦੱਖਣੀ ਅਫ਼ਰੀਕਾ ਨਾਲ ਘਿਰਿਆ ਹੋਇਆ ਹੈ?",
+    "options": ["ਬੋਤਸਵਾਨਾ", "ਨਾਮੀਬੀਆ", "ਲਿਸੋਥੋ", "ਜ਼ਿੰਬਾਬਵੇ"],
+    "correctIndex": 2,
+    "gloss": "Which country is surrounded on all sides by South Africa alone? — Lesotho. The other three border several countries."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਪਾਕਿਸਤਾਨੀ ਪੰਜਾਬ ਵਿੱਚ ਪੰਜਾਬੀ ਆਮ ਤੌਰ ’ਤੇ ਕਿਸ ਲਿਪੀ ਵਿੱਚ ਲਿਖੀ ਜਾਂਦੀ ਹੈ?",
+    "options": ["ਸ਼ਾਹਮੁਖੀ", "ਲੰਡੇ", "ਦੇਵਨਾਗਰੀ", "ਗੁਰਮੁਖੀ"],
+    "correctIndex": 0,
+    "gloss": "In which script is Punjabi usually written in Pakistani Punjab? — Shahmukhi, a Perso-Arabic script. Lande was an old merchants' script of Punjab."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਮਿਲਖਾ ਸਿੰਘ ਨੂੰ “ਉੱਡਣਾ ਸਿੱਖ” ਦਾ ਲਕਬ ਕਿਸ ਦੇਸ਼ ਵਿੱਚ ਦੌੜ ਜਿੱਤਣ ਤੋਂ ਬਾਅਦ ਮਿਲਿਆ?",
+    "options": ["ਇੰਗਲੈਂਡ", "ਪਾਕਿਸਤਾਨ", "ਇਟਲੀ", "ਜਪਾਨ"],
+    "correctIndex": 1,
+    "gloss": "In which country did Milkha Singh win the race after which he was named «the Flying Sikh»? — Pakistan: Lahore, 1960, where General Ayub Khan gave him the name after he beat Abdul Khaliq."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਗੁਰਮੁਖੀ ਲਿਪੀ ਨੂੰ ਨਿਖਾਰਨ ਅਤੇ ਪ੍ਰਚਲਿਤ ਕਰਨ ਦਾ ਸਿਹਰਾ ਕਿਸ ਗੁਰੂ ਸਾਹਿਬ ਨੂੰ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ?",
+    "options": ["ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ", "ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ", "ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ", "ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ"],
+    "correctIndex": 1,
+    "gloss": "Which Guru is credited with refining and spreading the Gurmukhi script? — Guru Angad Dev, the second Guru."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ਜੂਲ ਵਰਨ ਦੇ ਨਾਵਲ ਵਿੱਚ ਕੈਪਟਨ ਨੀਮੋ ਦੀ ਪਣਡੁੱਬੀ ਦਾ ਨਾਂ ਕੀ ਸੀ?",
+    "options": ["ਪੀਕੁਓਡ", "ਹਿਸਪੈਨਿਓਲਾ", "ਬਾਊਂਟੀ", "ਨੌਟੀਲਸ"],
+    "correctIndex": 3,
+    "gloss": "In Jules Verne's novel, what was Captain Nemo's submarine called? — The Nautilus («Twenty Thousand Leagues Under the Seas»). Pequod is Moby-Dick's ship, Hispaniola Treasure Island's, Bounty a real mutiny ship."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ਮੁਲਤਾਨ ਜ਼ਿਲ੍ਹੇ ਦੇ ਰਾਏਪੁਰ ਵਿੱਚ ਜੰਮੇ ਹਰਗੋਬਿੰਦ ਖੁਰਾਨਾ ਨੂੰ 1968 ਦਾ ਨੋਬਲ ਪੁਰਸਕਾਰ ਕਿਸ ਖੇਤਰ ਵਿੱਚ ਮਿਲਿਆ?",
+    "options": ["ਰਸਾਇਣ ਵਿਗਿਆਨ", "ਭੌਤਿਕ ਵਿਗਿਆਨ", "ਚਿਕਿਤਸਾ", "ਸ਼ਾਂਤੀ"],
+    "correctIndex": 2,
+    "gloss": "Har Gobind Khorana, born in Raipur, Multan district, won the 1968 Nobel Prize in which field? — Physiology or Medicine (the genetic code). Chemistry is the trap: he was a chemist by training; Physics is the trap for Chandrasekhar, born in Lahore."
+  }
+]

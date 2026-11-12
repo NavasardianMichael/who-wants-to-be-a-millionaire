@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘തൊള്ളായിരം’ കേൾക്കുമ്പോൾ ‘ആയിരം’ ഉണ്ടെന്നു തോന്നും. പക്ഷേ അത് ഏത് സംഖ്യയാണ്?",
+    "options": [
+      "90",
+      "9,000",
+      "900",
+      "1,900"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Thollayiram' sounds like it contains 'ayiram' (1000). But which number is it? — 900: the trap is reading the 'thousand' inside the word."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ഇന്ന് തിങ്കളാഴ്ചയാണെങ്കിൽ ‘മറ്റന്നാൾ’ ഏത് ദിവസമാണ്?",
+    "options": [
+      "ബുധനാഴ്ച",
+      "ചൊവ്വാഴ്ച",
+      "വ്യാഴാഴ്ച",
+      "ശനിയാഴ്ച"
+    ],
+    "correctIndex": 0,
+    "gloss": "If today is Monday, what day is 'mattannal'? — Wednesday: mattannal is the day after tomorrow. Saturday would be 'mininjaannu', the day before yesterday."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘മഴ’ + ‘ഇല്ല’ ചേർന്ന് ‘മഴയില്ല’ ആകുമ്പോൾ ഇടയിൽ കയറിവരുന്ന വ്യഞ്ജനം ഏത്?",
+    "options": [
+      "ന്",
+      "വ്",
+      "യ്",
+      "ര്"
+    ],
+    "correctIndex": 2,
+    "gloss": "'Mazha' + 'illa' join as 'mazhayilla'. Which consonant slips in between? — Y: the glide inserted in sandhi, visible in the word itself."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ട്രെയിൻ ടിക്കറ്റിൽ പുറപ്പെടുന്ന സമയം 15:45 എന്നാണ്. അതായത് എപ്പോൾ?",
+    "options": [
+      "രാത്രി 9:45",
+      "വൈകിട്ട് 5:45",
+      "രാവിലെ 3:45",
+      "വൈകിട്ട് 3:45"
+    ],
+    "correctIndex": 3,
+    "gloss": "A train ticket says departure 15:45. When is that? — 3:45 p.m.: subtract 12. 5:45 is the trap of reading the last digit of 15."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "മലയാളികൾ സ്നേഹത്തോടെ ‘ആനവണ്ടി’ എന്നു വിളിക്കുന്നത് എന്തിനെയാണ്?",
+    "options": [
+      "തടി കയറ്റുന്ന ലോറി",
+      "തീവണ്ടി",
+      "കെഎസ്ആർടിസി ബസ്",
+      "ജലഗതാഗത ബോട്ട്"
+    ],
+    "correctIndex": 2,
+    "gloss": "What do Malayalis fondly call the 'elephant vehicle'? — The KSRTC bus, after the elephant emblem on its side. The timber lorry is the trap."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "വിഷുക്കണിയിൽ ഒഴിച്ചുകൂടാനാവാത്ത മഞ്ഞപ്പൂവ് ഏത്?",
+    "options": [
+      "മന്ദാരം",
+      "ചെമ്പരത്തി",
+      "തെച്ചി",
+      "കണിക്കൊന്ന"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which yellow flower is indispensable in the Vishukkani? — Kanikkonna (golden shower, Cassia fistula)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "പുട്ടുകുറ്റിയിൽ അരിപ്പൊടിക്കിടയിൽ അടുക്കടുക്കായി നിറയ്ക്കുന്നത് എന്താണ്?",
+    "options": [
+      "തേങ്ങ ചിരകിയത്",
+      "ശർക്കര",
+      "കടലപ്പരിപ്പ്",
+      "പഞ്ചസാര"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is layered between the rice flour in a puttu steamer? — Grated coconut."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘വരിക്ക’യും ‘കൂഴ’യും ഏത് പഴത്തിന്റെ ഇനങ്ങളാണ്?",
+    "options": [
+      "ചക്ക",
+      "മാങ്ങ",
+      "വാഴപ്പഴം",
+      "പേരക്ക"
+    ],
+    "correctIndex": 0,
+    "gloss": "'Varikka' and 'koozha' are varieties of which fruit? — Jackfruit: varikka has firm flesh, koozha soft and pulpy."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "വള്ളംകളിയിൽ പാമ്പിനെപ്പോലെ നീണ്ട, അമരം ഉയർന്നുനിൽക്കുന്ന വള്ളത്തിന്റെ പേര്?",
+    "options": [
+      "ഉരു",
+      "കെട്ടുവള്ളം",
+      "ചുണ്ടൻ",
+      "ചങ്ങാടം"
+    ],
+    "correctIndex": 2,
+    "gloss": "In boat races, what is the long, snake-like boat with a raised stern called? — Chundan (the snake boat). Kettuvallam is the houseboat, uru the wooden cargo ship."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘മണിച്ചിത്രത്താഴി’ൽ ഗംഗയായും നാഗവല്ലിയായും വേഷമിട്ട നടി ആര്?",
+    "options": [
+      "മഞ്ജു വാര്യർ",
+      "രേവതി",
+      "ഉർവശി",
+      "ശോഭന"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who played Ganga and Nagavalli in 'Manichitrathazhu' (1993)? — Shobana, who won the National Award for it."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "മലയാളികൾ ‘ഗാനഗന്ധർവൻ’ എന്നു വിളിക്കുന്ന ഗായകൻ ആര്?",
+    "options": [
+      "കെ.ജെ. യേശുദാസ്",
+      "പി. ജയചന്ദ്രൻ",
+      "എം.ജി. ശ്രീകുമാർ",
+      "ജി. വേണുഗോപാൽ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which singer do Malayalis call 'Gana Gandharvan'? — K. J. Yesudas. P. Jayachandran is the 'Bhavagayakan'."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "തോടുകളും കായലുകളും നിറഞ്ഞ് ‘കിഴക്കിന്റെ വെനീസ്’ എന്നറിയപ്പെടുന്ന നഗരം?",
+    "options": [
+      "കൊല്ലം",
+      "കൊച്ചി",
+      "കോട്ടയം",
+      "ആലപ്പുഴ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which town, full of canals and backwaters, is called the 'Venice of the East'? — Alappuzha."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1956-ൽ ഐക്യകേരളം പിറന്നതിന്റെ ഓർമയായ ‘കേരളപ്പിറവി’ ഏത് ദിവസമാണ്?",
+    "options": [
+      "ജനുവരി 26",
+      "നവംബർ 1",
+      "ഓഗസ്റ്റ് 15",
+      "ഒക്ടോബർ 2"
+    ],
+    "correctIndex": 1,
+    "gloss": "On which day is Kerala Piravi, marking the birth of united Kerala in 1956? — 1 November."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ബേപ്പൂർ സുൽത്താൻ’ എന്നറിയപ്പെട്ട എഴുത്തുകാരൻ ആര്?",
+    "options": [
+      "എം.ടി. വാസുദേവൻ നായർ",
+      "തകഴി ശിവശങ്കരപ്പിള്ള",
+      "എസ്.കെ. പൊറ്റെക്കാട്ട്",
+      "വൈക്കം മുഹമ്മദ് ബഷീർ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which writer was known as the 'Sultan of Beypore'? — Vaikom Muhammad Basheer, who settled at Beypore. Pottekkatt (also from Kozhikode) is the trap."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഐതിഹ്യമനുസരിച്ച് പന്തളത്തെ രാജകുമാരനായ അയ്യപ്പൻ കാട്ടിൽനിന്ന് മടങ്ങിയെത്തിയത് ഏത് ജീവിയുടെ പുറത്തേറിയാണ്?",
+    "options": [
+      "പുലി",
+      "ആന",
+      "കുതിര",
+      "കാള"
+    ],
+    "correctIndex": 0,
+    "gloss": "In legend, on which animal did Ayyappan, the prince of Pandalam, return from the forest? — A tiger (he had gone to fetch tigress milk)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഇവയിൽ കേരളത്തിൽ ജന്മമെടുത്ത ശാസ്ത്രീയനൃത്തം ഏത്?",
+    "options": [
+      "ഒഡീസി",
+      "ഭരതനാട്യം",
+      "കുച്ചിപ്പുടി",
+      "മോഹിനിയാട്ടം"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these classical dances was born in Kerala? — Mohiniyattam. Bharatanatyam is from Tamil Nadu, Kuchipudi from Andhra, Odissi from Odisha."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ആരോടും പറയരുതാത്ത, ഫോണിൽ വരുന്ന OTP-യിലെ ‘O’ എന്തിനെ സൂചിപ്പിക്കുന്നു?",
+    "options": [
+      "Open",
+      "Online",
+      "One",
+      "Official"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the 'O' in the OTP sent to your phone stand for? — One: One-Time Password."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ചിത്രങ്ങൾ തിരഞ്ഞെടുപ്പിച്ച് വെബ്സൈറ്റുകൾ ചോദിക്കുന്ന CAPTCHA എന്താണ് ഉറപ്പാക്കുന്നത്?",
+    "options": [
+      "നിങ്ങളുടെ ഇന്റർനെറ്റ് വേഗം",
+      "നിങ്ങൾ മനുഷ്യനാണെന്ന്",
+      "നിങ്ങളുടെ പ്രായം",
+      "നിങ്ങളുടെ കാഴ്ചശക്തി"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the CAPTCHA that makes you pick pictures check? — That you are a human, not a bot."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ലോകമെങ്ങും ആരാധകരുള്ള ‘ബിടിഎസ്’ എന്ന സംഗീതസംഘം ഏത് രാജ്യത്തുനിന്നാണ്?",
+    "options": [
+      "ചൈന",
+      "ജപ്പാൻ",
+      "ദക്ഷിണ കൊറിയ",
+      "തായ്‌ലൻഡ്"
+    ],
+    "correctIndex": 2,
+    "gloss": "The band BTS, with fans all over the world, is from which country? — South Korea (a K-pop group)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഫ്രിഡ്ജിൽനിന്നെടുത്ത തണുത്ത കുപ്പിയുടെ പുറത്ത് പൊടിയുന്ന വെള്ളത്തുള്ളികൾ എവിടെനിന്നാണ്?",
+    "options": [
+      "കുപ്പിക്കുള്ളിലെ വെള്ളം",
+      "വായുവിലെ നീരാവി",
+      "ഫ്രിഡ്ജിലെ ഐസ്",
+      "കുപ്പിയുടെ പ്ലാസ്റ്റിക്"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where do the drops on a cold bottle from the fridge come from? — Water vapour in the air, condensing on the cold surface."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "പ്രവാസി മലയാളികളുടെ രണ്ടാം വീടായ ദുബായ് ഏത് രാജ്യത്താണ്?",
+    "options": [
+      "സൗദി അറേബ്യ",
+      "യു.എ.ഇ.",
+      "ഖത്തർ",
+      "ഒമാൻ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Dubai, second home of many expatriate Malayalis, is in which country? — The UAE."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ക്രിക്കറ്റിൽ അമ്പയറുടെ തീരുമാനം ടിവി റീപ്ലേയിലൂടെ പുനഃപരിശോധിക്കാൻ ടീമിന് ആവശ്യപ്പെടാവുന്ന സംവിധാനം?",
+    "options": [
+      "DRS",
+      "VAR",
+      "LBW",
+      "NRR"
+    ],
+    "correctIndex": 0,
+    "gloss": "In cricket, the system a team uses to have an umpire's decision reviewed on TV replay? — DRS (Decision Review System). VAR is football's video referee, LBW a mode of dismissal, NRR net run rate."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ചെസ്സിൽ ‘L’ ആകൃതിയിൽ ചാടി നീങ്ങുന്ന കരു ഏത്?",
+    "options": [
+      "തേര്",
+      "ആന",
+      "കുതിര",
+      "കാലാൾ"
+    ],
+    "correctIndex": 2,
+    "gloss": "In chess, which piece jumps in an 'L'? — The knight (kuthira). Aana is the bishop, ther the rook, kaalaal the pawn."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഗൾഫിലേക്കുള്ള വിമാനയാത്രയിൽ ചെക്ക്-ഇൻ ബാഗേജിൽ വെക്കാൻ പാടില്ലാത്തത് ഏത്?",
+    "options": [
+      "പവർ ബാങ്ക്",
+      "അച്ചാർ കുപ്പി",
+      "ചെരിപ്പ്",
+      "തുണികൾ"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a flight to the Gulf, which of these may not go in checked baggage? — A power bank: lithium batteries must travel in the cabin. Pickles in a sealed bottle may go in the hold."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "കരോക്കെയിൽ ഒരു പാട്ടിൽനിന്ന് ഒഴിവാക്കിയിരിക്കുന്നത് എന്താണ്?",
+    "options": [
+      "താളം",
+      "പശ്ചാത്തലസംഗീതം",
+      "പാട്ടിന്റെ വരികൾ",
+      "ഗായകന്റെ ശബ്ദം"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is taken out of a song in karaoke? — The voice of the singer; the music stays and the lyrics are shown on screen."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "മനുഷ്യനെ കടിച്ച് ചോര കുടിക്കുന്നത് ഏത് കൊതുകുകളാണ്?",
+    "options": [
+      "ആൺകൊതുകുകൾ മാത്രം",
+      "പെൺകൊതുകുകൾ മാത്രം",
+      "ആണും പെണ്ണും ഒരുപോലെ",
+      "കൂത്താടികൾ മാത്രം"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which mosquitoes bite people and drink blood? — Only females, which need the protein for their eggs; males feed on nectar."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഷവർമയ്ക്കുള്ള ഇറച്ചി പരമ്പരാഗതമായി വേവിക്കുന്നത് എങ്ങനെയാണ്?",
+    "options": [
+      "കുത്തനെയുള്ള കമ്പിയിൽ കറക്കി",
+      "എണ്ണയിൽ വറുത്ത്",
+      "വെള്ളത്തിൽ പുഴുങ്ങി",
+      "മണ്ണിൽ കുഴിച്ചിട്ട്"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is shawarma meat traditionally cooked? — Stacked on a vertical spit, turning beside the heat, and shaved off as it cooks."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "പോലീസ്, ആംബുലൻസ്, അഗ്നിരക്ഷ — ഇന്ത്യയിൽ ഏത് അടിയന്തരസഹായത്തിനും വിളിക്കാവുന്ന ഒറ്റ നമ്പർ?",
+    "options": [
+      "101",
+      "100",
+      "108",
+      "112"
+    ],
+    "correctIndex": 3,
+    "gloss": "Police, ambulance, fire — the single number in India for any emergency? — 112. 100 is police, 108 ambulance, 101 fire."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘ഒരു വ്യാഴവട്ടം’ എന്നു പറയുന്നത് എത്ര വർഷത്തെയാണ്?",
+    "options": [
+      "14",
+      "10",
+      "12",
+      "60"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many years is 'oru vyazhavattam'? — 12: about one orbit of Jupiter (vyazham) around the Sun."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "അടുത്തുള്ളതിന്റെ വിലയറിയാത്തവരെക്കുറിച്ചുള്ള പഴഞ്ചൊല്ലിൽ, മുറ്റത്തെ മുല്ലയ്ക്ക് എന്തില്ല?",
+    "options": [
+      "മണം",
+      "നിറം",
+      "വില",
+      "ഭംഗി"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the proverb about not valuing what is close at hand, what does the jasmine in one's own yard lack? — Fragrance: «മുറ്റത്തെ മുല്ലയ്ക്ക് മണമില്ല»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ചെന്താമര, ചെങ്കല്ല്, ചെമ്മാനം — ഈ വാക്കുകളുടെ തുടക്കത്തിലെ ‘ചെം’ സൂചിപ്പിക്കുന്നത്?",
+    "options": [
+      "ചെറുപ്പം",
+      "വെളുപ്പ്",
+      "ചുവപ്പ്",
+      "വലുപ്പം"
+    ],
+    "correctIndex": 2,
+    "gloss": "Red lotus, laterite, red sky — what does the 'chem' at their start mean? — Red: the three things share only their colour."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ഇവയിൽ സാധാരണ ബഹുവചനത്തിൽ പറയാത്ത വാക്ക് ഏത്?",
+    "options": [
+      "കുട്ടി",
+      "പശു",
+      "പാൽ",
+      "മരം"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these words is not normally used in the plural? — Paal (milk), a mass noun; pashukkal, kuttikal and marangal are everyday plurals."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ഒന്നര മണിക്കൂറുള്ള സിനിമ വൈകിട്ട് 6:45-ന് തുടങ്ങി. അത് തീരുന്നത് എപ്പോൾ?",
+    "options": [
+      "8:45",
+      "7:45",
+      "8:30",
+      "8:15"
+    ],
+    "correctIndex": 3,
+    "gloss": "A film an hour and a half ('onnara') long starts at 6:45 p.m. When does it end? — 8:15."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "UPI വഴി പണം സ്വീകരിക്കാൻ നിങ്ങളുടെ യുപിഐ പിൻ നൽകേണ്ടത് എപ്പോൾ?",
+    "options": [
+      "ആദ്യ ഇടപാടിൽ മാത്രം",
+      "തുക 2,000 കടന്നാൽ",
+      "ഒരിക്കലും വേണ്ട",
+      "എല്ലായ്പ്പോഴും"
+    ],
+    "correctIndex": 2,
+    "gloss": "When must you enter your UPI PIN to receive money? — Never: the PIN is only for paying. A request to enter it to receive money is a scam."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "കണ്ടാൽ പനീർ പോലെ തോന്നുന്ന ടോഫു ഉണ്ടാക്കുന്നത് എന്തിൽനിന്നാണ്?",
+    "options": [
+      "പശുവിൻപാൽ",
+      "സോയാബീൻ",
+      "ചെറുപയർ",
+      "തേങ്ങാപ്പാൽ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Tofu looks like paneer, but what is it made from? — Soybeans (soy milk curdled). Paneer is from cow's milk."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ജലദോഷത്തിന് ആന്റിബയോട്ടിക് കഴിച്ചിട്ട് ഫലമില്ലാത്തത് എന്തുകൊണ്ട്?",
+    "options": [
+      "അതുണ്ടാക്കുന്നത് വൈറസാണ്",
+      "അതുണ്ടാക്കുന്നത് ബാക്ടീരിയയാണ്",
+      "അത് അലർജി മാത്രമാണ്",
+      "അതുണ്ടാക്കുന്നത് വിരകളാണ്"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why are antibiotics useless against a common cold? — It is caused by viruses; antibiotics act on bacteria."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഇവയിൽ ‘തെയ്യങ്ങളുടെ നാട്’ എന്നറിയപ്പെടുന്ന ജില്ല ഏത്?",
+    "options": [
+      "പത്തനംതിട്ട",
+      "ആലപ്പുഴ",
+      "കോട്ടയം",
+      "കണ്ണൂർ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these districts is known as the land of Theyyam? — Kannur (with Kasaragod, not among the options)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ആനപ്പുറത്ത് വർണക്കുടകൾ മാറിമാറി ഉയർത്തുന്ന ‘കുടമാറ്റം’ ഏത് ഉത്സവത്തിന്റേതാണ്?",
+    "options": [
+      "തൃശ്ശൂർ പൂരം",
+      "ആറ്റുകാൽ പൊങ്കാല",
+      "ആറന്മുള വള്ളംകളി",
+      "ഗുരുവായൂർ ഏകാദശി"
+    ],
+    "correctIndex": 0,
+    "gloss": "The 'kudamattam', colourful parasols swapped atop elephants, belongs to which festival? — Thrissur Pooram."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "മരുഭൂമിയിൽ ആടുകൾക്കൊപ്പം അടിമയെപ്പോലെ കഴിഞ്ഞ നജീബിന്റെ കഥ ‘ആടുജീവിതം’ എഴുതിയതാര്?",
+    "options": [
+      "എം. മുകുന്ദൻ",
+      "ബെന്യാമിൻ",
+      "കെ.ആർ. മീര",
+      "സുഭാഷ് ചന്ദ്രൻ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote 'Aadujeevitham' (Goat Days), the story of Najeeb enslaved with goats in the desert? — Benyamin."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "2023-ൽ ചന്ദ്രയാൻ-3 ചന്ദ്രനിൽ ഇറങ്ങിയത് ഏത് ഭാഗത്താണ്?",
+    "options": [
+      "ചന്ദ്രന്റെ മറുപുറത്ത്",
+      "ഉത്തരധ്രുവത്തിനടുത്ത്",
+      "ചന്ദ്രന്റെ മധ്യരേഖയിൽ",
+      "ദക്ഷിണധ്രുവത്തിനടുത്ത്"
+    ],
+    "correctIndex": 3,
+    "gloss": "Where on the Moon did Chandrayaan-3 land in 2023? — Near the south pole, the first landing in that region."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "വെബ് വിലാസത്തിന്റെ തുടക്കത്തിലുള്ള ‘https’-ലെ അവസാനത്തെ ‘s’ എന്തിനെ സൂചിപ്പിക്കുന്നു?",
+    "options": [
+      "Server",
+      "Secure",
+      "Site",
+      "System"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the final 's' of 'https' stand for? — Secure: the connection is encrypted."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ജപ്പാനിൽനിന്നുള്ള ‘ഒറിഗാമി’ എന്ന കല എന്താണ്?",
+    "options": [
+      "പൂക്കൾ ചിട്ടയോടെ അലങ്കരിക്കൽ",
+      "കടലാസ് മടക്കി രൂപങ്ങളുണ്ടാക്കൽ",
+      "മൺപാത്ര നിർമാണം",
+      "ബ്രഷും മഷിയും കൊണ്ടുള്ള എഴുത്തുകല"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the Japanese art of 'origami'? — Folding paper into shapes. Flower arranging is ikebana, brush writing is shodo."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "സ്വർണാഭരണങ്ങളിൽ കാണുന്ന ‘916’ എന്ന മുദ്ര സൂചിപ്പിക്കുന്ന ശുദ്ധി എത്ര?",
+    "options": [
+      "24 കാരറ്റ്",
+      "22 കാരറ്റ്",
+      "18 കാരറ്റ്",
+      "20 കാരറ്റ്"
+    ],
+    "correctIndex": 1,
+    "gloss": "What purity does the '916' mark on gold jewellery indicate? — 22 carat: 916 parts in 1000 is 22/24 (24 carat being pure gold)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1888-ൽ അരുവിപ്പുറത്ത് ശിവപ്രതിഷ്ഠ നടത്തിയ നവോത്ഥാന നായകൻ ആര്?",
+    "options": [
+      "അയ്യങ്കാളി",
+      "ചട്ടമ്പിസ്വാമികൾ",
+      "ശ്രീനാരായണ ഗുരു",
+      "വാഗ്ഭടാനന്ദൻ"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which reformer consecrated a Shiva idol at Aruvippuram in 1888? — Sree Narayana Guru."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ഏത് രാജ്യത്തുള്ളവരെയാണ് ഓമനപ്പേരായി ‘കിവികൾ’ എന്നു വിളിക്കുന്നത്?",
+    "options": [
+      "ഓസ്ട്രേലിയ",
+      "ന്യൂസിലൻഡ്",
+      "ദക്ഷിണാഫ്രിക്ക",
+      "കാനഡ"
+    ],
+    "correctIndex": 1,
+    "gloss": "The people of which country are nicknamed 'Kiwis'? — New Zealand, after its flightless national bird."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "‘പ്രകാശവർഷം’ എന്ന ഏകകം അളക്കുന്നത് എന്താണ്?",
+    "options": [
+      "സമയം",
+      "ദൂരം",
+      "വേഗം",
+      "പ്രകാശതീവ്രത"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the unit 'light year' measure? — Distance (how far light travels in a year), despite 'year' in its name."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഇന്ത്യയിലെ ആദ്യ 3D സിനിമ എന്ന ഖ്യാതിയുള്ള മലയാളചിത്രം ഏത്?",
+    "options": [
+      "പടയോട്ടം",
+      "മൈ ഡിയർ കുട്ടിച്ചാത്തൻ",
+      "കിലുക്കം",
+      "ഒരു വടക്കൻ വീരഗാഥ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Malayalam film is India's first 3D film? — My Dear Kuttichathan (1984). Padayottam (1982) was the first Malayalam 70 mm film."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1921-ൽ ഇൻസുലിൻ കണ്ടെത്തിയ ബാന്റിങ്ങും ബെസ്റ്റും ഏത് രാജ്യത്താണ് ഗവേഷണം നടത്തിയത്?",
+    "options": [
+      "കാനഡ",
+      "അമേരിക്ക",
+      "ബ്രിട്ടൻ",
+      "ജർമനി"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country did Banting and Best, who discovered insulin in 1921, do their research? — Canada, at the University of Toronto."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ഒ. ചന്തുമേനോന്റെ ‘ഇന്ദുലേഖ’യിൽ ഇന്ദുലേഖയുടെ പ്രണയനായകൻ ആര്?",
+    "options": [
+      "കേശവൻ നമ്പൂതിരി",
+      "സൂരി നമ്പൂതിരിപ്പാട്",
+      "പഞ്ചുമേനോൻ",
+      "മാധവൻ"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Chandu Menon's 'Indulekha', who is the heroine's beloved? — Madhavan. Suri Nambudiripad is the foolish suitor, Panchu Menon her grandfather."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1887-ൽ പുറത്തിറങ്ങിയ ‘കുന്ദലത’ എന്ന ആദ്യകാല മലയാള നോവൽ എഴുതിയതാര്?",
+    "options": [
+      "അപ്പു നെടുങ്ങാടി",
+      "ഒ. ചന്തുമേനോൻ",
+      "സി.വി. രാമൻപിള്ള",
+      "കേരളവർമ്മ വലിയകോയിത്തമ്പുരാൻ"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Kundalatha' (1887), one of the earliest Malayalam novels? — Appu Nedungadi. Chandu Menon wrote Indulekha (1889), C. V. Raman Pillai Marthandavarma (1891)."
+  }
+]

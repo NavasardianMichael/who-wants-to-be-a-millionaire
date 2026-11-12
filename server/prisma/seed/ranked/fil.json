@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kapag sinisingitan ng “-um-” ang salitang-ugat na “sulat”, ano ang mabubuong pandiwa?",
+    "options": [
+      "Sumulat",
+      "Usulat",
+      "Sulumat",
+      "Sulatum"
+    ],
+    "correctIndex": 0,
+    "gloss": "The infix -um- inserted into the root \"sulat\" (write) gives which verb? — \"sumulat\": -um- goes after the first consonant."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kung “maglalaro” ang gagawin pa lang, ano ang tamang anyo kapag tapos na ang paglalaro?",
+    "options": [
+      "Naglalaro",
+      "Maglaro",
+      "Paglalaro",
+      "Naglaro"
+    ],
+    "correctIndex": 3,
+    "gloss": "If \"maglalaro\" is the future (will play), what is the completed form? — \"naglaro\": mag- becomes nag- for a finished action, without the reduplication of the ongoing \"naglalaro\"."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ikalawa, ikatlo, ikaapat… Anong salita ang nauuna sa kanilang lahat?",
+    "options": [
+      "Ikaisa",
+      "Pang-isa",
+      "Isahan",
+      "Una"
+    ],
+    "correctIndex": 3,
+    "gloss": "Second, third, fourth... which word comes before them all? — \"una\" (first): the ordinal of one is not built with ika- like the rest; the pun is that \"nauuna\" (comes first) contains it."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kung “dalawampu” ang 20, anong bilang ang “tatlumpu’t lima”?",
+    "options": [
+      "25",
+      "35",
+      "45",
+      "53"
+    ],
+    "correctIndex": 1,
+    "gloss": "If \"dalawampu\" is 20, what number is \"tatlumpu't lima\"? — 35: tatlo (3) + -mpu (tens) and lima (5)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ang “bukas” ay “ang susunod na araw”. Ano pa ang kahulugan nito kapag iba ang diin?",
+    "options": [
+      "Hindi sarado",
+      "Hindi tapos",
+      "Hindi luto",
+      "Hindi puno"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Bukas\" means \"the next day\". What else does it mean with a different stress? — \"not closed\": búkas is tomorrow, bukás is open."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ano ang ibig sabihin kapag sinabing “balat-sibuyas” ang isang tao?",
+    "options": [
+      "Maputi at makinis ang kutis",
+      "Laging nagsisinungaling",
+      "Mahilig magluto",
+      "Madaling magtampo o masaktan"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does it mean to call someone \"onion-skinned\"? — easily hurt or offended: the idiom for an over-sensitive person."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa pagmamano, saan idinidikit ang likod ng kamay ng nakatatanda?",
+    "options": [
+      "Sa pisngi",
+      "Sa labi",
+      "Sa noo",
+      "Sa dibdib"
+    ],
+    "correctIndex": 2,
+    "gloss": "In \"pagmamano\", where do you press the back of the elder's hand? — to the forehead: the gesture of respect for elders."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa larawang sumasagisag sa bayanihan, ano ang sama-samang pinapasan ng magkakapitbahay?",
+    "options": [
+      "Bahay",
+      "Bangka",
+      "Kalabaw",
+      "Kampana"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the iconic image of bayanihan, what do neighbours carry together? — a house: the community moving a nipa house on bamboo poles."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Anong hugis mayroon ang tradisyonal na parol na isinasabit tuwing Pasko?",
+    "options": [
+      "Puso",
+      "Buwan",
+      "Krus",
+      "Bituin"
+    ],
+    "correctIndex": 3,
+    "gloss": "What shape is the traditional Christmas parol lantern? — a star, recalling the Star of Bethlehem."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa mitolohiyang Norse, anong sandata ang hawak ng diyos ng kulog na si Thor?",
+    "options": [
+      "Sibat",
+      "Espada",
+      "Martilyo",
+      "Pana"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Norse mythology, what weapon does the thunder god Thor wield? — a hammer, Mjölnir."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa “Ibong Adarna”, bakit hinanap ng tatlong prinsipe ang mahiwagang ibon?",
+    "options": [
+      "Upang pagalingin ang amang hari",
+      "Upang ihandog sa isang prinsesa",
+      "Upang manalo sa isang paligsahan",
+      "Upang mabawi ang nawalang korona"
+    ],
+    "correctIndex": 0,
+    "gloss": "In \"Ibong Adarna\", why did the three princes seek the magic bird? — to cure their father, King Fernando: only its song could heal him."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Halos kasinlaki ng utak nito ang bawat mata ng maliit na hayop na ito na dinarayo sa Bohol. Ano ito?",
+    "options": [
+      "Musang",
+      "Kagwang",
+      "Paniki",
+      "Tarsier"
+    ],
+    "correctIndex": 3,
+    "gloss": "Each eye of this small animal, a Bohol attraction, is about as big as its brain. What is it? — the Philippine tarsier."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Itlog ng anong ibon ang karaniwang ginagawang balut?",
+    "options": [
+      "Manok",
+      "Pugo",
+      "Itik",
+      "Gansa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Whose egg is usually made into balut? — the duck's (itik): a fertilised duck egg boiled with the embryo inside."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ano ang tawag sa malaking kahong puno ng pasalubong na ipinapadala ng OFW sa kanyang pamilya?",
+    "options": [
+      "Bayong",
+      "Balikbayan box",
+      "Tampipi",
+      "Kaban"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the big box of gifts an overseas worker ships home called? — the balikbayan box; bayong, tampipi and kaban are other containers."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bakit hindi dapat isama ang aluminum foil sa loob ng microwave?",
+    "options": [
+      "Puwede itong kumislap at magliyab",
+      "Lalamig ang pagkain",
+      "Magiging magnet ang foil",
+      "Matutunaw agad ang foil"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why shouldn't aluminium foil go in a microwave? — it can spark and start a fire: the metal reflects the microwaves and arcs."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa sunscreen, ano ang sinusukat ng “SPF”?",
+    "options": [
+      "Bango ng krema",
+      "Tagal bago matuyo",
+      "Dami ng bitamina",
+      "Proteksiyon laban sa sunburn"
+    ],
+    "correctIndex": 3,
+    "gloss": "On sunscreen, what does SPF measure? — protection against sunburn (Sun Protection Factor)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mga ilang digri Celsius ang normal na temperatura ng katawan ng tao?",
+    "options": [
+      "35 °C",
+      "37 °C",
+      "39 °C",
+      "41 °C"
+    ],
+    "correctIndex": 1,
+    "gloss": "About how many degrees Celsius is normal human body temperature? — about 37 °C."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ano ang hinihiling ng “RSVP” na nakasulat sa imbitasyon sa kasal?",
+    "options": [
+      "Magdala ng regalo",
+      "Magsuot ng puti",
+      "Sumagot kung dadalo",
+      "Dumating nang maaga"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does \"RSVP\" on a wedding invitation ask? — to reply whether you will come (French \"répondez s'il vous plaît\")."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saang bahagi ng sobre karaniwang idinidikit ang selyo?",
+    "options": [
+      "Kanang itaas",
+      "Kaliwang itaas",
+      "Kanang ibaba",
+      "Likod ng sobre"
+    ],
+    "correctIndex": 0,
+    "gloss": "Where on an envelope does the stamp usually go? — top right."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ano ang OTP na ipinapadala sa iyo sa text bago ituloy ang online na bayad?",
+    "options": [
+      "Numero ng iyong account",
+      "Resibo ng binayaran",
+      "Permanenteng password",
+      "Code na isang beses lang magagamit"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the OTP texted to you before an online payment goes through? — a code usable only once (one-time PIN/password)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa Instagram at Facebook, anong uri ng post ang kusang nawawala pagkalipas ng 24 oras?",
+    "options": [
+      "Reel",
+      "Live",
+      "Story",
+      "Album"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Instagram and Facebook, which kind of post disappears by itself after 24 hours? — a Story."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa mundo ni Harry Potter, anong laro ang nilalaro habang nakasakay sa walis?",
+    "options": [
+      "Croquet",
+      "Quidditch",
+      "Polo",
+      "Wizard’s chess"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Harry Potter's world, which game is played on broomsticks? — Quidditch."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pagkatapos mong kumanta sa videoke, ano ang karaniwang ipinapakita ng makina sa screen?",
+    "options": [
+      "Iskor",
+      "Presyo ng kanta",
+      "Oras ng pagkanta",
+      "Pangalan ng mang-aawit"
+    ],
+    "correctIndex": 0,
+    "gloss": "After you sing on a videoke machine, what does it usually show on screen? — a score, the moment every Filipino party waits for."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa volleyball, hanggang ilang palo ang puwede sa isang koponan bago itawid ang bola sa net?",
+    "options": [
+      "Dalawa",
+      "Tatlo",
+      "Apat",
+      "Lima"
+    ],
+    "correctIndex": 1,
+    "gloss": "In volleyball, up to how many hits may a team make before sending the ball over? — three."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa bowling, ano ang tawag kapag napatumba mo ang lahat ng sampung pin sa unang tira?",
+    "options": [
+      "Spare",
+      "Gutter",
+      "Split",
+      "Strike"
+    ],
+    "correctIndex": 3,
+    "gloss": "In bowling, what is knocking down all ten pins with the first ball called? — a strike (a spare takes two balls)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aling bansa ang pinakamalapit na kapitbahay ng Pilipinas sa dakong hilaga ng Batanes?",
+    "options": [
+      "Hapon",
+      "Vietnam",
+      "Taiwan",
+      "Timog Korea"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is the Philippines' nearest neighbour north of Batanes? — Taiwan, across the Bashi Channel."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Anong kape ang espresso na hinaluan ng maraming steamed milk at may manipis na foam sa ibabaw?",
+    "options": [
+      "Latte",
+      "Americano",
+      "Ristretto",
+      "Doppio"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which coffee is espresso with plenty of steamed milk and a thin layer of foam? — A latte; an Americano is espresso with hot water, ristretto and doppio are espresso shots."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ano ang tawag sa guhit ng mukha ng tao na sadyang pinalalaki ang ilong, tainga o ngiti para magpatawa?",
+    "options": [
+      "Portrait",
+      "Mural",
+      "Silweta",
+      "Karikatura"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is a drawing of a face that exaggerates the nose, ears or smile for fun called? — a caricature."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Alin ang tamang ipupuno: “Tumakbo siya ___ mabilis.”",
+    "options": [
+      "ng",
+      "noong",
+      "nang",
+      "nung"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which fills the blank: \"He ran ___ fast\"? — \"nang\": it links a verb to the adverb describing it; \"ng\" marks a noun."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kapag sinabing “nagbibilang ng poste” ang isang tao, ano ang kalagayan niya?",
+    "options": [
+      "Lasing na lasing",
+      "Walang trabaho",
+      "Naliligaw sa daan",
+      "Naghihintay ng jeep"
+    ],
+    "correctIndex": 1,
+    "gloss": "If someone is \"counting lamp posts\", what is their situation? — jobless: the idiom for having nothing to do but walk the streets."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sinong mang-aawit ang tinaguriang “Asia’s Songbird”?",
+    "options": [
+      "Regine Velasquez",
+      "Sarah Geronimo",
+      "Lea Salonga",
+      "Pops Fernandez"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which singer is called \"Asia's Songbird\"? — Regine Velasquez."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Aling katutubong sining ng pakikipaglaban gamit ang yantok ang itinakdang pambansang isport noong 2009?",
+    "options": [
+      "Sipa",
+      "Sikaran",
+      "Dumog",
+      "Arnis"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which native martial art fought with rattan sticks was made the national sport in 2009? — arnis (Republic Act 9850); sipa was long called the national sport before it."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nagpakadalubhasa si Rizal sa isang sangay ng medisina para gamutin ang kanyang ina. Saang bahagi ng katawan?",
+    "options": [
+      "Puso",
+      "Baga",
+      "Mata",
+      "Tainga"
+    ],
+    "correctIndex": 2,
+    "gloss": "Rizal specialised in a branch of medicine to treat his mother. Which part of the body? — the eyes: he studied ophthalmology and operated on her cataract."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bakit pumapresko ang pakiramdam sa harap ng electric fan kahit hindi lumalamig ang kuwarto?",
+    "options": [
+      "Naglalabas ito ng malamig na hangin",
+      "Pinabibilis nito ang pagsingaw ng pawis",
+      "Hinihigop nito ang init ng kuwarto",
+      "Pinabibigat nito ang hangin"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does a fan feel cooling though the room doesn't get colder? — it speeds up the evaporation of sweat, which takes heat from the skin."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bakit umaalsa ang masa ng tinapay kapag nilagyan ng yeast?",
+    "options": [
+      "Naglalabas ito ng carbon dioxide",
+      "Sumisipsip ito ng tubig",
+      "Tinutunaw nito ang harina",
+      "Pinaiinit nito ang masa"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why does bread dough rise with yeast? — the yeast gives off carbon dioxide, whose bubbles puff up the dough."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa email, aling field ang ginagamit para padalhan ng kopya ang isang tao nang hindi ito nakikita ng ibang tumanggap?",
+    "options": [
+      "CC",
+      "Reply All",
+      "Forward",
+      "BCC"
+    ],
+    "correctIndex": 3,
+    "gloss": "In email, which field sends someone a copy without the other recipients seeing it? — BCC (blind carbon copy)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa tennis, anong salita ang ginagamit sa halip na “zero” sa iskor?",
+    "options": [
+      "Deuce",
+      "Ace",
+      "Love",
+      "Let"
+    ],
+    "correctIndex": 2,
+    "gloss": "In tennis, which word replaces \"zero\" in the score? — love."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aling sinaunang kabihasnan ang nagtayo ng Machu Picchu sa kabundukan ng Peru?",
+    "options": [
+      "Maya",
+      "Inca",
+      "Aztec",
+      "Olmec"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which ancient civilisation built Machu Picchu in the Peruvian mountains? — the Inca."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sa “The Matrix”, anong kulay ng tableta ang pinili ni Neo para malaman ang katotohanan?",
+    "options": [
+      "Pula",
+      "Asul",
+      "Berde",
+      "Puti"
+    ],
+    "correctIndex": 0,
+    "gloss": "In \"The Matrix\", which colour pill does Neo take to learn the truth? — red; the blue one would have sent him back to his illusion."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hindi dumaraan sa Pilipinas ang ekwador. Aling kalapit na bansa ang tinatawid nito?",
+    "options": [
+      "Malaysia",
+      "Brunei",
+      "Papua New Guinea",
+      "Indonesia"
+    ],
+    "correctIndex": 3,
+    "gloss": "The equator does not cross the Philippines. Which neighbouring country does it cross? — Indonesia (Sumatra, Borneo, Sulawesi); Malaysia, Brunei and Papua New Guinea lie just off it."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ilang tig-bebente ang bubuo sa isang libong piso?",
+    "options": [
+      "20",
+      "40",
+      "50",
+      "500"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many twenty-peso pieces make a thousand pesos? — 50: 1,000 ÷ 20."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bakit kulay-rosas ang balahibo ng flamingo?",
+    "options": [
+      "Dahil sa kinakain nitong hipon at lumot",
+      "Dahil sa tindi ng sikat ng araw",
+      "Dahil sa dugong malapit sa balat",
+      "Dahil sa putik na pinaliliguan nito"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why are flamingo feathers pink? — pigments (carotenoids) in the shrimp and algae they eat."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sa ilang magkakaibang dibisyon ng timbang naging kampeon sa mundo si Manny Pacquiao?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "gloss": "In how many weight divisions did Manny Pacquiao win world titles? — 8, the only boxer ever to do so."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ang Simbahan ng Paoay sa Ilocos Norte, na may dambuhalang mga buttress sa gilid, ay halimbawa ng anong istilo?",
+    "options": [
+      "Gothic Revival",
+      "Earthquake Baroque",
+      "Neoclassical",
+      "Art Deco"
+    ],
+    "correctIndex": 1,
+    "gloss": "Paoay Church in Ilocos Norte, with its huge side buttresses, is an example of which style? — Earthquake Baroque, built low and buttressed against quakes (a UNESCO World Heritage site)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bakit hinahaluan ng asin ang yelo sa garapinyera kapag gumagawa ng sorbetes?",
+    "options": [
+      "Para lumamig pa ito nang lampas sa 0 °C",
+      "Para tumamis ang sorbetes",
+      "Para hindi dumikit ang sorbetes",
+      "Para hindi agad matunaw ang yelo"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why is salt mixed with the ice in a sorbetes churn? — salt lowers the melting point, so the brine gets colder than 0 °C and freezes the cream; the ice actually melts faster."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ano ang tawag sa hanay ng maliliit na gong na tinutugtog ng mga Maranao at Maguindanao?",
+    "options": [
+      "Kudyapi",
+      "Gangsa",
+      "Agung",
+      "Kulintang"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the row of small gongs played by the Maranao and Maguindanao called? — kulintang; the kudyapi is a lute, gangsa are Cordillera flat gongs, the agung a single large gong."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ang “kindergarten” ay literal na “hardin ng mga bata”. Sa anong wika ito hiniram?",
+    "options": [
+      "Olandes",
+      "Aleman",
+      "Ingles",
+      "Suweko"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Kindergarten\" literally means \"garden of children\". From which language is it borrowed? — German: Kinder (children) + Garten (garden), coined by Friedrich Fröbel."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Saang lungsod sa Mindanao nahukay ang mga sinaunang bangkang balangay na mahigit isang libong taon na ang tanda?",
+    "options": [
+      "Butuan",
+      "Zamboanga",
+      "Cotabato",
+      "Iligan"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Mindanao city were the ancient balangay boats, over a thousand years old, excavated? — Butuan (Agusan del Norte), from 1976 on."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ang “Na” ng sodium ay mula sa Latin na “natrium”. Aling elemento ang “K”, mula sa “kalium”?",
+    "options": [
+      "Kalsiyo",
+      "Kripton",
+      "Kobalt",
+      "Potasyo"
+    ],
+    "correctIndex": 3,
+    "gloss": "Sodium's \"Na\" comes from Latin \"natrium\". Which element is \"K\", from \"kalium\"? — potassium; calcium is Ca, krypton Kr, cobalt Co."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Anong artepakto, na may petsang 900 AD, ang pinakamatandang kilalang nakasulat na dokumento sa Pilipinas?",
+    "options": [
+      "Butuan Ivory Seal",
+      "Calatagan Pot",
+      "Laguna Copperplate Inscription",
+      "Manunggul Jar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which artefact, dated 900 AD, is the oldest known written document in the Philippines? — the Laguna Copperplate Inscription (Saka year 822); the ivory seal and the pot are later, the Manunggul Jar bears no writing."
+  }
+]
