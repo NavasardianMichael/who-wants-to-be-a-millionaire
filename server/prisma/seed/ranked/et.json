@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sõber kirjutab: „Ta jõi hommikul kaks tassi kohvi.“ Kes need tassid ära jõi?",
+    "options": [
+      "Mees",
+      "Naine",
+      "Kas mees või naine",
+      "Mitu inimest"
+    ],
+    "correctIndex": 2,
+    "gloss": "A friend writes: 'Ta drank two cups of coffee this morning.' Who drank them? — A man or a woman: Estonian 'ta/tema' has no gender, so the sentence doesn't say. 'Several people' is ruled out by the singular."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lauses „Homme ma sõidan Tartusse“ räägitakse tulevikust. Mis ajavormis on aga tegusõna „sõidan“?",
+    "options": [
+      "Tulevikus",
+      "Olevikus",
+      "Lihtminevikus",
+      "Täisminevikus"
+    ],
+    "correctIndex": 1,
+    "gloss": "'Tomorrow I drive to Tartu' is about the future. But what tense is the verb 'sõidan'? — Present: Estonian has no future tense and uses the present; 'future' is the autopilot trap."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kui sõnas „kõrv“ võtta õ-lt ära tilde, mis asjaks kõrv muutub?",
+    "options": [
+      "Korviks",
+      "Kotiks",
+      "Kastiks",
+      "Kausiks"
+    ],
+    "correctIndex": 0,
+    "gloss": "Take the tilde off the õ in 'kõrv' (ear): what does the ear turn into? — A basket: 'korv'."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vabariigi aastapäeva õhtul vaatab pool Eestit teleris presidendi vastuvõtul kätlemist. Mis kuupäeval see on?",
+    "options": [
+      "2. veebruaril",
+      "24. veebruaril",
+      "20. augustil",
+      "16. novembril"
+    ],
+    "correctIndex": 1,
+    "gloss": "On the evening of Independence Day half of Estonia watches the handshakes at the President's reception on TV. What date is it? — 24 February (1918 declaration). 20 August is the Restoration of Independence Day, 2 February the Tartu Peace Treaty anniversary, 16 November the Declaration of Sovereignty (1988)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millest valmistatakse kama, mida segatakse keefiri või hapupiimaga?",
+    "options": [
+      "Kuivatatud marjapulbrist",
+      "Purustatud kartulihelvestest",
+      "Riivitud kodujuustust",
+      "Röstitud vilja- ja hernejahust"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is kama, stirred into kefir or sour milk, made of? — A flour of roasted grains (barley, rye, oats) and peas."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millest seotakse Eestis kõige sagedamini saunaviht?",
+    "options": [
+      "Kuuseokstest",
+      "Männiokstest",
+      "Kaseokstest",
+      "Pihlakaokstest"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a sauna whisk most often bound from in Estonia? — Birch twigs (oak and juniper are rarer; spruce, pine and rowan aren't the usual ones)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millises riigis maksetakse zlottides?",
+    "options": [
+      "Tšehhis",
+      "Ungaris",
+      "Rumeenias",
+      "Poolas"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which country do people pay in złoty? — Poland. Czechia has the koruna, Hungary the forint, Romania the leu."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millist lahte ületab laev, mis sõidab Tallinnast Helsingisse?",
+    "options": [
+      "Liivi lahte",
+      "Botnia lahte",
+      "Soome lahte",
+      "Pärnu lahte"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which gulf does the ferry from Tallinn to Helsinki cross? — The Gulf of Finland."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millise Eestis leiutatud spordiala harrastaja teeb jäikade vartega kiigel täispöörde ümber võlli?",
+    "options": [
+      "Pesapall",
+      "Kurling",
+      "Petank",
+      "Kiiking"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which sport invented in Estonia does the athlete swing a full circle around the axle on a swing with rigid arms? — Kiiking (Ado Kosk, 1990s). Pesäpallo is Finnish."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mis tüüpi pill on eesti rahvapill kannel?",
+    "options": [
+      "Keelpill",
+      "Puhkpill",
+      "Löökpill",
+      "Klahvpill"
+    ],
+    "correctIndex": 0,
+    "gloss": "What type of instrument is the Estonian folk instrument kannel? — A string instrument (a zither, kin to the Finnish kantele)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline Eestis asutatud firma pakub äpis taksosõite ja renditõukerattaid?",
+    "options": [
+      "Uber",
+      "Wolt",
+      "Lime",
+      "Bolt"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which company founded in Estonia offers taxi rides and rental scooters in its app? — Bolt (founded as Taxify by Markus Villig). Wolt is Finnish, Uber and Lime American."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kes jõuab Oskar Lutsu „Kevade“ esimestel lehekülgedel isaga kooli, kui tunnid on juba alanud?",
+    "options": [
+      "Arno Tali",
+      "Joosep Toots",
+      "Georg Kiir",
+      "Jaan Imelik"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who arrives at school with his father on the first pages of Luts's 'Spring', after lessons have begun? — Arno Tali: 'Kui Arno isaga koolimajja jõudis, olid tunnid juba alanud.'"
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millisel spordialal tuli Ott Tänak 2019. aastal maailmameistriks?",
+    "options": [
+      "Rallis",
+      "Vormel 1-s",
+      "Motokrossis",
+      "Suusahüpetes"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did Ott Tänak become world champion in 2019? — Rally (WRC, with co-driver Martin Järveoja)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kes on eesti muinasjuttudes jõuline, aga rumal kurat, keda Kaval-Ants ikka ninapidi veab?",
+    "options": [
+      "Näkk",
+      "Kratt",
+      "Vanapagan",
+      "Libahunt"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who is the strong but stupid devil of Estonian folk tales whom Crafty Ants always fools? — Vanapagan (Old Heathen)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vastlapäeval lastakse mäest liugu. Mida pidi pikk liug rahvauskumuse järgi kasvatama?",
+    "options": [
+      "Suuri kartuleid",
+      "Rammusat heina",
+      "Pikka lina",
+      "Paksu villa"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Shrovetide people sledge downhill. What was a long slide believed to make grow? — Long flax."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mis oli Eesti rahaühik enne eurole üleminekut 2011. aastal?",
+    "options": [
+      "Mark",
+      "Rubla",
+      "Litt",
+      "Kroon"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was Estonia's currency before the switch to the euro in 2011? — The kroon (1992–2010). The mark was used 1919–1927, the litas is Lithuanian."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mida teeb arvutis klahvikombinatsioon Ctrl+Z?",
+    "options": [
+      "Salvestab faili",
+      "Kopeerib valitud teksti",
+      "Tühistab viimase toimingu",
+      "Sulgeb akna"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does Ctrl+Z do on a computer? — Undoes the last action. Ctrl+S saves, Ctrl+C copies."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Riiete hooldussildil on pesukausi sees number 30. Mida see tähendab?",
+    "options": [
+      "Pesta kuni 30 °C juures",
+      "Pesta kuni 30 minutit",
+      "Pesta masinas kuni 30 korda",
+      "Kuivatada 30 °C juures"
+    ],
+    "correctIndex": 0,
+    "gloss": "A care label shows a washtub with 30 in it. What does it mean? — Wash at up to 30 °C."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Miks puistatakse talvel jäistele teedele soola?",
+    "options": [
+      "Sool soojendab asfalti",
+      "Sool teeb jää karedaks",
+      "Sool imab jääst vee välja",
+      "Sool alandab vee külmumistemperatuuri"
+    ],
+    "correctIndex": 3,
+    "gloss": "Why is salt spread on icy roads in winter? — Salt water freezes at a lower temperature, so the ice melts. Grit, not salt, makes ice rough."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis tuleb tennise punktilugemises pärast 15 ja 30?",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correctIndex": 1,
+    "gloss": "What comes after 15 and 30 in tennis scoring? — 40. 45 is the tempting 'logical' step."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mida teeb muusikaäpis nupp, millel on kaks ristuvat noolt?",
+    "options": [
+      "Segab lugude järjekorra",
+      "Kordab lugu",
+      "Hüppab järgmise loo juurde",
+      "Lisab loo lemmikutesse"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the button with two crossing arrows do in a music app? — Shuffle: plays the tracks in random order. Repeat is a looped arrow."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millises sarjas hakkab keemiaõpetaja Walter White narkootikume valmistama?",
+    "options": [
+      "Narcos",
+      "Ozark",
+      "The Wire",
+      "Breaking Bad"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which series does chemistry teacher Walter White start making drugs? — Breaking Bad (2008–2013)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millest tehakse tofut?",
+    "options": [
+      "Riisist",
+      "Kikerhernestest",
+      "Sojaubadest",
+      "Kookospähklist"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is tofu made from? — Soybeans (curdled soy milk). Chickpeas make hummus."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline puu kannab sügisel punaseid marjakobaraid, mida rästad ja siidisabad talvel meelsasti nokivad?",
+    "options": [
+      "Toomingas",
+      "Sirel",
+      "Kastan",
+      "Pihlakas"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which tree bears clusters of red berries in autumn that thrushes and waxwings love to peck in winter? — The rowan. The bird cherry (toomingas) has black berries, lilac and horse chestnut no berries at all."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Miks pärmitainas kerkib?",
+    "options": [
+      "Pärm tõmbab endasse niiskust",
+      "Tainas paisub soojas iseenesest",
+      "Pärm toodab süsihappegaasi",
+      "Pärm muudab jahu kergemaks"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why does yeast dough rise? — Yeast ferments the sugars and gives off carbon dioxide, whose bubbles puff up the dough."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millises arvutimängus kaevandatakse ja ehitatakse maailmu kuubikutest?",
+    "options": [
+      "Tetris",
+      "Fortnite",
+      "Minecraft",
+      "The Sims"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which computer game do you mine and build worlds out of cubes? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milline anonüümne tänavakunstnik lasi oma maali „Tüdruk õhupalliga“ kohe pärast oksjonimüüki hekseldada?",
+    "options": [
+      "Shepard Fairey",
+      "Invader",
+      "JR",
+      "Banksy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which anonymous street artist had his painting 'Girl with Balloon' shredded right after it sold at auction? — Banksy (Sotheby's, London, 2018); it became 'Love is in the Bin'."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Jope maksab 80 eurot ja sellelt tehakse 25% allahindlust. Mis on uus hind?",
+    "options": [
+      "55 eurot",
+      "60 eurot",
+      "65 eurot",
+      "75 eurot"
+    ],
+    "correctIndex": 1,
+    "gloss": "A jacket costs 80 euros and is 25% off. What is the new price? — 60 euros: a quarter of 80 is 20. 55 subtracts 25 euros instead of 25%."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kahe miljoni inimese käest kätte kett ulatus Tallinnast Vilniuseni. Mis aastal Balti kett toimus?",
+    "options": [
+      "1987",
+      "1988",
+      "1989",
+      "1991"
+    ],
+    "correctIndex": 2,
+    "gloss": "A chain of two million people holding hands stretched from Tallinn to Vilnius. In which year was the Baltic Way? — 1989 (23 August)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kes võitis 2001. aastal koos Dave Bentoni ja 2XL-iga Eestile Eurovisiooni lauluvõistluse?",
+    "options": [
+      "Tanel Padar",
+      "Ott Lepland",
+      "Koit Toome",
+      "Jüri Pootsmann"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who won Eurovision 2001 for Estonia together with Dave Benton and 2XL? — Tanel Padar ('Everybody')."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Kellele kuulub Eesti isikukood, mis algab numbritega 490…?",
+    "options": [
+      "1949. aastal sündinud mehele",
+      "1990. aastal sündinud naisele",
+      "1990. aastal sündinud mehele",
+      "1949. aastal sündinud naisele"
+    ],
+    "correctIndex": 1,
+    "gloss": "Whom does an Estonian personal ID code starting 490… belong to? — A woman born in 1990: the first digit 4 means a woman born in the 1900s (3 a man), the next two digits are the year."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mida tähendab toidupakendil märge „Parim enne“?",
+    "options": [
+      "Pärast seda kuupäeva on toit ohtlik",
+      "Toit tuleb ära süüa avamise päeval",
+      "Selle päevani tohib toodet müüa",
+      "Kuni selle ajani on kvaliteet tagatud"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does 'Best before' on a food package mean? — Quality is guaranteed until then; the food is often fine after it. The safety deadline is 'Kõlblik kuni' (use by)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Mitu käänet on eesti keeles?",
+    "options": [
+      "6",
+      "12",
+      "14",
+      "18"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many grammatical cases does Estonian have? — 14 (Finnish has 15, Russian 6)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kes kirjutas romaanid „Rehepapp“ ja „Mees, kes teadis ussisõnu“?",
+    "options": [
+      "Andrus Kivirähk",
+      "Jaan Kross",
+      "Tõnu Õnnepalu",
+      "Mats Traat"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novels 'Old Barny' and 'The Man Who Spoke Snakish'? — Andrus Kivirähk."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Milline Tallinna loss ehitati Peeter I käsul ja sai nime tema abikaasa Katariina järgi?",
+    "options": [
+      "Toompea loss",
+      "Kadrioru loss",
+      "Maarjamäe loss",
+      "Keila-Joa loss"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Tallinn palace was built on Peter the Great's orders and named after his wife Catherine? — Kadriorg Palace (Kadriorg = 'Catherine's valley', Catharinenthal)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Välk sähvatas ja müristamine kostis 3 sekundit hiljem. Kui kaugel on äike?",
+    "options": [
+      "Umbes 100 m",
+      "Umbes 1 km",
+      "Umbes 3 km",
+      "Umbes 10 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "Lightning flashed and the thunder came 3 seconds later. How far away is the storm? — About 1 km: sound travels about 340 m a second, light arrives almost instantly."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mida tähendab, kui e-kirja saaja on lisatud „Bcc“-väljale?",
+    "options": [
+      "Kiri jõuab temani hiljem",
+      "Ta ei saa kirjale vastata",
+      "Teised saajad teda ei näe",
+      "Ta näeb ainult kirja pealkirja"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does it mean when an e-mail recipient is in the Bcc field? — The other recipients can't see them (blind carbon copy)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Millise riigi koosseisu kuulub maailma suurim saar Gröönimaa?",
+    "options": [
+      "Norra",
+      "Islandi",
+      "Kanada",
+      "Taani"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country is Greenland, the world's largest island, part of? — Denmark (the Kingdom of Denmark, with self-rule)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis on mesilasperes emamesilase peamine töö?",
+    "options": [
+      "Munemine",
+      "Mee kogumine",
+      "Taru valvamine",
+      "Kärgede ehitamine"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the queen bee's main job in a colony? — Laying eggs (up to about 2,000 a day); the workers gather nectar, guard and build comb."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kui pikk on jäähokis üks kolmandik?",
+    "options": [
+      "15 minutit",
+      "20 minutit",
+      "25 minutit",
+      "30 minutit"
+    ],
+    "correctIndex": 1,
+    "gloss": "How long is one period in ice hockey? — 20 minutes of playing time."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis oli kreeka mütoloogias jumalate toit, mis tegi sööja surematuks?",
+    "options": [
+      "Manna",
+      "Mõdu",
+      "Soma",
+      "Ambroosia"
+    ],
+    "correctIndex": 3,
+    "gloss": "What was the food of the gods in Greek mythology that made its eater immortal? — Ambrosia. Manna is biblical, soma the Vedic drink, mõdu (mead) Norse."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mis nimi oli „Tähesõdade“ Darth Vaderil enne pimedale poolele minekut?",
+    "options": [
+      "Luke Skywalker",
+      "Anakin Skywalker",
+      "Obi-Wan Kenobi",
+      "Han Solo"
+    ],
+    "correctIndex": 1,
+    "gloss": "What was Darth Vader's name before he turned to the dark side in Star Wars? — Anakin Skywalker. Luke is his son."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Johannes Aavik lõi eesti keelde mõne sõna täiesti tühjast. Milline neist on tema tehtud?",
+    "options": [
+      "Relv",
+      "Leib",
+      "Mõõk",
+      "Vibu"
+    ],
+    "correctIndex": 0,
+    "gloss": "Johannes Aavik invented some Estonian words out of thin air. Which of these is his? — 'Relv' (weapon), one of his artificial words; the others are old native words."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Täiskuu on Maast vaadates Päikese vastas. Millal ta umbes tõuseb?",
+    "options": [
+      "Päikesetõusu ajal",
+      "Keskpäeval",
+      "Päikeseloojangu ajal",
+      "Keskööl"
+    ],
+    "correctIndex": 2,
+    "gloss": "The full Moon is opposite the Sun as seen from Earth. When does it rise? — Around sunset: as the Sun sets in the west, the opposite point of the sky comes up in the east."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Millise Rootsi valitseja ajal asutati 1632. aastal Tartu ülikool?",
+    "options": [
+      "Karl XI",
+      "Gustav II Adolf",
+      "Karl XII",
+      "Kristiina"
+    ],
+    "correctIndex": 1,
+    "gloss": "Under which Swedish ruler was the University of Tartu founded in 1632? — Gustav II Adolf (his statue stands behind the main building). Kristina succeeded him that same year."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Milline Aafrika riik on ainus, kus üks ametlikest keeltest on hispaania keel?",
+    "options": [
+      "Gabon",
+      "Kamerun",
+      "Angola",
+      "Ekvatoriaal-Guinea"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which African country is the only one with Spanish as an official language? — Equatorial Guinea, a former Spanish colony. Angola is Portuguese-speaking, Gabon French, Cameroon French and English."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mida tähendab veebiaadressi alguses oleva „https“ lõpus olev s?",
+    "options": [
+      "Server",
+      "Secure ehk turvaline",
+      "Site ehk sait",
+      "Standard"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the s at the end of 'https' stand for? — Secure: HTTP over an encrypted (TLS) connection."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kuu on Maast umbes 384 000 km kaugusel. Kui kaua liigub sealt Maale raadiosignaal?",
+    "options": [
+      "Umbes sekundi",
+      "Umbes minuti",
+      "Umbes 8 minutit",
+      "Umbes tunni"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Moon is about 384,000 km away. How long does a radio signal take from there to Earth? — About a second (1.3 s): radio waves travel at the speed of light, about 300,000 km/s. 8 minutes is sunlight's trip."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kes on Kadrioru rannas seisva Russalka mälestusmärgi autor?",
+    "options": [
+      "August Weizenberg",
+      "Amandus Adamson",
+      "Anton Starkopf",
+      "Jaan Koort"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who made the Russalka memorial on the Kadriorg shore? — Amandus Adamson (1902). The others are Estonian sculptors too."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Riias sündinud ja Tartus õppinud Wilhelm Ostwald sai 1909. aastal keemia Nobeli auhinna. Mille uurimise eest?",
+    "options": [
+      "Radioaktiivsuse",
+      "Katalüüsi",
+      "Väärisgaaside",
+      "Isotoopide"
+    ],
+    "correctIndex": 1,
+    "gloss": "Wilhelm Ostwald, born in Riga and educated at Tartu (Dorpat), won the 1909 Nobel Prize in Chemistry. For research into what? — Catalysis (and chemical equilibria and reaction rates). Radioactivity: Rutherford 1908; noble gases: Ramsay 1904; isotopes: Soddy 1921."
+  }
+]

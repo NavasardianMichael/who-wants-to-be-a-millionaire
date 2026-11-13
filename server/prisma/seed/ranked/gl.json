@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Na forma tradicional de nomear os días, se o luns é a segunda feira, que día é a sexta feira?",
+    "options": [
+      "Xoves",
+      "Venres",
+      "Sábado",
+      "Mércores"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the traditional naming of weekdays, if Monday is the 'second feria', which day is the 'sixth feria'? — Friday (venres): luns 2ª, martes 3ª, mércores 4ª, xoves 5ª, venres 6ª."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "En galego, «coa» é a contracción de dúas palabras. Cales?",
+    "options": [
+      "con + o",
+      "como + a",
+      "con + a",
+      "cando + a"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Galician, «coa» is a contraction of two words. Which? — con + a ('with the', feminine); con + o gives «co»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Se quen fai o pan é o panadeiro, como se chama quen fai zocos?",
+    "options": [
+      "Zapateiro",
+      "Ferreiro",
+      "Carpinteiro",
+      "Zoqueiro"
+    ],
+    "correctIndex": 3,
+    "gloss": "If the one who makes bread is the panadeiro, what is the one who makes clogs (zocos) called? — Zoqueiro: zoco + -eiro; the zapateiro makes shoes (zapatos)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Como se escribe en galego normativo o número 19?",
+    "options": [
+      "Dezanove",
+      "Dezenove",
+      "Decenove",
+      "Dezanoeve"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is 19 written in standard Galician? — Dezanove (RAG norm); dezenove is Portuguese, the others are non-standard."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Na froitaría levas medio quilo de tomates e un cuarto de quilo de pementos. Cantos gramos son en total?",
+    "options": [
+      "600 g",
+      "700 g",
+      "750 g",
+      "800 g"
+    ],
+    "correctIndex": 2,
+    "gloss": "At the greengrocer's you take half a kilo of tomatoes and a quarter kilo of peppers. How many grams in total? — 750 g: 500 + 250."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nun correo electrónico, que quere dicir o campo «CC»?",
+    "options": [
+      "Copia cifrada",
+      "Con copia",
+      "Correo certificado",
+      "Contido completo"
+    ],
+    "correctIndex": 1,
+    "gloss": "In an email, what does the «CC» field mean? — 'With copy' (carbon copy): the message also goes to those addresses."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En que unidade aparece na factura da luz a electricidade que consumiches?",
+    "options": [
+      "km/h",
+      "mAh",
+      "dB",
+      "kWh"
+    ],
+    "correctIndex": 3,
+    "gloss": "In what unit does the electricity bill show the energy you used? — kWh, kilowatt-hours, a unit of energy."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pagas cunha tarxeta sen contacto e o importe supera o límite. Que che pide entón o datáfono?",
+    "options": [
+      "O PIN",
+      "A sinatura",
+      "O DNI",
+      "O código postal"
+    ],
+    "correctIndex": 0,
+    "gloss": "You pay with a contactless card and the amount is over the limit. What does the card terminal then ask for? — The PIN; below the limit a tap is enough."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que imposto, xeralmente do 21 %, vai incluído no prezo de case todo o que compramos?",
+    "options": [
+      "IRPF",
+      "IBI",
+      "IVE",
+      "IAE"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which tax, generally 21%, is included in the price of almost everything we buy? — IVE (VAT); IRPF is income tax, IBI property tax, IAE business tax."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "A que número se chama nunha emerxencia en calquera país da Unión Europea?",
+    "options": [
+      "061",
+      "112",
+      "091",
+      "911"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number do you call in an emergency in any EU country? — 112, the single European emergency number."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que se serve tradicionalmente o polbo á feira?",
+    "options": [
+      "Nunha cunca de barro",
+      "Nunha tixola de ferro",
+      "Nunha fonte de vidro",
+      "Nun prato de madeira"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is pulpo á feira traditionally served on? — A wooden plate."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que froito seco é o ingrediente principal da tarta de Santiago?",
+    "options": [
+      "Améndoa",
+      "Noz",
+      "Castaña",
+      "Avelá"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which nut is the main ingredient of the tarta de Santiago? — Almond."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Como se chama a procesión de ánimas en pena que, segundo a tradición, percorre de noite os camiños de Galicia?",
+    "options": [
+      "Os mouros",
+      "As meigas",
+      "A Santa Compaña",
+      "Os trasnos"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the procession of souls in torment that, by tradition, walks Galicia's roads at night? — The Santa Compaña."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vigo é a cidade máis poboada de Galicia. En que provincia está?",
+    "options": [
+      "A Coruña",
+      "Ourense",
+      "Lugo",
+      "Pontevedra"
+    ],
+    "correctIndex": 3,
+    "gloss": "Vigo is Galicia's most populous city. Which province is it in? — Pontevedra (the trap: it is not a provincial capital)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que cuncha levan como distintivo os peregrinos do Camiño de Santiago?",
+    "options": [
+      "Vieira",
+      "Ameixa",
+      "Berberecho",
+      "Navalla"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which shell do pilgrims on the Way of St James wear as their badge? — The scallop (vieira)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Como se lle chama en galego ao carnaval, con festas sonadas en Xinzo de Limia ou Verín?",
+    "options": [
+      "Magosto",
+      "Entroido",
+      "Samaín",
+      "Corpus"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is carnival called in Galician, with famous festivities in Xinzo de Limia or Verín? — Entroido."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que árbore de orixe australiana cobre hoxe boa parte dos montes galegos?",
+    "options": [
+      "Piñeiro",
+      "Carballo",
+      "Eucalipto",
+      "Castiñeiro"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which tree of Australian origin now covers much of Galicia's hills? — The eucalyptus."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que cidade portuguesa á beira do Douro lle deu nome a un viño doce coñecido en todo o mundo?",
+    "options": [
+      "Braga",
+      "Porto",
+      "Coímbra",
+      "Lisboa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Portuguese city on the Douro gave its name to a sweet wine known worldwide? — Porto (port wine)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que marca de roupa, hoxe presente en medio mundo, abriu a súa primeira tenda na Coruña en 1975?",
+    "options": [
+      "Mango",
+      "Bershka",
+      "Pull&Bear",
+      "Zara"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which clothing brand, now in half the world, opened its first shop in A Coruña in 1975? — Zara (Inditex; Bershka and Pull&Bear came later)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En que videoxogo de mundos feitos de bloques cúbicos hai que fuxir dos «creepers»?",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Roblox",
+      "Tetris"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which video game of worlds built from cubic blocks do you flee from 'creepers'? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que deporte de raqueta se xoga sempre por parellas, nunha pista pechada con paredes de vidro?",
+    "options": [
+      "Squash",
+      "Pádel",
+      "Bádminton",
+      "Tenis de mesa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which racket sport is always played in pairs, on an enclosed court with glass walls? — Padel."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "No baloncesto, un equipo anota dous triples e un tiro libre. Cantos puntos suma?",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "9"
+    ],
+    "correctIndex": 2,
+    "gloss": "In basketball, a team scores two three-pointers and one free throw. How many points? — 7: 3 + 3 + 1."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que moeda se usaba en España antes da chegada do euro?",
+    "options": [
+      "Escudo",
+      "Franco",
+      "Real",
+      "Peseta"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which currency was used in Spain before the euro arrived? — The peseta (the escudo was Portugal's)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que queixo galego con denominación de orixe ten forma de cono, coma un peito?",
+    "options": [
+      "Tetilla",
+      "Arzúa-Ulloa",
+      "San Simón",
+      "Cebreiro"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Galician PDO cheese is cone-shaped, like a breast? — Tetilla ('little breast'); San Simón is pear-shaped and smoked, Cebreiro mushroom-shaped."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En que concurso musical os países reparten os seus «douze points»?",
+    "options": [
+      "Os Grammy",
+      "Eurovisión",
+      "San Remo",
+      "Benidorm Fest"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which music contest do countries hand out their 'douze points'? — Eurovision."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quen escribiu o poema «Negra sombra», que Xoán Montes converteu nunha canción?",
+    "options": [
+      "Curros Enríquez",
+      "Eduardo Pondal",
+      "Rosalía de Castro",
+      "Ramón Cabanillas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote the poem «Negra sombra», set to music by Xoán Montes? — Rosalía de Castro (in «Follas novas», 1880)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que serie española de atracadores con monos vermellos e máscaras de Dalí arrasou en Netflix?",
+    "options": [
+      "«Élite»",
+      "«Vis a vis»",
+      "«Fariña»",
+      "«La casa de papel»"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Spanish series about robbers in red jumpsuits and Dalí masks was a Netflix hit? — «La casa de papel» (Money Heist)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que mide o índice UV que dá o parte meteorolóxico no verán?",
+    "options": [
+      "A radiación ultravioleta",
+      "A humidade do aire",
+      "A forza do vento",
+      "O pole no aire"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the UV index in the summer weather forecast measure? — Ultraviolet radiation from the sun."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Como se chama o lugar da cociña tradicional galega onde se fai o lume?",
+    "options": [
+      "Palleira",
+      "Lareira",
+      "Alpendre",
+      "Adega"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the place in a traditional Galician kitchen where the fire is made? — The lareira (hearth); palleira is a hayloft, alpendre a shed, adega a wine cellar."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que tempada gañou o Deportivo da Coruña a súa única Liga?",
+    "options": [
+      "1993-94",
+      "2001-02",
+      "1999-2000",
+      "2003-04"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which season did Deportivo de La Coruña win its only league title? — 1999-2000 (in 1993-94 they lost it on the last day)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que actor deu vida a Ramón Sampedro, o mariñeiro de Porto do Son, en «Mar adentro»?",
+    "options": [
+      "Luis Tosar",
+      "Antonio Banderas",
+      "Eduardo Noriega",
+      "Javier Bardem"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which actor played Ramón Sampedro, the sailor from Porto do Son, in «Mar adentro»? — Javier Bardem (Amenábar's 2004 film)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que mestre medieval esculpiu o Pórtico da Gloria da catedral de Santiago?",
+    "options": [
+      "Mestre Mateo",
+      "Bernardo o Vello",
+      "Mestre Esteban",
+      "Fernando de Casas"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which medieval master carved the Pórtico da Gloria of Santiago cathedral? — Master Mateo (late 12th century)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "No cumio dunha montaña moi alta, a que temperatura ferve a auga?",
+    "options": [
+      "A máis de 100 °C",
+      "Xusto a 100 °C",
+      "A menos de 100 °C",
+      "Non chega a ferver"
+    ],
+    "correctIndex": 2,
+    "gloss": "On top of a very high mountain, at what temperature does water boil? — Below 100 °C: lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que significa a «s» do final de «https» nun enderezo web?",
+    "options": [
+      "Server",
+      "Secure",
+      "Standard",
+      "System"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the final «s» of «https» stand for? — Secure (encrypted connection)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un tren sae ás 23:40 e a viaxe dura 50 minutos. A que hora chega?",
+    "options": [
+      "00:20",
+      "00:40",
+      "00:10",
+      "00:30"
+    ],
+    "correctIndex": 3,
+    "gloss": "A train leaves at 23:40 and the trip takes 50 minutes. When does it arrive? — 00:30: 20 minutes to midnight, then 30 more."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cal destes países europeos non ten saída ao mar?",
+    "options": [
+      "Suíza",
+      "Croacia",
+      "Bélxica",
+      "Eslovenia"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these European countries has no coastline? — Switzerland (Slovenia has a short Adriatic coast)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En que novela distópica o Gran Irmán vixía a todo o mundo?",
+    "options": [
+      "«Un mundo feliz»",
+      "«1984»",
+      "«Fahrenheit 451»",
+      "«A granxa dos animais»"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which dystopian novel does Big Brother watch everyone? — «1984», by George Orwell."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que grupo vigués da Movida cantaba «Fai un sol de carallo»?",
+    "options": [
+      "Siniestro Total",
+      "Golpes Bajos",
+      "Os Resentidos",
+      "Aerolíneas Federales"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Vigo band of the Movida sang «Fai un sol de carallo»? — Os Resentidos, fronted by Antón Reixa (1986); the others were also from Vigo but sang in Spanish."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que cidade inca, nos Andes do Perú, deu a coñecer ao mundo Hiram Bingham en 1911?",
+    "options": [
+      "Cuzco",
+      "Ollantaytambo",
+      "Pisac",
+      "Machu Picchu"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Inca city in the Peruvian Andes did Hiram Bingham make known to the world in 1911? — Machu Picchu."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "O xoves galego é o día de Xúpiter; o «Thursday» inglés, o de que deus nórdico?",
+    "options": [
+      "Odín",
+      "Thor",
+      "Loki",
+      "Freyr"
+    ],
+    "correctIndex": 1,
+    "gloss": "Galician xoves is Jupiter's day; English Thursday is which Norse god's? — Thor, the thunder god, matching Jupiter (Odin gave Wednesday)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que lles dá aos flamengos a súa cor rosada?",
+    "options": [
+      "O que comen",
+      "O sol",
+      "A auga salgada",
+      "A idade"
+    ],
+    "correctIndex": 0,
+    "gloss": "What gives flamingos their pink colour? — What they eat: carotenoid pigments in algae and small crustaceans."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "De que país é o kimchi, verdura fermentada e picante?",
+    "options": [
+      "Xapón",
+      "China",
+      "Corea",
+      "Tailandia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is kimchi, spicy fermented vegetables, from? — Korea."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que rianxeiro escribiu a novela «Os dous de sempre»?",
+    "options": [
+      "Otero Pedrayo",
+      "Castelao",
+      "Vicente Risco",
+      "Ramón Cabanillas"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which man from Rianxo wrote the novel «Os dous de sempre»? — Castelao (1934)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "En que concello se ergue o monte Santa Trega, co seu castro sobre a foz do Miño?",
+    "options": [
+      "Tui",
+      "Baiona",
+      "A Guarda",
+      "Oia"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which municipality does Mount Santa Trega, with its hillfort over the Miño estuary, stand? — A Guarda."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "En galego, un billón é un millón de millóns. Cantos ceros ten?",
+    "options": [
+      "12",
+      "9",
+      "15",
+      "6"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Galician a billón is a million millions. How many zeros does it have? — 12: 6 + 6 (unlike the English billion, 9)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que país ten máis fusos horarios, contando os seus territorios de ultramar?",
+    "options": [
+      "Rusia",
+      "Estados Unidos",
+      "China",
+      "Francia"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country has the most time zones, counting its overseas territories? — France, with 12 (Russia has 11; China uses only one)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que cineasta mexicano dirixiu «O labirinto do fauno»?",
+    "options": [
+      "Guillermo del Toro",
+      "Alfonso Cuarón",
+      "Alejandro G. Iñárritu",
+      "Carlos Reygadas"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Mexican filmmaker directed «Pan's Labyrinth»? — Guillermo del Toro (2006)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que poeta de Celanova escribiu «Longa noite de pedra»?",
+    "options": [
+      "Curros Enríquez",
+      "Manuel María",
+      "Celso Emilio Ferreiro",
+      "Uxío Novoneyra"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which poet from Celanova wrote «Longa noite de pedra»? — Celso Emilio Ferreiro (1962); Curros Enríquez, the trap, was also born in Celanova."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "A que temperatura marcan o mesmo número un termómetro Celsius e un Fahrenheit?",
+    "options": [
+      "0 graos",
+      "−32 graos",
+      "100 graos",
+      "−40 graos"
+    ],
+    "correctIndex": 3,
+    "gloss": "At what temperature do a Celsius and a Fahrenheit thermometer show the same number? — −40: F = 1.8·C + 32 gives C = F at −40."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que compositor austríaco escribiu a ópera «Wozzeck», baseada no drama de Büchner?",
+    "options": [
+      "Arnold Schönberg",
+      "Alban Berg",
+      "Anton Webern",
+      "Gustav Mahler"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Austrian composer wrote the opera «Wozzeck», based on Büchner's play? — Alban Berg (premiered 1925)."
+  }
+]

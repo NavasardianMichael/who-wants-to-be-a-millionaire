@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Badaa” jechuun “kan gaarii hin taane” jechuudha. Qubee “d” yoo dachaa goote, “baddaa” maal ta'a?",
+    "options": [
+      "Lafa gammoojjii ho'aa",
+      "Lafa olka'aa qabbanaa'aa",
+      "Lafa caffee jiidhaa",
+      "Lafa cirrachaa gogaa"
+    ],
+    "correctIndex": 1,
+    "gloss": "“Badaa” means “not good”. If you double the “d”, what does “baddaa” become? — Cool highland: consonant length changes the word; baddaa (highland) is the opposite of gammoojjii (lowland)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hima “Caaltuun ganama buna …” keessatti jechi bakka duwwaa sirriitti guutu kami?",
+    "options": [
+      "Dhugne",
+      "Dhugan",
+      "Dhuge",
+      "Dhugde"
+    ],
+    "correctIndex": 3,
+    "gloss": "In “Chaltu drank coffee in the morning”, which word correctly fills the gap? — Dhugde: Chaltu is a woman, so the verb takes the feminine -t- (dhug- + -te → dhugde). Dhuge is masculine, dhugne “we”, dhugan “they”."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jechi “torbaan” (guyyoota walitti aanan) maqaa lakkoofsa kam irraa dhufe?",
+    "options": [
+      "Jaha",
+      "Saddeet",
+      "Torba",
+      "Sagal"
+    ],
+    "correctIndex": 2,
+    "gloss": "The word “torbaan” (a run of consecutive days, a week) comes from which number? — Torba (seven): a week is seven days."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Afaan Oromootiin obboleessi haadha keetii maal jedhama?",
+    "options": [
+      "Eessuma",
+      "Abbeeraa",
+      "Adaadaa",
+      "Akaakayyuu"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Oromo, what is your mother's brother called? — Eessuma. Abbeeraa is the father's sister, adaadaa the mother's sister, akaakayyuu the grandfather."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yeroon abaaboon daraaree Irreechi itti kabajamu maal jedhama?",
+    "options": [
+      "Bona",
+      "Arfaasaa",
+      "Ganna",
+      "Birraa"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the season when flowers bloom and Irreecha is celebrated called? — Birraa (Sept–Nov, after the rains). Bona is the dry season, Arfaasaa the small rains, Ganna the main rains."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sirna buna aadaa keessatti, okkoteen suphee irraa hojjetamee buni keessatti danfu maal jedhama?",
+    "options": [
+      "Sinii",
+      "Ciicoo",
+      "Jabanaa",
+      "Gabatee"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the traditional coffee ceremony, what is the clay pot the coffee boils in called? — Jabanaa. Sinii are the small cups, ciicoo a milk container, gabatee a bowl."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gareen kubbaa miilaa biyyoolessaa Itoophiyaa maqaa bineensa kamiin waamama?",
+    "options": [
+      "Leenca",
+      "Waaliyaa",
+      "Arba",
+      "Gafarsa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Ethiopia's national football team is called after which animal? — The Walia (ibex): the team is known as the Walias. Lion, elephant and buffalo are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sirna Gadaa keessatti yaa'iin ummataa yeroo baay'ee muka kam jala taa'a?",
+    "options": [
+      "Odaa",
+      "Waddeessa",
+      "Birbirsa",
+      "Baqaanisa"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Gadaa system, under which tree does the people's assembly usually sit? — The Odaa (sycamore fig), the symbol of Gadaa assemblies."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Meeshaan muuziqaa aadaa “dibbee” jedhamu akkamitti taphatama?",
+    "options": [
+      "Afuufuun",
+      "Raasuun",
+      "Qubaan tuquun",
+      "Rukutuun"
+    ],
+    "correctIndex": 3,
+    "gloss": "How is the traditional instrument “dibbee” played? — By beating it: the dibbee is a drum. Blowing, shaking and plucking are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Akka durdurii beekamaatti, humna bunaa jalqaba kan agarsiise horii kami?",
+    "options": [
+      "Hoolaa",
+      "Re'ee",
+      "Gaala",
+      "Loon"
+    ],
+    "correctIndex": 1,
+    "gloss": "According to the well-known legend, which livestock first showed the energising power of coffee? — Goats: the herder (Kaldi in the legend) saw his goats lively after eating coffee berries."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Akka kaalaandarii Itoophiyaatti waggaan tokko ji'oota meeqa qaba?",
+    "options": [
+      "12",
+      "14",
+      "13",
+      "10"
+    ],
+    "correctIndex": 2,
+    "gloss": "By the Ethiopian calendar, how many months has a year? — 13: twelve of 30 days plus Pagume of 5 (6 in a leap year)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Itoophiyaan galaana hin qabdu. Meeshaa alaa baay'ina isaa buufata doonii biyya kamii fayyadamtee galchiti?",
+    "options": [
+      "Jibuutii",
+      "Keeniyaa",
+      "Sudaan",
+      "Taanzaaniyaa"
+    ],
+    "correctIndex": 0,
+    "gloss": "Ethiopia has no sea. Through which country's port does it bring in most of its imports? — Djibouti, which handles the great majority of Ethiopia's trade."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dhugaatiin aadaa damma fi bishaan irraa tolfamee bilchaatu maal jedhama?",
+    "options": [
+      "Farsoo",
+      "Araqee",
+      "Itittuu",
+      "Daadhii"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the traditional drink fermented from honey and water called? — Daadhii (mead, tej). Farsoo is home beer, araqee a distilled spirit, itittuu soured milk."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lakkoofsa bilbilaa idil-addunyaa irratti koodiin biyyaa Itoophiyaa kami?",
+    "options": [
+      "+254",
+      "+251",
+      "+252",
+      "+253"
+    ],
+    "correctIndex": 1,
+    "gloss": "In international phone numbers, what is Ethiopia's country code? — +251. +254 is Kenya, +252 Somalia, +253 Djibouti."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tajaajilli Itiyoo Telekoom maallaqa bilbilaan erguu fi kaffaluuf oolu maal jedhama?",
+    "options": [
+      "M-Pesa",
+      "CBE Birr",
+      "telebirr",
+      "HelloCash"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is Ethio Telecom's service for sending and paying money by phone called? — telebirr (2021). M-Pesa is Safaricom's, CBE Birr the Commercial Bank's."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Warshaaleen sukkaaraa akka Wonjii sukkaara biqiltuu kamii irraa oomishu?",
+    "options": [
+      "Shonkora",
+      "Boqolloo",
+      "Qamadii",
+      "Muuzii"
+    ],
+    "correctIndex": 0,
+    "gloss": "From which plant do sugar factories such as Wonji make sugar? — Sugarcane (shonkora). Maize, wheat and banana are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Appiin ergaa mallattoo xiyyaara waraqaa irraa hojjetame qabu kami?",
+    "options": [
+      "WhatsApp",
+      "Viber",
+      "Messenger",
+      "Telegram"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which messaging app has a paper-plane logo? — Telegram, hugely popular in Ethiopia."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaappuchiinoo gochuuf buna espresso irratti maaltu dabalama?",
+    "options": [
+      "Bishaan ho'aa",
+      "Aannan ho'ifame",
+      "Shaayii",
+      "Sukkaara qofa"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is added to an espresso to make a cappuccino? — Steamed, frothed milk. Hot water gives an americano."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Asoosama “Things Fall Apart” kan barreesse barreessaan Naayijeeriyaa eenyu?",
+    "options": [
+      "Ngũgĩ wa Thiong'o",
+      "Wole Soyinka",
+      "Chinua Achebe",
+      "Tsitsi Dangarembga"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Nigerian writer wrote the novel “Things Fall Apart”? — Chinua Achebe (1958). Soyinka is also Nigerian (Nobel 1986, a playwright); Ngũgĩ is Kenyan, Dangarembga Zimbabwean."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mallattoon daandii qubee “P” guddaa qabu maal agarsiisa?",
+    "options": [
+      "Bakka konkolaataa dhaabuu",
+      "Buufata poolisii",
+      "Buufata boba'aa",
+      "Bakka miilaan qaxxaamuran"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does a road sign with a big letter “P” show? — A parking place. Police station, fuel station and pedestrian crossing are the distractors."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bishaan okkotee keessaa dafee akka danfuuf maal gochuu qabda?",
+    "options": [
+      "Ashaboo itti dabaluu",
+      "Bishaan itti dabaluu",
+      "Ibidda xiqqeessuu",
+      "Qadaadaan cufuu"
+    ],
+    "correctIndex": 3,
+    "gloss": "What should you do so the water in a pot boils sooner? — Cover it with a lid: less heat escapes. Salt slightly raises the boiling point; more water or a lower flame slow it down."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fiigichi maaratoonii dheerinni isaa gara kiiloomeetira meeqaa?",
+    "options": [
+      "21",
+      "42",
+      "50",
+      "30"
+    ],
+    "correctIndex": 1,
+    "gloss": "About how many kilometres long is a marathon? — 42 (42.195 km). 21 is the half marathon."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fiilmii “Black Panther” keessatti biyyi Afrikaa mootummaa T'Chaallaa maal jedhamti?",
+    "options": [
+      "Zamunda",
+      "Genovia",
+      "Wakanda",
+      "Narnia"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the film “Black Panther”, what is T'Challa's African kingdom called? — Wakanda. Zamunda is from “Coming to America”, Genovia from “The Princess Diaries”, Narnia from C. S. Lewis."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Weellisaan reegee beekamaan Bob Marley biyya kam irraa ture?",
+    "options": [
+      "Jamaayikaa",
+      "Kuubaa",
+      "Haayitii",
+      "Baarbaados"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country was the famous reggae singer Bob Marley from? — Jamaica. Cuba, Haiti and Barbados are neighbouring Caribbean countries."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sabbanni Waaqaa samii irratti akka mul'atuuf, aduu malee maaltu barbaachisa?",
+    "options": [
+      "Qilleensa cimaa",
+      "Bakakkaa",
+      "Dukkana",
+      "Copha roobaa"
+    ],
+    "correctIndex": 3,
+    "gloss": "For a rainbow (“Waaqa's belt”) to appear in the sky, what is needed besides the Sun? — Raindrops, which split sunlight into colours."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Yeroo ho'aa ykn sochii cimaa booda qaamni keenya maaliif dafqa?",
+    "options": [
+      "Humna dabaluuf",
+      "Qaama qabbaneessuuf",
+      "Bishaan qusachuuf",
+      "Gogaa jabeessuuf"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why does our body sweat in hot weather or after hard exercise? — To cool the body: sweat evaporating takes heat away."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gaarri Kiliimanjaaroo biyya kam keessa argama?",
+    "options": [
+      "Keeniyaa",
+      "Ugaandaa",
+      "Taanzaaniyaa",
+      "Ruwaandaa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country is Mount Kilimanjaro in? — Tanzania, close to the Kenyan border (Kenya is the trap: the mountain is often seen from there)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Taaksiin tokko namoota afur qofa fe'a. Namoota kudhan geessuuf taaksii meeqatu barbaachisa?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "gloss": "A taxi carries only four people. How many taxis are needed to take ten people? — 3: 10 ÷ 4 = 2.5, and half a taxi doesn't exist, so round up."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Weedduun dhiironni goota faarsuuf ykn of jajuuf sagalee guddaan dhiyeessan maal jedhama?",
+    "options": [
+      "Hiibboo",
+      "Mammaaksa",
+      "Geerarsa",
+      "Shaggooyyee"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the chant men deliver in a loud voice to praise heroes or boast of their own deeds called? — Geerarsa. Hiibboo are riddles, mammaaksa proverbs, shaggooyyee a dance song."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Manneen kiristaanaa Laalibalaa kanneen jaarraa 12ffaa–13ffaa maaliin addaa ta'u?",
+    "options": [
+      "Mukaan qofa ijaaramuu isaanii",
+      "Dhagaa keessaa qotamuu isaanii",
+      "Supheen ijaaramuu isaanii",
+      "Sibiilaan ijaaramuu isaanii"
+    ],
+    "correctIndex": 1,
+    "gloss": "What makes the 12th–13th-century churches of Lalibela special? — They are carved out of the rock itself, not built up from wood, clay or metal."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Weellisni Shakiraa “Waka Waka” Waancaa Addunyaa biyya kamitti qophaa'eef?",
+    "options": [
+      "Rusiyaa",
+      "Jarmanii",
+      "Qaxar",
+      "Afrikaa Kibbaa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Shakira's song “Waka Waka” was made for the World Cup held in which country? — South Africa (2010). Germany 2006, Russia 2018, Qatar 2022."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Teessoo marsariitii jalqaba irratti “https” keessatti qubeen “s” maal agarsiisa?",
+    "options": [
+      "Walqunnamtii eegamaa (secure)",
+      "Saffisa ol'aanaa",
+      "Marsariitii mootummaa",
+      "Marsariitii barnootaa"
+    ],
+    "correctIndex": 0,
+    "gloss": "In “https” at the start of a web address, what does the letter “s” show? — A secure (encrypted) connection; it says nothing about speed or who owns the site."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Antibaayotikiin qufaa fi ifluweenzaa vaayirasiin dhufu maaliif hin fayyisu?",
+    "options": [
+      "Dhukkubni sun waan salphaa ta'eef",
+      "Vaayirasii waan hin ajjeefneef",
+      "Qorichi waan dafee dhumuuf",
+      "Qaamni waan hin fudhanneef"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why don't antibiotics cure a cold or flu caused by a virus? — They don't kill viruses: antibiotics act on bacteria."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hanqaaquun bishaan keessa yoo buufamu bololi'e, kun maal agarsiisa?",
+    "options": [
+      "Haaraa ta'uu isaa",
+      "Bilchaatuu isaa",
+      "Dulloomuu isaa",
+      "Lukkuu biyyaa irraa ta'uu isaa"
+    ],
+    "correctIndex": 2,
+    "gloss": "If an egg floats when put in water, what does it show? — That it is old: its air pocket grows with age. A fresh egg sinks."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Awurooppaa keessatti mukni kutame geengoo 30 qaba. Umuriin isaa gara meeqa?",
+    "options": [
+      "Waggaa 15",
+      "Waggaa 60",
+      "Waggaa 90",
+      "Waggaa 30"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Europe, a felled tree shows 30 rings. About how old is it? — 30 years: in a climate with one cold season a tree adds one ring a year."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Barataa” baay'inaan “barattoota” ta'a. Akkasuma “hojjetaa” baay'inaan maal ta'a?",
+    "options": [
+      "Hojjettoota",
+      "Hojjetaawwan",
+      "Hojjetaalee",
+      "Hojjetaaniin"
+    ],
+    "correctIndex": 0,
+    "gloss": "“Barataa” (student) becomes “barattoota” in the plural. Likewise, what is the plural of “hojjetaa” (worker)? — Hojjettoota: the same -aa → -toota pattern, as in “hojjettoota mootummaa” (civil servants)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sirni aadaa Oromoo jaarsoliin waldhabdee namootaa araaraan itti furan maal jedhama?",
+    "options": [
+      "Moggaasa",
+      "Buttaa",
+      "Ateetee",
+      "Jaarsummaa"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the Oromo custom in which elders settle people's disputes by reconciliation called? — Jaarsummaa. Moggaasa is adoption into a clan, Buttaa a Gadaa feast, Ateetee a women's rite."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Biyyoota Afrikaa keessaa baay'ina ummataatiin kan tokkoffaa ta'e kami?",
+    "options": [
+      "Itoophiyaa",
+      "Naayijeeriyaa",
+      "Masrii",
+      "Kongoo (RDK)"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which African country has the largest population? — Nigeria (over 220 million); Ethiopia, the trap, is second."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Akka seenaa durii Itoophiyaatti, Mootittiin Saabaa Yerusaalemitti mootii kam daawwatte?",
+    "options": [
+      "Daawit",
+      "Herodis",
+      "Solomoon",
+      "Hizqiyaas"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Ethiopian tradition, which king did the Queen of Sheba visit in Jerusalem? — Solomon (the Kebra Nagast; also 1 Kings 10). David was his father."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Waancaan Addunyaa bara 2022 Qaxaritti qophaa'e. Inni itti aanu bara kam qophaa'e?",
+    "options": [
+      "2026",
+      "2024",
+      "2025",
+      "2030"
+    ],
+    "correctIndex": 0,
+    "gloss": "The World Cup was held in Qatar in 2022. In which year was the next one held? — 2026: the World Cup comes every four years (USA, Canada, Mexico)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kartuunii “SpongeBob SquarePants” keessatti SpongeBob galaana jalatti mana akkamii keessa jiraata?",
+    "options": [
+      "Qocaa",
+      "Burtukaana",
+      "Muuzii",
+      "Anaanaasii"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the cartoon “SpongeBob SquarePants”, what kind of house does SpongeBob live in under the sea? — A pineapple."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Qubee Afaan Oromoo keessatti, qubeen “x” akka jecha “xiqqaa” keessatti sagalee fidal kamii bakka bu'a?",
+    "options": [
+      "ክ",
+      "ጠ",
+      "ዝ",
+      "ሸ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the Oromo Qubee alphabet, which fidal sound does the letter “x” stand for, as in “xiqqaa” (small)? — ጠ, the ejective t'. Qubee uses x for it, as it uses q for ቀ and c for ጨ."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Holqi beekamaan Soof Umar Oromiyaa naannoo kam keessatti argama?",
+    "options": [
+      "Booranaa",
+      "Harargee Bahaa",
+      "Baalee",
+      "Iluu Abbaa Booraa"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which part of Oromia is the famous Sof Omar cave? — Bale, carved by the Weyb river. Its Muslim shrine traditions make Hararghe a tempting guess."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sheek Bakrii Saphaloo, beekaa fi barreessaan Oromoo, keessattuu maaliin yaadatama?",
+    "options": [
+      "Barreeffama Afaan Oromoo uumuu",
+      "Kitaaba Qulqulluu hiikuu",
+      "Weellisa jalqabaa waraabsisuu",
+      "Gaazexaa jalqabaa maxxansuu"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is Sheikh Bakri Sapalo, the Oromo scholar and writer, remembered for above all? — Creating a writing system for Oromo (1950s). Translating the Bible was Onesimos Nesib's work."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Fiigicha meetira 10,000 dirree meetira 400 irratti, fiigaan marsaa meeqa fiiga?",
+    "options": [
+      "20",
+      "40",
+      "25",
+      "100"
+    ],
+    "correctIndex": 2,
+    "gloss": "In a 10,000 m race on a 400 m track, how many laps does the runner run? — 25: 10,000 ÷ 400."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gosti dhiigaa nama gosa dhiigaa kamiifuu kennamuu danda'u kami?",
+    "options": [
+      "AB+",
+      "A+",
+      "B−",
+      "O−"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which blood type can be given to a person of any blood type? — O negative, the universal red-cell donor. AB+ is the universal recipient, the trap."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bara 1953 Edmund Hillary waliin jalqaba fiixee Gaara Everest kan ga'e eenyu?",
+    "options": [
+      "Reinhold Messner",
+      "Tenzing Norgay",
+      "George Mallory",
+      "Junko Tabei"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who first reached the summit of Everest with Edmund Hillary in 1953? — Tenzing Norgay. Mallory vanished in 1924, Tabei was the first woman (1975), Messner the first without oxygen."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Daandiin baaburaa Finfinnee fi Jibuutii bara 1917 xumurame dhaabbata biyya kamiin ijaarame?",
+    "options": [
+      "Faransaay",
+      "Xaaliyaanii",
+      "Biriteen",
+      "Jarmanii"
+    ],
+    "correctIndex": 0,
+    "gloss": "The Addis Ababa–Djibouti railway, completed in 1917, was built by a company from which country? — France (the Franco-Ethiopian railway)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Afawarq Takla fakkii foddaa calaqqisaa isaa beekamaa gamoo kamii keessatti hojjete?",
+    "options": [
+      "Masaraa Minilik",
+      "Fal'aana Mootummaa",
+      "Galma Afrikaa",
+      "Yuunivarsiitii Finfinnee"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which building did Afewerk Tekle make his famous stained-glass windows? — Africa Hall in Addis Ababa (1961), home of the UN Economic Commission for Africa."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lusii (Dinqinash), bara 1974 Hadaar keessatti argamte, gosa namaa durii kam keessatti ramadamti?",
+    "options": [
+      "Homo habilis",
+      "Ardipithecus ramidus",
+      "Homo erectus",
+      "Australopithecus afarensis"
+    ],
+    "correctIndex": 3,
+    "gloss": "Lucy (Dinkinesh), found at Hadar in 1974, belongs to which early human species? — Australopithecus afarensis, named after the Afar region. Ardipithecus ramidus (“Ardi”) was also found in Ethiopia, the trap."
+  }
+]

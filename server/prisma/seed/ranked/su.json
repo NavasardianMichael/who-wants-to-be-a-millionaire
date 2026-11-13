@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lamun aya sémah uluk salam “Sampurasun!”, biasana diwaler ku …",
+    "options": [
+      "Rampés",
+      "Mangga",
+      "Punten",
+      "Wilujeng"
+    ],
+    "correctIndex": 0,
+    "gloss": "If a guest greets with “Sampurasun!”, the usual reply is… — Rampés: the fixed Sundanese answer to the greeting."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Janjian “tabuh satengah dalapan” hartina kudu datang tabuh sabaraha?",
+    "options": [
+      "08.00",
+      "08.30",
+      "07.30",
+      "07.00"
+    ],
+    "correctIndex": 2,
+    "gloss": "An appointment at “half eight” means arriving at what time? — 7:30: Sundanese counts the half hour towards the coming hour."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "“Salawé” ditambah lima, jadi sabaraha?",
+    "options": [
+      "Dua puluh",
+      "Tilu puluh",
+      "Tilu puluh lima",
+      "Opat puluh"
+    ],
+    "correctIndex": 1,
+    "gloss": "“Salawé” plus five makes how many? — Thirty: salawé is the native word for 25."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Lanceuk ti bapa urang, ku urang disebut …",
+    "options": [
+      "alo",
+      "emang",
+      "aki",
+      "uwa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Your father's older sibling is called… — uwa: an older sibling of a parent is uwa; a younger brother is emang/mamang."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pakarang tradisional naon nu gambarna aya dina lambang Provinsi Jawa Barat?",
+    "options": [
+      "Rencong",
+      "Keris",
+      "Kujang",
+      "Badik"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which traditional weapon appears on the West Java provincial emblem? — The kujang, the Sundanese blade."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina dongéng Sunda, saha ngaran pamajikan Si Kabayan?",
+    "options": [
+      "Nyi Iteung",
+      "Purbasari",
+      "Dayang Sumbi",
+      "Sunan Ambu"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Sundanese folk tales, who is Si Kabayan's wife? — Nyi Iteung; the others belong to other Sundanese legends."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Wayang golék, nu tokohna kayaning Cépot jeung Dawala, dijieunna tina …",
+    "options": [
+      "awi",
+      "kulit",
+      "kertas",
+      "kai"
+    ],
+    "correctIndex": 3,
+    "gloss": "Wayang golek puppets, with characters like Cepot and Dawala, are made of… — wood (wayang kulit is the leather one)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Peuyeum Bandung nu sok digantung-gantung di warung sisi jalan dijieun tina …",
+    "options": [
+      "ketan",
+      "sampeu",
+      "hui",
+      "cau"
+    ],
+    "correctIndex": 1,
+    "gloss": "Peuyeum Bandung, hung up at roadside stalls, is made from… — cassava, fermented with ragi."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kota Bogor kawentar ku jujulukna, nyaéta Kota …",
+    "options": [
+      "Hujan",
+      "Kembang",
+      "Santri",
+      "Udang"
+    ],
+    "correctIndex": 0,
+    "gloss": "Bogor is known by its nickname, the City of… — Rain; Kembang is Bandung, Santri Tasikmalaya, Udang Cirebon."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Domba nu tandukna galing tur kawentar dina adu ketangkasan téh domba …",
+    "options": [
+      "Majalengka",
+      "Kuningan",
+      "Garut",
+      "Ciamis"
+    ],
+    "correctIndex": 2,
+    "gloss": "The sheep with curled horns famous in agility contests is the … sheep — Garut."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tabung gas LPG 3 kg nu disubsidi pamaréntah warnana …",
+    "options": [
+      "biru",
+      "héjo",
+      "kayas",
+      "oranyeu"
+    ],
+    "correctIndex": 1,
+    "gloss": "The subsidised 3 kg LPG cylinder is coloured… — green (the “gas melon”); 12 kg was blue, Bright Gas pink."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Konferénsi Asia Afrika taun 1955 diayakeun di kota …",
+    "options": [
+      "Yogyakarta",
+      "Bogor",
+      "Jakarta",
+      "Bandung"
+    ],
+    "correctIndex": 3,
+    "gloss": "The 1955 Asian–African Conference was held in… — Bandung, at Gedung Merdeka."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina kode OTP nu dikirim ka HP, hurup “O” téh singgetan tina …",
+    "options": [
+      "Open",
+      "Online",
+      "One",
+      "Only"
+    ],
+    "correctIndex": 2,
+    "gloss": "In an OTP code sent to your phone, the “O” stands for… — One: One-Time Password."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina WhatsApp, centang dua nu robah jadi biru hartina pesen urang geus …",
+    "options": [
+      "dibaca",
+      "dikirim",
+      "nepi",
+      "diteruskeun"
+    ],
+    "correctIndex": 0,
+    "gloss": "In WhatsApp, two ticks turning blue means the message has been… — read (grey double ticks mean delivered)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pokémon Pikachu kaasup tipe naon?",
+    "options": [
+      "Jukut",
+      "Seuneu",
+      "Cai",
+      "Listrik"
+    ],
+    "correctIndex": 3,
+    "gloss": "What type of Pokémon is Pikachu? — Electric."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pamaén bal nu ngasupkeun tilu gol dina hiji patandingan disebut nyieun …",
+    "options": [
+      "brace",
+      "hat-trick",
+      "clean sheet",
+      "assist"
+    ],
+    "correctIndex": 1,
+    "gloss": "A footballer scoring three goals in one match has made a… — hat-trick (a brace is two)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gelembung dina inuman bersoda téh eusina gas …",
+    "options": [
+      "karbon dioksida",
+      "oksigén",
+      "nitrogén",
+      "hidrogén"
+    ],
+    "correctIndex": 0,
+    "gloss": "The bubbles in a fizzy drink contain… — carbon dioxide."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kartun “Upin & Ipin” dijieun di nagara …",
+    "options": [
+      "Singapura",
+      "Indonésia",
+      "Malaysia",
+      "Brunéi"
+    ],
+    "correctIndex": 2,
+    "gloss": "The cartoon “Upin & Ipin” is made in… — Malaysia (Les' Copaque, Kuala Lumpur)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Aplikasi naon nu bisa mikawanoh judul lagu nu keur kadéngé, ngan ku nyorongkeun HP?",
+    "options": [
+      "Spotify",
+      "JOOX",
+      "Shazam",
+      "SoundCloud"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which app can recognise the title of a song you are hearing, just by holding up your phone? — Shazam."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pulo Papua dibagi dua: beulah kulon kaasup Indonésia, beulah wétan kaasup nagara …",
+    "options": [
+      "Filipina",
+      "Timor Léste",
+      "Australia",
+      "Papua Nugini"
+    ],
+    "correctIndex": 3,
+    "gloss": "New Guinea is split: the west is Indonesia, the east is… — Papua New Guinea."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Baking powder dina adonan kuéh gunana pikeun …",
+    "options": [
+      "ngawarnaan kuéh",
+      "ngamaniskeun rasa",
+      "ngembangkeun adonan",
+      "ngawétkeun kuéh"
+    ],
+    "correctIndex": 2,
+    "gloss": "Baking powder in cake batter is there to… — make the batter rise."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina carita Ramayana, Déwi Sinta diculik ku …",
+    "options": [
+      "Rahwana",
+      "Hanoman",
+      "Laksmana",
+      "Wibisana"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Ramayana, Sita is abducted by… — Rahwana (Ravana)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lauk naon nu bisa ngagelembungkeun awakna nepi ka buleud lamun keur bahaya?",
+    "options": [
+      "Gurame",
+      "Pari",
+      "Lélé",
+      "Buntal"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fish can puff itself up into a ball when threatened? — The pufferfish (buntal)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina baskét, bal nu asup tina lémparan ti luar garis lengkung méré sabaraha poin?",
+    "options": [
+      "2 poin",
+      "3 poin",
+      "1 poin",
+      "4 poin"
+    ],
+    "correctIndex": 1,
+    "gloss": "In basketball, a shot from beyond the arc scores how many points? — 3."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina pilem animasi “Frozen”, saha ngaran manusa salju nu ngimpi ngarasakeun usum panas?",
+    "options": [
+      "Olaf",
+      "Sven",
+      "Kristoff",
+      "Hans"
+    ],
+    "correctIndex": 0,
+    "gloss": "In “Frozen”, what is the snowman who dreams of summer called? — Olaf (Sven is the reindeer)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kimchi, kadaharan has Koréa, paling umum dijieun tina …",
+    "options": [
+      "bayem",
+      "kangkung",
+      "sawi bodas",
+      "kol beureum"
+    ],
+    "correctIndex": 2,
+    "gloss": "Kimchi, the Korean staple, is most commonly made from… — napa cabbage (sawi bodas)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Térmométer digital nu ditodongkeun kana tarang ngukur suhu awak ngaliwatan …",
+    "options": [
+      "gelombang sora",
+      "sinar inframérah",
+      "médan magnét",
+      "sinar UV"
+    ],
+    "correctIndex": 1,
+    "gloss": "A digital thermometer pointed at the forehead measures body temperature through… — infrared radiation given off by the skin."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lamun di warung aya tulisan “QRIS”, hartina urang bisa …",
+    "options": [
+      "nginjeum duit",
+      "ngecas HP",
+      "make Wi-Fi gratis",
+      "mayar ku nyeken kode"
+    ],
+    "correctIndex": 3,
+    "gloss": "If a shop shows a “QRIS” sign, it means you can… — pay by scanning a code: QRIS is Indonesia's national QR payment standard, accepted by any bank or e-wallet app."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Di Bandung keur tabuh 20.00 WIB. Di Makassar, nu kaasup WITA, tabuh sabaraha?",
+    "options": [
+      "22.00",
+      "19.00",
+      "21.00",
+      "20.00"
+    ],
+    "correctIndex": 2,
+    "gloss": "It is 20:00 WIB in Bandung. What time is it in Makassar (WITA)? — 21:00: WITA is one hour ahead of WIB."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Motif batik “mega mendung” nu ngagambarkeun awan asalna ti …",
+    "options": [
+      "Cirebon",
+      "Garut",
+      "Tasikmalaya",
+      "Pekalongan"
+    ],
+    "correctIndex": 0,
+    "gloss": "The “mega mendung” cloud batik motif comes from… — Cirebon."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Taman Nasional Ujung Kulon di Banten jadi tempat hirup panungtungan pikeun sato langka …",
+    "options": [
+      "banténg",
+      "harimau Jawa",
+      "owa Jawa",
+      "badak Jawa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Ujung Kulon National Park in Banten is the last home of the rare… — Javan rhinoceros."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Loba ngaran tempat di Tatar Sunda dimimitian ku “Ci-”, saperti Cianjur jeung Cimahi. “Ci” téh tina kecap …",
+    "options": [
+      "cicing",
+      "cai",
+      "ciri",
+      "cikal"
+    ],
+    "correctIndex": 1,
+    "gloss": "Many Sundanese place names start with “Ci-”, like Cianjur and Cimahi. “Ci” comes from the word… — cai, water."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Karédok jeung gado-gado sarua disiram ku sambel suuk. Bédana, sayuran karédok mah …",
+    "options": [
+      "atah",
+      "digoréng",
+      "dikukus",
+      "dibeuleum"
+    ],
+    "correctIndex": 0,
+    "gloss": "Karedok and gado-gado both get peanut sauce. The difference: karedok's vegetables are… — raw."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Palabuhan Karajaan Sunda nu kiwari jadi Jakarta ngaranna …",
+    "options": [
+      "Muara Jati",
+      "Banten Girang",
+      "Sunda Kalapa",
+      "Pakuan"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Sunda Kingdom's harbour that grew into Jakarta was called… — Sunda Kalapa."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dina kapercayaan Sunda buhun, Nyi Pohaci Sanghyang Sri téh déwi …",
+    "options": [
+      "laut",
+      "pare",
+      "hujan",
+      "gunung"
+    ],
+    "correctIndex": 1,
+    "gloss": "In old Sundanese belief, Nyi Pohaci Sanghyang Sri is the goddess of… — rice."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bandéra nagara mana nu ampir sarua jeung Sang Saka Merah Putih, ngan babandinganana nu béda?",
+    "options": [
+      "Austria",
+      "Polandia",
+      "Singapura",
+      "Monako"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country's flag is almost identical to Indonesia's, differing only in proportions? — Monaco (Poland is white over red)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Di luhur gunung, cai ngagolak dina suhu nu leuwih handap batan di basisir. Naon sababna?",
+    "options": [
+      "Oksigénna leuwih saeutik",
+      "Hawana leuwih tiis",
+      "Tekanan hawana leuwih handap",
+      "Leuwih deukeut ka panonpoé"
+    ],
+    "correctIndex": 2,
+    "gloss": "Up a mountain water boils at a lower temperature than on the coast. Why? — Lower air pressure."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina notasi musik, tanda “♯” nu naékkeun nada satengah disebut …",
+    "options": [
+      "kres",
+      "mol",
+      "pugar",
+      "fermata"
+    ],
+    "correctIndex": 0,
+    "gloss": "In notation, the “♯” sign raising a note by a semitone is called… — kres (sharp); mol is flat, pugar natural."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina novél Cervantes, Don Quixote narajang … nu disangkana raksasa.",
+    "options": [
+      "parahu layar",
+      "menara garéja",
+      "tatangkalan",
+      "kincir angin"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Cervantes's novel, Don Quixote charges at … he takes for giants — windmills."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dina ténis, skor nol disebut …",
+    "options": [
+      "deuce",
+      "love",
+      "ace",
+      "let"
+    ],
+    "correctIndex": 1,
+    "gloss": "In tennis, a score of zero is called… — love."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kotak CAPTCHA dina hiji situs gunana pikeun mastikeun yén nu muka téh …",
+    "options": [
+      "lain robot",
+      "geus déwasa",
+      "boga akun",
+      "aya di Indonésia"
+    ],
+    "correctIndex": 0,
+    "gloss": "A CAPTCHA box on a website checks that the visitor is… — not a robot."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Abad ka-21 sacara resmi dimimitian taun …",
+    "options": [
+      "1999",
+      "2000",
+      "2001",
+      "2010"
+    ],
+    "correctIndex": 2,
+    "gloss": "The 21st century officially began in… — 2001: there is no year 0, so centuries run 1–100, 2001–2100."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lagu “Manuk Dadali” diciptakeun ku …",
+    "options": [
+      "Mang Koko",
+      "Sambas Mangundikarta",
+      "Nano S.",
+      "Doel Sumbang"
+    ],
+    "correctIndex": 1,
+    "gloss": "The song “Manuk Dadali” was written by… — Sambas Mangundikarta."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Susi Susanti, pamaén bulu tangkis asal Tasikmalaya, meunang medali emas Olimpiade di kota …",
+    "options": [
+      "Sydney",
+      "Atlanta",
+      "Seoul",
+      "Barcelona"
+    ],
+    "correctIndex": 3,
+    "gloss": "Susi Susanti, the badminton player from Tasikmalaya, won Olympic gold in… — Barcelona (1992), Indonesia's first Olympic gold."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pupuh nu watekna kanyaah, birahi, atawa cinta téh …",
+    "options": [
+      "Maskumambang",
+      "Durma",
+      "Asmarandana",
+      "Pucung"
+    ],
+    "correctIndex": 2,
+    "gloss": "The pupuh (verse form) whose mood is love and longing is… — Asmarandana; Durma is anger, Maskumambang sorrow, Pucung advice."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sabaraha rupa PIN opat angka nu bisa dijieun tina angka 0 nepi ka 9?",
+    "options": [
+      "10.000",
+      "9.999",
+      "5.040",
+      "1.000"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many four-digit PINs can be made from the digits 0–9? — 10,000 (0000–9999); 5,040 would forbid repeats."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Dina astronomi, “taun cahaya” téh ukuran …",
+    "options": [
+      "caang",
+      "waktu",
+      "laju",
+      "jarak"
+    ],
+    "correctIndex": 3,
+    "gloss": "In astronomy, a “light-year” measures… — distance: how far light travels in a year."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Genep “tusuk saté” dina puncak Gedung Saté di Bandung ngalambangkeun …",
+    "options": [
+      "lilana ngawangun 6 taun",
+      "biaya 6 juta gulden",
+      "6 karésidénan",
+      "6 arsiték"
+    ],
+    "correctIndex": 1,
+    "gloss": "The six “satay skewers” on top of Gedung Sate in Bandung stand for… — its building cost of six million guilders."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saha nu nyiptakeun World Wide Web di CERN taun 1989?",
+    "options": [
+      "Tim Berners-Lee",
+      "Bill Gates",
+      "Vint Cerf",
+      "Steve Jobs"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who invented the World Wide Web at CERN in 1989? — Tim Berners-Lee. Vint Cerf, the trap, co-designed the internet's TCP/IP protocols, which the Web runs on."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Taun 1810 puseur Kabupatén Bandung dipindahkeun ti Dayeuhkolot ka sisi Jalan Raya Pos. Saha bupatina?",
+    "options": [
+      "R.A.A. Martanagara",
+      "Pangeran Kornél",
+      "R.A. Wiranatakusumah II",
+      "R.A.A. Wiranatakusumah V"
+    ],
+    "correctIndex": 2,
+    "gloss": "In 1810 the seat of Bandung regency moved from Dayeuhkolot to the Great Post Road. Who was the regent? — R.A. Wiranatakusumah II (Dalem Kaum), founder of the city; Pangeran Kornel ruled Sumedang."
+  }
+]

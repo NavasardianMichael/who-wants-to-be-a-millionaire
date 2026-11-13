@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Euskaraz «berrogeita hamar» esaten dugunean, zer zenbaki da?",
+    "options": [
+      "50",
+      "30",
+      "70",
+      "90"
+    ],
+    "correctIndex": 0,
+    "gloss": "When we say \"berrogeita hamar\" in Basque, what number is it? — 50: berrogei (2×20 = 40) plus hamar (10); 30, 70 and 90 are hogeita hamar, hirurogeita hamar, laurogeita hamar."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Erlojuak «hamarrak laurden gutxi» markatzen ditu. Zer ordu da?",
+    "options": [
+      "10:15",
+      "10:45",
+      "9:15",
+      "9:45"
+    ],
+    "correctIndex": 3,
+    "gloss": "The clock shows \"ten, a quarter less\". What time is it? — 9:45: \"laurden gutxi\" is a quarter to the named hour."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Nolakoa da «mendizale» bat?",
+    "options": [
+      "Mendian jaio dena",
+      "Mendiak neurtzen dituena",
+      "Mendia maite duena",
+      "Mendi-gidari ofiziala"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is a \"mendizale\"? — Someone who loves the mountains: the suffix -zale means \"fond of\"."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Itsasargi» hitza «itsaso» eta «argi» hitzekin osatua dago. Zer da?",
+    "options": [
+      "Portua",
+      "Faroa",
+      "Kaia",
+      "Ainguratokia"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Itsasargi\" is built from \"itsaso\" (sea) and \"argi\" (light). What is it? — A lighthouse."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Hamaika aldiz esan dizut!» dioenak, zenbat aldiz esan du?",
+    "options": [
+      "Hamaika aldiz zehatz-mehatz",
+      "Askotan",
+      "Behin bakarrik",
+      "Bi aldiz"
+    ],
+    "correctIndex": 1,
+    "gloss": "Someone who says \"I have told you eleven times!\" — how many times did they say it? — Many times: \"hamaika\" (eleven) also means \"a great many\"."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sagardotegian «txotx!» oihukatzen denean, zer egin ohi da?",
+    "options": [
+      "Kupelara joan sagardoa hartzera",
+      "Txuleta zerbitzatu",
+      "Mahaira eseri",
+      "Bertso bat bota"
+    ],
+    "correctIndex": 0,
+    "gloss": "In a cider house, when someone shouts \"txotx!\", what do people do? — Go to the barrel to catch cider from the tap."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Herri-kiroletan, zer egiten du aizkolari batek?",
+    "options": [
+      "Harri astunak altxatzen ditu",
+      "Belarra segaz mozten du",
+      "Sokari tiratzen dio",
+      "Enborrak aizkoraz ebakitzen ditu"
+    ],
+    "correctIndex": 3,
+    "gloss": "In Basque rural sports, what does an aizkolari do? — Chops logs with an axe (the stone lifter is a harri-jasotzaile)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iruñeko sanferminak txupinazoarekin hasten dira. Zein egunetan?",
+    "options": [
+      "Uztailaren 7an",
+      "Uztailaren 14an",
+      "Uztailaren 6an",
+      "Ekainaren 24an"
+    ],
+    "correctIndex": 2,
+    "gloss": "Pamplona's San Fermín starts with the chupinazo. On which day? — 6 July at noon; the 7th is San Fermín's own day."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein ibaik zeharkatzen du Bilbo, itsasoraino?",
+    "options": [
+      "Urumeak",
+      "Oriak",
+      "Nerbioik",
+      "Bidasoak"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which river crosses Bilbao down to the sea? — The Nervión (its estuary, the ría); the Urumea is Donostia's river."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Txalaparta tradizionalean, zer kolpatzen da makilekin?",
+    "options": [
+      "Larruzko danborrak",
+      "Egurrezko oholak",
+      "Metalezko hodiak",
+      "Kristalezko ontziak"
+    ],
+    "correctIndex": 1,
+    "gloss": "In the traditional txalaparta, what is struck with sticks? — Wooden planks."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bertsolari Txapelketa Nagusiko irabazleari zer jartzen zaio buruan?",
+    "options": [
+      "Txapela",
+      "Erramu-koroa",
+      "Koroa",
+      "Zapi gorria"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is placed on the head of the winner of the national bertsolari championship? — The txapela (beret), hence \"txapeldun\" (champion)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Euskal mitologiako Tartalo erraldoiak zer du berezia?",
+    "options": [
+      "Hiru buru",
+      "Ahuntz-hankak",
+      "Zazpi buru",
+      "Begi bakarra"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is special about the giant Tartalo of Basque mythology? — He has a single eye (the Basque cyclops); seven heads belong to Herensuge."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Eduardo Txillidaren «Haizearen orrazia» itsasoaren aurrean dago. Zein hiritan?",
+    "options": [
+      "Bilbon",
+      "Getxon",
+      "Baionan",
+      "Donostian"
+    ],
+    "correctIndex": 3,
+    "gloss": "Chillida's \"Comb of the Wind\" stands facing the sea. In which city? — Donostia/San Sebastián, at the end of Ondarreta beach."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zergatik botatzen da gatza errepideetan neguan?",
+    "options": [
+      "Asfaltoa beroa mantentzen duelako",
+      "Elurra gogortzen duelako",
+      "Izotza urtzen laguntzen duelako",
+      "Gurpilen gomak babesten dituelako"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why is salt spread on roads in winter? — It helps melt ice: salt water freezes below 0 °C."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zergatik ez da metalezko ontzirik sartu behar mikrouhin-labean?",
+    "options": [
+      "Janaria hozten duelako",
+      "Txinpartak sor ditzakeelako",
+      "Labearen argia itzaltzen duelako",
+      "Ontzia urtu egiten delako"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why should no metal container go into a microwave oven? — It can make sparks (arcing)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Espresso bati ur bero gehiago gehitzen badiozu, zer kafe lortzen duzu?",
+    "options": [
+      "Kafe amerikarra",
+      "Kafe ebakia",
+      "Kafesnea",
+      "Kapputxinoa"
+    ],
+    "correctIndex": 0,
+    "gloss": "If you add more hot water to an espresso, what coffee do you get? — An americano; the others add milk."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Frantziako Tourrean, zer koloretako maillota darama sailkapen nagusiko liderrak?",
+    "options": [
+      "Horia",
+      "Arrosa",
+      "Berdea",
+      "Gorria"
+    ],
+    "correctIndex": 0,
+    "gloss": "In the Tour de France, what colour jersey does the overall leader wear? — Yellow; pink is the Giro's, red the Vuelta's, green the Tour's points jersey."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein hiriburu dago ekuatoretik hurbilen?",
+    "options": [
+      "Lima",
+      "Bogota",
+      "Caracas",
+      "Quito"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which capital lies closest to the equator? — Quito, about 25 km south of it; Ecuador takes its name from the line."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zergatik ez zaie txokolaterik eman behar txakurrei?",
+    "options": [
+      "Hortzak hondatzen dizkielako",
+      "Ilea erortzen zaielako",
+      "Pozoitsua zaielako",
+      "Gizendu egiten dituelako"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why should dogs not be given chocolate? — It is poisonous to them (theobromine)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Arropa-etiketan, ur-ontzi baten barruan esku bat ageri da. Zer esan nahi du?",
+    "options": [
+      "Ez dela lisatu behar",
+      "Eskuz garbitu behar dela",
+      "Lehorgailuan sar daitekeela",
+      "Garbiketa lehorra behar duela"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a clothing label, a hand appears inside a tub of water. What does it mean? — Hand wash only."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Europan, zein da larrialdi guztietarako telefono-zenbaki bakarra?",
+    "options": [
+      "911",
+      "112",
+      "091",
+      "061"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Europe, what is the single phone number for all emergencies? — 112; 911 is North America's."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein bideojokotan erortzen dira forma desberdineko piezak, lerro osoak osatu eta ezabatzeko?",
+    "options": [
+      "Tetris",
+      "Pac-Man",
+      "Space Invaders",
+      "Candy Crush"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which video game do pieces of different shapes fall, to complete and clear whole lines? — Tetris."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Toy Story»n, zer da Woody panpina?",
+    "options": [
+      "Astronauta bat",
+      "Dinosauro bat",
+      "Soldadu bat",
+      "Cowboy bat"
+    ],
+    "correctIndex": 3,
+    "gloss": "In \"Toy Story\", what is the Woody doll? — A cowboy; Buzz is the astronaut."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein aplikaziok ezagutzen du entzuten ari zaren abestia, mugikorra hurbilduta?",
+    "options": [
+      "Spotify",
+      "SoundCloud",
+      "Shazam",
+      "Audacity"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which app recognises the song you are hearing when you hold up your phone? — Shazam."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zertarako balio du bi urratseko egiaztapenak?",
+    "options": [
+      "Bi gailutan saioa batera irekitzeko",
+      "Pasahitza bi aldiz idatzarazteko",
+      "Pasahitzaz gain beste kode bat eskatzeko",
+      "Konexioa bi aldiz azkartzeko"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is two-step verification for? — To ask for a second code on top of the password."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mendi gainera igotzean, patata frijituen poltsa itxia puztu egiten da. Zergatik?",
+    "options": [
+      "Patatek gasa askatzen dutelako",
+      "Kanpoko aire-presioa txikiagoa delako",
+      "Goian hotzago egiten duelako",
+      "Eguzkiak poltsa berotzen duelako"
+    ],
+    "correctIndex": 1,
+    "gloss": "Taken up a mountain, a sealed crisp bag puffs up. Why? — The outside air pressure is lower, so the air inside expands."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zer da «spam»-a posta elektronikoan?",
+    "options": [
+      "Eskatu gabeko mezu masiboak",
+      "Birus mota bat",
+      "Ezabatutako mezuen karpeta",
+      "Mezu zifratu bat"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is \"spam\" in e-mail? — Unsolicited mass messages."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein da Arrasateko kooperatibaren etxetresna-marka, garbigailuengatik ezaguna?",
+    "options": [
+      "Balay",
+      "Teka",
+      "Bosch",
+      "Fagor"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is the household-appliance brand of the Arrasate (Mondragón) cooperative, known for its washing machines? — Fagor; Balay is Aragonese, Teka German-Spanish, Bosch German."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kiwia fruitua da, baina baita Zeelanda Berriko ikurra ere. Zer da ikur hori?",
+    "options": [
+      "Arrain bat",
+      "Sugandila bat",
+      "Intsektu bat",
+      "Hegazti bat"
+    ],
+    "correctIndex": 3,
+    "gloss": "The kiwi is a fruit, but also New Zealand's emblem. What is that emblem? — A flightless bird."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Robinson Crusoek astegun baten izena jarri zion uharteko bere lagunari. Zein?",
+    "options": [
+      "Igandea",
+      "Astelehena",
+      "Ostirala",
+      "Larunbata"
+    ],
+    "correctIndex": 2,
+    "gloss": "Robinson Crusoe named his island companion after a weekday. Which? — Friday (Ostirala), the day he met him."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zer lekaleren gainean egiten da hummusa?",
+    "options": [
+      "Dilista",
+      "Txitxirioa",
+      "Babarruna",
+      "Ilarra"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which pulse is hummus made from? — Chickpeas."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Euskaldun» hitza «euskara» eta «-dun» atzizkiaz osatua dago. Zer da, jatorriz, euskalduna?",
+    "options": [
+      "Euskara duena",
+      "Euskal Herrian jaioa",
+      "Euskal abizena duena",
+      "Euskal Herrian bizi dena"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Euskaldun\" is euskara + the suffix -dun. What is a euskaldun, by origin? — One who has (speaks) Basque: -dun means \"having\"."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zer zuhaitz mota da Gernikako Arbola?",
+    "options": [
+      "Haritza",
+      "Pagoa",
+      "Gaztainondoa",
+      "Lizarra"
+    ],
+    "correctIndex": 0,
+    "gloss": "What kind of tree is the Tree of Gernika? — An oak."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Athletic Clubek, bere filosofiaren arabera, zer jokalari hartzen ditu taldean?",
+    "options": [
+      "Bizkaian jaiotakoak bakarrik",
+      "Bilbon bizi direnak bakarrik",
+      "Espainiarrak bakarrik",
+      "Euskal Herrian jaio edo hezitakoak"
+    ],
+    "correctIndex": 3,
+    "gloss": "Under its philosophy, which players does Athletic Club field? — Those born or trained in the Basque Country."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein odol-talde da emaile unibertsala, edonori eman dakiokeena?",
+    "options": [
+      "AB positiboa",
+      "A negatiboa",
+      "O negatiboa",
+      "B positiboa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which blood group is the universal donor? — O negative (AB positive is the universal recipient)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Webgune baten helbidean, zer adierazten du «https»-ko azken «s» horrek?",
+    "options": [
+      "Webgunea espainiarra dela",
+      "Konexioa zifratuta dagoela",
+      "Orria azkarra dela",
+      "Webgunea ofiziala dela"
+    ],
+    "correctIndex": 1,
+    "gloss": "In a web address, what does the final \"s\" of \"https\" indicate? — The connection is encrypted (secure)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Tenisean, 40-0 irabazten ari bazara, zenbat puntu behar dituzu gutxienez jokoa irabazteko?",
+    "options": [
+      "Bi",
+      "Bat",
+      "Hiru",
+      "Lau"
+    ],
+    "correctIndex": 1,
+    "gloss": "In tennis, leading 40-0, how many points do you need at least to win the game? — One: 40 means three points won, and the next wins."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein artistak egin zituen Campbell's zopa-poteen serigrafia ospetsuak?",
+    "options": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Keith Haring",
+      "Jackson Pollock"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which artist made the famous Campbell's soup can prints? — Andy Warhol."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein taldek abestu zuen «Lau teilatu»?",
+    "options": [
+      "Oskorri",
+      "Hertzainak",
+      "Ken Zazpi",
+      "Itoiz"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which group sang \"Lau teilatu\"? — Itoiz (1987)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "«Parkean umeak jolasten dira». Zenbat ume ari dira jolasean?",
+    "options": [
+      "Bat bakarrik",
+      "Bi zehazki",
+      "Bat baino gehiago",
+      "Bat ere ez"
+    ],
+    "correctIndex": 2,
+    "gloss": "\"In the park the children are playing\" — how many children? — More than one: \"umeak\" alone could be singular ergative, but the plural verb \"dira\" makes it plural absolutive."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein hiriburu dago Danubio ibaiaren ertzean?",
+    "options": [
+      "Praga",
+      "Varsovia",
+      "Budapest",
+      "Bukarest"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which capital lies on the Danube? — Budapest; Prague is on the Vltava, Warsaw on the Vistula, Bucharest on the Dâmbovița."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Nor da Egiptoko jainko txakal-buruduna, hildakoen zaindaria?",
+    "options": [
+      "Horus",
+      "Anubis",
+      "Ra",
+      "Osiris"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who is the jackal-headed Egyptian god, guardian of the dead? — Anubis; Horus has a falcon's head."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein erlijio-ordena sortu zuen Loiolako Inazio azpeitiarrak?",
+    "options": [
+      "Jesuitak",
+      "Frantziskotarrak",
+      "Dominikarrak",
+      "Beneditarrak"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which religious order did Ignatius of Loyola, from Azpeitia, found? — The Jesuits (Society of Jesus, 1540)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ur-botila beterik izozkailuan ahaztuz gero, lehertu egin daiteke. Zergatik?",
+    "options": [
+      "Hotzak plastikoa ahultzen duelako",
+      "Izozkailuan presioa igotzen delako",
+      "Barruko airea izozten delako",
+      "Ura izoztean hedatu egiten delako"
+    ],
+    "correctIndex": 3,
+    "gloss": "A full water bottle forgotten in the freezer can burst. Why? — Water expands when it freezes."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nork idatzi zuen «Bilbao-New York-Bilbao» eleberria?",
+    "options": [
+      "Harkaitz Canok",
+      "Unai Elorriagak",
+      "Ramon Saizarbitoriak",
+      "Kirmen Uribek"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novel \"Bilbao-New York-Bilbao\"? — Kirmen Uribe (2008, Spanish National Prize for Literature 2009)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Zein herrialdetan dago Angkor Wat tenplu-multzoa?",
+    "options": [
+      "Thailandian",
+      "Vietnamen",
+      "Kanbodian",
+      "Laosen"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which country is the Angkor Wat temple complex? — Cambodia; it is on the Cambodian flag."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein biolinista iruindarrek konposatu zuen «Zigeunerweisen»?",
+    "options": [
+      "Jesús Guridi",
+      "Pablo Sarasate",
+      "Juan Crisóstomo Arriaga",
+      "José María Usandizaga"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which violinist from Pamplona composed «Zigeunerweisen»? — Pablo Sarasate (1878); Guridi was from Vitoria, Arriaga from Bilbao, Usandizaga from Donostia."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Zein arkitektok diseinatu zuen Donostiako Kursaal jauregia, itsasertzeko bi kubo handiak?",
+    "options": [
+      "Rafael Moneok",
+      "Santiago Calatravak",
+      "Frank Gehryk",
+      "Norman Fosterrek"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which architect designed Donostia's Kursaal, the two large cubes by the sea? — Rafael Moneo (1999); Calatrava, Gehry and Foster built in Bilbao."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Euskal Herriko hiri hauetatik, zein dago iparralderen?",
+    "options": [
+      "Baiona",
+      "Donostia",
+      "Bilbo",
+      "Maule"
+    ],
+    "correctIndex": 0,
+    "gloss": "Of these Basque towns, which lies furthest north? — Bayonne (about 43.49° N), ahead of Donostia (43.32°), Bilbao (43.26°) and Mauléon (43.22°); the coast curves north into Lapurdi."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gabriel Arestiren «Harri eta herri» poema-liburuak euskal poesia berritu zuen. Zein urtetan argitaratu zen?",
+    "options": [
+      "1957an",
+      "1971n",
+      "1960an",
+      "1964an"
+    ],
+    "correctIndex": 3,
+    "gloss": "Gabriel Aresti's \"Harri eta herri\" renewed Basque poetry. In which year was it published? — 1964."
+  }
+]

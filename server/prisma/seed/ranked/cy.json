@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘Ei dad’ yw tad bachgen. Sut mae dweud tad merch?",
+    "options": [
+      "ei thad",
+      "ei nhad",
+      "ei dad",
+      "ei tad"
+    ],
+    "correctIndex": 0,
+    "gloss": "'Ei dad' is a boy's father. How do you say a girl's father? — 'ei thad': feminine 'ei' (her) takes the aspirate mutation, t → th."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "O ‘coed’ cawn ‘coeden’. Sut mae dweud un o'r ‘mefus’?",
+    "options": [
+      "Mefusyn",
+      "Mefusen",
+      "Mefysen",
+      "Mefusau"
+    ],
+    "correctIndex": 1,
+    "gloss": "From 'coed' (trees) we get 'coeden' (one tree). How do you say one of the 'mefus' (strawberries)? — 'Mefusen': the singulative -en, as in coed → coeden."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Yn llythrennol, ‘dau naw’ yw ‘deunaw’. Pa rif yw e?",
+    "options": [
+      "29",
+      "11",
+      "92",
+      "18"
+    ],
+    "correctIndex": 3,
+    "gloss": "Literally, 'deunaw' is 'two nines'. Which number is it? — 18: two times nine."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "‘Tref y ffynnon’ yw ystyr ‘Treffynnon’. Beth yw ei henw yn Saesneg?",
+    "options": [
+      "Welshpool",
+      "Holywell",
+      "Holyhead",
+      "Haverfordwest"
+    ],
+    "correctIndex": 1,
+    "gloss": "'Treffynnon' means 'town of the well'. What is its English name? — Holywell (Flintshire), named after St Winefride's Well; the only option with 'well'."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ar label dilledyn, beth mae llun o fowlen ddŵr â llaw ynddi yn ei olygu?",
+    "options": [
+      "Peidiwch â golchi",
+      "Sychlanhau yn unig",
+      "Golchwch â llaw",
+      "Golchwch ar 90°"
+    ],
+    "correctIndex": 2,
+    "gloss": "On a clothing label, what does a tub of water with a hand in it mean? — Hand wash."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mewn e-bost, beth mae rhoi pobl yn y maes ‘Bcc’ yn ei wneud?",
+    "options": [
+      "Cuddio'u cyfeiriadau rhag y lleill",
+      "Gofyn am dderbynneb darllen",
+      "Anfon y neges yn hwyrach",
+      "Amgryptio'r neges"
+    ],
+    "correctIndex": 0,
+    "gloss": "In an email, what does putting people in the 'Bcc' field do? — Hides their addresses from the other recipients (blind carbon copy)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mewn rygbi'r undeb, sawl pwynt sy'n dod o sgorio cais?",
+    "options": [
+      "Tri",
+      "Pedwar",
+      "Pump",
+      "Chwech"
+    ],
+    "correctIndex": 2,
+    "gloss": "In rugby union, how many points does scoring a try give? — Five (it was four until 1992)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beth sy'n cael ei ychwanegu at espresso i wneud latte?",
+    "options": [
+      "Dŵr poeth",
+      "Llaeth wedi'i stemio",
+      "Hufen chwip",
+      "Siocled poeth"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is added to an espresso to make a latte? — Steamed milk."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ym mha gêm fideo mae chwaraewyr yn cloddio ac yn adeiladu byd cyfan o flociau sgwâr?",
+    "options": [
+      "Fortnite",
+      "The Sims",
+      "Pokémon Go",
+      "Minecraft"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which video game do players mine and build a whole world of square blocks? — Minecraft."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa offeryn sy'n cael ei ystyried yn offeryn cenedlaethol Cymru?",
+    "options": [
+      "Y crwth",
+      "Y delyn",
+      "Y pibgorn",
+      "Y ffidil"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which instrument is regarded as the national instrument of Wales? — The harp (the triple harp especially); crwth and pibgorn are old Welsh instruments too, but not the national one."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dydd Santes Dwynwen, ar 25 Ionawr, yw fersiwn Cymru o ba ddiwrnod?",
+    "options": [
+      "Sul y Mamau",
+      "Calan Gaeaf",
+      "Dydd San Ffolant",
+      "Dydd Calan"
+    ],
+    "correctIndex": 2,
+    "gloss": "St Dwynwen's Day, 25 January, is Wales's version of which day? — Valentine's Day: Dwynwen is the Welsh patron saint of lovers."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ar botel eli haul, am beth mae'r rhif SPF yn sôn?",
+    "options": [
+      "Faint o amddiffyniad rhag llosgi",
+      "Pa mor dal dŵr yw'r eli",
+      "Am faint mae'n cadw ar ôl agor",
+      "Faint o fitaminau sydd ynddo"
+    ],
+    "correctIndex": 0,
+    "gloss": "On a bottle of sun cream, what does the SPF number tell you? — How much protection it gives against sunburn (Sun Protection Factor)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa fynydd y gallwch chi ei ddringo ar drên bach sy'n cychwyn yn Llanberis?",
+    "options": [
+      "Cadair Idris",
+      "Pen y Fan",
+      "Tryfan",
+      "Yr Wyddfa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mountain can you climb on a little train that starts in Llanberis? — Yr Wyddfa (Snowdon), by the Snowdon Mountain Railway."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa greadur bach sy'n gallu trosglwyddo clefyd Lyme wrth frathu?",
+    "options": [
+      "Trogen",
+      "Mosgito",
+      "Chwannen",
+      "Pryf llwyd"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which small creature can pass on Lyme disease when it bites? — The tick (trogen); hence checking your skin after walking in long grass or bracken."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym mha dref ym Mro Morgannwg mae teulu Stacey yn byw yn ‘Gavin & Stacey’?",
+    "options": [
+      "Y Barri",
+      "Penarth",
+      "Porthcawl",
+      "Pen-y-bont ar Ogwr"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Vale of Glamorgan town does Stacey's family live in 'Gavin & Stacey'? — Barry (Y Barri)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa fwyd Cymreig sy'n cael ei wneud o wymon wedi'i ferwi am oriau?",
+    "options": [
+      "Bara brith",
+      "Picau ar y maen",
+      "Cawl",
+      "Bara lawr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Welsh food is made from seaweed boiled for hours? — Laverbread (bara lawr), often fried with cockles and bacon; bara brith is fruit loaf, picau ar y maen Welsh cakes."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I ba glwb yn Sbaen yr ymunodd Gareth Bale o Tottenham yn 2013?",
+    "options": [
+      "Barcelona",
+      "Real Madrid",
+      "Atlético Madrid",
+      "Valencia"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Spanish club did Gareth Bale join from Tottenham in 2013? — Real Madrid."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa fardd o Abertawe a ysgrifennodd ‘Under Milk Wood’?",
+    "options": [
+      "R. S. Thomas",
+      "Edward Thomas",
+      "Dylan Thomas",
+      "Gwyn Thomas"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swansea poet wrote 'Under Milk Wood'? — Dylan Thomas; the other three are also Thomases."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pam mae halen yn cael ei daenu ar ffyrdd yn y gaeaf?",
+    "options": [
+      "Mae'n cynhesu'r tarmac",
+      "Mae'n gostwng pwynt rhewi dŵr",
+      "Mae'n sychu'r ffordd",
+      "Mae'n adlewyrchu golau'r haul"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why is salt spread on roads in winter? — It lowers the freezing point of water, so ice melts."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa anifail gwyllt ym Mhrydain sy'n gaeafgysgu mewn nyth o ddail?",
+    "options": [
+      "Gwiwer lwyd",
+      "Cadno",
+      "Mochyn daear",
+      "Draenog"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which wild animal in Britain hibernates in a nest of leaves? — The hedgehog; grey squirrels, foxes and badgers stay active through winter."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Wrth hedfan o Gaerdydd i Efrog Newydd, sawl awr mae'r cloc yn mynd yn ôl?",
+    "options": [
+      "3 awr",
+      "4 awr",
+      "5 awr",
+      "6 awr"
+    ],
+    "correctIndex": 2,
+    "gloss": "Flying from Cardiff to New York, how many hours does the clock go back? — 5 hours (New York is on Eastern Time, five behind the UK for most of the year)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa artist graffiti dienw sy'n enwog am ei stensiliau ar waliau ledled y byd?",
+    "options": [
+      "Banksy",
+      "David Hockney",
+      "Damien Hirst",
+      "Grayson Perry"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which anonymous graffiti artist is famous for his stencils on walls around the world? — Banksy."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa nofelydd a greodd y ditectif o Wlad Belg, Hercule Poirot?",
+    "options": [
+      "Dorothy L. Sayers",
+      "Agatha Christie",
+      "P. D. James",
+      "Ruth Rendell"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which novelist created the Belgian detective Hercule Poirot? — Agatha Christie."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ym mha gyfres mae Eleven a'i ffrindiau yn ymladd y Demogorgon yn nhref Hawkins?",
+    "options": [
+      "Dark",
+      "The OA",
+      "Stranger Things",
+      "Wednesday"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which series do Eleven and her friends fight the Demogorgon in the town of Hawkins? — Stranger Things (Netflix, 2016–2025)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yn ôl y chwedl, pwy oedd Gelert, sy'n rhoi ei enw i Feddgelert?",
+    "options": [
+      "Ci ffyddlon Llywelyn",
+      "Ceffyl y Brenin Arthur",
+      "Hebog Hywel Dda",
+      "Draig Myrddin"
+    ],
+    "correctIndex": 0,
+    "gloss": "According to the legend, who was Gelert, who gives his name to Beddgelert? — Llywelyn's faithful hound, killed in error after saving the baby."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Beth oedd yn cael ei gloddio yn chwareli mawr Bethesda a Llanberis?",
+    "options": [
+      "Glo",
+      "Copr",
+      "Llechi",
+      "Aur"
+    ],
+    "correctIndex": 2,
+    "gloss": "What was dug in the great quarries of Bethesda and Llanberis? — Slate (Penrhyn and Dinorwig quarries)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mewn mis Chwefror o 28 diwrnod, sawl dydd Sul sydd yna?",
+    "options": [
+      "Tri",
+      "Pedwar",
+      "Pump",
+      "Mae'n dibynnu ar y flwyddyn"
+    ],
+    "correctIndex": 1,
+    "gloss": "In a 28-day February, how many Sundays are there? — Four: 28 days are exactly four whole weeks, so every weekday occurs four times."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ar gyfrifiadur Windows, beth mae Ctrl+Z yn ei wneud fel arfer?",
+    "options": [
+      "Cadw'r ffeil",
+      "Cau'r rhaglen",
+      "Copïo'r testun",
+      "Dadwneud y cam olaf"
+    ],
+    "correctIndex": 3,
+    "gloss": "On a Windows computer, what does Ctrl+Z usually do? — Undo the last action."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Mae ‘Bangor’ yn troi'n ‘ym Mangor’. Sut mae dweud ‘yn’ + ‘Dinbych’?",
+    "options": [
+      "yn Dinbych",
+      "yn Ninbych",
+      "ym Minbych",
+      "yn Nhinbych"
+    ],
+    "correctIndex": 1,
+    "gloss": "'Bangor' becomes 'ym Mangor'. How do you say 'in' + 'Dinbych' (Denbigh)? — 'yn Ninbych': after 'yn' the nasal mutation turns d into n."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beth yw prif gynhwysyn hwmws?",
+    "options": [
+      "Ffa llydan",
+      "Corbys",
+      "Gwygbys",
+      "Pys"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the main ingredient of hummus? — Chickpeas (gwygbys)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa aderyn ysglyfaethus a achubwyd rhag diflannu o Gymru, ac sy'n cael ei fwydo bob dydd ger Rhaeadr?",
+    "options": [
+      "Bwncath",
+      "Hebog tramor",
+      "Gwalch y pysgod",
+      "Barcud coch"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which bird of prey was saved from vanishing from Wales and is fed every day near Rhayader? — The red kite (Gigrin Farm feeding station)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa fand o Gwmaman a ganodd ‘Dakota’ a ‘Have a Nice Day’?",
+    "options": [
+      "Manic Street Preachers",
+      "Stereophonics",
+      "Catatonia",
+      "Super Furry Animals"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which band from Cwmaman sang 'Dakota' and 'Have a Nice Day'? — Stereophonics."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa ddinas sydd ar ddwy lan y Bosphorus, yn Ewrop ac yn Asia?",
+    "options": [
+      "Ankara",
+      "Athen",
+      "Istanbul",
+      "Sofia"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which city lies on both banks of the Bosphorus, in Europe and in Asia? — Istanbul."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Beth yw'r llinellau gwyn y mae awyrennau'n eu gadael yn uchel yn yr awyr?",
+    "options": [
+      "Mwg o'r tanwydd",
+      "Llwch o'r adenydd",
+      "Nwy i reoli'r tywydd",
+      "Anwedd dŵr wedi rhewi"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the white lines planes leave high in the sky? — Contrails: water vapour from the engines that condenses and freezes into ice crystals."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Mewn cyfeiriad gwe, am beth mae'r ‘S’ yn ‘https’ yn sefyll?",
+    "options": [
+      "Server",
+      "Site",
+      "Secure",
+      "System"
+    ],
+    "correctIndex": 2,
+    "gloss": "In a web address, what does the 'S' in 'https' stand for? — Secure (HyperText Transfer Protocol Secure)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa arweinydd a gynhaliodd senedd ym Machynlleth ym 1404?",
+    "options": [
+      "Llywelyn ap Gruffudd",
+      "Owain Gwynedd",
+      "Hywel Dda",
+      "Owain Glyndŵr"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which leader held a parliament at Machynlleth in 1404? — Owain Glyndŵr."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pwy ysgrifennodd ‘Animal Farm’, lle mae'r moch yn cipio'r fferm?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "William Golding",
+      "H. G. Wells"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who wrote 'Animal Farm', in which the pigs take over the farm? — George Orwell."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa arlunydd o Fôn a baentiodd dirluniau Eryri â chyllell balet a phaent trwchus?",
+    "options": [
+      "Augustus John",
+      "Ceri Richards",
+      "Kyffin Williams",
+      "Ernest Zobole"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Anglesey painter painted Snowdonia landscapes with a palette knife and thick paint? — Sir Kyffin Williams (born in Llangefni)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pa gwmni o Ddenmarc sy'n gwneud y briciau tegan plastig enwocaf yn y byd?",
+    "options": [
+      "Lego",
+      "Playmobil",
+      "Mattel",
+      "Hasbro"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Danish company makes the world's best-known plastic toy bricks? — Lego (Playmobil is German, Mattel and Hasbro American)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa wlad chwedlonol a foddwyd dan Fae Ceredigion pan adawyd y llifddorau ar agor?",
+    "options": [
+      "Cantre'r Gwaelod",
+      "Annwn",
+      "Ynys Afallon",
+      "Caer Sidi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which legendary land was drowned under Cardigan Bay when the sluice gates were left open? — Cantre'r Gwaelod (the drunken Seithennin's fault, in the best-known telling); its bells are said to ring under the sea."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ym mha ras y bu Colin Jackson o Gaerdydd yn bencampwr y byd?",
+    "options": [
+      "400 metr dros y clwydi",
+      "110 metr dros y clwydi",
+      "100 metr",
+      "200 metr"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which race was Cardiff's Colin Jackson world champion? — The 110 metres hurdles (1993 and 1999)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mae'r daith i'r gwaith yn cymryd 35 munud a'r gwaith yn dechrau am 8:45. Pryd mae'n rhaid gadael fan bellaf?",
+    "options": [
+      "8:05",
+      "8:15",
+      "8:10",
+      "8:20"
+    ],
+    "correctIndex": 2,
+    "gloss": "The journey to work takes 35 minutes and work starts at 8:45. When must you leave at the latest? — 8:10: 8:45 minus 35 minutes."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa beiriannydd a gynlluniodd Bont y Borth dros y Fenai, a agorodd ym 1826?",
+    "options": [
+      "Robert Stephenson",
+      "Thomas Telford",
+      "Isambard Kingdom Brunel",
+      "John Rennie"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which engineer designed the Menai Suspension Bridge (Pont y Borth), opened in 1826? — Thomas Telford; Robert Stephenson built the nearby Britannia Bridge."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Mae'r Lleuad yn llawn heno. Sut olwg fydd arni ymhen tua phythefnos?",
+    "options": [
+      "Llawn eto",
+      "Hanner lleuad",
+      "Cilgant tenau",
+      "Lleuad newydd"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Moon is full tonight. What will it look like in about a fortnight? — A new moon: the cycle is about 29.5 days, so half of it later the Moon is new."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Mae enw un o fisoedd y flwyddyn yn Gymraeg yn golygu ‘diwedd yr haf’. Pa un?",
+    "options": [
+      "Mehefin",
+      "Gorffennaf",
+      "Awst",
+      "Medi"
+    ],
+    "correctIndex": 1,
+    "gloss": "One Welsh month name means 'the end of summer'. Which? — Gorffennaf (July), from 'gorffen' (finish) + 'haf' (summer)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cyn cyngerdd, pa offeryn sydd fel arfer yn rhoi'r nodyn A i'r gerddorfa diwnio iddo?",
+    "options": [
+      "Y ffliwt",
+      "Y clarinét",
+      "Yr obo",
+      "Y basŵn"
+    ],
+    "correctIndex": 2,
+    "gloss": "Before a concert, which instrument usually gives the orchestra the A to tune to? — The oboe."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa awdur o Rosgadfan a ysgrifennodd ‘Te yn y Grug’ a ‘Traed mewn Cyffion’?",
+    "options": [
+      "Kate Roberts",
+      "Caradog Prichard",
+      "T. Rowland Hughes",
+      "Marion Eames"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which author from Rhosgadfan wrote 'Te yn y Grug' and 'Traed mewn Cyffion'? — Kate Roberts."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa wyddonydd o Abertawe a ddyfeisiodd y gell danwydd yn y 19eg ganrif?",
+    "options": [
+      "Michael Faraday",
+      "Humphry Davy",
+      "William Robert Grove",
+      "Alessandro Volta"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Swansea-born scientist invented the fuel cell in the 19th century? — Sir William Robert Grove (his 'gas voltaic battery', 1839–42)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "O ba borthladd yr hwyliodd y Mimosa ym 1865 â'r ymfudwyr cyntaf i Batagonia?",
+    "options": [
+      "Caerdydd",
+      "Abertawe",
+      "Caergybi",
+      "Lerpwl"
+    ],
+    "correctIndex": 3,
+    "gloss": "From which port did the Mimosa sail in 1865 with the first emigrants to Patagonia? — Liverpool (Lerpwl)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pa fathemategydd o Ddinbych-y-pysgod a gyflwynodd yr arwydd ‘=’ ym 1557?",
+    "options": [
+      "William Jones",
+      "Robert Recorde",
+      "John Napier",
+      "Thomas Harriot"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Tenby mathematician introduced the '=' sign in 1557? — Robert Recorde, in 'The Whetstone of Witte'; William Jones, the Anglesey man who introduced π, is the trap."
+  }
+]

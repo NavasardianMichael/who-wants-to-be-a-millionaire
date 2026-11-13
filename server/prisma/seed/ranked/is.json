@@ -1,0 +1,752 @@
+[
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvaða orð á að standa í eyðunni: „Á bænum eru … kýr“?",
+    "options": [
+      "fjórir",
+      "fjögur",
+      "fjórar",
+      "fjóra"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which word fills the gap: \"On the farm there are … cows\"? — fjórar: the numbers 1–4 inflect for gender, and «kýr» is feminine plural."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvert þessara orða er eins í eintölu og fleirtölu, til dæmis „eitt …“ og „mörg …“?",
+    "options": [
+      "Hús",
+      "Barn",
+      "Bók",
+      "Hestur"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word is the same in singular and plural (\"one …\", \"many …\")? — Hús: strong neuters without a/ö are unchanged (eitt hús, mörg hús); barn→börn, bók→bækur, hestur→hestar."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Jóladagur er 25. desember og annar í jólum daginn eftir. Hvaða dagur er þá þriðji í jólum?",
+    "options": [
+      "26. desember",
+      "28. desember",
+      "24. desember",
+      "27. desember"
+    ],
+    "correctIndex": 3,
+    "gloss": "Christmas Day is 25 Dec and \"second in Christmas\" the next day. Which date is \"third in Christmas\"? — 27 December: count on one day from the 26th."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Þú átt tíma „klukkan hálf fimm“ síðdegis. Hvað stendur á sólarhringsklukkunni?",
+    "options": [
+      "17:30",
+      "16:30",
+      "15:30",
+      "16:50"
+    ],
+    "correctIndex": 1,
+    "gloss": "Your appointment is \"at half five\" in the afternoon. What does the 24-hour clock show? — 16:30: Icelandic «hálf fimm» is half an hour before five (unlike British \"half five\")."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver þessara setninga er rétt samkvæmt málstaðli?",
+    "options": [
+      "Mér vantar pening",
+      "Mig langar í ís",
+      "Mér hlakkar til jólanna",
+      "Henni langar heim"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sentence is correct standard Icelandic? — «Mig langar í ís»: «langa» takes the accusative; the others show \"þágufallssýki\" (dative sickness) — standard is «mig vantar», «ég hlakka», «hana langar»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða kæsta fiskmeti borða margir Íslendingar á Þorláksmessu?",
+    "options": [
+      "Hákarl",
+      "Harðfisk",
+      "Saltfisk",
+      "Skötu"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which fermented fish do many Icelanders eat on St Thorlak's Day (23 Dec)? — Skata (fermented skate), the Þorláksmessa tradition."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða fugl með marglitan gogg grefur sér holur til að verpa í, meðal annars í Vestmannaeyjum?",
+    "options": [
+      "Lundi",
+      "Langvía",
+      "Fýll",
+      "Álka"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which bird with a multicoloured bill digs burrows to nest, e.g. in the Westman Islands? — The puffin (lundi); guillemots, fulmars and razorbills nest on ledges."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða íslenska söngkona söng „It's Oh So Quiet“ og mætti í svanakjól á Óskarsverðlaunin?",
+    "options": [
+      "Emilíana Torrini",
+      "Laufey",
+      "Björk",
+      "Ragnhildur Gísladóttir"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Icelandic singer sang \"It's Oh So Quiet\" and wore the swan dress to the Oscars? — Björk (Oscars 2001)."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Samkvæmt Landnámu settist Ingólfur Arnarson að þar sem öndvegissúlur hans rak á land. Hvar var það?",
+    "options": [
+      "Hafnarfjörður",
+      "Akranes",
+      "Selfoss",
+      "Reykjavík"
+    ],
+    "correctIndex": 3,
+    "gloss": "According to Landnámabók, Ingólfur Arnarson settled where his high-seat pillars washed ashore. Where? — Reykjavík."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða grínþáttur er sýndur í Sjónvarpinu á gamlárskvöld ár hvert?",
+    "options": [
+      "Spaugstofan",
+      "Fóstbræður",
+      "Áramótaskaupið",
+      "Stelpurnar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which comedy show airs on RÚV every New Year's Eve? — Áramótaskaupið, the annual satirical review of the year."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fjölmennasti hópur innflytjenda á Íslandi kemur frá landi þar sem greitt er með zloty. Hvaða landi?",
+    "options": [
+      "Litáen",
+      "Póllandi",
+      "Rúmeníu",
+      "Tékklandi"
+    ],
+    "correctIndex": 1,
+    "gloss": "The largest immigrant group in Iceland comes from a country that pays in zloty. Which? — Poland."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvað gerir flýtilykillinn Ctrl+Z í flestum Windows-forritum?",
+    "options": [
+      "Afturkallar síðustu aðgerð",
+      "Vistar skjalið",
+      "Lokar glugganum",
+      "Afritar það sem er valið"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does Ctrl+Z do in most Windows programs? — Undoes the last action."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Af hverju er salti dreift á hálar götur á veturna?",
+    "options": [
+      "Það gerir yfirborðið hrjúfara",
+      "Það leiðir hita úr jörðinni",
+      "Það lækkar frostmark vatns",
+      "Það hrindir snjónum frá sér"
+    ],
+    "correctIndex": 2,
+    "gloss": "Why is salt spread on icy roads in winter? — It lowers the freezing point of water, so ice melts (grit, not salt, adds roughness)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvað gerir VAR í fótboltaleik?",
+    "options": [
+      "Hjálpar dómaranum með myndbandsupptökum",
+      "Mælir hraða boltans",
+      "Telur sendingar leikmanna",
+      "Velur mann leiksins"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does VAR do in a football match? — Helps the referee with video replays (Video Assistant Referee)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Úr hverju er hummus aðallega gerður?",
+    "options": [
+      "Linsubaunum",
+      "Eggaldinum",
+      "Avókadó",
+      "Kjúklingabaunum"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is hummus mainly made of? — Chickpeas (aubergine is baba ganoush, avocado guacamole)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver skrifaði glæpasögurnar um rannsóknarlögreglumanninn Erlend Sveinsson?",
+    "options": [
+      "Yrsa Sigurðardóttir",
+      "Arnaldur Indriðason",
+      "Ragnar Jónasson",
+      "Stefán Máni"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who wrote the crime novels about detective Erlendur Sveinsson? — Arnaldur Indriðason (Mýrin / Jar City and many more)."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða verur búa í klettum og hólum samkvæmt þjóðtrúnni, ósýnilegar flestum mönnum?",
+    "options": [
+      "Tröll",
+      "Huldufólk",
+      "Draugar",
+      "Marbendlar"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which beings, in folk belief, live in rocks and hillocks, invisible to most people? — The huldufólk (hidden people); roads have been rerouted around their rocks. Trolls are visible and turn to stone in daylight."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða listakona gerði Friðarsúluna í Viðey, ljósgeislann sem lýsir upp í himininn?",
+    "options": [
+      "Ólafur Elíasson",
+      "Björk",
+      "Patti Smith",
+      "Yoko Ono"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which artist made the Imagine Peace Tower on Viðey, the beam of light shining into the sky? — Yoko Ono (2007), in memory of John Lennon; lit each year from 9 October, his birthday."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða streymisveita framleiðir þáttaröðina Stranger Things?",
+    "options": [
+      "Netflix",
+      "HBO",
+      "Disney+",
+      "Apple TV+"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which streaming service produces the series Stranger Things? — Netflix."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða tölvuleikur frá Sovétríkjunum snýst um að raða fallandi kubbum í heilar raðir?",
+    "options": [
+      "Pac-Man",
+      "Minecraft",
+      "Tetris",
+      "Candy Crush"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Soviet-made video game is about fitting falling blocks into complete rows? — Tetris (Alexey Pajitnov, 1984)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Þegar loftvogin fellur hratt er oft von á lægð og hvassviðri. Hvað mælir hún?",
+    "options": [
+      "Rakastig",
+      "Vindhraða",
+      "Hitastig",
+      "Loftþrýsting"
+    ],
+    "correctIndex": 3,
+    "gloss": "When the barometer falls fast, a low and strong winds are often coming. What does it measure? — Air pressure."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvað gerist þegar netfang er sett í „Cc“-reitinn í tölvupósti?",
+    "options": [
+      "Pósturinn er dulkóðaður",
+      "Sendingunni er frestað",
+      "Viðkomandi fær afrit af póstinum",
+      "Pósturinn fer í ruslsíu hans"
+    ],
+    "correctIndex": 2,
+    "gloss": "What happens when an address is put in the \"Cc\" field of an e-mail? — That person receives a copy (carbon copy)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvers vegna á ekki að setja álpappír í örbylgjuofn?",
+    "options": [
+      "Hann bráðnar samstundis",
+      "Hann getur myndað neista",
+      "Hann gerir matinn eitraðan",
+      "Hann frystir matinn"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why should you not put aluminium foil in a microwave oven? — It can spark (arcing)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða hvalur er með eina langa, snúna skögultönn fram úr munninum?",
+    "options": [
+      "Náhvalur",
+      "Mjaldur",
+      "Búrhvalur",
+      "Hnísa"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which whale has one long spiral tusk projecting from its mouth? — The narwhal."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða ostur er í hefðbundnu grísku salati?",
+    "options": [
+      "Mozzarella",
+      "Parmesan",
+      "Feta",
+      "Brie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which cheese is in a traditional Greek salad? — Feta."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða land á Kanaríeyjar, einn vinsælasta sólaráfangastað Íslendinga?",
+    "options": [
+      "Spánn",
+      "Portúgal",
+      "Ítalía",
+      "Grikkland"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which country do the Canary Islands, a favourite sun destination of Icelanders, belong to? — Spain (Madeira is Portugal's)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvað merkir skammstöfunin ASAP í tölvupósti?",
+    "options": [
+      "Svar óskast",
+      "Til upplýsingar",
+      "Með fyrirfram þökk",
+      "Eins fljótt og hægt er"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does ASAP mean in an e-mail? — As soon as possible."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvað segir SPF-talan á sólarvörn til um?",
+    "options": [
+      "Hve lengi hún geymist eftir opnun",
+      "Hve vel hún ver gegn sólbruna",
+      "Hve vel hún þolir vatn",
+      "Hve mikinn raka hún gefur húðinni"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does the SPF number on sunscreen tell you? — How well it protects against sunburn (Sun Protection Factor)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Þú kaupir þrenna sokka. Hve marga staka sokka færðu?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 1,
+    "gloss": "You buy «þrenna sokka». How many single socks do you get? — 6: «þrennir» counts things that come in pairs, so it means three pairs."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða listmálari prýðir íslenska 2000 króna seðilinn?",
+    "options": [
+      "Ásgrímur Jónsson",
+      "Þórarinn B. Þorláksson",
+      "Nína Tryggvadóttir",
+      "Jóhannes Kjarval"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which painter is on the Icelandic 2000-króna note? — Jóhannes S. Kjarval."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða kappi í Njálu snýr aftur á leið úr landi og segir: „Fögur er hlíðin“?",
+    "options": [
+      "Gunnar á Hlíðarenda",
+      "Njáll á Bergþórshvoli",
+      "Skarphéðinn Njálsson",
+      "Kári Sölmundarson"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which hero of Njáls saga turns back on his way into exile, saying \"Fair is the slope\"? — Gunnar of Hlíðarendi."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða hátíð er haldin í Herjólfsdal í Vestmannaeyjum um verslunarmannahelgina?",
+    "options": [
+      "Fiskidagurinn mikli",
+      "Aldrei fór ég suður",
+      "Þjóðhátíð",
+      "Bræðslan"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which festival is held in Herjólfsdalur in the Westman Islands over the August bank-holiday weekend? — Þjóðhátíð (Fiskidagurinn is in Dalvík, Aldrei fór ég suður in Ísafjörður at Easter, Bræðslan in Borgarfjörður eystri)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver hlaut Óskarsverðlaun fyrir tónlistina í kvikmyndinni Joker?",
+    "options": [
+      "Jóhann Jóhannsson",
+      "Ólafur Arnalds",
+      "Atli Örvarsson",
+      "Hildur Guðnadóttir"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who won the Oscar for the score of the film Joker? — Hildur Guðnadóttir (2020)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver varð árið 1980 fyrst kvenna í heiminum kjörin þjóðhöfðingi í almennum kosningum?",
+    "options": [
+      "Gro Harlem Brundtland",
+      "Margaret Thatcher",
+      "Vigdís Finnbogadóttir",
+      "Mary Robinson"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who in 1980 became the world's first woman elected head of state in a general election? — Vigdís Finnbogadóttir (Brundtland and Thatcher were prime ministers; Robinson was elected in 1990)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Í hvaða íþrótt er keppt um Stanley-bikarinn?",
+    "options": [
+      "Ruðningi",
+      "Íshokkíi",
+      "Hafnabolta",
+      "Körfubolta"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which sport do teams compete in for the Stanley Cup? — Ice hockey."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða blóðflokkur er kallaður „alhliða gjafi“, því nær allir geta þegið rauðkorn úr honum?",
+    "options": [
+      "O mínus",
+      "AB plús",
+      "A mínus",
+      "B plús"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which blood type is called the \"universal donor\", since almost anyone can receive its red cells? — O negative (AB+ is the universal recipient)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða tækni gerir þér kleift að greiða með því að bera símann upp að posanum?",
+    "options": [
+      "GPS",
+      "Bluetooth",
+      "NFC",
+      "Wi-Fi"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which technology lets you pay by holding your phone to the card terminal? — NFC (near-field communication)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hver er höfuðstaður Færeyja?",
+    "options": [
+      "Þórshöfn",
+      "Klakksvík",
+      "Rúnavík",
+      "Fuglafjörður"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the capital of the Faroe Islands? — Tórshavn (Þórshöfn)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hver söng lagið „Purple Rain“ og lék aðalhlutverkið í samnefndri kvikmynd?",
+    "options": [
+      "Michael Jackson",
+      "Stevie Wonder",
+      "Lionel Richie",
+      "Prince"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who sang \"Purple Rain\" and starred in the film of the same name? — Prince (1984)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða krydd gefur karríi gula litinn?",
+    "options": [
+      "Kanill",
+      "Túrmerik",
+      "Kúmen",
+      "Kardimomma"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which spice gives curry its yellow colour? — Turmeric."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða höfundur skapaði belgíska spæjarann Hercule Poirot?",
+    "options": [
+      "Arthur Conan Doyle",
+      "Agatha Christie",
+      "Georges Simenon",
+      "Dorothy L. Sayers"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which author created the Belgian detective Hercule Poirot? — Agatha Christie."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hvaða norski landkönnuður komst fyrstur manna á suðurpólinn, árið 1911?",
+    "options": [
+      "Fridtjof Nansen",
+      "Thor Heyerdahl",
+      "Otto Sverdrup",
+      "Roald Amundsen"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Norwegian explorer was the first to reach the South Pole, in 1911? — Roald Amundsen."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Hvert þessara orða er ekki samsett úr tveimur íslenskum orðum?",
+    "options": [
+      "Kartafla",
+      "Sjónvarp",
+      "Flugvél",
+      "Járnbraut"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these words is not a compound of two Icelandic words? — Kartafla, a loanword (via Danish/German); sjón+varp, flug+vél, járn+braut are compounds."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Hrafnar Óðins heita Huginn og Muninn. Hvað merkja nöfn þeirra?",
+    "options": [
+      "Dagur og nótt",
+      "Vit og vilji",
+      "Hugsun og minni",
+      "Sjón og heyrn"
+    ],
+    "correctIndex": 2,
+    "gloss": "Odin's ravens are Huginn and Muninn. What do their names mean? — Thought and memory: hugur (mind, thought) and muna (to remember)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Í apríl 1971 komu fyrstu handritin heim frá Danmörku: Konungsbók eddukvæða og hvaða önnur bók?",
+    "options": [
+      "Möðruvallabók",
+      "Ormsbók",
+      "Morkinskinna",
+      "Flateyjarbók"
+    ],
+    "correctIndex": 3,
+    "gloss": "In April 1971 the first manuscripts came home from Denmark: the Codex Regius of the Eddic poems and which other book? — Flateyjarbók (Möðruvallabók came in 1974; Codex Wormianus and Morkinskinna remain in Copenhagen)."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hvaða íslenska fyrirtæki gerði fjölspilunarleikinn EVE Online?",
+    "options": [
+      "Plain Vanilla",
+      "Myrkur Games",
+      "CCP",
+      "Solid Clouds"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Icelandic company made the multiplayer game EVE Online? — CCP Games (Plain Vanilla made QuizUp)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vegna hvaða lofttegundar er varað við „gasmengun“ í byggð þegar gýs á Reykjanesskaga?",
+    "options": [
+      "Koltvísýrings",
+      "Brennisteinsdíoxíðs",
+      "Metans",
+      "Ósons"
+    ],
+    "correctIndex": 1,
+    "gloss": "Because of which gas are “gas pollution” warnings issued for towns during Reykjanes eruptions? — Sulphur dioxide (SO₂); the Met Office forecasts where the plume drifts."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver var fyrsti biskup Íslendinga, vígður árið 1056 og sat í Skálholti?",
+    "options": [
+      "Ísleifur Gissurarson",
+      "Gissur Ísleifsson",
+      "Þorlákur Þórhallsson",
+      "Jón Ögmundarson"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first Icelandic bishop, consecrated in 1056, seated at Skálholt? — Ísleifur Gissurarson (his son Gissur succeeded him; Jón Ögmundarson was first bishop of Hólar)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Hvaða tónbil er frá C upp í G í tónstiganum?",
+    "options": [
+      "Ferund",
+      "Sexund",
+      "Fimmund",
+      "Þríund"
+    ],
+    "correctIndex": 2,
+    "gloss": "What interval is it from C up to G in the scale? — A fifth: C, D, E, F, G are five note names."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hver varð fyrstur Íslendinga til að hljóta Bókmenntaverðlaun Norðurlandaráðs, árið 1976?",
+    "options": [
+      "Ólafur Jóhann Sigurðsson",
+      "Snorri Hjartarson",
+      "Thor Vilhjálmsson",
+      "Halldór Laxness"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who was the first Icelander to win the Nordic Council Literature Prize, in 1976? — Ólafur Jóhann Sigurðsson (Snorri Hjartarson 1981, Thor Vilhjálmsson 1988; Laxness never won it)."
+  }
+]
