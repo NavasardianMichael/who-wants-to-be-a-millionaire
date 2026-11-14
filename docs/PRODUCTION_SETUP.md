@@ -291,3 +291,11 @@ curl.exe -s  https://api.who-wants-to-be-a-millionaire.eapps.site/health   # "st
 curl.exe -sI https://who-wants-to-be-a-millionaire.eapps.site/en           # 200
 curl.exe -sI https://www.who-wants-to-be-a-millionaire.eapps.site          # 301 -> https://who-wants-to-be-a-millionaire.eapps.site
 ```
+
+## 9. Backups to Google Drive **[SRV]** (once)
+
+After the first deploy, once the database exists: a nightly cron job dumps the database and
+copies the avatars to Google Drive (`millionaire-backups`, dumps kept 14 days). It uses the
+rclone `gdrive` remote already on the server. Follow [DRIVE_BACKUP.md](DRIVE_BACKUP.md):
+install [backup-db.sh](../deployment/backup-db.sh), run it once, add the cron line, and do the
+restore drill. Its real-restore section is what to follow after data loss.

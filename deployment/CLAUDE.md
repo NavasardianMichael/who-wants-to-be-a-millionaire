@@ -11,6 +11,7 @@ deployment/
   millionaire-web.service   systemd, Next standalone
   millionaire-api.service   systemd, Express
   docker-compose.prod.yml   production Postgres, loopback-bound on 5006
+  backup-db.sh              nightly pg_dump + avatar copy to Google Drive (rclone), michael's crontab
   db.env.example            shape of $APP_DIR/db/.env — the first deploy writes it from DATABASE_URL
 ```
 

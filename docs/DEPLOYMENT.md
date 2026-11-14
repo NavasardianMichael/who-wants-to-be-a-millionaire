@@ -198,4 +198,5 @@ in Google Search Console (2160 URLs, every page × 80 locales with hreflang).
   host, **one API process only** — see `deployment/CLAUDE.md`.
 - **ISR writes into the release's `.next/cache`**, which is why `ReadWritePaths` covers `web/`.
   A deploy starts with a fresh cache: the first visit to each page after a deploy renders it.
-- **`shared/uploads` is state** — back it up with the database.
+- **`shared/uploads` is state** — back it up with the database. The nightly Drive backup
+  ([DRIVE_BACKUP.md](DRIVE_BACKUP.md)) copies both.
