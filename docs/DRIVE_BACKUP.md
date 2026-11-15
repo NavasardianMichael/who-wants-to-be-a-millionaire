@@ -118,8 +118,10 @@ The last line should print `active`.
 
 ## Keeping it up
 
-- Before a deploy whose commit adds a migration under `server/prisma/migrations/`, run the script
-  by hand once: migrations do not roll back.
+- Every API deploy dumps the database right before migrating, into
+  `/home/michael/apps/who-wants-to-be-a-millionaire/backups/pre-deploy-*.dump` (the last 5 stay
+  on the server). To restore one, feed it to the same `pg_restore` line as above, with
+  `cat <file> |` in place of `rclone cat …`.
 - If `backup-db.sh` changes in the repo, paste it again (empty the file first with
   `truncate -s 0 <path>`). Keep your `PING_URL` value.
 - Drive's free 15 GB is shared with the other apps' backups. A dump was about 2.7 MB in

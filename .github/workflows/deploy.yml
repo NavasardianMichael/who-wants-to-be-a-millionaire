@@ -327,6 +327,8 @@ jobs:
       - name: Prepare API env file
         if: needs.changes.outputs.deploy_api == 'true'
         run: |
+          # Owner-only from the start: scp keeps the mode, so the copy on the host is 0600 too.
+          umask 077
           echo "${{ secrets.ENV_API_BASE64 }}" | base64 -d | tr -d '\r' > /tmp/env.api
           sed -i '/^\(NODE_ENV\|PORT\|HOST\|UPLOAD_DIR\)=/d' /tmp/env.api
           {
@@ -366,6 +368,24 @@ jobs:
           DEPLOY_WEB="$4"; DEPLOY_API="$5"; WEB_PORT="$6"; API_PORT="$7"
 
           mkdir -p "$APP_DIR/shared/uploads" "$APP_DIR/web/releases" "$APP_DIR/api/releases"
+
+          # The uploaded env copy holds every secret: gone however this script ends.
+          trap 'rm -f /tmp/env.api /tmp/web-build.tar.gz /tmp/api-build.tar.gz' EXIT
+
+          # What was live before this run, to switch back to if the new release does not come up.
+          PREV_API=$(readlink -f "$APP_DIR/api/current" 2>/dev/null || true)
+          PREV_WEB=$(readlink -f "$APP_DIR/web/current" 2>/dev/null || true)
+
+          # Points a side back at its previous release and restarts it. The database is NOT
+          # rolled back: migrations are additive, so the old API runs on the new schema.
+          roll_back() {
+            local side="$1" prev="$2" unit="$3"
+            if [ -n "$prev" ] && [ -d "$prev" ]; then
+              echo "::warning::rolling $side back to $(basename "$prev")"
+              ln -sfn "$prev" "$APP_DIR/$side/current"
+              sudo systemctl restart "$unit" || true
+            fi
+          }
 
           wait_for() {
             local name="$1" url="$2" unit="$3"
@@ -456,6 +476,12 @@ jobs:
           if [ "$DEPLOY_API" = "true" ]; then
             echo "==> API $RELEASE"
             NEW="$APP_DIR/api/releases/$RELEASE"
+            # A re-run of the same commit must not delete the directory the running API is
+            # served from: it is installed in a side directory and swapped in like any release.
+            if [ "$PREV_API" = "$NEW" ]; then
+              echo "API $RELEASE is already live — installing it again in a side directory"
+              NEW="$NEW-rerun-$(date +%s)"
+            fi
             rm -rf "$NEW"; mkdir -p "$NEW"
             tar -xzf /tmp/api-build.tar.gz -C "$NEW"
             install -m 600 /tmp/env.api "$APP_DIR/shared/.env.api"
@@ -520,8 +546,29 @@ jobs:
             # Explicit: the postinstall above does not always locate the schema.
             ./node_modules/.bin/prisma generate --schema prisma/schema.prisma
 
-            set -a; . "$APP_DIR/shared/.env.api"; set +a
+            # Read literally, as systemd's EnvironmentFile does, never sourced: as shell code an
+            # `&` in a URL (`?schema=public&connection_limit=5`) backgrounds the assignment and
+            # a `$` in a password expands, so DATABASE_URL arrives empty or wrong.
+            while IFS= read -r line || [ -n "$line" ]; do
+              [[ "$line" =~ ^[A-Za-z_][A-Za-z0-9_]*= ]] || continue
+              key="${line%%=*}"; value="${line#*=}"
+              case "$value" in \"*\" | \'*\') value="${value:1:${#value}-2}" ;; esac
+              export "$key=$value"
+            done < "$APP_DIR/shared/.env.api"
+            : "${DATABASE_URL:?DATABASE_URL is not set in $APP_DIR/shared/.env.api}"
             ensure_database "$NEW/docker-compose.prod.yml"
+
+            # A dump right before migrating and seeding: neither rolls back, and this is the copy to
+            # restore from if one goes wrong (docs/DRIVE_BACKUP.md). The last 5 stay.
+            if docker container inspect millionaire-postgres-prod >/dev/null 2>&1; then
+              mkdir -p "$APP_DIR/backups" && chmod 700 "$APP_DIR/backups"
+              dump="$APP_DIR/backups/pre-deploy-$(date -u +%Y%m%dT%H%MZ)-${RELEASE:0:12}.dump"
+              docker exec millionaire-postgres-prod sh -c 'pg_dump -U "$POSTGRES_USER" -d "$POSTGRES_DB" -Fc' > "$dump"
+              chmod 600 "$dump"
+              echo "database: dumped to $dump ($(wc -c < "$dump") bytes)"
+              ( cd "$APP_DIR/backups" && ls -t pre-deploy-*.dump | tail -n +6 | xargs -r rm -f )
+            fi
+
             ./node_modules/.bin/prisma migrate deploy --schema prisma/schema.prisma
             # The hand-written banks: the English fallback, and per language a Classic file
             # (prisma/seed/classic/) and a ranked one (prisma/seed/ranked/). Merges, never overwrites: only questions missing here
@@ -532,18 +579,28 @@ jobs:
 
             ln -sfn "$NEW" "$APP_DIR/api/current"
             sudo systemctl restart millionaire-api
-            wait_for "API" "http://127.0.0.1:$API_PORT/health" millionaire-api
+            if ! wait_for "API" "http://127.0.0.1:$API_PORT/health" millionaire-api; then
+              roll_back api "$PREV_API" millionaire-api
+              exit 1
+            fi
           fi
 
           if [ "$DEPLOY_WEB" = "true" ]; then
             echo "==> web $RELEASE"
             NEW="$APP_DIR/web/releases/$RELEASE"
+            if [ "$PREV_WEB" = "$NEW" ]; then
+              echo "web $RELEASE is already live — unpacking it again in a side directory"
+              NEW="$NEW-rerun-$(date +%s)"
+            fi
             rm -rf "$NEW"; mkdir -p "$NEW"
             tar -xzf /tmp/web-build.tar.gz -C "$NEW"
             ln -sfn "$NEW" "$APP_DIR/web/current"
             sudo systemctl restart millionaire-web
             # /en, never /: localePrefix is 'always', so / is a 307 by design.
-            wait_for "web" "http://127.0.0.1:$WEB_PORT/en" millionaire-web
+            if ! wait_for "web" "http://127.0.0.1:$WEB_PORT/en" millionaire-web; then
+              roll_back web "$PREV_WEB" millionaire-web
+              exit 1
+            fi
           fi
 
           # Keep the newest $KEEP releases so a rollback target survives.
@@ -553,7 +610,6 @@ jobs:
             ( cd "$d" && ls -t | tail -n +$((KEEP + 1)) | xargs -r rm -rf )
           done
 
-          rm -f /tmp/web-build.tar.gz /tmp/api-build.tar.gz /tmp/env.api
           echo "==> done"
           EOF
 

@@ -141,9 +141,18 @@ Three values must match character for character:
 
 The API deploys **first**: server-rendered pages and ISR call it, so the schema and API must
 be new before new pages serve. API side: `pnpm install --prod --frozen-lockfile` →
-`prisma generate` → `ensure_database` (creates Postgres only if missing) → `prisma migrate
-deploy` → `node dist/prisma/seed.js` (idempotent English bank) → restart → poll `/health`. Web side: extract, flip the symlink, restart, poll `/en`
-(never `/`, which is a 307).
+`prisma generate` → `ensure_database` (creates Postgres only if missing) → a `pg_dump` into
+`$APP_DIR/backups/pre-deploy-*.dump` (the last 5 kept) → `prisma migrate deploy` →
+`node dist/prisma/seed.js` (idempotent English bank) → restart → poll `/health`, which fails
+while the database is down. Web side: extract, flip the symlink, restart, poll `/en` (never
+`/`, which is a 307).
+
+- **A side that fails its health poll is rolled back** to the release that was live before the
+  run; the database is not (migrations are additive, so the old API runs on the new schema).
+- **A re-run of a live commit** installs into `releases/<sha>-rerun-<time>`, never over the
+  directory that is serving.
+- **The env file is read literally** on the host, as systemd reads it — never sourced, so a `$`
+  or `&` in a value stays as written. Its uploaded copy is 0600 and removed however the run ends.
 
 The web bundle is booted in CI before it ships (standalone output can miss traced files), and
 the API ships as a standalone package with pinned dependencies (`scripts/build-api-release.mjs`)
@@ -166,6 +175,9 @@ every row above — grep for the old number afterwards.
 journalctl -u millionaire-web -f
 journalctl -u millionaire-api -f
 systemctl status millionaire-web millionaire-api
+
+# the deploy's own dumps, taken right before each migration (restore as in docs/DRIVE_BACKUP.md)
+ls -lt /home/michael/apps/who-wants-to-be-a-millionaire/backups
 
 # rollback — migrations do NOT roll back
 ls -t /home/michael/apps/who-wants-to-be-a-millionaire/web/releases
