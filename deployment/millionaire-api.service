@@ -21,7 +21,14 @@ ExecStart=/usr/bin/node dist/src/index.js
 Restart=always
 RestartSec=2
 KillSignal=SIGTERM
+# The API drains in-flight requests for up to 25 s on SIGTERM (src/index.ts), inside this.
 TimeoutStopSec=30
+# The host runs several apps; this bounds the API so a login flood (argon2 holds 64 MiB per
+# hash) or a leak cannot starve them. Past MemoryHigh the kernel reclaims and throttles; at
+# MemoryMax it kills, and Restart=always brings it back. Check `systemctl status
+# millionaire-api` before lowering either.
+MemoryHigh=512M
+MemoryMax=768M
 NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict

@@ -34,6 +34,10 @@ here, say so in the PR: someone has to re-copy it.
   `@too_many_requests`,** which must keep the CORS headers: a 429 without them reaches the app
   as a network error. It is safe only because page renders call `API_INTERNAL_URL`
   (127.0.0.1:9006) directly; routing them through nginx would put every render on one IP.
+  Express repeats it per /64 (`addressLimit` in `server/src/app.ts`, which skips loopback for
+  the same reason): change the two together.
+- **HSTS without `includeSubDomains` or `preload`** on all three HTTPS server blocks: other
+  apps share `eapps.site`, and a preload cannot be taken back quickly.
 - **`proxy_buffering off` on the web host is load-bearing** — Next streams RSC payloads.
 - **`/_next/static/`, `/audio/`, `/packs/` and `/uploads/` are served from disk; `/_next/image`
   is not** — it is the optimizer and must reach Node.
