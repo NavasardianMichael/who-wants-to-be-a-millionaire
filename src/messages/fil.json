@@ -503,7 +503,7 @@
     "privacyUseTitle": "Paano namin ito ginagamit",
     "privacyUseBody": "Ginagamit lang ang data ninyo para patakbuhin ang laro: para ipakita ang profile ninyo at ang mga entry ninyo sa leaderboard, at para itago ang progreso ninyo. Hindi namin ito kailanman ibinebenta o ibinabahagi sa mga advertiser.",
     "privacyAnalyticsTitle": "Analytics at mga error report",
-    "privacyAnalyticsBody": "Maaari kaming gumamit ng privacy-friendly na analytics at mga error report para maunawaan kung aling mga feature ang ginagamit at para ayusin ang mga bug. Hindi kailanman kasama rito ang nilalaman ng mga sagot ninyo.",
+    "privacyAnalyticsBody": "Gumagamit kami ng Google Analytics para makita kung aling mga bahagi ng laro ang nilalaro, at ng mga error report para ayusin ang mga bug. Wala sa mga ito ang naglalaman ng nilalaman ng mga sagot ninyo. Sa EU, EEA, UK at Switzerland, naglalagay lang ang Google Analytics ng cookies nito pagkatapos ninyong pumayag; sa ibang lugar, naka-on na ang mga ito mula sa una ninyong pagbisita. Puwede ninyong baguhin ang pinili ninyo anumang oras gamit ang “Mga setting ng cookie” sa ibaba ng mga page ng site.",
     "privacyAdsTitle": "Advertising",
     "privacyAdsBody": "May mga page na nagpapakita ng ads mula sa Google AdSense, pero hindi kailanman habang naglalaro. Gumagamit ang Google at ang mga partner nito ng cookies para magpakita sa inyo ng ads batay sa mga dati ninyong pagbisita sa site na ito at sa iba pang website. Puwede ninyong i-off ang personalized ads sa <settings>ad settings ng Google</settings> at basahin <partners>kung paano ginagamit ng Google ang impormasyon mula sa mga site na gumagamit ng mga serbisyo nito</partners>. Sa EEA, UK at Switzerland, hihingin muna ang pahintulot ninyo.",
     "privacyRightsTitle": "Ang inyong mga karapatan",
@@ -528,6 +528,14 @@
     "iosStep2": "Mag-scroll pababa at piliin ang “Add to Home Screen”.",
     "iosStep3": "I-tap ang “Add” — lalabas ang app sa home screen ninyo.",
     "gotIt": "Sige, gets ko"
+  },
+  "Consent": {
+    "label": "Pahintulot sa cookies",
+    "text": "Gumagamit kami ng cookies ng Google Analytics para makita kung aling mga bahagi ng laro ang nilalaro, para mapaganda pa namin ito. Kapag isinara ninyo ang mensaheng ito, ituturing itong pagtanggap.",
+    "privacy": "Patakaran sa privacy",
+    "accept": "Tanggapin",
+    "decline": "Tanggihan",
+    "settings": "Mga setting ng cookie"
   },
   "Contact": {
     "title": "Makipag-ugnayan sa amin",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "May nangyaring mali.",
     "network": "Hindi namin maabot ang server. Tingnan ang koneksiyon ninyo.",
-    "rateLimited": "Dahan-dahan lang — subukan ulit maya-maya.",
+    "rateLimited": "Abala ang server ngayon. Pakisubukan ulit maya-maya.",
     "unauthorized": "Mag-sign in muna para magpatuloy.",
     "notFound": "Hindi namin iyan mahanap.",
     "server": "Nagkaroon ng teknikal na problema ang studio. Pakisubukan ulit.",

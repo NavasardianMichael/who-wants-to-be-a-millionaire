@@ -503,7 +503,7 @@
     "privacyUseTitle": "Kaip juos naudojame",
     "privacyUseBody": "Tavo duomenis naudojame tik žaidimui veikti: rodyti tavo profilį ir įrašus lyderių lentelėje bei išsaugoti pažangą. Niekada jų neparduodame ir neperduodame reklamuotojams.",
     "privacyAnalyticsTitle": "Analitika ir klaidų ataskaitos",
-    "privacyAnalyticsBody": "Galime naudoti privatumą gerbiančią analitiką ir klaidų ataskaitas, kad suprastume, kurios funkcijos naudojamos, ir taisytume klaidas. Jose niekada nebūna tavo atsakymų turinio.",
+    "privacyAnalyticsBody": "Naudojame Google Analytics, kad matytume, kurios žaidimo dalys žaidžiamos, ir klaidų ataskaitas, kad taisytume klaidas. Nei vienos, nei kitos neapima tavo atsakymų turinio. ES, EEE, Jungtinėje Karalystėje ir Šveicarijoje Google Analytics savo slapukus nustato tik tau sutikus; kitur jie veikia nuo pirmojo apsilankymo. Savo pasirinkimą bet kada gali pakeisti nuoroda „Slapukų nustatymai“ svetainės puslapių apačioje.",
     "privacyAdsTitle": "Reklama",
     "privacyAdsBody": "Kai kuriuose puslapiuose rodomos Google AdSense reklamos, bet niekada žaidimo metu. Google ir jos partneriai naudoja slapukus, kad rodytų tau reklamas pagal ankstesnius apsilankymus šioje ir kitose svetainėse. Suasmenintas reklamas gali išjungti <settings>Google reklamos nustatymuose</settings>, o čia gali perskaityti, <partners>kaip Google naudoja informaciją iš svetainių, kurios naudojasi jos paslaugomis</partners>. EEE, Jungtinėje Karalystėje ir Šveicarijoje pirmiausia paprašysime tavo sutikimo.",
     "privacyRightsTitle": "Tavo teisės",
@@ -528,6 +528,14 @@
     "iosStep2": "Slink žemyn ir pasirink „Įtraukti į pradžios ekraną“.",
     "iosStep3": "Paliesk „Pridėti“ – programėlė atsiras pradžios ekrane.",
     "gotIt": "Supratau"
+  },
+  "Consent": {
+    "label": "Sutikimas dėl slapukų",
+    "text": "Naudojame Google Analytics slapukus, kad matytume, kurios žaidimo dalys žaidžiamos, ir galėtume jį tobulinti. Uždarius šį pranešimą laikoma, kad sutinki.",
+    "privacy": "Privatumo politika",
+    "accept": "Priimti",
+    "decline": "Atmesti",
+    "settings": "Slapukų nustatymai"
   },
   "Contact": {
     "title": "Susisiek su mumis",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Kažkas nepavyko.",
     "network": "Nepavyksta pasiekti serverio. Patikrink interneto ryšį.",
-    "rateLimited": "Šiek tiek sulėtink – bandyk dar kartą po akimirkos.",
+    "rateLimited": "Serveris šiuo metu perkrautas. Bandyk dar kartą šiek tiek vėliau.",
     "unauthorized": "Prisijunk, kad galėtum tęsti.",
     "notFound": "Nepavyko to rasti.",
     "server": "Studijoje įvyko techninis gedimas. Bandyk dar kartą.",

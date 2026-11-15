@@ -503,7 +503,7 @@
     "privacyUseTitle": "Wie wir sie nutzen",
     "privacyUseBody": "Ihre Daten werden nur für das Spiel verwendet: um Ihr Profil und Ihre Einträge in der Bestenliste anzuzeigen und Ihren Fortschritt zu speichern. Wir verkaufen sie nie und geben sie nicht an Werbetreibende weiter.",
     "privacyAnalyticsTitle": "Analyse und Fehlerberichte",
-    "privacyAnalyticsBody": "Wir nutzen unter Umständen datenschutzfreundliche Analysen und Fehlerberichte, um zu verstehen, welche Funktionen genutzt werden, und um Bugs zu beheben. Der Inhalt Ihrer Antworten ist darin nie enthalten.",
+    "privacyAnalyticsBody": "Wir verwenden Google Analytics, um zu sehen, welche Teile des Spiels gespielt werden, und Fehlerberichte, um Bugs zu beheben. Keines von beiden enthält den Inhalt Ihrer Antworten. In der EU, im EWR, im Vereinigten Königreich und in der Schweiz setzt Google Analytics seine Cookies erst, nachdem Sie zugestimmt haben; anderswo sind sie ab Ihrem ersten Besuch aktiv. Sie können Ihre Wahl jederzeit über „Cookie-Einstellungen“ unten auf den Seiten der Website ändern.",
     "privacyAdsTitle": "Werbung",
     "privacyAdsBody": "Einige Seiten zeigen Werbung von Google AdSense, nie während eines Spiels. Google und seine Partner verwenden Cookies, um Ihnen Anzeigen auf Grundlage Ihrer früheren Besuche auf dieser und anderen Websites zu zeigen. Personalisierte Werbung können Sie in den <settings>Google-Anzeigeneinstellungen</settings> deaktivieren; lesen Sie auch, <partners>wie Google Informationen von Websites verwendet, die seine Dienste nutzen</partners>. Im EWR, im Vereinigten Königreich und in der Schweiz werden Sie zuerst um Ihre Einwilligung gebeten.",
     "privacyRightsTitle": "Ihre Rechte",
@@ -528,6 +528,14 @@
     "iosStep2": "Scrollen Sie nach unten und wählen Sie „Zum Home-Bildschirm“.",
     "iosStep3": "Tippen Sie auf „Hinzufügen“ – die App erscheint auf Ihrem Home-Bildschirm.",
     "gotIt": "Alles klar"
+  },
+  "Consent": {
+    "label": "Cookie-Einwilligung",
+    "text": "Wir verwenden Cookies von Google Analytics, um zu sehen, welche Teile des Spiels gespielt werden, damit wir es verbessern können. Wenn Sie diese Meldung schließen, gilt das als Zustimmung.",
+    "privacy": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
   },
   "Contact": {
     "title": "Kontakt",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Da ist etwas schiefgelaufen.",
     "network": "Wir erreichen den Server nicht. Prüfen Sie Ihre Verbindung.",
-    "rateLimited": "Nicht so schnell – versuchen Sie es gleich nochmal.",
+    "rateLimited": "Der Server ist gerade stark ausgelastet. Bitte versuchen Sie es etwas später noch einmal.",
     "unauthorized": "Bitte melden Sie sich an, um fortzufahren.",
     "notFound": "Das konnten wir nicht finden.",
     "server": "Im Studio gab es ein technisches Problem. Bitte versuchen Sie es nochmal.",

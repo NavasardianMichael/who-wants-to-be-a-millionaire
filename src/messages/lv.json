@@ -503,7 +503,7 @@
     "privacyUseTitle": "Kā mēs tos izmantojam",
     "privacyUseBody": "Tavus datus izmantojam tikai spēles darbībai: lai rādītu tavu profilu un ierakstus līderu tabulā un saglabātu progresu. Mēs tos nekad nepārdodam un nenododam reklāmdevējiem.",
     "privacyAnalyticsTitle": "Analītika un kļūdu ziņojumi",
-    "privacyAnalyticsBody": "Mēs varam izmantot privātumu respektējošu analītiku un kļūdu ziņojumus, lai saprastu, kuras funkcijas tiek izmantotas, un labotu kļūdas. Tie nekad neietver tavu atbilžu saturu.",
+    "privacyAnalyticsBody": "Mēs izmantojam Google Analytics, lai redzētu, kuras spēles daļas tiek spēlētas, un kļūdu ziņojumus, lai labotu kļūdas. Ne vieni, ne otri neietver tavu atbilžu saturu. ES, EEZ, Apvienotajā Karalistē un Šveicē Google Analytics iestata savas sīkdatnes tikai pēc tavas piekrišanas; citur tās darbojas jau no pirmā apmeklējuma. Savu izvēli vari mainīt jebkurā laikā ar saiti „Sīkdatņu iestatījumi” vietnes lapu apakšā.",
     "privacyAdsTitle": "Reklāma",
     "privacyAdsBody": "Dažās lapās tiek rādītas Google AdSense reklāmas, bet nekad spēles laikā. Google un tās partneri izmanto sīkdatnes, lai rādītu tev reklāmas, pamatojoties uz taviem iepriekšējiem apmeklējumiem šajā un citās vietnēs. Personalizētās reklāmas vari izslēgt <settings>Google reklāmu iestatījumos</settings>, un vari izlasīt, <partners>kā Google izmanto informāciju no vietnēm, kas lieto tās pakalpojumus</partners>. EEZ, Apvienotajā Karalistē un Šveicē vispirms tiek lūgta tava piekrišana.",
     "privacyRightsTitle": "Tavas tiesības",
@@ -528,6 +528,14 @@
     "iosStep2": "Ritini uz leju un izvēlies „Pievienot sākuma ekrānam”.",
     "iosStep3": "Pieskaries „Pievienot” – lietotne parādīsies sākuma ekrānā.",
     "gotIt": "Skaidrs"
+  },
+  "Consent": {
+    "label": "Piekrišana sīkdatnēm",
+    "text": "Mēs izmantojam Google Analytics sīkdatnes, lai redzētu, kuras spēles daļas tiek spēlētas, un varētu to uzlabot. Šī paziņojuma aizvēršana nozīmē piekrišanu.",
+    "privacy": "Privātuma politika",
+    "accept": "Pieņemt",
+    "decline": "Noraidīt",
+    "settings": "Sīkdatņu iestatījumi"
   },
   "Contact": {
     "title": "Sazinies ar mums",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Kaut kas nogāja greizi.",
     "network": "Nevar sazināties ar serveri. Pārbaudi interneta savienojumu.",
-    "rateLimited": "Mazliet lēnāk – mēģini vēlreiz pēc brīža.",
+    "rateLimited": "Serveris šobrīd ir pārslogots. Lūdzu, mēģini vēlreiz mazliet vēlāk.",
     "unauthorized": "Lai turpinātu, piesakies.",
     "notFound": "To neizdevās atrast.",
     "server": "Studijā radās tehniska problēma. Lūdzu, mēģini vēlreiz.",

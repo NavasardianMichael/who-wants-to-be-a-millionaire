@@ -503,7 +503,7 @@
     "privacyUseTitle": "Undan qanday foydalanamiz",
     "privacyUseBody": "Maʼlumotlaringiz faqat oʻyin ishlashi uchun ishlatiladi: profilingiz va reytingdagi yozuvlaringizni koʻrsatish hamda natijalaringizni saqlash uchun. Biz ularni hech qachon sotmaymiz va reklama beruvchilarga bermaymiz.",
     "privacyAnalyticsTitle": "Analitika va xatolik hisobotlari",
-    "privacyAnalyticsBody": "Qaysi funksiyalardan foydalanilishini tushunish va xatolarni tuzatish uchun maxfiylikni hurmat qiladigan analitika va xatolik hisobotlaridan foydalanishimiz mumkin. Ularda javoblaringiz mazmuni hech qachon boʻlmaydi.",
+    "privacyAnalyticsBody": "Oʻyinning qaysi qismlari oʻynalayotganini koʻrish uchun Google Analytics xizmatidan, xatolarni tuzatish uchun esa xatolik hisobotlaridan foydalanamiz. Ularning hech birida javoblaringiz mazmuni boʻlmaydi. Yevropa Ittifoqi, YIH, Buyuk Britaniya va Shveytsariyada Google Analytics cookie fayllarini faqat siz rozilik berganingizdan keyin oʻrnatadi; boshqa joylarda ular birinchi tashrifingizdanoq yoqilgan boʻladi. Tanlovingizni istalgan vaqtda sayt sahifalarining pastki qismidagi “Cookie sozlamalari” orqali oʻzgartirishingiz mumkin.",
     "privacyAdsTitle": "Reklama",
     "privacyAdsBody": "Ayrim sahifalarda Google AdSense reklamalari koʻrsatiladi, lekin oʻyin davomida hech qachon emas. Google va uning hamkorlari sizga ushbu va boshqa veb-saytlarga oldingi tashriflaringiz asosida reklama koʻrsatish uchun cookie fayllaridan foydalanadi. Shaxsiylashtirilgan reklamani <settings>Google reklama sozlamalarida</settings> oʻchirib qoʻyishingiz va <partners>Google oʻz xizmatlaridan foydalanuvchi saytlardagi maʼlumotlardan qanday foydalanishini</partners> oʻqishingiz mumkin. YIH, Buyuk Britaniya va Shveytsariyada avval roziligingiz soʻraladi.",
     "privacyRightsTitle": "Sizning huquqlaringiz",
@@ -528,6 +528,14 @@
     "iosStep2": "Pastga aylantiring va «Bosh ekranga qoʻshish» bandini tanlang.",
     "iosStep3": "«Qoʻshish» tugmasini bosing — ilova bosh ekraningizda paydo boʻladi.",
     "gotIt": "Tushunarli"
+  },
+  "Consent": {
+    "label": "Cookie fayllariga rozilik",
+    "text": "Oʻyinning qaysi qismlari oʻynalayotganini koʻrish va uni yaxshilash uchun Google Analytics cookie fayllaridan foydalanamiz. Ushbu xabarni yopish rozilik bildirish hisoblanadi.",
+    "privacy": "Maxfiylik siyosati",
+    "accept": "Qabul qilish",
+    "decline": "Rad etish",
+    "settings": "Cookie sozlamalari"
   },
   "Contact": {
     "title": "Biz bilan bogʻlanish",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Nimadir xato ketdi.",
     "network": "Serverga ulanib boʻlmayapti. Ulanishni tekshiring.",
-    "rateLimited": "Biroz sekinroq — birozdan keyin qayta urinib koʻring.",
+    "rateLimited": "Server hozir band. Birozdan keyin qayta urinib koʻring.",
     "unauthorized": "Davom etish uchun tizimga kiring.",
     "notFound": "Hech narsa topilmadi.",
     "server": "Studiyada texnik nosozlik yuz berdi. Qayta urinib koʻring.",

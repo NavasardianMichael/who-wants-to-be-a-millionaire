@@ -30,6 +30,12 @@ export const trackEvent = (event: AnalyticsEvent, params: Record<string, unknown
   gtag('event', event, params)
 }
 
+/** The visitor's answer to the consent banner (`helpers/consent.ts`). */
+export const setAnalyticsConsent = (choice: 'granted' | 'denied') => {
+  if (!GA_ENABLED || typeof window === 'undefined') return
+  gtag('consent', 'update', { analytics_storage: choice })
+}
+
 export const trackPageView = (path: string) => {
   if (!GA_ENABLED || typeof window === 'undefined') return
   gtag('event', 'page_view', {

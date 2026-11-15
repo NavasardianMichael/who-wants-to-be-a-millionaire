@@ -13,9 +13,11 @@ import { AD_LOCALES, ADSENSE_CLIENT, ADSENSE_ENABLED } from '@constants/ads'
 import { GA_ENABLED, GA_INIT_SCRIPT, GA_SCRIPT_SRC } from '@constants/analytics'
 import { AUTHOR } from '@constants/app'
 import { cn } from '@helpers/cn'
+import { CONSENT_DEFAULTS_SCRIPT } from '@helpers/consent'
 import { getSiteUrl } from '@helpers/url'
 import { AutoAds } from '@components/ads/AutoAds'
 import { App } from '@components/App'
+import { ConsentBanner } from '@components/consent/ConsentBanner'
 import { StudioBackdrop } from '@components/layout/StudioBackdrop'
 import '@styles/globals.css'
 import { fontBody, fontHeading, getScriptFont } from '@styles/fonts'
@@ -111,6 +113,8 @@ export default async function RootLayout({ children, params }: Props) {
         )}
       </head>
       <body>
+        {/* Consent Mode defaults, parsed before anything can reach GA's queue (helpers/consent.ts). */}
+        {GA_ENABLED && <script id='ga-consent-defaults' dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULTS_SCRIPT }} />}
         <StudioBackdrop />
         {/* `layer` wraps antd's CSS in `@layer antd`, below Tailwind's utilities. */}
         <AntdRegistry layer>
@@ -119,6 +123,7 @@ export default async function RootLayout({ children, params }: Props) {
               {children}
             </App>
             {ADSENSE_ENABLED && <AutoAds />}
+            <ConsentBanner />
           </NextIntlClientProvider>
         </AntdRegistry>
         {GA_ENABLED && (

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Sida aan u isticmaalno",
     "privacyUseBody": "Xogtaada waxaa loo isticmaalaa oo keliya socodsiinta ciyaarta: muujinta boggaaga iyo galitaankaaga kala sarreynta, iyo ilaalinta horumarkaaga. Weligeen ma iibinno, lamana wadaagno xayaysiiyeyaasha.",
     "privacyAnalyticsTitle": "Falanqayn iyo warbixinnada khaladaadka",
-    "privacyAnalyticsBody": "Waxaa laga yaabaa inaan isticmaalno falanqayn ixtiraamta asturnaanta iyo warbixinno khalad si aan u fahanno qaybaha la isticmaalo oo aan u hagaajinno cilladaha. Kuwani weligood kuma jiraan nuxurka jawaabahaaga.",
+    "privacyAnalyticsBody": "Waxaan isticmaalnaa Google Analytics si aan u ogaanno qaybaha ciyaarta la ciyaaro, iyo warbixinnada khaladaadka si aan u hagaajinno cilladaha. Midkoodna kuma jiro nuxurka jawaabahaaga. Gudaha Midowga Yurub, EEA, Boqortooyada Midowday iyo Switerland, Google Analytics wuxuu dhigaa cookies-kiisa oo keliya marka aad ogolaato kadib; meelaha kale waxay shaqeeyaan laga bilaabo booqashadaada ugu horreysa. Doorashadaada waad beddeli kartaa wakhti kasta adigoo adeegsanaya “Dejinta cookies” ee ku taal hoosta bogagga goobta.",
     "privacyAdsTitle": "Xayaysiis",
     "privacyAdsBody": "Bogag qaar ayaa muujiya xayaysiisyo ka yimid Google AdSense, weligoodna inta ciyaartu socoto ma muuqdaan. Google iyo shuraakadiisu waxay isticmaalaan cookies si ay kuu tusaan xayaysiisyo ku salaysan booqashooyinkaagii hore ee boggan iyo bogag kale. Waxaad xayaysiisyada gaarka ah ka joojin kartaa <settings>dejinta xayaysiiska Google</settings>, waxaadna akhrin kartaa <partners>sida Google u isticmaalo macluumaadka bogagga adeegsada adeegyadiisa</partners>. Gudaha EEA, Boqortooyada Midowday iyo Switerland marka hore waxaa lagu weydiinayaa ogolaanshahaaga.",
     "privacyRightsTitle": "Xuquuqdaada",
@@ -528,6 +528,14 @@
     "iosStep2": "Hoos u dhaadhac oo dooro “Add to Home Screen” (Ku dar shaashadda hore).",
     "iosStep3": "Taabo “Add” — app-ku wuxuu ka soo muuqanayaa shaashaddaada hore.",
     "gotIt": "Waan fahmay"
+  },
+  "Consent": {
+    "label": "Ogolaanshaha cookies",
+    "text": "Waxaan isticmaalnaa cookies-ka Google Analytics si aan u ogaanno qaybaha ciyaarta la ciyaaro, si aan u horumarinno. Xiridda farriintan waxay la mid tahay aqbalaad.",
+    "privacy": "Siyaasadda asturnaanta",
+    "accept": "Aqbal",
+    "decline": "Diid",
+    "settings": "Dejinta cookies"
   },
   "Contact": {
     "title": "Nala soo xiriir",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Wax baa khaldamay.",
     "network": "Server-ka lama gaari karo. Hubi internet-kaaga.",
-    "rateLimited": "Wax yar sug — kadib isku day mar kale.",
+    "rateLimited": "Server-ku hadda wuu mashquulsan yahay. Fadlan isku day mar kale wax yar kadib.",
     "unauthorized": "Fadlan soo gal si aad u sii waddo.",
     "notFound": "Taas ma aanan helin.",
     "server": "Istuudiyaha cillad farsamo ayaa ka dhacday. Fadlan isku day mar kale.",

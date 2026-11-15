@@ -503,7 +503,7 @@
     "privacyUseTitle": "Yadda muke amfani da su",
     "privacyUseBody": "Ana amfani da bayananku ne kawai don gudanar da wasan: don nuna shafinku da matsayinku a jadawalin gwaraza da kuma adana ci gabanku. Ba za mu taɓa sayar da su ko raba su da masu talla ba.",
     "privacyAnalyticsTitle": "Nazari da rahotannin kurakurai",
-    "privacyAnalyticsBody": "Za mu iya amfani da nazari mai mutunta sirri da rahotannin kurakurai don fahimtar abubuwan da ake amfani da su da kuma gyara matsaloli. Waɗannan ba sa ƙunshe da abin da kuka amsa.",
+    "privacyAnalyticsBody": "Muna amfani da Google Analytics don ganin sassan wasan da ake bugawa, da kuma rahotannin kurakurai don gyara matsaloli. Babu ɗayansu da ke ƙunshe da abin da kuka amsa. A Tarayyar Turai, EEA, Birtaniya da Switzerland, Google Analytics yana sanya kukis ɗinsa ne kawai bayan kun amince; a sauran wurare suna aiki tun ziyararku ta farko. Kuna iya canza zaɓinku a kowane lokaci ta “Saitunan kukis” a ƙasan shafukan wannan shafin yanar gizo.",
     "privacyAdsTitle": "Tallace-tallace",
     "privacyAdsBody": "Wasu shafuka suna nuna tallace-tallace daga Google AdSense, amma ba a lokacin wasa ba. Google da abokan hulɗarsa suna amfani da kukis don nuna muku tallace-tallace bisa ziyarar da kuka yi a baya a wannan shafin da sauran shafukan yanar gizo. Kuna iya kashe tallace-tallacen da aka keɓance muku a cikin <settings>saitunan tallace-tallace na Google</settings>, kuma ku karanta <partners>yadda Google ke amfani da bayanai daga shafukan da ke amfani da ayyukansa</partners>. A EEA, Birtaniya da Switzerland, ana fara neman izininku.",
     "privacyRightsTitle": "Haƙƙoƙinku",
@@ -528,6 +528,14 @@
     "iosStep2": "Gungura ƙasa ku zaɓi “Add to Home Screen” (Ƙara zuwa Allon Gida).",
     "iosStep3": "Taɓa “Add” — manhajar za ta bayyana a allon gidanku.",
     "gotIt": "Na gane"
+  },
+  "Consent": {
+    "label": "Izinin kukis",
+    "text": "Muna amfani da kukis na Google Analytics don ganin sassan wasan da ake bugawa, domin mu inganta shi. Rufe wannan saƙon yana nufin kun amince.",
+    "privacy": "Manufar sirri",
+    "accept": "Amince",
+    "decline": "Ƙi",
+    "settings": "Saitunan kukis"
   },
   "Contact": {
     "title": "Tuntuɓe mu",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "An samu matsala.",
     "network": "Ba mu iya isa ga sabar ba. Ku duba haɗin intanet ɗinku.",
-    "rateLimited": "Ku ɗan rage sauri — sake gwadawa nan da ɗan lokaci.",
+    "rateLimited": "Sabar tana da aiki sosai a yanzu. Da fatan za ku sake gwadawa nan gaba kaɗan.",
     "unauthorized": "Da fatan za ku shiga don ci gaba.",
     "notFound": "Ba mu sami wannan ba.",
     "server": "Ɗakin shirye-shirye ya samu matsalar fasaha. Da fatan za ku sake gwadawa.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Jinsi tunavyozitumia",
     "privacyUseBody": "Data yako inatumika tu kuendesha mchezo: kuonyesha wasifu wako na nafasi zako kwenye ubao wa washindi na kuhifadhi maendeleo yako. Hatuiuzi kamwe wala hatuishiriki na watangazaji.",
     "privacyAnalyticsTitle": "Takwimu za matumizi na ripoti za hitilafu",
-    "privacyAnalyticsBody": "Tunaweza kutumia takwimu za matumizi zinazoheshimu faragha na ripoti za hitilafu ili kuelewa vipengele vipi vinatumika na kurekebisha hitilafu. Hazijumuishi kamwe maudhui ya majibu yako.",
+    "privacyAnalyticsBody": "Tunatumia Google Analytics kuona sehemu zipi za mchezo zinachezwa, na ripoti za hitilafu kurekebisha hitilafu. Hakuna kati ya hizi kinachojumuisha maudhui ya majibu yako. Katika Umoja wa Ulaya, EEA, Uingereza na Uswisi, Google Analytics huweka vidakuzi vyake tu baada ya wewe kukubali; kwingineko vinatumika tangu ziara yako ya kwanza. Unaweza kubadilisha chaguo lako wakati wowote kupitia “Mipangilio ya vidakuzi” chini ya kurasa za tovuti.",
     "privacyAdsTitle": "Matangazo",
     "privacyAdsBody": "Baadhi ya kurasa huonyesha matangazo kutoka Google AdSense, kamwe si wakati wa mchezo. Google na washirika wake hutumia vidakuzi kukuonyesha matangazo kulingana na ziara zako za awali kwenye tovuti hii na nyinginezo. Unaweza kuzima matangazo yanayolengwa kwako katika <settings>mipangilio ya matangazo ya Google</settings> na kusoma <partners>jinsi Google inavyotumia taarifa kutoka kwa tovuti zinazotumia huduma zake</partners>. Katika EEA, Uingereza na Uswisi utaombwa idhini yako kwanza.",
     "privacyRightsTitle": "Haki zako",
@@ -528,6 +528,14 @@
     "iosStep2": "Sogeza chini na uchague “Ongeza kwenye Skrini ya Mwanzo”.",
     "iosStep3": "Gusa “Ongeza” — programu itaonekana kwenye skrini yako ya mwanzo.",
     "gotIt": "Nimeelewa"
+  },
+  "Consent": {
+    "label": "Idhini ya vidakuzi",
+    "text": "Tunatumia vidakuzi vya Google Analytics kuona sehemu zipi za mchezo zinachezwa, ili tuuboreshe. Kufunga ujumbe huu kunahesabiwa kama kukubali.",
+    "privacy": "Sera ya faragha",
+    "accept": "Kubali",
+    "decline": "Kataa",
+    "settings": "Mipangilio ya vidakuzi"
   },
   "Contact": {
     "title": "Wasiliana nasi",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Kuna hitilafu imetokea.",
     "network": "Hatuwezi kufikia seva. Angalia muunganisho wako.",
-    "rateLimited": "Punguza kasi kidogo — jaribu tena baada ya muda mfupi.",
+    "rateLimited": "Seva ina shughuli nyingi kwa sasa. Tafadhali jaribu tena baada ya muda mfupi.",
     "unauthorized": "Tafadhali ingia ili uendelee.",
     "notFound": "Hatukuweza kupata hicho.",
     "server": "Studio imepata tatizo la kiufundi. Tafadhali jaribu tena.",

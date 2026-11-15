@@ -503,7 +503,7 @@
     "privacyUseTitle": "我们如何使用",
     "privacyUseBody": "您的数据仅用于运行游戏：显示您的个人资料和排行榜记录，并保存您的进度。我们绝不会出售数据，也不会与广告商分享。",
     "privacyAnalyticsTitle": "统计分析与错误报告",
-    "privacyAnalyticsBody": "我们可能会使用注重隐私的统计分析和错误报告，以了解哪些功能被使用并修复问题。这些数据绝不包含您的答题内容。",
+    "privacyAnalyticsBody": "我们使用 Google Analytics 了解游戏的哪些部分有人在玩，并使用错误报告修复问题。两者都不包含您的答题内容。在欧盟、欧洲经济区、英国和瑞士，Google Analytics 仅在您同意后才会设置其 Cookie；在其他地区，Cookie 从您首次访问起即启用。您可以随时通过网站页面底部的“Cookie 设置”更改您的选择。",
     "privacyAdsTitle": "广告",
     "privacyAdsBody": "部分页面会显示 Google AdSense 广告，但游戏进行中绝不会显示。Google 及其合作伙伴会使用 Cookie，根据您以往访问本网站及其他网站的情况向您展示广告。您可以在<settings>Google 广告设置</settings>中关闭个性化广告，并了解<partners>Google 如何使用来自使用其服务的网站的信息</partners>。在欧洲经济区、英国和瑞士，我们会先征求您的同意。",
     "privacyRightsTitle": "您的权利",
@@ -528,6 +528,14 @@
     "iosStep2": "向下滚动，选择“添加到主屏幕”。",
     "iosStep3": "轻点“添加”——应用就会出现在您的主屏幕上。",
     "gotIt": "知道了"
+  },
+  "Consent": {
+    "label": "Cookie 同意",
+    "text": "我们使用 Google Analytics Cookie 来了解游戏的哪些部分有人在玩，以便改进游戏。关闭此消息即视为同意。",
+    "privacy": "隐私政策",
+    "accept": "接受",
+    "decline": "拒绝",
+    "settings": "Cookie 设置"
   },
   "Contact": {
     "title": "联系我们",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "出了点问题。",
     "network": "无法连接服务器，请检查网络连接。",
-    "rateLimited": "操作太频繁了，请稍后再试。",
+    "rateLimited": "服务器当前繁忙，请稍后再试。",
     "unauthorized": "请登录后继续。",
     "notFound": "没有找到相关内容。",
     "server": "演播厅出了点技术故障，请重试。",

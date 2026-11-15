@@ -503,7 +503,7 @@
     "privacyUseTitle": "Kako ih koristimo",
     "privacyUseBody": "Tvoje podatke koristimo samo za rad igre: za prikaz profila i unosa na ljestvici te za čuvanje napretka. Nikada ih ne prodajemo niti dijelimo s oglašivačima.",
     "privacyAnalyticsTitle": "Analitika i izvješća o pogreškama",
-    "privacyAnalyticsBody": "Možemo koristiti analitiku koja poštuje privatnost i izvješća o pogreškama kako bismo razumjeli koje se značajke koriste i ispravili pogreške. Ona nikada ne sadrže tvoje odgovore.",
+    "privacyAnalyticsBody": "Koristimo Google Analytics kako bismo vidjeli koji se dijelovi igre igraju, a izvješća o pogreškama kako bismo ispravili greške. Ni jedno ni drugo ne uključuje sadržaj tvojih odgovora. U EU-u, EGP-u, Ujedinjenom Kraljevstvu i Švicarskoj Google Analytics postavlja svoje kolačiće tek nakon što pristaneš; drugdje su uključeni od prvog posjeta. Svoj izbor možeš promijeniti u bilo kojem trenutku putem poveznice „Postavke kolačića” na dnu stranica web-mjesta.",
     "privacyAdsTitle": "Oglašavanje",
     "privacyAdsBody": "Neke stranice prikazuju oglase servisa Google AdSense, ali nikad tijekom igre. Google i njegovi partneri koriste kolačiće kako bi ti prikazivali oglase na temelju tvojih ranijih posjeta ovoj i drugim web-stranicama. Personalizirane oglase možeš isključiti u <settings>postavkama oglasa tvrtke Google</settings>, a možeš i pročitati <partners>kako Google koristi podatke s web-stranica koje koriste njegove usluge</partners>. U EGP-u, Ujedinjenom Kraljevstvu i Švicarskoj najprije se traži tvoj pristanak.",
     "privacyRightsTitle": "Tvoja prava",
@@ -528,6 +528,14 @@
     "iosStep2": "Pomakni se prema dolje i odaberi „Dodaj na početni zaslon”.",
     "iosStep3": "Dodirni „Dodaj” — aplikacija će se pojaviti na početnom zaslonu.",
     "gotIt": "Shvaćam"
+  },
+  "Consent": {
+    "label": "Privola za kolačiće",
+    "text": "Koristimo kolačiće usluge Google Analytics kako bismo vidjeli koji se dijelovi igre igraju i tako je poboljšali. Zatvaranje ove poruke smatra se prihvaćanjem.",
+    "privacy": "Pravila o privatnosti",
+    "accept": "Prihvati",
+    "decline": "Odbij",
+    "settings": "Postavke kolačića"
   },
   "Contact": {
     "title": "Javi nam se",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Nešto je pošlo po zlu.",
     "network": "Ne možemo doći do poslužitelja. Provjeri vezu.",
-    "rateLimited": "Malo uspori — pokušaj ponovno za trenutak.",
+    "rateLimited": "Poslužitelj je trenutačno preopterećen. Pokušaj ponovno malo kasnije.",
     "unauthorized": "Prijavi se za nastavak.",
     "notFound": "Nismo to pronašli.",
     "server": "Studio ima tehnički problem. Pokušaj ponovno.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Chúng tôi sử dụng dữ liệu thế nào",
     "privacyUseBody": "Dữ liệu của bạn chỉ được dùng để vận hành trò chơi: hiển thị hồ sơ, thứ hạng của bạn trên bảng xếp hạng và lưu tiến trình. Chúng tôi không bao giờ bán hoặc chia sẻ dữ liệu với nhà quảng cáo.",
     "privacyAnalyticsTitle": "Phân tích và báo cáo lỗi",
-    "privacyAnalyticsBody": "Chúng tôi có thể dùng công cụ phân tích tôn trọng quyền riêng tư và báo cáo lỗi để biết tính năng nào được dùng và sửa lỗi. Những dữ liệu này không bao giờ chứa nội dung câu trả lời của bạn.",
+    "privacyAnalyticsBody": "Chúng tôi dùng Google Analytics để biết những phần nào của trò chơi được chơi, và báo cáo lỗi để sửa lỗi. Cả hai đều không chứa nội dung câu trả lời của bạn. Tại EU, EEA, Vương quốc Anh và Thụy Sĩ, Google Analytics chỉ đặt cookie sau khi bạn đồng ý; ở những nơi khác, cookie được bật ngay từ lần truy cập đầu tiên của bạn. Bạn có thể thay đổi lựa chọn bất cứ lúc nào qua “Cài đặt cookie” ở cuối các trang của trang web.",
     "privacyAdsTitle": "Quảng cáo",
     "privacyAdsBody": "Một số trang hiển thị quảng cáo từ Google AdSense, không bao giờ trong lúc chơi. Google và các đối tác của Google sử dụng cookie để hiển thị quảng cáo dựa trên những lần bạn truy cập trang web này và các trang web khác trước đây. Bạn có thể tắt quảng cáo được cá nhân hóa trong <settings>cài đặt quảng cáo của Google</settings> và đọc <partners>cách Google sử dụng thông tin từ các trang web dùng dịch vụ của Google</partners>. Tại EEA, Vương quốc Anh và Thụy Sĩ, bạn sẽ được hỏi ý kiến đồng ý trước.",
     "privacyRightsTitle": "Quyền của bạn",
@@ -528,6 +528,14 @@
     "iosStep2": "Cuộn xuống và chọn “Thêm vào MH chính”.",
     "iosStep3": "Chạm “Thêm” — ứng dụng sẽ xuất hiện trên màn hình chính.",
     "gotIt": "Đã hiểu"
+  },
+  "Consent": {
+    "label": "Đồng ý sử dụng cookie",
+    "text": "Chúng tôi dùng cookie của Google Analytics để biết những phần nào của trò chơi được chơi, nhờ đó cải thiện trò chơi. Việc đóng thông báo này được xem là bạn đồng ý.",
+    "privacy": "Chính sách quyền riêng tư",
+    "accept": "Chấp nhận",
+    "decline": "Từ chối",
+    "settings": "Cài đặt cookie"
   },
   "Contact": {
     "title": "Liên hệ với chúng tôi",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Đã xảy ra lỗi.",
     "network": "Không thể kết nối tới máy chủ. Hãy kiểm tra kết nối mạng.",
-    "rateLimited": "Chậm lại một chút — thử lại sau giây lát nhé.",
+    "rateLimited": "Máy chủ hiện đang bận. Vui lòng thử lại sau ít phút.",
     "unauthorized": "Vui lòng đăng nhập để tiếp tục.",
     "notFound": "Không tìm thấy nội dung này.",
     "server": "Trường quay gặp sự cố kỹ thuật. Vui lòng thử lại.",

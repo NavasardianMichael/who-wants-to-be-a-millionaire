@@ -503,7 +503,7 @@
     "privacyUseTitle": "Miten käytämme tietoja",
     "privacyUseBody": "Käytämme tietojasi vain pelin pyörittämiseen: profiilisi ja tulostaulumerkintöjesi näyttämiseen sekä edistymisesi tallentamiseen. Emme koskaan myy niitä emmekä jaa niitä mainostajille.",
     "privacyAnalyticsTitle": "Analytiikka ja virheraportit",
-    "privacyAnalyticsBody": "Saatamme käyttää yksityisyyttä kunnioittavaa analytiikkaa ja virheraportteja ymmärtääksemme, mitä ominaisuuksia käytetään, ja korjataksemme bugeja. Ne eivät koskaan sisällä vastaustesi sisältöä.",
+    "privacyAnalyticsBody": "Käytämme Google Analyticsia nähdäksemme, mitä pelin osia pelataan, ja virheraportteja bugien korjaamiseen. Kumpikaan ei sisällä vastaustesi sisältöä. EU:ssa, ETA-alueella, Isossa-Britanniassa ja Sveitsissä Google Analytics asettaa evästeensä vasta, kun olet antanut suostumuksesi; muualla ne ovat käytössä ensimmäisestä käynnistäsi lähtien. Voit muuttaa valintaasi milloin tahansa sivuston sivujen alareunan linkistä ”Evästeasetukset”.",
     "privacyAdsTitle": "Mainonta",
     "privacyAdsBody": "Joillakin sivuilla näytetään Google AdSensen mainoksia, mutta ei koskaan pelin aikana. Google ja sen kumppanit käyttävät evästeitä näyttääkseen sinulle mainoksia aiempien käyntiesi perusteella tällä ja muilla sivustoilla. Voit poistaa personoidut mainokset käytöstä <settings>Googlen mainosasetuksista</settings> ja lukea, <partners>miten Google käyttää tietoja sen palveluja käyttäviltä sivustoilta</partners>. ETA-alueella, Isossa-Britanniassa ja Sveitsissä sinulta pyydetään ensin suostumus.",
     "privacyRightsTitle": "Oikeutesi",
@@ -528,6 +528,14 @@
     "iosStep2": "Vieritä alas ja valitse ”Lisää Koti-valikkoon”.",
     "iosStep3": "Napauta ”Lisää” – sovellus ilmestyy aloitusnäytöllesi.",
     "gotIt": "Selvä"
+  },
+  "Consent": {
+    "label": "Evästesuostumus",
+    "text": "Käytämme Google Analyticsin evästeitä nähdäksemme, mitä pelin osia pelataan, jotta voimme parantaa peliä. Tämän viestin sulkeminen katsotaan hyväksynnäksi.",
+    "privacy": "Tietosuojakäytäntö",
+    "accept": "Hyväksy",
+    "decline": "Hylkää",
+    "settings": "Evästeasetukset"
   },
   "Contact": {
     "title": "Ota yhteyttä",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Jokin meni pieleen.",
     "network": "Palvelimeen ei saada yhteyttä. Tarkista verkkoyhteytesi.",
-    "rateLimited": "Hidasta hieman – yritä hetken päästä uudelleen.",
+    "rateLimited": "Palvelin on juuri nyt ruuhkautunut. Yritä hetken kuluttua uudelleen.",
     "unauthorized": "Kirjaudu sisään jatkaaksesi.",
     "notFound": "Etsimääsi ei löytynyt.",
     "server": "Studiossa sattui tekninen häiriö. Yritä uudelleen.",

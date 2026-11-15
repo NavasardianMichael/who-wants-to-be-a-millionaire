@@ -443,7 +443,7 @@
     "privacyUseTitle": "How we use it",
     "privacyUseBody": "Your data is used only to run the game: to show your profile and leaderboard entries and to keep your progress. We never sell it or share it with advertisers.",
     "privacyAnalyticsTitle": "Analytics and error reports",
-    "privacyAnalyticsBody": "We may use privacy-friendly analytics and error reports to understand which features are used and to fix bugs. These never include the content of your answers.",
+    "privacyAnalyticsBody": "We use Google Analytics to see which parts of the game are played, and error reports to fix bugs. Neither includes the content of your answers. In the EU, the EEA, the UK and Switzerland, Google Analytics sets its cookies only after you agree; elsewhere they are on from your first visit. You can change your choice at any time with “Cookie settings” at the bottom of the site's pages.",
     "privacyAdsTitle": "Advertising",
     "privacyAdsBody": "Some pages show ads from Google AdSense, never during a game. Google and its partners use cookies to show you ads based on your earlier visits to this and other websites. You can turn off personalized ads in <settings>Google's ad settings</settings> and read <partners>how Google uses information from sites that use its services</partners>. In the EEA, the UK and Switzerland you are asked for your consent first.",
     "privacyRightsTitle": "Your rights",
@@ -468,6 +468,14 @@
     "iosStep2": "Scroll down and choose “Add to Home Screen”.",
     "iosStep3": "Tap “Add” — the app appears on your home screen.",
     "gotIt": "Got it"
+  },
+  "Consent": {
+    "label": "Cookie consent",
+    "text": "We use Google Analytics cookies to see which parts of the game are played, so we can make it better. Closing this message counts as accepting.",
+    "privacy": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie settings"
   },
   "Contact": {
     "title": "Contact us",
@@ -562,7 +570,7 @@
   "Errors": {
     "generic": "Something went wrong.",
     "network": "We can't reach the server. Check your connection.",
-    "rateLimited": "Slow down a little — try again in a moment.",
+    "rateLimited": "The server is busy right now. Please try again a little later.",
     "unauthorized": "Please sign in to continue.",
     "notFound": "We couldn't find that.",
     "server": "The studio had a technical problem. Please try again.",

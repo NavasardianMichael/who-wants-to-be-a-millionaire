@@ -503,7 +503,7 @@
     "privacyUseTitle": "Cómo lo usamos",
     "privacyUseBody": "Sus datos se usan solo para que funcione el juego: para mostrar su perfil y sus entradas en la clasificación y para conservar su progreso. Nunca los vendemos ni los compartimos con anunciantes.",
     "privacyAnalyticsTitle": "Analítica e informes de errores",
-    "privacyAnalyticsBody": "Podemos usar analítica respetuosa con la privacidad e informes de errores para saber qué funciones se usan y corregir fallos. Nunca incluyen el contenido de sus respuestas.",
+    "privacyAnalyticsBody": "Usamos Google Analytics para ver qué partes del juego se juegan, e informes de errores para corregir fallos. Ninguno de los dos incluye el contenido de sus respuestas. En la UE, el EEE, el Reino Unido y Suiza, Google Analytics solo instala sus cookies después de que usted lo acepte; en el resto del mundo están activas desde su primera visita. Puede cambiar su elección en cualquier momento con «Configuración de cookies», al pie de las páginas del sitio.",
     "privacyAdsTitle": "Publicidad",
     "privacyAdsBody": "Algunas páginas muestran anuncios de Google AdSense, nunca durante una partida. Google y sus socios usan cookies para mostrarle anuncios basados en sus visitas anteriores a este y otros sitios web. Puede desactivar los anuncios personalizados en la <settings>configuración de anuncios de Google</settings> y leer <partners>cómo usa Google la información de los sitios que utilizan sus servicios</partners>. En el EEE, el Reino Unido y Suiza se le pide primero su consentimiento.",
     "privacyRightsTitle": "Sus derechos",
@@ -528,6 +528,14 @@
     "iosStep2": "Desplácese hacia abajo y elija «Añadir a pantalla de inicio».",
     "iosStep3": "Toque «Añadir»: la app aparecerá en su pantalla de inicio.",
     "gotIt": "Entendido"
+  },
+  "Consent": {
+    "label": "Consentimiento de cookies",
+    "text": "Usamos cookies de Google Analytics para ver qué partes del juego se juegan y así poder mejorarlo. Cerrar este mensaje cuenta como aceptarlas.",
+    "privacy": "Política de privacidad",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "settings": "Configuración de cookies"
   },
   "Contact": {
     "title": "Contacto",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Algo ha salido mal.",
     "network": "No podemos conectar con el servidor. Compruebe su conexión.",
-    "rateLimited": "Más despacio: inténtelo de nuevo en un momento.",
+    "rateLimited": "El servidor está saturado en este momento. Inténtelo de nuevo un poco más tarde.",
     "unauthorized": "Inicie sesión para continuar.",
     "notFound": "No hemos encontrado lo que busca.",
     "server": "El plató ha tenido un problema técnico. Inténtelo de nuevo.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Jak je používáme",
     "privacyUseBody": "Tvoje údaje používáme jen k provozu hry: k zobrazení profilu a záznamů v žebříčku a k uchování postupu. Nikdy je neprodáváme ani nesdílíme s inzerenty.",
     "privacyAnalyticsTitle": "Analytika a hlášení chyb",
-    "privacyAnalyticsBody": "Můžeme používat analytiku a hlášení chyb šetrné k soukromí, abychom věděli, které funkce se používají, a mohli opravovat chyby. Nikdy neobsahují obsah tvých odpovědí.",
+    "privacyAnalyticsBody": "Používáme Google Analytics, abychom viděli, které části hry se hrají, a hlášení chyb, abychom mohli opravovat závady. Ani jedno neobsahuje obsah tvých odpovědí. V EU, EHP, Spojeném království a Švýcarsku ukládá Google Analytics své soubory cookie až poté, co k tomu dáš souhlas; jinde jsou aktivní od tvé první návštěvy. Svou volbu můžeš kdykoli změnit pomocí odkazu „Nastavení cookies“ v dolní části stránek webu.",
     "privacyAdsTitle": "Reklama",
     "privacyAdsBody": "Některé stránky zobrazují reklamy Google AdSense, nikdy však během hry. Google a jeho partneři používají soubory cookie, aby ti zobrazovali reklamy podle tvých dřívějších návštěv tohoto a jiných webů. Personalizované reklamy můžeš vypnout v <settings>nastavení reklam Google</settings> a přečíst si, <partners>jak Google používá informace z webů, které využívají jeho služby</partners>. V EHP, Spojeném království a Švýcarsku se tě nejprve zeptáme na souhlas.",
     "privacyRightsTitle": "Tvoje práva",
@@ -528,6 +528,14 @@
     "iosStep2": "Sjeď dolů a vyber „Přidat na plochu“.",
     "iosStep3": "Klepni na „Přidat“ — aplikace se objeví na ploše.",
     "gotIt": "Rozumím"
+  },
+  "Consent": {
+    "label": "Souhlas s cookies",
+    "text": "Používáme soubory cookie Google Analytics, abychom viděli, které části hry se hrají, a mohli ji vylepšovat. Zavřením této zprávy vyjadřuješ souhlas.",
+    "privacy": "Zásady ochrany soukromí",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "settings": "Nastavení cookies"
   },
   "Contact": {
     "title": "Napiš nám",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Něco se pokazilo.",
     "network": "Nemůžeme se spojit se serverem. Zkontroluj připojení.",
-    "rateLimited": "Trochu zpomal — zkus to za chvíli znovu.",
+    "rateLimited": "Server je teď přetížený. Zkus to prosím o něco později.",
     "unauthorized": "Pro pokračování se prosím přihlas.",
     "notFound": "Tohle jsme nenašli.",
     "server": "Ve studiu nastal technický problém. Zkus to prosím znovu.",

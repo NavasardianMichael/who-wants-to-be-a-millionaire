@@ -503,7 +503,7 @@
     "privacyUseTitle": "Bí a ṣe ń lò ó",
     "privacyUseBody": "A ń lo ìsọfúnni yín láti ṣe eré náà nìkan: láti fi pírófáìlì yín àti ipò yín lórí àtẹ ipò hàn, àti láti tọ́jú ìtẹ̀síwájú yín. A kì í tà á, a kì í sì í pín in fún àwọn olùpolówó.",
     "privacyAnalyticsTitle": "Ìtúpalẹ̀ àti ìjábọ̀ àṣìṣe",
-    "privacyAnalyticsBody": "A lè lo ìtúpalẹ̀ tó bọ̀wọ̀ fún àṣírí àti ìjábọ̀ àṣìṣe láti mọ àwọn apá tí wọ́n ń lò àti láti ṣàtúnṣe àwọn àṣìṣe. Ìwọ̀nyí kò ní àkóónú ìdáhùn yín nínú rárá.",
+    "privacyAnalyticsBody": "A ń lo Google Analytics láti mọ àwọn apá eré tí wọ́n ń ṣe, àti ìjábọ̀ àṣìṣe láti ṣàtúnṣe àwọn àṣìṣe. Kò sí èyíkéyìí nínú wọn tí ó ní àkóónú ìdáhùn yín nínú. Ní EU, EEA, UK àti Switzerland, Google Analytics máa ń fi cookie rẹ̀ sílẹ̀ kìkì lẹ́yìn tí ẹ bá gbà; ní ibòmíràn, wọ́n ń ṣiṣẹ́ láti ìbẹ̀wò yín àkọ́kọ́. Ẹ lè yí ìpinnu yín padà nígbàkígbà nípasẹ̀ “Ètò cookie” ní ìsàlẹ̀ àwọn ojú-ìwé ojú-òpó náà.",
     "privacyAdsTitle": "Ìpolówó",
     "privacyAdsBody": "Àwọn ojú-ìwé kan ń fi ìpolówó láti Google AdSense hàn, ṣùgbọ́n kì í ṣe nígbà eré. Google àti àwọn alábàáṣiṣẹ́ rẹ̀ ń lo cookie láti fi ìpolówó hàn yín gẹ́gẹ́ bí ìbẹ̀wò yín tẹ́lẹ̀ sí ojú-òpó yìí àti àwọn mìíràn. Ẹ lè pa ìpolówó tí a ṣe fún yín ní <settings>ètò ìpolówó Google</settings>, kí ẹ sì ka <partners>bí Google ṣe ń lo ìsọfúnni láti àwọn ojú-òpó tí ń lo iṣẹ́ rẹ̀</partners>. Ní EEA, UK àti Switzerland, a ó kọ́kọ́ béèrè ìyọ̀ǹda yín.",
     "privacyRightsTitle": "Ẹ̀tọ́ yín",
@@ -528,6 +528,14 @@
     "iosStep2": "Ẹ yí sísàlẹ̀ kí ẹ sì yan “Fi kún Ojú-ìbojú Ilé” (Add to Home Screen).",
     "iosStep3": "Ẹ tẹ “Fi kún” (Add) — áàpù náà yóò hàn lórí ojú-ìbojú ilé yín.",
     "gotIt": "Ó yé mi"
+  },
+  "Consent": {
+    "label": "Ìyọ̀ǹda cookie",
+    "text": "A ń lo cookie Google Analytics láti mọ àwọn apá eré tí wọ́n ń ṣe, kí a lè mú un dára sí i. Pípa ìfiránṣẹ́ yìí dé túmọ̀ sí pé ẹ gbà.",
+    "privacy": "Ìlànà àṣírí",
+    "accept": "Gbà",
+    "decline": "Kọ̀",
+    "settings": "Ètò cookie"
   },
   "Contact": {
     "title": "Kàn sí wa",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Nǹkan kan kò lọ dáadáa.",
     "network": "A kò lè dé ọ̀dọ̀ ẹ̀rọ apèsè. Ẹ ṣàyẹ̀wò ìsopọ̀ ayélujára yín.",
-    "rateLimited": "Ẹ rọra díẹ̀ — ẹ tún gbìyànjú láìpẹ́.",
+    "rateLimited": "Sáfà ń ṣiṣẹ́ lọ́wọ́ báyìí. Ẹ jọ̀wọ́, ẹ tún gbìyànjú díẹ̀ sí i lẹ́yìn náà.",
     "unauthorized": "Ẹ jọ̀wọ́, ẹ wọlé láti tẹ̀síwájú.",
     "notFound": "A kò rí i.",
     "server": "Sítúdíò ní ìṣòro ẹ̀rọ. Ẹ jọ̀wọ́, ẹ tún gbìyànjú.",

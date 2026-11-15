@@ -503,7 +503,7 @@
     "privacyUseTitle": "Come li usiamo",
     "privacyUseBody": "I tuoi dati servono solo a far funzionare il gioco: mostrare il tuo profilo e le tue posizioni in classifica e conservare i tuoi progressi. Non li vendiamo mai e non li condividiamo con inserzionisti.",
     "privacyAnalyticsTitle": "Statistiche e segnalazioni di errore",
-    "privacyAnalyticsBody": "Potremmo usare statistiche rispettose della privacy e segnalazioni di errore per capire quali funzioni vengono usate e correggere i bug. Non includono mai il contenuto delle tue risposte.",
+    "privacyAnalyticsBody": "Usiamo Google Analytics per vedere quali parti del gioco vengono giocate e le segnalazioni di errore per correggere i bug. Nessuno dei due include il contenuto delle tue risposte. Nell’UE, nel SEE, nel Regno Unito e in Svizzera, Google Analytics imposta i suoi cookie solo dopo il tuo consenso; altrove sono attivi fin dalla prima visita. Puoi cambiare la tua scelta in qualsiasi momento con «Impostazioni cookie» in fondo alle pagine del sito.",
     "privacyAdsTitle": "Pubblicità",
     "privacyAdsBody": "Alcune pagine mostrano annunci di Google AdSense, mai durante una partita. Google e i suoi partner usano i cookie per mostrarti annunci basati sulle tue visite precedenti a questo e ad altri siti web. Puoi disattivare gli annunci personalizzati nelle <settings>impostazioni degli annunci di Google</settings> e leggere <partners>come Google utilizza le informazioni dei siti che usano i suoi servizi</partners>. Nel SEE, nel Regno Unito e in Svizzera ti viene chiesto prima il consenso.",
     "privacyRightsTitle": "I tuoi diritti",
@@ -528,6 +528,14 @@
     "iosStep2": "Scorri verso il basso e scegli “Aggiungi alla schermata Home”.",
     "iosStep3": "Tocca “Aggiungi”: l'app comparirà nella schermata Home.",
     "gotIt": "Ho capito"
+  },
+  "Consent": {
+    "label": "Consenso ai cookie",
+    "text": "Usiamo i cookie di Google Analytics per vedere quali parti del gioco vengono giocate, così da poterlo migliorare. Chiudere questo messaggio equivale ad accettare.",
+    "privacy": "Informativa sulla privacy",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "settings": "Impostazioni cookie"
   },
   "Contact": {
     "title": "Contattaci",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Qualcosa è andato storto.",
     "network": "Non riusciamo a raggiungere il server. Controlla la connessione.",
-    "rateLimited": "Rallenta un attimo e riprova tra poco.",
+    "rateLimited": "Il server è molto occupato in questo momento. Riprova tra poco.",
     "unauthorized": "Accedi per continuare.",
     "notFound": "Non l'abbiamo trovato.",
     "server": "Lo studio ha avuto un problema tecnico. Riprova.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Hvordan vi bruker dem",
     "privacyUseBody": "Dataene dine brukes bare til å drive spillet: til å vise profilen din og plasseringene dine på topplisten og til å ta vare på fremgangen din. Vi selger dem aldri og deler dem aldri med annonsører.",
     "privacyAnalyticsTitle": "Analyse og feilrapporter",
-    "privacyAnalyticsBody": "Vi kan bruke personvernvennlig analyse og feilrapporter for å forstå hvilke funksjoner som brukes, og for å rette feil. Disse inneholder aldri innholdet i svarene dine.",
+    "privacyAnalyticsBody": "Vi bruker Google Analytics for å se hvilke deler av spillet som spilles, og feilrapporter for å rette feil. Ingen av dem inneholder innholdet i svarene dine. I EU, EØS, Storbritannia og Sveits setter Google Analytics informasjonskapslene sine først når du har sagt ja; andre steder er de på fra første besøk. Du kan når som helst endre valget ditt med «Innstillinger for informasjonskapsler» nederst på sidene.",
     "privacyAdsTitle": "Annonser",
     "privacyAdsBody": "Noen sider viser annonser fra Google AdSense, men aldri mens du spiller. Google og partnerne deres bruker informasjonskapsler til å vise deg annonser basert på tidligere besøk på dette og andre nettsteder. Du kan slå av personlig tilpassede annonser i <settings>Googles annonseinnstillinger</settings> og lese <partners>hvordan Google bruker informasjon fra nettsteder som bruker tjenestene deres</partners>. I EØS, Storbritannia og Sveits blir du først spurt om samtykke.",
     "privacyRightsTitle": "Dine rettigheter",
@@ -528,6 +528,14 @@
     "iosStep2": "Bla ned og velg «Legg til på Hjem-skjerm».",
     "iosStep3": "Trykk på «Legg til» – appen dukker opp på startskjermen.",
     "gotIt": "Den er grei"
+  },
+  "Consent": {
+    "label": "Samtykke til informasjonskapsler",
+    "text": "Vi bruker informasjonskapsler fra Google Analytics for å se hvilke deler av spillet som spilles, slik at vi kan gjøre det bedre. Lukker du denne meldingen, regnes det som at du godtar.",
+    "privacy": "Personvernerklæring",
+    "accept": "Godta",
+    "decline": "Avslå",
+    "settings": "Innstillinger for informasjonskapsler"
   },
   "Contact": {
     "title": "Kontakt oss",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Noe gikk galt.",
     "network": "Vi når ikke serveren. Sjekk tilkoblingen din.",
-    "rateLimited": "Ta det litt med ro – prøv igjen om et øyeblikk.",
+    "rateLimited": "Serveren er travel akkurat nå. Prøv igjen litt senere.",
     "unauthorized": "Logg inn for å fortsette.",
     "notFound": "Vi fant det ikke.",
     "server": "Studioet fikk et teknisk problem. Prøv igjen.",

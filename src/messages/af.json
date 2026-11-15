@@ -503,7 +503,7 @@
     "privacyUseTitle": "Hoe ons dit gebruik",
     "privacyUseBody": "U data word net gebruik om die spel te laat werk: om u profiel en u inskrywings op die ranglys te wys en u vordering te bewaar. Ons verkoop dit nooit en deel dit nooit met adverteerders nie.",
     "privacyAnalyticsTitle": "Ontledings en foutverslae",
-    "privacyAnalyticsBody": "Ons kan privaatheidsvriendelike ontledings en foutverslae gebruik om te verstaan watter funksies gebruik word en om foute reg te stel. Dit bevat nooit die inhoud van u antwoorde nie.",
+    "privacyAnalyticsBody": "Ons gebruik Google Analytics om te sien watter dele van die speletjie gespeel word, en foutverslae om foute reg te stel. Nie een van die twee bevat die inhoud van u antwoorde nie. In die EU, die EER, die VK en Switserland stel Google Analytics sy koekies eers nadat u ingestem het; elders is hulle aan vanaf u eerste besoek. U kan u keuse enige tyd verander met “Koekie-instellings” onderaan die webwerf se bladsye.",
     "privacyAdsTitle": "Advertensies",
     "privacyAdsBody": "Sommige bladsye wys advertensies van Google AdSense, nooit tydens 'n speletjie nie. Google en sy vennote gebruik koekies om u advertensies te wys wat gebaseer is op u vorige besoeke aan hierdie en ander webwerwe. U kan gepersonaliseerde advertensies afskakel in <settings>Google se advertensie-instellings</settings> en lees <partners>hoe Google inligting gebruik van werwe wat sy dienste gebruik</partners>. In die EER, die VK en Switserland word u eers vir u toestemming gevra.",
     "privacyRightsTitle": "U regte",
@@ -528,6 +528,14 @@
     "iosStep2": "Rol af en kies “Add to Home Screen” (Voeg by tuisskerm).",
     "iosStep3": "Tik op “Add” (Voeg by) – die toep verskyn op u tuisskerm.",
     "gotIt": "Reg so"
+  },
+  "Consent": {
+    "label": "Koekie-toestemming",
+    "text": "Ons gebruik Google Analytics-koekies om te sien watter dele van die speletjie gespeel word, sodat ons dit beter kan maak. As u hierdie boodskap toemaak, tel dit as aanvaarding.",
+    "privacy": "Privaatheidsbeleid",
+    "accept": "Aanvaar",
+    "decline": "Weier",
+    "settings": "Koekie-instellings"
   },
   "Contact": {
     "title": "Kontak ons",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Iets het skeefgeloop.",
     "network": "Ons kan nie die bediener bereik nie. Gaan u verbinding na.",
-    "rateLimited": "Stadig 'n bietjie – probeer oor 'n oomblik weer.",
+    "rateLimited": "Die bediener is nou baie besig. Probeer asseblief 'n bietjie later weer.",
     "unauthorized": "Meld asseblief aan om voort te gaan.",
     "notFound": "Ons kon dit nie vind nie.",
     "server": "Die ateljee het 'n tegniese probleem gehad. Probeer asseblief weer.",

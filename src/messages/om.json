@@ -503,7 +503,7 @@
     "privacyUseTitle": "Akkamitti itti fayyadamnu",
     "privacyUseBody": "Daataan keessan tapha geggeessuuf qofa itti fayyadama: piroofaayilii fi galmee Gabatee Sadarkaa keessan agarsiisuuf, akkasumas adeemsa keessan eeguuf. Gonkumaa hin gurgurru, beeksiftootaafis hin qoodnu.",
     "privacyAnalyticsTitle": "Xiinxala fi gabaasa dogoggoraa",
-    "privacyAnalyticsBody": "Amaloota kamtu itti fayyadama akka hubannuu fi rakkoolee sirreessuuf, xiinxala dhuunfaa eegu fi gabaasa dogoggoraa fayyadamuu dandeenya. Kunniin qabiyyee deebiiwwan keessanii gonkumaa of keessatti hin qabatan.",
+    "privacyAnalyticsBody": "Kutaalee taphichaa kam akka taphataman ilaaluuf Google Analytics, rakkoolee sirreessuuf immoo gabaasa dogoggoraa fayyadamna. Isaan keessaa tokkollee qabiyyee deebiiwwan keessanii of keessatti hin qabatu. EU, EEA, UK fi Siwizarlaandii keessatti Google Analytics kuukii isaa erga isin eeyyamtanii booda qofa kaa’a; bakka biraatti daawwannaa keessan isa jalqabaa irraa kaasee hojii irra jiru. Filannoo keessan yeroo barbaaddanitti “Qindaa’ina kuukii” isa fuulota marsariitichaa gadii jiru fayyadamuun jijjiiruu dandeessu.",
     "privacyAdsTitle": "Beeksisa",
     "privacyAdsBody": "Fuulli tokko tokko beeksisa Google AdSense irraa agarsiisu, garuu yeroo taphaa gonkumaa hin agarsiisan. Google fi michoonni isaa daawwannaa duraanii keessan marsariitii kanaa fi kanneen biroo irratti hundaa’uun beeksisa isinitti agarsiisuuf kuukii fayyadamu. Beeksisa dhuunfaa <settings>qindaa’ina beeksisaa Google</settings> keessatti dhaamsuu, akkasumas <partners>Google odeeffannoo marsariitiiwwan tajaajila isaa fayyadaman irraa akkamitti akka fayyadamu</partners> dubbisuu dandeessu. EEA, UK fi Siwizarlaandii keessatti duraan dursee eeyyamni keessan gaafatama.",
     "privacyRightsTitle": "Mirga keessan",
@@ -528,6 +528,14 @@
     "iosStep2": "Gadi siqsaatii “Add to Home Screen” filadhaa.",
     "iosStep3": "“Add” tuqaa — appichi iskiriinii jalqabaa keessan irratti mul'ata.",
     "gotIt": "Hubadheera"
+  },
+  "Consent": {
+    "label": "Eeyyama kuukii",
+    "text": "Kutaalee taphichaa kam akka taphataman ilaaluun fooyyessuuf kuukii Google Analytics fayyadamna. Ergaa kana cufuun akka fudhattanitti lakkaa’ama.",
+    "privacy": "Imaammata dhuunfaa",
+    "accept": "Fudhadhaa",
+    "decline": "Didaa",
+    "settings": "Qindaa’ina kuukii"
   },
   "Contact": {
     "title": "Nu qunnamaa",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Wanti tokko dogoggoreera.",
     "network": "Sarvarii qaqqabuu hin dandeenye. Walqunnamtii keessan ilaalaa.",
-    "rateLimited": "Xiqqoo suuta jedhaa — yeroo muraasa booda irra deebi'aa yaalaa.",
+    "rateLimited": "Sarvarichi amma baay’ee hojiidhaan qabameera. Maaloo yeroo muraasa booda irra deebi'aa yaalaa.",
     "unauthorized": "Itti fufuuf maaloo seenaa.",
     "notFound": "Sana argachuu hin dandeenye.",
     "server": "Istuudiyoon rakkoo teeknikaa qabaate. Maaloo irra deebi'aa yaalaa.",

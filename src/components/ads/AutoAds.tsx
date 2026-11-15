@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useLocale } from 'next-intl'
 import { usePathname } from '@i18n/navigation'
 import { adsAllowedOn, isAdCodeLoaded, isAdFreeUrl, loadAdCode } from '@helpers/ads'
+import { followGoogleConsent } from '@helpers/consent'
 
 /**
  * Google AdSense Auto ads: Google picks the places and formats for each screen size. The ad
@@ -21,8 +22,11 @@ export const AutoAds = () => {
   const allowed = adsAllowedOn(locale, pathname)
 
   useEffect(() => {
-    if (allowed) loadAdCode()
-    else if (isAdCodeLoaded()) window.location.reload()
+    if (allowed) {
+      loadAdCode()
+      // Google's consent message comes with the ad code; the analytics banner defers to it.
+      followGoogleConsent()
+    } else if (isAdCodeLoaded()) window.location.reload()
   }, [allowed])
 
   useEffect(() => {

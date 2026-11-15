@@ -503,7 +503,7 @@
     "privacyUseTitle": "Com fem servir les dades",
     "privacyUseBody": "Les teves dades només serveixen perquè el joc funcioni: per mostrar el teu perfil i les teves entrades a la classificació, i per conservar el teu progrés. No les venem mai ni les compartim amb anunciants.",
     "privacyAnalyticsTitle": "Analítica i informes d’errors",
-    "privacyAnalyticsBody": "Podem fer servir analítica respectuosa amb la privadesa i informes d’errors per saber quines funcions es fan servir i corregir errors. Mai no inclouen el contingut de les teves respostes.",
+    "privacyAnalyticsBody": "Fem servir Google Analytics per veure quines parts del joc es juguen, i informes d’errors per corregir fallades. Cap dels dos inclou el contingut de les teves respostes. A la UE, l’EEE, el Regne Unit i Suïssa, Google Analytics només instal·la les seves galetes després que hi donis el consentiment; a la resta del món, estan actives des de la teva primera visita. Pots canviar la teva elecció en qualsevol moment amb «Configuració de galetes», a la part inferior de les pàgines del lloc.",
     "privacyAdsTitle": "Publicitat",
     "privacyAdsBody": "Algunes pàgines mostren anuncis de Google AdSense, mai durant una partida. Google i els seus socis fan servir galetes per mostrar-te anuncis basats en les teves visites anteriors a aquest i a altres llocs web. Pots desactivar els anuncis personalitzats a la <settings>configuració d’anuncis de Google</settings> i llegir <partners>com fa servir Google la informació dels llocs que utilitzen els seus serveis</partners>. A l’EEE, el Regne Unit i Suïssa primer se’t demana el consentiment.",
     "privacyRightsTitle": "Els teus drets",
@@ -528,6 +528,14 @@
     "iosStep2": "Desplaça’t cap avall i tria «Afegeix a la pantalla d’inici».",
     "iosStep3": "Toca «Afegeix»: l’aplicació apareixerà a la pantalla d’inici.",
     "gotIt": "Entesos"
+  },
+  "Consent": {
+    "label": "Consentiment de galetes",
+    "text": "Fem servir galetes de Google Analytics per veure quines parts del joc es juguen i així poder millorar-lo. Si tanques aquest missatge, es considera que les acceptes.",
+    "privacy": "Política de privadesa",
+    "accept": "Accepta",
+    "decline": "Rebutja",
+    "settings": "Configuració de galetes"
   },
   "Contact": {
     "title": "Contacte",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Alguna cosa ha anat malament.",
     "network": "No podem connectar amb el servidor. Comprova la connexió.",
-    "rateLimited": "Més a poc a poc: torna-ho a provar d’aquí a un moment.",
+    "rateLimited": "Ara mateix el servidor està saturat. Torna-ho a provar d’aquí a una estona.",
     "unauthorized": "Inicia la sessió per continuar.",
     "notFound": "No hem trobat el que busques.",
     "server": "El plató ha tingut un problema tècnic. Torna-ho a provar.",

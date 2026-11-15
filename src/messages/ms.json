@@ -503,7 +503,7 @@
     "privacyUseTitle": "Cara kami menggunakannya",
     "privacyUseBody": "Data anda hanya digunakan untuk menjalankan permainan: untuk memaparkan profil dan kedudukan papan pendahulu anda serta menyimpan kemajuan anda. Kami tidak sekali-kali menjualnya atau berkongsi dengan pengiklan.",
     "privacyAnalyticsTitle": "Analitik dan laporan ralat",
-    "privacyAnalyticsBody": "Kami mungkin menggunakan analitik mesra privasi dan laporan ralat untuk memahami ciri yang digunakan dan membaiki pepijat. Ini tidak sekali-kali termasuk kandungan jawapan anda.",
+    "privacyAnalyticsBody": "Kami menggunakan Google Analytics untuk melihat bahagian permainan yang dimainkan, dan laporan ralat untuk membaiki pepijat. Kedua-duanya tidak termasuk kandungan jawapan anda. Di EU, EEA, UK dan Switzerland, Google Analytics hanya menetapkan kukinya selepas anda bersetuju; di tempat lain, kuki itu aktif sejak lawatan pertama anda. Anda boleh mengubah pilihan anda pada bila-bila masa melalui “Tetapan kuki” di bahagian bawah halaman laman ini.",
     "privacyAdsTitle": "Pengiklanan",
     "privacyAdsBody": "Sesetengah halaman memaparkan iklan daripada Google AdSense, tetapi tidak sekali-kali semasa permainan. Google dan rakan kongsinya menggunakan kuki untuk memaparkan iklan kepada anda berdasarkan lawatan anda sebelum ini ke laman web ini dan laman web lain. Anda boleh mematikan iklan yang diperibadikan dalam <settings>tetapan iklan Google</settings> dan membaca <partners>cara Google menggunakan maklumat daripada laman yang menggunakan perkhidmatannya</partners>. Di EEA, UK dan Switzerland, persetujuan anda diminta terlebih dahulu.",
     "privacyRightsTitle": "Hak anda",
@@ -528,6 +528,14 @@
     "iosStep2": "Tatal ke bawah dan pilih “Tambah ke Skrin Utama”.",
     "iosStep3": "Ketik “Tambah” — aplikasi akan muncul pada skrin utama anda.",
     "gotIt": "Faham"
+  },
+  "Consent": {
+    "label": "Persetujuan kuki",
+    "text": "Kami menggunakan kuki Google Analytics untuk melihat bahagian permainan yang dimainkan supaya kami dapat memperbaikinya. Menutup mesej ini dikira sebagai menerima.",
+    "privacy": "Dasar privasi",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "settings": "Tetapan kuki"
   },
   "Contact": {
     "title": "Hubungi kami",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Sesuatu tidak kena.",
     "network": "Kami tidak dapat menghubungi pelayan. Semak sambungan anda.",
-    "rateLimited": "Perlahan sedikit — cuba lagi sebentar nanti.",
+    "rateLimited": "Pelayan sedang sibuk sekarang. Sila cuba lagi sebentar nanti.",
     "unauthorized": "Sila log masuk untuk meneruskan.",
     "notFound": "Kami tidak menemuinya.",
     "server": "Studio mengalami masalah teknikal. Sila cuba lagi.",

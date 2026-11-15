@@ -503,7 +503,7 @@
     "privacyUseTitle": "Nola erabiltzen ditugu",
     "privacyUseBody": "Zure datuak jokoak funtziona dezan baino ez dira erabiltzen: zure profila eta sailkapeneko sarrerak erakusteko eta zure aurrerapena gordetzeko. Ez ditugu inoiz saltzen, ezta iragarleekin partekatzen ere.",
     "privacyAnalyticsTitle": "Analitika eta errore-txostenak",
-    "privacyAnalyticsBody": "Pribatutasuna errespetatzen duen analitika eta errore-txostenak erabil ditzakegu, zer funtzio erabiltzen diren jakiteko eta akatsak konpontzeko. Ez dute inoiz zure erantzunen edukia jasotzen.",
+    "privacyAnalyticsBody": "Google Analytics erabiltzen dugu jokoaren zer zati jokatzen diren ikusteko, eta errore-txostenak akatsak konpontzeko. Bietako batek ere ez du zure erantzunen edukia jasotzen. EBn, EEEn, Erresuma Batuan eta Suitzan, Google Analytics-ek zuk baimena eman ondoren baino ez ditu bere cookieak ezartzen; beste leku batzuetan lehen bisitatik daude aktibo. Zure aukera edozein unetan alda dezakezu webguneko orrien behealdeko «Cookieen ezarpenak» estekarekin.",
     "privacyAdsTitle": "Publizitatea",
     "privacyAdsBody": "Orri batzuek Google AdSense-ren iragarkiak erakusten dituzte, inoiz ez partida batean zehar. Google-k eta haren bazkideek cookieak erabiltzen dituzte webgune honetara eta beste batzuetara egindako aurreko bisitetan oinarritutako iragarkiak erakusteko. Iragarki pertsonalizatuak <settings>Google-ren iragarkien ezarpenetan</settings> desaktiba ditzakezu, eta irakur dezakezu <partners>nola erabiltzen duen Google-k haren zerbitzuak erabiltzen dituzten guneetako informazioa</partners>. EEEn, Erresuma Batuan eta Suitzan, lehenik zure baimena eskatzen zaizu.",
     "privacyRightsTitle": "Zure eskubideak",
@@ -528,6 +528,14 @@
     "iosStep2": "Egin behera eta aukeratu «Gehitu hasierako pantailan».",
     "iosStep3": "Sakatu «Gehitu»: aplikazioa hasierako pantailan agertuko da.",
     "gotIt": "Ulertuta"
+  },
+  "Consent": {
+    "label": "Cookieen baimena",
+    "text": "Google Analytics-en cookieak erabiltzen ditugu jokoaren zer zati jokatzen diren ikusteko eta hobetu ahal izateko. Mezu hau ixtea onartzea bezala hartzen da.",
+    "privacy": "Pribatutasun-politika",
+    "accept": "Onartu",
+    "decline": "Baztertu",
+    "settings": "Cookieen ezarpenak"
   },
   "Contact": {
     "title": "Kontaktua",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Zerbait gaizki atera da.",
     "network": "Ezin gara zerbitzarira konektatu. Egiaztatu zure konexioa.",
-    "rateLimited": "Lasai! Saiatu berriro geroxeago.",
+    "rateLimited": "Zerbitzaria lanpetuta dago une honetan. Saiatu berriro pixka bat geroago.",
     "unauthorized": "Hasi saioa jarraitzeko.",
     "notFound": "Ez dugu aurkitu.",
     "server": "Platoak arazo tekniko bat izan du. Saiatu berriro.",

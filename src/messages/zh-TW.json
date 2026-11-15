@@ -503,7 +503,7 @@
     "privacyUseTitle": "我們如何使用資料",
     "privacyUseBody": "您的資料只用於遊戲運作：顯示您的個人檔案和排行榜紀錄，以及保存您的進度。我們絕不會出售資料，也不會與廣告商分享。",
     "privacyAnalyticsTitle": "數據分析與錯誤回報",
-    "privacyAnalyticsBody": "我們可能會使用重視隱私的數據分析和錯誤回報，以了解哪些功能較常被使用並修正錯誤。這些資料絕不包含您的作答內容。",
+    "privacyAnalyticsBody": "我們使用 Google Analytics 了解遊戲的哪些部分有人在玩，並使用錯誤回報修正錯誤。兩者都不包含您的作答內容。在歐盟、歐洲經濟區、英國和瑞士，Google Analytics 只會在您同意後才設定其 Cookie；在其他地區，Cookie 從您首次造訪起即啟用。您可以隨時透過網站頁面底部的「Cookie 設定」變更您的選擇。",
     "privacyAdsTitle": "廣告",
     "privacyAdsBody": "部分頁面會顯示 Google AdSense 廣告，但遊戲進行中絕不會顯示。Google 及其合作夥伴會使用 Cookie，根據您過去造訪本網站及其他網站的情形向您顯示廣告。您可以在<settings>Google 廣告設定</settings>中關閉個人化廣告，並了解<partners>Google 如何使用來自採用其服務之網站的資訊</partners>。在歐洲經濟區、英國和瑞士，我們會先徵求您的同意。",
     "privacyRightsTitle": "您的權利",
@@ -528,6 +528,14 @@
     "iosStep2": "向下捲動，選擇「加入主畫面」。",
     "iosStep3": "點一下「新增」——App 就會出現在您的主畫面上。",
     "gotIt": "知道了"
+  },
+  "Consent": {
+    "label": "Cookie 同意",
+    "text": "我們使用 Google Analytics Cookie 來了解遊戲的哪些部分有人在玩，以便改善遊戲。關閉此訊息即視為同意。",
+    "privacy": "隱私權政策",
+    "accept": "接受",
+    "decline": "拒絕",
+    "settings": "Cookie 設定"
   },
   "Contact": {
     "title": "聯絡我們",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "發生錯誤。",
     "network": "無法連線到伺服器，請檢查您的網路連線。",
-    "rateLimited": "操作太頻繁了，請稍後再試。",
+    "rateLimited": "伺服器目前忙碌中，請稍後再試。",
     "unauthorized": "請登入後繼續。",
     "notFound": "找不到相關內容。",
     "server": "攝影棚出了點技術問題，請再試一次。",

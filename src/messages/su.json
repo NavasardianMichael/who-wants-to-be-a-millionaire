@@ -503,7 +503,7 @@
     "privacyUseTitle": "Kumaha kami nganggona",
     "privacyUseBody": "Data anjeun ngan ukur dianggo pikeun ngajalankeun kaulinan: pikeun némbongkeun profil sareng éntri papan peringkat anjeun sarta pikeun nyimpen kamajuan anjeun. Kami henteu pernah ngajual atanapi ngabagikeunana ka pangiklan.",
     "privacyAnalyticsTitle": "Analitik sareng laporan kasalahan",
-    "privacyAnalyticsBody": "Kami tiasa nganggo analitik anu ngajaga privasi sareng laporan kasalahan pikeun ngartos fitur mana anu dianggo sarta pikeun ngalereskeun bug. Ieu henteu pernah ngawengku eusi waleran anjeun.",
+    "privacyAnalyticsBody": "Kami nganggo Google Analytics pikeun ningali bagian kaulinan mana anu dimaénkeun, sareng laporan kasalahan pikeun ngalereskeun bug. Duanana henteu ngawengku eusi waleran anjeun. Di Uni Éropa, EEA, Britania Raya jeung Swiss, Google Analytics masang cookie-na ngan saparantos anjeun satuju; di tempat séjén cookie éta aktip ti mimiti anjeun nganjang. Anjeun tiasa ngarobih pilihan anjeun iraha waé ngaliwatan “Setélan cookie” di handap kaca-kaca situs.",
     "privacyAdsTitle": "Iklan",
     "privacyAdsBody": "Sababaraha kaca némbongkeun iklan ti Google AdSense, teu pernah salila kaulinan. Google jeung mitra-mitrana ngagunakeun cookie pikeun némbongkeun iklan dumasar kana kunjungan anjeun saméméhna ka ieu jeung situs wéb séjén. Anjeun bisa mareuman iklan nu dipersonalisasi dina <settings>setélan iklan Google</settings> sarta maca <partners>kumaha Google ngagunakeun inpormasi ti situs nu ngagunakeun layananana</partners>. Di EEA, Britania Raya jeung Swiss anjeun bakal dipénta idin heula.",
     "privacyRightsTitle": "Hak anjeun",
@@ -528,6 +528,14 @@
     "iosStep2": "Gulirkeun ka handap teras pilih “Tambihkeun ka Layar Utama”.",
     "iosStep3": "Toél “Tambihkeun” — aplikasina bakal muncul dina layar utama anjeun.",
     "gotIt": "Ngartos"
+  },
+  "Consent": {
+    "label": "Idin cookie",
+    "text": "Kami nganggo cookie Google Analytics pikeun ningali bagian kaulinan mana anu dimaénkeun, supados kami tiasa ngaronjatkeunana. Nutup pesen ieu dianggap satuju.",
+    "privacy": "Kawijakan privasi",
+    "accept": "Tampi",
+    "decline": "Tolak",
+    "settings": "Setélan cookie"
   },
   "Contact": {
     "title": "Hubungi kami",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Aya kasalahan.",
     "network": "Kami teu tiasa ngahontal server. Mangga pariksa sambungan anjeun.",
-    "rateLimited": "Lalaunan sakedik — mangga cobian deui sakedap deui.",
+    "rateLimited": "Server nuju sibuk. Mangga cobian deui engké sakedap.",
     "unauthorized": "Mangga lebet heula pikeun neraskeun.",
     "notFound": "Kami teu tiasa mendak éta.",
     "server": "Studio nuju ngalaman masalah téknis. Mangga cobian deui.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Si i përdorim",
     "privacyUseBody": "Të dhënat e tua përdoren vetëm për funksionimin e lojës: për të shfaqur profilin dhe vendet në renditje dhe për të ruajtur përparimin. Nuk i shesim kurrë dhe nuk i ndajmë me reklamues.",
     "privacyAnalyticsTitle": "Analitika dhe raportet e gabimeve",
-    "privacyAnalyticsBody": "Mund të përdorim analitikë që respekton privatësinë dhe raporte gabimesh për të kuptuar cilat funksione përdoren dhe për të rregulluar defektet. Ato nuk përfshijnë kurrë përmbajtjen e përgjigjeve të tua.",
+    "privacyAnalyticsBody": "Përdorim Google Analytics për të parë cilat pjesë të lojës luhen dhe raporte gabimesh për të rregulluar defektet. Asnjëra nuk përfshin përmbajtjen e përgjigjeve të tua. Në BE, ZEE, Mbretërinë e Bashkuar dhe Zvicër, Google Analytics vendos cookie-t e tij vetëm pasi të japësh pëlqimin; gjetiu ato janë aktive që nga vizita jote e parë. Mund ta ndryshosh zgjedhjen tënde në çdo kohë te „Cilësimet e cookie-ve“ në fund të faqeve të sajtit.",
     "privacyAdsTitle": "Reklamat",
     "privacyAdsBody": "Disa faqe shfaqin reklama nga Google AdSense, asnjëherë gjatë lojës. Google dhe partnerët e tij përdorin cookie për të të shfaqur reklama bazuar në vizitat e tua të mëparshme në këtë dhe në faqe të tjera interneti. Mund t’i çaktivizosh reklamat e personalizuara te <settings>cilësimet e reklamave të Google</settings> dhe të lexosh <partners>si i përdor Google informacionet nga faqet që përdorin shërbimet e tij</partners>. Në ZEE, Mbretërinë e Bashkuar dhe Zvicër të kërkohet fillimisht pëlqimi.",
     "privacyRightsTitle": "Të drejtat e tua",
@@ -528,6 +528,14 @@
     "iosStep2": "Lëviz poshtë dhe zgjidh „Shto në ekranin bazë“.",
     "iosStep3": "Prek „Shto“ — aplikacioni shfaqet në ekranin bazë.",
     "gotIt": "E kuptova"
+  },
+  "Consent": {
+    "label": "Pëlqimi për cookie",
+    "text": "Përdorim cookie të Google Analytics për të parë cilat pjesë të lojës luhen, që ta bëjmë më të mirë. Mbyllja e këtij mesazhi vlen si pranim.",
+    "privacy": "Politika e privatësisë",
+    "accept": "Prano",
+    "decline": "Refuzo",
+    "settings": "Cilësimet e cookie-ve"
   },
   "Contact": {
     "title": "Na shkruaj",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Diçka shkoi keq.",
     "network": "Nuk arrijmë te serveri. Kontrollo lidhjen.",
-    "rateLimited": "Pak më ngadalë — provo përsëri pas pak.",
+    "rateLimited": "Serveri është i ngarkuar tani. Provo përsëri pak më vonë.",
     "unauthorized": "Hyr në llogari për të vazhduar.",
     "notFound": "Nuk e gjetëm.",
     "server": "Studioja pati një problem teknik. Provo përsëri.",

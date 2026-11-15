@@ -503,7 +503,7 @@
     "privacyUseTitle": "Ako ich používame",
     "privacyUseBody": "Tvoje údaje používame len na prevádzku hry: na zobrazenie tvojho profilu a záznamov v rebríčku a na uchovanie tvojho postupu. Nikdy ich nepredávame ani nezdieľame s inzerentmi.",
     "privacyAnalyticsTitle": "Analytika a hlásenia chýb",
-    "privacyAnalyticsBody": "Môžeme používať analytiku šetrnú k súkromiu a hlásenia chýb, aby sme pochopili, ktoré funkcie sa používajú, a mohli opravovať chyby. Nikdy neobsahujú obsah tvojich odpovedí.",
+    "privacyAnalyticsBody": "Používame Google Analytics, aby sme videli, ktoré časti hry sa hrajú, a hlásenia chýb, aby sme mohli opravovať chyby. Ani jedno neobsahuje obsah tvojich odpovedí. V EÚ, EHP, Spojenom kráľovstve a Švajčiarsku ukladá Google Analytics svoje súbory cookie až po tvojom súhlase; inde sú aktívne od tvojej prvej návštevy. Svoju voľbu môžeš kedykoľvek zmeniť cez „Nastavenia súborov cookie“ v dolnej časti stránok webu.",
     "privacyAdsTitle": "Reklama",
     "privacyAdsBody": "Niektoré stránky zobrazujú reklamy zo služby Google AdSense, nikdy nie počas hry. Google a jeho partneri používajú súbory cookie, aby ti zobrazovali reklamy podľa tvojich predchádzajúcich návštev tejto a iných webových stránok. Personalizované reklamy si môžeš vypnúť v <settings>nastaveniach reklám Google</settings> a prečítať si, <partners>ako Google používa informácie zo stránok, ktoré využívajú jeho služby</partners>. V EHP, Spojenom kráľovstve a Švajčiarsku ťa najprv požiadame o súhlas.",
     "privacyRightsTitle": "Tvoje práva",
@@ -528,6 +528,14 @@
     "iosStep2": "Posuň sa nadol a vyber „Pridať na plochu“.",
     "iosStep3": "Ťukni na „Pridať“ — aplikácia sa objaví na ploche.",
     "gotIt": "Rozumiem"
+  },
+  "Consent": {
+    "label": "Súhlas so súbormi cookie",
+    "text": "Používame súbory cookie služby Google Analytics, aby sme videli, ktoré časti hry sa hrajú, a mohli ju zlepšovať. Zatvorenie tejto správy sa považuje za súhlas.",
+    "privacy": "Zásady ochrany súkromia",
+    "accept": "Prijať",
+    "decline": "Odmietnuť",
+    "settings": "Nastavenia súborov cookie"
   },
   "Contact": {
     "title": "Napíš nám",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Niečo sa pokazilo.",
     "network": "Nedarí sa spojiť so serverom. Skontroluj pripojenie.",
-    "rateLimited": "Trochu spomaľ — skús to o chvíľu znova.",
+    "rateLimited": "Server je práve preťažený. Skús to znova o chvíľu.",
     "unauthorized": "Ak chceš pokračovať, prihlás sa.",
     "notFound": "Toto sme nenašli.",
     "server": "Štúdio malo technický problém. Skús to znova.",

@@ -503,7 +503,7 @@
     "privacyUseTitle": "Como usamos",
     "privacyUseBody": "Seus dados são usados apenas para o jogo funcionar: mostrar seu perfil e suas posições no ranking e guardar seu progresso. Nunca os vendemos nem compartilhamos com anunciantes.",
     "privacyAnalyticsTitle": "Análises e relatórios de erros",
-    "privacyAnalyticsBody": "Podemos usar análises que respeitam a privacidade e relatórios de erros para entender quais recursos são usados e corrigir bugs. Eles nunca incluem o conteúdo das suas respostas.",
+    "privacyAnalyticsBody": "Usamos o Google Analytics para ver quais partes do jogo são jogadas e relatórios de erros para corrigir bugs. Nenhum deles inclui o conteúdo das suas respostas. Na União Europeia, no EEE, no Reino Unido e na Suíça, o Google Analytics só define seus cookies depois que você concorda; nos demais lugares, eles ficam ativos desde a sua primeira visita. Você pode mudar sua escolha a qualquer momento em “Configurações de cookies”, no rodapé das páginas do site.",
     "privacyAdsTitle": "Publicidade",
     "privacyAdsBody": "Algumas páginas exibem anúncios do Google AdSense, nunca durante uma partida. O Google e seus parceiros usam cookies para mostrar anúncios com base nas suas visitas anteriores a este e a outros sites. Você pode desativar os anúncios personalizados nas <settings>configurações de anúncios do Google</settings> e ler <partners>como o Google usa as informações de sites que usam os serviços dele</partners>. No EEE, no Reino Unido e na Suíça, seu consentimento é pedido antes.",
     "privacyRightsTitle": "Seus direitos",
@@ -528,6 +528,14 @@
     "iosStep2": "Role para baixo e escolha “Adicionar à Tela de Início”.",
     "iosStep3": "Toque em “Adicionar” — o app aparece na sua tela inicial.",
     "gotIt": "Entendi"
+  },
+  "Consent": {
+    "label": "Consentimento de cookies",
+    "text": "Usamos cookies do Google Analytics para ver quais partes do jogo são jogadas e, assim, melhorá-lo. Fechar esta mensagem conta como aceitar.",
+    "privacy": "Política de privacidade",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "settings": "Configurações de cookies"
   },
   "Contact": {
     "title": "Fale conosco",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Algo deu errado.",
     "network": "Não conseguimos falar com o servidor. Verifique sua conexão.",
-    "rateLimited": "Calma aí — tente de novo daqui a pouco.",
+    "rateLimited": "O servidor está ocupado agora. Tente de novo daqui a pouco.",
     "unauthorized": "Entre na sua conta para continuar.",
     "notFound": "Não encontramos isso.",
     "server": "O estúdio teve um problema técnico. Tente de novo.",

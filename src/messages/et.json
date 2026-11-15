@@ -503,7 +503,7 @@
     "privacyUseTitle": "Kuidas me neid kasutame",
     "privacyUseBody": "Kasutame su andmeid ainult mängu toimimiseks: et näidata su profiili ja edetabelikirjeid ning säilitada su edusamme. Me ei müü neid kunagi ega jaga reklaamijatega.",
     "privacyAnalyticsTitle": "Analüütika ja veateated",
-    "privacyAnalyticsBody": "Võime kasutada privaatsust austavat analüütikat ja veateateid, et mõista, milliseid funktsioone kasutatakse, ja vigu parandada. Need ei sisalda kunagi sinu vastuste sisu.",
+    "privacyAnalyticsBody": "Kasutame Google Analyticsit, et näha, milliseid mängu osi mängitakse, ja veateateid, et vigu parandada. Kumbki ei sisalda sinu vastuste sisu. EL-is, EMP-s, Ühendkuningriigis ja Šveitsis paigaldab Google Analytics oma küpsised alles pärast sinu nõusolekut; mujal on need sees juba sinu esimesest külastusest. Saad oma valikut igal ajal muuta saidi lehtede allosas oleva lingi „Küpsiste seaded“ kaudu.",
     "privacyAdsTitle": "Reklaam",
     "privacyAdsBody": "Mõnel lehel näidatakse Google AdSense’i reklaame, kuid mitte kunagi mängu ajal. Google ja tema partnerid kasutavad küpsiseid, et näidata sulle reklaame sinu varasemate külastuste põhjal sellel ja teistel veebisaitidel. Isikupärastatud reklaamid saad välja lülitada <settings>Google’i reklaamiseadetes</settings> ning lugeda, <partners>kuidas Google kasutab teavet saitidelt, mis tema teenuseid kasutavad</partners>. EMP-s, Ühendkuningriigis ja Šveitsis küsitakse kõigepealt sinu nõusolekut.",
     "privacyRightsTitle": "Sinu õigused",
@@ -528,6 +528,14 @@
     "iosStep2": "Keri alla ja vali „Lisa avakuvale“.",
     "iosStep3": "Puuduta „Lisa“ – rakendus ilmub su avakuvale.",
     "gotIt": "Selge"
+  },
+  "Consent": {
+    "label": "Küpsiste nõusolek",
+    "text": "Kasutame Google Analyticsi küpsiseid, et näha, milliseid mängu osi mängitakse, ja mängu paremaks teha. Selle teate sulgemist loetakse nõustumiseks.",
+    "privacy": "Privaatsuspoliitika",
+    "accept": "Nõustu",
+    "decline": "Keeldu",
+    "settings": "Küpsiste seaded"
   },
   "Contact": {
     "title": "Võta meiega ühendust",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Midagi läks valesti.",
     "network": "Serveriga ei saa ühendust. Kontrolli oma internetiühendust.",
-    "rateLimited": "Võta veidi hoogu maha – proovi hetke pärast uuesti.",
+    "rateLimited": "Server on praegu ülekoormatud. Proovi natukese aja pärast uuesti.",
     "unauthorized": "Jätkamiseks logi sisse.",
     "notFound": "Seda ei leitud.",
     "server": "Stuudios tekkis tehniline tõrge. Proovi uuesti.",

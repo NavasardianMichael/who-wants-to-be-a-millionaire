@@ -503,7 +503,7 @@
     "privacyUseTitle": "Hvernig við notum gögnin",
     "privacyUseBody": "Gögnin þín eru aðeins notuð til að keyra leikinn: til að sýna notandasíðuna þína og færslur á stigatöflunni og til að halda utan um framvinduna. Við seljum þau aldrei né deilum þeim með auglýsendum.",
     "privacyAnalyticsTitle": "Vefgreining og villuskýrslur",
-    "privacyAnalyticsBody": "Við kunnum að nota persónuvæna vefgreiningu og villuskýrslur til að skilja hvaða eiginleikar eru notaðir og til að laga villur. Þær innihalda aldrei efni svaranna þinna.",
+    "privacyAnalyticsBody": "Við notum Google Analytics til að sjá hvaða hlutar leiksins eru spilaðir og villuskýrslur til að laga villur. Hvorugt inniheldur efni svaranna þinna. Í ESB, á EES-svæðinu, í Bretlandi og Sviss setur Google Analytics vafrakökur sínar aðeins eftir að þú samþykkir; annars staðar eru þær virkar frá fyrstu heimsókn þinni. Þú getur breytt vali þínu hvenær sem er með „Vafrakökustillingar“ neðst á síðum vefsins.",
     "privacyAdsTitle": "Auglýsingar",
     "privacyAdsBody": "Sumar síður sýna auglýsingar frá Google AdSense, en aldrei á meðan leikur stendur yfir. Google og samstarfsaðilar þess nota vafrakökur til að sýna þér auglýsingar byggðar á fyrri heimsóknum þínum á þessa og aðrar vefsíður. Þú getur slökkt á sérsniðnum auglýsingum í <settings>auglýsingastillingum Google</settings> og lesið <partners>hvernig Google notar upplýsingar frá vefsvæðum sem nota þjónustu þess</partners>. Á EES-svæðinu, í Bretlandi og Sviss er fyrst beðið um samþykki þitt.",
     "privacyRightsTitle": "Réttindi þín",
@@ -528,6 +528,14 @@
     "iosStep2": "Skrunaðu niður og veldu „Bæta á heimaskjá“.",
     "iosStep3": "Ýttu á „Bæta við“ – appið birtist á heimaskjánum.",
     "gotIt": "Skilið"
+  },
+  "Consent": {
+    "label": "Samþykki fyrir vafrakökum",
+    "text": "Við notum vafrakökur frá Google Analytics til að sjá hvaða hlutar leiksins eru spilaðir, svo við getum bætt hann. Ef þú lokar þessum skilaboðum telst það samþykki.",
+    "privacy": "Persónuverndarstefna",
+    "accept": "Samþykkja",
+    "decline": "Hafna",
+    "settings": "Vafrakökustillingar"
   },
   "Contact": {
     "title": "Hafa samband",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Eitthvað fór úrskeiðis.",
     "network": "Ekki næst samband við þjóninn. Athugaðu nettenginguna.",
-    "rateLimited": "Hægðu aðeins á þér – reyndu aftur eftir smástund.",
+    "rateLimited": "Þjónninn er upptekinn eins og er. Reyndu aftur aðeins seinna.",
     "unauthorized": "Skráðu þig inn til að halda áfram.",
     "notFound": "Við fundum þetta ekki.",
     "server": "Tæknilegt vandamál kom upp í myndverinu. Reyndu aftur.",

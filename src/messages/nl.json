@@ -503,7 +503,7 @@
     "privacyUseTitle": "Hoe we het gebruiken",
     "privacyUseBody": "Uw gegevens worden alleen gebruikt om het spel te laten werken: om uw profiel en uw plekken op de ranglijst te tonen en uw voortgang te bewaren. We verkopen ze nooit en delen ze nooit met adverteerders.",
     "privacyAnalyticsTitle": "Statistieken en foutrapporten",
-    "privacyAnalyticsBody": "We kunnen privacyvriendelijke statistieken en foutrapporten gebruiken om te begrijpen welke functies worden gebruikt en om bugs op te lossen. Daarin staat nooit de inhoud van uw antwoorden.",
+    "privacyAnalyticsBody": "We gebruiken Google Analytics om te zien welke onderdelen van het spel worden gespeeld, en foutrapporten om bugs op te lossen. In geen van beide staat de inhoud van uw antwoorden. In de EU, de EER, het VK en Zwitserland plaatst Google Analytics zijn cookies pas nadat u toestemming hebt gegeven; elders staan ze aan vanaf uw eerste bezoek. U kunt uw keuze altijd wijzigen via “Cookie-instellingen” onderaan de pagina’s van de site.",
     "privacyAdsTitle": "Advertenties",
     "privacyAdsBody": "Op sommige pagina’s staan advertenties van Google AdSense, nooit tijdens een spel. Google en zijn partners gebruiken cookies om u advertenties te tonen op basis van uw eerdere bezoeken aan deze en andere websites. U kunt gepersonaliseerde advertenties uitzetten in de <settings>advertentie-instellingen van Google</settings> en lezen <partners>hoe Google informatie gebruikt van sites die zijn diensten gebruiken</partners>. In de EER, het VK en Zwitserland wordt u eerst om toestemming gevraagd.",
     "privacyRightsTitle": "Uw rechten",
@@ -528,6 +528,14 @@
     "iosStep2": "Scrol omlaag en kies “Zet op beginscherm”.",
     "iosStep3": "Tik op “Voeg toe” — de app verschijnt op uw beginscherm.",
     "gotIt": "Begrepen"
+  },
+  "Consent": {
+    "label": "Cookietoestemming",
+    "text": "We gebruiken cookies van Google Analytics om te zien welke onderdelen van het spel worden gespeeld, zodat we het kunnen verbeteren. Als u deze melding sluit, geldt dat als akkoord.",
+    "privacy": "Privacybeleid",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "settings": "Cookie-instellingen"
   },
   "Contact": {
     "title": "Neem contact op",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Er ging iets mis.",
     "network": "We kunnen de server niet bereiken. Controleer uw verbinding.",
-    "rateLimited": "Rustig aan — probeer het zo nog eens.",
+    "rateLimited": "De server is op dit moment druk. Probeer het over een poosje opnieuw.",
     "unauthorized": "Log in om verder te gaan.",
     "notFound": "We konden dat niet vinden.",
     "server": "De studio had een technisch probleem. Probeer het opnieuw.",

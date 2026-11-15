@@ -503,7 +503,7 @@
     "privacyUseTitle": "Hur vi använder det",
     "privacyUseBody": "Dina uppgifter används bara för att driva spelet: för att visa din profil och dina placeringar på topplistan och för att spara dina framsteg. Vi säljer dem aldrig och delar dem aldrig med annonsörer.",
     "privacyAnalyticsTitle": "Statistik och felrapporter",
-    "privacyAnalyticsBody": "Vi kan använda integritetsvänlig statistik och felrapporter för att förstå vilka funktioner som används och för att rätta buggar. De innehåller aldrig innehållet i dina svar.",
+    "privacyAnalyticsBody": "Vi använder Google Analytics för att se vilka delar av spelet som spelas, och felrapporter för att rätta buggar. Inget av dem innehåller innehållet i dina svar. I EU, EES, Storbritannien och Schweiz sätter Google Analytics sina cookies först när du har godkänt det; på andra håll är de på från ditt första besök. Du kan när som helst ändra ditt val via ”Cookieinställningar” längst ned på webbplatsens sidor.",
     "privacyAdsTitle": "Annonser",
     "privacyAdsBody": "Vissa sidor visar annonser från Google AdSense, aldrig under ett spel. Google och dess partner använder cookies för att visa dig annonser baserade på dina tidigare besök på den här och andra webbplatser. Du kan stänga av anpassade annonser i <settings>Googles annonsinställningar</settings> och läsa <partners>hur Google använder information från webbplatser som använder Googles tjänster</partners>. I EES, Storbritannien och Schweiz blir du först tillfrågad om ditt samtycke.",
     "privacyRightsTitle": "Dina rättigheter",
@@ -528,6 +528,14 @@
     "iosStep2": "Scrolla ner och välj ”Lägg till på hemskärmen”.",
     "iosStep3": "Tryck på ”Lägg till” – appen dyker upp på din hemskärm.",
     "gotIt": "Uppfattat"
+  },
+  "Consent": {
+    "label": "Samtycke till cookies",
+    "text": "Vi använder cookies från Google Analytics för att se vilka delar av spelet som spelas, så att vi kan göra det bättre. Om du stänger det här meddelandet räknas det som att du godkänner.",
+    "privacy": "Integritetspolicy",
+    "accept": "Godkänn",
+    "decline": "Avböj",
+    "settings": "Cookieinställningar"
   },
   "Contact": {
     "title": "Kontakta oss",
@@ -622,7 +630,7 @@
   "Errors": {
     "generic": "Något gick fel.",
     "network": "Vi når inte servern. Kontrollera din uppkoppling.",
-    "rateLimited": "Ta det lite lugnt – försök igen om en stund.",
+    "rateLimited": "Servern är upptagen just nu. Försök igen om en liten stund.",
     "unauthorized": "Logga in för att fortsätta.",
     "notFound": "Vi kunde inte hitta det.",
     "server": "Studion fick tekniska problem. Försök igen.",
