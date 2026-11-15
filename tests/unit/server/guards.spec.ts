@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { deriveCookieDomain } from '../../../server/src/lib/cookie-domain'
 import { resolveErrorResponse } from '../../../server/src/lib/error-response'
+import { clientAddress, isLoopback } from '../../../server/src/lib/request'
 import { isAllowedReturnPath, localeOfPath } from '../../../server/src/lib/return-path'
 import { mentionsOption } from '../../../server/src/services/phoneAFriend'
 
@@ -53,5 +54,29 @@ describe('phone a friend reply check', () => {
     expect(mentionsOption("I'd go with B, pretty sure.", 'B', 'Paris')).toBe(true)
     expect(mentionsOption('Je pense que c’est Paris.', 'B', 'Paris')).toBe(true)
     expect(mentionsOption('Bonjour! Aucune idée.', 'B', 'Paris')).toBe(false)
+  })
+})
+
+describe('client address', () => {
+  it.each([
+    ['203.0.113.7', '203.0.113.7'],
+    ['::ffff:203.0.113.7', '203.0.113.7'],
+    ['2001:db8:abcd:12:1:2:3:4', '2001:db8:abcd:12::/64'],
+    ['2001:db8:abcd:12::99', '2001:db8:abcd:12::/64'],
+    ['2001:0db8:0000:0012::1', '2001:db8:0:12::/64'],
+    ['fe80::1%eth0', 'fe80:0:0:0::/64'],
+    [undefined, 'unknown'],
+  ])('keys %s as %s', (ip, key) => {
+    expect(clientAddress({ ip })).toBe(key)
+  })
+
+  it('puts every address of one /64 under one key', () => {
+    expect(clientAddress({ ip: '2001:db8:1:2::a' })).toBe(clientAddress({ ip: '2001:db8:1:2:ffff:ffff:ffff:ffff' }))
+    expect(clientAddress({ ip: '2001:db8:1:2::a' })).not.toBe(clientAddress({ ip: '2001:db8:1:3::a' }))
+  })
+
+  it('knows this host from a visitor', () => {
+    expect(['127.0.0.1', '::1', '::ffff:127.0.0.1'].every((ip) => isLoopback({ ip }))).toBe(true)
+    expect(['203.0.113.7', '2001:db8::1', '::ffff:10.0.0.1', undefined].some((ip) => isLoopback({ ip }))).toBe(false)
   })
 })

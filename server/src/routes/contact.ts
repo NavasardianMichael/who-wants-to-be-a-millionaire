@@ -3,7 +3,7 @@ import { config } from '../config.js'
 import { fail, ok } from '../lib/api-response.js'
 import { escapeHtml, isMailConfigured, sendInternalMail } from '../lib/mail.js'
 import { createRateLimiter } from '../lib/rateLimit.js'
-import { asBoundedString, asTrimmedString, isEmail } from '../lib/request.js'
+import { asBoundedString, asTrimmedString, clientAddress, isEmail } from '../lib/request.js'
 import { asyncHandler } from '../middleware/error.js'
 
 /**
@@ -47,7 +47,7 @@ contactRouter.post(
     if (!email || !isEmail(email)) return fail(res, 'Valid email required')
 
     // Counted after validation: only a message about to be mailed spends from the budget.
-    const verdict = limiter(req.ip ?? 'unknown')
+    const verdict = limiter(clientAddress(req))
     if (!verdict.allowed) {
       res.setHeader('Retry-After', String(verdict.retryAfterSeconds))
       return fail(res, 'Too many messages from this address. Please try again later.', 429, 429)

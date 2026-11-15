@@ -13,7 +13,9 @@
   `MAIL_API_KEY` → `lib/mail.ts` (contact form to us; account emails to the player, written
   from the web's `Email.*` catalogue keys by `lib/account-mail.ts`).
 - **Security:** `requireSameOrigin` on every write, `optionalAuth` globally, `requireAuth` on
-  private routers, per-route `rateLimit`, `trust proxy` = 1 (nginx).
+  private routers, per-route `rateLimit` plus the app-wide `addressLimit`, `trust proxy` = 1
+  (nginx). Key by address only through `clientAddress` (an IPv6 client is its /64), never
+  `req.ip`.
 - **AI:** call through `generateJson` from `lib/ai/index.ts`, never a provider directly; the
   provider is one line there. Schemas are plain JSON Schema (`JsonSchema`), the model chain
   is picked by `role` (`writer` / `checker` / `reply`), each provider keeps its own cooldowns. Code decides outcomes

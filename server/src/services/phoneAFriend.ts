@@ -1,5 +1,6 @@
 import { clip, generateJson, isAiConfigured, type JsonSchema } from '../lib/ai/index.js'
 import { type Level, OPTION_LETTERS } from '../lib/game.js'
+import { friendCallAllowed } from '../lib/generationBudget.js'
 import { type FriendConfidence, friendPick } from '../lib/lifelines.js'
 import { type Locale, LOCALE_INFO, type LocaleInfo } from '../lib/locales.js'
 import { prisma } from '../lib/prisma.js'
@@ -66,7 +67,8 @@ export const mentionsOption = (message: string, letter: string, optionText: stri
 export const callFriend = async (request: FriendRequest): Promise<FriendAnswer> => {
   const pick = friendPick(request.correctIndex, request.removed, request.level)
   const base: FriendAnswer = { friendName: null, message: null, suggestedIndex: pick.index, confidence: pick.confidence }
-  if (!isAiConfigured()) return base
+  // Past the day's cap the web app's template speaks, as when the model fails.
+  if (!isAiConfigured() || !friendCallAllowed()) return base
 
   const { name, culture, writing }: LocaleInfo = LOCALE_INFO[request.locale]
   const letter = OPTION_LETTERS[pick.index]!

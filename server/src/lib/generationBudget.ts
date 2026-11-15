@@ -20,3 +20,11 @@ export const createGenerationBudget = ({ perHour, perPlayerPerHour }: { perHour:
 }
 
 export const liveGenerationAllowed: GenerationBudget = createGenerationBudget(config.liveGeneration)
+
+/** A server-wide count per day: true while it lasts. */
+export const createDailyCap = (perDay: number): (() => boolean) => {
+  const day = createRateLimiter({ limit: perDay, windowMs: 24 * 60 * 60 * 1000 })
+  return () => day('all').allowed
+}
+
+export const friendCallAllowed = createDailyCap(config.friendCallsPerDay)

@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto'
 import { fail, ok } from '../lib/api-response.js'
 import { type Category, isCategory, type Level, LEVELS } from '../lib/game.js'
 import { isLocale } from '../lib/locales.js'
-import { asBoundedString, asInteger, asStringArray, isUuid } from '../lib/request.js'
+import { asBoundedString, asInteger, asStringArray, clientAddress, isUuid } from '../lib/request.js'
 import { asyncHandler } from '../middleware/error.js'
 import { rateLimit } from '../middleware/rateLimit.js'
 import { classicSeenIds, getCategorySamples, getOfflinePack, getQuestionBatch, markQuestionsShown, reportQuestion } from '../services/questionPool.js'
@@ -44,7 +44,7 @@ questionsRouter.post(
     // A signed-in player also skips what they met on their other devices.
     const excludeIds = req.session ? [...new Set([...deviceSeen, ...(await classicSeenIds(req.session.userId))])] : deviceSeen
 
-    const player = req.session ? `user:${req.session.userId}` : `ip:${req.ip ?? 'unknown'}`
+    const player = req.session ? `user:${req.session.userId}` : `ip:${clientAddress(req)}`
     const questions = await getQuestionBatch({ locale, counts, categories, excludeIds, player })
     return ok(res, questions)
   })
@@ -107,7 +107,7 @@ questionsRouter.post(
     if (typeof id !== 'string' || !isUuid(id)) return fail(res, 'Invalid question id', 400)
 
     // Guests are keyed by a hash of their IP — enough to stop one person retiring a question alone.
-    const reporterKey = req.session?.userId ?? `ip:${createHash('sha256').update(req.ip ?? '').digest('hex').slice(0, 32)}`
+    const reporterKey = req.session?.userId ?? `ip:${createHash('sha256').update(clientAddress(req)).digest('hex').slice(0, 32)}`
     await reportQuestion(id, reporterKey, asBoundedString(req.body?.reason, 200))
     return ok(res, true)
   })

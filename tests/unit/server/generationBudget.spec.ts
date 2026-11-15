@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { createGenerationBudget } from '../../../server/src/lib/generationBudget'
+import { createDailyCap, createGenerationBudget } from '../../../server/src/lib/generationBudget'
 
 describe('live generation budget', () => {
   beforeEach(() => vi.useFakeTimers())
@@ -29,5 +29,17 @@ describe('live generation budget', () => {
     expect(allowed('user:1')).toBe(false)
     vi.advanceTimersByTime(60 * 60 * 1000)
     expect(allowed('user:1')).toBe(true)
+  })
+})
+
+describe('daily cap', () => {
+  beforeEach(() => vi.useFakeTimers())
+  afterEach(() => vi.useRealTimers())
+
+  it('allows its count for the day, then nothing until the next day', () => {
+    const allowed = createDailyCap(2)
+    expect([allowed(), allowed(), allowed()]).toEqual([true, true, false])
+    vi.advanceTimersByTime(24 * 60 * 60 * 1000)
+    expect(allowed()).toBe(true)
   })
 })

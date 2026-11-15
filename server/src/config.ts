@@ -25,12 +25,28 @@ const asNumber = (value: string | undefined, fallback: number): number => {
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback
 }
 
+const DEV_JWT_SECRET = 'dev-secret-change-me'
+
+/**
+ * Production refuses to start on a missing or guessable secret: anyone could sign a session
+ * with it. Generate one with `openssl rand -hex 64`.
+ */
+const readJwtSecret = (): string => {
+  const secret = process.env.JWT_SECRET ?? ''
+  if (nodeEnv !== 'production') return secret || DEV_JWT_SECRET
+  if (secret.length < 32 || secret.startsWith('change-me') || secret === DEV_JWT_SECRET) {
+    throw new Error('JWT_SECRET must be a random value of at least 32 characters in production (openssl rand -hex 64)')
+  }
+  return secret
+}
+
 /** Every `process.env` read lives here. Secrets are read by exactly one module each. */
 export const config = {
   port: Number(process.env.PORT ?? 9006),
   /** Every interface in dev (a phone on the LAN can reach it); production sets 127.0.0.1. */
   host: process.env.HOST ?? '0.0.0.0',
-  jwtSecret: process.env.JWT_SECRET ?? 'dev-secret-change-me',
+  /** Signs the session cookie. The dev default is local only; production must set its own. */
+  jwtSecret: readJwtSecret(),
   corsOrigin,
   uploadDir: path.resolve(process.env.UPLOAD_DIR ?? path.join(__dirname, '../uploads')),
   nodeEnv,
@@ -107,6 +123,11 @@ export const config = {
     perHour: asNumber(process.env.AI_LIVE_GENERATIONS_PER_HOUR, 60),
     perPlayerPerHour: asNumber(process.env.AI_LIVE_GENERATIONS_PER_PLAYER_PER_HOUR, 10),
   },
+  /**
+   * Phone a Friend calls the model once per use, signed in or not. Past this many a day the
+   * friend speaks from the translated template instead (`services/phoneAFriend.ts`).
+   */
+  friendCallsPerDay: asNumber(process.env.AI_FRIEND_CALLS_PER_DAY, 2000),
   /**
    * The mail engine shared with bookie: the contact form, and account emails (verification,
    * password links). `apiKey` is read only by `lib/mail.ts`. Empty disables sending: in dev

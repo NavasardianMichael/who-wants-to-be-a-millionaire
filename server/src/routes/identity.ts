@@ -7,7 +7,7 @@ import { DEFAULT_LOCALE, isLocale } from '../lib/locales.js'
 import { hashPassword, needsRehash, validatePassword, verifyDummyPassword, verifyPassword } from '../lib/password.js'
 import { prisma } from '../lib/prisma.js'
 import { createRateLimiter } from '../lib/rateLimit.js'
-import { asDisplayName, asEmail } from '../lib/request.js'
+import { asDisplayName, asEmail, clientAddress } from '../lib/request.js'
 import { clearSessionCookie, setSessionCookie } from '../lib/session.js'
 import { hashUrlToken } from '../lib/token.js'
 import { toSessionUser } from '../mappers/entities.js'
@@ -28,6 +28,8 @@ identityRouter.use('/google', googleRouter)
  * keyed on IP + address: one attacker cannot lock a player out from elsewhere.
  */
 const loginLimiter = createRateLimiter({ limit: 10, windowMs: 15 * 60 * 1000 })
+/** Whatever the email: a new address per try would otherwise mean unlimited hashing. */
+const loginAddressLimiter = createRateLimiter({ limit: 40, windowMs: 15 * 60 * 1000 })
 const registerLimiter = createRateLimiter({ limit: 10, windowMs: 60 * 60 * 1000 })
 const mailLimiter = createRateLimiter({ limit: 5, windowMs: 60 * 60 * 1000 })
 const tokenLimiter = createRateLimiter({ limit: 20, windowMs: 15 * 60 * 1000 })
@@ -61,7 +63,7 @@ identityRouter.get(
 identityRouter.post(
   '/register',
   asyncHandler(async (req, res) => {
-    const verdict = registerLimiter(req.ip ?? 'unknown')
+    const verdict = registerLimiter(clientAddress(req))
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
 
     const email = asEmail(req.body?.email)
@@ -100,8 +102,11 @@ identityRouter.post(
     const email = asEmail(req.body?.email)
     const password = typeof req.body?.password === 'string' ? (req.body.password as string).slice(0, 256) : ''
 
-    const verdict = loginLimiter(`${req.ip ?? 'unknown'}:${email ?? ''}`)
+    const address = clientAddress(req)
+    const verdict = loginLimiter(`${address}:${email ?? ''}`)
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
+    const addressVerdict = loginAddressLimiter(address)
+    if (!addressVerdict.allowed) return limited(res, addressVerdict.retryAfterSeconds)
 
     const user = email ? await prisma.user.findUnique({ where: { email } }) : null
 
@@ -133,7 +138,7 @@ identityRouter.post(
 identityRouter.post(
   '/email/resend',
   asyncHandler(async (req, res) => {
-    const verdict = mailLimiter(req.ip ?? 'unknown')
+    const verdict = mailLimiter(clientAddress(req))
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
 
     const email = asEmail(req.body?.email)
@@ -154,7 +159,7 @@ identityRouter.post(
 identityRouter.post(
   '/email/verify',
   asyncHandler(async (req, res) => {
-    const verdict = tokenLimiter(req.ip ?? 'unknown')
+    const verdict = tokenLimiter(clientAddress(req))
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
 
     const token = readToken(req.body?.token)
@@ -175,7 +180,7 @@ identityRouter.post(
 identityRouter.post(
   '/password/forgot',
   asyncHandler(async (req, res) => {
-    const verdict = mailLimiter(req.ip ?? 'unknown')
+    const verdict = mailLimiter(clientAddress(req))
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
 
     const email = asEmail(req.body?.email)
@@ -216,7 +221,7 @@ identityRouter.post(
 identityRouter.post(
   '/password/reset',
   asyncHandler(async (req, res) => {
-    const verdict = tokenLimiter(req.ip ?? 'unknown')
+    const verdict = tokenLimiter(clientAddress(req))
     if (!verdict.allowed) return limited(res, verdict.retryAfterSeconds)
 
     const token = readToken(req.body?.token)

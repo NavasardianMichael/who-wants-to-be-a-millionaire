@@ -68,7 +68,13 @@ console.error('')
 
 if (missing.length) warn(`missing required: ${missing.join(', ')}`)
 if (owned.length) warn(`${owned.join(', ')} — the deploy overwrites these; remove them`)
-if (content.includes('dev-secret-change-me')) warn('JWT_SECRET is still the dev default')
+// The API refuses to start on these in production (server/src/config.ts, readJwtSecret).
+const jwtSecret = /^JWT_SECRET="?([^"\n]*)"?$/m.exec(content)?.[1] ?? ''
+if (jwtSecret === 'dev-secret-change-me' || jwtSecret.startsWith('change-me')) {
+  warn('JWT_SECRET is still a placeholder — the API will not start; use openssl rand -hex 64')
+} else if (keys.includes('JWT_SECRET') && jwtSecret.length < 32) {
+  warn(`JWT_SECRET is ${jwtSecret.length} characters — the API needs at least 32; use openssl rand -hex 64`)
+}
 if (/DATABASE_URL=[^\n]*:5432\//.test(content)) {
   warn('DATABASE_URL uses :5432 — production publishes Postgres on 5006')
 }
