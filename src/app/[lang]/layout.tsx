@@ -128,7 +128,8 @@ export default async function RootLayout({ children, params }: Props) {
         </AntdRegistry>
         {GA_ENABLED && (
           <>
-            <Script src={GA_SCRIPT_SRC} strategy='afterInteractive' />
+            {/* After load: gtag.js is 180 KB, and every command before it waits in `dataLayer` (ga-init, helpers/analytics.ts). */}
+            <Script src={GA_SCRIPT_SRC} strategy='lazyOnload' />
             <Script id='ga-init' strategy='afterInteractive'>
               {GA_INIT_SCRIPT}
             </Script>

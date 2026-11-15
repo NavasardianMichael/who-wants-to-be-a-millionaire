@@ -2,7 +2,7 @@ export type AudioState = {
   muted: boolean
   volume: number
   /**
-   * Why `SoundHint` offers to turn the sound on: the visitor arrived with it off and was not yet
+   * Why the sound toggle offers to turn the sound on: the visitor arrived with it off and was not yet
    * asked on this device (`muted`), or it is on but the browser holds it back until the first
    * click on the page (`blocked`) — the offer's button is that click.
    */

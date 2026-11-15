@@ -47,7 +47,8 @@ export default async function HomePage() {
 
       {/* Hero */}
       <section className='container-page grid items-center gap-10 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:pt-16'>
-        <div className='flex animate-rise flex-col items-center gap-6 text-center lg:items-start lg:text-start'>
+        {/* No entrance animation: this block is the page's LCP element, and an opacity-0 start delays it. */}
+        <div className='flex flex-col items-center gap-6 text-center lg:items-start lg:text-start'>
           <p className='rounded-tag border border-spot-300/30 bg-studio-900/60 px-4 py-1.5 text-caption font-bold tracking-[0.08em] text-spot-300 uppercase sm:tracking-[0.18em]'>
             {t('Home.eyebrow')}
           </p>

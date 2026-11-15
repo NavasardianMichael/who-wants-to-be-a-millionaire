@@ -9,7 +9,6 @@ import { LeaveGuard } from './LeaveGuard'
 import { InstallHint } from './pwa/InstallHint'
 import { PageViewTracker } from './pwa/PageViewTracker'
 import { ServiceWorkerRegistrar } from './pwa/ServiceWorkerRegistrar'
-import { SoundHint } from './SoundHint'
 import { Toaster } from './ui/Toaster'
 
 /**
@@ -47,7 +46,6 @@ export const App = ({ children, antdLocale, direction }: AppProps) => {
       </div>
       <Toaster />
       <AmbientMusic />
-      <SoundHint />
       <LeaveGuard />
       <InstallHint />
     </AntdProvider>

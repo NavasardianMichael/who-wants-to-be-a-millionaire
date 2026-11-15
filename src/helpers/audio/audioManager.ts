@@ -12,7 +12,7 @@ import { type SoundId,SOUNDS } from './sounds'
  * moves on and the sting fades out with it rather than play on under the next beat.
  *
  * Browser autoplay rules: nothing can sound before the first user gesture. A refused music
- * bed is retried on that gesture, and `playbackBlocked` reports the wait so `SoundHint` can
+ * bed is retried on that gesture, and `playbackBlocked` reports the wait so `SoundToggle` can
  * offer a button to be that gesture; a refused sting is simply skipped — the game is fully
  * playable silent.
  *
