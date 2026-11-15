@@ -55,6 +55,7 @@
   "Nav": {
     "main": "Päävalikko",
     "footer": "Alatunniste",
+    "moreApps": "Muut eapps-sovellukset",
     "home": "Etusivu",
     "classic": "Klassikko",
     "marathon": "Maraton",

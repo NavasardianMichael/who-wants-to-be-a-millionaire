@@ -1,6 +1,8 @@
-import { useTranslations } from 'next-intl'
-import { LOCALE_LABELS, LOCALES } from '@i18n/config'
+import { useLocale, useTranslations } from 'next-intl'
+import { DEFAULT_LOCALE, isLocale, LOCALE_LABELS, LOCALES } from '@i18n/config'
 import { LEGAL_NAV, PRIMARY_NAV, SECONDARY_NAV } from '@constants/navigation'
+import { NETWORK_SITES } from '@constants/network'
+import { networkLink } from '@helpers/network'
 import { Emblem } from '@components/brand/Emblem'
 import { ConsentSettingsLink } from '@components/consent/ConsentSettingsLink'
 import { AppLink } from '@components/ui/bare/AppLink'
@@ -11,6 +13,8 @@ import { AppLink } from '@components/ui/bare/AppLink'
  */
 export const Footer = () => {
   const t = useTranslations()
+  const current = useLocale()
+  const locale = isLocale(current) ? current : DEFAULT_LOCALE
   const year = new Date().getFullYear()
 
   const linkClass = 'text-body-sm text-mist transition-colors hover:text-gold-200 text-underline'
@@ -25,6 +29,22 @@ export const Footer = () => {
             <p className='font-display text-h3 font-black text-gold-gradient'>{t('Common.appName')}</p>
           </div>
           <p className='max-w-sm text-body-sm text-mist'>{t('Common.tagline')}</p>
+          <div>
+            <h2 className='mb-2 text-caption font-bold tracking-[0.2em] text-spot-300 uppercase'>{t('Nav.moreApps')}</h2>
+            <ul className='flex flex-wrap gap-x-4 gap-y-1.5'>
+              {NETWORK_SITES.map((site) => {
+                const { name, href, hrefLang } = networkLink(site, locale)
+                return (
+                  <li key={site.url}>
+                    {/* Another site: a plain anchor, since AppLink would prefix our locale. */}
+                    <a href={href} hrefLang={hrefLang} className={linkClass}>
+                      {name}
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
         </div>
 
         <nav aria-label={t('Nav.footer')} className='grid grid-cols-2 gap-x-6 gap-y-2'>
