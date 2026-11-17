@@ -1,6 +1,7 @@
 import * as Sentry from '@sentry/nextjs'
 import { SENTRY_DSN, SENTRY_ENABLED, SENTRY_ENVIRONMENT, SENTRY_TRACES_SAMPLE_RATE } from '@constants/sentry'
 import { reportError } from '@helpers/reportError'
+import { filterSentryEvent } from '@helpers/sentryFilter'
 
 /**
  * Session Replay is added once the page is idle, fetched from Sentry's CDN: in the startup
@@ -27,6 +28,7 @@ if (SENTRY_ENABLED) {
     // Replays only for sessions that hit an error (text and inputs masked by default).
     replaysSessionSampleRate: 0,
     replaysOnErrorSampleRate: 1.0,
+    beforeSend: filterSentryEvent,
   })
   addReplayWhenIdle()
 }
