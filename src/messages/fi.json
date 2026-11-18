@@ -104,7 +104,7 @@
     "faq1Question": "Onko Miljonäärivisa ilmainen?",
     "faq1Answer": "On. Kaikki pelimuodot, kielet ja oljenkorret ovat ilmaisia, eikä Klassikko vaadi rekisteröitymistä.",
     "faq2Question": "Mistä kysymykset tulevat?",
-    "faq2Answer": "Tekoäly laatii ne luontevasti omalla kielelläsi, ja jokainen kysymys tarkistetaan automaattisesti ennen kuin se päätyy peliin. Jos jokin virhe livahtaa läpi, voit ilmoittaa siitä yhdellä napautuksella.",
+    "faq2Answer": "Jokaisella kielellä on oma valmis kysymyspankkinsa, joka on kirjoitettu juuri sille kielelle ja tarkistettu ennen julkaisua. Kun olet pelannut sen läpi, tekoäly kirjoittaa uusia kysymyksiä kielelläsi, ja jokainen niistä käy läpi automaattiset tarkistukset ennen kuin se päätyy peliin. Jos kysymys vaikuttaa virheelliseltä, voit ilmoittaa siitä, kun vastaus on paljastettu.",
     "faq3Question": "Miten turvatasot toimivat?",
     "faq3Answer": "Kun vastaat kysymykseen 5 oikein, sinulle on taattu {havenOne}, ja kysymys 10 takaa {havenTwo}. Jos vastaat myöhemmin väärin, lähdet silti kotiin viimeisimmän ohittamasi turvatason summalla.",
     "faq4Question": "Voinko pelata ilman verkkoyhteyttä?",
@@ -114,7 +114,7 @@
     "faq6Question": "Onko tämä TV-ohjelman virallinen peli?",
     "faq6Answer": "Ei ole. Miljonäärivisa on itsenäinen, fanien tekemä peli, joka on saanut inspiraationsa klassisesta tietovisailuformaatista.",
     "faqLanguageQuestion": "Voinko pelata “Miljonääri” -peliä suomeksi?",
-    "faqLanguageAnswer": "Kyllä — tämä on pelin suomenkielinen versio. Jokainen kysymys on kirjoitettu suomeksi suomen puhujille eikä sitä ole käännetty, ja jokainen pelitila ja oljenkorsi on ilmainen. Peli on saatavilla myös 79 muulla kielellä.",
+    "faqLanguageAnswer": "Kyllä — tämä on pelin suomenkielinen versio. Kysymykset on kirjoitettu suomeksi suomen puhujille eikä niitä ole käännetty, ja jokainen pelitila ja oljenkorsi on ilmainen. Peli on saatavilla myös 79 muulla kielellä.",
     "languagesTitle": "Pelaa omalla kielelläsi",
     "languagesSubtitle": "Jokaisella kielellä on omat kysymyksensä, jotka on kirjoitettu alkuperäisesti – ei käännetty."
   },

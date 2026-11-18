@@ -104,7 +104,7 @@
     "faq1Question": "A është falas Kuizi i Milionerit?",
     "faq1Answer": "Po. Çdo mënyrë loje, çdo gjuhë dhe çdo ndihmë janë falas, dhe për Klasik nuk të duhet as regjistrim.",
     "faq2Question": "Nga vijnë pyetjet?",
-    "faq2Answer": "I shkruan inteligjenca artificiale, autori ynë i pyetjeve, drejtpërdrejt në gjuhën tënde, dhe çdo pyetje kontrollohet automatikisht para se të hyjë në lojë. Nëse diçka na shpëton, mund ta raportosh me një prekje.",
+    "faq2Answer": "Çdo gjuhë ka bankën e vet të përgatitur të pyetjeve, të shkruar posaçërisht për të dhe të kontrolluar para publikimit. Pasi t'i kesh luajtur të gjitha, inteligjenca artificiale, autori ynë i pyetjeve, shton pyetje të reja në gjuhën tënde, dhe secila kalon kontrolle automatike para se të hyjë në lojë. Nëse një pyetje duket e gabuar, mund ta raportosh pasi të zbulohet përgjigjja.",
     "faq3Question": "Si funksionojnë shumat e garantuara?",
     "faq3Answer": "Përgjigjja e saktë te pyetja 5 të garanton {havenOne}, ndërsa te pyetja 10 të garanton {havenTwo}. Nëse gabon më vonë, largohesh përsëri me shumën e fundit të garantuar që ke arritur.",
     "faq4Question": "A mund të luaj pa internet?",
@@ -114,7 +114,7 @@
     "faq6Question": "A është kjo loja zyrtare e emisionit televiziv?",
     "faq6Answer": "Jo. Kuizi i Milionerit është një lojë e pavarur e krijuar nga fansat, e frymëzuar nga formati klasik i kuizit televiziv.",
     "faqLanguageQuestion": "A mund të luaj “Milioneri” në gjuhën shqipe?",
-    "faqLanguageAnswer": "Po — ky është versioni në gjuhën shqipe i lojës. Çdo pyetje është shkruar në shqip për folësit e shqipes dhe jo e përkthyer, dhe çdo modalitet dhe ndihmë është falas. Loja është e disponueshme edhe në 79 gjuhë të tjera.",
+    "faqLanguageAnswer": "Po — ky është versioni në gjuhën shqipe i lojës. Pyetjet janë shkruar në shqip për folësit e shqipes dhe jo të përkthyera, dhe çdo modalitet dhe ndihmë është falas. Loja është e disponueshme edhe në 79 gjuhë të tjera.",
     "languagesTitle": "Luani në gjuhën tuaj",
     "languagesSubtitle": "Secila gjuhë ka pyetjet e veta, të shkruara në gjuhën amtare — jo të përkthyera."
   },

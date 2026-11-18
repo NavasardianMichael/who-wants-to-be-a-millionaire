@@ -104,7 +104,7 @@
     "faq1Question": "Apa Kuis Jutawan gratis?",
     "faq1Answer": "Iya. Kabeh mode, kabeh basa lan kabeh bantuan bisa dimainake gratis, lan Klasik ora perlu daftar.",
     "faq2Question": "Pitakonane saka ngendi?",
-    "faq2Answer": "Panulis pitakonan kacerdhasan gawean nggawe langsung ing basa panjenengan, lan saben pitakonan dipriksa otomatis sadurunge mlebu dolanan. Yen ana sing kliwat, panjenengan bisa nglaporake mung nganggo sepisan tutul.",
+    "faq2Answer": "Saben basa nduweni bank pitakonan dhewe sing wis disiapake, ditulis mligi kanggo basa kasebut lan dipriksa sadurunge dirilis. Sawise panjenengan rampung main kabeh, panulis pitakonan kacerdhasan gawean nambahi pitakonan anyar ing basa panjenengan, lan saben pitakonan lolos pamriksan otomatis sadurunge mlebu dolanan. Yen ana pitakonan sing katon salah, panjenengan bisa nglaporake sawise wangsulane dicethakake.",
     "faq3Question": "Piye carane batas aman?",
     "faq3Answer": "Yen pitakonan 5 panjenengan jawab bener, {havenOne} wis dijamin, lan pitakonan 10 njamin {havenTwo}. Yen sabanjure panjenengan salah njawab, panjenengan tetep kondur nggawa hadiah batas aman pungkasan sing wis panjenengan liwati.",
     "faq4Question": "Apa aku bisa main offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Apa iki dolanan resmi acara TV-ne?",
     "faq6Answer": "Dudu. Kuis Jutawan kuwi dolanan independen gawean penggemar sing diilhami format acara kuis klasik.",
     "faqLanguageQuestion": "Apa aku bisa main “Jutawan” ing basa Jawa?",
-    "faqLanguageAnswer": "Ya — iki versi basa Jawa saka game kasebut. Saben pitakonan ditulis ing basa Jawa kanggo para pamicara basa Jawa lan ora diterjemahake, lan saben mode lan pitulungan gratis. Game iki uga kasedhiya ing 79 basa liyane.",
+    "faqLanguageAnswer": "Ya — iki versi basa Jawa saka game kasebut. Pitakonan-pitakonane ditulis ing basa Jawa kanggo para pamicara basa Jawa lan ora diterjemahake, lan saben mode lan pitulungan gratis. Game iki uga kasedhiya ing 79 basa liyane.",
     "languagesTitle": "Main ing basa panjenengan",
     "languagesSubtitle": "Saben basa nduweni pitakonan dhewe, ditulis sacara asli — ora diterjemahake."
   },

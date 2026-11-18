@@ -104,7 +104,7 @@
     "faq1Question": "Est-ce que Quiz Millionnaire est gratuit ?",
     "faq1Answer": "Oui. Tous les modes, toutes les langues et tous les jokers sont gratuits, et le mode Classique ne demande aucune inscription.",
     "faq2Question": "D’où viennent les questions ?",
-    "faq2Answer": "Un rédacteur de questions à base d’intelligence artificielle les crée directement dans votre langue, et chaque question est vérifiée automatiquement avant d’arriver dans le jeu. Si une erreur passe entre les mailles du filet, vous pouvez la signaler en un clin d’œil.",
+    "faq2Answer": "Chaque langue dispose de sa propre banque de questions préparée, rédigée pour elle et vérifiée avant sa mise en ligne. Une fois que vous l’avez épuisée, un rédacteur de questions à base d’intelligence artificielle ajoute de nouvelles questions dans votre langue, et chacune passe des contrôles automatiques avant d’arriver dans le jeu. Si une question vous semble erronée, vous pouvez la signaler une fois la réponse révélée.",
     "faq3Question": "Comment fonctionnent les paliers ?",
     "faq3Answer": "Bien répondre à la question 5 vous garantit {havenOne}, et la question 10 vous garantit {havenTwo}. Si vous vous trompez plus tard, vous repartez quand même avec le dernier palier franchi.",
     "faq4Question": "Puis-je jouer hors ligne ?",
@@ -114,7 +114,7 @@
     "faq6Question": "Est-ce le jeu officiel de l’émission ?",
     "faq6Answer": "Non. Quiz Millionnaire est un jeu indépendant créé par des fans, inspiré par le format culte des jeux télévisés.",
     "faqLanguageQuestion": "Puis-je jouer à « Millionnaire » en français ?",
-    "faqLanguageAnswer": "Oui — voici la version française du jeu. Chaque question est rédigée en français pour les francophones plutôt que traduite, et chaque mode ainsi que chaque joker est gratuit. Le jeu est également disponible en 79 autres langues.",
+    "faqLanguageAnswer": "Oui — voici la version française du jeu. Les questions sont rédigées en français pour les francophones plutôt que traduites, et chaque mode ainsi que chaque joker est gratuit. Le jeu est également disponible en 79 autres langues.",
     "languagesTitle": "Jouez dans votre langue",
     "languagesSubtitle": "Chaque langue a ses propres questions, écrites de manière native et non traduites."
   },

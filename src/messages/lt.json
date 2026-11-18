@@ -104,7 +104,7 @@
     "faq1Question": "Ar Milijonieriaus viktorina nemokama?",
     "faq1Answer": "Taip. Visi režimai, visos kalbos ir visos pagalbos nemokamos, o Klasikai žaisti net nereikia registruotis.",
     "faq2Question": "Iš kur atsiranda klausimai?",
-    "faq2Answer": "Juos iš karto tavo kalba kuria dirbtinio intelekto klausimų kūrėjas, o kiekvienas klausimas automatiškai patikrinamas, prieš patekdamas į žaidimą. Jei vis dėlto praslystų klaida, gali apie ją pranešti vienu palietimu.",
+    "faq2Answer": "Kiekviena kalba turi savo paruoštą klausimų banką, parašytą būtent jai ir patikrintą prieš paskelbiant. Kai jį išžaisi, dirbtinio intelekto klausimų kūrėjas prideda naujų klausimų tavo kalba, o kiekvienas jų prieš patekdamas į žaidimą praeina automatinius patikrinimus. Jei klausimas atrodo klaidingas, gali apie jį pranešti, kai bus atskleistas atsakymas.",
     "faq3Question": "Kaip veikia saugūs laipteliai?",
     "faq3Answer": "Teisingai atsakius į 5-ąjį klausimą, tau garantuota {havenOne}, o į 10-ąjį – {havenTwo}. Jei vėliau suklysi, vis tiek išeisi su paskutinio pasiekto saugaus laiptelio suma.",
     "faq4Question": "Ar galiu žaisti be interneto?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ar tai oficialus televizijos laidos žaidimas?",
     "faq6Answer": "Ne. Milijonieriaus viktorina – nepriklausomas, gerbėjų sukurtas žaidimas, įkvėptas klasikinio televizijos viktorinos formato.",
     "faqLanguageQuestion": "Ar galiu žaisti „Milijonierius“ lietuvių kalba?",
-    "faqLanguageAnswer": "Taip — tai lietuviška žaidimo versija. Kiekvienas klausimas yra parašytas lietuviškai lietuviškai kalbantiems žaidėjams, o ne išverstas, visi režimai ir pagalbos linijos yra nemokami. Žaidimas taip pat pasiekiamas 79 kitomis kalbomis.",
+    "faqLanguageAnswer": "Taip — tai lietuviška žaidimo versija. Klausimai parašyti lietuviškai lietuviškai kalbantiems žaidėjams, o ne išversti, visi režimai ir pagalbos linijos yra nemokami. Žaidimas taip pat pasiekiamas 79 kitomis kalbomis.",
     "languagesTitle": "Žaiskite savo kalba",
     "languagesSubtitle": "Kiekviena kalba turi savo klausimus, parašytus gimtąja kalba, o ne išverstus."
   },

@@ -104,7 +104,7 @@
     "faq1Question": "Libre ba ang Milyonaryo Quiz?",
     "faq1Answer": "Oo. Libre ang bawat mode, bawat wika at bawat lifeline, at hindi ninyo kailangang mag-sign up para sa Klasiko.",
     "faq2Question": "Saan galing ang mga tanong?",
-    "faq2Answer": "Isang manunulat ng tanong na pinapagana ng artipisyal na intelihensiya ang gumagawa ng mga ito nang direkta sa inyong wika, at awtomatikong sinusuri ang bawat tanong bago ito mapunta sa laro. Kung may makalusot man, puwede ninyo itong i-report sa isang tap lang.",
+    "faq2Answer": "May sariling nakahandang bangko ng mga tanong ang bawat wika, isinulat para rito at sinuri bago ilabas. Kapag nalaro na ninyo ang lahat ng iyon, nagdaragdag ang isang manunulat ng tanong na pinapagana ng artipisyal na intelihensiya ng mga bagong tanong sa inyong wika, at dumaraan ang bawat isa sa mga awtomatikong pagsusuri bago ito mapunta sa laro. Kung mukhang mali ang isang tanong, puwede ninyo itong i-report kapag naibunyag na ang sagot.",
     "faq3Question": "Paano gumagana ang mga siguradong premyo?",
     "faq3Answer": "Kapag nasagot ninyo nang tama ang tanong 5, garantisado na ang {havenOne}, at sa tanong 10 naman ang {havenTwo}. Kung magkamali kayo sa susunod na tanong, uuwi pa rin kayo dala ang huling siguradong premyong naabot ninyo.",
     "faq4Question": "Puwede ba akong maglaro nang offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ito ba ang opisyal na laro ng palabas sa TV?",
     "faq6Answer": "Hindi. Ang Milyonaryo Quiz ay isang independiyenteng larong gawa ng fans, na hango sa klasikong format ng quiz show.",
     "faqLanguageQuestion": "Maaari ba akong maglaro ng “Milyonaryo” sa Filipino?",
-    "faqLanguageAnswer": "Oo — ito ang bersyon ng laro sa Filipino. Ang bawat tanong ay isinulat sa Filipino para sa mga nagsasalita ng Filipino sa halip na isinalin lamang, at ang bawat mode at lifeline ay libre. Ang laro ay makukuha rin sa 79 iba pang wika.",
+    "faqLanguageAnswer": "Oo — ito ang bersyon ng laro sa Filipino. Ang mga tanong ay isinulat sa Filipino para sa mga nagsasalita ng Filipino sa halip na isinalin lamang, at ang bawat mode at lifeline ay libre. Ang laro ay makukuha rin sa 79 iba pang wika.",
     "languagesTitle": "Maglaro sa iyong wika",
     "languagesSubtitle": "Ang bawat wika ay may sariling mga tanong, na orihinal na isinulat — hindi isinalin."
   },

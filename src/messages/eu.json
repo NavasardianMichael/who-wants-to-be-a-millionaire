@@ -104,7 +104,7 @@
     "faq1Question": "Doakoa da Milioidunaren Lehiaketa?",
     "faq1Answer": "Bai. Modu, hizkuntza eta laguntza guztiak doakoak dira, eta Klasikoan jokatzeko ez da izenik eman behar.",
     "faq2Question": "Nondik datoz galderak?",
-    "faq2Answer": "Adimen artifizialeko galdera-idazle batek sortzen ditu zuzenean zure hizkuntzan, eta galdera bakoitza automatikoki egiaztatzen da jokora iritsi aurretik. Akatsen batek ihes egiten badu, ukitu bakar batekin jakinaraz dezakezu.",
+    "faq2Answer": "Hizkuntza bakoitzak bere galdera-bilduma prestatua du, hizkuntza horretarako berariaz idatzia eta argitaratu aurretik egiaztatua. Hura osatu ondoren, adimen artifizialeko galdera-idazle batek galdera berriak gehitzen ditu zure hizkuntzan, eta bakoitzak egiaztapen automatikoak gainditzen ditu jokora iritsi aurretik. Galderaren bat okerra iruditzen bazaizu, erantzuna agertu ondoren jakinaraz dezakezu.",
     "faq3Question": "Nola funtzionatzen dute segurtasun-mailek?",
     "faq3Answer": "5. galdera asmatuz gero, {havenOne} bermatuta dituzu, eta 10. galderak {havenTwo} bermatzen dizkizu. Geroagoko galdera batean huts egiten baduzu, gainditutako azken segurtasun-mailarekin joango zara hala ere.",
     "faq4Question": "Konexiorik gabe joka dezaket?",
@@ -114,7 +114,7 @@
     "faq6Question": "Telebista-saioaren joko ofiziala al da hau?",
     "faq6Answer": "Ez. Milioidunaren Lehiaketa zaleek egindako joko independentea da, telebistako galdera-lehiaketa klasikoaren formatuan oinarritua.",
     "faqLanguageQuestion": "Jokatu al dezaket «Milioiduna» euskaraz?",
-    "faqLanguageAnswer": "Bai — hau jokoaren euskarazko bertsioa da. Galdera bakoitza euskaraz idatzita dago zuzenean euskarazko hiztunentzat, itzuli gabe, eta modu eta laguntza-puntu guztiak doakoak dira. Jokoa beste 79 hizkuntzatan ere eskuragarri dago.",
+    "faqLanguageAnswer": "Bai — hau jokoaren euskarazko bertsioa da. Galderak euskaraz idatzita daude zuzenean euskarazko hiztunentzat, itzuli gabe, eta modu eta laguntza-puntu guztiak doakoak dira. Jokoa beste 79 hizkuntzatan ere eskuragarri dago.",
     "languagesTitle": "Jokatu zure hizkuntzan",
     "languagesSubtitle": "Hizkuntza bakoitzak bere galderak ditu, jatorriz idatzita — itzulpenik gabe."
   },

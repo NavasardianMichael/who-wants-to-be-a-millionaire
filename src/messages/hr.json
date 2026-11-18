@@ -104,7 +104,7 @@
     "faq1Question": "Je li Milijunaški kviz besplatan?",
     "faq1Answer": "Da. Svi načini igre, svi jezici i svi džokeri su besplatni, a za Klasik ne trebaš registraciju.",
     "faq2Question": "Odakle dolaze pitanja?",
-    "faq2Answer": "Pitanja stvara umjetna inteligencija izvorno na tvom jeziku, a svako se pitanje automatski provjerava prije nego što uđe u igru. Ako se nešto ipak provuče, možeš to prijaviti jednim dodirom.",
+    "faq2Answer": "Svaki jezik ima vlastitu pripremljenu bazu pitanja, napisanu baš za njega i provjerenu prije objave. Kad je odigraš do kraja, umjetna inteligencija dodaje nova pitanja na tvom jeziku, a svako od njih prolazi automatske provjere prije nego što uđe u igru. Ako ti se pitanje čini pogrešnim, možeš ga prijaviti nakon što se otkrije odgovor.",
     "faq3Question": "Kako funkcioniraju sigurni pragovi?",
     "faq3Answer": "Točan odgovor na 5. pitanje jamči ti {havenOne}, a na 10. pitanje {havenTwo}. Ako kasnije pogriješiš, odlaziš s iznosom zadnjeg dosegnutog sigurnog praga.",
     "faq4Question": "Mogu li igrati bez interneta?",
@@ -114,7 +114,7 @@
     "faq6Question": "Je li ovo službena igra TV emisije?",
     "faq6Answer": "Ne. Milijunaški kviz je nezavisna igra koju su stvorili obožavatelji, nadahnuta klasičnim televizijskim kvizom.",
     "faqLanguageQuestion": "Mogu li igrati „Milijunaš” na hrvatskom?",
-    "faqLanguageAnswer": "Da — ovo je hrvatska verzija igre. Svako je pitanje napisano na hrvatskom za izvorne govornike umjesto da je prevedeno, a svaki je način igranja i džoker besplatan. Igra je dostupna i na 79 drugih jezika.",
+    "faqLanguageAnswer": "Da — ovo je hrvatska verzija igre. Pitanja su napisana na hrvatskom za izvorne govornike umjesto da su prevedena, a svaki je način igranja i džoker besplatan. Igra je dostupna i na 79 drugih jezika.",
     "languagesTitle": "Igrajte na svom jeziku",
     "languagesSubtitle": "Svaki jezik ima svoja pitanja, pisana izvorno — a ne prevedena."
   },

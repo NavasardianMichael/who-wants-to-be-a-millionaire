@@ -104,7 +104,7 @@
     "faq1Question": "Je, Chemsha Bongo ya Milionea ni ya bure?",
     "faq1Answer": "Ndiyo. Kila hali ya mchezo, kila lugha na kila msaada ni bure, na huhitaji kujisajili ili kucheza Kawaida.",
     "faq2Question": "Maswali yanatoka wapi?",
-    "faq2Answer": "Mwandishi wa maswali wa akili bandia huunda maswali haya moja kwa moja katika lugha yako, na kila swali hukaguliwa kiotomatiki kabla halijafika kwenye mchezo. Kitu kikipenya kimakosa, unaweza kuripoti kwa kugusa mara moja.",
+    "faq2Answer": "Kila lugha ina hazina yake ya maswali iliyoandaliwa, iliyoandikwa mahususi kwa lugha hiyo na kukaguliwa kabla ya kuchapishwa. Ukimaliza kuyacheza yote, mwandishi wa maswali wa akili bandia huongeza maswali mapya katika lugha yako, na kila moja hupitia ukaguzi wa kiotomatiki kabla ya kufika kwenye mchezo. Swali likionekana kuwa na kosa, unaweza kuliripoti baada ya jibu kufichuliwa.",
     "faq3Question": "Viwango salama vinafanyaje kazi?",
     "faq3Answer": "Ukijibu swali la 5 kwa usahihi unahakikishiwa {havenOne}, na swali la 10 linakuhakikishia {havenTwo}. Ukikosea swali la baadaye, bado unaondoka na kiwango salama cha mwisho ulichokipita.",
     "faq4Question": "Naweza kucheza bila mtandao?",
@@ -114,7 +114,7 @@
     "faq6Question": "Je, huu ni mchezo rasmi wa kipindi cha TV?",
     "faq6Answer": "Hapana. Chemsha Bongo ya Milionea ni mchezo huru uliotengenezwa na mashabiki, uliohamasishwa na muundo wa kipindi cha chemsha bongo cha zamani.",
     "faqLanguageQuestion": "Je, ninaweza kucheza “Milionea” kwa Kiswahili?",
-    "faqLanguageAnswer": "Ndiyo — hili ni toleo la Kiswahili la mchezo huu. Kila swali limeandikwa kwa Kiswahili kwa ajili ya wazungumzaji wa Kiswahili badala ya kutafsiriwa, na kila hali na msaada ni vya bure. Mchezo huu unapatikana pia katika lugha nyingine 79.",
+    "faqLanguageAnswer": "Ndiyo — hili ni toleo la Kiswahili la mchezo huu. Maswali yameandikwa kwa Kiswahili kwa ajili ya wazungumzaji wa Kiswahili badala ya kutafsiriwa, na kila hali na msaada ni vya bure. Mchezo huu unapatikana pia katika lugha nyingine 79.",
     "languagesTitle": "Cheza katika lugha yako",
     "languagesSubtitle": "Kila lugha ina maswali yake yenyewe, yaliyoandikwa kiasili — hayajatafsiriwa."
   },

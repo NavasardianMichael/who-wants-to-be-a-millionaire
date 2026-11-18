@@ -104,7 +104,7 @@
     "faq1Question": "Quiz Milionario è gratis?",
     "faq1Answer": "Sì. Tutte le modalità, tutte le lingue e tutti gli aiuti sono gratuiti, e per la Classica non serve nemmeno registrarsi.",
     "faq2Question": "Da dove arrivano le domande?",
-    "faq2Answer": "Un autore di domande basato sull'intelligenza artificiale le crea direttamente nella tua lingua e ogni quesito viene controllato automaticamente prima di arrivare nel gioco. Se qualcosa dovesse sfuggire, puoi segnalarlo con un solo tocco.",
+    "faq2Answer": "Ogni lingua ha la propria banca di domande già pronta, scritta appositamente per quella lingua e controllata prima della pubblicazione. Quando l'avrai esaurita, un autore di domande basato sull'intelligenza artificiale ne aggiunge di nuove nella tua lingua, e ognuna supera controlli automatici prima di arrivare nel gioco. Se una domanda ti sembra sbagliata, puoi segnalarla una volta rivelata la risposta.",
     "faq3Question": "Come funzionano le soglie di sicurezza?",
     "faq3Answer": "Rispondendo correttamente alla domanda 5 ti assicuri {havenOne}, e con la domanda 10 ti assicuri {havenTwo}. Se poi sbagli una domanda successiva, te ne vai comunque con l'ultima soglia superata.",
     "faq4Question": "Posso giocare offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "È il gioco ufficiale del programma TV?",
     "faq6Answer": "No. Quiz Milionario è un gioco indipendente creato dai fan, ispirato al classico formato dei quiz televisivi.",
     "faqLanguageQuestion": "Posso giocare a «Milionario» in italiano?",
-    "faqLanguageAnswer": "Sì: questa è la versione in italiano del gioco. Ogni domanda è scritta in italiano per i giocatori di lingua italiana anziché tradotta, e ogni modalità e aiuto sono gratuiti. Il gioco è disponibile anche in altre 79 lingue.",
+    "faqLanguageAnswer": "Sì: questa è la versione in italiano del gioco. Le domande sono scritte in italiano per i giocatori di lingua italiana anziché tradotte, e ogni modalità e aiuto sono gratuiti. Il gioco è disponibile anche in altre 79 lingue.",
     "languagesTitle": "Gioca nella tua lingua",
     "languagesSubtitle": "Ogni lingua ha le sue domande, scritte in modo nativo e non tradotte."
   },

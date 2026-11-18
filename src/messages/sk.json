@@ -104,7 +104,7 @@
     "faq1Question": "Je Kvíz Milionár zadarmo?",
     "faq1Answer": "Áno. Všetky režimy, jazyky aj nápovedy sú zadarmo a na Klasiku sa nemusíš ani registrovať.",
     "faq2Question": "Odkiaľ sú otázky?",
-    "faq2Answer": "Autor otázok s umelou inteligenciou ich vytvára priamo v tvojom jazyku a každá otázka sa pred zaradením do hry automaticky skontroluje. Ak niečo prekĺzne, môžeš to nahlásiť jedným ťuknutím.",
+    "faq2Answer": "Každý jazyk má vlastnú pripravenú banku otázok, napísanú priamo preň a skontrolovanú pred zverejnením. Keď ju celú prejdeš, autor otázok s umelou inteligenciou pridáva nové otázky v tvojom jazyku a každá z nich pred zaradením do hry prejde automatickými kontrolami. Ak sa ti otázka zdá chybná, môžeš ju nahlásiť po odhalení odpovede.",
     "faq3Question": "Ako fungujú istoty?",
     "faq3Answer": "Správna odpoveď na 5. otázku ti zaručí {havenOne} a na 10. otázku {havenTwo}. Ak neskôr odpovieš zle, odchádzaš s poslednou dosiahnutou istotou.",
     "faq4Question": "Môžem hrať offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Je to oficiálna hra televíznej šou?",
     "faq6Answer": "Nie. Kvíz Milionár je nezávislá hra vytvorená fanúšikmi, inšpirovaná klasickým formátom vedomostnej súťaže.",
     "faqLanguageQuestion": "Môžem hrať „Milionár“ v slovenčine?",
-    "faqLanguageAnswer": "Áno — toto je slovenská verzia hry. Každá otázka je napísaná v slovenčine pre slovenských hráčov namiesto prekladu a každý herný režim a nápoveda sú zadarmo. Hra je k dispozícii aj v 79 iných jazykoch.",
+    "faqLanguageAnswer": "Áno — toto je slovenská verzia hry. Otázky sú napísané v slovenčine pre slovenských hráčov namiesto prekladu a každý herný režim a nápoveda sú zadarmo. Hra je k dispozícii aj v 79 iných jazykoch.",
     "languagesTitle": "Hrajte vo svojom jazyku",
     "languagesSubtitle": "Každý jazyk má svoje vlastné otázky, ktoré sú napísané natívne — nie preložené."
   },

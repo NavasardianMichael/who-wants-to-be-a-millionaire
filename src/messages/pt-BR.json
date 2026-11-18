@@ -104,7 +104,7 @@
     "faq1Question": "O Quiz Milionário é gratuito?",
     "faq1Answer": "Sim. Todos os modos, todos os idiomas e todas as ajudas são grátis, e não é preciso cadastro para jogar o Clássico.",
     "faq2Question": "De onde vêm as perguntas?",
-    "faq2Answer": "Um redator de perguntas com inteligência artificial as cria diretamente no seu idioma, e cada pergunta é verificada automaticamente antes de chegar ao jogo. Se algo passar batido, você pode nos avisar com um toque.",
+    "faq2Answer": "Cada idioma tem seu próprio banco de perguntas preparado, escrito especialmente para ele e revisado antes da publicação. Quando você esgotá-lo, um redator de perguntas com inteligência artificial acrescenta perguntas novas no seu idioma, e cada uma passa por verificações automáticas antes de chegar ao jogo. Se uma pergunta parecer errada, você pode avisar assim que a resposta for revelada.",
     "faq3Question": "Como funcionam os pontos seguros?",
     "faq3Answer": "Acertar a pergunta 5 garante {havenOne}, e a pergunta 10 garante {havenTwo}. Se você errar uma pergunta depois disso, ainda sai com o último ponto seguro que alcançou.",
     "faq4Question": "Posso jogar offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Este é o jogo oficial do programa de TV?",
     "faq6Answer": "Não. O Quiz Milionário é um jogo independente feito por fãs, inspirado no formato clássico de programas de perguntas e respostas.",
     "faqLanguageQuestion": "Posso jogar “Milionário” em português?",
-    "faqLanguageAnswer": "Sim — esta é a versão em português do jogo. Cada pergunta é escrita em português para falantes de português, em vez de ser traduzida, e todos os modos e ajudas são gratuitos. O jogo também está disponível em outros 79 idiomas.",
+    "faqLanguageAnswer": "Sim — esta é a versão em português do jogo. As perguntas são escritas em português para falantes de português, em vez de serem traduzidas, e todos os modos e ajudas são gratuitos. O jogo também está disponível em outros 79 idiomas.",
     "languagesTitle": "Jogue no seu idioma",
     "languagesSubtitle": "Cada idioma tem as suas próprias perguntas, escritas nativamente — não traduzidas."
   },

@@ -104,7 +104,7 @@
     "faq1Question": "O Concurso Millonario é gratuíto?",
     "faq1Answer": "Si. Todos os modos, todas as linguas e todos os comodíns son gratuítos, e para xogar ao Clásico non fai falta rexistrarse.",
     "faq2Question": "De onde saen as preguntas?",
-    "faq2Answer": "Un redactor de preguntas con intelixencia artificial créaas directamente na súa lingua, e cada pregunta revísase automaticamente antes de chegar ao xogo. Se se escapa algún erro, pode informar del cun só toque.",
+    "faq2Answer": "Cada lingua ten o seu propio banco de preguntas preparado, escrito especificamente para ela e revisado antes de publicarse. Cando o esgote, un redactor de preguntas con intelixencia artificial engade preguntas novas na súa lingua, e cada unha pasa controis automáticos antes de chegar ao xogo. Se unha pregunta lle parece errónea, pode informar dela unha vez que se revele a resposta.",
     "faq3Question": "Como funcionan os chanzos de seguridade?",
     "faq3Answer": "Se acerta a pregunta 5, asegúrase {havenOne}, e a pregunta 10 asegúralle {havenTwo}. Se falla unha pregunta posterior, marcha igualmente co último chanzo de seguridade que superase.",
     "faq4Question": "Podo xogar sen conexión?",
@@ -114,7 +114,7 @@
     "faq6Question": "É o xogo oficial do programa de televisión?",
     "faq6Answer": "Non. O Concurso Millonario é un xogo independente feito por fans, inspirado no formato do clásico concurso de televisión.",
     "faqLanguageQuestion": "Pobo xogar a «Millonario» en galego?",
-    "faqLanguageAnswer": "Si: esta é a versión en galego do xogo. Cada pregunta está escrita en galego para falantes de galego en vez de traducida, e cada modo e comodín son gratuítos. O xogo tamén está dispoñible noutras 79 linguas.",
+    "faqLanguageAnswer": "Si: esta é a versión en galego do xogo. As preguntas están escritas en galego para falantes de galego en vez de traducidas, e cada modo e comodín son gratuítos. O xogo tamén está dispoñible noutras 79 linguas.",
     "languagesTitle": "Xoga na súa lingua",
     "languagesSubtitle": "Cada lingua ten as súas propias preguntas, escritas de forma nativa e non traducidas."
   },

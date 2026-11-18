@@ -104,7 +104,7 @@
     "faq1Question": "Kediska Malaayiinlaha ma bilaash baa?",
     "faq1Answer": "Haa. Qaab kasta, luqad kasta iyo caawimaad kasta waa bilaash, Asalkana looma baahna is-diiwaangelin.",
     "faq2Question": "Xagee ka yimaadaan su'aaluhu?",
-    "faq2Answer": "Qoraa su'aalo oo sirdoon macmal ah ayaa si toos ah ugu qora luqaddaada, su'aal kastana si otomaatig ah ayaa loo hubiyaa ka hor inta aysan ciyaarta gaarin. Haddii qalad uu dhex maro, hal taabasho ayaad ku soo sheegi kartaa.",
+    "faq2Answer": "Luqad kastaa waxay leedahay kayd su'aalo oo diyaarsan oo iyada loogu talagalay, laguna hubiyay ka hor intaan la sii dayn. Markaad dhammaan ciyaarto, qoraa su'aalo oo sirdoon macmal ah ayaa ku daraya su'aalo cusub luqaddaada, mid kastana wuxuu maraa hubin otomaatig ah ka hor inta uusan ciyaarta gaarin. Haddii su'aal ay u muuqato inay khaldan tahay, waad soo sheegi kartaa marka jawaabta la muujiyo.",
     "faq3Question": "Sidee u shaqeeyaan heerarka badbaadadu?",
     "faq3Answer": "Haddii aad si sax ah uga jawaabto su'aasha 5aad, {havenOne} waa kuu hubaal, su'aasha 10aadna {havenTwo}. Haddii aad su'aal dambe khaldo, weli waxaad la baxaysaa heerkii badbaado ee ugu dambeeyay ee aad gudubtay.",
     "faq4Question": "Ma ciyaari karaa internet la'aan?",
@@ -114,7 +114,7 @@
     "faq6Question": "Tani ma ciyaarta rasmiga ah ee barnaamijka TV-ga baa?",
     "faq6Answer": "Maya. Kediska Malaayiinlaha waa ciyaar madax-bannaan oo taageerayaal sameeyeen, waxaana lagu dhisay qaabka caanka ah ee barnaamijyada tartanka aqoonta.",
     "faqLanguageQuestion": "Ma ciyaari karaa «Malaayiinlaha» af Soomaali?",
-    "faqLanguageAnswer": "Haa - tani waa nooca af Soomaaliga ah ee ciyaarta. Su'aal kasta waxaa lagu qoraa af Soomaali looguna talagalay dadka ku hadla af Soomaaliga halkii la tarjumi lahaa, qaab kasta iyo badbaadina waa bilaash. Ciyaarta sidoo kale waxaa laga helaa 79 luqadood oo kale.",
+    "faqLanguageAnswer": "Haa - tani waa nooca af Soomaaliga ah ee ciyaarta. Su'aalaha waxaa lagu qoray af Soomaali looguna talagalay dadka ku hadla af Soomaaliga halkii la tarjumi lahaa, qaab kasta iyo badbaadina waa bilaash. Ciyaarta sidoo kale waxaa laga helaa 79 luqadood oo kale.",
     "languagesTitle": "Ku ciyaar luqadaada",
     "languagesSubtitle": "Luqad kasta waxay leedahay su'aalo u gaar ah, oo si dabiici ah loo qoray - ee aan la tarjumin."
   },

@@ -104,7 +104,7 @@
     "faq1Question": "Czy Milionerski Quiz jest darmowy?",
     "faq1Answer": "Tak. Każdy tryb, każdy język i każde koło ratunkowe są za darmo, a do gry w trybie klasycznym nie trzeba się rejestrować.",
     "faq2Question": "Skąd się biorą pytania?",
-    "faq2Answer": "Autor pytań oparty na sztucznej inteligencji tworzy je bezpośrednio w twoim języku, a każde pytanie jest sprawdzane automatycznie przed trafieniem do gry. Jeśli coś przeoczymy, możesz to zgłosić jednym kliknięciem.",
+    "faq2Answer": "Każdy język ma własny, przygotowany zawczasu bank pytań, napisany specjalnie dla niego i sprawdzony przed publikacją. Gdy go przejdziesz, autor pytań oparty na sztucznej inteligencji dodaje nowe pytania w twoim języku, a każde z nich przechodzi automatyczne kontrole, zanim trafi do gry. Jeśli pytanie wydaje się błędne, możesz je zgłosić po odsłonięciu odpowiedzi.",
     "faq3Question": "Jak działają progi gwarantowane?",
     "faq3Answer": "Poprawna odpowiedź na pytanie 5 gwarantuje ci {havenOne}, a na pytanie 10 — {havenTwo}. Jeśli później odpowiesz źle, i tak odchodzisz z kwotą ostatniego progu, który udało ci się przekroczyć.",
     "faq4Question": "Czy mogę grać offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Czy to oficjalna gra teleturnieju?",
     "faq6Answer": "Nie. Milionerski Quiz to niezależna gra stworzona przez fanów, zainspirowana klasycznym formatem teleturnieju.",
     "faqLanguageQuestion": "Czy mogę zagrać w „Milioner” po polsku?",
-    "faqLanguageAnswer": "Tak — to jest polska wersja gry. Każde pytanie jest napisane po polsku dla polskich graczy, a nie tłumaczone, a każdy tryb i koło ratunkowe są darmowe. Gra jest dostępna również w 79 innych językach.",
+    "faqLanguageAnswer": "Tak — to jest polska wersja gry. Pytania są napisane po polsku dla polskich graczy, a nie tłumaczone, a każdy tryb i koło ratunkowe są darmowe. Gra jest dostępna również w 79 innych językach.",
     "languagesTitle": "Graj w swoim języku",
     "languagesSubtitle": "Każdy język ma własne pytania, napisane w nim naturalnie, a nie przetłumaczone."
   },

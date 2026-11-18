@@ -104,7 +104,7 @@
     "faq1Question": "Is Millionaire free?",
     "faq1Answer": "Yes. Every mode, every language and every lifeline is free to play, with no sign-up needed for Classic.",
     "faq2Question": "Where do the questions come from?",
-    "faq2Answer": "An AI question writer creates them natively in your language, and every question is checked automatically before it reaches the game. If something slips through, you can report it in one tap.",
+    "faq2Answer": "Every language has its own prepared question bank, written for it and checked before release. When you have played through it, an AI question writer adds new questions in your language, and each one passes automatic checks before it reaches the game. If a question looks wrong, you can report it once the answer is revealed.",
     "faq3Question": "How do the safe havens work?",
     "faq3Answer": "Answering question 5 correctly guarantees {havenOne}, and question 10 guarantees {havenTwo}. If you answer a later question wrong, you still leave with the last safe haven you passed.",
     "faq4Question": "Can I play offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Is this the official TV show game?",
     "faq6Answer": "No. Millionaire is an independent, fan-made game inspired by the classic quiz show format.",
     "faqLanguageQuestion": "Can I play Millionaire in English?",
-    "faqLanguageAnswer": "Yes — this is the English version of the game. Every question is written in English for English speakers rather than translated, and every mode and lifeline is free. The game is also available in 79 other languages.",
+    "faqLanguageAnswer": "Yes — this is the English version of the game. Questions are written in English for English speakers rather than translated, and every mode and lifeline is free. The game is also available in 79 other languages.",
     "languagesTitle": "Play in your language",
     "languagesSubtitle": "Each language has its own questions, written natively — not translated."
   },

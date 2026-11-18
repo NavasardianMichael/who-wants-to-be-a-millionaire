@@ -104,7 +104,7 @@
     "faq1Question": "Vai Miljonāra viktorīna ir bez maksas?",
     "faq1Answer": "Jā. Visi režīmi, visas valodas un visi glābšanas riņķi ir bez maksas, un Klasikai pat nav jāreģistrējas.",
     "faq2Question": "No kurienes nāk jautājumi?",
-    "faq2Answer": "Tos uzreiz tavā valodā raksta mākslīgā intelekta jautājumu autors, un katrs jautājums tiek automātiski pārbaudīts, pirms tas nonāk spēlē. Ja kāda kļūda tomēr paslīd garām, vari par to ziņot ar vienu pieskārienu.",
+    "faq2Answer": "Katrai valodai ir sava sagatavota jautājumu banka, kas rakstīta tieši šai valodai un pārbaudīta pirms publicēšanas. Kad tā būs izspēlēta, mākslīgā intelekta jautājumu autors pievieno jaunus jautājumus tavā valodā, un katrs no tiem iziet automātiskas pārbaudes, pirms nonāk spēlē. Ja jautājums šķiet kļūdains, vari par to ziņot pēc tam, kad atbilde ir atklāta.",
     "faq3Question": "Kā darbojas drošie pakāpieni?",
     "faq3Answer": "Pareizi atbildot uz 5. jautājumu, tev ir garantēta summa {havenOne}, bet 10. jautājums garantē {havenTwo}. Ja vēlāk atbildēsi nepareizi, tik un tā aiziesi ar pēdējā sasniegtā drošā pakāpiena summu.",
     "faq4Question": "Vai var spēlēt bezsaistē?",
@@ -114,7 +114,7 @@
     "faq6Question": "Vai šī ir televīzijas raidījuma oficiālā spēle?",
     "faq6Answer": "Nē. Miljonāra viktorīna ir neatkarīga, fanu veidota spēle, ko iedvesmojis klasiskais televīzijas viktorīnas formāts.",
     "faqLanguageQuestion": "Vai varu spēlēt raidījumu „Miljonārs“ latviešu valodā?",
-    "faqLanguageAnswer": "Jā — šī ir spēles versija latviešu valodā. Katrs jautājums ir radīts latviešu valodā latviešu valodas pratējiem, nevis tulkots, un visi režīmi un palīglīdzekļi ir bezmaksas. Spēle ir pieejama arī 79 citās valodās.",
+    "faqLanguageAnswer": "Jā — šī ir spēles versija latviešu valodā. Jautājumi ir radīti latviešu valodā latviešu valodas pratējiem, nevis tulkoti, un visi režīmi un palīglīdzekļi ir bezmaksas. Spēle ir pieejama arī 79 citās valodās.",
     "languagesTitle": "Spēlējiet savā valodā",
     "languagesSubtitle": "Katrai valodai ir savi jautājumi, kas radīti dzimtajā valodā, nevis tulkoti."
   },

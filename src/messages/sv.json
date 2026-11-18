@@ -104,7 +104,7 @@
     "faq1Question": "Är Miljonärsquiz gratis?",
     "faq1Answer": "Ja. Alla spellägen, alla språk och alla livlinor är gratis, och du behöver inte registrera dig för att spela Klassiskt.",
     "faq2Question": "Var kommer frågorna ifrån?",
-    "faq2Answer": "En artificiell intelligens skriver dem direkt på ditt språk, och varje fråga kontrolleras automatiskt innan den når spelet. Om något slinker igenom kan du rapportera det med ett tryck.",
+    "faq2Answer": "Varje språk har sin egen förberedda frågebank, skriven just för det språket och granskad före publicering. När du har spelat igenom den skriver en artificiell intelligens nya frågor på ditt språk, och varje fråga går igenom automatiska kontroller innan den når spelet. Om en fråga verkar fel kan du rapportera den när svaret har visats.",
     "faq3Question": "Hur fungerar de säkra nivåerna?",
     "faq3Answer": "Svarar du rätt på fråga 5 är {havenOne} garanterat, och fråga 10 garanterar {havenTwo}. Om du svarar fel på en senare fråga går du ändå hem med den senaste säkra nivån du passerat.",
     "faq4Question": "Kan jag spela offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Är det här det officiella spelet från tv-programmet?",
     "faq6Answer": "Nej. Miljonärsquiz är ett fristående spel gjort av fans, inspirerat av det klassiska frågesportformatet.",
     "faqLanguageQuestion": "Kan jag spela \"Miljonär\" på svenska?",
-    "faqLanguageAnswer": "Ja – det här är den svenska versionen av spelet. Varje fråga är skriven på svenska för svensktalande snarare än översatt, och varje spelläge och livlina är gratis. Spelet finns också tillgängligt på 79 andra språk.",
+    "faqLanguageAnswer": "Ja – det här är den svenska versionen av spelet. Frågorna är skrivna på svenska för svensktalande snarare än översatta, och varje spelläge och livlina är gratis. Spelet finns också tillgängligt på 79 andra språk.",
     "languagesTitle": "Spela på ditt språk",
     "languagesSubtitle": "Varje språk har sina egna frågor, skrivna på anpassat språk – inte översatta."
   },

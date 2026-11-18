@@ -104,7 +104,7 @@
     "faq1Question": "Is Miljonairsquiz gratis?",
     "faq1Answer": "Ja. Elke spelvorm, elke taal en elke hulplijn is gratis, en voor Klassiek hoeft u zich niet eens aan te melden.",
     "faq2Question": "Waar komen de vragen vandaan?",
-    "faq2Answer": "Een kunstmatige intelligentie maakt de vragen in uw eigen taal, en elke vraag wordt automatisch gecontroleerd voordat deze in het spel komt. Mocht er toch iets mis zijn, dan kunt u dat in één tik melden.",
+    "faq2Answer": "Elke taal heeft een eigen voorbereide vragenbank, speciaal voor die taal geschreven en gecontroleerd vóór publicatie. Hebt u die helemaal gespeeld, dan voegt een kunstmatige intelligentie nieuwe vragen in uw taal toe, en elke vraag doorloopt automatische controles voordat deze in het spel komt. Lijkt een vraag niet te kloppen, dan kunt u die melden zodra het antwoord is onthuld.",
     "faq3Question": "Hoe werken de vangnetten?",
     "faq3Answer": "Beantwoordt u vraag 5 goed, dan heeft u {havenOne} zeker; na vraag 10 is dat {havenTwo}. Geeft u later een fout antwoord, dan gaat u toch naar huis met het laatste vangnet dat u heeft gehaald.",
     "faq4Question": "Kan ik offline spelen?",
@@ -114,7 +114,7 @@
     "faq6Question": "Is dit het officiële spel van het tv-programma?",
     "faq6Answer": "Nee. Miljonairsquiz is een onafhankelijk spel gemaakt door fans, geïnspireerd op het klassieke quizformat.",
     "faqLanguageQuestion": "Kan ik “Miljonair” spelen in het Nederlands?",
-    "faqLanguageAnswer": "Ja — dit is de Nederlandse versie van het spel. Elke vraag is in het Nederlands geschreven voor Nederlandstaligen in plaats van vertaald, en elke spelmodus en hulplijn is gratis. Het spel is ook beschikbaar in 79 andere talen.",
+    "faqLanguageAnswer": "Ja — dit is de Nederlandse versie van het spel. De vragen zijn in het Nederlands geschreven voor Nederlandstaligen in plaats van vertaald, en elke spelmodus en hulplijn is gratis. Het spel is ook beschikbaar in 79 andere talen.",
     "languagesTitle": "Speel in uw taal",
     "languagesSubtitle": "Elke taal heeft zijn eigen vragen, in de taal zelf geschreven — niet vertaald."
   },

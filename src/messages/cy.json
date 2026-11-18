@@ -104,7 +104,7 @@
     "faq1Question": "Ydy Cwis Miliwnydd am ddim?",
     "faq1Answer": "Ydy. Mae pob modd, pob iaith a phob cymorth am ddim, a does dim angen cofrestru i chwarae Clasurol.",
     "faq2Question": "O ble mae'r cwestiynau'n dod?",
-    "faq2Answer": "Mae deallusrwydd artiffisial yn eu hysgrifennu'n uniongyrchol yn dy iaith di, ac mae pob cwestiwn yn cael ei wirio'n awtomatig cyn iddo gyrraedd y gêm. Os bydd rhywbeth yn llithro drwodd, gelli di roi gwybod amdano ag un tap.",
+    "faq2Answer": "Mae gan bob iaith ei banc cwestiynau parod ei hun, wedi'i ysgrifennu ar ei chyfer ac wedi'i wirio cyn ei ryddhau. Ar ôl i ti chwarae drwyddo, mae deallusrwydd artiffisial yn ychwanegu cwestiynau newydd yn dy iaith di, ac mae pob un yn pasio gwiriadau awtomatig cyn cyrraedd y gêm. Os yw cwestiwn yn edrych yn anghywir, gelli di roi gwybod amdano unwaith y bydd yr ateb wedi'i ddatgelu.",
     "faq3Question": "Sut mae'r hafanau diogel yn gweithio?",
     "faq3Answer": "Mae ateb cwestiwn 5 yn gywir yn sicrhau {havenOne}, ac mae cwestiwn 10 yn sicrhau {havenTwo}. Os byddi di'n ateb cwestiwn diweddarach yn anghywir, byddi di'n dal i adael gyda'r hafan ddiogel olaf i ti ei chyrraedd.",
     "faq4Question": "Alla i chwarae all-lein?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ai dyma gêm swyddogol y rhaglen deledu?",
     "faq6Answer": "Na. Mae Cwis Miliwnydd yn gêm annibynnol wedi'i chreu gan ffans, wedi'i hysbrydoli gan fformat clasurol y sioe gwis.",
     "faqLanguageQuestion": "A allaf chwarae „Miliwnydd“ yn Gymraeg?",
-    "faqLanguageAnswer": "Gallwch — dyma fersiwn Gymraeg y gêm. Mae pob cwestiwn wedi'i ysgrifennu yn Gymraeg ar gyfer siaradwyr Cymraeg yn hytrach na'i gyfieithu, ac mae pob modd a llinell bellach am ddim. Mae'r gêm hefyd ar gael mewn 79 o ieithoedd eraill.",
+    "faqLanguageAnswer": "Gallwch — dyma fersiwn Gymraeg y gêm. Mae'r cwestiynau wedi'u hysgrifennu yn Gymraeg ar gyfer siaradwyr Cymraeg yn hytrach na'u cyfieithu, ac mae pob modd a phob cymorth am ddim. Mae'r gêm hefyd ar gael mewn 79 o ieithoedd eraill.",
     "languagesTitle": "Chwaraewch yn eich iaith",
     "languagesSubtitle": "Mae gan bob iaith ei chwestiynau ei hun, wedi'u hysgrifennu'n frodorol — nid wedi'u cyfieithu."
   },

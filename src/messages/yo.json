@@ -104,7 +104,7 @@
     "faq1Question": "Ṣé Ìdíje Mílíọ̀nù jẹ́ ọ̀fẹ́?",
     "faq1Answer": "Bẹ́ẹ̀ ni. Gbogbo ọ̀nà eré, gbogbo èdè àti gbogbo ìrànlọ́wọ́ jẹ́ ọ̀fẹ́, kò sì pọn dandan láti forúkọ sílẹ̀ fún Àtayébáyé.",
     "faq2Question": "Níbo ni àwọn ìbéèrè ti wá?",
-    "faq2Answer": "Ọgbọ́n àtọwọ́dá ló ń kọ wọ́n ní tààrà ní èdè yín, a sì ń ṣàyẹ̀wò ìbéèrè kọ̀ọ̀kan lọ́nà aládàáṣe kí ó tó dé inú eré. Bí àṣìṣe kan bá yọ́ wọlé, ẹ lè jábọ̀ rẹ̀ pẹ̀lú ìfọwọ́kàn kan.",
+    "faq2Answer": "Èdè kọ̀ọ̀kan ló ní àkójọ ìbéèrè tirẹ̀ tí a ti pèsè sílẹ̀, tí a kọ fún èdè náà ní pàtó, tí a sì ṣàyẹ̀wò kí a tó gbé e jáde. Nígbà tí ẹ bá ti ṣe gbogbo wọn tán, ọgbọ́n àtọwọ́dá ń ṣàfikún ìbéèrè tuntun ní èdè yín, ìbéèrè kọ̀ọ̀kan sì ń kọjá àyẹ̀wò aládàáṣe kí ó tó dé inú eré. Bí ìbéèrè kan bá dà bí èyí tí kò tọ̀nà, ẹ lè jábọ̀ rẹ̀ lẹ́yìn tí a bá ti fi ìdáhùn hàn.",
     "faq3Question": "Báwo ni àwọn ibi ààbò ṣe ń ṣiṣẹ́?",
     "faq3Answer": "Tí ẹ bá dáhùn ìbéèrè 5 dáadáa, {havenOne} di tiyín dájú, ìbéèrè 10 sì ń mú {havenTwo} dájú. Tí ẹ bá ṣi ìbéèrè kan dáhùn lẹ́yìn náà, ẹ ó ṣì kúrò pẹ̀lú owó ibi ààbò tó kẹ́yìn tí ẹ ti kọjá.",
     "faq4Question": "Ṣé mo lè ṣeré láìsí ayélujára?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ṣé eré tí ètò tẹlifíṣọ̀n náà fọwọ́ sí ni èyí?",
     "faq6Answer": "Rárá. Ìdíje Mílíọ̀nù jẹ́ eré aládàáni tí àwọn olólùfẹ́ ṣe, tí ọ̀nà ètò ìdíje ìbéèrè àtayébáyé fún ní ìmísí.",
     "faqLanguageQuestion": "Ṣé mo lè ṣe eré “Ìdíje Mílíọ̀nù” ní èdè Yorùbá?",
-    "faqLanguageAnswer": "Bẹ́ẹ̀ ni — èyí ni ẹ̀dà èdè Yorùbá ti eré náà. Gbogbo ìbéèrè ni a kọ ní èdè Yorùbá fún àwọn olùsọ èdè Yorùbá dípò kí a túmọ̀ rẹ̀, àti pé gbogbo ọ̀nà eré àti ìrànlọ́wọ́ jẹ́ ọ̀fẹ́. Eré náà tún wà ní àwọn èdè 79 mìíràn.",
+    "faqLanguageAnswer": "Bẹ́ẹ̀ ni — èyí ni ẹ̀dà èdè Yorùbá ti eré náà. A kọ àwọn ìbéèrè ní èdè Yorùbá fún àwọn olùsọ èdè Yorùbá dípò kí a túmọ̀ rẹ̀, àti pé gbogbo ọ̀nà eré àti ìrànlọ́wọ́ jẹ́ ọ̀fẹ́. Eré náà tún wà ní àwọn èdè 79 mìíràn.",
     "languagesTitle": "Ṣeré ní èdè rẹ̀",
     "languagesSubtitle": "Èdè kọ̀ọ̀kan ni ó ní àwọn ìbéèrè tirẹ̀, tí a kọ ní ìbámu pẹ̀lú àṣà — kò ṣe é túmọ̀."
   },

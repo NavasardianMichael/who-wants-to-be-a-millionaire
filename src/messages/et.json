@@ -104,7 +104,7 @@
     "faq1Question": "Kas Miljonäri mälumäng on tasuta?",
     "faq1Answer": "Jah. Kõik mänguviisid, keeled ja õlekõrred on tasuta ning Klassikat saab mängida ilma registreerumata.",
     "faq2Question": "Kust küsimused tulevad?",
-    "faq2Answer": "Need loob tehisintellektil põhinev küsimuste autor otse sinu keeles ja iga küsimus kontrollitakse automaatselt enne, kui see mängu jõuab. Kui mõni viga siiski läbi lipsab, saad sellest ühe puudutusega teada anda.",
+    "faq2Answer": "Igal keelel on oma ettevalmistatud küsimustepank, mis on kirjutatud just selle keele jaoks ja enne avaldamist üle kontrollitud. Kui oled selle läbi mänginud, lisab tehisintellektil põhinev küsimuste autor sinu keeles uusi küsimusi ja iga neist läbib enne mängu jõudmist automaatsed kontrollid. Kui mõni küsimus tundub vale, saad sellest teada anda pärast vastuse avalikustamist.",
     "faq3Question": "Kuidas turvaastmed toimivad?",
     "faq3Answer": "Kui vastad 5. küsimusele õigesti, on sulle tagatud {havenOne}, ja 10. küsimus tagab {havenTwo}. Kui vastad hiljem valesti, lahkud ikkagi viimase läbitud turvaastme summaga.",
     "faq4Question": "Kas saan mängida ilma internetita?",
@@ -114,7 +114,7 @@
     "faq6Question": "Kas see on telesaate ametlik mäng?",
     "faq6Answer": "Ei. Miljonäri mälumäng on sõltumatu, fännide loodud mäng, mille eeskujuks on klassikaline telemälumängu formaat.",
     "faqLanguageQuestion": "Kas ma saan mängida saadet „Miljonär“ eesti keeles?",
-    "faqLanguageAnswer": "Jah — see on mängu eestikeelne versioon. Kõik küsimused on eesti keeles eesti keele kõnelejatele kirjutatud, mitte tõlgitud, ning iga režiim ja abivahend on tasuta. Mäng on saadaval ka teistes keeltes (kokku 79 keeles).",
+    "faqLanguageAnswer": "Jah — see on mängu eestikeelne versioon. Küsimused on eesti keeles eesti keele kõnelejatele kirjutatud, mitte tõlgitud, ning iga režiim ja abivahend on tasuta. Mäng on saadaval ka 79 muus keeles.",
     "languagesTitle": "Mängige oma keeles",
     "languagesSubtitle": "Igal keelel on oma küsimused, mis on kirjutatud emakeelselt – mitte tõlgitud."
   },

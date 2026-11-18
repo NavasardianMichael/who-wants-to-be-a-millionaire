@@ -104,7 +104,7 @@
     "faq1Question": "Is Miljoenêrvasvra gratis?",
     "faq1Answer": "Ja. Elke modus, elke taal en elke hulplyn is gratis, en vir Klassiek hoef u nie eers te registreer nie.",
     "faq2Question": "Waar kom die vrae vandaan?",
-    "faq2Answer": "'n Kunsmatige intelligensie skryf hulle direk in u taal, en elke vraag word outomaties nagegaan voordat dit in die spel beland. As iets tog deurglip, kan u dit met een tik rapporteer.",
+    "faq2Answer": "Elke taal het sy eie voorbereide vraagbank, spesifiek daarvoor geskryf en voor publikasie nagegaan. Wanneer u daardeur gespeel het, skryf 'n kunsmatige intelligensie nuwe vrae in u taal, en elkeen slaag eers outomatiese kontroles voordat dit in die spel beland. As 'n vraag verkeerd lyk, kan u dit rapporteer sodra die antwoord gewys is.",
     "faq3Question": "Hoe werk die veilige vlakke?",
     "faq3Answer": "As u vraag 5 reg beantwoord, is {havenOne} gewaarborg, en vraag 10 waarborg {havenTwo}. As u 'n latere vraag verkeerd beantwoord, gaan u steeds huis toe met die laaste veilige vlak wat u bereik het.",
     "faq4Question": "Kan ek vanlyn speel?",
@@ -114,7 +114,7 @@
     "faq6Question": "Is dit die amptelike spel van die TV-program?",
     "faq6Answer": "Nee. Miljoenêrvasvra is 'n onafhanklike spel deur aanhangers gemaak, geïnspireer deur die klassieke formaat van die vasvraprogram.",
     "faqLanguageQuestion": "Kan ek “Miljoenêr” in Afrikaans speel?",
-    "faqLanguageAnswer": "Ja — dit is die Afrikaanse weergawe van die speletjie. Elke vraag is in Afrikaans vir Afrikaanssprekendes geskryf eerder as vertaal, en elke modus en hulplyn is gratis. Die speletjie is ook beskikbaar in 79 ander tale.",
+    "faqLanguageAnswer": "Ja — dit is die Afrikaanse weergawe van die speletjie. Die vrae is in Afrikaans vir Afrikaanssprekendes geskryf eerder as vertaal, en elke modus en hulplyn is gratis. Die speletjie is ook beskikbaar in 79 ander tale.",
     "languagesTitle": "Speel in U taal",
     "languagesSubtitle": "Elke taal het sy eie vrae, inheemse geskryf — nie vertaal nie."
   },

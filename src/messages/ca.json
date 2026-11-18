@@ -104,7 +104,7 @@
     "faq1Question": "El Concurs Milionari és gratuït?",
     "faq1Answer": "Sí. Tots els modes, totes les llengües i tots els comodins són gratuïts, i per jugar al Clàssic no cal registrar-se.",
     "faq2Question": "D’on surten les preguntes?",
-    "faq2Answer": "Un redactor de preguntes amb intel·ligència artificial les crea directament en la teva llengua, i cada pregunta es revisa automàticament abans d’arribar al joc. Si se’n cola alguna d’errònia, la pots notificar amb un sol toc.",
+    "faq2Answer": "Cada llengua té el seu propi banc de preguntes preparat, redactat expressament per a ella i revisat abans de publicar-se. Quan l’hagis esgotat, un redactor de preguntes amb intel·ligència artificial n’afegeix de noves en la teva llengua, i cadascuna passa controls automàtics abans d’arribar al joc. Si una pregunta et sembla errònia, la pots notificar un cop es reveli la resposta.",
     "faq3Question": "Com funcionen els esglaons de seguretat?",
     "faq3Answer": "Si encertes la pregunta 5, t’assegures {havenOne}, i la pregunta 10 t’assegura {havenTwo}. Si falles una pregunta posterior, te’n vas igualment amb l’últim esglaó de seguretat que hagis superat.",
     "faq4Question": "Puc jugar sense connexió?",
@@ -114,7 +114,7 @@
     "faq6Question": "És el joc oficial del programa de televisió?",
     "faq6Answer": "No. El Concurs Milionari és un joc independent fet per fans, inspirat en el format del clàssic concurs de televisió.",
     "faqLanguageQuestion": "Puc jugar a «Milionari» en català?",
-    "faqLanguageAnswer": "Sí, aquesta és la versió del joc en català. Cada pregunta està redactada en català per a catalanoparlants, en lloc de ser traduïda, i tots els modes i comodins són gratuïts. El joc també està disponible en 79 altres idiomes.",
+    "faqLanguageAnswer": "Sí, aquesta és la versió del joc en català. Les preguntes estan redactades en català per a catalanoparlants, en lloc de ser traduïdes, i tots els modes i comodins són gratuïts. El joc també està disponible en 79 altres idiomes.",
     "languagesTitle": "Jugui en el seu idioma",
     "languagesSubtitle": "Cada idioma té les seves pròpies preguntes, redactades de manera nativa i no traduïdes."
   },

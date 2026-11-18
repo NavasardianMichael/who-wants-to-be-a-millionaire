@@ -104,7 +104,7 @@
     "faq1Question": "Er Milljónakviss ókeypis?",
     "faq1Answer": "Já. Allir leikhamir, öll tungumál og allar hjálparleiðir eru ókeypis og það þarf ekki að skrá sig til að spila Klassík.",
     "faq2Question": "Hvaðan koma spurningarnar?",
-    "faq2Answer": "Spurningahöfundur sem byggir á gervigreind semur þær beint á þínu tungumáli og hver spurning er yfirfarin sjálfkrafa áður en hún kemst í leikinn. Ef eitthvað sleppur í gegn geturðu tilkynnt það með einni snertingu.",
+    "faq2Answer": "Hvert tungumál hefur sinn eigin tilbúna spurningabanka, saminn sérstaklega fyrir það og yfirfarinn fyrir útgáfu. Þegar þú hefur spilað þig í gegnum hann bætir spurningahöfundur sem byggir á gervigreind við nýjum spurningum á þínu tungumáli og hver þeirra stenst sjálfvirkar athuganir áður en hún kemst í leikinn. Ef spurning virðist röng geturðu tilkynnt hana þegar svarið hefur verið birt.",
     "faq3Question": "Hvernig virka öryggisþrepin?",
     "faq3Answer": "Ef þú svarar spurningu 5 rétt er þér tryggð upphæðin {havenOne} og spurning 10 tryggir {havenTwo}. Ef þú svarar seinni spurningu vitlaust ferðu samt heim með upphæð síðasta öryggisþreps sem þú náðir.",
     "faq4Question": "Get ég spilað án nettengingar?",
@@ -114,7 +114,7 @@
     "faq6Question": "Er þetta opinberi leikur sjónvarpsþáttarins?",
     "faq6Answer": "Nei. Milljónakviss er sjálfstæður leikur gerður af aðdáendum, innblásinn af klassíska spurningaþáttaforminu.",
     "faqLanguageQuestion": "Get ég spilað „Milljónakviss“ á íslensku?",
-    "faqLanguageAnswer": "Já — þetta er íslenska útgáfan af leiknum. Hver spurning er skrifuð á íslensku fyrir íslenskumælendat í stað þess að vera þýdd, og allir leikhamir og hjálparsímar eru ókeypis. Leikurinn er einnig fáanlegur á 79 öðrum tungumálum.",
+    "faqLanguageAnswer": "Já — þetta er íslenska útgáfan af leiknum. Spurningarnar eru skrifaðar á íslensku fyrir íslenskumælandi í stað þess að vera þýddar, og allir leikhamir og hjálparleiðir eru ókeypis. Leikurinn er einnig fáanlegur á 79 öðrum tungumálum.",
     "languagesTitle": "Spilaðu á þínu tungumáli",
     "languagesSubtitle": "Hvert tungumál hefur sínar eigin spurningar sem eru skrifaðar á málinu en ekki þýddar."
   },

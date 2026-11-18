@@ -104,7 +104,7 @@
     "faq1Question": "Imibuzo Yosozigidi iyamahhala yini?",
     "faq1Answer": "Yebo. Zonke izindlela zokudlala, zonke izilimi nazo zonke izinsizo kumahhala, futhi akudingeki ubhalise ukuze udlale Okwakudala.",
     "faq2Question": "Imibuzo ivelaphi?",
-    "faq2Answer": "Umbhali wemibuzo osebenzisa ubuhlakani bokwenziwa uyibhala ngqo ngolimi lwakho, futhi umbuzo ngamunye uhlolwa ngokuzenzakalelayo ngaphambi kokuthi ufike emdlalweni. Uma kukhona okungalungile okudlulayo, ungakubika ngokuthinta kanye.",
+    "faq2Answer": "Ulimi ngalunye lunebhange lalo lemibuzo elilungiselelwe kusengaphambili, elibhalelwe lona futhi lahlolwa ngaphambi kokukhishwa. Uma usuyidlalile yonke, umbhali wemibuzo osebenzisa ubuhlakani bokwenziwa wengeza imibuzo emisha ngolimi lwakho, futhi ngamunye udlula ekuhlolweni okuzenzakalelayo ngaphambi kokuthi ufike emdlalweni. Uma umbuzo ubukeka ungalungile, ungawubika ngemuva kokuthi impendulo idalulwe.",
     "faq3Question": "Iziphephelo zisebenza kanjani?",
     "faq3Answer": "Ukuphendula kahle umbuzo 5 kukuqinisekisela {havenOne}, umbuzo 10 ukuqinisekisela {havenTwo}. Uma uphendula kabi umbuzo olandelayo, usahamba nemali yesiphephelo sokugcina osidlulile.",
     "faq4Question": "Ngingadlala ngingaxhunyiwe?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ingabe lona ngumdlalo osemthethweni wohlelo lwethelevishini?",
     "faq6Answer": "Cha. Imibuzo Yosozigidi ngumdlalo ozimele owenziwe abalandeli, ogqugquzelwe uhlobo lohlelo lwemibuzo lwakudala.",
     "faqLanguageQuestion": "Ngiyakwazi yini ukudlala u-“Usozigidi” ngesiZulu?",
-    "faqLanguageAnswer": "Yebo — lolu luhlobo lwesiZulu lomdlalo. Yonke imibuzo ibhalwe ngesiZulu yabantu abakhuluma isiZulu esikhundleni sokuhunyushwa, futhi yonke imodi kanye nosizo lukhona mahhala. Umdlalo utholakala nakwezinye izilimi ezingama-79.",
+    "faqLanguageAnswer": "Yebo — lolu luhlobo lwesiZulu lomdlalo. Imibuzo ibhalwe ngesiZulu yabantu abakhuluma isiZulu esikhundleni sokuhunyushwa, futhi yonke imodi kanye nosizo lukhona mahhala. Umdlalo utholakala nakwezinye izilimi ezingama-79.",
     "languagesTitle": "Dlala ngolimi lwakho",
     "languagesSubtitle": "Ulimi ngalunye lunemibuzo yalo, ebhalwe ngokomdabu — hhayi ngokuhunyushwa."
   },

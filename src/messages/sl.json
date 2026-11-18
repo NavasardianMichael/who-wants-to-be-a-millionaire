@@ -104,7 +104,7 @@
     "faq1Question": "Je Milijonarski kviz brezplačen?",
     "faq1Answer": "Da. Vsi načini, vsi jeziki in vse pomoči so brezplačni, za Klasiko pa niti registracija ni potrebna.",
     "faq2Question": "Od kod prihajajo vprašanja?",
-    "faq2Answer": "Napiše jih umetna inteligenca, naš avtor vprašanj, neposredno v tvojem jeziku, vsako vprašanje pa se samodejno preveri, preden pride v igro. Če kakšna napaka vseeno uide, jo lahko prijaviš z enim dotikom.",
+    "faq2Answer": "Vsak jezik ima svojo pripravljeno zbirko vprašanj, napisano prav zanj in preverjeno pred objavo. Ko jo preigraš, umetna inteligenca, naš avtor vprašanj, doda nova vprašanja v tvojem jeziku, vsako od njih pa pred prihodom v igro prestane samodejna preverjanja. Če se ti vprašanje zdi napačno, ga lahko prijaviš, ko je odgovor razkrit.",
     "faq3Question": "Kako delujejo zajamčeni zneski?",
     "faq3Answer": "Pravilen odgovor na 5. vprašanje ti zagotovi {havenOne}, na 10. vprašanje pa {havenTwo}. Če pozneje odgovoriš napačno, odideš z zadnjim doseženim zajamčenim zneskom.",
     "faq4Question": "Lahko igram brez povezave?",
@@ -114,7 +114,7 @@
     "faq6Question": "Je to uradna igra televizijske oddaje?",
     "faq6Answer": "Ne. Milijonarski kviz je neodvisna igra oboževalcev, ki jo je navdihnil format klasičnega televizijskega kviza.",
     "faqLanguageQuestion": "Ali lahko igram „Milijonar“ v slovenščini?",
-    "faqLanguageAnswer": "Seveda – to je slovenska različica igre. Vsako vprašanje je napisano v slovenščini za slovensko govoreče in ni prevedeno, poleg tega pa so vsi načini igre in pomoči brezplačni. Igra je na voljo tudi v 79 drugih jezikih.",
+    "faqLanguageAnswer": "Seveda – to je slovenska različica igre. Vprašanja so napisana v slovenščini za slovensko govoreče in niso prevedena, poleg tega pa so vsi načini igre in pomoči brezplačni. Igra je na voljo tudi v 79 drugih jezikih.",
     "languagesTitle": "Igrajte v svojem jeziku",
     "languagesSubtitle": "Vsak jezik ima svoja vprašanja, napisana izvirno – ne prevedena."
   },

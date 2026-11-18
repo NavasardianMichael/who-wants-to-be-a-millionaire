@@ -104,7 +104,7 @@
     "faq1Question": "Millioner Viktorinasi bepulmi?",
     "faq1Answer": "Ha. Barcha rejimlar, barcha tillar va barcha yordamlar bepul, Klassika uchun esa roʻyxatdan oʻtish ham shart emas.",
     "faq2Question": "Savollar qayerdan olinadi?",
-    "faq2Answer": "Sunʼiy intellektga asoslangan savol tuzuvchi ularni bevosita sizning tilingizda yaratadi va har bir savol oʻyinga chiqishidan oldin avtomatik tekshiriladi. Agar biror xato koʻzdan qochsa, bir bosishda xabar berishingiz mumkin.",
+    "faq2Answer": "Har bir tilning oʻzi uchun yozilgan va chop etilishidan oldin tekshirilgan tayyor savollar banki bor. Ularni oʻynab boʻlganingizdan soʻng, sunʼiy intellektga asoslangan savol tuzuvchi tilingizda yangi savollar qoʻshadi va har biri oʻyinga chiqishidan oldin avtomatik tekshiruvlardan oʻtadi. Agar savol xato boʻlib koʻrinsa, javob ochilgandan keyin xabar berishingiz mumkin.",
     "faq3Question": "Kafolatlangan bosqichlar qanday ishlaydi?",
     "faq3Answer": "5-savolga toʻgʻri javob sizga {havenOne}, 10-savolga toʻgʻri javob esa {havenTwo} kafolatlaydi. Keyingi savollardan birida xato qilsangiz, oxirgi bosib oʻtgan kafolatlangan bosqich summasi bilan ketasiz.",
     "faq4Question": "Internetsiz oʻynasa boʻladimi?",
@@ -114,7 +114,7 @@
     "faq6Question": "Bu teleshouning rasmiy oʻyinimi?",
     "faq6Answer": "Yoʻq. Millioner Viktorinasi klassik viktorina-shou formatidan ilhomlangan, muxlislar tomonidan yaratilgan mustaqil oʻyin.",
     "faqLanguageQuestion": "O'zbek tilida “Millioner” o'yinini o'ynay olamanmi?",
-    "faqLanguageAnswer": "Ha — bu o'yinning o'zbekcha versiyasi. Har bir savol tarjima qilingan emas, balki o'zbek tilida so'zlashuvchilar uchun bevosita o'zbek tilida yozilgan, barcha rejimlar va yordamchi vositalar bepul. O'yin yana 79 ta tilda mavjud.",
+    "faqLanguageAnswer": "Ha — bu o'yinning o'zbekcha versiyasi. Savollar tarjima qilingan emas, balki o'zbek tilida so'zlashuvchilar uchun bevosita o'zbek tilida yozilgan, barcha rejimlar va yordamchi vositalar bepul. O'yin yana 79 ta tilda mavjud.",
     "languagesTitle": "O'z tilingizda o'ynang",
     "languagesSubtitle": "Har bir til o'zining mutaxassislar tomonidan tubdan tuzilgan savollariga ega — tarjima qilinmagan."
   },

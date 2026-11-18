@@ -104,7 +104,7 @@
     "faq1Question": "Ist Millionär-Quiz kostenlos?",
     "faq1Answer": "Ja. Alle Modi, alle Sprachen und alle Joker sind kostenlos – und für Klassik brauchen Sie nicht einmal ein Konto.",
     "faq2Question": "Woher kommen die Fragen?",
-    "faq2Answer": "Eine künstliche Intelligenz verfasst die Fragen direkt in Ihrer Sprache, und jede Frage wird automatisch überprüft, bevor sie im Spiel landet. Sollte doch mal ein Fehler durchrutschen, können Sie ihn mit einem Fingertipp melden.",
+    "faq2Answer": "Jede Sprache hat ihren eigenen vorbereiteten Fragenkatalog, eigens für sie geschrieben und vor der Veröffentlichung geprüft. Wenn Sie ihn durchgespielt haben, verfasst eine künstliche Intelligenz neue Fragen in Ihrer Sprache, und jede davon durchläuft automatische Prüfungen, bevor sie im Spiel landet. Wirkt eine Frage falsch, können Sie sie melden, sobald die Antwort aufgedeckt ist.",
     "faq3Question": "Wie funktionieren die Sicherheitsstufen?",
     "faq3Answer": "Beantworten Sie Frage 5 richtig, sind Ihnen {havenOne} sicher, bei Frage 10 sind es {havenTwo}. Liegen Sie später falsch, gehen Sie trotzdem mit der letzten erreichten Sicherheitsstufe nach Hause.",
     "faq4Question": "Kann ich offline spielen?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ist das das offizielle Spiel zur TV-Show?",
     "faq6Answer": "Nein. Millionär-Quiz ist ein unabhängiges, von Fans erstelltes Spiel, inspiriert vom klassischen Quizshow-Format.",
     "faqLanguageQuestion": "Kann ich „Millionär“ auf Deutsch spielen?",
-    "faqLanguageAnswer": "Ja – dies ist die deutsche Version des Spiels. Jede Frage ist auf Deutsch für deutschsprachige Spieler verfasst statt übersetzt, und jeder Modus sowie Joker ist kostenlos. Das Spiel ist auch in 79 anderen Sprachen verfügbar.",
+    "faqLanguageAnswer": "Ja – dies ist die deutsche Version des Spiels. Die Fragen sind auf Deutsch für deutschsprachige Spieler verfasst statt übersetzt, und jeder Modus sowie Joker ist kostenlos. Das Spiel ist auch in 79 anderen Sprachen verfügbar.",
     "languagesTitle": "Spielen Sie in Ihrer Sprache",
     "languagesSubtitle": "Jede Sprache hat ihre eigenen Fragen, die nativ verfasst und nicht übersetzt sind."
   },

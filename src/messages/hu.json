@@ -104,7 +104,7 @@
     "faq1Question": "Ingyenes a Milliomos kvíz?",
     "faq1Answer": "Igen. Minden játékmód, minden nyelv és minden segítség ingyenes, a Klasszikus módhoz még regisztrálni sem kell.",
     "faq2Question": "Honnan származnak a kérdések?",
-    "faq2Answer": "Egy mesterséges intelligencia alapú kérdésíró generálja őket anyanyelvi szinten a nyelveden, és minden egyes kérdést automatikusan ellenőrzünk, mielőtt bekerülne a játékba. Ha valami mégis átcsúszna, egyetlen koppintással jelentheted.",
+    "faq2Answer": "Minden nyelvnek saját, előre elkészített kérdésbankja van, amelyet kifejezetten az adott nyelvre írtak, és megjelenés előtt ellenőriztek. Ha végigjátszottad, egy mesterséges intelligencia alapú kérdésíró új kérdéseket ír a nyelveden, és mindegyik automatikus ellenőrzéseken megy át, mielőtt bekerülne a játékba. Ha egy kérdés hibásnak tűnik, a válasz felfedése után jelentheted.",
     "faq3Question": "Hogyan működik a biztos nyeremény?",
     "faq3Answer": "Ha az 5. kérdésre helyesen válaszolsz, {havenOne} biztosan a tiéd, a 10. kérdés után pedig {havenTwo}. Ha később rosszul válaszolsz, az utolsó elért biztos nyereménnyel távozol.",
     "faq4Question": "Játszhatok offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Ez a tévéműsor hivatalos játéka?",
     "faq6Answer": "Nem. A Milliomos kvíz egy független, rajongók által készített játék, amelyet a klasszikus kvízműsor formátuma ihletett.",
     "faqLanguageQuestion": "Játszhatom a „Milliomos” című játékot magyarul?",
-    "faqLanguageAnswer": "Igen — ez a játék magyar változata. Minden kérdés magyarul íródott magyar ajkú játékosok számára, nem pedig fordítás, és minden játékmód és segítség ingyenes. A játék további 79 nyelven is elérhető.",
+    "faqLanguageAnswer": "Igen — ez a játék magyar változata. A kérdések magyarul íródtak magyar ajkú játékosok számára, nem pedig fordítások, és minden játékmód és segítség ingyenes. A játék további 79 nyelven is elérhető.",
     "languagesTitle": "Játsszon a saját nyelvén",
     "languagesSubtitle": "Minden nyelvnek megvannak a saját, anyanyelven íródott – nem fordított – kérdései."
   },

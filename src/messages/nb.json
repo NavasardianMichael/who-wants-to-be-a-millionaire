@@ -104,7 +104,7 @@
     "faq1Question": "Er Millionærquiz gratis?",
     "faq1Answer": "Ja. Alle spillmoduser, alle språk og alle hjelpemidler er gratis, og du trenger ikke registrere deg for å spille Klassisk.",
     "faq2Question": "Hvor kommer spørsmålene fra?",
-    "faq2Answer": "En kunstig intelligens skriver dem direkte på språket ditt, og hvert spørsmål sjekkes automatisk før det når spillet. Hvis noe slipper gjennom, kan du rapportere det med ett trykk.",
+    "faq2Answer": "Hvert språk har sin egen ferdige spørsmålsbank, skrevet nettopp for det språket og sjekket før utgivelse. Når du har spilt deg gjennom den, skriver en kunstig intelligens nye spørsmål på språket ditt, og hvert av dem går gjennom automatiske kontroller før det når spillet. Hvis et spørsmål ser feil ut, kan du rapportere det når svaret er avslørt.",
     "faq3Question": "Hvordan fungerer de sikre trinnene?",
     "faq3Answer": "Svarer du riktig på spørsmål 5, er du garantert {havenOne}, og spørsmål 10 garanterer {havenTwo}. Svarer du feil senere, går du likevel hjem med det siste sikre trinnet du passerte.",
     "faq4Question": "Kan jeg spille uten nett?",
@@ -114,7 +114,7 @@
     "faq6Question": "Er dette det offisielle spillet fra TV-programmet?",
     "faq6Answer": "Nei. Millionærquiz er et uavhengig spill laget av fans, inspirert av det klassiske quizshow-formatet.",
     "faqLanguageQuestion": "Kan jeg spille «Millionær» på norsk?",
-    "faqLanguageAnswer": "Ja – dette er den norske versjonen av spillet. Hvert spørsmål er skrevet på norsk for norsktalende i stedet for å bli oversatt, og alle moduser og livliner er gratis. Spillet er også tilgjengelig på 79 andre språk.",
+    "faqLanguageAnswer": "Ja – dette er den norske versjonen av spillet. Spørsmålene er skrevet på norsk for norsktalende i stedet for å bli oversatt, og alle moduser og livliner er gratis. Spillet er også tilgjengelig på 79 andre språk.",
     "languagesTitle": "Spill på ditt språk",
     "languagesSubtitle": "Hvert språk har sine egne spørsmål, skrevet innfødt – ikke oversatt."
   },

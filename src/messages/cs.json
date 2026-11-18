@@ -104,7 +104,7 @@
     "faq1Question": "Je Milionářský kvíz zdarma?",
     "faq1Answer": "Ano. Všechny režimy, jazyky i nápovědy jsou zdarma a na Klasiku se nemusíš ani registrovat.",
     "faq2Question": "Odkud otázky pocházejí?",
-    "faq2Answer": "Otázky vytváří umělá inteligence přímo ve tvém jazyce a každá z nich je před zařazením do hry automaticky zkontrolována. Pokud přesto něco proklouzne, můžeš to jedním klepnutím nahlásit.",
+    "faq2Answer": "Každý jazyk má vlastní připravenou sadu otázek, napsanou přímo pro něj a zkontrolovanou před vydáním. Až ji celou projdeš, přidává umělá inteligence nové otázky ve tvém jazyce a každá z nich před zařazením do hry projde automatickými kontrolami. Pokud se ti otázka zdá chybná, můžeš ji nahlásit po odhalení odpovědi.",
     "faq3Question": "Jak fungují jistoty?",
     "faq3Answer": "Správná odpověď na 5. otázku ti zaručí {havenOne} a na 10. otázku {havenTwo}. Pokud pak na některou další otázku odpovíš špatně, odcházíš s poslední jistotou, kterou máš za sebou.",
     "faq4Question": "Můžu hrát offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Je to oficiální hra k televiznímu pořadu?",
     "faq6Answer": "Ne. Milionářský kvíz je nezávislá fanouškovská hra inspirovaná klasickým formátem televizní soutěže.",
     "faqLanguageQuestion": "Mohu hrát „Milionář“ v češtině?",
-    "faqLanguageAnswer": "Ano — toto je česká verze hry. Každá otázka je napsána v češtině pro české hráče a není překládána. Všechny režimy i nápovědy jsou zdarma. Hra je k dispozici také v 79 dalších jazycích.",
+    "faqLanguageAnswer": "Ano — toto je česká verze hry. Otázky jsou napsány v češtině pro české hráče a nejsou překládány. Všechny režimy i nápovědy jsou zdarma. Hra je k dispozici také v 79 dalších jazycích.",
     "languagesTitle": "Hrajte ve svém jazyce",
     "languagesSubtitle": "Každý jazyk má své vlastní otázky napsané přímo v daném jazyce — nejsou překládané."
   },

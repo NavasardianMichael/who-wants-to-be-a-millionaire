@@ -104,7 +104,7 @@
     "faq1Question": "Shin Gasar Miloniya kyauta ce?",
     "faq1Answer": "Ee. Duk yanayin wasa, duk harshe da duk taimako kyauta ne, kuma ba sai kun yi rajista ba kafin ku yi wasan Asali.",
     "faq2Question": "Daga ina tambayoyin suke fitowa?",
-    "faq2Answer": "Marubucin tambayoyi na ƙirƙirarriyar basira ne ke rubuta su kai tsaye a harshenku, kuma ana duba kowace tambaya kai tsaye kafin ta isa wasan. Idan wani kuskure ya kuɓuta, za ku iya ba da rahoto da taɓawa ɗaya.",
+    "faq2Answer": "Kowane harshe yana da nasa tanadin tambayoyi da aka shirya, aka rubuta musamman dominsa kuma aka duba kafin a fitar da shi. Idan kun buga su duka, marubucin tambayoyi na ƙirƙirarriyar basira yana ƙara sababbin tambayoyi a harshenku, kuma kowace ɗaya tana wucewa ta binciken atomatik kafin ta isa wasan. Idan tambaya ta yi kamar ba daidai ba ce, za ku iya ba da rahoto bayan an bayyana amsar.",
     "faq3Question": "Yaya matakan tsira suke aiki?",
     "faq3Answer": "Amsa tambaya ta 5 daidai tana tabbatar muku da {havenOne}, tambaya ta 10 kuma tana tabbatar da {havenTwo}. Idan kuka yi kuskure a wata tambaya daga baya, za ku tafi da matakin tsira na ƙarshe da kuka wuce.",
     "faq4Question": "Zan iya yin wasa ba tare da intanet ba?",
@@ -114,7 +114,7 @@
     "faq6Question": "Shin wannan shi ne wasan hukuma na shirin talabijin?",
     "faq6Answer": "A'a. Gasar Miloniya wasa ne mai zaman kansa da masoya suka ƙirƙira, wanda aka gina bisa tsarin shahararren shirin gasar tambayoyi.",
     "faqLanguageQuestion": "Shin zan iya buga wasan “Miloniya” cikin harshen Hausa?",
-    "faqLanguageAnswer": "E — wannan ita ce sigar wasan ta Hausa. An rubuta kowace tambaya da Hausa ga masu jin Hausa maimakon fassara su, kuma kowane salo da tallafi kyauta ne. Wasan yana samuwa kuma cikin wasu harsuna 79.",
+    "faqLanguageAnswer": "E — wannan ita ce sigar wasan ta Hausa. An rubuta tambayoyin da Hausa ga masu jin Hausa maimakon fassara su, kuma kowane salo da tallafi kyauta ne. Wasan yana samuwa kuma cikin wasu harsuna 79.",
     "languagesTitle": "Yi wasa cikin harshenku",
     "languagesSubtitle": "Kowane harshe yana da nasa tambayoyin, waɗanda aka rubuta su asali — ba tare da fassara su ba."
   },

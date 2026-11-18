@@ -104,7 +104,7 @@
     "faq1Question": "Apakah Kuis Miliarder gratis?",
     "faq1Answer": "Ya. Semua mode, semua bahasa, dan semua bantuan bisa dimainkan gratis, dan mode Klasik tidak perlu daftar.",
     "faq2Question": "Dari mana pertanyaannya berasal?",
-    "faq2Answer": "Penulis pertanyaan kecerdasan buatan membuatnya langsung dalam bahasa Anda, dan setiap pertanyaan diperiksa secara otomatis sebelum sampai ke permainan. Jika ada yang terlewat, Anda bisa melaporkannya dalam sekali ketuk.",
+    "faq2Answer": "Setiap bahasa memiliki bank pertanyaan sendiri yang sudah disiapkan, ditulis khusus untuk bahasa tersebut dan diperiksa sebelum dirilis. Setelah Anda memainkan semuanya, penulis pertanyaan kecerdasan buatan menambahkan pertanyaan baru dalam bahasa Anda, dan masing-masing melewati pemeriksaan otomatis sebelum sampai ke permainan. Jika sebuah pertanyaan tampak salah, Anda bisa melaporkannya setelah jawabannya ditampilkan.",
     "faq3Question": "Bagaimana cara kerja batas aman?",
     "faq3Answer": "Menjawab pertanyaan 5 dengan benar menjamin {havenOne}, dan pertanyaan 10 menjamin {havenTwo}. Kalau Anda salah menjawab pertanyaan berikutnya, Anda tetap pulang membawa hadiah batas aman terakhir yang Anda lewati.",
     "faq4Question": "Bisakah saya main offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Apakah ini game resmi acara TV-nya?",
     "faq6Answer": "Tidak. Kuis Miliarder adalah permainan independen buatan penggemar yang terinspirasi dari format kuis klasik.",
     "faqLanguageQuestion": "Bisakah saya bermain “Miliarder” dalam bahasa Indonesia?",
-    "faqLanguageAnswer": "Ya — ini adalah versi bahasa Indonesia dari permainan ini. Setiap pertanyaan ditulis dalam bahasa Indonesia untuk penutur bahasa Indonesia alih-alih diterjemahkan, dan setiap mode serta bantuan tidak dipungut biaya. Permainan ini juga tersedia dalam 79 bahasa lainnya.",
+    "faqLanguageAnswer": "Ya — ini adalah versi bahasa Indonesia dari permainan ini. Pertanyaannya ditulis dalam bahasa Indonesia untuk penutur bahasa Indonesia alih-alih diterjemahkan, dan setiap mode serta bantuan tidak dipungut biaya. Permainan ini juga tersedia dalam 79 bahasa lainnya.",
     "languagesTitle": "Bermain dalam bahasa Anda",
     "languagesSubtitle": "Setiap bahasa memiliki pertanyaannya sendiri, ditulis secara asli — bukan diterjemahkan."
   },

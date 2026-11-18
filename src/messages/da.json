@@ -104,7 +104,7 @@
     "faq1Question": "Er Millionærquiz gratis?",
     "faq1Answer": "Ja. Alle spiltyper, alle sprog og alle hjælpemidler er gratis, og du behøver ikke at oprette dig for at spille Klassisk.",
     "faq2Question": "Hvor kommer spørgsmålene fra?",
-    "faq2Answer": "En kunstig intelligens skriver dem direkte på dit sprog, og hvert eneste spørgsmål tjekkes automatisk, før det når frem til spillet. Hvis der smutter noget igennem, kan du rapportere det med et enkelt tryk.",
+    "faq2Answer": "Hvert sprog har sin egen forberedte spørgsmålsbank, skrevet til netop det sprog og tjekket før udgivelse. Når du har spillet den igennem, tilføjer en kunstig intelligens nye spørgsmål på dit sprog, og hvert af dem gennemgår automatiske tjek, før det når frem til spillet. Hvis et spørgsmål ser forkert ud, kan du rapportere det, når svaret er afsløret.",
     "faq3Question": "Hvordan fungerer de sikre trin?",
     "faq3Answer": "Svarer du rigtigt på spørgsmål 5, er du sikret {havenOne}, og spørgsmål 10 sikrer dig {havenTwo}. Svarer du forkert senere, går du stadig hjem med det sidste sikre trin, du har passeret.",
     "faq4Question": "Kan jeg spille offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Er det det officielle spil fra tv-programmet?",
     "faq6Answer": "Nej. Millionærquiz er et uafhængigt spil lavet af fans, inspireret af det klassiske quizshow-format.",
     "faqLanguageQuestion": "Kan jeg spille “Millionær” på dansk?",
-    "faqLanguageAnswer": "Ja — dette er den danske version af spillet. Alle spørgsmål er skrevet på dansk til dansktalende i stedet for at være oversat, og alle tilstande og livliner er gratis. Spillet er også tilgængeligt på 79 andre sprog.",
+    "faqLanguageAnswer": "Ja — dette er den danske version af spillet. Spørgsmålene er skrevet på dansk til dansktalende i stedet for at være oversat, og alle tilstande og livliner er gratis. Spillet er også tilgængeligt på 79 andre sprog.",
     "languagesTitle": "Spil på dit sprog",
     "languagesSubtitle": "Hvert sprog har sine egne spørgsmål, skrevet på sproget selv – ikke oversat."
   },

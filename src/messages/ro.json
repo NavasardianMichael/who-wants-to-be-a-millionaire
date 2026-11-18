@@ -104,7 +104,7 @@
     "faq1Question": "Este Testul Milionarului gratuit?",
     "faq1Answer": "Da. Toate modurile, toate limbile și toate ajutoarele sunt gratuite, iar pentru modul Clasic nici nu ai nevoie de cont.",
     "faq2Question": "De unde vin întrebările?",
-    "faq2Answer": "Un sistem de inteligență artificială creează întrebările direct în limba ta, iar fiecare întrebare este verificată automat înainte de a ajunge în joc. Dacă scapă ceva, poți semnala problema dintr-o singură atingere.",
+    "faq2Answer": "Fiecare limbă are propria bancă de întrebări pregătită, scrisă special pentru ea și verificată înainte de publicare. După ce o termini, un sistem de inteligență artificială adaugă întrebări noi în limba ta, iar fiecare trece prin verificări automate înainte de a ajunge în joc. Dacă o întrebare pare greșită, o poți semnala după ce răspunsul este dezvăluit.",
     "faq3Question": "Cum funcționează sumele garantate?",
     "faq3Answer": "Un răspuns corect la întrebarea 5 îți garantează {havenOne}, iar la întrebarea 10 îți garantează {havenTwo}. Dacă greșești o întrebare ulterioară, pleci totuși cu ultima sumă garantată atinsă.",
     "faq4Question": "Pot juca offline?",
@@ -114,7 +114,7 @@
     "faq6Question": "Este acesta jocul oficial al emisiunii TV?",
     "faq6Answer": "Nu. Testul Milionarului este un joc independent, creat de fani, inspirat de formatul clasic de concurs.",
     "faqLanguageQuestion": "Pot juca „Milionarul” în română?",
-    "faqLanguageAnswer": "Da — aceasta este versiunea în limba română a jocului. Fiecare întrebare este scrisă în română pentru vorbitorii de limba română, nu este tradusă, iar fiecare mod și ajutor este gratuit. Jocul este disponibil și în alte 79 de limbi.",
+    "faqLanguageAnswer": "Da — aceasta este versiunea în limba română a jocului. Întrebările sunt scrise în română pentru vorbitorii de limba română, nu sunt traduse, iar fiecare mod și ajutor este gratuit. Jocul este disponibil și în alte 79 de limbi.",
     "languagesTitle": "Joacă în limba ta",
     "languagesSubtitle": "Fiecare limbă are propriile întrebări, scrise nativ — nu traduse."
   },

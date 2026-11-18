@@ -104,7 +104,7 @@
     "faq1Question": "Đố Vui Triệu Phú có miễn phí không?",
     "faq1Answer": "Có. Mọi chế độ, mọi ngôn ngữ và mọi quyền trợ giúp đều miễn phí, và chơi Cổ điển không cần đăng ký.",
     "faq2Question": "Câu hỏi lấy từ đâu?",
-    "faq2Answer": "Trình soạn câu hỏi bằng trí tuệ nhân tạo viết chúng trực tiếp bằng ngôn ngữ của bạn, và mọi câu hỏi đều được kiểm tra tự động trước khi đưa vào trò chơi. Nếu có câu nào lọt lưới, bạn có thể báo lỗi chỉ với một lần chạm.",
+    "faq2Answer": "Mỗi ngôn ngữ có ngân hàng câu hỏi soạn sẵn của riêng mình, được viết riêng cho ngôn ngữ đó và kiểm tra trước khi phát hành. Khi bạn đã chơi hết, trình soạn câu hỏi bằng trí tuệ nhân tạo sẽ thêm câu hỏi mới bằng ngôn ngữ của bạn, và mỗi câu đều qua các bước kiểm tra tự động trước khi đưa vào trò chơi. Nếu một câu hỏi có vẻ sai, bạn có thể báo lỗi sau khi đáp án được công bố.",
     "faq3Question": "Mốc an toàn hoạt động thế nào?",
     "faq3Answer": "Trả lời đúng câu 5 đảm bảo cho bạn {havenOne}, và câu 10 đảm bảo {havenTwo}. Nếu trả lời sai một câu sau đó, bạn vẫn ra về với mức tiền của mốc an toàn gần nhất đã vượt qua.",
     "faq4Question": "Tôi có thể chơi ngoại tuyến không?",
@@ -114,7 +114,7 @@
     "faq6Question": "Đây có phải trò chơi chính thức của chương trình truyền hình không?",
     "faq6Answer": "Không. Đố Vui Triệu Phú là một trò chơi độc lập do người hâm mộ tạo ra, lấy cảm hứng từ định dạng chương trình đố vui cổ điển.",
     "faqLanguageQuestion": "Tôi có thể chơi “Triệu Phú” bằng tiếng Việt không?",
-    "faqLanguageAnswer": "Có — đây là phiên bản tiếng Việt của trò chơi. Mọi câu hỏi đều được viết bằng tiếng Việt cho người nói tiếng Việt thay vì dịch thuật, và mọi chế độ cũng như quyền trợ giúp đều miễn phí. Trò chơi cũng có sẵn bằng 79 ngôn ngữ khác.",
+    "faqLanguageAnswer": "Có — đây là phiên bản tiếng Việt của trò chơi. Các câu hỏi được viết bằng tiếng Việt cho người nói tiếng Việt thay vì dịch thuật, và mọi chế độ cũng như quyền trợ giúp đều miễn phí. Trò chơi cũng có sẵn bằng 79 ngôn ngữ khác.",
     "languagesTitle": "Chơi bằng ngôn ngữ của bạn",
     "languagesSubtitle": "Mỗi ngôn ngữ đều có bộ câu hỏi riêng, được viết bản địa — không phải dịch thuật."
   },

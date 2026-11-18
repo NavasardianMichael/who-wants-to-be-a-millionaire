@@ -104,7 +104,7 @@
     "faq1Question": "Asọmpi Nde ọ bụ n'efu?",
     "faq1Answer": "Ee. Ụdị egwuregwu ọ bụla, asụsụ ọ bụla na enyemaka ọ bụla bụ n'efu, ọ dịghịkwa mkpa ịdebanye aha maka Ọdịnala.",
     "faq2Question": "Ebee ka ajụjụ ndị a si?",
-    "faq2Answer": "Ọgụgụ isi arụrụ arụ na-ede ha kpọmkwem n'asụsụ gị, a na-enyochakwa ajụjụ ọ bụla na-akpaghị aka tupu ọ abata n'egwuregwu. Ọ bụrụ na ihe ezighi ezi agafee, ị nwere ike ịkọ ya n'otu mpị.",
+    "faq2Answer": "Asụsụ ọ bụla nwere ụlọ ajụjụ nke ya a kwadebere, nke e dere maka ya ma nyochaa tupu e wepụta ya. Mgbe ị gwuchara ha, ọgụgụ isi arụrụ arụ na-agbakwunye ajụjụ ọhụrụ n'asụsụ gị, ajụjụ ọ bụla na-agafekwa nyocha na-akpaghị aka tupu ọ abata n'egwuregwu. Ọ bụrụ na ajụjụ adịghị ka ọ ziri ezi, ị nwere ike ịkọ ya mgbe e gosiri azịza ya.",
     "faq3Question": "Kedu ka ebe nchekwa si arụ ọrụ?",
     "faq3Answer": "Ịza ajụjụ 5 nke ọma na-ekwe gị nkwa {havenOne}, ajụjụ 10 na-ekwekwa gị nkwa {havenTwo}. Ọ bụrụ na ị zahie ajụjụ ọzọ e mesịa, ị ka ga-eji ego ebe nchekwa ikpeazụ i ruru pụọ.",
     "faq4Question": "Enwere m ike igwu egwu na-enweghị ịntanetị?",
@@ -114,7 +114,7 @@
     "faq6Question": "Nke a ọ bụ egwuregwu mmemme televishọn ahụ n'onwe ya?",
     "faq6Answer": "Mba. Asọmpi Nde bụ egwuregwu nọọrọ onwe ya nke ndị hụrụ ya n'anya mere, nke usoro mmemme asọmpi ajụjụ ọdịnala kpaliri.",
     "faqLanguageQuestion": "Enwere m ike ịkpọ „Asọmpi Nde“ n'asụsụ Igbo?",
-    "faqLanguageAnswer": "Ee — a bụ ụdị egwuregwu nke asụsụ Igbo. A na-ede ajụjụ ọ bụla n'asụsụ Igbo maka ndị na-asụ asụsụ Igbo kama ịtụgharị ya, ma ọnọdụ ọ bụla na enyemaka ọ bụla bụ n'efu. E nwekwara egwuregwu a n'asụsụ 79 ndị ọzọ.",
+    "faqLanguageAnswer": "Ee — a bụ ụdị egwuregwu nke asụsụ Igbo. E dere ajụjụ ndị a n'asụsụ Igbo maka ndị na-asụ asụsụ Igbo kama ịtụgharị ha, ma ọnọdụ ọ bụla na enyemaka ọ bụla bụ n'efu. E nwekwara egwuregwu a n'asụsụ 79 ndị ọzọ.",
     "languagesTitle": "Kpọọ n'asụsụ gị",
     "languagesSubtitle": "Asụsụ ọ bụla nwere ajụjụ nke ya, e dere ha n'ala n'ala — ọ bụghị nsụgharị."
   },
