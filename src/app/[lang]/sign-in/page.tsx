@@ -16,7 +16,12 @@ export default async function SignInPage() {
   const t = await getTranslations('Auth')
   return (
     <>
-      <PageHeader title={t('signInTitle')} subtitle={t('signInSubtitle')} className='items-center text-center' />
+      <PageHeader
+        title={t('signInTitle')}
+        subtitle={t('signInSubtitle')}
+        className='items-center text-center'
+        subtitleClassName='text-body-sm sm:text-body'
+      />
       <div className='container-page flex justify-center pb-16'>
         <Card tone='gold' className='w-full max-w-md'>
           <SignInView />
