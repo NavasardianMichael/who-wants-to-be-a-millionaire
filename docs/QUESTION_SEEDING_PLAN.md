@@ -52,8 +52,14 @@ From the production numbers of 19 Nov 2026 (the queries are below). Ranked phase
 | 7 | Classic | sk | Slovak | 15 | 0 | 0 | L1–L2 never-shown 0 |
 | 8 | Classic | pl | Polish | 10 | 3 | 0 | L1, L3 never-shown 0 |
 
-Packs of three: **mk, ru, lt** · **fr (ranked), sq, sr** · **sk, pl**. Then **stop and re-run the
-queries** before seeding more.
+Packs of three: **mk, ru, lt** · **fr (ranked), sq, sr** · **sk, pl**, all three pushed on
+19 Nov 2026. Next: **re-run the queries** (blocks 1 and 4 at least) a few days after that
+deploy, and check that these languages stopped calling Gemini, before seeding more.
+
+Review notes from these packs: writers still reach for school-textbook globals (CO₂ in fizzy
+drinks, the hummingbird flying backwards, Orwell's 1984, Vivaldi's Four Seasons, the Fibonacci
+sequence, Tereshkova, bromine as the liquid non-metal) even after a self-check. Read every global
+question, at every level, not only level 1.
 
 Next candidates, if the queries show calls there: Classic hr, el, ar, ka, kk (every level-1
 question already shown, little recent spend); languages with no AI pool at all where a failed

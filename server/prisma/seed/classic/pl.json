@@ -748,5 +748,755 @@
     ],
     "correctIndex": 0,
     "gloss": "Which country won the first football World Cup in 1930, played on its own soil? — Uruguay (beat Argentina 4-2 in the final)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na czym polega tradycyjny śmigus-dyngus w Poniedziałek Wielkanocny?",
+    "options": [
+      "Na oblewaniu się wodą",
+      "Na paleniu kukły zimy",
+      "Na malowaniu pisanek",
+      "Na chodzeniu z kolędą"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the traditional śmigus-dyngus on Easter Monday? — Pouring water over each other (lany poniedziałek)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Którą górską miejscowość, znaną z deptaku Krupówki, nazywamy zimową stolicą Polski?",
+    "options": [
+      "Karpacz",
+      "Szczyrk",
+      "Krynica-Zdrój",
+      "Zakopane"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which mountain town with the Krupówki promenade is the winter capital of Poland? — Zakopane."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rocznicę czego obchodzimy w Polsce w święto państwowe 3 maja?",
+    "options": [
+      "Chrztu Mieszka I",
+      "Koronacji Bolesława Chrobrego",
+      "Odzyskania niepodległości w 1918 roku",
+      "Uchwalenia konstytucji z 1791 roku"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does the 3 May state holiday commemorate? — The Constitution of 3 May 1791."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Które z tych słów brzmi dokładnie tak samo jak „morze”, choć zapisujemy je inaczej?",
+    "options": [
+      "może",
+      "mogę",
+      "moje",
+      "mózg"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which word sounds exactly like \"morze\" (sea) but is spelled differently? — \"może\" (maybe/can); rz and ż are the same sound."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Wigilia, czyli 24 grudnia, wypada we wtorek. W jaki dzień tygodnia będzie Nowy Rok?",
+    "options": [
+      "W środę",
+      "We wtorek",
+      "W czwartek",
+      "W piątek"
+    ],
+    "correctIndex": 0,
+    "gloss": "Christmas Eve falls on a Tuesday. What weekday is New Year's Day? — Wednesday: 24 Dec to 1 Jan is 8 days, one weekday on from Tuesday."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto jest autorem wierszy „Kaczka dziwaczka” i „Na straganie”?",
+    "options": [
+      "Julian Tuwim",
+      "Maria Konopnicka",
+      "Aleksander Fredro",
+      "Jan Brzechwa"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote \"Kaczka dziwaczka\" and \"Na straganie\"? — Jan Brzechwa (Tuwim wrote \"Lokomotywa\")."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który skrót klawiszowy cofa ostatnią czynność w większości programów na komputerze z Windowsem?",
+    "options": [
+      "Ctrl+Y",
+      "Ctrl+X",
+      "Ctrl+S",
+      "Ctrl+Z"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which shortcut undoes the last action in most Windows programs? — Ctrl+Z (Ctrl+Y redoes)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak nazywamy w piłce nożnej pozycję, w której napastnik w chwili podania jest bliżej bramki niż piłka i przedostatni obrońca?",
+    "options": [
+      "Spalony",
+      "Rzut rożny",
+      "Aut",
+      "Rzut wolny"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is it called in football when an attacker is nearer the goal than the ball and the second-last defender at the moment of the pass? — Offside (spalony)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Którą kultową grę, w której układa się spadające klocki, stworzył w 1984 roku w Moskwie Aleksiej Pażytnow?",
+    "options": [
+      "Tetris",
+      "Pac-Man",
+      "Pong",
+      "Snake"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which cult falling-blocks game did Alexey Pajitnov create in Moscow in 1984? — Tetris."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co oznacza włoskie „al dente” w odniesieniu do ugotowanego makaronu?",
+    "options": [
+      "Że jest bardzo miękki i rozgotowany",
+      "Że jest podany z parmezanem",
+      "Że jest ugotowany bez soli",
+      "Że stawia lekki opór przy gryzieniu"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does Italian \"al dente\" mean for cooked pasta? — Firm to the bite."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "W piekarni trwa promocja: „co drugi chleb za pół ceny”. Bochenek kosztuje 6 zł. Ile zapłacisz za trzy bochenki?",
+    "options": [
+      "12 zł",
+      "13,50 zł",
+      "15 zł",
+      "18 zł"
+    ],
+    "correctIndex": 2,
+    "gloss": "Every second loaf is half price; a loaf costs 6 zł; three loaves? — 15 zł: 6 + 3 + 6 (the third is full price again)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Z którym z tych państw Niemcy nie mają wspólnej granicy?",
+    "options": [
+      "Austria",
+      "Dania",
+      "Szwajcaria",
+      "Włochy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these does Germany not border? — Italy; Austria, Denmark and Switzerland all share a border with it."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co oznacza napis „najlepiej spożyć przed” na opakowaniu jogurtu czy makaronu?",
+    "options": [
+      "Jest już niebezpieczny dla zdrowia",
+      "Traci jakość, ale zwykle nie szkodzi",
+      "Jest to data jego produkcji",
+      "Nie wolno go już sprzedawać w sklepie"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does \"najlepiej spożyć przed\" (best before) on a package mean? — Past that date the product may lose quality but is usually not yet harmful."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W jakiej dyscyplinie zdobywała medale mistrzostw świata i igrzysk olimpijskich Otylia Jędrzejczak?",
+    "options": [
+      "W pływaniu",
+      "W lekkoatletyce",
+      "W wioślarstwie",
+      "W szermierce"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did Otylia Jędrzejczak win world and Olympic medals? — Swimming (butterfly)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który z tych przedmiotów nie powinien trafić do kuchenki mikrofalowej?",
+    "options": [
+      "Szklany talerz",
+      "Ceramiczny kubek",
+      "Papierowy talerz",
+      "Metalowy widelec"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these should not go in a microwave oven? — A metal fork (it can cause sparks)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Skąd bierze się charakterystyczny kwaśny smak tradycyjnego żurku?",
+    "options": [
+      "Z octu winnego",
+      "Z kiszonych ogórków",
+      "Z zakwasu na mące żytniej",
+      "Z soku z cytryny"
+    ],
+    "correctIndex": 2,
+    "gloss": "Where does the sour taste of traditional żurek come from? — A fermented rye-flour starter."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Gdzie według polskiej legendy osiadł Pan Twardowski po spotkaniu z diabłem?",
+    "options": [
+      "Na Marsie",
+      "Na Księżycu",
+      "Na Wenus",
+      "Na Słońcu"
+    ],
+    "correctIndex": 1,
+    "gloss": "Where, in the Polish legend, did Pan Twardowski end up after the devil's deal? — On the Moon."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W którym polskim mieście można zobaczyć „Damę z gronostajem” Leonarda da Vinci?",
+    "options": [
+      "W Krakowie",
+      "W Warszawie",
+      "W Gdańsku",
+      "We Wrocławiu"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Polish city can you see Leonardo's \"Lady with an Ermine\"? — Kraków (Czartoryski Museum collection)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co znaczy w zapisie nutowym włoskie słowo „piano”, od którego pochodzi nazwa pianina?",
+    "options": [
+      "Grać głośno",
+      "Grać szybko",
+      "Grać wolno",
+      "Grać cicho"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does Italian \"piano\" mean in sheet music? — Softly (the instrument is short for pianoforte, soft-loud)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które zwierzę ma odciski palców tak podobne do ludzkich, że pod mikroskopem trudno je odróżnić?",
+    "options": [
+      "Kot domowy",
+      "Pies",
+      "Koala",
+      "Wydra"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which animal has fingerprints so similar to human ones that they are hard to tell apart under a microscope? — The koala."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Błysk pioruna zobaczyłeś, a grzmot usłyszałeś dopiero po 6 sekundach. Dźwięk pokonuje około 340 metrów na sekundę. Jak daleko uderzył piorun?",
+    "options": [
+      "Około 500 m",
+      "Około 2 km",
+      "Około 6 km",
+      "Około 20 km"
+    ],
+    "correctIndex": 1,
+    "gloss": "Thunder 6 s after the flash at 340 m/s — how far? — About 2 km (6 × 340 ≈ 2040 m; light arrives instantly)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W której krainie leżą Giżycko, Mikołajki i Ruciane-Nida?",
+    "options": [
+      "Na Kaszubach",
+      "Na Mazurach",
+      "Na Podhalu",
+      "Na Roztoczu"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which region are Giżycko, Mikołajki and Ruciane-Nida? — Masuria (Mazury), the Great Masurian Lakes."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Na kamienicy widnieje rok zapisany cyframi rzymskimi: MCMXCI. Jaki to rok?",
+    "options": [
+      "1891",
+      "1981",
+      "1991",
+      "2091"
+    ],
+    "correctIndex": 2,
+    "gloss": "Roman numeral MCMXCI — which year? — 1991: M 1000 + CM 900 + XC 90 + I 1."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto stworzył Muminki, mieszkające w Dolinie Muminków?",
+    "options": [
+      "Tove Jansson",
+      "Astrid Lindgren",
+      "Selma Lagerlöf",
+      "Hans Christian Andersen"
+    ],
+    "correctIndex": 0,
+    "gloss": "Who created the Moomins? — Tove Jansson, Finnish author."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Co znaczy polskie powiedzenie, że ktoś „wpadł jak śliwka w kompot”?",
+    "options": [
+      "Zrobił coś z wielką przyjemnością",
+      "Dostał niespodziewany prezent",
+      "Nagle wpadł w dobry humor",
+      "Znalazł się w kłopotliwej sytuacji"
+    ],
+    "correctIndex": 3,
+    "gloss": "What does \"wpaść jak śliwka w kompot\" mean? — To land in an awkward predicament."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jak nazywa się w tenisie wynik 40:40 w gemie?",
+    "options": [
+      "Przewaga",
+      "Tie-break",
+      "Równowaga",
+      "Remis"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is 40–40 in a tennis game called? — Deuce (równowaga)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Co oznacza skrót „QR” w nazwie kodu QR, który skanujemy telefonem?",
+    "options": [
+      "Quality Reader",
+      "Quick Response",
+      "Quick Reader",
+      "Quantum Record"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does \"QR\" in QR code stand for? — Quick Response."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Co robi się podczas andrzejkowych wróżb, by zajrzeć w przyszłość?",
+    "options": [
+      "Leje się gorący wosk przez dziurkę od klucza",
+      "Rzuca się monety do studni",
+      "Wiąże się wstążki na drzewie",
+      "Zapala się świeczkę w oknie"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is done during Andrzejki fortune-telling? — Hot wax is poured through a key hole."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Po polsku miliard to tysiąc milionów, a bilion to tysiąc miliardów. Ile zer ma zapis liczby jeden bilion?",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "correctIndex": 1,
+    "gloss": "In Polish a miliard is 1000 million and a bilion 1000 miliard. Zeros in one bilion? — 12 (10^12; the English \"billion\" is only 10^9)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ile jest różnych czterocyfrowych kodów PIN, jeśli każda cyfra może być dowolna od 0 do 9, a kod 0000 też jest dozwolony?",
+    "options": [
+      "1 000",
+      "9 999",
+      "10 000",
+      "100 000"
+    ],
+    "correctIndex": 2,
+    "gloss": "How many four-digit PINs with digits 0–9 (0000 allowed)? — 10 000 (10^4)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "O północy w sylwestra sześć osób stuka się kieliszkami, każda z każdą dokładnie raz. Ile będzie wszystkich stuknięć?",
+    "options": [
+      "12",
+      "15",
+      "30",
+      "36"
+    ],
+    "correctIndex": 1,
+    "gloss": "Six people clink glasses, each pair once — how many clinks? — 15 (6×5÷2); 30 double-counts every pair."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Stoisz na wadze łazienkowej w windzie. W chwili, gdy winda rusza w górę, waga na moment pokaże:",
+    "options": [
+      "Mniej niż zwykle",
+      "Dokładnie tyle samo",
+      "Więcej niż zwykle",
+      "Zero"
+    ],
+    "correctIndex": 2,
+    "gloss": "Standing on a bathroom scale in a lift that starts moving up, the scale briefly shows? — More than usual: the floor must also accelerate you upward."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który król ufundował największy dzwon katedry na Wawelu, odlany w 1520 roku i noszący jego imię?",
+    "options": [
+      "Zygmunt III Waza",
+      "Stefan Batory",
+      "Jan III Sobieski",
+      "Zygmunt I Stary"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which king funded the great Wawel Cathedral bell cast in 1520 and named after him? — Sigismund I the Old (the \"Zygmunt\" bell)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który z tych instrumentów dętych drewnianych ma stroik podwójny?",
+    "options": [
+      "Klarnet",
+      "Saksofon",
+      "Obój",
+      "Flet poprzeczny"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these woodwinds has a double reed? — The oboe (clarinet and sax have a single reed, the flute none)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który ze śmiertelnie trujących grzybów bywa mylony z pieczarką?",
+    "options": [
+      "Kania",
+      "Muchomor sromotnikowy",
+      "Borowik szlachetny",
+      "Maślak"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which deadly mushroom is often mistaken for a field mushroom? — The death cap (muchomor sromotnikowy)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który smak uznaje się za piąty podstawowy, obok słodkiego, słonego, kwaśnego i gorzkiego?",
+    "options": [
+      "Umami",
+      "Ostry",
+      "Cierpki",
+      "Tłusty"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which taste is the fifth basic one next to sweet, salty, sour and bitter? — Umami."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kto jest autorem powieści „Ferdydurke”?",
+    "options": [
+      "Bruno Schulz",
+      "Stanisław Lem",
+      "Sławomir Mrożek",
+      "Witold Gombrowicz"
+    ],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novel \"Ferdydurke\"? — Witold Gombrowicz."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Rzut jakim przyrządem przyniósł Anicie Włodarczyk złoto olimpijskie w Rio de Janeiro w 2016 roku?",
+    "options": [
+      "Oszczepem",
+      "Dyskiem",
+      "Młotem",
+      "Kulą"
+    ],
+    "correctIndex": 2,
+    "gloss": "Throwing which implement won Anita Włodarczyk Olympic gold in Rio 2016? — The hammer (with a world record)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który polski kompozytor jest autorem „Pasji według św. Łukasza” z 1966 roku?",
+    "options": [
+      "Witold Lutosławski",
+      "Krzysztof Penderecki",
+      "Henryk Mikołaj Górecki",
+      "Karol Szymanowski"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Polish composer wrote the St Luke Passion of 1966? — Krzysztof Penderecki."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "W którym mieście uruchomiono w 1863 roku pierwszą na świecie linię metra?",
+    "options": [
+      "W Londynie",
+      "W Paryżu",
+      "W Nowym Jorku",
+      "W Berlinie"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which city did the world's first underground railway open in 1863? — London (Metropolitan Railway)."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Które z tych polskich słów, choć brzmi zupełnie swojsko, przywędrowało do polszczyzny z języka niemieckiego?",
+    "options": [
+      "Makaron",
+      "Bagaż",
+      "Parasol",
+      "Ratusz"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Polish word came from German? — \"ratusz\" (from Rathaus); makaron and parasol are Italian, bagaż is French."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kto napisał „Sto lat samotności”?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Jorge Luis Borges",
+      "Gabriel García Márquez",
+      "Julio Cortázar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who wrote \"One Hundred Years of Solitude\"? — Gabriel García Márquez."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na szczycie Mont Blanc (4808 m) ciśnienie powietrza jest niższe niż nad morzem. W jakiej mniej więcej temperaturze wrze tam woda?",
+    "options": [
+      "Około 70°C",
+      "Około 85°C",
+      "Około 100°C",
+      "Około 110°C"
+    ],
+    "correctIndex": 1,
+    "gloss": "Boiling point of water on Mont Blanc (4808 m)? — About 85°C: lower air pressure lowers the boiling point."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Który artysta jest zarazem autorem dramatu „Wesele” i witraża „Bóg Ojciec – Stań się” w krakowskim kościele Franciszkanów?",
+    "options": [
+      "Józef Mehoffer",
+      "Stanisław Wyspiański",
+      "Jacek Malczewski",
+      "Jan Matejko"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which artist wrote the play \"Wesele\" and designed the stained glass \"God the Father – Let it be\" in Kraków's Franciscan church? — Stanisław Wyspiański."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Trutnie pszczoły miodnej rozwijają się z jaj, które królowa złożyła bez zapłodnienia. Ilu ojców ma więc truteń?",
+    "options": [
+      "Żadnego",
+      "Jednego",
+      "Dwóch",
+      "Wielu"
+    ],
+    "correctIndex": 0,
+    "gloss": "Honeybee drones develop from unfertilised eggs. How many fathers does a drone have? — None."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "W którym średniowiecznym dokumencie z około 1270 roku zapisano najstarsze znane zdanie po polsku: „Daj, ać ja pobruszę, a ty poczywaj”?",
+    "options": [
+      "W Kazaniach świętokrzyskich",
+      "W Bogurodzicy",
+      "W Psałterzu floriańskim",
+      "W Księdze henrykowskiej"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which medieval document of about 1270 is the oldest known Polish sentence written? — The Book of Henryków (Księga henrykowska)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który amerykański rzeźbiarz wynalazł mobile, czyli zawieszone rzeźby poruszane powiewem powietrza?",
+    "options": [
+      "Henry Moore",
+      "Alberto Giacometti",
+      "Alexander Calder",
+      "Constantin Brâncuși"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which American sculptor invented the mobile? — Alexander Calder."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Które miasto od 2005 roku jest stolicą Mjanmy, zastępując w tej roli dawną stolicę, Rangun?",
+    "options": [
+      "Mandalaj",
+      "Naypyidaw",
+      "Pegu",
+      "Bagan"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which city has been the capital of Myanmar since 2005, replacing Yangon? — Naypyidaw."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "W 1582 roku papież Grzegorz XIII zreformował kalendarz. Jaka data następowała w Rzymie bezpośrednio po 4 października?",
+    "options": [
+      "5 października",
+      "10 października",
+      "15 października",
+      "24 października"
+    ],
+    "correctIndex": 2,
+    "gloss": "After the Gregorian reform of 1582, which date followed 4 October in Rome? — 15 October (ten days were skipped)."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Który pisarz w 1964 roku odmówił przyjęcia Literackiej Nagrody Nobla?",
+    "options": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Samuel Beckett",
+      "Ernest Hemingway"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which writer declined the Nobel Prize in Literature in 1964? — Jean-Paul Sartre."
   }
 ]
