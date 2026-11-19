@@ -46,9 +46,17 @@ type LevelCounts = Record<Level, number>
  * phase appends its totals, and its writers add the difference to the existing file.
  */
 export const LEVEL_TARGETS: Record<SeedKind, readonly LevelCounts[]> = {
-  classic: [{ 1: 10, 2: 10, 3: 10, 4: 10, 5: 10 }],
-  // A run climbs a level every five correct answers and most end early: 56% of ranked serves are level 1.
-  ranked: [{ 1: 28, 2: 14, 3: 5, 4: 2, 5: 1 }],
+  classic: [
+    { 1: 10, 2: 10, 3: 10, 4: 10, 5: 10 },
+    // +50, weighted low: a device excludes only questions it showed, so levels 1-3 run dry first.
+    { 1: 25, 2: 23, 3: 20, 4: 17, 5: 15 },
+  ],
+  ranked: [
+    // A run climbs a level every five correct answers and most end early: 56% of ranked serves are level 1.
+    { 1: 28, 2: 14, 3: 5, 4: 2, 5: 1 },
+    // +50 where keen players exhaust the reserve; a run that reaches a level wants up to five there.
+    { 1: 48, 2: 29, 3: 15, 4: 5, 5: 3 },
+  ],
 }
 
 /** The newest phase's totals: what a writer fills a file to. */
@@ -177,7 +185,7 @@ export const checkSeed = (locale: string, kind: SeedKind, questions: SeedQuestio
   }
   // A level of a handful of questions (ranked levels 4-5) may be all fact.
   for (const level of LEVELS) {
-    if (targets[level] < 5) continue
+    if (targets[level] <= 5) continue
     if (!questions.some((question) => question.level === level && question.kind !== 'fact')) problems.push(`level ${level} has no reasoning question`)
   }
 

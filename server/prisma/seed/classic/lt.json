@@ -498,5 +498,505 @@
     "options": ["0°", "−32°", "−273°", "−40°"],
     "correctIndex": 3,
     "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40°: F = 1.8·C + 32, and C = 1.8·C + 32 gives C = −40."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vienas lietuviškas žodis reiškia ir valgį vidury dienos, ir pasaulio šalį. Kuris?",
+    "options": ["Rytai", "Pietūs", "Vakarai", "Šiaurė"],
+    "correctIndex": 1,
+    "gloss": "One Lithuanian word means both a midday meal and a cardinal direction. Which? — Pietūs: lunch and south (the sun stands in the south at midday). Vakarai is only \"west\"; the evening meal is vakarienė, and rytai (\"east\") is no meal."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Turguje už seną dviratį prašoma „pusantro šimto“ eurų. Kiek tai?",
+    "options": ["50 €", "105 €", "150 €", "250 €"],
+    "correctIndex": 2,
+    "gloss": "At the market someone asks \"pusantro šimto\" euros for an old bike. How much is that? — €150: pusantro = one and a half, so one and a half hundred."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kokį paukštį lietuvių patarlė priešina žvirbliui: „Geriau žvirblis rankoje, negu … danguje“?",
+    "options": ["Gandras", "Gervė", "Balandis", "Kregždė"],
+    "correctIndex": 1,
+    "gloss": "Which bird does the proverb set against the sparrow: \"Better a sparrow in the hand than a … in the sky\"? — The crane (gervė): «Geriau žvirblis rankoje, negu gervė danguje». The English version has a bush, others a pigeon."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kiek patiekalų, pagal labiausiai paplitusį paprotį, turi būti ant Kūčių stalo?",
+    "options": ["3", "7", "12", "24"],
+    "correctIndex": 2,
+    "gloss": "How many dishes, by the most widespread custom, should be on the Christmas Eve (Kūčios) table? — Twelve, usually explained by the twelve months or the twelve apostles. 24 is the trap: the date."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ką per Velykas lietuviai ridena nuo lentelės ir daužo vienas į kitą, tikrindami, kieno atlaikys?",
+    "options": ["Margučius", "Riešutus", "Bulves", "Obuolius"],
+    "correctIndex": 0,
+    "gloss": "At Easter, what do Lithuanians roll down a board and knock together to see whose survives? — Margučiai, the decorated Easter eggs."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuriame kurorte stūkso Parnidžio kopa, kurios viršūnėje įrengtas didžiulis saulės laikrodis?",
+    "options": ["Palangoje", "Juodkrantėje", "Šventojoje", "Nidoje"],
+    "correctIndex": 3,
+    "gloss": "In which resort is the Parnidis dune, with a huge sundial on its top? — Nida, on the Curonian Spit. Juodkrantė is the trap: also on the Spit."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kokia sporto šaka išgarsino Rūtą Meilutytę, penkiolikos metų tapusią olimpine čempione Londone?",
+    "options": ["Plaukimas", "Lengvoji atletika", "Irklavimas", "Šuoliai į vandenį"],
+    "correctIndex": 0,
+    "gloss": "Which sport made Rūta Meilutytė famous, Olympic champion in London at fifteen? — Swimming: 100 m breaststroke, 2012."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "„Pixar“ animaciniame filme Remi slapta gamina patiekalus Paryžiaus restorano virtuvėje. Kas jis?",
+    "options": ["Žiurkė", "Pelė", "Katinas", "Voverė"],
+    "correctIndex": 0,
+    "gloss": "In the Pixar film, Remy secretly cooks in a Paris restaurant kitchen. What is he? — A rat (Ratatouille, 2007). Mouse is the near trap."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kaip vadinama ištvermės rungtis, kurioje sportininkai vienas po kito plaukia, važiuoja dviračiu ir bėga?",
+    "options": ["Biatlonas", "Triatlonas", "Duatlonas", "Penkiakovė"],
+    "correctIndex": 1,
+    "gloss": "What is the endurance event where athletes swim, cycle and run in turn? — Triathlon. Duathlon is run-bike-run, biathlon skiing and shooting."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Naktį į paskutinį kovo sekmadienį laikrodžiai pasukami valanda pirmyn. Atsigulėte vienuoliktą vakaro, atsikėlėte septintą ryto pagal laikrodį. Kiek iš tikrųjų miegojote?",
+    "options": ["6 val.", "7 val.", "8 val.", "9 val."],
+    "correctIndex": 1,
+    "gloss": "On the night the clocks go forward an hour (last Sunday of March), you go to bed at 23:00 and get up at 7:00 by the clock. How long did you really sleep? — 7 hours: the clock shows 8, but one hour was skipped."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Frida Kahlo nutapė dešimtis paveikslų, kuriuose vaizdavo pačią save. Kaip vadinami tokie paveikslai?",
+    "options": ["Natiurmortai", "Peizažai", "Interjerai", "Autoportretai"],
+    "correctIndex": 3,
+    "gloss": "Frida Kahlo painted dozens of pictures of herself. What are such paintings called? — Self-portraits (about 55 of her works)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Naktį termometras rodė −5 °C, o iki vidurdienio oras sušilo 8 laipsniais. Ką dabar rodo termometras?",
+    "options": ["−13 °C", "−3 °C", "+3 °C", "+13 °C"],
+    "correctIndex": 2,
+    "gloss": "At night the thermometer showed −5 °C; by noon it warmed by 8 degrees. What does it show now? — +3 °C. −3 and +13 are the autopilot traps."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kodėl šaldiklyje pamirštas pilnas stiklinis vandens butelis gali sprogti?",
+    "options": ["Šąlantis vanduo plečiasi", "Stiklas šaltyje traukiasi", "Vandenyje susidaro dujų", "Šaldiklyje padidėja slėgis"],
+    "correctIndex": 0,
+    "gloss": "Why can a full glass bottle of water forgotten in the freezer burst? — Freezing water expands (ice takes about 9% more room)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dauguma lietuviškų daiktavardžių su galūne -ė yra moteriškos giminės. Kuris iš šių — vyriškos?",
+    "options": ["Močiutė", "Sesė", "Dėdė", "Mergaitė"],
+    "correctIndex": 2,
+    "gloss": "Most Lithuanian nouns ending in -ė are feminine. Which of these is masculine? — Dėdė (uncle). Močiutė, sesė and mergaitė are feminine."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurie iš šių „riešutų“ botaniškai visai ne riešutai, o ankštiniai augalai, žirnių giminaičiai?",
+    "options": ["Lazdyno riešutai", "Graikiniai riešutai", "Pistacijos", "Žemės riešutai"],
+    "correctIndex": 3,
+    "gloss": "Which of these \"nuts\" are botanically no nuts at all, but legumes, relatives of the pea? — Peanuts. Hazelnuts are true nuts; walnuts and pistachios are drupe seeds, but not legumes."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Šakotis savo „šakas“ įgyja dėl ypatingo kepimo būdo. Kaip jis kepamas?",
+    "options": ["Ant įkaitintų akmenų krosnyje", "Formoje ant karštų žarijų", "Ant besisukančio volo prie ugnies", "Verdant įkaitintame aliejuje"],
+    "correctIndex": 2,
+    "gloss": "Šakotis gets its \"branches\" from a special way of baking. How is it baked? — On a rotating spit by an open fire: the batter is poured over it and the drips set into branches."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kaip vadinama medinė liaudies skulptūra — susimąstęs, ranka galvą parėmęs Kristus?",
+    "options": ["Rūpintojėlis", "Stogastulpis", "Krikštas", "Koplytstulpis"],
+    "correctIndex": 0,
+    "gloss": "What is the wooden folk sculpture of a pensive Christ, head resting on his hand, called? — Rūpintojėlis (\"the Worrier\"). The others are wayside shrines and a grave marker."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Su kuriuo Lietuvos miestu ir jame nuo seno gyvenančiais karaimais labiausiai siejami kibinai?",
+    "options": ["Kernave", "Trakais", "Birštonu", "Anykščiais"],
+    "correctIndex": 1,
+    "gloss": "Which Lithuanian town, and its long-settled Karaim community, are kibinai pastries most linked with? — Trakai, where the Karaim have lived since Vytautas brought them in the 14th–15th century."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Panevėžio vardas, kaip ir Panemunės, pasakoja, prie kokios upės įsikūrė gyvenvietė. Kokia tai upė?",
+    "options": ["Nemunas", "Neris", "Šventoji", "Nevėžis"],
+    "correctIndex": 3,
+    "gloss": "The name Panevėžys, like Panemunė, tells which river the settlement stands by. Which river? — The Nevėžis: pa- means \"by\", as Panemunė is by the Nemunas (the trap)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kas jums yra jūsų tėčio sesers sūnus?",
+    "options": ["Pusbrolis", "Sūnėnas", "Brolėnas", "Svainis"],
+    "correctIndex": 0,
+    "gloss": "What is your father's sister's son to you? — Pusbrolis (cousin). Sūnėnas and brolėnas are nephews, svainis a brother-in-law."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ką reiškia posakis „pūsti miglą į akis“?",
+    "options": ["Girtis", "Apgaudinėti", "Gąsdinti", "Tingėti"],
+    "correctIndex": 1,
+    "gloss": "What does the idiom \"to blow fog into the eyes\" mean? — To deceive, to mislead."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Daug lietuvių, išvykusių gyventi į šią šalį, turėjo priprasti vairuoti kaire kelio puse. Kuri tai šalis?",
+    "options": ["Airija", "Islandija", "Norvegija", "Portugalija"],
+    "correctIndex": 0,
+    "gloss": "Many Lithuanians who moved to this country had to learn to drive on the left. Which country? — Ireland. The other three drive on the right."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iš ko gaminamas tofu?",
+    "options": ["Iš avinžirnių", "Iš sojų pupelių", "Iš ryžių", "Iš kokosų pieno"],
+    "correctIndex": 1,
+    "gloss": "What is tofu made from? — Soybeans: curdled soy milk pressed into blocks."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurio instrumento klavišai priverčia veltiniu aptrauktus plaktukėlius mušti stygas?",
+    "options": ["Klavesino", "Vargonų", "Akordeono", "Fortepijono"],
+    "correctIndex": 3,
+    "gloss": "Which instrument's keys make felt-covered hammers strike the strings? — The piano. The harpsichord, the trap, plucks its strings."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurį žaidimą 1984 m. Maskvoje sukūrė programuotojas Aleksejus Pažitnovas?",
+    "options": ["„Pac-Man“", "„Super Mario“", "„Tetris“", "„Space Invaders“"],
+    "correctIndex": 2,
+    "gloss": "Which game did programmer Alexey Pajitnov create in Moscow in 1984? — Tetris."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kokios spalvos tabletę filme „Matrica“ išgeria Neo, nusprendęs sužinoti tiesą?",
+    "options": ["Mėlyną", "Žalią", "Baltą", "Raudoną"],
+    "correctIndex": 3,
+    "gloss": "In The Matrix, what colour is the pill Neo takes to learn the truth? — Red; the blue pill would have let him forget."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Grupėje keturios futbolo komandos, ir kiekviena su kiekviena žaidžia po vienas rungtynes. Kiek iš viso rungtynių bus sužaista?",
+    "options": ["4", "6", "8", "12"],
+    "correctIndex": 1,
+    "gloss": "Four football teams in a group, each playing each other once. How many matches in all? — 6 (4 × 3 ÷ 2), as in a World Cup group. 12 is the trap for counting each match twice."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Atsivertus knygą, dviejų matomų puslapių numerių suma yra 25. Koks numeris kairiajame puslapyje?",
+    "options": ["11", "12", "13", "14"],
+    "correctIndex": 1,
+    "gloss": "An open book: the two visible page numbers add up to 25. What is the left page number? — 12: the pages are 12 and 13, and the left one comes first."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuris iš šių Lietuvoje laisvėje gyvenančių gyvūnų yra sunkiausias?",
+    "options": ["Briedis", "Stumbras", "Taurusis elnias", "Šernas"],
+    "correctIndex": 1,
+    "gloss": "Which of these animals living wild in Lithuania is the heaviest? — The European bison (stumbras), Europe's heaviest land animal; the elk is the trap."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Vokietijos interneto adresai baigiasi .de (Deutschland). Kokia galūnė priklauso Šveicarijai, kurios oficialus lotyniškas vardas — Confoederatio Helvetica?",
+    "options": [".se", ".ch", ".sz", ".si"],
+    "correctIndex": 1,
+    "gloss": "German addresses end in .de (Deutschland). Which ending is Switzerland's, officially Confoederatio Helvetica? — .ch, from the Latin name. .se is Sweden, .sz Eswatini, .si Slovenia."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Prekė pabrango 10 %, o po mėnesio atpigo 10 %. Kaip pasikeitė jos kaina, palyginti su pradine?",
+    "options": ["Nepasikeitė", "Padidėjo 1 %", "Sumažėjo 1 %", "Sumažėjo 10 %"],
+    "correctIndex": 2,
+    "gloss": "A price rose 10%, then a month later fell 10%. How does it compare with the start? — 1% lower: 1.1 × 0.9 = 0.99. \"Unchanged\" is the autopilot trap."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuris impresionistas dešimtmečius tapė vandens lelijas savo sode Živernyje?",
+    "options": ["Eduaras Manė", "Ogiustas Renuaras", "Edgaras Dega", "Klodas Monė"],
+    "correctIndex": 3,
+    "gloss": "Which Impressionist painted water lilies in his garden at Giverny for decades? — Claude Monet. Manet is the near-name trap."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Stiklinė pripildyta vandens iki pat kraštų, jame plūduriuoja ledo kubelis. Kas nutiks, kai ledas ištirps?",
+    "options": ["Vandens lygis nepasikeis", "Vanduo išsilies per kraštus", "Vandens lygis nukris", "Ledas prieš ištirpdamas nuskęs"],
+    "correctIndex": 0,
+    "gloss": "A glass filled to the brim with water, an ice cube floating in it. What happens when the ice melts? — The level stays the same: floating ice displaces its own weight of water, exactly what it becomes when melted."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Marti“ ir „Petras Kurmelis“ — Žemaitės kūriniai. Kuo iš tikrųjų vardu buvo ši rašytoja?",
+    "options": ["Julija Žymantienė", "Marija Pečkauskaitė", "Sofija Kymantaitė-Čiurlionienė", "Gabrielė Petkevičaitė-Bitė"],
+    "correctIndex": 0,
+    "gloss": "\"Marti\" and \"Petras Kurmelis\" are by Žemaitė. What was the writer's real name? — Julija Žymantienė (née Beniuševičiūtė). Pečkauskaitė is Šatrijos Ragana, the trap."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kur veikia muziejus po atviru dangumi, į kurį suvežtos senos sodybos iš visų Lietuvos etnografinių regionų?",
+    "options": ["Kernavėje", "Rumšiškėse", "Trakuose", "Anykščiuose"],
+    "correctIndex": 1,
+    "gloss": "Where is the open-air museum with old farmsteads brought from all the ethnographic regions of Lithuania? — Rumšiškės: the Open-Air Museum of Lithuania."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Lietuvių „sūnus“ ir „dūmai“ stebėtinai panašūs į tos pačios reikšmės žodžius „sūnu“ ir „dhūma“. Iš kokios kalbos šie žodžiai?",
+    "options": ["Iš lotynų", "Iš senovės graikų", "Iš sanskrito", "Iš gotų"],
+    "correctIndex": 2,
+    "gloss": "Lithuanian \"sūnus\" (son) and \"dūmai\" (smoke) closely resemble \"sūnu\" and \"dhūma\" with the same meanings. Which language are those from? — Sanskrit (sūnú, dhūmá), the classic illustration of how archaic Lithuanian is."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Iš kokios kalbos verčiamas Naujasis Testamentas, kai rengiami šiuolaikiniai Biblijos vertimai?",
+    "options": ["Iš hebrajų", "Iš aramėjų", "Iš graikų", "Iš lotynų"],
+    "correctIndex": 2,
+    "gloss": "From which language is the New Testament translated for modern Bible translations? — Greek (Koine), the language it was written in. Aramaic, which Jesus spoke, and Hebrew of the Old Testament are the traps."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuris prieskonis — tai rankomis surinktos krokų žiedų purkos?",
+    "options": ["Vanilė", "Kardamonas", "Ciberžolė", "Šafranas"],
+    "correctIndex": 3,
+    "gloss": "Which spice is the hand-picked stigmas of crocus flowers? — Saffron. Turmeric, the trap, also colours food yellow but is a root."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuriame Andrejaus Tarkovskio filme Donatas Banionis suvaidino pagrindinį vaidmenį — psichologą Krisą Kelviną?",
+    "options": ["„Stalkeris“", "„Soliaris“", "„Veidrodis“", "„Andrejus Rubliovas“"],
+    "correctIndex": 1,
+    "gloss": "In which Andrei Tarkovsky film did Donatas Banionis play the lead, psychologist Kris Kelvin? — Solaris (1972), after Stanisław Lem's novel."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kas 1965 m. pirmasis istorijoje išėjo iš erdvėlaivio į atvirą kosmosą?",
+    "options": ["Aleksejus Leonovas", "Jurijus Gagarinas", "Germanas Titovas", "Vladimiras Komarovas"],
+    "correctIndex": 0,
+    "gloss": "Who, in 1965, was the first ever to leave a spacecraft for open space? — Alexei Leonov (Voskhod 2). Gagarin, the trap, was the first in orbit."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kuris antikos mokslininkas, palyginęs, kokiu kampu vidurdienį krinta saulės spinduliai Aleksandrijoje ir Sienoje, apskaičiavo Žemės apskritimo ilgį?",
+    "options": ["Archimedas", "Ptolemėjas", "Aristarchas", "Eratostenas"],
+    "correctIndex": 3,
+    "gloss": "Which ancient scholar, comparing the angle of the noon sun at Alexandria and Syene, worked out the Earth's circumference? — Eratosthenes (3rd century BC)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kiek daugiausia setų gali trukti vyrų vienetų mačas „Didžiojo kirčio“ teniso turnyre?",
+    "options": ["3", "4", "5", "7"],
+    "correctIndex": 2,
+    "gloss": "At most how many sets can a men's singles match last at a Grand Slam? — 5: men play to three sets won, so a match ends 3:2 at the longest. 3 is the trap (women's matches)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kuris iš šių kompozitorių gimė anksčiausiai?",
+    "options": ["Vivaldis", "Bachas", "Hendelis", "Haidnas"],
+    "correctIndex": 0,
+    "gloss": "Which of these composers was born first? — Vivaldi (1678). Bach and Handel were both born in 1685, Haydn in 1732. Bach, \"the father of music\", is the trap."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Didžiausias Lietuvos ežeras — Drūkšiai. O kuris ežeras giliausias?",
+    "options": ["Vištytis", "Plateliai", "Tauragnas", "Dusia"],
+    "correctIndex": 2,
+    "gloss": "Lithuania's largest lake is Drūkšiai. Which is the deepest? — Tauragnas (about 60 m), near Utena. Vištytis (about 54 m) and Plateliai (about 47 m) are the traps."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Romano „Altorių šešėly“ herojus kunigas Liudas Vasaris renkasi poeto kelią — kaip ir pats autorius, vėliau atsisakęs kunigystės. Kas jis?",
+    "options": ["Juozas Tumas-Vaižgantas", "Maironis", "Antanas Vienuolis", "Vincas Mykolaitis-Putinas"],
+    "correctIndex": 3,
+    "gloss": "The hero of \"In the Shadow of the Altars\", the priest Liudas Vasaris, chooses the poet's path, as its author did, who later left the priesthood. Who? — Vincas Mykolaitis-Putinas. Vaižgantas and Maironis were priests who stayed priests."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kuris cheminis elementas pavadintas lotynišku Paryžiaus vardu?",
+    "options": ["Galis", "Francis", "Liutecis", "Polonis"],
+    "correctIndex": 2,
+    "gloss": "Which chemical element is named after the Latin name of Paris? — Lutetium, from Lutetia. Gallium (Gaul) and francium (France) are the French traps; polonium is Poland."
+  },
+  {
+    "level": 5,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kur 1899 m. suvaidinta Keturakio komedija „Amerika pirtyje“ — pirmasis viešas lietuviškas spektaklis Lietuvoje?",
+    "options": ["Palangoje", "Kaune", "Vilniuje", "Šiauliuose"],
+    "correctIndex": 0,
+    "gloss": "Where was Keturakis's comedy \"America in the Bathhouse\" staged in 1899, the first public Lithuanian-language play in Lithuania? — Palanga, on 20 August 1899."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kurio rašytojo 1920 m. pjesėje pirmą kartą pavartotas žodis „robotas“?",
+    "options": ["Izaoko Azimovo", "Karelo Čapeko", "Stanislavo Lemo", "Jaroslavo Hašeko"],
+    "correctIndex": 1,
+    "gloss": "In which writer's 1920 play was the word \"robot\" first used? — Karel Čapek's R.U.R. Asimov, the trap, was born that year."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kuriame šaltinyje 1009 m. įrašu pirmą kartą paminėtas Lietuvos vardas?",
+    "options": ["Ipatijaus metraštyje", "Bychovco kronikoje", "Livonijos eiliuotojoje kronikoje", "Kvedlinburgo analuose"],
+    "correctIndex": 3,
+    "gloss": "In which source does an entry for 1009 first mention the name of Lithuania? — The Annals of Quedlinburg (\"Litua\"). The other three are later chronicles."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kurios tarmės pagrindu susiformavo bendrinė lietuvių kalba?",
+    "options": ["Rytų aukštaičių", "Vakarų aukštaičių", "Pietų aukštaičių (dzūkų)", "Žemaičių"],
+    "correctIndex": 1,
+    "gloss": "On which dialect is standard Lithuanian based? — West Aukštaitian (the Kaunas / Suvalkija subdialect)."
   }
 ]

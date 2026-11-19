@@ -1,4 +1,4 @@
-# Writer brief: 50 ranked seed questions for one language
+# Writer brief: ranked seed questions for one language
 
 > Given to one writer agent per language by the process in [QUESTION_SEEDING.md](QUESTION_SEEDING.md).
 > Paths are relative to the repository root.
@@ -18,7 +18,8 @@ clock.**
    entry, the Armenian sample as the quality bar and not as a template, the quality bar, the
    `gloss` format, the workspace rules) **except what this brief changes below.**
 2. **Your language's existing questions, which you must not repeat:**
-   `server/prisma/seed/classic/<code>.json`. For English, read
+   `server/prisma/seed/classic/<code>.json`, and your own file `server/prisma/seed/ranked/<code>.json`
+   if it exists. For English, read
    `server/prisma/seed/fallback-questions.en.json` instead, since that is English's Classic bank.
    Their answers are public, because Classic sends answers to the device. A ranked question that
    repeats one would hand its answer to anyone who looked.
@@ -39,14 +40,22 @@ question. So:
   needs pen and paper. At least one non-`fact` question at levels 1, 2 and 3. Levels 4–5 are
   `fact` or `reasoning+fact`, never pure `reasoning`.
 
-**The level split: exactly 50 questions.**
+**The level split.** The newest entry of `LEVEL_TARGETS.ranked` in `server/prisma/check-seed.ts`
+gives the number of questions per level your file must hold:
 
-| Level | 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|---|
-| Questions | 28 | 14 | 5 | 2 | 1 |
+| Phase | Level 1 | 2 | 3 | 4 | 5 | Total |
+|---|---|---|---|---|---|---|
+| 2 (first file) | 28 | 14 | 5 | 2 | 1 | 50 |
+| 4 (top-up) | 48 | 29 | 15 | 5 | 3 | 100 |
+
+If your file does not exist yet, write the newest totals. **If it exists, you are topping it
+up:** keep every existing question exactly as it is, add the difference (phase 4 adds
+20 / 15 / 10 / 3 / 2) at the end of the array, and balance the mix rules over the whole file.
+A top-up happens because keen players of your language have seen every ranked question, and
+each time that happens the game pays an AI to write more.
 
 Every run starts at level 1 and moves up a level only every five correct answers, so most of
-what players see is level 1. **Level 1 is where the quality shows**: 28 questions, each on a
+what players see is level 1. **Level 1 is where the quality shows**: every question on a
 different subject, spread across many categories. "Level 1" means easy for an adult of your
 culture, not trivial or childish (see `LEVEL_GUIDE`).
 
@@ -78,9 +87,10 @@ game, Harry Potter's school, popcorn from maize, Mecca's or Bali's country, and 
 (the @ sign, the amber light, the longest key, Sherlock Holmes's job). Level 5 is the hardest
 question in the file: not a school-chemistry symbol such as W for tungsten. The list is a sample: the test
 is whether a player has met the question in other quizzes or a school textbook. Then, before your
-final message, list your 28 level-1 questions and replace any that fails that test.
+final message, list your new level-1 questions and replace any that fails that test.
 
-**At least 3 of the 28 level-1 questions are quick reasoning only your language can ask.** The
+**At least 3 of every 28 level-1 questions are quick reasoning only your language can ask** (so
+6 of 48 in a topped-up file). The
 best earlier ones: Czech «sít» becoming «šít» with a háček, Slovenian «midva» (the dual "we
 two"), Macedonian «двајца» (the count word for men only), Mongolian vowel harmony in an ordinal
 suffix, German «halb acht» meaning 7:30, Greek «γέρος» and «γερός».
@@ -92,7 +102,7 @@ free hit after a no-ball, what goes into a macchiato, which app has a musical-no
 those, and avoid anything that changes soon or differs by device or browser.
 
 **Unchanged from Classic:** about 40% `local` (30–55%), at least 10 of the 16 categories, every
-question about a different subject, and each of the four answer positions correct 7–18 times.
+question about a different subject, and each of the four answer positions correct in 14–36% of the file (7–18 of 50, 14–36 of 100).
 
 ## Never repeat
 
@@ -108,8 +118,8 @@ question about a different subject, and each of the four answer positions correc
 
 ## Output
 
-Write a JSON array of 50 objects to `server/prisma/seed/ranked/<code>.json` (UTF-8, 2-space
-indent), in the same object format as the Classic brief (`level`, `category`, `scope`, `kind`,
+Write a JSON array to `server/prisma/seed/ranked/<code>.json` (UTF-8, 2-space indent), or add
+your new objects to the end of the existing array, in the same object format as the Classic brief (`level`, `category`, `scope`, `kind`,
 `text`, `options`, `correctIndex`, `gloss`).
 
 Then run the checker from the `server` folder, and fix and re-run until it passes:
@@ -121,6 +131,7 @@ npx tsx prisma/check-seed.ts <code> ranked
 
 ## Your final message (under 200 words)
 
-The checker's last line; your counts (local, reasoning, per level); every same-answer pair the
+The checker's last line; your counts (local, reasoning, per level; for a top-up, of the new
+questions and of the whole file); every same-answer pair the
 checker listed, with one line each on why the two differ; and any question you are not fully
 certain of, with why (ideally none: replace doubtful ones instead of reporting them).

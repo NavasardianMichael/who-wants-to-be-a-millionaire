@@ -42,7 +42,7 @@ describe('checkSeed', () => {
   })
 
   it('holds each kind to its own level targets', () => {
-    expect(checkSeed('en', 'classic', validFile('ranked'))).toContain('levels 1-5 have 28/14/5/2/1 questions, wants 10/10/10/10/10')
+    expect(checkSeed('en', 'classic', validFile('ranked'))).toContain("levels 1-5 have 48/29/15/5/3 questions, wants 25/23/20/17/15 (or an earlier phase's 10/10/10/10/10)")
   })
 
   it('accepts a file that matches any phase, so a phase can roll out one language at a time', () => {
@@ -51,7 +51,7 @@ describe('checkSeed', () => {
     try {
       const old = validFile('ranked').filter(({ level }) => level > 1)
       expect(checkSeed('en', 'classic', validFile('classic'))).toEqual([])
-      expect(checkSeed('en', 'classic', old)).toContain("levels 1-5 have 0/14/5/2/1 questions, wants 12/10/10/10/10 (or an earlier phase's 10/10/10/10/10)")
+      expect(checkSeed('en', 'classic', old)).toContain("levels 1-5 have 0/29/15/5/3 questions, wants 12/10/10/10/10 (or an earlier phase's 10/10/10/10/10, 25/23/20/17/15)")
     } finally {
       LEVEL_TARGETS.classic = phases
     }

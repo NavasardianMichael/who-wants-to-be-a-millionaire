@@ -29,10 +29,18 @@ quality matters far more than speed.
 ## What to write
 
 **How many.** The newest entry of `LEVEL_TARGETS.classic` in `server/prisma/check-seed.ts` gives
-the number of questions per level your file must hold (phase 1 was 10 per level, 50 in all). If
-your file does not exist yet, write that many. **If it exists, you are topping it up:** keep
-every existing question exactly as it is, and add questions until each level reaches the newest
-totals. The mix rules below apply to the whole file.
+the number of questions per level your file must hold (phase 1 was 10 per level, 50 in all;
+phase 3 is 25 / 23 / 20 / 17 / 15, 100 in all). If your file does not exist yet, write that many.
+**If it exists, you are topping it up:** keep every existing question exactly as it is, and add
+questions until each level reaches the newest totals (phase 3 adds 15 / 13 / 10 / 7 / 5). The mix
+rules below apply to the whole file, so check what the existing questions already contribute
+(local share, reasoning share, categories, answer positions) and balance with your new ones.
+
+**Why a top-up exists.** Your language's players have seen every Classic question at the lower
+levels, and each time that happens the game pays an AI to write more, or shows the player
+English questions when the AI is busy. Levels 1–3 run out first, so they get the most new
+questions. They are also where an adult player decides whether the game is worth coming back
+to: easy must still be interesting, never childish.
 
 - **Difficulty per level** exactly as `LEVEL_GUIDE` defines it, judged for adults in your
   language's culture.
@@ -54,7 +62,7 @@ totals. The mix rules below apply to the whole file.
   (`general`, `language`, `science`, ...); there is no "logic" category.
 - **Every question about a different subject.** Vary the phrasing.
 - **Vary which option is correct**: each of the four positions should be correct in 14–36% of
-  the file's questions (7–18 of 50).
+  the file's questions (7–18 of 50, 14–36 of 100).
 - These are for Classic, which has no clock, so a puzzle may take a minute. Keep the question
   under 300 characters and each option under 120.
 
@@ -83,6 +91,11 @@ totals. The mix rules below apply to the whole file.
 - Native, natural, well-edited language in the standard variety from `writing`, with the
   native punctuation and quotation marks. Established native spellings of foreign names.
   Non-breaking spaces (U+00A0, U+202F) are fine where your typography needs them.
+- **No quiz clichés.** The list of overused subjects in
+  [QUESTION_SEEDING_BRIEF_RANKED.md](QUESTION_SEEDING_BRIEF_RANKED.md) (the Eiffel Tower, the Mona
+  Lisa, the Red Planet, a kilo of cotton or of iron, and the rest of that paragraph) applies to
+  you too. The test: has a player met this question in other quizzes or a school textbook?
+  A top-up is where writers run short of ideas and reach for these.
 - Never twist natural wording just to pass the checker. If a check looks wrong for your
   language, say so in your report.
 - Before you finish, review every question as a demanding head writer: fact certain? one
@@ -124,7 +137,8 @@ npx tsx prisma/check-seed.ts <code>
 
 ## Your final message (under 200 words)
 
-The checker's last line; your counts (local, reasoning, per level); every same-answer pair the
+The checker's last line; your counts (local, reasoning, per level; for a top-up, of the new
+questions and of the whole file); every same-answer pair the
 checker listed that involves a new question, with one line each on why the two differ; and any
 question you are not fully certain of, with why (ideally none: replace doubtful ones instead of
 reporting them).

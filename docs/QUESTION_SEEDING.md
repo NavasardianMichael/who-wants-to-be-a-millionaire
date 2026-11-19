@@ -32,8 +32,8 @@ which order, is in [QUESTION_SEEDING_PLAN.md](QUESTION_SEEDING_PLAN.md).**
 ## The process
 
 1. **Pick the next three languages** of the current phase in the plan's order whose file is
-   missing (ranked) or below the newest targets (Classic). Three writers run in parallel, in a
-   pack. More at once burns through the 5-hour usage limit within minutes.
+   missing or below the newest targets of its kind (a pack may mix Classic and ranked). Three
+   writers run in parallel, in a pack. More at once burns through the 5-hour usage limit within minutes.
 2. **Start one writer agent per language** (Agent tool, `general-purpose`) with this prompt:
 
    Ranked:
@@ -68,7 +68,7 @@ which order, is in [QUESTION_SEEDING_PLAN.md](QUESTION_SEEDING_PLAN.md).**
 
    ```bash
    git add server/prisma/seed/<kind>/<a>.json server/prisma/seed/<kind>/<b>.json server/prisma/seed/<kind>/<c>.json
-   git commit -m "Ranked seed: <A>, <B>, <C> (50 questions each)"
+   git commit -m "Classic seed: <A>, <B>, <C> topped up to 100 questions each"
    git push origin master
    ```
 

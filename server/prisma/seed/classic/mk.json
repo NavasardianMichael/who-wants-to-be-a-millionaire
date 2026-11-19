@@ -498,5 +498,505 @@
     "options": ["Леонардо да Винчи", "Кристофор Колумбо", "Николај Коперник", "Галилео Галилеј"],
     "correctIndex": 3,
     "gloss": "Which of these people was still alive when the first part of 'Don Quixote' came out in 1605? — Galileo (1564–1642). Columbus died 1506, Leonardo 1519, Copernicus 1543."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Која буква треба да ја додадете пред „лива“ за да добиете име на овошје?",
+    "options": ["С", "Т", "К", "Б"],
+    "correctIndex": 0,
+    "gloss": "Which letter, put before «лива», gives the name of a fruit? — С: «слива» (plum)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Според поговорката, што не прави гладната мечка?",
+    "options": ["Мед не бара", "Оро не игра", "Зимен сон не спие", "Песна не пее"],
+    "correctIndex": 1,
+    "gloss": "According to the saying, what does a hungry bear not do? — It doesn’t dance the oro: «Гладна мечка оро не игра»."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое наше јадење го добило името по плиткиот земјен сад во кој се пече?",
+    "options": ["Сарма", "Мусака", "Тавче гравче", "Полнети пиперки"],
+    "correctIndex": 2,
+    "gloss": "Which of our dishes is named after the shallow clay pan it is baked in? — Tavče gravče: «тавче» is a small «тава» (pan)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која планина се издига над Скопје, со големиот крст „Милениум“ на врвот?",
+    "options": ["Скопска Црна Гора", "Китка", "Јакупица", "Водно"],
+    "correctIndex": 3,
+    "gloss": "Which mountain rises over Skopje with the big Millennium Cross on top? — Vodno."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Термометарот наутро покажува −5 °C, а до пладне температурата се качува за 8 степени. Колку покажува напладне?",
+    "options": ["3 °C", "−3 °C", "13 °C", "−13 °C"],
+    "correctIndex": 0,
+    "gloss": "−5 °C in the morning, up 8 degrees by noon: what does it read? — 3 °C (−5 + 8)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Купувате бурек за 80 денари и јогурт за 35 денари и плаќате со 200 денари. Колку кусур треба да ви вратат?",
+    "options": ["75 денари", "85 денари", "95 денари", "115 денари"],
+    "correctIndex": 1,
+    "gloss": "Burek 80 + yoghurt 35, paid with 200 denars: how much change? — 85 denars (200 − 115)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Колку ракометари од двете екипи заедно се на теренот кога почнува натпреварот, ако никој не е исклучен?",
+    "options": ["12", "16", "14", "22"],
+    "correctIndex": 2,
+    "gloss": "How many handball players from both teams are on court at the start? — 14: seven per side, goalkeeper included."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кое долго дрвено овчарско свирало, отворено на двата краја, им дава тажна боја на многу наши народни мелодии?",
+    "options": ["Гајда", "Зурла", "Тамбура", "Кавал"],
+    "correctIndex": 3,
+    "gloss": "Which long wooden shepherd’s flute, open at both ends, gives many of our folk tunes their melancholy? — The kaval."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кое животно го придружува Шрек на патот кон принцезата Фиона во првиот филм?",
+    "options": ["Магаре", "Мачор", "Коњ", "Куче"],
+    "correctIndex": 0,
+    "gloss": "Which animal travels with Shrek to Princess Fiona in the first film? — A donkey (Puss in Boots only joins in Shrek 2)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Што прави кратенката Ctrl + Z во повеќето програми?",
+    "options": ["Го зачувува документот", "Ја враќа последната промена", "Го копира означеното", "Го печати документот"],
+    "correctIndex": 1,
+    "gloss": "What does Ctrl + Z do in most programs? — Undoes the last change."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој ученик на Кирил и Методиј ја основал книжевната школа во Охрид кон крајот на IX век?",
+    "options": ["Горазд", "Сава", "Климент", "Ангелариј"],
+    "correctIndex": 2,
+    "gloss": "Which disciple of Cyril and Methodius founded the literary school in Ohrid in the late 9th century? — Clement (St Clement of Ohrid); the others are also among the Seven Saints."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која од овие соседни земји, исто како и нашата, нема излез на море?",
+    "options": ["Грција", "Бугарија", "Албанија", "Србија"],
+    "correctIndex": 3,
+    "gloss": "Which of these neighbours, like us, has no coastline? — Serbia."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Што се мекиците што се јадат за доручек со сирење или со мармалад?",
+    "options": ["Пржено квасено тесто", "Печени ролни од лиснато тесто", "Варени тестени кнедли", "Тенки палачинки од брашно и млеко"],
+    "correctIndex": 0,
+    "gloss": "What are mekici, eaten for breakfast with cheese or jam? — Fried leavened dough."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Во божиќната погача се меси нешто мало, а кој ќе го најде во своето парче, ќе има среќа цела година. Што е тоа?",
+    "options": ["Прстен", "Паричка", "Клуч", "Копче"],
+    "correctIndex": 1,
+    "gloss": "What small thing is baked into the Christmas pogača for luck? — A coin."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ако садот за шеќер е „шеќерница“, како се вика садот за сол?",
+    "options": ["Солило", "Соленка", "Солница", "Соларка"],
+    "correctIndex": 2,
+    "gloss": "If a sugar bowl is «шеќерница», what is the salt cellar called? — «Солница», same suffix; «солило» is a place where livestock is given salt."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Која река го издлабила кањонот Матка кај Скопје?",
+    "options": ["Вардар", "Пчиња", "Лепенец", "Треска"],
+    "correctIndex": 3,
+    "gloss": "Which river carved Matka Canyon near Skopje? — The Treska."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Од кој шпански град потекнува паељата, оризот со шафран, морски плодови или месо?",
+    "options": ["Валенсија", "Севиља", "Барселона", "Мадрид"],
+    "correctIndex": 0,
+    "gloss": "Which Spanish city does paella come from? — Valencia."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој е авторот на песната „Везилка“, која многу генерации ја учеле напамет?",
+    "options": ["Ацо Шопов", "Блаже Конески", "Славко Јаневски", "Гане Тодоровски"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the poem «Везилка» (The Embroideress)? — Blaže Koneski."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кого народот го вика „ерген“?",
+    "options": ["Вдовец", "Младоженец", "Неженет маж", "Кум"],
+    "correctIndex": 2,
+    "gloss": "Whom do people call «ерген»? — An unmarried man (a bachelor)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Звукот во воздухот патува околу 340 метри во секунда. Ако грмежот го слушнете 3 секунди по молњата, колку е далеку невремето?",
+    "options": ["Околу 3 km", "Околу 340 m", "Околу 100 m", "Околу 1 km"],
+    "correctIndex": 3,
+    "gloss": "Sound travels ~340 m/s; thunder 3 s after the flash: how far is the storm? — About 1 km (3 × 340 = 1020 m)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која кралица владеела со Обединетото Кралство цели 70 години, подолго од секој британски монарх пред неа?",
+    "options": ["Елизабета II", "Викторија", "Елизабета I", "Ана"],
+    "correctIndex": 0,
+    "gloss": "Which queen reigned over the United Kingdom for 70 years, longer than any British monarch before her? — Elizabeth II (1952–2022); Victoria, the previous record holder, reigned 63 years."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која црква на Гауди во Барселона почнала да се гради во 1882 година?",
+    "options": ["Каса Батљо", "Саграда Фамилија", "Каса Мила", "Парк Гуел"],
+    "correctIndex": 1,
+    "gloss": "Which Gaudí church in Barcelona was begun in 1882? — The Sagrada Família; the others are a house, an apartment block and a park."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На кој празник, на 6 мај, по стар обичај се оди во природа, се лулаат на лулашки и се мерат на кантар за здравје?",
+    "options": ["Спасовден", "Тодорица", "Ѓурѓовден", "Митровден"],
+    "correctIndex": 2,
+    "gloss": "On which 6 May feast do people go out to nature, swing on swings and weigh themselves for health? — St George’s Day (Ѓурѓовден)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Змиите немаат подвижни очни капаци. Како тогаш спијат?",
+    "options": ["Со главата закопана во земја", "Само под вода", "Воопшто не спијат", "Со отворени очи"],
+    "correctIndex": 3,
+    "gloss": "Snakes have no movable eyelids. So how do they sleep? — With their eyes open: a fixed transparent scale covers each eye."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Множината од „нога“ е „нозе“: гласот г се менува во з. Која е множината од „рака“?",
+    "options": ["Раце", "Раки", "Рачи", "Раке"],
+    "correctIndex": 0,
+    "gloss": "The plural of «нога» is «нозе» (г → з). What is the plural of «рака»? — «Раце» (к → ц); «раки» is the plural of «рак», crab."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Крај која река, според народната песна, седи Јована и бело платно бели?",
+    "options": ["Треска", "Вардар", "Брегалница", "Црна Река"],
+    "correctIndex": 1,
+    "gloss": "By which river does Jovana sit bleaching linen in the folk song? — The Vardar: «Јовано, Јованке, кај Вардарот седиш…»."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во која серија семејствата Старк, Ланистер и Таргарјен се борат за власт над Седумте кралства?",
+    "options": ["Вештерот", "Викинзи", "Игра на тронови", "Мерлин"],
+    "correctIndex": 2,
+    "gloss": "In which series do the Starks, Lannisters and Targaryens fight over the Seven Kingdoms? — Game of Thrones."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Цената на бензинот прво пораснала за 10 %, а потоа паднала за 10 %. Каква е цената сега?",
+    "options": ["Иста како на почетокот", "За 1 % повисока од почетната", "За 10 % пониска од почетната", "За 1 % пониска од почетната"],
+    "correctIndex": 3,
+    "gloss": "Petrol rose 10 %, then fell 10 %: what is the price now? — 1 % lower (1.1 × 0.9 = 0.99)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој гас им го дава карактеристичниот мирис на расипаните јајца и на водата во некои термални бањи?",
+    "options": ["Сулфуроводород", "Амонијак", "Метан", "Хлор"],
+    "correctIndex": 0,
+    "gloss": "Which gas gives rotten eggs and the water of some thermal spas their typical smell? — Hydrogen sulphide (H₂S); methane is odourless, ammonia and chlorine smell differently."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој фараон ја изградил Големата пирамида во Гиза?",
+    "options": ["Кефрен", "Хеопс", "Рамзес II", "Аменхотеп III"],
+    "correctIndex": 1,
+    "gloss": "Which pharaoh built the Great Pyramid of Giza? — Khufu (Cheops); Khafre built the second pyramid."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која од овие земји излегува и на Тихиот и на Атлантскиот Океан, преку Карипското Море?",
+    "options": ["Венецуела", "Перу", "Колумбија", "Еквадор"],
+    "correctIndex": 2,
+    "gloss": "Which of these countries has coasts on both the Pacific and the Atlantic (via the Caribbean)? — Colombia."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Од првиот до третиот кат се качувате пеш за 30 секунди. Ако одите со исто темпо, за колку ќе стигнете од првиот до деветтиот кат?",
+    "options": ["За 90 секунди", "За 2 и пол минути", "За 4 минути", "За 2 минути"],
+    "correctIndex": 3,
+    "gloss": "First to third floor takes 30 s; how long from first to ninth at the same pace? — 2 minutes: 2 flights take 30 s, 8 flights take 120 s (not 3 × 30)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Кој од овие зборови е сложенка, составена од два збора?",
+    "options": ["Водопад", "Воденица", "Водич", "Водиче"],
+    "correctIndex": 0,
+    "gloss": "Which of these words is a compound of two words? — «Водопад» (вода + пад); the others are derived with suffixes."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Во кој манастир е прочуениот иконостас што го изрезбале мијачките копаничари во XIX век?",
+    "options": ["Св. Наум", "Св. Јован Бигорски", "Трескавец", "Марков манастир"],
+    "correctIndex": 1,
+    "gloss": "Which monastery has the famous iconostasis carved by the Mijak woodcarvers in the 19th century? — St John Bigorski."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Куршумли ан, Сули ан и Капан ан се стари гостилници за трговци во чаршијата на кој град?",
+    "options": ["Битола", "Штип", "Скопје", "Охрид"],
+    "correctIndex": 2,
+    "gloss": "Kuršumli An, Suli An and Kapan An are old merchants’ inns in the bazaar of which city? — Skopje."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој тенисер има освоено најмногу титули на „Ролан Гарос“?",
+    "options": ["Новак Ѓоковиќ", "Роџер Федерер", "Бјорн Борг", "Рафаел Надал"],
+    "correctIndex": 3,
+    "gloss": "Who has won the most Roland-Garros titles? — Rafael Nadal (14)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Која од овие книги е најстара?",
+    "options": ["„Робинзон Крусо“", "„Гуливерови патувања“", "„Франкенштајн“", "„Оливер Твист“"],
+    "correctIndex": 0,
+    "gloss": "Which of these books is the oldest? — Robinson Crusoe (1719); Gulliver 1726, Frankenstein 1818, Oliver Twist 1838."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кој од овие композитори е роден најрано?",
+    "options": ["Волфганг Амадеус Моцарт", "Антонио Вивалди", "Лудвиг ван Бетовен", "Франц Шуберт"],
+    "correctIndex": 1,
+    "gloss": "Which of these composers was born first? — Vivaldi (1678); Mozart 1756, Beethoven 1770, Schubert 1797."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Со помош на кои птици рибарите на Дојранското Езеро ја терале рибата во заградите од трска?",
+    "options": ["Пеликани", "Чапји", "Корморани", "Галеби"],
+    "correctIndex": 2,
+    "gloss": "With which birds did Lake Dojran fishermen drive fish into their reed enclosures? — Cormorants."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чистото злато има 24 карати. Колкав дел од накитот од 18-каратно злато е чисто злато?",
+    "options": ["18 %", "50 %", "82 %", "75 %"],
+    "correctIndex": 3,
+    "gloss": "Pure gold is 24 carats. What share of 18-carat gold is pure gold? — 75 % (18/24)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој го напишал романот „Пиреј“?",
+    "options": ["Петре М. Андреевски", "Славко Јаневски", "Живко Чинго", "Ташко Георгиевски"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel «Пиреј» (Couch Grass)? — Petre M. Andreevski."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кој од овие градови лежи најсеверно?",
+    "options": ["Њујорк", "Истанбул", "Рим", "Мадрид"],
+    "correctIndex": 2,
+    "gloss": "Which of these cities lies furthest north? — Rome (about 41.9° N); Istanbul 41.0°, New York 40.7°, Madrid 40.4°."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој португалски морепловец прв го заобиколил Ртот на Добрата Надеж, во 1488 година?",
+    "options": ["Васко да Гама", "Фердинанд Магелан", "Педро Алварес Кабрал", "Бартоломеу Диаш"],
+    "correctIndex": 3,
+    "gloss": "Which Portuguese navigator first rounded the Cape of Good Hope, in 1488? — Bartolomeu Dias; Vasco da Gama followed in 1497."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На која планина се Смоларскиот и Колешинскиот Водопад?",
+    "options": ["Беласица", "Огражден", "Плачковица", "Осогово"],
+    "correctIndex": 0,
+    "gloss": "On which mountain are the Smolare and Kolešino waterfalls? — Belasica."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Во 1969 година, првата порака преку АРПАНЕТ, претходникот на интернетот, требало да биде LOGIN. Што стигнало пред системот да падне?",
+    "options": ["LOG", "L", "LO", "IN"],
+    "correctIndex": 2,
+    "gloss": "In 1969 the first ARPANET message was meant to be LOGIN. What arrived before the system crashed? — «LO»."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "На кои говори е заснован македонскиот литературен јазик?",
+    "options": ["Источните (Штип, Кочани, Струмица)", "Северните (Скопје, Куманово)", "Југозападните (Охрид, Струга)", "Западните централни (Прилеп, Битола, Велес)"],
+    "correctIndex": 3,
+    "gloss": "Which dialects is the Macedonian standard language based on? — The west-central dialects (Prilep, Bitola, Veles)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Едно мало шведско село им го дало името на четири хемиски елементи, меѓу кои итриумот и ербиумот. Кое?",
+    "options": ["Итерби", "Фалун", "Кируна", "Сала"],
+    "correctIndex": 0,
+    "gloss": "A small Swedish village gave its name to four elements, yttrium and erbium among them. Which? — Ytterby (yttrium, ytterbium, terbium, erbium)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кој зограф, заедно со Евтихиј, ги насликал фреските во охридската црква „Св. Богородица Перивлепта“ во 1295 година?",
+    "options": ["Мануел Панселин", "Теофан Грк", "Дичо Зограф", "Михаил Астрапа"],
+    "correctIndex": 3,
+    "gloss": "Which painter, with Eutychios, painted the frescoes of the Peribleptos church in Ohrid in 1295? — Michael Astrapas."
+  },
+  {
+    "level": 5,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кој филм го доби првиот Оскар за најдобар филм?",
+    "options": ["„Крилја“", "„Пеачот на џез“", "„Метрополис“", "„Светлата на големиот град“"],
+    "correctIndex": 0,
+    "gloss": "Which film won the first Academy Award for Best Picture? — Wings (1927)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кое од овие постоело најрано?",
+    "options": ["Ацтечкиот град Теночтитлан", "Империјата на Инките", "Кинескиот ѕид во денешниот облик", "Универзитетот во Оксфорд"],
+    "correctIndex": 3,
+    "gloss": "Which of these existed first? — Oxford University (teaching by 1096); Tenochtitlan 1325, the Inca Empire from 1438, the Ming wall 14th–17th c."
   }
 ]

@@ -503,5 +503,505 @@
     "options": ["Борис Пастернак", "Марина Цветаева", "Александр Блок", "Осип Мандельштам"],
     "correctIndex": 3,
     "gloss": "Which poet wrote the line «Insomnia. Homer. Taut sails…»? — Osip Mandelstam (1915); the other three are also great Silver Age poets."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как заканчивается поговорка «Тише едешь — дальше …»?",
+    "options": ["будешь", "уедешь", "доедешь", "придёшь"],
+    "correctIndex": 0,
+    "gloss": "How does the saying \"The slower you ride, the further …\" end? — \"будешь\" (you will be): \"Тише едешь — дальше будешь\", slow and steady wins."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какого числа в России отмечают Старый Новый год?",
+    "options": ["7 января", "19 января", "14 января", "25 января"],
+    "correctIndex": 2,
+    "gloss": "On what date is the Old New Year celebrated in Russia? — 14 January: New Year by the old Julian calendar, thirteen days after 1 January."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Добавьте к слову «сон» одну букву — и получится крупное животное. Какое?",
+    "options": ["Лось", "Слон", "Лев", "Кит"],
+    "correctIndex": 1,
+    "gloss": "Add one letter to \"сон\" (sleep) to get a large animal. — Elephant: сон + л = слон; no other option can be built from these letters."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какое хвойное дерево сбрасывает хвою на зиму?",
+    "options": ["Лиственница", "Сосна", "Ель", "Пихта"],
+    "correctIndex": 0,
+    "gloss": "Which conifer sheds its needles for winter? — Larch: the deciduous conifer, the others are evergreen."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что означает надпись «404» на сайте?",
+    "options": ["Сайт заблокирован", "Сервер перегружен", "Нужно ввести пароль", "Страница не найдена"],
+    "correctIndex": 3,
+    "gloss": "What does \"404\" on a website mean? — Page not found: the server is working but has no such address."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Электричка отправилась в 9:45 и ехала 50 минут. Во сколько она прибыла?",
+    "options": ["10:35", "10:15", "10:45", "10:25"],
+    "correctIndex": 0,
+    "gloss": "The commuter train left at 9:45 and travelled 50 minutes; when did it arrive? — 10:35: 9:45 + 15 min = 10:00, plus 35 more."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какое из этих слов означает разные вещи в зависимости от ударения?",
+    "options": ["Окно", "Стол", "Дом", "Замок"],
+    "correctIndex": 3,
+    "gloss": "Which of these words changes meaning with the stress? — \"замок\": зАмок (castle) and замОк (lock)."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто написал рассказ о немом дворнике Герасиме и его собаке Муму?",
+    "options": ["Антон Чехов", "Николай Гоголь", "Иван Тургенев", "Фёдор Достоевский"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the story of the mute yard-keeper Gerasim and his dog Mumu? — Ivan Turgenev (\"Муму\", 1854)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из героев мультфильма «Ну, погоди!» вечно гоняется за зайцем?",
+    "options": ["Волк", "Лиса", "Медведь", "Барсук"],
+    "correctIndex": 0,
+    "gloss": "Who in the cartoon \"Nu, pogodi!\" keeps chasing the hare? — The Wolf."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что делает кнопка «Shuffle» в музыкальном плеере?",
+    "options": ["Повторяет один и тот же трек", "Увеличивает громкость", "Убирает паузы между треками", "Играет треки в случайном порядке"],
+    "correctIndex": 3,
+    "gloss": "What does the \"Shuffle\" button in a music player do? — Plays the tracks in random order."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сколько очков приносит в баскетболе один штрафной бросок?",
+    "options": ["Три", "Два", "Одно", "Пять"],
+    "correctIndex": 2,
+    "gloss": "How many points does a single free throw score in basketball? — One (two for a regular shot, three from beyond the arc)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что делает сочетание клавиш Ctrl+Z в большинстве программ?",
+    "options": ["Отменяет последнее действие", "Сохраняет файл", "Выделяет весь текст", "Вставляет скопированное"],
+    "correctIndex": 0,
+    "gloss": "What does Ctrl+Z do in most programs? — Undoes the last action (Ctrl+S saves, Ctrl+A selects all, Ctrl+V pastes)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "В рецепте на 4 порции нужно 200 граммов муки. Сколько муки понадобится на 6 порций?",
+    "options": ["250 г", "300 г", "400 г", "600 г"],
+    "correctIndex": 1,
+    "gloss": "A recipe for 4 servings needs 200 g of flour; how much for 6 servings? — 300 g: 50 g a serving, times 6."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Каким оружием владеет скандинавский бог грома Тор?",
+    "options": ["Копьём", "Мечом", "Луком", "Молотом"],
+    "correctIndex": 3,
+    "gloss": "What weapon does the Norse thunder god Thor wield? — A hammer, Mjölnir (Odin has the spear)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В каком порядке расположены цвета на российском флаге, сверху вниз?",
+    "options": ["Красный, синий, белый", "Синий, белый, красный", "Белый, синий, красный", "Белый, красный, синий"],
+    "correctIndex": 2,
+    "gloss": "In what order are the colours of the Russian flag, top to bottom? — White, blue, red."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какая династия правила Россией с 1613 года до 1917-го?",
+    "options": ["Рюриковичи", "Романовы", "Годуновы", "Шуйские"],
+    "correctIndex": 1,
+    "gloss": "Which dynasty ruled Russia from 1613 until 1917? — The Romanovs; the Rurikids ended in 1598, Godunov and Shuisky were short reigns between."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Онлайн-кинотеатр продаёт год подписки по цене десяти месяцев, а месяц стоит 300 рублей. Сколько на самом деле выходит за месяц при годовой подписке?",
+    "options": ["250 рублей", "275 рублей", "225 рублей", "200 рублей"],
+    "correctIndex": 0,
+    "gloss": "A streaming service sells a year at the price of ten months, one month costing 300 roubles; what is the effective monthly price? — 250 roubles: 3000 ÷ 12."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Сколько получится, если 30 разделить на половину и прибавить 10?",
+    "options": ["25", "40", "60", "70"],
+    "correctIndex": 3,
+    "gloss": "What do you get if you divide 30 by a half and add 10? — 70: 30 ÷ ½ = 60, not 15; the trap is treating it as halving."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Столицей какой республики в составе России является Казань?",
+    "options": ["Башкортостан", "Чувашия", "Татарстан", "Марий Эл"],
+    "correctIndex": 2,
+    "gloss": "Kazan is the capital of which republic within Russia? — Tatarstan."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Почему на Земле сменяются времена года?",
+    "options": ["Земля то приближается к Солнцу, то отдаляется от него", "Солнце то разгорается, то слабеет", "Земная ось наклонена к плоскости орбиты", "Земля вращается вокруг оси то быстрее, то медленнее"],
+    "correctIndex": 2,
+    "gloss": "Why do the seasons change on Earth? — The tilt of the axis changes the Sun's height and day length; distance is a common misconception (Earth is closest to the Sun in January)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Что почти исключительно едят коалы?",
+    "options": ["Листья эвкалипта", "Побеги бамбука", "Плоды бананов", "Кору акации"],
+    "correctIndex": 0,
+    "gloss": "What do koalas eat almost exclusively? — Eucalyptus leaves (bamboo is the panda's food)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какая птица дала название знаменитой пьесе Чехова?",
+    "options": ["Ласточка", "Журавль", "Соловей", "Чайка"],
+    "correctIndex": 3,
+    "gloss": "Which bird gave its name to a famous play by Chekhov? — The seagull (\"Чайка\", 1896)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой русский народный инструмент имеет треугольный корпус и три струны?",
+    "options": ["Балалайка", "Домра", "Гусли", "Гармонь"],
+    "correctIndex": 0,
+    "gloss": "Which Russian folk instrument has a triangular body and three strings? — The balalaika."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой зимний вид спорта сочетает лыжную гонку со стрельбой?",
+    "options": ["Триатлон", "Биатлон", "Пятиборье", "Лыжное двоеборье"],
+    "correctIndex": 1,
+    "gloss": "Which winter sport combines cross-country skiing with shooting? — Biathlon (Nordic combined is skiing plus ski jumping)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какое животное дало разговорное название значку «@» в русском языке?",
+    "options": ["Кошка", "Корова", "Собака", "Свинья"],
+    "correctIndex": 2,
+    "gloss": "Which animal gave the colloquial Russian name of the \"@\" sign? — The dog: «собака»."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой народ Древней Месопотамии первым стал писать клинописью на глиняных табличках?",
+    "options": ["Шумеры", "Египтяне", "Финикийцы", "Хетты"],
+    "correctIndex": 0,
+    "gloss": "Which people of ancient Mesopotamia first wrote in cuneiform on clay tablets? — The Sumerians (Egyptians used hieroglyphs, Phoenicians an alphabet)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Какой художник написал картины «Богатыри» и «Алёнушка»?",
+    "options": ["Илья Репин", "Виктор Васнецов", "Исаак Левитан", "Василий Суриков"],
+    "correctIndex": 1,
+    "gloss": "Which painter made \"Bogatyrs\" and \"Alyonushka\"? — Viktor Vasnetsov."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "В каком городе находится официальная резиденция Деда Мороза?",
+    "options": ["Великий Новгород", "Кострома", "Великий Устюг", "Ярославль"],
+    "correctIndex": 2,
+    "gloss": "In which town is Ded Moroz's official residence? — Veliky Ustyug (Kostroma is the Snow Maiden's home)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какой орган человека вырабатывает инсулин — гормон, регулирующий уровень сахара в крови?",
+    "options": ["Печень", "Почки", "Селезёнка", "Поджелудочная железа"],
+    "correctIndex": 3,
+    "gloss": "Which human organ makes insulin, the hormone regulating blood sugar? — The pancreas."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто снял комедию «Иван Васильевич меняет профессию»?",
+    "options": ["Эльдар Рязанов", "Леонид Гайдай", "Георгий Данелия", "Марк Захаров"],
+    "correctIndex": 1,
+    "gloss": "Who directed the comedy \"Ivan Vasilievich Changes Profession\"? — Leonid Gaidai (1973)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Про Москву говорили, что в ней «сорок сороков» церквей. Сколько это получается, если считать буквально?",
+    "options": ["80", "400", "1600", "2400"],
+    "correctIndex": 2,
+    "gloss": "Moscow was said to have \"forty forties\" of churches; how many is that taken literally? — 1600: 40 × 40, «сорок» being the old word for a bundle of forty."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Что такое сбитень, который в старину продавали на русских ярмарках?",
+    "options": ["Горячий напиток из воды, мёда и пряностей", "Холодный напиток из ржаного хлеба", "Кисель из лесных ягод", "Взвар из сушёных яблок и груш"],
+    "correctIndex": 0,
+    "gloss": "What is sbiten, sold at old Russian fairs? — A hot drink of water, honey and spices (the cold bread drink is kvass)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Кого считают первым императором Рима?",
+    "options": ["Юлий Цезарь", "Нерон", "Траян", "Октавиан Август"],
+    "correctIndex": 3,
+    "gloss": "Who is considered the first Roman emperor? — Octavian Augustus (27 BC); Caesar was dictator, never emperor."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "От труда каких людей пошло выражение «тянуть лямку»?",
+    "options": ["Бурлаки", "Ямщики", "Мельники", "Пахари"],
+    "correctIndex": 0,
+    "gloss": "Whose labour gave rise to the phrase \"to pull the strap\" (to toil)? — Barge haulers (burlaks), who towed boats upriver in a strap, the лямка."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сколько диагоналей у выпуклого шестиугольника?",
+    "options": ["6", "9", "12", "18"],
+    "correctIndex": 1,
+    "gloss": "How many diagonals does a convex hexagon have? — 9: n(n−3)/2 = 6·3/2."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Часы с боем пробили три раза за 6 секунд. За сколько секунд те же часы пробьют десять раз?",
+    "options": ["20", "24", "27", "30"],
+    "correctIndex": 2,
+    "gloss": "A striking clock chimes three times in 6 seconds; how long for ten chimes? — 27 s: three chimes make two gaps of 3 s, ten chimes make nine gaps."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая из этих стран не имеет выхода к морю?",
+    "options": ["Австрия", "Хорватия", "Португалия", "Греция"],
+    "correctIndex": 0,
+    "gloss": "Which of these countries has no coastline? — Austria; the other three are all on the sea."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Какое из этих растений названо словом, которое складывается из названий двух нот?",
+    "options": ["Горох", "Фасоль", "Чечевица", "Нут"],
+    "correctIndex": 1,
+    "gloss": "Which of these plants has a name made of two note names? — Bean, «фасоль»: фа + соль."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "«Сентябрь» восходит к латинскому «septem» — «семь», но он девятый в году. Почему?",
+    "options": ["Римляне начинали счёт с декабря", "Раньше в году было семь месяцев", "Название перепутали при переводе", "Римский год начинался с марта"],
+    "correctIndex": 3,
+    "gloss": "\"September\" comes from Latin \"seven\" yet is the ninth month; why? — The old Roman year began in March (January and February came later)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какая страна первой предоставила женщинам право голоса на общенациональных выборах в 1893 году?",
+    "options": ["Финляндия", "Норвегия", "Новая Зеландия", "США"],
+    "correctIndex": 2,
+    "gloss": "Which country first gave women the vote in national elections, in 1893? — New Zealand (Finland followed in 1906)."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Какую игру в 1971 году «перенёс» на Луну астронавт Алан Шепард, ударив там по мячу?",
+    "options": ["Гольф", "Бейсбол", "Теннис", "Крикет"],
+    "correctIndex": 0,
+    "gloss": "Which game did astronaut Alan Shepard bring to the Moon in 1971, hitting a ball there? — Golf (Apollo 14)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Двоичное число 10110 записывает обычное число. Какое?",
+    "options": ["18", "20", "22", "26"],
+    "correctIndex": 2,
+    "gloss": "The binary number 10110 is which ordinary number? — 22: 16 + 4 + 2."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Как официально называется собор Василия Блаженного на Красной площади?",
+    "options": ["Успенский собор", "Покровский собор", "Благовещенский собор", "Архангельский собор"],
+    "correctIndex": 1,
+    "gloss": "What is St Basil's Cathedral officially called? — The Pokrovsky (Intercession) Cathedral; the others are Kremlin cathedrals."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Свет от Солнца идёт до Земли около 8 минут. А сколько примерно идёт свет от Луны до Земли?",
+    "options": ["Около 0,13 секунды", "Около 1,3 секунды", "Около 13 секунд", "Около 1,3 минуты"],
+    "correctIndex": 1,
+    "gloss": "Sunlight takes about 8 minutes to reach Earth; how long does light take from the Moon? — About 1.3 s: 384,000 km at 300,000 km/s."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто написал повесть «Пикник на обочине», по которой снят фильм «Сталкер»?",
+    "options": ["Кир Булычёв", "Иван Ефремов", "Александр Беляев", "Братья Стругацкие"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novella \"Roadside Picnic\", the basis of the film \"Stalker\"? — The Strugatsky brothers."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Менделеев оставил в таблице пустые клетки для неоткрытых элементов. Какой элемент, открытый в 1875 году, он предсказал под названием «экаалюминий»?",
+    "options": ["Галлий", "Германий", "Скандий", "Индий"],
+    "correctIndex": 0,
+    "gloss": "Mendeleev left gaps for unknown elements; which element, found in 1875, did he predict as \"eka-aluminium\"? — Gallium."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кто из художников написал медведей на картине Ивана Шишкина «Утро в сосновом лесу»?",
+    "options": ["Василий Перов", "Иван Крамской", "Константин Савицкий", "Владимир Маковский"],
+    "correctIndex": 2,
+    "gloss": "Who painted the bears in Shishkin's \"Morning in a Pine Forest\"? — Konstantin Savitsky; the gallery owner later removed his signature."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Какой из этих плодов с точки зрения ботаники является настоящей ягодой?",
+    "options": ["Клубника", "Малина", "Банан", "Ежевика"],
+    "correctIndex": 2,
+    "gloss": "Which of these is a true berry botanically? — The banana; strawberry, raspberry and blackberry are aggregate or accessory fruits."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "При какой примерно температуре закипает вода на вершине Эвереста?",
+    "options": ["Около 50 °C", "Около 85 °C", "Около 95 °C", "Около 70 °C"],
+    "correctIndex": 3,
+    "gloss": "At roughly what temperature does water boil on top of Everest? — About 70 °C: the air pressure there is about a third of sea level."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Единственная рукопись «Слова о полку Игореве» сгорела в московском пожаре 1812 года. А в каком году его впервые напечатали?",
+    "options": ["1762", "1825", "1852", "1800"],
+    "correctIndex": 3,
+    "gloss": "The only manuscript of \"The Tale of Igor's Campaign\" burned in the Moscow fire of 1812; in which year was it first printed? — 1800."
   }
 ]

@@ -5,7 +5,7 @@ What gets seeded next, in which order, and why. The process (writers, review, co
 that continues the work, on any machine: everything needed is in this file and the repo.
 
 **The files are the source of truth for progress.** A language is done for a phase when its
-file exists (ranked) or reaches the phase's level targets (Classic), and the checker passes.
+file reaches the phase's level targets and the checker passes.
 
 ## Why seed at all, and where
 
@@ -13,221 +13,216 @@ Gemini is called only when a player has no unseen question left at a level
 (`getQuestionBatch`, `getRunQuestion` in `server/src/services/questionPool.ts`). Each call writes
 8 questions into a pool every later player of that language shares. So the spend follows the
 **most dedicated player of each language, level by level**, and a hand-written question saves
-Gemini only where players will actually run out. Seed where play is, at the levels it reaches.
+Gemini only where players actually run out. When Gemini is busy (429) or the hourly budget is
+spent, a Classic player gets English questions and a ranked player gets repeats, so seeding
+those languages also fixes what players see.
 
-- **Classic** draws from the public pool. Many busy languages already have deep AI pools
-  (French ~350 a level, Romanian ~150, German, Mongolian, Czech, Slovenian, Vietnamese,
-  Portuguese 70–110), so more Classic seed saves little there.
-- **Ranked** (Marathon, Time Attack) draws only from the ranked reserve, which was AI-only and is
-  small everywhere (at most 186 questions in a language, all levels together). A run uses ~20
-  questions and never repeats one from the player's earlier runs, so this is where Gemini keeps
-  being called. Ranked is seeded first.
+- **Classic:** a game fetches all five levels at its start, excluding what the device (and, signed
+  in, the account) has already *shown*. Levels 1–3 are shown most, so they run dry first.
+- **Ranked** (Marathon, Time Attack) draws only from the ranked reserve and never repeats a
+  question from the player's earlier runs while unseen ones remain. A run that reaches a level
+  wants up to five questions there.
 
 ## Phases
 
 | Phase | File | Level 1 / 2 / 3 / 4 / 5 | Status |
 |---|---|---|---|
 | 1 | `seed/classic/<code>.json` | 10 / 10 / 10 / 10 / 10 | done, 79 languages (11 Nov 2026) |
-| 2 | `seed/ranked/<code>.json` (new) | 28 / 14 / 5 / 2 / 1 | **current**: follow the order below |
-| 3 | `seed/classic/<code>.json` grows | from data, not before 25 Nov 2026 | planned: see "Phase 3" |
+| 2 | `seed/ranked/<code>.json` (new) | 28 / 14 / 5 / 2 / 1 | done, 80 languages (Nov 2026) |
+| 3 | `seed/classic/<code>.json` grows | 25 / 23 / 20 / 17 / 15 (+15 / 13 / 10 / 7 / 5) | **current**: the order below |
+| 4 | `seed/ranked/<code>.json` grows | 48 / 29 / 15 / 5 / 3 (+20 / 15 / 10 / 3 / 2) | **current**: the order below |
 
 The level targets live in `LEVEL_TARGETS` in `server/prisma/check-seed.ts`, one entry per phase
-of each kind; a file must match one of them exactly. A later phase appends its totals, and its
-writers add the difference to the existing file.
+of each kind; a file must match one of them exactly, so languages not yet topped up keep passing
+(and deploying). Writers fill to the newest totals and add the difference to the existing file.
 
-**Phase 2's split** is the real ranked play: of 583 ranked serves in production, 56% were
-level 1, 28% level 2, 10% level 3, 5% level 4, 1% level 5 (a run climbs one level every five
-correct answers, and most end early).
+## Phases 3 and 4: in this order
 
-## Phase 2: ranked, in this order
+From the production numbers of 19 Nov 2026 (the queries are below). Ranked phase 2 went live on
+11 Nov and cut Gemini from 120–280 calls a day to 6–60. What still calls it, since 11 Nov:
 
-Ordered by the production numbers of 11 Nov 2026 (the queries are below). Work down the list,
-three languages at a time. **Stop after tier C** and re-run the queries: a language nobody plays
-ranked costs no Gemini, so tiers D and E are seeded only once ranked runs appear there (move
-such a language up to tier B).
+| # | Kind | Code | Language | Calls | Refused (budget) | Failed (429) | Out at |
+|---|---|---|---|---|---|---|---|
+| 1 | Classic | mk | Macedonian | 10 | 49 | 10 | all levels; L1–L3 never-shown 0 |
+| 2 | Classic | ru | Russian | 29 | 21 | 1 | L1–L2 (28 calls in 7 days) |
+| 3 | Classic | lt | Lithuanian | 37 | 1 | 10 | L1–L4 never-shown 0 |
+| 4 | Ranked | fr | French | 11 | ~40 | 0 | one Time Attack player has seen all of L1–L4 |
+| 5 | Classic | sq | Albanian | 21 | 0 | 5 | L1–L3 |
+| 6 | Classic | sr | Serbian | 21 | 0 | 3 | L1–L3 never-shown 0 |
+| 7 | Classic | sk | Slovak | 15 | 0 | 0 | L1–L2 never-shown 0 |
+| 8 | Classic | pl | Polish | 10 | 3 | 0 | L1, L3 never-shown 0 |
 
-**Tier A: reserve already used up** (level-1 serves ≥ level-1 stock, runs in the last 30 days)
+Packs of three: **mk, ru, lt** · **fr (ranked), sq, sr** · **sk, pl**. Then **stop and re-run the
+queries** before seeding more.
 
-| # | Code | Language | Ranked L1 stock / served | Runs (30 d) |
-|---|---|---|---|---|
-| 1 | lv | Latvian | 16 / 34 | 7 |
-| 2 | uz | Uzbek (Latin) | 61 / 82 | 20 |
-| 3 | es | Spanish | 70 / 68 | 16 |
-| 4 | pt-BR | Brazilian Portuguese | 16 / 16 | 4 |
-| 5 | vi | Vietnamese | 32 / 30 | 8 |
+Next candidates, if the queries show calls there: Classic hr, el, ar, ka, kk (every level-1
+question already shown, little recent spend); languages with no AI pool at all where a failed
+call already served English (sv, id, mr, ne); ranked L3–L5 for languages with ranked play
+(lv, ar, ro were at or near the bottom of their 5 level-3 questions).
 
-**Tier B: ranked play, reserve not yet used up**
+Not worth seeding now: de, mn, sl, cs, vi, en, pt-BR, hy, es, ro Classic. Their AI pools (60–360 a
+level) were bought before 11 Nov and have needed almost nothing since.
 
-| # | Code | Language | Ranked L1 stock / served | Runs (30 d) |
-|---|---|---|---|---|
-| 6 | ru | Russian | 63 / 44 | 11 |
-| 7 | uk | Ukrainian | 61 / 43 | 8 |
-| 8 | hr | Croatian | 8 / 4 | 2 |
-| 9 | ar | Arabic | 8 / 4 | 1 |
-| 10 | ro | Romanian | 63 / 1 | 1 |
-| 11 | el | Greek | 0 / 0 | 1 |
-
-**Tier C: a Classic audience, no ranked play yet** (most Classic game requests first; these
-players are the likeliest to try ranked)
-
-| # | Code | Language | Classic requests |
-|---|---|---|---|
-| 12 | fr | French | 526 |
-| 13 | de | German | 53 |
-| 14 | en | English | 50 |
-| 15 | mn | Mongolian (Cyrillic) | 30 |
-| 16 | cs | Czech | 28 |
-| 17 | sk | Slovak | 28 |
-| 18 | mk | Macedonian | 26 |
-| 19 | sl | Slovenian | 25 |
-| 20 | it | Italian | 23 |
-| 21 | fa | Persian | 21 |
-| 22 | ka | Georgian | 21 |
-| 23 | hy | Armenian | 19 |
-| 24 | he | Hebrew | 17 |
-| 25 | nl | Dutch | 16 |
-
-English has no Classic seed file (its Classic bank is the fallback,
-`seed/fallback-questions.en.json`), but it does get a ranked file like every other language.
-
-**Tier D: a little Classic play** (fewer than 15 requests), seed when ranked play appears:
-26 da · 27 pl · 28 mr · 29 sq · 30 kk · 31 sr · 32 hu · 33 id · 34 ky
-
-**Tier E: no play yet**, seed when ranked play appears (listed by speakers):
-35 zh-CN · 36 hi · 37 bn · 38 ur · 39 ja · 40 sw · 41 te · 42 ta · 43 ko · 44 th · 45 gu · 46 kn ·
-47 ml · 48 pa · 49 fil · 50 ms · 51 sv · 52 fi · 53 nb · 54 bg · 55 zh-TW · 56 jv · 57 ha · 58 am ·
-59 yo · 60 ne · 61 my · 62 ig · 63 si · 64 km · 65 ps · 66 or · 67 zu · 68 so · 69 af · 70 lo ·
-71 ca · 72 lt · 73 be · 74 gl · 75 et · 76 eu · 77 cy · 78 is · 79 om · 80 su
-
-## Phase 3: Classic +50 (planned)
-
-**Why it waits.** Until 9 Nov 2026 Classic counted every *fetched* question as served, spares
-and unreached levels included (fixed in `0628020`). So the Classic `servedCount` in production
-is flat across levels and says nothing about how far players get. Since then it counts only
-questions actually shown. Two weeks of clean counting gives the real level split.
-
-**When:** from 25 Nov 2026.
-
-1. Run both queries below on the server.
-2. **The level split:** subtract the baseline (end of this file) from today's `classic_shown`
-   per level. Those differences are the real Classic play since 11 Nov. Share 50 new questions
-   in proportion, but only among levels that run short (a level whose stock is many times its
-   play needs none).
-   GA4 can confirm it: the `game_end` event carries `score` (questions answered), `mode` and
-   `locale`, signed-out players included; once `score` and `mode` are registered as custom
-   dimensions (Admin → Custom definitions), an exploration of `game_end` with mode = classic,
-   by score, shows where players drop out.
-3. **The language order:** most Classic play since the baseline first, among languages whose
-   pool is thin at the levels players reach (`c_never_shown` low against that play). Write the
-   order into this file as a table like phase 2's.
-4. Append the new totals (for example `{ 1: 35, 2: 28, 3: 17, 4: 10, 5: 10 }`) to
-   `LEVEL_TARGETS.classic` in `server/prisma/check-seed.ts`, and update this file's phase table.
-   A file passes when it matches any phase's totals exactly, so languages not yet topped up keep
-   passing (and deploying) while the phase rolls out over weeks; writers fill to the newest.
-5. Writers follow [QUESTION_SEEDING_BRIEF.md](QUESTION_SEEDING_BRIEF.md): they add to the
-   existing file and repeat nothing from it or from the ranked file.
+French ranked is one player who plays about 200 questions a week. 50 more questions buy
+weeks, not a cure; after that they get repeats when their hourly budget is spent, which is fine.
 
 ## The queries
 
 Run on the server. Paste each block into a shell there (prefix `docker` with `sudo` if needed).
+Totals only: no user ids, emails or IPs.
 
-**Per language:** where Gemini has been spent, and how much each language is played.
+**1. AI calls** per language, mode and level. Each call stores one batch of up to 8 with one
+`createdAt`, so batches count calls. Only calls whose questions still exist; a ranked question
+that graduated into Classic counts as Classic.
 
 ```bash
-docker exec -i millionaire-postgres-prod psql -U millionaire -d millionaire <<'SQL'
-WITH questions AS (
-  SELECT locale,
-         coalesce(sum("servedCount") FILTER (WHERE NOT ranked), 0) AS classic_shown,
-         coalesce(sum("servedCount") FILTER (WHERE ranked), 0)     AS ranked_shown,
-         count(*) FILTER (WHERE origin = 'ai' AND NOT ranked)      AS classic_ai,
-         count(*) FILTER (WHERE origin = 'ai' AND ranked)          AS ranked_ai
-  FROM "Question" WHERE "retiredAt" IS NULL GROUP BY locale
-), batches AS (
-  SELECT locale, max(requests) FILTER (WHERE NOT ranked) AS classic_requests
-  FROM "GenerationDemand" GROUP BY locale
-), runs AS (
-  SELECT locale, count(*) AS runs_30d, count(DISTINCT "userId") AS ranked_players_30d
-  FROM "Run" WHERE "startedAt" > now() - interval '30 days' GROUP BY locale
-), classic_players AS (
-  SELECT locale, count(DISTINCT "userId") AS classic_players_30d
-  FROM "ClassicGame" WHERE "playedAt" > now() - interval '30 days' GROUP BY locale
-), accounts AS (
-  SELECT locale, count(*) AS accounts FROM "User" GROUP BY locale
+docker exec -i millionaire-postgres-prod psql -U millionaire -d millionaire -P pager=off <<'SQL'
+\echo '=== A1. AI calls per language (one call = one batch of up to 8)'
+WITH calls AS (
+  SELECT locale, ranked, level, category, date_trunc('second', "createdAt") AS at
+  FROM "Question" WHERE origin = 'ai' GROUP BY 1, 2, 3, 4, 5
 )
-SELECT q.locale,
-       q.classic_ai + q.ranked_ai          AS gemini_questions,
-       q.classic_ai, q.ranked_ai,
-       q.classic_shown, q.ranked_shown,
-       coalesce(b.classic_requests, 0)     AS classic_requests,
-       coalesce(cp.classic_players_30d, 0) AS classic_players_30d,
-       coalesce(r.runs_30d, 0)             AS runs_30d,
-       coalesce(r.ranked_players_30d, 0)   AS ranked_players_30d,
-       coalesce(a.accounts, 0)             AS accounts
-FROM questions q
-LEFT JOIN batches b          USING (locale)
-LEFT JOIN runs r             USING (locale)
-LEFT JOIN classic_players cp USING (locale)
-LEFT JOIN accounts a         USING (locale)
-ORDER BY gemini_questions DESC, classic_shown + ranked_shown DESC, classic_requests DESC;
+SELECT locale,
+       count(*) FILTER (WHERE NOT ranked AND at > now() - interval '7 days')  AS classic_7d,
+       count(*) FILTER (WHERE ranked     AND at > now() - interval '7 days')  AS ranked_7d,
+       count(*) FILTER (WHERE NOT ranked AND at > now() - interval '30 days') AS classic_30d,
+       count(*) FILTER (WHERE ranked     AND at > now() - interval '30 days') AS ranked_30d,
+       count(*) FILTER (WHERE at > '2026-11-19')                              AS since_nov19,
+       count(*)                                                               AS all_time
+FROM calls GROUP BY locale
+ORDER BY count(*) FILTER (WHERE at > now() - interval '30 days') DESC, all_time DESC;
+
+\echo '=== A2. AI calls, last 30 days, per language, mode and level'
+WITH calls AS (
+  SELECT locale, ranked, level, category, date_trunc('second', "createdAt") AS at
+  FROM "Question" WHERE origin = 'ai' AND "createdAt" > now() - interval '30 days' GROUP BY 1, 2, 3, 4, 5
+)
+SELECT locale, CASE WHEN ranked THEN 'ranked' ELSE 'classic' END AS mode, level,
+       count(*) AS calls, max(at)::date AS last_call
+FROM calls GROUP BY 1, 2, 3 ORDER BY calls DESC, 1, 2, 3;
+
+\echo '=== A3. AI calls per day, last 21 days'
+WITH calls AS (
+  SELECT locale, ranked, level, category, date_trunc('second', "createdAt") AS at
+  FROM "Question" WHERE origin = 'ai' AND "createdAt" > now() - interval '21 days' GROUP BY 1, 2, 3, 4, 5
+)
+SELECT at::date AS day, count(*) FILTER (WHERE NOT ranked) AS classic_calls,
+       count(*) FILTER (WHERE ranked) AS ranked_calls, count(DISTINCT locale) AS locales
+FROM calls GROUP BY 1 ORDER BY 1;
 SQL
 ```
 
-**Per language and level:** stock against play. `c_` is Classic, `r_` the ranked reserve. A
-bucket with high `shown` and few `never_shown` (Classic) or `r_shown` near `r_stock` (ranked) is
-about to call Gemini. The second table is the level split across all languages.
+**2. Stock against play, and players near the bottom.** In B1, a bucket with `c_never_shown`
+(or `r_never_shown`) at 0 has been shown in full: its next request calls Gemini. In C1 and C2,
+`players_near_out` counts players who have seen 80% of a bucket.
 
 ```bash
-docker exec -i millionaire-postgres-prod psql -U millionaire -d millionaire <<'SQL'
+docker exec -i millionaire-postgres-prod psql -U millionaire -d millionaire -P pager=off <<'SQL'
+\echo '=== B1. Stock against play per language and level (c_ = Classic, r_ = ranked)'
 SELECT locale, level,
-       count(*) FILTER (WHERE NOT ranked AND origin = 'seed')      AS c_seed,
-       count(*) FILTER (WHERE NOT ranked AND origin = 'ai')        AS c_ai,
-       coalesce(sum("servedCount") FILTER (WHERE NOT ranked), 0)   AS c_shown,
-       count(*) FILTER (WHERE NOT ranked AND "servedCount" = 0)    AS c_never_shown,
-       count(*) FILTER (WHERE ranked)                              AS r_stock,
-       coalesce(sum("servedCount") FILTER (WHERE ranked), 0)       AS r_shown
+       count(*) FILTER (WHERE NOT ranked AND origin = 'seed')    AS c_seed,
+       count(*) FILTER (WHERE NOT ranked AND origin = 'ai')      AS c_ai,
+       coalesce(sum("servedCount") FILTER (WHERE NOT ranked), 0) AS c_shown,
+       count(*) FILTER (WHERE NOT ranked AND "servedCount" = 0)  AS c_never_shown,
+       count(*) FILTER (WHERE ranked AND origin = 'seed')        AS r_seed,
+       count(*) FILTER (WHERE ranked AND origin = 'ai')          AS r_ai,
+       coalesce(sum("servedCount") FILTER (WHERE ranked), 0)     AS r_shown,
+       count(*) FILTER (WHERE ranked AND "servedCount" = 0)      AS r_never_shown
 FROM "Question"
 WHERE "retiredAt" IS NULL
   AND locale IN (SELECT locale FROM "Question" WHERE origin = 'ai' OR "servedCount" > 0)
 GROUP BY 1, 2 ORDER BY 1, 2;
 
-SELECT level,
-       sum("servedCount") FILTER (WHERE NOT ranked) AS classic_shown,
-       sum("servedCount") FILTER (WHERE ranked)     AS ranked_shown,
-       count(*) FILTER (WHERE origin = 'ai' AND NOT ranked) AS classic_ai,
-       count(*) FILTER (WHERE origin = 'ai' AND ranked)     AS ranked_ai
-FROM "Question" WHERE "retiredAt" IS NULL
-GROUP BY 1 ORDER BY 1;
+\echo '=== C1. Ranked: how much of each bucket the keenest players have seen'
+WITH seen AS (
+  SELECT r."userId", r.locale, q.level, count(DISTINCT q.id) AS seen
+  FROM "Run" r CROSS JOIN LATERAL unnest(r."servedQuestionIds") AS s(id)
+  JOIN "Question" q ON q.id = s.id AND q.ranked
+  GROUP BY 1, 2, 3
+), stock AS (
+  SELECT locale, level, count(*) AS stock FROM "Question" WHERE ranked AND "retiredAt" IS NULL GROUP BY 1, 2
+)
+SELECT s.locale, s.level, st.stock, count(*) AS players, max(s.seen) AS max_seen,
+       round(percentile_cont(0.9) WITHIN GROUP (ORDER BY s.seen)) AS p90_seen,
+       count(*) FILTER (WHERE s.seen >= 0.8 * st.stock) AS players_near_out
+FROM seen s JOIN stock st USING (locale, level)
+GROUP BY 1, 2, 3 ORDER BY players_near_out DESC, max_seen DESC;
+
+\echo '=== C2. Classic (signed-in): how much of each bucket the keenest players have seen'
+WITH seen AS (
+  SELECT sq."userId", q.locale, q.level, count(*) AS seen
+  FROM "SeenQuestion" sq
+  JOIN "Question" q ON q.id = sq."questionId" AND NOT q.ranked AND q."retiredAt" IS NULL
+  GROUP BY 1, 2, 3
+), stock AS (
+  SELECT locale, level, count(*) AS stock FROM "Question" WHERE NOT ranked AND "retiredAt" IS NULL GROUP BY 1, 2
+)
+SELECT s.locale, s.level, st.stock, count(*) AS players, max(s.seen) AS max_seen,
+       round(percentile_cont(0.9) WITHIN GROUP (ORDER BY s.seen)) AS p90_seen,
+       count(*) FILTER (WHERE s.seen >= 0.8 * st.stock) AS players_near_out
+FROM seen s JOIN stock st USING (locale, level)
+GROUP BY 1, 2, 3 ORDER BY players_near_out DESC, max_seen DESC;
 SQL
 ```
 
-Caveats: `classic_requests` and `classic_shown` include signed-out players, the `*_players_30d`
-columns and `accounts` only signed-in ones. A ranked question that graduates into Classic
-restarts its `servedCount` at 0.
+**3. Play per mode, demand, stock per language.**
 
-## Baseline: Classic `c_shown`, 11 Nov 2026
+```bash
+docker exec -i millionaire-postgres-prod psql -U millionaire -d millionaire -P pager=off <<'SQL'
+\echo '=== D1. Ranked runs per language and mode'
+SELECT locale, mode,
+       count(*) FILTER (WHERE "startedAt" > now() - interval '7 days')  AS runs_7d,
+       count(*) FILTER (WHERE "startedAt" > now() - interval '30 days') AS runs_30d,
+       count(*) AS runs_all,
+       count(DISTINCT "userId") FILTER (WHERE "startedAt" > now() - interval '30 days') AS players_30d,
+       round(avg("correctCount"), 1) AS avg_correct, max("correctCount") AS max_correct,
+       count(*) FILTER (WHERE "usedPublicQuestions") AS ran_out_of_reserve
+FROM "Run" GROUP BY 1, 2 ORDER BY runs_30d DESC, runs_all DESC;
 
-Phase 3 subtracts these from later numbers (pre-fix counts, see "Phase 3"). Levels 1 / 2 / 3 / 4 / 5.
+\echo '=== D2. Classic games (signed-in) per language, by level reached'
+SELECT locale,
+       count(*) FILTER (WHERE "playedAt" > now() - interval '7 days')  AS games_7d,
+       count(*) FILTER (WHERE "playedAt" > now() - interval '30 days') AS games_30d,
+       count(DISTINCT "userId") FILTER (WHERE "playedAt" > now() - interval '30 days') AS players_30d,
+       count(*) FILTER (WHERE "reachedStage" <= 3)              AS reached_l1,
+       count(*) FILTER (WHERE "reachedStage" BETWEEN 4 AND 6)   AS reached_l2,
+       count(*) FILTER (WHERE "reachedStage" BETWEEN 7 AND 9)   AS reached_l3,
+       count(*) FILTER (WHERE "reachedStage" BETWEEN 10 AND 12) AS reached_l4,
+       count(*) FILTER (WHERE "reachedStage" >= 13)             AS reached_l5
+FROM "ClassicGame" GROUP BY 1 ORDER BY games_30d DESC, 1;
 
-**All languages:** 5155 / 4782 / 4601 / 4495 / 4393
+\echo '=== E. Demand buckets (signed-out players included)'
+SELECT locale, CASE WHEN ranked THEN 'ranked' ELSE 'classic' END AS mode, level, requests,
+       "lastRequestedAt"::date AS last_requested
+FROM "GenerationDemand" ORDER BY requests DESC;
 
-| Code | c_shown by level | Code | c_shown by level |
-|---|---|---|---|
-| ar | 202 / 119 / 63 / 41 / 40 | lv | 27 / 22 / 20 / 16 / 16 |
-| cs | 108 / 108 / 108 / 108 / 108 | mk | 68 / 68 / 68 / 68 / 68 |
-| da | 12 / 6 / 5 / 0 / 0 | mn | 151 / 112 / 112 / 112 / 64 |
-| de | 212 / 212 / 212 / 212 / 212 | mr | 3 / 3 / 1 / 0 / 0 |
-| el | 18 / 18 / 13 / 7 / 0 | nl | 8 / 8 / 8 / 8 / 8 |
-| en | 1075 / 708 / 628 / 596 / 579 | pl | 21 / 8 / 2 / 0 / 0 |
-| es | 40 / 40 / 40 / 40 / 40 | pt-BR | 183 / 196 / 198 / 216 / 216 |
-| fa | 0 / 0 / 0 / 0 / 0 | ro | 561 / 724 / 766 / 760 / 760 |
-| fr | 1661 / 1742 / 1730 / 1719 / 1719 | ru | 67 / 52 / 52 / 52 / 40 |
-| he | 24 / 18 / 6 / 0 / 0 | sk | 80 / 40 / 21 / 16 / 16 |
-| hr | 92 / 54 / 31 / 8 / 7 | sl | 100 / 100 / 100 / 100 / 100 |
-| hu | 4 / 4 / 4 / 4 / 4 | sr | 3 / 0 / 0 / 0 / 0 |
-| hy | 74 / 72 / 72 / 72 / 72 | uk | 18 / 15 / 13 / 12 / 12 |
-| id | 3 / 0 / 0 / 0 / 0 | uz | 0 / 0 / 0 / 0 / 0 |
-| it | 89 / 83 / 80 / 80 / 65 | vi | 176 / 176 / 176 / 176 / 176 |
-| ka | 67 / 66 / 64 / 64 / 63 | | |
-| kk | 8 / 8 / 8 / 8 / 8 | | |
+\echo '=== F. Hand-written and AI stock per language'
+SELECT locale,
+       count(*) FILTER (WHERE origin = 'seed' AND NOT ranked) AS classic_seed,
+       count(*) FILTER (WHERE origin = 'seed' AND ranked)     AS ranked_seed,
+       count(*) FILTER (WHERE origin = 'ai')                  AS ai_total,
+       count(*) FILTER (WHERE "retiredAt" IS NOT NULL)        AS retired,
+       coalesce(sum("reportCount"), 0)                        AS reports
+FROM "Question" GROUP BY 1 ORDER BY 1;
+SQL
+```
 
-Every other language: 0 at every level.
+**4. What the database can't show:** calls refused by the hourly budget, failed calls (those
+players got English or repeats), and Phone-a-Friend, one Gemini call per use.
+
+```bash
+J() { sudo journalctl -u millionaire-api --since -14d --no-pager -o cat; }
+echo "--- settings"; grep -E '^(POOL_REFILL|AI_LIVE)' ~/apps/who-wants-to-be-a-millionaire/shared/.env.api || echo "(defaults)"
+echo "--- AI refused, hourly budget spent, per bucket"; J | grep -oE 'budget spent; [A-Za-z-]+/L[0-9]' | sort | uniq -c | sort -rn | head -40
+echo "--- generation failed, per bucket"; J | grep -oE '(ranked )?generation failed for [A-Za-z-]+/L[0-9]' | sort | uniq -c | sort -rn | head -40
+echo "--- failure reasons"; J | grep -E 'generation failed|^\[refill\]|^\[gemini\]' | sed -E 's/^.*(failed for [A-Za-z-]+\/L[0-9]:|\[refill\]|\[gemini\])//' | cut -c1-140 | sort | uniq -c | sort -rn | head -15
+echo "--- graduated to Classic"; J | grep -oE '\[graduation\] [0-9]+' | awk '{s+=$2} END {print s+0}'
+echo "--- phone-a-friend fallbacks"; J | grep -c 'phone-a-friend\] fell back'
+echo "--- nginx: requests that can trigger AI"
+sudo sh -c 'zcat -f /var/log/nginx/access.log*' | grep -oE '"POST /(questions/batch|runs|runs/[^/ ]+/answer|lifelines/phone-a-friend)[ ?]' | sed -E 's#/runs/[^/ ]+/answer#/runs/:id/answer#; s/[ ?]$//' | sort | uniq -c | sort -rn
+echo "--- phone-a-friend per day"
+sudo sh -c 'zcat -f /var/log/nginx/access.log*' | grep '"POST /lifelines/phone-a-friend' | grep -oE '\[[0-9]{2}/[A-Za-z]{3}/[0-9]{4}' | sort | uniq -c | tail -21
+```
+
+Caveats: `E` and `B1`'s shown counts include signed-out players; `C2` and `D2` only signed-in
+ones. A ranked question that graduates into Classic restarts its `servedCount` at 0.
