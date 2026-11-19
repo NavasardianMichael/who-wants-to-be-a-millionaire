@@ -498,5 +498,505 @@
     "options": ["Златном пресеку", "Броју π", "Ојлеровом броју", "Квадратном корену из 2"],
     "correctIndex": 0,
     "gloss": "In 1, 1, 2, 3, 5, 8, 13… each number is the sum of the two before. Which famous number does the ratio of neighbours approach? — The golden ratio (≈1.618): 13/8 = 1.625, 21/13 ≈ 1.615."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Комшија Милош је у дворишту, а ви га зовете преко ограде. Како ћете га правилно дозвати?",
+    "options": ["Милоше!", "Милошу!", "Милош!", "Милоша!"],
+    "correctIndex": 0,
+    "gloss": "Your neighbour Miloš is in the yard and you call him over the fence. How do you correctly call him? — «Милоше!»: the vocative case; Милошу is dative, Милоша genitive."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Данас је 10. мај. Који је датум прекосутра?",
+    "options": ["11. мај", "13. мај", "12. мај", "8. мај"],
+    "correctIndex": 2,
+    "gloss": "Today is 10 May. What is the date the day after tomorrow («прекосутра»)? — 12 May; 8 May is «прекјуче», the trap."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шта о сајту говори наставак „.rs“ на крају његове адресе?",
+    "options": ["Да је из Русије", "Да је из Србије", "Да је из Румуније", "Да је из Републике Српске"],
+    "correctIndex": 1,
+    "gloss": "What does the ending '.rs' of a web address tell you about the site? — That it is from Serbia (Russia is .ru, Romania .ro; Republika Srpska has no domain of its own)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Аутобус полази у 7:50, а до станице вам треба 25 минута пешке. Када најкасније морате да кренете од куће?",
+    "options": ["У 7:15", "У 7:35", "У 7:30", "У 7:25"],
+    "correctIndex": 3,
+    "gloss": "The bus leaves at 7:50 and the walk to the stop takes 25 minutes. When must you leave home at the latest? — 7:25."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Парадајз, краставац, паприка и лук – а шта шопску салату покрива као снежни покривач?",
+    "options": ["Рендани бели сир", "Павлака", "Мајонез", "Кисело млеко"],
+    "correctIndex": 0,
+    "gloss": "Tomato, cucumber, pepper and onion: what covers a shopska salad like a blanket of snow? — Grated white cheese."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која се печурка лако препознаје по црвеном шеширу с белим тачкицама – и зна се да је отровна?",
+    "options": ["Вргањ", "Лисичарка", "Мухара", "Шампињон"],
+    "correctIndex": 2,
+    "gloss": "Which mushroom is easily recognised by its red cap with white spots, and is known to be poisonous? — The fly agaric (мухара)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је кошаркаш из Сомбора први Србин проглашен за најкориснијег играча НБА лиге?",
+    "options": ["Владе Дивац", "Никола Јокић", "Пеђа Стојаковић", "Богдан Богдановић"],
+    "correctIndex": 1,
+    "gloss": "Which basketball player from Sombor was the first Serb named NBA Most Valuable Player? — Nikola Jokić (first in 2021)."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Будванска ривијера, где лети одмара пола Србије, налази се у којој држави?",
+    "options": ["Хрватска", "Албанија", "Босна и Херцеговина", "Црна Гора"],
+    "correctIndex": 3,
+    "gloss": "The Budva Riviera, where half of Serbia spends the summer, is in which country? — Montenegro."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се зове зелени џангризавац из приче Доктора Сјуса који покушава да украде Божић?",
+    "options": ["Гринч", "Шрек", "Хулк", "Јода"],
+    "correctIndex": 0,
+    "gloss": "What is the name of the green grouch in Dr. Seuss's story who tries to steal Christmas? — The Grinch."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ђурђевдан, празник с којим у народу почиње право пролеће, пада у ком месецу?",
+    "options": ["У марту", "У априлу", "У мају", "У јуну"],
+    "correctIndex": 2,
+    "gloss": "St George's Day, which in folk custom opens true spring, falls in which month? — May (6 May; 23 April in the Julian calendar)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Како се зове слика насликана директно на зиду зграде, понекад преко целе фасаде?",
+    "options": ["Мозаик", "Колаж", "Триптих", "Мурал"],
+    "correctIndex": 3,
+    "gloss": "What do you call a picture painted directly on a building's wall, sometimes across the whole façade? — A mural."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Зашто лименку газираног сока не треба заборавити у замрзивачу?",
+    "options": ["Вода се при смрзавању шири", "Гас се на хладноћи шири", "Шећер се кристалише и пробије лим", "Лим се на хладноћи скупи и пукне"],
+    "correctIndex": 0,
+    "gloss": "Why shouldn't you forget a can of soda in the freezer? — Water expands as it freezes, and the can bursts. Gas actually contracts in the cold."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Која апликација за кратке усправне видео-снимке, позната по плесним изазовима, потиче из Кине?",
+    "options": ["Инстаграм", "ТикТок", "Снепчет", "Јутјуб"],
+    "correctIndex": 1,
+    "gloss": "Which app for short vertical videos, known for dance challenges, comes from China? — TikTok (ByteDance)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ијекавски се „млеко“ каже „млијеко“, а „река“ – „ријека“. Како се онда ијекавски каже „дете“?",
+    "options": ["Дјете", "Дите", "Дијете", "Дете"],
+    "correctIndex": 2,
+    "gloss": "In ijekavian, 'mleko' is 'mlijeko' and 'reka' is 'rijeka'. So how is 'dete' (child) said in ijekavian? — «дијете», following the pattern; «дите» is ikavian."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Новчаница од 1.000, 500, 200 и 100 динара имате колико хоћете. Са најмање колико новчаница можете платити тачно 1.700 динара?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "gloss": "You have as many 1,000, 500, 200 and 100 dinar notes as you like. What is the fewest notes that pay exactly 1,700? — 3: 1,000 + 500 + 200."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Породица Попадић, с Гојком на челу и вечитим кућним свађама, јунаци су које серије?",
+    "options": ["„Срећни људи“", "„Породично благо“", "„Вратиће се роде“", "„Бољи живот“"],
+    "correctIndex": 3,
+    "gloss": "The Popadić family, headed by Gojko, are the heroes of which TV series? — «Бољи живот» (A Better Life, 1987–1991)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Кроз Бањалуку тече брза планинска река, на којој се одржавају и рафтинг такмичења. Која?",
+    "options": ["Врбас", "Босна", "Уна", "Сана"],
+    "correctIndex": 0,
+    "gloss": "A fast mountain river, home to rafting competitions, runs through Banja Luka. Which? — The Vrbas."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Телефон је напуњен до 100 % и сваког сата губи по 8 %. После колико пуних сати ће први пут показати мање од 50 %?",
+    "options": ["5", "6", "7", "8"],
+    "correctIndex": 2,
+    "gloss": "A phone is charged to 100% and loses 8% an hour. After how many full hours does it first show under 50%? — 7: after 6 hours it is at 52%, after 7 at 44%."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Мушки мечеви на гренд слем турнирима играју се на три добијена сета. Колико се сетова у једном мечу може највише одиграти?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "gloss": "Men's Grand Slam matches are best of five (first to three sets). What is the most sets one match can have? — 5: 2–2, then a decider."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "„Ни лук јео, ни лук мирисао“ – тако говори онај ко…",
+    "options": ["тврди да нема никакве везе са нечим", "нема апетита", "не подноси јак мирис", "пости"],
+    "correctIndex": 0,
+    "gloss": "'Neither ate the onion nor smelled it' — so says someone who… — claims to have had nothing to do with something."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Јединица снаге носи име шкотског проналазача који је усавршио парну машину. Ко је он?",
+    "options": ["Џејмс Ват", "Исак Њутн", "Џејмс Џул", "Андре-Мари Ампер"],
+    "correctIndex": 0,
+    "gloss": "The unit of power bears the name of the Scottish inventor who improved the steam engine. Who? — James Watt: the watt. Joule and Ampère gave names to other units."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Сунчан је летњи дан. Ако уместо беле обучете црну мајицу, шта ће се десити?",
+    "options": ["Биће вам топлије, јер црна упија више светлости", "Биће вам хладније, јер црна одбија светлост", "Неће бити разлике, боја не утиче", "Биће вам хладније, јер црна брже одаје топлоту"],
+    "correctIndex": 0,
+    "gloss": "On a sunny summer day you wear a black T-shirt instead of a white one. What happens? — You feel warmer: black absorbs more light."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Две исте флаше напуните до врха – једну водом, другу јестивим уљем. Која ће бити тежа?",
+    "options": ["Она с уљем", "Биће исте тежине", "Зависи од врсте уља", "Она с водом"],
+    "correctIndex": 3,
+    "gloss": "You fill two identical bottles to the top, one with water and one with cooking oil. Which is heavier? — The water one: oil floats on water because it is less dense."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који празник, школска слава, пада 27. јануара?",
+    "options": ["Видовдан", "Митровдан", "Савиндан", "Ђурђевдан"],
+    "correctIndex": 2,
+    "gloss": "Which feast, the schools' slava, falls on 27 January? — Savindan, St Sava's Day."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је био певач и вођа групе „Рибља чорба“?",
+    "options": ["Момчило Бајагић", "Ђорђе Балашевић", "Влада Дивљан", "Бора Ђорђевић"],
+    "correctIndex": 3,
+    "gloss": "Who was the singer and leader of Riblja Čorba? — Bora Đorđević. Bajaga, the trap, played guitar in the band before forming his own."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Сат сваког дана заостане по 5 минута. После колико дана ће каснити тачно сат времена?",
+    "options": ["10", "12", "15", "24"],
+    "correctIndex": 1,
+    "gloss": "A clock loses 5 minutes every day. After how many days will it be exactly an hour slow? — 12: 60 ÷ 5."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Стари мост у Мостару, с ког момци скачу у воду, премошћује коју реку?",
+    "options": ["Босну", "Уну", "Неретву", "Лим"],
+    "correctIndex": 2,
+    "gloss": "The Old Bridge in Mostar, from which young men dive, spans which river? — The Neretva."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шта се по обичају на Бадње вече уноси у кућу и простире по поду?",
+    "options": ["Ћилим", "Слама", "Борове гране", "Пшеница"],
+    "correctIndex": 1,
+    "gloss": "What is by custom brought into the house on Christmas Eve and spread on the floor? — Straw, recalling the stable of the Nativity."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Како удата жена зове сестру свога мужа?",
+    "options": ["Заова", "Јетрва", "Свастика", "Шурњаја"],
+    "correctIndex": 0,
+    "gloss": "What does a married woman call her husband's sister? — заова. Јетрва is the husband's brother's wife, свастика the wife's sister, шурњаја the wife's brother's wife."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Који је руски владар на ушћу Неве подигао нову престоницу и дао јој име по свом светитељу заштитнику?",
+    "options": ["Иван Грозни", "Катарина Велика", "Петар Велики", "Александар Први"],
+    "correctIndex": 2,
+    "gloss": "Which Russian ruler built a new capital at the mouth of the Neva and named it after his patron saint? — Peter the Great: St Petersburg, after St Peter."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Неко је рођен 1. јануара 10. године пре нове ере, а умро је 1. јануара 10. године нове ере. Колико је година живео?",
+    "options": ["18", "19", "20", "21"],
+    "correctIndex": 1,
+    "gloss": "Someone was born on 1 January 10 BC and died on 1 January AD 10. How many years did he live? — 19: there is no year zero, 1 BC is followed by AD 1."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Чаша је до самог руба пуна воде, а у њој плута коцка леда. Шта ће се десити кад се лед отопи?",
+    "options": ["Вода ће и даље бити тачно до руба", "Вода ће се прелити", "Ниво воде ће мало пасти", "Зависи од величине коцке"],
+    "correctIndex": 0,
+    "gloss": "A glass is full of water to the brim, with an ice cube floating in it. What happens when the ice melts? — The level stays exactly at the brim: floating ice displaces its own weight of water."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Милан Младеновић, један од највећих гласова југословенског рока, био је певач које групе?",
+    "options": ["„Идоли“", "„Партибрејкерс“", "„Електрични оргазам“", "„Екатарина Велика“"],
+    "correctIndex": 3,
+    "gloss": "Milan Mladenović, one of the great voices of Yugoslav rock, sang in which band? — Ekatarina Velika (EKV)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Која је од ових престоница најсеверније?",
+    "options": ["Лондон", "Берлин", "Амстердам", "Даблин"],
+    "correctIndex": 3,
+    "gloss": "Which of these capitals lies furthest north? — Dublin (53.3° N), ahead of Berlin (52.5°), Amsterdam (52.4°) and London (51.5°)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Име Београда значи „бели град“. А шта по пореклу значи име Сарајева?",
+    "options": ["Град међу брдима", "Поље око двора", "Тврђава на реци", "Место ветрова"],
+    "correctIndex": 1,
+    "gloss": "Belgrade's name means 'white city'. What does Sarajevo's name originally mean? — The field around the palace: Turkish saray (palace, court) + ova (plain)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Шта многим рибама омогућава да лебде на истој дубини, а да нити тону нити испливавају?",
+    "options": ["Шкрге", "Пераја", "Бочна линија", "Пливаћи мехур"],
+    "correctIndex": 3,
+    "gloss": "What lets many fish hover at one depth without sinking or rising? — The swim bladder."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Колико различитих ПИН-ова од четири цифре постоји, ако је на сваком месту дозвољена свака цифра од 0 до 9?",
+    "options": ["1.000", "9.999", "40", "10.000"],
+    "correctIndex": 3,
+    "gloss": "How many different four-digit PINs exist if every position may hold any digit 0–9? — 10,000: 0000 to 9999. 9,999 forgets 0000."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ко је написао роман „Дервиш и смрт“, исповест шејха Ахмеда Нурудина?",
+    "options": ["Меша Селимовић", "Иво Андрић", "Скендер Куленовић", "Бранко Ћопић"],
+    "correctIndex": 0,
+    "gloss": "Who wrote the novel 'Death and the Dervish', the confession of Sheikh Ahmed Nurudin? — Meša Selimović (1966)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Атомски број злата је 79. Колико протона има јон злата који је изгубио три електрона?",
+    "options": ["76", "79", "82", "197"],
+    "correctIndex": 1,
+    "gloss": "Gold's atomic number is 79. How many protons has a gold ion that has lost three electrons? — 79: ions lose electrons, never protons. 76 is the trap, 197 the mass number."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Браћа Вук и Аранђел Исакович јунаци су ког романа?",
+    "options": ["„Сеобе“", "„Корени“", "„Хазарски речник“", "„Пешчаник“"],
+    "correctIndex": 0,
+    "gloss": "The brothers Vuk and Aranđel Isakovič are the heroes of which novel? — «Сеобе» (Migrations) by Miloš Crnjanski."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "За онога ко незаслужено и случајно доспе негде кажемо да је ушао „као Пилат у…“ – у коју молитву?",
+    "options": ["Оченаш", "Богородице Дјево", "Молитву пре јела", "Веровање"],
+    "correctIndex": 3,
+    "gloss": "Of someone who ends up somewhere by chance and undeservedly, we say he got in 'like Pilate into…' which prayer? — The Creed («Веровање»), which names Pontius Pilate."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Кроз колико европских престоница протиче Дунав?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 1,
+    "gloss": "Through how many European capitals does the Danube flow? — 4: Vienna, Bratislava, Budapest and Belgrade."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "У ком граду је Црвена звезда 1991. године освојила Куп европских шампиона?",
+    "options": ["У Барију", "У Минхену", "У Бечу", "У Атини"],
+    "correctIndex": 0,
+    "gloss": "In which city did Red Star Belgrade win the European Cup in 1991? — Bari, against Marseille on penalties."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Овај Американац био је цењени сликар портрета и први председник Националне академије дизајна у Њујорку, а прославио се као проналазач. Ко је он?",
+    "options": ["Томас Едисон", "Александер Грејам Бел", "Семјуел Морзе", "Џорџ Вестингхаус"],
+    "correctIndex": 2,
+    "gloss": "This American was a respected portrait painter and the first president of the National Academy of Design in New York, yet became famous as an inventor. Who? — Samuel Morse, of the telegraph and Morse code."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ко је компоновао оперу „Кармен“, чија се радња одиграва у Севиљи?",
+    "options": ["Ђузепе Верди", "Ђакомо Пучини", "Жил Масне", "Жорж Бизе"],
+    "correctIndex": 3,
+    "gloss": "Who composed the opera 'Carmen', set in Seville? — Georges Bizet."
+  },
+  {
+    "level": 5,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Са колико нула се завршава производ свих природних бројева од 1 до 100?",
+    "options": ["11", "20", "24", "25"],
+    "correctIndex": 2,
+    "gloss": "How many zeros does the product of all whole numbers from 1 to 100 end with? — 24: twenty multiples of 5 plus four extra fives from 25, 50, 75 and 100."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Који је српски владар, и сам песник, написао „Слово љубве“?",
+    "options": ["Кнез Лазар", "Деспот Стефан Лазаревић", "Ђурађ Бранковић", "Стефан Дечански"],
+    "correctIndex": 1,
+    "gloss": "Which Serbian ruler, himself a poet, wrote 'A Word of Love'? — Despot Stefan Lazarević (c. 1409)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Први хемијски елемент добијен вештачким путем добио је име по грчкој речи за „вештачки“. Који је то елемент?",
+    "options": ["Технецијум", "Прометијум", "Астат", "Францијум"],
+    "correctIndex": 0,
+    "gloss": "The first chemical element made artificially is named after the Greek word for 'artificial'. Which? — Technetium (1937), from Greek technetos."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Рамонда, цвет који оживи и после потпуног исушивања, у Србији има две врсте. Једну је Јосиф Панчић назвао по краљици. Којој?",
+    "options": ["Драги", "Марији", "Наталији", "Јелени Анжујској"],
+    "correctIndex": 2,
+    "gloss": "Ramonda, the flower that revives after drying out completely, has two species in Serbia. Josif Pančić named one after a queen. Which? — Queen Natalija Obrenović: Ramonda nathaliae."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ко је пројектовао Гугенхајмов музеј у Њујорку, у ком се изложбени простор пење у спирали?",
+    "options": ["Ле Корбизје", "Мис ван дер Ро", "Валтер Гропијус", "Френк Лојд Рајт"],
+    "correctIndex": 3,
+    "gloss": "Who designed the Guggenheim Museum in New York, whose galleries rise in a spiral? — Frank Lloyd Wright."
   }
 ]

@@ -748,5 +748,755 @@
     ],
     "correctIndex": 0,
     "gloss": "Which mathematician proved Fermat's Last Theorem in the 1990s? — Andrew Wiles."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Devant lequel de ces mots écrit-on « le » et non « l’ » ?",
+    "options": [
+      "Héros",
+      "Homme",
+      "Hôtel",
+      "Heure"
+    ],
+    "correctIndex": 0,
+    "gloss": "Before which of these words do you write \"le\" and not \"l'\"? — Héros: its h is aspirated (le héros), while homme, hôtel and heure take the elision."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Lequel de ces mots ne se prononce pas comme les trois autres ?",
+    "options": [
+      "Sain",
+      "Saint",
+      "Sein",
+      "Sang"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which of these words is not pronounced like the other three? — Sang is /sɑ̃/; sain, saint and sein are all /sɛ̃/."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Quel nom change de sens selon qu’on dit « le » ou « la » ?",
+    "options": [
+      "Maison",
+      "Chaise",
+      "Voile",
+      "Fenêtre"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which noun changes meaning depending on \"le\" or \"la\"? — Voile: le voile (veil) and la voile (sail); the others have one gender only."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Que fait quelqu’un qui « tombe dans les pommes » ?",
+    "options": [
+      "Il s’endort",
+      "Il s’évanouit",
+      "Il se met en colère",
+      "Il part en vacances"
+    ],
+    "correctIndex": 1,
+    "gloss": "What does someone who \"falls in the apples\" do? — He faints: \"tomber dans les pommes\" is the idiom for passing out."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel numéro faut-il composer en France pour appeler les pompiers ?",
+    "options": [
+      "15",
+      "18",
+      "17",
+      "19"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which number do you dial in France to call the fire brigade? — 18 (15 is the SAMU ambulance service, 17 the police)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dans quel film Omar Sy joue-t-il l’aide à domicile de François Cluzet ?",
+    "options": [
+      "Intouchables",
+      "Amélie",
+      "Bienvenue chez les Ch’tis",
+      "Le Dîner de cons"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which film does Omar Sy play François Cluzet's carer? — Intouchables (2011); the others are other French hits without that pair."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel employé de bureau rêveur, créé par Franquin, collectionne les gaffes ?",
+    "options": [
+      "Spirou",
+      "Titeuf",
+      "Achille Talon",
+      "Gaston Lagaffe"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which dreamy office worker created by Franquin collects blunders? — Gaston Lagaffe; Spirou is the magazine and the groom hero, Titeuf and Achille Talon are other comics."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Avec quel accompagnement sert-on traditionnellement les moules en Belgique ?",
+    "options": [
+      "Du riz",
+      "Des pâtes",
+      "Des frites",
+      "De la purée"
+    ],
+    "correctIndex": 2,
+    "gloss": "What are mussels traditionally served with in Belgium? — Fries (moules-frites)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Au Québec, que désigne le mot « tuque » ?",
+    "options": [
+      "Une écharpe",
+      "Un traîneau",
+      "Un bonnet",
+      "Une botte"
+    ],
+    "correctIndex": 2,
+    "gloss": "In Quebec, what does the word \"tuque\" mean? — A knitted cap or beanie."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quelle île est surnommée « l’île de Beauté » ?",
+    "options": [
+      "La Sardaigne",
+      "La Corse",
+      "Malte",
+      "La Crète"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which island is nicknamed \"the Isle of Beauty\"? — Corsica."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel numéro de département correspond à Paris ?",
+    "options": [
+      "75",
+      "69",
+      "13",
+      "33"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which department number is Paris? — 75 (69 is the Rhône/Lyon, 13 the Bouches-du-Rhône/Marseille, 33 the Gironde/Bordeaux)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "À quoi sert la carte Vitale ?",
+    "options": [
+      "À voter aux élections",
+      "À payer le métro",
+      "À passer la douane",
+      "À être remboursé de ses soins"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the carte Vitale for? — Being reimbursed for medical care: it is the French health insurance card."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que mesure-t-on en « mAh » sur une batterie de téléphone ?",
+    "options": [
+      "Sa tension",
+      "Son poids",
+      "Sa durée de vie en années",
+      "Sa capacité"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is measured in \"mAh\" on a phone battery? — Its capacity (milliamp-hours); voltage is in volts."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Que fait le sel épandu sur les routes verglacées ?",
+    "options": [
+      "Il colore la route",
+      "Il réchauffe le sol",
+      "Il fait fondre la glace",
+      "Il attire la neige"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does salt spread on icy roads do? — It melts the ice: salty water freezes at a lower temperature."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Dans quel siècle se situe l’année 1850 ?",
+    "options": [
+      "Le XVIIIe siècle",
+      "Le XIXe siècle",
+      "Le XXe siècle",
+      "Le XVIIe siècle"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which century is the year 1850? — The 19th (XIXe): the 1800s; the century number is one more than the hundreds figure."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel duo électro français, séparé en 2021, se produisait avec des casques de robot ?",
+    "options": [
+      "Daft Punk",
+      "Justice",
+      "Air",
+      "Cassius"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which French electro duo, split in 2021, performed in robot helmets? — Daft Punk."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel régime exclut même le miel et les œufs ?",
+    "options": [
+      "Végan",
+      "Végétarien",
+      "Pescétarien",
+      "Flexitarien"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which diet excludes even honey and eggs? — Vegan: no animal products at all; vegetarians may eat eggs and honey, pescetarians eat fish, flexitarians eat some meat."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Que ne faut-il jamais mettre dans un four à micro-ondes ?",
+    "options": [
+      "Une assiette en verre",
+      "Un bol en céramique",
+      "Un verre d’eau",
+      "Une fourchette en métal"
+    ],
+    "correctIndex": 3,
+    "gloss": "What should you never put in a microwave oven? — A metal fork: metal can cause sparks."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel légume sec est la base du houmous ?",
+    "options": [
+      "La lentille",
+      "Le haricot blanc",
+      "Le pois chiche",
+      "La fève"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which dried legume is the base of hummus? — The chickpea."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Au volley-ball, combien de touches de balle une équipe a-t-elle au maximum avant de renvoyer ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "In volleyball, how many ball touches may a team take at most before sending it over? — Three."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel chanteur belge a interprété « Ne me quitte pas » ?",
+    "options": [
+      "Georges Brassens",
+      "Jacques Brel",
+      "Charles Aznavour",
+      "Léo Ferré"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Belgian singer performed \"Ne me quitte pas\"? — Jacques Brel (1959)."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel musée parisien est installé dans une ancienne gare ?",
+    "options": [
+      "Le musée d’Orsay",
+      "Le Louvre",
+      "Le Centre Pompidou",
+      "Le musée Rodin"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Paris museum is housed in a former railway station? — The Musée d'Orsay."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel pays désigne l’extension web « .ch » ?",
+    "options": [
+      "La Chine",
+      "Le Chili",
+      "La Tchéquie",
+      "La Suisse"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which country does the web extension \".ch\" stand for? — Switzerland (Confoederatio Helvetica); China is .cn, Chile .cl, Czechia .cz."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel terminal à petit écran, lancé dans les années 1980, a précédé Internet dans les foyers français ?",
+    "options": [
+      "Le Bi-Bop",
+      "Le Tamagotchi",
+      "Le Minitel",
+      "Le Walkman"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which small-screen terminal, launched in the 1980s, preceded the Internet in French homes? — The Minitel."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel écrivain américain a imaginé « Le Trône de fer », adapté dans la série « Game of Thrones » ?",
+    "options": [
+      "J. R. R. Tolkien",
+      "Stephen King",
+      "George R. R. Martin",
+      "Brandon Sanderson"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which American writer imagined \"A Song of Ice and Fire\" (Le Trône de fer), adapted as \"Game of Thrones\"? — George R. R. Martin; Tolkien is British and wrote The Lord of the Rings."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle protéine compose nos cheveux et nos ongles ?",
+    "options": [
+      "Le collagène",
+      "La kératine",
+      "La mélanine",
+      "L’hémoglobine"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which protein makes up our hair and nails? — Keratin."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel conifère perd ses aiguilles chaque automne ?",
+    "options": [
+      "Le mélèze",
+      "Le sapin",
+      "L’épicéa",
+      "Le pin"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which conifer sheds its needles every autumn? — The larch (the fir, spruce and pine are evergreen)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "En quelle année les pièces et billets en euros sont-ils entrés en circulation ?",
+    "options": [
+      "1999",
+      "1995",
+      "2004",
+      "2002"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which year did euro coins and notes enter circulation? — 2002 (the euro existed only as book money from 1999)."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel jeu de blocs à emboîter, né en URSS en 1984, est devenu un classique ?",
+    "options": [
+      "Pac-Man",
+      "Pong",
+      "Snake",
+      "Tetris"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which block-fitting game, born in the USSR in 1984, became a classic? — Tetris (Alexey Pajitnov)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel dieu égyptien à tête de chacal conduit les morts dans l’au-delà ?",
+    "options": [
+      "Horus",
+      "Sobek",
+      "Anubis",
+      "Thot"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which jackal-headed Egyptian god guides the dead to the afterlife? — Anubis (Horus has a falcon head, Sobek a crocodile, Thoth an ibis)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle épice orangée vient des stigmates d’un crocus ?",
+    "options": [
+      "Le curcuma",
+      "Le safran",
+      "Le paprika",
+      "Le cumin"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which orange spice comes from the stigmas of a crocus? — Saffron."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel pays d’Afrique de l’Ouest a pour capitale Dakar ?",
+    "options": [
+      "Le Sénégal",
+      "Le Mali",
+      "La Côte d’Ivoire",
+      "Le Ghana"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which West African country has Dakar as its capital? — Senegal."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle couleur de tenue le règlement impose-t-il à Wimbledon ?",
+    "options": [
+      "Le blanc",
+      "Le vert",
+      "Le jaune",
+      "Le bleu"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which clothing colour do the rules require at Wimbledon? — White (almost entirely white kit)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Un film commence à 20 h 45 et dure 1 h 30. À quelle heure finit-il ?",
+    "options": [
+      "22 h 30",
+      "21 h 15",
+      "23 h 15",
+      "22 h 15"
+    ],
+    "correctIndex": 3,
+    "gloss": "A film starts at 20:45 and lasts 1 h 30. When does it end? — 22:15 (20:45 + 1 h = 21:45, + 30 min = 22:15)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Pendant les soldes, un manteau à 80 € coûte 25 % moins cher. Quel est son prix ?",
+    "options": [
+      "55 €",
+      "65 €",
+      "60 €",
+      "70 €"
+    ],
+    "correctIndex": 2,
+    "gloss": "During the sales a coat at 80 euros is 25% cheaper. New price? — 60 euros (a quarter of 80 is 20)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel commandant, à bord de la Calypso, a fait découvrir les fonds marins à des millions de spectateurs ?",
+    "options": [
+      "Paul-Émile Victor",
+      "Jacques Cousteau",
+      "Alain Bombard",
+      "Haroun Tazieff"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which commander, aboard the Calypso, showed the sea floor to millions of viewers? — Jacques Cousteau (Victor was a polar explorer, Bombard crossed the Atlantic on a raft, Tazieff was a volcanologist)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Dans « forêt », l’accent circonflexe remplace une ancienne lettre. Laquelle ?",
+    "options": [
+      "T",
+      "S",
+      "R",
+      "L"
+    ],
+    "correctIndex": 1,
+    "gloss": "In \"forêt\" the circumflex stands for an old letter. Which? — S (Old French \"forest\"; likewise hôpital from hospital, fête from feste)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dans quel pays se trouve la ville de Tombouctou ?",
+    "options": [
+      "Le Mali",
+      "Le Niger",
+      "La Mauritanie",
+      "Le Tchad"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which country is the city of Timbuktu? — Mali."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel architecte a dessiné le musée Guggenheim de Bilbao, revêtu de titane ?",
+    "options": [
+      "Zaha Hadid",
+      "Renzo Piano",
+      "Rem Koolhaas",
+      "Frank Gehry"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which architect designed the titanium-clad Guggenheim Museum in Bilbao? — Frank Gehry (opened 1997)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel film presque muet, en noir et blanc, tourné par un Français, a remporté l’Oscar du meilleur film en 2012 ?",
+    "options": [
+      "Amélie",
+      "Un prophète",
+      "The Artist",
+      "Les Visiteurs"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which almost-silent black-and-white film, made by a Frenchman, won the Best Picture Oscar in 2012? — The Artist (Michel Hazanavicius)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Catherine de Médicis, reine de France, était originaire de quelle ville italienne ?",
+    "options": [
+      "Venise",
+      "Rome",
+      "Florence",
+      "Milan"
+    ],
+    "correctIndex": 2,
+    "gloss": "Catherine de' Medici, queen of France, came from which Italian city? — Florence."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quelle plante donne la vanille ?",
+    "options": [
+      "Un palmier",
+      "Une orchidée",
+      "Un caféier",
+      "Un cacaoyer"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which plant gives vanilla? — An orchid (the pods are its fruit)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Combien de touches compte un piano standard ?",
+    "options": [
+      "88",
+      "76",
+      "92",
+      "100"
+    ],
+    "correctIndex": 0,
+    "gloss": "How many keys does a standard piano have? — 88 (52 white, 36 black)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quelle lettre complète la suite Z, X, V, T… ?",
+    "options": [
+      "Q",
+      "S",
+      "P",
+      "R"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which letter completes Z, X, V, T…? — R: the alphabet backwards, skipping a letter each time."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Une recette pour 4 personnes demande 250 g de farine. Combien en faut-il pour 6 personnes ?",
+    "options": [
+      "350 g",
+      "400 g",
+      "500 g",
+      "375 g"
+    ],
+    "correctIndex": 3,
+    "gloss": "A recipe for 4 needs 250 g of flour. How much for 6? — 375 g (62.5 g a person, times 6)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel physicien français a découvert la radioactivité en 1896 ?",
+    "options": [
+      "Pierre Curie",
+      "Paul Langevin",
+      "Henri Becquerel",
+      "Louis de Broglie"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which French physicist discovered radioactivity in 1896? — Henri Becquerel."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel romancier français a reçu le prix Nobel de littérature en 2014 ?",
+    "options": [
+      "Michel Houellebecq",
+      "Patrick Modiano",
+      "Jean-Marie Le Clézio",
+      "Pascal Quignard"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which French novelist received the Nobel Prize in Literature in 2014? — Patrick Modiano (Le Clézio won in 2008)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel traité de 1494 a partagé le monde à découvrir entre l’Espagne et le Portugal ?",
+    "options": [
+      "Tordesillas",
+      "Utrecht",
+      "Westphalie",
+      "Vienne"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which 1494 treaty divided the world to be explored between Spain and Portugal? — Tordesillas."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Quel roman de Georges Perec, publié en 1969, est écrit sans jamais employer la lettre « e » ?",
+    "options": [
+      "La Disparition",
+      "La Vie mode d’emploi",
+      "Les Choses",
+      "Un homme qui dort"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Georges Perec novel, published in 1969, is written without ever using the letter \"e\"? — La Disparition."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Quel pays d’Amérique du Sud a pour seule langue officielle le néerlandais ?",
+    "options": [
+      "La Guyana",
+      "Le Paraguay",
+      "L’Uruguay",
+      "Le Suriname"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which South American country has Dutch as its only official language? — Suriname (Guyana is English-speaking)."
   }
 ]

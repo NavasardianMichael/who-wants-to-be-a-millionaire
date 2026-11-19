@@ -498,5 +498,505 @@
     "options": ["0°", "−32°", "−40°", "32°"],
     "correctIndex": 2,
     "gloss": "At what temperature do Celsius and Fahrenheit thermometers show the same number? — −40°: solve F = 9/5·C + 32 with F = C."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Numri 11 në shqip thuhet «njëmbëdhjetë». Çfarë do të thotë ky emër, po ta zbërthesh?",
+    "options": ["«Një mbi dhjetë»", "«Një pa dhjetë»", "«Një herë dhjetë»", "«Një para dhjetë»"],
+    "correctIndex": 0,
+    "gloss": "The number 11 is «njëmbëdhjetë» in Albanian. What does the name mean if you take it apart? — \"One on ten\": «mbë» is the old form of «mbi», \"on\", as in all the teens."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Cila lule e ka emrin shqip nga trupi qiellor të cilit i ngjan, me petalet e verdha si rreze rreth një rrethi?",
+    "options": ["Luledielli", "Trëndafili", "Zambaku", "Lulëkuqja"],
+    "correctIndex": 0,
+    "gloss": "Which flower is named in Albanian after the celestial body it resembles, with yellow petals like rays around a disc? — The sunflower, «luledielli» = flower + sun (lulëkuqja is named for its colour, the trap)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ëmbëlsira «trileçe», kaq e dashur në Shqipëri e Kosovë, e ka origjinën në Amerikën Latine dhe emri ia tregon përbërjen. Me sa lloje qumështi njomet?",
+    "options": ["Me dy", "Me katër", "Me tre", "Me pesë"],
+    "correctIndex": 2,
+    "gloss": "The cake «trileçe», so loved in Albania and Kosovo, comes from Latin America and its name gives away its make-up. With how many kinds of milk is it soaked? — Three: tres leches (evaporated, condensed milk and cream)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Vijat mbi të cilat shkruhen notat muzikore quhen «pentagram», fjalë që vjen nga greqishtja. Sa vija ka një pentagram?",
+    "options": ["Katër", "Gjashtë", "Shtatë", "Pesë"],
+    "correctIndex": 3,
+    "gloss": "The lines music is written on are called a «pentagram» (staff), a Greek word. How many lines does it have? — Five: Greek «penta»."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Në një libër që nis me faqen 1 në anën e djathtë, hape në çfarëdo vendi. Numri i faqes në të djathtë do të jetë gjithmonë:",
+    "options": ["tek", "çift", "më i vogël se ai në të majtë", "i plotpjesëtueshëm me tre"],
+    "correctIndex": 0,
+    "gloss": "In a book that starts with page 1 on the right, open it anywhere. The page number on the right is always... — Odd: 1, 3, 5... all fall on the right."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Plotëso fjalën e urtë: «Më mirë një vezë sot, se … mot.»",
+    "options": ["një gjel", "një pulë", "një dele", "një qengj"],
+    "correctIndex": 1,
+    "gloss": "Complete the proverb: \"Better an egg today than ... next year.\" — A hen: «Më mirë një vezë sot, se një pulë mot»."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Cili mal, ku të ngjit teleferiku nga periferia e qytetit, ngrihet mbi Tiranën nga lindja?",
+    "options": ["Mali i Tomorrit", "Mali i Korabit", "Mali i Dajtit", "Mali i Gjallicës"],
+    "correctIndex": 2,
+    "gloss": "Which mountain, reached by a cable car from the city outskirts, rises over Tirana from the east? — Dajti."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sipas legjendës, kështjella e Rozafës qëndroi në këmbë vetëm pasi një nuse e re u murua e gjallë në muret e saj. Mbi cilin qytet ngrihet kjo kështjellë?",
+    "options": ["Mbi Krujën", "Mbi Lezhën", "Mbi Beratin", "Mbi Shkodrën"],
+    "correctIndex": 3,
+    "gloss": "By legend, Rozafa Castle stood only once a young bride was walled into it. Above which city does it stand? — Shkodër."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Një faqe interneti të kërkon të zgjedhësh të gjitha fotot ku duken semaforë. Çfarë do të vërtetojë?",
+    "options": ["Që je njeri, jo program", "Që je mbi 18 vjeç", "Që i dallon mirë ngjyrat", "Që lidhja jote është e shpejtë"],
+    "correctIndex": 0,
+    "gloss": "A website asks you to pick all the photos with traffic lights. What does it want to confirm? — That you are a human, not a bot (a CAPTCHA)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Në cilin sport çdo skuadër ka gjashtë lojtarë në fushë dhe mund ta prekë topin vetëm tri herë para se ta kalojë mbi rrjetë?",
+    "options": ["Hendboll", "Volejboll", "Basketboll", "Futsall"],
+    "correctIndex": 1,
+    "gloss": "In which sport does each team have six players on court and only three touches before sending the ball over the net? — Volleyball."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cila erëz, që merret nga fijet e kuqe të lules së një krokusi, i jep paelës spanjolle ngjyrën e verdhë?",
+    "options": ["Kanella", "Paprika", "Shafrani", "Vanilja"],
+    "correctIndex": 2,
+    "gloss": "Which spice, taken from the red threads of a crocus flower, makes Spanish paella yellow? — Saffron."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Çfarë i thonë zakonisht shqiptarët dikujt që sapo ka bërë banjë ose është qethur?",
+    "options": ["«Të bëftë mirë!»", "«Gëzuar!»", "«Mirë se erdhe!»", "«Me shëndet!»"],
+    "correctIndex": 3,
+    "gloss": "What do Albanians usually say to someone who has just had a bath or a haircut? — «Me shëndet!» (\"with health\"); «Të bëftë mirë» is for a meal, «Gëzuar» for a toast."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Për njeriun që s'di të mëshirojë themi se është «zemërgur». Si i themi atij që nxehet e zemërohet për hiçgjë?",
+    "options": ["Gjaknxehtë", "Gjakftohtë", "Zemërgur", "Zemërbardhë"],
+    "correctIndex": 0,
+    "gloss": "A merciless person is \"stone-hearted\". What do we call someone who flares up over nothing? — «Gjaknxehtë», \"hot-blooded\"; «gjakftohtë» (cold-blooded) means calm."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Si e ka mbiemrin arkeologu me kapelë e kamxhik që e luajti Harrison Fordi në katër dekada filmash?",
+    "options": ["Smith", "Xhons", "Braun", "Uajt"],
+    "correctIndex": 1,
+    "gloss": "What is the surname of the archaeologist with the hat and whip played by Harrison Ford across four decades of films? — Jones (Indiana Jones)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Për dikë që ka gjithmonë fat, themi se ka lindur me diçka të veshur. Me çfarë?",
+    "options": ["Me kapuç", "Me kurorë", "Me këmishë", "Me unazë"],
+    "correctIndex": 2,
+    "gloss": "Of someone who is always lucky we say he was born wearing something. What? — A shirt: «ka lindur me këmishë» (the caul)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Më 7 mars Shqipëria feston Ditën e Mësuesit, në kujtim të Mësonjëtores, shkollës së parë laike në gjuhën shqipe, të hapur më 1887. Në cilin qytet?",
+    "options": ["Në Shkodër", "Në Elbasan", "Në Gjirokastër", "Në Korçë"],
+    "correctIndex": 3,
+    "gloss": "On 7 March Albania celebrates Teachers' Day, remembering the Mësonjëtore, the first secular Albanian-language school, opened in 1887. In which city? — Korçë."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Shumë shqiptarë numërojnë ende me «lekë të vjetra», dhjetë herë më të vegjël se leku i sotëm. Nëse dikush thotë se kafeja kushton «një mijë lekë», sa lekë të reja paguan?",
+    "options": ["100", "1 000", "10", "10 000"],
+    "correctIndex": 0,
+    "gloss": "Many Albanians still count in \"old lek\", ten times smaller than today's lek. If someone says a coffee costs \"a thousand lek\", how many new lek do you pay? — 100 (the 1965 redenomination was 10:1)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Në Islandë mbiemri tregon emrin e babait: djali i Jónit quhet Jónsson, e bija Jónsdóttir. Ç'mbiemër do të ketë vajza e Einar Jónssonit?",
+    "options": ["Jónsdóttir", "Einarsdóttir", "Einarsson", "Jónsson"],
+    "correctIndex": 1,
+    "gloss": "In Iceland the surname comes from the father's name: Jón's son is Jónsson, his daughter Jónsdóttir. What surname will Einar Jónsson's daughter have? — Einarsdóttir (her father is Einar; Jónsdóttir is the autopilot trap)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Cili nga këto vende ka kufi tokësor me një shtet të vetëm?",
+    "options": ["Spanja", "Belgjika", "Portugalia", "Austria"],
+    "correctIndex": 2,
+    "gloss": "Which of these countries has a land border with only one country? — Portugal (only Spain); Spain also borders France, Andorra, Gibraltar and Morocco."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Një vezë e freskët, e vënë në një gotë me ujë, bie në fund, kurse një vezë e vjetër noton. Pse?",
+    "options": ["Me kohë i hollohet lëvozhga", "E verdha i përzihet me të bardhën", "Kripërat i dalin jashtë lëvozhgës", "Me kohë i rritet xhepi i ajrit brenda"],
+    "correctIndex": 3,
+    "gloss": "A fresh egg sinks in a glass of water, an old one floats. Why? — Its air cell grows as moisture escapes through the porous shell."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Një skuadër ka luajtur 10 ndeshje pa humbur asnjë dhe ka 24 pikë. Nëse fitorja jep 3 pikë dhe barazimi 1, sa ndeshje ka fituar?",
+    "options": ["7", "8", "6", "5"],
+    "correctIndex": 0,
+    "gloss": "A team has played 10 matches unbeaten and has 24 points. With 3 for a win and 1 for a draw, how many did it win? — 7: 7×3 + 3×1 = 24."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili regjisor i «Psikozës» dhe i «Zogjve» shfaqej vetë për pak sekonda, si kalimtar, pothuaj në çdo film të tij?",
+    "options": ["Stenli Kubriku", "Alfred Hiçkoku", "Orson Uellsi", "Bili Uajlderi"],
+    "correctIndex": 1,
+    "gloss": "Which director of «Psycho» and «The Birds» appeared for a few seconds, as a passer-by, in almost every film of his? — Alfred Hitchcock."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Markat sportive Adidas dhe Puma lindën në të njëjtën qytezë gjermane, nga një grindje mes dy themeluesve të tyre. Ç'lidhje kishin ata?",
+    "options": ["Ishin baba e bir", "Ishin kunetër", "Ishin vëllezër", "Ishin shokë klase"],
+    "correctIndex": 2,
+    "gloss": "Adidas and Puma were born in the same small German town out of a quarrel between their founders. How were they related? — Brothers: Adolf and Rudolf Dassler, Herzogenaurach."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Jeronim De Rada, autori i «Këngëve të Milosaos», nuk lindi as në Shqipëri, as në Kosovë, por në një fshat arbëresh. Në cilin vend?",
+    "options": ["Në Greqi", "Në Rumani", "Në Egjipt", "Në Itali"],
+    "correctIndex": 3,
+    "gloss": "Jeronim De Rada, author of «Këngët e Milosaos», was born not in Albania or Kosovo but in an Arbëresh village. In which country? — Italy (Macchia Albanese, Calabria); Romania and Egypt had Albanian colonies too."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sipas një thënieje të vjetër, shtëpia e shqiptarit është e Zotit dhe e kujt?",
+    "options": ["E mikut", "E vëllait", "E fqinjit", "E nënës"],
+    "correctIndex": 0,
+    "gloss": "According to an old saying, an Albanian's house belongs to God and to whom? — To the guest: «Shtëpia e shqiptarit është e Zotit dhe e mikut»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Si e mbyll fjala e urtë këshillën «Bëj të mirë…»?",
+    "options": ["«…e harroje në arë»", "«…e hidhe në det»", "«…e mbaje në zemër»", "«…e prit në derë»"],
+    "correctIndex": 1,
+    "gloss": "How does the proverb finish the advice \"Do good...\"? — \"...and throw it into the sea\": do good without expecting anything back."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Krimbi i mëndafshit, që dikur rritej edhe në shumë shtëpi shqiptare, ushqehet me gjethet e cilës pemë?",
+    "options": ["Të ullirit", "Të fikut", "Të manit", "Të arrës"],
+    "correctIndex": 2,
+    "gloss": "The silkworm, once raised in many Albanian homes too, feeds on the leaves of which tree? — The mulberry."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ke një shirit të gjatë 1 metër dhe e pret në copa nga 10 centimetra. Sa prerje bën?",
+    "options": ["10", "11", "8", "9"],
+    "correctIndex": 3,
+    "gloss": "You have a ribbon 1 m long and cut it into 10 cm pieces. How many cuts do you make? — 9: the last piece needs no cut."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Gegët thonë «Shqipni», toskët «Shqipëri»: aty ku gegërishtja ka «n» mes zanoresh, toskërishtja shpesh ka «r». Si e quan një geg verën, pijen?",
+    "options": ["«Venë»", "«Vesë»", "«Vetë»", "«Velë»"],
+    "correctIndex": 0,
+    "gloss": "Ghegs say «Shqipni», Tosks «Shqipëri»: where Gheg has n between vowels, Tosk often has r (rhotacism). What does a Gheg call wine (verë)? — «Venë»."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Si quhet fustani tradicional në formë kambane i grave të Malësisë së Veriut, që sot UNESCO-ja e mbron si trashëgimi në rrezik?",
+    "options": ["Fustanella", "Xhubleta", "Xhamadani", "Dimia"],
+    "correctIndex": 1,
+    "gloss": "What is the bell-shaped traditional dress of the women of the northern highlands, now protected by UNESCO as endangered heritage, called? — The xhubleta (inscribed 2022)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Iso-polifonia, këndimi me disa zëra mbi një «iso» të zgjatur, është në listën e trashëgimisë së UNESCO-s. Nga cila trevë e Shqipërisë vjen?",
+    "options": ["Nga Malësia e Madhe", "Nga Dibra", "Nga jugu", "Nga Mirdita"],
+    "correctIndex": 2,
+    "gloss": "Iso-polyphony, singing in several voices over a held drone, is on UNESCO's heritage list. Which part of Albania is it from? — The south (Labëria, Toskëria)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Minierat e Bulqizës nxjerrin xeheror të një metali që e bën çelikun inoks të mos ndryshket dhe u jep rubinëve ngjyrën e kuqe. Cilit metal?",
+    "options": ["Bakrit", "Nikelit", "Zinkut", "Kromit"],
+    "correctIndex": 3,
+    "gloss": "The Bulqizë mines extract the ore of a metal that keeps stainless steel from rusting and makes rubies red. Which? — Chromium (Bulqizë is Albania's chrome mine)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vëllezërit aktorë Xhon dhe Xhim, yje të komedisë amerikane, e kishin babanë nga fshati Qytezë i Korçës. Cili është mbiemri i tyre?",
+    "options": ["Belushi", "Dushku", "Gandolfini", "Rufalo"],
+    "correctIndex": 0,
+    "gloss": "The actor brothers John and Jim, stars of American comedy, had a father from the village of Qytezë near Korçë. What is their surname? — Belushi."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kur thith pak helium nga një balonë, zëri të del i hollë si i një personazhi vizatimor. Pse?",
+    "options": ["Heliumi i ftoh kordat e zërit", "Tingulli përhapet më shpejt në helium", "Heliumi i shtrëngon kordat e zërit", "Heliumi është më i rëndë se ajri"],
+    "correctIndex": 1,
+    "gloss": "When you breathe helium from a balloon, your voice turns squeaky. Why? — Sound travels faster in helium, shifting the throat's resonances up; the vocal cords are unchanged."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Emri i ëmbëlsirës italiane «tiramisù» është në fakt një thirrje. Çfarë do të thotë?",
+    "options": ["«Më shijo ngadalë»", "«Më ha menjëherë»", "«Më tërhiq lart»", "«Më kujto përgjithmonë»"],
+    "correctIndex": 2,
+    "gloss": "The name of the Italian dessert «tiramisù» is actually a call. What does it mean? — \"Pull me up\" (tira mi su), i.e. cheer me up."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bretkosa pothuajse kurrë nuk e pi ujin me gojë. Si e merr atëherë?",
+    "options": ["Përmes syve", "Me gjuhë, nga vesa", "Vetëm nga ushqimi", "Përmes lëkurës"],
+    "correctIndex": 3,
+    "gloss": "A frog almost never drinks through its mouth. How does it take in water? — Through its skin."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Në tenis, një lojtar fiton katër pikë radhazi në një gem që nis 0–0. Ç'rezultat shënon tabela pas pikës së tretë?",
+    "options": ["40", "45", "30", "50"],
+    "correctIndex": 0,
+    "gloss": "In tennis a player wins four points in a row in a game starting at 0–0. What does the board show after the third point? — 40 (15, 30, 40, game)."
+  },
+  {
+    "level": 3,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cili personazh i lojërave video doli për herë të parë më 1981 te «Donkey Kong», me emrin «Jumpman»?",
+    "options": ["Sonic", "Mario", "Pac-Man", "Link"],
+    "correctIndex": 1,
+    "gloss": "Which video-game character first appeared in 1981 in «Donkey Kong», named \"Jumpman\"? — Mario."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pashko Vasa, autori i vargjeve «O moj Shqypni, e mjera Shqypni», i mbylli ditët si qeveritar osman i një krahine larg Shqipërisë. Cilës?",
+    "options": ["Kretës", "Bosnjës", "Malit të Libanit", "Tesalisë"],
+    "correctIndex": 2,
+    "gloss": "Pashko Vasa, author of «O moj Shqypni», ended his days as Ottoman governor of a province far from Albania. Which? — Mount Lebanon (mutasarrif 1883–1892, died in Beirut)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Në filmin «Elementi i pestë» (1997) të Lyk Besonit, divën blu që këndon në skenë e zëron një sopranoja shqiptare. Kush?",
+    "options": ["Ermonela Jaho", "Marie Kraja", "Tefta Tashko-Koço", "Inva Mula"],
+    "correctIndex": 3,
+    "gloss": "In Luc Besson's «The Fifth Element» (1997), the blue diva singing on stage is voiced by an Albanian soprano. Who? — Inva Mula."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Teksti më i vjetër i njohur në shqip është një fjali e shkurtër që e shkroi më 1462 kryepeshkopi i Durrësit, Pal Engjëlli. Për cilin rit?",
+    "options": ["Për pagëzimin", "Për kurorëzimin", "Për varrimin", "Për rrëfimin"],
+    "correctIndex": 0,
+    "gloss": "The oldest known text in Albanian is a short sentence written in 1462 by Pal Engjëlli, Archbishop of Durrës. For which rite? — Baptism: «Formula e pagëzimit»."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Shqipja e ngjit nyjën shquese pas emrit: «mal» bëhet «mali». Cila nga këto gjuhë e bën po kështu?",
+    "options": ["Greqishtja", "Rumanishtja", "Serbishtja", "Italishtja"],
+    "correctIndex": 1,
+    "gloss": "Albanian attaches the definite article after the noun: mal → mali. Which of these languages does the same? — Romanian (lup → lupul); Greek and Italian put it before, Serbian has none."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Fjala «emoji» vjen nga japonishtja dhe s'ka lidhje me «emocionin», siç mendohet shpesh. Çfarë do të thotë?",
+    "options": ["«Fytyrë + buzëqeshje»", "«Mesazh i shkurtër»", "«Figurë + shkronjë»", "«Ndjenjë e vogël»"],
+    "correctIndex": 2,
+    "gloss": "The word «emoji» comes from Japanese and has nothing to do with \"emotion\", as often thought. What does it mean? — Picture (e) + character (moji)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Kodi QR u shpik në Japoni më 1994 nga një firmë e grupit Toyota. Çfarë duhej të gjurmonte në fillim?",
+    "options": ["Bagazhet në aeroporte", "Paketat postare", "Biletat e trenave", "Pjesët e makinave në fabrikë"],
+    "correctIndex": 3,
+    "gloss": "The QR code was invented in Japan in 1994 by a Toyota group company. What was it first meant to track? — Car parts in the factory (Denso Wave)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Cila vepër orkestrale ndërtohet e tëra mbi një ritëm daulleje që nuk ndryshon kurrë, ndërsa melodia përsëritet gjithnjë e më fort?",
+    "options": ["«Bolero» e Ravelit", "«Kanoni» i Pahelbelit", "«Adaxhio» e Albinonit", "«Për Elizën» e Bethovenit"],
+    "correctIndex": 0,
+    "gloss": "Which orchestral piece is built entirely on a snare-drum rhythm that never changes, while the melody repeats ever louder? — Ravel's «Boléro»."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ferid Murad, mjek amerikan me baba shqiptar, ndau më 1998 Nobelin e Mjekësisë për zbulimin se një gaz u shërben enëve të gjakut si sinjal. Cili gaz?",
+    "options": ["Dioksidi i karbonit", "Monoksidi i azotit", "Ozoni", "Amoniaku"],
+    "correctIndex": 1,
+    "gloss": "Ferid Murad, an American doctor with an Albanian father, shared the 1998 Nobel in Medicine for finding that a gas acts as a signal in blood vessels. Which? — Nitric oxide (NO)."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Frang Bardhi botoi më 1635 fjalorin e parë të njohur të shqipes. Me cilën gjuhë e vuri përballë shqipen?",
+    "options": ["Me italishten", "Me greqishten", "Me latinishten", "Me turqishten"],
+    "correctIndex": 2,
+    "gloss": "Frang Bardhi published the first known Albanian dictionary in 1635. Which language did he pair Albanian with? — Latin: «Dictionarium latino-epiroticum»."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Uzbekistani është një nga dy vendet e botës që kufizohen vetëm me vende pa dalje në det. Cili është tjetri?",
+    "options": ["Andorra", "San Marino", "Zvicra", "Lihtenshtajni"],
+    "correctIndex": 3,
+    "gloss": "Uzbekistan is one of the two countries bordered only by landlocked countries. Which is the other? — Liechtenstein (Switzerland and Austria)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kur kalendari gregorian u vu në zbatim më 1582, disa ditë u kapërcyen menjëherë, që ekuinoksi të binte sërish në vendin e vet. Sa ditë?",
+    "options": ["10", "11", "13", "12"],
+    "correctIndex": 0,
+    "gloss": "When the Gregorian calendar came into force in 1582, some days were skipped at once to put the equinox back in place. How many? — 10 (4 October was followed by 15 October; Britain later skipped 11, Russia 13)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "«Mendimtari» i Rodenit lindi si figurë në majë të «Portës së Ferrit», një portë e frymëzuar nga «Komedia hyjnore». Kë paraqiste fillimisht?",
+    "options": ["Virgjilin", "Danten", "Homerin", "Petrarkën"],
+    "correctIndex": 1,
+    "gloss": "Rodin's «The Thinker» began as a figure atop «The Gates of Hell», inspired by «The Divine Comedy». Whom did it first represent? — Dante (Virgil, his guide in the poem, is the trap)."
   }
 ]
