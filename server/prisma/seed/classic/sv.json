@@ -498,5 +498,505 @@
     "options": ["Babylonierna", "Assyrierna", "Sumererna", "Hettiterna"],
     "correctIndex": 2,
     "gloss": "Which people developed cuneiform in Mesopotamia over 5,000 years ago? — The Sumerians; Babylonians, Assyrians and Hittites later used the script."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Enligt ordspråket ska man inte ropa något förrän man är över bäcken. Vad då?",
+    "options": ["Hurra", "Tack", "Hej", "Bravo"],
+    "correctIndex": 2,
+    "gloss": "According to the proverb, you shouldn't shout what until you are across the stream? — \"Hej\": ”Man ska inte ropa hej förrän man är över bäcken” (don't celebrate too early)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Den kraftigt luktande norrlandsrätten i burk görs av fermenterad fisk. Vilken fisk?",
+    "options": ["Torsk", "Makrill", "Gädda", "Strömming"],
+    "correctIndex": 3,
+    "gloss": "The strong-smelling northern Swedish canned dish is made of fermented fish. Which? — Baltic herring (strömming), the fish in surströmming."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken är Sveriges största ö, där Visby ligger?",
+    "options": ["Öland", "Orust", "Tjörn", "Gotland"],
+    "correctIndex": 3,
+    "gloss": "Which is Sweden's largest island, where Visby lies? — Gotland (about 3,140 km2), ahead of Öland."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "I vilken stad hittar man nöjesparken Liseberg?",
+    "options": ["Göteborg", "Malmö", "Stockholm", "Norrköping"],
+    "correctIndex": 0,
+    "gloss": "In which city is the amusement park Liseberg? — Gothenburg; Stockholm has Gröna Lund."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Vilket av dessa ord innehåller alla de tre extra bokstäverna i det svenska alfabetet: å, ä och ö?",
+    "options": ["Smörgåsbord", "Köttbullar", "Räksmörgås", "Äppelkaka"],
+    "correctIndex": 2,
+    "gloss": "Which word contains all three extra letters å, ä and ö? — Räksmörgås (r-ä-k-s-m-ö-r-g-å-s); the others have only one or two."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Sätter man ett ”s” framför ett av dessa ord får man ett nytt ord. Vilket?",
+    "options": ["Kål", "Bil", "Ros", "Fil"],
+    "correctIndex": 0,
+    "gloss": "Put an \"s\" in front of one of these words to get a new word — Kål becomes Skål; \"sbil\", \"sros\" and \"sfil\" are not words."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad innebär roaming när du använder mobilen utomlands?",
+    "options": ["Mobilen ändrar språk efter landet", "Mobilen slocknar för att spara batteri", "Mobilen får bara ringa nödsamtal", "Mobilen kopplar upp sig via ett utländskt nät"],
+    "correctIndex": 3,
+    "gloss": "What does roaming mean when you use your phone abroad? — The phone connects through a foreign operator's network."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken sport går ut på att glida tunga stenar över isen mot en måltavla, medan lagkamraterna sopar framför?",
+    "options": ["Ishockey", "Konståkning", "Short track", "Curling"],
+    "correctIndex": 3,
+    "gloss": "Which sport slides heavy stones across ice towards a target while teammates sweep in front? — Curling."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad innebär det att bingetitta en tv-serie?",
+    "options": ["Se serien på originalspråket", "Se serien utan reklam", "Se serien tillsammans med andra", "Se många avsnitt i följd"],
+    "correctIndex": 3,
+    "gloss": "What does it mean to binge-watch a TV series? — To watch many episodes in a row."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad är VAR i modern fotboll?",
+    "options": ["Ett chip i bollen som mäter dess fart", "En extra linjedomare bakom varje mål", "Ett system som styr stadionbelysningen", "Videogranskning som hjälper domaren med svåra beslut"],
+    "correctIndex": 3,
+    "gloss": "What is VAR in modern football? — Video review (Video Assistant Referee) that helps the referee with difficult decisions."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket namn hade de smala, snabba skepp som vikingarna seglade och rodde i?",
+    "options": ["Karavell", "Långskepp", "Galär", "Kogg"],
+    "correctIndex": 1,
+    "gloss": "What were the slim, fast ships of the Vikings, sailed and rowed, called? — Longships (långskepp)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad betyder ”bäst före” på en matförpackning?",
+    "options": ["Kvaliteten är bäst till datumet, men maten håller ofta längre", "Maten är farlig att äta efter datumet", "Butiken måste sälja slut varan före datumet", "Maten tillverkades på just det datumet"],
+    "correctIndex": 0,
+    "gloss": "What does \"bäst före\" (best before) on a food package mean? — Quality is best until the date, but the food often keeps longer (unlike \"sista förbrukningsdag\")."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Julafton är den 24 december. Hur många dagar senare infaller nyårsafton?",
+    "options": ["6", "8", "7", "9"],
+    "correctIndex": 2,
+    "gloss": "Christmas Eve is 24 December. How many days later is New Year's Eve? — 7 (31 − 24); the trap is counting 6 or 8."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad anger SPF-talet på en solkräm?",
+    "options": ["Hur länge den sitter kvar i vatten", "Hur starkt skydd den ger mot solbränna", "Hur mycket fukt den ger huden", "Hur snabbt huden blir brun"],
+    "correctIndex": 1,
+    "gloss": "What does the SPF number on a sunscreen state? — How strong a protection it gives against sunburn."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad betyder det att en mjölkprodukt är laktosfri?",
+    "options": ["Mjölksockret har tagits bort eller delats upp", "All mjölk har tagits bort", "Mjölkproteinet har tagits bort", "Fettet har tagits bort"],
+    "correctIndex": 0,
+    "gloss": "What does it mean that a dairy product is lactose-free? — The milk sugar has been removed or broken down (it is still milk)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Du har halvannan timme på dig att hinna med tåget. Hur många minuter är det?",
+    "options": ["90 minuter", "75 minuter", "120 minuter", "150 minuter"],
+    "correctIndex": 0,
+    "gloss": "You have \"halvannan timme\" to catch the train; how many minutes? — 90: halvannan means one and a half (150 would be halvtredje)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad gör en brandvägg i en dator eller ett nätverk?",
+    "options": ["Kontrollerar vilken trafik som släpps in och ut", "Skyddar datorn mot överhettning", "Raderar filer som är för gamla", "Ökar uppkopplingens hastighet"],
+    "correctIndex": 0,
+    "gloss": "What does a firewall do in a computer or network? — It controls which traffic is let in and out."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Euron fanns som räkneenhet redan 1999. Vilket år började man betala kontant med eurosedlar och euromynt?",
+    "options": ["2000", "2001", "2002", "2004"],
+    "correctIndex": 2,
+    "gloss": "The euro existed as an accounting currency from 1999. When did cash euro notes and coins start circulating? — 2002."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "På vilken ö, mitt i Stockholm, ligger friluftsmuseet Skansen?",
+    "options": ["Djurgården", "Södermalm", "Kungsholmen", "Lidingö"],
+    "correctIndex": 0,
+    "gloss": "On which island in central Stockholm is the open-air museum Skansen? — Djurgården."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken författare skrev romansviten om Karl Oskar och Kristina, som lämnar Småland för Amerika?",
+    "options": ["Vilhelm Moberg", "Harry Martinson", "Ivar Lo-Johansson", "Eyvind Johnson"],
+    "correctIndex": 0,
+    "gloss": "Which author wrote the novel cycle about Karl Oskar and Kristina leaving Småland for America? — Vilhelm Moberg (Utvandrarna)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ett foto tar 4 MB. Ungefär hur många sådana foton ryms på ett minneskort på 1 GB?",
+    "options": ["25", "250", "2 500", "25 000"],
+    "correctIndex": 1,
+    "gloss": "A photo takes 4 MB; about how many fit on a 1 GB card? — about 250 (1,000 MB / 4)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad innebär det att ett flyg är överbokat?",
+    "options": ["Planet har för mycket bagage ombord", "Fler biljetter har sålts än det finns platser", "Flygningen har flyttats till ett senare datum", "Besättningen är större än planen"],
+    "correctIndex": 1,
+    "gloss": "What does it mean that a flight is overbooked? — More tickets have been sold than there are seats."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken rotfrukt är huvudingrediensen i raggmunk, som traditionellt serveras med stekt fläsk och lingon?",
+    "options": ["Morot", "Kålrot", "Potatis", "Palsternacka"],
+    "correctIndex": 2,
+    "gloss": "Which root vegetable is the main ingredient of raggmunk, served with fried pork and lingonberries? — Potato."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken vintersport spelas på is med klubbor, en liten boll och elva spelare per lag?",
+    "options": ["Ishockey", "Bandy", "Innebandy", "Landhockey"],
+    "correctIndex": 1,
+    "gloss": "Which winter sport is played on ice with sticks, a small ball and eleven players a side? — Bandy."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vad betyder det att en olja är kallpressad?",
+    "options": ["Den har förvarats kallt efter pressningen", "Den har pressats fram utan stark värme", "Den har pressats av frusna frön", "Den har kylts ned för att bli tjockare"],
+    "correctIndex": 1,
+    "gloss": "What does it mean that an oil is cold-pressed? — It was pressed out without strong heat."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "I Sverige mäter man ofta långa sträckor i mil. Hur långt är 3,5 svenska mil?",
+    "options": ["5,6 kilometer", "3,5 kilometer", "35 kilometer", "350 kilometer"],
+    "correctIndex": 2,
+    "gloss": "A Swedish mil is 10 km; how far is 3.5 mil? — 35 km (5.6 km would be English miles)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken flod rinner genom både Wien, Budapest och Belgrad?",
+    "options": ["Rhen", "Elbe", "Donau", "Oder"],
+    "correctIndex": 2,
+    "gloss": "Which river flows through Vienna, Budapest and Belgrade? — The Danube."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken stor grå fågel samlas varje vår i tusental vid Hornborgasjön i Västergötland för att dansa?",
+    "options": ["Trana", "Svan", "Grågås", "Fiskgjuse"],
+    "correctIndex": 0,
+    "gloss": "Which large grey bird gathers by the thousand every spring at Lake Hornborga in Västergötland to dance? — The common crane (trana)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken sjömansvisornas skald skrev ”Calle Schewens vals” och ”Flickan i Havanna”?",
+    "options": ["Cornelis Vreeswijk", "Nils Ferlin", "Carl Michael Bellman", "Evert Taube"],
+    "correctIndex": 3,
+    "gloss": "Which bard of sailors' songs wrote \"Calle Schewens vals\" and \"Flickan i Havanna\"? — Evert Taube."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket slags träd var Yggdrasil, världsträdet som enligt nordisk mytologi binder samman världarna?",
+    "options": ["Ek", "Björk", "Gran", "Ask"],
+    "correctIndex": 3,
+    "gloss": "What kind of tree was Yggdrasil, the world tree of Norse mythology? — An ash (ask)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kalmarunionen enade 1397 Danmark, Norge och Sverige under en krona. Vilken kvinna låg bakom unionen?",
+    "options": ["Kristina", "Ulrika Eleonora", "Birgitta", "Margareta"],
+    "correctIndex": 3,
+    "gloss": "The Kalmar Union united Denmark, Norway and Sweden in 1397. Which woman was behind it? — Margaret (Margareta I)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilket av Sveriges stora rovdjur väger mest?",
+    "options": ["Varg", "Brunbjörn", "Lodjur", "Järv"],
+    "correctIndex": 1,
+    "gloss": "Which of Sweden's big predators weighs the most? — The brown bear."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Du lyfter från Stockholm kl. 10.00 en dag i juli. Efter åtta timmars flygning landar du i New York. Vad visar klockorna där?",
+    "options": ["12.00", "11.00", "13.00", "18.00"],
+    "correctIndex": 0,
+    "gloss": "You take off from Stockholm at 10:00 on a July day; after an eight-hour flight you land in New York. What do the clocks show? — 12:00 (arrival 18:00 Stockholm time, New York is 6 hours behind)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken älv bildar på en lång sträcka gränsen mellan Sverige och Finland?",
+    "options": ["Umeälven", "Dalälven", "Klarälven", "Torneälven"],
+    "correctIndex": 3,
+    "gloss": "Which river forms the border between Sweden and Finland for a long stretch? — The Torne river (Torneälven)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ett recept räcker till 4 personer och kräver 6 dl mjölk. Hur många liter mjölk går åt till 10 personer?",
+    "options": ["1 liter", "1,6 liter", "15 liter", "1,5 liter"],
+    "correctIndex": 3,
+    "gloss": "A recipe for 4 people needs 6 dl of milk; how many litres for 10 people? — 1.5 litres (15 dl; 10 dl make a litre)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken konstnär packade tillsammans med sin fru Jeanne-Claude 1995 in Riksdagshuset i Berlin i silverglänsande tyg?",
+    "options": ["Ai Weiwei", "Anish Kapoor", "Olafur Eliasson", "Christo"],
+    "correctIndex": 3,
+    "gloss": "Which artist, with his wife Jeanne-Claude, wrapped the Reichstag in Berlin in silvery fabric in 1995? — Christo."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Förr räknade man ägg i tjog. Hur många ägg är fem tjog?",
+    "options": ["100", "50", "60", "120"],
+    "correctIndex": 0,
+    "gloss": "Eggs used to be counted in tjog; how many eggs are five tjog? — 100 (one tjog is 20)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ordet ”vaccin” kommer från latinets ord för ett husdjur. Vilket?",
+    "options": ["Gris", "Häst", "Får", "Ko"],
+    "correctIndex": 3,
+    "gloss": "\"Vaccine\" comes from the Latin word for which domestic animal? — The cow (vacca); the first vaccine used cowpox."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilket ämne gör att chili känns hett i munnen?",
+    "options": ["Piperin", "Kapsaicin", "Allicin", "Mentol"],
+    "correctIndex": 1,
+    "gloss": "Which compound makes chili feel hot in the mouth? — Capsaicin (piperine is pepper, allicin garlic, menthol cool)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Uppsala universitet är Nordens äldsta. Vilket år grundades det?",
+    "options": ["1397", "1523", "1477", "1666"],
+    "correctIndex": 2,
+    "gloss": "Uppsala University is the oldest in the Nordic countries. In what year was it founded? — 1477 (Lund came in 1666)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vem skrev på 1840-talet det som ofta kallas världens första datorprogram, för Charles Babbages analytiska maskin?",
+    "options": ["Grace Hopper", "Ada Lovelace", "Alan Turing", "Hedy Lamarr"],
+    "correctIndex": 1,
+    "gloss": "Who wrote in the 1840s what is often called the first computer program, for Babbage's Analytical Engine? — Ada Lovelace."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ungefär hur många gånger slår en vuxen människas hjärta på ett dygn?",
+    "options": ["10 000", "1 000 000", "100 000", "10 000 000"],
+    "correctIndex": 2,
+    "gloss": "About how many times does an adult human heart beat in a day? — About 100,000 (roughly 70 beats a minute × 1,440 minutes)."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Hur många ledamöter har Sveriges riksdag?",
+    "options": ["249", "300", "349", "399"],
+    "correctIndex": 2,
+    "gloss": "How many members does the Swedish Riksdag have? — 349."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken irländsk författare skrev ”Ulysses”, som skildrar en enda dag i Dublin?",
+    "options": ["Samuel Beckett", "James Joyce", "Oscar Wilde", "W.B. Yeats"],
+    "correctIndex": 1,
+    "gloss": "Which Irish author wrote \"Ulysses\", set over a single day in Dublin? — James Joyce."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "I vilken av Mozarts operor möter vi fågelfångaren Papageno?",
+    "options": ["Don Giovanni", "Trollflöjten", "Figaros bröllop", "Così fan tutte"],
+    "correctIndex": 1,
+    "gloss": "In which Mozart opera do we meet the bird-catcher Papageno? — The Magic Flute (Trollflöjten)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Sverige ägde 1784–1878 en koloni i Karibien, vars huvudort Gustavia har namn efter kung Gustav III. Vilken ö?",
+    "options": ["Guadeloupe", "Martinique", "Saint-Barthélemy", "Saint Croix"],
+    "correctIndex": 2,
+    "gloss": "Sweden owned a Caribbean colony 1784–1878 whose main town Gustavia is named after Gustav III. Which island? — Saint-Barthélemy."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vilken svensk kemist införde de bokstavssymboler för grundämnen som vi använder än i dag, till exempel H och O?",
+    "options": ["Jöns Jacob Berzelius", "Carl Wilhelm Scheele", "Svante Arrhenius", "Anders Ångström"],
+    "correctIndex": 0,
+    "gloss": "Which Swedish chemist introduced the letter symbols for elements still used today, such as H and O? — Jöns Jacob Berzelius."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vem skrev romanen ”Mästaren och Margarita”, där djävulen besöker Moskva på 1930-talet?",
+    "options": ["Boris Pasternak", "Michail Bulgakov", "Vladimir Nabokov", "Aleksandr Solzjenitsyn"],
+    "correctIndex": 1,
+    "gloss": "Who wrote the novel \"The Master and Margarita\", in which the devil visits 1930s Moscow? — Mikhail Bulgakov."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Vem skrev 1940 den dystopiska romanen ”Kallocain”, som utspelar sig i en totalitär framtidsstat?",
+    "options": ["Moa Martinson", "Edith Södergran", "Sonja Åkesson", "Karin Boye"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the 1940 dystopian novel \"Kallocain\", set in a totalitarian future state? — Karin Boye."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Vilken stad var det osmanska rikets huvudstad innan Konstantinopel blev det 1453?",
+    "options": ["Edirne", "Bursa", "Ankara", "Izmir"],
+    "correctIndex": 0,
+    "gloss": "Which city was the Ottoman capital before Constantinople became it in 1453? — Edirne (Adrianopel)."
   }
 ]

@@ -498,5 +498,505 @@
     "options": ["वास्को द गामा", "अफोन्सो द आल्बुकर्क", "पेद्रो आल्व्हारेस काब्राल", "फ्रान्सिस्को द आल्मेदा"],
     "correctIndex": 1,
     "gloss": "The Hapus mango's English name 'Alphonso' is held to come from whom? — Afonso de Albuquerque, the Portuguese governor of Goa; the other three are fellow Portuguese navigators of the same era."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "एक घोडा, दोन घोडे; एक नदी, दोन नद्या. यांपैकी कोणत्या शब्दाचं अनेकवचन एकवचनासारखंच राहतं?",
+    "options": ["भिंत", "दगड", "पान", "माळ"],
+    "correctIndex": 1,
+    "gloss": "One horse, two horses; one river, two rivers. Which of these words stays the same in the plural? — दगड (stone): masculine nouns ending in -a are unchanged (दोन दगड); भिंती, पाने, माळा change."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "महाराष्ट्रात ‘लालपरी’ हे लाडकं नाव कशाला म्हणतात?",
+    "options": ["एसटी बसला", "मुंबई लोकलला", "डेक्कन क्वीनला", "बेस्ट बसला"],
+    "correctIndex": 0,
+    "gloss": "What is affectionately called \"Lalpari\" (the red fairy) in Maharashtra? — The MSRTC \"ST\" bus that reaches every village. BEST buses are red too, but the name belongs to the ST."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘नऊवारी’ साडीच्या नावातला ‘वार’ म्हणजे काय?",
+    "options": ["निऱ्यांची संख्या", "आठवड्याचा दिवस", "कापडाच्या लांबीचं एक माप", "काठाचा रंग"],
+    "correctIndex": 2,
+    "gloss": "What is the \"vaar\" in the nine-yard \"nauvari\" sari? — A measure of cloth length (a yard); the trap is वार = weekday."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘एक होता कावळा, एक होती चिमणी.’ पावसात कावळ्याचं शेणाचं घर वाहून गेलं. चिमणीचं घर कशाचं होतं?",
+    "options": ["मेणाचं", "मातीचं", "गवताचं", "काड्यांचं"],
+    "correctIndex": 0,
+    "gloss": "In the children's story of the crow and the sparrow, the crow's dung house washed away in the rain. What was the sparrow's house made of? — Wax (मेणाचं)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘अशी ही बनवाबनवी’मध्ये भाड्याची खोली मिळवण्यासाठी धनंजय आणि परशुराम काय करतात?",
+    "options": ["साधूचं सोंग घेतात", "बायकांचं सोंग घेतात", "म्हाताऱ्यांचं सोंग घेतात", "परदेशी पाहुणे बनतात"],
+    "correctIndex": 1,
+    "gloss": "In \"Ashi Hi Banwa Banwi\" (1988), what do Dhananjay and Parshuram do to get a rented room? — They disguise themselves as women (the landlady lets only to married couples)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मिसळ खाताना ‘कट’ किंवा ‘तर्री’ मागितली की वाटीत काय येतं?",
+    "options": ["दह्याची वाटी", "फरसाण आणि शेव", "तिखट, तेलकट रस्सा", "कांदा-लिंबू"],
+    "correctIndex": 2,
+    "gloss": "Eating misal, you ask for \"kat\" or \"tarri\". What arrives? — The fiery, oily red gravy."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "जेजुरीच्या गडावर भक्त पिवळा भंडारा उधळतात. हे कोणत्या दैवताचं स्थान?",
+    "options": ["विठोबा", "जोतिबा", "खंडोबा", "भैरोबा"],
+    "correctIndex": 2,
+    "gloss": "At Jejuri fort devotees throw yellow turmeric (bhandara). Whose seat is it? — Khandoba. Jotiba (Kolhapur) is known for pink gulal."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "बँक बजावते, ‘OTP कोणालाही सांगू नका.’ OTP मधलं ‘O’ म्हणजे काय?",
+    "options": ["वन (One)", "ऑनलाइन (Online)", "ऑफिशियल (Official)", "ओपन (Open)"],
+    "correctIndex": 0,
+    "gloss": "Banks warn: never share your OTP. What does the O stand for? — One (one-time password)."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "आजोबा चहा बशीत ओतून पितात. बशीतला चहा कपातल्यापेक्षा लवकर का निवतो?",
+    "options": ["बशीमुळे चहातलं दूध वेगळं होतं", "बशीत ओतताना साखर विरघळते", "बशीचा रंग पांढरा असतो", "पसरल्यामुळे हवेला लागणारा पृष्ठभाग मोठा होतो"],
+    "correctIndex": 3,
+    "gloss": "Grandpa pours his tea into the saucer. Why does it cool faster there than in the cup? — Spread thin, it has a much larger surface open to the air, so it loses heat faster."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "उन्हाळ्यात कुत्रा जीभ बाहेर काढून धापा टाकतो. तो असं का करतो?",
+    "options": ["तहान लागल्याचं सांगायला", "वास घ्यायला", "राग दाखवायला", "शरीर थंड करायला"],
+    "correctIndex": 3,
+    "gloss": "In summer a dog pants with its tongue out. Why? — To cool down: dogs barely sweat (only through their paw pads), so they lose heat by evaporation from tongue and mouth."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "मसाल्यातली दालचिनी झाडाचा कोणता भाग असते?",
+    "options": ["फुलाची कळी", "बी", "मूळ", "खोडाची साल"],
+    "correctIndex": 3,
+    "gloss": "Which part of the tree is the cinnamon in our spice box? — The bark. Clove is a flower bud, nutmeg a seed."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "दुकानात ‘दोन घ्या, एक मोफत’ अशी ऑफर आहे. एका वस्तूची किंमत ₹९० असेल, तर तिघींपैकी प्रत्येक वस्तू प्रत्यक्षात किती रुपयांना पडते?",
+    "options": ["₹३०", "₹४५", "₹६०", "₹७५"],
+    "correctIndex": 2,
+    "gloss": "A shop offers \"buy two, get one free\". If one item costs ₹90, what does each of the three really cost you? — ₹60: you pay ₹180 for three. ₹30 is the autopilot 90 ÷ 3."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "फॉर्म्युला वन शर्यतीत काळ्या-पांढऱ्या चौकटींचा झेंडा फडकवला की त्याचा अर्थ काय?",
+    "options": ["शर्यत संपली", "अपघातामुळे शर्यत थांबवली", "गाडी हळू चालवा", "शेवटची फेरी सुरू झाली"],
+    "correctIndex": 0,
+    "gloss": "In Formula One, what does the black-and-white chequered flag mean? — The race is over. Red stops the race, yellow means slow down."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "भारतात रात्रीचे ११ वाजले आहेत. यांपैकी कोणत्या देशात आत्ता दिवस असेल?",
+    "options": ["पाकिस्तान", "श्रीलंका", "अमेरिका", "बांगलादेश"],
+    "correctIndex": 2,
+    "gloss": "It is 11 pm in India. In which of these countries is it daytime now? — The USA, 9½–15½ hours behind; the three neighbours are within an hour of India."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "प्रत्येक बाजू एकरंगी झाली की रुबिक क्यूब सुटतो. सुटलेल्या क्यूबवर एकूण किती वेगवेगळे रंग असतात?",
+    "options": ["४", "५", "८", "६"],
+    "correctIndex": 3,
+    "gloss": "A Rubik's Cube is solved when every face is one colour. How many different colours does a solved cube show? — 6: a cube has six faces, each its own colour."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘आयत्या बिळावर …’ या म्हणीत दुसऱ्याच्या कष्टावर आयता ताबा मिळवणारा कोण?",
+    "options": ["नागोबा", "उंदीर", "मुंगूस", "ससा"],
+    "correctIndex": 0,
+    "gloss": "In the proverb \"on a ready-made burrow…\", who takes over what someone else toiled for? — The cobra (नागोबा): «आयत्या बिळावर नागोबा»."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "मराठी समालोचक ओरडतो, ‘फलंदाज त्रिफळाचीत!’ फलंदाज कसा बाद झाला?",
+    "options": ["झेल देऊन", "धाव घेताना", "चेंडू थेट यष्ट्यांवर लागून", "चेंडू पायावर लागून"],
+    "correctIndex": 2,
+    "gloss": "A Marathi commentator shouts \"trifalachit!\". How was the batter out? — Bowled: त्रिफळा = the three stumps. Caught is झेलबाद, LBW पायचीत, run out धावचीत."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "३२ संघांची बाद फेरीची स्पर्धा आहे: प्रत्येक सामन्यात हरणारा संघ बाहेर जातो. विजेता ठरेपर्यंत एकूण किती सामने खेळले जातील?",
+    "options": ["३१", "१६", "३२", "६३"],
+    "correctIndex": 0,
+    "gloss": "A 32-team knockout: each match eliminates the loser. How many matches until there is a winner? — 31: every match knocks out exactly one team, and 31 must go."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मोटारगाड्यांना बंदी असलेलं, नेरळहून छोट्या रेल्वेने गाठता येणारं थंड हवेचं ठिकाण कोणतं?",
+    "options": ["महाबळेश्वर", "पाचगणी", "माथेरान", "लोणावळा"],
+    "correctIndex": 2,
+    "gloss": "Which hill station, closed to cars and reached by the little train from Neral? — Matheran."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "कैलास पर्वत आणि मानसरोवर कोणत्या देशाच्या हद्दीत आहेत?",
+    "options": ["नेपाळ", "भूतान", "भारत", "चीन"],
+    "correctIndex": 3,
+    "gloss": "Mount Kailash and Lake Manasarovar lie in which country? — China (the Tibet region); Indian pilgrims cross into it via Lipulekh or Nepal."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "मोझारेला चीज मूळ इटलीत पारंपरिकरीत्या कोणत्या प्राण्याच्या दुधापासून बनवलं जातं?",
+    "options": ["म्हशीच्या", "गायीच्या", "शेळीच्या", "मेंढीच्या"],
+    "correctIndex": 0,
+    "gloss": "In Italy, mozzarella is traditionally made from which animal's milk? — Buffalo milk (mozzarella di bufala); cow's-milk versions came later."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "फ्रिजच्या मागची जाळी हात लावल्यावर कोमट लागते. असं का?",
+    "options": ["तारांमधून वीज गळते म्हणून", "बर्फ जमू नये म्हणून तिथे हीटर असतो", "खोलीतली उष्णता तिथे येऊन साचते", "आतून काढलेली उष्णता तिथून बाहेर सोडली जाते"],
+    "correctIndex": 3,
+    "gloss": "The grille at the back of a fridge feels warm. Why? — It is the condenser: the heat pumped out of the inside is released there."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "fact",
+    "text": "घरापासून ऑफिसपर्यंतचा लांबचा टप्पा मुंबईचे डबेवाले मुख्यतः कशाने पार करतात?",
+    "options": ["बेस्ट बसने", "लोकल ट्रेनने", "टॅक्सीने", "मोटारसायकलने"],
+    "correctIndex": 1,
+    "gloss": "How do Mumbai's dabbawalas cover the long stretch from home to office? — By local train (with bicycles and handcarts at either end)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "रात्री गाडीच्या दिव्यांचा प्रकाश पडला की मांजराचे डोळे चमकतात. यामागचं कारण काय?",
+    "options": ["डोळ्यांच्या आत प्रकाश परावर्तित करणारा थर असतो", "डोळे स्वतःच प्रकाश निर्माण करतात", "डोळ्यांतलं पाणी आरशासारखं चमकतं", "बाहुली अंधारात हिरवी होते"],
+    "correctIndex": 0,
+    "gloss": "At night, in car headlights, a cat's eyes shine. Why? — A reflecting layer behind the retina (tapetum lucidum) sends light back through it, helping night vision."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "संगणकाच्या कीबोर्डला ‘QWERTY’ हे नाव कशावरून पडलं?",
+    "options": ["शोधकाच्या आडनावावरून", "पहिल्या कंपनीच्या नावावरून", "अक्षरांच्या वरच्या ओळीतल्या पहिल्या सहा अक्षरांवरून", "‘क्विक टायपिंग’च्या लघुरूपावरून"],
+    "correctIndex": 2,
+    "gloss": "Where does the keyboard name QWERTY come from? — The first six letters of the top letter row: look at any keyboard."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "कॉल चालू असताना फोन कानाला लावला की स्क्रीन बंद होते, दूर केला की पुन्हा सुरू होते. फोनला हे कसं कळतं?",
+    "options": ["आपला आवाज ऐकू आला की", "वरचा सेन्सर जवळ आलेली वस्तू ओळखतो", "कानाची ऊब ओळखून", "कॉल लागला की आपोआप, कानाचा संबंध नाही"],
+    "correctIndex": 1,
+    "gloss": "During a call the screen goes dark at your ear and wakes when you move it away. How does the phone know? — A proximity sensor near the earpiece detects something close. It is not automatic on connecting: on speaker the screen stays on."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "हॉलिवूड, बॉलिवूडच्या धर्तीवर ‘नॉलिवूड’ हे कोणत्या देशाच्या चित्रपटसृष्टीचं नाव?",
+    "options": ["नॉर्वे", "न्यूझीलंड", "नेपाळ", "नायजेरिया"],
+    "correctIndex": 3,
+    "gloss": "After Hollywood and Bollywood, \"Nollywood\" is which country's film industry? — Nigeria's, one of the world's most prolific. All four options start with N."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "गाण्याच्या किंवा वादनाच्या सरावात ‘मेट्रोनोम’ काय करतो?",
+    "options": ["वाद्याचा सूर जुळवतो", "ठरावीक लयीत टिकटिक करून ठेका सांगतो", "आवाज मोठा करतो", "सराव ध्वनिमुद्रित करतो"],
+    "correctIndex": 1,
+    "gloss": "In music practice, what does a metronome do? — Ticks at a set tempo to keep the beat. Tuning is the tuner's job, the trap."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "इंटरनेटचा वेग १०० Mbps आहे. १०० MB ची फाईल उतरवायला आदर्श परिस्थितीत साधारण किती वेळ लागेल?",
+    "options": ["सुमारे १ सेकंद", "सुमारे ८ सेकंद", "सुमारे १०० सेकंद", "सुमारे १३ मिनिटं"],
+    "correctIndex": 1,
+    "gloss": "A 100 Mbps connection: how long does a 100 MB file take, ideally? — About 8 seconds: speeds are in megabits, files in megabytes, and a byte is 8 bits. \"1 second\" is the trap."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "नोबिताच्या मदतीला आलेला मांजररूपी यंत्रमानव डोरेमॉन कोणत्या शतकातून आला आहे?",
+    "options": ["एकविसाव्या", "पंचविसाव्या", "तिसाव्या", "बाविसाव्या"],
+    "correctIndex": 3,
+    "gloss": "Doraemon, the robot cat who comes to help Nobita, comes from which century? — The 22nd (he was built in 2112)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "विमान उडवण्याआधी राइट बंधू कोणत्या वस्तू विकत आणि दुरुस्त करत?",
+    "options": ["घड्याळं", "शिवणयंत्रं", "सायकली", "बंदुका"],
+    "correctIndex": 2,
+    "gloss": "Before they flew, what did the Wright brothers sell and repair? — Bicycles, in their Dayton shop; the workshop built their first engine too."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "संगीत नाटक, भजन, कीर्तनात सर्रास वाजणारं कोणतं वाद्य मूळचं युरोपातलं? त्याचं पेटंट पॅरिसमध्ये घेतलं गेलं.",
+    "options": ["पखवाज", "हार्मोनियम", "सारंगी", "टाळ"],
+    "correctIndex": 1,
+    "gloss": "Which instrument, everywhere in Marathi musical theatre, bhajan and kirtan, is European in origin, patented in Paris? — The harmonium (Alexandre Debain, 1840)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "पेशवे दप्तरातली लाखो कागदपत्रं मराठीतच आहेत, पण ती कोणत्या वळणदार, वेगाने लिहिता येणाऱ्या लिपीत?",
+    "options": ["मोडी", "बाळबोध", "शारदा", "कैथी"],
+    "correctIndex": 0,
+    "gloss": "The Peshwa archives hold millions of papers in Marathi, but in which fast cursive script? — Modi. Balbodh is Marathi Devanagari; Sharada and Kaithi belong to Kashmir and north India."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "१८८६ मध्ये अमेरिकेतून वैद्यकीय पदवी मिळवणारी पहिली भारतीय स्त्री कोण?",
+    "options": ["आनंदीबाई जोशी", "रमाबाई रानडे", "सावित्रीबाई फुले", "पंडिता रमाबाई"],
+    "correctIndex": 0,
+    "gloss": "Who was the first Indian woman to earn a medical degree in the USA, in 1886? — Anandibai Joshi (Woman's Medical College of Pennsylvania)."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मल्लखांब लाकडी खांबावर तर होतोच; आणखी कशावर तो सादर केला जातो?",
+    "options": ["शिडीवर", "लोखंडी कड्यांवर", "दोरीवर", "जाळीवर"],
+    "correctIndex": 2,
+    "gloss": "Mallakhamb is done on a wooden pole; on what else? — On a rope (दोरीचा मल्लखांब), a form popular with girls."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "एका फलंदाजाने तीन डावांत ५०, ३० आणि १०० धावा केल्या; त्यांपैकी एका डावात तो नाबाद राहिला. त्याची सरासरी किती?",
+    "options": ["६०", "७५", "१८०", "९०"],
+    "correctIndex": 3,
+    "gloss": "A batter scores 50, 30 and 100 in three innings, not out in one of them. What is his average? — 90: a cricket average divides runs (180) by dismissals (2), not innings; which innings was not out does not matter."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "दोन फासे एकदम टाकले. दोन्हींची बेरीज कोणती येण्याची शक्यता सर्वाधिक?",
+    "options": ["७", "६", "८", "१२"],
+    "correctIndex": 0,
+    "gloss": "Two dice are thrown together. Which total is most likely? — 7: it can be made 6 ways (1+6 … 6+1); 6 and 8 have 5 ways, 12 only one."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "झाडाच्या खोडावर जमिनीपासून १ मीटर उंचीवर खिळा ठोकला. दहा वर्षांत झाड ५ मीटरनी उंच वाढलं. आता तो खिळा किती उंचीवर असेल?",
+    "options": ["सुमारे ३ मीटर", "सुमारे ५ मीटर", "सुमारे ६ मीटर", "जवळपास १ मीटरच"],
+    "correctIndex": 3,
+    "gloss": "A nail is driven into a trunk 1 m above the ground; in ten years the tree grows 5 m taller. How high is the nail now? — Still about 1 m: a tree grows taller only at its tips; the trunk thickens but does not stretch."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "इंग्रजीतला ‘शॅम्पू’ हा शब्द भारतातून तिथे गेला. मूळ हिंदुस्थानी शब्दाचा अर्थ काय होता?",
+    "options": ["केस धुणे", "दाबून मालिश करणे", "फेस आणणे", "सुगंध लावणे"],
+    "correctIndex": 1,
+    "gloss": "English \"shampoo\" came from India. What did the original Hindustani word mean? — To press, to massage (chāmpo, from chāmpnā); our चंपी is the clue. It meant a massage before it meant hair-washing."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "जीपीएस रिसीव्हरला आपलं स्थान (उंचीसह) अचूक काढायला किमान किती उपग्रहांचे सिग्नल लागतात?",
+    "options": ["३", "४", "६", "२४"],
+    "correctIndex": 1,
+    "gloss": "At least how many satellites must a GPS receiver hear to fix its position (with altitude)? — Four: three for the position, a fourth to correct the receiver's own clock. 24 is the size of the constellation."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "जुन्या चित्रपटांच्या शेवटी वर्ष रोमन अंकांत दिलेलं असतं. यांपैकी सर्वात अलीकडचं वर्ष कोणतं?",
+    "options": ["MCMXLIX", "MDCCCLXXXVIII", "MCMLXXIV", "MCMLIX"],
+    "correctIndex": 2,
+    "gloss": "Old film credits give the year in Roman numerals. Which is the most recent? — MCMLXXIV = 1974. The others: 1949, 1888 (the longest, a trap), 1959."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "‘मृत्युंजय’ आणि ‘छावा’ या दोन्ही गाजलेल्या कादंबऱ्यांचे लेखक कोण?",
+    "options": ["रणजित देसाई", "विश्वास पाटील", "शिवाजी सावंत", "ना. सं. इनामदार"],
+    "correctIndex": 2,
+    "gloss": "Who wrote both \"Mrityunjay\" (on Karna) and \"Chhava\" (on Sambhaji)? — Shivaji Sawant. Vishwas Patil wrote a different novel, \"Sambhaji\"; Desai wrote \"Swami\", Inamdar \"Raau\"."
+  },
+  {
+    "level": 4,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "एप्रिल २०२५ मध्ये चालू असलेलं शालिवाहन शक वर्ष कोणतं?",
+    "options": ["१४४६", "१९४७", "२०८२", "२५६८"],
+    "correctIndex": 1,
+    "gloss": "Which Shalivahan Shaka year was running in April 2025? — 1947: Shaka is 78 years behind the Common Era. 2082 was Vikram Samvat, 1446 the Hijri year, 2568 the Buddhist era."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "हत्तीचा सर्वात जवळचा जिवंत नातलग यांपैकी कोणता प्राणी?",
+    "options": ["समुद्री गाय", "गेंडा", "पाणघोडा", "जिराफ"],
+    "correctIndex": 0,
+    "gloss": "Which of these animals is the elephant's closest living relative? — The sea cow (dugong/manatee); with hyraxes they share an ancestor with elephants. Rhino and hippo only look related."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "फ्रेड हॉयल यांच्यासोबत गुरुत्वाकर्षणाचा सिद्धांत मांडणारे आणि ‘यक्षांची देणगी’ लिहिणारे वैज्ञानिक कोण?",
+    "options": ["बाळ फोंडके", "विजय भटकर", "रघुनाथ माशेलकर", "जयंत नारळीकर"],
+    "correctIndex": 3,
+    "gloss": "Which scientist built a theory of gravity with Fred Hoyle and wrote the Marathi story collection \"Yakshanchi Dengi\"? — Jayant Narlikar."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "मुंबईच्या छत्रपती शिवाजी महाराज टर्मिनसची (पूर्वीचं व्हिक्टोरिया टर्मिनस) इमारत कोणत्या वास्तुविशारदाने रचली?",
+    "options": ["फ्रेडरिक विल्यम स्टीव्हन्स", "जॉर्ज विटेट", "रॉबर्ट चिशोल्म", "एडविन लुटियन्स"],
+    "correctIndex": 0,
+    "gloss": "Which architect designed Mumbai's Chhatrapati Shivaji Maharaj Terminus (Victoria Terminus)? — Frederick William Stevens (1887). Wittet did the Gateway of India, Lutyens New Delhi, Chisholm worked in Madras."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "जगातल्या मोठ्या रेडिओ दुर्बिणींपैकी एक, ‘जीएमआरटी’, पुणे जिल्ह्यात कोणत्या गावाजवळ आहे?",
+    "options": ["बारामती", "नारायणगाव", "इंदापूर", "शिरूर"],
+    "correctIndex": 1,
+    "gloss": "Near which town in Pune district is the GMRT, one of the world's great radio telescopes? — Narayangaon (at Khodad)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "डॅन्यूबच्या दोन काठांवरची शहरं १८७३ मध्ये एकत्र होऊन कोणती राजधानी तयार झाली?",
+    "options": ["व्हिएन्ना", "ब्राटिस्लाव्हा", "बेलग्रेड", "बुडापेस्ट"],
+    "correctIndex": 3,
+    "gloss": "Towns on the two banks of the Danube merged in 1873 into which capital? — Budapest: Buda and Óbuda on the west bank, Pest on the east. All four options stand on the Danube."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "पारंपरिक काळ्या-पांढऱ्या फुटबॉलवर १२ काळे पंचकोन असतात. त्यावर पांढरे षट्कोन किती?",
+    "options": ["१२", "२०", "२४", "३२"],
+    "correctIndex": 1,
+    "gloss": "A classic black-and-white football has 12 black pentagons. How many white hexagons? — 20: each pentagon borders 5 hexagons and each hexagon 3 pentagons, 12 × 5 ÷ 3 = 20. 32 is the total of panels."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "वेबपेजवर रंगाचा कोड #FF0000 असा दिला, तर कोणता रंग दिसेल?",
+    "options": ["हिरवा", "निळा", "पांढरा", "लाल"],
+    "correctIndex": 3,
+    "gloss": "A web page gives the colour code #FF0000. What colour shows? — Red: the code is red-green-blue in hexadecimal, FF is full, 00 is none. White would be #FFFFFF."
   }
 ]

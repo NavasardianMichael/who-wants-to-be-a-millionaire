@@ -748,5 +748,755 @@
     ],
     "correctIndex": 1,
     "gloss": "The word 'robot' comes from Czech robota. Its original meaning? — Forced labour (corvée)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kata “orangutan” berasal dari bahasa Melayu dan tersusun dari dua kata yang masing-masing bisa berdiri sendiri. Apa arti harfiahnya?",
+    "options": [
+      "Raja rimba",
+      "Kera besar",
+      "Manusia hutan",
+      "Penjaga gunung"
+    ],
+    "correctIndex": 2,
+    "gloss": "The word \"orangutan\" comes from Malay and is built from two words that stand alone. What does it literally mean? — \"Forest person\": orang \"person\" + hutan \"forest\"."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Papeda, bubur bening nan lengket khas Maluku dan Papua yang biasa disantap bersama ikan kuah kuning, dibuat dari pati ….",
+    "options": [
+      "Sagu",
+      "Beras",
+      "Jagung",
+      "Ubi jalar"
+    ],
+    "correctIndex": 0,
+    "gloss": "Papeda, the clear sticky porridge of Maluku and Papua eaten with yellow-broth fish, is made from the starch of... — Sago."
+  },
+  {
+    "level": 1,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tanggal 2 Mei diperingati sebagai Hari Pendidikan Nasional, bertepatan dengan hari lahir pendiri perguruan Taman Siswa. Siapa dia?",
+    "options": [
+      "Dewi Sartika",
+      "Mohammad Yamin",
+      "Haji Agus Salim",
+      "Ki Hajar Dewantara"
+    ],
+    "correctIndex": 3,
+    "gloss": "National Education Day, 2 May, is the birthday of the founder of the Taman Siswa schools. Who? — Ki Hajar Dewantara (born 2 May 1889)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Karapan sapi, balapan sepasang sapi yang menarik kereta kayu dengan seorang joki di atasnya, adalah tradisi kebanggaan pulau ….",
+    "options": [
+      "Lombok",
+      "Madura",
+      "Sumba",
+      "Flores"
+    ],
+    "correctIndex": 1,
+    "gloss": "Karapan sapi, the race of a pair of bulls pulling a wooden sled with a jockey, is the pride of which island? — Madura."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Dalam dongeng Si Kancil, para buaya mau berbaris di sungai sehingga Kancil bisa menyeberang di atas punggung mereka. Dengan alasan apa Kancil menyuruh mereka berbaris?",
+    "options": [
+      "Untuk berlomba renang",
+      "Untuk diobati satu per satu",
+      "Untuk dihitung jumlahnya",
+      "Untuk memilih pemimpin"
+    ],
+    "correctIndex": 2,
+    "gloss": "In the Si Kancil tale, why does the mouse-deer tell the crocodiles to line up so he can cross on their backs? — To be counted (he claims the king wants a headcount)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Kamus menyusun kata menurut abjad, huruf demi huruf. Dari empat kata berikut, mana yang muncul paling awal dalam kamus?",
+    "options": [
+      "Sagu",
+      "Sabun",
+      "Saku",
+      "Sapu"
+    ],
+    "correctIndex": 1,
+    "gloss": "A dictionary orders words alphabetically, letter by letter. Which of these four comes first? — Sabun: s-a-b comes before g, k and p."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sebuah buku tulis bernomor halaman dari 1 sampai 50, dan setiap lembar kertasnya dicetak di kedua sisi. Berapa lembar kertas yang dipakai buku itu?",
+    "options": [
+      "50",
+      "24",
+      "26",
+      "25"
+    ],
+    "correctIndex": 3,
+    "gloss": "A notebook has pages numbered 1 to 50, every sheet printed on both sides. How many sheets of paper does it use? — 25: each sheet carries two pages."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Di sepanjang jalan 100 meter ditanam pohon peneduh setiap 10 meter, dan kedua ujung jalan juga mendapat satu pohon. Berapa pohon yang dibutuhkan?",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "correctIndex": 0,
+    "gloss": "Shade trees are planted every 10 m along a 100 m road, with one at each end. How many trees? — 11: there are 10 gaps but 11 positions."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sinyal ponsel sering hilang di dalam lift, padahal di luar lift sinyalnya penuh. Apa penyebab utamanya?",
+    "options": [
+      "Lift bergerak terlalu cepat",
+      "Listrik lift menyerap sinyal",
+      "Dinding logam lift menghalangi gelombang radio",
+      "Udara di dalam lift terlalu padat"
+    ],
+    "correctIndex": 2,
+    "gloss": "Phone signal often drops inside a lift though it is full outside. What is the main cause? — The metal walls block radio waves (a Faraday-cage effect)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Hewan mana yang bisa tidur nyenyak sambil berdiri tegak?",
+    "options": [
+      "Kucing",
+      "Kuda",
+      "Anjing",
+      "Kelinci"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which animal can sleep soundly while standing up? — The horse: a locking mechanism in its legs lets it doze on its feet."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lembaran rumput laut kering berwarna hijau kehitaman yang membungkus sushi dan onigiri disebut ….",
+    "options": [
+      "Nori",
+      "Wakame",
+      "Kombu",
+      "Hijiki"
+    ],
+    "correctIndex": 0,
+    "gloss": "The dried dark-green seaweed sheets that wrap sushi and onigiri are called... — Nori."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Patung Merlion, makhluk berkepala singa dan berbadan ikan, menjadi ikon pariwisata negara ….",
+    "options": [
+      "Brunei Darussalam",
+      "Filipina",
+      "Thailand",
+      "Singapura"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Merlion statue, a lion-headed fish, is the tourism icon of which country? — Singapore."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Doraemon adalah robot kucing biru dari abad ke-22. Hewan apa yang paling ia takuti?",
+    "options": [
+      "Anjing",
+      "Tikus",
+      "Ular",
+      "Burung"
+    ],
+    "correctIndex": 1,
+    "gloss": "Doraemon is a blue robot cat from the 22nd century. Which animal does he fear most? — Mice (one supposedly ate his ears)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saat berbelanja di pasar malam Bangkok, kamu membayar dengan mata uang bernama ….",
+    "options": [
+      "Ringgit",
+      "Dong",
+      "Baht",
+      "Peso"
+    ],
+    "correctIndex": 2,
+    "gloss": "Shopping at a Bangkok night market, you pay in the currency called... — Baht (Thailand); ringgit is Malaysia, dong Vietnam, peso the Philippines."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam balap Formula 1 dan MotoGP, bendera apa yang dikibarkan untuk menandai balapan telah selesai?",
+    "options": [
+      "Bendera kotak-kotak hitam putih",
+      "Bendera hijau",
+      "Bendera kuning",
+      "Bendera biru"
+    ],
+    "correctIndex": 0,
+    "gloss": "In Formula 1 and MotoGP, which flag is waved to mark the end of the race? — The black-and-white chequered flag."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Garis khatulistiwa tepat melintasi sebuah ibu kota provinsi di Pulau Kalimantan, dan tugu penandanya menjadi daya tarik wisata. Kota apa itu?",
+    "options": [
+      "Banjarmasin",
+      "Samarinda",
+      "Palangka Raya",
+      "Pontianak"
+    ],
+    "correctIndex": 3,
+    "gloss": "The equator runs right through a provincial capital on Borneo, marked by a monument that is a tourist draw. Which city? — Pontianak (Equator Monument)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Nama “Nusantara”, “Nusa Tenggara”, dan “Nusa Penida” sama-sama memuat kata “nusa”. Apa arti kata itu dalam bahasa Jawa Kuno dan bahasa Bali?",
+    "options": [
+      "Laut",
+      "Pulau",
+      "Tanah",
+      "Bangsa"
+    ],
+    "correctIndex": 1,
+    "gloss": "Nusantara, Nusa Tenggara and Nusa Penida all contain \"nusa\". What does it mean in Old Javanese and Balinese? — Island."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Nama aliran musik dangdut konon berasal dari tiruan bunyi alat musik ….",
+    "options": [
+      "Gendang",
+      "Suling",
+      "Gong",
+      "Gambus"
+    ],
+    "correctIndex": 0,
+    "gloss": "The name of the dangdut genre is said to imitate the sound of which instrument? — The gendang drum (\"dang\" and \"dut\")."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Menurut Kamus Besar Bahasa Indonesia, mana kata yang ditulis dengan ejaan baku?",
+    "options": [
+      "Resiko",
+      "Nafas",
+      "Apotek",
+      "Aktifitas"
+    ],
+    "correctIndex": 2,
+    "gloss": "According to the official dictionary, which word is spelled in the standard way? — Apotek (the standard forms of the others are risiko, napas, aktivitas)."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pinisi, kapal layar kayu tradisional yang seni pembuatannya diakui UNESCO, dibuat oleh pengrajin suku Bugis dan Makassar dari provinsi ….",
+    "options": [
+      "Maluku",
+      "Kalimantan Selatan",
+      "Sulawesi Selatan",
+      "Nusa Tenggara Barat"
+    ],
+    "correctIndex": 2,
+    "gloss": "The pinisi, a traditional wooden sailing ship whose craft UNESCO recognises, is built by Bugis and Makassar shipwrights of which province? — South Sulawesi."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sebuah jam dinding berdentang tiga kali dalam waktu 6 detik, dengan jeda yang sama panjang antardentang. Berapa detik yang dibutuhkan untuk berdentang enam kali?",
+    "options": [
+      "15",
+      "12",
+      "18",
+      "10"
+    ],
+    "correctIndex": 0,
+    "gloss": "A wall clock strikes three times in 6 seconds with equal pauses. How long does it take to strike six times? — 15 s: 3 strikes have 2 gaps of 3 s, 6 strikes have 5 gaps."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Jika kamu menuliskan semua bilangan dari 1 sampai 100, berapa kali angka 9 muncul?",
+    "options": [
+      "19",
+      "11",
+      "10",
+      "20"
+    ],
+    "correctIndex": 3,
+    "gloss": "If you write all numbers from 1 to 100, how many times does the digit 9 appear? — 20: ten times as units (9, 19, ... 99) and ten times as tens (90-99)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Sebuah turnamen tenis meja antar-RT diikuti 10 pemain. Yang kalah langsung tersingkir, dan tidak ada seri. Berapa pertandingan yang dimainkan sampai juara ditentukan?",
+    "options": [
+      "5",
+      "9",
+      "10",
+      "8"
+    ],
+    "correctIndex": 1,
+    "gloss": "A knockout table-tennis tournament has 10 players, loser out, no draws. How many matches until there is a champion? — 9: every match eliminates one player and 9 must be eliminated."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Di puncak gunung yang sangat tinggi, air mendidih pada suhu kurang dari 100 °C. Apa penyebabnya?",
+    "options": [
+      "Udara lebih dingin",
+      "Tekanan udara lebih rendah",
+      "Gravitasi lebih kecil",
+      "Kadar oksigen lebih sedikit"
+    ],
+    "correctIndex": 1,
+    "gloss": "On a very high mountain water boils below 100 °C. Why? — Lower air pressure; the cold, gravity and oxygen do not set the boiling point."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kata “podcast” lahir dari gabungan kata “broadcast” dengan nama sebuah perangkat pemutar musik. Perangkat apa itu?",
+    "options": [
+      "Walkman",
+      "Discman",
+      "Gramofon",
+      "iPod"
+    ],
+    "correctIndex": 3,
+    "gloss": "The word \"podcast\" blends \"broadcast\" with the name of a music player. Which one? — iPod."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Dalam catur, pemain yang mendapat giliran jalan tidak sedang di-skak, tetapi tidak punya satu pun langkah sah. Apa hasil permainannya?",
+    "options": [
+      "Seri (remis)",
+      "Pemain itu kalah",
+      "Pemain itu menang",
+      "Permainan diulang dari awal"
+    ],
+    "correctIndex": 0,
+    "gloss": "In chess, the player to move is not in check but has no legal move. What is the result? — A draw (stalemate)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pada Oscar 2020, film Korea mana yang menjadi film berbahasa non-Inggris pertama yang meraih penghargaan Film Terbaik?",
+    "options": [
+      "Train to Busan",
+      "Oldboy",
+      "Parasite",
+      "Minari"
+    ],
+    "correctIndex": 2,
+    "gloss": "At the 2020 Oscars, which Korean film became the first non-English-language film to win Best Picture? — Parasite."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pupil mata kambing, yang tampak seperti garis tebal, berbentuk ….",
+    "options": [
+      "Bulat",
+      "Persegi panjang mendatar",
+      "Celah tegak",
+      "Segitiga"
+    ],
+    "correctIndex": 1,
+    "gloss": "The goat's pupil, seen as a thick bar, has the shape of a... — Horizontal rectangle (cats have vertical slits)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Dalam ejaan lama, nama tokoh ditulis “Tjokroaminoto” dan “Djuanda”. Ejaan yang Disempurnakan (1972) mengubah “tj” dan “dj” berturut-turut menjadi ….",
+    "options": [
+      "j dan c",
+      "ts dan dz",
+      "ty dan dy",
+      "c dan j"
+    ],
+    "correctIndex": 3,
+    "gloss": "In old spelling names were written \"Tjokroaminoto\" and \"Djuanda\". The 1972 spelling reform turned \"tj\" and \"dj\" respectively into... — c and j (Cokroaminoto, Juanda)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Pada 2003, di gua Liang Bua ditemukan kerangka manusia purba bertubuh mungil yang dijuluki “hobbit”. Gua itu terletak di pulau ….",
+    "options": [
+      "Flores",
+      "Sumba",
+      "Timor",
+      "Sulawesi"
+    ],
+    "correctIndex": 0,
+    "gloss": "In 2003 a skeleton of a tiny ancient human nicknamed the \"hobbit\" was found in the Liang Bua cave, on which island? — Flores."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Burung maleo dari Sulawesi tidak mengerami telurnya, melainkan menguburnya di dalam tanah atau pasir. Dari mana panas untuk menetaskan telur itu?",
+    "options": [
+      "Dari tumpukan daun busuk yang menghasilkan panas",
+      "Dari bulu induk yang ditinggalkan di dalam lubang",
+      "Dari pasir atau tanah yang dihangatkan matahari atau panas bumi",
+      "Dari induk betina yang datang menjaga setiap siang"
+    ],
+    "correctIndex": 2,
+    "gloss": "The maleo bird of Sulawesi does not sit on its eggs but buries them. Where does the heat to hatch them come from? — Sand or soil warmed by the sun or by geothermal heat (rotting-leaf mounds belong to other megapodes)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Anggaran negara sering disebut dalam “triliun rupiah” di berita. Satu triliun sama dengan berapa juta?",
+    "options": [
+      "1.000",
+      "1.000.000",
+      "100.000",
+      "1.000.000.000"
+    ],
+    "correctIndex": 1,
+    "gloss": "State budgets are reported in \"triliun rupiah\". One triliun equals how many million? — 1,000,000 (10^12 = 10^6 x 10^6)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Umat Hindu di Bali merayakan Nyepi sebagai tahun baru Saka, yang menghitung tahun sejak 78 Masehi. Nyepi pada Maret 2026 menandai tahun Saka ke berapa?",
+    "options": [
+      "1947",
+      "1949",
+      "2104",
+      "1948"
+    ],
+    "correctIndex": 3,
+    "gloss": "Balinese Hindus celebrate Nyepi as the Saka new year, counted from 78 CE. Which Saka year does Nyepi of March 2026 begin? — 1948 (2026 - 78)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Rasa gurih atau umami, yang dikenali ilmuwan Jepang pada 1908 dari kaldu rumput laut, terutama berasal dari zat ….",
+    "options": [
+      "Glutamat",
+      "Glukosa",
+      "Laktosa",
+      "Asam sitrat"
+    ],
+    "correctIndex": 0,
+    "gloss": "The savoury taste umami, identified by a Japanese scientist in 1908 in seaweed broth, comes chiefly from which substance? — Glutamate (Kikunae Ikeda)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Di antara sebelas negara Asia Tenggara, hanya satu yang sama sekali tidak memiliki garis pantai. Negara apa itu?",
+    "options": [
+      "Kamboja",
+      "Myanmar",
+      "Laos",
+      "Timor Leste"
+    ],
+    "correctIndex": 2,
+    "gloss": "Of the eleven Southeast Asian countries, only one has no coastline at all. Which? — Laos."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Bumi berputar sekali dalam 24 jam. Kira-kira secepat apa permukaan Bumi bergerak di khatulistiwa karena putaran itu?",
+    "options": [
+      "Sekitar 170 km/jam",
+      "Sekitar 1.700 km/jam",
+      "Sekitar 17.000 km/jam",
+      "Sekitar 600 km/jam"
+    ],
+    "correctIndex": 1,
+    "gloss": "Earth turns once in 24 hours. About how fast does its surface move at the equator because of that spin? — About 1,700 km/h (about 40,000 km round the equator divided by 24 h)."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Seni kintsugi dari Jepang memperbaiki keramik pecah dengan merekatkan kepingannya memakai pernis yang ditaburi ….",
+    "options": [
+      "Serbuk arang",
+      "Pasir halus",
+      "Kulit kerang tumbuk",
+      "Serbuk emas"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Japanese art of kintsugi mends broken pottery with lacquer dusted with... — Gold powder (\"kin\" = gold)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Perhatikan deret ini: 3, 6, 11, 18, 27, …. Bilangan berikutnya adalah ….",
+    "options": [
+      "38",
+      "36",
+      "40",
+      "37"
+    ],
+    "correctIndex": 0,
+    "gloss": "Series 3, 6, 11, 18, 27, ... what comes next? — 38: the gaps grow +3, +5, +7, +9, +11 (or n squared plus 2)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Masjid Istiqlal di Jakarta, salah satu masjid terbesar di dunia, dirancang oleh arsitek ….",
+    "options": [
+      "Soejoedi Wirjoatmodjo",
+      "Friedrich Silaban",
+      "Han Awal",
+      "Liem Bwan Tjie"
+    ],
+    "correctIndex": 1,
+    "gloss": "The Istiqlal Mosque in Jakarta was designed by the architect... — Friedrich Silaban, winner of the design competition."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kompleks percandian Muarajambi di Provinsi Jambi, yang luasnya lebih dari 3.000 hektare, terletak di tepi sungai ….",
+    "options": [
+      "Musi",
+      "Kampar",
+      "Batanghari",
+      "Indragiri"
+    ],
+    "correctIndex": 2,
+    "gloss": "The Muarajambi temple complex in Jambi, over 3,000 hectares, stands on the bank of which river? — The Batanghari."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Satelit komunikasi domestik pertama Indonesia diluncurkan pada 1976 dan dinamai dari sebuah sumpah masa Majapahit. Apa nama satelit itu?",
+    "options": [
+      "Palapa",
+      "Garuda",
+      "Nusantara",
+      "Telkom"
+    ],
+    "correctIndex": 0,
+    "gloss": "Indonesia's first domestic communications satellite, launched 1976, was named after a Majapahit-era oath. Name? — Palapa (Gajah Mada's Palapa Oath)."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Gamelan Jawa yang didengar di Pameran Dunia Paris 1889 memengaruhi komponis Prancis yang kemudian menulis “Pagodes” dalam kumpulan “Estampes”. Siapa dia?",
+    "options": [
+      "Maurice Ravel",
+      "Erik Satie",
+      "Gabriel Fauré",
+      "Claude Debussy"
+    ],
+    "correctIndex": 3,
+    "gloss": "Javanese gamelan heard at the 1889 Paris World Fair influenced the French composer who later wrote \"Pagodes\" in \"Estampes\". Who? — Claude Debussy."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Nama mesin pencari Google berasal dari salah eja “googol”, bilangan 1 yang diikuti sekian angka nol. Berapa banyak nolnya?",
+    "options": [
+      "10",
+      "100",
+      "1.000",
+      "1.000.000"
+    ],
+    "correctIndex": 1,
+    "gloss": "Google's name is a misspelling of \"googol\", a 1 followed by how many zeros? — 100 (10^100)."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Stasiun Luar Angkasa Internasional mengelilingi Bumi dengan sangat cepat. Berapa kali dalam sehari para astronot di dalamnya melihat Matahari terbit?",
+    "options": [
+      "Sekitar 4 kali",
+      "Sekitar 8 kali",
+      "Sekitar 16 kali",
+      "Sekitar 24 kali"
+    ],
+    "correctIndex": 2,
+    "gloss": "The ISS circles Earth very fast. How many sunrises do its astronauts see per day? — About 16 (one orbit takes roughly 90 minutes)."
+  },
+  {
+    "level": 4,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ubur-ubur kecil Turritopsis dohrnii dijuluki “abadi” karena, saat terluka atau tertekan, ia bisa ….",
+    "options": [
+      "Kembali ke tahap polip muda",
+      "Membelah diri menjadi dua ubur-ubur dewasa",
+      "Menyerap tubuh ubur-ubur lain untuk meremajakan diri",
+      "Tidur di dasar laut selama puluhan tahun"
+    ],
+    "correctIndex": 0,
+    "gloss": "The tiny jellyfish Turritopsis dohrnii is nicknamed \"immortal\" because, when hurt or stressed, it can... — Revert to a young polyp stage."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Seorang pujangga dari Pulau Penyengat, Kepulauan Riau, menyusun “Kitab Pengetahuan Bahasa”, kamus pertama yang menjelaskan kata Melayu dalam bahasa Melayu sendiri. Siapa dia?",
+    "options": [
+      "Hamzah Fansuri",
+      "Abdullah bin Abdulkadir Munsyi",
+      "Raja Ali Haji",
+      "Tun Sri Lanang"
+    ],
+    "correctIndex": 2,
+    "gloss": "A poet from Penyengat Island, Riau Islands, compiled the \"Kitab Pengetahuan Bahasa\", the first dictionary explaining Malay words in Malay. Who? — Raja Ali Haji (also author of Gurindam Dua Belas)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Raden Saleh, pelukis Indonesia abad ke-19 yang lama belajar di Eropa, terkenal dengan lukisan singa, perburuan, dan badai yang dramatis. Karyanya paling dekat dengan aliran ….",
+    "options": [
+      "Impresionisme",
+      "Neoklasikisme",
+      "Surealisme",
+      "Romantisisme"
+    ],
+    "correctIndex": 3,
+    "gloss": "Raden Saleh, 19th-century Indonesian painter who studied long in Europe, is known for dramatic lions, hunts and storms. His work is closest to which movement? — Romanticism."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Bahasa buatan Esperanto diterbitkan pada 1887 oleh seorang dokter mata kelahiran Białystok yang berharap bahasa itu mempersatukan bangsa-bangsa. Siapa dia?",
+    "options": [
+      "Johann Schleyer",
+      "Ludwik Zamenhof",
+      "J.R.R. Tolkien",
+      "Marc Okrand"
+    ],
+    "correctIndex": 1,
+    "gloss": "Esperanto was published in 1887 by an eye doctor born in Bialystok, hoping it would unite peoples. Who? — Ludwik Zamenhof (Schleyer made Volapük, Tolkien Elvish, Okrand Klingon)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Darah biru kepiting tapal kuda membeku bila bersentuhan dengan zat dari bakteri tertentu. Sifat itu dimanfaatkan laboratorium untuk menguji apa?",
+    "options": [
+      "Kebersihan vaksin dan obat suntik dari racun bakteri",
+      "Kadar gula dalam darah manusia",
+      "Usia batuan dan fosil",
+      "Kemurnian air laut"
+    ],
+    "correctIndex": 0,
+    "gloss": "Horseshoe crab blue blood clots on contact with substances from certain bacteria. Labs use this to test what? — Whether vaccines and injectables are free of bacterial toxins (endotoxin)."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ketika kalender Gregorian mulai dipakai pada 1582, berapa hari yang dilompati agar tanggal kembali sejajar dengan musim?",
+    "options": [
+      "7 hari",
+      "11 hari",
+      "13 hari",
+      "10 hari"
+    ],
+    "correctIndex": 3,
+    "gloss": "When the Gregorian calendar began in 1582, how many days were skipped to realign the dates with the seasons? — 10 (4 October was followed by 15 October)."
   }
 ]

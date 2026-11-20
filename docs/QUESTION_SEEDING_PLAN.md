@@ -70,6 +70,9 @@ These languages barely call Gemini yet; the order is where the next shortage wil
 | 5 | ar · ka · kk | every L1 question shown (ar also L3), demand 19–95 |
 | 6 | sv · id · mr | no AI pool, failed calls already served English |
 
+All three packs pushed on 20 Nov 2026, so 17 languages now hold 100 Classic questions (French
+ranked 100). Next: re-run the queries before seeding more.
+
 Waiting for the next measurement: fr and ro Classic (deep pools despite the most demand);
 ranked L3 for ar and ro (5 questions each, one player at or near the bottom), once runs return.
 
