@@ -498,5 +498,505 @@
     "options": ["100 K", "212 K", "373,15 K", "273,15 K"],
     "correctIndex": 2,
     "gloss": "At sea level, at how many kelvins does water boil? — 373.15 K: 0 °C = 273.15 K, plus 100. 273.15 K is freezing, 212 is the Fahrenheit boiling point."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Oʻzbek tilida qaysi soʻz ham osmondagi yoritqichni, ham taxminan 30 kunlik muddatni bildiradi?",
+    "options": ["Kun", "Yil", "Oy", "Hafta"],
+    "correctIndex": 2,
+    "gloss": "Which Uzbek word means both a light in the sky and a period of about 30 days? — Oy (moon / month). Kun is also a luminary (sun) and a time unit, but a day, not 30 days."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Choydon, qalamdon, tuzdon — bularning hammasiga nimadir solinadi. Qaysi «-don» bilan tugaydigan soʻz idishni bildirmaydi?",
+    "options": ["Siyohdon", "Nodon", "Qandon", "Guldon"],
+    "correctIndex": 1,
+    "gloss": "Teapot, pencil case, salt cellar all hold something. Which word ending in -don is not a container? — Nodon (ignorant person, from Persian no + don \"not knowing\"); the -don only looks like the container suffix."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Maqolga koʻra, bir yigitga nechta hunar ham kamlik qiladi?",
+    "options": ["Yetti", "Qirq", "Yuz", "Yetmish"],
+    "correctIndex": 3,
+    "gloss": "According to the proverb, how many trades are still too few for one young man? — Seventy: «Bir yigitga yetmish hunar oz»."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Yosh onaning ota-onasi birinchi nevarasi uchun bezatilgan tebratma yotoq va koʻrpa-toʻshak olib keladigan marosim qanday ataladi?",
+    "options": ["Sunnat toʻyi", "Beshik toʻyi", "Kelin salom", "Fotiha toʻyi"],
+    "correctIndex": 1,
+    "gloss": "The young mother's parents bring a decorated rocking cradle and bedding for their first grandchild. What is the ceremony called? — Beshik to'yi (cradle celebration)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Elektron pochtadagi «Spam» papkasiga odatda qanday xatlar tushadi?",
+    "options": ["Oʻchirilgan xatlar", "Keraksiz reklama va shubhali xatlar", "Hali yuborilmagan xatlar", "Muhim deb belgilangan xatlar"],
+    "correctIndex": 1,
+    "gloss": "Which emails usually land in the Spam folder? — Unwanted advertising and suspicious mail. Deleted mail goes to Trash, unsent to Drafts/Outbox."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bekatdan avtobus har 15 daqiqada joʻnaydi. Birinchisi soat 7:00 da, oxirgisi 8:30 da ketdi. Jami nechta avtobus joʻnadi?",
+    "options": ["5", "6", "7", "8"],
+    "correctIndex": 2,
+    "gloss": "A bus leaves every 15 minutes, the first at 7:00, the last at 8:30. How many left? — 7 (7:00, 7:15 … 8:30). 6 is the fencepost trap: 90 ÷ 15."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Futbolda gol urilgach, oʻyinni maydon markazidan qaysi jamoa boshlaydi?",
+    "options": ["Gol urgan jamoa", "Qurʼa yutgan jamoa", "Birinchi taymni boshlagan jamoa", "Gol oʻtkazib yuborgan jamoa"],
+    "correctIndex": 3,
+    "gloss": "After a goal in football, which team restarts from the centre spot? — The team that conceded."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Toshkentdan Samarqandga taxminan ikki soatda yetkazadigan «Afrosiyob» nima?",
+    "options": ["Tezyurar poyezd", "Samolyot", "Avtobus", "Metro liniyasi"],
+    "correctIndex": 0,
+    "gloss": "What is the 'Afrosiyob' that takes you from Tashkent to Samarkand in about two hours? — The high-speed train (Talgo, since 2011)."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Toshkent markazidagi Amir Temur haykalida sohibqiron qanday tasvirlangan?",
+    "options": ["Taxtda oʻtirgan holda", "Tik turgan holda", "Ot ustida", "Kitob ushlagan holda"],
+    "correctIndex": 2,
+    "gloss": "How is Amir Timur shown in his statue in central Tashkent? — On horseback (1993). In Samarkand he sits on a throne, in Shahrisabz he stands, which makes the other options tempting."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Toʻy-bazmlarda ikki qoʻllab ushlab, barmoqlar bilan urib chalinadigan, ichki chetiga halqachalar osilgan yassi cholgʻu qaysi?",
+    "options": ["Nogʻora", "Doira", "Karnay", "Rubob"],
+    "correctIndex": 1,
+    "gloss": "Which flat instrument, held in both hands and struck with the fingers, with small rings hung inside its rim, is played at weddings? — The doira (frame drum). Nogʻora are kettledrums played with sticks."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Samolyot Toshkentdan soat 22:40 da uchib, yoʻlda 3 soat 30 daqiqa boʻldi. U qoʻnganda Toshkentda soat necha boʻladi?",
+    "options": ["01:10", "01:40", "02:10", "02:40"],
+    "correctIndex": 2,
+    "gloss": "A plane leaves Tashkent at 22:40 and flies 3 h 30 min. What time is it in Tashkent when it lands? — 02:10 (22:40 + 3:30, past midnight)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Telegramda yuborgan xabaringiz yonida bitta emas, ikkita ✓ belgisi paydo boʻlsa, bu nimani bildiradi?",
+    "options": ["Xabar oʻqildi", "Xabar ikki marta yuborildi", "Xabar tahrirlandi", "Xabar hali yetib bormadi"],
+    "correctIndex": 0,
+    "gloss": "In Telegram, two check marks instead of one appear beside your message. What does it mean? — It has been read; one check means it reached the server."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Soch yoki tirnoqni kesganda nega ogʻrimaydi?",
+    "options": ["Kesiladigan qismida nervlar yoʻq", "Ular juda tez qayta oʻsadi", "Ularni teri himoya qiladi", "Ular suyakdan iborat"],
+    "correctIndex": 0,
+    "gloss": "Why doesn't cutting hair or nails hurt? — The part you cut has no nerves (it is dead keratin)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bankomat faqat 50 000 va 100 000 soʻmlik pul beradi. 350 000 soʻm yechsangiz, eng kamida nechta kupyura olasiz?",
+    "options": ["3", "4", "5", "7"],
+    "correctIndex": 1,
+    "gloss": "An ATM gives only 50,000 and 100,000 som notes. Withdrawing 350,000, what is the fewest notes you get? — 4: three of 100,000 and one of 50,000."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Quyosh botayotgan tomonga yuzlanib turibsiz. Oʻng qoʻlingiz qaysi tomonni koʻrsatadi?",
+    "options": ["Janubni", "Sharqni", "Gʻarbni", "Shimolni"],
+    "correctIndex": 3,
+    "gloss": "You face the setting sun. Which way does your right hand point? — North: facing west, north is on the right. South is the left-right mix-up trap."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tandirchi xamirni tandir devoriga yopishtirish uchun qoʻliga kiyib oladigan yumshoq yostiqcha nima deyiladi?",
+    "options": ["Kapgir", "Rapida", "Chekich", "Supra"],
+    "correctIndex": 1,
+    "gloss": "What is the soft cushion a baker puts on his hand to slap dough onto the tandoor wall? — Rapida. Chekich stamps the pattern on the bread, kapgir is a skimmer, supra a cloth for dough."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Sayt manzili «https» bilan boshlansa, oxiridagi «s» harfi nimani bildiradi?",
+    "options": ["Sayt pullik ekanini", "Saytga ulanish shifrlanganini", "Sayt davlatga tegishli ekanini", "Sahifa tez yuklanishini"],
+    "correctIndex": 1,
+    "gloss": "If a site's address starts with https, what does the final s mean? — The connection is encrypted ('secure')."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Barglariga tegilsa, bir zumda yigʻilib, shoxchasi osilib qoladigan, shuning uchun «uyatchan» deb ataladigan oʻsimlik qaysi?",
+    "options": ["Fikus", "Aloe", "Mimoza", "Begoniya"],
+    "correctIndex": 2,
+    "gloss": "Which plant, whose leaves fold up and droop the moment they are touched, is called 'shy'? — Mimosa (Mimosa pudica, uyatchan mimoza)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Bir paytlar Buxoroning minora va gumbazlarida son-sanoqsiz uya qurgani uchun shahar ramzlaridan biriga aylangan qush qaysi?",
+    "options": ["Kaptar", "Qaldirgʻoch", "Turna", "Laylak"],
+    "correctIndex": 3,
+    "gloss": "Which bird, once nesting in countless numbers on Bukhara's minarets and domes, became one of the city's symbols? — The stork (Buxoro laylagi)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbek kurashida «halol» bahosi nimani anglatadi?",
+    "options": ["Ogohlantirish", "Durang", "Toza gʻalaba", "Qoʻshimcha vaqt"],
+    "correctIndex": 2,
+    "gloss": "In Uzbek kurash wrestling, what does the score 'halol' mean? — A clean, outright win: the bout ends at once."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Telefon zaryadi har soatda 15 foizga kamaymoqda, hozir esa 100 foiz. Necha soatdan keyin zaryad 40 foiz qoladi?",
+    "options": ["3 soatdan", "4 soatdan", "5 soatdan", "6 soatdan"],
+    "correctIndex": 1,
+    "gloss": "A phone loses 15% charge an hour and is at 100%. After how many hours is it at 40%? — 4: 60 ÷ 15."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Qaysi oʻnlik nomi ichida birlik sonining nomi «yashiringan»?",
+    "options": ["Yigirma", "Qirq", "Sakson", "Ellik"],
+    "correctIndex": 2,
+    "gloss": "Which word for a multiple of ten hides the name of a single digit? — Sakson (80), from sakkiz (8) + on (10). Yigirma, qirq and ellik have no such link."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Ogʻzi qulogʻida» deyilgan odam qanday holatda boʻladi?",
+    "options": ["Juda xursand", "Juda och", "Juda charchagan", "Juda jahldor"],
+    "correctIndex": 0,
+    "gloss": "Someone 'with his mouth at his ears' is how? — Very happy (grinning ear to ear)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mahkam yopilgan shisha bankaning temir qopqogʻi ochilmasa, qopqoqni issiq suv ostida tutish maslahat beriladi. Nega bu yordam beradi?",
+    "options": ["Shisha issiqdan qisqaradi", "Temir qopqoq shishaga qaraganda koʻproq kengayadi", "Issiq suv qopqoq ostidagi zangni yuvadi", "Shisha issiqdan yumshab qoladi"],
+    "correctIndex": 1,
+    "gloss": "A jar's metal lid won't open; you hold it under hot water. Why does that help? — The metal lid expands more than the glass and loosens. Glass does not shrink when heated."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jinsi shimlar XIX asrda AQShda dastlab kimlar uchun ishlab chiqarilgan?",
+    "options": ["Ishchilar uchun", "Askarlar uchun", "Sportchilar uchun", "Talabalar uchun"],
+    "correctIndex": 0,
+    "gloss": "For whom were jeans first made in the 19th-century USA? — Workers: Levi Strauss and Jacob Davis patented riveted work trousers in 1873."
+  },
+  {
+    "level": 2,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Angry Birds» oʻyinida jahldor qushlar rogatkadan otilib, kimlarning qalʼalarini buzadi?",
+    "options": ["Mushuklarning", "Choʻchqalarning", "Ilonlarning", "Tulkilarning"],
+    "correctIndex": 1,
+    "gloss": "In 'Angry Birds', the birds are flung from a slingshot to wreck whose forts? — The pigs', who stole their eggs."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koʻp avtomobillarda yoqilgʻi bakining qopqogʻi qaysi tomonda ekanini asboblar paneli koʻrsatib turadi. Qanday qilib?",
+    "options": ["Spidometr rangi bilan", "Signal chiroqlari bilan", "Yoqilgʻi belgisi yonidagi strelka bilan", "Rul ustidagi yozuv bilan"],
+    "correctIndex": 2,
+    "gloss": "In many cars the dashboard shows which side the fuel cap is on. How? — The small arrow next to the fuel-pump icon."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Bir yoʻlakli besh qavatli uyda har qavatda 4 tadan xonadon bor, raqamlash birinchi qavatdan boshlanadi. 15-xonadon nechanchi qavatda?",
+    "options": ["2-qavatda", "3-qavatda", "4-qavatda", "5-qavatda"],
+    "correctIndex": 2,
+    "gloss": "A five-storey block with one entrance has 4 flats per floor, numbered from the ground floor. Which floor is flat 15 on? — The 4th (13–16)."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Doston qahramoni Goʻroʻgʻlining sodiq oti qanday atalgan?",
+    "options": ["Boychibor", "Gʻirot", "Duldul", "Raxsh"],
+    "correctIndex": 1,
+    "gloss": "What is the name of Gorogly's faithful horse? — Gʻirot. Boychibor is Alpomish's horse, Duldul Ali's, Rakhsh Rustam's."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Jeyms Kemeronning «Avatar» filmida voqealar qaysi osmon jismida kechadi?",
+    "options": ["Arrakis", "Solaris", "Pandora", "Tatuin"],
+    "correctIndex": 2,
+    "gloss": "Where does James Cameron's 'Avatar' take place? — Pandora. Arrakis is Dune's planet, Solaris Lem's, Tatooine Star Wars'."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi klavishli cholgʻuda klavish bosilganda ichkaridagi kichik bolgʻacha torga uriladi?",
+    "options": ["Klavesin", "Organ", "Akkordeon", "Fortepiano"],
+    "correctIndex": 3,
+    "gloss": "In which keyboard instrument does a key make a small hammer strike a string? — The piano. The harpsichord plucks its strings, the organ uses pipes, the accordion reeds."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Oʻzbekiston qaysi qoʻshnisi bilan eng qisqa chegaraga ega?",
+    "options": ["Afgʻoniston", "Tojikiston", "Qirgʻiziston", "Turkmaniston"],
+    "correctIndex": 0,
+    "gloss": "With which neighbour does Uzbekistan share its shortest border? — Afghanistan (~144 km along the Amu Darya); the others are over 1,000 km."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Toshkentdagi «kent» bilan Samarqand nomidagi «qand» bir ildizdan. Ikkalasining maʼnosi nima?",
+    "options": ["Shirinlik", "Shahar", "Bogʻ", "Daryo"],
+    "correctIndex": 1,
+    "gloss": "The 'kent' of Tashkent and the 'qand' of Samarkand share one root. What do both mean? — Town (Sogdian kanθ). 'Sweet' is the trap: qand is also Uzbek for sugar."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qattiq sovuqda telefon zaryadi odatdagidan tezroq tugaydi. Buning asosiy sababi nima?",
+    "options": ["Ekran sovuqda yorqinroq yonadi", "Telefon oʻzini isitishga quvvat sarflaydi", "Batareyadagi kimyoviy jarayonlar sekinlashadi", "Sovuq havo zaryadni soʻrib oladi"],
+    "correctIndex": 2,
+    "gloss": "In hard frost a phone's charge runs out faster. Why? — The battery's chemical reactions slow down, so it delivers less; it recovers when warm."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "3 ta choynak va 2 ta piyola 130 000 soʻm, 1 ta choynak va 2 ta piyola esa 50 000 soʻm turadi. Bitta choynak necha soʻm?",
+    "options": ["30 000 soʻm", "35 000 soʻm", "40 000 soʻm", "45 000 soʻm"],
+    "correctIndex": 2,
+    "gloss": "3 teapots + 2 cups = 130,000; 1 teapot + 2 cups = 50,000. One teapot? — 40,000: the difference, 80,000, is two teapots."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Imom al-Buxoriy islom olamida qaysi asari bilan mashhur?",
+    "options": ["Hadislar toʻplami bilan", "Qurʼon tafsiri bilan", "Tib qonunlari kitobi bilan", "Falakiyot jadvallari bilan"],
+    "correctIndex": 0,
+    "gloss": "What work is Imam al-Bukhari famous for in the Islamic world? — His hadith collection (al-Jamiʿ as-Sahih)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Qaysi ignabargli daraxt har kuzda ignalarini toʻkib yuboradi?",
+    "options": ["Qaragʻay", "Pixta", "Tilogʻoch", "Archa"],
+    "correctIndex": 2,
+    "gloss": "Which conifer sheds its needles every autumn? — The larch. Pine, fir and juniper keep theirs through winter."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Endi Uorxolning 1962-yildagi mashhur pop-art asarida 32 ta bir xil narsa yonma-yon tasvirlangan. Nima?",
+    "options": ["Pivo bankalari", "Gugurt qutilari", "Sigaret qutilari", "Shoʻrva konserva bankalari"],
+    "correctIndex": 3,
+    "gloss": "Andy Warhol's famous 1962 pop-art work shows 32 identical things side by side. What? — Soup cans (Campbell's Soup Cans), one for each flavour then sold."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Britaniya pochta markalarida mamlakat nomi yozilmaydi, xalqaro qoidalar ham bunga ruxsat beradi. Sababi nima?",
+    "options": ["Britaniya dunyodagi ilk pochta markasini chiqargan", "Butunjahon pochta ittifoqining qarorgohi Londonda", "Britaniya Butunjahon pochta ittifoqiga aʼzo emas", "Britaniya markalari faqat mamlakat ichida amal qiladi"],
+    "correctIndex": 0,
+    "gloss": "British stamps carry no country name, and international rules allow it. Why? — Britain issued the world's first stamp (Penny Black, 1840). The UPU is based in Bern, and Britain is a member."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Sirdaryo qaysi ikki daryoning qoʻshilishidan hosil boʻladi?",
+    "options": ["Vaxsh va Panj", "Chotqol va Pskom", "Norin va Qoradaryo", "Isfara va Soʻx"],
+    "correctIndex": 2,
+    "gloss": "Which two rivers join to form the Syr Darya? — The Naryn and the Kara Darya, in the Fergana Valley. Vakhsh and Panj form the Amu Darya, Chatkal and Pskem the Chirchiq."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "«Yulduzli tunlar» romanining muallifi kim?",
+    "options": ["Oybek", "Odil Yoqubov", "Abdulla Qahhor", "Pirimqul Qodirov"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novel 'Starry Nights'? — Pirimqul Qodirov (about Babur). Oybek ('Navoiy') and Odil Yoqubov ('Ulugʻbek xazinasi') also wrote famous historical novels."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Xalqaro kosmik stansiya ekipaji bir sutkada taxminan necha marta quyosh chiqishini koʻradi?",
+    "options": ["1", "4", "16", "48"],
+    "correctIndex": 2,
+    "gloss": "About how many sunrises does the ISS crew see in a day? — About 16: one orbit takes ~90 minutes."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Arabika kofesi nomiga qaramay, yovvoyi holda dastlab qaysi mamlakat togʻlarida oʻsgan?",
+    "options": ["Yaman", "Efiopiya", "Saudiya Arabistoni", "Braziliya"],
+    "correctIndex": 1,
+    "gloss": "Despite its name, in which country's highlands did arabica coffee first grow wild? — Ethiopia. Yemen, where it was first cultivated and traded, is the trap."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "«Zargar» va «zardoʻzi» soʻzlarini eslasangiz, Zarafshon daryosining nomi nimani anglatishini topasiz. Nimani?",
+    "options": ["Oltin sochuvchi", "Kumush oqim", "Suv taqsimlovchi", "Tosh yuvuvchi"],
+    "correctIndex": 0,
+    "gloss": "Think of zargar (goldsmith) and zardoʻzi (gold embroidery): what does the name Zarafshon mean? — 'Gold-scattering' (Persian zar 'gold' + afshon 'scattering')."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Saytlarda «robot emasligingizni» tekshiruvchi CAPTCHA testi nomida qaysi olimning familiyasi yashiringan?",
+    "options": ["Jon fon Neyman", "Klod Shennon", "Alan Tyuring", "Charlz Bebbij"],
+    "correctIndex": 2,
+    "gloss": "The name of CAPTCHA, the test that checks you are 'not a robot', hides which scientist's surname? — Alan Turing: Completely Automated Public Turing test to tell Computers and Humans Apart."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Somoniylar davri manbalarida hozirgi Toshkent oʻrnidagi shahar qanday nom bilan tilga olinadi?",
+    "options": ["Poykand", "Binkat", "Kat", "Afrosiyob"],
+    "correctIndex": 1,
+    "gloss": "In Samanid-era sources, what is the city on the site of today's Tashkent called? — Binkat. Poykand is near Bukhara, Kat in Khorezm, Afrosiyob old Samarkand."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Yer Quyosh atrofida taxminan qanday tezlikda harakatlanadi?",
+    "options": ["Soatiga 1 700 km", "Soatiga 30 000 km", "Soatiga 107 000 km", "Soatiga 1 000 000 km"],
+    "correctIndex": 2,
+    "gloss": "How fast does the Earth move around the Sun? — About 107,000 km/h (~30 km/s × 3600). 30,000 catches those who know '30' but not the unit; 1,700 km/h is the equator's spin."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kafkaning «Evrilish» qissasida bir kuni ertalab hasharotga aylanib uygʻongan Gregor Zamza qanday ishda ishlardi?",
+    "options": ["Sugʻurta idorasi xodimi", "Bank kassiri", "Kommivoyajyor", "Pochta tashuvchisi"],
+    "correctIndex": 2,
+    "gloss": "In Kafka's 'The Metamorphosis', what was Gregor Samsa's job before he woke up as an insect? — A travelling salesman (of cloth). Insurance clerk, Kafka's own job, is the trap."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Anʼanaga koʻra, Samarqanddagi Shohizinda ansambli kimning qabri atrofida shakllangan?",
+    "options": ["Qusam ibn Abbos", "Xoja Ahror", "Bahouddin Naqshband", "Imom Moturidiy"],
+    "correctIndex": 0,
+    "gloss": "By tradition, around whose grave did the Shah-i-Zinda ensemble in Samarkand grow? — Qusam ibn Abbas, the Prophet's cousin ('the living king'). The others have their own shrines elsewhere."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Panama kanali orqali Atlantika okeanidan Tinch okeaniga oʻtayotgan kema asosan qaysi yoʻnalishda suzadi?",
+    "options": ["Gʻarbga", "Shimoli-gʻarbga", "Janubi-sharqqa", "Janubi-gʻarbga"],
+    "correctIndex": 2,
+    "gloss": "A ship crossing the Panama Canal from the Atlantic to the Pacific mainly heads which way? — South-east: the isthmus curves so the Pacific end lies east of the Atlantic end."
   }
 ]

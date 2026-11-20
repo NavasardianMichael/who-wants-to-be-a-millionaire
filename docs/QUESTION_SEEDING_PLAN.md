@@ -61,10 +61,17 @@ drinks, the hummingbird flying backwards, Orwell's 1984, Vivaldi's Four Seasons,
 sequence, Tereshkova, bromine as the liquid non-metal) even after a self-check. Read every global
 question, at every level, not only level 1.
 
-Next candidates, if the queries show calls there: Classic hr, el, ar, ka, kk (every level-1
-question already shown, little recent spend); languages with no AI pool at all where a failed
-call already served English (sv, id, mr, ne); ranked L3–L5 for languages with ranked play
-(lv, ar, ro were at or near the bottom of their 5 level-3 questions).
+**Second round, Classic, same data** (the owner chose to go on without waiting for new numbers).
+These languages barely call Gemini yet; the order is where the next shortage will come from:
+
+| Pack | Codes | Why |
+|---|---|---|
+| 4 | hr · el · uz | hr, el: every L1–L4 question already shown, steady demand (125, 60 requests, last 18–19 Nov). uz: only 10 questions at L2–L5, L2 shown in full |
+| 5 | ar · ka · kk | every L1 question shown (ar also L3), demand 19–95 |
+| 6 | sv · id · mr | no AI pool, failed calls already served English |
+
+Waiting for the next measurement: fr and ro Classic (deep pools despite the most demand);
+ranked L3 for ar and ro (5 questions each, one player at or near the bottom), once runs return.
 
 Not worth seeding now: de, mn, sl, cs, vi, en, pt-BR, hy, es, ro Classic. Their AI pools (60–360 a
 level) were bought before 11 Nov and have needed almost nothing since.

@@ -748,5 +748,755 @@
     ],
     "correctIndex": 0,
     "gloss": "In which Italian city is the basilica of San Vitale, decorated with 6th-century Byzantine mosaics? — Ravenna."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Koja od ovih hrvatskih riječi nema nijedan samoglasnik?",
+    "options": [
+      "Krv",
+      "Kruh",
+      "Krug",
+      "Krava"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these Croatian words has no vowel letter? — Krv (blood): the syllabic r carries the syllable."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Dogovorili ste se za „pola devet”. Kad točno trebate doći?",
+    "options": [
+      "U 9.30",
+      "U 8.45",
+      "U 8.30",
+      "U 9.15"
+    ],
+    "correctIndex": 2,
+    "gloss": "Agreed on \"pola devet\" — when exactly? — 8:30: in Croatian \"half nine\" means half an hour before nine, not after."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Na kojoj se planini iznad Zagreba nalazi vrh Sljeme, do kojeg vodi žičara?",
+    "options": [
+      "Samoborsko gorje",
+      "Zrinska gora",
+      "Kalnik",
+      "Medvednica"
+    ],
+    "correctIndex": 3,
+    "gloss": "On which mountain above Zagreb is the peak Sljeme with its cable car? — Medvednica."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tanko razvučeno tijesto zagorskih štrukla tradicionalno se puni čime?",
+    "options": [
+      "Mljevenim mesom",
+      "Svježim kravljim sirom",
+      "Kiselim kupusom",
+      "Šunkom"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the thin dough of Zagorje štrukli traditionally filled with? — Fresh cow's cheese (cottage cheese)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kako se zove dalmatinska pjevačka družina koja bez glazbala, u više glasova, pjeva o moru i ljubavi?",
+    "options": [
+      "Tamburaši",
+      "Gradska glazba",
+      "Klapa",
+      "Mješoviti zbor"
+    ],
+    "correctIndex": 2,
+    "gloss": "What is the Dalmatian group that sings a cappella in several voices about the sea and love called? — A klapa."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako se zove internetska prijevara u kojoj lažna poruka, naizgled od banke, mami žrtvu da upiše lozinku ili podatke kartice?",
+    "options": [
+      "Roaming",
+      "Streaming",
+      "Tethering",
+      "Phishing"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the scam called where a fake message, apparently from a bank, lures you into entering a password or card details? — Phishing; the others are mobile/network terms."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji nordijski bog vlada gromom i nosi čekić Mjölnir?",
+    "options": [
+      "Thor",
+      "Odin",
+      "Loki",
+      "Baldr"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Norse god rules thunder and carries the hammer Mjölnir? — Thor."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kako se zove zeleni ogar iz animiranog filma iz 2001., koji samo želi mir u svojoj močvari?",
+    "options": [
+      "Grinch",
+      "Shrek",
+      "Gru",
+      "Mike Wazowski"
+    ],
+    "correctIndex": 1,
+    "gloss": "What is the green ogre of the 2001 animated film who just wants peace in his swamp called? — Shrek; Grinch and Mike Wazowski are green but not ogres, Gru is not green."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "U kojoj se mobilnoj igri ptice praćkom ispaljuju na zelene svinje koje su im ukrale jaja?",
+    "options": [
+      "Fruit Ninja",
+      "Candy Crush",
+      "Subway Surfers",
+      "Angry Birds"
+    ],
+    "correctIndex": 3,
+    "gloss": "In which mobile game are birds slung at green pigs that stole their eggs? — Angry Birds."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Za pobjedu u nogometnoj ligi dobivaju se 3 boda, za neriješeno 1. Momčad je odigrala pet utakmica: dvije pobjede, dva neriješena ishoda i jedan poraz. Koliko je bodova osvojila?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "gloss": "Win = 3, draw = 1, five games: 2 wins, 2 draws, 1 loss. Points? — 2×3 + 2×1 = 8."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji od ovih plodova, koje većinom jedemo poput orašastih, sazrijeva pod zemljom?",
+    "options": [
+      "Kikiriki",
+      "Lješnjak",
+      "Badem",
+      "Pistacija"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these nut-like foods ripens underground? — The peanut (a legume whose pods push into the soil); hazelnuts, almonds and pistachios grow on trees and shrubs."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Mobitel ima 20 % baterije i svaki sat potroši 5 % cijelog kapaciteta. Za koliko će se sati isprazniti?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1,
+    "gloss": "Phone at 20% loses 5 percentage points an hour — 20 / 5 = 4 hours."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kako se u Hrvatskoj zovu oslikana i ukrašena uskršnja jaja?",
+    "options": [
+      "Pince",
+      "Fritule",
+      "Uštipci",
+      "Pisanice"
+    ],
+    "correctIndex": 3,
+    "gloss": "What are the painted and decorated Easter eggs called in Croatia? — Pisanice; the others are Dalmatian baked goods."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Što na ambalaži znači simbol od triju strelica koje čine trokut?",
+    "options": [
+      "Proizvod je prikladan za mikrovalnu",
+      "Proizvod ne sadrži konzervanse",
+      "Ambalaža se može reciklirati",
+      "Ambalaža je prikladna za dodir s hranom"
+    ],
+    "correctIndex": 2,
+    "gloss": "What does the symbol of three arrows forming a triangle on packaging mean? — The packaging can be recycled (the Mobius loop); the glass-and-fork symbol is the one for food contact."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Zašto se zimi na ceste posipa sol?",
+    "options": [
+      "Zagrijava asfalt",
+      "Snižava ledište vode, pa se led topi",
+      "Upija snijeg poput spužve",
+      "Povećava trenje kotača"
+    ],
+    "correctIndex": 1,
+    "gloss": "Why is salt spread on roads in winter? — It lowers the freezing point of water, so ice melts at lower temperatures."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "U kojem se dalmatinskom gradu na rivi nalaze Morske orgulje, instrument koji zvuči zahvaljujući valovima?",
+    "options": [
+      "Zadar",
+      "Šibenik",
+      "Trogir",
+      "Makarska"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which Dalmatian city does the Sea Organ, an instrument played by waves, sit on the waterfront? — Zadar."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Karl May izmislio je poglavicu Apača, kojeg je u filmovima snimanim 1960-ih na Plitvicama i uz Zrmanju glumio Francuz Pierre Brice. Kako se zove?",
+    "options": [
+      "Old Shatterhand",
+      "Unkas",
+      "Old Surehand",
+      "Winnetou"
+    ],
+    "correctIndex": 3,
+    "gloss": "Karl May's Apache chief played by Pierre Brice in 1960s films shot at Plitvice and on the Zrmanja — Winnetou; Old Shatterhand and Old Surehand are white heroes, Unkas is a Mohican."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je bog groma i munje bio vrhovno božanstvo u slavenskoj mitologiji?",
+    "options": [
+      "Veles",
+      "Perun",
+      "Svarog",
+      "Dažbog"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which god of thunder and lightning was the supreme deity in Slavic mythology? — Perun."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je od ovih izuma patentirao Zagrepčanin Slavoljub Penkala, čije je prezime u Zagrebu postalo riječ za pisaljku?",
+    "options": [
+      "Kemijsku olovku",
+      "Pisaći stroj",
+      "Mehaničku olovku",
+      "Šestar"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these inventions did Zagreb's Slavoljub Penkala, whose surname became a word for a pen, patent? — The mechanical pencil (the ballpoint was Bíró's)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "U kojem su sportu hrvatski reprezentativci osvojili olimpijsko zlato 1996. u Atlanti i 2004. u Ateni?",
+    "options": [
+      "Rukomet",
+      "Vaterpolo",
+      "Košarka",
+      "Nogomet"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which sport did Croatia win Olympic gold in Atlanta 1996 and Athens 2004? — Handball."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Tri od ovih riječi izvedene su od riječi „ruka”. Koja nije?",
+    "options": [
+      "Ručnik",
+      "Rukomet",
+      "Rukavica",
+      "Ruševina"
+    ],
+    "correctIndex": 3,
+    "gloss": "Three words derive from \"ruka\" (hand); which does not? — Ruševina (ruin) comes from ruševiti (to collapse)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Pod imenom Lewis Carroll napisao je „Alisu u zemlji čudesa” čovjek koji je na Oxfordu predavao što?",
+    "options": [
+      "Glazbu",
+      "Teologiju",
+      "Matematiku",
+      "Medicinu"
+    ],
+    "correctIndex": 2,
+    "gloss": "Under the name Lewis Carroll he wrote \"Alice in Wonderland\"; what did he teach at Oxford? — Mathematics (Charles Dodgson was a mathematics lecturer at Christ Church)."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Na jogurtu piše „najbolje upotrijebiti do”. Što taj datum znači?",
+    "options": [
+      "Nakon tog dana jogurt je opasan za zdravlje",
+      "Do tog dana zadržava najbolju kvalitetu, poslije je često još jestiv",
+      "Tog je dana jogurt proizveden",
+      "Do tog dana ga trgovina smije prodavati"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Best before\" on yoghurt — what does the date mean? — Quality is at its best until then, afterwards it is often still edible (unlike \"use by\", which is about safety)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Lukovice kojeg su cvijeta u Nizozemskoj 1630-ih, u doba burzovne ludnice, dostizale cijenu gradske kuće?",
+    "options": [
+      "Ljiljana",
+      "Zumbula",
+      "Tulipana",
+      "Narcisa"
+    ],
+    "correctIndex": 2,
+    "gloss": "Bulbs of which flower reached the price of a town house in the Netherlands in the 1630s speculative mania? — The tulip."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Što je „kolačić” (cookie) na internetskoj stranici?",
+    "options": [
+      "Mala datoteka u pregledniku koja pamti podatke o posjetu",
+      "Računalni virus skriven u slikama",
+      "Program koji ubrzava preglednik",
+      "Zaštita od oglasa"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is a \"cookie\" on a website? — A small file in the browser that remembers data about the visit."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Klavir se izvorno zvao „pianoforte”, talijanski za „tiho-glasno”. Što je taj novi instrument mogao, a čembalo nije?",
+    "options": [
+      "Svirati dva tona istodobno",
+      "Imati više od jedne tipkovnice",
+      "Mijenjati boju tona registrima",
+      "Svirati glasnije ili tiše prema snazi dodira"
+    ],
+    "correctIndex": 3,
+    "gloss": "The piano began as \"pianoforte\" (soft-loud). What could it do that the harpsichord could not? — Vary loudness by the force of touch."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koliko komada ima „tucet tuceta”?",
+    "options": [
+      "24",
+      "144",
+      "120",
+      "156"
+    ],
+    "correctIndex": 1,
+    "gloss": "How many pieces in \"a dozen dozen\"? — 12 × 12 = 144."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koji je južnokorejski film 2020. postao prvi film na neengleskom jeziku s Oscarom za najbolji film?",
+    "options": [
+      "Parazit",
+      "Roma",
+      "Ljubav",
+      "Život je lijep"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which South Korean film in 2020 became the first non-English-language Best Picture winner? — Parasite; Roma, Amour and Life Is Beautiful were only nominated."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Janica Kostelić osvojila je 2002. olimpijsko zlato u slalomu, kombinaciji i kojoj trećoj disciplini?",
+    "options": [
+      "Spustu",
+      "Veleslalomu",
+      "Superveleslalomu",
+      "Skijaškom trčanju"
+    ],
+    "correctIndex": 1,
+    "gloss": "Janica Kostelić won Olympic gold in 2002 in slalom, combined and which third event? — Giant slalom (she took silver in super-G)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Između munje i groma prođu tri sekunde. Koliko je otprilike daleko oluja?",
+    "options": [
+      "Oko 100 metara",
+      "Oko 3 kilometra",
+      "Oko jedan kilometar",
+      "Oko 10 kilometara"
+    ],
+    "correctIndex": 2,
+    "gloss": "Three seconds between lightning and thunder — how far is the storm? — About 1 km: sound travels roughly 340 m/s, light is instant."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ivan Generalić, začetnik hrvatske naivne umjetnosti, živio je i slikao u podravskom selu koje je dalo ime cijeloj slikarskoj školi. Kojem?",
+    "options": [
+      "Hlebine",
+      "Molve",
+      "Legrad",
+      "Novigrad Podravski"
+    ],
+    "correctIndex": 0,
+    "gloss": "Ivan Generalić, founder of Croatian naive art, lived in a Podravina village that gave its name to the whole school — Hlebine."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koja velika ptica grabljivica gnijezdi na liticama otoka Cresa, gdje u Belom postoji centar posvećen njezinoj zaštiti?",
+    "options": [
+      "Suri orao",
+      "Sokol selac",
+      "Škanjac",
+      "Bjeloglavi sup"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which large bird of prey nests on the cliffs of Cres, with a conservation centre in Beli? — The griffon vulture."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Na sondama Voyager, lansiranima 1977., nalazi se poruka za moguće izvanzemaljce sa zvukovima i glazbom Zemlje. Na kojem je mediju snimljena?",
+    "options": [
+      "Magnetskoj vrpci",
+      "Pozlaćenoj gramofonskoj ploči",
+      "Optičkom disku (CD)",
+      "Filmskoj vrpci"
+    ],
+    "correctIndex": 1,
+    "gloss": "On the Voyager probes launched in 1977 is a message for possible aliens with sounds and music of Earth. On what medium? — A gold-plated phonograph record (the Golden Record)."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Datoteka od 100 megabajta preuzima se internetom brzinom od 100 megabita u sekundi. Otprilike koliko to traje?",
+    "options": [
+      "1 sekundu",
+      "10 sekundi",
+      "100 sekundi",
+      "8 sekundi"
+    ],
+    "correctIndex": 3,
+    "gloss": "100 megabytes at 100 megabits per second — how long? — 800 megabits / 100 = 8 s (a byte is 8 bits)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Kapari, koji se dodaju salatama i umacima, zapravo su što?",
+    "options": [
+      "Neotvoreni cvjetni pupoljci",
+      "Nezrele bobice",
+      "Sjemenke",
+      "Mladi listovi"
+    ],
+    "correctIndex": 0,
+    "gloss": "Capers, added to salads and sauces, are actually what? — Unopened flower buds (of the caper bush, Capparis spinosa)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Biljka koja daje vaniliju, jedan od najskupljih začina, srodnica je kojeg cvijeta?",
+    "options": [
+      "Ruže",
+      "Ljiljana",
+      "Orhideje",
+      "Tulipana"
+    ],
+    "correctIndex": 2,
+    "gloss": "The plant that gives vanilla, one of the priciest spices, is a relative of which flower? — The orchid (vanilla is an orchid)."
+  },
+  {
+    "level": 3,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji se otok ponosi Moreškom, plesom s pravim mačevima u kojem se sukobljavaju vitezovi crnog i bijelog kralja?",
+    "options": [
+      "Hvar",
+      "Korčula",
+      "Vis",
+      "Mljet"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which island is proud of the Moreška, a sword dance between the knights of a black and a white king? — Korčula."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Pizza promjera 40 cm ima koliko puta veću površinu od pizze promjera 20 cm?",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "4"
+    ],
+    "correctIndex": 3,
+    "gloss": "A 40 cm pizza versus a 20 cm one — how many times the area? — Area grows with the square of the diameter: 2² = 4."
+  },
+  {
+    "level": 4,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koliko najmanje ljudi mora biti u prostoriji da je vjerojatnije nego ne da dvoje imaju rođendan istoga dana?",
+    "options": [
+      "57",
+      "183",
+      "23",
+      "365"
+    ],
+    "correctIndex": 2,
+    "gloss": "Minimum people for a better-than-even chance that two share a birthday? — 23 (the birthday paradox; 183 is the tempting \"half of 365\")."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Astronauti na Međunarodnoj svemirskoj postaji lebde. Zašto?",
+    "options": [
+      "Zajedno s postajom neprestano slobodno padaju oko Zemlje",
+      "Na toj visini nema Zemljine gravitacije",
+      "Postaja ih privlači jače od Zemlje",
+      "Zrak u postaji ih čini lakšima"
+    ],
+    "correctIndex": 0,
+    "gloss": "Why do astronauts on the ISS float? — They are in continuous free fall around Earth together with the station; gravity there is still about 90% of that on the surface."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koliko je vrijednost broja 0,999… (devetke se nastavljaju u beskonačnost)?",
+    "options": [
+      "Manje od 1, ali beskonačno malo",
+      "Nije određena",
+      "Ovisi o načinu zapisa",
+      "Točno 1"
+    ],
+    "correctIndex": 3,
+    "gloss": "The value of 0.999… with endless nines? — Exactly 1 (e.g. 1/3 = 0.333…, so 3 × 1/3 = 0.999… = 1)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Koji je od ovih gradova najsjevernije smješten, dakle na najvećoj zemljopisnoj širini?",
+    "options": [
+      "New York",
+      "Rim",
+      "Madrid",
+      "Peking"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which of these cities lies furthest north? — Rome (41.9°N) vs New York (40.7°), Madrid (40.4°), Beijing (39.9°)."
+  },
+  {
+    "level": 4,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tko je u 15. stoljeću preuzeo gradnju šibenske katedrale sv. Jakova i za nju oblikovao kameni friz sa 71 licem?",
+    "options": [
+      "Nikola Firentinac",
+      "Andrija Alešija",
+      "Juraj Dalmatinac",
+      "Ivan Duknović"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who took over building Šibenik's St James cathedral in the 15th century and made its stone frieze of 71 faces? — Juraj Dalmatinac; Nikola Firentinac completed the cathedral later."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ivan Vučetić, iseljenik s otoka Hvara, uspio je 1892. u Argentini među prvima razriješiti ubojstvo na temelju koje vrste traga?",
+    "options": [
+      "Otisaka prstiju",
+      "Otisaka stopala",
+      "Krvne grupe",
+      "Tragova zubi"
+    ],
+    "correctIndex": 0,
+    "gloss": "On what kind of trace did Ivan Vučetić, an emigrant from Hvar, solve one of the first murders in Argentina in 1892? — Fingerprints."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Tko je 1844. dopunio Gundulićev spjev „Osman” dvama izgubljenim pjevanjima, XIV. i XV.?",
+    "options": [
+      "Petar Preradović",
+      "Ivan Mažuranić",
+      "August Šenoa",
+      "Ljudevit Gaj"
+    ],
+    "correctIndex": 1,
+    "gloss": "Who supplied the two lost cantos (XIV and XV) of Gundulić's \"Osman\" in 1844? — Ivan Mažuranić."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Eulerov identitet, često proglašavan najljepšom formulom matematike, povezuje pet temeljnih brojeva: 0, 1, e, i i koji još?",
+    "options": [
+      "φ",
+      "√2",
+      "ln 2",
+      "π"
+    ],
+    "correctIndex": 3,
+    "gloss": "Euler's identity e^(iπ) + 1 = 0 links 0, 1, e, i and which fifth number? — π."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Koji je pravni spomenik iz 1288., sačuvan u glagoljskom prijepisu, jedan od najstarijih zakonika pisanih narodnim hrvatskim jezikom?",
+    "options": [
+      "Poljički statut",
+      "Vinodolski zakonik",
+      "Statut grada Korčule",
+      "Dubrovački statut"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which legal monument from 1288, preserved in a Glagolitic copy, is among the oldest law codes in vernacular Croatian? — The Vinodol Law Code."
+  },
+  {
+    "level": 5,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Kalifornijski zinfandel DNK-analizom je dokazano istovjetan kojoj staroj dalmatinskoj sorti vinove loze?",
+    "options": [
+      "Plavac mali",
+      "Pošip",
+      "Crljenak kaštelanski",
+      "Babić"
+    ],
+    "correctIndex": 2,
+    "gloss": "DNA analysis showed Californian Zinfandel to be identical to which old Dalmatian grape variety? — Crljenak kaštelanski (Plavac mali is its offspring)."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Koja je biljka, poznata samo iz fosila starih milijune godina, 1994. neočekivano pronađena živa u kanjonu zapadno od Sydneyja?",
+    "options": [
+      "Wollemijski bor",
+      "Metasekvoja",
+      "Ginko",
+      "Cikas"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which plant, known only from fossils millions of years old, was found alive in 1994 in a canyon west of Sydney? — The Wollemi pine (the dawn redwood was rediscovered in China in the 1940s)."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Tko je naslikao triptih „Vrt zemaljskih užitaka”?",
+    "options": [
+      "Pieter Bruegel Stariji",
+      "Jan van Eyck",
+      "Hieronymus Bosch",
+      "Albrecht Dürer"
+    ],
+    "correctIndex": 2,
+    "gloss": "Who painted the triptych \"The Garden of Earthly Delights\"? — Hieronymus Bosch."
   }
 ]

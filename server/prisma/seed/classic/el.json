@@ -748,5 +748,755 @@
     ],
     "correctIndex": 2,
     "gloss": "Which of these halogens is named from the Greek word for green? — Chlorine (chlōrós); bromine is from \"stench\", iodine from \"violet\"."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποια πόλη της Ελλάδας αποκαλείται «συμπρωτεύουσα»;",
+    "options": [
+      "Πάτρα",
+      "Θεσσαλονίκη",
+      "Ηράκλειο",
+      "Λάρισα"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Greek city is called the \"co-capital\"? — Thessaloniki, the second city of Greece."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο γράμμα του ελληνικού αλφαβήτου γράφεται με άλλη μορφή όταν βρίσκεται στο τέλος μιας λέξης;",
+    "options": [
+      "Το νι",
+      "Το ρο",
+      "Το σίγμα",
+      "Το ύψιλον"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which Greek letter is written in a different form at the end of a word? — Sigma (σ becomes ς)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο είναι το βασικό υλικό του ταραμά, της βάσης της ταραμοσαλάτας;",
+    "options": [
+      "Αλατισμένα αυγά ψαριού",
+      "Τριμμένες γαρίδες",
+      "Παστό τυρί",
+      "Ψιλοκομμένο χταπόδι"
+    ],
+    "correctIndex": 0,
+    "gloss": "What is the main ingredient of taramas, the base of taramosalata? — Salted fish roe."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Πώς λέγεται ο αφρός που σχηματίζεται στην επιφάνεια ενός ελληνικού καφέ;",
+    "options": [
+      "Σαντιγί",
+      "Μαρέγκα",
+      "Πραλίνα",
+      "Καϊμάκι"
+    ],
+    "correctIndex": 3,
+    "gloss": "What is the foam on top of a Greek coffee called? — Kaimaki."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο από αυτά τα ονόματα γιορτάζει στις 15 Αυγούστου, ημέρα της Κοίμησης της Θεοτόκου;",
+    "options": [
+      "Ελένη",
+      "Κατερίνα",
+      "Μαρία",
+      "Σοφία"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which of these names has its name day on 15 August, the Dormition of the Virgin? — Maria (Helen is 21 May, Katerina 25 Nov, Sofia 17 Sept)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο από αυτά πρέπει να σε κάνει να υποψιαστείς ότι ένα email από «την τράπεζά σου» είναι απάτη;",
+    "options": [
+      "Σου ζητά να πατήσεις επειγόντως έναν σύνδεσμο και να δώσεις κωδικούς",
+      "Έχει υπογραφή και ημερομηνία στο τέλος",
+      "Στάλθηκε σε εργάσιμη ημέρα και ώρα",
+      "Αναφέρει το όνομα της τράπεζας στην αρχή"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which of these should make you suspect that an email from \"your bank\" is a scam? — It urgently asks you to click a link and enter your codes (phishing)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Τι σημαίνουν τα δύο μπλε τικ δίπλα σε ένα μήνυμα στο WhatsApp;",
+    "options": [
+      "Ότι στάλθηκε αλλά δεν παραδόθηκε",
+      "Ότι ο παραλήπτης το διάβασε",
+      "Ότι το μήνυμα διαγράφηκε",
+      "Ότι ο παραλήπτης σε έχει μπλοκάρει"
+    ],
+    "correctIndex": 1,
+    "gloss": "What do the two blue ticks next to a WhatsApp message mean? — The recipient has read it."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Η μπαταρία του κινητού σου είναι στο 15% και χάνει 1% κάθε 4 λεπτά. Για πόση ώρα περίπου θα αντέξει;",
+    "options": [
+      "20 λεπτά",
+      "30 λεπτά",
+      "45 λεπτά",
+      "1 ώρα"
+    ],
+    "correctIndex": 3,
+    "gloss": "Your phone battery is at 15% and loses 1% every 4 minutes. How long will it last? — About 1 hour: 15 × 4 = 60 minutes."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Ένα πλοίο φεύγει από το λιμάνι στις 21:30 και το ταξίδι διαρκεί επτά ώρες. Τι ώρα φτάνει;",
+    "options": [
+      "03:30",
+      "04:30",
+      "05:30",
+      "14:30"
+    ],
+    "correctIndex": 1,
+    "gloss": "A ship leaves port at 21:30 and the trip takes seven hours. When does it arrive? — 04:30 the next morning (21:30 + 2:30 = midnight, + 4:30)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Το λουλούδι «ηλιοτρόπιο» παίρνει το όνομά του από τον «ήλιο» και το ρήμα «τρέπω», δηλαδή «στρέφω». Τι κάνει, λοιπόν, κατά λέξη;",
+    "options": [
+      "Στρέφεται προς τον ήλιο",
+      "Κρύβεται από τον ήλιο",
+      "Αντέχει στον ήλιο",
+      "Μαραίνεται στον ήλιο"
+    ],
+    "correctIndex": 0,
+    "gloss": "The flower name \"iliotropio\" comes from \"sun\" and \"trepo\" (to turn). What does it literally do? — It turns toward the sun."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Τι δείχνει ο δείκτης SPF στη συσκευασία ενός αντηλιακού;",
+    "options": [
+      "Πόσο προστατεύει το δέρμα από το κάψιμο του ήλιου",
+      "Πόσες ώρες μένει στο δέρμα χωρίς να χρειαστεί ξανά",
+      "Πόσο αντέχει στο νερό της θάλασσας",
+      "Πόσο ενυδατώνει το δέρμα"
+    ],
+    "correctIndex": 0,
+    "gloss": "What does the SPF number on a sunscreen show? — How much it protects the skin from sunburn (UVB); it is not a number of hours."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Σε ποια μονάδα μετριέται η ένταση του ήχου, για παράδειγμα της μουσικής σε ένα κλαμπ;",
+    "options": [
+      "Χερτζ",
+      "Ντεσιμπέλ",
+      "Βολτ",
+      "Λουξ"
+    ],
+    "correctIndex": 1,
+    "gloss": "In which unit is sound loudness measured, for example of the music in a club? — Decibels (hertz measure pitch/frequency, lux light)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Όταν ανακοινώνεται το σκορ σε έναν αγώνα τένις, τι σημαίνει η λέξη «λαβ» (love);",
+    "options": [
+      "Ένας πόντος",
+      "Ισοπαλία",
+      "Μηδέν",
+      "Λάθος"
+    ],
+    "correctIndex": 2,
+    "gloss": "In a tennis score, what does \"love\" mean? — Zero."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Από ποιο όσπριο φτιάχνεται κυρίως ο χούμους;",
+    "options": [
+      "Φακές",
+      "Φασόλια",
+      "Κουκιά",
+      "Ρεβίθια"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which legume is hummus mainly made from? — Chickpeas."
+  },
+  {
+    "level": 1,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Σε ποιο είδος θεάτρου πρωταγωνιστεί ο Καραγκιόζης;",
+    "options": [
+      "Στο θέατρο σκιών",
+      "Στο κουκλοθέατρο με νήματα",
+      "Στο θέατρο δρόμου",
+      "Στην παντομίμα"
+    ],
+    "correctIndex": 0,
+    "gloss": "In which kind of theatre does Karagiozis star? — Shadow theatre (a screen, a light and cut-out figures)."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος προπονητής οδήγησε την εθνική ομάδα της Ελλάδας στην κατάκτηση του Euro 2004;",
+    "options": [
+      "Φερνάντο Σάντος",
+      "Άγγελος Αναστασιάδης",
+      "Γιόακιμ Λεβ",
+      "Ότο Ρεχάγκελ"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which coach led Greece to the Euro 2004 title? — Otto Rehhagel, a German."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Πώς ανάβει η Ολυμπιακή φλόγα στην Αρχαία Ολυμπία;",
+    "options": [
+      "Με ηλιακές ακτίνες που συγκεντρώνει ένας κοίλος καθρέφτης",
+      "Με ένα σπίρτο που ανάβει η πρωθιέρεια",
+      "Με φωτιά που φέρνουν από την κορυφή του Ολύμπου",
+      "Με έναν ηλεκτρικό σπινθήρα"
+    ],
+    "correctIndex": 0,
+    "gloss": "How is the Olympic flame lit at Ancient Olympia? — With sunlight focused by a concave mirror."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο φαράγγι της Κρήτης διασχίζουν οι πεζοπόροι ως τη θάλασσα, στην Αγία Ρουμέλη;",
+    "options": [
+      "Ίμβρου",
+      "Σαμαριά",
+      "Κουρταλιώτικο",
+      "Ρούβα"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Cretan gorge do hikers walk down to the sea at Agia Roumeli? — Samaria (Imbros ends at Komitades)."
+  },
+  {
+    "level": 2,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Πότε εμφανίζονται, κατά τη λαϊκή παράδοση, οι καλικάντζαροι;",
+    "options": [
+      "Την Καθαρά Δευτέρα",
+      "Τη νύχτα της Ανάστασης",
+      "Από τα Χριστούγεννα ως τα Θεοφάνεια",
+      "Την παραμονή του Δεκαπενταύγουστου"
+    ],
+    "correctIndex": 2,
+    "gloss": "When do the kallikantzaroi appear in folk tradition? — In the twelve days from Christmas to Epiphany."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Στο τάβλι ρίχνεις τα ζάρια και φέρνεις «εξ-εξ», δηλαδή διπλή εξάρα. Πόσα βήματα συνολικά μπορείς να παίξεις σε αυτή τη ρίψη;",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "correctIndex": 2,
+    "gloss": "In backgammon you roll double sixes. How many pips can you move in all? — 24: a double is played four times (4 × 6)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος ποιητής έγραψε την «Ιθάκη», που αρχίζει «Σαν βγεις στον πηγαιμό για την Ιθάκη»;",
+    "options": [
+      "Γιώργος Σεφέρης",
+      "Άγγελος Σικελιανός",
+      "Κωστής Παλαμάς",
+      "Κωνσταντίνος Καβάφης"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which poet wrote \"Ithaka\", beginning \"As you set out for Ithaka\"? — Constantine Cavafy."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια τεχνική χρησιμοποιεί συχνά ο Μπάνκσι, ο διάσημος καλλιτέχνης του δρόμου, για να ζωγραφίζει γρήγορα στους τοίχους;",
+    "options": [
+      "Φρέσκο",
+      "Ψηφιδωτό",
+      "Στένσιλ",
+      "Ακουαρέλα"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which technique does Banksy, the famous street artist, often use to paint quickly on walls? — Stencils."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Η λέξη «δεινόσαυρος» είναι ελληνική και φτιάχτηκε από το «δεινός» και τη «σαύρα». Τι σημαίνει κατά λέξη;",
+    "options": [
+      "Γιγάντια σαύρα",
+      "Φοβερή σαύρα",
+      "Αρχαία σαύρα",
+      "Σαύρα της γης"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Dinosaur\" is Greek: \"deinos\" + \"sauros\". What does it literally mean? — Terrible (fearsome) lizard, Richard Owen's coinage of 1842."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Σε ένα τουρνουά αποκλεισμού, όπου όποιος χάνει αποχωρεί, συμμετέχουν 16 ομάδες. Πόσοι αγώνες θα παιχτούν συνολικά μέχρι να βρεθεί ο νικητής;",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "31"
+    ],
+    "correctIndex": 1,
+    "gloss": "In a 16-team knockout tournament, how many matches in all? — 15: every match eliminates exactly one team and 15 must go (8 + 4 + 2 + 1)."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Στον ιππόκαμπο, ποιος κρατά τα αυγά σε μια ειδική θήκη και γεννά τελικά τα μικρά;",
+    "options": [
+      "Η μητέρα",
+      "Και οι δύο γονείς εναλλάξ",
+      "Κανείς· τα αυγά μένουν στην άμμο",
+      "Ο πατέρας"
+    ],
+    "correctIndex": 3,
+    "gloss": "In the seahorse, who carries the eggs in a brood pouch and finally gives birth? — The father (male)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιο λειτουργικό σύστημα, με σήμα έναν πιγκουίνο, είναι ανοιχτού κώδικα;",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "iOS"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which operating system, with a penguin as its mascot, is open source? — Linux (mascot Tux)."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια ταινία κινουμένων σχεδίων του 1937 ήταν η πρώτη μεγάλου μήκους της Ντίσνεϊ;",
+    "options": [
+      "Πινόκιο",
+      "Βαμπί",
+      "Χιονάτη και οι εφτά νάνοι",
+      "Ντάμπο"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which 1937 animated film was Disney's first feature-length one? — Snow White and the Seven Dwarfs (Pinocchio 1940, Dumbo 1941, Bambi 1942)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια μονάδα της δύναμης πήρε το όνομά της από τον φυσικό που διατύπωσε τον νόμο της παγκόσμιας έλξης;",
+    "options": [
+      "Τζάουλ",
+      "Νιούτον",
+      "Βατ",
+      "Πασκάλ"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which unit of force is named after the physicist who formulated universal gravitation? — The newton."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο είναι το τρίτο μεγαλύτερο νησί της Μεσογείου, μετά τη Σικελία και τη Σαρδηνία;",
+    "options": [
+      "Κρήτη",
+      "Κορσική",
+      "Μαγιόρκα",
+      "Κύπρος"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which is the third largest Mediterranean island after Sicily and Sardinia? — Cyprus (about 9,250 km²; Corsica 8,680, Crete 8,336)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Η λέξη «άτομο» είναι ελληνική και τη χρησιμοποίησε ο Δημόκριτος για το ελάχιστο κομμάτι της ύλης. Τι σημαίνει κατά λέξη;",
+    "options": [
+      "Αυτό που δεν κόβεται",
+      "Αυτό που δεν φαίνεται",
+      "Αυτό που δεν φθείρεται",
+      "Αυτό που δεν κινείται"
+    ],
+    "correctIndex": 0,
+    "gloss": "\"Atom\" is Greek, used by Democritus for the smallest piece of matter. Literal meaning? — Uncuttable (a- + temno, to cut)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Η λέξη «ηλεκτρισμός» προέρχεται από το «ήλεκτρον», ένα υλικό που, όταν το τρίψουμε, έλκει ελαφρά αντικείμενα. Ποιο ήταν αυτό;",
+    "options": [
+      "Οψιανός",
+      "Κεχριμπάρι",
+      "Ελεφαντοστούν",
+      "Μαργαριτάρι"
+    ],
+    "correctIndex": 1,
+    "gloss": "\"Electricity\" comes from \"elektron\", a material which attracts light objects when rubbed. Which? — Amber (the Greeks noticed static charge)."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Για τους αρχαίους Έλληνες, οι πλανήτες ξεχώριζαν από τα άστρα επειδή άλλαζαν θέση στον ουρανό. Τι σημαίνει κατά λέξη η λέξη «πλανήτης»;",
+    "options": [
+      "Λαμπερός",
+      "Μακρινός",
+      "Περιπλανώμενος",
+      "Στρογγυλός"
+    ],
+    "correctIndex": 2,
+    "gloss": "To the ancient Greeks, planets differed from the stars because they changed position in the sky. What does \"planitis\" literally mean? — Wanderer."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιο δέντρο δίνει τη ρητίνη που αρωματίζει παραδοσιακά τη ρετσίνα;",
+    "options": [
+      "Έλατο",
+      "Πεύκο",
+      "Κυπαρίσσι",
+      "Ελιά"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which tree gives the resin that traditionally flavours retsina? — The (Aleppo) pine."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ο Μίκης Θεοδωράκης μελοποίησε το 1960 τον «Επιτάφιο». Ποιος ποιητής έγραψε το ποίημα;",
+    "options": [
+      "Γιάννης Ρίτσος",
+      "Οδυσσέας Ελύτης",
+      "Γιώργος Σεφέρης",
+      "Νίκος Γκάτσος"
+    ],
+    "correctIndex": 0,
+    "gloss": "Theodorakis set \"Epitaphios\" to music in 1960. Which poet wrote the poem? — Yannis Ritsos."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Το ημερολόγιό μας δεν έχει έτος μηδέν: μετά το 1 π.Χ. έρχεται κατευθείαν το 1 μ.Χ. Πόσα χρόνια μεσολαβούν από το 10 π.Χ. έως το 10 μ.Χ.;",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correctIndex": 1,
+    "gloss": "The calendar has no year 0: 1 BC is followed by AD 1. How many years from 10 BC to AD 10? — 19 (9 + 1 + 9)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Πόσοι είναι οι πρώτοι αριθμοί ανάμεσα στο 1 και το 20;",
+    "options": [
+      "6",
+      "7",
+      "9",
+      "8"
+    ],
+    "correctIndex": 3,
+    "gloss": "How many prime numbers are between 1 and 20? — 8: 2, 3, 5, 7, 11, 13, 17, 19."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος πολιτισμός της Νότιας Αμερικής κρατούσε λογιστικά αρχεία με κόμπους σε κορδόνια, τα «κίπου»;",
+    "options": [
+      "Μάγια",
+      "Αζτέκοι",
+      "Ίνκας",
+      "Ολμέκοι"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which South American civilisation kept records with knots on cords, the khipu? — The Inca (Maya, Aztecs and Olmecs were Mesoamerican)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια ταινία του 1927 θεωρείται η πρώτη μεγάλου μήκους με συγχρονισμένους διαλόγους και τραγούδια, και έβαλε τέλος στη βωβή εποχή;",
+    "options": [
+      "Ο τραγουδιστής της τζαζ",
+      "Μητρόπολις",
+      "Φώτα της πόλης",
+      "Μοντέρνοι καιροί"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which 1927 film is regarded as the first feature with synchronised dialogue and songs, ending the silent era? — The Jazz Singer (Metropolis 1927 and Chaplin's films were silent)."
+  },
+  {
+    "level": 4,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος Έλληνας σκηνοθέτης πήρε τον Χρυσό Φοίνικα στις Κάννες το 1998 για την «Αιωνιότητα και μια μέρα»;",
+    "options": [
+      "Μιχάλης Κακογιάννης",
+      "Θόδωρος Αγγελόπουλος",
+      "Κώστας Γαβράς",
+      "Νίκος Κούνδουρος"
+    ],
+    "correctIndex": 1,
+    "gloss": "Which Greek director won the 1998 Cannes Palme d'Or for \"Eternity and a Day\"? — Theo Angelopoulos."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ο Μηχανισμός των Αντικυθήρων, που ανασύρθηκε από ναυάγιο το 1901, θεωρείται ένας από τους πρώτους αναλογικούς υπολογιστές. Τι προέβλεπε, μεταξύ άλλων;",
+    "options": [
+      "Σεισμούς",
+      "Παλίρροιες",
+      "Αλλαγές του καιρού",
+      "Εκλείψεις Ηλίου και Σελήνης"
+    ],
+    "correctIndex": 3,
+    "gloss": "The Antikythera Mechanism, raised from a wreck in 1901, is an early analogue computer. What did it predict, among other things? — Solar and lunar eclipses."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Η λέξη «κόσμος» δεν σήμαινε αρχικά «οι άνθρωποι» ούτε «η Γη». Από την αρχική της σημασία βγήκαν το «κόσμημα» και το «κοσμητικό». Ποια ήταν;",
+    "options": [
+      "Τάξη και στολισμός",
+      "Πλήθος ανθρώπων",
+      "Τόπος κατοικίας",
+      "Το σύνολο των άστρων"
+    ],
+    "correctIndex": 0,
+    "gloss": "The word \"kosmos\" first meant neither \"people\" nor \"Earth\"; \"kosmima\" (jewel) comes from it. What did it mean? — Order and adornment (hence cosmetics too)."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Σε ποιο πέλαγος βρίσκεται το βαθύτερο σημείο της Μεσογείου, ανοιχτά της δυτικής Πελοποννήσου;",
+    "options": [
+      "Αιγαίο Πέλαγος",
+      "Κρητικό Πέλαγος",
+      "Ιόνιο Πέλαγος",
+      "Λιβυκό Πέλαγος"
+    ],
+    "correctIndex": 2,
+    "gloss": "In which sea is the deepest point of the Mediterranean, off the western Peloponnese? — The Ionian Sea (Calypso Deep, about 5,270 m)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Για ποιον σκοπό δημιουργήθηκε αρχικά ο κωδικός QR, το 1994, σε μια εταιρεία του ομίλου της Toyota;",
+    "options": [
+      "Για εισιτήρια σε σταθμούς τρένων",
+      "Για την παρακολούθηση εξαρτημάτων σε εργοστάσια αυτοκινήτων",
+      "Για πληρωμές σε καταστήματα",
+      "Για διαφημίσεις σε περιοδικά"
+    ],
+    "correctIndex": 1,
+    "gloss": "What was the QR code originally created for in 1994, at a company of the Toyota group? — Tracking parts in car factories (Denso Wave)."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Ιρλανδός συγγραφέας έγραψε τον «Οδυσσέα», που μεταφέρει την Οδύσσεια σε μία μέρα στο Δουβλίνο του 1904;",
+    "options": [
+      "Τζέιμς Τζόις",
+      "Σάμιουελ Μπέκετ",
+      "Όσκαρ Ουάιλντ",
+      "Ουίλιαμ Μπάτλερ Γέιτς"
+    ],
+    "correctIndex": 0,
+    "gloss": "Which Irish writer wrote \"Ulysses\", which transposes the Odyssey into one day in Dublin in 1904? — James Joyce."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Στην κορυφή του Ολύμπου, στα 2.917 μέτρα, το νερό βράζει σε χαμηλότερη θερμοκρασία από τους 100 °C. Τι συμβαίνει στο βράσιμο ενός αυγού εκεί;",
+    "options": [
+      "Βράζει πιο γρήγορα",
+      "Δεν αλλάζει τίποτα",
+      "Χρειάζεται περισσότερη ώρα",
+      "Δεν μπορεί να βράσει καθόλου"
+    ],
+    "correctIndex": 2,
+    "gloss": "On Olympus (2,917 m) water boils below 100 °C. What happens to boiling an egg? — It takes longer: the boiling water is cooler, so it cooks more slowly."
+  },
+  {
+    "level": 5,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Ποιος Έλληνας συνθέτης δούλεψε για πολλά χρόνια ως αρχιτέκτονας στο γραφείο του Λε Κορμπυζιέ;",
+    "options": [
+      "Μίκης Θεοδωράκης",
+      "Νίκος Σκαλκώτας",
+      "Βαγγέλης Παπαθανασίου",
+      "Ιάννης Ξενάκης"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which Greek composer long worked as an architect in Le Corbusier's studio? — Iannis Xenakis."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Η λέξη «πρωτόκολλο» είναι ελληνική: από το «πρώτος» και το «κόλλα». Τι ήταν αρχικά;",
+    "options": [
+      "Το πρώτο φύλλο ενός ρόλου, κολλημένο στην αρχή του, με στοιχεία για το περιεχόμενό του",
+      "Η σφραγίδα από κερί που έκλεινε ένα επίσημο έγγραφο",
+      "Ο κατάλογος των καλεσμένων μιας επίσημης τελετής",
+      "Το πρώτο άρθρο ενός νόμου, γραμμένο σε πλάκα"
+    ],
+    "correctIndex": 0,
+    "gloss": "The word \"protocol\" is Greek: \"protos\" + \"kolla\" (glue). What was it originally? — The first sheet glued to the front of a scroll, summarising its contents."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποια χώρα έχει τις περισσότερες ζώνες ώρας στον κόσμο, αν μετρήσουμε και τα υπερπόντια εδάφη της;",
+    "options": [
+      "Ρωσία",
+      "Ηνωμένες Πολιτείες",
+      "Γαλλία",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "correctIndex": 2,
+    "gloss": "Which country has the most time zones, counting overseas territories? — France (12, or 13 with its Antarctic claim; US 11, Russia 11, UK 9)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Περίπου πόσο γρήγορα πρέπει να κινείται ένα σώμα από την επιφάνεια της Γης για να ξεφύγει οριστικά από τη βαρύτητά της, αν αγνοήσουμε τον αέρα;",
+    "options": [
+      "Περίπου 3 km/s",
+      "Περίπου 11,2 km/s",
+      "Περίπου 7,9 km/s",
+      "Περίπου 30 km/s"
+    ],
+    "correctIndex": 1,
+    "gloss": "How fast must a body leave Earth's surface to escape its gravity for good (ignoring air)? — About 11.2 km/s (7.9 km/s is orbital speed, 30 km/s Earth's orbit speed)."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ποιος Βρετανός μαθηματικός απέδειξε τη δεκαετία του 1990 το «Τελευταίο Θεώρημα του Φερμά», που έμεινε άλυτο για πάνω από 350 χρόνια;",
+    "options": [
+      "Τέρενς Τάο",
+      "Τζον Νας",
+      "Γκρίγκορι Περελμάν",
+      "Άντριου Γουάιλς"
+    ],
+    "correctIndex": 3,
+    "gloss": "Which British mathematician proved Fermat’s Last Theorem in the 1990s, unsolved for over 350 years? — Andrew Wiles (Tao is Australian, Nash American, Perelman Russian)."
   }
 ]
