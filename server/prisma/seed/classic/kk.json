@@ -498,5 +498,505 @@
     "options": ["Франц Кафка", "Ярослав Гашек", "Милан Кундера", "Карел Чапек"],
     "correctIndex": 3,
     "gloss": "Which Czech writer introduced the word 'robot' to the world in a 1920 play? — Karel Čapek, in R.U.R. (the word was suggested by his brother Josef)."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Мына сөздердің қайсысын тек орыс әліпбиіндегі әріптермен жазуға болады?",
+    "options": ["Қала", "Өзен", "Бала", "Тұз"],
+    "correctIndex": 2,
+    "gloss": "Which of these words can be written with Russian letters only? — Бала (child): Қала has Қ, Өзен has Ө, Тұз has Ұ, all letters Russian lacks."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақ «қой аузынан шөп алмас» деп қандай адамды айтады?",
+    "options": ["Өте момын, жуас адамды", "Сараң, қолы тар адамды", "Жалқау, енжар адамды", "Ашушаң, қызба адамды"],
+    "correctIndex": 0,
+    "gloss": "Whom do Kazakhs describe as 'wouldn't take grass from a sheep's mouth'? — A very meek, mild person."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Ұлттық ет тағамы «бесбармақ» атауын неден алған деп саналады?",
+    "options": ["Бес түрлі еттен пісірілетінінен", "Бес адамға арналып жасалатынынан", "Қолмен, саусақпен жейтінінен", "Бес сағат бойы қайнатылатынынан"],
+    "correctIndex": 2,
+    "gloss": "Where does the name of the meat dish 'beshbarmak' ('five fingers') come from? — It is eaten with the hand, with the fingers."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақтың «төрт түлік малына» мына жануарлардың қайсысы жатпайды?",
+    "options": ["Түйе", "Сиыр", "Жылқы", "Ит"],
+    "correctIndex": 3,
+    "gloss": "Which animal is not one of the Kazakh 'four kinds of livestock'? — The dog; the four are camel, horse, cattle and sheep (with goats)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Геннадий Головкин қай спорт түрінде әлем чемпионы атанған?",
+    "options": ["Дзюдода", "Бокста", "Еркін күресте", "Кикбоксингте"],
+    "correctIndex": 1,
+    "gloss": "In which sport did Gennady Golovkin become world champion? — Boxing (middleweight)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Салбыраған үлкен тұмсығымен шаң мен аязды ауаны сүзетін дала тұяқтысы қайсы?",
+    "options": ["Арқар", "Елік", "Ақбөкен", "Марал"],
+    "correctIndex": 2,
+    "gloss": "Which steppe hoofed animal filters dusty and frosty air through its big drooping nose? — The saiga."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Екі ақынның домбыраға қосылып, суырып салып сөз жарыстыратын өнері қалай аталады?",
+    "options": ["Терме", "Айтыс", "Толғау", "Жоқтау"],
+    "correctIndex": 1,
+    "gloss": "What is the art of two poets competing in improvised verse to the dombyra called? — Aitys; terme and tolgau are recited genres, zhoktau is a lament."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Термос ыстық шайды ұзақ уақыт ыстық күйінде сақтайды. Ал оған мұздай сусын құйсаңыз не болады?",
+    "options": ["Тез жылып кетеді", "Мұзға айналады", "Ұзақ уақыт суық сақталады", "Дәмі өзгеріп кетеді"],
+    "correctIndex": 2,
+    "gloss": "A thermos keeps hot tea hot. What happens to an ice-cold drink in it? — It stays cold: the vacuum blocks heat flow both ways."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Компьютер тышқаны неге «тышқан» деп аталған?",
+    "options": ["Алғашқысы сұр түсті болғандықтан", "Басқанда шиқылдағандықтан", "Ойлап тапқан адамның лақап аты болғандықтан", "Пішіні мен сымы тышқан мен оның құйрығына ұқсағандықтан"],
+    "correctIndex": 3,
+    "gloss": "Why is the computer mouse called a mouse? — Its body and cable looked like a mouse and its tail."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Жолдағы ақ жолақты жаяу жүргінші өткелін халық қай жануардың атымен атайды?",
+    "options": ["Жолбарыс", "Зебра", "Жираф", "Барыс"],
+    "correctIndex": 1,
+    "gloss": "Which animal gives its name to the striped pedestrian crossing? — The zebra; the tiger is the striped trap."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Теңіз түбіндегі ананас үйде тұратын мультфильм кейіпкері кім?",
+    "options": ["Патрик", "Сквидвард", "Мистер Крабс", "Губка Боб"],
+    "correctIndex": 3,
+    "gloss": "Which cartoon character lives in a pineapple under the sea? — SpongeBob; Patrick lives under a rock, Squidward in a stone head, Mr. Krabs in an anchor."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Судокуда әр жолда, әр бағанда және әр 3×3 шаршыда 1-ден 9-ға дейінгі цифрлар бір-бір реттен кездеседі. Толық шешілген судокуда «5» цифры неше рет жазылады?",
+    "options": ["1", "3", "9", "81"],
+    "correctIndex": 2,
+    "gloss": "In sudoku each row, column and 3×3 box holds 1–9 once. How many times does 5 appear in a solved grid? — 9: once in each of the nine rows."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "«Майнкрафт» ойынында бүкіл әлем — жер де, ағаш та, үй де — қандай пішіндерден құралады?",
+    "options": ["Шарлардан", "Текшелерден", "Үшбұрыштардан", "Алтыбұрыштардан"],
+    "correctIndex": 1,
+    "gloss": "In Minecraft, what shapes is the whole world — ground, trees, houses — made of? — Cubes (blocks)."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Жанкүйерлері өздерін «ARMY» деп атайтын оңтүстіккореялық топ қайсы?",
+    "options": ["BTS", "EXO", "Stray Kids", "Seventeen"],
+    "correctIndex": 0,
+    "gloss": "Which South Korean group's fans call themselves 'ARMY'? — BTS."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Суши мен роллға қосып беретін ащы, жасыл паста қалай аталады?",
+    "options": ["Песто", "Зімбір", "Тахини", "Васаби"],
+    "correctIndex": 3,
+    "gloss": "What is the hot green paste served with sushi and rolls? — Wasabi; pickled ginger comes with it too but is pink, not hot-green."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "2022 жылы Уимблдонда әйелдер арасындағы жекелей сайыста жеңіске жеткен қазақстандық теннисші кім?",
+    "options": ["Юлия Путинцева", "Ярослава Шведова", "Елена Рыбакина", "Зарина Дияс"],
+    "correctIndex": 2,
+    "gloss": "Which Kazakhstani player won the women's singles at Wimbledon in 2022? — Elena Rybakina."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1956 жылы жазылған «Менің Қазақстаным» әнінің әуенін шығарған композитор кім?",
+    "options": ["Шәмші Қалдаяқов", "Нұрғиса Тілендиев", "Әсет Бейсеуов", "Ескендір Хасанғалиев"],
+    "correctIndex": 0,
+    "gloss": "Who composed the music of the 1956 song 'Menin Qazaqstanym'? — Shamshi Kaldayakov (lyrics by Zhumeken Nazhimedenov)."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ұшақ иллюминаторларының бұрыштары неге үшкір емес, дөңгеленіп жасалады?",
+    "options": ["Бұрыштарына кернеу жиналып, корпус жарылмауы үшін", "Жолаушыларға көрініс кеңірек болуы үшін", "Ауа кедергісін азайту үшін", "Әйнекті жуып-тазалау оңай болуы үшін"],
+    "correctIndex": 0,
+    "gloss": "Why are airliner windows rounded rather than sharp-cornered? — Sharp corners concentrate the stress of cabin pressurisation and let cracks start; rounded ones spread it. The windows sit flush, so drag is not the reason."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Кейбір елдерде жедел жәрдем көлігінің алдыңғы жағындағы «AMBULANCE» сөзі айнадағыдай кері жазылады. Не үшін?",
+    "options": ["Түнде жарқырап көрінуі үшін", "Алдағы жүргізуші артқы көрініс айнасынан оқи алуы үшін", "Жаяу жүргіншілердің назарын аудару үшін", "Басқа қызмет көліктерінен ажырату үшін"],
+    "correctIndex": 1,
+    "gloss": "In some countries 'AMBULANCE' is written mirror-reversed on the front of the vehicle. Why? — So the driver ahead reads it the right way round in the rear-view mirror."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1921 жылға дейін Алматы қалай аталған?",
+    "options": ["Акмолинск", "Перовск", "Верный", "Пішпек"],
+    "correctIndex": 2,
+    "gloss": "What was Almaty called until 1921? — Verny. Akmolinsk was Astana, Perovsk was Kyzylorda, Pishpek was Bishkek."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақ «ит арқасы қиян» деп нені айтады?",
+    "options": ["Өте алыс жерді", "Ауыр, қиын жұмысты", "Опасыз, сатқын адамды", "Ызғарлы, суық күнді"],
+    "correctIndex": 0,
+    "gloss": "What does the idiom 'beyond the dog's back' mean? — A very distant place."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Тентек Қожаның мектептегі басынан кешкендері жазылған «Менің атым Қожа» повесінің авторы кім?",
+    "options": ["Мұхтар Әуезов", "Ғабит Мүсірепов", "Сәбит Мұқанов", "Бердібек Соқпақбаев"],
+    "correctIndex": 3,
+    "gloss": "Who wrote the novella 'My Name Is Kozha' about the naughty schoolboy Kozha? — Berdibek Sokpakbayev."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Сайтқа кірерде қисық әріптерді теру немесе суреттерден бағдаршамды табу сияқты CAPTCHA тексерістері не үшін керек?",
+    "options": ["Адамды бағдарламадан ажырату үшін", "Көру қабілетін тексеру үшін", "Интернет жылдамдығын өлшеу үшін", "Құпиясөзді есте сақтау үшін"],
+    "correctIndex": 0,
+    "gloss": "What are CAPTCHA checks (typing warped letters, finding traffic lights) for? — Telling a human from a bot."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Лақтырылған асық төрт түрлі жағымен түседі. Мына атаулардың қайсысы солардың бірі емес?",
+    "options": ["Алшы", "Тәйкі", "Сақа", "Бүк"],
+    "correctIndex": 2,
+    "gloss": "A thrown asyk (knucklebone) lands on one of four sides. Which name is not one of them? — Saka, the big asyk used as a shooter; the sides are alshy, taiki, bük and shik."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "Мына сөздердің қайсысы «су» сөзінен жасалмаған?",
+    "options": ["Суат", "Сұлу", "Сусын", "Суару"],
+    "correctIndex": 1,
+    "gloss": "Which word is not built from 'су' (water)? — Сұлу (beautiful): it starts with сұ, not су. Суат (watering place), сусын (drink), суару (to water) all come from су."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Көліктің құралдар тақтасындағы жанармай белгісінің қасындағы кішкентай үшбұрыш нені көрсетеді?",
+    "options": ["Жанармай құятын қақпақ қай жақта екенін", "Бакта қанша литр қалғанын", "Ең жақын жанармай бекетінің бағытын", "Қай маркалы бензин құю керегін"],
+    "correctIndex": 0,
+    "gloss": "What does the small triangle next to the fuel symbol on a car's dashboard show? — Which side the filler cap is on."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Алматыда сағат 12:00 болғанда Лондонда 07:00 болады. Алматыдан 12:00-де ұшқан ұшақ Лондонға 7 сағаттан кейін қонды. Лондон уақытымен сағат нешеде қонды?",
+    "options": ["12:00", "14:00", "19:00", "02:00"],
+    "correctIndex": 1,
+    "gloss": "When it is 12:00 in Almaty it is 07:00 in London. A plane leaves Almaty at 12:00 and lands in London 7 hours later. London time? — 14:00: 19:00 Almaty time minus 5 hours."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Футбол командасы маусымды 3 жеңіс, 2 тең ойын және 1 жеңіліспен бастады. Ол турнир кестесінде қазір неше ұпай жинады?",
+    "options": ["8", "9", "11", "14"],
+    "correctIndex": 2,
+    "gloss": "A football team starts with 3 wins, 2 draws, 1 loss. How many points? — 11: 3 per win, 1 per draw. 8 is the old 2-points-a-win count."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Саусақ іздерін адамның ізінен микроскоппен ғана ажыратуға болатын австралиялық жануар қайсы?",
+    "options": ["Коала", "Кенгуру", "Вомбат", "Ехидна"],
+    "correctIndex": 0,
+    "gloss": "Which Australian animal has fingerprints that can be told from a human's only under a microscope? — The koala."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "Жылқы төлі жасы өскен сайын басқаша аталады. Қай қатарда атаулар жас ретімен дұрыс берілген?",
+    "options": ["Тай → құлын → құнан → дөнен", "Құлын → құнан → тай → дөнен", "Құлын → тай → құнан → дөнен", "Құлын → тай → дөнен → құнан"],
+    "correctIndex": 2,
+    "gloss": "A young horse changes name as it ages. Which order is right? — Kulyn (foal), tai (1–2 years), kunan (2–3), donen (3–4)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Ғарыш стансасында бірнеше ай болып қайтқан ғарышкердің бойы қалай өзгереді?",
+    "options": ["Бірнеше сантиметрге қысқарады", "Өзгермейді", "Бір-екі миллиметрге ғана қысқарады", "Бірнеше сантиметрге ұзарады"],
+    "correctIndex": 3,
+    "gloss": "How does an astronaut's height change after months on a space station? — Several centimetres taller: without gravity the discs between the vertebrae are no longer squeezed (it reverts on Earth)."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1969 жылы Есік қорғанынан табылған «Алтын адам» қай көне халыққа тиесілі деп саналады?",
+    "options": ["Ғұндарға", "Сақтарға", "Үйсіндерге", "Қыпшақтарға"],
+    "correctIndex": 1,
+    "gloss": "To which ancient people is the 'Golden Man' found in the Issyk kurgan in 1969 attributed? — The Saka."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Қазақстан аумағы екі құрлықта жатыр. Еуропа мен Азияның шекарасы ретінде әдетте қай өзен алынады?",
+    "options": ["Жайық", "Еділ", "Ертіс", "Есіл"],
+    "correctIndex": 0,
+    "gloss": "Kazakhstan lies on two continents. Which river is usually taken as the Europe–Asia boundary? — The Ural (Zhaiyk)."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Питер Джексонның «Сақиналар әміршісі» трилогиясы негізінен қай елде түсірілді?",
+    "options": ["Жаңа Зеландияда", "Ирландияда", "Исландияда", "Австралияда"],
+    "correctIndex": 0,
+    "gloss": "Where was Peter Jackson's 'Lord of the Rings' trilogy mainly filmed? — New Zealand, the director's homeland."
+  },
+  {
+    "level": 3,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Алматыдағы Мемлекеттік өнер музейі қай суретшінің есімімен аталады?",
+    "options": ["Салихитдин Айтбаев", "Қанапия Телжанов", "Әбілхан Қастеев", "Молдахмет Кенбаев"],
+    "correctIndex": 2,
+    "gloss": "Which painter is the State Museum of Arts in Almaty named after? — Abylkhan Kasteyev; the others are Kazakh painters too."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "Кітаптың беттерін 1-ден бастап ретімен нөмірлеуге барлығы 15 цифр жұмсалды. Кітапта неше бет бар?",
+    "options": ["10", "12", "13", "15"],
+    "correctIndex": 1,
+    "gloss": "Numbering a book's pages from 1 used 15 digits in all. How many pages? — 12: pages 1–9 take 9 digits, 10–12 take 6."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Пернетақтадағы F және J пернелерінде неге кішкентай бұдыр бар?",
+    "options": ["Саусақтарды қарамай-ақ орнына қою үшін", "Ең жиі басылатын пернелерді белгілеу үшін", "Пернетақтаны зауытта тексеру үшін", "Брайль жазуындағы әріптерді көрсету үшін"],
+    "correctIndex": 0,
+    "gloss": "Why do the F and J keys have small bumps? — So the index fingers find their home position without looking."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Мына Еуропа астаналарының қайсысы Астанадан да солтүстікте орналасқан?",
+    "options": ["Париж", "Рим", "Мадрид", "Лондон"],
+    "correctIndex": 3,
+    "gloss": "Which of these European capitals lies further north than Astana? — London (51.5° N vs Astana's 51.2° N); Paris is at about 48.9° N."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Мына өнертабыстардың қайсысына бәрінен бұрын патент берілген?",
+    "options": ["Факсқа", "Телефонға", "Фонографқа", "Радиоға"],
+    "correctIndex": 0,
+    "gloss": "Which of these inventions was patented first? — The fax: Alexander Bain's patent of 1843, decades before the telephone (1876), the phonograph (1877) and radio (1890s)."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "1887 жылы Ырғызда қазақ қыздарына арналған алғашқы мектеп-интернатты кім ашты?",
+    "options": ["Әлихан Бөкейхан", "Міржақып Дулатов", "Ыбырай Алтынсарин", "Сұлтанмахмұт Торайғыров"],
+    "correctIndex": 2,
+    "gloss": "Who opened the first boarding school for Kazakh girls in Irgiz in 1887? — Ibrai Altynsarin."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Мұқан Төлебаев жазған, екі ақынның айтысына құрылған опера қалай аталады?",
+    "options": ["«Қыз Жібек»", "«Ер Тарғын»", "«Абай»", "«Біржан – Сара»"],
+    "correctIndex": 3,
+    "gloss": "What is Mukan Tulebayev's opera built on the contest of two poets called? — 'Birzhan and Sara'. 'Kyz Zhibek' and 'Er Targyn' are Brusilovsky's, 'Abai' is Zhubanov and Hamidi's."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "1968 жылғы Олимпиададан кейін «Фосбери флоп» тәсілі қай спорт түрін түбегейлі өзгертті?",
+    "options": ["Сырықпен секіруді", "Биіктікке секіруді", "Ұзындыққа секіруді", "Үш қарғып секіруді"],
+    "correctIndex": 1,
+    "gloss": "After the 1968 Olympics, which sport did the 'Fosbury Flop' transform? — The high jump: Dick Fosbury won gold going over the bar backwards."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Мына сөздердің қайсысы қазақ тіліне араб тілінен енген?",
+    "options": ["Шай", "Кітап", "Бақша", "Нан"],
+    "correctIndex": 1,
+    "gloss": "Which of these words came into Kazakh from Arabic? — Кітап (book), from kitāb. Шай goes back to Chinese, бақша and нан to Persian."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Теңізге шығу үшін екі мемлекеттің аумағын кесіп өтуге мәжбүр ел әлемде екеу ғана. Біреуі — Лихтенштейн. Екіншісі қайсы?",
+    "options": ["Қырғызстан", "Түрікменстан", "Тәжікстан", "Өзбекстан"],
+    "correctIndex": 3,
+    "gloss": "Only two countries must cross two borders to reach the sea: Liechtenstein and...? — Uzbekistan: all its neighbours are landlocked. Kyrgyzstan and Tajikistan border China, Turkmenistan borders Iran."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Ыстық шайды араластырсаңыз, мына металдардың қайсысынан жасалған қасық еріп кетеді?",
+    "options": ["Галлий", "Титан", "Мыс", "Қалайы"],
+    "correctIndex": 0,
+    "gloss": "Stirring hot tea, a spoon of which metal would melt? — Gallium, which melts at about 30 °C; tin needs 232 °C."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Шарын шатқалындағы ерте замандардан сақталған реликті тоғай қай ағаштан тұрады?",
+    "options": ["Тұранғыдан", "Соғды шағанынан", "Тянь-Шань шыршасынан", "Жабайы өріктен"],
+    "correctIndex": 1,
+    "gloss": "Which tree forms the relict grove in the Charyn canyon? — The Sogdian ash (Fraxinus sogdiana); turanga is a desert poplar."
+  },
+  {
+    "level": 5,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "Тәуелсіз Қазақстанның тұңғыш олимпиадалық алтын медалін 1994 жылы кім жеңіп алды?",
+    "options": ["Василий Жиров", "Бекзат Саттарханов", "Владимир Смирнов", "Ольга Шишигина"],
+    "correctIndex": 2,
+    "gloss": "Who won independent Kazakhstan's first Olympic gold in 1994? — Vladimir Smirnov, 50 km cross-country skiing at Lillehammer. Zhirov won in 1996, Sattarkhanov and Shishigina in 2000."
+  },
+  {
+    "level": 5,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "XI ғасырда араб оқырманына түркі тілдерін таныстыру үшін «Диуани лұғат ат-түрк» сөздігін жазған ғалым кім?",
+    "options": ["Махмұд Қашқари", "Жүсіп Баласағұн", "Ахмет Иүгінеки", "Сүлейман Бақырғани"],
+    "correctIndex": 0,
+    "gloss": "Which 11th-century scholar wrote the dictionary 'Diwan Lughat al-Turk' to introduce Turkic to Arab readers? — Mahmud al-Kashgari; Balasaguni wrote 'Kutadgu Bilig'."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "Оңтүстік Американың қай елі әрі Тынық мұхитқа, әрі Кариб теңізіне шығады?",
+    "options": ["Венесуэла", "Эквадор", "Перу", "Колумбия"],
+    "correctIndex": 3,
+    "gloss": "Which South American country has coasts on both the Pacific and the Caribbean? — Colombia. Venezuela is Caribbean only, Ecuador and Peru Pacific only."
+  },
+  {
+    "level": 5,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "Python бағдарламалау тілінің атауы неден алынған?",
+    "options": ["Питон жыланынан", "Грек аңызындағы Пифон айдаһарынан", "«Монти Пайтон» британдық комедиялық тобынан", "Дельфидегі абыз әйел Пифиядан"],
+    "correctIndex": 2,
+    "gloss": "Where does the name of the Python programming language come from? — Guido van Rossum named it after the British comedy group Monty Python, not the snake."
   }
 ]

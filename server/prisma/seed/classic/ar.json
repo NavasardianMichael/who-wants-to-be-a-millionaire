@@ -498,5 +498,505 @@
     "options": ["أوروغواي", "البرازيل", "إيطاليا", "إنجلترا"],
     "correctIndex": 0,
     "gloss": "Which country hosted and won the first football World Cup in 1930? — Uruguay. Italy won in 1934, England in 1966 and Brazil first in 1958."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في المثل المعروف عن حقّ الجوار: «الجار قبل ...، والرفيق قبل الطريق». ما الكلمة الناقصة؟",
+    "options": ["الدار", "الأهل", "السوق", "المال"],
+    "correctIndex": 0,
+    "gloss": "In the proverb about neighbours: \"The neighbour before the ..., the companion before the road.\" — The house (الدار): the proverb «الجار قبل الدار»."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "في أسماء أيام الأسبوع العربية أرقام مخبوءة: «الأحد» من الواحد و«الاثنين» من الاثنين. فأيّ هذه الأيام اسمه مشتق من العدد خمسة؟",
+    "options": ["الأربعاء", "الخميس", "الجمعة", "السبت"],
+    "correctIndex": 1,
+    "gloss": "Which of these days is named from the number five? — Thursday (الخميس) from خمسة; Wednesday is from four, Friday from gathering, Saturday from the Sabbath."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ هذه البلدان العربية يقع في قارة أفريقيا؟",
+    "options": ["العراق", "عُمان", "الكويت", "السودان"],
+    "correctIndex": 3,
+    "gloss": "Which of these Arab countries lies in Africa? — Sudan; the others are in Asia."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في الكرة الطائرة، كم لاعباً من كل فريق يكون داخل الملعب في الوقت نفسه؟",
+    "options": ["5", "7", "9", "6"],
+    "correctIndex": 3,
+    "gloss": "In volleyball, how many players per team are on court at once? — Six (basketball has 5, handball 7)."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ تطبيق لمقاطع الفيديو القصيرة يحمل شعاره نغمة موسيقية؟",
+    "options": ["سناب شات", "واتساب", "تيك توك", "إنستغرام"],
+    "correctIndex": 2,
+    "gloss": "Which short-video app has a musical note as its logo? — TikTok (Snapchat has a ghost, WhatsApp a phone in a speech bubble, Instagram a camera outline)."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "تُلقَّب إحدى المدن المغربية بـ«المدينة الحمراء» للون أسوارها وبيوتها الطينية. فأيّ مدينة هي؟",
+    "options": ["فاس", "الرباط", "الدار البيضاء", "مراكش"],
+    "correctIndex": 3,
+    "gloss": "Which Moroccan city is nicknamed \"the Red City\" for the colour of its walls and clay houses? — Marrakesh."
+  },
+  {
+    "level": 1,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ آلة موسيقية عربية تُصنع من قصبة مجوّفة مفتوحة الطرفين ويُنفخ فيها لتصدر لحناً شجياً؟",
+    "options": ["القانون", "العود", "الناي", "الدربكة"],
+    "correctIndex": 2,
+    "gloss": "Which Arab instrument is made from a hollow reed open at both ends and blown? — The ney (reed flute)."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في فيلم الرسوم «الأسد الملك»، ما اسم الشبل الذي يكبر ثم يصير ملك الغابة؟",
+    "options": ["موفاسا", "سيمبا", "سكار", "تيمون"],
+    "correctIndex": 1,
+    "gloss": "In the animated film The Lion King, what is the cub who grows up to be king called? — Simba (Mufasa is his father, Scar his uncle)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "إذا كانت الساعة الآن الثالثة عصراً، فكم ساعة تبقى حتى منتصف الليل؟",
+    "options": ["7 ساعات", "8 ساعات", "9 ساعات", "10 ساعات"],
+    "correctIndex": 2,
+    "gloss": "If it is 3 pm now, how many hours remain until midnight? — 9: 3 pm is 15:00 and midnight is 24:00."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ شخصية فكاهية من التراث الشعبي العربي اشتهرت بنوادرها العجيبة مع حماره؟",
+    "options": ["أشعب", "بهلول", "أبو زيد الهلالي", "جحا"],
+    "correctIndex": 3,
+    "gloss": "Which humorous figure of Arab folklore is famed for his odd anecdotes with his donkey? — Juha (جحا)."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما اسم المساعد الصوتي الذي يجيب عن أسئلتك في هواتف «آيفون»؟",
+    "options": ["سيري", "أليكسا", "كورتانا", "بيكسبي"],
+    "correctIndex": 0,
+    "gloss": "What is the voice assistant on iPhones called? — Siri (Alexa is Amazon, Cortana Microsoft, Bixby Samsung)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما المشروب الذي يشربه الناس في العالم أكثر من أيّ مشروب آخر بعد الماء؟",
+    "options": ["القهوة", "الشاي", "الحليب", "عصير الفواكه"],
+    "correctIndex": 1,
+    "gloss": "Which drink do people worldwide consume more than any other, after water? — Tea (coffee comes well behind)."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما الطبق المغاربي الشهير المصنوع من حبيبات السميد الصغيرة المطهوّة على البخار فوق مرق الخضار واللحم؟",
+    "options": ["الكسكس", "المحشي", "الفتّة", "الشاورما"],
+    "correctIndex": 0,
+    "gloss": "Which famous Maghrebi dish is made of tiny semolina grains steamed over a vegetable and meat stew? — Couscous."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "بطارية هاتفك عند 20% وهي تشحن بمعدّل 1% كل دقيقتين. كم دقيقة تلزمك لتصل إلى 50%؟",
+    "options": ["15 دقيقة", "30 دقيقة", "60 دقيقة", "90 دقيقة"],
+    "correctIndex": 2,
+    "gloss": "Phone at 20%, charging 1% every 2 minutes; minutes to reach 50%? — 60: 30 points x 2 minutes."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "اشترى حسن 2 كيلوغرام من التمر بثلاثين ديناراً. فكم يدفع ثمناً لثلاثة كيلوغرامات بالسعر نفسه؟",
+    "options": ["40 ديناراً", "45 ديناراً", "50 ديناراً", "60 ديناراً"],
+    "correctIndex": 1,
+    "gloss": "Hassan bought 2 kg of dates for 30 dinars; what do 3 kg cost at the same price? — 45: 15 per kilo."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "نقول «هذا قلمٌ» للواحد، وفي العربية صيغة خاصة للاثنين تختلف عن الجمع. فكيف نكمل: «هذان ...»؟",
+    "options": ["أقلام", "قلمان", "قلمين", "قلمون"],
+    "correctIndex": 1,
+    "gloss": "We say \"this is a pen\" for one; Arabic has a special dual form. How do we complete \"these two ...\"? — قلمان: the dual after هذان takes the nominative -ان (not قلمين, which is accusative/genitive)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "يفصل مضيق جبل طارق، الذي يصل المتوسط بالأطلسي، المغرب عن أيّ بلد أوروبي؟",
+    "options": ["فرنسا", "البرتغال", "إسبانيا", "إيطاليا"],
+    "correctIndex": 2,
+    "gloss": "Which European country does the Strait of Gibraltar separate Morocco from? — Spain."
+  },
+  {
+    "level": 2,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "سُمّي أحد أنواع الخط العربي باسم مدينة عراقية ازدهرت فيها كتابته. فأيّها هو؟",
+    "options": ["النسخ", "الثلث", "الكوفي", "الرقعة"],
+    "correctIndex": 2,
+    "gloss": "One style of Arabic calligraphy is named after an Iraqi city where it flourished. Which? — Kufic, after Kufa (Naskh means copying, Thuluth a third, Riq'a a patch)."
+  },
+  {
+    "level": 2,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ مدينة كانت عاصمة الخلافة الأموية؟",
+    "options": ["بغداد", "القاهرة", "القيروان", "دمشق"],
+    "correctIndex": 3,
+    "gloss": "Which city was the capital of the Umayyad Caliphate? — Damascus (Baghdad was the Abbasid capital)."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "في أيّ وقت من النهار يكون ظلّ الإنسان الواقف تحت الشمس أقصر ما يمكن؟",
+    "options": ["عند الظهيرة", "عند الشروق", "عند العصر", "عند الغروب"],
+    "correctIndex": 0,
+    "gloss": "When is a standing person's shadow shortest? — At noon, when the Sun is highest in the sky."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ماذا يرمز الحرف S في بداية عنوان الموقع https؟",
+    "options": ["الخادم", "السرعة", "الخدمة", "الأمان"],
+    "correctIndex": 3,
+    "gloss": "What does the S in https stand for? — Secure: the connection is encrypted (not Server, Speed or Service)."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ما الفرقة السويدية التي غنّت «دانسينغ كوين» وصارت من أشهر فرق البوب في العالم؟",
+    "options": ["البيتلز", "كوين", "بي جيز", "آبا"],
+    "correctIndex": 3,
+    "gloss": "Which Swedish group sang \"Dancing Queen\" and became one of the best-known pop bands in the world? — ABBA (the Beatles are British, Queen British, the Bee Gees British-Australian)."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "لُقّب شاعر عربي بـ«أمير الشعراء» في مهرجان أُقيم عام 1927. من هو؟",
+    "options": ["نزار قباني", "حافظ إبراهيم", "المتنبي", "أحمد شوقي"],
+    "correctIndex": 3,
+    "gloss": "Which poet was given the title \"Prince of Poets\" at a 1927 gathering? — Ahmed Shawqi."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "في أيّ رياضة يرتدي المتصدّر في سباقها الأشهر قميصاً أصفر؟",
+    "options": ["سباق الدراجات الهوائية", "التنس", "الغولف", "التجديف"],
+    "correctIndex": 0,
+    "gloss": "In which sport does the leader of its most famous race wear a yellow jersey? — Road cycling (the Tour de France); golf's famous garment is a green jacket."
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "local",
+    "kind": "fact",
+    "text": "في كأس العالم 2022 صنع منتخب عربي التاريخ ببلوغه الدور نصف النهائي لأول مرة. فأيّ منتخب؟",
+    "options": ["قطر", "المغرب", "السعودية", "تونس"],
+    "correctIndex": 1,
+    "gloss": "In the 2022 World Cup an Arab team reached the semi-final for the first time. Which? — Morocco (also the first African team to do so)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ثلاثة أصدقاء التقوا، وصافح كل واحد منهم كلاً من الآخرَين مرة واحدة. كم مصافحة جرت في المجموع؟",
+    "options": ["2", "6", "9", "3"],
+    "correctIndex": 3,
+    "gloss": "Three friends meet and each shakes hands once with each of the other two; how many handshakes in total? — 3 (A-B, A-C, B-C); 6 double-counts, 9 is a mistake."
+  },
+  {
+    "level": 2,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "سعة تخزين هاتف 128 غيغابايت، وحجم الصورة الواحدة نحو 4 ميغابايت. فكم صورة تتسع له تقريباً، علماً أن الغيغابايت الواحد نحو ألف ميغابايت؟",
+    "options": ["نحو 32 ألف صورة", "نحو 3200 صورة", "نحو 320 ألف صورة", "نحو 512 صورة"],
+    "correctIndex": 0,
+    "gloss": "A phone has 128 GB and a photo is about 4 MB; roughly how many photos fit, given 1 GB is about 1000 MB? — About 32,000: 128,000 / 4."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ طبق شامي يُقلَب قدره عند التقديم فيظهر الأرز مع الخضار واللحم مرصوصاً على شكل قبّة، ومن هذا الفعل جاء اسمه؟",
+    "options": ["المنسف", "المقلوبة", "الكبسة", "المجدّرة"],
+    "correctIndex": 1,
+    "gloss": "Which Levantine dish takes its name from the way the pot is flipped over at serving, showing the rice, vegetables and meat in a dome? — Maqluba (\"upside-down\")."
+  },
+  {
+    "level": 3,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أصل كلمة «magazine» الإنجليزية التي تعني المجلة عربيٌّ، وكانت تعني في أصلها المستودع. فما الكلمة العربية؟",
+    "options": ["مخبأ", "مكتب", "مخزن", "مجلّة"],
+    "correctIndex": 2,
+    "gloss": "The English word \"magazine\" comes from an Arabic word meaning a storehouse. Which? — مخزن (plural مخازن), via Italian magazzino."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "أيّ هذه الدول العربية تطلّ على البحر الأحمر وعلى الخليج العربي معاً؟",
+    "options": ["اليمن", "مصر", "الأردن", "السعودية"],
+    "correctIndex": 3,
+    "gloss": "Which of these Arab countries has coasts on both the Red Sea and the Arabian Gulf? — Saudi Arabia (Yemen and Egypt have no Gulf coast; Jordan's Aqaba coast is on the Red Sea only)."
+  },
+  {
+    "level": 3,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "تُستخلص الفانيليا من ثمار أيّ نبات؟",
+    "options": ["الأوركيد", "الصبّار", "الزنبق", "الياسمين"],
+    "correctIndex": 0,
+    "gloss": "Vanilla is extracted from the pods of which plant? — The orchid (Vanilla is a genus of orchids)."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "يحتاج سلق البيضة في قمة جبل عالٍ إلى وقت أطول مما يحتاجه عند شاطئ البحر. لماذا؟",
+    "options": ["الماء في الجبال أبرد دائماً", "ضغط الهواء أقل فيغلي الماء عند حرارة أدنى", "الجاذبية أضعف فيتباطأ الغليان", "نقص الأكسجين يُبطئ الطهي"],
+    "correctIndex": 1,
+    "gloss": "An egg takes longer to boil on a high mountain than at the seaside. Why? — Lower air pressure makes water boil at a lower temperature, so it cooks more slowly."
+  },
+  {
+    "level": 3,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ ممثلة مصرية لُقّبت بـ«سيدة الشاشة العربية»؟",
+    "options": ["سعاد حسني", "شادية", "فاتن حمامة", "ماجدة"],
+    "correctIndex": 2,
+    "gloss": "Which Egyptian actress was nicknamed \"the First Lady of Arab Cinema\"? — Faten Hamama."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "عبر أيّ وسيلة ينتقل معظم حركة الإنترنت بين القارات؟",
+    "options": ["الأقمار الاصطناعية", "موجات الراديو", "أبراج الهاتف المحمول", "كابلات في قاع البحار"],
+    "correctIndex": 3,
+    "gloss": "Through what does most intercontinental internet traffic travel? — Undersea cables (satellites carry only a small share)."
+  },
+  {
+    "level": 3,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ طائر عملاق خيالي في حكايات «ألف ليلة وليلة» يحمل الفيلة بمخالبه؟",
+    "options": ["الرخ", "العنقاء", "الهدهد", "الببغاء"],
+    "correctIndex": 0,
+    "gloss": "Which gigantic imaginary bird in the Arabian Nights carries elephants in its claws? — The roc (الرخ)."
+  },
+  {
+    "level": 3,
+    "category": "nature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أيّ حيوان عربي ذو قرنين طويلين مستقيمين اختفى من بيئته البرية عام 1972 ثم أُعيد إلى الصحراء من محميات التربية؟",
+    "options": ["الوعل النوبي", "المها العربي", "غزال الريم", "النمر العربي"],
+    "correctIndex": 1,
+    "gloss": "Which Arabian animal with long straight horns vanished from the wild in 1972 and was reintroduced from breeding herds? — The Arabian oryx."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "كم مرة يظهر الرقم 9 عند كتابة الأعداد كلها من 1 إلى 100؟",
+    "options": ["10", "11", "20", "19"],
+    "correctIndex": 2,
+    "gloss": "How many times does the digit 9 appear when writing every number from 1 to 100? — 20: ten in the units place (9, 19 ... 99) and ten in the tens place (90-99)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما المضيق الذي يصل البحر الأحمر بخليج عدن ويُفسَّر اسمه العربي بـ«باب الدموع»؟",
+    "options": ["هرمز", "البوسفور", "الدردنيل", "باب المندب"],
+    "correctIndex": 3,
+    "gloss": "Which strait links the Red Sea to the Gulf of Aden, its Arabic name explained as \"the Gate of Tears\"? — Bab al-Mandab."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "وصف عالم عربي في القرن الثالث عشر الدورة الدموية الصغرى بين القلب والرئتين قبل أوروبا بقرون. من هو؟",
+    "options": ["ابن النفيس", "الرازي", "ابن سينا", "ابن رشد"],
+    "correctIndex": 0,
+    "gloss": "Which Arab scholar of the 13th century described the lesser (pulmonary) circulation between heart and lungs centuries before Europe? — Ibn al-Nafis."
+  },
+  {
+    "level": 4,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "أسّس رجل عام 756 إمارة أموية في قرطبة بعد أن وصل إلى الأندلس قادماً من المشرق، ولُقّب بـ«صقر قريش». من هو؟",
+    "options": ["طارق بن زياد", "عبد الرحمن الداخل", "موسى بن نصير", "المنصور بن أبي عامر"],
+    "correctIndex": 1,
+    "gloss": "Who founded an Umayyad emirate in Cordoba in 756, nicknamed \"the Falcon of Quraysh\"? — Abd al-Rahman I, \"al-Dakhil\"."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "من كتب رواية «موسم الهجرة إلى الشمال» (1966)؟",
+    "options": ["غسان كنفاني", "عبد الرحمن منيف", "الطيب صالح", "إلياس خوري"],
+    "correctIndex": 2,
+    "gloss": "Who wrote the novel Season of Migration to the North (1966)? — Tayeb Salih."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "أيّ كوكب تستغرق دورته الواحدة حول نفسه وقتاً أطول من دورته حول الشمس؟",
+    "options": ["عطارد", "المريخ", "المشتري", "الزهرة"],
+    "correctIndex": 3,
+    "gloss": "Which planet takes longer to rotate once on its axis than to orbit the Sun? — Venus (about 243 Earth days of rotation against a 225-day year)."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "يحدّد جهاز تحديد المواقع (GPS) موقعك وارتفاعك بقياس بُعده عن أقمار اصطناعية، وساعته غير دقيقة كساعات الأقمار. فكم قمراً على الأقل يلزمه؟",
+    "options": ["4", "2", "3", "6"],
+    "correctIndex": 0,
+    "gloss": "A GPS receiver fixes your position and altitude from distances to satellites, with a clock far less accurate than theirs. How many satellites does it need at minimum? — Four: three for position plus one to correct the clock."
+  },
+  {
+    "level": 4,
+    "category": "language",
+    "scope": "global",
+    "kind": "fact",
+    "text": "كلمة «روبوت» جاءت من مسرحية تشيكية عُرضت عام 1920، وهي في التشيكية القديمة تعني أصلاً ...؟",
+    "options": ["الحارس الأمين", "العمل المفروض بالسخرة", "الآلة الذكية", "الصانع الماهر"],
+    "correctIndex": 1,
+    "gloss": "The word \"robot\" comes from a Czech play of 1920; in Czech it originally meant ...? — Forced labour (robota); Karel Čapek's R.U.R. introduced it."
+  },
+  {
+    "level": 4,
+    "category": "sports",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "كم دورة كاملة على مضمار ألعاب القوى الأولمبي القياسي يقطعها العدّاء في سباق 5000 متر؟",
+    "options": ["10 دورات", "12 دورة", "12 دورة ونصف", "15 دورة"],
+    "correctIndex": 2,
+    "gloss": "How many laps of a standard Olympic track does a 5000 m runner cover? — 12.5: the track is 400 m around."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "local",
+    "kind": "fact",
+    "text": "اشتُهر عالم عربي في القرن الثالث عشر بساعة الفيل والآلات ذاتية الحركة، وألّف كتاباً في الحيل الهندسية. من هو؟",
+    "options": ["البيروني", "ابن يونس", "ثابت بن قرة", "الجزري"],
+    "correctIndex": 3,
+    "gloss": "Which 13th-century Arab engineer is famed for his elephant clock and automata, and wrote a book on mechanical devices? — Al-Jazari."
+  },
+  {
+    "level": 5,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ما اسم كتاب الجاحظ الذي جمع نوادر الطمّاعين والشحيحين بأسلوب ساخر؟",
+    "options": ["البخلاء", "الحيوان", "البيان والتبيين", "رسالة الغفران"],
+    "correctIndex": 0,
+    "gloss": "Which book by al-Jahiz collects satirical anecdotes of misers? — Kitab al-Bukhala (The Book of Misers); al-Hayawan and al-Bayan are his other works, Risalat al-Ghufran is al-Ma'arri's."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "تتميّز ملوية سامراء، المئذنة التي بُنيت في القرن التاسع الميلادي في العراق، بشكل فريد. ما هو؟",
+    "options": ["مربّع", "حلزوني", "أسطواني", "مثمّن"],
+    "correctIndex": 1,
+    "gloss": "The Malwiya, the 9th-century minaret at Samarra in Iraq, has a distinctive shape. What is it? — A spiral."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "أيّ غاز نبيل رُصد أولاً في طيف ضوء الشمس عام 1868، قبل العثور عليه على الأرض بنحو ثلاثة عقود، ويحمل اسمه كلمة إغريقية تعني الشمس؟",
+    "options": ["النيون", "الأرغون", "الهيليوم", "الكريبتون"],
+    "correctIndex": 2,
+    "gloss": "Which noble gas was first seen in the Sun's spectrum in 1868, about three decades before it was found on Earth, its name containing the Greek word for the Sun? — Helium (from Helios)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "fact",
+    "text": "أيّ بلد يملك أكبر عدد من المناطق الزمنية في العالم إذا حُسبت أقاليمه فيما وراء البحار؟",
+    "options": ["روسيا", "الولايات المتحدة", "الصين", "فرنسا"],
+    "correctIndex": 3,
+    "gloss": "Which country has the most time zones if its overseas territories are counted? — France (Russia has 11 on its mainland, China just one)."
   }
 ]

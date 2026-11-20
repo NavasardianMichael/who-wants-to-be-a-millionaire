@@ -498,5 +498,505 @@
     "options": ["კოალას", "ვომბატის", "კენგურუს", "ექიდნას"],
     "correctIndex": 1,
     "gloss": "Which animal produces cube-shaped droppings? — The wombat."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ანდაზის თანახმად, მგელს რაღაცას უკითხავდნენ, ის კი ამბობდა: „ჩქარა, ფარა წავიდაო“. რას უკითხავდნენ?",
+    "options": ["სახარებას", "ზღაპარს", "ლოცვას", "ლექსს"],
+    "correctIndex": 0,
+    "gloss": "By the proverb, they read something to the wolf, and he kept saying \"Hurry, the flock is leaving\". What did they read? — The Gospel: „მგელს სახარებას უკითხავდნენ...“, you cannot change someone's nature."
+  },
+  {
+    "level": 1,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "სიტყვა „ცისარტყელა“ ორი სიტყვისგან შედგება. რას ნიშნავს ის პირდაპირი მნიშვნელობით?",
+    "options": ["ცის ხიდს", "ცის კარიბჭეს", "ცის ბეჭედს", "ცის სარტყელს"],
+    "correctIndex": 3,
+    "gloss": "The word \"tsisartkela\" (rainbow) is made of two words. What does it literally mean? — The sky's belt: ცა (sky) + სარტყელი (belt)."
+  },
+  {
+    "level": 1,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "გველი ენას ხშირ-ხშირად რომ გამოყოფს, ამით რას აკეთებს?",
+    "options": ["მტერს აშინებს", "სუნს იგებს", "სხეულს იგრილებს", "მსხვერპლს იზიდავს"],
+    "correctIndex": 1,
+    "gloss": "When a snake keeps flicking its tongue, what is it doing? — Smelling: the tongue carries scent particles to the Jacobson's organ in the mouth."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "სამი ნაყინი ვიყიდეთ, თითო — 70 თეთრად, და გამყიდველს სამი ლარი მივეცით. რამდენი ხურდა უნდა დაგვიბრუნდეს?",
+    "options": ["90 თეთრი", "1 ლარი და 10 თეთრი", "2 ლარი და 10 თეთრი", "30 თეთრი"],
+    "correctIndex": 0,
+    "gloss": "We bought three ice creams at 70 tetri each and gave the seller three lari. How much change? — 90 tetri: 3 × 70 = 2.10 lari, 3.00 − 2.10 = 0.90 (100 tetri to a lari)."
+  },
+  {
+    "level": 1,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ლუკა თავის დაზე, ანაზე, ოთხი წლით უფროსია. ოცი წლის შემდეგ რამდენი წლით იქნება ის ანაზე უფროსი?",
+    "options": ["ოცდაოთხით", "ოცით", "თექვსმეტით", "ოთხით"],
+    "correctIndex": 3,
+    "gloss": "Luka is four years older than his sister Ana. In twenty years, how much older will he be? — Still four years: both age equally."
+  },
+  {
+    "level": 1,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი სანელებელი მზადდება გამხმარი და დაფქული წითელი წიწაკისგან და უნგრული გულაშის აუცილებელი ინგრედიენტია?",
+    "options": ["ზაფრანა", "კურკუმა", "პაპრიკა", "დარიჩინი"],
+    "correctIndex": 2,
+    "gloss": "Which spice is dried ground red pepper and a must in Hungarian goulash? — Paprika."
+  },
+  {
+    "level": 1,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელ კუთხეშია სიღნაღი, რომელსაც „სიყვარულის ქალაქს“ უწოდებენ?",
+    "options": ["ქართლში", "იმერეთში", "სამცხე-ჯავახეთში", "კახეთში"],
+    "correctIndex": 3,
+    "gloss": "Which region is Sighnaghi, the \"city of love\", in? — Kakheti."
+  },
+  {
+    "level": 1,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ნიკოლოზ ბარათაშვილის ცნობილ ლექსში „მერანი“ ვინ არის თავად მერანი?",
+    "options": ["ცხენი", "ფრინველი", "მეომარი", "მწყემსი"],
+    "correctIndex": 0,
+    "gloss": "In Nikoloz Baratashvili's famous poem \"Merani\", who is Merani? — A horse: a swift steed that carries the poet onward against fate („მირბის, მიმაფრენს უგზო-უკვლოდ ჩემი მერანი“)."
+  },
+  {
+    "level": 1,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ ზამთრის სპორტში წმენდენ მოთამაშეები ჯაგრისებით ყინულს მოსრიალე გრანიტის ქვის წინ?",
+    "options": ["ჰოკეიში", "კერლინგში", "ბობსლეიში", "ბიათლონში"],
+    "correctIndex": 1,
+    "gloss": "In which winter sport do players sweep the ice with brooms in front of a sliding granite stone? — Curling: sweeping makes the stone travel further and straighter."
+  },
+  {
+    "level": 1,
+    "category": "filmTv",
+    "scope": "global",
+    "kind": "fact",
+    "text": "მულტფილმ „მეფე ლომში“ რა ჰქვია სიმბას მამას?",
+    "options": ["სკარი", "რაფიკი", "მუფასა", "ზაზუ"],
+    "correctIndex": 2,
+    "gloss": "In \"The Lion King\", what is Simba's father called? — Mufasa; Scar is his uncle, Rafiki the mandrill, Zazu the hornbill."
+  },
+  {
+    "level": 1,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელი ტკბილეული მზადდება შემწვარი ნიგვზისა და თაფლისგან და აუცილებლად დგას საახალწლო სუფრაზე?",
+    "options": ["გოზინაყი", "ჩურჩხელა", "ფელამუში", "ტყლაპი"],
+    "correctIndex": 0,
+    "gloss": "Which sweet, made of roasted walnuts and honey, is a must on the New Year table? — Gozinaki."
+  },
+  {
+    "level": 1,
+    "category": "popCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელი ცხოველია გამოსახული მინერალური წყლის, „ბორჯომის“, ეტიკეტზე?",
+    "options": ["ჯიხვი", "არწივი", "ლომი", "ირემი"],
+    "correctIndex": 3,
+    "gloss": "Which animal is on the label of Borjomi mineral water? — A deer (stag), the brand's emblem."
+  },
+  {
+    "level": 1,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ტელეფონის ციფრულ კლავიატურაზე 0-ს ორივე მხარეს რომელი ორი სიმბოლო დგას?",
+    "options": ["+ და −", "* და #", "@ და &", "( და )"],
+    "correctIndex": 1,
+    "gloss": "On a phone keypad, which two symbols flank the 0? — The star and the hash."
+  },
+  {
+    "level": 1,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "ამაღამ სავსე მთვარეა. როგორი იქნება ის ცაზე დაახლოებით ორი კვირის შემდეგ?",
+    "options": ["საერთოდ არ გამოჩნდება", "ისევ სავსე იქნება", "ზუსტად ნახევარი გამოჩნდება", "ოდნავ შემცირებული გამოჩნდება"],
+    "correctIndex": 0,
+    "gloss": "Tonight the Moon is full. What will it look like in about two weeks? — Not visible at all: the cycle lasts about a month (29.5 days), so half of it later comes the new moon."
+  },
+  {
+    "level": 1,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ქართული ზღაპრის რომელი გმირი სულ კერასთან წევს და ნაცარს ქექავს, ბოლოს კი ეშმაკობით დევს ამარცხებს?",
+    "options": ["კომბლე", "ამირანი", "ბადრი", "ნაცარქექია"],
+    "correctIndex": 3,
+    "gloss": "Which Georgian fairy-tale hero lies by the hearth raking the ashes, yet outwits a devi in the end? — Natsarkekia, \"ash-raker\": the name says what he does."
+  },
+  {
+    "level": 2,
+    "category": "localCulture",
+    "scope": "local",
+    "kind": "fact",
+    "text": "თბილისის რომელ ხიდთან იმართება ცნობილი ბაზრობა, სადაც ძველ ნივთებს, ნახატებსა და საბჭოთა სუვენირებს ყიდიან?",
+    "options": ["მეტეხის ხიდთან", "მშვიდობის ხიდთან", "მშრალ ხიდთან", "ბარათაშვილის ხიდთან"],
+    "correctIndex": 2,
+    "gloss": "At which Tbilisi bridge is the famous market of old things, paintings and Soviet souvenirs? — The Dry Bridge (its river arm was filled in, hence \"dry\")."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning+fact",
+    "text": "გვარები ჯიქია, ჩიქობავა, გოგუა — დაბოლოებებით -ია, -ავა, -უა — წარმოშობით ყველაზე ხშირად რომელი კუთხისაა?",
+    "options": ["სვანეთის", "რაჭის", "აჭარის", "სამეგრელოს"],
+    "correctIndex": 3,
+    "gloss": "Surnames like Jikia, Chikobava, Gogua (endings -ia, -ava, -ua) most often come from which region? — Samegrelo: these are the typical Megrelian endings (Svan names typically end in -ani)."
+  },
+  {
+    "level": 2,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რიონი შავ ზღვას რომელ ქალაქთან ერთვის?",
+    "options": ["ფოთთან", "ანაკლიასთან", "ქობულეთთან", "ბათუმთან"],
+    "correctIndex": 0,
+    "gloss": "At which town does the Rioni flow into the Black Sea? — Poti; Anaklia is the trap, at the mouth of the Enguri."
+  },
+  {
+    "level": 2,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელი ხის ფრთიანი თესლი ტრიალით ეშვება მიწაზე, პატარა ვერტმფრენივით?",
+    "options": ["წაბლის", "ნეკერჩხლის", "წიფლის", "მუხის"],
+    "correctIndex": 1,
+    "gloss": "Which tree's winged seed spins down to the ground like a little helicopter? — The maple; chestnut, beech and oak have wingless nuts."
+  },
+  {
+    "level": 2,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ქაღალდის ფურცელი შუაზე გადავკეცეთ, მერე ისევ შუაზე და კიდევ ერთხელ შუაზე. რამდენი ფენა მივიღეთ?",
+    "options": ["ექვსი", "ცხრა", "რვა", "ოთხი"],
+    "correctIndex": 2,
+    "gloss": "A sheet folded in half, then in half again, and once more. How many layers? — Eight: each fold doubles, 2 × 2 × 2. Six is the trap of adding 2 each time."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ტრანსპორტის ექვსნიშნა ბილეთს „იღბლიანს“ ეძახდნენ, თუ პირველი სამი ციფრის ჯამი ბოლო სამის ჯამს უდრიდა. რომელია იღბლიანი?",
+    "options": ["352 019", "123 456", "505 050", "714 213"],
+    "correctIndex": 0,
+    "gloss": "A six-digit bus ticket was \"lucky\" if its first three digits added up to the same as the last three. Which is lucky? — 352 019: 3+5+2 = 0+1+9 = 10. The others: 6/15, 10/5, 12/6."
+  },
+  {
+    "level": 2,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ილია ჭავჭავაძის რომელი თხზულების გმირები არიან ლუარსაბ და დარეჯან თათქარიძეები?",
+    "options": ["„ოთარაანთ ქვრივი“", "„გლახის ნაამბობი“", "„სარჩობელაზედ“", "„კაცია-ადამიანი?!“"],
+    "correctIndex": 3,
+    "gloss": "Which work by Ilia Chavchavadze has Luarsab and Darejan Tatkaridze as its heroes? — \"Is He a Man?!\""
+  },
+  {
+    "level": 2,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ჩოგბურთში გეიმის ანგარიში ასე მიდის: 0, 15, 30… რა მოდის შემდეგ?",
+    "options": ["45", "40", "50", "60"],
+    "correctIndex": 1,
+    "gloss": "In tennis a game is scored 0, 15, 30… what comes next? — 40, not the 45 the pattern suggests."
+  },
+  {
+    "level": 2,
+    "category": "food",
+    "scope": "global",
+    "kind": "fact",
+    "text": "მარციპანი ძირითადად შაქრისა და რომელი დაფქული კაკლოვანისგან მზადდება?",
+    "options": ["ნუშის", "თხილის", "ფისტის", "არაქისის"],
+    "correctIndex": 0,
+    "gloss": "Marzipan is made mainly of sugar and which ground nut? — Almond."
+  },
+  {
+    "level": 2,
+    "category": "filmTv",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ გადაიღო ფანტასტიკური კომედია „კინ-ძა-ძა!“, რომლის გმირებიც სხვა პლანეტაზე ერთმანეთს „კუ!“-თი ესალმებიან?",
+    "options": ["ელდარ შენგელაიამ", "ოთარ იოსელიანმა", "რეზო ჩხეიძემ", "გიორგი დანელიამ"],
+    "correctIndex": 3,
+    "gloss": "Who directed the sci-fi comedy \"Kin-dza-dza!\", whose characters greet each other with \"Ku!\" on another planet? — Giorgi Danelia (1986)."
+  },
+  {
+    "level": 2,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "ოთხი გუნდი ტურნირს ისე თამაშობს, რომ თითოეული დანარჩენ სამს თითო-თითოჯერ ხვდება. სულ რამდენი მატჩი გაიმართება?",
+    "options": ["რვა", "თორმეტი", "ექვსი", "ოთხი"],
+    "correctIndex": 2,
+    "gloss": "Four teams each play the other three once. How many matches in all? — Six: 4 × 3 = 12 counts every match twice."
+  },
+  {
+    "level": 2,
+    "category": "music",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რისთვის იყენებენ მუსიკოსები მეტრონომს?",
+    "options": ["ინსტრუმენტის ასაწყობად", "ხმის გასაძლიერებლად", "ნოტების ჩასაწერად", "ტემპის ზუსტად დასაცავად"],
+    "correctIndex": 3,
+    "gloss": "What do musicians use a metronome for? — To keep a steady tempo: it ticks a set number of beats per minute. Tuning an instrument is the trap (that is a tuner or tuning fork)."
+  },
+  {
+    "level": 2,
+    "category": "language",
+    "scope": "local",
+    "kind": "reasoning",
+    "text": "ქართული განთქმულია თანხმოვნების გროვებით. რომელი სიტყვა იწყება ზედიზედ ყველაზე მეტი თანხმოვნით?",
+    "options": ["„გვფრცქვნის“", "„მწვრთნელი“", "„ბრტყელი“", "„მთვრალი“"],
+    "correctIndex": 0,
+    "gloss": "Georgian is famous for consonant clusters. Which word starts with the most consonants in a row? — „გვფრცქვნის“ (he peels us): eight, against six, four and four."
+  },
+  {
+    "level": 3,
+    "category": "literature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ალექსანდრე დიუმას რომანში „გრაფი მონტე-კრისტო“ ედმონ დანტესი თოთხმეტ წელს ციხეში ატარებს. რომელში?",
+    "options": ["ბასტილიაში", "იფის ციხე-სიმაგრეში", "ლონდონის თაუერში", "შილიონის ციხე-სიმაგრეში"],
+    "correctIndex": 1,
+    "gloss": "In Dumas's \"The Count of Monte Cristo\", Edmond Dantès spends fourteen years in prison. Which one? — The Château d'If, off Marseille; Chillon is the castle of Byron's prisoner."
+  },
+  {
+    "level": 3,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "ბრაუზერის მისამართში https-ის ბოლო ასო, „s“, რას ნიშნავს?",
+    "options": ["სწრაფ კავშირს", "საძიებო სისტემას", "დაშიფრულ, დაცულ კავშირს", "სტანდარტულ ვერსიას"],
+    "correctIndex": 2,
+    "gloss": "In a browser address, what does the final \"s\" of https stand for? — Secure: the connection is encrypted (HTTP over TLS)."
+  },
+  {
+    "level": 3,
+    "category": "general",
+    "scope": "global",
+    "kind": "reasoning",
+    "text": "სოფლიდან მთის ეკლესიამდე 6 კილომეტრია. აღმართს საათში 3 კილომეტრით ავუყევით, უკან კი საათში 6 კილომეტრით ჩამოვედით. რა იყო საშუალო სიჩქარე მთელ გზაზე?",
+    "options": ["საათში 4 კმ", "საათში 4,5 კმ", "საათში 5 კმ", "საათში 3,5 კმ"],
+    "correctIndex": 0,
+    "gloss": "Village to mountain church is 6 km; up at 3 km/h, down at 6 km/h. Average speed for the whole trip? — 4 km/h: 12 km in 2 + 1 = 3 hours. 4.5 is the trap of averaging the speeds."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ჯავახეთის ვულკანურ ზეგანზე მდებარეობს საქართველოს უდიდესი ტბა. რომელი?",
+    "options": ["ტაბაწყური", "ხანჩალი", "საღამო", "ფარავანი"],
+    "correctIndex": 3,
+    "gloss": "Georgia's largest lake lies on the volcanic Javakheti plateau. Which? — Paravani (about 37.5 km²); all four are Javakheti lakes, Tabatskuri is second."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვარძიის კლდეში ნაკვეთი მონასტრის ფრესკაზე რომელი მეფეა გამოსახული — ერთ-ერთ იმ იშვიათ პორტრეტზე, რომელიც მისსავე სიცოცხლეში შეიქმნა?",
+    "options": ["დავით აღმაშენებელი", "თამარი", "ბაგრატ III", "ერეკლე II"],
+    "correctIndex": 1,
+    "gloss": "Which monarch is on the fresco of the rock-cut Vardzia monastery, one of the rare portraits made in their lifetime? — Queen Tamar (shown beside her father George III, who is not an option)."
+  },
+  {
+    "level": 3,
+    "category": "music",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ვინ არის სიმღერა „თბილისოს“ მუსიკის ავტორი?",
+    "options": ["რევაზ ლაღიძე", "გია ყანჩელი", "ოთარ თაქთაქიშვილი", "ანდრია ბალანჩივაძე"],
+    "correctIndex": 0,
+    "gloss": "Who composed the music of the song \"Tbiliso\"? — Revaz Laghidze; the words are by Petre Gruzinski."
+  },
+  {
+    "level": 3,
+    "category": "sports",
+    "scope": "global",
+    "kind": "fact",
+    "text": "რომელ სპორტში ნიშნავს „იპონი“ სუფთა, ვადამდელ გამარჯვებას?",
+    "options": ["ჭიდაობაში", "სამბოში", "სუმოში", "ძიუდოში"],
+    "correctIndex": 3,
+    "gloss": "In which sport does an \"ippon\" mean an outright, early win? — Judo."
+  },
+  {
+    "level": 3,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "წყლით სავსე ჭიქაში ძველი კვერცხი ამოტივტივდება, ახალი კი ფსკერზე დაიძირება. რატომ?",
+    "options": ["ძველ კვერცხს ნაჭუჭი გაუთხელდა", "ძველ კვერცხში ცილა გამკვრივდა", "ძველ კვერცხში ჰაერის ბუშტი გაიზარდა", "ძველ კვერცხს გული გაუმსხვილდა"],
+    "correctIndex": 2,
+    "gloss": "In a glass of water an old egg floats while a fresh one sinks. Why? — Moisture escapes through the porous shell over time and air takes its place, so the air cell at the blunt end grows and the egg gets lighter."
+  },
+  {
+    "level": 3,
+    "category": "history",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "გერმანული „კაიზერი“ და რუსული „ცარი“ ერთი რომაელის სახელიდან მოდის. ვისი?",
+    "options": ["ოქტავიანე ავგუსტუსის", "ნერონის", "კონსტანტინე დიდის", "იულიუს კეისრის"],
+    "correctIndex": 3,
+    "gloss": "German \"Kaiser\" and Russian \"tsar\" both come from one Roman's name. Whose? — Julius Caesar's: the cognomen Caesar became an imperial title (Georgian კეისარი too)."
+  },
+  {
+    "level": 3,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "თბილისიდან ზუსტად აღმოსავლეთით რომ გავფრინდეთ, რომელ ზღვას გადავუფრენთ პირველს?",
+    "options": ["კასპიის ზღვას", "არალის ზღვას", "შავ ზღვას", "აზოვის ზღვას"],
+    "correctIndex": 0,
+    "gloss": "Flying due east from Tbilisi, which sea do we cross first? — The Caspian, after Azerbaijan; the Aral lies further north-east, the Black and Azov Seas are west."
+  },
+  {
+    "level": 4,
+    "category": "mythology",
+    "scope": "local",
+    "kind": "fact",
+    "text": "ქართულ ხატებსა და რელიეფებზე წმინდა გიორგი ხშირად დრაკონს კი არა, ადამიანს განგმირავს შუბით. ვის?",
+    "options": ["იმპერატორ ნერონს", "იმპერატორ დიოკლეტიანეს", "იმპერატორ იულიანეს", "იმპერატორ კალიგულას"],
+    "correctIndex": 1,
+    "gloss": "On Georgian icons and reliefs St George often spears not a dragon but a man. Whom? — Emperor Diocletian, under whom he was martyred."
+  },
+  {
+    "level": 4,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "დახურულ, ჰაერგაუმტარ ოთახში ჩართულ მაცივარს კარი ღია დაუტოვეს. რა მოუვა დროთა განმავლობაში ოთახის ჰაერის ტემპერატურას?",
+    "options": ["დაიკლებს", "არ შეიცვლება", "მოიმატებს", "მაცივრის ტემპერატურამდე დაეცემა"],
+    "correctIndex": 2,
+    "gloss": "A running fridge is left open in a sealed room. What happens to the room's temperature over time? — It rises: the fridge only moves heat from inside to its back, and its motor adds heat of its own."
+  },
+  {
+    "level": 4,
+    "category": "music",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "პირველი ოქტავის „ლა“ 440 ჰერცზე ჟღერს. რა სიხშირე აქვს ერთი ოქტავით მაღალ „ლა“-ს?",
+    "options": ["880 ჰერცი", "480 ჰერცი", "660 ჰერცი", "540 ჰერცი"],
+    "correctIndex": 0,
+    "gloss": "A4 sounds at 440 Hz. What frequency is the A one octave higher? — 880 Hz: an octave up doubles the frequency."
+  },
+  {
+    "level": 4,
+    "category": "literature",
+    "scope": "local",
+    "kind": "fact",
+    "text": "დავით გურამიშვილმა, „დავითიანის“ ავტორმა, სიცოცხლის ბოლო ათწლეულები უკრაინაში გაატარა. რომელ ქალაქშია ის დაკრძალული?",
+    "options": ["პოლტავაში", "კიევში", "ხარკოვში", "მირგოროდში"],
+    "correctIndex": 3,
+    "gloss": "David Guramishvili, author of \"Davitiani\", spent his last decades in Ukraine. In which town is he buried? — Mirgorod (Myrhorod), Poltava region."
+  },
+  {
+    "level": 4,
+    "category": "technology",
+    "scope": "global",
+    "kind": "fact",
+    "text": "პროგრამირების ენა Python-ს სახელი გველის პატივსაცემად არ დარქმევია. საიდან მოდის ის?",
+    "options": ["დელფოს მითიური დრაკონის სახელიდან", "ბრიტანული კომედიური შოუს სახელიდან", "ავტორის ძაღლის სახელიდან", "ამერიკული ფილმის სახელიდან"],
+    "correctIndex": 1,
+    "gloss": "The Python language was not named after the snake. Where does the name come from? — Guido van Rossum named it after the British comedy show \"Monty Python's Flying Circus\"."
+  },
+  {
+    "level": 4,
+    "category": "food",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რა ჰქვია თუშურ ყველს, რომელიც ცხვრის ტყავისგან შეკერილ ტომარაში მწიფდება?",
+    "options": ["გუდის ყველი", "ტენილი", "დამბალხაჭო", "ნადუღი"],
+    "correctIndex": 0,
+    "gloss": "What is the Tushetian cheese ripened in a sack sewn from sheepskin called? — Guda cheese; tenili is Meskhetian string cheese, dambalkhacho a mould cheese, nadughi a whey curd."
+  },
+  {
+    "level": 4,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "რომელ ქვეყანას კვეთს ერთდროულად ეკვატორიც და სამხრეთის ტროპიკიც?",
+    "options": ["ინდონეზიას", "არგენტინას", "კენიას", "ბრაზილიას"],
+    "correctIndex": 3,
+    "gloss": "Which country is crossed by both the Equator and the Tropic of Capricorn? — Brazil, the only one; Indonesia and Kenya have only the Equator, Argentina only the tropic."
+  },
+  {
+    "level": 5,
+    "category": "history",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რა ერქვა პირველ ქართულ გაზეთს, რომელიც 1819 წელს თბილისში გამოვიდა?",
+    "options": ["„დროება“", "„ივერია“", "„საქართველოს გაზეთი“", "„ცისკარი“"],
+    "correctIndex": 2,
+    "gloss": "What was the first Georgian newspaper, published in Tbilisi in 1819, called? — \"Sakartvelos Gazeti\"; Droeba (1866) and Iveria (1877) came later, Tsiskari was a magazine."
+  },
+  {
+    "level": 5,
+    "category": "science",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "O ჯგუფის ერითროციტები თითქმის ყველას შეიძლება გადაესხას. პლაზმის „უნივერსალური დონორი“ კი სხვა ჯგუფია. რომელი?",
+    "options": ["A", "B", "O", "AB"],
+    "correctIndex": 3,
+    "gloss": "O red cells can be given to almost anyone; the universal plasma donor is another group. Which? — AB: its plasma has neither anti-A nor anti-B antibodies, the mirror image of O."
+  },
+  {
+    "level": 5,
+    "category": "art",
+    "scope": "local",
+    "kind": "fact",
+    "text": "რომელი მხატვრის ტილოა „იმერეთი — დედაჩემი“?",
+    "options": ["დავით კაკაბაძის", "ლადო გუდიაშვილის", "შალვა ქიქოძის", "ელენე ახვლედიანის"],
+    "correctIndex": 0,
+    "gloss": "Which painter made the canvas \"Imereti — My Mother\"? — David Kakabadze (1918)."
+  },
+  {
+    "level": 5,
+    "category": "geography",
+    "scope": "global",
+    "kind": "reasoning+fact",
+    "text": "გემი წყნარ ოკეანეში თარიღის საერთაშორისო ხაზს აღმოსავლეთიდან დასავლეთისკენ, ამერიკიდან აზიისკენ კვეთს. რა ემართება გემზე კალენდარს?",
+    "options": ["ერთი დღით უკან ბრუნდება", "ერთი დღით წინ გადადის", "ერთი საათით წინ გადადის", "არაფერი არ იცვლება"],
+    "correctIndex": 1,
+    "gloss": "A ship crosses the International Date Line westward, from America to Asia. What happens to its calendar? — It jumps one day ahead (a date is skipped); eastward it repeats a day."
+  },
+  {
+    "level": 5,
+    "category": "nature",
+    "scope": "global",
+    "kind": "fact",
+    "text": "აქსოლოტლი ამფიბიაა, რომელიც მთელი სიცოცხლე ლარვის იერს ინარჩუნებს. ველურ ბუნებაში მხოლოდ რომელი ქვეყნის ტბებში ბინადრობს?",
+    "options": ["ბრაზილიის", "ჩილეს", "მექსიკის", "პერუს"],
+    "correctIndex": 2,
+    "gloss": "The axolotl keeps its larval look all its life. In the wild it lives only in the lakes of which country? — Mexico (Xochimilco, near Mexico City)."
   }
 ]
