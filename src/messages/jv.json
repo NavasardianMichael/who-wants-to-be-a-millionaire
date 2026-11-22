@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Jutawan",
     "tagline": "Dolanan kuis ala acara TV ing basa panjenengan",
+    "preferredSourceEyebrow": "Deleng kita luwih kerep ing Google",
+    "preferredSource": "Tambahna minangka sumber pilihan",
     "play": "Main",
     "playNow": "Main saiki",
     "playAgain": "Main maneh",

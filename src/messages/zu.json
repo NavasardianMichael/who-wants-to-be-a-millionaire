@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Usozigidi",
     "tagline": "Umdlalo wemibuzo ngolimi lwakho",
+    "preferredSourceEyebrow": "Sibone kaningi ku-Google",
+    "preferredSource": "Engeza njengomthombo okhethwayo",
     "play": "Dlala",
     "playNow": "Dlala manje",
     "playAgain": "Dlala futhi",

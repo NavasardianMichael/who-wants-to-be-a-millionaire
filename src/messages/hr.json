@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milijunaš",
     "tagline": "Kviz-show igra na tvom jeziku",
+    "preferredSourceEyebrow": "Gledajte nas češće na Googleu",
+    "preferredSource": "Dodaj kao preferirani izvor",
     "play": "Igraj",
     "playNow": "Igraj odmah",
     "playAgain": "Igraj ponovno",

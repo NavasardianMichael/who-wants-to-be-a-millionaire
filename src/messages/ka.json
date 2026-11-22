@@ -2,6 +2,8 @@
   "Common": {
     "appName": "მილიონერი",
     "tagline": "ვიქტორინა-შოუ შენს ენაზე",
+    "preferredSourceEyebrow": "გვნახეთ უფრო ხშირად Google-ში",
+    "preferredSource": "დაამატეთ სასურველ წყაროდ",
     "play": "თამაში",
     "playNow": "ითამაშე ახლავე",
     "playAgain": "ითამაშე თავიდან",

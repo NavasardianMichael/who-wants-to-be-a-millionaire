@@ -21,8 +21,8 @@ const GATES = [
     root: 'src',
     exts: TS,
     pattern: /#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b(?![\w-])/,
-    // The palette itself, and Google's own brand mark (fixed by their sign-in guidelines).
-    skip: /^src\/styles\/|^src\/components\/layout\/GoogleSignInButton\.tsx$/,
+    // The palette itself, and Google's own brand mark (fixed by their guidelines).
+    skip: /^src\/styles\/|^src\/components\/brand\/GoogleMark\.tsx$/,
     excludeLine: /^\s*(\/\/|\*)/,
   },
   {

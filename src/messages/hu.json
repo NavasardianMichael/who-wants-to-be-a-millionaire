@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milliomos",
     "tagline": "A kvízműsor-játék a te nyelveden",
+    "preferredSourceEyebrow": "Lásson minket gyakrabban a Google-ben",
+    "preferredSource": "Hozzáadás előnyben részesített forrásként",
     "play": "Játék",
     "playNow": "Játssz most",
     "playAgain": "Új játék",

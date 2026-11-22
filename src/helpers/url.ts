@@ -6,7 +6,16 @@ export const getSiteUrl = (): string => {
   return (process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK).replace(/\/+$/, '')
 }
 
-export const absoluteUrl = (path: string): string => `${getSiteUrl()}${path.startsWith('/') ? path : `/${path}`}`
+/**
+ * Google's "preferred sources" page for this site: a reader who adds it sees the site more
+ * often in Top Stories and AI answers. The no-script deeplink from
+ * developers.google.com/search/docs/appearance/preferred-sources, so the footer's badge is
+ * drawn in our own colours and loads nothing from Google. Built from the env, never the tab.
+ */
+export const googlePreferredSourceUrl = (): string =>
+  `https://www.google.com/preferences/source?q=${new URL(process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK).host}`
+
+export const absoluteUrl =(path: string): string => `${getSiteUrl()}${path.startsWith('/') ? path : `/${path}`}`
 
 /**
  * The API origin. On the server an `API_INTERNAL_URL` (e.g. `http://127.0.0.1:9006`) wins, so

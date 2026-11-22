@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Саятан",
     "tagline": "Өөрийн хэлээрээ тоглох мэдлэгийн шоу",
+    "preferredSourceEyebrow": "Биднийг Google-ээс илүү олон удаа хараарай",
+    "preferredSource": "Сонгосон эх сурвалжаар нэмэх",
     "play": "Тоглох",
     "playNow": "Одоо тоглох",
     "playAgain": "Дахин тоглох",

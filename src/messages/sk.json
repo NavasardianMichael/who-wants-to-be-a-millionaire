@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milionár",
     "tagline": "Vedomostná šou v tvojom jazyku",
+    "preferredSourceEyebrow": "Vídajte nás na Googli častejšie",
+    "preferredSource": "Pridať ako preferovaný zdroj",
     "play": "Hrať",
     "playNow": "Hraj teraz",
     "playAgain": "Hrať znova",

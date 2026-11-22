@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miljonär",
     "tagline": "Mälumäng nagu telesaates – sinu keeles",
+    "preferredSourceEyebrow": "Näe meid Google’is sagedamini",
+    "preferredSource": "Lisa eelistatud allikaks",
     "play": "Mängi",
     "playNow": "Mängi kohe",
     "playAgain": "Mängi uuesti",

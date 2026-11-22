@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milionário",
     "tagline": "O game show de perguntas no seu idioma",
+    "preferredSourceEyebrow": "Veja a gente com mais frequência no Google",
+    "preferredSource": "Adicionar como fonte preferida",
     "play": "Jogar",
     "playNow": "Jogar agora",
     "playAgain": "Jogar de novo",

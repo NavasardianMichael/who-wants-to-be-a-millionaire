@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milionari",
     "tagline": "El concurs de preguntes en la teva llengua",
+    "preferredSourceEyebrow": "Veu-nos més sovint a Google",
+    "preferredSource": "Afegeix com a font preferida",
     "play": "Juga",
     "playNow": "Juga ara",
     "playAgain": "Torna a jugar",

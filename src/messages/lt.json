@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milijonierius",
     "tagline": "Televizijos viktorinos žaidimas tavo kalba",
+    "preferredSourceEyebrow": "Matykite mus dažniau „Google“",
+    "preferredSource": "Pridėti kaip pageidaujamą šaltinį",
     "play": "Žaisti",
     "playNow": "Žaisti dabar",
     "playAgain": "Žaisti dar kartą",

@@ -2,6 +2,8 @@
   "Common": {
     "appName": "करोड़पति",
     "tagline": "आपकी भाषा में क्विज़ शो वाला गेम",
+    "preferredSourceEyebrow": "Google पर हमें ज़्यादा देखें",
+    "preferredSource": "पसंदीदा स्रोत के रूप में जोड़ें",
     "play": "खेलें",
     "playNow": "अभी खेलें",
     "playAgain": "फिर से खेलें",

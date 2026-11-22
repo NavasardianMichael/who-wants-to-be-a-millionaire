@@ -2,6 +2,8 @@
   "Common": {
     "appName": "백만장자",
     "tagline": "내 언어로 즐기는 퀴즈쇼 게임",
+    "preferredSourceEyebrow": "Google에서 더 자주 만나보세요",
+    "preferredSource": "선호하는 소스로 추가",
     "play": "플레이",
     "playNow": "지금 플레이",
     "playAgain": "다시 하기",

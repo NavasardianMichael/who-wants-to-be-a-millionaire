@@ -2,6 +2,8 @@
   "Common": {
     "appName": "ミリオネア",
     "tagline": "あなたの言語で遊べるクイズ番組ゲーム",
+    "preferredSourceEyebrow": "Google でもっと表示されるように",
+    "preferredSource": "優先ソースとして追加",
     "play": "プレイ",
     "playNow": "今すぐプレイ",
     "playAgain": "もう一度プレイ",

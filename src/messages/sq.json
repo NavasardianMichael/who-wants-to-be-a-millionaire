@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milioneri",
     "tagline": "Kuizi televiziv në gjuhën tënde",
+    "preferredSourceEyebrow": "Na shihni më shpesh në Google",
+    "preferredSource": "Shto si burim të preferuar",
     "play": "Luaj",
     "playNow": "Luaj tani",
     "playAgain": "Luaj përsëri",

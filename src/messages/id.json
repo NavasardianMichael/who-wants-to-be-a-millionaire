@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miliarder",
     "tagline": "Game kuis ala acara TV dalam bahasa Anda",
+    "preferredSourceEyebrow": "Lihat kami lebih sering di Google",
+    "preferredSource": "Tambahkan sebagai sumber pilihan",
     "play": "Main",
     "playNow": "Main sekarang",
     "playAgain": "Main lagi",

@@ -6,6 +6,7 @@ import { networkLink } from '@helpers/network'
 import { Emblem } from '@components/brand/Emblem'
 import { ConsentSettingsLink } from '@components/consent/ConsentSettingsLink'
 import { AppLink } from '@components/ui/bare/AppLink'
+import { PreferredSourceBadge } from './PreferredSourceBadge'
 
 /**
  * Server-rendered, so every link is crawlable. The language list links each locale's home
@@ -29,6 +30,9 @@ export const Footer = () => {
             <p className='font-display text-h3 font-black text-gold-gradient'>{t('Common.appName')}</p>
           </div>
           <p className='max-w-sm text-body-sm text-mist'>{t('Common.tagline')}</p>
+          <div>
+            <PreferredSourceBadge />
+          </div>
           <div>
             <h2 className='mb-2 text-caption font-bold tracking-[0.2em] text-spot-300 uppercase'>{t('Nav.moreApps')}</h2>
             <ul className='flex flex-wrap gap-x-4 gap-y-1.5'>

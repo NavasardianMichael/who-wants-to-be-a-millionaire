@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miljonär",
     "tagline": "Frågesportspelet på ditt språk",
+    "preferredSourceEyebrow": "Se oss oftare på Google",
+    "preferredSource": "Lägg till som föredragen källa",
     "play": "Spela",
     "playNow": "Spela nu",
     "playAgain": "Spela igen",

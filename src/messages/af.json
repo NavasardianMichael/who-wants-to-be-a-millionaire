@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miljoenêr",
     "tagline": "Die vasvraspel in u eie taal",
+    "preferredSourceEyebrow": "Sien ons meer op Google",
+    "preferredSource": "Voeg by as voorkeurbron",
     "play": "Speel",
     "playNow": "Speel nou",
     "playAgain": "Speel weer",

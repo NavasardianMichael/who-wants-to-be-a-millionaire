@@ -2,6 +2,8 @@
   "Common": {
     "appName": "المليونير",
     "tagline": "لعبة المسابقات التلفزيونية بلغتك",
+    "preferredSourceEyebrow": "شاهدنا أكثر على Google",
+    "preferredSource": "أضفنا كمصدر مفضّل",
     "play": "العب",
     "playNow": "العب الآن",
     "playAgain": "العب مرة أخرى",

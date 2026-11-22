@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Jutawan",
     "tagline": "Permainan kuiz TV dalam bahasa anda",
+    "preferredSourceEyebrow": "Lihat kami lebih kerap di Google",
+    "preferredSource": "Tambah sebagai sumber pilihan",
     "play": "Main",
     "playNow": "Main sekarang",
     "playAgain": "Main lagi",

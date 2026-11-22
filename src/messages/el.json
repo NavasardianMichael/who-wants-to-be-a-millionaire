@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Εκατομμυριούχος",
     "tagline": "Το τηλεπαιχνίδι γνώσεων στη γλώσσα σου",
+    "preferredSourceEyebrow": "Δείτε μας πιο συχνά στο Google",
+    "preferredSource": "Προσθήκη ως προτιμώμενη πηγή",
     "play": "Παίξε",
     "playNow": "Παίξε τώρα",
     "playAgain": "Παίξε ξανά",

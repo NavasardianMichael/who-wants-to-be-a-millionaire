@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miljonääri",
     "tagline": "Visailupeli omalla kielelläsi",
+    "preferredSourceEyebrow": "Näe meidät useammin Googlessa",
+    "preferredSource": "Lisää ensisijaiseksi lähteeksi",
     "play": "Pelaa",
     "playNow": "Pelaa nyt",
     "playAgain": "Pelaa uudelleen",

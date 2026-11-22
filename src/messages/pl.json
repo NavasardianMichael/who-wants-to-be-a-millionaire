@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milioner",
     "tagline": "Teleturniej w twoim języku",
+    "preferredSourceEyebrow": "Widź nas częściej w Google",
+    "preferredSource": "Dodaj jako preferowane źródło",
     "play": "Graj",
     "playNow": "Zagraj teraz",
     "playAgain": "Zagraj ponownie",

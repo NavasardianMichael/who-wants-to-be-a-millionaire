@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Malaayiinlaha",
     "tagline": "Ciyaarta tartanka aqoonta ee luqaddaada",
+    "preferredSourceEyebrow": "Naga arag marar badan Google",
+    "preferredSource": "Ku dar il la doorbido",
     "play": "Ciyaar",
     "playNow": "Hadda ciyaar",
     "playAgain": "Mar kale ciyaar",

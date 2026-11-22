@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Millionær",
     "tagline": "Quizshowet på ditt eget språk",
+    "preferredSourceEyebrow": "Se oss oftere på Google",
+    "preferredSource": "Legg til som foretrukken kilde",
     "play": "Spill",
     "playNow": "Spill nå",
     "playAgain": "Spill igjen",

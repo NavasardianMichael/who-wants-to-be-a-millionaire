@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milioiduna",
     "tagline": "Galdera-lehiaketa zure hizkuntzan",
+    "preferredSourceEyebrow": "Ikusi gaitzazu maizago Googlen",
+    "preferredSource": "Gehitu iturri hobetsi gisa",
     "play": "Jokatu",
     "playNow": "Jokatu orain",
     "playAgain": "Jokatu berriro",

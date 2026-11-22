@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Millionnaire",
     "tagline": "Le jeu télévisé de quiz dans votre langue",
+    "preferredSourceEyebrow": "Voyez-nous plus souvent sur Google",
+    "preferredSource": "Ajouter comme source préférée",
     "play": "Jouer",
     "playNow": "Jouer maintenant",
     "playAgain": "Rejouer",

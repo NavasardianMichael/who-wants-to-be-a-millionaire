@@ -2,6 +2,8 @@
   "Common": {
     "appName": "കോടീശ്വരൻ",
     "tagline": "നിങ്ങളുടെ ഭാഷയിൽ ഒരു ക്വിസ് ഷോ ഗെയിം",
+    "preferredSourceEyebrow": "Google-ൽ ഞങ്ങളെ കൂടുതൽ കാണൂ",
+    "preferredSource": "ഇഷ്ട ഉറവിടമായി ചേർക്കുക",
     "play": "കളിക്കൂ",
     "playNow": "ഇപ്പോൾ കളിക്കൂ",
     "playAgain": "വീണ്ടും കളിക്കൂ",

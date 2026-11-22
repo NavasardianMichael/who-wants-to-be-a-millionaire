@@ -2,6 +2,8 @@
   "Common": {
     "appName": "เศรษฐี",
     "tagline": "เกมโชว์ตอบคำถามในภาษาของคุณ",
+    "preferredSourceEyebrow": "เห็นเราบ่อยขึ้นบน Google",
+    "preferredSource": "เพิ่มเป็นแหล่งข้อมูลที่ต้องการ",
     "play": "เล่น",
     "playNow": "เล่นเลย",
     "playAgain": "เล่นอีกครั้ง",

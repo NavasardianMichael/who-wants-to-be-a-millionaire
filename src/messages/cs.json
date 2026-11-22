@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Milionář",
     "tagline": "Kvízová show ve tvém jazyce",
+    "preferredSourceEyebrow": "Vídejte nás na Googlu častěji",
+    "preferredSource": "Přidat jako preferovaný zdroj",
     "play": "Hrát",
     "playNow": "Hrát teď",
     "playAgain": "Hrát znovu",

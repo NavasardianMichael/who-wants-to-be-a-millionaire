@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Мільянер",
     "tagline": "Тэлевіктарына на тваёй мове",
+    "preferredSourceEyebrow": "Бачце нас часцей у Google",
+    "preferredSource": "Дадаць як пераважную крыніцу",
     "play": "Гуляць",
     "playNow": "Гуляць зараз",
     "playAgain": "Згуляць яшчэ",

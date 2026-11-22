@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Миллионер",
     "tagline": "Өз тилиңиздеги шоу-викторина",
+    "preferredSourceEyebrow": "Бизди Google’да көбүрөөк көрүңүз",
+    "preferredSource": "Тандалган булак катары кошуу",
     "play": "Ойноо",
     "playNow": "Азыр ойноо",
     "playAgain": "Кайра ойноо",

@@ -2,6 +2,8 @@
   "Common": {
     "appName": "המיליונר",
     "tagline": "שעשועון הטריוויה בשפה שלך",
+    "preferredSourceEyebrow": "ראו אותנו יותר ב-Google",
+    "preferredSource": "הוספה כמקור מועדף",
     "play": "לשחק",
     "playNow": "לשחק עכשיו",
     "playAgain": "לשחק שוב",

@@ -2,6 +2,8 @@
   "Common": {
     "appName": "百萬富翁",
     "tagline": "用您的語言暢玩的電視益智問答遊戲",
+    "preferredSourceEyebrow": "在 Google 上更常看到我們",
+    "preferredSource": "新增為偏好來源",
     "play": "開始玩",
     "playNow": "立即開玩",
     "playAgain": "再玩一次",

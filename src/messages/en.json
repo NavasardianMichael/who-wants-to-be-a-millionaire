@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Millionaire",
     "tagline": "The quiz show game in your language",
+    "preferredSourceEyebrow": "See us more often on Google",
+    "preferredSource": "Add as a preferred source",
     "play": "Play",
     "playNow": "Play now",
     "playAgain": "Play again",

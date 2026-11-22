@@ -2,6 +2,8 @@
   "Common": {
     "appName": "কোটিপতি",
     "tagline": "আপনার ভাষায় কুইজ শোয়ের খেলা",
+    "preferredSourceEyebrow": "Google-এ আমাদের আরও বেশি দেখুন",
+    "preferredSource": "পছন্দের উৎস হিসেবে যোগ করুন",
     "play": "খেলুন",
     "playNow": "এখনই খেলুন",
     "playAgain": "আবার খেলুন",

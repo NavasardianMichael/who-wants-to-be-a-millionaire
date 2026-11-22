@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Милионер",
     "tagline": "ТВ-квизот на твојот јазик",
+    "preferredSourceEyebrow": "Гледајте нè почесто на Google",
+    "preferredSource": "Додај како претпочитан извор",
     "play": "Играј",
     "playNow": "Играј сега",
     "playAgain": "Играј пак",

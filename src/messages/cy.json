@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Miliwnydd",
     "tagline": "Y gêm gwis yn dy iaith di",
+    "preferredSourceEyebrow": "Gwelwch ni’n amlach ar Google",
+    "preferredSource": "Ychwanegu fel ffynhonnell ddewisol",
     "play": "Chwarae",
     "playNow": "Chwarae nawr",
     "playAgain": "Chwarae eto",

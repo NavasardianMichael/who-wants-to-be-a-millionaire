@@ -2,6 +2,8 @@
   "Common": {
     "appName": "ເສດຖີ",
     "tagline": "ເກມໂຊຕອບຄຳຖາມໃນພາສາຂອງທ່ານ",
+    "preferredSourceEyebrow": "ເຫັນພວກເຮົາເລື້ອຍຂຶ້ນໃນ Google",
+    "preferredSource": "ເພີ່ມເປັນແຫຼ່ງທີ່ມັກ",
     "play": "ຫຼິ້ນ",
     "playNow": "ຫຼິ້ນເລີຍ",
     "playAgain": "ຫຼິ້ນອີກຄັ້ງ",

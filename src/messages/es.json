@@ -2,6 +2,8 @@
   "Common": {
     "appName": "Millonario",
     "tagline": "El concurso de preguntas en su idioma",
+    "preferredSourceEyebrow": "Vénos más a menudo en Google",
+    "preferredSource": "Añadir como fuente preferida",
     "play": "Jugar",
     "playNow": "Juegue ya",
     "playAgain": "Jugar otra vez",
