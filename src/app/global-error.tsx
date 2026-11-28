@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import * as Sentry from '@sentry/nextjs'
+import { reloadIfStaleBuild } from '@helpers/staleBuild'
 import { GOLD, STUDIO, TEXT } from '@styles/tokens'
 
 /**
@@ -10,6 +11,7 @@ import { GOLD, STUDIO, TEXT } from '@styles/tokens'
  */
 export default function GlobalError({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   useEffect(() => {
+    if (reloadIfStaleBuild(error)) return
     Sentry.captureException(error)
   }, [error])
 

@@ -3,12 +3,15 @@
 import { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { reportError } from '@helpers/reportError'
+import { reloadIfStaleBuild } from '@helpers/staleBuild'
 import { ErrorAlert } from '@components/ui/ErrorAlert'
 
 export default function RouteError({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   const t = useTranslations('Errors')
 
   useEffect(() => {
+    // "Try again" can't fix a stale build: `reset` re-renders with the same broken modules.
+    if (reloadIfStaleBuild(error)) return
     reportError(error, 'route')
   }, [error])
 
