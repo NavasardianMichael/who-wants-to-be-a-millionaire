@@ -12,6 +12,9 @@ export const dynamic = 'force-static'
 export function GET(): NextResponse {
   const script = buildServiceWorkerScript({
     version: PWA_CACHE_VERSION,
+    // Read at build time (the route is static). CI builds every deploy from its commit, and
+    // Sentry names the release after the same variable.
+    build: process.env.GITHUB_SHA?.slice(0, 12) ?? 'local',
     offlineDocument: buildOfflineDocument({
       background: STUDIO[950],
       text: TEXT.ivory,

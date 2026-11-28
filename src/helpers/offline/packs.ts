@@ -71,7 +71,11 @@ const PACK_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000
 export const ensurePack = async (locale: Locale): Promise<void> => {
   if (typeof navigator !== 'undefined' && !navigator.onLine) return
   const stored = await getPack(locale)
-  if (stored && Date.now() - Date.parse(stored.downloadedAt) < PACK_MAX_AGE_MS) return
+  if (stored && Date.now() - Date.parse(stored.downloadedAt) < PACK_MAX_AGE_MS) {
+    // A deploy empties the worker's page cache; the pack alone can't start a game offline.
+    cachePagesFor(locale)
+    return
+  }
   await downloadPack(locale)
 }
 

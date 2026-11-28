@@ -3,8 +3,8 @@ import { emblemSvg } from './brand'
 
 export const SERVICE_WORKER_URL = '/sw.js'
 
-/** Bump when the worker's behaviour or the offline document changes: old caches are dropped on activate. */
-export const PWA_CACHE_VERSION = 'v5'
+/** Bump when the worker's behaviour or the offline document changes: every cache is dropped on activate. */
+export const PWA_CACHE_VERSION = 'v6'
 
 const OFFLINE_URL = '/__offline__'
 
@@ -55,6 +55,12 @@ export const buildOfflineDocument = (colors: OfflineColors): string => `<!doctyp
 `
 
 /**
+ * Two caches. Pages and `/_next/static/` belong to one build: their cache is named after it, so
+ * a deploy ships a new worker whose activation deletes the previous build's files — never again
+ * a chunk of an old build loaded into a new page. Sounds, packs, images and fonts don't change
+ * with a build (a changed sound gets a new URL), so their cache outlives deploys and only a
+ * `version` bump empties it.
+ *
  * - Navigations: network first (with navigation preload), cached by path; offline, the same
  *   path from cache, else the locale's home page, else the offline document.
  * - `/_next/static/`: cache first — content-hashed, never stale.
@@ -63,13 +69,18 @@ export const buildOfflineDocument = (colors: OfflineColors): string => `<!doctyp
  * - Images, packs, fonts (incl. Google Fonts): stale-while-revalidate.
  * - Never intercepted: non-GET, the API (another origin), RSC payloads, analytics.
  * - `CACHE_URLS` message: the page hands over assets it loaded before the worker took
- *   control (fetched only if not cached yet), and pages to keep for offline play (a
- *   downloaded pack's locale, refreshed each time).
+ *   control, and pages to keep for offline play (the pack's locale, handed over on every
+ *   visit). Both are fetched only when this build's cache lacks them: a deploy empties it, and
+ *   the next visit fills it again.
  */
-export const buildServiceWorkerScript = (options: { version: string; offlineDocument: string }): string => {
-  const cacheName = JSON.stringify(`millionaire-${options.version}`)
+export const buildServiceWorkerScript = (options: { version: string; build: string; offlineDocument: string }): string => {
+  const cacheName = JSON.stringify(`millionaire-${options.version}-${options.build}`)
+  const mediaCacheName = JSON.stringify(`millionaire-${options.version}-media`)
   return `'use strict';
+/** This build's pages, chunks and offline document. */
 const CACHE = ${cacheName};
+/** Sounds, packs, images and fonts: kept across builds. */
+const MEDIA_CACHE = ${mediaCacheName};
 const OFFLINE_URL = ${JSON.stringify(OFFLINE_URL)};
 const OFFLINE_HTML = ${JSON.stringify(options.offlineDocument)};
 const PRECACHE_URLS = ${JSON.stringify(PRECACHE_URLS)};
@@ -127,7 +138,7 @@ const sliceRange = async (request, response) => {
  */
 const mediaRequest = async (event) => {
   const request = event.request;
-  const cache = await caches.open(CACHE);
+  const cache = await caches.open(MEDIA_CACHE);
   const cached = await cache.match(request.url, { ignoreVary: true });
   if (cached) return sliceRange(request, cached);
   let whole;
@@ -146,8 +157,12 @@ self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     await cache.put(OFFLINE_URL, new Response(OFFLINE_HTML, { headers: { 'Content-Type': 'text/html; charset=utf-8' } }));
-    // One missing file must not fail the whole install.
-    await Promise.all(PRECACHE_URLS.map((url) => cache.add(fresh(url)).catch(skip)));
+    // Only what the media cache lacks: a deploy must not download every sound again. One
+    // missing file must not fail the whole install.
+    const media = await caches.open(MEDIA_CACHE);
+    await Promise.all(PRECACHE_URLS.map(async (url) => {
+      if (!(await media.match(url, { ignoreVary: true }))) await media.add(fresh(url)).catch(skip);
+    }));
     await self.skipWaiting();
   })());
 });
@@ -155,7 +170,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)));
+    await Promise.all(keys.filter((key) => key !== CACHE && key !== MEDIA_CACHE).map((key) => caches.delete(key)));
     if (self.registration.navigationPreload) await self.registration.navigationPreload.enable();
     await self.clients.claim();
   })());
@@ -165,15 +180,19 @@ self.addEventListener('message', (event) => {
   if (!event.data || event.data.type !== 'CACHE_URLS' || !Array.isArray(event.data.urls)) return;
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
+    const media = await caches.open(MEDIA_CACHE);
     await Promise.all(event.data.urls.map(async (href) => {
       try {
         const url = new URL(href, self.location.origin);
         if (url.origin !== self.location.origin) return;
         if (isPage(url)) {
+          if (await cache.match(url.pathname)) return;
           const response = await fetch(url.pathname, { credentials: 'same-origin' });
           if (isCacheable(response)) await store(cache, url.pathname, response);
-        } else if (isStaticAsset(url) || url.pathname.startsWith('/_next/static/')) {
+        } else if (url.pathname.startsWith('/_next/static/')) {
           if (!(await cache.match(url.href, { ignoreVary: true }))) await cache.add(fresh(url.href));
+        } else if (isStaticAsset(url)) {
+          if (!(await media.match(url.href, { ignoreVary: true }))) await media.add(fresh(url.href));
         }
       } catch (error) { /* offline or gone: skip it */ }
     }));
@@ -205,7 +224,7 @@ const cacheFirst = async (request) => {
 };
 
 const staleWhileRevalidate = async (request) => {
-  const cache = await caches.open(CACHE);
+  const cache = await caches.open(MEDIA_CACHE);
   const cached = await cache.match(request, { ignoreVary: true });
   const network = fetch(request)
     .then((response) => {
